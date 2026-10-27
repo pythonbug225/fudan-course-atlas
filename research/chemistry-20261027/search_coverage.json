@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-27T20:15:29",
+  "generated_at": "2026-10-27T22:28:52",
   "notice": "查询返回不等于已读或证据确认；到分页上限须续查。检索覆盖至少最近约6年，历史更早内容另查。",
   "forum_query_status": {
     "courses": {
@@ -19,1032 +19,1035 @@
     },
     "pinyin": {
       "planned": 822,
-      "returned": 492,
+      "returned": 822,
       "stops": {
-        "empty_page": 488,
-        "page_cap": 4
+        "empty_page": 810,
+        "page_cap": 12
       }
     },
     "fuzzy": {
       "planned": 220,
-      "returned": 0,
-      "stops": {}
+      "returned": 220,
+      "stops": {
+        "page_cap": 179,
+        "empty_page": 41
+      }
     }
   },
   "courses": [
     {
       "course_name": "人工智能在化学中的应用",
       "queries_planned": 4,
-      "queries_returned": 3,
-      "page_cap": 0,
+      "queries_returned": 4,
+      "page_cap": 1,
       "errors": 0
     },
     {
       "course_name": "人工智能在分析化学中的应用",
       "queries_planned": 10,
-      "queries_returned": 8,
-      "page_cap": 0,
+      "queries_returned": 10,
+      "page_cap": 2,
       "errors": 0
     },
     {
       "course_name": "普通化学",
       "queries_planned": 6,
-      "queries_returned": 5,
-      "page_cap": 1,
+      "queries_returned": 6,
+      "page_cap": 2,
       "errors": 0
     },
     {
       "course_name": "普通化学A（上）",
       "queries_planned": 11,
-      "queries_returned": 9,
-      "page_cap": 1,
+      "queries_returned": 11,
+      "page_cap": 3,
       "errors": 0
     },
     {
       "course_name": "普通化学实验I",
       "queries_planned": 17,
-      "queries_returned": 14,
-      "page_cap": 1,
+      "queries_returned": 17,
+      "page_cap": 4,
       "errors": 0
     },
     {
       "course_name": "有机化学C",
       "queries_planned": 16,
-      "queries_returned": 13,
-      "page_cap": 1,
+      "queries_returned": 16,
+      "page_cap": 4,
       "errors": 0
     },
     {
       "course_name": "普通化学C",
       "queries_planned": 10,
-      "queries_returned": 8,
-      "page_cap": 1,
+      "queries_returned": 10,
+      "page_cap": 3,
       "errors": 0
     },
     {
       "course_name": "分析化学AⅠ",
       "queries_planned": 14,
-      "queries_returned": 11,
-      "page_cap": 0,
+      "queries_returned": 14,
+      "page_cap": 2,
       "errors": 0
     },
     {
       "course_name": "无机化学和化学分析实验Ⅰ",
       "queries_planned": 20,
-      "queries_returned": 16,
-      "page_cap": 0,
+      "queries_returned": 20,
+      "page_cap": 4,
       "errors": 0
     },
     {
       "course_name": "物理化学AⅠ",
       "queries_planned": 14,
-      "queries_returned": 11,
-      "page_cap": 0,
+      "queries_returned": 14,
+      "page_cap": 3,
       "errors": 0
     },
     {
       "course_name": "物理化学A I（H）",
       "queries_planned": 15,
-      "queries_returned": 12,
-      "page_cap": 0,
+      "queries_returned": 15,
+      "page_cap": 3,
       "errors": 0
     },
     {
       "course_name": "化工制图",
       "queries_planned": 4,
-      "queries_returned": 3,
+      "queries_returned": 4,
       "page_cap": 0,
       "errors": 0
     },
     {
       "course_name": "有机化学",
       "queries_planned": 8,
-      "queries_returned": 7,
-      "page_cap": 2,
+      "queries_returned": 8,
+      "page_cap": 3,
       "errors": 0
     },
     {
       "course_name": "有机化学实验",
       "queries_planned": 16,
-      "queries_returned": 13,
-      "page_cap": 1,
+      "queries_returned": 16,
+      "page_cap": 4,
       "errors": 0
     },
     {
       "course_name": "有机化学A I",
       "queries_planned": 21,
-      "queries_returned": 17,
-      "page_cap": 2,
+      "queries_returned": 21,
+      "page_cap": 6,
       "errors": 0
     },
     {
       "course_name": "有机化学A I（H）",
       "queries_planned": 21,
-      "queries_returned": 17,
-      "page_cap": 1,
+      "queries_returned": 21,
+      "page_cap": 5,
       "errors": 0
     },
     {
       "course_name": "分析化学",
       "queries_planned": 6,
-      "queries_returned": 5,
+      "queries_returned": 6,
       "page_cap": 0,
       "errors": 0
     },
     {
       "course_name": "分析化学实验",
       "queries_planned": 14,
-      "queries_returned": 11,
-      "page_cap": 0,
+      "queries_returned": 14,
+      "page_cap": 2,
       "errors": 0
     },
     {
       "course_name": "元素化学",
       "queries_planned": 4,
-      "queries_returned": 3,
+      "queries_returned": 4,
       "page_cap": 0,
       "errors": 0
     },
     {
       "course_name": "无机化学与化学分析实验",
       "queries_planned": 16,
-      "queries_returned": 13,
-      "page_cap": 0,
+      "queries_returned": 16,
+      "page_cap": 3,
       "errors": 0
     },
     {
       "course_name": "切问近思",
       "queries_planned": 4,
-      "queries_returned": 3,
-      "page_cap": 0,
+      "queries_returned": 4,
+      "page_cap": 1,
       "errors": 0
     },
     {
       "course_name": "绿色电化学合成",
       "queries_planned": 4,
-      "queries_returned": 3,
-      "page_cap": 0,
+      "queries_returned": 4,
+      "page_cap": 1,
       "errors": 0
     },
     {
       "course_name": "合成化学实验(下)",
       "queries_planned": 5,
-      "queries_returned": 4,
-      "page_cap": 0,
+      "queries_returned": 5,
+      "page_cap": 1,
       "errors": 0
     },
     {
       "course_name": "物理化学AⅢ",
       "queries_planned": 14,
-      "queries_returned": 11,
-      "page_cap": 0,
+      "queries_returned": 14,
+      "page_cap": 3,
       "errors": 0
     },
     {
       "course_name": "物理化学A III(H)",
       "queries_planned": 15,
-      "queries_returned": 12,
-      "page_cap": 0,
+      "queries_returned": 15,
+      "page_cap": 3,
       "errors": 0
     },
     {
       "course_name": "无机化学",
       "queries_planned": 8,
-      "queries_returned": 7,
+      "queries_returned": 8,
       "page_cap": 0,
       "errors": 0
     },
     {
       "course_name": "无机化学（H）",
       "queries_planned": 21,
-      "queries_returned": 17,
-      "page_cap": 0,
+      "queries_returned": 21,
+      "page_cap": 3,
       "errors": 0
     },
     {
       "course_name": "有机合成及反应机理",
       "queries_planned": 4,
-      "queries_returned": 3,
+      "queries_returned": 4,
       "page_cap": 0,
       "errors": 0
     },
     {
       "course_name": "环境化学B",
       "queries_planned": 4,
-      "queries_returned": 3,
-      "page_cap": 0,
+      "queries_returned": 4,
+      "page_cap": 1,
       "errors": 0
     },
     {
       "course_name": "计算化学",
       "queries_planned": 4,
-      "queries_returned": 3,
+      "queries_returned": 4,
       "page_cap": 0,
       "errors": 0
     },
     {
       "course_name": "化工原理",
       "queries_planned": 4,
-      "queries_returned": 3,
+      "queries_returned": 4,
       "page_cap": 0,
       "errors": 0
     },
     {
       "course_name": "应用化学专题",
       "queries_planned": 4,
-      "queries_returned": 3,
+      "queries_returned": 4,
       "page_cap": 0,
       "errors": 0
     },
     {
       "course_name": "光电功能材料",
       "queries_planned": 4,
-      "queries_returned": 3,
+      "queries_returned": 4,
       "page_cap": 0,
       "errors": 0
     },
     {
       "course_name": "分子组装与分子器件",
       "queries_planned": 4,
-      "queries_returned": 3,
+      "queries_returned": 4,
       "page_cap": 0,
       "errors": 0
     },
     {
       "course_name": "配位化学",
       "queries_planned": 4,
-      "queries_returned": 3,
+      "queries_returned": 4,
       "page_cap": 0,
       "errors": 0
     },
     {
       "course_name": "纳米材料与功能器件",
       "queries_planned": 4,
-      "queries_returned": 3,
+      "queries_returned": 4,
       "page_cap": 0,
       "errors": 0
     },
     {
       "course_name": "金属有机化学的研究方法和策略",
       "queries_planned": 16,
-      "queries_returned": 13,
-      "page_cap": 1,
+      "queries_returned": 16,
+      "page_cap": 3,
       "errors": 0
     },
     {
       "course_name": "碳簇化学",
       "queries_planned": 4,
-      "queries_returned": 3,
+      "queries_returned": 4,
       "page_cap": 0,
       "errors": 0
     },
     {
       "course_name": "物理化学实验（上）",
       "queries_planned": 14,
-      "queries_returned": 12,
-      "page_cap": 0,
+      "queries_returned": 14,
+      "page_cap": 2,
       "errors": 0
     },
     {
       "course_name": "计算谱学原理",
       "queries_planned": 4,
-      "queries_returned": 3,
-      "page_cap": 0,
+      "queries_returned": 4,
+      "page_cap": 1,
       "errors": 0
     },
     {
       "course_name": "不对称合成化学",
       "queries_planned": 4,
-      "queries_returned": 3,
-      "page_cap": 0,
+      "queries_returned": 4,
+      "page_cap": 1,
       "errors": 0
     },
     {
       "course_name": "碳基能源化学",
       "queries_planned": 4,
-      "queries_returned": 3,
-      "page_cap": 0,
+      "queries_returned": 4,
+      "page_cap": 1,
       "errors": 0
     },
     {
       "course_name": "DNA合成化学",
       "queries_planned": 4,
-      "queries_returned": 3,
-      "page_cap": 0,
+      "queries_returned": 4,
+      "page_cap": 1,
       "errors": 0
     },
     {
       "course_name": "科研实践",
       "queries_planned": 4,
-      "queries_returned": 3,
+      "queries_returned": 4,
       "page_cap": 0,
       "errors": 0
     },
     {
       "course_name": "量子化学原理及应用(H)",
       "queries_planned": 9,
-      "queries_returned": 7,
-      "page_cap": 0,
+      "queries_returned": 9,
+      "page_cap": 2,
       "errors": 0
     },
     {
       "course_name": "生产实习",
       "queries_planned": 4,
-      "queries_returned": 3,
+      "queries_returned": 4,
       "page_cap": 0,
       "errors": 0
     },
     {
       "course_name": "化学实验室安全",
       "queries_planned": 4,
-      "queries_returned": 3,
-      "page_cap": 0,
+      "queries_returned": 4,
+      "page_cap": 1,
       "errors": 0
     },
     {
       "course_name": "高等无机化学(H)",
       "queries_planned": 21,
-      "queries_returned": 17,
-      "page_cap": 0,
+      "queries_returned": 21,
+      "page_cap": 4,
       "errors": 0
     },
     {
       "course_name": "高等有机化学(H)",
       "queries_planned": 21,
-      "queries_returned": 17,
-      "page_cap": 1,
+      "queries_returned": 21,
+      "page_cap": 5,
       "errors": 0
     },
     {
       "course_name": "高等无机化学",
       "queries_planned": 16,
-      "queries_returned": 13,
-      "page_cap": 0,
+      "queries_returned": 16,
+      "page_cap": 3,
       "errors": 0
     },
     {
       "course_name": "高等有机化学",
       "queries_planned": 16,
-      "queries_returned": 13,
-      "page_cap": 1,
+      "queries_returned": 16,
+      "page_cap": 4,
       "errors": 0
     },
     {
       "course_name": "量子化学原理及应用",
       "queries_planned": 4,
-      "queries_returned": 3,
-      "page_cap": 0,
+      "queries_returned": 4,
+      "page_cap": 1,
       "errors": 0
     },
     {
       "course_name": "选拔性考试研究与实践",
       "queries_planned": 4,
-      "queries_returned": 3,
-      "page_cap": 0,
+      "queries_returned": 4,
+      "page_cap": 1,
       "errors": 0
     },
     {
       "course_name": "工程伦理",
       "queries_planned": 4,
-      "queries_returned": 3,
-      "page_cap": 0,
+      "queries_returned": 4,
+      "page_cap": 1,
       "errors": 0
     },
     {
       "course_name": "科学英语写作",
       "queries_planned": 4,
-      "queries_returned": 3,
-      "page_cap": 0,
+      "queries_returned": 4,
+      "page_cap": 1,
       "errors": 0
     },
     {
       "course_name": "科研论文写作",
       "queries_planned": 4,
-      "queries_returned": 3,
-      "page_cap": 0,
+      "queries_returned": 4,
+      "page_cap": 1,
       "errors": 0
     },
     {
       "course_name": "无机合成",
       "queries_planned": 4,
-      "queries_returned": 3,
-      "page_cap": 0,
+      "queries_returned": 4,
+      "page_cap": 1,
       "errors": 0
     },
     {
       "course_name": "高等仪器分析",
       "queries_planned": 10,
-      "queries_returned": 8,
-      "page_cap": 0,
+      "queries_returned": 10,
+      "page_cap": 2,
       "errors": 0
     },
     {
       "course_name": "统计热力学",
       "queries_planned": 4,
-      "queries_returned": 3,
-      "page_cap": 0,
+      "queries_returned": 4,
+      "page_cap": 1,
       "errors": 0
     },
     {
       "course_name": "色谱理论基础",
       "queries_planned": 4,
-      "queries_returned": 3,
+      "queries_returned": 4,
       "page_cap": 0,
       "errors": 0
     },
     {
       "course_name": "生物质谱仪器和质谱分析",
       "queries_planned": 4,
-      "queries_returned": 3,
-      "page_cap": 0,
+      "queries_returned": 4,
+      "page_cap": 1,
       "errors": 0
     },
     {
       "course_name": "生物色谱",
       "queries_planned": 4,
-      "queries_returned": 3,
-      "page_cap": 0,
+      "queries_returned": 4,
+      "page_cap": 1,
       "errors": 0
     },
     {
       "course_name": "物理有机化学",
       "queries_planned": 16,
-      "queries_returned": 13,
-      "page_cap": 1,
+      "queries_returned": 16,
+      "page_cap": 4,
       "errors": 0
     },
     {
       "course_name": "电极过程动力学",
       "queries_planned": 4,
-      "queries_returned": 3,
+      "queries_returned": 4,
       "page_cap": 0,
       "errors": 0
     },
     {
       "course_name": "高等化学反应工程和工艺",
       "queries_planned": 4,
-      "queries_returned": 3,
-      "page_cap": 0,
+      "queries_returned": 4,
+      "page_cap": 1,
       "errors": 0
     },
     {
       "course_name": "功能分子材料和生物材料",
       "queries_planned": 4,
-      "queries_returned": 3,
-      "page_cap": 0,
+      "queries_returned": 4,
+      "page_cap": 1,
       "errors": 0
     },
     {
       "course_name": "金属有机化学",
       "queries_planned": 16,
-      "queries_returned": 13,
-      "page_cap": 1,
+      "queries_returned": 16,
+      "page_cap": 4,
       "errors": 0
     },
     {
       "course_name": "有机结构分析",
       "queries_planned": 4,
-      "queries_returned": 3,
+      "queries_returned": 4,
       "page_cap": 0,
       "errors": 0
     },
     {
       "course_name": "蛋白质组学的新技术和新方法",
       "queries_planned": 4,
-      "queries_returned": 3,
-      "page_cap": 0,
+      "queries_returned": 4,
+      "page_cap": 1,
       "errors": 0
     },
     {
       "course_name": "碳簇化学",
       "queries_planned": 4,
-      "queries_returned": 3,
+      "queries_returned": 4,
       "page_cap": 0,
       "errors": 0
     },
     {
       "course_name": "新催化材料",
       "queries_planned": 4,
-      "queries_returned": 3,
-      "page_cap": 0,
+      "queries_returned": 4,
+      "page_cap": 1,
       "errors": 0
     },
     {
       "course_name": "分子反应动力学",
       "queries_planned": 4,
-      "queries_returned": 3,
+      "queries_returned": 4,
       "page_cap": 0,
       "errors": 0
     },
     {
       "course_name": "催化从实验室到工业开发",
       "queries_planned": 4,
-      "queries_returned": 3,
-      "page_cap": 0,
+      "queries_returned": 4,
+      "page_cap": 1,
       "errors": 0
     },
     {
       "course_name": "化学工艺学",
       "queries_planned": 4,
-      "queries_returned": 3,
-      "page_cap": 0,
+      "queries_returned": 4,
+      "page_cap": 1,
       "errors": 0
     },
     {
       "course_name": "二氧化钛纳米材料合成、性质及光催化应用",
       "queries_planned": 4,
-      "queries_returned": 3,
-      "page_cap": 0,
+      "queries_returned": 4,
+      "page_cap": 1,
       "errors": 0
     },
     {
       "course_name": "固体化学",
       "queries_planned": 4,
-      "queries_returned": 3,
-      "page_cap": 0,
+      "queries_returned": 4,
+      "page_cap": 1,
       "errors": 0
     },
     {
       "course_name": "配位化学",
       "queries_planned": 4,
-      "queries_returned": 3,
+      "queries_returned": 4,
       "page_cap": 0,
       "errors": 0
     },
     {
       "course_name": "金属有机化学在有机合成中应用",
       "queries_planned": 16,
-      "queries_returned": 13,
-      "page_cap": 1,
+      "queries_returned": 16,
+      "page_cap": 4,
       "errors": 0
     },
     {
       "course_name": "固态化学",
       "queries_planned": 4,
-      "queries_returned": 3,
-      "page_cap": 0,
+      "queries_returned": 4,
+      "page_cap": 1,
       "errors": 0
     },
     {
       "course_name": "XPS技术及其在化学中的应用",
       "queries_planned": 4,
-      "queries_returned": 3,
-      "page_cap": 0,
+      "queries_returned": 4,
+      "page_cap": 1,
       "errors": 0
     },
     {
       "course_name": "催化反应机理及其研究方法",
       "queries_planned": 4,
-      "queries_returned": 3,
-      "page_cap": 0,
+      "queries_returned": 4,
+      "page_cap": 1,
       "errors": 0
     },
     {
       "course_name": "分子聚集体材料和超薄膜",
       "queries_planned": 4,
-      "queries_returned": 3,
-      "page_cap": 0,
+      "queries_returned": 4,
+      "page_cap": 1,
       "errors": 0
     },
     {
       "course_name": "科学仪器基础",
       "queries_planned": 4,
-      "queries_returned": 3,
-      "page_cap": 0,
+      "queries_returned": 4,
+      "page_cap": 1,
       "errors": 0
     },
     {
       "course_name": "元素发现史",
       "queries_planned": 4,
-      "queries_returned": 3,
+      "queries_returned": 4,
       "page_cap": 0,
       "errors": 0
     },
     {
       "course_name": "微流控芯片实验室",
       "queries_planned": 4,
-      "queries_returned": 3,
+      "queries_returned": 4,
       "page_cap": 0,
       "errors": 0
     },
     {
       "course_name": "强国之路：形势、政策与使命Ⅲ",
       "queries_planned": 8,
-      "queries_returned": 6,
-      "page_cap": 0,
+      "queries_returned": 8,
+      "page_cap": 2,
       "errors": 0
     },
     {
       "course_name": "人工智能化学计算模拟",
       "queries_planned": 4,
-      "queries_returned": 3,
-      "page_cap": 0,
+      "queries_returned": 4,
+      "page_cap": 1,
       "errors": 0
     },
     {
       "course_name": "有机化学",
       "queries_planned": 8,
-      "queries_returned": 7,
-      "page_cap": 2,
+      "queries_returned": 8,
+      "page_cap": 3,
       "errors": 0
     },
     {
       "course_name": "普通化学A（下）",
       "queries_planned": 11,
-      "queries_returned": 9,
-      "page_cap": 1,
+      "queries_returned": 11,
+      "page_cap": 3,
       "errors": 0
     },
     {
       "course_name": "有机化学实验I",
       "queries_planned": 23,
-      "queries_returned": 19,
-      "page_cap": 1,
+      "queries_returned": 23,
+      "page_cap": 5,
       "errors": 0
     },
     {
       "course_name": "分析化学AⅡ",
       "queries_planned": 14,
-      "queries_returned": 11,
-      "page_cap": 0,
+      "queries_returned": 14,
+      "page_cap": 1,
       "errors": 0
     },
     {
       "course_name": "分析化学A II(H)",
       "queries_planned": 15,
-      "queries_returned": 12,
-      "page_cap": 0,
+      "queries_returned": 15,
+      "page_cap": 3,
       "errors": 0
     },
     {
       "course_name": "合成化学实验(上)",
       "queries_planned": 5,
-      "queries_returned": 4,
-      "page_cap": 0,
+      "queries_returned": 5,
+      "page_cap": 1,
       "errors": 0
     },
     {
       "course_name": "物理化学AⅡ",
       "queries_planned": 14,
-      "queries_returned": 11,
-      "page_cap": 0,
+      "queries_returned": 14,
+      "page_cap": 3,
       "errors": 0
     },
     {
       "course_name": "物理化学A II(H)",
       "queries_planned": 15,
-      "queries_returned": 12,
-      "page_cap": 0,
+      "queries_returned": 15,
+      "page_cap": 3,
       "errors": 0
     },
     {
       "course_name": "谱学导论",
       "queries_planned": 4,
-      "queries_returned": 3,
+      "queries_returned": 4,
       "page_cap": 0,
       "errors": 0
     },
     {
       "course_name": "数理统计方法在化学中的应用",
       "queries_planned": 4,
-      "queries_returned": 3,
+      "queries_returned": 4,
       "page_cap": 0,
       "errors": 0
     },
     {
       "course_name": "化学专业英语",
       "queries_planned": 4,
-      "queries_returned": 3,
+      "queries_returned": 4,
       "page_cap": 0,
       "errors": 0
     },
     {
       "course_name": "有机化学A II",
       "queries_planned": 21,
-      "queries_returned": 17,
-      "page_cap": 2,
+      "queries_returned": 21,
+      "page_cap": 6,
       "errors": 0
     },
     {
       "course_name": "有机化学A II (H)",
       "queries_planned": 21,
-      "queries_returned": 17,
-      "page_cap": 1,
+      "queries_returned": 21,
+      "page_cap": 5,
       "errors": 0
     },
     {
       "course_name": "生命中的化学",
       "queries_planned": 4,
-      "queries_returned": 3,
+      "queries_returned": 4,
       "page_cap": 0,
       "errors": 0
     },
     {
       "course_name": "微流控生命分析",
       "queries_planned": 4,
-      "queries_returned": 3,
+      "queries_returned": 4,
       "page_cap": 0,
       "errors": 0
     },
     {
       "course_name": "仪器分析实验",
       "queries_planned": 10,
-      "queries_returned": 8,
-      "page_cap": 0,
+      "queries_returned": 10,
+      "page_cap": 2,
       "errors": 0
     },
     {
       "course_name": "化学前沿专题",
       "queries_planned": 4,
-      "queries_returned": 3,
-      "page_cap": 0,
+      "queries_returned": 4,
+      "page_cap": 1,
       "errors": 0
     },
     {
       "course_name": "近代分析化学",
       "queries_planned": 10,
-      "queries_returned": 8,
-      "page_cap": 0,
+      "queries_returned": 10,
+      "page_cap": 1,
       "errors": 0
     },
     {
       "course_name": "胶体化学",
       "queries_planned": 4,
-      "queries_returned": 3,
+      "queries_returned": 4,
       "page_cap": 0,
       "errors": 0
     },
     {
       "course_name": "新型无机材料",
       "queries_planned": 4,
-      "queries_returned": 3,
+      "queries_returned": 4,
       "page_cap": 0,
       "errors": 0
     },
     {
       "course_name": "化学反应工程",
       "queries_planned": 4,
-      "queries_returned": 3,
+      "queries_returned": 4,
       "page_cap": 0,
       "errors": 0
     },
     {
       "course_name": "工业化学",
       "queries_planned": 4,
-      "queries_returned": 3,
+      "queries_returned": 4,
       "page_cap": 0,
       "errors": 0
     },
     {
       "course_name": "溶胶-凝胶化学及实验",
       "queries_planned": 4,
-      "queries_returned": 3,
-      "page_cap": 0,
+      "queries_returned": 4,
+      "page_cap": 1,
       "errors": 0
     },
     {
       "course_name": "药物化学",
       "queries_planned": 4,
-      "queries_returned": 3,
+      "queries_returned": 4,
       "page_cap": 0,
       "errors": 0
     },
     {
       "course_name": "现代化学专题（能源化学）",
       "queries_planned": 5,
-      "queries_returned": 4,
-      "page_cap": 0,
+      "queries_returned": 5,
+      "page_cap": 1,
       "errors": 0
     },
     {
       "course_name": "高能化学电源",
       "queries_planned": 4,
-      "queries_returned": 3,
+      "queries_returned": 4,
       "page_cap": 0,
       "errors": 0
     },
     {
       "course_name": "探究性仪器分析实验",
       "queries_planned": 10,
-      "queries_returned": 8,
-      "page_cap": 0,
+      "queries_returned": 10,
+      "page_cap": 1,
       "errors": 0
     },
     {
       "course_name": "物理化学实验（下）",
       "queries_planned": 14,
-      "queries_returned": 12,
-      "page_cap": 0,
+      "queries_returned": 14,
+      "page_cap": 2,
       "errors": 0
     },
     {
       "course_name": "物理化学实验（下）(H)",
       "queries_planned": 18,
-      "queries_returned": 15,
-      "page_cap": 0,
+      "queries_returned": 18,
+      "page_cap": 3,
       "errors": 0
     },
     {
       "course_name": "化学生物学基础",
       "queries_planned": 4,
-      "queries_returned": 3,
+      "queries_returned": 4,
       "page_cap": 0,
       "errors": 0
     },
     {
       "course_name": "毕业论文",
       "queries_planned": 4,
-      "queries_returned": 3,
-      "page_cap": 0,
+      "queries_returned": 4,
+      "page_cap": 1,
       "errors": 0
     },
     {
       "course_name": "综合化学实验I",
       "queries_planned": 8,
-      "queries_returned": 6,
-      "page_cap": 0,
+      "queries_returned": 8,
+      "page_cap": 2,
       "errors": 0
     },
     {
       "course_name": "高等结构分析",
       "queries_planned": 4,
-      "queries_returned": 3,
-      "page_cap": 0,
+      "queries_returned": 4,
+      "page_cap": 1,
       "errors": 0
     },
     {
       "course_name": "英文化学论文写作",
       "queries_planned": 4,
-      "queries_returned": 3,
-      "page_cap": 0,
+      "queries_returned": 4,
+      "page_cap": 1,
       "errors": 0
     },
     {
       "course_name": "生物无机化学进展",
       "queries_planned": 16,
-      "queries_returned": 13,
-      "page_cap": 0,
+      "queries_returned": 16,
+      "page_cap": 3,
       "errors": 0
     },
     {
       "course_name": "金属有机化学进展",
       "queries_planned": 16,
-      "queries_returned": 13,
-      "page_cap": 1,
+      "queries_returned": 16,
+      "page_cap": 4,
       "errors": 0
     },
     {
       "course_name": "稀土化学",
       "queries_planned": 4,
-      "queries_returned": 3,
-      "page_cap": 0,
+      "queries_returned": 4,
+      "page_cap": 1,
       "errors": 0
     },
     {
       "course_name": "现代有机金属化学",
       "queries_planned": 4,
-      "queries_returned": 3,
-      "page_cap": 0,
+      "queries_returned": 4,
+      "page_cap": 1,
       "errors": 0
     },
     {
       "course_name": "分析电化学",
       "queries_planned": 4,
-      "queries_returned": 3,
-      "page_cap": 0,
+      "queries_returned": 4,
+      "page_cap": 1,
       "errors": 0
     },
     {
       "course_name": "分子催化和表面化学",
       "queries_planned": 4,
-      "queries_returned": 3,
-      "page_cap": 0,
+      "queries_returned": 4,
+      "page_cap": 1,
       "errors": 0
     },
     {
       "course_name": "蛋白质化学/生物无机化学",
       "queries_planned": 16,
-      "queries_returned": 13,
-      "page_cap": 0,
+      "queries_returned": 16,
+      "page_cap": 3,
       "errors": 0
     },
     {
       "course_name": "有机合成化学I",
       "queries_planned": 8,
-      "queries_returned": 6,
-      "page_cap": 0,
+      "queries_returned": 8,
+      "page_cap": 2,
       "errors": 0
     },
     {
       "course_name": "高等化学分析",
       "queries_planned": 4,
-      "queries_returned": 3,
-      "page_cap": 0,
+      "queries_returned": 4,
+      "page_cap": 1,
       "errors": 0
     },
     {
       "course_name": "色谱分析",
       "queries_planned": 4,
-      "queries_returned": 3,
+      "queries_returned": 4,
       "page_cap": 0,
       "errors": 0
     },
     {
       "course_name": "多相催化原理",
       "queries_planned": 4,
-      "queries_returned": 3,
-      "page_cap": 0,
+      "queries_returned": 4,
+      "page_cap": 1,
       "errors": 0
     },
     {
       "course_name": "绿色化学",
       "queries_planned": 4,
-      "queries_returned": 3,
-      "page_cap": 0,
+      "queries_returned": 4,
+      "page_cap": 1,
       "errors": 0
     },
     {
       "course_name": "单分子科学原理与模型",
       "queries_planned": 4,
-      "queries_returned": 3,
-      "page_cap": 0,
+      "queries_returned": 4,
+      "page_cap": 1,
       "errors": 0
     },
     {
       "course_name": "电子显微基础与实验",
       "queries_planned": 4,
-      "queries_returned": 3,
-      "page_cap": 0,
+      "queries_returned": 4,
+      "page_cap": 1,
       "errors": 0
     },
     {
       "course_name": "分析化学进展",
       "queries_planned": 10,
-      "queries_returned": 8,
-      "page_cap": 0,
+      "queries_returned": 10,
+      "page_cap": 2,
       "errors": 0
     },
     {
       "course_name": "X-射线衍射分析技术",
       "queries_planned": 4,
-      "queries_returned": 3,
-      "page_cap": 0,
+      "queries_returned": 4,
+      "page_cap": 1,
       "errors": 0
     },
     {
       "course_name": "电化学研究前沿介绍",
       "queries_planned": 4,
-      "queries_returned": 3,
-      "page_cap": 0,
+      "queries_returned": 4,
+      "page_cap": 1,
       "errors": 0
     },
     {
       "course_name": "高能电源化学",
       "queries_planned": 4,
-      "queries_returned": 3,
-      "page_cap": 0,
+      "queries_returned": 4,
+      "page_cap": 1,
       "errors": 0
     },
     {
       "course_name": "碳硼烷化学",
       "queries_planned": 4,
-      "queries_returned": 3,
-      "page_cap": 0,
+      "queries_returned": 4,
+      "page_cap": 1,
       "errors": 0
     },
     {
       "course_name": "纳米材料生物分离分析",
       "queries_planned": 4,
-      "queries_returned": 3,
-      "page_cap": 0,
+      "queries_returned": 4,
+      "page_cap": 1,
       "errors": 0
     },
     {
       "course_name": "有机合成化学II",
       "queries_planned": 8,
-      "queries_returned": 6,
-      "page_cap": 0,
+      "queries_returned": 8,
+      "page_cap": 2,
       "errors": 0
     },
     {
       "course_name": "化学与人类",
       "queries_planned": 4,
-      "queries_returned": 3,
+      "queries_returned": 4,
       "page_cap": 0,
       "errors": 0
     },
     {
       "course_name": "强国之路：形势、政策与使命Ⅱ",
       "queries_planned": 8,
-      "queries_returned": 6,
-      "page_cap": 0,
+      "queries_returned": 8,
+      "page_cap": 2,
       "errors": 0
     },
     {
       "course_name": "强国之路：形势、政策与使命Ⅳ",
       "queries_planned": 8,
-      "queries_returned": 6,
-      "page_cap": 0,
+      "queries_returned": 8,
+      "page_cap": 2,
       "errors": 0
     }
   ]

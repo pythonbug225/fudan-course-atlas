@@ -1,0 +1,3578 @@
+{
+  "schema_version": "1.0",
+  "created_at": "2026-10-27",
+  "source": "parent alias_registry.json (145 canonical course entries); this is a public-web/WeChat coverage ledger, not a reclassification of six-group chat evidence.",
+  "course_count": 145,
+  "count_by_status": {
+    "not_individually_searched": 89,
+    "opened_source_body_or_exact_course_context": 9,
+    "search_result_or_index_only_no_review_body": 1,
+    "topic_family_sampled_not_individual_alias_audit": 46
+  },
+  "important_limit": "“registered_aliases”列完整登记的课程别名；只有queried_course_aliases是本次检索实际触达的课程词。没有为其余拼音/首字母/口语简称做穷尽式核验。",
+  "courses": [
+    {
+      "course_code": "AIS310014",
+      "course_name": "人工智能在化学中的应用",
+      "registered_aliases": [
+        "人工智能在化学中的应用",
+        "rengongzhinengzaihuaxuezhongdeyingyong",
+        "rgznzhxzdyy"
+      ],
+      "queried_course_aliases": [],
+      "unqueried_registered_aliases": [
+        "人工智能在化学中的应用",
+        "rengongzhinengzaihuaxuezhongdeyingyong",
+        "rgznzhxzdyy"
+      ],
+      "coverage_status": "not_individually_searched",
+      "associated_public_record_ids": [],
+      "note": "未逐门检索本课程及其全部别名。"
+    },
+    {
+      "course_code": "AIT310024",
+      "course_name": "人工智能在分析化学中的应用",
+      "registered_aliases": [
+        "人工智能在分析化学中的应用",
+        "人工智能在分化中的应用",
+        "分化",
+        "rengongzhinengzaifenxihuaxuezhongdeyingyong",
+        "rgznzfxhxzdyy",
+        "rengongzhinengzaifenhuazhongdeyingyong",
+        "rgznzfhzdyy",
+        "fenhua"
+      ],
+      "queried_course_aliases": [],
+      "unqueried_registered_aliases": [
+        "人工智能在分析化学中的应用",
+        "人工智能在分化中的应用",
+        "分化",
+        "rengongzhinengzaifenxihuaxuezhongdeyingyong",
+        "rgznzfxhxzdyy",
+        "rengongzhinengzaifenhuazhongdeyingyong",
+        "rgznzfhzdyy",
+        "fenhua"
+      ],
+      "coverage_status": "topic_family_sampled_not_individual_alias_audit",
+      "associated_public_record_ids": [],
+      "note": "相关学科主题被抽样检索；本课程全名、全部简称、全拼和首字母未逐个检索/打开正文。"
+    },
+    {
+      "course_code": "CHEM10001",
+      "course_name": "普通化学",
+      "registered_aliases": [
+        "普通化学",
+        "普化",
+        "putonghuaxue",
+        "pthx",
+        "puhua"
+      ],
+      "queried_course_aliases": [
+        "普通化学"
+      ],
+      "unqueried_registered_aliases": [
+        "普化",
+        "putonghuaxue",
+        "pthx",
+        "puhua"
+      ],
+      "coverage_status": "opened_source_body_or_exact_course_context",
+      "associated_public_record_ids": [
+        "WCH-PUB-001"
+      ],
+      "note": "正文已打开；只能按source_title_in_body给出的课程家族/课程名关联，具体边界见 records.json。此状态不等于学生评价。"
+    },
+    {
+      "course_code": "CHEM10003",
+      "course_name": "普通化学A(上)",
+      "registered_aliases": [
+        "普通化学A(上)",
+        "普通化学A上",
+        "普化A(上)",
+        "普化",
+        "putonghuaxueashang",
+        "pthxas",
+        "puhuaashang",
+        "phas",
+        "puhua"
+      ],
+      "queried_course_aliases": [
+        "普通化学A"
+      ],
+      "unqueried_registered_aliases": [
+        "普通化学A(上)",
+        "普通化学A上",
+        "普化A(上)",
+        "普化",
+        "putonghuaxueashang",
+        "pthxas",
+        "puhuaashang",
+        "phas",
+        "puhua"
+      ],
+      "coverage_status": "opened_source_body_or_exact_course_context",
+      "associated_public_record_ids": [
+        "WCH-PUB-005"
+      ],
+      "note": "正文已打开；只能按source_title_in_body给出的课程家族/课程名关联，具体边界见 records.json。此状态不等于学生评价。"
+    },
+    {
+      "course_code": "CHEM10005",
+      "course_name": "普通化学实验I",
+      "registered_aliases": [
+        "普通化学实验I",
+        "普通化学实验",
+        "普化实验I",
+        "普化",
+        "普化实验",
+        "putonghuaxueshiyani",
+        "pthxsyi",
+        "putonghuaxueshiyan",
+        "pthxsy",
+        "puhuashiyani",
+        "phsyi",
+        "puhua",
+        "puhuashiyan",
+        "phsy"
+      ],
+      "queried_course_aliases": [
+        "普通化学实验"
+      ],
+      "unqueried_registered_aliases": [
+        "普通化学实验I",
+        "普化实验I",
+        "普化",
+        "普化实验",
+        "putonghuaxueshiyani",
+        "pthxsyi",
+        "putonghuaxueshiyan",
+        "pthxsy",
+        "puhuashiyani",
+        "phsyi",
+        "puhua",
+        "puhuashiyan",
+        "phsy"
+      ],
+      "coverage_status": "search_result_or_index_only_no_review_body",
+      "associated_public_record_ids": [],
+      "note": "相关课程名称进入公开搜索或官方课程索引，但没有打开到可归属该门课程的学生评价正文。"
+    },
+    {
+      "course_code": "CHEM10007",
+      "course_name": "有机化学C",
+      "registered_aliases": [
+        "有机化学C",
+        "有化C",
+        "有化",
+        "有机C",
+        "有机",
+        "youjihuaxuec",
+        "yjhxc",
+        "youhuac",
+        "yhc",
+        "youhua",
+        "youjic",
+        "yjc",
+        "youji"
+      ],
+      "queried_course_aliases": [],
+      "unqueried_registered_aliases": [
+        "有机化学C",
+        "有化C",
+        "有化",
+        "有机C",
+        "有机",
+        "youjihuaxuec",
+        "yjhxc",
+        "youhuac",
+        "yhc",
+        "youhua",
+        "youjic",
+        "yjc",
+        "youji"
+      ],
+      "coverage_status": "topic_family_sampled_not_individual_alias_audit",
+      "associated_public_record_ids": [],
+      "note": "相关学科主题被抽样检索；本课程全名、全部简称、全拼和首字母未逐个检索/打开正文。"
+    },
+    {
+      "course_code": "CHEM10008",
+      "course_name": "普通化学C",
+      "registered_aliases": [
+        "普通化学C",
+        "普化C",
+        "普化",
+        "putonghuaxuec",
+        "pthxc",
+        "puhuac",
+        "phc",
+        "puhua"
+      ],
+      "queried_course_aliases": [],
+      "unqueried_registered_aliases": [
+        "普通化学C",
+        "普化C",
+        "普化",
+        "putonghuaxuec",
+        "pthxc",
+        "puhuac",
+        "phc",
+        "puhua"
+      ],
+      "coverage_status": "topic_family_sampled_not_individual_alias_audit",
+      "associated_public_record_ids": [],
+      "note": "相关学科主题被抽样检索；本课程全名、全部简称、全拼和首字母未逐个检索/打开正文。"
+    },
+    {
+      "course_code": "CHEM20001",
+      "course_name": "分析化学AI",
+      "registered_aliases": [
+        "分析化学AI",
+        "分析化学A",
+        "分化AI",
+        "分化",
+        "fenxihuaxueai",
+        "fxhxai",
+        "fenxihuaxuea",
+        "fxhxa",
+        "fenhuaai",
+        "fhai",
+        "fenhua"
+      ],
+      "queried_course_aliases": [],
+      "unqueried_registered_aliases": [
+        "分析化学AI",
+        "分析化学A",
+        "分化AI",
+        "分化",
+        "fenxihuaxueai",
+        "fxhxai",
+        "fenxihuaxuea",
+        "fxhxa",
+        "fenhuaai",
+        "fhai",
+        "fenhua"
+      ],
+      "coverage_status": "topic_family_sampled_not_individual_alias_audit",
+      "associated_public_record_ids": [],
+      "note": "相关学科主题被抽样检索；本课程全名、全部简称、全拼和首字母未逐个检索/打开正文。"
+    },
+    {
+      "course_code": "CHEM20003",
+      "course_name": "无机化学和化学分析实验I",
+      "registered_aliases": [
+        "无机化学和化学分析实验I",
+        "无机化学和化学分析实验",
+        "无化和化学分析实验I",
+        "无化",
+        "无机和化学分析实验I",
+        "无机",
+        "wujihuaxuehehuaxuefenxishiyani",
+        "wjhxhhxfxsyi",
+        "wujihuaxuehehuaxuefenxishiyan",
+        "wjhxhhxfxsy",
+        "wuhuahehuaxuefenxishiyani",
+        "whhhxfxsyi",
+        "wuhua",
+        "wujihehuaxuefenxishiyani",
+        "wjhhxfxsyi",
+        "wuji"
+      ],
+      "queried_course_aliases": [
+        "无机化学和化学分析实验"
+      ],
+      "unqueried_registered_aliases": [
+        "无机化学和化学分析实验I",
+        "无化和化学分析实验I",
+        "无化",
+        "无机和化学分析实验I",
+        "无机",
+        "wujihuaxuehehuaxuefenxishiyani",
+        "wjhxhhxfxsyi",
+        "wujihuaxuehehuaxuefenxishiyan",
+        "wjhxhhxfxsy",
+        "wuhuahehuaxuefenxishiyani",
+        "whhhxfxsyi",
+        "wuhua",
+        "wujihehuaxuefenxishiyani",
+        "wjhhxfxsyi",
+        "wuji"
+      ],
+      "coverage_status": "opened_source_body_or_exact_course_context",
+      "associated_public_record_ids": [
+        "WCH-PUB-004",
+        "WCH-PUB-006"
+      ],
+      "note": "正文已打开；只能按source_title_in_body给出的课程家族/课程名关联，具体边界见 records.json。此状态不等于学生评价。"
+    },
+    {
+      "course_code": "CHEM20005",
+      "course_name": "物理化学AI",
+      "registered_aliases": [
+        "物理化学AI",
+        "物理化学A",
+        "物化AI",
+        "物化",
+        "wulihuaxueai",
+        "wlhxai",
+        "wulihuaxuea",
+        "wlhxa",
+        "wuhuaai",
+        "whai",
+        "wuhua"
+      ],
+      "queried_course_aliases": [],
+      "unqueried_registered_aliases": [
+        "物理化学AI",
+        "物理化学A",
+        "物化AI",
+        "物化",
+        "wulihuaxueai",
+        "wlhxai",
+        "wulihuaxuea",
+        "wlhxa",
+        "wuhuaai",
+        "whai",
+        "wuhua"
+      ],
+      "coverage_status": "topic_family_sampled_not_individual_alias_audit",
+      "associated_public_record_ids": [],
+      "note": "相关学科主题被抽样检索；本课程全名、全部简称、全拼和首字母未逐个检索/打开正文。"
+    },
+    {
+      "course_code": "CHEM20005h",
+      "course_name": "物理化学A I(H)",
+      "registered_aliases": [
+        "物理化学A I(H)",
+        "物理化学AIH",
+        "物理化学A I",
+        "物化A I(H)",
+        "物化",
+        "wulihuaxueaih",
+        "wlhxaih",
+        "wulihuaxueai",
+        "wlhxai",
+        "wuhuaaih",
+        "whaih",
+        "wuhua"
+      ],
+      "queried_course_aliases": [],
+      "unqueried_registered_aliases": [
+        "物理化学A I(H)",
+        "物理化学AIH",
+        "物理化学A I",
+        "物化A I(H)",
+        "物化",
+        "wulihuaxueaih",
+        "wlhxaih",
+        "wulihuaxueai",
+        "wlhxai",
+        "wuhuaaih",
+        "whaih",
+        "wuhua"
+      ],
+      "coverage_status": "topic_family_sampled_not_individual_alias_audit",
+      "associated_public_record_ids": [],
+      "note": "相关学科主题被抽样检索；本课程全名、全部简称、全拼和首字母未逐个检索/打开正文。"
+    },
+    {
+      "course_code": "CHEM20010",
+      "course_name": "化工制图",
+      "registered_aliases": [
+        "化工制图",
+        "huagongzhitu",
+        "hgzt"
+      ],
+      "queried_course_aliases": [],
+      "unqueried_registered_aliases": [
+        "化工制图",
+        "huagongzhitu",
+        "hgzt"
+      ],
+      "coverage_status": "not_individually_searched",
+      "associated_public_record_ids": [],
+      "note": "未逐门检索本课程及其全部别名。"
+    },
+    {
+      "course_code": "CHEM20011",
+      "course_name": "有机化学",
+      "registered_aliases": [
+        "有机化学",
+        "有化",
+        "有机",
+        "youjihuaxue",
+        "yjhx",
+        "youhua",
+        "youji"
+      ],
+      "queried_course_aliases": [],
+      "unqueried_registered_aliases": [
+        "有机化学",
+        "有化",
+        "有机",
+        "youjihuaxue",
+        "yjhx",
+        "youhua",
+        "youji"
+      ],
+      "coverage_status": "topic_family_sampled_not_individual_alias_audit",
+      "associated_public_record_ids": [],
+      "note": "相关学科主题被抽样检索；本课程全名、全部简称、全拼和首字母未逐个检索/打开正文。"
+    },
+    {
+      "course_code": "CHEM20012",
+      "course_name": "有机化学实验",
+      "registered_aliases": [
+        "有机化学实验",
+        "有化实验",
+        "有化",
+        "有机实验",
+        "有机",
+        "youjihuaxueshiyan",
+        "yjhxsy",
+        "youhuashiyan",
+        "yhsy",
+        "youhua",
+        "youjishiyan",
+        "yjsy",
+        "youji"
+      ],
+      "queried_course_aliases": [],
+      "unqueried_registered_aliases": [
+        "有机化学实验",
+        "有化实验",
+        "有化",
+        "有机实验",
+        "有机",
+        "youjihuaxueshiyan",
+        "yjhxsy",
+        "youhuashiyan",
+        "yhsy",
+        "youhua",
+        "youjishiyan",
+        "yjsy",
+        "youji"
+      ],
+      "coverage_status": "topic_family_sampled_not_individual_alias_audit",
+      "associated_public_record_ids": [],
+      "note": "相关学科主题被抽样检索；本课程全名、全部简称、全拼和首字母未逐个检索/打开正文。"
+    },
+    {
+      "course_code": "CHEM20013",
+      "course_name": "有机化学A I",
+      "registered_aliases": [
+        "有机化学A I",
+        "有机化学AI",
+        "有机化学A",
+        "有化A I",
+        "有化",
+        "有机A I",
+        "有机",
+        "youjihuaxueai",
+        "yjhxai",
+        "youjihuaxuea",
+        "yjhxa",
+        "youhuaai",
+        "yhai",
+        "youhua",
+        "youjiai",
+        "yjai",
+        "youji"
+      ],
+      "queried_course_aliases": [
+        "有机化学A"
+      ],
+      "unqueried_registered_aliases": [
+        "有机化学A I",
+        "有机化学AI",
+        "有化A I",
+        "有化",
+        "有机A I",
+        "有机",
+        "youjihuaxueai",
+        "yjhxai",
+        "youjihuaxuea",
+        "yjhxa",
+        "youhuaai",
+        "yhai",
+        "youhua",
+        "youjiai",
+        "yjai",
+        "youji"
+      ],
+      "coverage_status": "opened_source_body_or_exact_course_context",
+      "associated_public_record_ids": [
+        "WCH-PUB-002"
+      ],
+      "note": "正文已打开；只能按source_title_in_body给出的课程家族/课程名关联，具体边界见 records.json。此状态不等于学生评价。"
+    },
+    {
+      "course_code": "CHEM20013h",
+      "course_name": "有机化学A I(H)",
+      "registered_aliases": [
+        "有机化学A I(H)",
+        "有机化学AIH",
+        "有机化学A I",
+        "有化A I(H)",
+        "有化",
+        "有机A I(H)",
+        "有机",
+        "youjihuaxueaih",
+        "yjhxaih",
+        "youjihuaxueai",
+        "yjhxai",
+        "youhuaaih",
+        "yhaih",
+        "youhua",
+        "youjiaih",
+        "yjaih",
+        "youji"
+      ],
+      "queried_course_aliases": [
+        "有机化学A"
+      ],
+      "unqueried_registered_aliases": [
+        "有机化学A I(H)",
+        "有机化学AIH",
+        "有机化学A I",
+        "有化A I(H)",
+        "有化",
+        "有机A I(H)",
+        "有机",
+        "youjihuaxueaih",
+        "yjhxaih",
+        "youjihuaxueai",
+        "yjhxai",
+        "youhuaaih",
+        "yhaih",
+        "youhua",
+        "youjiaih",
+        "yjaih",
+        "youji"
+      ],
+      "coverage_status": "opened_source_body_or_exact_course_context",
+      "associated_public_record_ids": [
+        "WCH-PUB-002"
+      ],
+      "note": "正文已打开；只能按source_title_in_body给出的课程家族/课程名关联，具体边界见 records.json。此状态不等于学生评价。"
+    },
+    {
+      "course_code": "CHEM20015",
+      "course_name": "分析化学",
+      "registered_aliases": [
+        "分析化学",
+        "分化",
+        "fenxihuaxue",
+        "fxhx",
+        "fenhua"
+      ],
+      "queried_course_aliases": [],
+      "unqueried_registered_aliases": [
+        "分析化学",
+        "分化",
+        "fenxihuaxue",
+        "fxhx",
+        "fenhua"
+      ],
+      "coverage_status": "topic_family_sampled_not_individual_alias_audit",
+      "associated_public_record_ids": [],
+      "note": "相关学科主题被抽样检索；本课程全名、全部简称、全拼和首字母未逐个检索/打开正文。"
+    },
+    {
+      "course_code": "CHEM20016",
+      "course_name": "分析化学实验",
+      "registered_aliases": [
+        "分析化学实验",
+        "分化实验",
+        "分化",
+        "分析实验",
+        "fenxihuaxueshiyan",
+        "fxhxsy",
+        "fenhuashiyan",
+        "fhsy",
+        "fenhua",
+        "fenxishiyan",
+        "fxsy"
+      ],
+      "queried_course_aliases": [],
+      "unqueried_registered_aliases": [
+        "分析化学实验",
+        "分化实验",
+        "分化",
+        "分析实验",
+        "fenxihuaxueshiyan",
+        "fxhxsy",
+        "fenhuashiyan",
+        "fhsy",
+        "fenhua",
+        "fenxishiyan",
+        "fxsy"
+      ],
+      "coverage_status": "topic_family_sampled_not_individual_alias_audit",
+      "associated_public_record_ids": [],
+      "note": "相关学科主题被抽样检索；本课程全名、全部简称、全拼和首字母未逐个检索/打开正文。"
+    },
+    {
+      "course_code": "CHEM20017",
+      "course_name": "元素化学",
+      "registered_aliases": [
+        "元素化学",
+        "yuansuhuaxue",
+        "yshx"
+      ],
+      "queried_course_aliases": [],
+      "unqueried_registered_aliases": [
+        "元素化学",
+        "yuansuhuaxue",
+        "yshx"
+      ],
+      "coverage_status": "not_individually_searched",
+      "associated_public_record_ids": [],
+      "note": "未逐门检索本课程及其全部别名。"
+    },
+    {
+      "course_code": "CHEM20021",
+      "course_name": "无机化学与化学分析实验",
+      "registered_aliases": [
+        "无机化学与化学分析实验",
+        "无化与化学分析实验",
+        "无化",
+        "无机与化学分析实验",
+        "无机",
+        "wujihuaxueyuhuaxuefenxishiyan",
+        "wjhxyhxfxsy",
+        "wuhuayuhuaxuefenxishiyan",
+        "whyhxfxsy",
+        "wuhua",
+        "wujiyuhuaxuefenxishiyan",
+        "wjyhxfxsy",
+        "wuji"
+      ],
+      "queried_course_aliases": [
+        "无机化学与化学分析实验"
+      ],
+      "unqueried_registered_aliases": [
+        "无化与化学分析实验",
+        "无化",
+        "无机与化学分析实验",
+        "无机",
+        "wujihuaxueyuhuaxuefenxishiyan",
+        "wjhxyhxfxsy",
+        "wuhuayuhuaxuefenxishiyan",
+        "whyhxfxsy",
+        "wuhua",
+        "wujiyuhuaxuefenxishiyan",
+        "wjyhxfxsy",
+        "wuji"
+      ],
+      "coverage_status": "opened_source_body_or_exact_course_context",
+      "associated_public_record_ids": [
+        "WCH-PUB-006"
+      ],
+      "note": "正文已打开；只能按source_title_in_body给出的课程家族/课程名关联，具体边界见 records.json。此状态不等于学生评价。"
+    },
+    {
+      "course_code": "CHEM20022",
+      "course_name": "切问近思",
+      "registered_aliases": [
+        "切问近思",
+        "qiewenjinsi",
+        "qwjs"
+      ],
+      "queried_course_aliases": [],
+      "unqueried_registered_aliases": [
+        "切问近思",
+        "qiewenjinsi",
+        "qwjs"
+      ],
+      "coverage_status": "not_individually_searched",
+      "associated_public_record_ids": [],
+      "note": "未逐门检索本课程及其全部别名。"
+    },
+    {
+      "course_code": "CHEM30001",
+      "course_name": "绿色电化学合成",
+      "registered_aliases": [
+        "绿色电化学合成",
+        "lvsedianhuaxuehecheng",
+        "lsdhxhc"
+      ],
+      "queried_course_aliases": [],
+      "unqueried_registered_aliases": [
+        "绿色电化学合成",
+        "lvsedianhuaxuehecheng",
+        "lsdhxhc"
+      ],
+      "coverage_status": "not_individually_searched",
+      "associated_public_record_ids": [],
+      "note": "未逐门检索本课程及其全部别名。"
+    },
+    {
+      "course_code": "CHEM30003",
+      "course_name": "合成化学实验(下)",
+      "registered_aliases": [
+        "合成化学实验(下)",
+        "合成化学实验下",
+        "hechenghuaxueshiyanxia",
+        "hchxsyx"
+      ],
+      "queried_course_aliases": [],
+      "unqueried_registered_aliases": [
+        "合成化学实验(下)",
+        "合成化学实验下",
+        "hechenghuaxueshiyanxia",
+        "hchxsyx"
+      ],
+      "coverage_status": "topic_family_sampled_not_individual_alias_audit",
+      "associated_public_record_ids": [],
+      "note": "相关学科主题被抽样检索；本课程全名、全部简称、全拼和首字母未逐个检索/打开正文。"
+    },
+    {
+      "course_code": "CHEM30004",
+      "course_name": "物理化学AIII",
+      "registered_aliases": [
+        "物理化学AIII",
+        "物理化学A",
+        "物化AIII",
+        "物化",
+        "wulihuaxueaiii",
+        "wlhxaiii",
+        "wulihuaxuea",
+        "wlhxa",
+        "wuhuaaiii",
+        "whaiii",
+        "wuhua"
+      ],
+      "queried_course_aliases": [],
+      "unqueried_registered_aliases": [
+        "物理化学AIII",
+        "物理化学A",
+        "物化AIII",
+        "物化",
+        "wulihuaxueaiii",
+        "wlhxaiii",
+        "wulihuaxuea",
+        "wlhxa",
+        "wuhuaaiii",
+        "whaiii",
+        "wuhua"
+      ],
+      "coverage_status": "topic_family_sampled_not_individual_alias_audit",
+      "associated_public_record_ids": [],
+      "note": "相关学科主题被抽样检索；本课程全名、全部简称、全拼和首字母未逐个检索/打开正文。"
+    },
+    {
+      "course_code": "CHEM30004h",
+      "course_name": "物理化学A III(H)",
+      "registered_aliases": [
+        "物理化学A III(H)",
+        "物理化学AIIIH",
+        "物理化学A III",
+        "物化A III(H)",
+        "物化",
+        "wulihuaxueaiiih",
+        "wlhxaiiih",
+        "wulihuaxueaiii",
+        "wlhxaiii",
+        "wuhuaaiiih",
+        "whaiiih",
+        "wuhua"
+      ],
+      "queried_course_aliases": [],
+      "unqueried_registered_aliases": [
+        "物理化学A III(H)",
+        "物理化学AIIIH",
+        "物理化学A III",
+        "物化A III(H)",
+        "物化",
+        "wulihuaxueaiiih",
+        "wlhxaiiih",
+        "wulihuaxueaiii",
+        "wlhxaiii",
+        "wuhuaaiiih",
+        "whaiiih",
+        "wuhua"
+      ],
+      "coverage_status": "topic_family_sampled_not_individual_alias_audit",
+      "associated_public_record_ids": [],
+      "note": "相关学科主题被抽样检索；本课程全名、全部简称、全拼和首字母未逐个检索/打开正文。"
+    },
+    {
+      "course_code": "CHEM30005",
+      "course_name": "无机化学",
+      "registered_aliases": [
+        "无机化学",
+        "无化",
+        "无机",
+        "wujihuaxue",
+        "wjhx",
+        "wuhua",
+        "wuji"
+      ],
+      "queried_course_aliases": [],
+      "unqueried_registered_aliases": [
+        "无机化学",
+        "无化",
+        "无机",
+        "wujihuaxue",
+        "wjhx",
+        "wuhua",
+        "wuji"
+      ],
+      "coverage_status": "topic_family_sampled_not_individual_alias_audit",
+      "associated_public_record_ids": [],
+      "note": "相关学科主题被抽样检索；本课程全名、全部简称、全拼和首字母未逐个检索/打开正文。"
+    },
+    {
+      "course_code": "CHEM30005h",
+      "course_name": "无机化学(H)",
+      "registered_aliases": [
+        "无机化学(H)",
+        "无机化学H",
+        "无机化学",
+        "无化(H)",
+        "无化",
+        "无机(H)",
+        "无机",
+        "wujihuaxueh",
+        "wjhxh",
+        "wujihuaxue",
+        "wjhx",
+        "wuhuah",
+        "whh",
+        "wuhua",
+        "wujih",
+        "wjh",
+        "wuji"
+      ],
+      "queried_course_aliases": [],
+      "unqueried_registered_aliases": [
+        "无机化学(H)",
+        "无机化学H",
+        "无机化学",
+        "无化(H)",
+        "无化",
+        "无机(H)",
+        "无机",
+        "wujihuaxueh",
+        "wjhxh",
+        "wujihuaxue",
+        "wjhx",
+        "wuhuah",
+        "whh",
+        "wuhua",
+        "wujih",
+        "wjh",
+        "wuji"
+      ],
+      "coverage_status": "topic_family_sampled_not_individual_alias_audit",
+      "associated_public_record_ids": [],
+      "note": "相关学科主题被抽样检索；本课程全名、全部简称、全拼和首字母未逐个检索/打开正文。"
+    },
+    {
+      "course_code": "CHEM30010",
+      "course_name": "有机合成及反应机理",
+      "registered_aliases": [
+        "有机合成及反应机理",
+        "youjihechengjifanyingjili",
+        "yjhcjfyjl"
+      ],
+      "queried_course_aliases": [],
+      "unqueried_registered_aliases": [
+        "有机合成及反应机理",
+        "youjihechengjifanyingjili",
+        "yjhcjfyjl"
+      ],
+      "coverage_status": "not_individually_searched",
+      "associated_public_record_ids": [],
+      "note": "未逐门检索本课程及其全部别名。"
+    },
+    {
+      "course_code": "CHEM30011",
+      "course_name": "环境化学B",
+      "registered_aliases": [
+        "环境化学B",
+        "huanjinghuaxueb",
+        "hjhxb"
+      ],
+      "queried_course_aliases": [],
+      "unqueried_registered_aliases": [
+        "环境化学B",
+        "huanjinghuaxueb",
+        "hjhxb"
+      ],
+      "coverage_status": "not_individually_searched",
+      "associated_public_record_ids": [],
+      "note": "未逐门检索本课程及其全部别名。"
+    },
+    {
+      "course_code": "CHEM30012",
+      "course_name": "计算化学",
+      "registered_aliases": [
+        "计算化学",
+        "jisuanhuaxue",
+        "jshx"
+      ],
+      "queried_course_aliases": [],
+      "unqueried_registered_aliases": [
+        "计算化学",
+        "jisuanhuaxue",
+        "jshx"
+      ],
+      "coverage_status": "not_individually_searched",
+      "associated_public_record_ids": [],
+      "note": "未逐门检索本课程及其全部别名。"
+    },
+    {
+      "course_code": "CHEM30015",
+      "course_name": "化工原理",
+      "registered_aliases": [
+        "化工原理",
+        "huagongyuanli",
+        "hgyl"
+      ],
+      "queried_course_aliases": [],
+      "unqueried_registered_aliases": [
+        "化工原理",
+        "huagongyuanli",
+        "hgyl"
+      ],
+      "coverage_status": "not_individually_searched",
+      "associated_public_record_ids": [],
+      "note": "未逐门检索本课程及其全部别名。"
+    },
+    {
+      "course_code": "CHEM30017",
+      "course_name": "应用化学专题",
+      "registered_aliases": [
+        "应用化学专题",
+        "yingyonghuaxuezhuanti",
+        "yyhxzt"
+      ],
+      "queried_course_aliases": [],
+      "unqueried_registered_aliases": [
+        "应用化学专题",
+        "yingyonghuaxuezhuanti",
+        "yyhxzt"
+      ],
+      "coverage_status": "not_individually_searched",
+      "associated_public_record_ids": [],
+      "note": "未逐门检索本课程及其全部别名。"
+    },
+    {
+      "course_code": "CHEM30018",
+      "course_name": "光电功能材料",
+      "registered_aliases": [
+        "光电功能材料",
+        "guangdiangongnengcailiao",
+        "gdgncl"
+      ],
+      "queried_course_aliases": [],
+      "unqueried_registered_aliases": [
+        "光电功能材料",
+        "guangdiangongnengcailiao",
+        "gdgncl"
+      ],
+      "coverage_status": "not_individually_searched",
+      "associated_public_record_ids": [],
+      "note": "未逐门检索本课程及其全部别名。"
+    },
+    {
+      "course_code": "CHEM30019",
+      "course_name": "分子组装与分子器件",
+      "registered_aliases": [
+        "分子组装与分子器件",
+        "fenzizuzhuangyufenziqijian",
+        "fzzzyfzqj"
+      ],
+      "queried_course_aliases": [],
+      "unqueried_registered_aliases": [
+        "分子组装与分子器件",
+        "fenzizuzhuangyufenziqijian",
+        "fzzzyfzqj"
+      ],
+      "coverage_status": "not_individually_searched",
+      "associated_public_record_ids": [],
+      "note": "未逐门检索本课程及其全部别名。"
+    },
+    {
+      "course_code": "CHEM30021",
+      "course_name": "配位化学",
+      "registered_aliases": [
+        "配位化学",
+        "peiweihuaxue",
+        "pwhx"
+      ],
+      "queried_course_aliases": [],
+      "unqueried_registered_aliases": [
+        "配位化学",
+        "peiweihuaxue",
+        "pwhx"
+      ],
+      "coverage_status": "not_individually_searched",
+      "associated_public_record_ids": [],
+      "note": "未逐门检索本课程及其全部别名。"
+    },
+    {
+      "course_code": "CHEM30022",
+      "course_name": "纳米材料与功能器件",
+      "registered_aliases": [
+        "纳米材料与功能器件",
+        "namicailiaoyugongnengqijian",
+        "nmclygnqj"
+      ],
+      "queried_course_aliases": [],
+      "unqueried_registered_aliases": [
+        "纳米材料与功能器件",
+        "namicailiaoyugongnengqijian",
+        "nmclygnqj"
+      ],
+      "coverage_status": "not_individually_searched",
+      "associated_public_record_ids": [],
+      "note": "未逐门检索本课程及其全部别名。"
+    },
+    {
+      "course_code": "CHEM30026",
+      "course_name": "金属有机化学的研究方法和策略",
+      "registered_aliases": [
+        "金属有机化学的研究方法和策略",
+        "金属有化的研究方法和策略",
+        "有化",
+        "金属有机的研究方法和策略",
+        "有机",
+        "jinshuyoujihuaxuedeyanjiufangfahecelve",
+        "jsyjhxdyjffhcl",
+        "jinshuyouhuadeyanjiufangfahecelve",
+        "jsyhdyjffhcl",
+        "youhua",
+        "jinshuyoujideyanjiufangfahecelve",
+        "jsyjdyjffhcl",
+        "youji"
+      ],
+      "queried_course_aliases": [],
+      "unqueried_registered_aliases": [
+        "金属有机化学的研究方法和策略",
+        "金属有化的研究方法和策略",
+        "有化",
+        "金属有机的研究方法和策略",
+        "有机",
+        "jinshuyoujihuaxuedeyanjiufangfahecelve",
+        "jsyjhxdyjffhcl",
+        "jinshuyouhuadeyanjiufangfahecelve",
+        "jsyhdyjffhcl",
+        "youhua",
+        "jinshuyoujideyanjiufangfahecelve",
+        "jsyjdyjffhcl",
+        "youji"
+      ],
+      "coverage_status": "topic_family_sampled_not_individual_alias_audit",
+      "associated_public_record_ids": [],
+      "note": "相关学科主题被抽样检索；本课程全名、全部简称、全拼和首字母未逐个检索/打开正文。"
+    },
+    {
+      "course_code": "CHEM30029",
+      "course_name": "碳簇化学",
+      "registered_aliases": [
+        "碳簇化学",
+        "tancuhuaxue",
+        "tchx"
+      ],
+      "queried_course_aliases": [],
+      "unqueried_registered_aliases": [
+        "碳簇化学",
+        "tancuhuaxue",
+        "tchx"
+      ],
+      "coverage_status": "not_individually_searched",
+      "associated_public_record_ids": [],
+      "note": "未逐门检索本课程及其全部别名。"
+    },
+    {
+      "course_code": "CHEM30031",
+      "course_name": "物理化学实验(上)",
+      "registered_aliases": [
+        "物理化学实验(上)",
+        "物理化学实验上",
+        "物化实验(上)",
+        "物化",
+        "物化实验",
+        "wulihuaxueshiyanshang",
+        "wlhxsys",
+        "wuhuashiyanshang",
+        "whsys",
+        "wuhua",
+        "wuhuashiyan",
+        "whsy"
+      ],
+      "queried_course_aliases": [],
+      "unqueried_registered_aliases": [
+        "物理化学实验(上)",
+        "物理化学实验上",
+        "物化实验(上)",
+        "物化",
+        "物化实验",
+        "wulihuaxueshiyanshang",
+        "wlhxsys",
+        "wuhuashiyanshang",
+        "whsys",
+        "wuhua",
+        "wuhuashiyan",
+        "whsy"
+      ],
+      "coverage_status": "topic_family_sampled_not_individual_alias_audit",
+      "associated_public_record_ids": [],
+      "note": "相关学科主题被抽样检索；本课程全名、全部简称、全拼和首字母未逐个检索/打开正文。"
+    },
+    {
+      "course_code": "CHEM30033",
+      "course_name": "计算谱学原理",
+      "registered_aliases": [
+        "计算谱学原理",
+        "jisuanpuxueyuanli",
+        "jspxyl"
+      ],
+      "queried_course_aliases": [],
+      "unqueried_registered_aliases": [
+        "计算谱学原理",
+        "jisuanpuxueyuanli",
+        "jspxyl"
+      ],
+      "coverage_status": "not_individually_searched",
+      "associated_public_record_ids": [],
+      "note": "未逐门检索本课程及其全部别名。"
+    },
+    {
+      "course_code": "CHEM30034",
+      "course_name": "不对称合成化学",
+      "registered_aliases": [
+        "不对称合成化学",
+        "buduichenghechenghuaxue",
+        "bdchchx"
+      ],
+      "queried_course_aliases": [],
+      "unqueried_registered_aliases": [
+        "不对称合成化学",
+        "buduichenghechenghuaxue",
+        "bdchchx"
+      ],
+      "coverage_status": "not_individually_searched",
+      "associated_public_record_ids": [],
+      "note": "未逐门检索本课程及其全部别名。"
+    },
+    {
+      "course_code": "CHEM30036",
+      "course_name": "碳基能源化学",
+      "registered_aliases": [
+        "碳基能源化学",
+        "tanjinengyuanhuaxue",
+        "tjnyhx"
+      ],
+      "queried_course_aliases": [],
+      "unqueried_registered_aliases": [
+        "碳基能源化学",
+        "tanjinengyuanhuaxue",
+        "tjnyhx"
+      ],
+      "coverage_status": "not_individually_searched",
+      "associated_public_record_ids": [],
+      "note": "未逐门检索本课程及其全部别名。"
+    },
+    {
+      "course_code": "CHEM30037",
+      "course_name": "DNA合成化学",
+      "registered_aliases": [
+        "DNA合成化学",
+        "dnahechenghuaxue",
+        "dnahchx"
+      ],
+      "queried_course_aliases": [],
+      "unqueried_registered_aliases": [
+        "DNA合成化学",
+        "dnahechenghuaxue",
+        "dnahchx"
+      ],
+      "coverage_status": "not_individually_searched",
+      "associated_public_record_ids": [],
+      "note": "未逐门检索本课程及其全部别名。"
+    },
+    {
+      "course_code": "CHEM30038",
+      "course_name": "科研实践",
+      "registered_aliases": [
+        "科研实践",
+        "keyanshijian",
+        "kysj"
+      ],
+      "queried_course_aliases": [],
+      "unqueried_registered_aliases": [
+        "科研实践",
+        "keyanshijian",
+        "kysj"
+      ],
+      "coverage_status": "not_individually_searched",
+      "associated_public_record_ids": [],
+      "note": "未逐门检索本课程及其全部别名。"
+    },
+    {
+      "course_code": "CHEM30041h",
+      "course_name": "量子化学原理及应用(H)",
+      "registered_aliases": [
+        "量子化学原理及应用(H)",
+        "量子化学原理及应用H",
+        "量子化学原理及应用",
+        "liangzihuaxueyuanlijiyingyongh",
+        "lzhxyljyyh",
+        "liangzihuaxueyuanlijiyingyong",
+        "lzhxyljyy"
+      ],
+      "queried_course_aliases": [],
+      "unqueried_registered_aliases": [
+        "量子化学原理及应用(H)",
+        "量子化学原理及应用H",
+        "量子化学原理及应用",
+        "liangzihuaxueyuanlijiyingyongh",
+        "lzhxyljyyh",
+        "liangzihuaxueyuanlijiyingyong",
+        "lzhxyljyy"
+      ],
+      "coverage_status": "not_individually_searched",
+      "associated_public_record_ids": [],
+      "note": "未逐门检索本课程及其全部别名。"
+    },
+    {
+      "course_code": "CHEM40002",
+      "course_name": "生产实习",
+      "registered_aliases": [
+        "生产实习",
+        "shengchanshixi",
+        "scsx"
+      ],
+      "queried_course_aliases": [],
+      "unqueried_registered_aliases": [
+        "生产实习",
+        "shengchanshixi",
+        "scsx"
+      ],
+      "coverage_status": "not_individually_searched",
+      "associated_public_record_ids": [],
+      "note": "未逐门检索本课程及其全部别名。"
+    },
+    {
+      "course_code": "CHEM40008",
+      "course_name": "化学实验室安全",
+      "registered_aliases": [
+        "化学实验室安全",
+        "huaxueshiyanshianquan",
+        "hxsysaq"
+      ],
+      "queried_course_aliases": [],
+      "unqueried_registered_aliases": [
+        "化学实验室安全",
+        "huaxueshiyanshianquan",
+        "hxsysaq"
+      ],
+      "coverage_status": "topic_family_sampled_not_individual_alias_audit",
+      "associated_public_record_ids": [],
+      "note": "相关学科主题被抽样检索；本课程全名、全部简称、全拼和首字母未逐个检索/打开正文。"
+    },
+    {
+      "course_code": "CHEM40014h",
+      "course_name": "高等无机化学(H)",
+      "registered_aliases": [
+        "高等无机化学(H)",
+        "高等无机化学H",
+        "高等无机化学",
+        "高等无化(H)",
+        "无化",
+        "高等无机(H)",
+        "无机",
+        "gaodengwujihuaxueh",
+        "gdwjhxh",
+        "gaodengwujihuaxue",
+        "gdwjhx",
+        "gaodengwuhuah",
+        "gdwhh",
+        "wuhua",
+        "gaodengwujih",
+        "gdwjh",
+        "wuji"
+      ],
+      "queried_course_aliases": [],
+      "unqueried_registered_aliases": [
+        "高等无机化学(H)",
+        "高等无机化学H",
+        "高等无机化学",
+        "高等无化(H)",
+        "无化",
+        "高等无机(H)",
+        "无机",
+        "gaodengwujihuaxueh",
+        "gdwjhxh",
+        "gaodengwujihuaxue",
+        "gdwjhx",
+        "gaodengwuhuah",
+        "gdwhh",
+        "wuhua",
+        "gaodengwujih",
+        "gdwjh",
+        "wuji"
+      ],
+      "coverage_status": "topic_family_sampled_not_individual_alias_audit",
+      "associated_public_record_ids": [],
+      "note": "相关学科主题被抽样检索；本课程全名、全部简称、全拼和首字母未逐个检索/打开正文。"
+    },
+    {
+      "course_code": "CHEM40015h",
+      "course_name": "高等有机化学(H)",
+      "registered_aliases": [
+        "高等有机化学(H)",
+        "高等有机化学H",
+        "高等有机化学",
+        "高等有化(H)",
+        "有化",
+        "高等有机(H)",
+        "有机",
+        "gaodengyoujihuaxueh",
+        "gdyjhxh",
+        "gaodengyoujihuaxue",
+        "gdyjhx",
+        "gaodengyouhuah",
+        "gdyhh",
+        "youhua",
+        "gaodengyoujih",
+        "gdyjh",
+        "youji"
+      ],
+      "queried_course_aliases": [],
+      "unqueried_registered_aliases": [
+        "高等有机化学(H)",
+        "高等有机化学H",
+        "高等有机化学",
+        "高等有化(H)",
+        "有化",
+        "高等有机(H)",
+        "有机",
+        "gaodengyoujihuaxueh",
+        "gdyjhxh",
+        "gaodengyoujihuaxue",
+        "gdyjhx",
+        "gaodengyouhuah",
+        "gdyhh",
+        "youhua",
+        "gaodengyoujih",
+        "gdyjh",
+        "youji"
+      ],
+      "coverage_status": "topic_family_sampled_not_individual_alias_audit",
+      "associated_public_record_ids": [],
+      "note": "相关学科主题被抽样检索；本课程全名、全部简称、全拼和首字母未逐个检索/打开正文。"
+    },
+    {
+      "course_code": "CHEM50002",
+      "course_name": "高等无机化学",
+      "registered_aliases": [
+        "高等无机化学",
+        "高等无化",
+        "无化",
+        "高等无机",
+        "无机",
+        "gaodengwujihuaxue",
+        "gdwjhx",
+        "gaodengwuhua",
+        "gdwh",
+        "wuhua",
+        "gaodengwuji",
+        "gdwj",
+        "wuji"
+      ],
+      "queried_course_aliases": [],
+      "unqueried_registered_aliases": [
+        "高等无机化学",
+        "高等无化",
+        "无化",
+        "高等无机",
+        "无机",
+        "gaodengwujihuaxue",
+        "gdwjhx",
+        "gaodengwuhua",
+        "gdwh",
+        "wuhua",
+        "gaodengwuji",
+        "gdwj",
+        "wuji"
+      ],
+      "coverage_status": "topic_family_sampled_not_individual_alias_audit",
+      "associated_public_record_ids": [],
+      "note": "相关学科主题被抽样检索；本课程全名、全部简称、全拼和首字母未逐个检索/打开正文。"
+    },
+    {
+      "course_code": "CHEM50003",
+      "course_name": "高等有机化学",
+      "registered_aliases": [
+        "高等有机化学",
+        "高等有化",
+        "有化",
+        "高等有机",
+        "有机",
+        "gaodengyoujihuaxue",
+        "gdyjhx",
+        "gaodengyouhua",
+        "gdyh",
+        "youhua",
+        "gaodengyouji",
+        "gdyj",
+        "youji"
+      ],
+      "queried_course_aliases": [],
+      "unqueried_registered_aliases": [
+        "高等有机化学",
+        "高等有化",
+        "有化",
+        "高等有机",
+        "有机",
+        "gaodengyoujihuaxue",
+        "gdyjhx",
+        "gaodengyouhua",
+        "gdyh",
+        "youhua",
+        "gaodengyouji",
+        "gdyj",
+        "youji"
+      ],
+      "coverage_status": "topic_family_sampled_not_individual_alias_audit",
+      "associated_public_record_ids": [],
+      "note": "相关学科主题被抽样检索；本课程全名、全部简称、全拼和首字母未逐个检索/打开正文。"
+    },
+    {
+      "course_code": "CHEM50004",
+      "course_name": "量子化学原理及应用",
+      "registered_aliases": [
+        "量子化学原理及应用",
+        "liangzihuaxueyuanlijiyingyong",
+        "lzhxyljyy"
+      ],
+      "queried_course_aliases": [],
+      "unqueried_registered_aliases": [
+        "量子化学原理及应用",
+        "liangzihuaxueyuanlijiyingyong",
+        "lzhxyljyy"
+      ],
+      "coverage_status": "not_individually_searched",
+      "associated_public_record_ids": [],
+      "note": "未逐门检索本课程及其全部别名。"
+    },
+    {
+      "course_code": "CHEM50006",
+      "course_name": "选拔性考试研究与实践",
+      "registered_aliases": [
+        "选拔性考试研究与实践",
+        "xuanbaxingkaoshiyanjiuyushijian",
+        "xbxksyjysj"
+      ],
+      "queried_course_aliases": [],
+      "unqueried_registered_aliases": [
+        "选拔性考试研究与实践",
+        "xuanbaxingkaoshiyanjiuyushijian",
+        "xbxksyjysj"
+      ],
+      "coverage_status": "not_individually_searched",
+      "associated_public_record_ids": [],
+      "note": "未逐门检索本课程及其全部别名。"
+    },
+    {
+      "course_code": "CHEM50008",
+      "course_name": "工程伦理",
+      "registered_aliases": [
+        "工程伦理",
+        "gongchenglunli",
+        "gcll"
+      ],
+      "queried_course_aliases": [],
+      "unqueried_registered_aliases": [
+        "工程伦理",
+        "gongchenglunli",
+        "gcll"
+      ],
+      "coverage_status": "not_individually_searched",
+      "associated_public_record_ids": [],
+      "note": "未逐门检索本课程及其全部别名。"
+    },
+    {
+      "course_code": "CHEM50009",
+      "course_name": "科学英语写作",
+      "registered_aliases": [
+        "科学英语写作",
+        "kexueyingyuxiezuo",
+        "kxyyxz"
+      ],
+      "queried_course_aliases": [],
+      "unqueried_registered_aliases": [
+        "科学英语写作",
+        "kexueyingyuxiezuo",
+        "kxyyxz"
+      ],
+      "coverage_status": "not_individually_searched",
+      "associated_public_record_ids": [],
+      "note": "未逐门检索本课程及其全部别名。"
+    },
+    {
+      "course_code": "CHEM50010",
+      "course_name": "科研论文写作",
+      "registered_aliases": [
+        "科研论文写作",
+        "keyanlunwenxiezuo",
+        "kylwxz"
+      ],
+      "queried_course_aliases": [],
+      "unqueried_registered_aliases": [
+        "科研论文写作",
+        "keyanlunwenxiezuo",
+        "kylwxz"
+      ],
+      "coverage_status": "not_individually_searched",
+      "associated_public_record_ids": [],
+      "note": "未逐门检索本课程及其全部别名。"
+    },
+    {
+      "course_code": "CHEM60003",
+      "course_name": "无机合成",
+      "registered_aliases": [
+        "无机合成",
+        "wujihecheng",
+        "wjhc"
+      ],
+      "queried_course_aliases": [],
+      "unqueried_registered_aliases": [
+        "无机合成",
+        "wujihecheng",
+        "wjhc"
+      ],
+      "coverage_status": "not_individually_searched",
+      "associated_public_record_ids": [],
+      "note": "未逐门检索本课程及其全部别名。"
+    },
+    {
+      "course_code": "CHEM60004",
+      "course_name": "高等仪器分析",
+      "registered_aliases": [
+        "高等仪器分析",
+        "高等仪分",
+        "仪分",
+        "gaodengyiqifenxi",
+        "gdyqfx",
+        "gaodengyifen",
+        "gdyf",
+        "yifen"
+      ],
+      "queried_course_aliases": [],
+      "unqueried_registered_aliases": [
+        "高等仪器分析",
+        "高等仪分",
+        "仪分",
+        "gaodengyiqifenxi",
+        "gdyqfx",
+        "gaodengyifen",
+        "gdyf",
+        "yifen"
+      ],
+      "coverage_status": "not_individually_searched",
+      "associated_public_record_ids": [],
+      "note": "未逐门检索本课程及其全部别名。"
+    },
+    {
+      "course_code": "CHEM60005",
+      "course_name": "统计热力学",
+      "registered_aliases": [
+        "统计热力学",
+        "tongjirelixue",
+        "tjrlx"
+      ],
+      "queried_course_aliases": [],
+      "unqueried_registered_aliases": [
+        "统计热力学",
+        "tongjirelixue",
+        "tjrlx"
+      ],
+      "coverage_status": "not_individually_searched",
+      "associated_public_record_ids": [],
+      "note": "未逐门检索本课程及其全部别名。"
+    },
+    {
+      "course_code": "CHEM60011",
+      "course_name": "色谱理论基础",
+      "registered_aliases": [
+        "色谱理论基础",
+        "sepulilunjichu",
+        "splljc"
+      ],
+      "queried_course_aliases": [],
+      "unqueried_registered_aliases": [
+        "色谱理论基础",
+        "sepulilunjichu",
+        "splljc"
+      ],
+      "coverage_status": "not_individually_searched",
+      "associated_public_record_ids": [],
+      "note": "未逐门检索本课程及其全部别名。"
+    },
+    {
+      "course_code": "CHEM60012",
+      "course_name": "生物质谱仪器和质谱分析",
+      "registered_aliases": [
+        "生物质谱仪器和质谱分析",
+        "shengwuzhipuyiqihezhipufenxi",
+        "swzpyqhzpfx"
+      ],
+      "queried_course_aliases": [],
+      "unqueried_registered_aliases": [
+        "生物质谱仪器和质谱分析",
+        "shengwuzhipuyiqihezhipufenxi",
+        "swzpyqhzpfx"
+      ],
+      "coverage_status": "not_individually_searched",
+      "associated_public_record_ids": [],
+      "note": "未逐门检索本课程及其全部别名。"
+    },
+    {
+      "course_code": "CHEM60013",
+      "course_name": "生物色谱",
+      "registered_aliases": [
+        "生物色谱",
+        "shengwusepu",
+        "swsp"
+      ],
+      "queried_course_aliases": [],
+      "unqueried_registered_aliases": [
+        "生物色谱",
+        "shengwusepu",
+        "swsp"
+      ],
+      "coverage_status": "not_individually_searched",
+      "associated_public_record_ids": [],
+      "note": "未逐门检索本课程及其全部别名。"
+    },
+    {
+      "course_code": "CHEM60014",
+      "course_name": "物理有机化学",
+      "registered_aliases": [
+        "物理有机化学",
+        "物理有化",
+        "有化",
+        "物理有机",
+        "有机",
+        "wuliyoujihuaxue",
+        "wlyjhx",
+        "wuliyouhua",
+        "wlyh",
+        "youhua",
+        "wuliyouji",
+        "wlyj",
+        "youji"
+      ],
+      "queried_course_aliases": [],
+      "unqueried_registered_aliases": [
+        "物理有机化学",
+        "物理有化",
+        "有化",
+        "物理有机",
+        "有机",
+        "wuliyoujihuaxue",
+        "wlyjhx",
+        "wuliyouhua",
+        "wlyh",
+        "youhua",
+        "wuliyouji",
+        "wlyj",
+        "youji"
+      ],
+      "coverage_status": "topic_family_sampled_not_individual_alias_audit",
+      "associated_public_record_ids": [],
+      "note": "相关学科主题被抽样检索；本课程全名、全部简称、全拼和首字母未逐个检索/打开正文。"
+    },
+    {
+      "course_code": "CHEM60017",
+      "course_name": "电极过程动力学",
+      "registered_aliases": [
+        "电极过程动力学",
+        "dianjiguochengdonglixue",
+        "djgcdlx"
+      ],
+      "queried_course_aliases": [],
+      "unqueried_registered_aliases": [
+        "电极过程动力学",
+        "dianjiguochengdonglixue",
+        "djgcdlx"
+      ],
+      "coverage_status": "not_individually_searched",
+      "associated_public_record_ids": [],
+      "note": "未逐门检索本课程及其全部别名。"
+    },
+    {
+      "course_code": "CHEM60020",
+      "course_name": "高等化学反应工程和工艺",
+      "registered_aliases": [
+        "高等化学反应工程和工艺",
+        "gaodenghuaxuefanyinggongchenghegongyi",
+        "gdhxfygchgy"
+      ],
+      "queried_course_aliases": [],
+      "unqueried_registered_aliases": [
+        "高等化学反应工程和工艺",
+        "gaodenghuaxuefanyinggongchenghegongyi",
+        "gdhxfygchgy"
+      ],
+      "coverage_status": "not_individually_searched",
+      "associated_public_record_ids": [],
+      "note": "未逐门检索本课程及其全部别名。"
+    },
+    {
+      "course_code": "CHEM60021",
+      "course_name": "功能分子材料和生物材料",
+      "registered_aliases": [
+        "功能分子材料和生物材料",
+        "gongnengfenzicailiaoheshengwucailiao",
+        "gnfzclhswcl"
+      ],
+      "queried_course_aliases": [],
+      "unqueried_registered_aliases": [
+        "功能分子材料和生物材料",
+        "gongnengfenzicailiaoheshengwucailiao",
+        "gnfzclhswcl"
+      ],
+      "coverage_status": "not_individually_searched",
+      "associated_public_record_ids": [],
+      "note": "未逐门检索本课程及其全部别名。"
+    },
+    {
+      "course_code": "CHEM60024",
+      "course_name": "金属有机化学",
+      "registered_aliases": [
+        "金属有机化学",
+        "金属有化",
+        "有化",
+        "金属有机",
+        "有机",
+        "jinshuyoujihuaxue",
+        "jsyjhx",
+        "jinshuyouhua",
+        "jsyh",
+        "youhua",
+        "jinshuyouji",
+        "jsyj",
+        "youji"
+      ],
+      "queried_course_aliases": [],
+      "unqueried_registered_aliases": [
+        "金属有机化学",
+        "金属有化",
+        "有化",
+        "金属有机",
+        "有机",
+        "jinshuyoujihuaxue",
+        "jsyjhx",
+        "jinshuyouhua",
+        "jsyh",
+        "youhua",
+        "jinshuyouji",
+        "jsyj",
+        "youji"
+      ],
+      "coverage_status": "topic_family_sampled_not_individual_alias_audit",
+      "associated_public_record_ids": [],
+      "note": "相关学科主题被抽样检索；本课程全名、全部简称、全拼和首字母未逐个检索/打开正文。"
+    },
+    {
+      "course_code": "CHEM60026",
+      "course_name": "有机结构分析",
+      "registered_aliases": [
+        "有机结构分析",
+        "youjijiegoufenxi",
+        "yjjgfx"
+      ],
+      "queried_course_aliases": [],
+      "unqueried_registered_aliases": [
+        "有机结构分析",
+        "youjijiegoufenxi",
+        "yjjgfx"
+      ],
+      "coverage_status": "not_individually_searched",
+      "associated_public_record_ids": [],
+      "note": "未逐门检索本课程及其全部别名。"
+    },
+    {
+      "course_code": "CHEM60027",
+      "course_name": "蛋白质组学的新技术和新方法",
+      "registered_aliases": [
+        "蛋白质组学的新技术和新方法",
+        "danbaizhizuxuedexinjishuhexinfangfa",
+        "dbzzxdxjshxff"
+      ],
+      "queried_course_aliases": [],
+      "unqueried_registered_aliases": [
+        "蛋白质组学的新技术和新方法",
+        "danbaizhizuxuedexinjishuhexinfangfa",
+        "dbzzxdxjshxff"
+      ],
+      "coverage_status": "not_individually_searched",
+      "associated_public_record_ids": [],
+      "note": "未逐门检索本课程及其全部别名。"
+    },
+    {
+      "course_code": "CHEM70005",
+      "course_name": "碳簇化学",
+      "registered_aliases": [
+        "碳簇化学",
+        "tancuhuaxue",
+        "tchx"
+      ],
+      "queried_course_aliases": [],
+      "unqueried_registered_aliases": [
+        "碳簇化学",
+        "tancuhuaxue",
+        "tchx"
+      ],
+      "coverage_status": "not_individually_searched",
+      "associated_public_record_ids": [],
+      "note": "未逐门检索本课程及其全部别名。"
+    },
+    {
+      "course_code": "CHEM70010",
+      "course_name": "新催化材料",
+      "registered_aliases": [
+        "新催化材料",
+        "xincuihuacailiao",
+        "xchcl"
+      ],
+      "queried_course_aliases": [],
+      "unqueried_registered_aliases": [
+        "新催化材料",
+        "xincuihuacailiao",
+        "xchcl"
+      ],
+      "coverage_status": "not_individually_searched",
+      "associated_public_record_ids": [],
+      "note": "未逐门检索本课程及其全部别名。"
+    },
+    {
+      "course_code": "CHEM70011",
+      "course_name": "分子反应动力学",
+      "registered_aliases": [
+        "分子反应动力学",
+        "fenzifanyingdonglixue",
+        "fzfydlx"
+      ],
+      "queried_course_aliases": [],
+      "unqueried_registered_aliases": [
+        "分子反应动力学",
+        "fenzifanyingdonglixue",
+        "fzfydlx"
+      ],
+      "coverage_status": "not_individually_searched",
+      "associated_public_record_ids": [],
+      "note": "未逐门检索本课程及其全部别名。"
+    },
+    {
+      "course_code": "CHEM70013",
+      "course_name": "催化从实验室到工业开发",
+      "registered_aliases": [
+        "催化从实验室到工业开发",
+        "cuihuacongshiyanshidaogongyekaifa",
+        "chcsysdgykf"
+      ],
+      "queried_course_aliases": [],
+      "unqueried_registered_aliases": [
+        "催化从实验室到工业开发",
+        "cuihuacongshiyanshidaogongyekaifa",
+        "chcsysdgykf"
+      ],
+      "coverage_status": "topic_family_sampled_not_individual_alias_audit",
+      "associated_public_record_ids": [],
+      "note": "相关学科主题被抽样检索；本课程全名、全部简称、全拼和首字母未逐个检索/打开正文。"
+    },
+    {
+      "course_code": "CHEM70014",
+      "course_name": "化学工艺学",
+      "registered_aliases": [
+        "化学工艺学",
+        "huaxuegongyixue",
+        "hxgyx"
+      ],
+      "queried_course_aliases": [],
+      "unqueried_registered_aliases": [
+        "化学工艺学",
+        "huaxuegongyixue",
+        "hxgyx"
+      ],
+      "coverage_status": "not_individually_searched",
+      "associated_public_record_ids": [],
+      "note": "未逐门检索本课程及其全部别名。"
+    },
+    {
+      "course_code": "CHEM70015",
+      "course_name": "二氧化钛纳米材料合成、性质及光催化应用",
+      "registered_aliases": [
+        "二氧化钛纳米材料合成、性质及光催化应用",
+        "eryanghuatainamicailiaohechengxingzhijiguangcuihuayingyong",
+        "eyhtnmclhcxzjgchyy"
+      ],
+      "queried_course_aliases": [],
+      "unqueried_registered_aliases": [
+        "二氧化钛纳米材料合成、性质及光催化应用",
+        "eryanghuatainamicailiaohechengxingzhijiguangcuihuayingyong",
+        "eyhtnmclhcxzjgchyy"
+      ],
+      "coverage_status": "not_individually_searched",
+      "associated_public_record_ids": [],
+      "note": "未逐门检索本课程及其全部别名。"
+    },
+    {
+      "course_code": "CHEM70016",
+      "course_name": "固体化学",
+      "registered_aliases": [
+        "固体化学",
+        "gutihuaxue",
+        "gthx"
+      ],
+      "queried_course_aliases": [],
+      "unqueried_registered_aliases": [
+        "固体化学",
+        "gutihuaxue",
+        "gthx"
+      ],
+      "coverage_status": "not_individually_searched",
+      "associated_public_record_ids": [],
+      "note": "未逐门检索本课程及其全部别名。"
+    },
+    {
+      "course_code": "CHEM70019",
+      "course_name": "配位化学",
+      "registered_aliases": [
+        "配位化学",
+        "peiweihuaxue",
+        "pwhx"
+      ],
+      "queried_course_aliases": [],
+      "unqueried_registered_aliases": [
+        "配位化学",
+        "peiweihuaxue",
+        "pwhx"
+      ],
+      "coverage_status": "not_individually_searched",
+      "associated_public_record_ids": [],
+      "note": "未逐门检索本课程及其全部别名。"
+    },
+    {
+      "course_code": "CHEM70020",
+      "course_name": "金属有机化学在有机合成中应用",
+      "registered_aliases": [
+        "金属有机化学在有机合成中应用",
+        "金属有化在有机合成中应用",
+        "有化",
+        "金属有机在有机合成中应用",
+        "有机",
+        "jinshuyoujihuaxuezaiyoujihechengzhongyingyong",
+        "jsyjhxzyjhczyy",
+        "jinshuyouhuazaiyoujihechengzhongyingyong",
+        "jsyhzyjhczyy",
+        "youhua",
+        "jinshuyoujizaiyoujihechengzhongyingyong",
+        "jsyjzyjhczyy",
+        "youji"
+      ],
+      "queried_course_aliases": [],
+      "unqueried_registered_aliases": [
+        "金属有机化学在有机合成中应用",
+        "金属有化在有机合成中应用",
+        "有化",
+        "金属有机在有机合成中应用",
+        "有机",
+        "jinshuyoujihuaxuezaiyoujihechengzhongyingyong",
+        "jsyjhxzyjhczyy",
+        "jinshuyouhuazaiyoujihechengzhongyingyong",
+        "jsyhzyjhczyy",
+        "youhua",
+        "jinshuyoujizaiyoujihechengzhongyingyong",
+        "jsyjzyjhczyy",
+        "youji"
+      ],
+      "coverage_status": "topic_family_sampled_not_individual_alias_audit",
+      "associated_public_record_ids": [],
+      "note": "相关学科主题被抽样检索；本课程全名、全部简称、全拼和首字母未逐个检索/打开正文。"
+    },
+    {
+      "course_code": "CHEM70023",
+      "course_name": "固态化学",
+      "registered_aliases": [
+        "固态化学",
+        "gutaihuaxue",
+        "gthx"
+      ],
+      "queried_course_aliases": [],
+      "unqueried_registered_aliases": [
+        "固态化学",
+        "gutaihuaxue",
+        "gthx"
+      ],
+      "coverage_status": "not_individually_searched",
+      "associated_public_record_ids": [],
+      "note": "未逐门检索本课程及其全部别名。"
+    },
+    {
+      "course_code": "CHEM70028",
+      "course_name": "XPS技术及其在化学中的应用",
+      "registered_aliases": [
+        "XPS技术及其在化学中的应用",
+        "xpsjishujiqizaihuaxuezhongdeyingyong",
+        "xpsjsjqzhxzdyy"
+      ],
+      "queried_course_aliases": [],
+      "unqueried_registered_aliases": [
+        "XPS技术及其在化学中的应用",
+        "xpsjishujiqizaihuaxuezhongdeyingyong",
+        "xpsjsjqzhxzdyy"
+      ],
+      "coverage_status": "not_individually_searched",
+      "associated_public_record_ids": [],
+      "note": "未逐门检索本课程及其全部别名。"
+    },
+    {
+      "course_code": "CHEM70030",
+      "course_name": "催化反应机理及其研究方法",
+      "registered_aliases": [
+        "催化反应机理及其研究方法",
+        "cuihuafanyingjilijiqiyanjiufangfa",
+        "chfyjljqyjff"
+      ],
+      "queried_course_aliases": [],
+      "unqueried_registered_aliases": [
+        "催化反应机理及其研究方法",
+        "cuihuafanyingjilijiqiyanjiufangfa",
+        "chfyjljqyjff"
+      ],
+      "coverage_status": "not_individually_searched",
+      "associated_public_record_ids": [],
+      "note": "未逐门检索本课程及其全部别名。"
+    },
+    {
+      "course_code": "CHEM70032",
+      "course_name": "分子聚集体材料和超薄膜",
+      "registered_aliases": [
+        "分子聚集体材料和超薄膜",
+        "fenzijujiticailiaohechaobaomo",
+        "fzjjtclhcbm"
+      ],
+      "queried_course_aliases": [],
+      "unqueried_registered_aliases": [
+        "分子聚集体材料和超薄膜",
+        "fenzijujiticailiaohechaobaomo",
+        "fzjjtclhcbm"
+      ],
+      "coverage_status": "not_individually_searched",
+      "associated_public_record_ids": [],
+      "note": "未逐门检索本课程及其全部别名。"
+    },
+    {
+      "course_code": "CHEM70033",
+      "course_name": "科学仪器基础",
+      "registered_aliases": [
+        "科学仪器基础",
+        "kexueyiqijichu",
+        "kxyqjc"
+      ],
+      "queried_course_aliases": [],
+      "unqueried_registered_aliases": [
+        "科学仪器基础",
+        "kexueyiqijichu",
+        "kxyqjc"
+      ],
+      "coverage_status": "not_individually_searched",
+      "associated_public_record_ids": [],
+      "note": "未逐门检索本课程及其全部别名。"
+    },
+    {
+      "course_code": "GEEC10038",
+      "course_name": "元素发现史",
+      "registered_aliases": [
+        "元素发现史",
+        "yuansufaxianshi",
+        "ysfxs"
+      ],
+      "queried_course_aliases": [],
+      "unqueried_registered_aliases": [
+        "元素发现史",
+        "yuansufaxianshi",
+        "ysfxs"
+      ],
+      "coverage_status": "not_individually_searched",
+      "associated_public_record_ids": [],
+      "note": "未逐门检索本课程及其全部别名。"
+    },
+    {
+      "course_code": "GEIN10002",
+      "course_name": "微流控芯片实验室",
+      "registered_aliases": [
+        "微流控芯片实验室",
+        "weiliukongxinpianshiyanshi",
+        "wlkxpsys"
+      ],
+      "queried_course_aliases": [],
+      "unqueried_registered_aliases": [
+        "微流控芯片实验室",
+        "weiliukongxinpianshiyanshi",
+        "wlkxpsys"
+      ],
+      "coverage_status": "topic_family_sampled_not_individual_alias_audit",
+      "associated_public_record_ids": [],
+      "note": "相关学科主题被抽样检索；本课程全名、全部简称、全拼和首字母未逐个检索/打开正文。"
+    },
+    {
+      "course_code": "GESP20003",
+      "course_name": "强国之路:形势、政策与使命III",
+      "registered_aliases": [
+        "强国之路:形势、政策与使命III",
+        "强国之路:形势、政策与使命",
+        "qiangguozhiluxingshizhengceyushimingiii",
+        "qgzlxszcysmiii",
+        "qiangguozhiluxingshizhengceyushiming",
+        "qgzlxszcysm"
+      ],
+      "queried_course_aliases": [],
+      "unqueried_registered_aliases": [
+        "强国之路:形势、政策与使命III",
+        "强国之路:形势、政策与使命",
+        "qiangguozhiluxingshizhengceyushimingiii",
+        "qgzlxszcysmiii",
+        "qiangguozhiluxingshizhengceyushiming",
+        "qgzlxszcysm"
+      ],
+      "coverage_status": "not_individually_searched",
+      "associated_public_record_ids": [],
+      "note": "未逐门检索本课程及其全部别名。"
+    },
+    {
+      "course_code": "AIS531005",
+      "course_name": "人工智能化学计算模拟",
+      "registered_aliases": [
+        "人工智能化学计算模拟",
+        "rengongzhinenghuaxuejisuanmoni",
+        "rgznhxjsmn"
+      ],
+      "queried_course_aliases": [],
+      "unqueried_registered_aliases": [
+        "人工智能化学计算模拟",
+        "rengongzhinenghuaxuejisuanmoni",
+        "rgznhxjsmn"
+      ],
+      "coverage_status": "not_individually_searched",
+      "associated_public_record_ids": [],
+      "note": "未逐门检索本课程及其全部别名。"
+    },
+    {
+      "course_code": "CHEM10002",
+      "course_name": "有机化学",
+      "registered_aliases": [
+        "有机化学",
+        "有化",
+        "有机",
+        "youjihuaxue",
+        "yjhx",
+        "youhua",
+        "youji"
+      ],
+      "queried_course_aliases": [],
+      "unqueried_registered_aliases": [
+        "有机化学",
+        "有化",
+        "有机",
+        "youjihuaxue",
+        "yjhx",
+        "youhua",
+        "youji"
+      ],
+      "coverage_status": "topic_family_sampled_not_individual_alias_audit",
+      "associated_public_record_ids": [],
+      "note": "相关学科主题被抽样检索；本课程全名、全部简称、全拼和首字母未逐个检索/打开正文。"
+    },
+    {
+      "course_code": "CHEM10004",
+      "course_name": "普通化学A(下)",
+      "registered_aliases": [
+        "普通化学A(下)",
+        "普通化学A下",
+        "普化A(下)",
+        "普化",
+        "putonghuaxueaxia",
+        "pthxax",
+        "puhuaaxia",
+        "phax",
+        "puhua"
+      ],
+      "queried_course_aliases": [
+        "普通化学A"
+      ],
+      "unqueried_registered_aliases": [
+        "普通化学A(下)",
+        "普通化学A下",
+        "普化A(下)",
+        "普化",
+        "putonghuaxueaxia",
+        "pthxax",
+        "puhuaaxia",
+        "phax",
+        "puhua"
+      ],
+      "coverage_status": "opened_source_body_or_exact_course_context",
+      "associated_public_record_ids": [
+        "WCH-PUB-005"
+      ],
+      "note": "正文已打开；只能按source_title_in_body给出的课程家族/课程名关联，具体边界见 records.json。此状态不等于学生评价。"
+    },
+    {
+      "course_code": "CHEM10006",
+      "course_name": "有机化学实验I",
+      "registered_aliases": [
+        "有机化学实验I",
+        "有机化学实验",
+        "有化实验I",
+        "有化",
+        "有机实验I",
+        "有机",
+        "有机实验",
+        "youjihuaxueshiyani",
+        "yjhxsyi",
+        "youjihuaxueshiyan",
+        "yjhxsy",
+        "youhuashiyani",
+        "yhsyi",
+        "youhua",
+        "youjishiyani",
+        "yjsyi",
+        "youji",
+        "youjishiyan",
+        "yjsy"
+      ],
+      "queried_course_aliases": [],
+      "unqueried_registered_aliases": [
+        "有机化学实验I",
+        "有机化学实验",
+        "有化实验I",
+        "有化",
+        "有机实验I",
+        "有机",
+        "有机实验",
+        "youjihuaxueshiyani",
+        "yjhxsyi",
+        "youjihuaxueshiyan",
+        "yjhxsy",
+        "youhuashiyani",
+        "yhsyi",
+        "youhua",
+        "youjishiyani",
+        "yjsyi",
+        "youji",
+        "youjishiyan",
+        "yjsy"
+      ],
+      "coverage_status": "topic_family_sampled_not_individual_alias_audit",
+      "associated_public_record_ids": [],
+      "note": "相关学科主题被抽样检索；本课程全名、全部简称、全拼和首字母未逐个检索/打开正文。"
+    },
+    {
+      "course_code": "CHEM20002",
+      "course_name": "分析化学AII",
+      "registered_aliases": [
+        "分析化学AII",
+        "分析化学A",
+        "分化AII",
+        "分化",
+        "fenxihuaxueaii",
+        "fxhxaii",
+        "fenxihuaxuea",
+        "fxhxa",
+        "fenhuaaii",
+        "fhaii",
+        "fenhua"
+      ],
+      "queried_course_aliases": [],
+      "unqueried_registered_aliases": [
+        "分析化学AII",
+        "分析化学A",
+        "分化AII",
+        "分化",
+        "fenxihuaxueaii",
+        "fxhxaii",
+        "fenxihuaxuea",
+        "fxhxa",
+        "fenhuaaii",
+        "fhaii",
+        "fenhua"
+      ],
+      "coverage_status": "topic_family_sampled_not_individual_alias_audit",
+      "associated_public_record_ids": [],
+      "note": "相关学科主题被抽样检索；本课程全名、全部简称、全拼和首字母未逐个检索/打开正文。"
+    },
+    {
+      "course_code": "CHEM20002h",
+      "course_name": "分析化学A II(H)",
+      "registered_aliases": [
+        "分析化学A II(H)",
+        "分析化学AIIH",
+        "分析化学A II",
+        "分化A II(H)",
+        "分化",
+        "fenxihuaxueaiih",
+        "fxhxaiih",
+        "fenxihuaxueaii",
+        "fxhxaii",
+        "fenhuaaiih",
+        "fhaiih",
+        "fenhua"
+      ],
+      "queried_course_aliases": [],
+      "unqueried_registered_aliases": [
+        "分析化学A II(H)",
+        "分析化学AIIH",
+        "分析化学A II",
+        "分化A II(H)",
+        "分化",
+        "fenxihuaxueaiih",
+        "fxhxaiih",
+        "fenxihuaxueaii",
+        "fxhxaii",
+        "fenhuaaiih",
+        "fhaiih",
+        "fenhua"
+      ],
+      "coverage_status": "topic_family_sampled_not_individual_alias_audit",
+      "associated_public_record_ids": [],
+      "note": "相关学科主题被抽样检索；本课程全名、全部简称、全拼和首字母未逐个检索/打开正文。"
+    },
+    {
+      "course_code": "CHEM20004",
+      "course_name": "合成化学实验(上)",
+      "registered_aliases": [
+        "合成化学实验(上)",
+        "合成化学实验上",
+        "hechenghuaxueshiyanshang",
+        "hchxsys"
+      ],
+      "queried_course_aliases": [],
+      "unqueried_registered_aliases": [
+        "合成化学实验(上)",
+        "合成化学实验上",
+        "hechenghuaxueshiyanshang",
+        "hchxsys"
+      ],
+      "coverage_status": "topic_family_sampled_not_individual_alias_audit",
+      "associated_public_record_ids": [],
+      "note": "相关学科主题被抽样检索；本课程全名、全部简称、全拼和首字母未逐个检索/打开正文。"
+    },
+    {
+      "course_code": "CHEM20006",
+      "course_name": "物理化学AII",
+      "registered_aliases": [
+        "物理化学AII",
+        "物理化学A",
+        "物化AII",
+        "物化",
+        "wulihuaxueaii",
+        "wlhxaii",
+        "wulihuaxuea",
+        "wlhxa",
+        "wuhuaaii",
+        "whaii",
+        "wuhua"
+      ],
+      "queried_course_aliases": [],
+      "unqueried_registered_aliases": [
+        "物理化学AII",
+        "物理化学A",
+        "物化AII",
+        "物化",
+        "wulihuaxueaii",
+        "wlhxaii",
+        "wulihuaxuea",
+        "wlhxa",
+        "wuhuaaii",
+        "whaii",
+        "wuhua"
+      ],
+      "coverage_status": "topic_family_sampled_not_individual_alias_audit",
+      "associated_public_record_ids": [],
+      "note": "相关学科主题被抽样检索；本课程全名、全部简称、全拼和首字母未逐个检索/打开正文。"
+    },
+    {
+      "course_code": "CHEM20006h",
+      "course_name": "物理化学A II(H)",
+      "registered_aliases": [
+        "物理化学A II(H)",
+        "物理化学AIIH",
+        "物理化学A II",
+        "物化A II(H)",
+        "物化",
+        "wulihuaxueaiih",
+        "wlhxaiih",
+        "wulihuaxueaii",
+        "wlhxaii",
+        "wuhuaaiih",
+        "whaiih",
+        "wuhua"
+      ],
+      "queried_course_aliases": [],
+      "unqueried_registered_aliases": [
+        "物理化学A II(H)",
+        "物理化学AIIH",
+        "物理化学A II",
+        "物化A II(H)",
+        "物化",
+        "wulihuaxueaiih",
+        "wlhxaiih",
+        "wulihuaxueaii",
+        "wlhxaii",
+        "wuhuaaiih",
+        "whaiih",
+        "wuhua"
+      ],
+      "coverage_status": "topic_family_sampled_not_individual_alias_audit",
+      "associated_public_record_ids": [],
+      "note": "相关学科主题被抽样检索；本课程全名、全部简称、全拼和首字母未逐个检索/打开正文。"
+    },
+    {
+      "course_code": "CHEM20007",
+      "course_name": "谱学导论",
+      "registered_aliases": [
+        "谱学导论",
+        "puxuedaolun",
+        "pxdl"
+      ],
+      "queried_course_aliases": [],
+      "unqueried_registered_aliases": [
+        "谱学导论",
+        "puxuedaolun",
+        "pxdl"
+      ],
+      "coverage_status": "not_individually_searched",
+      "associated_public_record_ids": [],
+      "note": "未逐门检索本课程及其全部别名。"
+    },
+    {
+      "course_code": "CHEM20008",
+      "course_name": "数理统计方法在化学中的应用",
+      "registered_aliases": [
+        "数理统计方法在化学中的应用",
+        "shulitongjifangfazaihuaxuezhongdeyingyong",
+        "sltjffzhxzdyy"
+      ],
+      "queried_course_aliases": [],
+      "unqueried_registered_aliases": [
+        "数理统计方法在化学中的应用",
+        "shulitongjifangfazaihuaxuezhongdeyingyong",
+        "sltjffzhxzdyy"
+      ],
+      "coverage_status": "not_individually_searched",
+      "associated_public_record_ids": [],
+      "note": "未逐门检索本课程及其全部别名。"
+    },
+    {
+      "course_code": "CHEM20009",
+      "course_name": "化学专业英语",
+      "registered_aliases": [
+        "化学专业英语",
+        "huaxuezhuanyeyingyu",
+        "hxzyyy"
+      ],
+      "queried_course_aliases": [],
+      "unqueried_registered_aliases": [
+        "化学专业英语",
+        "huaxuezhuanyeyingyu",
+        "hxzyyy"
+      ],
+      "coverage_status": "not_individually_searched",
+      "associated_public_record_ids": [],
+      "note": "未逐门检索本课程及其全部别名。"
+    },
+    {
+      "course_code": "CHEM20014",
+      "course_name": "有机化学A II",
+      "registered_aliases": [
+        "有机化学A II",
+        "有机化学AII",
+        "有机化学A",
+        "有化A II",
+        "有化",
+        "有机A II",
+        "有机",
+        "youjihuaxueaii",
+        "yjhxaii",
+        "youjihuaxuea",
+        "yjhxa",
+        "youhuaaii",
+        "yhaii",
+        "youhua",
+        "youjiaii",
+        "yjaii",
+        "youji"
+      ],
+      "queried_course_aliases": [
+        "有机化学A"
+      ],
+      "unqueried_registered_aliases": [
+        "有机化学A II",
+        "有机化学AII",
+        "有化A II",
+        "有化",
+        "有机A II",
+        "有机",
+        "youjihuaxueaii",
+        "yjhxaii",
+        "youjihuaxuea",
+        "yjhxa",
+        "youhuaaii",
+        "yhaii",
+        "youhua",
+        "youjiaii",
+        "yjaii",
+        "youji"
+      ],
+      "coverage_status": "opened_source_body_or_exact_course_context",
+      "associated_public_record_ids": [
+        "WCH-PUB-002"
+      ],
+      "note": "正文已打开；只能按source_title_in_body给出的课程家族/课程名关联，具体边界见 records.json。此状态不等于学生评价。"
+    },
+    {
+      "course_code": "CHEM20014h",
+      "course_name": "有机化学A II (H)",
+      "registered_aliases": [
+        "有机化学A II (H)",
+        "有机化学AIIH",
+        "有机化学A II",
+        "有化A II (H)",
+        "有化",
+        "有机A II (H)",
+        "有机",
+        "youjihuaxueaiih",
+        "yjhxaiih",
+        "youjihuaxueaii",
+        "yjhxaii",
+        "youhuaaiih",
+        "yhaiih",
+        "youhua",
+        "youjiaiih",
+        "yjaiih",
+        "youji"
+      ],
+      "queried_course_aliases": [
+        "有机化学A"
+      ],
+      "unqueried_registered_aliases": [
+        "有机化学A II (H)",
+        "有机化学AIIH",
+        "有机化学A II",
+        "有化A II (H)",
+        "有化",
+        "有机A II (H)",
+        "有机",
+        "youjihuaxueaiih",
+        "yjhxaiih",
+        "youjihuaxueaii",
+        "yjhxaii",
+        "youhuaaiih",
+        "yhaiih",
+        "youhua",
+        "youjiaiih",
+        "yjaiih",
+        "youji"
+      ],
+      "coverage_status": "opened_source_body_or_exact_course_context",
+      "associated_public_record_ids": [
+        "WCH-PUB-002"
+      ],
+      "note": "正文已打开；只能按source_title_in_body给出的课程家族/课程名关联，具体边界见 records.json。此状态不等于学生评价。"
+    },
+    {
+      "course_code": "CHEM20018",
+      "course_name": "生命中的化学",
+      "registered_aliases": [
+        "生命中的化学",
+        "shengmingzhongdehuaxue",
+        "smzdhx"
+      ],
+      "queried_course_aliases": [],
+      "unqueried_registered_aliases": [
+        "生命中的化学",
+        "shengmingzhongdehuaxue",
+        "smzdhx"
+      ],
+      "coverage_status": "not_individually_searched",
+      "associated_public_record_ids": [],
+      "note": "未逐门检索本课程及其全部别名。"
+    },
+    {
+      "course_code": "CHEM20019",
+      "course_name": "微流控生命分析",
+      "registered_aliases": [
+        "微流控生命分析",
+        "weiliukongshengmingfenxi",
+        "wlksmfx"
+      ],
+      "queried_course_aliases": [],
+      "unqueried_registered_aliases": [
+        "微流控生命分析",
+        "weiliukongshengmingfenxi",
+        "wlksmfx"
+      ],
+      "coverage_status": "not_individually_searched",
+      "associated_public_record_ids": [],
+      "note": "未逐门检索本课程及其全部别名。"
+    },
+    {
+      "course_code": "CHEM20020",
+      "course_name": "仪器分析实验",
+      "registered_aliases": [
+        "仪器分析实验",
+        "仪分实验",
+        "仪分",
+        "yiqifenxishiyan",
+        "yqfxsy",
+        "yifenshiyan",
+        "yfsy",
+        "yifen"
+      ],
+      "queried_course_aliases": [],
+      "unqueried_registered_aliases": [
+        "仪器分析实验",
+        "仪分实验",
+        "仪分",
+        "yiqifenxishiyan",
+        "yqfxsy",
+        "yifenshiyan",
+        "yfsy",
+        "yifen"
+      ],
+      "coverage_status": "topic_family_sampled_not_individual_alias_audit",
+      "associated_public_record_ids": [],
+      "note": "相关学科主题被抽样检索；本课程全名、全部简称、全拼和首字母未逐个检索/打开正文。"
+    },
+    {
+      "course_code": "CHEM20023",
+      "course_name": "化学前沿专题",
+      "registered_aliases": [
+        "化学前沿专题",
+        "huaxueqianyanzhuanti",
+        "hxqyzt"
+      ],
+      "queried_course_aliases": [],
+      "unqueried_registered_aliases": [
+        "化学前沿专题",
+        "huaxueqianyanzhuanti",
+        "hxqyzt"
+      ],
+      "coverage_status": "not_individually_searched",
+      "associated_public_record_ids": [],
+      "note": "未逐门检索本课程及其全部别名。"
+    },
+    {
+      "course_code": "CHEM30008",
+      "course_name": "近代分析化学",
+      "registered_aliases": [
+        "近代分析化学",
+        "近代分化",
+        "分化",
+        "jindaifenxihuaxue",
+        "jdfxhx",
+        "jindaifenhua",
+        "jdfh",
+        "fenhua"
+      ],
+      "queried_course_aliases": [],
+      "unqueried_registered_aliases": [
+        "近代分析化学",
+        "近代分化",
+        "分化",
+        "jindaifenxihuaxue",
+        "jdfxhx",
+        "jindaifenhua",
+        "jdfh",
+        "fenhua"
+      ],
+      "coverage_status": "topic_family_sampled_not_individual_alias_audit",
+      "associated_public_record_ids": [],
+      "note": "相关学科主题被抽样检索；本课程全名、全部简称、全拼和首字母未逐个检索/打开正文。"
+    },
+    {
+      "course_code": "CHEM30009",
+      "course_name": "胶体化学",
+      "registered_aliases": [
+        "胶体化学",
+        "jiaotihuaxue",
+        "jthx"
+      ],
+      "queried_course_aliases": [],
+      "unqueried_registered_aliases": [
+        "胶体化学",
+        "jiaotihuaxue",
+        "jthx"
+      ],
+      "coverage_status": "not_individually_searched",
+      "associated_public_record_ids": [],
+      "note": "未逐门检索本课程及其全部别名。"
+    },
+    {
+      "course_code": "CHEM30013",
+      "course_name": "新型无机材料",
+      "registered_aliases": [
+        "新型无机材料",
+        "xinxingwujicailiao",
+        "xxwjcl"
+      ],
+      "queried_course_aliases": [],
+      "unqueried_registered_aliases": [
+        "新型无机材料",
+        "xinxingwujicailiao",
+        "xxwjcl"
+      ],
+      "coverage_status": "not_individually_searched",
+      "associated_public_record_ids": [],
+      "note": "未逐门检索本课程及其全部别名。"
+    },
+    {
+      "course_code": "CHEM30014",
+      "course_name": "化学反应工程",
+      "registered_aliases": [
+        "化学反应工程",
+        "huaxuefanyinggongcheng",
+        "hxfygc"
+      ],
+      "queried_course_aliases": [],
+      "unqueried_registered_aliases": [
+        "化学反应工程",
+        "huaxuefanyinggongcheng",
+        "hxfygc"
+      ],
+      "coverage_status": "not_individually_searched",
+      "associated_public_record_ids": [],
+      "note": "未逐门检索本课程及其全部别名。"
+    },
+    {
+      "course_code": "CHEM30016",
+      "course_name": "工业化学",
+      "registered_aliases": [
+        "工业化学",
+        "gongyehuaxue",
+        "gyhx"
+      ],
+      "queried_course_aliases": [],
+      "unqueried_registered_aliases": [
+        "工业化学",
+        "gongyehuaxue",
+        "gyhx"
+      ],
+      "coverage_status": "not_individually_searched",
+      "associated_public_record_ids": [],
+      "note": "未逐门检索本课程及其全部别名。"
+    },
+    {
+      "course_code": "CHEM30020",
+      "course_name": "溶胶-凝胶化学及实验",
+      "registered_aliases": [
+        "溶胶-凝胶化学及实验",
+        "rongjiaoningjiaohuaxuejishiyan",
+        "rjnjhxjsy"
+      ],
+      "queried_course_aliases": [],
+      "unqueried_registered_aliases": [
+        "溶胶-凝胶化学及实验",
+        "rongjiaoningjiaohuaxuejishiyan",
+        "rjnjhxjsy"
+      ],
+      "coverage_status": "topic_family_sampled_not_individual_alias_audit",
+      "associated_public_record_ids": [],
+      "note": "相关学科主题被抽样检索；本课程全名、全部简称、全拼和首字母未逐个检索/打开正文。"
+    },
+    {
+      "course_code": "CHEM30023",
+      "course_name": "药物化学",
+      "registered_aliases": [
+        "药物化学",
+        "yaowuhuaxue",
+        "ywhx"
+      ],
+      "queried_course_aliases": [],
+      "unqueried_registered_aliases": [
+        "药物化学",
+        "yaowuhuaxue",
+        "ywhx"
+      ],
+      "coverage_status": "not_individually_searched",
+      "associated_public_record_ids": [],
+      "note": "未逐门检索本课程及其全部别名。"
+    },
+    {
+      "course_code": "CHEM30027",
+      "course_name": "现代化学专题(能源化学)",
+      "registered_aliases": [
+        "现代化学专题(能源化学)",
+        "现代化学专题能源化学",
+        "xiandaihuaxuezhuantinengyuanhuaxue",
+        "xdhxztnyhx"
+      ],
+      "queried_course_aliases": [],
+      "unqueried_registered_aliases": [
+        "现代化学专题(能源化学)",
+        "现代化学专题能源化学",
+        "xiandaihuaxuezhuantinengyuanhuaxue",
+        "xdhxztnyhx"
+      ],
+      "coverage_status": "not_individually_searched",
+      "associated_public_record_ids": [],
+      "note": "未逐门检索本课程及其全部别名。"
+    },
+    {
+      "course_code": "CHEM30028",
+      "course_name": "高能化学电源",
+      "registered_aliases": [
+        "高能化学电源",
+        "gaonenghuaxuedianyuan",
+        "gnhxdy"
+      ],
+      "queried_course_aliases": [],
+      "unqueried_registered_aliases": [
+        "高能化学电源",
+        "gaonenghuaxuedianyuan",
+        "gnhxdy"
+      ],
+      "coverage_status": "not_individually_searched",
+      "associated_public_record_ids": [],
+      "note": "未逐门检索本课程及其全部别名。"
+    },
+    {
+      "course_code": "CHEM30030",
+      "course_name": "探究性仪器分析实验",
+      "registered_aliases": [
+        "探究性仪器分析实验",
+        "探究性仪分实验",
+        "仪分",
+        "tanjiuxingyiqifenxishiyan",
+        "tjxyqfxsy",
+        "tanjiuxingyifenshiyan",
+        "tjxyfsy",
+        "yifen"
+      ],
+      "queried_course_aliases": [],
+      "unqueried_registered_aliases": [
+        "探究性仪器分析实验",
+        "探究性仪分实验",
+        "仪分",
+        "tanjiuxingyiqifenxishiyan",
+        "tjxyqfxsy",
+        "tanjiuxingyifenshiyan",
+        "tjxyfsy",
+        "yifen"
+      ],
+      "coverage_status": "topic_family_sampled_not_individual_alias_audit",
+      "associated_public_record_ids": [],
+      "note": "相关学科主题被抽样检索；本课程全名、全部简称、全拼和首字母未逐个检索/打开正文。"
+    },
+    {
+      "course_code": "CHEM30032",
+      "course_name": "物理化学实验(下)",
+      "registered_aliases": [
+        "物理化学实验(下)",
+        "物理化学实验下",
+        "物化实验(下)",
+        "物化",
+        "物化实验",
+        "wulihuaxueshiyanxia",
+        "wlhxsyx",
+        "wuhuashiyanxia",
+        "whsyx",
+        "wuhua",
+        "wuhuashiyan",
+        "whsy"
+      ],
+      "queried_course_aliases": [],
+      "unqueried_registered_aliases": [
+        "物理化学实验(下)",
+        "物理化学实验下",
+        "物化实验(下)",
+        "物化",
+        "物化实验",
+        "wulihuaxueshiyanxia",
+        "wlhxsyx",
+        "wuhuashiyanxia",
+        "whsyx",
+        "wuhua",
+        "wuhuashiyan",
+        "whsy"
+      ],
+      "coverage_status": "topic_family_sampled_not_individual_alias_audit",
+      "associated_public_record_ids": [],
+      "note": "相关学科主题被抽样检索；本课程全名、全部简称、全拼和首字母未逐个检索/打开正文。"
+    },
+    {
+      "course_code": "CHEM30032h",
+      "course_name": "物理化学实验(下)(H)",
+      "registered_aliases": [
+        "物理化学实验(下)(H)",
+        "物理化学实验下H",
+        "物理化学实验(下)",
+        "物化实验(下)(H)",
+        "物化",
+        "物化实验",
+        "wulihuaxueshiyanxiah",
+        "wlhxsyxh",
+        "wulihuaxueshiyanxia",
+        "wlhxsyx",
+        "wuhuashiyanxiah",
+        "whsyxh",
+        "wuhua",
+        "wuhuashiyan",
+        "whsy"
+      ],
+      "queried_course_aliases": [],
+      "unqueried_registered_aliases": [
+        "物理化学实验(下)(H)",
+        "物理化学实验下H",
+        "物理化学实验(下)",
+        "物化实验(下)(H)",
+        "物化",
+        "物化实验",
+        "wulihuaxueshiyanxiah",
+        "wlhxsyxh",
+        "wulihuaxueshiyanxia",
+        "wlhxsyx",
+        "wuhuashiyanxiah",
+        "whsyxh",
+        "wuhua",
+        "wuhuashiyan",
+        "whsy"
+      ],
+      "coverage_status": "topic_family_sampled_not_individual_alias_audit",
+      "associated_public_record_ids": [],
+      "note": "相关学科主题被抽样检索；本课程全名、全部简称、全拼和首字母未逐个检索/打开正文。"
+    },
+    {
+      "course_code": "CHEM30035",
+      "course_name": "化学生物学基础",
+      "registered_aliases": [
+        "化学生物学基础",
+        "huaxueshengwuxuejichu",
+        "hxswxjc"
+      ],
+      "queried_course_aliases": [],
+      "unqueried_registered_aliases": [
+        "化学生物学基础",
+        "huaxueshengwuxuejichu",
+        "hxswxjc"
+      ],
+      "coverage_status": "not_individually_searched",
+      "associated_public_record_ids": [],
+      "note": "未逐门检索本课程及其全部别名。"
+    },
+    {
+      "course_code": "CHEM40003",
+      "course_name": "毕业论文",
+      "registered_aliases": [
+        "毕业论文",
+        "biyelunwen",
+        "bylw"
+      ],
+      "queried_course_aliases": [],
+      "unqueried_registered_aliases": [
+        "毕业论文",
+        "biyelunwen",
+        "bylw"
+      ],
+      "coverage_status": "not_individually_searched",
+      "associated_public_record_ids": [],
+      "note": "未逐门检索本课程及其全部别名。"
+    },
+    {
+      "course_code": "CHEM40004",
+      "course_name": "综合化学实验I",
+      "registered_aliases": [
+        "综合化学实验I",
+        "综合化学实验",
+        "zonghehuaxueshiyani",
+        "zhhxsyi",
+        "zonghehuaxueshiyan",
+        "zhhxsy"
+      ],
+      "queried_course_aliases": [],
+      "unqueried_registered_aliases": [
+        "综合化学实验I",
+        "综合化学实验",
+        "zonghehuaxueshiyani",
+        "zhhxsyi",
+        "zonghehuaxueshiyan",
+        "zhhxsy"
+      ],
+      "coverage_status": "topic_family_sampled_not_individual_alias_audit",
+      "associated_public_record_ids": [],
+      "note": "相关学科主题被抽样检索；本课程全名、全部简称、全拼和首字母未逐个检索/打开正文。"
+    },
+    {
+      "course_code": "CHEM50005",
+      "course_name": "高等结构分析",
+      "registered_aliases": [
+        "高等结构分析",
+        "gaodengjiegoufenxi",
+        "gdjgfx"
+      ],
+      "queried_course_aliases": [],
+      "unqueried_registered_aliases": [
+        "高等结构分析",
+        "gaodengjiegoufenxi",
+        "gdjgfx"
+      ],
+      "coverage_status": "not_individually_searched",
+      "associated_public_record_ids": [],
+      "note": "未逐门检索本课程及其全部别名。"
+    },
+    {
+      "course_code": "CHEM50007",
+      "course_name": "英文化学论文写作",
+      "registered_aliases": [
+        "英文化学论文写作",
+        "yingwenhuaxuelunwenxiezuo",
+        "ywhxlwxz"
+      ],
+      "queried_course_aliases": [],
+      "unqueried_registered_aliases": [
+        "英文化学论文写作",
+        "yingwenhuaxuelunwenxiezuo",
+        "ywhxlwxz"
+      ],
+      "coverage_status": "not_individually_searched",
+      "associated_public_record_ids": [],
+      "note": "未逐门检索本课程及其全部别名。"
+    },
+    {
+      "course_code": "CHEM60007",
+      "course_name": "生物无机化学进展",
+      "registered_aliases": [
+        "生物无机化学进展",
+        "生物无化进展",
+        "无化",
+        "生物无机进展",
+        "无机",
+        "shengwuwujihuaxuejinzhan",
+        "swwjhxjz",
+        "shengwuwuhuajinzhan",
+        "swwhjz",
+        "wuhua",
+        "shengwuwujijinzhan",
+        "swwjjz",
+        "wuji"
+      ],
+      "queried_course_aliases": [],
+      "unqueried_registered_aliases": [
+        "生物无机化学进展",
+        "生物无化进展",
+        "无化",
+        "生物无机进展",
+        "无机",
+        "shengwuwujihuaxuejinzhan",
+        "swwjhxjz",
+        "shengwuwuhuajinzhan",
+        "swwhjz",
+        "wuhua",
+        "shengwuwujijinzhan",
+        "swwjjz",
+        "wuji"
+      ],
+      "coverage_status": "topic_family_sampled_not_individual_alias_audit",
+      "associated_public_record_ids": [],
+      "note": "相关学科主题被抽样检索；本课程全名、全部简称、全拼和首字母未逐个检索/打开正文。"
+    },
+    {
+      "course_code": "CHEM60008",
+      "course_name": "金属有机化学进展",
+      "registered_aliases": [
+        "金属有机化学进展",
+        "金属有化进展",
+        "有化",
+        "金属有机进展",
+        "有机",
+        "jinshuyoujihuaxuejinzhan",
+        "jsyjhxjz",
+        "jinshuyouhuajinzhan",
+        "jsyhjz",
+        "youhua",
+        "jinshuyoujijinzhan",
+        "jsyjjz",
+        "youji"
+      ],
+      "queried_course_aliases": [],
+      "unqueried_registered_aliases": [
+        "金属有机化学进展",
+        "金属有化进展",
+        "有化",
+        "金属有机进展",
+        "有机",
+        "jinshuyoujihuaxuejinzhan",
+        "jsyjhxjz",
+        "jinshuyouhuajinzhan",
+        "jsyhjz",
+        "youhua",
+        "jinshuyoujijinzhan",
+        "jsyjjz",
+        "youji"
+      ],
+      "coverage_status": "topic_family_sampled_not_individual_alias_audit",
+      "associated_public_record_ids": [],
+      "note": "相关学科主题被抽样检索；本课程全名、全部简称、全拼和首字母未逐个检索/打开正文。"
+    },
+    {
+      "course_code": "CHEM60010",
+      "course_name": "稀土化学",
+      "registered_aliases": [
+        "稀土化学",
+        "xituhuaxue",
+        "xthx"
+      ],
+      "queried_course_aliases": [],
+      "unqueried_registered_aliases": [
+        "稀土化学",
+        "xituhuaxue",
+        "xthx"
+      ],
+      "coverage_status": "not_individually_searched",
+      "associated_public_record_ids": [],
+      "note": "未逐门检索本课程及其全部别名。"
+    },
+    {
+      "course_code": "CHEM60015",
+      "course_name": "现代有机金属化学",
+      "registered_aliases": [
+        "现代有机金属化学",
+        "xiandaiyoujijinshuhuaxue",
+        "xdyjjshx"
+      ],
+      "queried_course_aliases": [],
+      "unqueried_registered_aliases": [
+        "现代有机金属化学",
+        "xiandaiyoujijinshuhuaxue",
+        "xdyjjshx"
+      ],
+      "coverage_status": "not_individually_searched",
+      "associated_public_record_ids": [],
+      "note": "未逐门检索本课程及其全部别名。"
+    },
+    {
+      "course_code": "CHEM60016",
+      "course_name": "分析电化学",
+      "registered_aliases": [
+        "分析电化学",
+        "fenxidianhuaxue",
+        "fxdhx"
+      ],
+      "queried_course_aliases": [],
+      "unqueried_registered_aliases": [
+        "分析电化学",
+        "fenxidianhuaxue",
+        "fxdhx"
+      ],
+      "coverage_status": "not_individually_searched",
+      "associated_public_record_ids": [],
+      "note": "未逐门检索本课程及其全部别名。"
+    },
+    {
+      "course_code": "CHEM60018",
+      "course_name": "分子催化和表面化学",
+      "registered_aliases": [
+        "分子催化和表面化学",
+        "fenzicuihuahebiaomianhuaxue",
+        "fzchhbmhx"
+      ],
+      "queried_course_aliases": [],
+      "unqueried_registered_aliases": [
+        "分子催化和表面化学",
+        "fenzicuihuahebiaomianhuaxue",
+        "fzchhbmhx"
+      ],
+      "coverage_status": "not_individually_searched",
+      "associated_public_record_ids": [],
+      "note": "未逐门检索本课程及其全部别名。"
+    },
+    {
+      "course_code": "CHEM60022",
+      "course_name": "蛋白质化学/生物无机化学",
+      "registered_aliases": [
+        "蛋白质化学/生物无机化学",
+        "蛋白质化学/生物无化",
+        "无化",
+        "蛋白质化学/生物无机",
+        "无机",
+        "danbaizhihuaxueshengwuwujihuaxue",
+        "dbzhxswwjhx",
+        "danbaizhihuaxueshengwuwuhua",
+        "dbzhxswwh",
+        "wuhua",
+        "danbaizhihuaxueshengwuwuji",
+        "dbzhxswwj",
+        "wuji"
+      ],
+      "queried_course_aliases": [],
+      "unqueried_registered_aliases": [
+        "蛋白质化学/生物无机化学",
+        "蛋白质化学/生物无化",
+        "无化",
+        "蛋白质化学/生物无机",
+        "无机",
+        "danbaizhihuaxueshengwuwujihuaxue",
+        "dbzhxswwjhx",
+        "danbaizhihuaxueshengwuwuhua",
+        "dbzhxswwh",
+        "wuhua",
+        "danbaizhihuaxueshengwuwuji",
+        "dbzhxswwj",
+        "wuji"
+      ],
+      "coverage_status": "topic_family_sampled_not_individual_alias_audit",
+      "associated_public_record_ids": [],
+      "note": "相关学科主题被抽样检索；本课程全名、全部简称、全拼和首字母未逐个检索/打开正文。"
+    },
+    {
+      "course_code": "CHEM60023",
+      "course_name": "有机合成化学I",
+      "registered_aliases": [
+        "有机合成化学I",
+        "有机合成化学",
+        "youjihechenghuaxuei",
+        "yjhchxi",
+        "youjihechenghuaxue",
+        "yjhchx"
+      ],
+      "queried_course_aliases": [],
+      "unqueried_registered_aliases": [
+        "有机合成化学I",
+        "有机合成化学",
+        "youjihechenghuaxuei",
+        "yjhchxi",
+        "youjihechenghuaxue",
+        "yjhchx"
+      ],
+      "coverage_status": "not_individually_searched",
+      "associated_public_record_ids": [],
+      "note": "未逐门检索本课程及其全部别名。"
+    },
+    {
+      "course_code": "CHEM70006",
+      "course_name": "高等化学分析",
+      "registered_aliases": [
+        "高等化学分析",
+        "gaodenghuaxuefenxi",
+        "gdhxfx"
+      ],
+      "queried_course_aliases": [],
+      "unqueried_registered_aliases": [
+        "高等化学分析",
+        "gaodenghuaxuefenxi",
+        "gdhxfx"
+      ],
+      "coverage_status": "not_individually_searched",
+      "associated_public_record_ids": [],
+      "note": "未逐门检索本课程及其全部别名。"
+    },
+    {
+      "course_code": "CHEM70007",
+      "course_name": "色谱分析",
+      "registered_aliases": [
+        "色谱分析",
+        "sepufenxi",
+        "spfx"
+      ],
+      "queried_course_aliases": [],
+      "unqueried_registered_aliases": [
+        "色谱分析",
+        "sepufenxi",
+        "spfx"
+      ],
+      "coverage_status": "not_individually_searched",
+      "associated_public_record_ids": [],
+      "note": "未逐门检索本课程及其全部别名。"
+    },
+    {
+      "course_code": "CHEM70009",
+      "course_name": "多相催化原理",
+      "registered_aliases": [
+        "多相催化原理",
+        "duoxiangcuihuayuanli",
+        "dxchyl"
+      ],
+      "queried_course_aliases": [],
+      "unqueried_registered_aliases": [
+        "多相催化原理",
+        "duoxiangcuihuayuanli",
+        "dxchyl"
+      ],
+      "coverage_status": "not_individually_searched",
+      "associated_public_record_ids": [],
+      "note": "未逐门检索本课程及其全部别名。"
+    },
+    {
+      "course_code": "CHEM70012",
+      "course_name": "绿色化学",
+      "registered_aliases": [
+        "绿色化学",
+        "lvsehuaxue",
+        "lshx"
+      ],
+      "queried_course_aliases": [],
+      "unqueried_registered_aliases": [
+        "绿色化学",
+        "lvsehuaxue",
+        "lshx"
+      ],
+      "coverage_status": "not_individually_searched",
+      "associated_public_record_ids": [],
+      "note": "未逐门检索本课程及其全部别名。"
+    },
+    {
+      "course_code": "CHEM70017",
+      "course_name": "单分子科学原理与模型",
+      "registered_aliases": [
+        "单分子科学原理与模型",
+        "danfenzikexueyuanliyumoxing",
+        "dfzkxylymx"
+      ],
+      "queried_course_aliases": [],
+      "unqueried_registered_aliases": [
+        "单分子科学原理与模型",
+        "danfenzikexueyuanliyumoxing",
+        "dfzkxylymx"
+      ],
+      "coverage_status": "not_individually_searched",
+      "associated_public_record_ids": [],
+      "note": "未逐门检索本课程及其全部别名。"
+    },
+    {
+      "course_code": "CHEM70018",
+      "course_name": "电子显微基础与实验",
+      "registered_aliases": [
+        "电子显微基础与实验",
+        "dianzixianweijichuyushiyan",
+        "dzxwjcysy"
+      ],
+      "queried_course_aliases": [],
+      "unqueried_registered_aliases": [
+        "电子显微基础与实验",
+        "dianzixianweijichuyushiyan",
+        "dzxwjcysy"
+      ],
+      "coverage_status": "topic_family_sampled_not_individual_alias_audit",
+      "associated_public_record_ids": [],
+      "note": "相关学科主题被抽样检索；本课程全名、全部简称、全拼和首字母未逐个检索/打开正文。"
+    },
+    {
+      "course_code": "CHEM70021",
+      "course_name": "分析化学进展",
+      "registered_aliases": [
+        "分析化学进展",
+        "分化进展",
+        "分化",
+        "fenxihuaxuejinzhan",
+        "fxhxjz",
+        "fenhuajinzhan",
+        "fhjz",
+        "fenhua"
+      ],
+      "queried_course_aliases": [],
+      "unqueried_registered_aliases": [
+        "分析化学进展",
+        "分化进展",
+        "分化",
+        "fenxihuaxuejinzhan",
+        "fxhxjz",
+        "fenhuajinzhan",
+        "fhjz",
+        "fenhua"
+      ],
+      "coverage_status": "topic_family_sampled_not_individual_alias_audit",
+      "associated_public_record_ids": [],
+      "note": "相关学科主题被抽样检索；本课程全名、全部简称、全拼和首字母未逐个检索/打开正文。"
+    },
+    {
+      "course_code": "CHEM70024",
+      "course_name": "X-射线衍射分析技术",
+      "registered_aliases": [
+        "X-射线衍射分析技术",
+        "xshexianyanshefenxijishu",
+        "xsxysfxjs"
+      ],
+      "queried_course_aliases": [],
+      "unqueried_registered_aliases": [
+        "X-射线衍射分析技术",
+        "xshexianyanshefenxijishu",
+        "xsxysfxjs"
+      ],
+      "coverage_status": "not_individually_searched",
+      "associated_public_record_ids": [],
+      "note": "未逐门检索本课程及其全部别名。"
+    },
+    {
+      "course_code": "CHEM70025",
+      "course_name": "电化学研究前沿介绍",
+      "registered_aliases": [
+        "电化学研究前沿介绍",
+        "dianhuaxueyanjiuqianyanjieshao",
+        "dhxyjqyjs"
+      ],
+      "queried_course_aliases": [],
+      "unqueried_registered_aliases": [
+        "电化学研究前沿介绍",
+        "dianhuaxueyanjiuqianyanjieshao",
+        "dhxyjqyjs"
+      ],
+      "coverage_status": "not_individually_searched",
+      "associated_public_record_ids": [],
+      "note": "未逐门检索本课程及其全部别名。"
+    },
+    {
+      "course_code": "CHEM70026",
+      "course_name": "高能电源化学",
+      "registered_aliases": [
+        "高能电源化学",
+        "gaonengdianyuanhuaxue",
+        "gndyhx"
+      ],
+      "queried_course_aliases": [],
+      "unqueried_registered_aliases": [
+        "高能电源化学",
+        "gaonengdianyuanhuaxue",
+        "gndyhx"
+      ],
+      "coverage_status": "not_individually_searched",
+      "associated_public_record_ids": [],
+      "note": "未逐门检索本课程及其全部别名。"
+    },
+    {
+      "course_code": "CHEM70027",
+      "course_name": "碳硼烷化学",
+      "registered_aliases": [
+        "碳硼烷化学",
+        "tanpengwanhuaxue",
+        "tpwhx"
+      ],
+      "queried_course_aliases": [],
+      "unqueried_registered_aliases": [
+        "碳硼烷化学",
+        "tanpengwanhuaxue",
+        "tpwhx"
+      ],
+      "coverage_status": "not_individually_searched",
+      "associated_public_record_ids": [],
+      "note": "未逐门检索本课程及其全部别名。"
+    },
+    {
+      "course_code": "CHEM70034",
+      "course_name": "纳米材料生物分离分析",
+      "registered_aliases": [
+        "纳米材料生物分离分析",
+        "namicailiaoshengwufenlifenxi",
+        "nmclswflfx"
+      ],
+      "queried_course_aliases": [],
+      "unqueried_registered_aliases": [
+        "纳米材料生物分离分析",
+        "namicailiaoshengwufenlifenxi",
+        "nmclswflfx"
+      ],
+      "coverage_status": "not_individually_searched",
+      "associated_public_record_ids": [],
+      "note": "未逐门检索本课程及其全部别名。"
+    },
+    {
+      "course_code": "CHEM70035",
+      "course_name": "有机合成化学II",
+      "registered_aliases": [
+        "有机合成化学II",
+        "有机合成化学",
+        "youjihechenghuaxueii",
+        "yjhchxii",
+        "youjihechenghuaxue",
+        "yjhchx"
+      ],
+      "queried_course_aliases": [],
+      "unqueried_registered_aliases": [
+        "有机合成化学II",
+        "有机合成化学",
+        "youjihechenghuaxueii",
+        "yjhchxii",
+        "youjihechenghuaxue",
+        "yjhchx"
+      ],
+      "coverage_status": "not_individually_searched",
+      "associated_public_record_ids": [],
+      "note": "未逐门检索本课程及其全部别名。"
+    },
+    {
+      "course_code": "GECC10002",
+      "course_name": "化学与人类",
+      "registered_aliases": [
+        "化学与人类",
+        "huaxueyurenlei",
+        "hxyrl"
+      ],
+      "queried_course_aliases": [],
+      "unqueried_registered_aliases": [
+        "化学与人类",
+        "huaxueyurenlei",
+        "hxyrl"
+      ],
+      "coverage_status": "not_individually_searched",
+      "associated_public_record_ids": [],
+      "note": "未逐门检索本课程及其全部别名。"
+    },
+    {
+      "course_code": "GESP10004",
+      "course_name": "强国之路:形势、政策与使命II",
+      "registered_aliases": [
+        "强国之路:形势、政策与使命II",
+        "强国之路:形势、政策与使命",
+        "qiangguozhiluxingshizhengceyushimingii",
+        "qgzlxszcysmii",
+        "qiangguozhiluxingshizhengceyushiming",
+        "qgzlxszcysm"
+      ],
+      "queried_course_aliases": [],
+      "unqueried_registered_aliases": [
+        "强国之路:形势、政策与使命II",
+        "强国之路:形势、政策与使命",
+        "qiangguozhiluxingshizhengceyushimingii",
+        "qgzlxszcysmii",
+        "qiangguozhiluxingshizhengceyushiming",
+        "qgzlxszcysm"
+      ],
+      "coverage_status": "not_individually_searched",
+      "associated_public_record_ids": [],
+      "note": "未逐门检索本课程及其全部别名。"
+    },
+    {
+      "course_code": "GESP20004",
+      "course_name": "强国之路:形势、政策与使命IV",
+      "registered_aliases": [
+        "强国之路:形势、政策与使命IV",
+        "强国之路:形势、政策与使命",
+        "qiangguozhiluxingshizhengceyushimingiv",
+        "qgzlxszcysmiv",
+        "qiangguozhiluxingshizhengceyushiming",
+        "qgzlxszcysm"
+      ],
+      "queried_course_aliases": [],
+      "unqueried_registered_aliases": [
+        "强国之路:形势、政策与使命IV",
+        "强国之路:形势、政策与使命",
+        "qiangguozhiluxingshizhengceyushimingiv",
+        "qgzlxszcysmiv",
+        "qiangguozhiluxingshizhengceyushiming",
+        "qgzlxszcysm"
+      ],
+      "coverage_status": "not_individually_searched",
+      "associated_public_record_ids": [],
+      "note": "未逐门检索本课程及其全部别名。"
+    }
+  ]
+}

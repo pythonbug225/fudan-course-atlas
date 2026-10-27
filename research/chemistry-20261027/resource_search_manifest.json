@@ -1,0 +1,65 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-10-27",
+  "output_scope": "W/course_resources only",
+  "course_scope_count": 145,
+  "ledger_rows": 145,
+  "status_counts": {
+    "official_courseware_family_match_code_unverified": 1,
+    "candidate_community_materials_exact_title": 1,
+    "official_courseware_exact_title_historical_code_mismatch": 1,
+    "official_page_content_match_metadata_conflict_split_unverified": 2,
+    "course_catalog_only_no_study_materials_seen": 2,
+    "not_individually_searched": 135,
+    "official_combined_lab_course_family_match_code_unverified": 2,
+    "official_courseware_title_family_match_code_unverified": 1
+  },
+  "total_records": 6,
+  "material_record_count": 5,
+  "sources_checked": [
+    "GitHub public code/file search, repository metadata, README and exact FDU-Sharing course-page source; no clone/download/run.",
+    "Official Fudan Experimental Chemistry Center pages for inorganic/chemical-analysis, ordinary-chemistry, synthesis and instrumental-analysis/physical-chemistry experiment materials.",
+    "XueyinOnline Organic Chemistry A I/II public pages.",
+    "Official Fudan Chemistry Department and Fudan News course-context pages."
+  ],
+  "targeted_query_families": [
+    "普通化学A / 普通化学",
+    "普通化学实验",
+    "无机化学与化学分析实验",
+    "有机化学A I/II",
+    "分析化学及实验",
+    "物理化学实验",
+    "仪器分析实验",
+    "合成化学实验",
+    "GitHub exact codes CHEM20005/CHEM20013/CHEM20001/CHEM30005"
+  ],
+  "coverage_limits": [
+    "Only highlighted course families were searched in detail. The 145-row ledger is complete as an inventory, but unhighlighted rows are marked not_individually_searched.",
+    "Exact current-code mapping is unresolved for official experimental pages with historical or combined course titles.",
+    "GitHub search is incomplete; one query returned a 429 rate limit and was not retried.",
+    "Official binary PDF/PPT files were not downloaded or read; page titles, visible file names, domain/footer, and syllabus metadata were inspected.",
+    "No license granting redistribution was confirmed. Links are retained to source pages; materials were not re-hosted.",
+    "One Fudan-hosted synthesis-experiment page has inconsistent page metadata: its title/file list indicates synthesis experiments, while its breadcrumb/body heading names another lab course. It is recorded as a lead with a mismatch, not as exact course-code evidence."
+  ],
+  "rights_summary": "Public access does not grant redistribution rights. FDU-Sharing has no LICENSE file found and README reserves original authors rights. Official Fudan material pages carry a copyright notice; no open license found. Xueyin pages show no downloadable materials or open license.",
+  "excluded_hits": [
+    {
+      "title": "大学化学A",
+      "url": "https://mooc1.chaoxing.com/mooc-ans/course/portal/Kdrvyd3Z3Q7EwySj5WEFaA%3D%3D",
+      "decision": "排除",
+      "reason": "Page identifies 湖北汽车工业学院材料科学与工程学院 and course no. 03121013; not Fudan."
+    },
+    {
+      "title": "普通化学教学网",
+      "url": "https://www.chem.pku.edu.cn/zhangj/pthx/index.htm",
+      "decision": "排除",
+      "reason": "The site is Peking University; do not attribute its materials to Fudan."
+    },
+    {
+      "title": "分析化学实验教学PPT第三方检索摘要",
+      "url": "https://www.xiaokudang.com/docs/all/all_60.html",
+      "decision": "弱线索，未纳入",
+      "reason": "Search result claims Fudan-related slides, but page open returned 502; school/course/source and rights not independently verified."
+    }
+  ]
+}

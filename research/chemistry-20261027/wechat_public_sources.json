@@ -1,0 +1,94 @@
+{
+  "schema_version": "1.0",
+  "created_at": "2026-10-27",
+  "scope_note": "微信公众号公开来源检索；只摘录可以打开并核对正文的页面。对学生发言仅留匿名摘要，不留学生姓名、昵称、班群身份或联系方式。",
+  "summary": {
+    "verified_student_course_experience_sources": 1,
+    "verified_student_comments_in_that_source": 2,
+    "course_specific_public_review_records": 1,
+    "official_course_context_or_award_sources": 5,
+    "direct_mp_weixin_body_urls_verified": 0,
+    "finding": "可归到《普通化学》的公开学生体验只有一篇复旦官方新闻中的两段学生发言；其余打开正文均为官方课程介绍、教学建设或课程评定信息，不是学生课评。"
+  },
+  "records": [
+    {
+      "record_id": "WCH-PUB-001",
+      "source_url": "https://www.fudan.edu.cn/2021/1105/c24a110479/page.htm",
+      "source_type": "复旦大学官网新闻正文；非已核实的微信公众号直链",
+      "source_published": "2021-11-05",
+      "body_opened_and_verified": true,
+      "body_locator": "正文关于《普通化学》课堂及课后讨论的段落；网页正文可直接打开",
+      "course_title_in_body": "普通化学",
+      "course_match": "课程名与 scope 中“普通化学”条目一致；报道对应2021年课堂，未给出当学期课程代码或具体平行班，故只作课程名层级关联。",
+      "teacher_attribution": "正文将发言明确关联到该课任课教师；为遵守匿名化要求，不在本文件保留教师姓名。",
+      "student_experience_summary": "正文引用两位当年新生对课堂的直接体验：一位认为内容丰富但抽象，课前读懂教材并集中注意力后更有收获；另一位评价课堂生动、能激发对化学的兴趣。",
+      "sentiment_and_limits": "偏正面；两条发言来自同一篇校方人物报道，样本很小且属于宣传报道语境。不能据此推断课程考核、作业、出勤要求、全班体验或其他学期/任课教师。",
+      "privacy": "学生姓名和班级标识未写入此记录。"
+    },
+    {
+      "record_id": "WCH-PUB-002",
+      "source_url": "https://chemistry.fudan.edu.cn/68/1f/c55113a682015/page.htm",
+      "source_type": "复旦大学化学系官网完整转载正文；正文注明转载自官方“复旦化学”微信公众号",
+      "source_published": "网页正文未见明确发布日期",
+      "body_opened_and_verified": true,
+      "body_locator": "课程介绍正文及末尾转载说明",
+      "course_title_in_body": "有机化学A",
+      "course_match": "课程家族层级；scope 中包含有机化学A I/II及荣誉课，不据该泛称分配到某一学期、班号或平行班。",
+      "evidence_summary": "官方介绍说明该课程以结构—性质关系和反应机理为主线，强调启发思考、师生互动、课上课下衔接，并加入讨论课和研究性学习；正文将其作为课程建设介绍。",
+      "evidence_class": "官方教学设计信息，不是学生评价。",
+      "privacy": "未保留教师姓名。"
+    },
+    {
+      "record_id": "WCH-PUB-003",
+      "source_url": "https://chemistry.fudan.edu.cn/86/cb/c55113a689867/page.htm",
+      "source_type": "复旦大学化学系官网完整转载正文；正文注明转载自官方“复旦大学教务处”微信公众号",
+      "source_published": "2024-06-14（系页面列表所示日期）",
+      "body_opened_and_verified": true,
+      "body_locator": "课程建设与小班讨论段落；末尾转载说明",
+      "course_title_in_body": "普通化学A、物理化学、分析化学、物理化学实验等",
+      "course_match": "多门课程的系级教学概况，没有按具体课程或班号给出学生反馈。",
+      "evidence_summary": "正文列举若干化学系本科课程和教师团队，称系内通过访谈、问卷收集意见，并报告小班课程比例；未公开可归属到具体课程的问卷结果或学生评论。",
+      "evidence_class": "官方教学建设/反馈机制信息，不是学生评价。",
+      "privacy": "未保留教师姓名。"
+    },
+    {
+      "record_id": "WCH-PUB-004",
+      "source_url": "https://chemistry.fudan.edu.cn/69/fd/c55113a682493/page.htm",
+      "source_type": "复旦大学化学系官网课程评定公告正文；未核实为微信公众号直链或转载",
+      "source_published": "2024-04-29",
+      "body_opened_and_verified": true,
+      "body_locator": "公告正文关于第三批优质课程评定的段落",
+      "course_title_in_body": "无机化学和化学分析实验；量子化学原理与应用(H)",
+      "course_match": "公告明确到课程家族；未提供具体班号或评定意见。",
+      "evidence_summary": "公告称候选课程经过推荐提名、课程评价和专家会评后入选复旦大学第三批优质课程名单；没有公开学生评价原文、分数或具体评语。",
+      "evidence_class": "官方课程评价流程/入选结果，不是可引用的学生课评。",
+      "privacy": "未保留教师姓名。"
+    },
+    {
+      "record_id": "WCH-PUB-005",
+      "source_url": "https://chemistry.fudan.edu.cn/6a/0c/c45412a682508/page.htm",
+      "source_type": "复旦大学化学系官网课程介绍正文",
+      "source_published": "2023-04-26",
+      "body_opened_and_verified": true,
+      "body_locator": "课程入选说明和课程概述段落",
+      "course_title_in_body": "普通化学A",
+      "course_match": "课程家族层级；scope 中普通化学A按上、下学期及荣誉课拆分，此页面为课程总体介绍。",
+      "evidence_summary": "正文说明普通化学A面向自然科学和医科一年级学生，介绍课程性质、内容组织和课程建设成果。",
+      "evidence_class": "官方课程背景信息，不是学生评价。",
+      "privacy": "未保留教师姓名。"
+    },
+    {
+      "record_id": "WCH-PUB-006",
+      "source_url": "https://www.ecce.fudan.edu.cn/a6/45/c27994a42565/page.htm",
+      "source_type": "复旦大学化学实验教学中心官方课程介绍正文",
+      "source_published": "网页正文未见发布日期；页面版权标记为2021",
+      "body_opened_and_verified": true,
+      "body_locator": "“无机化学与化学分析实验”课程简介正文",
+      "course_title_in_body": "无机化学与化学分析实验",
+      "course_match": "实验课程家族层级；正文说明课程由原分析化学实验与无机化学实验整合而来，但不等同于某个具体学期/班号。",
+      "evidence_summary": "官方简介描述适用学生、课时和实验内容，包括预习、操作、观察记录、数据处理与实验报告等环节。",
+      "evidence_class": "官方课程介绍，不是学生评价。",
+      "privacy": "未保留教师姓名。"
+    }
+  ]
+}

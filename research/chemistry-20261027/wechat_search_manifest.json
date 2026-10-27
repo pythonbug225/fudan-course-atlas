@@ -1,0 +1,146 @@
+{
+  "schema_version": "1.0",
+  "created_at": "2026-10-27",
+  "output_scope": "仅微信公众号及公开网页来源检索；所有新增文件仅写入 W/wechat_public。",
+  "source_population": {
+    "canonical_courses_in_registry": 145,
+    "teachers_in_parent_scope": 198
+  },
+  "tools_and_access": [
+    {
+      "method": "general web search and page open",
+      "result": "可用；用于搜索公开索引并打开复旦官网、化学系和实验教学中心正文。"
+    },
+    {
+      "method": "WeChat-specific article search connector",
+      "result": "当前工具清单未发现可用的公众号专用文章检索工具。"
+    },
+    {
+      "method": "Sogou Weixin direct search URL",
+      "result": "已尝试；当前网页工具返回目标URL不可访问，未取得Sogou搜索正文/结果页。"
+    },
+    {
+      "method": "mp.weixin.qq.com direct article body",
+      "result": "本轮没有成功打开任何mp.weixin.qq.com正文URL；两个复旦化学系官网页面明确标注为官方公众号转载，核验的是可打开的完整转载正文。"
+    }
+  ],
+  "query_coverage": {
+    "course_families_targeted": [
+      "普通化学/普化",
+      "无机化学/无化",
+      "物理化学/物化",
+      "有机化学/有机",
+      "分析化学/分析",
+      "普通化学实验、无机/分析实验、有机实验、仪器分析与物理化学实验"
+    ],
+    "teacher_search": "以部分教师全名、拼音或首字母与课程词组合做召回；不是198名教师的逐人穷尽搜索。公开文件不复写人名。",
+    "course_alias_search": "按部分全名、常见课程短称及拼音/首字母组合检索；不是145门课程全部别名的逐项搜索。逐课范围见reading_ledger.json。",
+    "student_review_queries": "尝试了复旦、化学系、课程评价/课评/学生体验及核心课名组合；网页结果中出现的非复旦/身份不明课程评价没有纳入记录。"
+  },
+  "verified_opened_pages": [
+    {
+      "record_id": "WCH-PUB-001",
+      "url": "https://www.fudan.edu.cn/2021/1105/c24a110479/page.htm",
+      "use": "一条可归到《普通化学》的官方报道正文，包含两段学生课堂体验；学生身份已匿名摘要。"
+    },
+    {
+      "record_id": "WCH-PUB-002",
+      "url": "https://chemistry.fudan.edu.cn/68/1f/c55113a682015/page.htm",
+      "use": "官网完整转载正文，标明源自官方“复旦化学”微信公众号；有机化学A官方教学设计，不是课评。"
+    },
+    {
+      "record_id": "WCH-PUB-003",
+      "url": "https://chemistry.fudan.edu.cn/86/cb/c55113a689867/page.htm",
+      "use": "官网完整转载正文，标明源自官方“复旦大学教务处”微信公众号；系级教学建设信息，不是具体课评。"
+    },
+    {
+      "record_id": "WCH-PUB-004",
+      "url": "https://chemistry.fudan.edu.cn/69/fd/c55113a682493/page.htm",
+      "use": "官方优质课程评定公告正文；公布入选结果，不含评价原文或分数。"
+    },
+    {
+      "record_id": "WCH-PUB-005",
+      "url": "https://chemistry.fudan.edu.cn/6a/0c/c45412a682508/page.htm",
+      "use": "普通化学A官方课程介绍正文；课程背景，不是学生评价。"
+    },
+    {
+      "record_id": "WCH-PUB-006",
+      "url": "https://www.ecce.fudan.edu.cn/a6/45/c27994a42565/page.htm",
+      "use": "无机化学与化学分析实验课程官方简介；课程组织信息，不是学生评价。"
+    },
+    {
+      "record_id": "INDEX-01",
+      "url": "https://www.ecce.fudan.edu.cn/27993/list.htm",
+      "use": "实验教学中心“普通化学实验”索引页，确认有课程简介条目但此页本身不是学生评价。"
+    },
+    {
+      "record_id": "INDEX-02",
+      "url": "https://www.ecce.fudan.edu.cn/27995/list.htm",
+      "use": "实验教学中心“有机化学实验”索引页；没有学生评价内容。"
+    },
+    {
+      "record_id": "INDEX-03",
+      "url": "https://www.ecce.fudan.edu.cn/27997/list.htm",
+      "use": "实验教学中心“仪器分析和物理化学实验”索引页；没有学生评价内容。"
+    }
+  ],
+  "checked_but_excluded": [
+    {
+      "url": "https://wmzx.fudan.edu.cn/65/2e/c20566a746798/page.htm",
+      "reason": "学校团队报道提供普通化学的课程教学与班级协同描述，但没有具体学生课程评价。"
+    },
+    {
+      "url": "https://news.fudan.edu.cn/2021/0924/c1792a110100/page.htm",
+      "reason": "“好老师”人物介绍及泛化教学评价未足以定位到某一门课的学生体验。"
+    },
+    {
+      "source": "generic course-rating search results with missing school/instructor attribution",
+      "reason": "无法核实为复旦化学系课程，未作证据。"
+    }
+  ],
+  "findings": {
+    "student_experience_sources_counted": 1,
+    "student_comments_counted": 2,
+    "other_sources_are_student_reviews": false,
+    "not_found_is_not_absence": "未在本次可访问公开搜索结果中找到，不代表公众号或校内评教系统中不存在。"
+  },
+  "not_searched_or_unresolved": [
+    "未完成145门课的逐门全名/别名/全拼/首字母检索；具体每门状态见reading_ledger.json。",
+    "未完成198名教师的逐人全名/拼音/首字母组合检索。",
+    "未获得复旦课评校内登录后的课程评论或评分数据；其登录态、身份验证与权限未尝试。",
+    "未拿到Sogou微信搜索结果页或任何可直接打开的mp.weixin.qq.com文章正文。",
+    "未系统抓取微信指数、公众号历史消息目录、缓存镜像或第三方付费数据库。",
+    "未把课程官方介绍、优质课程入选或宣传报道中的泛化赞誉当作可归课学生课评。"
+  ],
+  "software_safety": "没有安装、下载或运行未经审核的第三方程序或GitHub代码。",
+  "github_tool_availability_review": {
+    "method": "只查看公开GitHub仓库首页/README；没有克隆、安装、下载或运行代码。",
+    "candidates": [
+      {
+        "repository": "https://github.com/zjp1997720/wechat-article-search",
+        "capability": "通过搜狗微信搜索关键词，返回公众号文章条目；可选解析mp.weixin.qq.com原链接。",
+        "login_or_api_key": "README称不需要API key；没有说明需要微信/搜狗登录。",
+        "installation": "需要Node.js 18+和npm依赖cheerio；Skill方式会安装Skill并需npm install。",
+        "limits": "依赖搜狗公开搜索端点；仓库README警告可能遭遇反爬、空结果及链接解析失败。",
+        "status": "仅文档评估，未运行；不能确认当前网络下实际可用。"
+      },
+      {
+        "repository": "https://github.com/tjx666/wx-search-cli",
+        "capability": "搜狗关键词搜索、解析公众号真实链接，并提供正文提取CLI。",
+        "login_or_api_key": "公开README未列出账号登录或API key要求。",
+        "installation": "支持npx/bunx临时运行；开发方式需要安装Node依赖并构建。",
+        "limits": "依赖搜狗端点；README警告频率高会触发验证码、正文链接解析可能失败。",
+        "status": "仅文档评估，未运行；临时npx也会获取并执行包代码，因此没有尝试。"
+      },
+      {
+        "repository": "https://github.com/jayhigh425/wechat-article-search-skill",
+        "capability": "通过微信读书可见搜索页发现文章，在本机Edge提取正文。",
+        "login_or_api_key": "搜索需要微信读书登录态，首次运行显示二维码；直接读取已知文章URL按README称不需要先登录。",
+        "installation": "需要Git和uv；Windows还需要Edge、Python 3.11+及uv解析的依赖。",
+        "limits": "README称WeRead索引并非全覆盖；repo README自报小规模测试，未独立核验；不在本任务中登录或执行。",
+        "status": "仅文档评估，未运行。"
+      }
+    ],
+    "decision": "没有安装任何候选工具。虽然搜狗CLI文档声称不需账号或API key，但当前网页工具访问weixin.sogou.com失败；不能据README推断此环境必然可用。"
+  }
+}

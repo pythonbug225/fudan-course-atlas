@@ -12,9 +12,15 @@
 
 ## 离线预览
 
-打开 `化学系课程研究预览.html` 可按课程代码、名称、教师和拼音首字母查看当前证据。预览由 `generate_preview.py` 从本目录数据生成；当前收录一批已核读、可以定位的知乎和蛋壳评价摘要；旧代码和历史教师须按记录单独看待，课评尚在补充。
+打开 `化学系课程研究预览.html` 可按课程代码、名称、教师和拼音首字母查看当前证据。预览由 `generate_preview.py` 从本目录数据生成；当前收录一批已核读、可以定位的知乎、小红书和蛋壳评价摘要；旧代码和历史教师须按记录单独看待，课评尚在补充。
 
 当前阶段的六群查询概况见 `chat_search_manifest.json`：使用登记的课程、教师及其别名检索 105,771 条可读文本，对 1,393 条命中消息进行相邻上下文核对，没有确认化学课的修读评价；这不是对每条原始消息的人工通读。群聊原文与成员身份不进入共享目录。
+
+树洞与蛋壳摘要位于 `danke_review_summaries.json`、`forum_discussion_summaries.json`；`course_syntheses.json` 记录每条判断所依据的来源 ID，`course_resources.json` 存储已核对的课程资料链接。树洞课评中的问课、未经确认的选课建议与修读体验分开标注。
+
+树洞高频截断后的分时段进度快照见 `forum_split_coverage.json`，课程未确认的讨论线索见 `forum_unmapped_leads.json`。
+
+公开平台逐课状态见 `public_web_coverage.json`，公众号相关官方转载与搜索边界分别见 `wechat_public_sources.json`、`wechat_public_coverage.json` 和 `wechat_search_manifest.json`。课程族信息或教师姓名不一致的来源须继续核对，不能自动套用现授班。
 
 ## 课评检索与待完成工作
 
