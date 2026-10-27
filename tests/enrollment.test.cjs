@@ -4,7 +4,7 @@ let passed=0;const ok=(v,m)=>{assert.ok(v,m);passed++};const valid=new Set(catal
 ok(data.terms.length===8&&data.terms.filter(t=>!t.term.includes('暑')).length===7,'seven regular semesters plus separately queried summer');
 ok(data.stats.source_sections===43840&&data.records.length===data.stats.matched_sections&&data.records.length>=11852&&data.records.filter(r=>r.term==='2026暑').length===95,'source and matched regular/summer teaching sections reconcile');
 ok(data.records.every(r=>r.course_ids.length&&r.course_ids.every(id=>valid.has(id))),'all enrollment rows refer to catalog courses');
-ok(data.records.every(r=>r.mapping_method==='course_code_and_name'),'same title alone never merges enrollment');
+ok(data.records.every(r=>['course_code_and_name','official_lesson_id'].includes(r.mapping_method)),'enrollment matches by code and name or by official lesson ID');
 ok(data.records.every(r=>Number.isInteger(r.std_count)&&r.std_count>=0&&Number.isInteger(r.limit_count)&&r.limit_count>=0),'aggregate counts are nonnegative integers');
 ok(data.records.every(r=>Array.isArray(r.teachers)&&!('remark'in r)&&!('selectionLimit'in r)&&!('id'in r)&&!('lesson_id'in r)),'only teaching aggregates published');
 ok(!/wxid_|@chatroom|xsec_token|SAMLResponse|loginToken/.test(JSON.stringify(data)),'no account or browser material');
@@ -17,6 +17,6 @@ h=e.render({id:'C0049'},'王玥');ok(h.includes('37 / 60 人')&&!h.includes('65 
 e.setTerm('C0049','2024春');h=e.render({id:'C0049'});ok(h.includes('MATH130008.01')&&!h.includes('37 / 60 人'),'old teaching section code and selected term retained');
 h=e.render({id:'C0080'},'印佳');ok(h.includes('44 / 80 人')&&!h.includes('本组人数占比'),'single class does not imply a preference ranking');
 const zero=data.records.find(r=>r.limit_count===0),over=data.records.find(r=>r.std_count>r.limit_count&&r.limit_count>0);e.setTerm(zero.course_ids[0],zero.term);h=e.render({id:zero.course_ids[0]});ok(!/NaN|Infinity/.test(h)&&h.includes('不计算比例'),'zero capacity is safe');
-e.setTerm(over.course_ids[0],over.term);h=e.render({id:over.course_ids[0]});ok(h.includes('超过原定上限'),'over-capacity result retained rather than clamped away');
+e.setTerm(over.course_ids[0],over.term);h=e.render({id:over.course_ids[0]});ok(h.includes('系统返回人数超过返回上限'),'over-capacity result retained rather than clamped away');
 ok(e.render({id:'H0001'}).includes('暂未匹配'),'unmatched historical course remains explicit');
 console.log(JSON.stringify({passed,enrollment_sections:data.records.length,courses:data.stats.courses}));})();

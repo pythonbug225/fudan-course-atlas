@@ -24,14 +24,15 @@
       html+='<div class="enrollment-group"><h4>'+esc(type)+' <span class="meta">'+allGroup.length+'个班 · 共'+total+'人</span></h4>';
       for(const r of group){
         const hasCap=r.limit_count>0,ratio=hasCap?r.std_count/r.limit_count:null,share=total>0?r.std_count/total:null;
-        html+='<article class="enrollment-row" data-enrollment-section="'+esc(r.section_code)+'"><div class="enrollment-row-top"><b>'+esc(r.teachers.join('、')||'教师未注明')+'</b><strong>'+r.std_count+' / '+(hasCap?r.limit_count:'未注明')+' 人</strong></div><div class="enrollment-bar" aria-hidden="true"><i style="width:'+(hasCap?Math.min(100,ratio*100):0)+'%"></i></div><p class="enrollment-caption">'+esc(r.section_code)+' · '+(hasCap?'容量使用率 '+(ratio*100).toFixed(1)+'%'+(ratio>1?'（超过原定上限）':''):'容量未注明，不计算比例')+(allGroup.length>1&&share!==null?' · 本组人数占比 '+(share*100).toFixed(1)+'%':'')+'</p>';
+        html+='<article class="enrollment-row" data-enrollment-section="'+esc(r.section_code)+'"><div class="enrollment-row-top"><b>'+esc(r.teachers.join('、')||'教师未注明')+'</b><strong>'+r.std_count+' / '+(hasCap?r.limit_count:'未注明')+' 人</strong></div><div class="enrollment-bar" aria-hidden="true"><i style="width:'+(hasCap?Math.min(100,ratio*100):0)+'%"></i></div><p class="enrollment-caption">'+esc(r.section_code)+' · '+(hasCap?'容量使用率 '+(ratio*100).toFixed(1)+'%'+(ratio>1?'（系统返回人数超过返回上限）':''):'容量未注明，不计算比例')+(allGroup.length>1&&share!==null?' · 本组人数占比 '+(share*100).toFixed(1)+'%':'')+'</p>';
         if(!hasCap&&r.planned_capacity)html+='<p class="meta">课程表预排人数 '+esc(r.planned_capacity)+'；不作为当前系统上限。</p>';
+        if(r.snapshot_as_of)html+='<p class="meta">该班快照：'+esc(r.snapshot_as_of)+'</p>';
         if(r.schedule_hint)html+='<details class="enrollment-schedule"><summary>上课时间与地点</summary><p>'+esc(r.schedule_hint)+'</p></details>';
         html+='</article>';
       }
       html+='</div>';
     }
-    return html+'<p class="enrollment-context">人数也受必修安排、上课时间、班型和选课对象影响，不等同于第一志愿偏好、抽签概率或教师好评。联合授课按整个教学班展示。</p><p class="source-label">来源：复旦教务系统课程查询 · '+esc(data.as_of?.slice(0,10))+'读取各学期当前返回值，未保存选课过程中的历次变化。</p></section>';
+    return html+'<p class="enrollment-context">人数也受必修安排、上课时间、班型和选课对象影响，不等同于第一志愿偏好、抽签概率或教师好评。联合授课按整个教学班展示。</p><p class="source-label">来源：复旦教务系统课程查询 · '+esc(data.as_of?.slice(0,10))+'为默认快照日期；单个班次另有标注时以该班日期为准。未保存选课过程中的历次变化。</p></section>';
   }
   window.EnrollmentStats={init,render,rows,teachers:g=>[...new Set(rows(g.id).flatMap(r=>r.teachers))],setTerm:(id,term)=>chosenTerm.set(id,term)};
 })();
