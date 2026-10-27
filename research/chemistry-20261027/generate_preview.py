@@ -45,6 +45,8 @@ for c in e["courses"]:
    reviews.append(f'<article><p>{esc(summary)}</p><small>{esc(label)} · {esc(teacher)} · {esc(term)} · {esc(mapping)} · {esc(kind)}</small></article>')
   elif r.get("source_type")=="forum_discussion":
    reviews.append(f'<article><p>{esc(r.get("summary",""))}</p><small>树洞 #{esc(r.get("source_ids",{}).get("hole_id"))} · {esc(r.get("kind","讨论"))} · {esc(r.get("term",""))}</small></article>')
+  elif r.get("source_type") in ("教师教学研究论文", "院系课程评估报道"):
+   reviews.append(f'<article><p>{esc(r.get("summary",""))}</p><small>{esc(r.get("source_label",""))} · {esc(r.get("term",""))} · 历史课程族资料；非学生课评</small></article>')
   elif r.get("source_type")=="复旦大学化学系官方报道":
    reviews.append(f'<article><p>{esc(r.get("summary",""))}</p><small>来源：院系官方人物报道 · 课程族线索，荣誉版本及修读学期未核</small></article>')
   else:

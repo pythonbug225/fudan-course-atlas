@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-28T01:13:42+08:00",
+  "generated_at": "2026-10-28",
   "scope_file": "..\\scope.json",
   "scope_count": 145,
   "courses": [
@@ -2037,8 +2037,8 @@
         {
           "source": "pinyin_initials",
           "query": "有机化学A I（H） sunxingwen Fudan",
-          "status": "pending",
-          "note": "仅作搜索变体；首字母/拼音命中须回到上下文确认身份"
+          "status": "completed_no_mapped_review",
+          "note": "WEB-2026-10-28-163实际执行精确拼音查询；结果为教师主页/授课信息或其他非同班课程，无可映射scope班次的学生课评正文；搜索摘要未计为已读。"
         }
       ],
       "visited": [
@@ -3421,8 +3421,8 @@
         {
           "source": "pinyin_initials",
           "query": "环境化学B dengchunhui Fudan",
-          "status": "pending",
-          "note": "仅作搜索变体；首字母/拼音命中须回到上下文确认身份"
+          "status": "completed_no_mapped_review",
+          "note": "WEB-2026-10-28-167实际执行精确拼音查询；命中教师/实验室研究信息、旧课程目录或无关内容，未见scope班次学生课评正文；未打开结果页面，摘要未计为已读。"
         }
       ],
       "visited": [],
@@ -3509,8 +3509,8 @@
         {
           "source": "pinyin_initials",
           "query": "计算化学 songguoliang Fudan",
-          "status": "pending",
-          "note": "仅作搜索变体；首字母/拼音命中须回到上下文确认身份"
+          "status": "completed_no_mapped_review",
+          "note": "WEB-2026-10-28-166实际执行精确拼音查询；搜索结果为课程/教师资料、学术页面或无关内容，未见可映射scope班次的学生课评正文；摘要未计为已读。"
         }
       ],
       "visited": [],
@@ -3839,8 +3839,8 @@
         {
           "source": "pinyin_initials",
           "query": "分子组装与分子器件 qiandongjin Fudan",
-          "status": "pending",
-          "note": "仅作搜索变体；首字母/拼音命中须回到上下文确认身份"
+          "status": "completed_no_mapped_review",
+          "note": "WEB-2026-10-28-167实际执行精确拼音查询；命中教师/实验室研究信息、旧课程目录或无关内容，未见scope班次学生课评正文；未打开结果页面，摘要未计为已读。"
         }
       ],
       "visited": [],
@@ -4850,8 +4850,8 @@
         {
           "source": "pinyin_initials",
           "query": "量子化学原理及应用(H) xuxin Fudan",
-          "status": "pending",
-          "note": "仅作搜索变体；首字母/拼音命中须回到上下文确认身份"
+          "status": "completed_read_official_evaluation_no_student_review",
+          "note": "WEB-2026-10-28-163实际执行精确拼音查询并打开复旦化学系官方课程入选报道全文；这是2024年课程评价/专家会评后的优质课程认定，不含学生原始反馈，也未指明2025秋/2026春具体班次。"
         },
         {
           "source": "teacher_crosscheck",
@@ -4862,13 +4862,23 @@
         {
           "source": "pinyin_initials",
           "query": "量子化学原理及应用(H) zhangying Fudan",
-          "status": "pending",
-          "note": "仅作搜索变体；首字母/拼音命中须回到上下文确认身份"
+          "status": "completed_no_mapped_review",
+          "note": "WEB-2026-10-28-165实际执行精确拼音查询；搜索结果为教师/学术活动、课程信息或无关材料，没有可映射scope班次的学生课评正文；未打开结果页面，摘要不计为已读。"
         }
       ],
-      "visited": [],
-      "read": [],
-      "adopted": [],
+      "visited": [
+        {
+          "source_id": "CHEM-SRC-FUDAN-0008",
+          "url": "https://chemistry.fudan.edu.cn/69/fd/c45412a682493/page.htm",
+          "note": "2024官方优质课程报道全文已读；仅匹配历史课程家族，不能映射到本期班次。"
+        }
+      ],
+      "read": [
+        "CHEM-SRC-FUDAN-0008"
+      ],
+      "adopted": [
+        "CHEM-WEB-FUDAN-0005"
+      ],
       "excluded": [],
       "pending": [
         {
@@ -4902,7 +4912,7 @@
           "note": "仅作搜索变体；首字母/拼音命中须回到上下文确认身份"
         }
       ],
-      "state": "query_attempt_no_review"
+      "state": "read_historical_course_family_match_no_current_section_mapping"
     },
     {
       "course_code": "CHEM40002",
@@ -5263,8 +5273,8 @@
         {
           "source": "pinyin_initials",
           "query": "高等有机化学(H) wangquanrui Fudan",
-          "status": "pending",
-          "note": "仅作搜索变体；首字母/拼音命中须回到上下文确认身份"
+          "status": "completed_no_mapped_review",
+          "note": "WEB-2026-10-28-163实际执行精确拼音查询；结果为教师主页/授课信息或其他非同班课程，无可映射scope班次的学生课评正文；搜索摘要未计为已读。"
         }
       ],
       "visited": [],
@@ -6100,8 +6110,8 @@
         {
           "source": "pinyin_initials",
           "query": "无机合成 zhanglixin Fudan",
-          "status": "pending",
-          "note": "仅作搜索变体；首字母/拼音命中须回到上下文确认身份"
+          "status": "completed_no_mapped_review",
+          "note": "WEB-2026-10-28-166实际执行精确拼音查询；搜索结果为课程/教师资料、学术页面或无关内容，未见可映射scope班次的学生课评正文；摘要未计为已读。"
         }
       ],
       "visited": [],
@@ -6191,8 +6201,8 @@
         {
           "source": "pinyin_initials",
           "query": "高等仪器分析 zhangxiangmin Fudan",
-          "status": "pending",
-          "note": "仅作搜索变体；首字母/拼音命中须回到上下文确认身份"
+          "status": "completed_no_mapped_review",
+          "note": "WEB-2026-10-28-161实际执行精确拼音查询；命中教师/课程资料、历史课程大纲或同拼音无关结果，未发现可映射scope班次的学生课评；搜索摘要未计为已读。"
         },
         {
           "source": "teacher_crosscheck",
@@ -6203,8 +6213,20 @@
         {
           "source": "pinyin_initials",
           "query": "高等仪器分析 kongjilie Fudan",
-          "status": "pending",
-          "note": "仅作搜索变体；首字母/拼音命中须回到上下文确认身份"
+          "status": "completed_no_mapped_review",
+          "note": "WEB-2026-10-28-161实际执行精确拼音查询；命中教师/课程资料、历史课程大纲或同拼音无关结果，未发现可映射scope班次的学生课评；搜索摘要未计为已读。"
+        },
+        {
+          "source": "general_web",
+          "query": "\"高等仪器分析\" \"张祥民\" 复旦 课程 评价",
+          "status": "searched_no_review_candidate",
+          "note": "WEB-2026-10-28-160实际执行；搜索结果为教师页、历史课程/课程信息或无关结果，未见可映射到scope班次的学生课评正文；未打开搜索结果页面。"
+        },
+        {
+          "source": "general_web",
+          "query": "\"高等仪器分析\" \"孔继烈\" 复旦 课程 评价",
+          "status": "searched_no_review_candidate",
+          "note": "WEB-2026-10-28-160实际执行；搜索结果为教师页、历史课程/课程信息或无关结果，未见可映射到scope班次的学生课评正文；未打开搜索结果页面。"
         }
       ],
       "visited": [],
@@ -6385,8 +6407,8 @@
         {
           "source": "pinyin_initials",
           "query": "色谱理论基础 zhangxiangmin Fudan",
-          "status": "pending",
-          "note": "仅作搜索变体；首字母/拼音命中须回到上下文确认身份"
+          "status": "completed_no_mapped_review",
+          "note": "WEB-2026-10-28-164实际执行精确拼音查询；结果为旧课程大纲、教师/研究方向材料或无关页面，没有可映射scope班次的学生课评正文；未打开搜索结果页面，摘要不计为已读。"
         }
       ],
       "visited": [
@@ -6472,8 +6494,8 @@
         {
           "source": "pinyin_initials",
           "query": "生物质谱仪器和质谱分析 qiaoliang Fudan",
-          "status": "pending",
-          "note": "仅作搜索变体；首字母/拼音命中须回到上下文确认身份"
+          "status": "completed_no_mapped_review",
+          "note": "WEB-2026-10-28-162实际执行精确拼音查询；搜索结果为复旦教师简介/研究方向或仪器信息，没有可映射scope班次的学生课评正文；未打开结果页面，摘要不计为已读。"
         }
       ],
       "visited": [
@@ -6559,8 +6581,8 @@
         {
           "source": "pinyin_initials",
           "query": "生物色谱 gaomingxia Fudan",
-          "status": "pending",
-          "note": "仅作搜索变体；首字母/拼音命中须回到上下文确认身份"
+          "status": "completed_no_mapped_review",
+          "note": "WEB-2026-10-28-164实际执行精确拼音查询；结果为旧课程大纲、教师/研究方向材料或无关页面，没有可映射scope班次的学生课评正文；未打开搜索结果页面，摘要不计为已读。"
         }
       ],
       "visited": [],
@@ -6664,8 +6686,14 @@
         {
           "source": "pinyin_initials",
           "query": "物理有机化学 qianhui Fudan",
-          "status": "pending",
-          "note": "仅作搜索变体；首字母/拼音命中须回到上下文确认身份"
+          "status": "completed_no_mapped_review",
+          "note": "WEB-2026-10-28-161实际执行精确拼音查询；命中教师/课程资料、历史课程大纲或同拼音无关结果，未发现可映射scope班次的学生课评；搜索摘要未计为已读。"
+        },
+        {
+          "source": "general_web",
+          "query": "\"物理有机化学\" \"钱慧\" 复旦 课程 评价",
+          "status": "searched_no_review_candidate",
+          "note": "WEB-2026-10-28-160实际执行；搜索结果为教师页、历史课程/课程信息或无关结果，未见可映射到scope班次的学生课评正文；未打开搜索结果页面。"
         }
       ],
       "visited": [],
@@ -6927,8 +6955,8 @@
         {
           "source": "pinyin_initials",
           "query": "功能分子材料和生物材料 lixiaomin Fudan",
-          "status": "pending",
-          "note": "仅作搜索变体；首字母/拼音命中须回到上下文确认身份"
+          "status": "completed_no_mapped_review",
+          "note": "WEB-2026-10-28-162实际执行精确拼音查询；搜索结果为复旦教师简介/研究方向或仪器信息，没有可映射scope班次的学生课评正文；未打开结果页面，摘要不计为已读。"
         },
         {
           "source": "teacher_crosscheck",
@@ -6939,8 +6967,8 @@
         {
           "source": "pinyin_initials",
           "query": "功能分子材料和生物材料 zhangfan Fudan",
-          "status": "pending",
-          "note": "仅作搜索变体；首字母/拼音命中须回到上下文确认身份"
+          "status": "completed_no_mapped_review",
+          "note": "WEB-2026-10-28-162实际执行精确拼音查询；搜索结果为复旦教师简介/研究方向或仪器信息，没有可映射scope班次的学生课评正文；未打开结果页面，摘要不计为已读。"
         }
       ],
       "visited": [],
@@ -7125,8 +7153,8 @@
         {
           "source": "pinyin_initials",
           "query": "有机结构分析 zhucan Fudan",
-          "status": "pending",
-          "note": "仅作搜索变体；首字母/拼音命中须回到上下文确认身份"
+          "status": "completed_no_mapped_review",
+          "note": "WEB-2026-10-28-164实际执行精确拼音查询；结果为旧课程大纲、教师/研究方向材料或无关页面，没有可映射scope班次的学生课评正文；未打开搜索结果页面，摘要不计为已读。"
         }
       ],
       "visited": [],
@@ -7477,8 +7505,8 @@
         {
           "source": "pinyin_initials",
           "query": "分子反应动力学 wangfengyan Fudan",
-          "status": "pending",
-          "note": "仅作搜索变体；首字母/拼音命中须回到上下文确认身份"
+          "status": "completed_no_mapped_review",
+          "note": "WEB-2026-10-28-165实际执行精确拼音查询；搜索结果为教师/学术活动、课程信息或无关材料，没有可映射scope班次的学生课评正文；未打开结果页面，摘要不计为已读。"
         }
       ],
       "visited": [],
@@ -9944,8 +9972,8 @@
         {
           "source": "pinyin_initials",
           "query": "物理化学A II(H) caoyong Fudan",
-          "status": "pending",
-          "note": "仅作搜索变体；首字母/拼音命中须回到上下文确认身份"
+          "status": "completed_no_mapped_review",
+          "note": "WEB-2026-10-28-163实际执行精确拼音查询；结果为教师主页/授课信息或其他非同班课程，无可映射scope班次的学生课评正文；搜索摘要未计为已读。"
         },
         {
           "source": "teacher_crosscheck",
@@ -9956,8 +9984,8 @@
         {
           "source": "pinyin_initials",
           "query": "物理化学A II(H) chenxueying Fudan",
-          "status": "pending",
-          "note": "仅作搜索变体；首字母/拼音命中须回到上下文确认身份"
+          "status": "completed_no_mapped_review",
+          "note": "WEB-2026-10-28-165实际执行精确拼音查询；搜索结果为教师/学术活动、课程信息或无关材料，没有可映射scope班次的学生课评正文；未打开结果页面，摘要不计为已读。"
         }
       ],
       "visited": [
@@ -10497,8 +10525,14 @@
         {
           "source": "pinyin_initials",
           "query": "有机化学A II (H) sunxingwen Fudan",
-          "status": "pending",
-          "note": "仅作搜索变体；首字母/拼音命中须回到上下文确认身份"
+          "status": "completed_no_mapped_review",
+          "note": "WEB-2026-10-28-161实际执行精确拼音查询；命中教师/课程资料、历史课程大纲或同拼音无关结果，未发现可映射scope班次的学生课评；搜索摘要未计为已读。"
+        },
+        {
+          "source": "general_web",
+          "query": "\"有机化学A II (H)\" \"孙星文\" 复旦 评价",
+          "status": "searched_no_review_candidate",
+          "note": "WEB-2026-10-28-160实际执行；搜索结果为教师页、历史课程/课程信息或无关结果，未见可映射到scope班次的学生课评正文；未打开搜索结果页面。"
         }
       ],
       "visited": [
@@ -10965,12 +10999,20 @@
         {
           "source": "pinyin_initials",
           "query": "近代分析化学 leijie Fudan",
-          "status": "pending",
-          "note": "仅作搜索变体；首字母/拼音命中须回到上下文确认身份"
+          "status": "completed_read_course_family_pedagogy_no_class_mapping",
+          "note": "WEB-2026-10-28-166实际执行精确拼音查询并全文阅读雷杰等人在《大学化学》发表的分析化学教学论文；它讨论分析化学课程的一般教学设计，不含具体课号/班次/学期，不能映射为CHEM30008班评价。"
         }
       ],
-      "visited": [],
-      "read": [],
+      "visited": [
+        {
+          "source_id": "CHEM-SRC-JUCHEM-0002",
+          "url": "https://www.dxhx.pku.edu.cn/CN/abstract/abstract35932.shtml",
+          "note": "全文已读；是分析化学课程的一般教学讨论，不标具体课号、学期或班次，不映射当前CHEM30008班。"
+        }
+      ],
+      "read": [
+        "CHEM-SRC-JUCHEM-0002"
+      ],
       "adopted": [],
       "excluded": [],
       "pending": [
@@ -10987,7 +11029,7 @@
           "note": "仅作搜索变体；首字母/拼音命中须回到上下文确认身份"
         }
       ],
-      "state": "query_attempt_no_review"
+      "state": "read_teacher_course_pedagogy_unmapped_to_scope_class"
     },
     {
       "course_code": "CHEM30009",
@@ -11325,8 +11367,8 @@
         {
           "source": "pinyin_initials",
           "query": "工业化学 shenwei Fudan",
-          "status": "pending",
-          "note": "仅作搜索变体；首字母/拼音命中须回到上下文确认身份"
+          "status": "completed_no_mapped_review",
+          "note": "WEB-2026-10-28-167实际执行精确拼音查询；命中教师/实验室研究信息、旧课程目录或无关内容，未见scope班次学生课评正文；未打开结果页面，摘要未计为已读。"
         }
       ],
       "visited": [],
@@ -11685,8 +11727,8 @@
         {
           "source": "pinyin_initials",
           "query": "高能化学电源 wangyonggang Fudan",
-          "status": "pending",
-          "note": "仅作搜索变体；首字母/拼音命中须回到上下文确认身份"
+          "status": "completed_no_mapped_review",
+          "note": "WEB-2026-10-28-165实际执行精确拼音查询；搜索结果为教师/学术活动、课程信息或无关材料，没有可映射scope班次的学生课评正文；未打开结果页面，摘要不计为已读。"
         },
         {
           "source": "teacher_crosscheck",
@@ -12886,8 +12928,8 @@
         {
           "source": "pinyin_initials",
           "query": "稀土化学 zhangjie Fudan",
-          "status": "pending",
-          "note": "仅作搜索变体；首字母/拼音命中须回到上下文确认身份"
+          "status": "completed_no_mapped_review",
+          "note": "WEB-2026-10-28-162实际执行精确拼音查询；搜索结果为复旦教师简介/研究方向或仪器信息，没有可映射scope班次的学生课评正文；未打开结果页面，摘要不计为已读。"
         }
       ],
       "visited": [],
@@ -13062,8 +13104,8 @@
         {
           "source": "pinyin_initials",
           "query": "分析电化学 caiwenbin Fudan",
-          "status": "pending",
-          "note": "仅作搜索变体；首字母/拼音命中须回到上下文确认身份"
+          "status": "completed_no_mapped_review",
+          "note": "WEB-2026-10-28-166实际执行精确拼音查询；搜索结果为课程/教师资料、学术页面或无关内容，未见可映射scope班次的学生课评正文；摘要未计为已读。"
         }
       ],
       "visited": [],
@@ -13242,8 +13284,8 @@
         {
           "source": "pinyin_initials",
           "query": "蛋白质化学/生物无机化学 tanxiangshi Fudan",
-          "status": "pending",
-          "note": "仅作搜索变体；首字母/拼音命中须回到上下文确认身份"
+          "status": "completed_no_mapped_review",
+          "note": "WEB-2026-10-28-167实际执行精确拼音查询；命中教师/实验室研究信息、旧课程目录或无关内容，未见scope班次学生课评正文；未打开结果页面，摘要未计为已读。"
         }
       ],
       "visited": [],
@@ -13683,8 +13725,8 @@
         {
           "source": "pinyin_initials",
           "query": "绿色化学 leyinghong Fudan",
-          "status": "pending",
-          "note": "仅作搜索变体；首字母/拼音命中须回到上下文确认身份"
+          "status": "completed_no_mapped_review",
+          "note": "WEB-2026-10-28-164实际执行精确拼音查询；结果为旧课程大纲、教师/研究方向材料或无关页面，没有可映射scope班次的学生课评正文；未打开搜索结果页面，摘要不计为已读。"
         }
       ],
       "visited": [],
@@ -18371,25 +18413,236 @@
         "https://penglichem.fudan.edu.cn/91/38/c31990a430392/page.htm"
       ],
       "status": "read_official_course_notice_excluded_no_student_review"
+    },
+    {
+      "batch_id": "WEB-2026-10-28-160",
+      "date": "2026-10-28",
+      "platform": "公开网页课程名+中文教师名组合检索",
+      "scope_codes": [
+        "CHEM60004",
+        "CHEM20014h",
+        "CHEM60014"
+      ],
+      "queries": [
+        "\"高等仪器分析\" \"张祥民\" 复旦 课程 评价",
+        "\"高等仪器分析\" \"孔继烈\" 复旦 课程 评价",
+        "\"有机化学A II (H)\" \"孙星文\" 复旦 评价",
+        "\"物理有机化学\" \"钱慧\" 复旦 课程 评价"
+      ],
+      "result_note": "对高等仪器分析（张祥民、孔继烈）、有机化学A II(H)（孙星文）、物理有机化学（钱慧）执行4条课程名+中文教师查询。搜索摘要包括教师简介、旧课程材料及不相关页面；未发现可映射学生课评，搜索结果页未打开，故未计已读。",
+      "candidate_urls": [
+        "https://chemistry.fudan.edu.cn/65/43/c45141a681283/page.htm",
+        "https://gs.fudan.edu.cn/_upload/article/files/f8/db/2ed8b59c4f09ac99c562180ba804/0010396b-d9a1-4104-ac69-32410ddf83a8.pdf",
+        "https://jwc.fudan.edu.cn/_upload/article/files/d4/56/707002a8413b8a3cc690244c1118/8a7188aa-9b15-4983-9837-3fd88c4ef558.pdf",
+        "https://chemistry.fudan.edu.cn/_s169/64/18/c45138a680984/page.psp"
+      ],
+      "visited_urls": [],
+      "status": "exact_name_teacher_queries_no_mapped_review"
+    },
+    {
+      "batch_id": "WEB-2026-10-28-161",
+      "date": "2026-10-28",
+      "platform": "公开网页课程名+教师拼音精确查询",
+      "scope_codes": [
+        "CHEM60004",
+        "CHEM20014h",
+        "CHEM60014"
+      ],
+      "queries": [
+        "高等仪器分析 zhangxiangmin Fudan",
+        "高等仪器分析 kongjilie Fudan",
+        "有机化学A II (H) sunxingwen Fudan",
+        "物理有机化学 qianhui Fudan"
+      ],
+      "result_note": "实际执行4条ledger登记的拼音精确查询。结果有官方旧课程大纲CHEM130068h、教师主页及同拼音无关页面；这些不能映射到当前scope课评。没有学生课评正文，未打开页面，摘要不计为已读。",
+      "candidate_urls": [
+        "https://jwc.fudan.edu.cn/_upload/article/files/d4/56/707002a8413b8a3cc690244c1118/8a7188aa-9b15-4983-9837-3fd88c4ef558.pdf",
+        "https://chemistry.fudan.edu.cn/64/1a/c45138a680986/page.htm",
+        "https://chemistry.fudan.edu.cn/_s169/64/18/c45138a680984/page.psp"
+      ],
+      "visited_urls": [],
+      "status": "exact_pinyin_queries_no_mapped_review"
+    },
+    {
+      "batch_id": "WEB-2026-10-28-162",
+      "date": "2026-10-28",
+      "platform": "公开网页课程名+教师拼音精确查询",
+      "scope_codes": [
+        "CHEM60012",
+        "CHEM60021",
+        "CHEM60010"
+      ],
+      "queries": [
+        "生物质谱仪器和质谱分析 qiaoliang Fudan",
+        "功能分子材料和生物材料 lixiaomin Fudan",
+        "功能分子材料和生物材料 zhangfan Fudan",
+        "稀土化学 zhangjie Fudan"
+      ],
+      "result_note": "优先查生物质谱仪器和质谱分析、功能分子材料和生物材料、稀土化学。搜索摘要指向复旦教师主页、研究方向和仪器平台；无学生课评正文命中，搜索结果页未打开。",
+      "candidate_urls": [
+        "https://chemistry.fudan.edu.cn/_s169/65/36/c45140a681270/page.psp",
+        "https://chemistry.fudan.edu.cn/63/ee/c45148a680942/page.htm",
+        "https://chemistry.fudan.edu.cn/9e/b5/c22011a237237/page.htm",
+        "https://acsp.fudan.edu.cn/39133/list.htm",
+        "https://acsp.fudan.edu.cn/39144/list.htm"
+      ],
+      "visited_urls": [],
+      "status": "exact_pinyin_queries_no_mapped_review"
+    },
+    {
+      "batch_id": "WEB-2026-10-28-163",
+      "date": "2026-10-28",
+      "platform": "公开网页课程名+教师拼音精确查询",
+      "scope_codes": [
+        "CHEM20013h",
+        "CHEM20006h",
+        "CHEM40015h",
+        "CHEM30041h"
+      ],
+      "queries": [
+        "有机化学A I（H） sunxingwen Fudan",
+        "物理化学A II(H) caoyong Fudan",
+        "高等有机化学(H) wangquanrui Fudan",
+        "量子化学原理及应用(H) xuxin Fudan"
+      ],
+      "result_note": "优先查有机化学AI(H)、物理化学AII(H)、高等有机化学(H)、量子化学原理及应用(H)。前三项只出现教师/授课信息或非同班课程；量子化学项打开2024化学系官方优质课程报道全文，另列为历史官方评估报道，不作为学生评价或本期班次评价。",
+      "candidate_urls": [
+        "https://chemistry.fudan.edu.cn/64/1a/c45138a680986/page.htm",
+        "https://www.xueyinonline.com/detail/254772898",
+        "https://www.surfcat.fudan.edu.cn/_upload/tpl/02/05/517/template517/teaching.htm",
+        "https://chemistry.fudan.edu.cn/chemen/a3/b4/c22421a238516/page.htm",
+        "https://chemistry.fudan.edu.cn/69/fd/c45412a682493/page.htm"
+      ],
+      "visited_urls": [
+        "https://chemistry.fudan.edu.cn/69/fd/c45412a682493/page.htm"
+      ],
+      "status": "one_historical_official_course_evaluation_report_read_no_student_reviews"
+    },
+    {
+      "batch_id": "WEB-2026-10-28-164",
+      "date": "2026-10-28",
+      "platform": "公开网页课程名+教师拼音精确查询",
+      "scope_codes": [
+        "CHEM60011",
+        "CHEM60026",
+        "CHEM60013",
+        "CHEM70012"
+      ],
+      "queries": [
+        "色谱理论基础 zhangxiangmin Fudan",
+        "有机结构分析 zhucan Fudan",
+        "生物色谱 gaomingxia Fudan",
+        "绿色化学 leyinghong Fudan"
+      ],
+      "result_note": "按选课人数优先检索色谱理论基础、有机结构分析、生物色谱与绿色化学。出现旧版课程/实验材料、教师教学与研究简介或无关页面；没有发现可映射的学生课评正文，也未打开结果页面。",
+      "candidate_urls": [
+        "https://www.ecce.fudan.edu.cn/_upload/article/19/46/83a8d96146028b774a0f5dd5b97e/092c8e84-9d7f-4a0a-96ea-c11cf188c608.pdf",
+        "https://jwc.fudan.edu.cn/_upload/article/files/83/6c/8a3c080c4f8991024f4b59ad4f1b/946c8b8f-ffdc-42de-bdbc-e2db449997b7.pdf",
+        "https://chemistry.fudan.edu.cn/_s169/65/00/c45139a681216/page.psp",
+        "https://faculty.fudan.edu.cn/leyinghong/zh_CN/jsxx/428171/jsxx/jsxx.htm"
+      ],
+      "visited_urls": [],
+      "status": "exact_pinyin_queries_no_mapped_review"
+    },
+    {
+      "batch_id": "WEB-2026-10-28-165",
+      "date": "2026-10-28",
+      "platform": "公开网页课程名+教师拼音精确查询",
+      "scope_codes": [
+        "CHEM30041h",
+        "CHEM20006h",
+        "CHEM70011",
+        "CHEM30028"
+      ],
+      "queries": [
+        "量子化学原理及应用(H) zhangying Fudan",
+        "物理化学A II(H) chenxueying Fudan",
+        "分子反应动力学 wangfengyan Fudan",
+        "高能化学电源 wangyonggang Fudan"
+      ],
+      "result_note": "继续核查量子化学H、物理化学AII(H)、分子反应动力学与高能化学电源的教师拼音变体。命中教材/教研或教师学术资料、课程通用信息与无关结果；没有可映射学生课评正文，未打开结果页。",
+      "candidate_urls": [
+        "https://xuanshu.hep.com.cn/front/h5Mobile/bookDetails?bookId=59cf9580ba9eb884cf823c94",
+        "https://files.sciconf.cn/upload/file/20230816/20230816193436_46942.pdf",
+        "https://chemistry.fudan.edu.cn/89/9a/c45941a690586/page.htm",
+        "https://hr.fudan.edu.cn/92/38/c4937a37432/page.htm"
+      ],
+      "visited_urls": [],
+      "status": "exact_pinyin_queries_no_mapped_review"
+    },
+    {
+      "batch_id": "WEB-2026-10-28-166",
+      "date": "2026-10-28",
+      "platform": "公开网页课程名+教师拼音精确查询",
+      "scope_codes": [
+        "CHEM30012",
+        "CHEM30008",
+        "CHEM60003",
+        "CHEM60016"
+      ],
+      "queries": [
+        "计算化学 songguoliang Fudan",
+        "近代分析化学 leijie Fudan",
+        "无机合成 zhanglixin Fudan",
+        "分析电化学 caiwenbin Fudan"
+      ],
+      "result_note": "实际执行四条精确拼音查询。近代分析化学+雷杰命中《大学化学》教学论文并读取全文，作为课程家族层面的教师教学讨论单列；未映射到具体课号/班次。计算化学、无机合成、分析电化学只见教师/课程/学术材料，无学生课评。",
+      "candidate_urls": [
+        "https://www.dxhx.pku.edu.cn/CN/abstract/abstract35932.shtml",
+        "https://www.ecce.fudan.edu.cn/28006/list.htm",
+        "https://chemistry.fudan.edu.cn/88/d9/c45939a690393/page.htm",
+        "https://echem.fudan.edu.cn/8e/85/c26211a691845/page.htm",
+        "https://jwc.fudan.edu.cn/_upload/article/files/83/6c/8a3c080c4f8991024f4b59ad4f1b/946c8b8f-ffdc-42de-bdbc-e2db449997b7.pdf"
+      ],
+      "visited_urls": [
+        "https://www.dxhx.pku.edu.cn/CN/abstract/abstract35932.shtml"
+      ],
+      "status": "one_teacher_course_pedagogy_full_text_read_no_current_section_mapping"
+    },
+    {
+      "batch_id": "WEB-2026-10-28-167",
+      "date": "2026-10-28",
+      "platform": "公开网页课程名+教师拼音精确查询",
+      "scope_codes": [
+        "CHEM30019",
+        "CHEM30016",
+        "CHEM30011",
+        "CHEM60022"
+      ],
+      "queries": [
+        "分子组装与分子器件 qiandongjin Fudan",
+        "工业化学 shenwei Fudan",
+        "环境化学B dengchunhui Fudan",
+        "蛋白质化学/生物无机化学 tanxiangshi Fudan"
+      ],
+      "result_note": "实际查分子组装与分子器件、工业化学、环境化学B、蛋白质化学/生物无机化学四条教师拼音组合。结果为实验室/教师科研信息、旧课程目录与无关页面；无学生课评正文命中，未打开页面。",
+      "candidate_urls": [
+        "https://mmd.fudan.edu.cn/",
+        "https://jwc.fudan.edu.cn/_upload/article/files/83/6c/8a3c080c4f8991024f4b59ad4f1b/946c8b8f-ffdc-42de-bdbc-e2db449997b7.pdf",
+        "https://environment.fudan.edu.cn/",
+        "https://baike.so.com/doc/5690393-5903091.html"
+      ],
+      "visited_urls": [],
+      "status": "exact_pinyin_queries_no_mapped_review"
     }
   ],
-  "coverage_note": "范围145码；按代码去重，精确课号+课名+教师组合查询145/145，直接组合查询待查0码。末批补查7码并记录官方微流控汇总报告、课程体系报道和不可访问的历史超星页；拼音变体/搜狗微信逐课检索仍有待做。 WEB-122/123已对部分高课量核心课做拼音/教师变体和搜狗微信试搜；未命中学生课评，搜狗公众号跳转遇验证码后停止。其他课程拼音/公众号检索仍待续。 WEB-124已补查普通化学C和化学实验室安全的拼音/首字母网页变体，未见匹配课评；搜狗公众号访问仍受验证码限制。 WEB-125已补查物理化学AI、谱学导论、化工原理的拼音/教师变体；无匹配学生课评。 WEB-126已实际查询普通化学实验I、有机化学实验I的拼音/首字母变体及公众号域结果，未见候选课评。 WEB-127/128已补查高等有机、高等结构分析、分析化学及其实验的拼音/教师变体；无匹配课评正文。 WEB-129/130已补查四类实验课程及物化实验上下册的拼音/公众号域查询；均无结果。 WEB-131已补查物化AIII及有机化学课程拼音变体；一条外校摘要按机构不匹配排除。 WEB-132已补查合成化学实验上/下的拼音、教师及公众号域搜索；无结果。 WEB-133与WEB-134实际查询已按课号回写；未执行的课程/教师别名仍保留pending。 WEB-135普通化学实验I与有机化学拼音/教师拼音查询已回写对应课号；未执行别名仍待查。 WEB-136/137查询已按课程代码回写，其他未实际执行的具体拼音变体保持pending。 WEB-138查询已按课号回写；拼音/首字母变体仍按实际查询分别计数，其他pending未被推定完成。 WEB-139已执行高选课量课程拼音别名查询并按课号回写。 已核读2024上医官方教师报道：姜琳琳/赵根明及其课程不属于本scope，作为read_excluded来源保留；WEB-140四条精确待查词已完成并回写。 WEB-141完成4条精确待查拼音词；CourseBench外校CHEM1100评价只记snippet-only排除，Fudan普通化学A官方报道和上海科技大学课表分别作为官方背景/外校身份核验来源。 WEB-142原pending精确拼音词已执行并按课号更新；搜索摘要未计为正文阅读。 WEB-143原pending教师拼音词已执行并按课程更新；教师主页搜索摘要未计为课评正文阅读。 WEB-144精确待查拼音词已按课号完成；搜索摘要未计正文阅读。 WEB-145已按精确待查词回写物化AI/AII检索；未读的官方资料摘要不计正文阅读。 WEB-146命中已有CHEM-SRC-FUDAN-0001；由于原文未标代码/H版和具体修课期，在CHEM50002仅记候选阅读，不新增重复记录。 WEB-147完成CHEM10001和CHEM20011教师拼音精确查询，未见可映射学生课评正文。 WEB-147扩展词与精确词分开统计；WEB-148引号版单列；WEB-149四条原始精确拼音查询已执行并回写。 WEB-150精确回写CHEM10001及CHEM20011三条原始教师拼音待查词；教师资料和旧/不同代码大纲未作为课评。 WEB-151/152八条精确拼音词已逐课回写；非评价性安全制度、教师主页和课程资料不计入课评。 WEB-153回写有机化学AII和仪器分析实验四条精确拼音查询；官方实验资料和不同课程大纲不计课评。 WEB-154/155八条精确拼音查询已回写；《物理化学实验内容的探索与实践》全文已读，独立列为教师视角课程讨论，代码/上下和班次未明。 WEB-156至158的十二条精确拼音查询已逐课回写；官方课程简介摘要、教师主页及重复的高等无机人物稿镜像均不记新学生课评。 WEB-159四条精确拼音词已回写；CHEM-SRC-FUDAN-0007仅作为高等无机荣誉课程存在的官方线索，不含学生评价。",
+  "coverage_note": "范围145码；按代码去重，精确课号+课名+教师组合查询145/145，直接组合查询待查0码。末批补查7码并记录官方微流控汇总报告、课程体系报道和不可访问的历史超星页；拼音变体/搜狗微信逐课检索仍有待做。 WEB-122/123已对部分高课量核心课做拼音/教师变体和搜狗微信试搜；未命中学生课评，搜狗公众号跳转遇验证码后停止。其他课程拼音/公众号检索仍待续。 WEB-124已补查普通化学C和化学实验室安全的拼音/首字母网页变体，未见匹配课评；搜狗公众号访问仍受验证码限制。 WEB-125已补查物理化学AI、谱学导论、化工原理的拼音/教师变体；无匹配学生课评。 WEB-126已实际查询普通化学实验I、有机化学实验I的拼音/首字母变体及公众号域结果，未见候选课评。 WEB-127/128已补查高等有机、高等结构分析、分析化学及其实验的拼音/教师变体；无匹配课评正文。 WEB-129/130已补查四类实验课程及物化实验上下册的拼音/公众号域查询；均无结果。 WEB-131已补查物化AIII及有机化学课程拼音变体；一条外校摘要按机构不匹配排除。 WEB-132已补查合成化学实验上/下的拼音、教师及公众号域搜索；无结果。 WEB-133与WEB-134实际查询已按课号回写；未执行的课程/教师别名仍保留pending。 WEB-135普通化学实验I与有机化学拼音/教师拼音查询已回写对应课号；未执行别名仍待查。 WEB-136/137查询已按课程代码回写，其他未实际执行的具体拼音变体保持pending。 WEB-138查询已按课号回写；拼音/首字母变体仍按实际查询分别计数，其他pending未被推定完成。 WEB-139已执行高选课量课程拼音别名查询并按课号回写。 已核读2024上医官方教师报道：姜琳琳/赵根明及其课程不属于本scope，作为read_excluded来源保留；WEB-140四条精确待查词已完成并回写。 WEB-141完成4条精确待查拼音词；CourseBench外校CHEM1100评价只记snippet-only排除，Fudan普通化学A官方报道和上海科技大学课表分别作为官方背景/外校身份核验来源。 WEB-142原pending精确拼音词已执行并按课号更新；搜索摘要未计为正文阅读。 WEB-143原pending教师拼音词已执行并按课程更新；教师主页搜索摘要未计为课评正文阅读。 WEB-144精确待查拼音词已按课号完成；搜索摘要未计正文阅读。 WEB-145已按精确待查词回写物化AI/AII检索；未读的官方资料摘要不计正文阅读。 WEB-146命中已有CHEM-SRC-FUDAN-0001；由于原文未标代码/H版和具体修课期，在CHEM50002仅记候选阅读，不新增重复记录。 WEB-147完成CHEM10001和CHEM20011教师拼音精确查询，未见可映射学生课评正文。 WEB-147扩展词与精确词分开统计；WEB-148引号版单列；WEB-149四条原始精确拼音查询已执行并回写。 WEB-150精确回写CHEM10001及CHEM20011三条原始教师拼音待查词；教师资料和旧/不同代码大纲未作为课评。 WEB-151/152八条精确拼音词已逐课回写；非评价性安全制度、教师主页和课程资料不计入课评。 WEB-153回写有机化学AII和仪器分析实验四条精确拼音查询；官方实验资料和不同课程大纲不计课评。 WEB-154/155八条精确拼音查询已回写；《物理化学实验内容的探索与实践》全文已读，独立列为教师视角课程讨论，代码/上下和班次未明。 WEB-156至158的十二条精确拼音查询已逐课回写；官方课程简介摘要、教师主页及重复的高等无机人物稿镜像均不记新学生课评。 WEB-159四条精确拼音词已回写；CHEM-SRC-FUDAN-0007仅作为高等无机荣誉课程存在的官方线索，不含学生评价。\nWEB-160/161：实际查询CHEM60004、CHEM20014h、CHEM60014各课程名+中文教师组合与四条精确拼音词；结果是教师/旧课程资料或无关页面，无可映射学生课评正文。搜索摘要未计已读。\nWEB-162：实查CHEM60012、CHEM60021、CHEM60010四条教师拼音组合；命中教师/研究方向和仪器资料，无当前班次学生课评正文。\nWEB-163：实查四条核心课程拼音组合；打开量子化学原理及应用(H)的2024官方优质课程评选报道全文，作为历史课程家族的官方评估报道单列，不归属当前班次。\nWEB-164：实查色谱理论基础、有机结构分析、生物色谱、绿色化学四条精确拼音词；结果为旧课程资料、教师信息或无关网页，无可映射学生课评正文。\nWEB-165：实查量子化学H、物理化学AII(H)、分子反应动力学、高能化学电源四条精确拼音词；结果未提供当前scope班次学生课评。\nWEB-166：实查计算化学、近代分析化学、无机合成、分析电化学拼音词；全文阅读雷杰等人的分析化学教学论文，作为未细分到课号/班次的教学讨论留档。\nWEB-167：实查分子组装与分子器件、工业化学、环境化学B、蛋白质化学/生物无机化学四条拼音词；结果未发现对应学生课评正文。",
   "coverage_stats": {
     "total_scope_codes": 145,
-    "codes_with_read_source_visit_or_read": 41,
-    "codes_with_exact_course_family_mapping": 7,
+    "codes_with_read_source_visit_or_read": 43,
+    "codes_with_exact_course_family_mapping": 8,
     "codes_pending_individual_exact_code_and_teacher_queries": 0,
     "codes_with_state_not_individually_queried": 0,
-    "codes_with_general_or_historical_source_but_no_exact_class_mapping": 40,
-    "batch_searches_logged": 159,
+    "codes_with_general_or_historical_source_but_no_exact_class_mapping": 42,
+    "batch_searches_logged": 167,
     "note": "按代码去重统计：实际执行过课号+课名+中文教师组合查询的代码共145/145，直接组合查询待查0码。精确查过且未映射到班次学生课评的课程码列表：AIS310014、AIS531005、AIT310024、CHEM10001、CHEM10002、CHEM10003、CHEM10004、CHEM10005、CHEM10006、CHEM10007、CHEM10008、CHEM20001、CHEM20002、CHEM20002h、CHEM20003、CHEM20004、CHEM20005、CHEM20005h、CHEM20006、CHEM20006h、CHEM20007、CHEM20008、CHEM20009、CHEM20010、CHEM20011、CHEM20012、CHEM20013、CHEM20013h、CHEM20014、CHEM20014h、CHEM20015、CHEM20016、CHEM20017、CHEM20018、CHEM20019、CHEM20020、CHEM20021、CHEM20022、CHEM20023、CHEM30001、CHEM30003、CHEM30004、CHEM30004h、CHEM30005、CHEM30005h、CHEM30008、CHEM30009、CHEM30010、CHEM30011、CHEM30012、CHEM30013、CHEM30014、CHEM30015、CHEM30016、CHEM30017、CHEM30018、CHEM30019、CHEM30020、CHEM30021、CHEM30022、CHEM30023、CHEM30026、CHEM30027、CHEM30028、CHEM30029、CHEM30030、CHEM30031、CHEM30032、CHEM30032h、CHEM30033、CHEM30034、CHEM30035、CHEM30036、CHEM30037、CHEM30038、CHEM30041h、CHEM40002、CHEM40003、CHEM40004、CHEM40008、CHEM40014h、CHEM40015h、CHEM50002、CHEM50003、CHEM50004、CHEM50005、CHEM50006、CHEM50007、CHEM50008、CHEM50009、CHEM50010、CHEM60003、CHEM60004、CHEM60005、CHEM60007、CHEM60008、CHEM60010、CHEM60011、CHEM60012、CHEM60013、CHEM60014、CHEM60015、CHEM60016、CHEM60017、CHEM60018、CHEM60020、CHEM60021、CHEM60022、CHEM60023、CHEM60024、CHEM60026、CHEM60027、CHEM70005、CHEM70006、CHEM70007、CHEM70009、CHEM70010、CHEM70011、CHEM70012、CHEM70013、CHEM70014、CHEM70015、CHEM70016、CHEM70017、CHEM70018、CHEM70019、CHEM70020、CHEM70021、CHEM70023、CHEM70024、CHEM70025、CHEM70026、CHEM70027、CHEM70028、CHEM70030、CHEM70032、CHEM70033、CHEM70034、CHEM70035、GECC10002、GEEC10038、GEIN10002、GESP10004、GESP20003、GESP20004。CHEM50008研究生课程案例中的汇总反馈不映射当前本科/本研融通班。CHEM60007/70011/70012/70019未见学生课程评价正文；旧研究生绿色化学代码CHEM630010和PI评价页面均不映射当前课程班次。 CHEM40014h另有化学系官方人物报道具名本科生课堂反馈，具体班号/学期不明。 CHEM70024小红书候选仅部分读取，属于XRD讲义笔记，未确认归属或课评，不采纳。 这4门另做公众号域限定搜索（公开搜索引擎），无命中；搜狗微信仍待查。 本批WEB-81至WEB-84记录4门精确组合检索、广搜与Zhihu/XHS站点检索；高等化学分析另读一通用超星评价页，但缺少复旦与教师/课号信息，排除映射。 本批WEB-85至WEB-88覆盖普通化学A上、物理化学AⅠ、有机化学、分析化学；只有普通化学A官方校报全文可读，但其非学生评价且未细分上/下，未采纳为班级课评。 课程代码去重说明：本批CHEM10003与CHEM20005的课号组合曾在WEB-09、WEB-12检索，本轮仅重查教师变体；本轮首次补做CHEM20011、CHEM20015两码精确组合。 本批WEB-89至WEB-92优先普通化学、无机/分析实验及有机基础课；学银在线课程页的评价栏无可见正文，不作课程评价。 本批WEB-93至WEB-96覆盖物理化学A I(H)、有机化学A I(H)、无机化学及无机化学(H)，无精确课评命中。孙兴文官方课堂报道中的具名学生反馈已单列为历史有机化学课程族记录，未映射具体代码。 本批WEB-97至WEB-100覆盖物理化学AⅢ/H、分析化学AII(H)、有机化学AII；无当前班次可确认课评。CHEM20014公开课程页只显示评价栏目，正文未读；另一复旦官方PDF评价lead两次抓取超时。 本批WEB-101至WEB-105覆盖CHEM20006h、CHEM20008、CHEM20014h、CHEM30030：精确组合查询无结果，广搜仅出现官方课程/教师信息，知乎/小红书各四条定向查询无结果；未新增可确认学生课评正文。按课程码去重，直接组合查询累计125/145，待做20码；另有5条课程级code状态与此前coverage_stats直接查询清单不同步，本次按已留档清单同步。 本批WEB-106至WEB-110优先覆盖高等无机/有机、量子化学、色谱、质谱和电极过程课程，共6码完成精确/广搜及Zhihu/XHS定向检索；未新增学生课评正文。高等无机已读官方报道保持原CHEM40014h候选映射，不移映CHEM50002；其余为不匹配旧课程信息/教师页或无关结果。 本批WEB-111至WEB-115覆盖7门化学相关/交叉课，精确组合检索、广搜及知乎/小红书平台检索均已记账。AIT310024的Class Central课程页面已全文读取，显示0条评论并因缺课号/学期/班号排除；本批未新增学生评价record。 本批WEB-116至WEB-121补齐最后7码；精确课号/课名/教师组合查询累计145/145。GEIN10002找到一条校方汇总实验反馈并单列为code=null官方报告record，未映射当前班；GESP报道只介绍课程体系；GECC10002超星旧页教师与当前scope不符且正文不可访问。知乎/小红书对最后7码定向检索未发现匹配课评。尚待补充的是逐课拼音/搜狗微信检索，不计入直接组合查询覆盖。 本批WEB-122至WEB-123针对高课量CHEM10003/10004/10002/10007、CHEM50002及有机化学AI/AII课程族，实际尝试课程拼音、教师拼音/首字母及搜狗微信检索；未找到可确认的学生课评。搜狗检索页可读，但点开公众号跳转触发验证码，已停止；复旦官网有机化学AI/AII智慧课程报道全文已读并排除为非学生评价。 本批WEB-124补查CHEM10008普通化学C与CHEM40008化学实验室安全的拼音/首字母及公众号域限定网页查询；未发现匹配学生课评，摘要无关项未读正文。 本批WEB-125覆盖CHEM20005物理化学AI、CHEM20007谱学导论、CHEM30015化工原理的课程拼音/教师拼音与公众号域限定查询；未发现可确认的学生课评，未打开无关结果正文。 本批WEB-126覆盖课量最大的实验课CHEM10005普通化学实验I与CHEM10006有机化学实验I；实际拼音/首字母和公众号域限定查询未出结果。 本批WEB-127/128覆盖CHEM50003高等有机、CHEM50005高等结构分析、CHEM20015分析化学、CHEM20016分析化学实验的拼音/教师变体与公众号域查询；未发现复旦对应班次学生评价。 本批WEB-129/130覆盖有机化学实验、无机化学与化学分析实验、仪器分析实验、物理化学实验的课程拼音/教师首字母及公众号域查询；未发现可确认学生课评或可读正文。 本批WEB-131补查物理化学AIII与有机化学的拼音/教师变体及公众号域限定检索；仅见其他院校摘要，已按机构不匹配排除。 本批WEB-132补查CHEM20004合成化学实验上与CHEM30003合成化学实验下的拼音/教师拼音和公众号域查询；无结果。 WEB-133记录CHEM10005普通化学实验I课程名/全拼/陈珍霞查询；WEB-134记录CHEM10003/10004普通化学A上下册拼音与教师拼音首字母组合查询。均未出现可核读学生评价候选。 WEB-135已实际查询CHEM10005普通化学实验I、CHEM10002有机化学的拼音/教师拼音组合；未见相关学生评价候选。 WEB-136补查CHEM20002分析化学AII与CHEM20005物理化学AI的教师拼音组合；WEB-137补查CHEM50002高等无机化学两位教师拼音/首字母组合。未见可读学生评价候选。 WEB-138已查询CHEM50003高等有机化学、CHEM20015分析化学课程拼音和教师拼音组合，结果无关。 WEB-139优先查询高覆盖课程CHEM50004量子化学原理及应用和CHEM20001分析化学AI的拼音/教师组合，未发现评价候选。 WEB-140实际完成CHEM10005/CHEM10003四条课程名+教师拼音待查词；其命中的2022官方报道已读但无评价。 WEB-141按reading_ledger中的精确拼音待查词完成CHEM10005/CHEM10003四条；206条待查将按精确query状态计数。 WEB-142完成CHEM10004普通化学A下、CHEM10002有机化学四条ledger精确课程名+教师拼音查询；仅官方课程/教师资料摘要，无学生评价。 WEB-143按精确待查词完成CHEM10007/10008各两条教师拼音检索，未见学生评价。 WEB-144按精确待查词完成CHEM10006有机化学实验I、CHEM20001分析化学AI的教师拼音查询，结果非学生课评。 WEB-145完成CHEM20005物理化学AI、CHEM20006物理化学AII四条精确教师拼音待查词，未见学生课评。 WEB-146精确检索CHEM50002高等无机化学和CHEM20004合成化学实验上教师拼音，命中已登记人物稿但代码/H版归属和修读期未明；未新增重复记录。WEB-147执行CHEM10001普通化学及CHEM20011有机化学三条教师拼音组合，未见可映射学生评价正文。 WEB-147实际执行3条带附加词的拼音扩展检索，原始无修饰词仍记待查；WEB-148记录4条引号变体；WEB-149逐字执行CHEM20013/CHEM20015四条原始拼音待查词，未见可映射学生评价正文。 WEB-150逐字执行CHEM10001/CHEM20011三条原始教师拼音待查词，未见可映射学生评价正文。 WEB-151/152按选课人数优先逐字执行化学实验室安全、量子化学、谱学导论、分析化学AII和化工原理八条教师拼音待查词；未见当前scope班次学生课评正文。 WEB-153逐字执行CHEM20014有机化学AII与CHEM20020仪器分析实验四条教师拼音待查词，未见可映射学生评价正文。 WEB-154/155精确执行CHEM30003/30031/30032/20012八条教师拼音待查词。另读《大学化学》2018年教师论文，作为物理化学实验课程族的教师教学讨论单列，不当作学生课评/班次映射。 WEB-156至158按选课人数优先执行物理化学AIII、高等有机/结构分析、无机与分析实验及元素化学十二条教师拼音精确待查词；无新增可映射学生课评。 WEB-159逐字执行CHEM40014h/CHEM60017/CHEM60014四条教师拼音待查词。打开李鹏课题组2021高等无机荣誉课程新闻，仅标题日期、无学生评价；登记为排除来源，不新增record。",
     "codes_pending_course_teacher_search": 0,
     "codes_with_exact_code_course_teacher_query_attempted": 145,
     "codes_with_course_name_and_teacher_search_attempted": 145,
     "codes_with_query_attempt_but_no_mapped_review": 144,
-    "codes_with_pinyin_query_attempted": 37,
-    "codes_with_pinyin_exact_query_attempted": 37,
-    "pending_exact_pinyin_query_rows": 139,
-    "codes_with_pending_exact_pinyin_query": 109
+    "codes_with_pinyin_query_attempted": 61,
+    "codes_with_pinyin_exact_query_attempted": 61,
+    "pending_exact_pinyin_query_rows": 111,
+    "codes_with_pending_exact_pinyin_query": 86
   }
 }
