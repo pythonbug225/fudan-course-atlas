@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-28T02:52:40+08:00",
+  "generated_at": "2026-10-28 03:04:35",
   "scope_file": "..\\scope.json",
   "scope_count": 145,
   "courses": [
@@ -479,6 +479,12 @@
           "query": "site:xiaohongshu.com/explore \"CHEM10003\" \"pthxas\" \"yuebin\" Fudan",
           "status": "completed_pinyin_initial_alias_search_empty",
           "note": "WEB-2026-10-28-215：课号+课程首字母别名+教师全拼检索返回空结果；无候选正文。首字母仅作检索词，不能单独用于身份确认。"
+        },
+        {
+          "source": "general_web_exact_chinese",
+          "query": "复旦 普通化学A 课评 评价 知乎 小红书；复旦 普通化学A 岳斌 课程评价 学生 体验",
+          "status": "completed_no_student_review_candidate",
+          "note": "WEB-2026-10-28-217 实际执行；公开网页搜索结果仅有官方课程/教师信息，没有学生课评；Xiaohongshu标签检查因Debugger unattached未成功。普通化学A上下学期班次未区分。"
         }
       ],
       "visited": [
@@ -2423,6 +2429,12 @@
           "query": "site:xiaohongshu.com/explore \"CHEM20013\" \"youjihuaxueai\" \"lizhiming\" Fudan",
           "status": "completed_pinyin_alias_search_index_empty",
           "note": "WEB-2026-10-28-216：课号+课程全拼别名+scope教师全拼组合搜索返回空结果；无候选URL/正文，拼音只作检索用。"
+        },
+        {
+          "source": "general_web_exact_chinese",
+          "query": "复旦 有机化学A I 课评 课程 老师 小红书 知乎；复旦 有机化学A I 张丹维 课程评价 学生 体验",
+          "status": "completed_no_student_review_candidate",
+          "note": "WEB-2026-10-28-217 实际执行；公开网页搜索结果仅有官方课程/教师信息，没有学生课评；Xiaohongshu标签检查因Debugger unattached未成功。普通化学A上下学期班次未区分。"
         }
       ],
       "visited": [
@@ -9610,6 +9622,12 @@
           "query": "site:xiaohongshu.com/explore \"CHEM10004\" \"pthxax\" \"zhaodongyuan\" Fudan",
           "status": "completed_pinyin_initial_alias_search_empty",
           "note": "WEB-2026-10-28-215：课号+课程首字母别名+教师全拼检索返回空结果；无候选正文。首字母仅作检索词，不能单独用于身份确认。"
+        },
+        {
+          "source": "general_web_exact_chinese",
+          "query": "复旦 普通化学A 课评 评价 知乎 小红书；复旦 普通化学A 岳斌 课程评价 学生 体验",
+          "status": "completed_no_student_review_candidate",
+          "note": "WEB-2026-10-28-217 实际执行；公开网页搜索结果仅有官方课程/教师信息，没有学生课评；Xiaohongshu标签检查因Debugger unattached未成功。普通化学A上下学期班次未区分。"
         }
       ],
       "visited": [
@@ -20382,6 +20400,32 @@
       "candidate_urls": [],
       "visited_urls": [],
       "status": "20_pinyin_alias_teacher_searches_empty_no_review_body"
+    },
+    {
+      "batch_id": "WEB-2026-10-28-217",
+      "date": "2026-10-28",
+      "platform": "公开网页搜索（中文课程全名与教师全名组合）；Xiaohongshu官方Edge标签访问检查",
+      "scope_codes": [
+        "CHEM10003",
+        "CHEM10004",
+        "CHEM20013"
+      ],
+      "queries": [
+        "复旦 普通化学A 课评 评价 知乎 小红书",
+        "复旦 有机化学A I 课评 课程 老师 小红书 知乎",
+        "复旦 普通化学A 岳斌 课程评价 学生 体验",
+        "复旦 有机化学A I 张丹维 课程评价 学生 体验"
+      ],
+      "result_note": "实际执行4条中文精确组合搜索：普通化学A、普通化学A+岳斌，有机化学A I、有机化学A I+张丹维。结果页只有复旦官方课程/教师报道与课程页等非学生课评；无新的可确认学生课程评价。coursebench.org/course/60打开只返回标题，且既有来源已依据上海科技大学CHEM1103官方目录排除为外校同名课。尝试读取本任务创建的Xiaohongshu搜索标签917533804时返回“Debugger unattached”，未能观察其页面结果；不计为正文阅读。",
+      "candidate_urls": [
+        "https://chemistry.fudan.edu.cn/c7/23/c45206a771875/page.htm",
+        "https://www.xueyinonline.com/detail/254772898",
+        "https://coursebench.org/course/60"
+      ],
+      "visited_urls": [
+        "https://coursebench.org/course/60"
+      ],
+      "status": "four_exact_chinese_searches_no_new_student_review; xhs_tab_debugger_unattached; coursebench_title_only_already_excluded_foreign_course"
     }
   ],
   "coverage_note": "范围145码；按代码去重，精确课号+课名+教师组合查询145/145，直接组合查询待查0码。末批补查7码并记录官方微流控汇总报告、课程体系报道和不可访问的历史超星页；拼音变体/搜狗微信逐课检索仍有待做。 WEB-122/123已对部分高课量核心课做拼音/教师变体和搜狗微信试搜；未命中学生课评，搜狗公众号跳转遇验证码后停止。其他课程拼音/公众号检索仍待续。 WEB-124已补查普通化学C和化学实验室安全的拼音/首字母网页变体，未见匹配课评；搜狗公众号访问仍受验证码限制。 WEB-125已补查物理化学AI、谱学导论、化工原理的拼音/教师变体；无匹配学生课评。 WEB-126已实际查询普通化学实验I、有机化学实验I的拼音/首字母变体及公众号域结果，未见候选课评。 WEB-127/128已补查高等有机、高等结构分析、分析化学及其实验的拼音/教师变体；无匹配课评正文。 WEB-129/130已补查四类实验课程及物化实验上下册的拼音/公众号域查询；均无结果。 WEB-131已补查物化AIII及有机化学课程拼音变体；一条外校摘要按机构不匹配排除。 WEB-132已补查合成化学实验上/下的拼音、教师及公众号域搜索；无结果。 WEB-133与WEB-134实际查询已按课号回写；未执行的课程/教师别名仍保留pending。 WEB-135普通化学实验I与有机化学拼音/教师拼音查询已回写对应课号；未执行别名仍待查。 WEB-136/137查询已按课程代码回写，其他未实际执行的具体拼音变体保持pending。 WEB-138查询已按课号回写；拼音/首字母变体仍按实际查询分别计数，其他pending未被推定完成。 WEB-139已执行高选课量课程拼音别名查询并按课号回写。 已核读2024上医官方教师报道：姜琳琳/赵根明及其课程不属于本scope，作为read_excluded来源保留；WEB-140四条精确待查词已完成并回写。 WEB-141完成4条精确待查拼音词；CourseBench外校CHEM1100评价只记snippet-only排除，Fudan普通化学A官方报道和上海科技大学课表分别作为官方背景/外校身份核验来源。 WEB-142原pending精确拼音词已执行并按课号更新；搜索摘要未计为正文阅读。 WEB-143原pending教师拼音词已执行并按课程更新；教师主页搜索摘要未计为课评正文阅读。 WEB-144精确待查拼音词已按课号完成；搜索摘要未计正文阅读。 WEB-145已按精确待查词回写物化AI/AII检索；未读的官方资料摘要不计正文阅读。 WEB-146命中已有CHEM-SRC-FUDAN-0001；由于原文未标代码/H版和具体修课期，在CHEM50002仅记候选阅读，不新增重复记录。 WEB-147完成CHEM10001和CHEM20011教师拼音精确查询，未见可映射学生课评正文。 WEB-147扩展词与精确词分开统计；WEB-148引号版单列；WEB-149四条原始精确拼音查询已执行并回写。 WEB-150精确回写CHEM10001及CHEM20011三条原始教师拼音待查词；教师资料和旧/不同代码大纲未作为课评。 WEB-151/152八条精确拼音词已逐课回写；非评价性安全制度、教师主页和课程资料不计入课评。 WEB-153回写有机化学AII和仪器分析实验四条精确拼音查询；官方实验资料和不同课程大纲不计课评。 WEB-154/155八条精确拼音查询已回写；《物理化学实验内容的探索与实践》全文已读，独立列为教师视角课程讨论，代码/上下和班次未明。 WEB-156至158的十二条精确拼音查询已逐课回写；官方课程简介摘要、教师主页及重复的高等无机人物稿镜像均不记新学生课评。 WEB-159四条精确拼音词已回写；CHEM-SRC-FUDAN-0007仅作为高等无机荣誉课程存在的官方线索，不含学生评价。\nWEB-160/161：实际查询CHEM60004、CHEM20014h、CHEM60014各课程名+中文教师组合与四条精确拼音词；结果是教师/旧课程资料或无关页面，无可映射学生课评正文。搜索摘要未计已读。\nWEB-162：实查CHEM60012、CHEM60021、CHEM60010四条教师拼音组合；命中教师/研究方向和仪器资料，无当前班次学生课评正文。\nWEB-163：实查四条核心课程拼音组合；打开量子化学原理及应用(H)的2024官方优质课程评选报道全文，作为历史课程家族的官方评估报道单列，不归属当前班次。\nWEB-164：实查色谱理论基础、有机结构分析、生物色谱、绿色化学四条精确拼音词；结果为旧课程资料、教师信息或无关网页，无可映射学生课评正文。\nWEB-165：实查量子化学H、物理化学AII(H)、分子反应动力学、高能化学电源四条精确拼音词；结果未提供当前scope班次学生课评。\nWEB-166：实查计算化学、近代分析化学、无机合成、分析电化学拼音词；全文阅读雷杰等人的分析化学教学论文，作为未细分到课号/班次的教学讨论留档。\nWEB-167：实查分子组装与分子器件、工业化学、环境化学B、蛋白质化学/生物无机化学四条拼音词；结果未发现对应学生课评正文。\nWEB-168：查高选课量写作/工程伦理四条拼音词；CHEM50007实际用了相近课程名变体，scope精确课名仍待查；CHEM50008另一教师变体也待查。无可映射学生课评。\nWEB-169：实查生产实习、毕业论文和工程伦理四条精确教师拼音词；无可映射学生课评正文，学位论文平台/科研实习信息不当作课程评价。\nWEB-170：实查科学仪器基础、催化反应机理、蛋白质组学新技术和电化学研究前沿四条拼音词；无可映射学生课评正文。 WEB-2026-10-28-197：尝试4条教师拼音精确搜索，但响应输出被截断，结果未能检查；相关query保持pending，不计为无命中。 WEB-2026-10-28-198逐条完成剩余13条精确课程名+教师拼音查询，覆盖9码；pending精确拼音降为0。新增GECC10002的2011年复旦官方历史报道记录CHEM-WEB-FUDAN-0006（具名学生证词，刘旦初历史课；不映射2026春沈伟班）；2020教师回忆全文读后排除。GEIN10002教师教改论文仍按既有read_excluded分类。 WEB-2026-10-28-199新增高选课量普通化学/实验、有机实验和分析化学Zhihu/XHS定向搜索；没有读取到社交平台评价正文。XHS Edge页面读取超时。CourseBench /course/60仅标题与摘要lead，机构/教师/班级不明，未分配且不作record。",
