@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-28T02:43:49+08:00",
+  "generated_at": "2026-10-28T02:52:40+08:00",
   "scope_file": "..\\scope.json",
   "scope_count": 145,
   "courses": [
@@ -455,6 +455,30 @@
           "query": "site:xiaohongshu.com/explore \"CHEM10003\" \"putonghuaxueashang\" \"zhaodongyuan\" Fudan",
           "status": "completed_pinyin_alias_search_index_empty",
           "note": "WEB-2026-10-28-213：课号+课程全拼别名+scope教师拼音的公开搜索返回空结果；别名仅作检索词，无候选正文，不作身份匹配或评价。"
+        },
+        {
+          "source": "zhihu",
+          "query": "site:zhihu.com/question \"CHEM10003\" \"putonghuaxueashang\" \"yuebin\" Fudan",
+          "status": "completed_pinyin_alias_search_index_empty",
+          "note": "WEB-2026-10-28-214：实际课号+课程别名全拼+教师拼音搜索返回空结果；无候选URL/正文，拼音只作搜索词，不作为身份确认。"
+        },
+        {
+          "source": "xiaohongshu",
+          "query": "site:xiaohongshu.com/explore \"CHEM10003\" \"putonghuaxueashang\" \"yuebin\" Fudan",
+          "status": "completed_pinyin_alias_search_index_empty",
+          "note": "WEB-2026-10-28-214：实际课号+课程别名全拼+教师拼音搜索返回空结果；无候选URL/正文，拼音只作搜索词，不作为身份确认。"
+        },
+        {
+          "source": "zhihu",
+          "query": "site:zhihu.com/question \"CHEM10003\" \"pthxas\" \"yuebin\" Fudan",
+          "status": "completed_pinyin_initial_alias_search_empty",
+          "note": "WEB-2026-10-28-215：课号+课程首字母别名+教师全拼检索返回空结果；无候选正文。首字母仅作检索词，不能单独用于身份确认。"
+        },
+        {
+          "source": "xiaohongshu",
+          "query": "site:xiaohongshu.com/explore \"CHEM10003\" \"pthxas\" \"yuebin\" Fudan",
+          "status": "completed_pinyin_initial_alias_search_empty",
+          "note": "WEB-2026-10-28-215：课号+课程首字母别名+教师全拼检索返回空结果；无候选正文。首字母仅作检索词，不能单独用于身份确认。"
         }
       ],
       "visited": [
@@ -767,6 +791,30 @@
           "query": "site:xiaohongshu.com/explore \"CHEM10005\" \"putonghuaxueshiyani\" \"chenmohua\" Fudan",
           "status": "completed_pinyin_alias_search_index_empty",
           "note": "WEB-2026-10-28-213：课号+课程全拼别名+scope教师拼音的公开搜索返回空结果；别名仅作检索词，无候选正文，不作身份匹配或评价。"
+        },
+        {
+          "source": "zhihu",
+          "query": "site:zhihu.com/question \"CHEM10005\" \"putonghuaxueshiyani\" \"weixiaofang\" Fudan",
+          "status": "completed_pinyin_alias_search_index_empty",
+          "note": "WEB-2026-10-28-214：实际课号+课程别名全拼+教师拼音搜索返回空结果；无候选URL/正文，拼音只作搜索词，不作为身份确认。"
+        },
+        {
+          "source": "xiaohongshu",
+          "query": "site:xiaohongshu.com/explore \"CHEM10005\" \"putonghuaxueshiyani\" \"weixiaofang\" Fudan",
+          "status": "completed_pinyin_alias_search_index_empty",
+          "note": "WEB-2026-10-28-214：实际课号+课程别名全拼+教师拼音搜索返回空结果；无候选URL/正文，拼音只作搜索词，不作为身份确认。"
+        },
+        {
+          "source": "zhihu",
+          "query": "site:zhihu.com/question \"CHEM10005\" \"pthxsyi\" \"zhaobin\" Fudan",
+          "status": "completed_pinyin_initial_alias_search_empty",
+          "note": "WEB-2026-10-28-215：课号+课程首字母别名+教师全拼检索返回空结果；无候选正文。首字母仅作检索词，不能单独用于身份确认。"
+        },
+        {
+          "source": "xiaohongshu",
+          "query": "site:xiaohongshu.com/explore \"CHEM10005\" \"pthxsyi\" \"zhaobin\" Fudan",
+          "status": "completed_pinyin_initial_alias_search_empty",
+          "note": "WEB-2026-10-28-215：课号+课程首字母别名+教师全拼检索返回空结果；无候选正文。首字母仅作检索词，不能单独用于身份确认。"
         }
       ],
       "visited": [
@@ -948,6 +996,30 @@
           "query": "site:xiaohongshu.com/explore \"CHEM10007\" \"youjihuaxuec\" \"heqiuqin\" Fudan",
           "status": "completed_pinyin_alias_search_index_empty",
           "note": "WEB-2026-10-28-213：课号+课程全拼别名+scope教师拼音的公开搜索返回空结果；别名仅作检索词，无候选正文，不作身份匹配或评价。"
+        },
+        {
+          "source": "zhihu",
+          "query": "site:zhihu.com/question \"CHEM10007\" \"youjihuaxuec\" \"zhangdao\" Fudan",
+          "status": "completed_pinyin_alias_search_index_empty",
+          "note": "WEB-2026-10-28-214：实际课号+课程别名全拼+教师拼音搜索返回空结果；无候选URL/正文，拼音只作搜索词，不作为身份确认。"
+        },
+        {
+          "source": "xiaohongshu",
+          "query": "site:xiaohongshu.com/explore \"CHEM10007\" \"youjihuaxuec\" \"zhangdao\" Fudan",
+          "status": "completed_pinyin_alias_search_index_empty",
+          "note": "WEB-2026-10-28-214：实际课号+课程别名全拼+教师拼音搜索返回空结果；无候选URL/正文，拼音只作搜索词，不作为身份确认。"
+        },
+        {
+          "source": "zhihu",
+          "query": "site:zhihu.com/question \"CHEM10007\" \"yjhxc\" \"heqiuqin\" Fudan",
+          "status": "completed_pinyin_initial_alias_search_empty",
+          "note": "WEB-2026-10-28-215：课号+课程首字母别名+教师全拼检索返回空结果；无候选正文。首字母仅作检索词，不能单独用于身份确认。"
+        },
+        {
+          "source": "xiaohongshu",
+          "query": "site:xiaohongshu.com/explore \"CHEM10007\" \"yjhxc\" \"heqiuqin\" Fudan",
+          "status": "completed_pinyin_initial_alias_search_empty",
+          "note": "WEB-2026-10-28-215：课号+课程首字母别名+教师全拼检索返回空结果；无候选正文。首字母仅作检索词，不能单独用于身份确认。"
         }
       ],
       "visited": [
@@ -1160,6 +1232,30 @@
           "query": "site:xiaohongshu.com/explore \"CHEM10008\" \"putonghuaxuec\" \"chenxueying\" Fudan",
           "status": "completed_pinyin_alias_search_index_empty",
           "note": "WEB-2026-10-28-213：课号+课程全拼别名+scope教师拼音的公开搜索返回空结果；别名仅作检索词，无候选正文，不作身份匹配或评价。"
+        },
+        {
+          "source": "zhihu",
+          "query": "site:zhihu.com/question \"CHEM10008\" \"putonghuaxuec\" \"qianlinping\" Fudan",
+          "status": "completed_pinyin_alias_search_index_empty",
+          "note": "WEB-2026-10-28-214：实际课号+课程别名全拼+教师拼音搜索返回空结果；无候选URL/正文，拼音只作搜索词，不作为身份确认。"
+        },
+        {
+          "source": "xiaohongshu",
+          "query": "site:xiaohongshu.com/explore \"CHEM10008\" \"putonghuaxuec\" \"qianlinping\" Fudan",
+          "status": "completed_pinyin_alias_search_index_empty",
+          "note": "WEB-2026-10-28-214：实际课号+课程别名全拼+教师拼音搜索返回空结果；无候选URL/正文，拼音只作搜索词，不作为身份确认。"
+        },
+        {
+          "source": "zhihu",
+          "query": "site:zhihu.com/question \"CHEM10008\" \"pthxc\" \"qianlinping\" Fudan",
+          "status": "completed_pinyin_initial_alias_search_empty",
+          "note": "WEB-2026-10-28-215：课号+课程首字母别名+教师全拼检索返回空结果；无候选正文。首字母仅作检索词，不能单独用于身份确认。"
+        },
+        {
+          "source": "xiaohongshu",
+          "query": "site:xiaohongshu.com/explore \"CHEM10008\" \"pthxc\" \"qianlinping\" Fudan",
+          "status": "completed_pinyin_initial_alias_search_empty",
+          "note": "WEB-2026-10-28-215：课号+课程首字母别名+教师全拼检索返回空结果；无候选正文。首字母仅作检索词，不能单独用于身份确认。"
         }
       ],
       "visited": [],
@@ -1361,6 +1457,30 @@
           "query": "site:xiaohongshu.com/explore \"CHEM20001\" \"fenxihuaxueai\" \"chenhui\" Fudan",
           "status": "completed_pinyin_alias_search_index_empty",
           "note": "WEB-2026-10-28-213：课号+课程全拼别名+scope教师拼音的公开搜索返回空结果；别名仅作检索词，无候选正文，不作身份匹配或评价。"
+        },
+        {
+          "source": "zhihu",
+          "query": "site:zhihu.com/question \"CHEM20001\" \"fenxihuaxueai\" \"liubaohong\" Fudan",
+          "status": "completed_pinyin_alias_search_index_empty",
+          "note": "WEB-2026-10-28-214：实际课号+课程别名全拼+教师拼音搜索返回空结果；无候选URL/正文，拼音只作搜索词，不作为身份确认。"
+        },
+        {
+          "source": "xiaohongshu",
+          "query": "site:xiaohongshu.com/explore \"CHEM20001\" \"fenxihuaxueai\" \"liubaohong\" Fudan",
+          "status": "completed_pinyin_alias_search_index_empty",
+          "note": "WEB-2026-10-28-214：实际课号+课程别名全拼+教师拼音搜索返回空结果；无候选URL/正文，拼音只作搜索词，不作为身份确认。"
+        },
+        {
+          "source": "zhihu",
+          "query": "site:zhihu.com/question \"CHEM20001\" \"fxhxai\" \"liubaohong\" Fudan",
+          "status": "completed_pinyin_initial_alias_search_empty",
+          "note": "WEB-2026-10-28-215：课号+课程首字母别名+教师全拼检索返回空结果；无候选正文。首字母仅作检索词，不能单独用于身份确认。"
+        },
+        {
+          "source": "xiaohongshu",
+          "query": "site:xiaohongshu.com/explore \"CHEM20001\" \"fxhxai\" \"liubaohong\" Fudan",
+          "status": "completed_pinyin_initial_alias_search_empty",
+          "note": "WEB-2026-10-28-215：课号+课程首字母别名+教师全拼检索返回空结果；无候选正文。首字母仅作检索词，不能单独用于身份确认。"
         }
       ],
       "visited": [
@@ -1651,6 +1771,18 @@
           "query": "site:xiaohongshu.com/explore \"物理化学AI\" \"周鸣飞\" 复旦",
           "status": "completed_search_index_empty",
           "note": "WEB-2026-10-28-205课程名+教师定向检索返回空结果；无候选正文，不标read/adopted。"
+        },
+        {
+          "source": "zhihu",
+          "query": "site:zhihu.com/question \"CHEM20005\" \"wulihuaxueai\" \"liuzhipan\" Fudan",
+          "status": "completed_pinyin_alias_search_index_empty",
+          "note": "WEB-2026-10-28-216：课号+课程全拼别名+scope教师全拼组合搜索返回空结果；无候选URL/正文，拼音只作检索用。"
+        },
+        {
+          "source": "xiaohongshu",
+          "query": "site:xiaohongshu.com/explore \"CHEM20005\" \"wulihuaxueai\" \"liuzhipan\" Fudan",
+          "status": "completed_pinyin_alias_search_index_empty",
+          "note": "WEB-2026-10-28-216：课号+课程全拼别名+scope教师全拼组合搜索返回空结果；无候选URL/正文，拼音只作检索用。"
         }
       ],
       "visited": [
@@ -1988,6 +2120,18 @@
           "query": "site:xiaohongshu.com/explore \"有机化学\" \"王辉\" 复旦 选课",
           "status": "completed_search_index_empty",
           "note": "WEB-2026-10-28-208课程/教师定向搜索返回空结果；无候选正文。"
+        },
+        {
+          "source": "zhihu",
+          "query": "site:zhihu.com/question \"CHEM20011\" \"youjihuaxue\" \"kuangyunyan\" Fudan",
+          "status": "completed_pinyin_alias_search_index_empty",
+          "note": "WEB-2026-10-28-216：课号+课程全拼别名+scope教师全拼组合搜索返回空结果；无候选URL/正文，拼音只作检索用。"
+        },
+        {
+          "source": "xiaohongshu",
+          "query": "site:xiaohongshu.com/explore \"CHEM20011\" \"youjihuaxue\" \"kuangyunyan\" Fudan",
+          "status": "completed_pinyin_alias_search_index_empty",
+          "note": "WEB-2026-10-28-216：课号+课程全拼别名+scope教师全拼组合搜索返回空结果；无候选URL/正文，拼音只作检索用。"
         }
       ],
       "visited": [
@@ -2125,6 +2269,18 @@
           "query": "site:xiaohongshu.com/explore \"有机化学实验\" \"林阳辉\" 复旦",
           "status": "completed_teacher_specific_search_index_empty",
           "note": "WEB-2026-10-28-212：实际课程/教师定向搜索返回空结果；无候选URL或正文，不标read/adopted。"
+        },
+        {
+          "source": "zhihu",
+          "query": "site:zhihu.com/question \"CHEM20012\" \"youjihuaxueshiyan\" \"jiayu\" Fudan",
+          "status": "completed_pinyin_alias_search_index_empty",
+          "note": "WEB-2026-10-28-216：课号+课程全拼别名+scope教师全拼组合搜索返回空结果；无候选URL/正文，拼音只作检索用。"
+        },
+        {
+          "source": "xiaohongshu",
+          "query": "site:xiaohongshu.com/explore \"CHEM20012\" \"youjihuaxueshiyan\" \"jiayu\" Fudan",
+          "status": "completed_pinyin_alias_search_index_empty",
+          "note": "WEB-2026-10-28-216：课号+课程全拼别名+scope教师全拼组合搜索返回空结果；无候选URL/正文，拼音只作检索用。"
         }
       ],
       "visited": [],
@@ -2255,6 +2411,18 @@
           "query": "\"有机化学A I\" \"zhangdanwei\" Fudan",
           "status": "completed_no_mapped_review",
           "note": "WEB-2026-10-28-148实际执行引号版；只见课程/教师信息与非课评资料，未见对应学生评价正文。"
+        },
+        {
+          "source": "zhihu",
+          "query": "site:zhihu.com/question \"CHEM20013\" \"youjihuaxueai\" \"lizhiming\" Fudan",
+          "status": "completed_pinyin_alias_search_index_empty",
+          "note": "WEB-2026-10-28-216：课号+课程全拼别名+scope教师全拼组合搜索返回空结果；无候选URL/正文，拼音只作检索用。"
+        },
+        {
+          "source": "xiaohongshu",
+          "query": "site:xiaohongshu.com/explore \"CHEM20013\" \"youjihuaxueai\" \"lizhiming\" Fudan",
+          "status": "completed_pinyin_alias_search_index_empty",
+          "note": "WEB-2026-10-28-216：课号+课程全拼别名+scope教师全拼组合搜索返回空结果；无候选URL/正文，拼音只作检索用。"
         }
       ],
       "visited": [
@@ -3136,6 +3304,18 @@
           "query": "site:xiaohongshu.com/explore \"合成化学实验\" \"钱辉\" 复旦",
           "status": "completed_search_index_empty",
           "note": "WEB-2026-10-28-208课程/教师定向搜索返回空结果；无候选正文。"
+        },
+        {
+          "source": "zhihu",
+          "query": "site:zhihu.com/question \"CHEM30003\" \"hechenghuaxueshiyanxia\" \"dengmingli\" Fudan",
+          "status": "completed_pinyin_alias_search_index_empty",
+          "note": "WEB-2026-10-28-216：课号+课程全拼别名+scope教师全拼组合搜索返回空结果；无候选URL/正文，拼音只作检索用。"
+        },
+        {
+          "source": "xiaohongshu",
+          "query": "site:xiaohongshu.com/explore \"CHEM30003\" \"hechenghuaxueshiyanxia\" \"dengmingli\" Fudan",
+          "status": "completed_pinyin_alias_search_index_empty",
+          "note": "WEB-2026-10-28-216：课号+课程全拼别名+scope教师全拼组合搜索返回空结果；无候选URL/正文，拼音只作检索用。"
         }
       ],
       "visited": [],
@@ -3272,6 +3452,18 @@
           "query": "site:xiaohongshu.com/explore \"物理化学AⅢ\" \"乐英红\" 复旦",
           "status": "completed_teacher_specific_search_index_empty",
           "note": "WEB-2026-10-28-212：实际课程/教师定向搜索返回空结果；无候选URL或正文，不标read/adopted。"
+        },
+        {
+          "source": "zhihu",
+          "query": "site:zhihu.com/question \"CHEM30004\" \"wulihuaxueaiii\" \"liuyongmei\" Fudan",
+          "status": "completed_pinyin_alias_search_index_empty",
+          "note": "WEB-2026-10-28-216：课号+课程全拼别名+scope教师全拼组合搜索返回空结果；无候选URL/正文，拼音只作检索用。"
+        },
+        {
+          "source": "xiaohongshu",
+          "query": "site:xiaohongshu.com/explore \"CHEM30004\" \"wulihuaxueaiii\" \"liuyongmei\" Fudan",
+          "status": "completed_pinyin_alias_search_index_empty",
+          "note": "WEB-2026-10-28-216：课号+课程全拼别名+scope教师全拼组合搜索返回空结果；无候选URL/正文，拼音只作检索用。"
         }
       ],
       "visited": [
@@ -4623,6 +4815,18 @@
           "query": "site:xiaohongshu.com/explore \"物理化学实验（上）\" \"陈雪莹\" 复旦",
           "status": "completed_teacher_specific_search_index_empty",
           "note": "WEB-2026-10-28-212：实际课程/教师定向搜索返回空结果；无候选URL或正文，不标read/adopted。"
+        },
+        {
+          "source": "zhihu",
+          "query": "site:zhihu.com/question \"CHEM30031\" \"wulihuaxueshiyanshang\" \"huangzhen\" Fudan",
+          "status": "completed_pinyin_alias_search_index_empty",
+          "note": "WEB-2026-10-28-216：课号+课程全拼别名+scope教师全拼组合搜索返回空结果；无候选URL/正文，拼音只作检索用。"
+        },
+        {
+          "source": "xiaohongshu",
+          "query": "site:xiaohongshu.com/explore \"CHEM30031\" \"wulihuaxueshiyanshang\" \"huangzhen\" Fudan",
+          "status": "completed_pinyin_alias_search_index_empty",
+          "note": "WEB-2026-10-28-216：课号+课程全拼别名+scope教师全拼组合搜索返回空结果；无候选URL/正文，拼音只作检索用。"
         }
       ],
       "visited": [
@@ -9126,6 +9330,30 @@
           "query": "site:xiaohongshu.com/explore \"CHEM10002\" \"youjihuaxue\" \"wanghui\" Fudan",
           "status": "completed_pinyin_alias_search_index_empty",
           "note": "WEB-2026-10-28-213：课号+课程全拼别名+scope教师拼音的公开搜索返回空结果；别名仅作检索词，无候选正文，不作身份匹配或评价。"
+        },
+        {
+          "source": "zhihu",
+          "query": "site:zhihu.com/question \"CHEM10002\" \"youjihuaxue\" \"jiayu\" Fudan",
+          "status": "completed_pinyin_alias_search_index_empty",
+          "note": "WEB-2026-10-28-214：实际课号+课程别名全拼+教师拼音搜索返回空结果；无候选URL/正文，拼音只作搜索词，不作为身份确认。"
+        },
+        {
+          "source": "xiaohongshu",
+          "query": "site:xiaohongshu.com/explore \"CHEM10002\" \"youjihuaxue\" \"jiayu\" Fudan",
+          "status": "completed_pinyin_alias_search_index_empty",
+          "note": "WEB-2026-10-28-214：实际课号+课程别名全拼+教师拼音搜索返回空结果；无候选URL/正文，拼音只作搜索词，不作为身份确认。"
+        },
+        {
+          "source": "zhihu",
+          "query": "site:zhihu.com/question \"CHEM10002\" \"yjhx\" \"huangzedu\" Fudan",
+          "status": "completed_pinyin_initial_alias_search_empty",
+          "note": "WEB-2026-10-28-215：课号+课程首字母别名+教师全拼检索返回空结果；无候选正文。首字母仅作检索词，不能单独用于身份确认。"
+        },
+        {
+          "source": "xiaohongshu",
+          "query": "site:xiaohongshu.com/explore \"CHEM10002\" \"yjhx\" \"huangzedu\" Fudan",
+          "status": "completed_pinyin_initial_alias_search_empty",
+          "note": "WEB-2026-10-28-215：课号+课程首字母别名+教师全拼检索返回空结果；无候选正文。首字母仅作检索词，不能单独用于身份确认。"
         }
       ],
       "visited": [
@@ -9358,6 +9586,30 @@
           "query": "site:xiaohongshu.com/explore \"CHEM10004\" \"putonghuaxueaxia\" \"zhaodongyuan\" Fudan",
           "status": "completed_pinyin_alias_search_index_empty",
           "note": "WEB-2026-10-28-213：课号+课程全拼别名+scope教师拼音的公开搜索返回空结果；别名仅作检索词，无候选正文，不作身份匹配或评价。"
+        },
+        {
+          "source": "zhihu",
+          "query": "site:zhihu.com/question \"CHEM10004\" \"putonghuaxueaxia\" \"yuebin\" Fudan",
+          "status": "completed_pinyin_alias_search_index_empty",
+          "note": "WEB-2026-10-28-214：实际课号+课程别名全拼+教师拼音搜索返回空结果；无候选URL/正文，拼音只作搜索词，不作为身份确认。"
+        },
+        {
+          "source": "xiaohongshu",
+          "query": "site:xiaohongshu.com/explore \"CHEM10004\" \"putonghuaxueaxia\" \"yuebin\" Fudan",
+          "status": "completed_pinyin_alias_search_index_empty",
+          "note": "WEB-2026-10-28-214：实际课号+课程别名全拼+教师拼音搜索返回空结果；无候选URL/正文，拼音只作搜索词，不作为身份确认。"
+        },
+        {
+          "source": "zhihu",
+          "query": "site:zhihu.com/question \"CHEM10004\" \"pthxax\" \"zhaodongyuan\" Fudan",
+          "status": "completed_pinyin_initial_alias_search_empty",
+          "note": "WEB-2026-10-28-215：课号+课程首字母别名+教师全拼检索返回空结果；无候选正文。首字母仅作检索词，不能单独用于身份确认。"
+        },
+        {
+          "source": "xiaohongshu",
+          "query": "site:xiaohongshu.com/explore \"CHEM10004\" \"pthxax\" \"zhaodongyuan\" Fudan",
+          "status": "completed_pinyin_initial_alias_search_empty",
+          "note": "WEB-2026-10-28-215：课号+课程首字母别名+教师全拼检索返回空结果；无候选正文。首字母仅作检索词，不能单独用于身份确认。"
         }
       ],
       "visited": [
@@ -9601,6 +9853,30 @@
           "query": "site:xiaohongshu.com/explore \"CHEM10006\" \"youjihuaxueshiyani\" \"jiayu\" Fudan",
           "status": "completed_pinyin_alias_search_index_empty",
           "note": "WEB-2026-10-28-213：课号+课程全拼别名+scope教师拼音的公开搜索返回空结果；别名仅作检索词，无候选正文，不作身份匹配或评价。"
+        },
+        {
+          "source": "zhihu",
+          "query": "site:zhihu.com/question \"CHEM10006\" \"youjihuaxueshiyani\" \"zhangwei\" Fudan",
+          "status": "completed_pinyin_alias_search_index_empty",
+          "note": "WEB-2026-10-28-214：实际课号+课程别名全拼+教师拼音搜索返回空结果；无候选URL/正文，拼音只作搜索词，不作为身份确认。"
+        },
+        {
+          "source": "xiaohongshu",
+          "query": "site:xiaohongshu.com/explore \"CHEM10006\" \"youjihuaxueshiyani\" \"zhangwei\" Fudan",
+          "status": "completed_pinyin_alias_search_index_empty",
+          "note": "WEB-2026-10-28-214：实际课号+课程别名全拼+教师拼音搜索返回空结果；无候选URL/正文，拼音只作搜索词，不作为身份确认。"
+        },
+        {
+          "source": "zhihu",
+          "query": "site:zhihu.com/question \"CHEM10006\" \"yjhxsyi\" \"zhangwei\" Fudan",
+          "status": "completed_pinyin_initial_alias_search_empty",
+          "note": "WEB-2026-10-28-215：课号+课程首字母别名+教师全拼检索返回空结果；无候选正文。首字母仅作检索词，不能单独用于身份确认。"
+        },
+        {
+          "source": "xiaohongshu",
+          "query": "site:xiaohongshu.com/explore \"CHEM10006\" \"yjhxsyi\" \"zhangwei\" Fudan",
+          "status": "completed_pinyin_initial_alias_search_empty",
+          "note": "WEB-2026-10-28-215：课号+课程首字母别名+教师全拼检索返回空结果；无候选正文。首字母仅作检索词，不能单独用于身份确认。"
         }
       ],
       "visited": [
@@ -9795,6 +10071,18 @@
           "query": "site:xiaohongshu.com/explore \"CHEM20002\" \"fenxihuaxueaii\" \"luhaojie\" Fudan",
           "status": "completed_pinyin_alias_search_index_empty",
           "note": "WEB-2026-10-28-213：课号+课程全拼别名+scope教师拼音的公开搜索返回空结果；别名仅作检索词，无候选正文，不作身份匹配或评价。"
+        },
+        {
+          "source": "zhihu",
+          "query": "site:zhihu.com/question \"CHEM20002\" \"fxhxaii\" \"luhaojie\" Fudan",
+          "status": "completed_pinyin_initial_alias_search_empty",
+          "note": "WEB-2026-10-28-215：课号+课程首字母别名+教师全拼检索返回空结果；无候选正文。首字母仅作检索词，不能单独用于身份确认。"
+        },
+        {
+          "source": "xiaohongshu",
+          "query": "site:xiaohongshu.com/explore \"CHEM20002\" \"fxhxaii\" \"luhaojie\" Fudan",
+          "status": "completed_pinyin_initial_alias_search_empty",
+          "note": "WEB-2026-10-28-215：课号+课程首字母别名+教师全拼检索返回空结果；无候选正文。首字母仅作检索词，不能单独用于身份确认。"
         }
       ],
       "visited": [
@@ -10094,6 +10382,18 @@
           "query": "site:xiaohongshu.com/explore \"合成化学实验(上)\" \"张展鸣\" 复旦",
           "status": "completed_teacher_specific_search_index_empty",
           "note": "WEB-2026-10-28-211：实际定向搜索返回空结果；无候选URL/正文，不标read/adopted。"
+        },
+        {
+          "source": "zhihu",
+          "query": "site:zhihu.com/question \"CHEM20004\" \"hechenghuaxueshiyanshang\" \"heqiuqin\" Fudan",
+          "status": "completed_pinyin_alias_search_index_empty",
+          "note": "WEB-2026-10-28-214：实际课号+课程别名全拼+教师拼音搜索返回空结果；无候选URL/正文，拼音只作搜索词，不作为身份确认。"
+        },
+        {
+          "source": "xiaohongshu",
+          "query": "site:xiaohongshu.com/explore \"CHEM20004\" \"hechenghuaxueshiyanshang\" \"heqiuqin\" Fudan",
+          "status": "completed_pinyin_alias_search_index_empty",
+          "note": "WEB-2026-10-28-214：实际课号+课程别名全拼+教师拼音搜索返回空结果；无候选URL/正文，拼音只作搜索词，不作为身份确认。"
         }
       ],
       "visited": [],
@@ -10218,6 +10518,18 @@
           "query": "site:xiaohongshu.com/explore \"物理化学AⅡ\" \"唐颐\" 复旦",
           "status": "completed_teacher_specific_search_index_empty",
           "note": "WEB-2026-10-28-212：实际课程/教师定向搜索返回空结果；无候选URL或正文，不标read/adopted。"
+        },
+        {
+          "source": "zhihu",
+          "query": "site:zhihu.com/question \"CHEM20006\" \"wulihuaxueaii\" \"fangwei\" Fudan",
+          "status": "completed_pinyin_alias_search_index_empty",
+          "note": "WEB-2026-10-28-216：课号+课程全拼别名+scope教师全拼组合搜索返回空结果；无候选URL/正文，拼音只作检索用。"
+        },
+        {
+          "source": "xiaohongshu",
+          "query": "site:xiaohongshu.com/explore \"CHEM20006\" \"wulihuaxueaii\" \"fangwei\" Fudan",
+          "status": "completed_pinyin_alias_search_index_empty",
+          "note": "WEB-2026-10-28-216：课号+课程全拼别名+scope教师全拼组合搜索返回空结果；无候选URL/正文，拼音只作检索用。"
         }
       ],
       "visited": [
@@ -10465,6 +10777,30 @@
           "query": "site:xiaohongshu.com/explore \"谱学导论\" \"屠波\" 复旦",
           "status": "completed_teacher_specific_search_index_empty",
           "note": "WEB-2026-10-28-211：实际定向搜索返回空结果；无候选URL/正文，不标read/adopted。"
+        },
+        {
+          "source": "zhihu",
+          "query": "site:zhihu.com/question \"CHEM20007\" \"puxuedaolun\" \"chenmohua\" Fudan",
+          "status": "completed_pinyin_alias_search_index_empty",
+          "note": "WEB-2026-10-28-214：实际课号+课程别名全拼+教师拼音搜索返回空结果；无候选URL/正文，拼音只作搜索词，不作为身份确认。"
+        },
+        {
+          "source": "xiaohongshu",
+          "query": "site:xiaohongshu.com/explore \"CHEM20007\" \"puxuedaolun\" \"chenmohua\" Fudan",
+          "status": "completed_pinyin_alias_search_index_empty",
+          "note": "WEB-2026-10-28-214：实际课号+课程别名全拼+教师拼音搜索返回空结果；无候选URL/正文，拼音只作搜索词，不作为身份确认。"
+        },
+        {
+          "source": "zhihu",
+          "query": "site:zhihu.com/question \"CHEM20007\" \"pxdl\" \"chenmohua\" Fudan",
+          "status": "completed_pinyin_initial_alias_search_empty",
+          "note": "WEB-2026-10-28-215：课号+课程首字母别名+教师全拼检索返回空结果；无候选正文。首字母仅作检索词，不能单独用于身份确认。"
+        },
+        {
+          "source": "xiaohongshu",
+          "query": "site:xiaohongshu.com/explore \"CHEM20007\" \"pxdl\" \"chenmohua\" Fudan",
+          "status": "completed_pinyin_initial_alias_search_empty",
+          "note": "WEB-2026-10-28-215：课号+课程首字母别名+教师全拼检索返回空结果；无候选正文。首字母仅作检索词，不能单独用于身份确认。"
         }
       ],
       "visited": [],
@@ -10766,6 +11102,18 @@
           "query": "site:xiaohongshu.com/explore \"有机化学A II\" 复旦 张丹维",
           "status": "completed_search_index_empty",
           "note": "WEB-2026-10-28-206定向课程+教师搜索返回空结果；没有候选正文，不标read/adopted。"
+        },
+        {
+          "source": "zhihu",
+          "query": "site:zhihu.com/question \"CHEM20014\" \"youjihuaxueaii\" \"lizhiming\" Fudan",
+          "status": "completed_pinyin_alias_search_index_empty",
+          "note": "WEB-2026-10-28-216：课号+课程全拼别名+scope教师全拼组合搜索返回空结果；无候选URL/正文，拼音只作检索用。"
+        },
+        {
+          "source": "xiaohongshu",
+          "query": "site:xiaohongshu.com/explore \"CHEM20014\" \"youjihuaxueaii\" \"lizhiming\" Fudan",
+          "status": "completed_pinyin_alias_search_index_empty",
+          "note": "WEB-2026-10-28-216：课号+课程全拼别名+scope教师全拼组合搜索返回空结果；无候选URL/正文，拼音只作检索用。"
         }
       ],
       "visited": [
@@ -12247,6 +12595,18 @@
           "query": "site:xiaohongshu.com/explore \"物理化学实验（下）\" \"程晓维\" 复旦",
           "status": "completed_teacher_specific_search_index_empty",
           "note": "WEB-2026-10-28-212：实际课程/教师定向搜索返回空结果；无候选URL或正文，不标read/adopted。"
+        },
+        {
+          "source": "zhihu",
+          "query": "site:zhihu.com/question \"CHEM30032\" \"wulihuaxueshiyanxia\" \"chengxiaowei\" Fudan",
+          "status": "completed_pinyin_alias_search_index_empty",
+          "note": "WEB-2026-10-28-216：课号+课程全拼别名+scope教师全拼组合搜索返回空结果；无候选URL/正文，拼音只作检索用。"
+        },
+        {
+          "source": "xiaohongshu",
+          "query": "site:xiaohongshu.com/explore \"CHEM30032\" \"wulihuaxueshiyanxia\" \"chengxiaowei\" Fudan",
+          "status": "completed_pinyin_alias_search_index_empty",
+          "note": "WEB-2026-10-28-216：课号+课程全拼别名+scope教师全拼组合搜索返回空结果；无候选URL/正文，拼音只作检索用。"
         }
       ],
       "visited": [
@@ -19893,6 +20253,135 @@
       "candidate_urls": [],
       "visited_urls": [],
       "status": "20_pinyin_alias_teacher_searches_empty_no_review_body"
+    },
+    {
+      "batch_id": "WEB-2026-10-28-214",
+      "date": "2026-10-28",
+      "platform": "Zhihu / Xiaohongshu公开网页索引（课程拼音别名+教师拼音）",
+      "scope_codes": [
+        "CHEM10005",
+        "CHEM10003",
+        "CHEM10004",
+        "CHEM10006",
+        "CHEM10002",
+        "CHEM10007",
+        "CHEM10008",
+        "CHEM20001",
+        "CHEM20004",
+        "CHEM20007"
+      ],
+      "queries": [
+        "site:zhihu.com/question \"CHEM10005\" \"putonghuaxueshiyani\" \"weixiaofang\" Fudan",
+        "site:xiaohongshu.com/explore \"CHEM10005\" \"putonghuaxueshiyani\" \"weixiaofang\" Fudan",
+        "site:zhihu.com/question \"CHEM10003\" \"putonghuaxueashang\" \"yuebin\" Fudan",
+        "site:xiaohongshu.com/explore \"CHEM10003\" \"putonghuaxueashang\" \"yuebin\" Fudan",
+        "site:zhihu.com/question \"CHEM10004\" \"putonghuaxueaxia\" \"yuebin\" Fudan",
+        "site:xiaohongshu.com/explore \"CHEM10004\" \"putonghuaxueaxia\" \"yuebin\" Fudan",
+        "site:zhihu.com/question \"CHEM10006\" \"youjihuaxueshiyani\" \"zhangwei\" Fudan",
+        "site:xiaohongshu.com/explore \"CHEM10006\" \"youjihuaxueshiyani\" \"zhangwei\" Fudan",
+        "site:zhihu.com/question \"CHEM10002\" \"youjihuaxue\" \"jiayu\" Fudan",
+        "site:xiaohongshu.com/explore \"CHEM10002\" \"youjihuaxue\" \"jiayu\" Fudan",
+        "site:zhihu.com/question \"CHEM10007\" \"youjihuaxuec\" \"zhangdao\" Fudan",
+        "site:xiaohongshu.com/explore \"CHEM10007\" \"youjihuaxuec\" \"zhangdao\" Fudan",
+        "site:zhihu.com/question \"CHEM10008\" \"putonghuaxuec\" \"qianlinping\" Fudan",
+        "site:xiaohongshu.com/explore \"CHEM10008\" \"putonghuaxuec\" \"qianlinping\" Fudan",
+        "site:zhihu.com/question \"CHEM20001\" \"fenxihuaxueai\" \"liubaohong\" Fudan",
+        "site:xiaohongshu.com/explore \"CHEM20001\" \"fenxihuaxueai\" \"liubaohong\" Fudan",
+        "site:zhihu.com/question \"CHEM20004\" \"hechenghuaxueshiyanshang\" \"heqiuqin\" Fudan",
+        "site:xiaohongshu.com/explore \"CHEM20004\" \"hechenghuaxueshiyanshang\" \"heqiuqin\" Fudan",
+        "site:zhihu.com/question \"CHEM20007\" \"puxuedaolun\" \"chenmohua\" Fudan",
+        "site:xiaohongshu.com/explore \"CHEM20007\" \"puxuedaolun\" \"chenmohua\" Fudan"
+      ],
+      "result_note": "用scope课程代码、alias_registry课程全拼与教师拼音，为高开课量普通化学、普通化学实验、有机化学、有机实验、分析化学、谱学导论等完成20条Zhihu/XHS组合搜索。全部为空结果，无候选URL或正文；拼音别名不单独作为身份匹配证据。",
+      "candidate_urls": [],
+      "visited_urls": [],
+      "status": "20_pinyin_alias_teacher_searches_empty_no_review_body"
+    },
+    {
+      "batch_id": "WEB-2026-10-28-215",
+      "date": "2026-10-28",
+      "platform": "Zhihu / Xiaohongshu公开网页索引（课程拼音首字母别名+教师全拼）",
+      "scope_codes": [
+        "CHEM10005",
+        "CHEM10003",
+        "CHEM10004",
+        "CHEM10006",
+        "CHEM10002",
+        "CHEM10007",
+        "CHEM10008",
+        "CHEM20001",
+        "CHEM20002",
+        "CHEM20007"
+      ],
+      "queries": [
+        "site:zhihu.com/question \"CHEM10005\" \"pthxsyi\" \"zhaobin\" Fudan",
+        "site:xiaohongshu.com/explore \"CHEM10005\" \"pthxsyi\" \"zhaobin\" Fudan",
+        "site:zhihu.com/question \"CHEM10003\" \"pthxas\" \"yuebin\" Fudan",
+        "site:xiaohongshu.com/explore \"CHEM10003\" \"pthxas\" \"yuebin\" Fudan",
+        "site:zhihu.com/question \"CHEM10004\" \"pthxax\" \"zhaodongyuan\" Fudan",
+        "site:xiaohongshu.com/explore \"CHEM10004\" \"pthxax\" \"zhaodongyuan\" Fudan",
+        "site:zhihu.com/question \"CHEM10006\" \"yjhxsyi\" \"zhangwei\" Fudan",
+        "site:xiaohongshu.com/explore \"CHEM10006\" \"yjhxsyi\" \"zhangwei\" Fudan",
+        "site:zhihu.com/question \"CHEM10002\" \"yjhx\" \"huangzedu\" Fudan",
+        "site:xiaohongshu.com/explore \"CHEM10002\" \"yjhx\" \"huangzedu\" Fudan",
+        "site:zhihu.com/question \"CHEM10007\" \"yjhxc\" \"heqiuqin\" Fudan",
+        "site:xiaohongshu.com/explore \"CHEM10007\" \"yjhxc\" \"heqiuqin\" Fudan",
+        "site:zhihu.com/question \"CHEM10008\" \"pthxc\" \"qianlinping\" Fudan",
+        "site:xiaohongshu.com/explore \"CHEM10008\" \"pthxc\" \"qianlinping\" Fudan",
+        "site:zhihu.com/question \"CHEM20001\" \"fxhxai\" \"liubaohong\" Fudan",
+        "site:xiaohongshu.com/explore \"CHEM20001\" \"fxhxai\" \"liubaohong\" Fudan",
+        "site:zhihu.com/question \"CHEM20002\" \"fxhxaii\" \"luhaojie\" Fudan",
+        "site:xiaohongshu.com/explore \"CHEM20002\" \"fxhxaii\" \"luhaojie\" Fudan",
+        "site:zhihu.com/question \"CHEM20007\" \"pxdl\" \"chenmohua\" Fudan",
+        "site:xiaohongshu.com/explore \"CHEM20007\" \"pxdl\" \"chenmohua\" Fudan"
+      ],
+      "result_note": "使用课程代码、alias_registry课程拼音首字母、scope教师全拼，对9门高开课量课程做20条Zhihu/XHS组合查询。均为空结果，无候选URL或正文。课程首字母别名只作检索词，不作身份匹配依据。",
+      "candidate_urls": [],
+      "visited_urls": [],
+      "status": "20_initial_alias_teacher_searches_empty_no_review_body"
+    },
+    {
+      "batch_id": "WEB-2026-10-28-216",
+      "date": "2026-10-28",
+      "platform": "Zhihu / Xiaohongshu公开网页索引（课程全拼别名+教师全拼）",
+      "scope_codes": [
+        "CHEM20005",
+        "CHEM30003",
+        "CHEM30031",
+        "CHEM30032",
+        "CHEM20014",
+        "CHEM20006",
+        "CHEM30004",
+        "CHEM20011",
+        "CHEM20013",
+        "CHEM20012"
+      ],
+      "queries": [
+        "site:zhihu.com/question \"CHEM20005\" \"wulihuaxueai\" \"liuzhipan\" Fudan",
+        "site:xiaohongshu.com/explore \"CHEM20005\" \"wulihuaxueai\" \"liuzhipan\" Fudan",
+        "site:zhihu.com/question \"CHEM30003\" \"hechenghuaxueshiyanxia\" \"dengmingli\" Fudan",
+        "site:xiaohongshu.com/explore \"CHEM30003\" \"hechenghuaxueshiyanxia\" \"dengmingli\" Fudan",
+        "site:zhihu.com/question \"CHEM30031\" \"wulihuaxueshiyanshang\" \"huangzhen\" Fudan",
+        "site:xiaohongshu.com/explore \"CHEM30031\" \"wulihuaxueshiyanshang\" \"huangzhen\" Fudan",
+        "site:zhihu.com/question \"CHEM30032\" \"wulihuaxueshiyanxia\" \"chengxiaowei\" Fudan",
+        "site:xiaohongshu.com/explore \"CHEM30032\" \"wulihuaxueshiyanxia\" \"chengxiaowei\" Fudan",
+        "site:zhihu.com/question \"CHEM20014\" \"youjihuaxueaii\" \"lizhiming\" Fudan",
+        "site:xiaohongshu.com/explore \"CHEM20014\" \"youjihuaxueaii\" \"lizhiming\" Fudan",
+        "site:zhihu.com/question \"CHEM20006\" \"wulihuaxueaii\" \"fangwei\" Fudan",
+        "site:xiaohongshu.com/explore \"CHEM20006\" \"wulihuaxueaii\" \"fangwei\" Fudan",
+        "site:zhihu.com/question \"CHEM30004\" \"wulihuaxueaiii\" \"liuyongmei\" Fudan",
+        "site:xiaohongshu.com/explore \"CHEM30004\" \"wulihuaxueaiii\" \"liuyongmei\" Fudan",
+        "site:zhihu.com/question \"CHEM20011\" \"youjihuaxue\" \"kuangyunyan\" Fudan",
+        "site:xiaohongshu.com/explore \"CHEM20011\" \"youjihuaxue\" \"kuangyunyan\" Fudan",
+        "site:zhihu.com/question \"CHEM20013\" \"youjihuaxueai\" \"lizhiming\" Fudan",
+        "site:xiaohongshu.com/explore \"CHEM20013\" \"youjihuaxueai\" \"lizhiming\" Fudan",
+        "site:zhihu.com/question \"CHEM20012\" \"youjihuaxueshiyan\" \"jiayu\" Fudan",
+        "site:xiaohongshu.com/explore \"CHEM20012\" \"youjihuaxueshiyan\" \"jiayu\" Fudan"
+      ],
+      "result_note": "按高开课人数继续搜索物化、合成/有机化学实验、有机化学和分析课程；使用课程代码、课程全拼别名、教师全拼的20条Zhihu/XHS组合查询全部为空，无候选URL或正文。未读到可记录课评。",
+      "candidate_urls": [],
+      "visited_urls": [],
+      "status": "20_pinyin_alias_teacher_searches_empty_no_review_body"
     }
   ],
   "coverage_note": "范围145码；按代码去重，精确课号+课名+教师组合查询145/145，直接组合查询待查0码。末批补查7码并记录官方微流控汇总报告、课程体系报道和不可访问的历史超星页；拼音变体/搜狗微信逐课检索仍有待做。 WEB-122/123已对部分高课量核心课做拼音/教师变体和搜狗微信试搜；未命中学生课评，搜狗公众号跳转遇验证码后停止。其他课程拼音/公众号检索仍待续。 WEB-124已补查普通化学C和化学实验室安全的拼音/首字母网页变体，未见匹配课评；搜狗公众号访问仍受验证码限制。 WEB-125已补查物理化学AI、谱学导论、化工原理的拼音/教师变体；无匹配学生课评。 WEB-126已实际查询普通化学实验I、有机化学实验I的拼音/首字母变体及公众号域结果，未见候选课评。 WEB-127/128已补查高等有机、高等结构分析、分析化学及其实验的拼音/教师变体；无匹配课评正文。 WEB-129/130已补查四类实验课程及物化实验上下册的拼音/公众号域查询；均无结果。 WEB-131已补查物化AIII及有机化学课程拼音变体；一条外校摘要按机构不匹配排除。 WEB-132已补查合成化学实验上/下的拼音、教师及公众号域搜索；无结果。 WEB-133与WEB-134实际查询已按课号回写；未执行的课程/教师别名仍保留pending。 WEB-135普通化学实验I与有机化学拼音/教师拼音查询已回写对应课号；未执行别名仍待查。 WEB-136/137查询已按课程代码回写，其他未实际执行的具体拼音变体保持pending。 WEB-138查询已按课号回写；拼音/首字母变体仍按实际查询分别计数，其他pending未被推定完成。 WEB-139已执行高选课量课程拼音别名查询并按课号回写。 已核读2024上医官方教师报道：姜琳琳/赵根明及其课程不属于本scope，作为read_excluded来源保留；WEB-140四条精确待查词已完成并回写。 WEB-141完成4条精确待查拼音词；CourseBench外校CHEM1100评价只记snippet-only排除，Fudan普通化学A官方报道和上海科技大学课表分别作为官方背景/外校身份核验来源。 WEB-142原pending精确拼音词已执行并按课号更新；搜索摘要未计为正文阅读。 WEB-143原pending教师拼音词已执行并按课程更新；教师主页搜索摘要未计为课评正文阅读。 WEB-144精确待查拼音词已按课号完成；搜索摘要未计正文阅读。 WEB-145已按精确待查词回写物化AI/AII检索；未读的官方资料摘要不计正文阅读。 WEB-146命中已有CHEM-SRC-FUDAN-0001；由于原文未标代码/H版和具体修课期，在CHEM50002仅记候选阅读，不新增重复记录。 WEB-147完成CHEM10001和CHEM20011教师拼音精确查询，未见可映射学生课评正文。 WEB-147扩展词与精确词分开统计；WEB-148引号版单列；WEB-149四条原始精确拼音查询已执行并回写。 WEB-150精确回写CHEM10001及CHEM20011三条原始教师拼音待查词；教师资料和旧/不同代码大纲未作为课评。 WEB-151/152八条精确拼音词已逐课回写；非评价性安全制度、教师主页和课程资料不计入课评。 WEB-153回写有机化学AII和仪器分析实验四条精确拼音查询；官方实验资料和不同课程大纲不计课评。 WEB-154/155八条精确拼音查询已回写；《物理化学实验内容的探索与实践》全文已读，独立列为教师视角课程讨论，代码/上下和班次未明。 WEB-156至158的十二条精确拼音查询已逐课回写；官方课程简介摘要、教师主页及重复的高等无机人物稿镜像均不记新学生课评。 WEB-159四条精确拼音词已回写；CHEM-SRC-FUDAN-0007仅作为高等无机荣誉课程存在的官方线索，不含学生评价。\nWEB-160/161：实际查询CHEM60004、CHEM20014h、CHEM60014各课程名+中文教师组合与四条精确拼音词；结果是教师/旧课程资料或无关页面，无可映射学生课评正文。搜索摘要未计已读。\nWEB-162：实查CHEM60012、CHEM60021、CHEM60010四条教师拼音组合；命中教师/研究方向和仪器资料，无当前班次学生课评正文。\nWEB-163：实查四条核心课程拼音组合；打开量子化学原理及应用(H)的2024官方优质课程评选报道全文，作为历史课程家族的官方评估报道单列，不归属当前班次。\nWEB-164：实查色谱理论基础、有机结构分析、生物色谱、绿色化学四条精确拼音词；结果为旧课程资料、教师信息或无关网页，无可映射学生课评正文。\nWEB-165：实查量子化学H、物理化学AII(H)、分子反应动力学、高能化学电源四条精确拼音词；结果未提供当前scope班次学生课评。\nWEB-166：实查计算化学、近代分析化学、无机合成、分析电化学拼音词；全文阅读雷杰等人的分析化学教学论文，作为未细分到课号/班次的教学讨论留档。\nWEB-167：实查分子组装与分子器件、工业化学、环境化学B、蛋白质化学/生物无机化学四条拼音词；结果未发现对应学生课评正文。\nWEB-168：查高选课量写作/工程伦理四条拼音词；CHEM50007实际用了相近课程名变体，scope精确课名仍待查；CHEM50008另一教师变体也待查。无可映射学生课评。\nWEB-169：实查生产实习、毕业论文和工程伦理四条精确教师拼音词；无可映射学生课评正文，学位论文平台/科研实习信息不当作课程评价。\nWEB-170：实查科学仪器基础、催化反应机理、蛋白质组学新技术和电化学研究前沿四条拼音词；无可映射学生课评正文。 WEB-2026-10-28-197：尝试4条教师拼音精确搜索，但响应输出被截断，结果未能检查；相关query保持pending，不计为无命中。 WEB-2026-10-28-198逐条完成剩余13条精确课程名+教师拼音查询，覆盖9码；pending精确拼音降为0。新增GECC10002的2011年复旦官方历史报道记录CHEM-WEB-FUDAN-0006（具名学生证词，刘旦初历史课；不映射2026春沈伟班）；2020教师回忆全文读后排除。GEIN10002教师教改论文仍按既有read_excluded分类。 WEB-2026-10-28-199新增高选课量普通化学/实验、有机实验和分析化学Zhihu/XHS定向搜索；没有读取到社交平台评价正文。XHS Edge页面读取超时。CourseBench /course/60仅标题与摘要lead，机构/教师/班级不明，未分配且不作record。",
@@ -19903,7 +20392,7 @@
     "codes_pending_individual_exact_code_and_teacher_queries": 0,
     "codes_with_state_not_individually_queried": 0,
     "codes_with_general_or_historical_source_but_no_exact_class_mapping": 42,
-    "batch_searches_logged": 213,
+    "batch_searches_logged": 216,
     "note": "按代码去重统计：实际执行过课号+课名+中文教师组合查询的代码共145/145，直接组合查询待查0码。精确查过且未映射到班次学生课评的课程码列表：AIS310014、AIS531005、AIT310024、CHEM10001、CHEM10002、CHEM10003、CHEM10004、CHEM10005、CHEM10006、CHEM10007、CHEM10008、CHEM20001、CHEM20002、CHEM20002h、CHEM20003、CHEM20004、CHEM20005、CHEM20005h、CHEM20006、CHEM20006h、CHEM20007、CHEM20008、CHEM20009、CHEM20010、CHEM20011、CHEM20012、CHEM20013、CHEM20013h、CHEM20014、CHEM20014h、CHEM20015、CHEM20016、CHEM20017、CHEM20018、CHEM20019、CHEM20020、CHEM20021、CHEM20022、CHEM20023、CHEM30001、CHEM30003、CHEM30004、CHEM30004h、CHEM30005、CHEM30005h、CHEM30008、CHEM30009、CHEM30010、CHEM30011、CHEM30012、CHEM30013、CHEM30014、CHEM30015、CHEM30016、CHEM30017、CHEM30018、CHEM30019、CHEM30020、CHEM30021、CHEM30022、CHEM30023、CHEM30026、CHEM30027、CHEM30028、CHEM30029、CHEM30030、CHEM30031、CHEM30032、CHEM30032h、CHEM30033、CHEM30034、CHEM30035、CHEM30036、CHEM30037、CHEM30038、CHEM30041h、CHEM40002、CHEM40003、CHEM40004、CHEM40008、CHEM40014h、CHEM40015h、CHEM50002、CHEM50003、CHEM50004、CHEM50005、CHEM50006、CHEM50007、CHEM50008、CHEM50009、CHEM50010、CHEM60003、CHEM60004、CHEM60005、CHEM60007、CHEM60008、CHEM60010、CHEM60011、CHEM60012、CHEM60013、CHEM60014、CHEM60015、CHEM60016、CHEM60017、CHEM60018、CHEM60020、CHEM60021、CHEM60022、CHEM60023、CHEM60024、CHEM60026、CHEM60027、CHEM70005、CHEM70006、CHEM70007、CHEM70009、CHEM70010、CHEM70011、CHEM70012、CHEM70013、CHEM70014、CHEM70015、CHEM70016、CHEM70017、CHEM70018、CHEM70019、CHEM70020、CHEM70021、CHEM70023、CHEM70024、CHEM70025、CHEM70026、CHEM70027、CHEM70028、CHEM70030、CHEM70032、CHEM70033、CHEM70034、CHEM70035、GECC10002、GEEC10038、GEIN10002、GESP10004、GESP20003、GESP20004。CHEM50008研究生课程案例中的汇总反馈不映射当前本科/本研融通班。CHEM60007/70011/70012/70019未见学生课程评价正文；旧研究生绿色化学代码CHEM630010和PI评价页面均不映射当前课程班次。 CHEM40014h另有化学系官方人物报道具名本科生课堂反馈，具体班号/学期不明。 CHEM70024小红书候选仅部分读取，属于XRD讲义笔记，未确认归属或课评，不采纳。 这4门另做公众号域限定搜索（公开搜索引擎），无命中；搜狗微信仍待查。 本批WEB-81至WEB-84记录4门精确组合检索、广搜与Zhihu/XHS站点检索；高等化学分析另读一通用超星评价页，但缺少复旦与教师/课号信息，排除映射。 本批WEB-85至WEB-88覆盖普通化学A上、物理化学AⅠ、有机化学、分析化学；只有普通化学A官方校报全文可读，但其非学生评价且未细分上/下，未采纳为班级课评。 课程代码去重说明：本批CHEM10003与CHEM20005的课号组合曾在WEB-09、WEB-12检索，本轮仅重查教师变体；本轮首次补做CHEM20011、CHEM20015两码精确组合。 本批WEB-89至WEB-92优先普通化学、无机/分析实验及有机基础课；学银在线课程页的评价栏无可见正文，不作课程评价。 本批WEB-93至WEB-96覆盖物理化学A I(H)、有机化学A I(H)、无机化学及无机化学(H)，无精确课评命中。孙兴文官方课堂报道中的具名学生反馈已单列为历史有机化学课程族记录，未映射具体代码。 本批WEB-97至WEB-100覆盖物理化学AⅢ/H、分析化学AII(H)、有机化学AII；无当前班次可确认课评。CHEM20014公开课程页只显示评价栏目，正文未读；另一复旦官方PDF评价lead两次抓取超时。 本批WEB-101至WEB-105覆盖CHEM20006h、CHEM20008、CHEM20014h、CHEM30030：精确组合查询无结果，广搜仅出现官方课程/教师信息，知乎/小红书各四条定向查询无结果；未新增可确认学生课评正文。按课程码去重，直接组合查询累计125/145，待做20码；另有5条课程级code状态与此前coverage_stats直接查询清单不同步，本次按已留档清单同步。 本批WEB-106至WEB-110优先覆盖高等无机/有机、量子化学、色谱、质谱和电极过程课程，共6码完成精确/广搜及Zhihu/XHS定向检索；未新增学生课评正文。高等无机已读官方报道保持原CHEM40014h候选映射，不移映CHEM50002；其余为不匹配旧课程信息/教师页或无关结果。 本批WEB-111至WEB-115覆盖7门化学相关/交叉课，精确组合检索、广搜及知乎/小红书平台检索均已记账。AIT310024的Class Central课程页面已全文读取，显示0条评论并因缺课号/学期/班号排除；本批未新增学生评价record。 本批WEB-116至WEB-121补齐最后7码；精确课号/课名/教师组合查询累计145/145。GEIN10002找到一条校方汇总实验反馈并单列为code=null官方报告record，未映射当前班；GESP报道只介绍课程体系；GECC10002超星旧页教师与当前scope不符且正文不可访问。知乎/小红书对最后7码定向检索未发现匹配课评。尚待补充的是逐课拼音/搜狗微信检索，不计入直接组合查询覆盖。 本批WEB-122至WEB-123针对高课量CHEM10003/10004/10002/10007、CHEM50002及有机化学AI/AII课程族，实际尝试课程拼音、教师拼音/首字母及搜狗微信检索；未找到可确认的学生课评。搜狗检索页可读，但点开公众号跳转触发验证码，已停止；复旦官网有机化学AI/AII智慧课程报道全文已读并排除为非学生评价。 本批WEB-124补查CHEM10008普通化学C与CHEM40008化学实验室安全的拼音/首字母及公众号域限定网页查询；未发现匹配学生课评，摘要无关项未读正文。 本批WEB-125覆盖CHEM20005物理化学AI、CHEM20007谱学导论、CHEM30015化工原理的课程拼音/教师拼音与公众号域限定查询；未发现可确认的学生课评，未打开无关结果正文。 本批WEB-126覆盖课量最大的实验课CHEM10005普通化学实验I与CHEM10006有机化学实验I；实际拼音/首字母和公众号域限定查询未出结果。 本批WEB-127/128覆盖CHEM50003高等有机、CHEM50005高等结构分析、CHEM20015分析化学、CHEM20016分析化学实验的拼音/教师变体与公众号域查询；未发现复旦对应班次学生评价。 本批WEB-129/130覆盖有机化学实验、无机化学与化学分析实验、仪器分析实验、物理化学实验的课程拼音/教师首字母及公众号域查询；未发现可确认学生课评或可读正文。 本批WEB-131补查物理化学AIII与有机化学的拼音/教师变体及公众号域限定检索；仅见其他院校摘要，已按机构不匹配排除。 本批WEB-132补查CHEM20004合成化学实验上与CHEM30003合成化学实验下的拼音/教师拼音和公众号域查询；无结果。 WEB-133记录CHEM10005普通化学实验I课程名/全拼/陈珍霞查询；WEB-134记录CHEM10003/10004普通化学A上下册拼音与教师拼音首字母组合查询。均未出现可核读学生评价候选。 WEB-135已实际查询CHEM10005普通化学实验I、CHEM10002有机化学的拼音/教师拼音组合；未见相关学生评价候选。 WEB-136补查CHEM20002分析化学AII与CHEM20005物理化学AI的教师拼音组合；WEB-137补查CHEM50002高等无机化学两位教师拼音/首字母组合。未见可读学生评价候选。 WEB-138已查询CHEM50003高等有机化学、CHEM20015分析化学课程拼音和教师拼音组合，结果无关。 WEB-139优先查询高覆盖课程CHEM50004量子化学原理及应用和CHEM20001分析化学AI的拼音/教师组合，未发现评价候选。 WEB-140实际完成CHEM10005/CHEM10003四条课程名+教师拼音待查词；其命中的2022官方报道已读但无评价。 WEB-141按reading_ledger中的精确拼音待查词完成CHEM10005/CHEM10003四条；206条待查将按精确query状态计数。 WEB-142完成CHEM10004普通化学A下、CHEM10002有机化学四条ledger精确课程名+教师拼音查询；仅官方课程/教师资料摘要，无学生评价。 WEB-143按精确待查词完成CHEM10007/10008各两条教师拼音检索，未见学生评价。 WEB-144按精确待查词完成CHEM10006有机化学实验I、CHEM20001分析化学AI的教师拼音查询，结果非学生课评。 WEB-145完成CHEM20005物理化学AI、CHEM20006物理化学AII四条精确教师拼音待查词，未见学生课评。 WEB-146精确检索CHEM50002高等无机化学和CHEM20004合成化学实验上教师拼音，命中已登记人物稿但代码/H版归属和修读期未明；未新增重复记录。WEB-147执行CHEM10001普通化学及CHEM20011有机化学三条教师拼音组合，未见可映射学生评价正文。 WEB-147实际执行3条带附加词的拼音扩展检索，原始无修饰词仍记待查；WEB-148记录4条引号变体；WEB-149逐字执行CHEM20013/CHEM20015四条原始拼音待查词，未见可映射学生评价正文。 WEB-150逐字执行CHEM10001/CHEM20011三条原始教师拼音待查词，未见可映射学生评价正文。 WEB-151/152按选课人数优先逐字执行化学实验室安全、量子化学、谱学导论、分析化学AII和化工原理八条教师拼音待查词；未见当前scope班次学生课评正文。 WEB-153逐字执行CHEM20014有机化学AII与CHEM20020仪器分析实验四条教师拼音待查词，未见可映射学生评价正文。 WEB-154/155精确执行CHEM30003/30031/30032/20012八条教师拼音待查词。另读《大学化学》2018年教师论文，作为物理化学实验课程族的教师教学讨论单列，不当作学生课评/班次映射。 WEB-156至158按选课人数优先执行物理化学AIII、高等有机/结构分析、无机与分析实验及元素化学十二条教师拼音精确待查词；无新增可映射学生课评。 WEB-159逐字执行CHEM40014h/CHEM60017/CHEM60014四条教师拼音待查词。打开李鹏课题组2021高等无机荣誉课程新闻，仅标题日期、无学生评价；登记为排除来源，不新增record。 WEB-171实际执行4条拼音查询（CHEM30028/30035/30013）；搜索摘要未计正文阅读。清除了工作台账中的DEL控制字符（本次新增前发现数：0）。 WEB-172实际查询CHEM20005h/30005h四条精确拼音组合，搜索摘要未计正文阅读。 WEB-173实际查询CHEM20003/CHEM30004h/CHEM30010四条精确拼音组合；教师主页/培养方案摘要只作lead，不计正文已读。 WEB-174实际访问小红书“复旦 物理化学A I”搜索页并做site检索；搜索页无课程特异评价，候选正文未读且不计read。 WEB-175按班次人数优先查询CHEM50007/AIS531005/CHEM20023四条教师拼音组合；只见官方/媒体课程简介摘要，不计正文已读或课程评价。 WEB-176对CHEM30013/60024/60008/60007四条教师拼音组合做了实际查询；摘要线索未打开，不计正文已读。 WEB-177实际查询CHEM20009/CHEM30023四条教师拼音组合；药物化学近名结果来自药学院，未跨院系映射。 WEB-178实查CHEM70032/70019/60018三个精确标题拼音组合；CHEM70020查到的标题多“的”，其scope精确查询仍待查。 WEB-179实际查询CHEM70024/70023/60015四条精确拼音组合；只见课程表/学科资料摘要，无评价且未打开。 WEB-180实际查询CHEM70028/20018/70034/70026四条拼音组合；只见课程/教师信息摘要，无评价，未打开。 WEB-2026-10-28-181：AIS310014与AIT310024四条课程名+教师拼音查询已逐项回写；Class Central同名课程页已读但显示0 reviews且无课号/学期/班号，因此不计课评。 WEB-2026-10-28-182/183：6条教师拼音精确查询已回写，未找到可映射学生评价；来源摘要未计正文已读。 WEB-2026-10-28状态整理：将每课pending子列表同步为query中status=pending的实际条目，清除33条陈旧副本；主query条目仍保留全部历史状态。 WEB-2026-10-28-184：配位化学同名评价全文已读但明确为USTC焦龙/孟征课程，非复旦CHEM30021，归入read_excluded；该来源不形成评价记录。 WEB-2026-10-28-185：小红书“复旦 色谱分析 张祥民”搜索页可见但CUA页面状态调用超时，搜索结果未读、查询保留pending。 WEB-2026-10-28-186完成4条高选课量/专业课教师拼音查询；未发现匹配学生评价。同步回写WEB-184的CHEM70020/70009/70007三条实际拼音查询。 WEB-2026-10-28-187完成4条课程拼音查询：未发现学生评价，官方课程/教师简介仅作lead。 WEB-2026-10-28-188完成4条课程拼音精确查询：未发现学生评价；科研实践搜索摘要仅确认教师授课信息。 WEB-2026-10-28-189完成CHEM20022/20010/70010四条精确拼音查询；无学生评价，徐华龙课程简介名称略有差异，仅作lead。 WEB-2026-10-28-190实际查询CHEM30033/CHEM40004四条教师拼音组合，Bing均返回空结果；不外推为全网无评价。 WEB-2026-10-28-191完成固体化学、有机合成化学I、统计热力学、化学反应工程四条拼音查询；仅教师简介lead、无学生评价。 WEB-2026-10-28-192完成物理化学实验（下）H、高等化学分析、分析化学A II(H)共4条拼音查询；无学生评价。 WEB-2026-10-28-193实际完成有机合成化学II、电子显微基础与实验、分析化学A II(H)四条拼音检索；无匹配评价。 WEB-2026-10-28-194完成绿色电化学合成、化学工艺学、TiO2纳米材料、碳硼烷化学四条拼音查询；无学生评价。 WEB-2026-10-28-195完成应用化学专题、单分子科学、纳米材料与功能器件4条拼音查询；无学生评价。 WEB-2026-10-28-196完成电子显微基础、DNA合成化学、分析化学进展、溶胶-凝胶实验4条拼音查询；无学生评价。",
     "codes_pending_course_teacher_search": 0,
     "codes_with_exact_code_course_teacher_query_attempted": 145,
