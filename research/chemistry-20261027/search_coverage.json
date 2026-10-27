@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-27T20:00:43",
+  "generated_at": "2026-10-27T20:04:26",
   "notice": "查询返回不等于已读或证据确认；到分页上限须续查。检索覆盖至少最近约6年，历史更早内容另查。",
   "forum_query_status": {
     "courses": {
@@ -12,15 +12,17 @@
     },
     "teachers": {
       "planned": 198,
-      "returned": 74,
+      "returned": 198,
       "stops": {
-        "empty_page": 74
+        "empty_page": 198
       }
     },
     "pinyin": {
       "planned": 822,
-      "returned": 0,
-      "stops": {}
+      "returned": 16,
+      "stops": {
+        "empty_page": 16
+      }
     },
     "fuzzy": {
       "planned": 220,
@@ -32,35 +34,35 @@
     {
       "course_name": "人工智能在化学中的应用",
       "queries_planned": 4,
-      "queries_returned": 1,
+      "queries_returned": 3,
       "page_cap": 0,
       "errors": 0
     },
     {
       "course_name": "人工智能在分析化学中的应用",
       "queries_planned": 10,
-      "queries_returned": 3,
+      "queries_returned": 8,
       "page_cap": 0,
       "errors": 0
     },
     {
       "course_name": "普通化学",
       "queries_planned": 6,
-      "queries_returned": 2,
+      "queries_returned": 5,
       "page_cap": 1,
       "errors": 0
     },
     {
       "course_name": "普通化学A（上）",
       "queries_planned": 11,
-      "queries_returned": 4,
+      "queries_returned": 9,
       "page_cap": 1,
       "errors": 0
     },
     {
       "course_name": "普通化学实验I",
       "queries_planned": 17,
-      "queries_returned": 5,
+      "queries_returned": 8,
       "page_cap": 1,
       "errors": 0
     },
@@ -74,14 +76,14 @@
     {
       "course_name": "普通化学C",
       "queries_planned": 10,
-      "queries_returned": 3,
+      "queries_returned": 4,
       "page_cap": 1,
       "errors": 0
     },
     {
       "course_name": "分析化学AⅠ",
       "queries_planned": 14,
-      "queries_returned": 4,
+      "queries_returned": 5,
       "page_cap": 0,
       "errors": 0
     },
@@ -144,14 +146,14 @@
     {
       "course_name": "分析化学",
       "queries_planned": 6,
-      "queries_returned": 2,
+      "queries_returned": 3,
       "page_cap": 0,
       "errors": 0
     },
     {
       "course_name": "分析化学实验",
       "queries_planned": 14,
-      "queries_returned": 4,
+      "queries_returned": 5,
       "page_cap": 0,
       "errors": 0
     },
@@ -648,7 +650,7 @@
     {
       "course_name": "普通化学A（下）",
       "queries_planned": 11,
-      "queries_returned": 4,
+      "queries_returned": 5,
       "page_cap": 1,
       "errors": 0
     },
@@ -662,14 +664,14 @@
     {
       "course_name": "分析化学AⅡ",
       "queries_planned": 14,
-      "queries_returned": 4,
+      "queries_returned": 5,
       "page_cap": 0,
       "errors": 0
     },
     {
       "course_name": "分析化学A II(H)",
       "queries_planned": 15,
-      "queries_returned": 5,
+      "queries_returned": 6,
       "page_cap": 0,
       "errors": 0
     },
@@ -760,7 +762,7 @@
     {
       "course_name": "近代分析化学",
       "queries_planned": 10,
-      "queries_returned": 3,
+      "queries_returned": 4,
       "page_cap": 0,
       "errors": 0
     },
@@ -977,7 +979,7 @@
     {
       "course_name": "分析化学进展",
       "queries_planned": 10,
-      "queries_returned": 3,
+      "queries_returned": 4,
       "page_cap": 0,
       "errors": 0
     },
