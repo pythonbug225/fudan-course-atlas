@@ -1,0 +1,20 @@
+const fs=require('node:fs'),path=require('node:path'),vm=require('node:vm'),assert=require('node:assert/strict');
+const root=path.resolve(__dirname,'../public');
+const js=fs.readFileSync(path.join(root,'assets/app.js'),'utf8');
+const start=js.indexOf('function sourceOnly('),end=js.indexOf('\nasync function showInlineSyllabus',start);
+assert(start>=0&&end>start);
+function anchor(href,marked=true){return {href,dataset:marked?{reviewSource:'public'}:{},textContent:'来源',getAttribute:n=>n==='href'?href:null,replaceWith(span){this.replaced=span.textContent}}}
+let anchors=[];
+const document={createElement(type){if(type==='span')return {className:'',textContent:''};if(type==='template')return {innerHTML:'',content:{querySelectorAll(selector){return selector==='a'?anchors:[]}}};throw Error(type)}};
+const box={document,URL,location:{href:'https://example.test/'}};vm.runInNewContext(js.slice(start,end),box);
+anchors=[anchor('https://www.zhihu.com/question/1/answer/2'),anchor('https://www.xiaohongshu.com/explore/abc'),anchor('https://www.fduhole.com/hole/123?session=secret'),anchor('https://danke.fduhole.com/course/123'),anchor('https://creativecommons.org/licenses/by/4.0/'),anchor('https://example.org/article'),anchor('https://zhihu.com.example.org/article'),anchor('https://user@www.zhihu.com/question/1')];
+box.sourceOnly('fixture',false,true);
+assert(!anchors[0].replaced&&!anchors[1].replaced,'Zhihu and XHS review links stay clickable');
+assert(anchors[2].replaced.includes('www.fduhole.com/hole/123'),'treehole URI retained as plain source');
+assert(!anchors[2].replaced.includes('session='),'source attribution never exposes query credentials');
+assert(anchors[3].replaced.includes('danke.fduhole.com/course/123'),'DanKe URI retained as plain source');
+assert(anchors[4].replaced.includes('creativecommons.org/licenses/by/4.0/'),'license URI retained as plain text');
+assert(anchors[5].replaced,'other review-source links are plain text');
+assert(anchors[6].replaced&&anchors[7].replaced,'lookalike hosts and embedded credentials are not review links');
+anchors=[anchor('https://example.org/material',false)];box.sourceOnly('fixture',true,false);assert(!anchors[0].replaced,'course-material links remain clickable');
+console.log('Review links restricted to Zhihu/XHS; attribution URIs remain plain text; materials links remain clickable.');

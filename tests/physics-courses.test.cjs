@@ -19,7 +19,7 @@ assert(mechH.teacher_evidence.every(t=>!t.direct_review_ids.includes(4816)));
 assert(!mechH.direct_review_ids.concat(mechH.other_teacher_review_ids).includes(4816));
 assert(summaries.get(mechH.id).discussion_takeaways.some(x=>x.includes('历史力学荣誉选项')));
 assert(!read('review-supplement.json').records.some(r=>r.id==='chat_physics_phy_chat_015'),'unidentified ordinary/honors class not attached to one course');
-assert(!JSON.stringify(summaries.get(groups.get('PHYS20007').id)).includes('forum:186718:1730569'),'unidentified variant is not attributed to a single modern physics course');
+const modern=summaries.get(groups.get('PHYS20007').id);assert(modern.discussion_takeaways.some(x=>x.includes('近代/经典物理系列')&&x.includes('普通/H班未注明')));assert(!JSON.stringify(modern.by_teacher).includes('forum:186718:1730569'),'ambiguous discussion is not assigned to a teacher profile');
 assert(!JSON.stringify(summaries.get(groups.get('GESP20004').id)).includes('forum:448549:4111019'),'unidentified course stage is not attached to GESP20004');
 const snap=en.records.filter(r=>r.snapshot_as_of==='2026-10-27');assert.equal(snap.length,425);
 assert(snap.some(r=>r.limit_count===0)&&snap.some(r=>r.limit_count>0&&r.std_count>r.limit_count));
