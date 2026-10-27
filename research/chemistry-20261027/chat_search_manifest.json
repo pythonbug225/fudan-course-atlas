@@ -1,0 +1,202 @@
+{
+  "schema_version": 1,
+  "scan_date": "2026-10-27",
+  "scope": {
+    "file": "../scope.json",
+    "sha256": "d9b85ddb8ce23b3c39cefe7387d263bbd8f5b63a4e2632eb2ed8369318b12fd5",
+    "course_count": 145,
+    "offering_count": 577,
+    "unique_teacher_count": 198
+  },
+  "alias_registry": {
+    "file": "../alias_registry.json",
+    "sha256": "2069fa8934a39538b57ef4e5dde27461aa97429277f07274830dd639f1f259df",
+    "course_alias_sets": 145,
+    "teacher_alias_sets": 198
+  },
+  "search_coverage": {
+    "target_groups": 6,
+    "message_count": 135786,
+    "eligible_text_message_count": 105771,
+    "eligible_message_types": [
+      0,
+      25,
+      99
+    ],
+    "course_search_fields": [
+      "official names",
+      "course codes",
+      "registered colloquial aliases",
+      "full pinyin",
+      "pinyin initials",
+      "requested short forms: 普化/无化/物化/有机/分析/实验"
+    ],
+    "teacher_search_fields": [
+      "full Chinese names",
+      "full pinyin",
+      "initials"
+    ],
+    "normalization": "Unicode letters, digits, and Han characters case-folded; initialisms matched as bounded Latin tokens after removing WeChat export sender prefixes and URLs.",
+    "context_classification": "Initials/short forms are recall only; attribution requires neighboring course/teacher context."
+  },
+  "reviewed_context_coverage": {
+    "course_or_teacher_full_alias_context_messages_read": 107,
+    "broad_chemistry_or_review_context_messages_read": 34,
+    "teacher_initial_high_signal_context_messages_read": 162,
+    "low_context_initial_messages_pending": 0,
+    "counts_may_overlap": true,
+    "low_context_initial_hit_messages_read": 291,
+    "unique_initial_hit_messages_read": 455,
+    "unique_scan_hit_message_refs": 1393,
+    "unique_context_message_refs_read": 1393,
+    "unreviewed_ambiguous_alias_context_messages_pending": 0,
+    "unreviewed_alias_pending_by_group": {
+      "G01": 0,
+      "G02": 0,
+      "G03": 0,
+      "G04": 0,
+      "G05": 0,
+      "G06": 0
+    },
+    "ambiguous_alias_only_context_messages_read": 824,
+    "ambiguous_alias_only_contexts_resolved_by_code": {
+      "ambiguous_physical_chemistry_group_or_high_school_subject": 4,
+      "chemistry_adjacent_or_lexical_false_positive_not_course_review": 16,
+      "competition_context_not_course_review": 3,
+      "course_or_teacher_context_read_no_chemistry_course_attribution": 39,
+      "generic_analysis_word_use_not_course_review": 36,
+      "generic_experiment_or_noncourse_context": 53,
+      "mathematics_topic_or_course_not_chemistry": 646,
+      "other_discipline_lab_or_course_inquiry": 7,
+      "reagent_or_lab_safety_discussion_not_course_review": 1,
+      "research_safety_or_lab_event_not_course_review": 19
+    }
+  },
+  "finding": {
+    "verified_course_review_records": 0,
+    "unanswered_course_inquiry_leads": 1,
+    "summary": "All 105,771 eligible text messages in the six supplied groups were searched using registered course and teacher aliases. All 1,393 unique match-message references received contextual review, including 291 low-context initials and 824 broad/ambiguous alias-only hits. No verified course review was found; one course-experience inquiry had no substantive reply."
+  },
+  "source_locator_scheme": "Use G01-G06, local timestamp, zero-based message index, source SHA-256, and message SHA-256. Source filenames, chat IDs, member names, nicknames, and contact details are omitted from this manifest.",
+  "local_private_files": [
+    "private_scan_index.json",
+    "private_contexts.json",
+    "pending_alias_hits.json"
+  ],
+  "groups": [
+    {
+      "group": "G01",
+      "source_sha256": "f761c773c2278ba7d5872b90cad3b0ff067b9e9f742b60e0169a9fa71e330f06",
+      "total_messages": 46146,
+      "eligible_text_messages": 34088,
+      "date_range_local": {
+        "start": "2024-10-31T12:50:56+08:00",
+        "end": "2026-10-24T09:02:13+08:00"
+      },
+      "unique_alias_hit_messages": 405,
+      "course_or_teacher_full_alias_context_messages_read": 33,
+      "broad_chemistry_or_review_context_messages_read": 6,
+      "teacher_initial_high_signal_context_messages_read": 47,
+      "low_context_initial_messages_pending": 0,
+      "low_context_initial_hit_messages_read": 101,
+      "broad_ambiguous_alias_only_context_messages_read": 222,
+      "unreviewed_alias_contexts_pending": 0
+    },
+    {
+      "group": "G02",
+      "source_sha256": "4b5f0b8cc02d8b8969d6b1e8c95951c1a3f18af5634faacf38516bad9a701b85",
+      "total_messages": 26978,
+      "eligible_text_messages": 21192,
+      "date_range_local": {
+        "start": "2025-08-26T17:05:12+08:00",
+        "end": "2026-10-25T12:12:55+08:00"
+      },
+      "unique_alias_hit_messages": 257,
+      "course_or_teacher_full_alias_context_messages_read": 33,
+      "broad_chemistry_or_review_context_messages_read": 14,
+      "teacher_initial_high_signal_context_messages_read": 25,
+      "low_context_initial_messages_pending": 0,
+      "low_context_initial_hit_messages_read": 42,
+      "broad_ambiguous_alias_only_context_messages_read": 152,
+      "unreviewed_alias_contexts_pending": 0
+    },
+    {
+      "group": "G03",
+      "source_sha256": "f80c0c0c44033312b3a35e38c3e9604af3ee51949ff1797ce43bbc7c358872ae",
+      "total_messages": 27979,
+      "eligible_text_messages": 22265,
+      "date_range_local": {
+        "start": "2026-08-15T11:45:42+08:00",
+        "end": "2026-10-25T11:55:06+08:00"
+      },
+      "unique_alias_hit_messages": 272,
+      "course_or_teacher_full_alias_context_messages_read": 22,
+      "broad_chemistry_or_review_context_messages_read": 9,
+      "teacher_initial_high_signal_context_messages_read": 18,
+      "low_context_initial_messages_pending": 0,
+      "low_context_initial_hit_messages_read": 34,
+      "broad_ambiguous_alias_only_context_messages_read": 198,
+      "unreviewed_alias_contexts_pending": 0
+    },
+    {
+      "group": "G04",
+      "source_sha256": "41bce3d31ef4d437f78ac7cfce7dbda2a4f2f8e8a0b648976070942e4d0bd2c0",
+      "total_messages": 16443,
+      "eligible_text_messages": 14084,
+      "date_range_local": {
+        "start": "2025-09-10T21:15:50+08:00",
+        "end": "2026-10-23T14:20:16+08:00"
+      },
+      "unique_alias_hit_messages": 342,
+      "course_or_teacher_full_alias_context_messages_read": 6,
+      "broad_chemistry_or_review_context_messages_read": 2,
+      "teacher_initial_high_signal_context_messages_read": 63,
+      "low_context_initial_messages_pending": 0,
+      "low_context_initial_hit_messages_read": 99,
+      "broad_ambiguous_alias_only_context_messages_read": 173,
+      "unreviewed_alias_contexts_pending": 0
+    },
+    {
+      "group": "G05",
+      "source_sha256": "53bd367f2d56421d40ceb04c0d3abcaf3f26113399a922fc3032afe03da954d7",
+      "total_messages": 11856,
+      "eligible_text_messages": 8850,
+      "date_range_local": {
+        "start": "2026-08-19T11:35:52+08:00",
+        "end": "2026-10-25T13:20:45+08:00"
+      },
+      "unique_alias_hit_messages": 63,
+      "course_or_teacher_full_alias_context_messages_read": 9,
+      "broad_chemistry_or_review_context_messages_read": 2,
+      "teacher_initial_high_signal_context_messages_read": 2,
+      "low_context_initial_messages_pending": 0,
+      "low_context_initial_hit_messages_read": 6,
+      "broad_ambiguous_alias_only_context_messages_read": 45,
+      "unreviewed_alias_contexts_pending": 0
+    },
+    {
+      "group": "G06",
+      "source_sha256": "444765d6972406b6ec01c016bd870021a31f659f0027dd085505c9ef5ca0d3fb",
+      "total_messages": 6384,
+      "eligible_text_messages": 5292,
+      "date_range_local": {
+        "start": "2024-08-19T10:43:32+08:00",
+        "end": "2025-04-23T23:22:21+08:00"
+      },
+      "unique_alias_hit_messages": 54,
+      "course_or_teacher_full_alias_context_messages_read": 4,
+      "broad_chemistry_or_review_context_messages_read": 1,
+      "teacher_initial_high_signal_context_messages_read": 7,
+      "low_context_initial_messages_pending": 0,
+      "low_context_initial_hit_messages_read": 9,
+      "broad_ambiguous_alias_only_context_messages_read": 34,
+      "unreviewed_alias_contexts_pending": 0
+    }
+  ],
+  "deliverables": [
+    "records.json",
+    "reading_ledger.json",
+    "scan_manifest.json",
+    "pending_alias_hits.json"
+  ]
+}

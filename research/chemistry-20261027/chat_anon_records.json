@@ -1,0 +1,27 @@
+{
+  "schema_version": 1,
+  "scan_date": "2026-10-27",
+  "scope_sha256": "d9b85ddb8ce23b3c39cefe7387d263bbd8f5b63a4e2632eb2ed8369318b12fd5",
+  "source_policy": "Anonymous summaries only; locator uses G01-G06, local timestamp, zero-based message index, and content/source SHA-256.",
+  "review_criteria": {
+    "verified_course_review": "Requires context showing the speaker actually took the course and giving a course-specific evaluation.",
+    "inquiry": "A request for experience or information is kept separate; enrollment and opinion are not inferred."
+  },
+  "course_review_records": [],
+  "unanswered_course_inquiry_leads": [
+    {
+      "course_code": "CHEM20022",
+      "course_name": "切问近思",
+      "evidence_type": "course_experience_inquiry",
+      "anonymous_summary": "一条课程体验询问，群内未见实质答复；提问者是否实际修读未知。",
+      "status": "unanswered",
+      "source_locator": {
+        "group": "G05",
+        "timestamp_local": "2026-09-04T23:06:19+08:00",
+        "message_index": 4157,
+        "source_sha256": "53bd367f2d56421d40ceb04c0d3abcaf3f26113399a922fc3032afe03da954d7",
+        "message_sha256": "5c2b136190653a9d71ded3aa52a8e2c3eab2fafca7d59ec8e3670c91669ba3ba"
+      }
+    }
+  ]
+}

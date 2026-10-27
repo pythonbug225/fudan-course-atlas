@@ -1,73 +1,317 @@
 {
-  "scope": "Parent-prioritized high-information Danke group reviews; this is an incremental subset, not all 194 full-text reads.",
+  "scope": "Incremental full-text read paraphrases for all substantive and identifiable group-cache opinions plus selected detailed short reviews; 194 records were full-text read. Forum-hole screening remains separate.",
   "raw_text_policy": "No reviewer identity, original title, or original review text is included. Raw source text remains in local source caches.",
-  "record_count": 12,
+  "record_count": 126,
   "records": [
     {
-      "record_id": "danke-review-1184",
-      "course_code": "CHEM30041h",
+      "record_id": "danke-review-5860",
+      "course_code": "AIS531005",
       "course_code_candidates": [
-        "CHEM30041h"
+        "AIS531005"
       ],
-      "raw_group_course_code": "CHEM130096h",
-      "course_name": "量子化学原理及应用(H)",
-      "group_name": "量子化学原理及应用(H)",
-      "course_mapping_status": "assigned_historical",
-      "course_mapping_basis": "historical_group_code_mapping",
+      "raw_group_course_code": "AIS531005",
+      "course_name": "人工智能化学计算模拟",
+      "group_name": "人工智能化学计算模拟(G)",
+      "course_mapping_status": "assigned",
+      "course_mapping_basis": "official_course_code",
       "source": "蛋壳课评课程组全文缓存",
       "source_type": "danke_group_review",
       "source_ids": {
-        "group_id": 138,
-        "review_id": 1184,
+        "group_id": 5436,
+        "review_id": 5860,
         "offering_ids": []
       },
       "teacher": [
-        "徐昕",
-        "张颖"
+        "刘智攀",
+        "宋国梁",
+        "马思聪",
+        "商城",
+        "李晔飞"
       ],
       "teacher_relation_to_live_scope": "teacher_listed_in_live_official_scope",
-      "term": "2023秋",
-      "term_from_group_metadata": "2023秋",
+      "term": "2024暑期",
+      "term_from_group_metadata": "2024暑期",
+      "term_claimed_in_review": null,
+      "term_basis": "group_offering_metadata",
+      "review_type": "brief_opinion",
+      "review_status": "included_low_detail",
+      "reading_status": "full_text_read",
+      "deduplication": {
+        "review_id_deduplicated_across_cache_copies": true,
+        "source_copy_count": 1
+      },
+      "paraphrase": "作者认为人工智能化学计算模拟内容和作业比预期更硬核，缺乏基础者需要投入大量课后时间消化。",
+      "facets": [
+        "课程难度",
+        "作业与工作量"
+      ],
+      "caveat": "2024暑期历史短评。"
+    },
+    {
+      "record_id": "danke-review-5332",
+      "course_code": "CHEM10001",
+      "course_code_candidates": [
+        "CHEM10001"
+      ],
+      "raw_group_course_code": "CHEM10001",
+      "course_name": "普通化学",
+      "group_name": "普通化学",
+      "course_mapping_status": "assigned",
+      "course_mapping_basis": "official_course_code",
+      "source": "蛋壳课评课程组全文缓存",
+      "source_type": "danke_group_review",
+      "source_ids": {
+        "group_id": 6732,
+        "review_id": 5332,
+        "offering_ids": []
+      },
+      "teacher": [
+        "张亚红"
+      ],
+      "teacher_relation_to_live_scope": "teacher_listed_in_live_official_scope",
+      "term": "2025秋",
+      "term_from_group_metadata": "2025秋",
       "term_claimed_in_review": null,
       "term_basis": "group_offering_metadata",
       "review_type": "course_experience_or_assessment",
       "review_status": "included",
       "reading_status": "full_text_read",
-      "paraphrase": "作者将本课定位为物化AⅠ量子论的深入推导课，覆盖势阱/势垒、谐振子、角动量、氢原子、微扰与变分、自旋、多电子体系和Hartree–Fock，并有Linux量化计算上机。其描述显示作业含大量推导和少量编程，周末需投入数小时；建议提前复习线性代数、复变与微分方程、多读教材。作者认为教师愿意答疑、课程支持度尚可但难度高，并称期末有两题超纲。",
-      "facets": [
-        "课程内容",
-        "作业与工作量",
-        "学习准备",
-        "教师支持",
-        "考试"
-      ],
-      "caveat": "2023秋单个修课者的完整经验；与同学对作业批改/考试难度的其他评价存在分歧，不能概括所有班级。",
       "deduplication": {
         "review_id_deduplicated_across_cache_copies": true,
-        "source_copy_count": 1
-      }
+        "source_copy_count": 2
+      },
+      "paraphrase": "作者称张亚红2025秋新开的普通化学课覆盖两本普化教材，课上讲授较全面、答疑耐心，作业不多且助教会批改并给反馈；作者认为无竞赛背景者也能跟上。",
+      "facets": [
+        "课程内容",
+        "课堂教学",
+        "作业与反馈",
+        "适用背景"
+      ],
+      "caveat": "2025秋当前开课评价；关于给分“很好”是作者个人感受。"
     },
     {
-      "record_id": "danke-review-439",
-      "course_code": "CHEM30041h",
+      "record_id": "danke-review-5509",
+      "course_code": "CHEM10001",
       "course_code_candidates": [
-        "CHEM30041h"
+        "CHEM10001"
       ],
-      "raw_group_course_code": "CHEM130096h",
-      "course_name": "量子化学原理及应用(H)",
-      "group_name": "量子化学原理及应用(H)",
+      "raw_group_course_code": "CHEM10001",
+      "course_name": "普通化学",
+      "group_name": "普通化学",
+      "course_mapping_status": "assigned",
+      "course_mapping_basis": "official_course_code",
+      "source": "蛋壳课评课程组全文缓存",
+      "source_type": "danke_group_review",
+      "source_ids": {
+        "group_id": 6732,
+        "review_id": 5509,
+        "offering_ids": []
+      },
+      "teacher": [
+        "张亚红"
+      ],
+      "teacher_relation_to_live_scope": "teacher_listed_in_live_official_scope",
+      "term": "2025秋",
+      "term_from_group_metadata": "2025秋",
+      "term_claimed_in_review": null,
+      "term_basis": "group_offering_metadata",
+      "review_type": "experience_with_hearsay_claims",
+      "review_status": "include_with_attribution_caveat",
+      "reading_status": "full_text_read",
+      "deduplication": {
+        "review_id_deduplicated_across_cache_copies": true,
+        "source_copy_count": 2
+      },
+      "paraphrase": "作者称张亚红课堂轻松有趣、关心学生，并自报零竞赛基础仍获A+；关于给分的判断来自个人经历。",
+      "facets": [
+        "课堂风格",
+        "个人成绩"
+      ],
+      "caveat": "2025秋当前课程体验；成绩为作者自报。"
+    },
+    {
+      "record_id": "danke-review-6670",
+      "course_code": "CHEM10002",
+      "course_code_candidates": [
+        "CHEM10002"
+      ],
+      "raw_group_course_code": "CHEM10002",
+      "course_name": "有机化学",
+      "group_name": "有机化学",
+      "course_mapping_status": "assigned_cross_department_same_code",
+      "course_mapping_basis": "official_course_code_cross_department_offering",
+      "source": "蛋壳课评课程组全文缓存",
+      "source_type": "danke_group_review",
+      "source_ids": {
+        "group_id": 9026,
+        "review_id": 6670,
+        "offering_ids": []
+      },
+      "teacher": [
+        "王辉"
+      ],
+      "teacher_relation_to_live_scope": "teacher_listed_in_live_official_scope",
+      "term": "2025暑期",
+      "term_from_group_metadata": "2025暑期",
+      "term_claimed_in_review": null,
+      "term_basis": "group_offering_metadata",
+      "review_type": "course_experience_or_assessment",
+      "review_status": "included",
+      "reading_status": "full_text_read",
+      "deduplication": {
+        "review_id_deduplicated_across_cache_copies": true,
+        "source_copy_count": 2
+      },
+      "paraphrase": "作者认为王辉的有机化学课件结构清楚，课后作业偏多但反应原理理解后较易完成；助教会总结作业中的主要错误，作者建议平时复习以串联期中后的内容。",
+      "facets": [
+        "课堂材料",
+        "作业与反馈",
+        "复习建议"
+      ],
+      "caveat": "2025暑期同码跨院系缓存候选，具体来源班为CHEM10002.04；同码来源不应推广到其他班。"
+    },
+    {
+      "record_id": "danke-review-6694",
+      "course_code": "CHEM10002",
+      "course_code_candidates": [
+        "CHEM10002"
+      ],
+      "raw_group_course_code": "CHEM10002",
+      "course_name": "有机化学",
+      "group_name": "有机化学",
+      "course_mapping_status": "assigned_cross_department_same_code",
+      "course_mapping_basis": "official_course_code_cross_department_offering",
+      "source": "蛋壳课评课程组全文缓存",
+      "source_type": "danke_group_review",
+      "source_ids": {
+        "group_id": 9026,
+        "review_id": 6694,
+        "offering_ids": []
+      },
+      "teacher": [
+        "贾瑜"
+      ],
+      "teacher_relation_to_live_scope": "teacher_listed_in_live_official_scope",
+      "term": "2025暑期",
+      "term_from_group_metadata": "2025暑期",
+      "term_claimed_in_review": null,
+      "term_basis": "group_offering_metadata",
+      "review_type": "brief_opinion",
+      "review_status": "included_low_detail",
+      "reading_status": "full_text_read",
+      "deduplication": {
+        "review_id_deduplicated_across_cache_copies": true,
+        "source_copy_count": 2
+      },
+      "paraphrase": "作者称贾瑜的有机化学课堂主要讲考试要求，不额外拓展；课上不讲评作业，学生需对照答案自行检查。",
+      "facets": [
+        "课堂内容",
+        "作业反馈"
+      ],
+      "caveat": "2025暑期个人短评。"
+    },
+    {
+      "record_id": "danke-review-6817",
+      "course_code": "CHEM10002",
+      "course_code_candidates": [
+        "CHEM10002"
+      ],
+      "raw_group_course_code": "CHEM10002",
+      "course_name": "有机化学",
+      "group_name": "有机化学",
+      "course_mapping_status": "assigned_cross_department_same_code",
+      "course_mapping_basis": "official_course_code_cross_department_offering",
+      "source": "蛋壳课评课程组全文缓存",
+      "source_type": "danke_group_review",
+      "source_ids": {
+        "group_id": 9026,
+        "review_id": 6817,
+        "offering_ids": []
+      },
+      "teacher": [
+        "孙兴文"
+      ],
+      "teacher_relation_to_live_scope": "teacher_listed_in_live_official_scope",
+      "term": "2025暑期",
+      "term_from_group_metadata": "2025暑期",
+      "term_claimed_in_review": null,
+      "term_basis": "group_offering_metadata",
+      "review_type": "course_experience_or_assessment",
+      "review_status": "included",
+      "reading_status": "full_text_read",
+      "deduplication": {
+        "review_id_deduplicated_across_cache_copies": true,
+        "source_copy_count": 2
+      },
+      "paraphrase": "作者以轻松的轶事描写孙兴文的有机课，整体肯定教师授课水平，同时指出课程讲解会深入到较难的反应机理；其称部分机理虽在课堂出现但不要求掌握，课堂出勤和跟课较重要，成绩较差时教师未必额外提分。",
+      "facets": [
+        "课程内容",
+        "教学风格",
+        "课堂要求"
+      ],
+      "caveat": "2025暑期同码跨院系缓存候选，缓存中的具体班级代码为CHEM10002.02；虽落在相同课程码范围，不能据此推断所有有机化学班。"
+    },
+    {
+      "record_id": "danke-review-509",
+      "course_code": "CHEM10003",
+      "course_code_candidates": [
+        "CHEM10003"
+      ],
+      "raw_group_course_code": "CHEM120005",
+      "course_name": "普通化学A（上）",
+      "group_name": "普通化学A（上）",
       "course_mapping_status": "assigned_historical",
       "course_mapping_basis": "historical_group_code_mapping",
       "source": "蛋壳课评课程组全文缓存",
       "source_type": "danke_group_review",
       "source_ids": {
-        "group_id": 138,
-        "review_id": 439,
+        "group_id": 98,
+        "review_id": 509,
         "offering_ids": []
       },
       "teacher": [
-        "徐昕",
-        "张颖"
+        "张亚红"
+      ],
+      "teacher_relation_to_live_scope": "other_or_historical_teacher",
+      "term": "2022秋",
+      "term_from_group_metadata": "2022秋",
+      "term_claimed_in_review": null,
+      "term_basis": "group_offering_metadata",
+      "review_type": "course_experience_or_assessment",
+      "review_status": "included",
+      "reading_status": "full_text_read",
+      "deduplication": {
+        "review_id_deduplicated_across_cache_copies": true,
+        "source_copy_count": 2
+      },
+      "paraphrase": "作者对张亚红2022秋普通化学A（上）评价积极，称课件会提前发布、课堂讲解简洁清楚；期中为占总评15%的小测，之后由助教告知成绩并安排讲评，期末为年级统考，题量较大但难度适中。",
+      "facets": [
+        "课堂教学",
+        "考核",
+        "工作量"
+      ],
+      "caveat": "2022秋历史个人体验；考试安排和给分描述不代表现行班级。"
+    },
+    {
+      "record_id": "danke-review-646",
+      "course_code": "CHEM10003",
+      "course_code_candidates": [
+        "CHEM10003"
+      ],
+      "raw_group_course_code": "CHEM120005",
+      "course_name": "普通化学A（上）",
+      "group_name": "普通化学A（上）",
+      "course_mapping_status": "assigned_historical",
+      "course_mapping_basis": "historical_group_code_mapping",
+      "source": "蛋壳课评课程组全文缓存",
+      "source_type": "danke_group_review",
+      "source_ids": {
+        "group_id": 98,
+        "review_id": 646,
+        "offering_ids": []
+      },
+      "teacher": [
+        "冯玮"
       ],
       "teacher_relation_to_live_scope": "teacher_listed_in_live_official_scope",
       "term": "2022秋",
@@ -77,41 +321,38 @@
       "review_type": "course_experience_or_assessment",
       "review_status": "included",
       "reading_status": "full_text_read",
-      "paraphrase": "作者描述该荣誉课会逐步推导物化AⅠ中的量子模型（如势箱、谐振子和氢原子），每周作业约需3–4小时，无期中或展示，期末闭卷。其主要困难判断是数学先修不足会使推导、符号和考试目标难跟，且课程较少展开化学应用；建议先修数学物理方法并确认自己对量化有兴趣。文中给出的历年成绩比例仅属作者转述，不作正式统计。",
-      "facets": [
-        "课程内容",
-        "工作量",
-        "考核",
-        "先修",
-        "课程体验"
-      ],
-      "caveat": "2022秋个人体验；文中关于录取先修和成绩分布是历史个人陈述，未经官方核实。",
       "deduplication": {
         "review_id_deduplicated_across_cache_copies": true,
-        "source_copy_count": 1
-      }
+        "source_copy_count": 2
+      },
+      "paraphrase": "作者称冯玮普通化学A班作业量少、教师耐心答疑、助教会整理作业完成情况；期中与期末较难，但作者称考试比例或评分有所调整并自报获A。",
+      "facets": [
+        "作业与答疑",
+        "考试",
+        "个人成绩"
+      ],
+      "caveat": "2022秋历史个人评价；“调分”描述属作者观察。"
     },
     {
-      "record_id": "danke-review-1162",
-      "course_code": "CHEM30041h",
+      "record_id": "danke-review-1112",
+      "course_code": "CHEM10003",
       "course_code_candidates": [
-        "CHEM30041h"
+        "CHEM10003"
       ],
-      "raw_group_course_code": "CHEM130096h",
-      "course_name": "量子化学原理及应用(H)",
-      "group_name": "量子化学原理及应用(H)",
+      "raw_group_course_code": "CHEM120005",
+      "course_name": "普通化学A（上）",
+      "group_name": "普通化学A（上）",
       "course_mapping_status": "assigned_historical",
       "course_mapping_basis": "historical_group_code_mapping",
       "source": "蛋壳课评课程组全文缓存",
       "source_type": "danke_group_review",
       "source_ids": {
-        "group_id": 138,
-        "review_id": 1162,
+        "group_id": 98,
+        "review_id": 1112,
         "offering_ids": []
       },
       "teacher": [
-        "徐昕",
-        "张颖"
+        "冯玮"
       ],
       "teacher_relation_to_live_scope": "teacher_listed_in_live_official_scope",
       "term": "2023秋",
@@ -121,41 +362,997 @@
       "review_type": "course_experience_or_assessment",
       "review_status": "included",
       "reading_status": "full_text_read",
-      "paraphrase": "作者在2023秋期末后认为实际试卷明显难于作业和课堂练习；并称每周作业量大、听课需持续抄记、作业缺少批改或答案反馈。作者同时肯定两位教师愿意回答量化/计算相关问题，并建议真正对该方向有兴趣者认真修读，提到可配合中英文量子化学教材自学。",
+      "deduplication": {
+        "review_id_deduplicated_across_cache_copies": true,
+        "source_copy_count": 2
+      },
+      "paraphrase": "作者称冯玮班期中占比被降低到约10%以下，作业提交即可取得较多平时分且有较晚截止空间；教师和助教提供详细答疑。",
       "facets": [
-        "考试",
-        "作业与反馈",
-        "课堂节奏",
-        "教师支持",
+        "考核比例",
+        "作业安排",
+        "答疑"
+      ],
+      "caveat": "2023秋历史个人评价；具体比例和作业政策以当年通知为准。"
+    },
+    {
+      "record_id": "danke-review-1548",
+      "course_code": "CHEM10003",
+      "course_code_candidates": [
+        "CHEM10003"
+      ],
+      "raw_group_course_code": "CHEM120005",
+      "course_name": "普通化学A（上）",
+      "group_name": "普通化学A（上）",
+      "course_mapping_status": "assigned_historical",
+      "course_mapping_basis": "historical_group_code_mapping",
+      "source": "蛋壳课评课程组全文缓存",
+      "source_type": "danke_group_review",
+      "source_ids": {
+        "group_id": 98,
+        "review_id": 1548,
+        "offering_ids": []
+      },
+      "teacher": [
+        "岳斌"
+      ],
+      "teacher_relation_to_live_scope": "teacher_listed_in_live_official_scope",
+      "term": "2023秋",
+      "term_from_group_metadata": "2023秋",
+      "term_claimed_in_review": null,
+      "term_basis": "group_offering_metadata",
+      "review_type": "brief_opinion",
+      "review_status": "included_low_detail",
+      "reading_status": "full_text_read",
+      "deduplication": {
+        "review_id_deduplicated_across_cache_copies": true,
+        "source_copy_count": 2
+      },
+      "paraphrase": "作者以强基背景修读岳斌普通化学A，认为课程较易、不点名、作业量一般，并自报部分作业未交仍获A。",
+      "facets": [
+        "适用背景",
+        "作业",
+        "个人成绩"
+      ],
+      "caveat": "2023秋历史体验；作者背景影响难度判断。"
+    },
+    {
+      "record_id": "danke-review-1655",
+      "course_code": "CHEM10003",
+      "course_code_candidates": [
+        "CHEM10003"
+      ],
+      "raw_group_course_code": "CHEM120005",
+      "course_name": "普通化学A（上）",
+      "group_name": "普通化学A（上）",
+      "course_mapping_status": "assigned_historical",
+      "course_mapping_basis": "historical_group_code_mapping",
+      "source": "蛋壳课评课程组全文缓存",
+      "source_type": "danke_group_review",
+      "source_ids": {
+        "group_id": 98,
+        "review_id": 1655,
+        "offering_ids": []
+      },
+      "teacher": [
+        "张亚红"
+      ],
+      "teacher_relation_to_live_scope": "other_or_historical_teacher",
+      "term": "2023秋",
+      "term_from_group_metadata": "2023秋",
+      "term_claimed_in_review": null,
+      "term_basis": "group_offering_metadata",
+      "review_type": "experience_with_hearsay_claims",
+      "review_status": "include_with_attribution_caveat",
+      "reading_status": "full_text_read",
+      "deduplication": {
+        "review_id_deduplicated_across_cache_copies": true,
+        "source_copy_count": 2
+      },
+      "paraphrase": "作者认为张亚红讲课清楚，课件导学比指定教材更有帮助；其称每节课交作业、作业量不大且提交即可得平时分，并自报期末卷较难但成绩为B+。",
+      "facets": [
+        "课堂教学",
+        "作业",
+        "考核"
+      ],
+      "caveat": "2023秋历史评价；关于统一考核方式及其他教师评分的比较是作者推测。"
+    },
+    {
+      "record_id": "danke-review-2932",
+      "course_code": "CHEM10003",
+      "course_code_candidates": [
+        "CHEM10003"
+      ],
+      "raw_group_course_code": "CHEM120005",
+      "course_name": "普通化学A（上）",
+      "group_name": "普通化学A（上）",
+      "course_mapping_status": "assigned_historical",
+      "course_mapping_basis": "historical_group_code_mapping",
+      "source": "蛋壳课评课程组全文缓存",
+      "source_type": "danke_group_review",
+      "source_ids": {
+        "group_id": 98,
+        "review_id": 2932,
+        "offering_ids": []
+      },
+      "teacher": [
+        "华伟明",
+        "赵天聪"
+      ],
+      "teacher_relation_to_live_scope": "teacher_listed_in_live_official_scope",
+      "term": "2024秋",
+      "term_from_group_metadata": "2024秋",
+      "term_claimed_in_review": null,
+      "term_basis": "group_offering_metadata",
+      "review_type": "course_experience_or_assessment",
+      "review_status": "included",
+      "reading_status": "full_text_read",
+      "deduplication": {
+        "review_id_deduplicated_across_cache_copies": true,
+        "source_copy_count": 2
+      },
+      "paraphrase": "作者对2024秋普通化学A（上）评价积极：称华伟明答疑耐心、教学清楚且节奏适中，赵天聪较偏从学生视角解释；总体以课上学习、作业复习和期末准备为主，作者认为认真跟进可掌握课程。",
+      "facets": [
+        "教学风格",
+        "学习要求",
+        "考核"
+      ],
+      "caveat": "2024秋历史个人体验；当前教师安排应以官方开课记录为准。"
+    },
+    {
+      "record_id": "danke-review-3249",
+      "course_code": "CHEM10003",
+      "course_code_candidates": [
+        "CHEM10003"
+      ],
+      "raw_group_course_code": "CHEM120005",
+      "course_name": "普通化学A（上）",
+      "group_name": "普通化学A（上）",
+      "course_mapping_status": "assigned_historical",
+      "course_mapping_basis": "historical_group_code_mapping",
+      "source": "蛋壳课评课程组全文缓存",
+      "source_type": "danke_group_review",
+      "source_ids": {
+        "group_id": 98,
+        "review_id": 3249,
+        "offering_ids": []
+      },
+      "teacher": [
+        "岳斌"
+      ],
+      "teacher_relation_to_live_scope": "teacher_listed_in_live_official_scope",
+      "term": "2024秋",
+      "term_from_group_metadata": "2024秋",
+      "term_claimed_in_review": null,
+      "term_basis": "group_offering_metadata",
+      "review_type": "course_experience_or_assessment",
+      "review_status": "included",
+      "reading_status": "full_text_read",
+      "deduplication": {
+        "review_id_deduplicated_across_cache_copies": true,
+        "source_copy_count": 2
+      },
+      "paraphrase": "作者认为岳斌班普化内容难度不高，建议按课件顺序对应教材；其称期中占比约1%、期末为主且难度较低，教师答疑认真、平时不点名。",
+      "facets": [
+        "课程难度",
+        "考核",
         "学习建议"
       ],
-      "caveat": "2023秋单个修课者的负面体验；与同组另一位修课者对助教支持和考试的描述不同。",
-      "deduplication": {
-        "review_id_deduplicated_across_cache_copies": true,
-        "source_copy_count": 1
-      }
+      "caveat": "2024秋历史个人评价，具体比例以当学期课程安排为准。"
     },
     {
-      "record_id": "danke-review-1906",
-      "course_code": "CHEM30041h",
+      "record_id": "danke-review-3361",
+      "course_code": "CHEM10003",
       "course_code_candidates": [
-        "CHEM30041h"
+        "CHEM10003"
       ],
-      "raw_group_course_code": "CHEM130096h",
-      "course_name": "量子化学原理及应用(H)",
-      "group_name": "量子化学原理及应用(H)",
+      "raw_group_course_code": "CHEM120005",
+      "course_name": "普通化学A（上）",
+      "group_name": "普通化学A（上）",
       "course_mapping_status": "assigned_historical",
       "course_mapping_basis": "historical_group_code_mapping",
       "source": "蛋壳课评课程组全文缓存",
       "source_type": "danke_group_review",
       "source_ids": {
-        "group_id": 138,
-        "review_id": 1906,
+        "group_id": 98,
+        "review_id": 3361,
         "offering_ids": []
       },
       "teacher": [
-        "徐昕",
-        "张颖"
+        "张亚红"
+      ],
+      "teacher_relation_to_live_scope": "other_or_historical_teacher",
+      "term": "2024秋",
+      "term_from_group_metadata": "2024秋",
+      "term_claimed_in_review": null,
+      "term_basis": "group_offering_metadata",
+      "review_type": "course_experience_or_assessment",
+      "review_status": "included",
+      "reading_status": "full_text_read",
+      "deduplication": {
+        "review_id_deduplicated_across_cache_copies": true,
+        "source_copy_count": 2
+      },
+      "paraphrase": "作者称张亚红讲解清晰有趣、强调化学思维，课堂压力不大；其认为平时分较宽松、期末有A+，整体体验很好。",
+      "facets": [
+        "课堂教学",
+        "难度",
+        "给分感受"
+      ],
+      "caveat": "2024秋历史个人评价。"
+    },
+    {
+      "record_id": "danke-review-3401",
+      "course_code": "CHEM10003",
+      "course_code_candidates": [
+        "CHEM10003"
+      ],
+      "raw_group_course_code": "CHEM120005",
+      "course_name": "普通化学A（上）",
+      "group_name": "普通化学A（上）",
+      "course_mapping_status": "assigned_historical",
+      "course_mapping_basis": "historical_group_code_mapping",
+      "source": "蛋壳课评课程组全文缓存",
+      "source_type": "danke_group_review",
+      "source_ids": {
+        "group_id": 98,
+        "review_id": 3401,
+        "offering_ids": []
+      },
+      "teacher": [
+        "岳斌"
+      ],
+      "teacher_relation_to_live_scope": "teacher_listed_in_live_official_scope",
+      "term": "2024秋",
+      "term_from_group_metadata": "2024秋",
+      "term_claimed_in_review": null,
+      "term_basis": "group_offering_metadata",
+      "review_type": "course_experience_or_assessment",
+      "review_status": "included",
+      "reading_status": "full_text_read",
+      "deduplication": {
+        "review_id_deduplicated_across_cache_copies": true,
+        "source_copy_count": 2
+      },
+      "paraphrase": "作者称岳斌班聚集较多竞赛背景学生，因而自觉A/A+竞争较强；其自报期末90多分后获A+，并觉得教师授课一般、课堂穿插玩笑。",
+      "facets": [
+        "班级背景",
+        "考试与成绩",
+        "课堂风格"
+      ],
+      "caveat": "2024秋历史单人体验，班级竞争程度为作者观察。"
+    },
+    {
+      "record_id": "danke-review-3555",
+      "course_code": "CHEM10003",
+      "course_code_candidates": [
+        "CHEM10003"
+      ],
+      "raw_group_course_code": "CHEM120005",
+      "course_name": "普通化学A（上）",
+      "group_name": "普通化学A（上）",
+      "course_mapping_status": "assigned_historical",
+      "course_mapping_basis": "historical_group_code_mapping",
+      "source": "蛋壳课评课程组全文缓存",
+      "source_type": "danke_group_review",
+      "source_ids": {
+        "group_id": 98,
+        "review_id": 3555,
+        "offering_ids": []
+      },
+      "teacher": [
+        "岳斌"
+      ],
+      "teacher_relation_to_live_scope": "teacher_listed_in_live_official_scope",
+      "term": "2024秋",
+      "term_from_group_metadata": "2024秋",
+      "term_claimed_in_review": null,
+      "term_basis": "group_offering_metadata",
+      "review_type": "brief_opinion",
+      "review_status": "included_low_detail",
+      "reading_status": "full_text_read",
+      "deduplication": {
+        "review_id_deduplicated_across_cache_copies": true,
+        "source_copy_count": 2
+      },
+      "paraphrase": "作者认为岳斌2024秋班聚集竞赛背景学生，班内竞争较强，A类成绩可能比部分其他班更难取得。",
+      "facets": [
+        "班级背景",
+        "给分感受"
+      ],
+      "caveat": "2024秋单人观察。"
+    },
+    {
+      "record_id": "danke-review-3774",
+      "course_code": "CHEM10003",
+      "course_code_candidates": [
+        "CHEM10003"
+      ],
+      "raw_group_course_code": "CHEM120005",
+      "course_name": "普通化学A（上）",
+      "group_name": "普通化学A（上）",
+      "course_mapping_status": "assigned_historical",
+      "course_mapping_basis": "historical_group_code_mapping",
+      "source": "蛋壳课评课程组全文缓存",
+      "source_type": "danke_group_review",
+      "source_ids": {
+        "group_id": 98,
+        "review_id": 3774,
+        "offering_ids": []
+      },
+      "teacher": [
+        "侯秀峰"
+      ],
+      "teacher_relation_to_live_scope": "teacher_listed_in_live_official_scope",
+      "term": "2024秋",
+      "term_from_group_metadata": "2024秋",
+      "term_claimed_in_review": null,
+      "term_basis": "group_offering_metadata",
+      "review_type": "course_experience_or_assessment",
+      "review_status": "included",
+      "reading_status": "full_text_read",
+      "deduplication": {
+        "review_id_deduplicated_across_cache_copies": true,
+        "source_copy_count": 2
+      },
+      "paraphrase": "作者称侯秀峰讲解充分、耐心，评价结构约为期中与作业合计30%、期末70%；其认为掌握课件知识点、作业和例题有助于通过期末。",
+      "facets": [
+        "课堂教学",
+        "考核",
+        "复习建议"
+      ],
+      "caveat": "2024秋历史个人评价。"
+    },
+    {
+      "record_id": "danke-review-4545",
+      "course_code": "CHEM10003",
+      "course_code_candidates": [
+        "CHEM10003"
+      ],
+      "raw_group_course_code": "CHEM120005",
+      "course_name": "普通化学A（上）",
+      "group_name": "普通化学A（上）",
+      "course_mapping_status": "assigned_historical",
+      "course_mapping_basis": "historical_group_code_mapping",
+      "source": "蛋壳课评课程组全文缓存",
+      "source_type": "danke_group_review",
+      "source_ids": {
+        "group_id": 98,
+        "review_id": 4545,
+        "offering_ids": []
+      },
+      "teacher": [
+        "华伟明"
+      ],
+      "teacher_relation_to_live_scope": "teacher_listed_in_live_official_scope",
+      "term": "2024秋",
+      "term_from_group_metadata": "2024秋",
+      "term_claimed_in_review": null,
+      "term_basis": "group_offering_metadata",
+      "review_type": "course_experience_or_assessment",
+      "review_status": "included",
+      "reading_status": "full_text_read",
+      "deduplication": {
+        "review_id_deduplicated_across_cache_copies": true,
+        "source_copy_count": 2
+      },
+      "paraphrase": "作者认为华伟明班课件和作业足以支持考试复习，作业量不大，并称作业发放/提交会用于考勤；其自报期中低于70分后仍在期末后获A−。",
+      "facets": [
+        "学习材料",
+        "作业与考勤",
+        "个人成绩"
+      ],
+      "caveat": "2024秋历史个人体验。"
+    },
+    {
+      "record_id": "danke-review-5144",
+      "course_code": "CHEM10003",
+      "course_code_candidates": [
+        "CHEM10003"
+      ],
+      "raw_group_course_code": "CHEM120005",
+      "course_name": "普通化学A（上）",
+      "group_name": "普通化学A（上）",
+      "course_mapping_status": "assigned_historical",
+      "course_mapping_basis": "historical_group_code_mapping",
+      "source": "蛋壳课评课程组全文缓存",
+      "source_type": "danke_group_review",
+      "source_ids": {
+        "group_id": 98,
+        "review_id": 5144,
+        "offering_ids": []
+      },
+      "teacher": [
+        "岳斌"
+      ],
+      "teacher_relation_to_live_scope": "teacher_listed_in_live_official_scope",
+      "term": "2024秋",
+      "term_from_group_metadata": "2024秋",
+      "term_claimed_in_review": null,
+      "term_basis": "group_offering_metadata",
+      "review_type": "course_experience_or_assessment",
+      "review_status": "included",
+      "reading_status": "full_text_read",
+      "deduplication": {
+        "review_id_deduplicated_across_cache_copies": true,
+        "source_copy_count": 2
+      },
+      "paraphrase": "作者称岳斌班讲解适合有高中化学基础的学生，课堂穿插短故事；其描述期中占比较低、期末为主要考核，认为基础不同的学生也能跟上。",
+      "facets": [
+        "课堂风格",
+        "考核",
+        "学习体验"
+      ],
+      "caveat": "组别映射为2024秋，但评论提到“现在25年秋”，发帖时间与所述学期有歧义；按源数据元信息暂记2024秋，学期待核。"
+    },
+    {
+      "record_id": "danke-review-5151",
+      "course_code": "CHEM10003",
+      "course_code_candidates": [
+        "CHEM10003"
+      ],
+      "raw_group_course_code": "CHEM120005",
+      "course_name": "普通化学A（上）",
+      "group_name": "普通化学A（上）",
+      "course_mapping_status": "assigned_historical",
+      "course_mapping_basis": "historical_group_code_mapping",
+      "source": "蛋壳课评课程组全文缓存",
+      "source_type": "danke_group_review",
+      "source_ids": {
+        "group_id": 98,
+        "review_id": 5151,
+        "offering_ids": []
+      },
+      "teacher": [
+        "唐云"
+      ],
+      "teacher_relation_to_live_scope": "teacher_listed_in_live_official_scope",
+      "term": "2024秋",
+      "term_from_group_metadata": "2024秋",
+      "term_claimed_in_review": null,
+      "term_basis": "group_offering_metadata",
+      "review_type": "experience_with_hearsay_claims",
+      "review_status": "include_with_attribution_caveat",
+      "reading_status": "full_text_read",
+      "deduplication": {
+        "review_id_deduplicated_across_cache_copies": true,
+        "source_copy_count": 2
+      },
+      "paraphrase": "作者喜欢唐云的课堂闲谈与个性化风格，认为课件详尽；其自报获A，但关于较低分学生是否会被额外照顾是听闻。",
+      "facets": [
+        "课堂风格",
+        "课件",
+        "给分感受"
+      ],
+      "caveat": "组别标2024秋；评论含二手给分说法。"
+    },
+    {
+      "record_id": "danke-review-5382",
+      "course_code": "CHEM10003",
+      "course_code_candidates": [
+        "CHEM10003"
+      ],
+      "raw_group_course_code": "CHEM10003",
+      "course_name": "普通化学A（上）",
+      "group_name": "普通化学A（上）",
+      "course_mapping_status": "assigned",
+      "course_mapping_basis": "official_course_code",
+      "source": "蛋壳课评课程组全文缓存",
+      "source_type": "danke_group_review",
+      "source_ids": {
+        "group_id": 6733,
+        "review_id": 5382,
+        "offering_ids": []
+      },
+      "teacher": [
+        "李伟"
+      ],
+      "teacher_relation_to_live_scope": "teacher_listed_in_live_official_scope",
+      "term": "2025秋",
+      "term_from_group_metadata": "2025秋",
+      "term_claimed_in_review": null,
+      "term_basis": "group_offering_metadata",
+      "review_type": "course_experience_or_assessment",
+      "review_status": "included",
+      "reading_status": "full_text_read",
+      "deduplication": {
+        "review_id_deduplicated_across_cache_copies": true,
+        "source_copy_count": 2
+      },
+      "paraphrase": "作者称李伟班不点名、作业不多且平时成绩主要看提交；期中占15%，医科班统一试卷。课堂会反复强调重点并以全班回应方式提问，作者认为结合课件和往年题复习即可取得较好成绩。",
+      "facets": [
+        "作业",
+        "考核",
+        "课堂方式",
+        "复习建议"
+      ],
+      "caveat": "2025秋当前班级个人经验；往年题数量有限。"
+    },
+    {
+      "record_id": "danke-review-5487",
+      "course_code": "CHEM10003",
+      "course_code_candidates": [
+        "CHEM10003"
+      ],
+      "raw_group_course_code": "CHEM10003",
+      "course_name": "普通化学A（上）",
+      "group_name": "普通化学A（上）",
+      "course_mapping_status": "assigned",
+      "course_mapping_basis": "official_course_code",
+      "source": "蛋壳课评课程组全文缓存",
+      "source_type": "danke_group_review",
+      "source_ids": {
+        "group_id": 6733,
+        "review_id": 5487,
+        "offering_ids": []
+      },
+      "teacher": [
+        "唐云",
+        "赵东元"
+      ],
+      "teacher_relation_to_live_scope": "teacher_listed_in_live_official_scope",
+      "term": "2025秋",
+      "term_from_group_metadata": "2025秋",
+      "term_claimed_in_review": null,
+      "term_basis": "group_offering_metadata",
+      "review_type": "brief_opinion",
+      "review_status": "included_low_detail",
+      "reading_status": "full_text_read",
+      "deduplication": {
+        "review_id_deduplicated_across_cache_copies": true,
+        "source_copy_count": 2
+      },
+      "paraphrase": "作者称唐云与赵东元课堂有趣，但认为赵东元讲授进度偏慢、内容较浅，因此学生需较多自学以跟上作业。",
+      "facets": [
+        "课堂教学",
+        "课程进度",
+        "自学要求"
+      ],
+      "caveat": "2025秋当前班级短评。"
+    },
+    {
+      "record_id": "danke-review-5700",
+      "course_code": "CHEM10003",
+      "course_code_candidates": [
+        "CHEM10003"
+      ],
+      "raw_group_course_code": "CHEM10003",
+      "course_name": "普通化学A（上）",
+      "group_name": "普通化学A（上）",
+      "course_mapping_status": "assigned",
+      "course_mapping_basis": "official_course_code",
+      "source": "蛋壳课评课程组全文缓存",
+      "source_type": "danke_group_review",
+      "source_ids": {
+        "group_id": 6733,
+        "review_id": 5700,
+        "offering_ids": []
+      },
+      "teacher": [
+        "唐云",
+        "赵东元"
+      ],
+      "teacher_relation_to_live_scope": "teacher_listed_in_live_official_scope",
+      "term": "2025秋",
+      "term_from_group_metadata": "2025秋",
+      "term_claimed_in_review": null,
+      "term_basis": "group_offering_metadata",
+      "review_type": "course_experience_or_assessment",
+      "review_status": "included",
+      "reading_status": "full_text_read",
+      "deduplication": {
+        "review_id_deduplicated_across_cache_copies": true,
+        "source_copy_count": 2
+      },
+      "paraphrase": "作者喜欢唐云的讲课风格；对赵东元课堂内容自述听课效果不佳。其称助教支持较好，期中和作业评分较宽松，自己考前集中复习后获A。",
+      "facets": [
+        "教师体验",
+        "助教支持",
+        "考核与个人成绩"
+      ],
+      "caveat": "2025秋当前班级个人体验。"
+    },
+    {
+      "record_id": "danke-review-5936",
+      "course_code": "CHEM10003",
+      "course_code_candidates": [
+        "CHEM10003"
+      ],
+      "raw_group_course_code": "CHEM10003",
+      "course_name": "普通化学A（上）",
+      "group_name": "普通化学A（上）",
+      "course_mapping_status": "assigned",
+      "course_mapping_basis": "official_course_code",
+      "source": "蛋壳课评课程组全文缓存",
+      "source_type": "danke_group_review",
+      "source_ids": {
+        "group_id": 6733,
+        "review_id": 5936,
+        "offering_ids": []
+      },
+      "teacher": [
+        "王丛笑"
+      ],
+      "teacher_relation_to_live_scope": "teacher_listed_in_live_official_scope",
+      "term": "2025秋",
+      "term_from_group_metadata": "2025秋",
+      "term_claimed_in_review": null,
+      "term_basis": "group_offering_metadata",
+      "review_type": "course_experience_or_assessment",
+      "review_status": "included",
+      "reading_status": "full_text_read",
+      "deduplication": {
+        "review_id_deduplicated_across_cache_copies": true,
+        "source_copy_count": 2
+      },
+      "paraphrase": "作者称王丛笑班课程内容与课件较清晰，助教每次讲作业，期中后可看卷并获得错题讲解；作者自报绩点一般，但感觉教师给予了帮助。",
+      "facets": [
+        "课堂内容",
+        "助教支持",
+        "期中反馈"
+      ],
+      "caveat": "2025秋当前班级个人经验。"
+    },
+    {
+      "record_id": "danke-review-6331",
+      "course_code": "CHEM10003",
+      "course_code_candidates": [
+        "CHEM10003"
+      ],
+      "raw_group_course_code": "CHEM10003",
+      "course_name": "普通化学A（上）",
+      "group_name": "普通化学A（上）",
+      "course_mapping_status": "assigned",
+      "course_mapping_basis": "official_course_code",
+      "source": "蛋壳课评课程组全文缓存",
+      "source_type": "danke_group_review",
+      "source_ids": {
+        "group_id": 6733,
+        "review_id": 6331,
+        "offering_ids": []
+      },
+      "teacher": [
+        "侯秀峰"
+      ],
+      "teacher_relation_to_live_scope": "teacher_listed_in_live_official_scope",
+      "term": "2025秋",
+      "term_from_group_metadata": "2025秋",
+      "term_claimed_in_review": null,
+      "term_basis": "group_offering_metadata",
+      "review_type": "course_experience_or_assessment",
+      "review_status": "included",
+      "reading_status": "full_text_read",
+      "deduplication": {
+        "review_id_deduplicated_across_cache_copies": true,
+        "source_copy_count": 2
+      },
+      "paraphrase": "作者称侯秀峰班课堂较轻松，教师可答疑，但学习更依赖自学；其描述平时成绩约30%（含一次约15%的期中）加期末70%，对给分没有明确结论。",
+      "facets": [
+        "课堂体验",
+        "考核结构",
+        "学习方式"
+      ],
+      "caveat": "2025秋当前班级个人经验；成绩比例为作者回忆。"
+    },
+    {
+      "record_id": "danke-review-6683",
+      "course_code": "CHEM10003",
+      "course_code_candidates": [
+        "CHEM10003"
+      ],
+      "raw_group_course_code": "CHEM10003",
+      "course_name": "普通化学A（上）",
+      "group_name": "普通化学A（上）",
+      "course_mapping_status": "assigned",
+      "course_mapping_basis": "official_course_code",
+      "source": "蛋壳课评课程组全文缓存",
+      "source_type": "danke_group_review",
+      "source_ids": {
+        "group_id": 6733,
+        "review_id": 6683,
+        "offering_ids": []
+      },
+      "teacher": [
+        "华伟明",
+        "赵天聪"
+      ],
+      "teacher_relation_to_live_scope": "teacher_listed_in_live_official_scope",
+      "term": "2025秋",
+      "term_from_group_metadata": "2025秋",
+      "term_claimed_in_review": null,
+      "term_basis": "group_offering_metadata",
+      "review_type": "course_experience_or_assessment",
+      "review_status": "included",
+      "reading_status": "full_text_read",
+      "paraphrase": "这则2025秋长文主要是作者回忆开学首周参加普化免修考试：其转述教师告知范围为两本教材，试卷大致以物化内容为主并含晶体与其他填空；作者因准备不足未通过，之后就波函数与轨道的问题向教师请教，并称教师用节点数和取向解释判断方法、表示期末不会考该类题。该文不宜视为常规期末考核或课程总体难度总结。",
+      "facets": [
+        "免修考试",
+        "教师答疑",
+        "考试范围"
+      ],
+      "caveat": "2025秋单个作者的回忆，免修考试不等同于常规班级考核；原文还包含与课程评价无关的叙事。",
+      "deduplication": {
+        "review_id_deduplicated_across_cache_copies": true,
+        "source_copy_count": 2
+      }
+    },
+    {
+      "record_id": "danke-review-4182",
+      "course_code": "CHEM10004",
+      "course_code_candidates": [
+        "CHEM10004"
+      ],
+      "raw_group_course_code": "CHEM120006",
+      "course_name": "普通化学A（下）",
+      "group_name": "普通化学A（下）",
+      "course_mapping_status": "assigned_historical",
+      "course_mapping_basis": "historical_group_code_mapping",
+      "source": "蛋壳课评课程组全文缓存",
+      "source_type": "danke_group_review",
+      "source_ids": {
+        "group_id": 2086,
+        "review_id": 4182,
+        "offering_ids": []
+      },
+      "teacher": [
+        "侯军利"
+      ],
+      "teacher_relation_to_live_scope": "teacher_listed_in_live_official_scope",
+      "term": "2024暑期",
+      "term_from_group_metadata": "2024暑期",
+      "term_claimed_in_review": null,
+      "term_basis": "group_offering_metadata",
+      "review_type": "course_experience_or_assessment",
+      "review_status": "included",
+      "reading_status": "full_text_read",
+      "paraphrase": "作者称该2024暑期班任务量与其他普化班相近，但不喜欢课堂讲授方式及对纸质材料的要求；其本人表示出勤、作业和公式准备较完整，主观估分高于最终所得B，并因此对过程分和给分不满。",
+      "facets": [
+        "课堂体验",
+        "工作量",
+        "考核与个人成绩"
+      ],
+      "caveat": "2024暑期单个学生的强烈负面体验；对评分过程的判断没有试卷或成绩记录佐证。",
+      "deduplication": {
+        "review_id_deduplicated_across_cache_copies": true,
+        "source_copy_count": 2
+      }
+    },
+    {
+      "record_id": "danke-review-4236",
+      "course_code": "CHEM10004",
+      "course_code_candidates": [
+        "CHEM10004"
+      ],
+      "raw_group_course_code": "CHEM120006",
+      "course_name": "普通化学A（下）",
+      "group_name": "普通化学A（下）",
+      "course_mapping_status": "assigned_historical",
+      "course_mapping_basis": "historical_group_code_mapping",
+      "source": "蛋壳课评课程组全文缓存",
+      "source_type": "danke_group_review",
+      "source_ids": {
+        "group_id": 2086,
+        "review_id": 4236,
+        "offering_ids": []
+      },
+      "teacher": [
+        "王丛笑"
+      ],
+      "teacher_relation_to_live_scope": "teacher_listed_in_live_official_scope",
+      "term": "2024暑期",
+      "term_from_group_metadata": "2024暑期",
+      "term_claimed_in_review": null,
+      "term_basis": "group_offering_metadata",
+      "review_type": "experience_with_hearsay_claims",
+      "review_status": "include_with_attribution_caveat",
+      "reading_status": "full_text_read",
+      "deduplication": {
+        "review_id_deduplicated_across_cache_copies": true,
+        "source_copy_count": 2
+      },
+      "paraphrase": "作者称王丛笑班期中后会安排看错题，自己对期末大题把握不大但自报最终获A；关于荣誉班和整体A类比例的内容是其听闻。",
+      "facets": [
+        "考核",
+        "教师反馈",
+        "个人成绩"
+      ],
+      "caveat": "2024暑期历史评价；荣誉班与给分比例为转述，未核实。"
+    },
+    {
+      "record_id": "danke-review-191",
+      "course_code": "CHEM10005",
+      "course_code_candidates": [
+        "CHEM10005"
+      ],
+      "raw_group_course_code": "CHEM120009",
+      "course_name": "普通化学实验I",
+      "group_name": "普通化学实验I",
+      "course_mapping_status": "assigned_historical",
+      "course_mapping_basis": "historical_group_code_mapping",
+      "source": "蛋壳课评课程组全文缓存",
+      "source_type": "danke_group_review",
+      "source_ids": {
+        "group_id": 99,
+        "review_id": 191,
+        "offering_ids": []
+      },
+      "teacher": [
+        "赵滨",
+        "沈建中",
+        "唐云",
+        "石梅",
+        "叶匀分",
+        "程晓维",
+        "任楠",
+        "钱林平",
+        "李晓民",
+        "方雪恩",
+        "王冠军",
+        "陈雪莹",
+        "凌云"
+      ],
+      "teacher_relation_to_live_scope": "teacher_listed_in_live_official_scope",
+      "term": "2019暑期",
+      "term_from_group_metadata": "2019暑期",
+      "term_claimed_in_review": null,
+      "term_basis": "group_offering_metadata",
+      "review_type": "experience_with_hearsay_claims",
+      "review_status": "include_with_attribution_caveat",
+      "reading_status": "full_text_read",
+      "deduplication": {
+        "review_id_deduplicated_across_cache_copies": true,
+        "source_copy_count": 2
+      },
+      "paraphrase": "作者回忆2019暑期实验室随机分配时，孙兴文因人手不足带过其所在实验室；作者觉得教师为人友善但对操作要求严格，并回忆有同学打碎烧瓶后受到严格处理。",
+      "facets": [
+        "实验指导",
+        "课堂要求"
+      ],
+      "caveat": "2019暑期观察/转述，评论者并非该教师正式分配班级，适用性有限。"
+    },
+    {
+      "record_id": "danke-review-1200",
+      "course_code": "CHEM10005",
+      "course_code_candidates": [
+        "CHEM10005"
+      ],
+      "raw_group_course_code": "CHEM120009",
+      "course_name": "普通化学实验I",
+      "group_name": "普通化学实验I",
+      "course_mapping_status": "assigned_historical",
+      "course_mapping_basis": "historical_group_code_mapping",
+      "source": "蛋壳课评课程组全文缓存",
+      "source_type": "danke_group_review",
+      "source_ids": {
+        "group_id": 99,
+        "review_id": 1200,
+        "offering_ids": []
+      },
+      "teacher": [
+        "任楠"
+      ],
+      "teacher_relation_to_live_scope": "teacher_listed_in_live_official_scope",
+      "term": "2022秋",
+      "term_from_group_metadata": "2022秋",
+      "term_claimed_in_review": null,
+      "term_basis": "group_offering_metadata",
+      "review_type": "course_experience_or_assessment",
+      "review_status": "included",
+      "reading_status": "full_text_read",
+      "deduplication": {
+        "review_id_deduplicated_across_cache_copies": true,
+        "source_copy_count": 2
+      },
+      "paraphrase": "作者称该实验课约每两周一次实验，需课前准备、课后处理数据并完成报告，通常没有期末考试；实验包括合成和分析。其认为实验对初学者有助于熟悉基本操作和安全规范，报告时间较宽裕。",
+      "facets": [
+        "实验内容",
+        "工作量",
+        "考核",
+        "学习收获"
+      ],
+      "caveat": "2022秋历史个人评价，班级安排可能随学期变化。"
+    },
+    {
+      "record_id": "danke-review-541",
+      "course_code": "CHEM10005",
+      "course_code_candidates": [
+        "CHEM10005"
+      ],
+      "raw_group_course_code": "CHEM120009",
+      "course_name": "普通化学实验I",
+      "group_name": "普通化学实验I",
+      "course_mapping_status": "assigned_historical",
+      "course_mapping_basis": "historical_group_code_mapping",
+      "source": "蛋壳课评课程组全文缓存",
+      "source_type": "danke_group_review",
+      "source_ids": {
+        "group_id": 99,
+        "review_id": 541,
+        "offering_ids": []
+      },
+      "teacher": [
+        "赵滨"
+      ],
+      "teacher_relation_to_live_scope": "teacher_listed_in_live_official_scope",
+      "term": "2022秋",
+      "term_from_group_metadata": "2022秋",
+      "term_claimed_in_review": null,
+      "term_basis": "group_offering_metadata",
+      "review_type": "experience_with_hearsay_claims",
+      "review_status": "include_with_attribution_caveat",
+      "reading_status": "full_text_read",
+      "deduplication": {
+        "review_id_deduplicated_across_cache_copies": true,
+        "source_copy_count": 2
+      },
+      "paraphrase": "作者回忆该实验课一学期约有六次实验（因当学期部分线上教学而调整），需交预习报告、由教师/助教观察操作，并完成数据处理与误差分析；课程无期末笔试，主要按实验报告和操作评价。文中班级成绩比例是作者估算。",
+      "facets": [
+        "实验内容",
+        "考核",
+        "成绩分布"
+      ],
+      "caveat": "2022秋历史个人经验；次数和成绩比例均为作者回忆或估算。"
+    },
+    {
+      "record_id": "danke-review-1076",
+      "course_code": "CHEM10005",
+      "course_code_candidates": [
+        "CHEM10005"
+      ],
+      "raw_group_course_code": "CHEM120009",
+      "course_name": "普通化学实验I",
+      "group_name": "普通化学实验I",
+      "course_mapping_status": "assigned_historical",
+      "course_mapping_basis": "historical_group_code_mapping",
+      "source": "蛋壳课评课程组全文缓存",
+      "source_type": "danke_group_review",
+      "source_ids": {
+        "group_id": 99,
+        "review_id": 1076,
+        "offering_ids": []
+      },
+      "teacher": [
+        "凌云"
+      ],
+      "teacher_relation_to_live_scope": "teacher_listed_in_live_official_scope",
+      "term": "2023秋",
+      "term_from_group_metadata": "2023秋",
+      "term_claimed_in_review": null,
+      "term_basis": "group_offering_metadata",
+      "review_type": "brief_opinion",
+      "review_status": "included_low_detail",
+      "reading_status": "full_text_read",
+      "deduplication": {
+        "review_id_deduplicated_across_cache_copies": true,
+        "source_copy_count": 2
+      },
+      "paraphrase": "作者对凌云2023秋普化实验班的课堂沟通和报告要求不满，认为实验失误时会受到较大压力，报告要求不够清楚。",
+      "facets": [
+        "实验指导",
+        "报告要求",
+        "师生互动"
+      ],
+      "caveat": "2023秋个人负面评价。"
+    },
+    {
+      "record_id": "danke-review-1226",
+      "course_code": "CHEM10005",
+      "course_code_candidates": [
+        "CHEM10005"
+      ],
+      "raw_group_course_code": "CHEM120009",
+      "course_name": "普通化学实验I",
+      "group_name": "普通化学实验I",
+      "course_mapping_status": "assigned_historical",
+      "course_mapping_basis": "historical_group_code_mapping",
+      "source": "蛋壳课评课程组全文缓存",
+      "source_type": "danke_group_review",
+      "source_ids": {
+        "group_id": 99,
+        "review_id": 1226,
+        "offering_ids": []
+      },
+      "teacher": [
+        "任楠"
       ],
       "teacher_relation_to_live_scope": "teacher_listed_in_live_official_scope",
       "term": "2023秋",
@@ -165,17 +1362,2028 @@
       "review_type": "course_experience_or_assessment",
       "review_status": "included",
       "reading_status": "full_text_read",
-      "paraphrase": "作者认为本课比物化AⅠ更细致地讲授量子理论，并把这些内容视为理解有机、配位与光谱理论的基础；同时指出课程偏传统波动力学推导，可能不足以直接阅读较新的矩阵力学文献。作者认为复数、线性代数和高数是有用准备，并提醒部分年份考试难度可能较高；关于给分的说法来自个人对往年情况的观察。",
+      "deduplication": {
+        "review_id_deduplicated_across_cache_copies": true,
+        "source_copy_count": 2
+      },
+      "paraphrase": "作者称任楠会在实验前集中、细致讲解，出错时优先纠正并尽量避免返工；作者认为课程任务量不大、对学生比较宽容。",
       "facets": [
-        "课程价值",
-        "课程内容",
-        "先修",
-        "考试与给分"
+        "实验指导",
+        "工作量",
+        "师生互动"
       ],
-      "caveat": "2023秋个人评价；对现代理论衔接、考试和历年给分的判断均为作者意见。",
+      "caveat": "2023秋历史个人评价。"
+    },
+    {
+      "record_id": "danke-review-1530",
+      "course_code": "CHEM10005",
+      "course_code_candidates": [
+        "CHEM10005"
+      ],
+      "raw_group_course_code": "CHEM120009",
+      "course_name": "普通化学实验I",
+      "group_name": "普通化学实验I",
+      "course_mapping_status": "assigned_historical",
+      "course_mapping_basis": "historical_group_code_mapping",
+      "source": "蛋壳课评课程组全文缓存",
+      "source_type": "danke_group_review",
+      "source_ids": {
+        "group_id": 99,
+        "review_id": 1530,
+        "offering_ids": []
+      },
+      "teacher": [
+        "魏晓芳"
+      ],
+      "teacher_relation_to_live_scope": "teacher_listed_in_live_official_scope",
+      "term": "2023秋",
+      "term_from_group_metadata": "2023秋",
+      "term_claimed_in_review": null,
+      "term_basis": "group_offering_metadata",
+      "review_type": "course_experience_or_assessment",
+      "review_status": "included",
+      "reading_status": "full_text_read",
+      "deduplication": {
+        "review_id_deduplicated_across_cache_copies": true,
+        "source_copy_count": 2
+      },
+      "paraphrase": "作者称魏晓芳2023秋普化实验课会详细说明原理和操作步骤，实验中答疑、纠错耐心；教师不催促完成速度，作者整体体验轻松。",
+      "facets": [
+        "实验指导",
+        "答疑",
+        "实验节奏"
+      ],
+      "caveat": "2023秋历史单人评价。"
+    },
+    {
+      "record_id": "danke-review-1656",
+      "course_code": "CHEM10005",
+      "course_code_candidates": [
+        "CHEM10005"
+      ],
+      "raw_group_course_code": "CHEM120009",
+      "course_name": "普通化学实验I",
+      "group_name": "普通化学实验I",
+      "course_mapping_status": "assigned_historical",
+      "course_mapping_basis": "historical_group_code_mapping",
+      "source": "蛋壳课评课程组全文缓存",
+      "source_type": "danke_group_review",
+      "source_ids": {
+        "group_id": 99,
+        "review_id": 1656,
+        "offering_ids": []
+      },
+      "teacher": [
+        "陈末华"
+      ],
+      "teacher_relation_to_live_scope": "teacher_listed_in_live_official_scope",
+      "term": "2023秋",
+      "term_from_group_metadata": "2023秋",
+      "term_claimed_in_review": null,
+      "term_basis": "group_offering_metadata",
+      "review_type": "course_experience_or_assessment",
+      "review_status": "included",
+      "reading_status": "full_text_read",
+      "deduplication": {
+        "review_id_deduplicated_across_cache_copies": true,
+        "source_copy_count": 2
+      },
+      "paraphrase": "作者觉得普通化学实验I本身操作和预习难度不高；其本人认为陈末华讲解尚可，但转述学长有不同评价。作者对给分不满，并转述小班等级分布传闻。",
+      "facets": [
+        "实验内容",
+        "教学评价",
+        "给分感受"
+      ],
+      "caveat": "2023秋历史评论；关于教师评价及成绩比例含二手信息，未核实。"
+    },
+    {
+      "record_id": "danke-review-4149",
+      "course_code": "CHEM10005",
+      "course_code_candidates": [
+        "CHEM10005"
+      ],
+      "raw_group_course_code": "CHEM120009",
+      "course_name": "普通化学实验I",
+      "group_name": "普通化学实验I",
+      "course_mapping_status": "assigned_historical",
+      "course_mapping_basis": "historical_group_code_mapping",
+      "source": "蛋壳课评课程组全文缓存",
+      "source_type": "danke_group_review",
+      "source_ids": {
+        "group_id": 99,
+        "review_id": 4149,
+        "offering_ids": []
+      },
+      "teacher": [
+        "王冠军"
+      ],
+      "teacher_relation_to_live_scope": "teacher_listed_in_live_official_scope",
+      "term": "2024暑期",
+      "term_from_group_metadata": "2024暑期",
+      "term_claimed_in_review": null,
+      "term_basis": "group_offering_metadata",
+      "review_type": "course_experience_or_assessment",
+      "review_status": "included",
+      "reading_status": "full_text_read",
+      "deduplication": {
+        "review_id_deduplicated_across_cache_copies": true,
+        "source_copy_count": 2
+      },
+      "paraphrase": "作者认为王冠军班的小班规模可能使成绩等级分布受限，个人觉得授课体验难以简单评价，并建议有选择时考虑其他教师班。",
+      "facets": [
+        "班级规模",
+        "给分感受"
+      ],
+      "caveat": "2024暑期历史个人评价，缺少具体课程/评分细节。"
+    },
+    {
+      "record_id": "danke-review-4151",
+      "course_code": "CHEM10005",
+      "course_code_candidates": [
+        "CHEM10005"
+      ],
+      "raw_group_course_code": "CHEM120009",
+      "course_name": "普通化学实验I",
+      "group_name": "普通化学实验I",
+      "course_mapping_status": "assigned_historical",
+      "course_mapping_basis": "historical_group_code_mapping",
+      "source": "蛋壳课评课程组全文缓存",
+      "source_type": "danke_group_review",
+      "source_ids": {
+        "group_id": 99,
+        "review_id": 4151,
+        "offering_ids": []
+      },
+      "teacher": [
+        "王冠军"
+      ],
+      "teacher_relation_to_live_scope": "teacher_listed_in_live_official_scope",
+      "term": "2024暑期",
+      "term_from_group_metadata": "2024暑期",
+      "term_claimed_in_review": null,
+      "term_basis": "group_offering_metadata",
+      "review_type": "experience_with_hearsay_claims",
+      "review_status": "include_with_attribution_caveat",
+      "reading_status": "full_text_read",
+      "deduplication": {
+        "review_id_deduplicated_across_cache_copies": true,
+        "source_copy_count": 2
+      },
+      "paraphrase": "作者称王冠军班要求提前到场，教师会等大多数同学到齐再开始；作者认为认真完成实验和报告应有助于成绩，并转述小班可能存在等级分布限制。",
+      "facets": [
+        "课堂管理",
+        "实验报告",
+        "给分感受"
+      ],
+      "caveat": "2024暑期个人评价；等级分布部分为传闻，不作事实。"
+    },
+    {
+      "record_id": "danke-review-4152",
+      "course_code": "CHEM10005",
+      "course_code_candidates": [
+        "CHEM10005"
+      ],
+      "raw_group_course_code": "CHEM120009",
+      "course_name": "普通化学实验I",
+      "group_name": "普通化学实验I",
+      "course_mapping_status": "assigned_historical",
+      "course_mapping_basis": "historical_group_code_mapping",
+      "source": "蛋壳课评课程组全文缓存",
+      "source_type": "danke_group_review",
+      "source_ids": {
+        "group_id": 99,
+        "review_id": 4152,
+        "offering_ids": []
+      },
+      "teacher": [
+        "赵滨"
+      ],
+      "teacher_relation_to_live_scope": "teacher_listed_in_live_official_scope",
+      "term": "2024暑期",
+      "term_from_group_metadata": "2024暑期",
+      "term_claimed_in_review": null,
+      "term_basis": "group_offering_metadata",
+      "review_type": "course_experience_or_assessment",
+      "review_status": "included",
+      "reading_status": "full_text_read",
+      "deduplication": {
+        "review_id_deduplicated_across_cache_copies": true,
+        "source_copy_count": 2
+      },
+      "paraphrase": "作者觉得赵滨班的实验讲解过细、实验时间较长，并称小操作错误也会被严格指出；其认为成绩主要取决于报告，并自报获较低档B+。",
+      "facets": [
+        "实验指导",
+        "工作量",
+        "考核与个人成绩"
+      ],
+      "caveat": "2024暑期单人负面体验；对报告权重的说法是个人判断。"
+    },
+    {
+      "record_id": "danke-review-4166",
+      "course_code": "CHEM10005",
+      "course_code_candidates": [
+        "CHEM10005"
+      ],
+      "raw_group_course_code": "CHEM120009",
+      "course_name": "普通化学实验I",
+      "group_name": "普通化学实验I",
+      "course_mapping_status": "assigned_historical",
+      "course_mapping_basis": "historical_group_code_mapping",
+      "source": "蛋壳课评课程组全文缓存",
+      "source_type": "danke_group_review",
+      "source_ids": {
+        "group_id": 99,
+        "review_id": 4166,
+        "offering_ids": []
+      },
+      "teacher": [
+        "陈珍霞"
+      ],
+      "teacher_relation_to_live_scope": "teacher_listed_in_live_official_scope",
+      "term": "2024暑期",
+      "term_from_group_metadata": "2024暑期",
+      "term_claimed_in_review": null,
+      "term_basis": "group_offering_metadata",
+      "review_type": "course_experience_or_assessment",
+      "review_status": "included",
+      "reading_status": "full_text_read",
+      "deduplication": {
+        "review_id_deduplicated_across_cache_copies": true,
+        "source_copy_count": 2
+      },
+      "paraphrase": "作者认为陈珍霞班的实验评分依据不透明，自己及同学难以解释最终成绩差异；评论未提供具体实验内容或评分细则。",
+      "facets": [
+        "评分透明度",
+        "成绩反馈"
+      ],
+      "caveat": "2024暑期个人评价。"
+    },
+    {
+      "record_id": "danke-review-4374",
+      "course_code": "CHEM10005",
+      "course_code_candidates": [
+        "CHEM10005"
+      ],
+      "raw_group_course_code": "CHEM120009",
+      "course_name": "普通化学实验I",
+      "group_name": "普通化学实验I",
+      "course_mapping_status": "assigned_historical",
+      "course_mapping_basis": "historical_group_code_mapping",
+      "source": "蛋壳课评课程组全文缓存",
+      "source_type": "danke_group_review",
+      "source_ids": {
+        "group_id": 99,
+        "review_id": 4374,
+        "offering_ids": []
+      },
+      "teacher": [
+        "刘瑞婷"
+      ],
+      "teacher_relation_to_live_scope": "teacher_listed_in_live_official_scope",
+      "term": "2024暑期",
+      "term_from_group_metadata": "2024暑期",
+      "term_claimed_in_review": null,
+      "term_basis": "group_offering_metadata",
+      "review_type": "course_experience_or_assessment",
+      "review_status": "included",
+      "reading_status": "full_text_read",
+      "deduplication": {
+        "review_id_deduplicated_across_cache_copies": true,
+        "source_copy_count": 2
+      },
+      "paraphrase": "作者称刘瑞婷对学生犯错较宽容，实验讲解清楚；其自报曾犯错并略迟到仍获A−，认为按要求完成报告即可，工作量不重。",
+      "facets": [
+        "实验指导",
+        "工作量",
+        "个人成绩"
+      ],
+      "caveat": "2024暑期历史单人经验。"
+    },
+    {
+      "record_id": "danke-review-4440",
+      "course_code": "CHEM10005",
+      "course_code_candidates": [
+        "CHEM10005"
+      ],
+      "raw_group_course_code": "CHEM120009",
+      "course_name": "普通化学实验I",
+      "group_name": "普通化学实验I",
+      "course_mapping_status": "assigned_historical",
+      "course_mapping_basis": "historical_group_code_mapping",
+      "source": "蛋壳课评课程组全文缓存",
+      "source_type": "danke_group_review",
+      "source_ids": {
+        "group_id": 99,
+        "review_id": 4440,
+        "offering_ids": []
+      },
+      "teacher": [
+        "凌云"
+      ],
+      "teacher_relation_to_live_scope": "teacher_listed_in_live_official_scope",
+      "term": "2024暑期",
+      "term_from_group_metadata": "2024暑期",
+      "term_claimed_in_review": null,
+      "term_basis": "group_offering_metadata",
+      "review_type": "course_experience_or_assessment",
+      "review_status": "included",
+      "reading_status": "full_text_read",
+      "deduplication": {
+        "review_id_deduplicated_across_cache_copies": true,
+        "source_copy_count": 2
+      },
+      "paraphrase": "作者认为凌云班的实验内容和工作量与其他班大致统一，但对课堂沟通和给分感受强烈不满。",
+      "facets": [
+        "课堂互动",
+        "工作量",
+        "给分感受"
+      ],
+      "caveat": "2024暑期单人负面评价。"
+    },
+    {
+      "record_id": "danke-review-4531",
+      "course_code": "CHEM10005",
+      "course_code_candidates": [
+        "CHEM10005"
+      ],
+      "raw_group_course_code": "CHEM120009",
+      "course_name": "普通化学实验I",
+      "group_name": "普通化学实验I",
+      "course_mapping_status": "assigned_historical",
+      "course_mapping_basis": "historical_group_code_mapping",
+      "source": "蛋壳课评课程组全文缓存",
+      "source_type": "danke_group_review",
+      "source_ids": {
+        "group_id": 99,
+        "review_id": 4531,
+        "offering_ids": []
+      },
+      "teacher": [
+        "赵滨"
+      ],
+      "teacher_relation_to_live_scope": "teacher_listed_in_live_official_scope",
+      "term": "2024暑期",
+      "term_from_group_metadata": "2024暑期",
+      "term_claimed_in_review": null,
+      "term_basis": "group_offering_metadata",
+      "review_type": "observer_or_hearsay_about_other_section",
+      "review_status": "limited_transferability",
+      "reading_status": "full_text_read",
+      "deduplication": {
+        "review_id_deduplicated_across_cache_copies": true,
+        "source_copy_count": 2
+      },
+      "paraphrase": "作者对赵滨另一班的观察是实验讲解细但常延长下课时间，认为班内验收速度可能与成绩有关；同时称有问题时老师和助教会答疑。",
+      "facets": [
+        "实验时间",
+        "考核观察",
+        "答疑"
+      ],
+      "caveat": "评论者观察的是其他班，转移到本班的参考性有限；源记录已标为旁观/有限可迁移。"
+    },
+    {
+      "record_id": "danke-review-4599",
+      "course_code": "CHEM10005",
+      "course_code_candidates": [
+        "CHEM10005"
+      ],
+      "raw_group_course_code": "CHEM120009",
+      "course_name": "普通化学实验I",
+      "group_name": "普通化学实验I",
+      "course_mapping_status": "assigned_historical",
+      "course_mapping_basis": "historical_group_code_mapping",
+      "source": "蛋壳课评课程组全文缓存",
+      "source_type": "danke_group_review",
+      "source_ids": {
+        "group_id": 99,
+        "review_id": 4599,
+        "offering_ids": []
+      },
+      "teacher": [
+        "凌云"
+      ],
+      "teacher_relation_to_live_scope": "teacher_listed_in_live_official_scope",
+      "term": "2024暑期",
+      "term_from_group_metadata": "2024暑期",
+      "term_claimed_in_review": null,
+      "term_basis": "group_offering_metadata",
+      "review_type": "observer_or_hearsay_about_other_section",
+      "review_status": "limited_transferability",
+      "reading_status": "full_text_read",
+      "deduplication": {
+        "review_id_deduplicated_across_cache_copies": true,
+        "source_copy_count": 2
+      },
+      "paraphrase": "作者明确表示自己没有选凌云班，但与该实验室相邻，称曾听到教师对学生说话较严厉；不清楚该班评分情况。",
+      "facets": [
+        "教师互动观察"
+      ],
+      "caveat": "旁观其他班级的二手观察，不能作为本班亲历或评分依据。"
+    },
+    {
+      "record_id": "danke-review-5071",
+      "course_code": "CHEM10005",
+      "course_code_candidates": [
+        "CHEM10005"
+      ],
+      "raw_group_course_code": "CHEM120009",
+      "course_name": "普通化学实验I",
+      "group_name": "普通化学实验I",
+      "course_mapping_status": "assigned_historical",
+      "course_mapping_basis": "historical_group_code_mapping",
+      "source": "蛋壳课评课程组全文缓存",
+      "source_type": "danke_group_review",
+      "source_ids": {
+        "group_id": 99,
+        "review_id": 5071,
+        "offering_ids": []
+      },
+      "teacher": [
+        "程晓维"
+      ],
+      "teacher_relation_to_live_scope": "teacher_listed_in_live_official_scope",
+      "term": "2024暑期",
+      "term_from_group_metadata": "2024暑期",
+      "term_claimed_in_review": null,
+      "term_basis": "group_offering_metadata",
+      "review_type": "experience_with_hearsay_claims",
+      "review_status": "include_with_attribution_caveat",
+      "reading_status": "full_text_read",
+      "deduplication": {
+        "review_id_deduplicated_across_cache_copies": true,
+        "source_copy_count": 2
+      },
+      "paraphrase": "作者认为程晓维实验课轻松有趣，教师会手把手指导，报告仍需认真完成；其转述教师似乎提过A−，但明确表示不确定。",
+      "facets": [
+        "实验指导",
+        "报告",
+        "给分传闻"
+      ],
+      "caveat": "2024暑期历史评价；等级说法未经确认。"
+    },
+    {
+      "record_id": "danke-review-6002",
+      "course_code": "CHEM10005",
+      "course_code_candidates": [
+        "CHEM10005"
+      ],
+      "raw_group_course_code": "CHEM120009",
+      "course_name": "普通化学实验I",
+      "group_name": "普通化学实验I",
+      "course_mapping_status": "assigned_historical",
+      "course_mapping_basis": "historical_group_code_mapping",
+      "source": "蛋壳课评课程组全文缓存",
+      "source_type": "danke_group_review",
+      "source_ids": {
+        "group_id": 99,
+        "review_id": 6002,
+        "offering_ids": []
+      },
+      "teacher": [
+        "凌云"
+      ],
+      "teacher_relation_to_live_scope": "teacher_listed_in_live_official_scope",
+      "term": "2024暑期",
+      "term_from_group_metadata": "2024暑期",
+      "term_claimed_in_review": null,
+      "term_basis": "group_offering_metadata",
+      "review_type": "course_experience_or_assessment",
+      "review_status": "included",
+      "reading_status": "full_text_read",
+      "deduplication": {
+        "review_id_deduplicated_across_cache_copies": true,
+        "source_copy_count": 2
+      },
+      "paraphrase": "作者对凌云班实验指导方式和课堂沟通非常不满，称小操作问题会引来较长批评，并认为最终给分较低；没有提供具体实验或评分记录。",
+      "facets": [
+        "实验指导",
+        "师生互动",
+        "给分感受"
+      ],
+      "caveat": "2024暑期单人强烈负面体验，未获独立印证。"
+    },
+    {
+      "record_id": "danke-review-6539",
+      "course_code": "CHEM10005",
+      "course_code_candidates": [
+        "CHEM10005"
+      ],
+      "raw_group_course_code": "CHEM120009",
+      "course_name": "普通化学实验I",
+      "group_name": "普通化学实验I",
+      "course_mapping_status": "assigned_historical",
+      "course_mapping_basis": "historical_group_code_mapping",
+      "source": "蛋壳课评课程组全文缓存",
+      "source_type": "danke_group_review",
+      "source_ids": {
+        "group_id": 99,
+        "review_id": 6539,
+        "offering_ids": []
+      },
+      "teacher": [
+        "晁栋梁"
+      ],
+      "teacher_relation_to_live_scope": "teacher_listed_in_live_official_scope",
+      "term": "2024暑期",
+      "term_from_group_metadata": "2024暑期",
+      "term_claimed_in_review": null,
+      "term_basis": "group_offering_metadata",
+      "review_type": "course_experience_or_assessment",
+      "review_status": "included",
+      "reading_status": "full_text_read",
+      "deduplication": {
+        "review_id_deduplicated_across_cache_copies": true,
+        "source_copy_count": 2
+      },
+      "paraphrase": "作者认为晁栋梁教师年轻、友善，教学水平不错；其提到教师偶尔不在课上，最终给分感觉尚可，并转述同学曾集体表达希望增加A−。",
+      "facets": [
+        "课堂安排",
+        "教师体验",
+        "给分感受"
+      ],
+      "caveat": "2024暑期个人评价；教师缺课与评分协商内容均为匿名作者陈述。"
+    },
+    {
+      "record_id": "danke-review-2959",
+      "course_code": "CHEM10005",
+      "course_code_candidates": [
+        "CHEM10005"
+      ],
+      "raw_group_course_code": "CHEM120009",
+      "course_name": "普通化学实验I",
+      "group_name": "普通化学实验I",
+      "course_mapping_status": "assigned_historical",
+      "course_mapping_basis": "historical_group_code_mapping",
+      "source": "蛋壳课评课程组全文缓存",
+      "source_type": "danke_group_review",
+      "source_ids": {
+        "group_id": 99,
+        "review_id": 2959,
+        "offering_ids": []
+      },
+      "teacher": [
+        "龚鸣"
+      ],
+      "teacher_relation_to_live_scope": "teacher_listed_in_live_official_scope",
+      "term": "2024秋",
+      "term_from_group_metadata": "2024秋",
+      "term_claimed_in_review": null,
+      "term_basis": "group_offering_metadata",
+      "review_type": "course_experience_or_assessment",
+      "review_status": "included",
+      "reading_status": "full_text_read",
+      "deduplication": {
+        "review_id_deduplicated_across_cache_copies": true,
+        "source_copy_count": 2
+      },
+      "paraphrase": "作者称龚鸣班对实验步骤讲解细、纠错态度温和；其本人报告曾出现多种操作失误，最终自报获A−，但不清楚报告与操作各自如何计分。",
+      "facets": [
+        "实验指导",
+        "个人成绩",
+        "评分透明度"
+      ],
+      "caveat": "2024秋单人经验，个人成绩自报。"
+    },
+    {
+      "record_id": "danke-review-3074",
+      "course_code": "CHEM10005",
+      "course_code_candidates": [
+        "CHEM10005"
+      ],
+      "raw_group_course_code": "CHEM120009",
+      "course_name": "普通化学实验I",
+      "group_name": "普通化学实验I",
+      "course_mapping_status": "assigned_historical",
+      "course_mapping_basis": "historical_group_code_mapping",
+      "source": "蛋壳课评课程组全文缓存",
+      "source_type": "danke_group_review",
+      "source_ids": {
+        "group_id": 99,
+        "review_id": 3074,
+        "offering_ids": []
+      },
+      "teacher": [
+        "石梅"
+      ],
+      "teacher_relation_to_live_scope": "teacher_listed_in_live_official_scope",
+      "term": "2024秋",
+      "term_from_group_metadata": "2024秋",
+      "term_claimed_in_review": null,
+      "term_basis": "group_offering_metadata",
+      "review_type": "course_experience_or_assessment",
+      "review_status": "included",
+      "reading_status": "full_text_read",
+      "deduplication": {
+        "review_id_deduplicated_across_cache_copies": true,
+        "source_copy_count": 2
+      },
+      "paraphrase": "作者称石梅班实验讲解细、纠正错误时态度温和，并举例稀土实验中的产物绘图活动；其自报打碎过量筒仍获A，整体体验积极。",
+      "facets": [
+        "实验内容",
+        "实验指导",
+        "个人成绩"
+      ],
+      "caveat": "2024秋历史单人经验，成绩自报。"
+    },
+    {
+      "record_id": "danke-review-3360",
+      "course_code": "CHEM10005",
+      "course_code_candidates": [
+        "CHEM10005"
+      ],
+      "raw_group_course_code": "CHEM120009",
+      "course_name": "普通化学实验I",
+      "group_name": "普通化学实验I",
+      "course_mapping_status": "assigned_historical",
+      "course_mapping_basis": "historical_group_code_mapping",
+      "source": "蛋壳课评课程组全文缓存",
+      "source_type": "danke_group_review",
+      "source_ids": {
+        "group_id": 99,
+        "review_id": 3360,
+        "offering_ids": []
+      },
+      "teacher": [
+        "李晓民"
+      ],
+      "teacher_relation_to_live_scope": "teacher_listed_in_live_official_scope",
+      "term": "2024秋",
+      "term_from_group_metadata": "2024秋",
+      "term_claimed_in_review": null,
+      "term_basis": "group_offering_metadata",
+      "review_type": "brief_opinion",
+      "review_status": "included_low_detail",
+      "reading_status": "full_text_read",
+      "deduplication": {
+        "review_id_deduplicated_across_cache_copies": true,
+        "source_copy_count": 2
+      },
+      "paraphrase": "作者称李晓民讲解耐心、重视操作规范，并在实验失误时帮助补救；其自报七次实验中多次出问题，最终仍获B。",
+      "facets": [
+        "实验指导",
+        "个人成绩"
+      ],
+      "caveat": "2024秋历史个人评价。"
+    },
+    {
+      "record_id": "danke-review-4519",
+      "course_code": "CHEM10005",
+      "course_code_candidates": [
+        "CHEM10005"
+      ],
+      "raw_group_course_code": "CHEM120009",
+      "course_name": "普通化学实验I",
+      "group_name": "普通化学实验I",
+      "course_mapping_status": "assigned_historical",
+      "course_mapping_basis": "historical_group_code_mapping",
+      "source": "蛋壳课评课程组全文缓存",
+      "source_type": "danke_group_review",
+      "source_ids": {
+        "group_id": 99,
+        "review_id": 4519,
+        "offering_ids": []
+      },
+      "teacher": [
+        "凌云"
+      ],
+      "teacher_relation_to_live_scope": "teacher_listed_in_live_official_scope",
+      "term": "2024秋",
+      "term_from_group_metadata": "2024秋",
+      "term_claimed_in_review": null,
+      "term_basis": "group_offering_metadata",
+      "review_type": "experience_with_hearsay_claims",
+      "review_status": "include_with_attribution_caveat",
+      "reading_status": "full_text_read",
+      "deduplication": {
+        "review_id_deduplicated_across_cache_copies": true,
+        "source_copy_count": 2
+      },
+      "paraphrase": "作者称2024秋普通化学实验I要求较长时间预习，并抱怨实验中会因课前未讲到、且其认为不影响操作的问题受到长时间批评，课后提问答复不充分；另转述一名因病请假同学补做实验时遇到沟通和安排困难。",
+      "facets": [
+        "实验准备",
+        "实验指导",
+        "补做安排",
+        "师生沟通"
+      ],
+      "caveat": "这是一条有实质内容的亲历/转述混合评价，初筛曾误标为问课。教师为凌云；其中关于另一名同学请假补做的部分属于转述，全部指控尚未独立核实。"
+    },
+    {
+      "record_id": "danke-review-5171",
+      "course_code": "CHEM10005",
+      "course_code_candidates": [
+        "CHEM10005"
+      ],
+      "raw_group_course_code": "CHEM120009",
+      "course_name": "普通化学实验I",
+      "group_name": "普通化学实验I",
+      "course_mapping_status": "assigned_historical",
+      "course_mapping_basis": "historical_group_code_mapping",
+      "source": "蛋壳课评课程组全文缓存",
+      "source_type": "danke_group_review",
+      "source_ids": {
+        "group_id": 99,
+        "review_id": 5171,
+        "offering_ids": []
+      },
+      "teacher": [
+        "魏晓芳"
+      ],
+      "teacher_relation_to_live_scope": "teacher_listed_in_live_official_scope",
+      "term": "2024秋",
+      "term_from_group_metadata": "2024秋",
+      "term_claimed_in_review": null,
+      "term_basis": "group_offering_metadata",
+      "review_type": "brief_opinion",
+      "review_status": "included_low_detail",
+      "reading_status": "full_text_read",
+      "deduplication": {
+        "review_id_deduplicated_across_cache_copies": true,
+        "source_copy_count": 2
+      },
+      "paraphrase": "作者称魏晓芳普化实验课教师友善，遇到不懂的操作会带学生完成，并认为最终给分不错。",
+      "facets": [
+        "实验指导",
+        "个人体验"
+      ],
+      "caveat": "2024秋历史短评。"
+    },
+    {
+      "record_id": "danke-review-5202",
+      "course_code": "CHEM10005",
+      "course_code_candidates": [
+        "CHEM10005"
+      ],
+      "raw_group_course_code": "CHEM120009",
+      "course_name": "普通化学实验I",
+      "group_name": "普通化学实验I",
+      "course_mapping_status": "assigned_historical",
+      "course_mapping_basis": "historical_group_code_mapping",
+      "source": "蛋壳课评课程组全文缓存",
+      "source_type": "danke_group_review",
+      "source_ids": {
+        "group_id": 99,
+        "review_id": 5202,
+        "offering_ids": []
+      },
+      "teacher": [
+        "凌云"
+      ],
+      "teacher_relation_to_live_scope": "teacher_listed_in_live_official_scope",
+      "term": "2024秋",
+      "term_from_group_metadata": "2024秋",
+      "term_claimed_in_review": null,
+      "term_basis": "group_offering_metadata",
+      "review_type": "course_experience_or_assessment",
+      "review_status": "included",
+      "reading_status": "full_text_read",
+      "deduplication": {
+        "review_id_deduplicated_across_cache_copies": true,
+        "source_copy_count": 2
+      },
+      "paraphrase": "作者表示实验项目本身不难，但认为授课和实验指导沟通不清、犯错时受到较重的批评，并对最终成绩不满；没有提供实验安排或可核验成绩。",
+      "facets": [
+        "实验指导",
+        "师生互动",
+        "个人成绩感受"
+      ],
+      "caveat": "2024秋单人强烈负面体验；对教师行为与评分的判断没有独立佐证。"
+    },
+    {
+      "record_id": "danke-review-6524",
+      "course_code": "CHEM10005",
+      "course_code_candidates": [
+        "CHEM10005"
+      ],
+      "raw_group_course_code": "CHEM10005",
+      "course_name": "普通化学实验I",
+      "group_name": "普通化学实验I",
+      "course_mapping_status": "assigned",
+      "course_mapping_basis": "official_course_code",
+      "source": "蛋壳课评课程组全文缓存",
+      "source_type": "danke_group_review",
+      "source_ids": {
+        "group_id": 6734,
+        "review_id": 6524,
+        "offering_ids": []
+      },
+      "teacher": [
+        "刘倩"
+      ],
+      "teacher_relation_to_live_scope": "teacher_listed_in_live_official_scope",
+      "term": "2025秋",
+      "term_from_group_metadata": "2025秋",
+      "term_claimed_in_review": null,
+      "term_basis": "group_offering_metadata",
+      "review_type": "course_experience_or_assessment",
+      "review_status": "included",
+      "reading_status": "full_text_read",
+      "deduplication": {
+        "review_id_deduplicated_across_cache_copies": true,
+        "source_copy_count": 2
+      },
+      "paraphrase": "作者称刘倩实验指导耐心、课堂压力小，自己自报获A；因同学操作表现看起来相近，作者不清楚实验报告之外的评分依据。",
+      "facets": [
+        "实验指导",
+        "个人成绩",
+        "评分透明度"
+      ],
+      "caveat": "2025秋当前班级个人评价。"
+    },
+    {
+      "record_id": "danke-review-192",
+      "course_code": "CHEM10006",
+      "course_code_candidates": [
+        "CHEM10006"
+      ],
+      "raw_group_course_code": "CHEM120011",
+      "course_name": "有机化学实验I",
+      "group_name": "有机化学实验I",
+      "course_mapping_status": "assigned_historical",
+      "course_mapping_basis": "historical_group_code_mapping",
+      "source": "蛋壳课评课程组全文缓存",
+      "source_type": "danke_group_review",
+      "source_ids": {
+        "group_id": 2087,
+        "review_id": 192,
+        "offering_ids": []
+      },
+      "teacher": [
+        "匡云艳",
+        "储艳秋",
+        "刘锋",
+        "钱辉",
+        "邓名莉",
+        "钱林平",
+        "林阳辉",
+        "刘瑞婷"
+      ],
+      "teacher_relation_to_live_scope": "teacher_listed_in_live_official_scope",
+      "term": "2019暑期",
+      "term_from_group_metadata": "2019暑期",
+      "term_claimed_in_review": null,
+      "term_basis": "group_offering_metadata",
+      "review_type": "course_experience_or_assessment",
+      "review_status": "included",
+      "reading_status": "full_text_read",
+      "deduplication": {
+        "review_id_deduplicated_across_cache_copies": true,
+        "source_copy_count": 2
+      },
+      "paraphrase": "作者回忆2019暑期分到储艳秋、林阳辉老师负责的有机实验室，认为教师讲解较好、整门课相对轻松有趣，尤其比普化实验更轻松。",
+      "facets": [
+        "实验体验",
+        "教师讲解"
+      ],
+      "caveat": "2019暑期历史评价，教师名单属于当年多实验室安排。"
+    },
+    {
+      "record_id": "danke-review-1885",
+      "course_code": "CHEM10006",
+      "course_code_candidates": [
+        "CHEM10006"
+      ],
+      "raw_group_course_code": "CHEM120011",
+      "course_name": "有机化学实验I",
+      "group_name": "有机化学实验I",
+      "course_mapping_status": "assigned_historical",
+      "course_mapping_basis": "historical_group_code_mapping",
+      "source": "蛋壳课评课程组全文缓存",
+      "source_type": "danke_group_review",
+      "source_ids": {
+        "group_id": 2087,
+        "review_id": 1885,
+        "offering_ids": []
+      },
+      "teacher": [
+        "程荡"
+      ],
+      "teacher_relation_to_live_scope": "other_or_historical_teacher",
+      "term": "2024春",
+      "term_from_group_metadata": "2021暑期",
+      "term_claimed_in_review": "2024春",
+      "term_basis": "explicit_review_text",
+      "review_type": "brief_opinion",
+      "review_status": "included_low_detail",
+      "reading_status": "full_text_read",
+      "deduplication": {
+        "review_id_deduplicated_across_cache_copies": true,
+        "source_copy_count": 2
+      },
+      "paraphrase": "作者称程荡有机实验课教师和助教会手把手指导操作，课堂氛围友善；其转述教师表示会尽量多给A类，并认为最终成绩较好。",
+      "facets": [
+        "实验指导",
+        "助教支持",
+        "给分感受"
+      ],
+      "caveat": "2024春历史短评；给分承诺为作者转述。"
+    },
+    {
+      "record_id": "danke-review-3686",
+      "course_code": "CHEM10006",
+      "course_code_candidates": [
+        "CHEM10006"
+      ],
+      "raw_group_course_code": "CHEM120011",
+      "course_name": "有机化学实验I",
+      "group_name": "有机化学实验I",
+      "course_mapping_status": "assigned_historical",
+      "course_mapping_basis": "historical_group_code_mapping",
+      "source": "蛋壳课评课程组全文缓存",
+      "source_type": "danke_group_review",
+      "source_ids": {
+        "group_id": 2087,
+        "review_id": 3686,
+        "offering_ids": []
+      },
+      "teacher": [
+        "孙默"
+      ],
+      "teacher_relation_to_live_scope": "other_or_historical_teacher",
+      "term": "2024暑期",
+      "term_from_group_metadata": "2024暑期",
+      "term_claimed_in_review": null,
+      "term_basis": "group_offering_metadata",
+      "review_type": "course_experience_or_assessment",
+      "review_status": "included",
+      "reading_status": "full_text_read",
+      "deduplication": {
+        "review_id_deduplicated_across_cache_copies": true,
+        "source_copy_count": 2
+      },
+      "paraphrase": "作者认为孙默班实验报告对篇幅和内容质量要求较高，觉得实验指导方式不够清楚，因此不适合只想减少工作量或追求容易得分的学生。",
+      "facets": [
+        "实验报告",
+        "工作量",
+        "教学体验"
+      ],
+      "caveat": "2024暑期历史单人负面评价。"
+    },
+    {
+      "record_id": "danke-review-4232",
+      "course_code": "CHEM10006",
+      "course_code_candidates": [
+        "CHEM10006"
+      ],
+      "raw_group_course_code": "CHEM120011",
+      "course_name": "有机化学实验I",
+      "group_name": "有机化学实验I",
+      "course_mapping_status": "assigned_historical",
+      "course_mapping_basis": "historical_group_code_mapping",
+      "source": "蛋壳课评课程组全文缓存",
+      "source_type": "danke_group_review",
+      "source_ids": {
+        "group_id": 2087,
+        "review_id": 4232,
+        "offering_ids": []
+      },
+      "teacher": [
+        "孙默"
+      ],
+      "teacher_relation_to_live_scope": "other_or_historical_teacher",
+      "term": "2024暑期",
+      "term_from_group_metadata": "2024暑期",
+      "term_claimed_in_review": null,
+      "term_basis": "group_offering_metadata",
+      "review_type": "brief_opinion",
+      "review_status": "included_low_detail",
+      "reading_status": "full_text_read",
+      "deduplication": {
+        "review_id_deduplicated_across_cache_copies": true,
+        "source_copy_count": 2
+      },
+      "paraphrase": "作者认为孙默有机实验的提问方式不够清楚，报告既要求篇幅也要求内容质量，并质疑实验课评分机制。",
+      "facets": [
+        "实验报告",
+        "课堂提问",
+        "评分制度"
+      ],
+      "caveat": "2024暑期个人负面短评。"
+    },
+    {
+      "record_id": "danke-review-4256",
+      "course_code": "CHEM10006",
+      "course_code_candidates": [
+        "CHEM10006"
+      ],
+      "raw_group_course_code": "CHEM120011",
+      "course_name": "有机化学实验I",
+      "group_name": "有机化学实验I",
+      "course_mapping_status": "assigned_historical",
+      "course_mapping_basis": "historical_group_code_mapping",
+      "source": "蛋壳课评课程组全文缓存",
+      "source_type": "danke_group_review",
+      "source_ids": {
+        "group_id": 2087,
+        "review_id": 4256,
+        "offering_ids": []
+      },
+      "teacher": [
+        "钱林平"
+      ],
+      "teacher_relation_to_live_scope": "teacher_listed_in_live_official_scope",
+      "term": "2024暑期",
+      "term_from_group_metadata": "2024暑期",
+      "term_claimed_in_review": null,
+      "term_basis": "group_offering_metadata",
+      "review_type": "course_experience_or_assessment",
+      "review_status": "included",
+      "reading_status": "full_text_read",
+      "deduplication": {
+        "review_id_deduplicated_across_cache_copies": true,
+        "source_copy_count": 2
+      },
+      "paraphrase": "作者称钱林平会在课堂提问，学生答不出时也会温和提醒；作者自评预习和操作一般且常需教师、助教指导，最后自报获得A。",
+      "facets": [
+        "实验指导",
+        "助教支持",
+        "个人成绩"
+      ],
+      "caveat": "2024暑期单人经验。"
+    },
+    {
+      "record_id": "danke-review-5864",
+      "course_code": "CHEM10006",
+      "course_code_candidates": [
+        "CHEM10006"
+      ],
+      "raw_group_course_code": "CHEM120011",
+      "course_name": "有机化学实验I",
+      "group_name": "有机化学实验I",
+      "course_mapping_status": "assigned_historical",
+      "course_mapping_basis": "historical_group_code_mapping",
+      "source": "蛋壳课评课程组全文缓存",
+      "source_type": "danke_group_review",
+      "source_ids": {
+        "group_id": 2087,
+        "review_id": 5864,
+        "offering_ids": []
+      },
+      "teacher": [
+        "古险峰"
+      ],
+      "teacher_relation_to_live_scope": "teacher_listed_in_live_official_scope",
+      "term": "2024暑期",
+      "term_from_group_metadata": "2024暑期",
+      "term_claimed_in_review": null,
+      "term_basis": "group_offering_metadata",
+      "review_type": "brief_opinion",
+      "review_status": "included_low_detail",
+      "reading_status": "full_text_read",
+      "deduplication": {
+        "review_id_deduplicated_across_cache_copies": true,
+        "source_copy_count": 2
+      },
+      "paraphrase": "作者对古险峰有机化学实验班的课堂互动不满，称预习课件会逐人提问，自己感到被针对并认为体验压力较大。",
+      "facets": [
+        "课堂互动",
+        "实验体验"
+      ],
+      "caveat": "2024暑期个人负面短评。"
+    },
+    {
+      "record_id": "danke-review-6226",
+      "course_code": "CHEM10006",
+      "course_code_candidates": [
+        "CHEM10006"
+      ],
+      "raw_group_course_code": "CHEM120011",
+      "course_name": "有机化学实验I",
+      "group_name": "有机化学实验I",
+      "course_mapping_status": "assigned_historical",
+      "course_mapping_basis": "historical_group_code_mapping",
+      "source": "蛋壳课评课程组全文缓存",
+      "source_type": "danke_group_review",
+      "source_ids": {
+        "group_id": 2087,
+        "review_id": 6226,
+        "offering_ids": []
+      },
+      "teacher": [
+        "丁宁"
+      ],
+      "teacher_relation_to_live_scope": "teacher_listed_in_live_official_scope",
+      "term": "2024暑期",
+      "term_from_group_metadata": "2024暑期",
+      "term_claimed_in_review": null,
+      "term_basis": "group_offering_metadata",
+      "review_type": "course_experience_or_assessment",
+      "review_status": "included",
+      "reading_status": "full_text_read",
+      "deduplication": {
+        "review_id_deduplicated_across_cache_copies": true,
+        "source_copy_count": 2
+      },
+      "paraphrase": "作者称丁宁讲解清楚和善，会帮助把握实验进度；报告要求不高，预习与正式记录合并完成。作者建议操作顺利、报告认真有助于取得较好成绩。",
+      "facets": [
+        "实验指导",
+        "报告要求",
+        "学习建议"
+      ],
+      "caveat": "2024暑期历史个人评价。"
+    },
+    {
+      "record_id": "danke-review-6258",
+      "course_code": "CHEM10006",
+      "course_code_candidates": [
+        "CHEM10006"
+      ],
+      "raw_group_course_code": "CHEM120011",
+      "course_name": "有机化学实验I",
+      "group_name": "有机化学实验I",
+      "course_mapping_status": "assigned_historical",
+      "course_mapping_basis": "historical_group_code_mapping",
+      "source": "蛋壳课评课程组全文缓存",
+      "source_type": "danke_group_review",
+      "source_ids": {
+        "group_id": 2087,
+        "review_id": 6258,
+        "offering_ids": []
+      },
+      "teacher": [
+        "达慎思"
+      ],
+      "teacher_relation_to_live_scope": "teacher_listed_in_live_official_scope",
+      "term": "2024暑期",
+      "term_from_group_metadata": "2024暑期",
+      "term_claimed_in_review": null,
+      "term_basis": "group_offering_metadata",
+      "review_type": "experience_with_hearsay_claims",
+      "review_status": "include_with_attribution_caveat",
+      "reading_status": "full_text_read",
+      "deduplication": {
+        "review_id_deduplicated_across_cache_copies": true,
+        "source_copy_count": 2
+      },
+      "paraphrase": "作者称达慎思实验指导认真、耐心且态度温和；但其认为成绩可能主要由助教评定，因此难以预测A类结果。",
+      "facets": [
+        "实验指导",
+        "评分分工",
+        "给分感受"
+      ],
+      "caveat": "2024暑期个人体验；关于评分职责为作者推测。"
+    },
+    {
+      "record_id": "danke-review-6525",
+      "course_code": "CHEM10006",
+      "course_code_candidates": [
+        "CHEM10006"
+      ],
+      "raw_group_course_code": "CHEM120011",
+      "course_name": "有机化学实验I",
+      "group_name": "有机化学实验I",
+      "course_mapping_status": "assigned_historical",
+      "course_mapping_basis": "historical_group_code_mapping",
+      "source": "蛋壳课评课程组全文缓存",
+      "source_type": "danke_group_review",
+      "source_ids": {
+        "group_id": 2087,
+        "review_id": 6525,
+        "offering_ids": []
+      },
+      "teacher": [
+        "刘瑞婷"
+      ],
+      "teacher_relation_to_live_scope": "teacher_listed_in_live_official_scope",
+      "term": "2024暑期",
+      "term_from_group_metadata": "2024暑期",
+      "term_claimed_in_review": null,
+      "term_basis": "group_offering_metadata",
+      "review_type": "course_experience_or_assessment",
+      "review_status": "included",
+      "reading_status": "full_text_read",
+      "deduplication": {
+        "review_id_deduplicated_across_cache_copies": true,
+        "source_copy_count": 2
+      },
+      "paraphrase": "作者对有机化学实验的报告批改和给分不满，认为助教会对重复的步骤或现象描述提出严格要求，并觉得最终评分较主观。",
+      "facets": [
+        "实验报告",
+        "助教批改",
+        "给分感受"
+      ],
+      "caveat": "2024暑期单人负面评价；关于评分主观性的判断未独立核实。"
+    },
+    {
+      "record_id": "danke-review-6535",
+      "course_code": "CHEM10006",
+      "course_code_candidates": [
+        "CHEM10006"
+      ],
+      "raw_group_course_code": "CHEM120011",
+      "course_name": "有机化学实验I",
+      "group_name": "有机化学实验I",
+      "course_mapping_status": "assigned_historical",
+      "course_mapping_basis": "historical_group_code_mapping",
+      "source": "蛋壳课评课程组全文缓存",
+      "source_type": "danke_group_review",
+      "source_ids": {
+        "group_id": 2087,
+        "review_id": 6535,
+        "offering_ids": []
+      },
+      "teacher": [
+        "邓名莉"
+      ],
+      "teacher_relation_to_live_scope": "teacher_listed_in_live_official_scope",
+      "term": "2026春",
+      "term_from_group_metadata": "2024暑期",
+      "term_claimed_in_review": "2026春",
+      "term_basis": "explicit_review_text",
+      "review_type": "course_experience_or_assessment",
+      "review_status": "included",
+      "reading_status": "full_text_read",
+      "deduplication": {
+        "review_id_deduplicated_across_cache_copies": true,
+        "source_copy_count": 2
+      },
+      "paraphrase": "作者明确注明2025–26春修读，认为教师和助教总体友善，但对部分实验操作要求存在不一致；报告量不大，操作难度普通，作者自报获A。",
+      "facets": [
+        "实验指导",
+        "报告工作量",
+        "个人成绩"
+      ],
+      "caveat": "评论注明2026春；等级为个人自报，其他学生情况未知。"
+    },
+    {
+      "record_id": "danke-review-6637",
+      "course_code": "CHEM10006",
+      "course_code_candidates": [
+        "CHEM10006"
+      ],
+      "raw_group_course_code": "CHEM120011",
+      "course_name": "有机化学实验I",
+      "group_name": "有机化学实验I",
+      "course_mapping_status": "assigned_historical",
+      "course_mapping_basis": "historical_group_code_mapping",
+      "source": "蛋壳课评课程组全文缓存",
+      "source_type": "danke_group_review",
+      "source_ids": {
+        "group_id": 2087,
+        "review_id": 6637,
+        "offering_ids": []
+      },
+      "teacher": [
+        "匡云艳"
+      ],
+      "teacher_relation_to_live_scope": "teacher_listed_in_live_official_scope",
+      "term": "2026春",
+      "term_from_group_metadata": "2024暑期",
+      "term_claimed_in_review": "2026春",
+      "term_basis": "explicit_review_text",
+      "review_type": "brief_opinion",
+      "review_status": "included_low_detail",
+      "reading_status": "full_text_read",
+      "deduplication": {
+        "review_id_deduplicated_across_cache_copies": true,
+        "source_copy_count": 2
+      },
+      "paraphrase": "作者称匡云艳有机化学实验课教师态度温和，但更感受到助教在现场管理操作；其认为助教偏好操作较快者，并提到可能会记录预习情况。",
+      "facets": [
+        "实验指导",
+        "助教管理",
+        "预习"
+      ],
+      "caveat": "2026春历史短评，具体评分影响未核实。"
+    },
+    {
+      "record_id": "danke-review-193",
+      "course_code": "CHEM10007",
+      "course_code_candidates": [
+        "CHEM10007"
+      ],
+      "raw_group_course_code": "CHEM120012",
+      "course_name": "有机化学C",
+      "group_name": "有机化学C",
+      "course_mapping_status": "assigned_historical",
+      "course_mapping_basis": "historical_group_code_mapping",
+      "source": "蛋壳课评课程组全文缓存",
+      "source_type": "danke_group_review",
+      "source_ids": {
+        "group_id": 102,
+        "review_id": 193,
+        "offering_ids": []
+      },
+      "teacher": [
+        "匡云艳"
+      ],
+      "teacher_relation_to_live_scope": "teacher_listed_in_live_official_scope",
+      "term": "2019暑期",
+      "term_from_group_metadata": "2019暑期",
+      "term_claimed_in_review": null,
+      "term_basis": "group_offering_metadata",
+      "review_type": "course_experience_or_assessment",
+      "review_status": "included",
+      "reading_status": "full_text_read",
+      "deduplication": {
+        "review_id_deduplicated_across_cache_copies": true,
+        "source_copy_count": 2
+      },
+      "paraphrase": "作者回忆2019暑期有机化学C由匡云艳讲授，认为录屏课讲解清楚、教师随和；其建议有竞赛基础者可用课件复习。",
+      "facets": [
+        "课堂教学",
+        "学习建议"
+      ],
+      "caveat": "2019暑期疫情录屏课程的历史体验，适用背景有限。"
+    },
+    {
+      "record_id": "danke-review-4255",
+      "course_code": "CHEM10007",
+      "course_code_candidates": [
+        "CHEM10007"
+      ],
+      "raw_group_course_code": "CHEM120012",
+      "course_name": "有机化学C",
+      "group_name": "有机化学C",
+      "course_mapping_status": "assigned_historical",
+      "course_mapping_basis": "historical_group_code_mapping",
+      "source": "蛋壳课评课程组全文缓存",
+      "source_type": "danke_group_review",
+      "source_ids": {
+        "group_id": 102,
+        "review_id": 4255,
+        "offering_ids": []
+      },
+      "teacher": [
+        "张道"
+      ],
+      "teacher_relation_to_live_scope": "teacher_listed_in_live_official_scope",
+      "term": "2024暑期",
+      "term_from_group_metadata": "2024暑期",
+      "term_claimed_in_review": null,
+      "term_basis": "group_offering_metadata",
+      "review_type": "brief_opinion",
+      "review_status": "included_low_detail",
+      "reading_status": "full_text_read",
+      "deduplication": {
+        "review_id_deduplicated_across_cache_copies": true,
+        "source_copy_count": 2
+      },
+      "paraphrase": "作者称自己期中前学习不足、成绩低于平均，作业也有低分，考前集中复习后期末自报获A。",
+      "facets": [
+        "个人成绩",
+        "复习投入"
+      ],
+      "caveat": "2024暑期历史个人体验。"
+    },
+    {
+      "record_id": "danke-review-5850",
+      "course_code": "CHEM10007",
+      "course_code_candidates": [
+        "CHEM10007"
+      ],
+      "raw_group_course_code": "CHEM120012",
+      "course_name": "有机化学C",
+      "group_name": "有机化学C",
+      "course_mapping_status": "assigned_historical",
+      "course_mapping_basis": "historical_group_code_mapping",
+      "source": "蛋壳课评课程组全文缓存",
+      "source_type": "danke_group_review",
+      "source_ids": {
+        "group_id": 102,
+        "review_id": 5850,
+        "offering_ids": []
+      },
+      "teacher": [
+        "匡云艳"
+      ],
+      "teacher_relation_to_live_scope": "teacher_listed_in_live_official_scope",
+      "term": "2024暑期",
+      "term_from_group_metadata": "2024暑期",
+      "term_claimed_in_review": null,
+      "term_basis": "group_offering_metadata",
+      "review_type": "brief_opinion",
+      "review_status": "included_low_detail",
+      "reading_status": "full_text_read",
+      "deduplication": {
+        "review_id_deduplicated_across_cache_copies": true,
+        "source_copy_count": 2
+      },
+      "paraphrase": "作者认为匡云艳有机化学C课堂氛围温和，但讲解较含糊、表达不够清晰，学习较依赖学生自行理解。",
+      "facets": [
+        "课堂教学",
+        "学习难度"
+      ],
+      "caveat": "2024暑期历史短评。"
+    },
+    {
+      "record_id": "danke-review-6541",
+      "course_code": "CHEM10007",
+      "course_code_candidates": [
+        "CHEM10007"
+      ],
+      "raw_group_course_code": "CHEM120012",
+      "course_name": "有机化学C",
+      "group_name": "有机化学C",
+      "course_mapping_status": "assigned_historical",
+      "course_mapping_basis": "historical_group_code_mapping",
+      "source": "蛋壳课评课程组全文缓存",
+      "source_type": "danke_group_review",
+      "source_ids": {
+        "group_id": 102,
+        "review_id": 6541,
+        "offering_ids": []
+      },
+      "teacher": [
+        "何秋琴"
+      ],
+      "teacher_relation_to_live_scope": "teacher_listed_in_live_official_scope",
+      "term": "2024暑期",
+      "term_from_group_metadata": "2024暑期",
+      "term_claimed_in_review": null,
+      "term_basis": "group_offering_metadata",
+      "review_type": "brief_opinion",
+      "review_status": "included_low_detail",
+      "reading_status": "full_text_read",
+      "deduplication": {
+        "review_id_deduplicated_across_cache_copies": true,
+        "source_copy_count": 2
+      },
+      "paraphrase": "作者称何秋琴有机化学C讲解清楚、内容基础，作业量适中，约每月讲解部分习题并安排复习课；期中期末据其称难度不高。",
+      "facets": [
+        "课堂教学",
+        "作业",
+        "考核"
+      ],
+      "caveat": "2024暑期历史短评。"
+    },
+    {
+      "record_id": "danke-review-6758",
+      "course_code": "CHEM10007",
+      "course_code_candidates": [
+        "CHEM10007"
+      ],
+      "raw_group_course_code": "CHEM10007",
+      "course_name": "有机化学C",
+      "group_name": "有机化学C",
+      "course_mapping_status": "assigned",
+      "course_mapping_basis": "official_course_code",
+      "source": "蛋壳课评课程组全文缓存",
+      "source_type": "danke_group_review",
+      "source_ids": {
+        "group_id": 6735,
+        "review_id": 6758,
+        "offering_ids": []
+      },
+      "teacher": [
+        "匡云艳"
+      ],
+      "teacher_relation_to_live_scope": "teacher_listed_in_live_official_scope",
+      "term": "2025暑期",
+      "term_from_group_metadata": "2025暑期",
+      "term_claimed_in_review": null,
+      "term_basis": "group_offering_metadata",
+      "review_type": "course_experience_or_assessment",
+      "review_status": "included",
+      "reading_status": "full_text_read",
+      "deduplication": {
+        "review_id_deduplicated_across_cache_copies": true,
+        "source_copy_count": 2
+      },
+      "paraphrase": "作者认为匡云艳2025暑期有机化学C讲解声音偏小、表达不够清楚，且较少在评分上补偿失分；其称A类需要期中和期末都达到较高分数，并认为有竞赛/较强有机基础者受此评价影响较小。",
+      "facets": [
+        "课堂教学",
+        "考试与给分",
+        "适用背景"
+      ],
+      "caveat": "2025暑期单人负面体验；分数门槛为作者陈述，未独立核实。"
+    },
+    {
+      "record_id": "danke-review-6425",
+      "course_code": "CHEM10007",
+      "course_code_candidates": [
+        "CHEM10007"
+      ],
+      "raw_group_course_code": "CHEM120012",
+      "course_name": "有机化学C",
+      "group_name": "有机化学C",
+      "course_mapping_status": "assigned_historical",
+      "course_mapping_basis": "historical_group_code_mapping",
+      "source": "蛋壳课评课程组全文缓存",
+      "source_type": "danke_group_review",
+      "source_ids": {
+        "group_id": 102,
+        "review_id": 6425,
+        "offering_ids": []
+      },
+      "teacher": [
+        "何秋琴"
+      ],
+      "teacher_relation_to_live_scope": "teacher_listed_in_live_official_scope",
+      "term": "2026春",
+      "term_from_group_metadata": "2024暑期",
+      "term_claimed_in_review": "2026春",
+      "term_basis": "explicit_review_text",
+      "review_type": "brief_opinion",
+      "review_status": "included_low_detail",
+      "reading_status": "full_text_read",
+      "deduplication": {
+        "review_id_deduplicated_across_cache_copies": true,
+        "source_copy_count": 2
+      },
+      "paraphrase": "作者明确标注2026春，认为何秋琴讲课清晰、反复强调重点，课后会讲练习并带领复习；其提到课堂穿插冷幽默。",
+      "facets": [
+        "课堂教学",
+        "课后练习",
+        "复习"
+      ],
+      "caveat": "评论自报学期2026春，与组别元数据一致。"
+    },
+    {
+      "record_id": "danke-review-175",
+      "course_code": "CHEM10008",
+      "course_code_candidates": [
+        "CHEM10008"
+      ],
+      "raw_group_course_code": "CHEM120013",
+      "course_name": "普通化学C",
+      "group_name": "普通化学C",
+      "course_mapping_status": "assigned_historical",
+      "course_mapping_basis": "historical_group_code_mapping",
+      "source": "蛋壳课评课程组全文缓存",
+      "source_type": "danke_group_review",
+      "source_ids": {
+        "group_id": 100,
+        "review_id": 175,
+        "offering_ids": []
+      },
+      "teacher": [
+        "陈雪莹",
+        "石梅"
+      ],
+      "teacher_relation_to_live_scope": "teacher_listed_in_live_official_scope",
+      "term": "2019秋",
+      "term_from_group_metadata": "2019秋",
+      "term_claimed_in_review": null,
+      "term_basis": "group_offering_metadata",
+      "review_type": "course_experience_or_assessment",
+      "review_status": "included",
+      "reading_status": "full_text_read",
+      "deduplication": {
+        "review_id_deduplicated_across_cache_copies": true,
+        "source_copy_count": 3
+      },
+      "paraphrase": "作者自述有化学竞赛基础，对普通化学C的课程内容需求有限，主要写作目的为推荐陈雪莹、石梅两位教师，认为她们课后答疑认真细致。",
+      "facets": [
+        "教师答疑",
+        "适用背景"
+      ],
+      "caveat": "2019秋历史组别体验；作者的竞赛背景使其对课程难度的判断不宜推广。"
+    },
+    {
+      "record_id": "danke-review-1371",
+      "course_code": "CHEM10008",
+      "course_code_candidates": [
+        "CHEM10008"
+      ],
+      "raw_group_course_code": "CHEM120013",
+      "course_name": "普通化学C",
+      "group_name": "普通化学C",
+      "course_mapping_status": "assigned_historical",
+      "course_mapping_basis": "historical_group_code_mapping",
+      "source": "蛋壳课评课程组全文缓存",
+      "source_type": "danke_group_review",
+      "source_ids": {
+        "group_id": 100,
+        "review_id": 1371,
+        "offering_ids": []
+      },
+      "teacher": [
+        "刘瑞婷"
+      ],
+      "teacher_relation_to_live_scope": "teacher_listed_in_live_official_scope",
+      "term": "2023秋",
+      "term_from_group_metadata": "2023秋",
+      "term_claimed_in_review": null,
+      "term_basis": "group_offering_metadata",
+      "review_type": "course_experience_or_assessment",
+      "review_status": "included",
+      "reading_status": "full_text_read",
+      "deduplication": {
+        "review_id_deduplicated_across_cache_copies": true,
+        "source_copy_count": 3
+      },
+      "paraphrase": "作者称刘瑞婷答疑耐心、课后作业量适中；期末含选择、填空、简答和计算，多数为基础题并有少量区分度较高的计算题。其建议认真听课、整理并复习笔记。",
+      "facets": [
+        "作业",
+        "考核",
+        "复习建议"
+      ],
+      "caveat": "2023秋历史个人评价。"
+    },
+    {
+      "record_id": "danke-review-5371",
+      "course_code": "CHEM10008",
+      "course_code_candidates": [
+        "CHEM10008"
+      ],
+      "raw_group_course_code": "CHEM10008",
+      "course_name": "普通化学C",
+      "group_name": "普通化学C",
+      "course_mapping_status": "assigned",
+      "course_mapping_basis": "official_course_code",
+      "source": "蛋壳课评课程组全文缓存",
+      "source_type": "danke_group_review",
+      "source_ids": {
+        "group_id": 6736,
+        "review_id": 5371,
+        "offering_ids": []
+      },
+      "teacher": [
+        "刘瑞婷"
+      ],
+      "teacher_relation_to_live_scope": "teacher_listed_in_live_official_scope",
+      "term": "2025秋",
+      "term_from_group_metadata": "2025秋",
+      "term_claimed_in_review": null,
+      "term_basis": "group_offering_metadata",
+      "review_type": "course_experience_or_assessment",
+      "review_status": "included",
+      "reading_status": "full_text_read",
+      "deduplication": {
+        "review_id_deduplicated_across_cache_copies": true,
+        "source_copy_count": 2
+      },
+      "paraphrase": "作者称刘瑞婷讲解清楚、课件好用，作业提交即可得分；考试与例题难度相近，建议复习高中化学笔记并提前准备期末。",
+      "facets": [
+        "课堂材料",
+        "作业",
+        "考试与复习"
+      ],
+      "caveat": "2025秋当前班级个人评价。"
+    },
+    {
+      "record_id": "danke-review-5515",
+      "course_code": "CHEM10008",
+      "course_code_candidates": [
+        "CHEM10008"
+      ],
+      "raw_group_course_code": "CHEM10008",
+      "course_name": "普通化学C",
+      "group_name": "普通化学C",
+      "course_mapping_status": "assigned",
+      "course_mapping_basis": "official_course_code",
+      "source": "蛋壳课评课程组全文缓存",
+      "source_type": "danke_group_review",
+      "source_ids": {
+        "group_id": 6736,
+        "review_id": 5515,
+        "offering_ids": []
+      },
+      "teacher": [
+        "刘瑞婷"
+      ],
+      "teacher_relation_to_live_scope": "teacher_listed_in_live_official_scope",
+      "term": "2025秋",
+      "term_from_group_metadata": "2025秋",
+      "term_claimed_in_review": null,
+      "term_basis": "group_offering_metadata",
+      "review_type": "course_experience_or_assessment",
+      "review_status": "included",
+      "reading_status": "full_text_read",
+      "deduplication": {
+        "review_id_deduplicated_across_cache_copies": true,
+        "source_copy_count": 2
+      },
+      "paraphrase": "作者称刘瑞婷讲课细致，会区分考点与拓展内容并在考前讲解常见作业错题；作者认为医学基础课程中该课较轻松，但仍需结合高中化学基础复习。",
+      "facets": [
+        "课程难度",
+        "课堂教学",
+        "考前复习"
+      ],
+      "caveat": "2025秋当前班级个人体验。"
+    },
+    {
+      "record_id": "danke-review-5558",
+      "course_code": "CHEM10008",
+      "course_code_candidates": [
+        "CHEM10008"
+      ],
+      "raw_group_course_code": "CHEM10008",
+      "course_name": "普通化学C",
+      "group_name": "普通化学C",
+      "course_mapping_status": "assigned",
+      "course_mapping_basis": "official_course_code",
+      "source": "蛋壳课评课程组全文缓存",
+      "source_type": "danke_group_review",
+      "source_ids": {
+        "group_id": 6736,
+        "review_id": 5558,
+        "offering_ids": []
+      },
+      "teacher": [
+        "陈雪莹"
+      ],
+      "teacher_relation_to_live_scope": "teacher_listed_in_live_official_scope",
+      "term": "2025秋",
+      "term_from_group_metadata": "2025秋",
+      "term_claimed_in_review": null,
+      "term_basis": "group_offering_metadata",
+      "review_type": "course_experience_or_assessment",
+      "review_status": "included",
+      "reading_status": "full_text_read",
+      "deduplication": {
+        "review_id_deduplicated_across_cache_copies": true,
+        "source_copy_count": 2
+      },
+      "paraphrase": "作者称陈雪莹讲解细致、重点明确、答疑耐心；作业量有时较大，复习课件并补足高中化学基础有助于准备考试。",
+      "facets": [
+        "课堂教学",
+        "作业工作量",
+        "学习建议"
+      ],
+      "caveat": "2025秋当前班级个人评价。"
+    },
+    {
+      "record_id": "danke-review-5576",
+      "course_code": "CHEM10008",
+      "course_code_candidates": [
+        "CHEM10008"
+      ],
+      "raw_group_course_code": "CHEM10008",
+      "course_name": "普通化学C",
+      "group_name": "普通化学C",
+      "course_mapping_status": "assigned",
+      "course_mapping_basis": "official_course_code",
+      "source": "蛋壳课评课程组全文缓存",
+      "source_type": "danke_group_review",
+      "source_ids": {
+        "group_id": 6736,
+        "review_id": 5576,
+        "offering_ids": []
+      },
+      "teacher": [
+        "石梅"
+      ],
+      "teacher_relation_to_live_scope": "teacher_listed_in_live_official_scope",
+      "term": "2025秋",
+      "term_from_group_metadata": "2025秋",
+      "term_claimed_in_review": null,
+      "term_basis": "group_offering_metadata",
+      "review_type": "course_experience_or_assessment",
+      "review_status": "included",
+      "reading_status": "full_text_read",
+      "deduplication": {
+        "review_id_deduplicated_across_cache_copies": true,
+        "source_copy_count": 2
+      },
+      "paraphrase": "作者称石梅班每节课有课后题，教师讲解温和但略显冗长；期末前会复习并反复强调重点，统考试题据其称多为例题改编且难度不高。",
+      "facets": [
+        "作业",
+        "课堂风格",
+        "考核与复习"
+      ],
+      "caveat": "2025秋当前班级个人经验。"
+    },
+    {
+      "record_id": "danke-review-5799",
+      "course_code": "CHEM10008",
+      "course_code_candidates": [
+        "CHEM10008"
+      ],
+      "raw_group_course_code": "CHEM120013",
+      "course_name": "普通化学C",
+      "group_name": "普通化学C",
+      "course_mapping_status": "assigned_historical",
+      "course_mapping_basis": "historical_group_code_mapping",
+      "source": "蛋壳课评课程组全文缓存",
+      "source_type": "danke_group_review",
+      "source_ids": {
+        "group_id": 100,
+        "review_id": 5799,
+        "offering_ids": []
+      },
+      "teacher": [
+        "石梅"
+      ],
+      "teacher_relation_to_live_scope": "teacher_listed_in_live_official_scope",
+      "term": "2025秋",
+      "term_from_group_metadata": "2024秋",
+      "term_claimed_in_review": "2025秋",
+      "term_basis": "explicit_review_text",
+      "review_type": "brief_opinion",
+      "review_status": "included_low_detail",
+      "reading_status": "full_text_read",
+      "deduplication": {
+        "review_id_deduplicated_across_cache_copies": true,
+        "source_copy_count": 3
+      },
+      "paraphrase": "作者明确注明为2025–26秋，称石梅班作业不多、给分感受较好，并高度肯定教师。",
+      "facets": [
+        "作业",
+        "给分感受",
+        "教师评价"
+      ],
+      "caveat": "评论自报25–26秋，与课程范围学期2025秋一致。"
+    },
+    {
+      "record_id": "danke-review-5890",
+      "course_code": "CHEM10008",
+      "course_code_candidates": [
+        "CHEM10008"
+      ],
+      "raw_group_course_code": "CHEM10008",
+      "course_name": "普通化学C",
+      "group_name": "普通化学C",
+      "course_mapping_status": "assigned",
+      "course_mapping_basis": "official_course_code",
+      "source": "蛋壳课评课程组全文缓存",
+      "source_type": "danke_group_review",
+      "source_ids": {
+        "group_id": 6736,
+        "review_id": 5890,
+        "offering_ids": []
+      },
+      "teacher": [
+        "石梅"
+      ],
+      "teacher_relation_to_live_scope": "teacher_listed_in_live_official_scope",
+      "term": "2025秋",
+      "term_from_group_metadata": "2025秋",
+      "term_claimed_in_review": null,
+      "term_basis": "group_offering_metadata",
+      "review_type": "brief_opinion",
+      "review_status": "included_low_detail",
+      "reading_status": "full_text_read",
+      "deduplication": {
+        "review_id_deduplicated_across_cache_copies": true,
+        "source_copy_count": 2
+      },
+      "paraphrase": "作者称石梅普通化学C讲解清楚、作业量不大，计算题型在课堂上反复练习，考试中的计算题可由课堂练习准备。",
+      "facets": [
+        "课堂教学",
+        "作业",
+        "考试准备"
+      ],
+      "caveat": "2025秋当前班级短评。"
+    },
+    {
+      "record_id": "danke-review-1574",
+      "course_code": "CHEM20002h",
+      "course_code_candidates": [
+        "CHEM20002h"
+      ],
+      "raw_group_course_code": "CHEM130002h",
+      "course_name": "分析化学A II(H)",
+      "group_name": "分析化学A II(H)",
+      "course_mapping_status": "assigned_historical",
+      "course_mapping_basis": "historical_group_code_mapping",
+      "source": "蛋壳课评课程组全文缓存",
+      "source_type": "danke_group_review",
+      "source_ids": {
+        "group_id": 2089,
+        "review_id": 1574,
+        "offering_ids": []
+      },
+      "teacher": [
+        "陆豪杰",
+        "乔亮",
+        "樊惠芝"
+      ],
+      "teacher_relation_to_live_scope": "teacher_listed_in_live_official_scope",
+      "term": "2022暑期",
+      "term_from_group_metadata": "2022暑期",
+      "term_claimed_in_review": null,
+      "term_basis": "group_offering_metadata",
+      "review_type": "course_experience_or_assessment",
+      "review_status": "included",
+      "reading_status": "full_text_read",
+      "deduplication": {
+        "review_id_deduplicated_across_cache_copies": true,
+        "source_copy_count": 2
+      },
+      "paraphrase": "作者称2022暑期分析化学A II（H）随班级人数安排每人约2–3次展示及书面小报告，主题是设计分析方法解决问题；课程由三位教师轮讲色谱、现代质谱和蛋白质组学，并穿插学生展示。作者认为化学生物学内容较有特色。",
+      "facets": [
+        "课程内容",
+        "展示与报告",
+        "考核"
+      ],
+      "caveat": "2022暑期历史荣誉班体验；“普通班要求稍低”是作者判断。"
+    },
+    {
+      "record_id": "danke-review-6548",
+      "course_code": "CHEM20004",
+      "course_code_candidates": [
+        "CHEM20004"
+      ],
+      "raw_group_course_code": "CHEM130010",
+      "course_name": "合成化学实验(上)",
+      "group_name": "合成化学实验(上)",
+      "course_mapping_status": "assigned_historical",
+      "course_mapping_basis": "historical_group_code_mapping",
+      "source": "蛋壳课评课程组全文缓存",
+      "source_type": "danke_group_review",
+      "source_ids": {
+        "group_id": 2091,
+        "review_id": 6548,
+        "offering_ids": []
+      },
+      "teacher": [
+        "匡云艳"
+      ],
+      "teacher_relation_to_live_scope": "teacher_listed_in_live_official_scope",
+      "term": "2024暑期",
+      "term_from_group_metadata": "2024暑期",
+      "term_claimed_in_review": null,
+      "term_basis": "group_offering_metadata",
+      "review_type": "brief_opinion",
+      "review_status": "included_low_detail",
+      "reading_status": "full_text_read",
       "deduplication": {
         "review_id_deduplicated_across_cache_copies": true,
         "source_copy_count": 1
+      },
+      "paraphrase": "作者称匡云艳合成化学实验（上）认真完成实验和报告后仍自报只获B，并与其他班成绩作比较。",
+      "facets": [
+        "实验报告",
+        "个人成绩"
+      ],
+      "caveat": "2024暑期历史短评；跨班成绩比较为作者观察。"
+    },
+    {
+      "record_id": "danke-review-3376",
+      "course_code": "CHEM20005",
+      "course_code_candidates": [
+        "CHEM20005"
+      ],
+      "raw_group_course_code": "CHEM130012",
+      "course_name": "物理化学AⅠ",
+      "group_name": "物理化学AⅠ",
+      "course_mapping_status": "assigned_historical",
+      "course_mapping_basis": "historical_group_code_mapping",
+      "source": "蛋壳课评课程组全文缓存",
+      "source_type": "danke_group_review",
+      "source_ids": {
+        "group_id": 107,
+        "review_id": 3376,
+        "offering_ids": []
+      },
+      "teacher": [
+        "刘智攀",
+        "周鸣飞",
+        "商城"
+      ],
+      "teacher_relation_to_live_scope": "teacher_listed_in_live_official_scope",
+      "term": "2023秋",
+      "term_from_group_metadata": "2023秋",
+      "term_claimed_in_review": null,
+      "term_basis": "group_offering_metadata",
+      "review_type": "course_experience_or_assessment",
+      "review_status": "included",
+      "reading_status": "full_text_read",
+      "paraphrase": "作者认为物化AⅠ的量子部分对缺少物理基础者较难，建议提前读量子力学或量子化学教材，并可与量化H课并修。其描述为作业难度尚可、期末与作业难度接近或略高，考前有三套模拟题；作者认为弄懂模拟题有助于应考。",
+      "facets": [
+        "课程难度",
+        "学习建议",
+        "作业与考试"
+      ],
+      "caveat": "2023秋历史个人评价；课程班教师元数据包含刘智攀、周鸣飞、商城，现行教师以官方开课记录为准。",
+      "deduplication": {
+        "review_id_deduplicated_across_cache_copies": true,
+        "source_copy_count": 2
+      }
+    },
+    {
+      "record_id": "danke-review-4912",
+      "course_code": "CHEM20005",
+      "course_code_candidates": [
+        "CHEM20005"
+      ],
+      "raw_group_course_code": "CHEM130012",
+      "course_name": "物理化学AⅠ",
+      "group_name": "物理化学AⅠ",
+      "course_mapping_status": "assigned_historical",
+      "course_mapping_basis": "historical_group_code_mapping",
+      "source": "蛋壳课评课程组全文缓存",
+      "source_type": "danke_group_review",
+      "source_ids": {
+        "group_id": 107,
+        "review_id": 4912,
+        "offering_ids": []
+      },
+      "teacher": [
+        "吴剑鸣",
+        "徐昕",
+        "李晔飞"
+      ],
+      "teacher_relation_to_live_scope": "teacher_listed_in_live_official_scope",
+      "term": "2024秋",
+      "term_from_group_metadata": "2024秋",
+      "term_claimed_in_review": null,
+      "term_basis": "group_offering_metadata",
+      "review_type": "experience_with_hearsay_claims",
+      "review_status": "include_with_attribution_caveat",
+      "reading_status": "full_text_read",
+      "paraphrase": "作者称物化AⅠ覆盖波函数与薛定谔方程、基本量子体系、多电子原子、MO/VB、杂化与配位场、群论、共轭分子及晶体结构，认为数理推导多且课时有限，建议补高数、线性代数并参考Griffiths、Levine。其所在班有两次小测、期末占主要比重；作者听说邻班有期中，期末范围相同，并认为成绩表现不差，但后者基于身边观察。",
+      "facets": [
+        "课程内容",
+        "数理要求",
+        "考核",
+        "学习建议"
+      ],
+      "caveat": "2024秋单班经历并含邻班转述；不同班级考核安排可能不同，成绩判断为非正式个人观察。",
+      "deduplication": {
+        "review_id_deduplicated_across_cache_copies": true,
+        "source_copy_count": 2
       }
     },
     {
@@ -348,67 +3556,66 @@
       }
     },
     {
-      "record_id": "danke-review-6683",
-      "course_code": "CHEM10003",
+      "record_id": "danke-review-106",
+      "course_code": "CHEM20008",
       "course_code_candidates": [
-        "CHEM10003"
+        "CHEM20008"
       ],
-      "raw_group_course_code": "CHEM10003",
-      "course_name": "普通化学A（上）",
-      "group_name": "普通化学A（上）",
-      "course_mapping_status": "assigned",
-      "course_mapping_basis": "official_course_code",
-      "source": "蛋壳课评课程组全文缓存",
-      "source_type": "danke_group_review",
-      "source_ids": {
-        "group_id": 6733,
-        "review_id": 6683,
-        "offering_ids": []
-      },
-      "teacher": [
-        "华伟明",
-        "赵天聪"
-      ],
-      "teacher_relation_to_live_scope": "teacher_listed_in_live_official_scope",
-      "term": "2025秋",
-      "term_from_group_metadata": "2025秋",
-      "term_claimed_in_review": null,
-      "term_basis": "group_offering_metadata",
-      "review_type": "course_experience_or_assessment",
-      "review_status": "included",
-      "reading_status": "full_text_read",
-      "paraphrase": "这则2025秋长文主要是作者回忆开学首周参加普化免修考试：其转述教师告知范围为两本教材，试卷大致以物化内容为主并含晶体与其他填空；作者因准备不足未通过，之后就波函数与轨道的问题向教师请教，并称教师用节点数和取向解释判断方法、表示期末不会考该类题。该文不宜视为常规期末考核或课程总体难度总结。",
-      "facets": [
-        "免修考试",
-        "教师答疑",
-        "考试范围"
-      ],
-      "caveat": "2025秋单个作者的回忆，免修考试不等同于常规班级考核；原文还包含与课程评价无关的叙事。",
-      "deduplication": {
-        "review_id_deduplicated_across_cache_copies": true,
-        "source_copy_count": 2
-      }
-    },
-    {
-      "record_id": "danke-review-4182",
-      "course_code": "CHEM10004",
-      "course_code_candidates": [
-        "CHEM10004"
-      ],
-      "raw_group_course_code": "CHEM120006",
-      "course_name": "普通化学A（下）",
-      "group_name": "普通化学A（下）",
+      "raw_group_course_code": "CHEM130038",
+      "course_name": "数理统计方法在化学中的应用",
+      "group_name": "数理统计方法在化学中的应用",
       "course_mapping_status": "assigned_historical",
       "course_mapping_basis": "historical_group_code_mapping",
       "source": "蛋壳课评课程组全文缓存",
       "source_type": "danke_group_review",
       "source_ids": {
-        "group_id": 2086,
-        "review_id": 4182,
+        "group_id": 2101,
+        "review_id": 106,
         "offering_ids": []
       },
       "teacher": [
-        "侯军利"
+        "李振华"
+      ],
+      "teacher_relation_to_live_scope": "teacher_listed_in_live_official_scope",
+      "term": "2021暑期",
+      "term_from_group_metadata": "2021暑期",
+      "term_claimed_in_review": null,
+      "term_basis": "group_offering_metadata",
+      "review_type": "course_experience_or_assessment",
+      "review_status": "included",
+      "reading_status": "full_text_read",
+      "deduplication": {
+        "review_id_deduplicated_across_cache_copies": true,
+        "source_copy_count": 3
+      },
+      "paraphrase": "作者认为2021暑期课程虽然名为数理统计，但主要讲概念思路与Excel功能，较少数学推导；没有硬性作业，课后思考题偏文字。作者称期末闭卷以简答为主、无计算题，并对成绩分布不满。",
+      "facets": [
+        "课程内容",
+        "作业",
+        "考核"
+      ],
+      "caveat": "2021暑期历史个人体验，任课教师李振华；给分判断为作者陈述。"
+    },
+    {
+      "record_id": "danke-review-3663",
+      "course_code": "CHEM20008",
+      "course_code_candidates": [
+        "CHEM20008"
+      ],
+      "raw_group_course_code": "CHEM130038",
+      "course_name": "数理统计方法在化学中的应用",
+      "group_name": "数理统计方法在化学中的应用",
+      "course_mapping_status": "assigned_historical",
+      "course_mapping_basis": "historical_group_code_mapping",
+      "source": "蛋壳课评课程组全文缓存",
+      "source_type": "danke_group_review",
+      "source_ids": {
+        "group_id": 2101,
+        "review_id": 3663,
+        "offering_ids": []
+      },
+      "teacher": [
+        "李振华"
       ],
       "teacher_relation_to_live_scope": "teacher_listed_in_live_official_scope",
       "term": "2024暑期",
@@ -418,40 +3625,243 @@
       "review_type": "course_experience_or_assessment",
       "review_status": "included",
       "reading_status": "full_text_read",
-      "paraphrase": "作者称该2024暑期班任务量与其他普化班相近，但不喜欢课堂讲授方式及对纸质材料的要求；其本人表示出勤、作业和公式准备较完整，主观估分高于最终所得B，并因此对过程分和给分不满。",
-      "facets": [
-        "课堂体验",
-        "工作量",
-        "考核与个人成绩"
-      ],
-      "caveat": "2024暑期单个学生的强烈负面体验；对评分过程的判断没有试卷或成绩记录佐证。",
       "deduplication": {
         "review_id_deduplicated_across_cache_copies": true,
-        "source_copy_count": 2
-      }
+        "source_copy_count": 3
+      },
+      "paraphrase": "作者称2024暑期课程的课后思考题是期末复习重点，考试主要考论述/简答类内容，需提前整理并记忆；其认为课堂内容与考试关联不强、与课程名称的数学推导预期不符，并对给分不满。",
+      "facets": [
+        "课程内容",
+        "复习要求",
+        "考核"
+      ],
+      "caveat": "2024暑期历史个人负面评价；有关上学期成绩和教师说法为作者转述，未独立核实。"
     },
     {
-      "record_id": "danke-review-3376",
-      "course_code": "CHEM20005",
+      "record_id": "danke-review-3725",
+      "course_code": "CHEM20009",
       "course_code_candidates": [
-        "CHEM20005"
+        "CHEM20009"
       ],
-      "raw_group_course_code": "CHEM130012",
-      "course_name": "物理化学AⅠ",
-      "group_name": "物理化学AⅠ",
+      "raw_group_course_code": "CHEM130040",
+      "course_name": "化学专业英语",
+      "group_name": "化学专业英语",
       "course_mapping_status": "assigned_historical",
       "course_mapping_basis": "historical_group_code_mapping",
       "source": "蛋壳课评课程组全文缓存",
       "source_type": "danke_group_review",
       "source_ids": {
-        "group_id": 107,
-        "review_id": 3376,
+        "group_id": 2102,
+        "review_id": 3725,
         "offering_ids": []
       },
       "teacher": [
-        "刘智攀",
-        "周鸣飞",
-        "商城"
+        "蔡文斌"
+      ],
+      "teacher_relation_to_live_scope": "teacher_listed_in_live_official_scope",
+      "term": "2024暑期",
+      "term_from_group_metadata": "2024暑期",
+      "term_claimed_in_review": null,
+      "term_basis": "group_offering_metadata",
+      "review_type": "course_experience_or_assessment",
+      "review_status": "included",
+      "reading_status": "full_text_read",
+      "deduplication": {
+        "review_id_deduplicated_across_cache_copies": true,
+        "source_copy_count": 1
+      },
+      "paraphrase": "作者认为课程可帮助掌握元素名称、化学命名、专业翻译和电化学论文阅读。其描述当学期为期中闭卷、期末开卷，但称教师提醒考核安排可能逐学期变化；复习重点是课件命名例题及实验报告常见术语。作者更新自报最终获A。",
+      "facets": [
+        "课程内容",
+        "考核",
+        "学习建议",
+        "个人成绩"
+      ],
+      "caveat": "2024暑期历史评价；考核方式可能变动，成绩为个人自报。"
+    },
+    {
+      "record_id": "danke-review-6388",
+      "course_code": "CHEM20011",
+      "course_code_candidates": [
+        "CHEM20011"
+      ],
+      "raw_group_course_code": "CHEM20011",
+      "course_name": "有机化学",
+      "group_name": "有机化学",
+      "course_mapping_status": "assigned",
+      "course_mapping_basis": "official_course_code",
+      "source": "蛋壳课评课程组全文缓存",
+      "source_type": "danke_group_review",
+      "source_ids": {
+        "group_id": 6742,
+        "review_id": 6388,
+        "offering_ids": []
+      },
+      "teacher": [
+        "王辉"
+      ],
+      "teacher_relation_to_live_scope": "teacher_listed_in_live_official_scope",
+      "term": "2025秋",
+      "term_from_group_metadata": "2025秋",
+      "term_claimed_in_review": null,
+      "term_basis": "group_offering_metadata",
+      "review_type": "course_experience_or_assessment",
+      "review_status": "included",
+      "reading_status": "full_text_read",
+      "deduplication": {
+        "review_id_deduplicated_across_cache_copies": true,
+        "source_copy_count": 2
+      },
+      "paraphrase": "作者认为王辉讲授医学生有机化学时逻辑清楚，作业不算多、课后错题解析有帮助；作者认为课程本身仍有难度，但课堂理解后不需投入过多额外时间。",
+      "facets": [
+        "课堂教学",
+        "作业与反馈",
+        "课程难度"
+      ],
+      "caveat": "2025秋当前班级个人体验。"
+    },
+    {
+      "record_id": "danke-review-2984",
+      "course_code": "CHEM20012",
+      "course_code_candidates": [
+        "CHEM20012"
+      ],
+      "raw_group_course_code": "CHEM130050",
+      "course_name": "有机化学实验",
+      "group_name": "有机化学实验",
+      "course_mapping_status": "assigned_historical",
+      "course_mapping_basis": "historical_group_code_mapping",
+      "source": "蛋壳课评课程组全文缓存",
+      "source_type": "danke_group_review",
+      "source_ids": {
+        "group_id": 124,
+        "review_id": 2984,
+        "offering_ids": []
+      },
+      "teacher": [
+        "喻浩"
+      ],
+      "teacher_relation_to_live_scope": "teacher_listed_in_live_official_scope",
+      "term": "2024秋",
+      "term_from_group_metadata": "2024秋",
+      "term_claimed_in_review": null,
+      "term_basis": "group_offering_metadata",
+      "review_type": "brief_opinion",
+      "review_status": "included_low_detail",
+      "reading_status": "full_text_read",
+      "deduplication": {
+        "review_id_deduplicated_across_cache_copies": true,
+        "source_copy_count": 2
+      },
+      "paraphrase": "作者称有机化学实验报告均按要求提交，但期末实验中试剂洒出影响产率，自己认为不足以解释最终低等级。",
+      "facets": [
+        "实验考核",
+        "个人成绩感受"
+      ],
+      "caveat": "2024秋单人评价；没有评分细则可核对。"
+    },
+    {
+      "record_id": "danke-review-4375",
+      "course_code": "CHEM20012",
+      "course_code_candidates": [
+        "CHEM20012"
+      ],
+      "raw_group_course_code": "CHEM130050",
+      "course_name": "有机化学实验",
+      "group_name": "有机化学实验",
+      "course_mapping_status": "assigned_historical",
+      "course_mapping_basis": "historical_group_code_mapping",
+      "source": "蛋壳课评课程组全文缓存",
+      "source_type": "danke_group_review",
+      "source_ids": {
+        "group_id": 124,
+        "review_id": 4375,
+        "offering_ids": []
+      },
+      "teacher": [
+        "林阳辉"
+      ],
+      "teacher_relation_to_live_scope": "teacher_listed_in_live_official_scope",
+      "term": "2024秋",
+      "term_from_group_metadata": "2024秋",
+      "term_claimed_in_review": null,
+      "term_basis": "group_offering_metadata",
+      "review_type": "course_experience_or_assessment",
+      "review_status": "included",
+      "reading_status": "full_text_read",
+      "deduplication": {
+        "review_id_deduplicated_across_cache_copies": true,
+        "source_copy_count": 2
+      },
+      "paraphrase": "作者称有机化学实验中操作较慢且常出错，最终自报获较低档B；其认为教师介入较少、助教较负责，并抱怨每次实验报告篇幅较长且需手写。",
+      "facets": [
+        "实验指导",
+        "报告工作量",
+        "个人成绩"
+      ],
+      "caveat": "2024秋历史个人体验。"
+    },
+    {
+      "record_id": "danke-review-6028",
+      "course_code": "CHEM20012",
+      "course_code_candidates": [
+        "CHEM20012"
+      ],
+      "raw_group_course_code": "CHEM20012",
+      "course_name": "有机化学实验",
+      "group_name": "有机化学实验",
+      "course_mapping_status": "assigned",
+      "course_mapping_basis": "official_course_code",
+      "source": "蛋壳课评课程组全文缓存",
+      "source_type": "danke_group_review",
+      "source_ids": {
+        "group_id": 6743,
+        "review_id": 6028,
+        "offering_ids": []
+      },
+      "teacher": [
+        "孙默"
+      ],
+      "teacher_relation_to_live_scope": "teacher_listed_in_live_official_scope",
+      "term": "2025秋",
+      "term_from_group_metadata": "2025秋",
+      "term_claimed_in_review": null,
+      "term_basis": "group_offering_metadata",
+      "review_type": "course_experience_or_assessment",
+      "review_status": "included",
+      "reading_status": "full_text_read",
+      "deduplication": {
+        "review_id_deduplicated_across_cache_copies": true,
+        "source_copy_count": 2
+      },
+      "paraphrase": "作者对2025秋有机化学实验课的实验报告要求与反馈方式不满，称报告要求细、反馈简略，并认为班内成绩偏低；评论没有呈现具体实验项目。",
+      "facets": [
+        "实验报告",
+        "批改",
+        "给分感受"
+      ],
+      "caveat": "2025秋个人强烈负面评价；“班内多人成绩”等说法未以成绩记录佐证。"
+    },
+    {
+      "record_id": "danke-review-1908",
+      "course_code": "CHEM20013h",
+      "course_code_candidates": [
+        "CHEM20013h"
+      ],
+      "raw_group_course_code": "CHEM130067h",
+      "course_name": "有机化学A I（H）",
+      "group_name": "有机化学A I（H）",
+      "course_mapping_status": "assigned_historical",
+      "course_mapping_basis": "historical_group_code_mapping",
+      "source": "蛋壳课评课程组全文缓存",
+      "source_type": "danke_group_review",
+      "source_ids": {
+        "group_id": 4425,
+        "review_id": 1908,
+        "offering_ids": []
+      },
+      "teacher": [
+        "孙兴文"
       ],
       "teacher_relation_to_live_scope": "teacher_listed_in_live_official_scope",
       "term": "2023秋",
@@ -461,40 +3871,79 @@
       "review_type": "course_experience_or_assessment",
       "review_status": "included",
       "reading_status": "full_text_read",
-      "paraphrase": "作者认为物化AⅠ的量子部分对缺少物理基础者较难，建议提前读量子力学或量子化学教材，并可与量化H课并修。其描述为作业难度尚可、期末与作业难度接近或略高，考前有三套模拟题；作者认为弄懂模拟题有助于应考。",
-      "facets": [
-        "课程难度",
-        "学习建议",
-        "作业与考试"
-      ],
-      "caveat": "2023秋历史个人评价；课程班教师元数据包含刘智攀、周鸣飞、商城，现行教师以官方开课记录为准。",
       "deduplication": {
         "review_id_deduplicated_across_cache_copies": true,
         "source_copy_count": 2
-      }
+      },
+      "paraphrase": "作者认为有机化学A I（H）旨在为竞赛背景学生建立有机反应的概念框架，并讨论若干文献例子；其称考试含普通试卷和荣誉加试，普通卷侧重课内反应，荣誉部分要求记忆课堂讲过的反应及机理。",
+      "facets": [
+        "课程目标",
+        "考核",
+        "先修背景"
+      ],
+      "caveat": "2023秋历史个人评价；成绩描述语气夸张，不作给分统计。"
     },
     {
-      "record_id": "danke-review-4912",
-      "course_code": "CHEM20005",
+      "record_id": "danke-review-2296",
+      "course_code": "CHEM20015",
       "course_code_candidates": [
-        "CHEM20005"
+        "CHEM20015"
       ],
-      "raw_group_course_code": "CHEM130012",
-      "course_name": "物理化学AⅠ",
-      "group_name": "物理化学AⅠ",
+      "raw_group_course_code": "CHEM130071",
+      "course_name": "分析化学",
+      "group_name": "分析化学",
       "course_mapping_status": "assigned_historical",
       "course_mapping_basis": "historical_group_code_mapping",
       "source": "蛋壳课评课程组全文缓存",
       "source_type": "danke_group_review",
       "source_ids": {
-        "group_id": 107,
-        "review_id": 4912,
+        "group_id": 131,
+        "review_id": 2296,
         "offering_ids": []
       },
       "teacher": [
-        "吴剑鸣",
-        "徐昕",
-        "李晔飞"
+        "雷杰"
+      ],
+      "teacher_relation_to_live_scope": "teacher_listed_in_live_official_scope",
+      "term": "2024秋",
+      "term_from_group_metadata": "2024秋",
+      "term_claimed_in_review": null,
+      "term_basis": "group_offering_metadata",
+      "review_type": "brief_opinion",
+      "review_status": "included_low_detail",
+      "reading_status": "full_text_read",
+      "deduplication": {
+        "review_id_deduplicated_across_cache_copies": true,
+        "source_copy_count": 2
+      },
+      "paraphrase": "作者认为雷杰分析化学课堂有趣，但由于课程内容多，讲授节奏快、细节略简，建议课前预习或课后投入更多自学时间。",
+      "facets": [
+        "课堂节奏",
+        "课程内容",
+        "学习建议"
+      ],
+      "caveat": "2024秋历史短评。"
+    },
+    {
+      "record_id": "danke-review-4698",
+      "course_code": "CHEM20017",
+      "course_code_candidates": [
+        "CHEM20017"
+      ],
+      "raw_group_course_code": "CHEM130076",
+      "course_name": "元素化学",
+      "group_name": "元素化学",
+      "course_mapping_status": "assigned_historical",
+      "course_mapping_basis": "historical_group_code_mapping",
+      "source": "蛋壳课评课程组全文缓存",
+      "source_type": "danke_group_review",
+      "source_ids": {
+        "group_id": 133,
+        "review_id": 4698,
+        "offering_ids": []
+      },
+      "teacher": [
+        "王华冬"
       ],
       "teacher_relation_to_live_scope": "teacher_listed_in_live_official_scope",
       "term": "2024秋",
@@ -504,18 +3953,1274 @@
       "review_type": "experience_with_hearsay_claims",
       "review_status": "include_with_attribution_caveat",
       "reading_status": "full_text_read",
-      "paraphrase": "作者称物化AⅠ覆盖波函数与薛定谔方程、基本量子体系、多电子原子、MO/VB、杂化与配位场、群论、共轭分子及晶体结构，认为数理推导多且课时有限，建议补高数、线性代数并参考Griffiths、Levine。其所在班有两次小测、期末占主要比重；作者听说邻班有期中，期末范围相同，并认为成绩表现不差，但后者基于身边观察。",
-      "facets": [
-        "课程内容",
-        "数理要求",
-        "考核",
-        "学习建议"
-      ],
-      "caveat": "2024秋单班经历并含邻班转述；不同班级考核安排可能不同，成绩判断为非正式个人观察。",
       "deduplication": {
         "review_id_deduplicated_across_cache_copies": true,
         "source_copy_count": 2
+      },
+      "paraphrase": "作者称课程主要讲主族元素性质，也涉及若干有机反应；工作量不大，有四次小测，期末以性质解释题为主，另有较难附加题。作者认为课堂风格有趣，并转述A线约90分，但该分数线未经核实。",
+      "facets": [
+        "课程内容",
+        "工作量",
+        "考核",
+        "教师风格"
+      ],
+      "caveat": "2024秋历史评价；给分线来自“据说”，非官方信息。"
+    },
+    {
+      "record_id": "danke-review-846",
+      "course_code": "CHEM20018",
+      "course_code_candidates": [
+        "CHEM20018"
+      ],
+      "raw_group_course_code": "CHEM130097",
+      "course_name": "生命中的化学",
+      "group_name": "生命中的化学",
+      "course_mapping_status": "assigned_historical",
+      "course_mapping_basis": "historical_group_code_mapping",
+      "source": "蛋壳课评课程组全文缓存",
+      "source_type": "danke_group_review",
+      "source_ids": {
+        "group_id": 2115,
+        "review_id": 846,
+        "offering_ids": []
+      },
+      "teacher": [
+        "熊焕明"
+      ],
+      "teacher_relation_to_live_scope": "teacher_listed_in_live_official_scope",
+      "term": "2021暑期",
+      "term_from_group_metadata": "2021暑期",
+      "term_claimed_in_review": null,
+      "term_basis": "group_offering_metadata",
+      "review_type": "brief_opinion",
+      "review_status": "included_low_detail",
+      "reading_status": "full_text_read",
+      "deduplication": {
+        "review_id_deduplicated_across_cache_copies": true,
+        "source_copy_count": 1
+      },
+      "paraphrase": "作者称《生命中的化学》期中前已有三份课件、一次约5000字论文和多次点名，认为课程任务与课堂内容价值不匹配。",
+      "facets": [
+        "课程材料",
+        "工作量",
+        "考勤"
+      ],
+      "caveat": "2021暑期历史个人负面评价。"
+    },
+    {
+      "record_id": "danke-review-3373",
+      "course_code": "CHEM20020",
+      "course_code_candidates": [
+        "CHEM20020"
+      ],
+      "raw_group_course_code": "CHEM130107",
+      "course_name": "仪器分析实验",
+      "group_name": "仪器分析实验",
+      "course_mapping_status": "assigned_historical",
+      "course_mapping_basis": "historical_group_code_mapping",
+      "source": "蛋壳课评课程组全文缓存",
+      "source_type": "danke_group_review",
+      "source_ids": {
+        "group_id": 4749,
+        "review_id": 3373,
+        "offering_ids": []
+      },
+      "teacher": [
+        "傅正文"
+      ],
+      "teacher_relation_to_live_scope": "teacher_listed_in_live_official_scope",
+      "term": "2023暑期",
+      "term_from_group_metadata": "2023暑期",
+      "term_claimed_in_review": null,
+      "term_basis": "group_offering_metadata",
+      "review_type": "course_experience_or_assessment",
+      "review_status": "included",
+      "reading_status": "full_text_read",
+      "deduplication": {
+        "review_id_deduplicated_across_cache_copies": true,
+        "source_copy_count": 2
+      },
+      "paraphrase": "作者描述仪器分析实验需早上到实验室，实验前做准备题、实验后写报告；其认为工作安排繁重且部分实验训练价值有限。",
+      "facets": [
+        "实验流程",
+        "工作量",
+        "课程价值"
+      ],
+      "caveat": "2023暑期历史评价，表达强烈但未细分各实验内容。"
+    },
+    {
+      "record_id": "danke-review-6529",
+      "course_code": "CHEM20020",
+      "course_code_candidates": [
+        "CHEM20020"
+      ],
+      "raw_group_course_code": "CHEM130107",
+      "course_name": "仪器分析实验",
+      "group_name": "仪器分析实验",
+      "course_mapping_status": "assigned_historical",
+      "course_mapping_basis": "historical_group_code_mapping",
+      "source": "蛋壳课评课程组全文缓存",
+      "source_type": "danke_group_review",
+      "source_ids": {
+        "group_id": 4749,
+        "review_id": 6529,
+        "offering_ids": []
+      },
+      "teacher": [
+        "包慧敏"
+      ],
+      "teacher_relation_to_live_scope": "teacher_listed_in_live_official_scope",
+      "term": "2024暑期",
+      "term_from_group_metadata": "2024暑期",
+      "term_claimed_in_review": null,
+      "term_basis": "group_offering_metadata",
+      "review_type": "course_experience_or_assessment",
+      "review_status": "included",
+      "reading_status": "full_text_read",
+      "deduplication": {
+        "review_id_deduplicated_across_cache_copies": true,
+        "source_copy_count": 2
+      },
+      "paraphrase": "作者对仪器分析实验的内容和流程评价负面，称实验前需提前到场答题、实际仪器操作训练有限，实验报告篇幅负担大。",
+      "facets": [
+        "实验内容",
+        "考勤/准备",
+        "报告工作量"
+      ],
+      "caveat": "2024暑期历史单人评价。"
+    },
+    {
+      "record_id": "danke-review-4478",
+      "course_code": "CHEM20021",
+      "course_code_candidates": [
+        "CHEM20021"
+      ],
+      "raw_group_course_code": "CHEM130113",
+      "course_name": "无机化学与化学分析实验",
+      "group_name": "无机化学与化学分析实验",
+      "course_mapping_status": "assigned_historical",
+      "course_mapping_basis": "historical_group_code_mapping",
+      "source": "蛋壳课评课程组全文缓存",
+      "source_type": "danke_group_review",
+      "source_ids": {
+        "group_id": 4953,
+        "review_id": 4478,
+        "offering_ids": []
+      },
+      "teacher": [
+        "纪季"
+      ],
+      "teacher_relation_to_live_scope": "teacher_listed_in_live_official_scope",
+      "term": "2024秋",
+      "term_from_group_metadata": "2024秋",
+      "term_claimed_in_review": null,
+      "term_basis": "group_offering_metadata",
+      "review_type": "course_experience_or_assessment",
+      "review_status": "included",
+      "reading_status": "full_text_read",
+      "deduplication": {
+        "review_id_deduplicated_across_cache_copies": true,
+        "source_copy_count": 2
+      },
+      "paraphrase": "作者对纪季老师的无机与分析实验课评价积极，称讲解清楚、课堂氛围放松，工作量相对其修过的其他实验课较小。期末为实验操作考核，内容在平时练习范围内；作者提醒预习、操作速度及滴定数据精度会影响表现，并称其观察到成绩以A/A−为主。",
+      "facets": [
+        "实验内容",
+        "工作量",
+        "考核",
+        "学习建议"
+      ],
+      "caveat": "2024秋单个班级体验；成绩分布是作者观察而非官方统计。"
+    },
+    {
+      "record_id": "danke-review-5115",
+      "course_code": "CHEM20021",
+      "course_code_candidates": [
+        "CHEM20021"
+      ],
+      "raw_group_course_code": "CHEM130113",
+      "course_name": "无机化学与化学分析实验",
+      "group_name": "无机化学与化学分析实验",
+      "course_mapping_status": "assigned_historical",
+      "course_mapping_basis": "historical_group_code_mapping",
+      "source": "蛋壳课评课程组全文缓存",
+      "source_type": "danke_group_review",
+      "source_ids": {
+        "group_id": 4953,
+        "review_id": 5115,
+        "offering_ids": []
+      },
+      "teacher": [
+        "包慧敏"
+      ],
+      "teacher_relation_to_live_scope": "teacher_listed_in_live_official_scope",
+      "term": "2024秋",
+      "term_from_group_metadata": "2024秋",
+      "term_claimed_in_review": null,
+      "term_basis": "group_offering_metadata",
+      "review_type": "experience_with_hearsay_claims",
+      "review_status": "include_with_attribution_caveat",
+      "reading_status": "full_text_read",
+      "deduplication": {
+        "review_id_deduplicated_across_cache_copies": true,
+        "source_copy_count": 2
+      },
+      "paraphrase": "作者称课程包含无机合成、滴定分析和热重；其中酸碱、配位及氧化还原滴定次数较多，认为熟练度、速度和误差控制很关键。作者推测该班成绩中B+较多，但没有提供正式数据。",
+      "facets": [
+        "实验内容",
+        "工作量",
+        "学习建议",
+        "给分感受"
+      ],
+      "caveat": "2024秋历史个人评价，任课教师为包慧敏；给分判断来自身边观察。"
+    },
+    {
+      "record_id": "danke-review-3374",
+      "course_code": "CHEM30005",
+      "course_code_candidates": [
+        "CHEM30005"
+      ],
+      "raw_group_course_code": "CHEM130016",
+      "course_name": "无机化学",
+      "group_name": "无机化学",
+      "course_mapping_status": "assigned_historical",
+      "course_mapping_basis": "historical_group_code_mapping",
+      "source": "蛋壳课评课程组全文缓存",
+      "source_type": "danke_group_review",
+      "source_ids": {
+        "group_id": 111,
+        "review_id": 3374,
+        "offering_ids": []
+      },
+      "teacher": [
+        "岳斌",
+        "林阳辉"
+      ],
+      "teacher_relation_to_live_scope": "teacher_listed_in_live_official_scope",
+      "term": "2024秋",
+      "term_from_group_metadata": "2024秋",
+      "term_claimed_in_review": null,
+      "term_basis": "group_offering_metadata",
+      "review_type": "course_experience_or_assessment",
+      "review_status": "included",
+      "reading_status": "full_text_read",
+      "deduplication": {
+        "review_id_deduplicated_across_cache_copies": true,
+        "source_copy_count": 1
+      },
+      "paraphrase": "作者对无机化学课程两位教师的授课分段评价不同：认为岳斌部分缺少连贯结构，林阳辉部分相对清楚但课件表述影响复习。其主要抱怨是作业、课堂与考试衔接差，试题包含较多竞赛风格内容；认为有竞赛基础者可能更占优势。",
+      "facets": [
+        "课程组织",
+        "教学材料",
+        "作业与考试匹配"
+      ],
+      "caveat": "2024秋组别映射为普通无机化学CHEM30005；属单个修课者的负面判断。"
+    },
+    {
+      "record_id": "danke-review-6377",
+      "course_code": "CHEM30005",
+      "course_code_candidates": [
+        "CHEM30005"
+      ],
+      "raw_group_course_code": "CHEM30005",
+      "course_name": "无机化学",
+      "group_name": "无机化学",
+      "course_mapping_status": "assigned",
+      "course_mapping_basis": "official_course_code",
+      "source": "蛋壳课评课程组全文缓存",
+      "source_type": "danke_group_review",
+      "source_ids": {
+        "group_id": 6755,
+        "review_id": 6377,
+        "offering_ids": []
+      },
+      "teacher": [
+        "岳斌",
+        "林阳辉"
+      ],
+      "teacher_relation_to_live_scope": "teacher_listed_in_live_official_scope",
+      "term": "2025秋",
+      "term_from_group_metadata": "2025秋",
+      "term_claimed_in_review": null,
+      "term_basis": "group_offering_metadata",
+      "review_type": "brief_opinion",
+      "review_status": "included_low_detail",
+      "reading_status": "full_text_read",
+      "deduplication": {
+        "review_id_deduplicated_across_cache_copies": true,
+        "source_copy_count": 1
+      },
+      "paraphrase": "作者认为2025秋无机化学内容和考试不算难，但小班规模较小，担心成绩档位偏低；其提醒个人体验与主观预期可能不一致。",
+      "facets": [
+        "课程难度",
+        "班级规模",
+        "给分感受"
+      ],
+      "caveat": "2025秋个人短评。"
+    },
+    {
+      "record_id": "danke-review-3707",
+      "course_code": "CHEM30009",
+      "course_code_candidates": [
+        "CHEM30009"
+      ],
+      "raw_group_course_code": "CHEM130029",
+      "course_name": "胶体化学",
+      "group_name": "胶体化学",
+      "course_mapping_status": "assigned_historical",
+      "course_mapping_basis": "historical_group_code_mapping",
+      "source": "蛋壳课评课程组全文缓存",
+      "source_type": "danke_group_review",
+      "source_ids": {
+        "group_id": 2099,
+        "review_id": 3707,
+        "offering_ids": []
+      },
+      "teacher": [
+        "凌云"
+      ],
+      "teacher_relation_to_live_scope": "teacher_listed_in_live_official_scope",
+      "term": "2024暑期",
+      "term_from_group_metadata": "2024暑期",
+      "term_claimed_in_review": null,
+      "term_basis": "group_offering_metadata",
+      "review_type": "course_experience_or_assessment",
+      "review_status": "included",
+      "reading_status": "full_text_read",
+      "deduplication": {
+        "review_id_deduplicated_across_cache_copies": true,
+        "source_copy_count": 1
+      },
+      "paraphrase": "作者描述胶体化学有小组展示和期末考试，展示由同学互评、彼此分差不大；期末包含选择、填空、论述和计算，仍需复习并记忆部分论述内容。",
+      "facets": [
+        "考核",
+        "工作量",
+        "复习要求"
+      ],
+      "caveat": "2024暑期历史个人评价。"
+    },
+    {
+      "record_id": "danke-review-1169",
+      "course_code": "CHEM30012",
+      "course_code_candidates": [
+        "CHEM30012"
+      ],
+      "raw_group_course_code": "CHEM130039",
+      "course_name": "计算化学",
+      "group_name": "计算化学",
+      "course_mapping_status": "assigned_historical",
+      "course_mapping_basis": "historical_group_code_mapping",
+      "source": "蛋壳课评课程组全文缓存",
+      "source_type": "danke_group_review",
+      "source_ids": {
+        "group_id": 118,
+        "review_id": 1169,
+        "offering_ids": []
+      },
+      "teacher": [
+        "宋国梁"
+      ],
+      "teacher_relation_to_live_scope": "teacher_listed_in_live_official_scope",
+      "term": "2023秋",
+      "term_from_group_metadata": "2023秋",
+      "term_claimed_in_review": null,
+      "term_basis": "group_offering_metadata",
+      "review_type": "course_experience_or_assessment",
+      "review_status": "included",
+      "reading_status": "full_text_read",
+      "deduplication": {
+        "review_id_deduplicated_across_cache_copies": true,
+        "source_copy_count": 2
+      },
+      "paraphrase": "作者称2023秋计算化学主要依靠自学，期中作业需寻找过渡态，期末需扫描并拟合势能面再寻找过渡态，认真完成可能要花约两周处理Gaussian输入与计算；期末还要交论文并做展示。",
+      "facets": [
+        "课程组织",
+        "计算作业",
+        "工作量",
+        "期末考核"
+      ],
+      "caveat": "2023秋历史单人体验，作业投入取决于目标完成度。"
+    },
+    {
+      "record_id": "danke-review-1910",
+      "course_code": "CHEM30012",
+      "course_code_candidates": [
+        "CHEM30012"
+      ],
+      "raw_group_course_code": "CHEM130039",
+      "course_name": "计算化学",
+      "group_name": "计算化学",
+      "course_mapping_status": "assigned_historical",
+      "course_mapping_basis": "historical_group_code_mapping",
+      "source": "蛋壳课评课程组全文缓存",
+      "source_type": "danke_group_review",
+      "source_ids": {
+        "group_id": 118,
+        "review_id": 1910,
+        "offering_ids": []
+      },
+      "teacher": [
+        "宋国梁"
+      ],
+      "teacher_relation_to_live_scope": "teacher_listed_in_live_official_scope",
+      "term": "2023秋",
+      "term_from_group_metadata": "2023秋",
+      "term_claimed_in_review": null,
+      "term_basis": "group_offering_metadata",
+      "review_type": "brief_opinion",
+      "review_status": "included_low_detail",
+      "reading_status": "full_text_read",
+      "deduplication": {
+        "review_id_deduplicated_across_cache_copies": true,
+        "source_copy_count": 2
+      },
+      "paraphrase": "作者对宋国梁2023秋计算化学课评价很差，认为讲解难以理解，建议希望系统学习者考虑其他学习途径。",
+      "facets": [
+        "教学体验",
+        "课程价值"
+      ],
+      "caveat": "2023秋历史短评，未提供具体考核或作业信息。"
+    },
+    {
+      "record_id": "danke-review-4492",
+      "course_code": "CHEM30012",
+      "course_code_candidates": [
+        "CHEM30012"
+      ],
+      "raw_group_course_code": "CHEM130039",
+      "course_name": "计算化学",
+      "group_name": "计算化学",
+      "course_mapping_status": "assigned_historical",
+      "course_mapping_basis": "historical_group_code_mapping",
+      "source": "蛋壳课评课程组全文缓存",
+      "source_type": "danke_group_review",
+      "source_ids": {
+        "group_id": 118,
+        "review_id": 4492,
+        "offering_ids": []
+      },
+      "teacher": [
+        "宋国梁"
+      ],
+      "teacher_relation_to_live_scope": "teacher_listed_in_live_official_scope",
+      "term": "2024秋",
+      "term_from_group_metadata": "2024秋",
+      "term_claimed_in_review": null,
+      "term_basis": "group_offering_metadata",
+      "review_type": "course_experience_or_assessment",
+      "review_status": "included",
+      "reading_status": "full_text_read",
+      "deduplication": {
+        "review_id_deduplicated_across_cache_copies": true,
+        "source_copy_count": 2
+      },
+      "paraphrase": "作者称宋国梁的计算化学课较少点名，课堂依赖学生自学，期末作业可借助生成式AI完成；作者认为课程深度有限，可能不适合期待系统深入学习的学生。",
+      "facets": [
+        "课堂组织",
+        "期末作业",
+        "课程深度"
+      ],
+      "caveat": "2024秋历史个人评价。"
+    },
+    {
+      "record_id": "danke-review-6706",
+      "course_code": "CHEM30013",
+      "course_code_candidates": [
+        "CHEM30013"
+      ],
+      "raw_group_course_code": "CHEM130041",
+      "course_name": "新型无机材料",
+      "group_name": "新型无机材料",
+      "course_mapping_status": "assigned_historical",
+      "course_mapping_basis": "historical_group_code_mapping",
+      "source": "蛋壳课评课程组全文缓存",
+      "source_type": "danke_group_review",
+      "source_ids": {
+        "group_id": 2103,
+        "review_id": 6706,
+        "offering_ids": []
+      },
+      "teacher": [
+        "张凡",
+        "李晓民",
+        "凡勇"
+      ],
+      "teacher_relation_to_live_scope": "teacher_listed_in_live_official_scope",
+      "term": "2024暑期",
+      "term_from_group_metadata": "2024暑期",
+      "term_claimed_in_review": null,
+      "term_basis": "group_offering_metadata",
+      "review_type": "course_experience_or_assessment",
+      "review_status": "included",
+      "reading_status": "full_text_read",
+      "deduplication": {
+        "review_id_deduplicated_across_cache_copies": true,
+        "source_copy_count": 1
+      },
+      "paraphrase": "作者称新型无机材料课多数时间由学生做约10分钟文献展示，仅有少数几次教师讲课；其觉得课程收获有限且给分难以理解。",
+      "facets": [
+        "课堂组织",
+        "展示工作量",
+        "给分感受"
+      ],
+      "caveat": "2024暑期历史个人评价。"
+    },
+    {
+      "record_id": "danke-review-6642",
+      "course_code": "CHEM30014",
+      "course_code_candidates": [
+        "CHEM30014"
+      ],
+      "raw_group_course_code": "CHEM130044",
+      "course_name": "化学反应工程",
+      "group_name": "化学反应工程",
+      "course_mapping_status": "assigned_historical",
+      "course_mapping_basis": "historical_group_code_mapping",
+      "source": "蛋壳课评课程组全文缓存",
+      "source_type": "danke_group_review",
+      "source_ids": {
+        "group_id": 2105,
+        "review_id": 6642,
+        "offering_ids": []
+      },
+      "teacher": [
+        "徐华龙"
+      ],
+      "teacher_relation_to_live_scope": "teacher_listed_in_live_official_scope",
+      "term": "2024暑期",
+      "term_from_group_metadata": "2024暑期",
+      "term_claimed_in_review": null,
+      "term_basis": "group_offering_metadata",
+      "review_type": "brief_opinion",
+      "review_status": "included_low_detail",
+      "reading_status": "full_text_read",
+      "deduplication": {
+        "review_id_deduplicated_across_cache_copies": true,
+        "source_copy_count": 1
+      },
+      "paraphrase": "作者称化学反应工程期末多为复习题原题，课程内容有收获，平时基本不点名、偶有提前通知的小测；其认为成绩中有A+。",
+      "facets": [
+        "课程内容",
+        "考核",
+        "个人成绩"
+      ],
+      "caveat": "2024暑期历史评价；成绩判断为作者陈述。"
+    },
+    {
+      "record_id": "danke-review-3630",
+      "course_code": "CHEM30017",
+      "course_code_candidates": [
+        "CHEM30017"
+      ],
+      "raw_group_course_code": "CHEM130048",
+      "course_name": "应用化学专题",
+      "group_name": "应用化学专题",
+      "course_mapping_status": "assigned_historical",
+      "course_mapping_basis": "historical_group_code_mapping",
+      "source": "蛋壳课评课程组全文缓存",
+      "source_type": "danke_group_review",
+      "source_ids": {
+        "group_id": 122,
+        "review_id": 3630,
+        "offering_ids": []
+      },
+      "teacher": [
+        "乐英红"
+      ],
+      "teacher_relation_to_live_scope": "teacher_listed_in_live_official_scope",
+      "term": "2024秋",
+      "term_from_group_metadata": "2024秋",
+      "term_claimed_in_review": null,
+      "term_basis": "group_offering_metadata",
+      "review_type": "course_experience_or_assessment",
+      "review_status": "included",
+      "reading_status": "full_text_read",
+      "deduplication": {
+        "review_id_deduplicated_across_cache_copies": true,
+        "source_copy_count": 1
+      },
+      "paraphrase": "作者描述本课平时不点名，成绩由个人展示和期末考试构成，期末含概念、简单计算与机理推导；任课教师会在最后一节课梳理重点。作者认为按课件复习即可应对，并建议参加收尾复习课。",
+      "facets": [
+        "考核",
+        "复习建议",
+        "课堂体验"
+      ],
+      "caveat": "2024秋单个修课者经验，给分判断主观。"
+    },
+    {
+      "record_id": "danke-review-6643",
+      "course_code": "CHEM30023",
+      "course_code_candidates": [
+        "CHEM30023"
+      ],
+      "raw_group_course_code": "CHEM130073",
+      "course_name": "药物化学",
+      "group_name": "药物化学",
+      "course_mapping_status": "assigned_historical",
+      "course_mapping_basis": "historical_group_code_mapping",
+      "source": "蛋壳课评课程组全文缓存",
+      "source_type": "danke_group_review",
+      "source_ids": {
+        "group_id": 2111,
+        "review_id": 6643,
+        "offering_ids": []
+      },
+      "teacher": [
+        "周伟",
+        "王帅"
+      ],
+      "teacher_relation_to_live_scope": "teacher_listed_in_live_official_scope",
+      "term": "2024暑期",
+      "term_from_group_metadata": "2024暑期",
+      "term_claimed_in_review": null,
+      "term_basis": "group_offering_metadata",
+      "review_type": "brief_opinion",
+      "review_status": "included_low_detail",
+      "reading_status": "full_text_read",
+      "deduplication": {
+        "review_id_deduplicated_across_cache_copies": true,
+        "source_copy_count": 1
+      },
+      "paraphrase": "作者称药物化学偶有点名，线上有两次小测，论文需要较多投入；其认为认真完成论文有助于取得较好成绩。",
+      "facets": [
+        "考勤",
+        "小测",
+        "论文工作量"
+      ],
+      "caveat": "2024暑期历史短评。"
+    },
+    {
+      "record_id": "danke-review-1907",
+      "course_code": "CHEM30033",
+      "course_code_candidates": [
+        "CHEM30033"
+      ],
+      "raw_group_course_code": "CHEM130108",
+      "course_name": "计算谱学原理",
+      "group_name": "计算谱学原理",
+      "course_mapping_status": "assigned_historical",
+      "course_mapping_basis": "historical_group_code_mapping",
+      "source": "蛋壳课评课程组全文缓存",
+      "source_type": "danke_group_review",
+      "source_ids": {
+        "group_id": 4426,
+        "review_id": 1907,
+        "offering_ids": []
+      },
+      "teacher": [
+        "郑晓",
+        "段赛"
+      ],
+      "teacher_relation_to_live_scope": "teacher_listed_in_live_official_scope",
+      "term": "2023暑期",
+      "term_from_group_metadata": "2023暑期",
+      "term_claimed_in_review": null,
+      "term_basis": "group_offering_metadata",
+      "review_type": "course_experience_or_assessment",
+      "review_status": "included",
+      "reading_status": "full_text_read",
+      "deduplication": {
+        "review_id_deduplicated_across_cache_copies": true,
+        "source_copy_count": 2
+      },
+      "paraphrase": "作者称课程前半讲量子动力学基础、后半用于解释各类光谱，并建议先有量子力学基础。其对段赛负责部分的主要意见是讲义对符号及中间推导解释不足，因而课后复习费力；考核题目据其称多为课后题或讲义内容的简化延伸。作者未提供具体成绩证据，提到的小班给分比例是个人陈述。",
+      "facets": [
+        "课程内容",
+        "先修",
+        "讲义与教学",
+        "考核"
+      ],
+      "caveat": "2023暑期历史个人评价；对教师教学和给分的评价未独立核实。"
+    },
+    {
+      "record_id": "danke-review-1174",
+      "course_code": "CHEM30034",
+      "course_code_candidates": [
+        "CHEM30034"
+      ],
+      "raw_group_course_code": "CHEM130109",
+      "course_name": "不对称合成化学",
+      "group_name": "不对称合成化学",
+      "course_mapping_status": "assigned_historical",
+      "course_mapping_basis": "historical_group_code_mapping",
+      "source": "蛋壳课评课程组全文缓存",
+      "source_type": "danke_group_review",
+      "source_ids": {
+        "group_id": 4427,
+        "review_id": 1174,
+        "offering_ids": []
+      },
+      "teacher": [
+        "陆平"
+      ],
+      "teacher_relation_to_live_scope": "teacher_listed_in_live_official_scope",
+      "term": "2023秋",
+      "term_from_group_metadata": "2023秋",
+      "term_claimed_in_review": null,
+      "term_basis": "group_offering_metadata",
+      "review_type": "course_experience_or_assessment",
+      "review_status": "included",
+      "reading_status": "full_text_read",
+      "deduplication": {
+        "review_id_deduplicated_across_cache_copies": true,
+        "source_copy_count": 1
+      },
+      "paraphrase": "作者称课程涉及Felkin–Ahn模型、次级相互作用、过渡金属催化模式等不对称合成内容，建议先修有机荣誉或高等有机；期末要求写机理、辨析方法类别并举例。作者认为课件字体和投影影响课堂复习，并报告当届小班成绩情况。",
+      "facets": [
+        "课程内容",
+        "先修",
+        "考核",
+        "教学材料"
+      ],
+      "caveat": "2023秋历史个人评价；小班成绩数字为作者陈述。"
+    },
+    {
+      "record_id": "danke-review-439",
+      "course_code": "CHEM30041h",
+      "course_code_candidates": [
+        "CHEM30041h"
+      ],
+      "raw_group_course_code": "CHEM130096h",
+      "course_name": "量子化学原理及应用(H)",
+      "group_name": "量子化学原理及应用(H)",
+      "course_mapping_status": "assigned_historical",
+      "course_mapping_basis": "historical_group_code_mapping",
+      "source": "蛋壳课评课程组全文缓存",
+      "source_type": "danke_group_review",
+      "source_ids": {
+        "group_id": 138,
+        "review_id": 439,
+        "offering_ids": []
+      },
+      "teacher": [
+        "徐昕",
+        "张颖"
+      ],
+      "teacher_relation_to_live_scope": "teacher_listed_in_live_official_scope",
+      "term": "2022秋",
+      "term_from_group_metadata": "2022秋",
+      "term_claimed_in_review": null,
+      "term_basis": "group_offering_metadata",
+      "review_type": "course_experience_or_assessment",
+      "review_status": "included",
+      "reading_status": "full_text_read",
+      "paraphrase": "作者描述该荣誉课会逐步推导物化AⅠ中的量子模型（如势箱、谐振子和氢原子），每周作业约需3–4小时，无期中或展示，期末闭卷。其主要困难判断是数学先修不足会使推导、符号和考试目标难跟，且课程较少展开化学应用；建议先修数学物理方法并确认自己对量化有兴趣。文中给出的历年成绩比例仅属作者转述，不作正式统计。",
+      "facets": [
+        "课程内容",
+        "工作量",
+        "考核",
+        "先修",
+        "课程体验"
+      ],
+      "caveat": "2022秋个人体验；文中关于录取先修和成绩分布是历史个人陈述，未经官方核实。",
+      "deduplication": {
+        "review_id_deduplicated_across_cache_copies": true,
+        "source_copy_count": 1
       }
+    },
+    {
+      "record_id": "danke-review-1162",
+      "course_code": "CHEM30041h",
+      "course_code_candidates": [
+        "CHEM30041h"
+      ],
+      "raw_group_course_code": "CHEM130096h",
+      "course_name": "量子化学原理及应用(H)",
+      "group_name": "量子化学原理及应用(H)",
+      "course_mapping_status": "assigned_historical",
+      "course_mapping_basis": "historical_group_code_mapping",
+      "source": "蛋壳课评课程组全文缓存",
+      "source_type": "danke_group_review",
+      "source_ids": {
+        "group_id": 138,
+        "review_id": 1162,
+        "offering_ids": []
+      },
+      "teacher": [
+        "徐昕",
+        "张颖"
+      ],
+      "teacher_relation_to_live_scope": "teacher_listed_in_live_official_scope",
+      "term": "2023秋",
+      "term_from_group_metadata": "2023秋",
+      "term_claimed_in_review": null,
+      "term_basis": "group_offering_metadata",
+      "review_type": "course_experience_or_assessment",
+      "review_status": "included",
+      "reading_status": "full_text_read",
+      "paraphrase": "作者在2023秋期末后认为实际试卷明显难于作业和课堂练习；并称每周作业量大、听课需持续抄记、作业缺少批改或答案反馈。作者同时肯定两位教师愿意回答量化/计算相关问题，并建议真正对该方向有兴趣者认真修读，提到可配合中英文量子化学教材自学。",
+      "facets": [
+        "考试",
+        "作业与反馈",
+        "课堂节奏",
+        "教师支持",
+        "学习建议"
+      ],
+      "caveat": "2023秋单个修课者的负面体验；与同组另一位修课者对助教支持和考试的描述不同。",
+      "deduplication": {
+        "review_id_deduplicated_across_cache_copies": true,
+        "source_copy_count": 1
+      }
+    },
+    {
+      "record_id": "danke-review-1184",
+      "course_code": "CHEM30041h",
+      "course_code_candidates": [
+        "CHEM30041h"
+      ],
+      "raw_group_course_code": "CHEM130096h",
+      "course_name": "量子化学原理及应用(H)",
+      "group_name": "量子化学原理及应用(H)",
+      "course_mapping_status": "assigned_historical",
+      "course_mapping_basis": "historical_group_code_mapping",
+      "source": "蛋壳课评课程组全文缓存",
+      "source_type": "danke_group_review",
+      "source_ids": {
+        "group_id": 138,
+        "review_id": 1184,
+        "offering_ids": []
+      },
+      "teacher": [
+        "徐昕",
+        "张颖"
+      ],
+      "teacher_relation_to_live_scope": "teacher_listed_in_live_official_scope",
+      "term": "2023秋",
+      "term_from_group_metadata": "2023秋",
+      "term_claimed_in_review": null,
+      "term_basis": "group_offering_metadata",
+      "review_type": "course_experience_or_assessment",
+      "review_status": "included",
+      "reading_status": "full_text_read",
+      "paraphrase": "作者将本课定位为物化AⅠ量子论的深入推导课，覆盖势阱/势垒、谐振子、角动量、氢原子、微扰与变分、自旋、多电子体系和Hartree–Fock，并有Linux量化计算上机。其描述显示作业含大量推导和少量编程，周末需投入数小时；建议提前复习线性代数、复变与微分方程、多读教材。作者认为教师愿意答疑、课程支持度尚可但难度高，并称期末有两题超纲。",
+      "facets": [
+        "课程内容",
+        "作业与工作量",
+        "学习准备",
+        "教师支持",
+        "考试"
+      ],
+      "caveat": "2023秋单个修课者的完整经验；与同学对作业批改/考试难度的其他评价存在分歧，不能概括所有班级。",
+      "deduplication": {
+        "review_id_deduplicated_across_cache_copies": true,
+        "source_copy_count": 1
+      }
+    },
+    {
+      "record_id": "danke-review-1906",
+      "course_code": "CHEM30041h",
+      "course_code_candidates": [
+        "CHEM30041h"
+      ],
+      "raw_group_course_code": "CHEM130096h",
+      "course_name": "量子化学原理及应用(H)",
+      "group_name": "量子化学原理及应用(H)",
+      "course_mapping_status": "assigned_historical",
+      "course_mapping_basis": "historical_group_code_mapping",
+      "source": "蛋壳课评课程组全文缓存",
+      "source_type": "danke_group_review",
+      "source_ids": {
+        "group_id": 138,
+        "review_id": 1906,
+        "offering_ids": []
+      },
+      "teacher": [
+        "徐昕",
+        "张颖"
+      ],
+      "teacher_relation_to_live_scope": "teacher_listed_in_live_official_scope",
+      "term": "2023秋",
+      "term_from_group_metadata": "2023秋",
+      "term_claimed_in_review": null,
+      "term_basis": "group_offering_metadata",
+      "review_type": "course_experience_or_assessment",
+      "review_status": "included",
+      "reading_status": "full_text_read",
+      "paraphrase": "作者认为本课比物化AⅠ更细致地讲授量子理论，并把这些内容视为理解有机、配位与光谱理论的基础；同时指出课程偏传统波动力学推导，可能不足以直接阅读较新的矩阵力学文献。作者认为复数、线性代数和高数是有用准备，并提醒部分年份考试难度可能较高；关于给分的说法来自个人对往年情况的观察。",
+      "facets": [
+        "课程价值",
+        "课程内容",
+        "先修",
+        "考试与给分"
+      ],
+      "caveat": "2023秋个人评价；对现代理论衔接、考试和历年给分的判断均为作者意见。",
+      "deduplication": {
+        "review_id_deduplicated_across_cache_copies": true,
+        "source_copy_count": 1
+      }
+    },
+    {
+      "record_id": "danke-review-434",
+      "course_code": "CHEM40002",
+      "course_code_candidates": [
+        "CHEM40002"
+      ],
+      "raw_group_course_code": "CHEM130017",
+      "course_name": "生产实习",
+      "group_name": "生产实习",
+      "course_mapping_status": "assigned_historical",
+      "course_mapping_basis": "historical_group_code_mapping",
+      "source": "蛋壳课评课程组全文缓存",
+      "source_type": "danke_group_review",
+      "source_ids": {
+        "group_id": 113,
+        "review_id": 434,
+        "offering_ids": []
+      },
+      "teacher": [
+        "孙兴文"
+      ],
+      "teacher_relation_to_live_scope": "other_or_historical_teacher",
+      "term": "2022秋",
+      "term_from_group_metadata": "2022秋",
+      "term_claimed_in_review": null,
+      "term_basis": "group_offering_metadata",
+      "review_type": "course_experience_or_assessment",
+      "review_status": "included",
+      "reading_status": "full_text_read",
+      "deduplication": {
+        "review_id_deduplicated_across_cache_copies": true,
+        "source_copy_count": 3
+      },
+      "paraphrase": "作者记录2022秋的P/NP生产实习包括参观张江陶氏中心及长三角空气质量监测中心，各约半天，之后各交约200字感想；其认为课程安排轻松，但能帮助学生了解化工企业和行业岗位。",
+      "facets": [
+        "实习内容",
+        "工作量",
+        "职业认知"
+      ],
+      "caveat": "这是2022秋历史组别的体验，任课教师为孙兴文；现行教学班与安排可能不同。"
+    },
+    {
+      "record_id": "danke-review-4918",
+      "course_code": "CHEM40015h",
+      "course_code_candidates": [
+        "CHEM40015h"
+      ],
+      "raw_group_course_code": "CHEM130095h",
+      "course_name": "高等有机化学(H)",
+      "group_name": "高等有机化学(H)",
+      "course_mapping_status": "assigned_historical",
+      "course_mapping_basis": "historical_group_code_mapping",
+      "source": "蛋壳课评课程组全文缓存",
+      "source_type": "danke_group_review",
+      "source_ids": {
+        "group_id": 137,
+        "review_id": 4918,
+        "offering_ids": []
+      },
+      "teacher": [
+        "王全瑞"
+      ],
+      "teacher_relation_to_live_scope": "teacher_listed_in_live_official_scope",
+      "term": "2024秋",
+      "term_from_group_metadata": "2024秋",
+      "term_claimed_in_review": null,
+      "term_basis": "group_offering_metadata",
+      "review_type": "experience_with_hearsay_claims",
+      "review_status": "include_with_attribution_caveat",
+      "reading_status": "full_text_read",
+      "deduplication": {
+        "review_id_deduplicated_across_cache_copies": true,
+        "source_copy_count": 2
+      },
+      "paraphrase": "作者把课程定位为适合基础有机学得较稳或已有课题组经历者的中级进阶课，内容深度约为中级有机化学，涉及反应和机理；认为期末难度适中，并称约30–40分来自课件例题或原反应。其对A/A+较易取得的判断是个人预期。",
+      "facets": [
+        "课程内容",
+        "先修",
+        "考试"
+      ],
+      "caveat": "2024秋历史评论，教师为王全瑞；关于换教师及未来课程变化的说法是转述，不作为当前信息。"
+    },
+    {
+      "record_id": "danke-review-3641",
+      "course_code": "GECC10002",
+      "course_code_candidates": [
+        "GECC10002"
+      ],
+      "raw_group_course_code": "CHEM119008",
+      "course_name": "化学与人类",
+      "group_name": "化学与人类",
+      "course_mapping_status": "assigned_historical",
+      "course_mapping_basis": "historical_group_code_mapping",
+      "source": "蛋壳课评课程组全文缓存",
+      "source_type": "danke_group_review",
+      "source_ids": {
+        "group_id": 2085,
+        "review_id": 3641,
+        "offering_ids": []
+      },
+      "teacher": [
+        "沈伟"
+      ],
+      "teacher_relation_to_live_scope": "teacher_listed_in_live_official_scope",
+      "term": "2024暑期",
+      "term_from_group_metadata": "2024暑期",
+      "term_claimed_in_review": null,
+      "term_basis": "group_offering_metadata",
+      "review_type": "course_experience_or_assessment",
+      "review_status": "included",
+      "reading_status": "full_text_read",
+      "deduplication": {
+        "review_id_deduplicated_across_cache_copies": true,
+        "source_copy_count": 2
+      },
+      "paraphrase": "作者称2024暑期课程有课后手写题、一次约8分钟的展示和闭卷期末；其记得教师划过重点，自己复习后仍对期末成绩感到意外，并称身边同学也有类似落差。",
+      "facets": [
+        "作业与展示",
+        "期末考核",
+        "给分感受"
+      ],
+      "caveat": "2024暑期单人负面体验；关于他人成绩和评分原因的判断未核实。"
+    },
+    {
+      "record_id": "danke-review-3677",
+      "course_code": "GECC10002",
+      "course_code_candidates": [
+        "GECC10002"
+      ],
+      "raw_group_course_code": "CHEM119008",
+      "course_name": "化学与人类",
+      "group_name": "化学与人类",
+      "course_mapping_status": "assigned_historical",
+      "course_mapping_basis": "historical_group_code_mapping",
+      "source": "蛋壳课评课程组全文缓存",
+      "source_type": "danke_group_review",
+      "source_ids": {
+        "group_id": 2085,
+        "review_id": 3677,
+        "offering_ids": []
+      },
+      "teacher": [
+        "刘永梅"
+      ],
+      "teacher_relation_to_live_scope": "other_or_historical_teacher",
+      "term": "2024暑期",
+      "term_from_group_metadata": "2024暑期",
+      "term_claimed_in_review": null,
+      "term_basis": "group_offering_metadata",
+      "review_type": "course_experience_or_assessment",
+      "review_status": "included",
+      "reading_status": "full_text_read",
+      "deduplication": {
+        "review_id_deduplicated_across_cache_copies": true,
+        "source_copy_count": 2
+      },
+      "paraphrase": "作者称刘永梅班有小组展示、论文、实验报告和闭卷期末，任务较多；其表示认真完成过程任务后仍获B，并认为投入与成绩不相称。",
+      "facets": [
+        "考核结构",
+        "工作量",
+        "给分感受"
+      ],
+      "caveat": "2024暑期历史单人负面评价。"
+    },
+    {
+      "record_id": "danke-review-3680",
+      "course_code": "GECC10002",
+      "course_code_candidates": [
+        "GECC10002"
+      ],
+      "raw_group_course_code": "CHEM119008",
+      "course_name": "化学与人类",
+      "group_name": "化学与人类",
+      "course_mapping_status": "assigned_historical",
+      "course_mapping_basis": "historical_group_code_mapping",
+      "source": "蛋壳课评课程组全文缓存",
+      "source_type": "danke_group_review",
+      "source_ids": {
+        "group_id": 2085,
+        "review_id": 3680,
+        "offering_ids": []
+      },
+      "teacher": [
+        "刘永梅"
+      ],
+      "teacher_relation_to_live_scope": "other_or_historical_teacher",
+      "term": "2024暑期",
+      "term_from_group_metadata": "2024暑期",
+      "term_claimed_in_review": null,
+      "term_basis": "group_offering_metadata",
+      "review_type": "course_experience_or_assessment",
+      "review_status": "included",
+      "reading_status": "full_text_read",
+      "deduplication": {
+        "review_id_deduplicated_across_cache_copies": true,
+        "source_copy_count": 2
+      },
+      "paraphrase": "作者称该班有多次考勤、两次小测、展示、论文、实验报告及闭卷期末；其本人表示未缺勤、完成约六千字论文和四千字实验报告后获B。",
+      "facets": [
+        "考核结构",
+        "工作量",
+        "个人成绩"
+      ],
+      "caveat": "2024暑期历史个人体验；评价与同组另一条评论相似但来源ID不同，保留为不同个人报告。"
+    },
+    {
+      "record_id": "danke-review-4469",
+      "course_code": "GECC10002",
+      "course_code_candidates": [
+        "GECC10002"
+      ],
+      "raw_group_course_code": "CHEM119008",
+      "course_name": "化学与人类",
+      "group_name": "化学与人类",
+      "course_mapping_status": "assigned_historical",
+      "course_mapping_basis": "historical_group_code_mapping",
+      "source": "蛋壳课评课程组全文缓存",
+      "source_type": "danke_group_review",
+      "source_ids": {
+        "group_id": 2085,
+        "review_id": 4469,
+        "offering_ids": []
+      },
+      "teacher": [
+        "沈伟"
+      ],
+      "teacher_relation_to_live_scope": "teacher_listed_in_live_official_scope",
+      "term": "2024暑期",
+      "term_from_group_metadata": "2024暑期",
+      "term_claimed_in_review": null,
+      "term_basis": "group_offering_metadata",
+      "review_type": "course_experience_or_assessment",
+      "review_status": "included",
+      "reading_status": "full_text_read",
+      "deduplication": {
+        "review_id_deduplicated_across_cache_copies": true,
+        "source_copy_count": 2
+      },
+      "paraphrase": "作者称化学与人类有一次随机展示，平时工作量不大，教师在最后一节课提示考试重点；其自述考前三天集中复习并背诵重点后获A。",
+      "facets": [
+        "考核",
+        "复习建议",
+        "个人成绩"
+      ],
+      "caveat": "2024暑期历史个人经验。"
+    },
+    {
+      "record_id": "danke-review-2613",
+      "course_code": "GEEC10038",
+      "course_code_candidates": [
+        "GEEC10038"
+      ],
+      "raw_group_course_code": "CHEM110002",
+      "course_name": "元素发现史",
+      "group_name": "元素发现史",
+      "course_mapping_status": "assigned_historical",
+      "course_mapping_basis": "historical_group_code_mapping",
+      "source": "蛋壳课评课程组全文缓存",
+      "source_type": "danke_group_review",
+      "source_ids": {
+        "group_id": 95,
+        "review_id": 2613,
+        "offering_ids": []
+      },
+      "teacher": [
+        "程晓维"
+      ],
+      "teacher_relation_to_live_scope": "teacher_listed_in_live_official_scope",
+      "term": "2024秋",
+      "term_from_group_metadata": "2024秋",
+      "term_claimed_in_review": null,
+      "term_basis": "group_offering_metadata",
+      "review_type": "course_experience_or_assessment",
+      "review_status": "included",
+      "reading_status": "full_text_read",
+      "deduplication": {
+        "review_id_deduplicated_across_cache_copies": true,
+        "source_copy_count": 2
+      },
+      "paraphrase": "作者称2024秋元素发现史无点名、无日常作业，期末仅需写一篇关于化学元素发现故事的短论文；其认为教师有教学热情，课程适合对化学史有兴趣或希望轻量修课的学生。",
+      "facets": [
+        "课程内容",
+        "工作量",
+        "考核"
+      ],
+      "caveat": "2024秋历史个人评价。"
+    },
+    {
+      "record_id": "danke-review-5635",
+      "course_code": "GEEC10038",
+      "course_code_candidates": [
+        "GEEC10038"
+      ],
+      "raw_group_course_code": "GEEC10038",
+      "course_name": "元素发现史",
+      "group_name": "元素发现史",
+      "course_mapping_status": "assigned",
+      "course_mapping_basis": "official_course_code",
+      "source": "蛋壳课评课程组全文缓存",
+      "source_type": "danke_group_review",
+      "source_ids": {
+        "group_id": 6813,
+        "review_id": 5635,
+        "offering_ids": []
+      },
+      "teacher": [
+        "程晓维"
+      ],
+      "teacher_relation_to_live_scope": "teacher_listed_in_live_official_scope",
+      "term": "2025秋",
+      "term_from_group_metadata": "2025秋",
+      "term_claimed_in_review": null,
+      "term_basis": "group_offering_metadata",
+      "review_type": "course_experience_or_assessment",
+      "review_status": "included",
+      "reading_status": "full_text_read",
+      "deduplication": {
+        "review_id_deduplicated_across_cache_copies": true,
+        "source_copy_count": 2
+      },
+      "paraphrase": "作者称2025秋元素发现史仅有一次小作业和期末论文，论文主题与元素发现相关即可且截止较晚；课堂不点名，作者认为教师讲授认真。其自报期末临近其他考试结束后完成论文仍获较高等级。",
+      "facets": [
+        "课程内容",
+        "工作量",
+        "考核",
+        "教师风格"
+      ],
+      "caveat": "2025秋个人体验；等级是作者自报，不能据此推断稳定给分规则。"
+    },
+    {
+      "record_id": "danke-review-6618",
+      "course_code": "GESP10004",
+      "course_code_candidates": [
+        "GESP10004"
+      ],
+      "raw_group_course_code": "GESP10004",
+      "course_name": "强国之路：形势、政策与使命Ⅱ",
+      "group_name": "强国之路：形势、政策与使命Ⅱ",
+      "course_mapping_status": "assigned_cross_department_same_code",
+      "course_mapping_basis": "official_course_code_cross_department_offering",
+      "source": "蛋壳课评课程组全文缓存",
+      "source_type": "danke_group_review",
+      "source_ids": {
+        "group_id": 9730,
+        "review_id": 6618,
+        "offering_ids": []
+      },
+      "teacher": [
+        "周俭",
+        "葛剑雄",
+        "毛颖",
+        "赵重波",
+        "任彦",
+        "李济君"
+      ],
+      "teacher_relation_to_live_scope": "teacher_listed_in_live_official_scope",
+      "term": "2025暑期",
+      "term_from_group_metadata": "2025暑期",
+      "term_claimed_in_review": null,
+      "term_basis": "group_offering_metadata",
+      "review_type": "course_experience_or_assessment",
+      "review_status": "included",
+      "reading_status": "full_text_read",
+      "deduplication": {
+        "review_id_deduplicated_across_cache_copies": true,
+        "source_copy_count": 1
+      },
+      "paraphrase": "作者觉得2025暑期全校讲座式课程内容偏文科，个人兴趣有限；其称期末任务为感谢文字及实践提纲，认为实用性不足。",
+      "facets": [
+        "课程体验",
+        "期末任务"
+      ],
+      "caveat": "GESP10004是化学系范围内的跨院系通识课；评价来自单个学生，不针对某位教师。"
     }
   ]
 }

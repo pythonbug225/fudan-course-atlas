@@ -32,7 +32,7 @@ for c in e["courses"]:
  reviews=[]
  for r in records.get(code,[]):
   if r.get("source_type")=="danke_group_review":
-   label="蛋壳课评 #"+str(r.get("source_ids",{}).get("review_id","")); mapping="历史同名旧课号" if r.get("course_mapping_status")=="assigned_historical" else "现行课号"; teacher="、".join(r.get("teacher",[])) or "教师未注明";term=r.get("term") or "学期未注明";summary=r.get("paraphrase","")
+   label="蛋壳课评 #"+str(r.get("source_ids",{}).get("review_id","")); mapping={"assigned_historical":"历史同名旧课号", "assigned_cross_department_same_code":"其他院系同课号", "assigned":"现行课号"}.get(r.get("course_mapping_status"),"课程对应待核"); teacher="、".join(r.get("teacher",[])) or "教师未注明";term=r.get("term") or "学期未注明";summary=r.get("paraphrase","")
    reviews.append(f'<article><p>{esc(summary)}</p><small>{esc(label)} · {esc(teacher)} · {esc(term)} · {esc(mapping)}</small></article>')
   else:
    url=esc(r.get("source_url","")); label=esc(r.get("source_label","")); summary=esc(r.get("summary",""));term=esc(r.get("term",""));
