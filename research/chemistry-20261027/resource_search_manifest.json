@@ -5,22 +5,35 @@
   "course_scope_count": 145,
   "ledger_rows": 145,
   "status_counts": {
-    "official_courseware_family_match_code_unverified": 1,
+    "not_individually_searched": 130,
     "candidate_community_materials_exact_title": 1,
-    "official_courseware_exact_title_historical_code_mismatch": 1,
-    "official_page_content_match_metadata_conflict_split_unverified": 2,
+    "official_courseware_title_family_match_code_unverified": 1,
+    "official_courseware_family_match_code_unverified": 1,
+    "official_historical_course_outline_title_family_match_code_unverified": 1,
     "course_catalog_only_no_study_materials_seen": 2,
-    "not_individually_searched": 135,
+    "official_courseware_exact_title_historical_code_mismatch": 1,
+    "official_courseware_family_match_split_unverified": 3,
     "official_combined_lab_course_family_match_code_unverified": 2,
-    "official_courseware_title_family_match_code_unverified": 1
+    "official_related_safety_material_course_code_unverified": 1,
+    "candidate_community_misfiled_lower_course_file": 1,
+    "official_historical_course_resource_index_login_required_code_unverified": 1
   },
-  "total_records": 6,
-  "material_record_count": 5,
+  "total_records": 9,
+  "material_record_count": 7,
   "sources_checked": [
     "GitHub public code/file search, repository metadata, README and exact FDU-Sharing course-page source; no clone/download/run.",
     "Official Fudan Experimental Chemistry Center pages for inorganic/chemical-analysis, ordinary-chemistry, synthesis and instrumental-analysis/physical-chemistry experiment materials.",
     "XueyinOnline Organic Chemistry A I/II public pages.",
-    "Official Fudan Chemistry Department and Fudan News course-context pages."
+    "Official Fudan Chemistry Department and Fudan News course-context pages.",
+    "FDU-Sharing course navigation index pages/courses/_meta.ts; only one chemistry-course page, 普通化学A（上）, appears in the visible course registry.",
+    "Official Fudan organic-chemistry-experiment historical schedule and chemistry lab-safety guide/rules.",
+    "Official Fudan science-training and chemical-engineering lab indexes checked for possible scope matches; no exact current course-code match.",
+    "Fudan Chemistry research-group course page for Physical Chemistry A II with historical CHEM130013.03 and a UIS-protected handout index.",
+    "Official Fudan Chemistry strong-foundation curriculum PDF checked for historical title/code tables (no current-code crosswalk assumed).",
+    "Official Fudan Chemistry Department Organic Chemistry AI/AII news and XueyinOnline course page checked; portal listing/target course page inspected, but course files were not retrieved.",
+    "Official Chemistry Teaching Experimental Center course profile CHEM130005.01 and Ordinary Chemistry Experiment course-specific download page opened.",
+    "Official Fudan experimental center legacy Analytical Chemistry Experiment index opened; its 18 PPT list duplicates CR-002 and was not counted twice.",
+    "Targeted GitHub repository searches for Fudan CHEM130013, organic chemistry A, physical chemistry A, and CHEM20020 returned no additional course-material pages."
   ],
   "targeted_query_families": [
     "普通化学A / 普通化学",
@@ -31,7 +44,18 @@
     "物理化学实验",
     "仪器分析实验",
     "合成化学实验",
-    "GitHub exact codes CHEM20005/CHEM20013/CHEM20001/CHEM30005"
+    "GitHub exact codes CHEM20005/CHEM20013/CHEM20001/CHEM30005",
+    "普通化学A（下）",
+    "有机化学实验",
+    "化学实验室安全",
+    "科学训练实验",
+    "化工原理实验",
+    "GitHub FDU-Sharing course navigation and resource index",
+    "物理化学AII CHEM130013.03 course page and handout index",
+    "Official historical chemistry curriculum code tables for organic chemistry A, physical chemistry A, synthesis labs, ordinary chemistry experiment, and instrumental/physical chemistry labs",
+    "Official experimental-center historical course-profile code CHEM130005.01 and analytical/physical-chemistry lab evolution",
+    "XueyinOnline/Chaoxing Fudan Organic Chemistry A portal/catalog accessibility",
+    "FDU-Sharing GitHub follow-up search for exact chemistry titles and course codes"
   ],
   "coverage_limits": [
     "Only highlighted course families were searched in detail. The 145-row ledger is complete as an inventory, but unhighlighted rows are marked not_individually_searched.",
@@ -39,7 +63,12 @@
     "GitHub search is incomplete; one query returned a 429 rate limit and was not retried.",
     "Official binary PDF/PPT files were not downloaded or read; page titles, visible file names, domain/footer, and syllabus metadata were inspected.",
     "No license granting redistribution was confirmed. Links are retained to source pages; materials were not re-hosted.",
-    "One Fudan-hosted synthesis-experiment page has inconsistent page metadata: its title/file list indicates synthesis experiments, while its breadcrumb/body heading names another lab course. It is recorded as a lead with a mismatch, not as exact course-code evidence."
+    "One FDU-Sharing filename for 普化A下期末 is listed within the 普化A上 page. It is retained as a separate lower-course candidate, not proof of a dedicated lower-course page.",
+    "One historical Fudan Physical Chemistry A II handout index is visible but requires UIS login; it is recorded as access-controlled and excluded from public material counts.",
+    "Historical course codes in the Chemistry strong-foundation plan and the double-degree recommendation are recorded as historical references only; they are not treated as direct mappings to newer current-scope codes.",
+    "The Xueyin Organic Chemistry A page exposes course description/metadata but no public downloadable files in the inspected rendering. The Chaoxing course item redirects to a course portal that the web reader could not retrieve; no login or credentials were used.",
+    "The legacy analytical-chemistry experiment index repeats the same 18 PPT titles as the inorganic/chemical-analysis experiment page and is treated as a duplicate path, not an extra resource set.",
+    "The physical-chemistry lab PPT index does not allocate experiments to upper/lower courses; its association to CHEM30032 remains candidate-only."
   ],
   "rights_summary": "Public access does not grant redistribution rights. FDU-Sharing has no LICENSE file found and README reserves original authors rights. Official Fudan material pages carry a copyright notice; no open license found. Xueyin pages show no downloadable materials or open license.",
   "excluded_hits": [
@@ -61,5 +90,6 @@
       "decision": "弱线索，未纳入",
       "reason": "Search result claims Fudan-related slides, but page open returned 502; school/course/source and rights not independently verified."
     }
-  ]
+  ],
+  "context_only_source_count": 8
 }

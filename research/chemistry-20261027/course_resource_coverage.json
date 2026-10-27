@@ -3,14 +3,18 @@
   "generated_at": "2026-10-27",
   "total_courses": 145,
   "status_counts": {
-    "official_courseware_family_match_code_unverified": 1,
+    "not_individually_searched": 130,
     "candidate_community_materials_exact_title": 1,
-    "official_courseware_exact_title_historical_code_mismatch": 1,
-    "official_page_content_match_metadata_conflict_split_unverified": 2,
+    "official_courseware_title_family_match_code_unverified": 1,
+    "official_courseware_family_match_code_unverified": 1,
+    "official_historical_course_outline_title_family_match_code_unverified": 1,
     "course_catalog_only_no_study_materials_seen": 2,
-    "not_individually_searched": 135,
+    "official_courseware_exact_title_historical_code_mismatch": 1,
+    "official_courseware_family_match_split_unverified": 3,
     "official_combined_lab_course_family_match_code_unverified": 2,
-    "official_courseware_title_family_match_code_unverified": 1
+    "official_related_safety_material_course_code_unverified": 1,
+    "candidate_community_misfiled_lower_course_file": 1,
+    "official_historical_course_resource_index_login_required_code_unverified": 1
   },
   "courses": [
     {
@@ -50,7 +54,7 @@
       "resource_ids": [
         "CR-003"
       ],
-      "search_coverage": "Official Fudan page lists 普通化学实验.pdf; current CHEM10005 code and I section are absent."
+      "search_coverage": "Official page a6/41/c27993a42561 lists 普通化学实验.pdf. Separate official plan lists historical CHEM120009 for the exact title 普通化学实验I; current CHEM10005 crosswalk remains unverified."
     },
     {
       "course_code": "CHEM10007",
@@ -113,9 +117,11 @@
     {
       "course_code": "CHEM20012",
       "course_name": "有机化学实验",
-      "review_status": "not_individually_searched",
-      "resource_ids": [],
-      "search_coverage": "This exact course row was not individually searched. Family searches were sampled; no hit does not mean no public resource exists."
+      "review_status": "official_historical_course_outline_title_family_match_code_unverified",
+      "resource_ids": [
+        "CR-007"
+      ],
+      "search_coverage": "Official 2015 autumn organic-chemistry-lab schedule and syllabus checked; historical course title matches, but current CHEM20012 code is absent."
     },
     {
       "course_code": "CHEM20013",
@@ -124,7 +130,7 @@
       "resource_ids": [
         "CR-006"
       ],
-      "search_coverage": "Public Xueyin course page checked; course identity is visible but no notes/exams/slides are."
+      "search_coverage": "XueyinOnline public course page shows Fudan course description and metadata; historical plan lists CHEM130067 for 有机化学AI. No public course files verified; current code crosswalk unverified."
     },
     {
       "course_code": "CHEM20013h",
@@ -180,11 +186,11 @@
     {
       "course_code": "CHEM30003",
       "course_name": "合成化学实验(下)",
-      "review_status": "official_page_content_match_metadata_conflict_split_unverified",
+      "review_status": "official_courseware_family_match_split_unverified",
       "resource_ids": [
         "CR-005"
       ],
-      "search_coverage": "Visible files indicate 合成化学实验, but page breadcrumb/body heading displays another experiment course title; current 上/下 code allocation is unverified."
+      "search_coverage": "Official courseware page lists 合成化学实验 files; a separate plan lists historical upper/lower codes CHEM130010/011. Current code mapping and file allocation are unverified."
     },
     {
       "course_code": "CHEM30004",
@@ -298,7 +304,7 @@
       "resource_ids": [
         "CR-004"
       ],
-      "search_coverage": "Official combined 仪器分析和物理化学实验（上） page lists materials; current code mapping is not shown."
+      "search_coverage": "Official pages list physical-chemistry lab PPTs; the curriculum plan gives historical CHEM130104 for 物理化学实验（上）. The current scope code CHEM30031 is not shown; mapping remains unverified."
     },
     {
       "course_code": "CHEM30033",
@@ -352,9 +358,11 @@
     {
       "course_code": "CHEM40008",
       "course_name": "化学实验室安全",
-      "review_status": "not_individually_searched",
-      "resource_ids": [],
-      "search_coverage": "This exact course row was not individually searched. Family searches were sampled; no hit does not mean no public resource exists."
+      "review_status": "official_related_safety_material_course_code_unverified",
+      "resource_ids": [
+        "CR-008"
+      ],
+      "search_coverage": "Official Fudan chemistry safety guide and rules checked; relevant to course title, but no course code/syllabus relation is shown."
     },
     {
       "course_code": "CHEM40014h",
@@ -646,9 +654,11 @@
     {
       "course_code": "CHEM10004",
       "course_name": "普通化学A（下）",
-      "review_status": "not_individually_searched",
-      "resource_ids": [],
-      "search_coverage": "This exact course row was not individually searched. Family searches were sampled; no hit does not mean no public resource exists."
+      "review_status": "candidate_community_misfiled_lower_course_file",
+      "resource_ids": [
+        "CR-001"
+      ],
+      "search_coverage": "The FDU-Sharing upper-course page lists one file whose filename says 普化A下期末. This is a lower-course candidate misfiled on the upper page; no dedicated lower page or current code appears."
     },
     {
       "course_code": "CHEM10006",
@@ -674,18 +684,20 @@
     {
       "course_code": "CHEM20004",
       "course_name": "合成化学实验(上)",
-      "review_status": "official_page_content_match_metadata_conflict_split_unverified",
+      "review_status": "official_courseware_family_match_split_unverified",
       "resource_ids": [
         "CR-005"
       ],
-      "search_coverage": "Visible files indicate 合成化学实验, but page breadcrumb/body heading displays another experiment course title; current 上/下 code allocation is unverified."
+      "search_coverage": "Official courseware page lists 合成化学实验 files; a separate plan lists historical upper/lower codes CHEM130010/011. Current code mapping and file allocation are unverified."
     },
     {
       "course_code": "CHEM20006",
       "course_name": "物理化学AⅡ",
-      "review_status": "not_individually_searched",
-      "resource_ids": [],
-      "search_coverage": "This exact course row was not individually searched. Family searches were sampled; no hit does not mean no public resource exists."
+      "review_status": "official_historical_course_resource_index_login_required_code_unverified",
+      "resource_ids": [
+        "CR-009"
+      ],
+      "search_coverage": "Historical 2017 Spring course page gives CHEM130013.03 and title Physical Chemistry A II; official curriculum plan lists CHEM130013 for the same title family. Current CHEM20006 mapping is unverified; handout index explicitly requires UIS login."
     },
     {
       "course_code": "CHEM20006h",
@@ -722,7 +734,7 @@
       "resource_ids": [
         "CR-006"
       ],
-      "search_coverage": "Public Xueyin course page checked; course identity is visible but no notes/exams/slides are."
+      "search_coverage": "XueyinOnline public course page exists for Fudan Organic Chemistry A II; historical plan lists CHEM130068. Fudan portal course page did not load in web reader; no files inspected; current code crosswalk unverified."
     },
     {
       "course_code": "CHEM20014h",
@@ -752,7 +764,7 @@
       "resource_ids": [
         "CR-004"
       ],
-      "search_coverage": "Official combined 仪器分析和物理化学实验（上） page lists materials; current code mapping is not shown."
+      "search_coverage": "2010 official profile gives CHEM130005.01 for combined 仪器分析和物理化学实验A（上）; separate plan lists CHEM130107 仪器分析实验. Current scope code CHEM20020 is not shown in source; mapping remains family-level."
     },
     {
       "course_code": "CHEM20023",
@@ -834,9 +846,11 @@
     {
       "course_code": "CHEM30032",
       "course_name": "物理化学实验（下）",
-      "review_status": "not_individually_searched",
-      "resource_ids": [],
-      "search_coverage": "This exact course row was not individually searched. Family searches were sampled; no hit does not mean no public resource exists."
+      "review_status": "official_courseware_family_match_split_unverified",
+      "resource_ids": [
+        "CR-004"
+      ],
+      "search_coverage": "The official physical-chemistry lab index was checked. It lists experiment PPTs without separating upper/lower sections. CHEM130105 is the historical code for 物理化学实验（下） in a separate plan; mapping to current CHEM30032 remains unverified."
     },
     {
       "course_code": "CHEM30032h",
