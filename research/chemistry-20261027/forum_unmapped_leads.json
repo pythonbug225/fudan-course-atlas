@@ -800,7 +800,8 @@
         "teacher_initial_unresolved",
         "generic_course_alias_ambiguous",
         "grading_speculation_unverified"
-      ]
+      ],
+      "later_followup": "整洞已读；基于旧课号及教师缩写列为历史普通化学A上候选，展示于现行课程时明确旧新课号关系未核、具体班号未定。"
     },
     {
       "hole_id": 42372,
@@ -1910,6 +1911,786 @@
         "unanswered_in_read_floor",
         "course_mapping_ambiguous",
         "full_thread_unread"
+      ]
+    },
+    {
+      "hole_id": 158304,
+      "source_floor_ids": [
+        1459802
+      ],
+      "post_date": "2022-11-10T11:12:03.671+08:00",
+      "course_name": "普通化学上、普通化学下（简称）",
+      "course_code_candidates": [
+        "CHEM10003",
+        "CHEM10004"
+      ],
+      "course_mapping_status": "上下学期课名可作候选；教师、班级和修读年份均未说明。",
+      "teacher": "未提及",
+      "course_term": "未确认",
+      "summary": "回帖者比较两段普化考试经历：普化上期中发挥差、期末复习三天后获A-；普化下期中成绩靠前、期末只复习一晚后获C。属于单人经历，无法说明课程给分或考试难度的一般规律。",
+      "disposition": "保留为普化上下课程的个人成绩对照；不作评分规则或课程质量结论。",
+      "reading_status": "cached_main_floor_read_only_full_hole_not_available",
+      "evidence_classification": [
+        "direct_student_experience",
+        "grade_report",
+        "course_mapping_ambiguous",
+        "single_floor_only"
+      ]
+    },
+    {
+      "hole_id": 650479,
+      "source_floor_ids": [
+        5888141
+      ],
+      "post_date": "2026-05-21",
+      "course_name": "普通化学（“普化”简称，类别待核）",
+      "course_code_candidates": [
+        "CHEM10004"
+      ],
+      "course_mapping_status": "仅凭“普化”和“华老师”不能确认课程代码/教师；若“华老师”为HWM且发帖对应当学期，CHEM10004为候选，不作定论。",
+      "teacher": "“华老师”（楼层简称，身份未核）",
+      "course_term": "未确认；发帖于2026-05-21，不等同于授课学期",
+      "summary": "发帖者称普化期中考得很差、与班级均分相距较大，准备去看卷，并询问届时由教师还是助教在场；没有公布实际分数或阅卷结果。",
+      "disposition": "保留为单楼层期中体验/阅卷问询；未读到答复，不推断教师态度或实际成绩。",
+      "reading_status": "cached_main_floor_read_only_full_hole_not_available",
+      "evidence_classification": [
+        "direct_student_experience",
+        "assessment_question",
+        "teacher_alias_unconfirmed",
+        "single_floor_only"
+      ]
+    },
+    {
+      "hole_id": 588165,
+      "source_floor_ids": [
+        5322094
+      ],
+      "post_date": "2026-01-07",
+      "course_name": "普通化学A（上学期修读；课程后缀未在帖中写全）",
+      "course_code_candidates": [
+        "CHEM10003"
+      ],
+      "course_mapping_status": "课程代码和学期为较强候选：HWM+“普化A”与官方CHEM10003、2025秋授课记录吻合；具体班级未知，所引原楼未缓存。",
+      "teacher": "HWM（帖内代号）",
+      "course_term": "2025秋候选（2026-01-07回帖称“上学期”）",
+      "summary": "回帖者称自己上学期修读HWM的普化A，期中约96分、期末约85分，最终获A；没有提供班号，也未说明分数的统计或评分细节。",
+      "disposition": "保留为教师/课程/学期高度匹配的个人成绩线索；不把单个A推广到该教师所有班级。",
+      "reading_status": "cached_main_floor_read_only_full_hole_not_available",
+      "evidence_classification": [
+        "direct_student_experience",
+        "grade_report",
+        "teacher_alias_match",
+        "course_term_inferred",
+        "single_floor_only"
+      ]
+    },
+    {
+      "hole_id": 210070,
+      "source_floor_ids": [
+        1953212
+      ],
+      "post_date": "2023-03-03",
+      "course_name": "有机化学（药学院课程语境，具体课号待核）",
+      "course_code_candidates": [
+        "CHEM10002"
+      ],
+      "course_mapping_status": "TB与有机课程存在候选对应，但楼层只称“药学院有机”，年份较早，不能确认是否属于scope内同一教学班。",
+      "teacher": "TB（帖内代号，具体身份/班级未核）",
+      "course_term": "未确认",
+      "summary": "发帖者个人认为TB老师的有机课讲得不错，并推测药学院有机难度比化学系对应课程高；没有给出作业、考核或学期细节。",
+      "disposition": "保留为低信息教师/课程印象；跨院和历史课程映射待核，不作难度比较结论。",
+      "reading_status": "cached_main_floor_read_only_full_hole_not_available",
+      "evidence_classification": [
+        "direct_opinion",
+        "teacher_alias_unconfirmed",
+        "cross_faculty_mapping_uncertain",
+        "single_floor_only"
+      ]
+    },
+    {
+      "hole_id": 681147,
+      "source_floor_ids": [
+        6151690
+      ],
+      "post_date": "2026-07-03",
+      "course_name": "有机化学（简称，具体课程待核）",
+      "course_code_candidates": [
+        "CHEM10002"
+      ],
+      "course_mapping_status": "有机课程体验候选；“人分”语境可能是医学生课程，但没有课号、教师、班级或学期信息。",
+      "teacher": "未提及",
+      "course_term": "未确认",
+      "summary": "发帖者称由于“人分”和有机考试时间接近，曾用一周交替复习两门课：先过课件和笔记，再做作业、真题及名词解释，最后有机和人分都获A。",
+      "disposition": "保留为单个学生的复习方法和成绩线索；课程/专业及“人分”所指待核。",
+      "reading_status": "cached_main_floor_read_only_full_hole_not_available",
+      "evidence_classification": [
+        "direct_student_experience",
+        "study_strategy",
+        "grade_report",
+        "course_mapping_ambiguous",
+        "single_floor_only"
+      ]
+    },
+    {
+      "hole_id": 109912,
+      "source_floor_ids": [
+        1033883
+      ],
+      "post_date": "2022-06-20",
+      "course_name": "普通化学（“普化”简称，类别待核）",
+      "course_code_candidates": [],
+      "course_mapping_status": "课程简称明确，但没有教师、班级或代码，无法映射到scope中的具体课程。",
+      "teacher": "未提及",
+      "course_term": "未确认",
+      "summary": "发帖者回忆普化作业批改只标对错，教师没有公布答案，因此不清楚错因及正确解法；是单楼层个人体验。",
+      "disposition": "保留为课程反馈/作业讲评体验；不据此推断所有教师或学期都不提供答案。",
+      "reading_status": "cached_main_floor_read_only_full_hole_not_available",
+      "evidence_classification": [
+        "direct_student_experience",
+        "assignment_feedback",
+        "course_mapping_ambiguous",
+        "single_floor_only"
+      ]
+    },
+    {
+      "hole_id": 403882,
+      "source_floor_ids": [
+        3670459
+      ],
+      "post_date": "2025-01-05",
+      "course_name": "普通化学（“普化”简称，类别待核）",
+      "course_code_candidates": [],
+      "course_mapping_status": "课程简称明确，教师和学期未标；发帖日期不作为授课学期的确定依据。",
+      "teacher": "未提及",
+      "course_term": "未确认",
+      "summary": "发帖者觉得普化考试的记忆性内容较多，期末比期中需要记得更多；同时认为同学复习时间不同可能影响成绩差异。",
+      "disposition": "保留为单人对考试内容的主观判断，不作为正式考核结构或班级分数分布。",
+      "reading_status": "cached_main_floor_read_only_full_hole_not_available",
+      "evidence_classification": [
+        "direct_student_opinion",
+        "exam_content",
+        "course_mapping_ambiguous",
+        "single_floor_only"
+      ]
+    },
+    {
+      "hole_id": 431640,
+      "source_floor_ids": [
+        4076231
+      ],
+      "post_date": "2025-04-17",
+      "course_name": "有机化学（简称，具体课程待核）",
+      "course_code_candidates": [
+        "CHEM10002"
+      ],
+      "course_mapping_status": "只读到单条回帖，课程号和授课班未确认；所回复的原楼未缓存。",
+      "teacher": "未提及",
+      "course_term": "未确认",
+      "summary": "回帖者回忆有机期末比作业和期中简单，但表示现在对有机知识已几乎没有印象；未提供具体题型或分数。",
+      "disposition": "保留为低信息难度回忆，不推断其他学期/班级考试难度。",
+      "reading_status": "cached_main_floor_read_only_full_hole_not_available",
+      "evidence_classification": [
+        "direct_student_experience",
+        "exam_difficulty_opinion",
+        "course_mapping_ambiguous",
+        "single_floor_only"
+      ]
+    },
+    {
+      "hole_id": 71551,
+      "source_floor_ids": [
+        617673
+      ],
+      "post_date": "2022-03-17T09:00:46.909+08:00",
+      "course_name": "普通化学（“普化”简称，类别待核）",
+      "course_code_candidates": [],
+      "course_mapping_status": "楼层提到普化及“h老师”，但教师代号、课程班和学期均未确认。",
+      "teacher": "“h老师”（楼层简称，身份未核）",
+      "course_term": "未确认",
+      "summary": "楼层以玩笑口吻称普化视频曾在课前一天发布、上课当天早晨删除，之后课堂有提问；作者自称“纯粹图一乐”，实际课程安排仍需核实。",
+      "disposition": "仅保留为低置信度教学方式线索，不能当作已核实的课程规则。",
+      "reading_status": "cached_main_floor_read_only_full_hole_not_available",
+      "evidence_classification": [
+        "possible_course_experience",
+        "humorous_or_exaggerated",
+        "teacher_alias_unconfirmed",
+        "single_floor_only"
+      ]
+    },
+    {
+      "hole_id": 483558,
+      "source_floor_ids": [
+        4427335
+      ],
+      "post_date": "2025-06-23T17:15:41.429+08:00",
+      "course_name": "普通化学实验（“普化实验”简称）",
+      "course_code_candidates": [
+        "CHEM10005"
+      ],
+      "course_mapping_status": "CHEM10005《普通化学实验I》为课程级候选；教师CXW代号与该代码的官方教师别名登记吻合。仅此楼层已读，学期2025春为发帖时间及“这整个学期”语境推定，班号未确认。",
+      "teacher": "CXW（帖内代号；全名未核）",
+      "course_term": "2025春候选（发帖时间2025-06-23，语境指“这整个学期”）",
+      "summary": "发帖者称普化实验是当学期最开心的课之一，认为CXW老师课前讲解清楚、态度温和，助教也热情；虽然自己做实验常慢半拍，仍觉得给分好，且该课是自己当学期唯一拿到A的课程。",
+      "disposition": "可供合并为CHEM10005课程级正向体验候选，标明2025春候选、教师全名与班次未确认；单个学生的A和教师体验不推广至当前或其他教学班。",
+      "reading_status": "cached_main_floor_read_only_full_hole_not_available",
+      "evidence_classification": [
+        "direct_student_experience",
+        "teacher_praise",
+        "grade_report",
+        "course_code_candidate",
+        "term_inferred",
+        "single_floor_only"
+      ],
+      "later_followup": {
+        "status": "included_as_anonymous_candidate_in_preview",
+        "note": "已作为匿名候选展示；CHEM10005为课程代码候选、2025春为学期候选，具体班号和教师全名未确认。"
+      }
+    },
+    {
+      "hole_id": 58534,
+      "source_floor_ids": [
+        501211
+      ],
+      "post_date": "2022-02-12",
+      "course_name": "化学相关课程（具体课程名待核）",
+      "course_code_candidates": [],
+      "course_mapping_status": "只提到有机物、反应原理和课堂pre，无法判断是化学系专业课还是通识课程。",
+      "teacher": "未提及",
+      "course_term": "未确认",
+      "summary": "发帖者称自己对有机物名称和反应原理掌握有限、没有报名pre，但基本认真听课并看过课件；最终成绩未达A类，个人仍满意并觉得课堂有收获。",
+      "disposition": "保留为课程名不明的单楼层学习体验，不归入具体课号。",
+      "reading_status": "cached_main_floor_read_only_full_hole_not_available",
+      "evidence_classification": [
+        "direct_student_experience",
+        "course_mapping_ambiguous",
+        "single_floor_only"
+      ]
+    },
+    {
+      "hole_id": 2660,
+      "source_floor_ids": [
+        24509
+      ],
+      "post_date": "2021-08-23",
+      "course_name": "普通化学B",
+      "course_code_candidates": [],
+      "course_mapping_status": "仅有一句教师警告，未说明原因、班级或学期，不能核实为具体教学体验。",
+      "teacher": "HXF（楼层所指教师代号候选；身份未交叉确认）",
+      "course_term": "未确认",
+      "summary": "楼层对普化B及HXF教师作出负面警告，但没有给出可核实的课堂、作业、考核或评分依据。",
+      "disposition": "低证据警告，仅作为待核线索保存，不进入课程综合判断。",
+      "reading_status": "cached_main_floor_read_only_full_hole_not_available",
+      "evidence_classification": [
+        "unsupported_teacher_warning",
+        "course_mapping_ambiguous",
+        "single_floor_only"
+      ]
+    },
+    {
+      "hole_id": 423952,
+      "source_floor_ids": [
+        3857786
+      ],
+      "post_date": "2025-03-05T07:41:21.383+08:00",
+      "course_name": "药学院有机化学（课程代码待核）",
+      "course_code_candidates": [],
+      "course_mapping_status": "明确为药学院开设的有机化学问课；与scope内化学系具体课程/班级对应关系未核。",
+      "teacher": "帖子以“楚老师、渠老师”称呼授课教师；具体班级/全名未确认。",
+      "course_term": "发帖者称“这学期”，按2025-03-05可能为2025春；非官方班期确认。",
+      "summary": "发帖者因选课较晚且本周请假，询问药学院有机课作业发布与提交方式、是否有助教以及点名要求；本楼未包含答复。",
+      "disposition": "保留为课程组织方式问询，不据此断言作业或点名规则。",
+      "reading_status": "cached_main_floor_read_only_full_hole_not_available",
+      "evidence_classification": [
+        "course_question",
+        "assessment_logistics",
+        "unanswered_in_read_floor",
+        "cross_faculty_mapping_uncertain",
+        "single_floor_only"
+      ]
+    },
+    {
+      "hole_id": 195170,
+      "source_floor_ids": [
+        1830718
+      ],
+      "post_date": "2023-01-29T00:48:53.641+08:00",
+      "course_name": "普通化学A上",
+      "course_code_candidates": [],
+      "course_mapping_status": "仅楼层明确课程简称和ZYH代号，未给课号、班级或明确学期；不推断教师全名或当前班次。",
+      "teacher": "ZYH（楼层代号，仅保留原始简称）",
+      "course_term": "未确认；发帖日期不能确定授课学期",
+      "summary": "作者称自己有高中化学竞赛基础、平时没怎么听普化课，最终成绩为A；同时认为教师人不错、负责，期末会整理知识点。作者还提到迟到时教师会表现不悦；关于给分是本人观察与“据说”混杂，无法区分。",
+      "disposition": "作为单楼层历史课程候选供审阅；标明作者较少听课、教师评价和给分判断有限，不归入具体课号/班级。",
+      "reading_status": "cached_main_floor_read_only_full_hole_not_available",
+      "evidence_classification": [
+        "direct_grade_report",
+        "limited_attendance",
+        "teacher_opinion",
+        "course_mapping_ambiguous",
+        "single_floor_only"
+      ],
+      "later_followup": {
+        "status": "included_as_anonymous_candidate_in_preview",
+        "note": "已作为匿名候选展示；普通化学A上/ZYH仅作历史课程候选，课号、授课学期/年份、班号及教师全名均未确认。"
+      }
+    },
+    {
+      "hole_id": 550418,
+      "source_floor_ids": [
+        5003239
+      ],
+      "post_date": "2025-11-18T23:04:19.76+08:00",
+      "course_name": "普通化学A（简称）",
+      "course_code_candidates": [],
+      "course_mapping_status": "楼层只写普化A与CZ代号；未确认课号、班级或学期，不推断教师全名/当前班次。",
+      "teacher": "CZ（楼层代号，仅保留原始简称）",
+      "course_term": "未确认",
+      "summary": "作者自述普化A期中49分，并估计班均约70–80分；作者认为期中占比较低，期末认真复习后总评意外获A。班均数是作者估算，不是官方统计。",
+      "disposition": "作为单楼层个人成绩/复习体验候选供审阅；不把班均估算当官方数据，也不推广为课程给分规则。",
+      "reading_status": "cached_main_floor_read_only_full_hole_not_available",
+      "evidence_classification": [
+        "direct_student_experience",
+        "grade_report",
+        "subjective_class_average_estimate",
+        "teacher_alias_unconfirmed",
+        "single_floor_only"
+      ]
+    },
+    {
+      "hole_id": 189186,
+      "source_floor_ids": [
+        1757178
+      ],
+      "post_date": "2023-01-11T10:36:47.727+08:00",
+      "course_name": "普化、有机化学、普化实验（类别/班级不明）",
+      "course_code_candidates": [],
+      "course_mapping_status": "楼层只写简称，未提教师、学期或课号；无法区分范围内的普通化学、实验及有机课程。",
+      "teacher": "未提及",
+      "course_term": "未确认",
+      "summary": "作者把普化和有机的体验描述为不理想，称有机总评B+，而普化实验是截至当时唯一拿到A的课；未说明各门课程具体成绩、教师或缘由。",
+      "disposition": "保留为低信息的课程成绩对照，不归到具体课号/教师。",
+      "reading_status": "cached_main_floor_read_only_full_hole_not_available",
+      "evidence_classification": [
+        "direct_student_experience",
+        "grade_report",
+        "course_mapping_ambiguous",
+        "single_floor_only"
+      ]
+    },
+    {
+      "hole_id": 684087,
+      "source_floor_ids": [
+        6182298
+      ],
+      "post_date": "2026-07-09T10:19:54.193+08:00",
+      "course_name": "普化实验、有机化学实验（简称“两化实验”，具体代码待核）",
+      "course_code_candidates": [],
+      "course_mapping_status": "未提供教师、班级、学期或具体实验课名。",
+      "teacher": "未提及",
+      "course_term": "未确认",
+      "summary": "作者将两类化学实验与基础物理实验比较，主观认为化学实验体验更差，并认为努力完成实验后仍可能只能获得B；没有提供具体评分经历或班级数据。",
+      "disposition": "保留为单人、低信息的实验课压力/给分观感，不作为普遍评分结论。",
+      "reading_status": "cached_main_floor_read_only_full_hole_not_available",
+      "evidence_classification": [
+        "direct_student_opinion",
+        "lab_workload",
+        "subjective_grading_expectation",
+        "course_mapping_ambiguous",
+        "single_floor_only"
+      ]
+    },
+    {
+      "hole_id": 186291,
+      "source_floor_ids": [
+        1724673
+      ],
+      "post_date": "2023-01-05T17:09:28.082+08:00",
+      "course_name": "普通化学（具体上下学期/类别待核）",
+      "course_code_candidates": [],
+      "course_mapping_status": "回帖只称普化，没有教师、课号或学期；原楼未缓存。",
+      "teacher": "未提及",
+      "course_term": "未确认",
+      "summary": "回帖者认为普化题目较平实、知识点对应题型有限，建议做教材课后题而非另找题库；未明确说明这是否来自本人当期考试经验。",
+      "disposition": "保留为单楼层复习建议/个人判断，不当作已核实的考题规律。",
+      "reading_status": "cached_main_floor_read_only_full_hole_not_available",
+      "evidence_classification": [
+        "study_advice",
+        "course_mapping_ambiguous",
+        "reply_context_unread",
+        "single_floor_only"
+      ]
+    },
+    {
+      "hole_id": 287179,
+      "source_floor_ids": [
+        2688217
+      ],
+      "post_date": "2023-08-21T12:04:33.891+08:00",
+      "course_name": "普通化学A（师资问课）",
+      "course_code_candidates": [],
+      "course_mapping_status": "楼层为教师选择问询，没有课号或教学班信息。",
+      "teacher": "发帖者提到ZYH作为已知正面口碑；其他教师未逐一列明。",
+      "course_term": "未确认",
+      "summary": "发帖者询问普化A各位教师的讲课、给分和考核情况，楼层只称已知ZYH口碑不错；该楼没有提供其它教师的实际体验或答复。",
+      "disposition": "作为未答师资/考核问询保留，不把“已知不错”视为本楼亲历。",
+      "reading_status": "cached_main_floor_read_only_full_hole_not_available",
+      "evidence_classification": [
+        "course_question",
+        "teacher_selection",
+        "unanswered_in_read_floor",
+        "single_floor_only"
+      ]
+    },
+    {
+      "hole_id": 728154,
+      "source_floor_ids": [
+        6592686
+      ],
+      "post_date": "2026-09-22T10:51:58.282+08:00",
+      "course_name": "普通化学A（简称）",
+      "course_code_candidates": [],
+      "course_mapping_status": "课名及唐云老师代号明确，但课号、教学班和授课学期未核。",
+      "teacher": "唐云老师（楼层称呼；不据此推断具体班次）",
+      "course_term": "未确认",
+      "summary": "发帖者称自己听不懂唐云老师的普化A，作业依赖AI解释，并担心挂科；同楼提及大学物理听课也有困难。未提供实际考试结果。",
+      "disposition": "保留为学习困难/问询线索；不作教师质量或挂科风险判断。",
+      "reading_status": "cached_main_floor_read_only_full_hole_not_available",
+      "evidence_classification": [
+        "direct_student_experience",
+        "course_question",
+        "learning_difficulty",
+        "course_mapping_ambiguous",
+        "single_floor_only"
+      ]
+    },
+    {
+      "hole_id": 477764,
+      "source_floor_ids": [
+        4370323
+      ],
+      "post_date": "2025-06-16T17:59:13.511+08:00",
+      "course_name": "无字母有机化学",
+      "course_code_candidates": [],
+      "course_mapping_status": "课程简称与WQR代号可识别；没有课号、班级或明确学期，楼层未说明是否为范围内的具体开课。",
+      "teacher": "WQR（帖内代号）",
+      "course_term": "未确认",
+      "summary": "发帖者自述有机期中88分、平时作业多为A/A+，询问期末大约需要多少分才能拿A-，并称自己期末发挥很差；没有给出最终等级。",
+      "disposition": "保留为单楼层成绩/给分问询；不推断期末成绩或等级线。",
+      "reading_status": "cached_main_floor_read_only_full_hole_not_available",
+      "evidence_classification": [
+        "direct_student_experience",
+        "grade_report",
+        "assessment_question",
+        "teacher_alias",
+        "single_floor_only"
+      ]
+    },
+    {
+      "hole_id": 413512,
+      "source_floor_ids": [
+        3781391
+      ],
+      "post_date": "2025-02-16T12:09:06.305+08:00",
+      "course_name": "药学院有机化学（给分问询）",
+      "course_code_candidates": [],
+      "course_mapping_status": "帖中仅问及药学院课程与两位教师，未能对应到scope内具体代码/班级。",
+      "teacher": "CY、QZB（楼层代号；未展开姓名）",
+      "course_term": "未确认",
+      "summary": "发帖者询问两位药学院有机化学教师的给分情况，以及课堂成绩由任课教师还是其他人员决定；该楼没有提供答复或个人成绩。",
+      "disposition": "保留为未答课程考核问询，不推断给分情况。",
+      "reading_status": "cached_main_floor_read_only_full_hole_not_available",
+      "evidence_classification": [
+        "course_question",
+        "grading_question",
+        "cross_faculty_mapping_uncertain",
+        "unanswered_in_read_floor",
+        "single_floor_only"
+      ]
+    },
+    {
+      "hole_id": 280588,
+      "source_floor_ids": [
+        2624875
+      ],
+      "post_date": "2023-07-22T01:27:07.625+08:00",
+      "course_name": "物理化学A(I)、有机化学A(I)（楼层缩写待核）",
+      "course_code_candidates": [],
+      "course_mapping_status": "课程缩写和班级信息不完整；不能对应具体课号/学期。",
+      "teacher": "楼层提及孙老师班与ZDW老师班，身份和具体任课班不展开。",
+      "course_term": "未确认",
+      "summary": "发帖者认为物理化学A(I)两个班体验相近；对有机A(I)提到孙老师班强手较多、讲课不错且听说给分宽松，而自己读的是ZDW老师班。关于孙老师给分属于转述，非本人班级体验。",
+      "disposition": "保留为跨班比较线索，清楚区分本人班级与他人班级转述。",
+      "reading_status": "cached_main_floor_read_only_full_hole_not_available",
+      "evidence_classification": [
+        "direct_student_experience",
+        "cross_class_comparison",
+        "hearsay_grading",
+        "course_mapping_ambiguous",
+        "single_floor_only"
+      ]
+    },
+    {
+      "hole_id": 665635,
+      "source_floor_ids": [
+        6007780
+      ],
+      "post_date": "2026-06-15T22:30:19.952+08:00",
+      "course_name": "无字母有机化学",
+      "course_code_candidates": [],
+      "course_mapping_status": "帖子仅写课程简称，未提供课号、班期或教学班。",
+      "teacher": "孙老师（楼层称呼，未展开姓名）",
+      "course_term": "未确认",
+      "summary": "发帖者询问无字母有机化学期末是否考命名，称平行班同学说会考，而自己所在班的孙老师期中后似乎没有再强调；该楼没有答复。",
+      "disposition": "保留为未答考试范围问询，平行班信息标为转述。",
+      "reading_status": "cached_main_floor_read_only_full_hole_not_available",
+      "evidence_classification": [
+        "course_question",
+        "exam_scope",
+        "hearsay_from_parallel_class",
+        "teacher_reference",
+        "single_floor_only"
+      ]
+    },
+    {
+      "hole_id": 614666,
+      "source_floor_ids": [
+        5566444
+      ],
+      "post_date": "2026-03-15T19:27:33.881+08:00",
+      "course_name": "普通化学实验（简称）",
+      "course_code_candidates": [],
+      "course_mapping_status": "楼层称“CZ普化实验”，具体课程代码、学期和班级未核。",
+      "teacher": "CZ（楼层代号）",
+      "course_term": "未确认",
+      "summary": "发帖者询问在普化实验中操作较慢、较晚离开是否会被扣分，并以自己上学期基础物理实验常最后离开为参照；没有说明普化实验已有迟交或扣分经历，楼层未见答复。",
+      "disposition": "保留为单楼层考核问询，不把物理实验经历当成化学实验规则。",
+      "reading_status": "cached_main_floor_read_only_full_hole_not_available",
+      "evidence_classification": [
+        "course_question",
+        "grading_question",
+        "cross_course_comparison",
+        "unanswered_in_read_floor",
+        "single_floor_only"
+      ]
+    },
+    {
+      "hole_id": 503152,
+      "source_floor_ids": [
+        4610611
+      ],
+      "post_date": "2025-09-05T18:21:22.855+08:00",
+      "course_name": "普通化学（简称“普化”）",
+      "course_code_candidates": [],
+      "course_mapping_status": "楼层没有教师姓名、课号、教学班或学期信息。",
+      "teacher": "未提及；只用第三人称“他”",
+      "course_term": "未确认",
+      "summary": "发帖者称教师负责，会约谈期中低于70分的同学并讲解试卷；平时作业少，个人觉得最终给分不错。另称教师口音较重、容易让人犯困，但课件足以自学。",
+      "disposition": "保留为单楼层教师与教学体验；低于70分的界限仅为该楼层所述，不能推广到其它班。",
+      "reading_status": "cached_main_floor_read_only_full_hole_not_available",
+      "evidence_classification": [
+        "direct_student_experience",
+        "teacher_feedback",
+        "assessment_feedback",
+        "course_mapping_ambiguous",
+        "single_floor_only"
+      ]
+    },
+    {
+      "hole_id": 402138,
+      "source_floor_ids": [
+        3649196
+      ],
+      "post_date": "2025-01-02T10:47:31.029+08:00",
+      "course_name": "普通化学C",
+      "course_code_candidates": [
+        "CHEM10008"
+      ],
+      "course_mapping_status": "课程名可候选对应CHEM10008；未确认具体班级、教师或授课学期。",
+      "teacher": "未提及",
+      "course_term": "未确认",
+      "summary": "发帖者称普化C期中未及格，平时作业均已提交，刚考完期末后觉得大题几乎没有做对，因此担心挂科；没有最终成绩。",
+      "disposition": "保留为单楼层期中/期末焦虑体验，不能作为实际挂科率或课程难度结论。",
+      "reading_status": "cached_main_floor_read_only_full_hole_not_available",
+      "evidence_classification": [
+        "direct_student_experience",
+        "assessment_anxiety",
+        "course_code_candidate",
+        "single_floor_only"
+      ]
+    },
+    {
+      "hole_id": 417392,
+      "source_floor_ids": [
+        3801545
+      ],
+      "post_date": "2025-02-20T21:41:03.349+08:00",
+      "course_name": "有机化学实验（简称）",
+      "course_code_candidates": [],
+      "course_mapping_status": "未给出课程代码、具体班级或教师姓名。",
+      "teacher": "未提及",
+      "course_term": "未确认",
+      "summary": "发帖者根据教师的说法担心绩点改革后有机实验给分仍可能不理想，询问是各班普遍情况还是仅自己班级，并向高年级同学征求概况；楼层未有答复。",
+      "disposition": "作为未答评分问询保留，不据此断言有机实验整体给分偏低。",
+      "reading_status": "cached_main_floor_read_only_full_hole_not_available",
+      "evidence_classification": [
+        "course_question",
+        "grading_question",
+        "unanswered_in_read_floor",
+        "course_mapping_ambiguous",
+        "single_floor_only"
+      ]
+    },
+    {
+      "hole_id": 580416,
+      "source_floor_ids": [
+        5244015
+      ],
+      "post_date": "2025-12-30T00:02:09.094+08:00",
+      "course_name": "普通化学C",
+      "course_code_candidates": [
+        "CHEM10008"
+      ],
+      "course_mapping_status": "课名可以候选对应CHEM10008；未确认教师、班期和教学班。",
+      "teacher": "未提及",
+      "course_term": "未确认",
+      "summary": "发帖者因普化C期中试卷感到紧张，询问往年期末的题型、题量及概念题占比；本楼没有答复。",
+      "disposition": "保留为考试结构问询，不提供未核实的考试信息。",
+      "reading_status": "cached_main_floor_read_only_full_hole_not_available",
+      "evidence_classification": [
+        "course_question",
+        "exam_format",
+        "unanswered_in_read_floor",
+        "course_code_candidate",
+        "single_floor_only"
+      ]
+    },
+    {
+      "hole_id": 368263,
+      "source_floor_ids": [
+        3358462
+      ],
+      "post_date": "2024-10-24T13:24:05.095+08:00",
+      "course_name": "普通化学（唐云/赵东元班，具体类别待核）",
+      "course_code_candidates": [],
+      "course_mapping_status": "教师与普化课程称呼出现在楼层，但未给课号、教学班或明确学期。",
+      "teacher": "唐云、赵东元（楼层点名，不扩展身份）",
+      "course_term": "未确认",
+      "summary": "发帖者询问普化考试是否要求背诵公式和常数，称教师上绪论时讲过但自己不记得；本楼没有答复。",
+      "disposition": "保留为单楼层考试准备问询，不当作已有课程要求。",
+      "reading_status": "cached_main_floor_read_only_full_hole_not_available",
+      "evidence_classification": [
+        "course_question",
+        "exam_preparation",
+        "unanswered_in_read_floor",
+        "teacher_reference",
+        "single_floor_only"
+      ]
+    },
+    {
+      "hole_id": 322393,
+      "source_floor_ids": [
+        2970115
+      ],
+      "post_date": "2023-10-17T21:51:53.142+08:00",
+      "course_name": "化学相关课程（具体课名无法从本楼层确认）",
+      "course_code_candidates": [],
+      "course_mapping_status": "检索命中来自课程候选语境，但楼层自身未写课程名、教师或班期；不以搜索词代替课程对应。",
+      "teacher": "未提及",
+      "course_term": "未确认",
+      "summary": "发帖者称课程体验不错，印象中方程式多为无机内容，教师说考核不会直接考方程式而以课堂讲解和课件为主；作者认为认真听课、记熟课件即可应对期末。",
+      "disposition": "作为待核的化学课程考核线索保留；未能确定是否对应候选课程“生物质谱仪器和质谱分析”或其它课程。",
+      "reading_status": "cached_main_floor_read_only_full_hole_not_available",
+      "evidence_classification": [
+        "direct_student_opinion",
+        "exam_content",
+        "course_mapping_ambiguous",
+        "search_match_not_identity",
+        "single_floor_only"
+      ]
+    },
+    {
+      "hole_id": 96020,
+      "source_floor_ids": [
+        894685
+      ],
+      "post_date": "2022-05-13T15:35:40.543+08:00",
+      "course_name": "有机化学实验补课安排（课程对应待核）",
+      "course_code_candidates": [],
+      "course_mapping_status": "楼层只称“有机老师”并提暑期补课；未提供课号、班期或教师。",
+      "teacher": "“有机老师”（未具名）",
+      "course_term": "未确认；帖日期为2022-05-13",
+      "summary": "发帖者转述有机课教师希望优先考虑学业安排，随后表达对暑期补实验安排的不满；没有详细说明补课时数、考核或个人实验成绩。",
+      "disposition": "保留为低信息的补实验时间/学业安排抱怨，不归到具体班级或教师。",
+      "reading_status": "cached_main_floor_read_only_full_hole_not_available",
+      "evidence_classification": [
+        "course_logistics",
+        "student_opinion",
+        "course_mapping_ambiguous",
+        "single_floor_only"
+      ]
+    },
+    {
+      "hole_id": 484140,
+      "source_floor_ids": [
+        4433119
+      ],
+      "post_date": "2025-06-24T15:46:20.317+08:00",
+      "course_name": "普通化学（“普化”简称）",
+      "course_code_candidates": [],
+      "course_mapping_status": "只知楼层指HWM普化，未说明普化上下学期、课程代码、班级或授课学期。",
+      "teacher": "HWM（帖内代号）",
+      "course_term": "未确认；发帖日期不代表授课学期",
+      "summary": "发帖者称普化期中90分以上、期末感觉发挥尚可，平时作业和出勤也无问题，但最终得B，因而询问HWM课程如何给分；尚无答复。",
+      "disposition": "保留为单楼层评分疑问与个人成绩记录，不推断等级线或教师评分规则。",
+      "reading_status": "cached_main_floor_read_only_full_hole_not_available",
+      "evidence_classification": [
+        "direct_student_experience",
+        "grade_report",
+        "grading_question",
+        "teacher_alias",
+        "single_floor_only"
+      ]
+    },
+    {
+      "hole_id": 372801,
+      "source_floor_ids": [
+        3397572
+      ],
+      "post_date": "2024-11-05T18:49:04.196+08:00",
+      "course_name": "普化（HWM相关试题问询）",
+      "course_code_candidates": [],
+      "course_mapping_status": "只读到试题请求，未看到课程体验或答复。",
+      "teacher": "HWM（帖内代号）",
+      "course_term": "未确认",
+      "summary": "发帖者询问普化期中是否由各任课教师分别命题，并征求HWM及其它教师往年试题；该楼未给出个人修课体验或答复。",
+      "disposition": "低信息考试命题问询保留，不能据此判断实际命题安排。",
+      "reading_status": "cached_main_floor_read_only_full_hole_not_available",
+      "evidence_classification": [
+        "course_question",
+        "exam_logistics",
+        "unanswered_in_read_floor",
+        "single_floor_only"
+      ]
+    },
+    {
+      "hole_id": 737795,
+      "source_floor_ids": [
+        6689425
+      ],
+      "post_date": "2026-10-06T21:53:57.9+08:00",
+      "course_name": "普通化学A",
+      "course_code_candidates": [],
+      "course_mapping_status": "课名与教师姓氏可辨，具体课号、班级和授课学期未核。",
+      "teacher": "李老师（楼层称呼，不扩展全名）",
+      "course_term": "未确认；发帖日不代表授课学期",
+      "summary": "发帖者称忘记了普化A在9月18日布置的作业，临近周五上课时询问具体作业内容；该楼没有答复。",
+      "disposition": "作为单楼层作业信息问询保存，不推断作业要求或任课班次。",
+      "reading_status": "cached_main_floor_read_only_full_hole_not_available",
+      "evidence_classification": [
+        "course_question",
+        "assignment_logistics",
+        "unanswered_in_read_floor",
+        "single_floor_only"
       ]
     }
   ]
