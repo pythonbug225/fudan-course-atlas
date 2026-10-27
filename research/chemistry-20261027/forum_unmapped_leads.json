@@ -1,5 +1,5 @@
 {
-  "note": "课程对应未确认；仅供后续人工核对，不作为当前课程/班级事实。可能重复的帖子需去重。",
+  "note": "课程/教师或班期对应未确认的线索，及完整洞中未获实质答复的问题；仅供后续人工核对，不作为当前课程/班级事实。候选映射不是身份定论，可能重复的帖子需去重。",
   "records": [
     {
       "hole_id": 484154,
@@ -263,6 +263,275 @@
       ],
       "course_code_candidates": [
         "GECC10002"
+      ]
+    },
+    {
+      "hole_id": 1319,
+      "source_floor_ids": [
+        7952,
+        7979,
+        7983,
+        8006,
+        8304,
+        8445
+      ],
+      "course_name": "有机化学实验（具体课程代码/实验I版本未确认）",
+      "teacher": null,
+      "term": "2021夏（按发帖时间；学期与课程班期未明）",
+      "course_mapping_status": "generic_course_title_ambiguous_within_scope",
+      "summary": "一位学生称有机化学实验最终得B，并表示每次实验报告约需写数页；其回忆开学时教师曾表示成绩基本不会低于B+。跟帖有人提醒B+并无保证，也有人称自己在普通或有机实验课得过B。属于不同班级的个人成绩与记忆，不能据此判断统一评分规则。",
+      "disposition": "保留为课程代码未明的历史实验课成绩/工作量短评；不映射到具体教师或现行教学班。",
+      "reading_status": "full_thread_read_complete",
+      "evidence_classification": [
+        "firsthand_grade_experience",
+        "lab_report_workload",
+        "peer_grade_comparison"
+      ],
+      "course_code_candidates": [
+        "CHEM10006",
+        "CHEM20012"
+      ]
+    },
+    {
+      "hole_id": 202018,
+      "source_floor_ids": [
+        1893180,
+        1893192,
+        1893214,
+        1893228,
+        1893263,
+        1893338,
+        1893667,
+        1893708
+      ],
+      "course_name": "普通化学实验I",
+      "teacher": null,
+      "term": "2023春（按发帖时间推定）",
+      "course_mapping_status": "probable_course_name_match_specific_class_unverified",
+      "summary": "一位学生咨询两门化学实验课的难度与教师选择。回复者分别称一位姓董的教师、石梅老师以及一位缩写为“程xw”的教师/助教组合相处友善或要求不严；另有人认为给分差异更多与实验小组有关。回复没有核实具体班级或给分样本，属于简短的选课口碑。",
+      "disposition": "保留为低信息选课口碑；不将姓氏或拼音缩写扩写为具体教师身份，也不视为评分规律。",
+      "reading_status": "full_thread_read_complete",
+      "evidence_classification": [
+        "peer_teacher_recommendation",
+        "lab_course_selection_advice",
+        "grading_variation_anecdote"
+      ],
+      "course_code_candidates": [
+        "CHEM10005"
+      ]
+    },
+    {
+      "hole_id": 202018,
+      "source_floor_ids": [
+        1893180,
+        1893192,
+        1893214,
+        1893228,
+        1893263,
+        1893338,
+        1893667,
+        1893708
+      ],
+      "course_name": "有机化学实验（代码/课程段未确认）",
+      "teacher": null,
+      "term": "2023春（按发帖时间推定）",
+      "course_mapping_status": "generic_course_title_ambiguous_within_scope",
+      "summary": "回复者称有机实验报告较长、操作步骤繁琐；另有人认为普化实验搭档实验较多、体验相对轻松，并提醒缺少高中化学基础时实验可能变成照步骤操作。评论未确认发言者具体班级、教师或课程代码，作为同帖选课经验保留。",
+      "disposition": "保留为笼统工作量/基础要求经验，不映射到具体实验班或教师。",
+      "reading_status": "full_thread_read_complete",
+      "evidence_classification": [
+        "peer_firsthand_lab_workload",
+        "course_selection_advice",
+        "prerequisite_background_opinion"
+      ],
+      "course_code_candidates": [
+        "CHEM10006",
+        "CHEM20012"
+      ]
+    },
+    {
+      "hole_id": 407257,
+      "source_floor_ids": [
+        3708145,
+        3708218,
+        3708227,
+        3708233,
+        3708268,
+        3708339,
+        3708773,
+        3708776
+      ],
+      "course_name": "化学与人类",
+      "teacher": null,
+      "term": "2025春（按2025-01选课语境推定）",
+      "course_mapping_status": "exact_course_name_abbreviated_teacher_unresolved",
+      "summary": "选课者询问“化学与人类”事务量与给分。回复中有人称自己上学期的小班得分不理想并认为可能与自身表现有关；另有学生称考试留空几题后得B，也有关于不同院系学生成绩的转述。教师缩写未核名，教学班和样本都不清楚，无法据此推断评分方式或难度。",
+      "disposition": "保留为低信息历史成绩讨论；教师缩写和班级归属待核，不外推为现行沈伟班评价。",
+      "reading_status": "full_thread_read_complete",
+      "evidence_classification": [
+        "peer_grade_reports",
+        "course_selection_question",
+        "grading_uncertainty"
+      ],
+      "course_code_candidates": [
+        "GECC10002"
+      ]
+    },
+    {
+      "hole_id": 418648,
+      "source_floor_ids": [
+        3811558,
+        3811723,
+        3812621
+      ],
+      "course_name": "有机化学实验（代码/课程段未确认）",
+      "teacher": null,
+      "term": "2025春（按2025-02发帖时间推定）",
+      "course_mapping_status": "generic_course_title_ambiguous_within_scope",
+      "summary": "学生询问有机实验预习报告是否需课前完成、是否会检查以及与实验报告的相对重要性。回复者称预习会被检查，最终实验报告更重要，但预习报告也要完成；这是同学提供的经验性答复，不能当作正式评分权重。",
+      "disposition": "保留为预习/报告要求线索，具体班级与评分比重仍待查。",
+      "reading_status": "full_thread_read_complete",
+      "evidence_classification": [
+        "assignment_preparation_question",
+        "peer_advice_unverified"
+      ],
+      "course_code_candidates": [
+        "CHEM10006",
+        "CHEM20012"
+      ]
+    },
+    {
+      "hole_id": 571534,
+      "source_floor_ids": [
+        5171610,
+        5171693,
+        5171731,
+        5171772,
+        5172089
+      ],
+      "course_name": "普通化学A(上)（帖内简称“普通化学上”）",
+      "teacher": "冯玮",
+      "term": "2026春（选课意向较可能，未确认）",
+      "course_mapping_status": "probable_course_name_and_teacher_match_class_unverified",
+      "summary": "选课者询问冯玮普通化学上。简短回复多为教师“人好/友善”的口碑，其中明确自述的体验来自该教师其他课程，没有提供普通化学上本课的内容、工作量、考核或成绩信息。",
+      "disposition": "仅保留为跨课程教师口碑线索，不作为CHEM10003课堂或评分评价。",
+      "reading_status": "full_thread_read_complete",
+      "evidence_classification": [
+        "course_selection_question",
+        "cross_course_teacher_opinion"
+      ],
+      "course_code_candidates": [
+        "CHEM10003"
+      ]
+    },
+    {
+      "hole_id": 414255,
+      "candidate_floor_ids": [
+        3784457,
+        3784489,
+        3788259,
+        5150123
+      ],
+      "course_code_candidates": [
+        "CHEM10004"
+      ],
+      "course_name": "普通化学A（下）",
+      "teacher": "hjl（可能侯军利；仅首字母候选，未确认）",
+      "course_term": "2025春（按选课时间推定）",
+      "course_mapping_status": "课程名可对应CHEM10004；教师缩写、历史开课和班级未确认",
+      "summary": "完整讨论只有一条模糊的二手负面印象，未说明课堂问题或给分体验；后续仍在询问是否有新评价。没有可核实的实质课程评价。",
+      "disposition": "作为待核教师/课程线索保存，不用于CHEM10004综合描述。",
+      "reading_status": "full_thread_read_complete",
+      "evidence_classification": [
+        "course_selection_question",
+        "unsubstantiated_secondhand_opinion",
+        "teacher_initial_unresolved"
+      ]
+    },
+    {
+      "hole_id": 637170,
+      "candidate_floor_ids": [
+        5768332,
+        5768401
+      ],
+      "course_code_candidates": [
+        "CHEM10007"
+      ],
+      "course_name": "有机化学C",
+      "teacher": "未提及",
+      "course_term": "2026春（按发帖时间推定）",
+      "course_mapping_status": "课程名明确；具体教学班未知",
+      "summary": "询问作业与考试的相关性，唯一回复未提供实质答案。",
+      "disposition": "未获答复，不纳入课程综合。",
+      "reading_status": "full_thread_read_complete",
+      "evidence_classification": [
+        "exam_homework_question",
+        "unanswered"
+      ]
+    },
+    {
+      "hole_id": 704497,
+      "candidate_floor_ids": [
+        6413669,
+        6413775,
+        6413776
+      ],
+      "course_code_candidates": [
+        "CHEM10007"
+      ],
+      "course_name": "有机化学C",
+      "teacher": "未提及",
+      "course_term": "2026秋或补缓考时段（未知）",
+      "course_mapping_status": "课程名明确；具体班期在现有官方快照范围外",
+      "summary": "询问补考/缓考卷难度和考点，跟帖只有顶帖，没有考试经验答复。",
+      "disposition": "作为未答复线索保存，不外推考试信息。",
+      "reading_status": "full_thread_read_complete",
+      "evidence_classification": [
+        "makeup_exam_question",
+        "unanswered",
+        "term_outside_official_snapshot"
+      ]
+    },
+    {
+      "hole_id": 531007,
+      "candidate_floor_ids": [
+        6474548
+      ],
+      "course_code_candidates": [
+        "CHEM50003"
+      ],
+      "course_name": "高等有机化学（研）",
+      "teacher": "王老师（可能王全瑞；未确认）",
+      "course_term": "2025秋（较可能）",
+      "course_mapping_status": "课程名与CHEM50003较吻合；教师全名和具体教学班待核",
+      "summary": "后续跟帖询问期末体验，没有回复。该洞关于无作业/小测的课程观察已另列于课程讨论摘要；考试问题仍未解决。",
+      "disposition": "只作为未答复的期末问题保留。",
+      "reading_status": "full_thread_read_complete",
+      "evidence_classification": [
+        "exam_experience_question",
+        "unanswered",
+        "teacher_candidate"
+      ]
+    },
+    {
+      "hole_id": 357790,
+      "candidate_floor_ids": [
+        3273771
+      ],
+      "course_code_candidates": [
+        "CHEM30034"
+      ],
+      "course_name": "不对称合成化学",
+      "teacher": "陆平",
+      "course_term": "2024秋（按发帖时间推定；早于官方当前快照）",
+      "course_mapping_status": "课程名和教师明确；历史开课班期未核",
+      "summary": "询问陆平老师不对称合成化学的期末考查内容和难度，完整洞无回复。",
+      "disposition": "保存为历史课程问询线索，不作为课程评价或考试说明。",
+      "reading_status": "full_thread_read_complete",
+      "evidence_classification": [
+        "course_exam_question",
+        "unanswered",
+        "historical_class_unverified"
       ]
     }
   ]

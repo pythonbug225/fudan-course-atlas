@@ -16,6 +16,8 @@
 
 当前阶段的六群查询概况见 `chat_search_manifest.json`：使用登记的课程、教师及其别名检索 105,771 条可读文本，对 1,393 条命中消息进行相邻上下文核对，没有确认化学课的修读评价；这不是对每条原始消息的人工通读。群聊原文与成员身份不进入共享目录。
 
+物理化学II历史课件另有个人离线包：本机保存在 `D:/danxi/课程评价整理_20261023/补充核验/化学系_20261027/offline_resources/物理化学II历史课件_个人离线.zip`；35份PDF及校验信息见 `offline_materials_manifest.json`。源页注明教学用途、不得商业使用，离线PDF不随仓库重传。
+
 树洞与蛋壳摘要位于 `danke_review_summaries.json`、`forum_discussion_summaries.json`；`course_syntheses.json` 记录每条判断所依据的来源 ID，`course_resources.json` 存储已核对的课程资料链接。树洞课评中的问课、未经确认的选课建议与修读体验分开标注。
 
 树洞高频截断后的分时段进度快照见 `forum_split_coverage.json`，课程未确认的讨论线索见 `forum_unmapped_leads.json`。

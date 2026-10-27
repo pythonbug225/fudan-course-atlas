@@ -1,20 +1,27 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-10-27",
+  "generated_at": "2026-10-28",
   "total_courses": 145,
   "status_counts": {
-    "not_individually_searched": 130,
-    "candidate_community_materials_exact_title": 1,
-    "official_courseware_title_family_match_code_unverified": 1,
-    "official_courseware_family_match_code_unverified": 1,
-    "official_historical_course_outline_title_family_match_code_unverified": 1,
-    "course_catalog_only_no_study_materials_seen": 2,
     "official_courseware_exact_title_historical_code_mismatch": 1,
+    "official_course_index_checked_no_public_materials": 1,
+    "candidate_third_party_course_resource_index_unverified": 3,
+    "targeted_search_no_verified_public_resource": 19,
+    "official_historical_course_resource_index_login_required_code_unverified": 1,
+    "official_catalog_context_no_public_materials": 48,
+    "official_historical_course_outline_candidate_code_unverified": 1,
     "official_courseware_family_match_split_unverified": 3,
-    "official_combined_lab_course_family_match_code_unverified": 2,
-    "official_related_safety_material_course_code_unverified": 1,
+    "official_courseware_title_family_match_code_unverified": 1,
     "candidate_community_misfiled_lower_course_file": 1,
-    "official_historical_course_resource_index_login_required_code_unverified": 1
+    "official_related_safety_material_course_code_unverified": 1,
+    "candidate_third_party_resource_index_unverified": 1,
+    "official_combined_lab_course_family_match_code_unverified": 2,
+    "official_historical_course_outline_title_family_match_code_unverified": 1,
+    "official_courseware_family_match_code_unverified": 1,
+    "official_courseware_duplicate_legacy_index_candidate_code_unverified": 1,
+    "candidate_community_materials_exact_title": 1,
+    "not_individually_searched": 55,
+    "course_catalog_only_no_study_materials_seen": 3
   },
   "courses": [
     {
@@ -77,9 +84,9 @@
     {
       "course_code": "CHEM20001",
       "course_name": "分析化学AⅠ",
-      "review_status": "not_individually_searched",
+      "review_status": "targeted_search_no_verified_public_resource",
       "resource_ids": [],
-      "search_coverage": "This exact course row was not individually searched. Family searches were sampled; no hit does not mean no public resource exists."
+      "search_coverage": "Targeted exact-title Chinese/English and Fudan-domain searches were made for 分析化学AⅠ (CHEM20001) and historical title/code variants. Official curriculum CTX-006 lists historical Fudan course CHEM130001, but no publicly verifiable notes, exam papers, or lecture slides were found. The current and historical codes are not cross-walked by the sources; this bounded search does not prove materials do not exist."
     },
     {
       "course_code": "CHEM20003",
@@ -100,9 +107,11 @@
     {
       "course_code": "CHEM20005h",
       "course_name": "物理化学A I（H）",
-      "review_status": "not_individually_searched",
-      "resource_ids": [],
-      "search_coverage": "This exact course row was not individually searched. Family searches were sampled; no hit does not mean no public resource exists."
+      "review_status": "official_catalog_context_no_public_materials",
+      "resource_ids": [
+        "CR-018"
+      ],
+      "search_coverage": "Official Fudan honors plans identify historical CHEM130012h 物理化学AI(H); exact code/title searches found no public courseware. Current-code mapping is unverified."
     },
     {
       "course_code": "CHEM20010",
@@ -114,9 +123,11 @@
     {
       "course_code": "CHEM20011",
       "course_name": "有机化学",
-      "review_status": "not_individually_searched",
-      "resource_ids": [],
-      "search_coverage": "This exact course row was not individually searched. Family searches were sampled; no hit does not mean no public resource exists."
+      "review_status": "candidate_third_party_course_resource_index_unverified",
+      "resource_ids": [
+        "CR-014"
+      ],
+      "search_coverage": "A third-party search result advertises a Fudan Organic Chemistry chapter-introduction PPT, but its page timed out and the file was not read. Official historical CHEM130049 is a title-family lead; an official 2024 dentistry plan uses CHEM20011 for Organic Chemistry Experiment I. Current-course identity is unresolved; candidate only."
     },
     {
       "course_code": "CHEM20012",
@@ -139,16 +150,20 @@
     {
       "course_code": "CHEM20013h",
       "course_name": "有机化学A I（H）",
-      "review_status": "not_individually_searched",
-      "resource_ids": [],
-      "search_coverage": "This exact course row was not individually searched. Family searches were sampled; no hit does not mean no public resource exists."
+      "review_status": "course_catalog_only_no_study_materials_seen",
+      "resource_ids": [
+        "CR-026"
+      ],
+      "search_coverage": "已打开的复旦《有机化学A I》学银在线课程介绍提及荣誉课程《有机化学AI(H)》，但页面不是H班专属课程页，也未公开学习文件；当前scope代码映射未确认。"
     },
     {
       "course_code": "CHEM20015",
       "course_name": "分析化学",
-      "review_status": "not_individually_searched",
-      "resource_ids": [],
-      "search_coverage": "This exact course row was not individually searched. Family searches were sampled; no hit does not mean no public resource exists."
+      "review_status": "official_catalog_context_no_public_materials",
+      "resource_ids": [
+        "CR-016"
+      ],
+      "search_coverage": "Official JWC indexed syllabus text identifies historical CHEM130071 Analytical Chemistry customized for Life Science students. It is course identity context only; no course materials found and no mapping to current CHEM20015."
     },
     {
       "course_code": "CHEM20016",
@@ -162,9 +177,11 @@
     {
       "course_code": "CHEM20017",
       "course_name": "元素化学",
-      "review_status": "not_individually_searched",
-      "resource_ids": [],
-      "search_coverage": "This exact course row was not individually searched. Family searches were sampled; no hit does not mean no public resource exists."
+      "review_status": "official_catalog_context_no_public_materials",
+      "resource_ids": [
+        "CR-020"
+      ],
+      "search_coverage": "Official Fudan plans and 2023 schedule identify historical CHEM130076 元素化学. Exact-title searches found no public courseware; current-code mapping is unverified."
     },
     {
       "course_code": "CHEM20021",
@@ -185,9 +202,9 @@
     {
       "course_code": "CHEM30001",
       "course_name": "绿色电化学合成",
-      "review_status": "not_individually_searched",
+      "review_status": "targeted_search_no_verified_public_resource",
       "resource_ids": [],
-      "search_coverage": "This exact course row was not individually searched. Family searches were sampled; no hit does not mean no public resource exists."
+      "search_coverage": "Exact-title searches for 绿色电化学合成 found Fudan research-group pages about research activity, but no course page or study-material link. No historical course code or current-code crosswalk was found."
     },
     {
       "course_code": "CHEM30003",
@@ -201,65 +218,82 @@
     {
       "course_code": "CHEM30004",
       "course_name": "物理化学AⅢ",
-      "review_status": "not_individually_searched",
-      "resource_ids": [],
-      "search_coverage": "This exact course row was not individually searched. Family searches were sampled; no hit does not mean no public resource exists."
+      "review_status": "candidate_third_party_course_resource_index_unverified",
+      "resource_ids": [
+        "CR-015",
+        "CR-017"
+      ],
+      "search_coverage": "A third-party Xiaokudang index snippet lists a 2003 Physical Chemistry AIII final paper, but the page returned 502 and the file was not accessed. Official Fudan curriculum lists historical CHEM130014 AIII; mapping to current CHEM30004 is unverified."
     },
     {
       "course_code": "CHEM30004h",
       "course_name": "物理化学A III(H)",
-      "review_status": "not_individually_searched",
-      "resource_ids": [],
-      "search_coverage": "This exact course row was not individually searched. Family searches were sampled; no hit does not mean no public resource exists."
+      "review_status": "official_catalog_context_no_public_materials",
+      "resource_ids": [
+        "CR-017"
+      ],
+      "search_coverage": "Official Fudan honors plan lists historical CHEM130014h Physical Chemistry AIII(H), replacing CHEM130014. No public AIII(H) study materials were found; mapping to current CHEM30004h is unverified."
     },
     {
       "course_code": "CHEM30005",
       "course_name": "无机化学",
-      "review_status": "not_individually_searched",
+      "review_status": "targeted_search_no_verified_public_resource",
       "resource_ids": [],
-      "search_coverage": "This exact course row was not individually searched. Family searches were sampled; no hit does not mean no public resource exists."
+      "search_coverage": "Targeted exact-title Chinese/English and Fudan-domain searches were made for 无机化学 (CHEM30005) and historical title/code variants. Official curriculum CTX-006 lists historical Fudan course CHEM130016, but no publicly verifiable notes, exam papers, or lecture slides were found. The current and historical codes are not cross-walked by the sources; this bounded search does not prove materials do not exist."
     },
     {
       "course_code": "CHEM30005h",
       "course_name": "无机化学（H）",
-      "review_status": "not_individually_searched",
-      "resource_ids": [],
-      "search_coverage": "This exact course row was not individually searched. Family searches were sampled; no hit does not mean no public resource exists."
+      "review_status": "official_catalog_context_no_public_materials",
+      "resource_ids": [
+        "CR-018"
+      ],
+      "search_coverage": "Official Fudan honors plans identify historical CHEM130016h 无机化学(H); exact-code/title searches found no public courseware. Current-code mapping is unverified."
     },
     {
       "course_code": "CHEM30010",
       "course_name": "有机合成及反应机理",
-      "review_status": "not_individually_searched",
-      "resource_ids": [],
-      "search_coverage": "This exact course row was not individually searched. Family searches were sampled; no hit does not mean no public resource exists."
+      "review_status": "official_catalog_context_no_public_materials",
+      "resource_ids": [
+        "CR-019"
+      ],
+      "search_coverage": "Official Fudan plans list historical CHEM130031 有机合成及反应机理. Exact-title/code public search found no courseware; current-code mapping is unverified."
     },
     {
       "course_code": "CHEM30011",
       "course_name": "环境化学B",
-      "review_status": "not_individually_searched",
-      "resource_ids": [],
-      "search_coverage": "This exact course row was not individually searched. Family searches were sampled; no hit does not mean no public resource exists."
+      "review_status": "official_catalog_context_no_public_materials",
+      "resource_ids": [
+        "CR-021"
+      ],
+      "search_coverage": "Official Fudan curriculum lists historical CHEM130035 环境化学B. Exact-title/code searches found no public courseware; current-code mapping is unverified."
     },
     {
       "course_code": "CHEM30012",
       "course_name": "计算化学",
-      "review_status": "not_individually_searched",
-      "resource_ids": [],
-      "search_coverage": "This exact course row was not individually searched. Family searches were sampled; no hit does not mean no public resource exists."
+      "review_status": "official_catalog_context_no_public_materials",
+      "resource_ids": [
+        "CR-019"
+      ],
+      "search_coverage": "Official Fudan plans list historical CHEM130039 计算化学. Exact-title/code public search found no courseware; current-code mapping is unverified."
     },
     {
       "course_code": "CHEM30015",
       "course_name": "化工原理",
-      "review_status": "not_individually_searched",
-      "resource_ids": [],
-      "search_coverage": "This exact course row was not individually searched. Family searches were sampled; no hit does not mean no public resource exists."
+      "review_status": "official_catalog_context_no_public_materials",
+      "resource_ids": [
+        "CR-025"
+      ],
+      "search_coverage": "复旦强基方案列历史化工原理 CHEM130045，化学系2025–2026补缓考正文列课程名但无代码。精确标题/代码及FDU-Sharing检索未发现课程材料；当前代码映射未确认。"
     },
     {
       "course_code": "CHEM30017",
       "course_name": "应用化学专题",
-      "review_status": "not_individually_searched",
-      "resource_ids": [],
-      "search_coverage": "This exact course row was not individually searched. Family searches were sampled; no hit does not mean no public resource exists."
+      "review_status": "official_catalog_context_no_public_materials",
+      "resource_ids": [
+        "CR-023"
+      ],
+      "search_coverage": "Official Fudan Chemistry schedules list historical CHEM130048 应用化学专题. Exact-title/code searches found no public courseware; current-code mapping is unverified."
     },
     {
       "course_code": "CHEM30018",
@@ -278,9 +312,11 @@
     {
       "course_code": "CHEM30021",
       "course_name": "配位化学",
-      "review_status": "not_individually_searched",
-      "resource_ids": [],
-      "search_coverage": "This exact course row was not individually searched. Family searches were sampled; no hit does not mean no public resource exists."
+      "review_status": "official_catalog_context_no_public_materials",
+      "resource_ids": [
+        "CR-019"
+      ],
+      "search_coverage": "Official Fudan plans and 2023 Chemistry Department schedule list historical CHEM130066 配位化学. Exact-title/code public search found no courseware; current-code mapping is unverified."
     },
     {
       "course_code": "CHEM30022",
@@ -292,16 +328,20 @@
     {
       "course_code": "CHEM30026",
       "course_name": "金属有机化学的研究方法和策略",
-      "review_status": "not_individually_searched",
-      "resource_ids": [],
-      "search_coverage": "This exact course row was not individually searched. Family searches were sampled; no hit does not mean no public resource exists."
+      "review_status": "official_catalog_context_no_public_materials",
+      "resource_ids": [
+        "CR-023"
+      ],
+      "search_coverage": "Official Fudan plans list historical CHEM130077 金属有机化学的研究方法和策略. Exact-title/code searches found no public courseware; current-code mapping is unverified."
     },
     {
       "course_code": "CHEM30029",
       "course_name": "碳簇化学",
-      "review_status": "not_individually_searched",
-      "resource_ids": [],
-      "search_coverage": "This exact course row was not individually searched. Family searches were sampled; no hit does not mean no public resource exists."
+      "review_status": "official_catalog_context_no_public_materials",
+      "resource_ids": [
+        "CR-021"
+      ],
+      "search_coverage": "Official Fudan curriculum lists historical CHEM130102 碳簇化学. Exact-title/code searches found no public courseware; current-code mapping is unverified."
     },
     {
       "course_code": "CHEM30031",
@@ -315,23 +355,27 @@
     {
       "course_code": "CHEM30033",
       "course_name": "计算谱学原理",
-      "review_status": "not_individually_searched",
-      "resource_ids": [],
-      "search_coverage": "This exact course row was not individually searched. Family searches were sampled; no hit does not mean no public resource exists."
+      "review_status": "official_catalog_context_no_public_materials",
+      "resource_ids": [
+        "CR-021"
+      ],
+      "search_coverage": "Official Fudan curriculum lists historical CHEM130108 计算谱学原理. Exact-title/code searches found no public courseware; current-code mapping is unverified."
     },
     {
       "course_code": "CHEM30034",
       "course_name": "不对称合成化学",
-      "review_status": "not_individually_searched",
-      "resource_ids": [],
-      "search_coverage": "This exact course row was not individually searched. Family searches were sampled; no hit does not mean no public resource exists."
+      "review_status": "official_catalog_context_no_public_materials",
+      "resource_ids": [
+        "CR-024"
+      ],
+      "search_coverage": "复旦强基方案正文列历史不对称合成化学 CHEM130109；当前行同名。定向公开检索未找到课程学习材料，新旧课号映射未确认。"
     },
     {
       "course_code": "CHEM30036",
       "course_name": "碳基能源化学",
-      "review_status": "not_individually_searched",
+      "review_status": "targeted_search_no_verified_public_resource",
       "resource_ids": [],
-      "search_coverage": "This exact course row was not individually searched. Family searches were sampled; no hit does not mean no public resource exists."
+      "search_coverage": "对碳基能源化学及 CHEM30036 做精确标题/代码检索，未发现课程材料页。打开的搜狐转载正文只称朱义峰承担该课程；页面不是课件/笔记/试题，也没有当前代码交叉表，故不归入可用资源。"
     },
     {
       "course_code": "CHEM30037",
@@ -350,16 +394,20 @@
     {
       "course_code": "CHEM30041h",
       "course_name": "量子化学原理及应用(H)",
-      "review_status": "not_individually_searched",
-      "resource_ids": [],
-      "search_coverage": "This exact course row was not individually searched. Family searches were sampled; no hit does not mean no public resource exists."
+      "review_status": "official_catalog_context_no_public_materials",
+      "resource_ids": [
+        "CR-020"
+      ],
+      "search_coverage": "Official Fudan honors plan and 2023 schedule identify historical CHEM130096h 量子化学原理及应用(H). Exact-title searches found no public courseware; current-code mapping is unverified."
     },
     {
       "course_code": "CHEM40002",
       "course_name": "生产实习",
-      "review_status": "not_individually_searched",
-      "resource_ids": [],
-      "search_coverage": "This exact course row was not individually searched. Family searches were sampled; no hit does not mean no public resource exists."
+      "review_status": "official_catalog_context_no_public_materials",
+      "resource_ids": [
+        "CR-027"
+      ],
+      "search_coverage": "复旦强基方案列历史《生产实习》CHEM130017，与当前课名相同；精确搜索未找到该课程的公开材料。旧号与 CHEM40002 的映射未由官方交叉表确认。"
     },
     {
       "course_code": "CHEM40008",
@@ -373,16 +421,20 @@
     {
       "course_code": "CHEM40014h",
       "course_name": "高等无机化学(H)",
-      "review_status": "not_individually_searched",
-      "resource_ids": [],
-      "search_coverage": "This exact course row was not individually searched. Family searches were sampled; no hit does not mean no public resource exists."
+      "review_status": "official_catalog_context_no_public_materials",
+      "resource_ids": [
+        "CR-020"
+      ],
+      "search_coverage": "Official Fudan honors plan and 2023 schedule identify historical CHEM130093h 高等无机化学(H). Exact-title searches found no public courseware; current-code mapping is unverified."
     },
     {
       "course_code": "CHEM40015h",
       "course_name": "高等有机化学(H)",
-      "review_status": "not_individually_searched",
-      "resource_ids": [],
-      "search_coverage": "This exact course row was not individually searched. Family searches were sampled; no hit does not mean no public resource exists."
+      "review_status": "official_catalog_context_no_public_materials",
+      "resource_ids": [
+        "CR-020"
+      ],
+      "search_coverage": "Official Fudan honors plan and 2023 schedule identify historical CHEM130095h 高等有机化学(H). Exact-title searches found no public courseware; current-code mapping is unverified."
     },
     {
       "course_code": "CHEM50002",
@@ -394,9 +446,9 @@
     {
       "course_code": "CHEM50003",
       "course_name": "高等有机化学",
-      "review_status": "not_individually_searched",
+      "review_status": "targeted_search_no_verified_public_resource",
       "resource_ids": [],
-      "search_coverage": "This exact course row was not individually searched. Family searches were sampled; no hit does not mean no public resource exists."
+      "search_coverage": "精确检索当前代码 CHEM50003 与《高等有机化学》未发现复旦课程材料页。公开官方方案中的《高等有机化学（H）》CHEM130095h 是名称带H的历史课程，不能据此映射到当前 CHEM50003；未找到公开课件、笔记或试题。"
     },
     {
       "course_code": "CHEM50004",
@@ -415,58 +467,68 @@
     {
       "course_code": "CHEM50008",
       "course_name": "工程伦理",
-      "review_status": "not_individually_searched",
+      "review_status": "targeted_search_no_verified_public_resource",
       "resource_ids": [],
-      "search_coverage": "This exact course row was not individually searched. Family searches were sampled; no hit does not mean no public resource exists."
+      "search_coverage": "按 CHEM50008 和《工程伦理》精确检索未发现可核验的课程学习资料。已打开的搜狐转载课程思政正文写有复旦化学系工程伦理课程及孙默、朱义峰两位教师，与当前scope行标题/教师相符，但正文没有课号、课件或学习材料；仅作课程背景线索，当前代码映射未证实。"
     },
     {
       "course_code": "CHEM50009",
       "course_name": "科学英语写作",
-      "review_status": "not_individually_searched",
-      "resource_ids": [],
-      "search_coverage": "This exact course row was not individually searched. Family searches were sampled; no hit does not mean no public resource exists."
+      "review_status": "official_catalog_context_no_public_materials",
+      "resource_ids": [
+        "CR-027"
+      ],
+      "search_coverage": "复旦化学系龚鸣教师页列其授课课程包括《科学英语写作》，与当前 scope 的课程名和任课教师相符；页面不含课号或学习文件。精确搜索未找到公开课件、笔记或试题。"
     },
     {
       "course_code": "CHEM50010",
       "course_name": "科研论文写作",
-      "review_status": "not_individually_searched",
+      "review_status": "targeted_search_no_verified_public_resource",
       "resource_ids": [],
-      "search_coverage": "This exact course row was not individually searched. Family searches were sampled; no hit does not mean no public resource exists."
+      "search_coverage": "按 CHEM50010 和《科研论文写作》精确检索，未找到复旦该课的公开材料。搜索出现的同码Carleton课程表PDF现已404，未核实正文或标题，也未作为复旦资源。"
     },
     {
       "course_code": "CHEM60003",
       "course_name": "无机合成",
-      "review_status": "not_individually_searched",
-      "resource_ids": [],
-      "search_coverage": "This exact course row was not individually searched. Family searches were sampled; no hit does not mean no public resource exists."
+      "review_status": "official_catalog_context_no_public_materials",
+      "resource_ids": [
+        "CR-031"
+      ],
+      "search_coverage": "Official exact title/code/teacher searches and a Fudan chemistry faculty page plus indexed graduate catalog context were checked; no publicly verifiable lecture notes, slides or exams found. Historical course-code correspondence remains unverified; two official catalog PDFs could not be opened directly."
     },
     {
       "course_code": "CHEM60004",
       "course_name": "高等仪器分析",
-      "review_status": "not_individually_searched",
-      "resource_ids": [],
-      "search_coverage": "This exact course row was not individually searched. Family searches were sampled; no hit does not mean no public resource exists."
+      "review_status": "official_catalog_context_no_public_materials",
+      "resource_ids": [
+        "CR-029"
+      ],
+      "search_coverage": "复旦化学工程领域页面的研究生专业课程列表含《高等仪器分析》，但无课程代码或学习材料；当前CHEM60004对应关系仅作课程族背景。"
     },
     {
       "course_code": "CHEM60005",
       "course_name": "统计热力学",
-      "review_status": "not_individually_searched",
-      "resource_ids": [],
-      "search_coverage": "This exact course row was not individually searched. Family searches were sampled; no hit does not mean no public resource exists."
+      "review_status": "official_catalog_context_no_public_materials",
+      "resource_ids": [
+        "CR-031"
+      ],
+      "search_coverage": "Official exact title/code/teacher searches and a Fudan chemistry faculty page plus indexed graduate catalog context were checked; no publicly verifiable lecture notes, slides or exams found. Historical course-code correspondence remains unverified; two official catalog PDFs could not be opened directly."
     },
     {
       "course_code": "CHEM60011",
       "course_name": "色谱理论基础",
-      "review_status": "not_individually_searched",
-      "resource_ids": [],
-      "search_coverage": "This exact course row was not individually searched. Family searches were sampled; no hit does not mean no public resource exists."
+      "review_status": "official_catalog_context_no_public_materials",
+      "resource_ids": [
+        "CR-031"
+      ],
+      "search_coverage": "Official exact title/code/teacher searches and a Fudan chemistry faculty page plus indexed graduate catalog context were checked; no publicly verifiable lecture notes, slides or exams found. Historical course-code correspondence remains unverified; two official catalog PDFs could not be opened directly."
     },
     {
       "course_code": "CHEM60012",
       "course_name": "生物质谱仪器和质谱分析",
-      "review_status": "not_individually_searched",
+      "review_status": "targeted_search_no_verified_public_resource",
       "resource_ids": [],
-      "search_coverage": "This exact course row was not individually searched. Family searches were sampled; no hit does not mean no public resource exists."
+      "search_coverage": "精确标题/代码搜索未找到课程材料。搜索结果中复旦研究生课程表摘要列旧代码 CHEMB20008《生物质谱仪器和质谱分析》，但该 PDF 直接读取失败，正文未核验；不能将旧号映射为当前 CHEM60012。"
     },
     {
       "course_code": "CHEM60013",
@@ -478,9 +540,11 @@
     {
       "course_code": "CHEM60014",
       "course_name": "物理有机化学",
-      "review_status": "not_individually_searched",
-      "resource_ids": [],
-      "search_coverage": "This exact course row was not individually searched. Family searches were sampled; no hit does not mean no public resource exists."
+      "review_status": "candidate_third_party_course_resource_index_unverified",
+      "resource_ids": [
+        "CR-032"
+      ],
+      "search_coverage": "A Book118 third-party PPT page with a matching course/teacher title was opened and its text preview inspected. It lacks course code, term, uploader provenance and reuse-rights evidence; candidate only, not a verified Fudan resource."
     },
     {
       "course_code": "CHEM60017",
@@ -499,9 +563,11 @@
     {
       "course_code": "CHEM60021",
       "course_name": "功能分子材料和生物材料",
-      "review_status": "not_individually_searched",
-      "resource_ids": [],
-      "search_coverage": "This exact course row was not individually searched. Family searches were sampled; no hit does not mean no public resource exists."
+      "review_status": "official_catalog_context_no_public_materials",
+      "resource_ids": [
+        "CR-028"
+      ],
+      "search_coverage": "复旦化学系张凡教师页列出授课课程《功能分子材料和生物材料》，当前scope课名相同且教师名单包含张凡；未发现课程学习文件，代码映射仍需核实。"
     },
     {
       "course_code": "CHEM60024",
@@ -520,9 +586,9 @@
     {
       "course_code": "CHEM60027",
       "course_name": "蛋白质组学的新技术和新方法",
-      "review_status": "not_individually_searched",
+      "review_status": "targeted_search_no_verified_public_resource",
       "resource_ids": [],
-      "search_coverage": "This exact course row was not individually searched. Family searches were sampled; no hit does not mean no public resource exists."
+      "search_coverage": "精确标题/代码检索未找到复旦《蛋白质组学的新技术和新方法》的课程页、讲义、试题或课件。"
     },
     {
       "course_code": "CHEM70005",
@@ -604,9 +670,9 @@
     {
       "course_code": "CHEM70030",
       "course_name": "催化反应机理及其研究方法",
-      "review_status": "not_individually_searched",
+      "review_status": "targeted_search_no_verified_public_resource",
       "resource_ids": [],
-      "search_coverage": "This exact course row was not individually searched. Family searches were sampled; no hit does not mean no public resource exists."
+      "search_coverage": "精确标题/代码检索未找到复旦《催化反应机理及其研究方法》的课程材料。代码样式相似的 Wiley chem70030-sup 是另一篇研究论文的补充材料，与本课程无关。"
     },
     {
       "course_code": "CHEM70032",
@@ -618,9 +684,9 @@
     {
       "course_code": "CHEM70033",
       "course_name": "科学仪器基础",
-      "review_status": "not_individually_searched",
+      "review_status": "targeted_search_no_verified_public_resource",
       "resource_ids": [],
-      "search_coverage": "This exact course row was not individually searched. Family searches were sampled; no hit does not mean no public resource exists."
+      "search_coverage": "精确代码/标题检索没有找到复旦《科学仪器基础》的可核验课程资料。搜索结果中的CHEM70033页面来自Imperial College London，课程名称为 Advanced Current Catalysis；直接打开PDF返回403，不能作为复旦课程证据。"
     },
     {
       "course_code": "GEEC10038",
@@ -678,16 +744,18 @@
     {
       "course_code": "CHEM20002",
       "course_name": "分析化学AⅡ",
-      "review_status": "not_individually_searched",
+      "review_status": "targeted_search_no_verified_public_resource",
       "resource_ids": [],
-      "search_coverage": "This exact course row was not individually searched. Family searches were sampled; no hit does not mean no public resource exists."
+      "search_coverage": "Targeted exact-title Chinese/English and Fudan-domain searches were made for 分析化学AⅡ (CHEM20002) and historical title/code variants. Official curriculum CTX-006 lists historical Fudan course CHEM130002, but no publicly verifiable notes, exam papers, or lecture slides were found. The current and historical codes are not cross-walked by the sources; this bounded search does not prove materials do not exist."
     },
     {
       "course_code": "CHEM20002h",
       "course_name": "分析化学A II(H)",
-      "review_status": "not_individually_searched",
-      "resource_ids": [],
-      "search_coverage": "This exact course row was not individually searched. Family searches were sampled; no hit does not mean no public resource exists."
+      "review_status": "official_catalog_context_no_public_materials",
+      "resource_ids": [
+        "CR-018"
+      ],
+      "search_coverage": "Official Fudan honors plans identify historical CHEM130002h 分析化学AII(H); exact-code/title searches found no public courseware. Current-code mapping is unverified."
     },
     {
       "course_code": "CHEM20004",
@@ -710,16 +778,20 @@
     {
       "course_code": "CHEM20006h",
       "course_name": "物理化学A II(H)",
-      "review_status": "not_individually_searched",
-      "resource_ids": [],
-      "search_coverage": "This exact course row was not individually searched. Family searches were sampled; no hit does not mean no public resource exists."
+      "review_status": "official_catalog_context_no_public_materials",
+      "resource_ids": [
+        "CR-018"
+      ],
+      "search_coverage": "Official Fudan honors plans identify historical CHEM130013h 物理化学AII(H); a JWC search-index excerpt provides syllabus/course info, but no lecture files. Current-code mapping is unverified."
     },
     {
       "course_code": "CHEM20007",
       "course_name": "谱学导论",
-      "review_status": "not_individually_searched",
-      "resource_ids": [],
-      "search_coverage": "This exact course row was not individually searched. Family searches were sampled; no hit does not mean no public resource exists."
+      "review_status": "candidate_third_party_resource_index_unverified",
+      "resource_ids": [
+        "CR-013"
+      ],
+      "search_coverage": "Search found third-party index claims for Fudan《谱学导论》 syllabus, chapter lesson notes, PPT, exercises and answers, plus an uploader page for a 65-part playlist. Official curriculum CTX-006 lists historical CHEM130015 and official context CTX-009 confirms the historical course identity. The index page failed to open (502) and the video page failed (412); material provenance, actual contents, and rights remain unverified. No mapping from historical CHEM130015 to current CHEM20007 is established; candidate only."
     },
     {
       "course_code": "CHEM20008",
@@ -731,9 +803,11 @@
     {
       "course_code": "CHEM20009",
       "course_name": "化学专业英语",
-      "review_status": "not_individually_searched",
-      "resource_ids": [],
-      "search_coverage": "This exact course row was not individually searched. Family searches were sampled; no hit does not mean no public resource exists."
+      "review_status": "official_catalog_context_no_public_materials",
+      "resource_ids": [
+        "CR-025"
+      ],
+      "search_coverage": "复旦强基方案列历史化学专业英语 CHEM130040，化学系2025–2026补缓考正文列课程名但无代码。精确标题/代码及FDU-Sharing检索未发现课程材料；当前代码映射未确认。"
     },
     {
       "course_code": "CHEM20014",
@@ -747,9 +821,11 @@
     {
       "course_code": "CHEM20014h",
       "course_name": "有机化学A II (H)",
-      "review_status": "not_individually_searched",
-      "resource_ids": [],
-      "search_coverage": "This exact course row was not individually searched. Family searches were sampled; no hit does not mean no public resource exists."
+      "review_status": "official_catalog_context_no_public_materials",
+      "resource_ids": [
+        "CR-018"
+      ],
+      "search_coverage": "Official Fudan honors plans identify historical CHEM130068h 有机化学AII(H); exact-code/title searches found no public courseware. Current-code mapping is unverified."
     },
     {
       "course_code": "CHEM20018",
@@ -784,51 +860,65 @@
     {
       "course_code": "CHEM30008",
       "course_name": "近代分析化学",
-      "review_status": "not_individually_searched",
-      "resource_ids": [],
-      "search_coverage": "This exact course row was not individually searched. Family searches were sampled; no hit does not mean no public resource exists."
+      "review_status": "official_catalog_context_no_public_materials",
+      "resource_ids": [
+        "CR-019"
+      ],
+      "search_coverage": "Official Fudan plans list historical CHEM130027 近代分析化学. Exact-title/code public search found no courseware; current-code mapping is unverified."
     },
     {
       "course_code": "CHEM30009",
       "course_name": "胶体化学",
-      "review_status": "not_individually_searched",
-      "resource_ids": [],
-      "search_coverage": "This exact course row was not individually searched. Family searches were sampled; no hit does not mean no public resource exists."
+      "review_status": "official_catalog_context_no_public_materials",
+      "resource_ids": [
+        "CR-024"
+      ],
+      "search_coverage": "复旦强基方案正文列历史胶体化学 CHEM130029；当前行同名。定向公开检索未找到课程学习材料，新旧课号映射未确认。"
     },
     {
       "course_code": "CHEM30013",
       "course_name": "新型无机材料",
-      "review_status": "not_individually_searched",
-      "resource_ids": [],
-      "search_coverage": "This exact course row was not individually searched. Family searches were sampled; no hit does not mean no public resource exists."
+      "review_status": "official_catalog_context_no_public_materials",
+      "resource_ids": [
+        "CR-022"
+      ],
+      "search_coverage": "Official Fudan plans list historical CHEM130041 新型无机材料. Exact-title/code searches found no public courseware; current-code mapping is unverified."
     },
     {
       "course_code": "CHEM30014",
       "course_name": "化学反应工程",
-      "review_status": "not_individually_searched",
-      "resource_ids": [],
-      "search_coverage": "This exact course row was not individually searched. Family searches were sampled; no hit does not mean no public resource exists."
+      "review_status": "official_catalog_context_no_public_materials",
+      "resource_ids": [
+        "CR-023"
+      ],
+      "search_coverage": "Official Fudan plans list historical CHEM130044 化学反应工程. Exact-title/code searches found no public courseware; current-code mapping is unverified."
     },
     {
       "course_code": "CHEM30016",
       "course_name": "工业化学",
-      "review_status": "not_individually_searched",
-      "resource_ids": [],
-      "search_coverage": "This exact course row was not individually searched. Family searches were sampled; no hit does not mean no public resource exists."
+      "review_status": "official_catalog_context_no_public_materials",
+      "resource_ids": [
+        "CR-023"
+      ],
+      "search_coverage": "Official Fudan plans list historical CHEM130046 工业化学. Exact-title/code searches found no public courseware; current-code mapping is unverified."
     },
     {
       "course_code": "CHEM30020",
       "course_name": "溶胶-凝胶化学及实验",
-      "review_status": "not_individually_searched",
-      "resource_ids": [],
-      "search_coverage": "This exact course row was not individually searched. Family searches were sampled; no hit does not mean no public resource exists."
+      "review_status": "official_catalog_context_no_public_materials",
+      "resource_ids": [
+        "CR-022"
+      ],
+      "search_coverage": "Official Fudan plans list historical CHEM130062 溶胶-凝胶化学及实验. Exact-title/code searches found no public courseware; current-code mapping is unverified."
     },
     {
       "course_code": "CHEM30023",
       "course_name": "药物化学",
-      "review_status": "not_individually_searched",
-      "resource_ids": [],
-      "search_coverage": "This exact course row was not individually searched. Family searches were sampled; no hit does not mean no public resource exists."
+      "review_status": "official_catalog_context_no_public_materials",
+      "resource_ids": [
+        "CR-022"
+      ],
+      "search_coverage": "Official Fudan plans and course directory list historical CHEM130073 药物化学. Exact-title/code searches found no public courseware; current-code mapping is unverified."
     },
     {
       "course_code": "CHEM30027",
@@ -840,16 +930,20 @@
     {
       "course_code": "CHEM30028",
       "course_name": "高能化学电源",
-      "review_status": "not_individually_searched",
-      "resource_ids": [],
-      "search_coverage": "This exact course row was not individually searched. Family searches were sampled; no hit does not mean no public resource exists."
+      "review_status": "official_catalog_context_no_public_materials",
+      "resource_ids": [
+        "CR-022"
+      ],
+      "search_coverage": "Official Fudan plans list historical CHEM130100 高能化学电源. Exact-title/code searches found no public courseware; current-code mapping is unverified."
     },
     {
       "course_code": "CHEM30030",
       "course_name": "探究性仪器分析实验",
-      "review_status": "not_individually_searched",
-      "resource_ids": [],
-      "search_coverage": "This exact course row was not individually searched. Family searches were sampled; no hit does not mean no public resource exists."
+      "review_status": "official_catalog_context_no_public_materials",
+      "resource_ids": [
+        "CR-017"
+      ],
+      "search_coverage": "Official Fudan curriculum lists historical CHEM130103 探究性仪器分析实验. No course-specific public materials tied to current CHEM30030 were found; historical/current code mapping remains unverified. The official experimental-center index at CR-004 exposes broader Instrumental Analysis lab files tied to historical CHEM130107; they are not assigned to the distinct exploratory course CHEM130103."
     },
     {
       "course_code": "CHEM30032",
@@ -863,16 +957,18 @@
     {
       "course_code": "CHEM30032h",
       "course_name": "物理化学实验（下）(H)",
-      "review_status": "not_individually_searched",
+      "review_status": "targeted_search_no_verified_public_resource",
       "resource_ids": [],
-      "search_coverage": "This exact course row was not individually searched. Family searches were sampled; no hit does not mean no public resource exists."
+      "search_coverage": "Exact-title/code search for 物理化学实验（下）(H) and CHEM30032h found no H-specific public materials. The official Fudan chemistry plan lists historical regular-course code CHEM130105, while the general physical-chemistry lab PPT index does not separate upper/lower or H variants; neither is assigned to this H row. An official JWC syllabus PDF appeared in search but direct open timed out; its body was not verified."
     },
     {
       "course_code": "CHEM30035",
       "course_name": "化学生物学基础",
-      "review_status": "not_individually_searched",
-      "resource_ids": [],
-      "search_coverage": "This exact course row was not individually searched. Family searches were sampled; no hit does not mean no public resource exists."
+      "review_status": "official_catalog_context_no_public_materials",
+      "resource_ids": [
+        "CR-024"
+      ],
+      "search_coverage": "复旦强基方案正文列历史化学生物学基础 CHEM130092；当前行同名。定向公开检索未找到课程学习材料，新旧课号映射未确认。"
     },
     {
       "course_code": "CHEM40003",
@@ -893,16 +989,18 @@
     {
       "course_code": "CHEM50005",
       "course_name": "高等结构分析",
-      "review_status": "not_individually_searched",
-      "resource_ids": [],
-      "search_coverage": "This exact course row was not individually searched. Family searches were sampled; no hit does not mean no public resource exists."
+      "review_status": "official_catalog_context_no_public_materials",
+      "resource_ids": [
+        "CR-027"
+      ],
+      "search_coverage": "复旦强基方案列历史《高等结构分析》CHEM130094，与当前课名相同；精确搜索未找到课程材料。旧号与 CHEM50005 的映射未由官方交叉表确认。"
     },
     {
       "course_code": "CHEM50007",
       "course_name": "英文化学论文写作",
-      "review_status": "not_individually_searched",
+      "review_status": "targeted_search_no_verified_public_resource",
       "resource_ids": [],
-      "search_coverage": "This exact course row was not individually searched. Family searches were sampled; no hit does not mean no public resource exists."
+      "search_coverage": "按 CHEM50007 和《英文化学论文写作》精确检索，未找到复旦该课的公开材料。检索中发现的同码 CHEM50007 资料明确属于 Imperial College London（Control and Selectivity in Molecular Synthesis），已排除；不能因代码相同用于复旦课程。"
     },
     {
       "course_code": "CHEM60007",
@@ -921,9 +1019,11 @@
     {
       "course_code": "CHEM60010",
       "course_name": "稀土化学",
-      "review_status": "not_individually_searched",
-      "resource_ids": [],
-      "search_coverage": "This exact course row was not individually searched. Family searches were sampled; no hit does not mean no public resource exists."
+      "review_status": "official_catalog_context_no_public_materials",
+      "resource_ids": [
+        "CR-030"
+      ],
+      "search_coverage": "复旦化学系2020年研究生网络教学安排列历史稀土化学 CHEM820004 和授课信息；当前课程同名，但未找到旧新课号交叉表或学习材料。"
     },
     {
       "course_code": "CHEM60015",
@@ -963,30 +1063,38 @@
     {
       "course_code": "CHEM70006",
       "course_name": "高等化学分析",
-      "review_status": "not_individually_searched",
-      "resource_ids": [],
-      "search_coverage": "This exact course row was not individually searched. Family searches were sampled; no hit does not mean no public resource exists."
+      "review_status": "official_catalog_context_no_public_materials",
+      "resource_ids": [
+        "CR-033"
+      ],
+      "search_coverage": "Exact current code/title and teacher searches found the Fudan Chemistry Department 2020 graduate online-course schedule with the matching historical title/teacher, plus matching instructor-page context. No public lecture notes, slides or exams found; current/historical code crosswalk remains unverified."
     },
     {
       "course_code": "CHEM70007",
       "course_name": "色谱分析",
-      "review_status": "not_individually_searched",
-      "resource_ids": [],
-      "search_coverage": "This exact course row was not individually searched. Family searches were sampled; no hit does not mean no public resource exists."
+      "review_status": "official_catalog_context_no_public_materials",
+      "resource_ids": [
+        "CR-033"
+      ],
+      "search_coverage": "Exact current code/title and teacher searches found the Fudan Chemistry Department 2020 graduate online-course schedule with the matching historical title/teacher, plus matching instructor-page context. No public lecture notes, slides or exams found; current/historical code crosswalk remains unverified."
     },
     {
       "course_code": "CHEM70009",
       "course_name": "多相催化原理",
-      "review_status": "not_individually_searched",
-      "resource_ids": [],
-      "search_coverage": "This exact course row was not individually searched. Family searches were sampled; no hit does not mean no public resource exists."
+      "review_status": "official_catalog_context_no_public_materials",
+      "resource_ids": [
+        "CR-033"
+      ],
+      "search_coverage": "Exact current code/title and teacher searches found the Fudan Chemistry Department 2020 graduate online-course schedule with the matching historical title/teacher, plus matching instructor-page context. No public lecture notes, slides or exams found; current/historical code crosswalk remains unverified."
     },
     {
       "course_code": "CHEM70012",
       "course_name": "绿色化学",
-      "review_status": "not_individually_searched",
-      "resource_ids": [],
-      "search_coverage": "This exact course row was not individually searched. Family searches were sampled; no hit does not mean no public resource exists."
+      "review_status": "official_catalog_context_no_public_materials",
+      "resource_ids": [
+        "CR-033"
+      ],
+      "search_coverage": "Exact current code/title and teacher searches found the Fudan Chemistry Department 2020 graduate online-course schedule with the matching historical title/teacher, plus matching instructor-page context. No public lecture notes, slides or exams found; current/historical code crosswalk remains unverified."
     },
     {
       "course_code": "CHEM70017",
@@ -1019,9 +1127,11 @@
     {
       "course_code": "CHEM70025",
       "course_name": "电化学研究前沿介绍",
-      "review_status": "not_individually_searched",
-      "resource_ids": [],
-      "search_coverage": "This exact course row was not individually searched. Family searches were sampled; no hit does not mean no public resource exists."
+      "review_status": "official_catalog_context_no_public_materials",
+      "resource_ids": [
+        "CR-030"
+      ],
+      "search_coverage": "复旦化学系2020年研究生网络教学安排列历史电化学研究前沿介绍 CHEM830023；当前课程同名，但未找到旧新课号交叉表或学习材料。"
     },
     {
       "course_code": "CHEM70026",
