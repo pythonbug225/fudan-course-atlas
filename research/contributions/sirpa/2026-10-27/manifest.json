@@ -1,0 +1,1640 @@
+{
+  "schema_version": 1,
+  "batch": "sirpa-2026-10-27",
+  "course_codes": 306,
+  "sections": 619,
+  "danke_raw_reviews": 111,
+  "treehole_cited_raw_floors": 581,
+  "treehole_fully_read_holes": 309,
+  "treehole_fully_read_floors": 3280,
+  "raw_export_scope": "原始响应字段经明确脱敏，不是摘要重写；搜索命中、未采用上下文及外部平台全文不发布。",
+  "raw_attribution_limit": "旧抓取未保留作者字段，不补造署名；公开原帖URL和来源ID保留。",
+  "redactions": {
+    "email": 2,
+    "phone": 0,
+    "student_number": 0,
+    "id_card": 0,
+    "wechat_id": 0,
+    "chatroom_id": 0,
+    "jwt": 0,
+    "access_secret": 0,
+    "contact": 0,
+    "share_password": 0,
+    "inline_secret": 0,
+    "local_path": 0,
+    "signed_url": 1,
+    "original_deleted": 8
+  },
+  "files": [
+    {
+      "path": "courses/AIS310011.json",
+      "bytes": 2335,
+      "sha256": "5b0454c83f7d11099716d0c30ca2745728fb3fd9d063a9746b1b83ad5734635a"
+    },
+    {
+      "path": "courses/AIS310012.json",
+      "bytes": 9901,
+      "sha256": "21345cdf1e55bbd8cad241943b7237a004c075566feabfeb6add1ce13d5eddc9"
+    },
+    {
+      "path": "courses/GECC10073.json",
+      "bytes": 39617,
+      "sha256": "51db15e6ace2894692afb48e715a3972bcce15815bdcdac0e078502053f3cbcf"
+    },
+    {
+      "path": "courses/GECC10112.json",
+      "bytes": 35280,
+      "sha256": "d5e24c452b23bdeebd58f3555084354f6c3281e879004a7d4d9c6b237232da37"
+    },
+    {
+      "path": "courses/GECC10113.json",
+      "bytes": 19099,
+      "sha256": "4901c3d6155432d8aaa51ce827b360e54ab1c189caf945853e739c6890b8db81"
+    },
+    {
+      "path": "courses/GECC10118.json",
+      "bytes": 3947,
+      "sha256": "d65923bafd8c5197dd361e17abb444cfedd7360ccd68e9afcf14a8399b015222"
+    },
+    {
+      "path": "courses/GECC10119.json",
+      "bytes": 2194,
+      "sha256": "01c08f9489335f2f50155c4846594a7281af97eb06ca9e250a02c8855e4cc23b"
+    },
+    {
+      "path": "courses/GECS10001.json",
+      "bytes": 2274,
+      "sha256": "9456f076e6e7ea84faef60ca2a32de2acd39e1b1cb7cc0d8a6476d15274ee34a"
+    },
+    {
+      "path": "courses/GECS10002.json",
+      "bytes": 2264,
+      "sha256": "7a8f6fa0ab884763a4646a2dcb1bbd953429296793ab7f36c1597f8275ec0124"
+    },
+    {
+      "path": "courses/GECS40004.json",
+      "bytes": 2127,
+      "sha256": "14015ded653f0792ae0b7fbce9a5b1ee8b89402b12fc005adc119d1f6f402328"
+    },
+    {
+      "path": "courses/GECS40005.json",
+      "bytes": 2146,
+      "sha256": "e04bb687e73acfcd681b7eeadf500e17a3e8e7b8c3dc74502edcf16ea5add91e"
+    },
+    {
+      "path": "courses/GECS40006.json",
+      "bytes": 2194,
+      "sha256": "aaedae768c0c307e435efe568dd24835699d1f6718abbbeec5a3ee9b3b46ca57"
+    },
+    {
+      "path": "courses/GECS40007.json",
+      "bytes": 2130,
+      "sha256": "4dc126b4a73fd559145da0f5b65beabf317f992edb3c2b6350c16c87455e802e"
+    },
+    {
+      "path": "courses/GECS40008.json",
+      "bytes": 2127,
+      "sha256": "73f55f89723af158b19a3ef088de7bececfb131ed1d443a015b8ecb771ed2869"
+    },
+    {
+      "path": "courses/GECS40009.json",
+      "bytes": 2114,
+      "sha256": "6437ca1ae1ddba622613bfe6695e97eda0b24107ba0621cec8be9051c0bd7976"
+    },
+    {
+      "path": "courses/GEEC10370.json",
+      "bytes": 3720,
+      "sha256": "2fdb2ca2c18f46d5b3b8bf83cc1a09b358553574bb3747e555b417622b36c865"
+    },
+    {
+      "path": "courses/GEEC10371.json",
+      "bytes": 7132,
+      "sha256": "db35c809a264534a77723308bdaee3f341fe7f7be46401125b071e6479c1ba78"
+    },
+    {
+      "path": "courses/GEEC10373.json",
+      "bytes": 4637,
+      "sha256": "8d1a596a67579b2a82e569312877e99ffd4d83588899007cb4cb2800661712fc"
+    },
+    {
+      "path": "courses/GEEC10375.json",
+      "bytes": 2206,
+      "sha256": "257a0183cda5242e92e0116d1a77085aff54174a92ac4babd040e64b287d865b"
+    },
+    {
+      "path": "courses/GEEC10376.json",
+      "bytes": 2175,
+      "sha256": "aafd9ed44857ecb6cae55f3c14425541755b19cbf0f90436432602fe12ebc3ff"
+    },
+    {
+      "path": "courses/GEEC10380.json",
+      "bytes": 2673,
+      "sha256": "6c4f0b630c05f110b5acd03669b7241f3c60a6ec8e8a138eaeb3cdd31af25593"
+    },
+    {
+      "path": "courses/GEEC40006.json",
+      "bytes": 2084,
+      "sha256": "679af1b005a392b54d8ba859d8ed2e6968e7f0671ecb03e377e3ba1aa8d7a173"
+    },
+    {
+      "path": "courses/GEEF40026.json",
+      "bytes": 9372,
+      "sha256": "3ec7913ca89bb5c298deeb7451f4c4c186ef00aacc39cf4e82215cf2fcc8e217"
+    },
+    {
+      "path": "courses/GEIN40004.json",
+      "bytes": 5481,
+      "sha256": "b277da224c879430280f7d3b826f65261034d57838035d27c5a284d4dea882b0"
+    },
+    {
+      "path": "courses/GEIP40010.json",
+      "bytes": 8210,
+      "sha256": "7f5bbe9bc55b875640357a4c5b2ace8674369ea800e291b822770373176c3cf9"
+    },
+    {
+      "path": "courses/GEIP40011.json",
+      "bytes": 9429,
+      "sha256": "fd82e260f7742857d8c6adca026ec6361c613f7eec6a72c085fce3789d79f8c1"
+    },
+    {
+      "path": "courses/GESP10004.json",
+      "bytes": 7340,
+      "sha256": "6b51a113495567333cd83ce53c87685455324c2f13ca5215c40eea03a3234db7"
+    },
+    {
+      "path": "courses/GESP20003.json",
+      "bytes": 26231,
+      "sha256": "218cf4c1797471561fa493cfc5dcb2fc3d3f60b7a84d990d7eb1141b6b633826"
+    },
+    {
+      "path": "courses/GESP20004.json",
+      "bytes": 5387,
+      "sha256": "81f3be43dd62f4924972b2d68982f7078f379844ab9a58c041fd46d163ce5a6b"
+    },
+    {
+      "path": "courses/GESP40003.json",
+      "bytes": 2216,
+      "sha256": "68727db666770e375468ef4a00a2187ab11be0121a7bdba8367e18db0d685561"
+    },
+    {
+      "path": "courses/GESP40004.json",
+      "bytes": 2275,
+      "sha256": "48f83b10526f8fb9b175af159a033e026fc814e150b51327c1470de178faee4d"
+    },
+    {
+      "path": "courses/GESS10001.json",
+      "bytes": 12621,
+      "sha256": "304328524da2a83e89dbd6f1d748ebb0ba41e448f6e708513353cc1320a7bdd0"
+    },
+    {
+      "path": "courses/GEXZ10024.json",
+      "bytes": 5881,
+      "sha256": "3963e8ac6c15551a0148e6ddf5197435fcd9aa62088d8d3e7fa557907f512972"
+    },
+    {
+      "path": "courses/GEXZ10025.json",
+      "bytes": 10064,
+      "sha256": "e8935ec8b86b13cb61e396c8b57a4ac24eac041b2f92842a690861889082546a"
+    },
+    {
+      "path": "courses/MANA10001.json",
+      "bytes": 52217,
+      "sha256": "e152f4cb4bd4dd4c295c853fac079f0e127eb18aa44e8f45af906d0e1b427b7c"
+    },
+    {
+      "path": "courses/MANA10002.json",
+      "bytes": 54402,
+      "sha256": "c03555133f6145edf864052ad754e91c6b3cdf14405d394af869dd6621ecffce"
+    },
+    {
+      "path": "courses/MANA20004.json",
+      "bytes": 2527,
+      "sha256": "3dce856b0f66badfad706271d243ba9a67856daebaeb7b3cdcb9e952f5b00f4f"
+    },
+    {
+      "path": "courses/MANA20009.json",
+      "bytes": 2277,
+      "sha256": "07916af49b5cb08dadf32c7f6b7633ad5744a2bb74456b670d30be3f59a96281"
+    },
+    {
+      "path": "courses/MANA20010.json",
+      "bytes": 2181,
+      "sha256": "698a060459855c10a7ce7489b4837a660ec612a0daf07d49631e4960bbd59f9f"
+    },
+    {
+      "path": "courses/MANA20011.json",
+      "bytes": 2192,
+      "sha256": "47e3108047f7d4731c4a869548d45652617b7f3d3fe9f60e40340cbaa184c8f1"
+    },
+    {
+      "path": "courses/MANA20012.json",
+      "bytes": 2771,
+      "sha256": "0de24805fde55815364b18c1076276366593c272966524416994a6bc056cd38c"
+    },
+    {
+      "path": "courses/MANA20013.json",
+      "bytes": 26655,
+      "sha256": "d3610f2f38faa5ef3cbee59feec6f96e811c87331220a2673b1a27cd64332efb"
+    },
+    {
+      "path": "courses/MANA30002.json",
+      "bytes": 2160,
+      "sha256": "fc1fed6904e48c89eb89333764b1c1d49a7b9bc588b74db4ff036343b36bc6f3"
+    },
+    {
+      "path": "courses/MANA30006.json",
+      "bytes": 2475,
+      "sha256": "5e72a7ad8d0687e129eb0cf9be58a9ef97173c122bd937ff2b50f85db58b5adb"
+    },
+    {
+      "path": "courses/MANA30011.json",
+      "bytes": 6463,
+      "sha256": "add9de7a2808b89f2357cc701258a48228ed84480b106e89171ba782ab48bb07"
+    },
+    {
+      "path": "courses/MANA30013.json",
+      "bytes": 2919,
+      "sha256": "12108d254c6ff51ceb3bdd21712c2a639e5626fe32b9c1fe9571e6bba0fd8c55"
+    },
+    {
+      "path": "courses/MANA30014.json",
+      "bytes": 2208,
+      "sha256": "e65a065903513bf97d34423f71ff1ab065de13b373f47e5de4cb469a69ee5bbf"
+    },
+    {
+      "path": "courses/MANA30016.json",
+      "bytes": 2239,
+      "sha256": "da884dfefa1ae1bebf74e7b89f3aaf3a9254f798ff1a906329b5e9792a199cbc"
+    },
+    {
+      "path": "courses/MANA40003.json",
+      "bytes": 2100,
+      "sha256": "a629d871844b176763a341c443af7a889f2d1fdd9032f0a49ac11e3a5440441f"
+    },
+    {
+      "path": "courses/MANA40004.json",
+      "bytes": 2106,
+      "sha256": "d5f1947826643072516a2f6ae0e3a20b5eb0d6b7723936530e90bb123070a683"
+    },
+    {
+      "path": "courses/MANA40007.json",
+      "bytes": 2337,
+      "sha256": "cf0441a3dee184b5e191be6a47809e5ff0d8aea028431e7cd48d5532efbf9d3f"
+    },
+    {
+      "path": "courses/MANA50002.json",
+      "bytes": 2180,
+      "sha256": "dcccc698efb9f9420f867c601f6ccb1204ef9187ec158491ac96ecb3bc3b5056"
+    },
+    {
+      "path": "courses/MANA50003.json",
+      "bytes": 2057,
+      "sha256": "bd5288090ca8d29ead6d789f2f6bce315ceb9b4837557d1f7b50152a164f207a"
+    },
+    {
+      "path": "courses/MANA50004.json",
+      "bytes": 2078,
+      "sha256": "9b60b44e371d820fb00d5d052f1c546bc5e9965eed72c3f396385172d1db2321"
+    },
+    {
+      "path": "courses/MANA50005.json",
+      "bytes": 2140,
+      "sha256": "ed860c3db9ff02370fd9953ac07feb516247fef2735c33083661630eebf2cd62"
+    },
+    {
+      "path": "courses/MANA50006.json",
+      "bytes": 2105,
+      "sha256": "ebddbfb171432aae5c29a114eda6fde6cb08af4a6de2219439e45521d5eb2f91"
+    },
+    {
+      "path": "courses/MANA50007.json",
+      "bytes": 2063,
+      "sha256": "330d0b7899d54b7a0e530e0ef22a6c7ecb0296eb75dd18ea3a341505cfeefa99"
+    },
+    {
+      "path": "courses/MANA50008.json",
+      "bytes": 2150,
+      "sha256": "1636cbc18167197a0836a1abe21c9f2519d259c9f7fa6b0cab67280a51d0b1c2"
+    },
+    {
+      "path": "courses/MANA60005.json",
+      "bytes": 2085,
+      "sha256": "2ce91616d50b88a83b02ad93828a40068c4f4fd4036db2b6a1d2f9a38921b950"
+    },
+    {
+      "path": "courses/MANA60008.json",
+      "bytes": 2059,
+      "sha256": "9dd735779dd226a8497aedbea8dc053951b2a2b132b18918944d24115e3c4b54"
+    },
+    {
+      "path": "courses/MANA60009.json",
+      "bytes": 2249,
+      "sha256": "733942dd59e1fdebc9060a03da163c080995c808f085ec4164f715bad578e6ce"
+    },
+    {
+      "path": "courses/MANA60010.json",
+      "bytes": 2184,
+      "sha256": "5584dc3857506160f65920e77426e5da13ee70020c85ae7e8b197d9598a8f48d"
+    },
+    {
+      "path": "courses/MANA60060.json",
+      "bytes": 2147,
+      "sha256": "6e3c100a460aa9dc69fbbc848f43736e34ff45699cbac5e24a0a869cc48b82e2"
+    },
+    {
+      "path": "courses/MANA60061.json",
+      "bytes": 2081,
+      "sha256": "5c35f8565a2503b0f264dba22e052f8d9b291f3cc0e37cd37b02878d310b3c76"
+    },
+    {
+      "path": "courses/MANA60062.json",
+      "bytes": 14375,
+      "sha256": "c48d9deed794541a0fff52395a94414fc5b446a686405f8a8039237a1aed2b88"
+    },
+    {
+      "path": "courses/MANA60063.json",
+      "bytes": 2058,
+      "sha256": "ed83c0f8eb9f6b1faa5eb0328d6519d933582eefec45bbe0833e2103d7d9e807"
+    },
+    {
+      "path": "courses/MANA60064.json",
+      "bytes": 2124,
+      "sha256": "00705c9a51cd107fbb2a68f476e44e80b5f9021f2b0fd2df1c66311f9dccb343"
+    },
+    {
+      "path": "courses/MANA60065.json",
+      "bytes": 2064,
+      "sha256": "cf98cf08bc104fafbb91a00251872f6f349e0496409ec49a923ddd51a9c28606"
+    },
+    {
+      "path": "courses/MANA60066.json",
+      "bytes": 2062,
+      "sha256": "ba8b9998e571144647c53544701538182d055e15c1261a1f510173ec2dcb2116"
+    },
+    {
+      "path": "courses/MANA60067.json",
+      "bytes": 2122,
+      "sha256": "d7daefc5865b9ff21527fc9bebc4f1a484cfc15afd121785796a8cfd5987b13c"
+    },
+    {
+      "path": "courses/MANA60068.json",
+      "bytes": 2105,
+      "sha256": "ffd41a22ddfe5f4a0129d6cddf4da15825b4af5aec95bde7739a4b67c2c2af91"
+    },
+    {
+      "path": "courses/MANA60069.json",
+      "bytes": 3245,
+      "sha256": "992845e38696f7091fea90a4e2c47a8aa1054eaa4c9ab80115289b8bf69bb748"
+    },
+    {
+      "path": "courses/MANA60070.json",
+      "bytes": 2105,
+      "sha256": "4b1ee11cb51ea0c9b00335a02b7dbe3d3edbb6df5a4be481f6b9b5ae9f9eb116"
+    },
+    {
+      "path": "courses/MANA70001.json",
+      "bytes": 2084,
+      "sha256": "d3ae66e0ca9113a72555112d3cf368b5858015f9736605fec9e201827f6bacae"
+    },
+    {
+      "path": "courses/MANA70003.json",
+      "bytes": 2097,
+      "sha256": "d429a46a4fb24df41c4d7b637eac9670439245ec8c7961a30c75e2b39e50aaf3"
+    },
+    {
+      "path": "courses/MANA70004.json",
+      "bytes": 2096,
+      "sha256": "0f34d87fa23de2c53bdc22aee89bed7753eadbae4c090e23b889b90fcffcc7d4"
+    },
+    {
+      "path": "courses/MANA70006.json",
+      "bytes": 2110,
+      "sha256": "810c46d134656905680fe195118a070bf718a2fb6a656a8a9a743bff48cb3f7e"
+    },
+    {
+      "path": "courses/MANA70016.json",
+      "bytes": 2062,
+      "sha256": "07a477f035570dc615c8a54cb5bf8a86ca6df93578663b932893aba0290cd225"
+    },
+    {
+      "path": "courses/MANA70017.json",
+      "bytes": 2134,
+      "sha256": "8c5deaa1beb20d1863677dd623a93c2b7b196572756bca5604501abd1041c364"
+    },
+    {
+      "path": "courses/MANA70021.json",
+      "bytes": 2124,
+      "sha256": "1f71f972c3963231ad755c3c73347261fe7ccc2bb935cac3f77ae69ed62c769e"
+    },
+    {
+      "path": "courses/MANA80002.json",
+      "bytes": 2110,
+      "sha256": "66c84ecbce1d2469d6847ab4b3abaca601c3a3729510f712a782f0b07ab80886"
+    },
+    {
+      "path": "courses/MIA60001.json",
+      "bytes": 2075,
+      "sha256": "ab08e4b225ecc1648d6dc5926adfe2a09775034285c971c9f539fcd9304362ef"
+    },
+    {
+      "path": "courses/MIA60002.json",
+      "bytes": 2099,
+      "sha256": "f577e275d35135755d13e8d1fbb0ac0395b9654ec1488719f211b32dba0dabe4"
+    },
+    {
+      "path": "courses/MIA60003.json",
+      "bytes": 2566,
+      "sha256": "30002d0575cdd8fa1d3f0ef4063dfc5c0e7748debec6a840714eca3bccda6f3b"
+    },
+    {
+      "path": "courses/MIA60004.json",
+      "bytes": 2385,
+      "sha256": "cebccaf3cea0c361bb491a3c97cc1823935a5c37e6c431b6e6c942036339ad97"
+    },
+    {
+      "path": "courses/MIA60005.json",
+      "bytes": 2148,
+      "sha256": "8341f5feaf217f0f22ec579cc4aa64e0a3491a34650971cfb6a0fb20db323b9a"
+    },
+    {
+      "path": "courses/MIA60006.json",
+      "bytes": 2062,
+      "sha256": "8d6abcc7078cbb5e2c385f121361a3c488c170eebac808d20d7818d1a1328a69"
+    },
+    {
+      "path": "courses/MIA60007.json",
+      "bytes": 2073,
+      "sha256": "c8661bbc6a749b3d4d17170261ef0ec1c1a04ceb72ec28ef4573c5393ad9f54f"
+    },
+    {
+      "path": "courses/MIA60008.json",
+      "bytes": 2189,
+      "sha256": "9dc2250359d4daa25873cc7ece1a38f2fb4bfcbd267afb46ebc14f1708d9d683"
+    },
+    {
+      "path": "courses/MIA60009.json",
+      "bytes": 2084,
+      "sha256": "05dcef83cbd92eebf4c28be2266a88f5960ca4f2fd0dfbf7a3ffe98a17abd81a"
+    },
+    {
+      "path": "courses/MIA60010.json",
+      "bytes": 2156,
+      "sha256": "731de8ff61f9df97e187dd88d97e97f807df02f4bb4852bc10827d11d8fcd2c3"
+    },
+    {
+      "path": "courses/MPA40001.json",
+      "bytes": 8824,
+      "sha256": "bb199bc645ab9f51a5e570e0916fabc6676ad6cb796d3dde5980b14ac74370c1"
+    },
+    {
+      "path": "courses/MPA60003.json",
+      "bytes": 9018,
+      "sha256": "3dca9842929bf336971a63ca77a0fe51084052a297dc6aa8220202b4d5b77d57"
+    },
+    {
+      "path": "courses/MPA60004.json",
+      "bytes": 2189,
+      "sha256": "4fb561114ed73b1ff74e72beae5abd0ba3c787a2d3a1e2b679d36a44965bb004"
+    },
+    {
+      "path": "courses/MPA60005.json",
+      "bytes": 3262,
+      "sha256": "3dab7f42ad6a90ab983fb806809e96837f279139926e4cf27148af53decf969e"
+    },
+    {
+      "path": "courses/MPA60006.json",
+      "bytes": 3309,
+      "sha256": "0b760f7dbcf5b77761cee36b682e5d6668079c733d71dbe5a189bfd0bcd9697e"
+    },
+    {
+      "path": "courses/MPA60007.json",
+      "bytes": 8950,
+      "sha256": "57676e24c2788f8bbf1e22864d0d48af93d733cb9dd0c078c4f374486534b7a1"
+    },
+    {
+      "path": "courses/MPA60008.json",
+      "bytes": 8908,
+      "sha256": "b72c7b57a526025e7d38edb85c50a123eacbcccde70dfa07e75e157a3702ad43"
+    },
+    {
+      "path": "courses/MPA60009.json",
+      "bytes": 8994,
+      "sha256": "42463ee950c46ffe185c9c818f21b5d1f33bf4e941bbe919a0f93bca132a2e60"
+    },
+    {
+      "path": "courses/MPA60010.json",
+      "bytes": 3237,
+      "sha256": "4a89a8be238990bb68e669674006b3c3a5945023842186ce62d24bdad738d31c"
+    },
+    {
+      "path": "courses/MPA60011.json",
+      "bytes": 9993,
+      "sha256": "fe24578e3c53490f362ce3b9a9126adb49bfbb5036825ca85a6e9b2524010675"
+    },
+    {
+      "path": "courses/MPA60012.json",
+      "bytes": 3357,
+      "sha256": "63ed096dc1a5b220712e967b1152d1feeac46472cce761fe5b047a74c94cacc2"
+    },
+    {
+      "path": "courses/MPA60013.json",
+      "bytes": 3279,
+      "sha256": "49cfa837c40bbb3c6680f8d04d2d5f5eba119cabef17b1ed91ef2d7feaeb39a4"
+    },
+    {
+      "path": "courses/MPA60015.json",
+      "bytes": 2043,
+      "sha256": "42d4f91c4b6cc518d7e68fde78190cdf42bac1b2670b0dcfbf6d7afdfda065fb"
+    },
+    {
+      "path": "courses/MPA60017.json",
+      "bytes": 3261,
+      "sha256": "7349ffbe95ff06de9a4dec74eb4f57dce8ca66a359f0105606349c8dbe3cad29"
+    },
+    {
+      "path": "courses/MPA60018.json",
+      "bytes": 3327,
+      "sha256": "5958cd23cdce59ef0336bdafaefba595e12dd35651778fdf136caece81c955ea"
+    },
+    {
+      "path": "courses/MPA60019.json",
+      "bytes": 9072,
+      "sha256": "a13b0571d509c13616eb13f63ecb5a165b6b2cfb0e67461d2c7f4fe5a4520ce8"
+    },
+    {
+      "path": "courses/MPA60028.json",
+      "bytes": 2134,
+      "sha256": "56431b2bf4c5b18530a9f433f16394ed0a90e4fb6781e013c2fdd750ce153c9e"
+    },
+    {
+      "path": "courses/MPA60030.json",
+      "bytes": 2134,
+      "sha256": "20f4db20ef0eb0f6a1281f53da9db4ed5e5bdf61bc2ea8da60f5e1880880efdd"
+    },
+    {
+      "path": "courses/MPA60031.json",
+      "bytes": 3234,
+      "sha256": "abf9115b709f60b5186750d716f80201e9e004957208dc722d75ab6211d41a05"
+    },
+    {
+      "path": "courses/MPA60035.json",
+      "bytes": 2128,
+      "sha256": "655ae4c8e8a96ca00c29eeb5c0766de5bb66ac32541fa064a79e33d169fc9f27"
+    },
+    {
+      "path": "courses/MPA60036.json",
+      "bytes": 3250,
+      "sha256": "bcef7bd869c00c928f57d36266b465eff263a70700627daa5dd113593c8d3946"
+    },
+    {
+      "path": "courses/MPA60037.json",
+      "bytes": 2039,
+      "sha256": "1bc6c24617944f0a0b03546024916d9377a5a6be16677910bba4192754db7eaf"
+    },
+    {
+      "path": "courses/MPA60038.json",
+      "bytes": 2089,
+      "sha256": "0bf6f7b200dc4298d532e619e3af4dc9a24de83d08678779fb7ecdbe507a875a"
+    },
+    {
+      "path": "courses/MPA60041.json",
+      "bytes": 2114,
+      "sha256": "8d40856b17b280cc1b36d4af5a174f4f634a34705669247e76b9b9391206ce6e"
+    },
+    {
+      "path": "courses/MPA60042.json",
+      "bytes": 3219,
+      "sha256": "d3fec7affa1966e81d299aee864b453c72e517ff144f6596a0db6af52fca9b26"
+    },
+    {
+      "path": "courses/MPA60045.json",
+      "bytes": 2173,
+      "sha256": "cf5131a43ff4272388a013388ddda516e188fb0858044476b99765b5a97c3e23"
+    },
+    {
+      "path": "courses/MPA60046.json",
+      "bytes": 6588,
+      "sha256": "ef7f75a8c2ec53eb7a76f9c93cffa00c3ed53f1326b727e170ebc00f767b86de"
+    },
+    {
+      "path": "courses/MPA60047.json",
+      "bytes": 6812,
+      "sha256": "6661e9e0ec47364df0540accd4ffb40c262872c1113cb756af641b59696bd89f"
+    },
+    {
+      "path": "courses/MPA60048.json",
+      "bytes": 3271,
+      "sha256": "91097e5b4f5ca8c54e24921fbd418f88f974a337e769d7773c85e4c0381e354c"
+    },
+    {
+      "path": "courses/MPA60049.json",
+      "bytes": 6551,
+      "sha256": "49fa2d26ad4475f4208a325122c43a185e6f0eec6949cdf9c1889d78e5f511a2"
+    },
+    {
+      "path": "courses/MPA60050.json",
+      "bytes": 2127,
+      "sha256": "a457e3ca1175d0a5ad1b7c9f1254fee962458f189b725679cd98c21f2057624a"
+    },
+    {
+      "path": "courses/MPA60051.json",
+      "bytes": 2137,
+      "sha256": "d5a97acb6405623c08a45a56770677282ff2c718e7aabad7549ca4aa5a800cf5"
+    },
+    {
+      "path": "courses/MPA60056.json",
+      "bytes": 2093,
+      "sha256": "385e002ff562e111740b1eeb7e7080cea5d1bb212e7dac7ccf18a7c85acca7a0"
+    },
+    {
+      "path": "courses/MPA60057.json",
+      "bytes": 2113,
+      "sha256": "268cf4ad02270df1c5fd552b23bdfe57c3ac00e9210c5eeedfa0b40b4c701bdf"
+    },
+    {
+      "path": "courses/MPA60059.json",
+      "bytes": 1989,
+      "sha256": "191be9c3399f288656b0152c0c07e354b5ee0739eaaa9de9dc557aae9f3e2054"
+    },
+    {
+      "path": "courses/MPA60060.json",
+      "bytes": 2067,
+      "sha256": "8de439bf440dae73079ffa63673be760c988897b5748451098806c3d42c51ef2"
+    },
+    {
+      "path": "courses/MPA70001.json",
+      "bytes": 6001,
+      "sha256": "25db6ee05426a80973a61aba593dc173af3442c2e1247a154ec80dae6daf8d9b"
+    },
+    {
+      "path": "courses/MPA70002.json",
+      "bytes": 2087,
+      "sha256": "b3275bce982c6642dee7df21e5890cd6046fa012559d3533b46e907daba132df"
+    },
+    {
+      "path": "courses/MPA70003.json",
+      "bytes": 2094,
+      "sha256": "28aa297527b4ae43372e58243dce5b66dfca272c44016836bb408bd3d7c8b793"
+    },
+    {
+      "path": "courses/NSEC80001.json",
+      "bytes": 2123,
+      "sha256": "fafceb8217206bf5a3ca4690a36713c78ec19d57735af43b79da473fda9d5b70"
+    },
+    {
+      "path": "courses/PHIL40023.json",
+      "bytes": 5491,
+      "sha256": "a3281475206b52bd6530fc42423f12c21f36be9cc88ea46338128ada70d1dd83"
+    },
+    {
+      "path": "courses/POLI10001.json",
+      "bytes": 6243,
+      "sha256": "feea809d559615d776334eb35d692736b90cdb1e0debe7fa65dd3fb6d5a0c521"
+    },
+    {
+      "path": "courses/POLI10003.json",
+      "bytes": 62570,
+      "sha256": "98ce8481d5c0ea6f544544fa511067c7f72b41ccab743361517d4dd068a0dec5"
+    },
+    {
+      "path": "courses/POLI10004.json",
+      "bytes": 117701,
+      "sha256": "30e171c74687c324a9cd842861dbcd30ddd8ffd36429d2bd6d16497a5292becd"
+    },
+    {
+      "path": "courses/POLI10005.json",
+      "bytes": 8122,
+      "sha256": "fe4e3856842bc9cc8fd9dbbd3fba1638b980081438608686aedb38243f3ffebc"
+    },
+    {
+      "path": "courses/POLI10006.json",
+      "bytes": 7829,
+      "sha256": "3a763a68bb8a5375cd7d32e23fb44ac53e664217cf695b61fc68646a9fe1cd33"
+    },
+    {
+      "path": "courses/POLI10007.json",
+      "bytes": 140845,
+      "sha256": "6ead21aef9c7ae85f3095f7b1074d13d0d0b71cd777295d105c76c7e8fe6a9f8"
+    },
+    {
+      "path": "courses/POLI10008.json",
+      "bytes": 71646,
+      "sha256": "8c977b5a960779785d88228ba52674949799af3ac6a9d772d4e4472dd64e2075"
+    },
+    {
+      "path": "courses/POLI10009.json",
+      "bytes": 65630,
+      "sha256": "061d7f12b80a985ad57f5e46ebf460d4e62fe13479ab938a44ed444399b2e952"
+    },
+    {
+      "path": "courses/POLI20001.json",
+      "bytes": 3647,
+      "sha256": "c57aa34cd930957ffa2c8a74bf525833d38477f65df85ec5195d4ef6eaa5ccda"
+    },
+    {
+      "path": "courses/POLI20003.json",
+      "bytes": 2145,
+      "sha256": "6fd15621a3067d3a5517c45a8f7f907fdb17d180f1138926e14fa93415309791"
+    },
+    {
+      "path": "courses/POLI20009.json",
+      "bytes": 3870,
+      "sha256": "a4d859feb541108661ae0a5ff7cd9a02267c993af7082da1a7ac30ae9ec18886"
+    },
+    {
+      "path": "courses/POLI20012.json",
+      "bytes": 18470,
+      "sha256": "e0cdbc85e42f856ace8784f455456c60c42418279406ab5ddd724bc6df175d3a"
+    },
+    {
+      "path": "courses/POLI20015.json",
+      "bytes": 8669,
+      "sha256": "84b8920798ba02af82c746e0178dacd5a3829929b783310316df47270690ea53"
+    },
+    {
+      "path": "courses/POLI20017.json",
+      "bytes": 2424,
+      "sha256": "cba375d4731118efb0c010e27881fb0a0b8d06a127349712218adfd9a74cd53a"
+    },
+    {
+      "path": "courses/POLI20018.json",
+      "bytes": 3988,
+      "sha256": "c0dd58372608d234c75d1d1106396232c1c19d13bce78a44e72b7eae764cb5db"
+    },
+    {
+      "path": "courses/POLI20020.json",
+      "bytes": 2762,
+      "sha256": "8849135bc30c80e5e41ca773a5e12ca10965b2701991fa00de7c2cc6efe26547"
+    },
+    {
+      "path": "courses/POLI20021.json",
+      "bytes": 15513,
+      "sha256": "adcb1a9bc390bdd53d3c41256062c3de6d04dbe87dc713de803adbc6191f7146"
+    },
+    {
+      "path": "courses/POLI20022.json",
+      "bytes": 31447,
+      "sha256": "8f29392679a2313b1bb27de6fb5d1dca098f9e9d231a7aecfec4ee3f27df5419"
+    },
+    {
+      "path": "courses/POLI20023.json",
+      "bytes": 2685,
+      "sha256": "bd87f82abc390e8274882ca895410087758da98f95ef0a84b7e7f58fdcc2d9b8"
+    },
+    {
+      "path": "courses/POLI20024.json",
+      "bytes": 2313,
+      "sha256": "034017ba278c83f0e2ed0cb907aa2cd441a7003dd363df1e0408679378c12d5d"
+    },
+    {
+      "path": "courses/POLI20025.json",
+      "bytes": 6756,
+      "sha256": "e14edea3223cfe444978deb5cee69f614621f130889b8232af9419e1c95825f5"
+    },
+    {
+      "path": "courses/POLI20026.json",
+      "bytes": 9645,
+      "sha256": "6c23137988b16d7c62ee0c56c78fb01906c6885d973ca2f352e1ae4cbdca7d67"
+    },
+    {
+      "path": "courses/POLI20027.json",
+      "bytes": 5260,
+      "sha256": "f6603fbc45e05801e44d10d0ee755c9ef7e2edcec23ccd11b84a93f320dbae89"
+    },
+    {
+      "path": "courses/POLI20029.json",
+      "bytes": 17793,
+      "sha256": "9f5bbe3dbfef439acb35c6aadee8b111f26b44edd42ab312e4069a01d0a28253"
+    },
+    {
+      "path": "courses/POLI20030.json",
+      "bytes": 5673,
+      "sha256": "f421aab0b1ce64b185ce5b89ca52833c2a0ba6b571316d6920735f8a62239d47"
+    },
+    {
+      "path": "courses/POLI20031.json",
+      "bytes": 6661,
+      "sha256": "db9ca8c5f9f1c8f6239844c882df04ea50fd4460b954e4aaa369dadd10541b5b"
+    },
+    {
+      "path": "courses/POLI20033.json",
+      "bytes": 2193,
+      "sha256": "8cfdbe942f0620d94da30e963083c203ab9c254d1a9224503157ef6ed4631ba4"
+    },
+    {
+      "path": "courses/POLI30001.json",
+      "bytes": 2491,
+      "sha256": "9cc025bbd31d91f14d3b3692141ae30df5a0ac72b364dc5384fbd282d5945791"
+    },
+    {
+      "path": "courses/POLI30002.json",
+      "bytes": 2348,
+      "sha256": "b1b19547f2f78397eaf48aa1178c6fbe74238924aca99698258800c842f18af7"
+    },
+    {
+      "path": "courses/POLI30003.json",
+      "bytes": 2282,
+      "sha256": "d50eb761329dbac72f9c8452030d3ba7cd675282b99391a43955e0cc4b8dff0c"
+    },
+    {
+      "path": "courses/POLI30010.json",
+      "bytes": 3451,
+      "sha256": "a5c4fecbce63a3f7dcd42db45e4b278361a07101803ee9c1678a5c65dae27cf3"
+    },
+    {
+      "path": "courses/POLI30013.json",
+      "bytes": 2095,
+      "sha256": "dadb2d46cf0a35553eb0b63fe9790b627d172f9a1279fc4e024087d623093b55"
+    },
+    {
+      "path": "courses/POLI30015.json",
+      "bytes": 2338,
+      "sha256": "4b37d3b551705c135eea4a7f4c848ece6e965ffc72b579bc973cf6661c89511b"
+    },
+    {
+      "path": "courses/POLI30016.json",
+      "bytes": 5830,
+      "sha256": "70e81154aa6a0a16feebca7fdd7234f64195e30518b907644002ae97be1078db"
+    },
+    {
+      "path": "courses/POLI30021.json",
+      "bytes": 5516,
+      "sha256": "2abfc62c13a1c95033f32c854cc6d21d0c9305d981acafeaa478259eeb3eb8e7"
+    },
+    {
+      "path": "courses/POLI30022.json",
+      "bytes": 2390,
+      "sha256": "bcc60a359bad775ec79dd4b894dfe628b5eaddcbe96b6221a7afbd590e004bdc"
+    },
+    {
+      "path": "courses/POLI30023.json",
+      "bytes": 13744,
+      "sha256": "0203217c2464d7193a1edb51bfb9b10d5818d7ff9486dc51082393c942e1ddf5"
+    },
+    {
+      "path": "courses/POLI30024.json",
+      "bytes": 6526,
+      "sha256": "d43fa1b2f25048a523e721335b64ae4fd479f6cb7590e60ad9098bf2361f7820"
+    },
+    {
+      "path": "courses/POLI30025.json",
+      "bytes": 8984,
+      "sha256": "d2e2ea28e23b85ba30d48b40db77f7e492bd73e502ebf86933198d92519b6262"
+    },
+    {
+      "path": "courses/POLI30026.json",
+      "bytes": 2185,
+      "sha256": "8ef45cb5e6dbc2fd0202144c29bfd3b184584629b0056635ec58b7c498b47a40"
+    },
+    {
+      "path": "courses/POLI30027.json",
+      "bytes": 18992,
+      "sha256": "63724b405828a731730fae597b38748f8dd84d3be8ca6bbd991f4a15552d8fe2"
+    },
+    {
+      "path": "courses/POLI30028.json",
+      "bytes": 6665,
+      "sha256": "02819bd224a67ee52208e6cd194c33c33af036fa02e893a182c16212a351240c"
+    },
+    {
+      "path": "courses/POLI30029.json",
+      "bytes": 3918,
+      "sha256": "3aa74666fc65c6021ba93c4ca5681538acd8fe7e69cf102d8e41785778281f05"
+    },
+    {
+      "path": "courses/POLI30030.json",
+      "bytes": 4975,
+      "sha256": "13c5b514f2ee1e44119706caf3d700dae58b9c35e25eede525d8cc0a26d7258e"
+    },
+    {
+      "path": "courses/POLI30031.json",
+      "bytes": 6265,
+      "sha256": "e566645c5b7b2ff7b34520f115ada8d2bfb14b8275f3698195407f2365c23ec2"
+    },
+    {
+      "path": "courses/POLI30032.json",
+      "bytes": 6704,
+      "sha256": "a814ec16503c11849a272b1a25bb3c3195c6f2558f7de8edf6657bbb4fd9bb62"
+    },
+    {
+      "path": "courses/POLI30034.json",
+      "bytes": 8117,
+      "sha256": "d5b9ca2c5eccbdc6bf4619aa51acee21baa6c07d2b025727ae1b9f2d300d364f"
+    },
+    {
+      "path": "courses/POLI30035.json",
+      "bytes": 2205,
+      "sha256": "b4013968d0912bdf7b409a702f00aa4a77fd1a57359199304f5809691d278c02"
+    },
+    {
+      "path": "courses/POLI30038.json",
+      "bytes": 8804,
+      "sha256": "452efafe64530cf463fa0beaf09454ac373e00339b936d036c611c9c0a5394cd"
+    },
+    {
+      "path": "courses/POLI30040.json",
+      "bytes": 5481,
+      "sha256": "8e7ad180f9d1d4bda52d688748203b4c0e4a629b9dee38e8c91dcd4642571630"
+    },
+    {
+      "path": "courses/POLI30041.json",
+      "bytes": 8529,
+      "sha256": "c2c08f0714c3e917dad96b8f18f1ac1db622807a9f7b1b62897dbbde98f02a4e"
+    },
+    {
+      "path": "courses/POLI30042.json",
+      "bytes": 9390,
+      "sha256": "3a25624bf88293c94945d15fa546b5d13da3b3d815004d2132d2b0e150a55920"
+    },
+    {
+      "path": "courses/POLI30043.json",
+      "bytes": 3486,
+      "sha256": "8d8b522969657c4a8e870f77e3181da1f609b82a5765e22d8e580ca4d716b10a"
+    },
+    {
+      "path": "courses/POLI30045.json",
+      "bytes": 3492,
+      "sha256": "b374355a4252c31ff5128ae8fef2304224d9d1ce881361406478e00fd4e20240"
+    },
+    {
+      "path": "courses/POLI30046.json",
+      "bytes": 2454,
+      "sha256": "0cf55362ef3add43e47427afc4244598f55cd6b99a7e90b1d5a842fc4813b4a8"
+    },
+    {
+      "path": "courses/POLI30047.json",
+      "bytes": 7275,
+      "sha256": "669804eeb73033c018e966035656e12f7acea78a57adca8e54ac52195945392a"
+    },
+    {
+      "path": "courses/POLI30048.json",
+      "bytes": 4651,
+      "sha256": "45a13eaac4b1802a9a789a3fcb404306cda5525c41a317e447b7c1967db2b955"
+    },
+    {
+      "path": "courses/POLI30049.json",
+      "bytes": 7919,
+      "sha256": "d50e45027b0e197931aa6c9976721aa540b89d00c3be82ecb136ede01cc1c7a3"
+    },
+    {
+      "path": "courses/POLI30050.json",
+      "bytes": 2285,
+      "sha256": "99da4fd2a083c0ee3a58b77550855e4d153b2c69630ffb8754f102c01b848b49"
+    },
+    {
+      "path": "courses/POLI30051.json",
+      "bytes": 2599,
+      "sha256": "de545732dfdf464155d04884ea70e8d0f12218824ced4a3df4e50bf85ff66d17"
+    },
+    {
+      "path": "courses/POLI30052.json",
+      "bytes": 2171,
+      "sha256": "d6fb5412dcdcfe5376c06d376adc3f03c6c5ad3874e3a1c9d65c9b2270cf8c92"
+    },
+    {
+      "path": "courses/POLI30053.json",
+      "bytes": 18939,
+      "sha256": "9dff9ba37e88fb94c92c57b903fca5302852f5f7146337d5a03ab1e7883d4c79"
+    },
+    {
+      "path": "courses/POLI30054.json",
+      "bytes": 7032,
+      "sha256": "9901ef63f1e8f3c627fbd7b41c91d1fba7aa9a7064d957072b3704f7ba46cbdd"
+    },
+    {
+      "path": "courses/POLI30056.json",
+      "bytes": 4061,
+      "sha256": "b72dee3ee496d45fca101178406b43ee2d38a3d346bd4790ca30eea0950f8f62"
+    },
+    {
+      "path": "courses/POLI30057.json",
+      "bytes": 16389,
+      "sha256": "23d0dc8fe1c6814d73497faa94d0da887d882e1731f6c2a57e0dbd7f4fceccb8"
+    },
+    {
+      "path": "courses/POLI30058.json",
+      "bytes": 2333,
+      "sha256": "0be433109f1bedaf770d513d22d6fb4b726026bb3d5e820cd98f573b52a09124"
+    },
+    {
+      "path": "courses/POLI30060.json",
+      "bytes": 2287,
+      "sha256": "7d08344ec3729ac40f5bfe8d0645ed2eea44eb56856a55be8fa73c78305e9f61"
+    },
+    {
+      "path": "courses/POLI30061.json",
+      "bytes": 2203,
+      "sha256": "28e253e2bddf84913e632f9dc54f06db50c583d14318184da203aa87e8cc0e83"
+    },
+    {
+      "path": "courses/POLI30062.json",
+      "bytes": 2187,
+      "sha256": "3aabf62d70e2881c8f18edd54d3f5bb196b163e9a23ba7c7e710407e04ab014c"
+    },
+    {
+      "path": "courses/POLI30063.json",
+      "bytes": 2241,
+      "sha256": "ae62011da691900f5034706210ef045469388555925d16976e3ba13126ad4ae8"
+    },
+    {
+      "path": "courses/POLI30064.json",
+      "bytes": 2234,
+      "sha256": "910197702752dfd97bd51075f3200b724263b0904f337a6455daa9b7ba665630"
+    },
+    {
+      "path": "courses/POLI40003.json",
+      "bytes": 2165,
+      "sha256": "058a85656500baec46c131f05e1d70be429932f4b3f742c2250d65eb9d4ebeef"
+    },
+    {
+      "path": "courses/POLI40004.json",
+      "bytes": 7648,
+      "sha256": "7e950416bb74c9d0e1f296a742b169dcfe694afd4df03027f6b22bea4b8b86fd"
+    },
+    {
+      "path": "courses/POLI40005.json",
+      "bytes": 2201,
+      "sha256": "1f3fd5e6360ccdf53bc4bd80d8d5bb5fb2b444e10bccda1f4394571e594255ca"
+    },
+    {
+      "path": "courses/POLI40009.json",
+      "bytes": 2118,
+      "sha256": "e9b981a7530ebcd8b32f968f64d5532db77d45c327e418158e3af0e740bb42ba"
+    },
+    {
+      "path": "courses/POLI40010.json",
+      "bytes": 6780,
+      "sha256": "bbb05f3b877e9a5d09e6fd9763cd462bf0ad7bb653fdd007a28309752b06f589"
+    },
+    {
+      "path": "courses/POLI40011.json",
+      "bytes": 2222,
+      "sha256": "eadcc51914d5d1bf4d1386d4691ad6d68321f628601430d4d8ccebedb6595836"
+    },
+    {
+      "path": "courses/POLI40012.json",
+      "bytes": 158089,
+      "sha256": "0f2ccf0a5ab1f19ef12c864ed37e6a7bfed6befa2cea4b60b75a6a65dab7f804"
+    },
+    {
+      "path": "courses/POLI40013.json",
+      "bytes": 5654,
+      "sha256": "b9bfe02088a6500c60f9025048e9f8bd6dae825950482e35f078204185ce5059"
+    },
+    {
+      "path": "courses/POLI40014.json",
+      "bytes": 3487,
+      "sha256": "bec62b7084546e04da188d60621568ca4d9358e09001202e9b60389db27cce63"
+    },
+    {
+      "path": "courses/POLI40015.json",
+      "bytes": 7000,
+      "sha256": "9d893fc1957c9b6f3ce2db12acb004d3a787773c46b79336fef2e9c5cc6d31d3"
+    },
+    {
+      "path": "courses/POLI40017.json",
+      "bytes": 9518,
+      "sha256": "9f9deba9e79bb09b9a58d80a8af9e70489d17aa1452f08b3161befda8a75afda"
+    },
+    {
+      "path": "courses/POLI40018.json",
+      "bytes": 5197,
+      "sha256": "98adc0ce4e09230a0a173f470fea243b414f4bd97c44a3ea560ea642380aa201"
+    },
+    {
+      "path": "courses/POLI40021.json",
+      "bytes": 6995,
+      "sha256": "21a05dd92d9733198e464f4e9ed042f458f0c788268c5a23495ca74834b55304"
+    },
+    {
+      "path": "courses/POLI40022.json",
+      "bytes": 7267,
+      "sha256": "c761d44d7edfd1039118fa7110a4af58acbcf5d7a0e36e3aeed80af3c70263fe"
+    },
+    {
+      "path": "courses/POLI40023.json",
+      "bytes": 2184,
+      "sha256": "bec188e3a064eb05f144c280225b9f9f05e23361daac4067edcbb5a8cc875793"
+    },
+    {
+      "path": "courses/POLI40024.json",
+      "bytes": 2192,
+      "sha256": "6fed6a72135cb8db0224a3973aa7f3538b52d8a52855a9ff927af01f9a5b9786"
+    },
+    {
+      "path": "courses/POLI40026.json",
+      "bytes": 2248,
+      "sha256": "1f9e3bbe4c5b706b7e954b7762cfab723d2519436b6165514117a511f916d572"
+    },
+    {
+      "path": "courses/POLI40027.json",
+      "bytes": 3553,
+      "sha256": "4b9061865be0a22cb385d47cab2aadf293c7a1d3e0e206eff1672b5bbd848e3c"
+    },
+    {
+      "path": "courses/POLI40028.json",
+      "bytes": 2191,
+      "sha256": "a62864d06bc7d481769c4851f4b1c6dfcc4009b7c3e52928c655de3147ed935f"
+    },
+    {
+      "path": "courses/POLI40031.json",
+      "bytes": 2168,
+      "sha256": "0d422beb2f3dba0a02f50b85b41d61a5b2e449e7d338ed59ac5fc86aa620a4bf"
+    },
+    {
+      "path": "courses/POLI40032.json",
+      "bytes": 2181,
+      "sha256": "98f8b5d5650c926451c1fffc3f59bcde42a116e152b4cba9984f3746afad0bea"
+    },
+    {
+      "path": "courses/POLI40033.json",
+      "bytes": 2099,
+      "sha256": "e6452f1a5c7e26c5b781575497182de114c7348345a6b64644a1e834b5ad7186"
+    },
+    {
+      "path": "courses/POLI50003.json",
+      "bytes": 2153,
+      "sha256": "9399e209757891796a34d7342193fa6a9a043ca389c3ad1d3395ceb748baded0"
+    },
+    {
+      "path": "courses/POLI50004.json",
+      "bytes": 2153,
+      "sha256": "2e5ca699b845b761e00877a4f56503d7cae4d8e162594c9a5e37d3708b7c4dc7"
+    },
+    {
+      "path": "courses/POLI50006.json",
+      "bytes": 2140,
+      "sha256": "f6ab1a20245206872fccbf14cad672e615d09fd9ed0a59be19e20c429a9c9359"
+    },
+    {
+      "path": "courses/POLI50007.json",
+      "bytes": 2326,
+      "sha256": "520b3e7a7b5cb0d8a4d09f958ea2791232e8d060757ea86ca8cc09222d85af8a"
+    },
+    {
+      "path": "courses/POLI50008.json",
+      "bytes": 6723,
+      "sha256": "455721c7413a1a7a4270d28ea778d74b483239eac37c8be9f02d306a3cf6fba9"
+    },
+    {
+      "path": "courses/POLI50009.json",
+      "bytes": 2098,
+      "sha256": "b9a641e761d88e676574a498bbf75470765b2cfbc6dbf8ac5b2f92977ec81173"
+    },
+    {
+      "path": "courses/POLI50010.json",
+      "bytes": 6823,
+      "sha256": "1f24bb15b3745a07650661e876416cf9d549fc687df2662191bfb2ef8cc4e315"
+    },
+    {
+      "path": "courses/POLI50011.json",
+      "bytes": 4532,
+      "sha256": "2a01b574526d4ac032687eb632696c5a59870541339d2cfbdff213e5ac2bcecd"
+    },
+    {
+      "path": "courses/POLI50012.json",
+      "bytes": 2158,
+      "sha256": "676d7733bd4285598593bbf2195f1346cefae1ff958897c8d87e262f0b5e3daf"
+    },
+    {
+      "path": "courses/POLI50013.json",
+      "bytes": 2103,
+      "sha256": "51b4d305285b78121e7e0a6c6a86785044e7bc1f920ee04961384f13ca9ffe19"
+    },
+    {
+      "path": "courses/POLI60001.json",
+      "bytes": 2131,
+      "sha256": "8a60d3fd903a1ccfce716acac266d118de2f2eda83aa4c478463398c2643bed9"
+    },
+    {
+      "path": "courses/POLI60002.json",
+      "bytes": 2148,
+      "sha256": "bb46b7a3d199bcb5d4d5053a4d5255d447540ef8446464ebffda486f151d530d"
+    },
+    {
+      "path": "courses/POLI60004.json",
+      "bytes": 2097,
+      "sha256": "f440e62444a5839d6828e227d04035a81e460c1e6c168a9a6c14e8b16552908f"
+    },
+    {
+      "path": "courses/POLI60009.json",
+      "bytes": 2162,
+      "sha256": "1ee07e978312a2b66a062f3a3d3fd8c755eddd76e17a8b573674a2f77b6a4819"
+    },
+    {
+      "path": "courses/POLI60010.json",
+      "bytes": 2081,
+      "sha256": "b47920c206ea11c69e625ad02789d44fedf3229a7e5b814266597b00d9d9c9ff"
+    },
+    {
+      "path": "courses/POLI60011.json",
+      "bytes": 2108,
+      "sha256": "1b475920d891ce892c5f22c0beca1a1b628e7fac96547dd32aabc0b4c022475c"
+    },
+    {
+      "path": "courses/POLI60013.json",
+      "bytes": 2080,
+      "sha256": "476a45abd4aca430d9e94f808f9627553372e162fca97ffa9a9c759cc8651cec"
+    },
+    {
+      "path": "courses/POLI60014.json",
+      "bytes": 2126,
+      "sha256": "3eff87742b911011c046e14f84c83f447a58f4c97dba21677387fbb41cf87acc"
+    },
+    {
+      "path": "courses/POLI60015.json",
+      "bytes": 2141,
+      "sha256": "ee4aecc5449081498b6f2000c81b19f878d2d2515d8a62b9cdaceb6647fa9f4d"
+    },
+    {
+      "path": "courses/POLI60016.json",
+      "bytes": 2074,
+      "sha256": "5e45e21d7c056f5886b53793e632a29091baf70acef26a0bbb51c1f612e3a132"
+    },
+    {
+      "path": "courses/POLI60018.json",
+      "bytes": 2060,
+      "sha256": "3622ec34f8382c9e8cf7a8e7b78ad262958bbe8721b1360b42c6d98d2ed3e372"
+    },
+    {
+      "path": "courses/POLI60019.json",
+      "bytes": 2119,
+      "sha256": "e7a17205c103fdcbea3c72e3b0376dbe91b544a30fa4353be08642f2e377476c"
+    },
+    {
+      "path": "courses/POLI60020.json",
+      "bytes": 2282,
+      "sha256": "1c587d6ebf3a241f766bf2ec8b2780c2bf7f44714b761145f7f63c87a02130aa"
+    },
+    {
+      "path": "courses/POLI60021.json",
+      "bytes": 2169,
+      "sha256": "2ee6512406139131bd0078c017226c236f756318615f571d9cf19dbb33736b7a"
+    },
+    {
+      "path": "courses/POLI60022.json",
+      "bytes": 2101,
+      "sha256": "557554a474372fc7e315905fbc93bbf80a312504ba04aaf80c6df7419a349852"
+    },
+    {
+      "path": "courses/POLI60023.json",
+      "bytes": 2197,
+      "sha256": "e97e1ba5ba1d0a1e75febb6ddc8edf54bbc166c585993b5c31d83c0839592582"
+    },
+    {
+      "path": "courses/POLI60024.json",
+      "bytes": 2111,
+      "sha256": "ad2c3769e8a896ecca61cc77718c11e8854851eb718d14c31b5fd35d7bbd1a26"
+    },
+    {
+      "path": "courses/POLI60025.json",
+      "bytes": 2124,
+      "sha256": "f63031afbf2a78afc7feabe0081bf5058f96efb52a035eda0472bc8d1bb5767b"
+    },
+    {
+      "path": "courses/POLI60026.json",
+      "bytes": 2088,
+      "sha256": "ddfef0e459ee82cf3c75c8453162d10475595584530ec2bbf2ec7a8411ac38a9"
+    },
+    {
+      "path": "courses/POLI60027.json",
+      "bytes": 2110,
+      "sha256": "1f5dacc311bedb470c4df024b0cf6703f7afd90d9ffc9a189603d26c03443580"
+    },
+    {
+      "path": "courses/POLI60028.json",
+      "bytes": 2130,
+      "sha256": "ace7b9776600e0732e315bcb511c78f437319eaf950e23c8353ba15bf66984fe"
+    },
+    {
+      "path": "courses/POLI60029.json",
+      "bytes": 2053,
+      "sha256": "d9d874dfb16bc5a937f8691a18b5201812bd52c343dad24f201601215a8983a5"
+    },
+    {
+      "path": "courses/POLI60030.json",
+      "bytes": 2083,
+      "sha256": "86c6e7c37e408995baae7f8062a7f27cba79891c04cbd1a3396f8480fbcb22e5"
+    },
+    {
+      "path": "courses/POLI60031.json",
+      "bytes": 2230,
+      "sha256": "28d491cef14ec6383c13969791cda21059f49eb3ffea32c44eeb0a6c76f84485"
+    },
+    {
+      "path": "courses/POLI60032.json",
+      "bytes": 2157,
+      "sha256": "172f047068445f31f23ab911e4821005ef68be1e2e691356f9aca13785c08975"
+    },
+    {
+      "path": "courses/POLI60033.json",
+      "bytes": 4966,
+      "sha256": "5556ce24a3da01458ecb4a1aa6efa6111016641acd54676f860fc7d82ef229c5"
+    },
+    {
+      "path": "courses/POLI60035.json",
+      "bytes": 2098,
+      "sha256": "173e4e2574dbc92b980663aa30a572d852f446d4aaf59d8e44e4adab20b74725"
+    },
+    {
+      "path": "courses/POLI60038.json",
+      "bytes": 2110,
+      "sha256": "18f88f3333e260149988e7e3913c9a6c905d765156d9818cb3ca85da17e2dcd6"
+    },
+    {
+      "path": "courses/POLI60040.json",
+      "bytes": 2149,
+      "sha256": "9d9c18ed13f158a9f35fb0c4ca55505d64217002fea6582312af4231e9e86a97"
+    },
+    {
+      "path": "courses/POLI60041.json",
+      "bytes": 2068,
+      "sha256": "e62928eaa3c7a08bccc4a9a73db4b7d38b08b0479247480b49563d4d2f7b6409"
+    },
+    {
+      "path": "courses/POLI60042.json",
+      "bytes": 2067,
+      "sha256": "629bc8f48629487c84537d31f4f99c20593bf2b4723ed73bd3e6e407ed393fc5"
+    },
+    {
+      "path": "courses/POLI60044.json",
+      "bytes": 2230,
+      "sha256": "d69aafa92d03943120a83e791d320dca9420ef833d12c48573af1170c4ccfedb"
+    },
+    {
+      "path": "courses/POLI60046.json",
+      "bytes": 2103,
+      "sha256": "c1853362864f8eab686dce63e5e673576994b67e4f1643ccde7393235b09776a"
+    },
+    {
+      "path": "courses/POLI60047.json",
+      "bytes": 2170,
+      "sha256": "821e90a3d620181467cda1f8630d5325042a0d1037dd95df81994e3c84bc75d8"
+    },
+    {
+      "path": "courses/POLI60050.json",
+      "bytes": 2187,
+      "sha256": "8d03198e7d8382cedee330caeb1104f97b6acb0c992d0b22e8163e465bd4b3ab"
+    },
+    {
+      "path": "courses/POLI60051.json",
+      "bytes": 2165,
+      "sha256": "6ae0e5001afc24ab3f52e24798bc88e2f8a5faf023eccf79c216f21f779ecb30"
+    },
+    {
+      "path": "courses/POLI60052.json",
+      "bytes": 2133,
+      "sha256": "13e08b409b207e22cd5a2cb54c132811d68c7293b4850580c8bed0cbd9fd7324"
+    },
+    {
+      "path": "courses/POLI60053.json",
+      "bytes": 2111,
+      "sha256": "0ccf67d558b8af4305d865184627d4afe623bbf0096f152a34ba87522a6da900"
+    },
+    {
+      "path": "courses/POLI60054.json",
+      "bytes": 2162,
+      "sha256": "148d4d250eac77f5ba34b4e34909a626bf3ef38e452f41f851086282105b2b3b"
+    },
+    {
+      "path": "courses/POLI60055.json",
+      "bytes": 2099,
+      "sha256": "ebdf943cf0acb69c4b796140e5be3832447eadb0e81b61569962472555f968ed"
+    },
+    {
+      "path": "courses/POLI70001.json",
+      "bytes": 3358,
+      "sha256": "0fe7b08c46eb6fad90e8fe5bc230f80404c9b15e5ad7a0d932c35b43cdb91bc8"
+    },
+    {
+      "path": "courses/POLI70002.json",
+      "bytes": 3507,
+      "sha256": "b3e4d11e6816b9b4f28be1d6aac7e94d4e5553c5e8932491bd8d5330504bcaf6"
+    },
+    {
+      "path": "courses/POLI70003.json",
+      "bytes": 2071,
+      "sha256": "75fe4e2a3d4d8755e8a73234300679741ebc7c72696b51e5140fddd5ed8f7b46"
+    },
+    {
+      "path": "courses/POLI70005.json",
+      "bytes": 2098,
+      "sha256": "cae52cf41e18ab6fb975fdd702eb36c0aa08405977ff15fb2652925b47a08777"
+    },
+    {
+      "path": "courses/POLI70007.json",
+      "bytes": 2078,
+      "sha256": "15f708606f6566a15a1f3ca186468bf069b167100972a4d95dfe2dbb617b6f26"
+    },
+    {
+      "path": "courses/POLI70009.json",
+      "bytes": 2079,
+      "sha256": "3dfb7981c1a7ec15c4e3fffb4c5dee1796c9fd1a00ee2281e81efb092d436817"
+    },
+    {
+      "path": "courses/POLI70011.json",
+      "bytes": 2123,
+      "sha256": "6136a03d3f832d675aca546382a9b61a8b0045e32376980530cc98473664522c"
+    },
+    {
+      "path": "courses/POLI70013.json",
+      "bytes": 2179,
+      "sha256": "35b9436dc73655b4c2c62dd41e8c2fc62ae54c7880af663c7d08c34164ca6cc3"
+    },
+    {
+      "path": "courses/POLI70016.json",
+      "bytes": 2128,
+      "sha256": "4ab047fa536ae8e1f293a4e589620cb12b2afe4bad3b5d27ae0d76fd96cb9551"
+    },
+    {
+      "path": "courses/POLI70017.json",
+      "bytes": 2174,
+      "sha256": "93466674b42e1a349fb96a349e338a8b32bc6e57ed5ac45e7d3b97e9c073de42"
+    },
+    {
+      "path": "courses/POLI70018.json",
+      "bytes": 2188,
+      "sha256": "38fad6b72db05143a8898ea02795a4c357295d85d3f1f42c32d2e7f419068c32"
+    },
+    {
+      "path": "courses/POLI70021.json",
+      "bytes": 2136,
+      "sha256": "66d644d4cc7849da71517c6609d53bc1d79dc57c778da74db2974ce88fe873de"
+    },
+    {
+      "path": "courses/POLI70022.json",
+      "bytes": 2192,
+      "sha256": "ffc6384aa03aa723c108f5c7981a0e5242ea895b653e2e8b9e3f036ea44fd2ad"
+    },
+    {
+      "path": "courses/POLI70023.json",
+      "bytes": 2043,
+      "sha256": "2cd5c317aa0ad45f293da4d65650cf6ee13b6c256b98c6c7220bfd96b391b2f4"
+    },
+    {
+      "path": "courses/POLI70024.json",
+      "bytes": 2102,
+      "sha256": "3f91c6d395cc9d8b1fc6753beae75d738a3ccfdd7d024af20dfb7cf9d96f5fb1"
+    },
+    {
+      "path": "courses/POLI70025.json",
+      "bytes": 2131,
+      "sha256": "413e278bc63568780238492e2927d609d7005892b19f3bfafce9f92529d4e39f"
+    },
+    {
+      "path": "courses/POLI70026.json",
+      "bytes": 2071,
+      "sha256": "d79c27e57207625181277ad6f08a3e9e4981207997815d1f7f38459500c79976"
+    },
+    {
+      "path": "courses/POLI70027.json",
+      "bytes": 2055,
+      "sha256": "9787a7ef9b692642e5d0b5a432dbdd2886bbfa6f630a83e5016a9843ee23193b"
+    },
+    {
+      "path": "courses/POLI70028.json",
+      "bytes": 2095,
+      "sha256": "bc8430d5394f0740e28555b634aa209e7d1194478e957f47bba249d8b7fe60c2"
+    },
+    {
+      "path": "courses/POLI70029.json",
+      "bytes": 2094,
+      "sha256": "76edd8d1baf6b4408d6c9b3db77315a1ee95d86c5746c0efef4049b7d16a75d7"
+    },
+    {
+      "path": "courses/POLI70031.json",
+      "bytes": 2171,
+      "sha256": "fdb4aea28e7529c66f610a3d49f226ec0a82d6c32f57199d84c19d80786f4a8e"
+    },
+    {
+      "path": "courses/POLI70033.json",
+      "bytes": 2611,
+      "sha256": "25746a639e6fd56b4f53d4c19d405c051091dcbe8e39ec3d9f529f33dbc805fd"
+    },
+    {
+      "path": "courses/POLI70034.json",
+      "bytes": 2086,
+      "sha256": "22c1ec0da96238aec331c607ab7ba7f6e24f03e7bdb0b84d273258c8dfc72f60"
+    },
+    {
+      "path": "courses/POLI70035.json",
+      "bytes": 2153,
+      "sha256": "e6a403c9c73f2c1a001b042c056a9be3b4aa4af7e534e20e55e5f309554bc9d7"
+    },
+    {
+      "path": "courses/POLI70037.json",
+      "bytes": 2058,
+      "sha256": "2d8b062fd6e83cdd78ac72a95fd41d87776d5a583d36540db2269888f5421b7b"
+    },
+    {
+      "path": "courses/POLI70038.json",
+      "bytes": 2253,
+      "sha256": "3dfb9f60d773db67d56cc0e206aa0fcc5d43c2b713ae492fa41574441f7956ed"
+    },
+    {
+      "path": "courses/POLI717002.json",
+      "bytes": 2063,
+      "sha256": "86bcbd234271caa7e566b6fc39c4695d10a721622a70dcdd8cb669660f38c99c"
+    },
+    {
+      "path": "courses/POLI80002.json",
+      "bytes": 2162,
+      "sha256": "4999a36c3610f0c40b20ec31db9031d3c7df4f96dcddfa43c8e882cbd25f9e22"
+    },
+    {
+      "path": "courses/POLI80003.json",
+      "bytes": 2085,
+      "sha256": "465859d748f7d33c98d0d8888ff4c462f256d848ff437fb431dfaee757e1dc76"
+    },
+    {
+      "path": "courses/POLI80004.json",
+      "bytes": 2139,
+      "sha256": "09e6e768d1d941b2999d2677e81018fa813c080b9c9741016b786e3b78885b1e"
+    },
+    {
+      "path": "courses/POLI80006.json",
+      "bytes": 2067,
+      "sha256": "8e8d78d6509e89880642039e2ac4bd6b0a723da164145ff066bf5f901b399c82"
+    },
+    {
+      "path": "ledgers/danke-queries.json",
+      "bytes": 72205,
+      "sha256": "bb87f783d9bf08b2614f699da1c422507dc963dacd81c2ddddad7fa91d7e4b8a"
+    },
+    {
+      "path": "ledgers/forum-queries.json",
+      "bytes": 75272,
+      "sha256": "be23cfd2f050502b20d377e7a10c9d970cab2ea2514684a541d4145b5bab4edf"
+    },
+    {
+      "path": "ledgers/public-web-queries.json",
+      "bytes": 96662,
+      "sha256": "8763ebaebea34ca9a08b893fe71edd824c5d63b34dda168b8201a252cf0f9e47"
+    },
+    {
+      "path": "official/programs.json",
+      "bytes": 28835,
+      "sha256": "99027a911121b60d392a48ae1977742630af0d189fe8934ad0227a7debb96751"
+    },
+    {
+      "path": "official/sections.json",
+      "bytes": 697485,
+      "sha256": "b3fa6406298eaf9510d286919aee91521f5b46c0f00d12a2374f95e0e533e678"
+    },
+    {
+      "path": "official/syllabi.json",
+      "bytes": 1719537,
+      "sha256": "7f191fb87208f31a168b4fad1f4243bc92cf5ad1cf337f667f9b4e39e1aa324a"
+    },
+    {
+      "path": "raw/danke-reviews.jsonl",
+      "bytes": 169972,
+      "sha256": "bea5415c715c1e859ce07b7bc6f90b21b0ed97e9b20c72097b67bfd0f95a0730"
+    },
+    {
+      "path": "raw/treehole-cited-floors.jsonl",
+      "bytes": 649118,
+      "sha256": "877bb501b5f018339e4f1fffe640b3c5c05d240e011067e73874612310f08830"
+    },
+    {
+      "path": "README.md",
+      "bytes": 3773,
+      "sha256": "2f6829ac447d64a55c0d9a6858a8fced332b28206659c5526e62063d812564df"
+    },
+    {
+      "path": "summaries/browser-sources.json",
+      "bytes": 4666,
+      "sha256": "472812ce62c214f9d34b6d289a7a4e42adb2e00898674f13af2b4eff2b4fae82"
+    },
+    {
+      "path": "summaries/coverage.json",
+      "bytes": 352637,
+      "sha256": "c70e7338b2c4afa35c2b4f9723a6de9f44b89b7e587e6991cf802a18c9873358"
+    },
+    {
+      "path": "summaries/danke-summaries.json",
+      "bytes": 224751,
+      "sha256": "defa818c4fe0fe8c5cdb0308b7d92e4d2c183533d182fb602d517fdbb3aa4b47"
+    },
+    {
+      "path": "summaries/forum-summaries.json",
+      "bytes": 220231,
+      "sha256": "d7e81f028e32961052bd748f1826608cf5b4d31c03b0ebae27279248133315cf"
+    },
+    {
+      "path": "summaries/public-comparisons.json",
+      "bytes": 14495,
+      "sha256": "3db2b0552f38d0850c52705e0394f173992dc783e5eb9f174a6a8db0c8b91a1f"
+    },
+    {
+      "path": "summaries/public-sources.json",
+      "bytes": 27545,
+      "sha256": "aa1d97972c0054abdcf1f15b4f263903ac75749f2b20515ef17f57c1c1954a46"
+    },
+    {
+      "path": "summaries/target-term-comparisons.json",
+      "bytes": 4717,
+      "sha256": "02d414f00c3f67d3af38db92685604781f83d95accf9c13f0ae8fe30649a5eb2"
+    }
+  ]
+}
