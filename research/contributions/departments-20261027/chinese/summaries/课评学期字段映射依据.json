@@ -1,0 +1,14 @@
+{
+  "verified_at": "2026-10-27",
+  "primary_source": "https://github.com/DanXi-Dev/DanXi/blob/3c1f5f026fbc7ca50e151865f813cdb381807abe/lib/model/danke/course.dart#L36-L45",
+  "commit": "3c1f5f026fbc7ca50e151865f813cdb381807abe",
+  "year_semantics": "学年起始年；非秋季实际公历年为year+1。",
+  "semester_mapping": {
+    "1": "year秋",
+    "2": "year+1寒假",
+    "3": "year+1春",
+    "4": "year+1暑假"
+  },
+  "display_method_lines": "formatTime() lines 71–81 显示year~year+1学年及秋季/寒假/春季/暑假。",
+  "interpretation": "这是课评绑定课程的索引学期，不自动等于作者真实修读学期；正文与索引冲突时并列保留，不按发帖日期补齐。"
+}

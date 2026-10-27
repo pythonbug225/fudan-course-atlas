@@ -1,0 +1,235 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-10-27",
+  "scope": "Six complete historical review texts available in the existing course-atlas cache and fully read for the SIRPA roster crosswalk. These are not 2025 autumn or 2026 spring live searches.",
+  "privacy": "Anonymous summaries only. Reviewer labels and raw review text are omitted.",
+  "source_files": [
+    "work/chinese-research/evidence/catalog-final.json",
+    "work/chinese-research/evidence/full-reviews-complete.json",
+    "work/chinese-research/evidence/curated-reading.json"
+  ],
+  "live_api_status": "No review endpoint was fetched in this turn. Endpoint paths below are locator references based on the documented API contract, not proof of live availability.",
+  "items": [
+    {
+      "review_id": 1308,
+      "canonical_review_id": 1308,
+      "source_course_code": "SOSC120001",
+      "source_course_name": "政治学原理",
+      "teacher": "陈周旺",
+      "indexed_year": 2023,
+      "indexed_semester_index": 1,
+      "source_title": "czw老师的课可冲",
+      "text_characters_in_full_cache": 923,
+      "evidence_level": "full_text_available_and_read_this_turn",
+      "anonymous_evidence_summary": "该学生自述平时包含一次访谈作业和考勤，期末为闭卷并在结课后提供复习提纲；课程涉及政体、投票和政党等基础主题。学生认为课堂讲解结合故事较易跟进，并提到考试需要把提纲展开成材料分析。文中报告个人成绩为 A-，属于单人经历。",
+      "topic_tags": [
+        "课程内容",
+        "访谈作业",
+        "闭卷考试",
+        "复习提纲",
+        "个人成绩经历"
+      ],
+      "matched_official_course_codes": [
+        "POLI10004",
+        "POLI10007"
+      ],
+      "matched_official_sections": [],
+      "mapping_status": "historical exact title + teacher; current roster has two course codes with the same title and teacher, so the historical source code cannot be assigned to one current course code",
+      "adoption_status": "adopt as historical course-and-teacher reference only; do not assign to a specific current course code or class",
+      "source_locator": {
+        "catalog_index": "work/chinese-research/evidence/catalog-final.json#reviews[id=1308]",
+        "full_text": "work/chinese-research/evidence/full-reviews-complete.json#records[1308]",
+        "api_path_reference_not_fetched": "/reviews/1308"
+      },
+      "caveats": [
+        "Historical indexed term only.",
+        "Current course-code mapping is ambiguous.",
+        "Grade detail is one self-report, not a grade distribution."
+      ]
+    },
+    {
+      "review_id": 965,
+      "canonical_review_id": 965,
+      "source_course_code": "SOSC120011",
+      "source_course_name": "国际关系导论",
+      "teacher": "贺嘉洁",
+      "indexed_year": 2022,
+      "indexed_semester_index": 3,
+      "source_title": "大容量爽课",
+      "text_characters_in_full_cache": 513,
+      "evidence_level": "full_text_available_and_read_this_turn",
+      "anonymous_evidence_summary": "学生形容课程覆盖面较广、课件内容多且教师讲授速度快。其自述完成一篇不超过约 3000 字的指定书目读书笔记，反馈关注学术规范；期末考试范围广且不划重点，需要较多复习。文中对课程整体有正面评价，同时认为它不适合只求低投入的选课者。",
+      "topic_tags": [
+        "课程覆盖",
+        "课件容量",
+        "读书笔记",
+        "学术规范",
+        "考试复习"
+      ],
+      "matched_official_course_codes": [
+        "POLI10003",
+        "POLI10008"
+      ],
+      "matched_official_sections": [],
+      "mapping_status": "historical exact title + teacher; current roster has two course codes with the same title and teacher, so the historical source code cannot be assigned to one current course code",
+      "adoption_status": "adopt as historical course-and-teacher reference only; do not assign to a specific current course code or class",
+      "source_locator": {
+        "catalog_index": "work/chinese-research/evidence/catalog-final.json#reviews[id=965]",
+        "full_text": "work/chinese-research/evidence/full-reviews-complete.json#records[965]",
+        "api_path_reference_not_fetched": "/reviews/965"
+      },
+      "caveats": [
+        "Historical indexed term only.",
+        "Current course-code mapping is ambiguous.",
+        "Some assessment details in the source are reported from a single student's experience or hearsay."
+      ]
+    },
+    {
+      "review_id": 4614,
+      "canonical_review_id": 4614,
+      "source_course_code": "SOSC120019",
+      "source_course_name": "当代中国政治制度",
+      "teacher": "左才",
+      "indexed_year": 2024,
+      "indexed_semester_index": 3,
+      "source_title": "不会后悔的绝世硬课",
+      "text_characters_in_full_cache": 980,
+      "evidence_level": "full_text_available_and_read_this_turn",
+      "anonymous_evidence_summary": "学生报告阅读与笔记投入较大，课程文献覆盖经典及前沿理论；课堂节奏集中，建议边听边整理材料。学生认为内容难度较高但能带来积累，并描述了讨论、期末考试和实地访谈报告。文中提及个人取得 A 的经历，但不构成总体给分证据。",
+      "topic_tags": [
+        "文献阅读",
+        "课堂笔记",
+        "期末考试",
+        "访谈报告",
+        "个人成绩经历"
+      ],
+      "matched_official_course_codes": [
+        "POLI10009"
+      ],
+      "matched_official_sections": [
+        "2026春/POLI10009.02"
+      ],
+      "mapping_status": "historical exact title + teacher; unique current title-and-teacher match in the official roster",
+      "adoption_status": "adopt as historical reference for the same teacher and course title; not current-term evidence",
+      "source_locator": {
+        "catalog_index": "work/chinese-research/evidence/catalog-final.json#reviews[id=4614]",
+        "full_text": "work/chinese-research/evidence/full-reviews-complete.json#records[4614]",
+        "api_path_reference_not_fetched": "/reviews/4614"
+      },
+      "caveats": [
+        "Historical indexed term only.",
+        "The review contains strong subjective commentary; the summary retains course logistics and the reviewer's self-reported experience, not allegations about the instructor."
+      ]
+    },
+    {
+      "review_id": 891,
+      "canonical_review_id": 891,
+      "source_course_code": "POLI119007",
+      "source_course_name": "修昔底德战争史",
+      "teacher": "任军锋",
+      "indexed_year": 2021,
+      "indexed_semester_index": 3,
+      "source_title": "收获满满！老师和助教都好！（23春学期）",
+      "text_characters_in_full_cache": 999,
+      "evidence_level": "full_text_available_and_read_this_turn",
+      "anonymous_evidence_summary": "该学生高度认可课程把古希腊文本与现实议题相联系的讲授方式。其回忆包括前八周围绕《伯罗奔尼撒战争史》的阅读、学生章节导读、戏剧讨论课、小组展示和论文；提到阅读量较大，但讨论任务相对集中于小组展示。",
+      "topic_tags": [
+        "古典文本",
+        "现实议题",
+        "阅读",
+        "小组展示",
+        "论文"
+      ],
+      "matched_official_course_codes": [
+        "GECC10113"
+      ],
+      "matched_official_sections": [
+        "2026春/GECC10113.01"
+      ],
+      "mapping_status": "historical exact title + teacher; unique current title-and-teacher match in the official roster",
+      "adoption_status": "adopt as historical reference with an unresolved date conflict",
+      "source_locator": {
+        "catalog_index": "work/chinese-research/evidence/catalog-final.json#reviews[id=891]",
+        "full_text": "work/chinese-research/evidence/full-reviews-complete.json#records[891]",
+        "api_path_reference_not_fetched": "/reviews/891"
+      },
+      "caveats": [
+        "Catalog index says 2021/S3, while the review title says 2023 spring; preserve both and do not normalize the date.",
+        "Historical review, not current-term evidence."
+      ]
+    },
+    {
+      "review_id": 1889,
+      "canonical_review_id": 1889,
+      "source_course_code": "POLI119007",
+      "source_course_name": "修昔底德战争史",
+      "teacher": "任军锋",
+      "indexed_year": 2023,
+      "indexed_semester_index": 3,
+      "source_title": "老师和助教都是大好人",
+      "text_characters_in_full_cache": 574,
+      "evidence_level": "full_text_available_and_read_this_turn",
+      "anonymous_evidence_summary": "学生描述正课包含章节导读、教师专题讲解和论文指导，讨论课包含戏剧阅读与小组展示；其回忆每周阅读一个章节，认为不强制阅读，但参与阅读更有帮助。学生称对古希腊史初学者也较友好，并报告个人论文成绩经历。",
+      "topic_tags": [
+        "章节导读",
+        "戏剧阅读",
+        "小组展示",
+        "论文指导",
+        "个人成绩经历"
+      ],
+      "matched_official_course_codes": [
+        "GECC10113"
+      ],
+      "matched_official_sections": [
+        "2026春/GECC10113.01"
+      ],
+      "mapping_status": "historical exact title + teacher; unique current title-and-teacher match in the official roster",
+      "adoption_status": "adopt as historical reference; not current-term evidence",
+      "source_locator": {
+        "catalog_index": "work/chinese-research/evidence/catalog-final.json#reviews[id=1889]",
+        "full_text": "work/chinese-research/evidence/full-reviews-complete.json#records[1889]",
+        "api_path_reference_not_fetched": "/reviews/1889"
+      },
+      "caveats": [
+        "Historical indexed term only.",
+        "Grade details are a single student's report, not a distribution."
+      ]
+    },
+    {
+      "review_id": 1960,
+      "canonical_review_id": 1960,
+      "source_course_code": "POLI119007",
+      "source_course_name": "修昔底德战争史",
+      "teacher": "任军锋",
+      "indexed_year": 2023,
+      "indexed_semester_index": 3,
+      "source_title": "浇灭人任何热情的一节课",
+      "text_characters_in_full_cache": 565,
+      "evidence_level": "full_text_available_and_read_this_turn",
+      "anonymous_evidence_summary": "与其他同课评价形成明显分歧：该学生对授课风格和观点表达有强烈负面感受，并报告自己投入了大量阅读和论文准备；其描述课程考核涉及阅读、展示和论文，认为投入与学习体验不匹配。摘要不复述针对教师的未核实指控。",
+      "topic_tags": [
+        "意见分歧",
+        "阅读投入",
+        "论文",
+        "课程体验"
+      ],
+      "matched_official_course_codes": [
+        "GECC10113"
+      ],
+      "matched_official_sections": [
+        "2026春/GECC10113.01"
+      ],
+      "mapping_status": "historical exact title + teacher; unique current title-and-teacher match in the official roster",
+      "adoption_status": "adopt as contrasting historical student perspective; not current-term evidence",
+      "source_locator": {
+        "catalog_index": "work/chinese-research/evidence/catalog-final.json#reviews[id=1960]",
+        "full_text": "work/chinese-research/evidence/full-reviews-complete.json#records[1960]",
+        "api_path_reference_not_fetched": "/reviews/1960"
+      },
+      "caveats": [
+        "Historical indexed term only.",
+        "This is one strong negative report; compare with other student experiences and do not treat allegations as verified facts."
+      ]
+    }
+  ]
+}
