@@ -2,7 +2,11 @@ const fs=require('node:fs'),path=require('node:path'),vm=require('node:vm'),asse
 const p=path.resolve(__dirname,'../public');
 const read=n=>JSON.parse(fs.readFileSync(path.join(p,'data',n),'utf8'));
 const cat=read('catalog.json'),syn=read('course-summaries.json'),en=read('enrollment.json');
+const search=read('search.json');
 const groups=new Map(cat.scope.map(g=>[g.code,g])), summaries=new Map(syn.records.map(r=>[r.id,r]));
+const cqSearch=search.entries[groups.get('PHYS40012').id].fields;
+for(const alias of ['wuchangqin','wcq','changqinwu']) assert(cqSearch.includes(alias),alias);
+assert(!cqSearch.includes('wuzhangqin'));assert(!cqSearch.includes('wzq'));
 assert.equal(cat.stats.physics_course_groups,95);assert.equal(cat.stats.physics_offerings,425);
 for(const code of ['PHYS10002','PHYS10003','PHYS10004','PHYS10005','PHYS10006','PHYS10006h','PHYS20006','PHYS20010h','PHYS30012','AIS310013']){
   const g=groups.get(code);assert(g&&summaries.has(g.id),code);assert.equal(typeof g.student_evaluation.has_reviews,'boolean');
