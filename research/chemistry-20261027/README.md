@@ -35,3 +35,5 @@
 官方入口：https://fdjwgl.fudan.edu.cn/manager/bizType/2/page-center/major-program-search-view?skipAuth=1
 
 公众号工具补充：GitHub 的 `odyecho/mcp-server-wechat` 公开搜索实现使用搜狗微信。本机直接请求搜狗结果页已获得候选列表；候选需打开正文核实后才能入库。后续打开结果时出现验证，已停止该访问路径；没有把摘要当作正文。本次未安装该第三方服务。参见 `wechat_search_manifest.json`。
+
+普通化学历史试卷另存本地 `D:/danxi/课程评价整理_20261023/补充核验/化学系_20261027/offline_resources/21-22普化A下期末_历史参考.pdf`；由于资料库目录名与文件名所指上下学期不一致、卷面无课程封面，作为A下候选参考。文件和哈希见 `offline_materials_manifest.json`，仓库不转存原试卷。
