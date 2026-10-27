@@ -49,10 +49,13 @@ for c in e["courses"]:
    titles={'6a9f79c1000000001103670c':'复旦选课二选一','68aea713000000001d000597':'复旦化学系选课推荐','69b0261c000000001b01dd1c':'复旦化学系大二 Ask me anything'}
    title=next((t for k,t in titles.items() if k in url),None)
    if title:
-    search='https://www.xiaohongshu.com/search_result?keyword='+quote(title)
-    links=f'<a href="{url}" target="_blank" rel="noopener noreferrer">原帖直链</a> · <a href="{esc(search)}" target="_blank" rel="noopener noreferrer">在小红书搜索标题</a><small>（直链在 Edge 测试受平台限制；搜索结果可找到原帖）</small>'
+    search_url='https://www.xiaohongshu.com/search_result?keyword='+quote(title)
+    links=f'<a href="{url}" target="_blank" rel="noopener noreferrer">原帖直链</a> · <a href="{esc(search_url)}" target="_blank" rel="noopener noreferrer">在小红书搜索标题</a><small>（直链在 Edge 测试受平台限制；搜索结果可找到原帖）</small>'
    else:links=f'<a href="{url}" target="_blank" rel="noopener noreferrer">查看{platform}原文</a>'
    reviews.append(f'<article><p>{summary}</p><small>{label} · {term}{note}</small><br>{links}</article>')
+ has_student_content=any(r.get("source_type") in ("danke_group_review", "forum_discussion") or (r.get("source_type") in ("知乎回答", "小红书笔记评论区", "小红书公开笔记评论") and r.get("record_type") not in ("course_question", "course_selection_question")) for r in records.get(code,[]))
+ if not has_student_content:
+  reviews.insert(0,"<p>暂未收录可确认对应本课程的学生评价；已有问课或官方信息会单独标明，检索仍在进行。</p>")
  materials=[r for r in resources if code in r.get("course_codes",[])]
  links="".join(f'<article><a href="{esc(r["url"])}" target="_blank" rel="noopener noreferrer">{esc(r["title"])}</a><p>{esc(r["source"])} · {esc(r["note"])}</p></article>' for r in materials)
  plans=sorted(set(x.get("plan_name","")+" / "+x.get("module_name","") for x in c.get("plan_refs",[])))

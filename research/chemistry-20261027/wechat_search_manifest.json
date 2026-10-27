@@ -22,6 +22,17 @@
     {
       "method": "mp.weixin.qq.com direct article body",
       "result": "本轮没有成功打开任何mp.weixin.qq.com正文URL；两个复旦化学系官网页面明确标注为官方公众号转载，核验的是可打开的完整转载正文。"
+    },
+    {
+      "method": "本机 urllib 访问搜狗微信搜索结果页（低频测试）",
+      "result": "2026-10-28 对“复旦 化学 课评”请求返回 HTTP 200，ul.news-list 含10条候选；包含复旦附中等无关结果，尚无可采纳的化学本科课评。",
+      "implementation_reference": "https://github.com/odyecho/mcp-server-wechat",
+      "note": "该项目公开搜索使用搜狗微信；本次仅参考其请求方式，未安装或运行第三方服务器。出现验证码或访问限制时停止，不绕过。"
+    },
+    {
+      "method": "本机打开搜狗搜索结果中的公众号文章",
+      "result": "后续低频检索5项后，打开结果时遇反爬验证；未成功核读公众号正文，已停止此访问路径。",
+      "note": "结果页摘要只作为线索，不计入已读课评；不绕过验证。"
     }
   ],
   "query_coverage": {

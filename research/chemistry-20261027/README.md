@@ -33,3 +33,5 @@
 后续整合时应为每门课按大纲、资料、学生评价、比较总结四部分组织，并标明实际来源、教师、学期及资料缺项。课程与教师的对比必须有可核对的对应证据。
 
 官方入口：https://fdjwgl.fudan.edu.cn/manager/bizType/2/page-center/major-program-search-view?skipAuth=1
+
+公众号工具补充：GitHub 的 `odyecho/mcp-server-wechat` 公开搜索实现使用搜狗微信。本机直接请求搜狗结果页已获得候选列表；候选需打开正文核实后才能入库，若遇验证或限流即停止。本次未安装该第三方服务。参见 `wechat_search_manifest.json`。
