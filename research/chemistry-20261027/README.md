@@ -12,13 +12,13 @@
 
 ## 离线预览
 
-打开 `化学系课程研究预览.html` 可按课程代码、名称、教师和拼音首字母查看当前证据。预览由 `generate_preview.py` 从本目录数据生成；当前收录一批已核读、可以定位的知乎、小红书和蛋壳评价摘要；旧代码和历史教师须按记录单独看待，课评尚在补充。
+打开 `化学系课程研究预览.html` 可按课程代码、名称、教师和拼音首字母查看当前证据，并按培养方案（公共方案与所选专业方案合并）、教务课程类型及代码前缀筛选。预览由 `generate_preview.py` 从本目录数据生成；当前收录一批已核读、可以定位的知乎、小红书和蛋壳评价摘要；旧代码和历史教师须按记录单独看待，课评尚在补充。
 
 当前阶段的六群查询概况见 `chat_search_manifest.json`：使用登记的课程、教师及其别名检索 105,771 条可读文本，对 1,393 条命中消息进行相邻上下文核对，没有确认化学课的修读评价；这不是对每条原始消息的人工通读。群聊原文与成员身份不进入共享目录。
 
 物理化学II历史课件另有个人离线包：本机保存在 `D:/danxi/课程评价整理_20261023/补充核验/化学系_20261027/offline_resources/物理化学II历史课件_个人离线.zip`；35份PDF及校验信息见 `offline_materials_manifest.json`。源页注明教学用途、不得商业使用，离线PDF不随仓库重传。
 
-树洞与蛋壳摘要位于 `danke_review_summaries.json`、`forum_discussion_summaries.json`；`course_syntheses.json` 记录每条判断所依据的来源 ID，`course_resources.json` 存储已核对的课程资料链接。树洞课评中的问课、未经确认的选课建议与修读体验分开标注。
+树洞与蛋壳摘要位于 `danke_review_summaries.json`、`forum_discussion_summaries.json`；`course_syntheses.json` 记录学生评价判断所依据的来源 ID，以及仅基于对应教学班大纲的说明，`course_resources.json` 存储已核对的课程资料链接。树洞课评中的问课、未经确认的选课建议与修读体验分开标注。
 
 树洞高频截断后的分时段进度快照见 `forum_split_coverage.json`，课程未确认的讨论线索见 `forum_unmapped_leads.json`。
 
@@ -34,4 +34,4 @@
 
 官方入口：https://fdjwgl.fudan.edu.cn/manager/bizType/2/page-center/major-program-search-view?skipAuth=1
 
-公众号工具补充：GitHub 的 `odyecho/mcp-server-wechat` 公开搜索实现使用搜狗微信。本机直接请求搜狗结果页已获得候选列表；候选需打开正文核实后才能入库，若遇验证或限流即停止。本次未安装该第三方服务。参见 `wechat_search_manifest.json`。
+公众号工具补充：GitHub 的 `odyecho/mcp-server-wechat` 公开搜索实现使用搜狗微信。本机直接请求搜狗结果页已获得候选列表；候选需打开正文核实后才能入库。后续打开结果时出现验证，已停止该访问路径；没有把摘要当作正文。本次未安装该第三方服务。参见 `wechat_search_manifest.json`。
