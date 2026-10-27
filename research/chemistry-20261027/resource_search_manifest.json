@@ -5,20 +5,25 @@
   "course_scope_count": 145,
   "ledger_rows": 145,
   "status_counts": {
-    "not_individually_searched": 130,
+    "not_individually_searched": 120,
+    "targeted_search_no_verified_public_resource": 5,
     "candidate_community_materials_exact_title": 1,
     "official_courseware_title_family_match_code_unverified": 1,
+    "official_catalog_context_no_public_materials": 2,
     "official_courseware_family_match_code_unverified": 1,
     "official_historical_course_outline_title_family_match_code_unverified": 1,
     "course_catalog_only_no_study_materials_seen": 2,
+    "official_courseware_duplicate_legacy_index_candidate_code_unverified": 1,
     "official_courseware_exact_title_historical_code_mismatch": 1,
     "official_courseware_family_match_split_unverified": 3,
     "official_combined_lab_course_family_match_code_unverified": 2,
     "official_related_safety_material_course_code_unverified": 1,
     "candidate_community_misfiled_lower_course_file": 1,
-    "official_historical_course_resource_index_login_required_code_unverified": 1
+    "official_historical_course_outline_candidate_code_unverified": 1,
+    "official_historical_course_resource_index_login_required_code_unverified": 1,
+    "official_course_index_checked_no_public_materials": 1
   },
-  "total_records": 9,
+  "total_records": 12,
   "material_record_count": 7,
   "sources_checked": [
     "GitHub public code/file search, repository metadata, README and exact FDU-Sharing course-page source; no clone/download/run.",
@@ -33,7 +38,19 @@
     "Official Fudan Chemistry Department Organic Chemistry AI/AII news and XueyinOnline course page checked; portal listing/target course page inspected, but course files were not retrieved.",
     "Official Chemistry Teaching Experimental Center course profile CHEM130005.01 and Ordinary Chemistry Experiment course-specific download page opened.",
     "Official Fudan experimental center legacy Analytical Chemistry Experiment index opened; its 18 PPT list duplicates CR-002 and was not counted twice.",
-    "Targeted GitHub repository searches for Fudan CHEM130013, organic chemistry A, physical chemistry A, and CHEM20020 returned no additional course-material pages."
+    "Targeted GitHub repository searches for Fudan CHEM130013, organic chemistry A, physical chemistry A, and CHEM20020 returned no additional course-material pages.",
+    "Official Fudan Academic Affairs Office syllabus PDF for historical CHEM120013 普通化学C; indexed course metadata checked, but direct PDF open failed due 11.9 MB size. Recorded as context only, not courseware.",
+    "Official Fudan Academic Affairs Office syllabus PDF for historical CHEM120012 有机化学C; indexed course metadata checked, but direct PDF open timed out. Recorded as context only, not courseware.",
+    "Official Xianghui College course-resources index lists 普通化学A, 有机化学A, 合成化学实验 and 无机化学和化学分析实验 as quality courses and points to the Fudan Chaoxing portal; the index itself exposes no study files.",
+    "FDU-Sharing public GitHub contents/tree metadata checked: the chemistry course registry contains 普通化学A（上） only, and the chemistry resource directory is 普化A上; no other chemistry-family course page/resource folder was found.",
+    "Candidate repositories shenhao-stu/fudan-courses-wiki and openFudan/fudan-coursera checked by public GitHub tree metadata; no chemistry course material path found. The latter repository describes computer-major course resources.",
+    "Official Fudan Experimental Chemistry Center 综合化学实验 index opened; page contains course/navigation identity but no visible study materials. Historical CHEM130024 appears in the already-recorded official curriculum PDF, so current CHEM40004 remains candidate-only.",
+    "Official legacy 分析化学实验课件 index checked against the inorganic/chemical-analysis experiment list; its 18 filenames duplicate CR-002 and are not counted as another material set. Candidate title-family only for current CHEM20016.",
+    "Official 2015 organic-chemistry experiment schedule was compared with the official historical CHEM120011 plan entry; it is a family candidate for current CHEM10006, with no crosswalk.",
+    "Official National Smart Education Platform exact-title searches returned ordinary-chemistry courses from Tongji University and Fujian Agriculture and Forestry University; both pages were opened and excluded because the host universities are not Fudan.",
+    "High-enrollment exact-title searches for CHEM10001 普通化学, CHEM10002 有机化学, CHEM20005 物理化学A I, CHEM50002 高等无机化学, and CHEM50004 量子化学原理及应用 found no additional verifiable Fudan study-material pages; official course/news context was separated from actual materials.",
+    "Third-party Xuehai.net page titled 复旦大学有机化学笔记 opened and inspected; it does not identify the course author, term, or code and says the site only collects internet resources, so it was excluded as an unverified lead.",
+    "Chaoxing Organic Chemistry portal opened and its teacher/team metadata checked; the course identifies 忻州师范学院, so its large chapter-resource index was excluded from Fudan scope."
   ],
   "targeted_query_families": [
     "普通化学A / 普通化学",
@@ -55,7 +72,22 @@
     "Official historical chemistry curriculum code tables for organic chemistry A, physical chemistry A, synthesis labs, ordinary chemistry experiment, and instrumental/physical chemistry labs",
     "Official experimental-center historical course-profile code CHEM130005.01 and analytical/physical-chemistry lab evolution",
     "XueyinOnline/Chaoxing Fudan Organic Chemistry A portal/catalog accessibility",
-    "FDU-Sharing GitHub follow-up search for exact chemistry titles and course codes"
+    "FDU-Sharing GitHub follow-up search for exact chemistry titles and course codes",
+    "普通化学C CHEM120013 and 有机化学C CHEM120012 Fudan Academic Affairs Office syllabus PDFs",
+    "Fudan Xianghui official course-resources index and Chaoxing portal listing for chemistry courses",
+    "FDU-Sharing public GitHub contents tree for chemistry-title pages and resource directories",
+    "shenhao-stu/fudan-courses-wiki and openFudan/fudan-coursera public repository tree for chemistry course resources",
+    "综合化学实验 CHEM130024 official Experimental Chemistry Center index",
+    "分析化学实验课件 18 PPT duplicate index CHEM20016",
+    "有机化学实验I CHEM120011 official 2015 organic experiment schedule",
+    "National Smart Education Platform searches for Fudan 普通化学A/普通化学 course pages and exact course-resource materials",
+    "High-enrollment exact search CHEM10001 普通化学 / General Chemistry Fudan",
+    "High-enrollment exact search CHEM10002 有机化学 Fudan course materials",
+    "CHEM20005 物理化学A I CHEM130012 Fudan courseware",
+    "CHEM50002 高等无机化学 Fudan courseware",
+    "CHEM50004 量子化学原理及应用 Fudan courseware",
+    "Public Xuehai.net 有机化学笔记 page provenance and course-identity check",
+    "Chaoxing generic 有机化学 course school-affiliation check"
   ],
   "coverage_limits": [
     "Only highlighted course families were searched in detail. The 145-row ledger is complete as an inventory, but unhighlighted rows are marked not_individually_searched.",
@@ -68,7 +100,15 @@
     "Historical course codes in the Chemistry strong-foundation plan and the double-degree recommendation are recorded as historical references only; they are not treated as direct mappings to newer current-scope codes.",
     "The Xueyin Organic Chemistry A page exposes course description/metadata but no public downloadable files in the inspected rendering. The Chaoxing course item redirects to a course portal that the web reader could not retrieve; no login or credentials were used.",
     "The legacy analytical-chemistry experiment index repeats the same 18 PPT titles as the inorganic/chemical-analysis experiment page and is treated as a duplicate path, not an extra resource set.",
-    "The physical-chemistry lab PPT index does not allocate experiments to upper/lower courses; its association to CHEM30032 remains candidate-only."
+    "The physical-chemistry lab PPT index does not allocate experiments to upper/lower courses; its association to CHEM30032 remains candidate-only.",
+    "The ordinary-chemistry-C and organic-chemistry-C official JWC PDFs were identified through indexed extracted text; direct open attempts failed (large-file limit or timeout). Their metadata is context only and is not counted as courseware.",
+    "The Fudan Xianghui course-resources index points to the Chaoxing portal but does not expose study files. The listed Fudan Organic Chemistry AI portal item redirects to a course page the web reader cannot retrieve; no login was attempted.",
+    "Public GitHub tree checks found no chemistry materials in the checked Fudan course-wiki and computer-major repositories. This is a repository-path check, not an exhaustive search of every public GitHub repository.",
+    "CHEM40004 综合化学实验I has an official course-index candidate, but the public page contains no visible course materials; it is recorded as a checked empty index and not as a resource page.",
+    "CHEM20016 分析化学实验 is only a title-family candidate from the legacy 分析化学实验课件 index; its 18 PPT names duplicate CR-002 and are counted once.",
+    "CHEM10006 有机化学实验I is a historical-outline candidate only; CHEM120011 is a historical code and no crosswalk to current CHEM10006 was found.",
+    "A five-course high-enrollment exact-title search batch found no new verifiable study-material links. Rows are marked searched_no_verified_resource; this is bounded search coverage and does not prove that no material exists.",
+    "The third-party Xuehai.net 有机化学笔记 page is a weak lead without author/term/current-course provenance and is excluded. A detailed Chaoxing organic chemistry page explicitly identifies 忻州师范学院 and is excluded as another-school content."
   ],
   "rights_summary": "Public access does not grant redistribution rights. FDU-Sharing has no LICENSE file found and README reserves original authors rights. Official Fudan material pages carry a copyright notice; no open license found. Xueyin pages show no downloadable materials or open license.",
   "excluded_hits": [
@@ -89,7 +129,31 @@
       "url": "https://www.xiaokudang.com/docs/all/all_60.html",
       "decision": "弱线索，未纳入",
       "reason": "Search result claims Fudan-related slides, but page open returned 502; school/course/source and rights not independently verified."
+    },
+    {
+      "title": "普通化学 (Tongji University)",
+      "url": "https://higher.smartedu.cn/course/67b51791225d72705e3c3276",
+      "decision": "排除",
+      "reason": "The opened National Smart Education Platform page explicitly identifies Tongji University as the host institution; it is not Fudan."
+    },
+    {
+      "title": "普通化学 (Fujian Agriculture and Forestry University)",
+      "url": "https://www.chinaooc.com.cn/course/68c0996ea9f4619f8f00c076",
+      "decision": "排除",
+      "reason": "The opened National Smart Education Platform page explicitly identifies Fujian Agriculture and Forestry University as the host institution; it is not Fudan."
+    },
+    {
+      "title": "复旦大学有机化学 笔记（第三方收集页）",
+      "url": "https://doc.xuehai.net/b99b9ccc7c887369f4fb7cf7d.html",
+      "decision": "弱线索，排除",
+      "reason": "The page provides generic notes but no identifiable author, term, course code, or verifiable Fudan course provenance; its footer says files are collected from the internet. No current CHEM10002 attribution or reuse rights were confirmed."
+    },
+    {
+      "title": "有机化学（忻州师范学院 Chaoxing course）",
+      "url": "https://mooc1-1.chaoxing.com/mooc-ans/course/portal/2RPFH_TFR2YS68uzFndb_g%3D%3D",
+      "decision": "排除",
+      "reason": "Opened course metadata explicitly identifies 忻州师范学院 and its Chemistry Department, not Fudan."
     }
   ],
-  "context_only_source_count": 8
+  "context_only_source_count": 12
 }

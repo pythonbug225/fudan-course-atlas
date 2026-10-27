@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-27T23:08:51+08:00",
+  "generated_at": "2026-10-27T23:28:54+08:00",
   "scope_file": "..\\scope.json",
   "scope_count": 145,
   "courses": [
@@ -5444,8 +5444,8 @@
         {
           "source": "general_web",
           "query": "\"生产实习\" 复旦 课程评价",
-          "status": "pending",
-          "note": "准确课程名；摘要只记lead，打开正文核实后才转read"
+          "status": "completed_no_course_review_candidate",
+          "note": "2026-10-27 exact course-code/title/teacher and broad title/teacher searches run; no student course-review body candidate. Search results not read as course evaluations."
         },
         {
           "source": "zhihu",
@@ -5468,14 +5468,14 @@
         {
           "source": "code",
           "query": "\"CHEM40002\" 复旦",
-          "status": "pending",
-          "note": "检索代码与课程名命中"
+          "status": "completed_no_course_review_candidate",
+          "note": "2026-10-27 exact course-code/title/teacher and broad title/teacher searches run; no student course-review body candidate. Search results not read as course evaluations."
         },
         {
           "source": "teacher_crosscheck",
           "query": "\"生产实习\" \"乔亮\" 复旦",
-          "status": "pending",
-          "note": "核对教师与课程；若课程学期不明则只列lead"
+          "status": "completed_no_course_review_candidate",
+          "note": "2026-10-27 exact course-code/title/teacher and broad title/teacher searches run; no student course-review body candidate. Search results not read as course evaluations."
         },
         {
           "source": "pinyin_initials",
@@ -5490,12 +5490,6 @@
       "excluded": [],
       "pending": [
         {
-          "source": "general_web",
-          "query": "\"生产实习\" 复旦 课程评价",
-          "status": "pending",
-          "note": "准确课程名；摘要只记lead，打开正文核实后才转read"
-        },
-        {
           "source": "zhihu",
           "query": "site:zhihu.com \"生产实习\" 复旦",
           "status": "pending",
@@ -5514,25 +5508,13 @@
           "note": "搜狗卡片/snippet仅lead，需文章正文"
         },
         {
-          "source": "code",
-          "query": "\"CHEM40002\" 复旦",
-          "status": "pending",
-          "note": "检索代码与课程名命中"
-        },
-        {
-          "source": "teacher_crosscheck",
-          "query": "\"生产实习\" \"乔亮\" 复旦",
-          "status": "pending",
-          "note": "核对教师与课程；若课程学期不明则只列lead"
-        },
-        {
           "source": "pinyin_initials",
           "query": "生产实习 qiaoliang Fudan",
           "status": "pending",
           "note": "仅作搜索变体；首字母/拼音命中须回到上下文确认身份"
         }
       ],
-      "state": "not_individually_queried"
+      "state": "query_attempt_no_review"
     },
     {
       "course_code": "CHEM40008",
@@ -5550,8 +5532,8 @@
         {
           "source": "general_web",
           "query": "\"化学实验室安全\" 复旦 课程评价",
-          "status": "pending",
-          "note": "准确课程名；摘要只记lead，打开正文核实后才转read"
+          "status": "searched_no_exact_class_review",
+          "note": "2026-10-27执行课号+课名+scope教师组合及广搜；无学生课评正文。结果仅见复旦实验室安全教育平台等官方安全资料，不是课程体验；未打开正文。"
         },
         {
           "source": "zhihu",
@@ -5574,14 +5556,14 @@
         {
           "source": "code",
           "query": "\"CHEM40008\" 复旦",
-          "status": "pending",
-          "note": "检索代码与课程名命中"
+          "status": "searched_no_exact_class_review",
+          "note": "2026-10-27执行课号+课名+scope教师组合及广搜；无学生课评正文。结果仅见复旦实验室安全教育平台等官方安全资料，不是课程体验；未打开正文。"
         },
         {
           "source": "teacher_crosscheck",
           "query": "\"化学实验室安全\" \"王华冬\" 复旦",
-          "status": "pending",
-          "note": "核对教师与课程；若课程学期不明则只列lead"
+          "status": "searched_no_exact_class_review",
+          "note": "2026-10-27执行课号+课名+scope教师组合及广搜；无学生课评正文。结果仅见复旦实验室安全教育平台等官方安全资料，不是课程体验；未打开正文。"
         },
         {
           "source": "pinyin_initials",
@@ -5596,12 +5578,6 @@
       "excluded": [],
       "pending": [
         {
-          "source": "general_web",
-          "query": "\"化学实验室安全\" 复旦 课程评价",
-          "status": "pending",
-          "note": "准确课程名；摘要只记lead，打开正文核实后才转read"
-        },
-        {
           "source": "zhihu",
           "query": "site:zhihu.com \"化学实验室安全\" 复旦",
           "status": "pending",
@@ -5620,25 +5596,13 @@
           "note": "搜狗卡片/snippet仅lead，需文章正文"
         },
         {
-          "source": "code",
-          "query": "\"CHEM40008\" 复旦",
-          "status": "pending",
-          "note": "检索代码与课程名命中"
-        },
-        {
-          "source": "teacher_crosscheck",
-          "query": "\"化学实验室安全\" \"王华冬\" 复旦",
-          "status": "pending",
-          "note": "核对教师与课程；若课程学期不明则只列lead"
-        },
-        {
           "source": "pinyin_initials",
           "query": "化学实验室安全 wanghuadong Fudan",
           "status": "pending",
           "note": "仅作搜索变体；首字母/拼音命中须回到上下文确认身份"
         }
       ],
-      "state": "not_individually_queried"
+      "state": "query_attempt_no_review"
     },
     {
       "course_code": "CHEM40014h",
@@ -5661,8 +5625,8 @@
         {
           "source": "general_web",
           "query": "\"高等无机化学(H)\" 复旦 课程评价",
-          "status": "pending",
-          "note": "准确课程名；摘要只记lead，打开正文核实后才转read"
+          "status": "completed_no_course_review_candidate",
+          "note": "2026-10-27 exact course-code/title/teacher and broad title/teacher searches run; no student course-review body candidate. Search results not read as course evaluations."
         },
         {
           "source": "zhihu",
@@ -5673,8 +5637,8 @@
         {
           "source": "xiaohongshu",
           "query": "site:xiaohongshu.com/explore \"高等无机化学(H)\" 复旦",
-          "status": "pending",
-          "note": "图文/图片须完整阅读，不能只按标题归纳"
+          "status": "completed_no_specific_course_review_candidate",
+          "note": "已用小红书站内搜索复旦 高等无机化学 李巧伟；结果页没有可确认的本课笔记标题，只见已读过的通用化学系选课推荐等泛结果；未在本轮打开笔记正文。"
         },
         {
           "source": "wechat_sogou",
@@ -5685,14 +5649,14 @@
         {
           "source": "code",
           "query": "\"CHEM40014h\" 复旦",
-          "status": "pending",
-          "note": "检索代码与课程名命中"
+          "status": "completed_no_course_review_candidate",
+          "note": "2026-10-27 exact course-code/title/teacher and broad title/teacher searches run; no student course-review body candidate. Search results not read as course evaluations."
         },
         {
           "source": "teacher_crosscheck",
           "query": "\"高等无机化学(H)\" \"李巧伟\" 复旦",
-          "status": "pending",
-          "note": "核对教师与课程；若课程学期不明则只列lead"
+          "status": "completed_no_course_review_candidate",
+          "note": "2026-10-27 exact course-code/title/teacher and broad title/teacher searches run; no student course-review body candidate. Search results not read as course evaluations."
         },
         {
           "source": "pinyin_initials",
@@ -5713,18 +5677,28 @@
           "note": "仅作搜索变体；首字母/拼音命中须回到上下文确认身份"
         }
       ],
-      "visited": [],
-      "read": [],
-      "adopted": [],
+      "visited": [
+        {
+          "source_id": "CHEM-SRC-FUDAN-0001",
+          "url": "https://chemistry.fudan.edu.cn/9b/3f/c45206a760639/page.htm",
+          "note": "官方报道全文已读；同名课程/李巧伟匹配，但未给代码、班号或修读学期"
+        },
+        {
+          "source": "xiaohongshu_site",
+          "query": "复旦 高等无机化学 李巧伟",
+          "url": "https://www.xiaohongshu.com/search_result?keyword=%E5%A4%8D%E6%97%A6+%E9%AB%98%E7%AD%89%E6%97%A0%E6%9C%BA%E5%8C%96%E5%AD%A6+%E6%9D%8E%E5%B7%A7%E4%BC%9F&source=web_search_result_notes&type=51",
+          "note": "站内结果页已查看；结果非本课专属，未打开新笔记正文。命中的通用选课推荐已在既有记录中阅读，但没有高等无机课程具体评价。"
+        }
+      ],
+      "read": [
+        "CHEM-SRC-FUDAN-0001"
+      ],
+      "adopted": [
+        "CHEM-WEB-FUDAN-0001"
+      ],
       "excluded": [],
       "pending": [
         {
-          "source": "general_web",
-          "query": "\"高等无机化学(H)\" 复旦 课程评价",
-          "status": "pending",
-          "note": "准确课程名；摘要只记lead，打开正文核实后才转read"
-        },
-        {
           "source": "zhihu",
           "query": "site:zhihu.com \"高等无机化学(H)\" 复旦",
           "status": "pending",
@@ -5741,18 +5715,6 @@
           "query": "\"高等无机化学(H)\" 复旦 site:mp.weixin.qq.com",
           "status": "pending",
           "note": "搜狗卡片/snippet仅lead，需文章正文"
-        },
-        {
-          "source": "code",
-          "query": "\"CHEM40014h\" 复旦",
-          "status": "pending",
-          "note": "检索代码与课程名命中"
-        },
-        {
-          "source": "teacher_crosscheck",
-          "query": "\"高等无机化学(H)\" \"李巧伟\" 复旦",
-          "status": "pending",
-          "note": "核对教师与课程；若课程学期不明则只列lead"
         },
         {
           "source": "pinyin_initials",
@@ -5773,7 +5735,7 @@
           "note": "仅作搜索变体；首字母/拼音命中须回到上下文确认身份"
         }
       ],
-      "state": "not_individually_queried"
+      "state": "read_historical_mapping"
     },
     {
       "course_code": "CHEM40015h",
@@ -5795,8 +5757,8 @@
         {
           "source": "general_web",
           "query": "\"高等有机化学(H)\" 复旦 课程评价",
-          "status": "pending",
-          "note": "准确课程名；摘要只记lead，打开正文核实后才转read"
+          "status": "completed_no_course_review_candidate",
+          "note": "2026-10-27 exact course-code/title/teacher and broad title/teacher searches run; no student course-review body candidate. Search results not read as course evaluations."
         },
         {
           "source": "zhihu",
@@ -5819,14 +5781,14 @@
         {
           "source": "code",
           "query": "\"CHEM40015h\" 复旦",
-          "status": "pending",
-          "note": "检索代码与课程名命中"
+          "status": "completed_no_course_review_candidate",
+          "note": "2026-10-27 exact course-code/title/teacher and broad title/teacher searches run; no student course-review body candidate. Search results not read as course evaluations."
         },
         {
           "source": "teacher_crosscheck",
           "query": "\"高等有机化学(H)\" \"王全瑞\" 复旦",
-          "status": "pending",
-          "note": "核对教师与课程；若课程学期不明则只列lead"
+          "status": "completed_no_course_review_candidate",
+          "note": "2026-10-27 exact course-code/title/teacher and broad title/teacher searches run; no student course-review body candidate. Search results not read as course evaluations."
         },
         {
           "source": "pinyin_initials",
@@ -5841,12 +5803,6 @@
       "excluded": [],
       "pending": [
         {
-          "source": "general_web",
-          "query": "\"高等有机化学(H)\" 复旦 课程评价",
-          "status": "pending",
-          "note": "准确课程名；摘要只记lead，打开正文核实后才转read"
-        },
-        {
           "source": "zhihu",
           "query": "site:zhihu.com \"高等有机化学(H)\" 复旦",
           "status": "pending",
@@ -5865,25 +5821,13 @@
           "note": "搜狗卡片/snippet仅lead，需文章正文"
         },
         {
-          "source": "code",
-          "query": "\"CHEM40015h\" 复旦",
-          "status": "pending",
-          "note": "检索代码与课程名命中"
-        },
-        {
-          "source": "teacher_crosscheck",
-          "query": "\"高等有机化学(H)\" \"王全瑞\" 复旦",
-          "status": "pending",
-          "note": "核对教师与课程；若课程学期不明则只列lead"
-        },
-        {
           "source": "pinyin_initials",
           "query": "高等有机化学(H) wangquanrui Fudan",
           "status": "pending",
           "note": "仅作搜索变体；首字母/拼音命中须回到上下文确认身份"
         }
       ],
-      "state": "not_individually_queried"
+      "state": "query_attempt_no_review"
     },
     {
       "course_code": "CHEM50002",
@@ -6433,8 +6377,8 @@
         {
           "source": "general_web",
           "query": "\"工程伦理\" 复旦 课程评价",
-          "status": "pending",
-          "note": "准确课程名；摘要只记lead，打开正文核实后才转read"
+          "status": "searched_no_exact_class_review",
+          "note": "2026-10-27执行课号+课名+两位scope教师组合、广搜和原文核对；读到搜狐转载的研究生课程思政案例，含汇总式学生反馈。正文明确指向硕士研究生必修，无法确认是否对应scope CHEM50008.01的本科/本研融通班，不作班次映射。"
         },
         {
           "source": "zhihu",
@@ -6457,14 +6401,14 @@
         {
           "source": "code",
           "query": "\"CHEM50008\" 复旦",
-          "status": "pending",
-          "note": "检索代码与课程名命中"
+          "status": "searched_no_exact_class_review",
+          "note": "2026-10-27执行课号+课名+两位scope教师组合、广搜和原文核对；读到搜狐转载的研究生课程思政案例，含汇总式学生反馈。正文明确指向硕士研究生必修，无法确认是否对应scope CHEM50008.01的本科/本研融通班，不作班次映射。"
         },
         {
           "source": "teacher_crosscheck",
           "query": "\"工程伦理\" \"孙默\" 复旦",
-          "status": "pending",
-          "note": "核对教师与课程；若课程学期不明则只列lead"
+          "status": "searched_no_exact_class_review",
+          "note": "2026-10-27执行课号+课名+两位scope教师组合、广搜和原文核对；读到搜狐转载的研究生课程思政案例，含汇总式学生反馈。正文明确指向硕士研究生必修，无法确认是否对应scope CHEM50008.01的本科/本研融通班，不作班次映射。"
         },
         {
           "source": "pinyin_initials",
@@ -6475,8 +6419,8 @@
         {
           "source": "teacher_crosscheck",
           "query": "\"工程伦理\" \"朱义峰\" 复旦",
-          "status": "pending",
-          "note": "核对教师与课程；若课程学期不明则只列lead"
+          "status": "searched_no_exact_class_review",
+          "note": "2026-10-27执行课号+课名+两位scope教师组合、广搜和原文核对；读到搜狐转载的研究生课程思政案例，含汇总式学生反馈。正文明确指向硕士研究生必修，无法确认是否对应scope CHEM50008.01的本科/本研融通班，不作班次映射。"
         },
         {
           "source": "pinyin_initials",
@@ -6485,18 +6429,25 @@
           "note": "仅作搜索变体；首字母/拼音命中须回到上下文确认身份"
         }
       ],
-      "visited": [],
-      "read": [],
+      "visited": [
+        {
+          "source_id": "CHEM-SRC-SOHU-0001",
+          "url": "https://www.sohu.com/a/938084626_121106832",
+          "note": "完整正文已读；报告中有研究生课程汇总反馈，但无法确认来自当前本研融通本科班，保留为未映射课程族候选"
+        }
+      ],
+      "read": [
+        "CHEM-SRC-SOHU-0001"
+      ],
       "adopted": [],
-      "excluded": [],
+      "excluded": [
+        {
+          "source_id": "CHEM-SRC-SOHU-0001",
+          "reason": "正文明确为专业学位硕士研究生必修；scope本科本研融通班虽同名同师但无代码/班次/本科评价证据，不作本科班评价"
+        }
+      ],
       "pending": [
         {
-          "source": "general_web",
-          "query": "\"工程伦理\" 复旦 课程评价",
-          "status": "pending",
-          "note": "准确课程名；摘要只记lead，打开正文核实后才转read"
-        },
-        {
           "source": "zhihu",
           "query": "site:zhihu.com \"工程伦理\" 复旦",
           "status": "pending",
@@ -6515,28 +6466,10 @@
           "note": "搜狗卡片/snippet仅lead，需文章正文"
         },
         {
-          "source": "code",
-          "query": "\"CHEM50008\" 复旦",
-          "status": "pending",
-          "note": "检索代码与课程名命中"
-        },
-        {
-          "source": "teacher_crosscheck",
-          "query": "\"工程伦理\" \"孙默\" 复旦",
-          "status": "pending",
-          "note": "核对教师与课程；若课程学期不明则只列lead"
-        },
-        {
           "source": "pinyin_initials",
           "query": "工程伦理 sunmo Fudan",
           "status": "pending",
           "note": "仅作搜索变体；首字母/拼音命中须回到上下文确认身份"
-        },
-        {
-          "source": "teacher_crosscheck",
-          "query": "\"工程伦理\" \"朱义峰\" 复旦",
-          "status": "pending",
-          "note": "核对教师与课程；若课程学期不明则只列lead"
         },
         {
           "source": "pinyin_initials",
@@ -6545,7 +6478,7 @@
           "note": "仅作搜索变体；首字母/拼音命中须回到上下文确认身份"
         }
       ],
-      "state": "not_individually_queried"
+      "state": "read_course_family_not_mapped"
     },
     {
       "course_code": "CHEM50009",
@@ -6563,8 +6496,8 @@
         {
           "source": "general_web",
           "query": "\"科学英语写作\" 复旦 课程评价",
-          "status": "pending",
-          "note": "准确课程名；摘要只记lead，打开正文核实后才转read"
+          "status": "searched_no_exact_class_review",
+          "note": "2026-10-27执行课号+课名+scope教师组合及广搜；无课程评价正文。命中的论文写作/科研方法在线课程与课程名、教师或代码未证为同一课；未映射。"
         },
         {
           "source": "zhihu",
@@ -6587,14 +6520,14 @@
         {
           "source": "code",
           "query": "\"CHEM50009\" 复旦",
-          "status": "pending",
-          "note": "检索代码与课程名命中"
+          "status": "searched_no_exact_class_review",
+          "note": "2026-10-27执行课号+课名+scope教师组合及广搜；无课程评价正文。命中的论文写作/科研方法在线课程与课程名、教师或代码未证为同一课；未映射。"
         },
         {
           "source": "teacher_crosscheck",
           "query": "\"科学英语写作\" \"龚鸣\" 复旦",
-          "status": "pending",
-          "note": "核对教师与课程；若课程学期不明则只列lead"
+          "status": "searched_no_exact_class_review",
+          "note": "2026-10-27执行课号+课名+scope教师组合及广搜；无课程评价正文。命中的论文写作/科研方法在线课程与课程名、教师或代码未证为同一课；未映射。"
         },
         {
           "source": "pinyin_initials",
@@ -6609,12 +6542,6 @@
       "excluded": [],
       "pending": [
         {
-          "source": "general_web",
-          "query": "\"科学英语写作\" 复旦 课程评价",
-          "status": "pending",
-          "note": "准确课程名；摘要只记lead，打开正文核实后才转read"
-        },
-        {
           "source": "zhihu",
           "query": "site:zhihu.com \"科学英语写作\" 复旦",
           "status": "pending",
@@ -6633,25 +6560,13 @@
           "note": "搜狗卡片/snippet仅lead，需文章正文"
         },
         {
-          "source": "code",
-          "query": "\"CHEM50009\" 复旦",
-          "status": "pending",
-          "note": "检索代码与课程名命中"
-        },
-        {
-          "source": "teacher_crosscheck",
-          "query": "\"科学英语写作\" \"龚鸣\" 复旦",
-          "status": "pending",
-          "note": "核对教师与课程；若课程学期不明则只列lead"
-        },
-        {
           "source": "pinyin_initials",
           "query": "科学英语写作 gongming Fudan",
           "status": "pending",
           "note": "仅作搜索变体；首字母/拼音命中须回到上下文确认身份"
         }
       ],
-      "state": "not_individually_queried"
+      "state": "query_attempt_no_review"
     },
     {
       "course_code": "CHEM50010",
@@ -6669,8 +6584,8 @@
         {
           "source": "general_web",
           "query": "\"科研论文写作\" 复旦 课程评价",
-          "status": "pending",
-          "note": "准确课程名；摘要只记lead，打开正文核实后才转read"
+          "status": "searched_no_exact_class_review",
+          "note": "2026-10-27执行课号+课名+scope教师组合及广搜；无课程评价正文。结果命中一般科研写作课程资料或其他院系论文写作课，未证为化学系本课。"
         },
         {
           "source": "zhihu",
@@ -6693,14 +6608,14 @@
         {
           "source": "code",
           "query": "\"CHEM50010\" 复旦",
-          "status": "pending",
-          "note": "检索代码与课程名命中"
+          "status": "searched_no_exact_class_review",
+          "note": "2026-10-27执行课号+课名+scope教师组合及广搜；无课程评价正文。结果命中一般科研写作课程资料或其他院系论文写作课，未证为化学系本课。"
         },
         {
           "source": "teacher_crosscheck",
           "query": "\"科研论文写作\" \"郁琦\" 复旦",
-          "status": "pending",
-          "note": "核对教师与课程；若课程学期不明则只列lead"
+          "status": "searched_no_exact_class_review",
+          "note": "2026-10-27执行课号+课名+scope教师组合及广搜；无课程评价正文。结果命中一般科研写作课程资料或其他院系论文写作课，未证为化学系本课。"
         },
         {
           "source": "pinyin_initials",
@@ -6715,12 +6630,6 @@
       "excluded": [],
       "pending": [
         {
-          "source": "general_web",
-          "query": "\"科研论文写作\" 复旦 课程评价",
-          "status": "pending",
-          "note": "准确课程名；摘要只记lead，打开正文核实后才转read"
-        },
-        {
           "source": "zhihu",
           "query": "site:zhihu.com \"科研论文写作\" 复旦",
           "status": "pending",
@@ -6739,25 +6648,13 @@
           "note": "搜狗卡片/snippet仅lead，需文章正文"
         },
         {
-          "source": "code",
-          "query": "\"CHEM50010\" 复旦",
-          "status": "pending",
-          "note": "检索代码与课程名命中"
-        },
-        {
-          "source": "teacher_crosscheck",
-          "query": "\"科研论文写作\" \"郁琦\" 复旦",
-          "status": "pending",
-          "note": "核对教师与课程；若课程学期不明则只列lead"
-        },
-        {
           "source": "pinyin_initials",
           "query": "科研论文写作 yuqi Fudan",
           "status": "pending",
           "note": "仅作搜索变体；首字母/拼音命中须回到上下文确认身份"
         }
       ],
-      "state": "not_individually_queried"
+      "state": "query_attempt_no_review"
     },
     {
       "course_code": "CHEM60003",
@@ -6775,8 +6672,8 @@
         {
           "source": "general_web",
           "query": "\"无机合成\" 复旦 课程评价",
-          "status": "pending",
-          "note": "准确课程名；摘要只记lead，打开正文核实后才转read"
+          "status": "completed_no_course_review_candidate",
+          "note": "2026-10-27 exact course-code/title/teacher and broad title/teacher searches run; no student course-review body candidate. Search result pages/snippets not read as course evaluations."
         },
         {
           "source": "zhihu",
@@ -6799,14 +6696,14 @@
         {
           "source": "code",
           "query": "\"CHEM60003\" 复旦",
-          "status": "pending",
-          "note": "检索代码与课程名命中"
+          "status": "completed_no_course_review_candidate",
+          "note": "2026-10-27 exact course-code/title/teacher and broad title/teacher searches run; no student course-review body candidate. Search result pages/snippets not read as course evaluations."
         },
         {
           "source": "teacher_crosscheck",
           "query": "\"无机合成\" \"张立新\" 复旦",
-          "status": "pending",
-          "note": "核对教师与课程；若课程学期不明则只列lead"
+          "status": "completed_no_course_review_candidate",
+          "note": "2026-10-27 exact course-code/title/teacher and broad title/teacher searches run; no student course-review body candidate. Search result pages/snippets not read as course evaluations."
         },
         {
           "source": "pinyin_initials",
@@ -6821,12 +6718,6 @@
       "excluded": [],
       "pending": [
         {
-          "source": "general_web",
-          "query": "\"无机合成\" 复旦 课程评价",
-          "status": "pending",
-          "note": "准确课程名；摘要只记lead，打开正文核实后才转read"
-        },
-        {
           "source": "zhihu",
           "query": "site:zhihu.com \"无机合成\" 复旦",
           "status": "pending",
@@ -6845,25 +6736,13 @@
           "note": "搜狗卡片/snippet仅lead，需文章正文"
         },
         {
-          "source": "code",
-          "query": "\"CHEM60003\" 复旦",
-          "status": "pending",
-          "note": "检索代码与课程名命中"
-        },
-        {
-          "source": "teacher_crosscheck",
-          "query": "\"无机合成\" \"张立新\" 复旦",
-          "status": "pending",
-          "note": "核对教师与课程；若课程学期不明则只列lead"
-        },
-        {
           "source": "pinyin_initials",
           "query": "无机合成 zhanglixin Fudan",
           "status": "pending",
           "note": "仅作搜索变体；首字母/拼音命中须回到上下文确认身份"
         }
       ],
-      "state": "not_individually_queried"
+      "state": "query_attempt_no_review"
     },
     {
       "course_code": "CHEM60004",
@@ -6884,8 +6763,8 @@
         {
           "source": "general_web",
           "query": "\"高等仪器分析\" 复旦 课程评价",
-          "status": "pending",
-          "note": "准确课程名；摘要只记lead，打开正文核实后才转read"
+          "status": "searched_no_review",
+          "note": "2026-10-27执行课号+课名+scope教师组合及广义搜索；未见学生课评正文。历史研究生代码CHEM620008同名课程及同教师仅为旧课程排课资料，不映射为当前CHEM60004班评价；未打开正文。"
         },
         {
           "source": "zhihu",
@@ -6908,14 +6787,14 @@
         {
           "source": "code",
           "query": "\"CHEM60004\" 复旦",
-          "status": "pending",
-          "note": "检索代码与课程名命中"
+          "status": "searched_no_review",
+          "note": "2026-10-27执行课号+课名+scope教师组合及广义搜索；未见学生课评正文。历史研究生代码CHEM620008同名课程及同教师仅为旧课程排课资料，不映射为当前CHEM60004班评价；未打开正文。"
         },
         {
           "source": "teacher_crosscheck",
           "query": "\"高等仪器分析\" \"张祥民\" 复旦",
-          "status": "pending",
-          "note": "核对教师与课程；若课程学期不明则只列lead"
+          "status": "searched_no_review",
+          "note": "2026-10-27执行课号+课名+scope教师组合及广义搜索；未见学生课评正文。历史研究生代码CHEM620008同名课程及同教师仅为旧课程排课资料，不映射为当前CHEM60004班评价；未打开正文。"
         },
         {
           "source": "pinyin_initials",
@@ -6926,8 +6805,8 @@
         {
           "source": "teacher_crosscheck",
           "query": "\"高等仪器分析\" \"孔继烈\" 复旦",
-          "status": "pending",
-          "note": "核对教师与课程；若课程学期不明则只列lead"
+          "status": "searched_no_review",
+          "note": "2026-10-27执行课号+课名+scope教师组合及广义搜索；未见学生课评正文。历史研究生代码CHEM620008同名课程及同教师仅为旧课程排课资料，不映射为当前CHEM60004班评价；未打开正文。"
         },
         {
           "source": "pinyin_initials",
@@ -6942,12 +6821,6 @@
       "excluded": [],
       "pending": [
         {
-          "source": "general_web",
-          "query": "\"高等仪器分析\" 复旦 课程评价",
-          "status": "pending",
-          "note": "准确课程名；摘要只记lead，打开正文核实后才转read"
-        },
-        {
           "source": "zhihu",
           "query": "site:zhihu.com \"高等仪器分析\" 复旦",
           "status": "pending",
@@ -6966,28 +6839,10 @@
           "note": "搜狗卡片/snippet仅lead，需文章正文"
         },
         {
-          "source": "code",
-          "query": "\"CHEM60004\" 复旦",
-          "status": "pending",
-          "note": "检索代码与课程名命中"
-        },
-        {
-          "source": "teacher_crosscheck",
-          "query": "\"高等仪器分析\" \"张祥民\" 复旦",
-          "status": "pending",
-          "note": "核对教师与课程；若课程学期不明则只列lead"
-        },
-        {
           "source": "pinyin_initials",
           "query": "高等仪器分析 zhangxiangmin Fudan",
           "status": "pending",
           "note": "仅作搜索变体；首字母/拼音命中须回到上下文确认身份"
-        },
-        {
-          "source": "teacher_crosscheck",
-          "query": "\"高等仪器分析\" \"孔继烈\" 复旦",
-          "status": "pending",
-          "note": "核对教师与课程；若课程学期不明则只列lead"
         },
         {
           "source": "pinyin_initials",
@@ -6996,7 +6851,7 @@
           "note": "仅作搜索变体；首字母/拼音命中须回到上下文确认身份"
         }
       ],
-      "state": "not_individually_queried"
+      "state": "query_attempt_no_review"
     },
     {
       "course_code": "CHEM60005",
@@ -7354,8 +7209,8 @@
         {
           "source": "general_web",
           "query": "\"生物色谱\" 复旦 课程评价",
-          "status": "pending",
-          "note": "准确课程名；摘要只记lead，打开正文核实后才转read"
+          "status": "searched_no_review",
+          "note": "2026-10-27执行课号+课名+scope教师组合及广义搜索；未见学生课评正文。高明霞教师页称其讲授研究生《生物色谱》，这是课程/教师资料，不含学生评价；未打开正文。"
         },
         {
           "source": "zhihu",
@@ -7378,14 +7233,14 @@
         {
           "source": "code",
           "query": "\"CHEM60013\" 复旦",
-          "status": "pending",
-          "note": "检索代码与课程名命中"
+          "status": "searched_no_review",
+          "note": "2026-10-27执行课号+课名+scope教师组合及广义搜索；未见学生课评正文。高明霞教师页称其讲授研究生《生物色谱》，这是课程/教师资料，不含学生评价；未打开正文。"
         },
         {
           "source": "teacher_crosscheck",
           "query": "\"生物色谱\" \"高明霞\" 复旦",
-          "status": "pending",
-          "note": "核对教师与课程；若课程学期不明则只列lead"
+          "status": "searched_no_review",
+          "note": "2026-10-27执行课号+课名+scope教师组合及广义搜索；未见学生课评正文。高明霞教师页称其讲授研究生《生物色谱》，这是课程/教师资料，不含学生评价；未打开正文。"
         },
         {
           "source": "pinyin_initials",
@@ -7400,12 +7255,6 @@
       "excluded": [],
       "pending": [
         {
-          "source": "general_web",
-          "query": "\"生物色谱\" 复旦 课程评价",
-          "status": "pending",
-          "note": "准确课程名；摘要只记lead，打开正文核实后才转read"
-        },
-        {
           "source": "zhihu",
           "query": "site:zhihu.com \"生物色谱\" 复旦",
           "status": "pending",
@@ -7424,25 +7273,13 @@
           "note": "搜狗卡片/snippet仅lead，需文章正文"
         },
         {
-          "source": "code",
-          "query": "\"CHEM60013\" 复旦",
-          "status": "pending",
-          "note": "检索代码与课程名命中"
-        },
-        {
-          "source": "teacher_crosscheck",
-          "query": "\"生物色谱\" \"高明霞\" 复旦",
-          "status": "pending",
-          "note": "核对教师与课程；若课程学期不明则只列lead"
-        },
-        {
           "source": "pinyin_initials",
           "query": "生物色谱 gaomingxia Fudan",
           "status": "pending",
           "note": "仅作搜索变体；首字母/拼音命中须回到上下文确认身份"
         }
       ],
-      "state": "not_individually_queried"
+      "state": "query_attempt_no_review"
     },
     {
       "course_code": "CHEM60014",
@@ -7465,8 +7302,8 @@
         {
           "source": "general_web",
           "query": "\"物理有机化学\" 复旦 课程评价",
-          "status": "pending",
-          "note": "准确课程名；摘要只记lead，打开正文核实后才转read"
+          "status": "searched_no_review",
+          "note": "2026-10-27执行课号+课名+scope教师组合及广义检索；未见学生课评正文。钱辉主页确认授课《物理有机化学》，但仅为教师课程信息，无学生评价；未打开正文。"
         },
         {
           "source": "zhihu",
@@ -7489,14 +7326,14 @@
         {
           "source": "code",
           "query": "\"CHEM60014\" 复旦",
-          "status": "pending",
-          "note": "检索代码与课程名命中"
+          "status": "searched_no_review",
+          "note": "2026-10-27执行课号+课名+scope教师组合及广义检索；未见学生课评正文。钱辉主页确认授课《物理有机化学》，但仅为教师课程信息，无学生评价；未打开正文。"
         },
         {
           "source": "teacher_crosscheck",
           "query": "\"物理有机化学\" \"王全瑞\" 复旦",
-          "status": "pending",
-          "note": "核对教师与课程；若课程学期不明则只列lead"
+          "status": "searched_no_review",
+          "note": "2026-10-27执行课号+课名+scope教师组合及广义检索；未见学生课评正文。钱辉主页确认授课《物理有机化学》，但仅为教师课程信息，无学生评价；未打开正文。"
         },
         {
           "source": "pinyin_initials",
@@ -7507,8 +7344,8 @@
         {
           "source": "teacher_crosscheck",
           "query": "\"物理有机化学\" \"钱辉\" 复旦",
-          "status": "pending",
-          "note": "核对教师与课程；若课程学期不明则只列lead"
+          "status": "searched_no_review",
+          "note": "2026-10-27执行课号+课名+scope教师组合及广义检索；未见学生课评正文。钱辉主页确认授课《物理有机化学》，但仅为教师课程信息，无学生评价；未打开正文。"
         },
         {
           "source": "pinyin_initials",
@@ -7523,12 +7360,6 @@
       "excluded": [],
       "pending": [
         {
-          "source": "general_web",
-          "query": "\"物理有机化学\" 复旦 课程评价",
-          "status": "pending",
-          "note": "准确课程名；摘要只记lead，打开正文核实后才转read"
-        },
-        {
           "source": "zhihu",
           "query": "site:zhihu.com \"物理有机化学\" 复旦",
           "status": "pending",
@@ -7547,28 +7378,10 @@
           "note": "搜狗卡片/snippet仅lead，需文章正文"
         },
         {
-          "source": "code",
-          "query": "\"CHEM60014\" 复旦",
-          "status": "pending",
-          "note": "检索代码与课程名命中"
-        },
-        {
-          "source": "teacher_crosscheck",
-          "query": "\"物理有机化学\" \"王全瑞\" 复旦",
-          "status": "pending",
-          "note": "核对教师与课程；若课程学期不明则只列lead"
-        },
-        {
           "source": "pinyin_initials",
           "query": "物理有机化学 wangquanrui Fudan",
           "status": "pending",
           "note": "仅作搜索变体；首字母/拼音命中须回到上下文确认身份"
-        },
-        {
-          "source": "teacher_crosscheck",
-          "query": "\"物理有机化学\" \"钱辉\" 复旦",
-          "status": "pending",
-          "note": "核对教师与课程；若课程学期不明则只列lead"
         },
         {
           "source": "pinyin_initials",
@@ -7577,7 +7390,7 @@
           "note": "仅作搜索变体；首字母/拼音命中须回到上下文确认身份"
         }
       ],
-      "state": "not_individually_queried"
+      "state": "query_attempt_no_review"
     },
     {
       "course_code": "CHEM60017",
@@ -7824,8 +7637,8 @@
         {
           "source": "general_web",
           "query": "\"功能分子材料和生物材料\" 复旦 课程评价",
-          "status": "pending",
-          "note": "准确课程名；摘要只记lead，打开正文核实后才转read"
+          "status": "searched_no_review",
+          "note": "2026-10-27执行课号+课名+scope教师组合及广义搜索；未见学生课评正文。搜索命中教师资料/其他课程科研介绍，不映射为当前课评价；均未打开正文。"
         },
         {
           "source": "zhihu",
@@ -7848,14 +7661,14 @@
         {
           "source": "code",
           "query": "\"CHEM60021\" 复旦",
-          "status": "pending",
-          "note": "检索代码与课程名命中"
+          "status": "searched_no_review",
+          "note": "2026-10-27执行课号+课名+scope教师组合及广义搜索；未见学生课评正文。搜索命中教师资料/其他课程科研介绍，不映射为当前课评价；均未打开正文。"
         },
         {
           "source": "teacher_crosscheck",
           "query": "\"功能分子材料和生物材料\" \"李晓民\" 复旦",
-          "status": "pending",
-          "note": "核对教师与课程；若课程学期不明则只列lead"
+          "status": "searched_no_review",
+          "note": "2026-10-27执行课号+课名+scope教师组合及广义搜索；未见学生课评正文。搜索命中教师资料/其他课程科研介绍，不映射为当前课评价；均未打开正文。"
         },
         {
           "source": "pinyin_initials",
@@ -7866,8 +7679,8 @@
         {
           "source": "teacher_crosscheck",
           "query": "\"功能分子材料和生物材料\" \"张凡\" 复旦",
-          "status": "pending",
-          "note": "核对教师与课程；若课程学期不明则只列lead"
+          "status": "searched_no_review",
+          "note": "2026-10-27执行课号+课名+scope教师组合及广义搜索；未见学生课评正文。搜索命中教师资料/其他课程科研介绍，不映射为当前课评价；均未打开正文。"
         },
         {
           "source": "pinyin_initials",
@@ -7882,12 +7695,6 @@
       "excluded": [],
       "pending": [
         {
-          "source": "general_web",
-          "query": "\"功能分子材料和生物材料\" 复旦 课程评价",
-          "status": "pending",
-          "note": "准确课程名；摘要只记lead，打开正文核实后才转read"
-        },
-        {
           "source": "zhihu",
           "query": "site:zhihu.com \"功能分子材料和生物材料\" 复旦",
           "status": "pending",
@@ -7906,28 +7713,10 @@
           "note": "搜狗卡片/snippet仅lead，需文章正文"
         },
         {
-          "source": "code",
-          "query": "\"CHEM60021\" 复旦",
-          "status": "pending",
-          "note": "检索代码与课程名命中"
-        },
-        {
-          "source": "teacher_crosscheck",
-          "query": "\"功能分子材料和生物材料\" \"李晓民\" 复旦",
-          "status": "pending",
-          "note": "核对教师与课程；若课程学期不明则只列lead"
-        },
-        {
           "source": "pinyin_initials",
           "query": "功能分子材料和生物材料 lixiaomin Fudan",
           "status": "pending",
           "note": "仅作搜索变体；首字母/拼音命中须回到上下文确认身份"
-        },
-        {
-          "source": "teacher_crosscheck",
-          "query": "\"功能分子材料和生物材料\" \"张凡\" 复旦",
-          "status": "pending",
-          "note": "核对教师与课程；若课程学期不明则只列lead"
         },
         {
           "source": "pinyin_initials",
@@ -7936,7 +7725,7 @@
           "note": "仅作搜索变体；首字母/拼音命中须回到上下文确认身份"
         }
       ],
-      "state": "not_individually_queried"
+      "state": "query_attempt_no_review"
     },
     {
       "course_code": "CHEM60024",
@@ -7958,8 +7747,8 @@
         {
           "source": "general_web",
           "query": "\"金属有机化学\" 复旦 课程评价",
-          "status": "pending",
-          "note": "准确课程名；摘要只记lead，打开正文核实后才转read"
+          "status": "completed_no_course_review_candidate",
+          "note": "2026-10-27 exact course-code/title/teacher and broad title/teacher searches run; no student course-review body candidate. Search result pages/snippets not read as course evaluations."
         },
         {
           "source": "zhihu",
@@ -7982,14 +7771,14 @@
         {
           "source": "code",
           "query": "\"CHEM60024\" 复旦",
-          "status": "pending",
-          "note": "检索代码与课程名命中"
+          "status": "completed_no_course_review_candidate",
+          "note": "2026-10-27 exact course-code/title/teacher and broad title/teacher searches run; no student course-review body candidate. Search result pages/snippets not read as course evaluations."
         },
         {
           "source": "teacher_crosscheck",
           "query": "\"金属有机化学\" \"张俊良\" 复旦",
-          "status": "pending",
-          "note": "核对教师与课程；若课程学期不明则只列lead"
+          "status": "completed_no_course_review_candidate",
+          "note": "2026-10-27 exact course-code/title/teacher and broad title/teacher searches run; no student course-review body candidate. Search result pages/snippets not read as course evaluations."
         },
         {
           "source": "pinyin_initials",
@@ -8004,12 +7793,6 @@
       "excluded": [],
       "pending": [
         {
-          "source": "general_web",
-          "query": "\"金属有机化学\" 复旦 课程评价",
-          "status": "pending",
-          "note": "准确课程名；摘要只记lead，打开正文核实后才转read"
-        },
-        {
           "source": "zhihu",
           "query": "site:zhihu.com \"金属有机化学\" 复旦",
           "status": "pending",
@@ -8028,25 +7811,13 @@
           "note": "搜狗卡片/snippet仅lead，需文章正文"
         },
         {
-          "source": "code",
-          "query": "\"CHEM60024\" 复旦",
-          "status": "pending",
-          "note": "检索代码与课程名命中"
-        },
-        {
-          "source": "teacher_crosscheck",
-          "query": "\"金属有机化学\" \"张俊良\" 复旦",
-          "status": "pending",
-          "note": "核对教师与课程；若课程学期不明则只列lead"
-        },
-        {
           "source": "pinyin_initials",
           "query": "金属有机化学 zhangjunliang Fudan",
           "status": "pending",
           "note": "仅作搜索变体；首字母/拼音命中须回到上下文确认身份"
         }
       ],
-      "state": "not_individually_queried"
+      "state": "query_attempt_no_review"
     },
     {
       "course_code": "CHEM60026",
@@ -8064,8 +7835,8 @@
         {
           "source": "general_web",
           "query": "\"有机结构分析\" 复旦 课程评价",
-          "status": "pending",
-          "note": "准确课程名；摘要只记lead，打开正文核实后才转read"
+          "status": "searched_no_review",
+          "note": "2026-10-27执行课号+课名+scope教师组合及广义搜索；未见复旦学生课评正文。广搜出现USTC评课社区的“有机结构分析”学生评价，作者/课程归属为USTC且非复旦朱灿课程，排除；另有复旦旧名课程CHEM130075资料，课程名/代码未证等同，未映射。"
         },
         {
           "source": "zhihu",
@@ -8088,14 +7859,14 @@
         {
           "source": "code",
           "query": "\"CHEM60026\" 复旦",
-          "status": "pending",
-          "note": "检索代码与课程名命中"
+          "status": "searched_no_review",
+          "note": "2026-10-27执行课号+课名+scope教师组合及广义搜索；未见复旦学生课评正文。广搜出现USTC评课社区的“有机结构分析”学生评价，作者/课程归属为USTC且非复旦朱灿课程，排除；另有复旦旧名课程CHEM130075资料，课程名/代码未证等同，未映射。"
         },
         {
           "source": "teacher_crosscheck",
           "query": "\"有机结构分析\" \"朱灿\" 复旦",
-          "status": "pending",
-          "note": "核对教师与课程；若课程学期不明则只列lead"
+          "status": "searched_no_review",
+          "note": "2026-10-27执行课号+课名+scope教师组合及广义搜索；未见复旦学生课评正文。广搜出现USTC评课社区的“有机结构分析”学生评价，作者/课程归属为USTC且非复旦朱灿课程，排除；另有复旦旧名课程CHEM130075资料，课程名/代码未证等同，未映射。"
         },
         {
           "source": "pinyin_initials",
@@ -8110,12 +7881,6 @@
       "excluded": [],
       "pending": [
         {
-          "source": "general_web",
-          "query": "\"有机结构分析\" 复旦 课程评价",
-          "status": "pending",
-          "note": "准确课程名；摘要只记lead，打开正文核实后才转read"
-        },
-        {
           "source": "zhihu",
           "query": "site:zhihu.com \"有机结构分析\" 复旦",
           "status": "pending",
@@ -8134,25 +7899,13 @@
           "note": "搜狗卡片/snippet仅lead，需文章正文"
         },
         {
-          "source": "code",
-          "query": "\"CHEM60026\" 复旦",
-          "status": "pending",
-          "note": "检索代码与课程名命中"
-        },
-        {
-          "source": "teacher_crosscheck",
-          "query": "\"有机结构分析\" \"朱灿\" 复旦",
-          "status": "pending",
-          "note": "核对教师与课程；若课程学期不明则只列lead"
-        },
-        {
           "source": "pinyin_initials",
           "query": "有机结构分析 zhucan Fudan",
           "status": "pending",
           "note": "仅作搜索变体；首字母/拼音命中须回到上下文确认身份"
         }
       ],
-      "state": "not_individually_queried"
+      "state": "query_attempt_no_review"
     },
     {
       "course_code": "CHEM60027",
@@ -8170,8 +7923,8 @@
         {
           "source": "general_web",
           "query": "\"蛋白质组学的新技术和新方法\" 复旦 课程评价",
-          "status": "pending",
-          "note": "准确课程名；摘要只记lead，打开正文核实后才转read"
+          "status": "searched_no_review",
+          "note": "2026-10-27执行课号+课名+scope教师组合及广义搜索；未见学生课评正文。搜索结果主要为教师科研介绍/报告，无当前课程体验或考核信息；均未打开正文。"
         },
         {
           "source": "zhihu",
@@ -8194,14 +7947,14 @@
         {
           "source": "code",
           "query": "\"CHEM60027\" 复旦",
-          "status": "pending",
-          "note": "检索代码与课程名命中"
+          "status": "searched_no_review",
+          "note": "2026-10-27执行课号+课名+scope教师组合及广义搜索；未见学生课评正文。搜索结果主要为教师科研介绍/报告，无当前课程体验或考核信息；均未打开正文。"
         },
         {
           "source": "teacher_crosscheck",
           "query": "\"蛋白质组学的新技术和新方法\" \"陆豪杰\" 复旦",
-          "status": "pending",
-          "note": "核对教师与课程；若课程学期不明则只列lead"
+          "status": "searched_no_review",
+          "note": "2026-10-27执行课号+课名+scope教师组合及广义搜索；未见学生课评正文。搜索结果主要为教师科研介绍/报告，无当前课程体验或考核信息；均未打开正文。"
         },
         {
           "source": "pinyin_initials",
@@ -8216,12 +7969,6 @@
       "excluded": [],
       "pending": [
         {
-          "source": "general_web",
-          "query": "\"蛋白质组学的新技术和新方法\" 复旦 课程评价",
-          "status": "pending",
-          "note": "准确课程名；摘要只记lead，打开正文核实后才转read"
-        },
-        {
           "source": "zhihu",
           "query": "site:zhihu.com \"蛋白质组学的新技术和新方法\" 复旦",
           "status": "pending",
@@ -8240,25 +7987,13 @@
           "note": "搜狗卡片/snippet仅lead，需文章正文"
         },
         {
-          "source": "code",
-          "query": "\"CHEM60027\" 复旦",
-          "status": "pending",
-          "note": "检索代码与课程名命中"
-        },
-        {
-          "source": "teacher_crosscheck",
-          "query": "\"蛋白质组学的新技术和新方法\" \"陆豪杰\" 复旦",
-          "status": "pending",
-          "note": "核对教师与课程；若课程学期不明则只列lead"
-        },
-        {
           "source": "pinyin_initials",
           "query": "蛋白质组学的新技术和新方法 luhaojie Fudan",
           "status": "pending",
           "note": "仅作搜索变体；首字母/拼音命中须回到上下文确认身份"
         }
       ],
-      "state": "not_individually_queried"
+      "state": "query_attempt_no_review"
     },
     {
       "course_code": "CHEM70005",
@@ -8488,8 +8223,8 @@
         {
           "source": "general_web",
           "query": "\"分子反应动力学\" 复旦 课程评价",
-          "status": "pending",
-          "note": "准确课程名；摘要只记lead，打开正文核实后才转read"
+          "status": "searched_no_review",
+          "note": "2026-10-27执行课号+课名+scope教师组合及广义搜索；未见学生课评正文。搜索命中王凤燕研究方向/教师介绍，不是课程评价；未打开正文。"
         },
         {
           "source": "zhihu",
@@ -8512,14 +8247,14 @@
         {
           "source": "code",
           "query": "\"CHEM70011\" 复旦",
-          "status": "pending",
-          "note": "检索代码与课程名命中"
+          "status": "searched_no_review",
+          "note": "2026-10-27执行课号+课名+scope教师组合及广义搜索；未见学生课评正文。搜索命中王凤燕研究方向/教师介绍，不是课程评价；未打开正文。"
         },
         {
           "source": "teacher_crosscheck",
           "query": "\"分子反应动力学\" \"王凤燕\" 复旦",
-          "status": "pending",
-          "note": "核对教师与课程；若课程学期不明则只列lead"
+          "status": "searched_no_review",
+          "note": "2026-10-27执行课号+课名+scope教师组合及广义搜索；未见学生课评正文。搜索命中王凤燕研究方向/教师介绍，不是课程评价；未打开正文。"
         },
         {
           "source": "pinyin_initials",
@@ -8534,12 +8269,6 @@
       "excluded": [],
       "pending": [
         {
-          "source": "general_web",
-          "query": "\"分子反应动力学\" 复旦 课程评价",
-          "status": "pending",
-          "note": "准确课程名；摘要只记lead，打开正文核实后才转read"
-        },
-        {
           "source": "zhihu",
           "query": "site:zhihu.com \"分子反应动力学\" 复旦",
           "status": "pending",
@@ -8558,25 +8287,13 @@
           "note": "搜狗卡片/snippet仅lead，需文章正文"
         },
         {
-          "source": "code",
-          "query": "\"CHEM70011\" 复旦",
-          "status": "pending",
-          "note": "检索代码与课程名命中"
-        },
-        {
-          "source": "teacher_crosscheck",
-          "query": "\"分子反应动力学\" \"王凤燕\" 复旦",
-          "status": "pending",
-          "note": "核对教师与课程；若课程学期不明则只列lead"
-        },
-        {
           "source": "pinyin_initials",
           "query": "分子反应动力学 wangfengyan Fudan",
           "status": "pending",
           "note": "仅作搜索变体；首字母/拼音命中须回到上下文确认身份"
         }
       ],
-      "state": "not_individually_queried"
+      "state": "query_attempt_no_review"
     },
     {
       "course_code": "CHEM70013",
@@ -9018,8 +8735,8 @@
         {
           "source": "general_web",
           "query": "\"配位化学\" 复旦 课程评价",
-          "status": "pending",
-          "note": "准确课程名；摘要只记lead，打开正文核实后才转read"
+          "status": "searched_no_review",
+          "note": "2026-10-27执行课号+课名+scope教师组合及广义搜索；未见配位化学课程评价正文。另出现董安钢PI评价页面，主题是导师指导/课题组而非CHEM70019课程，不采为课程评价；未读正文。"
         },
         {
           "source": "zhihu",
@@ -9042,14 +8759,14 @@
         {
           "source": "code",
           "query": "\"CHEM70019\" 复旦",
-          "status": "pending",
-          "note": "检索代码与课程名命中"
+          "status": "searched_no_review",
+          "note": "2026-10-27执行课号+课名+scope教师组合及广义搜索；未见配位化学课程评价正文。另出现董安钢PI评价页面，主题是导师指导/课题组而非CHEM70019课程，不采为课程评价；未读正文。"
         },
         {
           "source": "teacher_crosscheck",
           "query": "\"配位化学\" \"董安钢\" 复旦",
-          "status": "pending",
-          "note": "核对教师与课程；若课程学期不明则只列lead"
+          "status": "searched_no_review",
+          "note": "2026-10-27执行课号+课名+scope教师组合及广义搜索；未见配位化学课程评价正文。另出现董安钢PI评价页面，主题是导师指导/课题组而非CHEM70019课程，不采为课程评价；未读正文。"
         },
         {
           "source": "pinyin_initials",
@@ -9064,12 +8781,6 @@
       "excluded": [],
       "pending": [
         {
-          "source": "general_web",
-          "query": "\"配位化学\" 复旦 课程评价",
-          "status": "pending",
-          "note": "准确课程名；摘要只记lead，打开正文核实后才转read"
-        },
-        {
           "source": "zhihu",
           "query": "site:zhihu.com \"配位化学\" 复旦",
           "status": "pending",
@@ -9088,25 +8799,13 @@
           "note": "搜狗卡片/snippet仅lead，需文章正文"
         },
         {
-          "source": "code",
-          "query": "\"CHEM70019\" 复旦",
-          "status": "pending",
-          "note": "检索代码与课程名命中"
-        },
-        {
-          "source": "teacher_crosscheck",
-          "query": "\"配位化学\" \"董安钢\" 复旦",
-          "status": "pending",
-          "note": "核对教师与课程；若课程学期不明则只列lead"
-        },
-        {
           "source": "pinyin_initials",
           "query": "配位化学 dongangang Fudan",
           "status": "pending",
           "note": "仅作搜索变体；首字母/拼音命中须回到上下文确认身份"
         }
       ],
-      "state": "not_individually_queried"
+      "state": "query_attempt_no_review"
     },
     {
       "course_code": "CHEM70020",
@@ -9446,8 +9145,8 @@
         {
           "source": "general_web",
           "query": "\"催化反应机理及其研究方法\" 复旦 课程评价",
-          "status": "pending",
-          "note": "准确课程名；摘要只记lead，打开正文核实后才转read"
+          "status": "searched_no_review",
+          "note": "2026-10-27执行课号+课名+scope教师组合及广义检索；未见该本科/研究生班次学生课评正文。广搜命中教师页所列“催化反应机理（研）”和其他课程历史介绍，不能证明与当前CHEM70030班同一课程；未打开正文。"
         },
         {
           "source": "zhihu",
@@ -9470,14 +9169,14 @@
         {
           "source": "code",
           "query": "\"CHEM70030\" 复旦",
-          "status": "pending",
-          "note": "检索代码与课程名命中"
+          "status": "searched_no_review",
+          "note": "2026-10-27执行课号+课名+scope教师组合及广义检索；未见该本科/研究生班次学生课评正文。广搜命中教师页所列“催化反应机理（研）”和其他课程历史介绍，不能证明与当前CHEM70030班同一课程；未打开正文。"
         },
         {
           "source": "teacher_crosscheck",
           "query": "\"催化反应机理及其研究方法\" \"曹勇\" 复旦",
-          "status": "pending",
-          "note": "核对教师与课程；若课程学期不明则只列lead"
+          "status": "searched_no_review",
+          "note": "2026-10-27执行课号+课名+scope教师组合及广义检索；未见该本科/研究生班次学生课评正文。广搜命中教师页所列“催化反应机理（研）”和其他课程历史介绍，不能证明与当前CHEM70030班同一课程；未打开正文。"
         },
         {
           "source": "pinyin_initials",
@@ -9492,12 +9191,6 @@
       "excluded": [],
       "pending": [
         {
-          "source": "general_web",
-          "query": "\"催化反应机理及其研究方法\" 复旦 课程评价",
-          "status": "pending",
-          "note": "准确课程名；摘要只记lead，打开正文核实后才转read"
-        },
-        {
           "source": "zhihu",
           "query": "site:zhihu.com \"催化反应机理及其研究方法\" 复旦",
           "status": "pending",
@@ -9516,25 +9209,13 @@
           "note": "搜狗卡片/snippet仅lead，需文章正文"
         },
         {
-          "source": "code",
-          "query": "\"CHEM70030\" 复旦",
-          "status": "pending",
-          "note": "检索代码与课程名命中"
-        },
-        {
-          "source": "teacher_crosscheck",
-          "query": "\"催化反应机理及其研究方法\" \"曹勇\" 复旦",
-          "status": "pending",
-          "note": "核对教师与课程；若课程学期不明则只列lead"
-        },
-        {
           "source": "pinyin_initials",
           "query": "催化反应机理及其研究方法 caoyong Fudan",
           "status": "pending",
           "note": "仅作搜索变体；首字母/拼音命中须回到上下文确认身份"
         }
       ],
-      "state": "not_individually_queried"
+      "state": "query_attempt_no_review"
     },
     {
       "course_code": "CHEM70032",
@@ -9552,8 +9233,8 @@
         {
           "source": "general_web",
           "query": "\"分子聚集体材料和超薄膜\" 复旦 课程评价",
-          "status": "pending",
-          "note": "准确课程名；摘要只记lead，打开正文核实后才转read"
+          "status": "searched_no_review",
+          "note": "2026-10-27执行课号+课名+scope教师组合及广义搜索；未见学生课评正文。搜索摘要未找到可确认的当前课程体验。"
         },
         {
           "source": "zhihu",
@@ -9576,14 +9257,14 @@
         {
           "source": "code",
           "query": "\"CHEM70032\" 复旦",
-          "status": "pending",
-          "note": "检索代码与课程名命中"
+          "status": "searched_no_review",
+          "note": "2026-10-27执行课号+课名+scope教师组合及广义搜索；未见学生课评正文。搜索摘要未找到可确认的当前课程体验。"
         },
         {
           "source": "teacher_crosscheck",
           "query": "\"分子聚集体材料和超薄膜\" \"钱东金\" 复旦",
-          "status": "pending",
-          "note": "核对教师与课程；若课程学期不明则只列lead"
+          "status": "searched_no_review",
+          "note": "2026-10-27执行课号+课名+scope教师组合及广义搜索；未见学生课评正文。搜索摘要未找到可确认的当前课程体验。"
         },
         {
           "source": "pinyin_initials",
@@ -9598,12 +9279,6 @@
       "excluded": [],
       "pending": [
         {
-          "source": "general_web",
-          "query": "\"分子聚集体材料和超薄膜\" 复旦 课程评价",
-          "status": "pending",
-          "note": "准确课程名；摘要只记lead，打开正文核实后才转read"
-        },
-        {
           "source": "zhihu",
           "query": "site:zhihu.com \"分子聚集体材料和超薄膜\" 复旦",
           "status": "pending",
@@ -9622,25 +9297,13 @@
           "note": "搜狗卡片/snippet仅lead，需文章正文"
         },
         {
-          "source": "code",
-          "query": "\"CHEM70032\" 复旦",
-          "status": "pending",
-          "note": "检索代码与课程名命中"
-        },
-        {
-          "source": "teacher_crosscheck",
-          "query": "\"分子聚集体材料和超薄膜\" \"钱东金\" 复旦",
-          "status": "pending",
-          "note": "核对教师与课程；若课程学期不明则只列lead"
-        },
-        {
           "source": "pinyin_initials",
           "query": "分子聚集体材料和超薄膜 qiandongjin Fudan",
           "status": "pending",
           "note": "仅作搜索变体；首字母/拼音命中须回到上下文确认身份"
         }
       ],
-      "state": "not_individually_queried"
+      "state": "query_attempt_no_review"
     },
     {
       "course_code": "CHEM70033",
@@ -9658,8 +9321,8 @@
         {
           "source": "general_web",
           "query": "\"科学仪器基础\" 复旦 课程评价",
-          "status": "pending",
-          "note": "准确课程名；摘要只记lead，打开正文核实后才转read"
+          "status": "searched_no_review",
+          "note": "2026-10-27执行课号+课名+scope教师组合及广义检索；未见学生课评正文。搜索结果无能确认课程体验的正文候选。"
         },
         {
           "source": "zhihu",
@@ -9682,14 +9345,14 @@
         {
           "source": "code",
           "query": "\"CHEM70033\" 复旦",
-          "status": "pending",
-          "note": "检索代码与课程名命中"
+          "status": "searched_no_review",
+          "note": "2026-10-27执行课号+课名+scope教师组合及广义检索；未见学生课评正文。搜索结果无能确认课程体验的正文候选。"
         },
         {
           "source": "teacher_crosscheck",
           "query": "\"科学仪器基础\" \"王冠军\" 复旦",
-          "status": "pending",
-          "note": "核对教师与课程；若课程学期不明则只列lead"
+          "status": "searched_no_review",
+          "note": "2026-10-27执行课号+课名+scope教师组合及广义检索；未见学生课评正文。搜索结果无能确认课程体验的正文候选。"
         },
         {
           "source": "pinyin_initials",
@@ -9704,12 +9367,6 @@
       "excluded": [],
       "pending": [
         {
-          "source": "general_web",
-          "query": "\"科学仪器基础\" 复旦 课程评价",
-          "status": "pending",
-          "note": "准确课程名；摘要只记lead，打开正文核实后才转read"
-        },
-        {
           "source": "zhihu",
           "query": "site:zhihu.com \"科学仪器基础\" 复旦",
           "status": "pending",
@@ -9728,25 +9385,13 @@
           "note": "搜狗卡片/snippet仅lead，需文章正文"
         },
         {
-          "source": "code",
-          "query": "\"CHEM70033\" 复旦",
-          "status": "pending",
-          "note": "检索代码与课程名命中"
-        },
-        {
-          "source": "teacher_crosscheck",
-          "query": "\"科学仪器基础\" \"王冠军\" 复旦",
-          "status": "pending",
-          "note": "核对教师与课程；若课程学期不明则只列lead"
-        },
-        {
           "source": "pinyin_initials",
           "query": "科学仪器基础 wangguanjun Fudan",
           "status": "pending",
           "note": "仅作搜索变体；首字母/拼音命中须回到上下文确认身份"
         }
       ],
-      "state": "not_individually_queried"
+      "state": "query_attempt_no_review"
     },
     {
       "course_code": "GEEC10038",
@@ -11644,8 +11289,8 @@
         {
           "source": "general_web",
           "query": "\"化学专业英语\" 复旦 课程评价",
-          "status": "pending",
-          "note": "准确课程名；摘要只记lead，打开正文核实后才转read"
+          "status": "completed_no_course_review_candidate",
+          "note": "2026-10-27 exact course-code/title/teacher and broad title/teacher searches run; no student course-review body candidate. Search results not read as course evaluations."
         },
         {
           "source": "zhihu",
@@ -11668,14 +11313,14 @@
         {
           "source": "code",
           "query": "\"CHEM20009\" 复旦",
-          "status": "pending",
-          "note": "检索代码与课程名命中"
+          "status": "completed_no_course_review_candidate",
+          "note": "2026-10-27 exact course-code/title/teacher and broad title/teacher searches run; no student course-review body candidate. Search results not read as course evaluations."
         },
         {
           "source": "teacher_crosscheck",
           "query": "\"化学专业英语\" \"蔡文斌\" 复旦",
-          "status": "pending",
-          "note": "核对教师与课程；若课程学期不明则只列lead"
+          "status": "completed_no_course_review_candidate",
+          "note": "2026-10-27 exact course-code/title/teacher and broad title/teacher searches run; no student course-review body candidate. Search results not read as course evaluations."
         },
         {
           "source": "pinyin_initials",
@@ -11702,12 +11347,6 @@
       "excluded": [],
       "pending": [
         {
-          "source": "general_web",
-          "query": "\"化学专业英语\" 复旦 课程评价",
-          "status": "pending",
-          "note": "准确课程名；摘要只记lead，打开正文核实后才转read"
-        },
-        {
           "source": "zhihu",
           "query": "site:zhihu.com \"化学专业英语\" 复旦",
           "status": "pending",
@@ -11724,18 +11363,6 @@
           "query": "\"化学专业英语\" 复旦 site:mp.weixin.qq.com",
           "status": "pending",
           "note": "搜狗卡片/snippet仅lead，需文章正文"
-        },
-        {
-          "source": "code",
-          "query": "\"CHEM20009\" 复旦",
-          "status": "pending",
-          "note": "检索代码与课程名命中"
-        },
-        {
-          "source": "teacher_crosscheck",
-          "query": "\"化学专业英语\" \"蔡文斌\" 复旦",
-          "status": "pending",
-          "note": "核对教师与课程；若课程学期不明则只列lead"
         },
         {
           "source": "pinyin_initials",
@@ -11756,7 +11383,7 @@
           "note": "仅作搜索变体；首字母/拼音命中须回到上下文确认身份"
         }
       ],
-      "state": "not_individually_queried"
+      "state": "query_attempt_no_review"
     },
     {
       "course_code": "CHEM20014",
@@ -14330,8 +13957,8 @@
         {
           "source": "general_web",
           "query": "\"生物无机化学进展\" 复旦 课程评价",
-          "status": "pending",
-          "note": "准确课程名；摘要只记lead，打开正文核实后才转read"
+          "status": "searched_no_review",
+          "note": "2026-10-27执行课号+课名+scope教师组合及广义搜索；未见学生课评正文。广搜未给该课程的学生体验或考核信息；未打开正文。"
         },
         {
           "source": "zhihu",
@@ -14354,14 +13981,14 @@
         {
           "source": "code",
           "query": "\"CHEM60007\" 复旦",
-          "status": "pending",
-          "note": "检索代码与课程名命中"
+          "status": "searched_no_review",
+          "note": "2026-10-27执行课号+课名+scope教师组合及广义搜索；未见学生课评正文。广搜未给该课程的学生体验或考核信息；未打开正文。"
         },
         {
           "source": "teacher_crosscheck",
           "query": "\"生物无机化学进展\" \"谭相石\" 复旦",
-          "status": "pending",
-          "note": "核对教师与课程；若课程学期不明则只列lead"
+          "status": "searched_no_review",
+          "note": "2026-10-27执行课号+课名+scope教师组合及广义搜索；未见学生课评正文。广搜未给该课程的学生体验或考核信息；未打开正文。"
         },
         {
           "source": "pinyin_initials",
@@ -14376,12 +14003,6 @@
       "excluded": [],
       "pending": [
         {
-          "source": "general_web",
-          "query": "\"生物无机化学进展\" 复旦 课程评价",
-          "status": "pending",
-          "note": "准确课程名；摘要只记lead，打开正文核实后才转read"
-        },
-        {
           "source": "zhihu",
           "query": "site:zhihu.com \"生物无机化学进展\" 复旦",
           "status": "pending",
@@ -14400,25 +14021,13 @@
           "note": "搜狗卡片/snippet仅lead，需文章正文"
         },
         {
-          "source": "code",
-          "query": "\"CHEM60007\" 复旦",
-          "status": "pending",
-          "note": "检索代码与课程名命中"
-        },
-        {
-          "source": "teacher_crosscheck",
-          "query": "\"生物无机化学进展\" \"谭相石\" 复旦",
-          "status": "pending",
-          "note": "核对教师与课程；若课程学期不明则只列lead"
-        },
-        {
           "source": "pinyin_initials",
           "query": "生物无机化学进展 tanxiangshi Fudan",
           "status": "pending",
           "note": "仅作搜索变体；首字母/拼音命中须回到上下文确认身份"
         }
       ],
-      "state": "not_individually_queried"
+      "state": "query_attempt_no_review"
     },
     {
       "course_code": "CHEM60008",
@@ -14440,8 +14049,8 @@
         {
           "source": "general_web",
           "query": "\"金属有机化学进展\" 复旦 课程评价",
-          "status": "pending",
-          "note": "准确课程名；摘要只记lead，打开正文核实后才转read"
+          "status": "searched_no_review",
+          "note": "2026-10-27执行课号+课名+scope教师组合及广义搜索；未见学生课评正文。广搜命中旧的课程资料（8月22–29专题课）和教师/研究资料，不足以确认与当前CHEM60008班次相同；未打开正文。"
         },
         {
           "source": "zhihu",
@@ -14464,14 +14073,14 @@
         {
           "source": "code",
           "query": "\"CHEM60008\" 复旦",
-          "status": "pending",
-          "note": "检索代码与课程名命中"
+          "status": "searched_no_review",
+          "note": "2026-10-27执行课号+课名+scope教师组合及广义搜索；未见学生课评正文。广搜命中旧的课程资料（8月22–29专题课）和教师/研究资料，不足以确认与当前CHEM60008班次相同；未打开正文。"
         },
         {
           "source": "teacher_crosscheck",
           "query": "\"金属有机化学进展\" \"周锡庚\" 复旦",
-          "status": "pending",
-          "note": "核对教师与课程；若课程学期不明则只列lead"
+          "status": "searched_no_review",
+          "note": "2026-10-27执行课号+课名+scope教师组合及广义搜索；未见学生课评正文。广搜命中旧的课程资料（8月22–29专题课）和教师/研究资料，不足以确认与当前CHEM60008班次相同；未打开正文。"
         },
         {
           "source": "pinyin_initials",
@@ -14486,12 +14095,6 @@
       "excluded": [],
       "pending": [
         {
-          "source": "general_web",
-          "query": "\"金属有机化学进展\" 复旦 课程评价",
-          "status": "pending",
-          "note": "准确课程名；摘要只记lead，打开正文核实后才转read"
-        },
-        {
           "source": "zhihu",
           "query": "site:zhihu.com \"金属有机化学进展\" 复旦",
           "status": "pending",
@@ -14510,25 +14113,13 @@
           "note": "搜狗卡片/snippet仅lead，需文章正文"
         },
         {
-          "source": "code",
-          "query": "\"CHEM60008\" 复旦",
-          "status": "pending",
-          "note": "检索代码与课程名命中"
-        },
-        {
-          "source": "teacher_crosscheck",
-          "query": "\"金属有机化学进展\" \"周锡庚\" 复旦",
-          "status": "pending",
-          "note": "核对教师与课程；若课程学期不明则只列lead"
-        },
-        {
           "source": "pinyin_initials",
           "query": "金属有机化学进展 zhouxigeng Fudan",
           "status": "pending",
           "note": "仅作搜索变体；首字母/拼音命中须回到上下文确认身份"
         }
       ],
-      "state": "not_individually_queried"
+      "state": "query_attempt_no_review"
     },
     {
       "course_code": "CHEM60010",
@@ -14546,8 +14137,8 @@
         {
           "source": "general_web",
           "query": "\"稀土化学\" 复旦 课程评价",
-          "status": "pending",
-          "note": "准确课程名；摘要只记lead，打开正文核实后才转read"
+          "status": "searched_no_review",
+          "note": "2026-10-27执行课号+课名+scope教师组合及广义搜索；未见学生课评正文。教师页称张杰讲授研究生选修《稀土化学》，是课程族/教师的官方资料但不是学生评价；未打开正文。"
         },
         {
           "source": "zhihu",
@@ -14570,14 +14161,14 @@
         {
           "source": "code",
           "query": "\"CHEM60010\" 复旦",
-          "status": "pending",
-          "note": "检索代码与课程名命中"
+          "status": "searched_no_review",
+          "note": "2026-10-27执行课号+课名+scope教师组合及广义搜索；未见学生课评正文。教师页称张杰讲授研究生选修《稀土化学》，是课程族/教师的官方资料但不是学生评价；未打开正文。"
         },
         {
           "source": "teacher_crosscheck",
           "query": "\"稀土化学\" \"张杰\" 复旦",
-          "status": "pending",
-          "note": "核对教师与课程；若课程学期不明则只列lead"
+          "status": "searched_no_review",
+          "note": "2026-10-27执行课号+课名+scope教师组合及广义搜索；未见学生课评正文。教师页称张杰讲授研究生选修《稀土化学》，是课程族/教师的官方资料但不是学生评价；未打开正文。"
         },
         {
           "source": "pinyin_initials",
@@ -14592,12 +14183,6 @@
       "excluded": [],
       "pending": [
         {
-          "source": "general_web",
-          "query": "\"稀土化学\" 复旦 课程评价",
-          "status": "pending",
-          "note": "准确课程名；摘要只记lead，打开正文核实后才转read"
-        },
-        {
           "source": "zhihu",
           "query": "site:zhihu.com \"稀土化学\" 复旦",
           "status": "pending",
@@ -14616,25 +14201,13 @@
           "note": "搜狗卡片/snippet仅lead，需文章正文"
         },
         {
-          "source": "code",
-          "query": "\"CHEM60010\" 复旦",
-          "status": "pending",
-          "note": "检索代码与课程名命中"
-        },
-        {
-          "source": "teacher_crosscheck",
-          "query": "\"稀土化学\" \"张杰\" 复旦",
-          "status": "pending",
-          "note": "核对教师与课程；若课程学期不明则只列lead"
-        },
-        {
           "source": "pinyin_initials",
           "query": "稀土化学 zhangjie Fudan",
           "status": "pending",
           "note": "仅作搜索变体；首字母/拼音命中须回到上下文确认身份"
         }
       ],
-      "state": "not_individually_queried"
+      "state": "query_attempt_no_review"
     },
     {
       "course_code": "CHEM60015",
@@ -14652,8 +14225,8 @@
         {
           "source": "general_web",
           "query": "\"现代有机金属化学\" 复旦 课程评价",
-          "status": "pending",
-          "note": "准确课程名；摘要只记lead，打开正文核实后才转read"
+          "status": "completed_no_course_review_candidate",
+          "note": "2026-10-27 exact course-code/title/teacher and broad title/teacher searches run; no student course-review body candidate. Search result pages/snippets not read as course evaluations."
         },
         {
           "source": "zhihu",
@@ -14676,14 +14249,14 @@
         {
           "source": "code",
           "query": "\"CHEM60015\" 复旦",
-          "status": "pending",
-          "note": "检索代码与课程名命中"
+          "status": "completed_no_course_review_candidate",
+          "note": "2026-10-27 exact course-code/title/teacher and broad title/teacher searches run; no student course-review body candidate. Search result pages/snippets not read as course evaluations."
         },
         {
           "source": "teacher_crosscheck",
           "query": "\"现代有机金属化学\" \"金国新\" 复旦",
-          "status": "pending",
-          "note": "核对教师与课程；若课程学期不明则只列lead"
+          "status": "completed_no_course_review_candidate",
+          "note": "2026-10-27 exact course-code/title/teacher and broad title/teacher searches run; no student course-review body candidate. Search result pages/snippets not read as course evaluations."
         },
         {
           "source": "pinyin_initials",
@@ -14698,12 +14271,6 @@
       "excluded": [],
       "pending": [
         {
-          "source": "general_web",
-          "query": "\"现代有机金属化学\" 复旦 课程评价",
-          "status": "pending",
-          "note": "准确课程名；摘要只记lead，打开正文核实后才转read"
-        },
-        {
           "source": "zhihu",
           "query": "site:zhihu.com \"现代有机金属化学\" 复旦",
           "status": "pending",
@@ -14722,25 +14289,13 @@
           "note": "搜狗卡片/snippet仅lead，需文章正文"
         },
         {
-          "source": "code",
-          "query": "\"CHEM60015\" 复旦",
-          "status": "pending",
-          "note": "检索代码与课程名命中"
-        },
-        {
-          "source": "teacher_crosscheck",
-          "query": "\"现代有机金属化学\" \"金国新\" 复旦",
-          "status": "pending",
-          "note": "核对教师与课程；若课程学期不明则只列lead"
-        },
-        {
           "source": "pinyin_initials",
           "query": "现代有机金属化学 jinguoxin Fudan",
           "status": "pending",
           "note": "仅作搜索变体；首字母/拼音命中须回到上下文确认身份"
         }
       ],
-      "state": "not_individually_queried"
+      "state": "query_attempt_no_review"
     },
     {
       "course_code": "CHEM60016",
@@ -14864,8 +14419,8 @@
         {
           "source": "general_web",
           "query": "\"分子催化和表面化学\" 复旦 课程评价",
-          "status": "pending",
-          "note": "准确课程名；摘要只记lead，打开正文核实后才转read"
+          "status": "completed_no_course_review_candidate",
+          "note": "2026-10-27 exact course-code/title/teacher and broad title/teacher searches run; no student course-review body candidate. Search result pages/snippets not read as course evaluations."
         },
         {
           "source": "zhihu",
@@ -14888,14 +14443,14 @@
         {
           "source": "code",
           "query": "\"CHEM60018\" 复旦",
-          "status": "pending",
-          "note": "检索代码与课程名命中"
+          "status": "completed_no_course_review_candidate",
+          "note": "2026-10-27 exact course-code/title/teacher and broad title/teacher searches run; no student course-review body candidate. Search result pages/snippets not read as course evaluations."
         },
         {
           "source": "teacher_crosscheck",
           "query": "\"分子催化和表面化学\" \"乔明华\" 复旦",
-          "status": "pending",
-          "note": "核对教师与课程；若课程学期不明则只列lead"
+          "status": "completed_no_course_review_candidate",
+          "note": "2026-10-27 exact course-code/title/teacher and broad title/teacher searches run; no student course-review body candidate. Search result pages/snippets not read as course evaluations."
         },
         {
           "source": "pinyin_initials",
@@ -14910,12 +14465,6 @@
       "excluded": [],
       "pending": [
         {
-          "source": "general_web",
-          "query": "\"分子催化和表面化学\" 复旦 课程评价",
-          "status": "pending",
-          "note": "准确课程名；摘要只记lead，打开正文核实后才转read"
-        },
-        {
           "source": "zhihu",
           "query": "site:zhihu.com \"分子催化和表面化学\" 复旦",
           "status": "pending",
@@ -14934,25 +14483,13 @@
           "note": "搜狗卡片/snippet仅lead，需文章正文"
         },
         {
-          "source": "code",
-          "query": "\"CHEM60018\" 复旦",
-          "status": "pending",
-          "note": "检索代码与课程名命中"
-        },
-        {
-          "source": "teacher_crosscheck",
-          "query": "\"分子催化和表面化学\" \"乔明华\" 复旦",
-          "status": "pending",
-          "note": "核对教师与课程；若课程学期不明则只列lead"
-        },
-        {
           "source": "pinyin_initials",
           "query": "分子催化和表面化学 qiaominghua Fudan",
           "status": "pending",
           "note": "仅作搜索变体；首字母/拼音命中须回到上下文确认身份"
         }
       ],
-      "state": "not_individually_queried"
+      "state": "query_attempt_no_review"
     },
     {
       "course_code": "CHEM60022",
@@ -15504,8 +15041,8 @@
         {
           "source": "general_web",
           "query": "\"绿色化学\" 复旦 课程评价",
-          "status": "pending",
-          "note": "准确课程名；摘要只记lead，打开正文核实后才转read"
+          "status": "searched_no_review",
+          "note": "2026-10-27执行课号+课名+scope教师组合及广义搜索；未见学生课评正文。命中乐英红教师页以及旧研究生代码CHEM630010绿色化学排课资料，不把历史代码直接当作scope CHEM70012班次；未打开正文。"
         },
         {
           "source": "zhihu",
@@ -15528,14 +15065,14 @@
         {
           "source": "code",
           "query": "\"CHEM70012\" 复旦",
-          "status": "pending",
-          "note": "检索代码与课程名命中"
+          "status": "searched_no_review",
+          "note": "2026-10-27执行课号+课名+scope教师组合及广义搜索；未见学生课评正文。命中乐英红教师页以及旧研究生代码CHEM630010绿色化学排课资料，不把历史代码直接当作scope CHEM70012班次；未打开正文。"
         },
         {
           "source": "teacher_crosscheck",
           "query": "\"绿色化学\" \"乐英红\" 复旦",
-          "status": "pending",
-          "note": "核对教师与课程；若课程学期不明则只列lead"
+          "status": "searched_no_review",
+          "note": "2026-10-27执行课号+课名+scope教师组合及广义搜索；未见学生课评正文。命中乐英红教师页以及旧研究生代码CHEM630010绿色化学排课资料，不把历史代码直接当作scope CHEM70012班次；未打开正文。"
         },
         {
           "source": "pinyin_initials",
@@ -15550,12 +15087,6 @@
       "excluded": [],
       "pending": [
         {
-          "source": "general_web",
-          "query": "\"绿色化学\" 复旦 课程评价",
-          "status": "pending",
-          "note": "准确课程名；摘要只记lead，打开正文核实后才转read"
-        },
-        {
           "source": "zhihu",
           "query": "site:zhihu.com \"绿色化学\" 复旦",
           "status": "pending",
@@ -15574,25 +15105,13 @@
           "note": "搜狗卡片/snippet仅lead，需文章正文"
         },
         {
-          "source": "code",
-          "query": "\"CHEM70012\" 复旦",
-          "status": "pending",
-          "note": "检索代码与课程名命中"
-        },
-        {
-          "source": "teacher_crosscheck",
-          "query": "\"绿色化学\" \"乐英红\" 复旦",
-          "status": "pending",
-          "note": "核对教师与课程；若课程学期不明则只列lead"
-        },
-        {
           "source": "pinyin_initials",
           "query": "绿色化学 leyinghong Fudan",
           "status": "pending",
           "note": "仅作搜索变体；首字母/拼音命中须回到上下文确认身份"
         }
       ],
-      "state": "not_individually_queried"
+      "state": "query_attempt_no_review"
     },
     {
       "course_code": "CHEM70017",
@@ -16086,8 +15605,8 @@
         {
           "source": "general_web",
           "query": "\"电化学研究前沿介绍\" 复旦 课程评价",
-          "status": "pending",
-          "note": "准确课程名；摘要只记lead，打开正文核实后才转read"
+          "status": "searched_no_review",
+          "note": "2026-10-27执行课号+课名+scope教师组合及广义检索；未见学生课评正文。命中电化学专题科研/出版材料，不是课程体验；未打开正文。"
         },
         {
           "source": "zhihu",
@@ -16110,14 +15629,14 @@
         {
           "source": "code",
           "query": "\"CHEM70025\" 复旦",
-          "status": "pending",
-          "note": "检索代码与课程名命中"
+          "status": "searched_no_review",
+          "note": "2026-10-27执行课号+课名+scope教师组合及广义检索；未见学生课评正文。命中电化学专题科研/出版材料，不是课程体验；未打开正文。"
         },
         {
           "source": "teacher_crosscheck",
           "query": "\"电化学研究前沿介绍\" \"余爱水\" 复旦",
-          "status": "pending",
-          "note": "核对教师与课程；若课程学期不明则只列lead"
+          "status": "searched_no_review",
+          "note": "2026-10-27执行课号+课名+scope教师组合及广义检索；未见学生课评正文。命中电化学专题科研/出版材料，不是课程体验；未打开正文。"
         },
         {
           "source": "pinyin_initials",
@@ -16132,12 +15651,6 @@
       "excluded": [],
       "pending": [
         {
-          "source": "general_web",
-          "query": "\"电化学研究前沿介绍\" 复旦 课程评价",
-          "status": "pending",
-          "note": "准确课程名；摘要只记lead，打开正文核实后才转read"
-        },
-        {
           "source": "zhihu",
           "query": "site:zhihu.com \"电化学研究前沿介绍\" 复旦",
           "status": "pending",
@@ -16156,25 +15669,13 @@
           "note": "搜狗卡片/snippet仅lead，需文章正文"
         },
         {
-          "source": "code",
-          "query": "\"CHEM70025\" 复旦",
-          "status": "pending",
-          "note": "检索代码与课程名命中"
-        },
-        {
-          "source": "teacher_crosscheck",
-          "query": "\"电化学研究前沿介绍\" \"余爱水\" 复旦",
-          "status": "pending",
-          "note": "核对教师与课程；若课程学期不明则只列lead"
-        },
-        {
           "source": "pinyin_initials",
           "query": "电化学研究前沿介绍 yuaishui Fudan",
           "status": "pending",
           "note": "仅作搜索变体；首字母/拼音命中须回到上下文确认身份"
         }
       ],
-      "state": "not_individually_queried"
+      "state": "query_attempt_no_review"
     },
     {
       "course_code": "CHEM70026",
@@ -17940,22 +17441,403 @@
       ],
       "visited_urls": [],
       "status": "broad_query_related_official_material_no_review"
+    },
+    {
+      "batch_id": "WEB-2026-10-27-48",
+      "date": "2026-10-27",
+      "platform": "Bing/web search",
+      "scope_codes": [
+        "CHEM40008",
+        "CHEM50009",
+        "CHEM50010",
+        "CHEM50008"
+      ],
+      "queries": [
+        "\"CHEM40008\" \"化学实验室安全\" \"王华冬\" 复旦 课程评价",
+        "\"CHEM50009\" \"科学英语写作\" \"龚鸣\" 复旦 评价",
+        "\"CHEM50010\" \"科研论文写作\" \"郁琦\" 复旦 课程评价",
+        "\"CHEM50008\" \"工程伦理\" \"孙默\" \"朱义峰\" 复旦 课程评价"
+      ],
+      "result_note": "四条课号+课名+scope教师组合检索未返回学生班级课评候选；未读正文。",
+      "candidate_urls": [],
+      "visited_urls": [],
+      "status": "exact_combo_searched_no_review_candidate"
+    },
+    {
+      "batch_id": "WEB-2026-10-27-49",
+      "date": "2026-10-27",
+      "platform": "Bing/web search + full-page read",
+      "scope_codes": [
+        "CHEM40008",
+        "CHEM50009",
+        "CHEM50010",
+        "CHEM50008"
+      ],
+      "queries": [
+        "复旦 化学实验室安全 王华冬 课程 评价",
+        "复旦 科学英语写作 龚鸣 课程评价",
+        "复旦 科研论文写作 郁琦 学生评价 课程",
+        "复旦 工程伦理 孙默 朱义峰 课程评价"
+      ],
+      "result_note": "除CHEM50008外均未见可确认课程评价正文候选。CHEM50008找到搜狐转载的课程思政展示文章，并已读完整正文：正文明确为化学系专业学位硕士课程，含汇总学生反馈；与scope本研融通班同名同师但无代码/班级/本科反馈对应证据，独立保留为课程族候选，不并为本科班评。",
+      "candidate_urls": [
+        "https://www.sohu.com/a/938084626_121106832",
+        "https://lsem.fudan.edu.cn/wz/websit/education.jsp",
+        "https://gs.fudan.edu.cn/53/27/c2892a414503/page.htm",
+        "https://www.icourse163.org/course/FUDAN-1206362806?outVendor=zw_mooc_pclszykctj_"
+      ],
+      "visited_urls": [
+        "https://www.sohu.com/a/938084626_121106832"
+      ],
+      "status": "related_course_report_read_mapping_unverified"
+    },
+    {
+      "batch_id": "WEB-2026-10-27-50",
+      "date": "2026-10-27",
+      "platform": "Bing/web search + attempted open",
+      "scope_codes": [
+        "CHEM50008",
+        "CHEM50009",
+        "CHEM50010"
+      ],
+      "queries": [
+        "\"工程伦理\" \"研究生课程思政标杆课程展示系列Ⅲ-10\" 复旦",
+        "site:gs.fudan.edu.cn \"工程伦理\" \"课程思政\" 孙默 朱义峰",
+        "site:fudan.edu.cn \"工程伦理\" \"孙默\" \"朱义峰\" 化学系"
+      ],
+      "result_note": "复核结果出现官方2024-2025学年研究生排课PDF，其中工程伦理代码CHEM727001、教师孙默/朱义峰；和scope本科CHEM50008区分。该PDF搜索摘要精确显示代码/学期，但打开正文超时，仍记snippet-only，不能当已读。搜狐原文正文已由前一批完整读取。",
+      "candidate_urls": [
+        "https://gs.fudan.edu.cn/_upload/article/files/f8/db/2ed8b59c4f09ac99c562180ba804/0010396b-d9a1-4104-ac69-32410ddf83a8.pdf",
+        "https://www.sohu.com/a/938084626_121106832"
+      ],
+      "visited_urls": [
+        "https://gs.fudan.edu.cn/_upload/article/files/f8/db/2ed8b59c4f09ac99c562180ba804/0010396b-d9a1-4104-ac69-32410ddf83a8.pdf"
+      ],
+      "status": "graduate_code_snippet_found_pdf_open_timeout"
+    },
+    {
+      "batch_id": "WEB-2026-10-27-52",
+      "date": "2026-10-27",
+      "platform": "Bing/web search",
+      "scope_codes": [
+        "CHEM60021",
+        "CHEM60027",
+        "CHEM60010",
+        "CHEM60004"
+      ],
+      "queries": [
+        "\"CHEM60021\" \"功能分子材料和生物材料\" \"李晓民\" \"张凡\" \"凡勇\" 复旦 评价",
+        "\"CHEM60027\" \"蛋白质组学的新技术和新方法\" \"陆豪杰\" 复旦 课程评价",
+        "\"CHEM60010\" \"稀土化学\" \"张杰\" 复旦 课程评价",
+        "\"CHEM60004\" \"高等仪器分析\" \"张祥民\" \"孔继烈\" 复旦 评价"
+      ],
+      "result_note": "四条课号+课名+scope教师组合检索未返回学生评价正文候选；未读正文。",
+      "candidate_urls": [],
+      "visited_urls": [],
+      "status": "exact_combo_searched_no_review_candidate"
+    },
+    {
+      "batch_id": "WEB-2026-10-27-53",
+      "date": "2026-10-27",
+      "platform": "Bing/web search",
+      "scope_codes": [
+        "CHEM60021",
+        "CHEM60027",
+        "CHEM60010",
+        "CHEM60004"
+      ],
+      "queries": [
+        "复旦 功能分子材料和生物材料 李晓民 张凡 课程评价",
+        "复旦 蛋白质组学的新技术和新方法 陆豪杰 课评",
+        "复旦 稀土化学 张杰 课程 评价",
+        "复旦 高等仪器分析 张祥民 孔继烈 学生评价"
+      ],
+      "result_note": "广义搜索命中张杰教师页（列研究生专业选修《稀土化学》）、陆豪杰教师/研究简介、其他教学/学术活动，以及2023学年研究生CHEM620008高等仪器分析旧排课摘要；均非当前课程学生评价。CHEM620008代码/年份与scope CHEM60004不同，不作映射；所有搜索结果均未打开正文。",
+      "candidate_urls": [
+        "https://chemistry.fudan.edu.cn/_s169/63/fd/c45137a680957/page.psp",
+        "https://chemistry.fudan.edu.cn/_s169/65/35/c45140a681269/page.psp",
+        "https://gsao.fudan.edu.cn/30/d4/c1758a12500/page.htm",
+        "https://gs.fudan.edu.cn/_upload/article/files/49/3f/1b05767f41338aeb294d319ff53c/cf682149-e80d-4354-a78a-7b05254bc97e.pdf",
+        "https://ibs.fudan.edu.cn/6e/54/c21167a224852/page.htm"
+      ],
+      "visited_urls": [],
+      "status": "broad_query_official_or_historical_nonreview_only"
+    },
+    {
+      "batch_id": "WEB-2026-10-27-54",
+      "date": "2026-10-27",
+      "platform": "Bing/web search",
+      "scope_codes": [
+        "CHEM70033",
+        "CHEM70030",
+        "CHEM70025",
+        "CHEM60014"
+      ],
+      "queries": [
+        "\"CHEM70033\" \"科学仪器基础\" \"王冠军\" 复旦 课程评价",
+        "\"CHEM70030\" \"催化反应机理及其研究方法\" \"曹勇\" 复旦 课程评价",
+        "\"CHEM70025\" \"电化学研究前沿介绍\" \"余爱水\" 复旦 评价",
+        "\"CHEM60014\" \"物理有机化学\" \"王全瑞\" \"钱辉\" 复旦 课程评价"
+      ],
+      "result_note": "四条课号+课名+scope教师组合检索未返回学生评价正文候选；未读正文。",
+      "candidate_urls": [],
+      "visited_urls": [],
+      "status": "exact_combo_searched_no_review_candidate"
+    },
+    {
+      "batch_id": "WEB-2026-10-27-55",
+      "date": "2026-10-27",
+      "platform": "Bing/web search",
+      "scope_codes": [
+        "CHEM70033",
+        "CHEM70030",
+        "CHEM70025",
+        "CHEM60014"
+      ],
+      "queries": [
+        "复旦 科学仪器基础 王冠军 课评",
+        "复旦 催化反应机理及其研究方法 曹勇 课程评价",
+        "复旦 电化学研究前沿介绍 余爱水 课程评价",
+        "复旦 物理有机化学 王全瑞 钱辉 评价"
+      ],
+      "result_note": "广搜命中曹勇教师页/过往研究生课程“催化反应机理”、钱辉教师页授课信息及学术出版/科研资料，未见当前课学生评价。所有结果仅搜索摘要，未打开正文。",
+      "candidate_urls": [
+        "https://chemistry.fudan.edu.cn/64/d0/c45139a681168/page.htm",
+        "https://chemistry.fudan.edu.cn/_s169/64/18/c45138a680984/page.psp",
+        "https://www.whxb.pku.edu.cn/CN/subject/listSubjectChapters.do?subjectId=1674912384288",
+        "https://worldscience.cn/c/2005-09-29/608128.shtml"
+      ],
+      "visited_urls": [],
+      "status": "broad_query_official_or_historical_nonreview_only"
+    },
+    {
+      "batch_id": "WEB-2026-10-27-56",
+      "date": "2026-10-27",
+      "platform": "Bing/web search",
+      "scope_codes": [
+        "CHEM60008",
+        "CHEM60026",
+        "CHEM70032",
+        "CHEM60013"
+      ],
+      "queries": [
+        "\"CHEM60008\" \"金属有机化学进展\" \"周锡庚\" 复旦 课程评价",
+        "\"CHEM60026\" \"有机结构分析\" \"朱灿\" 复旦 学生评价",
+        "\"CHEM70032\" \"分子聚集体材料和超薄膜\" \"钱东金\" 复旦 课程评价",
+        "\"CHEM60013\" \"生物色谱\" \"高明霞\" 复旦 评价"
+      ],
+      "result_note": "四条课号+课名+scope教师组合查询未返回复旦学生课评正文候选；未读正文。",
+      "candidate_urls": [],
+      "visited_urls": [],
+      "status": "exact_combo_searched_no_review_candidate"
+    },
+    {
+      "batch_id": "WEB-2026-10-27-57",
+      "date": "2026-10-27",
+      "platform": "Bing/web search",
+      "scope_codes": [
+        "CHEM60008",
+        "CHEM60026",
+        "CHEM70032",
+        "CHEM60013"
+      ],
+      "queries": [
+        "复旦 金属有机化学进展 周锡庚 课评",
+        "复旦 有机结构分析 朱灿 课程评价",
+        "复旦 分子聚集体材料和超薄膜 钱东金 课程评价",
+        "复旦 生物色谱 高明霞 课程评价"
+      ],
+      "result_note": "广义搜索未见与当前复旦scope班次相符的学生评价。出现的USTC评课社区《有机结构分析》为外校课程，明确不映射；CHEM60008附近的旧专题课资料与当前代码不作等同，CHEM60013教师页的授课信息仅为官方课程目录。未打开正文。",
+      "candidate_urls": [
+        "https://xxgk.fudan.edu.cn/_upload/article/be/1f/04e63690418b95ddb0fc19bc7751/ca7d8cdf-81e8-456e-879a-a87e872841f3.pdf",
+        "https://www.icourse.club/user/5503",
+        "https://chemistry.fudan.edu.cn/_s169/65/2f/c45140a681263/page.psp",
+        "https://jwc.fudan.edu.cn/_upload/article/files/83/6c/8a3c080c4f8991024f4b59ad4f1b/946c8b8f-ffdc-42de-bdbc-e2db449997b7.pdf"
+      ],
+      "visited_urls": [],
+      "status": "broad_query_nonreview_or_nonfudan_only"
+    },
+    {
+      "batch_id": "WEB-2026-10-27-58",
+      "date": "2026-10-27",
+      "platform": "Bing/web search",
+      "scope_codes": [
+        "CHEM60007",
+        "CHEM70011",
+        "CHEM70019",
+        "CHEM70012"
+      ],
+      "queries": [
+        "\"CHEM60007\" \"生物无机化学进展\" \"谭相石\" 复旦 课程评价",
+        "\"CHEM70011\" \"分子反应动力学\" \"王凤燕\" 复旦 学生评价",
+        "\"CHEM70019\" \"配位化学\" \"董安钢\" 复旦 课程评价",
+        "\"CHEM70012\" \"绿色化学\" \"乐英红\" 复旦 课程评价"
+      ],
+      "result_note": "四条课号+课名+scope教师组合检索未返回学生课程评价正文候选；未读正文。",
+      "candidate_urls": [],
+      "visited_urls": [],
+      "status": "exact_combo_searched_no_review_candidate"
+    },
+    {
+      "batch_id": "WEB-2026-10-27-59",
+      "date": "2026-10-27",
+      "platform": "Bing/web search",
+      "scope_codes": [
+        "CHEM60007",
+        "CHEM70011",
+        "CHEM70019",
+        "CHEM70012"
+      ],
+      "queries": [
+        "复旦 生物无机化学进展 谭相石 课程评价",
+        "复旦 分子反应动力学 王凤燕 课程评价",
+        "复旦 配位化学 董安钢 课程评价",
+        "复旦 绿色化学 乐英红 课评"
+      ],
+      "result_note": "广搜命中王凤燕/乐英红教师信息和旧研究生代码CHEM630010绿色化学课程安排；不是当前学生课评。另一个董安钢页面是PI评价（主题为指导/课题组），非课程评价，未采纳且未打开正文。",
+      "candidate_urls": [
+        "https://chemistry.fudan.edu.cn/_s169/64/f8/c45139a681208/page.psp",
+        "https://chemistry.fudan.edu.cn/_s169/65/00/c45139a681216/page.psp",
+        "https://chemistry.fudan.edu.cn/66/36/c45208a681526/page.htm",
+        "https://pi-review.com/pis/12716",
+        "https://nanocrystal.fudan.edu.cn/28117/list.htm"
+      ],
+      "visited_urls": [],
+      "status": "broad_query_nonreview_only"
+    },
+    {
+      "batch_id": "WEB-2026-10-27-60",
+      "date": "2026-10-27",
+      "platform": "Bing/web search",
+      "scope_codes": [
+        "CHEM60024",
+        "CHEM60018",
+        "CHEM60015",
+        "CHEM60003"
+      ],
+      "queries": [
+        "\"CHEM60024\" \"金属有机化学\" \"张俊良\" 复旦 课程评价",
+        "\"CHEM60018\" \"分子催化和表面化学\" \"乔明华\" 复旦 学生评价",
+        "\"CHEM60015\" \"现代有机金属化学\" \"金国新\" 复旦 课程评价",
+        "\"CHEM60003\" \"无机合成\" \"张立新\" 复旦 课程评价"
+      ],
+      "result_note": "四条课号+课名+scope教师组合检索未返回学生课程评价候选；未读正文。",
+      "candidate_urls": [],
+      "visited_urls": [],
+      "status": "exact_combo_searched_no_review_candidate"
+    },
+    {
+      "batch_id": "WEB-2026-10-27-61",
+      "date": "2026-10-27",
+      "platform": "Bing/web search",
+      "scope_codes": [
+        "CHEM60024",
+        "CHEM60018",
+        "CHEM60015",
+        "CHEM60003"
+      ],
+      "queries": [
+        "复旦 金属有机化学 张俊良 课程评价",
+        "复旦 分子催化和表面化学 乔明华 课程评价",
+        "复旦 现代有机金属化学 金国新 学生评价",
+        "复旦 无机合成 张立新 课评"
+      ],
+      "result_note": "出现张俊良学术/教师资料、张立新教师页（页面列有无机合成研究生授课）、乔明华研究方向/实验室网页、金国新报告及研究资料；均为师资或科研/课程目录材料，不是学生课评。另有旧版CHEM620007无机合成排课摘要，代码/年份与scope CHEM60003不同，不作等同。搜索结果未进一步打开，不记正文阅读。",
+      "candidate_urls": [
+        "https://www.chemsoc.org.cn/member/fellow/206535.html",
+        "https://chemistry.fudan.edu.cn/_s169/63/fc/c45137a680956/page.psp",
+        "https://mcim.fudan.edu.cn/",
+        "https://fjirsm.cas.cn/kyjz/202309/t20230919_7634726.html",
+        "https://gs.fudan.edu.cn/_upload/article/files/49/3f/1b05767f41338aeb294d319ff53c/cf682149-e80d-4354-a78a-7b05254bc97e.pdf",
+        "https://chemistry.fudan.edu.cn/_upload/article/files/30/83/70c4d214413eab1ea2bdad1279ea/75ec9d7f-a598-4c41-b79b-7398e142b6d8.pdf"
+      ],
+      "visited_urls": [],
+      "status": "broad_query_nonreview_or_historical_only"
+    },
+    {
+      "batch_id": "WEB-2026-10-27-62",
+      "date": "2026-10-27",
+      "platform": "Bing/web search",
+      "scope_codes": [
+        "CHEM40002",
+        "CHEM40014h",
+        "CHEM40015h",
+        "CHEM20009"
+      ],
+      "queries": [
+        "\"CHEM40002\" \"生产实习\" \"乔亮\" 复旦 课程评价",
+        "\"CHEM40014h\" \"高等无机化学(H)\" \"李巧伟\" 复旦 课程评价",
+        "\"CHEM40015h\" \"高等有机化学(H)\" \"王全瑞\" 复旦 学生评价",
+        "\"CHEM20009\" \"化学专业英语\" \"蔡文斌\" \"余爱水\" 复旦 课程评价"
+      ],
+      "result_note": "四条课号+课名+scope教师组合搜索未返回学生课评候选；未读正文。",
+      "candidate_urls": [],
+      "visited_urls": [],
+      "status": "exact_combo_searched_no_review_candidate"
+    },
+    {
+      "batch_id": "WEB-2026-10-27-63",
+      "date": "2026-10-27",
+      "platform": "Bing/web search",
+      "scope_codes": [
+        "CHEM40002",
+        "CHEM40014h",
+        "CHEM40015h",
+        "CHEM20009"
+      ],
+      "queries": [
+        "复旦 化学系 生产实习 乔亮 学生 评价",
+        "复旦 高等无机化学 李巧伟 课程评价",
+        "复旦 高等有机化学 王全瑞 课程评价",
+        "复旦 化学专业英语 蔡文斌 余爱水 课程评价"
+      ],
+      "result_note": "在CHEM40014h准确课程族范围内打开并完整阅读化学系官方人物报道，文中含两名具名本科生对李巧伟《高等无机化学》课堂的直接反馈，保留为官方报道中的课程反馈；标题/教师可匹配CHEM40014h课程族，具体代码班号与修读期未证实。其余搜索命中生产实习未见评价，王全瑞/有机课程官方旧资料及其他通识报道不是学生课评；未打开为正文。",
+      "candidate_urls": [
+        "https://chemistry.fudan.edu.cn/9b/3f/c45206a760639/page.htm",
+        "https://chemistry.fudan.edu.cn/_s169/63/ed/c45137a680941/page.psp",
+        "https://penglichem.fudan.edu.cn/91/38/c31990a430392/page.htm",
+        "https://gsao.fudan.edu.cn/30/d7/c1758a12503/page.htm",
+        "https://jwc.fudan.edu.cn/_upload/article/files/d4/56/707002a8413b8a3cc690244c1118/5c13e8c6-4cf7-4795-a3d4-c43828bdd8f1.pdf"
+      ],
+      "visited_urls": [
+        "https://chemistry.fudan.edu.cn/9b/3f/c45206a760639/page.htm"
+      ],
+      "status": "official_named_student_feedback_read_one_course_other_queries_no_review"
+    },
+    {
+      "batch_id": "WEB-2026-10-27-64",
+      "date": "2026-10-27",
+      "platform": "小红书站内 Edge 搜索（Cua）",
+      "scope_codes": [
+        "CHEM40014h"
+      ],
+      "queries": [
+        "复旦 高等无机化学 李巧伟"
+      ],
+      "result_note": "结果页包含已登记的通用“复旦化学系选课推荐”等笔记，但未显示可确认的《高等无机化学》课程评价标题；该通用笔记此前虽已读，已保留内容仅为电极过程动力学、量子化学问课和未映射教师意见，不涉及本课。本站内本轮未打开新正文。",
+      "candidate_urls": [
+        "https://www.xiaohongshu.com/explore/68aea713000000001d000597"
+      ],
+      "visited_urls": [
+        "https://www.xiaohongshu.com/search_result?keyword=%E5%A4%8D%E6%97%A6+%E9%AB%98%E7%AD%89%E6%97%A0%E6%9C%BA%E5%8C%96%E5%AD%A6+%E6%9D%8E%E5%B7%A7%E4%BC%9F&source=web_search_result_notes&type=51"
+      ],
+      "status": "xhs_search_no_specific_course_review_candidate"
     }
   ],
   "coverage_note": "最新状态：共145个课程代码。已实际执行课号+课名+中文教师组合查询7个（CHEM10002/10003/10004/10007/20001/20002/20005），未执行138个；CHEM20002另有1条教师拼音检索。当前6个代码有精确课程族映射（有历史评议或课程名级/自述证据，仍不等于当前班次评价）；25个代码有一般/历史来源但不精确到班次；115个课程仍保持未逐课来源访问状态。CHEM10007查询结果无自身评价；本轮AMA中发现CHEM20005h课程族成绩自述，作者称物化一荣誉课满绩，但不知道其考试结构，也未说学期/教师。",
   "coverage_stats": {
     "total_scope_codes": 145,
-    "codes_with_read_source_visit_or_read": 29,
-    "codes_with_exact_course_family_mapping": 6,
-    "codes_pending_individual_exact_code_and_teacher_queries": 98,
-    "codes_with_state_not_individually_queried": 73,
-    "codes_with_general_or_historical_source_but_no_exact_class_mapping": 25,
-    "batch_searches_logged": 48,
-    "note": "按代码去重统计：实际执行过课号+课名+中文教师组合查询的代码为CHEM10002、CHEM10003、CHEM10004、CHEM10005、CHEM10006、CHEM10007、CHEM10008、CHEM20001、CHEM20002、CHEM20004、CHEM20005、CHEM20006、CHEM20007、CHEM20012、CHEM20016、CHEM20017、CHEM20018、CHEM20019、CHEM20020、CHEM20023、CHEM30001、CHEM30003、CHEM30008、CHEM30009、CHEM30010、CHEM30011、CHEM30012、CHEM30013、CHEM30014、CHEM30015、CHEM30017、CHEM30019、CHEM30021、CHEM30023、CHEM30026、CHEM30027、CHEM30028、CHEM30029、CHEM30031、CHEM30032、CHEM30033、CHEM30034、CHEM30035、CHEM30036、CHEM30041h、CHEM50005、CHEM50007，共47/145；其余98仍未执行这一直接组合查询。另有CHEM20002拼音查询1条。CHEM20018/CHEM20019/CHEM30009/CHEM30027精确组合查询未见当前班次学生课评正文。广搜命中历史同名课、微流控实验教学研究、教师介绍/课程信息，不作当前课程评价；搜索摘要未计正文已读。",
-    "codes_pending_course_teacher_search": 98,
-    "codes_with_exact_code_course_teacher_query_attempted": 47,
-    "codes_with_course_name_and_teacher_search_attempted": 47,
-    "codes_with_query_attempt_but_no_mapped_review": 47,
+    "codes_with_read_source_visit_or_read": 31,
+    "codes_with_exact_course_family_mapping": 7,
+    "codes_pending_individual_exact_code_and_teacher_queries": 70,
+    "codes_with_state_not_individually_queried": 49,
+    "codes_with_general_or_historical_source_but_no_exact_class_mapping": 27,
+    "batch_searches_logged": 64,
+    "note": "按代码去重统计：实际执行过课号+课名+中文教师组合查询的代码共75/145，其余70仍未执行这一直接组合查询。精确查过且未映射到班次学生课评的课程码列表：CHEM10002、CHEM10003、CHEM10004、CHEM10005、CHEM10006、CHEM10007、CHEM10008、CHEM20001、CHEM20002、CHEM20004、CHEM20005、CHEM20006、CHEM20007、CHEM20012、CHEM20016、CHEM20017、CHEM20018、CHEM20019、CHEM20020、CHEM20023、CHEM30001、CHEM30003、CHEM30008、CHEM30009、CHEM30010、CHEM30011、CHEM30012、CHEM30013、CHEM30014、CHEM30015、CHEM30017、CHEM30019、CHEM30021、CHEM30023、CHEM30026、CHEM30027、CHEM30028、CHEM30029、CHEM30031、CHEM30032、CHEM30033、CHEM30034、CHEM30035、CHEM30036、CHEM30041h、CHEM40008、CHEM50005、CHEM50007、CHEM50008、CHEM50009、CHEM50010、CHEM60004、CHEM60007、CHEM60008、CHEM60010、CHEM60013、CHEM60014、CHEM60021、CHEM60026、CHEM60027、CHEM70011、CHEM70012、CHEM70019、CHEM70025、CHEM70030、CHEM70032、CHEM70033、CHEM60024、CHEM60018、CHEM60015、CHEM60003、CHEM40002、CHEM40014h、CHEM40015h、CHEM20009。CHEM50008研究生课程案例中的汇总反馈不映射当前本科/本研融通班。CHEM60007/70011/70012/70019未见学生课程评价正文；旧研究生绿色化学代码CHEM630010和PI评价页面均不映射当前课程班次。 CHEM40014h另有化学系官方人物报道具名本科生课堂反馈，具体班号/学期不明。",
+    "codes_pending_course_teacher_search": 70,
+    "codes_with_exact_code_course_teacher_query_attempted": 75,
+    "codes_with_course_name_and_teacher_search_attempted": 75,
+    "codes_with_query_attempt_but_no_mapped_review": 74,
     "codes_with_pinyin_query_attempted": 1
   }
 }

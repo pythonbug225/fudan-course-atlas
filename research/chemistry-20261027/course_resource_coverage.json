@@ -34,9 +34,9 @@
     {
       "course_code": "CHEM10001",
       "course_name": "普通化学",
-      "review_status": "not_individually_searched",
+      "review_status": "targeted_search_no_verified_public_resource",
       "resource_ids": [],
-      "search_coverage": "This exact course row was not individually searched. Family searches were sampled; no hit does not mean no public resource exists."
+      "search_coverage": "Exact-title searches for 普通化学 / General Chemistry with CHEM10001 found no course-material page. Official Fudan news describes a Chemistry Department English-taught 普通化学 course, but provides no study files and does not cross-walk the current code; record the search, not a resource match."
     },
     {
       "course_code": "CHEM10003",
@@ -59,16 +59,20 @@
     {
       "course_code": "CHEM10007",
       "course_name": "有机化学C",
-      "review_status": "not_individually_searched",
-      "resource_ids": [],
-      "search_coverage": "This exact course row was not individually searched. Family searches were sampled; no hit does not mean no public resource exists."
+      "review_status": "official_catalog_context_no_public_materials",
+      "resource_ids": [
+        "CR-011"
+      ],
+      "search_coverage": "The official JWC syllabus index identifies historical CHEM120012 as 有机化学C (Organic Chemistry C), offered by Fudan Chemistry for clinical medicine (five-year), basic medicine, and forensic medicine. It contains syllabus metadata, not study notes, exam papers, or slides. The PDF open timed out; only extracted index text was inspected. Current CHEM10007 crosswalk remains unverified."
     },
     {
       "course_code": "CHEM10008",
       "course_name": "普通化学C",
-      "review_status": "not_individually_searched",
-      "resource_ids": [],
-      "search_coverage": "This exact course row was not individually searched. Family searches were sampled; no hit does not mean no public resource exists."
+      "review_status": "official_catalog_context_no_public_materials",
+      "resource_ids": [
+        "CR-010"
+      ],
+      "search_coverage": "The official JWC syllabus index identifies historical CHEM120013 as 普通化学C (General Chemistry C), for five-year dental medicine. It contains course description/identity metadata, not study notes, exam papers, or slides. The PDF is too large for the web reader to open; only its extracted index text was inspected. Current CHEM10008 crosswalk remains unverified."
     },
     {
       "course_code": "CHEM20001",
@@ -89,9 +93,9 @@
     {
       "course_code": "CHEM20005",
       "course_name": "物理化学AⅠ",
-      "review_status": "not_individually_searched",
+      "review_status": "targeted_search_no_verified_public_resource",
       "resource_ids": [],
-      "search_coverage": "This exact course row was not individually searched. Family searches were sampled; no hit does not mean no public resource exists."
+      "search_coverage": "Exact-title searches for 物理化学A I / AI and CHEM130012 found historical curriculum references and faculty/course context only; no public lecture notes, slides, exams, or courseware page was verified for current CHEM20005. Historical code CHEM130012 is not asserted to map to the current code."
     },
     {
       "course_code": "CHEM20005h",
@@ -149,9 +153,11 @@
     {
       "course_code": "CHEM20016",
       "course_name": "分析化学实验",
-      "review_status": "not_individually_searched",
-      "resource_ids": [],
-      "search_coverage": "This exact course row was not individually searched. Family searches were sampled; no hit does not mean no public resource exists."
+      "review_status": "official_courseware_duplicate_legacy_index_candidate_code_unverified",
+      "resource_ids": [
+        "CR-002"
+      ],
+      "search_coverage": "Official legacy index titled 分析化学实验课件 lists the same 18 PPT filenames as the inorganic/chemical-analysis experiment index. This is a duplicate-path candidate for CHEM20016 分析化学实验 only; current-code mapping is unverified and files are not counted again."
     },
     {
       "course_code": "CHEM20017",
@@ -381,9 +387,9 @@
     {
       "course_code": "CHEM50002",
       "course_name": "高等无机化学",
-      "review_status": "not_individually_searched",
+      "review_status": "targeted_search_no_verified_public_resource",
       "resource_ids": [],
-      "search_coverage": "This exact course row was not individually searched. Family searches were sampled; no hit does not mean no public resource exists."
+      "search_coverage": "Exact-title searches found Fudan official course/news pages for 高等无机化学, including a classroom photograph mentioning a PPT, but no public courseware, notes, or exam files. The course page is contextual only."
     },
     {
       "course_code": "CHEM50003",
@@ -395,9 +401,9 @@
     {
       "course_code": "CHEM50004",
       "course_name": "量子化学原理及应用",
-      "review_status": "not_individually_searched",
+      "review_status": "targeted_search_no_verified_public_resource",
       "resource_ids": [],
-      "search_coverage": "This exact course row was not individually searched. Family searches were sampled; no hit does not mean no public resource exists."
+      "search_coverage": "Exact-title searches for 量子化学原理及应用 found the official Xianghui quality-course listing and historical curriculum context, but no public downloadable or viewable study materials. No other-school same-title course was associated with this row."
     },
     {
       "course_code": "CHEM50006",
@@ -647,9 +653,9 @@
     {
       "course_code": "CHEM10002",
       "course_name": "有机化学",
-      "review_status": "not_individually_searched",
+      "review_status": "targeted_search_no_verified_public_resource",
       "resource_ids": [],
-      "search_coverage": "This exact course row was not individually searched. Family searches were sampled; no hit does not mean no public resource exists."
+      "search_coverage": "Exact-title searches for 有机化学 and CHEM10002 found no verified Fudan study materials. A third-party file page titled 复旦大学有机化学笔记 has no identifiable course author, term, or code and disclaims responsibility for source provenance; excluded as an unverified lead. The verified Xueyin pages are for 有机化学A I/II, not this title."
     },
     {
       "course_code": "CHEM10004",
@@ -663,9 +669,11 @@
     {
       "course_code": "CHEM10006",
       "course_name": "有机化学实验I",
-      "review_status": "not_individually_searched",
-      "resource_ids": [],
-      "search_coverage": "This exact course row was not individually searched. Family searches were sampled; no hit does not mean no public resource exists."
+      "review_status": "official_historical_course_outline_candidate_code_unverified",
+      "resource_ids": [
+        "CR-007"
+      ],
+      "search_coverage": "Official 2015 autumn Organic Chemistry Experiment schedule/syllabus matches the title family; a separate official plan lists historical CHEM120011 for 有机化学实验I. Current CHEM10006 mapping is candidate-only and unverified; source is historical course outline, not exams or slides."
     },
     {
       "course_code": "CHEM20002",
@@ -876,9 +884,11 @@
     {
       "course_code": "CHEM40004",
       "course_name": "综合化学实验I",
-      "review_status": "not_individually_searched",
-      "resource_ids": [],
-      "search_coverage": "This exact course row was not individually searched. Family searches were sampled; no hit does not mean no public resource exists."
+      "review_status": "official_course_index_checked_no_public_materials",
+      "resource_ids": [
+        "CR-012"
+      ],
+      "search_coverage": "Official Experimental Chemistry Center index for 综合化学实验 opened and was empty of course documents/materials. Historical curriculum lists CHEM130024 for 综合化学实验I; relation to current CHEM40004 remains candidate-only."
     },
     {
       "course_code": "CHEM50005",

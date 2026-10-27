@@ -1,5 +1,6 @@
 from pathlib import Path
 import json,html
+from urllib.parse import quote
 P=Path(__file__).resolve().parent
 load=lambda n:json.loads((P/n).read_text(encoding="utf8"))
 e=load("official_evidence.json"); ar=load("alias_registry.json"); review=load("public_web_reviews.json") if (P/"public_web_reviews.json").exists() else {"records":[]}
@@ -40,9 +41,18 @@ for c in e["courses"]:
    reviews.append(f'<article><p>{esc(summary)}</p><small>{esc(label)} · {esc(teacher)} · {esc(term)} · {esc(mapping)} · {esc(kind)}</small></article>')
   elif r.get("source_type")=="forum_discussion":
    reviews.append(f'<article><p>{esc(r.get("summary",""))}</p><small>树洞 #{esc(r.get("source_ids",{}).get("hole_id"))} · {esc(r.get("kind","讨论"))} · {esc(r.get("term",""))}</small></article>')
+  elif r.get("source_type")=="复旦大学化学系官方报道":
+   reviews.append(f'<article><p>{esc(r.get("summary",""))}</p><small>来源：院系官方人物报道 · 课程族线索，荣誉版本及修读学期未核</small></article>')
   else:
    url=esc(r.get("source_url","")); label=esc(r.get("source_label","")); summary=esc(r.get("summary",""));term=esc(r.get("term",""));
-   platform='小红书' if '小红书' in r.get('source_type','') else '知乎'; note='；帖子教师姓名与教务记录字形不同' if r.get('record_id')=='CHEM-WEB-XHS-0003' else ('；未答问课' if r.get('record_type')=='course_question' else ('；选课建议，未确认亲修' if r.get('record_type')=='anonymous_course_selection_advice' else ('；个人成绩自述' if r.get('record_type')=='first_person_grade_report' else ''))); reviews.append(f'<article><p>{summary}</p><small>{label} · {term}{note}</small><br><a href="{url}" target="_blank" rel="noopener noreferrer">查看{platform}原文</a></article>')
+   platform='小红书' if '小红书' in r.get('source_type','') else '知乎'; note='；帖子教师姓名与教务记录字形不同' if r.get('record_id')=='CHEM-WEB-XHS-0003' else ('；未答问课' if r.get('record_type')=='course_question' else ('；选课建议，未确认亲修' if r.get('record_type') in ('anonymous_course_selection_advice','anonymous_course_discussion') else ('；个人成绩自述' if r.get('record_type')=='first_person_grade_report' else '')))
+   titles={'6a9f79c1000000001103670c':'复旦选课二选一','68aea713000000001d000597':'复旦化学系选课推荐','69b0261c000000001b01dd1c':'复旦化学系大二 Ask me anything'}
+   title=next((t for k,t in titles.items() if k in url),None)
+   if title:
+    search='https://www.xiaohongshu.com/search_result?keyword='+quote(title)
+    links=f'<a href="{url}" target="_blank" rel="noopener noreferrer">原帖直链</a> · <a href="{esc(search)}" target="_blank" rel="noopener noreferrer">在小红书搜索标题</a><small>（直链在 Edge 测试受平台限制；搜索结果可找到原帖）</small>'
+   else:links=f'<a href="{url}" target="_blank" rel="noopener noreferrer">查看{platform}原文</a>'
+   reviews.append(f'<article><p>{summary}</p><small>{label} · {term}{note}</small><br>{links}</article>')
  materials=[r for r in resources if code in r.get("course_codes",[])]
  links="".join(f'<article><a href="{esc(r["url"])}" target="_blank" rel="noopener noreferrer">{esc(r["title"])}</a><p>{esc(r["source"])} · {esc(r["note"])}</p></article>' for r in materials)
  plans=sorted(set(x.get("plan_name","")+" / "+x.get("module_name","") for x in c.get("plan_refs",[])))
