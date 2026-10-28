@@ -1,0 +1,3465 @@
+{
+  "status": "manually_screened_title_anchored_teacher_query_results",
+  "query_scope": "Completed forum manifest; accurate=true official_teacher_full_name, teacher_pinyin_full, and teacher_pinyin_initials hits where a target course title appears literally in the same floor.",
+  "scope_limits": "Exploratory initials without same-floor course-title anchor are excluded as high-noise retrieval, not counted as human-reviewed candidate floors. Each included floor was read in full. Hole context is marked separately; it was inspected for original 267 candidates and fetched high-value supplemental holes, but not claimed for every short query/ad.",
+  "unique_floor_count": 148,
+  "decision_counts": {
+    "adopt": 11,
+    "exclude": 137,
+    "overlaps_initial_267": 34
+  },
+  "records": [
+    {
+      "floor_id": 54110,
+      "hole_id": 5958,
+      "course_matches": [
+        {
+          "course_code": "GEEC10156",
+          "course_name": "英语短篇小说导读",
+          "query": "张琼",
+          "query_kind": "official_teacher_full_name",
+          "query_id": "FORUM-Q-36AF3D3AF82C68BF31FB-E",
+          "exploratory": true
+        }
+      ],
+      "full_floor_text_read": true,
+      "in_initial_267": true,
+      "hole_context_available": true,
+      "hole_context_examined": true,
+      "decision": "exclude",
+      "adopted": false,
+      "reason": "这是对张琼英语短篇小说导读给分的提问，楼层本身没有体验；同洞68807有一条教师/给分短评，另列为相关证据。",
+      "linked_evidence_id": null,
+      "reading_status": "full_floor_text_read; hole_context_examined"
+    },
+    {
+      "floor_id": 59191,
+      "hole_id": 6620,
+      "course_matches": [
+        {
+          "course_code": "FORE10048",
+          "course_name": "英语文学导读",
+          "query": "陈靓",
+          "query_kind": "official_teacher_full_name",
+          "query_id": "FORUM-Q-DC750D40E61A270E27EF-E",
+          "exploratory": true
+        }
+      ],
+      "full_floor_text_read": true,
+      "in_initial_267": false,
+      "hole_context_available": false,
+      "hole_context_examined": false,
+      "decision": "exclude",
+      "adopted": false,
+      "reason": "楼层是在提问、寻求课友或索要课程信息，没有提供发帖者的课程体验；排除。",
+      "linked_evidence_id": null,
+      "reading_status": "full_floor_text_read; no hole context claimed"
+    },
+    {
+      "floor_id": 62020,
+      "hole_id": 7042,
+      "course_matches": [
+        {
+          "course_code": "GECC10048",
+          "course_name": "英国中世纪文学与文化",
+          "query": "包慧怡",
+          "query_kind": "official_teacher_full_name",
+          "query_id": "FORUM-Q-75F340B26E2C74A7D45C-E",
+          "exploratory": true
+        }
+      ],
+      "full_floor_text_read": true,
+      "in_initial_267": true,
+      "hole_context_available": true,
+      "hole_context_examined": true,
+      "decision": "exclude",
+      "adopted": false,
+      "reason": "该楼层为包慧怡英国中世纪文学与文化课程提问，没有本人体验；同洞62344有详细回答，另列相关证据。",
+      "linked_evidence_id": null,
+      "reading_status": "full_floor_text_read; hole_context_examined"
+    },
+    {
+      "floor_id": 65828,
+      "hole_id": 7550,
+      "course_matches": [
+        {
+          "course_code": "GESF10007",
+          "course_name": "基础日语I",
+          "query": "zyz",
+          "query_kind": "teacher_pinyin_initials",
+          "query_id": "FORUM-Q-A5F45D41E85CAD7EC07B-E",
+          "exploratory": true
+        }
+      ],
+      "full_floor_text_read": true,
+      "in_initial_267": false,
+      "hole_context_available": false,
+      "hole_context_examined": false,
+      "decision": "exclude",
+      "adopted": false,
+      "reason": "楼层是在提问、寻求课友或索要课程信息，没有提供发帖者的课程体验；排除。",
+      "linked_evidence_id": null,
+      "reading_status": "full_floor_text_read; no hole context claimed"
+    },
+    {
+      "floor_id": 67164,
+      "hole_id": 7715,
+      "course_matches": [
+        {
+          "course_code": "GESF10007",
+          "course_name": "基础日语I",
+          "query": "赵彦志",
+          "query_kind": "official_teacher_full_name",
+          "query_id": "FORUM-Q-CE27FF6754D6A87F8255-E",
+          "exploratory": true
+        }
+      ],
+      "full_floor_text_read": true,
+      "in_initial_267": false,
+      "hole_context_available": false,
+      "hole_context_examined": false,
+      "decision": "exclude",
+      "adopted": false,
+      "reason": "楼层是在提问、寻求课友或索要课程信息，没有提供发帖者的课程体验；排除。",
+      "linked_evidence_id": null,
+      "reading_status": "full_floor_text_read; no hole context claimed"
+    },
+    {
+      "floor_id": 461014,
+      "hole_id": 54636,
+      "course_matches": [
+        {
+          "course_code": "GECC10045",
+          "course_name": "莎士比亚作品撷英",
+          "query": "zjs",
+          "query_kind": "teacher_pinyin_initials",
+          "query_id": "FORUM-Q-74580FB5E5D13031B267-E",
+          "exploratory": true
+        }
+      ],
+      "full_floor_text_read": true,
+      "in_initial_267": false,
+      "hole_context_available": false,
+      "hole_context_examined": false,
+      "decision": "exclude",
+      "adopted": false,
+      "reason": "楼层仅列出课程名称/修课清单，没有描述课程体验、任务或成绩；排除。",
+      "linked_evidence_id": null,
+      "reading_status": "full_floor_text_read; no hole context claimed"
+    },
+    {
+      "floor_id": 473500,
+      "hole_id": 55934,
+      "course_matches": [
+        {
+          "course_code": "FORE10006",
+          "course_name": "世界文学导读",
+          "query": "汪洪章",
+          "query_kind": "official_teacher_full_name",
+          "query_id": "FORUM-Q-67C92964E12EDFA719A3-E",
+          "exploratory": true
+        }
+      ],
+      "full_floor_text_read": true,
+      "in_initial_267": true,
+      "hole_context_available": true,
+      "hole_context_examined": true,
+      "decision": "exclude",
+      "adopted": false,
+      "reason": "提问世界文学导读给分，楼层自身无体验；同洞556338为含糊反应，不作为可采证据。",
+      "linked_evidence_id": null,
+      "reading_status": "full_floor_text_read; hole_context_examined"
+    },
+    {
+      "floor_id": 885004,
+      "hole_id": 94862,
+      "course_matches": [
+        {
+          "course_code": "GECC10047",
+          "course_name": "欧洲电影解析与实践",
+          "query": "朱建新",
+          "query_kind": "official_teacher_full_name",
+          "query_id": "FORUM-Q-FDF8CEE509762BAEF023-E",
+          "exploratory": true
+        }
+      ],
+      "full_floor_text_read": true,
+      "in_initial_267": true,
+      "hole_context_available": true,
+      "hole_context_examined": true,
+      "decision": "exclude",
+      "adopted": false,
+      "reason": "这是关于欧洲电影课程作业/考试的提问，不含本人经验；同洞886949/886956给出详细回答。",
+      "linked_evidence_id": null,
+      "reading_status": "full_floor_text_read; hole_context_examined"
+    },
+    {
+      "floor_id": 890411,
+      "hole_id": 95551,
+      "course_matches": [
+        {
+          "course_code": "FORE50068",
+          "course_name": "媒体英语",
+          "query": "高永伟",
+          "query_kind": "official_teacher_full_name",
+          "query_id": "FORUM-Q-BE8EAC0EEA910CD8AFEC-E",
+          "exploratory": true
+        }
+      ],
+      "full_floor_text_read": true,
+      "in_initial_267": false,
+      "hole_context_available": false,
+      "hole_context_examined": false,
+      "decision": "exclude",
+      "adopted": false,
+      "reason": "楼层是在提问、寻求课友或索要课程信息，没有提供发帖者的课程体验；排除。",
+      "linked_evidence_id": null,
+      "reading_status": "full_floor_text_read; no hole context claimed"
+    },
+    {
+      "floor_id": 959597,
+      "hole_id": 103016,
+      "course_matches": [
+        {
+          "course_code": "GESF10008",
+          "course_name": "基础韩语I",
+          "query": "姜颖",
+          "query_kind": "official_teacher_full_name",
+          "query_id": "FORUM-Q-F48AAA10309A82E82A17-E",
+          "exploratory": true
+        }
+      ],
+      "full_floor_text_read": true,
+      "in_initial_267": false,
+      "hole_context_available": false,
+      "hole_context_examined": false,
+      "decision": "exclude",
+      "adopted": false,
+      "reason": "楼层虽命中教师/课程查询，但没有提供可核验的第一手课程体验；排除。",
+      "linked_evidence_id": null,
+      "reading_status": "full_floor_text_read; no hole context claimed"
+    },
+    {
+      "floor_id": 1111024,
+      "hole_id": 116997,
+      "course_matches": [
+        {
+          "course_code": "FORE10048",
+          "course_name": "英语文学导读",
+          "query": "陈靓",
+          "query_kind": "official_teacher_full_name",
+          "query_id": "FORUM-Q-DC750D40E61A270E27EF-E",
+          "exploratory": true
+        }
+      ],
+      "full_floor_text_read": true,
+      "in_initial_267": false,
+      "hole_context_available": true,
+      "hole_context_examined": true,
+      "decision": "adopt",
+      "adopted": true,
+      "reason": "完整整洞围绕英语文学导读选课与体验；该回复提供一条低细节正面印象，不作普遍评价。",
+      "linked_evidence_id": 1111024,
+      "reading_status": "full_floor_text_read; hole_context_examined"
+    },
+    {
+      "floor_id": 1111064,
+      "hole_id": 116997,
+      "course_matches": [
+        {
+          "course_code": "FORE10048",
+          "course_name": "英语文学导读",
+          "query": "段枫",
+          "query_kind": "official_teacher_full_name",
+          "query_id": "FORUM-Q-97E8B6C46DA8D0786BE7-E",
+          "exploratory": true
+        },
+        {
+          "course_code": "FORE10048",
+          "course_name": "英语文学导读",
+          "query": "陈靓",
+          "query_kind": "official_teacher_full_name",
+          "query_id": "FORUM-Q-DC750D40E61A270E27EF-E",
+          "exploratory": true
+        }
+      ],
+      "full_floor_text_read": true,
+      "in_initial_267": false,
+      "hole_context_available": true,
+      "hole_context_examined": true,
+      "decision": "adopt",
+      "adopted": true,
+      "reason": "同洞上下文确认在比较英语文学导读的不同教师/学期，包含课堂形式和个人感受；按历史个体体验采用，不视为当前班级结论。",
+      "linked_evidence_id": 1111064,
+      "reading_status": "full_floor_text_read; hole_context_examined"
+    },
+    {
+      "floor_id": 1225609,
+      "hole_id": 130303,
+      "course_matches": [
+        {
+          "course_code": "GESF10007",
+          "course_name": "基础日语I",
+          "query": "王菁洁",
+          "query_kind": "official_teacher_full_name",
+          "query_id": "FORUM-Q-ACB42CD9A53D827F6B48-E",
+          "exploratory": true
+        }
+      ],
+      "full_floor_text_read": true,
+      "in_initial_267": false,
+      "hole_context_available": false,
+      "hole_context_examined": false,
+      "decision": "exclude",
+      "adopted": false,
+      "reason": "楼层虽命中教师/课程查询，但没有提供可核验的第一手课程体验；排除。",
+      "linked_evidence_id": null,
+      "reading_status": "full_floor_text_read; no hole context claimed"
+    },
+    {
+      "floor_id": 1232591,
+      "hole_id": 131456,
+      "course_matches": [
+        {
+          "course_code": "GEEC10156",
+          "course_name": "英语短篇小说导读",
+          "query": "张琼",
+          "query_kind": "official_teacher_full_name",
+          "query_id": "FORUM-Q-36AF3D3AF82C68BF31FB-E",
+          "exploratory": true
+        }
+      ],
+      "full_floor_text_read": true,
+      "in_initial_267": true,
+      "hole_context_available": true,
+      "hole_context_examined": true,
+      "decision": "exclude",
+      "adopted": false,
+      "reason": "楼层以提问、选课咨询或行政求助为主，没有提供发帖者本人的课程体验；已查看同洞相关回复，若回复仅给出无依据短答则不作为证据。",
+      "linked_evidence_id": null,
+      "reading_status": "full_floor_text_read; hole_context_examined"
+    },
+    {
+      "floor_id": 1233157,
+      "hole_id": 131556,
+      "course_matches": [
+        {
+          "course_code": "GEEC10156",
+          "course_name": "英语短篇小说导读",
+          "query": "张琼",
+          "query_kind": "official_teacher_full_name",
+          "query_id": "FORUM-Q-36AF3D3AF82C68BF31FB-E",
+          "exploratory": true
+        }
+      ],
+      "full_floor_text_read": true,
+      "in_initial_267": false,
+      "hole_context_available": false,
+      "hole_context_examined": false,
+      "decision": "exclude",
+      "adopted": false,
+      "reason": "楼层是在提问、寻求课友或索要课程信息，没有提供发帖者的课程体验；排除。",
+      "linked_evidence_id": null,
+      "reading_status": "full_floor_text_read; no hole context claimed"
+    },
+    {
+      "floor_id": 1434969,
+      "hole_id": 155396,
+      "course_matches": [
+        {
+          "course_code": "GECC10048",
+          "course_name": "英国中世纪文学与文化",
+          "query": "bhy",
+          "query_kind": "teacher_pinyin_initials",
+          "query_id": "FORUM-Q-87912BE23FF7CAEC763A-E",
+          "exploratory": true
+        }
+      ],
+      "full_floor_text_read": true,
+      "in_initial_267": false,
+      "hole_context_available": false,
+      "hole_context_examined": false,
+      "decision": "exclude",
+      "adopted": false,
+      "reason": "楼层虽命中教师/课程查询，但没有提供可核验的第一手课程体验；排除。",
+      "linked_evidence_id": null,
+      "reading_status": "full_floor_text_read; no hole context claimed"
+    },
+    {
+      "floor_id": 1609289,
+      "hole_id": 174673,
+      "course_matches": [
+        {
+          "course_code": "FORE10006",
+          "course_name": "世界文学导读",
+          "query": "whz",
+          "query_kind": "teacher_pinyin_initials",
+          "query_id": "FORUM-Q-265D7B6F3C6734D790D3-E",
+          "exploratory": true
+        }
+      ],
+      "full_floor_text_read": true,
+      "in_initial_267": false,
+      "hole_context_available": false,
+      "hole_context_examined": false,
+      "decision": "exclude",
+      "adopted": false,
+      "reason": "楼层是在提问、寻求课友或索要课程信息，没有提供发帖者的课程体验；排除。",
+      "linked_evidence_id": null,
+      "reading_status": "full_floor_text_read; no hole context claimed"
+    },
+    {
+      "floor_id": 1626535,
+      "hole_id": 176574,
+      "course_matches": [
+        {
+          "course_code": "FORE50014",
+          "course_name": "英美电影文学",
+          "query": "zjx",
+          "query_kind": "teacher_pinyin_initials",
+          "query_id": "FORUM-Q-C855E0B9FD5D82478C45-E",
+          "exploratory": true
+        }
+      ],
+      "full_floor_text_read": true,
+      "in_initial_267": false,
+      "hole_context_available": false,
+      "hole_context_examined": false,
+      "decision": "exclude",
+      "adopted": false,
+      "reason": "楼层是课程资料/试题的求购或交易信息，没有课程体验内容；排除。",
+      "linked_evidence_id": null,
+      "reading_status": "full_floor_text_read; no hole context claimed"
+    },
+    {
+      "floor_id": 1684430,
+      "hole_id": 182657,
+      "course_matches": [
+        {
+          "course_code": "FORE10029",
+          "course_name": "语言学概论",
+          "query": "fyl",
+          "query_kind": "teacher_pinyin_initials",
+          "query_id": "FORUM-Q-A696BC5A505D4FDFAB4D-E",
+          "exploratory": true
+        }
+      ],
+      "full_floor_text_read": true,
+      "in_initial_267": false,
+      "hole_context_available": false,
+      "hole_context_examined": false,
+      "decision": "exclude",
+      "adopted": false,
+      "reason": "楼层是在提问、寻求课友或索要课程信息，没有提供发帖者的课程体验；排除。",
+      "linked_evidence_id": null,
+      "reading_status": "full_floor_text_read; no hole context claimed"
+    },
+    {
+      "floor_id": 1824716,
+      "hole_id": 194631,
+      "course_matches": [
+        {
+          "course_code": "GESF20003",
+          "course_name": "基础日语 II",
+          "query": "王菁洁",
+          "query_kind": "official_teacher_full_name",
+          "query_id": "FORUM-Q-ACB42CD9A53D827F6B48-E",
+          "exploratory": true
+        }
+      ],
+      "full_floor_text_read": true,
+      "in_initial_267": false,
+      "hole_context_available": false,
+      "hole_context_examined": false,
+      "decision": "exclude",
+      "adopted": false,
+      "reason": "楼层虽命中教师/课程查询，但没有提供可核验的第一手课程体验；排除。",
+      "linked_evidence_id": null,
+      "reading_status": "full_floor_text_read; no hole context claimed"
+    },
+    {
+      "floor_id": 1824717,
+      "hole_id": 194631,
+      "course_matches": [
+        {
+          "course_code": "GESF20002",
+          "course_name": "基础法语II",
+          "query": "赵英晖",
+          "query_kind": "official_teacher_full_name",
+          "query_id": "FORUM-Q-FEEDF31B30C3113E2383-E",
+          "exploratory": true
+        }
+      ],
+      "full_floor_text_read": true,
+      "in_initial_267": false,
+      "hole_context_available": false,
+      "hole_context_examined": false,
+      "decision": "exclude",
+      "adopted": false,
+      "reason": "楼层虽命中教师/课程查询，但没有提供可核验的第一手课程体验；排除。",
+      "linked_evidence_id": null,
+      "reading_status": "full_floor_text_read; no hole context claimed"
+    },
+    {
+      "floor_id": 1892346,
+      "hole_id": 201885,
+      "course_matches": [
+        {
+          "course_code": "FORE10006",
+          "course_name": "世界文学导读",
+          "query": "汪洪章",
+          "query_kind": "official_teacher_full_name",
+          "query_id": "FORUM-Q-67C92964E12EDFA719A3-E",
+          "exploratory": true
+        }
+      ],
+      "full_floor_text_read": true,
+      "in_initial_267": false,
+      "hole_context_available": false,
+      "hole_context_examined": false,
+      "decision": "exclude",
+      "adopted": false,
+      "reason": "楼层虽命中教师/课程查询，但没有提供可核验的第一手课程体验；排除。",
+      "linked_evidence_id": null,
+      "reading_status": "full_floor_text_read; no hole context claimed"
+    },
+    {
+      "floor_id": 1898894,
+      "hole_id": 203019,
+      "course_matches": [
+        {
+          "course_code": "GESF10005",
+          "course_name": "基础俄语I",
+          "query": "whx",
+          "query_kind": "teacher_pinyin_initials",
+          "query_id": "FORUM-Q-4396AA30E0A089929FF1-E",
+          "exploratory": true
+        }
+      ],
+      "full_floor_text_read": true,
+      "in_initial_267": true,
+      "hole_context_available": true,
+      "hole_context_examined": true,
+      "decision": "exclude",
+      "adopted": false,
+      "reason": "询问考试地点和老师给分，没有本人经验。",
+      "linked_evidence_id": null,
+      "reading_status": "full_floor_text_read; hole_context_examined"
+    },
+    {
+      "floor_id": 1906107,
+      "hole_id": 204140,
+      "course_matches": [
+        {
+          "course_code": "FORE10006",
+          "course_name": "世界文学导读",
+          "query": "whz",
+          "query_kind": "teacher_pinyin_initials",
+          "query_id": "FORUM-Q-265D7B6F3C6734D790D3-E",
+          "exploratory": true
+        }
+      ],
+      "full_floor_text_read": true,
+      "in_initial_267": false,
+      "hole_context_available": false,
+      "hole_context_examined": false,
+      "decision": "exclude",
+      "adopted": false,
+      "reason": "楼层是在提问、寻求课友或索要课程信息，没有提供发帖者的课程体验；排除。",
+      "linked_evidence_id": null,
+      "reading_status": "full_floor_text_read; no hole context claimed"
+    },
+    {
+      "floor_id": 1910734,
+      "hole_id": 204899,
+      "course_matches": [
+        {
+          "course_code": "FORE40034",
+          "course_name": "英语学术写作",
+          "query": "何妍",
+          "query_kind": "official_teacher_full_name",
+          "query_id": "FORUM-Q-48A462DC128B1B9BC3E4-E",
+          "exploratory": true
+        }
+      ],
+      "full_floor_text_read": true,
+      "in_initial_267": true,
+      "hole_context_available": true,
+      "hole_context_examined": true,
+      "decision": "exclude",
+      "adopted": false,
+      "reason": "楼层以提问、选课咨询或行政求助为主，没有提供发帖者本人的课程体验；已查看同洞相关回复，若回复仅给出无依据短答则不作为证据。",
+      "linked_evidence_id": null,
+      "reading_status": "full_floor_text_read; hole_context_examined"
+    },
+    {
+      "floor_id": 1930185,
+      "hole_id": 207271,
+      "course_matches": [
+        {
+          "course_code": "FORE20021",
+          "course_name": "日语语音学",
+          "query": "刘佳琦",
+          "query_kind": "official_teacher_full_name",
+          "query_id": "FORUM-Q-A975FDABEB335054B00A-E",
+          "exploratory": true
+        }
+      ],
+      "full_floor_text_read": true,
+      "in_initial_267": true,
+      "hole_context_available": true,
+      "hole_context_examined": true,
+      "decision": "exclude",
+      "adopted": false,
+      "reason": "询问日语语音学课堂通知/课程群，无体验评价。",
+      "linked_evidence_id": null,
+      "reading_status": "full_floor_text_read; hole_context_examined"
+    },
+    {
+      "floor_id": 1931679,
+      "hole_id": 207450,
+      "course_matches": [
+        {
+          "course_code": "FORE10006",
+          "course_name": "世界文学导读",
+          "query": "汪洪章",
+          "query_kind": "official_teacher_full_name",
+          "query_id": "FORUM-Q-67C92964E12EDFA719A3-E",
+          "exploratory": true
+        }
+      ],
+      "full_floor_text_read": true,
+      "in_initial_267": false,
+      "hole_context_available": false,
+      "hole_context_examined": false,
+      "decision": "exclude",
+      "adopted": false,
+      "reason": "楼层是课程资料/试题的求购或交易信息，没有课程体验内容；排除。",
+      "linked_evidence_id": null,
+      "reading_status": "full_floor_text_read; no hole context claimed"
+    },
+    {
+      "floor_id": 2056755,
+      "hole_id": 220895,
+      "course_matches": [
+        {
+          "course_code": "GECC10045",
+          "course_name": "莎士比亚作品撷英",
+          "query": "zjs",
+          "query_kind": "teacher_pinyin_initials",
+          "query_id": "FORUM-Q-74580FB5E5D13031B267-E",
+          "exploratory": true
+        }
+      ],
+      "full_floor_text_read": true,
+      "in_initial_267": true,
+      "hole_context_available": true,
+      "hole_context_examined": true,
+      "decision": "exclude",
+      "adopted": false,
+      "reason": "询问莎士比亚作品撷英签到，回复只介绍点名/助教登记，不是课程评价。",
+      "linked_evidence_id": null,
+      "reading_status": "full_floor_text_read; hole_context_examined"
+    },
+    {
+      "floor_id": 2152342,
+      "hole_id": 229998,
+      "course_matches": [
+        {
+          "course_code": "GESF10007",
+          "course_name": "基础日语I",
+          "query": "赵彦志",
+          "query_kind": "official_teacher_full_name",
+          "query_id": "FORUM-Q-CE27FF6754D6A87F8255-E",
+          "exploratory": true
+        }
+      ],
+      "full_floor_text_read": true,
+      "in_initial_267": false,
+      "hole_context_available": false,
+      "hole_context_examined": false,
+      "decision": "exclude",
+      "adopted": false,
+      "reason": "楼层是在提问、寻求课友或索要课程信息，没有提供发帖者的课程体验；排除。",
+      "linked_evidence_id": null,
+      "reading_status": "full_floor_text_read; no hole context claimed"
+    },
+    {
+      "floor_id": 2230946,
+      "hole_id": 237908,
+      "course_matches": [
+        {
+          "course_code": "FORE40080",
+          "course_name": "毕业论文",
+          "query": "df",
+          "query_kind": "teacher_pinyin_initials",
+          "query_id": "FORUM-Q-32C220482C68413FBF82-E",
+          "exploratory": true
+        }
+      ],
+      "full_floor_text_read": true,
+      "in_initial_267": false,
+      "hole_context_available": false,
+      "hole_context_examined": false,
+      "decision": "exclude",
+      "adopted": false,
+      "reason": "楼层虽命中教师/课程查询，但没有提供可核验的第一手课程体验；排除。",
+      "linked_evidence_id": null,
+      "reading_status": "full_floor_text_read; no hole context claimed"
+    },
+    {
+      "floor_id": 2458952,
+      "hole_id": 116997,
+      "course_matches": [
+        {
+          "course_code": "FORE10048",
+          "course_name": "英语文学导读",
+          "query": "df",
+          "query_kind": "teacher_pinyin_initials",
+          "query_id": "FORUM-Q-32C220482C68413FBF82-E",
+          "exploratory": true
+        }
+      ],
+      "full_floor_text_read": true,
+      "in_initial_267": false,
+      "hole_context_available": true,
+      "hole_context_examined": true,
+      "decision": "exclude",
+      "adopted": false,
+      "reason": "楼层虽命中教师/课程查询，但没有提供可核验的第一手课程体验；排除。",
+      "linked_evidence_id": null,
+      "reading_status": "full_floor_text_read; hole_context_examined"
+    },
+    {
+      "floor_id": 2462089,
+      "hole_id": 264343,
+      "course_matches": [
+        {
+          "course_code": "FORE10048",
+          "course_name": "英语文学导读",
+          "query": "df",
+          "query_kind": "teacher_pinyin_initials",
+          "query_id": "FORUM-Q-32C220482C68413FBF82-E",
+          "exploratory": true
+        }
+      ],
+      "full_floor_text_read": true,
+      "in_initial_267": false,
+      "hole_context_available": false,
+      "hole_context_examined": false,
+      "decision": "exclude",
+      "adopted": false,
+      "reason": "楼层为简短情绪/政策判断，缺少明确学期、个人修课过程或可核验考核体验；不作为课程评价采用。",
+      "linked_evidence_id": null,
+      "reading_status": "full_floor_text_read; no hole context claimed"
+    },
+    {
+      "floor_id": 2491260,
+      "hole_id": 263141,
+      "course_matches": [
+        {
+          "course_code": "FORE20029",
+          "course_name": "英语语言史",
+          "query": "sy",
+          "query_kind": "teacher_pinyin_initials",
+          "query_id": "FORUM-Q-8FF5D4F4E62AEC1B3C0C-E",
+          "exploratory": true
+        }
+      ],
+      "full_floor_text_read": true,
+      "in_initial_267": false,
+      "hole_context_available": false,
+      "hole_context_examined": false,
+      "decision": "exclude",
+      "adopted": false,
+      "reason": "楼层虽命中教师/课程查询，但没有提供可核验的第一手课程体验；排除。",
+      "linked_evidence_id": null,
+      "reading_status": "full_floor_text_read; no hole context claimed"
+    },
+    {
+      "floor_id": 2491263,
+      "hole_id": 263141,
+      "course_matches": [
+        {
+          "course_code": "FORE50063",
+          "course_name": "语言与逻辑",
+          "query": "fyl",
+          "query_kind": "teacher_pinyin_initials",
+          "query_id": "FORUM-Q-A696BC5A505D4FDFAB4D-E",
+          "exploratory": true
+        }
+      ],
+      "full_floor_text_read": true,
+      "in_initial_267": false,
+      "hole_context_available": false,
+      "hole_context_examined": false,
+      "decision": "exclude",
+      "adopted": false,
+      "reason": "楼层虽命中教师/课程查询，但没有提供可核验的第一手课程体验；排除。",
+      "linked_evidence_id": null,
+      "reading_status": "full_floor_text_read; no hole context claimed"
+    },
+    {
+      "floor_id": 2521785,
+      "hole_id": 270723,
+      "course_matches": [
+        {
+          "course_code": "FORE10006",
+          "course_name": "世界文学导读",
+          "query": "汪洪章",
+          "query_kind": "official_teacher_full_name",
+          "query_id": "FORUM-Q-67C92964E12EDFA719A3-E",
+          "exploratory": true
+        }
+      ],
+      "full_floor_text_read": true,
+      "in_initial_267": false,
+      "hole_context_available": false,
+      "hole_context_examined": false,
+      "decision": "exclude",
+      "adopted": false,
+      "reason": "楼层是课程资料/试题的求购或交易信息，没有课程体验内容；排除。",
+      "linked_evidence_id": null,
+      "reading_status": "full_floor_text_read; no hole context claimed"
+    },
+    {
+      "floor_id": 2548873,
+      "hole_id": 273285,
+      "course_matches": [
+        {
+          "course_code": "GESF10007",
+          "course_name": "基础日语I",
+          "query": "zff",
+          "query_kind": "teacher_pinyin_initials",
+          "query_id": "FORUM-Q-08DAD727593E8F0F7F86-E",
+          "exploratory": true
+        }
+      ],
+      "full_floor_text_read": true,
+      "in_initial_267": false,
+      "hole_context_available": false,
+      "hole_context_examined": false,
+      "decision": "exclude",
+      "adopted": false,
+      "reason": "楼层虽命中教师/课程查询，但没有提供可核验的第一手课程体验；排除。",
+      "linked_evidence_id": null,
+      "reading_status": "full_floor_text_read; no hole context claimed"
+    },
+    {
+      "floor_id": 2600868,
+      "hole_id": 278276,
+      "course_matches": [
+        {
+          "course_code": "GESF10007",
+          "course_name": "基础日语I",
+          "query": "周菲菲",
+          "query_kind": "official_teacher_full_name",
+          "query_id": "FORUM-Q-6EF7E5EC5589A8BB1D4E-E",
+          "exploratory": true
+        }
+      ],
+      "full_floor_text_read": true,
+      "in_initial_267": true,
+      "hole_context_available": true,
+      "hole_context_examined": true,
+      "decision": "exclude",
+      "adopted": false,
+      "reason": "楼层以提问、选课咨询或行政求助为主，没有提供发帖者本人的课程体验；已查看同洞相关回复，若回复仅给出无依据短答则不作为证据。",
+      "linked_evidence_id": 2600868,
+      "reading_status": "full_floor_text_read; hole_context_examined"
+    },
+    {
+      "floor_id": 2764288,
+      "hole_id": 296928,
+      "course_matches": [
+        {
+          "course_code": "GEEC10156",
+          "course_name": "英语短篇小说导读",
+          "query": "zq",
+          "query_kind": "teacher_pinyin_initials",
+          "query_id": "FORUM-Q-7EAEFB87062F9054C464-E",
+          "exploratory": true
+        }
+      ],
+      "full_floor_text_read": true,
+      "in_initial_267": false,
+      "hole_context_available": false,
+      "hole_context_examined": false,
+      "decision": "exclude",
+      "adopted": false,
+      "reason": "楼层虽命中教师/课程查询，但没有提供可核验的第一手课程体验；排除。",
+      "linked_evidence_id": null,
+      "reading_status": "full_floor_text_read; no hole context claimed"
+    },
+    {
+      "floor_id": 2789951,
+      "hole_id": 300836,
+      "course_matches": [
+        {
+          "course_code": "FORE10048",
+          "course_name": "英语文学导读",
+          "query": "陈靓",
+          "query_kind": "official_teacher_full_name",
+          "query_id": "FORUM-Q-DC750D40E61A270E27EF-E",
+          "exploratory": true
+        }
+      ],
+      "full_floor_text_read": true,
+      "in_initial_267": false,
+      "hole_context_available": false,
+      "hole_context_examined": false,
+      "decision": "exclude",
+      "adopted": false,
+      "reason": "楼层虽命中教师/课程查询，但没有提供可核验的第一手课程体验；排除。",
+      "linked_evidence_id": null,
+      "reading_status": "full_floor_text_read; no hole context claimed"
+    },
+    {
+      "floor_id": 2792062,
+      "hole_id": 301124,
+      "course_matches": [
+        {
+          "course_code": "FORE50015",
+          "course_name": "莎士比亚选读",
+          "query": "张琼",
+          "query_kind": "official_teacher_full_name",
+          "query_id": "FORUM-Q-36AF3D3AF82C68BF31FB-E",
+          "exploratory": true
+        }
+      ],
+      "full_floor_text_read": true,
+      "in_initial_267": false,
+      "hole_context_available": false,
+      "hole_context_examined": false,
+      "decision": "exclude",
+      "adopted": false,
+      "reason": "楼层虽命中教师/课程查询，但没有提供可核验的第一手课程体验；排除。",
+      "linked_evidence_id": null,
+      "reading_status": "full_floor_text_read; no hole context claimed"
+    },
+    {
+      "floor_id": 3157908,
+      "hole_id": 342436,
+      "course_matches": [
+        {
+          "course_code": "FORE10012",
+          "course_name": "英语演讲",
+          "query": "cwj",
+          "query_kind": "teacher_pinyin_initials",
+          "query_id": "FORUM-Q-3C403AEDDE046C39EE9A-E",
+          "exploratory": true
+        },
+        {
+          "course_code": "FORE10012",
+          "course_name": "英语演讲",
+          "query": "fyl",
+          "query_kind": "teacher_pinyin_initials",
+          "query_id": "FORUM-Q-A696BC5A505D4FDFAB4D-E",
+          "exploratory": true
+        }
+      ],
+      "full_floor_text_read": true,
+      "in_initial_267": true,
+      "hole_context_available": true,
+      "hole_context_examined": true,
+      "decision": "exclude",
+      "adopted": false,
+      "reason": "询问英语演讲教师选择和给分，没有修课体验。",
+      "linked_evidence_id": null,
+      "reading_status": "full_floor_text_read; hole_context_examined"
+    },
+    {
+      "floor_id": 3190398,
+      "hole_id": 346808,
+      "course_matches": [
+        {
+          "course_code": "FORE10012",
+          "course_name": "英语演讲",
+          "query": "cwj",
+          "query_kind": "teacher_pinyin_initials",
+          "query_id": "FORUM-Q-3C403AEDDE046C39EE9A-E",
+          "exploratory": true
+        }
+      ],
+      "full_floor_text_read": true,
+      "in_initial_267": false,
+      "hole_context_available": false,
+      "hole_context_examined": false,
+      "decision": "exclude",
+      "adopted": false,
+      "reason": "楼层虽命中教师/课程查询，但没有提供可核验的第一手课程体验；排除。",
+      "linked_evidence_id": null,
+      "reading_status": "full_floor_text_read; no hole context claimed"
+    },
+    {
+      "floor_id": 3191979,
+      "hole_id": 347157,
+      "course_matches": [
+        {
+          "course_code": "GECC10045",
+          "course_name": "莎士比亚作品撷英",
+          "query": "zjs",
+          "query_kind": "teacher_pinyin_initials",
+          "query_id": "FORUM-Q-74580FB5E5D13031B267-E",
+          "exploratory": true
+        }
+      ],
+      "full_floor_text_read": true,
+      "in_initial_267": false,
+      "hole_context_available": false,
+      "hole_context_examined": false,
+      "decision": "exclude",
+      "adopted": false,
+      "reason": "楼层是课程资料/试题的求购或交易信息，没有课程体验内容；排除。",
+      "linked_evidence_id": null,
+      "reading_status": "full_floor_text_read; no hole context claimed"
+    },
+    {
+      "floor_id": 3197339,
+      "hole_id": 348040,
+      "course_matches": [
+        {
+          "course_code": "FORE10012",
+          "course_name": "英语演讲",
+          "query": "cwj",
+          "query_kind": "teacher_pinyin_initials",
+          "query_id": "FORUM-Q-3C403AEDDE046C39EE9A-E",
+          "exploratory": true
+        }
+      ],
+      "full_floor_text_read": true,
+      "in_initial_267": false,
+      "hole_context_available": false,
+      "hole_context_examined": false,
+      "decision": "exclude",
+      "adopted": false,
+      "reason": "楼层是课程资料/试题的求购或交易信息，没有课程体验内容；排除。",
+      "linked_evidence_id": null,
+      "reading_status": "full_floor_text_read; no hole context claimed"
+    },
+    {
+      "floor_id": 3199977,
+      "hole_id": 348530,
+      "course_matches": [
+        {
+          "course_code": "FORE40033",
+          "course_name": "中西文化比较",
+          "query": "汪洪章",
+          "query_kind": "official_teacher_full_name",
+          "query_id": "FORUM-Q-67C92964E12EDFA719A3-E",
+          "exploratory": true
+        }
+      ],
+      "full_floor_text_read": true,
+      "in_initial_267": true,
+      "hole_context_available": true,
+      "hole_context_examined": true,
+      "decision": "exclude",
+      "adopted": false,
+      "reason": "询问中西文化比较；同洞内容谈世界文学导读而非目标课。",
+      "linked_evidence_id": null,
+      "reading_status": "full_floor_text_read; hole_context_examined"
+    },
+    {
+      "floor_id": 3201199,
+      "hole_id": 348762,
+      "course_matches": [
+        {
+          "course_code": "FORE10012",
+          "course_name": "英语演讲",
+          "query": "cwj",
+          "query_kind": "teacher_pinyin_initials",
+          "query_id": "FORUM-Q-3C403AEDDE046C39EE9A-E",
+          "exploratory": true
+        }
+      ],
+      "full_floor_text_read": true,
+      "in_initial_267": false,
+      "hole_context_available": false,
+      "hole_context_examined": false,
+      "decision": "exclude",
+      "adopted": false,
+      "reason": "楼层虽命中教师/课程查询，但没有提供可核验的第一手课程体验；排除。",
+      "linked_evidence_id": null,
+      "reading_status": "full_floor_text_read; no hole context claimed"
+    },
+    {
+      "floor_id": 3230669,
+      "hole_id": 352718,
+      "course_matches": [
+        {
+          "course_code": "GEEC10156",
+          "course_name": "英语短篇小说导读",
+          "query": "zq",
+          "query_kind": "teacher_pinyin_initials",
+          "query_id": "FORUM-Q-7EAEFB87062F9054C464-E",
+          "exploratory": true
+        }
+      ],
+      "full_floor_text_read": true,
+      "in_initial_267": false,
+      "hole_context_available": false,
+      "hole_context_examined": false,
+      "decision": "exclude",
+      "adopted": false,
+      "reason": "楼层是在提问、寻求课友或索要课程信息，没有提供发帖者的课程体验；排除。",
+      "linked_evidence_id": null,
+      "reading_status": "full_floor_text_read; no hole context claimed"
+    },
+    {
+      "floor_id": 3239023,
+      "hole_id": 353888,
+      "course_matches": [
+        {
+          "course_code": "GESF10005",
+          "course_name": "基础俄语I",
+          "query": "whx",
+          "query_kind": "teacher_pinyin_initials",
+          "query_id": "FORUM-Q-4396AA30E0A089929FF1-E",
+          "exploratory": true
+        }
+      ],
+      "full_floor_text_read": true,
+      "in_initial_267": true,
+      "hole_context_available": true,
+      "hole_context_examined": true,
+      "decision": "exclude",
+      "adopted": false,
+      "reason": "比较是否将生命科学史或基础俄语I P/NP，无本人课程体验。",
+      "linked_evidence_id": null,
+      "reading_status": "full_floor_text_read; hole_context_examined"
+    },
+    {
+      "floor_id": 3288697,
+      "hole_id": 359700,
+      "course_matches": [
+        {
+          "course_code": "GECC10045",
+          "course_name": "莎士比亚作品撷英",
+          "query": "朱绩崧",
+          "query_kind": "official_teacher_full_name",
+          "query_id": "FORUM-Q-39F57881C2B9B12AF365-E",
+          "exploratory": true
+        }
+      ],
+      "full_floor_text_read": true,
+      "in_initial_267": false,
+      "hole_context_available": false,
+      "hole_context_examined": false,
+      "decision": "exclude",
+      "adopted": false,
+      "reason": "楼层是在提问、寻求课友或索要课程信息，没有提供发帖者的课程体验；排除。",
+      "linked_evidence_id": null,
+      "reading_status": "full_floor_text_read; no hole context claimed"
+    },
+    {
+      "floor_id": 3382546,
+      "hole_id": 371130,
+      "course_matches": [
+        {
+          "course_code": "FORE60005",
+          "course_name": "女性主义文学",
+          "query": "lla",
+          "query_kind": "teacher_pinyin_initials",
+          "query_id": "FORUM-Q-3BF9610E5A53F06A7E10-E",
+          "exploratory": true
+        }
+      ],
+      "full_floor_text_read": true,
+      "in_initial_267": true,
+      "hole_context_available": true,
+      "hole_context_examined": true,
+      "decision": "exclude",
+      "adopted": false,
+      "reason": "询问中文系女性主义文学课程，与目标范围无关。",
+      "linked_evidence_id": null,
+      "reading_status": "full_floor_text_read; hole_context_examined"
+    },
+    {
+      "floor_id": 3383101,
+      "hole_id": 371199,
+      "course_matches": [
+        {
+          "course_code": "GECC10045",
+          "course_name": "莎士比亚作品撷英",
+          "query": "zjs",
+          "query_kind": "teacher_pinyin_initials",
+          "query_id": "FORUM-Q-74580FB5E5D13031B267-E",
+          "exploratory": true
+        }
+      ],
+      "full_floor_text_read": true,
+      "in_initial_267": false,
+      "hole_context_available": false,
+      "hole_context_examined": false,
+      "decision": "exclude",
+      "adopted": false,
+      "reason": "楼层虽命中教师/课程查询，但没有提供可核验的第一手课程体验；排除。",
+      "linked_evidence_id": null,
+      "reading_status": "full_floor_text_read; no hole context claimed"
+    },
+    {
+      "floor_id": 3420953,
+      "hole_id": 375674,
+      "course_matches": [
+        {
+          "course_code": "FORE10029",
+          "course_name": "语言学概论",
+          "query": "fyl",
+          "query_kind": "teacher_pinyin_initials",
+          "query_id": "FORUM-Q-A696BC5A505D4FDFAB4D-E",
+          "exploratory": true
+        }
+      ],
+      "full_floor_text_read": true,
+      "in_initial_267": false,
+      "hole_context_available": false,
+      "hole_context_examined": false,
+      "decision": "exclude",
+      "adopted": false,
+      "reason": "楼层虽命中教师/课程查询，但没有提供可核验的第一手课程体验；排除。",
+      "linked_evidence_id": null,
+      "reading_status": "full_floor_text_read; no hole context claimed"
+    },
+    {
+      "floor_id": 3448211,
+      "hole_id": 378907,
+      "course_matches": [
+        {
+          "course_code": "GECC10045",
+          "course_name": "莎士比亚作品撷英",
+          "query": "zjs",
+          "query_kind": "teacher_pinyin_initials",
+          "query_id": "FORUM-Q-74580FB5E5D13031B267-E",
+          "exploratory": true
+        }
+      ],
+      "full_floor_text_read": true,
+      "in_initial_267": false,
+      "hole_context_available": false,
+      "hole_context_examined": false,
+      "decision": "exclude",
+      "adopted": false,
+      "reason": "楼层仅有一句夸张且语义不明的俚语式评论，缺少可核验课程体验细节；排除。",
+      "linked_evidence_id": null,
+      "reading_status": "full_floor_text_read; no hole context claimed"
+    },
+    {
+      "floor_id": 3462547,
+      "hole_id": 381042,
+      "course_matches": [
+        {
+          "course_code": "GECC10050",
+          "course_name": "英国经典小说与19世纪社会",
+          "query": "sgx",
+          "query_kind": "teacher_pinyin_initials",
+          "query_id": "FORUM-Q-86523BFF7E894750D2AB-E",
+          "exploratory": true
+        }
+      ],
+      "full_floor_text_read": true,
+      "in_initial_267": false,
+      "hole_context_available": false,
+      "hole_context_examined": false,
+      "decision": "exclude",
+      "adopted": false,
+      "reason": "楼层是在提问、寻求课友或索要课程信息，没有提供发帖者的课程体验；排除。",
+      "linked_evidence_id": null,
+      "reading_status": "full_floor_text_read; no hole context claimed"
+    },
+    {
+      "floor_id": 3524356,
+      "hole_id": 388887,
+      "course_matches": [
+        {
+          "course_code": "GECC10047",
+          "course_name": "欧洲电影解析与实践",
+          "query": "zjx",
+          "query_kind": "teacher_pinyin_initials",
+          "query_id": "FORUM-Q-C855E0B9FD5D82478C45-E",
+          "exploratory": true
+        }
+      ],
+      "full_floor_text_read": true,
+      "in_initial_267": false,
+      "hole_context_available": false,
+      "hole_context_examined": false,
+      "decision": "exclude",
+      "adopted": false,
+      "reason": "楼层是在提问、寻求课友或索要课程信息，没有提供发帖者的课程体验；排除。",
+      "linked_evidence_id": null,
+      "reading_status": "full_floor_text_read; no hole context claimed"
+    },
+    {
+      "floor_id": 3555665,
+      "hole_id": 392736,
+      "course_matches": [
+        {
+          "course_code": "GECC10048",
+          "course_name": "英国中世纪文学与文化",
+          "query": "bhy",
+          "query_kind": "teacher_pinyin_initials",
+          "query_id": "FORUM-Q-87912BE23FF7CAEC763A-E",
+          "exploratory": true
+        }
+      ],
+      "full_floor_text_read": true,
+      "in_initial_267": true,
+      "hole_context_available": true,
+      "hole_context_examined": true,
+      "decision": "exclude",
+      "adopted": false,
+      "reason": "该楼层提问；同洞3698356提供具体课程体验，另列证据。",
+      "linked_evidence_id": null,
+      "reading_status": "full_floor_text_read; hole_context_examined"
+    },
+    {
+      "floor_id": 3602855,
+      "hole_id": 397599,
+      "course_matches": [
+        {
+          "course_code": "GESF10008",
+          "course_name": "基础韩语I",
+          "query": "wxh",
+          "query_kind": "teacher_pinyin_initials",
+          "query_id": "FORUM-Q-AD82589E58295693AED3-E",
+          "exploratory": true
+        }
+      ],
+      "full_floor_text_read": true,
+      "in_initial_267": false,
+      "hole_context_available": false,
+      "hole_context_examined": false,
+      "decision": "exclude",
+      "adopted": false,
+      "reason": "楼层虽命中教师/课程查询，但没有提供可核验的第一手课程体验；排除。",
+      "linked_evidence_id": null,
+      "reading_status": "full_floor_text_read; no hole context claimed"
+    },
+    {
+      "floor_id": 3702322,
+      "hole_id": 406724,
+      "course_matches": [
+        {
+          "course_code": "GECC10045",
+          "course_name": "莎士比亚作品撷英",
+          "query": "zjs",
+          "query_kind": "teacher_pinyin_initials",
+          "query_id": "FORUM-Q-74580FB5E5D13031B267-E",
+          "exploratory": true
+        }
+      ],
+      "full_floor_text_read": true,
+      "in_initial_267": false,
+      "hole_context_available": false,
+      "hole_context_examined": false,
+      "decision": "exclude",
+      "adopted": false,
+      "reason": "楼层虽命中教师/课程查询，但没有提供可核验的第一手课程体验；排除。",
+      "linked_evidence_id": null,
+      "reading_status": "full_floor_text_read; no hole context claimed"
+    },
+    {
+      "floor_id": 3702411,
+      "hole_id": 406734,
+      "course_matches": [
+        {
+          "course_code": "GECC10045",
+          "course_name": "莎士比亚作品撷英",
+          "query": "zjs",
+          "query_kind": "teacher_pinyin_initials",
+          "query_id": "FORUM-Q-74580FB5E5D13031B267-E",
+          "exploratory": true
+        }
+      ],
+      "full_floor_text_read": true,
+      "in_initial_267": true,
+      "hole_context_available": true,
+      "hole_context_examined": true,
+      "decision": "adopt",
+      "adopted": true,
+      "reason": "完整第一手推荐，明确ZJS与莎士比亚作品撷英同现，描述课程内容、课堂氛围与给分感受。",
+      "linked_evidence_id": 3702411,
+      "reading_status": "full_floor_text_read; hole_context_examined"
+    },
+    {
+      "floor_id": 3784773,
+      "hole_id": 414343,
+      "course_matches": [
+        {
+          "course_code": "FORE50070",
+          "course_name": "英美电影与文化",
+          "query": "朱建新",
+          "query_kind": "official_teacher_full_name",
+          "query_id": "FORUM-Q-FDF8CEE509762BAEF023-E",
+          "exploratory": true
+        }
+      ],
+      "full_floor_text_read": true,
+      "in_initial_267": false,
+      "hole_context_available": true,
+      "hole_context_examined": false,
+      "decision": "exclude",
+      "adopted": false,
+      "reason": "楼层是在提问、寻求课友或索要课程信息，没有提供发帖者的课程体验；排除。",
+      "linked_evidence_id": null,
+      "reading_status": "full_floor_text_read; no hole context claimed"
+    },
+    {
+      "floor_id": 3792673,
+      "hole_id": 415811,
+      "course_matches": [
+        {
+          "course_code": "GECC10047",
+          "course_name": "欧洲电影解析与实践",
+          "query": "zjx",
+          "query_kind": "teacher_pinyin_initials",
+          "query_id": "FORUM-Q-C855E0B9FD5D82478C45-E",
+          "exploratory": true
+        }
+      ],
+      "full_floor_text_read": true,
+      "in_initial_267": false,
+      "hole_context_available": false,
+      "hole_context_examined": false,
+      "decision": "exclude",
+      "adopted": false,
+      "reason": "楼层是在提问、寻求课友或索要课程信息，没有提供发帖者的课程体验；排除。",
+      "linked_evidence_id": null,
+      "reading_status": "full_floor_text_read; no hole context claimed"
+    },
+    {
+      "floor_id": 3793952,
+      "hole_id": 416061,
+      "course_matches": [
+        {
+          "course_code": "GECC10050",
+          "course_name": "英国经典小说与19世纪社会",
+          "query": "sgx",
+          "query_kind": "teacher_pinyin_initials",
+          "query_id": "FORUM-Q-86523BFF7E894750D2AB-E",
+          "exploratory": true
+        }
+      ],
+      "full_floor_text_read": true,
+      "in_initial_267": false,
+      "hole_context_available": false,
+      "hole_context_examined": false,
+      "decision": "exclude",
+      "adopted": false,
+      "reason": "楼层是在提问、寻求课友或索要课程信息，没有提供发帖者的课程体验；排除。",
+      "linked_evidence_id": null,
+      "reading_status": "full_floor_text_read; no hole context claimed"
+    },
+    {
+      "floor_id": 3794235,
+      "hole_id": 416135,
+      "course_matches": [
+        {
+          "course_code": "GESF10008",
+          "course_name": "基础韩语I",
+          "query": "wxh",
+          "query_kind": "teacher_pinyin_initials",
+          "query_id": "FORUM-Q-AD82589E58295693AED3-E",
+          "exploratory": true
+        }
+      ],
+      "full_floor_text_read": true,
+      "in_initial_267": false,
+      "hole_context_available": false,
+      "hole_context_examined": false,
+      "decision": "exclude",
+      "adopted": false,
+      "reason": "楼层是课程资料/试题的求购或交易信息，没有课程体验内容；排除。",
+      "linked_evidence_id": null,
+      "reading_status": "full_floor_text_read; no hole context claimed"
+    },
+    {
+      "floor_id": 3797006,
+      "hole_id": 416647,
+      "course_matches": [
+        {
+          "course_code": "GESF10007",
+          "course_name": "基础日语I",
+          "query": "zyz",
+          "query_kind": "teacher_pinyin_initials",
+          "query_id": "FORUM-Q-A5F45D41E85CAD7EC07B-E",
+          "exploratory": true
+        }
+      ],
+      "full_floor_text_read": true,
+      "in_initial_267": false,
+      "hole_context_available": false,
+      "hole_context_examined": false,
+      "decision": "exclude",
+      "adopted": false,
+      "reason": "楼层是在提问、寻求课友或索要课程信息，没有提供发帖者的课程体验；排除。",
+      "linked_evidence_id": null,
+      "reading_status": "full_floor_text_read; no hole context claimed"
+    },
+    {
+      "floor_id": 3798526,
+      "hole_id": 416869,
+      "course_matches": [
+        {
+          "course_code": "FORE50016",
+          "course_name": "英美短篇小说",
+          "query": "whz",
+          "query_kind": "teacher_pinyin_initials",
+          "query_id": "FORUM-Q-265D7B6F3C6734D790D3-E",
+          "exploratory": true
+        }
+      ],
+      "full_floor_text_read": true,
+      "in_initial_267": true,
+      "hole_context_available": true,
+      "hole_context_examined": true,
+      "decision": "exclude",
+      "adopted": false,
+      "reason": "询问英美短篇小说课程情况，无个人修课经验。",
+      "linked_evidence_id": null,
+      "reading_status": "full_floor_text_read; hole_context_examined"
+    },
+    {
+      "floor_id": 3803343,
+      "hole_id": 417588,
+      "course_matches": [
+        {
+          "course_code": "GESF10007",
+          "course_name": "基础日语I",
+          "query": "wjj",
+          "query_kind": "teacher_pinyin_initials",
+          "query_id": "FORUM-Q-93CC14DBCF55F63A54C2-E",
+          "exploratory": true
+        }
+      ],
+      "full_floor_text_read": true,
+      "in_initial_267": false,
+      "hole_context_available": false,
+      "hole_context_examined": false,
+      "decision": "exclude",
+      "adopted": false,
+      "reason": "楼层是在提问、寻求课友或索要课程信息，没有提供发帖者的课程体验；排除。",
+      "linked_evidence_id": null,
+      "reading_status": "full_floor_text_read; no hole context claimed"
+    },
+    {
+      "floor_id": 3817666,
+      "hole_id": 419565,
+      "course_matches": [
+        {
+          "course_code": "GESF10014",
+          "course_name": "阿拉伯语I",
+          "query": "lj",
+          "query_kind": "teacher_pinyin_initials",
+          "query_id": "FORUM-Q-70A30EAE40A4CCBCAF6B-E",
+          "exploratory": true
+        }
+      ],
+      "full_floor_text_read": true,
+      "in_initial_267": false,
+      "hole_context_available": false,
+      "hole_context_examined": false,
+      "decision": "exclude",
+      "adopted": false,
+      "reason": "楼层虽命中教师/课程查询，但没有提供可核验的第一手课程体验；排除。",
+      "linked_evidence_id": null,
+      "reading_status": "full_floor_text_read; no hole context claimed"
+    },
+    {
+      "floor_id": 3825480,
+      "hole_id": 420599,
+      "course_matches": [
+        {
+          "course_code": "FORE20021",
+          "course_name": "日语语音学",
+          "query": "ljq",
+          "query_kind": "teacher_pinyin_initials",
+          "query_id": "FORUM-Q-7922EA6C24D728153A58-E",
+          "exploratory": true
+        }
+      ],
+      "full_floor_text_read": true,
+      "in_initial_267": true,
+      "hole_context_available": true,
+      "hole_context_examined": true,
+      "decision": "exclude",
+      "adopted": false,
+      "reason": "询问日语语音学给分，没有体验。",
+      "linked_evidence_id": null,
+      "reading_status": "full_floor_text_read; hole_context_examined"
+    },
+    {
+      "floor_id": 3992043,
+      "hole_id": 436901,
+      "course_matches": [
+        {
+          "course_code": "FORE40080",
+          "course_name": "毕业论文",
+          "query": "周菲菲",
+          "query_kind": "official_teacher_full_name",
+          "query_id": "FORUM-Q-6EF7E5EC5589A8BB1D4E-E",
+          "exploratory": true
+        },
+        {
+          "course_code": "GESF10007",
+          "course_name": "基础日语I",
+          "query": "周菲菲",
+          "query_kind": "official_teacher_full_name",
+          "query_id": "FORUM-Q-6EF7E5EC5589A8BB1D4E-E",
+          "exploratory": true
+        }
+      ],
+      "full_floor_text_read": true,
+      "in_initial_267": true,
+      "hole_context_available": true,
+      "hole_context_examined": true,
+      "decision": "exclude",
+      "adopted": false,
+      "reason": "询问基础日语I求P难度；同洞3992123仅一句“容易/无作业”，另列弱参考。",
+      "linked_evidence_id": null,
+      "reading_status": "full_floor_text_read; hole_context_examined"
+    },
+    {
+      "floor_id": 4006001,
+      "hole_id": 437822,
+      "course_matches": [
+        {
+          "course_code": "GESF10014",
+          "course_name": "阿拉伯语I",
+          "query": "lj",
+          "query_kind": "teacher_pinyin_initials",
+          "query_id": "FORUM-Q-70A30EAE40A4CCBCAF6B-E",
+          "exploratory": true
+        }
+      ],
+      "full_floor_text_read": true,
+      "in_initial_267": false,
+      "hole_context_available": false,
+      "hole_context_examined": false,
+      "decision": "exclude",
+      "adopted": false,
+      "reason": "楼层虽命中教师/课程查询，但没有提供可核验的第一手课程体验；排除。",
+      "linked_evidence_id": null,
+      "reading_status": "full_floor_text_read; no hole context claimed"
+    },
+    {
+      "floor_id": 4052525,
+      "hole_id": 442739,
+      "course_matches": [
+        {
+          "course_code": "FORE10006",
+          "course_name": "世界文学导读",
+          "query": "whz",
+          "query_kind": "teacher_pinyin_initials",
+          "query_id": "FORUM-Q-265D7B6F3C6734D790D3-E",
+          "exploratory": true
+        }
+      ],
+      "full_floor_text_read": true,
+      "in_initial_267": false,
+      "hole_context_available": false,
+      "hole_context_examined": false,
+      "decision": "exclude",
+      "adopted": false,
+      "reason": "楼层是课程资料/试题的求购或交易信息，没有课程体验内容；排除。",
+      "linked_evidence_id": null,
+      "reading_status": "full_floor_text_read; no hole context claimed"
+    },
+    {
+      "floor_id": 4157608,
+      "hole_id": 453011,
+      "course_matches": [
+        {
+          "course_code": "GESF10014",
+          "course_name": "阿拉伯语I",
+          "query": "lj",
+          "query_kind": "teacher_pinyin_initials",
+          "query_id": "FORUM-Q-70A30EAE40A4CCBCAF6B-E",
+          "exploratory": true
+        }
+      ],
+      "full_floor_text_read": true,
+      "in_initial_267": false,
+      "hole_context_available": false,
+      "hole_context_examined": false,
+      "decision": "exclude",
+      "adopted": false,
+      "reason": "楼层虽命中教师/课程查询，但没有提供可核验的第一手课程体验；排除。",
+      "linked_evidence_id": null,
+      "reading_status": "full_floor_text_read; no hole context claimed"
+    },
+    {
+      "floor_id": 4243214,
+      "hole_id": 462917,
+      "course_matches": [
+        {
+          "course_code": "FORE10048",
+          "course_name": "英语文学导读",
+          "query": "df",
+          "query_kind": "teacher_pinyin_initials",
+          "query_id": "FORUM-Q-32C220482C68413FBF82-E",
+          "exploratory": true
+        }
+      ],
+      "full_floor_text_read": true,
+      "in_initial_267": false,
+      "hole_context_available": false,
+      "hole_context_examined": false,
+      "decision": "exclude",
+      "adopted": false,
+      "reason": "楼层是课程资料/试题的求购或交易信息，没有课程体验内容；排除。",
+      "linked_evidence_id": null,
+      "reading_status": "full_floor_text_read; no hole context claimed"
+    },
+    {
+      "floor_id": 4243232,
+      "hole_id": 462921,
+      "course_matches": [
+        {
+          "course_code": "GESF20002",
+          "course_name": "基础法语II",
+          "query": "zyh",
+          "query_kind": "teacher_pinyin_initials",
+          "query_id": "FORUM-Q-DDCF87CBEAC3D9BBDEAC-E",
+          "exploratory": true
+        }
+      ],
+      "full_floor_text_read": true,
+      "in_initial_267": true,
+      "hole_context_available": true,
+      "hole_context_examined": true,
+      "decision": "adopt",
+      "adopted": true,
+      "reason": "作者刚考完基础法语II后自述考试吃力，询问PNP与给分；作为单次考试难度体验。",
+      "linked_evidence_id": 4243232,
+      "reading_status": "full_floor_text_read; hole_context_examined"
+    },
+    {
+      "floor_id": 4259257,
+      "hole_id": 464866,
+      "course_matches": [
+        {
+          "course_code": "GESF10014",
+          "course_name": "阿拉伯语I",
+          "query": "lj",
+          "query_kind": "teacher_pinyin_initials",
+          "query_id": "FORUM-Q-70A30EAE40A4CCBCAF6B-E",
+          "exploratory": true
+        }
+      ],
+      "full_floor_text_read": true,
+      "in_initial_267": false,
+      "hole_context_available": false,
+      "hole_context_examined": false,
+      "decision": "exclude",
+      "adopted": false,
+      "reason": "楼层虽命中教师/课程查询，但没有提供可核验的第一手课程体验；排除。",
+      "linked_evidence_id": null,
+      "reading_status": "full_floor_text_read; no hole context claimed"
+    },
+    {
+      "floor_id": 4306867,
+      "hole_id": 470217,
+      "course_matches": [
+        {
+          "course_code": "GESF10014",
+          "course_name": "阿拉伯语I",
+          "query": "lj",
+          "query_kind": "teacher_pinyin_initials",
+          "query_id": "FORUM-Q-70A30EAE40A4CCBCAF6B-E",
+          "exploratory": true
+        }
+      ],
+      "full_floor_text_read": true,
+      "in_initial_267": false,
+      "hole_context_available": false,
+      "hole_context_examined": false,
+      "decision": "exclude",
+      "adopted": false,
+      "reason": "楼层虽命中教师/课程查询，但没有提供可核验的第一手课程体验；排除。",
+      "linked_evidence_id": null,
+      "reading_status": "full_floor_text_read; no hole context claimed"
+    },
+    {
+      "floor_id": 4311685,
+      "hole_id": 470758,
+      "course_matches": [
+        {
+          "course_code": "GESF10014",
+          "course_name": "阿拉伯语I",
+          "query": "lj",
+          "query_kind": "teacher_pinyin_initials",
+          "query_id": "FORUM-Q-70A30EAE40A4CCBCAF6B-E",
+          "exploratory": true
+        }
+      ],
+      "full_floor_text_read": true,
+      "in_initial_267": false,
+      "hole_context_available": false,
+      "hole_context_examined": false,
+      "decision": "exclude",
+      "adopted": false,
+      "reason": "楼层虽命中教师/课程查询，但没有提供可核验的第一手课程体验；排除。",
+      "linked_evidence_id": null,
+      "reading_status": "full_floor_text_read; no hole context claimed"
+    },
+    {
+      "floor_id": 4340657,
+      "hole_id": 419202,
+      "course_matches": [
+        {
+          "course_code": "FORE10048",
+          "course_name": "英语文学导读",
+          "query": "df",
+          "query_kind": "teacher_pinyin_initials",
+          "query_id": "FORUM-Q-32C220482C68413FBF82-E",
+          "exploratory": true
+        }
+      ],
+      "full_floor_text_read": true,
+      "in_initial_267": false,
+      "hole_context_available": true,
+      "hole_context_examined": true,
+      "decision": "adopt",
+      "adopted": true,
+      "reason": "完整楼层與同洞上下文確認評價對象為英語文學導讀；保留原帖縮寫DF，不映射為全名。",
+      "linked_evidence_id": 4340657,
+      "reading_status": "full_floor_text_read; hole_context_examined"
+    },
+    {
+      "floor_id": 4377519,
+      "hole_id": 468494,
+      "course_matches": [
+        {
+          "course_code": "FORE10006",
+          "course_name": "世界文学导读",
+          "query": "whz",
+          "query_kind": "teacher_pinyin_initials",
+          "query_id": "FORUM-Q-265D7B6F3C6734D790D3-E",
+          "exploratory": true
+        }
+      ],
+      "full_floor_text_read": true,
+      "in_initial_267": false,
+      "hole_context_available": false,
+      "hole_context_examined": false,
+      "decision": "exclude",
+      "adopted": false,
+      "reason": "楼层虽命中教师/课程查询，但没有提供可核验的第一手课程体验；排除。",
+      "linked_evidence_id": null,
+      "reading_status": "full_floor_text_read; no hole context claimed"
+    },
+    {
+      "floor_id": 4385618,
+      "hole_id": 479539,
+      "course_matches": [
+        {
+          "course_code": "FORE40080",
+          "course_name": "毕业论文",
+          "query": "陶友兰",
+          "query_kind": "official_teacher_full_name",
+          "query_id": "FORUM-Q-4FCF6E504E9106D50F3D-E",
+          "exploratory": true
+        }
+      ],
+      "full_floor_text_read": true,
+      "in_initial_267": false,
+      "hole_context_available": false,
+      "hole_context_examined": false,
+      "decision": "exclude",
+      "adopted": false,
+      "reason": "这是复旦大学关于学业评价改革的新闻文章，非该培养方案课程的修课评价；排除。",
+      "linked_evidence_id": null,
+      "reading_status": "full_floor_text_read; no hole context claimed"
+    },
+    {
+      "floor_id": 4386334,
+      "hole_id": 402785,
+      "course_matches": [
+        {
+          "course_code": "GECC10045",
+          "course_name": "莎士比亚作品撷英",
+          "query": "zjs",
+          "query_kind": "teacher_pinyin_initials",
+          "query_id": "FORUM-Q-74580FB5E5D13031B267-E",
+          "exploratory": true
+        }
+      ],
+      "full_floor_text_read": true,
+      "in_initial_267": false,
+      "hole_context_available": true,
+      "hole_context_examined": false,
+      "decision": "exclude",
+      "adopted": false,
+      "reason": "楼层仅列出课程名称/修课清单，没有描述课程体验、任务或成绩；排除。",
+      "linked_evidence_id": null,
+      "reading_status": "full_floor_text_read; no hole context claimed"
+    },
+    {
+      "floor_id": 4408238,
+      "hole_id": 400259,
+      "course_matches": [
+        {
+          "course_code": "GECC10045",
+          "course_name": "莎士比亚作品撷英",
+          "query": "zjs",
+          "query_kind": "teacher_pinyin_initials",
+          "query_id": "FORUM-Q-74580FB5E5D13031B267-E",
+          "exploratory": true
+        }
+      ],
+      "full_floor_text_read": true,
+      "in_initial_267": false,
+      "hole_context_available": true,
+      "hole_context_examined": true,
+      "decision": "adopt",
+      "adopted": true,
+      "reason": "完整楼层明确课程名、ZJS缩写、任务/考试和个人成绩；作为历史个体体验采用，不外推成绩分布。",
+      "linked_evidence_id": 4408238,
+      "reading_status": "full_floor_text_read; hole_context_examined"
+    },
+    {
+      "floor_id": 4411494,
+      "hole_id": 402785,
+      "course_matches": [
+        {
+          "course_code": "GECC10045",
+          "course_name": "莎士比亚作品撷英",
+          "query": "zjs",
+          "query_kind": "teacher_pinyin_initials",
+          "query_id": "FORUM-Q-74580FB5E5D13031B267-E",
+          "exploratory": true
+        }
+      ],
+      "full_floor_text_read": true,
+      "in_initial_267": true,
+      "hole_context_available": true,
+      "hole_context_examined": true,
+      "decision": "adopt",
+      "adopted": true,
+      "reason": "第一人称详述莎士比亚作品撷英阅读、pre/讨论、考试与本人成绩；ZJS按原帖缩写保留。",
+      "linked_evidence_id": 4411494,
+      "reading_status": "full_floor_text_read; hole_context_examined"
+    },
+    {
+      "floor_id": 4458772,
+      "hole_id": 486671,
+      "course_matches": [
+        {
+          "course_code": "FORE50062",
+          "course_name": "英语语音学",
+          "query": "hl",
+          "query_kind": "teacher_pinyin_initials",
+          "query_id": "FORUM-Q-0369A36FE856043F6475-E",
+          "exploratory": true
+        }
+      ],
+      "full_floor_text_read": true,
+      "in_initial_267": false,
+      "hole_context_available": false,
+      "hole_context_examined": false,
+      "decision": "exclude",
+      "adopted": false,
+      "reason": "楼层是在提问、寻求课友或索要课程信息，没有提供发帖者的课程体验；排除。",
+      "linked_evidence_id": null,
+      "reading_status": "full_floor_text_read; no hole context claimed"
+    },
+    {
+      "floor_id": 4478882,
+      "hole_id": 488499,
+      "course_matches": [
+        {
+          "course_code": "GECC10050",
+          "course_name": "英国经典小说与19世纪社会",
+          "query": "sgx",
+          "query_kind": "teacher_pinyin_initials",
+          "query_id": "FORUM-Q-86523BFF7E894750D2AB-E",
+          "exploratory": true
+        }
+      ],
+      "full_floor_text_read": true,
+      "in_initial_267": false,
+      "hole_context_available": false,
+      "hole_context_examined": false,
+      "decision": "exclude",
+      "adopted": false,
+      "reason": "楼层是在提问、寻求课友或索要课程信息，没有提供发帖者的课程体验；排除。",
+      "linked_evidence_id": null,
+      "reading_status": "full_floor_text_read; no hole context claimed"
+    },
+    {
+      "floor_id": 4493889,
+      "hole_id": 489480,
+      "course_matches": [
+        {
+          "course_code": "GESF10014",
+          "course_name": "阿拉伯语I",
+          "query": "lj",
+          "query_kind": "teacher_pinyin_initials",
+          "query_id": "FORUM-Q-70A30EAE40A4CCBCAF6B-E",
+          "exploratory": true
+        }
+      ],
+      "full_floor_text_read": true,
+      "in_initial_267": false,
+      "hole_context_available": false,
+      "hole_context_examined": false,
+      "decision": "exclude",
+      "adopted": false,
+      "reason": "楼层虽命中教师/课程查询，但没有提供可核验的第一手课程体验；排除。",
+      "linked_evidence_id": null,
+      "reading_status": "full_floor_text_read; no hole context claimed"
+    },
+    {
+      "floor_id": 4503509,
+      "hole_id": 490263,
+      "course_matches": [
+        {
+          "course_code": "GESF10014",
+          "course_name": "阿拉伯语I",
+          "query": "lj",
+          "query_kind": "teacher_pinyin_initials",
+          "query_id": "FORUM-Q-70A30EAE40A4CCBCAF6B-E",
+          "exploratory": true
+        }
+      ],
+      "full_floor_text_read": true,
+      "in_initial_267": false,
+      "hole_context_available": false,
+      "hole_context_examined": false,
+      "decision": "exclude",
+      "adopted": false,
+      "reason": "楼层虽命中教师/课程查询，但没有提供可核验的第一手课程体验；排除。",
+      "linked_evidence_id": null,
+      "reading_status": "full_floor_text_read; no hole context claimed"
+    },
+    {
+      "floor_id": 4608918,
+      "hole_id": 502931,
+      "course_matches": [
+        {
+          "course_code": "GEEC10146",
+          "course_name": "北欧电影",
+          "query": "朱建新",
+          "query_kind": "official_teacher_full_name",
+          "query_id": "FORUM-Q-FDF8CEE509762BAEF023-E",
+          "exploratory": true
+        }
+      ],
+      "full_floor_text_read": true,
+      "in_initial_267": true,
+      "hole_context_available": true,
+      "hole_context_examined": true,
+      "decision": "exclude",
+      "adopted": false,
+      "reason": "楼层以提问、选课咨询或行政求助为主，没有提供发帖者本人的课程体验；已查看同洞相关回复，若回复仅给出无依据短答则不作为证据。",
+      "linked_evidence_id": null,
+      "reading_status": "full_floor_text_read; hole_context_examined"
+    },
+    {
+      "floor_id": 4618423,
+      "hole_id": 504479,
+      "course_matches": [
+        {
+          "course_code": "GECC10047",
+          "course_name": "欧洲电影解析与实践",
+          "query": "zjx",
+          "query_kind": "teacher_pinyin_initials",
+          "query_id": "FORUM-Q-C855E0B9FD5D82478C45-E",
+          "exploratory": true
+        }
+      ],
+      "full_floor_text_read": true,
+      "in_initial_267": false,
+      "hole_context_available": false,
+      "hole_context_examined": false,
+      "decision": "exclude",
+      "adopted": false,
+      "reason": "楼层虽命中教师/课程查询，但没有提供可核验的第一手课程体验；排除。",
+      "linked_evidence_id": null,
+      "reading_status": "full_floor_text_read; no hole context claimed"
+    },
+    {
+      "floor_id": 4618434,
+      "hole_id": 504485,
+      "course_matches": [
+        {
+          "course_code": "GECC10047",
+          "course_name": "欧洲电影解析与实践",
+          "query": "zjx",
+          "query_kind": "teacher_pinyin_initials",
+          "query_id": "FORUM-Q-C855E0B9FD5D82478C45-E",
+          "exploratory": true
+        }
+      ],
+      "full_floor_text_read": true,
+      "in_initial_267": false,
+      "hole_context_available": false,
+      "hole_context_examined": false,
+      "decision": "exclude",
+      "adopted": false,
+      "reason": "楼层虽命中教师/课程查询，但没有提供可核验的第一手课程体验；排除。",
+      "linked_evidence_id": null,
+      "reading_status": "full_floor_text_read; no hole context claimed"
+    },
+    {
+      "floor_id": 4625724,
+      "hole_id": 506041,
+      "course_matches": [
+        {
+          "course_code": "GECC10047",
+          "course_name": "欧洲电影解析与实践",
+          "query": "zjx",
+          "query_kind": "teacher_pinyin_initials",
+          "query_id": "FORUM-Q-C855E0B9FD5D82478C45-E",
+          "exploratory": true
+        }
+      ],
+      "full_floor_text_read": true,
+      "in_initial_267": false,
+      "hole_context_available": false,
+      "hole_context_examined": false,
+      "decision": "exclude",
+      "adopted": false,
+      "reason": "楼层虽命中教师/课程查询，但没有提供可核验的第一手课程体验；排除。",
+      "linked_evidence_id": null,
+      "reading_status": "full_floor_text_read; no hole context claimed"
+    },
+    {
+      "floor_id": 4680650,
+      "hole_id": 513874,
+      "course_matches": [
+        {
+          "course_code": "FORE50015",
+          "course_name": "莎士比亚选读",
+          "query": "张琼",
+          "query_kind": "official_teacher_full_name",
+          "query_id": "FORUM-Q-36AF3D3AF82C68BF31FB-E",
+          "exploratory": true
+        }
+      ],
+      "full_floor_text_read": true,
+      "in_initial_267": true,
+      "hole_context_available": true,
+      "hole_context_examined": true,
+      "decision": "adopt",
+      "adopted": true,
+      "reason": "楼层明确谈到目标课程莎士比亚选读（FORE50015）和教师张琼；作者称课堂有趣、教师讲得好，但仍在开课阶段，担心后续考试。作为初期个人印象保留，不与莎士比亚作品撷英合并。",
+      "linked_evidence_id": 4680650,
+      "reading_status": "full_floor_text_read; hole_context_examined"
+    },
+    {
+      "floor_id": 4705511,
+      "hole_id": 516824,
+      "course_matches": [
+        {
+          "course_code": "GECC10047",
+          "course_name": "欧洲电影解析与实践",
+          "query": "zjx",
+          "query_kind": "teacher_pinyin_initials",
+          "query_id": "FORUM-Q-C855E0B9FD5D82478C45-E",
+          "exploratory": true
+        }
+      ],
+      "full_floor_text_read": true,
+      "in_initial_267": false,
+      "hole_context_available": false,
+      "hole_context_examined": false,
+      "decision": "exclude",
+      "adopted": false,
+      "reason": "楼层虽命中教师/课程查询，但没有提供可核验的第一手课程体验；排除。",
+      "linked_evidence_id": null,
+      "reading_status": "full_floor_text_read; no hole context claimed"
+    },
+    {
+      "floor_id": 4714177,
+      "hole_id": 517723,
+      "course_matches": [
+        {
+          "course_code": "FORE10029",
+          "course_name": "语言学概论",
+          "query": "fyl",
+          "query_kind": "teacher_pinyin_initials",
+          "query_id": "FORUM-Q-A696BC5A505D4FDFAB4D-E",
+          "exploratory": true
+        }
+      ],
+      "full_floor_text_read": true,
+      "in_initial_267": true,
+      "hole_context_available": true,
+      "hole_context_examined": true,
+      "decision": "exclude",
+      "adopted": false,
+      "reason": "询问英专语言学概论给分和考试，没有体验。",
+      "linked_evidence_id": null,
+      "reading_status": "full_floor_text_read; hole_context_examined"
+    },
+    {
+      "floor_id": 4731168,
+      "hole_id": 519864,
+      "course_matches": [
+        {
+          "course_code": "GESF10008",
+          "course_name": "基础韩语I",
+          "query": "wxh",
+          "query_kind": "teacher_pinyin_initials",
+          "query_id": "FORUM-Q-AD82589E58295693AED3-E",
+          "exploratory": true
+        }
+      ],
+      "full_floor_text_read": true,
+      "in_initial_267": true,
+      "hole_context_available": true,
+      "hole_context_examined": true,
+      "decision": "exclude",
+      "adopted": false,
+      "reason": "询问基础韩语I作业，不是体验评价。",
+      "linked_evidence_id": null,
+      "reading_status": "full_floor_text_read; hole_context_examined"
+    },
+    {
+      "floor_id": 4818876,
+      "hole_id": 504196,
+      "course_matches": [
+        {
+          "course_code": "FORE10029",
+          "course_name": "语言学概论",
+          "query": "fyl",
+          "query_kind": "teacher_pinyin_initials",
+          "query_id": "FORUM-Q-A696BC5A505D4FDFAB4D-E",
+          "exploratory": true
+        }
+      ],
+      "full_floor_text_read": true,
+      "in_initial_267": false,
+      "hole_context_available": false,
+      "hole_context_examined": false,
+      "decision": "exclude",
+      "adopted": false,
+      "reason": "楼层虽命中教师/课程查询，但没有提供可核验的第一手课程体验；排除。",
+      "linked_evidence_id": null,
+      "reading_status": "full_floor_text_read; no hole context claimed"
+    },
+    {
+      "floor_id": 5029772,
+      "hole_id": 553907,
+      "course_matches": [
+        {
+          "course_code": "GECC10050",
+          "course_name": "英国经典小说与19世纪社会",
+          "query": "苏耕欣",
+          "query_kind": "official_teacher_full_name",
+          "query_id": "FORUM-Q-3399EA5C32F9E1F0D13C-E",
+          "exploratory": true
+        }
+      ],
+      "full_floor_text_read": true,
+      "in_initial_267": false,
+      "hole_context_available": false,
+      "hole_context_examined": false,
+      "decision": "exclude",
+      "adopted": false,
+      "reason": "楼层虽命中教师/课程查询，但没有提供可核验的第一手课程体验；排除。",
+      "linked_evidence_id": null,
+      "reading_status": "full_floor_text_read; no hole context claimed"
+    },
+    {
+      "floor_id": 5050125,
+      "hole_id": 556612,
+      "course_matches": [
+        {
+          "course_code": "FORE10006",
+          "course_name": "世界文学导读",
+          "query": "汪洪章",
+          "query_kind": "official_teacher_full_name",
+          "query_id": "FORUM-Q-67C92964E12EDFA719A3-E",
+          "exploratory": true
+        }
+      ],
+      "full_floor_text_read": true,
+      "in_initial_267": false,
+      "hole_context_available": false,
+      "hole_context_examined": false,
+      "decision": "exclude",
+      "adopted": false,
+      "reason": "楼层是在提问、寻求课友或索要课程信息，没有提供发帖者的课程体验；排除。",
+      "linked_evidence_id": null,
+      "reading_status": "full_floor_text_read; no hole context claimed"
+    },
+    {
+      "floor_id": 5050644,
+      "hole_id": 556711,
+      "course_matches": [
+        {
+          "course_code": "FORE20021",
+          "course_name": "日语语音学",
+          "query": "ljq",
+          "query_kind": "teacher_pinyin_initials",
+          "query_id": "FORUM-Q-7922EA6C24D728153A58-E",
+          "exploratory": true
+        }
+      ],
+      "full_floor_text_read": true,
+      "in_initial_267": true,
+      "hole_context_available": true,
+      "hole_context_examined": true,
+      "decision": "exclude",
+      "adopted": false,
+      "reason": "询问日语语音学课任务量，非体验。",
+      "linked_evidence_id": null,
+      "reading_status": "full_floor_text_read; hole_context_examined"
+    },
+    {
+      "floor_id": 5130968,
+      "hole_id": 566281,
+      "course_matches": [
+        {
+          "course_code": "GECC10050",
+          "course_name": "英国经典小说与19世纪社会",
+          "query": "sgx",
+          "query_kind": "teacher_pinyin_initials",
+          "query_id": "FORUM-Q-86523BFF7E894750D2AB-E",
+          "exploratory": true
+        }
+      ],
+      "full_floor_text_read": true,
+      "in_initial_267": false,
+      "hole_context_available": false,
+      "hole_context_examined": false,
+      "decision": "exclude",
+      "adopted": false,
+      "reason": "楼层是课程资料/试题的求购或交易信息，没有课程体验内容；排除。",
+      "linked_evidence_id": null,
+      "reading_status": "full_floor_text_read; no hole context claimed"
+    },
+    {
+      "floor_id": 5178563,
+      "hole_id": 571226,
+      "course_matches": [
+        {
+          "course_code": "GECC10045",
+          "course_name": "莎士比亚作品撷英",
+          "query": "zjs",
+          "query_kind": "teacher_pinyin_initials",
+          "query_id": "FORUM-Q-74580FB5E5D13031B267-E",
+          "exploratory": true
+        }
+      ],
+      "full_floor_text_read": true,
+      "in_initial_267": true,
+      "hole_context_available": true,
+      "hole_context_examined": true,
+      "decision": "exclude",
+      "adopted": false,
+      "reason": "对ZJS评分政策的泛泛转述，缺少个人班次/来源，不作实际课程证据。",
+      "linked_evidence_id": null,
+      "reading_status": "full_floor_text_read; hole_context_examined"
+    },
+    {
+      "floor_id": 5186576,
+      "hole_id": 573422,
+      "course_matches": [
+        {
+          "course_code": "GECC10045",
+          "course_name": "莎士比亚作品撷英",
+          "query": "zjs",
+          "query_kind": "teacher_pinyin_initials",
+          "query_id": "FORUM-Q-74580FB5E5D13031B267-E",
+          "exploratory": true
+        }
+      ],
+      "full_floor_text_read": true,
+      "in_initial_267": false,
+      "hole_context_available": false,
+      "hole_context_examined": false,
+      "decision": "exclude",
+      "adopted": false,
+      "reason": "楼层虽命中教师/课程查询，但没有提供可核验的第一手课程体验；排除。",
+      "linked_evidence_id": null,
+      "reading_status": "full_floor_text_read; no hole context claimed"
+    },
+    {
+      "floor_id": 5190491,
+      "hole_id": 573968,
+      "course_matches": [
+        {
+          "course_code": "FORE50091",
+          "course_name": "俄罗斯文学史",
+          "query": "whx",
+          "query_kind": "teacher_pinyin_initials",
+          "query_id": "FORUM-Q-4396AA30E0A089929FF1-E",
+          "exploratory": true
+        },
+        {
+          "course_code": "GEEC10147",
+          "course_name": "俄罗斯文学史与经典赏析",
+          "query": "whx",
+          "query_kind": "teacher_pinyin_initials",
+          "query_id": "FORUM-Q-4396AA30E0A089929FF1-E",
+          "exploratory": true
+        }
+      ],
+      "full_floor_text_read": true,
+      "in_initial_267": false,
+      "hole_context_available": false,
+      "hole_context_examined": false,
+      "decision": "exclude",
+      "adopted": false,
+      "reason": "楼层虽命中教师/课程查询，但没有提供可核验的第一手课程体验；排除。",
+      "linked_evidence_id": null,
+      "reading_status": "full_floor_text_read; no hole context claimed"
+    },
+    {
+      "floor_id": 5221353,
+      "hole_id": 577729,
+      "course_matches": [
+        {
+          "course_code": "FORE10029",
+          "course_name": "语言学概论",
+          "query": "fyl",
+          "query_kind": "teacher_pinyin_initials",
+          "query_id": "FORUM-Q-A696BC5A505D4FDFAB4D-E",
+          "exploratory": true
+        }
+      ],
+      "full_floor_text_read": true,
+      "in_initial_267": false,
+      "hole_context_available": false,
+      "hole_context_examined": false,
+      "decision": "exclude",
+      "adopted": false,
+      "reason": "楼层是课程资料/试题的求购或交易信息，没有课程体验内容；排除。",
+      "linked_evidence_id": null,
+      "reading_status": "full_floor_text_read; no hole context claimed"
+    },
+    {
+      "floor_id": 5290806,
+      "hole_id": 585271,
+      "course_matches": [
+        {
+          "course_code": "FORE30027",
+          "course_name": "文学研究方法论",
+          "query": "df",
+          "query_kind": "teacher_pinyin_initials",
+          "query_id": "FORUM-Q-32C220482C68413FBF82-E",
+          "exploratory": true
+        }
+      ],
+      "full_floor_text_read": true,
+      "in_initial_267": false,
+      "hole_context_available": false,
+      "hole_context_examined": false,
+      "decision": "exclude",
+      "adopted": false,
+      "reason": "楼层是在提问、寻求课友或索要课程信息，没有提供发帖者的课程体验；排除。",
+      "linked_evidence_id": null,
+      "reading_status": "full_floor_text_read; no hole context claimed"
+    },
+    {
+      "floor_id": 5349240,
+      "hole_id": 590845,
+      "course_matches": [
+        {
+          "course_code": "GECC10045",
+          "course_name": "莎士比亚作品撷英",
+          "query": "zjs",
+          "query_kind": "teacher_pinyin_initials",
+          "query_id": "FORUM-Q-74580FB5E5D13031B267-E",
+          "exploratory": true
+        }
+      ],
+      "full_floor_text_read": true,
+      "in_initial_267": true,
+      "hole_context_available": true,
+      "hole_context_examined": true,
+      "decision": "adopt",
+      "adopted": true,
+      "reason": "完整楼层明确写莎士比亚作品撷英（zjs），描述班级成绩自述、三次pre、考勤与考试。",
+      "linked_evidence_id": 5349240,
+      "reading_status": "full_floor_text_read; hole_context_examined"
+    },
+    {
+      "floor_id": 5363934,
+      "hole_id": 592076,
+      "course_matches": [
+        {
+          "course_code": "FORE10048",
+          "course_name": "英语文学导读",
+          "query": "段枫",
+          "query_kind": "official_teacher_full_name",
+          "query_id": "FORUM-Q-97E8B6C46DA8D0786BE7-E",
+          "exploratory": true
+        }
+      ],
+      "full_floor_text_read": true,
+      "in_initial_267": false,
+      "hole_context_available": true,
+      "hole_context_examined": true,
+      "decision": "exclude",
+      "adopted": false,
+      "reason": "楼层列出课程与授课内容，属于推荐/课程主题清单，没有修课体验评价；排除。",
+      "linked_evidence_id": null,
+      "reading_status": "full_floor_text_read; hole_context_examined"
+    },
+    {
+      "floor_id": 5367849,
+      "hole_id": 592076,
+      "course_matches": [
+        {
+          "course_code": "FORE10048",
+          "course_name": "英语文学导读",
+          "query": "df",
+          "query_kind": "teacher_pinyin_initials",
+          "query_id": "FORUM-Q-32C220482C68413FBF82-E",
+          "exploratory": true
+        }
+      ],
+      "full_floor_text_read": true,
+      "in_initial_267": false,
+      "hole_context_available": true,
+      "hole_context_examined": true,
+      "decision": "exclude",
+      "adopted": false,
+      "reason": "楼层仅转述推荐，没有说明本人修课经历或课程细节；排除。",
+      "linked_evidence_id": null,
+      "reading_status": "full_floor_text_read; hole_context_examined"
+    },
+    {
+      "floor_id": 5487820,
+      "hole_id": 602734,
+      "course_matches": [
+        {
+          "course_code": "GESF10014",
+          "course_name": "阿拉伯语I",
+          "query": "lj",
+          "query_kind": "teacher_pinyin_initials",
+          "query_id": "FORUM-Q-70A30EAE40A4CCBCAF6B-E",
+          "exploratory": true
+        }
+      ],
+      "full_floor_text_read": true,
+      "in_initial_267": false,
+      "hole_context_available": false,
+      "hole_context_examined": false,
+      "decision": "exclude",
+      "adopted": false,
+      "reason": "楼层虽命中教师/课程查询，但没有提供可核验的第一手课程体验；排除。",
+      "linked_evidence_id": null,
+      "reading_status": "full_floor_text_read; no hole context claimed"
+    },
+    {
+      "floor_id": 5495346,
+      "hole_id": 603887,
+      "course_matches": [
+        {
+          "course_code": "GESF10007",
+          "course_name": "基础日语I",
+          "query": "wjj",
+          "query_kind": "teacher_pinyin_initials",
+          "query_id": "FORUM-Q-93CC14DBCF55F63A54C2-E",
+          "exploratory": true
+        },
+        {
+          "course_code": "GESF10007",
+          "course_name": "基础日语I",
+          "query": "zyz",
+          "query_kind": "teacher_pinyin_initials",
+          "query_id": "FORUM-Q-A5F45D41E85CAD7EC07B-E",
+          "exploratory": true
+        }
+      ],
+      "full_floor_text_read": true,
+      "in_initial_267": true,
+      "hole_context_available": true,
+      "hole_context_examined": true,
+      "decision": "exclude",
+      "adopted": false,
+      "reason": "比较教师和任务量的提问，无课程体验。",
+      "linked_evidence_id": null,
+      "reading_status": "full_floor_text_read; hole_context_examined"
+    },
+    {
+      "floor_id": 5506454,
+      "hole_id": 606271,
+      "course_matches": [
+        {
+          "course_code": "GEEC20006",
+          "course_name": "日本文学文化",
+          "query": "zff",
+          "query_kind": "teacher_pinyin_initials",
+          "query_id": "FORUM-Q-08DAD727593E8F0F7F86-E",
+          "exploratory": true
+        }
+      ],
+      "full_floor_text_read": true,
+      "in_initial_267": false,
+      "hole_context_available": false,
+      "hole_context_examined": false,
+      "decision": "exclude",
+      "adopted": false,
+      "reason": "楼层是在提问、寻求课友或索要课程信息，没有提供发帖者的课程体验；排除。",
+      "linked_evidence_id": null,
+      "reading_status": "full_floor_text_read; no hole context claimed"
+    },
+    {
+      "floor_id": 5512706,
+      "hole_id": 607394,
+      "course_matches": [
+        {
+          "course_code": "GESF10008",
+          "course_name": "基础韩语I",
+          "query": "wxh",
+          "query_kind": "teacher_pinyin_initials",
+          "query_id": "FORUM-Q-AD82589E58295693AED3-E",
+          "exploratory": true
+        }
+      ],
+      "full_floor_text_read": true,
+      "in_initial_267": false,
+      "hole_context_available": false,
+      "hole_context_examined": false,
+      "decision": "exclude",
+      "adopted": false,
+      "reason": "楼层虽命中教师/课程查询，但没有提供可核验的第一手课程体验；排除。",
+      "linked_evidence_id": null,
+      "reading_status": "full_floor_text_read; no hole context claimed"
+    },
+    {
+      "floor_id": 5523225,
+      "hole_id": 609113,
+      "course_matches": [
+        {
+          "course_code": "FORE10048",
+          "course_name": "英语文学导读",
+          "query": "df",
+          "query_kind": "teacher_pinyin_initials",
+          "query_id": "FORUM-Q-32C220482C68413FBF82-E",
+          "exploratory": true
+        }
+      ],
+      "full_floor_text_read": true,
+      "in_initial_267": false,
+      "hole_context_available": false,
+      "hole_context_examined": false,
+      "decision": "exclude",
+      "adopted": false,
+      "reason": "楼层是在提问、寻求课友或索要课程信息，没有提供发帖者的课程体验；排除。",
+      "linked_evidence_id": null,
+      "reading_status": "full_floor_text_read; no hole context claimed"
+    },
+    {
+      "floor_id": 5524568,
+      "hole_id": 609342,
+      "course_matches": [
+        {
+          "course_code": "GESF10014",
+          "course_name": "阿拉伯语I",
+          "query": "lj",
+          "query_kind": "teacher_pinyin_initials",
+          "query_id": "FORUM-Q-70A30EAE40A4CCBCAF6B-E",
+          "exploratory": true
+        }
+      ],
+      "full_floor_text_read": true,
+      "in_initial_267": false,
+      "hole_context_available": false,
+      "hole_context_examined": false,
+      "decision": "exclude",
+      "adopted": false,
+      "reason": "楼层虽命中教师/课程查询，但没有提供可核验的第一手课程体验；排除。",
+      "linked_evidence_id": null,
+      "reading_status": "full_floor_text_read; no hole context claimed"
+    },
+    {
+      "floor_id": 5557816,
+      "hole_id": 613691,
+      "course_matches": [
+        {
+          "course_code": "GECC10045",
+          "course_name": "莎士比亚作品撷英",
+          "query": "zjs",
+          "query_kind": "teacher_pinyin_initials",
+          "query_id": "FORUM-Q-74580FB5E5D13031B267-E",
+          "exploratory": true
+        }
+      ],
+      "full_floor_text_read": true,
+      "in_initial_267": false,
+      "hole_context_available": false,
+      "hole_context_examined": false,
+      "decision": "exclude",
+      "adopted": false,
+      "reason": "楼层是在提问、寻求课友或索要课程信息，没有提供发帖者的课程体验；排除。",
+      "linked_evidence_id": null,
+      "reading_status": "full_floor_text_read; no hole context claimed"
+    },
+    {
+      "floor_id": 5570893,
+      "hole_id": 609113,
+      "course_matches": [
+        {
+          "course_code": "FORE10048",
+          "course_name": "英语文学导读",
+          "query": "df",
+          "query_kind": "teacher_pinyin_initials",
+          "query_id": "FORUM-Q-32C220482C68413FBF82-E",
+          "exploratory": true
+        }
+      ],
+      "full_floor_text_read": true,
+      "in_initial_267": false,
+      "hole_context_available": false,
+      "hole_context_examined": false,
+      "decision": "exclude",
+      "adopted": false,
+      "reason": "楼层是在提问、寻求课友或索要课程信息，没有提供发帖者的课程体验；排除。",
+      "linked_evidence_id": null,
+      "reading_status": "full_floor_text_read; no hole context claimed"
+    },
+    {
+      "floor_id": 5571050,
+      "hole_id": 615287,
+      "course_matches": [
+        {
+          "course_code": "FORE10048",
+          "course_name": "英语文学导读",
+          "query": "df",
+          "query_kind": "teacher_pinyin_initials",
+          "query_id": "FORUM-Q-32C220482C68413FBF82-E",
+          "exploratory": true
+        }
+      ],
+      "full_floor_text_read": true,
+      "in_initial_267": false,
+      "hole_context_available": false,
+      "hole_context_examined": false,
+      "decision": "exclude",
+      "adopted": false,
+      "reason": "楼层是在提问、寻求课友或索要课程信息，没有提供发帖者的课程体验；排除。",
+      "linked_evidence_id": null,
+      "reading_status": "full_floor_text_read; no hole context claimed"
+    },
+    {
+      "floor_id": 5636598,
+      "hole_id": 189547,
+      "course_matches": [
+        {
+          "course_code": "GESF10008",
+          "course_name": "基础韩语I",
+          "query": "jy",
+          "query_kind": "teacher_pinyin_initials",
+          "query_id": "FORUM-Q-4C5EBCB57B64B15DBBE8-E",
+          "exploratory": true
+        }
+      ],
+      "full_floor_text_read": true,
+      "in_initial_267": false,
+      "hole_context_available": true,
+      "hole_context_examined": true,
+      "decision": "adopt",
+      "adopted": true,
+      "reason": "完整楼层题头明确基础韩语I及jy，正文描述课堂、教学方式和本人考试结果；教师只写姜老师，不从首字母推定全名。",
+      "linked_evidence_id": 5636598,
+      "reading_status": "full_floor_text_read; hole_context_examined"
+    },
+    {
+      "floor_id": 5952110,
+      "hole_id": 658625,
+      "course_matches": [
+        {
+          "course_code": "FORE10048",
+          "course_name": "英语文学导读",
+          "query": "df",
+          "query_kind": "teacher_pinyin_initials",
+          "query_id": "FORUM-Q-32C220482C68413FBF82-E",
+          "exploratory": true
+        }
+      ],
+      "full_floor_text_read": true,
+      "in_initial_267": false,
+      "hole_context_available": false,
+      "hole_context_examined": false,
+      "decision": "exclude",
+      "adopted": false,
+      "reason": "楼层虽命中教师/课程查询，但没有提供可核验的第一手课程体验；排除。",
+      "linked_evidence_id": null,
+      "reading_status": "full_floor_text_read; no hole context claimed"
+    },
+    {
+      "floor_id": 5978820,
+      "hole_id": 661950,
+      "course_matches": [
+        {
+          "course_code": "GECC10045",
+          "course_name": "莎士比亚作品撷英",
+          "query": "zjs",
+          "query_kind": "teacher_pinyin_initials",
+          "query_id": "FORUM-Q-74580FB5E5D13031B267-E",
+          "exploratory": true
+        }
+      ],
+      "full_floor_text_read": true,
+      "in_initial_267": false,
+      "hole_context_available": false,
+      "hole_context_examined": false,
+      "decision": "exclude",
+      "adopted": false,
+      "reason": "楼层是课程资料/试题的求购或交易信息，没有课程体验内容；排除。",
+      "linked_evidence_id": null,
+      "reading_status": "full_floor_text_read; no hole context claimed"
+    },
+    {
+      "floor_id": 5989245,
+      "hole_id": 663248,
+      "course_matches": [
+        {
+          "course_code": "FORE20029",
+          "course_name": "英语语言史",
+          "query": "sy",
+          "query_kind": "teacher_pinyin_initials",
+          "query_id": "FORUM-Q-8FF5D4F4E62AEC1B3C0C-E",
+          "exploratory": true
+        }
+      ],
+      "full_floor_text_read": true,
+      "in_initial_267": true,
+      "hole_context_available": true,
+      "hole_context_examined": true,
+      "decision": "exclude",
+      "adopted": false,
+      "reason": "自述回忆英语语言史期末quiz内容，采用为当次考试第一手信息。",
+      "linked_evidence_id": null,
+      "reading_status": "full_floor_text_read; hole_context_examined"
+    },
+    {
+      "floor_id": 6010858,
+      "hole_id": 666003,
+      "course_matches": [
+        {
+          "course_code": "FORE10048",
+          "course_name": "英语文学导读",
+          "query": "df",
+          "query_kind": "teacher_pinyin_initials",
+          "query_id": "FORUM-Q-32C220482C68413FBF82-E",
+          "exploratory": true
+        }
+      ],
+      "full_floor_text_read": true,
+      "in_initial_267": false,
+      "hole_context_available": false,
+      "hole_context_examined": false,
+      "decision": "exclude",
+      "adopted": false,
+      "reason": "楼层虽命中教师/课程查询，但没有提供可核验的第一手课程体验；排除。",
+      "linked_evidence_id": null,
+      "reading_status": "full_floor_text_read; no hole context claimed"
+    },
+    {
+      "floor_id": 6010859,
+      "hole_id": 666004,
+      "course_matches": [
+        {
+          "course_code": "FORE10048",
+          "course_name": "英语文学导读",
+          "query": "df",
+          "query_kind": "teacher_pinyin_initials",
+          "query_id": "FORUM-Q-32C220482C68413FBF82-E",
+          "exploratory": true
+        }
+      ],
+      "full_floor_text_read": true,
+      "in_initial_267": false,
+      "hole_context_available": false,
+      "hole_context_examined": false,
+      "decision": "exclude",
+      "adopted": false,
+      "reason": "楼层虽命中教师/课程查询，但没有提供可核验的第一手课程体验；排除。",
+      "linked_evidence_id": null,
+      "reading_status": "full_floor_text_read; no hole context claimed"
+    },
+    {
+      "floor_id": 6024262,
+      "hole_id": 286421,
+      "course_matches": [
+        {
+          "course_code": "FORE40080",
+          "course_name": "毕业论文",
+          "query": "cyz",
+          "query_kind": "teacher_pinyin_initials",
+          "query_id": "FORUM-Q-C7C821072A8C9DD0FC01-E",
+          "exploratory": true
+        }
+      ],
+      "full_floor_text_read": true,
+      "in_initial_267": false,
+      "hole_context_available": false,
+      "hole_context_examined": false,
+      "decision": "exclude",
+      "adopted": false,
+      "reason": "楼层虽命中教师/课程查询，但没有提供可核验的第一手课程体验；排除。",
+      "linked_evidence_id": null,
+      "reading_status": "full_floor_text_read; no hole context claimed"
+    },
+    {
+      "floor_id": 6037042,
+      "hole_id": 669111,
+      "course_matches": [
+        {
+          "course_code": "FORE20005",
+          "course_name": "美国文学史",
+          "query": "zq",
+          "query_kind": "teacher_pinyin_initials",
+          "query_id": "FORUM-Q-7EAEFB87062F9054C464-E",
+          "exploratory": true
+        }
+      ],
+      "full_floor_text_read": true,
+      "in_initial_267": true,
+      "hole_context_available": true,
+      "hole_context_examined": true,
+      "decision": "exclude",
+      "adopted": false,
+      "reason": "询问美国文学史考试和给分，没有体验。",
+      "linked_evidence_id": null,
+      "reading_status": "full_floor_text_read; hole_context_examined"
+    },
+    {
+      "floor_id": 6101665,
+      "hole_id": 667197,
+      "course_matches": [
+        {
+          "course_code": "FORE20005",
+          "course_name": "美国文学史",
+          "query": "zq",
+          "query_kind": "teacher_pinyin_initials",
+          "query_id": "FORUM-Q-7EAEFB87062F9054C464-E",
+          "exploratory": true
+        }
+      ],
+      "full_floor_text_read": true,
+      "in_initial_267": false,
+      "hole_context_available": false,
+      "hole_context_examined": false,
+      "decision": "exclude",
+      "adopted": false,
+      "reason": "楼层虽命中教师/课程查询，但没有提供可核验的第一手课程体验；排除。",
+      "linked_evidence_id": null,
+      "reading_status": "full_floor_text_read; no hole context claimed"
+    },
+    {
+      "floor_id": 6173939,
+      "hole_id": 679587,
+      "course_matches": [
+        {
+          "course_code": "GECC10047",
+          "course_name": "欧洲电影解析与实践",
+          "query": "孔婧倩",
+          "query_kind": "official_teacher_full_name",
+          "query_id": "FORUM-Q-8500C530150764F01ECB-E",
+          "exploratory": true
+        },
+        {
+          "course_code": "GECC10047",
+          "course_name": "欧洲电影解析与实践",
+          "query": "朱建新",
+          "query_kind": "official_teacher_full_name",
+          "query_id": "FORUM-Q-FDF8CEE509762BAEF023-E",
+          "exploratory": true
+        }
+      ],
+      "full_floor_text_read": true,
+      "in_initial_267": true,
+      "hole_context_available": true,
+      "hole_context_examined": true,
+      "decision": "adopt",
+      "adopted": true,
+      "reason": "课程名、两位教师全名和学期标签明示，第一手叙述任务、考核、反馈与个人成绩。",
+      "linked_evidence_id": 6173939,
+      "reading_status": "full_floor_text_read; hole_context_examined"
+    },
+    {
+      "floor_id": 6288617,
+      "hole_id": 504196,
+      "course_matches": [
+        {
+          "course_code": "FORE10029",
+          "course_name": "语言学概论",
+          "query": "fyl",
+          "query_kind": "teacher_pinyin_initials",
+          "query_id": "FORUM-Q-A696BC5A505D4FDFAB4D-E",
+          "exploratory": true
+        }
+      ],
+      "full_floor_text_read": true,
+      "in_initial_267": false,
+      "hole_context_available": false,
+      "hole_context_examined": false,
+      "decision": "exclude",
+      "adopted": false,
+      "reason": "楼层是在提问、寻求课友或索要课程信息，没有提供发帖者的课程体验；排除。",
+      "linked_evidence_id": null,
+      "reading_status": "full_floor_text_read; no hole context claimed"
+    },
+    {
+      "floor_id": 6395477,
+      "hole_id": 702042,
+      "course_matches": [
+        {
+          "course_code": "GECC10048",
+          "course_name": "英国中世纪文学与文化",
+          "query": "bhy",
+          "query_kind": "teacher_pinyin_initials",
+          "query_id": "FORUM-Q-87912BE23FF7CAEC763A-E",
+          "exploratory": true
+        }
+      ],
+      "full_floor_text_read": true,
+      "in_initial_267": true,
+      "hole_context_available": true,
+      "hole_context_examined": true,
+      "decision": "exclude",
+      "adopted": false,
+      "reason": "新生向他人征求多门课程建议，没有本人修课体验。",
+      "linked_evidence_id": null,
+      "reading_status": "full_floor_text_read; hole_context_examined"
+    },
+    {
+      "floor_id": 6437536,
+      "hole_id": 707800,
+      "course_matches": [
+        {
+          "course_code": "FORE10048",
+          "course_name": "英语文学导读",
+          "query": "df",
+          "query_kind": "teacher_pinyin_initials",
+          "query_id": "FORUM-Q-32C220482C68413FBF82-E",
+          "exploratory": true
+        }
+      ],
+      "full_floor_text_read": true,
+      "in_initial_267": false,
+      "hole_context_available": false,
+      "hole_context_examined": false,
+      "decision": "exclude",
+      "adopted": false,
+      "reason": "楼层虽命中教师/课程查询，但没有提供可核验的第一手课程体验；排除。",
+      "linked_evidence_id": null,
+      "reading_status": "full_floor_text_read; no hole context claimed"
+    },
+    {
+      "floor_id": 6455518,
+      "hole_id": 711040,
+      "course_matches": [
+        {
+          "course_code": "FORE20021",
+          "course_name": "日语语音学",
+          "query": "ljq",
+          "query_kind": "teacher_pinyin_initials",
+          "query_id": "FORUM-Q-7922EA6C24D728153A58-E",
+          "exploratory": true
+        }
+      ],
+      "full_floor_text_read": true,
+      "in_initial_267": false,
+      "hole_context_available": false,
+      "hole_context_examined": false,
+      "decision": "exclude",
+      "adopted": false,
+      "reason": "楼层是课程资料/试题的求购或交易信息，没有课程体验内容；排除。",
+      "linked_evidence_id": null,
+      "reading_status": "full_floor_text_read; no hole context claimed"
+    },
+    {
+      "floor_id": 6461216,
+      "hole_id": 711952,
+      "course_matches": [
+        {
+          "course_code": "FORE50100",
+          "course_name": "中西跨文化交际",
+          "query": "lxc",
+          "query_kind": "teacher_pinyin_initials",
+          "query_id": "FORUM-Q-D063B11832B5B742A479-E",
+          "exploratory": true
+        }
+      ],
+      "full_floor_text_read": true,
+      "in_initial_267": false,
+      "hole_context_available": false,
+      "hole_context_examined": false,
+      "decision": "exclude",
+      "adopted": false,
+      "reason": "楼层是在提问、寻求课友或索要课程信息，没有提供发帖者的课程体验；排除。",
+      "linked_evidence_id": null,
+      "reading_status": "full_floor_text_read; no hole context claimed"
+    },
+    {
+      "floor_id": 6461220,
+      "hole_id": 711955,
+      "course_matches": [
+        {
+          "course_code": "FORE50100",
+          "course_name": "中西跨文化交际",
+          "query": "lxc",
+          "query_kind": "teacher_pinyin_initials",
+          "query_id": "FORUM-Q-D063B11832B5B742A479-E",
+          "exploratory": true
+        }
+      ],
+      "full_floor_text_read": true,
+      "in_initial_267": false,
+      "hole_context_available": false,
+      "hole_context_examined": false,
+      "decision": "exclude",
+      "adopted": false,
+      "reason": "楼层是在提问、寻求课友或索要课程信息，没有提供发帖者的课程体验；排除。",
+      "linked_evidence_id": null,
+      "reading_status": "full_floor_text_read; no hole context claimed"
+    },
+    {
+      "floor_id": 6464573,
+      "hole_id": 712617,
+      "course_matches": [
+        {
+          "course_code": "FORE20028",
+          "course_name": "跨文化交际",
+          "query": "sy",
+          "query_kind": "teacher_pinyin_initials",
+          "query_id": "FORUM-Q-8FF5D4F4E62AEC1B3C0C-E",
+          "exploratory": true
+        }
+      ],
+      "full_floor_text_read": true,
+      "in_initial_267": false,
+      "hole_context_available": false,
+      "hole_context_examined": false,
+      "decision": "exclude",
+      "adopted": false,
+      "reason": "楼层是在提问、寻求课友或索要课程信息，没有提供发帖者的课程体验；排除。",
+      "linked_evidence_id": null,
+      "reading_status": "full_floor_text_read; no hole context claimed"
+    },
+    {
+      "floor_id": 6475258,
+      "hole_id": 714244,
+      "course_matches": [
+        {
+          "course_code": "FORE50100",
+          "course_name": "中西跨文化交际",
+          "query": "lxc",
+          "query_kind": "teacher_pinyin_initials",
+          "query_id": "FORUM-Q-D063B11832B5B742A479-E",
+          "exploratory": true
+        }
+      ],
+      "full_floor_text_read": true,
+      "in_initial_267": false,
+      "hole_context_available": false,
+      "hole_context_examined": false,
+      "decision": "exclude",
+      "adopted": false,
+      "reason": "楼层是在提问、寻求课友或索要课程信息，没有提供发帖者的课程体验；排除。",
+      "linked_evidence_id": null,
+      "reading_status": "full_floor_text_read; no hole context claimed"
+    },
+    {
+      "floor_id": 6475259,
+      "hole_id": 714245,
+      "course_matches": [
+        {
+          "course_code": "FORE50100",
+          "course_name": "中西跨文化交际",
+          "query": "lxc",
+          "query_kind": "teacher_pinyin_initials",
+          "query_id": "FORUM-Q-D063B11832B5B742A479-E",
+          "exploratory": true
+        }
+      ],
+      "full_floor_text_read": true,
+      "in_initial_267": false,
+      "hole_context_available": false,
+      "hole_context_examined": false,
+      "decision": "exclude",
+      "adopted": false,
+      "reason": "楼层是在提问、寻求课友或索要课程信息，没有提供发帖者的课程体验；排除。",
+      "linked_evidence_id": null,
+      "reading_status": "full_floor_text_read; no hole context claimed"
+    },
+    {
+      "floor_id": 6491564,
+      "hole_id": 716657,
+      "course_matches": [
+        {
+          "course_code": "GECC10045",
+          "course_name": "莎士比亚作品撷英",
+          "query": "zjs",
+          "query_kind": "teacher_pinyin_initials",
+          "query_id": "FORUM-Q-74580FB5E5D13031B267-E",
+          "exploratory": true
+        }
+      ],
+      "full_floor_text_read": true,
+      "in_initial_267": false,
+      "hole_context_available": false,
+      "hole_context_examined": false,
+      "decision": "exclude",
+      "adopted": false,
+      "reason": "楼层是课程资料/试题的求购或交易信息，没有课程体验内容；排除。",
+      "linked_evidence_id": null,
+      "reading_status": "full_floor_text_read; no hole context claimed"
+    },
+    {
+      "floor_id": 6499366,
+      "hole_id": 717806,
+      "course_matches": [
+        {
+          "course_code": "GESF10005",
+          "course_name": "基础俄语I",
+          "query": "whx",
+          "query_kind": "teacher_pinyin_initials",
+          "query_id": "FORUM-Q-4396AA30E0A089929FF1-E",
+          "exploratory": true
+        }
+      ],
+      "full_floor_text_read": true,
+      "in_initial_267": false,
+      "hole_context_available": false,
+      "hole_context_examined": false,
+      "decision": "exclude",
+      "adopted": false,
+      "reason": "楼层是课程资料/试题的求购或交易信息，没有课程体验内容；排除。",
+      "linked_evidence_id": null,
+      "reading_status": "full_floor_text_read; no hole context claimed"
+    },
+    {
+      "floor_id": 6504252,
+      "hole_id": 716657,
+      "course_matches": [
+        {
+          "course_code": "GECC10045",
+          "course_name": "莎士比亚作品撷英",
+          "query": "zjs",
+          "query_kind": "teacher_pinyin_initials",
+          "query_id": "FORUM-Q-74580FB5E5D13031B267-E",
+          "exploratory": true
+        }
+      ],
+      "full_floor_text_read": true,
+      "in_initial_267": false,
+      "hole_context_available": false,
+      "hole_context_examined": false,
+      "decision": "exclude",
+      "adopted": false,
+      "reason": "楼层是课程资料/试题的求购或交易信息，没有课程体验内容；排除。",
+      "linked_evidence_id": null,
+      "reading_status": "full_floor_text_read; no hole context claimed"
+    },
+    {
+      "floor_id": 6517674,
+      "hole_id": 720176,
+      "course_matches": [
+        {
+          "course_code": "FORE50164",
+          "course_name": "基于编程和语料库的翻译实践",
+          "query": "范灵犀",
+          "query_kind": "official_teacher_full_name",
+          "query_id": "FORUM-Q-1C9AF5B70F54D9BFB5C5-E",
+          "exploratory": true
+        }
+      ],
+      "full_floor_text_read": true,
+      "in_initial_267": false,
+      "hole_context_available": false,
+      "hole_context_examined": false,
+      "decision": "exclude",
+      "adopted": false,
+      "reason": "楼层虽命中教师/课程查询，但没有提供可核验的第一手课程体验；排除。",
+      "linked_evidence_id": null,
+      "reading_status": "full_floor_text_read; no hole context claimed"
+    },
+    {
+      "floor_id": 6517733,
+      "hole_id": 716657,
+      "course_matches": [
+        {
+          "course_code": "GECC10045",
+          "course_name": "莎士比亚作品撷英",
+          "query": "zjs",
+          "query_kind": "teacher_pinyin_initials",
+          "query_id": "FORUM-Q-74580FB5E5D13031B267-E",
+          "exploratory": true
+        }
+      ],
+      "full_floor_text_read": true,
+      "in_initial_267": false,
+      "hole_context_available": false,
+      "hole_context_examined": false,
+      "decision": "exclude",
+      "adopted": false,
+      "reason": "楼层是课程资料/试题的求购或交易信息，没有课程体验内容；排除。",
+      "linked_evidence_id": null,
+      "reading_status": "full_floor_text_read; no hole context claimed"
+    },
+    {
+      "floor_id": 6534203,
+      "hole_id": 722111,
+      "course_matches": [
+        {
+          "course_code": "FORE30008",
+          "course_name": "法国概况",
+          "query": "yz",
+          "query_kind": "teacher_pinyin_initials",
+          "query_id": "FORUM-Q-68D617D6D2EE5715AF77-E",
+          "exploratory": true
+        }
+      ],
+      "full_floor_text_read": true,
+      "in_initial_267": false,
+      "hole_context_available": false,
+      "hole_context_examined": false,
+      "decision": "exclude",
+      "adopted": false,
+      "reason": "楼层是课程资料/试题的求购或交易信息，没有课程体验内容；排除。",
+      "linked_evidence_id": null,
+      "reading_status": "full_floor_text_read; no hole context claimed"
+    },
+    {
+      "floor_id": 6544312,
+      "hole_id": 723172,
+      "course_matches": [
+        {
+          "course_code": "FORE50144",
+          "course_name": "日本近代文学研究",
+          "query": "山本幸正",
+          "query_kind": "official_teacher_full_name",
+          "query_id": "FORUM-Q-62A7D17620185E418E47-E",
+          "exploratory": true
+        }
+      ],
+      "full_floor_text_read": true,
+      "in_initial_267": false,
+      "hole_context_available": false,
+      "hole_context_examined": false,
+      "decision": "exclude",
+      "adopted": false,
+      "reason": "楼层是在提问、寻求课友或索要课程信息，没有提供发帖者的课程体验；排除。",
+      "linked_evidence_id": null,
+      "reading_status": "full_floor_text_read; no hole context claimed"
+    },
+    {
+      "floor_id": 6546107,
+      "hole_id": 716657,
+      "course_matches": [
+        {
+          "course_code": "GECC10045",
+          "course_name": "莎士比亚作品撷英",
+          "query": "zjs",
+          "query_kind": "teacher_pinyin_initials",
+          "query_id": "FORUM-Q-74580FB5E5D13031B267-E",
+          "exploratory": true
+        }
+      ],
+      "full_floor_text_read": true,
+      "in_initial_267": false,
+      "hole_context_available": false,
+      "hole_context_examined": false,
+      "decision": "exclude",
+      "adopted": false,
+      "reason": "楼层是课程资料/试题的求购或交易信息，没有课程体验内容；排除。",
+      "linked_evidence_id": null,
+      "reading_status": "full_floor_text_read; no hole context claimed"
+    },
+    {
+      "floor_id": 6549368,
+      "hole_id": 716657,
+      "course_matches": [
+        {
+          "course_code": "GECC10045",
+          "course_name": "莎士比亚作品撷英",
+          "query": "zjs",
+          "query_kind": "teacher_pinyin_initials",
+          "query_id": "FORUM-Q-74580FB5E5D13031B267-E",
+          "exploratory": true
+        }
+      ],
+      "full_floor_text_read": true,
+      "in_initial_267": false,
+      "hole_context_available": false,
+      "hole_context_examined": false,
+      "decision": "exclude",
+      "adopted": false,
+      "reason": "楼层是课程资料/试题的求购或交易信息，没有课程体验内容；排除。",
+      "linked_evidence_id": null,
+      "reading_status": "full_floor_text_read; no hole context claimed"
+    },
+    {
+      "floor_id": 6566627,
+      "hole_id": 725323,
+      "course_matches": [
+        {
+          "course_code": "FORE10029",
+          "course_name": "语言学概论",
+          "query": "fyl",
+          "query_kind": "teacher_pinyin_initials",
+          "query_id": "FORUM-Q-A696BC5A505D4FDFAB4D-E",
+          "exploratory": true
+        }
+      ],
+      "full_floor_text_read": true,
+      "in_initial_267": false,
+      "hole_context_available": false,
+      "hole_context_examined": false,
+      "decision": "exclude",
+      "adopted": false,
+      "reason": "楼层是课程资料/试题的求购或交易信息，没有课程体验内容；排除。",
+      "linked_evidence_id": null,
+      "reading_status": "full_floor_text_read; no hole context claimed"
+    },
+    {
+      "floor_id": 6724300,
+      "hole_id": 708748,
+      "course_matches": [
+        {
+          "course_code": "FORE20029",
+          "course_name": "英语语言史",
+          "query": "sy",
+          "query_kind": "teacher_pinyin_initials",
+          "query_id": "FORUM-Q-8FF5D4F4E62AEC1B3C0C-E",
+          "exploratory": true
+        }
+      ],
+      "full_floor_text_read": true,
+      "in_initial_267": false,
+      "hole_context_available": false,
+      "hole_context_examined": false,
+      "decision": "exclude",
+      "adopted": false,
+      "reason": "楼层是课程资料/试题的求购或交易信息，没有课程体验内容；排除。",
+      "linked_evidence_id": null,
+      "reading_status": "full_floor_text_read; no hole context claimed"
+    },
+    {
+      "floor_id": 6729807,
+      "hole_id": 742584,
+      "course_matches": [
+        {
+          "course_code": "GECC10047",
+          "course_name": "欧洲电影解析与实践",
+          "query": "zjx",
+          "query_kind": "teacher_pinyin_initials",
+          "query_id": "FORUM-Q-C855E0B9FD5D82478C45-E",
+          "exploratory": true
+        }
+      ],
+      "full_floor_text_read": true,
+      "in_initial_267": true,
+      "hole_context_available": true,
+      "hole_context_examined": true,
+      "decision": "exclude",
+      "adopted": false,
+      "reason": "售卖/求购考试资料，未包含课程体验。",
+      "linked_evidence_id": null,
+      "reading_status": "full_floor_text_read; hole_context_examined"
+    }
+  ]
+}

@@ -1,0 +1,189 @@
+{
+  "scope": "仅汇总已核读的完整楼层和整洞中明示的别称/简称；教师缩写均为课程语境内称呼，不等于已核实的教师实名。",
+  "course_aliases": [
+    {
+      "alias": "基日",
+      "canonical_course": "基础日语I / 基础日语系列",
+      "specificity": "系列简称；单独出现时不能区分I/II",
+      "evidence": [
+        {
+          "floor_id": 2600868,
+          "hole_id": 278276,
+          "evidence_note": "楼层题头为“基础日语I 周菲菲”，正文写“像基日这些课”。"
+        },
+        {
+          "floor_id": 4324657,
+          "hole_id": 470413,
+          "evidence_note": "同一楼层并列“基础日语I”与“基日I”。"
+        }
+      ]
+    },
+    {
+      "alias": "基日I",
+      "canonical_course": "基础日语I",
+      "specificity": "楼层明示的I班简称",
+      "evidence": [
+        {
+          "floor_id": 4324657,
+          "hole_id": 470413,
+          "evidence_note": "“我是基础日语I……我自认为基日I那点难度……”。"
+        }
+      ]
+    }
+  ],
+  "teacher_labels_by_course_context": [
+    {
+      "label": "ZJS / zjs",
+      "course_context": "莎士比亚作品撷英",
+      "identity_mapping": "unresolved; do not expand to a full name",
+      "evidence": [
+        {
+          "floor_id": 5349240,
+          "hole_id": 590845,
+          "evidence_note": "标题列表写“莎士比亚作品撷英（zjs）”。"
+        },
+        {
+          "floor_id": 4411494,
+          "hole_id": 402785,
+          "evidence_note": "楼层标题写“莎士比亚作品撷英zjs”。"
+        },
+        {
+          "floor_id": 3702411,
+          "hole_id": 406734,
+          "evidence_note": "楼层写“zjs老师的莎士比亚作品撷英”。"
+        },
+        {
+          "floor_id": 4195934,
+          "hole_id": 457095,
+          "evidence_note": "同洞回复称“去zjs的莎士比亚”；同洞另一楼层明确“朱老师的《莎士比亚作品撷英》”，只证明课程语境相连，不证明全名。"
+        },
+        {
+          "floor_id": 5017787,
+          "hole_id": 552723,
+          "evidence_note": "另一洞写“朱ji松老师的莎士比亚作品撷英”，是来源原拼写，不据此规范化为某个具体汉字全名。"
+        }
+      ]
+    },
+    {
+      "label": "朱老师",
+      "course_context": "莎士比亚作品撷英",
+      "identity_mapping": "surname-only; same-hole course context also uses zjs, but identity not fully resolved",
+      "evidence": [
+        {
+          "floor_id": 4194591,
+          "hole_id": 457095,
+          "evidence_note": "明确称“朱老师的《莎士比亚作品撷英》”。"
+        },
+        {
+          "floor_id": 4195934,
+          "hole_id": 457095,
+          "evidence_note": "同洞回复推荐“zjs的莎士比亚”。"
+        }
+      ]
+    },
+    {
+      "label": "ZFF / zff",
+      "course_context": "基础日语（I/II语境）",
+      "identity_mapping": "initials observed in basic-Japanese context; no forum-level full-name expansion established",
+      "evidence": [
+        {
+          "floor_id": 4315762,
+          "hole_id": 470413,
+          "evidence_note": "楼层同时提“基日一”与“zff老师”。"
+        },
+        {
+          "floor_id": 4315751,
+          "hole_id": 470413,
+          "evidence_note": "同洞楼层提及zff及基日2。"
+        }
+      ]
+    },
+    {
+      "label": "CKW / ckw",
+      "course_context": "跨文化交际",
+      "identity_mapping": "unresolved initials; do not map to current roster instructor",
+      "evidence": [
+        {
+          "floor_id": 6155492,
+          "hole_id": 590843,
+          "evidence_note": "楼层标题“跨文化交际ckw”。"
+        },
+        {
+          "floor_id": 6379649,
+          "hole_id": 699939,
+          "evidence_note": "楼层将“ckw老师的跨文化交际”与另一门课并列。"
+        }
+      ]
+    },
+    {
+      "label": "SLN / sln",
+      "course_context": "跨文化交际",
+      "identity_mapping": "unresolved initials; do not map to current roster instructor",
+      "evidence": [
+        {
+          "floor_id": 2473925,
+          "hole_id": 265630,
+          "evidence_note": "楼层写“sln老师的跨文化交际”。"
+        }
+      ]
+    },
+    {
+      "label": "ZSF / zsf",
+      "course_context": "基础俄语I",
+      "identity_mapping": "unresolved initials; do not map to current roster instructor",
+      "evidence": [
+        {
+          "floor_id": 2432080,
+          "hole_id": 260845,
+          "evidence_note": "完整课程考试记录末尾直接称“zsf老师”。"
+        }
+      ]
+    },
+    {
+      "label": "SGX / sgx",
+      "course_context": "英国文学史",
+      "identity_mapping": "unresolved initials; target teaching group not verified",
+      "evidence": [
+        {
+          "floor_id": 4825347,
+          "hole_id": 529254,
+          "evidence_note": "同洞求助楼层标题为“英国文学史（sgx）”；回复讨论上、下册。"
+        },
+        {
+          "floor_id": 4340636,
+          "hole_id": 419202,
+          "evidence_note": "楼层写“sgx老师的英国文学史”。"
+        }
+      ]
+    },
+    {
+      "label": "SLY / sly",
+      "course_context": "英语公众演说",
+      "identity_mapping": "not a label for target course 英语演讲",
+      "evidence": [
+        {
+          "floor_id": 5337842,
+          "hole_id": 589830,
+          "evidence_note": "完整楼层讨论四次演讲、演讲稿和反馈；同洞清单将其明确列作英语公众演说。"
+        }
+      ]
+    },
+    {
+      "label": "赵世锋（楼层全名） / ZSF（另一条基础俄语I楼层缩写）",
+      "course_context": "基础俄语I",
+      "identity_mapping": "probable only; both sources name the same course and matching initials, but they are different years and do not directly link the teacher identity. Keep full name and initials separate unless another source confirms.",
+      "evidence": [
+        {
+          "floor_id": 166329,
+          "hole_id": 18562,
+          "evidence_note": "原楼层写“赵世锋 基础俄语I 强烈推荐！”"
+        },
+        {
+          "floor_id": 2432080,
+          "hole_id": 260845,
+          "evidence_note": "另一学期的基础俄语I第一手考试记录称“zsf老师”，未实名。"
+        }
+      ]
+    }
+  ]
+}

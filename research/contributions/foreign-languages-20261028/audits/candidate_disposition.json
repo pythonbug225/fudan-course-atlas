@@ -1,0 +1,5530 @@
+{
+  "status": "manually_reviewed_candidate_floor_dispositions",
+  "candidate_hole_count": 259,
+  "candidate_floor_count": 267,
+  "queue_source": "work\\foreign-research\\forum_reading\\context_candidate_queue.json",
+  "reading_scope": "267条候选楼层逐条全文核读，并核对每条所在洞的洞主楼层与直接相关课程回复；对同洞无关帖子未作逐字审阅。",
+  "disposition_counts": {
+    "adopt": 36,
+    "exclude": 231
+  },
+  "records": [
+    {
+      "floor_id": 54110,
+      "hole_id": 5958,
+      "course_matches": [
+        {
+          "course_name": "英语短篇小说导读",
+          "course_codes": [
+            "GEEC10156"
+          ],
+          "query_id": "FORUM-Q-7BE6BB6674997B13C54E"
+        }
+      ],
+      "full_floor_text_read": true,
+      "hole_context_examined": true,
+      "context_scope": "候选楼层全文已读；核对洞主楼层与同洞课程/教师相关回复。未逐字阅读同洞无关楼层。",
+      "decision": "exclude",
+      "adopted": false,
+      "reason": "这是对张琼英语短篇小说导读给分的提问，楼层本身没有体验；同洞68807有一条教师/给分短评，另列为相关证据。",
+      "related_evidence_floor_ids": [
+        68807
+      ]
+    },
+    {
+      "floor_id": 57055,
+      "hole_id": 6311,
+      "course_matches": [
+        {
+          "course_name": "日本文学文化",
+          "course_codes": [
+            "GEEC20006"
+          ],
+          "query_id": "FORUM-Q-487E5C6E3266CE5C39CC"
+        }
+      ],
+      "full_floor_text_read": true,
+      "hole_context_examined": true,
+      "context_scope": "候选楼层全文已读；核对洞主楼层与同洞课程/教师相关回复。未逐字阅读同洞无关楼层。",
+      "decision": "adopt",
+      "adopted": true,
+      "reason": "课程名和历史教师全名同现，虽只有一句课堂风格评价，仍是修课者对日本文学文化的直接体验；保留为历史低细节样本。",
+      "related_evidence_floor_ids": [],
+      "evidence_record_id": 57055
+    },
+    {
+      "floor_id": 62020,
+      "hole_id": 7042,
+      "course_matches": [
+        {
+          "course_name": "英国中世纪文学与文化",
+          "course_codes": [
+            "GECC10048"
+          ],
+          "query_id": "FORUM-Q-9D945CDD33A3B1AC084A"
+        }
+      ],
+      "full_floor_text_read": true,
+      "hole_context_examined": true,
+      "context_scope": "候选楼层全文已读；核对洞主楼层与同洞课程/教师相关回复。未逐字阅读同洞无关楼层。",
+      "decision": "exclude",
+      "adopted": false,
+      "reason": "该楼层为包慧怡英国中世纪文学与文化课程提问，没有本人体验；同洞62344有详细回答，另列相关证据。",
+      "related_evidence_floor_ids": [
+        62344
+      ]
+    },
+    {
+      "floor_id": 63539,
+      "hole_id": 7190,
+      "course_matches": [
+        {
+          "course_name": "日本文学文化",
+          "course_codes": [
+            "GEEC20006"
+          ],
+          "query_id": "FORUM-Q-487E5C6E3266CE5C39CC"
+        }
+      ],
+      "full_floor_text_read": true,
+      "hole_context_examined": true,
+      "context_scope": "候选楼层全文已读；核对洞主楼层与同洞课程/教师相关回复。未逐字阅读同洞无关楼层。",
+      "decision": "adopt",
+      "adopted": true,
+      "reason": "作者明确称当学期正在上日本文学文化并觉得有趣，给分尚未确定；作为课程兴趣体验保留。",
+      "related_evidence_floor_ids": []
+    },
+    {
+      "floor_id": 74101,
+      "hole_id": 8457,
+      "course_matches": [
+        {
+          "course_name": "莎士比亚作品撷英",
+          "course_codes": [
+            "GECC10045"
+          ],
+          "query_id": "FORUM-Q-67C6F4F71072E8B02488"
+        }
+      ],
+      "full_floor_text_read": true,
+      "hole_context_examined": true,
+      "context_scope": "候选楼层全文已读；核对洞主楼层与同洞课程/教师相关回复。未逐字阅读同洞无关楼层。",
+      "decision": "exclude",
+      "adopted": false,
+      "reason": "主要询问莎士比亚作品撷英给分与事务，只有试听一节，不足以当作完整课程评价。",
+      "related_evidence_floor_ids": []
+    },
+    {
+      "floor_id": 74565,
+      "hole_id": 8507,
+      "course_matches": [
+        {
+          "course_name": "英语辩论",
+          "course_codes": [
+            "FORE20025"
+          ],
+          "query_id": "FORUM-Q-23B3D0F0A7DB79BA7FF5"
+        }
+      ],
+      "full_floor_text_read": true,
+      "hole_context_examined": true,
+      "context_scope": "候选楼层全文已读；核对洞主楼层与同洞课程/教师相关回复。未逐字阅读同洞无关楼层。",
+      "decision": "exclude",
+      "adopted": false,
+      "reason": "询问何静老师英语辩论与思辨课程，没有修课体验或评价。",
+      "related_evidence_floor_ids": []
+    },
+    {
+      "floor_id": 99124,
+      "hole_id": 11154,
+      "course_matches": [
+        {
+          "course_name": "学术写作",
+          "course_codes": [
+            "FORE30054"
+          ],
+          "query_id": "FORUM-Q-94F2EEEF9F2E22D29718"
+        }
+      ],
+      "full_floor_text_read": true,
+      "hole_context_examined": true,
+      "context_scope": "候选楼层全文已读；核对洞主楼层与同洞课程/教师相关回复。未逐字阅读同洞无关楼层。",
+      "decision": "exclude",
+      "adopted": false,
+      "reason": "提供大学学术写作的一般建议，没有具体课程或修课经历。",
+      "related_evidence_floor_ids": []
+    },
+    {
+      "floor_id": 166329,
+      "hole_id": 18562,
+      "course_matches": [
+        {
+          "course_name": "基础俄语I",
+          "course_codes": [
+            "GESF10005"
+          ],
+          "query_id": "FORUM-Q-F003FA038E4C6FFCFE43"
+        }
+      ],
+      "full_floor_text_read": true,
+      "hole_context_examined": true,
+      "context_scope": "候选楼层全文已读；核对洞主楼层与同洞课程/教师相关回复。未逐字阅读同洞无关楼层。",
+      "decision": "adopt",
+      "adopted": true,
+      "reason": "楼层明示赵世锋老师与基础俄语I并给出强烈推荐；细节有限，教师与现任名单的关系不外推。",
+      "related_evidence_floor_ids": []
+    },
+    {
+      "floor_id": 212952,
+      "hole_id": 24216,
+      "course_matches": [
+        {
+          "course_name": "基础德语I",
+          "course_codes": [
+            "GESF10009"
+          ],
+          "query_id": "FORUM-Q-CD1269901516C913100E"
+        }
+      ],
+      "full_floor_text_read": true,
+      "hole_context_examined": true,
+      "context_scope": "候选楼层全文已读；核对洞主楼层与同洞课程/教师相关回复。未逐字阅读同洞无关楼层。",
+      "decision": "exclude",
+      "adopted": false,
+      "reason": "询问默写范围，不是课程评价。",
+      "related_evidence_floor_ids": []
+    },
+    {
+      "floor_id": 288979,
+      "hole_id": 32608,
+      "course_matches": [
+        {
+          "course_name": "英语演讲",
+          "course_codes": [
+            "FORE10012"
+          ],
+          "query_id": "FORUM-Q-8EB0AF1BC955E6222127"
+        }
+      ],
+      "full_floor_text_read": true,
+      "hole_context_examined": true,
+      "context_scope": "候选楼层全文已读；核对洞主楼层与同洞课程/教师相关回复。未逐字阅读同洞无关楼层。",
+      "decision": "exclude",
+      "adopted": false,
+      "reason": "整洞根帖讨论英语公众演说，目标课程并非英语演讲。",
+      "related_evidence_floor_ids": []
+    },
+    {
+      "floor_id": 290180,
+      "hole_id": 32820,
+      "course_matches": [
+        {
+          "course_name": "莎士比亚作品撷英",
+          "course_codes": [
+            "GECC10045"
+          ],
+          "query_id": "FORUM-Q-67C6F4F71072E8B02488"
+        }
+      ],
+      "full_floor_text_read": true,
+      "hole_context_examined": true,
+      "context_scope": "候选楼层全文已读；核对洞主楼层与同洞课程/教师相关回复。未逐字阅读同洞无关楼层。",
+      "decision": "adopt",
+      "adopted": true,
+      "reason": "楼层明确写莎士比亚作品撷英给分好、事务较多，是简短课程体验。",
+      "related_evidence_floor_ids": []
+    },
+    {
+      "floor_id": 294285,
+      "hole_id": 33587,
+      "course_matches": [
+        {
+          "course_name": "世界文学导读",
+          "course_codes": [
+            "FORE10006"
+          ],
+          "query_id": "FORUM-Q-53991EEAA346A57D09AF"
+        }
+      ],
+      "full_floor_text_read": true,
+      "hole_context_examined": true,
+      "context_scope": "候选楼层全文已读；核对洞主楼层与同洞课程/教师相关回复。未逐字阅读同洞无关楼层。",
+      "decision": "exclude",
+      "adopted": false,
+      "reason": "泛问世界文学导读是否值得选，属于问题而非评价。",
+      "related_evidence_floor_ids": []
+    },
+    {
+      "floor_id": 358388,
+      "hole_id": 41182,
+      "course_matches": [
+        {
+          "course_name": "英语演讲",
+          "course_codes": [
+            "FORE10012"
+          ],
+          "query_id": "FORUM-Q-8EB0AF1BC955E6222127"
+        }
+      ],
+      "full_floor_text_read": true,
+      "hole_context_examined": true,
+      "context_scope": "候选楼层全文已读；核对洞主楼层与同洞课程/教师相关回复。未逐字阅读同洞无关楼层。",
+      "decision": "exclude",
+      "adopted": false,
+      "reason": "内容谈时丽娜的大英课程与英语公众演说推荐，未评价目标课程英语演讲。",
+      "related_evidence_floor_ids": []
+    },
+    {
+      "floor_id": 358667,
+      "hole_id": 41268,
+      "course_matches": [
+        {
+          "course_name": "莎士比亚作品撷英",
+          "course_codes": [
+            "GECC10045"
+          ],
+          "query_id": "FORUM-Q-67C6F4F71072E8B02488"
+        }
+      ],
+      "full_floor_text_read": true,
+      "hole_context_examined": true,
+      "context_scope": "候选楼层全文已读；核对洞主楼层与同洞课程/教师相关回复。未逐字阅读同洞无关楼层。",
+      "decision": "exclude",
+      "adopted": false,
+      "reason": "楼层以提问、选课咨询或行政求助为主，没有提供发帖者本人的课程体验；已查看同洞相关回复，若回复仅给出无依据短答则不作为证据。",
+      "related_evidence_floor_ids": []
+    },
+    {
+      "floor_id": 388768,
+      "hole_id": 44937,
+      "course_matches": [
+        {
+          "course_name": "学术写作",
+          "course_codes": [
+            "FORE30054"
+          ],
+          "query_id": "FORUM-Q-94F2EEEF9F2E22D29718"
+        }
+      ],
+      "full_floor_text_read": true,
+      "hole_context_examined": true,
+      "context_scope": "候选楼层全文已读；核对洞主楼层与同洞课程/教师相关回复。未逐字阅读同洞无关楼层。",
+      "decision": "exclude",
+      "adopted": false,
+      "reason": "同洞是马基课程讨论；“学术写作”只是对该课课堂内容的泛称，不对应目标课。",
+      "related_evidence_floor_ids": []
+    },
+    {
+      "floor_id": 449469,
+      "hole_id": 53024,
+      "course_matches": [
+        {
+          "course_name": "基础日语I",
+          "course_codes": [
+            "GESF10007"
+          ],
+          "query_id": "FORUM-Q-44D29BF4C6F83A2D50A6"
+        }
+      ],
+      "full_floor_text_read": true,
+      "hole_context_examined": true,
+      "context_scope": "候选楼层全文已读；核对洞主楼层与同洞课程/教师相关回复。未逐字阅读同洞无关楼层。",
+      "decision": "exclude",
+      "adopted": false,
+      "reason": "询问能否旁听基础日语I，没有课程体验。",
+      "related_evidence_floor_ids": []
+    },
+    {
+      "floor_id": 469163,
+      "hole_id": 55348,
+      "course_matches": [
+        {
+          "course_name": "莎士比亚作品撷英",
+          "course_codes": [
+            "GECC10045"
+          ],
+          "query_id": "FORUM-Q-67C6F4F71072E8B02488"
+        }
+      ],
+      "full_floor_text_read": true,
+      "hole_context_examined": true,
+      "context_scope": "候选楼层全文已读；核对洞主楼层与同洞课程/教师相关回复。未逐字阅读同洞无关楼层。",
+      "decision": "adopt",
+      "adopted": true,
+      "reason": "第一人称详细描述莎士比亚作品撷英的pre、期末剧及本人获A经历。",
+      "related_evidence_floor_ids": []
+    },
+    {
+      "floor_id": 473500,
+      "hole_id": 55934,
+      "course_matches": [
+        {
+          "course_name": "世界文学导读",
+          "course_codes": [
+            "FORE10006"
+          ],
+          "query_id": "FORUM-Q-53991EEAA346A57D09AF"
+        }
+      ],
+      "full_floor_text_read": true,
+      "hole_context_examined": true,
+      "context_scope": "候选楼层全文已读；核对洞主楼层与同洞课程/教师相关回复。未逐字阅读同洞无关楼层。",
+      "decision": "exclude",
+      "adopted": false,
+      "reason": "提问世界文学导读给分，楼层自身无体验；同洞556338为含糊反应，不作为可采证据。",
+      "related_evidence_floor_ids": []
+    },
+    {
+      "floor_id": 503043,
+      "hole_id": 58682,
+      "course_matches": [
+        {
+          "course_name": "语言学概论",
+          "course_codes": [
+            "FORE10029"
+          ],
+          "query_id": "FORUM-Q-482A05E0F52E232EEF5D"
+        }
+      ],
+      "full_floor_text_read": true,
+      "hole_context_examined": true,
+      "context_scope": "候选楼层全文已读；核对洞主楼层与同洞课程/教师相关回复。未逐字阅读同洞无关楼层。",
+      "decision": "exclude",
+      "adopted": false,
+      "reason": "中文系分流与现代汉语/古汉语讨论，关键词“语言学概论”指中文系课程。",
+      "related_evidence_floor_ids": []
+    },
+    {
+      "floor_id": 519064,
+      "hole_id": 60552,
+      "course_matches": [
+        {
+          "course_name": "莎士比亚作品撷英",
+          "course_codes": [
+            "GECC10045"
+          ],
+          "query_id": "FORUM-Q-67C6F4F71072E8B02488"
+        }
+      ],
+      "full_floor_text_read": true,
+      "hole_context_examined": true,
+      "context_scope": "候选楼层全文已读；核对洞主楼层与同洞课程/教师相关回复。未逐字阅读同洞无关楼层。",
+      "decision": "exclude",
+      "adopted": false,
+      "reason": "已通读楼层并核对同洞上下文；内容仅为课程名提及、泛泛观点或缺少第一手修课/考核/任务/成绩信息，无法作课程体验证据。",
+      "related_evidence_floor_ids": []
+    },
+    {
+      "floor_id": 524462,
+      "hole_id": 61557,
+      "course_matches": [
+        {
+          "course_name": "基础韩语II",
+          "course_codes": [
+            "GESF20004"
+          ],
+          "query_id": "FORUM-Q-3ADCE5773974E5118BA2"
+        }
+      ],
+      "full_floor_text_read": true,
+      "hole_context_examined": true,
+      "context_scope": "候选楼层全文已读；核对洞主楼层与同洞课程/教师相关回复。未逐字阅读同洞无关楼层。",
+      "decision": "exclude",
+      "adopted": false,
+      "reason": "楼层以提问、选课咨询或行政求助为主，没有提供发帖者本人的课程体验；已查看同洞相关回复，若回复仅给出无依据短答则不作为证据。",
+      "related_evidence_floor_ids": []
+    },
+    {
+      "floor_id": 540343,
+      "hole_id": 63617,
+      "course_matches": [
+        {
+          "course_name": "基础俄语I",
+          "course_codes": [
+            "GESF10005"
+          ],
+          "query_id": "FORUM-Q-F003FA038E4C6FFCFE43"
+        }
+      ],
+      "full_floor_text_read": true,
+      "hole_context_examined": true,
+      "context_scope": "候选楼层全文已读；核对洞主楼层与同洞课程/教师相关回复。未逐字阅读同洞无关楼层。",
+      "decision": "exclude",
+      "adopted": false,
+      "reason": "楼层以提问、选课咨询或行政求助为主，没有提供发帖者本人的课程体验；已查看同洞相关回复，若回复仅给出无依据短答则不作为证据。",
+      "related_evidence_floor_ids": []
+    },
+    {
+      "floor_id": 541090,
+      "hole_id": 63681,
+      "course_matches": [
+        {
+          "course_name": "基础俄语I",
+          "course_codes": [
+            "GESF10005"
+          ],
+          "query_id": "FORUM-Q-F003FA038E4C6FFCFE43"
+        }
+      ],
+      "full_floor_text_read": true,
+      "hole_context_examined": true,
+      "context_scope": "候选楼层全文已读；核对洞主楼层与同洞课程/教师相关回复。未逐字阅读同洞无关楼层。",
+      "decision": "exclude",
+      "adopted": false,
+      "reason": "楼层以提问、选课咨询或行政求助为主，没有提供发帖者本人的课程体验；已查看同洞相关回复，若回复仅给出无依据短答则不作为证据。",
+      "related_evidence_floor_ids": []
+    },
+    {
+      "floor_id": 653845,
+      "hole_id": 74658,
+      "course_matches": [
+        {
+          "course_name": "基础日语I",
+          "course_codes": [
+            "GESF10007"
+          ],
+          "query_id": "FORUM-Q-44D29BF4C6F83A2D50A6"
+        }
+      ],
+      "full_floor_text_read": true,
+      "hole_context_examined": true,
+      "context_scope": "候选楼层全文已读；核对洞主楼层与同洞课程/教师相关回复。未逐字阅读同洞无关楼层。",
+      "decision": "adopt",
+      "adopted": true,
+      "reason": "明确评价基础日语I课堂表演和教学视频，属于第一手负面课堂体验；教师未明。",
+      "related_evidence_floor_ids": []
+    },
+    {
+      "floor_id": 865800,
+      "hole_id": 92914,
+      "course_matches": [
+        {
+          "course_name": "跨文化交际",
+          "course_codes": [
+            "FORE20028"
+          ],
+          "query_id": "FORUM-Q-A011CD1FCF15BE9B8673"
+        }
+      ],
+      "full_floor_text_read": true,
+      "hole_context_examined": true,
+      "context_scope": "候选楼层全文已读；核对洞主楼层与同洞课程/教师相关回复。未逐字阅读同洞无关楼层。",
+      "decision": "adopt",
+      "adopted": true,
+      "reason": "楼层明确在写跨文化交际论文并称未完成，作为单条课程工作量压力信号；不推断总体负担。",
+      "related_evidence_floor_ids": []
+    },
+    {
+      "floor_id": 867296,
+      "hole_id": 93029,
+      "course_matches": [
+        {
+          "course_name": "基础日语I",
+          "course_codes": [
+            "GESF10007"
+          ],
+          "query_id": "FORUM-Q-44D29BF4C6F83A2D50A6"
+        }
+      ],
+      "full_floor_text_read": true,
+      "hole_context_examined": true,
+      "context_scope": "候选楼层全文已读；核对洞主楼层与同洞课程/教师相关回复。未逐字阅读同洞无关楼层。",
+      "decision": "adopt",
+      "adopted": true,
+      "reason": "提供2020年基础日语I线上闭卷考试这一具体历史考核信息；只当历史事实，不代表其他学期。",
+      "related_evidence_floor_ids": []
+    },
+    {
+      "floor_id": 885004,
+      "hole_id": 94862,
+      "course_matches": [
+        {
+          "course_name": "欧洲电影解析与实践",
+          "course_codes": [
+            "GECC10047"
+          ],
+          "query_id": "FORUM-Q-F1BEE21AA2CA7090F8F8"
+        }
+      ],
+      "full_floor_text_read": true,
+      "hole_context_examined": true,
+      "context_scope": "候选楼层全文已读；核对洞主楼层与同洞课程/教师相关回复。未逐字阅读同洞无关楼层。",
+      "decision": "exclude",
+      "adopted": false,
+      "reason": "这是关于欧洲电影课程作业/考试的提问，不含本人经验；同洞886949/886956给出详细回答。",
+      "related_evidence_floor_ids": [
+        886949,
+        886956
+      ]
+    },
+    {
+      "floor_id": 893967,
+      "hole_id": 95934,
+      "course_matches": [
+        {
+          "course_name": "莎士比亚作品撷英",
+          "course_codes": [
+            "GECC10045"
+          ],
+          "query_id": "FORUM-Q-67C6F4F71072E8B02488"
+        }
+      ],
+      "full_floor_text_read": true,
+      "hole_context_examined": true,
+      "context_scope": "候选楼层全文已读；核对洞主楼层与同洞课程/教师相关回复。未逐字阅读同洞无关楼层。",
+      "decision": "exclude",
+      "adopted": false,
+      "reason": "楼层以提问、选课咨询或行政求助为主，没有提供发帖者本人的课程体验；已查看同洞相关回复，若回复仅给出无依据短答则不作为证据。",
+      "related_evidence_floor_ids": []
+    },
+    {
+      "floor_id": 897112,
+      "hole_id": 96226,
+      "course_matches": [
+        {
+          "course_name": "认知语言学",
+          "course_codes": [
+            "FORE70018"
+          ],
+          "query_id": "FORUM-Q-FF143E6783DE490B29CA"
+        }
+      ],
+      "full_floor_text_read": true,
+      "hole_context_examined": true,
+      "context_scope": "候选楼层全文已读；核对洞主楼层与同洞课程/教师相关回复。未逐字阅读同洞无关楼层。",
+      "decision": "exclude",
+      "adopted": false,
+      "reason": "中文系语言学概论三位老师的比较，整洞不属于外文学院目标课程。",
+      "related_evidence_floor_ids": []
+    },
+    {
+      "floor_id": 917262,
+      "hole_id": 94925,
+      "course_matches": [
+        {
+          "course_name": "德语国家社会与文化",
+          "course_codes": [
+            "FORE50052"
+          ],
+          "query_id": "FORUM-Q-46D29A2475E6EFA512F0"
+        }
+      ],
+      "full_floor_text_read": true,
+      "hole_context_examined": true,
+      "context_scope": "候选楼层全文已读；核对洞主楼层与同洞课程/教师相关回复。未逐字阅读同洞无关楼层。",
+      "decision": "adopt",
+      "adopted": true,
+      "reason": "楼层明确讨论德语国家社会与文化课程，称魏老师讲得不错但内容发散；作者不确定具体授课教师，故保留课程级课堂体验，不归属具体教师。",
+      "related_evidence_floor_ids": []
+    },
+    {
+      "floor_id": 964432,
+      "hole_id": 103506,
+      "course_matches": [
+        {
+          "course_name": "英语演讲",
+          "course_codes": [
+            "FORE10012"
+          ],
+          "query_id": "FORUM-Q-8EB0AF1BC955E6222127"
+        }
+      ],
+      "full_floor_text_read": true,
+      "hole_context_examined": true,
+      "context_scope": "候选楼层全文已读；核对洞主楼层与同洞课程/教师相关回复。未逐字阅读同洞无关楼层。",
+      "decision": "exclude",
+      "adopted": false,
+      "reason": "作业清单中提到英语演讲稿，未关联目标课。",
+      "related_evidence_floor_ids": []
+    },
+    {
+      "floor_id": 966556,
+      "hole_id": 103712,
+      "course_matches": [
+        {
+          "course_name": "莎士比亚作品撷英",
+          "course_codes": [
+            "GECC10045"
+          ],
+          "query_id": "FORUM-Q-67C6F4F71072E8B02488"
+        }
+      ],
+      "full_floor_text_read": true,
+      "hole_context_examined": true,
+      "context_scope": "候选楼层全文已读；核对洞主楼层与同洞课程/教师相关回复。未逐字阅读同洞无关楼层。",
+      "decision": "exclude",
+      "adopted": false,
+      "reason": "询问莎士比亚作品撷英论文要求；回复给出作业字数，不是课程体验。",
+      "related_evidence_floor_ids": []
+    },
+    {
+      "floor_id": 975562,
+      "hole_id": 104571,
+      "course_matches": [
+        {
+          "course_name": "英语演讲",
+          "course_codes": [
+            "FORE10012"
+          ],
+          "query_id": "FORUM-Q-8EB0AF1BC955E6222127"
+        }
+      ],
+      "full_floor_text_read": true,
+      "hole_context_examined": true,
+      "context_scope": "候选楼层全文已读；核对洞主楼层与同洞课程/教师相关回复。未逐字阅读同洞无关楼层。",
+      "decision": "exclude",
+      "adopted": false,
+      "reason": "泛指某篇英语演讲任务，未说明目标课程。",
+      "related_evidence_floor_ids": []
+    },
+    {
+      "floor_id": 979948,
+      "hole_id": 105014,
+      "course_matches": [
+        {
+          "course_name": "英语演讲",
+          "course_codes": [
+            "FORE10012"
+          ],
+          "query_id": "FORUM-Q-8EB0AF1BC955E6222127"
+        }
+      ],
+      "full_floor_text_read": true,
+      "hole_context_examined": true,
+      "context_scope": "候选楼层全文已读；核对洞主楼层与同洞课程/教师相关回复。未逐字阅读同洞无关楼层。",
+      "decision": "exclude",
+      "adopted": false,
+      "reason": "求助录制演讲稿，不是课程评估。",
+      "related_evidence_floor_ids": []
+    },
+    {
+      "floor_id": 995967,
+      "hole_id": 106477,
+      "course_matches": [
+        {
+          "course_name": "莎士比亚作品撷英",
+          "course_codes": [
+            "GECC10045"
+          ],
+          "query_id": "FORUM-Q-67C6F4F71072E8B02488"
+        }
+      ],
+      "full_floor_text_read": true,
+      "hole_context_examined": true,
+      "context_scope": "候选楼层全文已读；核对洞主楼层与同洞课程/教师相关回复。未逐字阅读同洞无关楼层。",
+      "decision": "exclude",
+      "adopted": false,
+      "reason": "求购莎士比亚作品撷英论文；同洞999056自述得A的回复另列为相关课程级证据。",
+      "related_evidence_floor_ids": [
+        999056
+      ]
+    },
+    {
+      "floor_id": 1013701,
+      "hole_id": 108203,
+      "course_matches": [
+        {
+          "course_name": "世界文学导读",
+          "course_codes": [
+            "FORE10006"
+          ],
+          "query_id": "FORUM-Q-53991EEAA346A57D09AF"
+        }
+      ],
+      "full_floor_text_read": true,
+      "hole_context_examined": true,
+      "context_scope": "候选楼层全文已读；核对洞主楼层与同洞课程/教师相关回复。未逐字阅读同洞无关楼层。",
+      "decision": "exclude",
+      "adopted": false,
+      "reason": "询问世界文学导读成绩；同洞1013990有一条本人论文得B+的结果，另列证据。",
+      "related_evidence_floor_ids": [
+        1013990
+      ]
+    },
+    {
+      "floor_id": 1015761,
+      "hole_id": 108403,
+      "course_matches": [
+        {
+          "course_name": "法国文化",
+          "course_codes": [
+            "FORE30022"
+          ],
+          "query_id": "FORUM-Q-D958CA6FAD5F9CCCF647"
+        }
+      ],
+      "full_floor_text_read": true,
+      "hole_context_examined": true,
+      "context_scope": "候选楼层全文已读；核对洞主楼层与同洞课程/教师相关回复。未逐字阅读同洞无关楼层。",
+      "decision": "exclude",
+      "adopted": false,
+      "reason": "课程为法国文化，不是基础法语课；保留为目标课程本身的个人体验。",
+      "related_evidence_floor_ids": []
+    },
+    {
+      "floor_id": 1031517,
+      "hole_id": 109825,
+      "course_matches": [
+        {
+          "course_name": "英国文学史",
+          "course_codes": [
+            "FORE20032"
+          ],
+          "query_id": "FORUM-Q-F129DCF2FDE83E70CFA4"
+        }
+      ],
+      "full_floor_text_read": true,
+      "hole_context_examined": true,
+      "context_scope": "候选楼层全文已读；核对洞主楼层与同洞课程/教师相关回复。未逐字阅读同洞无关楼层。",
+      "decision": "exclude",
+      "adopted": false,
+      "reason": "楼层主要是资料/试题交易或求购，没有可核实的课程学习体验。",
+      "related_evidence_floor_ids": []
+    },
+    {
+      "floor_id": 1224051,
+      "hole_id": 130025,
+      "course_matches": [
+        {
+          "course_name": "英国中世纪文学与文化",
+          "course_codes": [
+            "GECC10048"
+          ],
+          "query_id": "FORUM-Q-9D945CDD33A3B1AC084A"
+        }
+      ],
+      "full_floor_text_read": true,
+      "hole_context_examined": true,
+      "context_scope": "候选楼层全文已读；核对洞主楼层与同洞课程/教师相关回复。未逐字阅读同洞无关楼层。",
+      "decision": "exclude",
+      "adopted": false,
+      "reason": "已通读楼层并核对同洞上下文；内容仅为课程名提及、泛泛观点或缺少第一手修课/考核/任务/成绩信息，无法作课程体验证据。",
+      "related_evidence_floor_ids": []
+    },
+    {
+      "floor_id": 1232591,
+      "hole_id": 131456,
+      "course_matches": [
+        {
+          "course_name": "英语短篇小说导读",
+          "course_codes": [
+            "GEEC10156"
+          ],
+          "query_id": "FORUM-Q-7BE6BB6674997B13C54E"
+        }
+      ],
+      "full_floor_text_read": true,
+      "hole_context_examined": true,
+      "context_scope": "候选楼层全文已读；核对洞主楼层与同洞课程/教师相关回复。未逐字阅读同洞无关楼层。",
+      "decision": "exclude",
+      "adopted": false,
+      "reason": "楼层以提问、选课咨询或行政求助为主，没有提供发帖者本人的课程体验；已查看同洞相关回复，若回复仅给出无依据短答则不作为证据。",
+      "related_evidence_floor_ids": []
+    },
+    {
+      "floor_id": 1255481,
+      "hole_id": 134587,
+      "course_matches": [
+        {
+          "course_name": "英国文学史",
+          "course_codes": [
+            "FORE20032"
+          ],
+          "query_id": "FORUM-Q-F129DCF2FDE83E70CFA4"
+        }
+      ],
+      "full_floor_text_read": true,
+      "hole_context_examined": true,
+      "context_scope": "候选楼层全文已读；核对洞主楼层与同洞课程/教师相关回复。未逐字阅读同洞无关楼层。",
+      "decision": "exclude",
+      "adopted": false,
+      "reason": "楼层以提问、选课咨询或行政求助为主，没有提供发帖者本人的课程体验；已查看同洞相关回复，若回复仅给出无依据短答则不作为证据。",
+      "related_evidence_floor_ids": []
+    },
+    {
+      "floor_id": 1271553,
+      "hole_id": 136705,
+      "course_matches": [
+        {
+          "course_name": "日本文学文化",
+          "course_codes": [
+            "GEEC20006"
+          ],
+          "query_id": "FORUM-Q-487E5C6E3266CE5C39CC"
+        }
+      ],
+      "full_floor_text_read": true,
+      "hole_context_examined": true,
+      "context_scope": "候选楼层全文已读；核对洞主楼层与同洞课程/教师相关回复。未逐字阅读同洞无关楼层。",
+      "decision": "exclude",
+      "adopted": false,
+      "reason": "询问王升远老师的PPT和考核；同洞1271574陈述上一年论文安排，另列为课程信息。",
+      "related_evidence_floor_ids": [
+        1271574
+      ]
+    },
+    {
+      "floor_id": 1275033,
+      "hole_id": 137099,
+      "course_matches": [
+        {
+          "course_name": "学术前沿专题",
+          "course_codes": [
+            "FORE50043"
+          ],
+          "query_id": "FORUM-Q-5955B5FD3DA69C347446"
+        }
+      ],
+      "full_floor_text_read": true,
+      "hole_context_examined": true,
+      "context_scope": "候选楼层全文已读；核对洞主楼层与同洞课程/教师相关回复。未逐字阅读同洞无关楼层。",
+      "decision": "exclude",
+      "adopted": false,
+      "reason": "楼层以提问、选课咨询或行政求助为主，没有提供发帖者本人的课程体验；已查看同洞相关回复，若回复仅给出无依据短答则不作为证据。",
+      "related_evidence_floor_ids": []
+    },
+    {
+      "floor_id": 1419802,
+      "hole_id": 153531,
+      "course_matches": [
+        {
+          "course_name": "文艺学",
+          "course_codes": [
+            "FORE40059"
+          ],
+          "query_id": "FORUM-Q-4317C3CEE14F47DCA46E"
+        }
+      ],
+      "full_floor_text_read": true,
+      "hole_context_examined": true,
+      "context_scope": "候选楼层全文已读；核对洞主楼层与同洞课程/教师相关回复。未逐字阅读同洞无关楼层。",
+      "decision": "exclude",
+      "adopted": false,
+      "reason": "完整楼层/洞主语境指向中文系或其他院校/机构内容，非外国语言文学目标课程。",
+      "related_evidence_floor_ids": []
+    },
+    {
+      "floor_id": 1425873,
+      "hole_id": 154298,
+      "course_matches": [
+        {
+          "course_name": "英国中世纪文学与文化",
+          "course_codes": [
+            "GECC10048"
+          ],
+          "query_id": "FORUM-Q-9D945CDD33A3B1AC084A"
+        }
+      ],
+      "full_floor_text_read": true,
+      "hole_context_examined": true,
+      "context_scope": "候选楼层全文已读；核对洞主楼层与同洞课程/教师相关回复。未逐字阅读同洞无关楼层。",
+      "decision": "exclude",
+      "adopted": false,
+      "reason": "已通读楼层并核对同洞上下文；内容仅为课程名提及、泛泛观点或缺少第一手修课/考核/任务/成绩信息，无法作课程体验证据。",
+      "related_evidence_floor_ids": []
+    },
+    {
+      "floor_id": 1431674,
+      "hole_id": 154999,
+      "course_matches": [
+        {
+          "course_name": "英国中世纪文学与文化",
+          "course_codes": [
+            "GECC10048"
+          ],
+          "query_id": "FORUM-Q-9D945CDD33A3B1AC084A"
+        }
+      ],
+      "full_floor_text_read": true,
+      "hole_context_examined": true,
+      "context_scope": "候选楼层全文已读；核对洞主楼层与同洞课程/教师相关回复。未逐字阅读同洞无关楼层。",
+      "decision": "exclude",
+      "adopted": false,
+      "reason": "楼层以提问、选课咨询或行政求助为主，没有提供发帖者本人的课程体验；已查看同洞相关回复，若回复仅给出无依据短答则不作为证据。",
+      "related_evidence_floor_ids": []
+    },
+    {
+      "floor_id": 1436460,
+      "hole_id": 155583,
+      "course_matches": [
+        {
+          "course_name": "法语初级视听",
+          "course_codes": [
+            "FORE10024"
+          ],
+          "query_id": "FORUM-Q-C6848DD7B153A8199304"
+        }
+      ],
+      "full_floor_text_read": true,
+      "hole_context_examined": true,
+      "context_scope": "候选楼层全文已读；核对洞主楼层与同洞课程/教师相关回复。未逐字阅读同洞无关楼层。",
+      "decision": "exclude",
+      "adopted": false,
+      "reason": "楼层以提问、选课咨询或行政求助为主，没有提供发帖者本人的课程体验；已查看同洞相关回复，若回复仅给出无依据短答则不作为证据。",
+      "related_evidence_floor_ids": []
+    },
+    {
+      "floor_id": 1504033,
+      "hole_id": 163386,
+      "course_matches": [
+        {
+          "course_name": "基础日语I",
+          "course_codes": [
+            "GESF10007"
+          ],
+          "query_id": "FORUM-Q-44D29BF4C6F83A2D50A6"
+        }
+      ],
+      "full_floor_text_read": true,
+      "hole_context_examined": true,
+      "context_scope": "候选楼层全文已读；核对洞主楼层与同洞课程/教师相关回复。未逐字阅读同洞无关楼层。",
+      "decision": "exclude",
+      "adopted": false,
+      "reason": "已通读楼层并核对同洞上下文；内容仅为课程名提及、泛泛观点或缺少第一手修课/考核/任务/成绩信息，无法作课程体验证据。",
+      "related_evidence_floor_ids": []
+    },
+    {
+      "floor_id": 1507147,
+      "hole_id": 163855,
+      "course_matches": [
+        {
+          "course_name": "世界文学导读",
+          "course_codes": [
+            "FORE10006"
+          ],
+          "query_id": "FORUM-Q-53991EEAA346A57D09AF"
+        }
+      ],
+      "full_floor_text_read": true,
+      "hole_context_examined": true,
+      "context_scope": "候选楼层全文已读；核对洞主楼层与同洞课程/教师相关回复。未逐字阅读同洞无关楼层。",
+      "decision": "exclude",
+      "adopted": false,
+      "reason": "楼层以提问、选课咨询或行政求助为主，没有提供发帖者本人的课程体验；已查看同洞相关回复，若回复仅给出无依据短答则不作为证据。",
+      "related_evidence_floor_ids": []
+    },
+    {
+      "floor_id": 1507149,
+      "hole_id": 163856,
+      "course_matches": [
+        {
+          "course_name": "世界文学导读",
+          "course_codes": [
+            "FORE10006"
+          ],
+          "query_id": "FORUM-Q-53991EEAA346A57D09AF"
+        }
+      ],
+      "full_floor_text_read": true,
+      "hole_context_examined": true,
+      "context_scope": "候选楼层全文已读；核对洞主楼层与同洞课程/教师相关回复。未逐字阅读同洞无关楼层。",
+      "decision": "exclude",
+      "adopted": false,
+      "reason": "楼层以提问、选课咨询或行政求助为主，没有提供发帖者本人的课程体验；已查看同洞相关回复，若回复仅给出无依据短答则不作为证据。",
+      "related_evidence_floor_ids": []
+    },
+    {
+      "floor_id": 1571223,
+      "hole_id": 170471,
+      "course_matches": [
+        {
+          "course_name": "学术写作",
+          "course_codes": [
+            "FORE30054"
+          ],
+          "query_id": "FORUM-Q-94F2EEEF9F2E22D29718"
+        }
+      ],
+      "full_floor_text_read": true,
+      "hole_context_examined": true,
+      "context_scope": "候选楼层全文已读；核对洞主楼层与同洞课程/教师相关回复。未逐字阅读同洞无关楼层。",
+      "decision": "exclude",
+      "adopted": false,
+      "reason": "已通读楼层并核对同洞上下文；内容仅为课程名提及、泛泛观点或缺少第一手修课/考核/任务/成绩信息，无法作课程体验证据。",
+      "related_evidence_floor_ids": []
+    },
+    {
+      "floor_id": 1608607,
+      "hole_id": 174550,
+      "course_matches": [
+        {
+          "course_name": "基础日语I",
+          "course_codes": [
+            "GESF10007"
+          ],
+          "query_id": "FORUM-Q-44D29BF4C6F83A2D50A6"
+        }
+      ],
+      "full_floor_text_read": true,
+      "hole_context_examined": true,
+      "context_scope": "候选楼层全文已读；核对洞主楼层与同洞课程/教师相关回复。未逐字阅读同洞无关楼层。",
+      "decision": "exclude",
+      "adopted": false,
+      "reason": "实际问的是基础日语II，不能归到目标课基础日语I。",
+      "related_evidence_floor_ids": []
+    },
+    {
+      "floor_id": 1609432,
+      "hole_id": 174700,
+      "course_matches": [
+        {
+          "course_name": "英语辩论",
+          "course_codes": [
+            "FORE20025"
+          ],
+          "query_id": "FORUM-Q-23B3D0F0A7DB79BA7FF5"
+        }
+      ],
+      "full_floor_text_read": true,
+      "hole_context_examined": true,
+      "context_scope": "候选楼层全文已读；核对洞主楼层与同洞课程/教师相关回复。未逐字阅读同洞无关楼层。",
+      "decision": "exclude",
+      "adopted": false,
+      "reason": "已通读楼层并核对同洞上下文；内容仅为课程名提及、泛泛观点或缺少第一手修课/考核/任务/成绩信息，无法作课程体验证据。",
+      "related_evidence_floor_ids": []
+    },
+    {
+      "floor_id": 1610712,
+      "hole_id": 141313,
+      "course_matches": [
+        {
+          "course_name": "英国文学史",
+          "course_codes": [
+            "FORE20032"
+          ],
+          "query_id": "FORUM-Q-F129DCF2FDE83E70CFA4"
+        }
+      ],
+      "full_floor_text_read": true,
+      "hole_context_examined": true,
+      "context_scope": "候选楼层全文已读；核对洞主楼层与同洞课程/教师相关回复。未逐字阅读同洞无关楼层。",
+      "decision": "adopt",
+      "adopted": true,
+      "reason": "在“下课后鼓掌”讨论中自述英国文学史课堂有鼓掌冲动，属于低细节的课堂参与感体验。",
+      "related_evidence_floor_ids": []
+    },
+    {
+      "floor_id": 1639929,
+      "hole_id": 177851,
+      "course_matches": [
+        {
+          "course_name": "日本文学文化",
+          "course_codes": [
+            "GEEC20006"
+          ],
+          "query_id": "FORUM-Q-487E5C6E3266CE5C39CC"
+        }
+      ],
+      "full_floor_text_read": true,
+      "hole_context_examined": true,
+      "context_scope": "候选楼层全文已读；核对洞主楼层与同洞课程/教师相关回复。未逐字阅读同洞无关楼层。",
+      "decision": "exclude",
+      "adopted": false,
+      "reason": "楼层以提问、选课咨询或行政求助为主，没有提供发帖者本人的课程体验；已查看同洞相关回复，若回复仅给出无依据短答则不作为证据。",
+      "related_evidence_floor_ids": []
+    },
+    {
+      "floor_id": 1644708,
+      "hole_id": 178316,
+      "course_matches": [
+        {
+          "course_name": "基础韩语I",
+          "course_codes": [
+            "GESF10008"
+          ],
+          "query_id": "FORUM-Q-8E509686B65B572D2C3D"
+        }
+      ],
+      "full_floor_text_read": true,
+      "hole_context_examined": true,
+      "context_scope": "候选楼层全文已读；核对洞主楼层与同洞课程/教师相关回复。未逐字阅读同洞无关楼层。",
+      "decision": "exclude",
+      "adopted": false,
+      "reason": "楼层以提问、选课咨询或行政求助为主，没有提供发帖者本人的课程体验；已查看同洞相关回复，若回复仅给出无依据短答则不作为证据。",
+      "related_evidence_floor_ids": []
+    },
+    {
+      "floor_id": 1658969,
+      "hole_id": 179821,
+      "course_matches": [
+        {
+          "course_name": "莎士比亚作品撷英",
+          "course_codes": [
+            "GECC10045"
+          ],
+          "query_id": "FORUM-Q-67C6F4F71072E8B02488"
+        }
+      ],
+      "full_floor_text_read": true,
+      "hole_context_examined": true,
+      "context_scope": "候选楼层全文已读；核对洞主楼层与同洞课程/教师相关回复。未逐字阅读同洞无关楼层。",
+      "decision": "exclude",
+      "adopted": false,
+      "reason": "已通读楼层并核对同洞上下文；内容仅为课程名提及、泛泛观点或缺少第一手修课/考核/任务/成绩信息，无法作课程体验证据。",
+      "related_evidence_floor_ids": []
+    },
+    {
+      "floor_id": 1702439,
+      "hole_id": 7190,
+      "course_matches": [
+        {
+          "course_name": "日本文学文化",
+          "course_codes": [
+            "GEEC20006"
+          ],
+          "query_id": "FORUM-Q-487E5C6E3266CE5C39CC"
+        }
+      ],
+      "full_floor_text_read": true,
+      "hole_context_examined": true,
+      "context_scope": "候选楼层全文已读；核对洞主楼层与同洞课程/教师相关回复。未逐字阅读同洞无关楼层。",
+      "decision": "exclude",
+      "adopted": false,
+      "reason": "楼层以提问、选课咨询或行政求助为主，没有提供发帖者本人的课程体验；已查看同洞相关回复，若回复仅给出无依据短答则不作为证据。",
+      "related_evidence_floor_ids": []
+    },
+    {
+      "floor_id": 1742349,
+      "hole_id": 187798,
+      "course_matches": [
+        {
+          "course_name": "日本文学文化",
+          "course_codes": [
+            "GEEC20006"
+          ],
+          "query_id": "FORUM-Q-487E5C6E3266CE5C39CC"
+        }
+      ],
+      "full_floor_text_read": true,
+      "hole_context_examined": true,
+      "context_scope": "候选楼层全文已读；核对洞主楼层与同洞课程/教师相关回复。未逐字阅读同洞无关楼层。",
+      "decision": "exclude",
+      "adopted": false,
+      "reason": "已通读楼层并核对同洞上下文；内容仅为课程名提及、泛泛观点或缺少第一手修课/考核/任务/成绩信息，无法作课程体验证据。",
+      "related_evidence_floor_ids": []
+    },
+    {
+      "floor_id": 1751189,
+      "hole_id": 188702,
+      "course_matches": [
+        {
+          "course_name": "文学研究方法论",
+          "course_codes": [
+            "FORE30027"
+          ],
+          "query_id": "FORUM-Q-61B0E452B0A95E2116E5"
+        }
+      ],
+      "full_floor_text_read": true,
+      "hole_context_examined": true,
+      "context_scope": "候选楼层全文已读；核对洞主楼层与同洞课程/教师相关回复。未逐字阅读同洞无关楼层。",
+      "decision": "exclude",
+      "adopted": false,
+      "reason": "内容属于课堂通知、作业/签到/排课等行政信息，没有课程体验评价。",
+      "related_evidence_floor_ids": []
+    },
+    {
+      "floor_id": 1757553,
+      "hole_id": 189225,
+      "course_matches": [
+        {
+          "course_name": "法语初级视听",
+          "course_codes": [
+            "FORE10024"
+          ],
+          "query_id": "FORUM-Q-C6848DD7B153A8199304"
+        }
+      ],
+      "full_floor_text_read": true,
+      "hole_context_examined": true,
+      "context_scope": "候选楼层全文已读；核对洞主楼层与同洞课程/教师相关回复。未逐字阅读同洞无关楼层。",
+      "decision": "adopt",
+      "adopted": true,
+      "reason": "作者直接抱怨法语初级视听课程给分严，并提及教师YZ；单个情绪化体验，不外推给分规律。",
+      "related_evidence_floor_ids": []
+    },
+    {
+      "floor_id": 1765717,
+      "hole_id": 189834,
+      "course_matches": [
+        {
+          "course_name": "欧洲电影解析与实践",
+          "course_codes": [
+            "GECC10047"
+          ],
+          "query_id": "FORUM-Q-F1BEE21AA2CA7090F8F8"
+        }
+      ],
+      "full_floor_text_read": true,
+      "hole_context_examined": true,
+      "context_scope": "候选楼层全文已读；核对洞主楼层与同洞课程/教师相关回复。未逐字阅读同洞无关楼层。",
+      "decision": "adopt",
+      "adopted": true,
+      "reason": "明确记录欧洲电影解析与实践期末复习后自述获A-，是单条考试与成绩体验。",
+      "related_evidence_floor_ids": []
+    },
+    {
+      "floor_id": 1767243,
+      "hole_id": 189995,
+      "course_matches": [
+        {
+          "course_name": "基础法语II",
+          "course_codes": [
+            "GESF20002"
+          ],
+          "query_id": "FORUM-Q-6C26C52330C11F1E4CF5"
+        }
+      ],
+      "full_floor_text_read": true,
+      "hole_context_examined": true,
+      "context_scope": "候选楼层全文已读；核对洞主楼层与同洞课程/教师相关回复。未逐字阅读同洞无关楼层。",
+      "decision": "exclude",
+      "adopted": false,
+      "reason": "已通读楼层并核对同洞上下文；内容仅为课程名提及、泛泛观点或缺少第一手修课/考核/任务/成绩信息，无法作课程体验证据。",
+      "related_evidence_floor_ids": []
+    },
+    {
+      "floor_id": 1770762,
+      "hole_id": 190264,
+      "course_matches": [
+        {
+          "course_name": "文艺学",
+          "course_codes": [
+            "FORE40059"
+          ],
+          "query_id": "FORUM-Q-4317C3CEE14F47DCA46E"
+        }
+      ],
+      "full_floor_text_read": true,
+      "hole_context_examined": true,
+      "context_scope": "候选楼层全文已读；核对洞主楼层与同洞课程/教师相关回复。未逐字阅读同洞无关楼层。",
+      "decision": "exclude",
+      "adopted": false,
+      "reason": "完整楼层/洞主语境指向中文系或其他院校/机构内容，非外国语言文学目标课程。",
+      "related_evidence_floor_ids": []
+    },
+    {
+      "floor_id": 1871703,
+      "hole_id": 199314,
+      "course_matches": [
+        {
+          "course_name": "英国文学史",
+          "course_codes": [
+            "FORE20032"
+          ],
+          "query_id": "FORUM-Q-F129DCF2FDE83E70CFA4"
+        }
+      ],
+      "full_floor_text_read": true,
+      "hole_context_examined": true,
+      "context_scope": "候选楼层全文已读；核对洞主楼层与同洞课程/教师相关回复。未逐字阅读同洞无关楼层。",
+      "decision": "exclude",
+      "adopted": false,
+      "reason": "楼层主要是资料/试题交易或求购，没有可核实的课程学习体验。",
+      "related_evidence_floor_ids": []
+    },
+    {
+      "floor_id": 1895748,
+      "hole_id": 202523,
+      "course_matches": [
+        {
+          "course_name": "日语语音学",
+          "course_codes": [
+            "FORE20021"
+          ],
+          "query_id": "FORUM-Q-84D08B7DCA05F10F3914"
+        }
+      ],
+      "full_floor_text_read": true,
+      "hole_context_examined": true,
+      "context_scope": "候选楼层全文已读；核对洞主楼层与同洞课程/教师相关回复。未逐字阅读同洞无关楼层。",
+      "decision": "exclude",
+      "adopted": false,
+      "reason": "询问日语语音学课程，没有个人体验。",
+      "related_evidence_floor_ids": []
+    },
+    {
+      "floor_id": 1898894,
+      "hole_id": 203019,
+      "course_matches": [
+        {
+          "course_name": "基础俄语I",
+          "course_codes": [
+            "GESF10005"
+          ],
+          "query_id": "FORUM-Q-F003FA038E4C6FFCFE43"
+        }
+      ],
+      "full_floor_text_read": true,
+      "hole_context_examined": true,
+      "context_scope": "候选楼层全文已读；核对洞主楼层与同洞课程/教师相关回复。未逐字阅读同洞无关楼层。",
+      "decision": "exclude",
+      "adopted": false,
+      "reason": "询问考试地点和老师给分，没有本人经验。",
+      "related_evidence_floor_ids": []
+    },
+    {
+      "floor_id": 1904299,
+      "hole_id": 203830,
+      "course_matches": [
+        {
+          "course_name": "英语戏剧表演",
+          "course_codes": [
+            "FORE50056"
+          ],
+          "query_id": "FORUM-Q-52FA1CDB4C8E990CDF9A"
+        }
+      ],
+      "full_floor_text_read": true,
+      "hole_context_examined": true,
+      "context_scope": "候选楼层全文已读；核对洞主楼层与同洞课程/教师相关回复。未逐字阅读同洞无关楼层。",
+      "decision": "exclude",
+      "adopted": false,
+      "reason": "询问英语戏剧表演课程，非本候选目标课。",
+      "related_evidence_floor_ids": []
+    },
+    {
+      "floor_id": 1904725,
+      "hole_id": 203897,
+      "course_matches": [
+        {
+          "course_name": "跨文化交际",
+          "course_codes": [
+            "FORE20028"
+          ],
+          "query_id": "FORUM-Q-A011CD1FCF15BE9B8673"
+        }
+      ],
+      "full_floor_text_read": true,
+      "hole_context_examined": true,
+      "context_scope": "候选楼层全文已读；核对洞主楼层与同洞课程/教师相关回复。未逐字阅读同洞无关楼层。",
+      "decision": "exclude",
+      "adopted": false,
+      "reason": "询问时丽娜跨文化交际当日课程进度，没有课程评价或修课体验。",
+      "related_evidence_floor_ids": []
+    },
+    {
+      "floor_id": 1910734,
+      "hole_id": 204899,
+      "course_matches": [
+        {
+          "course_name": "学术写作",
+          "course_codes": [
+            "FORE30054"
+          ],
+          "query_id": "FORUM-Q-94F2EEEF9F2E22D29718"
+        },
+        {
+          "course_name": "英语学术写作",
+          "course_codes": [
+            "FORE40034"
+          ],
+          "query_id": "FORUM-Q-DD00F9AFBF96F63610AC"
+        }
+      ],
+      "full_floor_text_read": true,
+      "hole_context_examined": true,
+      "context_scope": "候选楼层全文已读；核对洞主楼层与同洞课程/教师相关回复。未逐字阅读同洞无关楼层。",
+      "decision": "exclude",
+      "adopted": false,
+      "reason": "楼层以提问、选课咨询或行政求助为主，没有提供发帖者本人的课程体验；已查看同洞相关回复，若回复仅给出无依据短答则不作为证据。",
+      "related_evidence_floor_ids": []
+    },
+    {
+      "floor_id": 1930185,
+      "hole_id": 207271,
+      "course_matches": [
+        {
+          "course_name": "日语语音学",
+          "course_codes": [
+            "FORE20021"
+          ],
+          "query_id": "FORUM-Q-84D08B7DCA05F10F3914"
+        }
+      ],
+      "full_floor_text_read": true,
+      "hole_context_examined": true,
+      "context_scope": "候选楼层全文已读；核对洞主楼层与同洞课程/教师相关回复。未逐字阅读同洞无关楼层。",
+      "decision": "exclude",
+      "adopted": false,
+      "reason": "询问日语语音学课堂通知/课程群，无体验评价。",
+      "related_evidence_floor_ids": []
+    },
+    {
+      "floor_id": 1930734,
+      "hole_id": 207343,
+      "course_matches": [
+        {
+          "course_name": "跨文化交际",
+          "course_codes": [
+            "FORE20028"
+          ],
+          "query_id": "FORUM-Q-A011CD1FCF15BE9B8673"
+        }
+      ],
+      "full_floor_text_read": true,
+      "hole_context_examined": true,
+      "context_scope": "候选楼层全文已读；核对洞主楼层与同洞课程/教师相关回复。未逐字阅读同洞无关楼层。",
+      "decision": "exclude",
+      "adopted": false,
+      "reason": "仅建议选择跨文化交际，未给出理由/个人经验。",
+      "related_evidence_floor_ids": []
+    },
+    {
+      "floor_id": 1943856,
+      "hole_id": 208981,
+      "course_matches": [
+        {
+          "course_name": "莎士比亚作品撷英",
+          "course_codes": [
+            "GECC10045"
+          ],
+          "query_id": "FORUM-Q-67C6F4F71072E8B02488"
+        }
+      ],
+      "full_floor_text_read": true,
+      "hole_context_examined": true,
+      "context_scope": "候选楼层全文已读；核对洞主楼层与同洞课程/教师相关回复。未逐字阅读同洞无关楼层。",
+      "decision": "exclude",
+      "adopted": false,
+      "reason": "询问第一节内容，非体验评价。",
+      "related_evidence_floor_ids": []
+    },
+    {
+      "floor_id": 1948741,
+      "hole_id": 209548,
+      "course_matches": [
+        {
+          "course_name": "学术写作",
+          "course_codes": [
+            "FORE30054"
+          ],
+          "query_id": "FORUM-Q-94F2EEEF9F2E22D29718"
+        },
+        {
+          "course_name": "英语学术写作",
+          "course_codes": [
+            "FORE40034"
+          ],
+          "query_id": "FORUM-Q-DD00F9AFBF96F63610AC"
+        }
+      ],
+      "full_floor_text_read": true,
+      "hole_context_examined": true,
+      "context_scope": "候选楼层全文已读；核对洞主楼层与同洞课程/教师相关回复。未逐字阅读同洞无关楼层。",
+      "decision": "exclude",
+      "adopted": false,
+      "reason": "同洞主帖询问学术英语综合/ZJM；该楼层不能确证为目标课学术写作。",
+      "related_evidence_floor_ids": [],
+      "evidence_record_id": 1948741
+    },
+    {
+      "floor_id": 1958669,
+      "hole_id": 210716,
+      "course_matches": [
+        {
+          "course_name": "学术写作",
+          "course_codes": [
+            "FORE30054"
+          ],
+          "query_id": "FORUM-Q-94F2EEEF9F2E22D29718"
+        },
+        {
+          "course_name": "英语学术写作",
+          "course_codes": [
+            "FORE40034"
+          ],
+          "query_id": "FORUM-Q-DD00F9AFBF96F63610AC"
+        }
+      ],
+      "full_floor_text_read": true,
+      "hole_context_examined": true,
+      "context_scope": "候选楼层全文已读；核对洞主楼层与同洞课程/教师相关回复。未逐字阅读同洞无关楼层。",
+      "decision": "exclude",
+      "adopted": false,
+      "reason": "求购研究生英语学术写作A论文，不是目标课程体验。",
+      "related_evidence_floor_ids": []
+    },
+    {
+      "floor_id": 2056755,
+      "hole_id": 220895,
+      "course_matches": [
+        {
+          "course_name": "莎士比亚作品撷英",
+          "course_codes": [
+            "GECC10045"
+          ],
+          "query_id": "FORUM-Q-67C6F4F71072E8B02488"
+        }
+      ],
+      "full_floor_text_read": true,
+      "hole_context_examined": true,
+      "context_scope": "候选楼层全文已读；核对洞主楼层与同洞课程/教师相关回复。未逐字阅读同洞无关楼层。",
+      "decision": "exclude",
+      "adopted": false,
+      "reason": "询问莎士比亚作品撷英签到，回复只介绍点名/助教登记，不是课程评价。",
+      "related_evidence_floor_ids": []
+    },
+    {
+      "floor_id": 2245974,
+      "hole_id": 239535,
+      "course_matches": [
+        {
+          "course_name": "《浮士德》",
+          "course_codes": [
+            "FORE50045"
+          ],
+          "query_id": "FORUM-Q-2E6470CBF9ACA2931DB2"
+        }
+      ],
+      "full_floor_text_read": true,
+      "hole_context_examined": true,
+      "context_scope": "候选楼层全文已读；核对洞主楼层与同洞课程/教师相关回复。未逐字阅读同洞无关楼层。",
+      "decision": "exclude",
+      "adopted": false,
+      "reason": "文学书籍推荐回复，没有课程讨论。",
+      "related_evidence_floor_ids": []
+    },
+    {
+      "floor_id": 2292501,
+      "hole_id": 244362,
+      "course_matches": [
+        {
+          "course_name": "欧洲电影解析与实践",
+          "course_codes": [
+            "GECC10047"
+          ],
+          "query_id": "FORUM-Q-F1BEE21AA2CA7090F8F8"
+        }
+      ],
+      "full_floor_text_read": true,
+      "hole_context_examined": true,
+      "context_scope": "候选楼层全文已读；核对洞主楼层与同洞课程/教师相关回复。未逐字阅读同洞无关楼层。",
+      "decision": "adopt",
+      "adopted": true,
+      "reason": "明确写欧洲电影解析与实践每周观影、期末小组微电影及个人觉得有意思，属短评。",
+      "related_evidence_floor_ids": []
+    },
+    {
+      "floor_id": 2295784,
+      "hole_id": 244945,
+      "course_matches": [
+        {
+          "course_name": "北欧电影",
+          "course_codes": [
+            "GEEC10146"
+          ],
+          "query_id": "FORUM-Q-BB419873597C8D867CA1"
+        }
+      ],
+      "full_floor_text_read": true,
+      "hole_context_examined": true,
+      "context_scope": "候选楼层全文已读；核对洞主楼层与同洞课程/教师相关回复。未逐字阅读同洞无关楼层。",
+      "decision": "exclude",
+      "adopted": false,
+      "reason": "询问北欧电影是否可P/NP和课程体验，楼层自身为问题。",
+      "related_evidence_floor_ids": []
+    },
+    {
+      "floor_id": 2310236,
+      "hole_id": 246641,
+      "course_matches": [
+        {
+          "course_name": "欧洲电影解析与实践",
+          "course_codes": [
+            "GECC10047"
+          ],
+          "query_id": "FORUM-Q-F1BEE21AA2CA7090F8F8"
+        }
+      ],
+      "full_floor_text_read": true,
+      "hole_context_examined": true,
+      "context_scope": "候选楼层全文已读；核对洞主楼层与同洞课程/教师相关回复。未逐字阅读同洞无关楼层。",
+      "decision": "exclude",
+      "adopted": false,
+      "reason": "楼层以提问、选课咨询或行政求助为主，没有提供发帖者本人的课程体验；已查看同洞相关回复，若回复仅给出无依据短答则不作为证据。",
+      "related_evidence_floor_ids": []
+    },
+    {
+      "floor_id": 2331054,
+      "hole_id": 248731,
+      "course_matches": [
+        {
+          "course_name": "日语语音学",
+          "course_codes": [
+            "FORE20021"
+          ],
+          "query_id": "FORUM-Q-84D08B7DCA05F10F3914"
+        }
+      ],
+      "full_floor_text_read": true,
+      "hole_context_examined": true,
+      "context_scope": "候选楼层全文已读；核对洞主楼层与同洞课程/教师相关回复。未逐字阅读同洞无关楼层。",
+      "decision": "exclude",
+      "adopted": false,
+      "reason": "对日语语音学汇报的玩笑式猜测，非课程反馈。",
+      "related_evidence_floor_ids": []
+    },
+    {
+      "floor_id": 2333736,
+      "hole_id": 249052,
+      "course_matches": [
+        {
+          "course_name": "英语演讲",
+          "course_codes": [
+            "FORE10012"
+          ],
+          "query_id": "FORUM-Q-8EB0AF1BC955E6222127"
+        }
+      ],
+      "full_floor_text_read": true,
+      "hole_context_examined": true,
+      "context_scope": "候选楼层全文已读；核对洞主楼层与同洞课程/教师相关回复。未逐字阅读同洞无关楼层。",
+      "decision": "exclude",
+      "adopted": false,
+      "reason": "英语演讲仅作为个人形象建议中的活动提及，无课程评价。",
+      "related_evidence_floor_ids": []
+    },
+    {
+      "floor_id": 2381472,
+      "hole_id": 254578,
+      "course_matches": [
+        {
+          "course_name": "学术写作",
+          "course_codes": [
+            "FORE30054"
+          ],
+          "query_id": "FORUM-Q-94F2EEEF9F2E22D29718"
+        }
+      ],
+      "full_floor_text_read": true,
+      "hole_context_examined": true,
+      "context_scope": "候选楼层全文已读；核对洞主楼层与同洞课程/教师相关回复。未逐字阅读同洞无关楼层。",
+      "decision": "exclude",
+      "adopted": false,
+      "reason": "整洞实际讨论宪法课，学术写作规范只是教师对论文的指导，不属于目标课学术写作。",
+      "related_evidence_floor_ids": []
+    },
+    {
+      "floor_id": 2394047,
+      "hole_id": 256136,
+      "course_matches": [
+        {
+          "course_name": "基础俄语I",
+          "course_codes": [
+            "GESF10005"
+          ],
+          "query_id": "FORUM-Q-F003FA038E4C6FFCFE43"
+        }
+      ],
+      "full_floor_text_read": true,
+      "hole_context_examined": true,
+      "context_scope": "候选楼层全文已读；核对洞主楼层与同洞课程/教师相关回复。未逐字阅读同洞无关楼层。",
+      "decision": "exclude",
+      "adopted": false,
+      "reason": "求购往年基础俄语I试题，无课程体验。",
+      "related_evidence_floor_ids": []
+    },
+    {
+      "floor_id": 2396005,
+      "hole_id": 256379,
+      "course_matches": [
+        {
+          "course_name": "基础俄语I",
+          "course_codes": [
+            "GESF10005"
+          ],
+          "query_id": "FORUM-Q-F003FA038E4C6FFCFE43"
+        }
+      ],
+      "full_floor_text_read": true,
+      "hole_context_examined": true,
+      "context_scope": "候选楼层全文已读；核对洞主楼层与同洞课程/教师相关回复。未逐字阅读同洞无关楼层。",
+      "decision": "exclude",
+      "adopted": false,
+      "reason": "求购jcp基础俄语I试题，非课程评价。",
+      "related_evidence_floor_ids": []
+    },
+    {
+      "floor_id": 2411944,
+      "hole_id": 258367,
+      "course_matches": [
+        {
+          "course_name": "英语演讲",
+          "course_codes": [
+            "FORE10012"
+          ],
+          "query_id": "FORUM-Q-8EB0AF1BC955E6222127"
+        }
+      ],
+      "full_floor_text_read": true,
+      "hole_context_examined": true,
+      "context_scope": "候选楼层全文已读；核对洞主楼层与同洞课程/教师相关回复。未逐字阅读同洞无关楼层。",
+      "decision": "exclude",
+      "adopted": false,
+      "reason": "求口语同学代读英语演讲稿，非课程体验。",
+      "related_evidence_floor_ids": []
+    },
+    {
+      "floor_id": 2428129,
+      "hole_id": 260381,
+      "course_matches": [
+        {
+          "course_name": "跨文化交际",
+          "course_codes": [
+            "FORE20028"
+          ],
+          "query_id": "FORUM-Q-A011CD1FCF15BE9B8673"
+        }
+      ],
+      "full_floor_text_read": true,
+      "hole_context_examined": true,
+      "context_scope": "候选楼层全文已读；核对洞主楼层与同洞课程/教师相关回复。未逐字阅读同洞无关楼层。",
+      "decision": "exclude",
+      "adopted": false,
+      "reason": "询问跨文化交际期末题型，无经验。",
+      "related_evidence_floor_ids": []
+    },
+    {
+      "floor_id": 2432080,
+      "hole_id": 260845,
+      "course_matches": [
+        {
+          "course_name": "基础俄语I",
+          "course_codes": [
+            "GESF10005"
+          ],
+          "query_id": "FORUM-Q-F003FA038E4C6FFCFE43"
+        }
+      ],
+      "full_floor_text_read": true,
+      "hole_context_examined": true,
+      "context_scope": "候选楼层全文已读；核对洞主楼层与同洞课程/教师相关回复。未逐字阅读同洞无关楼层。",
+      "decision": "exclude",
+      "adopted": false,
+      "reason": "已通读楼层并核对同洞上下文；内容仅为课程名提及、泛泛观点或缺少第一手修课/考核/任务/成绩信息，无法作课程体验证据。",
+      "related_evidence_floor_ids": [],
+      "evidence_record_id": 2432080
+    },
+    {
+      "floor_id": 2473925,
+      "hole_id": 265630,
+      "course_matches": [
+        {
+          "course_name": "跨文化交际",
+          "course_codes": [
+            "FORE20028"
+          ],
+          "query_id": "FORUM-Q-A011CD1FCF15BE9B8673"
+        }
+      ],
+      "full_floor_text_read": true,
+      "hole_context_examined": true,
+      "context_scope": "候选楼层全文已读；核对洞主楼层与同洞课程/教师相关回复。未逐字阅读同洞无关楼层。",
+      "decision": "exclude",
+      "adopted": false,
+      "reason": "已通读楼层并核对同洞上下文；内容仅为课程名提及、泛泛观点或缺少第一手修课/考核/任务/成绩信息，无法作课程体验证据。",
+      "related_evidence_floor_ids": [],
+      "evidence_record_id": 2473925
+    },
+    {
+      "floor_id": 2542250,
+      "hole_id": 272313,
+      "course_matches": [
+        {
+          "course_name": "文艺学",
+          "course_codes": [
+            "FORE40059"
+          ],
+          "query_id": "FORUM-Q-4317C3CEE14F47DCA46E"
+        }
+      ],
+      "full_floor_text_read": true,
+      "hole_context_examined": true,
+      "context_scope": "候选楼层全文已读；核对洞主楼层与同洞课程/教师相关回复。未逐字阅读同洞无关楼层。",
+      "decision": "exclude",
+      "adopted": false,
+      "reason": "中文系文艺学讨论，与目标课程无关。",
+      "related_evidence_floor_ids": []
+    },
+    {
+      "floor_id": 2600868,
+      "hole_id": 278276,
+      "course_matches": [
+        {
+          "course_name": "基础日语I",
+          "course_codes": [
+            "GESF10007"
+          ],
+          "query_id": "FORUM-Q-44D29BF4C6F83A2D50A6"
+        }
+      ],
+      "full_floor_text_read": true,
+      "hole_context_examined": true,
+      "context_scope": "候选楼层全文已读；核对洞主楼层与同洞课程/教师相关回复。未逐字阅读同洞无关楼层。",
+      "decision": "exclude",
+      "adopted": false,
+      "reason": "楼层以提问、选课咨询或行政求助为主，没有提供发帖者本人的课程体验；已查看同洞相关回复，若回复仅给出无依据短答则不作为证据。",
+      "related_evidence_floor_ids": [],
+      "evidence_record_id": 2600868
+    },
+    {
+      "floor_id": 2621411,
+      "hole_id": 280276,
+      "course_matches": [
+        {
+          "course_name": "跨文化交际",
+          "course_codes": [
+            "FORE20028"
+          ],
+          "query_id": "FORUM-Q-A011CD1FCF15BE9B8673"
+        }
+      ],
+      "full_floor_text_read": true,
+      "hole_context_examined": true,
+      "context_scope": "候选楼层全文已读；核对洞主楼层与同洞课程/教师相关回复。未逐字阅读同洞无关楼层。",
+      "decision": "exclude",
+      "adopted": false,
+      "reason": "楼层以提问、选课咨询或行政求助为主，没有提供发帖者本人的课程体验；已查看同洞相关回复，若回复仅给出无依据短答则不作为证据。",
+      "related_evidence_floor_ids": [
+        2621511
+      ]
+    },
+    {
+      "floor_id": 2678959,
+      "hole_id": 285947,
+      "course_matches": [
+        {
+          "course_name": "日本文学文化",
+          "course_codes": [
+            "GEEC20006"
+          ],
+          "query_id": "FORUM-Q-487E5C6E3266CE5C39CC"
+        }
+      ],
+      "full_floor_text_read": true,
+      "hole_context_examined": true,
+      "context_scope": "候选楼层全文已读；核对洞主楼层与同洞课程/教师相关回复。未逐字阅读同洞无关楼层。",
+      "decision": "exclude",
+      "adopted": false,
+      "reason": "询问日本文学文化难度/给分，楼层自身没有体验。",
+      "related_evidence_floor_ids": []
+    },
+    {
+      "floor_id": 2689566,
+      "hole_id": 287340,
+      "course_matches": [
+        {
+          "course_name": "学术写作",
+          "course_codes": [
+            "FORE30054"
+          ],
+          "query_id": "FORUM-Q-94F2EEEF9F2E22D29718"
+        }
+      ],
+      "full_floor_text_read": true,
+      "hole_context_examined": true,
+      "context_scope": "候选楼层全文已读；核对洞主楼层与同洞课程/教师相关回复。未逐字阅读同洞无关楼层。",
+      "decision": "exclude",
+      "adopted": false,
+      "reason": "讨论高级英语/高阶课程选择及学术写作能力，不是目标课学术写作。",
+      "related_evidence_floor_ids": []
+    },
+    {
+      "floor_id": 2764033,
+      "hole_id": 296885,
+      "course_matches": [
+        {
+          "course_name": "英国中世纪文学与文化",
+          "course_codes": [
+            "GECC10048"
+          ],
+          "query_id": "FORUM-Q-9D945CDD33A3B1AC084A"
+        }
+      ],
+      "full_floor_text_read": true,
+      "hole_context_examined": true,
+      "context_scope": "候选楼层全文已读；核对洞主楼层与同洞课程/教师相关回复。未逐字阅读同洞无关楼层。",
+      "decision": "exclude",
+      "adopted": false,
+      "reason": "课程问答提问；同洞2764191、2764240提供了课程反馈，另列为相关证据。",
+      "related_evidence_floor_ids": [
+        2764191,
+        2764240
+      ]
+    },
+    {
+      "floor_id": 2764411,
+      "hole_id": 7059,
+      "course_matches": [
+        {
+          "course_name": "跨文化交际",
+          "course_codes": [
+            "FORE20028"
+          ],
+          "query_id": "FORUM-Q-A011CD1FCF15BE9B8673"
+        }
+      ],
+      "full_floor_text_read": true,
+      "hole_context_examined": true,
+      "context_scope": "候选楼层全文已读；核对洞主楼层与同洞课程/教师相关回复。未逐字阅读同洞无关楼层。",
+      "decision": "exclude",
+      "adopted": false,
+      "reason": "已通读楼层并核对同洞上下文；内容仅为课程名提及、泛泛观点或缺少第一手修课/考核/任务/成绩信息，无法作课程体验证据。",
+      "related_evidence_floor_ids": []
+    },
+    {
+      "floor_id": 2774988,
+      "hole_id": 298645,
+      "course_matches": [
+        {
+          "course_name": "文艺学",
+          "course_codes": [
+            "FORE40059"
+          ],
+          "query_id": "FORUM-Q-4317C3CEE14F47DCA46E"
+        }
+      ],
+      "full_floor_text_read": true,
+      "hole_context_examined": true,
+      "context_scope": "候选楼层全文已读；核对洞主楼层与同洞课程/教师相关回复。未逐字阅读同洞无关楼层。",
+      "decision": "exclude",
+      "adopted": false,
+      "reason": "楼层以提问、选课咨询或行政求助为主，没有提供发帖者本人的课程体验；已查看同洞相关回复，若回复仅给出无依据短答则不作为证据。",
+      "related_evidence_floor_ids": []
+    },
+    {
+      "floor_id": 2775994,
+      "hole_id": 204899,
+      "course_matches": [
+        {
+          "course_name": "学术写作",
+          "course_codes": [
+            "FORE30054"
+          ],
+          "query_id": "FORUM-Q-94F2EEEF9F2E22D29718"
+        },
+        {
+          "course_name": "英语学术写作",
+          "course_codes": [
+            "FORE40034"
+          ],
+          "query_id": "FORUM-Q-DD00F9AFBF96F63610AC"
+        }
+      ],
+      "full_floor_text_read": true,
+      "hole_context_examined": true,
+      "context_scope": "候选楼层全文已读；核对洞主楼层与同洞课程/教师相关回复。未逐字阅读同洞无关楼层。",
+      "decision": "exclude",
+      "adopted": false,
+      "reason": "楼层以提问、选课咨询或行政求助为主，没有提供发帖者本人的课程体验；已查看同洞相关回复，若回复仅给出无依据短答则不作为证据。",
+      "related_evidence_floor_ids": []
+    },
+    {
+      "floor_id": 2780924,
+      "hole_id": 299627,
+      "course_matches": [
+        {
+          "course_name": "英语辩论",
+          "course_codes": [
+            "FORE20025"
+          ],
+          "query_id": "FORUM-Q-23B3D0F0A7DB79BA7FF5"
+        }
+      ],
+      "full_floor_text_read": true,
+      "hole_context_examined": true,
+      "context_scope": "候选楼层全文已读；核对洞主楼层与同洞课程/教师相关回复。未逐字阅读同洞无关楼层。",
+      "decision": "exclude",
+      "adopted": false,
+      "reason": "同洞上下文确认是实用交际英语口语中的英语辩论活动，不是课程“英语辩论”的评价。",
+      "related_evidence_floor_ids": [],
+      "evidence_record_id": 2780924
+    },
+    {
+      "floor_id": 2780931,
+      "hole_id": 299627,
+      "course_matches": [
+        {
+          "course_name": "英语辩论",
+          "course_codes": [
+            "FORE20025"
+          ],
+          "query_id": "FORUM-Q-23B3D0F0A7DB79BA7FF5"
+        }
+      ],
+      "full_floor_text_read": true,
+      "hole_context_examined": true,
+      "context_scope": "候选楼层全文已读；核对洞主楼层与同洞课程/教师相关回复。未逐字阅读同洞无关楼层。",
+      "decision": "exclude",
+      "adopted": false,
+      "reason": "已通读楼层并核对同洞上下文；内容仅为课程名提及、泛泛观点或缺少第一手修课/考核/任务/成绩信息，无法作课程体验证据。",
+      "related_evidence_floor_ids": []
+    },
+    {
+      "floor_id": 2806062,
+      "hole_id": 303024,
+      "course_matches": [
+        {
+          "course_name": "语言学概论",
+          "course_codes": [
+            "FORE10029"
+          ],
+          "query_id": "FORUM-Q-482A05E0F52E232EEF5D"
+        }
+      ],
+      "full_floor_text_read": true,
+      "hole_context_examined": true,
+      "context_scope": "候选楼层全文已读；核对洞主楼层与同洞课程/教师相关回复。未逐字阅读同洞无关楼层。",
+      "decision": "exclude",
+      "adopted": false,
+      "reason": "中文系语言学概论作业问询，不在目标范围。",
+      "related_evidence_floor_ids": []
+    },
+    {
+      "floor_id": 2817753,
+      "hole_id": 304670,
+      "course_matches": [
+        {
+          "course_name": "翻译理论",
+          "course_codes": [
+            "FORE40061"
+          ],
+          "query_id": "FORUM-Q-E876F1FFEA96A8F9D947"
+        },
+        {
+          "course_name": "翻译理论与策略",
+          "course_codes": [
+            "FORE60003"
+          ],
+          "query_id": "FORUM-Q-8E60E16464D3178C0D49"
+        }
+      ],
+      "full_floor_text_read": true,
+      "hole_context_examined": true,
+      "context_scope": "候选楼层全文已读；核对洞主楼层与同洞课程/教师相关回复。未逐字阅读同洞无关楼层。",
+      "decision": "exclude",
+      "adopted": false,
+      "reason": "询问翻译理论与策略线上课安排，无课程体验。",
+      "related_evidence_floor_ids": []
+    },
+    {
+      "floor_id": 2836544,
+      "hole_id": 306930,
+      "course_matches": [
+        {
+          "course_name": "英语演讲",
+          "course_codes": [
+            "FORE10012"
+          ],
+          "query_id": "FORUM-Q-8EB0AF1BC955E6222127"
+        }
+      ],
+      "full_floor_text_read": true,
+      "hole_context_examined": true,
+      "context_scope": "候选楼层全文已读；核对洞主楼层与同洞课程/教师相关回复。未逐字阅读同洞无关楼层。",
+      "decision": "exclude",
+      "adopted": false,
+      "reason": "泛问大英pre要求，未关联目标课。",
+      "related_evidence_floor_ids": []
+    },
+    {
+      "floor_id": 2838325,
+      "hole_id": 307117,
+      "course_matches": [
+        {
+          "course_name": "跨语言语法比较",
+          "course_codes": [
+            "FORE50079"
+          ],
+          "query_id": "FORUM-Q-8A1A84848E8049D68DC9"
+        }
+      ],
+      "full_floor_text_read": true,
+      "hole_context_examined": true,
+      "context_scope": "候选楼层全文已读；核对洞主楼层与同洞课程/教师相关回复。未逐字阅读同洞无关楼层。",
+      "decision": "exclude",
+      "adopted": false,
+      "reason": "询问跨语言语法比较线上课会议号，无体验。",
+      "related_evidence_floor_ids": []
+    },
+    {
+      "floor_id": 2852986,
+      "hole_id": 308844,
+      "course_matches": [
+        {
+          "course_name": "学术写作",
+          "course_codes": [
+            "FORE30054"
+          ],
+          "query_id": "FORUM-Q-94F2EEEF9F2E22D29718"
+        }
+      ],
+      "full_floor_text_read": true,
+      "hole_context_examined": true,
+      "context_scope": "候选楼层全文已读；核对洞主楼层与同洞课程/教师相关回复。未逐字阅读同洞无关楼层。",
+      "decision": "exclude",
+      "adopted": false,
+      "reason": "推荐学术写作类书籍，不是课程体验。",
+      "related_evidence_floor_ids": []
+    },
+    {
+      "floor_id": 2890230,
+      "hole_id": 310026,
+      "course_matches": [
+        {
+          "course_name": "俄罗斯文学史",
+          "course_codes": [
+            "FORE50091"
+          ],
+          "query_id": "FORUM-Q-F82115018384AC0C2F87"
+        }
+      ],
+      "full_floor_text_read": true,
+      "hole_context_examined": true,
+      "context_scope": "候选楼层全文已读；核对洞主楼层与同洞课程/教师相关回复。未逐字阅读同洞无关楼层。",
+      "decision": "exclude",
+      "adopted": false,
+      "reason": "文学阅读记录提及俄罗斯文学史论文选材，但楼层评价对象是小说《罪与罚》，不是课程。",
+      "related_evidence_floor_ids": []
+    },
+    {
+      "floor_id": 2954739,
+      "hole_id": 320439,
+      "course_matches": [
+        {
+          "course_name": "语言学概论",
+          "course_codes": [
+            "FORE10029"
+          ],
+          "query_id": "FORUM-Q-482A05E0F52E232EEF5D"
+        }
+      ],
+      "full_floor_text_read": true,
+      "hole_context_examined": true,
+      "context_scope": "候选楼层全文已读；核对洞主楼层与同洞课程/教师相关回复。未逐字阅读同洞无关楼层。",
+      "decision": "exclude",
+      "adopted": false,
+      "reason": "中文系语言学课程旁听建议，与目标课无关。",
+      "related_evidence_floor_ids": []
+    },
+    {
+      "floor_id": 2958576,
+      "hole_id": 320929,
+      "course_matches": [
+        {
+          "course_name": "英语演讲",
+          "course_codes": [
+            "FORE10012"
+          ],
+          "query_id": "FORUM-Q-8EB0AF1BC955E6222127"
+        }
+      ],
+      "full_floor_text_read": true,
+      "hole_context_examined": true,
+      "context_scope": "候选楼层全文已读；核对洞主楼层与同洞课程/教师相关回复。未逐字阅读同洞无关楼层。",
+      "decision": "exclude",
+      "adopted": false,
+      "reason": "提问英语演讲成绩，同洞2958628提供同宿舍评分短报，另列证据。",
+      "related_evidence_floor_ids": [
+        2958628
+      ]
+    },
+    {
+      "floor_id": 3157908,
+      "hole_id": 342436,
+      "course_matches": [
+        {
+          "course_name": "英语演讲",
+          "course_codes": [
+            "FORE10012"
+          ],
+          "query_id": "FORUM-Q-8EB0AF1BC955E6222127"
+        }
+      ],
+      "full_floor_text_read": true,
+      "hole_context_examined": true,
+      "context_scope": "候选楼层全文已读；核对洞主楼层与同洞课程/教师相关回复。未逐字阅读同洞无关楼层。",
+      "decision": "exclude",
+      "adopted": false,
+      "reason": "询问英语演讲教师选择和给分，没有修课体验。",
+      "related_evidence_floor_ids": []
+    },
+    {
+      "floor_id": 3194387,
+      "hole_id": 347527,
+      "course_matches": [
+        {
+          "course_name": "日本文学文化",
+          "course_codes": [
+            "GEEC20006"
+          ],
+          "query_id": "FORUM-Q-487E5C6E3266CE5C39CC"
+        }
+      ],
+      "full_floor_text_read": true,
+      "hole_context_examined": true,
+      "context_scope": "候选楼层全文已读；核对洞主楼层与同洞课程/教师相关回复。未逐字阅读同洞无关楼层。",
+      "decision": "exclude",
+      "adopted": false,
+      "reason": "询问日本文学文化上课/要求，无体验评价。",
+      "related_evidence_floor_ids": []
+    },
+    {
+      "floor_id": 3199977,
+      "hole_id": 348530,
+      "course_matches": [
+        {
+          "course_name": "中西文化比较",
+          "course_codes": [
+            "FORE40033"
+          ],
+          "query_id": "FORUM-Q-7FF8564B732BAE140E90"
+        }
+      ],
+      "full_floor_text_read": true,
+      "hole_context_examined": true,
+      "context_scope": "候选楼层全文已读；核对洞主楼层与同洞课程/教师相关回复。未逐字阅读同洞无关楼层。",
+      "decision": "exclude",
+      "adopted": false,
+      "reason": "询问中西文化比较；同洞内容谈世界文学导读而非目标课。",
+      "related_evidence_floor_ids": []
+    },
+    {
+      "floor_id": 3201318,
+      "hole_id": 348776,
+      "course_matches": [
+        {
+          "course_name": "文艺学",
+          "course_codes": [
+            "FORE40059"
+          ],
+          "query_id": "FORUM-Q-4317C3CEE14F47DCA46E"
+        }
+      ],
+      "full_floor_text_read": true,
+      "hole_context_examined": true,
+      "context_scope": "候选楼层全文已读；核对洞主楼层与同洞课程/教师相关回复。未逐字阅读同洞无关楼层。",
+      "decision": "exclude",
+      "adopted": false,
+      "reason": "中西文艺学名著导读属于中文系课程。",
+      "related_evidence_floor_ids": []
+    },
+    {
+      "floor_id": 3203189,
+      "hole_id": 349035,
+      "course_matches": [
+        {
+          "course_name": "欧洲电影解析与实践",
+          "course_codes": [
+            "GECC10047"
+          ],
+          "query_id": "FORUM-Q-F1BEE21AA2CA7090F8F8"
+        }
+      ],
+      "full_floor_text_read": true,
+      "hole_context_examined": true,
+      "context_scope": "候选楼层全文已读；核对洞主楼层与同洞课程/教师相关回复。未逐字阅读同洞无关楼层。",
+      "decision": "exclude",
+      "adopted": false,
+      "reason": "询问欧洲电影平时分结构，没有课程体验。",
+      "related_evidence_floor_ids": []
+    },
+    {
+      "floor_id": 3229877,
+      "hole_id": 352609,
+      "course_matches": [
+        {
+          "course_name": "基础日语I",
+          "course_codes": [
+            "GESF10007"
+          ],
+          "query_id": "FORUM-Q-44D29BF4C6F83A2D50A6"
+        }
+      ],
+      "full_floor_text_read": true,
+      "hole_context_examined": true,
+      "context_scope": "候选楼层全文已读；核对洞主楼层与同洞课程/教师相关回复。未逐字阅读同洞无关楼层。",
+      "decision": "exclude",
+      "adopted": false,
+      "reason": "询问基础日语I群聊/作业/考试要求，无体验。",
+      "related_evidence_floor_ids": []
+    },
+    {
+      "floor_id": 3239023,
+      "hole_id": 353888,
+      "course_matches": [
+        {
+          "course_name": "基础俄语I",
+          "course_codes": [
+            "GESF10005"
+          ],
+          "query_id": "FORUM-Q-F003FA038E4C6FFCFE43"
+        }
+      ],
+      "full_floor_text_read": true,
+      "hole_context_examined": true,
+      "context_scope": "候选楼层全文已读；核对洞主楼层与同洞课程/教师相关回复。未逐字阅读同洞无关楼层。",
+      "decision": "exclude",
+      "adopted": false,
+      "reason": "比较是否将生命科学史或基础俄语I P/NP，无本人课程体验。",
+      "related_evidence_floor_ids": []
+    },
+    {
+      "floor_id": 3281894,
+      "hole_id": 358863,
+      "course_matches": [
+        {
+          "course_name": "语言学概论",
+          "course_codes": [
+            "FORE10029"
+          ],
+          "query_id": "FORUM-Q-482A05E0F52E232EEF5D"
+        }
+      ],
+      "full_floor_text_read": true,
+      "hole_context_examined": true,
+      "context_scope": "候选楼层全文已读；核对洞主楼层与同洞课程/教师相关回复。未逐字阅读同洞无关楼层。",
+      "decision": "exclude",
+      "adopted": false,
+      "reason": "中文系语言学概论通知请求。",
+      "related_evidence_floor_ids": []
+    },
+    {
+      "floor_id": 3295188,
+      "hole_id": 360454,
+      "course_matches": [
+        {
+          "course_name": "日耳曼学研究",
+          "course_codes": [
+            "FORE10022"
+          ],
+          "query_id": "FORUM-Q-7F0EB9B6E8835F5F661E"
+        }
+      ],
+      "full_floor_text_read": true,
+      "hole_context_examined": true,
+      "context_scope": "候选楼层全文已读；核对洞主楼层与同洞课程/教师相关回复。未逐字阅读同洞无关楼层。",
+      "decision": "exclude",
+      "adopted": false,
+      "reason": "询问日耳曼学研究实践pre，无课程评价。",
+      "related_evidence_floor_ids": []
+    },
+    {
+      "floor_id": 3298017,
+      "hole_id": 360787,
+      "course_matches": [
+        {
+          "course_name": "日本文化史",
+          "course_codes": [
+            "FORE30023"
+          ],
+          "query_id": "FORUM-Q-C2A6832C4000E7401503"
+        }
+      ],
+      "full_floor_text_read": true,
+      "hole_context_examined": true,
+      "context_scope": "候选楼层全文已读；核对洞主楼层与同洞课程/教师相关回复。未逐字阅读同洞无关楼层。",
+      "decision": "exclude",
+      "adopted": false,
+      "reason": "问日本文化史是否点名，无评价。",
+      "related_evidence_floor_ids": []
+    },
+    {
+      "floor_id": 3375909,
+      "hole_id": 370372,
+      "course_matches": [
+        {
+          "course_name": "中西文化比较",
+          "course_codes": [
+            "FORE40033"
+          ],
+          "query_id": "FORUM-Q-7FF8564B732BAE140E90"
+        },
+        {
+          "course_name": "学术写作",
+          "course_codes": [
+            "FORE30054"
+          ],
+          "query_id": "FORUM-Q-94F2EEEF9F2E22D29718"
+        },
+        {
+          "course_name": "英语学术写作",
+          "course_codes": [
+            "FORE40034"
+          ],
+          "query_id": "FORUM-Q-DD00F9AFBF96F63610AC"
+        }
+      ],
+      "full_floor_text_read": true,
+      "hole_context_examined": true,
+      "context_scope": "候选楼层全文已读；核对洞主楼层与同洞课程/教师相关回复。未逐字阅读同洞无关楼层。",
+      "decision": "exclude",
+      "adopted": false,
+      "reason": "已通读楼层并核对同洞上下文；内容仅为课程名提及、泛泛观点或缺少第一手修课/考核/任务/成绩信息，无法作课程体验证据。",
+      "related_evidence_floor_ids": []
+    },
+    {
+      "floor_id": 3382546,
+      "hole_id": 371130,
+      "course_matches": [
+        {
+          "course_name": "女性主义文学",
+          "course_codes": [
+            "FORE60005"
+          ],
+          "query_id": "FORUM-Q-6562616ED57D5E41C82B"
+        }
+      ],
+      "full_floor_text_read": true,
+      "hole_context_examined": true,
+      "context_scope": "候选楼层全文已读；核对洞主楼层与同洞课程/教师相关回复。未逐字阅读同洞无关楼层。",
+      "decision": "exclude",
+      "adopted": false,
+      "reason": "询问中文系女性主义文学课程，与目标范围无关。",
+      "related_evidence_floor_ids": []
+    },
+    {
+      "floor_id": 3400190,
+      "hole_id": 373127,
+      "course_matches": [
+        {
+          "course_name": "莎士比亚作品撷英",
+          "course_codes": [
+            "GECC10045"
+          ],
+          "query_id": "FORUM-Q-67C6F4F71072E8B02488"
+        }
+      ],
+      "full_floor_text_read": true,
+      "hole_context_examined": true,
+      "context_scope": "候选楼层全文已读；核对洞主楼层与同洞课程/教师相关回复。未逐字阅读同洞无关楼层。",
+      "decision": "exclude",
+      "adopted": false,
+      "reason": "询问莎士比亚作品撷英期末内容，非评价。",
+      "related_evidence_floor_ids": []
+    },
+    {
+      "floor_id": 3406599,
+      "hole_id": 373923,
+      "course_matches": [
+        {
+          "course_name": "莎士比亚作品撷英",
+          "course_codes": [
+            "GECC10045"
+          ],
+          "query_id": "FORUM-Q-67C6F4F71072E8B02488"
+        }
+      ],
+      "full_floor_text_read": true,
+      "hole_context_examined": true,
+      "context_scope": "候选楼层全文已读；核对洞主楼层与同洞课程/教师相关回复。未逐字阅读同洞无关楼层。",
+      "decision": "exclude",
+      "adopted": false,
+      "reason": "询问期末复习，非课程评价。",
+      "related_evidence_floor_ids": []
+    },
+    {
+      "floor_id": 3451389,
+      "hole_id": 379353,
+      "course_matches": [
+        {
+          "course_name": "莎士比亚作品撷英",
+          "course_codes": [
+            "GECC10045"
+          ],
+          "query_id": "FORUM-Q-67C6F4F71072E8B02488"
+        }
+      ],
+      "full_floor_text_read": true,
+      "hole_context_examined": true,
+      "context_scope": "候选楼层全文已读；核对洞主楼层与同洞课程/教师相关回复。未逐字阅读同洞无关楼层。",
+      "decision": "adopt",
+      "adopted": true,
+      "reason": "在模块课推荐讨论中列出莎士比亚作品撷英有三次小组pre和期末考试；仅保留作业/考核信息，不作成绩评价。",
+      "related_evidence_floor_ids": []
+    },
+    {
+      "floor_id": 3453773,
+      "hole_id": 379868,
+      "course_matches": [
+        {
+          "course_name": "跨文化交际",
+          "course_codes": [
+            "FORE20028"
+          ],
+          "query_id": "FORUM-Q-A011CD1FCF15BE9B8673"
+        }
+      ],
+      "full_floor_text_read": true,
+      "hole_context_examined": true,
+      "context_scope": "候选楼层全文已读；核对洞主楼层与同洞课程/教师相关回复。未逐字阅读同洞无关楼层。",
+      "decision": "exclude",
+      "adopted": false,
+      "reason": "詢问跨文化交际教师/课程给分与任务，无修课评价；同洞3453794谈的是教师另一门课，不移用。",
+      "related_evidence_floor_ids": []
+    },
+    {
+      "floor_id": 3476179,
+      "hole_id": 382558,
+      "course_matches": [
+        {
+          "course_name": "欧洲电影解析与实践",
+          "course_codes": [
+            "GECC10047"
+          ],
+          "query_id": "FORUM-Q-F1BEE21AA2CA7090F8F8"
+        }
+      ],
+      "full_floor_text_read": true,
+      "hole_context_examined": true,
+      "context_scope": "候选楼层全文已读；核对洞主楼层与同洞课程/教师相关回复。未逐字阅读同洞无关楼层。",
+      "decision": "exclude",
+      "adopted": false,
+      "reason": "询问欧洲电影闭卷考试，同洞3476184提供了考试建议，另列为低置信度信息。",
+      "related_evidence_floor_ids": [
+        3476184
+      ]
+    },
+    {
+      "floor_id": 3489315,
+      "hole_id": 382202,
+      "course_matches": [
+        {
+          "course_name": "英语演讲",
+          "course_codes": [
+            "FORE10012"
+          ],
+          "query_id": "FORUM-Q-8EB0AF1BC955E6222127"
+        }
+      ],
+      "full_floor_text_read": true,
+      "hole_context_examined": true,
+      "context_scope": "候选楼层全文已读；核对洞主楼层与同洞课程/教师相关回复。未逐字阅读同洞无关楼层。",
+      "decision": "exclude",
+      "adopted": false,
+      "reason": "期末日程中提到英语演讲稿，非目标课程评价。",
+      "related_evidence_floor_ids": []
+    },
+    {
+      "floor_id": 3510878,
+      "hole_id": 386793,
+      "course_matches": [
+        {
+          "course_name": "学术写作",
+          "course_codes": [
+            "FORE30054"
+          ],
+          "query_id": "FORUM-Q-94F2EEEF9F2E22D29718"
+        }
+      ],
+      "full_floor_text_read": true,
+      "hole_context_examined": true,
+      "context_scope": "候选楼层全文已读；核对洞主楼层与同洞课程/教师相关回复。未逐字阅读同洞无关楼层。",
+      "decision": "exclude",
+      "adopted": false,
+      "reason": "整洞根帖是学术英语综合，不能映射到学术写作。",
+      "related_evidence_floor_ids": []
+    },
+    {
+      "floor_id": 3528351,
+      "hole_id": 389299,
+      "course_matches": [
+        {
+          "course_name": "英语辩论",
+          "course_codes": [
+            "FORE20025"
+          ],
+          "query_id": "FORUM-Q-23B3D0F0A7DB79BA7FF5"
+        }
+      ],
+      "full_floor_text_read": true,
+      "hole_context_examined": true,
+      "context_scope": "候选楼层全文已读；核对洞主楼层与同洞课程/教师相关回复。未逐字阅读同洞无关楼层。",
+      "decision": "adopt",
+      "adopted": true,
+      "reason": "作者明确自述上过英语辩论课，并对课堂表现与口音提出观察；仅作为有限课程体验。",
+      "related_evidence_floor_ids": [],
+      "evidence_record_id": 3528351
+    },
+    {
+      "floor_id": 3538632,
+      "hole_id": 390635,
+      "course_matches": [
+        {
+          "course_name": "英语演讲",
+          "course_codes": [
+            "FORE10012"
+          ],
+          "query_id": "FORUM-Q-8EB0AF1BC955E6222127"
+        }
+      ],
+      "full_floor_text_read": true,
+      "hole_context_examined": true,
+      "context_scope": "候选楼层全文已读；核对洞主楼层与同洞课程/教师相关回复。未逐字阅读同洞无关楼层。",
+      "decision": "exclude",
+      "adopted": false,
+      "reason": "询问静音室能否录英语，没有课程语境。",
+      "related_evidence_floor_ids": []
+    },
+    {
+      "floor_id": 3541525,
+      "hole_id": 391016,
+      "course_matches": [
+        {
+          "course_name": "跨文化交际",
+          "course_codes": [
+            "FORE20028"
+          ],
+          "query_id": "FORUM-Q-A011CD1FCF15BE9B8673"
+        }
+      ],
+      "full_floor_text_read": true,
+      "hole_context_examined": true,
+      "context_scope": "候选楼层全文已读；核对洞主楼层与同洞课程/教师相关回复。未逐字阅读同洞无关楼层。",
+      "decision": "exclude",
+      "adopted": false,
+      "reason": "比较两门课程的提问，未提供课程体验。",
+      "related_evidence_floor_ids": []
+    },
+    {
+      "floor_id": 3546827,
+      "hole_id": 391721,
+      "course_matches": [
+        {
+          "course_name": "语言学概论",
+          "course_codes": [
+            "FORE10029"
+          ],
+          "query_id": "FORUM-Q-482A05E0F52E232EEF5D"
+        }
+      ],
+      "full_floor_text_read": true,
+      "hole_context_examined": true,
+      "context_scope": "候选楼层全文已读；核对洞主楼层与同洞课程/教师相关回复。未逐字阅读同洞无关楼层。",
+      "decision": "exclude",
+      "adopted": false,
+      "reason": "求英专语言学概论期末试题，无体验。",
+      "related_evidence_floor_ids": []
+    },
+    {
+      "floor_id": 3555665,
+      "hole_id": 392736,
+      "course_matches": [
+        {
+          "course_name": "英国中世纪文学与文化",
+          "course_codes": [
+            "GECC10048"
+          ],
+          "query_id": "FORUM-Q-9D945CDD33A3B1AC084A"
+        }
+      ],
+      "full_floor_text_read": true,
+      "hole_context_examined": true,
+      "context_scope": "候选楼层全文已读；核对洞主楼层与同洞课程/教师相关回复。未逐字阅读同洞无关楼层。",
+      "decision": "exclude",
+      "adopted": false,
+      "reason": "该楼层提问；同洞3698356提供具体课程体验，另列证据。",
+      "related_evidence_floor_ids": [
+        3698356
+      ]
+    },
+    {
+      "floor_id": 3569326,
+      "hole_id": 394041,
+      "course_matches": [
+        {
+          "course_name": "语言学概论",
+          "course_codes": [
+            "FORE10029"
+          ],
+          "query_id": "FORUM-Q-482A05E0F52E232EEF5D"
+        }
+      ],
+      "full_floor_text_read": true,
+      "hole_context_examined": true,
+      "context_scope": "候选楼层全文已读；核对洞主楼层与同洞课程/教师相关回复。未逐字阅读同洞无关楼层。",
+      "decision": "exclude",
+      "adopted": false,
+      "reason": "求课程试题，无课程体验。",
+      "related_evidence_floor_ids": []
+    },
+    {
+      "floor_id": 3659033,
+      "hole_id": 403125,
+      "course_matches": [
+        {
+          "course_name": "日本文学文化",
+          "course_codes": [
+            "GEEC20006"
+          ],
+          "query_id": "FORUM-Q-487E5C6E3266CE5C39CC"
+        }
+      ],
+      "full_floor_text_read": true,
+      "hole_context_examined": true,
+      "context_scope": "候选楼层全文已读；核对洞主楼层与同洞课程/教师相关回复。未逐字阅读同洞无关楼层。",
+      "decision": "adopt",
+      "adopted": true,
+      "reason": "同洞围绕日本文学文化课程给分讨论，楼层自述得A；只作为单个历史成绩结果。",
+      "related_evidence_floor_ids": [],
+      "evidence_record_id": 3659033
+    },
+    {
+      "floor_id": 3659465,
+      "hole_id": 403160,
+      "course_matches": [
+        {
+          "course_name": "跨文化交际",
+          "course_codes": [
+            "FORE20028"
+          ],
+          "query_id": "FORUM-Q-A011CD1FCF15BE9B8673"
+        }
+      ],
+      "full_floor_text_read": true,
+      "hole_context_examined": true,
+      "context_scope": "候选楼层全文已读；核对洞主楼层与同洞课程/教师相关回复。未逐字阅读同洞无关楼层。",
+      "decision": "exclude",
+      "adopted": false,
+      "reason": "楼层以提问、选课咨询或行政求助为主，没有提供发帖者本人的课程体验；已查看同洞相关回复，若回复仅给出无依据短答则不作为证据。",
+      "related_evidence_floor_ids": [
+        3659587
+      ]
+    },
+    {
+      "floor_id": 3688170,
+      "hole_id": 405507,
+      "course_matches": [
+        {
+          "course_name": "基础韩语I",
+          "course_codes": [
+            "GESF10008"
+          ],
+          "query_id": "FORUM-Q-8E509686B65B572D2C3D"
+        }
+      ],
+      "full_floor_text_read": true,
+      "hole_context_examined": true,
+      "context_scope": "候选楼层全文已读；核对洞主楼层与同洞课程/教师相关回复。未逐字阅读同洞无关楼层。",
+      "decision": "exclude",
+      "adopted": false,
+      "reason": "已通读楼层并核对同洞上下文；内容仅为课程名提及、泛泛观点或缺少第一手修课/考核/任务/成绩信息，无法作课程体验证据。",
+      "related_evidence_floor_ids": [
+        3688569
+      ]
+    },
+    {
+      "floor_id": 3702411,
+      "hole_id": 406734,
+      "course_matches": [
+        {
+          "course_name": "莎士比亚作品撷英",
+          "course_codes": [
+            "GECC10045"
+          ],
+          "query_id": "FORUM-Q-67C6F4F71072E8B02488"
+        }
+      ],
+      "full_floor_text_read": true,
+      "hole_context_examined": true,
+      "context_scope": "候选楼层全文已读；核对洞主楼层与同洞课程/教师相关回复。未逐字阅读同洞无关楼层。",
+      "decision": "adopt",
+      "adopted": true,
+      "reason": "完整第一手推荐，明确ZJS与莎士比亚作品撷英同现，描述课程内容、课堂氛围与给分感受。",
+      "related_evidence_floor_ids": [],
+      "evidence_record_id": 3702411
+    },
+    {
+      "floor_id": 3706541,
+      "hole_id": 407111,
+      "course_matches": [
+        {
+          "course_name": "学术写作",
+          "course_codes": [
+            "FORE30054"
+          ],
+          "query_id": "FORUM-Q-94F2EEEF9F2E22D29718"
+        }
+      ],
+      "full_floor_text_read": true,
+      "hole_context_examined": true,
+      "context_scope": "候选楼层全文已读；核对洞主楼层与同洞课程/教师相关回复。未逐字阅读同洞无关楼层。",
+      "decision": "exclude",
+      "adopted": false,
+      "reason": "已通读楼层并核对同洞上下文；内容仅为课程名提及、泛泛观点或缺少第一手修课/考核/任务/成绩信息，无法作课程体验证据。",
+      "related_evidence_floor_ids": []
+    },
+    {
+      "floor_id": 3784499,
+      "hole_id": 413596,
+      "course_matches": [
+        {
+          "course_name": "跨文化交际",
+          "course_codes": [
+            "FORE20028"
+          ],
+          "query_id": "FORUM-Q-A011CD1FCF15BE9B8673"
+        }
+      ],
+      "full_floor_text_read": true,
+      "hole_context_examined": true,
+      "context_scope": "候选楼层全文已读；核对洞主楼层与同洞课程/教师相关回复。未逐字阅读同洞无关楼层。",
+      "decision": "exclude",
+      "adopted": false,
+      "reason": "询问跨文化交际给分/选课，无体验。",
+      "related_evidence_floor_ids": []
+    },
+    {
+      "floor_id": 3784897,
+      "hole_id": 414343,
+      "course_matches": [
+        {
+          "course_name": "欧洲电影解析与实践",
+          "course_codes": [
+            "GECC10047"
+          ],
+          "query_id": "FORUM-Q-F1BEE21AA2CA7090F8F8"
+        }
+      ],
+      "full_floor_text_read": true,
+      "hole_context_examined": true,
+      "context_scope": "候选楼层全文已读；核对洞主楼层与同洞课程/教师相关回复。未逐字阅读同洞无关楼层。",
+      "decision": "adopt",
+      "adopted": true,
+      "reason": "作者明确称曾上过“他的欧洲电影解析与实践”，并评价pre要求和授课风格；不映射具体教师姓名。",
+      "related_evidence_floor_ids": [],
+      "evidence_record_id": 3784897
+    },
+    {
+      "floor_id": 3784906,
+      "hole_id": 414382,
+      "course_matches": [
+        {
+          "course_name": "世界文学导读",
+          "course_codes": [
+            "FORE10006"
+          ],
+          "query_id": "FORUM-Q-53991EEAA346A57D09AF"
+        }
+      ],
+      "full_floor_text_read": true,
+      "hole_context_examined": true,
+      "context_scope": "候选楼层全文已读；核对洞主楼层与同洞课程/教师相关回复。未逐字阅读同洞无关楼层。",
+      "decision": "exclude",
+      "adopted": false,
+      "reason": "已通读楼层并核对同洞上下文；内容仅为课程名提及、泛泛观点或缺少第一手修课/考核/任务/成绩信息，无法作课程体验证据。",
+      "related_evidence_floor_ids": []
+    },
+    {
+      "floor_id": 3793000,
+      "hole_id": 415873,
+      "course_matches": [
+        {
+          "course_name": "阿拉伯伊斯兰文化",
+          "course_codes": [
+            "GEEC10159"
+          ],
+          "query_id": "FORUM-Q-9061B25B595F6B011929"
+        }
+      ],
+      "full_floor_text_read": true,
+      "hole_context_examined": true,
+      "context_scope": "候选楼层全文已读；核对洞主楼层与同洞课程/教师相关回复。未逐字阅读同洞无关楼层。",
+      "decision": "exclude",
+      "adopted": false,
+      "reason": "楼层以提问、选课咨询或行政求助为主，没有提供发帖者本人的课程体验；已查看同洞相关回复，若回复仅给出无依据短答则不作为证据。",
+      "related_evidence_floor_ids": []
+    },
+    {
+      "floor_id": 3793594,
+      "hole_id": 415988,
+      "course_matches": [
+        {
+          "course_name": "跨文化交际",
+          "course_codes": [
+            "FORE20028"
+          ],
+          "query_id": "FORUM-Q-A011CD1FCF15BE9B8673"
+        }
+      ],
+      "full_floor_text_read": true,
+      "hole_context_examined": true,
+      "context_scope": "候选楼层全文已读；核对洞主楼层与同洞课程/教师相关回复。未逐字阅读同洞无关楼层。",
+      "decision": "exclude",
+      "adopted": false,
+      "reason": "刚换课后询问任务安排，无课程体验。",
+      "related_evidence_floor_ids": []
+    },
+    {
+      "floor_id": 3798526,
+      "hole_id": 416869,
+      "course_matches": [
+        {
+          "course_name": "英美短篇小说",
+          "course_codes": [
+            "FORE50016"
+          ],
+          "query_id": "FORUM-Q-B2489BCE74BA052820D4"
+        }
+      ],
+      "full_floor_text_read": true,
+      "hole_context_examined": true,
+      "context_scope": "候选楼层全文已读；核对洞主楼层与同洞课程/教师相关回复。未逐字阅读同洞无关楼层。",
+      "decision": "exclude",
+      "adopted": false,
+      "reason": "询问英美短篇小说课程情况，无个人修课经验。",
+      "related_evidence_floor_ids": []
+    },
+    {
+      "floor_id": 3799941,
+      "hole_id": 417146,
+      "course_matches": [
+        {
+          "course_name": "跨文化交际",
+          "course_codes": [
+            "FORE20028"
+          ],
+          "query_id": "FORUM-Q-A011CD1FCF15BE9B8673"
+        }
+      ],
+      "full_floor_text_read": true,
+      "hole_context_examined": true,
+      "context_scope": "候选楼层全文已读；核对洞主楼层与同洞课程/教师相关回复。未逐字阅读同洞无关楼层。",
+      "decision": "exclude",
+      "adopted": false,
+      "reason": "询问课程群，无体验。",
+      "related_evidence_floor_ids": []
+    },
+    {
+      "floor_id": 3815441,
+      "hole_id": 419202,
+      "course_matches": [
+        {
+          "course_name": "英国文学史",
+          "course_codes": [
+            "FORE20032"
+          ],
+          "query_id": "FORUM-Q-F129DCF2FDE83E70CFA4"
+        }
+      ],
+      "full_floor_text_read": true,
+      "hole_context_examined": true,
+      "context_scope": "候选楼层全文已读；核对洞主楼层与同洞课程/教师相关回复。未逐字阅读同洞无关楼层。",
+      "decision": "exclude",
+      "adopted": false,
+      "reason": "旁听咨询；同洞4340636针对SGX英国文学史提供历史评价，记录在对应候选。",
+      "related_evidence_floor_ids": []
+    },
+    {
+      "floor_id": 3825480,
+      "hole_id": 420599,
+      "course_matches": [
+        {
+          "course_name": "日语语音学",
+          "course_codes": [
+            "FORE20021"
+          ],
+          "query_id": "FORUM-Q-84D08B7DCA05F10F3914"
+        }
+      ],
+      "full_floor_text_read": true,
+      "hole_context_examined": true,
+      "context_scope": "候选楼层全文已读；核对洞主楼层与同洞课程/教师相关回复。未逐字阅读同洞无关楼层。",
+      "decision": "exclude",
+      "adopted": false,
+      "reason": "询问日语语音学给分，没有体验。",
+      "related_evidence_floor_ids": []
+    },
+    {
+      "floor_id": 3829159,
+      "hole_id": 421035,
+      "course_matches": [
+        {
+          "course_name": "演讲的艺术",
+          "course_codes": [
+            "TS50002"
+          ],
+          "query_id": "FORUM-Q-032CA5A61B12E1ECDFD4"
+        }
+      ],
+      "full_floor_text_read": true,
+      "hole_context_examined": true,
+      "context_scope": "候选楼层全文已读；核对洞主楼层与同洞课程/教师相关回复。未逐字阅读同洞无关楼层。",
+      "decision": "exclude",
+      "adopted": false,
+      "reason": "要借演讲的艺术教材，不是课程反馈。",
+      "related_evidence_floor_ids": []
+    },
+    {
+      "floor_id": 3883148,
+      "hole_id": 426515,
+      "course_matches": [
+        {
+          "course_name": "德语语法",
+          "course_codes": [
+            "FORE20050"
+          ],
+          "query_id": "FORUM-Q-26C16390D217D9153D35"
+        }
+      ],
+      "full_floor_text_read": true,
+      "hole_context_examined": true,
+      "context_scope": "候选楼层全文已读；核对洞主楼层与同洞课程/教师相关回复。未逐字阅读同洞无关楼层。",
+      "decision": "exclude",
+      "adopted": false,
+      "reason": "德语课摸鱼的玩笑句，没评价课程。",
+      "related_evidence_floor_ids": []
+    },
+    {
+      "floor_id": 3914069,
+      "hole_id": 429722,
+      "course_matches": [
+        {
+          "course_name": "跨文化交际",
+          "course_codes": [
+            "FORE20028"
+          ],
+          "query_id": "FORUM-Q-A011CD1FCF15BE9B8673"
+        }
+      ],
+      "full_floor_text_read": true,
+      "hole_context_examined": true,
+      "context_scope": "候选楼层全文已读；核对洞主楼层与同洞课程/教师相关回复。未逐字阅读同洞无关楼层。",
+      "decision": "exclude",
+      "adopted": false,
+      "reason": "询问SLN个人pre日期，无评价。",
+      "related_evidence_floor_ids": []
+    },
+    {
+      "floor_id": 3920003,
+      "hole_id": 430331,
+      "course_matches": [
+        {
+          "course_name": "跨文化交际",
+          "course_codes": [
+            "FORE20028"
+          ],
+          "query_id": "FORUM-Q-A011CD1FCF15BE9B8673"
+        }
+      ],
+      "full_floor_text_read": true,
+      "hole_context_examined": true,
+      "context_scope": "候选楼层全文已读；核对洞主楼层与同洞课程/教师相关回复。未逐字阅读同洞无关楼层。",
+      "decision": "exclude",
+      "adopted": false,
+      "reason": "询问跨文化交际pre周次，无评价。",
+      "related_evidence_floor_ids": []
+    },
+    {
+      "floor_id": 3931176,
+      "hole_id": 431468,
+      "course_matches": [
+        {
+          "course_name": "莎士比亚作品撷英",
+          "course_codes": [
+            "GECC10045"
+          ],
+          "query_id": "FORUM-Q-67C6F4F71072E8B02488"
+        }
+      ],
+      "full_floor_text_read": true,
+      "hole_context_examined": true,
+      "context_scope": "候选楼层全文已读；核对洞主楼层与同洞课程/教师相关回复。未逐字阅读同洞无关楼层。",
+      "decision": "exclude",
+      "adopted": false,
+      "reason": "询问莎士比亚作品撷英请假扣分，回复是未经说明的推测。",
+      "related_evidence_floor_ids": []
+    },
+    {
+      "floor_id": 3992043,
+      "hole_id": 436901,
+      "course_matches": [
+        {
+          "course_name": "基础日语I",
+          "course_codes": [
+            "GESF10007"
+          ],
+          "query_id": "FORUM-Q-44D29BF4C6F83A2D50A6"
+        }
+      ],
+      "full_floor_text_read": true,
+      "hole_context_examined": true,
+      "context_scope": "候选楼层全文已读；核对洞主楼层与同洞课程/教师相关回复。未逐字阅读同洞无关楼层。",
+      "decision": "exclude",
+      "adopted": false,
+      "reason": "询问基础日语I求P难度；同洞3992123仅一句“容易/无作业”，另列弱参考。",
+      "related_evidence_floor_ids": [
+        3992123
+      ]
+    },
+    {
+      "floor_id": 4123906,
+      "hole_id": 449755,
+      "course_matches": [
+        {
+          "course_name": "跨文化交际",
+          "course_codes": [
+            "FORE20028"
+          ],
+          "query_id": "FORUM-Q-A011CD1FCF15BE9B8673"
+        }
+      ],
+      "full_floor_text_read": true,
+      "hole_context_examined": true,
+      "context_scope": "候选楼层全文已读；核对洞主楼层与同洞课程/教师相关回复。未逐字阅读同洞无关楼层。",
+      "decision": "exclude",
+      "adopted": false,
+      "reason": "询问跨文化交际访谈怎么找留学生，属于作业求助。",
+      "related_evidence_floor_ids": []
+    },
+    {
+      "floor_id": 4153125,
+      "hole_id": 452499,
+      "course_matches": [
+        {
+          "course_name": "跨文化交际",
+          "course_codes": [
+            "FORE20028"
+          ],
+          "query_id": "FORUM-Q-A011CD1FCF15BE9B8673"
+        }
+      ],
+      "full_floor_text_read": true,
+      "hole_context_examined": true,
+      "context_scope": "候选楼层全文已读；核对洞主楼层与同洞课程/教师相关回复。未逐字阅读同洞无关楼层。",
+      "decision": "exclude",
+      "adopted": false,
+      "reason": "询问pre时间，非课程评价。",
+      "related_evidence_floor_ids": []
+    },
+    {
+      "floor_id": 4194591,
+      "hole_id": 457095,
+      "course_matches": [
+        {
+          "course_name": "莎士比亚作品撷英",
+          "course_codes": [
+            "GECC10045"
+          ],
+          "query_id": "FORUM-Q-67C6F4F71072E8B02488"
+        }
+      ],
+      "full_floor_text_read": true,
+      "hole_context_examined": true,
+      "context_scope": "候选楼层全文已读；核对洞主楼层与同洞课程/教师相关回复。未逐字阅读同洞无关楼层。",
+      "decision": "adopt",
+      "adopted": true,
+      "reason": "楼层明确称朱老师的莎士比亚作品撷英，描述平时任务和期末考试；同洞另一回复提zjs，但实名映射未核实。",
+      "related_evidence_floor_ids": [],
+      "evidence_record_id": 4194591
+    },
+    {
+      "floor_id": 4195613,
+      "hole_id": 457363,
+      "course_matches": [
+        {
+          "course_name": "莎士比亚作品撷英",
+          "course_codes": [
+            "GECC10045"
+          ],
+          "query_id": "FORUM-Q-67C6F4F71072E8B02488"
+        }
+      ],
+      "full_floor_text_read": true,
+      "hole_context_examined": true,
+      "context_scope": "候选楼层全文已读；核对洞主楼层与同洞课程/教师相关回复。未逐字阅读同洞无关楼层。",
+      "decision": "exclude",
+      "adopted": false,
+      "reason": "询问莎士比亚作品撷英课程体验/给分，没有本人经历。",
+      "related_evidence_floor_ids": []
+    },
+    {
+      "floor_id": 4196200,
+      "hole_id": 457454,
+      "course_matches": [
+        {
+          "course_name": "莎士比亚作品撷英",
+          "course_codes": [
+            "GECC10045"
+          ],
+          "query_id": "FORUM-Q-67C6F4F71072E8B02488"
+        }
+      ],
+      "full_floor_text_read": true,
+      "hole_context_examined": true,
+      "context_scope": "候选楼层全文已读；核对洞主楼层与同洞课程/教师相关回复。未逐字阅读同洞无关楼层。",
+      "decision": "exclude",
+      "adopted": false,
+      "reason": "已通读楼层并核对同洞上下文；内容仅为课程名提及、泛泛观点或缺少第一手修课/考核/任务/成绩信息，无法作课程体验证据。",
+      "related_evidence_floor_ids": [
+        4196270
+      ]
+    },
+    {
+      "floor_id": 4204383,
+      "hole_id": 458394,
+      "course_matches": [
+        {
+          "course_name": "跨文化交际",
+          "course_codes": [
+            "FORE20028"
+          ],
+          "query_id": "FORUM-Q-A011CD1FCF15BE9B8673"
+        }
+      ],
+      "full_floor_text_read": true,
+      "hole_context_examined": true,
+      "context_scope": "候选楼层全文已读；核对洞主楼层与同洞课程/教师相关回复。未逐字阅读同洞无关楼层。",
+      "decision": "exclude",
+      "adopted": false,
+      "reason": "询问考试地点，课程行政信息。",
+      "related_evidence_floor_ids": []
+    },
+    {
+      "floor_id": 4215247,
+      "hole_id": 459790,
+      "course_matches": [
+        {
+          "course_name": "莎士比亚作品撷英",
+          "course_codes": [
+            "GECC10045"
+          ],
+          "query_id": "FORUM-Q-67C6F4F71072E8B02488"
+        }
+      ],
+      "full_floor_text_read": true,
+      "hole_context_examined": true,
+      "context_scope": "候选楼层全文已读；核对洞主楼层与同洞课程/教师相关回复。未逐字阅读同洞无关楼层。",
+      "decision": "exclude",
+      "adopted": false,
+      "reason": "比较选课的提问，无课程体验。",
+      "related_evidence_floor_ids": []
+    },
+    {
+      "floor_id": 4243232,
+      "hole_id": 462921,
+      "course_matches": [
+        {
+          "course_name": "基础法语II",
+          "course_codes": [
+            "GESF20002"
+          ],
+          "query_id": "FORUM-Q-6C26C52330C11F1E4CF5"
+        }
+      ],
+      "full_floor_text_read": true,
+      "hole_context_examined": true,
+      "context_scope": "候选楼层全文已读；核对洞主楼层与同洞课程/教师相关回复。未逐字阅读同洞无关楼层。",
+      "decision": "adopt",
+      "adopted": true,
+      "reason": "作者刚考完基础法语II后自述考试吃力，询问PNP与给分；作为单次考试难度体验。",
+      "related_evidence_floor_ids": []
+    },
+    {
+      "floor_id": 4249619,
+      "hole_id": 463743,
+      "course_matches": [
+        {
+          "course_name": "英语语言史",
+          "course_codes": [
+            "FORE20029"
+          ],
+          "query_id": "FORUM-Q-32CBA01CF285DF8A0B5F"
+        }
+      ],
+      "full_floor_text_read": true,
+      "hole_context_examined": true,
+      "context_scope": "候选楼层全文已读；核对洞主楼层与同洞课程/教师相关回复。未逐字阅读同洞无关楼层。",
+      "decision": "exclude",
+      "adopted": false,
+      "reason": "已通读楼层并核对同洞上下文；内容仅为课程名提及、泛泛观点或缺少第一手修课/考核/任务/成绩信息，无法作课程体验证据。",
+      "related_evidence_floor_ids": [
+        4258305
+      ]
+    },
+    {
+      "floor_id": 4251639,
+      "hole_id": 463981,
+      "course_matches": [
+        {
+          "course_name": "日本文化史",
+          "course_codes": [
+            "FORE30023"
+          ],
+          "query_id": "FORUM-Q-C2A6832C4000E7401503"
+        },
+        {
+          "course_name": "日本概况",
+          "course_codes": [
+            "FORE20008"
+          ],
+          "query_id": "FORUM-Q-D388EA5DA2A7C9D0B7FE"
+        }
+      ],
+      "full_floor_text_read": true,
+      "hole_context_examined": true,
+      "context_scope": "候选楼层全文已读；核对洞主楼层与同洞课程/教师相关回复。未逐字阅读同洞无关楼层。",
+      "decision": "exclude",
+      "adopted": false,
+      "reason": "询问公共日语下课程论文语言，和目标日本文化史课程评价无关。",
+      "related_evidence_floor_ids": []
+    },
+    {
+      "floor_id": 4285126,
+      "hole_id": 467456,
+      "course_matches": [
+        {
+          "course_name": "跨文化交际",
+          "course_codes": [
+            "FORE20028"
+          ],
+          "query_id": "FORUM-Q-A011CD1FCF15BE9B8673"
+        }
+      ],
+      "full_floor_text_read": true,
+      "hole_context_examined": true,
+      "context_scope": "候选楼层全文已读；核对洞主楼层与同洞课程/教师相关回复。未逐字阅读同洞无关楼层。",
+      "decision": "exclude",
+      "adopted": false,
+      "reason": "询问跨文化交际考试复习，没有经验。",
+      "related_evidence_floor_ids": []
+    },
+    {
+      "floor_id": 4290682,
+      "hole_id": 468188,
+      "course_matches": [
+        {
+          "course_name": "跨文化交际",
+          "course_codes": [
+            "FORE20028"
+          ],
+          "query_id": "FORUM-Q-A011CD1FCF15BE9B8673"
+        }
+      ],
+      "full_floor_text_read": true,
+      "hole_context_examined": true,
+      "context_scope": "候选楼层全文已读；核对洞主楼层与同洞课程/教师相关回复。未逐字阅读同洞无关楼层。",
+      "decision": "exclude",
+      "adopted": false,
+      "reason": "P/NP选择疑问，无评价。",
+      "related_evidence_floor_ids": []
+    },
+    {
+      "floor_id": 4291851,
+      "hole_id": 468366,
+      "course_matches": [
+        {
+          "course_name": "跨文化交际",
+          "course_codes": [
+            "FORE20028"
+          ],
+          "query_id": "FORUM-Q-A011CD1FCF15BE9B8673"
+        }
+      ],
+      "full_floor_text_read": true,
+      "hole_context_examined": true,
+      "context_scope": "候选楼层全文已读；核对洞主楼层与同洞课程/教师相关回复。未逐字阅读同洞无关楼层。",
+      "decision": "exclude",
+      "adopted": false,
+      "reason": "询问外教跨文化交际给分；回复讨论的是另一门文化阅读课，排除课程错配。",
+      "related_evidence_floor_ids": []
+    },
+    {
+      "floor_id": 4293581,
+      "hole_id": 468623,
+      "course_matches": [
+        {
+          "course_name": "认知语言学",
+          "course_codes": [
+            "FORE70018"
+          ],
+          "query_id": "FORUM-Q-FF143E6783DE490B29CA"
+        }
+      ],
+      "full_floor_text_read": true,
+      "hole_context_examined": true,
+      "context_scope": "候选楼层全文已读；核对洞主楼层与同洞课程/教师相关回复。未逐字阅读同洞无关楼层。",
+      "decision": "exclude",
+      "adopted": false,
+      "reason": "已通读楼层并核对同洞上下文；内容仅为课程名提及、泛泛观点或缺少第一手修课/考核/任务/成绩信息，无法作课程体验证据。",
+      "related_evidence_floor_ids": []
+    },
+    {
+      "floor_id": 4298158,
+      "hole_id": 469137,
+      "course_matches": [
+        {
+          "course_name": "跨文化交际",
+          "course_codes": [
+            "FORE20028"
+          ],
+          "query_id": "FORUM-Q-A011CD1FCF15BE9B8673"
+        }
+      ],
+      "full_floor_text_read": true,
+      "hole_context_examined": true,
+      "context_scope": "候选楼层全文已读；核对洞主楼层与同洞课程/教师相关回复。未逐字阅读同洞无关楼层。",
+      "decision": "exclude",
+      "adopted": false,
+      "reason": "请求跨文化考试经验；同洞4298227给出自身拿A复习方法，另列弱证据。",
+      "related_evidence_floor_ids": [
+        4298227
+      ]
+    },
+    {
+      "floor_id": 4301255,
+      "hole_id": 469571,
+      "course_matches": [
+        {
+          "course_name": "跨文化交际",
+          "course_codes": [
+            "FORE20028"
+          ],
+          "query_id": "FORUM-Q-A011CD1FCF15BE9B8673"
+        }
+      ],
+      "full_floor_text_read": true,
+      "hole_context_examined": true,
+      "context_scope": "候选楼层全文已读；核对洞主楼层与同洞课程/教师相关回复。未逐字阅读同洞无关楼层。",
+      "decision": "exclude",
+      "adopted": false,
+      "reason": "问考试语言和字数，非课程体验。",
+      "related_evidence_floor_ids": []
+    },
+    {
+      "floor_id": 4324657,
+      "hole_id": 470413,
+      "course_matches": [
+        {
+          "course_name": "基础日语I",
+          "course_codes": [
+            "GESF10007"
+          ],
+          "query_id": "FORUM-Q-44D29BF4C6F83A2D50A6"
+        }
+      ],
+      "full_floor_text_read": true,
+      "hole_context_examined": true,
+      "context_scope": "候选楼层全文已读；核对洞主楼层与同洞课程/教师相关回复。未逐字阅读同洞无关楼层。",
+      "decision": "adopt",
+      "adopted": true,
+      "reason": "作者明确在基础日语I学习，并和II作比较，表达课程难度/水平体验；信息很有限。",
+      "related_evidence_floor_ids": []
+    },
+    {
+      "floor_id": 4340636,
+      "hole_id": 419202,
+      "course_matches": [
+        {
+          "course_name": "英国文学史",
+          "course_codes": [
+            "FORE20032"
+          ],
+          "query_id": "FORUM-Q-F129DCF2FDE83E70CFA4"
+        }
+      ],
+      "full_floor_text_read": true,
+      "hole_context_examined": true,
+      "context_scope": "候选楼层全文已读；核对洞主楼层与同洞课程/教师相关回复。未逐字阅读同洞无关楼层。",
+      "decision": "adopt",
+      "adopted": true,
+      "reason": "楼层明确评价SGX的英国文学史难度与给分；作为历史课程反馈采用，教师缩写不强行映射至现任教师。",
+      "related_evidence_floor_ids": [],
+      "evidence_record_id": 4340636
+    },
+    {
+      "floor_id": 4341723,
+      "hole_id": 474340,
+      "course_matches": [
+        {
+          "course_name": "英语演讲",
+          "course_codes": [
+            "FORE10012"
+          ],
+          "query_id": "FORUM-Q-8EB0AF1BC955E6222127"
+        }
+      ],
+      "full_floor_text_read": true,
+      "hole_context_examined": true,
+      "context_scope": "候选楼层全文已读；核对洞主楼层与同洞课程/教师相关回复。未逐字阅读同洞无关楼层。",
+      "decision": "exclude",
+      "adopted": false,
+      "reason": "同洞上下文确认是英语公众演说（Patrick），不归为英语演讲。",
+      "related_evidence_floor_ids": []
+    },
+    {
+      "floor_id": 4343874,
+      "hole_id": 474741,
+      "course_matches": [
+        {
+          "course_name": "欧洲电影解析与实践",
+          "course_codes": [
+            "GECC10047"
+          ],
+          "query_id": "FORUM-Q-F1BEE21AA2CA7090F8F8"
+        }
+      ],
+      "full_floor_text_read": true,
+      "hole_context_examined": true,
+      "context_scope": "候选楼层全文已读；核对洞主楼层与同洞课程/教师相关回复。未逐字阅读同洞无关楼层。",
+      "decision": "adopt",
+      "adopted": true,
+      "reason": "回答者明确说欧洲电影解析与实践有拍摄作业；作为单条课程任务信息，原帖主要在问课程安排。",
+      "related_evidence_floor_ids": []
+    },
+    {
+      "floor_id": 4366599,
+      "hole_id": 477274,
+      "course_matches": [
+        {
+          "course_name": "英国文学史",
+          "course_codes": [
+            "FORE20032"
+          ],
+          "query_id": "FORUM-Q-F129DCF2FDE83E70CFA4"
+        }
+      ],
+      "full_floor_text_read": true,
+      "hole_context_examined": true,
+      "context_scope": "候选楼层全文已读；核对洞主楼层与同洞课程/教师相关回复。未逐字阅读同洞无关楼层。",
+      "decision": "exclude",
+      "adopted": false,
+      "reason": "焦虑询问英国文学史去年成绩，没有本人体验；同洞短评信息不足。",
+      "related_evidence_floor_ids": []
+    },
+    {
+      "floor_id": 4411494,
+      "hole_id": 402785,
+      "course_matches": [
+        {
+          "course_name": "莎士比亚作品撷英",
+          "course_codes": [
+            "GECC10045"
+          ],
+          "query_id": "FORUM-Q-67C6F4F71072E8B02488"
+        },
+        {
+          "course_name": "语言学概论",
+          "course_codes": [
+            "FORE10029"
+          ],
+          "query_id": "FORUM-Q-482A05E0F52E232EEF5D"
+        }
+      ],
+      "full_floor_text_read": true,
+      "hole_context_examined": true,
+      "context_scope": "候选楼层全文已读；核对洞主楼层与同洞课程/教师相关回复。未逐字阅读同洞无关楼层。",
+      "decision": "adopt",
+      "adopted": true,
+      "reason": "第一人称详述莎士比亚作品撷英阅读、pre/讨论、考试与本人成绩；ZJS按原帖缩写保留。",
+      "related_evidence_floor_ids": [],
+      "evidence_record_id": 4411494
+    },
+    {
+      "floor_id": 4447063,
+      "hole_id": 485426,
+      "course_matches": [
+        {
+          "course_name": "莎士比亚作品撷英",
+          "course_codes": [
+            "GECC10045"
+          ],
+          "query_id": "FORUM-Q-67C6F4F71072E8B02488"
+        }
+      ],
+      "full_floor_text_read": true,
+      "hole_context_examined": true,
+      "context_scope": "候选楼层全文已读；核对洞主楼层与同洞课程/教师相关回复。未逐字阅读同洞无关楼层。",
+      "decision": "adopt",
+      "adopted": true,
+      "reason": "明确写“亲测”莎士比亚作品撷英任务少、给分好；保留为单个学生评价。",
+      "related_evidence_floor_ids": []
+    },
+    {
+      "floor_id": 4500353,
+      "hole_id": 489996,
+      "course_matches": [
+        {
+          "course_name": "同声传译",
+          "course_codes": [
+            "TS50007"
+          ],
+          "query_id": "FORUM-Q-5BDE72B22F90042E85C1"
+        }
+      ],
+      "full_floor_text_read": true,
+      "hole_context_examined": true,
+      "context_scope": "候选楼层全文已读；核对洞主楼层与同洞课程/教师相关回复。未逐字阅读同洞无关楼层。",
+      "decision": "exclude",
+      "adopted": false,
+      "reason": "旅行时问同声传译工具，非课程“同声传译”教学内容。",
+      "related_evidence_floor_ids": []
+    },
+    {
+      "floor_id": 4591235,
+      "hole_id": 500437,
+      "course_matches": [
+        {
+          "course_name": "文艺学",
+          "course_codes": [
+            "FORE40059"
+          ],
+          "query_id": "FORUM-Q-4317C3CEE14F47DCA46E"
+        }
+      ],
+      "full_floor_text_read": true,
+      "hole_context_examined": true,
+      "context_scope": "候选楼层全文已读；核对洞主楼层与同洞课程/教师相关回复。未逐字阅读同洞无关楼层。",
+      "decision": "exclude",
+      "adopted": false,
+      "reason": "已通读楼层并核对同洞上下文；内容仅为课程名提及、泛泛观点或缺少第一手修课/考核/任务/成绩信息，无法作课程体验证据。",
+      "related_evidence_floor_ids": []
+    },
+    {
+      "floor_id": 4595075,
+      "hole_id": 501037,
+      "course_matches": [
+        {
+          "course_name": "英语演讲",
+          "course_codes": [
+            "FORE10012"
+          ],
+          "query_id": "FORUM-Q-8EB0AF1BC955E6222127"
+        }
+      ],
+      "full_floor_text_read": true,
+      "hole_context_examined": true,
+      "context_scope": "候选楼层全文已读；核对洞主楼层与同洞课程/教师相关回复。未逐字阅读同洞无关楼层。",
+      "decision": "exclude",
+      "adopted": false,
+      "reason": "楼层以提问、选课咨询或行政求助为主，没有提供发帖者本人的课程体验；已查看同洞相关回复，若回复仅给出无依据短答则不作为证据。",
+      "related_evidence_floor_ids": []
+    },
+    {
+      "floor_id": 4608918,
+      "hole_id": 502931,
+      "course_matches": [
+        {
+          "course_name": "北欧电影",
+          "course_codes": [
+            "GEEC10146"
+          ],
+          "query_id": "FORUM-Q-BB419873597C8D867CA1"
+        }
+      ],
+      "full_floor_text_read": true,
+      "hole_context_examined": true,
+      "context_scope": "候选楼层全文已读；核对洞主楼层与同洞课程/教师相关回复。未逐字阅读同洞无关楼层。",
+      "decision": "exclude",
+      "adopted": false,
+      "reason": "楼层以提问、选课咨询或行政求助为主，没有提供发帖者本人的课程体验；已查看同洞相关回复，若回复仅给出无依据短答则不作为证据。",
+      "related_evidence_floor_ids": []
+    },
+    {
+      "floor_id": 4628533,
+      "hole_id": 503363,
+      "course_matches": [
+        {
+          "course_name": "英国文学史",
+          "course_codes": [
+            "FORE20032"
+          ],
+          "query_id": "FORUM-Q-F129DCF2FDE83E70CFA4"
+        }
+      ],
+      "full_floor_text_read": true,
+      "hole_context_examined": true,
+      "context_scope": "候选楼层全文已读；核对洞主楼层与同洞课程/教师相关回复。未逐字阅读同洞无关楼层。",
+      "decision": "exclude",
+      "adopted": false,
+      "reason": "转专业建议中的课程范围陈述，不是选课体验。",
+      "related_evidence_floor_ids": []
+    },
+    {
+      "floor_id": 4630609,
+      "hole_id": 506888,
+      "course_matches": [
+        {
+          "course_name": "语言学概论",
+          "course_codes": [
+            "FORE10029"
+          ],
+          "query_id": "FORUM-Q-482A05E0F52E232EEF5D"
+        }
+      ],
+      "full_floor_text_read": true,
+      "hole_context_examined": true,
+      "context_scope": "候选楼层全文已读；核对洞主楼层与同洞课程/教师相关回复。未逐字阅读同洞无关楼层。",
+      "decision": "exclude",
+      "adopted": false,
+      "reason": "询问中文系语言学概论老师推荐，无体验。",
+      "related_evidence_floor_ids": []
+    },
+    {
+      "floor_id": 4677341,
+      "hole_id": 513362,
+      "course_matches": [
+        {
+          "course_name": "日本文学文化",
+          "course_codes": [
+            "GEEC20006"
+          ],
+          "query_id": "FORUM-Q-487E5C6E3266CE5C39CC"
+        }
+      ],
+      "full_floor_text_read": true,
+      "hole_context_examined": true,
+      "context_scope": "候选楼层全文已读；核对洞主楼层与同洞课程/教师相关回复。未逐字阅读同洞无关楼层。",
+      "decision": "adopt",
+      "adopted": true,
+      "reason": "作者明确自述修过日本文学文化并很喜欢；虽称已绝版，作为历史课程体验保留。",
+      "related_evidence_floor_ids": []
+    },
+    {
+      "floor_id": 4680650,
+      "hole_id": 513874,
+      "course_matches": [
+        {
+          "course_name": "莎士比亚选读",
+          "course_codes": [
+            "FORE50015"
+          ],
+          "query_id": "FORUM-Q-4B566CED5C946F5E9255"
+        }
+      ],
+      "full_floor_text_read": true,
+      "hole_context_examined": true,
+      "context_scope": "候选楼层全文已读；核对洞主楼层与同洞课程/教师相关回复。未逐字阅读同洞无关楼层。",
+      "decision": "adopt",
+      "adopted": true,
+      "reason": "楼层明确谈到目标课程莎士比亚选读（FORE50015）和教师张琼；作者称课堂有趣、教师讲得好，但仍在开课阶段，担心后续考试。作为初期个人印象保留，不与莎士比亚作品撷英合并。",
+      "related_evidence_floor_ids": []
+    },
+    {
+      "floor_id": 4686664,
+      "hole_id": 514631,
+      "course_matches": [
+        {
+          "course_name": "欧洲电影解析与实践",
+          "course_codes": [
+            "GECC10047"
+          ],
+          "query_id": "FORUM-Q-F1BEE21AA2CA7090F8F8"
+        }
+      ],
+      "full_floor_text_read": true,
+      "hole_context_examined": true,
+      "context_scope": "候选楼层全文已读；核对洞主楼层与同洞课程/教师相关回复。未逐字阅读同洞无关楼层。",
+      "decision": "exclude",
+      "adopted": false,
+      "reason": "询问欧洲电影课签到，行政信息。",
+      "related_evidence_floor_ids": []
+    },
+    {
+      "floor_id": 4714177,
+      "hole_id": 517723,
+      "course_matches": [
+        {
+          "course_name": "语言学概论",
+          "course_codes": [
+            "FORE10029"
+          ],
+          "query_id": "FORUM-Q-482A05E0F52E232EEF5D"
+        }
+      ],
+      "full_floor_text_read": true,
+      "hole_context_examined": true,
+      "context_scope": "候选楼层全文已读；核对洞主楼层与同洞课程/教师相关回复。未逐字阅读同洞无关楼层。",
+      "decision": "exclude",
+      "adopted": false,
+      "reason": "询问英专语言学概论给分和考试，没有体验。",
+      "related_evidence_floor_ids": []
+    },
+    {
+      "floor_id": 4731168,
+      "hole_id": 519864,
+      "course_matches": [
+        {
+          "course_name": "基础韩语I",
+          "course_codes": [
+            "GESF10008"
+          ],
+          "query_id": "FORUM-Q-8E509686B65B572D2C3D"
+        }
+      ],
+      "full_floor_text_read": true,
+      "hole_context_examined": true,
+      "context_scope": "候选楼层全文已读；核对洞主楼层与同洞课程/教师相关回复。未逐字阅读同洞无关楼层。",
+      "decision": "exclude",
+      "adopted": false,
+      "reason": "询问基础韩语I作业，不是体验评价。",
+      "related_evidence_floor_ids": []
+    },
+    {
+      "floor_id": 4732835,
+      "hole_id": 520076,
+      "course_matches": [
+        {
+          "course_name": "基础德语I",
+          "course_codes": [
+            "GESF10009"
+          ],
+          "query_id": "FORUM-Q-CD1269901516C913100E"
+        }
+      ],
+      "full_floor_text_read": true,
+      "hole_context_examined": true,
+      "context_scope": "候选楼层全文已读；核对洞主楼层与同洞课程/教师相关回复。未逐字阅读同洞无关楼层。",
+      "decision": "exclude",
+      "adopted": false,
+      "reason": "询问基础德语I前两周教学和群聊，无体验评价。",
+      "related_evidence_floor_ids": []
+    },
+    {
+      "floor_id": 4746961,
+      "hole_id": 514009,
+      "course_matches": [
+        {
+          "course_name": "英国文学史",
+          "course_codes": [
+            "FORE20032"
+          ],
+          "query_id": "FORUM-Q-F129DCF2FDE83E70CFA4"
+        }
+      ],
+      "full_floor_text_read": true,
+      "hole_context_examined": true,
+      "context_scope": "候选楼层全文已读；核对洞主楼层与同洞课程/教师相关回复。未逐字阅读同洞无关楼层。",
+      "decision": "exclude",
+      "adopted": false,
+      "reason": "询问英国文学史考试形式，没有本人经验。",
+      "related_evidence_floor_ids": []
+    },
+    {
+      "floor_id": 4845215,
+      "hole_id": 531927,
+      "course_matches": [
+        {
+          "course_name": "欧洲电影解析与实践",
+          "course_codes": [
+            "GECC10047"
+          ],
+          "query_id": "FORUM-Q-F1BEE21AA2CA7090F8F8"
+        }
+      ],
+      "full_floor_text_read": true,
+      "hole_context_examined": true,
+      "context_scope": "候选楼层全文已读；核对洞主楼层与同洞课程/教师相关回复。未逐字阅读同洞无关楼层。",
+      "decision": "adopt",
+      "adopted": true,
+      "reason": "完整第一人称负面体验，具体描述欧洲电影课课时、签到、考试、拍摄、小组pre及周末讨论负担。",
+      "related_evidence_floor_ids": [],
+      "evidence_record_id": 4845215
+    },
+    {
+      "floor_id": 4949714,
+      "hole_id": 527637,
+      "course_matches": [
+        {
+          "course_name": "文艺学",
+          "course_codes": [
+            "FORE40059"
+          ],
+          "query_id": "FORUM-Q-4317C3CEE14F47DCA46E"
+        }
+      ],
+      "full_floor_text_read": true,
+      "hole_context_examined": true,
+      "context_scope": "候选楼层全文已读；核对洞主楼层与同洞课程/教师相关回复。未逐字阅读同洞无关楼层。",
+      "decision": "exclude",
+      "adopted": false,
+      "reason": "中文系保研方向讨论，课程词“文艺学”与目标范围无关。",
+      "related_evidence_floor_ids": []
+    },
+    {
+      "floor_id": 4952742,
+      "hole_id": 529254,
+      "course_matches": [
+        {
+          "course_name": "英国文学史",
+          "course_codes": [
+            "FORE20032"
+          ],
+          "query_id": "FORUM-Q-F129DCF2FDE83E70CFA4"
+        }
+      ],
+      "full_floor_text_read": true,
+      "hole_context_examined": true,
+      "context_scope": "候选楼层全文已读；核对洞主楼层与同洞课程/教师相关回复。未逐字阅读同洞无关楼层。",
+      "decision": "adopt",
+      "adopted": true,
+      "reason": "整洞原帖标题是英国文学史（SGX），回复列出测验/期末形式并比较上、下册；按历史课程序列信息采用，不归到现任教师。",
+      "related_evidence_floor_ids": [],
+      "evidence_record_id": 4952742
+    },
+    {
+      "floor_id": 5017787,
+      "hole_id": 552723,
+      "course_matches": [
+        {
+          "course_name": "莎士比亚作品撷英",
+          "course_codes": [
+            "GECC10045"
+          ],
+          "query_id": "FORUM-Q-67C6F4F71072E8B02488"
+        }
+      ],
+      "full_floor_text_read": true,
+      "hole_context_examined": true,
+      "context_scope": "候选楼层全文已读；核对洞主楼层与同洞课程/教师相关回复。未逐字阅读同洞无关楼层。",
+      "decision": "exclude",
+      "adopted": false,
+      "reason": "请求出售莎士比亚作品撷英期末题，虽证实老师原帖写法，但没有课程体验。",
+      "related_evidence_floor_ids": []
+    },
+    {
+      "floor_id": 5037422,
+      "hole_id": 554782,
+      "course_matches": [
+        {
+          "course_name": "欧洲电影解析与实践",
+          "course_codes": [
+            "GECC10047"
+          ],
+          "query_id": "FORUM-Q-F1BEE21AA2CA7090F8F8"
+        }
+      ],
+      "full_floor_text_read": true,
+      "hole_context_examined": true,
+      "context_scope": "候选楼层全文已读；核对洞主楼层与同洞课程/教师相关回复。未逐字阅读同洞无关楼层。",
+      "decision": "exclude",
+      "adopted": false,
+      "reason": "询问欧洲电影给分；答复只有“给分挺好”，无自述、依据或班次，未采。",
+      "related_evidence_floor_ids": []
+    },
+    {
+      "floor_id": 5047758,
+      "hole_id": 556129,
+      "course_matches": [
+        {
+          "course_name": "欧洲电影解析与实践",
+          "course_codes": [
+            "GECC10047"
+          ],
+          "query_id": "FORUM-Q-F1BEE21AA2CA7090F8F8"
+        },
+        {
+          "course_name": "莎士比亚作品撷英",
+          "course_codes": [
+            "GECC10045"
+          ],
+          "query_id": "FORUM-Q-67C6F4F71072E8B02488"
+        }
+      ],
+      "full_floor_text_read": true,
+      "hole_context_examined": true,
+      "context_scope": "候选楼层全文已读；核对洞主楼层与同洞课程/教师相关回复。未逐字阅读同洞无关楼层。",
+      "decision": "exclude",
+      "adopted": false,
+      "reason": "询问欧洲电影与莎士比亚课哪个更推荐，非体验。",
+      "related_evidence_floor_ids": []
+    },
+    {
+      "floor_id": 5048378,
+      "hole_id": 556279,
+      "course_matches": [
+        {
+          "course_name": "莎士比亚作品撷英",
+          "course_codes": [
+            "GECC10045"
+          ],
+          "query_id": "FORUM-Q-67C6F4F71072E8B02488"
+        }
+      ],
+      "full_floor_text_read": true,
+      "hole_context_examined": true,
+      "context_scope": "候选楼层全文已读；核对洞主楼层与同洞课程/教师相关回复。未逐字阅读同洞无关楼层。",
+      "decision": "exclude",
+      "adopted": false,
+      "reason": "询问莎士比亚课当前是否期末表演，非体验；同洞5048534短评另列。",
+      "related_evidence_floor_ids": [
+        5048534
+      ]
+    },
+    {
+      "floor_id": 5049811,
+      "hole_id": 556129,
+      "course_matches": [
+        {
+          "course_name": "欧洲电影解析与实践",
+          "course_codes": [
+            "GECC10047"
+          ],
+          "query_id": "FORUM-Q-F1BEE21AA2CA7090F8F8"
+        },
+        {
+          "course_name": "莎士比亚作品撷英",
+          "course_codes": [
+            "GECC10045"
+          ],
+          "query_id": "FORUM-Q-67C6F4F71072E8B02488"
+        }
+      ],
+      "full_floor_text_read": true,
+      "hole_context_examined": true,
+      "context_scope": "候选楼层全文已读；核对洞主楼层与同洞课程/教师相关回复。未逐字阅读同洞无关楼层。",
+      "decision": "exclude",
+      "adopted": false,
+      "reason": "只转述莎士比亚课程评分数字，未说明个人修课经历或来源，未采。",
+      "related_evidence_floor_ids": []
+    },
+    {
+      "floor_id": 5050636,
+      "hole_id": 556710,
+      "course_matches": [
+        {
+          "course_name": "欧洲电影解析与实践",
+          "course_codes": [
+            "GECC10047"
+          ],
+          "query_id": "FORUM-Q-F1BEE21AA2CA7090F8F8"
+        }
+      ],
+      "full_floor_text_read": true,
+      "hole_context_examined": true,
+      "context_scope": "候选楼层全文已读；核对洞主楼层与同洞课程/教师相关回复。未逐字阅读同洞无关楼层。",
+      "decision": "exclude",
+      "adopted": false,
+      "reason": "询问欧洲电影课难度，非体验；同洞5050804给出过往课程体验，另列。",
+      "related_evidence_floor_ids": [
+        5050804
+      ]
+    },
+    {
+      "floor_id": 5050644,
+      "hole_id": 556711,
+      "course_matches": [
+        {
+          "course_name": "日语语音学",
+          "course_codes": [
+            "FORE20021"
+          ],
+          "query_id": "FORUM-Q-84D08B7DCA05F10F3914"
+        }
+      ],
+      "full_floor_text_read": true,
+      "hole_context_examined": true,
+      "context_scope": "候选楼层全文已读；核对洞主楼层与同洞课程/教师相关回复。未逐字阅读同洞无关楼层。",
+      "decision": "exclude",
+      "adopted": false,
+      "reason": "询问日语语音学课任务量，非体验。",
+      "related_evidence_floor_ids": []
+    },
+    {
+      "floor_id": 5050801,
+      "hole_id": 556739,
+      "course_matches": [
+        {
+          "course_name": "跨文化交际",
+          "course_codes": [
+            "FORE20028"
+          ],
+          "query_id": "FORUM-Q-A011CD1FCF15BE9B8673"
+        }
+      ],
+      "full_floor_text_read": true,
+      "hole_context_examined": true,
+      "context_scope": "候选楼层全文已读；核对洞主楼层与同洞课程/教师相关回复。未逐字阅读同洞无关楼层。",
+      "decision": "exclude",
+      "adopted": false,
+      "reason": "询问SLN跨文化交际点名，无课程评价。",
+      "related_evidence_floor_ids": []
+    },
+    {
+      "floor_id": 5051260,
+      "hole_id": 556754,
+      "course_matches": [
+        {
+          "course_name": "跨文化交际",
+          "course_codes": [
+            "FORE20028"
+          ],
+          "query_id": "FORUM-Q-A011CD1FCF15BE9B8673"
+        }
+      ],
+      "full_floor_text_read": true,
+      "hole_context_examined": true,
+      "context_scope": "候选楼层全文已读；核对洞主楼层与同洞课程/教师相关回复。未逐字阅读同洞无关楼层。",
+      "decision": "exclude",
+      "adopted": false,
+      "reason": "询问SLN跨文化点名；同洞英语公众演说评分信息与本课无关。",
+      "related_evidence_floor_ids": []
+    },
+    {
+      "floor_id": 5122239,
+      "hole_id": 565180,
+      "course_matches": [
+        {
+          "course_name": "欧洲电影解析与实践",
+          "course_codes": [
+            "GECC10047"
+          ],
+          "query_id": "FORUM-Q-F1BEE21AA2CA7090F8F8"
+        }
+      ],
+      "full_floor_text_read": true,
+      "hole_context_examined": true,
+      "context_scope": "候选楼层全文已读；核对洞主楼层与同洞课程/教师相关回复。未逐字阅读同洞无关楼层。",
+      "decision": "exclude",
+      "adopted": false,
+      "reason": "求购欧洲电影期末考题，无课程体验。",
+      "related_evidence_floor_ids": []
+    },
+    {
+      "floor_id": 5147149,
+      "hole_id": 568102,
+      "course_matches": [
+        {
+          "course_name": "欧洲电影解析与实践",
+          "course_codes": [
+            "GECC10047"
+          ],
+          "query_id": "FORUM-Q-F1BEE21AA2CA7090F8F8"
+        }
+      ],
+      "full_floor_text_read": true,
+      "hole_context_examined": true,
+      "context_scope": "候选楼层全文已读；核对洞主楼层与同洞课程/教师相关回复。未逐字阅读同洞无关楼层。",
+      "decision": "exclude",
+      "adopted": false,
+      "reason": "已通读楼层并核对同洞上下文；内容仅为课程名提及、泛泛观点或缺少第一手修课/考核/任务/成绩信息，无法作课程体验证据。",
+      "related_evidence_floor_ids": []
+    },
+    {
+      "floor_id": 5150809,
+      "hole_id": 568808,
+      "course_matches": [
+        {
+          "course_name": "英语短篇小说导读",
+          "course_codes": [
+            "GEEC10156"
+          ],
+          "query_id": "FORUM-Q-7BE6BB6674997B13C54E"
+        }
+      ],
+      "full_floor_text_read": true,
+      "hole_context_examined": true,
+      "context_scope": "候选楼层全文已读；核对洞主楼层与同洞课程/教师相关回复。未逐字阅读同洞无关楼层。",
+      "decision": "exclude",
+      "adopted": false,
+      "reason": "楼层以提问、选课咨询或行政求助为主，没有提供发帖者本人的课程体验；已查看同洞相关回复，若回复仅给出无依据短答则不作为证据。",
+      "related_evidence_floor_ids": []
+    },
+    {
+      "floor_id": 5168360,
+      "hole_id": 554984,
+      "course_matches": [
+        {
+          "course_name": "基础日语I",
+          "course_codes": [
+            "GESF10007"
+          ],
+          "query_id": "FORUM-Q-44D29BF4C6F83A2D50A6"
+        }
+      ],
+      "full_floor_text_read": true,
+      "hole_context_examined": true,
+      "context_scope": "候选楼层全文已读；核对洞主楼层与同洞课程/教师相关回复。未逐字阅读同洞无关楼层。",
+      "decision": "exclude",
+      "adopted": false,
+      "reason": "基础日语I报名状态回复，非课程体验。",
+      "related_evidence_floor_ids": []
+    },
+    {
+      "floor_id": 5170935,
+      "hole_id": 571460,
+      "course_matches": [
+        {
+          "course_name": "跨文化交际",
+          "course_codes": [
+            "FORE20028"
+          ],
+          "query_id": "FORUM-Q-A011CD1FCF15BE9B8673"
+        }
+      ],
+      "full_floor_text_read": true,
+      "hole_context_examined": true,
+      "context_scope": "候选楼层全文已读；核对洞主楼层与同洞课程/教师相关回复。未逐字阅读同洞无关楼层。",
+      "decision": "exclude",
+      "adopted": false,
+      "reason": "楼层以提问、选课咨询或行政求助为主，没有提供发帖者本人的课程体验；已查看同洞相关回复，若回复仅给出无依据短答则不作为证据。",
+      "related_evidence_floor_ids": []
+    },
+    {
+      "floor_id": 5178563,
+      "hole_id": 571226,
+      "course_matches": [
+        {
+          "course_name": "莎士比亚作品撷英",
+          "course_codes": [
+            "GECC10045"
+          ],
+          "query_id": "FORUM-Q-67C6F4F71072E8B02488"
+        }
+      ],
+      "full_floor_text_read": true,
+      "hole_context_examined": true,
+      "context_scope": "候选楼层全文已读；核对洞主楼层与同洞课程/教师相关回复。未逐字阅读同洞无关楼层。",
+      "decision": "exclude",
+      "adopted": false,
+      "reason": "对ZJS评分政策的泛泛转述，缺少个人班次/来源，不作实际课程证据。",
+      "related_evidence_floor_ids": []
+    },
+    {
+      "floor_id": 5180049,
+      "hole_id": 499501,
+      "course_matches": [
+        {
+          "course_name": "欧洲电影解析与实践",
+          "course_codes": [
+            "GECC10047"
+          ],
+          "query_id": "FORUM-Q-F1BEE21AA2CA7090F8F8"
+        }
+      ],
+      "full_floor_text_read": true,
+      "hole_context_examined": true,
+      "context_scope": "候选楼层全文已读；核对洞主楼层与同洞课程/教师相关回复。未逐字阅读同洞无关楼层。",
+      "decision": "adopt",
+      "adopted": true,
+      "reason": "完整楼层明确以第七模块回答欧洲电影解析与实践，并描述个人观影、pre、剪辑和考试体验。",
+      "related_evidence_floor_ids": [],
+      "evidence_record_id": 5180049
+    },
+    {
+      "floor_id": 5202326,
+      "hole_id": 575497,
+      "course_matches": [
+        {
+          "course_name": "欧洲电影解析与实践",
+          "course_codes": [
+            "GECC10047"
+          ],
+          "query_id": "FORUM-Q-F1BEE21AA2CA7090F8F8"
+        }
+      ],
+      "full_floor_text_read": true,
+      "hole_context_examined": true,
+      "context_scope": "候选楼层全文已读；核对洞主楼层与同洞课程/教师相关回复。未逐字阅读同洞无关楼层。",
+      "decision": "exclude",
+      "adopted": false,
+      "reason": "询问欧洲电影课的电影放映点名，无评价。",
+      "related_evidence_floor_ids": []
+    },
+    {
+      "floor_id": 5236311,
+      "hole_id": 579532,
+      "course_matches": [
+        {
+          "course_name": "英国文学史",
+          "course_codes": [
+            "FORE20032"
+          ],
+          "query_id": "FORUM-Q-F129DCF2FDE83E70CFA4"
+        }
+      ],
+      "full_floor_text_read": true,
+      "hole_context_examined": true,
+      "context_scope": "候选楼层全文已读；核对洞主楼层与同洞课程/教师相关回复。未逐字阅读同洞无关楼层。",
+      "decision": "exclude",
+      "adopted": false,
+      "reason": "询问SGX英国文学史给分；同洞5236419给出同学B+比例的弱二手观察，另列。",
+      "related_evidence_floor_ids": []
+    },
+    {
+      "floor_id": 5311067,
+      "hole_id": 587204,
+      "course_matches": [
+        {
+          "course_name": "世界文学导读",
+          "course_codes": [
+            "FORE10006"
+          ],
+          "query_id": "FORUM-Q-53991EEAA346A57D09AF"
+        }
+      ],
+      "full_floor_text_read": true,
+      "hole_context_examined": true,
+      "context_scope": "候选楼层全文已读；核对洞主楼层与同洞课程/教师相关回复。未逐字阅读同洞无关楼层。",
+      "decision": "exclude",
+      "adopted": false,
+      "reason": "询问世界文学导读/其他课程体验；回复谈的是现代文艺赏析而不是目标世界文学导读。",
+      "related_evidence_floor_ids": []
+    },
+    {
+      "floor_id": 5337842,
+      "hole_id": 589830,
+      "course_matches": [
+        {
+          "course_name": "英语演讲",
+          "course_codes": [
+            "FORE10012"
+          ],
+          "query_id": "FORUM-Q-8EB0AF1BC955E6222127"
+        }
+      ],
+      "full_floor_text_read": true,
+      "hole_context_examined": true,
+      "context_scope": "候选楼层全文已读；核对洞主楼层与同洞课程/教师相关回复。未逐字阅读同洞无关楼层。",
+      "decision": "exclude",
+      "adopted": false,
+      "reason": "全文讨论的是英语公众演说/SLY，不是目标课程英语演讲，按课程不匹配排除。",
+      "related_evidence_floor_ids": [],
+      "evidence_record_id": 5337842
+    },
+    {
+      "floor_id": 5349240,
+      "hole_id": 590845,
+      "course_matches": [
+        {
+          "course_name": "英语演讲",
+          "course_codes": [
+            "FORE10012"
+          ],
+          "query_id": "FORUM-Q-8EB0AF1BC955E6222127"
+        },
+        {
+          "course_name": "莎士比亚作品撷英",
+          "course_codes": [
+            "GECC10045"
+          ],
+          "query_id": "FORUM-Q-67C6F4F71072E8B02488"
+        }
+      ],
+      "full_floor_text_read": true,
+      "hole_context_examined": true,
+      "context_scope": "候选楼层全文已读；核对洞主楼层与同洞课程/教师相关回复。未逐字阅读同洞无关楼层。",
+      "decision": "adopt",
+      "adopted": true,
+      "reason": "完整楼层明确写莎士比亚作品撷英（zjs），描述班级成绩自述、三次pre、考勤与考试。",
+      "related_evidence_floor_ids": [],
+      "evidence_record_id": 5349240
+    },
+    {
+      "floor_id": 5349337,
+      "hole_id": 590845,
+      "course_matches": [
+        {
+          "course_name": "英语演讲",
+          "course_codes": [
+            "FORE10012"
+          ],
+          "query_id": "FORUM-Q-8EB0AF1BC955E6222127"
+        },
+        {
+          "course_name": "莎士比亚作品撷英",
+          "course_codes": [
+            "GECC10045"
+          ],
+          "query_id": "FORUM-Q-67C6F4F71072E8B02488"
+        }
+      ],
+      "full_floor_text_read": true,
+      "hole_context_examined": true,
+      "context_scope": "候选楼层全文已读；核对洞主楼层与同洞课程/教师相关回复。未逐字阅读同洞无关楼层。",
+      "decision": "exclude",
+      "adopted": false,
+      "reason": "楼层提到演讲但未确认是外国语言文学目标课程英语演讲，整洞显示为公众演说/自学/竞赛语境，避免错配。",
+      "related_evidence_floor_ids": []
+    },
+    {
+      "floor_id": 5368123,
+      "hole_id": 592454,
+      "course_matches": [
+        {
+          "course_name": "阿拉伯伊斯兰文化",
+          "course_codes": [
+            "GEEC10159"
+          ],
+          "query_id": "FORUM-Q-9061B25B595F6B011929"
+        }
+      ],
+      "full_floor_text_read": true,
+      "hole_context_examined": true,
+      "context_scope": "候选楼层全文已读；核对洞主楼层与同洞课程/教师相关回复。未逐字阅读同洞无关楼层。",
+      "decision": "exclude",
+      "adopted": false,
+      "reason": "有偿求购多门课程A论文/资料，不是课程体验。",
+      "related_evidence_floor_ids": []
+    },
+    {
+      "floor_id": 5368506,
+      "hole_id": 402785,
+      "course_matches": [
+        {
+          "course_name": "莎士比亚作品撷英",
+          "course_codes": [
+            "GECC10045"
+          ],
+          "query_id": "FORUM-Q-67C6F4F71072E8B02488"
+        },
+        {
+          "course_name": "语言学概论",
+          "course_codes": [
+            "FORE10029"
+          ],
+          "query_id": "FORUM-Q-482A05E0F52E232EEF5D"
+        }
+      ],
+      "full_floor_text_read": true,
+      "hole_context_examined": true,
+      "context_scope": "候选楼层全文已读；核对洞主楼层与同洞课程/教师相关回复。未逐字阅读同洞无关楼层。",
+      "decision": "exclude",
+      "adopted": false,
+      "reason": "整洞语境为现代汉语/中文语言学，虽有“语言学概论”同名词，但非外文学院目标课。",
+      "related_evidence_floor_ids": []
+    },
+    {
+      "floor_id": 5376278,
+      "hole_id": 593129,
+      "course_matches": [
+        {
+          "course_name": "阿拉伯伊斯兰文化",
+          "course_codes": [
+            "GEEC10159"
+          ],
+          "query_id": "FORUM-Q-9061B25B595F6B011929"
+        }
+      ],
+      "full_floor_text_read": true,
+      "hole_context_examined": true,
+      "context_scope": "候选楼层全文已读；核对洞主楼层与同洞课程/教师相关回复。未逐字阅读同洞无关楼层。",
+      "decision": "exclude",
+      "adopted": false,
+      "reason": "有偿求购多门课程A论文/资料，不是课程体验。",
+      "related_evidence_floor_ids": []
+    },
+    {
+      "floor_id": 5411502,
+      "hole_id": 596045,
+      "course_matches": [
+        {
+          "course_name": "莎士比亚作品撷英",
+          "course_codes": [
+            "GECC10045"
+          ],
+          "query_id": "FORUM-Q-67C6F4F71072E8B02488"
+        }
+      ],
+      "full_floor_text_read": true,
+      "hole_context_examined": true,
+      "context_scope": "候选楼层全文已读；核对洞主楼层与同洞课程/教师相关回复。未逐字阅读同洞无关楼层。",
+      "decision": "exclude",
+      "adopted": false,
+      "reason": "询问缺席莎士比亚课讨论课是否NP，属于提问。",
+      "related_evidence_floor_ids": []
+    },
+    {
+      "floor_id": 5491117,
+      "hole_id": 595923,
+      "course_matches": [
+        {
+          "course_name": "演讲的艺术",
+          "course_codes": [
+            "TS50002"
+          ],
+          "query_id": "FORUM-Q-032CA5A61B12E1ECDFD4"
+        }
+      ],
+      "full_floor_text_read": true,
+      "hole_context_examined": true,
+      "context_scope": "候选楼层全文已读；核对洞主楼层与同洞课程/教师相关回复。未逐字阅读同洞无关楼层。",
+      "decision": "exclude",
+      "adopted": false,
+      "reason": "讲演教材及作业信息，没有课程体验且课程同名泛化。",
+      "related_evidence_floor_ids": []
+    },
+    {
+      "floor_id": 5495346,
+      "hole_id": 603887,
+      "course_matches": [
+        {
+          "course_name": "基础日语I",
+          "course_codes": [
+            "GESF10007"
+          ],
+          "query_id": "FORUM-Q-44D29BF4C6F83A2D50A6"
+        }
+      ],
+      "full_floor_text_read": true,
+      "hole_context_examined": true,
+      "context_scope": "候选楼层全文已读；核对洞主楼层与同洞课程/教师相关回复。未逐字阅读同洞无关楼层。",
+      "decision": "exclude",
+      "adopted": false,
+      "reason": "比较教师和任务量的提问，无课程体验。",
+      "related_evidence_floor_ids": []
+    },
+    {
+      "floor_id": 5499157,
+      "hole_id": 604754,
+      "course_matches": [
+        {
+          "course_name": "法国当代戏剧",
+          "course_codes": [
+            "FORE40027"
+          ],
+          "query_id": "FORUM-Q-E04FC89E7990CB75E8D5"
+        }
+      ],
+      "full_floor_text_read": true,
+      "hole_context_examined": true,
+      "context_scope": "候选楼层全文已读；核对洞主楼层与同洞课程/教师相关回复。未逐字阅读同洞无关楼层。",
+      "decision": "exclude",
+      "adopted": false,
+      "reason": "咨询法语专业课是否限专业/是否推荐，不含个人体验。",
+      "related_evidence_floor_ids": []
+    },
+    {
+      "floor_id": 5500182,
+      "hole_id": 605019,
+      "course_matches": [
+        {
+          "course_name": "实习调查",
+          "course_codes": [
+            "FORE30001"
+          ],
+          "query_id": "FORUM-Q-42669B529CF430ECF349"
+        }
+      ],
+      "full_floor_text_read": true,
+      "hole_context_examined": true,
+      "context_scope": "候选楼层全文已读；核对洞主楼层与同洞课程/教师相关回复。未逐字阅读同洞无关楼层。",
+      "decision": "exclude",
+      "adopted": false,
+      "reason": "询问外院实习调查课程考核，无体验。",
+      "related_evidence_floor_ids": []
+    },
+    {
+      "floor_id": 5500334,
+      "hole_id": 475281,
+      "course_matches": [
+        {
+          "course_name": "跨文化交际",
+          "course_codes": [
+            "FORE20028"
+          ],
+          "query_id": "FORUM-Q-A011CD1FCF15BE9B8673"
+        }
+      ],
+      "full_floor_text_read": true,
+      "hole_context_examined": true,
+      "context_scope": "候选楼层全文已读；核对洞主楼层与同洞课程/教师相关回复。未逐字阅读同洞无关楼层。",
+      "decision": "exclude",
+      "adopted": false,
+      "reason": "楼层以提问、选课咨询或行政求助为主，没有提供发帖者本人的课程体验；已查看同洞相关回复，若回复仅给出无依据短答则不作为证据。",
+      "related_evidence_floor_ids": []
+    },
+    {
+      "floor_id": 5500958,
+      "hole_id": 605203,
+      "course_matches": [
+        {
+          "course_name": "跨文化交际",
+          "course_codes": [
+            "FORE20028"
+          ],
+          "query_id": "FORUM-Q-A011CD1FCF15BE9B8673"
+        }
+      ],
+      "full_floor_text_read": true,
+      "hole_context_examined": true,
+      "context_scope": "候选楼层全文已读；核对洞主楼层与同洞课程/教师相关回复。未逐字阅读同洞无关楼层。",
+      "decision": "exclude",
+      "adopted": false,
+      "reason": "询问英语课三选一，没有个人课程体验。",
+      "related_evidence_floor_ids": []
+    },
+    {
+      "floor_id": 5501452,
+      "hole_id": 605295,
+      "course_matches": [
+        {
+          "course_name": "英语语言史",
+          "course_codes": [
+            "FORE20029"
+          ],
+          "query_id": "FORUM-Q-32CBA01CF285DF8A0B5F"
+        }
+      ],
+      "full_floor_text_read": true,
+      "hole_context_examined": true,
+      "context_scope": "候选楼层全文已读；核对洞主楼层与同洞课程/教师相关回复。未逐字阅读同洞无关楼层。",
+      "decision": "exclude",
+      "adopted": false,
+      "reason": "询问英语语言史难度，未提供体验。",
+      "related_evidence_floor_ids": []
+    },
+    {
+      "floor_id": 5502948,
+      "hole_id": 605585,
+      "course_matches": [
+        {
+          "course_name": "跨文化交际",
+          "course_codes": [
+            "FORE20028"
+          ],
+          "query_id": "FORUM-Q-A011CD1FCF15BE9B8673"
+        }
+      ],
+      "full_floor_text_read": true,
+      "hole_context_examined": true,
+      "context_scope": "候选楼层全文已读；核对洞主楼层与同洞课程/教师相关回复。未逐字阅读同洞无关楼层。",
+      "decision": "exclude",
+      "adopted": false,
+      "reason": "询问跨文化交际教师给分，没提供体验。",
+      "related_evidence_floor_ids": []
+    },
+    {
+      "floor_id": 5514206,
+      "hole_id": 607640,
+      "course_matches": [
+        {
+          "course_name": "欧洲电影解析与实践",
+          "course_codes": [
+            "GECC10047"
+          ],
+          "query_id": "FORUM-Q-F1BEE21AA2CA7090F8F8"
+        }
+      ],
+      "full_floor_text_read": true,
+      "hole_context_examined": true,
+      "context_scope": "候选楼层全文已读；核对洞主楼层与同洞课程/教师相关回复。未逐字阅读同洞无关楼层。",
+      "decision": "exclude",
+      "adopted": false,
+      "reason": "询问欧洲电影课程考核；同洞5514793给出个人课程意见，另列弱细节证据。",
+      "related_evidence_floor_ids": [
+        5514793
+      ]
+    },
+    {
+      "floor_id": 5517011,
+      "hole_id": 608057,
+      "course_matches": [
+        {
+          "course_name": "法国现当代文艺思潮",
+          "course_codes": [
+            "FORE50085"
+          ],
+          "query_id": "FORUM-Q-1C4F71BB8DD908282650"
+        }
+      ],
+      "full_floor_text_read": true,
+      "hole_context_examined": true,
+      "context_scope": "候选楼层全文已读；核对洞主楼层与同洞课程/教师相关回复。未逐字阅读同洞无关楼层。",
+      "decision": "exclude",
+      "adopted": false,
+      "reason": "询问法国现当代文艺思潮课程给分/任务，没给体验。",
+      "related_evidence_floor_ids": []
+    },
+    {
+      "floor_id": 5517038,
+      "hole_id": 608063,
+      "course_matches": [
+        {
+          "course_name": "英美戏剧",
+          "course_codes": [
+            "FORE50092"
+          ],
+          "query_id": "FORUM-Q-6EB5D01137D1A075B433"
+        }
+      ],
+      "full_floor_text_read": true,
+      "hole_context_examined": true,
+      "context_scope": "候选楼层全文已读；核对洞主楼层与同洞课程/教师相关回复。未逐字阅读同洞无关楼层。",
+      "decision": "exclude",
+      "adopted": false,
+      "reason": "询问英美戏剧课程给分，无体验。",
+      "related_evidence_floor_ids": []
+    },
+    {
+      "floor_id": 5530538,
+      "hole_id": 610084,
+      "course_matches": [
+        {
+          "course_name": "莎士比亚作品撷英",
+          "course_codes": [
+            "GECC10045"
+          ],
+          "query_id": "FORUM-Q-67C6F4F71072E8B02488"
+        }
+      ],
+      "full_floor_text_read": true,
+      "hole_context_examined": true,
+      "context_scope": "候选楼层全文已读；核对洞主楼层与同洞课程/教师相关回复。未逐字阅读同洞无关楼层。",
+      "decision": "exclude",
+      "adopted": false,
+      "reason": "询问莎士比亚课群聊，属行政信息。",
+      "related_evidence_floor_ids": []
+    },
+    {
+      "floor_id": 5531064,
+      "hole_id": 610142,
+      "course_matches": [
+        {
+          "course_name": "学术写作",
+          "course_codes": [
+            "FORE30054"
+          ],
+          "query_id": "FORUM-Q-94F2EEEF9F2E22D29718"
+        }
+      ],
+      "full_floor_text_read": true,
+      "hole_context_examined": true,
+      "context_scope": "候选楼层全文已读；核对洞主楼层与同洞课程/教师相关回复。未逐字阅读同洞无关楼层。",
+      "decision": "exclude",
+      "adopted": false,
+      "reason": "泛谈自身学术写作能力/科研准备，无目标课程内容。",
+      "related_evidence_floor_ids": []
+    },
+    {
+      "floor_id": 5551775,
+      "hole_id": 612833,
+      "course_matches": [
+        {
+          "course_name": "基础日语I",
+          "course_codes": [
+            "GESF10007"
+          ],
+          "query_id": "FORUM-Q-44D29BF4C6F83A2D50A6"
+        }
+      ],
+      "full_floor_text_read": true,
+      "hole_context_examined": true,
+      "context_scope": "候选楼层全文已读；核对洞主楼层与同洞课程/教师相关回复。未逐字阅读同洞无关楼层。",
+      "decision": "exclude",
+      "adopted": false,
+      "reason": "询问基础日语I点名，行政问题。",
+      "related_evidence_floor_ids": []
+    },
+    {
+      "floor_id": 5580204,
+      "hole_id": 616428,
+      "course_matches": [
+        {
+          "course_name": "欧洲电影解析与实践",
+          "course_codes": [
+            "GECC10047"
+          ],
+          "query_id": "FORUM-Q-F1BEE21AA2CA7090F8F8"
+        }
+      ],
+      "full_floor_text_read": true,
+      "hole_context_examined": true,
+      "context_scope": "候选楼层全文已读；核对洞主楼层与同洞课程/教师相关回复。未逐字阅读同洞无关楼层。",
+      "decision": "exclude",
+      "adopted": false,
+      "reason": "询问欧洲电影课签到，行政问题。",
+      "related_evidence_floor_ids": []
+    },
+    {
+      "floor_id": 5581378,
+      "hole_id": 616592,
+      "course_matches": [
+        {
+          "course_name": "跨文化交际",
+          "course_codes": [
+            "FORE20028"
+          ],
+          "query_id": "FORUM-Q-A011CD1FCF15BE9B8673"
+        }
+      ],
+      "full_floor_text_read": true,
+      "hole_context_examined": true,
+      "context_scope": "候选楼层全文已读；核对洞主楼层与同洞课程/教师相关回复。未逐字阅读同洞无关楼层。",
+      "decision": "exclude",
+      "adopted": false,
+      "reason": "正在组队的在修课程信息，未完成课程、无评价。",
+      "related_evidence_floor_ids": []
+    },
+    {
+      "floor_id": 5586940,
+      "hole_id": 616395,
+      "course_matches": [
+        {
+          "course_name": "《浮士德》",
+          "course_codes": [
+            "FORE50045"
+          ],
+          "query_id": "FORUM-Q-2E6470CBF9ACA2931DB2"
+        }
+      ],
+      "full_floor_text_read": true,
+      "hole_context_examined": true,
+      "context_scope": "候选楼层全文已读；核对洞主楼层与同洞课程/教师相关回复。未逐字阅读同洞无关楼层。",
+      "decision": "exclude",
+      "adopted": false,
+      "reason": "以《浮士德》创作改写清华求真书院二外政策争议，属satire，不是复旦外语课程。",
+      "related_evidence_floor_ids": []
+    },
+    {
+      "floor_id": 5729134,
+      "hole_id": 632223,
+      "course_matches": [
+        {
+          "course_name": "英语演讲",
+          "course_codes": [
+            "FORE10012"
+          ],
+          "query_id": "FORUM-Q-8EB0AF1BC955E6222127"
+        }
+      ],
+      "full_floor_text_read": true,
+      "hole_context_examined": true,
+      "context_scope": "候选楼层全文已读；核对洞主楼层与同洞课程/教师相关回复。未逐字阅读同洞无关楼层。",
+      "decision": "exclude",
+      "adopted": false,
+      "reason": "讲自学TED演讲提升听力，非目标课程英语演讲。",
+      "related_evidence_floor_ids": []
+    },
+    {
+      "floor_id": 5774117,
+      "hole_id": 637869,
+      "course_matches": [
+        {
+          "course_name": "跨文化交际",
+          "course_codes": [
+            "FORE20028"
+          ],
+          "query_id": "FORUM-Q-A011CD1FCF15BE9B8673"
+        }
+      ],
+      "full_floor_text_read": true,
+      "hole_context_examined": true,
+      "context_scope": "候选楼层全文已读；核对洞主楼层与同洞课程/教师相关回复。未逐字阅读同洞无关楼层。",
+      "decision": "exclude",
+      "adopted": false,
+      "reason": "解释培养方案学时学分，非课程体验。",
+      "related_evidence_floor_ids": []
+    },
+    {
+      "floor_id": 5814033,
+      "hole_id": 642409,
+      "course_matches": [
+        {
+          "course_name": "语言学概论",
+          "course_codes": [
+            "FORE10029"
+          ],
+          "query_id": "FORUM-Q-482A05E0F52E232EEF5D"
+        }
+      ],
+      "full_floor_text_read": true,
+      "hole_context_examined": true,
+      "context_scope": "候选楼层全文已读；核对洞主楼层与同洞课程/教师相关回复。未逐字阅读同洞无关楼层。",
+      "decision": "exclude",
+      "adopted": false,
+      "reason": "中文系汉语/语言学课程讨论，不在目标范围。",
+      "related_evidence_floor_ids": []
+    },
+    {
+      "floor_id": 5905066,
+      "hole_id": 652403,
+      "course_matches": [
+        {
+          "course_name": "跨文化交际",
+          "course_codes": [
+            "FORE20028"
+          ],
+          "query_id": "FORUM-Q-A011CD1FCF15BE9B8673"
+        }
+      ],
+      "full_floor_text_read": true,
+      "hole_context_examined": true,
+      "context_scope": "候选楼层全文已读；核对洞主楼层与同洞课程/教师相关回复。未逐字阅读同洞无关楼层。",
+      "decision": "exclude",
+      "adopted": false,
+      "reason": "有偿求跨文化交际期末试题，无体验。",
+      "related_evidence_floor_ids": []
+    },
+    {
+      "floor_id": 5940912,
+      "hole_id": 657112,
+      "course_matches": [
+        {
+          "course_name": "英国文学史",
+          "course_codes": [
+            "FORE20032"
+          ],
+          "query_id": "FORUM-Q-F129DCF2FDE83E70CFA4"
+        }
+      ],
+      "full_floor_text_read": true,
+      "hole_context_examined": true,
+      "context_scope": "候选楼层全文已读；核对洞主楼层与同洞课程/教师相关回复。未逐字阅读同洞无关楼层。",
+      "decision": "exclude",
+      "adopted": false,
+      "reason": "计划将来选英国文学史，尚未修课。",
+      "related_evidence_floor_ids": []
+    },
+    {
+      "floor_id": 5947464,
+      "hole_id": 657997,
+      "course_matches": [
+        {
+          "course_name": "欧洲电影解析与实践",
+          "course_codes": [
+            "GECC10047"
+          ],
+          "query_id": "FORUM-Q-F1BEE21AA2CA7090F8F8"
+        }
+      ],
+      "full_floor_text_read": true,
+      "hole_context_examined": true,
+      "context_scope": "候选楼层全文已读；核对洞主楼层与同洞课程/教师相关回复。未逐字阅读同洞无关楼层。",
+      "decision": "exclude",
+      "adopted": false,
+      "reason": "在修课但问能否只看PPT考试，未提供课程评价。",
+      "related_evidence_floor_ids": []
+    },
+    {
+      "floor_id": 5973815,
+      "hole_id": 661268,
+      "course_matches": [
+        {
+          "course_name": "莎士比亚作品撷英",
+          "course_codes": [
+            "GECC10045"
+          ],
+          "query_id": "FORUM-Q-67C6F4F71072E8B02488"
+        }
+      ],
+      "full_floor_text_read": true,
+      "hole_context_examined": true,
+      "context_scope": "候选楼层全文已读；核对洞主楼层与同洞课程/教师相关回复。未逐字阅读同洞无关楼层。",
+      "decision": "exclude",
+      "adopted": false,
+      "reason": "泛泛推荐多个模块课，无个人经历或依据。",
+      "related_evidence_floor_ids": []
+    },
+    {
+      "floor_id": 5977379,
+      "hole_id": 661737,
+      "course_matches": [
+        {
+          "course_name": "跨文化交际",
+          "course_codes": [
+            "FORE20028"
+          ],
+          "query_id": "FORUM-Q-A011CD1FCF15BE9B8673"
+        }
+      ],
+      "full_floor_text_read": true,
+      "hole_context_examined": true,
+      "context_scope": "候选楼层全文已读；核对洞主楼层与同洞课程/教师相关回复。未逐字阅读同洞无关楼层。",
+      "decision": "exclude",
+      "adopted": false,
+      "reason": "有偿收购考试真题，无课程体验。",
+      "related_evidence_floor_ids": []
+    },
+    {
+      "floor_id": 5980724,
+      "hole_id": 662221,
+      "course_matches": [
+        {
+          "course_name": "英语语言史",
+          "course_codes": [
+            "FORE20029"
+          ],
+          "query_id": "FORUM-Q-32CBA01CF285DF8A0B5F"
+        }
+      ],
+      "full_floor_text_read": true,
+      "hole_context_examined": true,
+      "context_scope": "候选楼层全文已读；核对洞主楼层与同洞课程/教师相关回复。未逐字阅读同洞无关楼层。",
+      "decision": "exclude",
+      "adopted": false,
+      "reason": "询问英语语言史测验内容，未提供体验。",
+      "related_evidence_floor_ids": []
+    },
+    {
+      "floor_id": 5983020,
+      "hole_id": 662454,
+      "course_matches": [
+        {
+          "course_name": "英语语言史",
+          "course_codes": [
+            "FORE20029"
+          ],
+          "query_id": "FORUM-Q-32CBA01CF285DF8A0B5F"
+        }
+      ],
+      "full_floor_text_read": true,
+      "hole_context_examined": true,
+      "context_scope": "候选楼层全文已读；核对洞主楼层与同洞课程/教师相关回复。未逐字阅读同洞无关楼层。",
+      "decision": "exclude",
+      "adopted": false,
+      "reason": "刚考完英语语言史quiz后详述考题、难度和复习范围；采用为第一手考试信息。",
+      "related_evidence_floor_ids": []
+    },
+    {
+      "floor_id": 5989245,
+      "hole_id": 663248,
+      "course_matches": [
+        {
+          "course_name": "英语语言史",
+          "course_codes": [
+            "FORE20029"
+          ],
+          "query_id": "FORUM-Q-32CBA01CF285DF8A0B5F"
+        }
+      ],
+      "full_floor_text_read": true,
+      "hole_context_examined": true,
+      "context_scope": "候选楼层全文已读；核对洞主楼层与同洞课程/教师相关回复。未逐字阅读同洞无关楼层。",
+      "decision": "exclude",
+      "adopted": false,
+      "reason": "自述回忆英语语言史期末quiz内容，采用为当次考试第一手信息。",
+      "related_evidence_floor_ids": []
+    },
+    {
+      "floor_id": 5992168,
+      "hole_id": 663626,
+      "course_matches": [
+        {
+          "course_name": "跨文化交际",
+          "course_codes": [
+            "FORE20028"
+          ],
+          "query_id": "FORUM-Q-A011CD1FCF15BE9B8673"
+        }
+      ],
+      "full_floor_text_read": true,
+      "hole_context_examined": true,
+      "context_scope": "候选楼层全文已读；核对洞主楼层与同洞课程/教师相关回复。未逐字阅读同洞无关楼层。",
+      "decision": "exclude",
+      "adopted": false,
+      "reason": "刚考完后统计CKW班P/NP人数，不是课程评价。",
+      "related_evidence_floor_ids": []
+    },
+    {
+      "floor_id": 6000163,
+      "hole_id": 664464,
+      "course_matches": [
+        {
+          "course_name": "欧洲电影解析与实践",
+          "course_codes": [
+            "GECC10047"
+          ],
+          "query_id": "FORUM-Q-F1BEE21AA2CA7090F8F8"
+        }
+      ],
+      "full_floor_text_read": true,
+      "hole_context_examined": true,
+      "context_scope": "候选楼层全文已读；核对洞主楼层与同洞课程/教师相关回复。未逐字阅读同洞无关楼层。",
+      "decision": "exclude",
+      "adopted": false,
+      "reason": "询问欧洲电影期末论述题与提纲关系，无体验。",
+      "related_evidence_floor_ids": []
+    },
+    {
+      "floor_id": 6037042,
+      "hole_id": 669111,
+      "course_matches": [
+        {
+          "course_name": "美国文学史",
+          "course_codes": [
+            "FORE20005"
+          ],
+          "query_id": "FORUM-Q-33559D4C04F72580158F"
+        }
+      ],
+      "full_floor_text_read": true,
+      "hole_context_examined": true,
+      "context_scope": "候选楼层全文已读；核对洞主楼层与同洞课程/教师相关回复。未逐字阅读同洞无关楼层。",
+      "decision": "exclude",
+      "adopted": false,
+      "reason": "询问美国文学史考试和给分，没有体验。",
+      "related_evidence_floor_ids": []
+    },
+    {
+      "floor_id": 6054430,
+      "hole_id": 671106,
+      "course_matches": [
+        {
+          "course_name": "学术前沿专题",
+          "course_codes": [
+            "FORE50043"
+          ],
+          "query_id": "FORUM-Q-5955B5FD3DA69C347446"
+        }
+      ],
+      "full_floor_text_read": true,
+      "hole_context_examined": true,
+      "context_scope": "候选楼层全文已读；核对洞主楼层与同洞课程/教师相关回复。未逐字阅读同洞无关楼层。",
+      "decision": "exclude",
+      "adopted": false,
+      "reason": "询问数院课程，与目标范围无关。",
+      "related_evidence_floor_ids": []
+    },
+    {
+      "floor_id": 6081754,
+      "hole_id": 673704,
+      "course_matches": [
+        {
+          "course_name": "英语演讲",
+          "course_codes": [
+            "FORE10012"
+          ],
+          "query_id": "FORUM-Q-8EB0AF1BC955E6222127"
+        }
+      ],
+      "full_floor_text_read": true,
+      "hole_context_examined": true,
+      "context_scope": "候选楼层全文已读；核对洞主楼层与同洞课程/教师相关回复。未逐字阅读同洞无关楼层。",
+      "decision": "exclude",
+      "adopted": false,
+      "reason": "所在洞上下文是对英语演讲或比赛教师修改persuasive speech的讨论，未能对应外院目标课程，保留排除。",
+      "related_evidence_floor_ids": []
+    },
+    {
+      "floor_id": 6081809,
+      "hole_id": 673704,
+      "course_matches": [
+        {
+          "course_name": "英语演讲",
+          "course_codes": [
+            "FORE10012"
+          ],
+          "query_id": "FORUM-Q-8EB0AF1BC955E6222127"
+        }
+      ],
+      "full_floor_text_read": true,
+      "hole_context_examined": true,
+      "context_scope": "候选楼层全文已读；核对洞主楼层与同洞课程/教师相关回复。未逐字阅读同洞无关楼层。",
+      "decision": "exclude",
+      "adopted": false,
+      "reason": "同洞语境没有明确课程名/教学班，谈英语演讲竞赛经历及成绩，无法归属英语演讲课程。",
+      "related_evidence_floor_ids": []
+    },
+    {
+      "floor_id": 6155492,
+      "hole_id": 590843,
+      "course_matches": [
+        {
+          "course_name": "跨文化交际",
+          "course_codes": [
+            "FORE20028"
+          ],
+          "query_id": "FORUM-Q-A011CD1FCF15BE9B8673"
+        }
+      ],
+      "full_floor_text_read": true,
+      "hole_context_examined": true,
+      "context_scope": "候选楼层全文已读；核对洞主楼层与同洞课程/教师相关回复。未逐字阅读同洞无关楼层。",
+      "decision": "adopt",
+      "adopted": true,
+      "reason": "完整第一手跨文化交际课评，详细说明任务、理论、考试与个人成绩；CKW不映射为现任教师。",
+      "related_evidence_floor_ids": [],
+      "evidence_record_id": 6155492
+    },
+    {
+      "floor_id": 6173939,
+      "hole_id": 679587,
+      "course_matches": [
+        {
+          "course_name": "欧洲电影解析与实践",
+          "course_codes": [
+            "GECC10047"
+          ],
+          "query_id": "FORUM-Q-F1BEE21AA2CA7090F8F8"
+        }
+      ],
+      "full_floor_text_read": true,
+      "hole_context_examined": true,
+      "context_scope": "候选楼层全文已读；核对洞主楼层与同洞课程/教师相关回复。未逐字阅读同洞无关楼层。",
+      "decision": "adopt",
+      "adopted": true,
+      "reason": "课程名、两位教师全名和学期标签明示，第一手叙述任务、考核、反馈与个人成绩。",
+      "related_evidence_floor_ids": [],
+      "evidence_record_id": 6173939
+    },
+    {
+      "floor_id": 6379649,
+      "hole_id": 699939,
+      "course_matches": [
+        {
+          "course_name": "跨文化交际",
+          "course_codes": [
+            "FORE20028"
+          ],
+          "query_id": "FORUM-Q-A011CD1FCF15BE9B8673"
+        }
+      ],
+      "full_floor_text_read": true,
+      "hole_context_examined": true,
+      "context_scope": "候选楼层全文已读；核对洞主楼层与同洞课程/教师相关回复。未逐字阅读同洞无关楼层。",
+      "decision": "adopt",
+      "adopted": true,
+      "reason": "明确分别评价SLN文化阅读与CKW跨文化交际，含课外任务量、考试形式和教师感受；只作历史课程级反馈。",
+      "related_evidence_floor_ids": [],
+      "evidence_record_id": 6379649
+    },
+    {
+      "floor_id": 6391757,
+      "hole_id": 701569,
+      "course_matches": [
+        {
+          "course_name": "英语演讲",
+          "course_codes": [
+            "FORE10012"
+          ],
+          "query_id": "FORUM-Q-8EB0AF1BC955E6222127"
+        }
+      ],
+      "full_floor_text_read": true,
+      "hole_context_examined": true,
+      "context_scope": "候选楼层全文已读；核对洞主楼层与同洞课程/教师相关回复。未逐字阅读同洞无关楼层。",
+      "decision": "exclude",
+      "adopted": false,
+      "reason": "泛问模块课/英语演讲课程偏好，没有课程体验。",
+      "related_evidence_floor_ids": []
+    },
+    {
+      "floor_id": 6395477,
+      "hole_id": 702042,
+      "course_matches": [
+        {
+          "course_name": "欧洲电影解析与实践",
+          "course_codes": [
+            "GECC10047"
+          ],
+          "query_id": "FORUM-Q-F1BEE21AA2CA7090F8F8"
+        },
+        {
+          "course_name": "英国中世纪文学与文化",
+          "course_codes": [
+            "GECC10048"
+          ],
+          "query_id": "FORUM-Q-9D945CDD33A3B1AC084A"
+        }
+      ],
+      "full_floor_text_read": true,
+      "hole_context_examined": true,
+      "context_scope": "候选楼层全文已读；核对洞主楼层与同洞课程/教师相关回复。未逐字阅读同洞无关楼层。",
+      "decision": "exclude",
+      "adopted": false,
+      "reason": "新生向他人征求多门课程建议，没有本人修课体验。",
+      "related_evidence_floor_ids": []
+    },
+    {
+      "floor_id": 6396072,
+      "hole_id": 702152,
+      "course_matches": [
+        {
+          "course_name": "英语短篇小说导读",
+          "course_codes": [
+            "GEEC10156"
+          ],
+          "query_id": "FORUM-Q-7BE6BB6674997B13C54E"
+        }
+      ],
+      "full_floor_text_read": true,
+      "hole_context_examined": true,
+      "context_scope": "候选楼层全文已读；核对洞主楼层与同洞课程/教师相关回复。未逐字阅读同洞无关楼层。",
+      "decision": "exclude",
+      "adopted": false,
+      "reason": "询问英语短篇小说导读考试内容，无体验。",
+      "related_evidence_floor_ids": []
+    },
+    {
+      "floor_id": 6431995,
+      "hole_id": 706983,
+      "course_matches": [
+        {
+          "course_name": "学术前沿专题",
+          "course_codes": [
+            "FORE50043"
+          ],
+          "query_id": "FORUM-Q-5955B5FD3DA69C347446"
+        }
+      ],
+      "full_floor_text_read": true,
+      "hole_context_examined": true,
+      "context_scope": "候选楼层全文已读；核对洞主楼层与同洞课程/教师相关回复。未逐字阅读同洞无关楼层。",
+      "decision": "exclude",
+      "adopted": false,
+      "reason": "询问学术前沿专题课程性质与给分，无体验。",
+      "related_evidence_floor_ids": []
+    },
+    {
+      "floor_id": 6441808,
+      "hole_id": 708450,
+      "course_matches": [
+        {
+          "course_name": "同声传译",
+          "course_codes": [
+            "TS50007"
+          ],
+          "query_id": "FORUM-Q-5BDE72B22F90042E85C1"
+        },
+        {
+          "course_name": "认知语言学",
+          "course_codes": [
+            "FORE70018"
+          ],
+          "query_id": "FORUM-Q-FF143E6783DE490B29CA"
+        }
+      ],
+      "full_floor_text_read": true,
+      "hole_context_examined": true,
+      "context_scope": "候选楼层全文已读；核对洞主楼层与同洞课程/教师相关回复。未逐字阅读同洞无关楼层。",
+      "decision": "exclude",
+      "adopted": false,
+      "reason": "整洞为关于口头史诗和工作记忆的研究文章，不是同声传译课程反馈。",
+      "related_evidence_floor_ids": []
+    },
+    {
+      "floor_id": 6524676,
+      "hole_id": 705177,
+      "course_matches": [
+        {
+          "course_name": "英语演讲",
+          "course_codes": [
+            "FORE10012"
+          ],
+          "query_id": "FORUM-Q-8EB0AF1BC955E6222127"
+        }
+      ],
+      "full_floor_text_read": true,
+      "hole_context_examined": true,
+      "context_scope": "候选楼层全文已读；核对洞主楼层与同洞课程/教师相关回复。未逐字阅读同洞无关楼层。",
+      "decision": "exclude",
+      "adopted": false,
+      "reason": "同洞回答的课程/任务范围不明确，不能据此归属目标英语演讲。",
+      "related_evidence_floor_ids": []
+    },
+    {
+      "floor_id": 6526171,
+      "hole_id": 721173,
+      "course_matches": [
+        {
+          "course_name": "欧洲电影解析与实践",
+          "course_codes": [
+            "GECC10047"
+          ],
+          "query_id": "FORUM-Q-F1BEE21AA2CA7090F8F8"
+        }
+      ],
+      "full_floor_text_read": true,
+      "hole_context_examined": true,
+      "context_scope": "候选楼层全文已读；核对洞主楼层与同洞课程/教师相关回复。未逐字阅读同洞无关楼层。",
+      "decision": "adopt",
+      "adopted": true,
+      "reason": "作者仅上过一节欧洲电影解析与实践便提出退课疑问，包含早期个人匹配感；标记为初期印象而非完整评价。",
+      "related_evidence_floor_ids": [
+        6526196
+      ]
+    },
+    {
+      "floor_id": 6535401,
+      "hole_id": 722237,
+      "course_matches": [
+        {
+          "course_name": "翻译理论",
+          "course_codes": [
+            "FORE40061"
+          ],
+          "query_id": "FORUM-Q-E876F1FFEA96A8F9D947"
+        }
+      ],
+      "full_floor_text_read": true,
+      "hole_context_examined": true,
+      "context_scope": "候选楼层全文已读；核对洞主楼层与同洞课程/教师相关回复。未逐字阅读同洞无关楼层。",
+      "decision": "exclude",
+      "adopted": false,
+      "reason": "整洞谈文学翻译鉴赏/翻译理论考试，不是已证实的目标课程翻译理论评价。",
+      "related_evidence_floor_ids": []
+    },
+    {
+      "floor_id": 6555836,
+      "hole_id": 724259,
+      "course_matches": [
+        {
+          "course_name": "莎士比亚作品撷英",
+          "course_codes": [
+            "GECC10045"
+          ],
+          "query_id": "FORUM-Q-67C6F4F71072E8B02488"
+        }
+      ],
+      "full_floor_text_read": true,
+      "hole_context_examined": true,
+      "context_scope": "候选楼层全文已读；核对洞主楼层与同洞课程/教师相关回复。未逐字阅读同洞无关楼层。",
+      "decision": "exclude",
+      "adopted": false,
+      "reason": "询问莎士比亚作品撷英考试英语水平要求，回复无影响但缺少修课细节。",
+      "related_evidence_floor_ids": []
+    },
+    {
+      "floor_id": 6656704,
+      "hole_id": 735079,
+      "course_matches": [
+        {
+          "course_name": "翻译理论",
+          "course_codes": [
+            "FORE40061"
+          ],
+          "query_id": "FORUM-Q-E876F1FFEA96A8F9D947"
+        }
+      ],
+      "full_floor_text_read": true,
+      "hole_context_examined": true,
+      "context_scope": "候选楼层全文已读；核对洞主楼层与同洞课程/教师相关回复。未逐字阅读同洞无关楼层。",
+      "decision": "exclude",
+      "adopted": false,
+      "reason": "回答典籍pre选题建议，未证明属于目标课程翻译理论。",
+      "related_evidence_floor_ids": []
+    },
+    {
+      "floor_id": 6729807,
+      "hole_id": 742584,
+      "course_matches": [
+        {
+          "course_name": "欧洲电影解析与实践",
+          "course_codes": [
+            "GECC10047"
+          ],
+          "query_id": "FORUM-Q-F1BEE21AA2CA7090F8F8"
+        }
+      ],
+      "full_floor_text_read": true,
+      "hole_context_examined": true,
+      "context_scope": "候选楼层全文已读；核对洞主楼层与同洞课程/教师相关回复。未逐字阅读同洞无关楼层。",
+      "decision": "exclude",
+      "adopted": false,
+      "reason": "售卖/求购考试资料，未包含课程体验。",
+      "related_evidence_floor_ids": []
+    },
+    {
+      "floor_id": 6819394,
+      "hole_id": 752952,
+      "course_matches": [
+        {
+          "course_name": "欧洲电影解析与实践",
+          "course_codes": [
+            "GECC10047"
+          ],
+          "query_id": "FORUM-Q-F1BEE21AA2CA7090F8F8"
+        }
+      ],
+      "full_floor_text_read": true,
+      "hole_context_examined": true,
+      "context_scope": "候选楼层全文已读；核对洞主楼层与同洞课程/教师相关回复。未逐字阅读同洞无关楼层。",
+      "decision": "adopt",
+      "adopted": true,
+      "reason": "作者明确在修欧洲电影解析与实践，已完成小组pre并表达对影片的主观感受；尚未完成电影拍摄与期末考试，标记为期中早期体验。",
+      "related_evidence_floor_ids": []
+    }
+  ]
+}

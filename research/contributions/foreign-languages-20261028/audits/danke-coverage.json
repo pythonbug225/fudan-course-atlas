@@ -1,0 +1,488 @@
+{
+  "schema": "danke-historical-evidence-coverage-audit.v1",
+  "generated_at": "2026-10-28T06:41:29.098Z",
+  "scope": {
+    "target_course_count": 455,
+    "query_manifest_version": 2,
+    "current_manifest_query_count": 2167,
+    "current_manifest_query_status": {
+      "completed": 2167
+    },
+    "ledger_query_count": 2168,
+    "ledger_only_query_ids": [
+      "DANKE-ATTESTED-DBCD72D3B5A45DF38C0E"
+    ],
+    "ledger_only_query_status": {
+      "completed": 1
+    },
+    "non_generic_query_count": 2161,
+    "non_generic_query_status": {
+      "completed": 2161
+    },
+    "broad_generic_single_round_query_count": 6,
+    "broad_generic_single_round_query_status": {
+      "completed": 6
+    },
+    "broad_generic_pages_fetched": 8,
+    "search_result_group_count": 1208,
+    "positive_accurate_group_count": 43,
+    "positive_group_ids_without_eligible_department_course": [
+      "545",
+      "802",
+      "4772",
+      "4984",
+      "4985",
+      "5337",
+      "9730"
+    ],
+    "selected_historical_course_count": 64,
+    "selected_unique_review_count": 80,
+    "six_large_chat_groups": "excluded from this work per user direction"
+  },
+  "review_counts": {
+    "priority_review_references": 80,
+    "priority_full_bodies_read": 80,
+    "priority_body_complete": 79,
+    "priority_body_incomplete_or_suspected": [
+      "DANKE-1677"
+    ],
+    "priority_adopted_to_evidence": 73,
+    "priority_substantive": 72,
+    "priority_excluded": 7,
+    "all_curated_records": 82,
+    "all_curated_full_bodies_read": 82,
+    "all_curated_body_complete": 81,
+    "all_curated_adopted_to_evidence": 75,
+    "all_curated_substantive": 74,
+    "all_curated_excluded": 7,
+    "previously_cataloged_outside_priority_set": [
+      "DANKE-2253",
+      "DANKE-3655"
+    ]
+  },
+  "matching": {
+    "basis_review_counts": {
+      "exact_official_name": 77,
+      "exact_official_code": 3
+    },
+    "teacher_relation_review_counts": {
+      "target_teacher_overlap": 62,
+      "different_historical_teacher": 18
+    },
+    "teacher_name_matching_normalization": "Unicode NFKC; case, whitespace, punctuation, and symbols ignored."
+  },
+  "positive_group_9730_scope_decision": {
+    "group_id": "9730",
+    "group_name": "强国之路：形势、政策与使命Ⅱ",
+    "indexed_reviews": 2,
+    "eligible_course_ids": [],
+    "excluded_reason": "该公共课组的review-bearing历史课程均属其他院系；按强国之路只保留外院开课班的范围裁定，不扩入其他院系课程。"
+  },
+  "identity_caveats": [
+    {
+      "historical_course_id": "922",
+      "historical_course_name": "日本文学文化",
+      "historical_course_code": "FORE110007",
+      "historical_term": "2022秋",
+      "historical_department": "外国语言文学学院",
+      "historical_teacher": [
+        "王升远"
+      ],
+      "target_course_code": "GEEC20006",
+      "target_course_name": "日本文学文化",
+      "target_terms": [
+        "2026春"
+      ],
+      "target_teachers": [
+        "周菲菲"
+      ],
+      "review_ids": [
+        {
+          "id": "DANKE-1944",
+          "adopted": true,
+          "substantive": true
+        }
+      ],
+      "identity_note": "精确课程名匹配，历史课程代码不同，且历史教师不在对应目标学期教师名单中；作为历史课程背景保存，不外推为目标教师的评价。"
+    },
+    {
+      "historical_course_id": "934",
+      "historical_course_name": "基础日语 II",
+      "historical_course_code": "FORE110045",
+      "historical_term": "2022秋",
+      "historical_department": "外国语言文学学院",
+      "historical_teacher": [
+        "周菲菲"
+      ],
+      "target_course_code": "GESF20003",
+      "target_course_name": "基础日语 II",
+      "target_terms": [
+        "2025秋",
+        "2026春"
+      ],
+      "target_teachers": [
+        "王菁洁",
+        "傅梦菊"
+      ],
+      "review_ids": [
+        {
+          "id": "DANKE-370",
+          "adopted": true,
+          "substantive": true
+        }
+      ],
+      "identity_note": "精确课程名匹配，历史课程代码不同，且历史教师不在对应目标学期教师名单中；作为历史课程背景保存，不外推为目标教师的评价。"
+    },
+    {
+      "historical_course_id": "1065",
+      "historical_course_name": "德语媒介与交际III",
+      "historical_course_code": "FORE130415",
+      "historical_term": "2022秋",
+      "historical_department": "外国语言文学学院",
+      "historical_teacher": [
+        "Carlos Peter Reinelt"
+      ],
+      "target_course_code": "FORE20034",
+      "target_course_name": "德语媒介与交际III",
+      "target_terms": [
+        "2026春"
+      ],
+      "target_teachers": [
+        "刘炜"
+      ],
+      "review_ids": [
+        {
+          "id": "DANKE-380",
+          "adopted": true,
+          "substantive": true
+        }
+      ],
+      "identity_note": "精确课程名匹配，历史课程代码不同，且历史教师不在对应目标学期教师名单中；作为历史课程背景保存，不外推为目标教师的评价。"
+    },
+    {
+      "historical_course_id": "1066",
+      "historical_course_name": "日耳曼学研究",
+      "historical_course_code": "FORE130419",
+      "historical_term": "2022秋",
+      "historical_department": "外国语言文学学院",
+      "historical_teacher": [
+        "Carlos Peter Reinelt"
+      ],
+      "target_course_code": "FORE10022",
+      "target_course_name": "日耳曼学研究",
+      "target_terms": [
+        "2025秋"
+      ],
+      "target_teachers": [
+        "李双志",
+        "叶瑶"
+      ],
+      "review_ids": [
+        {
+          "id": "DANKE-4490",
+          "adopted": false,
+          "substantive": true
+        }
+      ],
+      "identity_note": "精确课程名匹配，历史课程代码不同，且历史教师不在对应目标学期教师名单中；作为历史课程背景保存，不外推为目标教师的评价。"
+    },
+    {
+      "historical_course_id": "4587",
+      "historical_course_name": "基础西班牙语Ⅰ",
+      "historical_course_code": "FORE110050",
+      "historical_term": "2022春",
+      "historical_department": "外国语言文学学院",
+      "historical_teacher": [
+        "王珑兴"
+      ],
+      "target_course_code": "GESF10010",
+      "target_course_name": "基础西班牙语Ⅰ",
+      "target_terms": [
+        "2025秋"
+      ],
+      "target_teachers": [
+        "蔡雅芝"
+      ],
+      "review_ids": [
+        {
+          "id": "DANKE-87",
+          "adopted": true,
+          "substantive": true
+        }
+      ],
+      "identity_note": "精确课程名匹配，历史课程代码不同，且历史教师不在对应目标学期教师名单中；作为历史课程背景保存，不外推为目标教师的评价。"
+    },
+    {
+      "historical_course_id": "4673",
+      "historical_course_name": "英语辩论",
+      "historical_course_code": "FORE130349",
+      "historical_term": "2022春",
+      "historical_department": "外国语言文学学院",
+      "historical_teacher": [
+        "Patrick Lorcan Thame"
+      ],
+      "target_course_code": "FORE20025",
+      "target_course_name": "英语辩论",
+      "target_terms": [
+        "2026春"
+      ],
+      "target_teachers": [
+        "高洁"
+      ],
+      "review_ids": [
+        {
+          "id": "DANKE-1676",
+          "adopted": false,
+          "substantive": true
+        }
+      ],
+      "identity_note": "精确课程名匹配，历史课程代码不同，且历史教师不在对应目标学期教师名单中；作为历史课程背景保存，不外推为目标教师的评价。"
+    },
+    {
+      "historical_course_id": "18358",
+      "historical_course_name": "日耳曼学研究",
+      "historical_course_code": "FORE130419",
+      "historical_term": "2020秋",
+      "historical_department": "外国语言文学学院",
+      "historical_teacher": [
+        "Maria Hofer"
+      ],
+      "target_course_code": "FORE10022",
+      "target_course_name": "日耳曼学研究",
+      "target_terms": [
+        "2025秋"
+      ],
+      "target_teachers": [
+        "李双志",
+        "叶瑶"
+      ],
+      "review_ids": [
+        {
+          "id": "DANKE-6804",
+          "adopted": false,
+          "substantive": true
+        }
+      ],
+      "identity_note": "精确课程名匹配，历史课程代码不同，且历史教师不在对应目标学期教师名单中；作为历史课程背景保存，不外推为目标教师的评价。"
+    },
+    {
+      "historical_course_id": "28625",
+      "historical_course_name": "基础德语Ⅰ",
+      "historical_course_code": "FORE110048",
+      "historical_term": "2023秋",
+      "historical_department": "外国语言文学学院",
+      "historical_teacher": [
+        "李双志"
+      ],
+      "target_course_code": "GESF10009",
+      "target_course_name": "基础德语Ⅰ",
+      "target_terms": [
+        "2025秋",
+        "2026春"
+      ],
+      "target_teachers": [
+        "李晶浩",
+        "Daniel Torsten Simon"
+      ],
+      "review_ids": [
+        {
+          "id": "DANKE-1684",
+          "adopted": true,
+          "substantive": true
+        }
+      ],
+      "identity_note": "精确课程名匹配，历史课程代码不同，且历史教师不在对应目标学期教师名单中；作为历史课程背景保存，不外推为目标教师的评价。"
+    },
+    {
+      "historical_course_id": "35128",
+      "historical_course_name": "基础西班牙语Ⅰ",
+      "historical_course_code": "FORE110050",
+      "historical_term": "2023春",
+      "historical_department": "外国语言文学学院",
+      "historical_teacher": [
+        "王语琪"
+      ],
+      "target_course_code": "GESF10010",
+      "target_course_name": "基础西班牙语Ⅰ",
+      "target_terms": [
+        "2025秋"
+      ],
+      "target_teachers": [
+        "蔡雅芝"
+      ],
+      "review_ids": [
+        {
+          "id": "DANKE-1767",
+          "adopted": true,
+          "substantive": true
+        },
+        {
+          "id": "DANKE-3657",
+          "adopted": true,
+          "substantive": true
+        }
+      ],
+      "identity_note": "精确课程名匹配，历史课程代码不同，且历史教师不在对应目标学期教师名单中；作为历史课程背景保存，不外推为目标教师的评价。"
+    },
+    {
+      "historical_course_id": "35225",
+      "historical_course_name": "写作入门(下)",
+      "historical_course_code": "FORE130351",
+      "historical_term": "2023春",
+      "historical_department": "外国语言文学学院",
+      "historical_teacher": [
+        "秦文娟"
+      ],
+      "target_course_code": "FORE10017",
+      "target_course_name": "写作入门(下)",
+      "target_terms": [
+        "2026春"
+      ],
+      "target_teachers": [
+        "Russell Benjamin Palmer",
+        "Alexander David Smith"
+      ],
+      "review_ids": [
+        {
+          "id": "DANKE-1677",
+          "adopted": true,
+          "substantive": false
+        }
+      ],
+      "identity_note": "精确课程名匹配，历史课程代码不同，且历史教师不在对应目标学期教师名单中；作为历史课程背景保存，不外推为目标教师的评价。"
+    },
+    {
+      "historical_course_id": "38675",
+      "historical_course_name": "基础俄语Ⅰ",
+      "historical_course_code": "FORE110040",
+      "historical_term": "2024秋",
+      "historical_department": "外国语言文学学院",
+      "historical_teacher": [
+        "赵世锋"
+      ],
+      "target_course_code": "GESF10005",
+      "target_course_name": "基础俄语Ⅰ",
+      "target_terms": [
+        "2025秋",
+        "2026春"
+      ],
+      "target_teachers": [
+        "汪海霞",
+        "汪吉"
+      ],
+      "review_ids": [
+        {
+          "id": "DANKE-2405",
+          "adopted": true,
+          "substantive": true
+        },
+        {
+          "id": "DANKE-2580",
+          "adopted": true,
+          "substantive": true
+        },
+        {
+          "id": "DANKE-3323",
+          "adopted": true,
+          "substantive": true
+        }
+      ],
+      "identity_note": "精确课程名匹配，历史课程代码不同，且历史教师不在对应目标学期教师名单中；作为历史课程背景保存，不外推为目标教师的评价。"
+    },
+    {
+      "historical_course_id": "42351",
+      "historical_course_name": "基础西班牙语Ⅰ",
+      "historical_course_code": "FORE110050",
+      "historical_term": "2024春",
+      "historical_department": "外国语言文学学院",
+      "historical_teacher": [
+        "王语琪"
+      ],
+      "target_course_code": "GESF10010",
+      "target_course_name": "基础西班牙语Ⅰ",
+      "target_terms": [
+        "2025秋"
+      ],
+      "target_teachers": [
+        "蔡雅芝"
+      ],
+      "review_ids": [
+        {
+          "id": "DANKE-2007",
+          "adopted": true,
+          "substantive": true
+        }
+      ],
+      "identity_note": "精确课程名匹配，历史课程代码不同，且历史教师不在对应目标学期教师名单中；作为历史课程背景保存，不外推为目标教师的评价。"
+    },
+    {
+      "historical_course_id": "45774",
+      "historical_course_name": "强国之路：形势、政策与使命III",
+      "historical_course_code": "PTSS110093.",
+      "historical_term": "2024秋",
+      "historical_department": "外国语言文学学院",
+      "historical_teacher": [
+        "李双志"
+      ],
+      "target_course_code": "GESP20003",
+      "target_course_name": "强国之路：形势、政策与使命Ⅲ",
+      "target_terms": [
+        "2025秋"
+      ],
+      "target_teachers": [
+        "鹿秀川",
+        "张会见",
+        "李佳颖",
+        "陈靓",
+        "杨娅雯",
+        "孔婧倩",
+        "郭一诚",
+        "吕广钊",
+        "廖静",
+        "王语琪"
+      ],
+      "review_ids": [
+        {
+          "id": "DANKE-3018",
+          "adopted": true,
+          "substantive": true
+        }
+      ],
+      "identity_note": "精确课程名匹配，历史课程代码不同，且历史教师不在对应目标学期教师名单中；作为历史课程背景保存，不外推为目标教师的评价。"
+    },
+    {
+      "historical_course_id": "47610",
+      "historical_course_name": "基础日语 II",
+      "historical_course_code": "FORE110045",
+      "historical_term": "2025春",
+      "historical_department": "外国语言文学学院",
+      "historical_teacher": [
+        "周菲菲"
+      ],
+      "target_course_code": "GESF20003",
+      "target_course_name": "基础日语 II",
+      "target_terms": [
+        "2025秋",
+        "2026春"
+      ],
+      "target_teachers": [
+        "王菁洁",
+        "傅梦菊"
+      ],
+      "review_ids": [
+        {
+          "id": "DANKE-3544",
+          "adopted": true,
+          "substantive": true
+        },
+        {
+          "id": "DANKE-3892",
+          "adopted": true,
+          "substantive": true
+        }
+      ],
+      "identity_note": "精确课程名匹配，历史课程代码不同，且历史教师不在对应目标学期教师名单中；作为历史课程背景保存，不外推为目标教师的评价。"
+    }
+  ],
+  "privacy": "No reviewer identity or original review body is included. Summaries in the companion files are anonymous paraphrases."
+}

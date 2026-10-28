@@ -1,0 +1,79 @@
+{
+  "audit_date": "2026-10-28",
+  "qa_status": "verified_pre_refresh",
+  "scope": "read-only output audit; no credential files read; wrote only this scratch QA JSON",
+  "official_plans": {
+    "directory_count": 25,
+    "docx_count": 25,
+    "detail_json_count": 25,
+    "manifest_sha256_matches": 25,
+    "docx_zip_xml_and_2026_body_pass": 25,
+    "department_grade_plan_identity_matches": 25,
+    "pass": true
+  },
+  "official_schedules": {
+    "department_id": 2551,
+    "class_rows": {
+      "2025秋": 284,
+      "2026春": 334,
+      "total": 618
+    },
+    "unique_class_ids": 618,
+    "unique_course_codes": 455,
+    "cross_department_rows": 0,
+    "raw_api_pagination_matches": true,
+    "pass": true
+  },
+  "report_data": {
+    "courses": 455,
+    "unique_course_codes": 455,
+    "evidence_rows_in_current_output": 121,
+    "unique_evidence_ids": 121,
+    "invalid_evidence_course_code_rows": 0,
+    "broken_course_to_evidence_references": 0,
+    "duplicate_coverage_keys": 0,
+    "pass_for_current_snapshot": true
+  },
+  "query_manifests": {
+    "danke": {
+      "queries": 2167,
+      "unique_ids": 2167,
+      "non_generic": 2161,
+      "generic": 6,
+      "manifest_ids_completed": 2167,
+      "pass": true,
+      "stale_ledger_extras_ignored": 1
+    },
+    "forum": {
+      "queries": 2167,
+      "unique_ids": 2167,
+      "non_generic": 2161,
+      "generic": 6,
+      "manifest_ids_completed": 2167,
+      "pass": true,
+      "stale_ledger_extras_ignored": 293
+    }
+  },
+  "word_links": {
+    "relative_docx_links_checked": 25,
+    "missing": 0,
+    "manifest_word_files_exist": true,
+    "pass": true
+  },
+  "privacy_scan": {
+    "credential_pattern_hits": 0,
+    "student_identity_key_hits": 0,
+    "contact_fields_or_student_numbers_detected": 0,
+    "phone_regex_candidates": 16,
+    "phone_regex_candidate_explanation": "Eight search identifiers appear twice (HTML and CSV), only in the 检索编号 field; none occur in query text or identity fields.",
+    "full_review_bodies_exported": 0,
+    "long_raw_body_fields_over_200_chars": 0,
+    "long_markdown_blocks": "Four blocks are bullet lists (maximum line 202 chars); one is a table (maximum line 129 chars). No raw review body detected.",
+    "pass": true
+  },
+  "pending_before_release": [
+    "Current delivery output contains 121 evidence rows; refresh from the latest forum evidence is expected to bring it to 122.",
+    "Root identified and plans to repair the relative coverage_audit.json link in 历史课评整理/在线详情身份与覆盖核对.md."
+  ],
+  "overall_readiness": "awaiting_root_refresh_and_known_link_repair"
+}
