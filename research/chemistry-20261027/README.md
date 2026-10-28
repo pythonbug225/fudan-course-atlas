@@ -20,9 +20,9 @@
 
 树洞与蛋壳摘要位于 `danke_review_summaries.json`、`forum_discussion_summaries.json`；`course_syntheses.json` 记录学生评价判断所依据的来源 ID，以及仅基于对应教学班大纲的说明，`course_resources.json` 存储已核对的课程资料链接。树洞课评中的问课、未经确认的选课建议与修读体验分开标注。
 
-树洞高频截断后的分时段进度快照见 `forum_split_coverage.json`，课程未确认的讨论线索见 `forum_unmapped_leads.json`。从其他研究本地缓存补出的整洞阅读审计见 `forum_full_thread_audit.json`，独立抽查及已更正项目见 `forum_correction_audit.json`；已删除楼层不用于课程判断。
+树洞高频截断后的分时段进度快照见 `forum_split_coverage.json`，课程未确认的讨论线索见 `forum_unmapped_leads.json`。从其他研究本地缓存补出的整洞阅读审计见 `forum_full_thread_audit.json`，独立抽查及已更正项目见 `forum_correction_audit.json`；对其他研究缓存的关键词机筛范围与未确认线索见 `forum_cross_cache_screening.json`；已删除楼层不用于课程判断。
 
-公开平台逐课状态见 `public_web_coverage.json`；2026-10-28 按课程全名补查的公开网页索引台账见 `full_name_web_audit_front.json`，搜索引擎空结果不等同平台站内查完。已读但尚不能归入具体课号的资料见 `public_web_unmapped_sources.json`，公众号相关官方转载与搜索边界分别见 `wechat_public_sources.json`、`wechat_public_coverage.json` 和 `wechat_search_manifest.json`。课程族信息或教师姓名不一致的来源须继续核对，不能自动套用现授班。
+公开平台逐课状态见 `public_web_coverage.json`；2026-10-28 按课程全名补查的公开网页索引台账见 `full_name_web_audit_front.json` 和 `full_name_web_audit_rear.json`，搜索引擎空结果不等同平台站内查完。已读但尚不能归入具体课号的资料见 `public_web_unmapped_sources.json`，公众号相关官方转载与搜索边界分别见 `wechat_public_sources.json`、`wechat_public_coverage.json` 和 `wechat_search_manifest.json`。课程族信息或教师姓名不一致的来源须继续核对，不能自动套用现授班。
 
 ## 课评检索与待完成工作
 

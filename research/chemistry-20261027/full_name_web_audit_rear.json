@@ -1,0 +1,3385 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-10-28",
+  "scope": {
+    "source_file": "official_evidence.json",
+    "course_list_positions_inclusive": [
+      74,
+      145
+    ],
+    "course_count": 72,
+    "coverage_snapshot": "public_web_coverage.json generated 2026-10-28 03:04:35",
+    "platforms": [
+      "zhihu",
+      "xiaohongshu",
+      "wechat_sogou"
+    ],
+    "search_rule": "Only the official full course name plus Fudan context, with platform domain filter; no teacher, course code, aliases, or pinyin.",
+    "prior_agent_skip_course_codes": [
+      "CHEM10002",
+      "CHEM10004",
+      "CHEM10006",
+      "CHEM20002",
+      "CHEM20004",
+      "CHEM20006",
+      "CHEM20007",
+      "CHEM20020",
+      "CHEM30032"
+    ],
+    "prior_agent_skip_note": "Nine codes were reported by the parent as searched by the prior agent and were not repeated.",
+    "public_wechat_method": "公开网页索引限定 mp.weixin.qq.com 域名；并非搜狗微信站内检索。"
+  },
+  "run_summary": {
+    "courses_in_scope": 72,
+    "courses_skipped_per_prior_agent_instruction": 9,
+    "courses_with_new_platform_queries": 12,
+    "new_query_count_by_platform": {
+      "zhihu": 12,
+      "xiaohongshu": 12,
+      "wechat_sogou": 8
+    },
+    "new_trusted_course_review_candidates": 0,
+    "caveat": "Empty or unrelated search results do not prove that no student reviews exist."
+  },
+  "platform_batch_results": [
+    {
+      "batch_id": "ZH-B1",
+      "platform": "zhihu",
+      "course_codes": [
+        "CHEM70014",
+        "CHEM70015",
+        "CHEM70016",
+        "CHEM70019"
+      ],
+      "result_status": "unrelated_results",
+      "evidence": "Generic textbook/topic material, including a general 配位化学 history page; no Fudan course, teacher, term, or student review identified."
+    },
+    {
+      "batch_id": "XHS-B1",
+      "platform": "xiaohongshu",
+      "course_codes": [
+        "CHEM70014",
+        "CHEM70015",
+        "CHEM70016",
+        "CHEM70019"
+      ],
+      "result_status": "unrelated_result",
+      "evidence": "Only a platform rules page appeared."
+    },
+    {
+      "batch_id": "WX-B1",
+      "platform": "wechat_sogou",
+      "course_codes": [
+        "CHEM70014",
+        "CHEM70015",
+        "CHEM70016",
+        "CHEM70019"
+      ],
+      "result_status": "empty_search_results",
+      "evidence": "No results for the four full-name queries."
+    },
+    {
+      "batch_id": "ZH-B2",
+      "platform": "zhihu",
+      "course_codes": [
+        "CHEM70020",
+        "CHEM70023",
+        "CHEM70028",
+        "CHEM70030"
+      ],
+      "result_status": "unrelated_results",
+      "evidence": "Generic technical, topic, industry, or market pages; no identifiable Fudan student course review."
+    },
+    {
+      "batch_id": "XHS-B2",
+      "platform": "xiaohongshu",
+      "course_codes": [
+        "CHEM70020",
+        "CHEM70023",
+        "CHEM70028",
+        "CHEM70030"
+      ],
+      "result_status": "empty_search_results",
+      "evidence": "No results for the four full-name queries."
+    },
+    {
+      "batch_id": "ZH-B3",
+      "platform": "zhihu",
+      "course_codes": [
+        "CHEM20009",
+        "CHEM20018",
+        "CHEM20019",
+        "CHEM20023"
+      ],
+      "result_status": "unrelated_results",
+      "evidence": "Generic postgraduate exam-preparation and unrelated pages; no identifiable Fudan student course review."
+    },
+    {
+      "batch_id": "XHS-B3",
+      "platform": "xiaohongshu",
+      "course_codes": [
+        "CHEM20009",
+        "CHEM20018",
+        "CHEM20019",
+        "CHEM20023"
+      ],
+      "result_status": "empty_search_results",
+      "evidence": "No results for the four full-name queries."
+    },
+    {
+      "batch_id": "WX-B3",
+      "platform": "wechat_sogou",
+      "course_codes": [
+        "CHEM20009",
+        "CHEM20018",
+        "CHEM20019",
+        "CHEM20023"
+      ],
+      "result_status": "empty_search_results",
+      "evidence": "No results for the four full-name queries."
+    }
+  ],
+  "trusted_candidates": [],
+  "unresolved_leads": [
+    {
+      "course_code": "CHEM70024",
+      "course_name": "X-射线衍射分析技术",
+      "source_id": "CHEM-SRC-XHS-0007",
+      "url": "https://www.xiaohongshu.com/explore/6ac78f2e00000000180195ee",
+      "prior_coverage_status": "partial_candidate_requires_full_context",
+      "followup_status": "web_tool_reported_url_inaccessible",
+      "read_status": "not_read",
+      "note": "Prior coverage says only the title, description, four comments and first of eight images were checked; XRD lecture notes appeared in the first image, but school, teacher, and reviewer identity were unverified. Lead only, not a trusted course-review candidate."
+    }
+  ],
+  "courses": [
+    {
+      "index": 74,
+      "course_code": "CHEM70014",
+      "course_name": "化学工艺学",
+      "terms": [
+        "2025秋"
+      ],
+      "coverage_state_snapshot": "query_attempt_no_review",
+      "preexisting_public_record_ids": [],
+      "platforms": {
+        "zhihu": {
+          "search_status": "searched_no_attributable_course_review_candidate",
+          "coverage_statuses": [
+            "pending"
+          ],
+          "query_attempted": true,
+          "actual_query": "\"化学工艺学\" 复旦; domain filter zhihu.com",
+          "planned_query_if_not_run": null,
+          "batch_id": "ZH-B1",
+          "note": "Exact course title was queried; no identifiable student review was found in the sampled batch."
+        },
+        "xiaohongshu": {
+          "search_status": "searched_no_attributable_course_review_candidate",
+          "coverage_statuses": [
+            "pending"
+          ],
+          "query_attempted": true,
+          "actual_query": "\"化学工艺学\" 复旦; domain filter xiaohongshu.com",
+          "planned_query_if_not_run": null,
+          "batch_id": "XHS-B1",
+          "note": "Exact course title was queried; no identifiable student review was found in the sampled batch."
+        },
+        "wechat_sogou": {
+          "search_status": "searched_no_attributable_course_review_candidate",
+          "coverage_statuses": [
+            "pending"
+          ],
+          "query_attempted": true,
+          "actual_query": "\"化学工艺学\" 复旦; domain filter mp.weixin.qq.com",
+          "planned_query_if_not_run": null,
+          "batch_id": "WX-B1",
+          "note": "Exact course title was queried; no identifiable student review was found in the sampled batch."
+        }
+      }
+    },
+    {
+      "index": 75,
+      "course_code": "CHEM70015",
+      "course_name": "二氧化钛纳米材料合成、性质及光催化应用",
+      "terms": [
+        "2025秋"
+      ],
+      "coverage_state_snapshot": "query_attempt_no_review",
+      "preexisting_public_record_ids": [],
+      "platforms": {
+        "zhihu": {
+          "search_status": "searched_no_attributable_course_review_candidate",
+          "coverage_statuses": [
+            "pending"
+          ],
+          "query_attempted": true,
+          "actual_query": "\"二氧化钛纳米材料合成、性质及光催化应用\" 复旦; domain filter zhihu.com",
+          "planned_query_if_not_run": null,
+          "batch_id": "ZH-B1",
+          "note": "Exact course title was queried; no identifiable student review was found in the sampled batch."
+        },
+        "xiaohongshu": {
+          "search_status": "searched_no_attributable_course_review_candidate",
+          "coverage_statuses": [
+            "pending"
+          ],
+          "query_attempted": true,
+          "actual_query": "\"二氧化钛纳米材料合成、性质及光催化应用\" 复旦; domain filter xiaohongshu.com",
+          "planned_query_if_not_run": null,
+          "batch_id": "XHS-B1",
+          "note": "Exact course title was queried; no identifiable student review was found in the sampled batch."
+        },
+        "wechat_sogou": {
+          "search_status": "searched_no_attributable_course_review_candidate",
+          "coverage_statuses": [
+            "pending"
+          ],
+          "query_attempted": true,
+          "actual_query": "\"二氧化钛纳米材料合成、性质及光催化应用\" 复旦; domain filter mp.weixin.qq.com",
+          "planned_query_if_not_run": null,
+          "batch_id": "WX-B1",
+          "note": "Exact course title was queried; no identifiable student review was found in the sampled batch."
+        }
+      }
+    },
+    {
+      "index": 76,
+      "course_code": "CHEM70016",
+      "course_name": "固体化学",
+      "terms": [
+        "2025秋"
+      ],
+      "coverage_state_snapshot": "query_attempt_no_review",
+      "preexisting_public_record_ids": [],
+      "platforms": {
+        "zhihu": {
+          "search_status": "searched_no_attributable_course_review_candidate",
+          "coverage_statuses": [
+            "pending"
+          ],
+          "query_attempted": true,
+          "actual_query": "\"固体化学\" 复旦; domain filter zhihu.com",
+          "planned_query_if_not_run": null,
+          "batch_id": "ZH-B1",
+          "note": "Exact course title was queried; no identifiable student review was found in the sampled batch."
+        },
+        "xiaohongshu": {
+          "search_status": "searched_no_attributable_course_review_candidate",
+          "coverage_statuses": [
+            "pending"
+          ],
+          "query_attempted": true,
+          "actual_query": "\"固体化学\" 复旦; domain filter xiaohongshu.com",
+          "planned_query_if_not_run": null,
+          "batch_id": "XHS-B1",
+          "note": "Exact course title was queried; no identifiable student review was found in the sampled batch."
+        },
+        "wechat_sogou": {
+          "search_status": "searched_no_attributable_course_review_candidate",
+          "coverage_statuses": [
+            "pending"
+          ],
+          "query_attempted": true,
+          "actual_query": "\"固体化学\" 复旦; domain filter mp.weixin.qq.com",
+          "planned_query_if_not_run": null,
+          "batch_id": "WX-B1",
+          "note": "Exact course title was queried; no identifiable student review was found in the sampled batch."
+        }
+      }
+    },
+    {
+      "index": 77,
+      "course_code": "CHEM70019",
+      "course_name": "配位化学",
+      "terms": [
+        "2025秋"
+      ],
+      "coverage_state_snapshot": "query_attempt_no_review",
+      "preexisting_public_record_ids": [],
+      "platforms": {
+        "zhihu": {
+          "search_status": "searched_no_attributable_course_review_candidate",
+          "coverage_statuses": [
+            "pending"
+          ],
+          "query_attempted": true,
+          "actual_query": "\"配位化学\" 复旦; domain filter zhihu.com",
+          "planned_query_if_not_run": null,
+          "batch_id": "ZH-B1",
+          "note": "Exact course title was queried; no identifiable student review was found in the sampled batch."
+        },
+        "xiaohongshu": {
+          "search_status": "searched_no_attributable_course_review_candidate",
+          "coverage_statuses": [
+            "pending"
+          ],
+          "query_attempted": true,
+          "actual_query": "\"配位化学\" 复旦; domain filter xiaohongshu.com",
+          "planned_query_if_not_run": null,
+          "batch_id": "XHS-B1",
+          "note": "Exact course title was queried; no identifiable student review was found in the sampled batch."
+        },
+        "wechat_sogou": {
+          "search_status": "searched_no_attributable_course_review_candidate",
+          "coverage_statuses": [
+            "pending"
+          ],
+          "query_attempted": true,
+          "actual_query": "\"配位化学\" 复旦; domain filter mp.weixin.qq.com",
+          "planned_query_if_not_run": null,
+          "batch_id": "WX-B1",
+          "note": "Exact course title was queried; no identifiable student review was found in the sampled batch."
+        }
+      }
+    },
+    {
+      "index": 78,
+      "course_code": "CHEM70020",
+      "course_name": "金属有机化学在有机合成中应用",
+      "terms": [
+        "2025秋"
+      ],
+      "coverage_state_snapshot": "query_attempt_no_review",
+      "preexisting_public_record_ids": [],
+      "platforms": {
+        "zhihu": {
+          "search_status": "searched_no_attributable_course_review_candidate",
+          "coverage_statuses": [
+            "pending"
+          ],
+          "query_attempted": true,
+          "actual_query": "\"金属有机化学在有机合成中应用\" 复旦; domain filter zhihu.com",
+          "planned_query_if_not_run": null,
+          "batch_id": "ZH-B2",
+          "note": "Exact course title was queried; no identifiable student review was found in the sampled batch."
+        },
+        "xiaohongshu": {
+          "search_status": "searched_no_attributable_course_review_candidate",
+          "coverage_statuses": [
+            "pending"
+          ],
+          "query_attempted": true,
+          "actual_query": "\"金属有机化学在有机合成中应用\" 复旦; domain filter xiaohongshu.com",
+          "planned_query_if_not_run": null,
+          "batch_id": "XHS-B2",
+          "note": "Exact course title was queried; no identifiable student review was found in the sampled batch."
+        },
+        "wechat_sogou": {
+          "search_status": "not_run_after_unproductive_index_batches",
+          "coverage_statuses": [
+            "pending"
+          ],
+          "query_attempted": false,
+          "actual_query": null,
+          "planned_query_if_not_run": "site:mp.weixin.qq.com \"金属有机化学在有机合成中应用\" 复旦",
+          "batch_id": null,
+          "note": "Coverage still marked this exact-name query pending; it was not run after sampled batches were empty or unrelated. This does not establish absence of reviews."
+        }
+      }
+    },
+    {
+      "index": 79,
+      "course_code": "CHEM70023",
+      "course_name": "固态化学",
+      "terms": [
+        "2025秋"
+      ],
+      "coverage_state_snapshot": "query_attempt_no_review",
+      "preexisting_public_record_ids": [],
+      "platforms": {
+        "zhihu": {
+          "search_status": "searched_no_attributable_course_review_candidate",
+          "coverage_statuses": [
+            "pending"
+          ],
+          "query_attempted": true,
+          "actual_query": "\"固态化学\" 复旦; domain filter zhihu.com",
+          "planned_query_if_not_run": null,
+          "batch_id": "ZH-B2",
+          "note": "Exact course title was queried; no identifiable student review was found in the sampled batch."
+        },
+        "xiaohongshu": {
+          "search_status": "searched_no_attributable_course_review_candidate",
+          "coverage_statuses": [
+            "pending"
+          ],
+          "query_attempted": true,
+          "actual_query": "\"固态化学\" 复旦; domain filter xiaohongshu.com",
+          "planned_query_if_not_run": null,
+          "batch_id": "XHS-B2",
+          "note": "Exact course title was queried; no identifiable student review was found in the sampled batch."
+        },
+        "wechat_sogou": {
+          "search_status": "not_run_after_unproductive_index_batches",
+          "coverage_statuses": [
+            "pending"
+          ],
+          "query_attempted": false,
+          "actual_query": null,
+          "planned_query_if_not_run": "site:mp.weixin.qq.com \"固态化学\" 复旦",
+          "batch_id": null,
+          "note": "Coverage still marked this exact-name query pending; it was not run after sampled batches were empty or unrelated. This does not establish absence of reviews."
+        }
+      }
+    },
+    {
+      "index": 80,
+      "course_code": "CHEM70028",
+      "course_name": "XPS技术及其在化学中的应用",
+      "terms": [
+        "2025秋"
+      ],
+      "coverage_state_snapshot": "query_attempt_no_review",
+      "preexisting_public_record_ids": [],
+      "platforms": {
+        "zhihu": {
+          "search_status": "searched_no_attributable_course_review_candidate",
+          "coverage_statuses": [
+            "pending"
+          ],
+          "query_attempted": true,
+          "actual_query": "\"XPS技术及其在化学中的应用\" 复旦; domain filter zhihu.com",
+          "planned_query_if_not_run": null,
+          "batch_id": "ZH-B2",
+          "note": "Exact course title was queried; no identifiable student review was found in the sampled batch."
+        },
+        "xiaohongshu": {
+          "search_status": "searched_no_attributable_course_review_candidate",
+          "coverage_statuses": [
+            "pending"
+          ],
+          "query_attempted": true,
+          "actual_query": "\"XPS技术及其在化学中的应用\" 复旦; domain filter xiaohongshu.com",
+          "planned_query_if_not_run": null,
+          "batch_id": "XHS-B2",
+          "note": "Exact course title was queried; no identifiable student review was found in the sampled batch."
+        },
+        "wechat_sogou": {
+          "search_status": "not_run_after_unproductive_index_batches",
+          "coverage_statuses": [
+            "pending"
+          ],
+          "query_attempted": false,
+          "actual_query": null,
+          "planned_query_if_not_run": "site:mp.weixin.qq.com \"XPS技术及其在化学中的应用\" 复旦",
+          "batch_id": null,
+          "note": "Coverage still marked this exact-name query pending; it was not run after sampled batches were empty or unrelated. This does not establish absence of reviews."
+        }
+      }
+    },
+    {
+      "index": 81,
+      "course_code": "CHEM70030",
+      "course_name": "催化反应机理及其研究方法",
+      "terms": [
+        "2025秋"
+      ],
+      "coverage_state_snapshot": "query_attempt_no_review",
+      "preexisting_public_record_ids": [],
+      "platforms": {
+        "zhihu": {
+          "search_status": "searched_no_attributable_course_review_candidate",
+          "coverage_statuses": [
+            "pending"
+          ],
+          "query_attempted": true,
+          "actual_query": "\"催化反应机理及其研究方法\" 复旦; domain filter zhihu.com",
+          "planned_query_if_not_run": null,
+          "batch_id": "ZH-B2",
+          "note": "Exact course title was queried; no identifiable student review was found in the sampled batch."
+        },
+        "xiaohongshu": {
+          "search_status": "searched_no_attributable_course_review_candidate",
+          "coverage_statuses": [
+            "pending"
+          ],
+          "query_attempted": true,
+          "actual_query": "\"催化反应机理及其研究方法\" 复旦; domain filter xiaohongshu.com",
+          "planned_query_if_not_run": null,
+          "batch_id": "XHS-B2",
+          "note": "Exact course title was queried; no identifiable student review was found in the sampled batch."
+        },
+        "wechat_sogou": {
+          "search_status": "not_run_after_unproductive_index_batches",
+          "coverage_statuses": [
+            "pending"
+          ],
+          "query_attempted": false,
+          "actual_query": null,
+          "planned_query_if_not_run": "site:mp.weixin.qq.com \"催化反应机理及其研究方法\" 复旦",
+          "batch_id": null,
+          "note": "Coverage still marked this exact-name query pending; it was not run after sampled batches were empty or unrelated. This does not establish absence of reviews."
+        }
+      }
+    },
+    {
+      "index": 82,
+      "course_code": "CHEM70032",
+      "course_name": "分子聚集体材料和超薄膜",
+      "terms": [
+        "2025秋"
+      ],
+      "coverage_state_snapshot": "query_attempt_no_review",
+      "preexisting_public_record_ids": [],
+      "platforms": {
+        "zhihu": {
+          "search_status": "not_run_after_unproductive_index_batches",
+          "coverage_statuses": [
+            "pending"
+          ],
+          "query_attempted": false,
+          "actual_query": null,
+          "planned_query_if_not_run": "site:zhihu.com \"分子聚集体材料和超薄膜\" 复旦",
+          "batch_id": null,
+          "note": "Coverage still marked this exact-name query pending; it was not run after sampled batches were empty or unrelated. This does not establish absence of reviews."
+        },
+        "xiaohongshu": {
+          "search_status": "not_run_after_unproductive_index_batches",
+          "coverage_statuses": [
+            "pending"
+          ],
+          "query_attempted": false,
+          "actual_query": null,
+          "planned_query_if_not_run": "site:xiaohongshu.com \"分子聚集体材料和超薄膜\" 复旦",
+          "batch_id": null,
+          "note": "Coverage still marked this exact-name query pending; it was not run after sampled batches were empty or unrelated. This does not establish absence of reviews."
+        },
+        "wechat_sogou": {
+          "search_status": "not_run_after_unproductive_index_batches",
+          "coverage_statuses": [
+            "pending"
+          ],
+          "query_attempted": false,
+          "actual_query": null,
+          "planned_query_if_not_run": "site:mp.weixin.qq.com \"分子聚集体材料和超薄膜\" 复旦",
+          "batch_id": null,
+          "note": "Coverage still marked this exact-name query pending; it was not run after sampled batches were empty or unrelated. This does not establish absence of reviews."
+        }
+      }
+    },
+    {
+      "index": 83,
+      "course_code": "CHEM70033",
+      "course_name": "科学仪器基础",
+      "terms": [
+        "2025秋"
+      ],
+      "coverage_state_snapshot": "query_attempt_no_review",
+      "preexisting_public_record_ids": [],
+      "platforms": {
+        "zhihu": {
+          "search_status": "not_run_after_unproductive_index_batches",
+          "coverage_statuses": [
+            "pending"
+          ],
+          "query_attempted": false,
+          "actual_query": null,
+          "planned_query_if_not_run": "site:zhihu.com \"科学仪器基础\" 复旦",
+          "batch_id": null,
+          "note": "Coverage still marked this exact-name query pending; it was not run after sampled batches were empty or unrelated. This does not establish absence of reviews."
+        },
+        "xiaohongshu": {
+          "search_status": "not_run_after_unproductive_index_batches",
+          "coverage_statuses": [
+            "pending"
+          ],
+          "query_attempted": false,
+          "actual_query": null,
+          "planned_query_if_not_run": "site:xiaohongshu.com \"科学仪器基础\" 复旦",
+          "batch_id": null,
+          "note": "Coverage still marked this exact-name query pending; it was not run after sampled batches were empty or unrelated. This does not establish absence of reviews."
+        },
+        "wechat_sogou": {
+          "search_status": "not_run_after_unproductive_index_batches",
+          "coverage_statuses": [
+            "pending"
+          ],
+          "query_attempted": false,
+          "actual_query": null,
+          "planned_query_if_not_run": "site:mp.weixin.qq.com \"科学仪器基础\" 复旦",
+          "batch_id": null,
+          "note": "Coverage still marked this exact-name query pending; it was not run after sampled batches were empty or unrelated. This does not establish absence of reviews."
+        }
+      }
+    },
+    {
+      "index": 84,
+      "course_code": "GEEC10038",
+      "course_name": "元素发现史",
+      "terms": [
+        "2025秋"
+      ],
+      "coverage_state_snapshot": "query_attempt_no_review",
+      "preexisting_public_record_ids": [],
+      "platforms": {
+        "zhihu": {
+          "search_status": "previously_covered_not_repeated",
+          "coverage_statuses": [
+            "completed_no_specific_course_review_candidate"
+          ],
+          "query_attempted": false,
+          "actual_query": null,
+          "planned_query_if_not_run": null,
+          "batch_id": null,
+          "note": "Exact-name platform search already appears in public_web_coverage.json; not repeated."
+        },
+        "xiaohongshu": {
+          "search_status": "previously_covered_not_repeated",
+          "coverage_statuses": [
+            "completed_no_specific_course_review_candidate"
+          ],
+          "query_attempted": false,
+          "actual_query": null,
+          "planned_query_if_not_run": null,
+          "batch_id": null,
+          "note": "Exact-name platform search already appears in public_web_coverage.json; not repeated."
+        },
+        "wechat_sogou": {
+          "search_status": "not_run_after_unproductive_index_batches",
+          "coverage_statuses": [
+            "pending"
+          ],
+          "query_attempted": false,
+          "actual_query": null,
+          "planned_query_if_not_run": "site:mp.weixin.qq.com \"元素发现史\" 复旦",
+          "batch_id": null,
+          "note": "Coverage still marked this exact-name query pending; it was not run after sampled batches were empty or unrelated. This does not establish absence of reviews."
+        }
+      }
+    },
+    {
+      "index": 85,
+      "course_code": "GEIN10002",
+      "course_name": "微流控芯片实验室",
+      "terms": [
+        "2025秋"
+      ],
+      "coverage_state_snapshot": "read_course_family_not_mapped",
+      "preexisting_public_record_ids": [],
+      "platforms": {
+        "zhihu": {
+          "search_status": "previously_covered_not_repeated",
+          "coverage_statuses": [
+            "completed_no_specific_course_review_candidate"
+          ],
+          "query_attempted": false,
+          "actual_query": null,
+          "planned_query_if_not_run": null,
+          "batch_id": null,
+          "note": "Exact-name platform search already appears in public_web_coverage.json; not repeated."
+        },
+        "xiaohongshu": {
+          "search_status": "previously_covered_not_repeated",
+          "coverage_statuses": [
+            "completed_no_specific_course_review_candidate"
+          ],
+          "query_attempted": false,
+          "actual_query": null,
+          "planned_query_if_not_run": null,
+          "batch_id": null,
+          "note": "Exact-name platform search already appears in public_web_coverage.json; not repeated."
+        },
+        "wechat_sogou": {
+          "search_status": "not_run_after_unproductive_index_batches",
+          "coverage_statuses": [
+            "pending"
+          ],
+          "query_attempted": false,
+          "actual_query": null,
+          "planned_query_if_not_run": "site:mp.weixin.qq.com \"微流控芯片实验室\" 复旦",
+          "batch_id": null,
+          "note": "Coverage still marked this exact-name query pending; it was not run after sampled batches were empty or unrelated. This does not establish absence of reviews."
+        }
+      }
+    },
+    {
+      "index": 86,
+      "course_code": "GESP20003",
+      "course_name": "强国之路:形势、政策与使命III",
+      "terms": [
+        "2025秋"
+      ],
+      "coverage_state_snapshot": "read_course_family_not_mapped",
+      "preexisting_public_record_ids": [],
+      "platforms": {
+        "zhihu": {
+          "search_status": "no_pending_full_name_query_in_snapshot",
+          "coverage_statuses": [],
+          "query_attempted": false,
+          "actual_query": null,
+          "planned_query_if_not_run": null,
+          "batch_id": null,
+          "note": "No pending exact-name query was recorded in the coverage snapshot; no new search was run."
+        },
+        "xiaohongshu": {
+          "search_status": "no_pending_full_name_query_in_snapshot",
+          "coverage_statuses": [],
+          "query_attempted": false,
+          "actual_query": null,
+          "planned_query_if_not_run": null,
+          "batch_id": null,
+          "note": "No pending exact-name query was recorded in the coverage snapshot; no new search was run."
+        },
+        "wechat_sogou": {
+          "search_status": "not_run_after_unproductive_index_batches",
+          "coverage_statuses": [],
+          "query_attempted": false,
+          "actual_query": null,
+          "planned_query_if_not_run": "site:mp.weixin.qq.com \"强国之路:形势、政策与使命III\" 复旦",
+          "batch_id": null,
+          "note": "Coverage still marked this exact-name query pending; it was not run after sampled batches were empty or unrelated. This does not establish absence of reviews."
+        }
+      }
+    },
+    {
+      "index": 87,
+      "course_code": "AIS531005",
+      "course_name": "人工智能化学计算模拟",
+      "terms": [
+        "2026春"
+      ],
+      "coverage_state_snapshot": "query_attempt_no_review",
+      "preexisting_public_record_ids": [],
+      "platforms": {
+        "zhihu": {
+          "search_status": "previously_covered_not_repeated",
+          "coverage_statuses": [
+            "completed_no_specific_course_review_candidate"
+          ],
+          "query_attempted": false,
+          "actual_query": null,
+          "planned_query_if_not_run": null,
+          "batch_id": null,
+          "note": "Exact-name platform search already appears in public_web_coverage.json; not repeated."
+        },
+        "xiaohongshu": {
+          "search_status": "previously_covered_not_repeated",
+          "coverage_statuses": [
+            "completed_no_specific_course_review_candidate"
+          ],
+          "query_attempted": false,
+          "actual_query": null,
+          "planned_query_if_not_run": null,
+          "batch_id": null,
+          "note": "Exact-name platform search already appears in public_web_coverage.json; not repeated."
+        },
+        "wechat_sogou": {
+          "search_status": "not_run_after_unproductive_index_batches",
+          "coverage_statuses": [
+            "pending"
+          ],
+          "query_attempted": false,
+          "actual_query": null,
+          "planned_query_if_not_run": "site:mp.weixin.qq.com \"人工智能化学计算模拟\" 复旦",
+          "batch_id": null,
+          "note": "Coverage still marked this exact-name query pending; it was not run after sampled batches were empty or unrelated. This does not establish absence of reviews."
+        }
+      }
+    },
+    {
+      "index": 88,
+      "course_code": "CHEM10002",
+      "course_name": "有机化学",
+      "terms": [
+        "2026春"
+      ],
+      "coverage_state_snapshot": "historical_source_read_not_mapped",
+      "preexisting_public_record_ids": [],
+      "platforms": {
+        "zhihu": {
+          "search_status": "skipped_per_prior_agent_instruction",
+          "coverage_statuses": [
+            "pending",
+            "completed_search_index_empty",
+            "completed_teacher_specific_search_index_empty",
+            "completed_teacher_specific_search_index_empty",
+            "completed_teacher_specific_search_index_empty"
+          ],
+          "query_attempted": false,
+          "actual_query": null,
+          "planned_query_if_not_run": null,
+          "batch_id": null,
+          "note": "Prior agent had searched this course; not repeated."
+        },
+        "xiaohongshu": {
+          "search_status": "skipped_per_prior_agent_instruction",
+          "coverage_statuses": [
+            "pending",
+            "completed_search_index_empty",
+            "completed_teacher_specific_search_index_empty",
+            "completed_teacher_specific_search_index_empty",
+            "completed_teacher_specific_search_index_empty"
+          ],
+          "query_attempted": false,
+          "actual_query": null,
+          "planned_query_if_not_run": null,
+          "batch_id": null,
+          "note": "Prior agent had searched this course; not repeated."
+        },
+        "wechat_sogou": {
+          "search_status": "skipped_per_prior_agent_instruction",
+          "coverage_statuses": [
+            "pending",
+            "completed_no_specific_course_review_candidate"
+          ],
+          "query_attempted": false,
+          "actual_query": null,
+          "planned_query_if_not_run": null,
+          "batch_id": null,
+          "note": "Prior agent had searched this course; not repeated."
+        }
+      }
+    },
+    {
+      "index": 89,
+      "course_code": "CHEM10004",
+      "course_name": "普通化学A(下)",
+      "terms": [
+        "2026春"
+      ],
+      "coverage_state_snapshot": "read_course_family_not_mapped",
+      "preexisting_public_record_ids": [],
+      "platforms": {
+        "zhihu": {
+          "search_status": "skipped_per_prior_agent_instruction",
+          "coverage_statuses": [],
+          "query_attempted": false,
+          "actual_query": null,
+          "planned_query_if_not_run": null,
+          "batch_id": null,
+          "note": "Prior agent had searched this course; not repeated."
+        },
+        "xiaohongshu": {
+          "search_status": "skipped_per_prior_agent_instruction",
+          "coverage_statuses": [],
+          "query_attempted": false,
+          "actual_query": null,
+          "planned_query_if_not_run": null,
+          "batch_id": null,
+          "note": "Prior agent had searched this course; not repeated."
+        },
+        "wechat_sogou": {
+          "search_status": "skipped_per_prior_agent_instruction",
+          "coverage_statuses": [],
+          "query_attempted": false,
+          "actual_query": null,
+          "planned_query_if_not_run": null,
+          "batch_id": null,
+          "note": "Prior agent had searched this course; not repeated."
+        }
+      }
+    },
+    {
+      "index": 90,
+      "course_code": "CHEM10006",
+      "course_name": "有机化学实验I",
+      "terms": [
+        "2026春"
+      ],
+      "coverage_state_snapshot": "query_attempt_no_review",
+      "preexisting_public_record_ids": [],
+      "platforms": {
+        "zhihu": {
+          "search_status": "skipped_per_prior_agent_instruction",
+          "coverage_statuses": [
+            "pending",
+            "completed_no_zhihu_review_candidate",
+            "completed_teacher_specific_search_index_empty",
+            "completed_teacher_specific_search_index_empty",
+            "completed_teacher_specific_search_index_empty"
+          ],
+          "query_attempted": false,
+          "actual_query": null,
+          "planned_query_if_not_run": null,
+          "batch_id": null,
+          "note": "Prior agent had searched this course; not repeated."
+        },
+        "xiaohongshu": {
+          "search_status": "skipped_per_prior_agent_instruction",
+          "coverage_statuses": [
+            "searched_no_review",
+            "completed_search_index_empty",
+            "completed_teacher_specific_search_index_empty",
+            "completed_teacher_specific_search_index_empty",
+            "completed_teacher_specific_search_index_empty"
+          ],
+          "query_attempted": false,
+          "actual_query": null,
+          "planned_query_if_not_run": null,
+          "batch_id": null,
+          "note": "Prior agent had searched this course; not repeated."
+        },
+        "wechat_sogou": {
+          "search_status": "skipped_per_prior_agent_instruction",
+          "coverage_statuses": [
+            "pending"
+          ],
+          "query_attempted": false,
+          "actual_query": null,
+          "planned_query_if_not_run": null,
+          "batch_id": null,
+          "note": "Prior agent had searched this course; not repeated."
+        }
+      }
+    },
+    {
+      "index": 91,
+      "course_code": "CHEM20002",
+      "course_name": "分析化学AII",
+      "terms": [
+        "2026春"
+      ],
+      "coverage_state_snapshot": "read_historical_mapping",
+      "preexisting_public_record_ids": [
+        "CHEM-WEB-ZH-0002"
+      ],
+      "platforms": {
+        "zhihu": {
+          "search_status": "skipped_per_prior_agent_instruction",
+          "coverage_statuses": [
+            "completed_search_index_empty"
+          ],
+          "query_attempted": false,
+          "actual_query": null,
+          "planned_query_if_not_run": null,
+          "batch_id": null,
+          "note": "Prior agent had searched this course; not repeated."
+        },
+        "xiaohongshu": {
+          "search_status": "skipped_per_prior_agent_instruction",
+          "coverage_statuses": [
+            "completed_search_index_empty"
+          ],
+          "query_attempted": false,
+          "actual_query": null,
+          "planned_query_if_not_run": null,
+          "batch_id": null,
+          "note": "Prior agent had searched this course; not repeated."
+        },
+        "wechat_sogou": {
+          "search_status": "skipped_per_prior_agent_instruction",
+          "coverage_statuses": [],
+          "query_attempted": false,
+          "actual_query": null,
+          "planned_query_if_not_run": null,
+          "batch_id": null,
+          "note": "Prior agent had searched this course; not repeated."
+        }
+      }
+    },
+    {
+      "index": 92,
+      "course_code": "CHEM20002h",
+      "course_name": "分析化学A II(H)",
+      "terms": [
+        "2026春"
+      ],
+      "coverage_state_snapshot": "query_attempt_no_review",
+      "preexisting_public_record_ids": [],
+      "platforms": {
+        "zhihu": {
+          "search_status": "previously_covered_not_repeated",
+          "coverage_statuses": [
+            "completed_no_specific_course_review_candidate"
+          ],
+          "query_attempted": false,
+          "actual_query": null,
+          "planned_query_if_not_run": null,
+          "batch_id": null,
+          "note": "Exact-name platform search already appears in public_web_coverage.json; not repeated."
+        },
+        "xiaohongshu": {
+          "search_status": "previously_covered_not_repeated",
+          "coverage_statuses": [
+            "completed_no_specific_course_review_candidate"
+          ],
+          "query_attempted": false,
+          "actual_query": null,
+          "planned_query_if_not_run": null,
+          "batch_id": null,
+          "note": "Exact-name platform search already appears in public_web_coverage.json; not repeated."
+        },
+        "wechat_sogou": {
+          "search_status": "not_run_after_unproductive_index_batches",
+          "coverage_statuses": [
+            "pending"
+          ],
+          "query_attempted": false,
+          "actual_query": null,
+          "planned_query_if_not_run": "site:mp.weixin.qq.com \"分析化学A II(H)\" 复旦",
+          "batch_id": null,
+          "note": "Coverage still marked this exact-name query pending; it was not run after sampled batches were empty or unrelated. This does not establish absence of reviews."
+        }
+      }
+    },
+    {
+      "index": 93,
+      "course_code": "CHEM20004",
+      "course_name": "合成化学实验(上)",
+      "terms": [
+        "2026春"
+      ],
+      "coverage_state_snapshot": "query_attempt_no_review",
+      "preexisting_public_record_ids": [],
+      "platforms": {
+        "zhihu": {
+          "search_status": "skipped_per_prior_agent_instruction",
+          "coverage_statuses": [
+            "pending",
+            "completed_teacher_specific_search_index_empty"
+          ],
+          "query_attempted": false,
+          "actual_query": null,
+          "planned_query_if_not_run": null,
+          "batch_id": null,
+          "note": "Prior agent had searched this course; not repeated."
+        },
+        "xiaohongshu": {
+          "search_status": "skipped_per_prior_agent_instruction",
+          "coverage_statuses": [
+            "searched_no_review",
+            "completed_teacher_specific_search_index_empty",
+            "completed_teacher_specific_search_index_empty"
+          ],
+          "query_attempted": false,
+          "actual_query": null,
+          "planned_query_if_not_run": null,
+          "batch_id": null,
+          "note": "Prior agent had searched this course; not repeated."
+        },
+        "wechat_sogou": {
+          "search_status": "skipped_per_prior_agent_instruction",
+          "coverage_statuses": [
+            "pending"
+          ],
+          "query_attempted": false,
+          "actual_query": null,
+          "planned_query_if_not_run": null,
+          "batch_id": null,
+          "note": "Prior agent had searched this course; not repeated."
+        }
+      }
+    },
+    {
+      "index": 94,
+      "course_code": "CHEM20006",
+      "course_name": "物理化学AII",
+      "terms": [
+        "2026春"
+      ],
+      "coverage_state_snapshot": "historical_source_read_not_mapped",
+      "preexisting_public_record_ids": [],
+      "platforms": {
+        "zhihu": {
+          "search_status": "skipped_per_prior_agent_instruction",
+          "coverage_statuses": [],
+          "query_attempted": false,
+          "actual_query": null,
+          "planned_query_if_not_run": null,
+          "batch_id": null,
+          "note": "Prior agent had searched this course; not repeated."
+        },
+        "xiaohongshu": {
+          "search_status": "skipped_per_prior_agent_instruction",
+          "coverage_statuses": [
+            "completed_search_index_empty"
+          ],
+          "query_attempted": false,
+          "actual_query": null,
+          "planned_query_if_not_run": null,
+          "batch_id": null,
+          "note": "Prior agent had searched this course; not repeated."
+        },
+        "wechat_sogou": {
+          "search_status": "skipped_per_prior_agent_instruction",
+          "coverage_statuses": [],
+          "query_attempted": false,
+          "actual_query": null,
+          "planned_query_if_not_run": null,
+          "batch_id": null,
+          "note": "Prior agent had searched this course; not repeated."
+        }
+      }
+    },
+    {
+      "index": 95,
+      "course_code": "CHEM20006h",
+      "course_name": "物理化学A II(H)",
+      "terms": [
+        "2026春"
+      ],
+      "coverage_state_snapshot": "query_attempt_no_review",
+      "preexisting_public_record_ids": [],
+      "platforms": {
+        "zhihu": {
+          "search_status": "previously_covered_not_repeated",
+          "coverage_statuses": [
+            "completed_no_specific_course_review_candidate"
+          ],
+          "query_attempted": false,
+          "actual_query": null,
+          "planned_query_if_not_run": null,
+          "batch_id": null,
+          "note": "Exact-name platform search already appears in public_web_coverage.json; not repeated."
+        },
+        "xiaohongshu": {
+          "search_status": "previously_covered_not_repeated",
+          "coverage_statuses": [
+            "completed_no_specific_course_review_candidate"
+          ],
+          "query_attempted": false,
+          "actual_query": null,
+          "planned_query_if_not_run": null,
+          "batch_id": null,
+          "note": "Exact-name platform search already appears in public_web_coverage.json; not repeated."
+        },
+        "wechat_sogou": {
+          "search_status": "not_run_after_unproductive_index_batches",
+          "coverage_statuses": [
+            "pending"
+          ],
+          "query_attempted": false,
+          "actual_query": null,
+          "planned_query_if_not_run": "site:mp.weixin.qq.com \"物理化学A II(H)\" 复旦",
+          "batch_id": null,
+          "note": "Coverage still marked this exact-name query pending; it was not run after sampled batches were empty or unrelated. This does not establish absence of reviews."
+        }
+      }
+    },
+    {
+      "index": 96,
+      "course_code": "CHEM20007",
+      "course_name": "谱学导论",
+      "terms": [
+        "2026春"
+      ],
+      "coverage_state_snapshot": "query_attempt_no_review",
+      "preexisting_public_record_ids": [],
+      "platforms": {
+        "zhihu": {
+          "search_status": "skipped_per_prior_agent_instruction",
+          "coverage_statuses": [
+            "pending",
+            "completed_teacher_specific_search_index_empty",
+            "completed_teacher_specific_search_index_empty"
+          ],
+          "query_attempted": false,
+          "actual_query": null,
+          "planned_query_if_not_run": null,
+          "batch_id": null,
+          "note": "Prior agent had searched this course; not repeated."
+        },
+        "xiaohongshu": {
+          "search_status": "skipped_per_prior_agent_instruction",
+          "coverage_statuses": [
+            "searched_no_review",
+            "completed_teacher_specific_search_index_empty",
+            "completed_teacher_specific_search_index_empty"
+          ],
+          "query_attempted": false,
+          "actual_query": null,
+          "planned_query_if_not_run": null,
+          "batch_id": null,
+          "note": "Prior agent had searched this course; not repeated."
+        },
+        "wechat_sogou": {
+          "search_status": "skipped_per_prior_agent_instruction",
+          "coverage_statuses": [
+            "pending"
+          ],
+          "query_attempted": false,
+          "actual_query": null,
+          "planned_query_if_not_run": null,
+          "batch_id": null,
+          "note": "Prior agent had searched this course; not repeated."
+        }
+      }
+    },
+    {
+      "index": 97,
+      "course_code": "CHEM20008",
+      "course_name": "数理统计方法在化学中的应用",
+      "terms": [
+        "2026春"
+      ],
+      "coverage_state_snapshot": "query_attempt_no_review",
+      "preexisting_public_record_ids": [],
+      "platforms": {
+        "zhihu": {
+          "search_status": "previously_covered_not_repeated",
+          "coverage_statuses": [
+            "completed_no_specific_course_review_candidate"
+          ],
+          "query_attempted": false,
+          "actual_query": null,
+          "planned_query_if_not_run": null,
+          "batch_id": null,
+          "note": "Exact-name platform search already appears in public_web_coverage.json; not repeated."
+        },
+        "xiaohongshu": {
+          "search_status": "previously_covered_not_repeated",
+          "coverage_statuses": [
+            "completed_no_specific_course_review_candidate"
+          ],
+          "query_attempted": false,
+          "actual_query": null,
+          "planned_query_if_not_run": null,
+          "batch_id": null,
+          "note": "Exact-name platform search already appears in public_web_coverage.json; not repeated."
+        },
+        "wechat_sogou": {
+          "search_status": "not_run_after_unproductive_index_batches",
+          "coverage_statuses": [
+            "pending"
+          ],
+          "query_attempted": false,
+          "actual_query": null,
+          "planned_query_if_not_run": "site:mp.weixin.qq.com \"数理统计方法在化学中的应用\" 复旦",
+          "batch_id": null,
+          "note": "Coverage still marked this exact-name query pending; it was not run after sampled batches were empty or unrelated. This does not establish absence of reviews."
+        }
+      }
+    },
+    {
+      "index": 98,
+      "course_code": "CHEM20009",
+      "course_name": "化学专业英语",
+      "terms": [
+        "2026春"
+      ],
+      "coverage_state_snapshot": "query_attempt_no_review",
+      "preexisting_public_record_ids": [],
+      "platforms": {
+        "zhihu": {
+          "search_status": "searched_no_attributable_course_review_candidate",
+          "coverage_statuses": [
+            "pending"
+          ],
+          "query_attempted": true,
+          "actual_query": "\"化学专业英语\" 复旦; domain filter zhihu.com",
+          "planned_query_if_not_run": null,
+          "batch_id": "ZH-B3",
+          "note": "Exact course title was queried; no identifiable student review was found in the sampled batch."
+        },
+        "xiaohongshu": {
+          "search_status": "searched_no_attributable_course_review_candidate",
+          "coverage_statuses": [
+            "pending"
+          ],
+          "query_attempted": true,
+          "actual_query": "\"化学专业英语\" 复旦; domain filter xiaohongshu.com",
+          "planned_query_if_not_run": null,
+          "batch_id": "XHS-B3",
+          "note": "Exact course title was queried; no identifiable student review was found in the sampled batch."
+        },
+        "wechat_sogou": {
+          "search_status": "searched_no_attributable_course_review_candidate",
+          "coverage_statuses": [
+            "pending"
+          ],
+          "query_attempted": true,
+          "actual_query": "\"化学专业英语\" 复旦; domain filter mp.weixin.qq.com",
+          "planned_query_if_not_run": null,
+          "batch_id": "WX-B3",
+          "note": "Exact course title was queried; no identifiable student review was found in the sampled batch."
+        }
+      }
+    },
+    {
+      "index": 99,
+      "course_code": "CHEM20014",
+      "course_name": "有机化学A II",
+      "terms": [
+        "2026春"
+      ],
+      "coverage_state_snapshot": "read_course_family_not_mapped",
+      "preexisting_public_record_ids": [],
+      "platforms": {
+        "zhihu": {
+          "search_status": "previously_covered_not_repeated",
+          "coverage_statuses": [
+            "completed_no_specific_course_review_candidate",
+            "completed_search_index_empty"
+          ],
+          "query_attempted": false,
+          "actual_query": null,
+          "planned_query_if_not_run": null,
+          "batch_id": null,
+          "note": "Exact-name platform search already appears in public_web_coverage.json; not repeated."
+        },
+        "xiaohongshu": {
+          "search_status": "previously_covered_not_repeated",
+          "coverage_statuses": [
+            "completed_no_specific_course_review_candidate",
+            "completed_search_index_empty"
+          ],
+          "query_attempted": false,
+          "actual_query": null,
+          "planned_query_if_not_run": null,
+          "batch_id": null,
+          "note": "Exact-name platform search already appears in public_web_coverage.json; not repeated."
+        },
+        "wechat_sogou": {
+          "search_status": "not_run_after_unproductive_index_batches",
+          "coverage_statuses": [
+            "pending"
+          ],
+          "query_attempted": false,
+          "actual_query": null,
+          "planned_query_if_not_run": "site:mp.weixin.qq.com \"有机化学A II\" 复旦",
+          "batch_id": null,
+          "note": "Coverage still marked this exact-name query pending; it was not run after sampled batches were empty or unrelated. This does not establish absence of reviews."
+        }
+      }
+    },
+    {
+      "index": 100,
+      "course_code": "CHEM20014h",
+      "course_name": "有机化学A II (H)",
+      "terms": [
+        "2026春"
+      ],
+      "coverage_state_snapshot": "query_attempt_no_review",
+      "preexisting_public_record_ids": [],
+      "platforms": {
+        "zhihu": {
+          "search_status": "previously_covered_not_repeated",
+          "coverage_statuses": [
+            "completed_no_specific_course_review_candidate"
+          ],
+          "query_attempted": false,
+          "actual_query": null,
+          "planned_query_if_not_run": null,
+          "batch_id": null,
+          "note": "Exact-name platform search already appears in public_web_coverage.json; not repeated."
+        },
+        "xiaohongshu": {
+          "search_status": "previously_covered_not_repeated",
+          "coverage_statuses": [
+            "completed_no_specific_course_review_candidate"
+          ],
+          "query_attempted": false,
+          "actual_query": null,
+          "planned_query_if_not_run": null,
+          "batch_id": null,
+          "note": "Exact-name platform search already appears in public_web_coverage.json; not repeated."
+        },
+        "wechat_sogou": {
+          "search_status": "not_run_after_unproductive_index_batches",
+          "coverage_statuses": [
+            "pending"
+          ],
+          "query_attempted": false,
+          "actual_query": null,
+          "planned_query_if_not_run": "site:mp.weixin.qq.com \"有机化学A II (H)\" 复旦",
+          "batch_id": null,
+          "note": "Coverage still marked this exact-name query pending; it was not run after sampled batches were empty or unrelated. This does not establish absence of reviews."
+        }
+      }
+    },
+    {
+      "index": 101,
+      "course_code": "CHEM20018",
+      "course_name": "生命中的化学",
+      "terms": [
+        "2026春"
+      ],
+      "coverage_state_snapshot": "query_attempt_no_review",
+      "preexisting_public_record_ids": [],
+      "platforms": {
+        "zhihu": {
+          "search_status": "searched_no_attributable_course_review_candidate",
+          "coverage_statuses": [
+            "pending"
+          ],
+          "query_attempted": true,
+          "actual_query": "\"生命中的化学\" 复旦; domain filter zhihu.com",
+          "planned_query_if_not_run": null,
+          "batch_id": "ZH-B3",
+          "note": "Exact course title was queried; no identifiable student review was found in the sampled batch."
+        },
+        "xiaohongshu": {
+          "search_status": "searched_no_attributable_course_review_candidate",
+          "coverage_statuses": [
+            "pending"
+          ],
+          "query_attempted": true,
+          "actual_query": "\"生命中的化学\" 复旦; domain filter xiaohongshu.com",
+          "planned_query_if_not_run": null,
+          "batch_id": "XHS-B3",
+          "note": "Exact course title was queried; no identifiable student review was found in the sampled batch."
+        },
+        "wechat_sogou": {
+          "search_status": "searched_no_attributable_course_review_candidate",
+          "coverage_statuses": [
+            "pending"
+          ],
+          "query_attempted": true,
+          "actual_query": "\"生命中的化学\" 复旦; domain filter mp.weixin.qq.com",
+          "planned_query_if_not_run": null,
+          "batch_id": "WX-B3",
+          "note": "Exact course title was queried; no identifiable student review was found in the sampled batch."
+        }
+      }
+    },
+    {
+      "index": 102,
+      "course_code": "CHEM20019",
+      "course_name": "微流控生命分析",
+      "terms": [
+        "2026春"
+      ],
+      "coverage_state_snapshot": "query_attempt_no_review",
+      "preexisting_public_record_ids": [],
+      "platforms": {
+        "zhihu": {
+          "search_status": "searched_no_attributable_course_review_candidate",
+          "coverage_statuses": [
+            "pending"
+          ],
+          "query_attempted": true,
+          "actual_query": "\"微流控生命分析\" 复旦; domain filter zhihu.com",
+          "planned_query_if_not_run": null,
+          "batch_id": "ZH-B3",
+          "note": "Exact course title was queried; no identifiable student review was found in the sampled batch."
+        },
+        "xiaohongshu": {
+          "search_status": "searched_no_attributable_course_review_candidate",
+          "coverage_statuses": [
+            "pending"
+          ],
+          "query_attempted": true,
+          "actual_query": "\"微流控生命分析\" 复旦; domain filter xiaohongshu.com",
+          "planned_query_if_not_run": null,
+          "batch_id": "XHS-B3",
+          "note": "Exact course title was queried; no identifiable student review was found in the sampled batch."
+        },
+        "wechat_sogou": {
+          "search_status": "searched_no_attributable_course_review_candidate",
+          "coverage_statuses": [
+            "pending"
+          ],
+          "query_attempted": true,
+          "actual_query": "\"微流控生命分析\" 复旦; domain filter mp.weixin.qq.com",
+          "planned_query_if_not_run": null,
+          "batch_id": "WX-B3",
+          "note": "Exact course title was queried; no identifiable student review was found in the sampled batch."
+        }
+      }
+    },
+    {
+      "index": 103,
+      "course_code": "CHEM20020",
+      "course_name": "仪器分析实验",
+      "terms": [
+        "2026春"
+      ],
+      "coverage_state_snapshot": "query_attempt_no_review",
+      "preexisting_public_record_ids": [],
+      "platforms": {
+        "zhihu": {
+          "search_status": "skipped_per_prior_agent_instruction",
+          "coverage_statuses": [
+            "pending",
+            "completed_teacher_specific_search_index_empty"
+          ],
+          "query_attempted": false,
+          "actual_query": null,
+          "planned_query_if_not_run": null,
+          "batch_id": null,
+          "note": "Prior agent had searched this course; not repeated."
+        },
+        "xiaohongshu": {
+          "search_status": "skipped_per_prior_agent_instruction",
+          "coverage_statuses": [
+            "searched_no_review",
+            "completed_teacher_specific_search_index_empty"
+          ],
+          "query_attempted": false,
+          "actual_query": null,
+          "planned_query_if_not_run": null,
+          "batch_id": null,
+          "note": "Prior agent had searched this course; not repeated."
+        },
+        "wechat_sogou": {
+          "search_status": "skipped_per_prior_agent_instruction",
+          "coverage_statuses": [
+            "pending"
+          ],
+          "query_attempted": false,
+          "actual_query": null,
+          "planned_query_if_not_run": null,
+          "batch_id": null,
+          "note": "Prior agent had searched this course; not repeated."
+        }
+      }
+    },
+    {
+      "index": 104,
+      "course_code": "CHEM20023",
+      "course_name": "化学前沿专题",
+      "terms": [
+        "2026春"
+      ],
+      "coverage_state_snapshot": "query_attempt_no_review",
+      "preexisting_public_record_ids": [],
+      "platforms": {
+        "zhihu": {
+          "search_status": "searched_no_attributable_course_review_candidate",
+          "coverage_statuses": [
+            "pending"
+          ],
+          "query_attempted": true,
+          "actual_query": "\"化学前沿专题\" 复旦; domain filter zhihu.com",
+          "planned_query_if_not_run": null,
+          "batch_id": "ZH-B3",
+          "note": "Exact course title was queried; no identifiable student review was found in the sampled batch."
+        },
+        "xiaohongshu": {
+          "search_status": "searched_no_attributable_course_review_candidate",
+          "coverage_statuses": [
+            "pending"
+          ],
+          "query_attempted": true,
+          "actual_query": "\"化学前沿专题\" 复旦; domain filter xiaohongshu.com",
+          "planned_query_if_not_run": null,
+          "batch_id": "XHS-B3",
+          "note": "Exact course title was queried; no identifiable student review was found in the sampled batch."
+        },
+        "wechat_sogou": {
+          "search_status": "searched_no_attributable_course_review_candidate",
+          "coverage_statuses": [
+            "pending"
+          ],
+          "query_attempted": true,
+          "actual_query": "\"化学前沿专题\" 复旦; domain filter mp.weixin.qq.com",
+          "planned_query_if_not_run": null,
+          "batch_id": "WX-B3",
+          "note": "Exact course title was queried; no identifiable student review was found in the sampled batch."
+        }
+      }
+    },
+    {
+      "index": 105,
+      "course_code": "CHEM30008",
+      "course_name": "近代分析化学",
+      "terms": [
+        "2026春"
+      ],
+      "coverage_state_snapshot": "read_teacher_course_pedagogy_unmapped_to_scope_class",
+      "preexisting_public_record_ids": [],
+      "platforms": {
+        "zhihu": {
+          "search_status": "previously_covered_not_repeated",
+          "coverage_statuses": [
+            "searched_no_review"
+          ],
+          "query_attempted": false,
+          "actual_query": null,
+          "planned_query_if_not_run": null,
+          "batch_id": null,
+          "note": "Exact-name platform search already appears in public_web_coverage.json; not repeated."
+        },
+        "xiaohongshu": {
+          "search_status": "previously_covered_not_repeated",
+          "coverage_statuses": [
+            "searched_no_review"
+          ],
+          "query_attempted": false,
+          "actual_query": null,
+          "planned_query_if_not_run": null,
+          "batch_id": null,
+          "note": "Exact-name platform search already appears in public_web_coverage.json; not repeated."
+        },
+        "wechat_sogou": {
+          "search_status": "not_run_after_unproductive_index_batches",
+          "coverage_statuses": [
+            "pending"
+          ],
+          "query_attempted": false,
+          "actual_query": null,
+          "planned_query_if_not_run": "site:mp.weixin.qq.com \"近代分析化学\" 复旦",
+          "batch_id": null,
+          "note": "Coverage still marked this exact-name query pending; it was not run after sampled batches were empty or unrelated. This does not establish absence of reviews."
+        }
+      }
+    },
+    {
+      "index": 106,
+      "course_code": "CHEM30009",
+      "course_name": "胶体化学",
+      "terms": [
+        "2026春"
+      ],
+      "coverage_state_snapshot": "query_attempt_no_review",
+      "preexisting_public_record_ids": [],
+      "platforms": {
+        "zhihu": {
+          "search_status": "not_run_after_unproductive_index_batches",
+          "coverage_statuses": [
+            "pending"
+          ],
+          "query_attempted": false,
+          "actual_query": null,
+          "planned_query_if_not_run": "site:zhihu.com \"胶体化学\" 复旦",
+          "batch_id": null,
+          "note": "Coverage still marked this exact-name query pending; it was not run after sampled batches were empty or unrelated. This does not establish absence of reviews."
+        },
+        "xiaohongshu": {
+          "search_status": "not_run_after_unproductive_index_batches",
+          "coverage_statuses": [
+            "pending"
+          ],
+          "query_attempted": false,
+          "actual_query": null,
+          "planned_query_if_not_run": "site:xiaohongshu.com \"胶体化学\" 复旦",
+          "batch_id": null,
+          "note": "Coverage still marked this exact-name query pending; it was not run after sampled batches were empty or unrelated. This does not establish absence of reviews."
+        },
+        "wechat_sogou": {
+          "search_status": "not_run_after_unproductive_index_batches",
+          "coverage_statuses": [
+            "pending"
+          ],
+          "query_attempted": false,
+          "actual_query": null,
+          "planned_query_if_not_run": "site:mp.weixin.qq.com \"胶体化学\" 复旦",
+          "batch_id": null,
+          "note": "Coverage still marked this exact-name query pending; it was not run after sampled batches were empty or unrelated. This does not establish absence of reviews."
+        }
+      }
+    },
+    {
+      "index": 107,
+      "course_code": "CHEM30013",
+      "course_name": "新型无机材料",
+      "terms": [
+        "2026春"
+      ],
+      "coverage_state_snapshot": "query_attempt_no_review",
+      "preexisting_public_record_ids": [],
+      "platforms": {
+        "zhihu": {
+          "search_status": "not_run_after_unproductive_index_batches",
+          "coverage_statuses": [
+            "pending"
+          ],
+          "query_attempted": false,
+          "actual_query": null,
+          "planned_query_if_not_run": "site:zhihu.com \"新型无机材料\" 复旦",
+          "batch_id": null,
+          "note": "Coverage still marked this exact-name query pending; it was not run after sampled batches were empty or unrelated. This does not establish absence of reviews."
+        },
+        "xiaohongshu": {
+          "search_status": "not_run_after_unproductive_index_batches",
+          "coverage_statuses": [
+            "pending"
+          ],
+          "query_attempted": false,
+          "actual_query": null,
+          "planned_query_if_not_run": "site:xiaohongshu.com \"新型无机材料\" 复旦",
+          "batch_id": null,
+          "note": "Coverage still marked this exact-name query pending; it was not run after sampled batches were empty or unrelated. This does not establish absence of reviews."
+        },
+        "wechat_sogou": {
+          "search_status": "not_run_after_unproductive_index_batches",
+          "coverage_statuses": [
+            "pending"
+          ],
+          "query_attempted": false,
+          "actual_query": null,
+          "planned_query_if_not_run": "site:mp.weixin.qq.com \"新型无机材料\" 复旦",
+          "batch_id": null,
+          "note": "Coverage still marked this exact-name query pending; it was not run after sampled batches were empty or unrelated. This does not establish absence of reviews."
+        }
+      }
+    },
+    {
+      "index": 108,
+      "course_code": "CHEM30014",
+      "course_name": "化学反应工程",
+      "terms": [
+        "2026春"
+      ],
+      "coverage_state_snapshot": "query_attempt_no_review",
+      "preexisting_public_record_ids": [],
+      "platforms": {
+        "zhihu": {
+          "search_status": "not_run_after_unproductive_index_batches",
+          "coverage_statuses": [
+            "pending"
+          ],
+          "query_attempted": false,
+          "actual_query": null,
+          "planned_query_if_not_run": "site:zhihu.com \"化学反应工程\" 复旦",
+          "batch_id": null,
+          "note": "Coverage still marked this exact-name query pending; it was not run after sampled batches were empty or unrelated. This does not establish absence of reviews."
+        },
+        "xiaohongshu": {
+          "search_status": "not_run_after_unproductive_index_batches",
+          "coverage_statuses": [
+            "pending"
+          ],
+          "query_attempted": false,
+          "actual_query": null,
+          "planned_query_if_not_run": "site:xiaohongshu.com \"化学反应工程\" 复旦",
+          "batch_id": null,
+          "note": "Coverage still marked this exact-name query pending; it was not run after sampled batches were empty or unrelated. This does not establish absence of reviews."
+        },
+        "wechat_sogou": {
+          "search_status": "not_run_after_unproductive_index_batches",
+          "coverage_statuses": [
+            "pending"
+          ],
+          "query_attempted": false,
+          "actual_query": null,
+          "planned_query_if_not_run": "site:mp.weixin.qq.com \"化学反应工程\" 复旦",
+          "batch_id": null,
+          "note": "Coverage still marked this exact-name query pending; it was not run after sampled batches were empty or unrelated. This does not establish absence of reviews."
+        }
+      }
+    },
+    {
+      "index": 109,
+      "course_code": "CHEM30016",
+      "course_name": "工业化学",
+      "terms": [
+        "2026春"
+      ],
+      "coverage_state_snapshot": "query_attempt_no_review",
+      "preexisting_public_record_ids": [],
+      "platforms": {
+        "zhihu": {
+          "search_status": "not_run_after_unproductive_index_batches",
+          "coverage_statuses": [
+            "pending"
+          ],
+          "query_attempted": false,
+          "actual_query": null,
+          "planned_query_if_not_run": "site:zhihu.com \"工业化学\" 复旦",
+          "batch_id": null,
+          "note": "Coverage still marked this exact-name query pending; it was not run after sampled batches were empty or unrelated. This does not establish absence of reviews."
+        },
+        "xiaohongshu": {
+          "search_status": "not_run_after_unproductive_index_batches",
+          "coverage_statuses": [
+            "pending"
+          ],
+          "query_attempted": false,
+          "actual_query": null,
+          "planned_query_if_not_run": "site:xiaohongshu.com \"工业化学\" 复旦",
+          "batch_id": null,
+          "note": "Coverage still marked this exact-name query pending; it was not run after sampled batches were empty or unrelated. This does not establish absence of reviews."
+        },
+        "wechat_sogou": {
+          "search_status": "not_run_after_unproductive_index_batches",
+          "coverage_statuses": [
+            "pending"
+          ],
+          "query_attempted": false,
+          "actual_query": null,
+          "planned_query_if_not_run": "site:mp.weixin.qq.com \"工业化学\" 复旦",
+          "batch_id": null,
+          "note": "Coverage still marked this exact-name query pending; it was not run after sampled batches were empty or unrelated. This does not establish absence of reviews."
+        }
+      }
+    },
+    {
+      "index": 110,
+      "course_code": "CHEM30020",
+      "course_name": "溶胶-凝胶化学及实验",
+      "terms": [
+        "2026春"
+      ],
+      "coverage_state_snapshot": "query_attempt_no_review",
+      "preexisting_public_record_ids": [],
+      "platforms": {
+        "zhihu": {
+          "search_status": "previously_covered_not_repeated",
+          "coverage_statuses": [
+            "completed_no_specific_course_review_candidate"
+          ],
+          "query_attempted": false,
+          "actual_query": null,
+          "planned_query_if_not_run": null,
+          "batch_id": null,
+          "note": "Exact-name platform search already appears in public_web_coverage.json; not repeated."
+        },
+        "xiaohongshu": {
+          "search_status": "previously_covered_not_repeated",
+          "coverage_statuses": [
+            "completed_no_specific_course_review_candidate"
+          ],
+          "query_attempted": false,
+          "actual_query": null,
+          "planned_query_if_not_run": null,
+          "batch_id": null,
+          "note": "Exact-name platform search already appears in public_web_coverage.json; not repeated."
+        },
+        "wechat_sogou": {
+          "search_status": "not_run_after_unproductive_index_batches",
+          "coverage_statuses": [
+            "pending"
+          ],
+          "query_attempted": false,
+          "actual_query": null,
+          "planned_query_if_not_run": "site:mp.weixin.qq.com \"溶胶-凝胶化学及实验\" 复旦",
+          "batch_id": null,
+          "note": "Coverage still marked this exact-name query pending; it was not run after sampled batches were empty or unrelated. This does not establish absence of reviews."
+        }
+      }
+    },
+    {
+      "index": 111,
+      "course_code": "CHEM30023",
+      "course_name": "药物化学",
+      "terms": [
+        "2026春"
+      ],
+      "coverage_state_snapshot": "query_attempt_no_review",
+      "preexisting_public_record_ids": [],
+      "platforms": {
+        "zhihu": {
+          "search_status": "not_run_after_unproductive_index_batches",
+          "coverage_statuses": [
+            "pending"
+          ],
+          "query_attempted": false,
+          "actual_query": null,
+          "planned_query_if_not_run": "site:zhihu.com \"药物化学\" 复旦",
+          "batch_id": null,
+          "note": "Coverage still marked this exact-name query pending; it was not run after sampled batches were empty or unrelated. This does not establish absence of reviews."
+        },
+        "xiaohongshu": {
+          "search_status": "not_run_after_unproductive_index_batches",
+          "coverage_statuses": [
+            "pending"
+          ],
+          "query_attempted": false,
+          "actual_query": null,
+          "planned_query_if_not_run": "site:xiaohongshu.com \"药物化学\" 复旦",
+          "batch_id": null,
+          "note": "Coverage still marked this exact-name query pending; it was not run after sampled batches were empty or unrelated. This does not establish absence of reviews."
+        },
+        "wechat_sogou": {
+          "search_status": "not_run_after_unproductive_index_batches",
+          "coverage_statuses": [
+            "pending"
+          ],
+          "query_attempted": false,
+          "actual_query": null,
+          "planned_query_if_not_run": "site:mp.weixin.qq.com \"药物化学\" 复旦",
+          "batch_id": null,
+          "note": "Coverage still marked this exact-name query pending; it was not run after sampled batches were empty or unrelated. This does not establish absence of reviews."
+        }
+      }
+    },
+    {
+      "index": 112,
+      "course_code": "CHEM30027",
+      "course_name": "现代化学专题(能源化学)",
+      "terms": [
+        "2026春"
+      ],
+      "coverage_state_snapshot": "query_attempt_no_review",
+      "preexisting_public_record_ids": [],
+      "platforms": {
+        "zhihu": {
+          "search_status": "not_run_after_unproductive_index_batches",
+          "coverage_statuses": [],
+          "query_attempted": false,
+          "actual_query": null,
+          "planned_query_if_not_run": "site:zhihu.com \"现代化学专题(能源化学)\" 复旦",
+          "batch_id": null,
+          "note": "Coverage still marked this exact-name query pending; it was not run after sampled batches were empty or unrelated. This does not establish absence of reviews."
+        },
+        "xiaohongshu": {
+          "search_status": "not_run_after_unproductive_index_batches",
+          "coverage_statuses": [],
+          "query_attempted": false,
+          "actual_query": null,
+          "planned_query_if_not_run": "site:xiaohongshu.com \"现代化学专题(能源化学)\" 复旦",
+          "batch_id": null,
+          "note": "Coverage still marked this exact-name query pending; it was not run after sampled batches were empty or unrelated. This does not establish absence of reviews."
+        },
+        "wechat_sogou": {
+          "search_status": "not_run_after_unproductive_index_batches",
+          "coverage_statuses": [],
+          "query_attempted": false,
+          "actual_query": null,
+          "planned_query_if_not_run": "site:mp.weixin.qq.com \"现代化学专题(能源化学)\" 复旦",
+          "batch_id": null,
+          "note": "Coverage still marked this exact-name query pending; it was not run after sampled batches were empty or unrelated. This does not establish absence of reviews."
+        }
+      }
+    },
+    {
+      "index": 113,
+      "course_code": "CHEM30028",
+      "course_name": "高能化学电源",
+      "terms": [
+        "2026春"
+      ],
+      "coverage_state_snapshot": "query_attempt_no_review",
+      "preexisting_public_record_ids": [],
+      "platforms": {
+        "zhihu": {
+          "search_status": "not_run_after_unproductive_index_batches",
+          "coverage_statuses": [
+            "pending"
+          ],
+          "query_attempted": false,
+          "actual_query": null,
+          "planned_query_if_not_run": "site:zhihu.com \"高能化学电源\" 复旦",
+          "batch_id": null,
+          "note": "Coverage still marked this exact-name query pending; it was not run after sampled batches were empty or unrelated. This does not establish absence of reviews."
+        },
+        "xiaohongshu": {
+          "search_status": "not_run_after_unproductive_index_batches",
+          "coverage_statuses": [
+            "pending"
+          ],
+          "query_attempted": false,
+          "actual_query": null,
+          "planned_query_if_not_run": "site:xiaohongshu.com \"高能化学电源\" 复旦",
+          "batch_id": null,
+          "note": "Coverage still marked this exact-name query pending; it was not run after sampled batches were empty or unrelated. This does not establish absence of reviews."
+        },
+        "wechat_sogou": {
+          "search_status": "not_run_after_unproductive_index_batches",
+          "coverage_statuses": [
+            "pending"
+          ],
+          "query_attempted": false,
+          "actual_query": null,
+          "planned_query_if_not_run": "site:mp.weixin.qq.com \"高能化学电源\" 复旦",
+          "batch_id": null,
+          "note": "Coverage still marked this exact-name query pending; it was not run after sampled batches were empty or unrelated. This does not establish absence of reviews."
+        }
+      }
+    },
+    {
+      "index": 114,
+      "course_code": "CHEM30030",
+      "course_name": "探究性仪器分析实验",
+      "terms": [
+        "2026春"
+      ],
+      "coverage_state_snapshot": "query_attempt_no_review",
+      "preexisting_public_record_ids": [],
+      "platforms": {
+        "zhihu": {
+          "search_status": "previously_covered_not_repeated",
+          "coverage_statuses": [
+            "completed_no_specific_course_review_candidate"
+          ],
+          "query_attempted": false,
+          "actual_query": null,
+          "planned_query_if_not_run": null,
+          "batch_id": null,
+          "note": "Exact-name platform search already appears in public_web_coverage.json; not repeated."
+        },
+        "xiaohongshu": {
+          "search_status": "previously_covered_not_repeated",
+          "coverage_statuses": [
+            "completed_no_specific_course_review_candidate"
+          ],
+          "query_attempted": false,
+          "actual_query": null,
+          "planned_query_if_not_run": null,
+          "batch_id": null,
+          "note": "Exact-name platform search already appears in public_web_coverage.json; not repeated."
+        },
+        "wechat_sogou": {
+          "search_status": "not_run_after_unproductive_index_batches",
+          "coverage_statuses": [
+            "pending"
+          ],
+          "query_attempted": false,
+          "actual_query": null,
+          "planned_query_if_not_run": "site:mp.weixin.qq.com \"探究性仪器分析实验\" 复旦",
+          "batch_id": null,
+          "note": "Coverage still marked this exact-name query pending; it was not run after sampled batches were empty or unrelated. This does not establish absence of reviews."
+        }
+      }
+    },
+    {
+      "index": 115,
+      "course_code": "CHEM30032",
+      "course_name": "物理化学实验(下)",
+      "terms": [
+        "2026春"
+      ],
+      "coverage_state_snapshot": "read_course_family_not_mapped",
+      "preexisting_public_record_ids": [
+        "CHEM-WEB-JUCHEM-0001-LOWER"
+      ],
+      "platforms": {
+        "zhihu": {
+          "search_status": "skipped_per_prior_agent_instruction",
+          "coverage_statuses": [],
+          "query_attempted": false,
+          "actual_query": null,
+          "planned_query_if_not_run": null,
+          "batch_id": null,
+          "note": "Prior agent had searched this course; not repeated."
+        },
+        "xiaohongshu": {
+          "search_status": "skipped_per_prior_agent_instruction",
+          "coverage_statuses": [],
+          "query_attempted": false,
+          "actual_query": null,
+          "planned_query_if_not_run": null,
+          "batch_id": null,
+          "note": "Prior agent had searched this course; not repeated."
+        },
+        "wechat_sogou": {
+          "search_status": "skipped_per_prior_agent_instruction",
+          "coverage_statuses": [],
+          "query_attempted": false,
+          "actual_query": null,
+          "planned_query_if_not_run": null,
+          "batch_id": null,
+          "note": "Prior agent had searched this course; not repeated."
+        }
+      }
+    },
+    {
+      "index": 116,
+      "course_code": "CHEM30032h",
+      "course_name": "物理化学实验(下)(H)",
+      "terms": [
+        "2026春"
+      ],
+      "coverage_state_snapshot": "query_attempt_no_review",
+      "preexisting_public_record_ids": [],
+      "platforms": {
+        "zhihu": {
+          "search_status": "no_pending_full_name_query_in_snapshot",
+          "coverage_statuses": [],
+          "query_attempted": false,
+          "actual_query": null,
+          "planned_query_if_not_run": null,
+          "batch_id": null,
+          "note": "No pending exact-name query was recorded in the coverage snapshot; no new search was run."
+        },
+        "xiaohongshu": {
+          "search_status": "no_pending_full_name_query_in_snapshot",
+          "coverage_statuses": [],
+          "query_attempted": false,
+          "actual_query": null,
+          "planned_query_if_not_run": null,
+          "batch_id": null,
+          "note": "No pending exact-name query was recorded in the coverage snapshot; no new search was run."
+        },
+        "wechat_sogou": {
+          "search_status": "not_run_after_unproductive_index_batches",
+          "coverage_statuses": [],
+          "query_attempted": false,
+          "actual_query": null,
+          "planned_query_if_not_run": "site:mp.weixin.qq.com \"物理化学实验(下)(H)\" 复旦",
+          "batch_id": null,
+          "note": "Coverage still marked this exact-name query pending; it was not run after sampled batches were empty or unrelated. This does not establish absence of reviews."
+        }
+      }
+    },
+    {
+      "index": 117,
+      "course_code": "CHEM30035",
+      "course_name": "化学生物学基础",
+      "terms": [
+        "2026春"
+      ],
+      "coverage_state_snapshot": "query_attempt_no_review",
+      "preexisting_public_record_ids": [],
+      "platforms": {
+        "zhihu": {
+          "search_status": "not_run_after_unproductive_index_batches",
+          "coverage_statuses": [
+            "pending"
+          ],
+          "query_attempted": false,
+          "actual_query": null,
+          "planned_query_if_not_run": "site:zhihu.com \"化学生物学基础\" 复旦",
+          "batch_id": null,
+          "note": "Coverage still marked this exact-name query pending; it was not run after sampled batches were empty or unrelated. This does not establish absence of reviews."
+        },
+        "xiaohongshu": {
+          "search_status": "not_run_after_unproductive_index_batches",
+          "coverage_statuses": [
+            "pending"
+          ],
+          "query_attempted": false,
+          "actual_query": null,
+          "planned_query_if_not_run": "site:xiaohongshu.com \"化学生物学基础\" 复旦",
+          "batch_id": null,
+          "note": "Coverage still marked this exact-name query pending; it was not run after sampled batches were empty or unrelated. This does not establish absence of reviews."
+        },
+        "wechat_sogou": {
+          "search_status": "not_run_after_unproductive_index_batches",
+          "coverage_statuses": [
+            "pending"
+          ],
+          "query_attempted": false,
+          "actual_query": null,
+          "planned_query_if_not_run": "site:mp.weixin.qq.com \"化学生物学基础\" 复旦",
+          "batch_id": null,
+          "note": "Coverage still marked this exact-name query pending; it was not run after sampled batches were empty or unrelated. This does not establish absence of reviews."
+        }
+      }
+    },
+    {
+      "index": 118,
+      "course_code": "CHEM40003",
+      "course_name": "毕业论文",
+      "terms": [
+        "2026春"
+      ],
+      "coverage_state_snapshot": "query_attempt_no_review",
+      "preexisting_public_record_ids": [],
+      "platforms": {
+        "zhihu": {
+          "search_status": "not_run_after_unproductive_index_batches",
+          "coverage_statuses": [
+            "pending"
+          ],
+          "query_attempted": false,
+          "actual_query": null,
+          "planned_query_if_not_run": "site:zhihu.com \"毕业论文\" 复旦",
+          "batch_id": null,
+          "note": "Coverage still marked this exact-name query pending; it was not run after sampled batches were empty or unrelated. This does not establish absence of reviews."
+        },
+        "xiaohongshu": {
+          "search_status": "not_run_after_unproductive_index_batches",
+          "coverage_statuses": [
+            "pending"
+          ],
+          "query_attempted": false,
+          "actual_query": null,
+          "planned_query_if_not_run": "site:xiaohongshu.com \"毕业论文\" 复旦",
+          "batch_id": null,
+          "note": "Coverage still marked this exact-name query pending; it was not run after sampled batches were empty or unrelated. This does not establish absence of reviews."
+        },
+        "wechat_sogou": {
+          "search_status": "not_run_after_unproductive_index_batches",
+          "coverage_statuses": [
+            "pending"
+          ],
+          "query_attempted": false,
+          "actual_query": null,
+          "planned_query_if_not_run": "site:mp.weixin.qq.com \"毕业论文\" 复旦",
+          "batch_id": null,
+          "note": "Coverage still marked this exact-name query pending; it was not run after sampled batches were empty or unrelated. This does not establish absence of reviews."
+        }
+      }
+    },
+    {
+      "index": 119,
+      "course_code": "CHEM40004",
+      "course_name": "综合化学实验I",
+      "terms": [
+        "2026春"
+      ],
+      "coverage_state_snapshot": "query_attempt_no_review",
+      "preexisting_public_record_ids": [],
+      "platforms": {
+        "zhihu": {
+          "search_status": "not_run_after_unproductive_index_batches",
+          "coverage_statuses": [
+            "pending"
+          ],
+          "query_attempted": false,
+          "actual_query": null,
+          "planned_query_if_not_run": "site:zhihu.com \"综合化学实验I\" 复旦",
+          "batch_id": null,
+          "note": "Coverage still marked this exact-name query pending; it was not run after sampled batches were empty or unrelated. This does not establish absence of reviews."
+        },
+        "xiaohongshu": {
+          "search_status": "not_run_after_unproductive_index_batches",
+          "coverage_statuses": [
+            "pending"
+          ],
+          "query_attempted": false,
+          "actual_query": null,
+          "planned_query_if_not_run": "site:xiaohongshu.com \"综合化学实验I\" 复旦",
+          "batch_id": null,
+          "note": "Coverage still marked this exact-name query pending; it was not run after sampled batches were empty or unrelated. This does not establish absence of reviews."
+        },
+        "wechat_sogou": {
+          "search_status": "not_run_after_unproductive_index_batches",
+          "coverage_statuses": [
+            "pending"
+          ],
+          "query_attempted": false,
+          "actual_query": null,
+          "planned_query_if_not_run": "site:mp.weixin.qq.com \"综合化学实验I\" 复旦",
+          "batch_id": null,
+          "note": "Coverage still marked this exact-name query pending; it was not run after sampled batches were empty or unrelated. This does not establish absence of reviews."
+        }
+      }
+    },
+    {
+      "index": 120,
+      "course_code": "CHEM50005",
+      "course_name": "高等结构分析",
+      "terms": [
+        "2026春"
+      ],
+      "coverage_state_snapshot": "query_attempt_no_review",
+      "preexisting_public_record_ids": [],
+      "platforms": {
+        "zhihu": {
+          "search_status": "not_run_after_unproductive_index_batches",
+          "coverage_statuses": [
+            "pending"
+          ],
+          "query_attempted": false,
+          "actual_query": null,
+          "planned_query_if_not_run": "site:zhihu.com \"高等结构分析\" 复旦",
+          "batch_id": null,
+          "note": "Coverage still marked this exact-name query pending; it was not run after sampled batches were empty or unrelated. This does not establish absence of reviews."
+        },
+        "xiaohongshu": {
+          "search_status": "previously_covered_not_repeated",
+          "coverage_statuses": [
+            "searched_no_review"
+          ],
+          "query_attempted": false,
+          "actual_query": null,
+          "planned_query_if_not_run": null,
+          "batch_id": null,
+          "note": "Exact-name platform search already appears in public_web_coverage.json; not repeated."
+        },
+        "wechat_sogou": {
+          "search_status": "not_run_after_unproductive_index_batches",
+          "coverage_statuses": [
+            "pending"
+          ],
+          "query_attempted": false,
+          "actual_query": null,
+          "planned_query_if_not_run": "site:mp.weixin.qq.com \"高等结构分析\" 复旦",
+          "batch_id": null,
+          "note": "Coverage still marked this exact-name query pending; it was not run after sampled batches were empty or unrelated. This does not establish absence of reviews."
+        }
+      }
+    },
+    {
+      "index": 121,
+      "course_code": "CHEM50007",
+      "course_name": "英文化学论文写作",
+      "terms": [
+        "2026春"
+      ],
+      "coverage_state_snapshot": "query_attempt_no_review",
+      "preexisting_public_record_ids": [],
+      "platforms": {
+        "zhihu": {
+          "search_status": "previously_covered_not_repeated",
+          "coverage_statuses": [
+            "searched_no_review"
+          ],
+          "query_attempted": false,
+          "actual_query": null,
+          "planned_query_if_not_run": null,
+          "batch_id": null,
+          "note": "Exact-name platform search already appears in public_web_coverage.json; not repeated."
+        },
+        "xiaohongshu": {
+          "search_status": "previously_covered_not_repeated",
+          "coverage_statuses": [
+            "searched_no_review"
+          ],
+          "query_attempted": false,
+          "actual_query": null,
+          "planned_query_if_not_run": null,
+          "batch_id": null,
+          "note": "Exact-name platform search already appears in public_web_coverage.json; not repeated."
+        },
+        "wechat_sogou": {
+          "search_status": "not_run_after_unproductive_index_batches",
+          "coverage_statuses": [
+            "pending"
+          ],
+          "query_attempted": false,
+          "actual_query": null,
+          "planned_query_if_not_run": "site:mp.weixin.qq.com \"英文化学论文写作\" 复旦",
+          "batch_id": null,
+          "note": "Coverage still marked this exact-name query pending; it was not run after sampled batches were empty or unrelated. This does not establish absence of reviews."
+        }
+      }
+    },
+    {
+      "index": 122,
+      "course_code": "CHEM60007",
+      "course_name": "生物无机化学进展",
+      "terms": [
+        "2026春"
+      ],
+      "coverage_state_snapshot": "query_attempt_no_review",
+      "preexisting_public_record_ids": [],
+      "platforms": {
+        "zhihu": {
+          "search_status": "not_run_after_unproductive_index_batches",
+          "coverage_statuses": [
+            "pending"
+          ],
+          "query_attempted": false,
+          "actual_query": null,
+          "planned_query_if_not_run": "site:zhihu.com \"生物无机化学进展\" 复旦",
+          "batch_id": null,
+          "note": "Coverage still marked this exact-name query pending; it was not run after sampled batches were empty or unrelated. This does not establish absence of reviews."
+        },
+        "xiaohongshu": {
+          "search_status": "not_run_after_unproductive_index_batches",
+          "coverage_statuses": [
+            "pending"
+          ],
+          "query_attempted": false,
+          "actual_query": null,
+          "planned_query_if_not_run": "site:xiaohongshu.com \"生物无机化学进展\" 复旦",
+          "batch_id": null,
+          "note": "Coverage still marked this exact-name query pending; it was not run after sampled batches were empty or unrelated. This does not establish absence of reviews."
+        },
+        "wechat_sogou": {
+          "search_status": "not_run_after_unproductive_index_batches",
+          "coverage_statuses": [
+            "pending"
+          ],
+          "query_attempted": false,
+          "actual_query": null,
+          "planned_query_if_not_run": "site:mp.weixin.qq.com \"生物无机化学进展\" 复旦",
+          "batch_id": null,
+          "note": "Coverage still marked this exact-name query pending; it was not run after sampled batches were empty or unrelated. This does not establish absence of reviews."
+        }
+      }
+    },
+    {
+      "index": 123,
+      "course_code": "CHEM60008",
+      "course_name": "金属有机化学进展",
+      "terms": [
+        "2026春"
+      ],
+      "coverage_state_snapshot": "query_attempt_no_review",
+      "preexisting_public_record_ids": [],
+      "platforms": {
+        "zhihu": {
+          "search_status": "not_run_after_unproductive_index_batches",
+          "coverage_statuses": [
+            "pending"
+          ],
+          "query_attempted": false,
+          "actual_query": null,
+          "planned_query_if_not_run": "site:zhihu.com \"金属有机化学进展\" 复旦",
+          "batch_id": null,
+          "note": "Coverage still marked this exact-name query pending; it was not run after sampled batches were empty or unrelated. This does not establish absence of reviews."
+        },
+        "xiaohongshu": {
+          "search_status": "not_run_after_unproductive_index_batches",
+          "coverage_statuses": [
+            "pending"
+          ],
+          "query_attempted": false,
+          "actual_query": null,
+          "planned_query_if_not_run": "site:xiaohongshu.com \"金属有机化学进展\" 复旦",
+          "batch_id": null,
+          "note": "Coverage still marked this exact-name query pending; it was not run after sampled batches were empty or unrelated. This does not establish absence of reviews."
+        },
+        "wechat_sogou": {
+          "search_status": "not_run_after_unproductive_index_batches",
+          "coverage_statuses": [
+            "pending"
+          ],
+          "query_attempted": false,
+          "actual_query": null,
+          "planned_query_if_not_run": "site:mp.weixin.qq.com \"金属有机化学进展\" 复旦",
+          "batch_id": null,
+          "note": "Coverage still marked this exact-name query pending; it was not run after sampled batches were empty or unrelated. This does not establish absence of reviews."
+        }
+      }
+    },
+    {
+      "index": 124,
+      "course_code": "CHEM60010",
+      "course_name": "稀土化学",
+      "terms": [
+        "2026春"
+      ],
+      "coverage_state_snapshot": "query_attempt_no_review",
+      "preexisting_public_record_ids": [],
+      "platforms": {
+        "zhihu": {
+          "search_status": "not_run_after_unproductive_index_batches",
+          "coverage_statuses": [
+            "pending"
+          ],
+          "query_attempted": false,
+          "actual_query": null,
+          "planned_query_if_not_run": "site:zhihu.com \"稀土化学\" 复旦",
+          "batch_id": null,
+          "note": "Coverage still marked this exact-name query pending; it was not run after sampled batches were empty or unrelated. This does not establish absence of reviews."
+        },
+        "xiaohongshu": {
+          "search_status": "not_run_after_unproductive_index_batches",
+          "coverage_statuses": [
+            "pending"
+          ],
+          "query_attempted": false,
+          "actual_query": null,
+          "planned_query_if_not_run": "site:xiaohongshu.com \"稀土化学\" 复旦",
+          "batch_id": null,
+          "note": "Coverage still marked this exact-name query pending; it was not run after sampled batches were empty or unrelated. This does not establish absence of reviews."
+        },
+        "wechat_sogou": {
+          "search_status": "not_run_after_unproductive_index_batches",
+          "coverage_statuses": [
+            "pending"
+          ],
+          "query_attempted": false,
+          "actual_query": null,
+          "planned_query_if_not_run": "site:mp.weixin.qq.com \"稀土化学\" 复旦",
+          "batch_id": null,
+          "note": "Coverage still marked this exact-name query pending; it was not run after sampled batches were empty or unrelated. This does not establish absence of reviews."
+        }
+      }
+    },
+    {
+      "index": 125,
+      "course_code": "CHEM60015",
+      "course_name": "现代有机金属化学",
+      "terms": [
+        "2026春"
+      ],
+      "coverage_state_snapshot": "query_attempt_no_review",
+      "preexisting_public_record_ids": [],
+      "platforms": {
+        "zhihu": {
+          "search_status": "not_run_after_unproductive_index_batches",
+          "coverage_statuses": [
+            "pending"
+          ],
+          "query_attempted": false,
+          "actual_query": null,
+          "planned_query_if_not_run": "site:zhihu.com \"现代有机金属化学\" 复旦",
+          "batch_id": null,
+          "note": "Coverage still marked this exact-name query pending; it was not run after sampled batches were empty or unrelated. This does not establish absence of reviews."
+        },
+        "xiaohongshu": {
+          "search_status": "not_run_after_unproductive_index_batches",
+          "coverage_statuses": [
+            "pending"
+          ],
+          "query_attempted": false,
+          "actual_query": null,
+          "planned_query_if_not_run": "site:xiaohongshu.com \"现代有机金属化学\" 复旦",
+          "batch_id": null,
+          "note": "Coverage still marked this exact-name query pending; it was not run after sampled batches were empty or unrelated. This does not establish absence of reviews."
+        },
+        "wechat_sogou": {
+          "search_status": "not_run_after_unproductive_index_batches",
+          "coverage_statuses": [
+            "pending"
+          ],
+          "query_attempted": false,
+          "actual_query": null,
+          "planned_query_if_not_run": "site:mp.weixin.qq.com \"现代有机金属化学\" 复旦",
+          "batch_id": null,
+          "note": "Coverage still marked this exact-name query pending; it was not run after sampled batches were empty or unrelated. This does not establish absence of reviews."
+        }
+      }
+    },
+    {
+      "index": 126,
+      "course_code": "CHEM60016",
+      "course_name": "分析电化学",
+      "terms": [
+        "2026春"
+      ],
+      "coverage_state_snapshot": "query_attempt_no_review",
+      "preexisting_public_record_ids": [],
+      "platforms": {
+        "zhihu": {
+          "search_status": "not_run_after_unproductive_index_batches",
+          "coverage_statuses": [
+            "pending"
+          ],
+          "query_attempted": false,
+          "actual_query": null,
+          "planned_query_if_not_run": "site:zhihu.com \"分析电化学\" 复旦",
+          "batch_id": null,
+          "note": "Coverage still marked this exact-name query pending; it was not run after sampled batches were empty or unrelated. This does not establish absence of reviews."
+        },
+        "xiaohongshu": {
+          "search_status": "not_run_after_unproductive_index_batches",
+          "coverage_statuses": [
+            "pending"
+          ],
+          "query_attempted": false,
+          "actual_query": null,
+          "planned_query_if_not_run": "site:xiaohongshu.com \"分析电化学\" 复旦",
+          "batch_id": null,
+          "note": "Coverage still marked this exact-name query pending; it was not run after sampled batches were empty or unrelated. This does not establish absence of reviews."
+        },
+        "wechat_sogou": {
+          "search_status": "not_run_after_unproductive_index_batches",
+          "coverage_statuses": [
+            "pending"
+          ],
+          "query_attempted": false,
+          "actual_query": null,
+          "planned_query_if_not_run": "site:mp.weixin.qq.com \"分析电化学\" 复旦",
+          "batch_id": null,
+          "note": "Coverage still marked this exact-name query pending; it was not run after sampled batches were empty or unrelated. This does not establish absence of reviews."
+        }
+      }
+    },
+    {
+      "index": 127,
+      "course_code": "CHEM60018",
+      "course_name": "分子催化和表面化学",
+      "terms": [
+        "2026春"
+      ],
+      "coverage_state_snapshot": "query_attempt_no_review",
+      "preexisting_public_record_ids": [],
+      "platforms": {
+        "zhihu": {
+          "search_status": "not_run_after_unproductive_index_batches",
+          "coverage_statuses": [
+            "pending"
+          ],
+          "query_attempted": false,
+          "actual_query": null,
+          "planned_query_if_not_run": "site:zhihu.com \"分子催化和表面化学\" 复旦",
+          "batch_id": null,
+          "note": "Coverage still marked this exact-name query pending; it was not run after sampled batches were empty or unrelated. This does not establish absence of reviews."
+        },
+        "xiaohongshu": {
+          "search_status": "not_run_after_unproductive_index_batches",
+          "coverage_statuses": [
+            "pending"
+          ],
+          "query_attempted": false,
+          "actual_query": null,
+          "planned_query_if_not_run": "site:xiaohongshu.com \"分子催化和表面化学\" 复旦",
+          "batch_id": null,
+          "note": "Coverage still marked this exact-name query pending; it was not run after sampled batches were empty or unrelated. This does not establish absence of reviews."
+        },
+        "wechat_sogou": {
+          "search_status": "not_run_after_unproductive_index_batches",
+          "coverage_statuses": [
+            "pending"
+          ],
+          "query_attempted": false,
+          "actual_query": null,
+          "planned_query_if_not_run": "site:mp.weixin.qq.com \"分子催化和表面化学\" 复旦",
+          "batch_id": null,
+          "note": "Coverage still marked this exact-name query pending; it was not run after sampled batches were empty or unrelated. This does not establish absence of reviews."
+        }
+      }
+    },
+    {
+      "index": 128,
+      "course_code": "CHEM60022",
+      "course_name": "蛋白质化学/生物无机化学",
+      "terms": [
+        "2026春"
+      ],
+      "coverage_state_snapshot": "query_attempt_no_review",
+      "preexisting_public_record_ids": [],
+      "platforms": {
+        "zhihu": {
+          "search_status": "not_run_after_unproductive_index_batches",
+          "coverage_statuses": [
+            "pending"
+          ],
+          "query_attempted": false,
+          "actual_query": null,
+          "planned_query_if_not_run": "site:zhihu.com \"蛋白质化学/生物无机化学\" 复旦",
+          "batch_id": null,
+          "note": "Coverage still marked this exact-name query pending; it was not run after sampled batches were empty or unrelated. This does not establish absence of reviews."
+        },
+        "xiaohongshu": {
+          "search_status": "not_run_after_unproductive_index_batches",
+          "coverage_statuses": [
+            "pending"
+          ],
+          "query_attempted": false,
+          "actual_query": null,
+          "planned_query_if_not_run": "site:xiaohongshu.com \"蛋白质化学/生物无机化学\" 复旦",
+          "batch_id": null,
+          "note": "Coverage still marked this exact-name query pending; it was not run after sampled batches were empty or unrelated. This does not establish absence of reviews."
+        },
+        "wechat_sogou": {
+          "search_status": "not_run_after_unproductive_index_batches",
+          "coverage_statuses": [
+            "pending"
+          ],
+          "query_attempted": false,
+          "actual_query": null,
+          "planned_query_if_not_run": "site:mp.weixin.qq.com \"蛋白质化学/生物无机化学\" 复旦",
+          "batch_id": null,
+          "note": "Coverage still marked this exact-name query pending; it was not run after sampled batches were empty or unrelated. This does not establish absence of reviews."
+        }
+      }
+    },
+    {
+      "index": 129,
+      "course_code": "CHEM60023",
+      "course_name": "有机合成化学I",
+      "terms": [
+        "2026春"
+      ],
+      "coverage_state_snapshot": "query_attempt_no_review",
+      "preexisting_public_record_ids": [],
+      "platforms": {
+        "zhihu": {
+          "search_status": "not_run_after_unproductive_index_batches",
+          "coverage_statuses": [
+            "pending"
+          ],
+          "query_attempted": false,
+          "actual_query": null,
+          "planned_query_if_not_run": "site:zhihu.com \"有机合成化学I\" 复旦",
+          "batch_id": null,
+          "note": "Coverage still marked this exact-name query pending; it was not run after sampled batches were empty or unrelated. This does not establish absence of reviews."
+        },
+        "xiaohongshu": {
+          "search_status": "not_run_after_unproductive_index_batches",
+          "coverage_statuses": [
+            "pending"
+          ],
+          "query_attempted": false,
+          "actual_query": null,
+          "planned_query_if_not_run": "site:xiaohongshu.com \"有机合成化学I\" 复旦",
+          "batch_id": null,
+          "note": "Coverage still marked this exact-name query pending; it was not run after sampled batches were empty or unrelated. This does not establish absence of reviews."
+        },
+        "wechat_sogou": {
+          "search_status": "not_run_after_unproductive_index_batches",
+          "coverage_statuses": [
+            "pending"
+          ],
+          "query_attempted": false,
+          "actual_query": null,
+          "planned_query_if_not_run": "site:mp.weixin.qq.com \"有机合成化学I\" 复旦",
+          "batch_id": null,
+          "note": "Coverage still marked this exact-name query pending; it was not run after sampled batches were empty or unrelated. This does not establish absence of reviews."
+        }
+      }
+    },
+    {
+      "index": 130,
+      "course_code": "CHEM70006",
+      "course_name": "高等化学分析",
+      "terms": [
+        "2026春"
+      ],
+      "coverage_state_snapshot": "read_course_family_not_mapped",
+      "preexisting_public_record_ids": [],
+      "platforms": {
+        "zhihu": {
+          "search_status": "previously_covered_not_repeated",
+          "coverage_statuses": [
+            "completed_no_specific_course_review_candidate"
+          ],
+          "query_attempted": false,
+          "actual_query": null,
+          "planned_query_if_not_run": null,
+          "batch_id": null,
+          "note": "Exact-name platform search already appears in public_web_coverage.json; not repeated."
+        },
+        "xiaohongshu": {
+          "search_status": "previously_covered_not_repeated",
+          "coverage_statuses": [
+            "completed_no_specific_course_review_candidate"
+          ],
+          "query_attempted": false,
+          "actual_query": null,
+          "planned_query_if_not_run": null,
+          "batch_id": null,
+          "note": "Exact-name platform search already appears in public_web_coverage.json; not repeated."
+        },
+        "wechat_sogou": {
+          "search_status": "not_run_after_unproductive_index_batches",
+          "coverage_statuses": [
+            "pending"
+          ],
+          "query_attempted": false,
+          "actual_query": null,
+          "planned_query_if_not_run": "site:mp.weixin.qq.com \"高等化学分析\" 复旦",
+          "batch_id": null,
+          "note": "Coverage still marked this exact-name query pending; it was not run after sampled batches were empty or unrelated. This does not establish absence of reviews."
+        }
+      }
+    },
+    {
+      "index": 131,
+      "course_code": "CHEM70007",
+      "course_name": "色谱分析",
+      "terms": [
+        "2026春"
+      ],
+      "coverage_state_snapshot": "query_attempt_no_review",
+      "preexisting_public_record_ids": [],
+      "platforms": {
+        "zhihu": {
+          "search_status": "not_run_after_unproductive_index_batches",
+          "coverage_statuses": [
+            "pending"
+          ],
+          "query_attempted": false,
+          "actual_query": null,
+          "planned_query_if_not_run": "site:zhihu.com \"色谱分析\" 复旦",
+          "batch_id": null,
+          "note": "Coverage still marked this exact-name query pending; it was not run after sampled batches were empty or unrelated. This does not establish absence of reviews."
+        },
+        "xiaohongshu": {
+          "search_status": "not_run_after_unproductive_index_batches",
+          "coverage_statuses": [
+            "pending",
+            "pending"
+          ],
+          "query_attempted": false,
+          "actual_query": null,
+          "planned_query_if_not_run": "site:xiaohongshu.com \"色谱分析\" 复旦",
+          "batch_id": null,
+          "note": "Coverage still marked this exact-name query pending; it was not run after sampled batches were empty or unrelated. This does not establish absence of reviews."
+        },
+        "wechat_sogou": {
+          "search_status": "not_run_after_unproductive_index_batches",
+          "coverage_statuses": [
+            "pending"
+          ],
+          "query_attempted": false,
+          "actual_query": null,
+          "planned_query_if_not_run": "site:mp.weixin.qq.com \"色谱分析\" 复旦",
+          "batch_id": null,
+          "note": "Coverage still marked this exact-name query pending; it was not run after sampled batches were empty or unrelated. This does not establish absence of reviews."
+        }
+      }
+    },
+    {
+      "index": 132,
+      "course_code": "CHEM70009",
+      "course_name": "多相催化原理",
+      "terms": [
+        "2026春"
+      ],
+      "coverage_state_snapshot": "query_attempt_no_review",
+      "preexisting_public_record_ids": [],
+      "platforms": {
+        "zhihu": {
+          "search_status": "not_run_after_unproductive_index_batches",
+          "coverage_statuses": [
+            "pending"
+          ],
+          "query_attempted": false,
+          "actual_query": null,
+          "planned_query_if_not_run": "site:zhihu.com \"多相催化原理\" 复旦",
+          "batch_id": null,
+          "note": "Coverage still marked this exact-name query pending; it was not run after sampled batches were empty or unrelated. This does not establish absence of reviews."
+        },
+        "xiaohongshu": {
+          "search_status": "not_run_after_unproductive_index_batches",
+          "coverage_statuses": [
+            "pending"
+          ],
+          "query_attempted": false,
+          "actual_query": null,
+          "planned_query_if_not_run": "site:xiaohongshu.com \"多相催化原理\" 复旦",
+          "batch_id": null,
+          "note": "Coverage still marked this exact-name query pending; it was not run after sampled batches were empty or unrelated. This does not establish absence of reviews."
+        },
+        "wechat_sogou": {
+          "search_status": "not_run_after_unproductive_index_batches",
+          "coverage_statuses": [
+            "pending"
+          ],
+          "query_attempted": false,
+          "actual_query": null,
+          "planned_query_if_not_run": "site:mp.weixin.qq.com \"多相催化原理\" 复旦",
+          "batch_id": null,
+          "note": "Coverage still marked this exact-name query pending; it was not run after sampled batches were empty or unrelated. This does not establish absence of reviews."
+        }
+      }
+    },
+    {
+      "index": 133,
+      "course_code": "CHEM70012",
+      "course_name": "绿色化学",
+      "terms": [
+        "2026春"
+      ],
+      "coverage_state_snapshot": "query_attempt_no_review",
+      "preexisting_public_record_ids": [],
+      "platforms": {
+        "zhihu": {
+          "search_status": "not_run_after_unproductive_index_batches",
+          "coverage_statuses": [
+            "pending"
+          ],
+          "query_attempted": false,
+          "actual_query": null,
+          "planned_query_if_not_run": "site:zhihu.com \"绿色化学\" 复旦",
+          "batch_id": null,
+          "note": "Coverage still marked this exact-name query pending; it was not run after sampled batches were empty or unrelated. This does not establish absence of reviews."
+        },
+        "xiaohongshu": {
+          "search_status": "not_run_after_unproductive_index_batches",
+          "coverage_statuses": [
+            "pending"
+          ],
+          "query_attempted": false,
+          "actual_query": null,
+          "planned_query_if_not_run": "site:xiaohongshu.com \"绿色化学\" 复旦",
+          "batch_id": null,
+          "note": "Coverage still marked this exact-name query pending; it was not run after sampled batches were empty or unrelated. This does not establish absence of reviews."
+        },
+        "wechat_sogou": {
+          "search_status": "not_run_after_unproductive_index_batches",
+          "coverage_statuses": [
+            "pending"
+          ],
+          "query_attempted": false,
+          "actual_query": null,
+          "planned_query_if_not_run": "site:mp.weixin.qq.com \"绿色化学\" 复旦",
+          "batch_id": null,
+          "note": "Coverage still marked this exact-name query pending; it was not run after sampled batches were empty or unrelated. This does not establish absence of reviews."
+        }
+      }
+    },
+    {
+      "index": 134,
+      "course_code": "CHEM70017",
+      "course_name": "单分子科学原理与模型",
+      "terms": [
+        "2026春"
+      ],
+      "coverage_state_snapshot": "query_attempt_no_review",
+      "preexisting_public_record_ids": [],
+      "platforms": {
+        "zhihu": {
+          "search_status": "not_run_after_unproductive_index_batches",
+          "coverage_statuses": [
+            "pending"
+          ],
+          "query_attempted": false,
+          "actual_query": null,
+          "planned_query_if_not_run": "site:zhihu.com \"单分子科学原理与模型\" 复旦",
+          "batch_id": null,
+          "note": "Coverage still marked this exact-name query pending; it was not run after sampled batches were empty or unrelated. This does not establish absence of reviews."
+        },
+        "xiaohongshu": {
+          "search_status": "not_run_after_unproductive_index_batches",
+          "coverage_statuses": [
+            "pending"
+          ],
+          "query_attempted": false,
+          "actual_query": null,
+          "planned_query_if_not_run": "site:xiaohongshu.com \"单分子科学原理与模型\" 复旦",
+          "batch_id": null,
+          "note": "Coverage still marked this exact-name query pending; it was not run after sampled batches were empty or unrelated. This does not establish absence of reviews."
+        },
+        "wechat_sogou": {
+          "search_status": "not_run_after_unproductive_index_batches",
+          "coverage_statuses": [
+            "pending"
+          ],
+          "query_attempted": false,
+          "actual_query": null,
+          "planned_query_if_not_run": "site:mp.weixin.qq.com \"单分子科学原理与模型\" 复旦",
+          "batch_id": null,
+          "note": "Coverage still marked this exact-name query pending; it was not run after sampled batches were empty or unrelated. This does not establish absence of reviews."
+        }
+      }
+    },
+    {
+      "index": 135,
+      "course_code": "CHEM70018",
+      "course_name": "电子显微基础与实验",
+      "terms": [
+        "2026春"
+      ],
+      "coverage_state_snapshot": "query_attempt_no_review",
+      "preexisting_public_record_ids": [],
+      "platforms": {
+        "zhihu": {
+          "search_status": "previously_covered_not_repeated",
+          "coverage_statuses": [
+            "completed_no_specific_course_review_candidate"
+          ],
+          "query_attempted": false,
+          "actual_query": null,
+          "planned_query_if_not_run": null,
+          "batch_id": null,
+          "note": "Exact-name platform search already appears in public_web_coverage.json; not repeated."
+        },
+        "xiaohongshu": {
+          "search_status": "previously_covered_not_repeated",
+          "coverage_statuses": [
+            "completed_no_specific_course_review_candidate"
+          ],
+          "query_attempted": false,
+          "actual_query": null,
+          "planned_query_if_not_run": null,
+          "batch_id": null,
+          "note": "Exact-name platform search already appears in public_web_coverage.json; not repeated."
+        },
+        "wechat_sogou": {
+          "search_status": "not_run_after_unproductive_index_batches",
+          "coverage_statuses": [
+            "pending"
+          ],
+          "query_attempted": false,
+          "actual_query": null,
+          "planned_query_if_not_run": "site:mp.weixin.qq.com \"电子显微基础与实验\" 复旦",
+          "batch_id": null,
+          "note": "Coverage still marked this exact-name query pending; it was not run after sampled batches were empty or unrelated. This does not establish absence of reviews."
+        }
+      }
+    },
+    {
+      "index": 136,
+      "course_code": "CHEM70021",
+      "course_name": "分析化学进展",
+      "terms": [
+        "2026春"
+      ],
+      "coverage_state_snapshot": "query_attempt_no_review",
+      "preexisting_public_record_ids": [],
+      "platforms": {
+        "zhihu": {
+          "search_status": "previously_covered_not_repeated",
+          "coverage_statuses": [
+            "completed_no_specific_course_review_candidate"
+          ],
+          "query_attempted": false,
+          "actual_query": null,
+          "planned_query_if_not_run": null,
+          "batch_id": null,
+          "note": "Exact-name platform search already appears in public_web_coverage.json; not repeated."
+        },
+        "xiaohongshu": {
+          "search_status": "previously_covered_not_repeated",
+          "coverage_statuses": [
+            "completed_no_specific_course_review_candidate"
+          ],
+          "query_attempted": false,
+          "actual_query": null,
+          "planned_query_if_not_run": null,
+          "batch_id": null,
+          "note": "Exact-name platform search already appears in public_web_coverage.json; not repeated."
+        },
+        "wechat_sogou": {
+          "search_status": "not_run_after_unproductive_index_batches",
+          "coverage_statuses": [
+            "pending"
+          ],
+          "query_attempted": false,
+          "actual_query": null,
+          "planned_query_if_not_run": "site:mp.weixin.qq.com \"分析化学进展\" 复旦",
+          "batch_id": null,
+          "note": "Coverage still marked this exact-name query pending; it was not run after sampled batches were empty or unrelated. This does not establish absence of reviews."
+        }
+      }
+    },
+    {
+      "index": 137,
+      "course_code": "CHEM70024",
+      "course_name": "X-射线衍射分析技术",
+      "terms": [
+        "2026春"
+      ],
+      "coverage_state_snapshot": "query_attempt_no_review",
+      "preexisting_public_record_ids": [],
+      "platforms": {
+        "zhihu": {
+          "search_status": "not_run_after_unproductive_index_batches",
+          "coverage_statuses": [
+            "pending"
+          ],
+          "query_attempted": false,
+          "actual_query": null,
+          "planned_query_if_not_run": "site:zhihu.com \"X-射线衍射分析技术\" 复旦",
+          "batch_id": null,
+          "note": "Coverage still marked this exact-name query pending; it was not run after sampled batches were empty or unrelated. This does not establish absence of reviews."
+        },
+        "xiaohongshu": {
+          "search_status": "existing_partial_candidate_followup_inaccessible",
+          "coverage_statuses": [
+            "partial_candidate_requires_full_context"
+          ],
+          "query_attempted": false,
+          "actual_query": null,
+          "planned_query_if_not_run": null,
+          "batch_id": null,
+          "note": "Existing partial lead URL was reopened but the web tool reported it inaccessible; full post not read.",
+          "lead_id": "CHEM-SRC-XHS-0007"
+        },
+        "wechat_sogou": {
+          "search_status": "not_run_after_unproductive_index_batches",
+          "coverage_statuses": [
+            "pending"
+          ],
+          "query_attempted": false,
+          "actual_query": null,
+          "planned_query_if_not_run": "site:mp.weixin.qq.com \"X-射线衍射分析技术\" 复旦",
+          "batch_id": null,
+          "note": "Coverage still marked this exact-name query pending; it was not run after sampled batches were empty or unrelated. This does not establish absence of reviews."
+        }
+      }
+    },
+    {
+      "index": 138,
+      "course_code": "CHEM70025",
+      "course_name": "电化学研究前沿介绍",
+      "terms": [
+        "2026春"
+      ],
+      "coverage_state_snapshot": "query_attempt_no_review",
+      "preexisting_public_record_ids": [],
+      "platforms": {
+        "zhihu": {
+          "search_status": "not_run_after_unproductive_index_batches",
+          "coverage_statuses": [
+            "pending"
+          ],
+          "query_attempted": false,
+          "actual_query": null,
+          "planned_query_if_not_run": "site:zhihu.com \"电化学研究前沿介绍\" 复旦",
+          "batch_id": null,
+          "note": "Coverage still marked this exact-name query pending; it was not run after sampled batches were empty or unrelated. This does not establish absence of reviews."
+        },
+        "xiaohongshu": {
+          "search_status": "not_run_after_unproductive_index_batches",
+          "coverage_statuses": [
+            "pending"
+          ],
+          "query_attempted": false,
+          "actual_query": null,
+          "planned_query_if_not_run": "site:xiaohongshu.com \"电化学研究前沿介绍\" 复旦",
+          "batch_id": null,
+          "note": "Coverage still marked this exact-name query pending; it was not run after sampled batches were empty or unrelated. This does not establish absence of reviews."
+        },
+        "wechat_sogou": {
+          "search_status": "not_run_after_unproductive_index_batches",
+          "coverage_statuses": [
+            "pending"
+          ],
+          "query_attempted": false,
+          "actual_query": null,
+          "planned_query_if_not_run": "site:mp.weixin.qq.com \"电化学研究前沿介绍\" 复旦",
+          "batch_id": null,
+          "note": "Coverage still marked this exact-name query pending; it was not run after sampled batches were empty or unrelated. This does not establish absence of reviews."
+        }
+      }
+    },
+    {
+      "index": 139,
+      "course_code": "CHEM70026",
+      "course_name": "高能电源化学",
+      "terms": [
+        "2026春"
+      ],
+      "coverage_state_snapshot": "query_attempt_no_review",
+      "preexisting_public_record_ids": [],
+      "platforms": {
+        "zhihu": {
+          "search_status": "not_run_after_unproductive_index_batches",
+          "coverage_statuses": [
+            "pending"
+          ],
+          "query_attempted": false,
+          "actual_query": null,
+          "planned_query_if_not_run": "site:zhihu.com \"高能电源化学\" 复旦",
+          "batch_id": null,
+          "note": "Coverage still marked this exact-name query pending; it was not run after sampled batches were empty or unrelated. This does not establish absence of reviews."
+        },
+        "xiaohongshu": {
+          "search_status": "not_run_after_unproductive_index_batches",
+          "coverage_statuses": [
+            "pending"
+          ],
+          "query_attempted": false,
+          "actual_query": null,
+          "planned_query_if_not_run": "site:xiaohongshu.com \"高能电源化学\" 复旦",
+          "batch_id": null,
+          "note": "Coverage still marked this exact-name query pending; it was not run after sampled batches were empty or unrelated. This does not establish absence of reviews."
+        },
+        "wechat_sogou": {
+          "search_status": "not_run_after_unproductive_index_batches",
+          "coverage_statuses": [
+            "pending"
+          ],
+          "query_attempted": false,
+          "actual_query": null,
+          "planned_query_if_not_run": "site:mp.weixin.qq.com \"高能电源化学\" 复旦",
+          "batch_id": null,
+          "note": "Coverage still marked this exact-name query pending; it was not run after sampled batches were empty or unrelated. This does not establish absence of reviews."
+        }
+      }
+    },
+    {
+      "index": 140,
+      "course_code": "CHEM70027",
+      "course_name": "碳硼烷化学",
+      "terms": [
+        "2026春"
+      ],
+      "coverage_state_snapshot": "query_attempt_no_review",
+      "preexisting_public_record_ids": [],
+      "platforms": {
+        "zhihu": {
+          "search_status": "not_run_after_unproductive_index_batches",
+          "coverage_statuses": [
+            "pending"
+          ],
+          "query_attempted": false,
+          "actual_query": null,
+          "planned_query_if_not_run": "site:zhihu.com \"碳硼烷化学\" 复旦",
+          "batch_id": null,
+          "note": "Coverage still marked this exact-name query pending; it was not run after sampled batches were empty or unrelated. This does not establish absence of reviews."
+        },
+        "xiaohongshu": {
+          "search_status": "not_run_after_unproductive_index_batches",
+          "coverage_statuses": [
+            "pending"
+          ],
+          "query_attempted": false,
+          "actual_query": null,
+          "planned_query_if_not_run": "site:xiaohongshu.com \"碳硼烷化学\" 复旦",
+          "batch_id": null,
+          "note": "Coverage still marked this exact-name query pending; it was not run after sampled batches were empty or unrelated. This does not establish absence of reviews."
+        },
+        "wechat_sogou": {
+          "search_status": "not_run_after_unproductive_index_batches",
+          "coverage_statuses": [
+            "pending"
+          ],
+          "query_attempted": false,
+          "actual_query": null,
+          "planned_query_if_not_run": "site:mp.weixin.qq.com \"碳硼烷化学\" 复旦",
+          "batch_id": null,
+          "note": "Coverage still marked this exact-name query pending; it was not run after sampled batches were empty or unrelated. This does not establish absence of reviews."
+        }
+      }
+    },
+    {
+      "index": 141,
+      "course_code": "CHEM70034",
+      "course_name": "纳米材料生物分离分析",
+      "terms": [
+        "2026春"
+      ],
+      "coverage_state_snapshot": "query_attempt_no_review",
+      "preexisting_public_record_ids": [],
+      "platforms": {
+        "zhihu": {
+          "search_status": "not_run_after_unproductive_index_batches",
+          "coverage_statuses": [
+            "pending"
+          ],
+          "query_attempted": false,
+          "actual_query": null,
+          "planned_query_if_not_run": "site:zhihu.com \"纳米材料生物分离分析\" 复旦",
+          "batch_id": null,
+          "note": "Coverage still marked this exact-name query pending; it was not run after sampled batches were empty or unrelated. This does not establish absence of reviews."
+        },
+        "xiaohongshu": {
+          "search_status": "not_run_after_unproductive_index_batches",
+          "coverage_statuses": [
+            "pending"
+          ],
+          "query_attempted": false,
+          "actual_query": null,
+          "planned_query_if_not_run": "site:xiaohongshu.com \"纳米材料生物分离分析\" 复旦",
+          "batch_id": null,
+          "note": "Coverage still marked this exact-name query pending; it was not run after sampled batches were empty or unrelated. This does not establish absence of reviews."
+        },
+        "wechat_sogou": {
+          "search_status": "not_run_after_unproductive_index_batches",
+          "coverage_statuses": [
+            "pending"
+          ],
+          "query_attempted": false,
+          "actual_query": null,
+          "planned_query_if_not_run": "site:mp.weixin.qq.com \"纳米材料生物分离分析\" 复旦",
+          "batch_id": null,
+          "note": "Coverage still marked this exact-name query pending; it was not run after sampled batches were empty or unrelated. This does not establish absence of reviews."
+        }
+      }
+    },
+    {
+      "index": 142,
+      "course_code": "CHEM70035",
+      "course_name": "有机合成化学II",
+      "terms": [
+        "2026春"
+      ],
+      "coverage_state_snapshot": "query_attempt_no_review",
+      "preexisting_public_record_ids": [],
+      "platforms": {
+        "zhihu": {
+          "search_status": "not_run_after_unproductive_index_batches",
+          "coverage_statuses": [
+            "pending"
+          ],
+          "query_attempted": false,
+          "actual_query": null,
+          "planned_query_if_not_run": "site:zhihu.com \"有机合成化学II\" 复旦",
+          "batch_id": null,
+          "note": "Coverage still marked this exact-name query pending; it was not run after sampled batches were empty or unrelated. This does not establish absence of reviews."
+        },
+        "xiaohongshu": {
+          "search_status": "not_run_after_unproductive_index_batches",
+          "coverage_statuses": [
+            "pending"
+          ],
+          "query_attempted": false,
+          "actual_query": null,
+          "planned_query_if_not_run": "site:xiaohongshu.com \"有机合成化学II\" 复旦",
+          "batch_id": null,
+          "note": "Coverage still marked this exact-name query pending; it was not run after sampled batches were empty or unrelated. This does not establish absence of reviews."
+        },
+        "wechat_sogou": {
+          "search_status": "not_run_after_unproductive_index_batches",
+          "coverage_statuses": [
+            "pending"
+          ],
+          "query_attempted": false,
+          "actual_query": null,
+          "planned_query_if_not_run": "site:mp.weixin.qq.com \"有机合成化学II\" 复旦",
+          "batch_id": null,
+          "note": "Coverage still marked this exact-name query pending; it was not run after sampled batches were empty or unrelated. This does not establish absence of reviews."
+        }
+      }
+    },
+    {
+      "index": 143,
+      "course_code": "GECC10002",
+      "course_name": "化学与人类",
+      "terms": [
+        "2026春"
+      ],
+      "coverage_state_snapshot": "read_historical_course_testimony_teacher_mismatch",
+      "preexisting_public_record_ids": [
+        "CHEM-WEB-FUDAN-0006"
+      ],
+      "platforms": {
+        "zhihu": {
+          "search_status": "previously_covered_not_repeated",
+          "coverage_statuses": [
+            "completed_no_specific_course_review_candidate"
+          ],
+          "query_attempted": false,
+          "actual_query": null,
+          "planned_query_if_not_run": null,
+          "batch_id": null,
+          "note": "Exact-name platform search already appears in public_web_coverage.json; not repeated."
+        },
+        "xiaohongshu": {
+          "search_status": "previously_covered_not_repeated",
+          "coverage_statuses": [
+            "completed_no_specific_course_review_candidate"
+          ],
+          "query_attempted": false,
+          "actual_query": null,
+          "planned_query_if_not_run": null,
+          "batch_id": null,
+          "note": "Exact-name platform search already appears in public_web_coverage.json; not repeated."
+        },
+        "wechat_sogou": {
+          "search_status": "not_run_after_unproductive_index_batches",
+          "coverage_statuses": [
+            "pending"
+          ],
+          "query_attempted": false,
+          "actual_query": null,
+          "planned_query_if_not_run": "site:mp.weixin.qq.com \"化学与人类\" 复旦",
+          "batch_id": null,
+          "note": "Coverage still marked this exact-name query pending; it was not run after sampled batches were empty or unrelated. This does not establish absence of reviews."
+        }
+      }
+    },
+    {
+      "index": 144,
+      "course_code": "GESP10004",
+      "course_name": "强国之路:形势、政策与使命II",
+      "terms": [
+        "2026春"
+      ],
+      "coverage_state_snapshot": "read_course_family_not_mapped",
+      "preexisting_public_record_ids": [],
+      "platforms": {
+        "zhihu": {
+          "search_status": "no_pending_full_name_query_in_snapshot",
+          "coverage_statuses": [],
+          "query_attempted": false,
+          "actual_query": null,
+          "planned_query_if_not_run": null,
+          "batch_id": null,
+          "note": "No pending exact-name query was recorded in the coverage snapshot; no new search was run."
+        },
+        "xiaohongshu": {
+          "search_status": "no_pending_full_name_query_in_snapshot",
+          "coverage_statuses": [],
+          "query_attempted": false,
+          "actual_query": null,
+          "planned_query_if_not_run": null,
+          "batch_id": null,
+          "note": "No pending exact-name query was recorded in the coverage snapshot; no new search was run."
+        },
+        "wechat_sogou": {
+          "search_status": "not_run_after_unproductive_index_batches",
+          "coverage_statuses": [],
+          "query_attempted": false,
+          "actual_query": null,
+          "planned_query_if_not_run": "site:mp.weixin.qq.com \"强国之路:形势、政策与使命II\" 复旦",
+          "batch_id": null,
+          "note": "Coverage still marked this exact-name query pending; it was not run after sampled batches were empty or unrelated. This does not establish absence of reviews."
+        }
+      }
+    },
+    {
+      "index": 145,
+      "course_code": "GESP20004",
+      "course_name": "强国之路:形势、政策与使命IV",
+      "terms": [
+        "2026春"
+      ],
+      "coverage_state_snapshot": "read_course_family_not_mapped",
+      "preexisting_public_record_ids": [],
+      "platforms": {
+        "zhihu": {
+          "search_status": "no_pending_full_name_query_in_snapshot",
+          "coverage_statuses": [],
+          "query_attempted": false,
+          "actual_query": null,
+          "planned_query_if_not_run": null,
+          "batch_id": null,
+          "note": "No pending exact-name query was recorded in the coverage snapshot; no new search was run."
+        },
+        "xiaohongshu": {
+          "search_status": "no_pending_full_name_query_in_snapshot",
+          "coverage_statuses": [],
+          "query_attempted": false,
+          "actual_query": null,
+          "planned_query_if_not_run": null,
+          "batch_id": null,
+          "note": "No pending exact-name query was recorded in the coverage snapshot; no new search was run."
+        },
+        "wechat_sogou": {
+          "search_status": "not_run_after_unproductive_index_batches",
+          "coverage_statuses": [],
+          "query_attempted": false,
+          "actual_query": null,
+          "planned_query_if_not_run": "site:mp.weixin.qq.com \"强国之路:形势、政策与使命IV\" 复旦",
+          "batch_id": null,
+          "note": "Coverage still marked this exact-name query pending; it was not run after sampled batches were empty or unrelated. This does not establish absence of reviews."
+        }
+      }
+    }
+  ]
+}
