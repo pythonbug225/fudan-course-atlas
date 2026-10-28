@@ -6,7 +6,7 @@
     const os=offers||g.offerings||[],values=[...new Set(os.filter(o=>credit(o.credits)).map(o=>Number(o.credits)))].sort((a,b)=>a-b);
     if(!os.length&&g.history_only&&credit(g.plan_credits))values.push(Number(g.plan_credits));
     const creditText=values.length?values.join(' / ')+' 学分'+(values.length>1?'（分班不同）':os.some(o=>!credit(o.credits))?'（部分班待补）':''):'学分待补';
-    const departments=[...new Set(os.map(o=>o.department).filter(Boolean))];
+    const departments=[...new Set(os.length?os.map(o=>o.department).filter(Boolean):(g.history_only?g.departments||[]:[]))];
     const departmentText=departments.length?departments.join(' / ')+(departments.length>1?'（分班开设）':'')+(os.some(o=>!o.department)?' · 部分班待补':''):'待补充';
     const missing=g.student_evaluation?.has_reviews===false?'<span class="course-no-reviews">暂无已归属本课的学生评价</span>':'';
     const cancelled=os.length&&os.every(o=>o.cancelled)?'<span class="course-cancelled">预排表注明停开</span>':'';
