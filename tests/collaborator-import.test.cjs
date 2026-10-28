@@ -20,5 +20,8 @@ assert(cat.plans.some(p=>p.title.includes('环境科学与工程系')));assert(c
 const biomed=cat.scope.find(g=>g.code==='BME50021');assert(biomed&&biomed.history_only&&biomed.offerings.length===0&&biomed.plan_credits===2);
 assert(reviews.records.filter(r=>r.course_ids.includes(biomed.id)&&r.id.startsWith('collab_')).length===2);
 assert(cat.scope.some(g=>g.id.startsWith('COLLAB_')&&g.student_evaluation.has_reviews===false));
+const bioPackage=reviews.materials.find(m=>m.title==='生科与环科课程协作资料包');assert(bioPackage&&bioPackage.url.endsWith('bio-env-research-20261028-v22.zip'));
+assert(bioPackage.course_ids.some(id=>groups.get(id)?.categories.includes('生命科学专业'))&&bioPackage.course_ids.some(id=>groups.get(id)?.categories.includes('环境科学专业')));
+assert(reviews.materials.some(m=>m.title==='外国语学院课程协作资料包'&&m.course_ids.some(id=>groups.get(id)?.categories.includes('外语专业'))));
 for(const r of reviews.records.filter(r=>r.id.startsWith('collab_'))){assert(r.course_ids.every(id=>groups.has(id)));assert(!/官方大纲结构摘要/.test(r.summary));}
 console.log('Collaborator course, category, provenance, plan, syllabus and search checks passed.');
