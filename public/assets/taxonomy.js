@@ -5,10 +5,10 @@ const CourseTaxonomy=(()=>{
  function prefix(g){return g.code.match(/^[A-Z]+/)?.[0]||'';}
  function core(g){return g.plan_refs.some(r=>r.title!==D.public_plan&&/必修|核心/.test(r.requirement));}
  function type(g){const p=prefix(g);if(['AIB','AIE','AIS','AIT'].includes(p))return'ai';if(codes[p])return p;if(p==='MATH'||g.categories.some(c=>c==='数学专业'||c==='数学公共基础'))return'math';if(/^(CS|COMP|SOFT)/.test(p)||g.categories.some(c=>/计算机|CS/.test(c)))return'cs';if(g.categories.some(c=>/物理/.test(c)))return'physics';return core(g)?'core':'other';}
- function label(key){return codes[key]?codes[key]+' · '+key:({ai:'AI课程',math:'数学课程',cs:'计算机课程',physics:'物理与学科基础',core:'其他专业核心',other:'其他课程'}[key]||key);}
- function match(g,value){if(value==='all')return true;if(value==='core')return !['math','ai','cs'].includes(type(g))&&core(g);if(value==='ge')return !!codes[prefix(g)];if(value==='pe')return g.is_pe;return type(g)===value;}
+ function label(key){return codes[key]?codes[key]+' · '+key:({ai:'AI课程',math:'数学课程',cs:'计算机课程','physics-major':'物理专业',physics:'物理与学科基础',core:'其他专业核心',other:'其他课程'}[key]||key);}
+ function match(g,value){if(value==='all')return true;if(value==='physics-major')return g.categories.includes('物理专业');if(value==='core')return !['math','ai','cs'].includes(type(g))&&core(g);if(value==='ge')return !!codes[prefix(g)];if(value==='pe')return g.is_pe;return type(g)===value;}
  function style(g){const [color,tint]=palettes[type(g)]||palettes.other;return `--course-accent:${color};--course-tint:${tint}`;}
  function badge(g){return `<span class="course-kind">${label(type(g))}</span>`;}
- function init(data){const select=document.querySelector('#category');const ge=[...new Set(data.scope.map(prefix).filter(p=>codes[p]))].sort();select.innerHTML='<option value="all">全部课程</option><optgroup label="专业与基础课程">'+['ai','math','cs','core','physics','other'].map(t=>`<option value="${t}">${label(t)}</option>`).join('')+'</optgroup><optgroup label="通识课程 · 按GE代码"><option value="ge">全部GE课程</option>'+ge.map(p=>`<option value="${p}">${label(p)}</option>`).join('')+'</optgroup>';}
+ function init(data){const select=document.querySelector('#category');const ge=[...new Set(data.scope.map(prefix).filter(p=>codes[p]))].sort();select.innerHTML='<option value="all">全部课程</option><optgroup label="专业与基础课程">'+['ai','math','cs','physics-major','core','physics','other'].map(t=>`<option value="${t}">${label(t)}</option>`).join('')+'</optgroup><optgroup label="通识课程 · 按GE代码"><option value="ge">全部GE课程</option>'+ge.map(p=>`<option value="${p}">${label(p)}</option>`).join('')+'</optgroup>';}
  return {type,label,match,style,badge,init};
 })();
