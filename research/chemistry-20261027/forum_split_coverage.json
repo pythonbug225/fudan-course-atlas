@@ -1,5 +1,5 @@
 {
-  "snapshot_at": "2026-10-28T00:18:59",
+  "snapshot_at": "2026-10-28T16:53:44+08:00",
   "planned_time_split_queries": 1170,
   "returned": 253,
   "stops": {
@@ -7,7 +7,7 @@
     "page_cap": 99
   },
   "candidate_count": 2776,
-  "candidate_note": "250个已缓存分段筛得候选，尚未逐帖阅读，可能存在重复、噪声和歧义。",
+  "candidate_note": "250个已缓存分段筛得2,776条原始候选；经筛选后用于逐楼层核读的候选共2,054条，仍可能有重复、噪声和歧义。",
   "note": "分段达到分页上限仍需继续细分；查询结果与原帖完整核读不是同一步。",
   "priority_holes_requested": 66,
   "priority_holes_cached": 66,
@@ -58,5 +58,8 @@
   "filtered_top2000_floors_reviewed": 2000,
   "filtered_top2000_findings": "前2000条候选楼层已筛查；本批复核8条来源楼层，其中6条此前批次已有记录，新增2条匿名线索；均仅读到单楼层。",
   "filtered_top2025_floors_reviewed": 2025,
-  "filtered_top2025_findings": "前2025条候选楼层已筛查；本批新增1条匿名线索，仅有单楼层缓存。"
+  "filtered_top2025_findings": "前2025条候选楼层已筛查；本批新增1条匿名线索，仅有单楼层缓存。",
+  "filtered_candidate_count": 2054,
+  "filtered_top2054_floors_reviewed": 2054,
+  "filtered_top2054_findings": "前2054条筛选后候选楼层已筛查；本批核对29条单楼层缓存，未见对应整洞缓存。新增2条待核线索：洞#428043为普化实验明矾产率/助教反馈的单次过程个案，CHEM10005仅候选；洞#683392为自述25级化学专业新生询问无机与分析化学实验教材，CHEM20021为较强课程名候选，但仅属资料问询，不是课评。其余27条主要为实验安排、报告/预习要求、教材/资料问询或其他学科内容；未发现可归入确定教学班的课程评价。"
 }

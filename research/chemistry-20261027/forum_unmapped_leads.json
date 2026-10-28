@@ -1,5 +1,5 @@
 {
-  "note": "课程/教师或班期对应未确认的线索，及完整洞中未获实质答复的问题；仅供后续人工核对，不作为当前课程/班级事实。候选映射不是身份定论，可能重复的帖子需去重。",
+  "note": "课程/教师或班期对应未确认的线索，及完整洞中未获实质答复的问题；仅供后续人工核对，不作为当前课程/班级事实。候选映射不是身份定论，可能重复的帖子需去重。已筛查过滤候选至第2054条；本批仅保留两条待核线索，详见覆盖台账，均不作为课程评价。",
   "records": [
     {
       "hole_id": 484154,
@@ -6620,6 +6620,51 @@
         "course_mapping_ambiguous"
       ],
       "reading_status": "cached_search_result_floor_read_only_full_hole_not_available"
+    },
+    {
+      "hole_id": 428043,
+      "floor_ids": [
+        3898395
+      ],
+      "course_name": "普通化学实验（楼层简称“普化实验”，课程版本/班级待核）",
+      "teacher": "未提及",
+      "course_term": "未确认；发帖日期不代表修课学期",
+      "course_mapping_status": "楼层称普化实验；CHEM10005（普通化学实验I）仅为当前范围候选，实验版本、教学班和修读学期未确认。",
+      "summary": "发帖者报告一次普化实验中明矾产率偏低，并提到助教也指出产率偏低；这只是单次实验过程问题，没有教师姓名、评分结果或课程评价。",
+      "disposition": "保留为低信息的单楼层实验过程个案；不据此推断课程难度、给分或教师表现，CHEM10005仅为候选。",
+      "reading_status": "cached_search_result_floor_read_only_full_hole_not_available",
+      "evidence_classification": [
+        "single_floor_only",
+        "direct_student_experience",
+        "lab_process_question",
+        "course_mapping_ambiguous"
+      ],
+      "course_code_candidates": [
+        "CHEM10005"
+      ]
+    },
+    {
+      "hole_id": 683392,
+      "floor_ids": [
+        6174670
+      ],
+      "course_name": "无机化学与化学分析实验（简称“无机与分析化学实验”，教学班待核）",
+      "teacher": "未提及",
+      "course_term": "未确认；发帖日期不代表修课学期",
+      "course_mapping_status": "发帖者自述为25级化学专业新生，且课程简称与当前范围CHEM20021《无机化学与化学分析实验》高度匹配；原帖未提供代码、班次或修读学期。",
+      "summary": "一名自述为25级化学专业新生的发帖者询问无机与分析化学实验所用教材；这是课程资料问询，不含授课、作业、实验或成绩评价。仅有单楼层搜索缓存，未找到完整洞缓存，后续回复未知。",
+      "disposition": "保留为课程资源问询待核，不纳入学生课评；CHEM20021为较强课程候选，班次、教师与学期未确认。",
+      "reading_status": "cached_search_result_floor_read_only_full_hole_not_available",
+      "evidence_classification": [
+        "single_floor_only",
+        "course_resource_question",
+        "self_identified_chemistry_student",
+        "strong_course_name_candidate",
+        "no_assessment_evidence"
+      ],
+      "course_code_candidates": [
+        "CHEM20021"
+      ]
     }
   ]
 }
