@@ -3,8 +3,8 @@
   "task_scope": "Official chemistry course positions 38-73; exact full course names only.",
   "search_policy": "One public index query per pending course-platform pair; official full title plus Fudan and site restriction only. No aliases, fuzzy variants, teacher names, pinyin, or course codes.",
   "progress": {
-    "queries_attempted": 67,
-    "queries_remaining": 36,
+    "queries_attempted": 79,
+    "queries_remaining": 24,
     "scope_positions_completed": [
       38,
       39,
@@ -29,9 +29,13 @@
       58,
       59,
       60,
-      61
+      61,
+      62,
+      63,
+      64,
+      65
     ],
-    "search_calls_issued": 69,
+    "search_calls_issued": 81,
     "duplicate_search_queries": 2
   },
   "records": [
@@ -1028,6 +1032,190 @@
       "search_method": "public_web_index_site_query_exact_full_name",
       "result_status": "search_no_candidate",
       "result_summary": "公开索引未返回课程评价候选。",
+      "candidate_titles": [],
+      "candidate_urls": [],
+      "body_read": false,
+      "adopted_as_course_review": false
+    },
+    {
+      "course_code": "CHEM60013",
+      "course_name": "生物色谱",
+      "scope_position": 62,
+      "source": "zhihu",
+      "query": "site:zhihu.com \"生物色谱\" 复旦",
+      "search_method": "public_web_index_site_query_exact_full_name",
+      "result_status": "irrelevant_results_no_course_review_candidate",
+      "result_summary": "仅命中色谱系统残留的行业技术文章，未见课程或修读评价。",
+      "candidate_titles": [
+        "聚焦CRO丨色谱系统残留怎么查？一文讲透原因、排查步骤与解决方案"
+      ],
+      "candidate_urls": [
+        "https://zhuanlan.zhihu.com/p/2041083763107570480"
+      ],
+      "body_read": false,
+      "adopted_as_course_review": false
+    },
+    {
+      "course_code": "CHEM60013",
+      "course_name": "生物色谱",
+      "scope_position": 62,
+      "source": "xiaohongshu",
+      "query": "site:xiaohongshu.com \"生物色谱\" 复旦",
+      "search_method": "public_web_index_site_query_exact_full_name",
+      "result_status": "search_no_candidate",
+      "result_summary": "未见与课程全名对应的课程评价候选。",
+      "candidate_titles": [],
+      "candidate_urls": [],
+      "body_read": false,
+      "adopted_as_course_review": false
+    },
+    {
+      "course_code": "CHEM60013",
+      "course_name": "生物色谱",
+      "scope_position": 62,
+      "source": "wechat_public",
+      "query": "site:mp.weixin.qq.com \"生物色谱\" 复旦",
+      "search_method": "public_web_index_site_query_exact_full_name",
+      "result_status": "search_no_candidate",
+      "result_summary": "未见与课程全名对应的课程评价候选。",
+      "candidate_titles": [],
+      "candidate_urls": [],
+      "body_read": false,
+      "adopted_as_course_review": false
+    },
+    {
+      "course_code": "CHEM60014",
+      "course_name": "物理有机化学",
+      "scope_position": 63,
+      "source": "zhihu",
+      "query": "site:zhihu.com \"物理有机化学\" 复旦",
+      "search_method": "public_web_index_site_query_exact_full_name",
+      "result_status": "irrelevant_results_no_course_review_candidate",
+      "result_summary": "检索结果为物理有机化学概念、书籍或学术内容，未见复旦该课程的修读评价。",
+      "candidate_titles": [
+        "物理化学 - 知乎",
+        "谁发现的有机化学反应机理？怎么发现的？怎么证实的？"
+      ],
+      "candidate_urls": [
+        "https://www.zhihu.com/topic/19610267/intro",
+        "https://www.zhihu.com/tardis/bd/ans/1808736133"
+      ],
+      "body_read": false,
+      "adopted_as_course_review": false
+    },
+    {
+      "course_code": "CHEM60014",
+      "course_name": "物理有机化学",
+      "scope_position": 63,
+      "source": "xiaohongshu",
+      "query": "site:xiaohongshu.com \"物理有机化学\" 复旦",
+      "search_method": "public_web_index_site_query_exact_full_name",
+      "result_status": "search_no_candidate",
+      "result_summary": "未见与课程全名对应的课程评价候选。",
+      "candidate_titles": [],
+      "candidate_urls": [],
+      "body_read": false,
+      "adopted_as_course_review": false
+    },
+    {
+      "course_code": "CHEM60014",
+      "course_name": "物理有机化学",
+      "scope_position": 63,
+      "source": "wechat_public",
+      "query": "site:mp.weixin.qq.com \"物理有机化学\" 复旦",
+      "search_method": "public_web_index_site_query_exact_full_name",
+      "result_status": "search_no_candidate",
+      "result_summary": "未见与课程全名对应的课程评价候选。",
+      "candidate_titles": [],
+      "candidate_urls": [],
+      "body_read": false,
+      "adopted_as_course_review": false
+    },
+    {
+      "course_code": "CHEM60017",
+      "course_name": "电极过程动力学",
+      "scope_position": 64,
+      "source": "zhihu",
+      "query": "site:zhihu.com \"电极过程动力学\" 复旦",
+      "search_method": "public_web_index_site_query_exact_full_name",
+      "result_status": "irrelevant_results_no_course_review_candidate",
+      "result_summary": "命中燃料电池书籍目录及交流阻抗实验材料，均非该复旦课程的学生评价。",
+      "candidate_titles": [
+        "知乎知识会员 - 氢能利用关键技术系列：氢燃料电池",
+        "知乎盐选 | 实验 12 电化学交流阻抗谱分析电化学过程"
+      ],
+      "candidate_urls": [
+        "https://www.zhihu.com/kvip/sku/ebook/120280511",
+        "https://www.zhihu.com/market/pub/120050049/manuscript/1289616542309920768"
+      ],
+      "body_read": false,
+      "adopted_as_course_review": false
+    },
+    {
+      "course_code": "CHEM60017",
+      "course_name": "电极过程动力学",
+      "scope_position": 64,
+      "source": "xiaohongshu",
+      "query": "site:xiaohongshu.com \"电极过程动力学\" 复旦",
+      "search_method": "public_web_index_site_query_exact_full_name",
+      "result_status": "search_no_candidate",
+      "result_summary": "公开索引未返回课程评价候选。",
+      "candidate_titles": [],
+      "candidate_urls": [],
+      "body_read": false,
+      "adopted_as_course_review": false
+    },
+    {
+      "course_code": "CHEM60017",
+      "course_name": "电极过程动力学",
+      "scope_position": 64,
+      "source": "wechat_public",
+      "query": "site:mp.weixin.qq.com \"电极过程动力学\" 复旦",
+      "search_method": "public_web_index_site_query_exact_full_name",
+      "result_status": "search_no_candidate",
+      "result_summary": "公开索引未返回结果。",
+      "candidate_titles": [],
+      "candidate_urls": [],
+      "body_read": false,
+      "adopted_as_course_review": false
+    },
+    {
+      "course_code": "CHEM60020",
+      "course_name": "高等化学反应工程和工艺",
+      "scope_position": 65,
+      "source": "zhihu",
+      "query": "site:zhihu.com \"高等化学反应工程和工艺\" 复旦",
+      "search_method": "public_web_index_site_query_exact_full_name",
+      "result_status": "search_no_candidate",
+      "result_summary": "公开索引未返回结果。",
+      "candidate_titles": [],
+      "candidate_urls": [],
+      "body_read": false,
+      "adopted_as_course_review": false
+    },
+    {
+      "course_code": "CHEM60020",
+      "course_name": "高等化学反应工程和工艺",
+      "scope_position": 65,
+      "source": "xiaohongshu",
+      "query": "site:xiaohongshu.com \"高等化学反应工程和工艺\" 复旦",
+      "search_method": "public_web_index_site_query_exact_full_name",
+      "result_status": "search_no_candidate",
+      "result_summary": "公开索引未返回结果。",
+      "candidate_titles": [],
+      "candidate_urls": [],
+      "body_read": false,
+      "adopted_as_course_review": false
+    },
+    {
+      "course_code": "CHEM60020",
+      "course_name": "高等化学反应工程和工艺",
+      "scope_position": 65,
+      "source": "wechat_public",
+      "query": "site:mp.weixin.qq.com \"高等化学反应工程和工艺\" 复旦",
+      "search_method": "public_web_index_site_query_exact_full_name",
+      "result_status": "search_no_candidate",
+      "result_summary": "公开索引未返回结果。",
       "candidate_titles": [],
       "candidate_urls": [],
       "body_read": false,

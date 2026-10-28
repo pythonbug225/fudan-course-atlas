@@ -1,0 +1,429 @@
+{
+  "schema_version": 1,
+  "generated_at": "2026-10-28 20:48:50",
+  "task_scope": {
+    "source_file": "official_evidence.json",
+    "course_list_positions_inclusive": [
+      66,
+      73
+    ],
+    "course_count": 8,
+    "query_rule": "Official full course name + Fudan + platform domain only; no teacher, course code, aliases, or pinyin."
+  },
+  "deduplication": {
+    "checked_files": [
+      "public_web/fullname_middle_batch.json",
+      "public_web/full_name_search_20261028_agent.json",
+      "public_web_coverage.json"
+    ],
+    "middle_batch_pairs": 0,
+    "prior_agent_pairs": 0,
+    "completed_coverage_pairs": 0,
+    "coverage_snapshot": "All 24 course-platform pairs in public_web_coverage.json were pending at initialization."
+  },
+  "search_policy": "One exact full-name query per course per platform maximum. Any candidate requires readable body and course identity confirmation.",
+  "run_summary": {
+    "course_count": 8,
+    "new_query_count_by_platform": {
+      "zhihu": 8,
+      "xiaohongshu": 8,
+      "wechat_sogou": 8
+    },
+    "trusted_candidate_count": 0,
+    "not_run_platform_restrictions": 0,
+    "last_batch_id": "LAST8-B3",
+    "last_batch_count": 4,
+    "total_new_query_attempts": 24,
+    "last_batch_note": "Four remaining WeChat exact-name queries returned empty results with successful connections. All 24 course-platform pairs were attempted; the four Zhihu result details from B2 remain unresolved because tool output was truncated."
+  },
+  "platform_batch_results": [
+    {
+      "batch_id": "LAST8-B1-zhihu",
+      "platform": "zhihu",
+      "course_codes": [
+        "CHEM60021",
+        "CHEM60024",
+        "CHEM60026",
+        "CHEM60027"
+      ],
+      "result_status": "no_course_review_candidate",
+      "evidence": "四条官方全名+复旦+知乎站点查询均未发现可归属的课程评价；返回内容为一般学科资料或无关结果。",
+      "reported_batch_id": "LAST8-B1"
+    },
+    {
+      "batch_id": "LAST8-B1-xiaohongshu",
+      "platform": "xiaohongshu",
+      "course_codes": [
+        "CHEM60021",
+        "CHEM60024",
+        "CHEM60026",
+        "CHEM60027"
+      ],
+      "result_status": "search_index_empty",
+      "evidence": "四条官方全名+复旦+小红书站点查询均为空。",
+      "reported_batch_id": "LAST8-B1"
+    },
+    {
+      "batch_id": "LAST8-B1-wechat_sogou",
+      "platform": "wechat_sogou",
+      "course_codes": [
+        "CHEM60021",
+        "CHEM60024"
+      ],
+      "result_status": "search_index_empty",
+      "evidence": "两条公众号域名查询均返回空结果且连接正常；因此继续剩余待查课程。",
+      "reported_batch_id": "LAST8-B1"
+    },
+    {
+      "batch_id": "LAST8-B2-zhihu",
+      "platform": "zhihu",
+      "course_codes": [
+        "CHEM70005",
+        "CHEM70010",
+        "CHEM70011",
+        "CHEM70013"
+      ],
+      "result_status": "search_results_output_truncated_status_unverifiable",
+      "evidence": "Exact official-name query was submitted, but the search tool output was truncated before result details could be reviewed. No candidate body was available to verify; result status remains unresolved.",
+      "reported_batch_id": "LAST8-B2"
+    },
+    {
+      "batch_id": "LAST8-B2-xiaohongshu",
+      "platform": "xiaohongshu",
+      "course_codes": [
+        "CHEM70005",
+        "CHEM70010",
+        "CHEM70011",
+        "CHEM70013"
+      ],
+      "result_status": "search_index_empty",
+      "evidence": "Exact official-name + Fudan site query returned empty search results.",
+      "reported_batch_id": "LAST8-B2"
+    },
+    {
+      "batch_id": "LAST8-B2-wechat_sogou",
+      "platform": "wechat_sogou",
+      "course_codes": [
+        "CHEM60026",
+        "CHEM60027"
+      ],
+      "result_status": "search_index_empty",
+      "evidence": "Exact official-name + Fudan mp.weixin.qq.com query returned empty search results; connection succeeded.",
+      "reported_batch_id": "LAST8-B2"
+    },
+    {
+      "batch_id": "LAST8-B3-wechat_sogou",
+      "platform": "wechat_sogou",
+      "course_codes": [
+        "CHEM70005",
+        "CHEM70010",
+        "CHEM70011",
+        "CHEM70013"
+      ],
+      "result_status": "search_index_empty",
+      "evidence": "Four exact official-name + Fudan mp.weixin.qq.com queries returned empty results; connection succeeded.",
+      "reported_batch_id": "LAST8-B3"
+    }
+  ],
+  "trusted_candidates": [],
+  "unresolved_leads": [],
+  "courses": [
+    {
+      "index": 66,
+      "course_code": "CHEM60021",
+      "course_name": "功能分子材料和生物材料",
+      "terms": [
+        "2025秋"
+      ],
+      "platforms": {
+        "zhihu": {
+          "search_status": "searched_no_attributable_course_review_candidate",
+          "coverage_status": "pending",
+          "query_attempted": true,
+          "actual_query": "site:zhihu.com \"功能分子材料和生物材料\" 复旦",
+          "planned_query_if_not_run": null,
+          "batch_id": "LAST8-B1-zhihu",
+          "note": "检索返回通用材料/化学资料，未见可归属该复旦课程的学生评价。"
+        },
+        "xiaohongshu": {
+          "search_status": "searched_no_attributable_course_review_candidate",
+          "coverage_status": "pending",
+          "query_attempted": true,
+          "actual_query": "site:xiaohongshu.com \"功能分子材料和生物材料\" 复旦",
+          "planned_query_if_not_run": null,
+          "batch_id": "LAST8-B1-xiaohongshu",
+          "note": "站点限定索引为空，未见课程评价候选。"
+        },
+        "wechat_sogou": {
+          "search_status": "searched_no_attributable_course_review_candidate",
+          "coverage_status": "pending",
+          "query_attempted": true,
+          "actual_query": "site:mp.weixin.qq.com \"功能分子材料和生物材料\" 复旦",
+          "planned_query_if_not_run": null,
+          "batch_id": "LAST8-B1-wechat_sogou",
+          "note": "公众号域名查询返回空结果；连接正常，未见候选。"
+        }
+      }
+    },
+    {
+      "index": 67,
+      "course_code": "CHEM60024",
+      "course_name": "金属有机化学",
+      "terms": [
+        "2025秋"
+      ],
+      "platforms": {
+        "zhihu": {
+          "search_status": "searched_no_attributable_course_review_candidate",
+          "coverage_status": "pending",
+          "query_attempted": true,
+          "actual_query": "site:zhihu.com \"金属有机化学\" 复旦",
+          "planned_query_if_not_run": null,
+          "batch_id": "LAST8-B1-zhihu",
+          "note": "检索返回金属有机化学的一般学科讨论，未见该复旦课程或学生评价。"
+        },
+        "xiaohongshu": {
+          "search_status": "searched_no_attributable_course_review_candidate",
+          "coverage_status": "pending",
+          "query_attempted": true,
+          "actual_query": "site:xiaohongshu.com \"金属有机化学\" 复旦",
+          "planned_query_if_not_run": null,
+          "batch_id": "LAST8-B1-xiaohongshu",
+          "note": "站点限定索引为空，未见课程评价候选。"
+        },
+        "wechat_sogou": {
+          "search_status": "searched_no_attributable_course_review_candidate",
+          "coverage_status": "pending",
+          "query_attempted": true,
+          "actual_query": "site:mp.weixin.qq.com \"金属有机化学\" 复旦",
+          "planned_query_if_not_run": null,
+          "batch_id": "LAST8-B1-wechat_sogou",
+          "note": "公众号域名查询返回空结果；连接正常，未见候选。"
+        }
+      }
+    },
+    {
+      "index": 68,
+      "course_code": "CHEM60026",
+      "course_name": "有机结构分析",
+      "terms": [
+        "2025秋"
+      ],
+      "platforms": {
+        "zhihu": {
+          "search_status": "searched_no_attributable_course_review_candidate",
+          "coverage_status": "pending",
+          "query_attempted": true,
+          "actual_query": "site:zhihu.com \"有机结构分析\" 复旦",
+          "planned_query_if_not_run": null,
+          "batch_id": "LAST8-B1-zhihu",
+          "note": "站点检索未见可归属该复旦课程的学生评价。"
+        },
+        "xiaohongshu": {
+          "search_status": "searched_no_attributable_course_review_candidate",
+          "coverage_status": "pending",
+          "query_attempted": true,
+          "actual_query": "site:xiaohongshu.com \"有机结构分析\" 复旦",
+          "planned_query_if_not_run": null,
+          "batch_id": "LAST8-B1-xiaohongshu",
+          "note": "站点限定索引为空，未见课程评价候选。"
+        },
+        "wechat_sogou": {
+          "search_status": "search_index_empty",
+          "coverage_status": "pending",
+          "query_attempted": true,
+          "actual_query": "site:mp.weixin.qq.com \"有机结构分析\" 复旦",
+          "planned_query_if_not_run": null,
+          "batch_id": "LAST8-B2-wechat_sogou",
+          "note": "Exact official-name + Fudan mp.weixin.qq.com query returned empty search results; connection succeeded."
+        }
+      }
+    },
+    {
+      "index": 69,
+      "course_code": "CHEM60027",
+      "course_name": "蛋白质组学的新技术和新方法",
+      "terms": [
+        "2025秋"
+      ],
+      "platforms": {
+        "zhihu": {
+          "search_status": "searched_no_attributable_course_review_candidate",
+          "coverage_status": "pending",
+          "query_attempted": true,
+          "actual_query": "site:zhihu.com \"蛋白质组学的新技术和新方法\" 复旦",
+          "planned_query_if_not_run": null,
+          "batch_id": "LAST8-B1-zhihu",
+          "note": "站点检索未见可归属该复旦课程的学生评价。"
+        },
+        "xiaohongshu": {
+          "search_status": "searched_no_attributable_course_review_candidate",
+          "coverage_status": "pending",
+          "query_attempted": true,
+          "actual_query": "site:xiaohongshu.com \"蛋白质组学的新技术和新方法\" 复旦",
+          "planned_query_if_not_run": null,
+          "batch_id": "LAST8-B1-xiaohongshu",
+          "note": "站点限定索引为空，未见课程评价候选。"
+        },
+        "wechat_sogou": {
+          "search_status": "search_index_empty",
+          "coverage_status": "pending",
+          "query_attempted": true,
+          "actual_query": "site:mp.weixin.qq.com \"蛋白质组学的新技术和新方法\" 复旦",
+          "planned_query_if_not_run": null,
+          "batch_id": "LAST8-B2-wechat_sogou",
+          "note": "Exact official-name + Fudan mp.weixin.qq.com query returned empty search results; connection succeeded."
+        }
+      }
+    },
+    {
+      "index": 70,
+      "course_code": "CHEM70005",
+      "course_name": "碳簇化学",
+      "terms": [
+        "2025秋"
+      ],
+      "platforms": {
+        "zhihu": {
+          "search_status": "search_results_output_truncated_status_unverifiable",
+          "coverage_status": "pending",
+          "query_attempted": true,
+          "actual_query": "site:zhihu.com \"碳簇化学\" 复旦",
+          "planned_query_if_not_run": null,
+          "batch_id": "LAST8-B2-zhihu",
+          "note": "Exact official-name query was submitted, but the search tool output was truncated before result details could be reviewed. No candidate body was available to verify; result status remains unresolved."
+        },
+        "xiaohongshu": {
+          "search_status": "search_index_empty",
+          "coverage_status": "pending",
+          "query_attempted": true,
+          "actual_query": "site:xiaohongshu.com \"碳簇化学\" 复旦",
+          "planned_query_if_not_run": null,
+          "batch_id": "LAST8-B2-xiaohongshu",
+          "note": "Exact official-name + Fudan site query returned empty search results."
+        },
+        "wechat_sogou": {
+          "search_status": "search_index_empty",
+          "coverage_status": "pending",
+          "query_attempted": true,
+          "actual_query": "site:mp.weixin.qq.com \"碳簇化学\" 复旦",
+          "planned_query_if_not_run": null,
+          "batch_id": "LAST8-B3-wechat_sogou",
+          "note": "Exact official-name + Fudan mp.weixin.qq.com query returned empty search results; connection succeeded."
+        }
+      }
+    },
+    {
+      "index": 71,
+      "course_code": "CHEM70010",
+      "course_name": "新催化材料",
+      "terms": [
+        "2025秋"
+      ],
+      "platforms": {
+        "zhihu": {
+          "search_status": "search_results_output_truncated_status_unverifiable",
+          "coverage_status": "pending",
+          "query_attempted": true,
+          "actual_query": "site:zhihu.com \"新催化材料\" 复旦",
+          "planned_query_if_not_run": null,
+          "batch_id": "LAST8-B2-zhihu",
+          "note": "Exact official-name query was submitted, but the search tool output was truncated before result details could be reviewed. No candidate body was available to verify; result status remains unresolved."
+        },
+        "xiaohongshu": {
+          "search_status": "search_index_empty",
+          "coverage_status": "pending",
+          "query_attempted": true,
+          "actual_query": "site:xiaohongshu.com \"新催化材料\" 复旦",
+          "planned_query_if_not_run": null,
+          "batch_id": "LAST8-B2-xiaohongshu",
+          "note": "Exact official-name + Fudan site query returned empty search results."
+        },
+        "wechat_sogou": {
+          "search_status": "search_index_empty",
+          "coverage_status": "pending",
+          "query_attempted": true,
+          "actual_query": "site:mp.weixin.qq.com \"新催化材料\" 复旦",
+          "planned_query_if_not_run": null,
+          "batch_id": "LAST8-B3-wechat_sogou",
+          "note": "Exact official-name + Fudan mp.weixin.qq.com query returned empty search results; connection succeeded."
+        }
+      }
+    },
+    {
+      "index": 72,
+      "course_code": "CHEM70011",
+      "course_name": "分子反应动力学",
+      "terms": [
+        "2025秋"
+      ],
+      "platforms": {
+        "zhihu": {
+          "search_status": "search_results_output_truncated_status_unverifiable",
+          "coverage_status": "pending",
+          "query_attempted": true,
+          "actual_query": "site:zhihu.com \"分子反应动力学\" 复旦",
+          "planned_query_if_not_run": null,
+          "batch_id": "LAST8-B2-zhihu",
+          "note": "Exact official-name query was submitted, but the search tool output was truncated before result details could be reviewed. No candidate body was available to verify; result status remains unresolved."
+        },
+        "xiaohongshu": {
+          "search_status": "search_index_empty",
+          "coverage_status": "pending",
+          "query_attempted": true,
+          "actual_query": "site:xiaohongshu.com \"分子反应动力学\" 复旦",
+          "planned_query_if_not_run": null,
+          "batch_id": "LAST8-B2-xiaohongshu",
+          "note": "Exact official-name + Fudan site query returned empty search results."
+        },
+        "wechat_sogou": {
+          "search_status": "search_index_empty",
+          "coverage_status": "pending",
+          "query_attempted": true,
+          "actual_query": "site:mp.weixin.qq.com \"分子反应动力学\" 复旦",
+          "planned_query_if_not_run": null,
+          "batch_id": "LAST8-B3-wechat_sogou",
+          "note": "Exact official-name + Fudan mp.weixin.qq.com query returned empty search results; connection succeeded."
+        }
+      }
+    },
+    {
+      "index": 73,
+      "course_code": "CHEM70013",
+      "course_name": "催化从实验室到工业开发",
+      "terms": [
+        "2025秋"
+      ],
+      "platforms": {
+        "zhihu": {
+          "search_status": "search_results_output_truncated_status_unverifiable",
+          "coverage_status": "pending",
+          "query_attempted": true,
+          "actual_query": "site:zhihu.com \"催化从实验室到工业开发\" 复旦",
+          "planned_query_if_not_run": null,
+          "batch_id": "LAST8-B2-zhihu",
+          "note": "Exact official-name query was submitted, but the search tool output was truncated before result details could be reviewed. No candidate body was available to verify; result status remains unresolved."
+        },
+        "xiaohongshu": {
+          "search_status": "search_index_empty",
+          "coverage_status": "pending",
+          "query_attempted": true,
+          "actual_query": "site:xiaohongshu.com \"催化从实验室到工业开发\" 复旦",
+          "planned_query_if_not_run": null,
+          "batch_id": "LAST8-B2-xiaohongshu",
+          "note": "Exact official-name + Fudan site query returned empty search results."
+        },
+        "wechat_sogou": {
+          "search_status": "search_index_empty",
+          "coverage_status": "pending",
+          "query_attempted": true,
+          "actual_query": "site:mp.weixin.qq.com \"催化从实验室到工业开发\" 复旦",
+          "planned_query_if_not_run": null,
+          "batch_id": "LAST8-B3-wechat_sogou",
+          "note": "Exact official-name + Fudan mp.weixin.qq.com query returned empty search results; connection succeeded."
+        }
+      }
+    }
+  ],
+  "platform_note": "微信公众号查询为公开网页索引限定 mp.weixin.qq.com，非搜狗微信站内搜索。"
+}
