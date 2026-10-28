@@ -1,5 +1,5 @@
 {
-  "as_of": "2026-10-27",
+  "as_of": "2026-10-28",
   "note": "来源和工具登记，不代表每项都已成功读取或已完成全校覆盖。私人来源不存账号、群成员或消息身份。",
   "sources": [
     {
@@ -561,6 +561,28 @@
       "purpose": "来自既往外部检索台账；是否为本校课程、是否读过正文、是否采用，须回查原台账。",
       "provenance_archive": "external-web-001.zip",
       "provenance_member": "blobs/2f57816fb4576f9c5961c1943071d6f72c31dcea793fe60cc40c7ba640a6aa75.json",
+      "status": "historical_lead_not_automatically_a_course_review"
+    }
+  ,
+    {
+      "id": "jwc-program-list-2026",
+      "type": "官方培养方案索引",
+      "url": "https://jwc.fudan.edu.cn/bkjxpyfa/list.htm",
+      "purpose": "教务处培养方案目录；列出复旦大学2026年本科及本研融通教学培养方案（含查阅指南），发布日期2026-08-19。仅登记链接，不转载方案文件正文。",
+      "status": "official_link_only_reuse_permission_unverified"
+    },
+    {
+      "id": "jwc-program-notice-2026",
+      "type": "官方培养方案通知",
+      "url": "https://jwc.fudan.edu.cn/07/03/c39655a788227/page.htm",
+      "purpose": "2026培养方案详情页；访问时跳转复旦统一身份认证，故仅登记来源链接，未核实公众可下载版本及再利用许可。",
+      "status": "official_link_only_access_and_reuse_permission_unverified"
+    },
+    {
+      "id": "forum-1point3acres-physics-lab-2023",
+      "type": "公开学生讨论线索",
+      "url": "https://www.1point3acres.com/bbs/thread-1006541-5-1.html",
+      "purpose": "页面包含2023-07-27关于基础物理实验的公开讨论，提及写作负担与一次成绩体验；未能对应课程代码、学期或教师，因此只作待人工映射线索，不转载原文。",
       "status": "historical_lead_not_automatically_a_course_review"
     }
   ],
