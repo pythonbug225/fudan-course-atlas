@@ -3,8 +3,8 @@
   "task_scope": "Official chemistry course positions 38-73; exact full course names only.",
   "search_policy": "One public index query per pending course-platform pair; official full title plus Fudan and site restriction only. No aliases, fuzzy variants, teacher names, pinyin, or course codes.",
   "progress": {
-    "queries_attempted": 30,
-    "queries_remaining": 73,
+    "queries_attempted": 67,
+    "queries_remaining": 36,
     "scope_positions_completed": [
       38,
       39,
@@ -16,8 +16,23 @@
       45,
       46,
       47,
-      48
-    ]
+      48,
+      49,
+      50,
+      51,
+      52,
+      53,
+      54,
+      55,
+      56,
+      57,
+      58,
+      59,
+      60,
+      61
+    ],
+    "search_calls_issued": 69,
+    "duplicate_search_queries": 2
   },
   "records": [
     {
@@ -459,6 +474,560 @@
       "search_method": "public_web_index_site_query_exact_full_name",
       "result_status": "search_no_candidate",
       "result_summary": "公开索引未返回结果。",
+      "candidate_titles": [],
+      "candidate_urls": [],
+      "body_read": false,
+      "adopted_as_course_review": false
+    },
+    {
+      "course_code": "CHEM40015h",
+      "course_name": "高等有机化学(H)",
+      "scope_position": 49,
+      "source": "wechat_public",
+      "query": "site:mp.weixin.qq.com \"高等有机化学(H)\" 复旦",
+      "search_method": "public_web_index_site_query_exact_full_name",
+      "result_status": "search_no_candidate",
+      "result_summary": "公开索引未返回结果。",
+      "candidate_titles": [],
+      "candidate_urls": [],
+      "body_read": false,
+      "adopted_as_course_review": false
+    },
+    {
+      "course_code": "CHEM50002",
+      "course_name": "高等无机化学",
+      "scope_position": 50,
+      "source": "zhihu",
+      "query": "site:zhihu.com \"高等无机化学\" 复旦",
+      "search_method": "public_web_index_site_query_exact_full_name",
+      "result_status": "irrelevant_results_no_course_review_candidate",
+      "result_summary": "命中农学考研化学复习文章，非复旦化学系课程评价。",
+      "candidate_titles": [
+        "农学门类联考315化学农怎么复习？"
+      ],
+      "candidate_urls": [
+        "https://www.zhihu.com/tardis/zm/art/354277105"
+      ],
+      "body_read": false,
+      "adopted_as_course_review": false
+    },
+    {
+      "course_code": "CHEM50002",
+      "course_name": "高等无机化学",
+      "scope_position": 50,
+      "source": "xiaohongshu",
+      "query": "site:xiaohongshu.com \"高等无机化学\" 复旦",
+      "search_method": "public_web_index_site_query_exact_full_name",
+      "result_status": "search_no_candidate",
+      "result_summary": "未见与课程全名对应的课程评价候选。",
+      "candidate_titles": [],
+      "candidate_urls": [],
+      "body_read": false,
+      "adopted_as_course_review": false
+    },
+    {
+      "course_code": "CHEM50002",
+      "course_name": "高等无机化学",
+      "scope_position": 50,
+      "source": "wechat_public",
+      "query": "site:mp.weixin.qq.com \"高等无机化学\" 复旦",
+      "search_method": "public_web_index_site_query_exact_full_name",
+      "result_status": "search_no_candidate",
+      "result_summary": "未见与课程全名对应的课程评价候选。",
+      "candidate_titles": [],
+      "candidate_urls": [],
+      "body_read": false,
+      "adopted_as_course_review": false
+    },
+    {
+      "course_code": "CHEM50003",
+      "course_name": "高等有机化学",
+      "scope_position": 51,
+      "source": "zhihu",
+      "query": "site:zhihu.com \"高等有机化学\" 复旦",
+      "search_method": "public_web_index_site_query_exact_full_name",
+      "result_status": "irrelevant_results_no_course_review_candidate",
+      "result_summary": "命中有机化学知识/考研复习内容，并非复旦课程或学生修读评价。",
+      "candidate_titles": [
+        "谁发现的有机化学反应机理？怎么发现的？怎么证实的？"
+      ],
+      "candidate_urls": [
+        "https://www.zhihu.com/tardis/bd/ans/1808736133"
+      ],
+      "body_read": false,
+      "adopted_as_course_review": false
+    },
+    {
+      "course_code": "CHEM50003",
+      "course_name": "高等有机化学",
+      "scope_position": 51,
+      "source": "xiaohongshu",
+      "query": "site:xiaohongshu.com \"高等有机化学\" 复旦",
+      "search_method": "public_web_index_site_query_exact_full_name",
+      "result_status": "search_no_candidate",
+      "result_summary": "未见与课程全名对应的课程评价候选。",
+      "candidate_titles": [],
+      "candidate_urls": [],
+      "body_read": false,
+      "adopted_as_course_review": false
+    },
+    {
+      "course_code": "CHEM50003",
+      "course_name": "高等有机化学",
+      "scope_position": 51,
+      "source": "wechat_public",
+      "query": "site:mp.weixin.qq.com \"高等有机化学\" 复旦",
+      "search_method": "public_web_index_site_query_exact_full_name",
+      "result_status": "search_no_candidate",
+      "result_summary": "未见与课程全名对应的课程评价候选。",
+      "candidate_titles": [],
+      "candidate_urls": [],
+      "body_read": false,
+      "adopted_as_course_review": false
+    },
+    {
+      "course_code": "CHEM50004",
+      "course_name": "量子化学原理及应用",
+      "scope_position": 52,
+      "source": "zhihu",
+      "query": "site:zhihu.com \"量子化学原理及应用\" 复旦",
+      "search_method": "public_web_index_site_query_exact_full_name",
+      "result_status": "search_no_candidate",
+      "result_summary": "检索结果中未见该课程或修读评价。",
+      "candidate_titles": [],
+      "candidate_urls": [],
+      "body_read": false,
+      "adopted_as_course_review": false
+    },
+    {
+      "course_code": "CHEM50004",
+      "course_name": "量子化学原理及应用",
+      "scope_position": 52,
+      "source": "xiaohongshu",
+      "query": "site:xiaohongshu.com \"量子化学原理及应用\" 复旦",
+      "search_method": "public_web_index_site_query_exact_full_name",
+      "result_status": "search_no_candidate",
+      "result_summary": "公开索引未返回课程评价候选。",
+      "candidate_titles": [],
+      "candidate_urls": [],
+      "body_read": false,
+      "adopted_as_course_review": false
+    },
+    {
+      "course_code": "CHEM50004",
+      "course_name": "量子化学原理及应用",
+      "scope_position": 52,
+      "source": "wechat_public",
+      "query": "site:mp.weixin.qq.com \"量子化学原理及应用\" 复旦",
+      "search_method": "public_web_index_site_query_exact_full_name",
+      "result_status": "search_no_candidate",
+      "result_summary": "公开索引未返回课程评价候选。",
+      "candidate_titles": [],
+      "candidate_urls": [],
+      "body_read": false,
+      "adopted_as_course_review": false
+    },
+    {
+      "course_code": "CHEM50006",
+      "course_name": "选拔性考试研究与实践",
+      "scope_position": 53,
+      "source": "zhihu",
+      "query": "site:zhihu.com \"选拔性考试研究与实践\" 复旦",
+      "search_method": "public_web_index_site_query_exact_full_name",
+      "result_status": "search_no_candidate",
+      "result_summary": "公开索引未返回结果。",
+      "candidate_titles": [],
+      "candidate_urls": [],
+      "body_read": false,
+      "adopted_as_course_review": false
+    },
+    {
+      "course_code": "CHEM50006",
+      "course_name": "选拔性考试研究与实践",
+      "scope_position": 53,
+      "source": "xiaohongshu",
+      "query": "site:xiaohongshu.com \"选拔性考试研究与实践\" 复旦",
+      "search_method": "public_web_index_site_query_exact_full_name",
+      "result_status": "search_no_candidate",
+      "result_summary": "公开索引未返回结果。",
+      "candidate_titles": [],
+      "candidate_urls": [],
+      "body_read": false,
+      "adopted_as_course_review": false
+    },
+    {
+      "course_code": "CHEM50006",
+      "course_name": "选拔性考试研究与实践",
+      "scope_position": 53,
+      "source": "wechat_public",
+      "query": "site:mp.weixin.qq.com \"选拔性考试研究与实践\" 复旦",
+      "search_method": "public_web_index_site_query_exact_full_name",
+      "result_status": "search_no_candidate",
+      "result_summary": "公开索引未返回结果。",
+      "candidate_titles": [],
+      "candidate_urls": [],
+      "body_read": false,
+      "adopted_as_course_review": false
+    },
+    {
+      "course_code": "CHEM50008",
+      "course_name": "工程伦理",
+      "scope_position": 54,
+      "source": "zhihu",
+      "query": "site:zhihu.com \"工程伦理\" 复旦 化学",
+      "search_method": "public_web_index_site_query_exact_full_name",
+      "result_status": "irrelevant_results_no_course_review_candidate",
+      "result_summary": "检索结果为工程学百科和其他伦理主题内容，并非复旦该课程的学生评价。",
+      "candidate_titles": [
+        "工程学 - 知乎"
+      ],
+      "candidate_urls": [
+        "https://www.zhihu.com/topic/19572885/intro"
+      ],
+      "body_read": false,
+      "adopted_as_course_review": false
+    },
+    {
+      "course_code": "CHEM50008",
+      "course_name": "工程伦理",
+      "scope_position": 54,
+      "source": "xiaohongshu",
+      "query": "site:xiaohongshu.com \"工程伦理\" 复旦 化学",
+      "search_method": "public_web_index_site_query_exact_full_name",
+      "result_status": "search_no_candidate",
+      "result_summary": "未见与课程全名对应的课程评价候选。",
+      "candidate_titles": [],
+      "candidate_urls": [],
+      "body_read": false,
+      "adopted_as_course_review": false
+    },
+    {
+      "course_code": "CHEM50008",
+      "course_name": "工程伦理",
+      "scope_position": 54,
+      "source": "wechat_public",
+      "query": "site:mp.weixin.qq.com \"工程伦理\" 复旦 化学",
+      "search_method": "public_web_index_site_query_exact_full_name",
+      "result_status": "search_no_candidate",
+      "result_summary": "公开索引未返回与课程评价有关的结果。",
+      "candidate_titles": [],
+      "candidate_urls": [],
+      "body_read": false,
+      "adopted_as_course_review": false
+    },
+    {
+      "course_code": "CHEM50009",
+      "course_name": "科学英语写作",
+      "scope_position": 55,
+      "source": "zhihu",
+      "query": "site:zhihu.com \"科学英语写作\" 复旦",
+      "search_method": "public_web_index_site_query_exact_full_name",
+      "result_status": "irrelevant_results_no_course_review_candidate",
+      "result_summary": "命中学科英语考研指南，非复旦化学系该课程的修读评价。",
+      "candidate_titles": [
+        "〖学科英语考研小白救命文〗：最全学科英语院校介绍+择校指南（全网首发）"
+      ],
+      "candidate_urls": [
+        "https://www.zhihu.com/tardis/zm/art/208640023"
+      ],
+      "body_read": false,
+      "adopted_as_course_review": false
+    },
+    {
+      "course_code": "CHEM50009",
+      "course_name": "科学英语写作",
+      "scope_position": 55,
+      "source": "xiaohongshu",
+      "query": "site:xiaohongshu.com \"科学英语写作\" 复旦",
+      "search_method": "public_web_index_site_query_exact_full_name",
+      "result_status": "search_no_candidate",
+      "result_summary": "未见与课程全名对应的课程评价候选。",
+      "candidate_titles": [],
+      "candidate_urls": [],
+      "body_read": false,
+      "adopted_as_course_review": false
+    },
+    {
+      "course_code": "CHEM50009",
+      "course_name": "科学英语写作",
+      "scope_position": 55,
+      "source": "wechat_public",
+      "query": "site:mp.weixin.qq.com \"科学英语写作\" 复旦",
+      "search_method": "public_web_index_site_query_exact_full_name",
+      "result_status": "search_no_candidate",
+      "result_summary": "未见与课程全名对应的课程评价候选。",
+      "candidate_titles": [],
+      "candidate_urls": [],
+      "body_read": false,
+      "adopted_as_course_review": false
+    },
+    {
+      "course_code": "CHEM50010",
+      "course_name": "科研论文写作",
+      "scope_position": 56,
+      "source": "zhihu",
+      "query": "site:zhihu.com \"科研论文写作\" 复旦",
+      "search_method": "public_web_index_site_query_exact_full_name",
+      "result_status": "irrelevant_results_no_course_review_candidate",
+      "result_summary": "命中保研论文辅导、科研写作技巧等泛主题内容，未见该化学课程的学生评价。",
+      "candidate_titles": [
+        "写论文用于保研，有必要花钱找保研机构辅导嘛？"
+      ],
+      "candidate_urls": [
+        "https://www.zhihu.com/question/380390061/answer/1899938332370249250"
+      ],
+      "body_read": false,
+      "adopted_as_course_review": false
+    },
+    {
+      "course_code": "CHEM50010",
+      "course_name": "科研论文写作",
+      "scope_position": 56,
+      "source": "xiaohongshu",
+      "query": "site:xiaohongshu.com \"科研论文写作\" 复旦",
+      "search_method": "public_web_index_site_query_exact_full_name",
+      "result_status": "search_no_candidate",
+      "result_summary": "未见与课程全名对应的课程评价候选。",
+      "candidate_titles": [],
+      "candidate_urls": [],
+      "body_read": false,
+      "adopted_as_course_review": false
+    },
+    {
+      "course_code": "CHEM50010",
+      "course_name": "科研论文写作",
+      "scope_position": 56,
+      "source": "wechat_public",
+      "query": "site:mp.weixin.qq.com \"科研论文写作\" 复旦",
+      "search_method": "public_web_index_site_query_exact_full_name",
+      "result_status": "search_no_candidate",
+      "result_summary": "未见与课程全名对应的课程评价候选。",
+      "candidate_titles": [],
+      "candidate_urls": [],
+      "body_read": false,
+      "adopted_as_course_review": false
+    },
+    {
+      "course_code": "CHEM60003",
+      "course_name": "无机合成",
+      "scope_position": 57,
+      "source": "zhihu",
+      "query": "site:zhihu.com \"无机合成\" 复旦 化学",
+      "search_method": "public_web_index_site_query_exact_full_name",
+      "result_status": "irrelevant_results_no_course_review_candidate",
+      "result_summary": "检索结果为无机化学话题百科等泛内容，未见该课程或修读评价。",
+      "candidate_titles": [
+        "无机化学 - 知乎"
+      ],
+      "candidate_urls": [
+        "https://www.zhihu.com/topic/19664224/intro"
+      ],
+      "body_read": false,
+      "adopted_as_course_review": false
+    },
+    {
+      "course_code": "CHEM60003",
+      "course_name": "无机合成",
+      "scope_position": 57,
+      "source": "xiaohongshu",
+      "query": "site:xiaohongshu.com \"无机合成\" 复旦 化学",
+      "search_method": "public_web_index_site_query_exact_full_name",
+      "result_status": "search_no_candidate",
+      "result_summary": "公开索引未返回课程评价候选。",
+      "candidate_titles": [],
+      "candidate_urls": [],
+      "body_read": false,
+      "adopted_as_course_review": false
+    },
+    {
+      "course_code": "CHEM60003",
+      "course_name": "无机合成",
+      "scope_position": 57,
+      "source": "wechat_public",
+      "query": "site:mp.weixin.qq.com \"无机合成\" 复旦 化学",
+      "search_method": "public_web_index_site_query_exact_full_name",
+      "result_status": "search_no_candidate",
+      "result_summary": "公开索引未返回课程评价候选。",
+      "candidate_titles": [],
+      "candidate_urls": [],
+      "body_read": false,
+      "adopted_as_course_review": false
+    },
+    {
+      "course_code": "CHEM60004",
+      "course_name": "高等仪器分析",
+      "scope_position": 58,
+      "source": "zhihu",
+      "query": "site:zhihu.com \"高等仪器分析\" 复旦",
+      "search_method": "public_web_index_site_query_exact_full_name",
+      "result_status": "search_no_candidate",
+      "result_summary": "未见该课程的课程评价候选。",
+      "candidate_titles": [],
+      "candidate_urls": [],
+      "body_read": false,
+      "adopted_as_course_review": false
+    },
+    {
+      "course_code": "CHEM60004",
+      "course_name": "高等仪器分析",
+      "scope_position": 58,
+      "source": "xiaohongshu",
+      "query": "site:xiaohongshu.com \"高等仪器分析\" 复旦",
+      "search_method": "public_web_index_site_query_exact_full_name",
+      "result_status": "search_no_candidate",
+      "result_summary": "未见该课程的课程评价候选。",
+      "candidate_titles": [],
+      "candidate_urls": [],
+      "body_read": false,
+      "adopted_as_course_review": false
+    },
+    {
+      "course_code": "CHEM60004",
+      "course_name": "高等仪器分析",
+      "scope_position": 58,
+      "source": "wechat_public",
+      "query": "site:mp.weixin.qq.com \"高等仪器分析\" 复旦",
+      "search_method": "public_web_index_site_query_exact_full_name",
+      "result_status": "search_no_candidate",
+      "result_summary": "公开索引未返回结果。",
+      "candidate_titles": [],
+      "candidate_urls": [],
+      "body_read": false,
+      "adopted_as_course_review": false
+    },
+    {
+      "course_code": "CHEM60005",
+      "course_name": "统计热力学",
+      "scope_position": 59,
+      "source": "zhihu",
+      "query": "site:zhihu.com \"统计热力学\" 复旦",
+      "search_method": "public_web_index_site_query_exact_full_name",
+      "result_status": "candidate_body_unavailable_not_counted",
+      "result_summary": "结果标题及检索片段讨论统计热力学课程/书籍，但知乎正文打开时被安全验证拦截，无法确认是否为复旦该课的亲修评价；仅保留排除/待核线索，未计入课程评价。",
+      "candidate_titles": [
+        "热学、热力学、统计热力学、统计物理学、统计力学、统计场论这些课程有什么区别和联系？"
+      ],
+      "candidate_urls": [
+        "https://www.zhihu.com/tardis/zm/ans/1274184588"
+      ],
+      "body_read": false,
+      "adopted_as_course_review": false
+    },
+    {
+      "course_code": "CHEM60005",
+      "course_name": "统计热力学",
+      "scope_position": 59,
+      "source": "xiaohongshu",
+      "query": "site:xiaohongshu.com \"统计热力学\" 复旦",
+      "search_method": "public_web_index_site_query_exact_full_name",
+      "result_status": "search_no_candidate",
+      "result_summary": "未见与课程全名对应的课程评价候选。",
+      "candidate_titles": [],
+      "candidate_urls": [],
+      "body_read": false,
+      "adopted_as_course_review": false
+    },
+    {
+      "course_code": "CHEM60005",
+      "course_name": "统计热力学",
+      "scope_position": 59,
+      "source": "wechat_public",
+      "query": "site:mp.weixin.qq.com \"统计热力学\" 复旦",
+      "search_method": "public_web_index_site_query_exact_full_name",
+      "result_status": "search_no_candidate",
+      "result_summary": "未见与课程全名对应的课程评价候选。",
+      "candidate_titles": [],
+      "candidate_urls": [],
+      "body_read": false,
+      "adopted_as_course_review": false
+    },
+    {
+      "course_code": "CHEM60011",
+      "course_name": "色谱理论基础",
+      "scope_position": 60,
+      "source": "zhihu",
+      "query": "site:zhihu.com \"色谱理论基础\" 复旦",
+      "search_method": "public_web_index_site_query_exact_full_name",
+      "result_status": "irrelevant_results_no_course_review_candidate",
+      "result_summary": "返回北大软微考情文章等不相关内容，未见该复旦课程或修读评价。",
+      "candidate_titles": [
+        "重磅推出！北大软微3w字考情分析，看完这篇就能考研上岸！"
+      ],
+      "candidate_urls": [
+        "https://www.zhihu.com/tardis/bd/art/533113256"
+      ],
+      "body_read": false,
+      "adopted_as_course_review": false
+    },
+    {
+      "course_code": "CHEM60011",
+      "course_name": "色谱理论基础",
+      "scope_position": 60,
+      "source": "xiaohongshu",
+      "query": "site:xiaohongshu.com \"色谱理论基础\" 复旦",
+      "search_method": "public_web_index_site_query_exact_full_name",
+      "result_status": "search_no_candidate",
+      "result_summary": "未见与课程全名对应的课程评价候选。",
+      "candidate_titles": [],
+      "candidate_urls": [],
+      "body_read": false,
+      "adopted_as_course_review": false
+    },
+    {
+      "course_code": "CHEM60011",
+      "course_name": "色谱理论基础",
+      "scope_position": 60,
+      "source": "wechat_public",
+      "query": "site:mp.weixin.qq.com \"色谱理论基础\" 复旦",
+      "search_method": "public_web_index_site_query_exact_full_name",
+      "result_status": "search_no_candidate",
+      "result_summary": "公开索引未返回结果。",
+      "candidate_titles": [],
+      "candidate_urls": [],
+      "body_read": false,
+      "adopted_as_course_review": false
+    },
+    {
+      "course_code": "CHEM60012",
+      "course_name": "生物质谱仪器和质谱分析",
+      "scope_position": 61,
+      "source": "zhihu",
+      "query": "site:zhihu.com \"生物质谱仪器和质谱分析\" 复旦",
+      "search_method": "public_web_index_site_query_exact_full_name",
+      "result_status": "candidate_body_unavailable_not_counted",
+      "result_summary": "检索结果是代谢组学与质谱/色谱知识笔记分享，未见该课程名称或复旦修读经历；打开正文时被知乎安全验证拦截，故未计入课程评价。",
+      "candidate_titles": [
+        "一文读懂代谢组学+机器学习（课程笔记分享）"
+      ],
+      "candidate_urls": [
+        "https://www.zhihu.com/tardis/zm/art/652046875"
+      ],
+      "body_read": false,
+      "adopted_as_course_review": false
+    },
+    {
+      "course_code": "CHEM60012",
+      "course_name": "生物质谱仪器和质谱分析",
+      "scope_position": 61,
+      "source": "xiaohongshu",
+      "query": "site:xiaohongshu.com \"生物质谱仪器和质谱分析\" 复旦",
+      "search_method": "public_web_index_site_query_exact_full_name",
+      "result_status": "search_no_candidate",
+      "result_summary": "公开索引未返回课程评价候选。",
+      "candidate_titles": [],
+      "candidate_urls": [],
+      "body_read": false,
+      "adopted_as_course_review": false
+    },
+    {
+      "course_code": "CHEM60012",
+      "course_name": "生物质谱仪器和质谱分析",
+      "scope_position": 61,
+      "source": "wechat_public",
+      "query": "site:mp.weixin.qq.com \"生物质谱仪器和质谱分析\" 复旦",
+      "search_method": "public_web_index_site_query_exact_full_name",
+      "result_status": "search_no_candidate",
+      "result_summary": "公开索引未返回课程评价候选。",
       "candidate_titles": [],
       "candidate_urls": [],
       "body_read": false,

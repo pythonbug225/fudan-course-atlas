@@ -53,15 +53,15 @@
   "continuation_progress": {
     "scope_first_73_only": true,
     "baseline_unattempted_pairs": 188,
-    "new_pairs_completed": 36,
-    "remaining_unattempted_pairs": 152,
-    "last_course_code": "CHEM20016",
-    "last_source": "wechat_sogou",
+    "new_pairs_completed": 48,
+    "remaining_unattempted_pairs": 140,
+    "last_course_code": "CHEM30003",
+    "last_source": "xiaohongshu",
     "dedupe_adjustment": "Two legacy queries excluded: CHEM20015 Zhihu added teacher 马林; CHEM40008 Xiaohongshu added partial title word 化学.",
     "active_scope_official_evidence_positions": "1-37",
     "active_scope_total_platform_pairs": 111,
-    "active_scope_completed_or_attempted_pairs": 59,
-    "active_scope_remaining_unattempted_pairs": 52
+    "active_scope_completed_or_attempted_pairs": 71,
+    "active_scope_remaining_unattempted_pairs": 40
   },
   "records": [
     {
@@ -1480,6 +1480,240 @@
       "result_summary": "本次公开网页站点限定查询返回空结果；未发现可打开的候选正文。仅表示公开索引此次未返回候选。",
       "candidate_titles": [],
       "candidate_urls": [],
+      "body_read": false,
+      "adopted_as_course_review": false
+    },
+    {
+      "course_code": "CHEM20017",
+      "course_name": "元素化学",
+      "scope_position": 19,
+      "in_first_73": true,
+      "source": "zhihu",
+      "query": "site:zhihu.com \"元素化学\" 复旦",
+      "search_method": "public_web_index_site_query",
+      "prior_exact_title_completed": false,
+      "newly_closed_open_pair": true,
+      "result_status": "irrelevant_results_no_course_review_candidate",
+      "result_summary": "公开索引返回一般化学教材目录、化学知识文章及非复旦课程内容；未发现可映射到复旦化学系《元素化学》的课评正文。结果仅作无关候选记录，正文未读。",
+      "candidate_titles": [
+        "知乎书店：章节目录含“元素化学”",
+        "化学的正确打开方式——图书课程推荐",
+        "奇怪化学记录SCR（1）"
+      ],
+      "candidate_urls": [
+        "https://www.zhihu.com/pub/reader/120103827/catalogue",
+        "https://www.zhihu.com/tardis/zm/art/104255935",
+        "https://www.zhihu.com/tardis/zm/art/452032490"
+      ],
+      "body_read": false,
+      "adopted_as_course_review": false
+    },
+    {
+      "course_code": "CHEM20017",
+      "course_name": "元素化学",
+      "scope_position": 19,
+      "in_first_73": true,
+      "source": "xiaohongshu",
+      "query": "site:xiaohongshu.com \"元素化学\" 复旦",
+      "search_method": "public_web_index_site_query",
+      "prior_exact_title_completed": false,
+      "newly_closed_open_pair": true,
+      "result_status": "search_no_candidate",
+      "result_summary": "公开网页站点限定查询未返回小红书候选结果；未发现可打开的候选正文。仅表示公开索引此次未返回候选。",
+      "candidate_titles": [],
+      "candidate_urls": [],
+      "body_read": false,
+      "adopted_as_course_review": false
+    },
+    {
+      "course_code": "CHEM20017",
+      "course_name": "元素化学",
+      "scope_position": 19,
+      "in_first_73": true,
+      "source": "wechat_sogou",
+      "query": "site:mp.weixin.qq.com \"元素化学\" 复旦",
+      "search_method": "public_web_index_site_query",
+      "prior_exact_title_completed": false,
+      "newly_closed_open_pair": true,
+      "result_status": "search_no_candidate",
+      "result_summary": "批量公开搜索结果仅含知乎域名的一般化学内容；未出现微信公众号域名候选。该课程—平台查询未发现候选正文。",
+      "candidate_titles": [],
+      "candidate_urls": [],
+      "body_read": false,
+      "adopted_as_course_review": false
+    },
+    {
+      "course_code": "CHEM20021",
+      "course_name": "无机化学与化学分析实验",
+      "scope_position": 20,
+      "in_first_73": true,
+      "source": "zhihu",
+      "query": "site:zhihu.com \"无机化学与化学分析实验\" 复旦",
+      "search_method": "public_web_index_site_query",
+      "prior_exact_title_completed": false,
+      "newly_closed_open_pair": true,
+      "result_status": "irrelevant_results_no_course_review_candidate",
+      "result_summary": "知乎索引返回生物工程课程列表及上海科技大学考研经验等一般/外校内容；未发现可映射到复旦化学系《无机化学与化学分析实验》的课评正文。未读正文。",
+      "candidate_titles": [
+        "生物工程学 - 知乎",
+        "25考研 上海科技大学831材料科学基础考研经验分享和导学指南"
+      ],
+      "candidate_urls": [
+        "https://www.zhihu.com/topic/19612219/intro",
+        "https://www.zhihu.com/tardis/bd/art/365680839"
+      ],
+      "body_read": false,
+      "adopted_as_course_review": false
+    },
+    {
+      "course_code": "CHEM20021",
+      "course_name": "无机化学与化学分析实验",
+      "scope_position": 20,
+      "in_first_73": true,
+      "source": "xiaohongshu",
+      "query": "site:xiaohongshu.com \"无机化学与化学分析实验\" 复旦",
+      "search_method": "public_web_index_site_query",
+      "prior_exact_title_completed": false,
+      "newly_closed_open_pair": true,
+      "result_status": "search_no_candidate",
+      "result_summary": "批量公开搜索返回中只有知乎域名结果；未见小红书候选。该课程—平台公开索引查询无可打开候选正文。",
+      "candidate_titles": [],
+      "candidate_urls": [],
+      "body_read": false,
+      "adopted_as_course_review": false
+    },
+    {
+      "course_code": "CHEM20022",
+      "course_name": "切问近思",
+      "scope_position": 21,
+      "in_first_73": true,
+      "source": "zhihu",
+      "query": "site:zhihu.com \"切问近思\" 复旦",
+      "search_method": "public_web_index_site_query",
+      "prior_exact_title_completed": false,
+      "newly_closed_open_pair": true,
+      "result_status": "irrelevant_results_no_course_review_candidate",
+      "result_summary": "知乎索引返回围绕《道德经》及“如何建立知识体系”等话题的回答，未发现复旦《切问近思》课程评价；正文未读。",
+      "candidate_titles": [
+        "老子《道德经》水善利万物相关知乎回答",
+        "如何实现绝对理性？什么是绝对理性？"
+      ],
+      "candidate_urls": [
+        "https://www.zhihu.com/en/answer/3160405970",
+        "https://www.zhihu.com/en/answer/3363808895"
+      ],
+      "body_read": false,
+      "adopted_as_course_review": false
+    },
+    {
+      "course_code": "CHEM20022",
+      "course_name": "切问近思",
+      "scope_position": 21,
+      "in_first_73": true,
+      "source": "xiaohongshu",
+      "query": "site:xiaohongshu.com \"切问近思\" 复旦",
+      "search_method": "public_web_index_site_query",
+      "prior_exact_title_completed": false,
+      "newly_closed_open_pair": true,
+      "result_status": "search_no_candidate",
+      "result_summary": "公开网页站点限定查询返回空结果；未发现候选正文。仅表示公开索引此次未返回候选。",
+      "candidate_titles": [],
+      "candidate_urls": [],
+      "body_read": false,
+      "adopted_as_course_review": false
+    },
+    {
+      "course_code": "CHEM20022",
+      "course_name": "切问近思",
+      "scope_position": 21,
+      "in_first_73": true,
+      "source": "wechat_sogou",
+      "query": "site:mp.weixin.qq.com \"切问近思\" 复旦",
+      "search_method": "public_web_index_site_query",
+      "prior_exact_title_completed": false,
+      "newly_closed_open_pair": true,
+      "result_status": "search_no_candidate",
+      "result_summary": "公开网页站点限定查询返回空结果；未发现候选正文。仅表示公开索引此次未返回候选。",
+      "candidate_titles": [],
+      "candidate_urls": [],
+      "body_read": false,
+      "adopted_as_course_review": false
+    },
+    {
+      "course_code": "CHEM30001",
+      "course_name": "绿色电化学合成",
+      "scope_position": 22,
+      "in_first_73": true,
+      "source": "zhihu",
+      "query": "site:zhihu.com \"绿色电化学合成\" 复旦",
+      "search_method": "public_web_index_site_query",
+      "prior_exact_title_completed": false,
+      "newly_closed_open_pair": true,
+      "result_status": "irrelevant_results_no_course_review_candidate",
+      "result_summary": "知乎索引返回离子液体、光合作用及绿色电化学研究文章等一般化学内容；未发现可映射至复旦《绿色电化学合成》的课评正文。未读正文。",
+      "candidate_titles": [
+        "知乎盐选：第16章 离子液体",
+        "光合作用 - 知乎"
+      ],
+      "candidate_urls": [
+        "https://www.zhihu.com/market/pub/120034044/manuscript/1289564014285197312",
+        "https://www.zhihu.com/topic/19656114/intro"
+      ],
+      "body_read": false,
+      "adopted_as_course_review": false
+    },
+    {
+      "course_code": "CHEM30001",
+      "course_name": "绿色电化学合成",
+      "scope_position": 22,
+      "in_first_73": true,
+      "source": "xiaohongshu",
+      "query": "site:xiaohongshu.com \"绿色电化学合成\" 复旦",
+      "search_method": "public_web_index_site_query",
+      "prior_exact_title_completed": false,
+      "newly_closed_open_pair": true,
+      "result_status": "search_no_candidate",
+      "result_summary": "批量公开搜索结果中只有知乎域名候选；未见小红书结果。该课程—平台查询未发现可打开候选正文。",
+      "candidate_titles": [],
+      "candidate_urls": [],
+      "body_read": false,
+      "adopted_as_course_review": false
+    },
+    {
+      "course_code": "CHEM30001",
+      "course_name": "绿色电化学合成",
+      "scope_position": 22,
+      "in_first_73": true,
+      "source": "wechat_sogou",
+      "query": "site:mp.weixin.qq.com \"绿色电化学合成\" 复旦",
+      "search_method": "public_web_index_site_query",
+      "prior_exact_title_completed": false,
+      "newly_closed_open_pair": true,
+      "result_status": "search_no_candidate",
+      "result_summary": "批量公开搜索结果仅有小红书蒲公英帮助页候选，无公众号域名结果；未发现公众号文章候选正文。",
+      "candidate_titles": [],
+      "candidate_urls": [],
+      "body_read": false,
+      "adopted_as_course_review": false
+    },
+    {
+      "course_code": "CHEM30003",
+      "course_name": "合成化学实验(下)",
+      "scope_position": 23,
+      "in_first_73": true,
+      "source": "xiaohongshu",
+      "query": "site:xiaohongshu.com \"合成化学实验(下)\" 复旦",
+      "search_method": "public_web_index_site_query",
+      "prior_exact_title_completed": false,
+      "newly_closed_open_pair": true,
+      "result_status": "irrelevant_results_no_course_review_candidate",
+      "result_summary": "搜索结果为小红书蒲公英平台规则帮助页，与《合成化学实验(下)》课程评价无关；未发现课评正文，未打开正文页。",
+      "candidate_titles": [
+        "帮助中心 - 小红书蒲公英"
+      ],
+      "candidate_urls": [
+        "https://pgy.xiaohongshu.com/help/detail?id=6495c527d1eedeeb48fb18b1f875650e&userType=4"
+      ],
       "body_read": false,
       "adopted_as_course_review": false
     }
