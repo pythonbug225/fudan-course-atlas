@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-10-28 20:31:33",
+  "generated_at": "2026-10-28 20:39:39",
   "scope": {
     "source_file": "official_evidence.json",
     "course_list_positions_inclusive": [
@@ -26,26 +26,51 @@
       "CHEM20020",
       "CHEM30032"
     ],
-    "prior_agent_skip_note": "Nine codes were reported by the parent as searched by the prior agent and were not repeated.",
+    "prior_agent_skip_note": "The previous-agent ledger was checked by course-platform pair. Only recorded exact-title pairs were skipped; missing platform pairs were queried when pending.",
     "public_wechat_method": "公开网页索引限定 mp.weixin.qq.com 域名；并非搜狗微信站内检索。"
   },
   "run_summary": {
     "courses_in_scope": 72,
-    "courses_skipped_per_prior_agent_instruction": 9,
-    "courses_with_new_platform_queries": 34,
+    "courses_skipped_per_prior_agent_instruction": 6,
+    "courses_with_new_platform_queries": 50,
     "new_query_count_by_platform": {
-      "zhihu": 31,
-      "xiaohongshu": 30,
+      "zhihu": 46,
+      "xiaohongshu": 45,
       "wechat_sogou": 11
     },
     "new_trusted_course_review_candidates": 0,
     "caveat": "Empty or unrelated search results do not prove that no student reviews exist.",
     "wechat_deferred_not_run_count": 52,
     "wechat_restriction_reason": "Connection failed for all 3 queries in batch WX-B2; no further WeChat domain queries sent.",
-    "cumulative_course_platform_pair_count": 72,
-    "last_batch_id": "ZH-B5/XHS-B5",
-    "last_batch_count": 10,
-    "last_batch_note": "No trusted course review candidates in either platform."
+    "cumulative_course_platform_pair_count": 101,
+    "last_batch_id": "ZH-B8/XHS-B8",
+    "last_batch_count": 9,
+    "last_batch_note": "Completed remaining pending Zhihu and Xiaohongshu full-name queries; no candidates found.",
+    "prior_agent_query_count_by_platform": {
+      "zhihu": 9,
+      "xiaohongshu": 6,
+      "wechat_sogou": 9
+    },
+    "prior_coverage_query_count_by_platform": {
+      "zhihu": 18,
+      "xiaohongshu": 20,
+      "wechat_sogou": 0
+    },
+    "total_recorded_query_attempts_by_platform": {
+      "zhihu": 73,
+      "xiaohongshu": 71,
+      "wechat_sogou": 20
+    },
+    "total_recorded_query_attempts": 164,
+    "verified_exact_full_name_query_attempts_by_platform": {
+      "zhihu": 72,
+      "xiaohongshu": 71,
+      "wechat_sogou": 20
+    },
+    "verified_exact_full_name_query_attempts": 163,
+    "nonconforming_query_note": "CHEM40003 Zhihu search included extra phrase “化学系课程”; retained as an actual attempt but excluded from exact-title-only count.",
+    "existing_partial_leads_inaccessible": 1,
+    "exact_chem40003_followup": "已补做仅课程全名加复旦及站点限定的查询，未见课程评价。"
   },
   "platform_batch_results": [
     {
@@ -58,7 +83,8 @@
         "CHEM70019"
       ],
       "result_status": "unrelated_results",
-      "evidence": "Generic textbook/topic material, including a general 配位化学 history page; no Fudan course, teacher, term, or student review identified."
+      "evidence": "Generic textbook/topic material, including a general 配位化学 history page; no Fudan course, teacher, term, or student review identified.",
+      "reported_batch_id": "ZH-B1"
     },
     {
       "batch_id": "XHS-B1",
@@ -70,7 +96,8 @@
         "CHEM70019"
       ],
       "result_status": "unrelated_result",
-      "evidence": "Only a platform rules page appeared."
+      "evidence": "Only a platform rules page appeared.",
+      "reported_batch_id": "XHS-B1"
     },
     {
       "batch_id": "WX-B1",
@@ -82,10 +109,11 @@
         "CHEM70019"
       ],
       "result_status": "empty_search_results",
-      "evidence": "No results for the four full-name queries."
+      "evidence": "No results for the four full-name queries.",
+      "reported_batch_id": "WX-B1"
     },
     {
-      "batch_id": "ZH-B2",
+      "batch_id": "ZH-B2-1",
       "platform": "zhihu",
       "course_codes": [
         "CHEM70020",
@@ -94,10 +122,11 @@
         "CHEM70030"
       ],
       "result_status": "unrelated_results",
-      "evidence": "Generic technical, topic, industry, or market pages; no identifiable Fudan student course review."
+      "evidence": "Generic technical, topic, industry, or market pages; no identifiable Fudan student course review.",
+      "reported_batch_id": "ZH-B2"
     },
     {
-      "batch_id": "XHS-B2",
+      "batch_id": "XHS-B2-1",
       "platform": "xiaohongshu",
       "course_codes": [
         "CHEM70020",
@@ -106,10 +135,11 @@
         "CHEM70030"
       ],
       "result_status": "empty_search_results",
-      "evidence": "No results for the four full-name queries."
+      "evidence": "No results for the four full-name queries.",
+      "reported_batch_id": "XHS-B2"
     },
     {
-      "batch_id": "ZH-B3",
+      "batch_id": "ZH-B3-1",
       "platform": "zhihu",
       "course_codes": [
         "CHEM20009",
@@ -118,10 +148,11 @@
         "CHEM20023"
       ],
       "result_status": "unrelated_results",
-      "evidence": "Generic postgraduate exam-preparation and unrelated pages; no identifiable Fudan student course review."
+      "evidence": "Generic postgraduate exam-preparation and unrelated pages; no identifiable Fudan student course review.",
+      "reported_batch_id": "ZH-B3"
     },
     {
-      "batch_id": "XHS-B3",
+      "batch_id": "XHS-B3-1",
       "platform": "xiaohongshu",
       "course_codes": [
         "CHEM20009",
@@ -130,7 +161,8 @@
         "CHEM20023"
       ],
       "result_status": "empty_search_results",
-      "evidence": "No results for the four full-name queries."
+      "evidence": "No results for the four full-name queries.",
+      "reported_batch_id": "XHS-B3"
     },
     {
       "batch_id": "WX-B3",
@@ -142,10 +174,11 @@
         "CHEM20023"
       ],
       "result_status": "empty_search_results",
-      "evidence": "No results for the four full-name queries."
+      "evidence": "No results for the four full-name queries.",
+      "reported_batch_id": "WX-B3"
     },
     {
-      "batch_id": "ZH-B2",
+      "batch_id": "ZH-B2-2",
       "platform": "zhihu",
       "course_codes": [
         "CHEM70032",
@@ -154,10 +187,11 @@
         "GEIN10002"
       ],
       "result_status": "unrelated_results",
-      "evidence": "四条全名+复旦+知乎站点查询均未发现课程评价候选；返回结果为通用科研仪器、微流控、生物医学资料等无关内容。"
+      "evidence": "四条全名+复旦+知乎站点查询均未发现课程评价候选；返回结果为通用科研仪器、微流控、生物医学资料等无关内容。",
+      "reported_batch_id": "ZH-B2"
     },
     {
-      "batch_id": "XHS-B2",
+      "batch_id": "XHS-B2-2",
       "platform": "xiaohongshu",
       "course_codes": [
         "CHEM70032",
@@ -165,7 +199,8 @@
         "GEEC10038"
       ],
       "result_status": "unrelated_results",
-      "evidence": "三条全名+复旦+小红书站点查询未发现课程特异评价；搜索结果仅有平台通用帮助内容。"
+      "evidence": "三条全名+复旦+小红书站点查询未发现课程特异评价；搜索结果仅有平台通用帮助内容。",
+      "reported_batch_id": "XHS-B2"
     },
     {
       "batch_id": "WX-B2",
@@ -176,7 +211,8 @@
         "CHEM70028"
       ],
       "result_status": "connection_failed",
-      "evidence": "三条查询均已提交，web 搜索调用连接失败，未返回可核对结果；每课每平台只尝试一次，未重试。"
+      "evidence": "三条查询均已提交，web 搜索调用连接失败，未返回可核对结果；每课每平台只尝试一次，未重试。",
+      "reported_batch_id": "WX-B2"
     },
     {
       "batch_id": "WX-RESTRICTED-B2",
@@ -236,10 +272,11 @@
         "GESP20004"
       ],
       "result_status": "platform_restricted_no_query",
-      "evidence": "前批次3条查询均因 web 工具连接失败未返回结果；按用户指示暂停该平台后续查询。所列课程均未对此平台提交查询。"
+      "evidence": "前批次3条查询均因 web 工具连接失败未返回结果；按用户指示暂停该平台后续查询。所列课程均未对此平台提交查询。",
+      "reported_batch_id": "WX-RESTRICTED-B2"
     },
     {
-      "batch_id": "ZH-B3",
+      "batch_id": "ZH-B3-2",
       "platform": "zhihu",
       "course_codes": [
         "CHEM30009",
@@ -249,10 +286,11 @@
         "CHEM30023"
       ],
       "result_status": "unrelated_results",
-      "evidence": "五条全名+复旦+知乎域名检索均未发现课程评价候选；出现通用化学工程、材料、考研与学科知识内容。"
+      "evidence": "五条全名+复旦+知乎域名检索均未发现课程评价候选；出现通用化学工程、材料、考研与学科知识内容。",
+      "reported_batch_id": "ZH-B3"
     },
     {
-      "batch_id": "XHS-B3",
+      "batch_id": "XHS-B3-2",
       "platform": "xiaohongshu",
       "course_codes": [
         "CHEM30009",
@@ -262,7 +300,8 @@
         "CHEM30023"
       ],
       "result_status": "unrelated_results",
-      "evidence": "五条全名+复旦+小红书域名检索未发现课程特异评价；返回平台通用帮助内容。"
+      "evidence": "五条全名+复旦+小红书域名检索未发现课程特异评价；返回平台通用帮助内容。",
+      "reported_batch_id": "XHS-B3"
     },
     {
       "batch_id": "ZH-B4",
@@ -275,7 +314,8 @@
         "CHEM40004"
       ],
       "result_status": "unrelated_results",
-      "evidence": "五条查询均未发现课程评价候选；结果为通用招生/考研/学科内容。CHEM40003查询附加了“化学系课程”词，已在该课程条目中标明不作为纯标题证据。"
+      "evidence": "五条查询均未发现课程评价候选；结果为通用招生/考研/学科内容。CHEM40003查询附加了“化学系课程”词，已在该课程条目中标明不作为纯标题证据。",
+      "reported_batch_id": "ZH-B4"
     },
     {
       "batch_id": "XHS-B4",
@@ -288,7 +328,8 @@
         "CHEM40004"
       ],
       "result_status": "unrelated_results",
-      "evidence": "五条全名+复旦+小红书域名查询未见课程特异评价；返回平台通用帮助内容。"
+      "evidence": "五条全名+复旦+小红书域名查询未见课程特异评价；返回平台通用帮助内容。",
+      "reported_batch_id": "XHS-B4"
     },
     {
       "batch_id": "ZH-B5",
@@ -301,7 +342,8 @@
         "CHEM60015"
       ],
       "result_status": "no_course_review_candidate",
-      "evidence": "五条全名+复旦+知乎域名查询未发现可归属课程评价；结果为空或为无关学科内容。"
+      "evidence": "五条全名+复旦+知乎域名查询未发现可归属课程评价；结果为空或为无关学科内容。",
+      "reported_batch_id": "ZH-B5"
     },
     {
       "batch_id": "XHS-B5",
@@ -314,7 +356,207 @@
         "CHEM60016"
       ],
       "result_status": "search_index_empty_or_unrelated",
-      "evidence": "五条全名+复旦+小红书域名查询为空或仅返回平台通用帮助内容；未发现课程特异评价。"
+      "evidence": "五条全名+复旦+小红书域名查询为空或仅返回平台通用帮助内容；未发现课程特异评价。",
+      "reported_batch_id": "XHS-B5"
+    },
+    {
+      "batch_id": "ZH-B6",
+      "platform": "zhihu",
+      "course_codes": [
+        "CHEM60016",
+        "CHEM60018",
+        "CHEM60022",
+        "CHEM60023",
+        "CHEM70007"
+      ],
+      "result_status": "unrelated_results",
+      "evidence": "五条全名+复旦+知乎域名查询未发现课程评价候选；返回电化学/色谱学科资料、通用复旦讨论等无关内容。",
+      "reported_batch_id": "ZH-B6"
+    },
+    {
+      "batch_id": "XHS-B6",
+      "platform": "xiaohongshu",
+      "course_codes": [
+        "CHEM60018",
+        "CHEM60022",
+        "CHEM60023",
+        "CHEM70007",
+        "CHEM70009"
+      ],
+      "result_status": "search_index_empty_or_unrelated",
+      "evidence": "五条全名+复旦+小红书域名查询为空或仅返回平台通用帮助内容；未见课程特异评价。",
+      "reported_batch_id": "XHS-B6"
+    },
+    {
+      "batch_id": "ZH-B7",
+      "platform": "zhihu",
+      "course_codes": [
+        "CHEM70009",
+        "CHEM70012",
+        "CHEM70017",
+        "CHEM70024",
+        "CHEM70025"
+      ],
+      "result_status": "unrelated_results",
+      "evidence": "五条全名+复旦+知乎域名检索未发现课程评价候选；返回无关学科、技术或招生内容。",
+      "reported_batch_id": "ZH-B7"
+    },
+    {
+      "batch_id": "XHS-B7",
+      "platform": "xiaohongshu",
+      "course_codes": [
+        "CHEM70012",
+        "CHEM70017",
+        "CHEM20006",
+        "CHEM20020",
+        "CHEM30032"
+      ],
+      "result_status": "search_index_empty_or_unrelated",
+      "evidence": "五条全名+复旦+小红书域名查询为空或仅返回平台通用帮助内容；未见课程特异评价。三门此前被整课跳过的课程在此完成了此前缺失的小红书全名查询。",
+      "reported_batch_id": "XHS-B7"
+    },
+    {
+      "batch_id": "ZH-B8",
+      "platform": "zhihu",
+      "course_codes": [
+        "CHEM70026",
+        "CHEM70027",
+        "CHEM70034",
+        "CHEM70035"
+      ],
+      "result_status": "unrelated_results",
+      "evidence": "四条全名+复旦+知乎域名检索仅返回无关内容，未见课程评价候选。",
+      "reported_batch_id": "ZH-B8"
+    },
+    {
+      "batch_id": "XHS-B8",
+      "platform": "xiaohongshu",
+      "course_codes": [
+        "CHEM70025",
+        "CHEM70026",
+        "CHEM70027",
+        "CHEM70034",
+        "CHEM70035"
+      ],
+      "result_status": "search_index_empty",
+      "evidence": "五条全名+复旦+小红书域名查询均无结果；未发现课程特异评价。",
+      "reported_batch_id": "XHS-B8"
+    },
+    {
+      "batch_id": "PRIOR-AGENT-20261028-1",
+      "platform": "zhihu",
+      "course_codes": [
+        "CHEM10002",
+        "CHEM10004",
+        "CHEM10006",
+        "CHEM20002",
+        "CHEM20004",
+        "CHEM20006",
+        "CHEM20007",
+        "CHEM20020",
+        "CHEM30032"
+      ],
+      "result_status": "imported_prior_exact_title_queries",
+      "evidence": "Imported 9 exact course-name + Fudan/site query records and per-query result summaries from full_name_search_20261028_agent.json.",
+      "reported_batch_id": "PRIOR-AGENT-20261028"
+    },
+    {
+      "batch_id": "PRIOR-AGENT-20261028-2",
+      "platform": "xiaohongshu",
+      "course_codes": [
+        "CHEM10002",
+        "CHEM10004",
+        "CHEM10006",
+        "CHEM20002",
+        "CHEM20004",
+        "CHEM20007"
+      ],
+      "result_status": "imported_prior_exact_title_queries",
+      "evidence": "Imported 6 exact course-name + Fudan/site query records and per-query result summaries from full_name_search_20261028_agent.json.",
+      "reported_batch_id": "PRIOR-AGENT-20261028"
+    },
+    {
+      "batch_id": "PRIOR-AGENT-20261028-3",
+      "platform": "wechat_sogou",
+      "course_codes": [
+        "CHEM10002",
+        "CHEM10004",
+        "CHEM10006",
+        "CHEM20002",
+        "CHEM20004",
+        "CHEM20006",
+        "CHEM20007",
+        "CHEM20020",
+        "CHEM30032"
+      ],
+      "result_status": "imported_prior_exact_title_queries",
+      "evidence": "Imported 9 exact course-name + Fudan/site query records and per-query result summaries from full_name_search_20261028_agent.json.",
+      "reported_batch_id": "PRIOR-AGENT-20261028"
+    },
+    {
+      "batch_id": "PUBLIC-WEB-COVERAGE-2026-10-28-1",
+      "platform": "zhihu",
+      "course_codes": [
+        "AIS531005",
+        "CHEM20002h",
+        "CHEM20006h",
+        "CHEM20008",
+        "CHEM20014",
+        "CHEM20014h",
+        "CHEM30008",
+        "CHEM30020",
+        "CHEM30030",
+        "CHEM30032h",
+        "CHEM50007",
+        "CHEM70006",
+        "CHEM70018",
+        "CHEM70021",
+        "GECC10002",
+        "GESP10004",
+        "GESP20003",
+        "GESP20004"
+      ],
+      "result_status": "imported_completed_full_name_coverage",
+      "evidence": "Imported 18 previously completed pure-title + Fudan/site query records from public_web_coverage.json; these were not repeated.",
+      "reported_batch_id": "PUBLIC-WEB-COVERAGE-2026-10-28"
+    },
+    {
+      "batch_id": "PUBLIC-WEB-COVERAGE-2026-10-28-2",
+      "platform": "xiaohongshu",
+      "course_codes": [
+        "AIS531005",
+        "CHEM20002h",
+        "CHEM20006h",
+        "CHEM20008",
+        "CHEM20014",
+        "CHEM20014h",
+        "CHEM30008",
+        "CHEM30020",
+        "CHEM30030",
+        "CHEM30032h",
+        "CHEM50005",
+        "CHEM50007",
+        "CHEM70006",
+        "CHEM70018",
+        "CHEM70021",
+        "GECC10002",
+        "GEIN10002",
+        "GESP10004",
+        "GESP20003",
+        "GESP20004"
+      ],
+      "result_status": "imported_completed_full_name_coverage",
+      "evidence": "Imported 20 previously completed pure-title + Fudan/site query records from public_web_coverage.json; these were not repeated.",
+      "reported_batch_id": "PUBLIC-WEB-COVERAGE-2026-10-28"
+    },
+    {
+      "batch_id": "ZH-CHEM40003-EXACT",
+      "platform": "zhihu",
+      "course_codes": [
+        "CHEM40003"
+      ],
+      "result_status": "unrelated_results",
+      "evidence": "公开索引返回MBA、论文检测及其他院系话题，未发现化学系该课程评价。"
     }
   ],
   "trusted_candidates": [],
@@ -529,7 +771,7 @@
           "query_attempted": true,
           "actual_query": "\"金属有机化学在有机合成中应用\" 复旦; domain filter zhihu.com",
           "planned_query_if_not_run": null,
-          "batch_id": "ZH-B2",
+          "batch_id": "ZH-B2-1",
           "note": "Exact course title was queried; no identifiable student review was found in the sampled batch."
         },
         "xiaohongshu": {
@@ -540,7 +782,7 @@
           "query_attempted": true,
           "actual_query": "\"金属有机化学在有机合成中应用\" 复旦; domain filter xiaohongshu.com",
           "planned_query_if_not_run": null,
-          "batch_id": "XHS-B2",
+          "batch_id": "XHS-B2-1",
           "note": "Exact course title was queried; no identifiable student review was found in the sampled batch."
         },
         "wechat_sogou": {
@@ -574,7 +816,7 @@
           "query_attempted": true,
           "actual_query": "\"固态化学\" 复旦; domain filter zhihu.com",
           "planned_query_if_not_run": null,
-          "batch_id": "ZH-B2",
+          "batch_id": "ZH-B2-1",
           "note": "Exact course title was queried; no identifiable student review was found in the sampled batch."
         },
         "xiaohongshu": {
@@ -585,7 +827,7 @@
           "query_attempted": true,
           "actual_query": "\"固态化学\" 复旦; domain filter xiaohongshu.com",
           "planned_query_if_not_run": null,
-          "batch_id": "XHS-B2",
+          "batch_id": "XHS-B2-1",
           "note": "Exact course title was queried; no identifiable student review was found in the sampled batch."
         },
         "wechat_sogou": {
@@ -619,7 +861,7 @@
           "query_attempted": true,
           "actual_query": "\"XPS技术及其在化学中的应用\" 复旦; domain filter zhihu.com",
           "planned_query_if_not_run": null,
-          "batch_id": "ZH-B2",
+          "batch_id": "ZH-B2-1",
           "note": "Exact course title was queried; no identifiable student review was found in the sampled batch."
         },
         "xiaohongshu": {
@@ -630,7 +872,7 @@
           "query_attempted": true,
           "actual_query": "\"XPS技术及其在化学中的应用\" 复旦; domain filter xiaohongshu.com",
           "planned_query_if_not_run": null,
-          "batch_id": "XHS-B2",
+          "batch_id": "XHS-B2-1",
           "note": "Exact course title was queried; no identifiable student review was found in the sampled batch."
         },
         "wechat_sogou": {
@@ -664,7 +906,7 @@
           "query_attempted": true,
           "actual_query": "\"催化反应机理及其研究方法\" 复旦; domain filter zhihu.com",
           "planned_query_if_not_run": null,
-          "batch_id": "ZH-B2",
+          "batch_id": "ZH-B2-1",
           "note": "Exact course title was queried; no identifiable student review was found in the sampled batch."
         },
         "xiaohongshu": {
@@ -675,7 +917,7 @@
           "query_attempted": true,
           "actual_query": "\"催化反应机理及其研究方法\" 复旦; domain filter xiaohongshu.com",
           "planned_query_if_not_run": null,
-          "batch_id": "XHS-B2",
+          "batch_id": "XHS-B2-1",
           "note": "Exact course title was queried; no identifiable student review was found in the sampled batch."
         },
         "wechat_sogou": {
@@ -709,7 +951,7 @@
           "query_attempted": true,
           "actual_query": "site:zhihu.com \"分子聚集体材料和超薄膜\" 复旦",
           "planned_query_if_not_run": null,
-          "batch_id": "ZH-B2",
+          "batch_id": "ZH-B2-2",
           "note": "精确课程全名与复旦限定检索返回内容与本课评价无关，未见可归属的学生课评。"
         },
         "xiaohongshu": {
@@ -720,7 +962,7 @@
           "query_attempted": true,
           "actual_query": "site:xiaohongshu.com \"分子聚集体材料和超薄膜\" 复旦",
           "planned_query_if_not_run": null,
-          "batch_id": "XHS-B2",
+          "batch_id": "XHS-B2-2",
           "note": "精确课程全名与复旦限定检索未见课程特异评价；返回平台通用帮助内容。"
         },
         "wechat_sogou": {
@@ -754,7 +996,7 @@
           "query_attempted": true,
           "actual_query": "site:zhihu.com \"科学仪器基础\" 复旦",
           "planned_query_if_not_run": null,
-          "batch_id": "ZH-B2",
+          "batch_id": "ZH-B2-2",
           "note": "精确课程全名与复旦限定检索返回通用仪器内容，未见可归属的学生课评。"
         },
         "xiaohongshu": {
@@ -765,7 +1007,7 @@
           "query_attempted": true,
           "actual_query": "site:xiaohongshu.com \"科学仪器基础\" 复旦",
           "planned_query_if_not_run": null,
-          "batch_id": "XHS-B2",
+          "batch_id": "XHS-B2-2",
           "note": "精确课程全名与复旦限定检索未见课程特异评价；返回平台通用帮助内容。"
         },
         "wechat_sogou": {
@@ -799,7 +1041,7 @@
           "query_attempted": true,
           "actual_query": "site:zhihu.com \"元素发现史\" 复旦",
           "planned_query_if_not_run": null,
-          "batch_id": "ZH-B2",
+          "batch_id": "ZH-B2-2",
           "note": "精确课程全名与复旦限定检索未见可归属的学生课评；展示结果与目标课程无关。"
         },
         "xiaohongshu": {
@@ -810,7 +1052,7 @@
           "query_attempted": true,
           "actual_query": "site:xiaohongshu.com \"元素发现史\" 复旦",
           "planned_query_if_not_run": null,
-          "batch_id": "XHS-B2",
+          "batch_id": "XHS-B2-2",
           "note": "精确课程全名与复旦限定检索未见课程特异评价；返回平台通用帮助内容。"
         },
         "wechat_sogou": {
@@ -844,7 +1086,7 @@
           "query_attempted": true,
           "actual_query": "site:zhihu.com \"微流控芯片实验室\" 复旦",
           "planned_query_if_not_run": null,
-          "batch_id": "ZH-B2",
+          "batch_id": "ZH-B2-2",
           "note": "精确课程全名与复旦限定检索返回一般微流控资料，未见可归属的学生课评。"
         },
         "xiaohongshu": {
@@ -852,11 +1094,17 @@
           "coverage_statuses": [
             "completed_no_specific_course_review_candidate"
           ],
-          "query_attempted": false,
-          "actual_query": null,
+          "query_attempted": true,
+          "actual_query": "site:xiaohongshu.com/explore \"微流控芯片实验室\" 复旦",
           "planned_query_if_not_run": null,
-          "batch_id": null,
-          "note": "Exact-name platform search already appears in public_web_coverage.json; not repeated."
+          "batch_id": "PUBLIC-WEB-COVERAGE-2026-10-28-2",
+          "note": "Imported completed same-platform full-course-name + Fudan/site query from public_web_coverage.json; not repeated in this batch.",
+          "prior_coverage_query": {
+            "source": "xiaohongshu",
+            "query": "site:xiaohongshu.com/explore \"微流控芯片实验室\" 复旦",
+            "status": "completed_no_specific_course_review_candidate",
+            "note": "WEB-2026-10-28-119/120/121定向检索无匹配课评；无关结果按摘要排除。"
+          }
         },
         "wechat_sogou": {
           "search_status": "not_run_platform_restricted_after_connection_failure",
@@ -882,22 +1130,34 @@
       "preexisting_public_record_ids": [],
       "platforms": {
         "zhihu": {
-          "search_status": "no_pending_full_name_query_in_snapshot",
+          "search_status": "previously_covered_not_repeated",
           "coverage_statuses": [],
-          "query_attempted": false,
-          "actual_query": null,
+          "query_attempted": true,
+          "actual_query": "site:zhihu.com \"强国之路：形势、政策与使命Ⅲ\" 复旦",
           "planned_query_if_not_run": null,
-          "batch_id": null,
-          "note": "No pending exact-name query was recorded in the coverage snapshot; no new search was run."
+          "batch_id": "PUBLIC-WEB-COVERAGE-2026-10-28-1",
+          "note": "Imported completed same-platform full-course-name + Fudan/site query from public_web_coverage.json; not repeated in this batch.",
+          "prior_coverage_query": {
+            "source": "zhihu",
+            "query": "site:zhihu.com \"强国之路：形势、政策与使命Ⅲ\" 复旦",
+            "status": "completed_no_specific_course_review_candidate",
+            "note": "WEB-2026-10-28-119/120/121定向检索无匹配课评；无关结果按摘要排除。"
+          }
         },
         "xiaohongshu": {
-          "search_status": "no_pending_full_name_query_in_snapshot",
+          "search_status": "previously_covered_not_repeated",
           "coverage_statuses": [],
-          "query_attempted": false,
-          "actual_query": null,
+          "query_attempted": true,
+          "actual_query": "site:xiaohongshu.com/explore \"强国之路：形势、政策与使命Ⅲ\" 复旦",
           "planned_query_if_not_run": null,
-          "batch_id": null,
-          "note": "No pending exact-name query was recorded in the coverage snapshot; no new search was run."
+          "batch_id": "PUBLIC-WEB-COVERAGE-2026-10-28-2",
+          "note": "Imported completed same-platform full-course-name + Fudan/site query from public_web_coverage.json; not repeated in this batch.",
+          "prior_coverage_query": {
+            "source": "xiaohongshu",
+            "query": "site:xiaohongshu.com/explore \"强国之路：形势、政策与使命Ⅲ\" 复旦",
+            "status": "completed_no_specific_course_review_candidate",
+            "note": "WEB-2026-10-28-119/120/121定向检索无匹配课评；无关结果按摘要排除。"
+          }
         },
         "wechat_sogou": {
           "search_status": "not_run_platform_restricted_after_connection_failure",
@@ -925,22 +1185,34 @@
           "coverage_statuses": [
             "completed_no_specific_course_review_candidate"
           ],
-          "query_attempted": false,
-          "actual_query": null,
+          "query_attempted": true,
+          "actual_query": "site:zhihu.com \"人工智能化学计算模拟\" 复旦",
           "planned_query_if_not_run": null,
-          "batch_id": null,
-          "note": "Exact-name platform search already appears in public_web_coverage.json; not repeated."
+          "batch_id": "PUBLIC-WEB-COVERAGE-2026-10-28-1",
+          "note": "Imported completed same-platform full-course-name + Fudan/site query from public_web_coverage.json; not repeated in this batch.",
+          "prior_coverage_query": {
+            "source": "zhihu",
+            "query": "site:zhihu.com \"人工智能化学计算模拟\" 复旦",
+            "status": "completed_no_specific_course_review_candidate",
+            "note": "WEB-2026-10-28-114/115未发现目标课程评价；无关搜索结果已排除。"
+          }
         },
         "xiaohongshu": {
           "search_status": "previously_covered_not_repeated",
           "coverage_statuses": [
             "completed_no_specific_course_review_candidate"
           ],
-          "query_attempted": false,
-          "actual_query": null,
+          "query_attempted": true,
+          "actual_query": "site:xiaohongshu.com/explore \"人工智能化学计算模拟\" 复旦",
           "planned_query_if_not_run": null,
-          "batch_id": null,
-          "note": "Exact-name platform search already appears in public_web_coverage.json; not repeated."
+          "batch_id": "PUBLIC-WEB-COVERAGE-2026-10-28-2",
+          "note": "Imported completed same-platform full-course-name + Fudan/site query from public_web_coverage.json; not repeated in this batch.",
+          "prior_coverage_query": {
+            "source": "xiaohongshu",
+            "query": "site:xiaohongshu.com/explore \"人工智能化学计算模拟\" 复旦",
+            "status": "completed_no_specific_course_review_candidate",
+            "note": "WEB-2026-10-28-114/115未发现目标课程评价；无关搜索结果已排除。"
+          }
         },
         "wechat_sogou": {
           "search_status": "not_run_platform_restricted_after_connection_failure",
@@ -966,7 +1238,7 @@
       "preexisting_public_record_ids": [],
       "platforms": {
         "zhihu": {
-          "search_status": "skipped_per_prior_agent_instruction",
+          "search_status": "previously_searched_by_prior_agent",
           "coverage_statuses": [
             "pending",
             "completed_search_index_empty",
@@ -974,14 +1246,32 @@
             "completed_teacher_specific_search_index_empty",
             "completed_teacher_specific_search_index_empty"
           ],
-          "query_attempted": false,
-          "actual_query": null,
+          "query_attempted": true,
+          "actual_query": "site:zhihu.com \"有机化学\" \"复旦大学\" 课程",
           "planned_query_if_not_run": null,
-          "batch_id": null,
-          "note": "Prior agent had searched this course; not repeated."
+          "batch_id": "PRIOR-AGENT-20261028-1",
+          "note": "Imported actual prior exact-title search. Result: irrelevant_results_no_course_review_candidate. 站点限定检索出现与复旦化学系课程无关的泛主题或其他学校结果；仅看搜索摘要，未打开正文。",
+          "prior_agent_search_record": {
+            "source": "zhihu",
+            "query": "site:zhihu.com \"有机化学\" \"复旦大学\" 课程",
+            "result_status": "irrelevant_results_no_course_review_candidate",
+            "result_summary": "站点限定检索出现与复旦化学系课程无关的泛主题或其他学校结果；仅看搜索摘要，未打开正文。",
+            "candidate_titles": [
+              "2025年电子科技大学考研部分考试科目参考书目汇总",
+              "从计算到存储：二维半导体产业链正在形成",
+              "百廿校史「南京大学」，低调的校友圈"
+            ],
+            "candidate_urls": [
+              "https://www.zhihu.com/tardis/bd/art/28133816052",
+              "https://zhuanlan.zhihu.com/p/2065854486871007544",
+              "https://zhuanlan.zhihu.com/p/484363453"
+            ],
+            "body_read": false,
+            "prior_exact_title_completed": true
+          }
         },
         "xiaohongshu": {
-          "search_status": "skipped_per_prior_agent_instruction",
+          "search_status": "previously_searched_by_prior_agent",
           "coverage_statuses": [
             "pending",
             "completed_search_index_empty",
@@ -989,23 +1279,43 @@
             "completed_teacher_specific_search_index_empty",
             "completed_teacher_specific_search_index_empty"
           ],
-          "query_attempted": false,
-          "actual_query": null,
+          "query_attempted": true,
+          "actual_query": "site:xiaohongshu.com \"有机化学\" \"复旦大学\" 课程",
           "planned_query_if_not_run": null,
-          "batch_id": null,
-          "note": "Prior agent had searched this course; not repeated."
+          "batch_id": "PRIOR-AGENT-20261028-2",
+          "note": "Imported actual prior exact-title search. Result: search_no_candidate. 公开网页站点限定搜索返回空结果；未发现候选正文。",
+          "prior_agent_search_record": {
+            "source": "xiaohongshu",
+            "query": "site:xiaohongshu.com \"有机化学\" \"复旦大学\" 课程",
+            "result_status": "search_no_candidate",
+            "result_summary": "公开网页站点限定搜索返回空结果；未发现候选正文。",
+            "candidate_titles": [],
+            "candidate_urls": [],
+            "body_read": false,
+            "prior_exact_title_completed": true
+          }
         },
         "wechat_sogou": {
-          "search_status": "skipped_per_prior_agent_instruction",
+          "search_status": "previously_searched_by_prior_agent",
           "coverage_statuses": [
             "pending",
             "completed_no_specific_course_review_candidate"
           ],
-          "query_attempted": false,
-          "actual_query": null,
+          "query_attempted": true,
+          "actual_query": "site:mp.weixin.qq.com \"有机化学\" \"复旦大学\" 课程",
           "planned_query_if_not_run": null,
-          "batch_id": null,
-          "note": "Prior agent had searched this course; not repeated."
+          "batch_id": "PRIOR-AGENT-20261028-3",
+          "note": "Imported actual prior exact-title search. Result: search_no_candidate. 公开网页站点限定搜索返回空结果；未发现候选正文。",
+          "prior_agent_search_record": {
+            "source": "wechat_sogou",
+            "query": "site:mp.weixin.qq.com \"有机化学\" \"复旦大学\" 课程",
+            "result_status": "search_no_candidate",
+            "result_summary": "公开网页站点限定搜索返回空结果；未发现候选正文。",
+            "candidate_titles": [],
+            "candidate_urls": [],
+            "body_read": false,
+            "prior_exact_title_completed": true
+          }
         }
       }
     },
@@ -1020,31 +1330,61 @@
       "preexisting_public_record_ids": [],
       "platforms": {
         "zhihu": {
-          "search_status": "skipped_per_prior_agent_instruction",
+          "search_status": "previously_searched_by_prior_agent",
           "coverage_statuses": [],
-          "query_attempted": false,
-          "actual_query": null,
+          "query_attempted": true,
+          "actual_query": "site:zhihu.com \"普通化学A（下）\" 复旦",
           "planned_query_if_not_run": null,
-          "batch_id": null,
-          "note": "Prior agent had searched this course; not repeated."
+          "batch_id": "PRIOR-AGENT-20261028-1",
+          "note": "Imported actual prior exact-title search. Result: search_no_candidate. 公开网页站点限定搜索返回空结果；未发现候选正文。",
+          "prior_agent_search_record": {
+            "source": "zhihu",
+            "query": "site:zhihu.com \"普通化学A（下）\" 复旦",
+            "result_status": "search_no_candidate",
+            "result_summary": "公开网页站点限定搜索返回空结果；未发现候选正文。",
+            "candidate_titles": [],
+            "candidate_urls": [],
+            "body_read": false,
+            "prior_exact_title_completed": true
+          }
         },
         "xiaohongshu": {
-          "search_status": "skipped_per_prior_agent_instruction",
+          "search_status": "previously_searched_by_prior_agent",
           "coverage_statuses": [],
-          "query_attempted": false,
-          "actual_query": null,
+          "query_attempted": true,
+          "actual_query": "site:xiaohongshu.com \"普通化学A（下）\" 复旦",
           "planned_query_if_not_run": null,
-          "batch_id": null,
-          "note": "Prior agent had searched this course; not repeated."
+          "batch_id": "PRIOR-AGENT-20261028-2",
+          "note": "Imported actual prior exact-title search. Result: search_no_candidate. 公开网页站点限定搜索返回空结果；未发现候选正文。",
+          "prior_agent_search_record": {
+            "source": "xiaohongshu",
+            "query": "site:xiaohongshu.com \"普通化学A（下）\" 复旦",
+            "result_status": "search_no_candidate",
+            "result_summary": "公开网页站点限定搜索返回空结果；未发现候选正文。",
+            "candidate_titles": [],
+            "candidate_urls": [],
+            "body_read": false,
+            "prior_exact_title_completed": true
+          }
         },
         "wechat_sogou": {
-          "search_status": "skipped_per_prior_agent_instruction",
+          "search_status": "previously_searched_by_prior_agent",
           "coverage_statuses": [],
-          "query_attempted": false,
-          "actual_query": null,
+          "query_attempted": true,
+          "actual_query": "site:mp.weixin.qq.com \"普通化学A（下）\" 复旦",
           "planned_query_if_not_run": null,
-          "batch_id": null,
-          "note": "Prior agent had searched this course; not repeated."
+          "batch_id": "PRIOR-AGENT-20261028-3",
+          "note": "Imported actual prior exact-title search. Result: search_no_candidate. 公开网页站点限定搜索返回空结果；未发现候选正文。",
+          "prior_agent_search_record": {
+            "source": "wechat_sogou",
+            "query": "site:mp.weixin.qq.com \"普通化学A（下）\" 复旦",
+            "result_status": "search_no_candidate",
+            "result_summary": "公开网页站点限定搜索返回空结果；未发现候选正文。",
+            "candidate_titles": [],
+            "candidate_urls": [],
+            "body_read": false,
+            "prior_exact_title_completed": false
+          }
         }
       }
     },
@@ -1059,7 +1399,7 @@
       "preexisting_public_record_ids": [],
       "platforms": {
         "zhihu": {
-          "search_status": "skipped_per_prior_agent_instruction",
+          "search_status": "previously_searched_by_prior_agent",
           "coverage_statuses": [
             "pending",
             "completed_no_zhihu_review_candidate",
@@ -1067,14 +1407,24 @@
             "completed_teacher_specific_search_index_empty",
             "completed_teacher_specific_search_index_empty"
           ],
-          "query_attempted": false,
-          "actual_query": null,
+          "query_attempted": true,
+          "actual_query": "site:zhihu.com \"有机化学实验I\" 复旦",
           "planned_query_if_not_run": null,
-          "batch_id": null,
-          "note": "Prior agent had searched this course; not repeated."
+          "batch_id": "PRIOR-AGENT-20261028-1",
+          "note": "Imported actual prior exact-title search. Result: search_no_candidate. 公开网页站点限定搜索返回空结果；未发现候选正文。",
+          "prior_agent_search_record": {
+            "source": "zhihu",
+            "query": "site:zhihu.com \"有机化学实验I\" 复旦",
+            "result_status": "search_no_candidate",
+            "result_summary": "公开网页站点限定搜索返回空结果；未发现候选正文。",
+            "candidate_titles": [],
+            "candidate_urls": [],
+            "body_read": false,
+            "prior_exact_title_completed": true
+          }
         },
         "xiaohongshu": {
-          "search_status": "skipped_per_prior_agent_instruction",
+          "search_status": "previously_searched_by_prior_agent",
           "coverage_statuses": [
             "searched_no_review",
             "completed_search_index_empty",
@@ -1082,22 +1432,42 @@
             "completed_teacher_specific_search_index_empty",
             "completed_teacher_specific_search_index_empty"
           ],
-          "query_attempted": false,
-          "actual_query": null,
+          "query_attempted": true,
+          "actual_query": "site:xiaohongshu.com \"有机化学实验I\" 复旦",
           "planned_query_if_not_run": null,
-          "batch_id": null,
-          "note": "Prior agent had searched this course; not repeated."
+          "batch_id": "PRIOR-AGENT-20261028-2",
+          "note": "Imported actual prior exact-title search. Result: search_no_candidate. 公开网页站点限定搜索返回空结果；未发现候选正文。",
+          "prior_agent_search_record": {
+            "source": "xiaohongshu",
+            "query": "site:xiaohongshu.com \"有机化学实验I\" 复旦",
+            "result_status": "search_no_candidate",
+            "result_summary": "公开网页站点限定搜索返回空结果；未发现候选正文。",
+            "candidate_titles": [],
+            "candidate_urls": [],
+            "body_read": false,
+            "prior_exact_title_completed": true
+          }
         },
         "wechat_sogou": {
-          "search_status": "skipped_per_prior_agent_instruction",
+          "search_status": "previously_searched_by_prior_agent",
           "coverage_statuses": [
             "pending"
           ],
-          "query_attempted": false,
-          "actual_query": null,
+          "query_attempted": true,
+          "actual_query": "site:mp.weixin.qq.com \"有机化学实验I\" 复旦",
           "planned_query_if_not_run": null,
-          "batch_id": null,
-          "note": "Prior agent had searched this course; not repeated."
+          "batch_id": "PRIOR-AGENT-20261028-3",
+          "note": "Imported actual prior exact-title search. Result: search_no_candidate. 公开网页站点限定搜索返回空结果；未发现候选正文。",
+          "prior_agent_search_record": {
+            "source": "wechat_sogou",
+            "query": "site:mp.weixin.qq.com \"有机化学实验I\" 复旦",
+            "result_status": "search_no_candidate",
+            "result_summary": "公开网页站点限定搜索返回空结果；未发现候选正文。",
+            "candidate_titles": [],
+            "candidate_urls": [],
+            "body_read": false,
+            "prior_exact_title_completed": false
+          }
         }
       }
     },
@@ -1114,35 +1484,65 @@
       ],
       "platforms": {
         "zhihu": {
-          "search_status": "skipped_per_prior_agent_instruction",
+          "search_status": "previously_searched_by_prior_agent",
           "coverage_statuses": [
             "completed_search_index_empty"
           ],
-          "query_attempted": false,
-          "actual_query": null,
+          "query_attempted": true,
+          "actual_query": "site:zhihu.com \"分析化学AⅡ\" 复旦",
           "planned_query_if_not_run": null,
-          "batch_id": null,
-          "note": "Prior agent had searched this course; not repeated."
+          "batch_id": "PRIOR-AGENT-20261028-1",
+          "note": "Imported actual prior exact-title search. Result: search_no_candidate. 公开网页站点限定搜索返回空结果；未发现候选正文。",
+          "prior_agent_search_record": {
+            "source": "zhihu",
+            "query": "site:zhihu.com \"分析化学AⅡ\" 复旦",
+            "result_status": "search_no_candidate",
+            "result_summary": "公开网页站点限定搜索返回空结果；未发现候选正文。",
+            "candidate_titles": [],
+            "candidate_urls": [],
+            "body_read": false,
+            "prior_exact_title_completed": true
+          }
         },
         "xiaohongshu": {
-          "search_status": "skipped_per_prior_agent_instruction",
+          "search_status": "previously_searched_by_prior_agent",
           "coverage_statuses": [
             "completed_search_index_empty"
           ],
-          "query_attempted": false,
-          "actual_query": null,
+          "query_attempted": true,
+          "actual_query": "site:xiaohongshu.com \"分析化学AⅡ\" 复旦",
           "planned_query_if_not_run": null,
-          "batch_id": null,
-          "note": "Prior agent had searched this course; not repeated."
+          "batch_id": "PRIOR-AGENT-20261028-2",
+          "note": "Imported actual prior exact-title search. Result: search_no_candidate. 公开网页站点限定搜索返回空结果；未发现候选正文。",
+          "prior_agent_search_record": {
+            "source": "xiaohongshu",
+            "query": "site:xiaohongshu.com \"分析化学AⅡ\" 复旦",
+            "result_status": "search_no_candidate",
+            "result_summary": "公开网页站点限定搜索返回空结果；未发现候选正文。",
+            "candidate_titles": [],
+            "candidate_urls": [],
+            "body_read": false,
+            "prior_exact_title_completed": true
+          }
         },
         "wechat_sogou": {
-          "search_status": "skipped_per_prior_agent_instruction",
+          "search_status": "previously_searched_by_prior_agent",
           "coverage_statuses": [],
-          "query_attempted": false,
-          "actual_query": null,
+          "query_attempted": true,
+          "actual_query": "site:mp.weixin.qq.com \"分析化学AⅡ\" 复旦",
           "planned_query_if_not_run": null,
-          "batch_id": null,
-          "note": "Prior agent had searched this course; not repeated."
+          "batch_id": "PRIOR-AGENT-20261028-3",
+          "note": "Imported actual prior exact-title search. Result: search_no_candidate. 公开网页站点限定搜索返回空结果；未发现候选正文。",
+          "prior_agent_search_record": {
+            "source": "wechat_sogou",
+            "query": "site:mp.weixin.qq.com \"分析化学AⅡ\" 复旦",
+            "result_status": "search_no_candidate",
+            "result_summary": "公开网页站点限定搜索返回空结果；未发现候选正文。",
+            "candidate_titles": [],
+            "candidate_urls": [],
+            "body_read": false,
+            "prior_exact_title_completed": false
+          }
         }
       }
     },
@@ -1161,22 +1561,34 @@
           "coverage_statuses": [
             "completed_no_specific_course_review_candidate"
           ],
-          "query_attempted": false,
-          "actual_query": null,
+          "query_attempted": true,
+          "actual_query": "site:zhihu.com \"分析化学A II(H)\" 复旦",
           "planned_query_if_not_run": null,
-          "batch_id": null,
-          "note": "Exact-name platform search already appears in public_web_coverage.json; not repeated."
+          "batch_id": "PUBLIC-WEB-COVERAGE-2026-10-28-1",
+          "note": "Imported completed same-platform full-course-name + Fudan/site query from public_web_coverage.json; not repeated in this batch.",
+          "prior_coverage_query": {
+            "source": "zhihu",
+            "query": "site:zhihu.com \"分析化学A II(H)\" 复旦",
+            "status": "completed_no_specific_course_review_candidate",
+            "note": "2026-10-28 exact code/title/teacher, broad title/teacher and Zhihu/XHS site queries run; no specific student review candidate."
+          }
         },
         "xiaohongshu": {
           "search_status": "previously_covered_not_repeated",
           "coverage_statuses": [
             "completed_no_specific_course_review_candidate"
           ],
-          "query_attempted": false,
-          "actual_query": null,
+          "query_attempted": true,
+          "actual_query": "site:xiaohongshu.com/explore \"分析化学A II(H)\" 复旦",
           "planned_query_if_not_run": null,
-          "batch_id": null,
-          "note": "Exact-name platform search already appears in public_web_coverage.json; not repeated."
+          "batch_id": "PUBLIC-WEB-COVERAGE-2026-10-28-2",
+          "note": "Imported completed same-platform full-course-name + Fudan/site query from public_web_coverage.json; not repeated in this batch.",
+          "prior_coverage_query": {
+            "source": "xiaohongshu",
+            "query": "site:xiaohongshu.com/explore \"分析化学A II(H)\" 复旦",
+            "status": "completed_no_specific_course_review_candidate",
+            "note": "2026-10-28 exact code/title/teacher, broad title/teacher and Zhihu/XHS site queries run; no specific student review candidate."
+          }
         },
         "wechat_sogou": {
           "search_status": "not_run_platform_restricted_after_connection_failure",
@@ -1202,40 +1614,70 @@
       "preexisting_public_record_ids": [],
       "platforms": {
         "zhihu": {
-          "search_status": "skipped_per_prior_agent_instruction",
+          "search_status": "previously_searched_by_prior_agent",
           "coverage_statuses": [
             "pending",
             "completed_teacher_specific_search_index_empty"
           ],
-          "query_attempted": false,
-          "actual_query": null,
+          "query_attempted": true,
+          "actual_query": "site:zhihu.com \"合成化学实验(上)\" 复旦",
           "planned_query_if_not_run": null,
-          "batch_id": null,
-          "note": "Prior agent had searched this course; not repeated."
+          "batch_id": "PRIOR-AGENT-20261028-1",
+          "note": "Imported actual prior exact-title search. Result: search_no_candidate. 公开网页站点限定搜索返回空结果；未发现候选正文。",
+          "prior_agent_search_record": {
+            "source": "zhihu",
+            "query": "site:zhihu.com \"合成化学实验(上)\" 复旦",
+            "result_status": "search_no_candidate",
+            "result_summary": "公开网页站点限定搜索返回空结果；未发现候选正文。",
+            "candidate_titles": [],
+            "candidate_urls": [],
+            "body_read": false,
+            "prior_exact_title_completed": true
+          }
         },
         "xiaohongshu": {
-          "search_status": "skipped_per_prior_agent_instruction",
+          "search_status": "previously_searched_by_prior_agent",
           "coverage_statuses": [
             "searched_no_review",
             "completed_teacher_specific_search_index_empty",
             "completed_teacher_specific_search_index_empty"
           ],
-          "query_attempted": false,
-          "actual_query": null,
+          "query_attempted": true,
+          "actual_query": "site:xiaohongshu.com \"合成化学实验(上)\" 复旦",
           "planned_query_if_not_run": null,
-          "batch_id": null,
-          "note": "Prior agent had searched this course; not repeated."
+          "batch_id": "PRIOR-AGENT-20261028-2",
+          "note": "Imported actual prior exact-title search. Result: search_no_candidate. 公开网页站点限定搜索返回空结果；未发现候选正文。",
+          "prior_agent_search_record": {
+            "source": "xiaohongshu",
+            "query": "site:xiaohongshu.com \"合成化学实验(上)\" 复旦",
+            "result_status": "search_no_candidate",
+            "result_summary": "公开网页站点限定搜索返回空结果；未发现候选正文。",
+            "candidate_titles": [],
+            "candidate_urls": [],
+            "body_read": false,
+            "prior_exact_title_completed": true
+          }
         },
         "wechat_sogou": {
-          "search_status": "skipped_per_prior_agent_instruction",
+          "search_status": "previously_searched_by_prior_agent",
           "coverage_statuses": [
             "pending"
           ],
-          "query_attempted": false,
-          "actual_query": null,
+          "query_attempted": true,
+          "actual_query": "site:mp.weixin.qq.com \"合成化学实验(上)\" 复旦",
           "planned_query_if_not_run": null,
-          "batch_id": null,
-          "note": "Prior agent had searched this course; not repeated."
+          "batch_id": "PRIOR-AGENT-20261028-3",
+          "note": "Imported actual prior exact-title search. Result: search_no_candidate. 公开网页站点限定搜索返回空结果；未发现候选正文。",
+          "prior_agent_search_record": {
+            "source": "wechat_sogou",
+            "query": "site:mp.weixin.qq.com \"合成化学实验(上)\" 复旦",
+            "result_status": "search_no_candidate",
+            "result_summary": "公开网页站点限定搜索返回空结果；未发现候选正文。",
+            "candidate_titles": [],
+            "candidate_urls": [],
+            "body_read": false,
+            "prior_exact_title_completed": false
+          }
         }
       }
     },
@@ -1250,33 +1692,53 @@
       "preexisting_public_record_ids": [],
       "platforms": {
         "zhihu": {
-          "search_status": "skipped_per_prior_agent_instruction",
+          "search_status": "previously_searched_by_prior_agent",
           "coverage_statuses": [],
-          "query_attempted": false,
-          "actual_query": null,
+          "query_attempted": true,
+          "actual_query": "site:zhihu.com \"物理化学AⅡ\" 复旦",
           "planned_query_if_not_run": null,
-          "batch_id": null,
-          "note": "Prior agent had searched this course; not repeated."
+          "batch_id": "PRIOR-AGENT-20261028-1",
+          "note": "Imported actual prior exact-title search. Result: search_no_candidate. 公开网页站点限定搜索返回空结果；未发现候选正文。",
+          "prior_agent_search_record": {
+            "source": "zhihu",
+            "query": "site:zhihu.com \"物理化学AⅡ\" 复旦",
+            "result_status": "search_no_candidate",
+            "result_summary": "公开网页站点限定搜索返回空结果；未发现候选正文。",
+            "candidate_titles": [],
+            "candidate_urls": [],
+            "body_read": false,
+            "prior_exact_title_completed": true
+          }
         },
         "xiaohongshu": {
-          "search_status": "skipped_per_prior_agent_instruction",
+          "search_status": "searched_no_attributable_course_review_candidate",
           "coverage_statuses": [
             "completed_search_index_empty"
           ],
-          "query_attempted": false,
-          "actual_query": null,
+          "query_attempted": true,
+          "actual_query": "site:xiaohongshu.com \"物理化学AII\" 复旦",
           "planned_query_if_not_run": null,
-          "batch_id": null,
-          "note": "Prior agent had searched this course; not repeated."
+          "batch_id": "XHS-B7",
+          "note": "按课程官方全名、复旦语境及平台域名检索；无结果或为无关内容，未见可归属的学生课评。"
         },
         "wechat_sogou": {
-          "search_status": "skipped_per_prior_agent_instruction",
+          "search_status": "previously_searched_by_prior_agent",
           "coverage_statuses": [],
-          "query_attempted": false,
-          "actual_query": null,
+          "query_attempted": true,
+          "actual_query": "site:mp.weixin.qq.com \"物理化学AⅡ\" 复旦",
           "planned_query_if_not_run": null,
-          "batch_id": null,
-          "note": "Prior agent had searched this course; not repeated."
+          "batch_id": "PRIOR-AGENT-20261028-3",
+          "note": "Imported actual prior exact-title search. Result: search_no_candidate. 公开网页站点限定搜索返回空结果；未发现候选正文。",
+          "prior_agent_search_record": {
+            "source": "wechat_sogou",
+            "query": "site:mp.weixin.qq.com \"物理化学AⅡ\" 复旦",
+            "result_status": "search_no_candidate",
+            "result_summary": "公开网页站点限定搜索返回空结果；未发现候选正文。",
+            "candidate_titles": [],
+            "candidate_urls": [],
+            "body_read": false,
+            "prior_exact_title_completed": false
+          }
         }
       }
     },
@@ -1295,22 +1757,34 @@
           "coverage_statuses": [
             "completed_no_specific_course_review_candidate"
           ],
-          "query_attempted": false,
-          "actual_query": null,
+          "query_attempted": true,
+          "actual_query": "site:zhihu.com \"物理化学A II(H)\" 复旦",
           "planned_query_if_not_run": null,
-          "batch_id": null,
-          "note": "Exact-name platform search already appears in public_web_coverage.json; not repeated."
+          "batch_id": "PUBLIC-WEB-COVERAGE-2026-10-28-1",
+          "note": "Imported completed same-platform full-course-name + Fudan/site query from public_web_coverage.json; not repeated in this batch.",
+          "prior_coverage_query": {
+            "source": "zhihu",
+            "query": "site:zhihu.com \"物理化学A II(H)\" 复旦",
+            "status": "completed_no_specific_course_review_candidate",
+            "note": "WEB-2026-10-28-104/105对应平台定向搜索无结果。"
+          }
         },
         "xiaohongshu": {
           "search_status": "previously_covered_not_repeated",
           "coverage_statuses": [
             "completed_no_specific_course_review_candidate"
           ],
-          "query_attempted": false,
-          "actual_query": null,
+          "query_attempted": true,
+          "actual_query": "site:xiaohongshu.com/explore \"物理化学A II(H)\" 复旦",
           "planned_query_if_not_run": null,
-          "batch_id": null,
-          "note": "Exact-name platform search already appears in public_web_coverage.json; not repeated."
+          "batch_id": "PUBLIC-WEB-COVERAGE-2026-10-28-2",
+          "note": "Imported completed same-platform full-course-name + Fudan/site query from public_web_coverage.json; not repeated in this batch.",
+          "prior_coverage_query": {
+            "source": "xiaohongshu",
+            "query": "site:xiaohongshu.com/explore \"物理化学A II(H)\" 复旦",
+            "status": "completed_no_specific_course_review_candidate",
+            "note": "WEB-2026-10-28-104/105对应平台定向搜索无结果。"
+          }
         },
         "wechat_sogou": {
           "search_status": "not_run_platform_restricted_after_connection_failure",
@@ -1336,41 +1810,79 @@
       "preexisting_public_record_ids": [],
       "platforms": {
         "zhihu": {
-          "search_status": "skipped_per_prior_agent_instruction",
+          "search_status": "previously_searched_by_prior_agent",
           "coverage_statuses": [
             "pending",
             "completed_teacher_specific_search_index_empty",
             "completed_teacher_specific_search_index_empty"
           ],
-          "query_attempted": false,
-          "actual_query": null,
+          "query_attempted": true,
+          "actual_query": "site:zhihu.com \"谱学导论\" 复旦",
           "planned_query_if_not_run": null,
-          "batch_id": null,
-          "note": "Prior agent had searched this course; not repeated."
+          "batch_id": "PRIOR-AGENT-20261028-1",
+          "note": "Imported actual prior exact-title search. Result: irrelevant_results_no_course_review_candidate. 站点限定检索出现与复旦化学系课程无关的泛主题或其他学校结果；仅看搜索摘要，未打开正文。",
+          "prior_agent_search_record": {
+            "source": "zhihu",
+            "query": "site:zhihu.com \"谱学导论\" 复旦",
+            "result_status": "irrelevant_results_no_course_review_candidate",
+            "result_summary": "站点限定检索出现与复旦化学系课程无关的泛主题或其他学校结果；仅看搜索摘要，未打开正文。",
+            "candidate_titles": [
+              "系统理论书单推荐",
+              "知乎盐选：阿芒•马特拉",
+              "群像小说的定义是什么？怎么写？"
+            ],
+            "candidate_urls": [
+              "https://www.zhihu.com/tardis/bd/art/704566306",
+              "https://www.zhihu.com/market/ebook/120114542/section/1326980742870265856",
+              "https://www.zhihu.com/tardis/bd/ans/1953586574"
+            ],
+            "body_read": false,
+            "prior_exact_title_completed": true
+          }
         },
         "xiaohongshu": {
-          "search_status": "skipped_per_prior_agent_instruction",
+          "search_status": "previously_searched_by_prior_agent",
           "coverage_statuses": [
             "searched_no_review",
             "completed_teacher_specific_search_index_empty",
             "completed_teacher_specific_search_index_empty"
           ],
-          "query_attempted": false,
-          "actual_query": null,
+          "query_attempted": true,
+          "actual_query": "site:xiaohongshu.com \"谱学导论\" 复旦",
           "planned_query_if_not_run": null,
-          "batch_id": null,
-          "note": "Prior agent had searched this course; not repeated."
+          "batch_id": "PRIOR-AGENT-20261028-2",
+          "note": "Imported actual prior exact-title search. Result: search_no_candidate. 公开网页站点限定搜索返回空结果；未发现候选正文。",
+          "prior_agent_search_record": {
+            "source": "xiaohongshu",
+            "query": "site:xiaohongshu.com \"谱学导论\" 复旦",
+            "result_status": "search_no_candidate",
+            "result_summary": "公开网页站点限定搜索返回空结果；未发现候选正文。",
+            "candidate_titles": [],
+            "candidate_urls": [],
+            "body_read": false,
+            "prior_exact_title_completed": true
+          }
         },
         "wechat_sogou": {
-          "search_status": "skipped_per_prior_agent_instruction",
+          "search_status": "previously_searched_by_prior_agent",
           "coverage_statuses": [
             "pending"
           ],
-          "query_attempted": false,
-          "actual_query": null,
+          "query_attempted": true,
+          "actual_query": "site:mp.weixin.qq.com \"谱学导论\" 复旦",
           "planned_query_if_not_run": null,
-          "batch_id": null,
-          "note": "Prior agent had searched this course; not repeated."
+          "batch_id": "PRIOR-AGENT-20261028-3",
+          "note": "Imported actual prior exact-title search. Result: search_no_candidate. 公开网页站点限定搜索返回空结果；未发现候选正文。",
+          "prior_agent_search_record": {
+            "source": "wechat_sogou",
+            "query": "site:mp.weixin.qq.com \"谱学导论\" 复旦",
+            "result_status": "search_no_candidate",
+            "result_summary": "公开网页站点限定搜索返回空结果；未发现候选正文。",
+            "candidate_titles": [],
+            "candidate_urls": [],
+            "body_read": false,
+            "prior_exact_title_completed": false
+          }
         }
       }
     },
@@ -1389,22 +1901,34 @@
           "coverage_statuses": [
             "completed_no_specific_course_review_candidate"
           ],
-          "query_attempted": false,
-          "actual_query": null,
+          "query_attempted": true,
+          "actual_query": "site:zhihu.com \"数理统计方法在化学中的应用\" 复旦",
           "planned_query_if_not_run": null,
-          "batch_id": null,
-          "note": "Exact-name platform search already appears in public_web_coverage.json; not repeated."
+          "batch_id": "PUBLIC-WEB-COVERAGE-2026-10-28-1",
+          "note": "Imported completed same-platform full-course-name + Fudan/site query from public_web_coverage.json; not repeated in this batch.",
+          "prior_coverage_query": {
+            "source": "zhihu",
+            "query": "site:zhihu.com \"数理统计方法在化学中的应用\" 复旦",
+            "status": "completed_no_specific_course_review_candidate",
+            "note": "WEB-2026-10-28-104/105对应平台定向搜索无结果。"
+          }
         },
         "xiaohongshu": {
           "search_status": "previously_covered_not_repeated",
           "coverage_statuses": [
             "completed_no_specific_course_review_candidate"
           ],
-          "query_attempted": false,
-          "actual_query": null,
+          "query_attempted": true,
+          "actual_query": "site:xiaohongshu.com/explore \"数理统计方法在化学中的应用\" 复旦",
           "planned_query_if_not_run": null,
-          "batch_id": null,
-          "note": "Exact-name platform search already appears in public_web_coverage.json; not repeated."
+          "batch_id": "PUBLIC-WEB-COVERAGE-2026-10-28-2",
+          "note": "Imported completed same-platform full-course-name + Fudan/site query from public_web_coverage.json; not repeated in this batch.",
+          "prior_coverage_query": {
+            "source": "xiaohongshu",
+            "query": "site:xiaohongshu.com/explore \"数理统计方法在化学中的应用\" 复旦",
+            "status": "completed_no_specific_course_review_candidate",
+            "note": "WEB-2026-10-28-104/105对应平台定向搜索无结果。"
+          }
         },
         "wechat_sogou": {
           "search_status": "not_run_platform_restricted_after_connection_failure",
@@ -1437,7 +1961,7 @@
           "query_attempted": true,
           "actual_query": "\"化学专业英语\" 复旦; domain filter zhihu.com",
           "planned_query_if_not_run": null,
-          "batch_id": "ZH-B3",
+          "batch_id": "ZH-B3-1",
           "note": "Exact course title was queried; no identifiable student review was found in the sampled batch."
         },
         "xiaohongshu": {
@@ -1448,7 +1972,7 @@
           "query_attempted": true,
           "actual_query": "\"化学专业英语\" 复旦; domain filter xiaohongshu.com",
           "planned_query_if_not_run": null,
-          "batch_id": "XHS-B3",
+          "batch_id": "XHS-B3-1",
           "note": "Exact course title was queried; no identifiable student review was found in the sampled batch."
         },
         "wechat_sogou": {
@@ -1480,11 +2004,17 @@
             "completed_no_specific_course_review_candidate",
             "completed_search_index_empty"
           ],
-          "query_attempted": false,
-          "actual_query": null,
+          "query_attempted": true,
+          "actual_query": "site:zhihu.com \"有机化学A II\" 复旦",
           "planned_query_if_not_run": null,
-          "batch_id": null,
-          "note": "Exact-name platform search already appears in public_web_coverage.json; not repeated."
+          "batch_id": "PUBLIC-WEB-COVERAGE-2026-10-28-1",
+          "note": "Imported completed same-platform full-course-name + Fudan/site query from public_web_coverage.json; not repeated in this batch.",
+          "prior_coverage_query": {
+            "source": "zhihu",
+            "query": "site:zhihu.com \"有机化学A II\" 复旦",
+            "status": "completed_no_specific_course_review_candidate",
+            "note": "2026-10-28 exact code/title/teacher, broad title/teacher and Zhihu/XHS site queries run; no review body candidate. The 2025-2026 public course page was partially read, but its evaluation tab had no visible text; an unrelated official PDF review lead timed out."
+          }
         },
         "xiaohongshu": {
           "search_status": "previously_covered_not_repeated",
@@ -1492,11 +2022,17 @@
             "completed_no_specific_course_review_candidate",
             "completed_search_index_empty"
           ],
-          "query_attempted": false,
-          "actual_query": null,
+          "query_attempted": true,
+          "actual_query": "site:xiaohongshu.com/explore \"有机化学A II\" 复旦",
           "planned_query_if_not_run": null,
-          "batch_id": null,
-          "note": "Exact-name platform search already appears in public_web_coverage.json; not repeated."
+          "batch_id": "PUBLIC-WEB-COVERAGE-2026-10-28-2",
+          "note": "Imported completed same-platform full-course-name + Fudan/site query from public_web_coverage.json; not repeated in this batch.",
+          "prior_coverage_query": {
+            "source": "xiaohongshu",
+            "query": "site:xiaohongshu.com/explore \"有机化学A II\" 复旦",
+            "status": "completed_no_specific_course_review_candidate",
+            "note": "2026-10-28 exact code/title/teacher, broad title/teacher and Zhihu/XHS site queries run; no review body candidate. The 2025-2026 public course page was partially read, but its evaluation tab had no visible text; an unrelated official PDF review lead timed out."
+          }
         },
         "wechat_sogou": {
           "search_status": "not_run_platform_restricted_after_connection_failure",
@@ -1526,22 +2062,34 @@
           "coverage_statuses": [
             "completed_no_specific_course_review_candidate"
           ],
-          "query_attempted": false,
-          "actual_query": null,
+          "query_attempted": true,
+          "actual_query": "site:zhihu.com \"有机化学A II (H)\" 复旦",
           "planned_query_if_not_run": null,
-          "batch_id": null,
-          "note": "Exact-name platform search already appears in public_web_coverage.json; not repeated."
+          "batch_id": "PUBLIC-WEB-COVERAGE-2026-10-28-1",
+          "note": "Imported completed same-platform full-course-name + Fudan/site query from public_web_coverage.json; not repeated in this batch.",
+          "prior_coverage_query": {
+            "source": "zhihu",
+            "query": "site:zhihu.com \"有机化学A II (H)\" 复旦",
+            "status": "completed_no_specific_course_review_candidate",
+            "note": "WEB-2026-10-28-104/105对应平台定向搜索无结果。"
+          }
         },
         "xiaohongshu": {
           "search_status": "previously_covered_not_repeated",
           "coverage_statuses": [
             "completed_no_specific_course_review_candidate"
           ],
-          "query_attempted": false,
-          "actual_query": null,
+          "query_attempted": true,
+          "actual_query": "site:xiaohongshu.com/explore \"有机化学A II (H)\" 复旦",
           "planned_query_if_not_run": null,
-          "batch_id": null,
-          "note": "Exact-name platform search already appears in public_web_coverage.json; not repeated."
+          "batch_id": "PUBLIC-WEB-COVERAGE-2026-10-28-2",
+          "note": "Imported completed same-platform full-course-name + Fudan/site query from public_web_coverage.json; not repeated in this batch.",
+          "prior_coverage_query": {
+            "source": "xiaohongshu",
+            "query": "site:xiaohongshu.com/explore \"有机化学A II (H)\" 复旦",
+            "status": "completed_no_specific_course_review_candidate",
+            "note": "WEB-2026-10-28-104/105对应平台定向搜索无结果。"
+          }
         },
         "wechat_sogou": {
           "search_status": "not_run_platform_restricted_after_connection_failure",
@@ -1574,7 +2122,7 @@
           "query_attempted": true,
           "actual_query": "\"生命中的化学\" 复旦; domain filter zhihu.com",
           "planned_query_if_not_run": null,
-          "batch_id": "ZH-B3",
+          "batch_id": "ZH-B3-1",
           "note": "Exact course title was queried; no identifiable student review was found in the sampled batch."
         },
         "xiaohongshu": {
@@ -1585,7 +2133,7 @@
           "query_attempted": true,
           "actual_query": "\"生命中的化学\" 复旦; domain filter xiaohongshu.com",
           "planned_query_if_not_run": null,
-          "batch_id": "XHS-B3",
+          "batch_id": "XHS-B3-1",
           "note": "Exact course title was queried; no identifiable student review was found in the sampled batch."
         },
         "wechat_sogou": {
@@ -1619,7 +2167,7 @@
           "query_attempted": true,
           "actual_query": "\"微流控生命分析\" 复旦; domain filter zhihu.com",
           "planned_query_if_not_run": null,
-          "batch_id": "ZH-B3",
+          "batch_id": "ZH-B3-1",
           "note": "Exact course title was queried; no identifiable student review was found in the sampled batch."
         },
         "xiaohongshu": {
@@ -1630,7 +2178,7 @@
           "query_attempted": true,
           "actual_query": "\"微流控生命分析\" 复旦; domain filter xiaohongshu.com",
           "planned_query_if_not_run": null,
-          "batch_id": "XHS-B3",
+          "batch_id": "XHS-B3-1",
           "note": "Exact course title was queried; no identifiable student review was found in the sampled batch."
         },
         "wechat_sogou": {
@@ -1657,39 +2205,69 @@
       "preexisting_public_record_ids": [],
       "platforms": {
         "zhihu": {
-          "search_status": "skipped_per_prior_agent_instruction",
+          "search_status": "previously_searched_by_prior_agent",
           "coverage_statuses": [
             "pending",
             "completed_teacher_specific_search_index_empty"
           ],
-          "query_attempted": false,
-          "actual_query": null,
+          "query_attempted": true,
+          "actual_query": "site:zhihu.com \"仪器分析实验\" 复旦",
           "planned_query_if_not_run": null,
-          "batch_id": null,
-          "note": "Prior agent had searched this course; not repeated."
+          "batch_id": "PRIOR-AGENT-20261028-1",
+          "note": "Imported actual prior exact-title search. Result: irrelevant_results_no_course_review_candidate. 站点限定检索出现与复旦化学系课程无关的泛主题或其他学校结果；仅看搜索摘要，未打开正文。",
+          "prior_agent_search_record": {
+            "source": "zhihu",
+            "query": "site:zhihu.com \"仪器分析实验\" 复旦",
+            "result_status": "irrelevant_results_no_course_review_candidate",
+            "result_summary": "站点限定检索出现与复旦化学系课程无关的泛主题或其他学校结果；仅看搜索摘要，未打开正文。",
+            "candidate_titles": [
+              "热重分析——方法·实验方案设计·曲线解析",
+              "常见的各种水质的电导率一般范围为多少？",
+              "知乎盐选：实验七 煤的工业分析",
+              "知乎盐选：6.1 滴定分析"
+            ],
+            "candidate_urls": [
+              "https://www.zhihu.com/tardis/bd/art/589816258",
+              "https://www.zhihu.com/tardis/bd/ans/31648061732",
+              "https://www.zhihu.com/market/pub/120045591/manuscript/1289601825419489280",
+              "https://www.zhihu.com/market/pub/120031452/manuscript/1289553929823932416"
+            ],
+            "body_read": false,
+            "prior_exact_title_completed": true
+          }
         },
         "xiaohongshu": {
-          "search_status": "skipped_per_prior_agent_instruction",
+          "search_status": "searched_no_attributable_course_review_candidate",
           "coverage_statuses": [
             "searched_no_review",
             "completed_teacher_specific_search_index_empty"
           ],
-          "query_attempted": false,
-          "actual_query": null,
+          "query_attempted": true,
+          "actual_query": "site:xiaohongshu.com \"仪器分析实验\" 复旦",
           "planned_query_if_not_run": null,
-          "batch_id": null,
-          "note": "Prior agent had searched this course; not repeated."
+          "batch_id": "XHS-B7",
+          "note": "按课程官方全名、复旦语境及平台域名检索；无结果或为无关内容，未见可归属的学生课评。"
         },
         "wechat_sogou": {
-          "search_status": "skipped_per_prior_agent_instruction",
+          "search_status": "previously_searched_by_prior_agent",
           "coverage_statuses": [
             "pending"
           ],
-          "query_attempted": false,
-          "actual_query": null,
+          "query_attempted": true,
+          "actual_query": "site:mp.weixin.qq.com \"仪器分析实验\" 复旦",
           "planned_query_if_not_run": null,
-          "batch_id": null,
-          "note": "Prior agent had searched this course; not repeated."
+          "batch_id": "PRIOR-AGENT-20261028-3",
+          "note": "Imported actual prior exact-title search. Result: search_no_candidate. 公开网页站点限定搜索返回空结果；未发现候选正文。",
+          "prior_agent_search_record": {
+            "source": "wechat_sogou",
+            "query": "site:mp.weixin.qq.com \"仪器分析实验\" 复旦",
+            "result_status": "search_no_candidate",
+            "result_summary": "公开网页站点限定搜索返回空结果；未发现候选正文。",
+            "candidate_titles": [],
+            "candidate_urls": [],
+            "body_read": false,
+            "prior_exact_title_completed": false
+          }
         }
       }
     },
@@ -1711,7 +2289,7 @@
           "query_attempted": true,
           "actual_query": "\"化学前沿专题\" 复旦; domain filter zhihu.com",
           "planned_query_if_not_run": null,
-          "batch_id": "ZH-B3",
+          "batch_id": "ZH-B3-1",
           "note": "Exact course title was queried; no identifiable student review was found in the sampled batch."
         },
         "xiaohongshu": {
@@ -1722,7 +2300,7 @@
           "query_attempted": true,
           "actual_query": "\"化学前沿专题\" 复旦; domain filter xiaohongshu.com",
           "planned_query_if_not_run": null,
-          "batch_id": "XHS-B3",
+          "batch_id": "XHS-B3-1",
           "note": "Exact course title was queried; no identifiable student review was found in the sampled batch."
         },
         "wechat_sogou": {
@@ -1753,22 +2331,34 @@
           "coverage_statuses": [
             "searched_no_review"
           ],
-          "query_attempted": false,
-          "actual_query": null,
+          "query_attempted": true,
+          "actual_query": "site:zhihu.com \"近代分析化学\" 复旦",
           "planned_query_if_not_run": null,
-          "batch_id": null,
-          "note": "Exact-name platform search already appears in public_web_coverage.json; not repeated."
+          "batch_id": "PUBLIC-WEB-COVERAGE-2026-10-28-1",
+          "note": "Imported completed same-platform full-course-name + Fudan/site query from public_web_coverage.json; not repeated in this batch.",
+          "prior_coverage_query": {
+            "source": "zhihu",
+            "query": "site:zhihu.com \"近代分析化学\" 复旦",
+            "status": "searched_no_review",
+            "note": "2026-10-27实际执行课程名/课号/教师组合、知乎站点限定与通用检索；未发现可映射到当前课程的学生课评正文。命中的是面向生命科学学院的“分析化学”教学实践官方项目材料，不是当前化学系CHEM30008课程评价；未计为课评，未据此推断给分或难度。"
+          }
         },
         "xiaohongshu": {
           "search_status": "previously_covered_not_repeated",
           "coverage_statuses": [
             "searched_no_review"
           ],
-          "query_attempted": false,
-          "actual_query": null,
+          "query_attempted": true,
+          "actual_query": "site:xiaohongshu.com/explore \"近代分析化学\" 复旦",
           "planned_query_if_not_run": null,
-          "batch_id": null,
-          "note": "Exact-name platform search already appears in public_web_coverage.json; not repeated."
+          "batch_id": "PUBLIC-WEB-COVERAGE-2026-10-28-2",
+          "note": "Imported completed same-platform full-course-name + Fudan/site query from public_web_coverage.json; not repeated in this batch.",
+          "prior_coverage_query": {
+            "source": "xiaohongshu",
+            "query": "site:xiaohongshu.com/explore \"近代分析化学\" 复旦",
+            "status": "searched_no_review",
+            "note": "2026-10-27实际执行课程名/课号/教师组合、知乎站点限定与通用检索；未发现可映射到当前课程的学生课评正文。命中的是面向生命科学学院的“分析化学”教学实践官方项目材料，不是当前化学系CHEM30008课程评价；未计为课评，未据此推断给分或难度。"
+          }
         },
         "wechat_sogou": {
           "search_status": "not_run_platform_restricted_after_connection_failure",
@@ -1801,7 +2391,7 @@
           "query_attempted": true,
           "actual_query": "site:zhihu.com \"胶体化学\" 复旦",
           "planned_query_if_not_run": null,
-          "batch_id": "ZH-B3",
+          "batch_id": "ZH-B3-2",
           "note": "按课程官方全名、复旦语境及平台域名检索；结果为通用/无关内容，未见可归属的学生课评。"
         },
         "xiaohongshu": {
@@ -1812,7 +2402,7 @@
           "query_attempted": true,
           "actual_query": "site:xiaohongshu.com \"胶体化学\" 复旦",
           "planned_query_if_not_run": null,
-          "batch_id": "XHS-B3",
+          "batch_id": "XHS-B3-2",
           "note": "按课程官方全名、复旦语境及平台域名检索；结果为通用/无关内容，未见可归属的学生课评。"
         },
         "wechat_sogou": {
@@ -1846,7 +2436,7 @@
           "query_attempted": true,
           "actual_query": "site:zhihu.com \"新型无机材料\" 复旦",
           "planned_query_if_not_run": null,
-          "batch_id": "ZH-B3",
+          "batch_id": "ZH-B3-2",
           "note": "按课程官方全名、复旦语境及平台域名检索；结果为通用/无关内容，未见可归属的学生课评。"
         },
         "xiaohongshu": {
@@ -1857,7 +2447,7 @@
           "query_attempted": true,
           "actual_query": "site:xiaohongshu.com \"新型无机材料\" 复旦",
           "planned_query_if_not_run": null,
-          "batch_id": "XHS-B3",
+          "batch_id": "XHS-B3-2",
           "note": "按课程官方全名、复旦语境及平台域名检索；结果为通用/无关内容，未见可归属的学生课评。"
         },
         "wechat_sogou": {
@@ -1891,7 +2481,7 @@
           "query_attempted": true,
           "actual_query": "site:zhihu.com \"化学反应工程\" 复旦",
           "planned_query_if_not_run": null,
-          "batch_id": "ZH-B3",
+          "batch_id": "ZH-B3-2",
           "note": "按课程官方全名、复旦语境及平台域名检索；结果为通用/无关内容，未见可归属的学生课评。"
         },
         "xiaohongshu": {
@@ -1902,7 +2492,7 @@
           "query_attempted": true,
           "actual_query": "site:xiaohongshu.com \"化学反应工程\" 复旦",
           "planned_query_if_not_run": null,
-          "batch_id": "XHS-B3",
+          "batch_id": "XHS-B3-2",
           "note": "按课程官方全名、复旦语境及平台域名检索；结果为通用/无关内容，未见可归属的学生课评。"
         },
         "wechat_sogou": {
@@ -1936,7 +2526,7 @@
           "query_attempted": true,
           "actual_query": "site:zhihu.com \"工业化学\" 复旦",
           "planned_query_if_not_run": null,
-          "batch_id": "ZH-B3",
+          "batch_id": "ZH-B3-2",
           "note": "按课程官方全名、复旦语境及平台域名检索；结果为通用/无关内容，未见可归属的学生课评。"
         },
         "xiaohongshu": {
@@ -1947,7 +2537,7 @@
           "query_attempted": true,
           "actual_query": "site:xiaohongshu.com \"工业化学\" 复旦",
           "planned_query_if_not_run": null,
-          "batch_id": "XHS-B3",
+          "batch_id": "XHS-B3-2",
           "note": "按课程官方全名、复旦语境及平台域名检索；结果为通用/无关内容，未见可归属的学生课评。"
         },
         "wechat_sogou": {
@@ -1978,22 +2568,34 @@
           "coverage_statuses": [
             "completed_no_specific_course_review_candidate"
           ],
-          "query_attempted": false,
-          "actual_query": null,
+          "query_attempted": true,
+          "actual_query": "site:zhihu.com \"溶胶-凝胶化学及实验\" 复旦",
           "planned_query_if_not_run": null,
-          "batch_id": null,
-          "note": "Exact-name platform search already appears in public_web_coverage.json; not repeated."
+          "batch_id": "PUBLIC-WEB-COVERAGE-2026-10-28-1",
+          "note": "Imported completed same-platform full-course-name + Fudan/site query from public_web_coverage.json; not repeated in this batch.",
+          "prior_coverage_query": {
+            "source": "zhihu",
+            "query": "site:zhihu.com \"溶胶-凝胶化学及实验\" 复旦",
+            "status": "completed_no_specific_course_review_candidate",
+            "note": "WEB-2026-10-28-114/115未发现目标课程评价；无关搜索结果已排除。"
+          }
         },
         "xiaohongshu": {
           "search_status": "previously_covered_not_repeated",
           "coverage_statuses": [
             "completed_no_specific_course_review_candidate"
           ],
-          "query_attempted": false,
-          "actual_query": null,
+          "query_attempted": true,
+          "actual_query": "site:xiaohongshu.com/explore \"溶胶-凝胶化学及实验\" 复旦",
           "planned_query_if_not_run": null,
-          "batch_id": null,
-          "note": "Exact-name platform search already appears in public_web_coverage.json; not repeated."
+          "batch_id": "PUBLIC-WEB-COVERAGE-2026-10-28-2",
+          "note": "Imported completed same-platform full-course-name + Fudan/site query from public_web_coverage.json; not repeated in this batch.",
+          "prior_coverage_query": {
+            "source": "xiaohongshu",
+            "query": "site:xiaohongshu.com/explore \"溶胶-凝胶化学及实验\" 复旦",
+            "status": "completed_no_specific_course_review_candidate",
+            "note": "WEB-2026-10-28-114/115未发现目标课程评价；无关搜索结果已排除。"
+          }
         },
         "wechat_sogou": {
           "search_status": "not_run_platform_restricted_after_connection_failure",
@@ -2026,7 +2628,7 @@
           "query_attempted": true,
           "actual_query": "site:zhihu.com \"药物化学\" 复旦",
           "planned_query_if_not_run": null,
-          "batch_id": "ZH-B3",
+          "batch_id": "ZH-B3-2",
           "note": "按课程官方全名、复旦语境及平台域名检索；结果为通用/无关内容，未见可归属的学生课评。"
         },
         "xiaohongshu": {
@@ -2037,7 +2639,7 @@
           "query_attempted": true,
           "actual_query": "site:xiaohongshu.com \"药物化学\" 复旦",
           "planned_query_if_not_run": null,
-          "batch_id": "XHS-B3",
+          "batch_id": "XHS-B3-2",
           "note": "按课程官方全名、复旦语境及平台域名检索；结果为通用/无关内容，未见可归属的学生课评。"
         },
         "wechat_sogou": {
@@ -2152,22 +2754,34 @@
           "coverage_statuses": [
             "completed_no_specific_course_review_candidate"
           ],
-          "query_attempted": false,
-          "actual_query": null,
+          "query_attempted": true,
+          "actual_query": "site:zhihu.com \"探究性仪器分析实验\" 复旦",
           "planned_query_if_not_run": null,
-          "batch_id": null,
-          "note": "Exact-name platform search already appears in public_web_coverage.json; not repeated."
+          "batch_id": "PUBLIC-WEB-COVERAGE-2026-10-28-1",
+          "note": "Imported completed same-platform full-course-name + Fudan/site query from public_web_coverage.json; not repeated in this batch.",
+          "prior_coverage_query": {
+            "source": "zhihu",
+            "query": "site:zhihu.com \"探究性仪器分析实验\" 复旦",
+            "status": "completed_no_specific_course_review_candidate",
+            "note": "WEB-2026-10-28-104/105对应平台定向搜索无结果。"
+          }
         },
         "xiaohongshu": {
           "search_status": "previously_covered_not_repeated",
           "coverage_statuses": [
             "completed_no_specific_course_review_candidate"
           ],
-          "query_attempted": false,
-          "actual_query": null,
+          "query_attempted": true,
+          "actual_query": "site:xiaohongshu.com/explore \"探究性仪器分析实验\" 复旦",
           "planned_query_if_not_run": null,
-          "batch_id": null,
-          "note": "Exact-name platform search already appears in public_web_coverage.json; not repeated."
+          "batch_id": "PUBLIC-WEB-COVERAGE-2026-10-28-2",
+          "note": "Imported completed same-platform full-course-name + Fudan/site query from public_web_coverage.json; not repeated in this batch.",
+          "prior_coverage_query": {
+            "source": "xiaohongshu",
+            "query": "site:xiaohongshu.com/explore \"探究性仪器分析实验\" 复旦",
+            "status": "completed_no_specific_course_review_candidate",
+            "note": "WEB-2026-10-28-104/105对应平台定向搜索无结果。"
+          }
         },
         "wechat_sogou": {
           "search_status": "not_run_platform_restricted_after_connection_failure",
@@ -2195,31 +2809,51 @@
       ],
       "platforms": {
         "zhihu": {
-          "search_status": "skipped_per_prior_agent_instruction",
+          "search_status": "previously_searched_by_prior_agent",
           "coverage_statuses": [],
-          "query_attempted": false,
-          "actual_query": null,
+          "query_attempted": true,
+          "actual_query": "site:zhihu.com \"物理化学实验（下）\" 复旦",
           "planned_query_if_not_run": null,
-          "batch_id": null,
-          "note": "Prior agent had searched this course; not repeated."
+          "batch_id": "PRIOR-AGENT-20261028-1",
+          "note": "Imported actual prior exact-title search. Result: search_no_candidate. 公开网页站点限定搜索返回空结果；未发现候选正文。",
+          "prior_agent_search_record": {
+            "source": "zhihu",
+            "query": "site:zhihu.com \"物理化学实验（下）\" 复旦",
+            "result_status": "search_no_candidate",
+            "result_summary": "公开网页站点限定搜索返回空结果；未发现候选正文。",
+            "candidate_titles": [],
+            "candidate_urls": [],
+            "body_read": false,
+            "prior_exact_title_completed": true
+          }
         },
         "xiaohongshu": {
-          "search_status": "skipped_per_prior_agent_instruction",
+          "search_status": "searched_no_attributable_course_review_candidate",
           "coverage_statuses": [],
-          "query_attempted": false,
-          "actual_query": null,
+          "query_attempted": true,
+          "actual_query": "site:xiaohongshu.com \"物理化学实验(下)\" 复旦",
           "planned_query_if_not_run": null,
-          "batch_id": null,
-          "note": "Prior agent had searched this course; not repeated."
+          "batch_id": "XHS-B7",
+          "note": "按课程官方全名、复旦语境及平台域名检索；无结果或为无关内容，未见可归属的学生课评。"
         },
         "wechat_sogou": {
-          "search_status": "skipped_per_prior_agent_instruction",
+          "search_status": "previously_searched_by_prior_agent",
           "coverage_statuses": [],
-          "query_attempted": false,
-          "actual_query": null,
+          "query_attempted": true,
+          "actual_query": "site:mp.weixin.qq.com \"物理化学实验（下）\" 复旦",
           "planned_query_if_not_run": null,
-          "batch_id": null,
-          "note": "Prior agent had searched this course; not repeated."
+          "batch_id": "PRIOR-AGENT-20261028-3",
+          "note": "Imported actual prior exact-title search. Result: search_no_candidate. 公开网页站点限定搜索返回空结果；未发现候选正文。",
+          "prior_agent_search_record": {
+            "source": "wechat_sogou",
+            "query": "site:mp.weixin.qq.com \"物理化学实验（下）\" 复旦",
+            "result_status": "search_no_candidate",
+            "result_summary": "公开网页站点限定搜索返回空结果；未发现候选正文。",
+            "candidate_titles": [],
+            "candidate_urls": [],
+            "body_read": false,
+            "prior_exact_title_completed": false
+          }
         }
       }
     },
@@ -2234,22 +2868,34 @@
       "preexisting_public_record_ids": [],
       "platforms": {
         "zhihu": {
-          "search_status": "no_pending_full_name_query_in_snapshot",
+          "search_status": "previously_covered_not_repeated",
           "coverage_statuses": [],
-          "query_attempted": false,
-          "actual_query": null,
+          "query_attempted": true,
+          "actual_query": "site:zhihu.com \"物理化学实验（下）(H)\" 复旦",
           "planned_query_if_not_run": null,
-          "batch_id": null,
-          "note": "No pending exact-name query was recorded in the coverage snapshot; no new search was run."
+          "batch_id": "PUBLIC-WEB-COVERAGE-2026-10-28-1",
+          "note": "Imported completed same-platform full-course-name + Fudan/site query from public_web_coverage.json; not repeated in this batch.",
+          "prior_coverage_query": {
+            "source": "zhihu",
+            "query": "site:zhihu.com \"物理化学实验（下）(H)\" 复旦",
+            "status": "completed_no_specific_course_review_candidate",
+            "note": "2026-10-27已做精确组合、广搜及Zhihu/XHS站点检索；无本课课评正文候选。课程/教师简介和物化实验教学资料仅为摘要，未读。"
+          }
         },
         "xiaohongshu": {
-          "search_status": "no_pending_full_name_query_in_snapshot",
+          "search_status": "previously_covered_not_repeated",
           "coverage_statuses": [],
-          "query_attempted": false,
-          "actual_query": null,
+          "query_attempted": true,
+          "actual_query": "site:xiaohongshu.com/explore \"物理化学实验（下）(H)\" 复旦",
           "planned_query_if_not_run": null,
-          "batch_id": null,
-          "note": "No pending exact-name query was recorded in the coverage snapshot; no new search was run."
+          "batch_id": "PUBLIC-WEB-COVERAGE-2026-10-28-2",
+          "note": "Imported completed same-platform full-course-name + Fudan/site query from public_web_coverage.json; not repeated in this batch.",
+          "prior_coverage_query": {
+            "source": "xiaohongshu",
+            "query": "site:xiaohongshu.com/explore \"物理化学实验（下）(H)\" 复旦",
+            "status": "completed_no_specific_course_review_candidate",
+            "note": "2026-10-27已做精确组合、广搜及Zhihu/XHS站点检索；无本课课评正文候选。课程/教师简介和物化实验教学资料仅为摘要，未读。"
+          }
         },
         "wechat_sogou": {
           "search_status": "not_run_platform_restricted_after_connection_failure",
@@ -2323,10 +2969,17 @@
             "pending"
           ],
           "query_attempted": true,
-          "actual_query": "site:zhihu.com \"毕业论文\" 复旦 化学系课程",
+          "actual_query": "site:zhihu.com \"毕业论文\" 复旦",
           "planned_query_if_not_run": null,
-          "batch_id": "ZH-B4",
-          "note": "已查询，但增加了“化学系课程”上下文词；结果不相关且无候选。该查询有额外限定，按审慎口径不作为纯标题检索证据。"
+          "batch_id": "ZH-CHEM40003-EXACT",
+          "note": "课程全名加复旦及站点范围的公开索引检索已执行，结果为其他院系或普通论文话题，未找到化学系该课程评价。",
+          "previous_attempts": [
+            {
+              "actual_query": "site:zhihu.com \"毕业论文\" 复旦 化学系课程",
+              "batch_id": "ZH-B4",
+              "note": "已查询，但增加了“化学系课程”上下文词；结果不相关且无候选。该查询有额外限定，按审慎口径不作为纯标题检索证据。"
+            }
+          ]
         },
         "xiaohongshu": {
           "search_status": "searched_no_attributable_course_review_candidate",
@@ -2423,11 +3076,17 @@
           "coverage_statuses": [
             "searched_no_review"
           ],
-          "query_attempted": false,
-          "actual_query": null,
+          "query_attempted": true,
+          "actual_query": "site:xiaohongshu.com/explore \"高等结构分析\" 复旦",
           "planned_query_if_not_run": null,
-          "batch_id": null,
-          "note": "Exact-name platform search already appears in public_web_coverage.json; not repeated."
+          "batch_id": "PUBLIC-WEB-COVERAGE-2026-10-28-2",
+          "note": "Imported completed same-platform full-course-name + Fudan/site query from public_web_coverage.json; not repeated in this batch.",
+          "prior_coverage_query": {
+            "source": "xiaohongshu",
+            "query": "site:xiaohongshu.com/explore \"高等结构分析\" 复旦",
+            "status": "searched_no_review",
+            "note": "2026-10-27执行课号+课程名+scope教师组合公开网页检索；未见本科CHEM50005学生课评正文。搜索命中研究生旧课程代码，不映射。"
+          }
         },
         "wechat_sogou": {
           "search_status": "not_run_platform_restricted_after_connection_failure",
@@ -2457,22 +3116,34 @@
           "coverage_statuses": [
             "searched_no_review"
           ],
-          "query_attempted": false,
-          "actual_query": null,
+          "query_attempted": true,
+          "actual_query": "site:zhihu.com \"英文化学论文写作\" 复旦",
           "planned_query_if_not_run": null,
-          "batch_id": null,
-          "note": "Exact-name platform search already appears in public_web_coverage.json; not repeated."
+          "batch_id": "PUBLIC-WEB-COVERAGE-2026-10-28-1",
+          "note": "Imported completed same-platform full-course-name + Fudan/site query from public_web_coverage.json; not repeated in this batch.",
+          "prior_coverage_query": {
+            "source": "zhihu",
+            "query": "site:zhihu.com \"英文化学论文写作\" 复旦",
+            "status": "searched_no_review",
+            "note": "2026-10-27执行课号+课程名+教师组合检索并查知乎/小红书站点；未见本科CHEM50007学生课评正文。命中研究生同名课CHEM716001，不映射。"
+          }
         },
         "xiaohongshu": {
           "search_status": "previously_covered_not_repeated",
           "coverage_statuses": [
             "searched_no_review"
           ],
-          "query_attempted": false,
-          "actual_query": null,
+          "query_attempted": true,
+          "actual_query": "site:xiaohongshu.com/explore \"英文化学论文写作\" 复旦",
           "planned_query_if_not_run": null,
-          "batch_id": null,
-          "note": "Exact-name platform search already appears in public_web_coverage.json; not repeated."
+          "batch_id": "PUBLIC-WEB-COVERAGE-2026-10-28-2",
+          "note": "Imported completed same-platform full-course-name + Fudan/site query from public_web_coverage.json; not repeated in this batch.",
+          "prior_coverage_query": {
+            "source": "xiaohongshu",
+            "query": "site:xiaohongshu.com/explore \"英文化学论文写作\" 复旦",
+            "status": "searched_no_review",
+            "note": "2026-10-27执行课号+课程名+教师组合检索并查知乎/小红书站点；未见本科CHEM50007学生课评正文。命中研究生同名课CHEM716001，不映射。"
+          }
         },
         "wechat_sogou": {
           "search_status": "not_run_platform_restricted_after_connection_failure",
@@ -2678,15 +3349,15 @@
       "preexisting_public_record_ids": [],
       "platforms": {
         "zhihu": {
-          "search_status": "not_run_after_unproductive_index_batches",
+          "search_status": "searched_no_attributable_course_review_candidate",
           "coverage_statuses": [
             "pending"
           ],
-          "query_attempted": false,
-          "actual_query": null,
-          "planned_query_if_not_run": "site:zhihu.com \"分析电化学\" 复旦",
-          "batch_id": null,
-          "note": "Coverage still marked this exact-name query pending; it was not run after sampled batches were empty or unrelated. This does not establish absence of reviews."
+          "query_attempted": true,
+          "actual_query": "site:zhihu.com \"分析电化学\" 复旦",
+          "planned_query_if_not_run": null,
+          "batch_id": "ZH-B6",
+          "note": "按课程官方全名、复旦语境及平台域名检索；结果为空或为无关学科内容，未见可归属的学生课评。"
         },
         "xiaohongshu": {
           "search_status": "searched_no_attributable_course_review_candidate",
@@ -2723,26 +3394,26 @@
       "preexisting_public_record_ids": [],
       "platforms": {
         "zhihu": {
-          "search_status": "not_run_after_unproductive_index_batches",
+          "search_status": "searched_no_attributable_course_review_candidate",
           "coverage_statuses": [
             "pending"
           ],
-          "query_attempted": false,
-          "actual_query": null,
-          "planned_query_if_not_run": "site:zhihu.com \"分子催化和表面化学\" 复旦",
-          "batch_id": null,
-          "note": "Coverage still marked this exact-name query pending; it was not run after sampled batches were empty or unrelated. This does not establish absence of reviews."
+          "query_attempted": true,
+          "actual_query": "site:zhihu.com \"分子催化和表面化学\" 复旦",
+          "planned_query_if_not_run": null,
+          "batch_id": "ZH-B6",
+          "note": "按课程官方全名、复旦语境及平台域名检索；结果为空或为无关学科内容，未见可归属的学生课评。"
         },
         "xiaohongshu": {
-          "search_status": "not_run_after_unproductive_index_batches",
+          "search_status": "searched_no_attributable_course_review_candidate",
           "coverage_statuses": [
             "pending"
           ],
-          "query_attempted": false,
-          "actual_query": null,
-          "planned_query_if_not_run": "site:xiaohongshu.com \"分子催化和表面化学\" 复旦",
-          "batch_id": null,
-          "note": "Coverage still marked this exact-name query pending; it was not run after sampled batches were empty or unrelated. This does not establish absence of reviews."
+          "query_attempted": true,
+          "actual_query": "site:xiaohongshu.com \"分子催化和表面化学\" 复旦",
+          "planned_query_if_not_run": null,
+          "batch_id": "XHS-B6",
+          "note": "按课程官方全名、复旦语境及平台域名检索；结果为空或为无关学科内容，未见可归属的学生课评。"
         },
         "wechat_sogou": {
           "search_status": "not_run_platform_restricted_after_connection_failure",
@@ -2768,26 +3439,26 @@
       "preexisting_public_record_ids": [],
       "platforms": {
         "zhihu": {
-          "search_status": "not_run_after_unproductive_index_batches",
+          "search_status": "searched_no_attributable_course_review_candidate",
           "coverage_statuses": [
             "pending"
           ],
-          "query_attempted": false,
-          "actual_query": null,
-          "planned_query_if_not_run": "site:zhihu.com \"蛋白质化学/生物无机化学\" 复旦",
-          "batch_id": null,
-          "note": "Coverage still marked this exact-name query pending; it was not run after sampled batches were empty or unrelated. This does not establish absence of reviews."
+          "query_attempted": true,
+          "actual_query": "site:zhihu.com \"蛋白质化学/生物无机化学\" 复旦",
+          "planned_query_if_not_run": null,
+          "batch_id": "ZH-B6",
+          "note": "按课程官方全名、复旦语境及平台域名检索；结果为空或为无关学科内容，未见可归属的学生课评。"
         },
         "xiaohongshu": {
-          "search_status": "not_run_after_unproductive_index_batches",
+          "search_status": "searched_no_attributable_course_review_candidate",
           "coverage_statuses": [
             "pending"
           ],
-          "query_attempted": false,
-          "actual_query": null,
-          "planned_query_if_not_run": "site:xiaohongshu.com \"蛋白质化学/生物无机化学\" 复旦",
-          "batch_id": null,
-          "note": "Coverage still marked this exact-name query pending; it was not run after sampled batches were empty or unrelated. This does not establish absence of reviews."
+          "query_attempted": true,
+          "actual_query": "site:xiaohongshu.com \"蛋白质化学/生物无机化学\" 复旦",
+          "planned_query_if_not_run": null,
+          "batch_id": "XHS-B6",
+          "note": "按课程官方全名、复旦语境及平台域名检索；结果为空或为无关学科内容，未见可归属的学生课评。"
         },
         "wechat_sogou": {
           "search_status": "not_run_platform_restricted_after_connection_failure",
@@ -2813,26 +3484,26 @@
       "preexisting_public_record_ids": [],
       "platforms": {
         "zhihu": {
-          "search_status": "not_run_after_unproductive_index_batches",
+          "search_status": "searched_no_attributable_course_review_candidate",
           "coverage_statuses": [
             "pending"
           ],
-          "query_attempted": false,
-          "actual_query": null,
-          "planned_query_if_not_run": "site:zhihu.com \"有机合成化学I\" 复旦",
-          "batch_id": null,
-          "note": "Coverage still marked this exact-name query pending; it was not run after sampled batches were empty or unrelated. This does not establish absence of reviews."
+          "query_attempted": true,
+          "actual_query": "site:zhihu.com \"有机合成化学I\" 复旦",
+          "planned_query_if_not_run": null,
+          "batch_id": "ZH-B6",
+          "note": "按课程官方全名、复旦语境及平台域名检索；结果为空或为无关学科内容，未见可归属的学生课评。"
         },
         "xiaohongshu": {
-          "search_status": "not_run_after_unproductive_index_batches",
+          "search_status": "searched_no_attributable_course_review_candidate",
           "coverage_statuses": [
             "pending"
           ],
-          "query_attempted": false,
-          "actual_query": null,
-          "planned_query_if_not_run": "site:xiaohongshu.com \"有机合成化学I\" 复旦",
-          "batch_id": null,
-          "note": "Coverage still marked this exact-name query pending; it was not run after sampled batches were empty or unrelated. This does not establish absence of reviews."
+          "query_attempted": true,
+          "actual_query": "site:xiaohongshu.com \"有机合成化学I\" 复旦",
+          "planned_query_if_not_run": null,
+          "batch_id": "XHS-B6",
+          "note": "按课程官方全名、复旦语境及平台域名检索；结果为空或为无关学科内容，未见可归属的学生课评。"
         },
         "wechat_sogou": {
           "search_status": "not_run_platform_restricted_after_connection_failure",
@@ -2862,22 +3533,34 @@
           "coverage_statuses": [
             "completed_no_specific_course_review_candidate"
           ],
-          "query_attempted": false,
-          "actual_query": null,
+          "query_attempted": true,
+          "actual_query": "site:zhihu.com \"高等化学分析\" 复旦",
           "planned_query_if_not_run": null,
-          "batch_id": null,
-          "note": "Exact-name platform search already appears in public_web_coverage.json; not repeated."
+          "batch_id": "PUBLIC-WEB-COVERAGE-2026-10-28-1",
+          "note": "Imported completed same-platform full-course-name + Fudan/site query from public_web_coverage.json; not repeated in this batch.",
+          "prior_coverage_query": {
+            "source": "zhihu",
+            "query": "site:zhihu.com \"高等化学分析\" 复旦",
+            "status": "completed_no_specific_course_review_candidate",
+            "note": "2026-10-27已做精确组合、广搜及Zhihu/XHS站点检索；未见可确认本课程的课评。另读超星通用“分析化学”评价页，但无法确认复旦/教师/课号，已排除映射。"
+          }
         },
         "xiaohongshu": {
           "search_status": "previously_covered_not_repeated",
           "coverage_statuses": [
             "completed_no_specific_course_review_candidate"
           ],
-          "query_attempted": false,
-          "actual_query": null,
+          "query_attempted": true,
+          "actual_query": "site:xiaohongshu.com/explore \"高等化学分析\" 复旦",
           "planned_query_if_not_run": null,
-          "batch_id": null,
-          "note": "Exact-name platform search already appears in public_web_coverage.json; not repeated."
+          "batch_id": "PUBLIC-WEB-COVERAGE-2026-10-28-2",
+          "note": "Imported completed same-platform full-course-name + Fudan/site query from public_web_coverage.json; not repeated in this batch.",
+          "prior_coverage_query": {
+            "source": "xiaohongshu",
+            "query": "site:xiaohongshu.com/explore \"高等化学分析\" 复旦",
+            "status": "completed_no_specific_course_review_candidate",
+            "note": "2026-10-27已做精确组合、广搜及Zhihu/XHS站点检索；未见可确认本课程的课评。另读超星通用“分析化学”评价页，但无法确认复旦/教师/课号，已排除映射。"
+          }
         },
         "wechat_sogou": {
           "search_status": "not_run_platform_restricted_after_connection_failure",
@@ -2903,27 +3586,27 @@
       "preexisting_public_record_ids": [],
       "platforms": {
         "zhihu": {
-          "search_status": "not_run_after_unproductive_index_batches",
+          "search_status": "searched_no_attributable_course_review_candidate",
           "coverage_statuses": [
             "pending"
           ],
-          "query_attempted": false,
-          "actual_query": null,
-          "planned_query_if_not_run": "site:zhihu.com \"色谱分析\" 复旦",
-          "batch_id": null,
-          "note": "Coverage still marked this exact-name query pending; it was not run after sampled batches were empty or unrelated. This does not establish absence of reviews."
+          "query_attempted": true,
+          "actual_query": "site:zhihu.com \"色谱分析\" 复旦",
+          "planned_query_if_not_run": null,
+          "batch_id": "ZH-B6",
+          "note": "按课程官方全名、复旦语境及平台域名检索；结果为空或为无关学科内容，未见可归属的学生课评。"
         },
         "xiaohongshu": {
-          "search_status": "not_run_after_unproductive_index_batches",
+          "search_status": "searched_no_attributable_course_review_candidate",
           "coverage_statuses": [
             "pending",
             "pending"
           ],
-          "query_attempted": false,
-          "actual_query": null,
-          "planned_query_if_not_run": "site:xiaohongshu.com \"色谱分析\" 复旦",
-          "batch_id": null,
-          "note": "Coverage still marked this exact-name query pending; it was not run after sampled batches were empty or unrelated. This does not establish absence of reviews."
+          "query_attempted": true,
+          "actual_query": "site:xiaohongshu.com \"色谱分析\" 复旦",
+          "planned_query_if_not_run": null,
+          "batch_id": "XHS-B6",
+          "note": "按课程官方全名、复旦语境及平台域名检索；结果为空或为无关学科内容，未见可归属的学生课评。"
         },
         "wechat_sogou": {
           "search_status": "not_run_platform_restricted_after_connection_failure",
@@ -2949,26 +3632,26 @@
       "preexisting_public_record_ids": [],
       "platforms": {
         "zhihu": {
-          "search_status": "not_run_after_unproductive_index_batches",
+          "search_status": "searched_no_attributable_course_review_candidate",
           "coverage_statuses": [
             "pending"
           ],
-          "query_attempted": false,
-          "actual_query": null,
-          "planned_query_if_not_run": "site:zhihu.com \"多相催化原理\" 复旦",
-          "batch_id": null,
-          "note": "Coverage still marked this exact-name query pending; it was not run after sampled batches were empty or unrelated. This does not establish absence of reviews."
+          "query_attempted": true,
+          "actual_query": "site:zhihu.com \"多相催化原理\" 复旦",
+          "planned_query_if_not_run": null,
+          "batch_id": "ZH-B7",
+          "note": "按课程官方全名、复旦语境及平台域名检索；无结果或为无关内容，未见可归属的学生课评。"
         },
         "xiaohongshu": {
-          "search_status": "not_run_after_unproductive_index_batches",
+          "search_status": "searched_no_attributable_course_review_candidate",
           "coverage_statuses": [
             "pending"
           ],
-          "query_attempted": false,
-          "actual_query": null,
-          "planned_query_if_not_run": "site:xiaohongshu.com \"多相催化原理\" 复旦",
-          "batch_id": null,
-          "note": "Coverage still marked this exact-name query pending; it was not run after sampled batches were empty or unrelated. This does not establish absence of reviews."
+          "query_attempted": true,
+          "actual_query": "site:xiaohongshu.com \"多相催化原理\" 复旦",
+          "planned_query_if_not_run": null,
+          "batch_id": "XHS-B6",
+          "note": "按课程官方全名、复旦语境及平台域名检索；结果为空或为无关学科内容，未见可归属的学生课评。"
         },
         "wechat_sogou": {
           "search_status": "not_run_platform_restricted_after_connection_failure",
@@ -2994,26 +3677,26 @@
       "preexisting_public_record_ids": [],
       "platforms": {
         "zhihu": {
-          "search_status": "not_run_after_unproductive_index_batches",
+          "search_status": "searched_no_attributable_course_review_candidate",
           "coverage_statuses": [
             "pending"
           ],
-          "query_attempted": false,
-          "actual_query": null,
-          "planned_query_if_not_run": "site:zhihu.com \"绿色化学\" 复旦",
-          "batch_id": null,
-          "note": "Coverage still marked this exact-name query pending; it was not run after sampled batches were empty or unrelated. This does not establish absence of reviews."
+          "query_attempted": true,
+          "actual_query": "site:zhihu.com \"绿色化学\" 复旦",
+          "planned_query_if_not_run": null,
+          "batch_id": "ZH-B7",
+          "note": "按课程官方全名、复旦语境及平台域名检索；无结果或为无关内容，未见可归属的学生课评。"
         },
         "xiaohongshu": {
-          "search_status": "not_run_after_unproductive_index_batches",
+          "search_status": "searched_no_attributable_course_review_candidate",
           "coverage_statuses": [
             "pending"
           ],
-          "query_attempted": false,
-          "actual_query": null,
-          "planned_query_if_not_run": "site:xiaohongshu.com \"绿色化学\" 复旦",
-          "batch_id": null,
-          "note": "Coverage still marked this exact-name query pending; it was not run after sampled batches were empty or unrelated. This does not establish absence of reviews."
+          "query_attempted": true,
+          "actual_query": "site:xiaohongshu.com \"绿色化学\" 复旦",
+          "planned_query_if_not_run": null,
+          "batch_id": "XHS-B7",
+          "note": "按课程官方全名、复旦语境及平台域名检索；无结果或为无关内容，未见可归属的学生课评。"
         },
         "wechat_sogou": {
           "search_status": "not_run_platform_restricted_after_connection_failure",
@@ -3039,26 +3722,26 @@
       "preexisting_public_record_ids": [],
       "platforms": {
         "zhihu": {
-          "search_status": "not_run_after_unproductive_index_batches",
+          "search_status": "searched_no_attributable_course_review_candidate",
           "coverage_statuses": [
             "pending"
           ],
-          "query_attempted": false,
-          "actual_query": null,
-          "planned_query_if_not_run": "site:zhihu.com \"单分子科学原理与模型\" 复旦",
-          "batch_id": null,
-          "note": "Coverage still marked this exact-name query pending; it was not run after sampled batches were empty or unrelated. This does not establish absence of reviews."
+          "query_attempted": true,
+          "actual_query": "site:zhihu.com \"单分子科学原理与模型\" 复旦",
+          "planned_query_if_not_run": null,
+          "batch_id": "ZH-B7",
+          "note": "按课程官方全名、复旦语境及平台域名检索；无结果或为无关内容，未见可归属的学生课评。"
         },
         "xiaohongshu": {
-          "search_status": "not_run_after_unproductive_index_batches",
+          "search_status": "searched_no_attributable_course_review_candidate",
           "coverage_statuses": [
             "pending"
           ],
-          "query_attempted": false,
-          "actual_query": null,
-          "planned_query_if_not_run": "site:xiaohongshu.com \"单分子科学原理与模型\" 复旦",
-          "batch_id": null,
-          "note": "Coverage still marked this exact-name query pending; it was not run after sampled batches were empty or unrelated. This does not establish absence of reviews."
+          "query_attempted": true,
+          "actual_query": "site:xiaohongshu.com \"单分子科学原理与模型\" 复旦",
+          "planned_query_if_not_run": null,
+          "batch_id": "XHS-B7",
+          "note": "按课程官方全名、复旦语境及平台域名检索；无结果或为无关内容，未见可归属的学生课评。"
         },
         "wechat_sogou": {
           "search_status": "not_run_platform_restricted_after_connection_failure",
@@ -3088,22 +3771,34 @@
           "coverage_statuses": [
             "completed_no_specific_course_review_candidate"
           ],
-          "query_attempted": false,
-          "actual_query": null,
+          "query_attempted": true,
+          "actual_query": "site:zhihu.com \"电子显微基础与实验\" 复旦",
           "planned_query_if_not_run": null,
-          "batch_id": null,
-          "note": "Exact-name platform search already appears in public_web_coverage.json; not repeated."
+          "batch_id": "PUBLIC-WEB-COVERAGE-2026-10-28-1",
+          "note": "Imported completed same-platform full-course-name + Fudan/site query from public_web_coverage.json; not repeated in this batch.",
+          "prior_coverage_query": {
+            "source": "zhihu",
+            "query": "site:zhihu.com \"电子显微基础与实验\" 复旦",
+            "status": "completed_no_specific_course_review_candidate",
+            "note": "2026-10-27已做精确组合、广搜及Zhihu/XHS站点检索；未见课程课评候选，Zhihu搜索仅返无关目录页，XHS无明确结果。摘要未读作正文。"
+          }
         },
         "xiaohongshu": {
           "search_status": "previously_covered_not_repeated",
           "coverage_statuses": [
             "completed_no_specific_course_review_candidate"
           ],
-          "query_attempted": false,
-          "actual_query": null,
+          "query_attempted": true,
+          "actual_query": "site:xiaohongshu.com/explore \"电子显微基础与实验\" 复旦",
           "planned_query_if_not_run": null,
-          "batch_id": null,
-          "note": "Exact-name platform search already appears in public_web_coverage.json; not repeated."
+          "batch_id": "PUBLIC-WEB-COVERAGE-2026-10-28-2",
+          "note": "Imported completed same-platform full-course-name + Fudan/site query from public_web_coverage.json; not repeated in this batch.",
+          "prior_coverage_query": {
+            "source": "xiaohongshu",
+            "query": "site:xiaohongshu.com/explore \"电子显微基础与实验\" 复旦",
+            "status": "completed_no_specific_course_review_candidate",
+            "note": "2026-10-27已做精确组合、广搜及Zhihu/XHS站点检索；未见课程课评候选，Zhihu搜索仅返无关目录页，XHS无明确结果。摘要未读作正文。"
+          }
         },
         "wechat_sogou": {
           "search_status": "not_run_platform_restricted_after_connection_failure",
@@ -3133,22 +3828,34 @@
           "coverage_statuses": [
             "completed_no_specific_course_review_candidate"
           ],
-          "query_attempted": false,
-          "actual_query": null,
+          "query_attempted": true,
+          "actual_query": "site:zhihu.com \"分析化学进展\" 复旦",
           "planned_query_if_not_run": null,
-          "batch_id": null,
-          "note": "Exact-name platform search already appears in public_web_coverage.json; not repeated."
+          "batch_id": "PUBLIC-WEB-COVERAGE-2026-10-28-1",
+          "note": "Imported completed same-platform full-course-name + Fudan/site query from public_web_coverage.json; not repeated in this batch.",
+          "prior_coverage_query": {
+            "source": "zhihu",
+            "query": "site:zhihu.com \"分析化学进展\" 复旦",
+            "status": "completed_no_specific_course_review_candidate",
+            "note": "WEB-2026-10-28-114/115未发现目标课程评价；无关搜索结果已排除。"
+          }
         },
         "xiaohongshu": {
           "search_status": "previously_covered_not_repeated",
           "coverage_statuses": [
             "completed_no_specific_course_review_candidate"
           ],
-          "query_attempted": false,
-          "actual_query": null,
+          "query_attempted": true,
+          "actual_query": "site:xiaohongshu.com/explore \"分析化学进展\" 复旦",
           "planned_query_if_not_run": null,
-          "batch_id": null,
-          "note": "Exact-name platform search already appears in public_web_coverage.json; not repeated."
+          "batch_id": "PUBLIC-WEB-COVERAGE-2026-10-28-2",
+          "note": "Imported completed same-platform full-course-name + Fudan/site query from public_web_coverage.json; not repeated in this batch.",
+          "prior_coverage_query": {
+            "source": "xiaohongshu",
+            "query": "site:xiaohongshu.com/explore \"分析化学进展\" 复旦",
+            "status": "completed_no_specific_course_review_candidate",
+            "note": "WEB-2026-10-28-114/115未发现目标课程评价；无关搜索结果已排除。"
+          }
         },
         "wechat_sogou": {
           "search_status": "not_run_platform_restricted_after_connection_failure",
@@ -3174,15 +3881,15 @@
       "preexisting_public_record_ids": [],
       "platforms": {
         "zhihu": {
-          "search_status": "not_run_after_unproductive_index_batches",
+          "search_status": "searched_no_attributable_course_review_candidate",
           "coverage_statuses": [
             "pending"
           ],
-          "query_attempted": false,
-          "actual_query": null,
-          "planned_query_if_not_run": "site:zhihu.com \"X-射线衍射分析技术\" 复旦",
-          "batch_id": null,
-          "note": "Coverage still marked this exact-name query pending; it was not run after sampled batches were empty or unrelated. This does not establish absence of reviews."
+          "query_attempted": true,
+          "actual_query": "site:zhihu.com \"X-射线衍射分析技术\" 复旦",
+          "planned_query_if_not_run": null,
+          "batch_id": "ZH-B7",
+          "note": "按课程官方全名、复旦语境及平台域名检索；无结果或为无关内容，未见可归属的学生课评。"
         },
         "xiaohongshu": {
           "search_status": "existing_partial_candidate_followup_inaccessible",
@@ -3220,26 +3927,26 @@
       "preexisting_public_record_ids": [],
       "platforms": {
         "zhihu": {
-          "search_status": "not_run_after_unproductive_index_batches",
+          "search_status": "searched_no_attributable_course_review_candidate",
           "coverage_statuses": [
             "pending"
           ],
-          "query_attempted": false,
-          "actual_query": null,
-          "planned_query_if_not_run": "site:zhihu.com \"电化学研究前沿介绍\" 复旦",
-          "batch_id": null,
-          "note": "Coverage still marked this exact-name query pending; it was not run after sampled batches were empty or unrelated. This does not establish absence of reviews."
+          "query_attempted": true,
+          "actual_query": "site:zhihu.com \"电化学研究前沿介绍\" 复旦",
+          "planned_query_if_not_run": null,
+          "batch_id": "ZH-B7",
+          "note": "按课程官方全名、复旦语境及平台域名检索；无结果或为无关内容，未见可归属的学生课评。"
         },
         "xiaohongshu": {
-          "search_status": "not_run_after_unproductive_index_batches",
+          "search_status": "searched_no_attributable_course_review_candidate",
           "coverage_statuses": [
             "pending"
           ],
-          "query_attempted": false,
-          "actual_query": null,
-          "planned_query_if_not_run": "site:xiaohongshu.com \"电化学研究前沿介绍\" 复旦",
-          "batch_id": null,
-          "note": "Coverage still marked this exact-name query pending; it was not run after sampled batches were empty or unrelated. This does not establish absence of reviews."
+          "query_attempted": true,
+          "actual_query": "site:xiaohongshu.com \"电化学研究前沿介绍\" 复旦",
+          "planned_query_if_not_run": null,
+          "batch_id": "XHS-B8",
+          "note": "按课程官方全名、复旦语境及平台域名检索；查询为空或返回无关内容，未见可归属的学生课评。"
         },
         "wechat_sogou": {
           "search_status": "not_run_platform_restricted_after_connection_failure",
@@ -3265,26 +3972,26 @@
       "preexisting_public_record_ids": [],
       "platforms": {
         "zhihu": {
-          "search_status": "not_run_after_unproductive_index_batches",
+          "search_status": "searched_no_attributable_course_review_candidate",
           "coverage_statuses": [
             "pending"
           ],
-          "query_attempted": false,
-          "actual_query": null,
-          "planned_query_if_not_run": "site:zhihu.com \"高能电源化学\" 复旦",
-          "batch_id": null,
-          "note": "Coverage still marked this exact-name query pending; it was not run after sampled batches were empty or unrelated. This does not establish absence of reviews."
+          "query_attempted": true,
+          "actual_query": "site:zhihu.com \"高能电源化学\" 复旦",
+          "planned_query_if_not_run": null,
+          "batch_id": "ZH-B8",
+          "note": "按课程官方全名、复旦语境及平台域名检索；查询为空或返回无关内容，未见可归属的学生课评。"
         },
         "xiaohongshu": {
-          "search_status": "not_run_after_unproductive_index_batches",
+          "search_status": "searched_no_attributable_course_review_candidate",
           "coverage_statuses": [
             "pending"
           ],
-          "query_attempted": false,
-          "actual_query": null,
-          "planned_query_if_not_run": "site:xiaohongshu.com \"高能电源化学\" 复旦",
-          "batch_id": null,
-          "note": "Coverage still marked this exact-name query pending; it was not run after sampled batches were empty or unrelated. This does not establish absence of reviews."
+          "query_attempted": true,
+          "actual_query": "site:xiaohongshu.com \"高能电源化学\" 复旦",
+          "planned_query_if_not_run": null,
+          "batch_id": "XHS-B8",
+          "note": "按课程官方全名、复旦语境及平台域名检索；查询为空或返回无关内容，未见可归属的学生课评。"
         },
         "wechat_sogou": {
           "search_status": "not_run_platform_restricted_after_connection_failure",
@@ -3310,26 +4017,26 @@
       "preexisting_public_record_ids": [],
       "platforms": {
         "zhihu": {
-          "search_status": "not_run_after_unproductive_index_batches",
+          "search_status": "searched_no_attributable_course_review_candidate",
           "coverage_statuses": [
             "pending"
           ],
-          "query_attempted": false,
-          "actual_query": null,
-          "planned_query_if_not_run": "site:zhihu.com \"碳硼烷化学\" 复旦",
-          "batch_id": null,
-          "note": "Coverage still marked this exact-name query pending; it was not run after sampled batches were empty or unrelated. This does not establish absence of reviews."
+          "query_attempted": true,
+          "actual_query": "site:zhihu.com \"碳硼烷化学\" 复旦",
+          "planned_query_if_not_run": null,
+          "batch_id": "ZH-B8",
+          "note": "按课程官方全名、复旦语境及平台域名检索；查询为空或返回无关内容，未见可归属的学生课评。"
         },
         "xiaohongshu": {
-          "search_status": "not_run_after_unproductive_index_batches",
+          "search_status": "searched_no_attributable_course_review_candidate",
           "coverage_statuses": [
             "pending"
           ],
-          "query_attempted": false,
-          "actual_query": null,
-          "planned_query_if_not_run": "site:xiaohongshu.com \"碳硼烷化学\" 复旦",
-          "batch_id": null,
-          "note": "Coverage still marked this exact-name query pending; it was not run after sampled batches were empty or unrelated. This does not establish absence of reviews."
+          "query_attempted": true,
+          "actual_query": "site:xiaohongshu.com \"碳硼烷化学\" 复旦",
+          "planned_query_if_not_run": null,
+          "batch_id": "XHS-B8",
+          "note": "按课程官方全名、复旦语境及平台域名检索；查询为空或返回无关内容，未见可归属的学生课评。"
         },
         "wechat_sogou": {
           "search_status": "not_run_platform_restricted_after_connection_failure",
@@ -3355,26 +4062,26 @@
       "preexisting_public_record_ids": [],
       "platforms": {
         "zhihu": {
-          "search_status": "not_run_after_unproductive_index_batches",
+          "search_status": "searched_no_attributable_course_review_candidate",
           "coverage_statuses": [
             "pending"
           ],
-          "query_attempted": false,
-          "actual_query": null,
-          "planned_query_if_not_run": "site:zhihu.com \"纳米材料生物分离分析\" 复旦",
-          "batch_id": null,
-          "note": "Coverage still marked this exact-name query pending; it was not run after sampled batches were empty or unrelated. This does not establish absence of reviews."
+          "query_attempted": true,
+          "actual_query": "site:zhihu.com \"纳米材料生物分离分析\" 复旦",
+          "planned_query_if_not_run": null,
+          "batch_id": "ZH-B8",
+          "note": "按课程官方全名、复旦语境及平台域名检索；查询为空或返回无关内容，未见可归属的学生课评。"
         },
         "xiaohongshu": {
-          "search_status": "not_run_after_unproductive_index_batches",
+          "search_status": "searched_no_attributable_course_review_candidate",
           "coverage_statuses": [
             "pending"
           ],
-          "query_attempted": false,
-          "actual_query": null,
-          "planned_query_if_not_run": "site:xiaohongshu.com \"纳米材料生物分离分析\" 复旦",
-          "batch_id": null,
-          "note": "Coverage still marked this exact-name query pending; it was not run after sampled batches were empty or unrelated. This does not establish absence of reviews."
+          "query_attempted": true,
+          "actual_query": "site:xiaohongshu.com \"纳米材料生物分离分析\" 复旦",
+          "planned_query_if_not_run": null,
+          "batch_id": "XHS-B8",
+          "note": "按课程官方全名、复旦语境及平台域名检索；查询为空或返回无关内容，未见可归属的学生课评。"
         },
         "wechat_sogou": {
           "search_status": "not_run_platform_restricted_after_connection_failure",
@@ -3400,26 +4107,26 @@
       "preexisting_public_record_ids": [],
       "platforms": {
         "zhihu": {
-          "search_status": "not_run_after_unproductive_index_batches",
+          "search_status": "searched_no_attributable_course_review_candidate",
           "coverage_statuses": [
             "pending"
           ],
-          "query_attempted": false,
-          "actual_query": null,
-          "planned_query_if_not_run": "site:zhihu.com \"有机合成化学II\" 复旦",
-          "batch_id": null,
-          "note": "Coverage still marked this exact-name query pending; it was not run after sampled batches were empty or unrelated. This does not establish absence of reviews."
+          "query_attempted": true,
+          "actual_query": "site:zhihu.com \"有机合成化学II\" 复旦",
+          "planned_query_if_not_run": null,
+          "batch_id": "ZH-B8",
+          "note": "按课程官方全名、复旦语境及平台域名检索；查询为空或返回无关内容，未见可归属的学生课评。"
         },
         "xiaohongshu": {
-          "search_status": "not_run_after_unproductive_index_batches",
+          "search_status": "searched_no_attributable_course_review_candidate",
           "coverage_statuses": [
             "pending"
           ],
-          "query_attempted": false,
-          "actual_query": null,
-          "planned_query_if_not_run": "site:xiaohongshu.com \"有机合成化学II\" 复旦",
-          "batch_id": null,
-          "note": "Coverage still marked this exact-name query pending; it was not run after sampled batches were empty or unrelated. This does not establish absence of reviews."
+          "query_attempted": true,
+          "actual_query": "site:xiaohongshu.com \"有机合成化学II\" 复旦",
+          "planned_query_if_not_run": null,
+          "batch_id": "XHS-B8",
+          "note": "按课程官方全名、复旦语境及平台域名检索；查询为空或返回无关内容，未见可归属的学生课评。"
         },
         "wechat_sogou": {
           "search_status": "not_run_platform_restricted_after_connection_failure",
@@ -3451,22 +4158,34 @@
           "coverage_statuses": [
             "completed_no_specific_course_review_candidate"
           ],
-          "query_attempted": false,
-          "actual_query": null,
+          "query_attempted": true,
+          "actual_query": "site:zhihu.com \"化学与人类\" 复旦",
           "planned_query_if_not_run": null,
-          "batch_id": null,
-          "note": "Exact-name platform search already appears in public_web_coverage.json; not repeated."
+          "batch_id": "PUBLIC-WEB-COVERAGE-2026-10-28-1",
+          "note": "Imported completed same-platform full-course-name + Fudan/site query from public_web_coverage.json; not repeated in this batch.",
+          "prior_coverage_query": {
+            "source": "zhihu",
+            "query": "site:zhihu.com \"化学与人类\" 复旦",
+            "status": "completed_no_specific_course_review_candidate",
+            "note": "WEB-2026-10-28-119/120/121定向检索无匹配课评；无关结果按摘要排除。"
+          }
         },
         "xiaohongshu": {
           "search_status": "previously_covered_not_repeated",
           "coverage_statuses": [
             "completed_no_specific_course_review_candidate"
           ],
-          "query_attempted": false,
-          "actual_query": null,
+          "query_attempted": true,
+          "actual_query": "site:xiaohongshu.com/explore \"化学与人类\" 复旦",
           "planned_query_if_not_run": null,
-          "batch_id": null,
-          "note": "Exact-name platform search already appears in public_web_coverage.json; not repeated."
+          "batch_id": "PUBLIC-WEB-COVERAGE-2026-10-28-2",
+          "note": "Imported completed same-platform full-course-name + Fudan/site query from public_web_coverage.json; not repeated in this batch.",
+          "prior_coverage_query": {
+            "source": "xiaohongshu",
+            "query": "site:xiaohongshu.com/explore \"化学与人类\" 复旦",
+            "status": "completed_no_specific_course_review_candidate",
+            "note": "WEB-2026-10-28-119/120/121定向检索无匹配课评；无关结果按摘要排除。"
+          }
         },
         "wechat_sogou": {
           "search_status": "not_run_platform_restricted_after_connection_failure",
@@ -3492,22 +4211,34 @@
       "preexisting_public_record_ids": [],
       "platforms": {
         "zhihu": {
-          "search_status": "no_pending_full_name_query_in_snapshot",
+          "search_status": "previously_covered_not_repeated",
           "coverage_statuses": [],
-          "query_attempted": false,
-          "actual_query": null,
+          "query_attempted": true,
+          "actual_query": "site:zhihu.com \"强国之路：形势、政策与使命Ⅱ\" 复旦",
           "planned_query_if_not_run": null,
-          "batch_id": null,
-          "note": "No pending exact-name query was recorded in the coverage snapshot; no new search was run."
+          "batch_id": "PUBLIC-WEB-COVERAGE-2026-10-28-1",
+          "note": "Imported completed same-platform full-course-name + Fudan/site query from public_web_coverage.json; not repeated in this batch.",
+          "prior_coverage_query": {
+            "source": "zhihu",
+            "query": "site:zhihu.com \"强国之路：形势、政策与使命Ⅱ\" 复旦",
+            "status": "completed_no_specific_course_review_candidate",
+            "note": "WEB-2026-10-28-119/120/121定向检索无匹配课评；无关结果按摘要排除。"
+          }
         },
         "xiaohongshu": {
-          "search_status": "no_pending_full_name_query_in_snapshot",
+          "search_status": "previously_covered_not_repeated",
           "coverage_statuses": [],
-          "query_attempted": false,
-          "actual_query": null,
+          "query_attempted": true,
+          "actual_query": "site:xiaohongshu.com/explore \"强国之路：形势、政策与使命Ⅱ\" 复旦",
           "planned_query_if_not_run": null,
-          "batch_id": null,
-          "note": "No pending exact-name query was recorded in the coverage snapshot; no new search was run."
+          "batch_id": "PUBLIC-WEB-COVERAGE-2026-10-28-2",
+          "note": "Imported completed same-platform full-course-name + Fudan/site query from public_web_coverage.json; not repeated in this batch.",
+          "prior_coverage_query": {
+            "source": "xiaohongshu",
+            "query": "site:xiaohongshu.com/explore \"强国之路：形势、政策与使命Ⅱ\" 复旦",
+            "status": "completed_no_specific_course_review_candidate",
+            "note": "WEB-2026-10-28-119/120/121定向检索无匹配课评；无关结果按摘要排除。"
+          }
         },
         "wechat_sogou": {
           "search_status": "not_run_platform_restricted_after_connection_failure",
@@ -3531,22 +4262,34 @@
       "preexisting_public_record_ids": [],
       "platforms": {
         "zhihu": {
-          "search_status": "no_pending_full_name_query_in_snapshot",
+          "search_status": "previously_covered_not_repeated",
           "coverage_statuses": [],
-          "query_attempted": false,
-          "actual_query": null,
+          "query_attempted": true,
+          "actual_query": "site:zhihu.com \"强国之路：形势、政策与使命Ⅳ\" 复旦",
           "planned_query_if_not_run": null,
-          "batch_id": null,
-          "note": "No pending exact-name query was recorded in the coverage snapshot; no new search was run."
+          "batch_id": "PUBLIC-WEB-COVERAGE-2026-10-28-1",
+          "note": "Imported completed same-platform full-course-name + Fudan/site query from public_web_coverage.json; not repeated in this batch.",
+          "prior_coverage_query": {
+            "source": "zhihu",
+            "query": "site:zhihu.com \"强国之路：形势、政策与使命Ⅳ\" 复旦",
+            "status": "completed_no_specific_course_review_candidate",
+            "note": "WEB-2026-10-28-119/120/121定向检索无匹配课评；无关结果按摘要排除。"
+          }
         },
         "xiaohongshu": {
-          "search_status": "no_pending_full_name_query_in_snapshot",
+          "search_status": "previously_covered_not_repeated",
           "coverage_statuses": [],
-          "query_attempted": false,
-          "actual_query": null,
+          "query_attempted": true,
+          "actual_query": "site:xiaohongshu.com/explore \"强国之路：形势、政策与使命Ⅳ\" 复旦",
           "planned_query_if_not_run": null,
-          "batch_id": null,
-          "note": "No pending exact-name query was recorded in the coverage snapshot; no new search was run."
+          "batch_id": "PUBLIC-WEB-COVERAGE-2026-10-28-2",
+          "note": "Imported completed same-platform full-course-name + Fudan/site query from public_web_coverage.json; not repeated in this batch.",
+          "prior_coverage_query": {
+            "source": "xiaohongshu",
+            "query": "site:xiaohongshu.com/explore \"强国之路：形势、政策与使命Ⅳ\" 复旦",
+            "status": "completed_no_specific_course_review_candidate",
+            "note": "WEB-2026-10-28-119/120/121定向检索无匹配课评；无关结果按摘要排除。"
+          }
         },
         "wechat_sogou": {
           "search_status": "not_run_platform_restricted_after_connection_failure",
