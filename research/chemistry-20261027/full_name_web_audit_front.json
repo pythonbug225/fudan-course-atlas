@@ -50,6 +50,14 @@
     "Xiaohongshu: source-domain public-index queries returned no candidates for attempted titles. The Edge tab list showed a chemistry search tab, but tab binding/new-tab navigation could not be completed in this session; no direct body read, login, CAPTCHA solving, or access-control bypass occurred.",
     "WeChat public accounts: mp.weixin.qq.com source-domain queries returned no candidates for attempted titles. Search-index emptiness does not establish exhaustive platform coverage. Existing coverage notes a Sogou-to-WeChat CAPTCHA; no bypass was attempted."
   ],
+  "continuation_progress": {
+    "scope_first_73_only": true,
+    "baseline_unattempted_pairs": 186,
+    "new_pairs_completed": 14,
+    "remaining_unattempted_pairs": 172,
+    "last_course_code": "CHEM20005",
+    "last_source": "xiaohongshu"
+  },
   "records": [
     {
       "course_code": "CHEM10005",
@@ -883,6 +891,238 @@
       "result_summary": "公开网页站点限定搜索返回空结果；未发现候选正文。",
       "candidate_titles": [],
       "candidate_urls": [],
+      "body_read": false,
+      "adopted_as_course_review": false
+    },
+    {
+      "course_code": "AIS310014",
+      "course_name": "人工智能在化学中的应用",
+      "scope_position": 1,
+      "in_first_73": true,
+      "source": "zhihu",
+      "query": "site:zhihu.com \"人工智能在化学中的应用\" 复旦",
+      "search_method": "public_web_index_site_query",
+      "result_status": "irrelevant_results_no_course_review_candidate",
+      "result_summary": "站点限定搜索仅返回张平文院士关于数据科学融通应用数学的文章摘要；没有目标课程或学生课评内容，未打开正文。",
+      "candidate_titles": [
+        "张平文院士：数据科学融通应用数学"
+      ],
+      "candidate_urls": [
+        "https://www.zhihu.com/tardis/zm/art/111710682"
+      ],
+      "body_read": false,
+      "adopted_as_course_review": false
+    },
+    {
+      "course_code": "AIS310014",
+      "course_name": "人工智能在化学中的应用",
+      "scope_position": 1,
+      "in_first_73": true,
+      "source": "wechat_sogou",
+      "query": "site:mp.weixin.qq.com \"人工智能在化学中的应用\" 复旦",
+      "search_method": "public_web_index_site_query",
+      "result_status": "search_no_candidate",
+      "result_summary": "公开网页站点限定搜索无候选结果。",
+      "candidate_titles": [],
+      "candidate_urls": [],
+      "body_read": false,
+      "adopted_as_course_review": false
+    },
+    {
+      "course_code": "AIT310024",
+      "course_name": "人工智能在分析化学中的应用",
+      "scope_position": 2,
+      "in_first_73": true,
+      "source": "zhihu",
+      "query": "site:zhihu.com \"人工智能在分析化学中的应用\" 复旦",
+      "search_method": "public_web_index_site_query",
+      "result_status": "search_no_candidate",
+      "result_summary": "公开网页站点限定搜索无候选结果。",
+      "candidate_titles": [],
+      "candidate_urls": [],
+      "body_read": false,
+      "adopted_as_course_review": false
+    },
+    {
+      "course_code": "AIT310024",
+      "course_name": "人工智能在分析化学中的应用",
+      "scope_position": 2,
+      "in_first_73": true,
+      "source": "xiaohongshu",
+      "query": "site:xiaohongshu.com \"人工智能在分析化学中的应用\" 复旦",
+      "search_method": "public_web_index_site_query",
+      "result_status": "search_no_candidate",
+      "result_summary": "公开网页站点限定搜索无候选结果。",
+      "candidate_titles": [],
+      "candidate_urls": [],
+      "body_read": false,
+      "adopted_as_course_review": false
+    },
+    {
+      "course_code": "AIT310024",
+      "course_name": "人工智能在分析化学中的应用",
+      "scope_position": 2,
+      "in_first_73": true,
+      "source": "wechat_sogou",
+      "query": "site:mp.weixin.qq.com \"人工智能在分析化学中的应用\" 复旦",
+      "search_method": "public_web_index_site_query",
+      "result_status": "search_no_candidate",
+      "result_summary": "公开网页站点限定搜索无候选结果。",
+      "candidate_titles": [],
+      "candidate_urls": [],
+      "body_read": false,
+      "adopted_as_course_review": false
+    },
+    {
+      "course_code": "CHEM10001",
+      "course_name": "普通化学",
+      "scope_position": 3,
+      "in_first_73": true,
+      "source": "zhihu",
+      "query": "site:zhihu.com \"普通化学\" 复旦",
+      "search_method": "public_web_index_site_query",
+      "result_status": "irrelevant_results_no_course_review_candidate",
+      "result_summary": "站点限定搜索返回其他学校考研书单/考试资料、普通化学教材条目等泛结果；未见复旦课程或学生评价，未打开正文。",
+      "candidate_titles": [
+        "同济大学市政工程819考研专业课参考教材",
+        "2025中山大学861资源与环境综合考研参考书目",
+        "知乎知识会员：普通化学原理（第4版）",
+        "2025华东师范大学640普通化学原理一考研参考书目"
+      ],
+      "candidate_urls": [
+        "https://www.zhihu.com/tardis/bd/art/502144788",
+        "https://www.zhihu.com/tardis/bd/art/1906312066526078035",
+        "https://www.zhihu.com/kvip/sku/ebook/120103827",
+        "https://www.zhihu.com/tardis/zm/art/1928566453205972659"
+      ],
+      "body_read": false,
+      "adopted_as_course_review": false
+    },
+    {
+      "course_code": "CHEM10001",
+      "course_name": "普通化学",
+      "scope_position": 3,
+      "in_first_73": true,
+      "source": "xiaohongshu",
+      "query": "site:xiaohongshu.com \"普通化学\" 复旦",
+      "search_method": "public_web_index_site_query",
+      "result_status": "search_no_candidate",
+      "result_summary": "公开网页站点限定搜索无候选结果。",
+      "candidate_titles": [],
+      "candidate_urls": [],
+      "body_read": false,
+      "adopted_as_course_review": false
+    },
+    {
+      "course_code": "CHEM10001",
+      "course_name": "普通化学",
+      "scope_position": 3,
+      "in_first_73": true,
+      "source": "wechat_sogou",
+      "query": "site:mp.weixin.qq.com \"普通化学\" 复旦",
+      "search_method": "public_web_index_site_query",
+      "result_status": "search_no_candidate",
+      "result_summary": "公开网页站点限定搜索无候选结果。",
+      "candidate_titles": [],
+      "candidate_urls": [],
+      "body_read": false,
+      "adopted_as_course_review": false
+    },
+    {
+      "course_code": "CHEM10003",
+      "course_name": "普通化学A（上）",
+      "scope_position": 4,
+      "in_first_73": true,
+      "source": "wechat_sogou",
+      "query": "site:mp.weixin.qq.com \"普通化学A（上）\" 复旦",
+      "search_method": "public_web_index_site_query",
+      "result_status": "search_no_candidate",
+      "result_summary": "公开网页站点限定搜索无候选结果。",
+      "candidate_titles": [],
+      "candidate_urls": [],
+      "body_read": false,
+      "adopted_as_course_review": false
+    },
+    {
+      "course_code": "CHEM20003",
+      "course_name": "无机化学和化学分析实验Ⅰ",
+      "scope_position": 9,
+      "in_first_73": true,
+      "source": "zhihu",
+      "query": "site:zhihu.com \"无机化学和化学分析实验Ⅰ\" 复旦",
+      "search_method": "public_web_index_site_query",
+      "result_status": "search_no_candidate",
+      "result_summary": "公开网页站点限定搜索无候选结果。",
+      "candidate_titles": [],
+      "candidate_urls": [],
+      "body_read": false,
+      "adopted_as_course_review": false
+    },
+    {
+      "course_code": "CHEM20003",
+      "course_name": "无机化学和化学分析实验Ⅰ",
+      "scope_position": 9,
+      "in_first_73": true,
+      "source": "xiaohongshu",
+      "query": "site:xiaohongshu.com \"无机化学和化学分析实验Ⅰ\" 复旦",
+      "search_method": "public_web_index_site_query",
+      "result_status": "irrelevant_results_no_course_review_candidate",
+      "result_summary": "本批两条小红书课程全名查询合计仅显示一条蒲公英平台政策帮助页，无法从聚合返回确定对应哪条查询；页面与目标课程无关，无课评候选，未打开正文。",
+      "candidate_titles": [
+        "帮助中心 - 小红书蒲公英"
+      ],
+      "candidate_urls": [
+        "https://pgy.xiaohongshu.com/help/detail?id=6495c527d1eedeeb48fb18b1f875650e&userType=4"
+      ],
+      "body_read": false,
+      "adopted_as_course_review": false
+    },
+    {
+      "course_code": "CHEM20003",
+      "course_name": "无机化学和化学分析实验Ⅰ",
+      "scope_position": 9,
+      "in_first_73": true,
+      "source": "wechat_sogou",
+      "query": "site:mp.weixin.qq.com \"无机化学和化学分析实验Ⅰ\" 复旦",
+      "search_method": "public_web_index_site_query",
+      "result_status": "search_no_candidate",
+      "result_summary": "公开网页站点限定搜索无候选结果。",
+      "candidate_titles": [],
+      "candidate_urls": [],
+      "body_read": false,
+      "adopted_as_course_review": false
+    },
+    {
+      "course_code": "CHEM20005",
+      "course_name": "物理化学AⅠ",
+      "scope_position": 10,
+      "in_first_73": true,
+      "source": "zhihu",
+      "query": "site:zhihu.com \"物理化学AⅠ\" 复旦",
+      "search_method": "public_web_index_site_query",
+      "result_status": "search_no_candidate",
+      "result_summary": "公开网页站点限定搜索无候选结果。",
+      "candidate_titles": [],
+      "candidate_urls": [],
+      "body_read": false,
+      "adopted_as_course_review": false
+    },
+    {
+      "course_code": "CHEM20005",
+      "course_name": "物理化学AⅠ",
+      "scope_position": 10,
+      "in_first_73": true,
+      "source": "xiaohongshu",
+      "query": "site:xiaohongshu.com \"物理化学AⅠ\" 复旦",
+      "search_method": "public_web_index_site_query",
+      "result_status": "irrelevant_results_no_course_review_candidate",
+      "result_summary": "本批两条小红书课程全名查询合计仅显示一条蒲公英平台政策帮助页，无法从聚合返回确定对应哪条查询；页面与目标课程无关，无课评候选，未打开正文。",
+      "candidate_titles": [
+        "帮助中心 - 小红书蒲公英"
+      ],
+      "candidate_urls": [
+        "https://pgy.xiaohongshu.com/help/detail?id=6495c527d1eedeeb48fb18b1f875650e&userType=4"
+      ],
       "body_read": false,
       "adopted_as_course_review": false
     }
