@@ -35,14 +35,14 @@
     "courses_with_new_platform_queries": 66,
     "new_query_count_by_platform": {
       "zhihu": 46,
-      "xiaohongshu": 45,
+      "xiaohongshu": 46,
       "wechat_sogou": 66
     },
     "new_trusted_course_review_candidates": 0,
     "caveat": "Empty or unrelated search results do not prove that no student reviews exist.",
     "wechat_deferred_not_run_count": 0,
     "wechat_restriction_reason": "The three pairs that initially failed to connect each received one retry; all connected and returned empty results. No WeChat course pairs remain unattempted.",
-    "cumulative_course_platform_pair_count": 153,
+    "cumulative_course_platform_pair_count": 154,
     "last_batch_id": "WX-RETRY-6",
     "last_batch_count": 3,
     "last_batch_note": "One permitted retry for each of the three previously failed WeChat pairs connected successfully; all results were empty.",
@@ -58,20 +58,21 @@
     },
     "total_recorded_query_attempts_by_platform": {
       "zhihu": 73,
-      "xiaohongshu": 71,
+      "xiaohongshu": 72,
       "wechat_sogou": 75
     },
-    "total_recorded_query_attempts": 219,
+    "total_recorded_query_attempts": 220,
     "verified_exact_full_name_query_attempts_by_platform": {
       "zhihu": 72,
-      "xiaohongshu": 71,
+      "xiaohongshu": 72,
       "wechat_sogou": 75
     },
-    "verified_exact_full_name_query_attempts": 218,
+    "verified_exact_full_name_query_attempts": 219,
     "nonconforming_query_note": "CHEM40003 Zhihu search included extra phrase “化学系课程”; retained as an actual attempt but excluded from exact-title-only count.",
     "existing_partial_leads_inaccessible": 1,
     "courses_with_new_platform_queries_note": "按本批课程记录中具有新增查询或尝试的不同课程代码重算；不含仅继承此前查询的课程。",
-    "exact_chem40003_followup": "已补做仅课程全名加复旦及站点限定的查询，未见课程评价。"
+    "exact_chem40003_followup": "已补做仅课程全名加复旦及站点限定的查询，未见课程评价。",
+    "exact_chem70024_followup": "已补做小红书课程全名索引查询；既有候选无法打开，仍未确认。"
   },
   "platform_batch_results": [
     {
@@ -667,6 +668,15 @@
       ],
       "result_status": "unrelated_results",
       "evidence": "公开索引返回MBA、论文检测及其他院系话题，未发现化学系该课程评价。"
+    },
+    {
+      "batch_id": "XHS-CHEM70024-EXACT",
+      "platform": "xiaohongshu",
+      "course_codes": [
+        "CHEM70024"
+      ],
+      "result_status": "empty_search_results",
+      "evidence": "课程全名限定的公开索引未返回结果；既有线索正文仍无法读取。"
     }
   ],
   "trusted_candidates": [],
@@ -4008,16 +4018,17 @@
           "note": "按课程官方全名、复旦语境及平台域名检索；无结果或为无关内容，未见可归属的学生课评。"
         },
         "xiaohongshu": {
-          "search_status": "existing_partial_candidate_followup_inaccessible",
+          "search_status": "searched_no_attributable_course_review_candidate",
           "coverage_statuses": [
             "partial_candidate_requires_full_context"
           ],
-          "query_attempted": false,
-          "actual_query": null,
+          "query_attempted": true,
+          "actual_query": "site:xiaohongshu.com \"X-射线衍射分析技术\" 复旦",
           "planned_query_if_not_run": null,
-          "batch_id": null,
-          "note": "Existing partial lead URL was reopened but the web tool reported it inaccessible; full post not read.",
-          "lead_id": "CHEM-SRC-XHS-0007"
+          "batch_id": "XHS-CHEM70024-EXACT",
+          "note": "已执行课程全名、复旦和站点限定的公开索引搜索，无搜索结果；此前XRD线索正文仍无法打开，不作为评价。",
+          "lead_id": "CHEM-SRC-XHS-0007",
+          "previous_lead_note": "Existing partial lead URL was reopened but the web tool reported it inaccessible; full post not read."
         },
         "wechat_sogou": {
           "search_status": "searched_no_attributable_course_review_candidate",

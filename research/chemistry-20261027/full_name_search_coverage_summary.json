@@ -1,0 +1,5904 @@
+{
+  "scope": "2025秋/2026春化学系145个课程代码",
+  "method": "以课程全名、复旦与平台域名进行公开网页索引查询；不是平台站内全面检索。",
+  "platform_note": "wechat_sogou 为历史字段名；本轮使用 mp.weixin.qq.com 公开网页索引，未完成搜狗微信站内全面搜索。",
+  "course_count": 145,
+  "course_platform_pair_count": 435,
+  "pairs_with_query_attempt_or_previous_exact_query": 435,
+  "unresolved_pair_count": 11,
+  "unresolved_pairs": [
+    {
+      "course_code": "CHEM20015",
+      "platform": "zhihu",
+      "conditions": [
+        "tool_output_truncated_unclassified"
+      ]
+    },
+    {
+      "course_code": "CHEM20015",
+      "platform": "xiaohongshu",
+      "conditions": [
+        "tool_output_truncated_unclassified"
+      ]
+    },
+    {
+      "course_code": "CHEM20015",
+      "platform": "wechat_sogou",
+      "conditions": [
+        "tool_output_truncated_unclassified"
+      ]
+    },
+    {
+      "course_code": "CHEM20016",
+      "platform": "zhihu",
+      "conditions": [
+        "tool_output_truncated_unclassified"
+      ]
+    },
+    {
+      "course_code": "CHEM60005",
+      "platform": "zhihu",
+      "conditions": [
+        "candidate_body_unavailable_not_counted"
+      ]
+    },
+    {
+      "course_code": "CHEM60012",
+      "platform": "zhihu",
+      "conditions": [
+        "candidate_body_unavailable_not_counted"
+      ]
+    },
+    {
+      "course_code": "CHEM70005",
+      "platform": "zhihu",
+      "conditions": [
+        "search_results_output_truncated_status_unverifiable"
+      ]
+    },
+    {
+      "course_code": "CHEM70010",
+      "platform": "zhihu",
+      "conditions": [
+        "search_results_output_truncated_status_unverifiable"
+      ]
+    },
+    {
+      "course_code": "CHEM70011",
+      "platform": "zhihu",
+      "conditions": [
+        "search_results_output_truncated_status_unverifiable"
+      ]
+    },
+    {
+      "course_code": "CHEM70013",
+      "platform": "zhihu",
+      "conditions": [
+        "search_results_output_truncated_status_unverifiable"
+      ]
+    },
+    {
+      "course_code": "CHEM70024",
+      "platform": "xiaohongshu",
+      "conditions": [
+        "prior_candidate_body_inaccessible"
+      ]
+    }
+  ],
+  "courses": [
+    {
+      "course_code": "AIS310014",
+      "course_name": "人工智能在化学中的应用",
+      "platforms": {
+        "zhihu": {
+          "coverage": "已尝试或复用已执行的全名索引查询",
+          "unresolved_conditions": [],
+          "evidence": [
+            {
+              "source_file": "full_name_web_audit_front.json",
+              "status": "irrelevant_results_no_course_review_candidate"
+            },
+            {
+              "source_file": "public_web_coverage.json",
+              "status": "completed_no_specific_course_review_candidate"
+            }
+          ]
+        },
+        "xiaohongshu": {
+          "coverage": "已尝试或复用已执行的全名索引查询",
+          "unresolved_conditions": [],
+          "evidence": [
+            {
+              "source_file": "public_web_coverage.json",
+              "status": "completed_no_specific_course_review_candidate"
+            }
+          ]
+        },
+        "wechat_sogou": {
+          "coverage": "已尝试或复用已执行的全名索引查询",
+          "unresolved_conditions": [],
+          "evidence": [
+            {
+              "source_file": "full_name_web_audit_front.json",
+              "status": "search_no_candidate"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "course_code": "AIT310024",
+      "course_name": "人工智能在分析化学中的应用",
+      "platforms": {
+        "zhihu": {
+          "coverage": "已尝试或复用已执行的全名索引查询",
+          "unresolved_conditions": [],
+          "evidence": [
+            {
+              "source_file": "full_name_web_audit_front.json",
+              "status": "search_no_candidate"
+            },
+            {
+              "source_file": "public_web_coverage.json",
+              "status": "completed_no_specific_course_review_candidate"
+            }
+          ]
+        },
+        "xiaohongshu": {
+          "coverage": "已尝试或复用已执行的全名索引查询",
+          "unresolved_conditions": [],
+          "evidence": [
+            {
+              "source_file": "full_name_web_audit_front.json",
+              "status": "search_no_candidate"
+            },
+            {
+              "source_file": "public_web_coverage.json",
+              "status": "completed_no_specific_course_review_candidate"
+            }
+          ]
+        },
+        "wechat_sogou": {
+          "coverage": "已尝试或复用已执行的全名索引查询",
+          "unresolved_conditions": [],
+          "evidence": [
+            {
+              "source_file": "full_name_web_audit_front.json",
+              "status": "search_no_candidate"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "course_code": "CHEM10001",
+      "course_name": "普通化学",
+      "platforms": {
+        "zhihu": {
+          "coverage": "已尝试或复用已执行的全名索引查询",
+          "unresolved_conditions": [],
+          "evidence": [
+            {
+              "source_file": "full_name_web_audit_front.json",
+              "status": "irrelevant_results_no_course_review_candidate"
+            },
+            {
+              "source_file": "public_web_coverage.json",
+              "status": "completed_no_specific_course_review_candidate"
+            }
+          ]
+        },
+        "xiaohongshu": {
+          "coverage": "已尝试或复用已执行的全名索引查询",
+          "unresolved_conditions": [],
+          "evidence": [
+            {
+              "source_file": "full_name_web_audit_front.json",
+              "status": "search_no_candidate"
+            },
+            {
+              "source_file": "public_web_coverage.json",
+              "status": "completed_no_specific_course_review_candidate"
+            }
+          ]
+        },
+        "wechat_sogou": {
+          "coverage": "已尝试或复用已执行的全名索引查询",
+          "unresolved_conditions": [],
+          "evidence": [
+            {
+              "source_file": "full_name_web_audit_front.json",
+              "status": "search_no_candidate"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "course_code": "CHEM10003",
+      "course_name": "普通化学A(上)",
+      "platforms": {
+        "zhihu": {
+          "coverage": "已尝试或复用已执行的全名索引查询",
+          "unresolved_conditions": [],
+          "evidence": [
+            {
+              "source_file": "public_web_coverage.json",
+              "status": "completed_no_specific_course_review_candidate"
+            },
+            {
+              "source_file": "public_web_coverage.json",
+              "status": "completed_no_zhihu_review_candidate"
+            }
+          ]
+        },
+        "xiaohongshu": {
+          "coverage": "已尝试或复用已执行的全名索引查询",
+          "unresolved_conditions": [],
+          "evidence": [
+            {
+              "source_file": "public_web_coverage.json",
+              "status": "completed_no_specific_course_review_candidate"
+            },
+            {
+              "source_file": "public_web_coverage.json",
+              "status": "completed_search_index_empty"
+            }
+          ]
+        },
+        "wechat_sogou": {
+          "coverage": "已尝试或复用已执行的全名索引查询",
+          "unresolved_conditions": [],
+          "evidence": [
+            {
+              "source_file": "full_name_web_audit_front.json",
+              "status": "search_no_candidate"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "course_code": "CHEM10005",
+      "course_name": "普通化学实验I",
+      "platforms": {
+        "zhihu": {
+          "coverage": "已尝试或复用已执行的全名索引查询",
+          "unresolved_conditions": [],
+          "evidence": [
+            {
+              "source_file": "full_name_web_audit_front.json",
+              "status": "search_no_candidate"
+            },
+            {
+              "source_file": "public_web_coverage.json",
+              "status": "completed_search_index_empty"
+            }
+          ]
+        },
+        "xiaohongshu": {
+          "coverage": "已尝试或复用已执行的全名索引查询",
+          "unresolved_conditions": [],
+          "evidence": [
+            {
+              "source_file": "full_name_web_audit_front.json",
+              "status": "search_no_candidate"
+            },
+            {
+              "source_file": "public_web_coverage.json",
+              "status": "searched_no_review"
+            },
+            {
+              "source_file": "public_web_coverage.json",
+              "status": "completed_search_index_empty_ui_read_timed_out"
+            },
+            {
+              "source_file": "public_web_coverage.json",
+              "status": "completed_search_index_empty"
+            }
+          ]
+        },
+        "wechat_sogou": {
+          "coverage": "已尝试或复用已执行的全名索引查询",
+          "unresolved_conditions": [],
+          "evidence": [
+            {
+              "source_file": "full_name_web_audit_front.json",
+              "status": "search_no_candidate"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "course_code": "CHEM10007",
+      "course_name": "有机化学C",
+      "platforms": {
+        "zhihu": {
+          "coverage": "已尝试或复用已执行的全名索引查询",
+          "unresolved_conditions": [],
+          "evidence": [
+            {
+              "source_file": "full_name_web_audit_front.json",
+              "status": "search_no_candidate"
+            }
+          ]
+        },
+        "xiaohongshu": {
+          "coverage": "已尝试或复用已执行的全名索引查询",
+          "unresolved_conditions": [],
+          "evidence": [
+            {
+              "source_file": "full_name_web_audit_front.json",
+              "status": "search_no_candidate"
+            }
+          ]
+        },
+        "wechat_sogou": {
+          "coverage": "已尝试或复用已执行的全名索引查询",
+          "unresolved_conditions": [],
+          "evidence": [
+            {
+              "source_file": "full_name_web_audit_front.json",
+              "status": "search_no_candidate"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "course_code": "CHEM10008",
+      "course_name": "普通化学C",
+      "platforms": {
+        "zhihu": {
+          "coverage": "已尝试或复用已执行的全名索引查询",
+          "unresolved_conditions": [],
+          "evidence": [
+            {
+              "source_file": "full_name_web_audit_front.json",
+              "status": "search_no_candidate"
+            }
+          ]
+        },
+        "xiaohongshu": {
+          "coverage": "已尝试或复用已执行的全名索引查询",
+          "unresolved_conditions": [],
+          "evidence": [
+            {
+              "source_file": "full_name_web_audit_front.json",
+              "status": "search_no_candidate"
+            },
+            {
+              "source_file": "public_web_coverage.json",
+              "status": "searched_no_review"
+            }
+          ]
+        },
+        "wechat_sogou": {
+          "coverage": "已尝试或复用已执行的全名索引查询",
+          "unresolved_conditions": [],
+          "evidence": [
+            {
+              "source_file": "full_name_web_audit_front.json",
+              "status": "search_no_candidate"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "course_code": "CHEM20001",
+      "course_name": "分析化学AI",
+      "platforms": {
+        "zhihu": {
+          "coverage": "已尝试或复用已执行的全名索引查询",
+          "unresolved_conditions": [],
+          "evidence": [
+            {
+              "source_file": "full_name_web_audit_front.json",
+              "status": "search_no_candidate"
+            }
+          ]
+        },
+        "xiaohongshu": {
+          "coverage": "已尝试或复用已执行的全名索引查询",
+          "unresolved_conditions": [],
+          "evidence": [
+            {
+              "source_file": "full_name_web_audit_front.json",
+              "status": "search_no_candidate"
+            },
+            {
+              "source_file": "public_web_coverage.json",
+              "status": "completed_search_index_empty"
+            }
+          ]
+        },
+        "wechat_sogou": {
+          "coverage": "已尝试或复用已执行的全名索引查询",
+          "unresolved_conditions": [],
+          "evidence": [
+            {
+              "source_file": "full_name_web_audit_front.json",
+              "status": "search_no_candidate"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "course_code": "CHEM20003",
+      "course_name": "无机化学和化学分析实验I",
+      "platforms": {
+        "zhihu": {
+          "coverage": "已尝试或复用已执行的全名索引查询",
+          "unresolved_conditions": [],
+          "evidence": [
+            {
+              "source_file": "full_name_web_audit_front.json",
+              "status": "search_no_candidate"
+            },
+            {
+              "source_file": "public_web_coverage.json",
+              "status": "completed_no_specific_course_review_candidate"
+            }
+          ]
+        },
+        "xiaohongshu": {
+          "coverage": "已尝试或复用已执行的全名索引查询",
+          "unresolved_conditions": [],
+          "evidence": [
+            {
+              "source_file": "full_name_web_audit_front.json",
+              "status": "irrelevant_results_no_course_review_candidate"
+            },
+            {
+              "source_file": "public_web_coverage.json",
+              "status": "completed_no_specific_course_review_candidate"
+            }
+          ]
+        },
+        "wechat_sogou": {
+          "coverage": "已尝试或复用已执行的全名索引查询",
+          "unresolved_conditions": [],
+          "evidence": [
+            {
+              "source_file": "full_name_web_audit_front.json",
+              "status": "search_no_candidate"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "course_code": "CHEM20005",
+      "course_name": "物理化学AI",
+      "platforms": {
+        "zhihu": {
+          "coverage": "已尝试或复用已执行的全名索引查询",
+          "unresolved_conditions": [],
+          "evidence": [
+            {
+              "source_file": "full_name_web_audit_front.json",
+              "status": "search_no_candidate"
+            },
+            {
+              "source_file": "public_web_coverage.json",
+              "status": "completed_no_specific_course_review_candidate"
+            }
+          ]
+        },
+        "xiaohongshu": {
+          "coverage": "已尝试或复用已执行的全名索引查询",
+          "unresolved_conditions": [],
+          "evidence": [
+            {
+              "source_file": "full_name_web_audit_front.json",
+              "status": "irrelevant_results_no_course_review_candidate"
+            },
+            {
+              "source_file": "public_web_coverage.json",
+              "status": "completed_no_specific_course_review_candidate"
+            }
+          ]
+        },
+        "wechat_sogou": {
+          "coverage": "已尝试或复用已执行的全名索引查询",
+          "unresolved_conditions": [],
+          "evidence": [
+            {
+              "source_file": "full_name_web_audit_front.json",
+              "status": "search_no_candidate"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "course_code": "CHEM20005h",
+      "course_name": "物理化学A I(H)",
+      "platforms": {
+        "zhihu": {
+          "coverage": "已尝试或复用已执行的全名索引查询",
+          "unresolved_conditions": [],
+          "evidence": [
+            {
+              "source_file": "full_name_web_audit_front.json",
+              "status": "search_no_candidate"
+            },
+            {
+              "source_file": "public_web_coverage.json",
+              "status": "completed_no_specific_course_review_candidate"
+            }
+          ]
+        },
+        "xiaohongshu": {
+          "coverage": "已尝试或复用已执行的全名索引查询",
+          "unresolved_conditions": [],
+          "evidence": [
+            {
+              "source_file": "full_name_web_audit_front.json",
+              "status": "search_no_candidate"
+            },
+            {
+              "source_file": "public_web_coverage.json",
+              "status": "completed_no_specific_course_review_candidate"
+            }
+          ]
+        },
+        "wechat_sogou": {
+          "coverage": "已尝试或复用已执行的全名索引查询",
+          "unresolved_conditions": [],
+          "evidence": [
+            {
+              "source_file": "full_name_web_audit_front.json",
+              "status": "search_no_candidate"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "course_code": "CHEM20010",
+      "course_name": "化工制图",
+      "platforms": {
+        "zhihu": {
+          "coverage": "已尝试或复用已执行的全名索引查询",
+          "unresolved_conditions": [],
+          "evidence": [
+            {
+              "source_file": "full_name_web_audit_front.json",
+              "status": "search_no_candidate"
+            }
+          ]
+        },
+        "xiaohongshu": {
+          "coverage": "已尝试或复用已执行的全名索引查询",
+          "unresolved_conditions": [],
+          "evidence": [
+            {
+              "source_file": "full_name_web_audit_front.json",
+              "status": "search_no_candidate"
+            }
+          ]
+        },
+        "wechat_sogou": {
+          "coverage": "已尝试或复用已执行的全名索引查询",
+          "unresolved_conditions": [],
+          "evidence": [
+            {
+              "source_file": "full_name_web_audit_front.json",
+              "status": "search_no_candidate"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "course_code": "CHEM20011",
+      "course_name": "有机化学",
+      "platforms": {
+        "zhihu": {
+          "coverage": "已尝试或复用已执行的全名索引查询",
+          "unresolved_conditions": [],
+          "evidence": [
+            {
+              "source_file": "full_name_web_audit_front.json",
+              "status": "irrelevant_results_no_course_review_candidate"
+            },
+            {
+              "source_file": "public_web_coverage.json",
+              "status": "completed_no_specific_course_review_candidate"
+            }
+          ]
+        },
+        "xiaohongshu": {
+          "coverage": "已尝试或复用已执行的全名索引查询",
+          "unresolved_conditions": [],
+          "evidence": [
+            {
+              "source_file": "full_name_web_audit_front.json",
+              "status": "search_no_candidate"
+            },
+            {
+              "source_file": "public_web_coverage.json",
+              "status": "completed_no_specific_course_review_candidate"
+            }
+          ]
+        },
+        "wechat_sogou": {
+          "coverage": "已尝试或复用已执行的全名索引查询",
+          "unresolved_conditions": [],
+          "evidence": [
+            {
+              "source_file": "full_name_web_audit_front.json",
+              "status": "search_no_candidate"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "course_code": "CHEM20012",
+      "course_name": "有机化学实验",
+      "platforms": {
+        "zhihu": {
+          "coverage": "已尝试或复用已执行的全名索引查询",
+          "unresolved_conditions": [],
+          "evidence": [
+            {
+              "source_file": "full_name_web_audit_front.json",
+              "status": "irrelevant_results_no_course_review_candidate"
+            }
+          ]
+        },
+        "xiaohongshu": {
+          "coverage": "已尝试或复用已执行的全名索引查询",
+          "unresolved_conditions": [],
+          "evidence": [
+            {
+              "source_file": "full_name_web_audit_front.json",
+              "status": "search_no_candidate"
+            },
+            {
+              "source_file": "public_web_coverage.json",
+              "status": "searched_no_review"
+            }
+          ]
+        },
+        "wechat_sogou": {
+          "coverage": "已尝试或复用已执行的全名索引查询",
+          "unresolved_conditions": [],
+          "evidence": [
+            {
+              "source_file": "full_name_web_audit_front.json",
+              "status": "search_no_candidate"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "course_code": "CHEM20013",
+      "course_name": "有机化学A I",
+      "platforms": {
+        "zhihu": {
+          "coverage": "已尝试或复用已执行的全名索引查询",
+          "unresolved_conditions": [],
+          "evidence": [
+            {
+              "source_file": "full_name_web_audit_front.json",
+              "status": "search_no_candidate"
+            },
+            {
+              "source_file": "public_web_coverage.json",
+              "status": "completed_no_specific_course_review_candidate"
+            }
+          ]
+        },
+        "xiaohongshu": {
+          "coverage": "已尝试或复用已执行的全名索引查询",
+          "unresolved_conditions": [],
+          "evidence": [
+            {
+              "source_file": "full_name_web_audit_front.json",
+              "status": "search_no_candidate"
+            },
+            {
+              "source_file": "public_web_coverage.json",
+              "status": "completed_no_specific_course_review_candidate"
+            }
+          ]
+        },
+        "wechat_sogou": {
+          "coverage": "已尝试或复用已执行的全名索引查询",
+          "unresolved_conditions": [],
+          "evidence": [
+            {
+              "source_file": "full_name_web_audit_front.json",
+              "status": "search_no_candidate"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "course_code": "CHEM20013h",
+      "course_name": "有机化学A I(H)",
+      "platforms": {
+        "zhihu": {
+          "coverage": "已尝试或复用已执行的全名索引查询",
+          "unresolved_conditions": [],
+          "evidence": [
+            {
+              "source_file": "full_name_web_audit_front.json",
+              "status": "search_no_candidate"
+            },
+            {
+              "source_file": "public_web_coverage.json",
+              "status": "completed_no_specific_course_review_candidate"
+            }
+          ]
+        },
+        "xiaohongshu": {
+          "coverage": "已尝试或复用已执行的全名索引查询",
+          "unresolved_conditions": [],
+          "evidence": [
+            {
+              "source_file": "full_name_web_audit_front.json",
+              "status": "search_no_candidate"
+            },
+            {
+              "source_file": "public_web_coverage.json",
+              "status": "completed_no_specific_course_review_candidate"
+            }
+          ]
+        },
+        "wechat_sogou": {
+          "coverage": "已尝试或复用已执行的全名索引查询",
+          "unresolved_conditions": [],
+          "evidence": [
+            {
+              "source_file": "full_name_web_audit_front.json",
+              "status": "search_no_candidate"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "course_code": "CHEM20015",
+      "course_name": "分析化学",
+      "platforms": {
+        "zhihu": {
+          "coverage": "已尝试或复用已执行的全名索引查询",
+          "unresolved_conditions": [
+            "tool_output_truncated_unclassified"
+          ],
+          "evidence": [
+            {
+              "source_file": "full_name_web_audit_front.json",
+              "status": "tool_output_truncated_unclassified"
+            },
+            {
+              "source_file": "public_web_coverage.json",
+              "status": "completed_no_specific_course_review_candidate"
+            }
+          ]
+        },
+        "xiaohongshu": {
+          "coverage": "已尝试或复用已执行的全名索引查询",
+          "unresolved_conditions": [
+            "tool_output_truncated_unclassified"
+          ],
+          "evidence": [
+            {
+              "source_file": "full_name_web_audit_front.json",
+              "status": "tool_output_truncated_unclassified"
+            },
+            {
+              "source_file": "public_web_coverage.json",
+              "status": "completed_no_specific_course_review_candidate"
+            }
+          ]
+        },
+        "wechat_sogou": {
+          "coverage": "已尝试或复用已执行的全名索引查询",
+          "unresolved_conditions": [
+            "tool_output_truncated_unclassified"
+          ],
+          "evidence": [
+            {
+              "source_file": "full_name_web_audit_front.json",
+              "status": "tool_output_truncated_unclassified"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "course_code": "CHEM20016",
+      "course_name": "分析化学实验",
+      "platforms": {
+        "zhihu": {
+          "coverage": "已尝试或复用已执行的全名索引查询",
+          "unresolved_conditions": [
+            "tool_output_truncated_unclassified"
+          ],
+          "evidence": [
+            {
+              "source_file": "full_name_web_audit_front.json",
+              "status": "tool_output_truncated_unclassified"
+            }
+          ]
+        },
+        "xiaohongshu": {
+          "coverage": "已尝试或复用已执行的全名索引查询",
+          "unresolved_conditions": [],
+          "evidence": [
+            {
+              "source_file": "full_name_web_audit_front.json",
+              "status": "search_no_candidate"
+            },
+            {
+              "source_file": "public_web_coverage.json",
+              "status": "searched_no_review"
+            }
+          ]
+        },
+        "wechat_sogou": {
+          "coverage": "已尝试或复用已执行的全名索引查询",
+          "unresolved_conditions": [],
+          "evidence": [
+            {
+              "source_file": "full_name_web_audit_front.json",
+              "status": "search_no_candidate"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "course_code": "CHEM20017",
+      "course_name": "元素化学",
+      "platforms": {
+        "zhihu": {
+          "coverage": "已尝试或复用已执行的全名索引查询",
+          "unresolved_conditions": [],
+          "evidence": [
+            {
+              "source_file": "full_name_web_audit_front.json",
+              "status": "irrelevant_results_no_course_review_candidate"
+            }
+          ]
+        },
+        "xiaohongshu": {
+          "coverage": "已尝试或复用已执行的全名索引查询",
+          "unresolved_conditions": [],
+          "evidence": [
+            {
+              "source_file": "full_name_web_audit_front.json",
+              "status": "search_no_candidate"
+            },
+            {
+              "source_file": "public_web_coverage.json",
+              "status": "searched_no_review"
+            }
+          ]
+        },
+        "wechat_sogou": {
+          "coverage": "已尝试或复用已执行的全名索引查询",
+          "unresolved_conditions": [],
+          "evidence": [
+            {
+              "source_file": "full_name_web_audit_front.json",
+              "status": "search_no_candidate"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "course_code": "CHEM20021",
+      "course_name": "无机化学与化学分析实验",
+      "platforms": {
+        "zhihu": {
+          "coverage": "已尝试或复用已执行的全名索引查询",
+          "unresolved_conditions": [],
+          "evidence": [
+            {
+              "source_file": "full_name_web_audit_front.json",
+              "status": "irrelevant_results_no_course_review_candidate"
+            },
+            {
+              "source_file": "public_web_coverage.json",
+              "status": "completed_no_specific_course_review_candidate"
+            }
+          ]
+        },
+        "xiaohongshu": {
+          "coverage": "已尝试或复用已执行的全名索引查询",
+          "unresolved_conditions": [],
+          "evidence": [
+            {
+              "source_file": "full_name_web_audit_front.json",
+              "status": "search_no_candidate"
+            },
+            {
+              "source_file": "public_web_coverage.json",
+              "status": "completed_no_specific_course_review_candidate"
+            }
+          ]
+        },
+        "wechat_sogou": {
+          "coverage": "已尝试或复用已执行的全名索引查询",
+          "unresolved_conditions": [],
+          "evidence": [
+            {
+              "source_file": "public_web_coverage.json",
+              "status": "prior_batch_WEB-2026-10-28-130"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "course_code": "CHEM20022",
+      "course_name": "切问近思",
+      "platforms": {
+        "zhihu": {
+          "coverage": "已尝试或复用已执行的全名索引查询",
+          "unresolved_conditions": [],
+          "evidence": [
+            {
+              "source_file": "full_name_web_audit_front.json",
+              "status": "irrelevant_results_no_course_review_candidate"
+            }
+          ]
+        },
+        "xiaohongshu": {
+          "coverage": "已尝试或复用已执行的全名索引查询",
+          "unresolved_conditions": [],
+          "evidence": [
+            {
+              "source_file": "full_name_web_audit_front.json",
+              "status": "search_no_candidate"
+            }
+          ]
+        },
+        "wechat_sogou": {
+          "coverage": "已尝试或复用已执行的全名索引查询",
+          "unresolved_conditions": [],
+          "evidence": [
+            {
+              "source_file": "full_name_web_audit_front.json",
+              "status": "search_no_candidate"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "course_code": "CHEM30001",
+      "course_name": "绿色电化学合成",
+      "platforms": {
+        "zhihu": {
+          "coverage": "已尝试或复用已执行的全名索引查询",
+          "unresolved_conditions": [],
+          "evidence": [
+            {
+              "source_file": "full_name_web_audit_front.json",
+              "status": "irrelevant_results_no_course_review_candidate"
+            }
+          ]
+        },
+        "xiaohongshu": {
+          "coverage": "已尝试或复用已执行的全名索引查询",
+          "unresolved_conditions": [],
+          "evidence": [
+            {
+              "source_file": "full_name_web_audit_front.json",
+              "status": "search_no_candidate"
+            }
+          ]
+        },
+        "wechat_sogou": {
+          "coverage": "已尝试或复用已执行的全名索引查询",
+          "unresolved_conditions": [],
+          "evidence": [
+            {
+              "source_file": "full_name_web_audit_front.json",
+              "status": "search_no_candidate"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "course_code": "CHEM30003",
+      "course_name": "合成化学实验(下)",
+      "platforms": {
+        "zhihu": {
+          "coverage": "已尝试或复用已执行的全名索引查询",
+          "unresolved_conditions": [],
+          "evidence": [
+            {
+              "source_file": "full_name_web_audit_front.json",
+              "status": "search_no_candidate"
+            }
+          ]
+        },
+        "xiaohongshu": {
+          "coverage": "已尝试或复用已执行的全名索引查询",
+          "unresolved_conditions": [],
+          "evidence": [
+            {
+              "source_file": "full_name_web_audit_front.json",
+              "status": "irrelevant_results_no_course_review_candidate"
+            },
+            {
+              "source_file": "public_web_coverage.json",
+              "status": "searched_no_review"
+            }
+          ]
+        },
+        "wechat_sogou": {
+          "coverage": "已尝试或复用已执行的全名索引查询",
+          "unresolved_conditions": [],
+          "evidence": [
+            {
+              "source_file": "full_name_web_audit_front.json",
+              "status": "search_no_candidate"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "course_code": "CHEM30004",
+      "course_name": "物理化学AIII",
+      "platforms": {
+        "zhihu": {
+          "coverage": "已尝试或复用已执行的全名索引查询",
+          "unresolved_conditions": [],
+          "evidence": [
+            {
+              "source_file": "full_name_web_audit_front.json",
+              "status": "search_no_candidate"
+            },
+            {
+              "source_file": "public_web_coverage.json",
+              "status": "completed_no_specific_course_review_candidate"
+            }
+          ]
+        },
+        "xiaohongshu": {
+          "coverage": "已尝试或复用已执行的全名索引查询",
+          "unresolved_conditions": [],
+          "evidence": [
+            {
+              "source_file": "full_name_web_audit_front.json",
+              "status": "search_no_candidate"
+            },
+            {
+              "source_file": "public_web_coverage.json",
+              "status": "completed_no_specific_course_review_candidate"
+            }
+          ]
+        },
+        "wechat_sogou": {
+          "coverage": "已尝试或复用已执行的全名索引查询",
+          "unresolved_conditions": [],
+          "evidence": [
+            {
+              "source_file": "full_name_web_audit_front.json",
+              "status": "search_no_candidate"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "course_code": "CHEM30004h",
+      "course_name": "物理化学A III(H)",
+      "platforms": {
+        "zhihu": {
+          "coverage": "已尝试或复用已执行的全名索引查询",
+          "unresolved_conditions": [],
+          "evidence": [
+            {
+              "source_file": "full_name_web_audit_front.json",
+              "status": "search_no_candidate"
+            },
+            {
+              "source_file": "public_web_coverage.json",
+              "status": "completed_no_specific_course_review_candidate"
+            }
+          ]
+        },
+        "xiaohongshu": {
+          "coverage": "已尝试或复用已执行的全名索引查询",
+          "unresolved_conditions": [],
+          "evidence": [
+            {
+              "source_file": "full_name_web_audit_front.json",
+              "status": "search_no_candidate"
+            },
+            {
+              "source_file": "public_web_coverage.json",
+              "status": "completed_no_specific_course_review_candidate"
+            }
+          ]
+        },
+        "wechat_sogou": {
+          "coverage": "已尝试或复用已执行的全名索引查询",
+          "unresolved_conditions": [],
+          "evidence": [
+            {
+              "source_file": "full_name_web_audit_front.json",
+              "status": "search_no_candidate"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "course_code": "CHEM30005",
+      "course_name": "无机化学",
+      "platforms": {
+        "zhihu": {
+          "coverage": "已尝试或复用已执行的全名索引查询",
+          "unresolved_conditions": [],
+          "evidence": [
+            {
+              "source_file": "full_name_web_audit_front.json",
+              "status": "irrelevant_results_no_course_review_candidate"
+            },
+            {
+              "source_file": "public_web_coverage.json",
+              "status": "completed_no_specific_course_review_candidate"
+            }
+          ]
+        },
+        "xiaohongshu": {
+          "coverage": "已尝试或复用已执行的全名索引查询",
+          "unresolved_conditions": [],
+          "evidence": [
+            {
+              "source_file": "full_name_web_audit_front.json",
+              "status": "search_no_candidate"
+            },
+            {
+              "source_file": "public_web_coverage.json",
+              "status": "completed_no_specific_course_review_candidate"
+            }
+          ]
+        },
+        "wechat_sogou": {
+          "coverage": "已尝试或复用已执行的全名索引查询",
+          "unresolved_conditions": [],
+          "evidence": [
+            {
+              "source_file": "full_name_web_audit_front.json",
+              "status": "search_no_candidate"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "course_code": "CHEM30005h",
+      "course_name": "无机化学(H)",
+      "platforms": {
+        "zhihu": {
+          "coverage": "已尝试或复用已执行的全名索引查询",
+          "unresolved_conditions": [],
+          "evidence": [
+            {
+              "source_file": "full_name_web_audit_front.json",
+              "status": "search_no_candidate"
+            },
+            {
+              "source_file": "public_web_coverage.json",
+              "status": "completed_no_specific_course_review_candidate"
+            }
+          ]
+        },
+        "xiaohongshu": {
+          "coverage": "已尝试或复用已执行的全名索引查询",
+          "unresolved_conditions": [],
+          "evidence": [
+            {
+              "source_file": "full_name_web_audit_front.json",
+              "status": "search_no_candidate"
+            },
+            {
+              "source_file": "public_web_coverage.json",
+              "status": "completed_no_specific_course_review_candidate"
+            }
+          ]
+        },
+        "wechat_sogou": {
+          "coverage": "已尝试或复用已执行的全名索引查询",
+          "unresolved_conditions": [],
+          "evidence": [
+            {
+              "source_file": "full_name_web_audit_front.json",
+              "status": "search_no_candidate"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "course_code": "CHEM30010",
+      "course_name": "有机合成及反应机理",
+      "platforms": {
+        "zhihu": {
+          "coverage": "已尝试或复用已执行的全名索引查询",
+          "unresolved_conditions": [],
+          "evidence": [
+            {
+              "source_file": "full_name_web_audit_front.json",
+              "status": "search_no_candidate"
+            },
+            {
+              "source_file": "public_web_coverage.json",
+              "status": "searched_no_review"
+            }
+          ]
+        },
+        "xiaohongshu": {
+          "coverage": "已尝试或复用已执行的全名索引查询",
+          "unresolved_conditions": [],
+          "evidence": [
+            {
+              "source_file": "full_name_web_audit_front.json",
+              "status": "search_no_candidate"
+            },
+            {
+              "source_file": "public_web_coverage.json",
+              "status": "searched_no_review"
+            }
+          ]
+        },
+        "wechat_sogou": {
+          "coverage": "已尝试或复用已执行的全名索引查询",
+          "unresolved_conditions": [],
+          "evidence": [
+            {
+              "source_file": "full_name_web_audit_front.json",
+              "status": "search_no_candidate"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "course_code": "CHEM30011",
+      "course_name": "环境化学B",
+      "platforms": {
+        "zhihu": {
+          "coverage": "已尝试或复用已执行的全名索引查询",
+          "unresolved_conditions": [],
+          "evidence": [
+            {
+              "source_file": "full_name_web_audit_front.json",
+              "status": "search_no_candidate"
+            }
+          ]
+        },
+        "xiaohongshu": {
+          "coverage": "已尝试或复用已执行的全名索引查询",
+          "unresolved_conditions": [],
+          "evidence": [
+            {
+              "source_file": "full_name_web_audit_front.json",
+              "status": "irrelevant_results_no_course_review_candidate"
+            }
+          ]
+        },
+        "wechat_sogou": {
+          "coverage": "已尝试或复用已执行的全名索引查询",
+          "unresolved_conditions": [],
+          "evidence": [
+            {
+              "source_file": "full_name_web_audit_front.json",
+              "status": "search_no_candidate"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "course_code": "CHEM30012",
+      "course_name": "计算化学",
+      "platforms": {
+        "zhihu": {
+          "coverage": "已尝试或复用已执行的全名索引查询",
+          "unresolved_conditions": [],
+          "evidence": [
+            {
+              "source_file": "full_name_web_audit_front.json",
+              "status": "irrelevant_results_no_course_review_candidate"
+            },
+            {
+              "source_file": "public_web_coverage.json",
+              "status": "searched_no_review"
+            }
+          ]
+        },
+        "xiaohongshu": {
+          "coverage": "已尝试或复用已执行的全名索引查询",
+          "unresolved_conditions": [],
+          "evidence": [
+            {
+              "source_file": "full_name_web_audit_front.json",
+              "status": "search_no_candidate"
+            },
+            {
+              "source_file": "public_web_coverage.json",
+              "status": "searched_no_review"
+            }
+          ]
+        },
+        "wechat_sogou": {
+          "coverage": "已尝试或复用已执行的全名索引查询",
+          "unresolved_conditions": [],
+          "evidence": [
+            {
+              "source_file": "full_name_web_audit_front.json",
+              "status": "search_no_candidate"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "course_code": "CHEM30015",
+      "course_name": "化工原理",
+      "platforms": {
+        "zhihu": {
+          "coverage": "已尝试或复用已执行的全名索引查询",
+          "unresolved_conditions": [],
+          "evidence": [
+            {
+              "source_file": "full_name_web_audit_front.json",
+              "status": "irrelevant_results_no_course_review_candidate"
+            },
+            {
+              "source_file": "public_web_coverage.json",
+              "status": "searched_no_review"
+            }
+          ]
+        },
+        "xiaohongshu": {
+          "coverage": "已尝试或复用已执行的全名索引查询",
+          "unresolved_conditions": [],
+          "evidence": [
+            {
+              "source_file": "full_name_web_audit_front.json",
+              "status": "search_no_candidate"
+            },
+            {
+              "source_file": "public_web_coverage.json",
+              "status": "searched_no_review"
+            }
+          ]
+        },
+        "wechat_sogou": {
+          "coverage": "已尝试或复用已执行的全名索引查询",
+          "unresolved_conditions": [],
+          "evidence": [
+            {
+              "source_file": "full_name_web_audit_front.json",
+              "status": "search_no_candidate"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "course_code": "CHEM30017",
+      "course_name": "应用化学专题",
+      "platforms": {
+        "zhihu": {
+          "coverage": "已尝试或复用已执行的全名索引查询",
+          "unresolved_conditions": [],
+          "evidence": [
+            {
+              "source_file": "full_name_web_audit_front.json",
+              "status": "search_no_candidate"
+            }
+          ]
+        },
+        "xiaohongshu": {
+          "coverage": "已尝试或复用已执行的全名索引查询",
+          "unresolved_conditions": [],
+          "evidence": [
+            {
+              "source_file": "full_name_web_audit_front.json",
+              "status": "search_no_candidate"
+            }
+          ]
+        },
+        "wechat_sogou": {
+          "coverage": "已尝试或复用已执行的全名索引查询",
+          "unresolved_conditions": [],
+          "evidence": [
+            {
+              "source_file": "full_name_web_audit_front.json",
+              "status": "search_no_candidate"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "course_code": "CHEM30018",
+      "course_name": "光电功能材料",
+      "platforms": {
+        "zhihu": {
+          "coverage": "已尝试或复用已执行的全名索引查询",
+          "unresolved_conditions": [],
+          "evidence": [
+            {
+              "source_file": "full_name_web_audit_front.json",
+              "status": "irrelevant_results_no_course_review_candidate"
+            }
+          ]
+        },
+        "xiaohongshu": {
+          "coverage": "已尝试或复用已执行的全名索引查询",
+          "unresolved_conditions": [],
+          "evidence": [
+            {
+              "source_file": "full_name_web_audit_front.json",
+              "status": "search_no_candidate"
+            }
+          ]
+        },
+        "wechat_sogou": {
+          "coverage": "已尝试或复用已执行的全名索引查询",
+          "unresolved_conditions": [],
+          "evidence": [
+            {
+              "source_file": "full_name_web_audit_front.json",
+              "status": "search_no_candidate"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "course_code": "CHEM30019",
+      "course_name": "分子组装与分子器件",
+      "platforms": {
+        "zhihu": {
+          "coverage": "已尝试或复用已执行的全名索引查询",
+          "unresolved_conditions": [],
+          "evidence": [
+            {
+              "source_file": "full_name_web_audit_front.json",
+              "status": "irrelevant_results_no_course_review_candidate"
+            }
+          ]
+        },
+        "xiaohongshu": {
+          "coverage": "已尝试或复用已执行的全名索引查询",
+          "unresolved_conditions": [],
+          "evidence": [
+            {
+              "source_file": "full_name_web_audit_front.json",
+              "status": "search_no_candidate"
+            }
+          ]
+        },
+        "wechat_sogou": {
+          "coverage": "已尝试或复用已执行的全名索引查询",
+          "unresolved_conditions": [],
+          "evidence": [
+            {
+              "source_file": "full_name_web_audit_front.json",
+              "status": "search_no_candidate"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "course_code": "CHEM30021",
+      "course_name": "配位化学",
+      "platforms": {
+        "zhihu": {
+          "coverage": "已尝试或复用已执行的全名索引查询",
+          "unresolved_conditions": [],
+          "evidence": [
+            {
+              "source_file": "full_name_web_audit_front.json",
+              "status": "irrelevant_results_no_course_review_candidate"
+            },
+            {
+              "source_file": "public_web_coverage.json",
+              "status": "searched_no_review"
+            }
+          ]
+        },
+        "xiaohongshu": {
+          "coverage": "已尝试或复用已执行的全名索引查询",
+          "unresolved_conditions": [],
+          "evidence": [
+            {
+              "source_file": "full_name_web_audit_front.json",
+              "status": "search_no_candidate"
+            },
+            {
+              "source_file": "public_web_coverage.json",
+              "status": "searched_no_review"
+            }
+          ]
+        },
+        "wechat_sogou": {
+          "coverage": "已尝试或复用已执行的全名索引查询",
+          "unresolved_conditions": [],
+          "evidence": [
+            {
+              "source_file": "full_name_web_audit_front.json",
+              "status": "search_no_candidate"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "course_code": "CHEM30022",
+      "course_name": "纳米材料与功能器件",
+      "platforms": {
+        "zhihu": {
+          "coverage": "已尝试或复用已执行的全名索引查询",
+          "unresolved_conditions": [],
+          "evidence": [
+            {
+              "source_file": "full_name_web_audit_front.json",
+              "status": "search_no_candidate"
+            },
+            {
+              "source_file": "public_web_coverage.json",
+              "status": "completed_no_specific_course_review_candidate"
+            }
+          ]
+        },
+        "xiaohongshu": {
+          "coverage": "已尝试或复用已执行的全名索引查询",
+          "unresolved_conditions": [],
+          "evidence": [
+            {
+              "source_file": "public_web_coverage.json",
+              "status": "completed_no_specific_course_review_candidate"
+            }
+          ]
+        },
+        "wechat_sogou": {
+          "coverage": "已尝试或复用已执行的全名索引查询",
+          "unresolved_conditions": [],
+          "evidence": [
+            {
+              "source_file": "full_name_web_audit_front.json",
+              "status": "search_no_candidate"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "course_code": "CHEM30026",
+      "course_name": "金属有机化学的研究方法和策略",
+      "platforms": {
+        "zhihu": {
+          "coverage": "已尝试或复用已执行的全名索引查询",
+          "unresolved_conditions": [],
+          "evidence": [
+            {
+              "source_file": "full_name_web_audit_front.json",
+              "status": "search_no_candidate"
+            }
+          ]
+        },
+        "xiaohongshu": {
+          "coverage": "已尝试或复用已执行的全名索引查询",
+          "unresolved_conditions": [],
+          "evidence": [
+            {
+              "source_file": "full_name_web_audit_front.json",
+              "status": "search_no_candidate"
+            }
+          ]
+        },
+        "wechat_sogou": {
+          "coverage": "已尝试或复用已执行的全名索引查询",
+          "unresolved_conditions": [],
+          "evidence": [
+            {
+              "source_file": "full_name_web_audit_front.json",
+              "status": "search_no_candidate"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "course_code": "CHEM30029",
+      "course_name": "碳簇化学",
+      "platforms": {
+        "zhihu": {
+          "coverage": "已尝试或复用已执行的全名索引查询",
+          "unresolved_conditions": [],
+          "evidence": [
+            {
+              "source_file": "full_name_web_audit_middle.json",
+              "status": "irrelevant_results_no_course_review_candidate"
+            }
+          ]
+        },
+        "xiaohongshu": {
+          "coverage": "已尝试或复用已执行的全名索引查询",
+          "unresolved_conditions": [],
+          "evidence": [
+            {
+              "source_file": "full_name_web_audit_middle.json",
+              "status": "search_no_candidate"
+            }
+          ]
+        },
+        "wechat_sogou": {
+          "coverage": "已尝试或复用已执行的全名索引查询",
+          "unresolved_conditions": [],
+          "evidence": [
+            {
+              "source_file": "full_name_web_audit_middle.json",
+              "status": "search_no_candidate"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "course_code": "CHEM30031",
+      "course_name": "物理化学实验(上)",
+      "platforms": {
+        "zhihu": {
+          "coverage": "已尝试或复用已执行的全名索引查询",
+          "unresolved_conditions": [],
+          "evidence": [
+            {
+              "source_file": "full_name_web_audit_front.json",
+              "status": "search_no_candidate"
+            }
+          ]
+        },
+        "xiaohongshu": {
+          "coverage": "已尝试或复用已执行的全名索引查询",
+          "unresolved_conditions": [],
+          "evidence": [
+            {
+              "source_file": "full_name_web_audit_middle.json",
+              "status": "search_no_candidate"
+            },
+            {
+              "source_file": "public_web_coverage.json",
+              "status": "searched_no_review"
+            }
+          ]
+        },
+        "wechat_sogou": {
+          "coverage": "已尝试或复用已执行的全名索引查询",
+          "unresolved_conditions": [],
+          "evidence": [
+            {
+              "source_file": "full_name_web_audit_front.json",
+              "status": "search_no_candidate"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "course_code": "CHEM30033",
+      "course_name": "计算谱学原理",
+      "platforms": {
+        "zhihu": {
+          "coverage": "已尝试或复用已执行的全名索引查询",
+          "unresolved_conditions": [],
+          "evidence": [
+            {
+              "source_file": "full_name_web_audit_middle.json",
+              "status": "irrelevant_results_no_course_review_candidate"
+            }
+          ]
+        },
+        "xiaohongshu": {
+          "coverage": "已尝试或复用已执行的全名索引查询",
+          "unresolved_conditions": [],
+          "evidence": [
+            {
+              "source_file": "full_name_web_audit_middle.json",
+              "status": "search_no_candidate"
+            }
+          ]
+        },
+        "wechat_sogou": {
+          "coverage": "已尝试或复用已执行的全名索引查询",
+          "unresolved_conditions": [],
+          "evidence": [
+            {
+              "source_file": "full_name_web_audit_middle.json",
+              "status": "search_no_candidate"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "course_code": "CHEM30034",
+      "course_name": "不对称合成化学",
+      "platforms": {
+        "zhihu": {
+          "coverage": "已尝试或复用已执行的全名索引查询",
+          "unresolved_conditions": [],
+          "evidence": [
+            {
+              "source_file": "full_name_web_audit_middle.json",
+              "status": "search_no_candidate"
+            }
+          ]
+        },
+        "xiaohongshu": {
+          "coverage": "已尝试或复用已执行的全名索引查询",
+          "unresolved_conditions": [],
+          "evidence": [
+            {
+              "source_file": "full_name_web_audit_middle.json",
+              "status": "search_no_candidate"
+            }
+          ]
+        },
+        "wechat_sogou": {
+          "coverage": "已尝试或复用已执行的全名索引查询",
+          "unresolved_conditions": [],
+          "evidence": [
+            {
+              "source_file": "full_name_web_audit_middle.json",
+              "status": "search_no_candidate"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "course_code": "CHEM30036",
+      "course_name": "碳基能源化学",
+      "platforms": {
+        "zhihu": {
+          "coverage": "已尝试或复用已执行的全名索引查询",
+          "unresolved_conditions": [],
+          "evidence": [
+            {
+              "source_file": "full_name_web_audit_middle.json",
+              "status": "search_no_candidate"
+            }
+          ]
+        },
+        "xiaohongshu": {
+          "coverage": "已尝试或复用已执行的全名索引查询",
+          "unresolved_conditions": [],
+          "evidence": [
+            {
+              "source_file": "full_name_web_audit_middle.json",
+              "status": "search_no_candidate"
+            }
+          ]
+        },
+        "wechat_sogou": {
+          "coverage": "已尝试或复用已执行的全名索引查询",
+          "unresolved_conditions": [],
+          "evidence": [
+            {
+              "source_file": "full_name_web_audit_middle.json",
+              "status": "search_no_candidate"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "course_code": "CHEM30037",
+      "course_name": "DNA合成化学",
+      "platforms": {
+        "zhihu": {
+          "coverage": "已尝试或复用已执行的全名索引查询",
+          "unresolved_conditions": [],
+          "evidence": [
+            {
+              "source_file": "full_name_web_audit_middle.json",
+              "status": "irrelevant_results_no_course_review_candidate"
+            },
+            {
+              "source_file": "public_web_coverage.json",
+              "status": "completed_no_specific_course_review_candidate"
+            }
+          ]
+        },
+        "xiaohongshu": {
+          "coverage": "已尝试或复用已执行的全名索引查询",
+          "unresolved_conditions": [],
+          "evidence": [
+            {
+              "source_file": "full_name_web_audit_middle.json",
+              "status": "search_no_candidate"
+            },
+            {
+              "source_file": "public_web_coverage.json",
+              "status": "completed_no_specific_course_review_candidate"
+            }
+          ]
+        },
+        "wechat_sogou": {
+          "coverage": "已尝试或复用已执行的全名索引查询",
+          "unresolved_conditions": [],
+          "evidence": [
+            {
+              "source_file": "full_name_web_audit_middle.json",
+              "status": "search_no_candidate"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "course_code": "CHEM30038",
+      "course_name": "科研实践",
+      "platforms": {
+        "zhihu": {
+          "coverage": "已尝试或复用已执行的全名索引查询",
+          "unresolved_conditions": [],
+          "evidence": [
+            {
+              "source_file": "full_name_web_audit_middle.json",
+              "status": "irrelevant_results_no_course_review_candidate"
+            },
+            {
+              "source_file": "public_web_coverage.json",
+              "status": "completed_no_specific_course_review_candidate"
+            }
+          ]
+        },
+        "xiaohongshu": {
+          "coverage": "已尝试或复用已执行的全名索引查询",
+          "unresolved_conditions": [],
+          "evidence": [
+            {
+              "source_file": "full_name_web_audit_middle.json",
+              "status": "search_no_candidate"
+            },
+            {
+              "source_file": "public_web_coverage.json",
+              "status": "completed_no_specific_course_review_candidate"
+            }
+          ]
+        },
+        "wechat_sogou": {
+          "coverage": "已尝试或复用已执行的全名索引查询",
+          "unresolved_conditions": [],
+          "evidence": [
+            {
+              "source_file": "full_name_web_audit_middle.json",
+              "status": "search_no_candidate"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "course_code": "CHEM30041h",
+      "course_name": "量子化学原理及应用(H)",
+      "platforms": {
+        "zhihu": {
+          "coverage": "已尝试或复用已执行的全名索引查询",
+          "unresolved_conditions": [],
+          "evidence": [
+            {
+              "source_file": "full_name_web_audit_middle.json",
+              "status": "search_no_candidate"
+            }
+          ]
+        },
+        "xiaohongshu": {
+          "coverage": "已尝试或复用已执行的全名索引查询",
+          "unresolved_conditions": [],
+          "evidence": [
+            {
+              "source_file": "full_name_web_audit_middle.json",
+              "status": "search_no_candidate"
+            }
+          ]
+        },
+        "wechat_sogou": {
+          "coverage": "已尝试或复用已执行的全名索引查询",
+          "unresolved_conditions": [],
+          "evidence": [
+            {
+              "source_file": "full_name_web_audit_middle.json",
+              "status": "search_no_candidate"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "course_code": "CHEM40002",
+      "course_name": "生产实习",
+      "platforms": {
+        "zhihu": {
+          "coverage": "已尝试或复用已执行的全名索引查询",
+          "unresolved_conditions": [],
+          "evidence": [
+            {
+              "source_file": "full_name_web_audit_middle.json",
+              "status": "irrelevant_results_no_course_review_candidate"
+            }
+          ]
+        },
+        "xiaohongshu": {
+          "coverage": "已尝试或复用已执行的全名索引查询",
+          "unresolved_conditions": [],
+          "evidence": [
+            {
+              "source_file": "full_name_web_audit_middle.json",
+              "status": "irrelevant_results_no_course_review_candidate"
+            }
+          ]
+        },
+        "wechat_sogou": {
+          "coverage": "已尝试或复用已执行的全名索引查询",
+          "unresolved_conditions": [],
+          "evidence": [
+            {
+              "source_file": "full_name_web_audit_middle.json",
+              "status": "search_no_candidate"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "course_code": "CHEM40008",
+      "course_name": "化学实验室安全",
+      "platforms": {
+        "zhihu": {
+          "coverage": "已尝试或复用已执行的全名索引查询",
+          "unresolved_conditions": [],
+          "evidence": [
+            {
+              "source_file": "full_name_web_audit_front.json",
+              "status": "search_no_candidate"
+            }
+          ]
+        },
+        "xiaohongshu": {
+          "coverage": "已尝试或复用已执行的全名索引查询",
+          "unresolved_conditions": [],
+          "evidence": [
+            {
+              "source_file": "full_name_web_audit_front.json",
+              "status": "search_no_candidate"
+            }
+          ]
+        },
+        "wechat_sogou": {
+          "coverage": "已尝试或复用已执行的全名索引查询",
+          "unresolved_conditions": [],
+          "evidence": [
+            {
+              "source_file": "full_name_web_audit_front.json",
+              "status": "search_no_candidate"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "course_code": "CHEM40014h",
+      "course_name": "高等无机化学(H)",
+      "platforms": {
+        "zhihu": {
+          "coverage": "已尝试或复用已执行的全名索引查询",
+          "unresolved_conditions": [],
+          "evidence": [
+            {
+              "source_file": "full_name_web_audit_middle.json",
+              "status": "search_no_candidate"
+            }
+          ]
+        },
+        "xiaohongshu": {
+          "coverage": "已尝试或复用已执行的全名索引查询",
+          "unresolved_conditions": [],
+          "evidence": [
+            {
+              "source_file": "full_name_web_audit_middle.json",
+              "status": "search_no_candidate"
+            },
+            {
+              "source_file": "public_web_coverage.json",
+              "status": "completed_no_specific_course_review_candidate"
+            }
+          ]
+        },
+        "wechat_sogou": {
+          "coverage": "已尝试或复用已执行的全名索引查询",
+          "unresolved_conditions": [],
+          "evidence": [
+            {
+              "source_file": "full_name_web_audit_middle.json",
+              "status": "search_no_candidate"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "course_code": "CHEM40015h",
+      "course_name": "高等有机化学(H)",
+      "platforms": {
+        "zhihu": {
+          "coverage": "已尝试或复用已执行的全名索引查询",
+          "unresolved_conditions": [],
+          "evidence": [
+            {
+              "source_file": "full_name_web_audit_middle.json",
+              "status": "search_no_candidate"
+            }
+          ]
+        },
+        "xiaohongshu": {
+          "coverage": "已尝试或复用已执行的全名索引查询",
+          "unresolved_conditions": [],
+          "evidence": [
+            {
+              "source_file": "full_name_web_audit_middle.json",
+              "status": "search_no_candidate"
+            }
+          ]
+        },
+        "wechat_sogou": {
+          "coverage": "已尝试或复用已执行的全名索引查询",
+          "unresolved_conditions": [],
+          "evidence": [
+            {
+              "source_file": "full_name_web_audit_middle.json",
+              "status": "search_no_candidate"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "course_code": "CHEM50002",
+      "course_name": "高等无机化学",
+      "platforms": {
+        "zhihu": {
+          "coverage": "已尝试或复用已执行的全名索引查询",
+          "unresolved_conditions": [],
+          "evidence": [
+            {
+              "source_file": "full_name_web_audit_middle.json",
+              "status": "irrelevant_results_no_course_review_candidate"
+            },
+            {
+              "source_file": "public_web_coverage.json",
+              "status": "completed_no_specific_course_review_candidate"
+            }
+          ]
+        },
+        "xiaohongshu": {
+          "coverage": "已尝试或复用已执行的全名索引查询",
+          "unresolved_conditions": [],
+          "evidence": [
+            {
+              "source_file": "full_name_web_audit_middle.json",
+              "status": "search_no_candidate"
+            },
+            {
+              "source_file": "public_web_coverage.json",
+              "status": "completed_no_specific_course_review_candidate"
+            }
+          ]
+        },
+        "wechat_sogou": {
+          "coverage": "已尝试或复用已执行的全名索引查询",
+          "unresolved_conditions": [],
+          "evidence": [
+            {
+              "source_file": "full_name_web_audit_middle.json",
+              "status": "search_no_candidate"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "course_code": "CHEM50003",
+      "course_name": "高等有机化学",
+      "platforms": {
+        "zhihu": {
+          "coverage": "已尝试或复用已执行的全名索引查询",
+          "unresolved_conditions": [],
+          "evidence": [
+            {
+              "source_file": "full_name_web_audit_middle.json",
+              "status": "irrelevant_results_no_course_review_candidate"
+            },
+            {
+              "source_file": "public_web_coverage.json",
+              "status": "completed_no_specific_course_review_candidate"
+            }
+          ]
+        },
+        "xiaohongshu": {
+          "coverage": "已尝试或复用已执行的全名索引查询",
+          "unresolved_conditions": [],
+          "evidence": [
+            {
+              "source_file": "full_name_web_audit_middle.json",
+              "status": "search_no_candidate"
+            },
+            {
+              "source_file": "public_web_coverage.json",
+              "status": "completed_no_specific_course_review_candidate"
+            }
+          ]
+        },
+        "wechat_sogou": {
+          "coverage": "已尝试或复用已执行的全名索引查询",
+          "unresolved_conditions": [],
+          "evidence": [
+            {
+              "source_file": "full_name_web_audit_middle.json",
+              "status": "search_no_candidate"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "course_code": "CHEM50004",
+      "course_name": "量子化学原理及应用",
+      "platforms": {
+        "zhihu": {
+          "coverage": "已尝试或复用已执行的全名索引查询",
+          "unresolved_conditions": [],
+          "evidence": [
+            {
+              "source_file": "full_name_web_audit_middle.json",
+              "status": "search_no_candidate"
+            },
+            {
+              "source_file": "public_web_coverage.json",
+              "status": "completed_no_specific_course_review_candidate"
+            }
+          ]
+        },
+        "xiaohongshu": {
+          "coverage": "已尝试或复用已执行的全名索引查询",
+          "unresolved_conditions": [],
+          "evidence": [
+            {
+              "source_file": "full_name_web_audit_middle.json",
+              "status": "search_no_candidate"
+            },
+            {
+              "source_file": "public_web_coverage.json",
+              "status": "completed_no_specific_course_review_candidate"
+            }
+          ]
+        },
+        "wechat_sogou": {
+          "coverage": "已尝试或复用已执行的全名索引查询",
+          "unresolved_conditions": [],
+          "evidence": [
+            {
+              "source_file": "full_name_web_audit_middle.json",
+              "status": "search_no_candidate"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "course_code": "CHEM50006",
+      "course_name": "选拔性考试研究与实践",
+      "platforms": {
+        "zhihu": {
+          "coverage": "已尝试或复用已执行的全名索引查询",
+          "unresolved_conditions": [],
+          "evidence": [
+            {
+              "source_file": "full_name_web_audit_middle.json",
+              "status": "search_no_candidate"
+            },
+            {
+              "source_file": "public_web_coverage.json",
+              "status": "completed_no_specific_course_review_candidate"
+            }
+          ]
+        },
+        "xiaohongshu": {
+          "coverage": "已尝试或复用已执行的全名索引查询",
+          "unresolved_conditions": [],
+          "evidence": [
+            {
+              "source_file": "full_name_web_audit_middle.json",
+              "status": "search_no_candidate"
+            },
+            {
+              "source_file": "public_web_coverage.json",
+              "status": "completed_no_specific_course_review_candidate"
+            }
+          ]
+        },
+        "wechat_sogou": {
+          "coverage": "已尝试或复用已执行的全名索引查询",
+          "unresolved_conditions": [],
+          "evidence": [
+            {
+              "source_file": "full_name_web_audit_middle.json",
+              "status": "search_no_candidate"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "course_code": "CHEM50008",
+      "course_name": "工程伦理",
+      "platforms": {
+        "zhihu": {
+          "coverage": "已尝试或复用已执行的全名索引查询",
+          "unresolved_conditions": [],
+          "evidence": [
+            {
+              "source_file": "full_name_web_audit_middle.json",
+              "status": "irrelevant_results_no_course_review_candidate"
+            }
+          ]
+        },
+        "xiaohongshu": {
+          "coverage": "已尝试或复用已执行的全名索引查询",
+          "unresolved_conditions": [],
+          "evidence": [
+            {
+              "source_file": "full_name_web_audit_middle.json",
+              "status": "search_no_candidate"
+            }
+          ]
+        },
+        "wechat_sogou": {
+          "coverage": "已尝试或复用已执行的全名索引查询",
+          "unresolved_conditions": [],
+          "evidence": [
+            {
+              "source_file": "full_name_web_audit_middle.json",
+              "status": "search_no_candidate"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "course_code": "CHEM50009",
+      "course_name": "科学英语写作",
+      "platforms": {
+        "zhihu": {
+          "coverage": "已尝试或复用已执行的全名索引查询",
+          "unresolved_conditions": [],
+          "evidence": [
+            {
+              "source_file": "full_name_web_audit_middle.json",
+              "status": "irrelevant_results_no_course_review_candidate"
+            }
+          ]
+        },
+        "xiaohongshu": {
+          "coverage": "已尝试或复用已执行的全名索引查询",
+          "unresolved_conditions": [],
+          "evidence": [
+            {
+              "source_file": "full_name_web_audit_middle.json",
+              "status": "search_no_candidate"
+            }
+          ]
+        },
+        "wechat_sogou": {
+          "coverage": "已尝试或复用已执行的全名索引查询",
+          "unresolved_conditions": [],
+          "evidence": [
+            {
+              "source_file": "full_name_web_audit_middle.json",
+              "status": "search_no_candidate"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "course_code": "CHEM50010",
+      "course_name": "科研论文写作",
+      "platforms": {
+        "zhihu": {
+          "coverage": "已尝试或复用已执行的全名索引查询",
+          "unresolved_conditions": [],
+          "evidence": [
+            {
+              "source_file": "full_name_web_audit_middle.json",
+              "status": "irrelevant_results_no_course_review_candidate"
+            }
+          ]
+        },
+        "xiaohongshu": {
+          "coverage": "已尝试或复用已执行的全名索引查询",
+          "unresolved_conditions": [],
+          "evidence": [
+            {
+              "source_file": "full_name_web_audit_middle.json",
+              "status": "search_no_candidate"
+            }
+          ]
+        },
+        "wechat_sogou": {
+          "coverage": "已尝试或复用已执行的全名索引查询",
+          "unresolved_conditions": [],
+          "evidence": [
+            {
+              "source_file": "full_name_web_audit_middle.json",
+              "status": "search_no_candidate"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "course_code": "CHEM60003",
+      "course_name": "无机合成",
+      "platforms": {
+        "zhihu": {
+          "coverage": "已尝试或复用已执行的全名索引查询",
+          "unresolved_conditions": [],
+          "evidence": [
+            {
+              "source_file": "full_name_web_audit_middle.json",
+              "status": "irrelevant_results_no_course_review_candidate"
+            }
+          ]
+        },
+        "xiaohongshu": {
+          "coverage": "已尝试或复用已执行的全名索引查询",
+          "unresolved_conditions": [],
+          "evidence": [
+            {
+              "source_file": "full_name_web_audit_middle.json",
+              "status": "search_no_candidate"
+            }
+          ]
+        },
+        "wechat_sogou": {
+          "coverage": "已尝试或复用已执行的全名索引查询",
+          "unresolved_conditions": [],
+          "evidence": [
+            {
+              "source_file": "full_name_web_audit_middle.json",
+              "status": "search_no_candidate"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "course_code": "CHEM60004",
+      "course_name": "高等仪器分析",
+      "platforms": {
+        "zhihu": {
+          "coverage": "已尝试或复用已执行的全名索引查询",
+          "unresolved_conditions": [],
+          "evidence": [
+            {
+              "source_file": "full_name_web_audit_middle.json",
+              "status": "search_no_candidate"
+            }
+          ]
+        },
+        "xiaohongshu": {
+          "coverage": "已尝试或复用已执行的全名索引查询",
+          "unresolved_conditions": [],
+          "evidence": [
+            {
+              "source_file": "full_name_web_audit_middle.json",
+              "status": "search_no_candidate"
+            }
+          ]
+        },
+        "wechat_sogou": {
+          "coverage": "已尝试或复用已执行的全名索引查询",
+          "unresolved_conditions": [],
+          "evidence": [
+            {
+              "source_file": "full_name_web_audit_middle.json",
+              "status": "search_no_candidate"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "course_code": "CHEM60005",
+      "course_name": "统计热力学",
+      "platforms": {
+        "zhihu": {
+          "coverage": "已尝试或复用已执行的全名索引查询",
+          "unresolved_conditions": [
+            "candidate_body_unavailable_not_counted"
+          ],
+          "evidence": [
+            {
+              "source_file": "full_name_web_audit_middle.json",
+              "status": "candidate_body_unavailable_not_counted"
+            }
+          ]
+        },
+        "xiaohongshu": {
+          "coverage": "已尝试或复用已执行的全名索引查询",
+          "unresolved_conditions": [],
+          "evidence": [
+            {
+              "source_file": "full_name_web_audit_middle.json",
+              "status": "search_no_candidate"
+            }
+          ]
+        },
+        "wechat_sogou": {
+          "coverage": "已尝试或复用已执行的全名索引查询",
+          "unresolved_conditions": [],
+          "evidence": [
+            {
+              "source_file": "full_name_web_audit_middle.json",
+              "status": "search_no_candidate"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "course_code": "CHEM60011",
+      "course_name": "色谱理论基础",
+      "platforms": {
+        "zhihu": {
+          "coverage": "已尝试或复用已执行的全名索引查询",
+          "unresolved_conditions": [],
+          "evidence": [
+            {
+              "source_file": "full_name_web_audit_middle.json",
+              "status": "irrelevant_results_no_course_review_candidate"
+            },
+            {
+              "source_file": "public_web_coverage.json",
+              "status": "completed_no_specific_course_review_candidate"
+            }
+          ]
+        },
+        "xiaohongshu": {
+          "coverage": "已尝试或复用已执行的全名索引查询",
+          "unresolved_conditions": [],
+          "evidence": [
+            {
+              "source_file": "full_name_web_audit_middle.json",
+              "status": "search_no_candidate"
+            },
+            {
+              "source_file": "public_web_coverage.json",
+              "status": "completed_no_specific_course_review_candidate"
+            }
+          ]
+        },
+        "wechat_sogou": {
+          "coverage": "已尝试或复用已执行的全名索引查询",
+          "unresolved_conditions": [],
+          "evidence": [
+            {
+              "source_file": "full_name_web_audit_middle.json",
+              "status": "search_no_candidate"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "course_code": "CHEM60012",
+      "course_name": "生物质谱仪器和质谱分析",
+      "platforms": {
+        "zhihu": {
+          "coverage": "已尝试或复用已执行的全名索引查询",
+          "unresolved_conditions": [
+            "candidate_body_unavailable_not_counted"
+          ],
+          "evidence": [
+            {
+              "source_file": "full_name_web_audit_middle.json",
+              "status": "candidate_body_unavailable_not_counted"
+            },
+            {
+              "source_file": "public_web_coverage.json",
+              "status": "completed_no_specific_course_review_candidate"
+            }
+          ]
+        },
+        "xiaohongshu": {
+          "coverage": "已尝试或复用已执行的全名索引查询",
+          "unresolved_conditions": [],
+          "evidence": [
+            {
+              "source_file": "full_name_web_audit_middle.json",
+              "status": "search_no_candidate"
+            },
+            {
+              "source_file": "public_web_coverage.json",
+              "status": "completed_no_specific_course_review_candidate"
+            }
+          ]
+        },
+        "wechat_sogou": {
+          "coverage": "已尝试或复用已执行的全名索引查询",
+          "unresolved_conditions": [],
+          "evidence": [
+            {
+              "source_file": "full_name_web_audit_middle.json",
+              "status": "search_no_candidate"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "course_code": "CHEM60013",
+      "course_name": "生物色谱",
+      "platforms": {
+        "zhihu": {
+          "coverage": "已尝试或复用已执行的全名索引查询",
+          "unresolved_conditions": [],
+          "evidence": [
+            {
+              "source_file": "full_name_web_audit_middle.json",
+              "status": "irrelevant_results_no_course_review_candidate"
+            }
+          ]
+        },
+        "xiaohongshu": {
+          "coverage": "已尝试或复用已执行的全名索引查询",
+          "unresolved_conditions": [],
+          "evidence": [
+            {
+              "source_file": "full_name_web_audit_middle.json",
+              "status": "search_no_candidate"
+            }
+          ]
+        },
+        "wechat_sogou": {
+          "coverage": "已尝试或复用已执行的全名索引查询",
+          "unresolved_conditions": [],
+          "evidence": [
+            {
+              "source_file": "full_name_web_audit_middle.json",
+              "status": "search_no_candidate"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "course_code": "CHEM60014",
+      "course_name": "物理有机化学",
+      "platforms": {
+        "zhihu": {
+          "coverage": "已尝试或复用已执行的全名索引查询",
+          "unresolved_conditions": [],
+          "evidence": [
+            {
+              "source_file": "full_name_web_audit_middle.json",
+              "status": "irrelevant_results_no_course_review_candidate"
+            }
+          ]
+        },
+        "xiaohongshu": {
+          "coverage": "已尝试或复用已执行的全名索引查询",
+          "unresolved_conditions": [],
+          "evidence": [
+            {
+              "source_file": "full_name_web_audit_middle.json",
+              "status": "search_no_candidate"
+            }
+          ]
+        },
+        "wechat_sogou": {
+          "coverage": "已尝试或复用已执行的全名索引查询",
+          "unresolved_conditions": [],
+          "evidence": [
+            {
+              "source_file": "full_name_web_audit_middle.json",
+              "status": "search_no_candidate"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "course_code": "CHEM60017",
+      "course_name": "电极过程动力学",
+      "platforms": {
+        "zhihu": {
+          "coverage": "已尝试或复用已执行的全名索引查询",
+          "unresolved_conditions": [],
+          "evidence": [
+            {
+              "source_file": "full_name_web_audit_middle.json",
+              "status": "irrelevant_results_no_course_review_candidate"
+            },
+            {
+              "source_file": "public_web_coverage.json",
+              "status": "completed_no_specific_course_review_candidate"
+            }
+          ]
+        },
+        "xiaohongshu": {
+          "coverage": "已尝试或复用已执行的全名索引查询",
+          "unresolved_conditions": [],
+          "evidence": [
+            {
+              "source_file": "full_name_web_audit_middle.json",
+              "status": "search_no_candidate"
+            },
+            {
+              "source_file": "public_web_coverage.json",
+              "status": "completed_no_specific_course_review_candidate"
+            }
+          ]
+        },
+        "wechat_sogou": {
+          "coverage": "已尝试或复用已执行的全名索引查询",
+          "unresolved_conditions": [],
+          "evidence": [
+            {
+              "source_file": "full_name_web_audit_middle.json",
+              "status": "search_no_candidate"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "course_code": "CHEM60020",
+      "course_name": "高等化学反应工程和工艺",
+      "platforms": {
+        "zhihu": {
+          "coverage": "已尝试或复用已执行的全名索引查询",
+          "unresolved_conditions": [],
+          "evidence": [
+            {
+              "source_file": "full_name_web_audit_middle.json",
+              "status": "search_no_candidate"
+            }
+          ]
+        },
+        "xiaohongshu": {
+          "coverage": "已尝试或复用已执行的全名索引查询",
+          "unresolved_conditions": [],
+          "evidence": [
+            {
+              "source_file": "full_name_web_audit_middle.json",
+              "status": "search_no_candidate"
+            }
+          ]
+        },
+        "wechat_sogou": {
+          "coverage": "已尝试或复用已执行的全名索引查询",
+          "unresolved_conditions": [],
+          "evidence": [
+            {
+              "source_file": "full_name_web_audit_middle.json",
+              "status": "search_no_candidate"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "course_code": "CHEM60021",
+      "course_name": "功能分子材料和生物材料",
+      "platforms": {
+        "zhihu": {
+          "coverage": "已尝试或复用已执行的全名索引查询",
+          "unresolved_conditions": [],
+          "evidence": [
+            {
+              "source_file": "full_name_web_audit_last8.json",
+              "status": "searched_no_attributable_course_review_candidate"
+            }
+          ]
+        },
+        "xiaohongshu": {
+          "coverage": "已尝试或复用已执行的全名索引查询",
+          "unresolved_conditions": [],
+          "evidence": [
+            {
+              "source_file": "full_name_web_audit_last8.json",
+              "status": "searched_no_attributable_course_review_candidate"
+            }
+          ]
+        },
+        "wechat_sogou": {
+          "coverage": "已尝试或复用已执行的全名索引查询",
+          "unresolved_conditions": [],
+          "evidence": [
+            {
+              "source_file": "full_name_web_audit_last8.json",
+              "status": "searched_no_attributable_course_review_candidate"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "course_code": "CHEM60024",
+      "course_name": "金属有机化学",
+      "platforms": {
+        "zhihu": {
+          "coverage": "已尝试或复用已执行的全名索引查询",
+          "unresolved_conditions": [],
+          "evidence": [
+            {
+              "source_file": "full_name_web_audit_last8.json",
+              "status": "searched_no_attributable_course_review_candidate"
+            }
+          ]
+        },
+        "xiaohongshu": {
+          "coverage": "已尝试或复用已执行的全名索引查询",
+          "unresolved_conditions": [],
+          "evidence": [
+            {
+              "source_file": "full_name_web_audit_last8.json",
+              "status": "searched_no_attributable_course_review_candidate"
+            }
+          ]
+        },
+        "wechat_sogou": {
+          "coverage": "已尝试或复用已执行的全名索引查询",
+          "unresolved_conditions": [],
+          "evidence": [
+            {
+              "source_file": "full_name_web_audit_last8.json",
+              "status": "searched_no_attributable_course_review_candidate"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "course_code": "CHEM60026",
+      "course_name": "有机结构分析",
+      "platforms": {
+        "zhihu": {
+          "coverage": "已尝试或复用已执行的全名索引查询",
+          "unresolved_conditions": [],
+          "evidence": [
+            {
+              "source_file": "full_name_web_audit_last8.json",
+              "status": "searched_no_attributable_course_review_candidate"
+            }
+          ]
+        },
+        "xiaohongshu": {
+          "coverage": "已尝试或复用已执行的全名索引查询",
+          "unresolved_conditions": [],
+          "evidence": [
+            {
+              "source_file": "full_name_web_audit_last8.json",
+              "status": "searched_no_attributable_course_review_candidate"
+            }
+          ]
+        },
+        "wechat_sogou": {
+          "coverage": "已尝试或复用已执行的全名索引查询",
+          "unresolved_conditions": [],
+          "evidence": [
+            {
+              "source_file": "full_name_web_audit_last8.json",
+              "status": "search_index_empty"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "course_code": "CHEM60027",
+      "course_name": "蛋白质组学的新技术和新方法",
+      "platforms": {
+        "zhihu": {
+          "coverage": "已尝试或复用已执行的全名索引查询",
+          "unresolved_conditions": [],
+          "evidence": [
+            {
+              "source_file": "full_name_web_audit_last8.json",
+              "status": "searched_no_attributable_course_review_candidate"
+            }
+          ]
+        },
+        "xiaohongshu": {
+          "coverage": "已尝试或复用已执行的全名索引查询",
+          "unresolved_conditions": [],
+          "evidence": [
+            {
+              "source_file": "full_name_web_audit_last8.json",
+              "status": "searched_no_attributable_course_review_candidate"
+            }
+          ]
+        },
+        "wechat_sogou": {
+          "coverage": "已尝试或复用已执行的全名索引查询",
+          "unresolved_conditions": [],
+          "evidence": [
+            {
+              "source_file": "full_name_web_audit_last8.json",
+              "status": "search_index_empty"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "course_code": "CHEM70005",
+      "course_name": "碳簇化学",
+      "platforms": {
+        "zhihu": {
+          "coverage": "已尝试或复用已执行的全名索引查询",
+          "unresolved_conditions": [
+            "search_results_output_truncated_status_unverifiable"
+          ],
+          "evidence": [
+            {
+              "source_file": "full_name_web_audit_last8.json",
+              "status": "search_results_output_truncated_status_unverifiable"
+            }
+          ]
+        },
+        "xiaohongshu": {
+          "coverage": "已尝试或复用已执行的全名索引查询",
+          "unresolved_conditions": [],
+          "evidence": [
+            {
+              "source_file": "full_name_web_audit_last8.json",
+              "status": "search_index_empty"
+            }
+          ]
+        },
+        "wechat_sogou": {
+          "coverage": "已尝试或复用已执行的全名索引查询",
+          "unresolved_conditions": [],
+          "evidence": [
+            {
+              "source_file": "full_name_web_audit_last8.json",
+              "status": "search_index_empty"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "course_code": "CHEM70010",
+      "course_name": "新催化材料",
+      "platforms": {
+        "zhihu": {
+          "coverage": "已尝试或复用已执行的全名索引查询",
+          "unresolved_conditions": [
+            "search_results_output_truncated_status_unverifiable"
+          ],
+          "evidence": [
+            {
+              "source_file": "full_name_web_audit_last8.json",
+              "status": "search_results_output_truncated_status_unverifiable"
+            }
+          ]
+        },
+        "xiaohongshu": {
+          "coverage": "已尝试或复用已执行的全名索引查询",
+          "unresolved_conditions": [],
+          "evidence": [
+            {
+              "source_file": "full_name_web_audit_last8.json",
+              "status": "search_index_empty"
+            }
+          ]
+        },
+        "wechat_sogou": {
+          "coverage": "已尝试或复用已执行的全名索引查询",
+          "unresolved_conditions": [],
+          "evidence": [
+            {
+              "source_file": "full_name_web_audit_last8.json",
+              "status": "search_index_empty"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "course_code": "CHEM70011",
+      "course_name": "分子反应动力学",
+      "platforms": {
+        "zhihu": {
+          "coverage": "已尝试或复用已执行的全名索引查询",
+          "unresolved_conditions": [
+            "search_results_output_truncated_status_unverifiable"
+          ],
+          "evidence": [
+            {
+              "source_file": "full_name_web_audit_last8.json",
+              "status": "search_results_output_truncated_status_unverifiable"
+            }
+          ]
+        },
+        "xiaohongshu": {
+          "coverage": "已尝试或复用已执行的全名索引查询",
+          "unresolved_conditions": [],
+          "evidence": [
+            {
+              "source_file": "full_name_web_audit_last8.json",
+              "status": "search_index_empty"
+            }
+          ]
+        },
+        "wechat_sogou": {
+          "coverage": "已尝试或复用已执行的全名索引查询",
+          "unresolved_conditions": [],
+          "evidence": [
+            {
+              "source_file": "full_name_web_audit_last8.json",
+              "status": "search_index_empty"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "course_code": "CHEM70013",
+      "course_name": "催化从实验室到工业开发",
+      "platforms": {
+        "zhihu": {
+          "coverage": "已尝试或复用已执行的全名索引查询",
+          "unresolved_conditions": [
+            "search_results_output_truncated_status_unverifiable"
+          ],
+          "evidence": [
+            {
+              "source_file": "full_name_web_audit_last8.json",
+              "status": "search_results_output_truncated_status_unverifiable"
+            }
+          ]
+        },
+        "xiaohongshu": {
+          "coverage": "已尝试或复用已执行的全名索引查询",
+          "unresolved_conditions": [],
+          "evidence": [
+            {
+              "source_file": "full_name_web_audit_last8.json",
+              "status": "search_index_empty"
+            }
+          ]
+        },
+        "wechat_sogou": {
+          "coverage": "已尝试或复用已执行的全名索引查询",
+          "unresolved_conditions": [],
+          "evidence": [
+            {
+              "source_file": "full_name_web_audit_last8.json",
+              "status": "search_index_empty"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "course_code": "CHEM70014",
+      "course_name": "化学工艺学",
+      "platforms": {
+        "zhihu": {
+          "coverage": "已尝试或复用已执行的全名索引查询",
+          "unresolved_conditions": [],
+          "evidence": [
+            {
+              "source_file": "full_name_web_audit_rear.json",
+              "status": "searched_no_attributable_course_review_candidate"
+            }
+          ]
+        },
+        "xiaohongshu": {
+          "coverage": "已尝试或复用已执行的全名索引查询",
+          "unresolved_conditions": [],
+          "evidence": [
+            {
+              "source_file": "full_name_web_audit_rear.json",
+              "status": "searched_no_attributable_course_review_candidate"
+            }
+          ]
+        },
+        "wechat_sogou": {
+          "coverage": "已尝试或复用已执行的全名索引查询",
+          "unresolved_conditions": [],
+          "evidence": [
+            {
+              "source_file": "full_name_web_audit_rear.json",
+              "status": "searched_no_attributable_course_review_candidate"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "course_code": "CHEM70015",
+      "course_name": "二氧化钛纳米材料合成、性质及光催化应用",
+      "platforms": {
+        "zhihu": {
+          "coverage": "已尝试或复用已执行的全名索引查询",
+          "unresolved_conditions": [],
+          "evidence": [
+            {
+              "source_file": "full_name_web_audit_rear.json",
+              "status": "searched_no_attributable_course_review_candidate"
+            }
+          ]
+        },
+        "xiaohongshu": {
+          "coverage": "已尝试或复用已执行的全名索引查询",
+          "unresolved_conditions": [],
+          "evidence": [
+            {
+              "source_file": "full_name_web_audit_rear.json",
+              "status": "searched_no_attributable_course_review_candidate"
+            }
+          ]
+        },
+        "wechat_sogou": {
+          "coverage": "已尝试或复用已执行的全名索引查询",
+          "unresolved_conditions": [],
+          "evidence": [
+            {
+              "source_file": "full_name_web_audit_rear.json",
+              "status": "searched_no_attributable_course_review_candidate"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "course_code": "CHEM70016",
+      "course_name": "固体化学",
+      "platforms": {
+        "zhihu": {
+          "coverage": "已尝试或复用已执行的全名索引查询",
+          "unresolved_conditions": [],
+          "evidence": [
+            {
+              "source_file": "full_name_web_audit_rear.json",
+              "status": "searched_no_attributable_course_review_candidate"
+            }
+          ]
+        },
+        "xiaohongshu": {
+          "coverage": "已尝试或复用已执行的全名索引查询",
+          "unresolved_conditions": [],
+          "evidence": [
+            {
+              "source_file": "full_name_web_audit_rear.json",
+              "status": "searched_no_attributable_course_review_candidate"
+            }
+          ]
+        },
+        "wechat_sogou": {
+          "coverage": "已尝试或复用已执行的全名索引查询",
+          "unresolved_conditions": [],
+          "evidence": [
+            {
+              "source_file": "full_name_web_audit_rear.json",
+              "status": "searched_no_attributable_course_review_candidate"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "course_code": "CHEM70019",
+      "course_name": "配位化学",
+      "platforms": {
+        "zhihu": {
+          "coverage": "已尝试或复用已执行的全名索引查询",
+          "unresolved_conditions": [],
+          "evidence": [
+            {
+              "source_file": "full_name_web_audit_rear.json",
+              "status": "searched_no_attributable_course_review_candidate"
+            }
+          ]
+        },
+        "xiaohongshu": {
+          "coverage": "已尝试或复用已执行的全名索引查询",
+          "unresolved_conditions": [],
+          "evidence": [
+            {
+              "source_file": "full_name_web_audit_rear.json",
+              "status": "searched_no_attributable_course_review_candidate"
+            }
+          ]
+        },
+        "wechat_sogou": {
+          "coverage": "已尝试或复用已执行的全名索引查询",
+          "unresolved_conditions": [],
+          "evidence": [
+            {
+              "source_file": "full_name_web_audit_rear.json",
+              "status": "searched_no_attributable_course_review_candidate"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "course_code": "CHEM70020",
+      "course_name": "金属有机化学在有机合成中应用",
+      "platforms": {
+        "zhihu": {
+          "coverage": "已尝试或复用已执行的全名索引查询",
+          "unresolved_conditions": [],
+          "evidence": [
+            {
+              "source_file": "full_name_web_audit_rear.json",
+              "status": "searched_no_attributable_course_review_candidate"
+            }
+          ]
+        },
+        "xiaohongshu": {
+          "coverage": "已尝试或复用已执行的全名索引查询",
+          "unresolved_conditions": [],
+          "evidence": [
+            {
+              "source_file": "full_name_web_audit_rear.json",
+              "status": "searched_no_attributable_course_review_candidate"
+            }
+          ]
+        },
+        "wechat_sogou": {
+          "coverage": "已尝试或复用已执行的全名索引查询",
+          "unresolved_conditions": [],
+          "evidence": [
+            {
+              "source_file": "full_name_web_audit_rear.json",
+              "status": "searched_no_attributable_course_review_candidate"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "course_code": "CHEM70023",
+      "course_name": "固态化学",
+      "platforms": {
+        "zhihu": {
+          "coverage": "已尝试或复用已执行的全名索引查询",
+          "unresolved_conditions": [],
+          "evidence": [
+            {
+              "source_file": "full_name_web_audit_rear.json",
+              "status": "searched_no_attributable_course_review_candidate"
+            }
+          ]
+        },
+        "xiaohongshu": {
+          "coverage": "已尝试或复用已执行的全名索引查询",
+          "unresolved_conditions": [],
+          "evidence": [
+            {
+              "source_file": "full_name_web_audit_rear.json",
+              "status": "searched_no_attributable_course_review_candidate"
+            }
+          ]
+        },
+        "wechat_sogou": {
+          "coverage": "已尝试或复用已执行的全名索引查询",
+          "unresolved_conditions": [],
+          "evidence": [
+            {
+              "source_file": "full_name_web_audit_rear.json",
+              "status": "searched_no_attributable_course_review_candidate"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "course_code": "CHEM70028",
+      "course_name": "XPS技术及其在化学中的应用",
+      "platforms": {
+        "zhihu": {
+          "coverage": "已尝试或复用已执行的全名索引查询",
+          "unresolved_conditions": [],
+          "evidence": [
+            {
+              "source_file": "full_name_web_audit_rear.json",
+              "status": "searched_no_attributable_course_review_candidate"
+            }
+          ]
+        },
+        "xiaohongshu": {
+          "coverage": "已尝试或复用已执行的全名索引查询",
+          "unresolved_conditions": [],
+          "evidence": [
+            {
+              "source_file": "full_name_web_audit_rear.json",
+              "status": "searched_no_attributable_course_review_candidate"
+            }
+          ]
+        },
+        "wechat_sogou": {
+          "coverage": "已尝试或复用已执行的全名索引查询",
+          "unresolved_conditions": [],
+          "evidence": [
+            {
+              "source_file": "full_name_web_audit_rear.json",
+              "status": "searched_no_attributable_course_review_candidate"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "course_code": "CHEM70030",
+      "course_name": "催化反应机理及其研究方法",
+      "platforms": {
+        "zhihu": {
+          "coverage": "已尝试或复用已执行的全名索引查询",
+          "unresolved_conditions": [],
+          "evidence": [
+            {
+              "source_file": "full_name_web_audit_rear.json",
+              "status": "searched_no_attributable_course_review_candidate"
+            }
+          ]
+        },
+        "xiaohongshu": {
+          "coverage": "已尝试或复用已执行的全名索引查询",
+          "unresolved_conditions": [],
+          "evidence": [
+            {
+              "source_file": "full_name_web_audit_rear.json",
+              "status": "searched_no_attributable_course_review_candidate"
+            }
+          ]
+        },
+        "wechat_sogou": {
+          "coverage": "已尝试或复用已执行的全名索引查询",
+          "unresolved_conditions": [],
+          "evidence": [
+            {
+              "source_file": "full_name_web_audit_rear.json",
+              "status": "searched_no_attributable_course_review_candidate"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "course_code": "CHEM70032",
+      "course_name": "分子聚集体材料和超薄膜",
+      "platforms": {
+        "zhihu": {
+          "coverage": "已尝试或复用已执行的全名索引查询",
+          "unresolved_conditions": [],
+          "evidence": [
+            {
+              "source_file": "full_name_web_audit_rear.json",
+              "status": "searched_no_attributable_course_review_candidate"
+            }
+          ]
+        },
+        "xiaohongshu": {
+          "coverage": "已尝试或复用已执行的全名索引查询",
+          "unresolved_conditions": [],
+          "evidence": [
+            {
+              "source_file": "full_name_web_audit_rear.json",
+              "status": "searched_no_attributable_course_review_candidate"
+            }
+          ]
+        },
+        "wechat_sogou": {
+          "coverage": "已尝试或复用已执行的全名索引查询",
+          "unresolved_conditions": [],
+          "evidence": [
+            {
+              "source_file": "full_name_web_audit_rear.json",
+              "status": "searched_no_attributable_course_review_candidate"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "course_code": "CHEM70033",
+      "course_name": "科学仪器基础",
+      "platforms": {
+        "zhihu": {
+          "coverage": "已尝试或复用已执行的全名索引查询",
+          "unresolved_conditions": [],
+          "evidence": [
+            {
+              "source_file": "full_name_web_audit_rear.json",
+              "status": "searched_no_attributable_course_review_candidate"
+            }
+          ]
+        },
+        "xiaohongshu": {
+          "coverage": "已尝试或复用已执行的全名索引查询",
+          "unresolved_conditions": [],
+          "evidence": [
+            {
+              "source_file": "full_name_web_audit_rear.json",
+              "status": "searched_no_attributable_course_review_candidate"
+            }
+          ]
+        },
+        "wechat_sogou": {
+          "coverage": "已尝试或复用已执行的全名索引查询",
+          "unresolved_conditions": [],
+          "evidence": [
+            {
+              "source_file": "full_name_web_audit_rear.json",
+              "status": "searched_no_attributable_course_review_candidate"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "course_code": "GEEC10038",
+      "course_name": "元素发现史",
+      "platforms": {
+        "zhihu": {
+          "coverage": "已尝试或复用已执行的全名索引查询",
+          "unresolved_conditions": [],
+          "evidence": [
+            {
+              "source_file": "full_name_web_audit_rear.json",
+              "status": "searched_no_attributable_course_review_candidate"
+            },
+            {
+              "source_file": "public_web_coverage.json",
+              "status": "completed_no_specific_course_review_candidate"
+            }
+          ]
+        },
+        "xiaohongshu": {
+          "coverage": "已尝试或复用已执行的全名索引查询",
+          "unresolved_conditions": [],
+          "evidence": [
+            {
+              "source_file": "full_name_web_audit_rear.json",
+              "status": "searched_no_attributable_course_review_candidate"
+            },
+            {
+              "source_file": "public_web_coverage.json",
+              "status": "completed_no_specific_course_review_candidate"
+            }
+          ]
+        },
+        "wechat_sogou": {
+          "coverage": "已尝试或复用已执行的全名索引查询",
+          "unresolved_conditions": [],
+          "evidence": [
+            {
+              "source_file": "full_name_web_audit_rear.json",
+              "status": "searched_no_attributable_course_review_candidate"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "course_code": "GEIN10002",
+      "course_name": "微流控芯片实验室",
+      "platforms": {
+        "zhihu": {
+          "coverage": "已尝试或复用已执行的全名索引查询",
+          "unresolved_conditions": [],
+          "evidence": [
+            {
+              "source_file": "full_name_web_audit_rear.json",
+              "status": "searched_no_attributable_course_review_candidate"
+            },
+            {
+              "source_file": "public_web_coverage.json",
+              "status": "completed_no_specific_course_review_candidate"
+            }
+          ]
+        },
+        "xiaohongshu": {
+          "coverage": "已尝试或复用已执行的全名索引查询",
+          "unresolved_conditions": [],
+          "evidence": [
+            {
+              "source_file": "full_name_web_audit_rear.json",
+              "status": "previously_covered_not_repeated"
+            },
+            {
+              "source_file": "public_web_coverage.json",
+              "status": "completed_no_specific_course_review_candidate"
+            }
+          ]
+        },
+        "wechat_sogou": {
+          "coverage": "已尝试或复用已执行的全名索引查询",
+          "unresolved_conditions": [],
+          "evidence": [
+            {
+              "source_file": "full_name_web_audit_rear.json",
+              "status": "searched_no_attributable_course_review_candidate"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "course_code": "GESP20003",
+      "course_name": "强国之路:形势、政策与使命III",
+      "platforms": {
+        "zhihu": {
+          "coverage": "已尝试或复用已执行的全名索引查询",
+          "unresolved_conditions": [],
+          "evidence": [
+            {
+              "source_file": "full_name_web_audit_rear.json",
+              "status": "previously_covered_not_repeated"
+            },
+            {
+              "source_file": "public_web_coverage.json",
+              "status": "completed_no_specific_course_review_candidate"
+            }
+          ]
+        },
+        "xiaohongshu": {
+          "coverage": "已尝试或复用已执行的全名索引查询",
+          "unresolved_conditions": [],
+          "evidence": [
+            {
+              "source_file": "full_name_web_audit_rear.json",
+              "status": "previously_covered_not_repeated"
+            },
+            {
+              "source_file": "public_web_coverage.json",
+              "status": "completed_no_specific_course_review_candidate"
+            }
+          ]
+        },
+        "wechat_sogou": {
+          "coverage": "已尝试或复用已执行的全名索引查询",
+          "unresolved_conditions": [],
+          "evidence": [
+            {
+              "source_file": "full_name_web_audit_rear.json",
+              "status": "searched_no_attributable_course_review_candidate"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "course_code": "AIS531005",
+      "course_name": "人工智能化学计算模拟",
+      "platforms": {
+        "zhihu": {
+          "coverage": "已尝试或复用已执行的全名索引查询",
+          "unresolved_conditions": [],
+          "evidence": [
+            {
+              "source_file": "full_name_web_audit_rear.json",
+              "status": "previously_covered_not_repeated"
+            },
+            {
+              "source_file": "public_web_coverage.json",
+              "status": "completed_no_specific_course_review_candidate"
+            }
+          ]
+        },
+        "xiaohongshu": {
+          "coverage": "已尝试或复用已执行的全名索引查询",
+          "unresolved_conditions": [],
+          "evidence": [
+            {
+              "source_file": "full_name_web_audit_rear.json",
+              "status": "previously_covered_not_repeated"
+            },
+            {
+              "source_file": "public_web_coverage.json",
+              "status": "completed_no_specific_course_review_candidate"
+            }
+          ]
+        },
+        "wechat_sogou": {
+          "coverage": "已尝试或复用已执行的全名索引查询",
+          "unresolved_conditions": [],
+          "evidence": [
+            {
+              "source_file": "full_name_web_audit_rear.json",
+              "status": "searched_no_attributable_course_review_candidate"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "course_code": "CHEM10002",
+      "course_name": "有机化学",
+      "platforms": {
+        "zhihu": {
+          "coverage": "已尝试或复用已执行的全名索引查询",
+          "unresolved_conditions": [],
+          "evidence": [
+            {
+              "source_file": "full_name_web_audit_front.json",
+              "status": "irrelevant_results_no_course_review_candidate"
+            },
+            {
+              "source_file": "full_name_web_audit_rear.json",
+              "status": "previously_searched_by_prior_agent"
+            }
+          ]
+        },
+        "xiaohongshu": {
+          "coverage": "已尝试或复用已执行的全名索引查询",
+          "unresolved_conditions": [],
+          "evidence": [
+            {
+              "source_file": "full_name_web_audit_front.json",
+              "status": "search_no_candidate"
+            },
+            {
+              "source_file": "full_name_web_audit_rear.json",
+              "status": "previously_searched_by_prior_agent"
+            }
+          ]
+        },
+        "wechat_sogou": {
+          "coverage": "已尝试或复用已执行的全名索引查询",
+          "unresolved_conditions": [],
+          "evidence": [
+            {
+              "source_file": "full_name_web_audit_front.json",
+              "status": "search_no_candidate"
+            },
+            {
+              "source_file": "full_name_web_audit_rear.json",
+              "status": "previously_searched_by_prior_agent"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "course_code": "CHEM10004",
+      "course_name": "普通化学A(下)",
+      "platforms": {
+        "zhihu": {
+          "coverage": "已尝试或复用已执行的全名索引查询",
+          "unresolved_conditions": [],
+          "evidence": [
+            {
+              "source_file": "full_name_web_audit_front.json",
+              "status": "search_no_candidate"
+            },
+            {
+              "source_file": "full_name_web_audit_rear.json",
+              "status": "previously_searched_by_prior_agent"
+            }
+          ]
+        },
+        "xiaohongshu": {
+          "coverage": "已尝试或复用已执行的全名索引查询",
+          "unresolved_conditions": [],
+          "evidence": [
+            {
+              "source_file": "full_name_web_audit_front.json",
+              "status": "search_no_candidate"
+            },
+            {
+              "source_file": "full_name_web_audit_rear.json",
+              "status": "previously_searched_by_prior_agent"
+            }
+          ]
+        },
+        "wechat_sogou": {
+          "coverage": "已尝试或复用已执行的全名索引查询",
+          "unresolved_conditions": [],
+          "evidence": [
+            {
+              "source_file": "full_name_web_audit_front.json",
+              "status": "search_no_candidate"
+            },
+            {
+              "source_file": "full_name_web_audit_rear.json",
+              "status": "previously_searched_by_prior_agent"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "course_code": "CHEM10006",
+      "course_name": "有机化学实验I",
+      "platforms": {
+        "zhihu": {
+          "coverage": "已尝试或复用已执行的全名索引查询",
+          "unresolved_conditions": [],
+          "evidence": [
+            {
+              "source_file": "full_name_web_audit_front.json",
+              "status": "search_no_candidate"
+            },
+            {
+              "source_file": "full_name_web_audit_rear.json",
+              "status": "previously_searched_by_prior_agent"
+            }
+          ]
+        },
+        "xiaohongshu": {
+          "coverage": "已尝试或复用已执行的全名索引查询",
+          "unresolved_conditions": [],
+          "evidence": [
+            {
+              "source_file": "full_name_web_audit_front.json",
+              "status": "search_no_candidate"
+            },
+            {
+              "source_file": "full_name_web_audit_rear.json",
+              "status": "previously_searched_by_prior_agent"
+            },
+            {
+              "source_file": "public_web_coverage.json",
+              "status": "searched_no_review"
+            },
+            {
+              "source_file": "public_web_coverage.json",
+              "status": "completed_search_index_empty"
+            }
+          ]
+        },
+        "wechat_sogou": {
+          "coverage": "已尝试或复用已执行的全名索引查询",
+          "unresolved_conditions": [],
+          "evidence": [
+            {
+              "source_file": "full_name_web_audit_front.json",
+              "status": "search_no_candidate"
+            },
+            {
+              "source_file": "full_name_web_audit_rear.json",
+              "status": "previously_searched_by_prior_agent"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "course_code": "CHEM20002",
+      "course_name": "分析化学AII",
+      "platforms": {
+        "zhihu": {
+          "coverage": "已尝试或复用已执行的全名索引查询",
+          "unresolved_conditions": [],
+          "evidence": [
+            {
+              "source_file": "full_name_web_audit_front.json",
+              "status": "search_no_candidate"
+            },
+            {
+              "source_file": "full_name_web_audit_rear.json",
+              "status": "previously_searched_by_prior_agent"
+            }
+          ]
+        },
+        "xiaohongshu": {
+          "coverage": "已尝试或复用已执行的全名索引查询",
+          "unresolved_conditions": [],
+          "evidence": [
+            {
+              "source_file": "full_name_web_audit_front.json",
+              "status": "search_no_candidate"
+            },
+            {
+              "source_file": "full_name_web_audit_rear.json",
+              "status": "previously_searched_by_prior_agent"
+            }
+          ]
+        },
+        "wechat_sogou": {
+          "coverage": "已尝试或复用已执行的全名索引查询",
+          "unresolved_conditions": [],
+          "evidence": [
+            {
+              "source_file": "full_name_web_audit_front.json",
+              "status": "search_no_candidate"
+            },
+            {
+              "source_file": "full_name_web_audit_rear.json",
+              "status": "previously_searched_by_prior_agent"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "course_code": "CHEM20002h",
+      "course_name": "分析化学A II(H)",
+      "platforms": {
+        "zhihu": {
+          "coverage": "已尝试或复用已执行的全名索引查询",
+          "unresolved_conditions": [],
+          "evidence": [
+            {
+              "source_file": "full_name_web_audit_rear.json",
+              "status": "previously_covered_not_repeated"
+            },
+            {
+              "source_file": "public_web_coverage.json",
+              "status": "completed_no_specific_course_review_candidate"
+            }
+          ]
+        },
+        "xiaohongshu": {
+          "coverage": "已尝试或复用已执行的全名索引查询",
+          "unresolved_conditions": [],
+          "evidence": [
+            {
+              "source_file": "full_name_web_audit_rear.json",
+              "status": "previously_covered_not_repeated"
+            },
+            {
+              "source_file": "public_web_coverage.json",
+              "status": "completed_no_specific_course_review_candidate"
+            }
+          ]
+        },
+        "wechat_sogou": {
+          "coverage": "已尝试或复用已执行的全名索引查询",
+          "unresolved_conditions": [],
+          "evidence": [
+            {
+              "source_file": "full_name_web_audit_rear.json",
+              "status": "searched_no_attributable_course_review_candidate"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "course_code": "CHEM20004",
+      "course_name": "合成化学实验(上)",
+      "platforms": {
+        "zhihu": {
+          "coverage": "已尝试或复用已执行的全名索引查询",
+          "unresolved_conditions": [],
+          "evidence": [
+            {
+              "source_file": "full_name_web_audit_front.json",
+              "status": "search_no_candidate"
+            },
+            {
+              "source_file": "full_name_web_audit_rear.json",
+              "status": "previously_searched_by_prior_agent"
+            }
+          ]
+        },
+        "xiaohongshu": {
+          "coverage": "已尝试或复用已执行的全名索引查询",
+          "unresolved_conditions": [],
+          "evidence": [
+            {
+              "source_file": "full_name_web_audit_front.json",
+              "status": "search_no_candidate"
+            },
+            {
+              "source_file": "full_name_web_audit_rear.json",
+              "status": "previously_searched_by_prior_agent"
+            },
+            {
+              "source_file": "public_web_coverage.json",
+              "status": "searched_no_review"
+            }
+          ]
+        },
+        "wechat_sogou": {
+          "coverage": "已尝试或复用已执行的全名索引查询",
+          "unresolved_conditions": [],
+          "evidence": [
+            {
+              "source_file": "full_name_web_audit_front.json",
+              "status": "search_no_candidate"
+            },
+            {
+              "source_file": "full_name_web_audit_rear.json",
+              "status": "previously_searched_by_prior_agent"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "course_code": "CHEM20006",
+      "course_name": "物理化学AII",
+      "platforms": {
+        "zhihu": {
+          "coverage": "已尝试或复用已执行的全名索引查询",
+          "unresolved_conditions": [],
+          "evidence": [
+            {
+              "source_file": "full_name_web_audit_front.json",
+              "status": "search_no_candidate"
+            },
+            {
+              "source_file": "full_name_web_audit_rear.json",
+              "status": "previously_searched_by_prior_agent"
+            }
+          ]
+        },
+        "xiaohongshu": {
+          "coverage": "已尝试或复用已执行的全名索引查询",
+          "unresolved_conditions": [],
+          "evidence": [
+            {
+              "source_file": "full_name_web_audit_rear.json",
+              "status": "searched_no_attributable_course_review_candidate"
+            },
+            {
+              "source_file": "public_web_coverage.json",
+              "status": "searched_no_review"
+            }
+          ]
+        },
+        "wechat_sogou": {
+          "coverage": "已尝试或复用已执行的全名索引查询",
+          "unresolved_conditions": [],
+          "evidence": [
+            {
+              "source_file": "full_name_web_audit_front.json",
+              "status": "search_no_candidate"
+            },
+            {
+              "source_file": "full_name_web_audit_rear.json",
+              "status": "previously_searched_by_prior_agent"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "course_code": "CHEM20006h",
+      "course_name": "物理化学A II(H)",
+      "platforms": {
+        "zhihu": {
+          "coverage": "已尝试或复用已执行的全名索引查询",
+          "unresolved_conditions": [],
+          "evidence": [
+            {
+              "source_file": "full_name_web_audit_rear.json",
+              "status": "previously_covered_not_repeated"
+            },
+            {
+              "source_file": "public_web_coverage.json",
+              "status": "completed_no_specific_course_review_candidate"
+            }
+          ]
+        },
+        "xiaohongshu": {
+          "coverage": "已尝试或复用已执行的全名索引查询",
+          "unresolved_conditions": [],
+          "evidence": [
+            {
+              "source_file": "full_name_web_audit_rear.json",
+              "status": "previously_covered_not_repeated"
+            },
+            {
+              "source_file": "public_web_coverage.json",
+              "status": "completed_no_specific_course_review_candidate"
+            }
+          ]
+        },
+        "wechat_sogou": {
+          "coverage": "已尝试或复用已执行的全名索引查询",
+          "unresolved_conditions": [],
+          "evidence": [
+            {
+              "source_file": "full_name_web_audit_rear.json",
+              "status": "searched_no_attributable_course_review_candidate"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "course_code": "CHEM20007",
+      "course_name": "谱学导论",
+      "platforms": {
+        "zhihu": {
+          "coverage": "已尝试或复用已执行的全名索引查询",
+          "unresolved_conditions": [],
+          "evidence": [
+            {
+              "source_file": "full_name_web_audit_front.json",
+              "status": "irrelevant_results_no_course_review_candidate"
+            },
+            {
+              "source_file": "full_name_web_audit_rear.json",
+              "status": "previously_searched_by_prior_agent"
+            }
+          ]
+        },
+        "xiaohongshu": {
+          "coverage": "已尝试或复用已执行的全名索引查询",
+          "unresolved_conditions": [],
+          "evidence": [
+            {
+              "source_file": "full_name_web_audit_front.json",
+              "status": "search_no_candidate"
+            },
+            {
+              "source_file": "full_name_web_audit_rear.json",
+              "status": "previously_searched_by_prior_agent"
+            },
+            {
+              "source_file": "public_web_coverage.json",
+              "status": "searched_no_review"
+            }
+          ]
+        },
+        "wechat_sogou": {
+          "coverage": "已尝试或复用已执行的全名索引查询",
+          "unresolved_conditions": [],
+          "evidence": [
+            {
+              "source_file": "full_name_web_audit_front.json",
+              "status": "search_no_candidate"
+            },
+            {
+              "source_file": "full_name_web_audit_rear.json",
+              "status": "previously_searched_by_prior_agent"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "course_code": "CHEM20008",
+      "course_name": "数理统计方法在化学中的应用",
+      "platforms": {
+        "zhihu": {
+          "coverage": "已尝试或复用已执行的全名索引查询",
+          "unresolved_conditions": [],
+          "evidence": [
+            {
+              "source_file": "full_name_web_audit_rear.json",
+              "status": "previously_covered_not_repeated"
+            },
+            {
+              "source_file": "public_web_coverage.json",
+              "status": "completed_no_specific_course_review_candidate"
+            }
+          ]
+        },
+        "xiaohongshu": {
+          "coverage": "已尝试或复用已执行的全名索引查询",
+          "unresolved_conditions": [],
+          "evidence": [
+            {
+              "source_file": "full_name_web_audit_rear.json",
+              "status": "previously_covered_not_repeated"
+            },
+            {
+              "source_file": "public_web_coverage.json",
+              "status": "completed_no_specific_course_review_candidate"
+            }
+          ]
+        },
+        "wechat_sogou": {
+          "coverage": "已尝试或复用已执行的全名索引查询",
+          "unresolved_conditions": [],
+          "evidence": [
+            {
+              "source_file": "full_name_web_audit_rear.json",
+              "status": "searched_no_attributable_course_review_candidate"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "course_code": "CHEM20009",
+      "course_name": "化学专业英语",
+      "platforms": {
+        "zhihu": {
+          "coverage": "已尝试或复用已执行的全名索引查询",
+          "unresolved_conditions": [],
+          "evidence": [
+            {
+              "source_file": "full_name_web_audit_rear.json",
+              "status": "searched_no_attributable_course_review_candidate"
+            }
+          ]
+        },
+        "xiaohongshu": {
+          "coverage": "已尝试或复用已执行的全名索引查询",
+          "unresolved_conditions": [],
+          "evidence": [
+            {
+              "source_file": "full_name_web_audit_rear.json",
+              "status": "searched_no_attributable_course_review_candidate"
+            }
+          ]
+        },
+        "wechat_sogou": {
+          "coverage": "已尝试或复用已执行的全名索引查询",
+          "unresolved_conditions": [],
+          "evidence": [
+            {
+              "source_file": "full_name_web_audit_rear.json",
+              "status": "searched_no_attributable_course_review_candidate"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "course_code": "CHEM20014",
+      "course_name": "有机化学A II",
+      "platforms": {
+        "zhihu": {
+          "coverage": "已尝试或复用已执行的全名索引查询",
+          "unresolved_conditions": [],
+          "evidence": [
+            {
+              "source_file": "full_name_web_audit_rear.json",
+              "status": "previously_covered_not_repeated"
+            },
+            {
+              "source_file": "public_web_coverage.json",
+              "status": "completed_no_specific_course_review_candidate"
+            }
+          ]
+        },
+        "xiaohongshu": {
+          "coverage": "已尝试或复用已执行的全名索引查询",
+          "unresolved_conditions": [],
+          "evidence": [
+            {
+              "source_file": "full_name_web_audit_rear.json",
+              "status": "previously_covered_not_repeated"
+            },
+            {
+              "source_file": "public_web_coverage.json",
+              "status": "completed_no_specific_course_review_candidate"
+            }
+          ]
+        },
+        "wechat_sogou": {
+          "coverage": "已尝试或复用已执行的全名索引查询",
+          "unresolved_conditions": [],
+          "evidence": [
+            {
+              "source_file": "full_name_web_audit_rear.json",
+              "status": "searched_no_attributable_course_review_candidate"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "course_code": "CHEM20014h",
+      "course_name": "有机化学A II (H)",
+      "platforms": {
+        "zhihu": {
+          "coverage": "已尝试或复用已执行的全名索引查询",
+          "unresolved_conditions": [],
+          "evidence": [
+            {
+              "source_file": "full_name_web_audit_rear.json",
+              "status": "previously_covered_not_repeated"
+            },
+            {
+              "source_file": "public_web_coverage.json",
+              "status": "completed_no_specific_course_review_candidate"
+            }
+          ]
+        },
+        "xiaohongshu": {
+          "coverage": "已尝试或复用已执行的全名索引查询",
+          "unresolved_conditions": [],
+          "evidence": [
+            {
+              "source_file": "full_name_web_audit_rear.json",
+              "status": "previously_covered_not_repeated"
+            },
+            {
+              "source_file": "public_web_coverage.json",
+              "status": "completed_no_specific_course_review_candidate"
+            }
+          ]
+        },
+        "wechat_sogou": {
+          "coverage": "已尝试或复用已执行的全名索引查询",
+          "unresolved_conditions": [],
+          "evidence": [
+            {
+              "source_file": "full_name_web_audit_rear.json",
+              "status": "searched_no_attributable_course_review_candidate"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "course_code": "CHEM20018",
+      "course_name": "生命中的化学",
+      "platforms": {
+        "zhihu": {
+          "coverage": "已尝试或复用已执行的全名索引查询",
+          "unresolved_conditions": [],
+          "evidence": [
+            {
+              "source_file": "full_name_web_audit_rear.json",
+              "status": "searched_no_attributable_course_review_candidate"
+            }
+          ]
+        },
+        "xiaohongshu": {
+          "coverage": "已尝试或复用已执行的全名索引查询",
+          "unresolved_conditions": [],
+          "evidence": [
+            {
+              "source_file": "full_name_web_audit_rear.json",
+              "status": "searched_no_attributable_course_review_candidate"
+            }
+          ]
+        },
+        "wechat_sogou": {
+          "coverage": "已尝试或复用已执行的全名索引查询",
+          "unresolved_conditions": [],
+          "evidence": [
+            {
+              "source_file": "full_name_web_audit_rear.json",
+              "status": "searched_no_attributable_course_review_candidate"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "course_code": "CHEM20019",
+      "course_name": "微流控生命分析",
+      "platforms": {
+        "zhihu": {
+          "coverage": "已尝试或复用已执行的全名索引查询",
+          "unresolved_conditions": [],
+          "evidence": [
+            {
+              "source_file": "full_name_web_audit_rear.json",
+              "status": "searched_no_attributable_course_review_candidate"
+            }
+          ]
+        },
+        "xiaohongshu": {
+          "coverage": "已尝试或复用已执行的全名索引查询",
+          "unresolved_conditions": [],
+          "evidence": [
+            {
+              "source_file": "full_name_web_audit_rear.json",
+              "status": "searched_no_attributable_course_review_candidate"
+            }
+          ]
+        },
+        "wechat_sogou": {
+          "coverage": "已尝试或复用已执行的全名索引查询",
+          "unresolved_conditions": [],
+          "evidence": [
+            {
+              "source_file": "full_name_web_audit_rear.json",
+              "status": "searched_no_attributable_course_review_candidate"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "course_code": "CHEM20020",
+      "course_name": "仪器分析实验",
+      "platforms": {
+        "zhihu": {
+          "coverage": "已尝试或复用已执行的全名索引查询",
+          "unresolved_conditions": [],
+          "evidence": [
+            {
+              "source_file": "full_name_web_audit_front.json",
+              "status": "irrelevant_results_no_course_review_candidate"
+            },
+            {
+              "source_file": "full_name_web_audit_rear.json",
+              "status": "previously_searched_by_prior_agent"
+            }
+          ]
+        },
+        "xiaohongshu": {
+          "coverage": "已尝试或复用已执行的全名索引查询",
+          "unresolved_conditions": [],
+          "evidence": [
+            {
+              "source_file": "full_name_web_audit_rear.json",
+              "status": "searched_no_attributable_course_review_candidate"
+            },
+            {
+              "source_file": "public_web_coverage.json",
+              "status": "searched_no_review"
+            }
+          ]
+        },
+        "wechat_sogou": {
+          "coverage": "已尝试或复用已执行的全名索引查询",
+          "unresolved_conditions": [],
+          "evidence": [
+            {
+              "source_file": "full_name_web_audit_front.json",
+              "status": "search_no_candidate"
+            },
+            {
+              "source_file": "full_name_web_audit_rear.json",
+              "status": "previously_searched_by_prior_agent"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "course_code": "CHEM20023",
+      "course_name": "化学前沿专题",
+      "platforms": {
+        "zhihu": {
+          "coverage": "已尝试或复用已执行的全名索引查询",
+          "unresolved_conditions": [],
+          "evidence": [
+            {
+              "source_file": "full_name_web_audit_rear.json",
+              "status": "searched_no_attributable_course_review_candidate"
+            }
+          ]
+        },
+        "xiaohongshu": {
+          "coverage": "已尝试或复用已执行的全名索引查询",
+          "unresolved_conditions": [],
+          "evidence": [
+            {
+              "source_file": "full_name_web_audit_rear.json",
+              "status": "searched_no_attributable_course_review_candidate"
+            }
+          ]
+        },
+        "wechat_sogou": {
+          "coverage": "已尝试或复用已执行的全名索引查询",
+          "unresolved_conditions": [],
+          "evidence": [
+            {
+              "source_file": "full_name_web_audit_rear.json",
+              "status": "searched_no_attributable_course_review_candidate"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "course_code": "CHEM30008",
+      "course_name": "近代分析化学",
+      "platforms": {
+        "zhihu": {
+          "coverage": "已尝试或复用已执行的全名索引查询",
+          "unresolved_conditions": [],
+          "evidence": [
+            {
+              "source_file": "full_name_web_audit_rear.json",
+              "status": "previously_covered_not_repeated"
+            },
+            {
+              "source_file": "public_web_coverage.json",
+              "status": "searched_no_review"
+            }
+          ]
+        },
+        "xiaohongshu": {
+          "coverage": "已尝试或复用已执行的全名索引查询",
+          "unresolved_conditions": [],
+          "evidence": [
+            {
+              "source_file": "full_name_web_audit_rear.json",
+              "status": "previously_covered_not_repeated"
+            },
+            {
+              "source_file": "public_web_coverage.json",
+              "status": "searched_no_review"
+            }
+          ]
+        },
+        "wechat_sogou": {
+          "coverage": "已尝试或复用已执行的全名索引查询",
+          "unresolved_conditions": [],
+          "evidence": [
+            {
+              "source_file": "full_name_web_audit_rear.json",
+              "status": "searched_no_attributable_course_review_candidate"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "course_code": "CHEM30009",
+      "course_name": "胶体化学",
+      "platforms": {
+        "zhihu": {
+          "coverage": "已尝试或复用已执行的全名索引查询",
+          "unresolved_conditions": [],
+          "evidence": [
+            {
+              "source_file": "full_name_web_audit_rear.json",
+              "status": "searched_no_attributable_course_review_candidate"
+            }
+          ]
+        },
+        "xiaohongshu": {
+          "coverage": "已尝试或复用已执行的全名索引查询",
+          "unresolved_conditions": [],
+          "evidence": [
+            {
+              "source_file": "full_name_web_audit_rear.json",
+              "status": "searched_no_attributable_course_review_candidate"
+            }
+          ]
+        },
+        "wechat_sogou": {
+          "coverage": "已尝试或复用已执行的全名索引查询",
+          "unresolved_conditions": [],
+          "evidence": [
+            {
+              "source_file": "full_name_web_audit_rear.json",
+              "status": "searched_no_attributable_course_review_candidate"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "course_code": "CHEM30013",
+      "course_name": "新型无机材料",
+      "platforms": {
+        "zhihu": {
+          "coverage": "已尝试或复用已执行的全名索引查询",
+          "unresolved_conditions": [],
+          "evidence": [
+            {
+              "source_file": "full_name_web_audit_rear.json",
+              "status": "searched_no_attributable_course_review_candidate"
+            }
+          ]
+        },
+        "xiaohongshu": {
+          "coverage": "已尝试或复用已执行的全名索引查询",
+          "unresolved_conditions": [],
+          "evidence": [
+            {
+              "source_file": "full_name_web_audit_rear.json",
+              "status": "searched_no_attributable_course_review_candidate"
+            }
+          ]
+        },
+        "wechat_sogou": {
+          "coverage": "已尝试或复用已执行的全名索引查询",
+          "unresolved_conditions": [],
+          "evidence": [
+            {
+              "source_file": "full_name_web_audit_rear.json",
+              "status": "searched_no_attributable_course_review_candidate"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "course_code": "CHEM30014",
+      "course_name": "化学反应工程",
+      "platforms": {
+        "zhihu": {
+          "coverage": "已尝试或复用已执行的全名索引查询",
+          "unresolved_conditions": [],
+          "evidence": [
+            {
+              "source_file": "full_name_web_audit_rear.json",
+              "status": "searched_no_attributable_course_review_candidate"
+            }
+          ]
+        },
+        "xiaohongshu": {
+          "coverage": "已尝试或复用已执行的全名索引查询",
+          "unresolved_conditions": [],
+          "evidence": [
+            {
+              "source_file": "full_name_web_audit_rear.json",
+              "status": "searched_no_attributable_course_review_candidate"
+            }
+          ]
+        },
+        "wechat_sogou": {
+          "coverage": "已尝试或复用已执行的全名索引查询",
+          "unresolved_conditions": [],
+          "evidence": [
+            {
+              "source_file": "full_name_web_audit_rear.json",
+              "status": "searched_no_attributable_course_review_candidate"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "course_code": "CHEM30016",
+      "course_name": "工业化学",
+      "platforms": {
+        "zhihu": {
+          "coverage": "已尝试或复用已执行的全名索引查询",
+          "unresolved_conditions": [],
+          "evidence": [
+            {
+              "source_file": "full_name_web_audit_rear.json",
+              "status": "searched_no_attributable_course_review_candidate"
+            }
+          ]
+        },
+        "xiaohongshu": {
+          "coverage": "已尝试或复用已执行的全名索引查询",
+          "unresolved_conditions": [],
+          "evidence": [
+            {
+              "source_file": "full_name_web_audit_rear.json",
+              "status": "searched_no_attributable_course_review_candidate"
+            }
+          ]
+        },
+        "wechat_sogou": {
+          "coverage": "已尝试或复用已执行的全名索引查询",
+          "unresolved_conditions": [],
+          "evidence": [
+            {
+              "source_file": "full_name_web_audit_rear.json",
+              "status": "searched_no_attributable_course_review_candidate"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "course_code": "CHEM30020",
+      "course_name": "溶胶-凝胶化学及实验",
+      "platforms": {
+        "zhihu": {
+          "coverage": "已尝试或复用已执行的全名索引查询",
+          "unresolved_conditions": [],
+          "evidence": [
+            {
+              "source_file": "full_name_web_audit_rear.json",
+              "status": "previously_covered_not_repeated"
+            },
+            {
+              "source_file": "public_web_coverage.json",
+              "status": "completed_no_specific_course_review_candidate"
+            }
+          ]
+        },
+        "xiaohongshu": {
+          "coverage": "已尝试或复用已执行的全名索引查询",
+          "unresolved_conditions": [],
+          "evidence": [
+            {
+              "source_file": "full_name_web_audit_rear.json",
+              "status": "previously_covered_not_repeated"
+            },
+            {
+              "source_file": "public_web_coverage.json",
+              "status": "completed_no_specific_course_review_candidate"
+            }
+          ]
+        },
+        "wechat_sogou": {
+          "coverage": "已尝试或复用已执行的全名索引查询",
+          "unresolved_conditions": [],
+          "evidence": [
+            {
+              "source_file": "full_name_web_audit_rear.json",
+              "status": "searched_no_attributable_course_review_candidate"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "course_code": "CHEM30023",
+      "course_name": "药物化学",
+      "platforms": {
+        "zhihu": {
+          "coverage": "已尝试或复用已执行的全名索引查询",
+          "unresolved_conditions": [],
+          "evidence": [
+            {
+              "source_file": "full_name_web_audit_rear.json",
+              "status": "searched_no_attributable_course_review_candidate"
+            }
+          ]
+        },
+        "xiaohongshu": {
+          "coverage": "已尝试或复用已执行的全名索引查询",
+          "unresolved_conditions": [],
+          "evidence": [
+            {
+              "source_file": "full_name_web_audit_rear.json",
+              "status": "searched_no_attributable_course_review_candidate"
+            }
+          ]
+        },
+        "wechat_sogou": {
+          "coverage": "已尝试或复用已执行的全名索引查询",
+          "unresolved_conditions": [],
+          "evidence": [
+            {
+              "source_file": "full_name_web_audit_rear.json",
+              "status": "searched_no_attributable_course_review_candidate"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "course_code": "CHEM30027",
+      "course_name": "现代化学专题(能源化学)",
+      "platforms": {
+        "zhihu": {
+          "coverage": "已尝试或复用已执行的全名索引查询",
+          "unresolved_conditions": [],
+          "evidence": [
+            {
+              "source_file": "full_name_web_audit_rear.json",
+              "status": "searched_no_attributable_course_review_candidate"
+            }
+          ]
+        },
+        "xiaohongshu": {
+          "coverage": "已尝试或复用已执行的全名索引查询",
+          "unresolved_conditions": [],
+          "evidence": [
+            {
+              "source_file": "full_name_web_audit_rear.json",
+              "status": "searched_no_attributable_course_review_candidate"
+            }
+          ]
+        },
+        "wechat_sogou": {
+          "coverage": "已尝试或复用已执行的全名索引查询",
+          "unresolved_conditions": [],
+          "evidence": [
+            {
+              "source_file": "full_name_web_audit_rear.json",
+              "status": "searched_no_attributable_course_review_candidate"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "course_code": "CHEM30028",
+      "course_name": "高能化学电源",
+      "platforms": {
+        "zhihu": {
+          "coverage": "已尝试或复用已执行的全名索引查询",
+          "unresolved_conditions": [],
+          "evidence": [
+            {
+              "source_file": "full_name_web_audit_rear.json",
+              "status": "searched_no_attributable_course_review_candidate"
+            }
+          ]
+        },
+        "xiaohongshu": {
+          "coverage": "已尝试或复用已执行的全名索引查询",
+          "unresolved_conditions": [],
+          "evidence": [
+            {
+              "source_file": "full_name_web_audit_rear.json",
+              "status": "searched_no_attributable_course_review_candidate"
+            }
+          ]
+        },
+        "wechat_sogou": {
+          "coverage": "已尝试或复用已执行的全名索引查询",
+          "unresolved_conditions": [],
+          "evidence": [
+            {
+              "source_file": "full_name_web_audit_rear.json",
+              "status": "searched_no_attributable_course_review_candidate"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "course_code": "CHEM30030",
+      "course_name": "探究性仪器分析实验",
+      "platforms": {
+        "zhihu": {
+          "coverage": "已尝试或复用已执行的全名索引查询",
+          "unresolved_conditions": [],
+          "evidence": [
+            {
+              "source_file": "full_name_web_audit_rear.json",
+              "status": "previously_covered_not_repeated"
+            },
+            {
+              "source_file": "public_web_coverage.json",
+              "status": "completed_no_specific_course_review_candidate"
+            }
+          ]
+        },
+        "xiaohongshu": {
+          "coverage": "已尝试或复用已执行的全名索引查询",
+          "unresolved_conditions": [],
+          "evidence": [
+            {
+              "source_file": "full_name_web_audit_rear.json",
+              "status": "previously_covered_not_repeated"
+            },
+            {
+              "source_file": "public_web_coverage.json",
+              "status": "completed_no_specific_course_review_candidate"
+            }
+          ]
+        },
+        "wechat_sogou": {
+          "coverage": "已尝试或复用已执行的全名索引查询",
+          "unresolved_conditions": [],
+          "evidence": [
+            {
+              "source_file": "full_name_web_audit_rear.json",
+              "status": "searched_no_attributable_course_review_candidate"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "course_code": "CHEM30032",
+      "course_name": "物理化学实验(下)",
+      "platforms": {
+        "zhihu": {
+          "coverage": "已尝试或复用已执行的全名索引查询",
+          "unresolved_conditions": [],
+          "evidence": [
+            {
+              "source_file": "full_name_web_audit_front.json",
+              "status": "search_no_candidate"
+            },
+            {
+              "source_file": "full_name_web_audit_rear.json",
+              "status": "previously_searched_by_prior_agent"
+            }
+          ]
+        },
+        "xiaohongshu": {
+          "coverage": "已尝试或复用已执行的全名索引查询",
+          "unresolved_conditions": [],
+          "evidence": [
+            {
+              "source_file": "full_name_web_audit_rear.json",
+              "status": "searched_no_attributable_course_review_candidate"
+            },
+            {
+              "source_file": "public_web_coverage.json",
+              "status": "searched_no_review"
+            }
+          ]
+        },
+        "wechat_sogou": {
+          "coverage": "已尝试或复用已执行的全名索引查询",
+          "unresolved_conditions": [],
+          "evidence": [
+            {
+              "source_file": "full_name_web_audit_front.json",
+              "status": "search_no_candidate"
+            },
+            {
+              "source_file": "full_name_web_audit_rear.json",
+              "status": "previously_searched_by_prior_agent"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "course_code": "CHEM30032h",
+      "course_name": "物理化学实验(下)(H)",
+      "platforms": {
+        "zhihu": {
+          "coverage": "已尝试或复用已执行的全名索引查询",
+          "unresolved_conditions": [],
+          "evidence": [
+            {
+              "source_file": "full_name_web_audit_rear.json",
+              "status": "previously_covered_not_repeated"
+            },
+            {
+              "source_file": "public_web_coverage.json",
+              "status": "completed_no_specific_course_review_candidate"
+            }
+          ]
+        },
+        "xiaohongshu": {
+          "coverage": "已尝试或复用已执行的全名索引查询",
+          "unresolved_conditions": [],
+          "evidence": [
+            {
+              "source_file": "full_name_web_audit_rear.json",
+              "status": "previously_covered_not_repeated"
+            },
+            {
+              "source_file": "public_web_coverage.json",
+              "status": "completed_no_specific_course_review_candidate"
+            }
+          ]
+        },
+        "wechat_sogou": {
+          "coverage": "已尝试或复用已执行的全名索引查询",
+          "unresolved_conditions": [],
+          "evidence": [
+            {
+              "source_file": "full_name_web_audit_rear.json",
+              "status": "searched_no_attributable_course_review_candidate"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "course_code": "CHEM30035",
+      "course_name": "化学生物学基础",
+      "platforms": {
+        "zhihu": {
+          "coverage": "已尝试或复用已执行的全名索引查询",
+          "unresolved_conditions": [],
+          "evidence": [
+            {
+              "source_file": "full_name_web_audit_rear.json",
+              "status": "searched_no_attributable_course_review_candidate"
+            }
+          ]
+        },
+        "xiaohongshu": {
+          "coverage": "已尝试或复用已执行的全名索引查询",
+          "unresolved_conditions": [],
+          "evidence": [
+            {
+              "source_file": "full_name_web_audit_rear.json",
+              "status": "searched_no_attributable_course_review_candidate"
+            }
+          ]
+        },
+        "wechat_sogou": {
+          "coverage": "已尝试或复用已执行的全名索引查询",
+          "unresolved_conditions": [],
+          "evidence": [
+            {
+              "source_file": "full_name_web_audit_rear.json",
+              "status": "searched_no_attributable_course_review_candidate"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "course_code": "CHEM40003",
+      "course_name": "毕业论文",
+      "platforms": {
+        "zhihu": {
+          "coverage": "已尝试或复用已执行的全名索引查询",
+          "unresolved_conditions": [],
+          "evidence": [
+            {
+              "source_file": "full_name_web_audit_rear.json",
+              "status": "searched_no_attributable_course_review_candidate"
+            }
+          ]
+        },
+        "xiaohongshu": {
+          "coverage": "已尝试或复用已执行的全名索引查询",
+          "unresolved_conditions": [],
+          "evidence": [
+            {
+              "source_file": "full_name_web_audit_rear.json",
+              "status": "searched_no_attributable_course_review_candidate"
+            }
+          ]
+        },
+        "wechat_sogou": {
+          "coverage": "已尝试或复用已执行的全名索引查询",
+          "unresolved_conditions": [],
+          "evidence": [
+            {
+              "source_file": "full_name_web_audit_rear.json",
+              "status": "searched_no_attributable_course_review_candidate"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "course_code": "CHEM40004",
+      "course_name": "综合化学实验I",
+      "platforms": {
+        "zhihu": {
+          "coverage": "已尝试或复用已执行的全名索引查询",
+          "unresolved_conditions": [],
+          "evidence": [
+            {
+              "source_file": "full_name_web_audit_rear.json",
+              "status": "searched_no_attributable_course_review_candidate"
+            }
+          ]
+        },
+        "xiaohongshu": {
+          "coverage": "已尝试或复用已执行的全名索引查询",
+          "unresolved_conditions": [],
+          "evidence": [
+            {
+              "source_file": "full_name_web_audit_rear.json",
+              "status": "searched_no_attributable_course_review_candidate"
+            }
+          ]
+        },
+        "wechat_sogou": {
+          "coverage": "已尝试或复用已执行的全名索引查询",
+          "unresolved_conditions": [],
+          "evidence": [
+            {
+              "source_file": "full_name_web_audit_rear.json",
+              "status": "searched_no_attributable_course_review_candidate"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "course_code": "CHEM50005",
+      "course_name": "高等结构分析",
+      "platforms": {
+        "zhihu": {
+          "coverage": "已尝试或复用已执行的全名索引查询",
+          "unresolved_conditions": [],
+          "evidence": [
+            {
+              "source_file": "full_name_web_audit_rear.json",
+              "status": "searched_no_attributable_course_review_candidate"
+            }
+          ]
+        },
+        "xiaohongshu": {
+          "coverage": "已尝试或复用已执行的全名索引查询",
+          "unresolved_conditions": [],
+          "evidence": [
+            {
+              "source_file": "full_name_web_audit_rear.json",
+              "status": "previously_covered_not_repeated"
+            },
+            {
+              "source_file": "public_web_coverage.json",
+              "status": "searched_no_review"
+            }
+          ]
+        },
+        "wechat_sogou": {
+          "coverage": "已尝试或复用已执行的全名索引查询",
+          "unresolved_conditions": [],
+          "evidence": [
+            {
+              "source_file": "full_name_web_audit_rear.json",
+              "status": "searched_no_attributable_course_review_candidate"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "course_code": "CHEM50007",
+      "course_name": "英文化学论文写作",
+      "platforms": {
+        "zhihu": {
+          "coverage": "已尝试或复用已执行的全名索引查询",
+          "unresolved_conditions": [],
+          "evidence": [
+            {
+              "source_file": "full_name_web_audit_rear.json",
+              "status": "previously_covered_not_repeated"
+            },
+            {
+              "source_file": "public_web_coverage.json",
+              "status": "searched_no_review"
+            }
+          ]
+        },
+        "xiaohongshu": {
+          "coverage": "已尝试或复用已执行的全名索引查询",
+          "unresolved_conditions": [],
+          "evidence": [
+            {
+              "source_file": "full_name_web_audit_rear.json",
+              "status": "previously_covered_not_repeated"
+            },
+            {
+              "source_file": "public_web_coverage.json",
+              "status": "searched_no_review"
+            }
+          ]
+        },
+        "wechat_sogou": {
+          "coverage": "已尝试或复用已执行的全名索引查询",
+          "unresolved_conditions": [],
+          "evidence": [
+            {
+              "source_file": "full_name_web_audit_rear.json",
+              "status": "searched_no_attributable_course_review_candidate"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "course_code": "CHEM60007",
+      "course_name": "生物无机化学进展",
+      "platforms": {
+        "zhihu": {
+          "coverage": "已尝试或复用已执行的全名索引查询",
+          "unresolved_conditions": [],
+          "evidence": [
+            {
+              "source_file": "full_name_web_audit_rear.json",
+              "status": "searched_no_attributable_course_review_candidate"
+            }
+          ]
+        },
+        "xiaohongshu": {
+          "coverage": "已尝试或复用已执行的全名索引查询",
+          "unresolved_conditions": [],
+          "evidence": [
+            {
+              "source_file": "full_name_web_audit_rear.json",
+              "status": "searched_no_attributable_course_review_candidate"
+            }
+          ]
+        },
+        "wechat_sogou": {
+          "coverage": "已尝试或复用已执行的全名索引查询",
+          "unresolved_conditions": [],
+          "evidence": [
+            {
+              "source_file": "full_name_web_audit_rear.json",
+              "status": "searched_no_attributable_course_review_candidate"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "course_code": "CHEM60008",
+      "course_name": "金属有机化学进展",
+      "platforms": {
+        "zhihu": {
+          "coverage": "已尝试或复用已执行的全名索引查询",
+          "unresolved_conditions": [],
+          "evidence": [
+            {
+              "source_file": "full_name_web_audit_rear.json",
+              "status": "searched_no_attributable_course_review_candidate"
+            }
+          ]
+        },
+        "xiaohongshu": {
+          "coverage": "已尝试或复用已执行的全名索引查询",
+          "unresolved_conditions": [],
+          "evidence": [
+            {
+              "source_file": "full_name_web_audit_rear.json",
+              "status": "searched_no_attributable_course_review_candidate"
+            }
+          ]
+        },
+        "wechat_sogou": {
+          "coverage": "已尝试或复用已执行的全名索引查询",
+          "unresolved_conditions": [],
+          "evidence": [
+            {
+              "source_file": "full_name_web_audit_rear.json",
+              "status": "searched_no_attributable_course_review_candidate"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "course_code": "CHEM60010",
+      "course_name": "稀土化学",
+      "platforms": {
+        "zhihu": {
+          "coverage": "已尝试或复用已执行的全名索引查询",
+          "unresolved_conditions": [],
+          "evidence": [
+            {
+              "source_file": "full_name_web_audit_rear.json",
+              "status": "searched_no_attributable_course_review_candidate"
+            }
+          ]
+        },
+        "xiaohongshu": {
+          "coverage": "已尝试或复用已执行的全名索引查询",
+          "unresolved_conditions": [],
+          "evidence": [
+            {
+              "source_file": "full_name_web_audit_rear.json",
+              "status": "searched_no_attributable_course_review_candidate"
+            }
+          ]
+        },
+        "wechat_sogou": {
+          "coverage": "已尝试或复用已执行的全名索引查询",
+          "unresolved_conditions": [],
+          "evidence": [
+            {
+              "source_file": "full_name_web_audit_rear.json",
+              "status": "searched_no_attributable_course_review_candidate"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "course_code": "CHEM60015",
+      "course_name": "现代有机金属化学",
+      "platforms": {
+        "zhihu": {
+          "coverage": "已尝试或复用已执行的全名索引查询",
+          "unresolved_conditions": [],
+          "evidence": [
+            {
+              "source_file": "full_name_web_audit_rear.json",
+              "status": "searched_no_attributable_course_review_candidate"
+            }
+          ]
+        },
+        "xiaohongshu": {
+          "coverage": "已尝试或复用已执行的全名索引查询",
+          "unresolved_conditions": [],
+          "evidence": [
+            {
+              "source_file": "full_name_web_audit_rear.json",
+              "status": "searched_no_attributable_course_review_candidate"
+            }
+          ]
+        },
+        "wechat_sogou": {
+          "coverage": "已尝试或复用已执行的全名索引查询",
+          "unresolved_conditions": [],
+          "evidence": [
+            {
+              "source_file": "full_name_web_audit_rear.json",
+              "status": "searched_no_attributable_course_review_candidate"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "course_code": "CHEM60016",
+      "course_name": "分析电化学",
+      "platforms": {
+        "zhihu": {
+          "coverage": "已尝试或复用已执行的全名索引查询",
+          "unresolved_conditions": [],
+          "evidence": [
+            {
+              "source_file": "full_name_web_audit_rear.json",
+              "status": "searched_no_attributable_course_review_candidate"
+            }
+          ]
+        },
+        "xiaohongshu": {
+          "coverage": "已尝试或复用已执行的全名索引查询",
+          "unresolved_conditions": [],
+          "evidence": [
+            {
+              "source_file": "full_name_web_audit_rear.json",
+              "status": "searched_no_attributable_course_review_candidate"
+            }
+          ]
+        },
+        "wechat_sogou": {
+          "coverage": "已尝试或复用已执行的全名索引查询",
+          "unresolved_conditions": [],
+          "evidence": [
+            {
+              "source_file": "full_name_web_audit_rear.json",
+              "status": "searched_no_attributable_course_review_candidate"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "course_code": "CHEM60018",
+      "course_name": "分子催化和表面化学",
+      "platforms": {
+        "zhihu": {
+          "coverage": "已尝试或复用已执行的全名索引查询",
+          "unresolved_conditions": [],
+          "evidence": [
+            {
+              "source_file": "full_name_web_audit_rear.json",
+              "status": "searched_no_attributable_course_review_candidate"
+            }
+          ]
+        },
+        "xiaohongshu": {
+          "coverage": "已尝试或复用已执行的全名索引查询",
+          "unresolved_conditions": [],
+          "evidence": [
+            {
+              "source_file": "full_name_web_audit_rear.json",
+              "status": "searched_no_attributable_course_review_candidate"
+            }
+          ]
+        },
+        "wechat_sogou": {
+          "coverage": "已尝试或复用已执行的全名索引查询",
+          "unresolved_conditions": [],
+          "evidence": [
+            {
+              "source_file": "full_name_web_audit_rear.json",
+              "status": "searched_no_attributable_course_review_candidate"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "course_code": "CHEM60022",
+      "course_name": "蛋白质化学/生物无机化学",
+      "platforms": {
+        "zhihu": {
+          "coverage": "已尝试或复用已执行的全名索引查询",
+          "unresolved_conditions": [],
+          "evidence": [
+            {
+              "source_file": "full_name_web_audit_rear.json",
+              "status": "searched_no_attributable_course_review_candidate"
+            }
+          ]
+        },
+        "xiaohongshu": {
+          "coverage": "已尝试或复用已执行的全名索引查询",
+          "unresolved_conditions": [],
+          "evidence": [
+            {
+              "source_file": "full_name_web_audit_rear.json",
+              "status": "searched_no_attributable_course_review_candidate"
+            }
+          ]
+        },
+        "wechat_sogou": {
+          "coverage": "已尝试或复用已执行的全名索引查询",
+          "unresolved_conditions": [],
+          "evidence": [
+            {
+              "source_file": "full_name_web_audit_rear.json",
+              "status": "searched_no_attributable_course_review_candidate"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "course_code": "CHEM60023",
+      "course_name": "有机合成化学I",
+      "platforms": {
+        "zhihu": {
+          "coverage": "已尝试或复用已执行的全名索引查询",
+          "unresolved_conditions": [],
+          "evidence": [
+            {
+              "source_file": "full_name_web_audit_rear.json",
+              "status": "searched_no_attributable_course_review_candidate"
+            }
+          ]
+        },
+        "xiaohongshu": {
+          "coverage": "已尝试或复用已执行的全名索引查询",
+          "unresolved_conditions": [],
+          "evidence": [
+            {
+              "source_file": "full_name_web_audit_rear.json",
+              "status": "searched_no_attributable_course_review_candidate"
+            }
+          ]
+        },
+        "wechat_sogou": {
+          "coverage": "已尝试或复用已执行的全名索引查询",
+          "unresolved_conditions": [],
+          "evidence": [
+            {
+              "source_file": "full_name_web_audit_rear.json",
+              "status": "searched_no_attributable_course_review_candidate"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "course_code": "CHEM70006",
+      "course_name": "高等化学分析",
+      "platforms": {
+        "zhihu": {
+          "coverage": "已尝试或复用已执行的全名索引查询",
+          "unresolved_conditions": [],
+          "evidence": [
+            {
+              "source_file": "full_name_web_audit_rear.json",
+              "status": "previously_covered_not_repeated"
+            },
+            {
+              "source_file": "public_web_coverage.json",
+              "status": "completed_no_specific_course_review_candidate"
+            }
+          ]
+        },
+        "xiaohongshu": {
+          "coverage": "已尝试或复用已执行的全名索引查询",
+          "unresolved_conditions": [],
+          "evidence": [
+            {
+              "source_file": "full_name_web_audit_rear.json",
+              "status": "previously_covered_not_repeated"
+            },
+            {
+              "source_file": "public_web_coverage.json",
+              "status": "completed_no_specific_course_review_candidate"
+            }
+          ]
+        },
+        "wechat_sogou": {
+          "coverage": "已尝试或复用已执行的全名索引查询",
+          "unresolved_conditions": [],
+          "evidence": [
+            {
+              "source_file": "full_name_web_audit_rear.json",
+              "status": "searched_no_attributable_course_review_candidate"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "course_code": "CHEM70007",
+      "course_name": "色谱分析",
+      "platforms": {
+        "zhihu": {
+          "coverage": "已尝试或复用已执行的全名索引查询",
+          "unresolved_conditions": [],
+          "evidence": [
+            {
+              "source_file": "full_name_web_audit_rear.json",
+              "status": "searched_no_attributable_course_review_candidate"
+            }
+          ]
+        },
+        "xiaohongshu": {
+          "coverage": "已尝试或复用已执行的全名索引查询",
+          "unresolved_conditions": [],
+          "evidence": [
+            {
+              "source_file": "full_name_web_audit_rear.json",
+              "status": "searched_no_attributable_course_review_candidate"
+            }
+          ]
+        },
+        "wechat_sogou": {
+          "coverage": "已尝试或复用已执行的全名索引查询",
+          "unresolved_conditions": [],
+          "evidence": [
+            {
+              "source_file": "full_name_web_audit_rear.json",
+              "status": "searched_no_attributable_course_review_candidate"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "course_code": "CHEM70009",
+      "course_name": "多相催化原理",
+      "platforms": {
+        "zhihu": {
+          "coverage": "已尝试或复用已执行的全名索引查询",
+          "unresolved_conditions": [],
+          "evidence": [
+            {
+              "source_file": "full_name_web_audit_rear.json",
+              "status": "searched_no_attributable_course_review_candidate"
+            }
+          ]
+        },
+        "xiaohongshu": {
+          "coverage": "已尝试或复用已执行的全名索引查询",
+          "unresolved_conditions": [],
+          "evidence": [
+            {
+              "source_file": "full_name_web_audit_rear.json",
+              "status": "searched_no_attributable_course_review_candidate"
+            }
+          ]
+        },
+        "wechat_sogou": {
+          "coverage": "已尝试或复用已执行的全名索引查询",
+          "unresolved_conditions": [],
+          "evidence": [
+            {
+              "source_file": "full_name_web_audit_rear.json",
+              "status": "searched_no_attributable_course_review_candidate"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "course_code": "CHEM70012",
+      "course_name": "绿色化学",
+      "platforms": {
+        "zhihu": {
+          "coverage": "已尝试或复用已执行的全名索引查询",
+          "unresolved_conditions": [],
+          "evidence": [
+            {
+              "source_file": "full_name_web_audit_rear.json",
+              "status": "searched_no_attributable_course_review_candidate"
+            }
+          ]
+        },
+        "xiaohongshu": {
+          "coverage": "已尝试或复用已执行的全名索引查询",
+          "unresolved_conditions": [],
+          "evidence": [
+            {
+              "source_file": "full_name_web_audit_rear.json",
+              "status": "searched_no_attributable_course_review_candidate"
+            }
+          ]
+        },
+        "wechat_sogou": {
+          "coverage": "已尝试或复用已执行的全名索引查询",
+          "unresolved_conditions": [],
+          "evidence": [
+            {
+              "source_file": "full_name_web_audit_rear.json",
+              "status": "searched_no_attributable_course_review_candidate"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "course_code": "CHEM70017",
+      "course_name": "单分子科学原理与模型",
+      "platforms": {
+        "zhihu": {
+          "coverage": "已尝试或复用已执行的全名索引查询",
+          "unresolved_conditions": [],
+          "evidence": [
+            {
+              "source_file": "full_name_web_audit_rear.json",
+              "status": "searched_no_attributable_course_review_candidate"
+            }
+          ]
+        },
+        "xiaohongshu": {
+          "coverage": "已尝试或复用已执行的全名索引查询",
+          "unresolved_conditions": [],
+          "evidence": [
+            {
+              "source_file": "full_name_web_audit_rear.json",
+              "status": "searched_no_attributable_course_review_candidate"
+            }
+          ]
+        },
+        "wechat_sogou": {
+          "coverage": "已尝试或复用已执行的全名索引查询",
+          "unresolved_conditions": [],
+          "evidence": [
+            {
+              "source_file": "full_name_web_audit_rear.json",
+              "status": "searched_no_attributable_course_review_candidate"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "course_code": "CHEM70018",
+      "course_name": "电子显微基础与实验",
+      "platforms": {
+        "zhihu": {
+          "coverage": "已尝试或复用已执行的全名索引查询",
+          "unresolved_conditions": [],
+          "evidence": [
+            {
+              "source_file": "full_name_web_audit_rear.json",
+              "status": "previously_covered_not_repeated"
+            },
+            {
+              "source_file": "public_web_coverage.json",
+              "status": "completed_no_specific_course_review_candidate"
+            }
+          ]
+        },
+        "xiaohongshu": {
+          "coverage": "已尝试或复用已执行的全名索引查询",
+          "unresolved_conditions": [],
+          "evidence": [
+            {
+              "source_file": "full_name_web_audit_rear.json",
+              "status": "previously_covered_not_repeated"
+            },
+            {
+              "source_file": "public_web_coverage.json",
+              "status": "completed_no_specific_course_review_candidate"
+            }
+          ]
+        },
+        "wechat_sogou": {
+          "coverage": "已尝试或复用已执行的全名索引查询",
+          "unresolved_conditions": [],
+          "evidence": [
+            {
+              "source_file": "full_name_web_audit_rear.json",
+              "status": "searched_no_attributable_course_review_candidate"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "course_code": "CHEM70021",
+      "course_name": "分析化学进展",
+      "platforms": {
+        "zhihu": {
+          "coverage": "已尝试或复用已执行的全名索引查询",
+          "unresolved_conditions": [],
+          "evidence": [
+            {
+              "source_file": "full_name_web_audit_rear.json",
+              "status": "previously_covered_not_repeated"
+            },
+            {
+              "source_file": "public_web_coverage.json",
+              "status": "completed_no_specific_course_review_candidate"
+            }
+          ]
+        },
+        "xiaohongshu": {
+          "coverage": "已尝试或复用已执行的全名索引查询",
+          "unresolved_conditions": [],
+          "evidence": [
+            {
+              "source_file": "full_name_web_audit_rear.json",
+              "status": "previously_covered_not_repeated"
+            },
+            {
+              "source_file": "public_web_coverage.json",
+              "status": "completed_no_specific_course_review_candidate"
+            }
+          ]
+        },
+        "wechat_sogou": {
+          "coverage": "已尝试或复用已执行的全名索引查询",
+          "unresolved_conditions": [],
+          "evidence": [
+            {
+              "source_file": "full_name_web_audit_rear.json",
+              "status": "searched_no_attributable_course_review_candidate"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "course_code": "CHEM70024",
+      "course_name": "X-射线衍射分析技术",
+      "platforms": {
+        "zhihu": {
+          "coverage": "已尝试或复用已执行的全名索引查询",
+          "unresolved_conditions": [],
+          "evidence": [
+            {
+              "source_file": "full_name_web_audit_rear.json",
+              "status": "searched_no_attributable_course_review_candidate"
+            }
+          ]
+        },
+        "xiaohongshu": {
+          "coverage": "已尝试或复用已执行的全名索引查询",
+          "unresolved_conditions": [
+            "prior_candidate_body_inaccessible"
+          ],
+          "evidence": [
+            {
+              "source_file": "full_name_web_audit_rear.json",
+              "status": "searched_no_attributable_course_review_candidate"
+            },
+            {
+              "source_file": "public_web_coverage.json",
+              "status": "partial_candidate_requires_full_context"
+            }
+          ]
+        },
+        "wechat_sogou": {
+          "coverage": "已尝试或复用已执行的全名索引查询",
+          "unresolved_conditions": [],
+          "evidence": [
+            {
+              "source_file": "full_name_web_audit_rear.json",
+              "status": "searched_no_attributable_course_review_candidate"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "course_code": "CHEM70025",
+      "course_name": "电化学研究前沿介绍",
+      "platforms": {
+        "zhihu": {
+          "coverage": "已尝试或复用已执行的全名索引查询",
+          "unresolved_conditions": [],
+          "evidence": [
+            {
+              "source_file": "full_name_web_audit_rear.json",
+              "status": "searched_no_attributable_course_review_candidate"
+            }
+          ]
+        },
+        "xiaohongshu": {
+          "coverage": "已尝试或复用已执行的全名索引查询",
+          "unresolved_conditions": [],
+          "evidence": [
+            {
+              "source_file": "full_name_web_audit_rear.json",
+              "status": "searched_no_attributable_course_review_candidate"
+            }
+          ]
+        },
+        "wechat_sogou": {
+          "coverage": "已尝试或复用已执行的全名索引查询",
+          "unresolved_conditions": [],
+          "evidence": [
+            {
+              "source_file": "full_name_web_audit_rear.json",
+              "status": "searched_no_attributable_course_review_candidate"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "course_code": "CHEM70026",
+      "course_name": "高能电源化学",
+      "platforms": {
+        "zhihu": {
+          "coverage": "已尝试或复用已执行的全名索引查询",
+          "unresolved_conditions": [],
+          "evidence": [
+            {
+              "source_file": "full_name_web_audit_rear.json",
+              "status": "searched_no_attributable_course_review_candidate"
+            }
+          ]
+        },
+        "xiaohongshu": {
+          "coverage": "已尝试或复用已执行的全名索引查询",
+          "unresolved_conditions": [],
+          "evidence": [
+            {
+              "source_file": "full_name_web_audit_rear.json",
+              "status": "searched_no_attributable_course_review_candidate"
+            }
+          ]
+        },
+        "wechat_sogou": {
+          "coverage": "已尝试或复用已执行的全名索引查询",
+          "unresolved_conditions": [],
+          "evidence": [
+            {
+              "source_file": "full_name_web_audit_rear.json",
+              "status": "searched_no_attributable_course_review_candidate"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "course_code": "CHEM70027",
+      "course_name": "碳硼烷化学",
+      "platforms": {
+        "zhihu": {
+          "coverage": "已尝试或复用已执行的全名索引查询",
+          "unresolved_conditions": [],
+          "evidence": [
+            {
+              "source_file": "full_name_web_audit_rear.json",
+              "status": "searched_no_attributable_course_review_candidate"
+            }
+          ]
+        },
+        "xiaohongshu": {
+          "coverage": "已尝试或复用已执行的全名索引查询",
+          "unresolved_conditions": [],
+          "evidence": [
+            {
+              "source_file": "full_name_web_audit_rear.json",
+              "status": "searched_no_attributable_course_review_candidate"
+            }
+          ]
+        },
+        "wechat_sogou": {
+          "coverage": "已尝试或复用已执行的全名索引查询",
+          "unresolved_conditions": [],
+          "evidence": [
+            {
+              "source_file": "full_name_web_audit_rear.json",
+              "status": "searched_no_attributable_course_review_candidate"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "course_code": "CHEM70034",
+      "course_name": "纳米材料生物分离分析",
+      "platforms": {
+        "zhihu": {
+          "coverage": "已尝试或复用已执行的全名索引查询",
+          "unresolved_conditions": [],
+          "evidence": [
+            {
+              "source_file": "full_name_web_audit_rear.json",
+              "status": "searched_no_attributable_course_review_candidate"
+            }
+          ]
+        },
+        "xiaohongshu": {
+          "coverage": "已尝试或复用已执行的全名索引查询",
+          "unresolved_conditions": [],
+          "evidence": [
+            {
+              "source_file": "full_name_web_audit_rear.json",
+              "status": "searched_no_attributable_course_review_candidate"
+            }
+          ]
+        },
+        "wechat_sogou": {
+          "coverage": "已尝试或复用已执行的全名索引查询",
+          "unresolved_conditions": [],
+          "evidence": [
+            {
+              "source_file": "full_name_web_audit_rear.json",
+              "status": "searched_no_attributable_course_review_candidate"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "course_code": "CHEM70035",
+      "course_name": "有机合成化学II",
+      "platforms": {
+        "zhihu": {
+          "coverage": "已尝试或复用已执行的全名索引查询",
+          "unresolved_conditions": [],
+          "evidence": [
+            {
+              "source_file": "full_name_web_audit_rear.json",
+              "status": "searched_no_attributable_course_review_candidate"
+            }
+          ]
+        },
+        "xiaohongshu": {
+          "coverage": "已尝试或复用已执行的全名索引查询",
+          "unresolved_conditions": [],
+          "evidence": [
+            {
+              "source_file": "full_name_web_audit_rear.json",
+              "status": "searched_no_attributable_course_review_candidate"
+            }
+          ]
+        },
+        "wechat_sogou": {
+          "coverage": "已尝试或复用已执行的全名索引查询",
+          "unresolved_conditions": [],
+          "evidence": [
+            {
+              "source_file": "full_name_web_audit_rear.json",
+              "status": "searched_no_attributable_course_review_candidate"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "course_code": "GECC10002",
+      "course_name": "化学与人类",
+      "platforms": {
+        "zhihu": {
+          "coverage": "已尝试或复用已执行的全名索引查询",
+          "unresolved_conditions": [],
+          "evidence": [
+            {
+              "source_file": "full_name_web_audit_rear.json",
+              "status": "previously_covered_not_repeated"
+            },
+            {
+              "source_file": "public_web_coverage.json",
+              "status": "completed_no_specific_course_review_candidate"
+            }
+          ]
+        },
+        "xiaohongshu": {
+          "coverage": "已尝试或复用已执行的全名索引查询",
+          "unresolved_conditions": [],
+          "evidence": [
+            {
+              "source_file": "full_name_web_audit_rear.json",
+              "status": "previously_covered_not_repeated"
+            },
+            {
+              "source_file": "public_web_coverage.json",
+              "status": "completed_no_specific_course_review_candidate"
+            }
+          ]
+        },
+        "wechat_sogou": {
+          "coverage": "已尝试或复用已执行的全名索引查询",
+          "unresolved_conditions": [],
+          "evidence": [
+            {
+              "source_file": "full_name_web_audit_rear.json",
+              "status": "searched_no_attributable_course_review_candidate"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "course_code": "GESP10004",
+      "course_name": "强国之路:形势、政策与使命II",
+      "platforms": {
+        "zhihu": {
+          "coverage": "已尝试或复用已执行的全名索引查询",
+          "unresolved_conditions": [],
+          "evidence": [
+            {
+              "source_file": "full_name_web_audit_rear.json",
+              "status": "previously_covered_not_repeated"
+            },
+            {
+              "source_file": "public_web_coverage.json",
+              "status": "completed_no_specific_course_review_candidate"
+            }
+          ]
+        },
+        "xiaohongshu": {
+          "coverage": "已尝试或复用已执行的全名索引查询",
+          "unresolved_conditions": [],
+          "evidence": [
+            {
+              "source_file": "full_name_web_audit_rear.json",
+              "status": "previously_covered_not_repeated"
+            },
+            {
+              "source_file": "public_web_coverage.json",
+              "status": "completed_no_specific_course_review_candidate"
+            }
+          ]
+        },
+        "wechat_sogou": {
+          "coverage": "已尝试或复用已执行的全名索引查询",
+          "unresolved_conditions": [],
+          "evidence": [
+            {
+              "source_file": "full_name_web_audit_rear.json",
+              "status": "searched_no_attributable_course_review_candidate"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "course_code": "GESP20004",
+      "course_name": "强国之路:形势、政策与使命IV",
+      "platforms": {
+        "zhihu": {
+          "coverage": "已尝试或复用已执行的全名索引查询",
+          "unresolved_conditions": [],
+          "evidence": [
+            {
+              "source_file": "full_name_web_audit_rear.json",
+              "status": "previously_covered_not_repeated"
+            },
+            {
+              "source_file": "public_web_coverage.json",
+              "status": "completed_no_specific_course_review_candidate"
+            }
+          ]
+        },
+        "xiaohongshu": {
+          "coverage": "已尝试或复用已执行的全名索引查询",
+          "unresolved_conditions": [],
+          "evidence": [
+            {
+              "source_file": "full_name_web_audit_rear.json",
+              "status": "previously_covered_not_repeated"
+            },
+            {
+              "source_file": "public_web_coverage.json",
+              "status": "completed_no_specific_course_review_candidate"
+            }
+          ]
+        },
+        "wechat_sogou": {
+          "coverage": "已尝试或复用已执行的全名索引查询",
+          "unresolved_conditions": [],
+          "evidence": [
+            {
+              "source_file": "full_name_web_audit_rear.json",
+              "status": "searched_no_attributable_course_review_candidate"
+            }
+          ]
+        }
+      }
+    }
+  ]
+}
