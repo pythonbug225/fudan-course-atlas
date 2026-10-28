@@ -1,0 +1,81 @@
+{
+  "schema_version": 1,
+  "course": {
+    "code": "CHEM10003",
+    "name": "普通化学A（上）",
+    "department": "公共基础（多院系）",
+    "credits": 2.0,
+    "term": "未分学期",
+    "teachers": [],
+    "section_code": null,
+    "class_type": "ordinary",
+    "course_type_code": null,
+    "program_year": 2026,
+    "program_names": [],
+    "required_or_elective": "required_or_core_in_some_program"
+  },
+  "aliases": {
+    "course_names": [],
+    "teacher_names_or_pinyin": [],
+    "ambiguous_matches": []
+  },
+  "progress": {
+    "owner": "",
+    "reviewer": "",
+    "status": "ai_draft_not_reviewed",
+    "queries": [
+      "本地树洞/蛋壳快照关键词检索（课名：普通化学A）"
+    ],
+    "remaining_scope": [
+      "全部来源只是关键词命中的片段，未读完整上下文，需人工核对是否属于本课",
+      "未分教师、未分学期，需按教师和学期拆分",
+      "未做网上补查（知乎、小红书、公众号等）"
+    ],
+    "no_student_reviews_found": false
+  },
+  "sources": [
+    {
+      "source_id": "atlas-existing-course-summary",
+      "source_type": "external",
+      "canonical_url": "https://github.com/pythonbug225/fudan-course-atlas",
+      "public_author_label": "fudan-course-atlas 已有课程摘要",
+      "published_at": null,
+      "fetched_at": null,
+      "hole_id": null,
+      "floor_id": null,
+      "floor_number": null,
+      "review_id": null,
+      "file_and_page": null,
+      "image_page": null,
+      "reading_status": "collected",
+      "mapping_status": "pending",
+      "record_type": "summary",
+      "adoption": "context_only",
+      "reason": "本仓库已有摘要，非新来源",
+      "duplicate_of": null,
+      "license": null,
+      "fulltext_permission": "unconfirmed",
+      "attribution_and_changes": ""
+    }
+  ],
+  "syllabus": {
+    "source_ids": [],
+    "content": "",
+    "prerequisites": "",
+    "assessment": ""
+  },
+  "materials": [],
+  "student_reviews_and_discussions": [],
+  "quantitative_observations": [],
+  "comparison_and_summary": {
+    "teaching_and_learning": "讲气体溶液、原子结构、化学键和热化学，各班讲解节奏与自学要求不一。 侯秀峰讲解清楚、耐心；华伟明课件和习题讲解清楚但节奏平缓；赵天聪2025年被评进度较慢、需自学；唐云课堂较有趣。",
+    "workload": "李伟作业较少，部分评者称不点名。",
+    "assessment": "2026秋多数班闭卷期末70%、期中15%、作业13%、出勤2%；郑耿锋班期中30%。冯玮班有评者称考试偏难、分数有调整（个人经历）。",
+    "grading_and_risk": "",
+    "teacher_and_term_differences": "王丛笑课件清楚，会讲评期中试卷。",
+    "who_it_suits": "选班看讲解节奏与自己的自学能力。以上出自已有摘要。",
+    "source_ids": [
+      "atlas-existing-course-summary"
+    ]
+  }
+}
