@@ -22,7 +22,7 @@
 
 树洞高频截断后的分时段进度快照见 `forum_split_coverage.json`，课程未确认的讨论线索见 `forum_unmapped_leads.json`。从其他研究本地缓存补出的整洞阅读审计见 `forum_full_thread_audit.json`，独立抽查及已更正项目见 `forum_correction_audit.json`；已删除楼层不用于课程判断。
 
-公开平台逐课状态见 `public_web_coverage.json`，已读但尚不能归入具体课号的资料见 `public_web_unmapped_sources.json`，公众号相关官方转载与搜索边界分别见 `wechat_public_sources.json`、`wechat_public_coverage.json` 和 `wechat_search_manifest.json`。课程族信息或教师姓名不一致的来源须继续核对，不能自动套用现授班。
+公开平台逐课状态见 `public_web_coverage.json`；2026-10-28 按课程全名补查的公开网页索引台账见 `full_name_web_audit_front.json`，搜索引擎空结果不等同平台站内查完。已读但尚不能归入具体课号的资料见 `public_web_unmapped_sources.json`，公众号相关官方转载与搜索边界分别见 `wechat_public_sources.json`、`wechat_public_coverage.json` 和 `wechat_search_manifest.json`。课程族信息或教师姓名不一致的来源须继续核对，不能自动套用现授班。
 
 ## 课评检索与待完成工作
 
