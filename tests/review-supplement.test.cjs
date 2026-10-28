@@ -14,6 +14,12 @@ const du=data.records.find(r=>r.id==='chat26_du_2026_assessment');ok(du&&du.teac
 for(const r of data.records){ok(r.course_ids.length>0&&r.course_ids.every(i=>ids.has(i)),'valid course mapping '+r.id);ok(r.source_id&&r.source_label&&r.summary&&r.judgment,'provenance and synthesis '+r.id);const text={...r};delete text.source_url;ok(!/https?:|xsec_token|data:image|<script|@m\.fudan/.test(JSON.stringify(text)),'public prose contains no token, raw image or login identity '+r.id);if(r.source_url){const u=new URL(r.source_url);ok(['https:','http:'].includes(u.protocol)&&!u.search&&!u.hash&&!u.username&&!u.password,'canonical reference link '+r.id)}for(const x of r.source_excerpts||[])ok(x.label&&x.text.length<=150,'brief labelled original extract '+r.id)}
 const box={window:{},fetch:async()=>({ok:true,json:async()=>data})};vm.runInNewContext(fs.readFileSync(root+'/assets/review-supplement.js','utf8'),box);
 (async()=>{const t=box.window.ReviewSupplement;await t.init();
+const quantum=cat.scope.find(g=>g.code==='PHYS40012');
+for(const teacher of ['肖江','吴长勤'])ok(t.materials(quantum,teacher).includes('复旦在线课程门户'),'historical shared teaching resource visible to '+teacher);
+ok(!t.materials(quantum,'其他教师').includes('复旦在线课程门户'),'shared resource stays scoped to its teacher team');
+const lowTemperature=cat.scope.find(g=>g.code==='PHYS70008');
+ok(t.materials(lowTemperature,'李炜').includes('低温和超导物理：课程教学提纲'),'faculty course outline remains attached to its teacher');
+ok(!t.materials(lowTemperature,'其他教师').includes('低温和超导物理：课程教学提纲'),'faculty course outline is not attributed to other teachers');
 for(const g of cat.scope){const rows=t.select(g);ok(rows.every(r=>r.course_ids.includes(g.id)),'scoped records');for(const teacher of t.teachers(g)){const filtered=t.select(g,teacher);ok(filtered.every(r=>!r.teacher||r.teacher===teacher||(r.teacher_names||[]).includes(teacher)),'parallel teachers separated')}
 ok(!/<a\b/.test(t.summary(g,'all')),'summary remains source text only');const html=t.comments(g,'all');ok((html.match(/<a\b/g)||[]).length===(html.match(/data-review-source="public"/g)||[]).length,'only marked public source anchors in reviews')}
 const math=cat.scope.find(g=>g.id==='C0055');ok(!t.select(math).some(r=>r.course_ids.includes('U1694')),'statistics H not merged into mathematics statistics');
