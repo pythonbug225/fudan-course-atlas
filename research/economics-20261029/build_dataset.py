@@ -68,6 +68,9 @@ for o in scope['offerings']:
             course['offerings'][-1]['syllabus_status'] = '已取得正文'
             course['syllabi'].append({'label': o['term'] + ' ' + o['section_code'] + ' ' + '、'.join(people), 'source': '复旦官方教务系统', 'source_url': 'https://fdjwgl.fudan.edu.cn/student/for-std/lesson-search/teachingSyllabusInfo/' + str(o['offering_id']), 'lesson_id': o['offering_id'], 'paragraphs': paragraphs + [x for x in assessment if x['content'].strip()], 'assessment': [{k:clean(str(x.get(k) or '')) for k in ('criteria', 'standard')} | {'percentage':x.get('percentage')} for x in d.get('examGradeList', [])]})
 
+        else:
+            course['offerings'][-1]['syllabus_status'] = '页面未返回可用正文'
+
 materials_path = HERE / 'material_index.json'
 if materials_path.exists():
     for m in read(materials_path).get('records', []):
