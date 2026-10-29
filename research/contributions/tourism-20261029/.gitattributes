@@ -1,0 +1,4 @@
+# Keep source bytes and hashes; official CSV fields contain quoted multiline schedules.
+* -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+*.csv whitespace=-blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+*.docx binary

@@ -1,0 +1,223 @@
+[
+  {
+    "alias": "WYG",
+    "official_teacher": "王永刚",
+    "course_code": "GEEC10420",
+    "basis": "楼层5307834将“WYG”与课程名并列；官方2025秋课表该课教师含王永刚、王莎。",
+    "confidence": "较高，但目标学期班次仍以原帖为准"
+  },
+  {
+    "alias": "zjr",
+    "official_teacher": "张静儒",
+    "course_code": "BA30080",
+    "basis": "楼层4196392同一行写出全名“张静儒”及括号缩写zjr；官方2025秋课表《旅游伦理学》教师为张静儒。该楼层是提问而非课评。",
+    "confidence": "直接文本对应"
+  },
+  {
+    "alias": "syl",
+    "official_teacher": "孙云龙",
+    "course_code": "BA30063",
+    "basis": "财务管理的两个相关楼层分别写在不同洞：楼层2481723（洞266609）用syl缩写，楼层2187861（洞233495）明确写出孙云龙；两洞并非同线程。官方2025秋BA30063教师为孙云龙，仅能作为候选对应，不能说是同洞互证。",
+    "confidence": "同线程全名互证，但不是目标历史学期验证"
+  },
+  {
+    "alias": "wj",
+    "official_teacher": null,
+    "course_code": "BA30067",
+    "basis": "楼层5241021提及“wj老师的旅游经济学”；官方2025秋BA30067教师为翁瑾，但仅凭首字母无法确认。",
+    "confidence": "未确认，不据此归属"
+  },
+  {
+    "alias": "szx",
+    "official_teacher": null,
+    "course_code": "BA30071",
+    "basis": "楼层3376153提及szx老师的旅游策划学；官方2025秋BA30071教师为郑丹妮，无法由课表确认缩写。",
+    "confidence": "未确认，不据此归属"
+  },
+  {
+    "alias": "bzx",
+    "official_teacher": null,
+    "course_code": "BA20020",
+    "basis": "楼层5212318索取bzx的旅游资源学资料；官方2025秋BA20020教师为巴兆祥，但仅首字母相符。",
+    "confidence": "未确认，不据此归属"
+  },
+  {
+    "alias": "xl",
+    "official_teacher": null,
+    "course_code": "BA30083",
+    "basis": "广告楼层提到旅游目的地管理xl；官方2025秋BA30083教师为薛岚，但未有全名互证。",
+    "confidence": "未确认，不据此归属"
+  },
+  {
+    "alias": "sh",
+    "official_teacher": null,
+    "course_code": "BA20017",
+    "basis": "广告楼层提到旅游消费者行为sh；官方2026春BA20017教师为沈涵，但未有全名互证。",
+    "confidence": "未确认，不据此归属"
+  },
+  {
+    "alias": "gy",
+    "official_teacher_candidate": "郭旸",
+    "official_course_codes": [
+      "ECON20003",
+      "ECON20004",
+      "BA40005",
+      "TOUR60001"
+    ],
+    "basis": "目标课表中这些课程均列郭旸；帖子仅写“gy”，未出现全名，且多个课程候选并存。",
+    "status": "首字母吻合，待上下文确认；不得将问课/泛称自动归入某课程"
+  },
+  {
+    "alias": "syy",
+    "official_teacher_candidate": "施媛媛",
+    "official_course_code": "BA40008",
+    "basis": "帖子评价《旅游与文化》并写syy；官方2026春BA40008《旅游文化》列施媛媛。历史课程名有“与”字差异。",
+    "status": "当前教师名单匹配，历史课程代码及教师仍待核"
+  },
+  {
+    "alias": "hzg",
+    "official_teacher_candidate": null,
+    "official_course_candidate": null,
+    "basis": "资料交易帖出现“hzg旅游与文化笔记”；目标表中有教师后智钢（TOUR70007），但课程名不同，无法确认是同一课。",
+    "status": "误匹配风险，不作为证据"
+  },
+  {
+    "alias": "syl",
+    "official_teacher_candidate": "孙云龙（候选）",
+    "official_course_codes": [
+      "BA30063",
+      "TOUR70005"
+    ],
+    "basis": "求“syl旅游创新创业”往年题；目标课表两门不同课程有孙云龙，但目录无精确“旅游创新创业”课名。",
+    "status": "课程名不匹配，不作为师资或课号归属"
+  },
+  {
+    "alias": "微经",
+    "course_code": "ECON20003",
+    "source_floor": 5520362
+  },
+  {
+    "alias": "gy",
+    "teacher": "郭旸",
+    "source_floor": 5147068,
+    "note": "亦可能指管院，必须语境核验"
+  },
+  {
+    "alias": "wyg",
+    "teacher": "王永刚",
+    "source_floor": 4612046,
+    "note": "资料求购中与旅游与经济管理并列，只作为检索称呼"
+  },
+  {
+    "observed": "新中特",
+    "canonical_course": "新时代中国特色社会主义理论与实践",
+    "course_code": "GEIP40013",
+    "confidence": "high",
+    "note": "楼层3161442、1297877中的简称；1297877为历史问课，不能映射当前吴海江班。"
+  },
+  {
+    "observed": "微经",
+    "canonical_course": "微观经济学",
+    "course_code": "ECON20003",
+    "confidence": "high",
+    "note": "楼层2423870中的课程简称；发帖学期未明。"
+  },
+  {
+    "observed": "旅游与文化",
+    "canonical_course": "旅游文化",
+    "course_code": "BA40008",
+    "confidence": "medium",
+    "note": "楼层459603、459592、293504的课程写法；和目录名称相近且教师匹配，但均为历史帖子，历史课号/班级未证实。"
+  },
+  {
+    "observed": "马克思主义和社会科学方法论",
+    "canonical_course": "马克思主义与社会科学方法论",
+    "course_code": "GEIP40008",
+    "confidence": "high",
+    "note": "楼层2109958使用“和”替代官方题名中的“与”，帖子年份早于目标学期。"
+  },
+  {
+    "alias": "ws",
+    "possible_teacher": "王莎",
+    "course_code": "GEEC10420",
+    "basis": "338499号整洞中原问题直接写“ws旅游与经济管理”；官方2025秋该课教师含王莎。历史班未经原始教务记录核验。",
+    "status": "可能对应，保留历史班限制"
+  },
+  {
+    "alias": "hzg",
+    "possible_teacher": "后智钢",
+    "course_code": null,
+    "basis": "176192号整洞的原问题写全名“后智钢”；其问的旧课程名是“旅游与文化”。当前表中后智钢对应TOUR70007《旅游政策与法规》，题名不符；不要把这条旧体验映射过去。",
+    "status": "姓名明确，目标课程码不匹配"
+  },
+  {
+    "alias": "sy",
+    "possible_teacher": null,
+    "course_code": null,
+    "basis": "393489号非整洞窗口内floor5974139只问“sy给分咋样”，被引用的floor3610373不在本窗口，课程名及教师均不明。",
+    "status": "无法归属，不作映射"
+  },
+  {
+    "observed": "gy",
+    "mapped_to": "郭旸",
+    "source_floor_ids": [
+      3586034,
+      3587160,
+      3587167
+    ],
+    "confidence": "high",
+    "note": "微观经济学讨论上下文直接确认。"
+  },
+  {
+    "observed": "bzx",
+    "mapped_to": "巴兆祥",
+    "source_floor_ids": [
+      5212318
+    ],
+    "confidence": "high",
+    "note": "和《旅游资源学》课程同现，且与官方课表教师一致。"
+  },
+  {
+    "observed": "xl",
+    "mapped_to": "薛岚",
+    "source_floor_ids": [
+      5410230
+    ],
+    "confidence": "high",
+    "note": "与《旅游目的地管理》同现，和官方开课目录教师一致。"
+  },
+  {
+    "observed": "sh",
+    "mapped_to": "沈涵",
+    "source_floor_ids": [
+      5410230
+    ],
+    "confidence": "medium",
+    "note": "与《旅游消费者行为》同现，官方目录教师匹配；该课程有本科和研究生两个不同开课记录，原文未区分。"
+  },
+  {
+    "observed": "gyz",
+    "mapped_to": "郭英之",
+    "source_floor_ids": [
+      5410230
+    ],
+    "confidence": "medium",
+    "note": "原文在《旅游市场营销》后写出 initials；当前官方目录没有同名课程，故不映射到任何具体课号。"
+  },
+  {
+    "observed": "wc",
+    "mapped_to": null,
+    "source_floor_ids": [
+      3585596,
+      3585738,
+      3585757,
+      3585806,
+      3586718,
+      3586779,
+      3586788,
+      3587808
+    ],
+    "confidence": "unresolved",
+    "note": "英文班/平行班讨论中的教师代号，无法核实具体身份。"
+  }
+]
