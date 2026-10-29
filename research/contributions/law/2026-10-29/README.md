@@ -10,7 +10,7 @@
 
 ## 阅读入口
 
-- [课程名称清单](course-list.md)；[逐课贡献文件](courses/)（260个文件，参照仓库单课模板扩展为多学期／多教学班）。
+- [法学院课程名单](法学院课程名单.txt)（仅课程名称，每行一个，按名称去重共244项）；[详细课程目录](course-list.md)；[逐课贡献文件](courses/)（260个文件，参照仓库单课模板扩展为多学期／多教学班）。
 - [官方369班](official/sections.json)；[完整课程表CSV](official/timetable.csv)；[8份培养方案索引](official/programs.json)；[原件核验](official/program-verification.json)。
 - [中央证据摘要](summaries/evidence.json)；[范围统计](summaries/statistics.json)；[全文核读ID](ledgers/fulltext-reading-ids.json)；[采用／排除说明](ledgers/exclusions.json)。
 - [3550条检索执行记录](ledgers/search-queries.json)；[课程与教师检索变体](ledgers/search-variants.json)。

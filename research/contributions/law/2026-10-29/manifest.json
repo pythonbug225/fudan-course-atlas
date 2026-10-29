@@ -2,10 +2,11 @@
   "schema_version": 1,
   "batch_id": "law-20261029",
   "collected_at": "2026-10-29",
-  "exported_at": "2026-10-30T00:11:38+08:00",
+  "exported_at": "2026-10-30T00:19:19+08:00",
   "scope": {
     "programs": 8,
     "course_codes": 260,
+    "unique_course_names": 244,
     "sections": 369,
     "teachers": 124,
     "evidence_summaries": 223,
@@ -1385,8 +1386,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 3718,
-      "sha256": "53b3716a7ebcb65d2ad37b980b534ae6cf032f4fdc7d9ffb83203ad6dbccbc48"
+      "bytes": 3834,
+      "sha256": "d191cdf3927669f824dc16590d402bba2640c3086b04c52d5e0da6aa44460788"
     },
     {
       "path": "release-assets.json",
@@ -1407,6 +1408,11 @@
       "path": "validate.py",
       "bytes": 4499,
       "sha256": "692cfd22625f0f47837fb56c83cfeda4ce381e270a9171b169507f7aee62310d"
+    },
+    {
+      "path": "法学院课程名单.txt",
+      "bytes": 4936,
+      "sha256": "c54b1baaba70fa93d6082e080d158dba98a5b8314e2e90a4d787917ed63e2aa8"
     }
   ]
 }
