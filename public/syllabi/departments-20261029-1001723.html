@@ -1,0 +1,135 @@
+<!doctype html><html lang="zh-CN"><meta charset="utf-8"><body><h1>图数据管理与挖掘</h1><p>2025秋 · CS50027.01 · 郑卫国</p><p>来源：复旦教务系统教学大纲；正文整理。</p><h2>课程简介（中文）</h2><div style="white-space:pre-wrap">本课程主要任务是通过课堂教学、课后实践、课堂讨论，使学生了解和掌握图数据的常见算法和优化策略，包括经典的频繁模式挖掘、可达性查询、最短路查询、独立集、最大团、顶点覆盖、子图查询，以及近些年逐渐引起关注的近似查询、关键字查询、社团搜索、图可视化、图的表示学习等。</div><h2>课程简介（英文）</h2><div style="white-space:pre-wrap">The main objective of this course is to help students understand and master common algorithms and optimization strategies for graph data through classroom teaching, post-class practice, and in-class discussions. Topics include classic areas such as frequent pattern mining, reachability queries, shortest path queries, independent sets, maximum cliques, vertex covers, and subgraph queries, as well as emerging fields that have garnered increasing attention in recent years, such as approximate queries, keyword queries, community search, graph visualization, and graph representation learning.</div><h2>教学目标</h2><div style="white-space:pre-wrap">本课程系统性地讲授图数据的管理与挖掘技术，核心聚焦于各类核心算法的设计理念、理论分析与实现。通过本课程的学习，学生将不仅能掌握如图遍历、频繁模式挖掘、最短路径、子图匹配、社团发现等经典图算法，还将深入了解针对大规模图数据的常用优化策略与计算模型，例如基于共享的并行计算、增量计算、索引技术以及图划分策略等。课程旨在培养学生将抽象的图论模型与具体应用场景相结合的能力，使其能够针对社交网络分析、智能推荐系统、网络安全、智能交通等实际领域中的复杂图数据，设计出高效、可扩展的解决方案，从而具备解决现实世界问题的核心竞争力。</div><h2>教学方式</h2><div style="white-space:pre-wrap">本课程以主讲教师讲授为主，兼以课堂学生对若干具体问题分析讨论；通过课后作业对课堂所学内容进行回顾、总结；并用课堂所学知识，解决图管理和挖掘的相关问题。</div><h2>教学内容与进度安排</h2><div style="white-space:pre-wrap">教学内容安排 （具体到每节课内容）
+
+第一周：图数据管理和挖掘概论
+
+1 图数据管理的发展和现状
+
+2 典型图数据及其应用
+
+3 图数据管理和挖掘技术
+
+教学目标：了解图数据的发展以及基本概念
+
+第二周：频繁序列挖掘和频繁子树、子图挖掘
+
+  1 频繁序列挖掘
+
+  2 频繁子树挖掘
+
+  3 频繁子图挖掘
+
+教学目标：掌握频繁模式挖掘关键算法
+
+第三周：图存储及基础算子
+
+  1 图存储技术，图压缩技术
+
+  2 图遍历算子优化，集合交集算子
+
+教学目标：掌握图数据存储和遍历、集合操作等主流算法。
+
+第四周：可达性查询和最短路径查询
+
+  1 可达性查询
+
+  2 最短路径查询
+
+教学目标：了解可达性查询、路径查询等算法设计和分析技术。
+
+第五周：独立集计算和顶点覆盖
+
+  1 最大独立集、最大团
+
+  2 动态图上的独立集计算
+
+教学目标：掌握独立集计算算法和顶点覆盖求解技术。
+
+第六周：子图查询
+
+  1 传统的子图查询
+
+  2 基于特征的子图查询
+
+教学目标：熟悉子图查询基础算法和新技术。
+
+第七周：图近似查询
+
+       1 小图上的近似检索
+
+       2 大图的近似查询
+
+教学目标：掌握图数据近似检索算法。
+
+第八周：SimRank
+
+      1 所有点对的SimRank计算
+
+      2 部分点集的SimRank
+
+      3 基于索引的SimRank计算
+
+教学目标：了解可顶点相似性计算关键算法。
+
+第九周：课堂研讨和展示1
+
+  1 可达性、最短路查询算法实现及展示
+
+  2 独立集、顶点覆盖、子图查询算法实现及展示
+
+教学目标：交流在可达性、最短路、独立集、子图查询等方面的技术发展和学习体会，进行其中检查。
+
+第十周：子图skyline查询
+
+  1 skyline
+
+      2 子图skyline查询
+
+教学目标：熟悉子图分析关键技术。
+
+第十一周：关键字查询
+
+  1 斯坦纳树
+
+  2 关键字查询
+
+教学目标：熟悉图数据关键词查询算法。
+
+第十二周：社团搜索
+
+  1 社团查询
+
+  2 基于属性的社团搜索
+
+教学目标：了解社团搜索算法设计和分析关键技术。
+
+第十三周：图的表示学习
+
+  1 TransE、TransH、TransR
+
+  2 图表示学习的应用
+
+教学目标：熟悉图表示学习经典模型与新技术。
+
+第十四周：分布式图计算
+
+      1 分布式图计算框架
+
+      2 分布式图划分算法
+
+教学目标：熟悉大规模图数据算法处理的分布式图计算高效技术。
+
+第十五周：图数据库
+
+  1 典型的图数据库
+
+  2 图数据库查询语言
+
+教学目标：了解图数据库的发展与应用。
+
+第十六周：课堂研讨和展示2
+
+  1 SimRank算法、图近似算法设计及展示
+
+  2 关键字查询、社团搜索算法设计及展示
+
+教学目标：对后半学期课程的内容进行汇总学习，交流相关算法的思考和优化。</div><h2>考核方式</h2><div style="white-space:pre-wrap">出勤Attendance 10.0%（正常全勤）；汇报Presentation 30.0%（准确、清晰地介绍相关图算法，并针对现有方法的不足设计自己的思路和解决方案）；课题研讨Topic Discussion 30.0%（准确、清晰地介绍相关图算法，并有自己的思考）；课题论文Research Paper 30.0%（论文结构清晰、完整，书写规范、算法有较好的创新性）</div><h2>考核构成</h2><ul><li>出勤Attendance 10.0% 正常全勤</li><li>汇报Presentation 30.0% 准确、清晰地介绍相关图算法，并针对现有方法的不足设计自己的思路和解决方案</li><li>课题研讨Topic Discussion 30.0% 准确、清晰地介绍相关图算法，并有自己的思考</li><li>课题论文Research Paper 30.0% 论文结构清晰、完整，书写规范、算法有较好的创新性</li></ul></body></html>

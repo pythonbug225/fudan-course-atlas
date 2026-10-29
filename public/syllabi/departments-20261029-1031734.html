@@ -1,0 +1,413 @@
+<!doctype html><html lang="zh-CN"><meta charset="utf-8"><body><h1>智能体建模与计算社会科学</h1><p>2026春 · AIT531024.01 · 吴力波、陈斌</p><p>来源：复旦教务系统教学大纲；正文整理。</p><h2>课程简介（中文）</h2><div style="white-space:pre-wrap">《智能体建模与计算社会科学》是一门面向研究生的跨学科课程，旨在教授学生如何运用计算社会科学的方法和Agent-Based Modeling（ABM）思想来分析和解决复杂的社会问题。本课程深入探讨社会系统的复杂性以及如何在大数据时代背景下利用先进算法对海量数据进行处理和分析，从而更好地理解社会现象。通过结合社会学、经济学等多个学科的理论，本课程为学生提供了一种全新的研究视角和研究方法，使其能够在人工智能与社会科学的交叉领域中建立系统的知识体系。</div><h2>课程简介（英文）</h2><div style="white-space:pre-wrap">Agent-Based Modeling and Computational Social Science is an interdisciplinary graduate-level course designed to teach students how to use computational social science methods and the principles of agent-based modeling (ABM) to analyze and address complex social problems. The course examines the complexity of social systems and explores how advanced algorithms can be leveraged in the era of big data to process and analyze massive datasets, thereby enabling deeper understanding of social phenomena. Drawing on theories from sociology, economics, and related disciplines, the course offers students a new research perspective and methodological toolkit, helping them build a systematic body of knowledge at the intersection of artificial intelligence and the social sciences.</div><h2>教学目标</h2><div style="white-space:pre-wrap">理解计算社会科学的基本概念和理论框架，掌握Agent-Based Modeling的基本原理和建模方法。
+
+学习并应用经典ABM建模结构，能够独立设计和实施ABM模型来分析社会问题。
+
+掌握与人工智能交叉的前沿算法，了解其在社会科学研究中的应用和潜力。
+
+能够基于现有平台/框架搭建具备角色设定、记忆与工具调用等能力的AI智能体，并用于开展交互模拟或任务执行。
+
+培养跨学科思维，提升分析和解决复杂社会问题的能力。</div><h2>教学方式</h2><div style="white-space:pre-wrap">本课程采用“理论讲授+案例研讨+上机实训+项目制学习”的混合教学。通过经典模型复现与对照实验，训练学生完成问题抽象、规则设定、仿真运行、参数扫描与敏感性分析，并以可复现规范（代码、参数、日志）贯穿全过程。结合AI前沿方法与平台实操，引导学生搭建具备角色设定、记忆与工具调用的AI Agent开展交互模拟。最终以真实议题项目驱动，提升跨学科分析与解决复杂社会问题的能力。</div><h2>教学内容与进度安排</h2><div style="white-space:pre-wrap">模块
+
+
+
+教学周
+
+
+
+教学内容
+
+
+
+作业
+
+
+
+
+
+
+1
+
+
+
+第1周
+
+
+
+【计算社会科学导论】
+
+1. 计算社会科学（CSS）基本概念和动机
+
+2. 社会学科的一般计算范式、CSS全新研究范式、观点“CSS是一种工具驱动的科学”
+
+3. 社会——复杂系统：举例说明自然系统与人类社会经济系统的交互耦合
+
+4. 计算社会科学与大数据案例：从社会信息的自动化提取、社交网络、社会模拟建模三个角度入手，阐述大数据技术如何帮助社会科学
+
+
+
+
+
+
+
+
+
+
+第2周
+
+
+
+【社会系统复杂性与涌现】
+
+1.       社会系统的复杂性特征
+
+2.       自组织与涌现现象
+
+3.       从个体行为到群体行为
+
+
+
+
+
+
+
+
+
+
+2
+
+
+
+第3周
+
+
+
+【ABM基础：计算社会科学视角】
+
+1.       ABM的定义与特征
+
+2.       ABM建模范式
+
+3.       ABM与其他社会科学建模方法的对比
+
+4.       ABM的应用领域与挑战
+
+
+
+
+
+
+
+
+
+
+第4周
+
+
+
+【ABM基础：CSS主体、环境、基于规则的建模】
+
+1.       CSS主体模型的设计与构建
+
+2.       CSS主体行为与规则抽象
+
+3.       CSS环境与交互设计
+
+4.       案例分析：气候俱乐部
+
+
+
+
+
+
+
+
+
+
+第5周
+
+
+
+【ABM基础：基于优化的建模与CSS优化问题】
+
+1.         优化基础：定义、经典优化类型、优化算法
+
+2.         理解社会系统中的优化，如最优资源分配、行为策略的最优化
+
+3.         ABM与优化的结合：主体的决策优化、从优化问题转换为ABM中的行为规则
+
+4.         案例分析：市场博弈中的定价优化、城市交通管理模拟
+
+
+
+编程作业：基于优化的ABM
+
+
+
+
+
+
+第6周
+
+
+
+【ABM基础：基于强化学习的建模与CSS决策问题】
+
+1.         强化学习概述
+
+2.         主体与环境的相互作用
+
+3.         状态和动作空间的设计
+
+4.         ABM框架下的强化学习与社会行为的结合
+
+5.         案例分析：电力市场交易
+
+
+
+
+
+
+
+
+
+
+3
+
+
+
+第7周
+
+
+
+【多主体建模：博弈与决策】
+
+1.       主体决策理论（理性与有限理性）
+
+2.       博弈论与社会行为模型
+
+3.       均衡目标下的博弈论与强化学习：Nash Q-learning、Stackelberg均衡学习
+
+4.       案例分析：囚徒困境的强化学习表示
+
+
+
+
+
+
+
+
+
+
+第8周
+
+
+
+【多主体建模：博弈与决策】
+
+1.         博弈论中合作与竞争的动态过程
+
+2.         合作-竞争强化学习建模
+
+3.         案例分析：friend or foe电力市场垄断建模
+
+4.         均衡之外的视角：对手建模
+
+5.         案例分析：SOM电厂推理竞价
+
+
+
+编程作业：基于强化学习的ABM
+
+
+
+
+
+
+第10周
+
+
+
+【多主体建模：复杂网络与群体智能】
+
+1.       复杂社会网络与信息传播
+
+2.       复杂网络的信息扩散与ABM建模
+
+3.       案例分析：名誉与纳税建模
+
+
+
+
+
+
+
+
+
+
+第11周
+
+
+
+【多主体建模：复杂网络与群体智能】
+
+1.         群体行为中的认知偏差与情绪影响
+
+2.         群体动力学与集体行为
+
+3.         ABM的隐性网络结构与信息的非显性传播
+
+4.         案例：股市中的群体行为模拟、能源系统的投资模仿与学习
+
+
+
+
+
+
+
+
+
+
+4
+
+
+
+第12周
+
+
+
+【ABM与大语言模型】
+
+1.         Role-Playing Language Agents
+
+2.         AI智能体平台介绍
+
+3.         案例分析：市场拍卖建模
+
+
+
+编程作业：基于LLM的ABM
+
+
+
+
+
+
+第13周
+
+
+
+【ABM与大语言模型】
+
+1.         如何增强Role-Playing Language Agents建模
+
+2.         基于Role-Playing Language Agents实现个体驱动的决策
+
+3.         基于Dify平台搭建具备角色设定、记忆与工具调用等能力的AI智能体
+
+4.         案例分析：小说人物与未来情节模拟
+
+
+
+
+
+
+
+
+
+
+5
+
+
+
+第14周
+
+
+
+答疑&amp;讨论：人工智能ABM在具体的社会科学问题中的应用
+
+
+
+
+
+
+
+
+
+
+15-16周
+
+
+
+学生课程PJ汇报，形式根据最终选课人数确定</div><h2>教学参考资料</h2><div style="white-space:pre-wrap">序号
+
+No.
+
+
+
+名称
+
+Title
+
+
+
+编著者
+
+Author(s)
+
+
+
+标准书号
+
+ISBN
+
+
+
+出版机构
+
+Publisher
+
+
+
+
+
+
+1
+
+
+
+Introduction to Computational Social Science
+
+
+
+Claudio Cioffi-Revilla
+
+
+
+9783319501307
+
+
+
+Springer
+
+
+
+
+
+
+2
+
+
+
+Agent-Based Modelling in Economics
+
+
+
+Lynne Hamill and Nigel Gilbert
+
+
+
+9781118456071
+
+
+
+Wiley</div><h2>考核方式</h2><div style="white-space:pre-wrap">出勤Attendance 10.0%（缺勤一次扣1分）；课堂表现Participation 10.0%（根据课堂汇报表现、积极思考及问题提问的参与度评分）；作业/实验/实践Assignment 30.0%（根据作业的完成质量打分，满分40分，由任课教师评分。）；课题论文Research Paper 40.0%（根据课程论文完成的质量打分，主要从逻辑思维、书面表达、分析思路与框架、分析结果、理论知识的应用等维度进行评价，满分40分，由任课教师评分。）；汇报Presentation 10.0%（根据课程要求汇报一次，主要从PPT展示、汇报深度和表达等维度评价，由任课教师打分。）</div><h2>考核构成</h2><ul><li>出勤Attendance 10.0% 缺勤一次扣1分</li><li>课堂表现Participation 10.0% 根据课堂汇报表现、积极思考及问题提问的参与度评分</li><li>作业/实验/实践Assignment 30.0% 根据作业的完成质量打分，满分40分，由任课教师评分。</li><li>课题论文Research Paper 40.0% 根据课程论文完成的质量打分，主要从逻辑思维、书面表达、分析思路与框架、分析结果、理论知识的应用等维度进行评价，满分40分，由任课教师评分。</li><li>汇报Presentation 10.0% 根据课程要求汇报一次，主要从PPT展示、汇报深度和表达等维度评价，由任课教师打分。</li></ul></body></html>
