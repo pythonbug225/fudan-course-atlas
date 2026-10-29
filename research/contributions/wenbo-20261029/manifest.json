@@ -1,0 +1,197 @@
+{
+  "schema_version": 1,
+  "department": "文物与博物馆学系",
+  "as_of": "2026-10-29",
+  "scope": {
+    "official_plans": 7,
+    "teaching_classes": 157,
+    "unique_course_codes": 133,
+    "queries_per_platform": 892,
+    "platform_query_status": {
+      "旦挞树洞": {
+        "completed": 892
+      },
+      "蛋壳课评": {
+        "completed": 892
+      }
+    },
+    "forum_raw_unique_hits": 17956,
+    "forum_full_read_unique": 1485,
+    "forum_prefix_only_unique": 664,
+    "danke_reviews_fetched": 43,
+    "danke_reviews_full_read": 43,
+    "evidence_rows": 220,
+    "experience_rows": 135,
+    "discussion_rows": 85,
+    "courses_with_experience": 28,
+    "courses_with_any_evidence": 41,
+    "forum_candidate_count": 2000,
+    "forum_read_count_includes_context": true,
+    "danke_detail_status": {
+      "groups": {
+        "completed_no_target_course": 46,
+        "completed": 193
+      },
+      "courses": {
+        "completed": 1363
+      }
+    },
+    "context_holes_status": {
+      "completed": 24
+    },
+    "external_platform_status": "小红书、知乎、微信公众号站内全量检索未完成"
+  },
+  "files": [
+    {
+      "path": ".gitattributes",
+      "bytes": 110,
+      "sha256": "a645734fc60b9ae97bf5013b5abae4bd61314cba9334f85fdd4397d924a8bb82"
+    },
+    {
+      "path": "course-summaries.md",
+      "bytes": 113959,
+      "sha256": "15b19b91850f6ac58e4d19f1b8c5145cdc98dc6fa2fd2facbd31ed0b478420c3"
+    },
+    {
+      "path": "download-manifest.json",
+      "bytes": 732,
+      "sha256": "77549fa9fe5976c164ad0deeb96627f68ce6d34b73a6c2bc6756045e7eebbc50"
+    },
+    {
+      "path": "ledgers/public-platform-gaps.csv",
+      "bytes": 806225,
+      "sha256": "a837893366b530da99e4935a30d5e7424d9a833b1ecd6500f406a8cf1a71eb38"
+    },
+    {
+      "path": "ledgers/public-searches.json",
+      "bytes": 8165,
+      "sha256": "6c53c262204d06cdc1634c0ac4f6fd888fd49b6061f3c0f92abb36dd991750b6"
+    },
+    {
+      "path": "ledgers/public-sources.json",
+      "bytes": 5184,
+      "sha256": "51bfac22546dd4d699f8024e9c40fea45938e3346c983e28409ead497afd6b2b"
+    },
+    {
+      "path": "ledgers/public-summary.md",
+      "bytes": 3358,
+      "sha256": "dbc055fa4dc3d3c7b49d217cb2147a01cea921c2bc66761965cf035f893e5f72"
+    },
+    {
+      "path": "ledgers/queries.csv",
+      "bytes": 688368,
+      "sha256": "fcd4930c5ae2e296262d811addccfc654bf019beab737482aa0dfb3386b7187e"
+    },
+    {
+      "path": "ledgers/read-audit.json",
+      "bytes": 76337,
+      "sha256": "9308b329374af7e4590913fc1b4c57a3f2d9737c816e4120cd2da33a1e4bd1d6"
+    },
+    {
+      "path": "ledgers/xhs-blocked.md",
+      "bytes": 1801,
+      "sha256": "5134d71423107e0ec5ff27657eb98c3ae2ac93dc09b55733ba5842abb6cbed82"
+    },
+    {
+      "path": "ledgers/xhs-searches.csv",
+      "bytes": 482,
+      "sha256": "4f40252a555ee10ad8896bf2197107320d12e2fb77267f1f93ac560afeffd6e7"
+    },
+    {
+      "path": "official/courses.csv",
+      "bytes": 53374,
+      "sha256": "7e6bc42d0d9e8a33558da51a549b8094f4007b4249354c501c505fd5ddd95f4f"
+    },
+    {
+      "path": "official/courses.json",
+      "bytes": 109552,
+      "sha256": "f67c34d46868b77edccb0931383f4fde8fec81648ff3b94cdcd1ce85b56eaf9e"
+    },
+    {
+      "path": "official/offerings.csv",
+      "bytes": 58348,
+      "sha256": "1f4e3a83810de9fcd662005a3e219b1699bfdcc5b0f93901ae87128ccc6e0115"
+    },
+    {
+      "path": "official/offerings.json",
+      "bytes": 120476,
+      "sha256": "8f84c1cd96fca9b545fc4bc97e8d59d4a94c25bf4f53fb8ba0898d36757a3716"
+    },
+    {
+      "path": "official/programme-courses.json",
+      "bytes": 1525735,
+      "sha256": "6c15b1117a9b989db59847f102ecf2e79498eb1a9702ff07b498df7c911bfe10"
+    },
+    {
+      "path": "official/programmes.json",
+      "bytes": 7677,
+      "sha256": "763a08c576636f836f20010c9aae6ed76511361fa2f1a419a7e203063de925f8"
+    },
+    {
+      "path": "official/README.md",
+      "bytes": 2809,
+      "sha256": "7f53c8f5b4746c46bde06e22bbac4e54f87814e54a56cdfc6997e8a85e3fe93e"
+    },
+    {
+      "path": "official/statistics.json",
+      "bytes": 11048,
+      "sha256": "abc224719819790605e0502df8abbc1d411bc93ecad0d85e1f1190da2bba9f6d"
+    },
+    {
+      "path": "README.md",
+      "bytes": 4777,
+      "sha256": "018701989bdc038bf963d3c3f675b787126cc93413263d5dd999c5dffd51e807"
+    },
+    {
+      "path": "summaries/aliases.json",
+      "bytes": 1968,
+      "sha256": "4c025ac80fe04414e09ee5a127d5d85bf0a4cddf8a3fc05512a1eb3e965540b7"
+    },
+    {
+      "path": "summaries/courses.csv",
+      "bytes": 48914,
+      "sha256": "a3faa312f6c1fe35d3f00c93cb6a5000e2e07978bb1bfc7d8ba1a1b06cd2e70d"
+    },
+    {
+      "path": "summaries/courses.json",
+      "bytes": 87577,
+      "sha256": "c3b38d4e30a27bab10046470b1a82923fc1b6cb6a3330fd3c8d79530ac8e752d"
+    },
+    {
+      "path": "summaries/evidence.csv",
+      "bytes": 87865,
+      "sha256": "4db41decc6aca9dd21d51f16f30eaa29f03441fbc8b74f5eb0690ed4cc7f36c6"
+    },
+    {
+      "path": "summaries/evidence.json",
+      "bytes": 156798,
+      "sha256": "8a9ffc7e9556336f548bb43feae583fd19bed895b463fb5264815e5a79047b7c"
+    },
+    {
+      "path": "summaries/statistics.json",
+      "bytes": 953,
+      "sha256": "ecd25f9132418e2b0af92f7b2099250df1c1c897478f2003203926f333a5c20c"
+    },
+    {
+      "path": "summaries/unresolved.json",
+      "bytes": 26581,
+      "sha256": "b0f5fb1b49c898e54261337fdaa56bb9dee162b407737688ad76582792e9c97a"
+    },
+    {
+      "path": "文博系课程名单.txt",
+      "bytes": 3090,
+      "sha256": "772e56092694fe3c2462505303d07ed2b1e662a55a71263a553e98d1eea1d65f"
+    }
+  ],
+  "release": {
+    "schema_version": 1,
+    "tag": "wenbo-research-20261029",
+    "release_url": "https://github.com/pythonbug225/fudan-course-atlas/releases/tag/wenbo-research-20261029",
+    "filename": "wenbo-research-20261029.zip",
+    "download_url": "https://github.com/pythonbug225/fudan-course-atlas/releases/download/wenbo-research-20261029/wenbo-research-20261029.zip",
+    "bytes": 5145452,
+    "sha256": "0fadb6c2b9ef66c06025e1e313980d63510c7cc581f4177090e084e6c1b8aaa3",
+    "content": "7份官方Word原件、官方原始响应、157班开课表、133课程索引、220条匿名释义记录、检索与阅读台账、离线HTML报告",
+    "excluded": "采集脚本、认证会话、凭据、个人身份与未整理论坛全文不在公开包内"
+  }
+}
