@@ -1,6 +1,6 @@
 # 外国语言文学学院：2026培养方案与2025秋—2026春课程研究
 
-[下载完整最终资料包](https://github.com/pythonbug225/fudan-course-atlas/releases/download/foreign-languages-20261028/fudan-foreign-languages-20261028-final.zip) · [Release说明与校验](https://github.com/pythonbug225/fudan-course-atlas/releases/tag/foreign-languages-20261028) · [35门课程综合导读](GUIDE.md) · [455课号结构化记录](courses/) · [Excel索引](reports/course-research-index.xlsx)
+[下载完整最终资料包](https://github.com/pythonbug225/fudan-course-atlas/releases/download/foreign-languages-20261028/fudan-foreign-languages-20261028-final.zip) · [Release说明与校验](https://github.com/pythonbug225/fudan-course-atlas/releases/tag/foreign-languages-20261028) · [35门课程综合导读](GUIDE.md) · [455课号结构化记录](courses/) · [课程名称清单（每行一门）](data/course-names.txt) · [Excel索引](reports/course-research-index.xlsx)
 
 解压资料包后打开“课程研究报告.html”，可离线检索课程、教师及评价。培养方案Word原件和完整接口JSON放在Release，避免将大体积原件重复放进Git历史。本目录保存便于复核与接入课程库的结构化贡献；网站既有catalog及线上部署本批没有改动。
 
@@ -12,6 +12,12 @@
 - 树洞初始267楼层逐条核读，另核查教师查询中同楼层有课程全名的148楼层（34条重合）；最终采用44条匿名证据。相关上下文按审计核查，不声称全部机器噪音命中或所有无关楼层均已读。
 - 课评区筛得64个历史班、80个唯一评价引用，全部核读；加2条旧目录记录共82条核读、75条采用记录。其中DANKE-1677正文疑似截断，不用于实质结论；极短态度词不支撑考核/给分推断。
 - 合并外部来源后共122条采用证据，关联43个目标课号；35门课有足够内容形成综合总结。证据记录数不等于独立学生人数。
+
+## 课程名称清单
+
+[data/course-names.txt](data/course-names.txt) 仅含课程名称，每行一个，精确去重后共565个名称；保留官方和现有目录中的标点、罗马数字等名称变体，便于后续搜索。
+
+清单合并2025秋与2026春官方外院开课表、2026级培养方案中开课院系明确为外院的课程，以及仓库既有课程目录中明确有外院开课班次的名称。跨院系双学位方案中由其他院系开设的课程未纳入。清单覆盖这些现有资料，并非学校全部历史与未来开课的完整目录；后续获取新学期或更多培养方案时可继续增补。
 
 ## 来源边界
 
