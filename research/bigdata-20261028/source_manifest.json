@@ -1,0 +1,1907 @@
+{
+  "prepared_at_local": "2026-10-29",
+  "department_filter": "official schedule department.nameZh == 大数据学院",
+  "schedule_sources": [
+    {
+      "path": "official_index_504.json",
+      "sha256": "64bb98e6ab11c5a3867e254dfaee6d883b85db8523ace8f5b28a18b4297bffd4"
+    },
+    {
+      "path": "official_index_505.json",
+      "sha256": "1bd4d9a3085a551b2fabfa6f81021c06709fa01997452a672a37b423077599d2"
+    },
+    {
+      "path": "official_lesson_index.json",
+      "sha256": "5d1b83c997bea380e0cb5a976a25e4c17d2121dbb0ce6ec38c9366f5085bb01f"
+    }
+  ],
+  "terms": {
+    "2025秋": {
+      "semester_id": 504,
+      "sections": 67,
+      "unique_course_codes": 45,
+      "unique_course_codes_list": [
+        "000.000.6",
+        "AIB110003",
+        "AIB119004",
+        "AIS410010",
+        "AIT531023",
+        "CS20017",
+        "CS20017h",
+        "CS20018",
+        "CS30065",
+        "CS40022",
+        "CS50019",
+        "CS50020",
+        "CS50021",
+        "CS50023",
+        "CS50024",
+        "CS50027",
+        "CS50031",
+        "EIE60003",
+        "GEEC10072",
+        "GESP20003",
+        "MAS60001",
+        "MAS70001",
+        "MATH10003",
+        "MATH10012",
+        "MATH20007",
+        "MATH20007h",
+        "MATH50010",
+        "MATH50011",
+        "MATH50013",
+        "MATH50014",
+        "MF40001",
+        "STAT20011",
+        "STAT30015",
+        "STAT30016",
+        "STAT40004",
+        "STAT40010",
+        "STAT40011",
+        "STAT40013",
+        "STAT50023",
+        "STAT50024",
+        "STAT50035",
+        "STAT70007",
+        "STAT70008",
+        "STAT70012",
+        "STAT70013"
+      ]
+    },
+    "2026春": {
+      "semester_id": 505,
+      "sections": 79,
+      "unique_course_codes": 43,
+      "unique_course_codes_list": [
+        "AIB110003",
+        "AIT531024",
+        "CS20019",
+        "CS30064",
+        "CS40008",
+        "CS40022",
+        "CS50026",
+        "CS50028",
+        "CS50029",
+        "CS50030",
+        "CS60003",
+        "CS60004",
+        "CS80001",
+        "GESP10004",
+        "GESP20004",
+        "MAS50001",
+        "MATH10003",
+        "MATH10013",
+        "MATH20008",
+        "MATH20008h",
+        "MATH50009",
+        "MATH50012",
+        "MF50002",
+        "PHIL50006",
+        "STAT20010",
+        "STAT20010h",
+        "STAT40004",
+        "STAT40005",
+        "STAT40008",
+        "STAT40016",
+        "STAT50017",
+        "STAT50020",
+        "STAT50021",
+        "STAT50022",
+        "STAT50025",
+        "STAT50026",
+        "STAT50028",
+        "STAT50029",
+        "STAT50031",
+        "STAT50033",
+        "STAT50034",
+        "STAT60007",
+        "STAT70002"
+      ]
+    }
+  },
+  "syllabus_retrieval": {
+    "retrieval_attempts": 146,
+    "body_retrieved": 83,
+    "http_500": 63,
+    "not_returned_in_live_batch": 0,
+    "by_term": {
+      "2025秋": {
+        "http_500": 27,
+        "body_retrieved": 40
+      },
+      "2026春": {
+        "body_retrieved": 43,
+        "http_500": 36
+      }
+    },
+    "inventory": [
+      {
+        "term": "2025秋",
+        "offering_id": "1028475",
+        "section_code": "000.000.6.05",
+        "course_code": "000.000.6",
+        "retrieval_status": "http_500",
+        "file": "outline_errors/1028475.json",
+        "sha256": "627aeb71f58eb6aa833c4973d3fe7a0a65b2a929504de986f74dcf9212cb94bd"
+      },
+      {
+        "term": "2025秋",
+        "offering_id": "1031231",
+        "section_code": "000.000.6.06",
+        "course_code": "000.000.6",
+        "retrieval_status": "http_500",
+        "file": "outline_errors/1031231.json",
+        "sha256": "d3fc24bffd09902b9f2d1230ff26b1f3cbd7670755b05427cdc374527328b990"
+      },
+      {
+        "term": "2025秋",
+        "offering_id": "1001721",
+        "section_code": "AIB110003.06",
+        "course_code": "AIB110003",
+        "retrieval_status": "body_retrieved",
+        "file": "outlines_live/1001721.json",
+        "sha256": "919be2054531a95438391aa86c3af80e371ad46ee1d572e1d2f33f2447e578b7"
+      },
+      {
+        "term": "2025秋",
+        "offering_id": "1001730",
+        "section_code": "AIB119004.01",
+        "course_code": "AIB119004",
+        "retrieval_status": "body_retrieved",
+        "file": "outlines_live/1001730.json",
+        "sha256": "e9b9bcbe67fcd077d70b640f9cbac30c71d22fa81c583a34e5587c9f665d3f7c"
+      },
+      {
+        "term": "2025秋",
+        "offering_id": "1003025",
+        "section_code": "AIS410010.01",
+        "course_code": "AIS410010",
+        "retrieval_status": "body_retrieved",
+        "file": "outlines_live/1003025.json",
+        "sha256": "c88374524158f31ebe675d3fadf3d45408577924d8910491ce0b04eb719b033d"
+      },
+      {
+        "term": "2025秋",
+        "offering_id": "1007656",
+        "section_code": "AIT531023.02",
+        "course_code": "AIT531023",
+        "retrieval_status": "body_retrieved",
+        "file": "outlines_live/1007656.json",
+        "sha256": "b423a1073b5a98dff1b4ce6a52629262086d68d0384c8df1b8fb91f0bb2231fa"
+      },
+      {
+        "term": "2025秋",
+        "offering_id": "1001737",
+        "section_code": "CS20017.01",
+        "course_code": "CS20017",
+        "retrieval_status": "body_retrieved",
+        "file": "outlines_live/1001737.json",
+        "sha256": "4137e372eda2de5c6bdab52e651546de1e0787da5fbb757a5b55c2a1ffee3d7a"
+      },
+      {
+        "term": "2025秋",
+        "offering_id": "1001741",
+        "section_code": "CS20017h.01",
+        "course_code": "CS20017h",
+        "retrieval_status": "body_retrieved",
+        "file": "outlines_live/1001741.json",
+        "sha256": "a1c670956979dca452e736b5eff2b3f5ac5baf382bd21417c8423d5a90273c0f"
+      },
+      {
+        "term": "2025秋",
+        "offering_id": "1001740",
+        "section_code": "CS20018.01",
+        "course_code": "CS20018",
+        "retrieval_status": "body_retrieved",
+        "file": "outlines_live/1001740.json",
+        "sha256": "0525d635b0d549f5027f584ca375311f0b6bad8092870a2b024bc8b48eff783a"
+      },
+      {
+        "term": "2025秋",
+        "offering_id": "1001731",
+        "section_code": "CS30065.01",
+        "course_code": "CS30065",
+        "retrieval_status": "body_retrieved",
+        "file": "outlines_live/1001731.json",
+        "sha256": "b72187f1c8751b07bec7de959604c747946546e1700744ead3e88045ce26a0ee"
+      },
+      {
+        "term": "2025秋",
+        "offering_id": "1001718",
+        "section_code": "CS40022.02",
+        "course_code": "CS40022",
+        "retrieval_status": "http_500",
+        "file": "outline_errors/1001718.json",
+        "sha256": "b80d3b7afb07d2d442d24735086c5af0f4a34324cf4255d59640193faeb4678c"
+      },
+      {
+        "term": "2025秋",
+        "offering_id": "1001726",
+        "section_code": "CS50019.01",
+        "course_code": "CS50019",
+        "retrieval_status": "body_retrieved",
+        "file": "outlines_live/1001726.json",
+        "sha256": "0710fa4c7516e7f2a3480cd7e8e8cdec0e2f56025a3a7572e5aaf3a0d4b53f10"
+      },
+      {
+        "term": "2025秋",
+        "offering_id": "1001742",
+        "section_code": "CS50020.01",
+        "course_code": "CS50020",
+        "retrieval_status": "body_retrieved",
+        "file": "outlines_live/1001742.json",
+        "sha256": "77e23605e0a0a9e2f89954f3bc497edc6cd5363f6060fbd07390178cd1597948"
+      },
+      {
+        "term": "2025秋",
+        "offering_id": "1001717",
+        "section_code": "CS50021.01",
+        "course_code": "CS50021",
+        "retrieval_status": "body_retrieved",
+        "file": "outlines_live/1001717.json",
+        "sha256": "dcc409b7b222dbb0a63ff027af8f076ae110a48454265821c5a95406ce65a2df"
+      },
+      {
+        "term": "2025秋",
+        "offering_id": "1014528",
+        "section_code": "CS50023.01",
+        "course_code": "CS50023",
+        "retrieval_status": "body_retrieved",
+        "file": "outlines_live/1014528.json",
+        "sha256": "1abcdb80e2be06c6e2be3fdac19e676633c09027077582001422ab82401e057e"
+      },
+      {
+        "term": "2025秋",
+        "offering_id": "1001713",
+        "section_code": "CS50024.01",
+        "course_code": "CS50024",
+        "retrieval_status": "body_retrieved",
+        "file": "outlines_live/1001713.json",
+        "sha256": "b4d5d3028b15671fad628e4706c91ec6a2e116a38add28afbe59cf3b6d71b59f"
+      },
+      {
+        "term": "2025秋",
+        "offering_id": "1001723",
+        "section_code": "CS50027.01",
+        "course_code": "CS50027",
+        "retrieval_status": "body_retrieved",
+        "file": "outlines_live/1001723.json",
+        "sha256": "b6c0d97a2dc7352101f33138983755e7fd08f3249fa1b24c5bbd8336c2c68c3a"
+      },
+      {
+        "term": "2025秋",
+        "offering_id": "1001710",
+        "section_code": "CS50031.01",
+        "course_code": "CS50031",
+        "retrieval_status": "body_retrieved",
+        "file": "outlines_live/1001710.json",
+        "sha256": "8e09db4f214b489e1bf1583e3c583370f15edaa6aded13879ef1b714b74795fc"
+      },
+      {
+        "term": "2025秋",
+        "offering_id": "1007135",
+        "section_code": "EIE60003.01",
+        "course_code": "EIE60003",
+        "retrieval_status": "body_retrieved",
+        "file": "outlines_live/1007135.json",
+        "sha256": "8a3d915231782e72a78585a046179996642f1c96fdc7faa7c56f4736c143adf4"
+      },
+      {
+        "term": "2025秋",
+        "offering_id": "1015508",
+        "section_code": "GEEC10072.09",
+        "course_code": "GEEC10072",
+        "retrieval_status": "body_retrieved",
+        "file": "outlines_live/1015508.json",
+        "sha256": "1876bd136da377e790987cb4a2c4ca71ae8f664266397e01f56aaf92002a952f"
+      },
+      {
+        "term": "2025秋",
+        "offering_id": "1016456",
+        "section_code": "GESP20003.023",
+        "course_code": "GESP20003",
+        "retrieval_status": "http_500",
+        "file": "outline_errors/1016456.json",
+        "sha256": "e0063ac5bbc9ce5dd1a221a1c79d6b788ae0366949086b20be8a348ef1fdb368"
+      },
+      {
+        "term": "2025秋",
+        "offering_id": "1016468",
+        "section_code": "GESP20003.030",
+        "course_code": "GESP20003",
+        "retrieval_status": "http_500",
+        "file": "outline_errors/1016468.json",
+        "sha256": "764af10b18b0c720eede188119bc2d56545839222dbc0b7f358775f70659d04e"
+      },
+      {
+        "term": "2025秋",
+        "offering_id": "1016762",
+        "section_code": "GESP20003.039",
+        "course_code": "GESP20003",
+        "retrieval_status": "http_500",
+        "file": "outline_errors/1016762.json",
+        "sha256": "36f0ec897b1299e1a0fb16a448b9dad699c372b4ef0bde82626efbd5abcdb415"
+      },
+      {
+        "term": "2025秋",
+        "offering_id": "1016922",
+        "section_code": "GESP20003.093",
+        "course_code": "GESP20003",
+        "retrieval_status": "http_500",
+        "file": "outline_errors/1016922.json",
+        "sha256": "9796386f142282d069a3bca43c485c779709b1206781ed7d21d4c5a61cc7a932"
+      },
+      {
+        "term": "2025秋",
+        "offering_id": "1016540",
+        "section_code": "GESP20003.123",
+        "course_code": "GESP20003",
+        "retrieval_status": "http_500",
+        "file": "outline_errors/1016540.json",
+        "sha256": "f3306291d53b95726b97912ba31815b37d36f1172f5ae415cc65dc6686782655"
+      },
+      {
+        "term": "2025秋",
+        "offering_id": "1017113",
+        "section_code": "GESP20003.175",
+        "course_code": "GESP20003",
+        "retrieval_status": "http_500",
+        "file": "outline_errors/1017113.json",
+        "sha256": "af8ffb58e0c37ba2b2d3ee2fd04628dee47fb38d06832c9bbfe097182125071a"
+      },
+      {
+        "term": "2025秋",
+        "offering_id": "1017241",
+        "section_code": "GESP20003.245",
+        "course_code": "GESP20003",
+        "retrieval_status": "http_500",
+        "file": "outline_errors/1017241.json",
+        "sha256": "94ae45eee05aadaa48d6c86cc17103e1c2e41ae7b6c5955e11df3222e260c330"
+      },
+      {
+        "term": "2025秋",
+        "offering_id": "1016501",
+        "section_code": "GESP20003.265",
+        "course_code": "GESP20003",
+        "retrieval_status": "http_500",
+        "file": "outline_errors/1016501.json",
+        "sha256": "d3941f658d92c131139758fe9eeb9f6149987668e2c48cb29ecd6fc107caff7c"
+      },
+      {
+        "term": "2025秋",
+        "offering_id": "1016484",
+        "section_code": "GESP20003.273",
+        "course_code": "GESP20003",
+        "retrieval_status": "http_500",
+        "file": "outline_errors/1016484.json",
+        "sha256": "ffd08b56707a63062efce5e259e7bb9272a4df2764825b905019612ab2c6d973"
+      },
+      {
+        "term": "2025秋",
+        "offering_id": "1016858",
+        "section_code": "GESP20003.281",
+        "course_code": "GESP20003",
+        "retrieval_status": "http_500",
+        "file": "outline_errors/1016858.json",
+        "sha256": "607ecc96b714f773e991bb2ac5f25296433a5c024683fec737e70ec0d484db2c"
+      },
+      {
+        "term": "2025秋",
+        "offering_id": "1016924",
+        "section_code": "GESP20003.284",
+        "course_code": "GESP20003",
+        "retrieval_status": "http_500",
+        "file": "outline_errors/1016924.json",
+        "sha256": "a63890a21e2d2d82791db41b27de6fb3a3d50c79b609a76ad6b364e67b7b0d9d"
+      },
+      {
+        "term": "2025秋",
+        "offering_id": "1016502",
+        "section_code": "GESP20003.304",
+        "course_code": "GESP20003",
+        "retrieval_status": "http_500",
+        "file": "outline_errors/1016502.json",
+        "sha256": "c6144023f3b305cf4ae53c1e985d15b8a499bbe50e6c1bc4d2511f85feef0c7a"
+      },
+      {
+        "term": "2025秋",
+        "offering_id": "1016541",
+        "section_code": "GESP20003.339",
+        "course_code": "GESP20003",
+        "retrieval_status": "http_500",
+        "file": "outline_errors/1016541.json",
+        "sha256": "fb6434ab51ee324a619994493474d0d1f5d7b35d34bd6f1a0f52ce3c03e262e3"
+      },
+      {
+        "term": "2025秋",
+        "offering_id": "1017242",
+        "section_code": "GESP20003.357",
+        "course_code": "GESP20003",
+        "retrieval_status": "http_500",
+        "file": "outline_errors/1017242.json",
+        "sha256": "6eca129c98f285a32c25381d50931e7c3e5f9327d5d87d18453b8ac0786d662b"
+      },
+      {
+        "term": "2025秋",
+        "offering_id": "1017216",
+        "section_code": "GESP20003.365",
+        "course_code": "GESP20003",
+        "retrieval_status": "http_500",
+        "file": "outline_errors/1017216.json",
+        "sha256": "4ad958520459cb8c1fc47eac63a6bc0b3ee01eb43561f453b41172bf465cbc12"
+      },
+      {
+        "term": "2025秋",
+        "offering_id": "1016859",
+        "section_code": "GESP20003.404",
+        "course_code": "GESP20003",
+        "retrieval_status": "http_500",
+        "file": "outline_errors/1016859.json",
+        "sha256": "f092888e9ccb82a99e860b27b8435033dd44759da73e97ddd8ca436a8dad34e3"
+      },
+      {
+        "term": "2025秋",
+        "offering_id": "1016860",
+        "section_code": "GESP20003.405",
+        "course_code": "GESP20003",
+        "retrieval_status": "http_500",
+        "file": "outline_errors/1016860.json",
+        "sha256": "60ecb9fe0e7e83dbbad73040f2b90cf95ce84e513a9bfb903b61991dfb827ae8"
+      },
+      {
+        "term": "2025秋",
+        "offering_id": "1017243",
+        "section_code": "GESP20003.427",
+        "course_code": "GESP20003",
+        "retrieval_status": "http_500",
+        "file": "outline_errors/1017243.json",
+        "sha256": "2f44fab1b58d24b69dd731bcb36eb74f35ec3676689d22d28cb45a649337e005"
+      },
+      {
+        "term": "2025秋",
+        "offering_id": "1016507",
+        "section_code": "GESP20003.430",
+        "course_code": "GESP20003",
+        "retrieval_status": "http_500",
+        "file": "outline_errors/1016507.json",
+        "sha256": "8910f1c50839939af8e5435c3567ebd8a437e52145b331121fc1fe121e1cfb6b"
+      },
+      {
+        "term": "2025秋",
+        "offering_id": "1016542",
+        "section_code": "GESP20003.448",
+        "course_code": "GESP20003",
+        "retrieval_status": "http_500",
+        "file": "outline_errors/1016542.json",
+        "sha256": "26e7ca7c1d64679c23113c1002922fe88d76588d194dbf365fa60e2bbc0d118c"
+      },
+      {
+        "term": "2025秋",
+        "offering_id": "1017217",
+        "section_code": "GESP20003.450",
+        "course_code": "GESP20003",
+        "retrieval_status": "http_500",
+        "file": "outline_errors/1017217.json",
+        "sha256": "321f250a3ced720f73ea75908ef8a2c82dc04edfed958684814235665971c968"
+      },
+      {
+        "term": "2025秋",
+        "offering_id": "1016925",
+        "section_code": "GESP20003.599",
+        "course_code": "GESP20003",
+        "retrieval_status": "http_500",
+        "file": "outline_errors/1016925.json",
+        "sha256": "4d34fb38984c46257ca0ddbbe2b8b0eaa8fdb19de48e324c917c0a4b08908d30"
+      },
+      {
+        "term": "2025秋",
+        "offering_id": "1007134",
+        "section_code": "MAS60001.01",
+        "course_code": "MAS60001",
+        "retrieval_status": "body_retrieved",
+        "file": "outlines_live/1007134.json",
+        "sha256": "05d71d9677fa35a2a668017f6974cf2f715d627ea0ea6a3ba38535cbb9d86d5f"
+      },
+      {
+        "term": "2025秋",
+        "offering_id": "1007160",
+        "section_code": "MAS70001.01",
+        "course_code": "MAS70001",
+        "retrieval_status": "body_retrieved",
+        "file": "outlines_live/1007160.json",
+        "sha256": "b08dd8a1eb06cad4daffdded5dcf1287d408f23d71bb8664bf971a65656adb03"
+      },
+      {
+        "term": "2025秋",
+        "offering_id": "1001732",
+        "section_code": "MATH10003.01",
+        "course_code": "MATH10003",
+        "retrieval_status": "body_retrieved",
+        "file": "outlines_live/1001732.json",
+        "sha256": "9896e107af21ae339109e2a79fa288527b7a227291165526e24b8c6197f41378"
+      },
+      {
+        "term": "2025秋",
+        "offering_id": "1015484",
+        "section_code": "MATH10012.07",
+        "course_code": "MATH10012",
+        "retrieval_status": "body_retrieved",
+        "file": "outlines_live/1015484.json",
+        "sha256": "47ccebd024bbee9cf0b48a943095b36361fd23c3b6836a4c531da07b9be6648a"
+      },
+      {
+        "term": "2025秋",
+        "offering_id": "1001743",
+        "section_code": "MATH20007.01",
+        "course_code": "MATH20007",
+        "retrieval_status": "body_retrieved",
+        "file": "outlines_live/1001743.json",
+        "sha256": "7fcc0ed406c21bc6992160530a31c132efa76f720d853ca4ecf0f88ff83af895"
+      },
+      {
+        "term": "2025秋",
+        "offering_id": "1001729",
+        "section_code": "MATH20007h.01",
+        "course_code": "MATH20007h",
+        "retrieval_status": "body_retrieved",
+        "file": "outlines_live/1001729.json",
+        "sha256": "9cff06cec7d7ce7cc84c058705df82a432754f7e336df47917cf16f9afd2d66a"
+      },
+      {
+        "term": "2025秋",
+        "offering_id": "1001716",
+        "section_code": "MATH50010.01",
+        "course_code": "MATH50010",
+        "retrieval_status": "body_retrieved",
+        "file": "outlines_live/1001716.json",
+        "sha256": "1d7dfb421d036c04a574d90af8bf1cfe7eab1c8b1a17762c36960182107e9d8b"
+      },
+      {
+        "term": "2025秋",
+        "offering_id": "1001714",
+        "section_code": "MATH50011.01",
+        "course_code": "MATH50011",
+        "retrieval_status": "body_retrieved",
+        "file": "outlines_live/1001714.json",
+        "sha256": "d94998c0ae2084526ea3256ca9a7584a539f58cc8cbb82ff9ffd335ee844302c"
+      },
+      {
+        "term": "2025秋",
+        "offering_id": "1001724",
+        "section_code": "MATH50013.01",
+        "course_code": "MATH50013",
+        "retrieval_status": "body_retrieved",
+        "file": "outlines_live/1001724.json",
+        "sha256": "44d2c6ffa904a26f5fa703c22ef8318a3800e7f0bcee79a90a8c40e96df8823a"
+      },
+      {
+        "term": "2025秋",
+        "offering_id": "1001734",
+        "section_code": "MATH50014.01",
+        "course_code": "MATH50014",
+        "retrieval_status": "body_retrieved",
+        "file": "outlines_live/1001734.json",
+        "sha256": "c50c5edbc35f4525af4d814d0c7670f7c59a995e1efede60f34c3dfd2d3771ac"
+      },
+      {
+        "term": "2025秋",
+        "offering_id": "1006841",
+        "section_code": "MF40001.01",
+        "course_code": "MF40001",
+        "retrieval_status": "body_retrieved",
+        "file": "outlines_live/1006841.json",
+        "sha256": "b64733f3ea5231158d1766565c646a6975bb56cfe641698df54d8eab300c006d"
+      },
+      {
+        "term": "2025秋",
+        "offering_id": "1001725",
+        "section_code": "STAT20011.01",
+        "course_code": "STAT20011",
+        "retrieval_status": "body_retrieved",
+        "file": "outlines_live/1001725.json",
+        "sha256": "7fd54ce1588bee49bb55727bcf4a0456a55b1be1319debb75e814ed5f0a3265a"
+      },
+      {
+        "term": "2025秋",
+        "offering_id": "1001727",
+        "section_code": "STAT30015.01",
+        "course_code": "STAT30015",
+        "retrieval_status": "body_retrieved",
+        "file": "outlines_live/1001727.json",
+        "sha256": "a098143249a98b0ed1716c0a57dfa6363e43f86a89a673f8b1b5206f870acfc4"
+      },
+      {
+        "term": "2025秋",
+        "offering_id": "1001722",
+        "section_code": "STAT30016.01",
+        "course_code": "STAT30016",
+        "retrieval_status": "body_retrieved",
+        "file": "outlines_live/1001722.json",
+        "sha256": "c29b9076196965193eeef33a8f8f3fbeef254bfd8fe4b607a838aa5f0e8689ba"
+      },
+      {
+        "term": "2025秋",
+        "offering_id": "1001733",
+        "section_code": "STAT40004.01",
+        "course_code": "STAT40004",
+        "retrieval_status": "http_500",
+        "file": "outline_errors/1001733.json",
+        "sha256": "c039d4a311d0ee392ba55f6180829a2eab0b8a6120236478b7fecaf76c46bff9"
+      },
+      {
+        "term": "2025秋",
+        "offering_id": "1007643",
+        "section_code": "STAT40010.01",
+        "course_code": "STAT40010",
+        "retrieval_status": "body_retrieved",
+        "file": "outlines_live/1007643.json",
+        "sha256": "e46d2974e55c2b45eeb379d2809654a8d2d704152a8ad757d3514b9700d7c2b0"
+      },
+      {
+        "term": "2025秋",
+        "offering_id": "1007142",
+        "section_code": "STAT40011.01",
+        "course_code": "STAT40011",
+        "retrieval_status": "body_retrieved",
+        "file": "outlines_live/1007142.json",
+        "sha256": "c153d46043108a164135ac48c631f1fb27b000c10a979387f57b98e1880bb085"
+      },
+      {
+        "term": "2025秋",
+        "offering_id": "1006838",
+        "section_code": "STAT40013.01",
+        "course_code": "STAT40013",
+        "retrieval_status": "body_retrieved",
+        "file": "outlines_live/1006838.json",
+        "sha256": "708fc1ba63da1a70dab52164eaae87fecf4ffb041fc35970b14a4d97e2b18933"
+      },
+      {
+        "term": "2025秋",
+        "offering_id": "1001735",
+        "section_code": "STAT50023.01",
+        "course_code": "STAT50023",
+        "retrieval_status": "body_retrieved",
+        "file": "outlines_live/1001735.json",
+        "sha256": "77aa7d8ca84066b2802fe2f3617d5f89b930fe11e1e17a10bb733ae62f2a788c"
+      },
+      {
+        "term": "2025秋",
+        "offering_id": "1001738",
+        "section_code": "STAT50024.01",
+        "course_code": "STAT50024",
+        "retrieval_status": "body_retrieved",
+        "file": "outlines_live/1001738.json",
+        "sha256": "204c2a82f6235b1446a72cbddd5bbbe35bc41843a1cc40729df68856affa5e65"
+      },
+      {
+        "term": "2025秋",
+        "offering_id": "1007678",
+        "section_code": "STAT50035.01",
+        "course_code": "STAT50035",
+        "retrieval_status": "body_retrieved",
+        "file": "outlines_live/1007678.json",
+        "sha256": "316d9ff350ac804c9113cf80ef3f3074029b7dc18be3e16abe25221ed1a3746e"
+      },
+      {
+        "term": "2025秋",
+        "offering_id": "1014966",
+        "section_code": "STAT70007.01",
+        "course_code": "STAT70007",
+        "retrieval_status": "body_retrieved",
+        "file": "outlines_live/1014966.json",
+        "sha256": "ac1854c193f5e806e6e54668c122f02285bcc6753879d987ddceba463573d90d"
+      },
+      {
+        "term": "2025秋",
+        "offering_id": "1015790",
+        "section_code": "STAT70008.01",
+        "course_code": "STAT70008",
+        "retrieval_status": "http_500",
+        "file": "outline_errors/1015790.json",
+        "sha256": "4d577218ce2f08b329f6e0012b26d591c7779d060f73879ae036d25f942953de"
+      },
+      {
+        "term": "2025秋",
+        "offering_id": "1014226",
+        "section_code": "STAT70012.01",
+        "course_code": "STAT70012",
+        "retrieval_status": "body_retrieved",
+        "file": "outlines_live/1014226.json",
+        "sha256": "b8de9130072662c3e8b3ebd8823b378ed3870450ace0d14b76012d88224518aa"
+      },
+      {
+        "term": "2025秋",
+        "offering_id": "1007860",
+        "section_code": "STAT70013.01",
+        "course_code": "STAT70013",
+        "retrieval_status": "body_retrieved",
+        "file": "outlines_live/1007860.json",
+        "sha256": "7a8a485acd7f2399642f56daa503148081ed50445b86d725b3b4e23e84a64dc1"
+      },
+      {
+        "term": "2026春",
+        "offering_id": "1034192",
+        "section_code": "AIB110003.06",
+        "course_code": "AIB110003",
+        "retrieval_status": "body_retrieved",
+        "file": "outlines_live/1034192.json",
+        "sha256": "2fa4b5832e4979ecdc46d0fe01a0a665b5689c3293725654003417f2253f9775"
+      },
+      {
+        "term": "2026春",
+        "offering_id": "1031734",
+        "section_code": "AIT531024.01",
+        "course_code": "AIT531024",
+        "retrieval_status": "body_retrieved",
+        "file": "outlines_live/1031734.json",
+        "sha256": "53c3443e48e4b26e6ed55ca281b35da989904d4cbd0a3faf5bd22d4cf1009dfa"
+      },
+      {
+        "term": "2026春",
+        "offering_id": "1027943",
+        "section_code": "CS20019.01",
+        "course_code": "CS20019",
+        "retrieval_status": "body_retrieved",
+        "file": "outlines_live/1027943.json",
+        "sha256": "fed04bbe1c47d285e4d69e9d255ecd9002aefef017258adc4917cd4433b5b3b3"
+      },
+      {
+        "term": "2026春",
+        "offering_id": "1028836",
+        "section_code": "CS30064.01",
+        "course_code": "CS30064",
+        "retrieval_status": "body_retrieved",
+        "file": "outlines_live/1028836.json",
+        "sha256": "d869b75b08ca991c0b5cb0e3f42661ab02c5499aa0c479cbf7a9f11300aa45da"
+      },
+      {
+        "term": "2026春",
+        "offering_id": "1031272",
+        "section_code": "CS40008.01",
+        "course_code": "CS40008",
+        "retrieval_status": "body_retrieved",
+        "file": "outlines_live/1031272.json",
+        "sha256": "b4ef57024fb139e094911e0e6fcce72cfd3d416ed175ce31d03ece2ed78c842f"
+      },
+      {
+        "term": "2026春",
+        "offering_id": "1028847",
+        "section_code": "CS40022.01",
+        "course_code": "CS40022",
+        "retrieval_status": "http_500",
+        "file": "outline_errors/1028847.json",
+        "sha256": "4078dbe1a8079c7cc1ca4c4f205aeb8d07c680b80ec9317f10de1f2615eee18d"
+      },
+      {
+        "term": "2026春",
+        "offering_id": "1028997",
+        "section_code": "CS50026.01",
+        "course_code": "CS50026",
+        "retrieval_status": "body_retrieved",
+        "file": "outlines_live/1028997.json",
+        "sha256": "20d7196f76c171d3b64b668bc28cc5326c6508ae5c614614f32b4d41b6beee0e"
+      },
+      {
+        "term": "2026春",
+        "offering_id": "1029003",
+        "section_code": "CS50028.01",
+        "course_code": "CS50028",
+        "retrieval_status": "body_retrieved",
+        "file": "outlines_live/1029003.json",
+        "sha256": "9596dbf4c8119b3ed3dd962465ae98017d03a14c0195d707b3e27ffe3163a0b2"
+      },
+      {
+        "term": "2026春",
+        "offering_id": "1028975",
+        "section_code": "CS50029.01",
+        "course_code": "CS50029",
+        "retrieval_status": "body_retrieved",
+        "file": "outlines_live/1028975.json",
+        "sha256": "bd2a289bb2f5e8bef306ce3bcd076534718cf8cf1f94e7e346b43ba5c44df205"
+      },
+      {
+        "term": "2026春",
+        "offering_id": "1028966",
+        "section_code": "CS50030.01",
+        "course_code": "CS50030",
+        "retrieval_status": "body_retrieved",
+        "file": "outlines_live/1028966.json",
+        "sha256": "0dfe9df4f117217118dca602681cc626d0dd529925e23bafefee8ec0afcbe030"
+      },
+      {
+        "term": "2026春",
+        "offering_id": "1032081",
+        "section_code": "CS60003.01",
+        "course_code": "CS60003",
+        "retrieval_status": "body_retrieved",
+        "file": "outlines_live/1032081.json",
+        "sha256": "af6f0e5cd88cd53099387841d40dee9c6cd54429d6e48026e7e97abbb26f0c5d"
+      },
+      {
+        "term": "2026春",
+        "offering_id": "1032147",
+        "section_code": "CS60004.01",
+        "course_code": "CS60004",
+        "retrieval_status": "body_retrieved",
+        "file": "outlines_live/1032147.json",
+        "sha256": "61d6c5966220f732fcb34334d4d0e04790a237a982345555fed14e30e649c9f4"
+      },
+      {
+        "term": "2026春",
+        "offering_id": "1032079",
+        "section_code": "CS80001.01",
+        "course_code": "CS80001",
+        "retrieval_status": "body_retrieved",
+        "file": "outlines_live/1032079.json",
+        "sha256": "20e3668cf11a1f29d3022c0ad9a863f2554be9ccf64d35352e2891fdd52d1f1b"
+      },
+      {
+        "term": "2026春",
+        "offering_id": "1034570",
+        "section_code": "GESP10004.151",
+        "course_code": "GESP10004",
+        "retrieval_status": "body_retrieved",
+        "file": "outlines_live/1034570.json",
+        "sha256": "6b3e5b4128dac6b3b22ba4b15e345df23c85d282f8423d47e3b70242c5a36b18"
+      },
+      {
+        "term": "2026春",
+        "offering_id": "1034584",
+        "section_code": "GESP10004.165",
+        "course_code": "GESP10004",
+        "retrieval_status": "body_retrieved",
+        "file": "outlines_live/1034584.json",
+        "sha256": "a62d5703088398ecad34e9e4c32d9a4bfda46eba44d99be3c1d1061cab4aa906"
+      },
+      {
+        "term": "2026春",
+        "offering_id": "1034585",
+        "section_code": "GESP10004.166",
+        "course_code": "GESP10004",
+        "retrieval_status": "body_retrieved",
+        "file": "outlines_live/1034585.json",
+        "sha256": "5a934f7bd475552330e4f887085e8dca21ed0507189eb3243df992a9db055ae8"
+      },
+      {
+        "term": "2026春",
+        "offering_id": "1034284",
+        "section_code": "GESP20004.51",
+        "course_code": "GESP20004",
+        "retrieval_status": "http_500",
+        "file": "outline_errors/1034284.json",
+        "sha256": "cd14749002ec2715bc54e86f80416e657a87dc5d78778f40408cc3ec4d7bb705"
+      },
+      {
+        "term": "2026春",
+        "offering_id": "1034312",
+        "section_code": "GESP20004.52",
+        "course_code": "GESP20004",
+        "retrieval_status": "http_500",
+        "file": "outline_errors/1034312.json",
+        "sha256": "4dd2b2a2e82fffd7f0af475d3b4ae11af5de1b5199fb3da340d380db57e5f4eb"
+      },
+      {
+        "term": "2026春",
+        "offering_id": "1032128",
+        "section_code": "MAS50001.01",
+        "course_code": "MAS50001",
+        "retrieval_status": "body_retrieved",
+        "file": "outlines_live/1032128.json",
+        "sha256": "f5691e60cddd543881a2b318ef8e19e69b48b2f9e7f5c5bce4897864e36066d9"
+      },
+      {
+        "term": "2026春",
+        "offering_id": "1019823",
+        "section_code": "MATH10003.01",
+        "course_code": "MATH10003",
+        "retrieval_status": "body_retrieved",
+        "file": "outlines_live/1019823.json",
+        "sha256": "dffc3e5fd2d6311ab64443c213cc933402f784909e0a22f044444e48db4c05d6"
+      },
+      {
+        "term": "2026春",
+        "offering_id": "1019871",
+        "section_code": "MATH10013.04",
+        "course_code": "MATH10013",
+        "retrieval_status": "body_retrieved",
+        "file": "outlines_live/1019871.json",
+        "sha256": "8d2d2e5716103a0de3b278dc8f60055ccc981294c1cf730f4d82ffc03d06cfa8"
+      },
+      {
+        "term": "2026春",
+        "offering_id": "1027330",
+        "section_code": "MATH20008.01",
+        "course_code": "MATH20008",
+        "retrieval_status": "body_retrieved",
+        "file": "outlines_live/1027330.json",
+        "sha256": "08f6f10dd8852ce0aa8c7a8f231f605f5be6cd5984c04ebd45558e281f4bcf42"
+      },
+      {
+        "term": "2026春",
+        "offering_id": "1028896",
+        "section_code": "MATH20008h.01",
+        "course_code": "MATH20008h",
+        "retrieval_status": "body_retrieved",
+        "file": "outlines_live/1028896.json",
+        "sha256": "e5e175010556b4034e66b999a8a376615eb1a23c63ed8d7a22da5024a0f6838a"
+      },
+      {
+        "term": "2026春",
+        "offering_id": "1028723",
+        "section_code": "MATH50009.01",
+        "course_code": "MATH50009",
+        "retrieval_status": "body_retrieved",
+        "file": "outlines_live/1028723.json",
+        "sha256": "1fde2bc5e283be2471d46372d26d47df3c64efad4446ccc3711c039dc943021e"
+      },
+      {
+        "term": "2026春",
+        "offering_id": "1028869",
+        "section_code": "MATH50012.01",
+        "course_code": "MATH50012",
+        "retrieval_status": "body_retrieved",
+        "file": "outlines_live/1028869.json",
+        "sha256": "8bd7555667488a101c3d6ab19de448e5c9b6726593103d345c2dbd0a074aa515"
+      },
+      {
+        "term": "2026春",
+        "offering_id": "1032148",
+        "section_code": "MF50002.01",
+        "course_code": "MF50002",
+        "retrieval_status": "body_retrieved",
+        "file": "outlines_live/1032148.json",
+        "sha256": "3453c98381c2da8c0d00c4a3f5be455dcc73a710e536345abd79083c5174411f"
+      },
+      {
+        "term": "2026春",
+        "offering_id": "1027940",
+        "section_code": "PHIL50006.01",
+        "course_code": "PHIL50006",
+        "retrieval_status": "body_retrieved",
+        "file": "outlines_live/1027940.json",
+        "sha256": "f59d1757d5e7c266e79a51418c7466589c69639ec5000663c8548b74dc515748"
+      },
+      {
+        "term": "2026春",
+        "offering_id": "1034391",
+        "section_code": "PHIL50006.02",
+        "course_code": "PHIL50006",
+        "retrieval_status": "body_retrieved",
+        "file": "outlines_live/1034391.json",
+        "sha256": "6c1fd254a8f118e5b9eb3dc0bcf6a6a33528a3fd9e96a869a551f9aa960c78c6"
+      },
+      {
+        "term": "2026春",
+        "offering_id": "1028578",
+        "section_code": "STAT20010.01",
+        "course_code": "STAT20010",
+        "retrieval_status": "body_retrieved",
+        "file": "outlines_live/1028578.json",
+        "sha256": "8a53b2cc132908a6d0b4970e074aac42f9086b4d1469179069aa260e57fd5e19"
+      },
+      {
+        "term": "2026春",
+        "offering_id": "1028905",
+        "section_code": "STAT20010h.01",
+        "course_code": "STAT20010h",
+        "retrieval_status": "body_retrieved",
+        "file": "outlines_live/1028905.json",
+        "sha256": "08f172716a3229bd5924d5f7228d099905c404e24daa0b874f8718a3da5dc4d1"
+      },
+      {
+        "term": "2026春",
+        "offering_id": "1028852",
+        "section_code": "STAT40004.01",
+        "course_code": "STAT40004",
+        "retrieval_status": "http_500",
+        "file": "outline_errors/1028852.json",
+        "sha256": "7c4a3135adb867f68e8cc3d4d8b87d81232c60f4cfeaf19f7fb0dbe547b2ad38"
+      },
+      {
+        "term": "2026春",
+        "offering_id": "1036615",
+        "section_code": "STAT40005.001",
+        "course_code": "STAT40005",
+        "retrieval_status": "http_500",
+        "file": "outline_errors/1036615.json",
+        "sha256": "b90f963ae606f90c4191ca2597d51988414a34a516dfa79d1b6a77612b0532f1"
+      },
+      {
+        "term": "2026春",
+        "offering_id": "1036616",
+        "section_code": "STAT40005.002",
+        "course_code": "STAT40005",
+        "retrieval_status": "http_500",
+        "file": "outline_errors/1036616.json",
+        "sha256": "c7792cdad16d2e472085f8836853424a11d40f4712c728e76f5e3be8423f29c5"
+      },
+      {
+        "term": "2026春",
+        "offering_id": "1036617",
+        "section_code": "STAT40005.003",
+        "course_code": "STAT40005",
+        "retrieval_status": "http_500",
+        "file": "outline_errors/1036617.json",
+        "sha256": "a1d34bb122c3df36c9cf03768f6f909794d5be86c67e1f24575045c90dc6a384"
+      },
+      {
+        "term": "2026春",
+        "offering_id": "1036618",
+        "section_code": "STAT40005.004",
+        "course_code": "STAT40005",
+        "retrieval_status": "http_500",
+        "file": "outline_errors/1036618.json",
+        "sha256": "bdcd0059e2c86a9612da2ae8b5264a47d1a2d24deeb488199dd8c48267ea8b78"
+      },
+      {
+        "term": "2026春",
+        "offering_id": "1036620",
+        "section_code": "STAT40005.005",
+        "course_code": "STAT40005",
+        "retrieval_status": "http_500",
+        "file": "outline_errors/1036620.json",
+        "sha256": "55f5fb9f3bdb5e6cb181dcc19e8305f57aded503506ef033d06d11c7956b15a7"
+      },
+      {
+        "term": "2026春",
+        "offering_id": "1036621",
+        "section_code": "STAT40005.006",
+        "course_code": "STAT40005",
+        "retrieval_status": "http_500",
+        "file": "outline_errors/1036621.json",
+        "sha256": "02bf00b1f7eebc2e6f733927fb0868c8d174745bba099e4291651d812c3ab8a7"
+      },
+      {
+        "term": "2026春",
+        "offering_id": "1036622",
+        "section_code": "STAT40005.007",
+        "course_code": "STAT40005",
+        "retrieval_status": "http_500",
+        "file": "outline_errors/1036622.json",
+        "sha256": "09bd6d5de43be702467d1ce0528d6d9a9c0d7cf657946e2e4e25cce653760f40"
+      },
+      {
+        "term": "2026春",
+        "offering_id": "1036623",
+        "section_code": "STAT40005.008",
+        "course_code": "STAT40005",
+        "retrieval_status": "http_500",
+        "file": "outline_errors/1036623.json",
+        "sha256": "a2c28dc6e760abc2d6b78f156240dad20971d8fd33e2e29a83e4181c39861acf"
+      },
+      {
+        "term": "2026春",
+        "offering_id": "1036624",
+        "section_code": "STAT40005.009",
+        "course_code": "STAT40005",
+        "retrieval_status": "http_500",
+        "file": "outline_errors/1036624.json",
+        "sha256": "fef3b840141ad88eff5e2f8fbd40d76729eea7456f5b9e5d821a639a61d4ba22"
+      },
+      {
+        "term": "2026春",
+        "offering_id": "1036625",
+        "section_code": "STAT40005.010",
+        "course_code": "STAT40005",
+        "retrieval_status": "body_retrieved",
+        "file": "outlines_live/1036625.json",
+        "sha256": "cf2318a96ab4e456644bbae104ceabe852f4ccf1f63ca5a64a9002c5620d9a41"
+      },
+      {
+        "term": "2026春",
+        "offering_id": "1036626",
+        "section_code": "STAT40005.011",
+        "course_code": "STAT40005",
+        "retrieval_status": "http_500",
+        "file": "outline_errors/1036626.json",
+        "sha256": "31e94f8f8a4a5fbd9268f82959fc5f2a93a8f14893fe224737e3593e1963abef"
+      },
+      {
+        "term": "2026春",
+        "offering_id": "1036627",
+        "section_code": "STAT40005.012",
+        "course_code": "STAT40005",
+        "retrieval_status": "http_500",
+        "file": "outline_errors/1036627.json",
+        "sha256": "636a46a5f619d357b056d52063b7e340cbf7cae10405fa59af96f8a26e666301"
+      },
+      {
+        "term": "2026春",
+        "offering_id": "1036628",
+        "section_code": "STAT40005.013",
+        "course_code": "STAT40005",
+        "retrieval_status": "http_500",
+        "file": "outline_errors/1036628.json",
+        "sha256": "ef1a96acdfdf785fbddd9ba1616b25d289f2a8fa7cb7386f79da3ab87a16ba63"
+      },
+      {
+        "term": "2026春",
+        "offering_id": "1036629",
+        "section_code": "STAT40005.014",
+        "course_code": "STAT40005",
+        "retrieval_status": "http_500",
+        "file": "outline_errors/1036629.json",
+        "sha256": "127d4ee24b79a97bd47e1268847d7fe53f329a441909c744df191efdf4d683b7"
+      },
+      {
+        "term": "2026春",
+        "offering_id": "1036630",
+        "section_code": "STAT40005.015",
+        "course_code": "STAT40005",
+        "retrieval_status": "http_500",
+        "file": "outline_errors/1036630.json",
+        "sha256": "8e4599c01d8860ef0070f5577bf6b91fd5eeba2002cebbaaef0b6249768979f3"
+      },
+      {
+        "term": "2026春",
+        "offering_id": "1036631",
+        "section_code": "STAT40005.016",
+        "course_code": "STAT40005",
+        "retrieval_status": "http_500",
+        "file": "outline_errors/1036631.json",
+        "sha256": "455dabefa69fe5723a253ba81c3beb4499e21bf1b62401023046a0eea1e02f2e"
+      },
+      {
+        "term": "2026春",
+        "offering_id": "1036632",
+        "section_code": "STAT40005.017",
+        "course_code": "STAT40005",
+        "retrieval_status": "http_500",
+        "file": "outline_errors/1036632.json",
+        "sha256": "20efda78fa42421e82cd02912d30903fcea7426c128bc8de9c3739c08f9afb1e"
+      },
+      {
+        "term": "2026春",
+        "offering_id": "1036633",
+        "section_code": "STAT40005.018",
+        "course_code": "STAT40005",
+        "retrieval_status": "http_500",
+        "file": "outline_errors/1036633.json",
+        "sha256": "fb1432f31a665e62c2605597e69a8b4c3306f9cfd85348d59a5c71475df12a66"
+      },
+      {
+        "term": "2026春",
+        "offering_id": "1036634",
+        "section_code": "STAT40005.019",
+        "course_code": "STAT40005",
+        "retrieval_status": "http_500",
+        "file": "outline_errors/1036634.json",
+        "sha256": "0d7b0105b02a230593564f9d09b9b0153a920e4b664fbf3b946497a6d3078642"
+      },
+      {
+        "term": "2026春",
+        "offering_id": "1036635",
+        "section_code": "STAT40005.020",
+        "course_code": "STAT40005",
+        "retrieval_status": "http_500",
+        "file": "outline_errors/1036635.json",
+        "sha256": "97766e08585aca3dbdff810ce85c2546e83084b66b33a251debf5ce29cb02c59"
+      },
+      {
+        "term": "2026春",
+        "offering_id": "1036636",
+        "section_code": "STAT40005.021",
+        "course_code": "STAT40005",
+        "retrieval_status": "http_500",
+        "file": "outline_errors/1036636.json",
+        "sha256": "8ca41b57698e340510b51049dcb17119f91ad86c67ef368389182409e531dccf"
+      },
+      {
+        "term": "2026春",
+        "offering_id": "1036637",
+        "section_code": "STAT40005.022",
+        "course_code": "STAT40005",
+        "retrieval_status": "http_500",
+        "file": "outline_errors/1036637.json",
+        "sha256": "472598050b4d8c177f0af30dec04be3e2289ac400648964db5f80d513a6307c1"
+      },
+      {
+        "term": "2026春",
+        "offering_id": "1036638",
+        "section_code": "STAT40005.023",
+        "course_code": "STAT40005",
+        "retrieval_status": "http_500",
+        "file": "outline_errors/1036638.json",
+        "sha256": "c44650026255e8fd97b0250f04fdd719a489b7bbe23a21f4229f261ba491b4d5"
+      },
+      {
+        "term": "2026春",
+        "offering_id": "1036639",
+        "section_code": "STAT40005.024",
+        "course_code": "STAT40005",
+        "retrieval_status": "http_500",
+        "file": "outline_errors/1036639.json",
+        "sha256": "d6c1edae871773f60809f83378150b939eb66623779de16c6f5dbf5d7beb7b62"
+      },
+      {
+        "term": "2026春",
+        "offering_id": "1036640",
+        "section_code": "STAT40005.025",
+        "course_code": "STAT40005",
+        "retrieval_status": "http_500",
+        "file": "outline_errors/1036640.json",
+        "sha256": "2d97e4134e3fb8855ca223ef02d06ddbf0a8b91601044552007479441b642b2e"
+      },
+      {
+        "term": "2026春",
+        "offering_id": "1036641",
+        "section_code": "STAT40005.026",
+        "course_code": "STAT40005",
+        "retrieval_status": "http_500",
+        "file": "outline_errors/1036641.json",
+        "sha256": "8fa18a9fc8bd6bb2c08a6b6dcf465a85d2f1a9cb3c0ea9b2c529e19f567ccdd1"
+      },
+      {
+        "term": "2026春",
+        "offering_id": "1036642",
+        "section_code": "STAT40005.027",
+        "course_code": "STAT40005",
+        "retrieval_status": "http_500",
+        "file": "outline_errors/1036642.json",
+        "sha256": "df39b6cfa9c03bd190b05d6d4a4310230d7cd04167714f252937f6e569be57f0"
+      },
+      {
+        "term": "2026春",
+        "offering_id": "1036643",
+        "section_code": "STAT40005.028",
+        "course_code": "STAT40005",
+        "retrieval_status": "http_500",
+        "file": "outline_errors/1036643.json",
+        "sha256": "f55916495c4c4c7e14a27bf709f0053ab0007247abee97d0c7f8fee85c79a2fd"
+      },
+      {
+        "term": "2026春",
+        "offering_id": "1036644",
+        "section_code": "STAT40005.029",
+        "course_code": "STAT40005",
+        "retrieval_status": "http_500",
+        "file": "outline_errors/1036644.json",
+        "sha256": "531b1dd47768f9bd3b5614a87607d70d654e71b4136455e33f77a22e732c3422"
+      },
+      {
+        "term": "2026春",
+        "offering_id": "1036645",
+        "section_code": "STAT40005.030",
+        "course_code": "STAT40005",
+        "retrieval_status": "http_500",
+        "file": "outline_errors/1036645.json",
+        "sha256": "d21ff978815e243800bd7cca9fc1ec73218deedae16f4344acab5a9670699dab"
+      },
+      {
+        "term": "2026春",
+        "offering_id": "1036646",
+        "section_code": "STAT40005.031",
+        "course_code": "STAT40005",
+        "retrieval_status": "http_500",
+        "file": "outline_errors/1036646.json",
+        "sha256": "5c5ff5ba5216895755860d830e80195f894ae1bc0d4ec25b74f59320a882025a"
+      },
+      {
+        "term": "2026春",
+        "offering_id": "1036647",
+        "section_code": "STAT40005.032",
+        "course_code": "STAT40005",
+        "retrieval_status": "http_500",
+        "file": "outline_errors/1036647.json",
+        "sha256": "93e3c5b1cac832b11a7dac27a5f43053eb1142c8c3b406506e5fcb0062067569"
+      },
+      {
+        "term": "2026春",
+        "offering_id": "1036648",
+        "section_code": "STAT40005.033",
+        "course_code": "STAT40005",
+        "retrieval_status": "http_500",
+        "file": "outline_errors/1036648.json",
+        "sha256": "5841a2a62701f6f5e2de8c3fe97e940ca28501a072656621c2caace3b5210fbc"
+      },
+      {
+        "term": "2026春",
+        "offering_id": "1033489",
+        "section_code": "STAT40008.01",
+        "course_code": "STAT40008",
+        "retrieval_status": "body_retrieved",
+        "file": "outlines_live/1033489.json",
+        "sha256": "1ea041cd0c91fc000c9aee4c66ff10196579a75f6bb2980393180fe4a0ce6892"
+      },
+      {
+        "term": "2026春",
+        "offering_id": "1032184",
+        "section_code": "STAT40016.01",
+        "course_code": "STAT40016",
+        "retrieval_status": "body_retrieved",
+        "file": "outlines_live/1032184.json",
+        "sha256": "790c6716ac45693845a53a66991ee4aa6f8412896b2605c463a062196098212c"
+      },
+      {
+        "term": "2026春",
+        "offering_id": "1028762",
+        "section_code": "STAT50017.01",
+        "course_code": "STAT50017",
+        "retrieval_status": "body_retrieved",
+        "file": "outlines_live/1028762.json",
+        "sha256": "fe5f9113e4e5944aead7394033c40963630b9bf8e140fdab67f9a4544685f0d4"
+      },
+      {
+        "term": "2026春",
+        "offering_id": "1029080",
+        "section_code": "STAT50020.01",
+        "course_code": "STAT50020",
+        "retrieval_status": "body_retrieved",
+        "file": "outlines_live/1029080.json",
+        "sha256": "5fbcb8f2a7aea84d0627aad449d0b85622fee8dcf17997299e4d9f56e782da79"
+      },
+      {
+        "term": "2026春",
+        "offering_id": "1028864",
+        "section_code": "STAT50021.01",
+        "course_code": "STAT50021",
+        "retrieval_status": "body_retrieved",
+        "file": "outlines_live/1028864.json",
+        "sha256": "49c810c2669e2334a42c4aca68755b525b09301f6427ea5fc1dad2ceaa1dbc36"
+      },
+      {
+        "term": "2026春",
+        "offering_id": "1031639",
+        "section_code": "STAT50022.01",
+        "course_code": "STAT50022",
+        "retrieval_status": "body_retrieved",
+        "file": "outlines_live/1031639.json",
+        "sha256": "552b84701e3306a61a7ba1bad83b1f471cbc6d420bb0b42aa1a718de576201a9"
+      },
+      {
+        "term": "2026春",
+        "offering_id": "1029007",
+        "section_code": "STAT50025.01",
+        "course_code": "STAT50025",
+        "retrieval_status": "body_retrieved",
+        "file": "outlines_live/1029007.json",
+        "sha256": "3927cf890648c772dde8cba7d958bf01ed3605b9a29b0846ee8300bdc44594b5"
+      },
+      {
+        "term": "2026春",
+        "offering_id": "1028988",
+        "section_code": "STAT50026.01",
+        "course_code": "STAT50026",
+        "retrieval_status": "body_retrieved",
+        "file": "outlines_live/1028988.json",
+        "sha256": "c0662558a7b3d2e94342db7f5535f1770a0b321ff8a64935f93fc31107013a75"
+      },
+      {
+        "term": "2026春",
+        "offering_id": "1031691",
+        "section_code": "STAT50028.01",
+        "course_code": "STAT50028",
+        "retrieval_status": "body_retrieved",
+        "file": "outlines_live/1031691.json",
+        "sha256": "a1458f9f9459015a9fa163eb745db78f9d90c2bf766de9cc1a65288f8c88db68"
+      },
+      {
+        "term": "2026春",
+        "offering_id": "1032182",
+        "section_code": "STAT50029.01",
+        "course_code": "STAT50029",
+        "retrieval_status": "body_retrieved",
+        "file": "outlines_live/1032182.json",
+        "sha256": "6cc2f43044b47f7bbdd9303eadd816b6cbe77964c78583047efd4bd51e7d15be"
+      },
+      {
+        "term": "2026春",
+        "offering_id": "1032218",
+        "section_code": "STAT50031.01",
+        "course_code": "STAT50031",
+        "retrieval_status": "body_retrieved",
+        "file": "outlines_live/1032218.json",
+        "sha256": "3a545ec53d7252b1e1f5e2e05fcab579e0a66d59379ad648f6def64644d68a34"
+      },
+      {
+        "term": "2026春",
+        "offering_id": "1032461",
+        "section_code": "STAT50033.01",
+        "course_code": "STAT50033",
+        "retrieval_status": "body_retrieved",
+        "file": "outlines_live/1032461.json",
+        "sha256": "c26fb2fd26f4f05139124d20985f30bd3285c25640eaedae760b7da56eb43405"
+      },
+      {
+        "term": "2026春",
+        "offering_id": "1032216",
+        "section_code": "STAT50034.01",
+        "course_code": "STAT50034",
+        "retrieval_status": "body_retrieved",
+        "file": "outlines_live/1032216.json",
+        "sha256": "38f68523dd31149e2e2113b75201f1fa9b9b3248d639bb2296c0eedbc0b13a5d"
+      },
+      {
+        "term": "2026春",
+        "offering_id": "1032418",
+        "section_code": "STAT60007.01",
+        "course_code": "STAT60007",
+        "retrieval_status": "body_retrieved",
+        "file": "outlines_live/1032418.json",
+        "sha256": "512027dc22ea1bbae23c55af6a47b1d09f6e54f6e51de5c9e2eee76414175765"
+      },
+      {
+        "term": "2026春",
+        "offering_id": "1032117",
+        "section_code": "STAT70002.01",
+        "course_code": "STAT70002",
+        "retrieval_status": "body_retrieved",
+        "file": "outlines_live/1032117.json",
+        "sha256": "a12327e381fd49636c0cdc1752061ee9c7dfbb63bf363843689d60794b805cb5"
+      }
+    ],
+    "interpretation": "HTTP 500 means retrieval failed; it does not establish that the official syllabus is absent.",
+    "login_note": "The parent agent used the already authorized official session for live reads; this child did not start another login. No credentials or tokens were written."
+  },
+  "curriculum_plans": {
+    "selection_rule": "2026 catalog; exact grade=2026 and department=大数据学院",
+    "major_plan_count": 7,
+    "public_plan_id": 466,
+    "public_plan_title": "2026级 公共方案",
+    "public_source_url": "https://fdjwgl.fudan.edu.cn/manager/bizType/2/public-program-search/info/466",
+    "public_raw_file": "plans_2026/official_public_raw/466.json",
+    "public_raw_sha256": "e0136b5df2c00c41bae0dc1e49c253e959111537168fb181415e2354362e6f43",
+    "major_plans": [
+      {
+        "plan_id": 153198,
+        "plan_name": "2026数据科学与大数据技术本科培养方案",
+        "source_url": "https://fdjwgl.fudan.edu.cn/manager/bizType/2/major-program-search/info/153198",
+        "raw_file": "official_program_raw/153198.json",
+        "raw_sha256": "a413da613ba506736cea906bba1235c86e345bd3ba6b799eb0bff9275b5d2b6a",
+        "structured_json": "plans_2026/专业方案/153198.json",
+        "offline_html": "plans_2026/专业方案/153198_数据科学与大数据技术.html",
+        "raw_module_associations": 26,
+        "raw_course_rows": 80,
+        "index_nonempty_modules": 11,
+        "index_course_rows": 80,
+        "id_matches": true,
+        "course_rows_match_index": true,
+        "raw_name": "2026数据科学与大数据技术本科培养方案",
+        "index_name": "2026数据科学与大数据技术本科培养方案",
+        "expanded_empty_reference_modules": 1,
+        "raw_hash_matches_index_hash": false
+      },
+      {
+        "plan_id": 153957,
+        "plan_name": "2026数据科学与大数据技术-统计学本博融通培养方案",
+        "source_url": "https://fdjwgl.fudan.edu.cn/manager/bizType/2/major-program-search/info/153957",
+        "raw_file": "official_program_raw/153957.json",
+        "raw_sha256": "441d024cfe9203a9276e21794a348c46dd2b88f774f300d2579ad98a0e3bdf55",
+        "structured_json": "plans_2026/专业方案/153957.json",
+        "offline_html": "plans_2026/专业方案/153957_数据科学与大数据技术.html",
+        "raw_module_associations": 26,
+        "raw_course_rows": 87,
+        "index_nonempty_modules": 11,
+        "index_course_rows": 87,
+        "id_matches": true,
+        "course_rows_match_index": true,
+        "raw_name": "2026数据科学与大数据技术-统计学本博融通培养方案",
+        "index_name": "2026数据科学与大数据技术-统计学本博融通培养方案",
+        "expanded_empty_reference_modules": 1,
+        "raw_hash_matches_index_hash": false
+      },
+      {
+        "plan_id": 154056,
+        "plan_name": "2026数据科学与大数据技术本科培养方案(港澳台侨生适用)",
+        "source_url": "https://fdjwgl.fudan.edu.cn/manager/bizType/2/major-program-search/info/154056",
+        "raw_file": "official_program_raw/154056.json",
+        "raw_sha256": "b6b5505bab9b6222e0ca349ad5b2189f804e850e65e119cd3bd8752b8476ff00",
+        "structured_json": "plans_2026/专业方案/154056.json",
+        "offline_html": "plans_2026/专业方案/154056_数据科学与大数据技术.html",
+        "raw_module_associations": 26,
+        "raw_course_rows": 80,
+        "index_nonempty_modules": 11,
+        "index_course_rows": 80,
+        "id_matches": true,
+        "course_rows_match_index": true,
+        "raw_name": "2026数据科学与大数据技术本科培养方案(港澳台侨生适用)",
+        "index_name": "2026数据科学与大数据技术本科培养方案(港澳台侨生适用)",
+        "expanded_empty_reference_modules": 1,
+        "raw_hash_matches_index_hash": false
+      },
+      {
+        "plan_id": 154071,
+        "plan_name": "2026数据科学与大数据技术(国际项目)本科培养方案",
+        "source_url": "https://fdjwgl.fudan.edu.cn/manager/bizType/2/major-program-search/info/154071",
+        "raw_file": "official_program_raw/154071.json",
+        "raw_sha256": "2f39a58e544d5e03d5ffbda69647dadac0613bc1d63c39e1f73d8bae52a8ec66",
+        "structured_json": "plans_2026/专业方案/154071.json",
+        "offline_html": "plans_2026/专业方案/154071_数据科学与大数据技术(国际项目).html",
+        "raw_module_associations": 23,
+        "raw_course_rows": 36,
+        "index_nonempty_modules": 8,
+        "index_course_rows": 36,
+        "id_matches": true,
+        "course_rows_match_index": true,
+        "raw_name": "2026数据科学与大数据技术(国际项目)本科培养方案",
+        "index_name": "2026数据科学与大数据技术(国际项目)本科培养方案",
+        "expanded_empty_reference_modules": 1,
+        "raw_hash_matches_index_hash": false
+      },
+      {
+        "plan_id": 154073,
+        "plan_name": "2026数据科学与大数据技术(国际项目)本科培养方案（留学生适用）",
+        "source_url": "https://fdjwgl.fudan.edu.cn/manager/bizType/2/major-program-search/info/154073",
+        "raw_file": "official_program_raw/154073.json",
+        "raw_sha256": "47b04b10f53c479a0d58e1e3c8f285a7d3657c24a855ceaadd6e10847e88a65b",
+        "structured_json": "plans_2026/专业方案/154073.json",
+        "offline_html": "plans_2026/专业方案/154073_数据科学与大数据技术(国际项目).html",
+        "raw_module_associations": 22,
+        "raw_course_rows": 38,
+        "index_nonempty_modules": 7,
+        "index_course_rows": 38,
+        "id_matches": true,
+        "course_rows_match_index": true,
+        "raw_name": "2026数据科学与大数据技术(国际项目)本科培养方案（留学生适用）",
+        "index_name": "2026数据科学与大数据技术(国际项目)本科培养方案（留学生适用）",
+        "expanded_empty_reference_modules": 1,
+        "raw_hash_matches_index_hash": false
+      },
+      {
+        "plan_id": 154235,
+        "plan_name": "2026数据科学与大数据技术（数字孪生）本科培养方案",
+        "source_url": "https://fdjwgl.fudan.edu.cn/manager/bizType/2/major-program-search/info/154235",
+        "raw_file": "official_program_raw/154235.json",
+        "raw_sha256": "89580c7d5adbb9391ec01e3dcd70fe2039a6bb9fa6573855b5dbed0d97672a5a",
+        "structured_json": "plans_2026/专业方案/154235.json",
+        "offline_html": "plans_2026/专业方案/154235_数据科学与大数据技术.html",
+        "raw_module_associations": 26,
+        "raw_course_rows": 60,
+        "index_nonempty_modules": 11,
+        "index_course_rows": 60,
+        "id_matches": true,
+        "course_rows_match_index": true,
+        "raw_name": "2026数据科学与大数据技术（数字孪生）本科培养方案",
+        "index_name": "2026数据科学与大数据技术（数字孪生）本科培养方案",
+        "expanded_empty_reference_modules": 1,
+        "raw_hash_matches_index_hash": false
+      },
+      {
+        "plan_id": 159551,
+        "plan_name": "2026数据科学与大数据技术(国际项目)本科培养方案(港澳台侨生适用)",
+        "source_url": "https://fdjwgl.fudan.edu.cn/manager/bizType/2/major-program-search/info/159551",
+        "raw_file": "official_program_raw/159551.json",
+        "raw_sha256": "de069681b0effccf32d87d3526e18df638e41581e0cfb2a361471e7a3b41a65a",
+        "structured_json": "plans_2026/专业方案/159551.json",
+        "offline_html": "plans_2026/专业方案/159551_数据科学与大数据技术(国际项目).html",
+        "raw_module_associations": 23,
+        "raw_course_rows": 36,
+        "index_nonempty_modules": 8,
+        "index_course_rows": 36,
+        "id_matches": true,
+        "course_rows_match_index": true,
+        "raw_name": "2026数据科学与大数据技术(国际项目)本科培养方案(港澳台侨生适用)",
+        "index_name": "2026数据科学与大数据技术(国际项目)本科培养方案(港澳台侨生适用)",
+        "expanded_empty_reference_modules": 1,
+        "raw_hash_matches_index_hash": false
+      }
+    ],
+    "card_reference_file": "plans_2026/plan_refs_by_code.json",
+    "index_crosscheck": "Raw model.id matches filename and index ID; direct course rows compared to index by exact course code, Chinese name, credits and compulsory."
+  },
+  "notes": [
+    "Schedule rows are teaching sections, not unique courses.",
+    "Live syllabus coverage supersedes earlier cache-only matching.",
+    "Derived plan pages include educational content and omit creator/modifier operational metadata.",
+    "Passwords, cookies and tokens are not stored."
+  ],
+  "enrollment_capacity": {
+    "join_key": [
+      "lesson_id",
+      "section_code",
+      "course_code",
+      "exact_teacher_name_set"
+    ],
+    "fields": {
+      "enrollment": "stdCount",
+      "capacity": "limitCount",
+      "enrollment_snapshot_at": "snapshot fetched_at"
+    },
+    "not_used_as_capacity": "selectionLimit is a restriction condition and was not used as seat capacity.",
+    "source_files": [
+      {
+        "path": "504.json",
+        "sha256": "cc99a1d10d448ecd6acc21578aed7ab6e542ca9b89d8e3dd6fc08df6f53e7b0a",
+        "fetched_at": "2026-10-25T13:50:27.796122+08:00",
+        "semester_id": 504
+      },
+      {
+        "path": "505.json",
+        "sha256": "c5fa9dc4f3ff0a245060af2d1f26ef4efa3d54ccf5be8221da824c81c17f0ede",
+        "fetched_at": "2026-10-25T13:51:14.817884+08:00",
+        "semester_id": 505
+      }
+    ],
+    "term_audit": {
+      "2025秋": {
+        "fetched_at": "2026-10-25T13:50:27.796122+08:00",
+        "rows": 67,
+        "joins": {
+          "exact_id_section_course_teachers": 67,
+          "duplicate_exact_key": 0,
+          "no_exact_match": 0
+        },
+        "CS20017.01_sample": {
+          "course_code": "CS20017",
+          "section_code": "CS20017.01",
+          "teachers": "黄增峰",
+          "enrollment": 128,
+          "capacity": 137,
+          "enrollment_snapshot_at": "2026-10-25T13:50:27.796122+08:00",
+          "enrollment_join_status": "exact_id_section_course_teachers"
+        }
+      },
+      "2026春": {
+        "fetched_at": "2026-10-25T13:51:14.817884+08:00",
+        "rows": 79,
+        "joins": {
+          "exact_id_section_course_teachers": 79,
+          "duplicate_exact_key": 0,
+          "no_exact_match": 0
+        }
+      }
+    }
+  },
+  "plan_images": {
+    "scope": "Images referenced in the 7 official 2026 major-plan document bodies; the public-plan page contains no image references.",
+    "retrieval": "Unauthenticated GET to official public image URLs; redirects were not followed; no session or credential data used.",
+    "generated_at_utc": "2026-10-28T16:22:58.944604+00:00",
+    "unique_image_urls": 13,
+    "downloaded_count": 13,
+    "total_downloaded_bytes": 1934873,
+    "entries": [
+      {
+        "url": "https://fdjwgl.fudan.edu.cn/manager/ws/structured-document/load-images/19e6b86f-8164-4fc1-b22b-1b6759ecbcbc",
+        "pages": [
+          "153957_数据科学与大数据技术.html"
+        ],
+        "official_plan_ids": [
+          "153957"
+        ],
+        "status": 200,
+        "reported_content_type": "text/plain",
+        "detected_content_type": "image/png",
+        "bytes": 367935,
+        "sha256": "24ec483a5ae3d7eabea1ccc2b0eebcc07abcff9ad2887b05e7b374e3540b0ef4",
+        "local_file": "19e6b86f-8164-4fc1-b22b-1b6759ecbcbc.png",
+        "result": "downloaded",
+        "original_downloaded_file": "19e6b86f-8164-4fc1-b22b-1b6759ecbcbc.png"
+      },
+      {
+        "url": "https://fdjwgl.fudan.edu.cn/manager/ws/structured-document/load-images/38813143-3a37-47d2-9611-11d32bfc87bc",
+        "pages": [
+          "154073_数据科学与大数据技术(国际项目).html"
+        ],
+        "official_plan_ids": [
+          "154073"
+        ],
+        "status": 200,
+        "reported_content_type": "text/plain",
+        "detected_content_type": "image/png",
+        "bytes": 121878,
+        "sha256": "567f1be1375d57ff8f8f42e52dad9135515cea563e1ed6dfbd7c541db72c5a81",
+        "local_file": "38813143-3a37-47d2-9611-11d32bfc87bc.png",
+        "result": "downloaded",
+        "original_downloaded_file": "38813143-3a37-47d2-9611-11d32bfc87bc.png"
+      },
+      {
+        "url": "https://fdjwgl.fudan.edu.cn/manager/ws/structured-document/load-images/3c5e817b-34a7-4d4f-889b-b75d10f26489",
+        "pages": [
+          "154071_数据科学与大数据技术(国际项目).html"
+        ],
+        "official_plan_ids": [
+          "154071"
+        ],
+        "status": 200,
+        "reported_content_type": "text/plain",
+        "detected_content_type": "image/png",
+        "bytes": 120817,
+        "sha256": "b3ea4ca7eac71f0c434819c6a9b0ddf9b61ad20733a8a62ed12eba50d5c4a990",
+        "local_file": "3c5e817b-34a7-4d4f-889b-b75d10f26489.png",
+        "result": "downloaded",
+        "original_downloaded_file": "3c5e817b-34a7-4d4f-889b-b75d10f26489.png"
+      },
+      {
+        "url": "https://fdjwgl.fudan.edu.cn/manager/ws/structured-document/load-images/3d3f3018-575d-4074-8f51-0e6d1c60266a",
+        "pages": [
+          "153957_数据科学与大数据技术.html"
+        ],
+        "official_plan_ids": [
+          "153957"
+        ],
+        "status": 200,
+        "reported_content_type": "text/plain",
+        "detected_content_type": "image/png",
+        "bytes": 151719,
+        "sha256": "30b1ac3e440c517aca19f217d36bb07f026aee5c9493f3d676287226fef82715",
+        "local_file": "3d3f3018-575d-4074-8f51-0e6d1c60266a.png",
+        "result": "downloaded",
+        "original_downloaded_file": "3d3f3018-575d-4074-8f51-0e6d1c60266a.png"
+      },
+      {
+        "url": "https://fdjwgl.fudan.edu.cn/manager/ws/structured-document/load-images/5e5a863b-43ad-4585-8ccf-dffe6342abd7",
+        "pages": [
+          "153198_数据科学与大数据技术.html",
+          "154235_数据科学与大数据技术.html"
+        ],
+        "official_plan_ids": [
+          "153198",
+          "154235"
+        ],
+        "status": 200,
+        "reported_content_type": "text/plain",
+        "detected_content_type": "image/png",
+        "bytes": 107780,
+        "sha256": "66f8fafee360d87ee64c2251c27b994f33513de4273e2696b065a3781a906d34",
+        "local_file": "5e5a863b-43ad-4585-8ccf-dffe6342abd7.png",
+        "result": "downloaded",
+        "original_downloaded_file": "5e5a863b-43ad-4585-8ccf-dffe6342abd7.png"
+      },
+      {
+        "url": "https://fdjwgl.fudan.edu.cn/manager/ws/structured-document/load-images/6369fdba-1e0b-4d7b-ba22-5a2771dacad4",
+        "pages": [
+          "159551_数据科学与大数据技术(国际项目).html"
+        ],
+        "official_plan_ids": [
+          "159551"
+        ],
+        "status": 200,
+        "reported_content_type": "text/plain",
+        "detected_content_type": "image/png",
+        "bytes": 120852,
+        "sha256": "d46daf7c8da53988de9807ce907981e3e4d07ad256d3c1363913fc288a51db45",
+        "local_file": "6369fdba-1e0b-4d7b-ba22-5a2771dacad4.png",
+        "result": "downloaded",
+        "original_downloaded_file": "6369fdba-1e0b-4d7b-ba22-5a2771dacad4.png"
+      },
+      {
+        "url": "https://fdjwgl.fudan.edu.cn/manager/ws/structured-document/load-images/82454ff6-5db3-439d-a71e-257e6b0df944",
+        "pages": [
+          "153198_数据科学与大数据技术.html"
+        ],
+        "official_plan_ids": [
+          "153198"
+        ],
+        "status": 200,
+        "reported_content_type": "text/plain",
+        "detected_content_type": "image/png",
+        "bytes": 342108,
+        "sha256": "bf91229a9d44b42cc6ffc838ffbb638655b3849b3c3f4aabfa248f715dc3d40f",
+        "local_file": "82454ff6-5db3-439d-a71e-257e6b0df944.png",
+        "result": "downloaded",
+        "original_downloaded_file": "82454ff6-5db3-439d-a71e-257e6b0df944.png"
+      },
+      {
+        "url": "https://fdjwgl.fudan.edu.cn/manager/ws/structured-document/load-images/899ee042-472e-405a-9a19-92987281ded6",
+        "pages": [
+          "154056_数据科学与大数据技术.html"
+        ],
+        "official_plan_ids": [
+          "154056"
+        ],
+        "status": 200,
+        "reported_content_type": "text/plain",
+        "detected_content_type": "image/png",
+        "bytes": 130825,
+        "sha256": "9885cfb582771ba33d986d6b8108a766ed3951a85202758f6f6e9661fdebd299",
+        "local_file": "899ee042-472e-405a-9a19-92987281ded6.png",
+        "result": "downloaded",
+        "original_downloaded_file": "899ee042-472e-405a-9a19-92987281ded6.png"
+      },
+      {
+        "url": "https://fdjwgl.fudan.edu.cn/manager/ws/structured-document/load-images/c20a1de7-b5c1-4125-9f88-9b643d0998db",
+        "pages": [
+          "154235_数据科学与大数据技术.html"
+        ],
+        "official_plan_ids": [
+          "154235"
+        ],
+        "status": 200,
+        "reported_content_type": "text/plain",
+        "detected_content_type": "image/png",
+        "bytes": 339556,
+        "sha256": "d2196792728becec1e8798146654e933c848cb4eadd4d5808375fe3a5c5b80c6",
+        "local_file": "c20a1de7-b5c1-4125-9f88-9b643d0998db.png",
+        "result": "downloaded",
+        "original_downloaded_file": "c20a1de7-b5c1-4125-9f88-9b643d0998db.png"
+      },
+      {
+        "url": "https://fdjwgl.fudan.edu.cn/manager/ws/structured-document/load-images/d5bccd2a-95f3-4250-9300-6cce3ab393c2",
+        "pages": [
+          "153198_数据科学与大数据技术.html",
+          "154235_数据科学与大数据技术.html"
+        ],
+        "official_plan_ids": [
+          "153198",
+          "154235"
+        ],
+        "status": 200,
+        "reported_content_type": "text/plain",
+        "detected_content_type": "image/png",
+        "bytes": 131403,
+        "sha256": "d84b790bfa8919ed439e4c70e49e2f9cf4a9c53c740896d4378c0c6dd60114bd",
+        "local_file": "d5bccd2a-95f3-4250-9300-6cce3ab393c2.png",
+        "result": "downloaded",
+        "original_downloaded_file": "d5bccd2a-95f3-4250-9300-6cce3ab393c2.png"
+      },
+      {
+        "url": "https://fdjwgl.fudan.edu.cn/manager/ws/structured-document/load-images/df7c78d7-26a3-4a3c-8a76-c37bbd0ec01e",
+        "pages": [
+          "153957_数据科学与大数据技术.html"
+        ],
+        "official_plan_ids": [
+          "153957"
+        ],
+        "status": 200,
+        "reported_content_type": "text/plain",
+        "detected_content_type": "image/png",
+        "bytes": 107780,
+        "sha256": "66f8fafee360d87ee64c2251c27b994f33513de4273e2696b065a3781a906d34",
+        "local_file": "5e5a863b-43ad-4585-8ccf-dffe6342abd7.png",
+        "result": "downloaded",
+        "original_downloaded_file": "df7c78d7-26a3-4a3c-8a76-c37bbd0ec01e.png",
+        "duplicate_of": "5e5a863b-43ad-4585-8ccf-dffe6342abd7.png"
+      },
+      {
+        "url": "https://fdjwgl.fudan.edu.cn/manager/ws/structured-document/load-images/e4e03d25-52c2-46ab-a940-8a50e8e7d49c",
+        "pages": [
+          "154056_数据科学与大数据技术.html"
+        ],
+        "official_plan_ids": [
+          "154056"
+        ],
+        "status": 200,
+        "reported_content_type": "text/plain",
+        "detected_content_type": "image/png",
+        "bytes": 342108,
+        "sha256": "bf91229a9d44b42cc6ffc838ffbb638655b3849b3c3f4aabfa248f715dc3d40f",
+        "local_file": "82454ff6-5db3-439d-a71e-257e6b0df944.png",
+        "result": "downloaded",
+        "original_downloaded_file": "e4e03d25-52c2-46ab-a940-8a50e8e7d49c.png",
+        "duplicate_of": "82454ff6-5db3-439d-a71e-257e6b0df944.png"
+      },
+      {
+        "url": "https://fdjwgl.fudan.edu.cn/manager/ws/structured-document/load-images/eb41357e-169b-4cbf-9ddd-ec9a2ecdc4fa",
+        "pages": [
+          "154056_数据科学与大数据技术.html"
+        ],
+        "official_plan_ids": [
+          "154056"
+        ],
+        "status": 200,
+        "reported_content_type": "text/plain",
+        "detected_content_type": "image/png",
+        "bytes": 107780,
+        "sha256": "66f8fafee360d87ee64c2251c27b994f33513de4273e2696b065a3781a906d34",
+        "local_file": "5e5a863b-43ad-4585-8ccf-dffe6342abd7.png",
+        "result": "downloaded",
+        "original_downloaded_file": "eb41357e-169b-4cbf-9ddd-ec9a2ecdc4fa.png",
+        "duplicate_of": "5e5a863b-43ad-4585-8ccf-dffe6342abd7.png"
+      }
+    ],
+    "deduplicated_by_sha256": true,
+    "unique_saved_files": 10,
+    "total_retrieved_bytes": 2492541
+  },
+  "published_plan_ref_index_scope": "仅保留本次84门课程的精确对应；完整公共方案与7份专业方案仍单独保留。"
+}

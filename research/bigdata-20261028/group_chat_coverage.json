@@ -1,0 +1,72 @@
+{
+  "scope": "六份用户提供微信群导出；仅离线本地处理",
+  "privacy": "不含群名称、群号、原文件路径、成员/wxid或原始消息文本；原始上下文包只保留在本地chat_work。",
+  "scan_method": "全消息文本按课程名称/代码/拼音/缩写/任课教师别名匹配，并为候选保存匿名化上下文；候选逐条人工复核。",
+  "group_count": 6,
+  "total_messages": 135786,
+  "eligible_text_messages": 105926,
+  "alias_hit_messages": 211,
+  "candidate_context_packets": 115,
+  "candidate_context_messages": 1345,
+  "sources": [
+    {
+      "source_label": "匿名群聊A",
+      "source_file_sha256": "f761c773c2278ba7d5872b90cad3b0ff067b9e9f742b60e0169a9fa71e330f06",
+      "total_messages": 46146,
+      "eligible_text_messages": 34363,
+      "alias_hit_messages": 44,
+      "candidate_context_packets": 24,
+      "candidate_context_messages": 209
+    },
+    {
+      "source_label": "匿名群聊B",
+      "source_file_sha256": "4b5f0b8cc02d8b8969d6b1e8c95951c1a3f18af5634faacf38516bad9a701b85",
+      "total_messages": 26978,
+      "eligible_text_messages": 20722,
+      "alias_hit_messages": 58,
+      "candidate_context_packets": 34,
+      "candidate_context_messages": 370
+    },
+    {
+      "source_label": "匿名群聊C",
+      "source_file_sha256": "f80c0c0c44033312b3a35e38c3e9604af3ee51949ff1797ce43bbc7c358872ae",
+      "total_messages": 27979,
+      "eligible_text_messages": 22862,
+      "alias_hit_messages": 33,
+      "candidate_context_packets": 19,
+      "candidate_context_messages": 225
+    },
+    {
+      "source_label": "匿名群聊D",
+      "source_file_sha256": "41bce3d31ef4d437f78ac7cfce7dbda2a4f2f8e8a0b648976070942e4d0bd2c0",
+      "total_messages": 16443,
+      "eligible_text_messages": 14142,
+      "alias_hit_messages": 36,
+      "candidate_context_packets": 20,
+      "candidate_context_messages": 241
+    },
+    {
+      "source_label": "匿名群聊E",
+      "source_file_sha256": "53bd367f2d56421d40ceb04c0d3abcaf3f26113399a922fc3032afe03da954d7",
+      "total_messages": 11856,
+      "eligible_text_messages": 8832,
+      "alias_hit_messages": 29,
+      "candidate_context_packets": 13,
+      "candidate_context_messages": 229
+    },
+    {
+      "source_label": "匿名群聊F",
+      "source_file_sha256": "444765d6972406b6ec01c016bd870021a31f659f0027dd085505c9ef5ca0d3fb",
+      "total_messages": 6384,
+      "eligible_text_messages": 5005,
+      "alias_hit_messages": 11,
+      "candidate_context_packets": 5,
+      "candidate_context_messages": 71
+    }
+  ],
+  "review_outcome": {
+    "attributable_course_reviews": 0,
+    "unassigned_course_selection_discussions": 1,
+    "note": "115个上下文包经人工筛查；其余未见可明确归属的具体课程亲修评价。此结果表示本次六份导出与词表范围内未检出，不代表全体微信群或全部聊天时段。"
+  }
+}

@@ -1,0 +1,3648 @@
+{
+  "schema_version": "1.0",
+  "generated_date": "2026-10-29",
+  "department": "大数据学院",
+  "source_scope": [
+    "official_index_504.json",
+    "official_index_505.json"
+  ],
+  "official_scope": {
+    "filter": "department.nameZh == 大数据学院",
+    "course_title_count": 84,
+    "section_count": 146,
+    "terms": [
+      "2025秋",
+      "2026春"
+    ]
+  },
+  "search_method": {
+    "engine": "Codex search_service system2_search_query",
+    "query_pattern": "\"<课程全名>\" 复旦",
+    "fuzzy_search": false,
+    "domain_filter": [
+      "zhihu.com",
+      "xiaohongshu.com",
+      "mp.weixin.qq.com"
+    ],
+    "site_internal_search_exhaustive": false,
+    "teacher_name_or_pinyin_search": false,
+    "note": "搜索引擎索引检索，不代表三个站内搜索结果穷尽。直接站内检索页URL无法由当前读取工具打开。"
+  },
+  "coverage_summary": {
+    "empty_search_titles": [
+      "强国之路：形势、政策与使命Ⅱ",
+      "强国之路：形势、政策与使命Ⅲ",
+      "强国之路：形势、政策与使命Ⅳ",
+      "数值算法与案例分析I"
+    ],
+    "historical_course_materials_accepted": 1,
+    "query_payloads_retained_for_all_titles": false,
+    "direct_site_search_failures": [
+      {
+        "platform": "知乎",
+        "status": "search URL inaccessible via current web reader"
+      },
+      {
+        "platform": "小红书",
+        "status": "search URL inaccessible via current web reader"
+      },
+      {
+        "platform": "微信公众号/搜狗微信",
+        "status": "search URL inaccessible via current web reader"
+      }
+    ],
+    "titles_submitted": 84,
+    "current_offering_reviews_accepted": 0,
+    "readable_historical_materials": 1,
+    "readable_current_offering_reviews": 0
+  },
+  "known_readable_source": {
+    "course_name": "知识图谱概念与技术",
+    "course_code": "STAT70012",
+    "official_offering": {
+      "term": "2025秋",
+      "teacher": "梁家卿",
+      "section": "STAT70012.01"
+    },
+    "record_type": "public_course_material",
+    "accepted_for": "historical_course_resource_only",
+    "source_platform": "知乎",
+    "source_title": "复旦大学肖仰华老师-《知识图谱-概念与技术》课程ppt整理分享",
+    "source_url": "https://www.zhihu.com/tardis/zm/art/376349647",
+    "body_read": true,
+    "body_support": "正文与页面标题可读，说明整理分享复旦大学肖仰华老师课程PPT；可关联同一课程主题。",
+    "teacher_on_source": "肖仰华",
+    "term_on_source": null,
+    "teacher_match": "different_from_2025秋_official_offering_teacher",
+    "summary": "页面整理分享肖仰华老师《知识图谱-概念与技术》课程PPT，属于公开课程学习资料。页面未能确认学期，且官方2025秋课程教师为梁家卿，因此只按历史异师资料保留，不作为本学期评价。",
+    "review_text": false,
+    "evaluation_claims": [],
+    "notes": "只保留安全的知乎正文链接；未记录页面下载按钮的跳转地址。"
+  },
+  "query_records": [
+    {
+      "results_attributable_to_individual_query": false,
+      "batch_results_screened": true,
+      "readable_course_review_found": false,
+      "exact_query": "\"Python程序设计\" 复旦",
+      "exclusion_reason": "现有共享批次输出中未核读到能同时关联该课程、复旦与本学期具体班次/教师的评价正文；同名泛化内容、教材/考试内容或其他学校内容不作课程评价。",
+      "shared_result_count": null,
+      "course_code": "GEEC10072",
+      "query_submitted": true,
+      "course_name": "Python程序设计",
+      "response_state": "completed_in_prior_session; per-query payload not retained",
+      "offerings": [
+        {
+          "term": "2025秋",
+          "course_code": "GEEC10072",
+          "section_code": "GEEC10072.09",
+          "teachers": [
+            "郭宏成"
+          ],
+          "section_id": 1015508
+        }
+      ],
+      "response_batch": null,
+      "accepted_current_offering_review": false,
+      "platforms": [
+        "zhihu.com",
+        "xiaohongshu.com",
+        "mp.weixin.qq.com"
+      ],
+      "screening_note": "先前会话记录确认该课程全名查询已提交并完成结果筛查；原始逐查询结果未保存在本目录，不能声称逐课程结果映射。",
+      "index": 0,
+      "search_request_succeeded": true,
+      "readable_course_material_found": false,
+      "accepted_historical_material_ids": []
+    },
+    {
+      "results_attributable_to_individual_query": false,
+      "batch_results_screened": true,
+      "readable_course_review_found": false,
+      "exact_query": "\"人工智能\" 复旦",
+      "exclusion_reason": "现有共享批次输出中未核读到能同时关联该课程、复旦与本学期具体班次/教师的评价正文；同名泛化内容、教材/考试内容或其他学校内容不作课程评价。",
+      "shared_result_count": null,
+      "course_code": "CS50020",
+      "query_submitted": true,
+      "course_name": "人工智能",
+      "response_state": "completed_in_prior_session; per-query payload not retained",
+      "offerings": [
+        {
+          "term": "2025秋",
+          "course_code": "CS50020",
+          "section_code": "CS50020.01",
+          "teachers": [
+            "魏忠钰"
+          ],
+          "section_id": 1001742
+        }
+      ],
+      "response_batch": null,
+      "accepted_current_offering_review": false,
+      "platforms": [
+        "zhihu.com",
+        "xiaohongshu.com",
+        "mp.weixin.qq.com"
+      ],
+      "screening_note": "先前会话记录确认该课程全名查询已提交并完成结果筛查；原始逐查询结果未保存在本目录，不能声称逐课程结果映射。",
+      "index": 1,
+      "search_request_succeeded": true,
+      "readable_course_material_found": false,
+      "accepted_historical_material_ids": []
+    },
+    {
+      "results_attributable_to_individual_query": false,
+      "batch_results_screened": true,
+      "readable_course_review_found": false,
+      "exact_query": "\"人工智能前沿模型与算法\" 复旦",
+      "exclusion_reason": "现有共享批次输出中未核读到能同时关联该课程、复旦与本学期具体班次/教师的评价正文；同名泛化内容、教材/考试内容或其他学校内容不作课程评价。",
+      "shared_result_count": null,
+      "course_code": "CS60004",
+      "query_submitted": true,
+      "course_name": "人工智能前沿模型与算法",
+      "response_state": "completed_in_prior_session; per-query payload not retained",
+      "offerings": [
+        {
+          "term": "2026春",
+          "course_code": "CS60004",
+          "section_code": "CS60004.01",
+          "teachers": [
+            "魏忠钰"
+          ],
+          "section_id": 1032147
+        }
+      ],
+      "response_batch": null,
+      "accepted_current_offering_review": false,
+      "platforms": [
+        "zhihu.com",
+        "xiaohongshu.com",
+        "mp.weixin.qq.com"
+      ],
+      "screening_note": "先前会话记录确认该课程全名查询已提交并完成结果筛查；原始逐查询结果未保存在本目录，不能声称逐课程结果映射。",
+      "index": 2,
+      "search_request_succeeded": true,
+      "readable_course_material_found": false,
+      "accepted_historical_material_ids": []
+    },
+    {
+      "results_attributable_to_individual_query": false,
+      "batch_results_screened": true,
+      "readable_course_review_found": false,
+      "exact_query": "\"人工智能的伦理与治理\" 复旦",
+      "exclusion_reason": "现有共享批次输出中未核读到能同时关联该课程、复旦与本学期具体班次/教师的评价正文；同名泛化内容、教材/考试内容或其他学校内容不作课程评价。",
+      "shared_result_count": null,
+      "course_code": "PHIL50006",
+      "query_submitted": true,
+      "course_name": "人工智能的伦理与治理",
+      "response_state": "completed_in_prior_session; per-query payload not retained",
+      "offerings": [
+        {
+          "term": "2026春",
+          "course_code": "PHIL50006",
+          "section_code": "PHIL50006.01",
+          "teachers": [
+            "王国豫",
+            "姜育刚",
+            "杨庆峰",
+            "韩伟力",
+            "吴杰",
+            "徐英瑾",
+            "朱春奎"
+          ],
+          "section_id": 1027940
+        },
+        {
+          "term": "2026春",
+          "course_code": "PHIL50006",
+          "section_code": "PHIL50006.02",
+          "teachers": [
+            "王国豫",
+            "姜育刚",
+            "杨庆峰",
+            "韩伟力",
+            "吴杰",
+            "徐英瑾",
+            "朱春奎"
+          ],
+          "section_id": 1034391
+        }
+      ],
+      "response_batch": null,
+      "accepted_current_offering_review": false,
+      "platforms": [
+        "zhihu.com",
+        "xiaohongshu.com",
+        "mp.weixin.qq.com"
+      ],
+      "screening_note": "先前会话记录确认该课程全名查询已提交并完成结果筛查；原始逐查询结果未保存在本目录，不能声称逐课程结果映射。",
+      "index": 3,
+      "search_request_succeeded": true,
+      "readable_course_material_found": false,
+      "accepted_historical_material_ids": []
+    },
+    {
+      "results_attributable_to_individual_query": false,
+      "batch_results_screened": true,
+      "readable_course_review_found": false,
+      "exact_query": "\"医学图像处理\" 复旦",
+      "exclusion_reason": "现有共享批次输出中未核读到能同时关联该课程、复旦与本学期具体班次/教师的评价正文；同名泛化内容、教材/考试内容或其他学校内容不作课程评价。",
+      "shared_result_count": null,
+      "course_code": "CS50026",
+      "query_submitted": true,
+      "course_name": "医学图像处理",
+      "response_state": "completed_in_prior_session; per-query payload not retained",
+      "offerings": [
+        {
+          "term": "2026春",
+          "course_code": "CS50026",
+          "section_code": "CS50026.01",
+          "teachers": [
+            "周渊"
+          ],
+          "section_id": 1028997
+        }
+      ],
+      "response_batch": null,
+      "accepted_current_offering_review": false,
+      "platforms": [
+        "zhihu.com",
+        "xiaohongshu.com",
+        "mp.weixin.qq.com"
+      ],
+      "screening_note": "先前会话记录确认该课程全名查询已提交并完成结果筛查；原始逐查询结果未保存在本目录，不能声称逐课程结果映射。",
+      "index": 4,
+      "search_request_succeeded": true,
+      "readable_course_material_found": false,
+      "accepted_historical_material_ids": []
+    },
+    {
+      "results_attributable_to_individual_query": false,
+      "batch_results_screened": true,
+      "readable_course_review_found": false,
+      "exact_query": "\"医学影像分析与应用\" 复旦",
+      "exclusion_reason": "现有共享批次输出中未核读到能同时关联该课程、复旦与本学期具体班次/教师的评价正文；同名泛化内容、教材/考试内容或其他学校内容不作课程评价。",
+      "shared_result_count": null,
+      "course_code": "STAT70013",
+      "query_submitted": true,
+      "course_name": "医学影像分析与应用",
+      "response_state": "completed_in_prior_session; per-query payload not retained",
+      "offerings": [
+        {
+          "term": "2025秋",
+          "course_code": "STAT70013",
+          "section_code": "STAT70013.01",
+          "teachers": [
+            "庄吓海"
+          ],
+          "section_id": 1007860
+        }
+      ],
+      "response_batch": null,
+      "accepted_current_offering_review": false,
+      "platforms": [
+        "zhihu.com",
+        "xiaohongshu.com",
+        "mp.weixin.qq.com"
+      ],
+      "screening_note": "先前会话记录确认该课程全名查询已提交并完成结果筛查；原始逐查询结果未保存在本目录，不能声称逐课程结果映射。",
+      "index": 5,
+      "search_request_succeeded": true,
+      "readable_course_material_found": false,
+      "accepted_historical_material_ids": []
+    },
+    {
+      "results_attributable_to_individual_query": false,
+      "batch_results_screened": true,
+      "readable_course_review_found": false,
+      "exact_query": "\"医疗大数据统计学\" 复旦",
+      "exclusion_reason": "现有共享批次输出中未核读到能同时关联该课程、复旦与本学期具体班次/教师的评价正文；同名泛化内容、教材/考试内容或其他学校内容不作课程评价。",
+      "shared_result_count": null,
+      "course_code": "STAT50020",
+      "query_submitted": true,
+      "course_name": "医疗大数据统计学",
+      "response_state": "completed_in_prior_session; per-query payload not retained",
+      "offerings": [
+        {
+          "term": "2026春",
+          "course_code": "STAT50020",
+          "section_code": "STAT50020.01",
+          "teachers": [
+            "傅博"
+          ],
+          "section_id": 1029080
+        }
+      ],
+      "response_batch": null,
+      "accepted_current_offering_review": false,
+      "platforms": [
+        "zhihu.com",
+        "xiaohongshu.com",
+        "mp.weixin.qq.com"
+      ],
+      "screening_note": "先前会话记录确认该课程全名查询已提交并完成结果筛查；原始逐查询结果未保存在本目录，不能声称逐课程结果映射。",
+      "index": 6,
+      "search_request_succeeded": true,
+      "readable_course_material_found": false,
+      "accepted_historical_material_ids": []
+    },
+    {
+      "results_attributable_to_individual_query": false,
+      "batch_results_screened": true,
+      "readable_course_review_found": false,
+      "exact_query": "\"医疗大数据高等统计方法\" 复旦",
+      "exclusion_reason": "现有共享批次输出中未核读到能同时关联该课程、复旦与本学期具体班次/教师的评价正文；同名泛化内容、教材/考试内容或其他学校内容不作课程评价。",
+      "shared_result_count": null,
+      "course_code": "MAS70001",
+      "query_submitted": true,
+      "course_name": "医疗大数据高等统计方法",
+      "response_state": "completed_in_prior_session; per-query payload not retained",
+      "offerings": [
+        {
+          "term": "2025秋",
+          "course_code": "MAS70001",
+          "section_code": "MAS70001.01",
+          "teachers": [
+            "傅博"
+          ],
+          "section_id": 1007160
+        }
+      ],
+      "response_batch": null,
+      "accepted_current_offering_review": false,
+      "platforms": [
+        "zhihu.com",
+        "xiaohongshu.com",
+        "mp.weixin.qq.com"
+      ],
+      "screening_note": "先前会话记录确认该课程全名查询已提交并完成结果筛查；原始逐查询结果未保存在本目录，不能声称逐课程结果映射。",
+      "index": 7,
+      "search_request_succeeded": true,
+      "readable_course_material_found": false,
+      "accepted_historical_material_ids": []
+    },
+    {
+      "results_attributable_to_individual_query": false,
+      "batch_results_screened": true,
+      "readable_course_review_found": false,
+      "exact_query": "\"因果推断与因果学习\" 复旦",
+      "exclusion_reason": "现有共享批次输出中未核读到能同时关联该课程、复旦与本学期具体班次/教师的评价正文；同名泛化内容、教材/考试内容或其他学校内容不作课程评价。",
+      "shared_result_count": null,
+      "course_code": "STAT50026",
+      "query_submitted": true,
+      "course_name": "因果推断与因果学习",
+      "response_state": "completed_in_prior_session; per-query payload not retained",
+      "offerings": [
+        {
+          "term": "2026春",
+          "course_code": "STAT50026",
+          "section_code": "STAT50026.01",
+          "teachers": [
+            "林晓蕾"
+          ],
+          "section_id": 1028988
+        }
+      ],
+      "response_batch": null,
+      "accepted_current_offering_review": false,
+      "platforms": [
+        "zhihu.com",
+        "xiaohongshu.com",
+        "mp.weixin.qq.com"
+      ],
+      "screening_note": "先前会话记录确认该课程全名查询已提交并完成结果筛查；原始逐查询结果未保存在本目录，不能声称逐课程结果映射。",
+      "index": 8,
+      "search_request_succeeded": true,
+      "readable_course_material_found": false,
+      "accepted_historical_material_ids": []
+    },
+    {
+      "results_attributable_to_individual_query": false,
+      "batch_results_screened": true,
+      "readable_course_review_found": false,
+      "exact_query": "\"国际金融与国际投资\" 复旦",
+      "exclusion_reason": "现有共享批次输出中未核读到能同时关联该课程、复旦与本学期具体班次/教师的评价正文；同名泛化内容、教材/考试内容或其他学校内容不作课程评价。",
+      "shared_result_count": null,
+      "course_code": "MF40001",
+      "query_submitted": true,
+      "course_name": "国际金融与国际投资",
+      "response_state": "completed_in_prior_session; per-query payload not retained",
+      "offerings": [
+        {
+          "term": "2025秋",
+          "course_code": "MF40001",
+          "section_code": "MF40001.01",
+          "teachers": [
+            "孙立坚"
+          ],
+          "section_id": 1006841
+        }
+      ],
+      "response_batch": null,
+      "accepted_current_offering_review": false,
+      "platforms": [
+        "zhihu.com",
+        "xiaohongshu.com",
+        "mp.weixin.qq.com"
+      ],
+      "screening_note": "先前会话记录确认该课程全名查询已提交并完成结果筛查；原始逐查询结果未保存在本目录，不能声称逐课程结果映射。",
+      "index": 9,
+      "search_request_succeeded": true,
+      "readable_course_material_found": false,
+      "accepted_historical_material_ids": []
+    },
+    {
+      "results_attributable_to_individual_query": false,
+      "batch_results_screened": true,
+      "readable_course_review_found": false,
+      "exact_query": "\"图像处理与可视化\" 复旦",
+      "exclusion_reason": "现有共享批次输出中未核读到能同时关联该课程、复旦与本学期具体班次/教师的评价正文；同名泛化内容、教材/考试内容或其他学校内容不作课程评价。",
+      "shared_result_count": null,
+      "course_code": "CS30065",
+      "query_submitted": true,
+      "course_name": "图像处理与可视化",
+      "response_state": "completed_in_prior_session; per-query payload not retained",
+      "offerings": [
+        {
+          "term": "2025秋",
+          "course_code": "CS30065",
+          "section_code": "CS30065.01",
+          "teachers": [
+            "庄吓海"
+          ],
+          "section_id": 1001731
+        }
+      ],
+      "response_batch": null,
+      "accepted_current_offering_review": false,
+      "platforms": [
+        "zhihu.com",
+        "xiaohongshu.com",
+        "mp.weixin.qq.com"
+      ],
+      "screening_note": "先前会话记录确认该课程全名查询已提交并完成结果筛查；原始逐查询结果未保存在本目录，不能声称逐课程结果映射。",
+      "index": 10,
+      "search_request_succeeded": true,
+      "readable_course_material_found": false,
+      "accepted_historical_material_ids": []
+    },
+    {
+      "results_attributable_to_individual_query": false,
+      "batch_results_screened": true,
+      "readable_course_review_found": false,
+      "exact_query": "\"图数据管理与挖掘\" 复旦",
+      "exclusion_reason": "现有共享批次输出中未核读到能同时关联该课程、复旦与本学期具体班次/教师的评价正文；同名泛化内容、教材/考试内容或其他学校内容不作课程评价。",
+      "shared_result_count": null,
+      "course_code": "CS50027",
+      "query_submitted": true,
+      "course_name": "图数据管理与挖掘",
+      "response_state": "completed_in_prior_session; per-query payload not retained",
+      "offerings": [
+        {
+          "term": "2025秋",
+          "course_code": "CS50027",
+          "section_code": "CS50027.01",
+          "teachers": [
+            "郑卫国"
+          ],
+          "section_id": 1001723
+        }
+      ],
+      "response_batch": null,
+      "accepted_current_offering_review": false,
+      "platforms": [
+        "zhihu.com",
+        "xiaohongshu.com",
+        "mp.weixin.qq.com"
+      ],
+      "screening_note": "先前会话记录确认该课程全名查询已提交并完成结果筛查；原始逐查询结果未保存在本目录，不能声称逐课程结果映射。",
+      "index": 11,
+      "search_request_succeeded": true,
+      "readable_course_material_found": false,
+      "accepted_historical_material_ids": []
+    },
+    {
+      "results_attributable_to_individual_query": false,
+      "batch_results_screened": true,
+      "readable_course_review_found": false,
+      "exact_query": "\"复杂系统理论与仿真\" 复旦",
+      "exclusion_reason": "现有共享批次输出中未核读到能同时关联该课程、复旦与本学期具体班次/教师的评价正文；同名泛化内容、教材/考试内容或其他学校内容不作课程评价。",
+      "shared_result_count": null,
+      "course_code": "MATH50010",
+      "query_submitted": true,
+      "course_name": "复杂系统理论与仿真",
+      "response_state": "completed_in_prior_session; per-query payload not retained",
+      "offerings": [
+        {
+          "term": "2025秋",
+          "course_code": "MATH50010",
+          "section_code": "MATH50010.01",
+          "teachers": [
+            "朱群喜",
+            "戴维"
+          ],
+          "section_id": 1001716
+        }
+      ],
+      "response_batch": null,
+      "accepted_current_offering_review": false,
+      "platforms": [
+        "zhihu.com",
+        "xiaohongshu.com",
+        "mp.weixin.qq.com"
+      ],
+      "screening_note": "先前会话记录确认该课程全名查询已提交并完成结果筛查；原始逐查询结果未保存在本目录，不能声称逐课程结果映射。",
+      "index": 12,
+      "search_request_succeeded": true,
+      "readable_course_material_found": false,
+      "accepted_historical_material_ids": []
+    },
+    {
+      "results_attributable_to_individual_query": false,
+      "batch_results_screened": true,
+      "readable_course_review_found": false,
+      "exact_query": "\"多元统计分析\" 复旦",
+      "exclusion_reason": "现有共享批次输出中未核读到能同时关联该课程、复旦与本学期具体班次/教师的评价正文；同名泛化内容、教材/考试内容或其他学校内容不作课程评价。",
+      "shared_result_count": null,
+      "course_code": "STAT50023",
+      "query_submitted": true,
+      "course_name": "多元统计分析",
+      "response_state": "completed_in_prior_session; per-query payload not retained",
+      "offerings": [
+        {
+          "term": "2025秋",
+          "course_code": "STAT50023",
+          "section_code": "STAT50023.01",
+          "teachers": [
+            "罗珞"
+          ],
+          "section_id": 1001735
+        }
+      ],
+      "response_batch": null,
+      "accepted_current_offering_review": false,
+      "platforms": [
+        "zhihu.com",
+        "xiaohongshu.com",
+        "mp.weixin.qq.com"
+      ],
+      "screening_note": "先前会话记录确认该课程全名查询已提交并完成结果筛查；原始逐查询结果未保存在本目录，不能声称逐课程结果映射。",
+      "index": 13,
+      "search_request_succeeded": true,
+      "readable_course_material_found": false,
+      "accepted_historical_material_ids": []
+    },
+    {
+      "results_attributable_to_individual_query": false,
+      "batch_results_screened": true,
+      "readable_course_review_found": false,
+      "exact_query": "\"多模态大模型：算法、应用与微调\" 复旦",
+      "exclusion_reason": "现有共享批次输出中未核读到能同时关联该课程、复旦与本学期具体班次/教师的评价正文；同名泛化内容、教材/考试内容或其他学校内容不作课程评价。",
+      "shared_result_count": null,
+      "course_code": "CS80001",
+      "query_submitted": true,
+      "course_name": "多模态大模型：算法、应用与微调",
+      "response_state": "completed_in_prior_session; per-query payload not retained",
+      "offerings": [
+        {
+          "term": "2026春",
+          "course_code": "CS80001",
+          "section_code": "CS80001.01",
+          "teachers": [
+            "付彦伟"
+          ],
+          "section_id": 1032079
+        }
+      ],
+      "response_batch": null,
+      "accepted_current_offering_review": false,
+      "platforms": [
+        "zhihu.com",
+        "xiaohongshu.com",
+        "mp.weixin.qq.com"
+      ],
+      "screening_note": "先前会话记录确认该课程全名查询已提交并完成结果筛查；原始逐查询结果未保存在本目录，不能声称逐课程结果映射。",
+      "index": 14,
+      "search_request_succeeded": true,
+      "readable_course_material_found": false,
+      "accepted_historical_material_ids": []
+    },
+    {
+      "results_attributable_to_individual_query": false,
+      "batch_results_screened": true,
+      "readable_course_review_found": false,
+      "exact_query": "\"多模态数据同化\" 复旦",
+      "exclusion_reason": "现有共享批次输出中未核读到能同时关联该课程、复旦与本学期具体班次/教师的评价正文；同名泛化内容、教材/考试内容或其他学校内容不作课程评价。",
+      "shared_result_count": null,
+      "course_code": "AIS410010",
+      "query_submitted": true,
+      "course_name": "多模态数据同化",
+      "response_state": "completed_in_prior_session; per-query payload not retained",
+      "offerings": [
+        {
+          "term": "2025秋",
+          "course_code": "AIS410010",
+          "section_code": "AIS410010.01",
+          "teachers": [
+            "陈钊"
+          ],
+          "section_id": 1003025
+        }
+      ],
+      "response_batch": null,
+      "accepted_current_offering_review": false,
+      "platforms": [
+        "zhihu.com",
+        "xiaohongshu.com",
+        "mp.weixin.qq.com"
+      ],
+      "screening_note": "先前会话记录确认该课程全名查询已提交并完成结果筛查；原始逐查询结果未保存在本目录，不能声称逐课程结果映射。",
+      "index": 15,
+      "search_request_succeeded": true,
+      "readable_course_material_found": false,
+      "accepted_historical_material_ids": []
+    },
+    {
+      "results_attributable_to_individual_query": false,
+      "batch_results_screened": true,
+      "readable_course_review_found": false,
+      "exact_query": "\"大数据与金融风险管理\" 复旦",
+      "exclusion_reason": "现有共享批次输出中未核读到能同时关联该课程、复旦与本学期具体班次/教师的评价正文；同名泛化内容、教材/考试内容或其他学校内容不作课程评价。",
+      "shared_result_count": null,
+      "course_code": "STAT50028",
+      "query_submitted": true,
+      "course_name": "大数据与金融风险管理",
+      "response_state": "completed_in_prior_session; per-query payload not retained",
+      "offerings": [
+        {
+          "term": "2026春",
+          "course_code": "STAT50028",
+          "section_code": "STAT50028.01",
+          "teachers": [
+            "丁亮"
+          ],
+          "section_id": 1031691
+        }
+      ],
+      "response_batch": null,
+      "accepted_current_offering_review": false,
+      "platforms": [
+        "zhihu.com",
+        "xiaohongshu.com",
+        "mp.weixin.qq.com"
+      ],
+      "screening_note": "先前会话记录确认该课程全名查询已提交并完成结果筛查；原始逐查询结果未保存在本目录，不能声称逐课程结果映射。",
+      "index": 16,
+      "search_request_succeeded": true,
+      "readable_course_material_found": false,
+      "accepted_historical_material_ids": []
+    },
+    {
+      "results_attributable_to_individual_query": false,
+      "batch_results_screened": true,
+      "readable_course_review_found": false,
+      "exact_query": "\"大数据专业外语\" 复旦",
+      "exclusion_reason": "现有共享批次输出中未核读到能同时关联该课程、复旦与本学期具体班次/教师的评价正文；同名泛化内容、教材/考试内容或其他学校内容不作课程评价。",
+      "shared_result_count": null,
+      "course_code": "STAT40016",
+      "query_submitted": true,
+      "course_name": "大数据专业外语",
+      "response_state": "completed_in_prior_session; per-query payload not retained",
+      "offerings": [
+        {
+          "term": "2026春",
+          "course_code": "STAT40016",
+          "section_code": "STAT40016.01",
+          "teachers": [
+            "陈钊",
+            "丁亮",
+            "傅博",
+            "汪中平",
+            "林晓蕾",
+            "乔灵霞",
+            "付彦伟",
+            "公维康",
+            "黄增峰",
+            "庄吓海",
+            "江如俊",
+            "郑卫国",
+            "郭宏成"
+          ],
+          "section_id": 1032184
+        }
+      ],
+      "response_batch": null,
+      "accepted_current_offering_review": false,
+      "platforms": [
+        "zhihu.com",
+        "xiaohongshu.com",
+        "mp.weixin.qq.com"
+      ],
+      "screening_note": "先前会话记录确认该课程全名查询已提交并完成结果筛查；原始逐查询结果未保存在本目录，不能声称逐课程结果映射。",
+      "index": 17,
+      "search_request_succeeded": true,
+      "readable_course_material_found": false,
+      "accepted_historical_material_ids": []
+    },
+    {
+      "results_attributable_to_individual_query": false,
+      "batch_results_screened": true,
+      "readable_course_review_found": false,
+      "exact_query": "\"大数据中的案例实务\" 复旦",
+      "exclusion_reason": "现有共享批次输出中未核读到能同时关联该课程、复旦与本学期具体班次/教师的评价正文；同名泛化内容、教材/考试内容或其他学校内容不作课程评价。",
+      "shared_result_count": null,
+      "course_code": "MAS60001",
+      "query_submitted": true,
+      "course_name": "大数据中的案例实务",
+      "response_state": "completed_in_prior_session; per-query payload not retained",
+      "offerings": [
+        {
+          "term": "2025秋",
+          "course_code": "MAS60001",
+          "section_code": "MAS60001.01",
+          "teachers": [
+            "单洪明",
+            "研究生课程外聘教师"
+          ],
+          "section_id": 1007134
+        }
+      ],
+      "response_batch": null,
+      "accepted_current_offering_review": false,
+      "platforms": [
+        "zhihu.com",
+        "xiaohongshu.com",
+        "mp.weixin.qq.com"
+      ],
+      "screening_note": "先前会话记录确认该课程全名查询已提交并完成结果筛查；原始逐查询结果未保存在本目录，不能声称逐课程结果映射。",
+      "index": 18,
+      "search_request_succeeded": true,
+      "readable_course_material_found": false,
+      "accepted_historical_material_ids": []
+    },
+    {
+      "results_attributable_to_individual_query": false,
+      "batch_results_screened": true,
+      "readable_course_review_found": false,
+      "exact_query": "\"大数据技术前沿讲座\" 复旦",
+      "exclusion_reason": "现有共享批次输出中未核读到能同时关联该课程、复旦与本学期具体班次/教师的评价正文；同名泛化内容、教材/考试内容或其他学校内容不作课程评价。",
+      "shared_result_count": null,
+      "course_code": "EIE60003",
+      "query_submitted": true,
+      "course_name": "大数据技术前沿讲座",
+      "response_state": "completed_in_prior_session; per-query payload not retained",
+      "offerings": [
+        {
+          "term": "2025秋",
+          "course_code": "EIE60003",
+          "section_code": "EIE60003.01",
+          "teachers": [
+            "单洪明",
+            "研究生课程外聘教师"
+          ],
+          "section_id": 1007135
+        }
+      ],
+      "response_batch": null,
+      "accepted_current_offering_review": false,
+      "platforms": [
+        "zhihu.com",
+        "xiaohongshu.com",
+        "mp.weixin.qq.com"
+      ],
+      "screening_note": "先前会话记录确认该课程全名查询已提交并完成结果筛查；原始逐查询结果未保存在本目录，不能声称逐课程结果映射。",
+      "index": 19,
+      "search_request_succeeded": true,
+      "readable_course_material_found": false,
+      "accepted_historical_material_ids": []
+    },
+    {
+      "results_attributable_to_individual_query": false,
+      "batch_results_screened": true,
+      "readable_course_review_found": false,
+      "exact_query": "\"应用多元统计分析\" 复旦",
+      "exclusion_reason": "现有共享批次输出中未核读到能同时关联该课程、复旦与本学期具体班次/教师的评价正文；同名泛化内容、教材/考试内容或其他学校内容不作课程评价。",
+      "shared_result_count": null,
+      "course_code": "STAT70002",
+      "query_submitted": true,
+      "course_name": "应用多元统计分析",
+      "response_state": "completed_in_prior_session; per-query payload not retained",
+      "offerings": [
+        {
+          "term": "2026春",
+          "course_code": "STAT70002",
+          "section_code": "STAT70002.01",
+          "teachers": [
+            "罗珞"
+          ],
+          "section_id": 1032117
+        }
+      ],
+      "response_batch": null,
+      "accepted_current_offering_review": false,
+      "platforms": [
+        "zhihu.com",
+        "xiaohongshu.com",
+        "mp.weixin.qq.com"
+      ],
+      "screening_note": "先前会话记录确认该课程全名查询已提交并完成结果筛查；原始逐查询结果未保存在本目录，不能声称逐课程结果映射。",
+      "index": 20,
+      "search_request_succeeded": true,
+      "readable_course_material_found": false,
+      "accepted_historical_material_ids": []
+    },
+    {
+      "results_attributable_to_individual_query": false,
+      "batch_results_screened": true,
+      "readable_course_review_found": false,
+      "exact_query": "\"应用泛函分析\" 复旦",
+      "exclusion_reason": "现有共享批次输出中未核读到能同时关联该课程、复旦与本学期具体班次/教师的评价正文；同名泛化内容、教材/考试内容或其他学校内容不作课程评价。",
+      "shared_result_count": null,
+      "course_code": "MATH50011",
+      "query_submitted": true,
+      "course_name": "应用泛函分析",
+      "response_state": "completed_in_prior_session; per-query payload not retained",
+      "offerings": [
+        {
+          "term": "2025秋",
+          "course_code": "MATH50011",
+          "section_code": "MATH50011.01",
+          "teachers": [
+            "张云新"
+          ],
+          "section_id": 1001714
+        }
+      ],
+      "response_batch": null,
+      "accepted_current_offering_review": false,
+      "platforms": [
+        "zhihu.com",
+        "xiaohongshu.com",
+        "mp.weixin.qq.com"
+      ],
+      "screening_note": "先前会话记录确认该课程全名查询已提交并完成结果筛查；原始逐查询结果未保存在本目录，不能声称逐课程结果映射。",
+      "index": 21,
+      "search_request_succeeded": true,
+      "readable_course_material_found": false,
+      "accepted_historical_material_ids": []
+    },
+    {
+      "results_attributable_to_individual_query": false,
+      "batch_results_screened": true,
+      "readable_course_review_found": false,
+      "exact_query": "\"强化学习算法与理论基础\" 复旦",
+      "exclusion_reason": "现有共享批次输出中未核读到能同时关联该课程、复旦与本学期具体班次/教师的评价正文；同名泛化内容、教材/考试内容或其他学校内容不作课程评价。",
+      "shared_result_count": null,
+      "course_code": "MATH50013",
+      "query_submitted": true,
+      "course_name": "强化学习算法与理论基础",
+      "response_state": "completed_in_prior_session; per-query payload not retained",
+      "offerings": [
+        {
+          "term": "2025秋",
+          "course_code": "MATH50013",
+          "section_code": "MATH50013.01",
+          "teachers": [
+            "魏轲"
+          ],
+          "section_id": 1001724
+        }
+      ],
+      "response_batch": null,
+      "accepted_current_offering_review": false,
+      "platforms": [
+        "zhihu.com",
+        "xiaohongshu.com",
+        "mp.weixin.qq.com"
+      ],
+      "screening_note": "先前会话记录确认该课程全名查询已提交并完成结果筛查；原始逐查询结果未保存在本目录，不能声称逐课程结果映射。",
+      "index": 22,
+      "search_request_succeeded": true,
+      "readable_course_material_found": false,
+      "accepted_historical_material_ids": []
+    },
+    {
+      "results_attributable_to_individual_query": false,
+      "batch_results_screened": true,
+      "readable_course_review_found": false,
+      "exact_query": "\"强国之路：形势、政策与使命Ⅱ\" 复旦",
+      "exclusion_reason": "现有共享批次输出中未核读到能同时关联该课程、复旦与本学期具体班次/教师的评价正文；同名泛化内容、教材/考试内容或其他学校内容不作课程评价。",
+      "shared_result_count": 0,
+      "course_code": "GESP10004",
+      "query_submitted": true,
+      "course_name": "强国之路：形势、政策与使命Ⅱ",
+      "response_state": "empty_search_results",
+      "offerings": [
+        {
+          "term": "2026春",
+          "course_code": "GESP10004",
+          "section_code": "GESP10004.151",
+          "teachers": [
+            "顾诗佳",
+            "葛剑雄",
+            "范秀成",
+            "傅博",
+            "付彦伟",
+            "王晶"
+          ],
+          "section_id": 1034570
+        },
+        {
+          "term": "2026春",
+          "course_code": "GESP10004",
+          "section_code": "GESP10004.165",
+          "teachers": [
+            "周渊",
+            "葛剑雄",
+            "范秀成",
+            "傅博",
+            "魏轲",
+            "程梦琴"
+          ],
+          "section_id": 1034584
+        },
+        {
+          "term": "2026春",
+          "course_code": "GESP10004",
+          "section_code": "GESP10004.166",
+          "teachers": [
+            "梁家卿",
+            "费美林",
+            "葛剑雄",
+            "范秀成",
+            "傅博",
+            "黄增峰"
+          ],
+          "section_id": 1034585
+        }
+      ],
+      "response_batch": "empty_batch_reported_in_session",
+      "accepted_current_offering_review": false,
+      "platforms": [
+        "zhihu.com",
+        "xiaohongshu.com",
+        "mp.weixin.qq.com"
+      ],
+      "screening_note": "检索工具返回空结果。",
+      "index": 23,
+      "search_request_succeeded": true,
+      "readable_course_material_found": false,
+      "accepted_historical_material_ids": []
+    },
+    {
+      "results_attributable_to_individual_query": false,
+      "batch_results_screened": true,
+      "readable_course_review_found": false,
+      "exact_query": "\"强国之路：形势、政策与使命Ⅲ\" 复旦",
+      "exclusion_reason": "现有共享批次输出中未核读到能同时关联该课程、复旦与本学期具体班次/教师的评价正文；同名泛化内容、教材/考试内容或其他学校内容不作课程评价。",
+      "shared_result_count": 0,
+      "course_code": "GESP20003",
+      "query_submitted": true,
+      "course_name": "强国之路：形势、政策与使命Ⅲ",
+      "response_state": "empty_search_results",
+      "offerings": [
+        {
+          "term": "2025秋",
+          "course_code": "GESP20003",
+          "section_code": "GESP20003.023",
+          "teachers": [
+            "加福民"
+          ],
+          "section_id": 1016456
+        },
+        {
+          "term": "2025秋",
+          "course_code": "GESP20003",
+          "section_code": "GESP20003.030",
+          "teachers": [
+            "罗珞"
+          ],
+          "section_id": 1016468
+        },
+        {
+          "term": "2025秋",
+          "course_code": "GESP20003",
+          "section_code": "GESP20003.039",
+          "teachers": [
+            "乔豫川"
+          ],
+          "section_id": 1016762
+        },
+        {
+          "term": "2025秋",
+          "course_code": "GESP20003",
+          "section_code": "GESP20003.093",
+          "teachers": [
+            "曾太平"
+          ],
+          "section_id": 1016922
+        },
+        {
+          "term": "2025秋",
+          "course_code": "GESP20003",
+          "section_code": "GESP20003.123",
+          "teachers": [
+            "林晓蕾"
+          ],
+          "section_id": 1016540
+        },
+        {
+          "term": "2025秋",
+          "course_code": "GESP20003",
+          "section_code": "GESP20003.175",
+          "teachers": [
+            "丁维洋"
+          ],
+          "section_id": 1017113
+        },
+        {
+          "term": "2025秋",
+          "course_code": "GESP20003",
+          "section_code": "GESP20003.245",
+          "teachers": [
+            "李豪"
+          ],
+          "section_id": 1017241
+        },
+        {
+          "term": "2025秋",
+          "course_code": "GESP20003",
+          "section_code": "GESP20003.265",
+          "teachers": [
+            "周宝健"
+          ],
+          "section_id": 1016501
+        },
+        {
+          "term": "2025秋",
+          "course_code": "GESP20003",
+          "section_code": "GESP20003.273",
+          "teachers": [
+            "王林波"
+          ],
+          "section_id": 1016484
+        },
+        {
+          "term": "2025秋",
+          "course_code": "GESP20003",
+          "section_code": "GESP20003.281",
+          "teachers": [
+            "孙鑫伟"
+          ],
+          "section_id": 1016858
+        },
+        {
+          "term": "2025秋",
+          "course_code": "GESP20003",
+          "section_code": "GESP20003.284",
+          "teachers": [
+            "罗强"
+          ],
+          "section_id": 1016924
+        },
+        {
+          "term": "2025秋",
+          "course_code": "GESP20003",
+          "section_code": "GESP20003.304",
+          "teachers": [
+            "周宝健"
+          ],
+          "section_id": 1016502
+        },
+        {
+          "term": "2025秋",
+          "course_code": "GESP20003",
+          "section_code": "GESP20003.339",
+          "teachers": [
+            "林晓蕾"
+          ],
+          "section_id": 1016541
+        },
+        {
+          "term": "2025秋",
+          "course_code": "GESP20003",
+          "section_code": "GESP20003.357",
+          "teachers": [
+            "李豪"
+          ],
+          "section_id": 1017242
+        },
+        {
+          "term": "2025秋",
+          "course_code": "GESP20003",
+          "section_code": "GESP20003.365",
+          "teachers": [
+            "张静茹"
+          ],
+          "section_id": 1017216
+        },
+        {
+          "term": "2025秋",
+          "course_code": "GESP20003",
+          "section_code": "GESP20003.404",
+          "teachers": [
+            "孙鑫伟"
+          ],
+          "section_id": 1016859
+        },
+        {
+          "term": "2025秋",
+          "course_code": "GESP20003",
+          "section_code": "GESP20003.405",
+          "teachers": [
+            "孙鑫伟"
+          ],
+          "section_id": 1016860
+        },
+        {
+          "term": "2025秋",
+          "course_code": "GESP20003",
+          "section_code": "GESP20003.427",
+          "teachers": [
+            "李豪"
+          ],
+          "section_id": 1017243
+        },
+        {
+          "term": "2025秋",
+          "course_code": "GESP20003",
+          "section_code": "GESP20003.430",
+          "teachers": [
+            "公维康"
+          ],
+          "section_id": 1016507
+        },
+        {
+          "term": "2025秋",
+          "course_code": "GESP20003",
+          "section_code": "GESP20003.448",
+          "teachers": [
+            "林晓蕾"
+          ],
+          "section_id": 1016542
+        },
+        {
+          "term": "2025秋",
+          "course_code": "GESP20003",
+          "section_code": "GESP20003.450",
+          "teachers": [
+            "张静茹"
+          ],
+          "section_id": 1017217
+        },
+        {
+          "term": "2025秋",
+          "course_code": "GESP20003",
+          "section_code": "GESP20003.599",
+          "teachers": [
+            "罗强"
+          ],
+          "section_id": 1016925
+        }
+      ],
+      "response_batch": "empty_batch_reported_in_session",
+      "accepted_current_offering_review": false,
+      "platforms": [
+        "zhihu.com",
+        "xiaohongshu.com",
+        "mp.weixin.qq.com"
+      ],
+      "screening_note": "检索工具返回空结果。",
+      "index": 24,
+      "search_request_succeeded": true,
+      "readable_course_material_found": false,
+      "accepted_historical_material_ids": []
+    },
+    {
+      "results_attributable_to_individual_query": false,
+      "batch_results_screened": true,
+      "readable_course_review_found": false,
+      "exact_query": "\"强国之路：形势、政策与使命Ⅳ\" 复旦",
+      "exclusion_reason": "现有共享批次输出中未核读到能同时关联该课程、复旦与本学期具体班次/教师的评价正文；同名泛化内容、教材/考试内容或其他学校内容不作课程评价。",
+      "shared_result_count": 0,
+      "course_code": "GESP20004",
+      "query_submitted": true,
+      "course_name": "强国之路：形势、政策与使命Ⅳ",
+      "response_state": "empty_search_results",
+      "offerings": [
+        {
+          "term": "2026春",
+          "course_code": "GESP20004",
+          "section_code": "GESP20004.51",
+          "teachers": [
+            "戴伟辉",
+            "林溪声",
+            "谢静",
+            "张伊娜",
+            "章平",
+            "李豪"
+          ],
+          "section_id": 1034284
+        },
+        {
+          "term": "2026春",
+          "course_code": "GESP20004",
+          "section_code": "GESP20004.52",
+          "teachers": [
+            "荆一楠",
+            "林晓蕾",
+            "冯雪岩",
+            "白悦辰",
+            "陈哲",
+            "公维康"
+          ],
+          "section_id": 1034312
+        }
+      ],
+      "response_batch": "empty_batch_reported_in_session",
+      "accepted_current_offering_review": false,
+      "platforms": [
+        "zhihu.com",
+        "xiaohongshu.com",
+        "mp.weixin.qq.com"
+      ],
+      "screening_note": "检索工具返回空结果。",
+      "index": 25,
+      "search_request_succeeded": true,
+      "readable_course_material_found": false,
+      "accepted_historical_material_ids": []
+    },
+    {
+      "results_attributable_to_individual_query": false,
+      "batch_results_screened": true,
+      "readable_course_review_found": false,
+      "exact_query": "\"数值算法与案例分析I\" 复旦",
+      "exclusion_reason": "现有共享批次输出中未核读到能同时关联该课程、复旦与本学期具体班次/教师的评价正文；同名泛化内容、教材/考试内容或其他学校内容不作课程评价。",
+      "shared_result_count": 0,
+      "course_code": "MATH20007",
+      "query_submitted": true,
+      "course_name": "数值算法与案例分析I",
+      "response_state": "empty_search_results",
+      "offerings": [
+        {
+          "term": "2025秋",
+          "course_code": "MATH20007",
+          "section_code": "MATH20007.01",
+          "teachers": [
+            "邵美悦"
+          ],
+          "section_id": 1001743
+        }
+      ],
+      "response_batch": "empty_batch_reported_in_session",
+      "accepted_current_offering_review": false,
+      "platforms": [
+        "zhihu.com",
+        "xiaohongshu.com",
+        "mp.weixin.qq.com"
+      ],
+      "screening_note": "检索工具返回空结果。",
+      "index": 26,
+      "search_request_succeeded": true,
+      "readable_course_material_found": false,
+      "accepted_historical_material_ids": []
+    },
+    {
+      "results_attributable_to_individual_query": false,
+      "batch_results_screened": true,
+      "readable_course_review_found": false,
+      "exact_query": "\"数值算法与案例分析II\" 复旦",
+      "exclusion_reason": "现有共享批次输出中未核读到能同时关联该课程、复旦与本学期具体班次/教师的评价正文；同名泛化内容、教材/考试内容或其他学校内容不作课程评价。",
+      "shared_result_count": null,
+      "course_code": "MATH50009",
+      "query_submitted": true,
+      "course_name": "数值算法与案例分析II",
+      "response_state": "completed_in_prior_session; per-query payload not retained",
+      "offerings": [
+        {
+          "term": "2026春",
+          "course_code": "MATH50009",
+          "section_code": "MATH50009.01",
+          "teachers": [
+            "邵美悦"
+          ],
+          "section_id": 1028723
+        }
+      ],
+      "response_batch": null,
+      "accepted_current_offering_review": false,
+      "platforms": [
+        "zhihu.com",
+        "xiaohongshu.com",
+        "mp.weixin.qq.com"
+      ],
+      "screening_note": "先前会话记录确认该课程全名查询已提交并完成结果筛查；原始逐查询结果未保存在本目录，不能声称逐课程结果映射。",
+      "index": 27,
+      "search_request_succeeded": true,
+      "readable_course_material_found": false,
+      "accepted_historical_material_ids": []
+    },
+    {
+      "results_attributable_to_individual_query": false,
+      "batch_results_screened": true,
+      "readable_course_review_found": false,
+      "exact_query": "\"数值算法与案例分析I（H）\" 复旦",
+      "exclusion_reason": "现有共享批次输出中未核读到能同时关联该课程、复旦与本学期具体班次/教师的评价正文；同名泛化内容、教材/考试内容或其他学校内容不作课程评价。",
+      "shared_result_count": null,
+      "course_code": "MATH20007h",
+      "query_submitted": true,
+      "course_name": "数值算法与案例分析I（H）",
+      "response_state": "completed_in_prior_session; per-query payload not retained",
+      "offerings": [
+        {
+          "term": "2025秋",
+          "course_code": "MATH20007h",
+          "section_code": "MATH20007h.01",
+          "teachers": [
+            "邵美悦"
+          ],
+          "section_id": 1001729
+        }
+      ],
+      "response_batch": null,
+      "accepted_current_offering_review": false,
+      "platforms": [
+        "zhihu.com",
+        "xiaohongshu.com",
+        "mp.weixin.qq.com"
+      ],
+      "screening_note": "先前会话记录确认该课程全名查询已提交并完成结果筛查；原始逐查询结果未保存在本目录，不能声称逐课程结果映射。",
+      "index": 28,
+      "search_request_succeeded": true,
+      "readable_course_material_found": false,
+      "accepted_historical_material_ids": []
+    },
+    {
+      "results_attributable_to_individual_query": false,
+      "batch_results_screened": true,
+      "readable_course_review_found": false,
+      "exact_query": "\"数值计算\" 复旦",
+      "exclusion_reason": "现有共享批次输出中未核读到能同时关联该课程、复旦与本学期具体班次/教师的评价正文；同名泛化内容、教材/考试内容或其他学校内容不作课程评价。",
+      "shared_result_count": null,
+      "course_code": "STAT50035",
+      "query_submitted": true,
+      "course_name": "数值计算",
+      "response_state": "completed_in_prior_session; per-query payload not retained",
+      "offerings": [
+        {
+          "term": "2025秋",
+          "course_code": "STAT50035",
+          "section_code": "STAT50035.01",
+          "teachers": [
+            "周宝健"
+          ],
+          "section_id": 1007678
+        }
+      ],
+      "response_batch": null,
+      "accepted_current_offering_review": false,
+      "platforms": [
+        "zhihu.com",
+        "xiaohongshu.com",
+        "mp.weixin.qq.com"
+      ],
+      "screening_note": "先前会话记录确认该课程全名查询已提交并完成结果筛查；原始逐查询结果未保存在本目录，不能声称逐课程结果映射。",
+      "index": 29,
+      "search_request_succeeded": true,
+      "readable_course_material_found": false,
+      "accepted_historical_material_ids": []
+    },
+    {
+      "results_attributable_to_individual_query": false,
+      "batch_results_screened": true,
+      "readable_course_review_found": false,
+      "exact_query": "\"数学分析BⅠ\" 复旦",
+      "exclusion_reason": "现有共享批次输出中未核读到能同时关联该课程、复旦与本学期具体班次/教师的评价正文；同名泛化内容、教材/考试内容或其他学校内容不作课程评价。",
+      "shared_result_count": null,
+      "course_code": "MATH10012",
+      "query_submitted": true,
+      "course_name": "数学分析BⅠ",
+      "response_state": "completed_in_prior_session; per-query payload not retained",
+      "offerings": [
+        {
+          "term": "2025秋",
+          "course_code": "MATH10012",
+          "section_code": "MATH10012.07",
+          "teachers": [
+            "乔灵霞"
+          ],
+          "section_id": 1015484
+        }
+      ],
+      "response_batch": null,
+      "accepted_current_offering_review": false,
+      "platforms": [
+        "zhihu.com",
+        "xiaohongshu.com",
+        "mp.weixin.qq.com"
+      ],
+      "screening_note": "先前会话记录确认该课程全名查询已提交并完成结果筛查；原始逐查询结果未保存在本目录，不能声称逐课程结果映射。",
+      "index": 30,
+      "search_request_succeeded": true,
+      "readable_course_material_found": false,
+      "accepted_historical_material_ids": []
+    },
+    {
+      "results_attributable_to_individual_query": false,
+      "batch_results_screened": true,
+      "readable_course_review_found": false,
+      "exact_query": "\"数学分析BⅡ\" 复旦",
+      "exclusion_reason": "现有共享批次输出中未核读到能同时关联该课程、复旦与本学期具体班次/教师的评价正文；同名泛化内容、教材/考试内容或其他学校内容不作课程评价。",
+      "shared_result_count": null,
+      "course_code": "MATH10013",
+      "query_submitted": true,
+      "course_name": "数学分析BⅡ",
+      "response_state": "completed_in_prior_session; per-query payload not retained",
+      "offerings": [
+        {
+          "term": "2026春",
+          "course_code": "MATH10013",
+          "section_code": "MATH10013.04",
+          "teachers": [
+            "张卫忠"
+          ],
+          "section_id": 1019871
+        }
+      ],
+      "response_batch": null,
+      "accepted_current_offering_review": false,
+      "platforms": [
+        "zhihu.com",
+        "xiaohongshu.com",
+        "mp.weixin.qq.com"
+      ],
+      "screening_note": "先前会话记录确认该课程全名查询已提交并完成结果筛查；原始逐查询结果未保存在本目录，不能声称逐课程结果映射。",
+      "index": 31,
+      "search_request_succeeded": true,
+      "readable_course_material_found": false,
+      "accepted_historical_material_ids": []
+    },
+    {
+      "results_attributable_to_individual_query": false,
+      "batch_results_screened": true,
+      "readable_course_review_found": false,
+      "exact_query": "\"数据库及实现\" 复旦",
+      "exclusion_reason": "现有共享批次输出中未核读到能同时关联该课程、复旦与本学期具体班次/教师的评价正文；同名泛化内容、教材/考试内容或其他学校内容不作课程评价。",
+      "shared_result_count": null,
+      "course_code": "CS20019",
+      "query_submitted": true,
+      "course_name": "数据库及实现",
+      "response_state": "completed_in_prior_session; per-query payload not retained",
+      "offerings": [
+        {
+          "term": "2026春",
+          "course_code": "CS20019",
+          "section_code": "CS20019.01",
+          "teachers": [
+            "郑卫国"
+          ],
+          "section_id": 1027943
+        }
+      ],
+      "response_batch": null,
+      "accepted_current_offering_review": false,
+      "platforms": [
+        "zhihu.com",
+        "xiaohongshu.com",
+        "mp.weixin.qq.com"
+      ],
+      "screening_note": "先前会话记录确认该课程全名查询已提交并完成结果筛查；原始逐查询结果未保存在本目录，不能声称逐课程结果映射。",
+      "index": 32,
+      "search_request_succeeded": true,
+      "readable_course_material_found": false,
+      "accepted_historical_material_ids": []
+    },
+    {
+      "results_attributable_to_individual_query": false,
+      "batch_results_screened": true,
+      "readable_course_review_found": false,
+      "exact_query": "\"数据结构\" 复旦",
+      "exclusion_reason": "现有共享批次输出中未核读到能同时关联该课程、复旦与本学期具体班次/教师的评价正文；同名泛化内容、教材/考试内容或其他学校内容不作课程评价。",
+      "shared_result_count": null,
+      "course_code": "CS20017",
+      "query_submitted": true,
+      "course_name": "数据结构",
+      "response_state": "completed_in_prior_session; per-query payload not retained",
+      "offerings": [
+        {
+          "term": "2025秋",
+          "course_code": "CS20017",
+          "section_code": "CS20017.01",
+          "teachers": [
+            "黄增峰"
+          ],
+          "section_id": 1001737
+        }
+      ],
+      "response_batch": null,
+      "accepted_current_offering_review": false,
+      "platforms": [
+        "zhihu.com",
+        "xiaohongshu.com",
+        "mp.weixin.qq.com"
+      ],
+      "screening_note": "先前会话记录确认该课程全名查询已提交并完成结果筛查；原始逐查询结果未保存在本目录，不能声称逐课程结果映射。",
+      "index": 33,
+      "search_request_succeeded": true,
+      "readable_course_material_found": false,
+      "accepted_historical_material_ids": []
+    },
+    {
+      "results_attributable_to_individual_query": false,
+      "batch_results_screened": true,
+      "readable_course_review_found": false,
+      "exact_query": "\"时间序列与空间统计\" 复旦",
+      "exclusion_reason": "现有共享批次输出中未核读到能同时关联该课程、复旦与本学期具体班次/教师的评价正文；同名泛化内容、教材/考试内容或其他学校内容不作课程评价。",
+      "shared_result_count": null,
+      "course_code": "STAT40008",
+      "query_submitted": true,
+      "course_name": "时间序列与空间统计",
+      "response_state": "completed_in_prior_session; per-query payload not retained",
+      "offerings": [
+        {
+          "term": "2026春",
+          "course_code": "STAT40008",
+          "section_code": "STAT40008.01",
+          "teachers": [
+            "陈钊"
+          ],
+          "section_id": 1033489
+        }
+      ],
+      "response_batch": null,
+      "accepted_current_offering_review": false,
+      "platforms": [
+        "zhihu.com",
+        "xiaohongshu.com",
+        "mp.weixin.qq.com"
+      ],
+      "screening_note": "先前会话记录确认该课程全名查询已提交并完成结果筛查；原始逐查询结果未保存在本目录，不能声称逐课程结果映射。",
+      "index": 34,
+      "search_request_succeeded": true,
+      "readable_course_material_found": false,
+      "accepted_historical_material_ids": []
+    },
+    {
+      "results_attributable_to_individual_query": false,
+      "batch_results_screened": true,
+      "readable_course_review_found": false,
+      "exact_query": "\"智能体建模与计算社会科学\" 复旦",
+      "exclusion_reason": "现有共享批次输出中未核读到能同时关联该课程、复旦与本学期具体班次/教师的评价正文；同名泛化内容、教材/考试内容或其他学校内容不作课程评价。",
+      "shared_result_count": null,
+      "course_code": "AIT531024",
+      "query_submitted": true,
+      "course_name": "智能体建模与计算社会科学",
+      "response_state": "completed_in_prior_session; per-query payload not retained",
+      "offerings": [
+        {
+          "term": "2026春",
+          "course_code": "AIT531024",
+          "section_code": "AIT531024.01",
+          "teachers": [
+            "吴力波",
+            "陈斌"
+          ],
+          "section_id": 1031734
+        }
+      ],
+      "response_batch": null,
+      "accepted_current_offering_review": false,
+      "platforms": [
+        "zhihu.com",
+        "xiaohongshu.com",
+        "mp.weixin.qq.com"
+      ],
+      "screening_note": "先前会话记录确认该课程全名查询已提交并完成结果筛查；原始逐查询结果未保存在本目录，不能声称逐课程结果映射。",
+      "index": 35,
+      "search_request_succeeded": true,
+      "readable_course_material_found": false,
+      "accepted_historical_material_ids": []
+    },
+    {
+      "results_attributable_to_individual_query": false,
+      "batch_results_screened": true,
+      "readable_course_review_found": false,
+      "exact_query": "\"智能社会与“元宇宙”\" 复旦",
+      "exclusion_reason": "现有共享批次输出中未核读到能同时关联该课程、复旦与本学期具体班次/教师的评价正文；同名泛化内容、教材/考试内容或其他学校内容不作课程评价。",
+      "shared_result_count": null,
+      "course_code": "AIB119004",
+      "query_submitted": true,
+      "course_name": "智能社会与“元宇宙”",
+      "response_state": "completed_in_prior_session; per-query payload not retained",
+      "offerings": [
+        {
+          "term": "2025秋",
+          "course_code": "AIB119004",
+          "section_code": "AIB119004.01",
+          "teachers": [
+            "赵星"
+          ],
+          "section_id": 1001730
+        }
+      ],
+      "response_batch": null,
+      "accepted_current_offering_review": false,
+      "platforms": [
+        "zhihu.com",
+        "xiaohongshu.com",
+        "mp.weixin.qq.com"
+      ],
+      "screening_note": "先前会话记录确认该课程全名查询已提交并完成结果筛查；原始逐查询结果未保存在本目录，不能声称逐课程结果映射。",
+      "index": 36,
+      "search_request_succeeded": true,
+      "readable_course_material_found": false,
+      "accepted_historical_material_ids": []
+    },
+    {
+      "results_attributable_to_individual_query": false,
+      "batch_results_screened": true,
+      "readable_course_review_found": false,
+      "exact_query": "\"最优化方法\" 复旦",
+      "exclusion_reason": "现有共享批次输出中未核读到能同时关联该课程、复旦与本学期具体班次/教师的评价正文；同名泛化内容、教材/考试内容或其他学校内容不作课程评价。",
+      "shared_result_count": null,
+      "course_code": "MATH20008",
+      "query_submitted": true,
+      "course_name": "最优化方法",
+      "response_state": "completed_in_prior_session; per-query payload not retained",
+      "offerings": [
+        {
+          "term": "2026春",
+          "course_code": "MATH20008",
+          "section_code": "MATH20008.01",
+          "teachers": [
+            "江如俊"
+          ],
+          "section_id": 1027330
+        }
+      ],
+      "response_batch": null,
+      "accepted_current_offering_review": false,
+      "platforms": [
+        "zhihu.com",
+        "xiaohongshu.com",
+        "mp.weixin.qq.com"
+      ],
+      "screening_note": "先前会话记录确认该课程全名查询已提交并完成结果筛查；原始逐查询结果未保存在本目录，不能声称逐课程结果映射。",
+      "index": 37,
+      "search_request_succeeded": true,
+      "readable_course_material_found": false,
+      "accepted_historical_material_ids": []
+    },
+    {
+      "results_attributable_to_individual_query": false,
+      "batch_results_screened": true,
+      "readable_course_review_found": false,
+      "exact_query": "\"最优化方法（H）\" 复旦",
+      "exclusion_reason": "现有共享批次输出中未核读到能同时关联该课程、复旦与本学期具体班次/教师的评价正文；同名泛化内容、教材/考试内容或其他学校内容不作课程评价。",
+      "shared_result_count": null,
+      "course_code": "MATH20008h",
+      "query_submitted": true,
+      "course_name": "最优化方法（H）",
+      "response_state": "completed_in_prior_session; per-query payload not retained",
+      "offerings": [
+        {
+          "term": "2026春",
+          "course_code": "MATH20008h",
+          "section_code": "MATH20008h.01",
+          "teachers": [
+            "郦旭东"
+          ],
+          "section_id": 1028896
+        }
+      ],
+      "response_batch": null,
+      "accepted_current_offering_review": false,
+      "platforms": [
+        "zhihu.com",
+        "xiaohongshu.com",
+        "mp.weixin.qq.com"
+      ],
+      "screening_note": "先前会话记录确认该课程全名查询已提交并完成结果筛查；原始逐查询结果未保存在本目录，不能声称逐课程结果映射。",
+      "index": 38,
+      "search_request_succeeded": true,
+      "readable_course_material_found": false,
+      "accepted_historical_material_ids": []
+    },
+    {
+      "results_attributable_to_individual_query": false,
+      "batch_results_screened": true,
+      "readable_course_review_found": false,
+      "exact_query": "\"最优化理论\" 复旦",
+      "exclusion_reason": "现有共享批次输出中未核读到能同时关联该课程、复旦与本学期具体班次/教师的评价正文；同名泛化内容、教材/考试内容或其他学校内容不作课程评价。",
+      "shared_result_count": null,
+      "course_code": "STAT40010",
+      "query_submitted": true,
+      "course_name": "最优化理论",
+      "response_state": "completed_in_prior_session; per-query payload not retained",
+      "offerings": [
+        {
+          "term": "2025秋",
+          "course_code": "STAT40010",
+          "section_code": "STAT40010.01",
+          "teachers": [
+            "江如俊"
+          ],
+          "section_id": 1007643
+        }
+      ],
+      "response_batch": null,
+      "accepted_current_offering_review": false,
+      "platforms": [
+        "zhihu.com",
+        "xiaohongshu.com",
+        "mp.weixin.qq.com"
+      ],
+      "screening_note": "先前会话记录确认该课程全名查询已提交并完成结果筛查；原始逐查询结果未保存在本目录，不能声称逐课程结果映射。",
+      "index": 39,
+      "search_request_succeeded": true,
+      "readable_course_material_found": false,
+      "accepted_historical_material_ids": []
+    },
+    {
+      "results_attributable_to_individual_query": false,
+      "batch_results_screened": true,
+      "readable_course_review_found": false,
+      "exact_query": "\"最优化理论（专业硕士）\" 复旦",
+      "exclusion_reason": "现有共享批次输出中未核读到能同时关联该课程、复旦与本学期具体班次/教师的评价正文；同名泛化内容、教材/考试内容或其他学校内容不作课程评价。",
+      "shared_result_count": null,
+      "course_code": "MAS50001",
+      "query_submitted": true,
+      "course_name": "最优化理论（专业硕士）",
+      "response_state": "completed_in_prior_session; per-query payload not retained",
+      "offerings": [
+        {
+          "term": "2026春",
+          "course_code": "MAS50001",
+          "section_code": "MAS50001.01",
+          "teachers": [
+            "乔灵霞"
+          ],
+          "section_id": 1032128
+        }
+      ],
+      "response_batch": null,
+      "accepted_current_offering_review": false,
+      "platforms": [
+        "zhihu.com",
+        "xiaohongshu.com",
+        "mp.weixin.qq.com"
+      ],
+      "screening_note": "先前会话记录确认该课程全名查询已提交并完成结果筛查；原始逐查询结果未保存在本目录，不能声称逐课程结果映射。",
+      "index": 40,
+      "search_request_succeeded": true,
+      "readable_course_material_found": false,
+      "accepted_historical_material_ids": []
+    },
+    {
+      "results_attributable_to_individual_query": false,
+      "batch_results_screened": true,
+      "readable_course_review_found": false,
+      "exact_query": "\"本科生科研实践\" 复旦",
+      "exclusion_reason": "现有共享批次输出中未核读到能同时关联该课程、复旦与本学期具体班次/教师的评价正文；同名泛化内容、教材/考试内容或其他学校内容不作课程评价。",
+      "shared_result_count": null,
+      "course_code": "CS40022",
+      "query_submitted": true,
+      "course_name": "本科生科研实践",
+      "response_state": "completed_in_prior_session; per-query payload not retained",
+      "offerings": [
+        {
+          "term": "2025秋",
+          "course_code": "CS40022",
+          "section_code": "CS40022.02",
+          "teachers": [
+            "高卫国"
+          ],
+          "section_id": 1001718
+        },
+        {
+          "term": "2026春",
+          "course_code": "CS40022",
+          "section_code": "CS40022.01",
+          "teachers": [
+            "庄吓海"
+          ],
+          "section_id": 1028847
+        }
+      ],
+      "response_batch": null,
+      "accepted_current_offering_review": false,
+      "platforms": [
+        "zhihu.com",
+        "xiaohongshu.com",
+        "mp.weixin.qq.com"
+      ],
+      "screening_note": "先前会话记录确认该课程全名查询已提交并完成结果筛查；原始逐查询结果未保存在本目录，不能声称逐课程结果映射。",
+      "index": 41,
+      "search_request_succeeded": true,
+      "readable_course_material_found": false,
+      "accepted_historical_material_ids": []
+    },
+    {
+      "results_attributable_to_individual_query": false,
+      "batch_results_screened": true,
+      "readable_course_review_found": false,
+      "exact_query": "\"机器学习与信息检索\" 复旦",
+      "exclusion_reason": "现有共享批次输出中未核读到能同时关联该课程、复旦与本学期具体班次/教师的评价正文；同名泛化内容、教材/考试内容或其他学校内容不作课程评价。",
+      "shared_result_count": null,
+      "course_code": "MF50002",
+      "query_submitted": true,
+      "course_name": "机器学习与信息检索",
+      "response_state": "completed_in_prior_session; per-query payload not retained",
+      "offerings": [
+        {
+          "term": "2026春",
+          "course_code": "MF50002",
+          "section_code": "MF50002.01",
+          "teachers": [
+            "郭宏成"
+          ],
+          "section_id": 1032148
+        }
+      ],
+      "response_batch": null,
+      "accepted_current_offering_review": false,
+      "platforms": [
+        "zhihu.com",
+        "xiaohongshu.com",
+        "mp.weixin.qq.com"
+      ],
+      "screening_note": "先前会话记录确认该课程全名查询已提交并完成结果筛查；原始逐查询结果未保存在本目录，不能声称逐课程结果映射。",
+      "index": 42,
+      "search_request_succeeded": true,
+      "readable_course_material_found": false,
+      "accepted_historical_material_ids": []
+    },
+    {
+      "results_attributable_to_individual_query": false,
+      "batch_results_screened": true,
+      "readable_course_review_found": false,
+      "exact_query": "\"概率论基础\" 复旦",
+      "exclusion_reason": "现有共享批次输出中未核读到能同时关联该课程、复旦与本学期具体班次/教师的评价正文；同名泛化内容、教材/考试内容或其他学校内容不作课程评价。",
+      "shared_result_count": null,
+      "course_code": "STAT20011",
+      "query_submitted": true,
+      "course_name": "概率论基础",
+      "response_state": "completed_in_prior_session; per-query payload not retained",
+      "offerings": [
+        {
+          "term": "2025秋",
+          "course_code": "STAT20011",
+          "section_code": "STAT20011.01",
+          "teachers": [
+            "吴波"
+          ],
+          "section_id": 1001725
+        }
+      ],
+      "response_batch": null,
+      "accepted_current_offering_review": false,
+      "platforms": [
+        "zhihu.com",
+        "xiaohongshu.com",
+        "mp.weixin.qq.com"
+      ],
+      "screening_note": "先前会话记录确认该课程全名查询已提交并完成结果筛查；原始逐查询结果未保存在本目录，不能声称逐课程结果映射。",
+      "index": 43,
+      "search_request_succeeded": true,
+      "readable_course_material_found": false,
+      "accepted_historical_material_ids": []
+    },
+    {
+      "results_attributable_to_individual_query": false,
+      "batch_results_screened": true,
+      "readable_course_review_found": false,
+      "exact_query": "\"毕业论文\" 复旦",
+      "exclusion_reason": "现有共享批次输出中未核读到能同时关联该课程、复旦与本学期具体班次/教师的评价正文；同名泛化内容、教材/考试内容或其他学校内容不作课程评价。",
+      "shared_result_count": null,
+      "course_code": "STAT40005",
+      "query_submitted": true,
+      "course_name": "毕业论文",
+      "response_state": "completed_in_prior_session; per-query payload not retained",
+      "offerings": [
+        {
+          "term": "2026春",
+          "course_code": "STAT40005",
+          "section_code": "STAT40005.001",
+          "teachers": [],
+          "section_id": 1036615
+        },
+        {
+          "term": "2026春",
+          "course_code": "STAT40005",
+          "section_code": "STAT40005.002",
+          "teachers": [
+            "陈思明"
+          ],
+          "section_id": 1036616
+        },
+        {
+          "term": "2026春",
+          "course_code": "STAT40005",
+          "section_code": "STAT40005.003",
+          "teachers": [
+            "陈新驰"
+          ],
+          "section_id": 1036617
+        },
+        {
+          "term": "2026春",
+          "course_code": "STAT40005",
+          "section_code": "STAT40005.004",
+          "teachers": [
+            "陈钊"
+          ],
+          "section_id": 1036618
+        },
+        {
+          "term": "2026春",
+          "course_code": "STAT40005",
+          "section_code": "STAT40005.005",
+          "teachers": [
+            "付彦伟"
+          ],
+          "section_id": 1036620
+        },
+        {
+          "term": "2026春",
+          "course_code": "STAT40005",
+          "section_code": "STAT40005.006",
+          "teachers": [
+            "公维康"
+          ],
+          "section_id": 1036621
+        },
+        {
+          "term": "2026春",
+          "course_code": "STAT40005",
+          "section_code": "STAT40005.007",
+          "teachers": [
+            "黄增峰"
+          ],
+          "section_id": 1036622
+        },
+        {
+          "term": "2026春",
+          "course_code": "STAT40005",
+          "section_code": "STAT40005.008",
+          "teachers": [
+            "江如俊"
+          ],
+          "section_id": 1036623
+        },
+        {
+          "term": "2026春",
+          "course_code": "STAT40005",
+          "section_code": "STAT40005.009",
+          "teachers": [
+            "孔令鹏"
+          ],
+          "section_id": 1036624
+        },
+        {
+          "term": "2026春",
+          "course_code": "STAT40005",
+          "section_code": "STAT40005.010",
+          "teachers": [
+            "郦旭东"
+          ],
+          "section_id": 1036625
+        },
+        {
+          "term": "2026春",
+          "course_code": "STAT40005",
+          "section_code": "STAT40005.011",
+          "teachers": [
+            "林晓蕾"
+          ],
+          "section_id": 1036626
+        },
+        {
+          "term": "2026春",
+          "course_code": "STAT40005",
+          "section_code": "STAT40005.012",
+          "teachers": [
+            "罗珞"
+          ],
+          "section_id": 1036627
+        },
+        {
+          "term": "2026春",
+          "course_code": "STAT40005",
+          "section_code": "STAT40005.013",
+          "teachers": [
+            "罗强"
+          ],
+          "section_id": 1036628
+        },
+        {
+          "term": "2026春",
+          "course_code": "STAT40005",
+          "section_code": "STAT40005.014",
+          "teachers": [
+            "马兴军"
+          ],
+          "section_id": 1036629
+        },
+        {
+          "term": "2026春",
+          "course_code": "STAT40005",
+          "section_code": "STAT40005.015",
+          "teachers": [
+            "尚笠"
+          ],
+          "section_id": 1036630
+        },
+        {
+          "term": "2026春",
+          "course_code": "STAT40005",
+          "section_code": "STAT40005.016",
+          "teachers": [
+            "史际帆"
+          ],
+          "section_id": 1036631
+        },
+        {
+          "term": "2026春",
+          "course_code": "STAT40005",
+          "section_code": "STAT40005.017",
+          "teachers": [
+            "孙思琦"
+          ],
+          "section_id": 1036632
+        },
+        {
+          "term": "2026春",
+          "course_code": "STAT40005",
+          "section_code": "STAT40005.018",
+          "teachers": [
+            "汤步洲"
+          ],
+          "section_id": 1036633
+        },
+        {
+          "term": "2026春",
+          "course_code": "STAT40005",
+          "section_code": "STAT40005.019",
+          "teachers": [
+            "王健"
+          ],
+          "section_id": 1036634
+        },
+        {
+          "term": "2026春",
+          "course_code": "STAT40005",
+          "section_code": "STAT40005.020",
+          "teachers": [
+            "王勤文"
+          ],
+          "section_id": 1036635
+        },
+        {
+          "term": "2026春",
+          "course_code": "STAT40005",
+          "section_code": "STAT40005.021",
+          "teachers": [
+            "魏轲"
+          ],
+          "section_id": 1036636
+        },
+        {
+          "term": "2026春",
+          "course_code": "STAT40005",
+          "section_code": "STAT40005.022",
+          "teachers": [
+            "魏忠钰"
+          ],
+          "section_id": 1036637
+        },
+        {
+          "term": "2026春",
+          "course_code": "STAT40005",
+          "section_code": "STAT40005.023",
+          "teachers": [
+            "肖晓"
+          ],
+          "section_id": 1036638
+        },
+        {
+          "term": "2026春",
+          "course_code": "STAT40005",
+          "section_code": "STAT40005.024",
+          "teachers": [
+            "阳德青"
+          ],
+          "section_id": 1036639
+        },
+        {
+          "term": "2026春",
+          "course_code": "STAT40005",
+          "section_code": "STAT40005.025",
+          "teachers": [
+            "曾太平"
+          ],
+          "section_id": 1036640
+        },
+        {
+          "term": "2026春",
+          "course_code": "STAT40005",
+          "section_code": "STAT40005.026",
+          "teachers": [
+            "张力"
+          ],
+          "section_id": 1036641
+        },
+        {
+          "term": "2026春",
+          "course_code": "STAT40005",
+          "section_code": "STAT40005.027",
+          "teachers": [
+            "张楠"
+          ],
+          "section_id": 1036642
+        },
+        {
+          "term": "2026春",
+          "course_code": "STAT40005",
+          "section_code": "STAT40005.028",
+          "teachers": [
+            "张卫忠"
+          ],
+          "section_id": 1036643
+        },
+        {
+          "term": "2026春",
+          "course_code": "STAT40005",
+          "section_code": "STAT40005.029",
+          "teachers": [
+            "郑卫国"
+          ],
+          "section_id": 1036644
+        },
+        {
+          "term": "2026春",
+          "course_code": "STAT40005",
+          "section_code": "STAT40005.030",
+          "teachers": [
+            "周宝健"
+          ],
+          "section_id": 1036645
+        },
+        {
+          "term": "2026春",
+          "course_code": "STAT40005",
+          "section_code": "STAT40005.031",
+          "teachers": [
+            "周阳"
+          ],
+          "section_id": 1036646
+        },
+        {
+          "term": "2026春",
+          "course_code": "STAT40005",
+          "section_code": "STAT40005.032",
+          "teachers": [
+            "周渊"
+          ],
+          "section_id": 1036647
+        },
+        {
+          "term": "2026春",
+          "course_code": "STAT40005",
+          "section_code": "STAT40005.033",
+          "teachers": [
+            "朱思语"
+          ],
+          "section_id": 1036648
+        }
+      ],
+      "response_batch": null,
+      "accepted_current_offering_review": false,
+      "platforms": [
+        "zhihu.com",
+        "xiaohongshu.com",
+        "mp.weixin.qq.com"
+      ],
+      "screening_note": "先前会话记录确认该课程全名查询已提交并完成结果筛查；原始逐查询结果未保存在本目录，不能声称逐课程结果映射。",
+      "index": 44,
+      "search_request_succeeded": true,
+      "readable_course_material_found": false,
+      "accepted_historical_material_ids": []
+    },
+    {
+      "results_attributable_to_individual_query": false,
+      "batch_results_screened": true,
+      "readable_course_review_found": false,
+      "exact_query": "\"深度学习与空间智能\" 复旦",
+      "exclusion_reason": "现有共享批次输出中未核读到能同时关联该课程、复旦与本学期具体班次/教师的评价正文；同名泛化内容、教材/考试内容或其他学校内容不作课程评价。",
+      "shared_result_count": null,
+      "course_code": "CS60003",
+      "query_submitted": true,
+      "course_name": "深度学习与空间智能",
+      "response_state": "completed_in_prior_session; per-query payload not retained",
+      "offerings": [
+        {
+          "term": "2026春",
+          "course_code": "CS60003",
+          "section_code": "CS60003.01",
+          "teachers": [
+            "张力"
+          ],
+          "section_id": 1032081
+        }
+      ],
+      "response_batch": null,
+      "accepted_current_offering_review": false,
+      "platforms": [
+        "zhihu.com",
+        "xiaohongshu.com",
+        "mp.weixin.qq.com"
+      ],
+      "screening_note": "先前会话记录确认该课程全名查询已提交并完成结果筛查；原始逐查询结果未保存在本目录，不能声称逐课程结果映射。",
+      "index": 45,
+      "search_request_succeeded": true,
+      "readable_course_material_found": false,
+      "accepted_historical_material_ids": []
+    },
+    {
+      "results_attributable_to_individual_query": false,
+      "batch_results_screened": true,
+      "readable_course_review_found": false,
+      "exact_query": "\"现代概率论基础I\" 复旦",
+      "exclusion_reason": "现有共享批次输出中未核读到能同时关联该课程、复旦与本学期具体班次/教师的评价正文；同名泛化内容、教材/考试内容或其他学校内容不作课程评价。",
+      "shared_result_count": null,
+      "course_code": "STAT40013",
+      "query_submitted": true,
+      "course_name": "现代概率论基础I",
+      "response_state": "completed_in_prior_session; per-query payload not retained",
+      "offerings": [
+        {
+          "term": "2025秋",
+          "course_code": "STAT40013",
+          "section_code": "STAT40013.01",
+          "teachers": [
+            "张静茹"
+          ],
+          "section_id": 1006838
+        }
+      ],
+      "response_batch": null,
+      "accepted_current_offering_review": false,
+      "platforms": [
+        "zhihu.com",
+        "xiaohongshu.com",
+        "mp.weixin.qq.com"
+      ],
+      "screening_note": "先前会话记录确认该课程全名查询已提交并完成结果筛查；原始逐查询结果未保存在本目录，不能声称逐课程结果映射。",
+      "index": 46,
+      "search_request_succeeded": true,
+      "readable_course_material_found": false,
+      "accepted_historical_material_ids": []
+    },
+    {
+      "results_attributable_to_individual_query": false,
+      "batch_results_screened": true,
+      "readable_course_review_found": false,
+      "exact_query": "\"生产实习\" 复旦",
+      "exclusion_reason": "现有共享批次输出中未核读到能同时关联该课程、复旦与本学期具体班次/教师的评价正文；同名泛化内容、教材/考试内容或其他学校内容不作课程评价。",
+      "shared_result_count": null,
+      "course_code": "STAT40004",
+      "query_submitted": true,
+      "course_name": "生产实习",
+      "response_state": "completed_in_prior_session; per-query payload not retained",
+      "offerings": [
+        {
+          "term": "2025秋",
+          "course_code": "STAT40004",
+          "section_code": "STAT40004.01",
+          "teachers": [
+            "高卫国"
+          ],
+          "section_id": 1001733
+        },
+        {
+          "term": "2026春",
+          "course_code": "STAT40004",
+          "section_code": "STAT40004.01",
+          "teachers": [
+            "庄吓海"
+          ],
+          "section_id": 1028852
+        }
+      ],
+      "response_batch": null,
+      "accepted_current_offering_review": false,
+      "platforms": [
+        "zhihu.com",
+        "xiaohongshu.com",
+        "mp.weixin.qq.com"
+      ],
+      "screening_note": "先前会话记录确认该课程全名查询已提交并完成结果筛查；原始逐查询结果未保存在本目录，不能声称逐课程结果映射。",
+      "index": 47,
+      "search_request_succeeded": true,
+      "readable_course_material_found": false,
+      "accepted_historical_material_ids": []
+    },
+    {
+      "results_attributable_to_individual_query": false,
+      "batch_results_screened": true,
+      "readable_course_review_found": false,
+      "exact_query": "\"生物统计学\" 复旦",
+      "exclusion_reason": "现有共享批次输出中未核读到能同时关联该课程、复旦与本学期具体班次/教师的评价正文；同名泛化内容、教材/考试内容或其他学校内容不作课程评价。",
+      "shared_result_count": null,
+      "course_code": "STAT50025",
+      "query_submitted": true,
+      "course_name": "生物统计学",
+      "response_state": "completed_in_prior_session; per-query payload not retained",
+      "offerings": [
+        {
+          "term": "2026春",
+          "course_code": "STAT50025",
+          "section_code": "STAT50025.01",
+          "teachers": [
+            "张静茹"
+          ],
+          "section_id": 1029007
+        }
+      ],
+      "response_batch": null,
+      "accepted_current_offering_review": false,
+      "platforms": [
+        "zhihu.com",
+        "xiaohongshu.com",
+        "mp.weixin.qq.com"
+      ],
+      "screening_note": "先前会话记录确认该课程全名查询已提交并完成结果筛查；原始逐查询结果未保存在本目录，不能声称逐课程结果映射。",
+      "index": 48,
+      "search_request_succeeded": true,
+      "readable_course_material_found": false,
+      "accepted_historical_material_ids": []
+    },
+    {
+      "results_attributable_to_individual_query": false,
+      "batch_results_screened": true,
+      "readable_course_review_found": false,
+      "exact_query": "\"知识图谱概念与技术\" 复旦",
+      "exclusion_reason": "核读到一条同课程主题的历史PPT整理页，但教师为肖仰华，与官方2025秋梁家卿不同，且资料页未注明学期；作为历史异师课程资料收录，不作当前班评价。",
+      "shared_result_count": null,
+      "course_code": "STAT70012",
+      "query_submitted": true,
+      "course_name": "知识图谱概念与技术",
+      "response_state": "completed_in_prior_session; per-query payload not retained",
+      "offerings": [
+        {
+          "term": "2025秋",
+          "course_code": "STAT70012",
+          "section_code": "STAT70012.01",
+          "teachers": [
+            "梁家卿"
+          ],
+          "section_id": 1014226
+        }
+      ],
+      "response_batch": null,
+      "accepted_current_offering_review": false,
+      "platforms": [
+        "zhihu.com",
+        "xiaohongshu.com",
+        "mp.weixin.qq.com"
+      ],
+      "screening_note": "先前会话记录确认该课程全名查询已提交并完成结果筛查；原始逐查询结果未保存在本目录，不能声称逐课程结果映射。",
+      "index": 49,
+      "search_request_succeeded": true,
+      "readable_course_material_found": true,
+      "accepted_historical_material_ids": [
+        "zhihu_knowledge_graph_ppt_xiaoyanghua"
+      ]
+    },
+    {
+      "results_attributable_to_individual_query": false,
+      "batch_results_screened": true,
+      "readable_course_review_found": false,
+      "exact_query": "\"社交网络挖掘\" 复旦",
+      "exclusion_reason": "现有共享批次输出中未核读到能同时关联该课程、复旦与本学期具体班次/教师的评价正文；同名泛化内容、教材/考试内容或其他学校内容不作课程评价。",
+      "shared_result_count": null,
+      "course_code": "CS50019",
+      "query_submitted": true,
+      "course_name": "社交网络挖掘",
+      "response_state": "completed_in_prior_session; per-query payload not retained",
+      "offerings": [
+        {
+          "term": "2025秋",
+          "course_code": "CS50019",
+          "section_code": "CS50019.01",
+          "teachers": [
+            "阳德青"
+          ],
+          "section_id": 1001726
+        }
+      ],
+      "response_batch": null,
+      "accepted_current_offering_review": false,
+      "platforms": [
+        "zhihu.com",
+        "xiaohongshu.com",
+        "mp.weixin.qq.com"
+      ],
+      "screening_note": "先前会话记录确认该课程全名查询已提交并完成结果筛查；原始逐查询结果未保存在本目录，不能声称逐课程结果映射。",
+      "index": 50,
+      "search_request_succeeded": true,
+      "readable_course_material_found": false,
+      "accepted_historical_material_ids": []
+    },
+    {
+      "results_attributable_to_individual_query": false,
+      "batch_results_screened": true,
+      "readable_course_review_found": false,
+      "exact_query": "\"社会科学数据挖掘\" 复旦",
+      "exclusion_reason": "现有共享批次输出中未核读到能同时关联该课程、复旦与本学期具体班次/教师的评价正文；同名泛化内容、教材/考试内容或其他学校内容不作课程评价。",
+      "shared_result_count": null,
+      "course_code": "STAT50021",
+      "query_submitted": true,
+      "course_name": "社会科学数据挖掘",
+      "response_state": "completed_in_prior_session; per-query payload not retained",
+      "offerings": [
+        {
+          "term": "2026春",
+          "course_code": "STAT50021",
+          "section_code": "STAT50021.01",
+          "teachers": [
+            "周阳"
+          ],
+          "section_id": 1028864
+        }
+      ],
+      "response_batch": null,
+      "accepted_current_offering_review": false,
+      "platforms": [
+        "zhihu.com",
+        "xiaohongshu.com",
+        "mp.weixin.qq.com"
+      ],
+      "screening_note": "先前会话记录确认该课程全名查询已提交并完成结果筛查；原始逐查询结果未保存在本目录，不能声称逐课程结果映射。",
+      "index": 51,
+      "search_request_succeeded": true,
+      "readable_course_material_found": false,
+      "accepted_historical_material_ids": []
+    },
+    {
+      "results_attributable_to_individual_query": false,
+      "batch_results_screened": true,
+      "readable_course_review_found": false,
+      "exact_query": "\"神经网络与深度学习\" 复旦",
+      "exclusion_reason": "现有共享批次输出中未核读到能同时关联该课程、复旦与本学期具体班次/教师的评价正文；同名泛化内容、教材/考试内容或其他学校内容不作课程评价。",
+      "shared_result_count": null,
+      "course_code": "CS30064",
+      "query_submitted": true,
+      "course_name": "神经网络与深度学习",
+      "response_state": "completed_in_prior_session; per-query payload not retained",
+      "offerings": [
+        {
+          "term": "2026春",
+          "course_code": "CS30064",
+          "section_code": "CS30064.01",
+          "teachers": [
+            "付彦伟"
+          ],
+          "section_id": 1028836
+        }
+      ],
+      "response_batch": null,
+      "accepted_current_offering_review": false,
+      "platforms": [
+        "zhihu.com",
+        "xiaohongshu.com",
+        "mp.weixin.qq.com"
+      ],
+      "screening_note": "先前会话记录确认该课程全名查询已提交并完成结果筛查；原始逐查询结果未保存在本目录，不能声称逐课程结果映射。",
+      "index": 52,
+      "search_request_succeeded": true,
+      "readable_course_material_found": false,
+      "accepted_historical_material_ids": []
+    },
+    {
+      "results_attributable_to_individual_query": false,
+      "batch_results_screened": true,
+      "readable_course_review_found": false,
+      "exact_query": "\"算法与数据结构（H）\" 复旦",
+      "exclusion_reason": "现有共享批次输出中未核读到能同时关联该课程、复旦与本学期具体班次/教师的评价正文；同名泛化内容、教材/考试内容或其他学校内容不作课程评价。",
+      "shared_result_count": null,
+      "course_code": "CS20017h",
+      "query_submitted": true,
+      "course_name": "算法与数据结构（H）",
+      "response_state": "completed_in_prior_session; per-query payload not retained",
+      "offerings": [
+        {
+          "term": "2025秋",
+          "course_code": "CS20017h",
+          "section_code": "CS20017h.01",
+          "teachers": [
+            "黄增峰",
+            "郦旭东",
+            "王健",
+            "付彦伟",
+            "郑卫国"
+          ],
+          "section_id": 1001741
+        }
+      ],
+      "response_batch": null,
+      "accepted_current_offering_review": false,
+      "platforms": [
+        "zhihu.com",
+        "xiaohongshu.com",
+        "mp.weixin.qq.com"
+      ],
+      "screening_note": "先前会话记录确认该课程全名查询已提交并完成结果筛查；原始逐查询结果未保存在本目录，不能声称逐课程结果映射。",
+      "index": 53,
+      "search_request_succeeded": true,
+      "readable_course_material_found": false,
+      "accepted_historical_material_ids": []
+    },
+    {
+      "results_attributable_to_individual_query": false,
+      "batch_results_screened": true,
+      "readable_course_review_found": false,
+      "exact_query": "\"算法导论\" 复旦",
+      "exclusion_reason": "现有共享批次输出中未核读到能同时关联该课程、复旦与本学期具体班次/教师的评价正文；同名泛化内容、教材/考试内容或其他学校内容不作课程评价。",
+      "shared_result_count": null,
+      "course_code": "STAT50031",
+      "query_submitted": true,
+      "course_name": "算法导论",
+      "response_state": "completed_in_prior_session; per-query payload not retained",
+      "offerings": [
+        {
+          "term": "2026春",
+          "course_code": "STAT50031",
+          "section_code": "STAT50031.01",
+          "teachers": [
+            "黄增峰"
+          ],
+          "section_id": 1032218
+        }
+      ],
+      "response_batch": null,
+      "accepted_current_offering_review": false,
+      "platforms": [
+        "zhihu.com",
+        "xiaohongshu.com",
+        "mp.weixin.qq.com"
+      ],
+      "screening_note": "先前会话记录确认该课程全名查询已提交并完成结果筛查；原始逐查询结果未保存在本目录，不能声称逐课程结果映射。",
+      "index": 54,
+      "search_request_succeeded": true,
+      "readable_course_material_found": false,
+      "accepted_historical_material_ids": []
+    },
+    {
+      "results_attributable_to_individual_query": false,
+      "batch_results_screened": true,
+      "readable_course_review_found": false,
+      "exact_query": "\"线性规划\" 复旦",
+      "exclusion_reason": "现有共享批次输出中未核读到能同时关联该课程、复旦与本学期具体班次/教师的评价正文；同名泛化内容、教材/考试内容或其他学校内容不作课程评价。",
+      "shared_result_count": null,
+      "course_code": "MATH50012",
+      "query_submitted": true,
+      "course_name": "线性规划",
+      "response_state": "completed_in_prior_session; per-query payload not retained",
+      "offerings": [
+        {
+          "term": "2026春",
+          "course_code": "MATH50012",
+          "section_code": "MATH50012.01",
+          "teachers": [
+            "郦旭东"
+          ],
+          "section_id": 1028869
+        }
+      ],
+      "response_batch": null,
+      "accepted_current_offering_review": false,
+      "platforms": [
+        "zhihu.com",
+        "xiaohongshu.com",
+        "mp.weixin.qq.com"
+      ],
+      "screening_note": "先前会话记录确认该课程全名查询已提交并完成结果筛查；原始逐查询结果未保存在本目录，不能声称逐课程结果映射。",
+      "index": 55,
+      "search_request_succeeded": true,
+      "readable_course_material_found": false,
+      "accepted_historical_material_ids": []
+    },
+    {
+      "results_attributable_to_individual_query": false,
+      "batch_results_screened": true,
+      "readable_course_review_found": false,
+      "exact_query": "\"统计学基础II：回归分析\" 复旦",
+      "exclusion_reason": "现有共享批次输出中未核读到能同时关联该课程、复旦与本学期具体班次/教师的评价正文；同名泛化内容、教材/考试内容或其他学校内容不作课程评价。",
+      "shared_result_count": null,
+      "course_code": "STAT50024",
+      "query_submitted": true,
+      "course_name": "统计学基础II：回归分析",
+      "response_state": "completed_in_prior_session; per-query payload not retained",
+      "offerings": [
+        {
+          "term": "2025秋",
+          "course_code": "STAT50024",
+          "section_code": "STAT50024.01",
+          "teachers": [
+            "王勤文"
+          ],
+          "section_id": 1001738
+        }
+      ],
+      "response_batch": null,
+      "accepted_current_offering_review": false,
+      "platforms": [
+        "zhihu.com",
+        "xiaohongshu.com",
+        "mp.weixin.qq.com"
+      ],
+      "screening_note": "先前会话记录确认该课程全名查询已提交并完成结果筛查；原始逐查询结果未保存在本目录，不能声称逐课程结果映射。",
+      "index": 56,
+      "search_request_succeeded": true,
+      "readable_course_material_found": false,
+      "accepted_historical_material_ids": []
+    },
+    {
+      "results_attributable_to_individual_query": false,
+      "batch_results_screened": true,
+      "readable_course_review_found": false,
+      "exact_query": "\"统计学基础I：数理统计（H）\" 复旦",
+      "exclusion_reason": "现有共享批次输出中未核读到能同时关联该课程、复旦与本学期具体班次/教师的评价正文；同名泛化内容、教材/考试内容或其他学校内容不作课程评价。",
+      "shared_result_count": null,
+      "course_code": "STAT20010h",
+      "query_submitted": true,
+      "course_name": "统计学基础I：数理统计（H）",
+      "response_state": "completed_in_prior_session; per-query payload not retained",
+      "offerings": [
+        {
+          "term": "2026春",
+          "course_code": "STAT20010h",
+          "section_code": "STAT20010h.01",
+          "teachers": [
+            "孙鑫伟"
+          ],
+          "section_id": 1028905
+        }
+      ],
+      "response_batch": null,
+      "accepted_current_offering_review": false,
+      "platforms": [
+        "zhihu.com",
+        "xiaohongshu.com",
+        "mp.weixin.qq.com"
+      ],
+      "screening_note": "先前会话记录确认该课程全名查询已提交并完成结果筛查；原始逐查询结果未保存在本目录，不能声称逐课程结果映射。",
+      "index": 57,
+      "search_request_succeeded": true,
+      "readable_course_material_found": false,
+      "accepted_historical_material_ids": []
+    },
+    {
+      "results_attributable_to_individual_query": false,
+      "batch_results_screened": true,
+      "readable_course_review_found": false,
+      "exact_query": "\"统计学基础：原理、方法及R应用 (I)\" 复旦",
+      "exclusion_reason": "现有共享批次输出中未核读到能同时关联该课程、复旦与本学期具体班次/教师的评价正文；同名泛化内容、教材/考试内容或其他学校内容不作课程评价。",
+      "shared_result_count": null,
+      "course_code": "STAT20010",
+      "query_submitted": true,
+      "course_name": "统计学基础：原理、方法及R应用 (I)",
+      "response_state": "completed_in_prior_session; per-query payload not retained",
+      "offerings": [
+        {
+          "term": "2026春",
+          "course_code": "STAT20010",
+          "section_code": "STAT20010.01",
+          "teachers": [
+            "侯燕曦"
+          ],
+          "section_id": 1028578
+        }
+      ],
+      "response_batch": null,
+      "accepted_current_offering_review": false,
+      "platforms": [
+        "zhihu.com",
+        "xiaohongshu.com",
+        "mp.weixin.qq.com"
+      ],
+      "screening_note": "先前会话记录确认该课程全名查询已提交并完成结果筛查；原始逐查询结果未保存在本目录，不能声称逐课程结果映射。",
+      "index": 58,
+      "search_request_succeeded": true,
+      "readable_course_material_found": false,
+      "accepted_historical_material_ids": []
+    },
+    {
+      "results_attributable_to_individual_query": false,
+      "batch_results_screened": true,
+      "readable_course_review_found": false,
+      "exact_query": "\"统计计算\" 复旦",
+      "exclusion_reason": "现有共享批次输出中未核读到能同时关联该课程、复旦与本学期具体班次/教师的评价正文；同名泛化内容、教材/考试内容或其他学校内容不作课程评价。",
+      "shared_result_count": null,
+      "course_code": "STAT30016",
+      "query_submitted": true,
+      "course_name": "统计计算",
+      "response_state": "completed_in_prior_session; per-query payload not retained",
+      "offerings": [
+        {
+          "term": "2025秋",
+          "course_code": "STAT30016",
+          "section_code": "STAT30016.01",
+          "teachers": [
+            "张楠"
+          ],
+          "section_id": 1001722
+        }
+      ],
+      "response_batch": null,
+      "accepted_current_offering_review": false,
+      "platforms": [
+        "zhihu.com",
+        "xiaohongshu.com",
+        "mp.weixin.qq.com"
+      ],
+      "screening_note": "先前会话记录确认该课程全名查询已提交并完成结果筛查；原始逐查询结果未保存在本目录，不能声称逐课程结果映射。",
+      "index": 59,
+      "search_request_succeeded": true,
+      "readable_course_material_found": false,
+      "accepted_historical_material_ids": []
+    },
+    {
+      "results_attributable_to_individual_query": false,
+      "batch_results_screened": true,
+      "readable_course_review_found": false,
+      "exact_query": "\"统计计算概论\" 复旦",
+      "exclusion_reason": "现有共享批次输出中未核读到能同时关联该课程、复旦与本学期具体班次/教师的评价正文；同名泛化内容、教材/考试内容或其他学校内容不作课程评价。",
+      "shared_result_count": null,
+      "course_code": "STAT70008",
+      "query_submitted": true,
+      "course_name": "统计计算概论",
+      "response_state": "completed_in_prior_session; per-query payload not retained",
+      "offerings": [
+        {
+          "term": "2025秋",
+          "course_code": "STAT70008",
+          "section_code": "STAT70008.01",
+          "teachers": [
+            "周渊"
+          ],
+          "section_id": 1015790
+        }
+      ],
+      "response_batch": null,
+      "accepted_current_offering_review": false,
+      "platforms": [
+        "zhihu.com",
+        "xiaohongshu.com",
+        "mp.weixin.qq.com"
+      ],
+      "screening_note": "先前会话记录确认该课程全名查询已提交并完成结果筛查；原始逐查询结果未保存在本目录，不能声称逐课程结果映射。",
+      "index": 60,
+      "search_request_succeeded": true,
+      "readable_course_material_found": false,
+      "accepted_historical_material_ids": []
+    },
+    {
+      "results_attributable_to_individual_query": false,
+      "batch_results_screened": true,
+      "readable_course_review_found": false,
+      "exact_query": "\"统计（机器）学习概论\" 复旦",
+      "exclusion_reason": "现有共享批次输出中未核读到能同时关联该课程、复旦与本学期具体班次/教师的评价正文；同名泛化内容、教材/考试内容或其他学校内容不作课程评价。",
+      "shared_result_count": null,
+      "course_code": "STAT30015",
+      "query_submitted": true,
+      "course_name": "统计（机器）学习概论",
+      "response_state": "completed_in_prior_session; per-query payload not retained",
+      "offerings": [
+        {
+          "term": "2025秋",
+          "course_code": "STAT30015",
+          "section_code": "STAT30015.01",
+          "teachers": [
+            "朱雪宁"
+          ],
+          "section_id": 1001727
+        }
+      ],
+      "response_batch": null,
+      "accepted_current_offering_review": false,
+      "platforms": [
+        "zhihu.com",
+        "xiaohongshu.com",
+        "mp.weixin.qq.com"
+      ],
+      "screening_note": "先前会话记录确认该课程全名查询已提交并完成结果筛查；原始逐查询结果未保存在本目录，不能声称逐课程结果映射。",
+      "index": 61,
+      "search_request_succeeded": true,
+      "readable_course_material_found": false,
+      "accepted_historical_material_ids": []
+    },
+    {
+      "results_attributable_to_individual_query": false,
+      "batch_results_screened": true,
+      "readable_course_review_found": false,
+      "exact_query": "\"脑科学与类脑系统\" 复旦",
+      "exclusion_reason": "现有共享批次输出中未核读到能同时关联该课程、复旦与本学期具体班次/教师的评价正文；同名泛化内容、教材/考试内容或其他学校内容不作课程评价。",
+      "shared_result_count": null,
+      "course_code": "CS50031",
+      "query_submitted": true,
+      "course_name": "脑科学与类脑系统",
+      "response_state": "completed_in_prior_session; per-query payload not retained",
+      "offerings": [
+        {
+          "term": "2025秋",
+          "course_code": "CS50031",
+          "section_code": "CS50031.01",
+          "teachers": [
+            "肖晓",
+            "于玉国"
+          ],
+          "section_id": 1001710
+        }
+      ],
+      "response_batch": null,
+      "accepted_current_offering_review": false,
+      "platforms": [
+        "zhihu.com",
+        "xiaohongshu.com",
+        "mp.weixin.qq.com"
+      ],
+      "screening_note": "先前会话记录确认该课程全名查询已提交并完成结果筛查；原始逐查询结果未保存在本目录，不能声称逐课程结果映射。",
+      "index": 62,
+      "search_request_succeeded": true,
+      "readable_course_material_found": false,
+      "accepted_historical_material_ids": []
+    },
+    {
+      "results_attributable_to_individual_query": false,
+      "batch_results_screened": true,
+      "readable_course_review_found": false,
+      "exact_query": "\"自然语言处理\" 复旦",
+      "exclusion_reason": "现有共享批次输出中未核读到能同时关联该课程、复旦与本学期具体班次/教师的评价正文；同名泛化内容、教材/考试内容或其他学校内容不作课程评价。",
+      "shared_result_count": null,
+      "course_code": "CS50023",
+      "query_submitted": true,
+      "course_name": "自然语言处理",
+      "response_state": "completed_in_prior_session; per-query payload not retained",
+      "offerings": [
+        {
+          "term": "2025秋",
+          "course_code": "CS50023",
+          "section_code": "CS50023.01",
+          "teachers": [
+            "周宝健"
+          ],
+          "section_id": 1014528
+        }
+      ],
+      "response_batch": null,
+      "accepted_current_offering_review": false,
+      "platforms": [
+        "zhihu.com",
+        "xiaohongshu.com",
+        "mp.weixin.qq.com"
+      ],
+      "screening_note": "先前会话记录确认该课程全名查询已提交并完成结果筛查；原始逐查询结果未保存在本目录，不能声称逐课程结果映射。",
+      "index": 63,
+      "search_request_succeeded": true,
+      "readable_course_material_found": false,
+      "accepted_historical_material_ids": []
+    },
+    {
+      "results_attributable_to_individual_query": false,
+      "batch_results_screened": true,
+      "readable_course_review_found": false,
+      "exact_query": "\"自然语言处理与大语言模型\" 复旦",
+      "exclusion_reason": "现有共享批次输出中未核读到能同时关联该课程、复旦与本学期具体班次/教师的评价正文；同名泛化内容、教材/考试内容或其他学校内容不作课程评价。",
+      "shared_result_count": null,
+      "course_code": "CS40008",
+      "query_submitted": true,
+      "course_name": "自然语言处理与大语言模型",
+      "response_state": "completed_in_prior_session; per-query payload not retained",
+      "offerings": [
+        {
+          "term": "2026春",
+          "course_code": "CS40008",
+          "section_code": "CS40008.01",
+          "teachers": [
+            "周宝健"
+          ],
+          "section_id": 1031272
+        }
+      ],
+      "response_batch": null,
+      "accepted_current_offering_review": false,
+      "platforms": [
+        "zhihu.com",
+        "xiaohongshu.com",
+        "mp.weixin.qq.com"
+      ],
+      "screening_note": "先前会话记录确认该课程全名查询已提交并完成结果筛查；原始逐查询结果未保存在本目录，不能声称逐课程结果映射。",
+      "index": 64,
+      "search_request_succeeded": true,
+      "readable_course_material_found": false,
+      "accepted_historical_material_ids": []
+    },
+    {
+      "results_attributable_to_individual_query": false,
+      "batch_results_screened": true,
+      "readable_course_review_found": false,
+      "exact_query": "\"计算机原理\" 复旦",
+      "exclusion_reason": "现有共享批次输出中未核读到能同时关联该课程、复旦与本学期具体班次/教师的评价正文；同名泛化内容、教材/考试内容或其他学校内容不作课程评价。",
+      "shared_result_count": null,
+      "course_code": "CS20018",
+      "query_submitted": true,
+      "course_name": "计算机原理",
+      "response_state": "completed_in_prior_session; per-query payload not retained",
+      "offerings": [
+        {
+          "term": "2025秋",
+          "course_code": "CS20018",
+          "section_code": "CS20018.01",
+          "teachers": [
+            "梁家卿"
+          ],
+          "section_id": 1001740
+        }
+      ],
+      "response_batch": null,
+      "accepted_current_offering_review": false,
+      "platforms": [
+        "zhihu.com",
+        "xiaohongshu.com",
+        "mp.weixin.qq.com"
+      ],
+      "screening_note": "先前会话记录确认该课程全名查询已提交并完成结果筛查；原始逐查询结果未保存在本目录，不能声称逐课程结果映射。",
+      "index": 65,
+      "search_request_succeeded": true,
+      "readable_course_material_found": false,
+      "accepted_historical_material_ids": []
+    },
+    {
+      "results_attributable_to_individual_query": false,
+      "batch_results_screened": true,
+      "readable_course_review_found": false,
+      "exact_query": "\"计算机视觉\" 复旦",
+      "exclusion_reason": "现有共享批次输出中未核读到能同时关联该课程、复旦与本学期具体班次/教师的评价正文；同名泛化内容、教材/考试内容或其他学校内容不作课程评价。",
+      "shared_result_count": null,
+      "course_code": "CS50028",
+      "query_submitted": true,
+      "course_name": "计算机视觉",
+      "response_state": "completed_in_prior_session; per-query payload not retained",
+      "offerings": [
+        {
+          "term": "2026春",
+          "course_code": "CS50028",
+          "section_code": "CS50028.01",
+          "teachers": [
+            "张力"
+          ],
+          "section_id": 1029003
+        }
+      ],
+      "response_batch": null,
+      "accepted_current_offering_review": false,
+      "platforms": [
+        "zhihu.com",
+        "xiaohongshu.com",
+        "mp.weixin.qq.com"
+      ],
+      "screening_note": "先前会话记录确认该课程全名查询已提交并完成结果筛查；原始逐查询结果未保存在本目录，不能声称逐课程结果映射。",
+      "index": 66,
+      "search_request_succeeded": true,
+      "readable_course_material_found": false,
+      "accepted_historical_material_ids": []
+    },
+    {
+      "results_attributable_to_individual_query": false,
+      "batch_results_screened": true,
+      "readable_course_review_found": false,
+      "exact_query": "\"计算理论\" 复旦",
+      "exclusion_reason": "现有共享批次输出中未核读到能同时关联该课程、复旦与本学期具体班次/教师的评价正文；同名泛化内容、教材/考试内容或其他学校内容不作课程评价。",
+      "shared_result_count": null,
+      "course_code": "CS50024",
+      "query_submitted": true,
+      "course_name": "计算理论",
+      "response_state": "completed_in_prior_session; per-query payload not retained",
+      "offerings": [
+        {
+          "term": "2025秋",
+          "course_code": "CS50024",
+          "section_code": "CS50024.01",
+          "teachers": [
+            "张卫忠"
+          ],
+          "section_id": 1001713
+        }
+      ],
+      "response_batch": null,
+      "accepted_current_offering_review": false,
+      "platforms": [
+        "zhihu.com",
+        "xiaohongshu.com",
+        "mp.weixin.qq.com"
+      ],
+      "screening_note": "先前会话记录确认该课程全名查询已提交并完成结果筛查；原始逐查询结果未保存在本目录，不能声称逐课程结果映射。",
+      "index": 67,
+      "search_request_succeeded": true,
+      "readable_course_material_found": false,
+      "accepted_historical_material_ids": []
+    },
+    {
+      "results_attributable_to_individual_query": false,
+      "batch_results_screened": true,
+      "readable_course_review_found": false,
+      "exact_query": "\"计算神经学\" 复旦",
+      "exclusion_reason": "现有共享批次输出中未核读到能同时关联该课程、复旦与本学期具体班次/教师的评价正文；同名泛化内容、教材/考试内容或其他学校内容不作课程评价。",
+      "shared_result_count": null,
+      "course_code": "CS50029",
+      "query_submitted": true,
+      "course_name": "计算神经学",
+      "response_state": "completed_in_prior_session; per-query payload not retained",
+      "offerings": [
+        {
+          "term": "2026春",
+          "course_code": "CS50029",
+          "section_code": "CS50029.01",
+          "teachers": [
+            "公维康"
+          ],
+          "section_id": 1028975
+        }
+      ],
+      "response_batch": null,
+      "accepted_current_offering_review": false,
+      "platforms": [
+        "zhihu.com",
+        "xiaohongshu.com",
+        "mp.weixin.qq.com"
+      ],
+      "screening_note": "先前会话记录确认该课程全名查询已提交并完成结果筛查；原始逐查询结果未保存在本目录，不能声称逐课程结果映射。",
+      "index": 68,
+      "search_request_succeeded": true,
+      "readable_course_material_found": false,
+      "accepted_historical_material_ids": []
+    },
+    {
+      "results_attributable_to_individual_query": false,
+      "batch_results_screened": true,
+      "readable_course_review_found": false,
+      "exact_query": "\"计算系统生物学\" 复旦",
+      "exclusion_reason": "现有共享批次输出中未核读到能同时关联该课程、复旦与本学期具体班次/教师的评价正文；同名泛化内容、教材/考试内容或其他学校内容不作课程评价。",
+      "shared_result_count": null,
+      "course_code": "CS50030",
+      "query_submitted": true,
+      "course_name": "计算系统生物学",
+      "response_state": "completed_in_prior_session; per-query payload not retained",
+      "offerings": [
+        {
+          "term": "2026春",
+          "course_code": "CS50030",
+          "section_code": "CS50030.01",
+          "teachers": [
+            "李春贺"
+          ],
+          "section_id": 1028966
+        }
+      ],
+      "response_batch": null,
+      "accepted_current_offering_review": false,
+      "platforms": [
+        "zhihu.com",
+        "xiaohongshu.com",
+        "mp.weixin.qq.com"
+      ],
+      "screening_note": "先前会话记录确认该课程全名查询已提交并完成结果筛查；原始逐查询结果未保存在本目录，不能声称逐课程结果映射。",
+      "index": 69,
+      "search_request_succeeded": true,
+      "readable_course_material_found": false,
+      "accepted_historical_material_ids": []
+    },
+    {
+      "results_attributable_to_individual_query": false,
+      "batch_results_screened": true,
+      "readable_course_review_found": false,
+      "exact_query": "\"认知智能前沿技术与实践\" 复旦",
+      "exclusion_reason": "现有共享批次输出中未核读到能同时关联该课程、复旦与本学期具体班次/教师的评价正文；同名泛化内容、教材/考试内容或其他学校内容不作课程评价。",
+      "shared_result_count": null,
+      "course_code": "AIT531023",
+      "query_submitted": true,
+      "course_name": "认知智能前沿技术与实践",
+      "response_state": "completed_in_prior_session; per-query payload not retained",
+      "offerings": [
+        {
+          "term": "2025秋",
+          "course_code": "AIT531023",
+          "section_code": "AIT531023.02",
+          "teachers": [
+            "梁家卿",
+            "郑卫国",
+            "阳德青"
+          ],
+          "section_id": 1007656
+        }
+      ],
+      "response_batch": null,
+      "accepted_current_offering_review": false,
+      "platforms": [
+        "zhihu.com",
+        "xiaohongshu.com",
+        "mp.weixin.qq.com"
+      ],
+      "screening_note": "先前会话记录确认该课程全名查询已提交并完成结果筛查；原始逐查询结果未保存在本目录，不能声称逐课程结果映射。",
+      "index": 70,
+      "search_request_succeeded": true,
+      "readable_course_material_found": false,
+      "accepted_historical_material_ids": []
+    },
+    {
+      "results_attributable_to_individual_query": false,
+      "batch_results_screened": true,
+      "readable_course_review_found": false,
+      "exact_query": "\"课题组讨论\" 复旦",
+      "exclusion_reason": "现有共享批次输出中未核读到能同时关联该课程、复旦与本学期具体班次/教师的评价正文；同名泛化内容、教材/考试内容或其他学校内容不作课程评价。",
+      "shared_result_count": null,
+      "course_code": "000.000.6",
+      "query_submitted": true,
+      "course_name": "课题组讨论",
+      "response_state": "completed_in_prior_session; per-query payload not retained",
+      "offerings": [
+        {
+          "term": "2025秋",
+          "course_code": "000.000.6",
+          "section_code": "000.000.6.05",
+          "teachers": [
+            "陈钊"
+          ],
+          "section_id": 1028475
+        },
+        {
+          "term": "2025秋",
+          "course_code": "000.000.6",
+          "section_code": "000.000.6.06",
+          "teachers": [
+            "周宝健"
+          ],
+          "section_id": 1031231
+        }
+      ],
+      "response_batch": null,
+      "accepted_current_offering_review": false,
+      "platforms": [
+        "zhihu.com",
+        "xiaohongshu.com",
+        "mp.weixin.qq.com"
+      ],
+      "screening_note": "先前会话记录确认该课程全名查询已提交并完成结果筛查；原始逐查询结果未保存在本目录，不能声称逐课程结果映射。",
+      "index": 71,
+      "search_request_succeeded": true,
+      "readable_course_material_found": false,
+      "accepted_historical_material_ids": []
+    },
+    {
+      "results_attributable_to_individual_query": false,
+      "batch_results_screened": true,
+      "readable_course_review_found": false,
+      "exact_query": "\"贝叶斯方法与计算\" 复旦",
+      "exclusion_reason": "现有共享批次输出中未核读到能同时关联该课程、复旦与本学期具体班次/教师的评价正文；同名泛化内容、教材/考试内容或其他学校内容不作课程评价。",
+      "shared_result_count": null,
+      "course_code": "STAT50029",
+      "query_submitted": true,
+      "course_name": "贝叶斯方法与计算",
+      "response_state": "completed_in_prior_session; per-query payload not retained",
+      "offerings": [
+        {
+          "term": "2026春",
+          "course_code": "STAT50029",
+          "section_code": "STAT50029.01",
+          "teachers": [
+            "张楠"
+          ],
+          "section_id": 1032182
+        }
+      ],
+      "response_batch": null,
+      "accepted_current_offering_review": false,
+      "platforms": [
+        "zhihu.com",
+        "xiaohongshu.com",
+        "mp.weixin.qq.com"
+      ],
+      "screening_note": "先前会话记录确认该课程全名查询已提交并完成结果筛查；原始逐查询结果未保存在本目录，不能声称逐课程结果映射。",
+      "index": 72,
+      "search_request_succeeded": true,
+      "readable_course_material_found": false,
+      "accepted_historical_material_ids": []
+    },
+    {
+      "results_attributable_to_individual_query": false,
+      "batch_results_screened": true,
+      "readable_course_review_found": false,
+      "exact_query": "\"走近人工智能\" 复旦",
+      "exclusion_reason": "现有共享批次输出中未核读到能同时关联该课程、复旦与本学期具体班次/教师的评价正文；同名泛化内容、教材/考试内容或其他学校内容不作课程评价。",
+      "shared_result_count": null,
+      "course_code": "AIB110003",
+      "query_submitted": true,
+      "course_name": "走近人工智能",
+      "response_state": "completed_in_prior_session; per-query payload not retained",
+      "offerings": [
+        {
+          "term": "2025秋",
+          "course_code": "AIB110003",
+          "section_code": "AIB110003.06",
+          "teachers": [
+            "陈平"
+          ],
+          "section_id": 1001721
+        },
+        {
+          "term": "2026春",
+          "course_code": "AIB110003",
+          "section_code": "AIB110003.06",
+          "teachers": [
+            "陈平"
+          ],
+          "section_id": 1034192
+        }
+      ],
+      "response_batch": null,
+      "accepted_current_offering_review": false,
+      "platforms": [
+        "zhihu.com",
+        "xiaohongshu.com",
+        "mp.weixin.qq.com"
+      ],
+      "screening_note": "先前会话记录确认该课程全名查询已提交并完成结果筛查；原始逐查询结果未保存在本目录，不能声称逐课程结果映射。",
+      "index": 73,
+      "search_request_succeeded": true,
+      "readable_course_material_found": false,
+      "accepted_historical_material_ids": []
+    },
+    {
+      "results_attributable_to_individual_query": false,
+      "batch_results_screened": true,
+      "readable_course_review_found": false,
+      "exact_query": "\"金融工程\" 复旦",
+      "exclusion_reason": "现有共享批次输出中未核读到能同时关联该课程、复旦与本学期具体班次/教师的评价正文；同名泛化内容、教材/考试内容或其他学校内容不作课程评价。",
+      "shared_result_count": null,
+      "course_code": "STAT50022",
+      "query_submitted": true,
+      "course_name": "金融工程",
+      "response_state": "completed_in_prior_session; per-query payload not retained",
+      "offerings": [
+        {
+          "term": "2026春",
+          "course_code": "STAT50022",
+          "section_code": "STAT50022.01",
+          "teachers": [
+            "丁亮"
+          ],
+          "section_id": 1031639
+        }
+      ],
+      "response_batch": null,
+      "accepted_current_offering_review": false,
+      "platforms": [
+        "zhihu.com",
+        "xiaohongshu.com",
+        "mp.weixin.qq.com"
+      ],
+      "screening_note": "先前会话记录确认该课程全名查询已提交并完成结果筛查；原始逐查询结果未保存在本目录，不能声称逐课程结果映射。",
+      "index": 74,
+      "search_request_succeeded": true,
+      "readable_course_material_found": false,
+      "accepted_historical_material_ids": []
+    },
+    {
+      "results_attributable_to_individual_query": false,
+      "batch_results_screened": true,
+      "readable_course_review_found": false,
+      "exact_query": "\"金融计量学\" 复旦",
+      "exclusion_reason": "现有共享批次输出中未核读到能同时关联该课程、复旦与本学期具体班次/教师的评价正文；同名泛化内容、教材/考试内容或其他学校内容不作课程评价。",
+      "shared_result_count": null,
+      "course_code": "STAT70007",
+      "query_submitted": true,
+      "course_name": "金融计量学",
+      "response_state": "completed_in_prior_session; per-query payload not retained",
+      "offerings": [
+        {
+          "term": "2025秋",
+          "course_code": "STAT70007",
+          "section_code": "STAT70007.01",
+          "teachers": [
+            "侯燕曦"
+          ],
+          "section_id": 1014966
+        }
+      ],
+      "response_batch": null,
+      "accepted_current_offering_review": false,
+      "platforms": [
+        "zhihu.com",
+        "xiaohongshu.com",
+        "mp.weixin.qq.com"
+      ],
+      "screening_note": "先前会话记录确认该课程全名查询已提交并完成结果筛查；原始逐查询结果未保存在本目录，不能声称逐课程结果映射。",
+      "index": 75,
+      "search_request_succeeded": true,
+      "readable_course_material_found": false,
+      "accepted_historical_material_ids": []
+    },
+    {
+      "results_attributable_to_individual_query": false,
+      "batch_results_screened": true,
+      "readable_course_review_found": false,
+      "exact_query": "\"随机过程导论\" 复旦",
+      "exclusion_reason": "现有共享批次输出中未核读到能同时关联该课程、复旦与本学期具体班次/教师的评价正文；同名泛化内容、教材/考试内容或其他学校内容不作课程评价。",
+      "shared_result_count": 18,
+      "course_code": "STAT50017",
+      "query_submitted": true,
+      "course_name": "随机过程导论",
+      "response_state": "search_results_returned_for_shared_batch",
+      "offerings": [
+        {
+          "term": "2026春",
+          "course_code": "STAT50017",
+          "section_code": "STAT50017.01",
+          "teachers": [
+            "王勤文"
+          ],
+          "section_id": 1028762
+        }
+      ],
+      "response_batch": "tail_batch_1",
+      "accepted_current_offering_review": false,
+      "platforms": [
+        "zhihu.com",
+        "xiaohongshu.com",
+        "mp.weixin.qq.com"
+      ],
+      "screening_note": "批次结果已读；可见内容主要为通用微积分/线性代数教材、考试或非本校材料，无法逐条归属至四个查询。",
+      "index": 76,
+      "search_request_succeeded": true,
+      "readable_course_material_found": false,
+      "accepted_historical_material_ids": []
+    },
+    {
+      "results_attributable_to_individual_query": false,
+      "batch_results_screened": true,
+      "readable_course_review_found": false,
+      "exact_query": "\"高等微积分\" 复旦",
+      "exclusion_reason": "现有共享批次输出中未核读到能同时关联该课程、复旦与本学期具体班次/教师的评价正文；同名泛化内容、教材/考试内容或其他学校内容不作课程评价。",
+      "shared_result_count": 18,
+      "course_code": "MATH50014",
+      "query_submitted": true,
+      "course_name": "高等微积分",
+      "response_state": "search_results_returned_for_shared_batch",
+      "offerings": [
+        {
+          "term": "2025秋",
+          "course_code": "MATH50014",
+          "section_code": "MATH50014.01",
+          "teachers": [
+            "秦伯韡"
+          ],
+          "section_id": 1001734
+        }
+      ],
+      "response_batch": "tail_batch_1",
+      "accepted_current_offering_review": false,
+      "platforms": [
+        "zhihu.com",
+        "xiaohongshu.com",
+        "mp.weixin.qq.com"
+      ],
+      "screening_note": "批次结果已读；可见内容主要为通用微积分/线性代数教材、考试或非本校材料，无法逐条归属至四个查询。",
+      "index": 77,
+      "search_request_succeeded": true,
+      "readable_course_material_found": false,
+      "accepted_historical_material_ids": []
+    },
+    {
+      "results_attributable_to_individual_query": false,
+      "batch_results_screened": true,
+      "readable_course_review_found": false,
+      "exact_query": "\"高等线性代数\" 复旦",
+      "exclusion_reason": "现有共享批次输出中未核读到能同时关联该课程、复旦与本学期具体班次/教师的评价正文；同名泛化内容、教材/考试内容或其他学校内容不作课程评价。",
+      "shared_result_count": 18,
+      "course_code": "MATH10003",
+      "query_submitted": true,
+      "course_name": "高等线性代数",
+      "response_state": "search_results_returned_for_shared_batch",
+      "offerings": [
+        {
+          "term": "2025秋",
+          "course_code": "MATH10003",
+          "section_code": "MATH10003.01",
+          "teachers": [
+            "邵美悦"
+          ],
+          "section_id": 1001732
+        },
+        {
+          "term": "2026春",
+          "course_code": "MATH10003",
+          "section_code": "MATH10003.01",
+          "teachers": [
+            "邵美悦"
+          ],
+          "section_id": 1019823
+        }
+      ],
+      "response_batch": "tail_batch_1",
+      "accepted_current_offering_review": false,
+      "platforms": [
+        "zhihu.com",
+        "xiaohongshu.com",
+        "mp.weixin.qq.com"
+      ],
+      "screening_note": "批次结果已读；可见内容主要为通用微积分/线性代数教材、考试或非本校材料，无法逐条归属至四个查询。",
+      "index": 78,
+      "search_request_succeeded": true,
+      "readable_course_material_found": false,
+      "accepted_historical_material_ids": []
+    },
+    {
+      "results_attributable_to_individual_query": false,
+      "batch_results_screened": true,
+      "readable_course_review_found": false,
+      "exact_query": "\"高等统计学\" 复旦",
+      "exclusion_reason": "现有共享批次输出中未核读到能同时关联该课程、复旦与本学期具体班次/教师的评价正文；同名泛化内容、教材/考试内容或其他学校内容不作课程评价。",
+      "shared_result_count": 18,
+      "course_code": "STAT50034",
+      "query_submitted": true,
+      "course_name": "高等统计学",
+      "response_state": "search_results_returned_for_shared_batch",
+      "offerings": [
+        {
+          "term": "2026春",
+          "course_code": "STAT50034",
+          "section_code": "STAT50034.01",
+          "teachers": [
+            "魏轲"
+          ],
+          "section_id": 1032216
+        }
+      ],
+      "response_batch": "tail_batch_1",
+      "accepted_current_offering_review": false,
+      "platforms": [
+        "zhihu.com",
+        "xiaohongshu.com",
+        "mp.weixin.qq.com"
+      ],
+      "screening_note": "批次结果已读；可见内容主要为通用微积分/线性代数教材、考试或非本校材料，无法逐条归属至四个查询。",
+      "index": 79,
+      "search_request_succeeded": true,
+      "readable_course_material_found": false,
+      "accepted_historical_material_ids": []
+    },
+    {
+      "results_attributable_to_individual_query": false,
+      "batch_results_screened": true,
+      "readable_course_review_found": false,
+      "exact_query": "\"高等统计学习\" 复旦",
+      "exclusion_reason": "现有共享批次输出中未核读到能同时关联该课程、复旦与本学期具体班次/教师的评价正文；同名泛化内容、教材/考试内容或其他学校内容不作课程评价。",
+      "shared_result_count": 1,
+      "course_code": "STAT40011",
+      "query_submitted": true,
+      "course_name": "高等统计学习",
+      "response_state": "search_results_returned_for_shared_batch",
+      "offerings": [
+        {
+          "term": "2025秋",
+          "course_code": "STAT40011",
+          "section_code": "STAT40011.01",
+          "teachers": [
+            "林晓蕾"
+          ],
+          "section_id": 1007142
+        }
+      ],
+      "response_batch": "tail_batch_2",
+      "accepted_current_offering_review": false,
+      "platforms": [
+        "zhihu.com",
+        "xiaohongshu.com",
+        "mp.weixin.qq.com"
+      ],
+      "screening_note": "批次唯一可见结果为通用“概率图模型”词条，不是具体课程评价或课程资料，无法归属至四个查询。",
+      "index": 80,
+      "search_request_succeeded": true,
+      "readable_course_material_found": false,
+      "accepted_historical_material_ids": []
+    },
+    {
+      "results_attributable_to_individual_query": false,
+      "batch_results_screened": true,
+      "readable_course_review_found": false,
+      "exact_query": "\"高等统计学习理论\" 复旦",
+      "exclusion_reason": "现有共享批次输出中未核读到能同时关联该课程、复旦与本学期具体班次/教师的评价正文；同名泛化内容、教材/考试内容或其他学校内容不作课程评价。",
+      "shared_result_count": 1,
+      "course_code": "STAT50033",
+      "query_submitted": true,
+      "course_name": "高等统计学习理论",
+      "response_state": "search_results_returned_for_shared_batch",
+      "offerings": [
+        {
+          "term": "2026春",
+          "course_code": "STAT50033",
+          "section_code": "STAT50033.01",
+          "teachers": [
+            "孙鑫伟"
+          ],
+          "section_id": 1032461
+        }
+      ],
+      "response_batch": "tail_batch_2",
+      "accepted_current_offering_review": false,
+      "platforms": [
+        "zhihu.com",
+        "xiaohongshu.com",
+        "mp.weixin.qq.com"
+      ],
+      "screening_note": "批次唯一可见结果为通用“概率图模型”词条，不是具体课程评价或课程资料，无法归属至四个查询。",
+      "index": 81,
+      "search_request_succeeded": true,
+      "readable_course_material_found": false,
+      "accepted_historical_material_ids": []
+    },
+    {
+      "results_attributable_to_individual_query": false,
+      "batch_results_screened": true,
+      "readable_course_review_found": false,
+      "exact_query": "\"高级大数据解析\" 复旦",
+      "exclusion_reason": "现有共享批次输出中未核读到能同时关联该课程、复旦与本学期具体班次/教师的评价正文；同名泛化内容、教材/考试内容或其他学校内容不作课程评价。",
+      "shared_result_count": 1,
+      "course_code": "CS50021",
+      "query_submitted": true,
+      "course_name": "高级大数据解析",
+      "response_state": "search_results_returned_for_shared_batch",
+      "offerings": [
+        {
+          "term": "2025秋",
+          "course_code": "CS50021",
+          "section_code": "CS50021.01",
+          "teachers": [
+            "公维康"
+          ],
+          "section_id": 1001717
+        }
+      ],
+      "response_batch": "tail_batch_2",
+      "accepted_current_offering_review": false,
+      "platforms": [
+        "zhihu.com",
+        "xiaohongshu.com",
+        "mp.weixin.qq.com"
+      ],
+      "screening_note": "批次唯一可见结果为通用“概率图模型”词条，不是具体课程评价或课程资料，无法归属至四个查询。",
+      "index": 82,
+      "search_request_succeeded": true,
+      "readable_course_material_found": false,
+      "accepted_historical_material_ids": []
+    },
+    {
+      "results_attributable_to_individual_query": false,
+      "batch_results_screened": true,
+      "readable_course_review_found": false,
+      "exact_query": "\"高维统计推断\" 复旦",
+      "exclusion_reason": "现有共享批次输出中未核读到能同时关联该课程、复旦与本学期具体班次/教师的评价正文；同名泛化内容、教材/考试内容或其他学校内容不作课程评价。",
+      "shared_result_count": 1,
+      "course_code": "STAT60007",
+      "query_submitted": true,
+      "course_name": "高维统计推断",
+      "response_state": "search_results_returned_for_shared_batch",
+      "offerings": [
+        {
+          "term": "2026春",
+          "course_code": "STAT60007",
+          "section_code": "STAT60007.01",
+          "teachers": [
+            "魏轲"
+          ],
+          "section_id": 1032418
+        }
+      ],
+      "response_batch": "tail_batch_2",
+      "accepted_current_offering_review": false,
+      "platforms": [
+        "zhihu.com",
+        "xiaohongshu.com",
+        "mp.weixin.qq.com"
+      ],
+      "screening_note": "批次唯一可见结果为通用“概率图模型”词条，不是具体课程评价或课程资料，无法归属至四个查询。",
+      "index": 83,
+      "search_request_succeeded": true,
+      "readable_course_material_found": false,
+      "accepted_historical_material_ids": []
+    }
+  ],
+  "limitations": [
+    "此前索引0–75的逐查询原始响应未在public_work中留存；覆盖状态来自本任务会话记录。为避免误归因，旧批次的结果引用留空，并明确标为不能逐查询映射。",
+    "搜索工具将多门查询的可见结果合并返回，结果条数不能视为每一课程的单独命中数。",
+    "直达知乎、小红书和微信公众号/搜狗微信检索页时，当前读取工具返回URL不可访问；搜索引擎索引结果只用于发现候选。",
+    "只有可读正文且可关联课程/教师/班次的内容才作为课程评价或资料收录。"
+  ]
+}
