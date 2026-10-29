@@ -14,6 +14,7 @@
 
 ## 阅读与下载
 
+- [哲学系课程名单](哲学系课程名单.txt)：2025秋、2026春哲学学院全部开课名称，按名称去重共253门，一行一个课程名称。
 - [逐课已读材料摘要](course-summaries.md)
 - [官方教学班与周次、节次、地点](official/offerings.csv)、[267课代码与覆盖表](summaries/coverage.csv)
 - [课程结构化记录](summaries/courses.json)、[证据及来源编号](summaries/evidence.json)
