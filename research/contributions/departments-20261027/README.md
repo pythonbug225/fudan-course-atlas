@@ -6,7 +6,7 @@
 | --- | --- | --- |
 | 中文系 | [课程人工综合与来源](chinese/summaries/课程人工综合与来源.json)、[研究导读](chinese/summaries/跨课程研究导读.html) | 完成范围和缺口见本院台账 |
 | 国务学院 | [目标学期比较](sirpa/summaries/目标学期课程比较总结.json)、[公开来源比较](sirpa/summaries/公开课程比较总结.json) | 公开与登录后来源分别核读 |
-| 马克思主义学院 | [课程名称查询单](marxism/课程名称查询单.json)、[清单范围说明](marxism/README.md)、[完整报告](marxism/final-report-20261028/README.md) | 名称清单合并两学期开课及2026级方案中马院开课课程；报告覆盖465教学班、142课号。学生证据不足与访问缺口按报告披露 |
+| 马克思主义学院 | [马院课程名单](marxism/马院课程名单.json)、[清单范围说明](marxism/README.md)、[完整报告](marxism/final-report-20261028/README.md) | 名称清单合并两学期开课及2026级方案中马院开课课程；报告覆盖465教学班、142课号。学生证据不足与访问缺口按报告披露 |
 
 各院 `raw/` 保存树洞／旦挞接口响应与检索台账，`raw-official/` 保存官方接口响应，`official/` 保存官方培养方案原始DOCX及结构化资料。JSON以gzip压缩，可用Python标准库gzip读取。具体查询、来源ID、页码与停止原因保留在响应及台账内；分页未完成的查询不宣称穷尽。
 
