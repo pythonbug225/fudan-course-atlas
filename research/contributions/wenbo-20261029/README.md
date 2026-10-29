@@ -16,7 +16,7 @@
 
 ## 阅读与下载
 
-- [逐课摘要和证据链接](course-summaries.md)、[文博系课程名称名单](文博系课程名单.txt)
+- [逐课摘要和证据链接](course-summaries.md)、[文物与博物馆学系课程名单](文物与博物馆学系课程名单.txt)
 - [官方教学班与排课信息](official/offerings.csv)、[课程—学期清单](official/courses.csv)
 - [133门课程结构化研究](summaries/courses.json)、[220条来源与释义](summaries/evidence.json)
 - [7份方案及原件SHA-256](official/programmes.json)、[方案课程索引](official/programme-courses.json)
