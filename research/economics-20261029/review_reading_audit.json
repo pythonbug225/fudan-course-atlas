@@ -1,0 +1,158 @@
+{
+  "scope": {
+    "status": "official_openDepartment_exact",
+    "source_indexes": [
+      "D:\\danxi\\课程评价整理_20261023\\补充核验\\化学系_20261027\\official_index_504.json",
+      "D:\\danxi\\课程评价整理_20261023\\补充核验\\化学系_20261027\\official_index_505.json"
+    ],
+    "filter": "openDepartment 精确等于 经济学院",
+    "course_code_count": 301,
+    "section_count": 604,
+    "teacher_count": 186,
+    "term_counts": {
+      "2025秋": 271,
+      "2026春": 333
+    },
+    "unique_codes_by_term": {
+      "2025秋": 172,
+      "2026春": 152
+    }
+  },
+  "search_coverage": {
+    "local_cache_roots": 32,
+    "processed_files": 13511,
+    "file_types": {
+      "hole": 1955,
+      "group": 2719,
+      "search": 8837
+    },
+    "cache_root_counts": {
+      "forum": 356,
+      "补充核验\\danke\\groups": 1356,
+      "补充核验\\danke\\search": 1851,
+      "补充核验\\forum\\holes": 569,
+      "补充核验\\forum\\search": 829,
+      "补充核验\\计智学院_20261026\\danke\\groups": 406,
+      "补充核验\\计智学院_20261026\\danke\\search": 256,
+      "补充核验\\计智学院_20261026\\danke\\attributed_groups": 44,
+      "补充核验\\计智学院_20261026\\forum\\holes": 80,
+      "补充核验\\计智学院_20261026\\forum\\search": 1988,
+      "补充核验\\计智学院_20261026\\forum\\direct_floors": 11,
+      "补充核验\\化学系_20261027\\danke\\groups": 164,
+      "补充核验\\化学系_20261027\\danke\\search": 142,
+      "补充核验\\化学系_20261027\\forum\\holes": 165,
+      "补充核验\\化学系_20261027\\forum\\search": 1743,
+      "补充核验\\暑期通识增补_20261026\\danke\\groups": 321,
+      "补充核验\\暑期通识增补_20261026\\danke\\search": 81,
+      "补充核验\\暑期通识增补_20261026\\forum\\holes": 43,
+      "补充核验\\暑期通识增补_20261026\\forum\\search": 356,
+      "补充核验\\树洞复搜_20261024\\danke\\groups": 274,
+      "补充核验\\树洞复搜_20261024\\danke\\search": 258,
+      "补充核验\\树洞复搜_20261024\\forum\\holes": 89,
+      "补充核验\\树洞复搜_20261024\\forum\\search": 297,
+      "补充核验\\深查与选课人数_20261025\\forum\\holes": 499,
+      "补充核验\\深查与选课人数_20261025\\forum\\search": 103,
+      "补充核验\\讨论帖与综合重写_20261025\\forum\\holes": 121,
+      "补充核验\\讨论帖与综合重写_20261025\\forum\\search": 51,
+      "补充核验\\物理学系_20261027\\danke\\groups": 154,
+      "补充核验\\物理学系_20261027\\danke\\search": 190,
+      "补充核验\\物理学系_20261027\\forum\\holes": 15,
+      "补充核验\\物理学系_20261027\\forum\\search": 692,
+      "补充核验\\物理学系_20261027\\forum\\partial_context": 7
+    },
+    "candidate_groups": 422,
+    "candidate_group_review_mapping_rows": 1976,
+    "candidate_query_hits": 1700,
+    "candidate_forum_floor_mapping_rows": 2419,
+    "unique_forum_hole_floor_pairs": 1284,
+    "course_alias_terms": 1395,
+    "course_pinyin_initial_terms": 252,
+    "one_character_omission_variants": 1711,
+    "teacher_alias_terms": 352,
+    "teacher_initial_terms": 175,
+    "catalog_full_review_records_scanned": 240,
+    "catalog_full_discussion_records_scanned": 334,
+    "catalog_strict_review_candidate_rows": 30,
+    "catalog_strict_discussion_candidate_rows": 14,
+    "authorized_chat_groups_scanned": 6,
+    "authorized_chat_packets_scanned": 161,
+    "chat_candidate_windows": 161
+  },
+  "reading_and_adoption": {
+    "econ_department_group_review_candidates": 171,
+    "exact_target_code_group_review_candidates": 18,
+    "unique_group_review_candidates_union": 185,
+    "full_text_group_reviews_read_and_retained": 80,
+    "full_text_catalog_reviews_read_and_retained": 2,
+    "full_text_forum_floor_or_thread_contexts_read": 27,
+    "forum_full_text_retained": 0,
+    "chat_packets_with_full_context_read": 1,
+    "chat_raw_text_retained": 0,
+    "total_published_source_records": 110,
+    "course_codes_with_attributable_sources": 34,
+    "course_codes_without_attributable_sources": 267,
+    "adopted_source_counts_by_type": {
+      "danke_course_review": 80,
+      "forum_paraphrase": 27,
+      "danke_course_review_catalog": 2,
+      "authorized_chat_paraphrase": 1
+    },
+    "unread_or_unadopted_candidates_note": "机器命中数只表示候选映射；未逐条全文核读的其他候选没有作为评价发布。多课程清单、广告/联系方式、只提及课程名的回复、教师/课程冲突及同名课程无法消歧项未强行归类。",
+    "cross_department_management_sources_reviewed": 95,
+    "cross_department_same_code_candidates": 17,
+    "cross_department_same_code_and_title_candidates": 17,
+    "cross_department_current_economics_teacher_matches": 8,
+    "cross_department_duplicate_ids_already_present": 2,
+    "cross_department_new_records_adopted": 6,
+    "cross_department_new_source_ids": [
+      "danxi_review_2106",
+      "danxi_review_2190",
+      "danxi_review_3326",
+      "danxi_review_3923",
+      "danxi_review_5749",
+      "danxi_review_6234"
+    ],
+    "cross_department_new_course_codes": [
+      "BA10003",
+      "ECON20004"
+    ]
+  },
+  "rights_and_privacy": {
+    "danke_terms": "旦挞社区服务使用协议第4条：未特别说明时默认CC BY 4.0；作者声明优先。",
+    "danke_author_exception_phrase_scan": {
+      "unique_candidate_reviews_scanned": 171,
+      "candidate_rows_scanned": 321,
+      "explicit_phrase_hits": 0,
+      "limitation": "按本地候选原文中的常见禁止转载/公开/引用短语检索；不是对所有可能表达的法律判定。"
+    },
+    "catalog_author_exception_phrase_scan": {
+      "full_review_records_checked": 240,
+      "full_discussion_records_checked": 334,
+      "matched_review_records": 23,
+      "matched_discussion_floors": 14,
+      "exception_hits": [],
+      "method": "Checked all available full-review records and discussion floors for explicit opt-outs from republication, quotation, or public display. Public author labels are anonymized; platform user IDs are not published."
+    },
+    "forum_rule": "茶楼公约不鼓励外传社区内容并严禁截图外传；论坛源因此只发布匿名短释义，不保留楼层原文或截图。",
+    "chat_handling": "聊天群仅公开匿名摘要；成员ID、群名称、原句和可识别个人上下文均不公开。",
+    "attribution": "蛋壳按原评ID匿名归引；不输出平台用户ID或茶楼匿名昵称。",
+    "cross_department_author_exception_check": {
+      "new_records_scanned": 6,
+      "explicit_phrase_hits": 0,
+      "limitation": "按本地完整缓存原文检索常见禁止转载/公开/引用短语；该检索不能替代对所有可能表达的法律判断。"
+    }
+  },
+  "limitations": [
+    "当前代码/教师名册来自2025秋与2026春开课行；历史评语只能说明其原教师/原班经验，不能外推到其他班。",
+    "蛋壳学期标签和作者正文自述有冲突时并列保留；未注明学期的论坛内容不从发帖日期推断修读学期。",
+    "同名课程存在跨院系或荣誉/普通班时，仅在课程代码、来源院系、教师和上下文足够时映射；其余保留为未归属，不计入课程综合。",
+    "群聊中只有1个低信息候选与目标博弈论H存在足够上下文关联；该摘要不能支持工作量、考试或成绩结论。",
+    "未使用实时非官方API获取树洞或蛋壳内容；结论覆盖本地已有的32个缓存根目录及指定群聊。",
+    "另核对管理学院review_sources中的95条记录；仅补入6条与经济学院目标课同代码/同名且教师名册精确匹配的完整原评，保留管理学院来源。均未确认与经济学院目标班相同，matches_target_offering=false；同学期也不推断为同班。"
+  ],
+  "output_files": [
+    "review_sources.json",
+    "student_syntheses.json",
+    "review_reading_audit.json"
+  ]
+}

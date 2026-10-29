@@ -1,0 +1,37 @@
+{
+  "scope_and_reference_integrity": "passed",
+  "offline_html_images": "passed",
+  "privacy_scan": {
+    "findings": [],
+    "patterns": [
+      "email",
+      "mobile",
+      "wxid",
+      "private_group_id",
+      "auth_field"
+    ]
+  },
+  "filter_tests": "经济学院: code/name/teacher/pinyin, course type/prefix, public+major filters passed",
+  "official_assessment_anomalies": [],
+  "coverage": {
+    "department": "经济学院",
+    "courses": 301,
+    "sections": 604,
+    "sections_by_term": {
+      "2025秋": 271,
+      "2026春": 333
+    },
+    "syllabus_sections": 412,
+    "courses_with_syllabus": 292,
+    "syllabus_failures": 192,
+    "sections_with_capacity": 604,
+    "review_course_mappings": 110,
+    "unique_source_records": 110,
+    "complete_original_records": 82,
+    "courses_with_student_experience": 34,
+    "courses_with_current_teacher_experience": 30,
+    "courses_with_materials": 10,
+    "professional_plans": 27,
+    "public_plan_id": 466
+  }
+}

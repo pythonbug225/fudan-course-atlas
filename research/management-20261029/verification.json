@@ -1,0 +1,42 @@
+{
+  "scope_and_reference_integrity": "passed",
+  "offline_html_images": "passed",
+  "privacy_scan": {
+    "findings": [],
+    "patterns": [
+      "email",
+      "mobile",
+      "wxid",
+      "private_group_id",
+      "auth_field"
+    ]
+  },
+  "filter_tests": "管理学院: code/name/teacher/pinyin, course type/prefix, public+major filters passed",
+  "official_assessment_anomalies": [
+    {
+      "lesson_id": 1001213,
+      "sum": 0.0
+    }
+  ],
+  "coverage": {
+    "department": "管理学院",
+    "courses": 267,
+    "sections": 487,
+    "sections_by_term": {
+      "2025秋": 225,
+      "2026春": 262
+    },
+    "syllabus_sections": 359,
+    "courses_with_syllabus": 263,
+    "syllabus_failures": 127,
+    "sections_with_capacity": 487,
+    "review_course_mappings": 95,
+    "unique_source_records": 95,
+    "complete_original_records": 94,
+    "courses_with_student_experience": 33,
+    "courses_with_current_teacher_experience": 25,
+    "courses_with_materials": 4,
+    "professional_plans": 32,
+    "public_plan_id": 466
+  }
+}

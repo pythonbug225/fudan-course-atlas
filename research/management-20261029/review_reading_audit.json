@@ -1,0 +1,246 @@
+{
+  "generated_at_utc": "2026-10-29T11:52:44+00:00",
+  "scope": {
+    "department_match": "官方索引 row.department.nameZh 必须精确等于 管理学院",
+    "terms": [
+      "2025秋",
+      "2026春"
+    ],
+    "section_counts": {
+      "2025秋": 225,
+      "2026春": 262
+    },
+    "course_counts": {
+      "2025秋": 157,
+      "2026春": 126
+    },
+    "unique_course_codes": 267,
+    "scope_source_hashes": {}
+  },
+  "egg_reviews": {
+    "catalog_candidate_rows": 126,
+    "cache_candidate_hits_with_duplicates": 209,
+    "unique_source_review_ids_in_assignment": 173,
+    "metadata_screened_unique_source_ids": 173,
+    "full_texts_read_mapped": 82,
+    "full_texts_read_unmapped_selected": 14,
+    "full_texts_read_total": 96,
+    "mapped_to_target_course_code": 82,
+    "in_scope_management_source_records_adopted": 76,
+    "cross_department_mapped_records_adopted": 4,
+    "unmapped_course_family_records_adopted": 14,
+    "egg_source_records_adopted_total": 94,
+    "excluded_same_code_other_department_low_information": 2,
+    "initially_unmapped_other_department_historical_groups": 91,
+    "unmapped_course_family_ids_not_full_text_read": 77,
+    "author_restriction_phrases_found": 0,
+    "read_status": "已逐条阅读82条有正文的同码映射候选，纳入其中76条管理学院来源和4条信息量足够的外院同码课程族参考；另从91条未映射历史组中逐条阅读并纳入14条可明确对应同名课程的原评，剩余77条未逐条全文阅读。另两条外院同码短评信息不足而排除。"
+  },
+  "forum": {
+    "candidate_rows_before_deduplication": 954,
+    "unique_candidate_floors": 939,
+    "cached_search_packets": 145,
+    "full_discussions_bundle_candidate_floors": 15,
+    "unique_floors_with_official_teacher_name_hit": 22,
+    "unique_floors_with_explicit_target_term_text": 18,
+    "priority_long_floors": 32,
+    "full_text_priority_floors_manually_read": 14,
+    "adopted_as_management_course_reviews": 0,
+    "external_course_family_paraphrases_adopted": 1,
+    "adopted_floor_ids": [
+      {
+        "hole_id": 680017,
+        "floor_id": 6147174
+      }
+    ],
+    "decision": "该长帖明确是计算与智能创新学院金玲飞2025秋同名平行课程，不是管理学院教学班；依据社区公约仅保留匿名释义和hole/floor编号，不转载长段原话或截图。它与蛋壳#5322内容重叠，综合时不重复加权。其余已读候选多为外院不同课程、交易广告、问课或泛讨论。"
+  },
+  "authorized_group_chats": {
+    "authorized_archives_scanned": 6,
+    "initial_alias_hit_packets": 200,
+    "filtered_strong_alias_context_packets_full_text_read": 73,
+    "selected_anonymized_context_messages": 656,
+    "explicit_target_term_mentions_in_selected_packets": 0,
+    "adopted_as_course_review_sources": 0,
+    "privacy_handling": "公开审计只报聚合数量；不含群名、成员ID、日期、原句或原始消息。",
+    "decision": "没有找到能确认属于管理学院课程/班级的学生评价；一条泛称数理统计、教师和课程归属不明的群聊转述未纳入评价或给分综合。教师拼音/全名和课程别名均用于检索，短首字母仅作候选线索，不单独用于归属。"
+  },
+  "local_cache_inventory": {
+    "cache_directories_found_by_scan": 34,
+    "json_cache_files_scanned": 13148,
+    "parse_errors": 0,
+    "course_alias_variants": 1079,
+    "teacher_alias_variants": 562,
+    "cached_search_hit_count": 145,
+    "no_unofficial_api_requests": true
+  },
+  "public_outputs": {
+    "review_sources": "review_sources.json",
+    "student_syntheses": "student_syntheses.json",
+    "review_source_records": 95,
+    "course_synthesis_records": 267,
+    "courses_with_adopted_sources": 33
+  },
+  "limitations": [
+    "本地缓存具有时间和覆盖范围限制；未找到不等于没有学生评价。",
+    "91条原先无法映射的旧课程组中仅对14条经全文核验且可明确对应同名课程的记录作外院课程族参考；其余77条未逐条全文阅读。六条外院同码评论中四条保留为外院课程族参考、两条因信息量不足排除。",
+    "论坛只对候选索引、长帖和强名称/学期命中做重点阅读；不声称逐字读完939个候选楼层。",
+    "群聊日期没有用来替代学期；无法确认管理学院班级的内容不进入公开课程综合。",
+    "外院平行班、历史同师、历史异师、学期冲突和教师不明的信息均单独标注，不外推为管理学院当期要求。",
+    "树洞讨论只按社区公约做匿名释义并保留hole/floor编号，不公开截图或长段原句。"
+  ],
+  "economics_cross_check": {
+    "economics_source_records_compared": 104,
+    "matching_rule": "课程代码按大小写精确相等、课程全名精确一致、评价教师实名与管理学院2025秋/2026春官方教师名单明确一致；不使用课程别名或首字母归属。",
+    "exact_code_name_current_teacher_matches": [
+      {
+        "record_id": "danxi_review_4459",
+        "course_code": "ECON20003",
+        "course_name": "微观经济学",
+        "teacher": "管锡展",
+        "source_department": "经济学院",
+        "economics_term": "2024/S3",
+        "management_record_id": "danxi_review_4459",
+        "management_term": "2024/S3",
+        "management_source_department": "经济学院",
+        "same_full_text": true,
+        "full_text_chars": 168,
+        "matched_current_management_teachers": [
+          "管锡展"
+        ],
+        "management_term_source_raw": {
+          "year": 2024,
+          "semester": 3
+        },
+        "economics_term_source_raw": {
+          "year": 2024,
+          "semester": 3
+        }
+      },
+      {
+        "record_id": "danxi_review_6574",
+        "course_code": "ECON20003",
+        "course_name": "微观经济学",
+        "teacher": "石襄禺",
+        "source_department": "国际金融学院",
+        "economics_term": "2025/S3",
+        "management_record_id": "danxi_review_6574",
+        "management_term": "2025/S3",
+        "management_source_department": "国际金融学院",
+        "same_full_text": true,
+        "full_text_chars": 70,
+        "matched_current_management_teachers": [
+          "石襄禺"
+        ],
+        "management_term_source_raw": {
+          "year": 2025,
+          "semester": 3
+        },
+        "economics_term_source_raw": {
+          "year": 2025,
+          "semester": 3
+        }
+      }
+    ],
+    "new_management_records_added": 0,
+    "already_present_ids_skipped": [
+      "danxi_review_4459",
+      "danxi_review_6574"
+    ],
+    "affected_courses": [
+      "ECON20003"
+    ],
+    "result": "两条命中原评已在管理学院review_sources中，正文完全相同；学期现保留源平台year/semester标签，未重复加入。"
+  },
+  "official_synthesis_key_case_audit": {
+    "official_scope_course_code_count": 267,
+    "student_syntheses_key_count": 267,
+    "exact_case_match": true,
+    "corrected_h_keys": [
+      "BA10003H",
+      "BA20009H",
+      "ECON30167H",
+      "MSE20003H",
+      "MSE20005H",
+      "STAT20012H",
+      "STAT30021H"
+    ],
+    "official_h_codes": [
+      "BA10003h",
+      "BA20009h",
+      "ECON30167h",
+      "MSE20003h",
+      "MSE20005h",
+      "STAT20012h",
+      "STAT30021h"
+    ],
+    "basis": "原始official_index_504/505的course.code，不采用派生scope的upper()结果"
+  },
+  "official_code_case_final_verification": {
+    "basis": "official_index_504/505原始course.code；派生scope里的upper()不作为大小写依据",
+    "corrected_to": [
+      "MSE20003h",
+      "BA20009h",
+      "STAT30021h",
+      "MSE20005h",
+      "BA10003h",
+      "ECON30167h",
+      "STAT20012h"
+    ],
+    "exact_key_match": true
+  },
+  "term_source_reconciliation": {
+    "egg_source_records": 94,
+    "catalog_review_year_semester": 71,
+    "source_group_year_semester": 23,
+    "missing_raw_year_semester": 0,
+    "term_display_rule": "所有蛋壳term统一写为YYYY/Sn；不将semester整数推断为春、秋或暑。term_source_raw逐条保留原始year/semester。",
+    "author_term_claim_count": 7,
+    "author_term_claims": [
+      {
+        "record_id": "danxi_review_6650",
+        "claim": "2025-2026春季学期",
+        "location": "正文",
+        "platform_term": "2024/S3"
+      },
+      {
+        "record_id": "danxi_review_1653",
+        "claim": "24春",
+        "location": "标题",
+        "platform_term": "2022/S3"
+      },
+      {
+        "record_id": "danxi_review_5571",
+        "claim": "25-26秋",
+        "location": "标题",
+        "platform_term": "2025/S1"
+      },
+      {
+        "record_id": "danxi_review_95",
+        "claim": "2022春季",
+        "location": "标题",
+        "platform_term": "2021/S3"
+      },
+      {
+        "record_id": "danxi_review_6145",
+        "claim": "25-26春",
+        "location": "标题",
+        "platform_term": "2024/S3"
+      },
+      {
+        "record_id": "danxi_review_5594",
+        "claim": "25-26秋",
+        "location": "正文",
+        "platform_term": "2025/S1"
+      },
+      {
+        "record_id": "danxi_review_6139",
+        "claim": "25-26春H",
+        "location": "标题",
+        "platform_term": "2023/S3"
+      }
+    ],
+    "forum_term_claim": "树洞匿名释义记录的2025秋来自原帖作者自述，不是蛋壳平台year/semester。",
+    "other_season_mentions_note": "个别正文提到另一学年或他人课程（如#2557提到22秋），未作为本条评价课程的作者学期自述。"
+  }
+}
