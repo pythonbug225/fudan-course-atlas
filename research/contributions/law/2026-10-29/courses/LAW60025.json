@@ -1,0 +1,233 @@
+{
+  "schema_version": 1,
+  "course": {
+    "code": "LAW60025",
+    "name": "犯罪学",
+    "department": "法学院",
+    "credits": 3,
+    "term": "2025秋",
+    "teachers": [
+      "汪明亮"
+    ],
+    "section_code": "LAW60025.01",
+    "class_type": "ordinary",
+    "course_type_code": null,
+    "program_year": null,
+    "program_names": [],
+    "required_or_elective": null,
+    "terms": [
+      "2025秋"
+    ],
+    "levels": [
+      "研究生"
+    ],
+    "sections": [
+      {
+        "term": "2025秋",
+        "course_code": "LAW60025",
+        "course_name": "犯罪学",
+        "teachers": [
+          "汪明亮"
+        ],
+        "credits": 3,
+        "course_level": "研究生",
+        "section_code": "LAW60025.01",
+        "department": "法学院",
+        "source_url": "https://fdjwgl.fudan.edu.cn/student/for-all/lesson-search/semester/504/search/504?openDepartmentAssocs=2565&queryPage__=1,500"
+      }
+    ]
+  },
+  "aliases": {
+    "course_names": [
+      "犯罪学"
+    ],
+    "teacher_names_or_pinyin": [
+      "汪明亮"
+    ],
+    "ambiguous_matches": [
+      "完整候选检索词见ledgers/search-variants.json；首字母和昵称不是唯一身份。"
+    ]
+  },
+  "progress": {
+    "owner": "Codex + Luna xhigh parallel readers",
+    "reviewer": "Independent agent checks; no human review implied",
+    "status": "partial_external_sources",
+    "queries": [
+      "FORUM-EXACT-00243",
+      "FORUM-EXACT-00567",
+      "FORUM-EXACT-00573",
+      "FORUM-EXACT-00659",
+      "FORUM-EXACT-00660",
+      "FORUM-EXACT-00691",
+      "FORUM-EXACT-00692",
+      "FORUM-EXACT-01395",
+      "DANKE-00243",
+      "DANKE-00567",
+      "DANKE-00573",
+      "DANKE-00659",
+      "DANKE-00660",
+      "DANKE-00691",
+      "DANKE-00692",
+      "DANKE-01395"
+    ],
+    "remaining_scope": [
+      "小红书、知乎、微信公众号登录态站内检索未完成。",
+      "图片未OCR，源班/教师/学期未核的材料仍待对应。"
+    ],
+    "no_student_reviews_found": false
+  },
+  "sources": [
+    {
+      "source_id": "LAW20261029-E0016",
+      "source_type": "danke",
+      "canonical_url": "https://danke.fduhole.com/api/v3/course_groups/2732",
+      "public_author_label": null,
+      "published_at": null,
+      "fetched_at": "2026-10-29",
+      "hole_ids": [],
+      "floor_ids": [],
+      "review_ids": [
+        3460
+      ],
+      "reading_status": "full_review_text_read",
+      "mapping_status": "candidate_unconfirmed_section",
+      "record_type": "历史同师课程参考",
+      "adoption": "reference_only_pending_mapping",
+      "reason": "单条简短赞扬，来源旧课码LAWS130079，当前同名课程层次和班次仍需独立核对。",
+      "duplicate_of": null,
+      "license": null,
+      "fulltext_permission": "fulltext_not_published_summary_only",
+      "attribution_and_changes": "保留原平台链接与洞/楼/评价编号；仅发布经过匿名处理的摘要及归属限制，不发布原文或账号。",
+      "evidence_index": "../summaries/evidence.json",
+      "applicability": "仅关联参考；不表示任何当前教学班已确认适用",
+      "confirmed_section_keys": []
+    },
+    {
+      "source_id": "LAW20261029-E0143",
+      "source_type": "treehole",
+      "canonical_url": "https://forum.fduhole.com/api/floors/4195460",
+      "public_author_label": null,
+      "published_at": null,
+      "fetched_at": "2026-10-29",
+      "hole_ids": [
+        457336
+      ],
+      "floor_ids": [
+        4195460
+      ],
+      "review_ids": [],
+      "reading_status": "full_visible_floor_text_read",
+      "mapping_status": "candidate_unconfirmed_section",
+      "record_type": "target_course_experience_unmatched",
+      "adoption": "reference_only_pending_mapping",
+      "reason": "保留作历史课程体验线索，不匹配当前教师/班次。；课程名与犯罪学目标课相同，但2025-05时间早于本轮目标学期，且未给教师/层次。",
+      "duplicate_of": null,
+      "license": null,
+      "fulltext_permission": "fulltext_not_published_summary_only",
+      "attribution_and_changes": "保留原平台链接与洞/楼/评价编号；仅发布经过匿名处理的摘要及归属限制，不发布原文或账号。",
+      "evidence_index": "../summaries/evidence.json",
+      "applicability": "仅关联参考；不表示任何当前教学班已确认适用",
+      "confirmed_section_keys": []
+    },
+    {
+      "source_id": "LAW20261029-E0204",
+      "source_type": "treehole",
+      "canonical_url": "https://forum.fduhole.com/api/floors/4195460",
+      "public_author_label": null,
+      "published_at": null,
+      "fetched_at": "2026-10-29",
+      "hole_ids": [
+        457336
+      ],
+      "floor_ids": [
+        4195460,
+        4195470
+      ],
+      "review_ids": [],
+      "reading_status": "full_visible_floor_text_read",
+      "mapping_status": "candidate_unconfirmed_section",
+      "record_type": "历史/待核课程参考",
+      "adoption": "reference_only_pending_mapping",
+      "reason": "当前同时有研究生/本研融通同名课，源层次不明；作者询问的论文要求不能改写成已核实的作业要求。",
+      "duplicate_of": null,
+      "license": null,
+      "fulltext_permission": "fulltext_not_published_summary_only",
+      "attribution_and_changes": "保留原平台链接与洞/楼/评价编号；仅发布经过匿名处理的摘要及归属限制，不发布原文或账号。",
+      "evidence_index": "../summaries/evidence.json",
+      "applicability": "仅关联参考；不表示任何当前教学班已确认适用",
+      "confirmed_section_keys": []
+    }
+  ],
+  "syllabus": {
+    "source_ids": [],
+    "content": "本批未采集班级大纲；官方开课范围见sections。",
+    "prerequisites": "",
+    "assessment": ""
+  },
+  "materials": [
+    {
+      "type": "official_timetable",
+      "path": "../official/timetable.csv"
+    },
+    {
+      "type": "official_program_index",
+      "path": "../official/programs.json"
+    },
+    {
+      "type": "offline_report_and_originals",
+      "url": "https://github.com/pythonbug225/fudan-course-atlas/releases/download/law-research-20261029/law-research-20261029.zip"
+    }
+  ],
+  "student_reviews_and_discussions": [
+    {
+      "source_id": "LAW20261029-E0016",
+      "summary": "一条称内容贴近现实、讲课有趣。",
+      "period": "正文未单独明确修读期；API原始班字段：year=2024,semester=3",
+      "teacher_as_source": "汪明亮",
+      "scope_note": "单条简短赞扬，来源旧课码LAWS130079，当前同名课程层次和班次仍需独立核对。",
+      "applicability": "仅关联参考；不表示任何当前教学班已确认适用",
+      "mapping_status": "candidate_unconfirmed_section"
+    },
+    {
+      "source_id": "LAW20261029-E0143",
+      "summary": "发文者称选了犯罪学且觉得授课有意思；同时询问论文投稿要求，并担心缺乏法律基础。",
+      "period": "发帖时间：05/15/2025 14:03:27；修读学期未核。",
+      "teacher_as_source": "",
+      "scope_note": "保留作历史课程体验线索，不匹配当前教师/班次。；课程名与犯罪学目标课相同，但2025-05时间早于本轮目标学期，且未给教师/层次。",
+      "applicability": "仅关联参考；不表示任何当前教学班已确认适用",
+      "mapping_status": "candidate_unconfirmed_section"
+    },
+    {
+      "source_id": "LAW20261029-E0204",
+      "summary": "非法学专业发帖者称已选课、授课有意思，但担心论文投稿要求与自己缺乏法律基础；同洞未解答是否人人必写或评分。",
+      "period": "2025年5月历史经历",
+      "teacher_as_source": "wml（候选汪明亮）",
+      "scope_note": "当前同时有研究生/本研融通同名课，源层次不明；作者询问的论文要求不能改写成已核实的作业要求。",
+      "applicability": "仅关联参考；不表示任何当前教学班已确认适用",
+      "mapping_status": "candidate_unconfirmed_section"
+    }
+  ],
+  "quantitative_observations": [],
+  "comparison_and_summary": {
+    "teaching_and_learning": "",
+    "workload": "",
+    "assessment": "",
+    "grading_and_risk": "",
+    "teacher_and_term_differences": "相关材料仅作为来源检索与历史参考；同名不确认层次、教师、学期或班型。每条限制见中央证据索引。",
+    "who_it_suits": "",
+    "source_ids": [
+      "LAW20261029-E0016",
+      "LAW20261029-E0143",
+      "LAW20261029-E0204"
+    ]
+  },
+  "batch_id": "law-20261029",
+  "batch_scope": {
+    "curriculum_cohort": 2026,
+    "teaching_terms": [
+      "2025秋",
+      "2026春"
+    ],
+    "program_mapping_status": "not_inferred_for_individual_course"
+  }
+}

@@ -1,0 +1,212 @@
+{
+  "schema_version": 1,
+  "course": {
+    "code": "LAW20008",
+    "name": "商法",
+    "department": "法学院",
+    "credits": 2,
+    "term": "2026春",
+    "teachers": [
+      "李世刚",
+      "李小宁"
+    ],
+    "section_code": "LAW20008.01",
+    "class_type": "ordinary",
+    "course_type_code": null,
+    "program_year": null,
+    "program_names": [],
+    "required_or_elective": null,
+    "terms": [
+      "2026春"
+    ],
+    "levels": [
+      "本科"
+    ],
+    "sections": [
+      {
+        "term": "2026春",
+        "course_code": "LAW20008",
+        "course_name": "商法",
+        "teachers": [
+          "李世刚",
+          "李小宁"
+        ],
+        "credits": 2,
+        "course_level": "本科",
+        "section_code": "LAW20008.01",
+        "department": "法学院",
+        "source_url": "https://fdjwgl.fudan.edu.cn/student/for-all/lesson-search/semester/505/search/505?openDepartmentAssocs=2565&queryPage__=1,500"
+      }
+    ]
+  },
+  "aliases": {
+    "course_names": [
+      "商法"
+    ],
+    "teacher_names_or_pinyin": [
+      "李世刚",
+      "李小宁"
+    ],
+    "ambiguous_matches": [
+      "完整候选检索词见ledgers/search-variants.json；首字母和昵称不是唯一身份。"
+    ]
+  },
+  "progress": {
+    "owner": "Codex + Luna xhigh parallel readers",
+    "reviewer": "Independent agent checks; no human review implied",
+    "status": "partial_external_sources",
+    "queries": [
+      "FORUM-EXACT-00134",
+      "FORUM-EXACT-00135",
+      "FORUM-EXACT-00223",
+      "FORUM-EXACT-00224",
+      "FORUM-EXACT-00225",
+      "FORUM-EXACT-00444",
+      "FORUM-EXACT-00487",
+      "FORUM-EXACT-00494",
+      "FORUM-EXACT-00499",
+      "FORUM-EXACT-00504",
+      "FORUM-EXACT-00543",
+      "FORUM-EXACT-00546",
+      "DANKE-00134",
+      "DANKE-00135",
+      "DANKE-00223",
+      "DANKE-00224",
+      "DANKE-00225",
+      "DANKE-00444",
+      "DANKE-00487",
+      "DANKE-00494",
+      "DANKE-00499",
+      "DANKE-00504",
+      "DANKE-00543",
+      "DANKE-00546"
+    ],
+    "remaining_scope": [
+      "小红书、知乎、微信公众号登录态站内检索未完成。",
+      "图片未OCR，源班/教师/学期未核的材料仍待对应。"
+    ],
+    "no_student_reviews_found": false
+  },
+  "sources": [
+    {
+      "source_id": "LAW20261029-E0103",
+      "source_type": "treehole",
+      "canonical_url": "https://forum.fduhole.com/api/floors/2216654",
+      "public_author_label": null,
+      "published_at": null,
+      "fetched_at": "2026-10-29",
+      "hole_ids": [
+        236427
+      ],
+      "floor_ids": [
+        2216654
+      ],
+      "review_ids": [],
+      "reading_status": "full_visible_floor_text_read",
+      "mapping_status": "candidate_unconfirmed_section",
+      "record_type": "firsthand_course_administration",
+      "adoption": "reference_only_pending_mapping",
+      "reason": "无教师与班次匹配。；保留为历史课程管理事件线索；不转述任何学生身份或分数，也不归因于特定教师。",
+      "duplicate_of": null,
+      "license": null,
+      "fulltext_permission": "fulltext_not_published_summary_only",
+      "attribution_and_changes": "保留原平台链接与洞/楼/评价编号；仅发布经过匿名处理的摘要及归属限制，不发布原文或账号。",
+      "evidence_index": "../summaries/evidence.json",
+      "applicability": "仅关联参考；不表示任何当前教学班已确认适用",
+      "confirmed_section_keys": []
+    },
+    {
+      "source_id": "LAW20261029-E0208",
+      "source_type": "treehole",
+      "canonical_url": "https://forum.fduhole.com/api/floors/4377842",
+      "public_author_label": null,
+      "published_at": null,
+      "fetched_at": "2026-10-29",
+      "hole_ids": [
+        478654
+      ],
+      "floor_ids": [
+        4377842,
+        4378074,
+        4378097,
+        4378766,
+        4378818
+      ],
+      "review_ids": [],
+      "reading_status": "full_visible_floor_text_read",
+      "mapping_status": "candidate_unconfirmed_section",
+      "record_type": "历史/待核课程参考",
+      "adoption": "reference_only_pending_mapping",
+      "reason": "#4378818提物权法只是让与担保的记忆来源，复习经验应归商法；本科/研究生及教师均未定。",
+      "duplicate_of": null,
+      "license": null,
+      "fulltext_permission": "fulltext_not_published_summary_only",
+      "attribution_and_changes": "保留原平台链接与洞/楼/评价编号；仅发布经过匿名处理的摘要及归属限制，不发布原文或账号。",
+      "evidence_index": "../summaries/evidence.json",
+      "applicability": "仅关联参考；不表示任何当前教学班已确认适用",
+      "confirmed_section_keys": []
+    }
+  ],
+  "syllabus": {
+    "source_ids": [],
+    "content": "本批未采集班级大纲；官方开课范围见sections。",
+    "prerequisites": "",
+    "assessment": ""
+  },
+  "materials": [
+    {
+      "type": "official_timetable",
+      "path": "../official/timetable.csv"
+    },
+    {
+      "type": "official_program_index",
+      "path": "../official/programs.json"
+    },
+    {
+      "type": "offline_report_and_originals",
+      "url": "https://github.com/pythonbug225/fudan-course-atlas/releases/download/law-research-20261029/law-research-20261029.zip"
+    }
+  ],
+  "student_reviews_and_discussions": [
+    {
+      "source_id": "LAW20261029-E0103",
+      "summary": "报告期中成绩表曾在大班群里展示全班姓名、学号和分数后撤回；呈现考核管理/隐私顾虑。",
+      "period": "发帖时间：04/22/2023 17:16:09；修读学期未核，除非正文明确说明。",
+      "teacher_as_source": "未提及",
+      "scope_note": "无教师与班次匹配。；保留为历史课程管理事件线索；不转述任何学生身份或分数，也不归因于特定教师。",
+      "applicability": "仅关联参考；不表示任何当前教学班已确认适用",
+      "mapping_status": "candidate_unconfirmed_section"
+    },
+    {
+      "source_id": "LAW20261029-E0208",
+      "summary": "商法报分帖中有B+与A自报；一位认为开卷考试需提前熟悉课件，才能快速定位。",
+      "period": "2025年6月历史报分",
+      "teacher_as_source": "未具名",
+      "scope_note": "#4378818提物权法只是让与担保的记忆来源，复习经验应归商法；本科/研究生及教师均未定。",
+      "applicability": "仅关联参考；不表示任何当前教学班已确认适用",
+      "mapping_status": "candidate_unconfirmed_section"
+    }
+  ],
+  "quantitative_observations": [],
+  "comparison_and_summary": {
+    "teaching_and_learning": "",
+    "workload": "",
+    "assessment": "",
+    "grading_and_risk": "",
+    "teacher_and_term_differences": "相关材料仅作为来源检索与历史参考；同名不确认层次、教师、学期或班型。每条限制见中央证据索引。",
+    "who_it_suits": "",
+    "source_ids": [
+      "LAW20261029-E0103",
+      "LAW20261029-E0208"
+    ]
+  },
+  "batch_id": "law-20261029",
+  "batch_scope": {
+    "curriculum_cohort": 2026,
+    "teaching_terms": [
+      "2025秋",
+      "2026春"
+    ],
+    "program_mapping_status": "not_inferred_for_individual_course"
+  }
+}

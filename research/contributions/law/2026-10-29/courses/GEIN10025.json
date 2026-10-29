@@ -1,0 +1,385 @@
+{
+  "schema_version": 1,
+  "course": {
+    "code": "GEIN10025",
+    "name": "思辨与创新",
+    "department": "法学院",
+    "credits": 1,
+    "term": "2026春",
+    "teachers": [
+      "熊浩"
+    ],
+    "section_code": "GEIN10025.01",
+    "class_type": "ordinary",
+    "course_type_code": null,
+    "program_year": null,
+    "program_names": [],
+    "required_or_elective": null,
+    "terms": [
+      "2026春"
+    ],
+    "levels": [
+      "本科"
+    ],
+    "sections": [
+      {
+        "term": "2026春",
+        "course_code": "GEIN10025",
+        "course_name": "思辨与创新",
+        "teachers": [
+          "熊浩"
+        ],
+        "credits": 1,
+        "course_level": "本科",
+        "section_code": "GEIN10025.01",
+        "department": "法学院",
+        "source_url": "https://fdjwgl.fudan.edu.cn/student/for-all/lesson-search/semester/505/search/505?openDepartmentAssocs=2565&queryPage__=1,500"
+      }
+    ]
+  },
+  "aliases": {
+    "course_names": [
+      "思辨与创新"
+    ],
+    "teacher_names_or_pinyin": [
+      "熊浩"
+    ],
+    "ambiguous_matches": [
+      "完整候选检索词见ledgers/search-variants.json；首字母和昵称不是唯一身份。"
+    ]
+  },
+  "progress": {
+    "owner": "Codex + Luna xhigh parallel readers",
+    "reviewer": "Independent agent checks; no human review implied",
+    "status": "partial_external_sources",
+    "queries": [
+      "FORUM-EXACT-00235",
+      "FORUM-EXACT-00236",
+      "FORUM-EXACT-00271",
+      "FORUM-EXACT-00373",
+      "FORUM-EXACT-00540",
+      "FORUM-EXACT-00555",
+      "FORUM-EXACT-00581",
+      "FORUM-EXACT-00593",
+      "DANKE-00235",
+      "DANKE-00236",
+      "DANKE-00271",
+      "DANKE-00373",
+      "DANKE-00540",
+      "DANKE-00555",
+      "DANKE-00581",
+      "DANKE-00593"
+    ],
+    "remaining_scope": [
+      "小红书、知乎、微信公众号登录态站内检索未完成。",
+      "图片未OCR，源班/教师/学期未核的材料仍待对应。"
+    ],
+    "no_student_reviews_found": false
+  },
+  "sources": [
+    {
+      "source_id": "LAW20261029-E0013",
+      "source_type": "danke",
+      "canonical_url": "https://danke.fduhole.com/api/v3/course_groups/2709",
+      "public_author_label": null,
+      "published_at": null,
+      "fetched_at": "2026-10-29",
+      "hole_ids": [],
+      "floor_ids": [],
+      "review_ids": [
+        1060,
+        3658,
+        3673
+      ],
+      "reading_status": "full_review_text_read",
+      "mapping_status": "candidate_unconfirmed_section",
+      "record_type": "历史同师课程参考",
+      "adoption": "reference_only_pending_mapping",
+      "reason": "2022/S3与2024/S3历史条目，不能保证2026春形式相同。",
+      "duplicate_of": null,
+      "license": null,
+      "fulltext_permission": "fulltext_not_published_summary_only",
+      "attribution_and_changes": "保留原平台链接与洞/楼/评价编号；仅发布经过匿名处理的摘要及归属限制，不发布原文或账号。",
+      "evidence_index": "../summaries/evidence.json",
+      "applicability": "仅关联参考；不表示任何当前教学班已确认适用",
+      "confirmed_section_keys": []
+    },
+    {
+      "source_id": "LAW20261029-E0029",
+      "source_type": "treehole",
+      "canonical_url": "https://forum.fduhole.com/api/floors/4194530",
+      "public_author_label": null,
+      "published_at": null,
+      "fetched_at": "2026-10-29",
+      "hole_ids": [
+        456714
+      ],
+      "floor_ids": [
+        4194530
+      ],
+      "review_ids": [],
+      "reading_status": "full_visible_floor_text_read",
+      "mapping_status": "candidate_unconfirmed_section",
+      "record_type": "历史考核线索",
+      "adoption": "reference_only_pending_mapping",
+      "reason": "2025年单条回帖，未给篇幅或权重，需要查看提问上下文。",
+      "duplicate_of": null,
+      "license": null,
+      "fulltext_permission": "fulltext_not_published_summary_only",
+      "attribution_and_changes": "保留原平台链接与洞/楼/评价编号；仅发布经过匿名处理的摘要及归属限制，不发布原文或账号。",
+      "evidence_index": "../summaries/evidence.json",
+      "applicability": "仅关联参考；不表示任何当前教学班已确认适用",
+      "confirmed_section_keys": []
+    },
+    {
+      "source_id": "LAW20261029-E0041",
+      "source_type": "treehole",
+      "canonical_url": "https://forum.fduhole.com/api/floors/1681520",
+      "public_author_label": null,
+      "published_at": null,
+      "fetched_at": "2026-10-29",
+      "hole_ids": [
+        181957
+      ],
+      "floor_ids": [
+        1681520,
+        1681412
+      ],
+      "review_ids": [],
+      "reading_status": "full_visible_floor_text_read",
+      "mapping_status": "candidate_unconfirmed_section",
+      "record_type": "课程视频资源与学习建议",
+      "adoption": "reference_only_pending_mapping",
+      "reason": "资源推荐并非现场课堂修读评价，不推断当前授课形式。",
+      "duplicate_of": null,
+      "license": null,
+      "fulltext_permission": "fulltext_not_published_summary_only",
+      "attribution_and_changes": "保留原平台链接与洞/楼/评价编号；仅发布经过匿名处理的摘要及归属限制，不发布原文或账号。",
+      "evidence_index": "../summaries/evidence.json",
+      "applicability": "仅关联参考；不表示任何当前教学班已确认适用",
+      "confirmed_section_keys": []
+    },
+    {
+      "source_id": "LAW20261029-E0110",
+      "source_type": "treehole",
+      "canonical_url": "https://forum.fduhole.com/api/floors/2568265",
+      "public_author_label": null,
+      "published_at": null,
+      "fetched_at": "2026-10-29",
+      "hole_ids": [
+        275103
+      ],
+      "floor_ids": [
+        2568265
+      ],
+      "review_ids": [],
+      "reading_status": "full_visible_floor_text_read",
+      "mapping_status": "candidate_unconfirmed_section",
+      "record_type": "firsthand_experience_weak",
+      "adoption": "reference_only_pending_mapping",
+      "reason": "未匹配当前熊浩班。；保留为模糊的课程长度反馈，不当作完整课程评价。",
+      "duplicate_of": null,
+      "license": null,
+      "fulltext_permission": "fulltext_not_published_summary_only",
+      "attribution_and_changes": "保留原平台链接与洞/楼/评价编号；仅发布经过匿名处理的摘要及归属限制，不发布原文或账号。",
+      "evidence_index": "../summaries/evidence.json",
+      "applicability": "仅关联参考；不表示任何当前教学班已确认适用",
+      "confirmed_section_keys": []
+    },
+    {
+      "source_id": "LAW20261029-E0114",
+      "source_type": "treehole",
+      "canonical_url": "https://forum.fduhole.com/api/floors/2768335",
+      "public_author_label": null,
+      "published_at": null,
+      "fetched_at": "2026-10-29",
+      "hole_ids": [
+        296854
+      ],
+      "floor_ids": [
+        2768335
+      ],
+      "review_ids": [],
+      "reading_status": "full_visible_floor_text_read",
+      "mapping_status": "candidate_unconfirmed_section",
+      "record_type": "firsthand_experience_weak",
+      "adoption": "reference_only_pending_mapping",
+      "reason": "未匹配教师。；历史课程层体验但教师不明；不套用2026春熊浩班。",
+      "duplicate_of": null,
+      "license": null,
+      "fulltext_permission": "fulltext_not_published_summary_only",
+      "attribution_and_changes": "保留原平台链接与洞/楼/评价编号；仅发布经过匿名处理的摘要及归属限制，不发布原文或账号。",
+      "evidence_index": "../summaries/evidence.json",
+      "applicability": "仅关联参考；不表示任何当前教学班已确认适用",
+      "confirmed_section_keys": []
+    },
+    {
+      "source_id": "LAW20261029-E0156",
+      "source_type": "treehole",
+      "canonical_url": "https://forum.fduhole.com/api/floors/1844159",
+      "public_author_label": null,
+      "published_at": null,
+      "fetched_at": "2026-10-29",
+      "hole_ids": [
+        190519,
+        204537
+      ],
+      "floor_ids": [
+        1844159,
+        1908462
+      ],
+      "review_ids": [],
+      "reading_status": "full_visible_floor_text_read",
+      "mapping_status": "candidate_unconfirmed_section",
+      "record_type": "历史同课同师参考",
+      "adoption": "reference_only_pending_mapping",
+      "reason": "当前目录2026春GEIN10025熊浩班；历史教学方式和考核比例未确认仍适用。",
+      "duplicate_of": null,
+      "license": null,
+      "fulltext_permission": "fulltext_not_published_summary_only",
+      "attribution_and_changes": "保留原平台链接与洞/楼/评价编号；仅发布经过匿名处理的摘要及归属限制，不发布原文或账号。",
+      "evidence_index": "../summaries/evidence.json",
+      "applicability": "仅关联参考；不表示任何当前教学班已确认适用",
+      "confirmed_section_keys": []
+    },
+    {
+      "source_id": "LAW20261029-E0157",
+      "source_type": "treehole",
+      "canonical_url": "https://forum.fduhole.com/api/floors/4194530",
+      "public_author_label": null,
+      "published_at": null,
+      "fetched_at": "2026-10-29",
+      "hole_ids": [
+        456714
+      ],
+      "floor_ids": [
+        4194530
+      ],
+      "review_ids": [],
+      "reading_status": "full_visible_floor_text_read",
+      "mapping_status": "candidate_unconfirmed_section",
+      "record_type": "推荐，不是修读评价",
+      "adoption": "reference_only_pending_mapping",
+      "reason": "当前目录2026春GEIN10025熊浩班，但建议未确认对应同一教学班。",
+      "duplicate_of": null,
+      "license": null,
+      "fulltext_permission": "fulltext_not_published_summary_only",
+      "attribution_and_changes": "保留原平台链接与洞/楼/评价编号；仅发布经过匿名处理的摘要及归属限制，不发布原文或账号。",
+      "evidence_index": "../summaries/evidence.json",
+      "applicability": "仅关联参考；不表示任何当前教学班已确认适用",
+      "confirmed_section_keys": []
+    }
+  ],
+  "syllabus": {
+    "source_ids": [],
+    "content": "本批未采集班级大纲；官方开课范围见sections。",
+    "prerequisites": "",
+    "assessment": ""
+  },
+  "materials": [
+    {
+      "type": "official_timetable",
+      "path": "../official/timetable.csv"
+    },
+    {
+      "type": "official_program_index",
+      "path": "../official/programs.json"
+    },
+    {
+      "type": "offline_report_and_originals",
+      "url": "https://github.com/pythonbug225/fudan-course-atlas/releases/download/law-research-20261029/law-research-20261029.zip"
+    }
+  ],
+  "student_reviews_and_discussions": [
+    {
+      "source_id": "LAW20261029-E0013",
+      "summary": "三条均认为有启发，有作者不完全同意观点但认可视角。 历史线下课较少，任务量不大；创新展示可选的描述来自单条。 期末论文重在自洽观点与选题；有作者提到字数限制。 一位自报A，另一位未报具体分数；不能据此否定其他来源的成绩风险。",
+      "period": "正文未单独明确修读期；API原始班字段：year=2022,semester=3 / year=2024,semester=3",
+      "teacher_as_source": "熊浩",
+      "scope_note": "2022/S3与2024/S3历史条目，不能保证2026春形式相同。",
+      "applicability": "仅关联参考；不表示任何当前教学班已确认适用",
+      "mapping_status": "candidate_unconfirmed_section"
+    },
+    {
+      "source_id": "LAW20261029-E0029",
+      "summary": "回帖称思辨与创新需要提交一篇小论文。",
+      "period": "2025-05-15T11:29:24.849+08:00",
+      "teacher_as_source": "熊浩",
+      "scope_note": "2025年单条回帖，未给篇幅或权重，需要查看提问上下文。",
+      "applicability": "仅关联参考；不表示任何当前教学班已确认适用",
+      "mapping_status": "candidate_unconfirmed_section"
+    },
+    {
+      "source_id": "LAW20261029-E0041",
+      "summary": "同洞提到思辨与创新的视频资源，并建议通过师生反馈改进学习。",
+      "period": "2022-12-27T12:05:00.765+08:00；2022-12-27T11:46:53.258+08:00",
+      "teacher_as_source": "熊浩",
+      "scope_note": "资源推荐并非现场课堂修读评价，不推断当前授课形式。",
+      "applicability": "仅关联参考；不表示任何当前教学班已确认适用",
+      "mapping_status": "candidate_unconfirmed_section"
+    },
+    {
+      "source_id": "LAW20261029-E0110",
+      "summary": "简短抱怨课程似乎未到期中便结束；未交代学期或教师。",
+      "period": "发帖时间：07/01/2023 20:07:03；修读学期未核，除非正文明确说明。",
+      "teacher_as_source": "未提及",
+      "scope_note": "未匹配当前熊浩班。；保留为模糊的课程长度反馈，不当作完整课程评价。",
+      "applicability": "仅关联参考；不表示任何当前教学班已确认适用",
+      "mapping_status": "candidate_unconfirmed_section"
+    },
+    {
+      "source_id": "LAW20261029-E0114",
+      "summary": "称在江湾上课次数少、任务不多，期末论文认真完成则成绩不错。",
+      "period": "发帖时间：09/06/2023 09:59:09；修读学期未核，除非正文明确说明。",
+      "teacher_as_source": "未提及",
+      "scope_note": "未匹配教师。；历史课程层体验但教师不明；不套用2026春熊浩班。",
+      "applicability": "仅关联参考；不表示任何当前教学班已确认适用",
+      "mapping_status": "candidate_unconfirmed_section"
+    },
+    {
+      "source_id": "LAW20261029-E0156",
+      "summary": "自述修过并认为课程有启发，期末可在批判论证与研究计划中二选一，另有一次自愿报名表演。较早短评也称课不错；不把短评重复计成独立样本。",
+      "period": "2023年历史班；具体学期未明",
+      "teacher_as_source": "熊浩（根帖/同洞上下文）",
+      "scope_note": "当前目录2026春GEIN10025熊浩班；历史教学方式和考核比例未确认仍适用。",
+      "applicability": "仅关联参考；不表示任何当前教学班已确认适用",
+      "mapping_status": "candidate_unconfirmed_section"
+    },
+    {
+      "source_id": "LAW20261029-E0157",
+      "summary": "2025年春的选课回复推荐熊浩思辨与创新，称只需交一篇小论文；未明确自修或成绩。",
+      "period": "2025-05选课建议",
+      "teacher_as_source": "熊浩（上下文关联）",
+      "scope_note": "当前目录2026春GEIN10025熊浩班，但建议未确认对应同一教学班。",
+      "applicability": "仅关联参考；不表示任何当前教学班已确认适用",
+      "mapping_status": "candidate_unconfirmed_section"
+    }
+  ],
+  "quantitative_observations": [],
+  "comparison_and_summary": {
+    "teaching_and_learning": "",
+    "workload": "",
+    "assessment": "",
+    "grading_and_risk": "",
+    "teacher_and_term_differences": "相关材料仅作为来源检索与历史参考；同名不确认层次、教师、学期或班型。每条限制见中央证据索引。",
+    "who_it_suits": "",
+    "source_ids": [
+      "LAW20261029-E0013",
+      "LAW20261029-E0029",
+      "LAW20261029-E0041",
+      "LAW20261029-E0110",
+      "LAW20261029-E0114",
+      "LAW20261029-E0156",
+      "LAW20261029-E0157"
+    ]
+  },
+  "batch_id": "law-20261029",
+  "batch_scope": {
+    "curriculum_cohort": 2026,
+    "teaching_terms": [
+      "2025秋",
+      "2026春"
+    ],
+    "program_mapping_status": "not_inferred_for_individual_course"
+  }
+}

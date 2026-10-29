@@ -1,0 +1,120 @@
+{
+  "schema_version": 1,
+  "course": {
+    "code": "LAW70060",
+    "name": "白领犯罪与中国刑事法",
+    "department": "法学院",
+    "credits": 2,
+    "term": "2026春",
+    "teachers": [
+      "朱丹"
+    ],
+    "section_code": "LAW70060.01",
+    "class_type": "ordinary",
+    "course_type_code": null,
+    "program_year": null,
+    "program_names": [],
+    "required_or_elective": null,
+    "terms": [
+      "2026春"
+    ],
+    "levels": [
+      "研究生"
+    ],
+    "sections": [
+      {
+        "term": "2026春",
+        "course_code": "LAW70060",
+        "course_name": "白领犯罪与中国刑事法",
+        "teachers": [
+          "朱丹"
+        ],
+        "credits": 2,
+        "course_level": "研究生",
+        "section_code": "LAW70060.01",
+        "department": "法学院",
+        "source_url": "https://fdjwgl.fudan.edu.cn/student/for-all/lesson-search/semester/505/search/505?openDepartmentAssocs=2565&queryPage__=1,500"
+      }
+    ]
+  },
+  "aliases": {
+    "course_names": [
+      "白领犯罪与中国刑事法"
+    ],
+    "teacher_names_or_pinyin": [
+      "朱丹"
+    ],
+    "ambiguous_matches": [
+      "完整候选检索词见ledgers/search-variants.json；首字母和昵称不是唯一身份。"
+    ]
+  },
+  "progress": {
+    "owner": "Codex + Luna xhigh parallel readers",
+    "reviewer": "Independent agent checks; no human review implied",
+    "status": "partial_external_sources",
+    "queries": [
+      "FORUM-EXACT-00303",
+      "FORUM-EXACT-00622",
+      "FORUM-EXACT-00640",
+      "FORUM-EXACT-00736",
+      "FORUM-EXACT-00737",
+      "FORUM-EXACT-01179",
+      "FORUM-EXACT-01190",
+      "FORUM-EXACT-01490",
+      "DANKE-00303",
+      "DANKE-00622",
+      "DANKE-00640",
+      "DANKE-00736",
+      "DANKE-00737",
+      "DANKE-01179",
+      "DANKE-01190",
+      "DANKE-01490"
+    ],
+    "remaining_scope": [
+      "小红书、知乎、微信公众号登录态站内检索未完成。",
+      "图片未OCR，源班/教师/学期未核的材料仍待对应。"
+    ],
+    "no_student_reviews_found": false
+  },
+  "sources": [],
+  "syllabus": {
+    "source_ids": [],
+    "content": "本批未采集班级大纲；官方开课范围见sections。",
+    "prerequisites": "",
+    "assessment": ""
+  },
+  "materials": [
+    {
+      "type": "official_timetable",
+      "path": "../official/timetable.csv"
+    },
+    {
+      "type": "official_program_index",
+      "path": "../official/programs.json"
+    },
+    {
+      "type": "offline_report_and_originals",
+      "url": "https://github.com/pythonbug225/fudan-course-atlas/releases/download/law-research-20261029/law-research-20261029.zip"
+    }
+  ],
+  "student_reviews_and_discussions": [],
+  "quantitative_observations": [],
+  "comparison_and_summary": {
+    "teaching_and_learning": "",
+    "workload": "",
+    "assessment": "",
+    "grading_and_risk": "",
+    "teacher_and_term_differences": "本次已读材料尚未形成该班结论；不等于平台上不存在评价。",
+    "who_it_suits": "",
+    "source_ids": []
+  },
+  "batch_id": "law-20261029",
+  "batch_scope": {
+    "curriculum_cohort": 2026,
+    "teaching_terms": [
+      "2025秋",
+      "2026春"
+    ],
+    "program_mapping_status": "not_inferred_for_individual_course"
+  }
+}

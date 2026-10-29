@@ -1,0 +1,159 @@
+{
+  "schema_version": 1,
+  "course": {
+    "code": "LAW50017",
+    "name": "比较法",
+    "department": "法学院",
+    "credits": 2,
+    "term": "2026春",
+    "teachers": [
+      "赵立行"
+    ],
+    "section_code": "LAW50017.01",
+    "class_type": "ordinary",
+    "course_type_code": null,
+    "program_year": null,
+    "program_names": [],
+    "required_or_elective": null,
+    "terms": [
+      "2026春"
+    ],
+    "levels": [
+      "本研融通"
+    ],
+    "sections": [
+      {
+        "term": "2026春",
+        "course_code": "LAW50017",
+        "course_name": "比较法",
+        "teachers": [
+          "赵立行"
+        ],
+        "credits": 2,
+        "course_level": "本研融通",
+        "section_code": "LAW50017.01",
+        "department": "法学院",
+        "source_url": "https://fdjwgl.fudan.edu.cn/student/for-all/lesson-search/semester/505/search/505?openDepartmentAssocs=2565&queryPage__=1,500"
+      }
+    ]
+  },
+  "aliases": {
+    "course_names": [
+      "比较法"
+    ],
+    "teacher_names_or_pinyin": [
+      "赵立行"
+    ],
+    "ambiguous_matches": [
+      "完整候选检索词见ledgers/search-variants.json；首字母和昵称不是唯一身份。"
+    ]
+  },
+  "progress": {
+    "owner": "Codex + Luna xhigh parallel readers",
+    "reviewer": "Independent agent checks; no human review implied",
+    "status": "partial_external_sources",
+    "queries": [
+      "FORUM-EXACT-00289",
+      "FORUM-EXACT-00630",
+      "FORUM-EXACT-00645",
+      "FORUM-EXACT-00657",
+      "FORUM-EXACT-00658",
+      "FORUM-EXACT-00689",
+      "FORUM-EXACT-00690",
+      "FORUM-EXACT-00715",
+      "DANKE-00289",
+      "DANKE-00630",
+      "DANKE-00645",
+      "DANKE-00657",
+      "DANKE-00658",
+      "DANKE-00689",
+      "DANKE-00690",
+      "DANKE-00715"
+    ],
+    "remaining_scope": [
+      "小红书、知乎、微信公众号登录态站内检索未完成。",
+      "图片未OCR，源班/教师/学期未核的材料仍待对应。"
+    ],
+    "no_student_reviews_found": false
+  },
+  "sources": [
+    {
+      "source_id": "LAW20261029-E0017",
+      "source_type": "danke",
+      "canonical_url": "https://danke.fduhole.com/api/v3/course_groups/3772",
+      "public_author_label": null,
+      "published_at": null,
+      "fetched_at": "2026-10-29",
+      "hole_ids": [],
+      "floor_ids": [],
+      "review_ids": [
+        2957,
+        3162
+      ],
+      "reading_status": "full_review_text_read",
+      "mapping_status": "candidate_unconfirmed_section",
+      "record_type": "同名历史课程，层次待核",
+      "adoption": "reference_only_pending_mapping",
+      "reason": "历史旧LAWS130074同名课程不能未经核对直接套用当前研究生同名课；投入为个人自报。",
+      "duplicate_of": null,
+      "license": null,
+      "fulltext_permission": "fulltext_not_published_summary_only",
+      "attribution_and_changes": "保留原平台链接与洞/楼/评价编号；仅发布经过匿名处理的摘要及归属限制，不发布原文或账号。",
+      "evidence_index": "../summaries/evidence.json",
+      "applicability": "仅关联参考；不表示任何当前教学班已确认适用",
+      "confirmed_section_keys": []
+    }
+  ],
+  "syllabus": {
+    "source_ids": [],
+    "content": "本批未采集班级大纲；官方开课范围见sections。",
+    "prerequisites": "",
+    "assessment": ""
+  },
+  "materials": [
+    {
+      "type": "official_timetable",
+      "path": "../official/timetable.csv"
+    },
+    {
+      "type": "official_program_index",
+      "path": "../official/programs.json"
+    },
+    {
+      "type": "offline_report_and_originals",
+      "url": "https://github.com/pythonbug225/fudan-course-atlas/releases/download/law-research-20261029/law-research-20261029.zip"
+    }
+  ],
+  "student_reviews_and_discussions": [
+    {
+      "source_id": "LAW20261029-E0017",
+      "summary": "一条觉得内容难懂，另一条认为接近学硕研讨、需要预读。 一条描述全英文阅读，个人每周10小时以上，并有论文多轮提交修改。 历史论文考核与多轮反馈机会。 两条称评分严格；低分说法是个人反馈，不是分布。",
+      "period": "正文未单独明确修读期；API原始班字段：year=2024,semester=1",
+      "teacher_as_source": "王志强",
+      "scope_note": "历史旧LAWS130074同名课程不能未经核对直接套用当前研究生同名课；投入为个人自报。",
+      "applicability": "仅关联参考；不表示任何当前教学班已确认适用",
+      "mapping_status": "candidate_unconfirmed_section"
+    }
+  ],
+  "quantitative_observations": [],
+  "comparison_and_summary": {
+    "teaching_and_learning": "",
+    "workload": "",
+    "assessment": "",
+    "grading_and_risk": "",
+    "teacher_and_term_differences": "相关材料仅作为来源检索与历史参考；同名不确认层次、教师、学期或班型。每条限制见中央证据索引。",
+    "who_it_suits": "",
+    "source_ids": [
+      "LAW20261029-E0017"
+    ]
+  },
+  "batch_id": "law-20261029",
+  "batch_scope": {
+    "curriculum_cohort": 2026,
+    "teaching_terms": [
+      "2025秋",
+      "2026春"
+    ],
+    "program_mapping_status": "not_inferred_for_individual_course"
+  }
+}

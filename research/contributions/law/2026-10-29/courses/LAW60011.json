@@ -1,0 +1,143 @@
+{
+  "schema_version": 1,
+  "course": {
+    "code": "LAW60011",
+    "name": "经济法学",
+    "department": "法学院",
+    "credits": 3,
+    "term": "2025秋",
+    "teachers": [
+      "张建伟",
+      "陈立"
+    ],
+    "section_code": null,
+    "class_type": "ordinary",
+    "course_type_code": null,
+    "program_year": null,
+    "program_names": [],
+    "required_or_elective": null,
+    "terms": [
+      "2025秋"
+    ],
+    "levels": [
+      "研究生"
+    ],
+    "sections": [
+      {
+        "term": "2025秋",
+        "course_code": "LAW60011",
+        "course_name": "经济法学",
+        "teachers": [
+          "陈立"
+        ],
+        "credits": 3,
+        "course_level": "研究生",
+        "section_code": "LAW60011.01",
+        "department": "法学院",
+        "source_url": "https://fdjwgl.fudan.edu.cn/student/for-all/lesson-search/semester/504/search/504?openDepartmentAssocs=2565&queryPage__=1,500"
+      },
+      {
+        "term": "2025秋",
+        "course_code": "LAW60011",
+        "course_name": "经济法学",
+        "teachers": [
+          "张建伟"
+        ],
+        "credits": 3,
+        "course_level": "研究生",
+        "section_code": "LAW60011.02",
+        "department": "法学院",
+        "source_url": "https://fdjwgl.fudan.edu.cn/student/for-all/lesson-search/semester/504/search/504?openDepartmentAssocs=2565&queryPage__=1,500"
+      }
+    ]
+  },
+  "aliases": {
+    "course_names": [
+      "经济法学"
+    ],
+    "teacher_names_or_pinyin": [
+      "张建伟",
+      "陈立"
+    ],
+    "ambiguous_matches": [
+      "完整候选检索词见ledgers/search-variants.json；首字母和昵称不是唯一身份。"
+    ]
+  },
+  "progress": {
+    "owner": "Codex + Luna xhigh parallel readers",
+    "reviewer": "Independent agent checks; no human review implied",
+    "status": "partial_external_sources",
+    "queries": [
+      "FORUM-EXACT-00052",
+      "FORUM-EXACT-00285",
+      "FORUM-EXACT-00327",
+      "FORUM-EXACT-00328",
+      "FORUM-EXACT-00626",
+      "FORUM-EXACT-00644",
+      "FORUM-EXACT-00925",
+      "FORUM-EXACT-00926",
+      "FORUM-EXACT-00927",
+      "FORUM-EXACT-01347",
+      "FORUM-EXACT-01351",
+      "FORUM-EXACT-01385",
+      "DANKE-00052",
+      "DANKE-00285",
+      "DANKE-00327",
+      "DANKE-00328",
+      "DANKE-00626",
+      "DANKE-00644",
+      "DANKE-00925",
+      "DANKE-00926",
+      "DANKE-00927",
+      "DANKE-01347",
+      "DANKE-01351",
+      "DANKE-01385"
+    ],
+    "remaining_scope": [
+      "小红书、知乎、微信公众号登录态站内检索未完成。",
+      "图片未OCR，源班/教师/学期未核的材料仍待对应。"
+    ],
+    "no_student_reviews_found": false
+  },
+  "sources": [],
+  "syllabus": {
+    "source_ids": [],
+    "content": "本批未采集班级大纲；官方开课范围见sections。",
+    "prerequisites": "",
+    "assessment": ""
+  },
+  "materials": [
+    {
+      "type": "official_timetable",
+      "path": "../official/timetable.csv"
+    },
+    {
+      "type": "official_program_index",
+      "path": "../official/programs.json"
+    },
+    {
+      "type": "offline_report_and_originals",
+      "url": "https://github.com/pythonbug225/fudan-course-atlas/releases/download/law-research-20261029/law-research-20261029.zip"
+    }
+  ],
+  "student_reviews_and_discussions": [],
+  "quantitative_observations": [],
+  "comparison_and_summary": {
+    "teaching_and_learning": "",
+    "workload": "",
+    "assessment": "",
+    "grading_and_risk": "",
+    "teacher_and_term_differences": "本次已读材料尚未形成该班结论；不等于平台上不存在评价。",
+    "who_it_suits": "",
+    "source_ids": []
+  },
+  "batch_id": "law-20261029",
+  "batch_scope": {
+    "curriculum_cohort": 2026,
+    "teaching_terms": [
+      "2025秋",
+      "2026春"
+    ],
+    "program_mapping_status": "not_inferred_for_individual_course"
+  }
+}

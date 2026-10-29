@@ -1,0 +1,174 @@
+{
+  "schema_version": 1,
+  "course": {
+    "code": "LAW50018",
+    "name": "英美法",
+    "department": "法学院",
+    "credits": 2,
+    "term": "2025秋",
+    "teachers": [
+      "陈立"
+    ],
+    "section_code": null,
+    "class_type": "ordinary",
+    "course_type_code": null,
+    "program_year": null,
+    "program_names": [],
+    "required_or_elective": null,
+    "terms": [
+      "2025秋"
+    ],
+    "levels": [
+      "本科",
+      "研究生"
+    ],
+    "sections": [
+      {
+        "term": "2025秋",
+        "course_code": "LAW50018",
+        "course_name": "英美法",
+        "teachers": [
+          "陈立"
+        ],
+        "credits": 2,
+        "course_level": "本科",
+        "section_code": "LAW50018.01",
+        "department": "法学院",
+        "source_url": "https://fdjwgl.fudan.edu.cn/student/for-all/lesson-search/semester/504/search/504?openDepartmentAssocs=2565&queryPage__=1,500"
+      },
+      {
+        "term": "2025秋",
+        "course_code": "LAW50018",
+        "course_name": "英美法",
+        "teachers": [
+          "陈立"
+        ],
+        "credits": 2,
+        "course_level": "研究生",
+        "section_code": "LAW50018.02",
+        "department": "法学院",
+        "source_url": "https://fdjwgl.fudan.edu.cn/student/for-all/lesson-search/semester/504/search/504?openDepartmentAssocs=2565&queryPage__=1,500"
+      }
+    ]
+  },
+  "aliases": {
+    "course_names": [
+      "英美法"
+    ],
+    "teacher_names_or_pinyin": [
+      "陈立"
+    ],
+    "ambiguous_matches": [
+      "完整候选检索词见ledgers/search-variants.json；首字母和昵称不是唯一身份。"
+    ]
+  },
+  "progress": {
+    "owner": "Codex + Luna xhigh parallel readers",
+    "reviewer": "Independent agent checks; no human review implied",
+    "status": "partial_external_sources",
+    "queries": [
+      "FORUM-EXACT-00052",
+      "FORUM-EXACT-00279",
+      "FORUM-EXACT-00280",
+      "FORUM-EXACT-00327",
+      "FORUM-EXACT-00328",
+      "FORUM-EXACT-00464",
+      "FORUM-EXACT-00612",
+      "FORUM-EXACT-00613",
+      "DANKE-00052",
+      "DANKE-00279",
+      "DANKE-00280",
+      "DANKE-00327",
+      "DANKE-00328",
+      "DANKE-00464",
+      "DANKE-00612",
+      "DANKE-00613"
+    ],
+    "remaining_scope": [
+      "小红书、知乎、微信公众号登录态站内检索未完成。",
+      "图片未OCR，源班/教师/学期未核的材料仍待对应。"
+    ],
+    "no_student_reviews_found": false
+  },
+  "sources": [
+    {
+      "source_id": "LAW20261029-E0190",
+      "source_type": "treehole",
+      "canonical_url": "https://forum.fduhole.com/api/floors/6020718",
+      "public_author_label": null,
+      "published_at": null,
+      "fetched_at": "2026-10-29",
+      "hole_ids": [
+        667095
+      ],
+      "floor_ids": [
+        6020718
+      ],
+      "review_ids": [],
+      "reading_status": "full_visible_floor_text_read",
+      "mapping_status": "candidate_unconfirmed_section",
+      "record_type": "detailed_recommendation_firsthand_status_and_teacher_unverified",
+      "adoption": "reference_only_pending_mapping",
+      "reason": "目录LAW50018含本科和研究生section；cl不能扩写为陈立，且同洞另有回复称某位英美法教师已离开，教师与开课时间需核实。",
+      "duplicate_of": null,
+      "license": null,
+      "fulltext_permission": "fulltext_not_published_summary_only",
+      "attribution_and_changes": "保留原平台链接与洞/楼/评价编号；仅发布经过匿名处理的摘要及归属限制，不发布原文或账号。",
+      "evidence_index": "../summaries/evidence.json",
+      "applicability": "仅关联参考；不表示任何当前教学班已确认适用",
+      "confirmed_section_keys": []
+    }
+  ],
+  "syllabus": {
+    "source_ids": [],
+    "content": "本批未采集班级大纲；官方开课范围见sections。",
+    "prerequisites": "",
+    "assessment": ""
+  },
+  "materials": [
+    {
+      "type": "official_timetable",
+      "path": "../official/timetable.csv"
+    },
+    {
+      "type": "official_program_index",
+      "path": "../official/programs.json"
+    },
+    {
+      "type": "offline_report_and_originals",
+      "url": "https://github.com/pythonbug225/fudan-course-atlas/releases/download/law-research-20261029/law-research-20261029.zip"
+    }
+  ],
+  "student_reviews_and_discussions": [
+    {
+      "source_id": "LAW20261029-E0190",
+      "summary": "非法学学生选课建议中，有回复认为该英语授课课的案例和教师讲解有意思，零基础也可跟上，课堂强调法律分析背后的价值衡量，期末不难。原文没有明确说回复者本人是否修读。",
+      "period": "未明；帖子发表于2026-06-17至2026-06-27，讨论的是之后选课",
+      "teacher_as_source": "cl（简称，身份未核）",
+      "scope_note": "目录LAW50018含本科和研究生section；cl不能扩写为陈立，且同洞另有回复称某位英美法教师已离开，教师与开课时间需核实。",
+      "applicability": "仅关联参考；不表示任何当前教学班已确认适用",
+      "mapping_status": "candidate_unconfirmed_section"
+    }
+  ],
+  "quantitative_observations": [],
+  "comparison_and_summary": {
+    "teaching_and_learning": "",
+    "workload": "",
+    "assessment": "",
+    "grading_and_risk": "",
+    "teacher_and_term_differences": "相关材料仅作为来源检索与历史参考；同名不确认层次、教师、学期或班型。每条限制见中央证据索引。",
+    "who_it_suits": "",
+    "source_ids": [
+      "LAW20261029-E0190"
+    ]
+  },
+  "batch_id": "law-20261029",
+  "batch_scope": {
+    "curriculum_cohort": 2026,
+    "teaching_terms": [
+      "2025秋",
+      "2026春"
+    ],
+    "program_mapping_status": "not_inferred_for_individual_course"
+  }
+}

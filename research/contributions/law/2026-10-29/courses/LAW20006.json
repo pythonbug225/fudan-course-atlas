@@ -1,0 +1,199 @@
+{
+  "schema_version": 1,
+  "course": {
+    "code": "LAW20006",
+    "name": "中国法律史",
+    "department": "法学院",
+    "credits": 3,
+    "term": "2025秋",
+    "teachers": [
+      "王志强"
+    ],
+    "section_code": "LAW20006.01",
+    "class_type": "ordinary",
+    "course_type_code": null,
+    "program_year": null,
+    "program_names": [],
+    "required_or_elective": null,
+    "terms": [
+      "2025秋"
+    ],
+    "levels": [
+      "本科"
+    ],
+    "sections": [
+      {
+        "term": "2025秋",
+        "course_code": "LAW20006",
+        "course_name": "中国法律史",
+        "teachers": [
+          "王志强"
+        ],
+        "credits": 3,
+        "course_level": "本科",
+        "section_code": "LAW20006.01",
+        "department": "法学院",
+        "source_url": "https://fdjwgl.fudan.edu.cn/student/for-all/lesson-search/semester/504/search/504?openDepartmentAssocs=2565&queryPage__=1,500"
+      }
+    ]
+  },
+  "aliases": {
+    "course_names": [
+      "中国法律史"
+    ],
+    "teacher_names_or_pinyin": [
+      "王志强"
+    ],
+    "ambiguous_matches": [
+      "完整候选检索词见ledgers/search-variants.json；首字母和昵称不是唯一身份。"
+    ]
+  },
+  "progress": {
+    "owner": "Codex + Luna xhigh parallel readers",
+    "reviewer": "Independent agent checks; no human review implied",
+    "status": "partial_external_sources",
+    "queries": [
+      "FORUM-EXACT-00246",
+      "FORUM-EXACT-00300",
+      "FORUM-EXACT-00301",
+      "FORUM-EXACT-00441",
+      "FORUM-EXACT-00570",
+      "FORUM-EXACT-00577",
+      "FORUM-EXACT-00623",
+      "FORUM-EXACT-00636",
+      "DANKE-00246",
+      "DANKE-00300",
+      "DANKE-00301",
+      "DANKE-00441",
+      "DANKE-00570",
+      "DANKE-00577",
+      "DANKE-00623",
+      "DANKE-00636"
+    ],
+    "remaining_scope": [
+      "小红书、知乎、微信公众号登录态站内检索未完成。",
+      "图片未OCR，源班/教师/学期未核的材料仍待对应。"
+    ],
+    "no_student_reviews_found": false
+  },
+  "sources": [
+    {
+      "source_id": "LAW20261029-E0021",
+      "source_type": "danke",
+      "canonical_url": "https://danke.fduhole.com/api/v3/course_groups/969",
+      "public_author_label": null,
+      "published_at": null,
+      "fetched_at": "2026-10-29",
+      "hole_ids": [],
+      "floor_ids": [],
+      "review_ids": [
+        2462
+      ],
+      "reading_status": "full_review_text_read",
+      "mapping_status": "candidate_unconfirmed_section",
+      "record_type": "历史异师材料",
+      "adoption": "reference_only_pending_mapping",
+      "reason": "#2463明确是#2462纠正学期的后续，去重为一次经历；目标教师为王志强，不能归其班级。",
+      "duplicate_of": null,
+      "license": null,
+      "fulltext_permission": "fulltext_not_published_summary_only",
+      "attribution_and_changes": "保留原平台链接与洞/楼/评价编号；仅发布经过匿名处理的摘要及归属限制，不发布原文或账号。",
+      "evidence_index": "../summaries/evidence.json",
+      "applicability": "仅关联参考；不表示任何当前教学班已确认适用",
+      "confirmed_section_keys": []
+    },
+    {
+      "source_id": "LAW20261029-E0082",
+      "source_type": "treehole",
+      "canonical_url": "https://forum.fduhole.com/api/floors/458456",
+      "public_author_label": null,
+      "published_at": null,
+      "fetched_at": "2026-10-29",
+      "hole_ids": [
+        54299,
+        94593
+      ],
+      "floor_ids": [
+        458456,
+        882662,
+        882773,
+        882984
+      ],
+      "review_ids": [],
+      "reading_status": "full_visible_floor_text_read",
+      "mapping_status": "candidate_unconfirmed_section",
+      "record_type": "historical_course_review_different_teacher_configuration",
+      "adoption": "reference_only_pending_mapping",
+      "reason": "当前2025秋 LAW20006目录只有王志强；历史课程有韩老师和王院的合讲语境，教师配置不同，不能把韩涛评价套给当前班。",
+      "duplicate_of": null,
+      "license": null,
+      "fulltext_permission": "fulltext_not_published_summary_only",
+      "attribution_and_changes": "保留原平台链接与洞/楼/评价编号；仅发布经过匿名处理的摘要及归属限制，不发布原文或账号。",
+      "evidence_index": "../summaries/evidence.json",
+      "applicability": "仅关联参考；不表示任何当前教学班已确认适用",
+      "confirmed_section_keys": []
+    }
+  ],
+  "syllabus": {
+    "source_ids": [],
+    "content": "本批未采集班级大纲；官方开课范围见sections。",
+    "prerequisites": "",
+    "assessment": ""
+  },
+  "materials": [
+    {
+      "type": "official_timetable",
+      "path": "../official/timetable.csv"
+    },
+    {
+      "type": "official_program_index",
+      "path": "../official/programs.json"
+    },
+    {
+      "type": "offline_report_and_originals",
+      "url": "https://github.com/pythonbug225/fudan-course-atlas/releases/download/law-research-20261029/law-research-20261029.zip"
+    }
+  ],
+  "student_reviews_and_discussions": [
+    {
+      "source_id": "LAW20261029-E0021",
+      "summary": "作者肯定文学典籍、案例和知识结合的讲授。 提到无考勤，未给完整任务表。 作者描述试题结合案例、知识和文学材料。",
+      "period": "正文未单独明确修读期；API原始班字段：year=2023,semester=1",
+      "teacher_as_source": "韩涛",
+      "scope_note": "#2463明确是#2462纠正学期的后续，去重为一次经历；目标教师为王志强，不能归其班级。",
+      "applicability": "仅关联参考；不表示任何当前教学班已确认适用",
+      "mapping_status": "candidate_unconfirmed_section"
+    },
+    {
+      "source_id": "LAW20261029-E0082",
+      "summary": "2022年一位学生称课程讲授整体不错；韩老师不给完整PPT但提供考前范围与精简重点，王院约讲五次宏观专题，考试覆盖课堂内容；学生自述得A-。另一个历史讨论中有人称韩涛课以PPT讲授、期末主要背PPT。",
+      "period": "2022-01、2022-05（具体学期不明）",
+      "teacher_as_source": "韩老师（可能为韩涛）与王院/王志强候选；未在同一来源确认全名",
+      "scope_note": "当前2025秋 LAW20006目录只有王志强；历史课程有韩老师和王院的合讲语境，教师配置不同，不能把韩涛评价套给当前班。",
+      "applicability": "仅关联参考；不表示任何当前教学班已确认适用",
+      "mapping_status": "candidate_unconfirmed_section"
+    }
+  ],
+  "quantitative_observations": [],
+  "comparison_and_summary": {
+    "teaching_and_learning": "",
+    "workload": "",
+    "assessment": "",
+    "grading_and_risk": "",
+    "teacher_and_term_differences": "相关材料仅作为来源检索与历史参考；同名不确认层次、教师、学期或班型。每条限制见中央证据索引。",
+    "who_it_suits": "",
+    "source_ids": [
+      "LAW20261029-E0021",
+      "LAW20261029-E0082"
+    ]
+  },
+  "batch_id": "law-20261029",
+  "batch_scope": {
+    "curriculum_cohort": 2026,
+    "teaching_terms": [
+      "2025秋",
+      "2026春"
+    ],
+    "program_mapping_status": "not_inferred_for_individual_course"
+  }
+}

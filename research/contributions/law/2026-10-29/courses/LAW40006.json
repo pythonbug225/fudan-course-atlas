@@ -1,0 +1,197 @@
+{
+  "schema_version": 1,
+  "course": {
+    "code": "LAW40006",
+    "name": "专业外语",
+    "department": "法学院",
+    "credits": 1,
+    "term": "2025秋",
+    "teachers": [
+      "高凌云"
+    ],
+    "section_code": "LAW40006.01",
+    "class_type": "ordinary",
+    "course_type_code": null,
+    "program_year": null,
+    "program_names": [],
+    "required_or_elective": null,
+    "terms": [
+      "2025秋"
+    ],
+    "levels": [
+      "研究生"
+    ],
+    "sections": [
+      {
+        "term": "2025秋",
+        "course_code": "LAW40006",
+        "course_name": "专业外语",
+        "teachers": [
+          "高凌云"
+        ],
+        "credits": 1,
+        "course_level": "研究生",
+        "section_code": "LAW40006.01",
+        "department": "法学院",
+        "source_url": "https://fdjwgl.fudan.edu.cn/student/for-all/lesson-search/semester/504/search/504?openDepartmentAssocs=2565&queryPage__=1,500"
+      }
+    ]
+  },
+  "aliases": {
+    "course_names": [
+      "专业外语"
+    ],
+    "teacher_names_or_pinyin": [
+      "高凌云"
+    ],
+    "ambiguous_matches": [
+      "完整候选检索词见ledgers/search-variants.json；首字母和昵称不是唯一身份。"
+    ]
+  },
+  "progress": {
+    "owner": "Codex + Luna xhigh parallel readers",
+    "reviewer": "Independent agent checks; no human review implied",
+    "status": "partial_external_sources",
+    "queries": [
+      "FORUM-EXACT-00085",
+      "FORUM-EXACT-00362",
+      "FORUM-EXACT-00391",
+      "FORUM-EXACT-01173",
+      "FORUM-EXACT-01174",
+      "FORUM-EXACT-01373",
+      "FORUM-EXACT-01755",
+      "FORUM-EXACT-01766",
+      "DANKE-00085",
+      "DANKE-00362",
+      "DANKE-00391",
+      "DANKE-01173",
+      "DANKE-01174",
+      "DANKE-01373",
+      "DANKE-01755",
+      "DANKE-01766"
+    ],
+    "remaining_scope": [
+      "小红书、知乎、微信公众号登录态站内检索未完成。",
+      "图片未OCR，源班/教师/学期未核的材料仍待对应。"
+    ],
+    "no_student_reviews_found": false
+  },
+  "sources": [
+    {
+      "source_id": "LAW20261029-E0146",
+      "source_type": "treehole",
+      "canonical_url": "https://forum.fduhole.com/api/floors/4946203",
+      "public_author_label": null,
+      "published_at": null,
+      "fetched_at": "2026-10-29",
+      "hole_ids": [
+        544649
+      ],
+      "floor_ids": [
+        4946203
+      ],
+      "review_ids": [],
+      "reading_status": "full_visible_floor_text_read",
+      "mapping_status": "candidate_unconfirmed_section",
+      "record_type": "target_course_experience_teacher_unconfirmed",
+      "adoption": "reference_only_pending_mapping",
+      "reason": "保留为研究生专业外语体验，教师不确定；不套用本科课程。；2025秋法学院 LAW40006.01 与 LAW50001.01 均为研究生专业外语且教师为高凌云；该楼无法确认具体课程/节次，也不把教师自动补成高凌云。",
+      "duplicate_of": null,
+      "license": null,
+      "fulltext_permission": "fulltext_not_published_summary_only",
+      "attribution_and_changes": "保留原平台链接与洞/楼/评价编号；仅发布经过匿名处理的摘要及归属限制，不发布原文或账号。",
+      "evidence_index": "../summaries/evidence.json",
+      "applicability": "仅关联参考；不表示任何当前教学班已确认适用",
+      "confirmed_section_keys": []
+    },
+    {
+      "source_id": "LAW20261029-E0152",
+      "source_type": "treehole",
+      "canonical_url": "https://forum.fduhole.com/api/floors/6542620",
+      "public_author_label": null,
+      "published_at": null,
+      "fetched_at": "2026-10-29",
+      "hole_ids": [
+        722970
+      ],
+      "floor_ids": [
+        6542620
+      ],
+      "review_ids": [],
+      "reading_status": "full_visible_floor_text_read",
+      "mapping_status": "candidate_unconfirmed_section",
+      "record_type": "target_course_experience_teacher_unconfirmed_out_of_period",
+      "adoption": "reference_only_pending_mapping",
+      "reason": "列为目标期外的专业外语体验，不能套用到目标班级。；发文时间为2026-09，晚于目标2025秋/2026春；未确认法学院/层次/老师。",
+      "duplicate_of": null,
+      "license": null,
+      "fulltext_permission": "fulltext_not_published_summary_only",
+      "attribution_and_changes": "保留原平台链接与洞/楼/评价编号；仅发布经过匿名处理的摘要及归属限制，不发布原文或账号。",
+      "evidence_index": "../summaries/evidence.json",
+      "applicability": "仅关联参考；不表示任何当前教学班已确认适用",
+      "confirmed_section_keys": []
+    }
+  ],
+  "syllabus": {
+    "source_ids": [],
+    "content": "本批未采集班级大纲；官方开课范围见sections。",
+    "prerequisites": "",
+    "assessment": ""
+  },
+  "materials": [
+    {
+      "type": "official_timetable",
+      "path": "../official/timetable.csv"
+    },
+    {
+      "type": "official_program_index",
+      "path": "../official/programs.json"
+    },
+    {
+      "type": "offline_report_and_originals",
+      "url": "https://github.com/pythonbug225/fudan-course-atlas/releases/download/law-research-20261029/law-research-20261029.zip"
+    }
+  ],
+  "student_reviews_and_discussions": [
+    {
+      "source_id": "LAW20261029-E0146",
+      "summary": "发文者称研究生第一学期专业外语听不懂课堂内容、被点名时难以用英语表达并感到自卑。是直接课堂体验，但未点名教师或节次。",
+      "period": "发帖时间：11/08/2025 00:04:03；修读学期未核。",
+      "teacher_as_source": "未具名老师",
+      "scope_note": "保留为研究生专业外语体验，教师不确定；不套用本科课程。；2025秋法学院 LAW40006.01 与 LAW50001.01 均为研究生专业外语且教师为高凌云；该楼无法确认具体课程/节次，也不把教师自动补成高凌云。",
+      "applicability": "仅关联参考；不表示任何当前教学班已确认适用",
+      "mapping_status": "candidate_unconfirmed_section"
+    },
+    {
+      "source_id": "LAW20261029-E0152",
+      "summary": "发文者描述课堂pre、被提问、同伴互评及台下抽问带来的压力，并希望更换授课方式；是直接课堂体验。",
+      "period": "发帖时间：09/17/2026 10:02:02；修读学期未核。",
+      "teacher_as_source": "未具名老师",
+      "scope_note": "列为目标期外的专业外语体验，不能套用到目标班级。；发文时间为2026-09，晚于目标2025秋/2026春；未确认法学院/层次/老师。",
+      "applicability": "仅关联参考；不表示任何当前教学班已确认适用",
+      "mapping_status": "candidate_unconfirmed_section"
+    }
+  ],
+  "quantitative_observations": [],
+  "comparison_and_summary": {
+    "teaching_and_learning": "",
+    "workload": "",
+    "assessment": "",
+    "grading_and_risk": "",
+    "teacher_and_term_differences": "相关材料仅作为来源检索与历史参考；同名不确认层次、教师、学期或班型。每条限制见中央证据索引。",
+    "who_it_suits": "",
+    "source_ids": [
+      "LAW20261029-E0146",
+      "LAW20261029-E0152"
+    ]
+  },
+  "batch_id": "law-20261029",
+  "batch_scope": {
+    "curriculum_cohort": 2026,
+    "teaching_terms": [
+      "2025秋",
+      "2026春"
+    ],
+    "program_mapping_status": "not_inferred_for_individual_course"
+  }
+}

@@ -1,0 +1,202 @@
+{
+  "schema_version": 1,
+  "course": {
+    "code": "LAW20004",
+    "name": "刑法II",
+    "department": "法学院",
+    "credits": 3,
+    "term": "2025秋",
+    "teachers": [
+      "袁国何"
+    ],
+    "section_code": "LAW20004.01",
+    "class_type": "ordinary",
+    "course_type_code": null,
+    "program_year": null,
+    "program_names": [],
+    "required_or_elective": null,
+    "terms": [
+      "2025秋"
+    ],
+    "levels": [
+      "本科"
+    ],
+    "sections": [
+      {
+        "term": "2025秋",
+        "course_code": "LAW20004",
+        "course_name": "刑法II",
+        "teachers": [
+          "袁国何"
+        ],
+        "credits": 3,
+        "course_level": "本科",
+        "section_code": "LAW20004.01",
+        "department": "法学院",
+        "source_url": "https://fdjwgl.fudan.edu.cn/student/for-all/lesson-search/semester/504/search/504?openDepartmentAssocs=2565&queryPage__=1,500"
+      }
+    ]
+  },
+  "aliases": {
+    "course_names": [
+      "刑法II"
+    ],
+    "teacher_names_or_pinyin": [
+      "袁国何"
+    ],
+    "ambiguous_matches": [
+      "完整候选检索词见ledgers/search-variants.json；首字母和昵称不是唯一身份。"
+    ]
+  },
+  "progress": {
+    "owner": "Codex + Luna xhigh parallel readers",
+    "reviewer": "Independent agent checks; no human review implied",
+    "status": "partial_external_sources",
+    "queries": [
+      "FORUM-EXACT-00257",
+      "FORUM-EXACT-00258",
+      "FORUM-EXACT-00283",
+      "FORUM-EXACT-00438",
+      "FORUM-EXACT-00580",
+      "FORUM-EXACT-00586",
+      "FORUM-EXACT-00609",
+      "FORUM-EXACT-00614",
+      "DANKE-00257",
+      "DANKE-00258",
+      "DANKE-00283",
+      "DANKE-00438",
+      "DANKE-00580",
+      "DANKE-00586",
+      "DANKE-00609",
+      "DANKE-00614"
+    ],
+    "remaining_scope": [
+      "小红书、知乎、微信公众号登录态站内检索未完成。",
+      "图片未OCR，源班/教师/学期未核的材料仍待对应。"
+    ],
+    "no_student_reviews_found": false
+  },
+  "sources": [
+    {
+      "source_id": "LAW20261029-E0085",
+      "source_type": "treehole",
+      "canonical_url": "https://forum.fduhole.com/api/floors/1699366",
+      "public_author_label": null,
+      "published_at": null,
+      "fetched_at": "2026-10-29",
+      "hole_ids": [
+        184157
+      ],
+      "floor_ids": [
+        1699366,
+        1699580,
+        1699605,
+        1699615,
+        1699656,
+        1700908
+      ],
+      "review_ids": [],
+      "reading_status": "full_visible_floor_text_read",
+      "mapping_status": "candidate_unconfirmed_section",
+      "record_type": "historical_course_review_mixed_exam_and_grading",
+      "adoption": "reference_only_pending_mapping",
+      "reason": "课程教师全名由学生直接写出；与2025秋 LAW20004教师同名，但这是历史经验，题型和评分权重不应视为当前政策。",
+      "duplicate_of": null,
+      "license": null,
+      "fulltext_permission": "fulltext_not_published_summary_only",
+      "attribution_and_changes": "保留原平台链接与洞/楼/评价编号；仅发布经过匿名处理的摘要及归属限制，不发布原文或账号。",
+      "evidence_index": "../summaries/evidence.json",
+      "applicability": "仅关联参考；不表示任何当前教学班已确认适用",
+      "confirmed_section_keys": []
+    },
+    {
+      "source_id": "LAW20261029-E0191",
+      "source_type": "treehole",
+      "canonical_url": "https://forum.fduhole.com/api/floors/6028169",
+      "public_author_label": null,
+      "published_at": null,
+      "fetched_at": "2026-10-29",
+      "hole_ids": [
+        667095
+      ],
+      "floor_ids": [
+        6028169
+      ],
+      "review_ids": [],
+      "reading_status": "full_visible_floor_text_read",
+      "mapping_status": "candidate_unconfirmed_section",
+      "record_type": "course_recommendation_teacher_and_period_unverified",
+      "adoption": "reference_only_pending_mapping",
+      "reason": "2025秋目录的普通班和H班教师不同；不能把wml扩写成汪明亮或据此匹配H班，推荐时间也可能在目标学期之后。",
+      "duplicate_of": null,
+      "license": null,
+      "fulltext_permission": "fulltext_not_published_summary_only",
+      "attribution_and_changes": "保留原平台链接与洞/楼/评价编号；仅发布经过匿名处理的摘要及归属限制，不发布原文或账号。",
+      "evidence_index": "../summaries/evidence.json",
+      "applicability": "仅关联参考；不表示任何当前教学班已确认适用",
+      "confirmed_section_keys": []
+    }
+  ],
+  "syllabus": {
+    "source_ids": [],
+    "content": "本批未采集班级大纲；官方开课范围见sections。",
+    "prerequisites": "",
+    "assessment": ""
+  },
+  "materials": [
+    {
+      "type": "official_timetable",
+      "path": "../official/timetable.csv"
+    },
+    {
+      "type": "official_program_index",
+      "path": "../official/programs.json"
+    },
+    {
+      "type": "offline_report_and_originals",
+      "url": "https://github.com/pythonbug225/fudan-course-atlas/releases/download/law-research-20261029/law-research-20261029.zip"
+    }
+  ],
+  "student_reviews_and_discussions": [
+    {
+      "source_id": "LAW20261029-E0085",
+      "summary": "2022年末学生对刑法II给分和期末考试时间长度有明显分歧：一人称认真听课但题量过多、未写完而只得B+；另一人称未听课但依靠法考资料取得A，并认为理论课内容未必是考试重点；其他回复指出期中作业也计分。不能据匿名小样本推断统一评分规律。",
+      "period": "2022-12（学期由发帖时间推测为秋季，具体班次未明）",
+      "teacher_as_source": "袁国何",
+      "scope_note": "课程教师全名由学生直接写出；与2025秋 LAW20004教师同名，但这是历史经验，题型和评分权重不应视为当前政策。",
+      "applicability": "仅关联参考；不表示任何当前教学班已确认适用",
+      "mapping_status": "candidate_unconfirmed_section"
+    },
+    {
+      "source_id": "LAW20261029-E0191",
+      "summary": "一条旁听推荐称刑法II讲解相对容易理解、现实案例较多；评论者的身份与是否亲自修过该课未确认。",
+      "period": "未明；源帖发布于2026-06-17至2026-06-27并询问之后的旁听课程，无法确定对应目标学期",
+      "teacher_as_source": "wml（简称，身份未核）",
+      "scope_note": "2025秋目录的普通班和H班教师不同；不能把wml扩写成汪明亮或据此匹配H班，推荐时间也可能在目标学期之后。",
+      "applicability": "仅关联参考；不表示任何当前教学班已确认适用",
+      "mapping_status": "candidate_unconfirmed_section"
+    }
+  ],
+  "quantitative_observations": [],
+  "comparison_and_summary": {
+    "teaching_and_learning": "",
+    "workload": "",
+    "assessment": "",
+    "grading_and_risk": "",
+    "teacher_and_term_differences": "相关材料仅作为来源检索与历史参考；同名不确认层次、教师、学期或班型。每条限制见中央证据索引。",
+    "who_it_suits": "",
+    "source_ids": [
+      "LAW20261029-E0085",
+      "LAW20261029-E0191"
+    ]
+  },
+  "batch_id": "law-20261029",
+  "batch_scope": {
+    "curriculum_cohort": 2026,
+    "teaching_terms": [
+      "2025秋",
+      "2026春"
+    ],
+    "program_mapping_status": "not_inferred_for_individual_course"
+  }
+}

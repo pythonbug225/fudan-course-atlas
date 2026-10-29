@@ -1,0 +1,843 @@
+{
+  "schema_version": 1,
+  "course": {
+    "code": "LAW10003",
+    "name": "行政法",
+    "department": "法学院",
+    "credits": 2,
+    "term": "2026春",
+    "teachers": [
+      "刘志刚"
+    ],
+    "section_code": "LAW10003.01",
+    "class_type": "ordinary",
+    "course_type_code": null,
+    "program_year": null,
+    "program_names": [],
+    "required_or_elective": null,
+    "terms": [
+      "2026春"
+    ],
+    "levels": [
+      "本科"
+    ],
+    "sections": [
+      {
+        "term": "2026春",
+        "course_code": "LAW10003",
+        "course_name": "行政法",
+        "teachers": [
+          "刘志刚"
+        ],
+        "credits": 2,
+        "course_level": "本科",
+        "section_code": "LAW10003.01",
+        "department": "法学院",
+        "source_url": "https://fdjwgl.fudan.edu.cn/student/for-all/lesson-search/semester/505/search/505?openDepartmentAssocs=2565&queryPage__=1,500"
+      }
+    ]
+  },
+  "aliases": {
+    "course_names": [
+      "行政法"
+    ],
+    "teacher_names_or_pinyin": [
+      "刘志刚"
+    ],
+    "ambiguous_matches": [
+      "完整候选检索词见ledgers/search-variants.json；首字母和昵称不是唯一身份。"
+    ]
+  },
+  "progress": {
+    "owner": "Codex + Luna xhigh parallel readers",
+    "reviewer": "Independent agent checks; no human review implied",
+    "status": "partial_external_sources",
+    "queries": [
+      "FORUM-EXACT-00141",
+      "FORUM-EXACT-00265",
+      "FORUM-EXACT-00266",
+      "FORUM-EXACT-00429",
+      "FORUM-EXACT-00491",
+      "FORUM-EXACT-00508",
+      "FORUM-EXACT-00590",
+      "FORUM-EXACT-00601",
+      "DANKE-00141",
+      "DANKE-00265",
+      "DANKE-00266",
+      "DANKE-00429",
+      "DANKE-00491",
+      "DANKE-00508",
+      "DANKE-00590",
+      "DANKE-00601"
+    ],
+    "remaining_scope": [
+      "小红书、知乎、微信公众号登录态站内检索未完成。",
+      "图片未OCR，源班/教师/学期未核的材料仍待对应。"
+    ],
+    "no_student_reviews_found": false
+  },
+  "sources": [
+    {
+      "source_id": "LAW20261029-E0015",
+      "source_type": "danke",
+      "canonical_url": "https://danke.fduhole.com/api/v3/course_groups/2724",
+      "public_author_label": null,
+      "published_at": null,
+      "fetched_at": "2026-10-29",
+      "hole_ids": [],
+      "floor_ids": [],
+      "review_ids": [
+        80,
+        81
+      ],
+      "reading_status": "full_review_text_read",
+      "mapping_status": "candidate_unconfirmed_section",
+      "record_type": "历史同师课程参考",
+      "adoption": "reference_only_pending_mapping",
+      "reason": "均为2021/S3疫情时期历史条目，需与论坛具体正面描述并列，不能只据短评给教师定性。",
+      "duplicate_of": null,
+      "license": null,
+      "fulltext_permission": "fulltext_not_published_summary_only",
+      "attribution_and_changes": "保留原平台链接与洞/楼/评价编号；仅发布经过匿名处理的摘要及归属限制，不发布原文或账号。",
+      "evidence_index": "../summaries/evidence.json",
+      "applicability": "仅关联参考；不表示任何当前教学班已确认适用",
+      "confirmed_section_keys": []
+    },
+    {
+      "source_id": "LAW20261029-E0026",
+      "source_type": "treehole",
+      "canonical_url": "https://forum.fduhole.com/api/floors/1507737",
+      "public_author_label": null,
+      "published_at": null,
+      "fetched_at": "2026-10-29",
+      "hole_ids": [
+        163670
+      ],
+      "floor_ids": [
+        1507737,
+        1515169
+      ],
+      "review_ids": [],
+      "reading_status": "full_visible_floor_text_read",
+      "mapping_status": "candidate_unconfirmed_section",
+      "record_type": "课程推荐与具体教学描述",
+      "adoption": "reference_only_pending_mapping",
+      "reason": "2022年同洞内容，不计作两个独立修读样本；普通/H班及权重未明。",
+      "duplicate_of": null,
+      "license": null,
+      "fulltext_permission": "fulltext_not_published_summary_only",
+      "attribution_and_changes": "保留原平台链接与洞/楼/评价编号；仅发布经过匿名处理的摘要及归属限制，不发布原文或账号。",
+      "evidence_index": "../summaries/evidence.json",
+      "applicability": "仅关联参考；不表示任何当前教学班已确认适用",
+      "confirmed_section_keys": []
+    },
+    {
+      "source_id": "LAW20261029-E0048",
+      "source_type": "treehole",
+      "canonical_url": "https://forum.fduhole.com/api/floors/1172853",
+      "public_author_label": null,
+      "published_at": null,
+      "fetched_at": "2026-10-29",
+      "hole_ids": [
+        122829
+      ],
+      "floor_ids": [
+        1172853
+      ],
+      "review_ids": [],
+      "reading_status": "full_visible_floor_text_read",
+      "mapping_status": "candidate_unconfirmed_section",
+      "record_type": "历史学习投入线索",
+      "adoption": "reference_only_pending_mapping",
+      "reason": "未写教师全名；自述笔记量不是人人必需工作量。",
+      "duplicate_of": null,
+      "license": null,
+      "fulltext_permission": "fulltext_not_published_summary_only",
+      "attribution_and_changes": "保留原平台链接与洞/楼/评价编号；仅发布经过匿名处理的摘要及归属限制，不发布原文或账号。",
+      "evidence_index": "../summaries/evidence.json",
+      "applicability": "仅关联参考；不表示任何当前教学班已确认适用",
+      "confirmed_section_keys": []
+    },
+    {
+      "source_id": "LAW20261029-E0060",
+      "source_type": "treehole",
+      "canonical_url": "https://forum.fduhole.com/api/holes/71871",
+      "public_author_label": null,
+      "published_at": null,
+      "fetched_at": "2026-10-29",
+      "hole_ids": [
+        71871
+      ],
+      "floor_ids": [
+        621485,
+        621502,
+        621813,
+        645859,
+        665688
+      ],
+      "review_ids": [],
+      "reading_status": "full_visible_floor_text_read",
+      "mapping_status": "candidate_unconfirmed_section",
+      "record_type": "部分回复者自称法学生，其他身份不明",
+      "adoption": "reference_only_pending_mapping",
+      "reason": "与2026春本科LAW10003/LAW10003h同师同课名，历史参考。；历史课程版本不明；保留相反评价。",
+      "duplicate_of": null,
+      "license": null,
+      "fulltext_permission": "fulltext_not_published_summary_only",
+      "attribution_and_changes": "保留原平台链接与洞/楼/评价编号；仅发布经过匿名处理的摘要及归属限制，不发布原文或账号。",
+      "evidence_index": "../summaries/evidence.json",
+      "applicability": "仅关联参考；不表示任何当前教学班已确认适用",
+      "confirmed_section_keys": []
+    },
+    {
+      "source_id": "LAW20261029-E0068",
+      "source_type": "treehole",
+      "canonical_url": "https://forum.fduhole.com/api/holes/122829",
+      "public_author_label": null,
+      "published_at": null,
+      "fetched_at": "2026-10-29",
+      "hole_ids": [
+        122829
+      ],
+      "floor_ids": [
+        1172853,
+        1443176
+      ],
+      "review_ids": [],
+      "reading_status": "full_visible_floor_text_read",
+      "mapping_status": "candidate_unconfirmed_section",
+      "record_type": "发帖者称长期回看课程笔记",
+      "adoption": "reference_only_pending_mapping",
+      "reason": "现行2026春本科LAW10003/LAW10003h同师同课名。；个人叙述，回复曾提醒原说法可能误导；不量化笔记量。",
+      "duplicate_of": null,
+      "license": null,
+      "fulltext_permission": "fulltext_not_published_summary_only",
+      "attribution_and_changes": "保留原平台链接与洞/楼/评价编号；仅发布经过匿名处理的摘要及归属限制，不发布原文或账号。",
+      "evidence_index": "../summaries/evidence.json",
+      "applicability": "仅关联参考；不表示任何当前教学班已确认适用",
+      "confirmed_section_keys": []
+    },
+    {
+      "source_id": "LAW20261029-E0069",
+      "source_type": "treehole",
+      "canonical_url": "https://forum.fduhole.com/api/holes/124894",
+      "public_author_label": null,
+      "published_at": null,
+      "fetched_at": "2026-10-29",
+      "hole_ids": [
+        124894
+      ],
+      "floor_ids": [
+        1189730,
+        1189732,
+        1190220
+      ],
+      "review_ids": [],
+      "reading_status": "full_visible_floor_text_read",
+      "mapping_status": "candidate_unconfirmed_section",
+      "record_type": "明确说本人修过",
+      "adoption": "reference_only_pending_mapping",
+      "reason": "现行2026春本科LAW10003/LAW10003h同师同课名。；无考核/工作量细节。",
+      "duplicate_of": null,
+      "license": null,
+      "fulltext_permission": "fulltext_not_published_summary_only",
+      "attribution_and_changes": "保留原平台链接与洞/楼/评价编号；仅发布经过匿名处理的摘要及归属限制，不发布原文或账号。",
+      "evidence_index": "../summaries/evidence.json",
+      "applicability": "仅关联参考；不表示任何当前教学班已确认适用",
+      "confirmed_section_keys": []
+    },
+    {
+      "source_id": "LAW20261029-E0072",
+      "source_type": "treehole",
+      "canonical_url": "https://forum.fduhole.com/api/holes/163670",
+      "public_author_label": null,
+      "published_at": null,
+      "fetched_at": "2026-10-29",
+      "hole_ids": [
+        163670
+      ],
+      "floor_ids": [
+        1507737,
+        1507770,
+        1515169
+      ],
+      "review_ids": [],
+      "reading_status": "full_visible_floor_text_read",
+      "mapping_status": "candidate_unconfirmed_section",
+      "record_type": "详述楼层真实性存疑",
+      "adoption": "reference_only_pending_mapping",
+      "reason": "同现行2026春本科刘志刚行政法，但只能算低置信度线索。；可能反串/戏谑，不作为事实。",
+      "duplicate_of": null,
+      "license": null,
+      "fulltext_permission": "fulltext_not_published_summary_only",
+      "attribution_and_changes": "保留原平台链接与洞/楼/评价编号；仅发布经过匿名处理的摘要及归属限制，不发布原文或账号。",
+      "evidence_index": "../summaries/evidence.json",
+      "applicability": "仅关联参考；不表示任何当前教学班已确认适用",
+      "confirmed_section_keys": []
+    },
+    {
+      "source_id": "LAW20261029-E0100",
+      "source_type": "treehole",
+      "canonical_url": "https://forum.fduhole.com/api/floors/1841225",
+      "public_author_label": null,
+      "published_at": null,
+      "fetched_at": "2026-10-29",
+      "hole_ids": [
+        196155
+      ],
+      "floor_ids": [
+        1841225
+      ],
+      "review_ids": [],
+      "reading_status": "full_visible_floor_text_read",
+      "mapping_status": "candidate_unconfirmed_section",
+      "record_type": "firsthand_experience",
+      "adoption": "reference_only_pending_mapping",
+      "reason": "可能对应2026春本科LAW10003刘志刚；须将LZG视为未核实别名。；作为历史行政法教学风格线索；教师缩写需谨慎，不能替代当前班评价。",
+      "duplicate_of": null,
+      "license": null,
+      "fulltext_permission": "fulltext_not_published_summary_only",
+      "attribution_and_changes": "保留原平台链接与洞/楼/评价编号；仅发布经过匿名处理的摘要及归属限制，不发布原文或账号。",
+      "evidence_index": "../summaries/evidence.json",
+      "applicability": "仅关联参考；不表示任何当前教学班已确认适用",
+      "confirmed_section_keys": []
+    },
+    {
+      "source_id": "LAW20261029-E0105",
+      "source_type": "treehole",
+      "canonical_url": "https://forum.fduhole.com/api/floors/2471049",
+      "public_author_label": null,
+      "published_at": null,
+      "fetched_at": "2026-10-29",
+      "hole_ids": [
+        265365
+      ],
+      "floor_ids": [
+        2471049
+      ],
+      "review_ids": [],
+      "reading_status": "full_visible_floor_text_read",
+      "mapping_status": "candidate_unconfirmed_section",
+      "record_type": "firsthand_experience_weak",
+      "adoption": "reference_only_pending_mapping",
+      "reason": "未匹配具体教师。；保留为未指名教师的历史考核负担线索；不猜缩写姓名。",
+      "duplicate_of": null,
+      "license": null,
+      "fulltext_permission": "fulltext_not_published_summary_only",
+      "attribution_and_changes": "保留原平台链接与洞/楼/评价编号；仅发布经过匿名处理的摘要及归属限制，不发布原文或账号。",
+      "evidence_index": "../summaries/evidence.json",
+      "applicability": "仅关联参考；不表示任何当前教学班已确认适用",
+      "confirmed_section_keys": []
+    },
+    {
+      "source_id": "LAW20261029-E0112",
+      "source_type": "treehole",
+      "canonical_url": "https://forum.fduhole.com/api/floors/2701975",
+      "public_author_label": null,
+      "published_at": null,
+      "fetched_at": "2026-10-29",
+      "hole_ids": [
+        288654
+      ],
+      "floor_ids": [
+        2701975
+      ],
+      "review_ids": [],
+      "reading_status": "full_visible_floor_text_read",
+      "mapping_status": "candidate_unconfirmed_section",
+      "record_type": "experience_unverified_recommendation",
+      "adoption": "reference_only_pending_mapping",
+      "reason": "可能匹配2026春本科行政法刘志刚；教师缩写未在帖内核实。；低细节正面线索；仅在LZG=刘志刚缩写假设下关联2026春LAW10003。",
+      "duplicate_of": null,
+      "license": null,
+      "fulltext_permission": "fulltext_not_published_summary_only",
+      "attribution_and_changes": "保留原平台链接与洞/楼/评价编号；仅发布经过匿名处理的摘要及归属限制，不发布原文或账号。",
+      "evidence_index": "../summaries/evidence.json",
+      "applicability": "仅关联参考；不表示任何当前教学班已确认适用",
+      "confirmed_section_keys": []
+    },
+    {
+      "source_id": "LAW20261029-E0128",
+      "source_type": "treehole",
+      "canonical_url": "https://forum.fduhole.com/api/floors/3683453",
+      "public_author_label": null,
+      "published_at": null,
+      "fetched_at": "2026-10-29",
+      "hole_ids": [
+        404214
+      ],
+      "floor_ids": [
+        3683453
+      ],
+      "review_ids": [],
+      "reading_status": "full_visible_floor_text_read",
+      "mapping_status": "candidate_unconfirmed_section",
+      "record_type": "experience_unverified_recommendation",
+      "adoption": "reference_only_pending_mapping",
+      "reason": "可能匹配2026春本科LAW10003刘志刚。；短推荐仅作弱线索；别名推定，不能替代当前班反馈。",
+      "duplicate_of": null,
+      "license": null,
+      "fulltext_permission": "fulltext_not_published_summary_only",
+      "attribution_and_changes": "保留原平台链接与洞/楼/评价编号；仅发布经过匿名处理的摘要及归属限制，不发布原文或账号。",
+      "evidence_index": "../summaries/evidence.json",
+      "applicability": "仅关联参考；不表示任何当前教学班已确认适用",
+      "confirmed_section_keys": []
+    },
+    {
+      "source_id": "LAW20261029-E0169",
+      "source_type": "treehole",
+      "canonical_url": "https://forum.fduhole.com/api/floors/3683453",
+      "public_author_label": null,
+      "published_at": null,
+      "fetched_at": "2026-10-29",
+      "hole_ids": [
+        404214
+      ],
+      "floor_ids": [
+        3683453,
+        3685890,
+        3686186,
+        3686380,
+        3686638,
+        3709070
+      ],
+      "review_ids": [],
+      "reading_status": "full_visible_floor_text_read",
+      "mapping_status": "candidate_unconfirmed_section",
+      "record_type": "历史候选参考",
+      "adoption": "reference_only_pending_mapping",
+      "reason": "2026春本科LAW10003由刘志刚授课；2025秋另有研究生LAW60010行政法与行政诉讼法刘志刚/严益州班。原帖未指班型或全名，不能跨层次归属。",
+      "duplicate_of": null,
+      "license": null,
+      "fulltext_permission": "fulltext_not_published_summary_only",
+      "attribution_and_changes": "保留原平台链接与洞/楼/评价编号；仅发布经过匿名处理的摘要及归属限制，不发布原文或账号。",
+      "evidence_index": "../summaries/evidence.json",
+      "applicability": "仅关联参考；不表示任何当前教学班已确认适用",
+      "confirmed_section_keys": []
+    },
+    {
+      "source_id": "LAW20261029-E0173",
+      "source_type": "treehole",
+      "canonical_url": "https://forum.fduhole.com/api/floors/3682241",
+      "public_author_label": null,
+      "published_at": null,
+      "fetched_at": "2026-10-29",
+      "hole_ids": [
+        404984
+      ],
+      "floor_ids": [
+        3682241,
+        3682443,
+        3682609,
+        4185448,
+        4201150,
+        4201171,
+        4203199,
+        4203174
+      ],
+      "review_ids": [],
+      "reading_status": "full_visible_floor_text_read",
+      "mapping_status": "candidate_unconfirmed_section",
+      "record_type": "学程级待核意见",
+      "adoption": "reference_only_pending_mapping",
+      "reason": "候选代码只是按课程名匹配的当期本科课；没有证据把“施老师”指向施鸿鹏班，也不拆给各个班级。",
+      "duplicate_of": null,
+      "license": null,
+      "fulltext_permission": "fulltext_not_published_summary_only",
+      "attribution_and_changes": "保留原平台链接与洞/楼/评价编号；仅发布经过匿名处理的摘要及归属限制，不发布原文或账号。",
+      "evidence_index": "../summaries/evidence.json",
+      "applicability": "仅关联参考；不表示任何当前教学班已确认适用",
+      "confirmed_section_keys": []
+    },
+    {
+      "source_id": "LAW20261029-E0188",
+      "source_type": "treehole",
+      "canonical_url": "https://forum.fduhole.com/api/floors/5510078",
+      "public_author_label": null,
+      "published_at": null,
+      "fetched_at": "2026-10-29",
+      "hole_ids": [
+        606860
+      ],
+      "floor_ids": [
+        5510078,
+        5510099,
+        5538420,
+        5542434
+      ],
+      "review_ids": [],
+      "reading_status": "full_visible_floor_text_read",
+      "mapping_status": "candidate_unconfirmed_section",
+      "record_type": "workload_and_teaching_style_unverified",
+      "adoption": "reference_only_pending_mapping",
+      "reason": "目录的2026春本科行政法为LAW10003及LAW10003h，教师是刘志刚；帖子只见lzg缩写，不能据首字母强行实名或区分H班。",
+      "duplicate_of": null,
+      "license": null,
+      "fulltext_permission": "fulltext_not_published_summary_only",
+      "attribution_and_changes": "保留原平台链接与洞/楼/评价编号；仅发布经过匿名处理的摘要及归属限制，不发布原文或账号。",
+      "evidence_index": "../summaries/evidence.json",
+      "applicability": "仅关联参考；不表示任何当前教学班已确认适用",
+      "confirmed_section_keys": []
+    },
+    {
+      "source_id": "LAW20261029-E0193",
+      "source_type": "treehole",
+      "canonical_url": "https://forum.fduhole.com/api/floors/5940676",
+      "public_author_label": null,
+      "published_at": null,
+      "fetched_at": "2026-10-29",
+      "hole_ids": [
+        657078
+      ],
+      "floor_ids": [
+        5940676,
+        5940688,
+        5940689,
+        5940715,
+        5940720,
+        5940738,
+        5940740,
+        5940768,
+        5940770,
+        5940928,
+        5940937,
+        5946103,
+        5948835
+      ],
+      "review_ids": [],
+      "reading_status": "full_visible_floor_text_read",
+      "mapping_status": "candidate_unconfirmed_section",
+      "record_type": "coursework_discussion_unverified",
+      "adoption": "reference_only_pending_mapping",
+      "reason": "课程名明确，可能对应目录中刘志刚的本科行政法LAW10003或LAW10003h，但帖子未确认教师、section及学生身份；篇幅受个人写作和AI使用影响，不代表统一作业要求。",
+      "duplicate_of": null,
+      "license": null,
+      "fulltext_permission": "fulltext_not_published_summary_only",
+      "attribution_and_changes": "保留原平台链接与洞/楼/评价编号；仅发布经过匿名处理的摘要及归属限制，不发布原文或账号。",
+      "evidence_index": "../summaries/evidence.json",
+      "applicability": "仅关联参考；不表示任何当前教学班已确认适用",
+      "confirmed_section_keys": []
+    },
+    {
+      "source_id": "LAW20261029-E0194",
+      "source_type": "treehole",
+      "canonical_url": "https://forum.fduhole.com/api/floors/5746452",
+      "public_author_label": null,
+      "published_at": null,
+      "fetched_at": "2026-10-29",
+      "hole_ids": [
+        634834
+      ],
+      "floor_ids": [
+        5746452,
+        5746530,
+        5746554,
+        5746556,
+        5746560,
+        5747048
+      ],
+      "review_ids": [],
+      "reading_status": "full_visible_floor_text_read",
+      "mapping_status": "candidate_unconfirmed_section",
+      "record_type": "exam_policy_discussion_unverified",
+      "adoption": "reference_only_pending_mapping",
+      "reason": "目录中本科行政法有LAW10003与LAW10003h两个section；帖子没有教师或班型信息，考试安排亦未由课程通知核实。",
+      "duplicate_of": null,
+      "license": null,
+      "fulltext_permission": "fulltext_not_published_summary_only",
+      "attribution_and_changes": "保留原平台链接与洞/楼/评价编号；仅发布经过匿名处理的摘要及归属限制，不发布原文或账号。",
+      "evidence_index": "../summaries/evidence.json",
+      "applicability": "仅关联参考；不表示任何当前教学班已确认适用",
+      "confirmed_section_keys": []
+    },
+    {
+      "source_id": "LAW20261029-E0195",
+      "source_type": "treehole",
+      "canonical_url": "https://forum.fduhole.com/api/floors/5865251",
+      "public_author_label": null,
+      "published_at": null,
+      "fetched_at": "2026-10-29",
+      "hole_ids": [
+        647751
+      ],
+      "floor_ids": [
+        5865251,
+        5865259,
+        5865384,
+        5865597,
+        5866463,
+        5868397,
+        5869292,
+        5869294,
+        5869420,
+        5869843,
+        5875088,
+        5933711
+      ],
+      "review_ids": [],
+      "reading_status": "full_visible_floor_text_read",
+      "mapping_status": "candidate_unconfirmed_section",
+      "record_type": "weak_negative_reaction",
+      "adoption": "reference_only_pending_mapping",
+      "reason": "主题和时间与本科行政法吻合，但发言简短且班型、教师未明；仅是弱烈度反应，不能推出整体课程质量或教师评价。",
+      "duplicate_of": null,
+      "license": null,
+      "fulltext_permission": "fulltext_not_published_summary_only",
+      "attribution_and_changes": "保留原平台链接与洞/楼/评价编号；仅发布经过匿名处理的摘要及归属限制，不发布原文或账号。",
+      "evidence_index": "../summaries/evidence.json",
+      "applicability": "仅关联参考；不表示任何当前教学班已确认适用",
+      "confirmed_section_keys": []
+    },
+    {
+      "source_id": "LAW20261029-E0215",
+      "source_type": "treehole",
+      "canonical_url": "https://forum.fduhole.com/api/floors/6139476",
+      "public_author_label": null,
+      "published_at": null,
+      "fetched_at": "2026-10-29",
+      "hole_ids": [
+        673147
+      ],
+      "floor_ids": [
+        6139476,
+        6141677,
+        6178130
+      ],
+      "review_ids": [],
+      "reading_status": "full_visible_floor_text_read",
+      "mapping_status": "candidate_unconfirmed_section",
+      "record_type": "当期窗口短评，班型待核",
+      "adoption": "reference_only_pending_mapping",
+      "reason": "大班/标准与H班未通过代码确认；“很多A-”是个人说法，不能视为真实比例，也不能移植往年。",
+      "duplicate_of": null,
+      "license": null,
+      "fulltext_permission": "fulltext_not_published_summary_only",
+      "attribution_and_changes": "保留原平台链接与洞/楼/评价编号；仅发布经过匿名处理的摘要及归属限制，不发布原文或账号。",
+      "evidence_index": "../summaries/evidence.json",
+      "applicability": "仅关联参考；不表示任何当前教学班已确认适用",
+      "confirmed_section_keys": []
+    }
+  ],
+  "syllabus": {
+    "source_ids": [],
+    "content": "本批未采集班级大纲；官方开课范围见sections。",
+    "prerequisites": "",
+    "assessment": ""
+  },
+  "materials": [
+    {
+      "type": "official_timetable",
+      "path": "../official/timetable.csv"
+    },
+    {
+      "type": "official_program_index",
+      "path": "../official/programs.json"
+    },
+    {
+      "type": "offline_report_and_originals",
+      "url": "https://github.com/pythonbug225/fudan-course-atlas/releases/download/law-research-20261029/law-research-20261029.zip"
+    }
+  ],
+  "student_reviews_and_discussions": [
+    {
+      "source_id": "LAW20261029-E0015",
+      "summary": "两条短评均不满意，一条认为语速慢。 一条称任务量较大，但没有列明具体任务。 一条对评分感到困惑，没有具体分数。",
+      "period": "正文未单独明确修读期；API原始班字段：year=2021,semester=3",
+      "teacher_as_source": "刘志刚",
+      "scope_note": "均为2021/S3疫情时期历史条目，需与论坛具体正面描述并列，不能只据短评给教师定性。",
+      "applicability": "仅关联参考；不表示任何当前教学班已确认适用",
+      "mapping_status": "candidate_unconfirmed_section"
+    },
+    {
+      "source_id": "LAW20261029-E0026",
+      "summary": "同一讨论线程中，一条推荐行政法，另一条具体描述先按教材建立框架，再比较法条，并提到课堂反馈与答题方法。",
+      "period": "2022-11-24T18:18:11.683+08:00；2022-11-26T11:39:14.197+08:00",
+      "teacher_as_source": "刘志刚",
+      "scope_note": "2022年同洞内容，不计作两个独立修读样本；普通/H班及权重未明。",
+      "applicability": "仅关联参考；不表示任何当前教学班已确认适用",
+      "mapping_status": "candidate_unconfirmed_section"
+    },
+    {
+      "source_id": "LAW20261029-E0048",
+      "summary": "作者回忆刘老师行政法课程的笔记量大且多年后仍有帮助。",
+      "period": "2022-08-12T00:46:23.117+08:00",
+      "teacher_as_source": "未具名",
+      "scope_note": "未写教师全名；自述笔记量不是人人必需工作量。",
+      "applicability": "仅关联参考；不表示任何当前教学班已确认适用",
+      "mapping_status": "candidate_unconfirmed_section"
+    },
+    {
+      "source_id": "LAW20261029-E0060",
+      "summary": "意见矛盾：有称讲解慢且有条理；有称气氛压抑、教材式讲授和提问多；也有人说教师认真、内容扎实、教答题且考试相对简单。",
+      "period": "2022上下文，修读学期不明",
+      "teacher_as_source": "刘志刚",
+      "scope_note": "与2026春本科LAW10003/LAW10003h同师同课名，历史参考。；历史课程版本不明；保留相反评价。",
+      "applicability": "仅关联参考；不表示任何当前教学班已确认适用",
+      "mapping_status": "candidate_unconfirmed_section"
+    },
+    {
+      "source_id": "LAW20261029-E0068",
+      "summary": "称一学期记下大量笔记，数年后还会复习；回复称有共鸣。",
+      "period": "一学期，起止未明",
+      "teacher_as_source": "刘志刚",
+      "scope_note": "现行2026春本科LAW10003/LAW10003h同师同课名。；个人叙述，回复曾提醒原说法可能误导；不量化笔记量。",
+      "applicability": "仅关联参考；不表示任何当前教学班已确认适用",
+      "mapping_status": "candidate_unconfirmed_section"
+    },
+    {
+      "source_id": "LAW20261029-E0069",
+      "summary": "称课程向非法律专业开放，自己上过并受益。",
+      "period": "未明",
+      "teacher_as_source": "刘志刚",
+      "scope_note": "现行2026春本科LAW10003/LAW10003h同师同课名。；无考核/工作量细节。",
+      "applicability": "仅关联参考；不表示任何当前教学班已确认适用",
+      "mapping_status": "candidate_unconfirmed_section"
+    },
+    {
+      "source_id": "LAW20261029-E0072",
+      "summary": "多人短评推荐；一条详述教学方法的回帖在关联洞被其他同学戏仿其固定话术，因此不采纳细节。",
+      "period": "未明",
+      "teacher_as_source": "刘志刚",
+      "scope_note": "同现行2026春本科刘志刚行政法，但只能算低置信度线索。；可能反串/戏谑，不作为事实。",
+      "applicability": "仅关联参考；不表示任何当前教学班已确认适用",
+      "mapping_status": "candidate_unconfirmed_section"
+    },
+    {
+      "source_id": "LAW20261029-E0100",
+      "summary": "评论称教师讲授认真、生动，强调课堂内容需要记录并可能纳入考试。",
+      "period": "发帖时间：02/02/2023 16:10:06；修读学期未核，除非正文明确说明。",
+      "teacher_as_source": "lzg（可能指刘志刚；缩写推定）",
+      "scope_note": "可能对应2026春本科LAW10003刘志刚；须将LZG视为未核实别名。；作为历史行政法教学风格线索；教师缩写需谨慎，不能替代当前班评价。",
+      "applicability": "仅关联参考；不表示任何当前教学班已确认适用",
+      "mapping_status": "candidate_unconfirmed_section"
+    },
+    {
+      "source_id": "LAW20261029-E0105",
+      "summary": "希望课程未来能划定期末范围，反映评论者感到需在大量法规中自行复习。",
+      "period": "发帖时间：06/16/2023 08:10:42；修读学期未核，除非正文明确说明。",
+      "teacher_as_source": "gjq（未解码）",
+      "scope_note": "未匹配具体教师。；保留为未指名教师的历史考核负担线索；不猜缩写姓名。",
+      "applicability": "仅关联参考；不表示任何当前教学班已确认适用",
+      "mapping_status": "candidate_unconfirmed_section"
+    },
+    {
+      "source_id": "LAW20261029-E0112",
+      "summary": "推荐LZG行政法，称与生活接近、能体现法学逻辑与条理；未明确写本人修读。",
+      "period": "发帖时间：08/25/2023 13:53:04；修读学期未核，除非正文明确说明。",
+      "teacher_as_source": "lzg（可能为刘志刚）",
+      "scope_note": "可能匹配2026春本科行政法刘志刚；教师缩写未在帖内核实。；低细节正面线索；仅在LZG=刘志刚缩写假设下关联2026春LAW10003。",
+      "applicability": "仅关联参考；不表示任何当前教学班已确认适用",
+      "mapping_status": "candidate_unconfirmed_section"
+    },
+    {
+      "source_id": "LAW20261029-E0128",
+      "summary": "一句话推荐LZG行政法，称课程使其喜欢法学，未给考核或修读期。",
+      "period": "发帖时间：01/07/2025 03:12:41；修读学期未核，除非正文明确说明。",
+      "teacher_as_source": "lzg（可能刘志刚）",
+      "scope_note": "可能匹配2026春本科LAW10003刘志刚。；短推荐仅作弱线索；别名推定，不能替代当前班反馈。",
+      "applicability": "仅关联参考；不表示任何当前教学班已确认适用",
+      "mapping_status": "candidate_unconfirmed_section"
+    },
+    {
+      "source_id": "LAW20261029-E0169",
+      "summary": "历史讨论推荐从lzg行政法入门；有人称早八且无聊但同洞明确说该条是反串，另一位称并非开玩笑，觉得内容充实、概念比较清晰且学到了东西，但有时困得跟不上。",
+      "period": "2025-01讨论，预计针对历史/计划中的下一学期班，非目标学期直证",
+      "teacher_as_source": "lzg（原文缩写；刘志刚为官方课表候选，不视为已由帖子证明）",
+      "scope_note": "2026春本科LAW10003由刘志刚授课；2025秋另有研究生LAW60010行政法与行政诉讼法刘志刚/严益州班。原帖未指班型或全名，不能跨层次归属。",
+      "applicability": "仅关联参考；不表示任何当前教学班已确认适用",
+      "mapping_status": "candidate_unconfirmed_section"
+    },
+    {
+      "source_id": "LAW20261029-E0173",
+      "summary": "2025年学程讨论有学生转述民法背书常见A-/A，并称施老师有意思；另有人建议民法/刑法可选、行政法谨慎。信息多为传闻，学程课程包随后被指已有变化。",
+      "period": "2025-01至2025-05学程讨论，课程包版本不明",
+      "teacher_as_source": "评论仅说“施老师”，其余未具名",
+      "scope_note": "候选代码只是按课程名匹配的当期本科课；没有证据把“施老师”指向施鸿鹏班，也不拆给各个班级。",
+      "applicability": "仅关联参考；不表示任何当前教学班已确认适用",
+      "mapping_status": "candidate_unconfirmed_section"
+    },
+    {
+      "source_id": "LAW20261029-E0188",
+      "summary": "同一选课咨询中有人称行政法平时任务较多、课程难度较高；另有人称教师课堂会随机抽人回答问题。属于回帖经验/选课建议，未能确认陈述者本人是否修过该班。",
+      "period": "未明；来源帖发表于2026-03-04至2026-03-10",
+      "teacher_as_source": "lzg（简称，身份未核）",
+      "scope_note": "目录的2026春本科行政法为LAW10003及LAW10003h，教师是刘志刚；帖子只见lzg缩写，不能据首字母强行实名或区分H班。",
+      "applicability": "仅关联参考；不表示任何当前教学班已确认适用",
+      "mapping_status": "candidate_unconfirmed_section"
+    },
+    {
+      "source_id": "LAW20261029-E0193",
+      "summary": "学生讨论行政复议作业篇幅：一人说自己写到64页，其他人报27页、3页、40页或称用AI生成后再精简；回复中也有人质疑老师是否会逐份阅读。后者是猜测，不能当作教师做法。",
+      "period": "2026春候选（帖子发布于2026-06-01至2026-06-02；未确认具体班次）",
+      "teacher_as_source": "未核实",
+      "scope_note": "课程名明确，可能对应目录中刘志刚的本科行政法LAW10003或LAW10003h，但帖子未确认教师、section及学生身份；篇幅受个人写作和AI使用影响，不代表统一作业要求。",
+      "applicability": "仅关联参考；不表示任何当前教学班已确认适用",
+      "mapping_status": "candidate_unconfirmed_section"
+    },
+    {
+      "source_id": "LAW20261029-E0194",
+      "summary": "学生讨论行政法期中是否延期和考试开闭卷：一人称“据说今年改闭卷”，回复者称期中开卷、期末往常闭卷。帖子本身有互相纠正，适合作为待核课程信息，不能据此断言最终考试规则。",
+      "period": "2026春候选（帖子发布于2026-04-21）",
+      "teacher_as_source": "未核实",
+      "scope_note": "目录中本科行政法有LAW10003与LAW10003h两个section；帖子没有教师或班型信息，考试安排亦未由课程通知核实。",
+      "applicability": "仅关联参考；不表示任何当前教学班已确认适用",
+      "mapping_status": "candidate_unconfirmed_section"
+    },
+    {
+      "source_id": "LAW20261029-E0195",
+      "summary": "短帖里多人重复写“行政法我恨你”，一人补充抱怨作业；未给出具体困难、考核细节或完整修读信息。",
+      "period": "2026春候选（帖子发布于2026-05-17至2026-05-30）",
+      "teacher_as_source": "未核实",
+      "scope_note": "主题和时间与本科行政法吻合，但发言简短且班型、教师未明；仅是弱烈度反应，不能推出整体课程质量或教师评价。",
+      "applicability": "仅关联参考；不表示任何当前教学班已确认适用",
+      "mapping_status": "candidate_unconfirmed_section"
+    },
+    {
+      "source_id": "LAW20261029-E0215",
+      "summary": "一位在行政法大班报分帖自报A-并觉得给分不错，另有旧生感叹与去年不同。",
+      "period": "2026年6–7月报分窗口；修读26春为时间语境推断，未逐人确认",
+      "teacher_as_source": "lzg（候选刘志刚）",
+      "scope_note": "大班/标准与H班未通过代码确认；“很多A-”是个人说法，不能视为真实比例，也不能移植往年。",
+      "applicability": "仅关联参考；不表示任何当前教学班已确认适用",
+      "mapping_status": "candidate_unconfirmed_section"
+    }
+  ],
+  "quantitative_observations": [],
+  "comparison_and_summary": {
+    "teaching_and_learning": "",
+    "workload": "",
+    "assessment": "",
+    "grading_and_risk": "",
+    "teacher_and_term_differences": "相关材料仅作为来源检索与历史参考；同名不确认层次、教师、学期或班型。每条限制见中央证据索引。",
+    "who_it_suits": "",
+    "source_ids": [
+      "LAW20261029-E0015",
+      "LAW20261029-E0026",
+      "LAW20261029-E0048",
+      "LAW20261029-E0060",
+      "LAW20261029-E0068",
+      "LAW20261029-E0069",
+      "LAW20261029-E0072",
+      "LAW20261029-E0100",
+      "LAW20261029-E0105",
+      "LAW20261029-E0112",
+      "LAW20261029-E0128",
+      "LAW20261029-E0169",
+      "LAW20261029-E0173",
+      "LAW20261029-E0188",
+      "LAW20261029-E0193",
+      "LAW20261029-E0194",
+      "LAW20261029-E0195",
+      "LAW20261029-E0215"
+    ]
+  },
+  "batch_id": "law-20261029",
+  "batch_scope": {
+    "curriculum_cohort": 2026,
+    "teaching_terms": [
+      "2025秋",
+      "2026春"
+    ],
+    "program_mapping_status": "not_inferred_for_individual_course"
+  }
+}

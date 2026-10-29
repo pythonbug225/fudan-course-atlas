@@ -1,0 +1,15 @@
+{
+  "院系": "法学院",
+  "院系ID": "2565",
+  "目录来源": "https://fdjwgl.fudan.edu.cn/manager/bizType/2/page-center/major-program-search-view/search?skipAuth=1&YEARS=2026&DEPART_IDS=2565&queryPage__=1,500",
+  "详情接口模板": "https://fdjwgl.fudan.edu.cn/manager/bizType/2/major-program-search/info/{id}?skipAuth=1",
+  "原件导出接口": "https://fdjwgl.fudan.edu.cn/manager/bizType/2/major-program-search/export-word",
+  "原件导出方法": "POST",
+  "原件导出参数": "ids=<方案编号>",
+  "教学班接口模板": "https://fdjwgl.fudan.edu.cn/student/for-all/lesson-search/semester/{semester_id}/search/{semester_id}?openDepartmentAssocs=2565&queryPage__=1,500",
+  "学期ID": {
+    "2025秋": 504,
+    "2026春": 505
+  },
+  "认证说明": "以上查询在未提供认证凭据的情况下由公开接口直接返回。"
+}

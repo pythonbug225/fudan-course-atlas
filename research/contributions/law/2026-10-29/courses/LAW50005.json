@@ -1,0 +1,175 @@
+{
+  "schema_version": 1,
+  "course": {
+    "code": "LAW50005",
+    "name": "劳动法",
+    "department": "法学院",
+    "credits": 2,
+    "term": "2025秋",
+    "teachers": [
+      "李世刚"
+    ],
+    "section_code": null,
+    "class_type": "ordinary",
+    "course_type_code": null,
+    "program_year": null,
+    "program_names": [],
+    "required_or_elective": null,
+    "terms": [
+      "2025秋"
+    ],
+    "levels": [
+      "本科",
+      "研究生"
+    ],
+    "sections": [
+      {
+        "term": "2025秋",
+        "course_code": "LAW50005",
+        "course_name": "劳动法",
+        "teachers": [
+          "李世刚"
+        ],
+        "credits": 2,
+        "course_level": "本科",
+        "section_code": "LAW50005.01",
+        "department": "法学院",
+        "source_url": "https://fdjwgl.fudan.edu.cn/student/for-all/lesson-search/semester/504/search/504?openDepartmentAssocs=2565&queryPage__=1,500"
+      },
+      {
+        "term": "2025秋",
+        "course_code": "LAW50005",
+        "course_name": "劳动法",
+        "teachers": [
+          "李世刚"
+        ],
+        "credits": 2,
+        "course_level": "研究生",
+        "section_code": "LAW50005.02",
+        "department": "法学院",
+        "source_url": "https://fdjwgl.fudan.edu.cn/student/for-all/lesson-search/semester/504/search/504?openDepartmentAssocs=2565&queryPage__=1,500"
+      }
+    ]
+  },
+  "aliases": {
+    "course_names": [
+      "劳动法"
+    ],
+    "teacher_names_or_pinyin": [
+      "李世刚"
+    ],
+    "ambiguous_matches": [
+      "完整候选检索词见ledgers/search-variants.json；首字母和昵称不是唯一身份。"
+    ]
+  },
+  "progress": {
+    "owner": "Codex + Luna xhigh parallel readers",
+    "reviewer": "Independent agent checks; no human review implied",
+    "status": "partial_external_sources",
+    "queries": [
+      "FORUM-EXACT-00128",
+      "FORUM-EXACT-00129",
+      "FORUM-EXACT-00134",
+      "FORUM-EXACT-00426",
+      "FORUM-EXACT-00459",
+      "FORUM-EXACT-00480",
+      "FORUM-EXACT-00487",
+      "FORUM-EXACT-00499",
+      "DANKE-00128",
+      "DANKE-00129",
+      "DANKE-00134",
+      "DANKE-00426",
+      "DANKE-00459",
+      "DANKE-00480",
+      "DANKE-00487",
+      "DANKE-00499"
+    ],
+    "remaining_scope": [
+      "小红书、知乎、微信公众号登录态站内检索未完成。",
+      "图片未OCR，源班/教师/学期未核的材料仍待对应。"
+    ],
+    "no_student_reviews_found": false
+  },
+  "sources": [
+    {
+      "source_id": "LAW20261029-E0160",
+      "source_type": "treehole",
+      "canonical_url": "https://forum.fduhole.com/api/floors/2335459",
+      "public_author_label": null,
+      "published_at": null,
+      "fetched_at": "2026-10-29",
+      "hole_ids": [
+        245678
+      ],
+      "floor_ids": [
+        2335459,
+        2756357
+      ],
+      "review_ids": [],
+      "reading_status": "full_visible_floor_text_read",
+      "mapping_status": "candidate_unconfirmed_section",
+      "record_type": "历史负面线索，层次/班级未明",
+      "adoption": "reference_only_pending_mapping",
+      "reason": "2025秋官方目录同时有本科LAW50005.01和研究生LAW50005.02，均为李世刚；原评论未说明层次，禁止归到任一班。",
+      "duplicate_of": null,
+      "license": null,
+      "fulltext_permission": "fulltext_not_published_summary_only",
+      "attribution_and_changes": "保留原平台链接与洞/楼/评价编号；仅发布经过匿名处理的摘要及归属限制，不发布原文或账号。",
+      "evidence_index": "../summaries/evidence.json",
+      "applicability": "仅关联参考；不表示任何当前教学班已确认适用",
+      "confirmed_section_keys": []
+    }
+  ],
+  "syllabus": {
+    "source_ids": [],
+    "content": "本批未采集班级大纲；官方开课范围见sections。",
+    "prerequisites": "",
+    "assessment": ""
+  },
+  "materials": [
+    {
+      "type": "official_timetable",
+      "path": "../official/timetable.csv"
+    },
+    {
+      "type": "official_program_index",
+      "path": "../official/programs.json"
+    },
+    {
+      "type": "offline_report_and_originals",
+      "url": "https://github.com/pythonbug225/fudan-course-atlas/releases/download/law-research-20261029/law-research-20261029.zip"
+    }
+  ],
+  "student_reviews_and_discussions": [
+    {
+      "source_id": "LAW20261029-E0160",
+      "summary": "2023年旧帖有简短负面评价；另一回复称课堂令人坐立不安，并提及全英文授课、教师后段课堂反应，但评论所在楼存在“今年是否如此”的纠正，不能确认具体班与细节。",
+      "period": "2023年历史讨论，学期未明",
+      "teacher_as_source": "李世刚",
+      "scope_note": "2025秋官方目录同时有本科LAW50005.01和研究生LAW50005.02，均为李世刚；原评论未说明层次，禁止归到任一班。",
+      "applicability": "仅关联参考；不表示任何当前教学班已确认适用",
+      "mapping_status": "candidate_unconfirmed_section"
+    }
+  ],
+  "quantitative_observations": [],
+  "comparison_and_summary": {
+    "teaching_and_learning": "",
+    "workload": "",
+    "assessment": "",
+    "grading_and_risk": "",
+    "teacher_and_term_differences": "相关材料仅作为来源检索与历史参考；同名不确认层次、教师、学期或班型。每条限制见中央证据索引。",
+    "who_it_suits": "",
+    "source_ids": [
+      "LAW20261029-E0160"
+    ]
+  },
+  "batch_id": "law-20261029",
+  "batch_scope": {
+    "curriculum_cohort": 2026,
+    "teaching_terms": [
+      "2025秋",
+      "2026春"
+    ],
+    "program_mapping_status": "not_inferred_for_individual_course"
+  }
+}

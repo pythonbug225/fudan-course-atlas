@@ -1,0 +1,198 @@
+{
+  "schema_version": 1,
+  "course": {
+    "code": "GEEC10214",
+    "name": "知识经济与知识产权管理",
+    "department": "法学院",
+    "credits": 2,
+    "term": "2026春",
+    "teachers": [
+      "马忠法"
+    ],
+    "section_code": "GEEC10214.01",
+    "class_type": "ordinary",
+    "course_type_code": null,
+    "program_year": null,
+    "program_names": [],
+    "required_or_elective": null,
+    "terms": [
+      "2026春"
+    ],
+    "levels": [
+      "本科"
+    ],
+    "sections": [
+      {
+        "term": "2026春",
+        "course_code": "GEEC10214",
+        "course_name": "知识经济与知识产权管理",
+        "teachers": [
+          "马忠法"
+        ],
+        "credits": 2,
+        "course_level": "本科",
+        "section_code": "GEEC10214.01",
+        "department": "法学院",
+        "source_url": "https://fdjwgl.fudan.edu.cn/student/for-all/lesson-search/semester/505/search/505?openDepartmentAssocs=2565&queryPage__=1,500"
+      }
+    ]
+  },
+  "aliases": {
+    "course_names": [
+      "知识经济与知识产权管理"
+    ],
+    "teacher_names_or_pinyin": [
+      "马忠法"
+    ],
+    "ambiguous_matches": [
+      "完整候选检索词见ledgers/search-variants.json；首字母和昵称不是唯一身份。"
+    ]
+  },
+  "progress": {
+    "owner": "Codex + Luna xhigh parallel readers",
+    "reviewer": "Independent agent checks; no human review implied",
+    "status": "partial_external_sources",
+    "queries": [
+      "FORUM-EXACT-00148",
+      "FORUM-EXACT-00298",
+      "FORUM-EXACT-00299",
+      "FORUM-EXACT-00370",
+      "FORUM-EXACT-00512",
+      "FORUM-EXACT-00525",
+      "FORUM-EXACT-00635",
+      "FORUM-EXACT-00654",
+      "FORUM-OBSERVED-ALIAS-002",
+      "DANKE-00148",
+      "DANKE-00298",
+      "DANKE-00299",
+      "DANKE-00370",
+      "DANKE-00512",
+      "DANKE-00525",
+      "DANKE-00635",
+      "DANKE-00654",
+      "DANKE-OBSERVED-ALIAS-002"
+    ],
+    "remaining_scope": [
+      "小红书、知乎、微信公众号登录态站内检索未完成。",
+      "图片未OCR，源班/教师/学期未核的材料仍待对应。"
+    ],
+    "no_student_reviews_found": false
+  },
+  "sources": [
+    {
+      "source_id": "LAW20261029-E0012",
+      "source_type": "danke",
+      "canonical_url": "https://danke.fduhole.com/api/v3/course_groups/2707",
+      "public_author_label": null,
+      "published_at": null,
+      "fetched_at": "2026-10-29",
+      "hole_ids": [],
+      "floor_ids": [],
+      "review_ids": [
+        4088,
+        6488
+      ],
+      "reading_status": "full_review_text_read",
+      "mapping_status": "candidate_unconfirmed_section",
+      "record_type": "历史同师课程参考",
+      "adoption": "reference_only_pending_mapping",
+      "reason": "API均挂2024/S3，上传年份不同，不直接改写为2026春。",
+      "duplicate_of": null,
+      "license": null,
+      "fulltext_permission": "fulltext_not_published_summary_only",
+      "attribution_and_changes": "保留原平台链接与洞/楼/评价编号；仅发布经过匿名处理的摘要及归属限制，不发布原文或账号。",
+      "evidence_index": "../summaries/evidence.json",
+      "applicability": "仅关联参考；不表示任何当前教学班已确认适用",
+      "confirmed_section_keys": []
+    },
+    {
+      "source_id": "LAW20261029-E0139",
+      "source_type": "treehole",
+      "canonical_url": "https://forum.fduhole.com/api/floors/4406586",
+      "public_author_label": null,
+      "published_at": null,
+      "fetched_at": "2026-10-29",
+      "hole_ids": [
+        481191
+      ],
+      "floor_ids": [
+        4406586
+      ],
+      "review_ids": [],
+      "reading_status": "full_visible_floor_text_read",
+      "mapping_status": "candidate_unconfirmed_section",
+      "record_type": "firsthand_grade_experience",
+      "adoption": "reference_only_pending_mapping",
+      "reason": "高概率匹配2026春本科GEEC10214马忠法；发帖缩写及当学期具体年份未核验。；保留为跨学科本科选修的成绩体验，不代表法学专业学生。",
+      "duplicate_of": null,
+      "license": null,
+      "fulltext_permission": "fulltext_not_published_summary_only",
+      "attribution_and_changes": "保留原平台链接与洞/楼/评价编号；仅发布经过匿名处理的摘要及归属限制，不发布原文或账号。",
+      "evidence_index": "../summaries/evidence.json",
+      "applicability": "仅关联参考；不表示任何当前教学班已确认适用",
+      "confirmed_section_keys": []
+    }
+  ],
+  "syllabus": {
+    "source_ids": [],
+    "content": "本批未采集班级大纲；官方开课范围见sections。",
+    "prerequisites": "",
+    "assessment": ""
+  },
+  "materials": [
+    {
+      "type": "official_timetable",
+      "path": "../official/timetable.csv"
+    },
+    {
+      "type": "official_program_index",
+      "path": "../official/programs.json"
+    },
+    {
+      "type": "offline_report_and_originals",
+      "url": "https://github.com/pythonbug225/fudan-course-atlas/releases/download/law-research-20261029/law-research-20261029.zip"
+    }
+  ],
+  "student_reviews_and_discussions": [
+    {
+      "source_id": "LAW20261029-E0012",
+      "summary": "反馈认为课堂较自由，教师讲授有热情。 历史描述无考勤、一次电子作业或课堂作业。 两篇均描述开卷，复习提示和PPT重要，最后一节课解释答题要求。 有一位自报A；关于A类比例的说法未经统计，不做成绩保证。",
+      "period": "正文未单独明确修读期；API原始班字段：year=2024,semester=3",
+      "teacher_as_source": "马忠法",
+      "scope_note": "API均挂2024/S3，上传年份不同，不直接改写为2026春。",
+      "applicability": "仅关联参考；不表示任何当前教学班已确认适用",
+      "mapping_status": "candidate_unconfirmed_section"
+    },
+    {
+      "source_id": "LAW20261029-E0139",
+      "summary": "明确称本学期选修该课，法学院开设、期末开卷；非法律专业医学类大一学生自报取得A-并认为给分好。",
+      "period": "发帖时间：06/20/2025 17:42:33；修读学期未核，除非正文明确说明。",
+      "teacher_as_source": "mzf（很可能马忠法）",
+      "scope_note": "高概率匹配2026春本科GEEC10214马忠法；发帖缩写及当学期具体年份未核验。；保留为跨学科本科选修的成绩体验，不代表法学专业学生。",
+      "applicability": "仅关联参考；不表示任何当前教学班已确认适用",
+      "mapping_status": "candidate_unconfirmed_section"
+    }
+  ],
+  "quantitative_observations": [],
+  "comparison_and_summary": {
+    "teaching_and_learning": "",
+    "workload": "",
+    "assessment": "",
+    "grading_and_risk": "",
+    "teacher_and_term_differences": "相关材料仅作为来源检索与历史参考；同名不确认层次、教师、学期或班型。每条限制见中央证据索引。",
+    "who_it_suits": "",
+    "source_ids": [
+      "LAW20261029-E0012",
+      "LAW20261029-E0139"
+    ]
+  },
+  "batch_id": "law-20261029",
+  "batch_scope": {
+    "curriculum_cohort": 2026,
+    "teaching_terms": [
+      "2025秋",
+      "2026春"
+    ],
+    "program_mapping_status": "not_inferred_for_individual_course"
+  }
+}

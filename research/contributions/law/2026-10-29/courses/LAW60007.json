@@ -1,0 +1,179 @@
+{
+  "schema_version": 1,
+  "course": {
+    "code": "LAW60007",
+    "name": "国际经济法",
+    "department": "法学院",
+    "credits": 2,
+    "term": "2026春",
+    "teachers": [
+      "吕炳斌",
+      "蒋超翊"
+    ],
+    "section_code": null,
+    "class_type": "ordinary",
+    "course_type_code": null,
+    "program_year": null,
+    "program_names": [],
+    "required_or_elective": null,
+    "terms": [
+      "2026春"
+    ],
+    "levels": [
+      "研究生"
+    ],
+    "sections": [
+      {
+        "term": "2026春",
+        "course_code": "LAW60007",
+        "course_name": "国际经济法",
+        "teachers": [
+          "蒋超翊"
+        ],
+        "credits": 2,
+        "course_level": "研究生",
+        "section_code": "LAW60007.01",
+        "department": "法学院",
+        "source_url": "https://fdjwgl.fudan.edu.cn/student/for-all/lesson-search/semester/505/search/505?openDepartmentAssocs=2565&queryPage__=1,500"
+      },
+      {
+        "term": "2026春",
+        "course_code": "LAW60007",
+        "course_name": "国际经济法",
+        "teachers": [
+          "吕炳斌"
+        ],
+        "credits": 2,
+        "course_level": "研究生",
+        "section_code": "LAW60007.02",
+        "department": "法学院",
+        "source_url": "https://fdjwgl.fudan.edu.cn/student/for-all/lesson-search/semester/505/search/505?openDepartmentAssocs=2565&queryPage__=1,500"
+      }
+    ]
+  },
+  "aliases": {
+    "course_names": [
+      "国际经济法"
+    ],
+    "teacher_names_or_pinyin": [
+      "吕炳斌",
+      "蒋超翊"
+    ],
+    "ambiguous_matches": [
+      "完整候选检索词见ledgers/search-variants.json；首字母和昵称不是唯一身份。"
+    ]
+  },
+  "progress": {
+    "owner": "Codex + Luna xhigh parallel readers",
+    "reviewer": "Independent agent checks; no human review implied",
+    "status": "partial_external_sources",
+    "queries": [
+      "FORUM-EXACT-00120",
+      "FORUM-EXACT-00145",
+      "FORUM-EXACT-00415",
+      "FORUM-EXACT-00416",
+      "FORUM-EXACT-00477",
+      "FORUM-EXACT-00503",
+      "FORUM-EXACT-00845",
+      "FORUM-EXACT-00846",
+      "FORUM-EXACT-00847",
+      "FORUM-EXACT-01262",
+      "FORUM-EXACT-01291",
+      "FORUM-EXACT-01381",
+      "DANKE-00120",
+      "DANKE-00145",
+      "DANKE-00415",
+      "DANKE-00416",
+      "DANKE-00477",
+      "DANKE-00503",
+      "DANKE-00845",
+      "DANKE-00846",
+      "DANKE-00847",
+      "DANKE-01262",
+      "DANKE-01291",
+      "DANKE-01381"
+    ],
+    "remaining_scope": [
+      "小红书、知乎、微信公众号登录态站内检索未完成。",
+      "图片未OCR，源班/教师/学期未核的材料仍待对应。"
+    ],
+    "no_student_reviews_found": false
+  },
+  "sources": [
+    {
+      "source_id": "LAW20261029-E0219",
+      "source_type": "official",
+      "canonical_url": "https://law.fudan.edu.cn/e4/ce/c27149a320718/page.htm",
+      "public_author_label": null,
+      "published_at": null,
+      "fetched_at": "2026-10-29",
+      "hole_ids": [],
+      "floor_ids": [],
+      "review_ids": [],
+      "reading_status": "source_scope_read_or_reference_only",
+      "mapping_status": "candidate_unconfirmed_section",
+      "record_type": "官方历史教学资料，存在选样倾向",
+      "adoption": "reference_only_pending_mapping",
+      "reason": "官方择优报道，存在选样倾向；2017年历史经历，不能视为2025秋或2026春班级的考核安排或给分结论。尚未按课号与两学期实际授课记录绑定。",
+      "duplicate_of": null,
+      "license": null,
+      "fulltext_permission": "fulltext_not_published_summary_only",
+      "attribution_and_changes": "保留原平台链接与洞/楼/评价编号；仅发布经过匿名处理的摘要及归属限制，不发布原文或账号。",
+      "evidence_index": "../summaries/evidence.json",
+      "applicability": "仅关联参考；不表示任何当前教学班已确认适用",
+      "confirmed_section_keys": []
+    }
+  ],
+  "syllabus": {
+    "source_ids": [],
+    "content": "本批未采集班级大纲；官方开课范围见sections。",
+    "prerequisites": "",
+    "assessment": ""
+  },
+  "materials": [
+    {
+      "type": "official_timetable",
+      "path": "../official/timetable.csv"
+    },
+    {
+      "type": "official_program_index",
+      "path": "../official/programs.json"
+    },
+    {
+      "type": "offline_report_and_originals",
+      "url": "https://github.com/pythonbug225/fudan-course-atlas/releases/download/law-research-20261029/law-research-20261029.zip"
+    }
+  ],
+  "student_reviews_and_discussions": [
+    {
+      "source_id": "LAW20261029-E0219",
+      "summary": "历史反馈强调英文案例阅读、预习与课后材料、双语教学、模拟法庭和细致反馈；有学生描述英文阅读耗时较多。",
+      "period": "2017-10-25",
+      "teacher_as_source": "张乃根",
+      "scope_note": "官方择优报道，存在选样倾向；2017年历史经历，不能视为2025秋或2026春班级的考核安排或给分结论。尚未按课号与两学期实际授课记录绑定。",
+      "applicability": "仅关联参考；不表示任何当前教学班已确认适用",
+      "mapping_status": "candidate_unconfirmed_section"
+    }
+  ],
+  "quantitative_observations": [],
+  "comparison_and_summary": {
+    "teaching_and_learning": "",
+    "workload": "",
+    "assessment": "",
+    "grading_and_risk": "",
+    "teacher_and_term_differences": "相关材料仅作为来源检索与历史参考；同名不确认层次、教师、学期或班型。每条限制见中央证据索引。",
+    "who_it_suits": "",
+    "source_ids": [
+      "LAW20261029-E0219"
+    ]
+  },
+  "batch_id": "law-20261029",
+  "batch_scope": {
+    "curriculum_cohort": 2026,
+    "teaching_terms": [
+      "2025秋",
+      "2026春"
+    ],
+    "program_mapping_status": "not_inferred_for_individual_course"
+  }
+}

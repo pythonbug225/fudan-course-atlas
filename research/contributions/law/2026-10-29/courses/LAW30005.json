@@ -1,0 +1,199 @@
+{
+  "schema_version": 1,
+  "course": {
+    "code": "LAW30005",
+    "name": "国际经济法导论",
+    "department": "法学院",
+    "credits": 2,
+    "term": "2025秋",
+    "teachers": [
+      "吕炳斌"
+    ],
+    "section_code": "LAW30005.01",
+    "class_type": "ordinary",
+    "course_type_code": null,
+    "program_year": null,
+    "program_names": [],
+    "required_or_elective": null,
+    "terms": [
+      "2025秋"
+    ],
+    "levels": [
+      "本科"
+    ],
+    "sections": [
+      {
+        "term": "2025秋",
+        "course_code": "LAW30005",
+        "course_name": "国际经济法导论",
+        "teachers": [
+          "吕炳斌"
+        ],
+        "credits": 2,
+        "course_level": "本科",
+        "section_code": "LAW30005.01",
+        "department": "法学院",
+        "source_url": "https://fdjwgl.fudan.edu.cn/student/for-all/lesson-search/semester/504/search/504?openDepartmentAssocs=2565&queryPage__=1,500"
+      }
+    ]
+  },
+  "aliases": {
+    "course_names": [
+      "国际经济法导论"
+    ],
+    "teacher_names_or_pinyin": [
+      "吕炳斌"
+    ],
+    "ambiguous_matches": [
+      "完整候选检索词见ledgers/search-variants.json；首字母和昵称不是唯一身份。"
+    ]
+  },
+  "progress": {
+    "owner": "Codex + Luna xhigh parallel readers",
+    "reviewer": "Independent agent checks; no human review implied",
+    "status": "partial_external_sources",
+    "queries": [
+      "FORUM-EXACT-00097",
+      "FORUM-EXACT-00098",
+      "FORUM-EXACT-00145",
+      "FORUM-EXACT-00381",
+      "FORUM-EXACT-00394",
+      "FORUM-EXACT-00454",
+      "FORUM-EXACT-00477",
+      "FORUM-EXACT-00503",
+      "DANKE-00097",
+      "DANKE-00098",
+      "DANKE-00145",
+      "DANKE-00381",
+      "DANKE-00394",
+      "DANKE-00454",
+      "DANKE-00477",
+      "DANKE-00503"
+    ],
+    "remaining_scope": [
+      "小红书、知乎、微信公众号登录态站内检索未完成。",
+      "图片未OCR，源班/教师/学期未核的材料仍待对应。"
+    ],
+    "no_student_reviews_found": false
+  },
+  "sources": [
+    {
+      "source_id": "LAW20261029-E0022",
+      "source_type": "danke",
+      "canonical_url": "https://danke.fduhole.com/api/v3/course_groups/976",
+      "public_author_label": null,
+      "published_at": null,
+      "fetched_at": "2026-10-29",
+      "hole_ids": [],
+      "floor_ids": [],
+      "review_ids": [
+        2231
+      ],
+      "reading_status": "full_review_text_read",
+      "mapping_status": "candidate_unconfirmed_section",
+      "record_type": "历史异师、信息不足",
+      "adoption": "reference_only_pending_mapping",
+      "reason": "目标教师吕炳斌，与张乃根的历史班不同；不把主观短评用于当前班判断。",
+      "duplicate_of": null,
+      "license": null,
+      "fulltext_permission": "fulltext_not_published_summary_only",
+      "attribution_and_changes": "保留原平台链接与洞/楼/评价编号；仅发布经过匿名处理的摘要及归属限制，不发布原文或账号。",
+      "evidence_index": "../summaries/evidence.json",
+      "applicability": "仅关联参考；不表示任何当前教学班已确认适用",
+      "confirmed_section_keys": []
+    },
+    {
+      "source_id": "LAW20261029-E0198",
+      "source_type": "treehole",
+      "canonical_url": "https://forum.fduhole.com/api/floors/6512966",
+      "public_author_label": null,
+      "published_at": null,
+      "fetched_at": "2026-10-29",
+      "hole_ids": [
+        719477
+      ],
+      "floor_ids": [
+        6512966,
+        6517665,
+        6526956,
+        6527406,
+        6528828
+      ],
+      "review_ids": [],
+      "reading_status": "full_visible_floor_text_read",
+      "mapping_status": "candidate_unconfirmed_section",
+      "record_type": "review_period_and_section_unverified",
+      "adoption": "reference_only_pending_mapping",
+      "reason": "课程目录在2025秋列有LAW30005与LAW30005h，教师均为吕炳斌；帖子没有说标准班还是H班，也未明确修读学期，不能仅凭发帖日将其定为2025秋。保留为同名同师的历史/待核参考。",
+      "duplicate_of": null,
+      "license": null,
+      "fulltext_permission": "fulltext_not_published_summary_only",
+      "attribution_and_changes": "保留原平台链接与洞/楼/评价编号；仅发布经过匿名处理的摘要及归属限制，不发布原文或账号。",
+      "evidence_index": "../summaries/evidence.json",
+      "applicability": "仅关联参考；不表示任何当前教学班已确认适用",
+      "confirmed_section_keys": []
+    }
+  ],
+  "syllabus": {
+    "source_ids": [],
+    "content": "本批未采集班级大纲；官方开课范围见sections。",
+    "prerequisites": "",
+    "assessment": ""
+  },
+  "materials": [
+    {
+      "type": "official_timetable",
+      "path": "../official/timetable.csv"
+    },
+    {
+      "type": "official_program_index",
+      "path": "../official/programs.json"
+    },
+    {
+      "type": "offline_report_and_originals",
+      "url": "https://github.com/pythonbug225/fudan-course-atlas/releases/download/law-research-20261029/law-research-20261029.zip"
+    }
+  ],
+  "student_reviews_and_discussions": [
+    {
+      "source_id": "LAW20261029-E0022",
+      "summary": "单条作者对课程内容不满意，未展开具体修读证据。",
+      "period": "正文未单独明确修读期；API原始班字段：year=2024,semester=1",
+      "teacher_as_source": "张乃根",
+      "scope_note": "目标教师吕炳斌，与张乃根的历史班不同；不把主观短评用于当前班判断。",
+      "applicability": "仅关联参考；不表示任何当前教学班已确认适用",
+      "mapping_status": "candidate_unconfirmed_section"
+    },
+    {
+      "source_id": "LAW20261029-E0198",
+      "summary": "回复者自述“去年上了吕老师的课”，称课堂以PPT为基础延伸、思路清晰、期末会划重点，给分好；另一回复称法学院学生上这门课合适，跨院学生若重在学知识可直接看教材。属于同洞匿名回复的个人评价，非多样本共识。",
+      "period": "修读期未明；来源帖发布于2026-09-14至2026-09-15，正文只称“去年”",
+      "teacher_as_source": "吕炳斌",
+      "scope_note": "课程目录在2025秋列有LAW30005与LAW30005h，教师均为吕炳斌；帖子没有说标准班还是H班，也未明确修读学期，不能仅凭发帖日将其定为2025秋。保留为同名同师的历史/待核参考。",
+      "applicability": "仅关联参考；不表示任何当前教学班已确认适用",
+      "mapping_status": "candidate_unconfirmed_section"
+    }
+  ],
+  "quantitative_observations": [],
+  "comparison_and_summary": {
+    "teaching_and_learning": "",
+    "workload": "",
+    "assessment": "",
+    "grading_and_risk": "",
+    "teacher_and_term_differences": "相关材料仅作为来源检索与历史参考；同名不确认层次、教师、学期或班型。每条限制见中央证据索引。",
+    "who_it_suits": "",
+    "source_ids": [
+      "LAW20261029-E0022",
+      "LAW20261029-E0198"
+    ]
+  },
+  "batch_id": "law-20261029",
+  "batch_scope": {
+    "curriculum_cohort": 2026,
+    "teaching_terms": [
+      "2025秋",
+      "2026春"
+    ],
+    "program_mapping_status": "not_inferred_for_individual_course"
+  }
+}

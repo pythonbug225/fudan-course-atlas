@@ -1,0 +1,164 @@
+{
+  "schema_version": 1,
+  "course": {
+    "code": "JURIS60002",
+    "name": "法学前沿",
+    "department": "法学院",
+    "credits": 2,
+    "term": "2025秋",
+    "teachers": [
+      "李世刚",
+      "王志强",
+      "蔡从燕",
+      "许多奇",
+      "赖骏楠"
+    ],
+    "section_code": "JURIS60002.01",
+    "class_type": "ordinary",
+    "course_type_code": null,
+    "program_year": null,
+    "program_names": [],
+    "required_or_elective": null,
+    "terms": [
+      "2025秋"
+    ],
+    "levels": [
+      "研究生"
+    ],
+    "sections": [
+      {
+        "term": "2025秋",
+        "course_code": "JURIS60002",
+        "course_name": "法学前沿",
+        "teachers": [
+          "王志强",
+          "许多奇",
+          "李世刚",
+          "赖骏楠",
+          "蔡从燕"
+        ],
+        "credits": 2,
+        "course_level": "研究生",
+        "section_code": "JURIS60002.01",
+        "department": "法学院",
+        "source_url": "https://fdjwgl.fudan.edu.cn/student/for-all/lesson-search/semester/504/search/504?openDepartmentAssocs=2565&queryPage__=1,500"
+      }
+    ]
+  },
+  "aliases": {
+    "course_names": [
+      "法学前沿"
+    ],
+    "teacher_names_or_pinyin": [
+      "李世刚",
+      "王志强",
+      "蔡从燕",
+      "许多奇",
+      "赖骏楠"
+    ],
+    "ambiguous_matches": [
+      "完整候选检索词见ledgers/search-variants.json；首字母和昵称不是唯一身份。"
+    ]
+  },
+  "progress": {
+    "owner": "Codex + Luna xhigh parallel readers",
+    "reviewer": "Independent agent checks; no human review implied",
+    "status": "partial_external_sources",
+    "queries": [
+      "FORUM-EXACT-00048",
+      "FORUM-EXACT-00127",
+      "FORUM-EXACT-00134",
+      "FORUM-EXACT-00246",
+      "FORUM-EXACT-00272",
+      "FORUM-EXACT-00322",
+      "FORUM-EXACT-00324",
+      "FORUM-EXACT-00425",
+      "FORUM-EXACT-00487",
+      "FORUM-EXACT-00496",
+      "FORUM-EXACT-00499",
+      "FORUM-EXACT-00570",
+      "FORUM-EXACT-00577",
+      "FORUM-EXACT-00578",
+      "FORUM-EXACT-00598",
+      "FORUM-EXACT-00795",
+      "FORUM-EXACT-00796",
+      "FORUM-EXACT-00799",
+      "FORUM-EXACT-00801",
+      "FORUM-EXACT-00807",
+      "FORUM-EXACT-00808",
+      "FORUM-EXACT-01225",
+      "FORUM-EXACT-01244",
+      "FORUM-EXACT-01362",
+      "DANKE-00048",
+      "DANKE-00127",
+      "DANKE-00134",
+      "DANKE-00246",
+      "DANKE-00272",
+      "DANKE-00322",
+      "DANKE-00324",
+      "DANKE-00425",
+      "DANKE-00487",
+      "DANKE-00496",
+      "DANKE-00499",
+      "DANKE-00570",
+      "DANKE-00577",
+      "DANKE-00578",
+      "DANKE-00598",
+      "DANKE-00795",
+      "DANKE-00796",
+      "DANKE-00799",
+      "DANKE-00801",
+      "DANKE-00807",
+      "DANKE-00808",
+      "DANKE-01225",
+      "DANKE-01244",
+      "DANKE-01362"
+    ],
+    "remaining_scope": [
+      "小红书、知乎、微信公众号登录态站内检索未完成。",
+      "图片未OCR，源班/教师/学期未核的材料仍待对应。"
+    ],
+    "no_student_reviews_found": false
+  },
+  "sources": [],
+  "syllabus": {
+    "source_ids": [],
+    "content": "本批未采集班级大纲；官方开课范围见sections。",
+    "prerequisites": "",
+    "assessment": ""
+  },
+  "materials": [
+    {
+      "type": "official_timetable",
+      "path": "../official/timetable.csv"
+    },
+    {
+      "type": "official_program_index",
+      "path": "../official/programs.json"
+    },
+    {
+      "type": "offline_report_and_originals",
+      "url": "https://github.com/pythonbug225/fudan-course-atlas/releases/download/law-research-20261029/law-research-20261029.zip"
+    }
+  ],
+  "student_reviews_and_discussions": [],
+  "quantitative_observations": [],
+  "comparison_and_summary": {
+    "teaching_and_learning": "",
+    "workload": "",
+    "assessment": "",
+    "grading_and_risk": "",
+    "teacher_and_term_differences": "本次已读材料尚未形成该班结论；不等于平台上不存在评价。",
+    "who_it_suits": "",
+    "source_ids": []
+  },
+  "batch_id": "law-20261029",
+  "batch_scope": {
+    "curriculum_cohort": 2026,
+    "teaching_terms": [
+      "2025秋",
+      "2026春"
+    ],
+    "program_mapping_status": "not_inferred_for_individual_course"
+  }
+}

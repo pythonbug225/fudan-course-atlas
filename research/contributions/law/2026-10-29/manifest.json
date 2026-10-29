@@ -1,0 +1,1412 @@
+{
+  "schema_version": 1,
+  "batch_id": "law-20261029",
+  "collected_at": "2026-10-29",
+  "exported_at": "2026-10-30T00:11:38+08:00",
+  "scope": {
+    "programs": 8,
+    "course_codes": 260,
+    "sections": 369,
+    "teachers": 124,
+    "evidence_summaries": 223,
+    "full_visible_forum_floors": 6779,
+    "full_review_bodies": 71
+  },
+  "files": [
+    {
+      "path": ".gitattributes",
+      "bytes": 14,
+      "sha256": "a79691a93b46e49ce460c26ef22afcc03d6eca1e63bf2edbc20e96159510f6c9"
+    },
+    {
+      "path": "course-list.md",
+      "bytes": 27612,
+      "sha256": "e650839cc5d0e620c1e38f785d37c8a621796abb6e6d72d9546406802aebbe6c"
+    },
+    {
+      "path": "courses/AIT310025.json",
+      "bytes": 3303,
+      "sha256": "605c6c6eff884cc0d266ea87befb1f2b690b5ce699d74fae34f14d1952563ecd"
+    },
+    {
+      "path": "courses/AIT531029.json",
+      "bytes": 3285,
+      "sha256": "96a7453bcd02d789a99490f2aa69eac864b8315fc8bdf74f0f933a05b5ca273f"
+    },
+    {
+      "path": "courses/GECC10052.json",
+      "bytes": 9268,
+      "sha256": "fc9d140515e8ab5119654dba9622d9fa81d9ea0b41e7004ce162f9bb31126379"
+    },
+    {
+      "path": "courses/GECC10092.json",
+      "bytes": 17779,
+      "sha256": "a8e6ef88721e6dadd44615f88796de345eb037f421bc8cb10494eff4363a6469"
+    },
+    {
+      "path": "courses/GECC10093.json",
+      "bytes": 15024,
+      "sha256": "6a9a1ec3d110c1d64ce04715de61ea4b1de03feee098b9321ecea00d75aa5ae8"
+    },
+    {
+      "path": "courses/GECS40013.json",
+      "bytes": 3186,
+      "sha256": "f96c8e260938f10f37d0b92e9991e451bf6f2d07b63592cddf2e5f634b46cd15"
+    },
+    {
+      "path": "courses/GECS40014.json",
+      "bytes": 3192,
+      "sha256": "7d6adb973ba3ae0e0407b1c78485fa3e447f425a9a2e13cc21d40e99c03e106d"
+    },
+    {
+      "path": "courses/GEEC10210.json",
+      "bytes": 12375,
+      "sha256": "febc12904b51b68a5a94e23b083afad10d88194bef012ec62e682174c48e2f53"
+    },
+    {
+      "path": "courses/GEEC10211.json",
+      "bytes": 5071,
+      "sha256": "92b2183890747b67b86a0ed9460c189167f525c91c6b5d7e4e58ccd5158d5366"
+    },
+    {
+      "path": "courses/GEEC10213.json",
+      "bytes": 12369,
+      "sha256": "ba025bc914d1621ae1032021310cbd9d6ffc8c185a102141bf1f47dd686994cc"
+    },
+    {
+      "path": "courses/GEEC10214.json",
+      "bytes": 7273,
+      "sha256": "54e9d3186b82a3a56d0ece3a46849df3965b7d7fe27dd9a2c4906c09a1d850d4"
+    },
+    {
+      "path": "courses/GEEC10215.json",
+      "bytes": 7417,
+      "sha256": "c155413edde50e18c2b7c5a84e3c24dc0263c04c41930140a82d5f087d018964"
+    },
+    {
+      "path": "courses/GEEC20019.json",
+      "bytes": 6580,
+      "sha256": "47ed3fd012f93cc90b70b108f3cf55fd2ca9eb1012aecab07efd4fd0aa1751c9"
+    },
+    {
+      "path": "courses/GEEF40022.json",
+      "bytes": 3258,
+      "sha256": "58c7ee0dfae73c1910946aefb0fbf4ca37654ddb68a599de1a768b3ba8c17a2a"
+    },
+    {
+      "path": "courses/GEIN10025.json",
+      "bytes": 15647,
+      "sha256": "de0a2d98fc4caf88f1de750cc241ffe45fcc8de2be1c02f12234c0a6a357e767"
+    },
+    {
+      "path": "courses/GEIP40013.json",
+      "bytes": 3312,
+      "sha256": "c5fc4d103298762c5aa15c6d63fcdebc0f9b43025bd3da7acb23cacfbd79b3b2"
+    },
+    {
+      "path": "courses/GESP10004.json",
+      "bytes": 9557,
+      "sha256": "165b7195a3babeeeb6e06f7582709dc9d9285f6b1b1a2d494769559bb3f415c8"
+    },
+    {
+      "path": "courses/GESP20003.json",
+      "bytes": 13052,
+      "sha256": "40c25810a91f7923b532f36e5b89963bde3d55acdfdffc1dd144defc4cccf93c"
+    },
+    {
+      "path": "courses/GESP20004.json",
+      "bytes": 8719,
+      "sha256": "fca22b26e727b52b27bf844e04879b4e89baf9901db82cfb2c86b91d91b000ff"
+    },
+    {
+      "path": "courses/JURIS60001.json",
+      "bytes": 3235,
+      "sha256": "62c2e2f48fd8f841a09f93aab1baa9e3bf2350b33903ad3f0972f76d044cbf9a"
+    },
+    {
+      "path": "courses/JURIS60002.json",
+      "bytes": 4229,
+      "sha256": "accc1c720f3830968208b81548ba1317b6aa69a3be510a2d21f4464450690944"
+    },
+    {
+      "path": "courses/JURIS60003.json",
+      "bytes": 3217,
+      "sha256": "f64920596583f6682ef320d19c05d7176335266994a3dd15d35046391932ceb5"
+    },
+    {
+      "path": "courses/JURIS70002.json",
+      "bytes": 4012,
+      "sha256": "204839eb6c2caede344dec03bdbb0c75ab35675e5ef13a131ff4314fd133585c"
+    },
+    {
+      "path": "courses/JURIS70005.json",
+      "bytes": 3253,
+      "sha256": "77ae6cc5170b3c80ced3aaaeb7d5a6832f05fb964dfa3dc2ad8aab3e540d8b27"
+    },
+    {
+      "path": "courses/JURIS70006.json",
+      "bytes": 3280,
+      "sha256": "7730513c5b2260ec40365d986792031b0fe28ce2a60b971430e7a9b6c5216ce9"
+    },
+    {
+      "path": "courses/LAW10001.json",
+      "bytes": 11063,
+      "sha256": "95193387407e176b597507c927decdeed1d20e911fb133d57c6f7302891ef4d4"
+    },
+    {
+      "path": "courses/LAW10002.json",
+      "bytes": 10958,
+      "sha256": "2f3c689f7019a09633b1e9edacdb3d4d93aa6e16814feca9aaba08f98f79596f"
+    },
+    {
+      "path": "courses/LAW10003.json",
+      "bytes": 37972,
+      "sha256": "a86eaf99cdc102363d272c872d8ff09b463dae45a7770900369c37ec7b0df2ad"
+    },
+    {
+      "path": "courses/LAW10003h.json",
+      "bytes": 17158,
+      "sha256": "aa81525362d91af20dc47c0b5ecbec5b7ed38b7a33fd644ea7b623f66fd34b47"
+    },
+    {
+      "path": "courses/LAW10004.json",
+      "bytes": 79325,
+      "sha256": "333dae2679a3f26938234145f06020a8ec82ecf447d3dadb0ebc36682260c0d0"
+    },
+    {
+      "path": "courses/LAW10005.json",
+      "bytes": 51543,
+      "sha256": "d762e1296013aeeaf0f15435ed91cad5ab57f9f4fa45cabccb5c04214b8084c3"
+    },
+    {
+      "path": "courses/LAW20001.json",
+      "bytes": 10782,
+      "sha256": "cce10ddbb93c9c380b54fcbe1ee4b64df7f85dbd83ec565df17f5d628c9212c6"
+    },
+    {
+      "path": "courses/LAW20002.json",
+      "bytes": 3203,
+      "sha256": "dde481c6aece1a73dad7f96c9be835a9a3e971d0e8f6d6dedb10951f5c1aa676"
+    },
+    {
+      "path": "courses/LAW20002h.json",
+      "bytes": 3235,
+      "sha256": "d4c19d54c12de217847346e8f8584211ed1a4d52e71e0d933b086e5fc9bb6571"
+    },
+    {
+      "path": "courses/LAW20003.json",
+      "bytes": 7662,
+      "sha256": "4d45c04a988eec908aaa3f46c01eccb7833bded4e1b5ce42fc00c228233d7895"
+    },
+    {
+      "path": "courses/LAW20003h.json",
+      "bytes": 3702,
+      "sha256": "977627f6e6d1c49926bb3dd88377f3bf0349155f84f52f57d22aa0b1e533d2ab"
+    },
+    {
+      "path": "courses/LAW20004.json",
+      "bytes": 7435,
+      "sha256": "8ada054de40dc9c5e0ec9ed8b32bae7505c23e9f84048b78f313823d641829f7"
+    },
+    {
+      "path": "courses/LAW20004h.json",
+      "bytes": 5255,
+      "sha256": "6d036cfa1833d457070bf845e08279f59bdab504d3211a1ffc31c6d5a21cf1fb"
+    },
+    {
+      "path": "courses/LAW20005.json",
+      "bytes": 13088,
+      "sha256": "5bc788e38508093a117dea498a16ab04d18dba2d7d6c85d0d06b364748d7117b"
+    },
+    {
+      "path": "courses/LAW20006.json",
+      "bytes": 7292,
+      "sha256": "287aa33231a2dfd865265c24ca67e7654aea65a9ee448b6cde8a3d7e713734b9"
+    },
+    {
+      "path": "courses/LAW20007.json",
+      "bytes": 14888,
+      "sha256": "766f810e2f20727f3eb2013343fee23d3d8163837891e9454a0a9a00b519f2d4"
+    },
+    {
+      "path": "courses/LAW20007h.json",
+      "bytes": 7302,
+      "sha256": "7d61922af3797b224d2091a34c0d55be2d4a5ae2cffdf1462bf098d6fdacf761"
+    },
+    {
+      "path": "courses/LAW20008.json",
+      "bytes": 7227,
+      "sha256": "d18eed081af30bab008a53f54ba5829d1d341e112f6611cd5426837c478892b3"
+    },
+    {
+      "path": "courses/LAW20008h.json",
+      "bytes": 5359,
+      "sha256": "2a5bc908904856b9250795982155b92f57036e566ac729e0e1f18920eec8bbc3"
+    },
+    {
+      "path": "courses/LAW20009.json",
+      "bytes": 4965,
+      "sha256": "f7508bbe0afe7251bdbdd9e053cff289e1ed49fe16aaff387219c3a038663f5b"
+    },
+    {
+      "path": "courses/LAW20009h.json",
+      "bytes": 5232,
+      "sha256": "739f82ca6bfbc2ca0fc6a95a3b1507bd5cf14a91e7b6c089233995fdf8432058"
+    },
+    {
+      "path": "courses/LAW20010.json",
+      "bytes": 5652,
+      "sha256": "bc13d06f667bde70ac4d50a1af3bf5c38cccedc7dad1357c7bfebae75a1bc42f"
+    },
+    {
+      "path": "courses/LAW20011.json",
+      "bytes": 18512,
+      "sha256": "bb1961ac676cf6edf69430c8b5c2528b0a62185f7fe94540f62c8289c1db184f"
+    },
+    {
+      "path": "courses/LAW30001.json",
+      "bytes": 3230,
+      "sha256": "e6c9d245edbd2b83a7e81fabb25a15316ff120a1c0f9fae8a97e26eb1531bf0c"
+    },
+    {
+      "path": "courses/LAW30003.json",
+      "bytes": 4437,
+      "sha256": "f3d7e09e30d82724021100c145cc8018fa091ffc7a6845a87c38b8bb48110ef5"
+    },
+    {
+      "path": "courses/LAW30004.json",
+      "bytes": 5067,
+      "sha256": "a88d49321c027f01cca0fa344214e6a741f1e34960092d9972ef5329f317e480"
+    },
+    {
+      "path": "courses/LAW30004h.json",
+      "bytes": 3235,
+      "sha256": "46b271293d556f730b472877eb29c390bf774d3098b7d973243beaf470b5bf10"
+    },
+    {
+      "path": "courses/LAW30005.json",
+      "bytes": 7321,
+      "sha256": "0d5901ba71089f76266b846582b8564cdfa0d5d75c81682bdf29db582c64446b"
+    },
+    {
+      "path": "courses/LAW30005h.json",
+      "bytes": 5633,
+      "sha256": "92977eb95059942ca01e84e47b4f27e0459c1dc30dfb3d874ad8f5024f190f49"
+    },
+    {
+      "path": "courses/LAW40001.json",
+      "bytes": 3236,
+      "sha256": "c18b7f2ab27a89c05145a3e3e26ea0376461e23dcde90c3828a73fa02d9170c6"
+    },
+    {
+      "path": "courses/LAW40002.json",
+      "bytes": 3203,
+      "sha256": "dc4953a29d1550804726a6d49cc0a793c6afde532bc232915867170a2834bc14"
+    },
+    {
+      "path": "courses/LAW40003.json",
+      "bytes": 5185,
+      "sha256": "18f1685bd06ee718d96bc505f0a76f95c00ccabf964034aef8e78dc452dde6f0"
+    },
+    {
+      "path": "courses/LAW40006.json",
+      "bytes": 7408,
+      "sha256": "c28ece8c1e4e56c021732068e3334ed9682787a07688b6950810f75f22a13c95"
+    },
+    {
+      "path": "courses/LAW40007.json",
+      "bytes": 31614,
+      "sha256": "fa9179cab572e98f3968fc7340943388e56219e994d69d83384bfeee271726a5"
+    },
+    {
+      "path": "courses/LAW50001.json",
+      "bytes": 7408,
+      "sha256": "a531fa7fb1536d8551bc14ff18dbdea7d902c6d9deda532860c2b71add8fe827"
+    },
+    {
+      "path": "courses/LAW50002.json",
+      "bytes": 5110,
+      "sha256": "7faabdf9616b42efc1d65624fe5b9ae8c8ebddc54e068f5a858a1a2fc3bb4bba"
+    },
+    {
+      "path": "courses/LAW50003.json",
+      "bytes": 5119,
+      "sha256": "2ef9a0f7c60e0136025407c393079bb319fdaca999f3af15664d74aa22c5bc71"
+    },
+    {
+      "path": "courses/LAW50004.json",
+      "bytes": 10673,
+      "sha256": "1d2fd2ed7e4fe87fcb6573bce443fe7f17e4adc072e2fc75520442d44aa8d9bc"
+    },
+    {
+      "path": "courses/LAW50005.json",
+      "bytes": 5691,
+      "sha256": "65704ee37e6f292e18c073efff86801520a95a8dec35d554dcb26929e1a332f1"
+    },
+    {
+      "path": "courses/LAW50006.json",
+      "bytes": 3725,
+      "sha256": "cee647574c06dc1503babe972d83923088d197f02268274f172c59e493618439"
+    },
+    {
+      "path": "courses/LAW50007.json",
+      "bytes": 5287,
+      "sha256": "846206126dfd8c96331aafc9b4b479fac7320b6ceea07a26fd660e486b7afe1c"
+    },
+    {
+      "path": "courses/LAW50009.json",
+      "bytes": 3233,
+      "sha256": "b3f07f41547e164b1058d344197008b4b252e5755faceb6e8d0a74e7230e9f3d"
+    },
+    {
+      "path": "courses/LAW50010.json",
+      "bytes": 3206,
+      "sha256": "398a9b4585d2c3f8a757d7e820a59e670df2d69244f41ae376b2a24591352946"
+    },
+    {
+      "path": "courses/LAW50011.json",
+      "bytes": 3206,
+      "sha256": "d6b9f25941b50aa309316d70f9bba2fe1a3b86c5cdf67a7f157e6703c4477b26"
+    },
+    {
+      "path": "courses/LAW50014.json",
+      "bytes": 3203,
+      "sha256": "e78508f367865da8e91743df1f8d6296834c4a330ce525d404aab2bd6f1dc1b7"
+    },
+    {
+      "path": "courses/LAW50014h.json",
+      "bytes": 3226,
+      "sha256": "bc8a9f771b0d83b6e80424ad4c18f117ea6fb0b9b0d3f0b4394618c85e4fb4d4"
+    },
+    {
+      "path": "courses/LAW50016.json",
+      "bytes": 3681,
+      "sha256": "681d30f4133ddd7ec28e433680481e912550bbc479e28811cc5ad3d171ad3dab"
+    },
+    {
+      "path": "courses/LAW50017.json",
+      "bytes": 5244,
+      "sha256": "9aa1544d8a9edf04b58abbdfa3b3c12899ad42d927b388259ec30b41690cab4d"
+    },
+    {
+      "path": "courses/LAW50018.json",
+      "bytes": 5801,
+      "sha256": "c3ed5b7e48df9ac3792cc307d8c2c6a704c1ac6f7eb36292761a5bb1e9ce4d59"
+    },
+    {
+      "path": "courses/LAW50019.json",
+      "bytes": 3657,
+      "sha256": "901aade5e1257f6b7c6a220bde1cf930f7edd0d74afd9e48502184c2a6da517d"
+    },
+    {
+      "path": "courses/LAW50020.json",
+      "bytes": 5000,
+      "sha256": "ee6b95e9e1c81a47d90381b71bf8ff35244af693d4d1c255741fdfe24f948e94"
+    },
+    {
+      "path": "courses/LAW50021.json",
+      "bytes": 3657,
+      "sha256": "eeadcb4417c1adf380837505197053b5541936488718b2b199d2542ab9e44122"
+    },
+    {
+      "path": "courses/LAW50022.json",
+      "bytes": 8773,
+      "sha256": "440b4228f5a16d5e8b132ca7ec4265d174a05739eb5bb4755b902316615bece1"
+    },
+    {
+      "path": "courses/LAW50023.json",
+      "bytes": 9082,
+      "sha256": "98e7a2a64a03fc5766ecbb571794e637f327bfe0ed44b19d7ae759b6368f2c17"
+    },
+    {
+      "path": "courses/LAW50024.json",
+      "bytes": 9249,
+      "sha256": "f93125d907372bfd76ae15d3a4cf6ac8be5b65755fab91056c60e7233e2ecc30"
+    },
+    {
+      "path": "courses/LAW50025.json",
+      "bytes": 8735,
+      "sha256": "b5324992d99eb81819fb584e28e37805a8a2284a2697834f499a35f3d6b3c814"
+    },
+    {
+      "path": "courses/LAW50028.json",
+      "bytes": 3206,
+      "sha256": "a1fd9bf540b4a85b7d01f5d1dab6194c4ea2d2b0d29cd89b657540dd648f8b72"
+    },
+    {
+      "path": "courses/LAW50030.json",
+      "bytes": 3669,
+      "sha256": "f70568df1b785f7009613e6dd4b28112614acf486de96f1eeaaedf107c440e31"
+    },
+    {
+      "path": "courses/LAW50031.json",
+      "bytes": 3215,
+      "sha256": "bd7199e212ced61397694d391637ea540a92f9a1a0f593dc0d580b00cdfc1f10"
+    },
+    {
+      "path": "courses/LAW50032.json",
+      "bytes": 5373,
+      "sha256": "3a5d30f7ae0b70224ebcf21c6c71b36ac6452be9cb0ff01c9acfba8ee2d7ccee"
+    },
+    {
+      "path": "courses/LAW50033.json",
+      "bytes": 3729,
+      "sha256": "cd4eda864dda956eea034192d9f5326a916bcf6350bc52432b94f17f45ace214"
+    },
+    {
+      "path": "courses/LAW50034.json",
+      "bytes": 3233,
+      "sha256": "45776987e04657fc9add263f4162cc3f32b7509b3b3e07cb04e3792c6e806c4d"
+    },
+    {
+      "path": "courses/LAW50036.json",
+      "bytes": 5015,
+      "sha256": "6dcce736ae213e946d04c9f3e6f7d4feec4df3fd9a3d9b861e3793de18b79c96"
+    },
+    {
+      "path": "courses/LAW50037.json",
+      "bytes": 3185,
+      "sha256": "abdc5b4dbeede2355ab3f831f0d3af10f7ca9ffadf57e04485a0f926448e41e8"
+    },
+    {
+      "path": "courses/LAW50038.json",
+      "bytes": 7227,
+      "sha256": "725dd8e86532bd63abedc9eec8204083873ba8e43d727db67f10042a2d535792"
+    },
+    {
+      "path": "courses/LAW50040.json",
+      "bytes": 3805,
+      "sha256": "f803c1c469f77ed2589a87c78d9a8e42841fba9473187f335f646e903c957008"
+    },
+    {
+      "path": "courses/LAW50041.json",
+      "bytes": 9205,
+      "sha256": "92cf295e23627b941bafc7fbc467d7837e00542e9dac6b221abac3d65da27d49"
+    },
+    {
+      "path": "courses/LAW50042.json",
+      "bytes": 3248,
+      "sha256": "5709ae4b846e273e4a395aa759576611db3a837a3a5db280c0ea1adf9039b28e"
+    },
+    {
+      "path": "courses/LAW50046.json",
+      "bytes": 3337,
+      "sha256": "9f68e98cf8a5383a2b81e4baae75ff9d4d472220bcb619b06070a3b87a49d529"
+    },
+    {
+      "path": "courses/LAW50049.json",
+      "bytes": 3206,
+      "sha256": "688a23df51223f9c660b2d20d168cf4fd9417cb5dcee14ba93961152ed2cc8ee"
+    },
+    {
+      "path": "courses/LAW60001.json",
+      "bytes": 3865,
+      "sha256": "8d9c97bc5747f66cdd257298ea295ff18be8e84ee09ba8ff7fe9ca8da8a48d27"
+    },
+    {
+      "path": "courses/LAW60002.json",
+      "bytes": 3910,
+      "sha256": "ebf34b3af80a2e36bdecaeb4abdf2702d2c1f48749ece6f60ec37be76bfd19ff"
+    },
+    {
+      "path": "courses/LAW60003.json",
+      "bytes": 3892,
+      "sha256": "effb42451528c000ef366d00b484071b7db7db141cd944b602426a9a944e14e0"
+    },
+    {
+      "path": "courses/LAW60004.json",
+      "bytes": 3877,
+      "sha256": "775f711bafb18232bc6881218ec6b2ae42a3b3896d79ff51500946be5085d8b1"
+    },
+    {
+      "path": "courses/LAW60005.json",
+      "bytes": 3656,
+      "sha256": "8e3aec639ca6c28865559de5c6ab47a9c9a04cfd21090fb3b5e9edac1017fdd5"
+    },
+    {
+      "path": "courses/LAW60006.json",
+      "bytes": 3200,
+      "sha256": "17e2db88ae089d13fdf5c21d73f1f525f0d783b220b8e158016b12ff8ffc26b7"
+    },
+    {
+      "path": "courses/LAW60007.json",
+      "bytes": 5883,
+      "sha256": "bfdfd9458f3b468556ca52ba692c0c5b682614201503e2ce52335ca686649eb7"
+    },
+    {
+      "path": "courses/LAW60008.json",
+      "bytes": 3877,
+      "sha256": "86a50ad8517d69080cace1a6c29931714a075a4478bf34f35e46529ff7e590f1"
+    },
+    {
+      "path": "courses/LAW60009.json",
+      "bytes": 3200,
+      "sha256": "8e8915534aa5eccc75e143834e45c321ed89b406146f85bda022f5c940f2e00d"
+    },
+    {
+      "path": "courses/LAW60010.json",
+      "bytes": 11516,
+      "sha256": "f9fb37c41dcb51f48621c0be2b9edc8d0cd39838259592b090b04a6091da3bf8"
+    },
+    {
+      "path": "courses/LAW60011.json",
+      "bytes": 3877,
+      "sha256": "a28b202291187dfd417cadfc6b53929202c6d4d0e20b0f46c404528cbb8e7cb9"
+    },
+    {
+      "path": "courses/LAW60012.json",
+      "bytes": 3889,
+      "sha256": "7877e32165984c7cc12aa4d4ef4fb82e6c87765c7dca3f0e66244d1c53f5e5dd"
+    },
+    {
+      "path": "courses/LAW60013.json",
+      "bytes": 3215,
+      "sha256": "f677b548bf453fd67ba0b8d45869eaea783cfc74b200d365ca2c560d5246c2bc"
+    },
+    {
+      "path": "courses/LAW60014.json",
+      "bytes": 6666,
+      "sha256": "71205a0b3e9a3d2dbaa68bd780eeb62f607a37866534f45a789e69b568946349"
+    },
+    {
+      "path": "courses/LAW60015.json",
+      "bytes": 3218,
+      "sha256": "c58595efe038a597c71b3b9692ad2ce5f2b7a90f5644c4fa0c92e3705830b433"
+    },
+    {
+      "path": "courses/LAW60017.json",
+      "bytes": 3227,
+      "sha256": "159e68212e7819fd8bbf241d1ae61630f3be2abec608b11888fa191427565045"
+    },
+    {
+      "path": "courses/LAW60018.json",
+      "bytes": 3200,
+      "sha256": "ebaeb78a069ad25c8a32e0d2d1bd7b2f8080dd79490128d0bab4f0714c2a417f"
+    },
+    {
+      "path": "courses/LAW60022.json",
+      "bytes": 3236,
+      "sha256": "a116557999f4510fbd029350487afb41630011a24683cad4161b8ff5354d3c54"
+    },
+    {
+      "path": "courses/LAW60023.json",
+      "bytes": 3218,
+      "sha256": "0966267b7b38cd1a173ed36caeb80f036c2c6dbc6afaa5e303998b3cc4191f4e"
+    },
+    {
+      "path": "courses/LAW60024.json",
+      "bytes": 3200,
+      "sha256": "2209cbe6f58598a4e978f2882279166f3038268d961823dc36c88979ba588785"
+    },
+    {
+      "path": "courses/LAW60025.json",
+      "bytes": 8767,
+      "sha256": "20bc45ea098012d744516048fc2bd20b379a80851b09c7b6c2b1fc4664139e0b"
+    },
+    {
+      "path": "courses/LAW60026.json",
+      "bytes": 3209,
+      "sha256": "2746264e4081a7104753df5f99761ce7b7a2f022fabb50818a232a8fe0fcbf60"
+    },
+    {
+      "path": "courses/LAW60027.json",
+      "bytes": 3209,
+      "sha256": "b0d2d2143215e8609b2fd506a7386fc50c03baa79c24eca6e453c9e5c2071cd2"
+    },
+    {
+      "path": "courses/LAW60028.json",
+      "bytes": 3236,
+      "sha256": "e2faa91ce589eeb1ee2e1a279d97f09877f0c806a5bfe31b7d3ee7cd79fb35c4"
+    },
+    {
+      "path": "courses/LAW60029.json",
+      "bytes": 3227,
+      "sha256": "d465d3c738f9fd78ad4241583f4ed705725b99f4be4ba189f941665e48e03fd0"
+    },
+    {
+      "path": "courses/LAW60030.json",
+      "bytes": 3304,
+      "sha256": "821d48732ca67144248e71c9736513af3ce302405a4c556a2e0fb24878455baa"
+    },
+    {
+      "path": "courses/LAW60032.json",
+      "bytes": 3769,
+      "sha256": "17da3a3828776bcbe19acdfcfe09fee98cad12f769a8e82a3bd44e95e432efdc"
+    },
+    {
+      "path": "courses/LAW60033.json",
+      "bytes": 3236,
+      "sha256": "cb1933dc3d63504b483833ba598ca8f35556cf695360b386d294098644df651d"
+    },
+    {
+      "path": "courses/LAW60034.json",
+      "bytes": 3227,
+      "sha256": "af975cfd1785c5042448fe04c19019f6e237887083237538c27c8a1be33c655f"
+    },
+    {
+      "path": "courses/LAW60035.json",
+      "bytes": 3462,
+      "sha256": "ca27632316fdad4c387311944e0be3c625ba56ad6d363fb92913c3943c31a574"
+    },
+    {
+      "path": "courses/LAW60036.json",
+      "bytes": 3254,
+      "sha256": "4d089617bfbedeafc309b9c9366ecc5620558b33a2288a29ae570b21e85505a3"
+    },
+    {
+      "path": "courses/LAW60037.json",
+      "bytes": 4944,
+      "sha256": "e78180913a1786d63677376eaf8dbf9a173b929351669dac2c2bb789c1eca8f5"
+    },
+    {
+      "path": "courses/LAW60038.json",
+      "bytes": 3209,
+      "sha256": "a3feb435f2da743536c8a02a5df84fa8438a53d22e05e3360ef668461c8a18be"
+    },
+    {
+      "path": "courses/LAW60039.json",
+      "bytes": 3227,
+      "sha256": "6ed353c7caeed0b06879d446f7de8d69d798580a862f17c8b593f50746df62ce"
+    },
+    {
+      "path": "courses/LAW60040.json",
+      "bytes": 3227,
+      "sha256": "0e122cc0d9a41c40a8cbc87bbfeeb526bc77c32bd6330d7b852eab01e0fc581e"
+    },
+    {
+      "path": "courses/LAW60041.json",
+      "bytes": 3227,
+      "sha256": "f2dad492496a478dff60b9f3269f4f6da4e10cddc6e3df86c0a62809897152f0"
+    },
+    {
+      "path": "courses/LAW60042.json",
+      "bytes": 3286,
+      "sha256": "421c2b4950a138f376efbdfa2f183d9401cf8f8abef5aa923e563a9877cc1330"
+    },
+    {
+      "path": "courses/LAW60043.json",
+      "bytes": 3236,
+      "sha256": "3e3c7b8a22d49475496f282d387e621a745247b273007765111adf6ef1319a42"
+    },
+    {
+      "path": "courses/LAW60044.json",
+      "bytes": 3236,
+      "sha256": "824afd5479e7b5203070f79b7102244c382a28603635bb96f84801550b8db581"
+    },
+    {
+      "path": "courses/LAW60045.json",
+      "bytes": 3236,
+      "sha256": "5f074107183aeb744f604f90dd0c617d3b528c7997f3088b001661dd3e105604"
+    },
+    {
+      "path": "courses/LAW60046.json",
+      "bytes": 3245,
+      "sha256": "579e66987420c2f880e5f1c73c2033a37043bd4e34f7a02835d63880cbd0c6ac"
+    },
+    {
+      "path": "courses/LAW60047.json",
+      "bytes": 3227,
+      "sha256": "44463365c9990ce76c5ea9eea2f5e3fcb0acceddd14b5b56a6416e780d7d5b6b"
+    },
+    {
+      "path": "courses/LAW60048.json",
+      "bytes": 3236,
+      "sha256": "b0f4056236652f6424e834b5671d5fa70d869841702ac8114e6bcdeda787fe6e"
+    },
+    {
+      "path": "courses/LAW60049.json",
+      "bytes": 3218,
+      "sha256": "14f82a1c6b87599052fdacdffc0c9be69b1dcf6a762500108347616dfcc3cfd3"
+    },
+    {
+      "path": "courses/LAW60050.json",
+      "bytes": 3925,
+      "sha256": "c40cd700ba56d3c6b046ae6f1146fec5acd596a9cdc0378502efd0ebf5568a73"
+    },
+    {
+      "path": "courses/LAW60052.json",
+      "bytes": 3245,
+      "sha256": "0fed99fb04d7372fa168267f4b3d49aec5f11d72217ffd758bac15bb62fbdf6f"
+    },
+    {
+      "path": "courses/LAW60053.json",
+      "bytes": 3200,
+      "sha256": "a20aff9ca4978bb59827f0f277be5bf6f2a621d0bd5870bbd506261c91ca07d7"
+    },
+    {
+      "path": "courses/LAW60054.json",
+      "bytes": 3290,
+      "sha256": "864eca94f33674df989d96b6f122cebcbabe686c54a83ddb5229b2050a62bfe1"
+    },
+    {
+      "path": "courses/LAW60055.json",
+      "bytes": 3516,
+      "sha256": "33ff8d1012a223f644f97e17cf161166af058018ccf0b818c29a6955f99f654c"
+    },
+    {
+      "path": "courses/LAW60056.json",
+      "bytes": 3218,
+      "sha256": "e82f779ba52f4d5037a5e282c6994379dc7b34a859f91508d94adc61016fb7c1"
+    },
+    {
+      "path": "courses/LAW60057.json",
+      "bytes": 3218,
+      "sha256": "33ebe111ccff5c9e1683bd77f1fcd21cdbd2a4a529279ddd98e3b1e9a7bb4877"
+    },
+    {
+      "path": "courses/LAW60060.json",
+      "bytes": 4546,
+      "sha256": "155aa2419fc8206bdf0b410dd815dabd596509a565997f4686cab94fb07b8ba1"
+    },
+    {
+      "path": "courses/LAW60061.json",
+      "bytes": 3227,
+      "sha256": "dc075a0409f8a0b243ad9045a9f53c65394b9e7c4b74f51e33848483634267a9"
+    },
+    {
+      "path": "courses/LAW60062.json",
+      "bytes": 3227,
+      "sha256": "b8a53ebadf8fa82ae7560bb164669b2cd2fb91a4ff74c87fcbdb5f82789f88d1"
+    },
+    {
+      "path": "courses/LAW60063.json",
+      "bytes": 3209,
+      "sha256": "c718823f523010b019ee8da498a570dedac964312066c05df51c1804f093646a"
+    },
+    {
+      "path": "courses/LAW60064.json",
+      "bytes": 8009,
+      "sha256": "06558f8b7becc407b186ff5a85e23876639080a721af74af20dc4220846b0c82"
+    },
+    {
+      "path": "courses/LAW60065.json",
+      "bytes": 3290,
+      "sha256": "0e986e8f03fb0c3012dd014c4b647d11f3ce7bdafd261b131b0d55a945bf8b8a"
+    },
+    {
+      "path": "courses/LAW60066.json",
+      "bytes": 3254,
+      "sha256": "5f594ba9582feff345568da84a258761c85e85d1f3fb500cf1766cf6cf1e08e2"
+    },
+    {
+      "path": "courses/LAW60067.json",
+      "bytes": 3218,
+      "sha256": "19310731dc56532a50eecffca4eaa07ced328c7ce2125d440ef7d48fce3bb0e3"
+    },
+    {
+      "path": "courses/LAW60068.json",
+      "bytes": 3227,
+      "sha256": "d98ff6003bfa4617cd421cc6c945e2bfdf950961cc085b7642a13fd0f90c4718"
+    },
+    {
+      "path": "courses/LAW60070.json",
+      "bytes": 3245,
+      "sha256": "c3f0bac35c6bd525aa993bdf070a16f10af574555d4af43a22b343d40d8d72d2"
+    },
+    {
+      "path": "courses/LAW60072.json",
+      "bytes": 3227,
+      "sha256": "162ff49607357685296606b445db7d2d6f660f086ca1d97ddbd7b921f0d0f7a5"
+    },
+    {
+      "path": "courses/LAW60073.json",
+      "bytes": 4028,
+      "sha256": "25d1777b7d704f139caf2e37b87ff127078c1a8aab6d69e2943d4a5e67873488"
+    },
+    {
+      "path": "courses/LAW60074.json",
+      "bytes": 3236,
+      "sha256": "1ed41a3bc934ef038156d386e7d4bea048d7058dcbb3e548eeaf60573d79a594"
+    },
+    {
+      "path": "courses/LAW60075.json",
+      "bytes": 3227,
+      "sha256": "acd460db3bc9fbbb382e0bad12e3a8b3304d3bad9e445a20591aba393bf6c5dd"
+    },
+    {
+      "path": "courses/LAW60076.json",
+      "bytes": 3227,
+      "sha256": "8f1cff2258a6bc95b395bd292559ffe3fbe58fb7704b6a76e098d60ad25077ad"
+    },
+    {
+      "path": "courses/LAW60077.json",
+      "bytes": 3272,
+      "sha256": "96bf5961b2fce1a8dc85d8771849ac9342d7e05c14d5d64adef857b04d8a371d"
+    },
+    {
+      "path": "courses/LAW60078.json",
+      "bytes": 3263,
+      "sha256": "430f01e6d52542a1cd2081b9214ddc13d40200997ff1474d6b915e041e30ca2a"
+    },
+    {
+      "path": "courses/LAW60079.json",
+      "bytes": 3290,
+      "sha256": "85b47f3cb9628eb6b4674de22c13f629ad7197a8b9c89de6e0def1f717027eba"
+    },
+    {
+      "path": "courses/LAW60080.json",
+      "bytes": 3254,
+      "sha256": "e8aedd160714d45470cd36f2f0df860e1114737394beaa24780c65c26f69fc85"
+    },
+    {
+      "path": "courses/LAW60081.json",
+      "bytes": 4804,
+      "sha256": "15bedc44c2479441846ed9502b34e3966ace029ba6ed4ec516e068ac5a9d9a63"
+    },
+    {
+      "path": "courses/LAW60082.json",
+      "bytes": 4980,
+      "sha256": "e0272fb301a1b839dad98ac09842d98d6ac356ef3cae3cd085000a2c565f85d4"
+    },
+    {
+      "path": "courses/LAW70001.json",
+      "bytes": 3898,
+      "sha256": "4d72c07cdcbea807fa1141cf4e4ecb595fd4c155fa48c456d0182f67cafe1f4e"
+    },
+    {
+      "path": "courses/LAW70002.json",
+      "bytes": 5753,
+      "sha256": "bd07bb19c0ea16152d6d80d05f0a14dc519e1c3a3b28d4b8764b3a474d473940"
+    },
+    {
+      "path": "courses/LAW70003.json",
+      "bytes": 4133,
+      "sha256": "c66982e8ba9642a8682024dcc3f84598dafacce87ee3e3ef91a40251c8e7e022"
+    },
+    {
+      "path": "courses/LAW70004.json",
+      "bytes": 3218,
+      "sha256": "116ca412e76c21f6fb5b5414f5c33bbbf8c6ea7192adb4cb3098ade13fa8f7e1"
+    },
+    {
+      "path": "courses/LAW70005.json",
+      "bytes": 3218,
+      "sha256": "460d4db2657a9001bc20a4b7722c414927f1be5dd82dbd6c6a42adcb5d411a1c"
+    },
+    {
+      "path": "courses/LAW70006.json",
+      "bytes": 3227,
+      "sha256": "0bea879944cec5161c42060ac2c64c709b053078d733399beb15ead4cfea123e"
+    },
+    {
+      "path": "courses/LAW70007.json",
+      "bytes": 4635,
+      "sha256": "32999bef8ae8838685b2445447c0f0bd9651549f7c575843aa31896087515fc3"
+    },
+    {
+      "path": "courses/LAW70008.json",
+      "bytes": 3209,
+      "sha256": "ae465c05cb39fb3f49345481ff9439febbeac4714826e4ae47ffa69c8b1606fd"
+    },
+    {
+      "path": "courses/LAW70009.json",
+      "bytes": 3209,
+      "sha256": "75f64b42ab1158a7a17b55a8e57160cd1bf6bb8d453ac9dd851c5169430d949e"
+    },
+    {
+      "path": "courses/LAW70010.json",
+      "bytes": 3227,
+      "sha256": "e5b9a9ed465380ad1fe5a47581300236e6f1a29183dedec406e006d24bc3e376"
+    },
+    {
+      "path": "courses/LAW70011.json",
+      "bytes": 11207,
+      "sha256": "dd6d020f72c33dba5d0701a26c05df3d4f0b0a796a6d2354370ee092e58d4db3"
+    },
+    {
+      "path": "courses/LAW70012.json",
+      "bytes": 3286,
+      "sha256": "07d8c3ac804d06a507fbe376c6f252e979632ceace0a75c694e1965c152540d0"
+    },
+    {
+      "path": "courses/LAW70014.json",
+      "bytes": 3209,
+      "sha256": "cf90999577d33c30ca18c1d5a3b560479e156c97bc3b4d294e33cc04c09445a1"
+    },
+    {
+      "path": "courses/LAW70015.json",
+      "bytes": 3209,
+      "sha256": "1422d321e527ad28280a289a2afcad2f6c35ac7ff08e4e543b0d7ea33f215619"
+    },
+    {
+      "path": "courses/LAW70017.json",
+      "bytes": 3254,
+      "sha256": "941bdae413544762e1cca0db89b7f049c59fe918aca64229d60dc1803369e103"
+    },
+    {
+      "path": "courses/LAW70020.json",
+      "bytes": 3236,
+      "sha256": "03778d1d7bad3233dd188b91c51e800aeb88b387651235336ef6624f9047384b"
+    },
+    {
+      "path": "courses/LAW70021.json",
+      "bytes": 3272,
+      "sha256": "56d20ff6435797d41b264f21b495985068de3a02badf35d17d2f2f7338d9cf1f"
+    },
+    {
+      "path": "courses/LAW70022.json",
+      "bytes": 3218,
+      "sha256": "c7fc1ec85f94750e04fdfd776e06b95ac53b69da49dcd93c3f4302a948d9a684"
+    },
+    {
+      "path": "courses/LAW70027.json",
+      "bytes": 3331,
+      "sha256": "436b67ca2e5f1e28f21cbffff2be3f2af5c6b945196ff269d21db01b3f78f019"
+    },
+    {
+      "path": "courses/LAW70028.json",
+      "bytes": 4293,
+      "sha256": "fb887231cf9eb464c00df2e954da280f98454642b2ae1fa80ed50f46d7b26968"
+    },
+    {
+      "path": "courses/LAW70029.json",
+      "bytes": 3227,
+      "sha256": "bed39abf8aca8a6335def10a861d0d26401872aa1dc4cf33e2d1ea87d71b704f"
+    },
+    {
+      "path": "courses/LAW70030.json",
+      "bytes": 5410,
+      "sha256": "23e7cb167ff8ab4af95a7820d5fd5a90e0a88383652d3af978c8402baf6b8bbf"
+    },
+    {
+      "path": "courses/LAW70031.json",
+      "bytes": 3286,
+      "sha256": "d719efb32784ee760b62bc465bbf7114407ef1bee8e7693cbac79b97811cdf1c"
+    },
+    {
+      "path": "courses/LAW70033.json",
+      "bytes": 3254,
+      "sha256": "bea42f37d69b81cd1b371e097864138c10f0e39a89450dfae13246f5ed312a78"
+    },
+    {
+      "path": "courses/LAW70034.json",
+      "bytes": 3950,
+      "sha256": "7b04e2cdf5aaa4d74f0fe0bed7632040f15055723ea13066d33e367092d5b81f"
+    },
+    {
+      "path": "courses/LAW70036.json",
+      "bytes": 3227,
+      "sha256": "bba03dd2b283279cc883795a4fc46aefc3e96d23c50c37401510acd125b1bdba"
+    },
+    {
+      "path": "courses/LAW70037.json",
+      "bytes": 3227,
+      "sha256": "99856aa4f608068fb9ca43139d550ef300074bfe90c0f04d752e93563b269b36"
+    },
+    {
+      "path": "courses/LAW70038.json",
+      "bytes": 3263,
+      "sha256": "fe51835cb70812e648cd053a28d77c38c9ba4966c16dba7aa1836e15e0d3b409"
+    },
+    {
+      "path": "courses/LAW70039.json",
+      "bytes": 3209,
+      "sha256": "4fdde13f8d584e1243822b3eb6d7ab5fbb4fa815266a2636dc51f833d914d477"
+    },
+    {
+      "path": "courses/LAW70041.json",
+      "bytes": 3245,
+      "sha256": "4fc3bdcffb205669c4e56be661d14b47b3341040e100c0122158e422ee9b56f1"
+    },
+    {
+      "path": "courses/LAW70042.json",
+      "bytes": 3245,
+      "sha256": "4bcf0e630068e7604016870928680a4adb85fa240a404c1fc19aa223a9d85a1a"
+    },
+    {
+      "path": "courses/LAW70043.json",
+      "bytes": 3218,
+      "sha256": "975b0f5c3076399243d44945c157662faadfa5bf91037d47f0e6378449412086"
+    },
+    {
+      "path": "courses/LAW70044.json",
+      "bytes": 3209,
+      "sha256": "04789d462585405d703343559203479b5203e0b709d6b768af682bb77c18370b"
+    },
+    {
+      "path": "courses/LAW70045.json",
+      "bytes": 3304,
+      "sha256": "654b49005ec38f4f158bc9659c48396aead7180211db557d77489025130f9563"
+    },
+    {
+      "path": "courses/LAW70047.json",
+      "bytes": 3218,
+      "sha256": "cacc5719376fe5c3d47650d9e46c224fe375502feafccc270fa83c5855b8a1c9"
+    },
+    {
+      "path": "courses/LAW70048.json",
+      "bytes": 3218,
+      "sha256": "206518c323659fcfa86350746c50d8870c3bd6686b88fe0fec0edc1c07559ed1"
+    },
+    {
+      "path": "courses/LAW70049.json",
+      "bytes": 3218,
+      "sha256": "7646192839b1738bac654546cc9f1265a114f784fcf61ed29e159b18c58994d6"
+    },
+    {
+      "path": "courses/LAW70050.json",
+      "bytes": 3236,
+      "sha256": "bbd3d51f80f55cf633709a33b703bba2265cf712f757a2975a87780ea4161a37"
+    },
+    {
+      "path": "courses/LAW70051.json",
+      "bytes": 3245,
+      "sha256": "5609cc646439074139156d560a2fa4aaa60a4d32b5a46132f07389bf590edc28"
+    },
+    {
+      "path": "courses/LAW70052.json",
+      "bytes": 3236,
+      "sha256": "0e668f64e9a8e3d3bf7be2f6fb68177425a275747195481423ce5b43df62798b"
+    },
+    {
+      "path": "courses/LAW70055.json",
+      "bytes": 3236,
+      "sha256": "65265ba79df8810b31e9393dbbf509ccfdfdacd04eed046fb9e41e2ab4b2c08f"
+    },
+    {
+      "path": "courses/LAW70056.json",
+      "bytes": 3331,
+      "sha256": "23505fadd36af97a9ae8e3a7e6594605de93a718ffa48da0d01536786fdbbfb2"
+    },
+    {
+      "path": "courses/LAW70059.json",
+      "bytes": 3227,
+      "sha256": "11166c6f5f8be154cd1fae3a62c86cfbcb539698fd7a99934171dc666ce28235"
+    },
+    {
+      "path": "courses/LAW70060.json",
+      "bytes": 3254,
+      "sha256": "89ef4eef4047a05c98084b7b5f3f8ede4fb79b9e8530490a00dbebd30f8670ed"
+    },
+    {
+      "path": "courses/LAW70061.json",
+      "bytes": 3236,
+      "sha256": "b419987ec3367edb8261953f05de25f092a958f8628184988d8b9a38fd871020"
+    },
+    {
+      "path": "courses/LAW70063.json",
+      "bytes": 3227,
+      "sha256": "11c6ec80ad0ba989b78c8d7de575e8023e26850dce50c5398f0e1d08546810a0"
+    },
+    {
+      "path": "courses/LAW70065.json",
+      "bytes": 3209,
+      "sha256": "cf17066a7a4c6c98f10733a87272179e97b0f4a52a5d27b577ae2aa99d3f6786"
+    },
+    {
+      "path": "courses/LAW70066.json",
+      "bytes": 3236,
+      "sha256": "b8baf31767c7d85c82c3ca156e872723c85a0935dbb02860a1b50a9c1dbc3e36"
+    },
+    {
+      "path": "courses/LAW70069.json",
+      "bytes": 3227,
+      "sha256": "e7e174e197417680a0f4bb6e1e2a5c1b116c5626d788e4151f4c861476bf579f"
+    },
+    {
+      "path": "courses/LAW70070.json",
+      "bytes": 3218,
+      "sha256": "a84cb2a63fe7a5c901dd2ae707f925650955ebe75a3cbdeed0976bc3204af1fb"
+    },
+    {
+      "path": "courses/LAW70071.json",
+      "bytes": 3218,
+      "sha256": "25412d757dd725d580fca71b97bc78c7afe38f41cff5d05da383c4e06ed86eb6"
+    },
+    {
+      "path": "courses/LAW70072.json",
+      "bytes": 3245,
+      "sha256": "a609602e2bdffdb4a8813b52fe8aa977fa0d3463ea347c70d41ffc2143be9701"
+    },
+    {
+      "path": "courses/LAW70073.json",
+      "bytes": 3236,
+      "sha256": "5b9c543380316e466d8175215bd6725bde578e19efed0ce1b07840000dafd3cf"
+    },
+    {
+      "path": "courses/LAW70074.json",
+      "bytes": 3218,
+      "sha256": "a80b402e3b79551e392ca80a8f40a60bf85f64a722fd51be6dacc4ae8ae31150"
+    },
+    {
+      "path": "courses/LAW70075.json",
+      "bytes": 3277,
+      "sha256": "145e44a87373ec8579048646ca8c2492aa99644d0489f8f16b4e76ff978c03f5"
+    },
+    {
+      "path": "courses/LAW70076.json",
+      "bytes": 3218,
+      "sha256": "16e3da39468c08ad66422b029cdee7f5715f9b66218419e1b2383d54c15b0534"
+    },
+    {
+      "path": "courses/LAW70077.json",
+      "bytes": 3236,
+      "sha256": "cbc44200ce4488383d4e85c53efa2a41ec6c0985214ae6f606d3a45afa05b0be"
+    },
+    {
+      "path": "courses/LAW70078.json",
+      "bytes": 3209,
+      "sha256": "c8932931b03b123650089591cf754e2f0ddd0ea62dd901ba000896617e254610"
+    },
+    {
+      "path": "courses/LAW70079.json",
+      "bytes": 3209,
+      "sha256": "0452a988df268089fe06895c1d7522cb0c47f2e4d5f63618aa6f1460247c9a79"
+    },
+    {
+      "path": "courses/LAW70080.json",
+      "bytes": 3236,
+      "sha256": "4ac6628b4f0917ac943607e9af7e825d0e35dcdecaaa6e93a74195deb0b1ee35"
+    },
+    {
+      "path": "courses/LAW70081.json",
+      "bytes": 3200,
+      "sha256": "3de0edc34d1effd93cc83e894f0bc5965ac4f133fc2ab5d6c8b61e41297447e1"
+    },
+    {
+      "path": "courses/LAW70082.json",
+      "bytes": 3268,
+      "sha256": "b27889e27f4b18aa840da289c87e1713e8633a06cb830f2a1ede13976383b29f"
+    },
+    {
+      "path": "courses/LAW70083.json",
+      "bytes": 3245,
+      "sha256": "da3ecb6ac8ce68c99ef465e0c515ef51ab0efdd3b6a0f1bf82c6aadd8ffada70"
+    },
+    {
+      "path": "courses/LAW70084.json",
+      "bytes": 3245,
+      "sha256": "b59b28153387c8b6809df300b685420ae1df7005180e1f21feeb1ab851932ea0"
+    },
+    {
+      "path": "courses/LAW70085.json",
+      "bytes": 3209,
+      "sha256": "c08fd5a55107400f91004e8397e464800c7e0243e1be4aadc4a8e42d7a03ee04"
+    },
+    {
+      "path": "courses/LAW70086.json",
+      "bytes": 5326,
+      "sha256": "62bb7f6053ddd6eb45ff47c65132147d7e22f5f1ddad62c2262c1d3ce29f6630"
+    },
+    {
+      "path": "courses/LAW70087.json",
+      "bytes": 3227,
+      "sha256": "dc8ddab387d80233cbb31a06e4c7c1232810dc7c334b299185aebc4435094798"
+    },
+    {
+      "path": "courses/LAW70088.json",
+      "bytes": 3218,
+      "sha256": "7b6e64f08eec52c41ca9cc1d2867ea71ce27709f5832cdd3552d7dc7970cc554"
+    },
+    {
+      "path": "courses/LAW70089.json",
+      "bytes": 3254,
+      "sha256": "1450dc048be39c2c9cbfae7d0a2503c32bd8e647da63d8b76b48d55649b69ed7"
+    },
+    {
+      "path": "courses/LAW70090.json",
+      "bytes": 3254,
+      "sha256": "95e37a73f7401cd109f756855d3a4324c35e1924736b1593cdfd82bdb2957e87"
+    },
+    {
+      "path": "courses/LAW70091.json",
+      "bytes": 3254,
+      "sha256": "703d771411ce997a9bb4b391485b03e369fb0f40a99720f973853b111a346b1e"
+    },
+    {
+      "path": "courses/LAW70092.json",
+      "bytes": 3227,
+      "sha256": "0f5c0984be4db5f7004c254e8b0716bcaefdf6387aeef1901dd8696fb6939c5b"
+    },
+    {
+      "path": "courses/LAW70093.json",
+      "bytes": 3227,
+      "sha256": "b0c9a91dcfb31356fbebac4d480ec9ef2d6b67540afc308969664d6a1285f1cd"
+    },
+    {
+      "path": "courses/LAW70095.json",
+      "bytes": 3263,
+      "sha256": "9af03532b58ea40680ccba368958aa1cd24dcb63f1f3e31cbdae370ef0dcaa38"
+    },
+    {
+      "path": "courses/LAW70097.json",
+      "bytes": 3367,
+      "sha256": "c561472abbf35bc13c54d9423aa58d2475621973b81b85ff16b8f40855deacfb"
+    },
+    {
+      "path": "courses/LAW70098.json",
+      "bytes": 3322,
+      "sha256": "8f78add6d4eff0687fc9951c4c8d933bd836fecb7627125fa341bb5f4587f7dc"
+    },
+    {
+      "path": "courses/LAW70099.json",
+      "bytes": 3218,
+      "sha256": "a95ac389bd84862cf397b62a5f47d600fe3015fe763e1ba90a23ff4722da68de"
+    },
+    {
+      "path": "courses/LAW70101.json",
+      "bytes": 3245,
+      "sha256": "7e201cd8c6e87685bf2642cf6340e9dd7c5b13ab8a57000772e6023048d2689a"
+    },
+    {
+      "path": "courses/LAW70102.json",
+      "bytes": 3236,
+      "sha256": "2c95288911c90a972680474752d2a2dd1c6e6de41da059af68726fdeac60e6da"
+    },
+    {
+      "path": "courses/LAW70104.json",
+      "bytes": 3254,
+      "sha256": "f10b7123e71f621da2bdb47c2a55e30383365b71022fdac6e7b024570928ec26"
+    },
+    {
+      "path": "courses/LAW70105.json",
+      "bytes": 3227,
+      "sha256": "f8dfb571260b8bda8b3387ac4ef801b117e15da1b85abcc89fa4fd2569a15f09"
+    },
+    {
+      "path": "courses/LAW70106.json",
+      "bytes": 3760,
+      "sha256": "175779e2278862f79f01e73ca4cffcbd34780efaa09f529501c02ecebabcdbe8"
+    },
+    {
+      "path": "courses/LAW70107.json",
+      "bytes": 3236,
+      "sha256": "68099ce9a36e2d7ceef6688b611b6c7cee75912da96471c81232dd63b2f2b4bd"
+    },
+    {
+      "path": "courses/LAW70109.json",
+      "bytes": 3218,
+      "sha256": "fe7bf3be764e14fbb73cd4d587b08c07220206c6a20b347a46093239a7719a2e"
+    },
+    {
+      "path": "courses/LAW70110.json",
+      "bytes": 3227,
+      "sha256": "c4c350a06e04c023ea1c9955b7af3a8bb951c05ef643093f87f2fffbe824e4e6"
+    },
+    {
+      "path": "courses/LAW70111.json",
+      "bytes": 3245,
+      "sha256": "0f91c04b99f686a1c06b27f6e3edb2d49736ca51290e1ef1c3171b1e287dbd53"
+    },
+    {
+      "path": "courses/LAW70112.json",
+      "bytes": 3245,
+      "sha256": "5c88b66d5ef27eb4a83da8938e0a52906fa7073e17317fce21d60e13dfb3075b"
+    },
+    {
+      "path": "courses/LAW70113.json",
+      "bytes": 3209,
+      "sha256": "56dfcf7757683ddae722c2972962f29cca615b84e1dc4e93771f29e763cba8e8"
+    },
+    {
+      "path": "courses/LAW70114.json",
+      "bytes": 3227,
+      "sha256": "3b1e307fa5bb1be694ca5ea56b57421b97a063e9e59eb5313f93d81b6400ccfb"
+    },
+    {
+      "path": "courses/LAW70115.json",
+      "bytes": 3254,
+      "sha256": "3bff4ffacd4c6be875986e557bf9fd5b46e78b8725594ed8384ad1560d3de849"
+    },
+    {
+      "path": "courses/LAW70116.json",
+      "bytes": 3218,
+      "sha256": "8b1ecf1f85a6e01f306b343c280555a4aeb64d6aa9bbd7a91ddc68153df55158"
+    },
+    {
+      "path": "courses/LAW70117.json",
+      "bytes": 3236,
+      "sha256": "ad6101b79a4c2905a195a56c0f314dcb72892da4d06f76f312c3524784aee7fd"
+    },
+    {
+      "path": "courses/LAW70118.json",
+      "bytes": 3218,
+      "sha256": "f1d7dd0e6aab80e3ca960b40822986afd77329772e5420f39d7e6a4ab99774bd"
+    },
+    {
+      "path": "ledgers/exclusions.json",
+      "bytes": 1811,
+      "sha256": "20deff1572b07ac8193753cddee83f50701c578c2bfe5caa1481a500d198829e"
+    },
+    {
+      "path": "ledgers/fulltext-reading-ids.json",
+      "bytes": 87758,
+      "sha256": "779319b3c429d9410bf4276b7cce84b96ffd4a60dfe3fe2d93a06f0137d16d02"
+    },
+    {
+      "path": "ledgers/reading-reports.json",
+      "bytes": 2524,
+      "sha256": "5579bd9f66f8f9d174f923e0b96434eeb37fcb0c277aa23cbddfad4db3fd0953"
+    },
+    {
+      "path": "ledgers/search-queries.json",
+      "bytes": 1185486,
+      "sha256": "195e1961a38f0de2d52ebf55dbfb5d3287c69180bbd26e48d54f148aab79516e"
+    },
+    {
+      "path": "ledgers/search-variants.json",
+      "bytes": 1090917,
+      "sha256": "8dbb20662297e9505cb2206a38179968cd2fe17e3cf2a5707996446c183aa3d0"
+    },
+    {
+      "path": "official/program-courses.csv",
+      "bytes": 163335,
+      "sha256": "47d6a311b0794fbe3036bba8976b922c49c89ae11efbc8139af2ea9a50c9be13"
+    },
+    {
+      "path": "official/program-modules.csv",
+      "bytes": 18549,
+      "sha256": "df6620d2dccd0f78a358343243b7ee8298acab7dd8f1f65bc189abadad28d76a"
+    },
+    {
+      "path": "official/program-verification.json",
+      "bytes": 6441,
+      "sha256": "98de887fb72e1822a3d692bfa21f790e48e323254b5d2c4b4b8bff3aad6b18c8"
+    },
+    {
+      "path": "official/programs.json",
+      "bytes": 11469,
+      "sha256": "2d77b2dfff50f2b34dd7f63a9e8d5b208290112d67ac7c41d986a792e8976e5b"
+    },
+    {
+      "path": "official/sections.json",
+      "bytes": 152959,
+      "sha256": "57c477f6f2a8a71596c98cff85d43c00b0de54a248dc610d1d3e3867c3eceea7"
+    },
+    {
+      "path": "official/sources.json",
+      "bytes": 852,
+      "sha256": "af4b646fd9a5f30db82f2c2861562fb121b47cb6909a62d60de1edb8b677b681"
+    },
+    {
+      "path": "official/timetable.csv",
+      "bytes": 132277,
+      "sha256": "4d9bec1c17f14a063f144f6b6cf7ca3caf4bb2c54900701ea7b02667a0b882dd"
+    },
+    {
+      "path": "README.md",
+      "bytes": 3718,
+      "sha256": "53b3716a7ebcb65d2ad37b980b534ae6cf032f4fdc7d9ffb83203ad6dbccbc48"
+    },
+    {
+      "path": "release-assets.json",
+      "bytes": 765,
+      "sha256": "8e4a06a74cffe2188b086e0b1fd806f6ff383dfb4b1fb7811e9849e251809cba"
+    },
+    {
+      "path": "summaries/evidence.json",
+      "bytes": 456536,
+      "sha256": "089437ae41633b4d9391fecb8ae0028c20bd2de6a10084299338419161c8ff62"
+    },
+    {
+      "path": "summaries/statistics.json",
+      "bytes": 1404,
+      "sha256": "91384b79be5654d0160a8f4535365cbd478dfc774e542980ddc103f4f8db84b3"
+    },
+    {
+      "path": "validate.py",
+      "bytes": 4499,
+      "sha256": "692cfd22625f0f47837fb56c83cfeda4ce381e270a9171b169507f7aee62310d"
+    }
+  ]
+}
