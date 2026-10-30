@@ -6,7 +6,7 @@ for(const [key,label,count] of [['economics','经济专业',301],['management','
  assert(select.innerHTML.includes(`value="${key}"`));assert.equal(cat.scope.filter(g=>box.api.match(g,key)).length,count);assert(cat.scope.some(g=>g.categories.includes(label)&&search.entries[g.id]));
 }
 const medicineFile=path.join(root,'data/medicine-update.json'),medicine=fs.existsSync(medicineFile)?read('medicine-update'):null;
-assert.equal(cat.scope.length,report.total_courses+(medicine?.counts.new_courses||0));assert.equal(cat.scope.reduce((n,g)=>n+g.offerings.length,0),report.total_sections+(medicine?.counts.new_offerings||0));assert.equal(cat.syllabi.length,report.total_syllabi);
+const latest=read('latest-update');assert.equal(cat.scope.length,latest.total_courses);assert.equal(cat.scope.reduce((n,g)=>n+g.offerings.length,0),latest.total_sections);assert.equal(cat.syllabi.length,latest.total_syllabi);
 for(const [id,sha] of Object.entries(report.new_originals)){const r=sup.records.find(r=>r.id===id);assert(r?.full_original);assert.equal(crypto.createHash('sha256').update(full.records[id].floors[0].text).digest('hex'),sha);}
 assert(report.source_packages.length===6);assert(report.source_packages.every(p=>p.updated_at&&/^[a-f0-9]{64}$/.test(p.sha256)));
 const snippets=sup.records.filter(r=>r.batch==='20261030-github');assert.equal(snippets.length,720);assert(snippets.filter(r=>r.discussion_only).every(r=>r.scope_label.includes('非修读评价')));
