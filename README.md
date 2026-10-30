@@ -6,7 +6,7 @@
 
 ## 本轮同步与待办
 
-大体积既有资料包改由 GitHub 托管，网站资料入口仍可直接下载，旧站内路径保留跳转；源码内仍保存这些文件，部署包按 `offsite-assets.json` 的哈希校验后排除副本。
+大体积既有资料包改由 GitHub 托管，网站资料入口仍可直接下载；部分旧站内路径受托管限制而不可用，请从课程详情的新入口下载。源码内仍保存这些文件，部署包按 `offsite-assets.json` 的哈希校验后排除副本。
 
 课程目录源码现采用 `public/data/catalog.json` 清单加 `catalog-scope-*.json` 有序分片，无损保留全部字段；Node 工具用 `scripts/read-catalog.cjs`，Python 工具用 `scripts/catalog_io.py` 读取/写入，避免单文件超过托管上限。
 
