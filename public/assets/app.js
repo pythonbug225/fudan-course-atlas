@@ -70,7 +70,7 @@ function rankCalc(){const grade=$('#rank-grade').value,r=P.intervals.find(x=>x.g
 
 async function init(){try{
  const fetchJSON=async file=>{const r=await fetch('data/'+file);if(!r.ok)throw Error(file+' '+r.status);return r.json()};
- [D,S,G,SEARCH,P]=await Promise.all(['catalog.json','survey.json','guide.json','search.json','grading.json'].map(fetchJSON));CUR=await fetchJSON('curriculum.json');await ReviewSupplement.init();await CourseSynthesis.init();await SummerInfo.init();await ReviewReader.init(D);await HandbookInfo.init();EnrollmentStats.init().then(()=>{if(state.detail)renderDetail()});
+ [D,S,G,SEARCH,P]=await Promise.all([CatalogLoader.load(fetchJSON),...['survey.json','guide.json','search.json','grading.json'].map(fetchJSON)]);CUR=await fetchJSON('curriculum.json');await ReviewSupplement.init();await CourseSynthesis.init();await SummerInfo.init();await ReviewReader.init(D);await HandbookInfo.init();EnrollmentStats.init().then(()=>{if(state.detail)renderDetail()});
  N=Object.fromEntries(D.notes.map(n=>[n.key,n]));R=Object.fromEntries(D.reviews.map(r=>[r.id,r]));SY=Object.fromEntries(D.syllabi.map(s=>[s.lesson_id,s]));RES=Object.fromEntries(D.resources.map(r=>[r.subject,r]));EX=Object.fromEntries(D.exam_notes.map(n=>[n.key,n]));SH=Object.fromEntries(D.sharing.map(r=>[r.name,r]));
  for(const g of D.scope)g.search=SEARCH.entries[g.id].fields;CourseTaxonomy.init(D);
  $('#statline').innerHTML=[[D.stats.course_code_groups,'组课程'],[D.stats.sections,'条班次记录'],[D.stats.notes+(D.stats.supplement_records||0),'条整理判断'],[D.syllabi.length,'份大纲及摘要']].map(([v,l])=>`<div><b>${Number(v).toLocaleString()}</b><span>${l}</span></div>`).join('');
