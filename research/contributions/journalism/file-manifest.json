@@ -1,0 +1,111 @@
+{
+  "generated_date": "2026-10-30",
+  "counts": {
+    "official_programs": 27,
+    "official_classes": 352,
+    "official_course_codes": 207,
+    "unique_course_names": 203,
+    "danke_raw_reviews": 61,
+    "danke_course_groups": 309,
+    "forum_source_rows": 781,
+    "forum_cited_source_rows": 128,
+    "forum_read_floor_ids": 781,
+    "forum_excerpt_only_ids": 3,
+    "forum_public_bodies": 766,
+    "forum_withheld_bodies": 15,
+    "forum_index_query_files": 1520,
+    "forum_unique_fetched_floor_ids": 22678,
+    "discussion_summaries_by_stage": [
+      21,
+      20,
+      19
+    ]
+  },
+  "files": [
+    {
+      "path": "derived/research-data-and-summaries.zip",
+      "bytes": 392333,
+      "sha256": "3abb1abfb8561eb7e0a947cc98a814748c0e9401ae98c4e4149f9420482a3a98"
+    },
+    {
+      "path": "ledgers/search-result-index.zip",
+      "bytes": 264740,
+      "sha256": "70e7357c22ea6eb00473de0e31a022d8d28eee68224162dd6e66b6413da3c12b"
+    },
+    {
+      "path": "official/course_catalog.csv",
+      "bytes": 304042,
+      "sha256": "6c15337dbb97097b07c7274998040e583ab9799c6b08da69e97bb3a274a255a4"
+    },
+    {
+      "path": "official/course_catalog.json",
+      "bytes": 672280,
+      "sha256": "e5f1e811fc1af9144d5f85cd36098406c57c88ad0edbab8f3a44480d3beab426"
+    },
+    {
+      "path": "official/official-originals.zip",
+      "bytes": 6252716,
+      "sha256": "3bccba79e6385eb9aba7336304ca17e4afd395e9648ff8caf4f5e8d9bda757e5"
+    },
+    {
+      "path": "raw/danke-course-groups.jsonl",
+      "bytes": 375286,
+      "sha256": "5b8d5dd98075b7c5f3e4e48faf0340d1327fbea8eede0469004a8805986dddd5"
+    },
+    {
+      "path": "raw/danke-reviews.jsonl",
+      "bytes": 75704,
+      "sha256": "5ac466c0b50c5e2551e88f405b805a1c29ef0d9c147a6f62a89d8c076a0ad138"
+    },
+    {
+      "path": "raw/forum-read-and-cited-floors.jsonl",
+      "bytes": 826508,
+      "sha256": "ec992ac564b02758e067a2946e91ca2cc561695e8d53ed1ac7218e0bf3eabe11"
+    },
+    {
+      "path": "raw/raw-manifest.json",
+      "bytes": 1835,
+      "sha256": "5c96e0f459bffd80281a7e565616ee5d6004a2912c899b061b5cc7dd7dc55663"
+    },
+    {
+      "path": "README.md",
+      "bytes": 3861,
+      "sha256": "ecabce3920f3e90c6f1034e3cd53d4ed71a97d49ccb539657f61cd2f43a2aded"
+    },
+    {
+      "path": "reports/新闻学院完整研究报告.zip",
+      "bytes": 12754927,
+      "sha256": "7c18c10fa8adb9a8470abf6a49ba6c9254783693f0c571b9948c0cd8e28c03b9"
+    },
+    {
+      "path": "reports/研究报告.html",
+      "bytes": 115730,
+      "sha256": "56c4393a13d2eaaa479acdd9c3df0c9a241bff0202aaf4ccc079a5c02ae01203"
+    },
+    {
+      "path": "reports/研究进度与范围.json",
+      "bytes": 1768,
+      "sha256": "0dd0f9a96239ce3b378e2055a94e9f0121eac9ad360cd35776205e20744be760"
+    },
+    {
+      "path": "reports/续查范围.json",
+      "bytes": 513,
+      "sha256": "f5ee38c7aa62c48af87e3b921970b17eace64052483069d15267ec401019a4fc"
+    },
+    {
+      "path": "reports/续查补充.html",
+      "bytes": 24059,
+      "sha256": "315252b303c0a0f50c4a3565bd249fab5de297bd5a40c9a2bd3fe7fdf8fe5691"
+    },
+    {
+      "path": "verify.py",
+      "bytes": 1135,
+      "sha256": "aa0281251ac88ddde8c0563f29f192fe2d1642707f9aab617fa0c34d451abdcd"
+    },
+    {
+      "path": "新闻学院课程名单.txt",
+      "bytes": 4812,
+      "sha256": "34dc86cdacd666062410f6c02d161a5898c61d35708fcd03add9de04ffa87f89"
+    }
+  ]
+}

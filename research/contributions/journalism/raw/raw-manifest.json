@@ -1,0 +1,47 @@
+{
+  "schema": "fudan-journalism-source-extract/1",
+  "generated_date": "2026-10-30",
+  "counts": {
+    "official_programs": 27,
+    "official_classes": 352,
+    "official_course_codes": 207,
+    "unique_course_names": 203,
+    "danke_raw_reviews": 61,
+    "danke_course_groups": 309,
+    "forum_source_rows": 781,
+    "forum_cited_source_rows": 128,
+    "forum_read_floor_ids": 781,
+    "forum_excerpt_only_ids": 3,
+    "forum_public_bodies": 766,
+    "forum_withheld_bodies": 15,
+    "forum_index_query_files": 1520,
+    "forum_unique_fetched_floor_ids": 22678,
+    "discussion_summaries_by_stage": [
+      21,
+      20,
+      19
+    ]
+  },
+  "redactions": {
+    "markdown_image_omitted": 79,
+    "email": 2,
+    "phone": 9,
+    "contact": 16,
+    "share_password": 1,
+    "contact_handle": 3,
+    "withheld_sensitive_personal_detail": 1,
+    "withheld_independent_review": 15,
+    "private_share_url": 1,
+    "withheld_deleted_or_removed": 2,
+    "withheld_platform_sensitive_or_hidden": 2
+  },
+  "scope": "已核读和实际引用的课程原始正文、相关上下文及全部查询结果ID台账；不是全量搜索池正文。",
+  "transformations": [
+    "原始title/content直接取自保存的接口记录，不以摘要替代。",
+    "删除账号、私人联系方式、签名参数及内嵌媒体；删除/限制转载/敏感私人细节正文不公开。",
+    "保留原始编号、时间、回复关系、课程元数据及源链接；另列阅读和归属状态。",
+    "原快照没有公开署名字段，明确注明署名见原帖，不猜测身份。",
+    "官方originals.zip成员字节保持下载快照原件，以SHA-256核对。",
+    "第三方小红书、知乎、公众号仅保留现有来源索引和摘要，不另行转载全文或配图。"
+  ]
+}
