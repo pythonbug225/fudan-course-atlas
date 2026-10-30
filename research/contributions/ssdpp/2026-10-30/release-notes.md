@@ -8,5 +8,5 @@
 
 原件和资料包的SHA-256：
 
-- `ssdpp-research-20261030.zip`：`db2dd82a0505fe2b14e0343b17afc54c04236be32e86b4c55868c97197b1bdc5`
+- `ssdpp-research-20261030.zip`：`9aa305d40fa534ceeb7322de183bdd4500ac360560a52ef2dd4eb9a0c1c327e6`
 - `ssdpp-programs-2026-originals.zip`：`82a410c8dc77b4d879372889a35dbe214ad6893b0f9fd65d86519335524656e2`
