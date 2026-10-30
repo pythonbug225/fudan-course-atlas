@@ -1,0 +1,1078 @@
+{
+  "schema": "law-captured-source-responses/1",
+  "capture_date": "2026-10-29",
+  "publication_date": "2026-10-30",
+  "file_count": 58,
+  "files": [
+    {
+      "source_path": "live/danke-constitutional-frontier-reviews.json",
+      "category": "danke",
+      "captured_bytes": 141,
+      "captured_sha256": "3cce2c9351a18ffc4157b7a5d2a754a2fecba0acf41a0bcb58fdc95f988b6d86",
+      "stored_path": "live/danke-constitutional-frontier-reviews.json.gz",
+      "stored_bytes": 135,
+      "stored_sha256": "d02a4bd4d47d94dd4df03d58306d8f989292e5bfad063fdb4953dc2ded006d8d",
+      "restored_bytes": 125,
+      "restored_sha256": "8229310cbf34b3cf6bd87797cec5cf29bb32395e0169eb2407f676eac5837a1d",
+      "redactions": {},
+      "post_counts": {},
+      "read_status": "Captured does not mean read or adopted; see reading and evidence ledgers."
+    },
+    {
+      "source_path": "live/danke-group-1946.json",
+      "category": "danke",
+      "captured_bytes": 27728,
+      "captured_sha256": "29f999b44d802913aa4487743266c43cb1be98cd399759b931259b697679d838",
+      "stored_path": "live/danke-group-1946.json.gz",
+      "stored_bytes": 4652,
+      "stored_sha256": "1218a83d7ab88a802946fe342637cef905a856273b0fdbe80f5ff4c727f8d5d8",
+      "restored_bytes": 16292,
+      "restored_sha256": "243daa6aaa7761c09e4c6aff0b2700cec09e8300746459d6f5193509eb13bb8e",
+      "redactions": {
+        "removed_account_state_or_revision_field": 40
+      },
+      "post_counts": {
+        "review_body_retained_ids": 10,
+        "review_ids": 10
+      },
+      "read_status": "Captured does not mean read or adopted; see reading and evidence ledgers."
+    },
+    {
+      "source_path": "live/danke-group-1958.json",
+      "category": "danke",
+      "captured_bytes": 8566,
+      "captured_sha256": "de6fc5974905c1f865f1c9f24cd41b0e678935b928f7f026e0091702e98a6417",
+      "stored_path": "live/danke-group-1958.json.gz",
+      "stored_bytes": 1072,
+      "stored_sha256": "d84c835b26daaa546bf40384bdb1faea7dc50b7e5e2b4a45510324b476574e12",
+      "restored_bytes": 5018,
+      "restored_sha256": "231d062ae3929655d4ad146b21d3ba89aa9c87dd0cb666de5f269fc086b63f6d",
+      "redactions": {
+        "removed_account_state_or_revision_field": 4
+      },
+      "post_counts": {
+        "review_body_retained_ids": 1,
+        "review_ids": 1
+      },
+      "read_status": "Captured does not mean read or adopted; see reading and evidence ledgers."
+    },
+    {
+      "source_path": "live/danke-group-239.json",
+      "category": "danke",
+      "captured_bytes": 107944,
+      "captured_sha256": "cc6f13381e635dce984e2b8577c910e8b56f7472cd7a4710d4c0df399667619e",
+      "stored_path": "live/danke-group-239.json.gz",
+      "stored_bytes": 3879,
+      "stored_sha256": "d0f2bb43c812f22bf1efc802bac5b0c7741e9645b894f6fa97066a436854c0e2",
+      "restored_bytes": 51287,
+      "restored_sha256": "3aff48209b82469e04fc8217f05fc672853a3c36d9e089f259f5b69f965cade0",
+      "redactions": {
+        "withheld_body_field": 72,
+        "removed_account_state_or_revision_field": 108
+      },
+      "post_counts": {
+        "review_body_retained_ids": 3,
+        "review_body_withheld_ids": 24,
+        "review_ids": 27
+      },
+      "read_status": "Captured does not mean read or adopted; see reading and evidence ledgers."
+    },
+    {
+      "source_path": "live/danke-group-2706.json",
+      "category": "danke",
+      "captured_bytes": 4075,
+      "captured_sha256": "d57aa93596e454af5858e8d97379c175e099728af9d7fd03b2ac9139d84a2cec",
+      "stored_path": "live/danke-group-2706.json.gz",
+      "stored_bytes": 909,
+      "stored_sha256": "2d2f35df9a465181f896ff234b592987932a5c133bac3b9827d9b2e3f4cbf56c",
+      "restored_bytes": 2445,
+      "restored_sha256": "1a4f49a8f77e6b67ef3df4db5f74e896edf2e84c48538821203055bea45c7f72",
+      "redactions": {
+        "removed_account_state_or_revision_field": 4
+      },
+      "post_counts": {
+        "review_body_retained_ids": 1,
+        "review_ids": 1
+      },
+      "read_status": "Captured does not mean read or adopted; see reading and evidence ledgers."
+    },
+    {
+      "source_path": "live/danke-group-2707.json",
+      "category": "danke",
+      "captured_bytes": 4819,
+      "captured_sha256": "cf53335a2a1069dd42582b8043d88ccf243484bdf595f02e4912f86c6e9cacc2",
+      "stored_path": "live/danke-group-2707.json.gz",
+      "stored_bytes": 1253,
+      "stored_sha256": "85f12311df6d39f625b3af9e415f1b85ff88ca1ed5a64480cc8409b57ac1fde6",
+      "restored_bytes": 3303,
+      "restored_sha256": "10294b0fbef57425e3b48c9eb11c77a24ec4af23d1131d265d7347b2658846e7",
+      "redactions": {
+        "removed_account_state_or_revision_field": 8
+      },
+      "post_counts": {
+        "review_body_retained_ids": 2,
+        "review_ids": 2
+      },
+      "read_status": "Captured does not mean read or adopted; see reading and evidence ledgers."
+    },
+    {
+      "source_path": "live/danke-group-2709.json",
+      "category": "danke",
+      "captured_bytes": 5664,
+      "captured_sha256": "05d31d6d008f32ef52f701a842cc191d465013e5bad4be4f966b3d236860de4b",
+      "stored_path": "live/danke-group-2709.json.gz",
+      "stored_bytes": 1548,
+      "stored_sha256": "82e1c15ae449c87f0bbe9ee42d49390d07457b1c37cfbe0e789a0b4c0abe3080",
+      "restored_bytes": 3875,
+      "restored_sha256": "389710aa77ed737c5d58156010123c975e1d0985ea8f9efb44e86e0abfdf761a",
+      "redactions": {
+        "removed_account_state_or_revision_field": 12
+      },
+      "post_counts": {
+        "review_body_retained_ids": 3,
+        "review_ids": 3
+      },
+      "read_status": "Captured does not mean read or adopted; see reading and evidence ledgers."
+    },
+    {
+      "source_path": "live/danke-group-2710.json",
+      "category": "danke",
+      "captured_bytes": 8573,
+      "captured_sha256": "93ab4fb642f7fc63354230797c36f2d6c3af93e01ba48b3115b0ec8998f3a8ca",
+      "stored_path": "live/danke-group-2710.json.gz",
+      "stored_bytes": 2361,
+      "stored_sha256": "64c3ae8a3f05d153995d41d529281372fc53e3a1da168a5d5d04305f0aa1c45f",
+      "restored_bytes": 5791,
+      "restored_sha256": "7a2863b28c6e740e8be1e6c82e905395dafa6553a27bb9f89a817708b72a9683",
+      "redactions": {
+        "removed_account_state_or_revision_field": 16
+      },
+      "post_counts": {
+        "review_body_retained_ids": 4,
+        "review_ids": 4
+      },
+      "read_status": "Captured does not mean read or adopted; see reading and evidence ledgers."
+    },
+    {
+      "source_path": "live/danke-group-2723.json",
+      "category": "danke",
+      "captured_bytes": 5492,
+      "captured_sha256": "e84725461d8edf93b8cf1ae4faa269988e75d5811624d32c9b246b19278c1c72",
+      "stored_path": "live/danke-group-2723.json.gz",
+      "stored_bytes": 999,
+      "stored_sha256": "7d61c6c3da1e14ffc4a7ddbf5f5ba51a9eda2c3c9e928aed3043947c88e0510c",
+      "restored_bytes": 3324,
+      "restored_sha256": "6652127779b7f8c7ec736965329d51ee968aa20742f0904f11d6b876774d1161",
+      "redactions": {
+        "removed_account_state_or_revision_field": 16
+      },
+      "post_counts": {
+        "review_body_retained_ids": 4,
+        "review_ids": 4
+      },
+      "read_status": "Captured does not mean read or adopted; see reading and evidence ledgers."
+    },
+    {
+      "source_path": "live/danke-group-2724.json",
+      "category": "danke",
+      "captured_bytes": 5128,
+      "captured_sha256": "00c8cd81dccfe297991441d02b79edf9dbd53170fd4945bc0465033038d3e50e",
+      "stored_path": "live/danke-group-2724.json.gz",
+      "stored_bytes": 830,
+      "stored_sha256": "d3b9ee09030b96501979b156d347078c59349d014e71511f915b00e8580efb0f",
+      "restored_bytes": 2637,
+      "restored_sha256": "a63cc8dc79b031b8ceacf8c67323dfc19180d12c5d0e1ee43941c81c6ea91f8c",
+      "redactions": {
+        "removed_account_state_or_revision_field": 8
+      },
+      "post_counts": {
+        "review_body_retained_ids": 2,
+        "review_ids": 2
+      },
+      "read_status": "Captured does not mean read or adopted; see reading and evidence ledgers."
+    },
+    {
+      "source_path": "live/danke-group-2732.json",
+      "category": "danke",
+      "captured_bytes": 2835,
+      "captured_sha256": "cf597e406d2bd2d24c34e665db22ec6cf1c25040c4f39eb6c68a712eed54a723",
+      "stored_path": "live/danke-group-2732.json.gz",
+      "stored_bytes": 615,
+      "stored_sha256": "e45165d10d3cbbc37b113dd919b306b96d78791e24546634324aa116fa03763f",
+      "restored_bytes": 1719,
+      "restored_sha256": "6bab934c0a93165bfa9f944ab902034f999beed95aa8ac63bc0ca2d86029d616",
+      "redactions": {
+        "removed_account_state_or_revision_field": 4
+      },
+      "post_counts": {
+        "review_body_retained_ids": 1,
+        "review_ids": 1
+      },
+      "read_status": "Captured does not mean read or adopted; see reading and evidence ledgers."
+    },
+    {
+      "source_path": "live/danke-group-3355.json",
+      "category": "danke",
+      "captured_bytes": 3446,
+      "captured_sha256": "902f47915f1d6946e2275eedcd54b7d7b7b67f23e9a5a1394331575694559a64",
+      "stored_path": "live/danke-group-3355.json.gz",
+      "stored_bytes": 603,
+      "stored_sha256": "1a6424d8520d0376278ee427d2d9b1fda85d2064239db2f150939936ad09b9d1",
+      "restored_bytes": 2177,
+      "restored_sha256": "ccae976429309386b2ff5984198e10be747d200d4bd4e1106a452437eceb3efd",
+      "redactions": {
+        "withheld_body_field": 3,
+        "removed_account_state_or_revision_field": 4
+      },
+      "post_counts": {
+        "review_body_withheld_ids": 1,
+        "review_ids": 1
+      },
+      "read_status": "Captured does not mean read or adopted; see reading and evidence ledgers."
+    },
+    {
+      "source_path": "live/danke-group-3772.json",
+      "category": "danke",
+      "captured_bytes": 4255,
+      "captured_sha256": "923665c5ede6924a586623f3ea7396c1a2d837094cc5aba239844161f1a16e82",
+      "stored_path": "live/danke-group-3772.json.gz",
+      "stored_bytes": 1225,
+      "stored_sha256": "f9c4fc631c9b0c865cbece76f0b1d0db1a0955b3f36d3f989d2141bf8aefb300",
+      "restored_bytes": 2887,
+      "restored_sha256": "f9b58317b4770c4a2599bab8593a04a4608edf4a1f9e11525ec021ed82190f0c",
+      "redactions": {
+        "removed_account_state_or_revision_field": 8
+      },
+      "post_counts": {
+        "review_body_retained_ids": 2,
+        "review_ids": 2
+      },
+      "read_status": "Captured does not mean read or adopted; see reading and evidence ledgers."
+    },
+    {
+      "source_path": "live/danke-group-5006.json",
+      "category": "danke",
+      "captured_bytes": 2832,
+      "captured_sha256": "65d81f3da46d73d7efe4be922d263a835745122e561acf7d554ba720b4b35b75",
+      "stored_path": "live/danke-group-5006.json.gz",
+      "stored_bytes": 1172,
+      "stored_sha256": "9e7578d10bb8d3088d0cbb0949799d1472532e1ca26c539768505623fa11dc19",
+      "restored_bytes": 2056,
+      "restored_sha256": "63307045546c042409e9d2245533fe7c3b0068f81a10fcbc968eeebb11cc93d8",
+      "redactions": {
+        "removed_account_state_or_revision_field": 8
+      },
+      "post_counts": {
+        "review_body_retained_ids": 2,
+        "review_ids": 2
+      },
+      "read_status": "Captured does not mean read or adopted; see reading and evidence ledgers."
+    },
+    {
+      "source_path": "live/danke-group-5339.json",
+      "category": "danke",
+      "captured_bytes": 38573,
+      "captured_sha256": "c84a7dcdd9710bc4c22d4a2ff22f440e770c4edb4043584df463e546721e328f",
+      "stored_path": "live/danke-group-5339.json.gz",
+      "stored_bytes": 1709,
+      "stored_sha256": "248342ab24c0e9d412b946ea6e485d98d48a30b399c403d630ce06b98ced1bfc",
+      "restored_bytes": 22510,
+      "restored_sha256": "5dc68ac8376f8c1fc37fe3642eeedf4ed844c193f4866f31ff4d4ed6b3e1636f",
+      "redactions": {
+        "withheld_body_field": 57,
+        "removed_account_state_or_revision_field": 76
+      },
+      "post_counts": {
+        "review_body_withheld_ids": 19,
+        "review_ids": 19
+      },
+      "read_status": "Captured does not mean read or adopted; see reading and evidence ledgers."
+    },
+    {
+      "source_path": "live/danke-group-5658.json",
+      "category": "danke",
+      "captured_bytes": 8955,
+      "captured_sha256": "83abec48c84bfd5f971d792a5fd9671229be093137bd8bb345e098c2d6873805",
+      "stored_path": "live/danke-group-5658.json.gz",
+      "stored_bytes": 746,
+      "stored_sha256": "7b6ddf729686c05766f955942fb7350ab99a93108db3d5afe235411568b6cd8d",
+      "restored_bytes": 4714,
+      "restored_sha256": "04312d576d36c9b50be2a7bcd57b1910ab9fc625010ba0c5adbee5b0f17919ab",
+      "redactions": {
+        "withheld_body_field": 3,
+        "removed_account_state_or_revision_field": 4
+      },
+      "post_counts": {
+        "review_body_withheld_ids": 1,
+        "review_ids": 1
+      },
+      "read_status": "Captured does not mean read or adopted; see reading and evidence ledgers."
+    },
+    {
+      "source_path": "live/danke-group-5739.json",
+      "category": "danke",
+      "captured_bytes": 5178,
+      "captured_sha256": "f151b1ea061b9e27124fa8dcdcc4193ece8e385dded13403083c42b823d7735e",
+      "stored_path": "live/danke-group-5739.json.gz",
+      "stored_bytes": 1411,
+      "stored_sha256": "fda415dbdff4f799a600666ba91fe003ebbff4265f20416f5e2dd6c2f86498da",
+      "restored_bytes": 2836,
+      "restored_sha256": "1b02858d9a08c734ade4e48986be99ece73d85ff419351cb0864ff0fb5fda4ff",
+      "redactions": {
+        "removed_account_state_or_revision_field": 8
+      },
+      "post_counts": {
+        "review_body_retained_ids": 2,
+        "review_ids": 2
+      },
+      "read_status": "Captured does not mean read or adopted; see reading and evidence ledgers."
+    },
+    {
+      "source_path": "live/danke-group-5740.json",
+      "category": "danke",
+      "captured_bytes": 4115,
+      "captured_sha256": "93d3b69558e306d387d738c6889f505cd2336f9edc8c3375e668e1bf879e5e99",
+      "stored_path": "live/danke-group-5740.json.gz",
+      "stored_bytes": 905,
+      "stored_sha256": "8c9eaa67e8ab340eef93eeafef51738e8072315e181daf28d5bd4e618ffb4cf6",
+      "restored_bytes": 1972,
+      "restored_sha256": "dc423cff4473031d58bbd45f3f3770391731af6fb8ba86e752256bca79ad7843",
+      "redactions": {
+        "removed_account_state_or_revision_field": 8
+      },
+      "post_counts": {
+        "review_body_retained_ids": 2,
+        "review_ids": 2
+      },
+      "read_status": "Captured does not mean read or adopted; see reading and evidence ledgers."
+    },
+    {
+      "source_path": "live/danke-group-5859.json",
+      "category": "danke",
+      "captured_bytes": 724,
+      "captured_sha256": "6d11353640e31ce39740765675db854bbe2ba4533bf99df1be3dc063bd9dc3fd",
+      "stored_path": "live/danke-group-5859.json.gz",
+      "stored_bytes": 301,
+      "stored_sha256": "813c35535db83dfab5e10724b9eddcf052e86dc7a18060c85ea8f64d9a36482f",
+      "restored_bytes": 473,
+      "restored_sha256": "6e82f23003843e21f4e4e5363f5083e06070ec0c98ea8b135edffe603df9eb1e",
+      "redactions": {},
+      "post_counts": {},
+      "read_status": "Captured does not mean read or adopted; see reading and evidence ledgers."
+    },
+    {
+      "source_path": "live/danke-group-665.json",
+      "category": "danke",
+      "captured_bytes": 4809,
+      "captured_sha256": "9f7aae8d836053e831ec3ca74aed950855583d50cccc2a5660986bcd0fe40d1b",
+      "stored_path": "live/danke-group-665.json.gz",
+      "stored_bytes": 1132,
+      "stored_sha256": "8c1371545167ed4c61caaafd20818693faa0cadbe1a9fa1ba11c24d1bb600392",
+      "restored_bytes": 3145,
+      "restored_sha256": "83c40d3fa6713d89c2b0367fecc6cf2a1e2af52b14efde453b0d43e376cbd968",
+      "redactions": {
+        "removed_account_state_or_revision_field": 8
+      },
+      "post_counts": {
+        "review_body_retained_ids": 2,
+        "review_ids": 2
+      },
+      "read_status": "Captured does not mean read or adopted; see reading and evidence ledgers."
+    },
+    {
+      "source_path": "live/danke-group-7716.json",
+      "category": "danke",
+      "captured_bytes": 22612,
+      "captured_sha256": "ed8a4dc9f296f3d726d48d71fb524b09a7fefb2976204bf00fff2c4c271857e3",
+      "stored_path": "live/danke-group-7716.json.gz",
+      "stored_bytes": 1792,
+      "stored_sha256": "12299ac9a37cd6a6d19b161d77950157460a61fb4342791af5642a56ebba31ae",
+      "restored_bytes": 14563,
+      "restored_sha256": "8ff116752400b0e97b13e7fd85b667c7b1838e3196fe4af2de07f14e8af4473d",
+      "redactions": {
+        "removed_account_state_or_revision_field": 8
+      },
+      "post_counts": {
+        "review_body_retained_ids": 2,
+        "review_ids": 2
+      },
+      "read_status": "Captured does not mean read or adopted; see reading and evidence ledgers."
+    },
+    {
+      "source_path": "live/danke-group-955.json",
+      "category": "danke",
+      "captured_bytes": 6747,
+      "captured_sha256": "a6d9b800bebce68ae4d571fb00b58225391e40e54662e3aca5b44d3ba1adf7ef",
+      "stored_path": "live/danke-group-955.json.gz",
+      "stored_bytes": 1572,
+      "stored_sha256": "c6b8667594181c71314e8d252851dd10eb491b822b6deb5a2bebcc2834e69f5e",
+      "restored_bytes": 4273,
+      "restored_sha256": "e7d675e0c5474b63506217013710e43f540bd4a49b8c8fb6a09fb308369a0944",
+      "redactions": {
+        "removed_account_state_or_revision_field": 12
+      },
+      "post_counts": {
+        "review_body_retained_ids": 3,
+        "review_ids": 3
+      },
+      "read_status": "Captured does not mean read or adopted; see reading and evidence ledgers."
+    },
+    {
+      "source_path": "live/danke-group-957.json",
+      "category": "danke",
+      "captured_bytes": 13130,
+      "captured_sha256": "e75adbe455cded37e679d912b826e7e14a02582e37c621750b2b8b58f4432d7f",
+      "stored_path": "live/danke-group-957.json.gz",
+      "stored_bytes": 2993,
+      "stored_sha256": "4bfdf654bd7ecbc89d81ea5b19fd1cc6ed993ffdc3ac7959028c6606dc280af1",
+      "restored_bytes": 8611,
+      "restored_sha256": "8918d47c1fca44284959ab7be37daf84c7d30322c5f53e34837b6591bf3708c9",
+      "redactions": {
+        "removed_account_state_or_revision_field": 28
+      },
+      "post_counts": {
+        "review_body_retained_ids": 7,
+        "review_ids": 7
+      },
+      "read_status": "Captured does not mean read or adopted; see reading and evidence ledgers."
+    },
+    {
+      "source_path": "live/danke-group-958.json",
+      "category": "danke",
+      "captured_bytes": 19598,
+      "captured_sha256": "8aaab1d6c1364265e3c85f709d8ca1e766bff8f03b44a1cf2a07cad8f046b40f",
+      "stored_path": "live/danke-group-958.json.gz",
+      "stored_bytes": 4836,
+      "stored_sha256": "42861304e0b7e49fe362d19bd2ef12dea104eec9828d6886cc7ce99c3c38f248",
+      "restored_bytes": 11509,
+      "restored_sha256": "08b6a2b55317bad8435e5807b3f1f3b16b0156b197d262b44b107dfb11235a87",
+      "redactions": {
+        "removed_account_state_or_revision_field": 24
+      },
+      "post_counts": {
+        "review_body_retained_ids": 6,
+        "review_ids": 6
+      },
+      "read_status": "Captured does not mean read or adopted; see reading and evidence ledgers."
+    },
+    {
+      "source_path": "live/danke-group-966.json",
+      "category": "danke",
+      "captured_bytes": 3613,
+      "captured_sha256": "c728b93ebf254cdada88b0984363529d1dd92144a0d615745682c731a70bf517",
+      "stored_path": "live/danke-group-966.json.gz",
+      "stored_bytes": 658,
+      "stored_sha256": "428fcd99201e822488b166dc0eb971918b985d771bb00b586888299fd5083a6d",
+      "restored_bytes": 2201,
+      "restored_sha256": "2af1eda2a4161b2abf344203bbffdf8dec77d6f2452bebe2cf600d1cd006b325",
+      "redactions": {
+        "removed_account_state_or_revision_field": 4
+      },
+      "post_counts": {
+        "review_body_retained_ids": 1,
+        "review_ids": 1
+      },
+      "read_status": "Captured does not mean read or adopted; see reading and evidence ledgers."
+    },
+    {
+      "source_path": "live/danke-group-968.json",
+      "category": "danke",
+      "captured_bytes": 9290,
+      "captured_sha256": "8619b66355110ed91cf68ddd4a216be39f3d1ed52838a211342c292f26973651",
+      "stored_path": "live/danke-group-968.json.gz",
+      "stored_bytes": 958,
+      "stored_sha256": "7bb5be45fa1213d1822424aeea7aea9da605c36f5e4e3856aca32b8817b2b2f4",
+      "restored_bytes": 5658,
+      "restored_sha256": "f7549616b18db69e8b9b4cfdb54c5fc9beeef1981a167c40e23f085db3f45baa",
+      "redactions": {
+        "removed_account_state_or_revision_field": 4
+      },
+      "post_counts": {
+        "review_body_retained_ids": 1,
+        "review_ids": 1
+      },
+      "read_status": "Captured does not mean read or adopted; see reading and evidence ledgers."
+    },
+    {
+      "source_path": "live/danke-group-969.json",
+      "category": "danke",
+      "captured_bytes": 5114,
+      "captured_sha256": "f971b1d8d4bdd42a504e95fac7a55483f863f9fe4ef3392072850fd140fc3984",
+      "stored_path": "live/danke-group-969.json.gz",
+      "stored_bytes": 1070,
+      "stored_sha256": "5ad062bdabd543ef691d26693e90fcf03d91bc7de96a447e738397aea3c4619d",
+      "restored_bytes": 3281,
+      "restored_sha256": "184e8c5b0bc672a386153793751697d02b476102e2eb2430eff8e4811e1b4829",
+      "redactions": {
+        "removed_account_state_or_revision_field": 8
+      },
+      "post_counts": {
+        "review_body_retained_ids": 2,
+        "review_ids": 2
+      },
+      "read_status": "Captured does not mean read or adopted; see reading and evidence ledgers."
+    },
+    {
+      "source_path": "live/danke-group-972.json",
+      "category": "danke",
+      "captured_bytes": 3485,
+      "captured_sha256": "1f455c375a103d4736c5403e8bcf06b249303b7508bc2aa5262d05a8840d1f0e",
+      "stored_path": "live/danke-group-972.json.gz",
+      "stored_bytes": 1007,
+      "stored_sha256": "58d27dd74c42aa9e9540eeee7936d56715e82c80e9cd1a15c498fa982ad0eec5",
+      "restored_bytes": 2368,
+      "restored_sha256": "d6d153c5d58489eeb8cfa3c889bf654e9d9ac0b1260884cdecf23d891274c4fb",
+      "redactions": {
+        "removed_account_state_or_revision_field": 4
+      },
+      "post_counts": {
+        "review_body_retained_ids": 1,
+        "review_ids": 1
+      },
+      "read_status": "Captured does not mean read or adopted; see reading and evidence ledgers."
+    },
+    {
+      "source_path": "live/danke-group-9730.json",
+      "category": "danke",
+      "captured_bytes": 76634,
+      "captured_sha256": "3cce6beda98a1f50555f8c9973a4c3c9cfd75c9b94afa513d03a397d92f7cbea",
+      "stored_path": "live/danke-group-9730.json.gz",
+      "stored_bytes": 6388,
+      "stored_sha256": "3673fd3d2cff903b752ed5e0ba9490504d21b3347f47cf16965354d342c192c4",
+      "restored_bytes": 51269,
+      "restored_sha256": "fa459869afadda2b443d3e748059a40181713f178fe8d8138089f89a91ef910a",
+      "redactions": {
+        "removed_account_state_or_revision_field": 8
+      },
+      "post_counts": {
+        "review_body_retained_ids": 2,
+        "review_ids": 2
+      },
+      "read_status": "Captured does not mean read or adopted; see reading and evidence ledgers."
+    },
+    {
+      "source_path": "live/danke-group-976.json",
+      "category": "danke",
+      "captured_bytes": 2955,
+      "captured_sha256": "273ef3d92d9fb79997679fc1bd65f0b696658bd479dd81e10b1d7ff7e835d0e3",
+      "stored_path": "live/danke-group-976.json.gz",
+      "stored_bytes": 664,
+      "stored_sha256": "0197c37b833f8bbf79c42a83712ca9cf1996d37231aabcfc050ca0a6f51c01ea",
+      "restored_bytes": 1839,
+      "restored_sha256": "aa9a35f419769895a9438e8ae4a899771fd6974099ed1c3b0d3ca85d51493073",
+      "redactions": {
+        "removed_account_state_or_revision_field": 4
+      },
+      "post_counts": {
+        "review_body_retained_ids": 1,
+        "review_ids": 1
+      },
+      "read_status": "Captured does not mean read or adopted; see reading and evidence ledgers."
+    },
+    {
+      "source_path": "live/danke-group-986.json",
+      "category": "danke",
+      "captured_bytes": 2116,
+      "captured_sha256": "5db681fce00761dd9f28fd4453575c32beedc1c309d9e00e386f97aeb410dd83",
+      "stored_path": "live/danke-group-986.json.gz",
+      "stored_bytes": 541,
+      "stored_sha256": "090a431b5270c88dd005e5012100b3785b578596da1f8cd00ac2cc26a7804156",
+      "restored_bytes": 1296,
+      "restored_sha256": "2373e519c8bc65c170b4b461b9aa158f8647253cad833978de89142c26992cab",
+      "redactions": {
+        "removed_account_state_or_revision_field": 4
+      },
+      "post_counts": {
+        "review_body_retained_ids": 1,
+        "review_ids": 1
+      },
+      "read_status": "Captured does not mean read or adopted; see reading and evidence ledgers."
+    },
+    {
+      "source_path": "live/danke-group-991.json",
+      "category": "danke",
+      "captured_bytes": 4522,
+      "captured_sha256": "0428e2c0a57fe43b9269f1d7456297f0a750afcb24e19488061fcc4ce1cf1d60",
+      "stored_path": "live/danke-group-991.json.gz",
+      "stored_bytes": 1080,
+      "stored_sha256": "2b08bfaa8b96108c83e73da7349630c78a5aee2beb9719191639ac7111c78a60",
+      "restored_bytes": 2902,
+      "restored_sha256": "bba6e4ae26f975863998b13528daf74b5828153db7acede2dc1175119b34b234",
+      "redactions": {
+        "removed_account_state_or_revision_field": 12
+      },
+      "post_counts": {
+        "review_body_retained_ids": 3,
+        "review_ids": 3
+      },
+      "read_status": "Captured does not mean read or adopted; see reading and evidence ledgers."
+    },
+    {
+      "source_path": "live/danke-law-intro-probe.json",
+      "category": "danke",
+      "captured_bytes": 818,
+      "captured_sha256": "53eb505dceb8416b1901659eba4969179e18b5d84864214ef4f6b96149b1a76e",
+      "stored_path": "live/danke-law-intro-probe.json.gz",
+      "stored_bytes": 348,
+      "stored_sha256": "7eea072030dad2476f9df649580bb7ca327db5061698aa9995c96d81921abb98",
+      "restored_bytes": 519,
+      "restored_sha256": "23515ae9da9279405c35e2d3e1ee78bbb7b3c7a23f5683f32475d81b94531b8b",
+      "redactions": {},
+      "post_counts": {},
+      "read_status": "Captured does not mean read or adopted; see reading and evidence ledgers."
+    },
+    {
+      "source_path": "live/danke_details_ledger.json",
+      "category": "danke",
+      "captured_bytes": 267329,
+      "captured_sha256": "73352d8c3ee6c00a6b70fce25ccafd197fb6c8f1386525bf8f77429a3836399f",
+      "stored_path": "live/danke_details_ledger.json.gz",
+      "stored_bytes": 17505,
+      "stored_sha256": "7ae09c178c94ae1820c9a0a462a576033c07f336efb919a460cfd6e3105ee4bc",
+      "restored_bytes": 267329,
+      "restored_sha256": "73352d8c3ee6c00a6b70fce25ccafd197fb6c8f1386525bf8f77429a3836399f",
+      "redactions": {},
+      "post_counts": {},
+      "read_status": "Captured does not mean read or adopted; see reading and evidence ledgers."
+    },
+    {
+      "source_path": "live/danke_details_results.json",
+      "category": "danke",
+      "captured_bytes": 964487,
+      "captured_sha256": "f851f8f5a6d0a086011b9b3e1f2adf1e4b50f9b5848798628974f9b956ea36f5",
+      "stored_path": "live/danke_details_results.json.gz",
+      "stored_bytes": 46221,
+      "stored_sha256": "06e4bf3ca36ed72f8a9217228edfcab97708166ade8f644c50886d1b0c5e0b3a",
+      "restored_bytes": 968582,
+      "restored_sha256": "65fe8187c6237adb588da34db538473d8f814c53b833c3914e4eac3d8f88c1bf",
+      "redactions": {},
+      "post_counts": {
+        "review_body_retained_ids": 36,
+        "review_ids": 36
+      },
+      "read_status": "Captured does not mean read or adopted; see reading and evidence ledgers."
+    },
+    {
+      "source_path": "live/danke_search_ledger.json",
+      "category": "danke",
+      "captured_bytes": 637424,
+      "captured_sha256": "86a563cc946c6408146f1fe5c55bdbde50c798425efaee2dd72dd8fdaa0f1134",
+      "stored_path": "live/danke_search_ledger.json.gz",
+      "stored_bytes": 53778,
+      "stored_sha256": "9532a2d64de3aae574ee6f590c16fe6e89f472018c105e82a72fecf91140f080",
+      "restored_bytes": 637400,
+      "restored_sha256": "a28b500358d3f4281d05fa657d14771ac31a31b586a99180b0dc5098dcf9e560",
+      "redactions": {
+        "contact": 8
+      },
+      "post_counts": {},
+      "read_status": "Captured does not mean read or adopted; see reading and evidence ledgers."
+    },
+    {
+      "source_path": "live/danke_search_results.json",
+      "category": "danke",
+      "captured_bytes": 316259,
+      "captured_sha256": "9adaa5da71a484d885cfcedae3cadb904555a8c0c3021f1d630d257d96e3f326",
+      "stored_path": "live/danke_search_results.json.gz",
+      "stored_bytes": 36279,
+      "stored_sha256": "f17ba03a40370109c7d56f84d4bf32d35c12aeb39bd796e4af60fe0c54154f3e",
+      "restored_bytes": 316259,
+      "restored_sha256": "9adaa5da71a484d885cfcedae3cadb904555a8c0c3021f1d630d257d96e3f326",
+      "redactions": {},
+      "post_counts": {},
+      "read_status": "Captured does not mean read or adopted; see reading and evidence ledgers."
+    },
+    {
+      "source_path": "live/forum-accurate-probe.json",
+      "category": "treehole",
+      "captured_bytes": 3983,
+      "captured_sha256": "b1d51a38dfa074bab48c5dcd6693bfc68bb80885ccdd2dcaa229a0aeec4420a9",
+      "stored_path": "live/forum-accurate-probe.json.gz",
+      "stored_bytes": 609,
+      "stored_sha256": "644fba09493fa34a933e5a3d7aa2d870128b90c625cd4e4d1653896d862d13ed",
+      "restored_bytes": 2527,
+      "restored_sha256": "1cd37fb2d914ecdbe4607db14266484dc33856c659f05b466a52a50f193f727f",
+      "redactions": {
+        "withheld_body_field": 8,
+        "removed_account_state_or_revision_field": 16
+      },
+      "post_counts": {
+        "floor_body_withheld_ids": 4,
+        "floor_ids": 4
+      },
+      "read_status": "Captured does not mean read or adopted; see reading and evidence ledgers."
+    },
+    {
+      "source_path": "live/forum-law-intro-probe.json",
+      "category": "treehole",
+      "captured_bytes": 26213,
+      "captured_sha256": "83a28758d7de3aa98cd648ee388429ba8b6e33e60868b2894b04474de6a77f57",
+      "stored_path": "live/forum-law-intro-probe.json.gz",
+      "stored_bytes": 907,
+      "stored_sha256": "1a65dd280201bf489574a556e0d4417c8866ba59bffb959288530521921306ec",
+      "restored_bytes": 6089,
+      "restored_sha256": "13b44f2e1e716b0aded8d8ca19a807e8a814114c54322f20c8e626abde6646bd",
+      "redactions": {
+        "withheld_body_field": 20,
+        "removed_account_state_or_revision_field": 40
+      },
+      "post_counts": {
+        "floor_body_withheld_ids": 10,
+        "floor_ids": 10
+      },
+      "read_status": "Captured does not mean read or adopted; see reading and evidence ledgers."
+    },
+    {
+      "source_path": "live/forum_context_ledger.json",
+      "category": "treehole",
+      "captured_bytes": 245556,
+      "captured_sha256": "1a2d1d7e400b89f1ec9da154bf47bf5bd70a7c40c3fd4f261e55d8ac25f0b64f",
+      "stored_path": "live/forum_context_ledger.json.gz",
+      "stored_bytes": 49660,
+      "stored_sha256": "db7e64739792a1d615cb9a1439547d85483d1f6a622695d1bd54f7033d655f48",
+      "restored_bytes": 245556,
+      "restored_sha256": "1a2d1d7e400b89f1ec9da154bf47bf5bd70a7c40c3fd4f261e55d8ac25f0b64f",
+      "redactions": {},
+      "post_counts": {},
+      "read_status": "Captured does not mean read or adopted; see reading and evidence ledgers."
+    },
+    {
+      "source_path": "live/forum_context_results.json",
+      "category": "treehole",
+      "captured_bytes": 9880272,
+      "captured_sha256": "215312bed71b18cb48ae56b3b380483470b1ffd98b26ba14dad194fdd20a6505",
+      "stored_path": "live/forum_context_results.json.gz",
+      "stored_bytes": 545554,
+      "stored_sha256": "35ce4986247f54d01ae558bb0fcf85348a16e179f64bfec5d9e9f8f45604b0b8",
+      "restored_bytes": 10802667,
+      "restored_sha256": "0ba437eb4a43eb2669e1c6b89df825324e64e63d4d07e50cb391e3ef0e6bb9d2",
+      "redactions": {
+        "withheld_body_field": 11041,
+        "original_deleted": 336
+      },
+      "post_counts": {
+        "floor_body_retained_ids": 419,
+        "floor_body_withheld_ids": 11041,
+        "floor_ids": 11460
+      },
+      "read_status": "Captured does not mean read or adopted; see reading and evidence ledgers."
+    },
+    {
+      "source_path": "live/forum_search_ledger.json",
+      "category": "treehole",
+      "captured_bytes": 1801097,
+      "captured_sha256": "31a712baf5cd6112354a0b775b2b3c2a5b71e9cd536280ddcfdd097aad5c4ed4",
+      "stored_path": "live/forum_search_ledger.json.gz",
+      "stored_bytes": 408599,
+      "stored_sha256": "e2be4b90337d7b2664871b1509d6f243a94eabd74d51d91d84aae7d81d092024",
+      "restored_bytes": 1801073,
+      "restored_sha256": "57684bf9b7b770b9029c6b014827b3ea3a47df83ba13f39bca65d846aba5ebdd",
+      "redactions": {
+        "contact": 8
+      },
+      "post_counts": {},
+      "read_status": "Captured does not mean read or adopted; see reading and evidence ledgers."
+    },
+    {
+      "source_path": "live/forum_search_results.json",
+      "category": "treehole",
+      "captured_bytes": 102939796,
+      "captured_sha256": "3bbfaac098db26d6c4ef61324d461e7629f9b68315b0ce543437de13e98a8ddd",
+      "stored_path": "live/forum_search_results.json.gz",
+      "stored_bytes": 4063924,
+      "stored_sha256": "14a789ad3989a431f3b1f356d9bcdcfb03676eb9daab0f1e8160c0eed790e6b5",
+      "restored_bytes": 62215407,
+      "restored_sha256": "568eb41a19198c5439ecefb9cd4ec916b31f653560945f9e54ac591de2d707b6",
+      "redactions": {
+        "withheld_body_field": 176984,
+        "removed_account_state_or_revision_field": 355124
+      },
+      "post_counts": {
+        "floor_body_retained_ids": 289,
+        "floor_body_withheld_ids": 88492,
+        "floor_ids": 88781
+      },
+      "read_status": "Captured does not mean read or adopted; see reading and evidence ledgers."
+    },
+    {
+      "source_path": "query-plans/danke_queries.json",
+      "category": "research-ledgers",
+      "captured_bytes": 1040329,
+      "captured_sha256": "6290a86490ebbc255f3d3673fb02fb846d3123ee3b9e2c099599e7594f6c8d59",
+      "stored_path": "query-plans/danke_queries.json.gz",
+      "stored_bytes": 49796,
+      "stored_sha256": "968f46e0bdb9434d981c4f1b781fa2527ce24bfc2afcf57f67b1fed61686a98b",
+      "restored_bytes": 628628,
+      "restored_sha256": "71651e8a17be33e1eb51b568bf0fe46edf1a22945b21613facdc6a7d3e2950f8",
+      "redactions": {
+        "contact": 4
+      },
+      "post_counts": {},
+      "read_status": "Captured does not mean read or adopted; see reading and evidence ledgers."
+    },
+    {
+      "source_path": "query-plans/forum_initial_tokenized_queries.json",
+      "category": "research-ledgers",
+      "captured_bytes": 1030110,
+      "captured_sha256": "e55e9283a22dcd43a4e6673c3d8850fed924b164ebdbf7c3d1f45ca871371a82",
+      "stored_path": "query-plans/forum_initial_tokenized_queries.json.gz",
+      "stored_bytes": 48734,
+      "stored_sha256": "50ec145e5d4a37bf690c650d56ecac02138e975b779b3f3fc0c9138c8452a99f",
+      "restored_bytes": 622470,
+      "restored_sha256": "5721ff78ba36b8755ba594294fe020d3ae4f879b16254709d7b60f5cb7e9bfad",
+      "redactions": {
+        "contact": 4
+      },
+      "post_counts": {},
+      "read_status": "Captured does not mean read or adopted; see reading and evidence ledgers."
+    },
+    {
+      "source_path": "query-plans/forum_queries.json",
+      "category": "research-ledgers",
+      "captured_bytes": 1196257,
+      "captured_sha256": "5fe5a8645318681f8a29236c0514e71a98d54f61f2224e082523af57a3422dc4",
+      "stored_path": "query-plans/forum_queries.json.gz",
+      "stored_bytes": 52270,
+      "stored_sha256": "8e47fb6eef442bbe413c5e384361e281becb28c53441b158c049840f6bc8047b",
+      "restored_bytes": 762282,
+      "restored_sha256": "28f4e875a46c351399902ec3153bd314c7a2acd49f4b4ec6f60b355e07a8fcb1",
+      "redactions": {
+        "contact": 4
+      },
+      "post_counts": {},
+      "read_status": "Captured does not mean read or adopted; see reading and evidence ledgers."
+    },
+    {
+      "source_path": "query-plans/observed_alias_sources.json",
+      "category": "research-ledgers",
+      "captured_bytes": 1953,
+      "captured_sha256": "75133a81de840f43f812112dbbdf9a7b9086163eda05fe24757638e89a7bf76b",
+      "stored_path": "query-plans/observed_alias_sources.json.gz",
+      "stored_bytes": 537,
+      "stored_sha256": "41a6852c1e1d46bfd68166f46ee3d757a7ae1b2ab904478d688e315adf442b29",
+      "restored_bytes": 1395,
+      "restored_sha256": "7a6d9fbdb5b38eccb58250683a0079c8d27e36ef6cdc62a3a1e3234a129335e4",
+      "redactions": {},
+      "post_counts": {},
+      "read_status": "Captured does not mean read or adopted; see reading and evidence ledgers."
+    },
+    {
+      "source_path": "official/programs/152033.json",
+      "category": "official-programs-and-outlines",
+      "captured_bytes": 1236834,
+      "captured_sha256": "5933b3d95cc599aa2022611494fda781a6830af5549b09f1f02a08f29af66b66",
+      "stored_path": "official/programs/152033.json.gz",
+      "stored_bytes": 25478,
+      "stored_sha256": "63e9652eb2b1a57771bcfa8a8e6c557eab773355ee982af0aee7ef976d9bdcc9",
+      "restored_bytes": 678313,
+      "restored_sha256": "709dfe9162be2da18700b96aab740dc1f23ec8ce792e782afb76e2a8b5b059a2",
+      "redactions": {
+        "removed_account_state_or_revision_field": 480,
+        "removed_identity_or_secret_field": 153
+      },
+      "post_counts": {},
+      "read_status": "Captured does not mean read or adopted; see reading and evidence ledgers."
+    },
+    {
+      "source_path": "official/programs/152831.json",
+      "category": "official-programs-and-outlines",
+      "captured_bytes": 1273349,
+      "captured_sha256": "5d5974b753d33f7a8a506f1fa6db92b29af5aa34685fa235dc80eb9b38f777ec",
+      "stored_path": "official/programs/152831.json.gz",
+      "stored_bytes": 27264,
+      "stored_sha256": "9b5e8529b95fc792cdb0894a1e665604314a6036a8aef79a411eff58bbcc6f03",
+      "restored_bytes": 691266,
+      "restored_sha256": "dcf3695df3b9be50e3788fea83311f8007303c1f473cc131c4e4d4ff139fe34b",
+      "redactions": {
+        "removed_account_state_or_revision_field": 510,
+        "removed_identity_or_secret_field": 163
+      },
+      "post_counts": {},
+      "read_status": "Captured does not mean read or adopted; see reading and evidence ledgers."
+    },
+    {
+      "source_path": "official/programs/153011.json",
+      "category": "official-programs-and-outlines",
+      "captured_bytes": 2133040,
+      "captured_sha256": "3324582f530f3742939f26cf8df85e25fbe7790371ae358992970d185888b09f",
+      "stored_path": "official/programs/153011.json.gz",
+      "stored_bytes": 40208,
+      "stored_sha256": "4923cab66d4f01756abbd1415a7c0d1b15233ea09915279c4ce5a226eb146290",
+      "restored_bytes": 1148966,
+      "restored_sha256": "117f02b4b6e8557b128b8e5a4e3406318d90f4ba040990f2c6132f09893cff65",
+      "redactions": {
+        "removed_account_state_or_revision_field": 768,
+        "removed_identity_or_secret_field": 237
+      },
+      "post_counts": {},
+      "read_status": "Captured does not mean read or adopted; see reading and evidence ledgers."
+    },
+    {
+      "source_path": "official/programs/153033.json",
+      "category": "official-programs-and-outlines",
+      "captured_bytes": 3027786,
+      "captured_sha256": "71d14c87dcf6d5aa0f24735e14ae3b59acfe50ebf051796cdb498f73282d0118",
+      "stored_path": "official/programs/153033.json.gz",
+      "stored_bytes": 53117,
+      "stored_sha256": "256815fa8be77163686b67dedfc062bf945b50d13a4b6146818c681f8c95e965",
+      "restored_bytes": 1605800,
+      "restored_sha256": "ea8810a031ff79e4c5fc6b57fb5880456327c0bfbb3cd49161e5bda3868a7b0a",
+      "redactions": {
+        "removed_account_state_or_revision_field": 1266,
+        "removed_identity_or_secret_field": 411
+      },
+      "post_counts": {},
+      "read_status": "Captured does not mean read or adopted; see reading and evidence ledgers."
+    },
+    {
+      "source_path": "official/programs/153040.json",
+      "category": "official-programs-and-outlines",
+      "captured_bytes": 1588700,
+      "captured_sha256": "a8986ca534d8177a09c2fc378575a78fc8afe86f70abc3118eb239d5a510f099",
+      "stored_path": "official/programs/153040.json.gz",
+      "stored_bytes": 30304,
+      "stored_sha256": "2e21834319f1d5c96fba8cf4173517de2f261921799017a7ff3fcf3ed7d7da48",
+      "restored_bytes": 860259,
+      "restored_sha256": "2ff1eb4adf6f2dced30b50204aa429ceebf5014706e9dbe5c479857b9f52d46f",
+      "redactions": {
+        "removed_account_state_or_revision_field": 582,
+        "removed_identity_or_secret_field": 187
+      },
+      "post_counts": {},
+      "read_status": "Captured does not mean read or adopted; see reading and evidence ledgers."
+    },
+    {
+      "source_path": "official/programs/153041.json",
+      "category": "official-programs-and-outlines",
+      "captured_bytes": 1592245,
+      "captured_sha256": "3ed5003e679fa3020e05b502ad2a4155708e0003069ddee3ca924828c64ce80f",
+      "stored_path": "official/programs/153041.json.gz",
+      "stored_bytes": 32980,
+      "stored_sha256": "b0f6927c98c6aaf047516f5167c725952e82429bc2c77c3293a51617747caa58",
+      "restored_bytes": 857236,
+      "restored_sha256": "dac9bcedb3bd0a885886f3bcf29fab7c8dc5fd53d7b3261f08e4e079c60ee37e",
+      "redactions": {
+        "removed_account_state_or_revision_field": 648,
+        "removed_identity_or_secret_field": 209
+      },
+      "post_counts": {},
+      "read_status": "Captured does not mean read or adopted; see reading and evidence ledgers."
+    },
+    {
+      "source_path": "official/programs/153042.json",
+      "category": "official-programs-and-outlines",
+      "captured_bytes": 1270537,
+      "captured_sha256": "aaafaa2cc454be073be26b27068aeb4233cf7cb253b73872bbef3f774a1a796b",
+      "stored_path": "official/programs/153042.json.gz",
+      "stored_bytes": 26448,
+      "stored_sha256": "dc49c55c1df1250f21229a0110fea16e5b0b4fcdfa1937d75497773725f9a9e0",
+      "restored_bytes": 688454,
+      "restored_sha256": "86cf400cc7dcb11b9a2bcea1469e6a42033068f844eddc751af7ceb4346c9b8a",
+      "redactions": {
+        "removed_account_state_or_revision_field": 510,
+        "removed_identity_or_secret_field": 163
+      },
+      "post_counts": {},
+      "read_status": "Captured does not mean read or adopted; see reading and evidence ledgers."
+    },
+    {
+      "source_path": "official/programs/153043.json",
+      "category": "official-programs-and-outlines",
+      "captured_bytes": 1271139,
+      "captured_sha256": "467eb3fe313687dea3b598b274aea2e204aa181d51e25a79766994e51c4c869b",
+      "stored_path": "official/programs/153043.json.gz",
+      "stored_bytes": 26519,
+      "stored_sha256": "4d6e4e5fb4ddde3d3e61036890778a92aed94237bf1c51de967cc47e32170f7e",
+      "restored_bytes": 689056,
+      "restored_sha256": "12ec0661fa4644454b3374e1c3950ea236b3f00cc2f36a4edd2a4720d54f6faf",
+      "redactions": {
+        "removed_account_state_or_revision_field": 510,
+        "removed_identity_or_secret_field": 163
+      },
+      "post_counts": {},
+      "read_status": "Captured does not mean read or adopted; see reading and evidence ledgers."
+    },
+    {
+      "source_path": "official/programs/2026法学院培养方案目录.json",
+      "category": "official-programs-and-outlines",
+      "captured_bytes": 2681,
+      "captured_sha256": "566198aa678445d1540b7183de3571d0176c2347040103c6ed6ff0c14ef06a71",
+      "stored_path": "official/programs/2026法学院培养方案目录.json.gz",
+      "stored_bytes": 478,
+      "stored_sha256": "8af33f4b065d3ed14c4eb1a7db1619d9afc1a556267eccb757a302931477aca7",
+      "restored_bytes": 1878,
+      "restored_sha256": "aab715a598b5e1db89808f3f66a919c463cb6fc2a4df6057627d15c6171f2ad7",
+      "redactions": {},
+      "post_counts": {},
+      "read_status": "Captured does not mean read or adopted; see reading and evidence ledgers."
+    },
+    {
+      "source_path": "official/timetables/2025秋法学院教学班.json",
+      "category": "official-outlines",
+      "captured_bytes": 255049,
+      "captured_sha256": "21e52ea6f41c937315ab760b5a509f799103b21989bf26924db17c500dd7770d",
+      "stored_path": "official/timetables/2025秋法学院教学班.json.gz",
+      "stored_bytes": 10813,
+      "stored_sha256": "4c71b16da2108db06d1ad0525172924506d6d79035af3f7942922ffb1f95d752",
+      "restored_bytes": 153112,
+      "restored_sha256": "2e1832f0a7ab3cdf162f5f2535fd135b77a1fa6198c49c0447818af4c7b5e1c0",
+      "redactions": {},
+      "post_counts": {},
+      "read_status": "Captured does not mean read or adopted; see reading and evidence ledgers."
+    },
+    {
+      "source_path": "official/timetables/2026春法学院教学班.json",
+      "category": "official-outlines",
+      "captured_bytes": 287832,
+      "captured_sha256": "28bf7cd39db03624484aa8827c7233498cb08e89cd852fcdf22e404239c21290",
+      "stored_path": "official/timetables/2026春法学院教学班.json.gz",
+      "stored_bytes": 11607,
+      "stored_sha256": "c24247a65bbb1a9f06e489acb3e0edaa848dd52e6243e742d1703e88e876bce6",
+      "restored_bytes": 172354,
+      "restored_sha256": "1d343b0ed97456ea0e9e58a57d9a36d2a141c2ca32163c3dfd2428f9744f25a6",
+      "redactions": {},
+      "post_counts": {},
+      "read_status": "Captured does not mean read or adopted; see reading and evidence ledgers."
+    }
+  ],
+  "unique_post_counts": {
+    "floor_body_retained_ids": 469,
+    "floor_body_withheld_ids": 98860,
+    "floor_ids": 99329,
+    "review_body_retained_ids": 71,
+    "review_body_withheld_ids": 45,
+    "review_ids": 116
+  },
+  "redactions": {
+    "contact": 28,
+    "removed_account_state_or_revision_field": 360918,
+    "withheld_body_field": 188188,
+    "original_deleted": 336,
+    "removed_identity_or_secret_field": 1686
+  },
+  "counts": {
+    "forum_search_candidates": 88781,
+    "forum_context_holes": 232,
+    "forum_context_floors": 11460,
+    "danke_search_groups": 1133,
+    "danke_detail_groups": 153,
+    "danke_detail_courses": 997,
+    "active_queries_per_service": 1775,
+    "superseded_forum_queries": 96,
+    "official_program_detail_responses": 8,
+    "official_program_list_responses": 1,
+    "official_timetable_responses": 2
+  },
+  "license_source": "https://danxi.fduhole.com/doc/community-user-agreement",
+  "license_note": "Community text defaults to CC BY 4.0 where the author owns copyright and states no exception. Individual restrictions prevail. Supplied anonymous attribution and source URLs are retained; missing attribution is not invented. Official materials retain their own rights.",
+  "transformations": [
+    "Captured JSON structure, IDs, query associations, pagination and timestamps are preserved; content is not an AI summary.",
+    "Forum body publication is limited to the 477 source floor IDs explicitly cited by the read course-evidence ledger, subject to restriction checks; other candidates retain metadata and links.",
+    "Review bodies are limited to the 71 actually read review IDs, including excluded and duplicate experiences; these are not 71 valid target-section reviews.",
+    "Deleted, folded, sensitive and author-restricted text is withheld across captured versions; revision bodies, account state, identity/contact and credential fields are removed.",
+    "captured_sha256 identifies the local acquisition file; restored_sha256 identifies the public redacted JSON; neither is presented as a network-wire byte digest.",
+    "Superseded tokenized forum searches are retained for audit, separate from active exact/observed-alias queries.",
+    "No external-platform full-text captures or browser diagnostics are included. Xiaohongshu, Zhihu and WeChat site searches remain incomplete."
+  ],
+  "official_word_originals": "../release-assets.json"
+}

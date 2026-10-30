@@ -109,11 +109,20 @@
       "reason": "2025年考后焦虑，不是已经收到的成绩，也不证明实际挂科率；班型未知。",
       "duplicate_of": null,
       "license": null,
-      "fulltext_permission": "fulltext_not_published_summary_only",
-      "attribution_and_changes": "保留原平台链接与洞/楼/评价编号；仅发布经过匿名处理的摘要及归属限制，不发布原文或账号。",
+      "fulltext_permission": "redacted_source_bodies_published_separately",
+      "attribution_and_changes": "本条保留匿名摘要、原平台链接与来源编号；脱敏采集响应另见raw_capture，正文公开状态逐ID列明，不含账号信息。",
       "evidence_index": "../summaries/evidence.json",
       "applicability": "仅关联参考；不表示任何当前教学班已确认适用",
-      "confirmed_section_keys": []
+      "confirmed_section_keys": [],
+      "raw_capture": {
+        "index": "../raw/evidence-source-links.json",
+        "published_floor_body_ids": [
+          3656842
+        ],
+        "withheld_floor_body_ids": [],
+        "published_review_body_ids": [],
+        "withheld_review_body_ids": []
+      }
     }
   ],
   "syllabus": {

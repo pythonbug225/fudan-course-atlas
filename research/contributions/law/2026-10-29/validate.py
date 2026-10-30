@@ -23,7 +23,11 @@ by_source={e['source_id']:e for e in evidence};assert len(by_source)==223
 for e in evidence:
  assert e['confirmed_section_keys']==[]
  assert e['mapping_status']=='candidate_unconfirmed_section'
- assert e['fulltext_permission']=='fulltext_not_published_summary_only'
+ assert e['fulltext_permission'] in {'fulltext_not_published_summary_only','redacted_source_bodies_published_separately','source_metadata_published_body_withheld'}
+ if 'raw_capture' in e:
+  raw=e['raw_capture'];assert (B/'summaries'/raw['index']).is_file()
+  assert set(raw['published_floor_body_ids'])|set(raw['withheld_floor_body_ids'])==set(e['source_floor_ids'])
+  assert set(raw['published_review_body_ids'])|set(raw['withheld_review_body_ids'])==set(e['source_review_ids'])
  if e['reading_status']=='full_visible_floor_text_read':assert set(e['source_floor_ids'])<=full_floors
  if e['reading_status']=='full_review_text_read':assert set(e['source_review_ids'])<=full_reviews
  assert not {'content','raw_body','author_id','username','user_id'}&e.keys()
@@ -38,6 +42,8 @@ for p in files:
  for src in c['sources']:
   assert src['source_id'] in by_source and course['code'] in by_source[src['source_id']]['course_codes']
   assert src['confirmed_section_keys']==[]
+  assert src['fulltext_permission']==by_source[src['source_id']]['fulltext_permission']
+  if 'raw_capture' in src:assert src['raw_capture']==by_source[src['source_id']]['raw_capture']
  for m in c['materials']:
   if m.get('path'):assert (p.parent/m['path']).is_file(),m['path']
  assert set(c['comparison_and_summary']['source_ids'])<=by_source.keys()
@@ -57,7 +63,7 @@ def check_fields(value,path):
  elif isinstance(value,list):
   for v in value:check_fields(v,path)
 for p in B.rglob('*.json'):check_fields(json.loads(p.read_text(encoding='utf-8')),str(p.relative_to(B)))
-manifest=read('manifest.json');actual={p.relative_to(B).as_posix() for p in B.rglob('*') if p.is_file() and p.name!='manifest.json' and '__pycache__' not in p.parts}
+manifest=read('manifest.json');actual={p.relative_to(B).as_posix() for p in B.rglob('*') if p.is_file() and p!=B/'manifest.json' and '__pycache__' not in p.parts}
 assert {f['path'] for f in manifest['files']}==actual
 for f in manifest['files']:
  p=B/f['path'];assert p.stat().st_size==f['bytes'] and hashlib.sha256(p.read_bytes()).hexdigest()==f['sha256']
