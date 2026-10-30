@@ -1,0 +1,65 @@
+{
+  "schema": "fudan-course-evidence-raw-export/1",
+  "scope": "Curated, source-backed Chinese-language course evidence only; not the full crawl.",
+  "generated_by": "work/chinese-research/export_github_raw.py",
+  "original_source_hashes_published": false,
+  "community_agreement": "https://danxi.fduhole.com/doc/community-user-agreement",
+  "license_and_attribution": "复旦树洞/旦挞社区协议第4条默认文本许可为 CC BY 4.0；作者明确禁止转载、删除或限制传播的声明优先，相应原文不公开。引用须保留来源链接；未提供公开署名时注明“署名见原帖”。仓库代码许可不决定用户文本许可。",
+  "transformations": [
+    "Only triaged records with explicit in-scope course codes are included; the full crawl candidate pool and private group material are excluded.",
+    "Author/account/user identifiers, email, phone, QQ, WeChat/VX, student numbers, share codes, signed URL parameters, and local paths are removed.",
+    "Markdown/HTML images and embedded base64 image data are omitted; no media is fetched or uploaded.",
+    "Deleted records, explicit no-repost requests, and apparent sensitive personal health/sexual/identity details are withheld as a whole body.",
+    "External Zhihu/Xiaohongshu sources retain metadata and canonical source URL only; no full text or images are republished.",
+    "Raw title/content fields derive from original platform response after redaction/withholding; triage summaries are not copied into raw content."
+  ],
+  "redactions": {
+    "contact": 2,
+    "markdown_image_omitted": 57,
+    "private_share_url": 1,
+    "share_password": 1,
+    "student_number": 1,
+    "withheld_sensitive_personal_detail": 2
+  },
+  "files": [
+    {
+      "path": "raw/danke.jsonl",
+      "sha256": "c9bfbf37e19a227c7459454f4233fa46d2f6169ba39c3710529249e8c8aa2c84",
+      "bytes": 371024,
+      "record_count": 246,
+      "redaction_count": 5,
+      "redactions": {
+        "markdown_image_omitted": 2,
+        "student_number": 1,
+        "withheld_sensitive_personal_detail": 2
+      }
+    },
+    {
+      "path": "raw/forum.jsonl",
+      "sha256": "bfc4bbfd5ae62dda715ba832ca5e6c2f87f77575a0a4bef39ad647fcb232c9f7",
+      "bytes": 382711,
+      "record_count": 355,
+      "redaction_count": 59,
+      "redactions": {
+        "contact": 2,
+        "markdown_image_omitted": 55,
+        "private_share_url": 1,
+        "share_password": 1
+      }
+    },
+    {
+      "path": "raw/external-sources.json",
+      "sha256": "2d7791cdf2bed80b0f918db3a2ab481215423a05cefab3f139188a2254a5aa3d",
+      "bytes": 6329,
+      "record_count": 13,
+      "redaction_count": 0,
+      "redactions": {}
+    }
+  ],
+  "limitations": [
+    "This is a redacted source extract, not a byte-identical platform response.",
+    "Course-code attribution and read/adoption fields are curation metadata, not source-authored text.",
+    "External full text, images, user profiles, private group material, and unconfirmed candidates are excluded.",
+    "Source pages may be edited or removed after export; URLs identify the cited source record where available."
+  ]
+}

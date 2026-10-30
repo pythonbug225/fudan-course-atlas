@@ -1,0 +1,117 @@
+{
+  "retrieval_date": "2026-10-27",
+  "platform": "zhihu",
+  "access_method": "用户已登录Edge，实际站内结果页与原回答页面核读。",
+  "ai_overview_excluded": true,
+  "attempts": [
+    {
+      "attempt_id": "ZH-INT-0001",
+      "query": "复旦 中文系 课评",
+      "status": "visible_results_read",
+      "opened_answer_ids": [
+        "1960062761569583234",
+        "447907988",
+        "445933647",
+        "2588244410",
+        "77578617",
+        "185160789"
+      ],
+      "result_reading_boundary": "AI生成概述排除；原回答各自核读状态见records，页面推荐回答不计为全文。"
+    }
+  ],
+  "records": [
+    {
+      "id": "ZH-1960062761569583234",
+      "source_url": "https://www.zhihu.com/question/29017370/answer/1960062761569583234",
+      "title": "在复旦大学中文系读书是怎样的体验？",
+      "published_raw": "2025-10-10 19:22",
+      "reading_status": "目标回答全部可见文字已读，未打开其外链。",
+      "classification": "link_only",
+      "summary": "该回答只有一句引导语和另一问题链接，无具体目标课程体验。",
+      "verified_course_codes": [],
+      "usable_for_conclusion": false
+    },
+    {
+      "id": "ZH-447907988",
+      "source_url": "https://www.zhihu.com/question/285830068/answer/447907988",
+      "title": "你在复旦大学学了哪些课？评价怎样？",
+      "published_raw": "2018-07-21 08:42",
+      "reading_status": "目标回答两段正文已阅读全文；评论未展开。",
+      "classification": "historical_recollection",
+      "summary": "一名毕业多年的作者认为经典精读有助于形成细读能力，列举《世说新语精读》《庄子精读》和《诗骚精读》。未提供具体教师、任务或成绩。",
+      "verified_course_codes": [
+        "CHIN30019",
+        "CHIN30012"
+      ],
+      "limitations": "2018年发布且自称毕业十年；仅作久远课程学习感受，不能用于目标学期教师、考核或成绩。",
+      "usable_for_conclusion": true
+    },
+    {
+      "id": "ZH-445933647",
+      "source_url": "https://www.zhihu.com/question/285830068/answer/445933647",
+      "title": "你在复旦大学学了哪些课？评价怎样？",
+      "published_raw": "2018-07-18",
+      "reading_status": "目标回答全部正文已读，评论未展开。",
+      "classification": "outside_target",
+      "summary": "仅讨论比较西方政治制度和世界民族音乐文化，不属于目标课程。",
+      "verified_course_codes": [],
+      "usable_for_conclusion": false
+    },
+    {
+      "id": "ZH-2588244410",
+      "source_url": "https://www.zhihu.com/question/29017370/answer/2588244410",
+      "title": "在复旦大学中文系读书是怎样的体验？",
+      "published_raw": "2022-07-23",
+      "reading_status": "目标回答全部正文已读，外链未打开。",
+      "classification": "general_opinion",
+      "summary": "对中文学科作笼统负面判断，没有具体课程、教师班级或可核实修读体验。",
+      "verified_course_codes": [],
+      "usable_for_conclusion": false
+    },
+    {
+      "id": "ZH-77578617",
+      "source_url": "https://www.zhihu.com/question/20770945/answer/77578617",
+      "title": "复旦有哪些好老师？",
+      "published_raw": "2015-12-19",
+      "reading_status": "目标回答全部正文已读，评论未展开。",
+      "classification": "outside_target",
+      "summary": "讨论中外电影思想解读等旧课，但均未对应目标课表；未把其他电影课的影评论文要求移到中国电影史研究。",
+      "verified_course_codes": [],
+      "usable_for_conclusion": false
+    },
+    {
+      "id": "ZH-185160789",
+      "source_url": "https://www.zhihu.com/question/20770945/answer/185160789",
+      "title": "复旦有哪些好老师？",
+      "published_raw": "2017-06-17；编辑于2018-05-30",
+      "reading_status": "目标回答全部正文已读，评论未展开。",
+      "classification": "historical_recollection",
+      "summary": "作者回忆汪涌豪《中国文学传统》的幽默课堂与人生话题；另认为申小龙《语言与文化》有问答互动但内容深度较浅。",
+      "verified_course_codes": [
+        "CHIN10001",
+        "CHIN10006"
+      ],
+      "limitations": "汪涌豪为目标课现有教师之一，但来源是2017–2018历史回顾；申小龙与目标《语言与文化》班教师未匹配。修读期未知，不移用同回答中其他院系课程的任务或给分。",
+      "usable_for_conclusion": true,
+      "course_observations": [
+        {
+          "verified_course_codes": [
+            "CHIN10001"
+          ],
+          "teacher": "汪涌豪",
+          "summary": "作者回忆《中国文学传统》课堂风格幽默，并兼有知识讲授与人生话题。",
+          "limitations": "2017年发布、2018年编辑的历史回顾；没有具体任务、考核或成绩信息。"
+        },
+        {
+          "verified_course_codes": [
+            "CHIN10006"
+          ],
+          "teacher": "申小龙",
+          "summary": "作者回忆《语言与文化》有专门答疑互动，但认为平台课内容深度较浅。",
+          "limitations": "历史教师申小龙与目标两学期教师未匹配，仅作旧版本材料，不评价现行叶婧婷或史濛辉班。"
+        }
+      ]
+    }
+  ],
+  "limitations": "站内1项搜索、6个原回答全部可见文字核读；推荐回答、外链及评论未计入全文，未计全站覆盖。"
+}

@@ -1,0 +1,800 @@
+{
+  "schema_version": 1,
+  "course": {
+    "code": "CHIN50041",
+    "name": "民间文学导论",
+    "department": "中国语言文学系",
+    "credits": 2,
+    "term": "2026春",
+    "teachers": [
+      "纪秋悦",
+      "郑土有"
+    ],
+    "section_code": null,
+    "class_type": "ordinary",
+    "course_type_code": null,
+    "program_year": null,
+    "program_names": [],
+    "required_or_elective": null
+  },
+  "aliases": {
+    "course_names": [
+      {
+        "value": "民间文导论",
+        "kind": "course_name_alias",
+        "status": "query_candidate",
+        "source_url": null,
+        "evidence_id": null,
+        "limitation": "机械压缩词形，仅检索候选"
+      }
+    ],
+    "teacher_names_or_pinyin": [
+      {
+        "teacher": "郑土有",
+        "value": "郑土有",
+        "kind": "canonical_name",
+        "status": "official_target_name"
+      },
+      {
+        "teacher": "郑土有",
+        "value": "zhengtuyou",
+        "kind": "full_joined",
+        "status": "generated_query_candidate"
+      },
+      {
+        "teacher": "郑土有",
+        "value": "zheng tu you",
+        "kind": "full_spaced",
+        "status": "generated_query_candidate"
+      },
+      {
+        "teacher": "郑土有",
+        "value": "zty",
+        "kind": "initials",
+        "status": "generated_query_candidate"
+      },
+      {
+        "teacher": "郑土有",
+        "value": "郑老师",
+        "kind": "teacher_alias",
+        "status": "query_candidate",
+        "source_url": null,
+        "evidence_id": null,
+        "limitation": "姓氏称谓非唯一别名，仅与完整课名联合查询"
+      },
+      {
+        "teacher": "纪秋悦",
+        "value": "纪秋悦",
+        "kind": "canonical_name",
+        "status": "official_target_name"
+      },
+      {
+        "teacher": "纪秋悦",
+        "value": "jiqiuyue",
+        "kind": "full_joined",
+        "status": "generated_query_candidate"
+      },
+      {
+        "teacher": "纪秋悦",
+        "value": "ji qiu yue",
+        "kind": "full_spaced",
+        "status": "generated_query_candidate"
+      },
+      {
+        "teacher": "纪秋悦",
+        "value": "jqy",
+        "kind": "initials",
+        "status": "generated_query_candidate"
+      },
+      {
+        "teacher": "纪秋悦",
+        "value": "纪老师",
+        "kind": "teacher_alias",
+        "status": "query_candidate",
+        "source_url": null,
+        "evidence_id": null,
+        "limitation": "姓氏称谓非唯一别名，仅与完整课名联合查询"
+      }
+    ],
+    "ambiguous_matches": [
+      {
+        "value": "民间文导论",
+        "kind": "course_name_alias",
+        "status": "query_candidate",
+        "source_url": null,
+        "evidence_id": null,
+        "limitation": "机械压缩词形，仅检索候选"
+      },
+      {
+        "value": "minjianwenxuedaolun",
+        "kind": "course_pinyin_full_joined",
+        "status": "generated_query_candidate",
+        "limitation": "Generated transliteration is a search term, not an attested spoken alias."
+      },
+      {
+        "value": "min jian wen xue dao lun",
+        "kind": "course_pinyin_full_spaced",
+        "status": "generated_query_candidate",
+        "limitation": "Generated transliteration is a search term, not an attested spoken alias."
+      },
+      {
+        "value": "mjwxdl",
+        "kind": "course_pinyin_initials",
+        "status": "generated_query_candidate",
+        "limitation": "Generated transliteration is a search term, not an attested spoken alias."
+      },
+      {
+        "teacher": "郑土有",
+        "value": "zhengtuyou",
+        "kind": "full_joined",
+        "status": "generated_query_candidate",
+        "limitation": "Generated transliteration is a search token, not proof of person identity."
+      },
+      {
+        "teacher": "郑土有",
+        "value": "zheng tu you",
+        "kind": "full_spaced",
+        "status": "generated_query_candidate",
+        "limitation": "Generated transliteration is a search token, not proof of person identity."
+      },
+      {
+        "teacher": "郑土有",
+        "value": "zty",
+        "kind": "initials",
+        "status": "generated_query_candidate",
+        "limitation": "Generated transliteration is a search token, not proof of person identity."
+      },
+      {
+        "teacher": "郑土有",
+        "value": "郑老师",
+        "kind": "teacher_alias",
+        "status": "query_candidate",
+        "source_url": null,
+        "evidence_id": null,
+        "limitation": "姓氏称谓非唯一别名，仅与完整课名联合查询"
+      },
+      {
+        "teacher": "纪秋悦",
+        "value": "jiqiuyue",
+        "kind": "full_joined",
+        "status": "generated_query_candidate",
+        "limitation": "Generated transliteration is a search token, not proof of person identity."
+      },
+      {
+        "teacher": "纪秋悦",
+        "value": "ji qiu yue",
+        "kind": "full_spaced",
+        "status": "generated_query_candidate",
+        "limitation": "Generated transliteration is a search token, not proof of person identity."
+      },
+      {
+        "teacher": "纪秋悦",
+        "value": "jqy",
+        "kind": "initials",
+        "status": "generated_query_candidate",
+        "limitation": "Generated transliteration is a search token, not proof of person identity."
+      },
+      {
+        "teacher": "纪秋悦",
+        "value": "纪老师",
+        "kind": "teacher_alias",
+        "status": "query_candidate",
+        "source_url": null,
+        "evidence_id": null,
+        "limitation": "姓氏称谓非唯一别名，仅与完整课名联合查询"
+      }
+    ]
+  },
+  "progress": {
+    "owner": "",
+    "reviewer": "",
+    "status": "in_progress",
+    "queries": [
+      {
+        "query_id": "PLATFORM-CHIN50041-2026春-小红书",
+        "category": "canonical_title_teacher_platform_search",
+        "term": "2026春",
+        "query": "复旦 \"民间文学导论\" (\"纪秋悦\" OR \"郑土有\") 课程 评价",
+        "status": "no_link_returned",
+        "search_scope": "platform_specific_external_search_index",
+        "domains": [
+          "xiaohongshu.com"
+        ],
+        "attempts": 1,
+        "returned_link_count": 0,
+        "confirmed_direct_reviews": 0,
+        "read_status": "search_index_only",
+        "source_file": "reports/公开平台逐课检索台账.csv",
+        "source_record_id": "PLATFORM-CHIN50041-2026春-小红书",
+        "source_record_pointer": "course_code=CHIN50041;terms=2026春;platform=小红书",
+        "limitation": "外部搜索索引覆盖有限；不代表站内不存在"
+      },
+      {
+        "query_id": "PLATFORM-CHIN50041-2026春-微信公众号",
+        "category": "canonical_title_teacher_platform_search",
+        "term": "2026春",
+        "query": "复旦 \"民间文学导论\" (\"纪秋悦\" OR \"郑土有\") 课程 评价",
+        "status": "no_link_returned",
+        "search_scope": "platform_specific_external_search_index",
+        "domains": [
+          "mp.weixin.qq.com"
+        ],
+        "attempts": 1,
+        "returned_link_count": 0,
+        "confirmed_direct_reviews": 0,
+        "read_status": "search_index_only",
+        "source_file": "reports/公开平台逐课检索台账.csv",
+        "source_record_id": "PLATFORM-CHIN50041-2026春-微信公众号",
+        "source_record_pointer": "course_code=CHIN50041;terms=2026春;platform=微信公众号",
+        "limitation": "外部搜索索引覆盖有限；不代表站内不存在"
+      },
+      {
+        "query_id": "PLATFORM-CHIN50041-2026春-知乎",
+        "category": "canonical_title_teacher_platform_search",
+        "term": "2026春",
+        "query": "复旦 \"民间文学导论\" (\"纪秋悦\" OR \"郑土有\") 课程 评价",
+        "status": "results_returned_no_adopted_review",
+        "search_scope": "platform_specific_external_search_index",
+        "domains": [
+          "zhihu.com"
+        ],
+        "attempts": 1,
+        "returned_link_count": 2,
+        "confirmed_direct_reviews": 0,
+        "read_status": "search_index_only",
+        "source_file": "reports/公开平台逐课检索台账.csv",
+        "source_record_id": "PLATFORM-CHIN50041-2026春-知乎",
+        "source_record_pointer": "course_code=CHIN50041;terms=2026春;platform=知乎",
+        "limitation": "外部搜索索引覆盖有限；不代表站内不存在"
+      },
+      {
+        "query_id": "PUBALIAS-01587",
+        "category": "course_alias",
+        "term": "民间文导论",
+        "query": "复旦 \"纪秋悦\" \"民间文导论\"",
+        "status": "completed",
+        "search_scope": "external_index_union_of_three_domains",
+        "domains": [
+          "zhihu.com",
+          "xiaohongshu.com",
+          "mp.weixin.qq.com"
+        ],
+        "attempts": 1,
+        "returned_link_count": 0,
+        "confirmed_direct_reviews": 0,
+        "read_status": "query execution only; not article reading",
+        "source_file": "reports/别名拼音扩展检索台账.csv",
+        "source_record_id": "PUBALIAS-01587",
+        "source_record_pointer": "query_id=PUBALIAS-01587",
+        "limitation": "A union-domain query is one logged record, not one execution per listed platform."
+      },
+      {
+        "query_id": "PUBALIAS-01588",
+        "category": "course_pinyin_full_joined",
+        "term": "minjianwenxuedaolun",
+        "query": "复旦 \"纪秋悦\" \"minjianwenxuedaolun\"",
+        "status": "completed",
+        "search_scope": "external_index_union_of_three_domains",
+        "domains": [
+          "zhihu.com",
+          "xiaohongshu.com",
+          "mp.weixin.qq.com"
+        ],
+        "attempts": 1,
+        "returned_link_count": 0,
+        "confirmed_direct_reviews": 0,
+        "read_status": "query execution only; not article reading",
+        "source_file": "reports/别名拼音扩展检索台账.csv",
+        "source_record_id": "PUBALIAS-01588",
+        "source_record_pointer": "query_id=PUBALIAS-01588",
+        "limitation": "A union-domain query is one logged record, not one execution per listed platform."
+      },
+      {
+        "query_id": "PUBALIAS-01589",
+        "category": "course_pinyin_full_spaced",
+        "term": "min jian wen xue dao lun",
+        "query": "复旦 \"纪秋悦\" \"min jian wen xue dao lun\"",
+        "status": "completed",
+        "search_scope": "external_index_union_of_three_domains",
+        "domains": [
+          "zhihu.com",
+          "xiaohongshu.com",
+          "mp.weixin.qq.com"
+        ],
+        "attempts": 1,
+        "returned_link_count": 0,
+        "confirmed_direct_reviews": 0,
+        "read_status": "query execution only; not article reading",
+        "source_file": "reports/别名拼音扩展检索台账.csv",
+        "source_record_id": "PUBALIAS-01589",
+        "source_record_pointer": "query_id=PUBALIAS-01589",
+        "limitation": "A union-domain query is one logged record, not one execution per listed platform."
+      },
+      {
+        "query_id": "PUBALIAS-01590",
+        "category": "course_pinyin_initials",
+        "term": "mjwxdl",
+        "query": "复旦 \"纪秋悦\" \"mjwxdl\"",
+        "status": "completed",
+        "search_scope": "external_index_union_of_three_domains",
+        "domains": [
+          "zhihu.com",
+          "xiaohongshu.com",
+          "mp.weixin.qq.com"
+        ],
+        "attempts": 1,
+        "returned_link_count": 0,
+        "confirmed_direct_reviews": 0,
+        "read_status": "query execution only; not article reading",
+        "source_file": "reports/别名拼音扩展检索台账.csv",
+        "source_record_id": "PUBALIAS-01590",
+        "source_record_pointer": "query_id=PUBALIAS-01590",
+        "limitation": "A union-domain query is one logged record, not one execution per listed platform."
+      },
+      {
+        "query_id": "PUBALIAS-01591",
+        "category": "teacher_pinyin_full_joined",
+        "term": "jiqiuyue",
+        "query": "复旦 \"民间文学导论\" \"jiqiuyue\"",
+        "status": "completed",
+        "search_scope": "external_index_union_of_three_domains",
+        "domains": [
+          "zhihu.com",
+          "xiaohongshu.com",
+          "mp.weixin.qq.com"
+        ],
+        "attempts": 1,
+        "returned_link_count": 0,
+        "confirmed_direct_reviews": 0,
+        "read_status": "query execution only; not article reading",
+        "source_file": "reports/别名拼音扩展检索台账.csv",
+        "source_record_id": "PUBALIAS-01591",
+        "source_record_pointer": "query_id=PUBALIAS-01591",
+        "limitation": "A union-domain query is one logged record, not one execution per listed platform."
+      },
+      {
+        "query_id": "PUBALIAS-01592",
+        "category": "teacher_pinyin_full_spaced",
+        "term": "ji qiu yue",
+        "query": "复旦 \"民间文学导论\" \"ji qiu yue\"",
+        "status": "completed",
+        "search_scope": "external_index_union_of_three_domains",
+        "domains": [
+          "zhihu.com",
+          "xiaohongshu.com",
+          "mp.weixin.qq.com"
+        ],
+        "attempts": 1,
+        "returned_link_count": 0,
+        "confirmed_direct_reviews": 0,
+        "read_status": "query execution only; not article reading",
+        "source_file": "reports/别名拼音扩展检索台账.csv",
+        "source_record_id": "PUBALIAS-01592",
+        "source_record_pointer": "query_id=PUBALIAS-01592",
+        "limitation": "A union-domain query is one logged record, not one execution per listed platform."
+      },
+      {
+        "query_id": "PUBALIAS-01593",
+        "category": "teacher_pinyin_initials",
+        "term": "jqy",
+        "query": "复旦 \"民间文学导论\" \"jqy\"",
+        "status": "completed",
+        "search_scope": "external_index_union_of_three_domains",
+        "domains": [
+          "zhihu.com",
+          "xiaohongshu.com",
+          "mp.weixin.qq.com"
+        ],
+        "attempts": 1,
+        "returned_link_count": 0,
+        "confirmed_direct_reviews": 0,
+        "read_status": "query execution only; not article reading",
+        "source_file": "reports/别名拼音扩展检索台账.csv",
+        "source_record_id": "PUBALIAS-01593",
+        "source_record_pointer": "query_id=PUBALIAS-01593",
+        "limitation": "A union-domain query is one logged record, not one execution per listed platform."
+      },
+      {
+        "query_id": "PUBALIAS-01594",
+        "category": "teacher_alias",
+        "term": "纪老师",
+        "query": "复旦 \"民间文学导论\" \"纪老师\"",
+        "status": "completed",
+        "search_scope": "external_index_union_of_three_domains",
+        "domains": [
+          "zhihu.com",
+          "xiaohongshu.com",
+          "mp.weixin.qq.com"
+        ],
+        "attempts": 1,
+        "returned_link_count": 0,
+        "confirmed_direct_reviews": 0,
+        "read_status": "query execution only; not article reading",
+        "source_file": "reports/别名拼音扩展检索台账.csv",
+        "source_record_id": "PUBALIAS-01594",
+        "source_record_pointer": "query_id=PUBALIAS-01594",
+        "limitation": "A union-domain query is one logged record, not one execution per listed platform."
+      },
+      {
+        "query_id": "PUBALIAS-01595",
+        "category": "teacher_pinyin_full_joined",
+        "term": "zhengtuyou",
+        "query": "复旦 \"民间文学导论\" \"zhengtuyou\"",
+        "status": "completed",
+        "search_scope": "external_index_union_of_three_domains",
+        "domains": [
+          "zhihu.com",
+          "xiaohongshu.com",
+          "mp.weixin.qq.com"
+        ],
+        "attempts": 1,
+        "returned_link_count": 0,
+        "confirmed_direct_reviews": 0,
+        "read_status": "query execution only; not article reading",
+        "source_file": "reports/别名拼音扩展检索台账.csv",
+        "source_record_id": "PUBALIAS-01595",
+        "source_record_pointer": "query_id=PUBALIAS-01595",
+        "limitation": "A union-domain query is one logged record, not one execution per listed platform."
+      },
+      {
+        "query_id": "PUBALIAS-01596",
+        "category": "teacher_pinyin_full_spaced",
+        "term": "zheng tu you",
+        "query": "复旦 \"民间文学导论\" \"zheng tu you\"",
+        "status": "completed",
+        "search_scope": "external_index_union_of_three_domains",
+        "domains": [
+          "zhihu.com",
+          "xiaohongshu.com",
+          "mp.weixin.qq.com"
+        ],
+        "attempts": 1,
+        "returned_link_count": 0,
+        "confirmed_direct_reviews": 0,
+        "read_status": "query execution only; not article reading",
+        "source_file": "reports/别名拼音扩展检索台账.csv",
+        "source_record_id": "PUBALIAS-01596",
+        "source_record_pointer": "query_id=PUBALIAS-01596",
+        "limitation": "A union-domain query is one logged record, not one execution per listed platform."
+      },
+      {
+        "query_id": "PUBALIAS-01597",
+        "category": "teacher_pinyin_initials",
+        "term": "zty",
+        "query": "复旦 \"民间文学导论\" \"zty\"",
+        "status": "completed",
+        "search_scope": "external_index_union_of_three_domains",
+        "domains": [
+          "zhihu.com",
+          "xiaohongshu.com",
+          "mp.weixin.qq.com"
+        ],
+        "attempts": 1,
+        "returned_link_count": 0,
+        "confirmed_direct_reviews": 0,
+        "read_status": "query execution only; not article reading",
+        "source_file": "reports/别名拼音扩展检索台账.csv",
+        "source_record_id": "PUBALIAS-01597",
+        "source_record_pointer": "query_id=PUBALIAS-01597",
+        "limitation": "A union-domain query is one logged record, not one execution per listed platform."
+      },
+      {
+        "query_id": "PUBALIAS-01598",
+        "category": "teacher_alias",
+        "term": "郑老师",
+        "query": "复旦 \"民间文学导论\" \"郑老师\"",
+        "status": "completed",
+        "search_scope": "external_index_union_of_three_domains",
+        "domains": [
+          "zhihu.com",
+          "xiaohongshu.com",
+          "mp.weixin.qq.com"
+        ],
+        "attempts": 1,
+        "returned_link_count": 0,
+        "confirmed_direct_reviews": 0,
+        "read_status": "query execution only; not article reading",
+        "source_file": "reports/别名拼音扩展检索台账.csv",
+        "source_record_id": "PUBALIAS-01598",
+        "source_record_pointer": "query_id=PUBALIAS-01598",
+        "limitation": "A union-domain query is one logged record, not one execution per listed platform."
+      }
+    ],
+    "query_status_counts": {
+      "no_link_returned": 2,
+      "results_returned_no_adopted_review": 1,
+      "completed": 12
+    },
+    "query_coverage_note": "已执行课程全名、可证别名、教师全名及拼音/首字母组合的公开索引检索。跨域联合查询按一条日志记录，不按列出的域重复计数。查询完成不表示结果页已读，也不代表平台内容穷尽。",
+    "remaining_scope": [
+      "公开索引覆盖有限，未穷尽各平台站内搜索及未被索引的页面。",
+      "六个课程群聊的原始私密内容不进入本次公开贡献，仍有私密渠道缺口。",
+      "这是当前本地证据快照；新增上下文、历史教师材料和课评需重跑脚本更新。"
+    ],
+    "no_student_reviews_found": false,
+    "no_student_reviews_found_note": "true表示本快照没有已采用的学生平台摘要，不表示不存在其他评价；另见index_only_hits和查询日志。"
+  },
+  "sources": [
+    {
+      "source_id": "OFFICIAL-OFFERING-1027283",
+      "source_type": "official",
+      "canonical_url": "https://fdjwgl.fudan.edu.cn/student/for-all/lesson-search/semester/505/search/505?openDepartmentAssocs=2620&queryPage__=1,500",
+      "public_author_label": null,
+      "published_at": null,
+      "fetched_at": "2026-10-27",
+      "hole_id": null,
+      "floor_id": null,
+      "floor_number": null,
+      "review_id": null,
+      "file_and_page": "official timetable lesson_id=1027283",
+      "image_page": null,
+      "reading_status": "official_timetable_record_read",
+      "mapping_status": "official course code and lesson_id",
+      "record_type": "official_course_offering",
+      "adoption": "adopted_official_metadata",
+      "reason": "Official 2025 autumn / 2026 spring timetable row.",
+      "duplicate_of": null,
+      "license": null,
+      "fulltext_permission": "unconfirmed",
+      "attribution_and_changes": "Official offering metadata; no student personal data included.",
+      "raw_filename": "reports/两学期全部教学班.json",
+      "raw_record_id": "1027283",
+      "course_code": "CHIN50041",
+      "report_filename": "reports/两学期全部教学班.json",
+      "report_record_id": "1027283",
+      "report_record_pointer": null,
+      "raw_body_status": null,
+      "teacher_if_explicit": "纪秋悦 / 郑土有",
+      "term_as_stated": "2026春",
+      "section_code": "CHIN50041.01"
+    },
+    {
+      "source_id": "OFFICIAL-SYLLABUS-1027283",
+      "source_type": "official",
+      "canonical_url": "https://fdjwgl.fudan.edu.cn/student/for-all/lesson-search/teachingSyllabusInfo/1027283",
+      "public_author_label": null,
+      "published_at": null,
+      "fetched_at": "2026-10-27",
+      "hole_id": null,
+      "floor_id": null,
+      "floor_number": null,
+      "review_id": null,
+      "file_and_page": "official syllabus lesson_id=1027283",
+      "image_page": null,
+      "reading_status": "structured_text_extracted",
+      "mapping_status": "lesson syllabus course code checked",
+      "record_type": "official_syllabus",
+      "adoption": "adopted_official_requirements",
+      "reason": "Official syllabus parsed locally; requirements stay attached to this offering.",
+      "duplicate_of": null,
+      "license": null,
+      "fulltext_permission": "unconfirmed",
+      "attribution_and_changes": "Only metadata, section titles, textbook details and assessment structure are exported; full syllabus text is not republished.",
+      "raw_filename": "reports/官方大纲结构化摘要.json",
+      "raw_record_id": "1027283",
+      "course_code": "CHIN50041",
+      "report_filename": "reports/官方大纲结构化摘要.json",
+      "report_record_id": "1027283",
+      "report_record_pointer": null,
+      "raw_body_status": null,
+      "teacher_if_explicit": "纪秋悦 / 郑土有",
+      "term_as_stated": "2026春",
+      "section_code": "CHIN50041.01"
+    },
+    {
+      "source_id": "FORUM-6087993",
+      "source_type": "treehole",
+      "canonical_url": "https://forum.fduhole.com/api/floors/6087993",
+      "public_author_label": null,
+      "published_at": "2026-06-27T00:00:11.77+08:00",
+      "fetched_at": "2026-10-27",
+      "hole_id": null,
+      "floor_id": 6087993,
+      "floor_number": null,
+      "review_id": null,
+      "file_and_page": "forum source FORUM-6087993",
+      "image_page": null,
+      "reading_status": "read",
+      "mapping_status": "verified course assignment from curated evidence",
+      "record_type": "experience",
+      "adoption": "adopted_limited",
+      "reason": "",
+      "duplicate_of": null,
+      "license": null,
+      "fulltext_permission": "unconfirmed; short summary only exported",
+      "attribution_and_changes": "Short paraphrase from locally curated evidence; original body, account metadata and media are not copied.",
+      "raw_filename": "raw/forum.jsonl",
+      "raw_record_id": 6087993,
+      "course_code": "CHIN50041",
+      "report_filename": "reports/课程人工综合与来源.json",
+      "report_record_id": "FORUM-6087993",
+      "report_record_pointer": null,
+      "raw_body_status": "published_redacted",
+      "teacher_if_explicit": null,
+      "term_as_stated": null,
+      "section_code": null,
+      "raw_year": null,
+      "raw_semester": null,
+      "indexed_terms": null,
+      "indexed_course_periods": null,
+      "body_term_if_explicit": null,
+      "body_claimed_calendar_terms": null,
+      "body_term_conflict": null,
+      "review_time_conflict": null,
+      "index_conflict_note": null,
+      "term_scope": "修读学期未知",
+      "body_term_precision": null,
+      "body_term_scope": null,
+      "relative_period_phrases": null,
+      "semester_mapping_source": null,
+      "body_calendar_terms_parsed": null,
+      "body_claimed_target_terms": [],
+      "indexed_target_terms": [],
+      "target_period_note": "非目标期、相对或未知修读期，不当作目标期直接反馈。"
+    }
+  ],
+  "syllabus": {
+    "source_ids": [
+      "OFFICIAL-SYLLABUS-1027283"
+    ],
+    "content": "官方大纲按教学班逐项记录在offerings；不同学期或平行班要求未合并。",
+    "prerequisites": "",
+    "assessment": ""
+  },
+  "materials": [],
+  "student_reviews_and_discussions": [
+    {
+      "source_id": "FORUM-6087993",
+      "source_type": "treehole",
+      "record_type": "experience",
+      "canonical_url": "https://forum.fduhole.com/api/floors/6087993",
+      "reading_status": "read",
+      "mapping_status": "verified course assignment from curated evidence",
+      "adoption": "adopted_limited",
+      "teacher_if_explicit": null,
+      "term_as_stated": null,
+      "indexed_terms": null,
+      "raw_body_status": "published_redacted",
+      "raw_year": null,
+      "raw_semester": null,
+      "indexed_course_periods": null,
+      "body_term_if_explicit": null,
+      "body_claimed_calendar_terms": null,
+      "body_term_conflict": null,
+      "review_time_conflict": null,
+      "index_conflict_note": null,
+      "term_scope": "修读学期未知",
+      "body_term_precision": null,
+      "body_term_scope": null,
+      "relative_period_phrases": null,
+      "semester_mapping_source": null,
+      "body_calendar_terms_parsed": null,
+      "body_claimed_target_terms": [],
+      "indexed_target_terms": [],
+      "target_period_note": "非目标期、相对或未知修读期，不当作目标期直接反馈。",
+      "period_status": "非目标期、相对或未知修读期，不当作目标期直接反馈。",
+      "summary": "自述民间文学导论期末为开卷，认为自己答得基本到位、平时分不差，最终得B+。",
+      "limitations": "分数和考核为个人报告，不能代表其他学生；学期未知。 匿名个体经历或转述；原文未明示的教师或绝对学期不补齐，不能替代官方大纲，个体等第不预测未来成绩。",
+      "reason": ""
+    }
+  ],
+  "index_only_hits": [],
+  "quantitative_observations": [],
+  "offerings": [
+    {
+      "term": "2026春",
+      "section_code": "CHIN50041.01",
+      "lesson_id": 1027283,
+      "course_code": "CHIN50041",
+      "course_name": "民间文学导论",
+      "teachers": [
+        "纪秋悦",
+        "郑土有"
+      ],
+      "credits": 2,
+      "task_level": "本科",
+      "open_department": "中国语言文学系",
+      "course_type": "专业选修课程",
+      "course_table_type": "基础和专业：专业课程",
+      "exam_mode": "开卷",
+      "total_hours": 36,
+      "source_ids": [
+        "OFFICIAL-OFFERING-1027283",
+        "OFFICIAL-SYLLABUS-1027283"
+      ],
+      "official_syllabus": {
+        "status": "structured_text_extracted",
+        "source_id": "OFFICIAL-SYLLABUS-1027283",
+        "section_titles": [
+          "课程简介（中文）",
+          "课程简介（英文）",
+          "教学目标",
+          "教学方式",
+          "教学内容与进度安排",
+          "课程考核与成绩评定",
+          "教材",
+          "教学参考资料",
+          "教学团队成员"
+        ],
+        "prerequisites": [],
+        "assessment": [
+          {
+            "criteria": "作业/实验/实践Assignment",
+            "percentage": 30.0,
+            "standard": "根据完成的情况"
+          },
+          {
+            "criteria": "期末考试Final Examination：开卷 ",
+            "percentage": 70.0,
+            "standard": "根据试卷完成情况"
+          }
+        ],
+        "grade_rule": "等级制",
+        "textbooks": [],
+        "syllabus_id": 8526,
+        "error": null
+      }
+    }
+  ],
+  "official_metadata": {
+    "department": "中国语言文学系",
+    "target_terms": [
+      "2026春"
+    ],
+    "target_teachers": [
+      "纪秋悦",
+      "郑土有"
+    ],
+    "task_levels": [
+      "本科"
+    ],
+    "section_count": 1,
+    "official_offering_count_in_snapshot": 1,
+    "course_type_values_by_offering": [
+      "专业选修课程"
+    ],
+    "course_table_type_values_by_offering": [
+      "基础和专业：专业课程"
+    ],
+    "source_ids": [
+      "OFFICIAL-OFFERING-1027283"
+    ]
+  },
+  "comparison_and_summary": {
+    "teaching_and_learning": "已读摘要没有明确记录具体学习收获或能力变化。",
+    "workload": "已读摘要没有提供可核实的具体准备或作业要求。",
+    "assessment": "已读来源中的考核与评分回忆包括：本人经历自述民间文学导论期末为开卷，认为自己答得基本到位、平时分不差，最终得B+。（FORUM-6087993）",
+    "grading_and_risk": "",
+    "teacher_and_term_differences": "已读来源未明确写出教师姓名；不能据课程名或现任教师表补认授课者。 来源没有可确认的修读学期。",
+    "who_it_suits": "",
+    "source_ids": [
+      "FORUM-6087993"
+    ],
+    "section_source_ids": {
+      "teaching_and_learning": [],
+      "workload": [],
+      "assessment": [
+        "FORUM-6087993"
+      ],
+      "teacher_and_term_differences": []
+    },
+    "manual_comparison": {
+      "status": "human_synthesized",
+      "text": "一名修读者称民间文学导论期末开卷，自己自评答题基本到位、平时表现尚可，最终得B+（FORUM-6087993）。 开卷与自报B+仅反映一人经历，不说明同班考试难度或成绩情况。 教师名和修读年份均未提供。",
+      "evidence_ids": [
+        "FORUM-6087993"
+      ],
+      "limitations": "单一学期不明的成绩与考试自述，不表示其他学生的成绩分布或课程普遍给分。",
+      "confidence": "low：有已读一手来源，但学期为历史或未定，不能代表目标期。"
+    },
+    "confidence": "low：有已读一手来源，但学期为历史或未定，不能代表目标期。",
+    "limitations": "共纳入1条已读来源，其中本人经历/评课1条、二手转述0条，另有校方精选、媒体报道或历史汇编0条；这些材料不代表班级分布。 没有明确目标期的一手评价；历史或学期不明材料不能移作当前班级结论。"
+  },
+  "research_snapshot": {
+    "date": "2026-10-27",
+    "curated_evidence_record_count": 535,
+    "synthesis_source_assignment_count": 522,
+    "public_review_index_record_count": 167,
+    "public_adopted_findings_count": 11
+  }
+}

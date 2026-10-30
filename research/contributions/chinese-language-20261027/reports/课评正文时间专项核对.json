@@ -1,0 +1,1966 @@
+{
+  "title": "旦挞已读评价正文时间字段专项核对",
+  "source_snapshot": {
+    "old_triage_reviews": 30,
+    "incremental_reviews": 209,
+    "total_unique_reviews_scanned": 239,
+    "old_batch_directory": "live/danke-triage-batches",
+    "incremental_batch_directory": "live/danke-incremental-batches",
+    "as_of": "2026-10-27",
+    "reviews_with_verified_course_codes": 237,
+    "reviews_without_verified_course_codes": 2
+  },
+  "screening_and_reading": {
+    "fields_scanned": [
+      "title",
+      "content"
+    ],
+    "remark_excluded": "remark不是标题/正文，不用于时间判定。",
+    "post_date_excluded": [
+      "time_created",
+      "time_updated"
+    ],
+    "image_handling": "data:image base64 payloads were stripped before screening and were not read.",
+    "patterns_used": [
+      "四位年份及秋/春/暑/寒/学年/学期上下文",
+      "两位年份秋/春/暑/寒或学年范围",
+      "第一/第二学期与大一上/下",
+      "今年/去年/本学期/这学期等相对表达",
+      "带“年”的年份单独候选"
+    ],
+    "regex_candidate_count": 60,
+    "manually_read_candidate_count": 60,
+    "body_term_override_count": 55,
+    "reference_only_count": 4,
+    "false_positive_candidates": {
+      "6430": {
+        "review_id": 6430,
+        "reason": "“37/40”是默写分数比例，不是日期/学期；正文无明确课程年月。"
+      }
+    },
+    "candidate_ids_manually_read": [
+      54,
+      165,
+      204,
+      325,
+      362,
+      476,
+      523,
+      613,
+      653,
+      855,
+      856,
+      888,
+      934,
+      1140,
+      1268,
+      1365,
+      1606,
+      1626,
+      2445,
+      2464,
+      2508,
+      2547,
+      2672,
+      2845,
+      2874,
+      2970,
+      3550,
+      3638,
+      3727,
+      3901,
+      4096,
+      4237,
+      4276,
+      4648,
+      4657,
+      4777,
+      4860,
+      4985,
+      4987,
+      5048,
+      5062,
+      5125,
+      5250,
+      5314,
+      5345,
+      5544,
+      5622,
+      5796,
+      5803,
+      6049,
+      6057,
+      6063,
+      6158,
+      6178,
+      6273,
+      6412,
+      6430,
+      6437,
+      6725,
+      6771
+    ]
+  },
+  "semester_mapping_basis": {
+    "source": "https://github.com/DanXi-Dev/DanXi/blob/3c1f5f026fbc7ca50e151865f813cdb381807abe/lib/model/danke/course.dart#L36-L45",
+    "semantics": {
+      "1": "year秋",
+      "2": "year+1寒假",
+      "3": "year+1春",
+      "4": "year+1暑假"
+    },
+    "caution": "课程索引时间仅作冲突对照；不从time_created/time_updated推断正文修读学期。"
+  },
+  "overrides": {
+    "5048": {
+      "review_id": 5048,
+      "source_url": "https://danke.fduhole.com/api/reviews/5048",
+      "batch_set": "old30",
+      "batch_file": "danke-0001.json",
+      "verified_course_codes": [
+        "GECC10006"
+      ],
+      "title": "25秋绝世好课！！给分超高！！",
+      "reading_basis": "title",
+      "body_term_if_explicit": "25秋（标题）",
+      "body_claimed_calendar_terms": [
+        "2025秋"
+      ],
+      "body_term_precision": "single_term",
+      "body_term_scope": "author_course_period",
+      "relative_period_phrases": [
+        "今年",
+        "往年"
+      ],
+      "api_course_indices": [
+        {
+          "raw_year": 2024,
+          "raw_semester": 1,
+          "mapped_index_term": "2024秋",
+          "course_name_index": "《周易》与中华审美文化",
+          "course_code_index": "CHIN119003"
+        }
+      ],
+      "index_conflict_note": "API 2024/S1映射2024秋，与标题25秋冲突；并列保留。",
+      "used_post_date": false,
+      "used_base64_image": false
+    },
+    "4648": {
+      "review_id": 4648,
+      "source_url": "https://danke.fduhole.com/api/reviews/4648",
+      "batch_set": "new209",
+      "batch_file": "danke-0001.json",
+      "verified_course_codes": [
+        "CHIN20005"
+      ],
+      "title": "多想想吧傻孩子",
+      "reading_basis": "content",
+      "body_term_if_explicit": "25秋（正文）",
+      "body_claimed_calendar_terms": [
+        "2025秋"
+      ],
+      "body_term_precision": "single_term",
+      "body_term_scope": "author_course_period",
+      "relative_period_phrases": [],
+      "api_course_indices": [
+        {
+          "raw_year": 2020,
+          "raw_semester": 1,
+          "mapped_index_term": "2020秋",
+          "course_name_index": "中国古代文学史(上)",
+          "course_code_index": "CHIN130006"
+        }
+      ],
+      "index_conflict_note": "API 2020/S1映射2020秋；作者另问“为什么只有20-21”，root已核实当时仅该选项可选。并列保留，不因索引否定正文。",
+      "used_post_date": false,
+      "used_base64_image": false,
+      "additional_period_references": [
+        {
+          "phrase": "20-21",
+          "scope": "作者说明当时可选列表只有该学年选项。"
+        }
+      ]
+    },
+    "4860": {
+      "review_id": 4860,
+      "source_url": "https://danke.fduhole.com/api/reviews/4860",
+      "batch_set": "new209",
+      "batch_file": "danke-0001.json",
+      "verified_course_codes": [
+        "CHIN20005"
+      ],
+      "title": "【25秋课评】客观评价",
+      "reading_basis": "title",
+      "body_term_if_explicit": "25秋（标题）",
+      "body_claimed_calendar_terms": [
+        "2025秋"
+      ],
+      "body_term_precision": "single_term",
+      "body_term_scope": "author_course_period",
+      "relative_period_phrases": [],
+      "api_course_indices": [
+        {
+          "raw_year": 2020,
+          "raw_semester": 1,
+          "mapped_index_term": "2020秋",
+          "course_name_index": "中国古代文学史(上)",
+          "course_code_index": "CHIN130006"
+        }
+      ],
+      "index_conflict_note": "API 2020/S1映射2020秋，与标题自述冲突；并列保留。",
+      "used_post_date": false,
+      "used_base64_image": false
+    },
+    "4985": {
+      "review_id": 4985,
+      "source_url": "https://danke.fduhole.com/api/reviews/4985",
+      "batch_set": "new209",
+      "batch_file": "danke-0001.json",
+      "verified_course_codes": [
+        "CHIN20005"
+      ],
+      "title": "其实是25秋 客观评价",
+      "reading_basis": "title",
+      "body_term_if_explicit": "25秋（标题）",
+      "body_claimed_calendar_terms": [
+        "2025秋"
+      ],
+      "body_term_precision": "single_term",
+      "body_term_scope": "author_course_period",
+      "relative_period_phrases": [],
+      "api_course_indices": [
+        {
+          "raw_year": 2020,
+          "raw_semester": 1,
+          "mapped_index_term": "2020秋",
+          "course_name_index": "中国古代文学史(上)",
+          "course_code_index": "CHIN130006"
+        }
+      ],
+      "index_conflict_note": "API 2020/S1映射2020秋，与标题/正文自述冲突；并列保留。",
+      "used_post_date": false,
+      "used_base64_image": false
+    },
+    "5250": {
+      "review_id": 5250,
+      "source_url": "https://danke.fduhole.com/api/reviews/5250",
+      "batch_set": "new209",
+      "batch_file": "danke-0001.json",
+      "verified_course_codes": [
+        "CHIN20005"
+      ],
+      "title": "其实上的是25秋的课😢一句话 快跑！！！",
+      "reading_basis": "title",
+      "body_term_if_explicit": "25秋（标题）",
+      "body_claimed_calendar_terms": [
+        "2025秋"
+      ],
+      "body_term_precision": "single_term",
+      "body_term_scope": "author_course_period",
+      "relative_period_phrases": [],
+      "api_course_indices": [
+        {
+          "raw_year": 2020,
+          "raw_semester": 1,
+          "mapped_index_term": "2020秋",
+          "course_name_index": "中国古代文学史(上)",
+          "course_code_index": "CHIN130006"
+        }
+      ],
+      "index_conflict_note": "API 2020/S1映射2020秋，与标题自述冲突；并列保留。",
+      "used_post_date": false,
+      "used_base64_image": false
+    },
+    "6437": {
+      "review_id": 6437,
+      "source_url": "https://danke.fduhole.com/api/reviews/6437",
+      "batch_set": "new209",
+      "batch_file": "danke-0001.json",
+      "verified_course_codes": [
+        "CHIN20006"
+      ],
+      "title": "我要来当第一个！（26春课评）",
+      "reading_basis": "title",
+      "body_term_if_explicit": "26春课评（标题）",
+      "body_claimed_calendar_terms": [
+        "2026春"
+      ],
+      "body_term_precision": "single_term",
+      "body_term_scope": "author_course_period",
+      "relative_period_phrases": [],
+      "api_course_indices": [
+        {
+          "raw_year": 2022,
+          "raw_semester": 3,
+          "mapped_index_term": "2023春",
+          "course_name_index": "中国古代文学史(中)",
+          "course_code_index": "CHIN130007"
+        }
+      ],
+      "index_conflict_note": "API 2022/S3映射2023春，与标题26春冲突；并列保留。",
+      "used_post_date": false,
+      "used_base64_image": false
+    },
+    "1365": {
+      "review_id": 1365,
+      "source_url": "https://danke.fduhole.com/api/reviews/1365",
+      "batch_set": "new209",
+      "batch_file": "danke-0002.json",
+      "verified_course_codes": [
+        "CHIN20012"
+      ],
+      "title": "23秋羊列荣 中国文学批评史",
+      "reading_basis": "title",
+      "body_term_if_explicit": "23秋（标题）",
+      "body_claimed_calendar_terms": [
+        "2023秋"
+      ],
+      "body_term_precision": "single_term",
+      "body_term_scope": "author_course_period",
+      "relative_period_phrases": [
+        "今年"
+      ],
+      "api_course_indices": [
+        {
+          "raw_year": 2023,
+          "raw_semester": 1,
+          "mapped_index_term": "2023秋",
+          "course_name_index": "中国文学批评史",
+          "course_code_index": "CHIN130013"
+        }
+      ],
+      "index_conflict_note": "标题保留23秋；不以发帖日期或索引替代作者期别。",
+      "used_post_date": false,
+      "used_base64_image": false
+    },
+    "2970": {
+      "review_id": 2970,
+      "source_url": "https://danke.fduhole.com/api/reviews/2970",
+      "batch_set": "new209",
+      "batch_file": "danke-0002.json",
+      "verified_course_codes": [
+        "CHIN20012"
+      ],
+      "title": "24秋 ylr文批史",
+      "reading_basis": "title",
+      "body_term_if_explicit": "24秋（标题）",
+      "body_claimed_calendar_terms": [
+        "2024秋"
+      ],
+      "body_term_precision": "single_term",
+      "body_term_scope": "author_course_period",
+      "relative_period_phrases": [
+        "今年",
+        "这学期"
+      ],
+      "api_course_indices": [
+        {
+          "raw_year": 2024,
+          "raw_semester": 1,
+          "mapped_index_term": "2024秋",
+          "course_name_index": "中国文学批评史",
+          "course_code_index": "CHIN130013"
+        }
+      ],
+      "index_conflict_note": "标题保留24秋；正文“今年/这学期”不据发布日期换算。",
+      "used_post_date": false,
+      "used_base64_image": false
+    },
+    "4777": {
+      "review_id": 4777,
+      "source_url": "https://danke.fduhole.com/api/reviews/4777",
+      "batch_set": "new209",
+      "batch_file": "danke-0003.json",
+      "verified_course_codes": [
+        "CHIN10005"
+      ],
+      "title": "ylr文经25春",
+      "reading_basis": "title",
+      "body_term_if_explicit": "25春（标题）",
+      "body_claimed_calendar_terms": [
+        "2025春"
+      ],
+      "body_term_precision": "single_term",
+      "body_term_scope": "author_course_period",
+      "relative_period_phrases": [],
+      "api_course_indices": [
+        {
+          "raw_year": 2024,
+          "raw_semester": 3,
+          "mapped_index_term": "2025春",
+          "course_name_index": "中国文学经典",
+          "course_code_index": "CHIN120012"
+        }
+      ],
+      "index_conflict_note": "API 2024/S3映射2025春，与标题相符。",
+      "used_post_date": false,
+      "used_base64_image": false
+    },
+    "5314": {
+      "review_id": 5314,
+      "source_url": "https://danke.fduhole.com/api/reviews/5314",
+      "batch_set": "new209",
+      "batch_file": "danke-0003.json",
+      "verified_course_codes": [
+        "CHIN10005"
+      ],
+      "title": "25秋",
+      "reading_basis": "title",
+      "body_term_if_explicit": "25秋（标题）",
+      "body_claimed_calendar_terms": [
+        "2025秋"
+      ],
+      "body_term_precision": "single_term",
+      "body_term_scope": "author_course_period",
+      "relative_period_phrases": [],
+      "api_course_indices": [
+        {
+          "raw_year": 2024,
+          "raw_semester": 3,
+          "mapped_index_term": "2025春",
+          "course_name_index": "中国文学经典",
+          "course_code_index": "CHIN120012"
+        }
+      ],
+      "index_conflict_note": "API 2024/S3映射2025春，与标题25秋冲突；正文无更多期别。",
+      "used_post_date": false,
+      "used_base64_image": false
+    },
+    "5345": {
+      "review_id": 5345,
+      "source_url": "https://danke.fduhole.com/api/reviews/5345",
+      "batch_set": "new209",
+      "batch_file": "danke-0003.json",
+      "verified_course_codes": [
+        "CHIN10005"
+      ],
+      "title": "绝世好课！中文系最善🐑师！",
+      "reading_basis": "content",
+      "body_term_if_explicit": "2025-2026学年秋季学期（正文范围）",
+      "body_claimed_calendar_terms": [
+        "2025-2026学年秋季学期"
+      ],
+      "body_term_precision": "academic_year_range_preserved",
+      "body_term_scope": "author_course_period",
+      "relative_period_phrases": [],
+      "api_course_indices": [
+        {
+          "raw_year": 2025,
+          "raw_semester": 1,
+          "mapped_index_term": "2025秋",
+          "course_name_index": "中国文学经典",
+          "course_code_index": "CHIN10005"
+        }
+      ],
+      "index_conflict_note": "正文另回指“25秋”考题；API 2025/S1映射2025秋，与该回指相合，但不把完整范围改写成结束年秋。",
+      "used_post_date": false,
+      "used_base64_image": false,
+      "additional_period_references": [
+        {
+          "phrase": "25秋",
+          "scope": "正文回指当年考试内容；同时保留完整学年秋季范围。"
+        }
+      ]
+    },
+    "6049": {
+      "review_id": 6049,
+      "source_url": "https://danke.fduhole.com/api/reviews/6049",
+      "batch_set": "new209",
+      "batch_file": "danke-0003.json",
+      "verified_course_codes": [
+        "GECC10018"
+      ],
+      "title": "事真的多 虽然上课到还算有趣",
+      "reading_basis": "content",
+      "body_term_if_explicit": "2025～2026春（正文范围）",
+      "body_claimed_calendar_terms": [
+        "2025～2026春"
+      ],
+      "body_term_precision": "range_preserved",
+      "body_term_scope": "author_course_period",
+      "relative_period_phrases": [],
+      "api_course_indices": [
+        {
+          "raw_year": 2024,
+          "raw_semester": 3,
+          "mapped_index_term": "2025春",
+          "course_name_index": "中国现代散文导读",
+          "course_code_index": "CHIN119019"
+        }
+      ],
+      "index_conflict_note": "API 2024/S3映射2025春；正文时间范围原样保留，不缩成单一年份。",
+      "used_post_date": false,
+      "used_base64_image": false
+    },
+    "5062": {
+      "review_id": 5062,
+      "source_url": "https://danke.fduhole.com/api/reviews/5062",
+      "batch_set": "new209",
+      "batch_file": "danke-0004.json",
+      "verified_course_codes": [
+        "GECC10022"
+      ],
+      "title": "2025-2026秋",
+      "reading_basis": "title",
+      "body_term_if_explicit": "2025-2026秋（标题范围）",
+      "body_claimed_calendar_terms": [
+        "2025-2026秋"
+      ],
+      "body_term_precision": "range_preserved",
+      "body_term_scope": "author_course_period",
+      "relative_period_phrases": [],
+      "api_course_indices": [
+        {
+          "raw_year": 2024,
+          "raw_semester": 3,
+          "mapped_index_term": "2025春",
+          "course_name_index": "中国现代文学名著选讲",
+          "course_code_index": "CHIN119024"
+        }
+      ],
+      "index_conflict_note": "API 2024/S3映射2025春；标题范围原样保留，不擅自选结束年。",
+      "used_post_date": false,
+      "used_base64_image": false
+    },
+    "2464": {
+      "review_id": 2464,
+      "source_url": "https://danke.fduhole.com/api/reviews/2464",
+      "batch_set": "new209",
+      "batch_file": "danke-0005.json",
+      "verified_course_codes": [
+        "GECC10004"
+      ],
+      "title": "全网最详细诗词导读课评，没有之一！",
+      "reading_basis": "content",
+      "body_term_if_explicit": "2023学年（具体学期未明）",
+      "body_claimed_calendar_terms": [
+        "2023学年（具体学期未明）"
+      ],
+      "body_term_precision": "academic_year_only",
+      "body_term_scope": "author_course_period",
+      "relative_period_phrases": [],
+      "api_course_indices": [
+        {
+          "raw_year": 2023,
+          "raw_semester": 1,
+          "mapped_index_term": "2023秋",
+          "course_name_index": "古典诗词导读",
+          "course_code_index": "CHIN119001"
+        }
+      ],
+      "index_conflict_note": "作者只称上的是2023学年的课，未说秋/春；“第一学期开课”是侯老师一般开课模式，不是作者本人期别。API 2023/S1映射2023秋，不能仅凭学年判断冲突。",
+      "used_post_date": false,
+      "used_base64_image": false,
+      "additional_period_references": [
+        {
+          "phrase": "2026.3 回顾",
+          "scope": "回顾写作时间，不是修读期。"
+        },
+        {
+          "phrase": "第一学期",
+          "scope": "侯老师一般开课模式，不是作者个人期别。"
+        }
+      ]
+    },
+    "5125": {
+      "review_id": 5125,
+      "source_url": "https://danke.fduhole.com/api/reviews/5125",
+      "batch_set": "new209",
+      "batch_file": "danke-0005.json",
+      "verified_course_codes": [
+        "GECC10004"
+      ],
+      "title": "25秋 ",
+      "reading_basis": "title",
+      "body_term_if_explicit": "25秋（标题）",
+      "body_claimed_calendar_terms": [
+        "2025秋"
+      ],
+      "body_term_precision": "single_term",
+      "body_term_scope": "author_course_period",
+      "relative_period_phrases": [],
+      "api_course_indices": [
+        {
+          "raw_year": 2024,
+          "raw_semester": 1,
+          "mapped_index_term": "2024秋",
+          "course_name_index": "古典诗词导读",
+          "course_code_index": "CHIN119001"
+        }
+      ],
+      "index_conflict_note": "API 2024/S1映射2024秋，与标题25秋冲突；并列保留。",
+      "used_post_date": false,
+      "used_base64_image": false
+    },
+    "4657": {
+      "review_id": 4657,
+      "source_url": "https://danke.fduhole.com/api/reviews/4657",
+      "batch_set": "new209",
+      "batch_file": "danke-0005.json",
+      "verified_course_codes": [
+        "GECC10004"
+      ],
+      "title": "这个是一个喜欢或者愿意努力就可以上的好课",
+      "reading_basis": "content",
+      "body_term_if_explicit": "2025秋季学期（正文首句）",
+      "body_claimed_calendar_terms": [
+        "2025秋"
+      ],
+      "body_term_precision": "single_term",
+      "body_term_scope": "author_course_period",
+      "relative_period_phrases": [],
+      "api_course_indices": [
+        {
+          "raw_year": 2024,
+          "raw_semester": 1,
+          "mapped_index_term": "2024秋",
+          "course_name_index": "古典诗词导读",
+          "course_code_index": "CHIN119001"
+        }
+      ],
+      "index_conflict_note": "API 2024/S1映射2024秋；作者还说这个上课时间没有对应选项。两项并列，不补充推因。",
+      "used_post_date": false,
+      "used_base64_image": false,
+      "additional_period_references": [
+        {
+          "phrase": "上课时间里没有的选项",
+          "scope": "作者对其自述2025秋学期的选项说明。"
+        }
+      ]
+    },
+    "204": {
+      "review_id": 204,
+      "source_url": "https://danke.fduhole.com/api/reviews/204",
+      "batch_set": "new209",
+      "batch_file": "danke-0006.json",
+      "verified_course_codes": [
+        "GECC10013"
+      ],
+      "title": "很有收获的一门课",
+      "reading_basis": "content",
+      "body_term_if_explicit": "2019-2020暑期学期（正文）",
+      "body_claimed_calendar_terms": [
+        "2019-2020暑期学期"
+      ],
+      "body_term_precision": "range_preserved",
+      "body_term_scope": "author_course_period",
+      "relative_period_phrases": [],
+      "api_course_indices": [
+        {
+          "raw_year": 2020,
+          "raw_semester": 1,
+          "mapped_index_term": "2020秋",
+          "course_name_index": "宋词导读",
+          "course_code_index": "CHIN119013"
+        }
+      ],
+      "index_conflict_note": "作者明确说实际修读2019-2020暑期，因无此选项而选20秋；API 2020/S1映射2020秋。保留实际期别与索引选择说明。",
+      "used_post_date": false,
+      "used_base64_image": false,
+      "additional_period_references": [
+        {
+          "phrase": "20秋",
+          "scope": "作者称因没有2019-2020暑期选项而选择20秋，不是实际修读期自述。"
+        }
+      ]
+    },
+    "6063": {
+      "review_id": 6063,
+      "source_url": "https://danke.fduhole.com/api/reviews/6063",
+      "batch_set": "new209",
+      "batch_file": "danke-0006.json",
+      "verified_course_codes": [
+        "GECC10013"
+      ],
+      "title": "神仙课",
+      "reading_basis": "content",
+      "body_term_if_explicit": "26春（正文首行）",
+      "body_claimed_calendar_terms": [
+        "2026春"
+      ],
+      "body_term_precision": "single_term",
+      "body_term_scope": "author_course_period",
+      "relative_period_phrases": [
+        "这学期"
+      ],
+      "api_course_indices": [
+        {
+          "raw_year": 2024,
+          "raw_semester": 3,
+          "mapped_index_term": "2025春",
+          "course_name_index": "宋词导读",
+          "course_code_index": "CHIN119013"
+        }
+      ],
+      "index_conflict_note": "API 2024/S3映射2025春，与正文26春冲突；并列保留，不据索引或发布日期判定实际学期。",
+      "used_post_date": false,
+      "used_base64_image": false
+    },
+    "1140": {
+      "review_id": 1140,
+      "source_url": "https://danke.fduhole.com/api/reviews/1140",
+      "batch_set": "new209",
+      "batch_file": "danke-0006.json",
+      "verified_course_codes": [
+        "GEEC10045"
+      ],
+      "title": "很温柔的老师",
+      "reading_basis": "content",
+      "body_term_if_explicit": "23秋上的（正文）",
+      "body_claimed_calendar_terms": [
+        "2023秋"
+      ],
+      "body_term_precision": "single_term",
+      "body_term_scope": "author_course_period",
+      "relative_period_phrases": [],
+      "api_course_indices": [
+        {
+          "raw_year": 2022,
+          "raw_semester": 1,
+          "mapped_index_term": "2022秋",
+          "course_name_index": "当代世界文学",
+          "course_code_index": "CHIN110009"
+        }
+      ],
+      "index_conflict_note": "API 2022/S1映射2022秋，与正文23秋冲突；并列保留。",
+      "used_post_date": false,
+      "used_base64_image": false
+    },
+    "3727": {
+      "review_id": 3727,
+      "source_url": "https://danke.fduhole.com/api/reviews/3727",
+      "batch_set": "new209",
+      "batch_file": "danke-0007.json",
+      "verified_course_codes": [
+        "GECC10026"
+      ],
+      "title": "如果为了兴趣值得冲，但是给分比较抽象",
+      "reading_basis": "content",
+      "body_term_if_explicit": "25年（学期未明）",
+      "body_claimed_calendar_terms": [
+        "2025年（季节未明）"
+      ],
+      "body_term_precision": "year_only",
+      "body_term_scope": "author_course_period",
+      "relative_period_phrases": [],
+      "api_course_indices": [
+        {
+          "raw_year": 2024,
+          "raw_semester": 3,
+          "mapped_index_term": "2025春",
+          "course_name_index": "游戏与文化",
+          "course_code_index": "CHIN119028"
+        }
+      ],
+      "index_conflict_note": "只说“25年这门课”而未给季节；API 2024/S3映射2025春，不据此补为春季。",
+      "used_post_date": false,
+      "used_base64_image": false
+    },
+    "855": {
+      "review_id": 855,
+      "source_url": "https://danke.fduhole.com/api/reviews/855",
+      "batch_set": "new209",
+      "batch_file": "danke-0007.json",
+      "verified_course_codes": [
+        "CHIN10003"
+      ],
+      "title": "冲！大好课！",
+      "reading_basis": "content",
+      "body_term_if_explicit": "22-23春季学期（正文首句）",
+      "body_claimed_calendar_terms": [
+        "22-23春季学期"
+      ],
+      "body_term_precision": "range_preserved",
+      "body_term_scope": "author_course_period",
+      "relative_period_phrases": [],
+      "api_course_indices": [
+        {
+          "raw_year": 2021,
+          "raw_semester": 3,
+          "mapped_index_term": "2022春",
+          "course_name_index": "现代文艺赏析",
+          "course_code_index": "CHIN120006"
+        }
+      ],
+      "index_conflict_note": "作者称22-23春且无对应选项；API 2021/S3映射2022春。范围和索引并列，保留作者说明，不再解释冲突。",
+      "used_post_date": false,
+      "used_base64_image": false,
+      "additional_period_references": [
+        {
+          "phrase": "🈚这个选项",
+          "scope": "作者称其所述22-23春没有对应选项。"
+        }
+      ]
+    },
+    "613": {
+      "review_id": 613,
+      "source_url": "https://danke.fduhole.com/api/reviews/613",
+      "batch_set": "new209",
+      "batch_file": "danke-0007.json",
+      "verified_course_codes": [
+        "CHIN20001"
+      ],
+      "title": "現漢czm 22-23秋",
+      "reading_basis": "title",
+      "body_term_if_explicit": "22-23秋（标题）",
+      "body_claimed_calendar_terms": [
+        "22-23秋"
+      ],
+      "body_term_precision": "range_preserved",
+      "body_term_scope": "author_course_period",
+      "relative_period_phrases": [],
+      "api_course_indices": [
+        {
+          "raw_year": 2022,
+          "raw_semester": 1,
+          "mapped_index_term": "2022秋",
+          "course_name_index": "现代汉语(上)",
+          "course_code_index": "CHIN130002"
+        }
+      ],
+      "index_conflict_note": "API 2022/S1映射2022秋；正文期别仍按22-23秋范围保留，不缩为其中单一学期。",
+      "used_post_date": false,
+      "used_base64_image": false
+    },
+    "5544": {
+      "review_id": 5544,
+      "source_url": "https://danke.fduhole.com/api/reviews/5544",
+      "batch_set": "new209",
+      "batch_file": "danke-0007.json",
+      "verified_course_codes": [
+        "CHIN20001"
+      ],
+      "title": "25秋课评",
+      "reading_basis": "title",
+      "body_term_if_explicit": "25秋课评（标题）",
+      "body_claimed_calendar_terms": [
+        "2025秋"
+      ],
+      "body_term_precision": "single_term",
+      "body_term_scope": "author_course_period",
+      "relative_period_phrases": [
+        "今年"
+      ],
+      "api_course_indices": [
+        {
+          "raw_year": 2024,
+          "raw_semester": 1,
+          "mapped_index_term": "2024秋",
+          "course_name_index": "现代汉语(上)",
+          "course_code_index": "CHIN130002"
+        }
+      ],
+      "index_conflict_note": "API 2024/S1映射2024秋，与标题25秋冲突；正文“今年”不换算。",
+      "used_post_date": false,
+      "used_base64_image": false
+    },
+    "1626": {
+      "review_id": 1626,
+      "source_url": "https://danke.fduhole.com/api/reviews/1626",
+      "batch_set": "new209",
+      "batch_file": "danke-0007.json",
+      "verified_course_codes": [
+        "CHIN20002"
+      ],
+      "title": "2023秋",
+      "reading_basis": "title",
+      "body_term_if_explicit": "2023秋（标题）",
+      "body_claimed_calendar_terms": [
+        "2023秋"
+      ],
+      "body_term_precision": "single_term",
+      "body_term_scope": "author_course_period",
+      "relative_period_phrases": [],
+      "api_course_indices": [
+        {
+          "raw_year": 2022,
+          "raw_semester": 3,
+          "mapped_index_term": "2023春",
+          "course_name_index": "现代汉语(下)",
+          "course_code_index": "CHIN130003"
+        }
+      ],
+      "index_conflict_note": "API 2022/S3映射2023春，与标题2023秋冲突；并列保留。",
+      "used_post_date": false,
+      "used_base64_image": false
+    },
+    "6771": {
+      "review_id": 6771,
+      "source_url": "https://danke.fduhole.com/api/reviews/6771",
+      "batch_set": "new209",
+      "batch_file": "danke-0007.json",
+      "verified_course_codes": [
+        "CHIN20002"
+      ],
+      "title": "妈妈",
+      "reading_basis": "content",
+      "body_term_if_explicit": "25-26春（正文括注）",
+      "body_claimed_calendar_terms": [
+        "25-26春"
+      ],
+      "body_term_precision": "range_preserved",
+      "body_term_scope": "author_course_period",
+      "relative_period_phrases": [
+        "往年"
+      ],
+      "api_course_indices": [
+        {
+          "raw_year": 2024,
+          "raw_semester": 3,
+          "mapped_index_term": "2025春",
+          "course_name_index": "现代汉语(下)",
+          "course_code_index": "CHIN130003"
+        }
+      ],
+      "index_conflict_note": "API 2024/S3映射2025春；正文范围保留，不推成2026春。",
+      "used_post_date": false,
+      "used_base64_image": false
+    },
+    "6158": {
+      "review_id": 6158,
+      "source_url": "https://danke.fduhole.com/api/reviews/6158",
+      "batch_set": "new209",
+      "batch_file": "danke-0007.json",
+      "verified_course_codes": [
+        "CHIN20002"
+      ],
+      "title": "其实是26春的sym现汉",
+      "reading_basis": "title",
+      "body_term_if_explicit": "26春（标题）",
+      "body_claimed_calendar_terms": [
+        "2026春"
+      ],
+      "body_term_precision": "single_term",
+      "body_term_scope": "author_course_period",
+      "relative_period_phrases": [],
+      "api_course_indices": [
+        {
+          "raw_year": 2024,
+          "raw_semester": 3,
+          "mapped_index_term": "2025春",
+          "course_name_index": "现代汉语(下)",
+          "course_code_index": "CHIN130003"
+        }
+      ],
+      "index_conflict_note": "API 2024/S3映射2025春，与标题26春冲突；并列保留。",
+      "used_post_date": false,
+      "used_base64_image": false
+    },
+    "6178": {
+      "review_id": 6178,
+      "source_url": "https://danke.fduhole.com/api/reviews/6178",
+      "batch_set": "new209",
+      "batch_file": "danke-0007.json",
+      "verified_course_codes": [
+        "CHIN20002"
+      ],
+      "title": "26春 能学到知识并且很有干货的课",
+      "reading_basis": "title+content",
+      "body_term_if_explicit": "26春（标题及正文）",
+      "body_claimed_calendar_terms": [
+        "2026春"
+      ],
+      "body_term_precision": "single_term",
+      "body_term_scope": "author_course_period",
+      "relative_period_phrases": [],
+      "api_course_indices": [
+        {
+          "raw_year": 2024,
+          "raw_semester": 3,
+          "mapped_index_term": "2025春",
+          "course_name_index": "现代汉语(下)",
+          "course_code_index": "CHIN130003"
+        }
+      ],
+      "index_conflict_note": "API 2024/S3映射2025春，与正文/标题26春冲突；并列保留。",
+      "used_post_date": false,
+      "used_base64_image": false
+    },
+    "934": {
+      "review_id": 934,
+      "source_url": "https://danke.fduhole.com/api/reviews/934",
+      "batch_set": "new209",
+      "batch_file": "danke-0008.json",
+      "verified_course_codes": [
+        "GECC10014"
+      ],
+      "title": "笔记要认真做呀",
+      "reading_basis": "content",
+      "body_term_if_explicit": "22-23第二学期（正文首句）",
+      "body_claimed_calendar_terms": [
+        "22-23第二学期"
+      ],
+      "body_term_precision": "range_preserved",
+      "body_term_scope": "author_course_period",
+      "relative_period_phrases": [],
+      "api_course_indices": [
+        {
+          "raw_year": 2021,
+          "raw_semester": 3,
+          "mapped_index_term": "2022春",
+          "course_name_index": "诗经与传统文化",
+          "course_code_index": "CHIN119014"
+        }
+      ],
+      "index_conflict_note": "API 2021/S3映射2022春；原文范围及学期编号保留，不推成单一公历春季。",
+      "used_post_date": false,
+      "used_base64_image": false
+    },
+    "888": {
+      "review_id": 888,
+      "source_url": "https://danke.fduhole.com/api/reviews/888",
+      "batch_set": "new209",
+      "batch_file": "danke-0008.json",
+      "verified_course_codes": [
+        "GECC10024"
+      ],
+      "title": "不推荐",
+      "reading_basis": "content",
+      "body_term_if_explicit": "2022-2023春季学期（正文末句）",
+      "body_claimed_calendar_terms": [
+        "2022-2023春季学期"
+      ],
+      "body_term_precision": "range_preserved",
+      "body_term_scope": "author_course_period",
+      "relative_period_phrases": [
+        "这学期"
+      ],
+      "api_course_indices": [
+        {
+          "raw_year": 2021,
+          "raw_semester": 3,
+          "mapped_index_term": "2022春",
+          "course_name_index": "陶渊明精读",
+          "course_code_index": "CHIN119026"
+        }
+      ],
+      "index_conflict_note": "API 2021/S3映射2022春；按正文范围保留，不缩成API单年期。",
+      "used_post_date": false,
+      "used_base64_image": false
+    },
+    "6057": {
+      "review_id": 6057,
+      "source_url": "https://danke.fduhole.com/api/reviews/6057",
+      "batch_set": "new209",
+      "batch_file": "danke-0009.json",
+      "verified_course_codes": [
+        "GECC10011"
+      ],
+      "title": "非常好！",
+      "reading_basis": "content",
+      "body_term_if_explicit": "26年春季学期（正文首句）",
+      "body_claimed_calendar_terms": [
+        "2026春"
+      ],
+      "body_term_precision": "single_term",
+      "body_term_scope": "author_course_period",
+      "relative_period_phrases": [
+        "今年（考试题目叙述）"
+      ],
+      "api_course_indices": [
+        {
+          "raw_year": 2021,
+          "raw_semester": 1,
+          "mapped_index_term": "2021秋",
+          "course_name_index": "鲁迅与中国现代文化",
+          "course_code_index": "CHIN119011"
+        }
+      ],
+      "index_conflict_note": "API 2021/S1映射2021秋，与正文26春冲突；并列保留。",
+      "used_post_date": false,
+      "used_base64_image": false
+    },
+    "6412": {
+      "review_id": 6412,
+      "source_url": "https://danke.fduhole.com/api/reviews/6412",
+      "batch_set": "new209",
+      "batch_file": "danke-0003.json",
+      "verified_course_codes": [
+        "CHIN10005"
+      ],
+      "title": "看似难度大其实水水的课",
+      "reading_basis": "content",
+      "body_term_if_explicit": "26年春（正文首句）",
+      "body_claimed_calendar_terms": [
+        "2026春"
+      ],
+      "body_term_precision": "single_term",
+      "body_term_scope": "author_course_period",
+      "relative_period_phrases": [],
+      "api_course_indices": [
+        {
+          "raw_year": 2024,
+          "raw_semester": 3,
+          "mapped_index_term": "2025春",
+          "course_name_index": "中国文学经典",
+          "course_code_index": "CHIN120012"
+        }
+      ],
+      "index_conflict_note": "API 2024/S3映射2025春，与正文26年春冲突；并列保留。",
+      "used_post_date": false,
+      "used_base64_image": false
+    },
+    "6725": {
+      "review_id": 6725,
+      "source_url": "https://danke.fduhole.com/api/reviews/6725",
+      "batch_set": "new209",
+      "batch_file": "danke-0007.json",
+      "verified_course_codes": [
+        "GECC10027"
+      ],
+      "title": "好课",
+      "reading_basis": "content",
+      "body_term_if_explicit": "26年春天（正文首句）",
+      "body_claimed_calendar_terms": [
+        "2026春"
+      ],
+      "body_term_precision": "single_term",
+      "body_term_scope": "author_course_period",
+      "relative_period_phrases": [],
+      "api_course_indices": [
+        {
+          "raw_year": 2024,
+          "raw_semester": 3,
+          "mapped_index_term": "2025春",
+          "course_name_index": "汉语方言与中国文化",
+          "course_code_index": "CHIN119029"
+        }
+      ],
+      "index_conflict_note": "API 2024/S3映射2025春；作者称26年春选择且无该选项，正文期别与索引并列。",
+      "used_post_date": false,
+      "used_base64_image": false
+    },
+    "856": {
+      "review_id": 856,
+      "source_url": "https://danke.fduhole.com/api/reviews/856",
+      "batch_set": "old30",
+      "batch_file": "danke-0001.json",
+      "verified_course_codes": [
+        "GECC10012"
+      ],
+      "title": "《史记》导读，可冲",
+      "reading_basis": "content",
+      "body_term_if_explicit": null,
+      "body_claimed_calendar_terms": [],
+      "relative_period_phrases": [
+        "本学期"
+      ],
+      "body_term_precision": "relative_or_stage_only",
+      "body_term_scope": "relative_reference_not_resolvable_to_calendar_term",
+      "api_course_indices": [
+        {
+          "raw_year": 2022,
+          "raw_semester": 1,
+          "mapped_index_term": "2022秋",
+          "course_name_index": "《史记》导读",
+          "course_code_index": "CHIN119012"
+        }
+      ],
+      "index_conflict_note": "个人修读期相对表述；无绝对年份/季节。",
+      "used_post_date": false,
+      "used_base64_image": false
+    },
+    "2508": {
+      "review_id": 2508,
+      "source_url": "https://danke.fduhole.com/api/reviews/2508",
+      "batch_set": "old30",
+      "batch_file": "danke-0001.json",
+      "verified_course_codes": [
+        "GECC10012"
+      ],
+      "title": "慎选！血泪的教训",
+      "reading_basis": "content",
+      "body_term_if_explicit": null,
+      "body_claimed_calendar_terms": [],
+      "relative_period_phrases": [
+        "今年"
+      ],
+      "body_term_precision": "relative_or_stage_only",
+      "body_term_scope": "relative_reference_not_resolvable_to_calendar_term",
+      "api_course_indices": [
+        {
+          "raw_year": 2024,
+          "raw_semester": 1,
+          "mapped_index_term": "2024秋",
+          "course_name_index": "《史记》导读",
+          "course_code_index": "CHIN119012"
+        }
+      ],
+      "index_conflict_note": "给分情况的相对年份；不从发帖日期换算。",
+      "used_post_date": false,
+      "used_base64_image": false
+    },
+    "6273": {
+      "review_id": 6273,
+      "source_url": "https://danke.fduhole.com/api/reviews/6273",
+      "batch_set": "old30",
+      "batch_file": "danke-0001.json",
+      "verified_course_codes": [
+        "GECC10012"
+      ],
+      "title": "慎选就是别选！",
+      "reading_basis": "content",
+      "body_term_if_explicit": null,
+      "body_claimed_calendar_terms": [],
+      "relative_period_phrases": [
+        "第一学期"
+      ],
+      "body_term_precision": "relative_or_stage_only",
+      "body_term_scope": "relative_reference_not_resolvable_to_calendar_term",
+      "api_course_indices": [
+        {
+          "raw_year": 2024,
+          "raw_semester": 1,
+          "mapped_index_term": "2024秋",
+          "course_name_index": "《史记》导读",
+          "course_code_index": "CHIN119012"
+        }
+      ],
+      "index_conflict_note": "作者称初入复旦的第一学期修读；没有公历年份。",
+      "used_post_date": false,
+      "used_base64_image": false
+    },
+    "2445": {
+      "review_id": 2445,
+      "source_url": "https://danke.fduhole.com/api/reviews/2445",
+      "batch_set": "old30",
+      "batch_file": "danke-0001.json",
+      "verified_course_codes": [
+        "GECC10006"
+      ],
+      "title": "课水事多",
+      "reading_basis": "content",
+      "body_term_if_explicit": null,
+      "body_claimed_calendar_terms": [],
+      "relative_period_phrases": [
+        "这学期"
+      ],
+      "body_term_precision": "relative_or_stage_only",
+      "body_term_scope": "relative_reference_not_resolvable_to_calendar_term",
+      "api_course_indices": [
+        {
+          "raw_year": 2024,
+          "raw_semester": 1,
+          "mapped_index_term": "2024秋",
+          "course_name_index": "《周易》与中华审美文化",
+          "course_code_index": "CHIN119003"
+        }
+      ],
+      "index_conflict_note": "课程安排的相对期别；没有绝对年份。",
+      "used_post_date": false,
+      "used_base64_image": false
+    },
+    "3550": {
+      "review_id": 3550,
+      "source_url": "https://danke.fduhole.com/api/reviews/3550",
+      "batch_set": "new209",
+      "batch_file": "danke-0001.json",
+      "verified_course_codes": [
+        "GECC10015"
+      ],
+      "title": "喜欢的人喜欢 不喜欢的很痛苦",
+      "reading_basis": "content",
+      "body_term_if_explicit": null,
+      "body_claimed_calendar_terms": [],
+      "relative_period_phrases": [
+        "这学期",
+        "往年"
+      ],
+      "body_term_precision": "relative_or_stage_only",
+      "body_term_scope": "relative_reference_not_resolvable_to_calendar_term",
+      "api_course_indices": [
+        {
+          "raw_year": 2024,
+          "raw_semester": 3,
+          "mapped_index_term": "2025春",
+          "course_name_index": "《红楼梦》与人生",
+          "course_code_index": "CHIN119016"
+        }
+      ],
+      "index_conflict_note": "比较本学期与往年形式；未给绝对期别。",
+      "used_post_date": false,
+      "used_base64_image": false
+    },
+    "4276": {
+      "review_id": 4276,
+      "source_url": "https://danke.fduhole.com/api/reviews/4276",
+      "batch_set": "new209",
+      "batch_file": "danke-0001.json",
+      "verified_course_codes": [
+        "GECC10015"
+      ],
+      "title": "最好是喜欢《红楼梦》",
+      "reading_basis": "content",
+      "body_term_if_explicit": null,
+      "body_claimed_calendar_terms": [],
+      "relative_period_phrases": [
+        "本学期",
+        "下个学期"
+      ],
+      "body_term_precision": "relative_or_stage_only",
+      "body_term_scope": "relative_reference_not_resolvable_to_calendar_term",
+      "api_course_indices": [
+        {
+          "raw_year": 2024,
+          "raw_semester": 3,
+          "mapped_index_term": "2025春",
+          "course_name_index": "《红楼梦》与人生",
+          "course_code_index": "CHIN119016"
+        }
+      ],
+      "index_conflict_note": "本学期课程内容和老师称会延续至下学期；无具体年份。",
+      "used_post_date": false,
+      "used_base64_image": false
+    },
+    "325": {
+      "review_id": 325,
+      "source_url": "https://danke.fduhole.com/api/reviews/325",
+      "batch_set": "new209",
+      "batch_file": "danke-0001.json",
+      "verified_course_codes": [
+        "GECC10019"
+      ],
+      "title": "中规中矩的二模课",
+      "reading_basis": "content",
+      "body_term_if_explicit": null,
+      "body_claimed_calendar_terms": [],
+      "relative_period_phrases": [
+        "大一上",
+        "这学期"
+      ],
+      "body_term_precision": "relative_or_stage_only",
+      "body_term_scope": "relative_reference_not_resolvable_to_calendar_term",
+      "api_course_indices": [
+        {
+          "raw_year": 2022,
+          "raw_semester": 1,
+          "mapped_index_term": "2022秋",
+          "course_name_index": "《艺术即经验》导读",
+          "course_code_index": "CHIN119020"
+        }
+      ],
+      "index_conflict_note": "大一上阶段的课程经历，学年未知。",
+      "used_post_date": false,
+      "used_base64_image": false
+    },
+    "2672": {
+      "review_id": 2672,
+      "source_url": "https://danke.fduhole.com/api/reviews/2672",
+      "batch_set": "new209",
+      "batch_file": "danke-0001.json",
+      "verified_course_codes": [
+        "GECC10019"
+      ],
+      "title": "好课，可能有点硬",
+      "reading_basis": "content",
+      "body_term_if_explicit": null,
+      "body_claimed_calendar_terms": [],
+      "relative_period_phrases": [
+        "今年"
+      ],
+      "body_term_precision": "relative_or_stage_only",
+      "body_term_scope": "relative_reference_not_resolvable_to_calendar_term",
+      "api_course_indices": [
+        {
+          "raw_year": 2024,
+          "raw_semester": 1,
+          "mapped_index_term": "2024秋",
+          "course_name_index": "《艺术即经验》导读",
+          "course_code_index": "CHIN119020"
+        }
+      ],
+      "index_conflict_note": "期末考题的相对年份；无绝对年份/学期。",
+      "used_post_date": false,
+      "used_base64_image": false
+    },
+    "4987": {
+      "review_id": 4987,
+      "source_url": "https://danke.fduhole.com/api/reviews/4987",
+      "batch_set": "new209",
+      "batch_file": "danke-0001.json",
+      "verified_course_codes": [
+        "GECC10019"
+      ],
+      "title": "25秋 客观评价",
+      "reading_basis": "content",
+      "body_term_if_explicit": null,
+      "body_claimed_calendar_terms": [],
+      "relative_period_phrases": [
+        "今年"
+      ],
+      "body_term_precision": "relative_or_stage_only",
+      "body_term_scope": "relative_reference_not_resolvable_to_calendar_term",
+      "api_course_indices": [
+        {
+          "raw_year": 2024,
+          "raw_semester": 1,
+          "mapped_index_term": "2024秋",
+          "course_name_index": "《艺术即经验》导读",
+          "course_code_index": "CHIN119020"
+        }
+      ],
+      "index_conflict_note": "考试主题的相对年份；标题另有25秋绝对期别。",
+      "used_post_date": false,
+      "used_base64_image": false
+    },
+    "362": {
+      "review_id": 362,
+      "source_url": "https://danke.fduhole.com/api/reviews/362",
+      "batch_set": "new209",
+      "batch_file": "danke-0001.json",
+      "verified_course_codes": [
+        "CHIN20005"
+      ],
+      "title": "特特特！",
+      "reading_basis": "content",
+      "body_term_if_explicit": null,
+      "body_claimed_calendar_terms": [],
+      "relative_period_phrases": [
+        "下学期"
+      ],
+      "body_term_precision": "relative_or_stage_only",
+      "body_term_scope": "relative_reference_not_resolvable_to_calendar_term",
+      "api_course_indices": [
+        {
+          "raw_year": 2022,
+          "raw_semester": 1,
+          "mapped_index_term": "2022秋",
+          "course_name_index": "中国古代文学史(上)",
+          "course_code_index": "CHIN130006"
+        }
+      ],
+      "index_conflict_note": "结尾“下学期见”不足以确定本条评价的修读期。",
+      "used_post_date": false,
+      "used_base64_image": false
+    },
+    "5803": {
+      "review_id": 5803,
+      "source_url": "https://danke.fduhole.com/api/reviews/5803",
+      "batch_set": "new209",
+      "batch_file": "danke-0001.json",
+      "verified_course_codes": [
+        "CHIN20005"
+      ],
+      "title": "给我大一上留下心理阴影的一门课",
+      "reading_basis": "title+content",
+      "body_term_if_explicit": null,
+      "body_claimed_calendar_terms": [],
+      "relative_period_phrases": [
+        "大一上"
+      ],
+      "body_term_precision": "relative_or_stage_only",
+      "body_term_scope": "relative_reference_not_resolvable_to_calendar_term",
+      "api_course_indices": [
+        {
+          "raw_year": 2020,
+          "raw_semester": 1,
+          "mapped_index_term": "2020秋",
+          "course_name_index": "中国古代文学史(上)",
+          "course_code_index": "CHIN130006"
+        }
+      ],
+      "index_conflict_note": "标题描述年级/学期阶段，不含公历年份。",
+      "used_post_date": false,
+      "used_base64_image": false
+    },
+    "4237": {
+      "review_id": 4237,
+      "source_url": "https://danke.fduhole.com/api/reviews/4237",
+      "batch_set": "new209",
+      "batch_file": "danke-0001.json",
+      "verified_course_codes": [
+        "CHIN20006"
+      ],
+      "title": "累并快乐",
+      "reading_basis": "content",
+      "body_term_if_explicit": null,
+      "body_claimed_calendar_terms": [],
+      "relative_period_phrases": [
+        "上学期",
+        "今年"
+      ],
+      "body_term_precision": "relative_or_stage_only",
+      "body_term_scope": "relative_reference_not_resolvable_to_calendar_term",
+      "api_course_indices": [
+        {
+          "raw_year": 2024,
+          "raw_semester": 3,
+          "mapped_index_term": "2025春",
+          "course_name_index": "中国古代文学史(中)",
+          "course_code_index": "CHIN130007"
+        }
+      ],
+      "index_conflict_note": "上学期以来及今年题目回忆；不形成绝对修读期。",
+      "used_post_date": false,
+      "used_base64_image": false
+    },
+    "3901": {
+      "review_id": 3901,
+      "source_url": "https://danke.fduhole.com/api/reviews/3901",
+      "batch_set": "new209",
+      "batch_file": "danke-0002.json",
+      "verified_course_codes": [
+        "CHIN10001"
+      ],
+      "title": "真的很值得",
+      "reading_basis": "content",
+      "body_term_if_explicit": null,
+      "body_claimed_calendar_terms": [],
+      "relative_period_phrases": [
+        "上学期",
+        "本学期"
+      ],
+      "body_term_precision": "relative_or_stage_only",
+      "body_term_scope": "relative_reference_not_resolvable_to_calendar_term",
+      "api_course_indices": [
+        {
+          "raw_year": 2024,
+          "raw_semester": 1,
+          "mapped_index_term": "2024秋",
+          "course_name_index": "中国文学传统",
+          "course_code_index": "CHIN120002"
+        }
+      ],
+      "index_conflict_note": "隔一学期回写上学期课程，并提及本学期；相对表述。",
+      "used_post_date": false,
+      "used_base64_image": false
+    },
+    "2874": {
+      "review_id": 2874,
+      "source_url": "https://danke.fduhole.com/api/reviews/2874",
+      "batch_set": "new209",
+      "batch_file": "danke-0002.json",
+      "verified_course_codes": [
+        "CHIN10005"
+      ],
+      "title": "要上文经课的小朋友们好啊，你们往哪里逃（）",
+      "reading_basis": "content",
+      "body_term_if_explicit": null,
+      "body_claimed_calendar_terms": [],
+      "relative_period_phrases": [
+        "本学期"
+      ],
+      "body_term_precision": "relative_or_stage_only",
+      "body_term_scope": "relative_reference_not_resolvable_to_calendar_term",
+      "api_course_indices": [
+        {
+          "raw_year": 2024,
+          "raw_semester": 1,
+          "mapped_index_term": "2024秋",
+          "course_name_index": "中国文学经典",
+          "course_code_index": "CHIN120012"
+        }
+      ],
+      "index_conflict_note": "本人以本学期描述课程体验；无绝对年份。",
+      "used_post_date": false,
+      "used_base64_image": false
+    },
+    "5622": {
+      "review_id": 5622,
+      "source_url": "https://danke.fduhole.com/api/reviews/5622",
+      "batch_set": "new209",
+      "batch_file": "danke-0003.json",
+      "verified_course_codes": [
+        "CHIN10005"
+      ],
+      "title": "水课",
+      "reading_basis": "content",
+      "body_term_if_explicit": null,
+      "body_claimed_calendar_terms": [],
+      "relative_period_phrases": [
+        "本学期",
+        "这学期"
+      ],
+      "body_term_precision": "relative_or_stage_only",
+      "body_term_scope": "relative_reference_not_resolvable_to_calendar_term",
+      "api_course_indices": [
+        {
+          "raw_year": 2025,
+          "raw_semester": 1,
+          "mapped_index_term": "2025秋",
+          "course_name_index": "中国文学经典",
+          "course_code_index": "CHIN10005"
+        }
+      ],
+      "index_conflict_note": "相对期别；无公历时间。",
+      "used_post_date": false,
+      "used_base64_image": false
+    },
+    "2547": {
+      "review_id": 2547,
+      "source_url": "https://danke.fduhole.com/api/reviews/2547",
+      "batch_set": "new209",
+      "batch_file": "danke-0004.json",
+      "verified_course_codes": [
+        "GECC10022"
+      ],
+      "title": "有趣能学到很多",
+      "reading_basis": "content",
+      "body_term_if_explicit": null,
+      "body_claimed_calendar_terms": [],
+      "relative_period_phrases": [
+        "今年"
+      ],
+      "body_term_precision": "relative_or_stage_only",
+      "body_term_scope": "relative_reference_not_resolvable_to_calendar_term",
+      "api_course_indices": [
+        {
+          "raw_year": 2024,
+          "raw_semester": 1,
+          "mapped_index_term": "2024秋",
+          "course_name_index": "中国现代文学名著选讲",
+          "course_code_index": "CHIN119024"
+        }
+      ],
+      "index_conflict_note": "给分传闻的相对年份；不从发布日期补年。",
+      "used_post_date": false,
+      "used_base64_image": false
+    },
+    "653": {
+      "review_id": 653,
+      "source_url": "https://danke.fduhole.com/api/reviews/653",
+      "batch_set": "new209",
+      "batch_file": "danke-0004.json",
+      "verified_course_codes": [
+        "CHIN20024"
+      ],
+      "title": "L",
+      "reading_basis": "content",
+      "body_term_if_explicit": null,
+      "body_claimed_calendar_terms": [],
+      "relative_period_phrases": [
+        "这学期"
+      ],
+      "body_term_precision": "relative_or_stage_only",
+      "body_term_scope": "relative_reference_not_resolvable_to_calendar_term",
+      "api_course_indices": [
+        {
+          "raw_year": 2022,
+          "raw_semester": 1,
+          "mapped_index_term": "2022秋",
+          "course_name_index": "古代汉语（上）",
+          "course_code_index": "CHIN130226"
+        }
+      ],
+      "index_conflict_note": "修读期为相对说法；无绝对年份/季节。",
+      "used_post_date": false,
+      "used_base64_image": false
+    },
+    "54": {
+      "review_id": 54,
+      "source_url": "https://danke.fduhole.com/api/reviews/54",
+      "batch_set": "new209",
+      "batch_file": "danke-0006.json",
+      "verified_course_codes": [
+        "GECC10013"
+      ],
+      "title": "宋词导读推荐",
+      "reading_basis": "content",
+      "body_term_if_explicit": null,
+      "body_claimed_calendar_terms": [],
+      "relative_period_phrases": [
+        "本学期"
+      ],
+      "body_term_precision": "relative_or_stage_only",
+      "body_term_scope": "relative_reference_not_resolvable_to_calendar_term",
+      "api_course_indices": [
+        {
+          "raw_year": 2021,
+          "raw_semester": 3,
+          "mapped_index_term": "2022春",
+          "course_name_index": "宋词导读",
+          "course_code_index": "CHIN119013"
+        }
+      ],
+      "index_conflict_note": "正文提到本学期因疫情改线上开卷；未写绝对年份。",
+      "used_post_date": false,
+      "used_base64_image": false
+    },
+    "1606": {
+      "review_id": 1606,
+      "source_url": "https://danke.fduhole.com/api/reviews/1606",
+      "batch_set": "new209",
+      "batch_file": "danke-0007.json",
+      "verified_course_codes": [
+        "GECC10026"
+      ],
+      "title": "会玩",
+      "reading_basis": "content",
+      "body_term_if_explicit": null,
+      "body_claimed_calendar_terms": [],
+      "relative_period_phrases": [
+        "本学期",
+        "前一年"
+      ],
+      "body_term_precision": "relative_or_stage_only",
+      "body_term_scope": "relative_reference_not_resolvable_to_calendar_term",
+      "api_course_indices": [
+        {
+          "raw_year": 2023,
+          "raw_semester": 1,
+          "mapped_index_term": "2023秋",
+          "course_name_index": "游戏与文化",
+          "course_code_index": "CHIN119028"
+        }
+      ],
+      "index_conflict_note": "比较本学期和前一年课评；无绝对期别。",
+      "used_post_date": false,
+      "used_base64_image": false
+    },
+    "165": {
+      "review_id": 165,
+      "source_url": "https://danke.fduhole.com/api/reviews/165",
+      "batch_set": "new209",
+      "batch_file": "danke-0008.json",
+      "verified_course_codes": [
+        "GECC10014"
+      ],
+      "title": "诗经可以的好听",
+      "reading_basis": "content",
+      "body_term_if_explicit": null,
+      "body_claimed_calendar_terms": [],
+      "relative_period_phrases": [
+        "今年",
+        "明年"
+      ],
+      "body_term_precision": "relative_or_stage_only",
+      "body_term_scope": "relative_reference_not_resolvable_to_calendar_term",
+      "api_course_indices": [
+        {
+          "raw_year": 2021,
+          "raw_semester": 3,
+          "mapped_index_term": "2022春",
+          "course_name_index": "诗经与传统文化",
+          "course_code_index": "CHIN119014"
+        }
+      ],
+      "index_conflict_note": "疫情调整考试及“明年”题库都是相对说法。",
+      "used_post_date": false,
+      "used_base64_image": false
+    },
+    "5796": {
+      "review_id": 5796,
+      "source_url": "https://danke.fduhole.com/api/reviews/5796",
+      "batch_set": "new209",
+      "batch_file": "danke-0007.json",
+      "verified_course_codes": [
+        "CHIN40046"
+      ],
+      "title": "很好",
+      "reading_basis": "content",
+      "body_term_if_explicit": null,
+      "body_claimed_calendar_terms": [],
+      "relative_period_phrases": [
+        "这学期"
+      ],
+      "body_term_precision": "relative_or_stage_only",
+      "body_term_scope": "relative_reference_not_resolvable_to_calendar_term",
+      "api_course_indices": [
+        {
+          "raw_year": 2024,
+          "raw_semester": 1,
+          "mapped_index_term": "2024秋",
+          "course_name_index": "现代语言学",
+          "course_code_index": "CHIN130209"
+        }
+      ],
+      "index_conflict_note": "提到本学期期中/期末；未给绝对修读时间。",
+      "used_post_date": false,
+      "used_base64_image": false
+    },
+    "2845": {
+      "review_id": 2845,
+      "source_url": "https://danke.fduhole.com/api/reviews/2845",
+      "batch_set": "new209",
+      "batch_file": "danke-0008.json",
+      "verified_course_codes": [
+        "GECC10024"
+      ],
+      "title": "大家千万不要放过这门好课",
+      "reading_basis": "content",
+      "body_term_if_explicit": null,
+      "body_claimed_calendar_terms": [],
+      "relative_period_phrases": [
+        "今年"
+      ],
+      "body_term_precision": "relative_or_stage_only",
+      "body_term_scope": "relative_reference_not_resolvable_to_calendar_term",
+      "api_course_indices": [
+        {
+          "raw_year": 2024,
+          "raw_semester": 1,
+          "mapped_index_term": "2024秋",
+          "course_name_index": "陶渊明精读",
+          "course_code_index": "CHIN119026"
+        }
+      ],
+      "index_conflict_note": "今年考试的相对回忆；无绝对年/学期。",
+      "used_post_date": false,
+      "used_base64_image": false
+    },
+    "3638": {
+      "review_id": 3638,
+      "source_url": "https://danke.fduhole.com/api/reviews/3638",
+      "batch_set": "new209",
+      "batch_file": "danke-0009.json",
+      "verified_course_codes": [
+        "GECC10024"
+      ],
+      "title": "逆天，怎么搞的",
+      "reading_basis": "content",
+      "body_term_if_explicit": null,
+      "body_claimed_calendar_terms": [],
+      "relative_period_phrases": [
+        "这学期"
+      ],
+      "body_term_precision": "relative_or_stage_only",
+      "body_term_scope": "relative_reference_not_resolvable_to_calendar_term",
+      "api_course_indices": [
+        {
+          "raw_year": 2024,
+          "raw_semester": 3,
+          "mapped_index_term": "2025春",
+          "course_name_index": "陶渊明精读",
+          "course_code_index": "CHIN119026"
+        }
+      ],
+      "index_conflict_note": "提到本学期成绩现象；未给绝对年份。",
+      "used_post_date": false,
+      "used_base64_image": false
+    }
+  },
+  "reference_only_notes": {
+    "523": {
+      "review_id": 523,
+      "source_url": "https://danke.fduhole.com/api/reviews/523",
+      "batch_set": "new209",
+      "batch_file": "danke-0002.json",
+      "verified_course_codes": [
+        "CHIN10005"
+      ],
+      "title": "zjy文经",
+      "body_term_if_explicit": null,
+      "body_claimed_calendar_terms": [],
+      "reference_time_phrases": [
+        "21-22秋季"
+      ],
+      "reference_scope": "引述学长/姐旧评的时间，不是作者本人修读期。",
+      "note": "保留为被引历史版本，不填入作者本人body_claimed_calendar_terms。",
+      "api_course_indices": [
+        {
+          "raw_year": 2022,
+          "raw_semester": 1,
+          "mapped_index_term": "2022秋",
+          "course_name_index": "中国文学经典",
+          "course_code_index": "CHIN120012"
+        }
+      ],
+      "used_post_date": false,
+      "used_base64_image": false
+    },
+    "4096": {
+      "review_id": 4096,
+      "source_url": "https://danke.fduhole.com/api/reviews/4096",
+      "batch_set": "new209",
+      "batch_file": "danke-0007.json",
+      "verified_course_codes": [
+        "GECC10027"
+      ],
+      "title": "文化内容多，语言学内容少",
+      "body_term_if_explicit": null,
+      "body_claimed_calendar_terms": [],
+      "reference_time_phrases": [
+        "23年第一次开课",
+        "下学期会不会开课"
+      ],
+      "reference_scope": "课程首次开课及未来开课询问，不表示作者本人修读学期。",
+      "note": "不据此推定作者实际修课期。",
+      "api_course_indices": [
+        {
+          "raw_year": 2024,
+          "raw_semester": 3,
+          "mapped_index_term": "2025春",
+          "course_name_index": "汉语方言与中国文化",
+          "course_code_index": "CHIN119029"
+        }
+      ],
+      "used_post_date": false,
+      "used_base64_image": false
+    },
+    "1268": {
+      "review_id": 1268,
+      "source_url": "https://danke.fduhole.com/api/reviews/1268",
+      "batch_set": "new209",
+      "batch_file": "danke-0005.json",
+      "verified_course_codes": [
+        "GECC10004"
+      ],
+      "title": "很硬的好课",
+      "body_term_if_explicit": null,
+      "body_claimed_calendar_terms": [],
+      "reference_time_phrases": [
+        "21年变化很大"
+      ],
+      "reference_scope": "考试题型变化年份，不是作者本人修读学期。",
+      "note": "不填入本人body_claimed_calendar_terms。",
+      "api_course_indices": [
+        {
+          "raw_year": 2023,
+          "raw_semester": 1,
+          "mapped_index_term": "2023秋",
+          "course_name_index": "古典诗词导读",
+          "course_code_index": "CHIN119001"
+        }
+      ],
+      "used_post_date": false,
+      "used_base64_image": false
+    },
+    "476": {
+      "review_id": 476,
+      "source_url": "https://danke.fduhole.com/api/reviews/476",
+      "batch_set": "new209",
+      "batch_file": "danke-0007.json",
+      "verified_course_codes": [
+        "GECC10026"
+      ],
+      "title": "支持讨论游戏的课，但与五次pre势不两立",
+      "body_term_if_explicit": null,
+      "body_claimed_calendar_terms": [],
+      "reference_time_phrases": [
+        "去年初"
+      ],
+      "reference_scope": "指作者了解游戏活动的时间，与此课修读期无关。",
+      "note": "不是课程期别。",
+      "api_course_indices": [
+        {
+          "raw_year": 2022,
+          "raw_semester": 1,
+          "mapped_index_term": "2022秋",
+          "course_name_index": "游戏与文化",
+          "course_code_index": "CHIN119028"
+        }
+      ],
+      "used_post_date": false,
+      "used_base64_image": false
+    }
+  },
+  "unresolved_course_codes_policy": "保留批次原verified_course_codes；不按标题或学期补填未知课号。",
+  "unverified_rows_preserved": [
+    {
+      "review_id": 2109,
+      "batch_set": "new209",
+      "batch_file": "danke-0009.json",
+      "verified_course_codes": [],
+      "calendar_screening_status": "not selected by readable title/body calendar-term filter",
+      "course_code_action": "left unresolved; no course code inferred"
+    },
+    {
+      "review_id": 5688,
+      "batch_set": "new209",
+      "batch_file": "danke-0009.json",
+      "verified_course_codes": [],
+      "calendar_screening_status": "not selected by readable title/body calendar-term filter",
+      "course_code_action": "left unresolved; no course code inferred"
+    }
+  ]
+}

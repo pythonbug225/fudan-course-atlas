@@ -1,0 +1,234 @@
+{
+  "checked_date": "2026-10-27",
+  "network_probe": {
+    "credential_free": true,
+    "query_marker": "codex_connectivity_probe_20261027",
+    "results": [
+      {
+        "host": "forum.fduhole.com",
+        "dns_a": [
+          "10.107.13.152"
+        ],
+        "request": "GET /api/floors/search?search=codex_connectivity_probe_20261027&size=1&offset=0",
+        "http_status": "000",
+        "transport_result": "TCP connection timeout after 12 seconds",
+        "interpretation": "No HTTP response; this is not an observed 401 or API-level rejection."
+      },
+      {
+        "host": "danke.fduhole.com",
+        "dns_a": [
+          "10.107.13.152"
+        ],
+        "request": "GET /api/v3/course_groups/search?query=codex_connectivity_probe_20261027&page=1&page_size=1",
+        "http_status": "000",
+        "transport_result": "TCP connection timeout after 12 seconds",
+        "interpretation": "No HTTP response; this is not an observed 401 or API-level rejection."
+      }
+    ]
+  },
+  "source_revisions": {
+    "treehole_next_main": "a25d1a4828dccb31d882a3b16da118d9a6cbccc7",
+    "backend_main": "ced0889294b8725eb9396e0018a8e942a10f63be",
+    "danxi_main": "3c1f5f026fbc7ca50e151865f813cdb381807abe",
+    "go_common_tag_v0.1.7_commit": "ec1a2480dd842d6b6783f4971390d9dc13acb7b4"
+  },
+  "treehole": {
+    "base_url": "https://forum.fduhole.com/api",
+    "auth": "Authorization: Bearer <ACCESS_TOKEN>; source also accepts access cookie",
+    "search": {
+      "method": "GET",
+      "path": "/floors/search",
+      "query": {
+        "search": "required string",
+        "size": "integer >=0, default 10; client cap 100",
+        "offset": "integer >=0, default 0; row offset",
+        "accurate": "boolean, default false",
+        "start_time": "optional int64 Unix seconds; ES updated_at gte, SQL fallback created_at gte",
+        "end_time": "optional int64 Unix seconds; ES updated_at lte, SQL fallback created_at lte"
+      },
+      "response": "JSON array of Floor; ES results may add highlighted_content; no total/page metadata"
+    },
+    "hole_detail": {
+      "method": "GET",
+      "path": "/holes/{id}",
+      "response": "Hole object"
+    },
+    "hole_floors": {
+      "method": "GET",
+      "path": "/holes/{id}/floors",
+      "query": {
+        "size": "integer >=0, default 30; 0 means no SQL LIMIT",
+        "offset": "integer >=0, default 0",
+        "sort": "asc|desc, default asc",
+        "order_by": "id|like, default id"
+      },
+      "response": "JSON array of Floor"
+    },
+    "floor_detail": {
+      "method": "GET",
+      "path": "/floors/{id}",
+      "response": "Floor object"
+    },
+    "floor_keys": [
+      "id",
+      "time_created",
+      "time_updated",
+      "content",
+      "anonyname",
+      "ranking",
+      "reply_to",
+      "like",
+      "dislike",
+      "deleted",
+      "modified",
+      "fold_v2",
+      "special_tag",
+      "is_sensitive",
+      "is_actual_sensitive",
+      "sensitive_detail",
+      "hole_id",
+      "floor_id",
+      "fold",
+      "liked",
+      "disliked",
+      "is_me",
+      "mention"
+    ],
+    "hole_keys": [
+      "id",
+      "hole_id",
+      "division_id",
+      "floors",
+      "reply",
+      "tags",
+      "hidden",
+      "locked",
+      "frozen",
+      "view",
+      "favorite_count",
+      "subscription_count",
+      "time_created",
+      "time_updated",
+      "time_deleted",
+      "no_purge",
+      "good",
+      "ai_summary_available"
+    ]
+  },
+  "danke": {
+    "base_url": "https://danke.fduhole.com/api",
+    "auth": "Authorization: Bearer <ACCESS_TOKEN>; source also accepts access cookie",
+    "search_groups": {
+      "method": "GET",
+      "path": "/v3/course_groups/search",
+      "query": {
+        "query": "required string",
+        "page": "integer >=0; client starts at 1",
+        "page_size": "integer 0..100; client uses 1..100"
+      },
+      "response_keys": [
+        "items",
+        "page",
+        "page_size",
+        "extra"
+      ]
+    },
+    "group_detail": {
+      "method": "GET",
+      "path": "/v3/course_groups/{id}",
+      "response_keys": [
+        "id",
+        "name",
+        "code",
+        "credits",
+        "department",
+        "campus_name",
+        "course_count",
+        "review_count",
+        "course_list"
+      ]
+    },
+    "course_reviews": {
+      "method": "GET",
+      "path": "/courses/{id}/reviews",
+      "response": "JSON array of ReviewV1Response; no pagination parameters"
+    },
+    "review_detail": {
+      "method": "GET",
+      "path": "/reviews/{id}",
+      "response_keys": [
+        "id",
+        "time_created",
+        "time_updated",
+        "title",
+        "content",
+        "reviewer_id",
+        "rank",
+        "remark",
+        "vote",
+        "is_me",
+        "history",
+        "extra"
+      ]
+    },
+    "course_keys": [
+      "id",
+      "name",
+      "code",
+      "code_id",
+      "credit",
+      "department",
+      "campus_name",
+      "max_student",
+      "week_hour",
+      "semester",
+      "year",
+      "teachers",
+      "review_list"
+    ],
+    "review_nested_keys": {
+      "rank": [
+        "assessment",
+        "content",
+        "overall",
+        "workload"
+      ],
+      "extra": {
+        "achievements": [
+          "domain",
+          "name",
+          "obtain_date"
+        ]
+      },
+      "history": {
+        "items": [
+          "time",
+          "alter_by",
+          "original"
+        ],
+        "original": [
+          "title",
+          "content",
+          "rank",
+          "remark",
+          "reviewer_id",
+          "time_created",
+          "time_updated"
+        ]
+      }
+    }
+  },
+  "client_policy": {
+    "method": "GET only",
+    "sequential": true,
+    "default_request_interval_seconds": 0.5,
+    "default_page_size": 30,
+    "default_max_pages": 10,
+    "dedupe_key": "id",
+    "credentials": "Read only TREEHOLE_ACCESS_TOKEN and DANKE_ACCESS_TOKEN when the caller invokes a request; never read browser cookies or local credential stores.",
+    "live_authenticated_request_performed": false,
+    "private_review_or_treehole_rows_collected": 0
+  },
+  "audit_scope": "公开源码与初期匿名连通性探测；后续登录读取状态另见上级实时接口研究状态.json",
+  "current_runtime_status_reference": "../实时接口研究状态.json"
+}

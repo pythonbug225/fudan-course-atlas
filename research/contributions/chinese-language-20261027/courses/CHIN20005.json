@@ -1,0 +1,1754 @@
+{
+  "schema_version": 1,
+  "course": {
+    "code": "CHIN20005",
+    "name": "中国古代文学史(上)",
+    "department": "中国语言文学系",
+    "credits": 2,
+    "term": "2025秋",
+    "teachers": [
+      "陈特",
+      "汪习波"
+    ],
+    "section_code": null,
+    "class_type": "ordinary",
+    "course_type_code": null,
+    "program_year": null,
+    "program_names": [],
+    "required_or_elective": null
+  },
+  "aliases": {
+    "course_names": [
+      {
+        "value": "中国古代文学史上",
+        "kind": "course_name_alias",
+        "status": "query_candidate",
+        "source_url": null,
+        "evidence_id": null,
+        "limitation": "仅机械去书名号/册别生成，不能视为真实俗称"
+      },
+      {
+        "value": "中国古代文学史",
+        "kind": "course_name_alias",
+        "status": "query_candidate",
+        "source_url": null,
+        "evidence_id": null,
+        "limitation": "仅机械去书名号/册别生成，不能视为真实俗称"
+      }
+    ],
+    "teacher_names_or_pinyin": [
+      {
+        "teacher": "陈特",
+        "value": "陈特",
+        "kind": "canonical_name",
+        "status": "official_target_name"
+      },
+      {
+        "teacher": "陈特",
+        "value": "chente",
+        "kind": "full_joined",
+        "status": "generated_query_candidate"
+      },
+      {
+        "teacher": "陈特",
+        "value": "chen te",
+        "kind": "full_spaced",
+        "status": "generated_query_candidate"
+      },
+      {
+        "teacher": "陈特",
+        "value": "ct",
+        "kind": "initials",
+        "status": "generated_query_candidate"
+      },
+      {
+        "teacher": "陈特",
+        "value": "陈老师",
+        "kind": "teacher_alias",
+        "status": "query_candidate",
+        "source_url": null,
+        "evidence_id": null,
+        "limitation": "姓氏称谓非唯一别名，仅与完整课名联合查询"
+      },
+      {
+        "teacher": "汪习波",
+        "value": "汪习波",
+        "kind": "canonical_name",
+        "status": "official_target_name"
+      },
+      {
+        "teacher": "汪习波",
+        "value": "wangxibo",
+        "kind": "full_joined",
+        "status": "generated_query_candidate"
+      },
+      {
+        "teacher": "汪习波",
+        "value": "wang xi bo",
+        "kind": "full_spaced",
+        "status": "generated_query_candidate"
+      },
+      {
+        "teacher": "汪习波",
+        "value": "wxb",
+        "kind": "initials",
+        "status": "generated_query_candidate"
+      },
+      {
+        "teacher": "汪习波",
+        "value": "汪老师",
+        "kind": "teacher_alias",
+        "status": "query_candidate",
+        "source_url": null,
+        "evidence_id": null,
+        "limitation": "姓氏称谓非唯一别名，仅与完整课名联合查询"
+      }
+    ],
+    "ambiguous_matches": [
+      {
+        "value": "中国古代文学史上",
+        "kind": "course_name_alias",
+        "status": "query_candidate",
+        "source_url": null,
+        "evidence_id": null,
+        "limitation": "仅机械去书名号/册别生成，不能视为真实俗称"
+      },
+      {
+        "value": "中国古代文学史",
+        "kind": "course_name_alias",
+        "status": "query_candidate",
+        "source_url": null,
+        "evidence_id": null,
+        "limitation": "仅机械去书名号/册别生成，不能视为真实俗称"
+      },
+      {
+        "value": "zhongguogudaiwenxueshi(shang)",
+        "kind": "course_pinyin_full_joined",
+        "status": "generated_query_candidate",
+        "limitation": "Generated transliteration is a search term, not an attested spoken alias."
+      },
+      {
+        "value": "zhong guo gu dai wen xue shi ( shang )",
+        "kind": "course_pinyin_full_spaced",
+        "status": "generated_query_candidate",
+        "limitation": "Generated transliteration is a search term, not an attested spoken alias."
+      },
+      {
+        "value": "zggdwxs(s)",
+        "kind": "course_pinyin_initials",
+        "status": "generated_query_candidate",
+        "limitation": "Generated transliteration is a search term, not an attested spoken alias."
+      },
+      {
+        "teacher": "陈特",
+        "value": "chente",
+        "kind": "full_joined",
+        "status": "generated_query_candidate",
+        "limitation": "Generated transliteration is a search token, not proof of person identity."
+      },
+      {
+        "teacher": "陈特",
+        "value": "chen te",
+        "kind": "full_spaced",
+        "status": "generated_query_candidate",
+        "limitation": "Generated transliteration is a search token, not proof of person identity."
+      },
+      {
+        "teacher": "陈特",
+        "value": "ct",
+        "kind": "initials",
+        "status": "generated_query_candidate",
+        "limitation": "Generated transliteration is a search token, not proof of person identity."
+      },
+      {
+        "teacher": "陈特",
+        "value": "陈老师",
+        "kind": "teacher_alias",
+        "status": "query_candidate",
+        "source_url": null,
+        "evidence_id": null,
+        "limitation": "姓氏称谓非唯一别名，仅与完整课名联合查询"
+      },
+      {
+        "teacher": "汪习波",
+        "value": "wangxibo",
+        "kind": "full_joined",
+        "status": "generated_query_candidate",
+        "limitation": "Generated transliteration is a search token, not proof of person identity."
+      },
+      {
+        "teacher": "汪习波",
+        "value": "wang xi bo",
+        "kind": "full_spaced",
+        "status": "generated_query_candidate",
+        "limitation": "Generated transliteration is a search token, not proof of person identity."
+      },
+      {
+        "teacher": "汪习波",
+        "value": "wxb",
+        "kind": "initials",
+        "status": "generated_query_candidate",
+        "limitation": "Generated transliteration is a search token, not proof of person identity."
+      },
+      {
+        "teacher": "汪习波",
+        "value": "汪老师",
+        "kind": "teacher_alias",
+        "status": "query_candidate",
+        "source_url": null,
+        "evidence_id": null,
+        "limitation": "姓氏称谓非唯一别名，仅与完整课名联合查询"
+      }
+    ]
+  },
+  "progress": {
+    "owner": "",
+    "reviewer": "",
+    "status": "in_progress",
+    "queries": [
+      {
+        "query_id": "PLATFORM-CHIN20005-2025秋-小红书",
+        "category": "canonical_title_teacher_platform_search",
+        "term": "2025秋",
+        "query": "复旦 \"中国古代文学史\" (\"陈特\" OR \"汪习波\") 课程 评价",
+        "status": "no_link_returned",
+        "search_scope": "platform_specific_external_search_index",
+        "domains": [
+          "xiaohongshu.com"
+        ],
+        "attempts": 1,
+        "returned_link_count": 0,
+        "confirmed_direct_reviews": 0,
+        "read_status": "search_index_only",
+        "source_file": "reports/公开平台逐课检索台账.csv",
+        "source_record_id": "PLATFORM-CHIN20005-2025秋-小红书",
+        "source_record_pointer": "course_code=CHIN20005;terms=2025秋;platform=小红书",
+        "limitation": "外部搜索索引覆盖有限；不代表站内不存在"
+      },
+      {
+        "query_id": "PLATFORM-CHIN20005-2025秋-微信公众号",
+        "category": "canonical_title_teacher_platform_search",
+        "term": "2025秋",
+        "query": "复旦 \"中国古代文学史\" (\"陈特\" OR \"汪习波\") 课程 评价",
+        "status": "no_link_returned",
+        "search_scope": "platform_specific_external_search_index",
+        "domains": [
+          "mp.weixin.qq.com"
+        ],
+        "attempts": 1,
+        "returned_link_count": 0,
+        "confirmed_direct_reviews": 0,
+        "read_status": "search_index_only",
+        "source_file": "reports/公开平台逐课检索台账.csv",
+        "source_record_id": "PLATFORM-CHIN20005-2025秋-微信公众号",
+        "source_record_pointer": "course_code=CHIN20005;terms=2025秋;platform=微信公众号",
+        "limitation": "外部搜索索引覆盖有限；不代表站内不存在"
+      },
+      {
+        "query_id": "PLATFORM-CHIN20005-2025秋-知乎",
+        "category": "canonical_title_teacher_platform_search",
+        "term": "2025秋",
+        "query": "复旦 \"中国古代文学史\" (\"陈特\" OR \"汪习波\") 课程 评价",
+        "status": "results_returned_no_adopted_review",
+        "search_scope": "platform_specific_external_search_index",
+        "domains": [
+          "zhihu.com"
+        ],
+        "attempts": 1,
+        "returned_link_count": 12,
+        "confirmed_direct_reviews": 0,
+        "read_status": "search_index_only",
+        "source_file": "reports/公开平台逐课检索台账.csv",
+        "source_record_id": "PLATFORM-CHIN20005-2025秋-知乎",
+        "source_record_pointer": "course_code=CHIN20005;terms=2025秋;platform=知乎",
+        "limitation": "外部搜索索引覆盖有限；不代表站内不存在"
+      },
+      {
+        "query_id": "PUBALIAS-00082",
+        "category": "course_alias",
+        "term": "中国古代文学史上",
+        "query": "复旦 \"陈特\" \"中国古代文学史上\"",
+        "status": "completed",
+        "search_scope": "external_index_union_of_three_domains",
+        "domains": [
+          "zhihu.com",
+          "xiaohongshu.com",
+          "mp.weixin.qq.com"
+        ],
+        "attempts": 4,
+        "returned_link_count": 0,
+        "confirmed_direct_reviews": 0,
+        "read_status": "query execution only; not article reading",
+        "source_file": "reports/别名拼音扩展检索台账.csv",
+        "source_record_id": "PUBALIAS-00082",
+        "source_record_pointer": "query_id=PUBALIAS-00082",
+        "limitation": "A union-domain query is one logged record, not one execution per listed platform."
+      },
+      {
+        "query_id": "PUBALIAS-00083",
+        "category": "course_alias",
+        "term": "中国古代文学史",
+        "query": "复旦 \"陈特\" \"中国古代文学史\"",
+        "status": "completed",
+        "search_scope": "external_index_union_of_three_domains",
+        "domains": [
+          "zhihu.com",
+          "xiaohongshu.com",
+          "mp.weixin.qq.com"
+        ],
+        "attempts": 4,
+        "returned_link_count": 0,
+        "confirmed_direct_reviews": 0,
+        "read_status": "query execution only; not article reading",
+        "source_file": "reports/别名拼音扩展检索台账.csv",
+        "source_record_id": "PUBALIAS-00083",
+        "source_record_pointer": "query_id=PUBALIAS-00083",
+        "limitation": "A union-domain query is one logged record, not one execution per listed platform."
+      },
+      {
+        "query_id": "PUBALIAS-00084",
+        "category": "course_pinyin_full_joined",
+        "term": "zhongguogudaiwenxueshi(shang)",
+        "query": "复旦 \"陈特\" \"zhongguogudaiwenxueshi(shang)\"",
+        "status": "completed",
+        "search_scope": "external_index_union_of_three_domains",
+        "domains": [
+          "zhihu.com",
+          "xiaohongshu.com",
+          "mp.weixin.qq.com"
+        ],
+        "attempts": 4,
+        "returned_link_count": 0,
+        "confirmed_direct_reviews": 0,
+        "read_status": "query execution only; not article reading",
+        "source_file": "reports/别名拼音扩展检索台账.csv",
+        "source_record_id": "PUBALIAS-00084",
+        "source_record_pointer": "query_id=PUBALIAS-00084",
+        "limitation": "A union-domain query is one logged record, not one execution per listed platform."
+      },
+      {
+        "query_id": "PUBALIAS-00085",
+        "category": "course_pinyin_full_spaced",
+        "term": "zhong guo gu dai wen xue shi ( shang )",
+        "query": "复旦 \"陈特\" \"zhong guo gu dai wen xue shi ( shang )\"",
+        "status": "completed",
+        "search_scope": "external_index_union_of_three_domains",
+        "domains": [
+          "zhihu.com",
+          "xiaohongshu.com",
+          "mp.weixin.qq.com"
+        ],
+        "attempts": 4,
+        "returned_link_count": 0,
+        "confirmed_direct_reviews": 0,
+        "read_status": "query execution only; not article reading",
+        "source_file": "reports/别名拼音扩展检索台账.csv",
+        "source_record_id": "PUBALIAS-00085",
+        "source_record_pointer": "query_id=PUBALIAS-00085",
+        "limitation": "A union-domain query is one logged record, not one execution per listed platform."
+      },
+      {
+        "query_id": "PUBALIAS-00086",
+        "category": "course_pinyin_initials",
+        "term": "zggdwxs(s)",
+        "query": "复旦 \"陈特\" \"zggdwxs(s)\"",
+        "status": "completed",
+        "search_scope": "external_index_union_of_three_domains",
+        "domains": [
+          "zhihu.com",
+          "xiaohongshu.com",
+          "mp.weixin.qq.com"
+        ],
+        "attempts": 4,
+        "returned_link_count": 0,
+        "confirmed_direct_reviews": 0,
+        "read_status": "query execution only; not article reading",
+        "source_file": "reports/别名拼音扩展检索台账.csv",
+        "source_record_id": "PUBALIAS-00086",
+        "source_record_pointer": "query_id=PUBALIAS-00086",
+        "limitation": "A union-domain query is one logged record, not one execution per listed platform."
+      },
+      {
+        "query_id": "PUBALIAS-00087",
+        "category": "teacher_pinyin_full_joined",
+        "term": "chente",
+        "query": "复旦 \"中国古代文学史(上)\" \"chente\"",
+        "status": "completed",
+        "search_scope": "external_index_union_of_three_domains",
+        "domains": [
+          "zhihu.com",
+          "xiaohongshu.com",
+          "mp.weixin.qq.com"
+        ],
+        "attempts": 4,
+        "returned_link_count": 0,
+        "confirmed_direct_reviews": 0,
+        "read_status": "query execution only; not article reading",
+        "source_file": "reports/别名拼音扩展检索台账.csv",
+        "source_record_id": "PUBALIAS-00087",
+        "source_record_pointer": "query_id=PUBALIAS-00087",
+        "limitation": "A union-domain query is one logged record, not one execution per listed platform."
+      },
+      {
+        "query_id": "PUBALIAS-00088",
+        "category": "teacher_pinyin_full_spaced",
+        "term": "chen te",
+        "query": "复旦 \"中国古代文学史(上)\" \"chen te\"",
+        "status": "completed",
+        "search_scope": "external_index_union_of_three_domains",
+        "domains": [
+          "zhihu.com",
+          "xiaohongshu.com",
+          "mp.weixin.qq.com"
+        ],
+        "attempts": 4,
+        "returned_link_count": 0,
+        "confirmed_direct_reviews": 0,
+        "read_status": "query execution only; not article reading",
+        "source_file": "reports/别名拼音扩展检索台账.csv",
+        "source_record_id": "PUBALIAS-00088",
+        "source_record_pointer": "query_id=PUBALIAS-00088",
+        "limitation": "A union-domain query is one logged record, not one execution per listed platform."
+      },
+      {
+        "query_id": "PUBALIAS-00089",
+        "category": "teacher_pinyin_initials",
+        "term": "ct",
+        "query": "复旦 \"中国古代文学史(上)\" \"ct\"",
+        "status": "completed",
+        "search_scope": "external_index_union_of_three_domains",
+        "domains": [
+          "zhihu.com",
+          "xiaohongshu.com",
+          "mp.weixin.qq.com"
+        ],
+        "attempts": 4,
+        "returned_link_count": 0,
+        "confirmed_direct_reviews": 0,
+        "read_status": "query execution only; not article reading",
+        "source_file": "reports/别名拼音扩展检索台账.csv",
+        "source_record_id": "PUBALIAS-00089",
+        "source_record_pointer": "query_id=PUBALIAS-00089",
+        "limitation": "A union-domain query is one logged record, not one execution per listed platform."
+      },
+      {
+        "query_id": "PUBALIAS-00090",
+        "category": "teacher_alias",
+        "term": "陈老师",
+        "query": "复旦 \"中国古代文学史(上)\" \"陈老师\"",
+        "status": "completed",
+        "search_scope": "external_index_union_of_three_domains",
+        "domains": [
+          "zhihu.com",
+          "xiaohongshu.com",
+          "mp.weixin.qq.com"
+        ],
+        "attempts": 4,
+        "returned_link_count": 0,
+        "confirmed_direct_reviews": 0,
+        "read_status": "query execution only; not article reading",
+        "source_file": "reports/别名拼音扩展检索台账.csv",
+        "source_record_id": "PUBALIAS-00090",
+        "source_record_pointer": "query_id=PUBALIAS-00090",
+        "limitation": "A union-domain query is one logged record, not one execution per listed platform."
+      },
+      {
+        "query_id": "PUBALIAS-00091",
+        "category": "teacher_pinyin_full_joined",
+        "term": "wangxibo",
+        "query": "复旦 \"中国古代文学史(上)\" \"wangxibo\"",
+        "status": "completed",
+        "search_scope": "external_index_union_of_three_domains",
+        "domains": [
+          "zhihu.com",
+          "xiaohongshu.com",
+          "mp.weixin.qq.com"
+        ],
+        "attempts": 4,
+        "returned_link_count": 0,
+        "confirmed_direct_reviews": 0,
+        "read_status": "query execution only; not article reading",
+        "source_file": "reports/别名拼音扩展检索台账.csv",
+        "source_record_id": "PUBALIAS-00091",
+        "source_record_pointer": "query_id=PUBALIAS-00091",
+        "limitation": "A union-domain query is one logged record, not one execution per listed platform."
+      },
+      {
+        "query_id": "PUBALIAS-00092",
+        "category": "teacher_pinyin_full_spaced",
+        "term": "wang xi bo",
+        "query": "复旦 \"中国古代文学史(上)\" \"wang xi bo\"",
+        "status": "completed",
+        "search_scope": "external_index_union_of_three_domains",
+        "domains": [
+          "zhihu.com",
+          "xiaohongshu.com",
+          "mp.weixin.qq.com"
+        ],
+        "attempts": 4,
+        "returned_link_count": 0,
+        "confirmed_direct_reviews": 0,
+        "read_status": "query execution only; not article reading",
+        "source_file": "reports/别名拼音扩展检索台账.csv",
+        "source_record_id": "PUBALIAS-00092",
+        "source_record_pointer": "query_id=PUBALIAS-00092",
+        "limitation": "A union-domain query is one logged record, not one execution per listed platform."
+      },
+      {
+        "query_id": "PUBALIAS-00093",
+        "category": "teacher_pinyin_initials",
+        "term": "wxb",
+        "query": "复旦 \"中国古代文学史(上)\" \"wxb\"",
+        "status": "completed",
+        "search_scope": "external_index_union_of_three_domains",
+        "domains": [
+          "zhihu.com",
+          "xiaohongshu.com",
+          "mp.weixin.qq.com"
+        ],
+        "attempts": 4,
+        "returned_link_count": 0,
+        "confirmed_direct_reviews": 0,
+        "read_status": "query execution only; not article reading",
+        "source_file": "reports/别名拼音扩展检索台账.csv",
+        "source_record_id": "PUBALIAS-00093",
+        "source_record_pointer": "query_id=PUBALIAS-00093",
+        "limitation": "A union-domain query is one logged record, not one execution per listed platform."
+      },
+      {
+        "query_id": "PUBALIAS-00094",
+        "category": "teacher_alias",
+        "term": "汪老师",
+        "query": "复旦 \"中国古代文学史(上)\" \"汪老师\"",
+        "status": "completed",
+        "search_scope": "external_index_union_of_three_domains",
+        "domains": [
+          "zhihu.com",
+          "xiaohongshu.com",
+          "mp.weixin.qq.com"
+        ],
+        "attempts": 4,
+        "returned_link_count": 0,
+        "confirmed_direct_reviews": 0,
+        "read_status": "query execution only; not article reading",
+        "source_file": "reports/别名拼音扩展检索台账.csv",
+        "source_record_id": "PUBALIAS-00094",
+        "source_record_pointer": "query_id=PUBALIAS-00094",
+        "limitation": "A union-domain query is one logged record, not one execution per listed platform."
+      },
+      {
+        "query_id": "PLAINPINYIN-0007",
+        "category": "plain_pinyin_candidate",
+        "term": "zhongguogudaiwenxueshishang",
+        "query": "复旦 zhongguogudaiwenxueshishang",
+        "status": "completed",
+        "search_scope": "external_index_plain_pinyin_query",
+        "domains": [],
+        "attempts": 1,
+        "returned_link_count": null,
+        "confirmed_direct_reviews": null,
+        "read_status": "返回摘要已记录并程序初筛，未计页面全文阅读",
+        "source_file": "reports/纯拼音补查台账.csv",
+        "source_record_id": "PLAINPINYIN-0007",
+        "source_record_pointer": "查询ID=PLAINPINYIN-0007",
+        "limitation": "Search summaries were screened; not counted as full-page reading."
+      },
+      {
+        "query_id": "PLAINPINYIN-0008",
+        "category": "plain_pinyin_candidate",
+        "term": "zhong guo gu dai wen xue shi shang",
+        "query": "复旦 zhong guo gu dai wen xue shi shang",
+        "status": "completed",
+        "search_scope": "external_index_plain_pinyin_query",
+        "domains": [],
+        "attempts": 1,
+        "returned_link_count": null,
+        "confirmed_direct_reviews": null,
+        "read_status": "返回摘要已记录并程序初筛，未计页面全文阅读",
+        "source_file": "reports/纯拼音补查台账.csv",
+        "source_record_id": "PLAINPINYIN-0008",
+        "source_record_pointer": "查询ID=PLAINPINYIN-0008",
+        "limitation": "Search summaries were screened; not counted as full-page reading."
+      },
+      {
+        "query_id": "PLAINPINYIN-0009",
+        "category": "plain_pinyin_candidate",
+        "term": "zggdwxss",
+        "query": "复旦 zggdwxss",
+        "status": "completed",
+        "search_scope": "external_index_plain_pinyin_query",
+        "domains": [],
+        "attempts": 1,
+        "returned_link_count": null,
+        "confirmed_direct_reviews": null,
+        "read_status": "返回摘要已记录并程序初筛，未计页面全文阅读",
+        "source_file": "reports/纯拼音补查台账.csv",
+        "source_record_id": "PLAINPINYIN-0009",
+        "source_record_pointer": "查询ID=PLAINPINYIN-0009",
+        "limitation": "Search summaries were screened; not counted as full-page reading."
+      }
+    ],
+    "query_status_counts": {
+      "no_link_returned": 2,
+      "results_returned_no_adopted_review": 1,
+      "completed": 16
+    },
+    "query_coverage_note": "已执行课程全名、可证别名、教师全名及拼音/首字母组合的公开索引检索。跨域联合查询按一条日志记录，不按列出的域重复计数。查询完成不表示结果页已读，也不代表平台内容穷尽。",
+    "remaining_scope": [
+      "公开索引覆盖有限，未穷尽各平台站内搜索及未被索引的页面。",
+      "六个课程群聊的原始私密内容不进入本次公开贡献，仍有私密渠道缺口。",
+      "这是当前本地证据快照；新增上下文、历史教师材料和课评需重跑脚本更新。"
+    ],
+    "no_student_reviews_found": false,
+    "no_student_reviews_found_note": "true表示本快照没有已采用的学生平台摘要，不表示不存在其他评价；另见index_only_hits和查询日志。"
+  },
+  "sources": [
+    {
+      "source_id": "OFFICIAL-OFFERING-1001977",
+      "source_type": "official",
+      "canonical_url": "https://fdjwgl.fudan.edu.cn/student/for-all/lesson-search/semester/504/search/504?openDepartmentAssocs=2620&queryPage__=1,500",
+      "public_author_label": null,
+      "published_at": null,
+      "fetched_at": "2026-10-27",
+      "hole_id": null,
+      "floor_id": null,
+      "floor_number": null,
+      "review_id": null,
+      "file_and_page": "official timetable lesson_id=1001977",
+      "image_page": null,
+      "reading_status": "official_timetable_record_read",
+      "mapping_status": "official course code and lesson_id",
+      "record_type": "official_course_offering",
+      "adoption": "adopted_official_metadata",
+      "reason": "Official 2025 autumn / 2026 spring timetable row.",
+      "duplicate_of": null,
+      "license": null,
+      "fulltext_permission": "unconfirmed",
+      "attribution_and_changes": "Official offering metadata; no student personal data included.",
+      "raw_filename": "reports/两学期全部教学班.json",
+      "raw_record_id": "1001977",
+      "course_code": "CHIN20005",
+      "report_filename": "reports/两学期全部教学班.json",
+      "report_record_id": "1001977",
+      "report_record_pointer": null,
+      "raw_body_status": null,
+      "teacher_if_explicit": "汪习波",
+      "term_as_stated": "2025秋",
+      "section_code": "CHIN20005.01"
+    },
+    {
+      "source_id": "OFFICIAL-SYLLABUS-1001977",
+      "source_type": "official",
+      "canonical_url": "https://fdjwgl.fudan.edu.cn/student/for-all/lesson-search/teachingSyllabusInfo/1001977",
+      "public_author_label": null,
+      "published_at": null,
+      "fetched_at": "2026-10-27",
+      "hole_id": null,
+      "floor_id": null,
+      "floor_number": null,
+      "review_id": null,
+      "file_and_page": "official syllabus lesson_id=1001977",
+      "image_page": null,
+      "reading_status": "structured_text_extracted",
+      "mapping_status": "lesson syllabus course code checked",
+      "record_type": "official_syllabus",
+      "adoption": "adopted_official_requirements",
+      "reason": "Official syllabus parsed locally; requirements stay attached to this offering.",
+      "duplicate_of": null,
+      "license": null,
+      "fulltext_permission": "unconfirmed",
+      "attribution_and_changes": "Only metadata, section titles, textbook details and assessment structure are exported; full syllabus text is not republished.",
+      "raw_filename": "reports/官方大纲结构化摘要.json",
+      "raw_record_id": "1001977",
+      "course_code": "CHIN20005",
+      "report_filename": "reports/官方大纲结构化摘要.json",
+      "report_record_id": "1001977",
+      "report_record_pointer": null,
+      "raw_body_status": null,
+      "teacher_if_explicit": "汪习波",
+      "term_as_stated": "2025秋",
+      "section_code": "CHIN20005.01"
+    },
+    {
+      "source_id": "OFFICIAL-OFFERING-1001978",
+      "source_type": "official",
+      "canonical_url": "https://fdjwgl.fudan.edu.cn/student/for-all/lesson-search/semester/504/search/504?openDepartmentAssocs=2620&queryPage__=1,500",
+      "public_author_label": null,
+      "published_at": null,
+      "fetched_at": "2026-10-27",
+      "hole_id": null,
+      "floor_id": null,
+      "floor_number": null,
+      "review_id": null,
+      "file_and_page": "official timetable lesson_id=1001978",
+      "image_page": null,
+      "reading_status": "official_timetable_record_read",
+      "mapping_status": "official course code and lesson_id",
+      "record_type": "official_course_offering",
+      "adoption": "adopted_official_metadata",
+      "reason": "Official 2025 autumn / 2026 spring timetable row.",
+      "duplicate_of": null,
+      "license": null,
+      "fulltext_permission": "unconfirmed",
+      "attribution_and_changes": "Official offering metadata; no student personal data included.",
+      "raw_filename": "reports/两学期全部教学班.json",
+      "raw_record_id": "1001978",
+      "course_code": "CHIN20005",
+      "report_filename": "reports/两学期全部教学班.json",
+      "report_record_id": "1001978",
+      "report_record_pointer": null,
+      "raw_body_status": null,
+      "teacher_if_explicit": "陈特",
+      "term_as_stated": "2025秋",
+      "section_code": "CHIN20005.02"
+    },
+    {
+      "source_id": "OFFICIAL-SYLLABUS-1001978",
+      "source_type": "official",
+      "canonical_url": "https://fdjwgl.fudan.edu.cn/student/for-all/lesson-search/teachingSyllabusInfo/1001978",
+      "public_author_label": null,
+      "published_at": null,
+      "fetched_at": "2026-10-27",
+      "hole_id": null,
+      "floor_id": null,
+      "floor_number": null,
+      "review_id": null,
+      "file_and_page": "official syllabus lesson_id=1001978",
+      "image_page": null,
+      "reading_status": "structured_text_extracted",
+      "mapping_status": "lesson syllabus course code checked",
+      "record_type": "official_syllabus",
+      "adoption": "adopted_official_requirements",
+      "reason": "Official syllabus parsed locally; requirements stay attached to this offering.",
+      "duplicate_of": null,
+      "license": null,
+      "fulltext_permission": "unconfirmed",
+      "attribution_and_changes": "Only metadata, section titles, textbook details and assessment structure are exported; full syllabus text is not republished.",
+      "raw_filename": "reports/官方大纲结构化摘要.json",
+      "raw_record_id": "1001978",
+      "course_code": "CHIN20005",
+      "report_filename": "reports/官方大纲结构化摘要.json",
+      "report_record_id": "1001978",
+      "report_record_pointer": null,
+      "raw_body_status": null,
+      "teacher_if_explicit": "陈特",
+      "term_as_stated": "2025秋",
+      "section_code": "CHIN20005.02"
+    },
+    {
+      "source_id": "DANKE-362",
+      "source_type": "danke",
+      "canonical_url": "https://danke.fduhole.com/api/reviews/362",
+      "public_author_label": null,
+      "published_at": "2023-01-09T06:31:44.713Z",
+      "fetched_at": "2026-10-27",
+      "hole_id": null,
+      "floor_id": null,
+      "floor_number": null,
+      "review_id": 362,
+      "file_and_page": "danke source DANKE-362",
+      "image_page": null,
+      "reading_status": "full_returned_text",
+      "mapping_status": "verified course assignment from curated evidence",
+      "record_type": "brief_opinion",
+      "adoption": "adopted_limited",
+      "reason": "",
+      "duplicate_of": null,
+      "license": null,
+      "fulltext_permission": "unconfirmed; short summary only exported",
+      "attribution_and_changes": "Short paraphrase from locally curated evidence; original body, account metadata and media are not copied.",
+      "raw_filename": "raw/danke.jsonl",
+      "raw_record_id": 362,
+      "course_code": "CHIN20005",
+      "report_filename": "reports/课程人工综合与来源.json",
+      "report_record_id": "DANKE-362",
+      "report_record_pointer": null,
+      "raw_body_status": "published_redacted",
+      "teacher_if_explicit": "陈特",
+      "term_as_stated": "正文修读学期未明确",
+      "section_code": null,
+      "raw_year": 2022,
+      "raw_semester": 1,
+      "indexed_terms": [
+        "2022秋"
+      ],
+      "indexed_course_periods": null,
+      "body_term_if_explicit": null,
+      "body_claimed_calendar_terms": [],
+      "body_term_conflict": false,
+      "review_time_conflict": null,
+      "index_conflict_note": "结尾“下学期见”不足以确定本条评价的修读期。",
+      "term_scope": "API所挂课程索引期：2022秋；依据官方客户端学年/学期映射。它不自动证明作者实际修读期；正文明确时间或冲突另行保留。 结尾“下学期见”不足以确定本条评价的修读期。",
+      "body_term_precision": "relative_or_stage_only",
+      "body_term_scope": "relative_reference_not_resolvable_to_calendar_term",
+      "relative_period_phrases": [
+        "下学期"
+      ],
+      "semester_mapping_source": "https://github.com/DanXi-Dev/DanXi/blob/3c1f5f026fbc7ca50e151865f813cdb381807abe/lib/model/danke/course.dart#L36-L45",
+      "body_calendar_terms_parsed": [],
+      "body_claimed_target_terms": [],
+      "indexed_target_terms": [],
+      "target_period_note": "非目标期、相对或未知修读期，不当作目标期直接反馈。"
+    },
+    {
+      "source_id": "DANKE-572",
+      "source_type": "danke",
+      "canonical_url": "https://danke.fduhole.com/api/reviews/572",
+      "public_author_label": null,
+      "published_at": "2023-02-11T15:02:35.265Z",
+      "fetched_at": "2026-10-27",
+      "hole_id": null,
+      "floor_id": null,
+      "floor_number": null,
+      "review_id": 572,
+      "file_and_page": "danke source DANKE-572",
+      "image_page": null,
+      "reading_status": "full_returned_text",
+      "mapping_status": "verified course assignment from curated evidence",
+      "record_type": "detailed_review",
+      "adoption": "adopted_limited",
+      "reason": "",
+      "duplicate_of": null,
+      "license": null,
+      "fulltext_permission": "unconfirmed; short summary only exported",
+      "attribution_and_changes": "Short paraphrase from locally curated evidence; original body, account metadata and media are not copied.",
+      "raw_filename": "raw/danke.jsonl",
+      "raw_record_id": 572,
+      "course_code": "CHIN20005",
+      "report_filename": "reports/课程人工综合与来源.json",
+      "report_record_id": "DANKE-572",
+      "report_record_pointer": null,
+      "raw_body_status": "published_redacted",
+      "teacher_if_explicit": "陈特",
+      "term_as_stated": "正文修读学期未明确",
+      "section_code": null,
+      "raw_year": 2022,
+      "raw_semester": 1,
+      "indexed_terms": [
+        "2022秋"
+      ],
+      "indexed_course_periods": null,
+      "body_term_if_explicit": null,
+      "body_claimed_calendar_terms": null,
+      "body_term_conflict": false,
+      "review_time_conflict": null,
+      "index_conflict_note": null,
+      "term_scope": "API所挂课程索引期：2022秋；依据官方客户端学年/学期映射。它不自动证明作者实际修读期；正文明确时间或冲突另行保留。",
+      "body_term_precision": null,
+      "body_term_scope": null,
+      "relative_period_phrases": null,
+      "semester_mapping_source": "https://github.com/DanXi-Dev/DanXi/blob/3c1f5f026fbc7ca50e151865f813cdb381807abe/lib/model/danke/course.dart#L36-L45",
+      "body_calendar_terms_parsed": [],
+      "body_claimed_target_terms": [],
+      "indexed_target_terms": [],
+      "target_period_note": "非目标期、相对或未知修读期，不当作目标期直接反馈。"
+    },
+    {
+      "source_id": "DANKE-4648",
+      "source_type": "danke",
+      "canonical_url": "https://danke.fduhole.com/api/reviews/4648",
+      "public_author_label": null,
+      "published_at": "2025-12-25T10:59:26.556Z",
+      "fetched_at": "2026-10-27",
+      "hole_id": null,
+      "floor_id": null,
+      "floor_number": null,
+      "review_id": 4648,
+      "file_and_page": "danke source DANKE-4648",
+      "image_page": null,
+      "reading_status": "full_returned_text",
+      "mapping_status": "verified course assignment from curated evidence",
+      "record_type": "detailed_review",
+      "adoption": "adopted_limited",
+      "reason": "",
+      "duplicate_of": null,
+      "license": null,
+      "fulltext_permission": "unconfirmed; short summary only exported",
+      "attribution_and_changes": "Short paraphrase from locally curated evidence; original body, account metadata and media are not copied.",
+      "raw_filename": "raw/danke.jsonl",
+      "raw_record_id": 4648,
+      "course_code": "CHIN20005",
+      "report_filename": "reports/课程人工综合与来源.json",
+      "report_record_id": "DANKE-4648",
+      "report_record_pointer": null,
+      "raw_body_status": "published_redacted",
+      "teacher_if_explicit": "汪习波",
+      "term_as_stated": "25秋（正文）",
+      "section_code": null,
+      "raw_year": 2020,
+      "raw_semester": 1,
+      "indexed_terms": [
+        "2020秋"
+      ],
+      "indexed_course_periods": null,
+      "body_term_if_explicit": "25秋（正文）",
+      "body_claimed_calendar_terms": [
+        "2025秋"
+      ],
+      "body_term_conflict": true,
+      "review_time_conflict": null,
+      "index_conflict_note": "API 2020/S1映射2020秋；作者另问“为什么只有20-21”，root已核实当时仅该选项可选。并列保留，不因索引否定正文。",
+      "term_scope": "API所挂课程索引期：2020秋；依据官方客户端学年/学期映射。它不自动证明作者实际修读期；正文明确时间或冲突另行保留。 时间冲突：正文为2025秋，索引为2020秋；均保留。 API 2020/S1映射2020秋；作者另问“为什么只有20-21”，root已核实当时仅该选项可选。并列保留，不因索引否定正文。",
+      "body_term_precision": "single_term",
+      "body_term_scope": "author_course_period",
+      "relative_period_phrases": [],
+      "semester_mapping_source": "https://github.com/DanXi-Dev/DanXi/blob/3c1f5f026fbc7ca50e151865f813cdb381807abe/lib/model/danke/course.dart#L36-L45",
+      "body_calendar_terms_parsed": [
+        "2025秋"
+      ],
+      "body_claimed_target_terms": [
+        "2025秋"
+      ],
+      "indexed_target_terms": [],
+      "target_period_note": "正文明确自述目标期，仍核对教师及索引冲突。"
+    },
+    {
+      "source_id": "DANKE-4860",
+      "source_type": "danke",
+      "canonical_url": "https://danke.fduhole.com/api/reviews/4860",
+      "public_author_label": null,
+      "published_at": "2026-01-07T13:56:43.63Z",
+      "fetched_at": "2026-10-27",
+      "hole_id": null,
+      "floor_id": null,
+      "floor_number": null,
+      "review_id": 4860,
+      "file_and_page": "danke source DANKE-4860",
+      "image_page": null,
+      "reading_status": "full_returned_text",
+      "mapping_status": "verified course assignment from curated evidence",
+      "record_type": "detailed_review",
+      "adoption": "adopted_limited",
+      "reason": "",
+      "duplicate_of": null,
+      "license": null,
+      "fulltext_permission": "unconfirmed; short summary only exported",
+      "attribution_and_changes": "Short paraphrase from locally curated evidence; original body, account metadata and media are not copied.",
+      "raw_filename": "raw/danke.jsonl",
+      "raw_record_id": 4860,
+      "course_code": "CHIN20005",
+      "report_filename": "reports/课程人工综合与来源.json",
+      "report_record_id": "DANKE-4860",
+      "report_record_pointer": null,
+      "raw_body_status": "published_redacted",
+      "teacher_if_explicit": "汪习波",
+      "term_as_stated": "25秋（标题）",
+      "section_code": null,
+      "raw_year": 2020,
+      "raw_semester": 1,
+      "indexed_terms": [
+        "2020秋"
+      ],
+      "indexed_course_periods": null,
+      "body_term_if_explicit": "25秋（标题）",
+      "body_claimed_calendar_terms": [
+        "2025秋"
+      ],
+      "body_term_conflict": true,
+      "review_time_conflict": null,
+      "index_conflict_note": "API 2020/S1映射2020秋，与标题自述冲突；并列保留。",
+      "term_scope": "API所挂课程索引期：2020秋；依据官方客户端学年/学期映射。它不自动证明作者实际修读期；正文明确时间或冲突另行保留。 时间冲突：正文为2025秋，索引为2020秋；均保留。 API 2020/S1映射2020秋，与标题自述冲突；并列保留。",
+      "body_term_precision": "single_term",
+      "body_term_scope": "author_course_period",
+      "relative_period_phrases": [],
+      "semester_mapping_source": "https://github.com/DanXi-Dev/DanXi/blob/3c1f5f026fbc7ca50e151865f813cdb381807abe/lib/model/danke/course.dart#L36-L45",
+      "body_calendar_terms_parsed": [
+        "2025秋"
+      ],
+      "body_claimed_target_terms": [
+        "2025秋"
+      ],
+      "indexed_target_terms": [],
+      "target_period_note": "正文明确自述目标期，仍核对教师及索引冲突。"
+    },
+    {
+      "source_id": "DANKE-4985",
+      "source_type": "danke",
+      "canonical_url": "https://danke.fduhole.com/api/reviews/4985",
+      "public_author_label": null,
+      "published_at": "2026-01-09T13:07:49.975Z",
+      "fetched_at": "2026-10-27",
+      "hole_id": null,
+      "floor_id": null,
+      "floor_number": null,
+      "review_id": 4985,
+      "file_and_page": "danke source DANKE-4985",
+      "image_page": null,
+      "reading_status": "full_returned_text",
+      "mapping_status": "verified course assignment from curated evidence",
+      "record_type": "detailed_review",
+      "adoption": "adopted_limited",
+      "reason": "",
+      "duplicate_of": null,
+      "license": null,
+      "fulltext_permission": "unconfirmed; short summary only exported",
+      "attribution_and_changes": "Short paraphrase from locally curated evidence; original body, account metadata and media are not copied.",
+      "raw_filename": "raw/danke.jsonl",
+      "raw_record_id": 4985,
+      "course_code": "CHIN20005",
+      "report_filename": "reports/课程人工综合与来源.json",
+      "report_record_id": "DANKE-4985",
+      "report_record_pointer": null,
+      "raw_body_status": "published_redacted",
+      "teacher_if_explicit": "汪习波",
+      "term_as_stated": "25秋（标题）",
+      "section_code": null,
+      "raw_year": 2020,
+      "raw_semester": 1,
+      "indexed_terms": [
+        "2020秋"
+      ],
+      "indexed_course_periods": null,
+      "body_term_if_explicit": "25秋（标题）",
+      "body_claimed_calendar_terms": [
+        "2025秋"
+      ],
+      "body_term_conflict": true,
+      "review_time_conflict": null,
+      "index_conflict_note": "API 2020/S1映射2020秋，与标题/正文自述冲突；并列保留。",
+      "term_scope": "API所挂课程索引期：2020秋；依据官方客户端学年/学期映射。它不自动证明作者实际修读期；正文明确时间或冲突另行保留。 时间冲突：正文为2025秋，索引为2020秋；均保留。 API 2020/S1映射2020秋，与标题/正文自述冲突；并列保留。",
+      "body_term_precision": "single_term",
+      "body_term_scope": "author_course_period",
+      "relative_period_phrases": [],
+      "semester_mapping_source": "https://github.com/DanXi-Dev/DanXi/blob/3c1f5f026fbc7ca50e151865f813cdb381807abe/lib/model/danke/course.dart#L36-L45",
+      "body_calendar_terms_parsed": [
+        "2025秋"
+      ],
+      "body_claimed_target_terms": [
+        "2025秋"
+      ],
+      "indexed_target_terms": [],
+      "target_period_note": "正文明确自述目标期，仍核对教师及索引冲突。"
+    },
+    {
+      "source_id": "DANKE-5250",
+      "source_type": "danke",
+      "canonical_url": "https://danke.fduhole.com/api/reviews/5250",
+      "public_author_label": null,
+      "published_at": "2026-01-17T04:44:48.985Z",
+      "fetched_at": "2026-10-27",
+      "hole_id": null,
+      "floor_id": null,
+      "floor_number": null,
+      "review_id": 5250,
+      "file_and_page": "danke source DANKE-5250",
+      "image_page": null,
+      "reading_status": "full_returned_text",
+      "mapping_status": "verified course assignment from curated evidence",
+      "record_type": "detailed_review",
+      "adoption": "adopted_limited",
+      "reason": "",
+      "duplicate_of": null,
+      "license": null,
+      "fulltext_permission": "unconfirmed; short summary only exported",
+      "attribution_and_changes": "Short paraphrase from locally curated evidence; original body, account metadata and media are not copied.",
+      "raw_filename": "raw/danke.jsonl",
+      "raw_record_id": 5250,
+      "course_code": "CHIN20005",
+      "report_filename": "reports/课程人工综合与来源.json",
+      "report_record_id": "DANKE-5250",
+      "report_record_pointer": null,
+      "raw_body_status": "published_redacted",
+      "teacher_if_explicit": "汪习波",
+      "term_as_stated": "25秋（标题）",
+      "section_code": null,
+      "raw_year": 2020,
+      "raw_semester": 1,
+      "indexed_terms": [
+        "2020秋"
+      ],
+      "indexed_course_periods": null,
+      "body_term_if_explicit": "25秋（标题）",
+      "body_claimed_calendar_terms": [
+        "2025秋"
+      ],
+      "body_term_conflict": true,
+      "review_time_conflict": null,
+      "index_conflict_note": "API 2020/S1映射2020秋，与标题自述冲突；并列保留。",
+      "term_scope": "API所挂课程索引期：2020秋；依据官方客户端学年/学期映射。它不自动证明作者实际修读期；正文明确时间或冲突另行保留。 时间冲突：正文为2025秋，索引为2020秋；均保留。 API 2020/S1映射2020秋，与标题自述冲突；并列保留。",
+      "body_term_precision": "single_term",
+      "body_term_scope": "author_course_period",
+      "relative_period_phrases": [],
+      "semester_mapping_source": "https://github.com/DanXi-Dev/DanXi/blob/3c1f5f026fbc7ca50e151865f813cdb381807abe/lib/model/danke/course.dart#L36-L45",
+      "body_calendar_terms_parsed": [
+        "2025秋"
+      ],
+      "body_claimed_target_terms": [
+        "2025秋"
+      ],
+      "indexed_target_terms": [],
+      "target_period_note": "正文明确自述目标期，仍核对教师及索引冲突。"
+    },
+    {
+      "source_id": "DANKE-5803",
+      "source_type": "danke",
+      "canonical_url": "https://danke.fduhole.com/api/reviews/5803",
+      "public_author_label": null,
+      "published_at": "2026-03-09T11:13:13.384Z",
+      "fetched_at": "2026-10-27",
+      "hole_id": null,
+      "floor_id": null,
+      "floor_number": null,
+      "review_id": 5803,
+      "file_and_page": "danke source DANKE-5803",
+      "image_page": null,
+      "reading_status": "full_returned_text",
+      "mapping_status": "verified course assignment from curated evidence",
+      "record_type": "detailed_review",
+      "adoption": "adopted_limited",
+      "reason": "",
+      "duplicate_of": null,
+      "license": null,
+      "fulltext_permission": "unconfirmed; short summary only exported",
+      "attribution_and_changes": "Short paraphrase from locally curated evidence; original body, account metadata and media are not copied.",
+      "raw_filename": "raw/danke.jsonl",
+      "raw_record_id": 5803,
+      "course_code": "CHIN20005",
+      "report_filename": "reports/课程人工综合与来源.json",
+      "report_record_id": "DANKE-5803",
+      "report_record_pointer": null,
+      "raw_body_status": "published_redacted",
+      "teacher_if_explicit": "汪习波",
+      "term_as_stated": "正文修读学期未明确",
+      "section_code": null,
+      "raw_year": 2020,
+      "raw_semester": 1,
+      "indexed_terms": [
+        "2020秋"
+      ],
+      "indexed_course_periods": null,
+      "body_term_if_explicit": null,
+      "body_claimed_calendar_terms": [],
+      "body_term_conflict": false,
+      "review_time_conflict": null,
+      "index_conflict_note": "标题描述年级/学期阶段，不含公历年份。",
+      "term_scope": "API所挂课程索引期：2020秋；依据官方客户端学年/学期映射。它不自动证明作者实际修读期；正文明确时间或冲突另行保留。 标题描述年级/学期阶段，不含公历年份。",
+      "body_term_precision": "relative_or_stage_only",
+      "body_term_scope": "relative_reference_not_resolvable_to_calendar_term",
+      "relative_period_phrases": [
+        "大一上"
+      ],
+      "semester_mapping_source": "https://github.com/DanXi-Dev/DanXi/blob/3c1f5f026fbc7ca50e151865f813cdb381807abe/lib/model/danke/course.dart#L36-L45",
+      "body_calendar_terms_parsed": [],
+      "body_claimed_target_terms": [],
+      "indexed_target_terms": [],
+      "target_period_note": "非目标期、相对或未知修读期，不当作目标期直接反馈。"
+    },
+    {
+      "source_id": "DANKE-3354",
+      "source_type": "danke",
+      "canonical_url": "https://danke.fduhole.com/api/reviews/3354",
+      "public_author_label": null,
+      "published_at": "2025-02-26T01:10:48.63Z",
+      "fetched_at": "2026-10-27",
+      "hole_id": null,
+      "floor_id": null,
+      "floor_number": null,
+      "review_id": 3354,
+      "file_and_page": "danke source DANKE-3354",
+      "image_page": null,
+      "reading_status": "full_returned_text",
+      "mapping_status": "verified course assignment from curated evidence",
+      "record_type": "brief_opinion",
+      "adoption": "adopted_limited",
+      "reason": "",
+      "duplicate_of": null,
+      "license": null,
+      "fulltext_permission": "unconfirmed; short summary only exported",
+      "attribution_and_changes": "Short paraphrase from locally curated evidence; original body, account metadata and media are not copied.",
+      "raw_filename": "raw/danke.jsonl",
+      "raw_record_id": 3354,
+      "course_code": "CHIN20005",
+      "report_filename": "reports/课程人工综合与来源.json",
+      "report_record_id": "DANKE-3354",
+      "report_record_pointer": null,
+      "raw_body_status": "published_redacted",
+      "teacher_if_explicit": "陈特",
+      "term_as_stated": "正文修读学期未明确",
+      "section_code": null,
+      "raw_year": 2024,
+      "raw_semester": 1,
+      "indexed_terms": [
+        "2024秋"
+      ],
+      "indexed_course_periods": null,
+      "body_term_if_explicit": null,
+      "body_claimed_calendar_terms": null,
+      "body_term_conflict": false,
+      "review_time_conflict": null,
+      "index_conflict_note": null,
+      "term_scope": "API所挂课程索引期：2024秋；依据官方客户端学年/学期映射。它不自动证明作者实际修读期；正文明确时间或冲突另行保留。",
+      "body_term_precision": null,
+      "body_term_scope": null,
+      "relative_period_phrases": null,
+      "semester_mapping_source": "https://github.com/DanXi-Dev/DanXi/blob/3c1f5f026fbc7ca50e151865f813cdb381807abe/lib/model/danke/course.dart#L36-L45",
+      "body_calendar_terms_parsed": [],
+      "body_claimed_target_terms": [],
+      "indexed_target_terms": [],
+      "target_period_note": "非目标期、相对或未知修读期，不当作目标期直接反馈。"
+    }
+  ],
+  "syllabus": {
+    "source_ids": [
+      "OFFICIAL-SYLLABUS-1001977",
+      "OFFICIAL-SYLLABUS-1001978"
+    ],
+    "content": "官方大纲按教学班逐项记录在offerings；不同学期或平行班要求未合并。",
+    "prerequisites": "",
+    "assessment": ""
+  },
+  "materials": [
+    {
+      "type": "official_textbook",
+      "title": "中国古代文学史（第二版）（上）",
+      "author": "袁世硕、陈文新",
+      "publisher": "高等教育出版社",
+      "publication_date": "2018-01",
+      "isbn": "9787040501087",
+      "term": "2025秋",
+      "section_code": "CHIN20005.01",
+      "source_ids": [
+        "OFFICIAL-SYLLABUS-1001977"
+      ]
+    },
+    {
+      "type": "official_textbook",
+      "title": "中国古代文学史（第二版）（上）",
+      "author": "袁世硕、陈文新",
+      "publisher": "高等教育出版社",
+      "publication_date": "2018-01",
+      "isbn": "9787040501087",
+      "term": "2025秋",
+      "section_code": "CHIN20005.02",
+      "source_ids": [
+        "OFFICIAL-SYLLABUS-1001978"
+      ]
+    }
+  ],
+  "student_reviews_and_discussions": [
+    {
+      "source_id": "DANKE-362",
+      "source_type": "danke",
+      "record_type": "brief_opinion",
+      "canonical_url": "https://danke.fduhole.com/api/reviews/362",
+      "reading_status": "full_returned_text",
+      "mapping_status": "verified course assignment from curated evidence",
+      "adoption": "adopted_limited",
+      "teacher_if_explicit": "陈特",
+      "term_as_stated": "正文修读学期未明确",
+      "indexed_terms": [
+        "2022秋"
+      ],
+      "raw_body_status": "published_redacted",
+      "raw_year": 2022,
+      "raw_semester": 1,
+      "indexed_course_periods": null,
+      "body_term_if_explicit": null,
+      "body_claimed_calendar_terms": [],
+      "body_term_conflict": false,
+      "review_time_conflict": null,
+      "index_conflict_note": "结尾“下学期见”不足以确定本条评价的修读期。",
+      "term_scope": "API所挂课程索引期：2022秋；依据官方客户端学年/学期映射。它不自动证明作者实际修读期；正文明确时间或冲突另行保留。 结尾“下学期见”不足以确定本条评价的修读期。",
+      "body_term_precision": "relative_or_stage_only",
+      "body_term_scope": "relative_reference_not_resolvable_to_calendar_term",
+      "relative_period_phrases": [
+        "下学期"
+      ],
+      "semester_mapping_source": "https://github.com/DanXi-Dev/DanXi/blob/3c1f5f026fbc7ca50e151865f813cdb381807abe/lib/model/danke/course.dart#L36-L45",
+      "body_calendar_terms_parsed": [],
+      "body_claimed_target_terms": [],
+      "indexed_target_terms": [],
+      "target_period_note": "非目标期、相对或未知修读期，不当作目标期直接反馈。",
+      "period_status": "非目标期、相对或未知修读期，不当作目标期直接反馈。",
+      "summary": "作者称陈特老师讲课有趣，能学到知识和研究方法，课堂气氛轻松。推荐教师和书目，但未提作业或给分。",
+      "limitations": "匿名作者的个人叙述；成绩及感受仅代表其个人。API year/semester保留原值，不由发帖日期推定；历史课评不等于当前教学安排。",
+      "reason": ""
+    },
+    {
+      "source_id": "DANKE-572",
+      "source_type": "danke",
+      "record_type": "detailed_review",
+      "canonical_url": "https://danke.fduhole.com/api/reviews/572",
+      "reading_status": "full_returned_text",
+      "mapping_status": "verified course assignment from curated evidence",
+      "adoption": "adopted_limited",
+      "teacher_if_explicit": "陈特",
+      "term_as_stated": "正文修读学期未明确",
+      "indexed_terms": [
+        "2022秋"
+      ],
+      "raw_body_status": "published_redacted",
+      "raw_year": 2022,
+      "raw_semester": 1,
+      "indexed_course_periods": null,
+      "body_term_if_explicit": null,
+      "body_claimed_calendar_terms": null,
+      "body_term_conflict": false,
+      "review_time_conflict": null,
+      "index_conflict_note": null,
+      "term_scope": "API所挂课程索引期：2022秋；依据官方客户端学年/学期映射。它不自动证明作者实际修读期；正文明确时间或冲突另行保留。",
+      "body_term_precision": null,
+      "body_term_scope": null,
+      "relative_period_phrases": null,
+      "semester_mapping_source": "https://github.com/DanXi-Dev/DanXi/blob/3c1f5f026fbc7ca50e151865f813cdb381807abe/lib/model/danke/course.dart#L36-L45",
+      "body_calendar_terms_parsed": [],
+      "body_claimed_target_terms": [],
+      "indexed_target_terms": [],
+      "target_period_note": "非目标期、相对或未知修读期，不当作目标期直接反馈。",
+      "period_status": "非目标期、相对或未知修读期，不当作目标期直接反馈。",
+      "summary": "课程涉及文献学、古籍和书目，作者认可课堂知识及推荐阅读。考核包括期中期末默写、名词解释和简答，文中给出考勤10%、期中20%、期末70%。",
+      "limitations": "匿名作者的个人叙述；成绩及感受仅代表其个人。API year/semester保留原值，不由发帖日期推定；历史课评不等于当前教学安排。",
+      "reason": ""
+    },
+    {
+      "source_id": "DANKE-4648",
+      "source_type": "danke",
+      "record_type": "detailed_review",
+      "canonical_url": "https://danke.fduhole.com/api/reviews/4648",
+      "reading_status": "full_returned_text",
+      "mapping_status": "verified course assignment from curated evidence",
+      "adoption": "adopted_limited",
+      "teacher_if_explicit": "汪习波",
+      "term_as_stated": "25秋（正文）",
+      "indexed_terms": [
+        "2020秋"
+      ],
+      "raw_body_status": "published_redacted",
+      "raw_year": 2020,
+      "raw_semester": 1,
+      "indexed_course_periods": null,
+      "body_term_if_explicit": "25秋（正文）",
+      "body_claimed_calendar_terms": [
+        "2025秋"
+      ],
+      "body_term_conflict": true,
+      "review_time_conflict": null,
+      "index_conflict_note": "API 2020/S1映射2020秋；作者另问“为什么只有20-21”，root已核实当时仅该选项可选。并列保留，不因索引否定正文。",
+      "term_scope": "API所挂课程索引期：2020秋；依据官方客户端学年/学期映射。它不自动证明作者实际修读期；正文明确时间或冲突另行保留。 时间冲突：正文为2025秋，索引为2020秋；均保留。 API 2020/S1映射2020秋；作者另问“为什么只有20-21”，root已核实当时仅该选项可选。并列保留，不因索引否定正文。",
+      "body_term_precision": "single_term",
+      "body_term_scope": "author_course_period",
+      "relative_period_phrases": [],
+      "semester_mapping_source": "https://github.com/DanXi-Dev/DanXi/blob/3c1f5f026fbc7ca50e151865f813cdb381807abe/lib/model/danke/course.dart#L36-L45",
+      "body_calendar_terms_parsed": [
+        "2025秋"
+      ],
+      "body_claimed_target_terms": [
+        "2025秋"
+      ],
+      "indexed_target_terms": [],
+      "target_period_note": "正文明确自述目标期，仍核对教师及索引冲突。",
+      "period_status": "正文明确自述目标期，仍核对教师及索引冲突。",
+      "summary": "作者自述修读2025秋，称汪习波重文本细读、课堂思路跳跃；平时有篇目背诵，期末需准备约七万字并考得细。作者自述获A；API原始year=2020、semester=1，二者并列保留。",
+      "limitations": "匿名作者的个人叙述；成绩及感受仅代表其个人。API year/semester保留原值，不由发帖日期推定；历史课评不等于当前教学安排。 正文明确称2025秋，API原始year=2020、semester=1；两者并列保留，不据此解释学期。",
+      "reason": ""
+    },
+    {
+      "source_id": "DANKE-4860",
+      "source_type": "danke",
+      "record_type": "detailed_review",
+      "canonical_url": "https://danke.fduhole.com/api/reviews/4860",
+      "reading_status": "full_returned_text",
+      "mapping_status": "verified course assignment from curated evidence",
+      "adoption": "adopted_limited",
+      "teacher_if_explicit": "汪习波",
+      "term_as_stated": "25秋（标题）",
+      "indexed_terms": [
+        "2020秋"
+      ],
+      "raw_body_status": "published_redacted",
+      "raw_year": 2020,
+      "raw_semester": 1,
+      "indexed_course_periods": null,
+      "body_term_if_explicit": "25秋（标题）",
+      "body_claimed_calendar_terms": [
+        "2025秋"
+      ],
+      "body_term_conflict": true,
+      "review_time_conflict": null,
+      "index_conflict_note": "API 2020/S1映射2020秋，与标题自述冲突；并列保留。",
+      "term_scope": "API所挂课程索引期：2020秋；依据官方客户端学年/学期映射。它不自动证明作者实际修读期；正文明确时间或冲突另行保留。 时间冲突：正文为2025秋，索引为2020秋；均保留。 API 2020/S1映射2020秋，与标题自述冲突；并列保留。",
+      "body_term_precision": "single_term",
+      "body_term_scope": "author_course_period",
+      "relative_period_phrases": [],
+      "semester_mapping_source": "https://github.com/DanXi-Dev/DanXi/blob/3c1f5f026fbc7ca50e151865f813cdb381807abe/lib/model/danke/course.dart#L36-L45",
+      "body_calendar_terms_parsed": [
+        "2025秋"
+      ],
+      "body_claimed_target_terms": [
+        "2025秋"
+      ],
+      "indexed_target_terms": [],
+      "target_period_note": "正文明确自述目标期，仍核对教师及索引冲突。",
+      "period_status": "正文明确自述目标期，仍核对教师及索引冲突。",
+      "summary": "作者自述修读2025秋，认为要求含糊，期末约七万字且考得细、与课堂关联少。其自述坚持出勤、预习并邮件交流，最终得A；API年份原值另记。",
+      "limitations": "匿名作者的个人叙述；成绩及感受仅代表其个人。API year/semester保留原值，不由发帖日期推定；历史课评不等于当前教学安排。 正文明确称2025秋，API原始year=2020、semester=1；两者并列保留，不据此解释学期。",
+      "reason": ""
+    },
+    {
+      "source_id": "DANKE-4985",
+      "source_type": "danke",
+      "record_type": "detailed_review",
+      "canonical_url": "https://danke.fduhole.com/api/reviews/4985",
+      "reading_status": "full_returned_text",
+      "mapping_status": "verified course assignment from curated evidence",
+      "adoption": "adopted_limited",
+      "teacher_if_explicit": "汪习波",
+      "term_as_stated": "25秋（标题）",
+      "indexed_terms": [
+        "2020秋"
+      ],
+      "raw_body_status": "published_redacted",
+      "raw_year": 2020,
+      "raw_semester": 1,
+      "indexed_course_periods": null,
+      "body_term_if_explicit": "25秋（标题）",
+      "body_claimed_calendar_terms": [
+        "2025秋"
+      ],
+      "body_term_conflict": true,
+      "review_time_conflict": null,
+      "index_conflict_note": "API 2020/S1映射2020秋，与标题/正文自述冲突；并列保留。",
+      "term_scope": "API所挂课程索引期：2020秋；依据官方客户端学年/学期映射。它不自动证明作者实际修读期；正文明确时间或冲突另行保留。 时间冲突：正文为2025秋，索引为2020秋；均保留。 API 2020/S1映射2020秋，与标题/正文自述冲突；并列保留。",
+      "body_term_precision": "single_term",
+      "body_term_scope": "author_course_period",
+      "relative_period_phrases": [],
+      "semester_mapping_source": "https://github.com/DanXi-Dev/DanXi/blob/3c1f5f026fbc7ca50e151865f813cdb381807abe/lib/model/danke/course.dart#L36-L45",
+      "body_calendar_terms_parsed": [
+        "2025秋"
+      ],
+      "body_claimed_target_terms": [
+        "2025秋"
+      ],
+      "indexed_target_terms": [],
+      "target_period_note": "正文明确自述目标期，仍核对教师及索引冲突。",
+      "period_status": "正文明确自述目标期，仍核对教师及索引冲突。",
+      "summary": "作者称课堂思路跳跃、重文本细读；期中仅有一篇背诵，期末范围约七万字。作者自述背诵吃力但获A，正文称2025秋而API year=2020。",
+      "limitations": "匿名作者的个人叙述；成绩及感受仅代表其个人。API year/semester保留原值，不由发帖日期推定；历史课评不等于当前教学安排。 正文明确称2025秋，API原始year=2020、semester=1；两者并列保留，不据此解释学期。",
+      "reason": ""
+    },
+    {
+      "source_id": "DANKE-5250",
+      "source_type": "danke",
+      "record_type": "detailed_review",
+      "canonical_url": "https://danke.fduhole.com/api/reviews/5250",
+      "reading_status": "full_returned_text",
+      "mapping_status": "verified course assignment from curated evidence",
+      "adoption": "adopted_limited",
+      "teacher_if_explicit": "汪习波",
+      "term_as_stated": "25秋（标题）",
+      "indexed_terms": [
+        "2020秋"
+      ],
+      "raw_body_status": "published_redacted",
+      "raw_year": 2020,
+      "raw_semester": 1,
+      "indexed_course_periods": null,
+      "body_term_if_explicit": "25秋（标题）",
+      "body_claimed_calendar_terms": [
+        "2025秋"
+      ],
+      "body_term_conflict": true,
+      "review_time_conflict": null,
+      "index_conflict_note": "API 2020/S1映射2020秋，与标题自述冲突；并列保留。",
+      "term_scope": "API所挂课程索引期：2020秋；依据官方客户端学年/学期映射。它不自动证明作者实际修读期；正文明确时间或冲突另行保留。 时间冲突：正文为2025秋，索引为2020秋；均保留。 API 2020/S1映射2020秋，与标题自述冲突；并列保留。",
+      "body_term_precision": "single_term",
+      "body_term_scope": "author_course_period",
+      "relative_period_phrases": [],
+      "semester_mapping_source": "https://github.com/DanXi-Dev/DanXi/blob/3c1f5f026fbc7ca50e151865f813cdb381807abe/lib/model/danke/course.dart#L36-L45",
+      "body_calendar_terms_parsed": [
+        "2025秋"
+      ],
+      "body_claimed_target_terms": [
+        "2025秋"
+      ],
+      "indexed_target_terms": [],
+      "target_period_note": "正文明确自述目标期，仍核对教师及索引冲突。",
+      "period_status": "正文明确自述目标期，仍核对教师及索引冲突。",
+      "summary": "作者自述修读2025秋，觉得课堂难懂，期末前收到约七万字材料且考得细，最后得B+。API元数据year=2020、semester=1与正文年份并列保留。",
+      "limitations": "匿名作者的个人叙述；成绩及感受仅代表其个人。API year/semester保留原值，不由发帖日期推定；历史课评不等于当前教学安排。 正文明确称2025秋，API原始year=2020、semester=1；两者并列保留，不据此解释学期。",
+      "reason": ""
+    },
+    {
+      "source_id": "DANKE-5803",
+      "source_type": "danke",
+      "record_type": "detailed_review",
+      "canonical_url": "https://danke.fduhole.com/api/reviews/5803",
+      "reading_status": "full_returned_text",
+      "mapping_status": "verified course assignment from curated evidence",
+      "adoption": "adopted_limited",
+      "teacher_if_explicit": "汪习波",
+      "term_as_stated": "正文修读学期未明确",
+      "indexed_terms": [
+        "2020秋"
+      ],
+      "raw_body_status": "published_redacted",
+      "raw_year": 2020,
+      "raw_semester": 1,
+      "indexed_course_periods": null,
+      "body_term_if_explicit": null,
+      "body_claimed_calendar_terms": [],
+      "body_term_conflict": false,
+      "review_time_conflict": null,
+      "index_conflict_note": "标题描述年级/学期阶段，不含公历年份。",
+      "term_scope": "API所挂课程索引期：2020秋；依据官方客户端学年/学期映射。它不自动证明作者实际修读期；正文明确时间或冲突另行保留。 标题描述年级/学期阶段，不含公历年份。",
+      "body_term_precision": "relative_or_stage_only",
+      "body_term_scope": "relative_reference_not_resolvable_to_calendar_term",
+      "relative_period_phrases": [
+        "大一上"
+      ],
+      "semester_mapping_source": "https://github.com/DanXi-Dev/DanXi/blob/3c1f5f026fbc7ca50e151865f813cdb381807abe/lib/model/danke/course.dart#L36-L45",
+      "body_calendar_terms_parsed": [],
+      "body_claimed_target_terms": [],
+      "indexed_target_terms": [],
+      "target_period_note": "非目标期、相对或未知修读期，不当作目标期直接反馈。",
+      "period_status": "非目标期、相对或未知修读期，不当作目标期直接反馈。",
+      "summary": "作者称课堂有启发性观点并重视文本，但期末需背约七万字且考试细、与授课关联有限。作者表示短期备考后失望，未报等第。",
+      "limitations": "匿名作者的个人叙述；成绩及感受仅代表其个人。API year/semester保留原值，不由发帖日期推定；历史课评不等于当前教学安排。",
+      "reason": ""
+    },
+    {
+      "source_id": "DANKE-3354",
+      "source_type": "danke",
+      "record_type": "brief_opinion",
+      "canonical_url": "https://danke.fduhole.com/api/reviews/3354",
+      "reading_status": "full_returned_text",
+      "mapping_status": "verified course assignment from curated evidence",
+      "adoption": "adopted_limited",
+      "teacher_if_explicit": "陈特",
+      "term_as_stated": "正文修读学期未明确",
+      "indexed_terms": [
+        "2024秋"
+      ],
+      "raw_body_status": "published_redacted",
+      "raw_year": 2024,
+      "raw_semester": 1,
+      "indexed_course_periods": null,
+      "body_term_if_explicit": null,
+      "body_claimed_calendar_terms": null,
+      "body_term_conflict": false,
+      "review_time_conflict": null,
+      "index_conflict_note": null,
+      "term_scope": "API所挂课程索引期：2024秋；依据官方客户端学年/学期映射。它不自动证明作者实际修读期；正文明确时间或冲突另行保留。",
+      "body_term_precision": null,
+      "body_term_scope": null,
+      "relative_period_phrases": null,
+      "semester_mapping_source": "https://github.com/DanXi-Dev/DanXi/blob/3c1f5f026fbc7ca50e151865f813cdb381807abe/lib/model/danke/course.dart#L36-L45",
+      "body_calendar_terms_parsed": [],
+      "body_claimed_target_terms": [],
+      "indexed_target_terms": [],
+      "target_period_note": "非目标期、相对或未知修读期，不当作目标期直接反馈。",
+      "period_status": "非目标期、相对或未知修读期，不当作目标期直接反馈。",
+      "summary": "作者称陈特老师讲课充实，期中小测为有范围的填空；作者认为准备充分即可得满分。对期末给分评价积极，但没报个人等级。",
+      "limitations": "匿名作者的个人叙述；成绩及感受仅代表其个人。API year/semester保留原值，不由发帖日期推定；历史课评不等于当前教学安排。",
+      "reason": ""
+    }
+  ],
+  "index_only_hits": [],
+  "quantitative_observations": [],
+  "offerings": [
+    {
+      "term": "2025秋",
+      "section_code": "CHIN20005.01",
+      "lesson_id": 1001977,
+      "course_code": "CHIN20005",
+      "course_name": "中国古代文学史(上)",
+      "teachers": [
+        "汪习波"
+      ],
+      "credits": 2,
+      "task_level": "本科",
+      "open_department": "中国语言文学系",
+      "course_type": "必修课程",
+      "course_table_type": "基础和专业：专业课程",
+      "exam_mode": "闭卷",
+      "total_hours": 36,
+      "source_ids": [
+        "OFFICIAL-OFFERING-1001977",
+        "OFFICIAL-SYLLABUS-1001977"
+      ],
+      "official_syllabus": {
+        "status": "structured_text_extracted",
+        "source_id": "OFFICIAL-SYLLABUS-1001977",
+        "section_titles": [
+          "课程简介（中文）",
+          "课程简介（英文）",
+          "教学目标",
+          "教学方式",
+          "教学内容与进度安排",
+          "课程考核与成绩评定",
+          "教材",
+          "教学参考资料",
+          "教学团队成员"
+        ],
+        "prerequisites": [],
+        "assessment": [
+          {
+            "criteria": "课堂表现Participation",
+            "percentage": 10.0,
+            "standard": "课堂答问与讨论"
+          },
+          {
+            "criteria": "作业/实验/实践Assignment",
+            "percentage": 30.0,
+            "standard": "背诵篇目30首。"
+          },
+          {
+            "criteria": "期末考试Final Examination：闭卷 ",
+            "percentage": 60.0,
+            "standard": "试卷批改结果"
+          }
+        ],
+        "grade_rule": "等级制",
+        "textbooks": [
+          {
+            "name": "中国古代文学史（第二版）（上）",
+            "author": "袁世硕、陈文新",
+            "publishingHouse": "高等教育出版社",
+            "date": "2018-01",
+            "isbn": "9787040501087"
+          }
+        ],
+        "syllabus_id": 1499,
+        "error": null
+      }
+    },
+    {
+      "term": "2025秋",
+      "section_code": "CHIN20005.02",
+      "lesson_id": 1001978,
+      "course_code": "CHIN20005",
+      "course_name": "中国古代文学史(上)",
+      "teachers": [
+        "陈特"
+      ],
+      "credits": 2,
+      "task_level": "本科",
+      "open_department": "中国语言文学系",
+      "course_type": "必修课程",
+      "course_table_type": "基础和专业：专业课程",
+      "exam_mode": "闭卷",
+      "total_hours": 36,
+      "source_ids": [
+        "OFFICIAL-OFFERING-1001978",
+        "OFFICIAL-SYLLABUS-1001978"
+      ],
+      "official_syllabus": {
+        "status": "structured_text_extracted",
+        "source_id": "OFFICIAL-SYLLABUS-1001978",
+        "section_titles": [
+          "课程简介（中文）",
+          "课程简介（英文）",
+          "教学目标",
+          "教学方式",
+          "教学内容与进度安排",
+          "课程考核与成绩评定",
+          "教材",
+          "教学参考资料",
+          "教学团队成员"
+        ],
+        "prerequisites": [],
+        "assessment": [
+          {
+            "criteria": "出勤Attendance",
+            "percentage": 10.0,
+            "standard": "是否出席"
+          },
+          {
+            "criteria": "期中考试Midterm Examination",
+            "percentage": 20.0,
+            "standard": "期中小测"
+          },
+          {
+            "criteria": "期末考试Final Examination：闭卷 ",
+            "percentage": 70.0,
+            "standard": "闭卷考试评分"
+          }
+        ],
+        "grade_rule": "等级制",
+        "textbooks": [
+          {
+            "name": "中国古代文学史（第二版）（上）",
+            "author": "袁世硕、陈文新",
+            "publishingHouse": "高等教育出版社",
+            "date": "2018-01",
+            "isbn": "9787040501087"
+          }
+        ],
+        "syllabus_id": 331,
+        "error": null
+      }
+    }
+  ],
+  "official_metadata": {
+    "department": "中国语言文学系",
+    "target_terms": [
+      "2025秋"
+    ],
+    "target_teachers": [
+      "陈特",
+      "汪习波"
+    ],
+    "task_levels": [
+      "本科"
+    ],
+    "section_count": 2,
+    "official_offering_count_in_snapshot": 2,
+    "course_type_values_by_offering": [
+      "必修课程"
+    ],
+    "course_table_type_values_by_offering": [
+      "基础和专业：专业课程"
+    ],
+    "source_ids": [
+      "OFFICIAL-OFFERING-1001977",
+      "OFFICIAL-OFFERING-1001978"
+    ]
+  },
+  "comparison_and_summary": {
+    "teaching_and_learning": "本快照没有可读的课程体验材料，无法归纳学习收获。",
+    "workload": "本快照没有可读的课程体验材料，无法归纳准备或作业量。",
+    "assessment": "本快照没有可读的课程体验材料，无法归纳考核或评分。",
+    "grading_and_risk": "",
+    "teacher_and_term_differences": "已读来源未明确写出教师姓名；不能据课程名或现任教师表补认授课者。 来源没有可确认的修读学期。",
+    "who_it_suits": "",
+    "source_ids": [
+      "DANKE-362",
+      "DANKE-572",
+      "DANKE-4648",
+      "DANKE-4860",
+      "DANKE-4985",
+      "DANKE-5250",
+      "DANKE-5803",
+      "DANKE-3354"
+    ],
+    "section_source_ids": {
+      "teaching_and_learning": [],
+      "workload": [],
+      "assessment": [],
+      "teacher_and_term_differences": []
+    },
+    "manual_comparison": {
+      "status": "human_synthesized",
+      "text": "汪习波班四篇正文自述25秋，均提到期末约七万字范围、细节考查与背诵压力；有人称课堂难懂或与试题联系弱，个体自述A、A或B+不一（DANKE-4648、DANKE-4860、DANKE-4985、DANKE-5250）。这四篇API均索引2020/S1，与正文时间冲突并列保留。陈特历史班则更偏文献/古籍和默写、名词解释等考核（DANKE-572、DANKE-3354）。",
+      "evidence_ids": [
+        "DANKE-4648",
+        "DANKE-4860",
+        "DANKE-4985",
+        "DANKE-5250",
+        "DANKE-572",
+        "DANKE-3354"
+      ],
+      "limitations": "四篇正文自述2025秋，但API均索引为2020/S1。DANKE-4648作者还解释当时可选列表里只有20–21学年选项；保留作者的目标期自述和API挂载值，不因这个冲突否定其经历，也不替冲突补因果。汪习波与陈特班级不可混为一体，个体等第不代表分布。",
+      "confidence": "none：本快照无已读、可采用来源。"
+    },
+    "confidence": "none：本快照无已读、可采用来源。",
+    "limitations": "当前已读材料没有可采用的课程体验证据；未读索引、广告、提问或仅仓库摘要不计入。"
+  },
+  "research_snapshot": {
+    "date": "2026-10-27",
+    "curated_evidence_record_count": 535,
+    "synthesis_source_assignment_count": 522,
+    "public_review_index_record_count": 167,
+    "public_adopted_findings_count": 11
+  }
+}

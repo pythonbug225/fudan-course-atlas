@@ -1,0 +1,1328 @@
+{
+  "schema_version": 1,
+  "course": {
+    "code": "CHIN20006",
+    "name": "中国古代文学史(中)",
+    "department": "中国语言文学系",
+    "credits": 2,
+    "term": "2026春",
+    "teachers": [
+      "侯体健",
+      "赵惠俊"
+    ],
+    "section_code": null,
+    "class_type": "ordinary",
+    "course_type_code": null,
+    "program_year": null,
+    "program_names": [],
+    "required_or_elective": null
+  },
+  "aliases": {
+    "course_names": [
+      {
+        "value": "中国古代文学史中",
+        "kind": "course_name_alias",
+        "status": "query_candidate",
+        "source_url": null,
+        "evidence_id": null,
+        "limitation": "仅机械去书名号/册别生成，不能视为真实俗称"
+      },
+      {
+        "value": "中国古代文学史",
+        "kind": "course_name_alias",
+        "status": "query_candidate",
+        "source_url": null,
+        "evidence_id": null,
+        "limitation": "仅机械去书名号/册别生成，不能视为真实俗称"
+      },
+      {
+        "value": "古文史",
+        "kind": "course_name_alias",
+        "status": "query_candidate",
+        "source_url": null,
+        "evidence_id": null,
+        "limitation": "已检索目标原评与2018公开班级笔记未找到这个分册/概括简称；候选需完整课名或教师锚定"
+      }
+    ],
+    "teacher_names_or_pinyin": [
+      {
+        "teacher": "赵惠俊",
+        "value": "赵惠俊",
+        "kind": "canonical_name",
+        "status": "official_target_name"
+      },
+      {
+        "teacher": "赵惠俊",
+        "value": "zhaohuijun",
+        "kind": "full_joined",
+        "status": "generated_query_candidate"
+      },
+      {
+        "teacher": "赵惠俊",
+        "value": "zhao hui jun",
+        "kind": "full_spaced",
+        "status": "generated_query_candidate"
+      },
+      {
+        "teacher": "赵惠俊",
+        "value": "zhj",
+        "kind": "initials",
+        "status": "generated_query_candidate"
+      },
+      {
+        "teacher": "赵惠俊",
+        "value": "赵老师",
+        "kind": "teacher_alias",
+        "status": "query_candidate",
+        "source_url": null,
+        "evidence_id": null,
+        "limitation": "姓氏称谓非唯一别名，仅与完整课名联合查询"
+      },
+      {
+        "teacher": "赵惠俊",
+        "value": "小赵",
+        "kind": "teacher_alias",
+        "status": "source_attested",
+        "source_url": "https://danke.fduhole.com/api/v3/course_groups/168",
+        "evidence_id": "DANKE-REVIEW-3901",
+        "limitation": "完整课程与教师锚点仅在原评#3901的中国文学传统/赵惠俊上成立，不孤立将小赵映射为其他教师"
+      },
+      {
+        "teacher": "侯体健",
+        "value": "侯体健",
+        "kind": "canonical_name",
+        "status": "official_target_name"
+      },
+      {
+        "teacher": "侯体健",
+        "value": "houtijian",
+        "kind": "full_joined",
+        "status": "generated_query_candidate"
+      },
+      {
+        "teacher": "侯体健",
+        "value": "hou ti jian",
+        "kind": "full_spaced",
+        "status": "generated_query_candidate"
+      },
+      {
+        "teacher": "侯体健",
+        "value": "htj",
+        "kind": "initials",
+        "status": "generated_query_candidate"
+      },
+      {
+        "teacher": "侯体健",
+        "value": "侯哥",
+        "kind": "teacher_alias",
+        "status": "source_attested",
+        "source_url": "https://www.sohu.com/a/252899039_820403",
+        "evidence_id": "PUB-CLASSNOTES-20180910",
+        "limitation": null
+      },
+      {
+        "teacher": "侯体健",
+        "value": "侯老师",
+        "kind": "teacher_alias",
+        "status": "query_candidate",
+        "source_url": null,
+        "evidence_id": null,
+        "limitation": "姓氏称谓非唯一别名，仅与完整课名联合查询"
+      }
+    ],
+    "ambiguous_matches": [
+      {
+        "value": "中国古代文学史中",
+        "kind": "course_name_alias",
+        "status": "query_candidate",
+        "source_url": null,
+        "evidence_id": null,
+        "limitation": "仅机械去书名号/册别生成，不能视为真实俗称"
+      },
+      {
+        "value": "中国古代文学史",
+        "kind": "course_name_alias",
+        "status": "query_candidate",
+        "source_url": null,
+        "evidence_id": null,
+        "limitation": "仅机械去书名号/册别生成，不能视为真实俗称"
+      },
+      {
+        "value": "古文史",
+        "kind": "course_name_alias",
+        "status": "query_candidate",
+        "source_url": null,
+        "evidence_id": null,
+        "limitation": "已检索目标原评与2018公开班级笔记未找到这个分册/概括简称；候选需完整课名或教师锚定"
+      },
+      {
+        "value": "zhongguogudaiwenxueshi(zhong)",
+        "kind": "course_pinyin_full_joined",
+        "status": "generated_query_candidate",
+        "limitation": "Generated transliteration is a search term, not an attested spoken alias."
+      },
+      {
+        "value": "zhong guo gu dai wen xue shi ( zhong )",
+        "kind": "course_pinyin_full_spaced",
+        "status": "generated_query_candidate",
+        "limitation": "Generated transliteration is a search term, not an attested spoken alias."
+      },
+      {
+        "value": "zggdwxs(z)",
+        "kind": "course_pinyin_initials",
+        "status": "generated_query_candidate",
+        "limitation": "Generated transliteration is a search term, not an attested spoken alias."
+      },
+      {
+        "teacher": "赵惠俊",
+        "value": "zhaohuijun",
+        "kind": "full_joined",
+        "status": "generated_query_candidate",
+        "limitation": "Generated transliteration is a search token, not proof of person identity."
+      },
+      {
+        "teacher": "赵惠俊",
+        "value": "zhao hui jun",
+        "kind": "full_spaced",
+        "status": "generated_query_candidate",
+        "limitation": "Generated transliteration is a search token, not proof of person identity."
+      },
+      {
+        "teacher": "赵惠俊",
+        "value": "zhj",
+        "kind": "initials",
+        "status": "generated_query_candidate",
+        "limitation": "Generated transliteration is a search token, not proof of person identity."
+      },
+      {
+        "teacher": "赵惠俊",
+        "value": "赵老师",
+        "kind": "teacher_alias",
+        "status": "query_candidate",
+        "source_url": null,
+        "evidence_id": null,
+        "limitation": "姓氏称谓非唯一别名，仅与完整课名联合查询"
+      },
+      {
+        "teacher": "侯体健",
+        "value": "houtijian",
+        "kind": "full_joined",
+        "status": "generated_query_candidate",
+        "limitation": "Generated transliteration is a search token, not proof of person identity."
+      },
+      {
+        "teacher": "侯体健",
+        "value": "hou ti jian",
+        "kind": "full_spaced",
+        "status": "generated_query_candidate",
+        "limitation": "Generated transliteration is a search token, not proof of person identity."
+      },
+      {
+        "teacher": "侯体健",
+        "value": "htj",
+        "kind": "initials",
+        "status": "generated_query_candidate",
+        "limitation": "Generated transliteration is a search token, not proof of person identity."
+      },
+      {
+        "teacher": "侯体健",
+        "value": "侯老师",
+        "kind": "teacher_alias",
+        "status": "query_candidate",
+        "source_url": null,
+        "evidence_id": null,
+        "limitation": "姓氏称谓非唯一别名，仅与完整课名联合查询"
+      }
+    ]
+  },
+  "progress": {
+    "owner": "",
+    "reviewer": "",
+    "status": "in_progress",
+    "queries": [
+      {
+        "query_id": "PLATFORM-CHIN20006-2026春-小红书",
+        "category": "canonical_title_teacher_platform_search",
+        "term": "2026春",
+        "query": "复旦 \"中国古代文学史\" (\"侯体健\" OR \"赵惠俊\") 课程 评价",
+        "status": "no_link_returned",
+        "search_scope": "platform_specific_external_search_index",
+        "domains": [
+          "xiaohongshu.com"
+        ],
+        "attempts": 1,
+        "returned_link_count": 0,
+        "confirmed_direct_reviews": 0,
+        "read_status": "search_index_only",
+        "source_file": "reports/公开平台逐课检索台账.csv",
+        "source_record_id": "PLATFORM-CHIN20006-2026春-小红书",
+        "source_record_pointer": "course_code=CHIN20006;terms=2026春;platform=小红书",
+        "limitation": "外部搜索索引覆盖有限；不代表站内不存在"
+      },
+      {
+        "query_id": "PLATFORM-CHIN20006-2026春-微信公众号",
+        "category": "canonical_title_teacher_platform_search",
+        "term": "2026春",
+        "query": "复旦 \"中国古代文学史\" (\"侯体健\" OR \"赵惠俊\") 课程 评价",
+        "status": "no_link_returned",
+        "search_scope": "platform_specific_external_search_index",
+        "domains": [
+          "mp.weixin.qq.com"
+        ],
+        "attempts": 1,
+        "returned_link_count": 0,
+        "confirmed_direct_reviews": 0,
+        "read_status": "search_index_only",
+        "source_file": "reports/公开平台逐课检索台账.csv",
+        "source_record_id": "PLATFORM-CHIN20006-2026春-微信公众号",
+        "source_record_pointer": "course_code=CHIN20006;terms=2026春;platform=微信公众号",
+        "limitation": "外部搜索索引覆盖有限；不代表站内不存在"
+      },
+      {
+        "query_id": "PLATFORM-CHIN20006-2026春-知乎",
+        "category": "canonical_title_teacher_platform_search",
+        "term": "2026春",
+        "query": "复旦 \"中国古代文学史\" (\"侯体健\" OR \"赵惠俊\") 课程 评价",
+        "status": "results_returned_no_adopted_review",
+        "search_scope": "platform_specific_external_search_index",
+        "domains": [
+          "zhihu.com"
+        ],
+        "attempts": 1,
+        "returned_link_count": 12,
+        "confirmed_direct_reviews": 0,
+        "read_status": "search_index_only",
+        "source_file": "reports/公开平台逐课检索台账.csv",
+        "source_record_id": "PLATFORM-CHIN20006-2026春-知乎",
+        "source_record_pointer": "course_code=CHIN20006;terms=2026春;platform=知乎",
+        "limitation": "外部搜索索引覆盖有限；不代表站内不存在"
+      },
+      {
+        "query_id": "PUBALIAS-00997",
+        "category": "course_alias",
+        "term": "中国古代文学史中",
+        "query": "复旦 \"侯体健\" \"中国古代文学史中\"",
+        "status": "completed",
+        "search_scope": "external_index_union_of_three_domains",
+        "domains": [
+          "zhihu.com",
+          "xiaohongshu.com",
+          "mp.weixin.qq.com"
+        ],
+        "attempts": 1,
+        "returned_link_count": 0,
+        "confirmed_direct_reviews": 0,
+        "read_status": "query execution only; not article reading",
+        "source_file": "reports/别名拼音扩展检索台账.csv",
+        "source_record_id": "PUBALIAS-00997",
+        "source_record_pointer": "query_id=PUBALIAS-00997",
+        "limitation": "A union-domain query is one logged record, not one execution per listed platform."
+      },
+      {
+        "query_id": "PUBALIAS-00998",
+        "category": "course_alias",
+        "term": "中国古代文学史",
+        "query": "复旦 \"侯体健\" \"中国古代文学史\"",
+        "status": "completed",
+        "search_scope": "external_index_union_of_three_domains",
+        "domains": [
+          "zhihu.com",
+          "xiaohongshu.com",
+          "mp.weixin.qq.com"
+        ],
+        "attempts": 1,
+        "returned_link_count": 0,
+        "confirmed_direct_reviews": 0,
+        "read_status": "query execution only; not article reading",
+        "source_file": "reports/别名拼音扩展检索台账.csv",
+        "source_record_id": "PUBALIAS-00998",
+        "source_record_pointer": "query_id=PUBALIAS-00998",
+        "limitation": "A union-domain query is one logged record, not one execution per listed platform."
+      },
+      {
+        "query_id": "PUBALIAS-00999",
+        "category": "course_pinyin_full_joined",
+        "term": "zhongguogudaiwenxueshi(zhong)",
+        "query": "复旦 \"侯体健\" \"zhongguogudaiwenxueshi(zhong)\"",
+        "status": "completed",
+        "search_scope": "external_index_union_of_three_domains",
+        "domains": [
+          "zhihu.com",
+          "xiaohongshu.com",
+          "mp.weixin.qq.com"
+        ],
+        "attempts": 1,
+        "returned_link_count": 0,
+        "confirmed_direct_reviews": 0,
+        "read_status": "query execution only; not article reading",
+        "source_file": "reports/别名拼音扩展检索台账.csv",
+        "source_record_id": "PUBALIAS-00999",
+        "source_record_pointer": "query_id=PUBALIAS-00999",
+        "limitation": "A union-domain query is one logged record, not one execution per listed platform."
+      },
+      {
+        "query_id": "PUBALIAS-01000",
+        "category": "course_pinyin_full_spaced",
+        "term": "zhong guo gu dai wen xue shi ( zhong )",
+        "query": "复旦 \"侯体健\" \"zhong guo gu dai wen xue shi ( zhong )\"",
+        "status": "completed",
+        "search_scope": "external_index_union_of_three_domains",
+        "domains": [
+          "zhihu.com",
+          "xiaohongshu.com",
+          "mp.weixin.qq.com"
+        ],
+        "attempts": 1,
+        "returned_link_count": 0,
+        "confirmed_direct_reviews": 0,
+        "read_status": "query execution only; not article reading",
+        "source_file": "reports/别名拼音扩展检索台账.csv",
+        "source_record_id": "PUBALIAS-01000",
+        "source_record_pointer": "query_id=PUBALIAS-01000",
+        "limitation": "A union-domain query is one logged record, not one execution per listed platform."
+      },
+      {
+        "query_id": "PUBALIAS-01001",
+        "category": "course_pinyin_initials",
+        "term": "zggdwxs(z)",
+        "query": "复旦 \"侯体健\" \"zggdwxs(z)\"",
+        "status": "completed",
+        "search_scope": "external_index_union_of_three_domains",
+        "domains": [
+          "zhihu.com",
+          "xiaohongshu.com",
+          "mp.weixin.qq.com"
+        ],
+        "attempts": 1,
+        "returned_link_count": 0,
+        "confirmed_direct_reviews": 0,
+        "read_status": "query execution only; not article reading",
+        "source_file": "reports/别名拼音扩展检索台账.csv",
+        "source_record_id": "PUBALIAS-01001",
+        "source_record_pointer": "query_id=PUBALIAS-01001",
+        "limitation": "A union-domain query is one logged record, not one execution per listed platform."
+      },
+      {
+        "query_id": "PUBALIAS-01002",
+        "category": "teacher_pinyin_full_joined",
+        "term": "houtijian",
+        "query": "复旦 \"中国古代文学史(中)\" \"houtijian\"",
+        "status": "completed",
+        "search_scope": "external_index_union_of_three_domains",
+        "domains": [
+          "zhihu.com",
+          "xiaohongshu.com",
+          "mp.weixin.qq.com"
+        ],
+        "attempts": 1,
+        "returned_link_count": 0,
+        "confirmed_direct_reviews": 0,
+        "read_status": "query execution only; not article reading",
+        "source_file": "reports/别名拼音扩展检索台账.csv",
+        "source_record_id": "PUBALIAS-01002",
+        "source_record_pointer": "query_id=PUBALIAS-01002",
+        "limitation": "A union-domain query is one logged record, not one execution per listed platform."
+      },
+      {
+        "query_id": "PUBALIAS-01003",
+        "category": "teacher_pinyin_full_spaced",
+        "term": "hou ti jian",
+        "query": "复旦 \"中国古代文学史(中)\" \"hou ti jian\"",
+        "status": "completed",
+        "search_scope": "external_index_union_of_three_domains",
+        "domains": [
+          "zhihu.com",
+          "xiaohongshu.com",
+          "mp.weixin.qq.com"
+        ],
+        "attempts": 1,
+        "returned_link_count": 0,
+        "confirmed_direct_reviews": 0,
+        "read_status": "query execution only; not article reading",
+        "source_file": "reports/别名拼音扩展检索台账.csv",
+        "source_record_id": "PUBALIAS-01003",
+        "source_record_pointer": "query_id=PUBALIAS-01003",
+        "limitation": "A union-domain query is one logged record, not one execution per listed platform."
+      },
+      {
+        "query_id": "PUBALIAS-01004",
+        "category": "teacher_pinyin_initials",
+        "term": "htj",
+        "query": "复旦 \"中国古代文学史(中)\" \"htj\"",
+        "status": "completed",
+        "search_scope": "external_index_union_of_three_domains",
+        "domains": [
+          "zhihu.com",
+          "xiaohongshu.com",
+          "mp.weixin.qq.com"
+        ],
+        "attempts": 1,
+        "returned_link_count": 0,
+        "confirmed_direct_reviews": 0,
+        "read_status": "query execution only; not article reading",
+        "source_file": "reports/别名拼音扩展检索台账.csv",
+        "source_record_id": "PUBALIAS-01004",
+        "source_record_pointer": "query_id=PUBALIAS-01004",
+        "limitation": "A union-domain query is one logged record, not one execution per listed platform."
+      },
+      {
+        "query_id": "PUBALIAS-01005",
+        "category": "teacher_alias",
+        "term": "侯哥",
+        "query": "复旦 \"中国古代文学史(中)\" \"侯哥\"",
+        "status": "completed",
+        "search_scope": "external_index_union_of_three_domains",
+        "domains": [
+          "zhihu.com",
+          "xiaohongshu.com",
+          "mp.weixin.qq.com"
+        ],
+        "attempts": 1,
+        "returned_link_count": 0,
+        "confirmed_direct_reviews": 0,
+        "read_status": "query execution only; not article reading",
+        "source_file": "reports/别名拼音扩展检索台账.csv",
+        "source_record_id": "PUBALIAS-01005",
+        "source_record_pointer": "query_id=PUBALIAS-01005",
+        "limitation": "A union-domain query is one logged record, not one execution per listed platform."
+      },
+      {
+        "query_id": "PUBALIAS-01006",
+        "category": "teacher_alias",
+        "term": "侯老师",
+        "query": "复旦 \"中国古代文学史(中)\" \"侯老师\"",
+        "status": "completed",
+        "search_scope": "external_index_union_of_three_domains",
+        "domains": [
+          "zhihu.com",
+          "xiaohongshu.com",
+          "mp.weixin.qq.com"
+        ],
+        "attempts": 1,
+        "returned_link_count": 0,
+        "confirmed_direct_reviews": 0,
+        "read_status": "query execution only; not article reading",
+        "source_file": "reports/别名拼音扩展检索台账.csv",
+        "source_record_id": "PUBALIAS-01006",
+        "source_record_pointer": "query_id=PUBALIAS-01006",
+        "limitation": "A union-domain query is one logged record, not one execution per listed platform."
+      },
+      {
+        "query_id": "PUBALIAS-01007",
+        "category": "teacher_pinyin_full_joined",
+        "term": "zhaohuijun",
+        "query": "复旦 \"中国古代文学史(中)\" \"zhaohuijun\"",
+        "status": "completed",
+        "search_scope": "external_index_union_of_three_domains",
+        "domains": [
+          "zhihu.com",
+          "xiaohongshu.com",
+          "mp.weixin.qq.com"
+        ],
+        "attempts": 1,
+        "returned_link_count": 0,
+        "confirmed_direct_reviews": 0,
+        "read_status": "query execution only; not article reading",
+        "source_file": "reports/别名拼音扩展检索台账.csv",
+        "source_record_id": "PUBALIAS-01007",
+        "source_record_pointer": "query_id=PUBALIAS-01007",
+        "limitation": "A union-domain query is one logged record, not one execution per listed platform."
+      },
+      {
+        "query_id": "PUBALIAS-01008",
+        "category": "teacher_pinyin_full_spaced",
+        "term": "zhao hui jun",
+        "query": "复旦 \"中国古代文学史(中)\" \"zhao hui jun\"",
+        "status": "completed",
+        "search_scope": "external_index_union_of_three_domains",
+        "domains": [
+          "zhihu.com",
+          "xiaohongshu.com",
+          "mp.weixin.qq.com"
+        ],
+        "attempts": 1,
+        "returned_link_count": 0,
+        "confirmed_direct_reviews": 0,
+        "read_status": "query execution only; not article reading",
+        "source_file": "reports/别名拼音扩展检索台账.csv",
+        "source_record_id": "PUBALIAS-01008",
+        "source_record_pointer": "query_id=PUBALIAS-01008",
+        "limitation": "A union-domain query is one logged record, not one execution per listed platform."
+      },
+      {
+        "query_id": "PUBALIAS-01009",
+        "category": "teacher_pinyin_initials",
+        "term": "zhj",
+        "query": "复旦 \"中国古代文学史(中)\" \"zhj\"",
+        "status": "completed",
+        "search_scope": "external_index_union_of_three_domains",
+        "domains": [
+          "zhihu.com",
+          "xiaohongshu.com",
+          "mp.weixin.qq.com"
+        ],
+        "attempts": 1,
+        "returned_link_count": 0,
+        "confirmed_direct_reviews": 0,
+        "read_status": "query execution only; not article reading",
+        "source_file": "reports/别名拼音扩展检索台账.csv",
+        "source_record_id": "PUBALIAS-01009",
+        "source_record_pointer": "query_id=PUBALIAS-01009",
+        "limitation": "A union-domain query is one logged record, not one execution per listed platform."
+      },
+      {
+        "query_id": "PUBALIAS-01010",
+        "category": "teacher_alias",
+        "term": "赵老师",
+        "query": "复旦 \"中国古代文学史(中)\" \"赵老师\"",
+        "status": "completed",
+        "search_scope": "external_index_union_of_three_domains",
+        "domains": [
+          "zhihu.com",
+          "xiaohongshu.com",
+          "mp.weixin.qq.com"
+        ],
+        "attempts": 1,
+        "returned_link_count": 0,
+        "confirmed_direct_reviews": 0,
+        "read_status": "query execution only; not article reading",
+        "source_file": "reports/别名拼音扩展检索台账.csv",
+        "source_record_id": "PUBALIAS-01010",
+        "source_record_pointer": "query_id=PUBALIAS-01010",
+        "limitation": "A union-domain query is one logged record, not one execution per listed platform."
+      },
+      {
+        "query_id": "PUBFOLLOW-0019",
+        "category": "double_abbreviation_initials",
+        "term": "古文史",
+        "query": "复旦 古文史 htj",
+        "status": "completed",
+        "search_scope": "external_index_union_of_three_domains",
+        "domains": [
+          "zhihu.com",
+          "xiaohongshu.com",
+          "mp.weixin.qq.com"
+        ],
+        "attempts": 2,
+        "returned_link_count": 0,
+        "confirmed_direct_reviews": null,
+        "read_status": "completed alias follow-up query",
+        "source_file": "reports/别名来源补查台账.csv",
+        "source_record_id": "PUBFOLLOW-0019",
+        "source_record_pointer": "query_id=PUBFOLLOW-0019",
+        "limitation": "Completed query does not imply a result page or review was adopted."
+      },
+      {
+        "query_id": "PLAINPINYIN-0061",
+        "category": "plain_pinyin_candidate",
+        "term": "zhongguogudaiwenxueshizhong",
+        "query": "复旦 zhongguogudaiwenxueshizhong",
+        "status": "completed",
+        "search_scope": "external_index_plain_pinyin_query",
+        "domains": [],
+        "attempts": 1,
+        "returned_link_count": null,
+        "confirmed_direct_reviews": null,
+        "read_status": "返回摘要已记录并程序初筛，未计页面全文阅读",
+        "source_file": "reports/纯拼音补查台账.csv",
+        "source_record_id": "PLAINPINYIN-0061",
+        "source_record_pointer": "查询ID=PLAINPINYIN-0061",
+        "limitation": "Search summaries were screened; not counted as full-page reading."
+      },
+      {
+        "query_id": "PLAINPINYIN-0062",
+        "category": "plain_pinyin_candidate",
+        "term": "zhong guo gu dai wen xue shi zhong",
+        "query": "复旦 zhong guo gu dai wen xue shi zhong",
+        "status": "completed",
+        "search_scope": "external_index_plain_pinyin_query",
+        "domains": [],
+        "attempts": 1,
+        "returned_link_count": null,
+        "confirmed_direct_reviews": null,
+        "read_status": "返回摘要已记录并程序初筛，未计页面全文阅读",
+        "source_file": "reports/纯拼音补查台账.csv",
+        "source_record_id": "PLAINPINYIN-0062",
+        "source_record_pointer": "查询ID=PLAINPINYIN-0062",
+        "limitation": "Search summaries were screened; not counted as full-page reading."
+      },
+      {
+        "query_id": "PLAINPINYIN-0063",
+        "category": "plain_pinyin_candidate",
+        "term": "zggdwxsz",
+        "query": "复旦 zggdwxsz",
+        "status": "completed",
+        "search_scope": "external_index_plain_pinyin_query",
+        "domains": [],
+        "attempts": 1,
+        "returned_link_count": null,
+        "confirmed_direct_reviews": null,
+        "read_status": "返回摘要已记录并程序初筛，未计页面全文阅读",
+        "source_file": "reports/纯拼音补查台账.csv",
+        "source_record_id": "PLAINPINYIN-0063",
+        "source_record_pointer": "查询ID=PLAINPINYIN-0063",
+        "limitation": "Search summaries were screened; not counted as full-page reading."
+      }
+    ],
+    "query_status_counts": {
+      "no_link_returned": 2,
+      "results_returned_no_adopted_review": 1,
+      "completed": 18
+    },
+    "query_coverage_note": "已执行课程全名、可证别名、教师全名及拼音/首字母组合的公开索引检索。跨域联合查询按一条日志记录，不按列出的域重复计数。查询完成不表示结果页已读，也不代表平台内容穷尽。",
+    "remaining_scope": [
+      "公开索引覆盖有限，未穷尽各平台站内搜索及未被索引的页面。",
+      "六个课程群聊的原始私密内容不进入本次公开贡献，仍有私密渠道缺口。",
+      "这是当前本地证据快照；新增上下文、历史教师材料和课评需重跑脚本更新。"
+    ],
+    "no_student_reviews_found": false,
+    "no_student_reviews_found_note": "true表示本快照没有已采用的学生平台摘要，不表示不存在其他评价；另见index_only_hits和查询日志。"
+  },
+  "sources": [
+    {
+      "source_id": "OFFICIAL-OFFERING-1020760",
+      "source_type": "official",
+      "canonical_url": "https://fdjwgl.fudan.edu.cn/student/for-all/lesson-search/semester/505/search/505?openDepartmentAssocs=2620&queryPage__=1,500",
+      "public_author_label": null,
+      "published_at": null,
+      "fetched_at": "2026-10-27",
+      "hole_id": null,
+      "floor_id": null,
+      "floor_number": null,
+      "review_id": null,
+      "file_and_page": "official timetable lesson_id=1020760",
+      "image_page": null,
+      "reading_status": "official_timetable_record_read",
+      "mapping_status": "official course code and lesson_id",
+      "record_type": "official_course_offering",
+      "adoption": "adopted_official_metadata",
+      "reason": "Official 2025 autumn / 2026 spring timetable row.",
+      "duplicate_of": null,
+      "license": null,
+      "fulltext_permission": "unconfirmed",
+      "attribution_and_changes": "Official offering metadata; no student personal data included.",
+      "raw_filename": "reports/两学期全部教学班.json",
+      "raw_record_id": "1020760",
+      "course_code": "CHIN20006",
+      "report_filename": "reports/两学期全部教学班.json",
+      "report_record_id": "1020760",
+      "report_record_pointer": null,
+      "raw_body_status": null,
+      "teacher_if_explicit": "侯体健",
+      "term_as_stated": "2026春",
+      "section_code": "CHIN20006.01"
+    },
+    {
+      "source_id": "OFFICIAL-SYLLABUS-1020760",
+      "source_type": "official",
+      "canonical_url": "https://fdjwgl.fudan.edu.cn/student/for-all/lesson-search/teachingSyllabusInfo/1020760",
+      "public_author_label": null,
+      "published_at": null,
+      "fetched_at": "2026-10-27",
+      "hole_id": null,
+      "floor_id": null,
+      "floor_number": null,
+      "review_id": null,
+      "file_and_page": "official syllabus lesson_id=1020760",
+      "image_page": null,
+      "reading_status": "structured_text_extracted",
+      "mapping_status": "lesson syllabus course code checked",
+      "record_type": "official_syllabus",
+      "adoption": "adopted_official_requirements",
+      "reason": "Official syllabus parsed locally; requirements stay attached to this offering.",
+      "duplicate_of": null,
+      "license": null,
+      "fulltext_permission": "unconfirmed",
+      "attribution_and_changes": "Only metadata, section titles, textbook details and assessment structure are exported; full syllabus text is not republished.",
+      "raw_filename": "reports/官方大纲结构化摘要.json",
+      "raw_record_id": "1020760",
+      "course_code": "CHIN20006",
+      "report_filename": "reports/官方大纲结构化摘要.json",
+      "report_record_id": "1020760",
+      "report_record_pointer": null,
+      "raw_body_status": null,
+      "teacher_if_explicit": "侯体健",
+      "term_as_stated": "2026春",
+      "section_code": "CHIN20006.01"
+    },
+    {
+      "source_id": "OFFICIAL-OFFERING-1020761",
+      "source_type": "official",
+      "canonical_url": "https://fdjwgl.fudan.edu.cn/student/for-all/lesson-search/semester/505/search/505?openDepartmentAssocs=2620&queryPage__=1,500",
+      "public_author_label": null,
+      "published_at": null,
+      "fetched_at": "2026-10-27",
+      "hole_id": null,
+      "floor_id": null,
+      "floor_number": null,
+      "review_id": null,
+      "file_and_page": "official timetable lesson_id=1020761",
+      "image_page": null,
+      "reading_status": "official_timetable_record_read",
+      "mapping_status": "official course code and lesson_id",
+      "record_type": "official_course_offering",
+      "adoption": "adopted_official_metadata",
+      "reason": "Official 2025 autumn / 2026 spring timetable row.",
+      "duplicate_of": null,
+      "license": null,
+      "fulltext_permission": "unconfirmed",
+      "attribution_and_changes": "Official offering metadata; no student personal data included.",
+      "raw_filename": "reports/两学期全部教学班.json",
+      "raw_record_id": "1020761",
+      "course_code": "CHIN20006",
+      "report_filename": "reports/两学期全部教学班.json",
+      "report_record_id": "1020761",
+      "report_record_pointer": null,
+      "raw_body_status": null,
+      "teacher_if_explicit": "赵惠俊",
+      "term_as_stated": "2026春",
+      "section_code": "CHIN20006.02"
+    },
+    {
+      "source_id": "OFFICIAL-SYLLABUS-1020761",
+      "source_type": "official",
+      "canonical_url": "https://fdjwgl.fudan.edu.cn/student/for-all/lesson-search/teachingSyllabusInfo/1020761",
+      "public_author_label": null,
+      "published_at": null,
+      "fetched_at": "2026-10-27",
+      "hole_id": null,
+      "floor_id": null,
+      "floor_number": null,
+      "review_id": null,
+      "file_and_page": "official syllabus lesson_id=1020761",
+      "image_page": null,
+      "reading_status": "structured_text_extracted",
+      "mapping_status": "lesson syllabus course code checked",
+      "record_type": "official_syllabus",
+      "adoption": "adopted_official_requirements",
+      "reason": "Official syllabus parsed locally; requirements stay attached to this offering.",
+      "duplicate_of": null,
+      "license": null,
+      "fulltext_permission": "unconfirmed",
+      "attribution_and_changes": "Only metadata, section titles, textbook details and assessment structure are exported; full syllabus text is not republished.",
+      "raw_filename": "reports/官方大纲结构化摘要.json",
+      "raw_record_id": "1020761",
+      "course_code": "CHIN20006",
+      "report_filename": "reports/官方大纲结构化摘要.json",
+      "report_record_id": "1020761",
+      "report_record_pointer": null,
+      "raw_body_status": null,
+      "teacher_if_explicit": "赵惠俊",
+      "term_as_stated": "2026春",
+      "section_code": "CHIN20006.02"
+    },
+    {
+      "source_id": "XHS-6a9d78fd0000000012035abb-OBS-4",
+      "source_type": "external",
+      "canonical_url": "https://www.xiaohongshu.com/explore/6a9d78fd0000000012035abb",
+      "public_author_label": null,
+      "published_at": null,
+      "fetched_at": "2026-10-27",
+      "hole_id": null,
+      "floor_id": null,
+      "floor_number": null,
+      "review_id": null,
+      "file_and_page": "xiaohongshu source XHS-6a9d78fd0000000012035abb-OBS-4",
+      "image_page": null,
+      "reading_status": "配文和4页图片正文逐页核读；评论区显示无评论。",
+      "mapping_status": "verified course assignment from curated evidence",
+      "record_type": "historical_learning_recollection",
+      "adoption": "adopted_limited",
+      "reason": "本批原文未公开，摘要保留课程相关内容，可回原站核对。",
+      "duplicate_of": null,
+      "license": null,
+      "fulltext_permission": "unconfirmed; short summary only exported",
+      "attribution_and_changes": "Short paraphrase from locally curated evidence; original body, account metadata and media are not copied.",
+      "raw_filename": "raw/external-sources.json",
+      "raw_record_id": "XHS-6a9d78fd0000000012035abb-OBS-4",
+      "course_code": "CHIN20006",
+      "report_filename": "reports/课程人工综合与来源.json",
+      "report_record_id": "XHS-6a9d78fd0000000012035abb-OBS-4",
+      "report_record_pointer": null,
+      "raw_body_status": "external_fulltext_not_redistributed",
+      "teacher_if_explicit": "朱刚",
+      "term_as_stated": "本科历史回顾，具体学期未定",
+      "section_code": null,
+      "raw_year": null,
+      "raw_semester": null,
+      "indexed_terms": null,
+      "indexed_course_periods": null,
+      "body_term_if_explicit": null,
+      "body_claimed_calendar_terms": null,
+      "body_term_conflict": null,
+      "review_time_conflict": null,
+      "index_conflict_note": null,
+      "term_scope": "编辑刊载匿名在校生投稿，范围大一上至大二上；未明确修读年份，不认定为目标两学期直接评价。",
+      "body_term_precision": null,
+      "body_term_scope": null,
+      "relative_period_phrases": null,
+      "semester_mapping_source": null,
+      "body_calendar_terms_parsed": null,
+      "body_claimed_target_terms": [],
+      "indexed_target_terms": [],
+      "target_period_note": "非目标期、相对或未知修读期，不当作目标期直接反馈。"
+    },
+    {
+      "source_id": "DANKE-6437",
+      "source_type": "danke",
+      "canonical_url": "https://danke.fduhole.com/api/reviews/6437",
+      "public_author_label": null,
+      "published_at": "2026-07-05T10:37:06.148Z",
+      "fetched_at": "2026-10-27",
+      "hole_id": null,
+      "floor_id": null,
+      "floor_number": null,
+      "review_id": 6437,
+      "file_and_page": "danke source DANKE-6437",
+      "image_page": null,
+      "reading_status": "full_returned_text",
+      "mapping_status": "verified course assignment from curated evidence",
+      "record_type": "detailed_review",
+      "adoption": "adopted_limited",
+      "reason": "",
+      "duplicate_of": null,
+      "license": null,
+      "fulltext_permission": "unconfirmed; short summary only exported",
+      "attribution_and_changes": "Short paraphrase from locally curated evidence; original body, account metadata and media are not copied.",
+      "raw_filename": "raw/danke.jsonl",
+      "raw_record_id": 6437,
+      "course_code": "CHIN20006",
+      "report_filename": "reports/课程人工综合与来源.json",
+      "report_record_id": "DANKE-6437",
+      "report_record_pointer": null,
+      "raw_body_status": "published_redacted",
+      "teacher_if_explicit": "赵惠俊",
+      "term_as_stated": "26春课评（标题）",
+      "section_code": null,
+      "raw_year": 2022,
+      "raw_semester": 3,
+      "indexed_terms": [
+        "2023春"
+      ],
+      "indexed_course_periods": null,
+      "body_term_if_explicit": "26春课评（标题）",
+      "body_claimed_calendar_terms": [
+        "2026春"
+      ],
+      "body_term_conflict": true,
+      "review_time_conflict": null,
+      "index_conflict_note": "API 2022/S3映射2023春，与标题26春冲突；并列保留。",
+      "term_scope": "API所挂课程索引期：2023春；依据官方客户端学年/学期映射。它不自动证明作者实际修读期；正文明确时间或冲突另行保留。 时间冲突：正文为2026春，索引为2023春；均保留。 API 2022/S3映射2023春，与标题26春冲突；并列保留。",
+      "body_term_precision": "single_term",
+      "body_term_scope": "author_course_period",
+      "relative_period_phrases": [],
+      "semester_mapping_source": "https://github.com/DanXi-Dev/DanXi/blob/3c1f5f026fbc7ca50e151865f813cdb381807abe/lib/model/danke/course.dart#L36-L45",
+      "body_calendar_terms_parsed": [
+        "2026春"
+      ],
+      "body_claimed_target_terms": [
+        "2026春"
+      ],
+      "indexed_target_terms": [],
+      "target_period_note": "正文明确自述目标期，仍核对教师及索引冲突。"
+    },
+    {
+      "source_id": "DANKE-4237",
+      "source_type": "danke",
+      "canonical_url": "https://danke.fduhole.com/api/reviews/4237",
+      "public_author_label": null,
+      "published_at": "2025-06-24T07:37:15.752Z",
+      "fetched_at": "2026-10-27",
+      "hole_id": null,
+      "floor_id": null,
+      "floor_number": null,
+      "review_id": 4237,
+      "file_and_page": "danke source DANKE-4237",
+      "image_page": null,
+      "reading_status": "full_returned_text",
+      "mapping_status": "verified course assignment from curated evidence",
+      "record_type": "detailed_review",
+      "adoption": "adopted_limited",
+      "reason": "",
+      "duplicate_of": null,
+      "license": null,
+      "fulltext_permission": "unconfirmed; short summary only exported",
+      "attribution_and_changes": "Short paraphrase from locally curated evidence; original body, account metadata and media are not copied.",
+      "raw_filename": "raw/danke.jsonl",
+      "raw_record_id": 4237,
+      "course_code": "CHIN20006",
+      "report_filename": "reports/课程人工综合与来源.json",
+      "report_record_id": "DANKE-4237",
+      "report_record_pointer": null,
+      "raw_body_status": "published_redacted",
+      "teacher_if_explicit": "侯体健",
+      "term_as_stated": "正文修读学期未明确",
+      "section_code": null,
+      "raw_year": 2024,
+      "raw_semester": 3,
+      "indexed_terms": [
+        "2025春"
+      ],
+      "indexed_course_periods": null,
+      "body_term_if_explicit": null,
+      "body_claimed_calendar_terms": [],
+      "body_term_conflict": false,
+      "review_time_conflict": null,
+      "index_conflict_note": "上学期以来及今年题目回忆；不形成绝对修读期。",
+      "term_scope": "API所挂课程索引期：2025春；依据官方客户端学年/学期映射。它不自动证明作者实际修读期；正文明确时间或冲突另行保留。 上学期以来及今年题目回忆；不形成绝对修读期。",
+      "body_term_precision": "relative_or_stage_only",
+      "body_term_scope": "relative_reference_not_resolvable_to_calendar_term",
+      "relative_period_phrases": [
+        "上学期",
+        "今年"
+      ],
+      "semester_mapping_source": "https://github.com/DanXi-Dev/DanXi/blob/3c1f5f026fbc7ca50e151865f813cdb381807abe/lib/model/danke/course.dart#L36-L45",
+      "body_calendar_terms_parsed": [],
+      "body_claimed_target_terms": [],
+      "indexed_target_terms": [],
+      "target_period_note": "非目标期、相对或未知修读期，不当作目标期直接反馈。"
+    }
+  ],
+  "syllabus": {
+    "source_ids": [
+      "OFFICIAL-SYLLABUS-1020760",
+      "OFFICIAL-SYLLABUS-1020761"
+    ],
+    "content": "官方大纲按教学班逐项记录在offerings；不同学期或平行班要求未合并。",
+    "prerequisites": "",
+    "assessment": ""
+  },
+  "materials": [
+    {
+      "type": "official_textbook",
+      "title": "中国古代文学史（中）（第二版）",
+      "author": "袁世硕、陈文新",
+      "publisher": "高等教育出版社",
+      "publication_date": "2018-08",
+      "isbn": "9787040501094",
+      "term": "2026春",
+      "section_code": "CHIN20006.01",
+      "source_ids": [
+        "OFFICIAL-SYLLABUS-1020760"
+      ]
+    },
+    {
+      "type": "official_textbook",
+      "title": "中国古代文学史（中）（第二版）",
+      "author": "袁世硕、陈文新",
+      "publisher": "高等教育出版社",
+      "publication_date": "2018-08",
+      "isbn": "9787040501094",
+      "term": "2026春",
+      "section_code": "CHIN20006.02",
+      "source_ids": [
+        "OFFICIAL-SYLLABUS-1020761"
+      ]
+    }
+  ],
+  "student_reviews_and_discussions": [
+    {
+      "source_id": "XHS-6a9d78fd0000000012035abb-OBS-4",
+      "source_type": "external",
+      "record_type": "historical_learning_recollection",
+      "canonical_url": "https://www.xiaohongshu.com/explore/6a9d78fd0000000012035abb",
+      "reading_status": "配文和4页图片正文逐页核读；评论区显示无评论。",
+      "mapping_status": "verified course assignment from curated evidence",
+      "adoption": "adopted_limited",
+      "teacher_if_explicit": "朱刚",
+      "term_as_stated": "本科历史回顾，具体学期未定",
+      "indexed_terms": null,
+      "raw_body_status": "external_fulltext_not_redistributed",
+      "raw_year": null,
+      "raw_semester": null,
+      "indexed_course_periods": null,
+      "body_term_if_explicit": null,
+      "body_claimed_calendar_terms": null,
+      "body_term_conflict": null,
+      "review_time_conflict": null,
+      "index_conflict_note": null,
+      "term_scope": "编辑刊载匿名在校生投稿，范围大一上至大二上；未明确修读年份，不认定为目标两学期直接评价。",
+      "body_term_precision": null,
+      "body_term_scope": null,
+      "relative_period_phrases": null,
+      "semester_mapping_source": null,
+      "body_calendar_terms_parsed": null,
+      "body_claimed_target_terms": [],
+      "indexed_target_terms": [],
+      "target_period_note": "非目标期、相对或未知修读期，不当作目标期直接反馈。",
+      "period_status": "非目标期、相对或未知修读期，不当作目标期直接反馈。",
+      "summary": "历史回顾强调唐宋文学特别是苏轼研究，课堂适宜认真听讲；作者称复习量较大，应提前安排。",
+      "limitations": "教师朱刚与目标两学期该课教师未匹配，仅为其他教师历史材料，不用于评价本轮侯体健或赵惠俊班。 仅作历史学习体验，不能替代当前班考核、给分或教师结论。 本批原文未公开，摘要保留课程相关内容，可回原站核对。",
+      "reason": "本批原文未公开，摘要保留课程相关内容，可回原站核对。"
+    },
+    {
+      "source_id": "DANKE-6437",
+      "source_type": "danke",
+      "record_type": "detailed_review",
+      "canonical_url": "https://danke.fduhole.com/api/reviews/6437",
+      "reading_status": "full_returned_text",
+      "mapping_status": "verified course assignment from curated evidence",
+      "adoption": "adopted_limited",
+      "teacher_if_explicit": "赵惠俊",
+      "term_as_stated": "26春课评（标题）",
+      "indexed_terms": [
+        "2023春"
+      ],
+      "raw_body_status": "published_redacted",
+      "raw_year": 2022,
+      "raw_semester": 3,
+      "indexed_course_periods": null,
+      "body_term_if_explicit": "26春课评（标题）",
+      "body_claimed_calendar_terms": [
+        "2026春"
+      ],
+      "body_term_conflict": true,
+      "review_time_conflict": null,
+      "index_conflict_note": "API 2022/S3映射2023春，与标题26春冲突；并列保留。",
+      "term_scope": "API所挂课程索引期：2023春；依据官方客户端学年/学期映射。它不自动证明作者实际修读期；正文明确时间或冲突另行保留。 时间冲突：正文为2026春，索引为2023春；均保留。 API 2022/S3映射2023春，与标题26春冲突；并列保留。",
+      "body_term_precision": "single_term",
+      "body_term_scope": "author_course_period",
+      "relative_period_phrases": [],
+      "semester_mapping_source": "https://github.com/DanXi-Dev/DanXi/blob/3c1f5f026fbc7ca50e151865f813cdb381807abe/lib/model/danke/course.dart#L36-L45",
+      "body_calendar_terms_parsed": [
+        "2026春"
+      ],
+      "body_claimed_target_terms": [
+        "2026春"
+      ],
+      "indexed_target_terms": [],
+      "target_period_note": "正文明确自述目标期，仍核对教师及索引冲突。",
+      "period_status": "正文明确自述目标期，仍核对教师及索引冲突。",
+      "summary": "作者称赵惠俊老师重视历史脉络，作业需抄写大量诗歌，期末背诵和细节复习压力较大。作者自述得A-，认为教师和助教较友好。",
+      "limitations": "匿名作者的个人叙述；成绩及感受仅代表其个人。API year/semester保留原值，不由发帖日期推定；历史课评不等于当前教学安排。",
+      "reason": ""
+    },
+    {
+      "source_id": "DANKE-4237",
+      "source_type": "danke",
+      "record_type": "detailed_review",
+      "canonical_url": "https://danke.fduhole.com/api/reviews/4237",
+      "reading_status": "full_returned_text",
+      "mapping_status": "verified course assignment from curated evidence",
+      "adoption": "adopted_limited",
+      "teacher_if_explicit": "侯体健",
+      "term_as_stated": "正文修读学期未明确",
+      "indexed_terms": [
+        "2025春"
+      ],
+      "raw_body_status": "published_redacted",
+      "raw_year": 2024,
+      "raw_semester": 3,
+      "indexed_course_periods": null,
+      "body_term_if_explicit": null,
+      "body_claimed_calendar_terms": [],
+      "body_term_conflict": false,
+      "review_time_conflict": null,
+      "index_conflict_note": "上学期以来及今年题目回忆；不形成绝对修读期。",
+      "term_scope": "API所挂课程索引期：2025春；依据官方客户端学年/学期映射。它不自动证明作者实际修读期；正文明确时间或冲突另行保留。 上学期以来及今年题目回忆；不形成绝对修读期。",
+      "body_term_precision": "relative_or_stage_only",
+      "body_term_scope": "relative_reference_not_resolvable_to_calendar_term",
+      "relative_period_phrases": [
+        "上学期",
+        "今年"
+      ],
+      "semester_mapping_source": "https://github.com/DanXi-Dev/DanXi/blob/3c1f5f026fbc7ca50e151865f813cdb381807abe/lib/model/danke/course.dart#L36-L45",
+      "body_calendar_terms_parsed": [],
+      "body_claimed_target_terms": [],
+      "indexed_target_terms": [],
+      "target_period_note": "非目标期、相对或未知修读期，不当作目标期直接反馈。",
+      "period_status": "非目标期、相对或未知修读期，不当作目标期直接反馈。",
+      "summary": "作者称侯体健讲课有逻辑、联系古今研究；期末背诵量大，论述题来自课堂内容。作者自述得A，返回文本在提及A/A+人数处结束。",
+      "limitations": "匿名作者的个人叙述；成绩及感受仅代表其个人。API year/semester保留原值，不由发帖日期推定；历史课评不等于当前教学安排。 返回正文在提及A/A+人数处结束，未推断后文。",
+      "reason": ""
+    }
+  ],
+  "index_only_hits": [],
+  "quantitative_observations": [],
+  "offerings": [
+    {
+      "term": "2026春",
+      "section_code": "CHIN20006.01",
+      "lesson_id": 1020760,
+      "course_code": "CHIN20006",
+      "course_name": "中国古代文学史(中)",
+      "teachers": [
+        "侯体健"
+      ],
+      "credits": 2,
+      "task_level": "本科",
+      "open_department": "中国语言文学系",
+      "course_type": "必修课程",
+      "course_table_type": "基础和专业：专业课程",
+      "exam_mode": "闭卷",
+      "total_hours": 36,
+      "source_ids": [
+        "OFFICIAL-OFFERING-1020760",
+        "OFFICIAL-SYLLABUS-1020760"
+      ],
+      "official_syllabus": {
+        "status": "structured_text_extracted",
+        "source_id": "OFFICIAL-SYLLABUS-1020760",
+        "section_titles": [
+          "课程简介（中文）",
+          "课程简介（英文）",
+          "教学目标",
+          "教学方式",
+          "教学内容与进度安排",
+          "课程考核与成绩评定",
+          "教材",
+          "教学参考资料",
+          "教学团队成员"
+        ],
+        "prerequisites": [],
+        "assessment": [
+          {
+            "criteria": "出勤Attendance",
+            "percentage": 10.0,
+            "standard": "不迟到、不早退、不无故缺席"
+          },
+          {
+            "criteria": "作业/实验/实践Assignment",
+            "percentage": 20.0,
+            "standard": "保质保量完成期中作业"
+          },
+          {
+            "criteria": "期末考试Final Examination：闭卷 ",
+            "percentage": 70.0,
+            "standard": "完成背诵篇目，融会贯通全学期所讲解的内容以答题"
+          }
+        ],
+        "grade_rule": "等级制",
+        "textbooks": [
+          {
+            "name": "中国古代文学史（中）（第二版）",
+            "author": "袁世硕、陈文新",
+            "publishingHouse": "高等教育出版社",
+            "date": "2018-08",
+            "isbn": "9787040501094"
+          }
+        ],
+        "syllabus_id": 9532,
+        "error": null
+      }
+    },
+    {
+      "term": "2026春",
+      "section_code": "CHIN20006.02",
+      "lesson_id": 1020761,
+      "course_code": "CHIN20006",
+      "course_name": "中国古代文学史(中)",
+      "teachers": [
+        "赵惠俊"
+      ],
+      "credits": 2,
+      "task_level": "本科",
+      "open_department": "中国语言文学系",
+      "course_type": "必修课程",
+      "course_table_type": "基础和专业：专业课程",
+      "exam_mode": "闭卷",
+      "total_hours": 36,
+      "source_ids": [
+        "OFFICIAL-OFFERING-1020761",
+        "OFFICIAL-SYLLABUS-1020761"
+      ],
+      "official_syllabus": {
+        "status": "structured_text_extracted",
+        "source_id": "OFFICIAL-SYLLABUS-1020761",
+        "section_titles": [
+          "课程简介（中文）",
+          "课程简介（英文）",
+          "教学目标",
+          "教学方式",
+          "教学内容与进度安排",
+          "课程考核与成绩评定",
+          "教材",
+          "教学参考资料",
+          "教学团队成员"
+        ],
+        "prerequisites": [],
+        "assessment": [
+          {
+            "criteria": "作业/实验/实践Assignment",
+            "percentage": 30.0
+          },
+          {
+            "criteria": "期末考试Final Examination：闭卷 ",
+            "percentage": 70.0
+          }
+        ],
+        "grade_rule": "等级制",
+        "textbooks": [
+          {
+            "name": "中国古代文学史（中）（第二版）",
+            "author": "袁世硕、陈文新",
+            "publishingHouse": "高等教育出版社",
+            "date": "2018-08",
+            "isbn": "9787040501094"
+          }
+        ],
+        "syllabus_id": 7512,
+        "error": null
+      }
+    }
+  ],
+  "official_metadata": {
+    "department": "中国语言文学系",
+    "target_terms": [
+      "2026春"
+    ],
+    "target_teachers": [
+      "侯体健",
+      "赵惠俊"
+    ],
+    "task_levels": [
+      "本科"
+    ],
+    "section_count": 2,
+    "official_offering_count_in_snapshot": 2,
+    "course_type_values_by_offering": [
+      "必修课程"
+    ],
+    "course_table_type_values_by_offering": [
+      "基础和专业：专业课程"
+    ],
+    "source_ids": [
+      "OFFICIAL-OFFERING-1020760",
+      "OFFICIAL-OFFERING-1020761"
+    ]
+  },
+  "comparison_and_summary": {
+    "teaching_and_learning": "本快照没有可读的课程体验材料，无法归纳学习收获。",
+    "workload": "本快照没有可读的课程体验材料，无法归纳准备或作业量。",
+    "assessment": "本快照没有可读的课程体验材料，无法归纳考核或评分。",
+    "grading_and_risk": "",
+    "teacher_and_term_differences": "已读来源未明确写出教师姓名；不能据课程名或现任教师表补认授课者。 来源没有可确认的修读学期。",
+    "who_it_suits": "",
+    "source_ids": [
+      "XHS-6a9d78fd0000000012035abb-OBS-4",
+      "DANKE-6437",
+      "DANKE-4237"
+    ],
+    "section_source_ids": {
+      "teaching_and_learning": [],
+      "workload": [],
+      "assessment": [],
+      "teacher_and_term_differences": []
+    },
+    "manual_comparison": {
+      "status": "human_synthesized",
+      "text": "赵惠俊的标题明确写26春，作者回忆以唐宋历史脉络和作品语境讲授，作业需抄写大量诗歌，期末背诵与细节复习压力较大（DANKE-6437）；API索引为2022/S3，冲突保留。侯体健的另一段历史回顾称讲授有逻辑、期末重背诵和课堂论述（DANKE-4237）。另篇小红书写朱刚班，教师与目标期授课不匹配，不并入此课评价（XHS-6a9d78fd0000000012035abb-OBS-4）。",
+      "evidence_ids": [
+        "DANKE-6437",
+        "DANKE-4237",
+        "XHS-6a9d78fd0000000012035abb-OBS-4"
+      ],
+      "limitations": "赵惠俊、侯体健和朱刚三份材料分开处理；DANKE-6437标题与API年/学期冲突，成绩仅为个体自述。",
+      "confidence": "none：本快照无已读、可采用来源。"
+    },
+    "confidence": "none：本快照无已读、可采用来源。",
+    "limitations": "当前已读材料没有可采用的课程体验证据；未读索引、广告、提问或仅仓库摘要不计入。"
+  },
+  "research_snapshot": {
+    "date": "2026-10-27",
+    "curated_evidence_record_count": 535,
+    "synthesis_source_assignment_count": 522,
+    "public_review_index_record_count": 167,
+    "public_adopted_findings_count": 11
+  }
+}

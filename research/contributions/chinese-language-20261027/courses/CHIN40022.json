@@ -1,0 +1,742 @@
+{
+  "schema_version": 1,
+  "course": {
+    "code": "CHIN40022",
+    "name": "女性文学研究",
+    "department": "中国语言文学系",
+    "credits": 2,
+    "term": "2025秋 / 2026春",
+    "teachers": [
+      "张岩冰"
+    ],
+    "section_code": null,
+    "class_type": "ordinary",
+    "course_type_code": null,
+    "program_year": null,
+    "program_names": [],
+    "required_or_elective": null
+  },
+  "aliases": {
+    "course_names": [
+      {
+        "value": "女性文学",
+        "kind": "course_name_alias",
+        "status": "source_attested",
+        "source_url": "https://chinese.fudan.edu.cn/0f/9e/c33365a462750/page.htm",
+        "evidence_id": "PUB-EXPERIENCE-20221014",
+        "limitation": "同教师课程简称，保留题名差别"
+      }
+    ],
+    "teacher_names_or_pinyin": [
+      {
+        "teacher": "张岩冰",
+        "value": "张岩冰",
+        "kind": "canonical_name",
+        "status": "official_target_name"
+      },
+      {
+        "teacher": "张岩冰",
+        "value": "zhangyanbing",
+        "kind": "full_joined",
+        "status": "generated_query_candidate"
+      },
+      {
+        "teacher": "张岩冰",
+        "value": "zhang yan bing",
+        "kind": "full_spaced",
+        "status": "generated_query_candidate"
+      },
+      {
+        "teacher": "张岩冰",
+        "value": "zyb",
+        "kind": "initials",
+        "status": "generated_query_candidate"
+      },
+      {
+        "teacher": "张岩冰",
+        "value": "张老师",
+        "kind": "teacher_alias",
+        "status": "query_candidate",
+        "source_url": null,
+        "evidence_id": null,
+        "limitation": "姓氏称谓非唯一别名，仅与完整课名联合查询"
+      }
+    ],
+    "ambiguous_matches": [
+      {
+        "value": "nvxingwenxueyanjiu",
+        "kind": "course_pinyin_full_joined",
+        "status": "generated_query_candidate",
+        "limitation": "Generated transliteration is a search term, not an attested spoken alias."
+      },
+      {
+        "value": "nv xing wen xue yan jiu",
+        "kind": "course_pinyin_full_spaced",
+        "status": "generated_query_candidate",
+        "limitation": "Generated transliteration is a search term, not an attested spoken alias."
+      },
+      {
+        "value": "nxwxyj",
+        "kind": "course_pinyin_initials",
+        "status": "generated_query_candidate",
+        "limitation": "Generated transliteration is a search term, not an attested spoken alias."
+      },
+      {
+        "teacher": "张岩冰",
+        "value": "zhangyanbing",
+        "kind": "full_joined",
+        "status": "generated_query_candidate",
+        "limitation": "Generated transliteration is a search token, not proof of person identity."
+      },
+      {
+        "teacher": "张岩冰",
+        "value": "zhang yan bing",
+        "kind": "full_spaced",
+        "status": "generated_query_candidate",
+        "limitation": "Generated transliteration is a search token, not proof of person identity."
+      },
+      {
+        "teacher": "张岩冰",
+        "value": "zyb",
+        "kind": "initials",
+        "status": "generated_query_candidate",
+        "limitation": "Generated transliteration is a search token, not proof of person identity."
+      },
+      {
+        "teacher": "张岩冰",
+        "value": "张老师",
+        "kind": "teacher_alias",
+        "status": "query_candidate",
+        "source_url": null,
+        "evidence_id": null,
+        "limitation": "姓氏称谓非唯一别名，仅与完整课名联合查询"
+      }
+    ]
+  },
+  "progress": {
+    "owner": "",
+    "reviewer": "",
+    "status": "in_progress",
+    "queries": [
+      {
+        "query_id": "PLATFORM-CHIN40022-2025秋 / 2026春-小红书",
+        "category": "canonical_title_teacher_platform_search",
+        "term": "2025秋 / 2026春",
+        "query": "复旦 \"女性文学研究\" (\"张岩冰\") 课程 评价",
+        "status": "no_link_returned",
+        "search_scope": "platform_specific_external_search_index",
+        "domains": [
+          "xiaohongshu.com"
+        ],
+        "attempts": 1,
+        "returned_link_count": 0,
+        "confirmed_direct_reviews": 0,
+        "read_status": "search_index_only",
+        "source_file": "reports/公开平台逐课检索台账.csv",
+        "source_record_id": "PLATFORM-CHIN40022-2025秋 / 2026春-小红书",
+        "source_record_pointer": "course_code=CHIN40022;terms=2025秋 / 2026春;platform=小红书",
+        "limitation": "外部搜索索引覆盖有限；不代表站内不存在"
+      },
+      {
+        "query_id": "PLATFORM-CHIN40022-2025秋 / 2026春-微信公众号",
+        "category": "canonical_title_teacher_platform_search",
+        "term": "2025秋 / 2026春",
+        "query": "复旦 \"女性文学研究\" (\"张岩冰\") 课程 评价",
+        "status": "no_link_returned",
+        "search_scope": "platform_specific_external_search_index",
+        "domains": [
+          "mp.weixin.qq.com"
+        ],
+        "attempts": 1,
+        "returned_link_count": 0,
+        "confirmed_direct_reviews": 0,
+        "read_status": "search_index_only",
+        "source_file": "reports/公开平台逐课检索台账.csv",
+        "source_record_id": "PLATFORM-CHIN40022-2025秋 / 2026春-微信公众号",
+        "source_record_pointer": "course_code=CHIN40022;terms=2025秋 / 2026春;platform=微信公众号",
+        "limitation": "外部搜索索引覆盖有限；不代表站内不存在"
+      },
+      {
+        "query_id": "PLATFORM-CHIN40022-2025秋 / 2026春-知乎",
+        "category": "canonical_title_teacher_platform_search",
+        "term": "2025秋 / 2026春",
+        "query": "复旦 \"女性文学研究\" (\"张岩冰\") 课程 评价",
+        "status": "results_returned_no_adopted_review",
+        "search_scope": "platform_specific_external_search_index",
+        "domains": [
+          "zhihu.com"
+        ],
+        "attempts": 1,
+        "returned_link_count": 2,
+        "confirmed_direct_reviews": 0,
+        "read_status": "search_index_only",
+        "source_file": "reports/公开平台逐课检索台账.csv",
+        "source_record_id": "PLATFORM-CHIN40022-2025秋 / 2026春-知乎",
+        "source_record_pointer": "course_code=CHIN40022;terms=2025秋 / 2026春;platform=知乎",
+        "limitation": "外部搜索索引覆盖有限；不代表站内不存在"
+      },
+      {
+        "query_id": "PUBALIAS-00299",
+        "category": "course_alias",
+        "term": "女性文学",
+        "query": "复旦 \"张岩冰\" \"女性文学\"",
+        "status": "completed",
+        "search_scope": "external_index_union_of_three_domains",
+        "domains": [
+          "zhihu.com",
+          "xiaohongshu.com",
+          "mp.weixin.qq.com"
+        ],
+        "attempts": 1,
+        "returned_link_count": 0,
+        "confirmed_direct_reviews": 0,
+        "read_status": "query execution only; not article reading",
+        "source_file": "reports/别名拼音扩展检索台账.csv",
+        "source_record_id": "PUBALIAS-00299",
+        "source_record_pointer": "query_id=PUBALIAS-00299",
+        "limitation": "A union-domain query is one logged record, not one execution per listed platform."
+      },
+      {
+        "query_id": "PUBALIAS-00300",
+        "category": "course_pinyin_full_joined",
+        "term": "nvxingwenxueyanjiu",
+        "query": "复旦 \"张岩冰\" \"nvxingwenxueyanjiu\"",
+        "status": "completed",
+        "search_scope": "external_index_union_of_three_domains",
+        "domains": [
+          "zhihu.com",
+          "xiaohongshu.com",
+          "mp.weixin.qq.com"
+        ],
+        "attempts": 1,
+        "returned_link_count": 0,
+        "confirmed_direct_reviews": 0,
+        "read_status": "query execution only; not article reading",
+        "source_file": "reports/别名拼音扩展检索台账.csv",
+        "source_record_id": "PUBALIAS-00300",
+        "source_record_pointer": "query_id=PUBALIAS-00300",
+        "limitation": "A union-domain query is one logged record, not one execution per listed platform."
+      },
+      {
+        "query_id": "PUBALIAS-00301",
+        "category": "course_pinyin_full_spaced",
+        "term": "nv xing wen xue yan jiu",
+        "query": "复旦 \"张岩冰\" \"nv xing wen xue yan jiu\"",
+        "status": "completed",
+        "search_scope": "external_index_union_of_three_domains",
+        "domains": [
+          "zhihu.com",
+          "xiaohongshu.com",
+          "mp.weixin.qq.com"
+        ],
+        "attempts": 1,
+        "returned_link_count": 0,
+        "confirmed_direct_reviews": 0,
+        "read_status": "query execution only; not article reading",
+        "source_file": "reports/别名拼音扩展检索台账.csv",
+        "source_record_id": "PUBALIAS-00301",
+        "source_record_pointer": "query_id=PUBALIAS-00301",
+        "limitation": "A union-domain query is one logged record, not one execution per listed platform."
+      },
+      {
+        "query_id": "PUBALIAS-00302",
+        "category": "course_pinyin_initials",
+        "term": "nxwxyj",
+        "query": "复旦 \"张岩冰\" \"nxwxyj\"",
+        "status": "completed",
+        "search_scope": "external_index_union_of_three_domains",
+        "domains": [
+          "zhihu.com",
+          "xiaohongshu.com",
+          "mp.weixin.qq.com"
+        ],
+        "attempts": 1,
+        "returned_link_count": 0,
+        "confirmed_direct_reviews": 0,
+        "read_status": "query execution only; not article reading",
+        "source_file": "reports/别名拼音扩展检索台账.csv",
+        "source_record_id": "PUBALIAS-00302",
+        "source_record_pointer": "query_id=PUBALIAS-00302",
+        "limitation": "A union-domain query is one logged record, not one execution per listed platform."
+      },
+      {
+        "query_id": "PUBALIAS-00303",
+        "category": "teacher_pinyin_full_joined",
+        "term": "zhangyanbing",
+        "query": "复旦 \"女性文学研究\" \"zhangyanbing\"",
+        "status": "completed",
+        "search_scope": "external_index_union_of_three_domains",
+        "domains": [
+          "zhihu.com",
+          "xiaohongshu.com",
+          "mp.weixin.qq.com"
+        ],
+        "attempts": 1,
+        "returned_link_count": 0,
+        "confirmed_direct_reviews": 0,
+        "read_status": "query execution only; not article reading",
+        "source_file": "reports/别名拼音扩展检索台账.csv",
+        "source_record_id": "PUBALIAS-00303",
+        "source_record_pointer": "query_id=PUBALIAS-00303",
+        "limitation": "A union-domain query is one logged record, not one execution per listed platform."
+      },
+      {
+        "query_id": "PUBALIAS-00304",
+        "category": "teacher_pinyin_full_spaced",
+        "term": "zhang yan bing",
+        "query": "复旦 \"女性文学研究\" \"zhang yan bing\"",
+        "status": "completed",
+        "search_scope": "external_index_union_of_three_domains",
+        "domains": [
+          "zhihu.com",
+          "xiaohongshu.com",
+          "mp.weixin.qq.com"
+        ],
+        "attempts": 1,
+        "returned_link_count": 0,
+        "confirmed_direct_reviews": 0,
+        "read_status": "query execution only; not article reading",
+        "source_file": "reports/别名拼音扩展检索台账.csv",
+        "source_record_id": "PUBALIAS-00304",
+        "source_record_pointer": "query_id=PUBALIAS-00304",
+        "limitation": "A union-domain query is one logged record, not one execution per listed platform."
+      },
+      {
+        "query_id": "PUBALIAS-00305",
+        "category": "teacher_pinyin_initials",
+        "term": "zyb",
+        "query": "复旦 \"女性文学研究\" \"zyb\"",
+        "status": "completed",
+        "search_scope": "external_index_union_of_three_domains",
+        "domains": [
+          "zhihu.com",
+          "xiaohongshu.com",
+          "mp.weixin.qq.com"
+        ],
+        "attempts": 1,
+        "returned_link_count": 0,
+        "confirmed_direct_reviews": 0,
+        "read_status": "query execution only; not article reading",
+        "source_file": "reports/别名拼音扩展检索台账.csv",
+        "source_record_id": "PUBALIAS-00305",
+        "source_record_pointer": "query_id=PUBALIAS-00305",
+        "limitation": "A union-domain query is one logged record, not one execution per listed platform."
+      },
+      {
+        "query_id": "PUBALIAS-00306",
+        "category": "teacher_alias",
+        "term": "张老师",
+        "query": "复旦 \"女性文学研究\" \"张老师\"",
+        "status": "completed",
+        "search_scope": "external_index_union_of_three_domains",
+        "domains": [
+          "zhihu.com",
+          "xiaohongshu.com",
+          "mp.weixin.qq.com"
+        ],
+        "attempts": 1,
+        "returned_link_count": 0,
+        "confirmed_direct_reviews": 0,
+        "read_status": "query execution only; not article reading",
+        "source_file": "reports/别名拼音扩展检索台账.csv",
+        "source_record_id": "PUBALIAS-00306",
+        "source_record_pointer": "query_id=PUBALIAS-00306",
+        "limitation": "A union-domain query is one logged record, not one execution per listed platform."
+      }
+    ],
+    "query_status_counts": {
+      "no_link_returned": 2,
+      "results_returned_no_adopted_review": 1,
+      "completed": 8
+    },
+    "query_coverage_note": "已执行课程全名、可证别名、教师全名及拼音/首字母组合的公开索引检索。跨域联合查询按一条日志记录，不按列出的域重复计数。查询完成不表示结果页已读，也不代表平台内容穷尽。",
+    "remaining_scope": [
+      "公开索引覆盖有限，未穷尽各平台站内搜索及未被索引的页面。",
+      "六个课程群聊的原始私密内容不进入本次公开贡献，仍有私密渠道缺口。",
+      "这是当前本地证据快照；新增上下文、历史教师材料和课评需重跑脚本更新。"
+    ],
+    "no_student_reviews_found": false,
+    "no_student_reviews_found_note": "true表示本快照没有已采用的学生平台摘要，不表示不存在其他评价；另见index_only_hits和查询日志。"
+  },
+  "sources": [
+    {
+      "source_id": "OFFICIAL-OFFERING-1002320",
+      "source_type": "official",
+      "canonical_url": "https://fdjwgl.fudan.edu.cn/student/for-all/lesson-search/semester/504/search/504?openDepartmentAssocs=2620&queryPage__=1,500",
+      "public_author_label": null,
+      "published_at": null,
+      "fetched_at": "2026-10-27",
+      "hole_id": null,
+      "floor_id": null,
+      "floor_number": null,
+      "review_id": null,
+      "file_and_page": "official timetable lesson_id=1002320",
+      "image_page": null,
+      "reading_status": "official_timetable_record_read",
+      "mapping_status": "official course code and lesson_id",
+      "record_type": "official_course_offering",
+      "adoption": "adopted_official_metadata",
+      "reason": "Official 2025 autumn / 2026 spring timetable row.",
+      "duplicate_of": null,
+      "license": null,
+      "fulltext_permission": "unconfirmed",
+      "attribution_and_changes": "Official offering metadata; no student personal data included.",
+      "raw_filename": "reports/两学期全部教学班.json",
+      "raw_record_id": "1002320",
+      "course_code": "CHIN40022",
+      "report_filename": "reports/两学期全部教学班.json",
+      "report_record_id": "1002320",
+      "report_record_pointer": null,
+      "raw_body_status": null,
+      "teacher_if_explicit": "张岩冰",
+      "term_as_stated": "2025秋",
+      "section_code": "CHIN40022.01"
+    },
+    {
+      "source_id": "OFFICIAL-SYLLABUS-1002320",
+      "source_type": "official",
+      "canonical_url": "https://fdjwgl.fudan.edu.cn/student/for-all/lesson-search/teachingSyllabusInfo/1002320",
+      "public_author_label": null,
+      "published_at": null,
+      "fetched_at": "2026-10-27",
+      "hole_id": null,
+      "floor_id": null,
+      "floor_number": null,
+      "review_id": null,
+      "file_and_page": "official syllabus lesson_id=1002320",
+      "image_page": null,
+      "reading_status": "structured_text_extracted",
+      "mapping_status": "lesson syllabus course code checked",
+      "record_type": "official_syllabus",
+      "adoption": "adopted_official_requirements",
+      "reason": "Official syllabus parsed locally; requirements stay attached to this offering.",
+      "duplicate_of": null,
+      "license": null,
+      "fulltext_permission": "unconfirmed",
+      "attribution_and_changes": "Only metadata, section titles, textbook details and assessment structure are exported; full syllabus text is not republished.",
+      "raw_filename": "reports/官方大纲结构化摘要.json",
+      "raw_record_id": "1002320",
+      "course_code": "CHIN40022",
+      "report_filename": "reports/官方大纲结构化摘要.json",
+      "report_record_id": "1002320",
+      "report_record_pointer": null,
+      "raw_body_status": null,
+      "teacher_if_explicit": "张岩冰",
+      "term_as_stated": "2025秋",
+      "section_code": "CHIN40022.01"
+    },
+    {
+      "source_id": "OFFICIAL-OFFERING-1029482",
+      "source_type": "official",
+      "canonical_url": "https://fdjwgl.fudan.edu.cn/student/for-all/lesson-search/semester/505/search/505?openDepartmentAssocs=2620&queryPage__=1,500",
+      "public_author_label": null,
+      "published_at": null,
+      "fetched_at": "2026-10-27",
+      "hole_id": null,
+      "floor_id": null,
+      "floor_number": null,
+      "review_id": null,
+      "file_and_page": "official timetable lesson_id=1029482",
+      "image_page": null,
+      "reading_status": "official_timetable_record_read",
+      "mapping_status": "official course code and lesson_id",
+      "record_type": "official_course_offering",
+      "adoption": "adopted_official_metadata",
+      "reason": "Official 2025 autumn / 2026 spring timetable row.",
+      "duplicate_of": null,
+      "license": null,
+      "fulltext_permission": "unconfirmed",
+      "attribution_and_changes": "Official offering metadata; no student personal data included.",
+      "raw_filename": "reports/两学期全部教学班.json",
+      "raw_record_id": "1029482",
+      "course_code": "CHIN40022",
+      "report_filename": "reports/两学期全部教学班.json",
+      "report_record_id": "1029482",
+      "report_record_pointer": null,
+      "raw_body_status": null,
+      "teacher_if_explicit": "张岩冰",
+      "term_as_stated": "2026春",
+      "section_code": "CHIN40022.01"
+    },
+    {
+      "source_id": "OFFICIAL-SYLLABUS-1029482",
+      "source_type": "official",
+      "canonical_url": "https://fdjwgl.fudan.edu.cn/student/for-all/lesson-search/teachingSyllabusInfo/1029482",
+      "public_author_label": null,
+      "published_at": null,
+      "fetched_at": "2026-10-27",
+      "hole_id": null,
+      "floor_id": null,
+      "floor_number": null,
+      "review_id": null,
+      "file_and_page": "official syllabus lesson_id=1029482",
+      "image_page": null,
+      "reading_status": "structured_text_extracted",
+      "mapping_status": "lesson syllabus course code checked",
+      "record_type": "official_syllabus",
+      "adoption": "adopted_official_requirements",
+      "reason": "Official syllabus parsed locally; requirements stay attached to this offering.",
+      "duplicate_of": null,
+      "license": null,
+      "fulltext_permission": "unconfirmed",
+      "attribution_and_changes": "Only metadata, section titles, textbook details and assessment structure are exported; full syllabus text is not republished.",
+      "raw_filename": "reports/官方大纲结构化摘要.json",
+      "raw_record_id": "1029482",
+      "course_code": "CHIN40022",
+      "report_filename": "reports/官方大纲结构化摘要.json",
+      "report_record_id": "1029482",
+      "report_record_pointer": null,
+      "raw_body_status": null,
+      "teacher_if_explicit": "张岩冰",
+      "term_as_stated": "2026春",
+      "section_code": "CHIN40022.01"
+    },
+    {
+      "source_id": "PUB-EXPERIENCE-20221014",
+      "source_type": "official",
+      "canonical_url": "https://chinese.fudan.edu.cn/0f/9e/c33365a462750/page.htm",
+      "public_author_label": null,
+      "published_at": "2022-10-14",
+      "fetched_at": "2026-10-27",
+      "hole_id": null,
+      "floor_id": null,
+      "floor_number": null,
+      "review_id": null,
+      "file_and_page": null,
+      "image_page": null,
+      "reading_status": "relevant_course_sections_read",
+      "mapping_status": "映射明确同课名同教师；当前不同教师或题名不一致者不计入当前班结论",
+      "record_type": "department_selected_student_reflections",
+      "adoption": "adopted_limited",
+      "reason": "官方选取获奖学生，非代表性调查；无当前目标学期或成绩。 本批原文未公开，摘要保留课程相关内容，可回原站核对。",
+      "duplicate_of": null,
+      "license": null,
+      "fulltext_permission": "unconfirmed; short paraphrase and URL only",
+      "attribution_and_changes": "Short paraphrase only; no full text or screenshot copied; no republication license implied.",
+      "raw_filename": "reports/课程人工综合与来源.json",
+      "raw_record_id": "PUB-EXPERIENCE-20221014",
+      "course_code": "CHIN40022",
+      "report_filename": "reports/课程人工综合与来源.json",
+      "report_record_id": "PUB-EXPERIENCE-20221014",
+      "report_record_pointer": null,
+      "raw_body_status": "relevant_course_sections_read",
+      "teacher_if_explicit": null,
+      "term_as_stated": "2022届本科经历，含2020春记录",
+      "section_code": null
+    }
+  ],
+  "syllabus": {
+    "source_ids": [
+      "OFFICIAL-SYLLABUS-1002320",
+      "OFFICIAL-SYLLABUS-1029482"
+    ],
+    "content": "官方大纲按教学班逐项记录在offerings；不同学期或平行班要求未合并。",
+    "prerequisites": "",
+    "assessment": ""
+  },
+  "materials": [],
+  "student_reviews_and_discussions": [
+    {
+      "source_id": "PUB-EXPERIENCE-20221014",
+      "source_type": "official",
+      "record_type": "department_selected_student_reflections",
+      "canonical_url": "https://chinese.fudan.edu.cn/0f/9e/c33365a462750/page.htm",
+      "reading_status": "relevant_course_sections_read",
+      "mapping_status": "映射明确同课名同教师；当前不同教师或题名不一致者不计入当前班结论",
+      "adoption": "adopted_limited",
+      "teacher_if_explicit": null,
+      "term_as_stated": "2022届本科经历，含2020春记录",
+      "summary": "中文系官网刊载2022届拔尖计划学生获奖感言；可见苏轼精读/朱刚、女性文学/张岩冰等历史学习体验，也提到语言与文化/申小龙和中国新诗/张新颖等不同师资。",
+      "raw_body_status": "relevant_course_sections_read",
+      "limitations": "官方选取获奖学生，非代表性调查；无当前目标学期或成绩。 本批原文未公开，摘要保留课程相关内容，可回原站核对。",
+      "reason": "官方选取获奖学生，非代表性调查；无当前目标学期或成绩。 本批原文未公开，摘要保留课程相关内容，可回原站核对。"
+    }
+  ],
+  "index_only_hits": [],
+  "quantitative_observations": [],
+  "offerings": [
+    {
+      "term": "2025秋",
+      "section_code": "CHIN40022.01",
+      "lesson_id": 1002320,
+      "course_code": "CHIN40022",
+      "course_name": "女性文学研究",
+      "teachers": [
+        "张岩冰"
+      ],
+      "credits": 2,
+      "task_level": "本科",
+      "open_department": "中国语言文学系",
+      "course_type": "专业选修课程",
+      "course_table_type": "基础和专业：专业课程",
+      "exam_mode": "开卷",
+      "total_hours": 36,
+      "source_ids": [
+        "OFFICIAL-OFFERING-1002320",
+        "OFFICIAL-SYLLABUS-1002320"
+      ],
+      "official_syllabus": {
+        "status": "structured_text_extracted",
+        "source_id": "OFFICIAL-SYLLABUS-1002320",
+        "section_titles": [
+          "课程简介（中文）",
+          "课程简介（英文）",
+          "教学目标",
+          "教学方式",
+          "教学内容与进度安排",
+          "课程考核与成绩评定",
+          "教材",
+          "教学参考资料",
+          "教学团队成员"
+        ],
+        "prerequisites": [],
+        "assessment": [
+          {
+            "criteria": "出勤Attendance",
+            "percentage": 10.0,
+            "standard": "三次抽查点名"
+          },
+          {
+            "criteria": "作业/实验/实践Assignment",
+            "percentage": 20.0,
+            "standard": "文学写作，考察思考深度和文学表达能力"
+          },
+          {
+            "criteria": "汇报Presentation",
+            "percentage": 20.0,
+            "standard": "小组贡献和个人贡献"
+          },
+          {
+            "criteria": "期末考试Final Examination：开卷 ",
+            "percentage": 50.0,
+            "standard": "理论掌握程度、思考深度、表达逻辑"
+          }
+        ],
+        "grade_rule": "等级制",
+        "textbooks": [],
+        "syllabus_id": 903,
+        "error": null
+      }
+    },
+    {
+      "term": "2026春",
+      "section_code": "CHIN40022.01",
+      "lesson_id": 1029482,
+      "course_code": "CHIN40022",
+      "course_name": "女性文学研究",
+      "teachers": [
+        "张岩冰"
+      ],
+      "credits": 2,
+      "task_level": "本科",
+      "open_department": "中国语言文学系",
+      "course_type": "专业选修课程",
+      "course_table_type": "基础和专业：专业课程",
+      "exam_mode": "开卷",
+      "total_hours": 36,
+      "source_ids": [
+        "OFFICIAL-OFFERING-1029482",
+        "OFFICIAL-SYLLABUS-1029482"
+      ],
+      "official_syllabus": {
+        "status": "structured_text_extracted",
+        "source_id": "OFFICIAL-SYLLABUS-1029482",
+        "section_titles": [
+          "课程简介（中文）",
+          "课程简介（英文）",
+          "教学目标",
+          "教学方式",
+          "教学内容与进度安排",
+          "课程考核与成绩评定",
+          "教材",
+          "教学参考资料",
+          "教学团队成员"
+        ],
+        "prerequisites": [],
+        "assessment": [
+          {
+            "criteria": "课堂表现Participation",
+            "percentage": 20.0,
+            "standard": "小组讨论参与度，课堂发言表现、课堂发言内容"
+          },
+          {
+            "criteria": "作业/实验/实践Assignment",
+            "percentage": 30.0,
+            "standard": "文学写作考察作品文学性和性别观念，学术作业考察逻辑性和思考力"
+          },
+          {
+            "criteria": "期末考试Final Examination：开卷 ",
+            "percentage": 50.0,
+            "standard": "考察课程内容掌握程度、独立思考能力、学术表达能力"
+          }
+        ],
+        "grade_rule": "等级制",
+        "textbooks": [],
+        "syllabus_id": 8761,
+        "error": null
+      }
+    }
+  ],
+  "official_metadata": {
+    "department": "中国语言文学系",
+    "target_terms": [
+      "2025秋",
+      "2026春"
+    ],
+    "target_teachers": [
+      "张岩冰"
+    ],
+    "task_levels": [
+      "本科"
+    ],
+    "section_count": 2,
+    "official_offering_count_in_snapshot": 2,
+    "course_type_values_by_offering": [
+      "专业选修课程"
+    ],
+    "course_table_type_values_by_offering": [
+      "基础和专业：专业课程"
+    ],
+    "source_ids": [
+      "OFFICIAL-OFFERING-1002320",
+      "OFFICIAL-OFFERING-1029482"
+    ]
+  },
+  "comparison_and_summary": {
+    "teaching_and_learning": "已读摘要没有明确记录具体学习收获或能力变化。",
+    "workload": "已读摘要没有提供可核实的具体准备或作业要求。",
+    "assessment": "已读摘要没有提供可核实的考核形式或评分细节。",
+    "grading_and_risk": "",
+    "teacher_and_term_differences": "已读来源未明确写出教师姓名；不能据课程名或现任教师表补认授课者。 学期信息按原文保留（明确历史期：2022届本科经历，含2020春记录）；“本学期/上学期”等未注明年份的说法不换算为目标期。",
+    "who_it_suits": "",
+    "source_ids": [
+      "PUB-EXPERIENCE-20221014"
+    ],
+    "section_source_ids": {
+      "teaching_and_learning": [],
+      "workload": [],
+      "assessment": [],
+      "teacher_and_term_differences": [
+        "PUB-EXPERIENCE-20221014"
+      ]
+    },
+    "manual_comparison": {
+      "status": "human_synthesized",
+      "text": "中文系选取的历史学生回顾提到女性文学研究与张岩冰的学习经历，但没有保留该课作业、阅读量或考核描述（PUB-EXPERIENCE-20221014）。这只是历史教师/课程线索，不能说明目标期不同教师班的体验。",
+      "evidence_ids": [
+        "PUB-EXPERIENCE-20221014"
+      ],
+      "limitations": "院系精选学生材料，修读学期和考核细节不明；不是代表性调查。",
+      "confidence": "low：材料主要为二手、短评或编辑选取内容，只能作线索。"
+    },
+    "confidence": "low：材料主要为二手、短评或编辑选取内容，只能作线索。",
+    "limitations": "共纳入1条已读来源，其中本人经历/评课0条、二手转述0条，另有校方精选、媒体报道或历史汇编1条；这些材料不代表班级分布。 没有明确目标期的一手评价；历史或学期不明材料不能移作当前班级结论。"
+  },
+  "research_snapshot": {
+    "date": "2026-10-27",
+    "curated_evidence_record_count": 535,
+    "synthesis_source_assignment_count": 522,
+    "public_review_index_record_count": 167,
+    "public_adopted_findings_count": 11
+  }
+}
