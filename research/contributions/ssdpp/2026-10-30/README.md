@@ -15,6 +15,8 @@
 
 ## 阅读与下载
 
+- [原始采集数据](raw/README.md)：93份接口缓存与检索／阅读记录，保留结果ID、查询关联和可公开正文；下载包另含15份官方Word原件。
+
 - [课程名单](社会发展与公共政策学院课程名单.txt)：按名称去重278项，每行仅一个课程名称。
 - [逐课索引](course-list.md)、[296个课程结构化记录](courses/)、[518条摘要与来源](summaries/evidence.json)、[摘要CSV](summaries/evidence.csv)。
 - [391班官方课程表](official/timetable.csv)、[官方教学班JSON](official/sections.json)、[15份培养方案目录与原件SHA-256](official/programs.json)、[2016条培养方案列课](official/program-courses.csv)。
