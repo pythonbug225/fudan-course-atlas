@@ -1,5 +1,7 @@
 # 复旦选课地图 · 全校课评库协作
 
+**本分支中文系资料：[原始数据文件](中文系原始数据/README.md) · [中文系课程名单](research/contributions/chinese-language-20261027/中文系课程名单.txt) · [课评与研究报告](research/contributions/chinese-language-20261027/README.md)**
+
 [在线使用](https://fudan-course-atlas.xiasinm.chatgpt.site) · [下载引用资料包](https://github.com/pythonbug225/fudan-course-atlas/releases/tag/references-20261027-caic) · [参与修改](CONTRIBUTING.md) · [提交反馈](https://github.com/pythonbug225/fudan-course-atlas/issues)
 
 按课程代码、课程名、教师名和拼音首字母检索复旦课程，课程卡片按AI、数学、其他专业课与GE代码分类着色，逐班比较学习收益、时间负担与成绩风险。每门课保留四部分：课程大纲、课程资料、课评与树洞、对比和总结。
