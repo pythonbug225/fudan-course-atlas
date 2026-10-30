@@ -4,7 +4,7 @@
 
 | 范围 | 数量与状态 |
 | --- | --- |
-| 2026级培养方案 | 18份；官方Word原件、JSON和离线阅读页在Release资料包内 |
+| 2026级培养方案 | 18份；官方Word原件、JSON和离线阅读页已展开保存在本分支的原始资料目录，并提供Release资料包 |
 | 2025秋实际开课 | 170个教学班、135个课程代码 |
 | 2026春实际开课 | 214个教学班、142个课程代码 |
 | 两学期去重 | 267个课程代码；本科210班、研究生165班、本研融通9班 |
@@ -14,6 +14,7 @@
 
 ## 阅读与下载
 
+- [本分支原始资料说明与入口](原始资料说明.md)、[原始资料目录](原始资料/)、[118个文件的原件校验索引](原始资料文件索引.json)
 - [哲学系课程名单](哲学系课程名单.txt)：2025秋、2026春哲学学院全部开课名称，按名称去重共253门，一行一个课程名称。
 - [逐课已读材料摘要](course-summaries.md)
 - [官方教学班与周次、节次、地点](official/offerings.csv)、[267课代码与覆盖表](summaries/coverage.csv)
@@ -21,7 +22,7 @@
 - [18份培养方案清单与原件SHA-256](official/programmes.json)、[培养方案课程索引](official/programme-courses.json)
 - [完整资料Release](https://github.com/pythonbug225/fudan-course-atlas/releases/tag/philosophy-research-20261029)、[直接下载离线资料包](https://github.com/pythonbug225/fudan-course-atlas/releases/download/philosophy-research-20261029/philosophy-research-20261029.zip)、[资料包校验清单](download-manifest.json)
 
-解压后打开 `哲学系课程研究/课程研究总览.html`。完整资料包约11.24 MiB，含18份官方Word原件、官方JSON、本地化图片与离线阅读页；大体积原件随Release提供。Git中保存可直接复核的结构化成果和台账。
+解压后打开 `哲学系课程研究/课程研究总览.html`。完整资料包约11.24 MiB，含18份官方Word原件、官方JSON、本地化图片与离线阅读页；相同的118个文件已完整展开到本分支的 `原始资料/` 目录。Git中同时保存结构化成果、台账与原始资料，无需另外从Release下载原件。
 
 ## 方法与覆盖边界
 
