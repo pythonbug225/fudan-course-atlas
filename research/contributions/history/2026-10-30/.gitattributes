@@ -1,0 +1,8 @@
+# Preserve captured files and published checksum inputs byte for byte.
+* -text
+*.md text eol=lf
+*.py text eol=lf
+.gitattributes text eol=lf
+# The existing report is an unchanged source snapshot, including CSV/Markdown
+# line endings and whitespace in official schedule text.
+report/** -text whitespace=-blank-at-eol,-blank-at-eof,cr-at-eol

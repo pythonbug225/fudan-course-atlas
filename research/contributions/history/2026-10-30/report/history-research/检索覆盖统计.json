@@ -1,0 +1,100 @@
+{
+  "updated_date": "2026-10-28",
+  "scope": "课程表按2025秋/2026春开课界定；检索不限制发帖日期，历史经验须标年份",
+  "search": {
+    "forum": {
+      "query_count": 1341,
+      "statuses": {
+        "completed": 1341
+      },
+      "pages_requested": 1677,
+      "unique_search_hits": 37309,
+      "note": "不是人工全文核读数量"
+    },
+    "danke": {
+      "query_count": 1341,
+      "statuses": {
+        "completed": 1341
+      },
+      "pages_requested": 1912,
+      "unique_search_hits": 701,
+      "note": "不是人工全文核读数量"
+    }
+  },
+  "danke_details": {
+    "saved_counts": {
+      "groups": 398,
+      "courses": 1005,
+      "reviews": 159
+    },
+    "statuses": {
+      "groups": {
+        "completed": 351,
+        "completed_no_target_course": 47
+      },
+      "courses": {
+        "completed": 1005
+      }
+    },
+    "note": "已获取159条评价正文全部核读；137条实质评价进入85组摘要，22条低实质未作为课程结论。修读期依真实课程对象字段，正文时间冲突另行标注。",
+    "manual_reading": {
+      "review_bodies_read": 159,
+      "reviews_included_in_summaries": 137,
+      "reviews_low_substance": 22,
+      "reviews_current_offering": 20,
+      "reviews_historical_same_teacher": 139,
+      "reviews_with_body_term_conflict": 14
+    }
+  },
+  "forum_context": {
+    "saved_counts": {
+      "holes": 47,
+      "floors": 1086
+    },
+    "statuses": {
+      "holes": {
+        "completed": 47
+      }
+    },
+    "note": "保存量不等于核读量；实际人工阅读见独立台账，不能把上下文楼数与搜索候选数直接相加。"
+  },
+  "forum_extended_manual": {
+    "parts": [
+      {
+        "part": 1,
+        "unique_floor_ids_read": 415,
+        "decisions_before_quality_overrides": {
+          "保留课评": 40,
+          "不确定": 22,
+          "问课": 193,
+          "广告": 150,
+          "无关": 10
+        }
+      },
+      {
+        "part": 2,
+        "unique_floor_ids_read": 415,
+        "decisions_before_quality_overrides": {
+          "保留课评": 39,
+          "问课": 233,
+          "不确定": 35,
+          "无关": 23,
+          "广告": 85
+        }
+      },
+      {
+        "part": 3,
+        "unique_floor_ids_read": 414,
+        "decisions_before_quality_overrides": {
+          "问课": 229,
+          "不确定": 16,
+          "保留课评": 50,
+          "广告": 90,
+          "无关": 29
+        }
+      }
+    ],
+    "floors_fullbody_read": 1244,
+    "note": "逐楼全文核读数，包含问课、广告等排除项，不是独立课评数；最终采用量须扣除质量复核降级项。"
+  }
+}

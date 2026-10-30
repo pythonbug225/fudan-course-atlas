@@ -1,0 +1,38 @@
+{
+  "范围": "复旦大学教务系统公开接口；2026级历史学系培养方案；历史学系实际开课 2025秋、2026春",
+  "院系": "历史学系",
+  "院系编号": "2556",
+  "方案目录来源": "https://fdjwgl.fudan.edu.cn/manager/bizType/2/page-center/major-program-search-view/search?skipAuth=1&YEARS=2026&DEPART_IDS=2556&queryPage__=1,500",
+  "方案目录数": 4,
+  "已下载且核验方案数": 4,
+  "方案列课行数": 1146,
+  "方案模块数": 142,
+  "实际教学班总数": 343,
+  "课程代码-学期行数": 270,
+  "课程代码去重数": 249,
+  "各学期": {
+    "2025秋": {
+      "学期ID": 504,
+      "教学班数": 161,
+      "课程代码-学期数": 143,
+      "不同课程代码数": 143,
+      "不同教师数": 97,
+      "空课程代码教学班数": 0,
+      "空教师教学班数": 0,
+      "source_url": "https://fdjwgl.fudan.edu.cn/student/for-all/lesson-search/semester/504/search/504?openDepartmentAssocs=2556&queryPage__=1,500"
+    },
+    "2026春": {
+      "学期ID": 505,
+      "教学班数": 182,
+      "课程代码-学期数": 127,
+      "不同课程代码数": 127,
+      "不同教师数": 103,
+      "空课程代码教学班数": 0,
+      "空教师教学班数": 0,
+      "source_url": "https://fdjwgl.fudan.edu.cn/student/for-all/lesson-search/semester/505/search/505?openDepartmentAssocs=2556&queryPage__=1,500"
+    }
+  },
+  "重复教学班ID": 0,
+  "读取日期": "2026-10-28",
+  "来源说明": "数据由公开教务查询接口直接返回；方案原件由公开 export-word 接口 POST ids=<方案ID> 导出。未使用浏览器存储、登录态或认证凭据。"
+}
