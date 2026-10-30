@@ -1,0 +1,101 @@
+<!doctype html><html lang="zh-CN"><meta charset="utf-8"><body><h1>统计数据分析方法</h1><p>2026春 · MAS60004.01 · 刚博文</p><p>来源：复旦教务系统教学大纲；正文整理。</p><h2>课程简介（中文）</h2><div style="white-space:pre-wrap">本课程为现代统计推断提供了一个严谨的数学框架，旨在弥合经典统计方法论与高维、工业级数据科学面临的独特挑战之间的鸿沟。超越传统的固定样本分析范式，本课程深入探讨了解释“黑盒”算法、处理海量特征集以及在流数据环境中做出统计有效决策所需的数学基础。</div><h2>课程简介（英文）</h2><div style="white-space:pre-wrap">This course provides a rigorous framework for modern statistical inference, bridging the gap between classical methodology and the unique challenges of high-dimensional, industrial Data Science. Moving beyond standard fixed-sample analysis, this curriculum addresses the mathematical foundations required to interpret &quot;black box&quot; algorithms, handle massive feature sets, and make valid decisions in streaming environments.</div><h2>教学目标</h2><div style="white-space:pre-wrap">本课程旨在培养兼具深厚数理基础与解决复杂实际问题能力的创新型人才。
+
+
+
+
+价值引领： 立足科学诚信与数据伦理，通过剖析“P值操纵”、“偷看数据”等典型误区，培养学生严谨务实的科学态度。
+
+
+
+
+知识传授： 系统构建现代统计推断知识体系，讲授高维线性模型、大规模多重假设检验、在线推断及顺应性预测等前沿理论。
+
+
+
+
+能力培养： 重点强化学生在“大数据、流数据”环境下的建模分析能力，使其具备修正“黑盒”算法偏差、进行可靠不确定性量化及解决工业界高风险决策问题的核心竞争力。</div><h2>教学方式</h2><div style="white-space:pre-wrap">讲授（9节课）+学生报告（1节课）</div><h2>教学内容与进度安排</h2><div style="white-space:pre-wrap">第一周：线性回归的几何视角与岭回归 (Linear Regression &amp; Ridge)
+
+
+
+
+核心内容： 多元正态分布（MVN）的性质与条件分布；最小二乘法（OLS）的几何解释（投影矩阵）；高维数据下的“P值危机”与多重共线性；偏差-方差权衡（Bias-Variance Tradeoff）；岭回归（Ridge Regression）的推导、贝叶斯解释及SVD几何意义。
+
+
+
+第二周：稀疏建模与变量选择 (Sparse Modeling &amp; The Lasso)
+
+
+
+
+核心内容： Lasso估计量与软阈值算子（Soft Thresholding）；Lasso与Ridge的几何对比（L1 vs L2范数）；“稀疏性赌注”原理；变量选择的陷阱（伪发现问题）；Elastic Net及其超参数调优（交叉验证）；选择后推断（Post-Selection Inference）的警告。
+
+
+
+第三周：多重检验与错误率控制 (Multiple Testing Fundamentals)
+
+
+
+
+核心内容： 全局零假设检验（Global Null）；族错误率（FWER）控制：Bonferroni与Holm方法；错误发现率（FDR）革命；Benjamini-Hochberg (BH) 过程及其理论保证；PRDS依赖性假设。
+
+
+
+第四周：FDR的高级主题：适应性与辅助信息 (Advanced FDR Control)
+
+
+
+
+核心内容： 经验零分布（Empirical Null）估计；利用辅助信息（Side Information）提高检验功效；双样本问题中的正交性技巧；局部FDR（Local FDR）与最优排序；数据分割（Data Splitting）与镜像统计量（Mirror Statistics）。
+
+
+
+第五周：在线假设检验 (Online Hypothesis Testing)
+
+
+
+
+核心内容： 离线与在线推断的区别；“Alpha Death”现象与Alpha投资策略；LOND算法（基于发现次数的投资）；LORD算法（基于最近发现的投资）；SAFFRON算法与适应性在线FDR控制。
+
+
+
+第六周：E-value与随时有效推断 (E-values &amp; E-processes)
+
+
+
+
+核心内容： 连续监控中的“偷看问题”（Peeking Problem）；E-value与赌博评分（Betting Score）的等价性；Ville不等式与鞅（Martingales）；序贯似然比检验；随时有效的置信序列（Confidence Sequences）构造。
+
+
+
+第七周：通用推断与证据融合 (Universal Inference &amp; Merging Evidence)
+
+
+
+
+核心内容： 通用推断（Universal Inference）：基于数据分割的似然比检验；处理多模态证据（P值与E值的融合）；独立与依赖数据下的证据合并策略；e-BH过程（针对任意依赖性的FDR控制）。
+
+
+
+第八周：事后推断与元分析 (Post-hoc Inference &amp; Meta-Analysis)
+
+
+
+
+核心内容： 解决“部分信息”问题；事后α假设检验（Post-hoc Hypothesis Testing）；Post-hoc P-values的定义与性质；解决“抽屉问题”与安全的数据探索。
+
+
+
+第九周：共性推断 (Conformal Inference)
+
+
+
+
+核心内容： 预测区间与点预测的区别；分裂顺应性预测（Split Conformal Prediction）算法；非一致性评分（Conformity Score）的设计；加权顺应性预测（处理协变量偏移）；分类问题的顺应性预测（APS算法）；异常值检测。
+
+
+
+第十周：小组报告 (Final Presentation)</div><h2>教学参考资料</h2><div style="white-space:pre-wrap">自编讲义。
+
+The Elements of Statistical Learning.
+
+Hypothesis Testing with E-values.</div><h2>考核方式</h2><div style="white-space:pre-wrap">作业/实验/实践Assignment 50.0%；汇报Presentation 20.0%；课题研讨Topic Discussion 30.0%</div><h2>考核构成</h2><ul><li>作业/实验/实践Assignment 50.0% </li><li>汇报Presentation 20.0% </li><li>课题研讨Topic Discussion 30.0% </li></ul></body></html>

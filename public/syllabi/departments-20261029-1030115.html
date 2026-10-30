@@ -1,0 +1,42 @@
+<!doctype html><html lang="zh-CN"><meta charset="utf-8"><body><h1>风险理论与精算建模</h1><p>2026春 · ECON40021.01 · 段白鸽</p><p>来源：复旦教务系统教学大纲；正文整理。</p><h2>课程简介（中文）</h2><div style="white-space:pre-wrap">风险理论与精算建模是运用统计模型与方法研究保险领域核心问题的一门专业进阶课程。本课程是英国精算师协会（IFoA）的豁免认证课程——风险模型与生存分析（CS2），其基本内容由导论、损失分布与风险分担设计、风险模型、生存模型、寿命分布估计、Markov链与经验费率系统六部分构成。其中，损失分布与风险分担设计、风险模型、生存模型是教学重点，R软件操作将内化并嵌入到各部分教学内容中。在教学过程中贯彻理论联系实际，既注重现代精算风险理论在保险领域的定量研究和实践应用，又注重与中国保险市场发展现状相结合，为中国保险业高质量发展和保险强国建设提供智力支持。</div><h2>课程简介（英文）</h2><div style="white-space:pre-wrap">Risk Theory and Actuarial Modeling is a specialized advanced course that applies statistical models and methods to study core issues in the insurance field. This course is accredited by the Institute and Faculty of Actuaries (IFoA) as an exemption subject—Risk Models and Survival Analysis (CS2). Its fundamental content consists of six parts: Introduction, Loss Distributions and Risk Sharing Design, Risk Models, Survival Models, Estimation of Lifetime Distributions, and Markov Chains and Experience Rating Systems. Among these, Loss Distributions and Risk Sharing Design, Risk Models, and Survival Models are the key teaching focuses. The application of R software will be integrated and embedded throughout each part of the course content. The teaching process emphasizes the integration of theory with practice, focusing not only on the quantitative research and practical application of modern actuarial risk theory in the insurance field but also on aligning with the current development of China&#x27;s insurance market. This approach aims to provide intellectual support for the high-quality development of China&#x27;s insurance industry and the building of a strong insurance sector.</div><h2>教学目标</h2><div style="white-space:pre-wrap">本课程的教学目标是通过教学使学生领悟“状态-时间”分析工具及其在精算建模中的核心作用，熟练掌握短期保险合约（合同）和长期保险合约（合同）建模的结构模型，熟悉模型应用与R软件实现，并能初步学会运用风险理论与精算建模方法分析和解决保险领域的实际问题，为从事保险与金融、精算与风险管理、统计与大数据等领域的相关工作提供精算建模技术，提升实践操作能力。</div><h2>教学方式</h2><div style="white-space:pre-wrap">教师讲授为主，根据章节内容安排和每周授课内容组织一定的课堂研讨、R软件操作实践。
+
+课程配套教材上每章设有习题与扩展思考题，题型包括：计算题、证明题和论述题，并提供了详细的解答过程，供同学们课内外讨论、练习和实践。
+
+本课程的教学大纲、各章课件和R软件操作实现等均可在学校的E-learning平台上获取。</div><h2>教学内容与进度安排</h2><div style="white-space:pre-wrap">本课程包括六个部分：导论（第1周）、损失分布与风险分担设计（第2-4周）、风险模型（第5-7周）、生存模型（第8-10周）、寿命分布估计（第11-12周）和Markov链与经验费率系统（第13-15周）。
+
+
+第1周，导论；包括：风险与保险的关系、保险的本质与保险体系的风险分担功能、时间-状态空间思维训练与分析工具、国内外精算师职业资格考试体系；重点领悟“状态-时间”分析工具及其在精算建模中的核心作用，理解寿险和非寿险精算建模的区别与联系。
+
+第2周，损失分布；包括：分布函数与矩母函数、常见的损失次数和损失金额的分布、单张保单的损失和理赔的分布模型、厚尾分布和轻尾分布；理解实际中保险损失分布的特征。
+
+第3周，风险分担设计及其理赔额分布；包括：保险合约和再保险合约中的绝对风险分担设计、相对风险分担设计、绝对风险和相对风险分担的混合设计、含免赔额的理赔额分布、含保单限额的理赔额分布、同时含免赔额、保单限额和比例赔付的理赔额分布、损失分布和理赔额分布的参数估计（矩估计、极大似然估计、分位数估计）及模型检验与选择。
+
+第4周，损失分布与风险分担设计的R 软件操作与实现；包括：R软件内置的分布函数及其R实现、R软件没有内置的分布函数及其实现举例、再保险的R实现举例、极大似然估计的R实现举例、Q-Q图的R实现举例。
+
+第5周，短期保险合约建模的结构模型；包括：非寿险领域的纯粹风险状态、短期保险合同模型、保单组合的损失和理赔总量的聚合风险模型（集体风险模型和个体风险模型）、双期望定理、复合分布模型（复合泊松分布、复合二项分布、复合负二项分布）的三种度量方法（矩母函数法、正态近似法、随机模拟法）、保险合约和再保险合约中理赔总量的风险分担设计、均值、方差和偏度计算、复合泊松分布的特殊性质及其在保险建模中的应用。
+
+第6周，模型参数的可变性建模；包括：异质保单组合（独立同类型分布）的可变性建模、同质保单组合（不独立但同分布）的可变性建模，以及两者的区别、联系和实际应用。
+
+第7周，风险模型的R 软件操作与实现；包括：复合泊松分布的R实现、含个体超额损失再保险的理赔总量的分布的R实现、含聚合超额损失再保险的理赔总量的分布的R实现、个体风险模型的R实现、异质保单组合的可变性的R实现、同质保单组合的可变性的R实现。
+
+第8周，生存分布；包括：寿险领域的人类死亡风险状态和动态（时间）演变规律、长期风险建模的结构模型简介、生存分布的基本函数、0岁新生儿的死亡时间随机变量的分布、连续型生存分布、岁的人的剩余死亡时间随机变量的分布、平均预期（剩余）寿命的计算方法。
+
+第9周，生命表方法；包括：生命表的分类、构造原理和编制方法、生存模型与生命表函数之间的关系、死亡率建模指标（死亡力、条件死亡概率、中心死亡率）、平均预期（剩余）寿命的计算方法。
+
+第10周，生存模型的R 软件操作与实现；包括：Gompertz分布等生存分布的概率密度函数、累积分布函数和分位数函数、死力函数（也称危险率函数）、累积危险率函数的数值解等基本运算，以及衍生的其他估计问题的R实现。
+
+第11周，寿命分布估计；包括：完全数据和不完全数据的定义和分类、两种数据类型下经验生存函数的均值估计和方差估计、不完全数据下经验生存函数的Kaplan-Meier乘积极限估计和方差的Greenwood近似估计、累积危险率（累积死力）函数的Nelson-Aalen估计、方法在生存函数和累积危险率函数的置信区间估计中的应用。
+
+第12周，寿命分布估计的R 软件操作与实现；包括：绘制经验分布（生存）函数图、绘制分组数据的直方图、Kaplan-Meier估计和Nelson-Aalen估计的R实现举例。
+
+第13周，Markov链；包括：随机过程、Markov过程的定义及其分类、转移概率与Chapman–Kolmogorov方程、Markov链的时间相依性、Markov链示例；重点介绍离散时间Markov链的转移概率、转移图和结构属性（如时间齐次性、是否有限状态空间、是否可约、周期性等）。
+
+第14周，经验费率系统；包括：保险领域的状态转移模型、Markov链的长期概率分布、平稳概率分布、Markov链的长期行为；重点介绍离散时间Markov链是否存在平稳概率分布，以及平稳概率分布的存在性和唯一性。
+
+第15周，应用Markov链建模及其R软件操作与实现；包括：估计转移概率、评估拟合效果、Markov链的转移图的R实现举例、Markov链的结构属性的R实现举例、Markov链的平稳概率分布的R实现举例。
+
+第16周，期末总复习；包括：复习各章内容、绘制风险理论与精算建模各章内容的脉络和架构图、期末答疑。
+
+第17-18周，期末考试；包括：期末考试监考、批卷阅卷、登分等。</div><h2>教学参考资料</h2><div style="white-space:pre-wrap">（1）段白鸽：《动态死亡率建模与长寿风险量化研究》，中国社会科学出版社2019年，ISBN978-7-52-032909-5。
+
+（2）Institute and Faculty of Acutaries (IFoA). Risk Modelling and Survival Analysis (CS2) Core Principles. 2023.</div><h2>教材（教务大纲）</h2><div style="white-space:pre-wrap">书名：风险理论与精算建模；作者：段白鸽；出版社：复旦大学出版社；出版时间：2024-07；ISBN：9787309174748</div><h2>考核方式</h2><div style="white-space:pre-wrap">出勤Attendance 10.0%（签到）；课堂表现Participation 20.0%（积极参与课堂互动，并能准确回答老师提出的相关专业问题）；作业/实验/实践Assignment 20.0%（能熟练运用所学的风险理论与精算建模专业知识和Mathtype、R等软件操作完成课程作业、课堂内外讨论和实践）；期末考试Final Examination：闭卷  50.0%（期末考试卷面成绩）</div><h2>考核构成</h2><ul><li>出勤Attendance 10.0% 签到</li><li>课堂表现Participation 20.0% 积极参与课堂互动，并能准确回答老师提出的相关专业问题</li><li>作业/实验/实践Assignment 20.0% 能熟练运用所学的风险理论与精算建模专业知识和Mathtype、R等软件操作完成课程作业、课堂内外讨论和实践</li><li>期末考试Final Examination：闭卷 50.0% 期末考试卷面成绩</li></ul></body></html>

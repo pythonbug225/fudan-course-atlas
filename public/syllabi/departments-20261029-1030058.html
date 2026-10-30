@@ -1,0 +1,173 @@
+<!doctype html><html lang="zh-CN"><meta charset="utf-8"><body><h1>计量经济学</h1><p>2026春 · ECON30121.01 · 张卫平</p><p>来源：复旦教务系统教学大纲；正文整理。</p><h2>课程简介（中文）</h2><div style="white-space:pre-wrap">本课程系统讲授计量经济学的基础理论与实证方法，涵盖简单与多元线性回归、潜在结果模型、面板数据回归、工具变量与双重差分等核心内容。课程强调科学严谨与现实问题导向，训练学生区分“相关”与“因果”，并通过案例与编程实践提升经验研究能力。</div><h2>课程简介（英文）</h2><div style="white-space:pre-wrap">This course provides a systematic introduction to the core theory and empirical methods of econometrics, covering key topics such as simple and multiple linear regression, the potential outcomes framework, panel data models, instrumental variables, and difference-in-differences. Emphasizing scientific rigor and real-world applications, the course trains students to distinguish correlation from causality and strengthens their ability to conduct applied empirical research through case studies and programming practice.</div><h2>教学目标</h2><div style="white-space:pre-wrap">本课程旨在使学生系统掌握计量经济学的核心理论与常用实证方法，理解经典模型设定、估计与检验逻辑；能够针对现实经济问题提出可检验的研究假设，合理选择识别策略并完成规范的实证分析；重点培养学生区分相关与因果、识别内生性与偏误来源的能力，并通过案例与编程训练提升数据处理与论文写作能力。</div><h2>教学方式</h2><div style="white-space:pre-wrap">本课程采用“理论讲授 + 案例研讨 + 动手实践 + 作业反馈”的混合式教学方式。课堂以核心理论推导与模型思想为主线，结合经典文献与现实经济问题进行案例讨论，强化因果识别与实证设计训练；配合动手环节引导学生使用统计软件（如 Stata / R / Python）完成数据处理、回归分析与结果解释；通过阶段性作业、小测与课程项目提供及时反馈，促进学生形成规范的实证研究流程与学术表达能力。</div><h2>教学内容与进度安排</h2><div style="white-space:pre-wrap">导论：介绍计量经济学的主要内容；介绍Python的基本语法。
+
+
+1.1 课程介绍
+
+1.2 思考题
+
+1.3 相关与因果
+
+1.4 数据与软件
+
+
+概率论复习：复习本课程必要的概率论知识。
+
+
+2.1概率模型
+
+2.2随机变量与随机向量
+
+2.3正态分布及其他有关分布
+
+2.4 大数定律与中心极限定理
+
+
+统计学复习：复习本课程必要的统计学知识。
+
+
+3.1 估计量的性质
+
+3.2 矩估计
+
+3.3 最大似然估计
+
+3.4 最小二乘估计与假设检验
+
+
+简单线性回归：介绍简单线性回归模型。
+
+
+4.1相关与因果的再讨论
+
+4.2 OLS估计量的性质
+
+4.3无偏性与一致性
+
+4.4 连续映射定理与斯勒茨基定理
+
+
+简单线性回归中的假设检验和置信区间：介绍简单线性回归中的假设检验和置信区间。
+
+
+5.1 假设检验
+
+5.2 置信区间
+
+5.3 Python的应用
+
+5.4 R的应用
+
+
+多元线性回归（上）：介绍多元线性回归模型的个体形式。
+
+
+6.1多元线性回归简介
+
+6.2 条件期望与投影模型
+
+6.3 预测问题示例：对工资的预测
+
+6.4 最小二乘问题
+
+
+多元线性回归（下）：介绍多元线性回归模型的矩阵形式。
+
+
+7.1多元线性回归模型的矩阵表达
+
+7.2 最小二乘的矩阵形式
+
+7.3 投影矩阵及其性质
+
+7.4 投影矩阵的示例
+
+
+多元线性回归中的假设检验和置信区间：介绍多元线性回归中的假设检验和置信区间。
+
+
+8.1 OLS估计量的渐进分布
+
+8.2 正态回归
+
+8.3 正态回归中的区间估计
+
+8.4 正态回归中的假设检验
+
+
+潜在结果模型：介绍潜在结果模型基本框架；介绍如何利用多元线性回归模型估计因果效应。
+
+
+9.1观测结果与潜在结果
+
+9.2 选择偏误与随机分配
+
+9.3 随机试验中的线性回归
+
+9.4 条件独立假设
+
+
+工具变量回归：结合案例学习如何利用工具变量法解决内生性问题。
+
+
+10.1 内生性问题
+
+10.2 工具变量方法
+
+10.3 针对工具变量的检验
+
+10.4 工具变量应用：香烟需求对价格的弹性——香烟税或者消费税做工具
+
+
+控制固定效应：结合案例学习如何利用面板数据解决固定效应造成的内生性问题。
+
+
+11.1 个体固定效应原理
+
+11.2 个体固定效应的三种估计方法
+
+11.3 同时含有个体固定效应与时间固定效应
+
+11.4 固定效应应用：提高啤酒税能多大程度降低交通死亡率？
+
+
+双重差分估计：结合案例学习如何利用双重差分方法解决内生性问题。
+
+
+12.1 双重差分应用：美国大萧条时期密西西比州的一次 “实验”
+
+12.2 双重差分假设：共同趋势与平行世界
+
+12.3 双重差分回归的一般形式
+
+12.4 放宽共同趋势后的双重差分回归
+
+
+断点回归估计：结合案例学习如何利用断点回归方法解决内生性问题。
+
+
+13.1 精确断点设计：生日与葬礼
+
+13.2 精确断点回归
+
+13.3 精确断点与模糊断点
+
+13.4 模糊断点设计：精英幻觉
+
+
+ 小组报告1
+
+ 小组报告2
+
+
+16 复习与答疑
+
+
+ 18. 考试</div><h2>教学参考资料</h2><div style="white-space:pre-wrap">陈诗一, 陈登科. 计量经济学. 高等教育出版社, 2019.
+
+朱迪亚·珀尔, 达纳·麦肯齐. 为什么——关于因果关系的新科学. 中信出版社, 2019.
+
+Stock, Watson. Introduction to Econometrics (4e). Pearson Education, 2019.
+
+Angrist, Pischke. Mastering Metrics: the Path from Cause to Effect. Princeton University Press, 2015.
+
+Bruce E. Hansen. Econometrics Manuscript, 2021.</div><h2>考核方式</h2><div style="white-space:pre-wrap">作业/实验/实践Assignment 30.0%（根据作业情况）；期末考试Final Examination：闭卷  70.0%（考卷成绩）</div><h2>考核构成</h2><ul><li>作业/实验/实践Assignment 30.0% 根据作业情况</li><li>期末考试Final Examination：闭卷 70.0% 考卷成绩</li></ul></body></html>
