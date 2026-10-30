@@ -1,0 +1,3324 @@
+{
+  "schemaVersion": 1,
+  "scope": {
+    "institution": "复旦大学国际文化交流学院",
+    "terms": [
+      "2025秋",
+      "2026春"
+    ],
+    "platforms_requested": [
+      "小红书",
+      "知乎"
+    ],
+    "official_roster_source": "work/ices-inventory.json",
+    "official_scope": {
+      "2025秋": {
+        "teachingClasses": 103,
+        "distinctCourseCodes": 89
+      },
+      "2026春": {
+        "teachingClasses": 126,
+        "distinctCourseCodes": 85
+      },
+      "uniqueCourseTitlesAcrossTerms": 165,
+      "uniqueTeachersAcrossTerms": 63
+    },
+    "coverage_note": "Partial research. No exhaustive coverage claim. Direct platform searches below cover only a small subset of the official course titles and teachers."
+  },
+  "browser_access": {
+    "browser": "Microsoft Edge",
+    "separate_research_tabs_created": [
+      {
+        "platform": "小红书",
+        "tabId": "1085568609",
+        "query": "复旦 国交 选课 课评",
+        "resultPageVerified": true
+      },
+      {
+        "platform": "知乎",
+        "tabId": "1085568612",
+        "query": "复旦 国际文化交流学院 课评",
+        "resultPageVerified": true
+      },
+      {
+        "platform": "Bing public index via Edge",
+        "tabId": "1085568627",
+        "query": "site-limited search for Chen Jiajun correction",
+        "resultPageVerified": true
+      },
+      {
+        "platform": "Bing public index via Edge",
+        "tabId": "1085568630",
+        "query": "site:xiaohongshu.com 复旦 \"经济学原理\" (课评 OR 选课 OR 课程评价)",
+        "resultPageVerified": true
+      }
+    ],
+    "user_tabs_touched": false,
+    "access_notes": "Some Edge tab reads and post opens exceeded 60 seconds. Recovery via CUA inventory and fresh research tabs succeeded. Do not infer coverage from timeouts."
+  },
+  "coverage": {
+    "xiaohongshu": {
+      "independentExactCourseTitlesQueried": 6,
+      "officialUniqueCourseTitles": 165,
+      "exactTitleCoverage": "6/165",
+      "independentTeacherNamesQueried": 5,
+      "officialUniqueTeachers": 63,
+      "teacherNameCoverage": "5/63",
+      "searchStyle": "Chinese course title plus assigned teacher Chinese name; for selected queries also full pinyin and initials. Short initials were noisy. No official source-verified aliases were supplied."
+    },
+    "zhihu": {
+      "independentExactCourseTitlesQueried": 0,
+      "officialUniqueCourseTitles": 165,
+      "independentTeacherNamesQueried": 0,
+      "officialUniqueTeachers": 63,
+      "searchStyle": "One broad college-and-course-review query in Edge. Its AI summary was explicitly excluded; no exact title/teacher query completed in this pass."
+    },
+    "bingPublicIndex": {
+      "readLowRecallCourseBatches": [
+        {
+          "id": "C03-A",
+          "titleRoots": 10,
+          "site": "xiaohongshu.com OR zhihu.com",
+          "pinyinSearched": false,
+          "initialsSearched": false,
+          "outcome": "about 70 results, visible top results unrelated admissions/exam prep; no ICES review identified"
+        },
+        {
+          "id": "C03-B",
+          "titleRoots": 7,
+          "site": "xiaohongshu.com OR zhihu.com",
+          "pinyinSearched": false,
+          "initialsSearched": false,
+          "outcome": "about 31 results; opened one related Zhihu exam-prep guide and excluded it; no current course review surfaced"
+        },
+        {
+          "id": "C04-A",
+          "titleRoots": 6,
+          "officialCourseCodes": 7,
+          "sites": "xiaohongshu.com OR zhihu.com",
+          "pinyinSearched": false,
+          "initialsSearched": false,
+          "outcome": "about 79 results, visible leads unrelated/admissions; no ICES review identified"
+        },
+        {
+          "id": "C04-B",
+          "titleRoots": 3,
+          "officialCourseCodes": 5,
+          "sites": "xiaohongshu.com OR zhihu.com",
+          "pinyinSearched": false,
+          "initialsSearched": false,
+          "outcome": "Bing no related results; absence on platform not established"
+        },
+        {
+          "id": "C05-A",
+          "titleRoots": 9,
+          "officialCourseCodes": 9,
+          "sites": "xiaohongshu.com OR zhihu.com",
+          "pinyinSearched": true,
+          "initialsSearched": true,
+          "outcome": "about 27 results, visible Zhihu index/test-prep/other-department noise; no ICES review identified"
+        },
+        {
+          "id": "C05-B1",
+          "titleRoots": 6,
+          "officialCourseCodes": 6,
+          "sites": "xiaohongshu.com OR zhihu.com",
+          "pinyinSearched": true,
+          "initialsSearched": true,
+          "outcome": "about 7 results; generic material, no ICES review identified"
+        },
+        {
+          "id": "C06",
+          "titleRoots": 5,
+          "officialCourseCodes": 5,
+          "sites": "xiaohongshu.com OR zhihu.com",
+          "pinyinSearched": true,
+          "initialsSearched": true,
+          "outcome": "about 23 results; graduate-exam/generic Chinese-literature noise, no ICES review identified"
+        },
+        {
+          "id": "C05-B2",
+          "titleRoots": 5,
+          "officialCourseCodes": 5,
+          "sites": "xiaohongshu.com OR zhihu.com",
+          "pinyinSearched": true,
+          "initialsSearched": true,
+          "outcome": "about 10 results, all general/non-target; no ICES review identified"
+        },
+        {
+          "id": "C07-A",
+          "titleRoots": 10,
+          "officialCourseCodes": 10,
+          "sites": "xiaohongshu.com OR zhihu.com",
+          "pinyinSearched": true,
+          "initialsSearched": true,
+          "outcome": "about 96 results; visible general Fudan thesis rule/admissions/research pages, no ICES review identified"
+        },
+        {
+          "id": "C07-B",
+          "titleRoots": 10,
+          "officialCourseCodes": 10,
+          "sites": "xiaohongshu.com OR zhihu.com",
+          "pinyinSearched": true,
+          "initialsSearched": true,
+          "outcome": "about 45 results; generic textbook/admissions results, no ICES review identified"
+        },
+        {
+          "id": "C08-C09",
+          "titleRoots": 5,
+          "officialCourseCodes": 5,
+          "sites": "xiaohongshu.com OR zhihu.com",
+          "pinyinSearched": true,
+          "initialsSearched": true,
+          "outcome": "about 105 results; MBA/admissions/business noise, no ICES review identified"
+        },
+        {
+          "id": "C10",
+          "titleRoots": 10,
+          "officialCourseCodes": 10,
+          "sites": "xiaohongshu.com OR zhihu.com",
+          "pinyinSearched": true,
+          "initialsSearched": true,
+          "outcome": "about 5 results, unrelated graduate/research material; no ICES review"
+        },
+        {
+          "id": "C11",
+          "titleRoots": 5,
+          "officialCourseCodes": 5,
+          "sites": "xiaohongshu.com OR zhihu.com",
+          "pinyinSearched": true,
+          "initialsSearched": true,
+          "outcome": "about 14 results, psychology/linguistics generic pages; no ICES review"
+        }
+      ],
+      "singleTitleQueries": [
+        {
+          "title": "经济学原理",
+          "site": "xiaohongshu.com",
+          "outcome": "no Bing result"
+        },
+        {
+          "title": "经济学原理",
+          "site": "xiaohongshu.com OR zhihu.com",
+          "outcome": "navigation but unread"
+        }
+      ],
+      "teacherQueries": [
+        {
+          "teacher": "陈家隽",
+          "variants": [
+            "陈家隽",
+            "Chen Jiajun",
+            "chenjiajun",
+            "chen jia jun",
+            "cjj"
+          ],
+          "outcome": "about 78 results, name-collision noise; no identifiable Fudan ICES result"
+        }
+      ],
+      "limitation": "Bing site indexing is supplemental and low recall. Grouped OR batches do not constitute independent exact-title or exact-variant searches. Direct platform UI counts remain separately reported."
+    }
+  },
+  "courseSpecificCurrentTermReviews": [],
+  "historicalCourseExperience": [
+    {
+      "platform": "知乎",
+      "title": "在复旦读汉语国际教育专业是怎样一种体验",
+      "url": "https://zhuanlan.zhihu.com/p/59361108",
+      "publishedDate": "2019-03-15",
+      "fullTextRead": true,
+      "postType": "student course experience / graduate-program memoir",
+      "termRelation": "Historical pre-target-period experience; not a 2025秋 or 2026春 review.",
+      "attributionPolicy": "Use as historical comparator only. Some titles exactly match official courses in the target roster; where a similar course had a different teacher, title variant, or external faculty, do not assign it to the current section.",
+      "courseObservations": [
+        {
+          "courseTitle": "跨文化交际",
+          "officialTargetMatch": {
+            "term": "2025秋",
+            "courseCode": "ICLE40023",
+            "teacher": "杨蓉蓉"
+          },
+          "attribution": "Strong title match; author explicitly says 杨蓉蓉 taught their cohort, but the post is from 2019, not current term.",
+          "summary": "Course used cases to introduce principles; assessment was a paper. Author says a later cohort reportedly had 彭增安, but that is hearsay about a different year."
+        },
+        {
+          "courseTitle": "汉语作为第二语言教学",
+          "officialTargetMatch": {
+            "term": "2025秋",
+            "courseCode": "ICLE40024",
+            "teacher": "吴剑锋"
+          },
+          "attribution": "Strong title match; teacher not named in the post.",
+          "summary": "Author says they liked the course; topics included introductory material, the instructor's books, and teaching common language points; final assessment was a paper."
+        },
+        {
+          "courseTitle": "国外汉语课堂教学案例研究",
+          "officialTargetMatch": {
+            "term": "2026春",
+            "courseCode": "ICLE60004",
+            "teacher": "陈钰"
+          },
+          "attribution": "Strong title match; teacher not named in the post; historical experience only.",
+          "summary": "Early classes covered immersion approaches and video discussion; later student groups found lesson recordings and presented evaluations of their strengths and weaknesses."
+        },
+        {
+          "courseTitle": "中华文化与传播",
+          "officialTargetMatch": {
+            "term": "2025秋",
+            "courseCode": "ICLE40022",
+            "teacher": "刘海霞"
+          },
+          "attribution": "Strong title match; teacher not named in the post.",
+          "summary": "Author characterizes it as history-oriented and says the assessment was a written exam."
+        },
+        {
+          "courseTitle": "汉外语言对比",
+          "officialTargetMatch": {
+            "term": "2025秋",
+            "courseCode": "ICLE60005",
+            "teacher": "吴云"
+          },
+          "attribution": "Strong title match; teacher not named in the post.",
+          "summary": "Described as using English-Chinese comparisons to consider language teaching; final paper compared languages."
+        },
+        {
+          "courseTitle": "汉语语言要素教学",
+          "officialTargetMatch": {
+            "term": "2025秋",
+            "courseCode": "ICLE50001",
+            "teacher": "胡文华、盛若菁、吴剑锋"
+          },
+          "attribution": "Strong title match.",
+          "summary": "A multi-instructor course divided into vocabulary, grammar, and character-teaching units."
+        },
+        {
+          "courseTitle": "中华文化技能",
+          "officialTargetMatch": {
+            "term": "2025秋",
+            "courseCode": "ICLE50002",
+            "teacher": "王震、朱政"
+          },
+          "attribution": "Strong title match; teacher not named in the post.",
+          "summary": "Author recalls short introductory sessions in painting, calligraphy, seal carving, and tai chi, plus a traditional-medicine lecture."
+        },
+        {
+          "courseTitle": "教学调查与分析",
+          "officialTargetMatch": {
+            "term": "2026春",
+            "courseCode": "ICLE70004",
+            "teacher": "徐晓羽"
+          },
+          "attribution": "Strong title match, but the author says they audited rather than enrolled; do not treat as a fully representative student review.",
+          "summary": "The author mentions analysis methods such as SPSS and says they liked the teacher."
+        },
+        {
+          "courseTitle": "教学测试与评估",
+          "officialTargetMatch": {
+            "term": "2026春",
+            "courseCode": "ICLE70005",
+            "teacher": "李杰"
+          },
+          "attribution": "Strong title match; teacher not named.",
+          "summary": "Brief description says the course covered how to write test questions and run assessments."
+        },
+        {
+          "courseTitle": "第二语言习得",
+          "officialTargetMatch": {
+            "term": "2026春",
+            "courseCode": "ICLE40021",
+            "teacher": "高顺全"
+          },
+          "attribution": "Title match, but the author uses an informal nickname for the teacher that is not a verified alias; do not attribute that nickname to 高顺全.",
+          "summary": "The author says the course covered concepts such as the critical-period hypothesis and emergence, with a paper as the assessment."
+        },
+        {
+          "courseTitle": "现代教育技术",
+          "officialTargetMatch": {
+            "term": "2026春",
+            "courseCode": "CHIN60157",
+            "teacher": "路广"
+          },
+          "attribution": "Title match; teacher not named; historical experience only.",
+          "summary": "Classes were held in a computer lab, included office-software practice, and ended with an analysis of a second-language-learning software product."
+        }
+      ],
+      "ambiguousOrExcludedCourseMentions": [
+        {
+          "courseTitle": "国别与地域文化",
+          "reason": "The author specifically identifies a 文学院 teacher (梁永安) and says another teacher taught the final classes. The 2026春 official ICES roster lists this title with different teachers. Possible same-title or cross-college course; do not attribute this review to the ICES section."
+        },
+        {
+          "courseTitle": "外语教育心理学",
+          "reason": "The author explicitly describes it as taught by instructors from another school, while the target roster lists an ICES instructor. Do not attribute this review to the target section."
+        },
+        {
+          "courseTitle": "课堂观察与实践",
+          "reason": "The target roster title is 课堂观察与实践2. The post omits the numeral; likely related but exact title identity is unverified."
+        },
+        {
+          "courseTitle": "汉语国际教育专题研究",
+          "reason": "Title appears in the official 2025秋 roster, but the historical article does not give instructor or term; retain as a historical title match only."
+        },
+        {
+          "courseTitle": "现代汉语",
+          "reason": "Exact title appears in the 2025秋 roster, but the article provides no code, teacher, or term for that mention."
+        }
+      ],
+      "privacy": "No uploader identity or unrelated personal details retained."
+    }
+  ],
+  "contextualOrAmbiguousXhsPosts": [
+    {
+      "platform": "小红书",
+      "title": "求复旦选课建议…",
+      "url": "https://www.xiaohongshu.com/explore/6a59c3120000000001032afe",
+      "displayedDate": "10-17 (year not shown)",
+      "fullTextRead": true,
+      "summary": "Exchange student asks for lighter or enjoyable classes and mentions political economy/international relations interests. Replies point to a course-review resource nicknamed 茶楼课评 and mention enrollment counts. No target ICES course or instructor is identified.",
+      "classification": "Context only; not a target course review."
+    },
+    {
+      "platform": "小红书",
+      "title": "毕业生旁听复旦好课（1-7/20）",
+      "url": "https://www.xiaohongshu.com/explore/69dcfe900000000023024bc1",
+      "displayedDate": "04-13 (year not shown)",
+      "fullTextRead": true,
+      "summary": "Course roundup covers other units such as arts education, Chinese language and literature, journalism, and history. None of the listed classes is an ICES offering. Comments discuss unrelated courses.",
+      "classification": "False positive for this roster; excluded."
+    },
+    {
+      "platform": "小红书",
+      "title": "跨文化交际真是一门让人又爱又恨的课…",
+      "url": "https://www.xiaohongshu.com/explore/6a3bf6e5000000001702de62",
+      "displayedDate": "06-24 (year not shown)",
+      "fullTextRead": true,
+      "summary": "Generic account of an intercultural-communication class: positive teacher impression, cultural demonstrations, group video assignments, and an exam on course material. The author does not identify the school or teacher; comments ask which school. It cannot be attributed to ICES's differently titled 课程《跨文化交流理论与实践》 or to 杨蓉蓉.",
+      "classification": "Ambiguous by institution, course title, and teacher; excluded from target evidence."
+    }
+  ],
+  "unreadSearchResultCards": [
+    {
+      "platform": "小红书",
+      "query": "复旦 国交 选课 课评",
+      "observedTitles": [
+        "听说这是复旦抬头率最高的课",
+        "模块课真是古今中外 上天入地",
+        "复旦 | 这两年，我上过的好课推荐✨",
+        "在复旦的第三个期末 终于拿下专业课满绩🥹",
+        "猜猜我去上了谁的课！"
+      ],
+      "status": "Search-result titles observed in the UI; opening one card timed out, so no card content was counted as read or relevant."
+    }
+  ],
+  "searchEngineSupplement": {
+    "status": "Supplementary public web-search queries were run; they do not substitute for platform UI searches.",
+    "queries": [
+      "site:xiaohongshu.com 复旦 国际文化交流学院 课评",
+      "site:zhihu.com 复旦 国际文化交流学院 选课 课评",
+      "复旦 国交 选课 课程 评价",
+      "复旦 国际文化交流学院 课程 教师 小红书 知乎",
+      "site:xiaohongshu.com 复旦 \"经济学原理\" 课程评价",
+      "site:zhihu.com 复旦 \"经济学原理\" \"国际文化交流学院\"",
+      "site:xiaohongshu.com 复旦 \"跨文化管理\" 课评 OR 选课",
+      "site:zhihu.com 复旦 \"跨文化管理\" 课程",
+      "site:xiaohongshu.com 复旦 陈家隽 Chen Jiajun chenjiajun",
+      "site:zhihu.com 复旦 陈家隽 Chen Jiajun chenjiajun",
+      "site:xiaohongshu.com 复旦 \"Chen Jia Jun\" \"陈家隽\"",
+      "site:zhihu.com 复旦 \"Chen Jia Jun\" \"陈家隽\""
+    ],
+    "outcome": "No direct current-term, course-specific social review surfaced from these public search-engine results.",
+    "webToolSupplement": [
+      {
+        "channel": "web_tool_supplement",
+        "groups": [
+          {
+            "id": "C03-WEB1",
+            "baseBatch": "C03",
+            "titleRoots": [
+              "当代中国经济",
+              "高级汉语写作（上）",
+              "高级汉语写作（下）",
+              "汉语修辞",
+              "汉语阅读Ⅲ"
+            ],
+            "courseCodes": [
+              "ICLE20023",
+              "ICLE20001",
+              "ICLE20002",
+              "ICLE20007",
+              "ICLE20034"
+            ],
+            "pinyinAndInitialsIncluded": true,
+            "queries": [
+              "site:xiaohongshu.com 复旦 ((\"当代中国经济\" OR dangdaizhongguojingji OR ddzgjj) OR (\"高级汉语写作（上）\" OR gaojihanyuxiezuoshang OR gjhyxzs) OR (\"高级汉语写作（下）\" OR gaojihanyuxiezuoxia OR gjhyxzx) OR (\"汉语修辞\" OR hanyuxiuci OR hyxc) OR (\"汉语阅读Ⅲ\" OR hanyuyueduiii OR hyydiii)) (课评 OR 选课 OR 课程 OR 评价 OR 体验)",
+              "site:zhihu.com 复旦 ((\"当代中国经济\" OR dangdaizhongguojingji OR ddzgjj) OR (\"高级汉语写作（上）\" OR gaojihanyuxiezuoshang OR gjhyxzs) OR (\"高级汉语写作（下）\" OR gaojihanyuxiezuoxia OR gjhyxzx) OR (\"汉语修辞\" OR hanyuxiuci OR hyxc) OR (\"汉语阅读Ⅲ\" OR hanyuyueduiii OR hyydiii)) (课评 OR 选课 OR 课程 OR 评价 OR 体验)"
+            ]
+          },
+          {
+            "id": "C03-WEB2",
+            "baseBatch": "C03",
+            "titleRoots": [
+              "汉语阅读Ⅳ",
+              "汉语知识文选",
+              "经济学原理",
+              "跨文化管理",
+              "历史知识文选"
+            ],
+            "courseCodes": [
+              "ICLE20035",
+              "ICLE20014",
+              "ICLE20024",
+              "ICLE20009",
+              "ICLE20011"
+            ],
+            "pinyinAndInitialsIncluded": true,
+            "queries": [
+              "site:xiaohongshu.com 复旦 ((\"汉语阅读Ⅳ\" OR hanyuyueduiv OR hyydiv) OR (\"汉语知识文选\" OR hanyuzhishiwenxuan OR hyzswx) OR (\"经济学原理\" OR jingjixueyuanli OR jjxyl) OR (\"跨文化管理\" OR kuawenhuaguanli OR kwhgl) OR (\"历史知识文选\" OR lishizhishiwenxuan OR lszswx)) (课评 OR 选课 OR 课程 OR 评价 OR 体验)",
+              "site:zhihu.com 复旦 ((\"汉语阅读Ⅳ\" OR hanyuyueduiv OR hyydiv) OR (\"汉语知识文选\" OR hanyuzhishiwenxuan OR hyzswx) OR (\"经济学原理\" OR jingjixueyuanli OR jjxyl) OR (\"跨文化管理\" OR kuawenhuaguanli OR kwhgl) OR (\"历史知识文选\" OR lishizhishiwenxuan OR lszswx)) (课评 OR 选课 OR 课程 OR 评价 OR 体验)"
+            ]
+          }
+        ],
+        "aggregateOutcome": "本次搜索服务将4条查询的卡片合并返回：约12条知乎通用/其他院系/复旦其他专业结果，无可归属国际文化交流学院课程的公开课评；未见可独立归因的小红书结果。未打开正文，0篇正文读取。",
+        "resultCount": 12,
+        "fullTextReadCount": 0,
+        "limitations": [
+          "Web搜索工具把同一调用内查询结果聚合，不能逐条query与卡片一一对应。",
+          "公开索引未命中不等于平台内没有相关内容。"
+        ]
+      },
+      {
+        "channel": "web_tool_supplement",
+        "groups": [
+          {
+            "id": "C03-WEB3",
+            "baseBatch": "C03",
+            "titleRoots": [
+              "留学生中文电影赏析",
+              "商务案例分析",
+              "商务汉语阅读Ⅲ",
+              "商务汉语阅读Ⅳ",
+              "商务文选"
+            ],
+            "courseCodes": [
+              "ICLE20027",
+              "ICLE20005",
+              "ICLE20036",
+              "ICLE20037",
+              "ICLE20022"
+            ],
+            "pinyinAndInitialsIncluded": true,
+            "queries": [
+              {
+                "platform": "小红书",
+                "domain": "xiaohongshu.com",
+                "query": "site:xiaohongshu.com 复旦 ((\"留学生中文电影赏析\" OR liuxueshengzhongwendianyingshangxi OR lxszwdysx) OR (\"商务案例分析\" OR shangwuanlifenxi OR swalfx) OR (\"商务汉语阅读Ⅲ\" OR shangwuhanyuyueduiii OR swhyydiii) OR (\"商务汉语阅读Ⅳ\" OR shangwuhanyuyueduiv OR swhyydiv) OR (\"商务文选\" OR shangwuwenxuan OR swwx)) (课评 OR 选课 OR 课程 OR 评价 OR 体验)"
+              },
+              {
+                "platform": "知乎",
+                "domain": "zhihu.com",
+                "query": "site:zhihu.com 复旦 ((\"留学生中文电影赏析\" OR liuxueshengzhongwendianyingshangxi OR lxszwdysx) OR (\"商务案例分析\" OR shangwuanlifenxi OR swalfx) OR (\"商务汉语阅读Ⅲ\" OR shangwuhanyuyueduiii OR swhyydiii) OR (\"商务汉语阅读Ⅳ\" OR shangwuhanyuyueduiv OR swhyydiv) OR (\"商务文选\" OR shangwuwenxuan OR swwx)) (课评 OR 选课 OR 课程 OR 评价 OR 体验)"
+              }
+            ]
+          },
+          {
+            "id": "C03-WEB4",
+            "baseBatch": "C03",
+            "titleRoots": [
+              "世界经济概况",
+              "文学艺术知识文选",
+              "现代汉语",
+              "新闻听力",
+              "英汉翻译"
+            ],
+            "courseCodes": [
+              "ICLE20025",
+              "ICLE20016",
+              "ICLE20029",
+              "ICLE20015",
+              "ICLE20004"
+            ],
+            "pinyinAndInitialsIncluded": true,
+            "queries": [
+              {
+                "platform": "小红书",
+                "domain": "xiaohongshu.com",
+                "query": "site:xiaohongshu.com 复旦 ((\"世界经济概况\" OR shijiejingjigaikuang OR sjjjgk) OR (\"文学艺术知识文选\" OR wenxueyishuzhishiwenxuan OR wxyszswx) OR (\"现代汉语\" OR xiandaihanyu OR xdhy) OR (\"新闻听力\" OR xinwentingli OR xwtl) OR (\"英汉翻译\" OR yinghanfanyi OR yhfy)) (课评 OR 选课 OR 课程 OR 评价 OR 体验)"
+              },
+              {
+                "platform": "知乎",
+                "domain": "zhihu.com",
+                "query": "site:zhihu.com 复旦 ((\"世界经济概况\" OR shijiejingjigaikuang OR sjjjgk) OR (\"文学艺术知识文选\" OR wenxueyishuzhishiwenxuan OR wxyszswx) OR (\"现代汉语\" OR xiandaihanyu OR xdhy) OR (\"新闻听力\" OR xinwentingli OR xwtl) OR (\"英汉翻译\" OR yinghanfanyi OR yhfy)) (课评 OR 选课 OR 课程 OR 评价 OR 体验)"
+              }
+            ]
+          }
+        ],
+        "aggregateOutcome": "本次4条站点限定查询的结果被搜索工具聚合；所见卡片无可归属ICES课程的公开课评，未发现小红书独立结果。未打开正文。",
+        "resultCount": 16,
+        "fullTextReadCount": 0,
+        "limitations": [
+          "Web工具未提供查询与单张卡片的一对一对应关系。",
+          "公开索引不等同于平台内搜索，未命中不能证明平台不存在。"
+        ]
+      },
+      {
+        "channel": "web_tool_supplement",
+        "groups": [
+          {
+            "id": "C04-WEB1",
+            "baseBatch": "C04",
+            "titleRoots": [
+              "语法与语法教学",
+              "语言学概论",
+              "中国民俗文化",
+              "中国人文地理知识文选",
+              "中国文化通论"
+            ],
+            "courseCodes": [
+              "ICLE20031",
+              "ICLE20028",
+              "ICLE20008",
+              "ICLE20010",
+              "ICLE20032"
+            ],
+            "pinyinAndInitialsIncluded": true,
+            "queries": [
+              {
+                "platform": "小红书",
+                "domain": "xiaohongshu.com",
+                "query": "site:xiaohongshu.com 复旦 ((\"语法与语法教学\" OR yufayuyufajiaoxue OR yfyyfjx) OR (\"语言学概论\" OR yuyanxuegailun OR yyxgl) OR (\"中国民俗文化\" OR zhongguominsuwenhua OR zgmswh) OR (\"中国人文地理知识文选\" OR zhongguorenwendilizhishiwenxuan OR zgrwdlzswx) OR (\"中国文化通论\" OR zhongguowenhuatonglun OR zgwhtl)) (课评 OR 选课 OR 课程 OR 评价 OR 体验)"
+              },
+              {
+                "platform": "知乎",
+                "domain": "zhihu.com",
+                "query": "site:zhihu.com 复旦 ((\"语法与语法教学\" OR yufayuyufajiaoxue OR yfyyfjx) OR (\"语言学概论\" OR yuyanxuegailun OR yyxgl) OR (\"中国民俗文化\" OR zhongguominsuwenhua OR zgmswh) OR (\"中国人文地理知识文选\" OR zhongguorenwendilizhishiwenxuan OR zgrwdlzswx) OR (\"中国文化通论\" OR zhongguowenhuatonglun OR zgwhtl)) (课评 OR 选课 OR 课程 OR 评价 OR 体验)"
+              }
+            ]
+          },
+          {
+            "id": "C04-WEB2",
+            "baseBatch": "C04",
+            "titleRoots": [
+              "中级汉语视听说（上）",
+              "中级汉语视听说（下）",
+              "中级商务口语（上）",
+              "中级商务口语（下）",
+              "中级商务听力"
+            ],
+            "courseCodes": [
+              "ICLE20012",
+              "ICLE20013",
+              "ICLE20018",
+              "ICLE20033",
+              "ICLE20017"
+            ],
+            "pinyinAndInitialsIncluded": true,
+            "queries": [
+              {
+                "platform": "小红书",
+                "domain": "xiaohongshu.com",
+                "query": "site:xiaohongshu.com 复旦 ((\"中级汉语视听说（上）\" OR zhongjihanyushitingshuoshang OR zjhystss) OR (\"中级汉语视听说（下）\" OR zhongjihanyushitingshuoxia OR zjhystsx) OR (\"中级商务口语（上）\" OR zhongjishangwukouyushang OR zjswkys) OR (\"中级商务口语（下）\" OR zhongjishangwukouyuxia OR zjswkyx) OR (\"中级商务听力\" OR zhongjishangwutingli OR zjswtl)) (课评 OR 选课 OR 课程 OR 评价 OR 体验)"
+              },
+              {
+                "platform": "知乎",
+                "domain": "zhihu.com",
+                "query": "site:zhihu.com 复旦 ((\"中级汉语视听说（上）\" OR zhongjihanyushitingshuoshang OR zjhystss) OR (\"中级汉语视听说（下）\" OR zhongjihanyushitingshuoxia OR zjhystsx) OR (\"中级商务口语（上）\" OR zhongjishangwukouyushang OR zjswkys) OR (\"中级商务口语（下）\" OR zhongjishangwukouyuxia OR zjswkyx) OR (\"中级商务听力\" OR zhongjishangwutingli OR zjswtl)) (课评 OR 选课 OR 课程 OR 评价 OR 体验)"
+              }
+            ]
+          }
+        ],
+        "aggregateOutcome": "搜索工具聚合返回结果卡片；以下标题用于粗筛，暂未打开正文。",
+        "visibleCardTitles": [
+          "读书：岑运强《语言学概论》短评",
+          "知乎 - 有问题，就会有答案",
+          "读书：朱德熙《语法答问》短评",
+          "What is the experience of studying at the Chinese Department of Fudan University?-zhihu",
+          "中文系学生需要掌握的基本（综合）技能（通识书目） - 知乎",
+          "读书：赵元任《汉语口语语法》短评",
+          "读书：陆俭明《现代汉语语法研究教程》短评",
+          "「词」学入门书目"
+        ],
+        "resultCount": 9,
+        "fullTextReadCount": 0,
+        "limitations": [
+          "搜索工具把同一调用内的4条查询结果聚合，无法将卡片逐一回连query。",
+          "若可见标题看似相关，本批未进一步打开正文验证；公开索引不代表平台内搜索结果。"
+        ]
+      },
+      {
+        "channel": "web_tool_supplement",
+        "groups": [
+          {
+            "id": "C04-WEB3",
+            "baseBatch": "C04",
+            "titleRoots": [
+              "中级商务写作（上）",
+              "中级商务写作（下）"
+            ],
+            "courseCodes": [
+              "ICLE20020",
+              "ICLE20021"
+            ],
+            "pinyinAndInitialsIncluded": true,
+            "queries": [
+              {
+                "platform": "小红书",
+                "domain": "xiaohongshu.com",
+                "query": "site:xiaohongshu.com 复旦 ((\"中级商务写作（上）\" OR zhongjishangwuxiezuoshang OR zjswxzs) OR (\"中级商务写作（下）\" OR zhongjishangwuxiezuoxia OR zjswxzx)) (课评 OR 选课 OR 课程 OR 评价 OR 体验)"
+              },
+              {
+                "platform": "知乎",
+                "domain": "zhihu.com",
+                "query": "site:zhihu.com 复旦 ((\"中级商务写作（上）\" OR zhongjishangwuxiezuoshang OR zjswxzs) OR (\"中级商务写作（下）\" OR zhongjishangwuxiezuoxia OR zjswxzx)) (课评 OR 选课 OR 课程 OR 评价 OR 体验)"
+              }
+            ]
+          },
+          {
+            "id": "C12-WEB1",
+            "baseBatch": "C12",
+            "titleRoots": [
+              "本科留学生学术汉语视听说",
+              "初级汉语",
+              "第二语言习得研究",
+              "对外汉语测试理论与实践",
+              "对外汉语教学原理"
+            ],
+            "courseCodes": [
+              "GEEC10200",
+              "GECS10005",
+              "CHIN40072",
+              "CHIN70095",
+              "CHIN40073"
+            ],
+            "pinyinAndInitialsIncluded": true,
+            "queries": [
+              {
+                "platform": "小红书",
+                "domain": "xiaohongshu.com",
+                "query": "site:xiaohongshu.com 复旦 ((\"本科留学生学术汉语视听说\" OR benkeliuxueshengxueshuhanyushitingshuo OR bklxsxshysts) OR (\"初级汉语\" OR chujihanyu OR cjhy) OR (\"第二语言习得研究\" OR dieryuyanxideyanjiu OR deyyxdyj) OR (\"对外汉语测试理论与实践\" OR duiwaihanyuceshililunyushijian OR dwhycsllysj) OR (\"对外汉语教学原理\" OR duiwaihanyujiaoxueyuanli OR dwhyjxyl)) (课评 OR 选课 OR 课程 OR 评价 OR 体验)"
+              },
+              {
+                "platform": "知乎",
+                "domain": "zhihu.com",
+                "query": "site:zhihu.com 复旦 ((\"本科留学生学术汉语视听说\" OR benkeliuxueshengxueshuhanyushitingshuo OR bklxsxshysts) OR (\"初级汉语\" OR chujihanyu OR cjhy) OR (\"第二语言习得研究\" OR dieryuyanxideyanjiu OR deyyxdyj) OR (\"对外汉语测试理论与实践\" OR duiwaihanyuceshililunyushijian OR dwhycsllysj) OR (\"对外汉语教学原理\" OR duiwaihanyujiaoxueyuanli OR dwhyjxyl)) (课评 OR 选课 OR 课程 OR 评价 OR 体验)"
+              }
+            ]
+          }
+        ],
+        "aggregateOutcome": "4条站点限定查询的卡片已聚合；以下标题仅供粗筛，未打开正文。",
+        "visibleCardTitles": [
+          "读书：王建勤《第二语言习得研究》短评",
+          "2027年同济大学春季入学预科与汉语研修项目 - 知乎",
+          "比ratemyprofessor更好用的课程评价网站 - 知乎",
+          "如何评价复旦大学兰小欢老师的著作《置身事内》？ - 知乎",
+          "中国的二语习得研究现状怎样？有做乔姆斯基的理论的吗？",
+          "〖课程联报·第23期〗知乎写作新人培养计划+商业文章进阶",
+          "2025年电子科技大学考研部分考试科目参考书目汇总，已建信息交流QQ群",
+          "2026年中山大学开设国际学生预科项目啦！ - 知乎",
+          "分析与思考：黄奇帆的复旦经济课（书籍） - 知乎",
+          "知乎 - 有问题，就会有答案",
+          "《本源日语0-N1系统课》词源学应用课",
+          "怎样教外国人学习汉语？ - 知乎",
+          "二语习得理论靠谱吗？"
+        ],
+        "resultCount": 14,
+        "fullTextReadCount": 0,
+        "limitations": [
+          "查询结果在工具侧聚合，无法逐query对应卡片。",
+          "未读正文；搜索索引未命中不代表平台内不存在。"
+        ]
+      },
+      {
+        "channel": "web_tool_supplement",
+        "groups": [
+          {
+            "id": "C12-WEB2",
+            "baseBatch": "C12",
+            "kind": "course",
+            "searchTerms": [
+              "对外汉语课堂教学技巧",
+              "公共政策分析方法",
+              "国际文化交流学院非学历留学生课程",
+              "国际组织管理",
+              "汉语I"
+            ],
+            "courseCodes": [
+              "ICLE30029",
+              "CHIN70094",
+              "GEEC20009",
+              "100.900.2",
+              "GEEC20012"
+            ],
+            "pinyinAndInitialsIncluded": true,
+            "queries": [
+              {
+                "platform": "小红书",
+                "domain": "xiaohongshu.com",
+                "query": "site:xiaohongshu.com 复旦 ((\"对外汉语课堂教学技巧\" OR duiwaihanyuketangjiaoxuejiqiao OR dwhyktjxjq) OR (\"公共政策分析方法\" OR gonggongzhengcefenxifangfa OR ggzcfxff) OR (\"国际文化交流学院非学历留学生课程\" OR guojiwenhuajiaoliuxueyuanfeixueliliuxueshengkecheng OR gjwhjlxyfxllxskc) OR (\"国际组织管理\" OR guojizuzhiguanli OR gjzzgl) OR (\"汉语I\" OR hanyui OR hyi)) (课评 OR 选课 OR 课程 OR 评价 OR 体验)"
+              },
+              {
+                "platform": "知乎",
+                "domain": "zhihu.com",
+                "query": "site:zhihu.com 复旦 ((\"对外汉语课堂教学技巧\" OR duiwaihanyuketangjiaoxuejiqiao OR dwhyktjxjq) OR (\"公共政策分析方法\" OR gonggongzhengcefenxifangfa OR ggzcfxff) OR (\"国际文化交流学院非学历留学生课程\" OR guojiwenhuajiaoliuxueyuanfeixueliliuxueshengkecheng OR gjwhjlxyfxllxskc) OR (\"国际组织管理\" OR guojizuzhiguanli OR gjzzgl) OR (\"汉语I\" OR hanyui OR hyi)) (课评 OR 选课 OR 课程 OR 评价 OR 体验)"
+              }
+            ]
+          },
+          {
+            "id": "C12-WEB3",
+            "baseBatch": "C12",
+            "kind": "course",
+            "searchTerms": [
+              "汉语II",
+              "汉字研究",
+              "教育心理学",
+              "近代上海与中西文化交流",
+              "近现代中西文化交流"
+            ],
+            "courseCodes": [
+              "GECS10007",
+              "GECS10008",
+              "CHIN70093",
+              "CHIN70096",
+              "ICLE20030"
+            ],
+            "pinyinAndInitialsIncluded": true,
+            "queries": [
+              {
+                "platform": "小红书",
+                "domain": "xiaohongshu.com",
+                "query": "site:xiaohongshu.com 复旦 ((\"汉语II\" OR hanyuii OR hyii) OR (\"汉字研究\" OR hanziyanjiu OR hzyj) OR (\"教育心理学\" OR jiaoyuxinlixue OR jyxlx) OR (\"近代上海与中西文化交流\" OR jindaishanghaiyuzhongxiwenhuajiaoliu OR jdshyzxwhjl) OR (\"近现代中西文化交流\" OR jinxiandaizhongxiwenhuajiaoliu OR jxdzxwhjl)) (课评 OR 选课 OR 课程 OR 评价 OR 体验)"
+              },
+              {
+                "platform": "知乎",
+                "domain": "zhihu.com",
+                "query": "site:zhihu.com 复旦 ((\"汉语II\" OR hanyuii OR hyii) OR (\"汉字研究\" OR hanziyanjiu OR hzyj) OR (\"教育心理学\" OR jiaoyuxinlixue OR jyxlx) OR (\"近代上海与中西文化交流\" OR jindaishanghaiyuzhongxiwenhuajiaoliu OR jdshyzxwhjl) OR (\"近现代中西文化交流\" OR jinxiandaizhongxiwenhuajiaoliu OR jxdzxwhjl)) (课评 OR 选课 OR 课程 OR 评价 OR 体验)"
+              }
+            ]
+          }
+        ],
+        "aggregateOutcome": "该批4条站点限定查询结果被搜索工具聚合；卡片标题只作粗筛，尚未打开正文。",
+        "visibleCardTitles": [
+          "知乎 - 有问题，就会有答案",
+          "What is the experience of studying at the Chinese Department of Fudan University?-zhihu",
+          "知乎高校圈子导航",
+          "专业积淀赢得长期信任！WallStreetTequila（WST求职）×复旦大学迎来再次合作 - 知乎",
+          "顶尖高校的长期认可！WST与复旦大学管理学院官方合作圆满成功 - 知乎",
+          "拓开华西边疆研究，创一时鼎盛的华西派 | 聚焦 - 知乎",
+          "课程中心",
+          "《说文解字》哪个出版社的版本比较好？"
+        ],
+        "resultCount": 12,
+        "fullTextReadCount": 0,
+        "limitations": [
+          "工具把同次4条查询的结果聚合，无法逐卡片映射到单条query。",
+          "除非另行标记，结果卡片正文未读；公开索引不代表平台内搜索。"
+        ]
+      },
+      {
+        "channel": "web_tool_supplement",
+        "groups": [
+          {
+            "id": "C12-WEB4",
+            "baseBatch": "C12",
+            "kind": "course",
+            "searchTerms": [
+              "跨文化交际学",
+              "留学生创新与创业",
+              "留学生高级汉语I",
+              "留学生高级汉语II",
+              "留学生英语Ⅰ"
+            ],
+            "courseCodes": [
+              "GEEC10204",
+              "GECC10084",
+              "CHIN60155",
+              "GEIN30001",
+              "GECS10001"
+            ],
+            "pinyinAndInitialsIncluded": true,
+            "queries": [
+              {
+                "platform": "小红书",
+                "domain": "xiaohongshu.com",
+                "query": "site:xiaohongshu.com 复旦 ((\"跨文化交际学\" OR kuawenhuajiaojixue OR kwhjjx) OR (\"留学生创新与创业\" OR liuxueshengchuangxinyuchuangye OR lxscxycy) OR (\"留学生高级汉语I\" OR liuxueshenggaojihanyui OR lxsgjhyi) OR (\"留学生高级汉语II\" OR liuxueshenggaojihanyuii OR lxsgjhyii) OR (\"留学生英语Ⅰ\" OR liuxueshengyingyui OR lxsyyi)) (课评 OR 选课 OR 课程 OR 评价 OR 体验)"
+              },
+              {
+                "platform": "知乎",
+                "domain": "zhihu.com",
+                "query": "site:zhihu.com 复旦 ((\"跨文化交际学\" OR kuawenhuajiaojixue OR kwhjjx) OR (\"留学生创新与创业\" OR liuxueshengchuangxinyuchuangye OR lxscxycy) OR (\"留学生高级汉语I\" OR liuxueshenggaojihanyui OR lxsgjhyi) OR (\"留学生高级汉语II\" OR liuxueshenggaojihanyuii OR lxsgjhyii) OR (\"留学生英语Ⅰ\" OR liuxueshengyingyui OR lxsyyi)) (课评 OR 选课 OR 课程 OR 评价 OR 体验)"
+              }
+            ]
+          },
+          {
+            "id": "C13-WEB1",
+            "baseBatch": "C13",
+            "kind": "course",
+            "searchTerms": [
+              "留学生英语Ⅱ",
+              "留学生专业汉语I",
+              "全球公共政策",
+              "全球公共政策与治理分析报告",
+              "全球可持续发展"
+            ],
+            "courseCodes": [
+              "GEEC10196",
+              "GECS10003",
+              "GEEC20011",
+              "GEEC20015",
+              "GEEC20014"
+            ],
+            "pinyinAndInitialsIncluded": true,
+            "queries": [
+              {
+                "platform": "小红书",
+                "domain": "xiaohongshu.com",
+                "query": "site:xiaohongshu.com 复旦 ((\"留学生英语Ⅱ\" OR liuxueshengyingyuii OR lxsyyii) OR (\"留学生专业汉语I\" OR liuxueshengzhuanyehanyui OR lxszyhyi) OR (\"全球公共政策\" OR quanqiugonggongzhengce OR qqggzc) OR (\"全球公共政策与治理分析报告\" OR quanqiugonggongzhengceyuzhilifenxibaogao OR qqggzcyzlfxbg) OR (\"全球可持续发展\" OR quanqiukechixufazhan OR qqkcxfz)) (课评 OR 选课 OR 课程 OR 评价 OR 体验)"
+              },
+              {
+                "platform": "知乎",
+                "domain": "zhihu.com",
+                "query": "site:zhihu.com 复旦 ((\"留学生英语Ⅱ\" OR liuxueshengyingyuii OR lxsyyii) OR (\"留学生专业汉语I\" OR liuxueshengzhuanyehanyui OR lxszyhyi) OR (\"全球公共政策\" OR quanqiugonggongzhengce OR qqggzc) OR (\"全球公共政策与治理分析报告\" OR quanqiugonggongzhengceyuzhilifenxibaogao OR qqggzcyzlfxbg) OR (\"全球可持续发展\" OR quanqiukechixufazhan OR qqkcxfz)) (课评 OR 选课 OR 课程 OR 评价 OR 体验)"
+              }
+            ]
+          }
+        ],
+        "aggregateOutcome": "该批4条站点限定查询结果被搜索工具聚合；卡片标题只作粗筛，尚未打开正文。",
+        "visibleCardTitles": [
+          "What is the experience of studying at the Chinese Department of Fudan University?-zhihu",
+          "2027年清华大学国际事务专业硕士学位全球治理英文硕士项目（MIA-GG） - 知乎",
+          "专业积淀赢得长期信任！WallStreetTequila（WST求职）×复旦大学迎来再次合作 - 知乎",
+          "上海插班生考试政策全解（2026最新版）",
+          "知乎 - 有问题，就会有答案",
+          "知乎高校圈子导航",
+          "Should I choose Fudan University or Shanghai International Studies University?-zhihu",
+          "八家机构调研测评！排名不分先后！看看它们都有什么坑！ - 知乎"
+        ],
+        "resultCount": 11,
+        "fullTextReadCount": 0,
+        "limitations": [
+          "工具把同次4条查询的结果聚合，无法逐卡片映射到单条query。",
+          "除非另行标记，结果卡片正文未读；公开索引不代表平台内搜索。"
+        ]
+      },
+      {
+        "channel": "web_tool_supplement",
+        "groups": [
+          {
+            "id": "C13-WEB2",
+            "baseBatch": "C13",
+            "kind": "course",
+            "searchTerms": [
+              "全球廉政分析",
+              "全球数字政府建设",
+              "上海话",
+              "现代汉语研究",
+              "现代汉语语法研究"
+            ],
+            "courseCodes": [
+              "GEEC20013",
+              "MANA20006",
+              "GEEC10198",
+              "CHIN40071",
+              "CHIN60156"
+            ],
+            "pinyinAndInitialsIncluded": true,
+            "queries": [
+              {
+                "platform": "小红书",
+                "domain": "xiaohongshu.com",
+                "query": "site:xiaohongshu.com 复旦 ((\"全球廉政分析\" OR quanqiulianzhengfenxi OR qqlzfx) OR (\"全球数字政府建设\" OR quanqiushuzizhengfujianshe OR qqszzfjs) OR (\"上海话\" OR shanghaihua OR shh) OR (\"现代汉语研究\" OR xiandaihanyuyanjiu OR xdhyyj) OR (\"现代汉语语法研究\" OR xiandaihanyuyufayanjiu OR xdhyyfyj)) (课评 OR 选课 OR 课程 OR 评价 OR 体验)"
+              },
+              {
+                "platform": "知乎",
+                "domain": "zhihu.com",
+                "query": "site:zhihu.com 复旦 ((\"全球廉政分析\" OR quanqiulianzhengfenxi OR qqlzfx) OR (\"全球数字政府建设\" OR quanqiushuzizhengfujianshe OR qqszzfjs) OR (\"上海话\" OR shanghaihua OR shh) OR (\"现代汉语研究\" OR xiandaihanyuyanjiu OR xdhyyj) OR (\"现代汉语语法研究\" OR xiandaihanyuyufayanjiu OR xdhyyfyj)) (课评 OR 选课 OR 课程 OR 评价 OR 体验)"
+              }
+            ]
+          },
+          {
+            "id": "C13-WEB3",
+            "baseBatch": "C13",
+            "kind": "course",
+            "searchTerms": [
+              "现代汉语语音研究",
+              "现代教育技术",
+              "新兴技术与全球科技治理",
+              "中国概况",
+              "中国概况（全英文）"
+            ],
+            "courseCodes": [
+              "CHIN70092",
+              "CHIN60157",
+              "GEEC20016",
+              "GESP20001",
+              "GESP20002"
+            ],
+            "pinyinAndInitialsIncluded": true,
+            "queries": [
+              {
+                "platform": "小红书",
+                "domain": "xiaohongshu.com",
+                "query": "site:xiaohongshu.com 复旦 ((\"现代汉语语音研究\" OR xiandaihanyuyuyinyanjiu OR xdhyyyyj) OR (\"现代教育技术\" OR xiandaijiaoyujishu OR xdjyjs) OR (\"新兴技术与全球科技治理\" OR xinxingjishuyuquanqiukejizhili OR xxjsyqqkjzl) OR (\"中国概况\" OR zhongguogaikuang OR zggk) OR (\"中国概况（全英文）\" OR zhongguogaikuangquanyingwen OR zggkqyw)) (课评 OR 选课 OR 课程 OR 评价 OR 体验)"
+              },
+              {
+                "platform": "知乎",
+                "domain": "zhihu.com",
+                "query": "site:zhihu.com 复旦 ((\"现代汉语语音研究\" OR xiandaihanyuyuyinyanjiu OR xdhyyyyj) OR (\"现代教育技术\" OR xiandaijiaoyujishu OR xdjyjs) OR (\"新兴技术与全球科技治理\" OR xinxingjishuyuquanqiukejizhili OR xxjsyqqkjzl) OR (\"中国概况\" OR zhongguogaikuang OR zggk) OR (\"中国概况（全英文）\" OR zhongguogaikuangquanyingwen OR zggkqyw)) (课评 OR 选课 OR 课程 OR 评价 OR 体验)"
+              }
+            ]
+          }
+        ],
+        "aggregateOutcome": "该批4条站点限定查询结果被搜索工具聚合；卡片标题只作粗筛，尚未打开正文。",
+        "visibleCardTitles": [
+          "读书：陆俭明《现代汉语语法研究教程》短评",
+          "如何评价复旦大学兰小欢老师的著作《置身事内》？ - 知乎",
+          "如何评价复旦大学兰小欢老师的著作《置身事内》？",
+          "What is the experience of studying at the Chinese Department of Fudan University?-zhihu",
+          "专业积淀赢得长期信任！WallStreetTequila（WST求职）×复旦大学迎来再次合作 - 知乎",
+          "知乎高校圈子导航",
+          "近代以来著名的音韵学和汉语语音学专家有哪些？ - 知乎",
+          "知乎 - 有问题，就会有答案",
+          "中国大学，正在消灭专业！ - 知乎"
+        ],
+        "resultCount": 11,
+        "fullTextReadCount": 0,
+        "limitations": [
+          "工具把同次4条查询的结果聚合，无法逐卡片映射到单条query。",
+          "除非另行标记，结果卡片正文未读；公开索引不代表平台内搜索。"
+        ]
+      },
+      {
+        "channel": "web_tool_supplement",
+        "groups": [
+          {
+            "id": "C13-WEB4",
+            "baseBatch": "C13",
+            "kind": "course",
+            "searchTerms": [
+              "中国概况（上）",
+              "中国概况（下）",
+              "中国古典诗乐艺术",
+              "中国古诗词鉴赏诵读",
+              "中华经典与美典"
+            ],
+            "courseCodes": [
+              "GESP10001",
+              "GESP10002",
+              "GEEC10203",
+              "GEEC10199",
+              "CHIN70002"
+            ],
+            "pinyinAndInitialsIncluded": true,
+            "queries": [
+              {
+                "platform": "小红书",
+                "domain": "xiaohongshu.com",
+                "query": "site:xiaohongshu.com 复旦 ((\"中国概况（上）\" OR zhongguogaikuangshang OR zggks) OR (\"中国概况（下）\" OR zhongguogaikuangxia OR zggkx) OR (\"中国古典诗乐艺术\" OR zhongguogudianshiyueyishu OR zggdsyys) OR (\"中国古诗词鉴赏诵读\" OR zhongguogushicijianshangsongdu OR zggscjssd) OR (\"中华经典与美典\" OR zhonghuajingdianyumeidian OR zhjdymd)) (课评 OR 选课 OR 课程 OR 评价 OR 体验)"
+              },
+              {
+                "platform": "知乎",
+                "domain": "zhihu.com",
+                "query": "site:zhihu.com 复旦 ((\"中国概况（上）\" OR zhongguogaikuangshang OR zggks) OR (\"中国概况（下）\" OR zhongguogaikuangxia OR zggkx) OR (\"中国古典诗乐艺术\" OR zhongguogudianshiyueyishu OR zggdsyys) OR (\"中国古诗词鉴赏诵读\" OR zhongguogushicijianshangsongdu OR zggscjssd) OR (\"中华经典与美典\" OR zhonghuajingdianyumeidian OR zhjdymd)) (课评 OR 选课 OR 课程 OR 评价 OR 体验)"
+              }
+            ]
+          },
+          {
+            "id": "C14-WEB1",
+            "baseBatch": "C14",
+            "kind": "course",
+            "searchTerms": [
+              "中级汉语",
+              "中文计算机基础"
+            ],
+            "courseCodes": [
+              "GECS10006",
+              "GEEC10197"
+            ],
+            "pinyinAndInitialsIncluded": true,
+            "queries": [
+              {
+                "platform": "小红书",
+                "domain": "xiaohongshu.com",
+                "query": "site:xiaohongshu.com 复旦 ((\"中级汉语\" OR zhongjihanyu OR zjhy) OR (\"中文计算机基础\" OR zhongwenjisuanjijichu OR zwjsjjc)) (课评 OR 选课 OR 课程 OR 评价 OR 体验)"
+              },
+              {
+                "platform": "知乎",
+                "domain": "zhihu.com",
+                "query": "site:zhihu.com 复旦 ((\"中级汉语\" OR zhongjihanyu OR zjhy) OR (\"中文计算机基础\" OR zhongwenjisuanjijichu OR zwjsjjc)) (课评 OR 选课 OR 课程 OR 评价 OR 体验)"
+              }
+            ]
+          }
+        ],
+        "aggregateOutcome": "该批4条站点限定查询结果被工具聚合；卡片标题仅用于粗筛，尚未打开正文。",
+        "visibleCardTitles": [
+          "What is the experience of studying at the Chinese Department of Fudan University?-zhihu",
+          "2024年学习机测评｜人工智能时代孩子应该怎么学？讯飞AI学习机如何帮助孩子增效减负 - 知乎",
+          "计算机基础 - 知学堂",
+          "知乎高校圈子导航",
+          "双非一战擦线上岸复旦计智院｜375分备考全攻略（含择校+避坑） - 知乎",
+          "26年复旦计算机研究生复试终极攻略：机试才是真正的“生死线”！ - 知乎",
+          "知乎 - 有问题，就会有答案",
+          "复旦热门专业考情全解析：难度、备考周期、金程定向辅导指南 - 知乎",
+          "26年复旦计算机研究生复试终极攻略：机试才是真正的“生死线”！",
+          "复旦集成电路 881｜26 考研 404 分上岸经验贴（南开物理本科上岸复旦） - 知乎",
+          "比ratemyprofessor更好用的课程评价网站 - 知乎",
+          "How to evaluate the course selection system of Fudan University?-zhihu"
+        ],
+        "resultCount": 13,
+        "fullTextReadCount": 0,
+        "limitations": [
+          "无法将聚合卡片逐一对应到4条查询。",
+          "公开索引与平台内搜索不同；卡片正文未读。"
+        ]
+      },
+      {
+        "channel": "web_tool_supplement",
+        "groups": [
+          {
+            "id": "T01-WEB1",
+            "baseBatch": "T01",
+            "kind": "teacher",
+            "searchTerms": [
+              "陈家隽",
+              "陈钰",
+              "戴蓉",
+              "党瑞",
+              "丁梦安"
+            ],
+            "courseCodes": [],
+            "pinyinAndInitialsIncluded": true,
+            "queries": [
+              {
+                "platform": "小红书",
+                "domain": "xiaohongshu.com",
+                "query": "site:xiaohongshu.com 复旦 ((\"陈家隽\" OR chenjiajun OR cjj) OR (\"陈钰\" OR chenyu OR cy) OR (\"戴蓉\" OR dairong OR dr) OR (\"党瑞\" OR dangrui OR dr) OR (\"丁梦安\" OR dingmengan OR dma)) (课评 OR 选课 OR 课程 OR 评价 OR 体验)"
+              },
+              {
+                "platform": "知乎",
+                "domain": "zhihu.com",
+                "query": "site:zhihu.com 复旦 ((\"陈家隽\" OR chenjiajun OR cjj) OR (\"陈钰\" OR chenyu OR cy) OR (\"戴蓉\" OR dairong OR dr) OR (\"党瑞\" OR dangrui OR dr) OR (\"丁梦安\" OR dingmengan OR dma)) (课评 OR 选课 OR 课程 OR 评价 OR 体验)"
+              }
+            ]
+          },
+          {
+            "id": "T01-WEB2",
+            "baseBatch": "T01",
+            "kind": "teacher",
+            "searchTerms": [
+              "范梓腾",
+              "高顺全",
+              "顾爱民",
+              "顾慧洁",
+              "顾颖"
+            ],
+            "courseCodes": [],
+            "pinyinAndInitialsIncluded": true,
+            "queries": [
+              {
+                "platform": "小红书",
+                "domain": "xiaohongshu.com",
+                "query": "site:xiaohongshu.com 复旦 ((\"范梓腾\" OR fanziteng OR fzt) OR (\"高顺全\" OR gaoshunquan OR gsq) OR (\"顾爱民\" OR guaimin OR gam) OR (\"顾慧洁\" OR guhuijie OR ghj) OR (\"顾颖\" OR guying OR gy)) (课评 OR 选课 OR 课程 OR 评价 OR 体验)"
+              },
+              {
+                "platform": "知乎",
+                "domain": "zhihu.com",
+                "query": "site:zhihu.com 复旦 ((\"范梓腾\" OR fanziteng OR fzt) OR (\"高顺全\" OR gaoshunquan OR gsq) OR (\"顾爱民\" OR guaimin OR gam) OR (\"顾慧洁\" OR guhuijie OR ghj) OR (\"顾颖\" OR guying OR gy)) (课评 OR 选课 OR 课程 OR 评价 OR 体验)"
+              }
+            ]
+          }
+        ],
+        "aggregateOutcome": "该批4条站点限定查询结果被工具聚合；卡片标题仅用于粗筛，尚未打开正文。",
+        "visibleCardTitles": [
+          "#复旦# - 知乎",
+          "考研难？复旦学姐助一臂之力 - 知乎 Live",
+          "知乎 - 有问题，就会有答案",
+          "How should the teaching level and works of Professor Chen Guo from Fudan University be evaluated?-zhihu",
+          "〖回顾〗陈思炜先生受邀担任复旦大学经济学院学生职业生涯发展导师",
+          "What is the experience of studying at the Chinese Department of Fudan University?-zhihu",
+          "复旦会计博士 CPA 会计领读计划 - 知乎 Live",
+          "如何评价复旦大学兰小欢老师的著作《置身事内》？ - 知乎",
+          "知乎高校圈子导航",
+          "Which good teachers are there at Fudan?-zhihu",
+          "复旦金融专硕440分上岸｜全科高分经验（政治69+英二87+数三144+专业课140） - 知乎",
+          "How would you evaluate the course selection system of Fudan University?-zhihu",
+          "跨考生，半年斩获复旦金融第一名 - 知乎 Live"
+        ],
+        "resultCount": 14,
+        "fullTextReadCount": 0,
+        "limitations": [
+          "无法将聚合卡片逐一对应到4条查询。",
+          "公开索引与平台内搜索不同；卡片正文未读。"
+        ]
+      },
+      {
+        "channel": "web_tool_supplement",
+        "groups": [
+          {
+            "id": "T01-WEB3",
+            "baseBatch": "T01",
+            "kind": "teacher",
+            "searchTerms": [
+              "管静莉",
+              "郭之悦",
+              "何瑾",
+              "胡文华"
+            ],
+            "courseCodes": [],
+            "pinyinAndInitialsIncluded": true,
+            "queries": [
+              {
+                "platform": "小红书",
+                "domain": "xiaohongshu.com",
+                "query": "site:xiaohongshu.com 复旦 ((\"管静莉\" OR guanjingli OR gjl) OR (\"郭之悦\" OR guozhiyue OR gzy) OR (\"何瑾\" OR hejin OR hj) OR (\"胡文华\" OR huwenhua OR hwh)) (课评 OR 选课 OR 课程 OR 评价 OR 体验)"
+              },
+              {
+                "platform": "知乎",
+                "domain": "zhihu.com",
+                "query": "site:zhihu.com 复旦 ((\"管静莉\" OR guanjingli OR gjl) OR (\"郭之悦\" OR guozhiyue OR gzy) OR (\"何瑾\" OR hejin OR hj) OR (\"胡文华\" OR huwenhua OR hwh)) (课评 OR 选课 OR 课程 OR 评价 OR 体验)"
+              }
+            ]
+          },
+          {
+            "id": "T02-WEB1",
+            "baseBatch": "T02",
+            "kind": "teacher",
+            "searchTerms": [
+              "黄廷钟",
+              "纪晓静",
+              "敬乂嘉",
+              "李桂奎",
+              "李杰"
+            ],
+            "courseCodes": [],
+            "pinyinAndInitialsIncluded": true,
+            "queries": [
+              {
+                "platform": "小红书",
+                "domain": "xiaohongshu.com",
+                "query": "site:xiaohongshu.com 复旦 ((\"黄廷钟\" OR huangtingzhong OR htz) OR (\"纪晓静\" OR jixiaojing OR jxj) OR (\"敬乂嘉\" OR jingyijia OR jyj) OR (\"李桂奎\" OR liguikui OR lgk) OR (\"李杰\" OR lijie OR lj)) (课评 OR 选课 OR 课程 OR 评价 OR 体验)"
+              },
+              {
+                "platform": "知乎",
+                "domain": "zhihu.com",
+                "query": "site:zhihu.com 复旦 ((\"黄廷钟\" OR huangtingzhong OR htz) OR (\"纪晓静\" OR jixiaojing OR jxj) OR (\"敬乂嘉\" OR jingyijia OR jyj) OR (\"李桂奎\" OR liguikui OR lgk) OR (\"李杰\" OR lijie OR lj)) (课评 OR 选课 OR 课程 OR 评价 OR 体验)"
+              }
+            ]
+          }
+        ],
+        "aggregateOutcome": "该批4条站点限定查询结果被工具聚合；卡片标题仅用于粗筛，尚未打开正文。",
+        "visibleCardTitles": [
+          "考研难？复旦学姐助一臂之力 - 知乎 Live",
+          "#复旦# - 知乎",
+          "知乎 - 有问题，就会有答案",
+          "如何评价复旦大学兰小欢老师的著作《置身事内》？ - 知乎",
+          "How should the teaching level and works of Professor Chen Guo from Fudan University be evaluated?-zhihu",
+          "分析与思考：黄奇帆的复旦经济课（书籍） - 知乎",
+          "跨考生，半年斩获复旦金融第一名 - 知乎 Live",
+          "What is the experience of studying at the Chinese Department of Fudan University?-zhihu",
+          "复旦金融专硕440分上岸｜全科高分经验（政治69+英二87+数三144+专业课140） - 知乎",
+          "知乎高校圈子导航",
+          "双非一战擦线上岸复旦计智院｜375分备考全攻略（含择校+避坑） - 知乎",
+          "How would you evaluate the course selection system of Fudan University?-zhihu",
+          "2021年复旦大学哲学学院国外马克思主义哲学考研经验"
+        ],
+        "resultCount": 14,
+        "fullTextReadCount": 0,
+        "limitations": [
+          "无法将聚合卡片逐一对应到4条查询。",
+          "公开索引与平台内搜索不同；卡片正文未读。"
+        ]
+      },
+      {
+        "channel": "web_tool_supplement",
+        "groups": [
+          {
+            "id": "T02-WEB2",
+            "baseBatch": "T02",
+            "kind": "teacher",
+            "searchTerms": [
+              "李显赫",
+              "李晓娟",
+              "刘海霞",
+              "刘永生",
+              "柳美君"
+            ],
+            "courseCodes": [],
+            "pinyinAndInitialsIncluded": true,
+            "queries": [
+              {
+                "platform": "小红书",
+                "domain": "xiaohongshu.com",
+                "query": "site:xiaohongshu.com 复旦 ((\"李显赫\" OR lixianhe OR lxh) OR (\"李晓娟\" OR lixiaojuan OR lxj) OR (\"刘海霞\" OR liuhaixia OR lhx) OR (\"刘永生\" OR liuyongsheng OR lys) OR (\"柳美君\" OR liumeijun OR lmj)) (课评 OR 选课 OR 课程 OR 评价 OR 体验)"
+              },
+              {
+                "platform": "知乎",
+                "domain": "zhihu.com",
+                "query": "site:zhihu.com 复旦 ((\"李显赫\" OR lixianhe OR lxh) OR (\"李晓娟\" OR lixiaojuan OR lxj) OR (\"刘海霞\" OR liuhaixia OR lhx) OR (\"刘永生\" OR liuyongsheng OR lys) OR (\"柳美君\" OR liumeijun OR lmj)) (课评 OR 选课 OR 课程 OR 评价 OR 体验)"
+              }
+            ]
+          },
+          {
+            "id": "T02-WEB3",
+            "baseBatch": "T02",
+            "kind": "teacher",
+            "searchTerms": [
+              "陆立强",
+              "路广",
+              "罗剑波",
+              "马良"
+            ],
+            "courseCodes": [],
+            "pinyinAndInitialsIncluded": true,
+            "queries": [
+              {
+                "platform": "小红书",
+                "domain": "xiaohongshu.com",
+                "query": "site:xiaohongshu.com 复旦 ((\"陆立强\" OR luliqiang OR llq) OR (\"路广\" OR luguang OR lg) OR (\"罗剑波\" OR luojianbo OR ljb) OR (\"马良\" OR maliang OR ml)) (课评 OR 选课 OR 课程 OR 评价 OR 体验)"
+              },
+              {
+                "platform": "知乎",
+                "domain": "zhihu.com",
+                "query": "site:zhihu.com 复旦 ((\"陆立强\" OR luliqiang OR llq) OR (\"路广\" OR luguang OR lg) OR (\"罗剑波\" OR luojianbo OR ljb) OR (\"马良\" OR maliang OR ml)) (课评 OR 选课 OR 课程 OR 评价 OR 体验)"
+              }
+            ]
+          }
+        ],
+        "aggregateOutcome": "该批4条站点限定查询结果被工具聚合；卡片标题只用于粗筛，未读正文。",
+        "visibleCardTitles": [
+          "如何评价复旦大学兰小欢老师的著作《置身事内》？",
+          "如何评价复旦大学兰小欢老师的著作《置身事内》？ - 知乎",
+          "#复旦# - 知乎",
+          "考研难？复旦学姐助一臂之力 - 知乎 Live",
+          "What is the experience of studying at the Chinese Department of Fudan University?-zhihu",
+          "复旦金融专硕440分上岸｜全科高分经验（政治69+英二87+数三144+专业课140） - 知乎",
+          "知乎 - 有问题，就会有答案",
+          "吴晓波：国有难事读奇帆",
+          "分析与思考：黄奇帆的复旦经济课（书籍） - 知乎",
+          "How to evaluate the course selection system of Fudan University?-zhihu",
+          "How would you evaluate the course selection system of Fudan University?-zhihu",
+          "海外交换，到底值不值得？ - 知乎",
+          "What is the experience of studying at the School of Mathematical Sciences of Fudan University?-zhihu",
+          "跨考生，半年斩获复旦金融第一名 - 知乎 Live",
+          "知乎高校圈子导航"
+        ],
+        "resultCount": 15,
+        "fullTextReadCount": 0,
+        "limitations": [
+          "搜索结果在工具侧聚合，卡片不能逐query回连。",
+          "未读正文；公开索引不代表平台内搜索。"
+        ]
+      },
+      {
+        "channel": "web_tool_supplement",
+        "groups": [
+          {
+            "id": "T03-WEB1",
+            "baseBatch": "T03",
+            "kind": "teacher",
+            "searchTerms": [
+              "马小玲",
+              "彭增安",
+              "钱浩祺",
+              "钱昱夫",
+              "盛若菁"
+            ],
+            "courseCodes": [],
+            "pinyinAndInitialsIncluded": true,
+            "queries": [
+              {
+                "platform": "小红书",
+                "domain": "xiaohongshu.com",
+                "query": "site:xiaohongshu.com 复旦 ((\"马小玲\" OR maxiaoling OR mxl) OR (\"彭增安\" OR pengzengan OR pza) OR (\"钱浩祺\" OR qianhaoqi OR qhq) OR (\"钱昱夫\" OR qianyufu OR qyf) OR (\"盛若菁\" OR shengruojing OR srj)) (课评 OR 选课 OR 课程 OR 评价 OR 体验)"
+              },
+              {
+                "platform": "知乎",
+                "domain": "zhihu.com",
+                "query": "site:zhihu.com 复旦 ((\"马小玲\" OR maxiaoling OR mxl) OR (\"彭增安\" OR pengzengan OR pza) OR (\"钱浩祺\" OR qianhaoqi OR qhq) OR (\"钱昱夫\" OR qianyufu OR qyf) OR (\"盛若菁\" OR shengruojing OR srj)) (课评 OR 选课 OR 课程 OR 评价 OR 体验)"
+              }
+            ]
+          },
+          {
+            "id": "T03-WEB2",
+            "baseBatch": "T03",
+            "kind": "teacher",
+            "searchTerms": [
+              "宋桔",
+              "宋清",
+              "涂文燕",
+              "王景丹",
+              "王蕾"
+            ],
+            "courseCodes": [],
+            "pinyinAndInitialsIncluded": true,
+            "queries": [
+              {
+                "platform": "小红书",
+                "domain": "xiaohongshu.com",
+                "query": "site:xiaohongshu.com 复旦 ((\"宋桔\" OR songju OR sj) OR (\"宋清\" OR songqing OR sq) OR (\"涂文燕\" OR tuwenyan OR twy) OR (\"王景丹\" OR wangjingdan OR wjd) OR (\"王蕾\" OR wanglei OR wl)) (课评 OR 选课 OR 课程 OR 评价 OR 体验)"
+              },
+              {
+                "platform": "知乎",
+                "domain": "zhihu.com",
+                "query": "site:zhihu.com 复旦 ((\"宋桔\" OR songju OR sj) OR (\"宋清\" OR songqing OR sq) OR (\"涂文燕\" OR tuwenyan OR twy) OR (\"王景丹\" OR wangjingdan OR wjd) OR (\"王蕾\" OR wanglei OR wl)) (课评 OR 选课 OR 课程 OR 评价 OR 体验)"
+              }
+            ]
+          }
+        ],
+        "aggregateOutcome": "该批4条站点限定查询结果被工具聚合；卡片标题只用于粗筛，未读正文。",
+        "visibleCardTitles": [
+          "#复旦# - 知乎",
+          "考研难？复旦学姐助一臂之力 - 知乎 Live",
+          "如何评价复旦大学教授王德峰？",
+          "复旦会计博士 CPA 会计领读计划 - 知乎 Live",
+          "知乎 - 有问题，就会有答案",
+          "如何评价复旦大学兰小欢老师的著作《置身事内》？",
+          "What is the experience of studying at the Chinese Department of Fudan University?-zhihu",
+          "跨考生，半年斩获复旦金融第一名 - 知乎 Live",
+          "知乎高校圈子导航",
+          "如何评价复旦大学兰小欢老师的著作《置身事内》？ - 知乎",
+          "华中科技大学教师个人主页2 - 知乎",
+          "上海插班生考试政策全解（2026最新版）",
+          "What is it like to study for an MPACC at Fudan University?-zhihu",
+          "What is it like to study in the Mathematics Department at Fudan University?-zhihu"
+        ],
+        "resultCount": 15,
+        "fullTextReadCount": 0,
+        "limitations": [
+          "搜索结果在工具侧聚合，卡片不能逐query回连。",
+          "未读正文；公开索引不代表平台内搜索。"
+        ]
+      },
+      {
+        "channel": "web_tool_supplement",
+        "groups": [
+          {
+            "id": "T03-WEB3",
+            "baseBatch": "T03",
+            "kind": "teacher",
+            "searchTerms": [
+              "王小曼",
+              "王震",
+              "吴剑锋",
+              "吴云"
+            ],
+            "courseCodes": [],
+            "pinyinAndInitialsIncluded": true,
+            "queries": [
+              {
+                "platform": "小红书",
+                "domain": "xiaohongshu.com",
+                "query": "site:xiaohongshu.com 复旦 ((\"王小曼\" OR wangxiaoman OR wxm) OR (\"王震\" OR wangzhen OR wz) OR (\"吴剑锋\" OR wujianfeng OR wjf) OR (\"吴云\" OR wuyun OR wy)) (课评 OR 选课 OR 课程 OR 评价 OR 体验)"
+              },
+              {
+                "platform": "知乎",
+                "domain": "zhihu.com",
+                "query": "site:zhihu.com 复旦 ((\"王小曼\" OR wangxiaoman OR wxm) OR (\"王震\" OR wangzhen OR wz) OR (\"吴剑锋\" OR wujianfeng OR wjf) OR (\"吴云\" OR wuyun OR wy)) (课评 OR 选课 OR 课程 OR 评价 OR 体验)"
+              }
+            ]
+          },
+          {
+            "id": "T04-WEB1",
+            "baseBatch": "T04",
+            "kind": "teacher",
+            "searchTerms": [
+              "吴中伟",
+              "夏梨萍",
+              "修俊俊",
+              "徐来",
+              "徐晓羽"
+            ],
+            "courseCodes": [],
+            "pinyinAndInitialsIncluded": true,
+            "queries": [
+              {
+                "platform": "小红书",
+                "domain": "xiaohongshu.com",
+                "query": "site:xiaohongshu.com 复旦 ((\"吴中伟\" OR wuzhongwei OR wzw) OR (\"夏梨萍\" OR xialiping OR xlp) OR (\"修俊俊\" OR xiujunjun OR xjj) OR (\"徐来\" OR xulai OR xl) OR (\"徐晓羽\" OR xuxiaoyu OR xxy)) (课评 OR 选课 OR 课程 OR 评价 OR 体验)"
+              },
+              {
+                "platform": "知乎",
+                "domain": "zhihu.com",
+                "query": "site:zhihu.com 复旦 ((\"吴中伟\" OR wuzhongwei OR wzw) OR (\"夏梨萍\" OR xialiping OR xlp) OR (\"修俊俊\" OR xiujunjun OR xjj) OR (\"徐来\" OR xulai OR xl) OR (\"徐晓羽\" OR xuxiaoyu OR xxy)) (课评 OR 选课 OR 课程 OR 评价 OR 体验)"
+              }
+            ]
+          }
+        ],
+        "aggregateOutcome": "该批4条站点限定查询结果被工具聚合；卡片标题只用于粗筛，未读正文。",
+        "visibleCardTitles": [
+          "如何评价复旦大学教授王德峰？",
+          "#复旦# - 知乎",
+          "考研难？复旦学姐助一臂之力 - 知乎 Live",
+          "复旦金融专硕440分上岸｜全科高分经验（政治69+英二87+数三144+专业课140） - 知乎",
+          "知乎 - 有问题，就会有答案",
+          "What is the experience of studying at the Chinese Department of Fudan University?-zhihu",
+          "复旦/华理/上财/上外/东华/浙大26综评录取名单公布！ - 知乎",
+          "双非一战擦线上岸复旦计智院｜375分备考全攻略（含择校+避坑） - 知乎",
+          "跨考生，半年斩获复旦金融第一名 - 知乎 Live",
+          "知乎高校圈子导航",
+          "如何评价复旦大学兰小欢老师的著作《置身事内》？ - 知乎"
+        ],
+        "resultCount": 12,
+        "fullTextReadCount": 0,
+        "limitations": [
+          "搜索结果在工具侧聚合，卡片不能逐query回连。",
+          "未读正文；公开索引不代表平台内搜索。"
+        ]
+      },
+      {
+        "channel": "web_tool_supplement",
+        "groups": [
+          {
+            "id": "T04-WEB2",
+            "baseBatch": "T04",
+            "kind": "teacher",
+            "searchTerms": [
+              "许国萍",
+              "许静",
+              "杨蓉蓉",
+              "要英",
+              "叶欣"
+            ],
+            "courseCodes": [],
+            "pinyinAndInitialsIncluded": true,
+            "queries": [
+              {
+                "platform": "小红书",
+                "domain": "xiaohongshu.com",
+                "query": "site:xiaohongshu.com 复旦 ((\"许国萍\" OR xuguoping OR xgp) OR (\"许静\" OR xujing OR xj) OR (\"杨蓉蓉\" OR yangrongrong OR yrr) OR (\"要英\" OR yaoying OR yy) OR (\"叶欣\" OR yexin OR yx)) (课评 OR 选课 OR 课程 OR 评价 OR 体验)"
+              },
+              {
+                "platform": "知乎",
+                "domain": "zhihu.com",
+                "query": "site:zhihu.com 复旦 ((\"许国萍\" OR xuguoping OR xgp) OR (\"许静\" OR xujing OR xj) OR (\"杨蓉蓉\" OR yangrongrong OR yrr) OR (\"要英\" OR yaoying OR yy) OR (\"叶欣\" OR yexin OR yx)) (课评 OR 选课 OR 课程 OR 评价 OR 体验)"
+              }
+            ]
+          },
+          {
+            "id": "T04-WEB3",
+            "baseBatch": "T04",
+            "kind": "teacher",
+            "searchTerms": [
+              "袁斌",
+              "袁雯君",
+              "张宝",
+              "张俪佳囡"
+            ],
+            "courseCodes": [],
+            "pinyinAndInitialsIncluded": true,
+            "queries": [
+              {
+                "platform": "小红书",
+                "domain": "xiaohongshu.com",
+                "query": "site:xiaohongshu.com 复旦 ((\"袁斌\" OR yuanbin OR yb) OR (\"袁雯君\" OR yuanwenjun OR ywj) OR (\"张宝\" OR zhangbao OR zb) OR (\"张俪佳囡\" OR zhanglijianan OR zljn)) (课评 OR 选课 OR 课程 OR 评价 OR 体验)"
+              },
+              {
+                "platform": "知乎",
+                "domain": "zhihu.com",
+                "query": "site:zhihu.com 复旦 ((\"袁斌\" OR yuanbin OR yb) OR (\"袁雯君\" OR yuanwenjun OR ywj) OR (\"张宝\" OR zhangbao OR zb) OR (\"张俪佳囡\" OR zhanglijianan OR zljn)) (课评 OR 选课 OR 课程 OR 评价 OR 体验)"
+              }
+            ]
+          }
+        ],
+        "aggregateOutcome": "该批4条站点限定查询结果被工具聚合；卡片标题仅用于粗筛，未读正文。",
+        "visibleCardTitles": [
+          "考研难？复旦学姐助一臂之力 - 知乎 Live",
+          "知乎 - 有问题，就会有答案",
+          "知乎高校圈子导航",
+          "如何评价复旦大学教授王德峰？",
+          "跨考生，半年斩获复旦金融第一名 - 知乎 Live",
+          "What is the experience of studying at the Chinese Department of Fudan University?-zhihu",
+          "上海插班生考试政策全解（2026最新版）",
+          "分析与思考：黄奇帆的复旦经济课（书籍） - 知乎",
+          "How to evaluate the course selection system of Fudan University?-zhihu",
+          "How would you evaluate the course selection system of Fudan University?-zhihu",
+          "What is the experience of studying at the School of Mathematical Sciences of Fudan University?-zhihu",
+          "比ratemyprofessor更好用的课程评价网站 - 知乎"
+        ],
+        "resultCount": 13,
+        "fullTextReadCount": 0,
+        "limitations": [
+          "工具聚合结果，不能逐query回连卡片。",
+          "未读正文；公开索引未命中不代表平台不存在。"
+        ]
+      },
+      {
+        "channel": "web_tool_supplement",
+        "groups": [
+          {
+            "id": "T05-WEB1",
+            "baseBatch": "T05",
+            "kind": "teacher",
+            "searchTerms": [
+              "张璐",
+              "张汶静",
+              "张志云",
+              "赵琼宇",
+              "郑文晖"
+            ],
+            "courseCodes": [],
+            "pinyinAndInitialsIncluded": true,
+            "queries": [
+              {
+                "platform": "小红书",
+                "domain": "xiaohongshu.com",
+                "query": "site:xiaohongshu.com 复旦 ((\"张璐\" OR zhanglu OR zl) OR (\"张汶静\" OR zhangwenjing OR zwj) OR (\"张志云\" OR zhangzhiyun OR zzy) OR (\"赵琼宇\" OR zhaoqiongyu OR zqy) OR (\"郑文晖\" OR zhengwenhui OR zwh)) (课评 OR 选课 OR 课程 OR 评价 OR 体验)"
+              },
+              {
+                "platform": "知乎",
+                "domain": "zhihu.com",
+                "query": "site:zhihu.com 复旦 ((\"张璐\" OR zhanglu OR zl) OR (\"张汶静\" OR zhangwenjing OR zwj) OR (\"张志云\" OR zhangzhiyun OR zzy) OR (\"赵琼宇\" OR zhaoqiongyu OR zqy) OR (\"郑文晖\" OR zhengwenhui OR zwh)) (课评 OR 选课 OR 课程 OR 评价 OR 体验)"
+              }
+            ]
+          },
+          {
+            "id": "T05-WEB2",
+            "baseBatch": "T05",
+            "kind": "teacher",
+            "searchTerms": [
+              "朱丁",
+              "朱政"
+            ],
+            "courseCodes": [],
+            "pinyinAndInitialsIncluded": true,
+            "queries": [
+              {
+                "platform": "小红书",
+                "domain": "xiaohongshu.com",
+                "query": "site:xiaohongshu.com 复旦 ((\"朱丁\" OR zhuding OR zd) OR (\"朱政\" OR zhuzheng OR zz)) (课评 OR 选课 OR 课程 OR 评价 OR 体验)"
+              },
+              {
+                "platform": "知乎",
+                "domain": "zhihu.com",
+                "query": "site:zhihu.com 复旦 ((\"朱丁\" OR zhuding OR zd) OR (\"朱政\" OR zhuzheng OR zz)) (课评 OR 选课 OR 课程 OR 评价 OR 体验)"
+              }
+            ]
+          }
+        ],
+        "aggregateOutcome": "该批4条站点限定查询结果被工具聚合；卡片标题仅用于粗筛，未读正文。",
+        "visibleCardTitles": [
+          "#复旦# - 知乎",
+          "考研难？复旦学姐助一臂之力 - 知乎 Live",
+          "What is the experience of studying at the Chinese Department of Fudan University?-zhihu",
+          "双非一战擦线上岸复旦计智院｜375分备考全攻略（含择校+避坑） - 知乎",
+          "零基础服装设计跨考金融，两年择校从复旦转同济，一战上岸同济金专总分第三备考全复盘 - 知乎",
+          "复旦金融专硕440分上岸｜全科高分经验（政治69+英二87+数三144+专业课140） - 知乎",
+          "复旦会计博士 CPA 会计领读计划 - 知乎 Live",
+          "知乎 - 有问题，就会有答案",
+          "跨考生，半年斩获复旦金融第一名 - 知乎 Live",
+          "〖爆肝了，我的复旦真题〗综合命中率超过90%，复旦431真题试卷+解析",
+          "2021年复旦大学哲学学院国外马克思主义哲学考研经验",
+          "分析与思考：黄奇帆的复旦经济课（书籍） - 知乎",
+          "如何评价复旦大学教授王德峰？",
+          "如何评价复旦大学兰小欢老师的著作《置身事内》？ - 知乎"
+        ],
+        "resultCount": 15,
+        "fullTextReadCount": 0,
+        "limitations": [
+          "工具聚合结果，不能逐query回连卡片。",
+          "未读正文；公开索引未命中不代表平台不存在。"
+        ]
+      },
+      {
+        "channel": "web_tool_supplement",
+        "groups": [
+          {
+            "id": "C01-WEB1",
+            "baseBatch": "C01",
+            "kind": "course",
+            "searchTerms": [
+              "成语与中国文化",
+              "当代国际关系",
+              "汉语基础语法",
+              "汉语听说Ⅰ",
+              "汉语听说Ⅱ"
+            ],
+            "courseCodes": [
+              "ICLE10018",
+              "ICLE10008",
+              "ICLE10019",
+              "ICLE10028",
+              "ICLE10029"
+            ],
+            "pinyinAndInitialsIncluded": true,
+            "queries": [
+              {
+                "platform": "小红书",
+                "domain": "xiaohongshu.com",
+                "query": "site:xiaohongshu.com 复旦 ((\"成语与中国文化\" OR chengyuyuzhongguowenhua OR cyyzgwh) OR (\"当代国际关系\" OR dangdaiguojiguanxi OR ddgjgx) OR (\"汉语基础语法\" OR hanyujichuyufa OR hyjcyf) OR (\"汉语听说Ⅰ\" OR hanyutingshuoi OR hytsi) OR (\"汉语听说Ⅱ\" OR hanyutingshuoii OR hytsii)) (课评 OR 选课 OR 课程 OR 评价 OR 体验)"
+              },
+              {
+                "platform": "知乎",
+                "domain": "zhihu.com",
+                "query": "site:zhihu.com 复旦 ((\"成语与中国文化\" OR chengyuyuzhongguowenhua OR cyyzgwh) OR (\"当代国际关系\" OR dangdaiguojiguanxi OR ddgjgx) OR (\"汉语基础语法\" OR hanyujichuyufa OR hyjcyf) OR (\"汉语听说Ⅰ\" OR hanyutingshuoi OR hytsi) OR (\"汉语听说Ⅱ\" OR hanyutingshuoii OR hytsii)) (课评 OR 选课 OR 课程 OR 评价 OR 体验)"
+              }
+            ]
+          },
+          {
+            "id": "C01-WEB2",
+            "baseBatch": "C01",
+            "kind": "course",
+            "searchTerms": [
+              "汉语写作I",
+              "汉语写作II",
+              "汉语与中国文化",
+              "汉语阅读Ⅰ",
+              "汉语阅读Ⅱ"
+            ],
+            "courseCodes": [
+              "ICLE10020",
+              "ICLE10021",
+              "ICLE10015",
+              "ICLE10024",
+              "ICLE10025"
+            ],
+            "pinyinAndInitialsIncluded": true,
+            "queries": [
+              {
+                "platform": "小红书",
+                "domain": "xiaohongshu.com",
+                "query": "site:xiaohongshu.com 复旦 ((\"汉语写作I\" OR hanyuxiezuoi OR hyxzi) OR (\"汉语写作II\" OR hanyuxiezuoii OR hyxzii) OR (\"汉语与中国文化\" OR hanyuyuzhongguowenhua OR hyyzgwh) OR (\"汉语阅读Ⅰ\" OR hanyuyuedui OR hyydi) OR (\"汉语阅读Ⅱ\" OR hanyuyueduii OR hyydii)) (课评 OR 选课 OR 课程 OR 评价 OR 体验)"
+              },
+              {
+                "platform": "知乎",
+                "domain": "zhihu.com",
+                "query": "site:zhihu.com 复旦 ((\"汉语写作I\" OR hanyuxiezuoi OR hyxzi) OR (\"汉语写作II\" OR hanyuxiezuoii OR hyxzii) OR (\"汉语与中国文化\" OR hanyuyuzhongguowenhua OR hyyzgwh) OR (\"汉语阅读Ⅰ\" OR hanyuyuedui OR hyydi) OR (\"汉语阅读Ⅱ\" OR hanyuyueduii OR hyydii)) (课评 OR 选课 OR 课程 OR 评价 OR 体验)"
+              }
+            ]
+          }
+        ],
+        "aggregateOutcome": "搜索工具将4条站点限定查询结果聚合；卡片标题用于粗筛，未打开正文。",
+        "visibleCardTitles": [
+          "知乎 - 有问题，就会有答案",
+          "读书：朱德熙《语法答问》短评",
+          "What is the experience of studying at the Chinese Department of Fudan University?-zhihu",
+          "读书：陆俭明《现代汉语语法研究教程》短评",
+          "提升文笔的唯一正确方法：精读+仿写 - 知学堂",
+          "怎样教外国人学习汉语？ - 知乎",
+          "汉语中的句型，句类，句式有什么不同（举例说明）？",
+          "How would you evaluate the course selection system of Fudan University?-zhihu",
+          "I have a question: What will I learn in the Creative Writing program at Fudan University? What kind of jobs can I pursue after graduation? Is it easy to find a job?-zhihu"
+        ],
+        "resultCount": 18,
+        "fullTextReadCount": 0,
+        "limitations": [
+          "同次查询的结果被工具聚合，无法逐query映射卡片。",
+          "公开索引未命中不表示平台内不存在。"
+        ]
+      },
+      {
+        "channel": "web_tool_supplement",
+        "groups": [
+          {
+            "id": "C01-WEB3",
+            "baseBatch": "C01",
+            "kind": "course",
+            "searchTerms": [
+              "经贸汉语",
+              "跨文化交流理论与实践",
+              "商务汉语听说Ⅰ",
+              "商务汉语听说Ⅱ",
+              "商务汉语阅读Ⅰ"
+            ],
+            "courseCodes": [
+              "ICLE10012",
+              "ICLE10016",
+              "ICLE10030",
+              "ICLE10031",
+              "ICLE10026"
+            ],
+            "pinyinAndInitialsIncluded": true,
+            "queries": [
+              {
+                "platform": "小红书",
+                "domain": "xiaohongshu.com",
+                "query": "site:xiaohongshu.com 复旦 ((\"经贸汉语\" OR jingmaohanyu OR jmhy) OR (\"跨文化交流理论与实践\" OR kuawenhuajiaoliulilunyushijian OR kwhjlllysj) OR (\"商务汉语听说Ⅰ\" OR shangwuhanyutingshuoi OR swhytsi) OR (\"商务汉语听说Ⅱ\" OR shangwuhanyutingshuoii OR swhytsii) OR (\"商务汉语阅读Ⅰ\" OR shangwuhanyuyuedui OR swhyydi)) (课评 OR 选课 OR 课程 OR 评价 OR 体验)"
+              },
+              {
+                "platform": "知乎",
+                "domain": "zhihu.com",
+                "query": "site:zhihu.com 复旦 ((\"经贸汉语\" OR jingmaohanyu OR jmhy) OR (\"跨文化交流理论与实践\" OR kuawenhuajiaoliulilunyushijian OR kwhjlllysj) OR (\"商务汉语听说Ⅰ\" OR shangwuhanyutingshuoi OR swhytsi) OR (\"商务汉语听说Ⅱ\" OR shangwuhanyutingshuoii OR swhytsii) OR (\"商务汉语阅读Ⅰ\" OR shangwuhanyuyuedui OR swhyydi)) (课评 OR 选课 OR 课程 OR 评价 OR 体验)"
+              }
+            ]
+          },
+          {
+            "id": "C01-WEB4",
+            "baseBatch": "C01",
+            "kind": "course",
+            "searchTerms": [
+              "商务汉语阅读II",
+              "中国传统建筑文化",
+              "中国传统戏曲赏析",
+              "中国传统医学文化",
+              "中国历史名人"
+            ],
+            "courseCodes": [
+              "ICLE10027",
+              "ICLE10011",
+              "ICLE10010",
+              "ICLE10007",
+              "ICLE10013"
+            ],
+            "pinyinAndInitialsIncluded": true,
+            "queries": [
+              {
+                "platform": "小红书",
+                "domain": "xiaohongshu.com",
+                "query": "site:xiaohongshu.com 复旦 ((\"商务汉语阅读II\" OR shangwuhanyuyueduii OR swhyydii) OR (\"中国传统建筑文化\" OR zhongguochuantongjianzhuwenhua OR zgctjzwh) OR (\"中国传统戏曲赏析\" OR zhongguochuantongxiqushangxi OR zgctxqsx) OR (\"中国传统医学文化\" OR zhongguochuantongyixuewenhua OR zgctyxwh) OR (\"中国历史名人\" OR zhongguolishimingren OR zglsmr)) (课评 OR 选课 OR 课程 OR 评价 OR 体验)"
+              },
+              {
+                "platform": "知乎",
+                "domain": "zhihu.com",
+                "query": "site:zhihu.com 复旦 ((\"商务汉语阅读II\" OR shangwuhanyuyueduii OR swhyydii) OR (\"中国传统建筑文化\" OR zhongguochuantongjianzhuwenhua OR zgctjzwh) OR (\"中国传统戏曲赏析\" OR zhongguochuantongxiqushangxi OR zgctxqsx) OR (\"中国传统医学文化\" OR zhongguochuantongyixuewenhua OR zgctyxwh) OR (\"中国历史名人\" OR zhongguolishimingren OR zglsmr)) (课评 OR 选课 OR 课程 OR 评价 OR 体验)"
+              }
+            ]
+          }
+        ],
+        "aggregateOutcome": "搜索工具将4条站点限定查询结果聚合；卡片标题用于粗筛，未打开正文。",
+        "visibleCardTitles": [
+          "知乎 - 有问题，就会有答案",
+          "What is the experience of studying at the Chinese Department of Fudan University?-zhihu",
+          "解读大国文化 - 知学堂",
+          "每天懂点人情世故 - 知学堂",
+          "解读历史文化趣事 - 知学堂",
+          "「人文清华」讲坛 - 知学堂",
+          "2026年中山大学开设国际学生预科项目啦！ - 知乎",
+          "知乎高校圈子导航",
+          "中国传统节日和风俗习惯 - 知学堂",
+          "复旦大学推荐书单2-社科作品50部",
+          "中国地理人文科普 - 知学堂"
+        ],
+        "resultCount": 13,
+        "fullTextReadCount": 0,
+        "limitations": [
+          "查询结果聚合，不能逐query映射卡片。",
+          "公开索引未命中不代表平台内不存在。"
+        ]
+      },
+      {
+        "channel": "web_tool_supplement",
+        "groups": [
+          {
+            "id": "C02-WEB1",
+            "baseBatch": "C02",
+            "kind": "course",
+            "searchTerms": [
+              "中国旅游文化",
+              "中国神话传说",
+              "中国书法",
+              "中国文化地理",
+              "中国印"
+            ],
+            "courseCodes": [
+              "ICLE10009",
+              "ICLE10006",
+              "ICLE10003",
+              "ICLE10014",
+              "ICLE10005"
+            ],
+            "pinyinAndInitialsIncluded": true,
+            "queries": [
+              {
+                "platform": "小红书",
+                "domain": "xiaohongshu.com",
+                "query": "site:xiaohongshu.com 复旦 ((\"中国旅游文化\" OR zhongguolvyouwenhua OR zglywh) OR (\"中国神话传说\" OR zhongguoshenhuachuanshuo OR zgshcs) OR (\"中国书法\" OR zhongguoshufa OR zgsf) OR (\"中国文化地理\" OR zhongguowenhuadili OR zgwhdl) OR (\"中国印\" OR zhongguoyin OR zgy)) (课评 OR 选课 OR 课程 OR 评价 OR 体验)"
+              },
+              {
+                "platform": "知乎",
+                "domain": "zhihu.com",
+                "query": "site:zhihu.com 复旦 ((\"中国旅游文化\" OR zhongguolvyouwenhua OR zglywh) OR (\"中国神话传说\" OR zhongguoshenhuachuanshuo OR zgshcs) OR (\"中国书法\" OR zhongguoshufa OR zgsf) OR (\"中国文化地理\" OR zhongguowenhuadili OR zgwhdl) OR (\"中国印\" OR zhongguoyin OR zgy)) (课评 OR 选课 OR 课程 OR 评价 OR 体验)"
+              }
+            ]
+          },
+          {
+            "id": "C02-WEB2",
+            "baseBatch": "C02",
+            "kind": "course",
+            "searchTerms": [
+              "中国哲学"
+            ],
+            "courseCodes": [
+              "ICLE10001"
+            ],
+            "pinyinAndInitialsIncluded": true,
+            "queries": [
+              {
+                "platform": "小红书",
+                "domain": "xiaohongshu.com",
+                "query": "site:xiaohongshu.com 复旦 ((\"中国哲学\" OR zhongguozhexue OR zgzx)) (课评 OR 选课 OR 课程 OR 评价 OR 体验)"
+              },
+              {
+                "platform": "知乎",
+                "domain": "zhihu.com",
+                "query": "site:zhihu.com 复旦 ((\"中国哲学\" OR zhongguozhexue OR zgzx)) (课评 OR 选课 OR 课程 OR 评价 OR 体验)"
+              }
+            ]
+          }
+        ],
+        "aggregateOutcome": "搜索工具将4条站点限定查询结果聚合；卡片标题用于粗筛，未打开正文。",
+        "visibleCardTitles": [
+          "中国哲学追求的最高境界是什么？分别从儒释道三家的思想去回答这个问题?",
+          "2021年复旦大学哲学学院国外马克思主义哲学考研经验",
+          "知乎知识会员 - 复旦名师陈果：人生哲学课（套装共 2 册）",
+          "如何评价复旦大学教授王德峰？",
+          "中国哲学要关注哪些内容？",
+          "#复旦# - 知乎",
+          "读王德峰的《哲学导论》",
+          "《庄子》的译注书籍哪个版本的好，据说陈鼓应先生的译注挺权威的？",
+          "What is the experience of studying at the Chinese Department of Fudan University?-zhihu",
+          "What is it like to study philosophy at Tongji University?-zhihu",
+          "知乎 - 有问题，就会有答案",
+          "解读大国文化 - 知学堂",
+          "中国地理人文科普 - 知学堂"
+        ],
+        "resultCount": 15,
+        "fullTextReadCount": 0,
+        "limitations": [
+          "工具聚合结果，未逐query回连卡片。",
+          "公开索引未命中不代表平台内不存在。"
+        ]
+      }
+    ]
+  },
+  "relatedButExcludedPosts": [
+    {
+      "platform": "知乎",
+      "title": "复旦大学汉硕经验贴 | 四战中龄学姐披荆斩棘，时间和努力终究证明一切！",
+      "url": "https://zhuanlan.zhihu.com/p/663944553",
+      "publishedDate": "2024-01-02",
+      "fullTextRead": true,
+      "classification": "Exam-preparation guide, not course review; excluded from target evidence",
+      "summary": "The article is organized around admissions, exam statistics, recommended books, study strategy, and interview preparation for the 汉语国际教育硕士. It mentions cross-cultural content and books by teachers such as 吴中伟, but does not review any target-term ICES course or classroom section."
+    }
+  ],
+  "platformUiSearches": [
+    {
+      "platform": "Bing public index via Edge",
+      "browser": "Edge",
+      "queryBatchId": "C04-A",
+      "query": "site:xiaohongshu.com 复旦 (\"语法与语法教学\" OR \"语言学概论\" OR \"中国民俗文化\" OR \"中国人文地理知识文选\" OR \"中国文化通论\" OR \"中级汉语视听说\") (课评 OR 选课 OR 评价 OR 体验) OR site:zhihu.com 复旦 (\"语法与语法教学\" OR \"语言学概论\" OR \"中国民俗文化\" OR \"中国人文地理知识文选\" OR \"中国文化通论\" OR \"中级汉语视听说\") (课评 OR 选课 OR 评价 OR 体验)",
+      "status": "results read; low-recall Chinese-title OR batch",
+      "result": "About 79 results. Visible results were admissions/preparation material and unrelated content about 出土文献教材、民俗学、中文系学习等; no clearly attributable ICES course evaluation surfaced. This batch used Chinese title roots only; pinyin/initials were not included.",
+      "titleCount": 6,
+      "fullTitles": [
+        "语法与语法教学",
+        "语言学概论",
+        "中国民俗文化",
+        "中国人文地理知识文选",
+        "中国文化通论",
+        "中级汉语视听说（上/下）"
+      ]
+    },
+    {
+      "platform": "Bing public index via Edge",
+      "browser": "Edge",
+      "queryBatchId": "C04-B",
+      "query": "site:xiaohongshu.com 复旦 (\"中级商务口语\" OR \"中级商务听力\" OR \"中级商务写作\") (课评 OR 选课 OR 评价 OR 体验) OR site:zhihu.com 复旦 (\"中级商务口语\" OR \"中级商务听力\" OR \"中级商务写作\") (课评 OR 选课 OR 评价 OR 体验)",
+      "status": "results read; no results; low-recall Chinese-title OR batch",
+      "result": "Bing displayed no related results for this combined site-limited query. It does not establish absence on either platform. This batch used Chinese title roots only; pinyin/initials were not included.",
+      "titleCount": 3,
+      "fullTitles": [
+        "中级商务口语（上/下）",
+        "中级商务听力",
+        "中级商务写作（上/下）"
+      ]
+    },
+    {
+      "platform": "Bing public index via Edge",
+      "browser": "Edge",
+      "queryBatchId": "C05-A",
+      "query": "site:xiaohongshu.com 复旦 (\"词汇与词汇教学\" OR cihuiyucihuijiaoxue OR chychjx OR \"高级汉语阅读（上）\" OR gaojihanyuyuedushang OR gjhyyds OR \"高级汉语阅读（中）\" OR gaojihanyuyueduzhong OR gjhyydz OR \"古代汉语基础（上）\" OR gudaihanyujichushang OR gdhyjcs OR \"古代汉语基础（下）\" OR gudaihanyujichuxia OR gdhyjcx OR \"教材与教法\" OR jiaocaiyujiaofa OR jcyjf OR \"金融基础（上）\" OR jinrongjichushang OR jrjcs OR \"经济文献阅读（上）\" OR jingjiwenxianyuedushang OR jjwxyds OR \"经济文献阅读（中）\" OR jingjiwenxianyueduzhong OR jjwxydz) (课评 OR 选课 OR 评价 OR 体验) OR site:zhihu.com 复旦 (\"词汇与词汇教学\" OR cihuiyucihuijiaoxue OR chychjx OR \"高级汉语阅读（上）\" OR gaojihanyuyuedushang OR gjhyyds OR \"高级汉语阅读（中）\" OR gaojihanyuyueduzhong OR gjhyydz OR \"古代汉语基础（上）\" OR gudaihanyujichushang OR gdhyjcs OR \"古代汉语基础（下）\" OR gudaihanyujichuxia OR gdhyjcx OR \"教材与教法\" OR jiaocaiyujiaofa OR jcyjf OR \"金融基础（上）\" OR jinrongjichushang OR jrjcs OR \"经济文献阅读（上）\" OR jingjiwenxianyuedushang OR jjwxyds OR \"经济文献阅读（中）\" OR jingjiwenxianyueduzhong OR jjwxydz) (课评 OR 选课 OR 评价 OR 体验)",
+      "status": "results read; low-recall OR batch with Chinese titles, generated pinyin and initials",
+      "result": "About 27 results. Visible cards included Zhihu collection/index and unrelated graduate-admission/test-prep posts, including other Fudan departments; no review was attributable to an ICES class or teacher. This grouped query was not high recall for each individual variant.",
+      "titleCount": 9,
+      "titleRoots": [
+        "词汇与词汇教学",
+        "高级汉语阅读（上）",
+        "高级汉语阅读（中）",
+        "古代汉语基础（上）",
+        "古代汉语基础（下）",
+        "教材与教法",
+        "金融基础（上）",
+        "经济文献阅读（上）",
+        "经济文献阅读（中）"
+      ],
+      "courseCodes": [
+        "ICLE30030",
+        "ICLE30001",
+        "ICLE30002",
+        "ICLE30004",
+        "ICLE30005",
+        "ICLE30031",
+        "ICLE30020",
+        "ICLE30013",
+        "ICLE30014"
+      ],
+      "pinyinAndInitialsIncluded": true
+    },
+    {
+      "platform": "Bing public index via Edge",
+      "browser": "Edge",
+      "queryBatchId": "C05-B1",
+      "query": "site:xiaohongshu.com 复旦 (\"经济应用文写作\" OR jingjiyingyongwenxiezuo OR jjyywxz OR \"涉外经济法规（上）\" OR shewaijingjifaguishang OR swjjfgs OR \"涉外经济法规（下）\" OR shewaijingjifaguixia OR swjjfgx OR \"孙子兵法与商贸战略\" OR sunzibingfayushangmaozhanlve OR szbfysmzl OR \"现代汉语通论\" OR xiandaihanyutonglun OR xdhytl OR \"新词语\" OR xinciyu OR xcy) (课评 OR 选课 OR 评价 OR 体验) OR site:zhihu.com 复旦 (\"经济应用文写作\" OR jingjiyingyongwenxiezuo OR jjyywxz OR \"涉外经济法规（上）\" OR shewaijingjifaguishang OR swjjfgs OR \"涉外经济法规（下）\" OR shewaijingjifaguixia OR swjjfgx OR \"孙子兵法与商贸战略\" OR sunzibingfayushangmaozhanlve OR szbfysmzl OR \"现代汉语通论\" OR xiandaihanyutonglun OR xdhytl OR \"新词语\" OR xinciyu OR xcy) (课评 OR 选课 OR 评价 OR 体验)",
+      "status": "results read; low-recall OR batch with Chinese titles, pinyin and initials",
+      "result": "About 7 results. Visible results were unrelated textbook and graduate-exam posts, including a generic Fudan math-reference mention. No ICES course review was identifiable. Grouped OR query is not high recall per variant.",
+      "titleCount": 6,
+      "titleRoots": [
+        "经济应用文写作",
+        "涉外经济法规（上）",
+        "涉外经济法规（下）",
+        "孙子兵法与商贸战略",
+        "现代汉语通论",
+        "新词语"
+      ],
+      "courseCodes": [
+        "ICLE30023",
+        "ICLE30021",
+        "ICLE30022",
+        "ICLE30015",
+        "ICLE30003",
+        "ICLE30012"
+      ],
+      "pinyinAndInitialsIncluded": true
+    },
+    {
+      "platform": "Bing public index via Edge",
+      "browser": "Edge",
+      "queryBatchId": "C06",
+      "query": "site:xiaohongshu.com 复旦 (\"中国现当代名作选\" OR zhongguoxiandangdaimingzuoxuan OR zgxddmzx OR \"中国现当代文学（上）\" OR zhongguoxiandangdaiwenxueshang OR zgxddwxs OR \"中国现当代文学（下）\" OR zhongguoxiandangdaiwenxuexia OR zgxddwxx OR \"中华人民共和国史\" OR zhonghuarenmingongheguoshi OR zhrmghgs OR \"中外文学比较\" OR zhongwaiwenxuebijiao OR zwwxbj) (课评 OR 选课 OR 评价 OR 体验) OR site:zhihu.com 复旦 (\"中国现当代名作选\" OR zhongguoxiandangdaimingzuoxuan OR zgxddmzx OR \"中国现当代文学（上）\" OR zhongguoxiandangdaiwenxueshang OR zgxddwxs OR \"中国现当代文学（下）\" OR zhongguoxiandangdaiwenxuexia OR zgxddwxx OR \"中华人民共和国史\" OR zhonghuarenmingongheguoshi OR zhrmghgs OR \"中外文学比较\" OR zhongwaiwenxuebijiao OR zwwxbj) (课评 OR 选课 OR 评价 OR 体验)",
+      "status": "results read; low-recall OR batch with Chinese titles, pinyin and initials",
+      "result": "About 23 results. Visible results were graduate-exam material and unrelated Chinese-literature history/questions; no ICES course review was identifiable. Grouped OR query is not high recall per variant.",
+      "titleCount": 5,
+      "titleRoots": [
+        "中国现当代名作选",
+        "中国现当代文学（上）",
+        "中国现当代文学（下）",
+        "中华人民共和国史",
+        "中外文学比较"
+      ],
+      "courseCodes": [
+        "ICLE30007",
+        "ICLE30010",
+        "ICLE30011",
+        "ICLE30009",
+        "ICLE30019"
+      ],
+      "pinyinAndInitialsIncluded": true
+    },
+    {
+      "platform": "Bing public index via Edge",
+      "browser": "Edge",
+      "queryBatchId": "C05-B2",
+      "query": "site:xiaohongshu.com 复旦 (\"中国对外经济关系\" OR zhongguoduiwaijingjiguanxi OR zgdwjjgx OR \"中国近现代历史\" OR zhongguojinxiandailishi OR zgjxdls OR \"中国区域经济（上）\" OR zhongguoquyujingjishang OR zgqyjjs OR \"中国区域经济（下）\" OR zhongguoquyujingjixia OR zgqyjjx OR \"中国文化概说\" OR zhongguowenhuagaishuo OR zgwhgs) (课评 OR 选课 OR 评价 OR 体验) OR site:zhihu.com 复旦 (\"中国对外经济关系\" OR zhongguoduiwaijingjiguanxi OR zgdwjjgx OR \"中国近现代历史\" OR zhongguojinxiandailishi OR zgjxdls OR \"中国区域经济（上）\" OR zhongguoquyujingjishang OR zgqyjjs OR \"中国区域经济（下）\" OR zhongguoquyujingjixia OR zgqyjjx OR \"中国文化概说\" OR zhongguowenhuagaishuo OR zgwhgs) (课评 OR 选课 OR 评价 OR 体验)",
+      "status": "results read; low-recall OR batch with Chinese titles, pinyin and initials",
+      "result": "About 10 results. Visible hits were a finance-industry list, unrelated local/history material, and generic Chinese/graduate-study pages. No ICES course review identified. Grouped OR query is not high recall per variant.",
+      "titleCount": 5,
+      "titleRoots": [
+        "中国对外经济关系",
+        "中国近现代历史",
+        "中国区域经济（上）",
+        "中国区域经济（下）",
+        "中国文化概说"
+      ],
+      "courseCodes": [
+        "ICLE30018",
+        "ICLE30008",
+        "ICLE30016",
+        "ICLE30017",
+        "ICLE30006"
+      ],
+      "pinyinAndInitialsIncluded": true
+    },
+    {
+      "platform": "Bing public index via Edge",
+      "browser": "Edge",
+      "queryBatchId": "C07-A",
+      "query": "site:xiaohongshu.com 复旦 (\"毕业论文\" OR biyelunwen OR bylw OR \"第二语言习得\" OR dieryuyanxide OR deyyxd OR \"高级汉语2\" OR gaojihanyu2 OR gjhy2 OR \"高级汉语阅读（下）\" OR gaojihanyuyueduxia OR gjhyydx OR \"国际贸易理论与实务（上）\" OR guojimaoyililunyushiwushang OR gjmyllysws OR \"国际贸易理论与实务（下）\" OR guojimaoyililunyushiwuxia OR gjmyllyswx OR \"国际中文教育教学实践\" OR guojizhongwenjiaoyujiaoxueshijian OR gjzwjyjxsj OR \"汉语国际教育专题研究\" OR hanyuguojijiaoyuzhuantiyanjiu OR hygjjyztyj OR \"汉语作为第二语言教学\" OR hanyuzuoweidieryuyanjiaoxue OR hyzwdeyyjx OR \"汉字与汉字教学\" OR hanziyuhanzijiaoxue OR hzyhzjx) (课评 OR 选课 OR 评价 OR 体验) OR site:zhihu.com 复旦 (\"毕业论文\" OR biyelunwen OR bylw OR \"第二语言习得\" OR dieryuyanxide OR deyyxd OR \"高级汉语2\" OR gaojihanyu2 OR gjhy2 OR \"高级汉语阅读（下）\" OR gaojihanyuyueduxia OR gjhyydx OR \"国际贸易理论与实务（上）\" OR guojimaoyililunyushiwushang OR gjmyllysws OR \"国际贸易理论与实务（下）\" OR guojimaoyililunyushiwuxia OR gjmyllyswx OR \"国际中文教育教学实践\" OR guojizhongwenjiaoyujiaoxueshijian OR gjzwjyjxsj OR \"汉语国际教育专题研究\" OR hanyuguojijiaoyuzhuantiyanjiu OR hygjjyztyj OR \"汉语作为第二语言教学\" OR hanyuzuoweidieryuyanjiaoxue OR hyzwdeyyjx OR \"汉字与汉字教学\" OR hanziyuhanzijiaoxue OR hzyhzjx) (课评 OR 选课 OR 评价 OR 体验)",
+      "status": "results read; low-recall OR batch with Chinese titles, pinyin and initials",
+      "result": "About 96 results. Visible hits centered on a general Fudan AI graduation-thesis rule, generic graduate study/exam content, research resources, and unrelated departments. No course experience for an ICES offering was identified. Grouped OR query is not high recall per variant.",
+      "titleCount": 10,
+      "titleRoots": [
+        "毕业论文",
+        "第二语言习得",
+        "高级汉语2",
+        "高级汉语阅读（下）",
+        "国际贸易理论与实务（上）",
+        "国际贸易理论与实务（下）",
+        "国际中文教育教学实践",
+        "汉语国际教育专题研究",
+        "汉语作为第二语言教学",
+        "汉字与汉字教学"
+      ],
+      "courseCodes": [
+        "ICLE40013",
+        "ICLE40021",
+        "ICLE40018",
+        "ICLE40001",
+        "ICLE40010",
+        "ICLE40011",
+        "ICLE40016",
+        "ICLE40019",
+        "ICLE40024",
+        "ICLE40017"
+      ],
+      "pinyinAndInitialsIncluded": true
+    },
+    {
+      "platform": "Bing public index via Edge",
+      "browser": "Edge",
+      "queryBatchId": "C07-B",
+      "query": "site:xiaohongshu.com 复旦 (\"金融基础（下）\" OR jinrongjichuxia OR jrjcx OR \"经济文献阅读（下）\" OR jingjiwenxianyueduxia OR jjwxydx OR \"跨文化交际\" OR kuawenhuajiaoji OR kwhjj OR \"商务文化\" OR shangwuwenhua OR swwh OR \"社会实践（报告）\" OR shehuishijianbaogao OR shsjbg OR \"中国电影与文化\" OR zhongguodianyingyuwenhua OR zgdyywh OR \"中国古代历史\" OR zhongguogudailishi OR zggdls OR \"中国古代名作选\" OR zhongguogudaimingzuoxuan OR zggdmzx OR \"中国古代文学(上）\" OR zhongguogudaiwenxueshang OR zggdwxs OR \"中国古代文学(下）\" OR zhongguogudaiwenxuexia OR zggdwxx) (课评 OR 选课 OR 评价 OR 体验) OR site:zhihu.com 复旦 (\"金融基础（下）\" OR jinrongjichuxia OR jrjcx OR \"经济文献阅读（下）\" OR jingjiwenxianyueduxia OR jjwxydx OR \"跨文化交际\" OR kuawenhuajiaoji OR kwhjj OR \"商务文化\" OR shangwuwenhua OR swwh OR \"社会实践（报告）\" OR shehuishijianbaogao OR shsjbg OR \"中国电影与文化\" OR zhongguodianyingyuwenhua OR zgdyywh OR \"中国古代历史\" OR zhongguogudailishi OR zggdls OR \"中国古代名作选\" OR zhongguogudaimingzuoxuan OR zggdmzx OR \"中国古代文学(上）\" OR zhongguogudaiwenxueshang OR zggdwxs OR \"中国古代文学(下）\" OR zhongguogudaiwenxuexia OR zggdwxx) (课评 OR 选课 OR 评价 OR 体验)",
+      "status": "results read; low-recall OR batch with Chinese titles, pinyin and initials",
+      "result": "About 45 results. Visible results were unrelated textbook/search material, generic class resources and admissions/exam posts. No ICES course review identified. Grouped OR query is not high recall per variant.",
+      "titleCount": 10,
+      "titleRoots": [
+        "金融基础（下）",
+        "经济文献阅读（下）",
+        "跨文化交际",
+        "商务文化",
+        "社会实践（报告）",
+        "中国电影与文化",
+        "中国古代历史",
+        "中国古代名作选",
+        "中国古代文学（上）",
+        "中国古代文学（下）"
+      ],
+      "courseCodes": [
+        "ICLE40015",
+        "ICLE40008",
+        "ICLE40023",
+        "ICLE40009",
+        "ICLE40012",
+        "ICLE40006",
+        "ICLE40004",
+        "ICLE40005",
+        "ICLE40002",
+        "ICLE40003"
+      ],
+      "pinyinAndInitialsIncluded": true
+    },
+    {
+      "platform": "Bing public index via Edge",
+      "browser": "Edge",
+      "queryBatchId": "C08-C09",
+      "query": "site:xiaohongshu.com 复旦 (\"中国市场与投资\" OR zhongguoshichangyutouzi OR zgscytz OR \"中华文化与传播\" OR zhonghuawenhuayuchuanbo OR zhwhycb OR \"专业外语\" OR zhuanyewaiyu OR zywy OR \"汉语语言要素教学\" OR hanyuyuyanyaosujiaoxue OR hyyyysjx OR \"中华文化技能\" OR zhonghuawenhuajineng OR zhwhjn) (课评 OR 选课 OR 评价 OR 体验) OR site:zhihu.com 复旦 (\"中国市场与投资\" OR zhongguoshichangyutouzi OR zgscytz OR \"中华文化与传播\" OR zhonghuawenhuayuchuanbo OR zhwhycb OR \"专业外语\" OR zhuanyewaiyu OR zywy OR \"汉语语言要素教学\" OR hanyuyuyanyaosujiaoxue OR hyyyysjx OR \"中华文化技能\" OR zhonghuawenhuajineng OR zhwhjn) (课评 OR 选课 OR 评价 OR 体验)",
+      "status": "results read; low-recall OR batch with Chinese titles, pinyin and initials",
+      "result": "About 105 results. Visible hits focused on unrelated MBA/graduate admissions, finance and general study material; no ICES course review surfaced. Grouped OR query is not high recall per variant.",
+      "titleCount": 5,
+      "titleRoots": [
+        "中国市场与投资",
+        "中华文化与传播",
+        "专业外语",
+        "汉语语言要素教学",
+        "中华文化技能"
+      ],
+      "courseCodes": [
+        "ICLE40014",
+        "ICLE40022",
+        "ICLE40020",
+        "ICLE50001",
+        "ICLE50002"
+      ],
+      "pinyinAndInitialsIncluded": true
+    },
+    {
+      "platform": "Bing public index via Edge",
+      "browser": "Edge",
+      "queryBatchId": "C10",
+      "query": "site:xiaohongshu.com 复旦 (\"国别与地域文化\" OR guobieyudiyuwenhua OR gbydywh OR \"国际汉学专题研究\" OR guojihanxuezhuantiyanjiu OR gjhxztyj OR \"国外汉语课堂教学案例研究\" OR guowaihanyuketangjiaoxueanliyanjiu OR gwhyktjxalyj OR \"汉外语言对比\" OR hanwaiyuyanduibi OR hwyydb OR \"区域国别中文传播实务\" OR quyuguobiezhongwenchuanboshiwu OR qygbzwcbsw OR \"外语教育心理学\" OR waiyujiaoyuxinlixue OR wyjyxlx OR \"应用语言学研究方法\" OR yingyongyuyanxueyanjiufangfa OR yyyyxyjff OR \"中华文化经典\" OR zhonghuawenhuajingdian OR zhwhjd OR \"中文国际传播理论与实践（理论）\" OR zhongwenguojichuanbolilunyushijianlilun OR zwgjcbllysjll OR \"中文国际传播理论与实践（实践）\" OR zhongwenguojichuanbolilunyushijianshijian OR zwgjcbllysjsj) (课评 OR 选课 OR 评价 OR 体验) OR site:zhihu.com 复旦 (\"国别与地域文化\" OR guobieyudiyuwenhua OR gbydywh OR \"国际汉学专题研究\" OR guojihanxuezhuantiyanjiu OR gjhxztyj OR \"国外汉语课堂教学案例研究\" OR guowaihanyuketangjiaoxueanliyanjiu OR gwhyktjxalyj OR \"汉外语言对比\" OR hanwaiyuyanduibi OR hwyydb OR \"区域国别中文传播实务\" OR quyuguobiezhongwenchuanboshiwu OR qygbzwcbsw OR \"外语教育心理学\" OR waiyujiaoyuxinlixue OR wyjyxlx OR \"应用语言学研究方法\" OR yingyongyuyanxueyanjiufangfa OR yyyyxyjff OR \"中华文化经典\" OR zhonghuawenhuajingdian OR zhwhjd OR \"中文国际传播理论与实践（理论）\" OR zhongwenguojichuanbolilunyushijianlilun OR zwgjcbllysjll OR \"中文国际传播理论与实践（实践）\" OR zhongwenguojichuanbolilunyushijianshijian OR zwgjcbllysjsj) (课评 OR 选课 OR 评价 OR 体验)",
+      "status": "results read; low-recall OR batch with Chinese titles, pinyin and initials",
+      "result": "About 5 results. Visible pages were a general graduate tuition table, Shanghai transfer-exam policy, and unrelated doctoral-study/linguistics content; no ICES class review identified. Grouped OR query is not high recall per variant.",
+      "titleCount": 10,
+      "titleRoots": [
+        "国别与地域文化",
+        "国际汉学专题研究",
+        "国外汉语课堂教学案例研究",
+        "汉外语言对比",
+        "区域国别中文传播实务",
+        "外语教育心理学",
+        "应用语言学研究方法",
+        "中华文化经典",
+        "中文国际传播理论与实践（理论）",
+        "中文国际传播理论与实践（实践）"
+      ],
+      "courseCodes": [
+        "ICLE60006",
+        "ICLE60001",
+        "ICLE60004",
+        "ICLE60005",
+        "ICLE60008",
+        "ICLE60007",
+        "ICLE60003",
+        "ICLE60002",
+        "ICLE60009",
+        "ICLE60010"
+      ],
+      "pinyinAndInitialsIncluded": true
+    },
+    {
+      "platform": "Bing public index via Edge",
+      "browser": "Edge",
+      "queryBatchId": "C11",
+      "query": "site:xiaohongshu.com 复旦 (\"国际中文教育史\" OR guojizhongwenjiaoyushi OR gjzwjys OR \"教学测试与评估\" OR jiaoxueceshiyupinggu OR jxcsypg OR \"教学调查与分析\" OR jiaoxuediaochayufenxi OR jxdcyfx OR \"课堂观察与实践2\" OR ketangguanchayushijian2 OR ktgcysj2 OR \"心理语言学\" OR xinliyuyanxue OR xlyyx) (课评 OR 选课 OR 评价 OR 体验) OR site:zhihu.com 复旦 (\"国际中文教育史\" OR guojizhongwenjiaoyushi OR gjzwjys OR \"教学测试与评估\" OR jiaoxueceshiyupinggu OR jxcsypg OR \"教学调查与分析\" OR jiaoxuediaochayufenxi OR jxdcyfx OR \"课堂观察与实践2\" OR ketangguanchayushijian2 OR ktgcysj2 OR \"心理语言学\" OR xinliyuyanxue OR xlyyx) (课评 OR 选课 OR 评价 OR 体验)",
+      "status": "results read; low-recall OR batch with Chinese titles, pinyin and initials",
+      "result": "About 14 results. Visible cards were psychology admissions/teacher introductions, a network open-course compilation, linguistics journals, and generic research pages. No ICES course review identified. Grouped OR query is not high recall per variant.",
+      "titleCount": 5,
+      "titleRoots": [
+        "国际中文教育史",
+        "教学测试与评估",
+        "教学调查与分析",
+        "课堂观察与实践2",
+        "心理语言学"
+      ],
+      "courseCodes": [
+        "ICLE70002",
+        "ICLE70005",
+        "ICLE70004",
+        "ICLE70003",
+        "ICLE70001"
+      ],
+      "pinyinAndInitialsIncluded": true
+    }
+  ],
+  "coverageAudit": {
+    "auditBasis": "从已执行的实际查询批次/教师名列表映射到 work/ices-inventory.json 的 courseGroups 和 teacherIndex 计算；不将计划覆盖当作实搜。",
+    "officialUniqueCourseTitles": 165,
+    "officialCourseCodeRows": 167,
+    "officialUniqueTeachers": 63,
+    "edgeBingPublicIndex": {
+      "readCourseBatches": [
+        "C03",
+        "C04",
+        "C05",
+        "C06",
+        "C07",
+        "C08",
+        "C09",
+        "C10",
+        "C11"
+      ],
+      "readCourseCodes": [
+        "ICLE20001",
+        "ICLE20002",
+        "ICLE20004",
+        "ICLE20005",
+        "ICLE20007",
+        "ICLE20008",
+        "ICLE20009",
+        "ICLE20010",
+        "ICLE20011",
+        "ICLE20012",
+        "ICLE20013",
+        "ICLE20014",
+        "ICLE20015",
+        "ICLE20016",
+        "ICLE20017",
+        "ICLE20018",
+        "ICLE20020",
+        "ICLE20021",
+        "ICLE20022",
+        "ICLE20023",
+        "ICLE20024",
+        "ICLE20025",
+        "ICLE20027",
+        "ICLE20028",
+        "ICLE20029",
+        "ICLE20031",
+        "ICLE20032",
+        "ICLE20033",
+        "ICLE20034",
+        "ICLE20035",
+        "ICLE20036",
+        "ICLE20037",
+        "ICLE30001",
+        "ICLE30002",
+        "ICLE30003",
+        "ICLE30004",
+        "ICLE30005",
+        "ICLE30006",
+        "ICLE30007",
+        "ICLE30008",
+        "ICLE30009",
+        "ICLE30010",
+        "ICLE30011",
+        "ICLE30012",
+        "ICLE30013",
+        "ICLE30014",
+        "ICLE30015",
+        "ICLE30016",
+        "ICLE30017",
+        "ICLE30018",
+        "ICLE30019",
+        "ICLE30020",
+        "ICLE30021",
+        "ICLE30022",
+        "ICLE30023",
+        "ICLE30030",
+        "ICLE30031",
+        "ICLE40001",
+        "ICLE40002",
+        "ICLE40003",
+        "ICLE40004",
+        "ICLE40005",
+        "ICLE40006",
+        "ICLE40008",
+        "ICLE40009",
+        "ICLE40010",
+        "ICLE40011",
+        "ICLE40012",
+        "ICLE40013",
+        "ICLE40014",
+        "ICLE40015",
+        "ICLE40016",
+        "ICLE40017",
+        "ICLE40018",
+        "ICLE40019",
+        "ICLE40020",
+        "ICLE40021",
+        "ICLE40022",
+        "ICLE40023",
+        "ICLE40024",
+        "ICLE50001",
+        "ICLE50002",
+        "ICLE60001",
+        "ICLE60002",
+        "ICLE60003",
+        "ICLE60004",
+        "ICLE60005",
+        "ICLE60006",
+        "ICLE60007",
+        "ICLE60008",
+        "ICLE60009",
+        "ICLE60010",
+        "ICLE70001",
+        "ICLE70002",
+        "ICLE70003",
+        "ICLE70004",
+        "ICLE70005"
+      ],
+      "uniqueCourseCodeCount": 97,
+      "readCourseTitles": [
+        "毕业论文",
+        "词汇与词汇教学",
+        "当代中国经济",
+        "第二语言习得",
+        "高级汉语2",
+        "高级汉语写作（上）",
+        "高级汉语写作（下）",
+        "高级汉语阅读（上）",
+        "高级汉语阅读（下）",
+        "高级汉语阅读（中）",
+        "古代汉语基础（上）",
+        "古代汉语基础（下）",
+        "国别与地域文化",
+        "国际汉学专题研究",
+        "国际贸易理论与实务（上）",
+        "国际贸易理论与实务（下）",
+        "国际中文教育教学实践",
+        "国际中文教育史",
+        "国外汉语课堂教学案例研究",
+        "汉外语言对比",
+        "汉语国际教育专题研究",
+        "汉语修辞",
+        "汉语语言要素教学",
+        "汉语阅读Ⅲ",
+        "汉语阅读Ⅳ",
+        "汉语知识文选",
+        "汉语作为第二语言教学",
+        "汉字与汉字教学",
+        "教材与教法",
+        "教学测试与评估",
+        "教学调查与分析",
+        "金融基础（上）",
+        "金融基础（下）",
+        "经济文献阅读（上）",
+        "经济文献阅读（下）",
+        "经济文献阅读（中）",
+        "经济学原理",
+        "经济应用文写作",
+        "课堂观察与实践2",
+        "跨文化管理",
+        "跨文化交际",
+        "历史知识文选",
+        "留学生中文电影赏析",
+        "区域国别中文传播实务",
+        "商务案例分析",
+        "商务汉语阅读Ⅲ",
+        "商务汉语阅读Ⅳ",
+        "商务文化",
+        "商务文选",
+        "社会实践（报告）",
+        "涉外经济法规（上）",
+        "涉外经济法规（下）",
+        "世界经济概况",
+        "孙子兵法与商贸战略",
+        "外语教育心理学",
+        "文学艺术知识文选",
+        "现代汉语",
+        "现代汉语通论",
+        "心理语言学",
+        "新词语",
+        "新闻听力",
+        "应用语言学研究方法",
+        "英汉翻译",
+        "语法与语法教学",
+        "语言学概论",
+        "中国电影与文化",
+        "中国对外经济关系",
+        "中国古代历史",
+        "中国古代名作选",
+        "中国古代文学(上）",
+        "中国古代文学(下）",
+        "中国近现代历史",
+        "中国民俗文化",
+        "中国区域经济（上）",
+        "中国区域经济（下）",
+        "中国人文地理知识文选",
+        "中国市场与投资",
+        "中国文化概说",
+        "中国文化通论",
+        "中国现当代名作选",
+        "中国现当代文学（上）",
+        "中国现当代文学（下）",
+        "中华人民共和国史",
+        "中华文化技能",
+        "中华文化经典",
+        "中华文化与传播",
+        "中级汉语视听说（上）",
+        "中级汉语视听说（下）",
+        "中级商务口语（上）",
+        "中级商务口语（下）",
+        "中级商务听力",
+        "中级商务写作（上）",
+        "中级商务写作（下）",
+        "中外文学比较",
+        "中文国际传播理论与实践（理论）",
+        "中文国际传播理论与实践（实践）",
+        "专业外语"
+      ],
+      "uniqueCourseTitleCount": 97,
+      "readTeacherNames": [
+        "陈家隽"
+      ],
+      "uniqueTeacherCount": 1,
+      "chineseOnlyCourseBatchIds": [
+        "C03-A",
+        "C03-B",
+        "C04-A",
+        "C04-B"
+      ],
+      "pinyinAndInitialsCourseTitleCount": 65,
+      "note": "Bing Edge read batches C03-C11; C03/C04 used Chinese title roots without pinyin/initials. C05-C11 included Chinese title, continuous pinyin, and initials."
+    },
+    "webToolSupplement": {
+      "channel": "web_tool_supplement",
+      "groupCount": 36,
+      "courseGroupCount": 22,
+      "teacherGroupCount": 14,
+      "queryCount": 72,
+      "maxTitlesPerCourseGroup": 5,
+      "maxTeacherNamesPerGroup": 5,
+      "readCourseCodes": [
+        "100.900.2",
+        "CHIN40071",
+        "CHIN40072",
+        "CHIN40073",
+        "CHIN60155",
+        "CHIN60156",
+        "CHIN60157",
+        "CHIN70002",
+        "CHIN70092",
+        "CHIN70093",
+        "CHIN70094",
+        "CHIN70095",
+        "CHIN70096",
+        "GECC10084",
+        "GECS10001",
+        "GECS10002",
+        "GECS10003",
+        "GECS10005",
+        "GECS10006",
+        "GECS10007",
+        "GECS10008",
+        "GEEC10195",
+        "GEEC10196",
+        "GEEC10197",
+        "GEEC10198",
+        "GEEC10199",
+        "GEEC10200",
+        "GEEC10203",
+        "GEEC10204",
+        "GEEC20009",
+        "GEEC20011",
+        "GEEC20012",
+        "GEEC20013",
+        "GEEC20014",
+        "GEEC20015",
+        "GEEC20016",
+        "GEIN30001",
+        "GESP10001",
+        "GESP10002",
+        "GESP20001",
+        "GESP20002",
+        "ICLE10001",
+        "ICLE10003",
+        "ICLE10005",
+        "ICLE10006",
+        "ICLE10007",
+        "ICLE10008",
+        "ICLE10009",
+        "ICLE10010",
+        "ICLE10011",
+        "ICLE10012",
+        "ICLE10013",
+        "ICLE10014",
+        "ICLE10015",
+        "ICLE10016",
+        "ICLE10018",
+        "ICLE10019",
+        "ICLE10020",
+        "ICLE10021",
+        "ICLE10024",
+        "ICLE10025",
+        "ICLE10026",
+        "ICLE10027",
+        "ICLE10028",
+        "ICLE10029",
+        "ICLE10030",
+        "ICLE10031",
+        "ICLE20001",
+        "ICLE20002",
+        "ICLE20004",
+        "ICLE20005",
+        "ICLE20007",
+        "ICLE20008",
+        "ICLE20009",
+        "ICLE20010",
+        "ICLE20011",
+        "ICLE20012",
+        "ICLE20013",
+        "ICLE20014",
+        "ICLE20015",
+        "ICLE20016",
+        "ICLE20017",
+        "ICLE20018",
+        "ICLE20020",
+        "ICLE20021",
+        "ICLE20022",
+        "ICLE20023",
+        "ICLE20024",
+        "ICLE20025",
+        "ICLE20027",
+        "ICLE20028",
+        "ICLE20029",
+        "ICLE20030",
+        "ICLE20031",
+        "ICLE20032",
+        "ICLE20033",
+        "ICLE20034",
+        "ICLE20035",
+        "ICLE20036",
+        "ICLE20037",
+        "ICLE30029",
+        "MANA20006"
+      ],
+      "uniqueCourseCodeCount": 102,
+      "readCourseTitles": [
+        "本科留学生学术汉语视听说",
+        "成语与中国文化",
+        "初级汉语",
+        "当代国际关系",
+        "当代中国经济",
+        "第二语言习得研究",
+        "对外汉语测试理论与实践",
+        "对外汉语教学原理",
+        "对外汉语课堂教学技巧",
+        "高级汉语写作（上）",
+        "高级汉语写作（下）",
+        "公共政策分析方法",
+        "国际文化交流学院非学历留学生课程",
+        "国际组织管理",
+        "汉语基础语法",
+        "汉语听说Ⅰ",
+        "汉语听说Ⅱ",
+        "汉语写作I",
+        "汉语写作II",
+        "汉语修辞",
+        "汉语与中国文化",
+        "汉语阅读Ⅰ",
+        "汉语阅读Ⅱ",
+        "汉语阅读Ⅲ",
+        "汉语阅读Ⅳ",
+        "汉语知识文选",
+        "汉语I",
+        "汉语II",
+        "汉字研究",
+        "教育心理学",
+        "近代上海与中西文化交流",
+        "近现代中西文化交流",
+        "经济学原理",
+        "经贸汉语",
+        "跨文化管理",
+        "跨文化交际学",
+        "跨文化交流理论与实践",
+        "历史知识文选",
+        "留学生创新与创业",
+        "留学生高级汉语I",
+        "留学生高级汉语II",
+        "留学生英语Ⅰ",
+        "留学生英语Ⅱ",
+        "留学生中文电影赏析",
+        "留学生专业汉语I",
+        "全球公共政策",
+        "全球公共政策与治理分析报告",
+        "全球可持续发展",
+        "全球廉政分析",
+        "全球数字政府建设",
+        "商务案例分析",
+        "商务汉语听说Ⅰ",
+        "商务汉语听说Ⅱ",
+        "商务汉语阅读Ⅰ",
+        "商务汉语阅读II",
+        "商务汉语阅读Ⅲ",
+        "商务汉语阅读Ⅳ",
+        "商务文选",
+        "上海话",
+        "世界经济概况",
+        "文学艺术知识文选",
+        "现代汉语",
+        "现代汉语研究",
+        "现代汉语语法研究",
+        "现代汉语语音研究",
+        "现代教育技术",
+        "新闻听力",
+        "新兴技术与全球科技治理",
+        "英汉翻译",
+        "语法与语法教学",
+        "语言学概论",
+        "中国传统建筑文化",
+        "中国传统戏曲赏析",
+        "中国传统医学文化",
+        "中国概况",
+        "中国概况（全英文）",
+        "中国概况（上）",
+        "中国概况（下）",
+        "中国古典诗乐艺术",
+        "中国古诗词鉴赏诵读",
+        "中国历史名人",
+        "中国旅游文化",
+        "中国民俗文化",
+        "中国人文地理知识文选",
+        "中国神话传说",
+        "中国书法",
+        "中国文化地理",
+        "中国文化通论",
+        "中国印",
+        "中国哲学",
+        "中华经典与美典",
+        "中级汉语",
+        "中级汉语视听说（上）",
+        "中级汉语视听说（下）",
+        "中级商务口语（上）",
+        "中级商务口语（下）",
+        "中级商务听力",
+        "中级商务写作（上）",
+        "中级商务写作（下）",
+        "中文计算机基础"
+      ],
+      "uniqueCourseTitleCount": 100,
+      "readTeacherNames": [
+        "陈家隽",
+        "陈钰",
+        "戴蓉",
+        "党瑞",
+        "丁梦安",
+        "范梓腾",
+        "高顺全",
+        "顾爱民",
+        "顾慧洁",
+        "顾颖",
+        "管静莉",
+        "郭之悦",
+        "何瑾",
+        "胡文华",
+        "黄廷钟",
+        "纪晓静",
+        "敬乂嘉",
+        "李桂奎",
+        "李杰",
+        "李显赫",
+        "李晓娟",
+        "刘海霞",
+        "刘永生",
+        "柳美君",
+        "陆立强",
+        "路广",
+        "罗剑波",
+        "马良",
+        "马小玲",
+        "彭增安",
+        "钱浩祺",
+        "钱昱夫",
+        "盛若菁",
+        "宋桔",
+        "宋清",
+        "涂文燕",
+        "王景丹",
+        "王蕾",
+        "王小曼",
+        "王震",
+        "吴剑锋",
+        "吴云",
+        "吴中伟",
+        "夏梨萍",
+        "修俊俊",
+        "徐来",
+        "徐晓羽",
+        "许国萍",
+        "许静",
+        "杨蓉蓉",
+        "要英",
+        "叶欣",
+        "袁斌",
+        "袁雯君",
+        "张宝",
+        "张俪佳囡",
+        "张璐",
+        "张汶静",
+        "张志云",
+        "赵琼宇",
+        "郑文晖",
+        "朱丁",
+        "朱政"
+      ],
+      "uniqueTeacherCount": 63,
+      "pinyinAndInitialsIncluded": true,
+      "bodyReadCount": 0,
+      "outcome": "Public search surfaced generic/unrelated cards, with no full-text-verified current-term ICES course review or teacher review. No-result and unrelated-card outcomes are recorded per call.",
+      "note": "Each group had separate site:xiaohongshu.com and site:zhihu.com queries. Search service aggregates same-call cards; cards could not be mapped one-to-one to queries."
+    },
+    "directPlatformUi": {
+      "xiaohongshuReadCourseTitles": [
+        "国际组织管理",
+        "近代上海与中西文化交流",
+        "近现代中西文化交流",
+        "跨文化交流理论与实践",
+        "全球廉政分析",
+        "中国古典诗乐艺术"
+      ],
+      "xiaohongshuCourseTitleCount": 6,
+      "xiaohongshuReadCourseCodes": [
+        "GECC10084",
+        "GEEC10203",
+        "GEEC10204",
+        "GEEC20012",
+        "GEEC20013",
+        "ICLE10016"
+      ],
+      "xiaohongshuReadTeacherNames": [
+        "宋桔",
+        "涂文燕",
+        "杨蓉蓉",
+        "张俪佳囡",
+        "张璐"
+      ],
+      "xiaohongshuTeacherCount": 5,
+      "zhihuExactCourseTitleCount": 0,
+      "zhihuExactTeacherCount": 0
+    },
+    "combined": {
+      "readCourseCodes": [
+        "100.900.2",
+        "CHIN40071",
+        "CHIN40072",
+        "CHIN40073",
+        "CHIN60155",
+        "CHIN60156",
+        "CHIN60157",
+        "CHIN70002",
+        "CHIN70092",
+        "CHIN70093",
+        "CHIN70094",
+        "CHIN70095",
+        "CHIN70096",
+        "GECC10084",
+        "GECS10001",
+        "GECS10002",
+        "GECS10003",
+        "GECS10005",
+        "GECS10006",
+        "GECS10007",
+        "GECS10008",
+        "GEEC10195",
+        "GEEC10196",
+        "GEEC10197",
+        "GEEC10198",
+        "GEEC10199",
+        "GEEC10200",
+        "GEEC10203",
+        "GEEC10204",
+        "GEEC20009",
+        "GEEC20011",
+        "GEEC20012",
+        "GEEC20013",
+        "GEEC20014",
+        "GEEC20015",
+        "GEEC20016",
+        "GEIN30001",
+        "GESP10001",
+        "GESP10002",
+        "GESP20001",
+        "GESP20002",
+        "ICLE10001",
+        "ICLE10003",
+        "ICLE10005",
+        "ICLE10006",
+        "ICLE10007",
+        "ICLE10008",
+        "ICLE10009",
+        "ICLE10010",
+        "ICLE10011",
+        "ICLE10012",
+        "ICLE10013",
+        "ICLE10014",
+        "ICLE10015",
+        "ICLE10016",
+        "ICLE10018",
+        "ICLE10019",
+        "ICLE10020",
+        "ICLE10021",
+        "ICLE10024",
+        "ICLE10025",
+        "ICLE10026",
+        "ICLE10027",
+        "ICLE10028",
+        "ICLE10029",
+        "ICLE10030",
+        "ICLE10031",
+        "ICLE20001",
+        "ICLE20002",
+        "ICLE20004",
+        "ICLE20005",
+        "ICLE20007",
+        "ICLE20008",
+        "ICLE20009",
+        "ICLE20010",
+        "ICLE20011",
+        "ICLE20012",
+        "ICLE20013",
+        "ICLE20014",
+        "ICLE20015",
+        "ICLE20016",
+        "ICLE20017",
+        "ICLE20018",
+        "ICLE20020",
+        "ICLE20021",
+        "ICLE20022",
+        "ICLE20023",
+        "ICLE20024",
+        "ICLE20025",
+        "ICLE20027",
+        "ICLE20028",
+        "ICLE20029",
+        "ICLE20030",
+        "ICLE20031",
+        "ICLE20032",
+        "ICLE20033",
+        "ICLE20034",
+        "ICLE20035",
+        "ICLE20036",
+        "ICLE20037",
+        "ICLE30001",
+        "ICLE30002",
+        "ICLE30003",
+        "ICLE30004",
+        "ICLE30005",
+        "ICLE30006",
+        "ICLE30007",
+        "ICLE30008",
+        "ICLE30009",
+        "ICLE30010",
+        "ICLE30011",
+        "ICLE30012",
+        "ICLE30013",
+        "ICLE30014",
+        "ICLE30015",
+        "ICLE30016",
+        "ICLE30017",
+        "ICLE30018",
+        "ICLE30019",
+        "ICLE30020",
+        "ICLE30021",
+        "ICLE30022",
+        "ICLE30023",
+        "ICLE30029",
+        "ICLE30030",
+        "ICLE30031",
+        "ICLE40001",
+        "ICLE40002",
+        "ICLE40003",
+        "ICLE40004",
+        "ICLE40005",
+        "ICLE40006",
+        "ICLE40008",
+        "ICLE40009",
+        "ICLE40010",
+        "ICLE40011",
+        "ICLE40012",
+        "ICLE40013",
+        "ICLE40014",
+        "ICLE40015",
+        "ICLE40016",
+        "ICLE40017",
+        "ICLE40018",
+        "ICLE40019",
+        "ICLE40020",
+        "ICLE40021",
+        "ICLE40022",
+        "ICLE40023",
+        "ICLE40024",
+        "ICLE50001",
+        "ICLE50002",
+        "ICLE60001",
+        "ICLE60002",
+        "ICLE60003",
+        "ICLE60004",
+        "ICLE60005",
+        "ICLE60006",
+        "ICLE60007",
+        "ICLE60008",
+        "ICLE60009",
+        "ICLE60010",
+        "ICLE70001",
+        "ICLE70002",
+        "ICLE70003",
+        "ICLE70004",
+        "ICLE70005",
+        "MANA20006"
+      ],
+      "uniqueCourseCodeCount": 167,
+      "courseCodeCoverage": "167/167",
+      "readCourseTitles": [
+        "本科留学生学术汉语视听说",
+        "毕业论文",
+        "成语与中国文化",
+        "初级汉语",
+        "词汇与词汇教学",
+        "当代国际关系",
+        "当代中国经济",
+        "第二语言习得",
+        "第二语言习得研究",
+        "对外汉语测试理论与实践",
+        "对外汉语教学原理",
+        "对外汉语课堂教学技巧",
+        "高级汉语2",
+        "高级汉语写作（上）",
+        "高级汉语写作（下）",
+        "高级汉语阅读（上）",
+        "高级汉语阅读（下）",
+        "高级汉语阅读（中）",
+        "公共政策分析方法",
+        "古代汉语基础（上）",
+        "古代汉语基础（下）",
+        "国别与地域文化",
+        "国际汉学专题研究",
+        "国际贸易理论与实务（上）",
+        "国际贸易理论与实务（下）",
+        "国际文化交流学院非学历留学生课程",
+        "国际中文教育教学实践",
+        "国际中文教育史",
+        "国际组织管理",
+        "国外汉语课堂教学案例研究",
+        "汉外语言对比",
+        "汉语国际教育专题研究",
+        "汉语基础语法",
+        "汉语听说Ⅰ",
+        "汉语听说Ⅱ",
+        "汉语写作I",
+        "汉语写作II",
+        "汉语修辞",
+        "汉语与中国文化",
+        "汉语语言要素教学",
+        "汉语阅读Ⅰ",
+        "汉语阅读Ⅱ",
+        "汉语阅读Ⅲ",
+        "汉语阅读Ⅳ",
+        "汉语知识文选",
+        "汉语作为第二语言教学",
+        "汉语I",
+        "汉语II",
+        "汉字研究",
+        "汉字与汉字教学",
+        "教材与教法",
+        "教学测试与评估",
+        "教学调查与分析",
+        "教育心理学",
+        "金融基础（上）",
+        "金融基础（下）",
+        "近代上海与中西文化交流",
+        "近现代中西文化交流",
+        "经济文献阅读（上）",
+        "经济文献阅读（下）",
+        "经济文献阅读（中）",
+        "经济学原理",
+        "经济应用文写作",
+        "经贸汉语",
+        "课堂观察与实践2",
+        "跨文化管理",
+        "跨文化交际",
+        "跨文化交际学",
+        "跨文化交流理论与实践",
+        "历史知识文选",
+        "留学生创新与创业",
+        "留学生高级汉语I",
+        "留学生高级汉语II",
+        "留学生英语Ⅰ",
+        "留学生英语Ⅱ",
+        "留学生中文电影赏析",
+        "留学生专业汉语I",
+        "区域国别中文传播实务",
+        "全球公共政策",
+        "全球公共政策与治理分析报告",
+        "全球可持续发展",
+        "全球廉政分析",
+        "全球数字政府建设",
+        "商务案例分析",
+        "商务汉语听说Ⅰ",
+        "商务汉语听说Ⅱ",
+        "商务汉语阅读Ⅰ",
+        "商务汉语阅读II",
+        "商务汉语阅读Ⅲ",
+        "商务汉语阅读Ⅳ",
+        "商务文化",
+        "商务文选",
+        "上海话",
+        "社会实践（报告）",
+        "涉外经济法规（上）",
+        "涉外经济法规（下）",
+        "世界经济概况",
+        "孙子兵法与商贸战略",
+        "外语教育心理学",
+        "文学艺术知识文选",
+        "现代汉语",
+        "现代汉语通论",
+        "现代汉语研究",
+        "现代汉语语法研究",
+        "现代汉语语音研究",
+        "现代教育技术",
+        "心理语言学",
+        "新词语",
+        "新闻听力",
+        "新兴技术与全球科技治理",
+        "应用语言学研究方法",
+        "英汉翻译",
+        "语法与语法教学",
+        "语言学概论",
+        "中国传统建筑文化",
+        "中国传统戏曲赏析",
+        "中国传统医学文化",
+        "中国电影与文化",
+        "中国对外经济关系",
+        "中国概况",
+        "中国概况（全英文）",
+        "中国概况（上）",
+        "中国概况（下）",
+        "中国古代历史",
+        "中国古代名作选",
+        "中国古代文学(上）",
+        "中国古代文学(下）",
+        "中国古典诗乐艺术",
+        "中国古诗词鉴赏诵读",
+        "中国近现代历史",
+        "中国历史名人",
+        "中国旅游文化",
+        "中国民俗文化",
+        "中国区域经济（上）",
+        "中国区域经济（下）",
+        "中国人文地理知识文选",
+        "中国神话传说",
+        "中国市场与投资",
+        "中国书法",
+        "中国文化地理",
+        "中国文化概说",
+        "中国文化通论",
+        "中国现当代名作选",
+        "中国现当代文学（上）",
+        "中国现当代文学（下）",
+        "中国印",
+        "中国哲学",
+        "中华经典与美典",
+        "中华人民共和国史",
+        "中华文化技能",
+        "中华文化经典",
+        "中华文化与传播",
+        "中级汉语",
+        "中级汉语视听说（上）",
+        "中级汉语视听说（下）",
+        "中级商务口语（上）",
+        "中级商务口语（下）",
+        "中级商务听力",
+        "中级商务写作（上）",
+        "中级商务写作（下）",
+        "中外文学比较",
+        "中文国际传播理论与实践（理论）",
+        "中文国际传播理论与实践（实践）",
+        "中文计算机基础",
+        "专业外语"
+      ],
+      "uniqueCourseTitleCount": 165,
+      "courseTitleCoverage": "165/165",
+      "readTeacherNames": [
+        "陈家隽",
+        "陈钰",
+        "戴蓉",
+        "党瑞",
+        "丁梦安",
+        "范梓腾",
+        "高顺全",
+        "顾爱民",
+        "顾慧洁",
+        "顾颖",
+        "管静莉",
+        "郭之悦",
+        "何瑾",
+        "胡文华",
+        "黄廷钟",
+        "纪晓静",
+        "敬乂嘉",
+        "李桂奎",
+        "李杰",
+        "李显赫",
+        "李晓娟",
+        "刘海霞",
+        "刘永生",
+        "柳美君",
+        "陆立强",
+        "路广",
+        "罗剑波",
+        "马良",
+        "马小玲",
+        "彭增安",
+        "钱浩祺",
+        "钱昱夫",
+        "盛若菁",
+        "宋桔",
+        "宋清",
+        "涂文燕",
+        "王景丹",
+        "王蕾",
+        "王小曼",
+        "王震",
+        "吴剑锋",
+        "吴云",
+        "吴中伟",
+        "夏梨萍",
+        "修俊俊",
+        "徐来",
+        "徐晓羽",
+        "许国萍",
+        "许静",
+        "杨蓉蓉",
+        "要英",
+        "叶欣",
+        "袁斌",
+        "袁雯君",
+        "张宝",
+        "张俪佳囡",
+        "张璐",
+        "张汶静",
+        "张志云",
+        "赵琼宇",
+        "郑文晖",
+        "朱丁",
+        "朱政"
+      ],
+      "uniqueTeacherCount": 63,
+      "teacherCoverage": "63/63",
+      "pinyinAndInitialsCourseTitles": [
+        "本科留学生学术汉语视听说",
+        "毕业论文",
+        "成语与中国文化",
+        "初级汉语",
+        "词汇与词汇教学",
+        "当代国际关系",
+        "当代中国经济",
+        "第二语言习得",
+        "第二语言习得研究",
+        "对外汉语测试理论与实践",
+        "对外汉语教学原理",
+        "对外汉语课堂教学技巧",
+        "高级汉语2",
+        "高级汉语写作（上）",
+        "高级汉语写作（下）",
+        "高级汉语阅读（上）",
+        "高级汉语阅读（下）",
+        "高级汉语阅读（中）",
+        "公共政策分析方法",
+        "古代汉语基础（上）",
+        "古代汉语基础（下）",
+        "国别与地域文化",
+        "国际汉学专题研究",
+        "国际贸易理论与实务（上）",
+        "国际贸易理论与实务（下）",
+        "国际文化交流学院非学历留学生课程",
+        "国际中文教育教学实践",
+        "国际中文教育史",
+        "国际组织管理",
+        "国外汉语课堂教学案例研究",
+        "汉外语言对比",
+        "汉语国际教育专题研究",
+        "汉语基础语法",
+        "汉语听说Ⅰ",
+        "汉语听说Ⅱ",
+        "汉语写作I",
+        "汉语写作II",
+        "汉语修辞",
+        "汉语与中国文化",
+        "汉语语言要素教学",
+        "汉语阅读Ⅰ",
+        "汉语阅读Ⅱ",
+        "汉语阅读Ⅲ",
+        "汉语阅读Ⅳ",
+        "汉语知识文选",
+        "汉语作为第二语言教学",
+        "汉语I",
+        "汉语II",
+        "汉字研究",
+        "汉字与汉字教学",
+        "教材与教法",
+        "教学测试与评估",
+        "教学调查与分析",
+        "教育心理学",
+        "金融基础（上）",
+        "金融基础（下）",
+        "近代上海与中西文化交流",
+        "近现代中西文化交流",
+        "经济文献阅读（上）",
+        "经济文献阅读（下）",
+        "经济文献阅读（中）",
+        "经济学原理",
+        "经济应用文写作",
+        "经贸汉语",
+        "课堂观察与实践2",
+        "跨文化管理",
+        "跨文化交际",
+        "跨文化交际学",
+        "跨文化交流理论与实践",
+        "历史知识文选",
+        "留学生创新与创业",
+        "留学生高级汉语I",
+        "留学生高级汉语II",
+        "留学生英语Ⅰ",
+        "留学生英语Ⅱ",
+        "留学生中文电影赏析",
+        "留学生专业汉语I",
+        "区域国别中文传播实务",
+        "全球公共政策",
+        "全球公共政策与治理分析报告",
+        "全球可持续发展",
+        "全球廉政分析",
+        "全球数字政府建设",
+        "商务案例分析",
+        "商务汉语听说Ⅰ",
+        "商务汉语听说Ⅱ",
+        "商务汉语阅读Ⅰ",
+        "商务汉语阅读II",
+        "商务汉语阅读Ⅲ",
+        "商务汉语阅读Ⅳ",
+        "商务文化",
+        "商务文选",
+        "上海话",
+        "社会实践（报告）",
+        "涉外经济法规（上）",
+        "涉外经济法规（下）",
+        "世界经济概况",
+        "孙子兵法与商贸战略",
+        "外语教育心理学",
+        "文学艺术知识文选",
+        "现代汉语",
+        "现代汉语通论",
+        "现代汉语研究",
+        "现代汉语语法研究",
+        "现代汉语语音研究",
+        "现代教育技术",
+        "心理语言学",
+        "新词语",
+        "新闻听力",
+        "新兴技术与全球科技治理",
+        "应用语言学研究方法",
+        "英汉翻译",
+        "语法与语法教学",
+        "语言学概论",
+        "中国传统建筑文化",
+        "中国传统戏曲赏析",
+        "中国传统医学文化",
+        "中国电影与文化",
+        "中国对外经济关系",
+        "中国概况",
+        "中国概况（全英文）",
+        "中国概况（上）",
+        "中国概况（下）",
+        "中国古代历史",
+        "中国古代名作选",
+        "中国古代文学(上）",
+        "中国古代文学(下）",
+        "中国古典诗乐艺术",
+        "中国古诗词鉴赏诵读",
+        "中国近现代历史",
+        "中国历史名人",
+        "中国旅游文化",
+        "中国民俗文化",
+        "中国区域经济（上）",
+        "中国区域经济（下）",
+        "中国人文地理知识文选",
+        "中国神话传说",
+        "中国市场与投资",
+        "中国书法",
+        "中国文化地理",
+        "中国文化概说",
+        "中国文化通论",
+        "中国现当代名作选",
+        "中国现当代文学（上）",
+        "中国现当代文学（下）",
+        "中国印",
+        "中国哲学",
+        "中华经典与美典",
+        "中华人民共和国史",
+        "中华文化技能",
+        "中华文化经典",
+        "中华文化与传播",
+        "中级汉语",
+        "中级汉语视听说（上）",
+        "中级汉语视听说（下）",
+        "中级商务口语（上）",
+        "中级商务口语（下）",
+        "中级商务听力",
+        "中级商务写作（上）",
+        "中级商务写作（下）",
+        "中外文学比较",
+        "中文国际传播理论与实践（理论）",
+        "中文国际传播理论与实践（实践）",
+        "中文计算机基础",
+        "专业外语"
+      ],
+      "uniquePinyinAndInitialsCourseTitleCount": 165,
+      "courseTitlePinyinCoverage": "165/165",
+      "unqueriedCourseCodeRows": [],
+      "unqueriedCourseCodes": [],
+      "unqueriedCourseTitles": [],
+      "unqueriedCourseTitleCount": 0,
+      "unqueriedTeacherNames": [],
+      "unqueriedTeacherCount": 0,
+      "unresolvedChineseOnlyEdgeBatches": [],
+      "stillChineseOnlyButPinyinMissingTitles": []
+    },
+    "verifiedAliasCoverage": {
+      "officialVerifiedTeacherAliases": null,
+      "note": "官方 roster 没有列出经来源核验的教师别名；搜索使用全名、连续拼音和首字母，不把首字母当作别名。"
+    },
+    "limitations": [
+      "公开网页索引与平台原生搜索不同；未命中不能证明帖子不存在于平台。",
+      "教师 OR 组内不同姓名和聚合结果卡片无法逐一对应。",
+      "本轮 web_tool_supplement 未打开正文；结果卡片不计为已读课评。",
+      "知乎2019历史经历文章已单独读过，作为历史资料，不计入2025秋/2026春当前学期覆盖。"
+    ]
+  }
+}

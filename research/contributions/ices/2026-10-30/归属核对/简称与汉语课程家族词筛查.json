@@ -1,0 +1,584 @@
+{
+  "scope": "family phrase screening for Fudan ICES 2025秋 / 2026春",
+  "source_file": "work/ices-research/family-forum-queue.json",
+  "source_queue_count": 1492,
+  "queue_label_counts": {
+    "('专业汉语',)": 1278,
+    "('zg',)": 176,
+    "('zg', '专业汉语')": 9,
+    "('中概', '专业汉语', '高级汉语')": 1,
+    "('中概',)": 25,
+    "('专业汉语', '高级汉语')": 3
+  },
+  "screening_method": "Searched the actual content of all 1,492 queue rows for exact family terms, official course titles/codes, and broader 汉语课 mentions. Full bodies of 26 non-financial course-family candidates were read. The 25 other 中概 hits were screened from their displayed financial/investment context and not fully read. The entire 1,492-post queue was not manually read.",
+  "actual_body_match_counts": {
+    "专业汉语": 1,
+    "高级汉语": 4,
+    "留学生汉语": 5,
+    "中概": 26,
+    "中国概况": 2,
+    "汉语课": 18
+  },
+  "current_or_historical_official_code_hits": {
+    "GECS10001": [],
+    "GECS10002": [],
+    "GECS10003": [],
+    "GESP10001": [],
+    "GESP10002": [],
+    "GESP20001": [],
+    "GESP20002": [],
+    "GEEC10200": [],
+    "ICES110001": [],
+    "ICES110012": []
+  },
+  "teacher_initial_hits": [
+    {
+      "floor_id": 3226144,
+      "hole_id": 351293,
+      "created_at": "2024-09-10T19:11:52.607+08:00"
+    }
+  ],
+  "leads": [
+    {
+      "floor_id": 3226144,
+      "hole_id": 351293,
+      "created_at": "2024-09-10T19:11:52.607+08:00",
+      "type": "peer course-family guidance, not a review",
+      "summary_zh": "留学生自述建议：“中概”可听lhx，汉语水平较好的学生可考虑“专业汉语”或“高级汉语”。在同一线程里，提问者想旁听留学生汉语课，回复对能否旁听意见不一。",
+      "official_crosswalk": "lhx与官方教师缩写刘海霞相符；她在GESP10001（2025秋）、GESP10002（2026春）、GESP20001（2025秋）有正式班。“中概”本身仍是课程族简称，未锁定层级/代码。专业汉语候选 GECS10003；高级汉语候选按官方标题匹配多个代码。",
+      "boundary_zh": "帖子日期早于目标学期；无目标课程代码、具体section或学期；只支持家庭词召回和候选映射，不是课程评价。",
+      "full_context_read": true,
+      "related_context_floors": [
+        3220184,
+        3220352,
+        3220486,
+        3221163,
+        3221174,
+        3221176,
+        3221739,
+        3221990,
+        3226144,
+        3226334
+      ]
+    },
+    {
+      "floor_id": 2760150,
+      "hole_id": 296149,
+      "created_at": "2023-09-04T21:22:37.253+08:00",
+      "type": "historical generic curriculum claim",
+      "summary_zh": "称中国概况和留学生汉语是留学生必修课，并类比思政类课程；未提供教师、课号或课堂体验。",
+      "boundary_zh": "2023年泛化说法，不能证明2025秋/2026春的选课规则或实际课程设置。"
+    },
+    {
+      "floor_id": 2582391,
+      "hole_id": 276628,
+      "created_at": "2023-07-06T10:23:31.851+08:00",
+      "type": "historical material-list lead",
+      "summary_zh": "课程资料广告列出“中国概况（上）”作文与期末论文资料；没有教师、代码或目标学期。",
+      "boundary_zh": "旧帖子，只支持存在同名课程/材料的历史线索；不能映射到指定学期的某个班。"
+    },
+    {
+      "floor_id": 4502925,
+      "hole_id": 490212,
+      "created_at": "2025-07-18T11:58:31.093+08:00",
+      "type": "course-code taxonomy, not course review",
+      "summary_zh": "代码说明帖把GECS描述为公共汉语类课程前缀；能辅助解释课程代码族，但不提供具体课程体验。"
+    }
+  ],
+  "screened_nonfinancial_candidates": [
+    {
+      "floor_id": 1377573,
+      "hole_id": 148226,
+      "created_at": "2022-10-17T13:27:45.386+08:00",
+      "query_labels": [
+        "专业汉语"
+      ],
+      "classification": "other_chinese_course",
+      "judgment_zh": "现代汉语课的课程展示/人体生理图抱怨；不是留学生汉语或指定课。",
+      "full_body_read": true
+    },
+    {
+      "floor_id": 1402722,
+      "hole_id": 151224,
+      "created_at": "2022-10-24T12:18:40.333+08:00",
+      "query_labels": [
+        "专业汉语"
+      ],
+      "classification": "room_discussion",
+      "judgment_zh": "讨论教室里开课类型的回复，没有课程体验。",
+      "full_body_read": true
+    },
+    {
+      "floor_id": 1497080,
+      "hole_id": 162523,
+      "created_at": "2022-11-22T09:18:53.32+08:00",
+      "query_labels": [
+        "专业汉语"
+      ],
+      "classification": "room_location",
+      "judgment_zh": "教室位置说明，非课程评价。",
+      "full_body_read": true
+    },
+    {
+      "floor_id": 1677102,
+      "hole_id": 181831,
+      "created_at": "2022-12-26T12:38:04.823+08:00",
+      "query_labels": [
+        "专业汉语"
+      ],
+      "classification": "generic_recommendation",
+      "judgment_zh": "仅建议选留学生汉语，没有教师、代码、学期或理由。",
+      "full_body_read": true
+    },
+    {
+      "floor_id": 1711525,
+      "hole_id": 182074,
+      "created_at": "2023-01-03T11:46:52.481+08:00",
+      "query_labels": [
+        "专业汉语",
+        "高级汉语"
+      ],
+      "classification": "vague_advanced_chinese_mention",
+      "judgment_zh": "在经济学原理讨论里顺带提到留学生高级汉语；无课程评价/教师/代码。",
+      "full_body_read": true
+    },
+    {
+      "floor_id": 1807190,
+      "hole_id": 193132,
+      "created_at": "2023-01-20T13:17:37.517+08:00",
+      "query_labels": [
+        "专业汉语"
+      ],
+      "classification": "other_university_anecdote",
+      "judgment_zh": "讲述同济大学学生的汉语课经历，非复旦目标课程。",
+      "full_body_read": true
+    },
+    {
+      "floor_id": 2250132,
+      "hole_id": 239936,
+      "created_at": "2023-04-30T07:58:30.498+08:00",
+      "query_labels": [
+        "专业汉语"
+      ],
+      "classification": "unrelated_textbook_memory",
+      "judgment_zh": "古汉语背诵的宿舍轶事，不是本校目标课程。",
+      "full_body_read": true
+    },
+    {
+      "floor_id": 2448324,
+      "hole_id": 262632,
+      "created_at": "2023-06-12T16:56:00.676+08:00",
+      "query_labels": [
+        "专业汉语"
+      ],
+      "classification": "unsupported_emotional_comment",
+      "judgment_zh": "对“留学生汉语”的夸张情绪回复，无课程事实或评价理由。",
+      "full_body_read": true
+    },
+    {
+      "floor_id": 2472245,
+      "hole_id": 265506,
+      "created_at": "2023-06-16T12:11:52.751+08:00",
+      "query_labels": [
+        "专业汉语"
+      ],
+      "classification": "generic_recommendation",
+      "judgment_zh": "只建议选留学生汉语，未给出课程细节。",
+      "full_body_read": true
+    },
+    {
+      "floor_id": 2582391,
+      "hole_id": 276628,
+      "created_at": "2023-07-06T10:23:31.851+08:00",
+      "query_labels": [
+        "专业汉语"
+      ],
+      "classification": "historical_materials_listing",
+      "judgment_zh": "2023年课程资料广告列出“中国概况（上）”及作文/期末论文资料；无教师/代码/目标学期，不能归到当前班。",
+      "full_body_read": true
+    },
+    {
+      "floor_id": 2760150,
+      "hole_id": 296149,
+      "created_at": "2023-09-04T21:22:37.253+08:00",
+      "query_labels": [
+        "专业汉语"
+      ],
+      "classification": "historical_curriculum_claim",
+      "judgment_zh": "声称中国概况和留学生汉语是留学生必修，类比思政课；未给教师/代码，且是2023年的一般说法，不能据此确认2025秋/2026春开课安排。",
+      "full_body_read": true
+    },
+    {
+      "floor_id": 2871484,
+      "hole_id": 306859,
+      "created_at": "2023-09-25T12:08:40.77+08:00",
+      "query_labels": [
+        "专业汉语",
+        "高级汉语"
+      ],
+      "classification": "course_audience_opinion",
+      "judgment_zh": "认为《高级汉语》不应只让留学生修；未给课程体验或教师。",
+      "full_body_read": true
+    },
+    {
+      "floor_id": 2935612,
+      "hole_id": 318278,
+      "created_at": "2023-10-10T12:06:23.841+08:00",
+      "query_labels": [
+        "专业汉语",
+        "高级汉语"
+      ],
+      "classification": "generic_recommendation",
+      "judgment_zh": "仅建议修读留学生《高级汉语》；同洞回复为玩笑，没有可用课程细节。",
+      "full_body_read": true
+    },
+    {
+      "floor_id": 2953338,
+      "hole_id": 320334,
+      "created_at": "2023-10-13T23:40:42.97+08:00",
+      "query_labels": [
+        "专业汉语"
+      ],
+      "classification": "other_chinese_course",
+      "judgment_zh": "现代汉语课件/elearning问题，非指定留学生中文课。",
+      "full_body_read": true
+    },
+    {
+      "floor_id": 3220184,
+      "hole_id": 351293,
+      "created_at": "2024-09-09T11:36:55.643+08:00",
+      "query_labels": [
+        "专业汉语"
+      ],
+      "classification": "audit_request",
+      "judgment_zh": "询问能否旁听留学生汉语课；属于学习/旁听意愿，不是课程评价。",
+      "full_body_read": true
+    },
+    {
+      "floor_id": 3226144,
+      "hole_id": 351293,
+      "created_at": "2024-09-10T19:11:52.607+08:00",
+      "query_labels": [
+        "中概",
+        "专业汉语",
+        "高级汉语"
+      ],
+      "classification": "course_family_advice",
+      "judgment_zh": "留学生自述：把“中概”与lhx联系起来，并建议汉语水平较好的学生考虑“专业汉语”或“高级汉语”。可用于召回和候选族映射；不含课号、具体教师全名、班级或学期，也不是评课。",
+      "full_body_read": true
+    },
+    {
+      "floor_id": 4201120,
+      "hole_id": 381005,
+      "created_at": "2025-05-16T13:29:17.653+08:00",
+      "query_labels": [
+        "专业汉语"
+      ],
+      "classification": "ambiguous_program_level_anecdote",
+      "judgment_zh": "称在汉语课遇到“这个学程”学生，某位负责学程课程的老师严格、A分不满；无学程名、课程名或教师，不能归到任一ICES课程。",
+      "full_body_read": true
+    },
+    {
+      "floor_id": 4368469,
+      "hole_id": 477054,
+      "created_at": "2025-06-16T15:00:22.003+08:00",
+      "query_labels": [
+        "专业汉语"
+      ],
+      "classification": "different_or_unknown_teacher_question",
+      "judgment_zh": "询问是否上过qyf老师的汉语课，无评价；与目标教师无法匹配。",
+      "full_body_read": true
+    },
+    {
+      "floor_id": 4502925,
+      "hole_id": 490212,
+      "created_at": "2025-07-18T11:58:31.093+08:00",
+      "query_labels": [
+        "专业汉语"
+      ],
+      "classification": "course_code_taxonomy",
+      "judgment_zh": "课程代码说明帖把GECS解释为公共汉语类代码；可帮助理解代码族，但不是具体课程/教师/学期证据。",
+      "full_body_read": true
+    },
+    {
+      "floor_id": 4702140,
+      "hole_id": 516521,
+      "created_at": "2025-09-19T22:07:40.614+08:00",
+      "query_labels": [
+        "专业汉语"
+      ],
+      "classification": "generic_audit_advice",
+      "judgment_zh": "建议在光华楼进入汉语课堂自习/聊天；未识别具体课程或教师。",
+      "full_body_read": true
+    },
+    {
+      "floor_id": 4985901,
+      "hole_id": 548871,
+      "created_at": "2025-11-15T15:27:52.264+08:00",
+      "query_labels": [
+        "专业汉语"
+      ],
+      "classification": "unrelated_chinese_study_advice",
+      "judgment_zh": "建议配套古代文学/古代汉语学习；不是留学生汉语目标课。",
+      "full_body_read": true
+    },
+    {
+      "floor_id": 5286882,
+      "hole_id": 583627,
+      "created_at": "2026-01-04T15:45:34.796+08:00",
+      "query_labels": [
+        "专业汉语"
+      ],
+      "classification": "other_chinese_course",
+      "judgment_zh": "现代汉语课程闲聊，非指定课程。",
+      "full_body_read": true
+    },
+    {
+      "floor_id": 5287925,
+      "hole_id": 584984,
+      "created_at": "2026-01-04T17:45:54.391+08:00",
+      "query_labels": [
+        "专业汉语"
+      ],
+      "classification": "other_chinese_course_logistics",
+      "judgment_zh": "现代汉语课程补课/课程群问题，非指定课程。",
+      "full_body_read": true
+    },
+    {
+      "floor_id": 5376714,
+      "hole_id": 593168,
+      "created_at": "2026-01-14T23:24:04.875+08:00",
+      "query_labels": [
+        "专业汉语"
+      ],
+      "classification": "enrollment_question",
+      "judgment_zh": "询问非留学生能否选汉语课，无具体课程或体验。",
+      "full_body_read": true
+    },
+    {
+      "floor_id": 5899772,
+      "hole_id": 651780,
+      "created_at": "2026-05-24T14:07:18.769+08:00",
+      "query_labels": [
+        "专业汉语"
+      ],
+      "classification": "generic_enrollment_question",
+      "judgment_zh": "笼统说还想选汉语课，没有课程代码/教师或评价。",
+      "full_body_read": true
+    },
+    {
+      "floor_id": 5938714,
+      "hole_id": 656716,
+      "created_at": "2026-05-31T22:30:47.81+08:00",
+      "query_labels": [
+        "专业汉语"
+      ],
+      "classification": "other_chinese_course_advice",
+      "judgment_zh": "建议学习中文系现代汉语来理解语音知识，非留学生目标课程。",
+      "full_body_read": true
+    }
+  ],
+  "screened_financial_false_positives": [
+    {
+      "floor_id": 11866,
+      "hole_id": 1733,
+      "created_at": "2021-07-24T00:40:29.806+08:00",
+      "classification": "financial_use_of_中概",
+      "judgment_zh": "该帖将“中概”用于中国概念股/中概互联网/ETF等投资讨论，属于字面同形噪声；未全文通读，不计作课评证据。",
+      "full_body_read": false
+    },
+    {
+      "floor_id": 127434,
+      "hole_id": 14111,
+      "created_at": "2021-10-10T12:39:09.582+08:00",
+      "classification": "financial_use_of_中概",
+      "judgment_zh": "该帖将“中概”用于中国概念股/中概互联网/ETF等投资讨论，属于字面同形噪声；未全文通读，不计作课评证据。",
+      "full_body_read": false
+    },
+    {
+      "floor_id": 129267,
+      "hole_id": 14111,
+      "created_at": "2021-10-11T01:27:34.899+08:00",
+      "classification": "financial_use_of_中概",
+      "judgment_zh": "该帖将“中概”用于中国概念股/中概互联网/ETF等投资讨论，属于字面同形噪声；未全文通读，不计作课评证据。",
+      "full_body_read": false
+    },
+    {
+      "floor_id": 225078,
+      "hole_id": 25838,
+      "created_at": "2021-11-13T00:33:45.586+08:00",
+      "classification": "financial_use_of_中概",
+      "judgment_zh": "该帖将“中概”用于中国概念股/中概互联网/ETF等投资讨论，属于字面同形噪声；未全文通读，不计作课评证据。",
+      "full_body_read": false
+    },
+    {
+      "floor_id": 293759,
+      "hole_id": 33502,
+      "created_at": "2021-12-02T17:02:29.912+08:00",
+      "classification": "financial_use_of_中概",
+      "judgment_zh": "该帖将“中概”用于中国概念股/中概互联网/ETF等投资讨论，属于字面同形噪声；未全文通读，不计作课评证据。",
+      "full_body_read": false
+    },
+    {
+      "floor_id": 293861,
+      "hole_id": 33502,
+      "created_at": "2021-12-02T17:21:48.405+08:00",
+      "classification": "financial_use_of_中概",
+      "judgment_zh": "该帖将“中概”用于中国概念股/中概互联网/ETF等投资讨论，属于字面同形噪声；未全文通读，不计作课评证据。",
+      "full_body_read": false
+    },
+    {
+      "floor_id": 293870,
+      "hole_id": 33502,
+      "created_at": "2021-12-02T17:22:58.439+08:00",
+      "classification": "financial_use_of_中概",
+      "judgment_zh": "该帖将“中概”用于中国概念股/中概互联网/ETF等投资讨论，属于字面同形噪声；未全文通读，不计作课评证据。",
+      "full_body_read": false
+    },
+    {
+      "floor_id": 294130,
+      "hole_id": 33502,
+      "created_at": "2021-12-02T18:22:22.195+08:00",
+      "classification": "financial_use_of_中概",
+      "judgment_zh": "该帖将“中概”用于中国概念股/中概互联网/ETF等投资讨论，属于字面同形噪声；未全文通读，不计作课评证据。",
+      "full_body_read": false
+    },
+    {
+      "floor_id": 295293,
+      "hole_id": 33502,
+      "created_at": "2021-12-02T23:55:28.048+08:00",
+      "classification": "financial_use_of_中概",
+      "judgment_zh": "该帖将“中概”用于中国概念股/中概互联网/ETF等投资讨论，属于字面同形噪声；未全文通读，不计作课评证据。",
+      "full_body_read": false
+    },
+    {
+      "floor_id": 341253,
+      "hole_id": 38908,
+      "created_at": "2021-12-15T23:58:06.702+08:00",
+      "classification": "financial_use_of_中概",
+      "judgment_zh": "该帖将“中概”用于中国概念股/中概互联网/ETF等投资讨论，属于字面同形噪声；未全文通读，不计作课评证据。",
+      "full_body_read": false
+    },
+    {
+      "floor_id": 341254,
+      "hole_id": 38908,
+      "created_at": "2021-12-15T23:58:17.224+08:00",
+      "classification": "financial_use_of_中概",
+      "judgment_zh": "该帖将“中概”用于中国概念股/中概互联网/ETF等投资讨论，属于字面同形噪声；未全文通读，不计作课评证据。",
+      "full_body_read": false
+    },
+    {
+      "floor_id": 341269,
+      "hole_id": 38908,
+      "created_at": "2021-12-16T00:00:42.434+08:00",
+      "classification": "financial_use_of_中概",
+      "judgment_zh": "该帖将“中概”用于中国概念股/中概互联网/ETF等投资讨论，属于字面同形噪声；未全文通读，不计作课评证据。",
+      "full_body_read": false
+    },
+    {
+      "floor_id": 362999,
+      "hole_id": 41820,
+      "created_at": "2021-12-21T14:49:53.693+08:00",
+      "classification": "financial_use_of_中概",
+      "judgment_zh": "该帖将“中概”用于中国概念股/中概互联网/ETF等投资讨论，属于字面同形噪声；未全文通读，不计作课评证据。",
+      "full_body_read": false
+    },
+    {
+      "floor_id": 365231,
+      "hole_id": 42097,
+      "created_at": "2021-12-22T00:22:35.398+08:00",
+      "classification": "financial_use_of_中概",
+      "judgment_zh": "该帖将“中概”用于中国概念股/中概互联网/ETF等投资讨论，属于字面同形噪声；未全文通读，不计作课评证据。",
+      "full_body_read": false
+    },
+    {
+      "floor_id": 399078,
+      "hole_id": 46209,
+      "created_at": "2021-12-31T12:34:55.798+08:00",
+      "classification": "financial_use_of_中概",
+      "judgment_zh": "该帖将“中概”用于中国概念股/中概互联网/ETF等投资讨论，属于字面同形噪声；未全文通读，不计作课评证据。",
+      "full_body_read": false
+    },
+    {
+      "floor_id": 476951,
+      "hole_id": 56191,
+      "created_at": "2022-01-27T10:47:22.557+08:00",
+      "classification": "financial_use_of_中概",
+      "judgment_zh": "该帖将“中概”用于中国概念股/中概互联网/ETF等投资讨论，属于字面同形噪声；未全文通读，不计作课评证据。",
+      "full_body_read": false
+    },
+    {
+      "floor_id": 538078,
+      "hole_id": 63316,
+      "created_at": "2022-02-26T22:37:27.321+08:00",
+      "classification": "financial_use_of_中概",
+      "judgment_zh": "该帖将“中概”用于中国概念股/中概互联网/ETF等投资讨论，属于字面同形噪声；未全文通读，不计作课评证据。",
+      "full_body_read": false
+    },
+    {
+      "floor_id": 586391,
+      "hole_id": 64249,
+      "created_at": "2022-03-10T23:52:39.759+08:00",
+      "classification": "financial_use_of_中概",
+      "judgment_zh": "该帖将“中概”用于中国概念股/中概互联网/ETF等投资讨论，属于字面同形噪声；未全文通读，不计作课评证据。",
+      "full_body_read": false
+    },
+    {
+      "floor_id": 3421544,
+      "hole_id": 375163,
+      "created_at": "2024-11-13T13:04:07.783+08:00",
+      "classification": "financial_use_of_中概",
+      "judgment_zh": "该帖将“中概”用于中国概念股/中概互联网/ETF等投资讨论，属于字面同形噪声；未全文通读，不计作课评证据。",
+      "full_body_read": false
+    },
+    {
+      "floor_id": 4983648,
+      "hole_id": 542716,
+      "created_at": "2025-11-14T22:38:29.966+08:00",
+      "classification": "financial_use_of_中概",
+      "judgment_zh": "该帖将“中概”用于中国概念股/中概互联网/ETF等投资讨论，属于字面同形噪声；未全文通读，不计作课评证据。",
+      "full_body_read": false
+    },
+    {
+      "floor_id": 4983800,
+      "hole_id": 542716,
+      "created_at": "2025-11-14T23:03:22.987+08:00",
+      "classification": "financial_use_of_中概",
+      "judgment_zh": "该帖将“中概”用于中国概念股/中概互联网/ETF等投资讨论，属于字面同形噪声；未全文通读，不计作课评证据。",
+      "full_body_read": false
+    },
+    {
+      "floor_id": 4984047,
+      "hole_id": 542716,
+      "created_at": "2025-11-15T00:12:00.328+08:00",
+      "classification": "financial_use_of_中概",
+      "judgment_zh": "该帖将“中概”用于中国概念股/中概互联网/ETF等投资讨论，属于字面同形噪声；未全文通读，不计作课评证据。",
+      "full_body_read": false
+    },
+    {
+      "floor_id": 5239300,
+      "hole_id": 579346,
+      "created_at": "2025-12-29T16:55:04.689+08:00",
+      "classification": "financial_use_of_中概",
+      "judgment_zh": "该帖将“中概”用于中国概念股/中概互联网/ETF等投资讨论，属于字面同形噪声；未全文通读，不计作课评证据。",
+      "full_body_read": false
+    },
+    {
+      "floor_id": 5466118,
+      "hole_id": 339389,
+      "created_at": "2026-02-13T20:19:48.92+08:00",
+      "classification": "financial_use_of_中概",
+      "judgment_zh": "该帖将“中概”用于中国概念股/中概互联网/ETF等投资讨论，属于字面同形噪声；未全文通读，不计作课评证据。",
+      "full_body_read": false
+    },
+    {
+      "floor_id": 6338146,
+      "hole_id": 635163,
+      "created_at": "2026-08-21T17:07:26.948+08:00",
+      "classification": "financial_use_of_中概",
+      "judgment_zh": "该帖将“中概”用于中国概念股/中概互联网/ETF等投资讨论，属于字面同形噪声；未全文通读，不计作课评证据。",
+      "full_body_read": false
+    }
+  ],
+  "overall_finding": "仅3226144是有内容的、与留学生课程族直接相关的同学建议；2760150和2582391提供较弱的历史课程族/材料线索。其余精确词命中多为无细节推荐、教室旁听/空间讨论、现代汉语课、其他学校个案或笑谈。没有帖子正文包含目标课程代码，未发现可按指定学期/具体班归属的课程评价。"
+}

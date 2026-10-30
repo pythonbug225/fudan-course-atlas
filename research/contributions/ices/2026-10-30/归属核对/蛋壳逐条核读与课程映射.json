@@ -1,0 +1,482 @@
+{
+  "scope": "复旦国际文化交流学院 2025秋、2026春官方开课课程与教师",
+  "source_file": "work/ices-research/live/danke_details_results.json",
+  "snapshot_counts": {
+    "groups": 369,
+    "course_records": 776,
+    "reviews": 11
+  },
+  "read_status": "当前结果快照中的11条评论正文均已逐条阅读全文。平台课程归属按每条review的course_ids指向courses数据读取；查询聚合的course_codes不作为评论归属依据。",
+  "method_notes": [
+    "平台课程元数据中的year、semester原样保存，不自行解释semester数值。",
+    "同旧课程代码、同名且同教师的记录只作为历史参考；未获官方依据证明旧码与当前码等价。",
+    "精确挂载到当前目标代码/班号的评论可标为目标班候选，但作者实际修读/归属仍以评论原文能证明的范围为限。",
+    "review发布日期不用于推断开课学期。"
+  ],
+  "reviews_read": [
+    {
+      "review_id": 2517,
+      "course_code": "GECS10001",
+      "official_course_title": "留学生高级汉语I",
+      "created_at": "2024-12-28T15:41:34.219Z",
+      "title": "事少给分好",
+      "teacher_attribution": {
+        "name": "彭增安",
+        "basis": "Teacher is from the platform-attached historical course record; current mapping is based only on a unique same-title/same-teacher course candidate."
+      },
+      "summary_zh": "作者称自己免听、只听过少量课；平时约一篇600字作文，期末为阅读选择题和手写作文。作者觉得任务轻、给分好，母语者较易拿A。",
+      "boundary_zh": "平台课程记录为2024年、semester=1、旧课程代码ICES110001.01，教师彭增安；当前课表有同名、同教师候选GECS10001（2025秋）。跨代码等价未被官方资料证明；作者实际修读的学期/教学班不明。平台聚合组的department与具体course记录不一致；按具体course记录判断。",
+      "term_attribution": {
+        "target_term": null,
+        "platform_year": 2024,
+        "platform_semester": 1,
+        "status": "historical/uncertain; do not infer target term from review date; retain platform year and semester as recorded"
+      },
+      "platform_course_metadata": {
+        "name": "留学生高级汉语I",
+        "code": "ICES110001",
+        "code_id": "ICES110001.01",
+        "year": 2024,
+        "semester": 1,
+        "teachers": "彭增安"
+      },
+      "evidence_type": "historical_same_title_teacher_different_code",
+      "review_body_read_in_full": true,
+      "rank": {
+        "assessment": 5,
+        "content": 5,
+        "overall": 5,
+        "workload": 5
+      },
+      "source_urls": []
+    },
+    {
+      "review_id": 2518,
+      "course_code": "GESP10001",
+      "official_course_title": "中国概况（上）",
+      "created_at": "2024-12-28T15:51:57.837Z",
+      "title": "看上去不好惹实则非常好的老师",
+      "teacher_attribution": {
+        "name": "许静",
+        "basis": "Teacher is from the platform-attached historical course record; current mapping is based only on a unique same-title/same-teacher course candidate."
+      },
+      "summary_zh": "作者描述线上视频、选择题和讨论题，主要任务为一次小组展示及期末2000–3000字论文；小组互评、必须组队且签到，队友合作和准备投入是主要负担。",
+      "boundary_zh": "平台课程记录为2024年、semester=1、旧代码ICES110012.04，教师许静；当前唯一同名同教师候选为GESP10001（2025秋，含许静班）。这是历史同名同教师关联，不代表已证明官方改码等价；作者实际修读学期/班级不明。",
+      "term_attribution": {
+        "target_term": null,
+        "platform_year": 2024,
+        "platform_semester": 1,
+        "status": "historical/uncertain; do not infer target term from review date; retain platform year and semester as recorded"
+      },
+      "platform_course_metadata": {
+        "name": "中国概况（上）",
+        "code": "ICES110012",
+        "code_id": "ICES110012.04",
+        "year": 2024,
+        "semester": 1,
+        "teachers": "许静"
+      },
+      "evidence_type": "historical_same_title_teacher_different_code",
+      "review_body_read_in_full": true,
+      "rank": {
+        "assessment": 5,
+        "content": 5,
+        "overall": 5,
+        "workload": 3
+      },
+      "source_urls": []
+    },
+    {
+      "review_id": 2525,
+      "course_code": "ICLE10006",
+      "official_course_title": "中国神话传说",
+      "created_at": "2024-12-30T07:22:19.668Z",
+      "title": "好课！来建设一下留学生课程课评！",
+      "teacher_attribution": {
+        "name": "李桂奎",
+        "basis": "Teacher comes from the platform-attached historical course record; the official target roster has a unique same-title/same-teacher candidate, but this review is historical and code equivalence is unproven."
+      },
+      "summary_zh": "作者称教师友善但有口音，课程材料与考试均围绕PPT；平时无作业、无期中，期末开卷且题目较简单，给分宽松，适合汉语基础较好的留学生。",
+      "boundary_zh": "平台挂载旧课程ICES120006.01、教师李桂奎（year=2024、semester=1）；当前官方唯一同名同教师候选为ICLE10006.01（2025秋）。此为跨代码历史同名同教师关联，未证明官方代码等价；发布日期和平台旧课程记录不能单独证明作者实际修读学期/班级。",
+      "term_attribution": {
+        "target_term": null,
+        "platform_year": 2024,
+        "platform_semester": 1,
+        "status": "platform historical course metadata only; a unique same-title/same-teacher current target course exists, but official equivalence of old and current codes is unproven"
+      },
+      "platform_course_metadata": {
+        "name": "中国神话传说",
+        "code": "ICES120006",
+        "code_id": "ICES120006.01",
+        "year": 2024,
+        "semester": 1,
+        "teachers": "李桂奎"
+      },
+      "evidence_type": "historical_same_title_teacher_different_code",
+      "review_body_read_in_full": true,
+      "rank": {
+        "assessment": 5,
+        "content": 5,
+        "overall": 5,
+        "workload": 5
+      },
+      "source_urls": []
+    },
+    {
+      "review_id": 4608,
+      "course_code": "ICLE10006",
+      "official_course_title": "中国神话传说",
+      "created_at": "2025-12-17T09:03:06.786Z",
+      "title": "真的非常好！",
+      "teacher_attribution": {
+        "name": "李桂奎",
+        "basis": "Teacher comes from the platform-attached historical course record; the official target roster has a unique same-title/same-teacher candidate, but this review is historical and code equivalence is unproven."
+      },
+      "summary_zh": "简短好评：称课程事务少、无期中、期末占80%且考勤占20%，并称教师友善。",
+      "boundary_zh": "平台挂载旧课程ICES120006.01、教师李桂奎（year=2024、semester=1）；当前官方唯一同名同教师候选为ICLE10006.01（2025秋）。此为跨代码历史同名同教师关联，未证明官方代码等价；发布日期和平台旧课程记录不能单独证明作者实际修读学期/班级。",
+      "term_attribution": {
+        "target_term": null,
+        "platform_year": 2024,
+        "platform_semester": 1,
+        "status": "platform historical course metadata only; a unique same-title/same-teacher current target course exists, but official equivalence of old and current codes is unproven"
+      },
+      "platform_course_metadata": {
+        "name": "中国神话传说",
+        "code": "ICES120006",
+        "code_id": "ICES120006.01",
+        "year": 2024,
+        "semester": 1,
+        "teachers": "李桂奎"
+      },
+      "evidence_type": "historical_same_title_teacher_different_code",
+      "review_body_read_in_full": true,
+      "rank": {
+        "assessment": 5,
+        "content": 5,
+        "overall": 5,
+        "workload": 5
+      },
+      "source_urls": []
+    },
+    {
+      "review_id": 4997,
+      "course_code": "ICLE20030",
+      "official_course_title": "教育心理学",
+      "created_at": "2026-01-10T01:53:46.587Z",
+      "title": "豪课",
+      "teacher_attribution": {
+        "name": "杨蓉蓉",
+        "basis": "Teacher comes from the platform-attached historical course record; the official target roster has a unique same-title/same-teacher candidate, but this review is historical and code equivalence is unproven."
+      },
+      "summary_zh": "作者称平时基本无任务，期末只需写一篇教案，给分很好。",
+      "boundary_zh": "平台挂载旧课程ICES130151.01、教师杨蓉蓉（year=2024、semester=1）；当前官方唯一同名同教师候选为ICLE20030.01（2025秋）。CHIN70096虽同名，但教师为李显赫，非本条匹配课程。此为跨代码历史同名同教师关联，未证明官方代码等价；作者实际修读学期/班级不明。",
+      "term_attribution": {
+        "target_term": null,
+        "platform_year": 2024,
+        "platform_semester": 1,
+        "status": "platform historical course metadata only; a unique same-title/same-teacher current target course exists, but official equivalence of old and current codes is unproven"
+      },
+      "platform_course_metadata": {
+        "name": "教育心理学",
+        "code": "ICES130151",
+        "code_id": "ICES130151.01",
+        "year": 2024,
+        "semester": 1,
+        "teachers": "杨蓉蓉"
+      },
+      "evidence_type": "historical_same_title_teacher_different_code",
+      "review_body_read_in_full": true,
+      "rank": {
+        "assessment": 5,
+        "content": 1,
+        "overall": 5,
+        "workload": 1
+      },
+      "source_urls": []
+    },
+    {
+      "review_id": 5781,
+      "course_code": "GESP10001",
+      "official_course_title": "中国概况（上）",
+      "created_at": "2026-03-07T04:47:00.179Z",
+      "title": "怪老头好分数！",
+      "teacher_attribution": {
+        "name": "吴中伟",
+        "basis": "Teacher is from the platform-attached historical course record; current mapping is based only on a unique same-title/same-teacher course candidate."
+      },
+      "summary_zh": "作者称必须签到；论文内容可简化但格式不能马虎，课堂呈现需认真；总体评价为上课难、分数好。",
+      "boundary_zh": "平台课程记录为2024年、semester=1、旧代码ICES110012.02，教师吴中伟；当前唯一同名同教师候选为GESP10001（2025秋，含吴中伟班）。这是历史同名同教师关联，不代表已证明官方改码等价；作者实际修读学期/班级不明。",
+      "term_attribution": {
+        "target_term": null,
+        "platform_year": 2024,
+        "platform_semester": 1,
+        "status": "historical/uncertain; do not infer target term from review date; retain platform year and semester as recorded"
+      },
+      "platform_course_metadata": {
+        "name": "中国概况（上）",
+        "code": "ICES110012",
+        "code_id": "ICES110012.02",
+        "year": 2024,
+        "semester": 1,
+        "teachers": "吴中伟"
+      },
+      "evidence_type": "historical_same_title_teacher_different_code",
+      "review_body_read_in_full": true,
+      "rank": {
+        "assessment": 3,
+        "content": 2,
+        "overall": 4,
+        "workload": 3
+      },
+      "source_urls": []
+    },
+    {
+      "review_id": 5996,
+      "course_code": "GECS10003",
+      "official_course_title": "留学生专业汉语I",
+      "created_at": "2026-06-05T09:57:24.304Z",
+      "title": "当你搜到这篇课评的时候，你便已经有了拿A的实力",
+      "teacher_attribution": {
+        "name": "吴中伟",
+        "basis": "Review is attached in platform course metadata to the exact official course code/section; the author does not independently state their section."
+      },
+      "summary_zh": "作者称吴老师会讲解文献综述、读书报告/展示、问卷和调查报告格式，并愿意答疑；作业包括文献综述、读书报告与展示、问卷和报告，工作量略多但作者认为格式和参与会带来好成绩。评分字段：总评/考核/内容5分，工作量3分。",
+      "boundary_zh": "平台课程记录精确挂载GECS10003.02、year=2025、semester=1、教师吴中伟；与官方2025秋 GECS10003.02班一致。评论正文称“吴老师”，但作者实际修读班/学期仍不能仅凭发布日期独立确认。",
+      "term_attribution": {
+        "target_term": "2025秋",
+        "platform_year": 2025,
+        "platform_semester": 1,
+        "status": "platform section matches official target section; author actual enrollment is not independently confirmed"
+      },
+      "platform_course_metadata": {
+        "name": "留学生专业汉语I",
+        "code": "GECS10003",
+        "code_id": "GECS10003.02",
+        "year": 2025,
+        "semester": 1,
+        "teachers": "吴中伟"
+      },
+      "evidence_type": "target_offering_exact_platform_section",
+      "review_body_read_in_full": true,
+      "rank": {
+        "assessment": 5,
+        "content": 5,
+        "overall": 5,
+        "workload": 3
+      },
+      "source_urls": []
+    },
+    {
+      "review_id": 6127,
+      "course_code": "GEEC20013",
+      "official_course_title": "全球廉政分析",
+      "created_at": "2026-06-25T13:36:00.47Z",
+      "title": "烂",
+      "teacher_attribution": {
+        "name": "涂文燕",
+        "basis": "Teacher is from the platform-attached historical course record; current mapping is based only on a unique same-title/same-teacher course candidate."
+      },
+      "summary_zh": "作者称讲课无聊；工作量不大，包括一次展示和一篇论文，但认为成绩给得很差。",
+      "boundary_zh": "平台课程记录为旧代码ICES110034、全球廉政分析、教师涂文燕（year=2024、semester=3）。当前唯一同名同教师候选为GEEC20013（2026春）；这是历史同名同教师关联，官方代码等价未证实。保留semester=3原值，不推断学期含义。",
+      "term_attribution": {
+        "target_term": null,
+        "platform_year": 2024,
+        "platform_semester": 3,
+        "status": "historical/uncertain; do not infer target term from review date; retain platform year and semester as recorded"
+      },
+      "platform_course_metadata": {
+        "name": "全球廉政分析",
+        "code": "ICES110034",
+        "code_id": "ICES110034.01",
+        "year": 2024,
+        "semester": 3,
+        "teachers": "涂文燕"
+      },
+      "evidence_type": "historical_same_title_teacher_different_code",
+      "review_body_read_in_full": true,
+      "rank": {
+        "assessment": 3,
+        "content": 5,
+        "overall": 2,
+        "workload": 3
+      },
+      "source_urls": []
+    },
+    {
+      "review_id": 6784,
+      "course_code": "ICLE20028",
+      "official_course_title": "语言学概论",
+      "created_at": "2026-09-15T03:45:51.85Z",
+      "title": "狗屎",
+      "teacher_attribution": {
+        "name": "高顺全",
+        "basis": "Teacher is from the platform-attached historical course record; current mapping is based only on a unique same-title/same-teacher course candidate."
+      },
+      "summary_zh": "作者声称课堂提问和互动方式令人不适，并批评课程内容及教师专业水平；这是单条评论中的主观指控，未获独立佐证。",
+      "boundary_zh": "平台课程记录为旧代码ICES130149、语言学概论、教师高顺全（year=2024、semester=1）；当前唯一同名同教师候选为ICLE20028（2025秋）。这是历史同名同教师关联，代码等价未获官方资料证明；负面叙述未独立核实。",
+      "term_attribution": {
+        "target_term": null,
+        "platform_year": 2024,
+        "platform_semester": 1,
+        "status": "historical/uncertain; do not infer target term from review date; retain platform year and semester as recorded"
+      },
+      "platform_course_metadata": {
+        "name": "语言学概论",
+        "code": "ICES130149",
+        "code_id": "ICES130149.01",
+        "year": 2024,
+        "semester": 1,
+        "teachers": "高顺全"
+      },
+      "evidence_type": "historical_same_title_teacher_different_code",
+      "review_body_read_in_full": true,
+      "rank": {
+        "assessment": 1,
+        "content": 1,
+        "overall": 1,
+        "workload": 1
+      },
+      "source_urls": []
+    },
+    {
+      "review_id": 6798,
+      "course_code": "GESP20001",
+      "official_course_title": "中国概况",
+      "created_at": "2026-09-20T11:59:12.063Z",
+      "title": "快跑",
+      "teacher_attribution": {
+        "name": "戴蓉",
+        "basis": "Review is attached in platform course metadata to the exact official course code/section; the author does not independently state their section."
+      },
+      "summary_zh": "一句话强烈劝退，没有说明原因。平台评分：总评1、考核1、内容5、工作量5。",
+      "boundary_zh": "平台课程记录精确挂载GESP20001.01、year=2025、semester=1、教师戴蓉；与官方2025秋 GESP20001.01班一致。正文不提教师，平台挂载提供教师关联；作者实际修读情况未独立确认。",
+      "term_attribution": {
+        "target_term": "2025秋",
+        "platform_year": 2025,
+        "platform_semester": 1,
+        "status": "platform section matches official target section; author actual enrollment is not independently confirmed"
+      },
+      "platform_course_metadata": {
+        "name": "中国概况",
+        "code": "GESP20001",
+        "code_id": "GESP20001.01",
+        "year": 2025,
+        "semester": 1,
+        "teachers": "戴蓉"
+      },
+      "evidence_type": "target_offering_exact_platform_section",
+      "review_body_read_in_full": true,
+      "rank": {
+        "assessment": 1,
+        "content": 5,
+        "overall": 1,
+        "workload": 5
+      },
+      "source_urls": []
+    },
+    {
+      "review_id": 6800,
+      "course_code": "GESP20001",
+      "official_course_title": "中国概况",
+      "created_at": "2026-09-22T01:27:48.71Z",
+      "title": "跑",
+      "teacher_attribution": {
+        "name": "戴蓉",
+        "basis": "Review is attached in platform course metadata to the exact official course code/section; the author does not independently state their section."
+      },
+      "summary_zh": "简短负面评价，称“快跑”且“从来没见过这样的”，未说明具体原因。平台评分：总评1、考核1、内容3、工作量1。",
+      "boundary_zh": "平台课程记录精确挂载GESP20001.01、year=2025、semester=1、教师戴蓉；与官方2025秋 GESP20001.01班一致。正文不提教师，平台挂载提供教师关联；作者实际修读情况未独立确认。",
+      "term_attribution": {
+        "target_term": "2025秋",
+        "platform_year": 2025,
+        "platform_semester": 1,
+        "status": "platform section matches official target section; author actual enrollment is not independently confirmed"
+      },
+      "platform_course_metadata": {
+        "name": "中国概况",
+        "code": "GESP20001",
+        "code_id": "GESP20001.01",
+        "year": 2025,
+        "semester": 1,
+        "teachers": "戴蓉"
+      },
+      "evidence_type": "target_offering_exact_platform_section",
+      "review_body_read_in_full": true,
+      "rank": {
+        "assessment": 1,
+        "content": 3,
+        "overall": 1,
+        "workload": 1
+      },
+      "source_urls": []
+    }
+  ],
+  "course_level_summary": [
+    {
+      "course_code": "GECS10003",
+      "course_title": "留学生专业汉语I",
+      "reviews": [
+        5996
+      ],
+      "target_term_evidence": "platform maps to 2025秋 GECS10003.02 / 吴中伟; author attendance still not independently confirmed"
+    },
+    {
+      "course_code": "GESP20001",
+      "course_title": "中国概况",
+      "reviews": [
+        6798,
+        6800
+      ],
+      "target_term_evidence": "platform maps to 2025秋 GESP20001.01 / 戴蓉; author attendance still not independently confirmed"
+    },
+    {
+      "course_code": "GECS10001",
+      "course_title": "留学生高级汉语I",
+      "historical_reviews": [
+        2517
+      ],
+      "target_term_evidence": "old code ICES110001, 2024/semester=1; same current title/teacher candidate, code equivalence unproven"
+    },
+    {
+      "course_code": "GESP10001",
+      "course_title": "中国概况（上）",
+      "historical_reviews": [
+        2518,
+        5781
+      ],
+      "target_term_evidence": "old code ICES110012, 2024/semester=1; same current title/teacher candidates, code equivalence unproven"
+    },
+    {
+      "course_code": "GEEC20013",
+      "course_title": "全球廉政分析",
+      "historical_reviews": [
+        6127
+      ],
+      "target_term_evidence": "old code ICES110034, 2024/semester=3; same current title/teacher candidate, code equivalence unproven"
+    },
+    {
+      "course_code": "ICLE20028",
+      "course_title": "语言学概论",
+      "historical_reviews": [
+        6784
+      ],
+      "target_term_evidence": "old code ICES130149, 2024/semester=1; same current title/teacher candidate, code equivalence unproven"
+    },
+    {
+      "course_code": "ICLE10006",
+      "course_title": "中国神话传说",
+      "historical_reviews": [
+        2525,
+        4608
+      ]
+    },
+    {
+      "course_code": "ICLE20030",
+      "course_title": "教育心理学",
+      "historical_reviews": [
+        4997
+      ],
+      "note": "Old platform course ICES130151 / 杨蓉蓉 maps as a historical same-title/same-teacher candidate to current ICLE20030 in 2025秋; CHIN70096 is a separate same-title course by 李显赫. Official cross-code equivalence is unproven."
+    }
+  ]
+}

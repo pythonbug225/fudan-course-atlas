@@ -1,0 +1,49 @@
+{
+  "checks": {
+    "courses": 167,
+    "unique_codes": 167,
+    "teachers": 63,
+    "classes": 229,
+    "evidence": 34,
+    "official_originals": [
+      {
+        "file": "2026级汉语言（对外商务汉语方向）专业本科培养方案（留学生适用）.docx",
+        "bytes": 297418,
+        "sha256": "EB933684BC8205511EC9651A4B058A526B5E11D2282479BDE24D6D3EAFBFDF4A"
+      },
+      {
+        "file": "2026级汉语言（对外语言文化方向）专业本科培养方案（留学生适用）.docx",
+        "bytes": 326602,
+        "sha256": "60CDCD4A2275D5713415028ACE6A887684812B759AE2B0B8F04D46CA84B82126"
+      }
+    ],
+    "html_course_cards": 167,
+    "workbook_sheets": [
+      "课程表",
+      "培养方案"
+    ],
+    "workbook_cell_ranges": {
+      "xl/worksheets/sheet1.xml": [
+        "A2",
+        "M233"
+      ],
+      "xl/worksheets/sheet2.xml": [
+        "A2",
+        "I6"
+      ]
+    },
+    "query_statuses": {
+      "蛋壳课评区": {
+        "completed": 1361
+      },
+      "旦挞树洞": {
+        "completed": 1361
+      }
+    },
+    "scope_note": "检索执行不等于所有候选全文核读；外部平台覆盖另见各检索记录。",
+    "raw_files": 24,
+    "manifest_files": 241
+  },
+  "issues": [],
+  "status": "passed"
+}

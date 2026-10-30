@@ -1,0 +1,66 @@
+{
+  "scope": {
+    "course_code": "ICLE20024",
+    "course_title": "经济学原理",
+    "department": "国际文化交流学院",
+    "target_term": "2026春",
+    "official_section": "ICLE20024.01",
+    "official_teacher": "顾慧洁"
+  },
+  "source": {
+    "file": "work/ices-research/live/forum_search_results.json",
+    "query_id": "FORUM-ICES-49A69E28D2643418",
+    "query_text": "经济学原理",
+    "hit_count": 780,
+    "unique_floors": 780
+  },
+  "screening_status": "All 780 result records were searched for exact target teacher/department/course-code markers. The only explicit ICES/ghj match is hole 392414. Only its two context floors were read in full for this screening; the remaining 779 result bodies were not all manually read. Long advertisements naming other instructors were not individually transcribed.",
+  "target_specific_marker_hits": {
+    "顾慧洁": [],
+    "顾老师": [],
+    "ghj": [
+      {
+        "floor_id": 3553272,
+        "hole_id": 392414
+      }
+    ],
+    "国交": [],
+    "国际文化交流学院": [
+      {
+        "floor_id": 3553272,
+        "hole_id": 392414
+      }
+    ],
+    "ICLE20024": []
+  },
+  "direct_thread": {
+    "hole_id": 392414,
+    "context_source": "work/ices-research/live/forum_context_results.json",
+    "context_fetch_status": "completed",
+    "floor_ids": [
+      3553272,
+      3553277
+    ],
+    "posts": [
+      {
+        "floor_id": 3553272,
+        "hole_id": 392414,
+        "created_at": "2024-12-18T15:05:52.217+08:00",
+        "text": "有人上过国际文化交流学院ghj老师的经济学原理吗，不知道这个老师怎么样啊",
+        "body_read_in_full": true,
+        "judgment": "Explicitly refers to an International Culture and Exchange School teacher by initials “ghj” and asks for an evaluation of 经济学原理. It is a question, not a review; it predates the target 2026春 offering, so it cannot establish target-term experience."
+      },
+      {
+        "floor_id": 3553277,
+        "hole_id": 392414,
+        "created_at": "2024-12-18T15:07:31.863+08:00",
+        "text": "dd",
+        "body_read_in_full": true,
+        "judgment": "The original post asks for an evaluation of an ICES instructor, but it gives no course experience. The only reply is “dd”, which provides no answer."
+      }
+    ],
+    "target_evidence": "No course evaluation or instructor feedback. The post is only a question and the sole reply (“dd”) is non-informative. Posted 2024-12-18, before the official 2026春 target offering; no term is specified."
+  },
+  "conclusion": "No usable review evidence for 顾慧洁’s official ICLE20024 2026春 section was found. Hole 392414 is a relevant search lead only, not a review.",
+  "screening_limitations": "This is a target-marker screen of all query hits, not a full-text audit of all 780 posts. Other title hits should not be represented as read or as target-course evidence."
+}

@@ -1,0 +1,388 @@
+{
+  "schema": "ices-source-responses/1",
+  "capture_date": "2026-10-30",
+  "files": [
+    {
+      "source_path": "live/danke_details_ledger.json",
+      "category": "danke",
+      "captured_bytes": 340503,
+      "captured_sha256": "1b96318db5c48ab12bbf96a79795f887583e7cad2532e29d4219e5c62a90ddc1",
+      "stored_path": "live/danke_details_ledger.json.gz",
+      "stored_bytes": 26948,
+      "stored_sha256": "cf9fc6209d41695507fb1fe30589ca23920a5901611845067039063889841e5e",
+      "restored_bytes": 340503,
+      "restored_sha256": "9f7c98e00aca08a5bf3a64ca1c32b232b1ebba315fa106c4bbf4ecfedba7dc9e",
+      "redactions": {
+        "phone": 1
+      },
+      "read_status": "captured does not mean read; see per-record public_body_status and reading ledgers"
+    },
+    {
+      "source_path": "live/danke_details_results.json",
+      "category": "danke",
+      "captured_bytes": 631160,
+      "captured_sha256": "12b20cad10b638778aa6633e7ab8afd30b1db4b0c64cdc8c2a3e9279edcf884a",
+      "stored_path": "live/danke_details_results.json.gz",
+      "stored_bytes": 54316,
+      "stored_sha256": "f265de9df0374ed73726c986d69193aaed0e9daa7427475ddaf458d0f4e57adb",
+      "restored_bytes": 631160,
+      "restored_sha256": "e72c3f555d0f8ff746b4fd3ffb80d727b777fd32c8c0d21123ecbe7ed9c4e086",
+      "redactions": {
+        "phone": 2
+      },
+      "read_status": "captured does not mean read; see per-record public_body_status and reading ledgers"
+    },
+    {
+      "source_path": "live/danke_search_ledger.json",
+      "category": "danke",
+      "captured_bytes": 510869,
+      "captured_sha256": "49ba1d6162ad5f3adff9e8691a7e6d55573f78d3e9a184c3dcb82176761c2390",
+      "stored_path": "live/danke_search_ledger.json.gz",
+      "stored_bytes": 50760,
+      "stored_sha256": "b9859755e2ec2591f720fb0c52eb5be93ea0e41ab1e2ec6c2aea7a77f900a018",
+      "restored_bytes": 510879,
+      "restored_sha256": "48ea4ff498b517f64bb94295fc66ba59ae280bbdd70580168b6a45d973e19af8",
+      "redactions": {
+        "phone": 1,
+        "student_number": 1,
+        "contact": 6
+      },
+      "read_status": "captured does not mean read; see per-record public_body_status and reading ledgers"
+    },
+    {
+      "source_path": "live/danke_search_results.json",
+      "category": "danke",
+      "captured_bytes": 199097,
+      "captured_sha256": "74f87f5bfeb5cd770f2b6980ddb547929cc811b1e9fa1e1f6c7cef21b90b4d24",
+      "stored_path": "live/danke_search_results.json.gz",
+      "stored_bytes": 25791,
+      "stored_sha256": "ff77111a0b49ce5a7261d2e2e48032ca361db77e2bf8e9e364e9e082a095cc35",
+      "restored_bytes": 199097,
+      "restored_sha256": "7e37da79b66ac63ce86b389026f920b634e0a172602ebb8e25b5d2618f2a2e7e",
+      "redactions": {
+        "phone": 1
+      },
+      "read_status": "captured does not mean read; see per-record public_body_status and reading ledgers"
+    },
+    {
+      "source_path": "live/forum_context_ledger.json",
+      "category": "treehole",
+      "captured_bytes": 32762,
+      "captured_sha256": "1ff3be374c8364a5c2b927e9c67b334864d70e7d981fc0e9bb39496c23ea7e95",
+      "stored_path": "live/forum_context_ledger.json.gz",
+      "stored_bytes": 4960,
+      "stored_sha256": "aa5b31d1ef42f2857e4835e6b08950e4571788101deab95b9d9d35aaed534a82",
+      "restored_bytes": 32762,
+      "restored_sha256": "1ff3be374c8364a5c2b927e9c67b334864d70e7d981fc0e9bb39496c23ea7e95",
+      "redactions": {},
+      "read_status": "captured does not mean read; see per-record public_body_status and reading ledgers"
+    },
+    {
+      "source_path": "live/forum_context_results.json",
+      "category": "treehole",
+      "captured_bytes": 568368,
+      "captured_sha256": "5aba9d52c721a9853e9393041bf67f9b90cc00b3463b3ab465e7d6e1295e115d",
+      "stored_path": "live/forum_context_results.json.gz",
+      "stored_bytes": 38694,
+      "stored_sha256": "5dd97f15e2c9766bd156c81ee787c7213bbe86cf5e4d684bae6d26bcb7770ea0",
+      "restored_bytes": 470206,
+      "restored_sha256": "1725cef7fdb8284795e1d4fb134cc7570834e43c00b1191fdc956dfac6ef0a55",
+      "redactions": {
+        "original_deleted": 13
+      },
+      "read_status": "captured does not mean read; see per-record public_body_status and reading ledgers"
+    },
+    {
+      "source_path": "live/forum_search_ledger.json",
+      "category": "treehole",
+      "captured_bytes": 681618,
+      "captured_sha256": "e2eaebcad5d9a7fff175544cae666db952af852a1249f96d040b0dd5713ad4a2",
+      "stored_path": "live/forum_search_ledger.json.gz",
+      "stored_bytes": 129730,
+      "stored_sha256": "1b55e0dc1f5823537106d4964620e21d2eacb739d0ce35e5e2977698404cdeba",
+      "restored_bytes": 681628,
+      "restored_sha256": "02ce67a4ccefaf650aa488bcca158d13aa45afd905f78cb3ffcc5becaf4c68d5",
+      "redactions": {
+        "phone": 1,
+        "contact": 6
+      },
+      "read_status": "captured does not mean read; see per-record public_body_status and reading ledgers"
+    },
+    {
+      "source_path": "live/forum_search_results.json",
+      "category": "treehole",
+      "captured_bytes": 22447204,
+      "captured_sha256": "f1f164ab0158bffa1b4cd9369e046d35aa8af6cbaa50c486e7ead6cb11a9664e",
+      "stored_path": "live/forum_search_results.json.gz",
+      "stored_bytes": 1725737,
+      "stored_sha256": "839bab491831d939450865f53ab3561b43cc1159931290c6338df8cf7f8976c1",
+      "restored_bytes": 18525425,
+      "restored_sha256": "8f5d03e992a9bbe43806c2bbc0212b08932c7f61f1344ec9b2b70434d2a145cd",
+      "redactions": {
+        "email": 5,
+        "phone": 31,
+        "id_card": 1,
+        "contact": 9,
+        "share_password": 1,
+        "original_deleted": 130,
+        "signed_url": 2
+      },
+      "read_status": "captured does not mean read; see per-record public_body_status and reading ledgers"
+    },
+    {
+      "source_path": "query-plans/danke_alias_supplement.json",
+      "category": "research-ledgers",
+      "captured_bytes": 20016,
+      "captured_sha256": "1e9632c335e481ceb46dabaa36fce75da8b35338fa8d2ce3293013d8cfa6510d",
+      "stored_path": "query-plans/danke_alias_supplement.json.gz",
+      "stored_bytes": 1976,
+      "stored_sha256": "778081569cb183f70a1a217db17f7ea1c098249f3a84955004355e0f84f25bbf",
+      "restored_bytes": 13188,
+      "restored_sha256": "b258f95ca16fda9a9f9f0804eb53b784398447167f4fb5ce115d2b526b961bd6",
+      "redactions": {},
+      "read_status": "captured does not mean read; see per-record public_body_status and reading ledgers"
+    },
+    {
+      "source_path": "query-plans/danke_family_supplement.json",
+      "category": "research-ledgers",
+      "captured_bytes": 184583,
+      "captured_sha256": "68cde0f39c5ca45348a878bb19133800734ed903e5d8f131c6574893d9b52714",
+      "stored_path": "query-plans/danke_family_supplement.json.gz",
+      "stored_bytes": 4998,
+      "stored_sha256": "63745ef0ccdd8674490f5039d39e1a24496bed24ea573f0baf04a40b5e0353dd",
+      "restored_bytes": 93755,
+      "restored_sha256": "21d7d43d9c2a42d298b67628cd013aa4c22c6cb374847d04b9d7c4d96b924170",
+      "redactions": {},
+      "read_status": "captured does not mean read; see per-record public_body_status and reading ledgers"
+    },
+    {
+      "source_path": "query-plans/danke_queries.json",
+      "category": "research-ledgers",
+      "captured_bytes": 2808616,
+      "captured_sha256": "d167ccd92ed8276151ad41278d72e1feae5afa14807b200c423154bdd76e1757",
+      "stored_path": "query-plans/danke_queries.json.gz",
+      "stored_bytes": 100654,
+      "stored_sha256": "9f46f4689c1462f88b582f87d1ed4f844c93ab7e127ef5833ef07a653b6c9f2a",
+      "restored_bytes": 1579263,
+      "restored_sha256": "679092a4556974acc876dceb64cfd3a96fdaf5fcdc90e52b28ed3ed36216cb4b",
+      "redactions": {
+        "phone": 1,
+        "student_number": 1,
+        "contact": 6
+      },
+      "read_status": "captured does not mean read; see per-record public_body_status and reading ledgers"
+    },
+    {
+      "source_path": "query-plans/danke_thesis_supplement.json",
+      "category": "research-ledgers",
+      "captured_bytes": 11299,
+      "captured_sha256": "454f5a0e7e7e0179f38667c0e4b81e49cf92a6cc85165d58ef6b6a058cd23c3e",
+      "stored_path": "query-plans/danke_thesis_supplement.json.gz",
+      "stored_bytes": 972,
+      "stored_sha256": "15e3941fd031d46ddf21760b25c291472ce953711f3aae1dcfd8129119e75d25",
+      "restored_bytes": 6265,
+      "restored_sha256": "54302874b4b0f6dcf972a8c8de45b40ec44b53350413e0adcae06258b293d47c",
+      "redactions": {},
+      "read_status": "captured does not mean read; see per-record public_body_status and reading ledgers"
+    },
+    {
+      "source_path": "query-plans/forum_alias_supplement.json",
+      "category": "research-ledgers",
+      "captured_bytes": 20016,
+      "captured_sha256": "de94135f6ca98fc8dd0e33bba36b9185fd320e65b05dad666c3836597ba09be0",
+      "stored_path": "query-plans/forum_alias_supplement.json.gz",
+      "stored_bytes": 1979,
+      "stored_sha256": "0e350b082dbe93b0d1c0698f0b01c90518eb39dd957ab80932fef94b441b79fa",
+      "restored_bytes": 13188,
+      "restored_sha256": "8fbab0781358908e1c140148a37b586a747520b4da3cf951c4a1d98646e7a75c",
+      "redactions": {},
+      "read_status": "captured does not mean read; see per-record public_body_status and reading ledgers"
+    },
+    {
+      "source_path": "query-plans/forum_family_supplement.json",
+      "category": "research-ledgers",
+      "captured_bytes": 184583,
+      "captured_sha256": "8c03aae9e2d61eb15806c0298e4342065cae56c49772237cc80d22d198cc0572",
+      "stored_path": "query-plans/forum_family_supplement.json.gz",
+      "stored_bytes": 4993,
+      "stored_sha256": "f8171adb93850baa79d0f7ed715fcc2b80261f05fc82874dced434d71990f61d",
+      "restored_bytes": 93755,
+      "restored_sha256": "23c2f92177258bf99cf4c375c9a1670fdaaa9c8b7f70e7878afceb81d2e54eeb",
+      "redactions": {},
+      "read_status": "captured does not mean read; see per-record public_body_status and reading ledgers"
+    },
+    {
+      "source_path": "query-plans/forum_queries.json",
+      "category": "research-ledgers",
+      "captured_bytes": 2808616,
+      "captured_sha256": "0559a59945ca3f167dce0db3ab6a0890865218f203273ff4d7862a017994c9a6",
+      "stored_path": "query-plans/forum_queries.json.gz",
+      "stored_bytes": 100680,
+      "stored_sha256": "f9fa180b4a4ee1718716d4a4c7db99e7f46c4836cef7c1cf59f30b6475b665fe",
+      "restored_bytes": 1579263,
+      "restored_sha256": "8e380e84cd4d8c82791b153d13163a77b60c16fa550f0fb3d7bee17b34034f63",
+      "redactions": {
+        "phone": 1,
+        "contact": 6
+      },
+      "read_status": "captured does not mean read; see per-record public_body_status and reading ledgers"
+    },
+    {
+      "source_path": "query-plans/forum_thesis_supplement.json",
+      "category": "research-ledgers",
+      "captured_bytes": 11299,
+      "captured_sha256": "63ae9a969170878fa62b4465af1140747beb8491872dd3639f69131ccb3e89b5",
+      "stored_path": "query-plans/forum_thesis_supplement.json.gz",
+      "stored_bytes": 973,
+      "stored_sha256": "4f8f1e1830544d7fecc39329e6318d65e434a46c243fd228e9008e4ecec968bb",
+      "restored_bytes": 6265,
+      "restored_sha256": "aeb1404dc9145de63fb0521b679d6a928e6b63393bcf31d98468253e5e4cd366",
+      "redactions": {},
+      "read_status": "captured does not mean read; see per-record public_body_status and reading ledgers"
+    },
+    {
+      "source_path": "query-plans/generation-summary.json",
+      "category": "research-ledgers",
+      "captured_bytes": 1397,
+      "captured_sha256": "648cb7fd96e29bc1e1ca0ff607620817f906450d6e62c004b5b7f60343f2772d",
+      "stored_path": "query-plans/generation-summary.json.gz",
+      "stored_bytes": 293,
+      "stored_sha256": "588b68f25ef8cc8f2d80997703a8ddf37cd5de7cd00be3b82d91d3c0daffdc65",
+      "restored_bytes": 1085,
+      "restored_sha256": "b51793d3ca7357bb5481214b0200c56bc704f632288ccc57c44ccbdd4824ffe1",
+      "redactions": {},
+      "read_status": "captured does not mean read; see per-record public_body_status and reading ledgers"
+    },
+    {
+      "source_path": "official/2025秋-semester-504-page-1.json",
+      "category": "official-programs-and-outlines",
+      "captured_bytes": 106526,
+      "captured_sha256": "d424eaba05d038fda6c77af155114a43dba2a0649a46557b50bebe11080f3f00",
+      "stored_path": "official/2025秋-semester-504-page-1.json.gz",
+      "stored_bytes": 7947,
+      "stored_sha256": "80812c448b7d2a01ba876eac10bc14abb77dc71d4091048d1eff09cb22bc25ef",
+      "restored_bytes": 106527,
+      "restored_sha256": "c81e6297c21b355a4ab58eca79b7b05a7c6e73310757c950089ca49ee77f0670",
+      "redactions": {},
+      "read_status": "captured does not mean read; see per-record public_body_status and reading ledgers"
+    },
+    {
+      "source_path": "official/2025秋-国际文化交流学院教学班.json",
+      "category": "official-programs-and-outlines",
+      "captured_bytes": 166795,
+      "captured_sha256": "9e42fd79307ac4540ecb6599d302c259f800581ce067c2ee7025cfc2fd58e201",
+      "stored_path": "official/2025秋-国际文化交流学院教学班.json.gz",
+      "stored_bytes": 8028,
+      "stored_sha256": "705013a57b15c5fff949692527f34f9ddb5bcac174b5254473607a85052a7277",
+      "restored_bytes": 106625,
+      "restored_sha256": "99e0d366abb7fbb3d14deb931ae9683434c9ecc454c354e1a7a26fb1c2acd61c",
+      "redactions": {},
+      "read_status": "captured does not mean read; see per-record public_body_status and reading ledgers"
+    },
+    {
+      "source_path": "official/2026-plan-152712-detail.json",
+      "category": "official-programs-and-outlines",
+      "captured_bytes": 1044535,
+      "captured_sha256": "f0698a5bcbd64ef7499cf43e81a5b62f3b583d4288a0f63a2608a2120aa4af9d",
+      "stored_path": "official/2026-plan-152712-detail.json.gz",
+      "stored_bytes": 35447,
+      "stored_sha256": "c929745490e4234209248c23ad4e08809f55dad15d76d562076aa9936299acaa",
+      "restored_bytes": 1039827,
+      "restored_sha256": "5ca2e74ed97eb3180e3e4ce76f2d8a0e80470c5208750e898d90b96934f8f420",
+      "redactions": {
+        "removed_identity_or_secret_field": 277
+      },
+      "read_status": "captured does not mean read; see per-record public_body_status and reading ledgers"
+    },
+    {
+      "source_path": "official/2026-plan-152713-detail.json",
+      "category": "official-programs-and-outlines",
+      "captured_bytes": 1137752,
+      "captured_sha256": "71ad9cbcd28bc167f7539c839b34a225217308ef4ab6d8053f02122fe0812cbd",
+      "stored_path": "official/2026-plan-152713-detail.json.gz",
+      "stored_bytes": 37805,
+      "stored_sha256": "b165dd13cfd44e7ceacc883f71a5afe5f8b99b39c03d933a19d57859f5b73ac2",
+      "restored_bytes": 1132602,
+      "restored_sha256": "1d58772de3aae5e3c57a05806b34e9edad461d7eba7dbd1ab5528591aec31c67",
+      "redactions": {
+        "removed_identity_or_secret_field": 303
+      },
+      "read_status": "captured does not mean read; see per-record public_body_status and reading ledgers"
+    },
+    {
+      "source_path": "official/2026春-semester-505-page-1.json",
+      "category": "official-programs-and-outlines",
+      "captured_bytes": 124412,
+      "captured_sha256": "5afac69152691b1ba35e33cfa66dc5b09903f51fc76bcc7a05a654514b3d83b0",
+      "stored_path": "official/2026春-semester-505-page-1.json.gz",
+      "stored_bytes": 7889,
+      "stored_sha256": "c4921f9ec36abcc07970f1ff4d1043a4fec439fb30c3699b463e6131177949d9",
+      "restored_bytes": 124413,
+      "restored_sha256": "14e5b8fd4680057ae5130a9681dd4afccff11fa7b8e42acac30f4c92cb76d518",
+      "redactions": {},
+      "read_status": "captured does not mean read; see per-record public_body_status and reading ledgers"
+    },
+    {
+      "source_path": "official/2026春-国际文化交流学院教学班.json",
+      "category": "official-programs-and-outlines",
+      "captured_bytes": 196878,
+      "captured_sha256": "bce6f657a6a9ff1898da553a705170f7a0a401994b5cf149bff445f99fbd3e49",
+      "stored_path": "official/2026春-国际文化交流学院教学班.json.gz",
+      "stored_bytes": 7976,
+      "stored_sha256": "528a5e581fe3e0cf6f9add3c92cbbf1215edcd631c69c78be61568ff922586b1",
+      "restored_bytes": 124511,
+      "restored_sha256": "d31dcd11400fa5d33725fc057dbb63c05c932bba119603bcd7e7b0f9eb38e85f",
+      "redactions": {},
+      "read_status": "captured does not mean read; see per-record public_body_status and reading ledgers"
+    },
+    {
+      "source_path": "official/2026级国际文化交流学院方案目录.json",
+      "category": "official-programs-and-outlines",
+      "captured_bytes": 680,
+      "captured_sha256": "781069b4954c41c9c904927040ae49173e516c06cb489eefc2045db631d6406d",
+      "stored_path": "official/2026级国际文化交流学院方案目录.json.gz",
+      "stored_bytes": 350,
+      "stored_sha256": "640ecb3228420f51ad72366eefea5dc70542e87c2cf80ce42c2d6fd96402e058",
+      "restored_bytes": 681,
+      "restored_sha256": "8f7945e2f3aaec3ac364ea4aeb12dfafe1f2522daf3ce76663ed4df3eb37793f",
+      "redactions": {},
+      "read_status": "captured does not mean read; see per-record public_body_status and reading ledgers"
+    }
+  ],
+  "file_count": 24,
+  "redactions": {
+    "email": 5,
+    "phone": 39,
+    "student_number": 2,
+    "id_card": 1,
+    "contact": 33,
+    "share_password": 1,
+    "original_deleted": 143,
+    "signed_url": 2,
+    "removed_identity_or_secret_field": 580
+  },
+  "forum_body_counts": {
+    "context_bodies_retained": 166,
+    "context_bodies_withheld": 336,
+    "search_bodies_withheld": 19588,
+    "search_bodies_retained": 44
+  },
+  "counts": {
+    "forum_search_candidates": 19632,
+    "forum_context_holes": 63,
+    "forum_context_floors": 502,
+    "danke_search_groups": 616,
+    "danke_detail_groups": 369,
+    "danke_courses": 776,
+    "danke_reviews": 11,
+    "current_queries_per_service": 1361
+  },
+  "license_source": "https://danxi.fduhole.com/doc/community-user-agreement",
+  "license_note": "Community text default CC BY 4.0 unless authors state otherwise; source links and supplied anonymous labels retained. Deleted/restricted text withheld; identity/contact fields removed. Attribution absent from the captured cache is not invented. Official and external materials retain their own rights.",
+  "transformations": [
+    "Captured JSON structures and all result IDs/associations are retained; credential/identity/contact fields are removed.",
+    "Forum candidates not approved through course-thread reading retain metadata, query association and source URLs but omit body text.",
+    "Captured SHA-256 refers to the local acquisition file; restored SHA-256 refers to the public redacted canonical JSON, so these need not match.",
+    "No external-platform article full text or images were saved as a publishable raw capture; only real queries and reading logs are provided."
+  ]
+}
