@@ -4,4 +4,4 @@
 
 解压即可使用JSON与Word。压缩包SHA-256：`ed1f780e93940ff1c300a702f42cf8e7f1bb66afa9f759d18dbc1e5adc5cba20`。
 
-分支：`research/ssdpp-raw-data-20261030`。
+分支：`research/ssdpp-2025autumn-2026spring-20261030`。
