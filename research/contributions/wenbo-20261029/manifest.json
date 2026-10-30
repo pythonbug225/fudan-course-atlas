@@ -44,8 +44,8 @@
   "files": [
     {
       "path": ".gitattributes",
-      "bytes": 110,
-      "sha256": "a645734fc60b9ae97bf5013b5abae4bd61314cba9334f85fdd4397d924a8bb82"
+      "bytes": 212,
+      "sha256": "da9ee129568977285e5c53b47aa86e8ba131d3ef3245d72503c3415f2322afc4"
     },
     {
       "path": "course-summaries.md",
@@ -138,9 +138,194 @@
       "sha256": "abc224719819790605e0502df8abbc1d411bc93ecad0d85e1f1190da2bba9f6d"
     },
     {
+      "path": "raw/collected/danke_details_results.json.gz",
+      "bytes": 75507,
+      "sha256": "3d69815000ebbb7c6b5ba2bff0fa31793960f7018e81010ff3f55e3358198b17"
+    },
+    {
+      "path": "raw/collected/danke_search_results.json.gz",
+      "bytes": 18650,
+      "sha256": "95e960b9c6f2134b908118e269c3d68472b89cabd6550dcacd8b47318b3bcf31"
+    },
+    {
+      "path": "raw/collected/forum_context_results.json.gz",
+      "bytes": 23137,
+      "sha256": "40fe2a815e1186691fdb6d3bf19b230df38724b1c109ce04089f7f06302843d1"
+    },
+    {
+      "path": "raw/collected/forum_search_results.json.gz",
+      "bytes": 762839,
+      "sha256": "1a9400b60dc6a0a28df3b4b3f1d98e824e1823d36f208b921f71e85ae414b6f3"
+    },
+    {
+      "path": "raw/ledgers/danke_details_ledger.json.gz",
+      "bytes": 27903,
+      "sha256": "d2460e5f1e37b0b29eed8ae8e6807cb5d14b541c4bd0a6dbbbfcd0de3287ad18"
+    },
+    {
+      "path": "raw/ledgers/danke_search_ledger.json.gz",
+      "bytes": 37333,
+      "sha256": "c0af8564466cac3735563223a227fe97b5c64575e729ef3cd371eface2eab3e4"
+    },
+    {
+      "path": "raw/ledgers/forum_context_ledger.json.gz",
+      "bytes": 2774,
+      "sha256": "d5402e55515fa766a3e624d32575d3dcadefc2ef58b334648bceb07a0cbfc7a2"
+    },
+    {
+      "path": "raw/ledgers/forum_search_ledger.json.gz",
+      "bytes": 112821,
+      "sha256": "4515d1de4552dcbeaf63a847757c879543dd4fd6827152dd58a70c2c2ab64725"
+    },
+    {
+      "path": "raw/official/programme-docx/2026-plan-153095.docx",
+      "bytes": 195575,
+      "sha256": "bf20a852f7f0455c808baf634d80d1455f8c8814a058c6f8089e49ac82ba2c69"
+    },
+    {
+      "path": "raw/official/programme-docx/2026-plan-153131.docx",
+      "bytes": 683307,
+      "sha256": "9d05c480394eefb74bd21c8729302e8660505e5c5183a95daf29afe2897c14f0"
+    },
+    {
+      "path": "raw/official/programme-docx/2026-plan-153132.docx",
+      "bytes": 229692,
+      "sha256": "96f84b186c6a932792304b12095429c1db549e292b590bd763d13673950934f6"
+    },
+    {
+      "path": "raw/official/programme-docx/2026-plan-153178.docx",
+      "bytes": 232440,
+      "sha256": "8064cb51fe408e890437ad1b90046816577bb84f13768025c658aedc0d1711ee"
+    },
+    {
+      "path": "raw/official/programme-docx/2026-plan-154052.docx",
+      "bytes": 402794,
+      "sha256": "10da86bcd54046e3871b8ebd6771ce3cd752f8e5bb377943cc0900da082f2393"
+    },
+    {
+      "path": "raw/official/programme-docx/2026-plan-154238.docx",
+      "bytes": 214712,
+      "sha256": "2d6a0ee0372fc609dadcf0c74b5b235578d20cee27741049ec86add6a180fb51"
+    },
+    {
+      "path": "raw/official/programme-docx/2026-plan-154267.docx",
+      "bytes": 552544,
+      "sha256": "269c7617b0f0fd74d4f4a409d466c88d2ae29b61a6fad648e8fc50afe272f632"
+    },
+    {
+      "path": "raw/official/programme-modules.json.gz",
+      "bytes": 1244346,
+      "sha256": "220b20bfb4747888b4cd1bc16a73b95c8190636e35f17725651be776ed481df3"
+    },
+    {
+      "path": "raw/official/responses/2025秋文物与博物馆学系教学班-第1页.json",
+      "bytes": 84700,
+      "sha256": "98ea25356e53af349b776d0eae4a78024274dc7f757dc4c918df7bd1339a8486"
+    },
+    {
+      "path": "raw/official/responses/2026-plan-153095-detail.json.gz",
+      "bytes": 191198,
+      "sha256": "43eb2387685b8edc200eefab371f67b5592d061fe93f515ef3602588101affc4"
+    },
+    {
+      "path": "raw/official/responses/2026-plan-153131-detail.json.gz",
+      "bytes": 191213,
+      "sha256": "78fb62c9a6daf9339801afb4967208a5dcb4779f85781cf4e95ee18dfc7c802c"
+    },
+    {
+      "path": "raw/official/responses/2026-plan-153132-detail.json.gz",
+      "bytes": 172036,
+      "sha256": "908f15cbb5ff30f54651f08e955a90dc447fbed07cf0cce0eee46994bd298ebc"
+    },
+    {
+      "path": "raw/official/responses/2026-plan-153178-detail.json.gz",
+      "bytes": 176077,
+      "sha256": "4ea8afd12960188fb4aae809140bf93a22bd9441174e2f1db28231f520353ed4"
+    },
+    {
+      "path": "raw/official/responses/2026-plan-154052-detail.json.gz",
+      "bytes": 36964,
+      "sha256": "b5e447344fae082c650776b4bb643fa5bcf85f86923973a77f410a8de5cd4e98"
+    },
+    {
+      "path": "raw/official/responses/2026-plan-154238-detail.json.gz",
+      "bytes": 39710,
+      "sha256": "ff74fb2c4daf325b6949a04209631bc56ac589d89c2bafc6a3e4bf6e36e476b5"
+    },
+    {
+      "path": "raw/official/responses/2026-plan-154267-detail.json.gz",
+      "bytes": 26038,
+      "sha256": "9d1b82406e5d57cf91677ffad1132e4a8623fa9092504889cbade9e4e4c16254"
+    },
+    {
+      "path": "raw/official/responses/2026春文物与博物馆学系教学班-第1页.json",
+      "bytes": 73666,
+      "sha256": "ce2830848681f52ff029b34cf4fa6d616eb7f590010d9f7717507eaf5bfd9225"
+    },
+    {
+      "path": "raw/official/responses/2026级全校培养方案目录.json",
+      "bytes": 109636,
+      "sha256": "daf7342b38c0594f28a3df4c0b3e1c88388d1640e5a9a575f29a8f2c9fc7a75c"
+    },
+    {
+      "path": "raw/official/responses/2026级文物与博物馆学系培养方案目录.json",
+      "bytes": 1772,
+      "sha256": "dad5e80d64676a865e89e32a2481b44346e0a6c7bdb0e8b8eb1a470f3c62c6ed"
+    },
+    {
+      "path": "raw/query-plans/danke_queries.json.gz",
+      "bytes": 49636,
+      "sha256": "b6b5a2122601fad7d6a5750f6b0ae7092c4d1307cbe5ea4cc319fd4fe54966fa"
+    },
+    {
+      "path": "raw/query-plans/forum_queries.json.gz",
+      "bytes": 53482,
+      "sha256": "0edc6a62c962d2b454609009df1f4956ee47a771b2f942ab5f32b4f63baae022"
+    },
+    {
+      "path": "raw/reading/reviewed_danke.json.gz",
+      "bytes": 5721,
+      "sha256": "002758b03605647985bd9e9c5f2617ed7bf998ec98588ba35b9db7d8151b89d4"
+    },
+    {
+      "path": "raw/reading/reviewed_official.json.gz",
+      "bytes": 27726,
+      "sha256": "42987e80ec77d4f00347f3cc771f012c96b3c61b26cc6baed87b6f5f491f775c"
+    },
+    {
+      "path": "raw/reading/reviewed_public.json.gz",
+      "bytes": 14030,
+      "sha256": "5dc3c1b9c1c53db11a31e073f5c64d4f5f75cee04800f5478397fe8726bf403f"
+    },
+    {
+      "path": "raw/reading/reviewed_root.json.gz",
+      "bytes": 4041,
+      "sha256": "68bbfcdd7f05bbd6f7c60126a5f51802b4df8003fce017893dd59edabd4e3187"
+    },
+    {
+      "path": "raw/reading/reviewed_xhs.json.gz",
+      "bytes": 12621,
+      "sha256": "087a9a79fc3cf75a203447e1fdade4676d9ec35701df1172f08294575f1b95c8"
+    },
+    {
+      "path": "raw/README.md",
+      "bytes": 2532,
+      "sha256": "1d320e70016e72b65fc4f5e4d6b1b642d29efdc8ed875132ebf95e8987b0e90d"
+    },
+    {
+      "path": "raw/rights-and-exclusions.json",
+      "bytes": 945,
+      "sha256": "22fcc19912417561f6f0807eddba4d2088be8108551a6db6593453f79daf52ce"
+    },
+    {
+      "path": "raw/source-inventory.json",
+      "bytes": 33046,
+      "sha256": "9beeb327cea4fd49d3fec7ac1f120a7b14e02ffc3deb5264dcc4b63778169579"
+    },
+    {
       "path": "README.md",
-      "bytes": 4801,
-      "sha256": "2bd131b66424705a2ce9efcf2a05c0b86b9a281b90287d26ee2fecd3534e18e9"
+      "bytes": 5060,
+      "sha256": "34a26049a8c623faa15b5b950a75ccb7173da16ab7f66efc609028de64de9ef3"
     },
     {
       "path": "summaries/aliases.json",
@@ -193,5 +378,47 @@
     "sha256": "0fadb6c2b9ef66c06025e1e313980d63510c7cc581f4177090e084e6c1b8aaa3",
     "content": "7份官方Word原件、官方原始响应、157班开课表、133课程索引、220条匿名释义记录、检索与阅读台账、离线HTML报告",
     "excluded": "采集脚本、认证会话、凭据、个人身份与未整理论坛全文不在公开包内"
+  },
+  "raw_data": {
+    "path": "raw/README.md",
+    "inventory": "raw/source-inventory.json",
+    "statistics": {
+      "official_response_files": 11,
+      "official_word_files": 7,
+      "forum_search_hits": 17956,
+      "forum_context_holes": 24,
+      "forum_context_floors": 313,
+      "adopted_unique_forum_floors": 175,
+      "published_course_floor_bodies": 174,
+      "adopted_sensitive_bodies_withheld": 1,
+      "danke_search_groups": 452,
+      "danke_detail_groups": 239,
+      "danke_historical_courses": 1363,
+      "danke_reviews": 43,
+      "queries_per_service": 892,
+      "files": 34,
+      "stored_bytes": 6086641,
+      "floor_export_field_counts": {
+        "removed_personal_state_or_highlight_fields": 89780,
+        "outside_adopted_course_evidence": 17811,
+        "course_evidence_text_with_contact_redactions": 194,
+        "source_marked_sensitive": 264
+      },
+      "redactions": {
+        "email": 0,
+        "phone": 0,
+        "student_number": 0,
+        "id_card": 0,
+        "wechat_id": 0,
+        "chatroom_id": 0,
+        "jwt": 0,
+        "access_secret": 0,
+        "contact": 0,
+        "share_password": 0,
+        "inline_secret": 0,
+        "local_path": 0,
+        "original_deleted": 7
+      }
+    }
   }
 }

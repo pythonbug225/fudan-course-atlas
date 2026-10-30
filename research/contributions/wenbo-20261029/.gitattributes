@@ -1,3 +1,5 @@
 * -text
 # Official multiline schedule cells retain source trailing spaces.
 official/offerings.csv -whitespace
+# Byte-identical official JSON keeps original line endings.
+raw/official/responses/*.json -whitespace

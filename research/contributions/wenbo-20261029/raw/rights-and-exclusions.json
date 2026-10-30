@@ -1,0 +1,15 @@
+{
+  "community_agreement": "https://danxi.fduhole.com/doc/community-user-agreement",
+  "community_license": "CC BY 4.0 for author-owned text absent an explicit alternative declaration; original authors retain copyright.",
+  "source_author_attribution": "保留响应中可用的公开匿名名；无署名时保留原站课程、楼层或课评定位，不补造作者。",
+  "changes": "联系方式和认证/个人状态字段脱敏；非课程及敏感/删除/限制转载正文不公开；原始数据JSON经规范化，官方字节原件单独标注。",
+  "excluded": [
+    "认证会话、密码、Cookie、令牌、浏览器配置、个人教务数据",
+    "非课程及未采用候选正文；保留检索ID和关联元数据",
+    "平台标为敏感、已删除或作者禁止转载的正文",
+    "未取得正文的小红书/知乎/公众号内容，没有伪造raw响应"
+  ],
+  "adopted_sensitive_floor_ids": [
+    1735539
+  ]
+}
