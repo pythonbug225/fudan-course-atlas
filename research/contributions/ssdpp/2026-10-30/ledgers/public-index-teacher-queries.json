@@ -1,0 +1,3318 @@
+{
+  "researched_at": "2026-10-30",
+  "scope": "Fudan SSDPP official course/teacher target roster: 296 course codes (2025 autumn and 2026 spring), 143 unique instructors.",
+  "method": "Public web index only, not Edge-authenticated site search. Each instructor was queried individually with 复旦 + exact official roster name + (课评 OR 课堂 OR 选课 OR 课程评价); queries were submitted four per search call and grouped across Zhihu, WeChat article and Xiaohongshu domains. Combined response links are batch-level; association with any individual teacher is unconfirmed. Search snippets were not retained or treated as full text.",
+  "teacher_queries_executed": 143,
+  "unique_official_instructors": 143,
+  "coverage_fraction": "143/143",
+  "search_calls": 36,
+  "unique_candidate_urls": 358,
+  "hostnames": [
+    "daily.zhihu.com",
+    "pages.xiaohongshu.com",
+    "pgy.xiaohongshu.com",
+    "rpdc.xiaohongshu.com",
+    "www.zhihu.com",
+    "www2.zhihu.com",
+    "zhuanlan.zhihu.com"
+  ],
+  "platform_findings": {
+    "zhihu": "returned candidate URLs; many unrelated/general pages; not yet article-level classroom-review hits",
+    "xiaohongshu": "some indexed pages, mainly platform/vendor/admin or unrelated pages; no validated course-review hit",
+    "wechat": "no direct mp.weixin.qq.com URL in captured teacher-query links; this records index output only, not absence of in-platform content"
+  },
+  "individual_queries": [
+    {
+      "query_id": "T-001",
+      "teacher": "Horace Michel Ortiz (何瑞雪)",
+      "query": "site:zhihu.com OR site:mp.weixin.qq.com OR site:xiaohongshu.com 复旦 \"Horace Michel Ortiz (何瑞雪)\" (课评 OR 课堂 OR 选课 OR 课程评价)",
+      "source_file": "teacher_search_001_004.json",
+      "batch_id": "TEACHER-001-004",
+      "individual_status": "queried; results are batch-level and not attributed to this individual query",
+      "batch_status": "results_returned",
+      "batch_candidate_urls": 5,
+      "official_roster_course_codes": [
+        "SOCI50054",
+        "SOCI60007",
+        "SOCI60008"
+      ],
+      "official_roster_course_names": [
+        "政治人类学",
+        "经济人类学",
+        "高级人类学研究方法论II"
+      ]
+    },
+    {
+      "query_id": "T-002",
+      "teacher": "丁敬耘",
+      "query": "site:zhihu.com OR site:mp.weixin.qq.com OR site:xiaohongshu.com 复旦 \"丁敬耘\" (课评 OR 课堂 OR 选课 OR 课程评价)",
+      "source_file": "teacher_search_001_004.json",
+      "batch_id": "TEACHER-001-004",
+      "individual_status": "queried; results are batch-level and not attributed to this individual query",
+      "batch_status": "results_returned",
+      "batch_candidate_urls": 5,
+      "official_roster_course_codes": [
+        "APSY60022",
+        "GEMH10001"
+      ],
+      "official_roster_course_names": [
+        "组织心理学",
+        "新生命教育与心理健康"
+      ]
+    },
+    {
+      "query_id": "T-003",
+      "teacher": "丁玫",
+      "query": "site:zhihu.com OR site:mp.weixin.qq.com OR site:xiaohongshu.com 复旦 \"丁玫\" (课评 OR 课堂 OR 选课 OR 课程评价)",
+      "source_file": "teacher_search_001_004.json",
+      "batch_id": "TEACHER-001-004",
+      "individual_status": "queried; results are batch-level and not attributed to this individual query",
+      "batch_status": "results_returned",
+      "batch_candidate_urls": 5,
+      "official_roster_course_codes": [
+        "GECC10116",
+        "SOCI50030"
+      ],
+      "official_roster_course_names": [
+        "文化与社会",
+        "全球化和文化研究"
+      ]
+    },
+    {
+      "query_id": "T-004",
+      "teacher": "乐昕",
+      "query": "site:zhihu.com OR site:mp.weixin.qq.com OR site:xiaohongshu.com 复旦 \"乐昕\" (课评 OR 课堂 OR 选课 OR 课程评价)",
+      "source_file": "teacher_search_001_004.json",
+      "batch_id": "TEACHER-001-004",
+      "individual_status": "queried; results are batch-level and not attributed to this individual query",
+      "batch_status": "results_returned",
+      "batch_candidate_urls": 5,
+      "official_roster_course_codes": [
+        "GEIP40013"
+      ],
+      "official_roster_course_names": [
+        "新时代中国特色社会主义理论与实践"
+      ]
+    },
+    {
+      "query_id": "T-005",
+      "teacher": "付芳",
+      "query": "site:zhihu.com OR site:mp.weixin.qq.com OR site:xiaohongshu.com 复旦 \"付芳\" (课评 OR 课堂 OR 选课 OR 课程评价)",
+      "source_file": "teacher_search_005_036.json",
+      "batch_id": "TEACHER-005-008",
+      "individual_status": "queried; results are batch-level and not attributed to this individual query",
+      "batch_status": "links_returned",
+      "batch_candidate_urls": 12,
+      "official_roster_course_codes": [
+        "SWK30001",
+        "SWK30008",
+        "SWK30021",
+        "SWK40001",
+        "SWK50010",
+        "SWK60006"
+      ],
+      "official_roster_course_names": [
+        "个案工作",
+        "医疗社会工作",
+        "儿童社会工作理论与实务",
+        "毕业论文",
+        "高级医务社会工作实务",
+        "医务社会工作服务专题"
+      ]
+    },
+    {
+      "query_id": "T-006",
+      "teacher": "任远",
+      "query": "site:zhihu.com OR site:mp.weixin.qq.com OR site:xiaohongshu.com 复旦 \"任远\" (课评 OR 课堂 OR 选课 OR 课程评价)",
+      "source_file": "teacher_search_005_036.json",
+      "batch_id": "TEACHER-005-008",
+      "individual_status": "queried; results are batch-level and not attributed to this individual query",
+      "batch_status": "links_returned",
+      "batch_candidate_urls": 12,
+      "official_roster_course_codes": [
+        "SOCI30008",
+        "SOCI30018",
+        "SOCI50023",
+        "SOCI50033",
+        "SOCI50034"
+      ],
+      "official_roster_course_names": [
+        "人口社会学",
+        "人口分析",
+        "人口问题与社会政策"
+      ]
+    },
+    {
+      "query_id": "T-007",
+      "teacher": "俞志元",
+      "query": "site:zhihu.com OR site:mp.weixin.qq.com OR site:xiaohongshu.com 复旦 \"俞志元\" (课评 OR 课堂 OR 选课 OR 课程评价)",
+      "source_file": "teacher_search_005_036.json",
+      "batch_id": "TEACHER-005-008",
+      "individual_status": "queried; results are batch-level and not attributed to this individual query",
+      "batch_status": "links_returned",
+      "batch_candidate_urls": 12,
+      "official_roster_course_codes": [
+        "GECC10115",
+        "GEIN10049",
+        "GEIN10052",
+        "GEXZ10027",
+        "SOCI30010",
+        "SOCI40006",
+        "SOCI50037"
+      ],
+      "official_roster_course_names": [
+        "社会科学研究方法",
+        "社会问题和社会创新",
+        "社会问题和社会创新A",
+        "社会创新与设计思维",
+        "社会变迁",
+        "毕业论文",
+        "政治与社会"
+      ]
+    },
+    {
+      "query_id": "T-008",
+      "teacher": "傅博",
+      "query": "site:zhihu.com OR site:mp.weixin.qq.com OR site:xiaohongshu.com 复旦 \"傅博\" (课评 OR 课堂 OR 选课 OR 课程评价)",
+      "source_file": "teacher_search_005_036.json",
+      "batch_id": "TEACHER-005-008",
+      "individual_status": "queried; results are batch-level and not attributed to this individual query",
+      "batch_status": "links_returned",
+      "batch_candidate_urls": 12,
+      "official_roster_course_codes": [
+        "GESP10004"
+      ],
+      "official_roster_course_names": [
+        "强国之路:形势、政策与使命II"
+      ]
+    },
+    {
+      "query_id": "T-009",
+      "teacher": "刘勇",
+      "query": "site:zhihu.com OR site:mp.weixin.qq.com OR site:xiaohongshu.com 复旦 \"刘勇\" (课评 OR 课堂 OR 选课 OR 课程评价)",
+      "source_file": "teacher_search_005_036.json",
+      "batch_id": "TEACHER-009-012",
+      "individual_status": "queried; results are batch-level and not attributed to this individual query",
+      "batch_status": "links_returned",
+      "batch_candidate_urls": 12,
+      "official_roster_course_codes": [
+        "SWK40002",
+        "SWK40003"
+      ],
+      "official_roster_course_names": [
+        "社会工作实习(一)",
+        "社会工作实习(二)"
+      ]
+    },
+    {
+      "query_id": "T-010",
+      "teacher": "刘小琳",
+      "query": "site:zhihu.com OR site:mp.weixin.qq.com OR site:xiaohongshu.com 复旦 \"刘小琳\" (课评 OR 课堂 OR 选课 OR 课程评价)",
+      "source_file": "teacher_search_005_036.json",
+      "batch_id": "TEACHER-009-012",
+      "individual_status": "queried; results are batch-level and not attributed to this individual query",
+      "batch_status": "links_returned",
+      "batch_candidate_urls": 12,
+      "official_roster_course_codes": [
+        "GEMH10013",
+        "GEMH10014",
+        "GEMH10018"
+      ],
+      "official_roster_course_names": [
+        "心理健康与大学生活",
+        "大学生心理健康与发展",
+        "朋辈心理辅导理论与实践"
+      ]
+    },
+    {
+      "query_id": "T-011",
+      "teacher": "刘思佳",
+      "query": "site:zhihu.com OR site:mp.weixin.qq.com OR site:xiaohongshu.com 复旦 \"刘思佳\" (课评 OR 课堂 OR 选课 OR 课程评价)",
+      "source_file": "teacher_search_005_036.json",
+      "batch_id": "TEACHER-009-012",
+      "individual_status": "queried; results are batch-level and not attributed to this individual query",
+      "batch_status": "links_returned",
+      "batch_candidate_urls": 12,
+      "official_roster_course_codes": [
+        "APSY60015",
+        "MAA60001",
+        "PSYC30028"
+      ],
+      "official_roster_course_names": [
+        "产品设计和用户体验研究",
+        "老年心理与行为",
+        "高级实验技术(二)"
+      ]
+    },
+    {
+      "query_id": "T-012",
+      "teacher": "刘欣",
+      "query": "site:zhihu.com OR site:mp.weixin.qq.com OR site:xiaohongshu.com 复旦 \"刘欣\" (课评 OR 课堂 OR 选课 OR 课程评价)",
+      "source_file": "teacher_search_005_036.json",
+      "batch_id": "TEACHER-009-012",
+      "individual_status": "queried; results are batch-level and not attributed to this individual query",
+      "batch_status": "links_returned",
+      "batch_candidate_urls": 12,
+      "official_roster_course_codes": [
+        "SOCI30020",
+        "SOCI30020h",
+        "SOCI40006",
+        "SOCI40009",
+        "SOCI40010h",
+        "SOCI50025"
+      ],
+      "official_roster_course_names": [
+        "古典社会学理论",
+        "古典社会学理论(H)",
+        "毕业论文",
+        "高级社会研究方法",
+        "社会学研究 (高级研讨)(H)",
+        "社会分层与流动"
+      ]
+    },
+    {
+      "query_id": "T-013",
+      "teacher": "刘畅",
+      "query": "site:zhihu.com OR site:mp.weixin.qq.com OR site:xiaohongshu.com 复旦 \"刘畅\" (课评 OR 课堂 OR 选课 OR 课程评价)",
+      "source_file": "teacher_search_005_036.json",
+      "batch_id": "TEACHER-013-016",
+      "individual_status": "queried; results are batch-level and not attributed to this individual query",
+      "batch_status": "links_returned",
+      "batch_candidate_urls": 12,
+      "official_roster_course_codes": [
+        "GESP10004"
+      ],
+      "official_roster_course_names": [
+        "强国之路:形势、政策与使命II"
+      ]
+    },
+    {
+      "query_id": "T-014",
+      "teacher": "卢暾",
+      "query": "site:zhihu.com OR site:mp.weixin.qq.com OR site:xiaohongshu.com 复旦 \"卢暾\" (课评 OR 课堂 OR 选课 OR 课程评价)",
+      "source_file": "teacher_search_005_036.json",
+      "batch_id": "TEACHER-013-016",
+      "individual_status": "queried; results are batch-level and not attributed to this individual query",
+      "batch_status": "links_returned",
+      "batch_candidate_urls": 12,
+      "official_roster_course_codes": [
+        "CS60021"
+      ],
+      "official_roster_course_names": [
+        "社会计算"
+      ]
+    },
+    {
+      "query_id": "T-015",
+      "teacher": "卢洋",
+      "query": "site:zhihu.com OR site:mp.weixin.qq.com OR site:xiaohongshu.com 复旦 \"卢洋\" (课评 OR 课堂 OR 选课 OR 课程评价)",
+      "source_file": "teacher_search_005_036.json",
+      "batch_id": "TEACHER-013-016",
+      "individual_status": "queried; results are batch-level and not attributed to this individual query",
+      "batch_status": "links_returned",
+      "batch_candidate_urls": 12,
+      "official_roster_course_codes": [
+        "AIS731001",
+        "PSYC30024",
+        "PSYC60001"
+      ],
+      "official_roster_course_names": [
+        "认知科学AI工程",
+        "心理学研究技术与数据处理",
+        "认知神经科学专题"
+      ]
+    },
+    {
+      "query_id": "T-016",
+      "teacher": "吕晶",
+      "query": "site:zhihu.com OR site:mp.weixin.qq.com OR site:xiaohongshu.com 复旦 \"吕晶\" (课评 OR 课堂 OR 选课 OR 课程评价)",
+      "source_file": "teacher_search_005_036.json",
+      "batch_id": "TEACHER-013-016",
+      "individual_status": "queried; results are batch-level and not attributed to this individual query",
+      "batch_status": "links_returned",
+      "batch_candidate_urls": 12,
+      "official_roster_course_codes": [
+        "GEMH10008",
+        "PSYC30018",
+        "PSYC40006",
+        "SOCI30029"
+      ],
+      "official_roster_course_names": [
+        "幸福心理学",
+        "心理统计学(二)",
+        "高级心理统计分析",
+        "统计软件应用"
+      ]
+    },
+    {
+      "query_id": "T-017",
+      "teacher": "吴国宏",
+      "query": "site:zhihu.com OR site:mp.weixin.qq.com OR site:xiaohongshu.com 复旦 \"吴国宏\" (课评 OR 课堂 OR 选课 OR 课程评价)",
+      "source_file": "teacher_search_005_036.json",
+      "batch_id": "TEACHER-017-020",
+      "individual_status": "queried; results are batch-level and not attributed to this individual query",
+      "batch_status": "links_returned",
+      "batch_candidate_urls": 12,
+      "official_roster_course_codes": [
+        "APSY60001",
+        "PSYC20001",
+        "PSYC30003",
+        "PSYC30003h",
+        "PSYC40001",
+        "PSYC60002"
+      ],
+      "official_roster_course_names": [
+        "发展心理学专题",
+        "心理学导论",
+        "发展心理学",
+        "发展心理学(H)",
+        "毕业论文",
+        "应用心理学专题"
+      ]
+    },
+    {
+      "query_id": "T-018",
+      "teacher": "吴开亚",
+      "query": "site:zhihu.com OR site:mp.weixin.qq.com OR site:xiaohongshu.com 复旦 \"吴开亚\" (课评 OR 课堂 OR 选课 OR 课程评价)",
+      "source_file": "teacher_search_005_036.json",
+      "batch_id": "TEACHER-017-020",
+      "individual_status": "queried; results are batch-level and not attributed to this individual query",
+      "batch_status": "links_returned",
+      "batch_candidate_urls": 12,
+      "official_roster_course_codes": [
+        "SOCI50058"
+      ],
+      "official_roster_course_names": [
+        "老龄社会研究专题"
+      ]
+    },
+    {
+      "query_id": "T-019",
+      "teacher": "吴捷",
+      "query": "site:zhihu.com OR site:mp.weixin.qq.com OR site:xiaohongshu.com 复旦 \"吴捷\" (课评 OR 课堂 OR 选课 OR 课程评价)",
+      "source_file": "teacher_search_005_036.json",
+      "batch_id": "TEACHER-017-020",
+      "individual_status": "queried; results are batch-level and not attributed to this individual query",
+      "batch_status": "links_returned",
+      "batch_candidate_urls": 12,
+      "official_roster_course_codes": [
+        "GEMH10014"
+      ],
+      "official_roster_course_names": [
+        "大学生心理健康与发展"
+      ]
+    },
+    {
+      "query_id": "T-020",
+      "teacher": "吴敬",
+      "query": "site:zhihu.com OR site:mp.weixin.qq.com OR site:xiaohongshu.com 复旦 \"吴敬\" (课评 OR 课堂 OR 选课 OR 课程评价)",
+      "source_file": "teacher_search_005_036.json",
+      "batch_id": "TEACHER-017-020",
+      "individual_status": "queried; results are batch-level and not attributed to this individual query",
+      "batch_status": "links_returned",
+      "batch_candidate_urls": 12,
+      "official_roster_course_codes": [
+        "GESP20004"
+      ],
+      "official_roster_course_names": [
+        "强国之路:形势、政策与使命IV"
+      ]
+    },
+    {
+      "query_id": "T-021",
+      "teacher": "吴玉韶",
+      "query": "site:zhihu.com OR site:mp.weixin.qq.com OR site:xiaohongshu.com 复旦 \"吴玉韶\" (课评 OR 课堂 OR 选课 OR 课程评价)",
+      "source_file": "teacher_search_005_036.json",
+      "batch_id": "TEACHER-021-024",
+      "individual_status": "queried; results are batch-level and not attributed to this individual query",
+      "batch_status": "links_returned",
+      "batch_candidate_urls": 12,
+      "official_roster_course_codes": [
+        "MAA60002"
+      ],
+      "official_roster_course_names": [
+        "银发经济专题"
+      ]
+    },
+    {
+      "query_id": "T-022",
+      "teacher": "吴玉飞",
+      "query": "site:zhihu.com OR site:mp.weixin.qq.com OR site:xiaohongshu.com 复旦 \"吴玉飞\" (课评 OR 课堂 OR 选课 OR 课程评价)",
+      "source_file": "teacher_search_005_036.json",
+      "batch_id": "TEACHER-021-024",
+      "individual_status": "queried; results are batch-level and not attributed to this individual query",
+      "batch_status": "links_returned",
+      "batch_candidate_urls": 12,
+      "official_roster_course_codes": [
+        "GEMH10014"
+      ],
+      "official_roster_course_names": [
+        "大学生心理健康与发展"
+      ]
+    },
+    {
+      "query_id": "T-023",
+      "teacher": "吴菲",
+      "query": "site:zhihu.com OR site:mp.weixin.qq.com OR site:xiaohongshu.com 复旦 \"吴菲\" (课评 OR 课堂 OR 选课 OR 课程评价)",
+      "source_file": "teacher_search_005_036.json",
+      "batch_id": "TEACHER-021-024",
+      "individual_status": "queried; results are batch-level and not attributed to this individual query",
+      "batch_status": "links_returned",
+      "batch_candidate_urls": 12,
+      "official_roster_course_codes": [
+        "MSP60004",
+        "SOCI20001",
+        "SOCI20004",
+        "SOCI40006"
+      ],
+      "official_roster_course_names": [
+        "统计分析进阶",
+        "社会学导论",
+        "理解当代中国社会",
+        "毕业论文"
+      ]
+    },
+    {
+      "query_id": "T-024",
+      "teacher": "周子涵",
+      "query": "site:zhihu.com OR site:mp.weixin.qq.com OR site:xiaohongshu.com 复旦 \"周子涵\" (课评 OR 课堂 OR 选课 OR 课程评价)",
+      "source_file": "teacher_search_005_036.json",
+      "batch_id": "TEACHER-021-024",
+      "individual_status": "queried; results are batch-level and not attributed to this individual query",
+      "batch_status": "links_returned",
+      "batch_candidate_urls": 12,
+      "official_roster_course_codes": [
+        "GEMH10009",
+        "GEMH10014",
+        "GEMH10018"
+      ],
+      "official_roster_course_names": [
+        "两性心理学",
+        "大学生心理健康与发展",
+        "朋辈心理辅导理论与实践"
+      ]
+    },
+    {
+      "query_id": "T-025",
+      "teacher": "周杨",
+      "query": "site:zhihu.com OR site:mp.weixin.qq.com OR site:xiaohongshu.com 复旦 \"周杨\" (课评 OR 课堂 OR 选课 OR 课程评价)",
+      "source_file": "teacher_search_005_036.json",
+      "batch_id": "TEACHER-025-028",
+      "individual_status": "queried; results are batch-level and not attributed to this individual query",
+      "batch_status": "links_returned",
+      "batch_candidate_urls": 12,
+      "official_roster_course_codes": [
+        "GESP20004"
+      ],
+      "official_roster_course_names": [
+        "强国之路:形势、政策与使命IV"
+      ]
+    },
+    {
+      "query_id": "T-026",
+      "teacher": "周楚",
+      "query": "site:zhihu.com OR site:mp.weixin.qq.com OR site:xiaohongshu.com 复旦 \"周楚\" (课评 OR 课堂 OR 选课 OR 课程评价)",
+      "source_file": "teacher_search_005_036.json",
+      "batch_id": "TEACHER-025-028",
+      "individual_status": "queried; results are batch-level and not attributed to this individual query",
+      "batch_status": "links_returned",
+      "batch_candidate_urls": 12,
+      "official_roster_course_codes": [
+        "APSY70002",
+        "PSYC30001",
+        "PSYC30002",
+        "PSYC30002h",
+        "PSYC40001",
+        "PSYC40004"
+      ],
+      "official_roster_course_names": [
+        "实验心理学专题",
+        "实验心理学(上)",
+        "实验心理学(下)",
+        "实验心理学(下)(H)",
+        "毕业论文",
+        "心理实验研究设计"
+      ]
+    },
+    {
+      "query_id": "T-027",
+      "teacher": "哈丽努·哈力木拉提",
+      "query": "site:zhihu.com OR site:mp.weixin.qq.com OR site:xiaohongshu.com 复旦 \"哈丽努·哈力木拉提\" (课评 OR 课堂 OR 选课 OR 课程评价)",
+      "source_file": "teacher_search_005_036.json",
+      "batch_id": "TEACHER-025-028",
+      "individual_status": "queried; results are batch-level and not attributed to this individual query",
+      "batch_status": "links_returned",
+      "batch_candidate_urls": 12,
+      "official_roster_course_codes": [
+        "GEMH10010",
+        "GEMH10014"
+      ],
+      "official_roster_course_names": [
+        "大学生心理健康导论",
+        "大学生心理健康与发展"
+      ]
+    },
+    {
+      "query_id": "T-028",
+      "teacher": "唐诗蕊",
+      "query": "site:zhihu.com OR site:mp.weixin.qq.com OR site:xiaohongshu.com 复旦 \"唐诗蕊\" (课评 OR 课堂 OR 选课 OR 课程评价)",
+      "source_file": "teacher_search_005_036.json",
+      "batch_id": "TEACHER-025-028",
+      "individual_status": "queried; results are batch-level and not attributed to this individual query",
+      "batch_status": "links_returned",
+      "batch_candidate_urls": 12,
+      "official_roster_course_codes": [
+        "GEMH10014"
+      ],
+      "official_roster_course_names": [
+        "大学生心理健康与发展"
+      ]
+    },
+    {
+      "query_id": "T-029",
+      "teacher": "夏学花",
+      "query": "site:zhihu.com OR site:mp.weixin.qq.com OR site:xiaohongshu.com 复旦 \"夏学花\" (课评 OR 课堂 OR 选课 OR 课程评价)",
+      "source_file": "teacher_search_005_036.json",
+      "batch_id": "TEACHER-029-032",
+      "individual_status": "queried; results are batch-level and not attributed to this individual query",
+      "batch_status": "links_returned",
+      "batch_candidate_urls": 10,
+      "official_roster_course_codes": [
+        "GESP10004"
+      ],
+      "official_roster_course_names": [
+        "强国之路:形势、政策与使命II"
+      ]
+    },
+    {
+      "query_id": "T-030",
+      "teacher": "孙剑",
+      "query": "site:zhihu.com OR site:mp.weixin.qq.com OR site:xiaohongshu.com 复旦 \"孙剑\" (课评 OR 课堂 OR 选课 OR 课程评价)",
+      "source_file": "teacher_search_005_036.json",
+      "batch_id": "TEACHER-029-032",
+      "individual_status": "queried; results are batch-level and not attributed to this individual query",
+      "batch_status": "links_returned",
+      "batch_candidate_urls": 10,
+      "official_roster_course_codes": [
+        "GESP20004"
+      ],
+      "official_roster_course_names": [
+        "强国之路:形势、政策与使命IV"
+      ]
+    },
+    {
+      "query_id": "T-031",
+      "teacher": "孙婕",
+      "query": "site:zhihu.com OR site:mp.weixin.qq.com OR site:xiaohongshu.com 复旦 \"孙婕\" (课评 OR 课堂 OR 选课 OR 课程评价)",
+      "source_file": "teacher_search_005_036.json",
+      "batch_id": "TEACHER-029-032",
+      "individual_status": "queried; results are batch-level and not attributed to this individual query",
+      "batch_status": "links_returned",
+      "batch_candidate_urls": 10,
+      "official_roster_course_codes": [
+        "SWK50019"
+      ],
+      "official_roster_course_names": [
+        "志愿服务管理与发展"
+      ]
+    },
+    {
+      "query_id": "T-032",
+      "teacher": "孙时进",
+      "query": "site:zhihu.com OR site:mp.weixin.qq.com OR site:xiaohongshu.com 复旦 \"孙时进\" (课评 OR 课堂 OR 选课 OR 课程评价)",
+      "source_file": "teacher_search_005_036.json",
+      "batch_id": "TEACHER-029-032",
+      "individual_status": "queried; results are batch-level and not attributed to this individual query",
+      "batch_status": "links_returned",
+      "batch_candidate_urls": 10,
+      "official_roster_course_codes": [
+        "APSY60017",
+        "PSYC30006h",
+        "PSYC60006",
+        "PSYC70013",
+        "SOCI70006"
+      ],
+      "official_roster_course_names": [
+        "健康心理学",
+        "社会心理学(H)",
+        "高级社会心理学前沿进展",
+        "健康心理学专题",
+        "社会心理学著作选读"
+      ]
+    },
+    {
+      "query_id": "T-033",
+      "teacher": "孙未未",
+      "query": "site:zhihu.com OR site:mp.weixin.qq.com OR site:xiaohongshu.com 复旦 \"孙未未\" (课评 OR 课堂 OR 选课 OR 课程评价)",
+      "source_file": "teacher_search_005_036.json",
+      "batch_id": "TEACHER-033-036",
+      "individual_status": "queried; results are batch-level and not attributed to this individual query",
+      "batch_status": "links_returned",
+      "batch_candidate_urls": 12,
+      "official_roster_course_codes": [
+        "GESP20004"
+      ],
+      "official_roster_course_names": [
+        "强国之路:形势、政策与使命IV"
+      ]
+    },
+    {
+      "query_id": "T-034",
+      "teacher": "孙林",
+      "query": "site:zhihu.com OR site:mp.weixin.qq.com OR site:xiaohongshu.com 复旦 \"孙林\" (课评 OR 课堂 OR 选课 OR 课程评价)",
+      "source_file": "teacher_search_005_036.json",
+      "batch_id": "TEACHER-033-036",
+      "individual_status": "queried; results are batch-level and not attributed to this individual query",
+      "batch_status": "links_returned",
+      "batch_candidate_urls": 12,
+      "official_roster_course_codes": [
+        "GESP20004"
+      ],
+      "official_roster_course_names": [
+        "强国之路:形势、政策与使命IV"
+      ]
+    },
+    {
+      "query_id": "T-035",
+      "teacher": "孙鑫伟",
+      "query": "site:zhihu.com OR site:mp.weixin.qq.com OR site:xiaohongshu.com 复旦 \"孙鑫伟\" (课评 OR 课堂 OR 选课 OR 课程评价)",
+      "source_file": "teacher_search_005_036.json",
+      "batch_id": "TEACHER-033-036",
+      "individual_status": "queried; results are batch-level and not attributed to this individual query",
+      "batch_status": "links_returned",
+      "batch_candidate_urls": 12,
+      "official_roster_course_codes": [
+        "GESP20004"
+      ],
+      "official_roster_course_names": [
+        "强国之路:形势、政策与使命IV"
+      ]
+    },
+    {
+      "query_id": "T-036",
+      "teacher": "宋靓珺",
+      "query": "site:zhihu.com OR site:mp.weixin.qq.com OR site:xiaohongshu.com 复旦 \"宋靓珺\" (课评 OR 课堂 OR 选课 OR 课程评价)",
+      "source_file": "teacher_search_005_036.json",
+      "batch_id": "TEACHER-033-036",
+      "individual_status": "queried; results are batch-level and not attributed to this individual query",
+      "batch_status": "links_returned",
+      "batch_candidate_urls": 12,
+      "official_roster_course_codes": [
+        "MAA60003",
+        "SOCI50058"
+      ],
+      "official_roster_course_names": [
+        "老龄社会治理",
+        "老龄社会研究专题"
+      ]
+    },
+    {
+      "query_id": "T-037",
+      "teacher": "尹娜",
+      "query": "site:zhihu.com OR site:mp.weixin.qq.com OR site:xiaohongshu.com 复旦 \"尹娜\" (课评 OR 课堂 OR 选课 OR 课程评价)",
+      "source_file": "teacher_search_037_040.json",
+      "batch_id": "TEACHER-037-040",
+      "individual_status": "queried; results are batch-level and not attributed to this individual query",
+      "batch_status": "links_returned",
+      "batch_candidate_urls": 10,
+      "official_roster_course_codes": [
+        "GEMH10014"
+      ],
+      "official_roster_course_names": [
+        "大学生心理健康与发展"
+      ]
+    },
+    {
+      "query_id": "T-038",
+      "teacher": "干一卿",
+      "query": "site:zhihu.com OR site:mp.weixin.qq.com OR site:xiaohongshu.com 复旦 \"干一卿\" (课评 OR 课堂 OR 选课 OR 课程评价)",
+      "source_file": "teacher_search_037_040.json",
+      "batch_id": "TEACHER-037-040",
+      "individual_status": "queried; results are batch-level and not attributed to this individual query",
+      "batch_status": "links_returned",
+      "batch_candidate_urls": 10,
+      "official_roster_course_codes": [
+        "SOCI30032"
+      ],
+      "official_roster_course_names": [
+        "论文写作"
+      ]
+    },
+    {
+      "query_id": "T-039",
+      "teacher": "张丽红",
+      "query": "site:zhihu.com OR site:mp.weixin.qq.com OR site:xiaohongshu.com 复旦 \"张丽红\" (课评 OR 课堂 OR 选课 OR 课程评价)",
+      "source_file": "teacher_search_037_040.json",
+      "batch_id": "TEACHER-037-040",
+      "individual_status": "queried; results are batch-level and not attributed to this individual query",
+      "batch_status": "links_returned",
+      "batch_candidate_urls": 10,
+      "official_roster_course_codes": [
+        "GEMH10015"
+      ],
+      "official_roster_course_names": [
+        "咨询心理学与心智成长"
+      ]
+    },
+    {
+      "query_id": "T-040",
+      "teacher": "张伊娜",
+      "query": "site:zhihu.com OR site:mp.weixin.qq.com OR site:xiaohongshu.com 复旦 \"张伊娜\" (课评 OR 课堂 OR 选课 OR 课程评价)",
+      "source_file": "teacher_search_037_040.json",
+      "batch_id": "TEACHER-037-040",
+      "individual_status": "queried; results are batch-level and not attributed to this individual query",
+      "batch_status": "links_returned",
+      "batch_candidate_urls": 10,
+      "official_roster_course_codes": [
+        "AIT410018",
+        "GESP10004",
+        "GESP20003",
+        "MANA60071",
+        "MSP60001"
+      ],
+      "official_roster_course_names": [
+        "大数据与社会科学",
+        "强国之路:形势、政策与使命II",
+        "强国之路:形势、政策与使命III",
+        "地理信息系统(GIS)在社会科学中的应用",
+        "GIS技术与应用"
+      ]
+    },
+    {
+      "query_id": "T-041",
+      "teacher": "张佳安",
+      "query": "site:zhihu.com OR site:mp.weixin.qq.com OR site:xiaohongshu.com 复旦 \"张佳安\" (课评 OR 课堂 OR 选课 OR 课程评价)",
+      "source_file": "teacher_search_041_044.json",
+      "batch_id": "TEACHER-041-044",
+      "individual_status": "queried; results are batch-level and not attributed to this individual query",
+      "batch_status": "links_returned",
+      "batch_candidate_urls": 12,
+      "official_roster_course_codes": [
+        "MAA70002",
+        "SOCI30006",
+        "SOCI30006h",
+        "SOCI30037",
+        "SOCI30037h",
+        "SWK50014",
+        "SWK60002"
+      ],
+      "official_roster_course_names": [
+        "老年社会工作实务",
+        "社会统计学",
+        "社会统计学(H)",
+        "统计软件应用",
+        "统计软件应用(H)",
+        "老年社会工作研究专题",
+        "社会工作研究方法"
+      ]
+    },
+    {
+      "query_id": "T-042",
+      "teacher": "张学新",
+      "query": "site:zhihu.com OR site:mp.weixin.qq.com OR site:xiaohongshu.com 复旦 \"张学新\" (课评 OR 课堂 OR 选课 OR 课程评价)",
+      "source_file": "teacher_search_041_044.json",
+      "batch_id": "TEACHER-041-044",
+      "individual_status": "queried; results are batch-level and not attributed to this individual query",
+      "batch_status": "links_returned",
+      "batch_candidate_urls": 12,
+      "official_roster_course_codes": [
+        "PSYC30025"
+      ],
+      "official_roster_course_names": [
+        "认知神经科学导论"
+      ]
+    },
+    {
+      "query_id": "T-043",
+      "teacher": "张巍",
+      "query": "site:zhihu.com OR site:mp.weixin.qq.com OR site:xiaohongshu.com 复旦 \"张巍\" (课评 OR 课堂 OR 选课 OR 课程评价)",
+      "source_file": "teacher_search_041_044.json",
+      "batch_id": "TEACHER-041-044",
+      "individual_status": "queried; results are batch-level and not attributed to this individual query",
+      "batch_status": "links_returned",
+      "batch_candidate_urls": 12,
+      "official_roster_course_codes": [
+        "GESP20004"
+      ],
+      "official_roster_course_names": [
+        "强国之路:形势、政策与使命IV"
+      ]
+    },
+    {
+      "query_id": "T-044",
+      "teacher": "张弛",
+      "query": "site:zhihu.com OR site:mp.weixin.qq.com OR site:xiaohongshu.com 复旦 \"张弛\" (课评 OR 课堂 OR 选课 OR 课程评价)",
+      "source_file": "teacher_search_041_044.json",
+      "batch_id": "TEACHER-041-044",
+      "individual_status": "queried; results are batch-level and not attributed to this individual query",
+      "batch_status": "links_returned",
+      "batch_candidate_urls": 12,
+      "official_roster_course_codes": [
+        "GEMH10009",
+        "GEMH10014"
+      ],
+      "official_roster_course_names": [
+        "两性心理学",
+        "大学生心理健康与发展"
+      ]
+    },
+    {
+      "query_id": "T-045",
+      "teacher": "张心洁",
+      "query": "site:zhihu.com OR site:mp.weixin.qq.com OR site:xiaohongshu.com 复旦 \"张心洁\" (课评 OR 课堂 OR 选课 OR 课程评价)",
+      "source_file": "teacher_search_045_048.json",
+      "batch_id": "TEACHER-045-048",
+      "individual_status": "queried; results are batch-level and not attributed to this individual query",
+      "batch_status": "links_returned",
+      "batch_candidate_urls": 12,
+      "official_roster_course_codes": [
+        "SOCI30003",
+        "SOCI30035",
+        "SOCI40005",
+        "SOCI40006",
+        "SOCI50045"
+      ],
+      "official_roster_course_names": [
+        "社区研究",
+        "质性研究方法",
+        "社会调查实践(二)",
+        "毕业论文",
+        "移民社会学"
+      ]
+    },
+    {
+      "query_id": "T-046",
+      "teacher": "张琳琳",
+      "query": "site:zhihu.com OR site:mp.weixin.qq.com OR site:xiaohongshu.com 复旦 \"张琳琳\" (课评 OR 课堂 OR 选课 OR 课程评价)",
+      "source_file": "teacher_search_045_048.json",
+      "batch_id": "TEACHER-045-048",
+      "individual_status": "queried; results are batch-level and not attributed to this individual query",
+      "batch_status": "links_returned",
+      "batch_candidate_urls": 12,
+      "official_roster_course_codes": [
+        "ECON60022",
+        "GEEC10408"
+      ],
+      "official_roster_course_names": [
+        "高级计量经济学II",
+        "人口经济学"
+      ]
+    },
+    {
+      "query_id": "T-047",
+      "teacher": "张聪",
+      "query": "site:zhihu.com OR site:mp.weixin.qq.com OR site:xiaohongshu.com 复旦 \"张聪\" (课评 OR 课堂 OR 选课 OR 课程评价)",
+      "source_file": "teacher_search_045_048.json",
+      "batch_id": "TEACHER-045-048",
+      "individual_status": "queried; results are batch-level and not attributed to this individual query",
+      "batch_status": "links_returned",
+      "batch_candidate_urls": 12,
+      "official_roster_course_codes": [
+        "SOCI30035",
+        "SOCI60002",
+        "SOCI60010"
+      ],
+      "official_roster_course_names": [
+        "质性研究方法",
+        "文化人类学研究方法",
+        "高级人类学研究方法论"
+      ]
+    },
+    {
+      "query_id": "T-048",
+      "teacher": "张艺琼",
+      "query": "site:zhihu.com OR site:mp.weixin.qq.com OR site:xiaohongshu.com 复旦 \"张艺琼\" (课评 OR 课堂 OR 选课 OR 课程评价)",
+      "source_file": "teacher_search_045_048.json",
+      "batch_id": "TEACHER-045-048",
+      "individual_status": "queried; results are batch-level and not attributed to this individual query",
+      "batch_status": "links_returned",
+      "batch_candidate_urls": 12,
+      "official_roster_course_codes": [
+        "GESP20004"
+      ],
+      "official_roster_course_names": [
+        "强国之路:形势、政策与使命IV"
+      ]
+    },
+    {
+      "query_id": "T-049",
+      "teacher": "张震",
+      "query": "site:zhihu.com OR site:mp.weixin.qq.com OR site:xiaohongshu.com 复旦 \"张震\" (课评 OR 课堂 OR 选课 OR 课程评价)",
+      "source_file": "teacher_search_049_052.json",
+      "batch_id": "TEACHER-049-052",
+      "individual_status": "queried; results are batch-level and not attributed to this individual query",
+      "batch_status": "links_returned",
+      "batch_candidate_urls": 9,
+      "official_roster_course_codes": [
+        "GEEC10398",
+        "GEEC10407",
+        "SOCI50059"
+      ],
+      "official_roster_course_names": [
+        "21世纪的人口老龄化:挑战与机遇",
+        "19世纪以来人类死亡率简史",
+        "老年学理论"
+      ]
+    },
+    {
+      "query_id": "T-050",
+      "teacher": "张鹏",
+      "query": "site:zhihu.com OR site:mp.weixin.qq.com OR site:xiaohongshu.com 复旦 \"张鹏\" (课评 OR 课堂 OR 选课 OR 课程评价)",
+      "source_file": "teacher_search_049_052.json",
+      "batch_id": "TEACHER-049-052",
+      "individual_status": "queried; results are batch-level and not attributed to this individual query",
+      "batch_status": "links_returned",
+      "batch_candidate_urls": 9,
+      "official_roster_course_codes": [
+        "CS60021"
+      ],
+      "official_roster_course_names": [
+        "社会计算"
+      ]
+    },
+    {
+      "query_id": "T-051",
+      "teacher": "彭希哲",
+      "query": "site:zhihu.com OR site:mp.weixin.qq.com OR site:xiaohongshu.com 复旦 \"彭希哲\" (课评 OR 课堂 OR 选课 OR 课程评价)",
+      "source_file": "teacher_search_049_052.json",
+      "batch_id": "TEACHER-049-052",
+      "individual_status": "queried; results are batch-level and not attributed to this individual query",
+      "batch_status": "links_returned",
+      "batch_candidate_urls": 9,
+      "official_roster_course_codes": [
+        "SOCI50018"
+      ],
+      "official_roster_course_names": [
+        "人口与发展导论"
+      ]
+    },
+    {
+      "query_id": "T-052",
+      "teacher": "徐佳",
+      "query": "site:zhihu.com OR site:mp.weixin.qq.com OR site:xiaohongshu.com 复旦 \"徐佳\" (课评 OR 课堂 OR 选课 OR 课程评价)",
+      "source_file": "teacher_search_049_052.json",
+      "batch_id": "TEACHER-049-052",
+      "individual_status": "queried; results are batch-level and not attributed to this individual query",
+      "batch_status": "links_returned",
+      "batch_candidate_urls": 9,
+      "official_roster_course_codes": [
+        "GESP20004"
+      ],
+      "official_roster_course_names": [
+        "强国之路:形势、政策与使命IV"
+      ]
+    },
+    {
+      "query_id": "T-053",
+      "teacher": "徐建牛",
+      "query": "site:zhihu.com OR site:mp.weixin.qq.com OR site:xiaohongshu.com 复旦 \"徐建牛\" (课评 OR 课堂 OR 选课 OR 课程评价)",
+      "source_file": "teacher_search_053_056.json",
+      "batch_id": "TEACHER-053-056",
+      "individual_status": "queried; results are batch-level and not attributed to this individual query",
+      "batch_status": "links_returned",
+      "batch_candidate_urls": 12,
+      "official_roster_course_codes": [
+        "SOCI20001",
+        "SOCI30012"
+      ],
+      "official_roster_course_names": [
+        "社会学导论",
+        "农村社会学"
+      ]
+    },
+    {
+      "query_id": "T-054",
+      "teacher": "徐文艳",
+      "query": "site:zhihu.com OR site:mp.weixin.qq.com OR site:xiaohongshu.com 复旦 \"徐文艳\" (课评 OR 课堂 OR 选课 OR 课程评价)",
+      "source_file": "teacher_search_053_056.json",
+      "batch_id": "TEACHER-053-056",
+      "individual_status": "queried; results are batch-level and not attributed to this individual query",
+      "batch_status": "links_returned",
+      "batch_candidate_urls": 12,
+      "official_roster_course_codes": [
+        "APSY60021",
+        "GESP10004",
+        "SWK30002",
+        "SWK30012",
+        "SWK40004",
+        "SWK50013"
+      ],
+      "official_roster_course_names": [
+        "青少年精神健康与家庭系统评估",
+        "强国之路:形势、政策与使命II",
+        "小组工作",
+        "家庭治疗",
+        "社会工作技巧实验",
+        "精神卫生机构内的社会工作服务"
+      ]
+    },
+    {
+      "query_id": "T-055",
+      "teacher": "徐珂",
+      "query": "site:zhihu.com OR site:mp.weixin.qq.com OR site:xiaohongshu.com 复旦 \"徐珂\" (课评 OR 课堂 OR 选课 OR 课程评价)",
+      "source_file": "teacher_search_053_056.json",
+      "batch_id": "TEACHER-053-056",
+      "individual_status": "queried; results are batch-level and not attributed to this individual query",
+      "batch_status": "links_returned",
+      "batch_candidate_urls": 12,
+      "official_roster_course_codes": [
+        "SOCI20001",
+        "SOCI30022",
+        "SOCI40008",
+        "SOCI50057"
+      ],
+      "official_roster_course_names": [
+        "社会学导论",
+        "西方社会思想史",
+        "社会学理论",
+        "社会共生论"
+      ]
+    },
+    {
+      "query_id": "T-056",
+      "teacher": "徐邦柱",
+      "query": "site:zhihu.com OR site:mp.weixin.qq.com OR site:xiaohongshu.com 复旦 \"徐邦柱\" (课评 OR 课堂 OR 选课 OR 课程评价)",
+      "source_file": "teacher_search_053_056.json",
+      "batch_id": "TEACHER-053-056",
+      "individual_status": "queried; results are batch-level and not attributed to this individual query",
+      "batch_status": "links_returned",
+      "batch_candidate_urls": 12,
+      "official_roster_course_codes": [
+        "GEMH10014",
+        "GESP20004"
+      ],
+      "official_roster_course_names": [
+        "大学生心理健康与发展",
+        "强国之路:形势、政策与使命IV"
+      ]
+    },
+    {
+      "query_id": "T-057",
+      "teacher": "方士心",
+      "query": "site:zhihu.com OR site:mp.weixin.qq.com OR site:xiaohongshu.com 复旦 \"方士心\" (课评 OR 课堂 OR 选课 OR 课程评价)",
+      "source_file": "teacher_search_057_060.json",
+      "batch_id": "TEACHER-057-060",
+      "individual_status": "queried; results are batch-level and not attributed to this individual query",
+      "batch_status": "links_returned",
+      "batch_candidate_urls": 12,
+      "official_roster_course_codes": [
+        "GEMH10010"
+      ],
+      "official_roster_course_names": [
+        "大学生心理健康导论"
+      ]
+    },
+    {
+      "query_id": "T-058",
+      "teacher": "施鸿鹏",
+      "query": "site:zhihu.com OR site:mp.weixin.qq.com OR site:xiaohongshu.com 复旦 \"施鸿鹏\" (课评 OR 课堂 OR 选课 OR 课程评价)",
+      "source_file": "teacher_search_057_060.json",
+      "batch_id": "TEACHER-057-060",
+      "individual_status": "queried; results are batch-level and not attributed to this individual query",
+      "batch_status": "links_returned",
+      "batch_candidate_urls": 12,
+      "official_roster_course_codes": [
+        "GESP20004"
+      ],
+      "official_roster_course_names": [
+        "强国之路:形势、政策与使命IV"
+      ]
+    },
+    {
+      "query_id": "T-059",
+      "teacher": "曲文",
+      "query": "site:zhihu.com OR site:mp.weixin.qq.com OR site:xiaohongshu.com 复旦 \"曲文\" (课评 OR 课堂 OR 选课 OR 课程评价)",
+      "source_file": "teacher_search_057_060.json",
+      "batch_id": "TEACHER-057-060",
+      "individual_status": "queried; results are batch-level and not attributed to this individual query",
+      "batch_status": "links_returned",
+      "batch_candidate_urls": 12,
+      "official_roster_course_codes": [
+        "APSY70009"
+      ],
+      "official_roster_course_names": [
+        "应用心理统计学"
+      ]
+    },
+    {
+      "query_id": "T-060",
+      "teacher": "曹珉",
+      "query": "site:zhihu.com OR site:mp.weixin.qq.com OR site:xiaohongshu.com 复旦 \"曹珉\" (课评 OR 课堂 OR 选课 OR 课程评价)",
+      "source_file": "teacher_search_057_060.json",
+      "batch_id": "TEACHER-057-060",
+      "individual_status": "queried; results are batch-level and not attributed to this individual query",
+      "batch_status": "links_returned",
+      "batch_candidate_urls": 12,
+      "official_roster_course_codes": [
+        "GESP20004"
+      ],
+      "official_roster_course_names": [
+        "强国之路:形势、政策与使命IV"
+      ]
+    },
+    {
+      "query_id": "T-061",
+      "teacher": "曹高举",
+      "query": "site:zhihu.com OR site:mp.weixin.qq.com OR site:xiaohongshu.com 复旦 \"曹高举\" (课评 OR 课堂 OR 选课 OR 课程评价)",
+      "source_file": "teacher_search_061_064.json",
+      "batch_id": "TEACHER-061-064",
+      "individual_status": "queried; results are batch-level and not attributed to this individual query",
+      "batch_status": "links_returned",
+      "batch_candidate_urls": 5,
+      "official_roster_course_codes": [
+        "GEMH10008",
+        "GEMH10013"
+      ],
+      "official_roster_course_names": [
+        "幸福心理学",
+        "心理健康与大学生活"
+      ]
+    },
+    {
+      "query_id": "T-062",
+      "teacher": "朱剑峰",
+      "query": "site:zhihu.com OR site:mp.weixin.qq.com OR site:xiaohongshu.com 复旦 \"朱剑峰\" (课评 OR 课堂 OR 选课 OR 课程评价)",
+      "source_file": "teacher_search_061_064.json",
+      "batch_id": "TEACHER-061-064",
+      "individual_status": "queried; results are batch-level and not attributed to this individual query",
+      "batch_status": "links_returned",
+      "batch_candidate_urls": 5,
+      "official_roster_course_codes": [
+        "SOCI30038",
+        "SOCI60003",
+        "SOCI80001"
+      ],
+      "official_roster_course_names": [
+        "医学人类学",
+        "科技人类学"
+      ]
+    },
+    {
+      "query_id": "T-063",
+      "teacher": "朱勤",
+      "query": "site:zhihu.com OR site:mp.weixin.qq.com OR site:xiaohongshu.com 复旦 \"朱勤\" (课评 OR 课堂 OR 选课 OR 课程评价)",
+      "source_file": "teacher_search_061_064.json",
+      "batch_id": "TEACHER-061-064",
+      "individual_status": "queried; results are batch-level and not attributed to this individual query",
+      "batch_status": "links_returned",
+      "batch_candidate_urls": 5,
+      "official_roster_course_codes": [
+        "GEEC10010",
+        "GEEC10011",
+        "MANA50017",
+        "MANA60073"
+      ],
+      "official_roster_course_names": [
+        "人口老龄化与社会政策应对",
+        "政策模拟与计算社会科学",
+        "老年社会保障与社会服务",
+        "政策模拟与实验II"
+      ]
+    },
+    {
+      "query_id": "T-064",
+      "teacher": "朱春艳",
+      "query": "site:zhihu.com OR site:mp.weixin.qq.com OR site:xiaohongshu.com 复旦 \"朱春艳\" (课评 OR 课堂 OR 选课 OR 课程评价)",
+      "source_file": "teacher_search_061_064.json",
+      "batch_id": "TEACHER-061-064",
+      "individual_status": "queried; results are batch-level and not attributed to this individual query",
+      "batch_status": "links_returned",
+      "batch_candidate_urls": 5,
+      "official_roster_course_codes": [
+        "GEMH10009"
+      ],
+      "official_roster_course_names": [
+        "两性心理学"
+      ]
+    },
+    {
+      "query_id": "T-065",
+      "teacher": "朱晨海",
+      "query": "site:zhihu.com OR site:mp.weixin.qq.com OR site:xiaohongshu.com 复旦 \"朱晨海\" (课评 OR 课堂 OR 选课 OR 课程评价)",
+      "source_file": "teacher_search_065_068.json",
+      "batch_id": "TEACHER-065-068",
+      "individual_status": "queried; results are batch-level and not attributed to this individual query",
+      "batch_status": "links_returned",
+      "batch_candidate_urls": 12,
+      "official_roster_course_codes": [
+        "SWK30005",
+        "SWK30005h",
+        "SWK30011",
+        "SWK50007"
+      ],
+      "official_roster_course_names": [
+        "人类行为与社会环境",
+        "人类行为与社会环境(H)",
+        "变态心理学",
+        "社会服务评估"
+      ]
+    },
+    {
+      "query_id": "T-066",
+      "teacher": "朱磊",
+      "query": "site:zhihu.com OR site:mp.weixin.qq.com OR site:xiaohongshu.com 复旦 \"朱磊\" (课评 OR 课堂 OR 选课 OR 课程评价)",
+      "source_file": "teacher_search_065_068.json",
+      "batch_id": "TEACHER-065-068",
+      "individual_status": "queried; results are batch-level and not attributed to this individual query",
+      "batch_status": "links_returned",
+      "batch_candidate_urls": 12,
+      "official_roster_course_codes": [
+        "APSY70010",
+        "PSYC30004",
+        "PSYC30012",
+        "PSYC60005"
+      ],
+      "official_roster_course_names": [
+        "高级心理学研究方法",
+        "认知心理学",
+        "心理实验设计与研究方法",
+        "心理学研究技术"
+      ]
+    },
+    {
+      "query_id": "T-067",
+      "teacher": "朱臻雯",
+      "query": "site:zhihu.com OR site:mp.weixin.qq.com OR site:xiaohongshu.com 复旦 \"朱臻雯\" (课评 OR 课堂 OR 选课 OR 课程评价)",
+      "source_file": "teacher_search_065_068.json",
+      "batch_id": "TEACHER-065-068",
+      "individual_status": "queried; results are batch-level and not attributed to this individual query",
+      "batch_status": "links_returned",
+      "batch_candidate_urls": 12,
+      "official_roster_course_codes": [
+        "GEMH10017"
+      ],
+      "official_roster_course_names": [
+        "静心冥想与心理健康"
+      ]
+    },
+    {
+      "query_id": "T-068",
+      "teacher": "李婧",
+      "query": "site:zhihu.com OR site:mp.weixin.qq.com OR site:xiaohongshu.com 复旦 \"李婧\" (课评 OR 课堂 OR 选课 OR 课程评价)",
+      "source_file": "teacher_search_065_068.json",
+      "batch_id": "TEACHER-065-068",
+      "individual_status": "queried; results are batch-level and not attributed to this individual query",
+      "batch_status": "links_returned",
+      "batch_candidate_urls": 12,
+      "official_roster_course_codes": [
+        "GESP10004",
+        "PSYC20001",
+        "PSYC30014",
+        "PSYC30026",
+        "PSYC40001",
+        "SOCI30032"
+      ],
+      "official_roster_course_names": [
+        "强国之路:形势、政策与使命II",
+        "心理学导论",
+        "智力心理学",
+        "心理学质性研究方法",
+        "毕业论文",
+        "论文写作"
+      ]
+    },
+    {
+      "query_id": "T-069",
+      "teacher": "李强",
+      "query": "site:zhihu.com OR site:mp.weixin.qq.com OR site:xiaohongshu.com 复旦 \"李强\" (课评 OR 课堂 OR 选课 OR 课程评价)",
+      "source_file": "teacher_search_069_072.json",
+      "batch_id": "TEACHER-069-072",
+      "individual_status": "queried; results are batch-level and not attributed to this individual query",
+      "batch_status": "links_returned",
+      "batch_candidate_urls": 12,
+      "official_roster_course_codes": [
+        "GEEC10398",
+        "GEEC10407",
+        "SOCI50055",
+        "SOCI50059"
+      ],
+      "official_roster_course_names": [
+        "21世纪的人口老龄化:挑战与机遇",
+        "19世纪以来人类死亡率简史",
+        "健康老龄化研究专题",
+        "老年学理论"
+      ]
+    },
+    {
+      "query_id": "T-070",
+      "teacher": "李晓茹",
+      "query": "site:zhihu.com OR site:mp.weixin.qq.com OR site:xiaohongshu.com 复旦 \"李晓茹\" (课评 OR 课堂 OR 选课 OR 课程评价)",
+      "source_file": "teacher_search_069_072.json",
+      "batch_id": "TEACHER-069-072",
+      "individual_status": "queried; results are batch-level and not attributed to this individual query",
+      "batch_status": "links_returned",
+      "batch_candidate_urls": 12,
+      "official_roster_course_codes": [
+        "APSY60005",
+        "PSYC30010",
+        "PSYC30023",
+        "PSYC30023h",
+        "PSYC40001",
+        "PSYC70005"
+      ],
+      "official_roster_course_names": [
+        "心理咨询与治疗的理论与实务专题",
+        "临床心理学",
+        "变态心理学",
+        "变态心理学(H)",
+        "毕业论文",
+        "临床心理学专题"
+      ]
+    },
+    {
+      "query_id": "T-071",
+      "teacher": "李洁",
+      "query": "site:zhihu.com OR site:mp.weixin.qq.com OR site:xiaohongshu.com 复旦 \"李洁\" (课评 OR 课堂 OR 选课 OR 课程评价)",
+      "source_file": "teacher_search_069_072.json",
+      "batch_id": "TEACHER-069-072",
+      "individual_status": "queried; results are batch-level and not attributed to this individual query",
+      "batch_status": "links_returned",
+      "batch_candidate_urls": 12,
+      "official_roster_course_codes": [
+        "GEMH10010"
+      ],
+      "official_roster_course_names": [
+        "大学生心理健康导论"
+      ]
+    },
+    {
+      "query_id": "T-072",
+      "teacher": "李淑臻",
+      "query": "site:zhihu.com OR site:mp.weixin.qq.com OR site:xiaohongshu.com 复旦 \"李淑臻\" (课评 OR 课堂 OR 选课 OR 课程评价)",
+      "source_file": "teacher_search_069_072.json",
+      "batch_id": "TEACHER-069-072",
+      "individual_status": "queried; results are batch-level and not attributed to this individual query",
+      "batch_status": "links_returned",
+      "batch_candidate_urls": 12,
+      "official_roster_course_codes": [
+        "GEMH10009",
+        "GEMH10016"
+      ],
+      "official_roster_course_names": [
+        "两性心理学",
+        "国学涵养与心理成长"
+      ]
+    },
+    {
+      "query_id": "T-073",
+      "teacher": "李煜",
+      "query": "site:zhihu.com OR site:mp.weixin.qq.com OR site:xiaohongshu.com 复旦 \"李煜\" (课评 OR 课堂 OR 选课 OR 课程评价)",
+      "source_file": "teacher_search_073_076.json",
+      "batch_id": "TEACHER-073-076",
+      "individual_status": "queried; results are batch-level and not attributed to this individual query",
+      "batch_status": "links_returned",
+      "batch_candidate_urls": 10,
+      "official_roster_course_codes": [
+        "SOCI30026",
+        "SOCI30026h",
+        "SOCI40006",
+        "SOCI80002"
+      ],
+      "official_roster_course_names": [
+        "社会分层与流动",
+        "社会分层与流动(H)",
+        "毕业论文",
+        "高级社会学习明纳I"
+      ]
+    },
+    {
+      "query_id": "T-074",
+      "teacher": "李雪",
+      "query": "site:zhihu.com OR site:mp.weixin.qq.com OR site:xiaohongshu.com 复旦 \"李雪\" (课评 OR 课堂 OR 选课 OR 课程评价)",
+      "source_file": "teacher_search_073_076.json",
+      "batch_id": "TEACHER-073-076",
+      "individual_status": "queried; results are batch-level and not attributed to this individual query",
+      "batch_status": "links_returned",
+      "batch_candidate_urls": 10,
+      "official_roster_course_codes": [
+        "GESP20003",
+        "GESP20004",
+        "MSP50004",
+        "SOCI10003",
+        "SOCI30009",
+        "SOCI30009h",
+        "SOCI40006",
+        "SOCI60004",
+        "SOCI60005"
+      ],
+      "official_roster_course_names": [
+        "强国之路:形势、政策与使命III",
+        "强国之路:形势、政策与使命IV",
+        "社会学与社会政策",
+        "社会研究方法基础",
+        "组织社会学",
+        "组织社会学(H)",
+        "毕业论文",
+        "社会学习明纳I",
+        "社会学习明纳II"
+      ]
+    },
+    {
+      "query_id": "T-075",
+      "teacher": "杜世超",
+      "query": "site:zhihu.com OR site:mp.weixin.qq.com OR site:xiaohongshu.com 复旦 \"杜世超\" (课评 OR 课堂 OR 选课 OR 课程评价)",
+      "source_file": "teacher_search_073_076.json",
+      "batch_id": "TEACHER-073-076",
+      "individual_status": "queried; results are batch-level and not attributed to this individual query",
+      "batch_status": "links_returned",
+      "batch_candidate_urls": 10,
+      "official_roster_course_codes": [
+        "GESP20003",
+        "GESP20004",
+        "MSP50002",
+        "SOCI10001",
+        "SOCI30006h",
+        "SOCI30023",
+        "SOCI30026",
+        "SOCI30026h",
+        "SOCI30047",
+        "SOCI40002",
+        "SOCI40006",
+        "SOCI50002",
+        "SOCI50026"
+      ],
+      "official_roster_course_names": [
+        "强国之路:形势、政策与使命III",
+        "强国之路:形势、政策与使命IV",
+        "家庭社会学",
+        "社会学视野下的青年",
+        "社会统计学(H)",
+        "文化社会学",
+        "社会分层与流动",
+        "社会分层与流动(H)",
+        "青年社会学",
+        "专业外语",
+        "毕业论文"
+      ]
+    },
+    {
+      "query_id": "T-076",
+      "teacher": "杜佳璐",
+      "query": "site:zhihu.com OR site:mp.weixin.qq.com OR site:xiaohongshu.com 复旦 \"杜佳璐\" (课评 OR 课堂 OR 选课 OR 课程评价)",
+      "source_file": "teacher_search_073_076.json",
+      "batch_id": "TEACHER-073-076",
+      "individual_status": "queried; results are batch-level and not attributed to this individual query",
+      "batch_status": "links_returned",
+      "batch_candidate_urls": 10,
+      "official_roster_course_codes": [
+        "GEMH10010"
+      ],
+      "official_roster_course_names": [
+        "大学生心理健康导论"
+      ]
+    },
+    {
+      "query_id": "T-077",
+      "teacher": "桂勇",
+      "query": "site:zhihu.com OR site:mp.weixin.qq.com OR site:xiaohongshu.com 复旦 \"桂勇\" (课评 OR 课堂 OR 选课 OR 课程评价)",
+      "source_file": "teacher_search_077_080.json",
+      "batch_id": "TEACHER-077-080",
+      "individual_status": "queried; results are batch-level and not attributed to this individual query",
+      "batch_status": "links_returned",
+      "batch_candidate_urls": 8,
+      "official_roster_course_codes": [
+        "GESP10004",
+        "MSP50003",
+        "SOCI30004",
+        "SOCI30033",
+        "SOCI30033h",
+        "SOCI40006",
+        "SOCI60014"
+      ],
+      "official_roster_course_names": [
+        "强国之路:形势、政策与使命II",
+        "当代中国社会",
+        "经济社会学",
+        "互联网与社会研究",
+        "互联网与社会研究(H)",
+        "毕业论文",
+        "经济社会学研究"
+      ]
+    },
+    {
+      "query_id": "T-078",
+      "teacher": "梁鸿",
+      "query": "site:zhihu.com OR site:mp.weixin.qq.com OR site:xiaohongshu.com 复旦 \"梁鸿\" (课评 OR 课堂 OR 选课 OR 课程评价)",
+      "source_file": "teacher_search_077_080.json",
+      "batch_id": "TEACHER-077-080",
+      "individual_status": "queried; results are batch-level and not attributed to this individual query",
+      "batch_status": "links_returned",
+      "batch_candidate_urls": 8,
+      "official_roster_course_codes": [
+        "MANA50009",
+        "MANA50010"
+      ],
+      "official_roster_course_names": [
+        "社会管理与社会政策研究",
+        "社会保障制度与政策研究"
+      ]
+    },
+    {
+      "query_id": "T-079",
+      "teacher": "梅笑",
+      "query": "site:zhihu.com OR site:mp.weixin.qq.com OR site:xiaohongshu.com 复旦 \"梅笑\" (课评 OR 课堂 OR 选课 OR 课程评价)",
+      "source_file": "teacher_search_077_080.json",
+      "batch_id": "TEACHER-077-080",
+      "individual_status": "queried; results are batch-level and not attributed to this individual query",
+      "batch_status": "links_returned",
+      "batch_candidate_urls": 8,
+      "official_roster_course_codes": [
+        "SOCI30021",
+        "SOCI30023",
+        "SOCI30042",
+        "SOCI40005",
+        "SOCI40006",
+        "SOCI70001",
+        "SOCI80003",
+        "SOCI80004"
+      ],
+      "official_roster_course_names": [
+        "当代社会学理论",
+        "文化社会学",
+        "文化与健康",
+        "社会调查实践(二)",
+        "毕业论文",
+        "高级社会学理论研读",
+        "高级社会学习明纳II",
+        "高级社会学习明纳III"
+      ]
+    },
+    {
+      "query_id": "T-080",
+      "teacher": "沈可",
+      "query": "site:zhihu.com OR site:mp.weixin.qq.com OR site:xiaohongshu.com 复旦 \"沈可\" (课评 OR 课堂 OR 选课 OR 课程评价)",
+      "source_file": "teacher_search_077_080.json",
+      "batch_id": "TEACHER-077-080",
+      "individual_status": "queried; results are batch-level and not attributed to this individual query",
+      "batch_status": "links_returned",
+      "batch_candidate_urls": 8,
+      "official_roster_course_codes": [
+        "GEEC10392",
+        "SOCI50003"
+      ],
+      "official_roster_course_names": [
+        "中国人口与发展",
+        "Chinese Demography and Social Policy"
+      ]
+    },
+    {
+      "query_id": "T-081",
+      "teacher": "沈奕斐",
+      "query": "site:zhihu.com OR site:mp.weixin.qq.com OR site:xiaohongshu.com 复旦 \"沈奕斐\" (课评 OR 课堂 OR 选课 OR 课程评价)",
+      "source_file": "teacher_search_081_084.json",
+      "batch_id": "TEACHER-081-084",
+      "individual_status": "queried; results are batch-level and not attributed to this individual query",
+      "batch_status": "links_returned",
+      "batch_candidate_urls": 12,
+      "official_roster_course_codes": [
+        "GEEC10385",
+        "SOCI30030",
+        "SOCI30040",
+        "SOCI40006",
+        "SOCI50038"
+      ],
+      "official_roster_course_names": [
+        "视觉文化与社会性别",
+        "婚姻与家庭",
+        "情感社会学",
+        "毕业论文",
+        "婚姻与家庭社会学"
+      ]
+    },
+    {
+      "query_id": "T-082",
+      "teacher": "沈洁",
+      "query": "site:zhihu.com OR site:mp.weixin.qq.com OR site:xiaohongshu.com 复旦 \"沈洁\" (课评 OR 课堂 OR 选课 OR 课程评价)",
+      "source_file": "teacher_search_081_084.json",
+      "batch_id": "TEACHER-081-084",
+      "individual_status": "queried; results are batch-level and not attributed to this individual query",
+      "batch_status": "links_returned",
+      "batch_candidate_urls": 12,
+      "official_roster_course_codes": [
+        "ECON50021",
+        "GECC10117",
+        "SOCI30034",
+        "SOCI50002",
+        "SOCI50006",
+        "SWK50008"
+      ],
+      "official_roster_course_names": [
+        "人口资源与环境经济学专题",
+        "城市化与发展",
+        "社会调查方法",
+        "专业外语",
+        "中国城市化与发展",
+        "比较社会政策"
+      ]
+    },
+    {
+      "query_id": "T-083",
+      "teacher": "沈超",
+      "query": "site:zhihu.com OR site:mp.weixin.qq.com OR site:xiaohongshu.com 复旦 \"沈超\" (课评 OR 课堂 OR 选课 OR 课程评价)",
+      "source_file": "teacher_search_081_084.json",
+      "batch_id": "TEACHER-081-084",
+      "individual_status": "queried; results are batch-level and not attributed to this individual query",
+      "batch_status": "links_returned",
+      "batch_candidate_urls": 12,
+      "official_roster_course_codes": [
+        "GESP20004"
+      ],
+      "official_roster_course_names": [
+        "强国之路:形势、政策与使命IV"
+      ]
+    },
+    {
+      "query_id": "T-084",
+      "teacher": "洪浏",
+      "query": "site:zhihu.com OR site:mp.weixin.qq.com OR site:xiaohongshu.com 复旦 \"洪浏\" (课评 OR 课堂 OR 选课 OR 课程评价)",
+      "source_file": "teacher_search_081_084.json",
+      "batch_id": "TEACHER-081-084",
+      "individual_status": "queried; results are batch-level and not attributed to this individual query",
+      "batch_status": "links_returned",
+      "batch_candidate_urls": 12,
+      "official_roster_course_codes": [
+        "SWK30014",
+        "SWK50019"
+      ],
+      "official_roster_course_names": [
+        "社会福利理论与制度",
+        "志愿服务管理与发展"
+      ]
+    },
+    {
+      "query_id": "T-085",
+      "teacher": "滕五晓",
+      "query": "site:zhihu.com OR site:mp.weixin.qq.com OR site:xiaohongshu.com 复旦 \"滕五晓\" (课评 OR 课堂 OR 选课 OR 课程评价)",
+      "source_file": "teacher_search_085_088.json",
+      "batch_id": "TEACHER-085-088",
+      "individual_status": "queried; results are batch-level and not attributed to this individual query",
+      "batch_status": "links_returned",
+      "batch_candidate_urls": 1,
+      "official_roster_course_codes": [
+        "MANA50012",
+        "MANA50022"
+      ],
+      "official_roster_course_names": [
+        "公共危机管理",
+        "政府危机管理方法"
+      ]
+    },
+    {
+      "query_id": "T-086",
+      "teacher": "潘天舒",
+      "query": "site:zhihu.com OR site:mp.weixin.qq.com OR site:xiaohongshu.com 复旦 \"潘天舒\" (课评 OR 课堂 OR 选课 OR 课程评价)",
+      "source_file": "teacher_search_085_088.json",
+      "batch_id": "TEACHER-085-088",
+      "individual_status": "queried; results are batch-level and not attributed to this individual query",
+      "batch_status": "links_returned",
+      "batch_candidate_urls": 1,
+      "official_roster_course_codes": [
+        "SOCI30002",
+        "SOCI30039",
+        "SOCI50027",
+        "SOCI60002"
+      ],
+      "official_roster_course_names": [
+        "文化人类学",
+        "人类学研究方法",
+        "文化人类学理论",
+        "文化人类学研究方法"
+      ]
+    },
+    {
+      "query_id": "T-087",
+      "teacher": "潘泽瀚",
+      "query": "site:zhihu.com OR site:mp.weixin.qq.com OR site:xiaohongshu.com 复旦 \"潘泽瀚\" (课评 OR 课堂 OR 选课 OR 课程评价)",
+      "source_file": "teacher_search_085_088.json",
+      "batch_id": "TEACHER-085-088",
+      "individual_status": "queried; results are batch-level and not attributed to this individual query",
+      "batch_status": "links_returned",
+      "batch_candidate_urls": 1,
+      "official_roster_course_codes": [
+        "ECON50016",
+        "ECON50021",
+        "ECON60021",
+        "SOCI30043"
+      ],
+      "official_roster_course_names": [
+        "人口迁移与城市化研究",
+        "人口资源与环境经济学专题",
+        "资源与环境经济学",
+        "中国人口迁移的理论与现实"
+      ]
+    },
+    {
+      "query_id": "T-088",
+      "teacher": "王作鹏",
+      "query": "site:zhihu.com OR site:mp.weixin.qq.com OR site:xiaohongshu.com 复旦 \"王作鹏\" (课评 OR 课堂 OR 选课 OR 课程评价)",
+      "source_file": "teacher_search_085_088.json",
+      "batch_id": "TEACHER-085-088",
+      "individual_status": "queried; results are batch-level and not attributed to this individual query",
+      "batch_status": "links_returned",
+      "batch_candidate_urls": 1,
+      "official_roster_course_codes": [
+        "GESP20004"
+      ],
+      "official_roster_course_names": [
+        "强国之路:形势、政策与使命IV"
+      ]
+    },
+    {
+      "query_id": "T-089",
+      "teacher": "王俭勤",
+      "query": "site:zhihu.com OR site:mp.weixin.qq.com OR site:xiaohongshu.com 复旦 \"王俭勤\" (课评 OR 课堂 OR 选课 OR 课程评价)",
+      "source_file": "teacher_search_089_092.json",
+      "batch_id": "TEACHER-089-092",
+      "individual_status": "queried; results are batch-level and not attributed to this individual query",
+      "batch_status": "links_returned",
+      "batch_candidate_urls": 12,
+      "official_roster_course_codes": [
+        "APSY70009",
+        "PSYC30017",
+        "PSYC40005",
+        "SOCI40002"
+      ],
+      "official_roster_course_names": [
+        "应用心理统计学",
+        "心理统计学(一)",
+        "心理学研究进展",
+        "专业外语"
+      ]
+    },
+    {
+      "query_id": "T-090",
+      "teacher": "王喆辰",
+      "query": "site:zhihu.com OR site:mp.weixin.qq.com OR site:xiaohongshu.com 复旦 \"王喆辰\" (课评 OR 课堂 OR 选课 OR 课程评价)",
+      "source_file": "teacher_search_089_092.json",
+      "batch_id": "TEACHER-089-092",
+      "individual_status": "queried; results are batch-level and not attributed to this individual query",
+      "batch_status": "links_returned",
+      "batch_candidate_urls": 12,
+      "official_roster_course_codes": [
+        "APSY60017",
+        "PSYC20001",
+        "PSYC30009",
+        "PSYC40002",
+        "PSYC40003",
+        "PSYC60006",
+        "PSYC70013"
+      ],
+      "official_roster_course_names": [
+        "健康心理学",
+        "心理学导论",
+        "管理心理学",
+        "专业实践(一)",
+        "专业实践(二)",
+        "高级社会心理学前沿进展",
+        "健康心理学专题"
+      ]
+    },
+    {
+      "query_id": "T-091",
+      "teacher": "王囡",
+      "query": "site:zhihu.com OR site:mp.weixin.qq.com OR site:xiaohongshu.com 复旦 \"王囡\" (课评 OR 课堂 OR 选课 OR 课程评价)",
+      "source_file": "teacher_search_089_092.json",
+      "batch_id": "TEACHER-089-092",
+      "individual_status": "queried; results are batch-level and not attributed to this individual query",
+      "batch_status": "links_returned",
+      "batch_candidate_urls": 12,
+      "official_roster_course_codes": [
+        "GEMH10010",
+        "GEMH10015"
+      ],
+      "official_roster_course_names": [
+        "大学生心理健康导论",
+        "咨询心理学与心智成长"
+      ]
+    },
+    {
+      "query_id": "T-092",
+      "teacher": "王威海",
+      "query": "site:zhihu.com OR site:mp.weixin.qq.com OR site:xiaohongshu.com 复旦 \"王威海\" (课评 OR 课堂 OR 选课 OR 课程评价)",
+      "source_file": "teacher_search_089_092.json",
+      "batch_id": "TEACHER-089-092",
+      "individual_status": "queried; results are batch-level and not attributed to this individual query",
+      "batch_status": "links_returned",
+      "batch_candidate_urls": 12,
+      "official_roster_course_codes": [
+        "SOCI20001",
+        "SOCI30005",
+        "SOCI30011",
+        "SOCI40006",
+        "SOCI50039"
+      ],
+      "official_roster_course_names": [
+        "社会学导论",
+        "政治社会学",
+        "环境社会学",
+        "毕业论文",
+        "文化革命研究"
+      ]
+    },
+    {
+      "query_id": "T-093",
+      "teacher": "王川兰",
+      "query": "site:zhihu.com OR site:mp.weixin.qq.com OR site:xiaohongshu.com 复旦 \"王川兰\" (课评 OR 课堂 OR 选课 OR 课程评价)",
+      "source_file": "teacher_search_093_096.json",
+      "batch_id": "TEACHER-093-096",
+      "individual_status": "queried; results are batch-level and not attributed to this individual query",
+      "batch_status": "links_returned",
+      "batch_candidate_urls": 12,
+      "official_roster_course_codes": [
+        "SWK30004",
+        "SWK30013",
+        "SWK50005",
+        "SWK50006"
+      ],
+      "official_roster_course_names": [
+        "社会工作行政",
+        "非营利组织管理",
+        "社会服务机构管理",
+        "社会保障制度"
+      ]
+    },
+    {
+      "query_id": "T-094",
+      "teacher": "王懿",
+      "query": "site:zhihu.com OR site:mp.weixin.qq.com OR site:xiaohongshu.com 复旦 \"王懿\" (课评 OR 课堂 OR 选课 OR 课程评价)",
+      "source_file": "teacher_search_093_096.json",
+      "batch_id": "TEACHER-093-096",
+      "individual_status": "queried; results are batch-level and not attributed to this individual query",
+      "batch_status": "links_returned",
+      "batch_candidate_urls": 12,
+      "official_roster_course_codes": [
+        "GEMH10008"
+      ],
+      "official_roster_course_names": [
+        "幸福心理学"
+      ]
+    },
+    {
+      "query_id": "T-095",
+      "teacher": "王晴璐",
+      "query": "site:zhihu.com OR site:mp.weixin.qq.com OR site:xiaohongshu.com 复旦 \"王晴璐\" (课评 OR 课堂 OR 选课 OR 课程评价)",
+      "source_file": "teacher_search_093_096.json",
+      "batch_id": "TEACHER-093-096",
+      "individual_status": "queried; results are batch-level and not attributed to this individual query",
+      "batch_status": "links_returned",
+      "batch_candidate_urls": 12,
+      "official_roster_course_codes": [
+        "GEMH10014"
+      ],
+      "official_roster_course_names": [
+        "大学生心理健康与发展"
+      ]
+    },
+    {
+      "query_id": "T-096",
+      "teacher": "王海红",
+      "query": "site:zhihu.com OR site:mp.weixin.qq.com OR site:xiaohongshu.com 复旦 \"王海红\" (课评 OR 课堂 OR 选课 OR 课程评价)",
+      "source_file": "teacher_search_093_096.json",
+      "batch_id": "TEACHER-093-096",
+      "individual_status": "queried; results are batch-level and not attributed to this individual query",
+      "batch_status": "links_returned",
+      "batch_candidate_urls": 12,
+      "official_roster_course_codes": [
+        "GEMH10010"
+      ],
+      "official_roster_course_names": [
+        "大学生心理健康导论"
+      ]
+    },
+    {
+      "query_id": "T-097",
+      "teacher": "王燕",
+      "query": "site:zhihu.com OR site:mp.weixin.qq.com OR site:xiaohongshu.com 复旦 \"王燕\" (课评 OR 课堂 OR 选课 OR 课程评价)",
+      "source_file": "teacher_search_097_100.json",
+      "batch_id": "TEACHER-097-100",
+      "individual_status": "queried; results are batch-level and not attributed to this individual query",
+      "batch_status": "links_returned",
+      "batch_candidate_urls": 12,
+      "official_roster_course_codes": [
+        "APSY60009",
+        "APSY60016",
+        "GESP20003",
+        "GESP20004",
+        "PSYC30005",
+        "PSYC30008",
+        "PSYC30008h",
+        "PSYC40001",
+        "PSYC60004",
+        "SOCI40003"
+      ],
+      "official_roster_course_names": [
+        "婚姻与家庭专题",
+        "心理测量及应用",
+        "强国之路:形势、政策与使命III",
+        "强国之路:形势、政策与使命IV",
+        "教育心理学",
+        "心理测验与应用",
+        "心理测验及应用(H)",
+        "毕业论文",
+        "发展与教育心理学专题",
+        "学年论文"
+      ]
+    },
+    {
+      "query_id": "T-098",
+      "teacher": "王琳",
+      "query": "site:zhihu.com OR site:mp.weixin.qq.com OR site:xiaohongshu.com 复旦 \"王琳\" (课评 OR 课堂 OR 选课 OR 课程评价)",
+      "source_file": "teacher_search_097_100.json",
+      "batch_id": "TEACHER-097-100",
+      "individual_status": "queried; results are batch-level and not attributed to this individual query",
+      "batch_status": "links_returned",
+      "batch_candidate_urls": 12,
+      "official_roster_course_codes": [
+        "GESP20003",
+        "GESP20004",
+        "SOCI30032",
+        "SOCI50017",
+        "SOCI60011",
+        "SWK30019",
+        "SWK30020",
+        "SWK40001"
+      ],
+      "official_roster_course_names": [
+        "强国之路:形势、政策与使命III",
+        "强国之路:形势、政策与使命IV",
+        "论文写作",
+        "中级社会统计分析",
+        "高阶社会工作研究方法",
+        "社会工作理论基础",
+        "社会工作实务研究",
+        "毕业论文"
+      ]
+    },
+    {
+      "query_id": "T-099",
+      "teacher": "王雪辉",
+      "query": "site:zhihu.com OR site:mp.weixin.qq.com OR site:xiaohongshu.com 复旦 \"王雪辉\" (课评 OR 课堂 OR 选课 OR 课程评价)",
+      "source_file": "teacher_search_097_100.json",
+      "batch_id": "TEACHER-097-100",
+      "individual_status": "queried; results are batch-level and not attributed to this individual query",
+      "batch_status": "links_returned",
+      "batch_candidate_urls": 12,
+      "official_roster_course_codes": [
+        "GEEC10396",
+        "GEEC10416",
+        "MAA70001",
+        "MANA50016",
+        "SOCI50018",
+        "SOCI50056",
+        "SOCI50058"
+      ],
+      "official_roster_course_names": [
+        "家庭变迁与家庭政策",
+        "数字化与长寿时代",
+        "研究生论文写作",
+        "社会政策与社会心理专题",
+        "人口与发展导论",
+        "量化学术论文写作",
+        "老龄社会研究专题"
+      ]
+    },
+    {
+      "query_id": "T-100",
+      "teacher": "田丰",
+      "query": "site:zhihu.com OR site:mp.weixin.qq.com OR site:xiaohongshu.com 复旦 \"田丰\" (课评 OR 课堂 OR 选课 OR 课程评价)",
+      "source_file": "teacher_search_097_100.json",
+      "batch_id": "TEACHER-097-100",
+      "individual_status": "queried; results are batch-level and not attributed to this individual query",
+      "batch_status": "links_returned",
+      "batch_candidate_urls": 12,
+      "official_roster_course_codes": [
+        "GESP10004",
+        "SOCI10004",
+        "SOCI30020",
+        "SOCI30020h",
+        "SOCI30037h",
+        "SOCI30044",
+        "SOCI40006",
+        "SOCI50004",
+        "SOCI50040",
+        "SWK50008"
+      ],
+      "official_roster_course_names": [
+        "强国之路:形势、政策与使命II",
+        "经典社会学理论",
+        "古典社会学理论",
+        "古典社会学理论(H)",
+        "统计软件应用(H)",
+        "社会资本研究",
+        "毕业论文",
+        "Introduction to Chinese Society",
+        "社会资本与关系研究",
+        "比较社会政策"
+      ]
+    },
+    {
+      "query_id": "T-101",
+      "teacher": "田文华",
+      "query": "site:zhihu.com OR site:mp.weixin.qq.com OR site:xiaohongshu.com 复旦 \"田文华\" (课评 OR 课堂 OR 选课 OR 课程评价)",
+      "source_file": "teacher_search_101_104.json",
+      "batch_id": "TEACHER-101-104",
+      "individual_status": "queried; results are batch-level and not attributed to this individual query",
+      "batch_status": "links_returned",
+      "batch_candidate_urls": 12,
+      "official_roster_course_codes": [
+        "GEEC10008",
+        "MANA50024"
+      ],
+      "official_roster_course_names": [
+        "健康管理与健康政策",
+        "卫生政策分析"
+      ]
+    },
+    {
+      "query_id": "T-102",
+      "teacher": "田芊",
+      "query": "site:zhihu.com OR site:mp.weixin.qq.com OR site:xiaohongshu.com 复旦 \"田芊\" (课评 OR 课堂 OR 选课 OR 课程评价)",
+      "source_file": "teacher_search_101_104.json",
+      "batch_id": "TEACHER-101-104",
+      "individual_status": "queried; results are batch-level and not attributed to this individual query",
+      "batch_status": "links_returned",
+      "batch_candidate_urls": 12,
+      "official_roster_course_codes": [
+        "APSY60019",
+        "PSYC20001",
+        "PSYC30006",
+        "PSYC30006h",
+        "SOCI70006"
+      ],
+      "official_roster_course_names": [
+        "消费与广告心理学",
+        "心理学导论",
+        "社会心理学",
+        "社会心理学(H)",
+        "社会心理学著作选读"
+      ]
+    },
+    {
+      "query_id": "T-103",
+      "teacher": "申琦",
+      "query": "site:zhihu.com OR site:mp.weixin.qq.com OR site:xiaohongshu.com 复旦 \"申琦\" (课评 OR 课堂 OR 选课 OR 课程评价)",
+      "source_file": "teacher_search_101_104.json",
+      "batch_id": "TEACHER-101-104",
+      "individual_status": "queried; results are batch-level and not attributed to this individual query",
+      "batch_status": "links_returned",
+      "batch_candidate_urls": 12,
+      "official_roster_course_codes": [
+        "GEEC10009",
+        "MAA70003",
+        "MANA50018"
+      ],
+      "official_roster_course_names": [
+        "人机传播与数智向善",
+        "老龄事务前沿专题讲座",
+        "老龄数字包容与治理"
+      ]
+    },
+    {
+      "query_id": "T-104",
+      "teacher": "程远",
+      "query": "site:zhihu.com OR site:mp.weixin.qq.com OR site:xiaohongshu.com 复旦 \"程远\" (课评 OR 课堂 OR 选课 OR 课程评价)",
+      "source_file": "teacher_search_101_104.json",
+      "batch_id": "TEACHER-101-104",
+      "individual_status": "queried; results are batch-level and not attributed to this individual query",
+      "batch_status": "links_returned",
+      "batch_candidate_urls": 12,
+      "official_roster_course_codes": [
+        "ECON50018",
+        "MANA50011",
+        "MANA50020"
+      ],
+      "official_roster_course_names": [
+        "劳动经济学",
+        "公共政策分析",
+        "公共政策研究"
+      ]
+    },
+    {
+      "query_id": "T-105",
+      "teacher": "罗子奇",
+      "query": "site:zhihu.com OR site:mp.weixin.qq.com OR site:xiaohongshu.com 复旦 \"罗子奇\" (课评 OR 课堂 OR 选课 OR 课程评价)",
+      "source_file": "teacher_search_105_108.json",
+      "batch_id": "TEACHER-105-108",
+      "individual_status": "queried; results are batch-level and not attributed to this individual query",
+      "batch_status": "links_returned",
+      "batch_candidate_urls": 1,
+      "official_roster_course_codes": [
+        "GESP20003",
+        "GESP20004"
+      ],
+      "official_roster_course_names": [
+        "强国之路:形势、政策与使命III",
+        "强国之路:形势、政策与使命IV"
+      ]
+    },
+    {
+      "query_id": "T-106",
+      "teacher": "胡安宁",
+      "query": "site:zhihu.com OR site:mp.weixin.qq.com OR site:xiaohongshu.com 复旦 \"胡安宁\" (课评 OR 课堂 OR 选课 OR 课程评价)",
+      "source_file": "teacher_search_105_108.json",
+      "batch_id": "TEACHER-105-108",
+      "individual_status": "queried; results are batch-level and not attributed to this individual query",
+      "batch_status": "links_returned",
+      "batch_candidate_urls": 1,
+      "official_roster_course_codes": [
+        "AIS631009",
+        "GEEC10383",
+        "GESP10004",
+        "MSP60003",
+        "SOCI40004",
+        "SOCI40006",
+        "SOCI70009"
+      ],
+      "official_roster_course_names": [
+        "人工智能、数据挖掘与算法:社会研究方法的新范式",
+        "社会调查研究方法",
+        "强国之路:形势、政策与使命II",
+        "社会研究方法进阶",
+        "社会调查实践(一)",
+        "毕业论文",
+        "社会研究中的因果分析"
+      ]
+    },
+    {
+      "query_id": "T-107",
+      "teacher": "胡湛",
+      "query": "site:zhihu.com OR site:mp.weixin.qq.com OR site:xiaohongshu.com 复旦 \"胡湛\" (课评 OR 课堂 OR 选课 OR 课程评价)",
+      "source_file": "teacher_search_105_108.json",
+      "batch_id": "TEACHER-105-108",
+      "individual_status": "queried; results are batch-level and not attributed to this individual query",
+      "batch_status": "links_returned",
+      "batch_candidate_urls": 1,
+      "official_roster_course_codes": [
+        "GEEC10399",
+        "GEEC10416",
+        "GESP10004",
+        "MAA60003",
+        "MANA50016",
+        "MANA50019",
+        "SOCI70004"
+      ],
+      "official_roster_course_names": [
+        "人口学概论",
+        "数字化与长寿时代",
+        "强国之路:形势、政策与使命II",
+        "老龄社会治理",
+        "社会政策与社会心理专题",
+        "人口与治理专题",
+        "死亡与生命研究专题"
+      ]
+    },
+    {
+      "query_id": "T-108",
+      "teacher": "苏忠鑫",
+      "query": "site:zhihu.com OR site:mp.weixin.qq.com OR site:xiaohongshu.com 复旦 \"苏忠鑫\" (课评 OR 课堂 OR 选课 OR 课程评价)",
+      "source_file": "teacher_search_105_108.json",
+      "batch_id": "TEACHER-105-108",
+      "individual_status": "queried; results are batch-level and not attributed to this individual query",
+      "batch_status": "links_returned",
+      "batch_candidate_urls": 1,
+      "official_roster_course_codes": [
+        "GESP20003",
+        "MAA70003"
+      ],
+      "official_roster_course_names": [
+        "强国之路:形势、政策与使命III",
+        "老龄事务前沿专题讲座"
+      ]
+    },
+    {
+      "query_id": "T-109",
+      "teacher": "范丽珠",
+      "query": "site:zhihu.com OR site:mp.weixin.qq.com OR site:xiaohongshu.com 复旦 \"范丽珠\" (课评 OR 课堂 OR 选课 OR 课程评价)",
+      "source_file": "teacher_search_109_112.json",
+      "batch_id": "TEACHER-109-112",
+      "individual_status": "queried; results are batch-level and not attributed to this individual query",
+      "batch_status": "links_returned",
+      "batch_candidate_urls": 6,
+      "official_roster_course_codes": [
+        "GESP10004",
+        "SOCI30015",
+        "SOCI30027",
+        "SOCI40006",
+        "SOCI50021"
+      ],
+      "official_roster_course_names": [
+        "强国之路:形势、政策与使命II",
+        "宗教社会学",
+        "中国社会与宗教",
+        "毕业论文"
+      ]
+    },
+    {
+      "query_id": "T-110",
+      "teacher": "范秀成",
+      "query": "site:zhihu.com OR site:mp.weixin.qq.com OR site:xiaohongshu.com 复旦 \"范秀成\" (课评 OR 课堂 OR 选课 OR 课程评价)",
+      "source_file": "teacher_search_109_112.json",
+      "batch_id": "TEACHER-109-112",
+      "individual_status": "queried; results are batch-level and not attributed to this individual query",
+      "batch_status": "links_returned",
+      "batch_candidate_urls": 6,
+      "official_roster_course_codes": [
+        "GESP10004"
+      ],
+      "official_roster_course_names": [
+        "强国之路:形势、政策与使命II"
+      ]
+    },
+    {
+      "query_id": "T-111",
+      "teacher": "范镜泽",
+      "query": "site:zhihu.com OR site:mp.weixin.qq.com OR site:xiaohongshu.com 复旦 \"范镜泽\" (课评 OR 课堂 OR 选课 OR 课程评价)",
+      "source_file": "teacher_search_109_112.json",
+      "batch_id": "TEACHER-109-112",
+      "individual_status": "queried; results are batch-level and not attributed to this individual query",
+      "batch_status": "links_returned",
+      "batch_candidate_urls": 6,
+      "official_roster_course_codes": [
+        "GESP10004"
+      ],
+      "official_roster_course_names": [
+        "强国之路:形势、政策与使命II"
+      ]
+    },
+    {
+      "query_id": "T-112",
+      "teacher": "葛剑雄",
+      "query": "site:zhihu.com OR site:mp.weixin.qq.com OR site:xiaohongshu.com 复旦 \"葛剑雄\" (课评 OR 课堂 OR 选课 OR 课程评价)",
+      "source_file": "teacher_search_109_112.json",
+      "batch_id": "TEACHER-109-112",
+      "individual_status": "queried; results are batch-level and not attributed to this individual query",
+      "batch_status": "links_returned",
+      "batch_candidate_urls": 6,
+      "official_roster_course_codes": [
+        "GESP10004"
+      ],
+      "official_roster_course_names": [
+        "强国之路:形势、政策与使命II"
+      ]
+    },
+    {
+      "query_id": "T-113",
+      "teacher": "蔡星星",
+      "query": "site:zhihu.com OR site:mp.weixin.qq.com OR site:xiaohongshu.com 复旦 \"蔡星星\" (课评 OR 课堂 OR 选课 OR 课程评价)",
+      "source_file": "teacher_search_113_116.json",
+      "batch_id": "TEACHER-113-116",
+      "individual_status": "queried; results are batch-level and not attributed to this individual query",
+      "batch_status": "links_returned",
+      "batch_candidate_urls": 6,
+      "official_roster_course_codes": [
+        "GESP20004"
+      ],
+      "official_roster_course_names": [
+        "强国之路:形势、政策与使命IV"
+      ]
+    },
+    {
+      "query_id": "T-114",
+      "teacher": "许愿",
+      "query": "site:zhihu.com OR site:mp.weixin.qq.com OR site:xiaohongshu.com 复旦 \"许愿\" (课评 OR 课堂 OR 选课 OR 课程评价)",
+      "source_file": "teacher_search_113_116.json",
+      "batch_id": "TEACHER-113-116",
+      "individual_status": "queried; results are batch-level and not attributed to this individual query",
+      "batch_status": "links_returned",
+      "batch_candidate_urls": 6,
+      "official_roster_course_codes": [
+        "GESP20004"
+      ],
+      "official_roster_course_names": [
+        "强国之路:形势、政策与使命IV"
+      ]
+    },
+    {
+      "query_id": "T-115",
+      "teacher": "贺倩如",
+      "query": "site:zhihu.com OR site:mp.weixin.qq.com OR site:xiaohongshu.com 复旦 \"贺倩如\" (课评 OR 课堂 OR 选课 OR 课程评价)",
+      "source_file": "teacher_search_113_116.json",
+      "batch_id": "TEACHER-113-116",
+      "individual_status": "queried; results are batch-level and not attributed to this individual query",
+      "batch_status": "links_returned",
+      "batch_candidate_urls": 6,
+      "official_roster_course_codes": [
+        "GEMH10001"
+      ],
+      "official_roster_course_names": [
+        "新生命教育与心理健康"
+      ]
+    },
+    {
+      "query_id": "T-116",
+      "teacher": "赵德余",
+      "query": "site:zhihu.com OR site:mp.weixin.qq.com OR site:xiaohongshu.com 复旦 \"赵德余\" (课评 OR 课堂 OR 选课 OR 课程评价)",
+      "source_file": "teacher_search_113_116.json",
+      "batch_id": "TEACHER-113-116",
+      "individual_status": "queried; results are batch-level and not attributed to this individual query",
+      "batch_status": "links_returned",
+      "batch_candidate_urls": 6,
+      "official_roster_course_codes": [
+        "GESP20003",
+        "MANA50015",
+        "MANA50023",
+        "MANA60072",
+        "MSP50005"
+      ],
+      "official_roster_course_names": [
+        "强国之路:形势、政策与使命III",
+        "政策系统动力学",
+        "政策网络分析",
+        "公共政策与管理高级专题",
+        "社会政策导论"
+      ]
+    },
+    {
+      "query_id": "T-117",
+      "teacher": "赵芳",
+      "query": "site:zhihu.com OR site:mp.weixin.qq.com OR site:xiaohongshu.com 复旦 \"赵芳\" (课评 OR 课堂 OR 选课 OR 课程评价)",
+      "source_file": "teacher_search_117_120.json",
+      "batch_id": "TEACHER-117-120",
+      "individual_status": "queried; results are batch-level and not attributed to this individual query",
+      "batch_status": "links_returned",
+      "batch_candidate_urls": 11,
+      "official_roster_course_codes": [
+        "SOCI50047",
+        "SOCI70002",
+        "SWK30007",
+        "SWK40001",
+        "SWK50001",
+        "SWK60007"
+      ],
+      "official_roster_course_names": [
+        "社会工作伦理:理论与实务",
+        "高级社会研究方法论",
+        "社会工作伦理",
+        "毕业论文",
+        "家庭治疗理论与实务"
+      ]
+    },
+    {
+      "query_id": "T-118",
+      "teacher": "邹怡",
+      "query": "site:zhihu.com OR site:mp.weixin.qq.com OR site:xiaohongshu.com 复旦 \"邹怡\" (课评 OR 课堂 OR 选课 OR 课程评价)",
+      "source_file": "teacher_search_117_120.json",
+      "batch_id": "TEACHER-117-120",
+      "individual_status": "queried; results are batch-level and not attributed to this individual query",
+      "batch_status": "links_returned",
+      "batch_candidate_urls": 11,
+      "official_roster_course_codes": [
+        "GESP20004"
+      ],
+      "official_roster_course_names": [
+        "强国之路:形势、政策与使命IV"
+      ]
+    },
+    {
+      "query_id": "T-119",
+      "teacher": "郑丽",
+      "query": "site:zhihu.com OR site:mp.weixin.qq.com OR site:xiaohongshu.com 复旦 \"郑丽\" (课评 OR 课堂 OR 选课 OR 课程评价)",
+      "source_file": "teacher_search_117_120.json",
+      "batch_id": "TEACHER-117-120",
+      "individual_status": "queried; results are batch-level and not attributed to this individual query",
+      "batch_status": "links_returned",
+      "batch_candidate_urls": 11,
+      "official_roster_course_codes": [
+        "APSY60003",
+        "MAA60001",
+        "PSYC30027",
+        "SOCI70005"
+      ],
+      "official_roster_course_names": [
+        "工程心理学",
+        "老年心理与行为",
+        "高级实验技术(一)",
+        "老年心理学"
+      ]
+    },
+    {
+      "query_id": "T-120",
+      "teacher": "郝霖霖",
+      "query": "site:zhihu.com OR site:mp.weixin.qq.com OR site:xiaohongshu.com 复旦 \"郝霖霖\" (课评 OR 课堂 OR 选课 OR 课程评价)",
+      "source_file": "teacher_search_117_120.json",
+      "batch_id": "TEACHER-117-120",
+      "individual_status": "queried; results are batch-level and not attributed to this individual query",
+      "batch_status": "links_returned",
+      "batch_candidate_urls": 11,
+      "official_roster_course_codes": [
+        "GESP20004"
+      ],
+      "official_roster_course_names": [
+        "强国之路:形势、政策与使命IV"
+      ]
+    },
+    {
+      "query_id": "T-121",
+      "teacher": "郭有德",
+      "query": "site:zhihu.com OR site:mp.weixin.qq.com OR site:xiaohongshu.com 复旦 \"郭有德\" (课评 OR 课堂 OR 选课 OR 课程评价)",
+      "source_file": "teacher_search_121_124.json",
+      "batch_id": "TEACHER-121-124",
+      "individual_status": "queried; results are batch-level and not attributed to this individual query",
+      "batch_status": "links_returned",
+      "batch_candidate_urls": 12,
+      "official_roster_course_codes": [
+        "ECON60020",
+        "MANA50013",
+        "SOCI20003",
+        "SOCI50020"
+      ],
+      "official_roster_course_names": [
+        "人口经济学",
+        "公共管理导论",
+        "统计学",
+        "社会经济统计与计算机应用"
+      ]
+    },
+    {
+      "query_id": "T-122",
+      "teacher": "郭秀艳",
+      "query": "site:zhihu.com OR site:mp.weixin.qq.com OR site:xiaohongshu.com 复旦 \"郭秀艳\" (课评 OR 课堂 OR 选课 OR 课程评价)",
+      "source_file": "teacher_search_121_124.json",
+      "batch_id": "TEACHER-121-124",
+      "individual_status": "queried; results are batch-level and not attributed to this individual query",
+      "batch_status": "links_returned",
+      "batch_candidate_urls": 12,
+      "official_roster_course_codes": [
+        "AIS731001"
+      ],
+      "official_roster_course_names": [
+        "认知科学AI工程"
+      ]
+    },
+    {
+      "query_id": "T-123",
+      "teacher": "金秀英",
+      "query": "site:zhihu.com OR site:mp.weixin.qq.com OR site:xiaohongshu.com 复旦 \"金秀英\" (课评 OR 课堂 OR 选课 OR 课程评价)",
+      "source_file": "teacher_search_121_124.json",
+      "batch_id": "TEACHER-121-124",
+      "individual_status": "queried; results are batch-level and not attributed to this individual query",
+      "batch_status": "links_returned",
+      "batch_candidate_urls": 12,
+      "official_roster_course_codes": [
+        "GEMH10008"
+      ],
+      "official_roster_course_names": [
+        "幸福心理学"
+      ]
+    },
+    {
+      "query_id": "T-124",
+      "teacher": "钱捷",
+      "query": "site:zhihu.com OR site:mp.weixin.qq.com OR site:xiaohongshu.com 复旦 \"钱捷\" (课评 OR 课堂 OR 选课 OR 课程评价)",
+      "source_file": "teacher_search_121_124.json",
+      "batch_id": "TEACHER-121-124",
+      "individual_status": "queried; results are batch-level and not attributed to this individual query",
+      "batch_status": "links_returned",
+      "batch_candidate_urls": 12,
+      "official_roster_course_codes": [
+        "APSY70004",
+        "GEMH10013",
+        "GEMH10015"
+      ],
+      "official_roster_course_names": [
+        "个体咨询技术与案例督导",
+        "心理健康与大学生活",
+        "咨询心理学与心智成长"
+      ]
+    },
+    {
+      "query_id": "T-125",
+      "teacher": "闫晓倩",
+      "query": "site:zhihu.com OR site:mp.weixin.qq.com OR site:xiaohongshu.com 复旦 \"闫晓倩\" (课评 OR 课堂 OR 选课 OR 课程评价)",
+      "source_file": "teacher_search_125_128.json",
+      "batch_id": "TEACHER-125-128",
+      "individual_status": "queried; results are batch-level and not attributed to this individual query",
+      "batch_status": "links_returned",
+      "batch_candidate_urls": 12,
+      "official_roster_course_codes": [
+        "PSYC40001"
+      ],
+      "official_roster_course_names": [
+        "毕业论文"
+      ]
+    },
+    {
+      "query_id": "T-126",
+      "teacher": "陈侃",
+      "query": "site:zhihu.com OR site:mp.weixin.qq.com OR site:xiaohongshu.com 复旦 \"陈侃\" (课评 OR 课堂 OR 选课 OR 课程评价)",
+      "source_file": "teacher_search_125_128.json",
+      "batch_id": "TEACHER-125-128",
+      "individual_status": "queried; results are batch-level and not attributed to this individual query",
+      "batch_status": "links_returned",
+      "batch_candidate_urls": 12,
+      "official_roster_course_codes": [
+        "APSY60008",
+        "PSYC30015",
+        "PSYC30019",
+        "PSYC40001"
+      ],
+      "official_roster_course_names": [
+        "咨询与访谈技巧",
+        "艺术治疗",
+        "心理咨询与治疗",
+        "毕业论文"
+      ]
+    },
+    {
+      "query_id": "T-127",
+      "teacher": "陈倩",
+      "query": "site:zhihu.com OR site:mp.weixin.qq.com OR site:xiaohongshu.com 复旦 \"陈倩\" (课评 OR 课堂 OR 选课 OR 课程评价)",
+      "source_file": "teacher_search_125_128.json",
+      "batch_id": "TEACHER-125-128",
+      "individual_status": "queried; results are batch-level and not attributed to this individual query",
+      "batch_status": "links_returned",
+      "batch_candidate_urls": 12,
+      "official_roster_course_codes": [
+        "MAA60002"
+      ],
+      "official_roster_course_names": [
+        "银发经济专题"
+      ]
+    },
+    {
+      "query_id": "T-128",
+      "teacher": "陈岩燕",
+      "query": "site:zhihu.com OR site:mp.weixin.qq.com OR site:xiaohongshu.com 复旦 \"陈岩燕\" (课评 OR 课堂 OR 选课 OR 课程评价)",
+      "source_file": "teacher_search_125_128.json",
+      "batch_id": "TEACHER-125-128",
+      "individual_status": "queried; results are batch-level and not attributed to this individual query",
+      "batch_status": "links_returned",
+      "batch_candidate_urls": 12,
+      "official_roster_course_codes": [
+        "SOCI30001",
+        "SOCI60011",
+        "SWK20002",
+        "SWK30015",
+        "SWK40001",
+        "SWK50011",
+        "SWK60009"
+      ],
+      "official_roster_course_names": [
+        "公益慈善与社会发展",
+        "高阶社会工作研究方法",
+        "社会工作导论",
+        "社会工作评估",
+        "毕业论文",
+        "贫困与家庭资产研究",
+        "质性研究方法"
+      ]
+    },
+    {
+      "query_id": "T-129",
+      "teacher": "陈斌斌",
+      "query": "site:zhihu.com OR site:mp.weixin.qq.com OR site:xiaohongshu.com 复旦 \"陈斌斌\" (课评 OR 课堂 OR 选课 OR 课程评价)",
+      "source_file": "teacher_search_129_132.json",
+      "batch_id": "TEACHER-129-132",
+      "individual_status": "queried; results are batch-level and not attributed to this individual query",
+      "batch_status": "links_returned",
+      "batch_candidate_urls": 12,
+      "official_roster_course_codes": [
+        "APSY60002",
+        "GESP20003",
+        "PSYC30006",
+        "PSYC40001",
+        "SOCI30032"
+      ],
+      "official_roster_course_names": [
+        "社会心理学(MAP)",
+        "强国之路:形势、政策与使命III",
+        "社会心理学",
+        "毕业论文",
+        "论文写作"
+      ]
+    },
+    {
+      "query_id": "T-130",
+      "teacher": "陈燕",
+      "query": "site:zhihu.com OR site:mp.weixin.qq.com OR site:xiaohongshu.com 复旦 \"陈燕\" (课评 OR 课堂 OR 选课 OR 课程评价)",
+      "source_file": "teacher_search_129_132.json",
+      "batch_id": "TEACHER-129-132",
+      "individual_status": "queried; results are batch-level and not attributed to this individual query",
+      "batch_status": "links_returned",
+      "batch_candidate_urls": 12,
+      "official_roster_course_codes": [
+        "GEMH10010",
+        "GEMH10014"
+      ],
+      "official_roster_course_names": [
+        "大学生心理健康导论",
+        "大学生心理健康与发展"
+      ]
+    },
+    {
+      "query_id": "T-131",
+      "teacher": "陈琳",
+      "query": "site:zhihu.com OR site:mp.weixin.qq.com OR site:xiaohongshu.com 复旦 \"陈琳\" (课评 OR 课堂 OR 选课 OR 课程评价)",
+      "source_file": "teacher_search_129_132.json",
+      "batch_id": "TEACHER-129-132",
+      "individual_status": "queried; results are batch-level and not attributed to this individual query",
+      "batch_status": "links_returned",
+      "batch_candidate_urls": 12,
+      "official_roster_course_codes": [
+        "SWK30009",
+        "SWK30017",
+        "SWK30022",
+        "SWK40001",
+        "SWK40005"
+      ],
+      "official_roster_course_names": [
+        "老年社会工作",
+        "质性研究方法",
+        "老龄化与社会",
+        "毕业论文",
+        "社会工作专业英语"
+      ]
+    },
+    {
+      "query_id": "T-132",
+      "teacher": "陈金辉",
+      "query": "site:zhihu.com OR site:mp.weixin.qq.com OR site:xiaohongshu.com 复旦 \"陈金辉\" (课评 OR 课堂 OR 选课 OR 课程评价)",
+      "source_file": "teacher_search_129_132.json",
+      "batch_id": "TEACHER-129-132",
+      "individual_status": "queried; results are batch-level and not attributed to this individual query",
+      "batch_status": "links_returned",
+      "batch_candidate_urls": 12,
+      "official_roster_course_codes": [
+        "GESP20004"
+      ],
+      "official_roster_course_names": [
+        "强国之路:形势、政策与使命IV"
+      ]
+    },
+    {
+      "query_id": "T-133",
+      "teacher": "陈钊",
+      "query": "site:zhihu.com OR site:mp.weixin.qq.com OR site:xiaohongshu.com 复旦 \"陈钊\" (课评 OR 课堂 OR 选课 OR 课程评价)",
+      "source_file": "teacher_search_133_136.json",
+      "batch_id": "TEACHER-133-136",
+      "individual_status": "queried; results are batch-level and not attributed to this individual query",
+      "batch_status": "links_returned",
+      "batch_candidate_urls": 12,
+      "official_roster_course_codes": [
+        "GESP20004"
+      ],
+      "official_roster_course_names": [
+        "强国之路:形势、政策与使命IV"
+      ]
+    },
+    {
+      "query_id": "T-134",
+      "teacher": "韩央迪",
+      "query": "site:zhihu.com OR site:mp.weixin.qq.com OR site:xiaohongshu.com 复旦 \"韩央迪\" (课评 OR 课堂 OR 选课 OR 课程评价)",
+      "source_file": "teacher_search_133_136.json",
+      "batch_id": "TEACHER-133-136",
+      "individual_status": "queried; results are batch-level and not attributed to this individual query",
+      "batch_status": "links_returned",
+      "batch_candidate_urls": 12,
+      "official_roster_course_codes": [
+        "SOCI40003",
+        "SWK20001",
+        "SWK30006",
+        "SWK30010",
+        "SWK30020",
+        "SWK40001",
+        "SWK50004",
+        "SWK50017"
+      ],
+      "official_roster_course_names": [
+        "学年论文",
+        "自我认知与成长",
+        "社会政策",
+        "法律与社会工作",
+        "社会工作实务研究",
+        "毕业论文",
+        "高级临床社会工作",
+        "社会工作督导"
+      ]
+    },
+    {
+      "query_id": "T-135",
+      "teacher": "顾东辉",
+      "query": "site:zhihu.com OR site:mp.weixin.qq.com OR site:xiaohongshu.com 复旦 \"顾东辉\" (课评 OR 课堂 OR 选课 OR 课程评价)",
+      "source_file": "teacher_search_133_136.json",
+      "batch_id": "TEACHER-133-136",
+      "individual_status": "queried; results are batch-level and not attributed to this individual query",
+      "batch_status": "links_returned",
+      "batch_candidate_urls": 12,
+      "official_roster_course_codes": [
+        "SOCI50028",
+        "SOCI50041",
+        "SOCI50060",
+        "SWK20002",
+        "SWK50002",
+        "SWK50003"
+      ],
+      "official_roster_course_names": [
+        "宏观社会工作",
+        "社会工作理论",
+        "社会福利与社会工作理论专题",
+        "社会工作导论"
+      ]
+    },
+    {
+      "query_id": "T-136",
+      "teacher": "顾乡",
+      "query": "site:zhihu.com OR site:mp.weixin.qq.com OR site:xiaohongshu.com 复旦 \"顾乡\" (课评 OR 课堂 OR 选课 OR 课程评价)",
+      "source_file": "teacher_search_133_136.json",
+      "batch_id": "TEACHER-133-136",
+      "individual_status": "queried; results are batch-level and not attributed to this individual query",
+      "batch_status": "links_returned",
+      "batch_candidate_urls": 12,
+      "official_roster_course_codes": [
+        "MAA60005"
+      ],
+      "official_roster_course_names": [
+        "学术英语(综合)"
+      ]
+    },
+    {
+      "query_id": "T-137",
+      "teacher": "顾诗佳",
+      "query": "site:zhihu.com OR site:mp.weixin.qq.com OR site:xiaohongshu.com 复旦 \"顾诗佳\" (课评 OR 课堂 OR 选课 OR 课程评价)",
+      "source_file": "teacher_search_137_140.json",
+      "batch_id": "TEACHER-137-140",
+      "individual_status": "queried; results are batch-level and not attributed to this individual query",
+      "batch_status": "links_returned",
+      "batch_candidate_urls": 5,
+      "official_roster_course_codes": [
+        "GEMH10014"
+      ],
+      "official_roster_course_names": [
+        "大学生心理健康与发展"
+      ]
+    },
+    {
+      "query_id": "T-138",
+      "teacher": "骆为祥",
+      "query": "site:zhihu.com OR site:mp.weixin.qq.com OR site:xiaohongshu.com 复旦 \"骆为祥\" (课评 OR 课堂 OR 选课 OR 课程评价)",
+      "source_file": "teacher_search_137_140.json",
+      "batch_id": "TEACHER-137-140",
+      "individual_status": "queried; results are batch-level and not attributed to this individual query",
+      "batch_status": "links_returned",
+      "batch_candidate_urls": 5,
+      "official_roster_course_codes": [
+        "GECC10115",
+        "GEEC10399",
+        "GEEC10400",
+        "MAA60004",
+        "MANA50019",
+        "SOCI30014"
+      ],
+      "official_roster_course_names": [
+        "社会科学研究方法",
+        "人口学概论",
+        "现代化和中国社会",
+        "社会研究方法",
+        "人口与治理专题",
+        "医疗和健康社会学"
+      ]
+    },
+    {
+      "query_id": "T-139",
+      "teacher": "高山川",
+      "query": "site:zhihu.com OR site:mp.weixin.qq.com OR site:xiaohongshu.com 复旦 \"高山川\" (课评 OR 课堂 OR 选课 OR 课程评价)",
+      "source_file": "teacher_search_137_140.json",
+      "batch_id": "TEACHER-137-140",
+      "individual_status": "queried; results are batch-level and not attributed to this individual query",
+      "batch_status": "links_returned",
+      "batch_candidate_urls": 5,
+      "official_roster_course_codes": [
+        "APSY60013",
+        "GEEC10388",
+        "PSYC30013",
+        "PSYC30021",
+        "PSYC40001"
+      ],
+      "official_roster_course_names": [
+        "决策心理学",
+        "大学生生涯规划与发展",
+        "职业心理学",
+        "毕业论文"
+      ]
+    },
+    {
+      "query_id": "T-140",
+      "teacher": "高隽",
+      "query": "site:zhihu.com OR site:mp.weixin.qq.com OR site:xiaohongshu.com 复旦 \"高隽\" (课评 OR 课堂 OR 选课 OR 课程评价)",
+      "source_file": "teacher_search_137_140.json",
+      "batch_id": "TEACHER-137-140",
+      "individual_status": "queried; results are batch-level and not attributed to this individual query",
+      "batch_status": "links_returned",
+      "batch_candidate_urls": 5,
+      "official_roster_course_codes": [
+        "000.000.6",
+        "APSY60006",
+        "APSY60014",
+        "APSY60016",
+        "APSY60023",
+        "PSYC20001",
+        "PSYC30007",
+        "PSYC30007h",
+        "PSYC40001",
+        "SOCI70004"
+      ],
+      "official_roster_course_names": [
+        "课题组讨论",
+        "心理评估诊断与案例概念化",
+        "团体心理辅导",
+        "心理测量及应用",
+        "精神病学",
+        "心理学导论",
+        "人格心理学",
+        "人格心理学(H)",
+        "毕业论文",
+        "死亡与生命研究专题"
+      ]
+    },
+    {
+      "query_id": "T-141",
+      "teacher": "魏星",
+      "query": "site:zhihu.com OR site:mp.weixin.qq.com OR site:xiaohongshu.com 复旦 \"魏星\" (课评 OR 课堂 OR 选课 OR 课程评价)",
+      "source_file": "teacher_search_141_143.json",
+      "batch_id": "TEACHER-141-143",
+      "individual_status": "queried; results are batch-level and not attributed to this individual query",
+      "batch_status": "links_returned",
+      "batch_candidate_urls": 12,
+      "official_roster_course_codes": [
+        "SOCI20002",
+        "SOCI50019"
+      ],
+      "official_roster_course_names": [
+        "社会研究方法A",
+        "人口统计与分析技术"
+      ]
+    },
+    {
+      "query_id": "T-142",
+      "teacher": "黄一倩",
+      "query": "site:zhihu.com OR site:mp.weixin.qq.com OR site:xiaohongshu.com 复旦 \"黄一倩\" (课评 OR 课堂 OR 选课 OR 课程评价)",
+      "source_file": "teacher_search_141_143.json",
+      "batch_id": "TEACHER-141-143",
+      "individual_status": "queried; results are batch-level and not attributed to this individual query",
+      "batch_status": "links_returned",
+      "batch_candidate_urls": 12,
+      "official_roster_course_codes": [
+        "GEMH10001"
+      ],
+      "official_roster_course_names": [
+        "新生命教育与心理健康"
+      ]
+    },
+    {
+      "query_id": "T-143",
+      "teacher": "黄荣贵",
+      "query": "site:zhihu.com OR site:mp.weixin.qq.com OR site:xiaohongshu.com 复旦 \"黄荣贵\" (课评 OR 课堂 OR 选课 OR 课程评价)",
+      "source_file": "teacher_search_141_143.json",
+      "batch_id": "TEACHER-141-143",
+      "individual_status": "queried; results are batch-level and not attributed to this individual query",
+      "batch_status": "links_returned",
+      "batch_candidate_urls": 12,
+      "official_roster_course_codes": [
+        "AIS631008",
+        "MSP50006",
+        "SOCI30013",
+        "SOCI30033",
+        "SOCI30033h",
+        "SOCI40003",
+        "SOCI40006",
+        "SOCI50017"
+      ],
+      "official_roster_course_names": [
+        "大数据与社会计算",
+        "社会调查与专业实习",
+        "城市社会学",
+        "互联网与社会研究",
+        "互联网与社会研究(H)",
+        "学年论文",
+        "毕业论文",
+        "中级社会统计分析"
+      ]
+    }
+  ],
+  "batches": [
+    {
+      "batch_id": "TEACHER-001-004",
+      "source_file": "teacher_search_001_004.json",
+      "query_count": 4,
+      "status": "results_returned",
+      "candidate_url_count": 5,
+      "returned_domains": [
+        "www.zhihu.com",
+        "pgy.xiaohongshu.com"
+      ]
+    },
+    {
+      "batch_id": "TEACHER-005-008",
+      "source_file": "teacher_search_005_036.json",
+      "query_count": 4,
+      "status": "links_returned",
+      "candidate_url_count": 12,
+      "returned_domains": [
+        "www.zhihu.com"
+      ]
+    },
+    {
+      "batch_id": "TEACHER-009-012",
+      "source_file": "teacher_search_005_036.json",
+      "query_count": 4,
+      "status": "links_returned",
+      "candidate_url_count": 12,
+      "returned_domains": [
+        "zhuanlan.zhihu.com",
+        "www.zhihu.com"
+      ]
+    },
+    {
+      "batch_id": "TEACHER-013-016",
+      "source_file": "teacher_search_005_036.json",
+      "query_count": 4,
+      "status": "links_returned",
+      "candidate_url_count": 12,
+      "returned_domains": [
+        "zhuanlan.zhihu.com",
+        "www.zhihu.com"
+      ]
+    },
+    {
+      "batch_id": "TEACHER-017-020",
+      "source_file": "teacher_search_005_036.json",
+      "query_count": 4,
+      "status": "links_returned",
+      "candidate_url_count": 12,
+      "returned_domains": [
+        "www.zhihu.com",
+        "zhuanlan.zhihu.com"
+      ]
+    },
+    {
+      "batch_id": "TEACHER-021-024",
+      "source_file": "teacher_search_005_036.json",
+      "query_count": 4,
+      "status": "links_returned",
+      "candidate_url_count": 12,
+      "returned_domains": [
+        "www.zhihu.com",
+        "zhuanlan.zhihu.com"
+      ]
+    },
+    {
+      "batch_id": "TEACHER-025-028",
+      "source_file": "teacher_search_005_036.json",
+      "query_count": 4,
+      "status": "links_returned",
+      "candidate_url_count": 12,
+      "returned_domains": [
+        "www.zhihu.com"
+      ]
+    },
+    {
+      "batch_id": "TEACHER-029-032",
+      "source_file": "teacher_search_005_036.json",
+      "query_count": 4,
+      "status": "links_returned",
+      "candidate_url_count": 10,
+      "returned_domains": [
+        "www.zhihu.com",
+        "zhuanlan.zhihu.com"
+      ]
+    },
+    {
+      "batch_id": "TEACHER-033-036",
+      "source_file": "teacher_search_005_036.json",
+      "query_count": 4,
+      "status": "links_returned",
+      "candidate_url_count": 12,
+      "returned_domains": [
+        "www.zhihu.com",
+        "zhuanlan.zhihu.com"
+      ]
+    },
+    {
+      "batch_id": "TEACHER-037-040",
+      "source_file": "teacher_search_037_040.json",
+      "query_count": 4,
+      "status": "links_returned",
+      "candidate_url_count": 10,
+      "returned_domains": [
+        "zhuanlan.zhihu.com",
+        "www.zhihu.com"
+      ]
+    },
+    {
+      "batch_id": "TEACHER-041-044",
+      "source_file": "teacher_search_041_044.json",
+      "query_count": 4,
+      "status": "links_returned",
+      "candidate_url_count": 12,
+      "returned_domains": [
+        "www.zhihu.com",
+        "zhuanlan.zhihu.com"
+      ]
+    },
+    {
+      "batch_id": "TEACHER-045-048",
+      "source_file": "teacher_search_045_048.json",
+      "query_count": 4,
+      "status": "links_returned",
+      "candidate_url_count": 12,
+      "returned_domains": [
+        "www.zhihu.com"
+      ]
+    },
+    {
+      "batch_id": "TEACHER-049-052",
+      "source_file": "teacher_search_049_052.json",
+      "query_count": 4,
+      "status": "links_returned",
+      "candidate_url_count": 9,
+      "returned_domains": [
+        "www.zhihu.com",
+        "zhuanlan.zhihu.com"
+      ]
+    },
+    {
+      "batch_id": "TEACHER-053-056",
+      "source_file": "teacher_search_053_056.json",
+      "query_count": 4,
+      "status": "links_returned",
+      "candidate_url_count": 12,
+      "returned_domains": [
+        "www.zhihu.com",
+        "daily.zhihu.com"
+      ]
+    },
+    {
+      "batch_id": "TEACHER-057-060",
+      "source_file": "teacher_search_057_060.json",
+      "query_count": 4,
+      "status": "links_returned",
+      "candidate_url_count": 12,
+      "returned_domains": [
+        "www.zhihu.com"
+      ]
+    },
+    {
+      "batch_id": "TEACHER-061-064",
+      "source_file": "teacher_search_061_064.json",
+      "query_count": 4,
+      "status": "links_returned",
+      "candidate_url_count": 5,
+      "returned_domains": [
+        "www.zhihu.com"
+      ]
+    },
+    {
+      "batch_id": "TEACHER-065-068",
+      "source_file": "teacher_search_065_068.json",
+      "query_count": 4,
+      "status": "links_returned",
+      "candidate_url_count": 12,
+      "returned_domains": [
+        "www.zhihu.com"
+      ]
+    },
+    {
+      "batch_id": "TEACHER-069-072",
+      "source_file": "teacher_search_069_072.json",
+      "query_count": 4,
+      "status": "links_returned",
+      "candidate_url_count": 12,
+      "returned_domains": [
+        "www.zhihu.com",
+        "zhuanlan.zhihu.com"
+      ]
+    },
+    {
+      "batch_id": "TEACHER-073-076",
+      "source_file": "teacher_search_073_076.json",
+      "query_count": 4,
+      "status": "links_returned",
+      "candidate_url_count": 10,
+      "returned_domains": [
+        "www.zhihu.com"
+      ]
+    },
+    {
+      "batch_id": "TEACHER-077-080",
+      "source_file": "teacher_search_077_080.json",
+      "query_count": 4,
+      "status": "links_returned",
+      "candidate_url_count": 8,
+      "returned_domains": [
+        "www.zhihu.com",
+        "zhuanlan.zhihu.com"
+      ]
+    },
+    {
+      "batch_id": "TEACHER-081-084",
+      "source_file": "teacher_search_081_084.json",
+      "query_count": 4,
+      "status": "links_returned",
+      "candidate_url_count": 12,
+      "returned_domains": [
+        "www.zhihu.com",
+        "zhuanlan.zhihu.com"
+      ]
+    },
+    {
+      "batch_id": "TEACHER-085-088",
+      "source_file": "teacher_search_085_088.json",
+      "query_count": 4,
+      "status": "links_returned",
+      "candidate_url_count": 1,
+      "returned_domains": [
+        "zhuanlan.zhihu.com"
+      ]
+    },
+    {
+      "batch_id": "TEACHER-089-092",
+      "source_file": "teacher_search_089_092.json",
+      "query_count": 4,
+      "status": "links_returned",
+      "candidate_url_count": 12,
+      "returned_domains": [
+        "zhuanlan.zhihu.com",
+        "www.zhihu.com"
+      ]
+    },
+    {
+      "batch_id": "TEACHER-093-096",
+      "source_file": "teacher_search_093_096.json",
+      "query_count": 4,
+      "status": "links_returned",
+      "candidate_url_count": 12,
+      "returned_domains": [
+        "www.zhihu.com",
+        "zhuanlan.zhihu.com"
+      ]
+    },
+    {
+      "batch_id": "TEACHER-097-100",
+      "source_file": "teacher_search_097_100.json",
+      "query_count": 4,
+      "status": "links_returned",
+      "candidate_url_count": 12,
+      "returned_domains": [
+        "www.zhihu.com",
+        "zhuanlan.zhihu.com",
+        "www2.zhihu.com"
+      ]
+    },
+    {
+      "batch_id": "TEACHER-101-104",
+      "source_file": "teacher_search_101_104.json",
+      "query_count": 4,
+      "status": "links_returned",
+      "candidate_url_count": 12,
+      "returned_domains": [
+        "www.zhihu.com"
+      ]
+    },
+    {
+      "batch_id": "TEACHER-105-108",
+      "source_file": "teacher_search_105_108.json",
+      "query_count": 4,
+      "status": "links_returned",
+      "candidate_url_count": 1,
+      "returned_domains": [
+        "www.zhihu.com"
+      ]
+    },
+    {
+      "batch_id": "TEACHER-109-112",
+      "source_file": "teacher_search_109_112.json",
+      "query_count": 4,
+      "status": "links_returned",
+      "candidate_url_count": 6,
+      "returned_domains": [
+        "www.zhihu.com"
+      ]
+    },
+    {
+      "batch_id": "TEACHER-113-116",
+      "source_file": "teacher_search_113_116.json",
+      "query_count": 4,
+      "status": "links_returned",
+      "candidate_url_count": 6,
+      "returned_domains": [
+        "zhuanlan.zhihu.com",
+        "www.zhihu.com",
+        "pages.xiaohongshu.com"
+      ]
+    },
+    {
+      "batch_id": "TEACHER-117-120",
+      "source_file": "teacher_search_117_120.json",
+      "query_count": 4,
+      "status": "links_returned",
+      "candidate_url_count": 11,
+      "returned_domains": [
+        "zhuanlan.zhihu.com",
+        "www.zhihu.com"
+      ]
+    },
+    {
+      "batch_id": "TEACHER-121-124",
+      "source_file": "teacher_search_121_124.json",
+      "query_count": 4,
+      "status": "links_returned",
+      "candidate_url_count": 12,
+      "returned_domains": [
+        "www.zhihu.com",
+        "zhuanlan.zhihu.com"
+      ]
+    },
+    {
+      "batch_id": "TEACHER-125-128",
+      "source_file": "teacher_search_125_128.json",
+      "query_count": 4,
+      "status": "links_returned",
+      "candidate_url_count": 12,
+      "returned_domains": [
+        "zhuanlan.zhihu.com",
+        "www.zhihu.com"
+      ]
+    },
+    {
+      "batch_id": "TEACHER-129-132",
+      "source_file": "teacher_search_129_132.json",
+      "query_count": 4,
+      "status": "links_returned",
+      "candidate_url_count": 12,
+      "returned_domains": [
+        "www.zhihu.com"
+      ]
+    },
+    {
+      "batch_id": "TEACHER-133-136",
+      "source_file": "teacher_search_133_136.json",
+      "query_count": 4,
+      "status": "links_returned",
+      "candidate_url_count": 12,
+      "returned_domains": [
+        "www.zhihu.com"
+      ]
+    },
+    {
+      "batch_id": "TEACHER-137-140",
+      "source_file": "teacher_search_137_140.json",
+      "query_count": 4,
+      "status": "links_returned",
+      "candidate_url_count": 5,
+      "returned_domains": [
+        "www.zhihu.com",
+        "rpdc.xiaohongshu.com"
+      ]
+    },
+    {
+      "batch_id": "TEACHER-141-143",
+      "source_file": "teacher_search_141_143.json",
+      "query_count": 3,
+      "status": "links_returned",
+      "candidate_url_count": 12,
+      "returned_domains": [
+        "www.zhihu.com"
+      ]
+    }
+  ]
+}

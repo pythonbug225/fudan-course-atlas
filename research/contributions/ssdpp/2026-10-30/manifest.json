@@ -1,0 +1,1702 @@
+{
+  "schema_version": 1,
+  "batch_id": "ssdpp-20261030",
+  "collected_at": "2026-10-30",
+  "scope": {
+    "programs": 15,
+    "teaching_sections": 391,
+    "course_codes": 296,
+    "records": 518,
+    "courses_with_records": 73,
+    "full_read_floor_count": 4052,
+    "full_read_review_count": 98,
+    "browser_actual_query_count": 17
+  },
+  "files": [
+    {
+      "path": ".gitattributes",
+      "bytes": 9,
+      "sha256": "8b9c3028d6467ff3be7c793141927841d70f47f52d0590677438f488ca154992"
+    },
+    {
+      "path": "course-list.md",
+      "bytes": 36992,
+      "sha256": "478778623b42b242bdef05a9f71c23cb856ed833c29f99c24d921dd86639d3b1"
+    },
+    {
+      "path": "courses/000.000.6.json",
+      "bytes": 1596,
+      "sha256": "133b36fcc4a350ba1a9cb9f1ab078789fb4ec72ef4c3f17687b0cc197baa4704"
+    },
+    {
+      "path": "courses/AIS631008.json",
+      "bytes": 1661,
+      "sha256": "ef960e1e54233f6bcc3ad29565e0a078b7760214f1ae16d60cd916a9aa934649"
+    },
+    {
+      "path": "courses/AIS631009.json",
+      "bytes": 1855,
+      "sha256": "a6dc1f7dd4a51bc3c3168cddd3ed8110ce3d1fdc14d2ec5ea408ecf7bbaac1c7"
+    },
+    {
+      "path": "courses/AIS731001.json",
+      "bytes": 3040,
+      "sha256": "ed8299c0569560315c8cb8f17c77dc1e43ff9b6ceec29d4c7b5d45c683ee6451"
+    },
+    {
+      "path": "courses/AIT410018.json",
+      "bytes": 1715,
+      "sha256": "969dfb2bb247e34150ae1a569682480d3d05d7867562a10dc8250b393fae6420"
+    },
+    {
+      "path": "courses/APSY60001.json",
+      "bytes": 1648,
+      "sha256": "93cfe0cc4bd836185aa57a21c5cdc6213b364552b05290531c1dd3274365ec59"
+    },
+    {
+      "path": "courses/APSY60002.json",
+      "bytes": 1650,
+      "sha256": "2cd987c85e711b75c3be71d96bea40b1fe3f8aa9e9a4841998872d82f1767ae2"
+    },
+    {
+      "path": "courses/APSY60003.json",
+      "bytes": 1658,
+      "sha256": "b04a813db7f976ac85139ffd908b7585ff518bb8b6674cc026c22e19c09b62ab"
+    },
+    {
+      "path": "courses/APSY60005.json",
+      "bytes": 1796,
+      "sha256": "6c7aa5a1835fccdcb51163cc7932a9578cfaacbd81e6cf3ece6206a5edf7fe8f"
+    },
+    {
+      "path": "courses/APSY60006.json",
+      "bytes": 2651,
+      "sha256": "86a23fd71f9d563b48e0d1ff65511225b074b56063f942973bb15fff8bdc0336"
+    },
+    {
+      "path": "courses/APSY60008.json",
+      "bytes": 1632,
+      "sha256": "8b2d8c4fea58779bdb58929398980ebeafd6658355b952c90b1243fafb953669"
+    },
+    {
+      "path": "courses/APSY60009.json",
+      "bytes": 1643,
+      "sha256": "5ddcfbfe6eb1df999330a27616e3873a533cf44b5be2fcb54d3a771a74223edd"
+    },
+    {
+      "path": "courses/APSY60013.json",
+      "bytes": 1620,
+      "sha256": "2d3553163ee27e4d3c17b77b5f27aab0793fc5df1f846154497f38bd21f9cc60"
+    },
+    {
+      "path": "courses/APSY60014.json",
+      "bytes": 1629,
+      "sha256": "8631a34659367734ae4f1c6d8d804d4ecc1ed4de1533880ccef3f486d2a3e2d6"
+    },
+    {
+      "path": "courses/APSY60015.json",
+      "bytes": 1756,
+      "sha256": "0cacabca6c8b7dca485875b85f81ad31400e0510b2e32ec4620539ece82b2f82"
+    },
+    {
+      "path": "courses/APSY60016.json",
+      "bytes": 1736,
+      "sha256": "6908ba943eaf0e0a8cf14a87cda1845d3de7ed976f85a4bc912a7b8c15357192"
+    },
+    {
+      "path": "courses/APSY60017.json",
+      "bytes": 1835,
+      "sha256": "c8edefb73c71a1066af9cad4ba085a6bc1d2408bad2ed9507c89cc28824d47ac"
+    },
+    {
+      "path": "courses/APSY60019.json",
+      "bytes": 1649,
+      "sha256": "b1939b7c3e57c95c55d42d21c2989b26a7622eaf6d9eb44261b8b24bed6585ab"
+    },
+    {
+      "path": "courses/APSY60021.json",
+      "bytes": 1728,
+      "sha256": "2a16f69c7783e3aca928222daa31d52195dee43e01cda36068544befc9250fa5"
+    },
+    {
+      "path": "courses/APSY60022.json",
+      "bytes": 1624,
+      "sha256": "e7ec9edec29a7cf99525ff854532e7226bb965ec6e0d60023fa00b1cb982254a"
+    },
+    {
+      "path": "courses/APSY60023.json",
+      "bytes": 1601,
+      "sha256": "c5f790bb554fc2752f19d289c19735930a8033f3c30af1a137f5df4964bb3f07"
+    },
+    {
+      "path": "courses/APSY70002.json",
+      "bytes": 1632,
+      "sha256": "aad73386bc1d15418842c7c25548789dc88bbc2ee5d8a754172789f27e702efb"
+    },
+    {
+      "path": "courses/APSY70004.json",
+      "bytes": 1739,
+      "sha256": "96ac648ad411fa271089b974fd949bd2a186f74e03386a72a00676e09a6fdcd5"
+    },
+    {
+      "path": "courses/APSY70005.json",
+      "bytes": 1539,
+      "sha256": "a74b9c106edd2c318a241d67bb53de4fa0daba66d7973311f8c72d078c2693f1"
+    },
+    {
+      "path": "courses/APSY70009.json",
+      "bytes": 1699,
+      "sha256": "7d510a9e616eaca67d7a13cc0468d0ccb2dd474179fbfd000ec6c28ea72ef25f"
+    },
+    {
+      "path": "courses/APSY70010.json",
+      "bytes": 1669,
+      "sha256": "f47bd8ac39c01492afbc8f4aeb24c0a87d86f4936994b447820367d25e3fbbe2"
+    },
+    {
+      "path": "courses/CS60021.json",
+      "bytes": 1726,
+      "sha256": "924f653764a526b5c2c358bc7ba99f70aa9b1bb2001d6ae29ccecc60f5b7792a"
+    },
+    {
+      "path": "courses/ECON50016.json",
+      "bytes": 1743,
+      "sha256": "7dca361fdceecc409c6b3e4e02e1635527a4238ac1509d2d227b52d5a7f029f5"
+    },
+    {
+      "path": "courses/ECON50018.json",
+      "bytes": 1613,
+      "sha256": "bc7417801707d44993ff807304281c39f322ca1bbe0597adc8cac7f5bb6c5d6c"
+    },
+    {
+      "path": "courses/ECON50021.json",
+      "bytes": 1759,
+      "sha256": "1cefe74be5c0cd95b16218735b6b83e03d113857d5dcfa3a0fcf10ec9e8c7b9c"
+    },
+    {
+      "path": "courses/ECON60020.json",
+      "bytes": 1622,
+      "sha256": "73979b8cc9efca561b6fc3cf58f985bc5a5b33e2d859689e837d36b6b5c59672"
+    },
+    {
+      "path": "courses/ECON60021.json",
+      "bytes": 1656,
+      "sha256": "e401d5e0aeb23052b7a582af1c9988552b52c2438f9d5be64526cfaaea8e088c"
+    },
+    {
+      "path": "courses/ECON60022.json",
+      "bytes": 1700,
+      "sha256": "b543f0d0a2f22dbf359992c8e3f60522db3df3dffc3efe7172a59401f642ca39"
+    },
+    {
+      "path": "courses/GECC10115.json",
+      "bytes": 21190,
+      "sha256": "bd7f9bc4e59c283e4bbbf5118c81c1712780c0cfd997a35df58eb3d676cfc1fe"
+    },
+    {
+      "path": "courses/GECC10116.json",
+      "bytes": 12073,
+      "sha256": "397348739664a124433c15152e606cfcc2282f16d8c109ecd7844bf80135f6ac"
+    },
+    {
+      "path": "courses/GECC10117.json",
+      "bytes": 4061,
+      "sha256": "e053adb8f3842e301af5b43cb9a424ac02698457feca134c457462f991c72342"
+    },
+    {
+      "path": "courses/GEEC10008.json",
+      "bytes": 1692,
+      "sha256": "c60506877badad7923384caaecab3590e838854470bf8a78df7d79d79c76e94a"
+    },
+    {
+      "path": "courses/GEEC10009.json",
+      "bytes": 1679,
+      "sha256": "52eab8a3dcbf8a03765232c7558c73044acd8fd829af283aac15d136c60ccc9c"
+    },
+    {
+      "path": "courses/GEEC10010.json",
+      "bytes": 1716,
+      "sha256": "ceeb77fdddabcf4e32a3e5354099d44b023241bb194d3a88722b39a909a37dc0"
+    },
+    {
+      "path": "courses/GEEC10011.json",
+      "bytes": 1704,
+      "sha256": "6a3139c5455af5aba19d050d128ff046038111dddcd75bc35a8f6a7d6eedecac"
+    },
+    {
+      "path": "courses/GEEC10383.json",
+      "bytes": 1806,
+      "sha256": "0672d8b85f5781b3a4bbe3f5a41fb82da921d729b35875f2b3058a41571644a5"
+    },
+    {
+      "path": "courses/GEEC10385.json",
+      "bytes": 9100,
+      "sha256": "8eb522b4362b976f4b7d0e221c683bfa47e0d24ff00fbd120904543304fe2d54"
+    },
+    {
+      "path": "courses/GEEC10388.json",
+      "bytes": 6645,
+      "sha256": "7c59c3453519997532cf4b9c26788d4333335ad88eeba5173655104f9b1c7408"
+    },
+    {
+      "path": "courses/GEEC10392.json",
+      "bytes": 3007,
+      "sha256": "cf842900324125cf31db6f9063b3b09640dd8efdcd8962c9e1171f6eba143408"
+    },
+    {
+      "path": "courses/GEEC10396.json",
+      "bytes": 3837,
+      "sha256": "042c41d7d51fff86ab005e5ad76654127dd042f87c7ad8bc7df5e991adf3c722"
+    },
+    {
+      "path": "courses/GEEC10398.json",
+      "bytes": 2764,
+      "sha256": "be7b98677551ec1d70c7785c9cf6ab603a046b2baab9c52963b1cfb032afd725"
+    },
+    {
+      "path": "courses/GEEC10399.json",
+      "bytes": 4096,
+      "sha256": "efccbb61bad071d330a562601d7159fc414206d2d99f1a2b3a07780ec832591f"
+    },
+    {
+      "path": "courses/GEEC10400.json",
+      "bytes": 1695,
+      "sha256": "11a109f24bd17f30a033ee44afa7160a5ec04e46fdcc7338f6ab81f3496f4e12"
+    },
+    {
+      "path": "courses/GEEC10407.json",
+      "bytes": 4997,
+      "sha256": "9fa15067c35e12b962eb58f9271169c4ac6683ec96f80844aab469046951ac9c"
+    },
+    {
+      "path": "courses/GEEC10408.json",
+      "bytes": 8367,
+      "sha256": "3aead7ca53222c6b66811b4dbe70582bc60a12e2dc8425b848eca50be5de53d5"
+    },
+    {
+      "path": "courses/GEEC10416.json",
+      "bytes": 1834,
+      "sha256": "72aa253b450a59ee839da814c0991d7852197221dbcff4f501add8084a4de648"
+    },
+    {
+      "path": "courses/GEIN10049.json",
+      "bytes": 3914,
+      "sha256": "f5b066b0062beecc1618320d3a75d7e6f4661174497565607a8f1fdb0acb7ca2"
+    },
+    {
+      "path": "courses/GEIN10052.json",
+      "bytes": 1711,
+      "sha256": "4c53dd78060ca0437258677a0bf3e43951f9c0dcecde6d1f036858d9995ffb34"
+    },
+    {
+      "path": "courses/GEIP40013.json",
+      "bytes": 1779,
+      "sha256": "5779bdda9fb784baf3f46ac65b3771f17a8898228be01cc54c95bf4b162b284a"
+    },
+    {
+      "path": "courses/GEMH10001.json",
+      "bytes": 4109,
+      "sha256": "c7b09bfef5e9c5115b9c14c16167c92871a41cb08b3330a15171694e86d89e7d"
+    },
+    {
+      "path": "courses/GEMH10008.json",
+      "bytes": 31746,
+      "sha256": "cc282819f0d652cbcdc2531748bad11ffc2f90c6670928e048fd2bfa554a8c5f"
+    },
+    {
+      "path": "courses/GEMH10009.json",
+      "bytes": 14043,
+      "sha256": "ade2560e0e3f51de2f39787c030b8f01f949b58fd3f377eaf73d8e7847a425b6"
+    },
+    {
+      "path": "courses/GEMH10010.json",
+      "bytes": 6101,
+      "sha256": "9fa86f43258e00cb1c6574db2b24acb262e25aef116babb1663cf91649de784e"
+    },
+    {
+      "path": "courses/GEMH10013.json",
+      "bytes": 6067,
+      "sha256": "5187cda83b81cf8e2eb1a643f37e0535544bbf36a74365c35c7e1e32a319d5b3"
+    },
+    {
+      "path": "courses/GEMH10014.json",
+      "bytes": 18971,
+      "sha256": "3d258c60a17d6114e574ab349b9be450545620dd18b3415d2434227f67be7159"
+    },
+    {
+      "path": "courses/GEMH10015.json",
+      "bytes": 11612,
+      "sha256": "e53afd607b0ebb434e5568a3642dfb4a67b831399d9bb9b80d3ec897b4c64808"
+    },
+    {
+      "path": "courses/GEMH10016.json",
+      "bytes": 6187,
+      "sha256": "ae2c79f59a70f9dd640e339feb5fd2f7079200ee1283492f5f12f0afeb44ad33"
+    },
+    {
+      "path": "courses/GEMH10017.json",
+      "bytes": 2713,
+      "sha256": "3e3757172046a422420463c18d4c7dd90f0251ef150eb6c994a008cdf0672cf3"
+    },
+    {
+      "path": "courses/GEMH10018.json",
+      "bytes": 1959,
+      "sha256": "5ee1f918da6caed3c11b95573289ed8df82666dd1eb8dbb81d48fd248de9d1ae"
+    },
+    {
+      "path": "courses/GESP10004.json",
+      "bytes": 6875,
+      "sha256": "b8e36625121e15f20b93f44f352a4343c9893fc52e9d1cfa49940cfd8c9be539"
+    },
+    {
+      "path": "courses/GESP20003.json",
+      "bytes": 14824,
+      "sha256": "db42ad498e8158aa62947016ae4c82a9cef1fc9b8c60bc8e30ef5a998b97c07f"
+    },
+    {
+      "path": "courses/GESP20004.json",
+      "bytes": 6404,
+      "sha256": "fe8dbe157bc6f8365c4b32a290357c04c259e83eb2e7b0d8876129b3170bce79"
+    },
+    {
+      "path": "courses/GEXZ10027.json",
+      "bytes": 1956,
+      "sha256": "a6d6a3f4af022bae15d02127b96a71dd9b9687a21525aa81e44ec5b2d4a15b7c"
+    },
+    {
+      "path": "courses/MAA60001.json",
+      "bytes": 1713,
+      "sha256": "5b490962dd7fa11f31efa4126b7e8107b56189c25d781d947d3988a6d3e74591"
+    },
+    {
+      "path": "courses/MAA60002.json",
+      "bytes": 1701,
+      "sha256": "53c9ed3ba9da6e70427b87066df8e84a3a8a33ec851ac064b2e66d4415ec28e4"
+    },
+    {
+      "path": "courses/MAA60003.json",
+      "bytes": 1755,
+      "sha256": "541e1203e6020a02d6969e6d50928a7443d1cccfafed1298817011496ee82fb4"
+    },
+    {
+      "path": "courses/MAA60004.json",
+      "bytes": 3757,
+      "sha256": "a2c3622402fa8074a56fca88e4bd65f3ba20c3ad65165628819c6546c2d88d70"
+    },
+    {
+      "path": "courses/MAA60005.json",
+      "bytes": 1618,
+      "sha256": "1c7a2828a4078fbe30dd1a21b557055c8aeb62e8457e7caa1a9b18c09850a23c"
+    },
+    {
+      "path": "courses/MAA70001.json",
+      "bytes": 1673,
+      "sha256": "f27bf71df7c758299070b72b78f30ea195af7a6ac82635ac30537986ee8735e4"
+    },
+    {
+      "path": "courses/MAA70002.json",
+      "bytes": 1690,
+      "sha256": "38f0ad586469daf4a82339cefb3685a1742a9c0231d5d5aaa15307d589b0763a"
+    },
+    {
+      "path": "courses/MAA70003.json",
+      "bytes": 1749,
+      "sha256": "c950bad52773b6c7510c7caa5ce5abfe40add8d76fff1b43a91e7068218932c5"
+    },
+    {
+      "path": "courses/MANA50009.json",
+      "bytes": 1681,
+      "sha256": "afd810763f9e7cec1c25234f000f95652d531035b320409d020764a54bc51d07"
+    },
+    {
+      "path": "courses/MANA50010.json",
+      "bytes": 1694,
+      "sha256": "2d6f21c8845190afd1927113feedd37305e04acbdd2d1d04d7f225366f919606"
+    },
+    {
+      "path": "courses/MANA50011.json",
+      "bytes": 1625,
+      "sha256": "8f19fc1eac8f5d0868d26a9bbc38f19854be0a9f3889024caaa21c5f411f28b1"
+    },
+    {
+      "path": "courses/MANA50012.json",
+      "bytes": 1632,
+      "sha256": "c14c7bb848682a09b4f508584793b554250188ae1ee1d9e6bd65afa9be0a4e30"
+    },
+    {
+      "path": "courses/MANA50013.json",
+      "bytes": 1640,
+      "sha256": "81880520822decc2cc9afad7692eb9eb0c194d0fbc9726f402a983c8f05da727"
+    },
+    {
+      "path": "courses/MANA50015.json",
+      "bytes": 1648,
+      "sha256": "185ba75b689e23784f6cba0a5a386c92a89b867fb70615e62153f5e920ac3cb8"
+    },
+    {
+      "path": "courses/MANA50016.json",
+      "bytes": 3393,
+      "sha256": "5230c8efe60dc103ae0037cab67d32fdb3907efc85200d84324e894707f19457"
+    },
+    {
+      "path": "courses/MANA50017.json",
+      "bytes": 2836,
+      "sha256": "d101a3bb4560075f1b1de3f593d98edbeed52aef4d48ec2a96dd791d20b1d215"
+    },
+    {
+      "path": "courses/MANA50018.json",
+      "bytes": 2802,
+      "sha256": "6781759c2d3749c12a31271e77e2d6364af67964c939805b14dbefedc17c8ea8"
+    },
+    {
+      "path": "courses/MANA50019.json",
+      "bytes": 1706,
+      "sha256": "0e35f06ba205f179c564a6b73914c909f8fb7e2da915a79e625383f87014689f"
+    },
+    {
+      "path": "courses/MANA50020.json",
+      "bytes": 1624,
+      "sha256": "0954a6d6c6917883da7206a6cf1cd8e03ebe0e8b4e30bef84ae1926e3fc2b499"
+    },
+    {
+      "path": "courses/MANA50022.json",
+      "bytes": 1656,
+      "sha256": "b9456061ac67fbd0505b9d1457bfb55994e07a8cca9e2f30f315113aa1273f64"
+    },
+    {
+      "path": "courses/MANA50023.json",
+      "bytes": 1632,
+      "sha256": "37dae763e7d70b3530f76cdfcffe4cb50593f5fc42362ed5abbced744fd7870d"
+    },
+    {
+      "path": "courses/MANA50024.json",
+      "bytes": 1638,
+      "sha256": "f0bc2d466c0b8ae9655bf00834c37b8f8e0be73ae9ec593a5f37e5b67d5e0a18"
+    },
+    {
+      "path": "courses/MANA60071.json",
+      "bytes": 1927,
+      "sha256": "3cbedbff4f9c039698843a71ad5416c083e162468094aee0fd4fea68e4d10d2c"
+    },
+    {
+      "path": "courses/MANA60072.json",
+      "bytes": 1691,
+      "sha256": "97cabed0c6c8bc58beda79b891ade4fa1566979d0ca1535eef73103de8fe7c17"
+    },
+    {
+      "path": "courses/MANA60073.json",
+      "bytes": 1639,
+      "sha256": "928b5b76c7ee38558c7c61e6eace3a8cb397d6d6afca880c4a1cb10fbb87e51b"
+    },
+    {
+      "path": "courses/MSP50002.json",
+      "bytes": 1678,
+      "sha256": "b4077f817ad4d9c542be11543b39566a018509436708ffe33c91b6e8c301b968"
+    },
+    {
+      "path": "courses/MSP50003.json",
+      "bytes": 1673,
+      "sha256": "98f7ef601f2dc5ec7bde6ed80d673f60a296969e829d950fe1256355151986d6"
+    },
+    {
+      "path": "courses/MSP50004.json",
+      "bytes": 1646,
+      "sha256": "71da2202e155cec791aed0df031c2a1189c8d07dffcdd94daa4c995a6080f4f3"
+    },
+    {
+      "path": "courses/MSP50005.json",
+      "bytes": 1634,
+      "sha256": "e5e4659af73c01e2a3298e7a27fc8a56fb72559df4b6aa3f1d8c2c1857b6728d"
+    },
+    {
+      "path": "courses/MSP50006.json",
+      "bytes": 2766,
+      "sha256": "65625799bec039e932223adf9e6344a769aefb5160a9fc5be3c64d0175721ee5"
+    },
+    {
+      "path": "courses/MSP60001.json",
+      "bytes": 1689,
+      "sha256": "eb7ad0262159a3c3178c4d3de46aaa9ba88ea4435b4e5bc7d081a4c1ad5a26a1"
+    },
+    {
+      "path": "courses/MSP60003.json",
+      "bytes": 1659,
+      "sha256": "8da4312116d9da3421cb0f6c4a45949bcbadb6e32603ac4c25c0e09024ea2e43"
+    },
+    {
+      "path": "courses/MSP60004.json",
+      "bytes": 1623,
+      "sha256": "c78507e477d2f2a27789110d1262c52d7a523f0254d646c1aaa7031a92e98a29"
+    },
+    {
+      "path": "courses/PSYC20001.json",
+      "bytes": 61445,
+      "sha256": "7d6670b37d6d3f78bee5b37f618280cfea1e35f097f26677465e4fa287d8d7bd"
+    },
+    {
+      "path": "courses/PSYC30001.json",
+      "bytes": 4934,
+      "sha256": "cdd51f9a3fa45a6cf15f39db9345999ef8c4f3d88ede8abcf466c44231b15fa5"
+    },
+    {
+      "path": "courses/PSYC30002.json",
+      "bytes": 1681,
+      "sha256": "8e775573cfbc121720ee06df90fe7a56325df3be343ca6cafed479e3062a363a"
+    },
+    {
+      "path": "courses/PSYC30002h.json",
+      "bytes": 1866,
+      "sha256": "2d5e09868cb8b36253f4c7c7148d40a340ebd3ad054c91cc7f98c287917049b4"
+    },
+    {
+      "path": "courses/PSYC30003.json",
+      "bytes": 8980,
+      "sha256": "68717c3c6122267a88e79a08992ae0f8cf6fb882d77b03773ac5926763716f8c"
+    },
+    {
+      "path": "courses/PSYC30003h.json",
+      "bytes": 1749,
+      "sha256": "5c0f2a549f6294f93a18b98995c44fcf1a0d12fd0b5f78b7059f46333b4bc813"
+    },
+    {
+      "path": "courses/PSYC30004.json",
+      "bytes": 3890,
+      "sha256": "afa13c4182745fa90ad19932a79a6b730761e562763ba03a892c631eeea3f4bf"
+    },
+    {
+      "path": "courses/PSYC30005.json",
+      "bytes": 2890,
+      "sha256": "81c8c2328aabdc0fa91de22e49e7e5113ee5b091622880a844fa184eef81f0d7"
+    },
+    {
+      "path": "courses/PSYC30006.json",
+      "bytes": 5837,
+      "sha256": "28a755330ec613ebd1cc0fd85133f6b0d4bba91d0bc78f98be3243da157faef7"
+    },
+    {
+      "path": "courses/PSYC30006h.json",
+      "bytes": 2268,
+      "sha256": "7db0873f114c2a0e8f78269e2393f8938a06e133b5d1d519b53b226de5405664"
+    },
+    {
+      "path": "courses/PSYC30007.json",
+      "bytes": 1647,
+      "sha256": "f16e0d901031a887f1072c2d83c28419d6e929614d0318acab8aef09ca77a64a"
+    },
+    {
+      "path": "courses/PSYC30007h.json",
+      "bytes": 1706,
+      "sha256": "8cce070b498b75795d3f77395cb44f23b1b8e7ed2a60cdb68f9cd75b441d439d"
+    },
+    {
+      "path": "courses/PSYC30008.json",
+      "bytes": 1671,
+      "sha256": "053a0f961d291badec0dbc872060c93b1d6101215db56dc93806ee6b2cd2764b"
+    },
+    {
+      "path": "courses/PSYC30008h.json",
+      "bytes": 1732,
+      "sha256": "65b44933a10f1cf72e048a31777bf6569ca7c72eef1167a272d33018511c73d2"
+    },
+    {
+      "path": "courses/PSYC30009.json",
+      "bytes": 1659,
+      "sha256": "407e7826f16b68ad45b2303c5cb4a940b076b0851af0487e577380961bdbb549"
+    },
+    {
+      "path": "courses/PSYC30010.json",
+      "bytes": 1696,
+      "sha256": "35e590bc392a7779b1eb994cc4825cb352ce748a7c1acbb54844bcd4e47f3329"
+    },
+    {
+      "path": "courses/PSYC30012.json",
+      "bytes": 1733,
+      "sha256": "d0b8d7ff582d095ca48c0ae68d2111ec1a49b2e3c56a08de0e615be60e4daf93"
+    },
+    {
+      "path": "courses/PSYC30013.json",
+      "bytes": 1659,
+      "sha256": "65f6f28da39c3b567692c9cb524d2fea0b74a1988c6a60dbd923536a89eaaf00"
+    },
+    {
+      "path": "courses/PSYC30014.json",
+      "bytes": 1660,
+      "sha256": "63940d521413ff3411edaeddda5eb5bcb451ee43b70e884821bc101752cf012b"
+    },
+    {
+      "path": "courses/PSYC30015.json",
+      "bytes": 2942,
+      "sha256": "f4564931e7e45809352ca9f3046d4230c3f789168051236f4fd38859a3b16f27"
+    },
+    {
+      "path": "courses/PSYC30017.json",
+      "bytes": 1815,
+      "sha256": "a7779480bd8e1fc41c4e6ee9929471de482590d3545f7cc2457950ebdace3297"
+    },
+    {
+      "path": "courses/PSYC30018.json",
+      "bytes": 1732,
+      "sha256": "7597d837a15af31ebbe5fa488086e56848d0ba797aa9e31c2a64f0c0835eece0"
+    },
+    {
+      "path": "courses/PSYC30019.json",
+      "bytes": 2935,
+      "sha256": "48170d83072f38b792c2cd97f4181677f69cd54fcd61f1ec6040a805685fe86f"
+    },
+    {
+      "path": "courses/PSYC30021.json",
+      "bytes": 1659,
+      "sha256": "3f24902098fbdd586bac6e8337cee3697c1f99e690f901b5e95242667fe8b827"
+    },
+    {
+      "path": "courses/PSYC30023.json",
+      "bytes": 1659,
+      "sha256": "7d5eca1e1d96ffa45d4c3539d3cb032314157b3a98a68be7732d1f8e4c6ec88d"
+    },
+    {
+      "path": "courses/PSYC30023h.json",
+      "bytes": 1915,
+      "sha256": "eba77641354b970c5a9009f589e4134cb879945cde4e5d5ee2ac8fa91c20ade5"
+    },
+    {
+      "path": "courses/PSYC30024.json",
+      "bytes": 1783,
+      "sha256": "a190af2327dc6757f489a8fbf5b2fdb0005b5feae67a76040fc16b69c7cf805d"
+    },
+    {
+      "path": "courses/PSYC30025.json",
+      "bytes": 1742,
+      "sha256": "bca633b48b767b8f9ae3ff72f60f06b86a55b58153ba08c8b7704825b00a8aa5"
+    },
+    {
+      "path": "courses/PSYC30026.json",
+      "bytes": 2842,
+      "sha256": "59128c22596f456cbcae980db07d18ef505062cad60df5f2fbb96275ede728a2"
+    },
+    {
+      "path": "courses/PSYC30027.json",
+      "bytes": 1757,
+      "sha256": "ea36a2fe174b303aa86aaea9a378aa24d3d10c0fe588bb2a9d6727493bb7a583"
+    },
+    {
+      "path": "courses/PSYC30028.json",
+      "bytes": 1758,
+      "sha256": "9669c6ebd697b255691431f11099b93b9b7f786e6160502594e632927c3e50b4"
+    },
+    {
+      "path": "courses/PSYC40001.json",
+      "bytes": 10973,
+      "sha256": "509eb44c013775d780c70e75a7decb2ff8e4ae47f0f6397faa3155b10c391243"
+    },
+    {
+      "path": "courses/PSYC40002.json",
+      "bytes": 1681,
+      "sha256": "5c0a24df8e2f4299c36fdec8cf4229abd042079846c6058e97d8662bd4dddc17"
+    },
+    {
+      "path": "courses/PSYC40003.json",
+      "bytes": 1682,
+      "sha256": "3fb95a93949771f0e2a6ffe8dc96b1deab302ffc3a510f3d0ac1ae8ed4944bf9"
+    },
+    {
+      "path": "courses/PSYC40004.json",
+      "bytes": 1689,
+      "sha256": "0684b094b64b50221cb30fdb006cd36144d2c152bdc2c2948ff8f93eead48ef9"
+    },
+    {
+      "path": "courses/PSYC40005.json",
+      "bytes": 1646,
+      "sha256": "e795be6c38941632250ecc5644fe7704335afa64bdc7a2a3df34268f4f0eee21"
+    },
+    {
+      "path": "courses/PSYC40006.json",
+      "bytes": 1644,
+      "sha256": "d528cbd4f2655c67cfc220cd945e62657062573949fe8afc050877dd7d4fcdb3"
+    },
+    {
+      "path": "courses/PSYC60001.json",
+      "bytes": 1695,
+      "sha256": "ba700074ab5443c27993f1c4d8746bac1fff9e4fa40ae5e557a255f1091a9e1e"
+    },
+    {
+      "path": "courses/PSYC60002.json",
+      "bytes": 1648,
+      "sha256": "a226f4364a28a6b5405e4f81985a03cac99a3fbfebbcc9a791a3f68ab6dae7fc"
+    },
+    {
+      "path": "courses/PSYC60004.json",
+      "bytes": 1726,
+      "sha256": "52ca83d6ee3852e5b153a1424b6023117026cf28042fd0de95e4cdedeca62573"
+    },
+    {
+      "path": "courses/PSYC60005.json",
+      "bytes": 1646,
+      "sha256": "8885a99539c5accd92cefcd01d0e9e12108bbba6d0d32fd5383adf45537358dd"
+    },
+    {
+      "path": "courses/PSYC60006.json",
+      "bytes": 2097,
+      "sha256": "112bb79909485b23dc677bbc0aea399e8066c13c31b9127b2e0a7cf058a255fe"
+    },
+    {
+      "path": "courses/PSYC70005.json",
+      "bytes": 1649,
+      "sha256": "dd34685f9ab00d3d689371c27aa95f030056f5b36d56ee55e8c97834e5c6832e"
+    },
+    {
+      "path": "courses/PSYC70013.json",
+      "bytes": 1823,
+      "sha256": "102ea0a2d987d5a2e430e96a3d3a0aabc9ef16b03d6d6b51ac55c822667100ba"
+    },
+    {
+      "path": "courses/SOCI10001.json",
+      "bytes": 3805,
+      "sha256": "baecb30e46229ebb8ed3dba1cdf4e0be0a2a5041feede5700f8964098d444634"
+    },
+    {
+      "path": "courses/SOCI10003.json",
+      "bytes": 6068,
+      "sha256": "fdf4748471dfd6d44ff0a030a84b65ef2088b87f584d2a1195800baa085c019e"
+    },
+    {
+      "path": "courses/SOCI10004.json",
+      "bytes": 3800,
+      "sha256": "f1813341e5411d2558c165508b05aad2d3b62c2eb1385b988a423ec724311b07"
+    },
+    {
+      "path": "courses/SOCI20001.json",
+      "bytes": 212174,
+      "sha256": "60559ef3ee3fe0dcad7f8878d5d6add7dcf7b0db1294e7c96a72e3b660894008"
+    },
+    {
+      "path": "courses/SOCI20002.json",
+      "bytes": 52858,
+      "sha256": "67ecec05733784b1d7cb5748dcb0dd24e8929c38218b82687d3014ed2464befb"
+    },
+    {
+      "path": "courses/SOCI20003.json",
+      "bytes": 4731,
+      "sha256": "bdf1f9efdcd5cf5eec6ae3b1c11b0276617ee943a320e760d3a947629d663602"
+    },
+    {
+      "path": "courses/SOCI20004.json",
+      "bytes": 2809,
+      "sha256": "f42fc305233ac02c666975f9d46d4e1b6c6e32de9fac81d0e9077df2fdaa7020"
+    },
+    {
+      "path": "courses/SOCI30001.json",
+      "bytes": 1783,
+      "sha256": "be3e7d2bc2795b2e3a1bae119c48c7e85d8eaa0b7378c4bd3e033788638b9c1a"
+    },
+    {
+      "path": "courses/SOCI30002.json",
+      "bytes": 3575,
+      "sha256": "7dc3f87c11545b4c529fc6c624a2653d53d4b4bf56f58bb910868617e3a9b578"
+    },
+    {
+      "path": "courses/SOCI30003.json",
+      "bytes": 1648,
+      "sha256": "9e5be1a77d781955bd033e5f71e763197bdc4546da14447c23482423de9bdb21"
+    },
+    {
+      "path": "courses/SOCI30004.json",
+      "bytes": 5995,
+      "sha256": "1113a3a66f901c697513024b3f61189d1558420598c9d030619aee5a0aa09e28"
+    },
+    {
+      "path": "courses/SOCI30005.json",
+      "bytes": 3784,
+      "sha256": "e2af33a677538685ef90c86eb37e0c31fa754a60706ae007fcf147058ee143d6"
+    },
+    {
+      "path": "courses/SOCI30006.json",
+      "bytes": 5193,
+      "sha256": "b60914a5035b2f699e5541f657164e84091a91bf2e8202fa465bf497dc2658eb"
+    },
+    {
+      "path": "courses/SOCI30006h.json",
+      "bytes": 1822,
+      "sha256": "e743c97cb4f5450bad42ffaf8ad653b630ac1a1fea61bec905bbdb258f10ef0b"
+    },
+    {
+      "path": "courses/SOCI30008.json",
+      "bytes": 1647,
+      "sha256": "128d18eefc0589e512a0a59ee4f20074135d78d9cc4d560b407ece6727f6aea7"
+    },
+    {
+      "path": "courses/SOCI30009.json",
+      "bytes": 2746,
+      "sha256": "4b56b2c687a9ca9a7ec3b077e79ce8a8c984dbf54591c3f4379ed2935c24bb68"
+    },
+    {
+      "path": "courses/SOCI30009h.json",
+      "bytes": 1705,
+      "sha256": "250e5b06f2aa84e4a119c9cf375a8da72fc6de9ade1ecd519456b004be9f9e55"
+    },
+    {
+      "path": "courses/SOCI30010.json",
+      "bytes": 1646,
+      "sha256": "4cfe62758afb568e9b0d1520fe47fce85aad796bb5a7e00a98e4c0c880ef0528"
+    },
+    {
+      "path": "courses/SOCI30011.json",
+      "bytes": 2873,
+      "sha256": "7fa13bf046b0ab82b4225b47c390172f3a1ebf92c10c24b18a55c920bc467cf8"
+    },
+    {
+      "path": "courses/SOCI30012.json",
+      "bytes": 6783,
+      "sha256": "42f40f23ed25a70bb6970d168eda31916fa77349b69ab7352112060c0e72e217"
+    },
+    {
+      "path": "courses/SOCI30013.json",
+      "bytes": 3082,
+      "sha256": "7bbca16b5f1bb8a7dc8197583dcd53588fa29ca02c027cd5094cd96b22d7c36a"
+    },
+    {
+      "path": "courses/SOCI30014.json",
+      "bytes": 3107,
+      "sha256": "d67e23a4382562637ea266668d8e5d500ea5a361fe2d7b276f61e80a37975ac9"
+    },
+    {
+      "path": "courses/SOCI30015.json",
+      "bytes": 1658,
+      "sha256": "3f0a121500b216d06a9856583b79e79f38711338ff508efb92a481e7f340e140"
+    },
+    {
+      "path": "courses/SOCI30018.json",
+      "bytes": 10422,
+      "sha256": "9363f8effde97d774b1c7386ede930d3a622b0c322b17c08a027ba01acd19928"
+    },
+    {
+      "path": "courses/SOCI30020.json",
+      "bytes": 11869,
+      "sha256": "0832bf39388695250663765f6070dd66a02c2643bbfd0c6af36dade8c9bf1bb7"
+    },
+    {
+      "path": "courses/SOCI30020h.json",
+      "bytes": 3778,
+      "sha256": "17bef54d1740556284613197b3c5a4115833afa94e1636e74ea08b7b630ee142"
+    },
+    {
+      "path": "courses/SOCI30021.json",
+      "bytes": 8262,
+      "sha256": "69d9286ac39cd7d032a0209e670af6d9f7a72f28e8f1b633026189b69e9ef8f3"
+    },
+    {
+      "path": "courses/SOCI30022.json",
+      "bytes": 12602,
+      "sha256": "6ba03f5ee11e5a1656c1c2d6acc39df9d79c0864e734500cecdcbb478a72b1fd"
+    },
+    {
+      "path": "courses/SOCI30023.json",
+      "bytes": 5760,
+      "sha256": "7ed72a45ed543d3924c7051986d09cba1b8245a14b98e1b0baab3ab729cb4dd9"
+    },
+    {
+      "path": "courses/SOCI30026.json",
+      "bytes": 1782,
+      "sha256": "9d104af72d83d494142dd329c44306cb804c270ff590f26b93bd8587de91cbfc"
+    },
+    {
+      "path": "courses/SOCI30026h.json",
+      "bytes": 1844,
+      "sha256": "de88c37f162b93768014d122f0af4cdc8bc8f9c68d1a578885dee951d188b597"
+    },
+    {
+      "path": "courses/SOCI30027.json",
+      "bytes": 2874,
+      "sha256": "902468da2e8e45d3e7b8a6fe768ed4cf5afefdcec63a861c35d9b0d35278686e"
+    },
+    {
+      "path": "courses/SOCI30029.json",
+      "bytes": 1725,
+      "sha256": "062783a0f67c37606e16ae19680f3ed88b91a1a44940db525710c5063f2cfeaa"
+    },
+    {
+      "path": "courses/SOCI30030.json",
+      "bytes": 9140,
+      "sha256": "f4cc3bb25cd53d7d51949f1c49d3495bc5093b9d6bf103cc627e7bd506cc2fa4"
+    },
+    {
+      "path": "courses/SOCI30032.json",
+      "bytes": 4159,
+      "sha256": "0b6c5a207b792dcf840cc67fd10418a845b107154a7c81adc31c0c9bac592917"
+    },
+    {
+      "path": "courses/SOCI30033.json",
+      "bytes": 1993,
+      "sha256": "4e6823414f8ed09948b31231092dd6d11b3d66deb5c2d3db176c3de940c28e3e"
+    },
+    {
+      "path": "courses/SOCI30033h.json",
+      "bytes": 2176,
+      "sha256": "cc7303e913e14100fe983ea20e03c1cdd3609775b52e60c79d6b216459dc6240"
+    },
+    {
+      "path": "courses/SOCI30034.json",
+      "bytes": 3023,
+      "sha256": "0b6402c07838fde4da9c21a442e90aa39d5407b4684c26732ee0f797aa5c5b06"
+    },
+    {
+      "path": "courses/SOCI30035.json",
+      "bytes": 15164,
+      "sha256": "1fd4be70a9aa01b7dca1e2a7c4f7f864e92250800d97c6a98bd92261826a0ac5"
+    },
+    {
+      "path": "courses/SOCI30037.json",
+      "bytes": 3795,
+      "sha256": "110b7563b38cce925a3639be538a18070b44b1fd8ac24945dc7625b7b18df3cb"
+    },
+    {
+      "path": "courses/SOCI30037h.json",
+      "bytes": 1777,
+      "sha256": "5c81d07f1658f3502e93e0e543fce756a3898a3c50595ecccbc2cb1e71b7566c"
+    },
+    {
+      "path": "courses/SOCI30038.json",
+      "bytes": 3760,
+      "sha256": "378e1cc5634ca59d479141f0d85f267658896da0c7500be7b6a9c20eb7a1dec3"
+    },
+    {
+      "path": "courses/SOCI30039.json",
+      "bytes": 4362,
+      "sha256": "b55baa089c0e3ebb4554f202b7e841d2540375bdfb3420d7ad3e901b40073c3b"
+    },
+    {
+      "path": "courses/SOCI30040.json",
+      "bytes": 4238,
+      "sha256": "31c26e5dfd709e5bc1cd8bb2ee823d445797f5479cd89f844afc01bc5235d260"
+    },
+    {
+      "path": "courses/SOCI30042.json",
+      "bytes": 2730,
+      "sha256": "114ef57142ea6c43022240369024ec9d4bee4a3c9822b4eaa3d5e5c9face31c0"
+    },
+    {
+      "path": "courses/SOCI30043.json",
+      "bytes": 1742,
+      "sha256": "c8d1332baf28f21d8967cc380a8e1a8f95b8ae2bd86a9bd013af4e7609ef38df"
+    },
+    {
+      "path": "courses/SOCI30044.json",
+      "bytes": 1730,
+      "sha256": "99842207c22e9fac7d6d949d1fdc1c57cc373d7d92e81484424be041d530e2dc"
+    },
+    {
+      "path": "courses/SOCI30047.json",
+      "bytes": 2487,
+      "sha256": "b05671bba94f07855db523a7bb3c4ad906b5308f6f85d2010e68a178a99a32a7"
+    },
+    {
+      "path": "courses/SOCI40002.json",
+      "bytes": 2748,
+      "sha256": "1134b228fcdc91a021889543716f78ef052babf04d2acbcf6f21a8fea8b21e20"
+    },
+    {
+      "path": "courses/SOCI40003.json",
+      "bytes": 3885,
+      "sha256": "460fbf57333136677ca1ed3e77e3ed27bc6f7a70e382350178ac8c10049461d8"
+    },
+    {
+      "path": "courses/SOCI40004.json",
+      "bytes": 1705,
+      "sha256": "dd62dd27b23d0a2278c0aa20582af64ffc1ccca259b36fe4a7d0fe15f7fbcd08"
+    },
+    {
+      "path": "courses/SOCI40005.json",
+      "bytes": 1804,
+      "sha256": "6ee64102390013ffee6ac8367d02b95c03ab7989a83c67b6f0f8ede560a213c7"
+    },
+    {
+      "path": "courses/SOCI40006.json",
+      "bytes": 16247,
+      "sha256": "ab03f81dc4614f2cbb112881a020df761fd3711004bf11e9ec6be9bf15d42317"
+    },
+    {
+      "path": "courses/SOCI40008.json",
+      "bytes": 3664,
+      "sha256": "1835efd10440866ecc9a1b1cf4ab27aaa4100ad6306219f01501b09825715d4a"
+    },
+    {
+      "path": "courses/SOCI40009.json",
+      "bytes": 1660,
+      "sha256": "c8144f2549c861bac055177b382fbb40bcb8ae65a160601ca84614c7953b2bf4"
+    },
+    {
+      "path": "courses/SOCI40010h.json",
+      "bytes": 1754,
+      "sha256": "776ca9ffbdca1489295e77fd59f737cba4df5f16629b482bd30d20ad06ed4671"
+    },
+    {
+      "path": "courses/SOCI50002.json",
+      "bytes": 2736,
+      "sha256": "4a9bd1c8ca9f77168cccd1cf5a5bbd682cd8d7bca0ab57f48bec13edc9d6cad6"
+    },
+    {
+      "path": "courses/SOCI50003.json",
+      "bytes": 1706,
+      "sha256": "833be6ab48ce7738e84a3604c025b0f53dcb42066d20dd6ba722ae2899dd1691"
+    },
+    {
+      "path": "courses/SOCI50004.json",
+      "bytes": 1686,
+      "sha256": "1da60338eb9654698d0d24ba2ed7a92b1774cadf3871abd874b3427ac40c3295"
+    },
+    {
+      "path": "courses/SOCI50006.json",
+      "bytes": 1658,
+      "sha256": "5d503c473c804db78cd075f37ee4e51cec7322e7d2c3bedd5d88e19755e291b0"
+    },
+    {
+      "path": "courses/SOCI50017.json",
+      "bytes": 2804,
+      "sha256": "56409afc583e576a31a28bfc919f295aac96370ff9b0e09ba90fa661b90763b1"
+    },
+    {
+      "path": "courses/SOCI50018.json",
+      "bytes": 2876,
+      "sha256": "a57a33767d40cb67f1672612472a54376981fbd58d4c85f381972e922990932d"
+    },
+    {
+      "path": "courses/SOCI50019.json",
+      "bytes": 1652,
+      "sha256": "570fbf5ef6d2f1b280d4fa2513c25d5d3bcbdbfd633754022753101ea719f7cb"
+    },
+    {
+      "path": "courses/SOCI50020.json",
+      "bytes": 1708,
+      "sha256": "0abd689ff4bf7049d68483cb239469698c0d0d2ed8f84d75006f2bb9c0bc9962"
+    },
+    {
+      "path": "courses/SOCI50021.json",
+      "bytes": 1622,
+      "sha256": "9e0447b636fa844b4b7a3b7d64c29d27fae4a097b90f7a702c6a19e657fc1148"
+    },
+    {
+      "path": "courses/SOCI50023.json",
+      "bytes": 1660,
+      "sha256": "1e9dc0a6b58e58193a59e925e2980d488c74a734f9c381078f112b2d3e8e2015"
+    },
+    {
+      "path": "courses/SOCI50025.json",
+      "bytes": 1642,
+      "sha256": "812e39d853e3c15c2168b22d5c07e22a5d86205986bcb45b29c0ea3cbc2f2cef"
+    },
+    {
+      "path": "courses/SOCI50026.json",
+      "bytes": 1671,
+      "sha256": "591e7cd355d986e46cbb4e6c6a6497b1d2e667b1ac7d43f8386c733f1cd3da7e"
+    },
+    {
+      "path": "courses/SOCI50027.json",
+      "bytes": 1648,
+      "sha256": "e9b0ed0fae03d47165dad68ebb448672fdf0d827b7eec70a60a739719fc1e81f"
+    },
+    {
+      "path": "courses/SOCI50028.json",
+      "bytes": 1647,
+      "sha256": "210be8b0597b323b83f00131a1e09a3e8ac263a00ddbc8c304af2772bb0f1e5f"
+    },
+    {
+      "path": "courses/SOCI50030.json",
+      "bytes": 1690,
+      "sha256": "292c076ff7cec499416c7ce87b8b34d178f388e95fd629ea9b970182bfc4139b"
+    },
+    {
+      "path": "courses/SOCI50033.json",
+      "bytes": 1652,
+      "sha256": "32f692ebada2f17270f6db3e4090d27e8c6c228bef4ebc9cce68fefb78621c05"
+    },
+    {
+      "path": "courses/SOCI50034.json",
+      "bytes": 1607,
+      "sha256": "97b1af8f3a954c29b6004283d6484084aede8bacae88201b797129ad4778a0b9"
+    },
+    {
+      "path": "courses/SOCI50037.json",
+      "bytes": 3640,
+      "sha256": "9c915cc6cde651f4cfc33751e27fed2dbe38c5d6cee454a995ced357e6a875e9"
+    },
+    {
+      "path": "courses/SOCI50038.json",
+      "bytes": 1667,
+      "sha256": "30ca1e5e9d15a29900d210a1dd3805df4477b25bf12be838389ed8553eb2d678"
+    },
+    {
+      "path": "courses/SOCI50039.json",
+      "bytes": 1637,
+      "sha256": "55444e67dc3efc9bd13e9f14cc8df92d6658c6bccd6e6e98ca78d6439ab60c6a"
+    },
+    {
+      "path": "courses/SOCI50040.json",
+      "bytes": 1663,
+      "sha256": "095a9709c916285d6c92200fec6345f511bc69324945033d0b8efa7ee6ffb9e3"
+    },
+    {
+      "path": "courses/SOCI50041.json",
+      "bytes": 1633,
+      "sha256": "27d220b75d8ca17a49343337b7dbd22df3974b9f2fac04fe4f5a1109c6f2fdb7"
+    },
+    {
+      "path": "courses/SOCI50045.json",
+      "bytes": 1620,
+      "sha256": "e48d9e0bb43f52331dc73a736a6ff5a861930d2b8bd34e4ad24ae07b9b3a0ba6"
+    },
+    {
+      "path": "courses/SOCI50047.json",
+      "bytes": 1686,
+      "sha256": "18000357256260a16d274f00b5c244b70af69a638cd76844a20a160d6766e7ae"
+    },
+    {
+      "path": "courses/SOCI50054.json",
+      "bytes": 1714,
+      "sha256": "a56905fa2e53e69b6bf773b462d261e8d66055b6079aeb69101aa43f0583e071"
+    },
+    {
+      "path": "courses/SOCI50055.json",
+      "bytes": 1670,
+      "sha256": "3ff7652f667b1179f20b516d26c871b36a3853747dd0c42ad43feb4985bb5519"
+    },
+    {
+      "path": "courses/SOCI50056.json",
+      "bytes": 1757,
+      "sha256": "a58c9c6360a91f24a0824f3acc4f06ee128377843b9a946289ca1b2d3e005eb0"
+    },
+    {
+      "path": "courses/SOCI50057.json",
+      "bytes": 1615,
+      "sha256": "7d0f924981144adcffd575ac77aeebed9acf3ceb89636bb8ee7fc6cc0e96a099"
+    },
+    {
+      "path": "courses/SOCI50058.json",
+      "bytes": 1785,
+      "sha256": "1106fa43499f86b653cd70bca22fd7d4941e327db70ece3d032a2f36144df6f1"
+    },
+    {
+      "path": "courses/SOCI50059.json",
+      "bytes": 2798,
+      "sha256": "4937040e5c6dbae470e123e43755717bb6c24961d1e208381fb7835428a58b74"
+    },
+    {
+      "path": "courses/SOCI50060.json",
+      "bytes": 1721,
+      "sha256": "0c83c3e8e38f944888c12bed2ec669e8ee9b49f60720d77da5d1348c496e5a99"
+    },
+    {
+      "path": "courses/SOCI60002.json",
+      "bytes": 1867,
+      "sha256": "de2ef6ccd1bf7d410ba6a1a5d58f08de2c66d935faf18a66c7a4af7bc28a6c1a"
+    },
+    {
+      "path": "courses/SOCI60003.json",
+      "bytes": 1667,
+      "sha256": "7da386e8a0c7baa0f3281d92ae82076f11dc1575a66215a90374ad46b33019d4"
+    },
+    {
+      "path": "courses/SOCI60004.json",
+      "bytes": 1644,
+      "sha256": "56bb83b130f6a1988c72816240d2f5aea72052d0e408ab915a4e3fd902a278ba"
+    },
+    {
+      "path": "courses/SOCI60005.json",
+      "bytes": 2729,
+      "sha256": "1f41089ab7faede521a99a7d913963785997a2fbbc7535de2a2fa8fd1041ba25"
+    },
+    {
+      "path": "courses/SOCI60007.json",
+      "bytes": 1781,
+      "sha256": "db8236fd8721ec54c43c1e74b9ad2354cebad844c15763707263b6f9c50c78f2"
+    },
+    {
+      "path": "courses/SOCI60008.json",
+      "bytes": 1782,
+      "sha256": "bea9f5757c83733c3fe6e954bda3e9d34103bacb9749a69e69ac79af3ad14d66"
+    },
+    {
+      "path": "courses/SOCI60010.json",
+      "bytes": 1673,
+      "sha256": "e2b74afb91d3eae2386349c1a49f4b141275c1dc9682ae20dccb372f0aef7f86"
+    },
+    {
+      "path": "courses/SOCI60011.json",
+      "bytes": 1729,
+      "sha256": "7178eabe0c00e4eb55dce72a3c73cf7d84e9d197d3101fbf76102191ecb2b140"
+    },
+    {
+      "path": "courses/SOCI60014.json",
+      "bytes": 1688,
+      "sha256": "a5e36a147cb436ec296d796c689d35d7d289efea9d6cb8f66d79037ed031e930"
+    },
+    {
+      "path": "courses/SOCI70001.json",
+      "bytes": 1655,
+      "sha256": "ce6157950e70265b7a8339977888679a826552d69d69611070ffcfed982cffb2"
+    },
+    {
+      "path": "courses/SOCI70002.json",
+      "bytes": 1657,
+      "sha256": "ed0d8beb3a51a63d048593effda3decef69e274734452de696b68be612f596cf"
+    },
+    {
+      "path": "courses/SOCI70004.json",
+      "bytes": 1715,
+      "sha256": "7e1e13b3a1c19890e452f75d3c4a6887b43b817fa1a009706094be25ec228794"
+    },
+    {
+      "path": "courses/SOCI70005.json",
+      "bytes": 1618,
+      "sha256": "515b0a9cbbb7a9bcf56637c5da6ad85968a853f49588dece2ea449e17bd4df2b"
+    },
+    {
+      "path": "courses/SOCI70006.json",
+      "bytes": 1776,
+      "sha256": "f0d7fa96cc3f25732b5d917410bd634145bb1c4bfa141e0c5daf878de629da1a"
+    },
+    {
+      "path": "courses/SOCI70009.json",
+      "bytes": 1685,
+      "sha256": "3702cf289b45592c10139dbe875fc17a3546eafc953d8cc39d264fc5edecbe2e"
+    },
+    {
+      "path": "courses/SOCI80001.json",
+      "bytes": 1608,
+      "sha256": "a07dd1e5db02a3068345adbb25d712110d09d6956aa66a4695e43e520c7b4126"
+    },
+    {
+      "path": "courses/SOCI80002.json",
+      "bytes": 1654,
+      "sha256": "473d6d22ac181a2803fbf78ede43e76ae743d73d29a5c62d0c70c13dbd7a3b4a"
+    },
+    {
+      "path": "courses/SOCI80003.json",
+      "bytes": 1665,
+      "sha256": "b3d24e56a6aa41e3ed3ca1bb0803235f31aa6ebd15f55512765474129adb4f74"
+    },
+    {
+      "path": "courses/SOCI80004.json",
+      "bytes": 1662,
+      "sha256": "e8f77c205371576e6153765890704e2bf2cc90616ee8e4df68e9e195a0222a1d"
+    },
+    {
+      "path": "courses/SWK20001.json",
+      "bytes": 2881,
+      "sha256": "64c8f267ceb6621460da3db4ab91026329a554cf43a7b536db7d1cf5842d871a"
+    },
+    {
+      "path": "courses/SWK20002.json",
+      "bytes": 21705,
+      "sha256": "4cdccf7de4945cabad991d997a6e589d72d3434ee7e1529f6f625bcb10d4ef7e"
+    },
+    {
+      "path": "courses/SWK30001.json",
+      "bytes": 4258,
+      "sha256": "9d20297ae3ead92d8e5819ac3b36d2ded01637378244299056d23f1f45629a4e"
+    },
+    {
+      "path": "courses/SWK30002.json",
+      "bytes": 3810,
+      "sha256": "38d32e42737ca662b708e360d2e98307fcea4de5904c37bebac01d779e5b9337"
+    },
+    {
+      "path": "courses/SWK30004.json",
+      "bytes": 1668,
+      "sha256": "98848a7e26138993dec44b5880b4e03e2fb2debb56dc78a590387e26de2805d3"
+    },
+    {
+      "path": "courses/SWK30005.json",
+      "bytes": 7963,
+      "sha256": "a21b5120500a8656bece3639191068c7b98c906dce951e0f7e7638c15dbeedea"
+    },
+    {
+      "path": "courses/SWK30005h.json",
+      "bytes": 1767,
+      "sha256": "731d89204fbb75d1b515940c3989a9c90ee740bf146841413796eaafa271ac84"
+    },
+    {
+      "path": "courses/SWK30006.json",
+      "bytes": 4017,
+      "sha256": "83b8e45bda3edb5e1cabd2c3aba2ad8cced4fb887baa1a374c3c720af40b0ff7"
+    },
+    {
+      "path": "courses/SWK30007.json",
+      "bytes": 1656,
+      "sha256": "aa5839823b32d7867b34394c5f0c1695415ffb3a808cf71690f3377eb94ca775"
+    },
+    {
+      "path": "courses/SWK30008.json",
+      "bytes": 1658,
+      "sha256": "bf7e923d42639ed5828ee25e76c86d969bdafc9ff0a6af7c56b2d767724ca74b"
+    },
+    {
+      "path": "courses/SWK30009.json",
+      "bytes": 3100,
+      "sha256": "9c00efc91bfc6f79ea484373b17e014c3299d94818e089c1c0d18d40fe7e0d62"
+    },
+    {
+      "path": "courses/SWK30010.json",
+      "bytes": 1728,
+      "sha256": "4b9aec2b9a63a4131e952bbf81af140ca0e34b026a76e917d3ea146f9042fc72"
+    },
+    {
+      "path": "courses/SWK30011.json",
+      "bytes": 5129,
+      "sha256": "ff60c1ee79ed4e7c8cb835c251307849dff87ab7f2150cd0ec1483cc18063f43"
+    },
+    {
+      "path": "courses/SWK30012.json",
+      "bytes": 1652,
+      "sha256": "00ca50dfdd0f5db4c6b13487c21491e5f652713678b09f53a3c76c7640740241"
+    },
+    {
+      "path": "courses/SWK30013.json",
+      "bytes": 1679,
+      "sha256": "da85ecd01272714e6194c92b93bb6f89d509792ae5bd63e239eeefb6c8c86574"
+    },
+    {
+      "path": "courses/SWK30014.json",
+      "bytes": 5562,
+      "sha256": "8debd6762339ba930dcaeb3be152f6f103ae354c33ac73fc7bfef73e9f6aa211"
+    },
+    {
+      "path": "courses/SWK30015.json",
+      "bytes": 1668,
+      "sha256": "8f6874ab373c095dcd976757b8f8cf1a90c2991faf94cc44ff2ae57d91371a6b"
+    },
+    {
+      "path": "courses/SWK30017.json",
+      "bytes": 1799,
+      "sha256": "0dcbe9e0f45d19fad06ce941b40801b5ae23b116ac6d640ae0c3892c67aba30b"
+    },
+    {
+      "path": "courses/SWK30019.json",
+      "bytes": 3054,
+      "sha256": "64b2630f56b4ceb31ffe60c61ac69e0c843d054d5549f9f13404cfc6410602f3"
+    },
+    {
+      "path": "courses/SWK30020.json",
+      "bytes": 1775,
+      "sha256": "3088eb384ea02a7732d4f3da80392c8fae4261237c0520dfbee6f8f4db5894e8"
+    },
+    {
+      "path": "courses/SWK30021.json",
+      "bytes": 1759,
+      "sha256": "0da4fd9455d431a4948a68768d7e733cc564075fd23cc302bb46cc1447cf0211"
+    },
+    {
+      "path": "courses/SWK30022.json",
+      "bytes": 1773,
+      "sha256": "44ff5b1f8b3d74f829cf6ca7497543cba08410ffd219b5615e24b5639b6b42f8"
+    },
+    {
+      "path": "courses/SWK40001.json",
+      "bytes": 7884,
+      "sha256": "1ad8b295faffb063b9da6bd8a776445c5fd03a48c62a095e9f648f4a6f820fe8"
+    },
+    {
+      "path": "courses/SWK40002.json",
+      "bytes": 1686,
+      "sha256": "29b6d34017dc622d203a6b13dde8ba60757efeb5c5a474833b63e8bff3bb5a86"
+    },
+    {
+      "path": "courses/SWK40003.json",
+      "bytes": 1681,
+      "sha256": "37cfdb0dcce8cee93111af579510e0017037a5562b32c6e3217f8ee861a4a959"
+    },
+    {
+      "path": "courses/SWK40004.json",
+      "bytes": 1703,
+      "sha256": "73d12265bf7d2685ea9427f68d27f3c92fa38c1736c85a5ba7661f5080c654f9"
+    },
+    {
+      "path": "courses/SWK40005.json",
+      "bytes": 1829,
+      "sha256": "3025a6d7c24703e41b689803b64032e8a3875b84cb97a3562f5f3aae8f83b532"
+    },
+    {
+      "path": "courses/SWK50001.json",
+      "bytes": 1668,
+      "sha256": "e47af6fefa976b19a985d6baae1bccbb12ab38b077f8fd14ff72f65cf7af1501"
+    },
+    {
+      "path": "courses/SWK50002.json",
+      "bytes": 1634,
+      "sha256": "0ac8b68a94f275a9e4555ec0930e04edc89c6391b12186af8b21faa1fc4beadd"
+    },
+    {
+      "path": "courses/SWK50003.json",
+      "bytes": 1637,
+      "sha256": "90419e250a112c5dcd5f6f1fea7d180cda89b40152c7719da41b26fba4a41137"
+    },
+    {
+      "path": "courses/SWK50004.json",
+      "bytes": 1710,
+      "sha256": "c7327e8dda12f1812348551cb43960a9f6c48e22b5675a62392bda5b6aefe6c8"
+    },
+    {
+      "path": "courses/SWK50005.json",
+      "bytes": 1658,
+      "sha256": "1c472f19ddda3e6348788152fccee775e49217017d111ed7f96d08ea8661e85d"
+    },
+    {
+      "path": "courses/SWK50006.json",
+      "bytes": 1633,
+      "sha256": "e16dd1fe2469b0b87a2f34aad48d6b300d5562722c2d5d2ca3eb260c71e9af2c"
+    },
+    {
+      "path": "courses/SWK50007.json",
+      "bytes": 1629,
+      "sha256": "c5bf5e23a6b8adc351373658e13589b9d0bcddc77102b8400553ceca37a374a4"
+    },
+    {
+      "path": "courses/SWK50008.json",
+      "bytes": 1672,
+      "sha256": "b13a28b8a9b5a8e50be462e90be69e8ce4437b8aca328a14cef7026709c0d51f"
+    },
+    {
+      "path": "courses/SWK50010.json",
+      "bytes": 1670,
+      "sha256": "95ac07775fb76b3ea90731e6233992bf8e1318dc8d6a0cf3b1397e68d4671d73"
+    },
+    {
+      "path": "courses/SWK50011.json",
+      "bytes": 1672,
+      "sha256": "149bdd28e6017c8f651f94cdca921acd04d7d73d72ad9c0d0d05fa1853c32ed0"
+    },
+    {
+      "path": "courses/SWK50013.json",
+      "bytes": 1730,
+      "sha256": "baf3da12063e80d4a2e4a47e1a954b6949877333b6157f93c2603ab0e8dc097c"
+    },
+    {
+      "path": "courses/SWK50014.json",
+      "bytes": 1730,
+      "sha256": "c3c289b95aa4b6ebd1b82c41cfbab33a48d883b3b12783b3333d69e3e66cbbbb"
+    },
+    {
+      "path": "courses/SWK50017.json",
+      "bytes": 1633,
+      "sha256": "3f1c0c92d95e951e0dcd2be22e68b02e3c256833ca7b29698220befdc8af9712"
+    },
+    {
+      "path": "courses/SWK50019.json",
+      "bytes": 1798,
+      "sha256": "208cf947c55e9c4df6bbfe613fc280c003dcb88af51fa9a7f8941026ea6160ef"
+    },
+    {
+      "path": "courses/SWK60002.json",
+      "bytes": 1748,
+      "sha256": "e354e278f7207d9a1d31c64291641c78a46ca7524c633b74bfd96c0a22d71a9e"
+    },
+    {
+      "path": "courses/SWK60006.json",
+      "bytes": 1664,
+      "sha256": "f521b9b07156a82b2846d1154b00662d517717f85bfe8f111457520faaa98be6"
+    },
+    {
+      "path": "courses/SWK60007.json",
+      "bytes": 1706,
+      "sha256": "c008fb0cba85f836068fae224da272dcb56c5b8be31c1513ddb938031f2286a9"
+    },
+    {
+      "path": "courses/SWK60009.json",
+      "bytes": 1634,
+      "sha256": "318910a253b75e84fe025975bd74be11a37f8b5cd90f21fd484ecffad9bc6232"
+    },
+    {
+      "path": "ledgers/alias-screening-exclusions.json",
+      "bytes": 245303,
+      "sha256": "a42e060c31242ceb37745857dad5612f3de506a227123eb864fe25cb3739a739"
+    },
+    {
+      "path": "ledgers/attested-aliases.json",
+      "bytes": 4661,
+      "sha256": "653014156c64c90888c9faeffc477c232e5599af38f6a344bc68e7ac255ce735"
+    },
+    {
+      "path": "ledgers/browser-searches/wechat_coverage_audit.json",
+      "bytes": 24701,
+      "sha256": "e042bb951a2dd1397f171bf0bb3fbaab5e069cdc41b4af14c92772db57745f39"
+    },
+    {
+      "path": "ledgers/browser-searches/xhs_coverage_audit.json",
+      "bytes": 21202,
+      "sha256": "efbdfabc44779ff481777f4f019ce90c1e24608417a877ab412679a971729880"
+    },
+    {
+      "path": "ledgers/browser-searches/xhs_society_reader_coverage_audit.json",
+      "bytes": 10278,
+      "sha256": "4dabc331519d70c44856538a37c0f796f9e2bfd0562adcb7b6a0d2220eeb46e8"
+    },
+    {
+      "path": "ledgers/browser-searches/zhihu_coverage_audit.json",
+      "bytes": 1634905,
+      "sha256": "6d878eae5b95902def1e2f4025601c43d629fc96975407b3b2063328f826d643"
+    },
+    {
+      "path": "ledgers/browser-searches/实际查询记录.csv",
+      "bytes": 2331,
+      "sha256": "37a87004f7d11024ed1d0d0b20e9a4e9625cbdf17437e468e02f8fd5e39f4cea"
+    },
+    {
+      "path": "ledgers/browser-searches/实际查询记录.json",
+      "bytes": 6760,
+      "sha256": "f3f286b70f88c6085b7e472eb8c8c3074b3a03c2287d30249f7356b9100fa8c6"
+    },
+    {
+      "path": "ledgers/browser-searches/平台实际查询状态.json",
+      "bytes": 4573,
+      "sha256": "09e092e6ddf4cfc9a8b53c8b0c5d9b02d6e39976a8773cb4530b91d44bb6bbf9"
+    },
+    {
+      "path": "ledgers/danke-query-plan.json",
+      "bytes": 3341894,
+      "sha256": "838fab90c22063a9031b5db9da5565432e1b67a96ed51d3fdff1ad6c5007e9d6"
+    },
+    {
+      "path": "ledgers/forum-query-plan.json",
+      "bytes": 3402135,
+      "sha256": "03eed4b78e6759facb650816b81c0392403fd18f04d19753788890bb4cc922de"
+    },
+    {
+      "path": "ledgers/historical-course-candidates.json",
+      "bytes": 69941,
+      "sha256": "6f7f1573b93efa70b8678769578d120a95f773aec12062b16d433edd34cbf3ef"
+    },
+    {
+      "path": "ledgers/historical-forum-references.json",
+      "bytes": 2130,
+      "sha256": "8ce3be60000ca1e66f070ad9dae8ed7a93ce7accd8de71f65d2d6acdc6ebf661"
+    },
+    {
+      "path": "ledgers/pending-platform-searches.csv",
+      "bytes": 996704,
+      "sha256": "b8880d084c4c798aeca53dac30d1deec5f2ae953977f5613fcf28cd2513832f5"
+    },
+    {
+      "path": "ledgers/public-index-course-queries.csv",
+      "bytes": 107648,
+      "sha256": "369f925518686c6b4e392acf61fbd58ff9330e9a9699a3d55680c34ad36d93ac"
+    },
+    {
+      "path": "ledgers/public-index-coverage.json",
+      "bytes": 4767,
+      "sha256": "5bf603c4cfcda8d23debcc97d97158e353797209b406efad39ec1ef3d3fdb581"
+    },
+    {
+      "path": "ledgers/public-index-teacher-queries.json",
+      "bytes": 119743,
+      "sha256": "039c9610eb196b5343455bb35a991d2f456705355099e9644c0bb60420088a5a"
+    },
+    {
+      "path": "ledgers/reading-audit.json",
+      "bytes": 1993437,
+      "sha256": "e958fbb38806b93201b999b6308a503ca17382c60745cccd25214d47ce53b4b8"
+    },
+    {
+      "path": "ledgers/reading-progress.json",
+      "bytes": 808,
+      "sha256": "2caca079110852ec261cdd6be721498776c91aaf38c572bf7997ba456f892d46"
+    },
+    {
+      "path": "ledgers/search-queries.json",
+      "bytes": 2110329,
+      "sha256": "84e274ceb2a3f269b2ae1881b04a3610c131c945eeb7980b7c4027622b8f9778"
+    },
+    {
+      "path": "ledgers/unresolved.json",
+      "bytes": 361166,
+      "sha256": "6c2c8036f54c9192f639d64820a401b236e69a31a68b2c346f1de012124b7c82"
+    },
+    {
+      "path": "official/program-catalog.json",
+      "bytes": 3708,
+      "sha256": "2a9ec925ba634bd5e48f68b6200104e3bde7caab7411f293d553a8dcbbbcfc96"
+    },
+    {
+      "path": "official/program-courses.csv",
+      "bytes": 464264,
+      "sha256": "4e425b5870ffbaa0ebc1b84df3838b27daa1275b257fccf66061436491ae2fc2"
+    },
+    {
+      "path": "official/program-modules.csv",
+      "bytes": 37105,
+      "sha256": "f7dcb5b7571605f4b70521e9f5d685019ba173ece5ce10f64281e177d5b6b86d"
+    },
+    {
+      "path": "official/program-verification.json",
+      "bytes": 217,
+      "sha256": "dde250fb1447e49cca0b463aa8c4199cfbe3e7d7b06466e99f56659b4811ef45"
+    },
+    {
+      "path": "official/programs.csv",
+      "bytes": 8623,
+      "sha256": "958c50ea5455c30f004130f813bdf236b0c42f9d5881b3b8c68c83ba6aecf5af"
+    },
+    {
+      "path": "official/programs.json",
+      "bytes": 15735,
+      "sha256": "1a5d601e8916db5d0dab77754ff2a4c1302428a6d7cb4e9c7317c050cda3b30e"
+    },
+    {
+      "path": "official/sections.json",
+      "bytes": 303848,
+      "sha256": "6672e8d914c136fa6ea56ca11a0d7e8ffd4d8cc08935be616b06ec17bb9c9ac9"
+    },
+    {
+      "path": "official/teaching-scope.json",
+      "bytes": 587,
+      "sha256": "b5b496b0d312dba2a09bcebb011fd2423bbc4ded4485fd35f875cd00555ea0a9"
+    },
+    {
+      "path": "official/timetable.csv",
+      "bytes": 131558,
+      "sha256": "12ae94b2921ed6fe418f08d60cb96194c6708ac57a7962433b839638bc05b867"
+    },
+    {
+      "path": "README.md",
+      "bytes": 4879,
+      "sha256": "190f87e912087e2b10b0e38b2e2cc87ab0b63c66a78d94b0c16553489fda41f4"
+    },
+    {
+      "path": "release-assets.json",
+      "bytes": 936,
+      "sha256": "830ab5427cd036e8ab18f34786cd8f61c8863959ef2a0fc536b32b4dc7e04f23"
+    },
+    {
+      "path": "release-notes.md",
+      "bytes": 977,
+      "sha256": "27633b9897643075954ec8be1b948c2e62e80cfc2a40820da413a643e1985441"
+    },
+    {
+      "path": "summaries/course-coverage.csv",
+      "bytes": 28652,
+      "sha256": "ac42beb4d96c1106fa94b7f7907d8a53ed52a741843378049825a7586a27c8bf"
+    },
+    {
+      "path": "summaries/evidence.csv",
+      "bytes": 207939,
+      "sha256": "bca9a19bbe9e5462b3b51ad0389c755e251277293fc18fd1cee6bccc0cb5ee71"
+    },
+    {
+      "path": "summaries/evidence.json",
+      "bytes": 533869,
+      "sha256": "d314ac9ee145f30d577cb3f2857ec99171d603add3d1a2267231edb5e2ce54ec"
+    },
+    {
+      "path": "summaries/statistics.json",
+      "bytes": 9466,
+      "sha256": "5d8b3bf46125bfef7220c1d93bd968ee6cbd30b4b3068064efe95c048ebfc284"
+    },
+    {
+      "path": "validate.py",
+      "bytes": 4833,
+      "sha256": "d1952a5559272015a295df447b0f1234a1fa3c8d3676e360207593ddd93dbf4f"
+    },
+    {
+      "path": "社会发展与公共政策学院课程名单.txt",
+      "bytes": 6856,
+      "sha256": "8b31994d7774a9e3171fad4b2bb74dae0c300e69a06548c4cff85e6c4be62cb9"
+    }
+  ]
+}

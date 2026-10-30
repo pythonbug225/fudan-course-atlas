@@ -1,0 +1,267 @@
+{
+  "read_date": "2026-10-30",
+  "programs": 15,
+  "teaching_sections": 391,
+  "course_codes": 296,
+  "records": 518,
+  "courses_with_records": 73,
+  "full_read_floor_count": 4052,
+  "full_read_review_count": 98,
+  "raw_unique_hit_counts": {
+    "forum": 57587,
+    "danke": 1072
+  },
+  "search_statuses": {
+    "forum": {
+      "completed": 2029
+    },
+    "danke": {
+      "completed": 2029
+    }
+  },
+  "browser_status": "Edge已恢复部分站内检索（小红书、知乎、搜狗微信搜索）；平台实际查询状态与未完成词单分别列示，当前尚未穷尽。旦挞使用本账号授权只读接口。",
+  "limits": "检索词命中、下载、完整核读、采用摘要分别统计。只按与官方查询词完全相同的实际查询标记完成；框架词单未检索或只做组合查询仍为待完成，不能记作无结果。不能保证覆盖删除帖、图片文字、未索引与权限外内容；公开搜索未检出不代表站内不存在。",
+  "browser_platform_query_statuses": {
+    "xhs": {
+      "platform": "小红书",
+      "source_directory": "xhs",
+      "coverage_file_present": true,
+      "evidence_file_present": true,
+      "unresolved_file_present": true,
+      "framework_query_count": null,
+      "source_coverage_row_count": 8,
+      "manifest_raw_status_counts": {
+        "partial": 8
+      },
+      "actual_query_count": 8,
+      "actual_query_status_counts": {
+        "partial": 8
+      },
+      "actual_query_raw_status_counts": {
+        "partial": 8
+      },
+      "exact_framework_queries_completed": 0,
+      "known_result_count_sum": 0,
+      "visible_result_title_count": 30,
+      "queries_with_unknown_result_count": 8,
+      "fulltext_pages_read": 2,
+      "evidence_input_count": 10,
+      "accepted_fulltext_evidence_count": 10,
+      "pending_evidence_count": 0,
+      "coverage_exhausted": false,
+      "source_read_operation_count": 0,
+      "accepted_source_count": 2,
+      "public_index_query_count": 0
+    },
+    "zhihu": {
+      "platform": "知乎",
+      "source_directory": "zhihu",
+      "coverage_file_present": true,
+      "evidence_file_present": true,
+      "unresolved_file_present": true,
+      "framework_query_count": 2029,
+      "source_coverage_row_count": 2029,
+      "manifest_raw_status_counts": {
+        "not_attempted_browser_stop": 2023,
+        "searched_as_composite": 5,
+        "searched_as_composite_no_usable_result": 1
+      },
+      "actual_query_count": 7,
+      "actual_query_status_counts": {
+        "completed_search": 7
+      },
+      "actual_query_raw_status_counts": {
+        "completed_visible_search": 1,
+        "completed_visible_search_fulltext_read": 1,
+        "completed_visible_search_fulltext_read_historical": 4,
+        "completed_visible_search_no_usable_fulltext": 1
+      },
+      "exact_framework_queries_completed": 0,
+      "known_result_count_sum": 149,
+      "visible_result_title_count": 46,
+      "queries_with_unknown_result_count": 0,
+      "fulltext_pages_read": 7,
+      "evidence_input_count": 6,
+      "accepted_fulltext_evidence_count": 6,
+      "pending_evidence_count": 0,
+      "coverage_exhausted": false,
+      "source_read_operation_count": 0,
+      "accepted_source_count": 6,
+      "public_index_query_count": 0
+    },
+    "xhs_society_reader": {
+      "platform": "小红书",
+      "source_directory": "xhs_society_reader",
+      "coverage_file_present": true,
+      "evidence_file_present": true,
+      "unresolved_file_present": true,
+      "framework_query_count": null,
+      "source_coverage_row_count": 2,
+      "manifest_raw_status_counts": {
+        "completed": 1,
+        "partial": 1
+      },
+      "actual_query_count": 0,
+      "actual_query_status_counts": {},
+      "actual_query_raw_status_counts": {},
+      "exact_framework_queries_completed": 0,
+      "known_result_count_sum": 0,
+      "visible_result_title_count": 0,
+      "queries_with_unknown_result_count": 0,
+      "fulltext_pages_read": 1,
+      "evidence_input_count": 2,
+      "accepted_fulltext_evidence_count": 1,
+      "pending_evidence_count": 1,
+      "coverage_exhausted": false,
+      "source_read_operation_count": 2,
+      "accepted_source_count": 1,
+      "public_index_query_count": 0
+    },
+    "wechat": {
+      "platform": "微信公众号",
+      "source_directory": "wechat",
+      "coverage_file_present": true,
+      "evidence_file_present": true,
+      "unresolved_file_present": true,
+      "framework_query_count": null,
+      "source_coverage_row_count": 14,
+      "manifest_raw_status_counts": {
+        "completed_no_results": 4,
+        "completed_results_reviewed_historic_nonwechat_only": 2,
+        "completed_results_reviewed_lead_not_opened": 1,
+        "completed_results_reviewed_no_target_wechat_review": 4,
+        "completed_results_reviewed_nonreview_results": 1,
+        "full_text_read_historical_course_experience": 1,
+        "submitted_result_unread_browser_timeout": 1
+      },
+      "actual_query_count": 2,
+      "actual_query_status_counts": {
+        "completed_search": 1,
+        "failed_or_blocked": 1
+      },
+      "actual_query_raw_status_counts": {
+        "full_text_read_historical_course_experience": 1,
+        "submitted_result_unread_browser_timeout": 1
+      },
+      "exact_framework_queries_completed": 0,
+      "known_result_count_sum": 0,
+      "visible_result_title_count": 0,
+      "queries_with_unknown_result_count": 2,
+      "fulltext_pages_read": 1,
+      "evidence_input_count": 2,
+      "accepted_fulltext_evidence_count": 2,
+      "pending_evidence_count": 0,
+      "coverage_exhausted": false,
+      "source_read_operation_count": 0,
+      "accepted_source_count": 1,
+      "public_index_query_count": 12
+    }
+  },
+  "browser_actual_query_count": 17,
+  "browser_query_coverage_exhausted": false,
+  "platform_evidence_pending_count": 1,
+  "platform_evidence_accepted_fulltext_count": 19,
+  "unreadable_or_unverified_read_floor_ids": [
+    2750845,
+    2846833,
+    5756240,
+    5848848,
+    5980042,
+    6447040,
+    6447041
+  ],
+  "downloaded_danke_reviews": 99,
+  "historical_unconfirmed_review_references": 64,
+  "historical_unconfirmed_forum_references": 2,
+  "record_categories": {
+    "体验/观点": 307,
+    "历史课程体验": 88,
+    "问课/资料/课程事务": 123
+  },
+  "courses_with_experience_or_opinion": 66,
+  "danke_details_counts": {
+    "groups": 468,
+    "courses": 2016,
+    "reviews": 99
+  },
+  "psychology_machine_screened_but_not_full_read": {
+    "thesis_ids": 0,
+    "trade_ids": 151,
+    "image_only_ids": 0,
+    "same_name_other_school_ids": 0,
+    "question_only_ids": 285,
+    "no_substantive_cue_ids": 0,
+    "unread_other_ids": 0
+  },
+  "public_index_coverage": {
+    "course_title_only": {
+      "distinct_official_titles": 278,
+      "course_codes_mapped": 296,
+      "queries": 278,
+      "web_search_calls": 70,
+      "repeated_unparsed_batch_retried": {
+        "batch": "TITLE-237-240",
+        "retry_status": "no_result_links_returned",
+        "query_count": 4
+      },
+      "batch_status_counts": {
+        "results_returned": 67,
+        "no_visible_public_index_hit": 2,
+        "unparsed_response": 1
+      },
+      "raw_result_records": 547,
+      "unique_candidate_urls": 409,
+      "provisional_course_name_association_records": 287,
+      "unique_hosts": [
+        "daily.zhihu.com",
+        "event.zhihu.com",
+        "fudan.edu.cn",
+        "job.xiaohongshu.com",
+        "pgy.xiaohongshu.com",
+        "rpdc.xiaohongshu.com",
+        "www.zhihu.com",
+        "www2.zhihu.com",
+        "zhuanlan.zhihu.com"
+      ],
+      "full_text_read": false
+    },
+    "course_plus_teacher": {
+      "queries": 100,
+      "unique_course_codes": 100,
+      "method_note": "Initial 100 query pass only; each query used official full course title and teacher full names as OR alternatives; not all 296 course codes were covered by this combined form.",
+      "full_text_read": false
+    },
+    "teacher_only": {
+      "official_teacher_names": 143,
+      "queries_executed": 143,
+      "search_calls": 36,
+      "unique_candidate_urls": 358,
+      "returned_hosts": [
+        "daily.zhihu.com",
+        "pages.xiaohongshu.com",
+        "pgy.xiaohongshu.com",
+        "rpdc.xiaohongshu.com",
+        "www.zhihu.com",
+        "www2.zhihu.com",
+        "zhuanlan.zhihu.com"
+      ],
+      "individual_result_attribution": "not reliable; links were returned as four-query batch-level result groups",
+      "full_text_read": false,
+      "platform_findings": {
+        "zhihu": "returned candidate URLs; many unrelated/general pages; not yet article-level classroom-review hits",
+        "xiaohongshu": "some indexed pages, mainly platform/vendor/admin or unrelated pages; no validated course-review hit",
+        "wechat": "no direct mp.weixin.qq.com URL in captured teacher-query links; this records index output only, not absence of in-platform content"
+      }
+    }
+  },
+  "society_candidate_queue_status": {
+    "已完整核读": 2052,
+    "机器归类排除（未计全文核读）": 191
+  },
+  "last_alias_incremental_pass": {
+    "new_floors": 2159,
+    "machine_exclusions": 2040,
+    "review_queue": 115,
+    "not_full_read": 0
+  }
+}

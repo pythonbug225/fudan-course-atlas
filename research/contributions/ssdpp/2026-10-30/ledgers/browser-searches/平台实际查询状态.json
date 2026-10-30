@@ -1,0 +1,136 @@
+{
+  "xhs": {
+    "platform": "小红书",
+    "source_directory": "xhs",
+    "coverage_file_present": true,
+    "evidence_file_present": true,
+    "unresolved_file_present": true,
+    "framework_query_count": null,
+    "source_coverage_row_count": 8,
+    "manifest_raw_status_counts": {
+      "partial": 8
+    },
+    "actual_query_count": 8,
+    "actual_query_status_counts": {
+      "partial": 8
+    },
+    "actual_query_raw_status_counts": {
+      "partial": 8
+    },
+    "exact_framework_queries_completed": 0,
+    "known_result_count_sum": 0,
+    "visible_result_title_count": 30,
+    "queries_with_unknown_result_count": 8,
+    "fulltext_pages_read": 2,
+    "evidence_input_count": 10,
+    "accepted_fulltext_evidence_count": 10,
+    "pending_evidence_count": 0,
+    "coverage_exhausted": false,
+    "source_read_operation_count": 0,
+    "accepted_source_count": 2,
+    "public_index_query_count": 0
+  },
+  "zhihu": {
+    "platform": "知乎",
+    "source_directory": "zhihu",
+    "coverage_file_present": true,
+    "evidence_file_present": true,
+    "unresolved_file_present": true,
+    "framework_query_count": 2029,
+    "source_coverage_row_count": 2029,
+    "manifest_raw_status_counts": {
+      "not_attempted_browser_stop": 2023,
+      "searched_as_composite": 5,
+      "searched_as_composite_no_usable_result": 1
+    },
+    "actual_query_count": 7,
+    "actual_query_status_counts": {
+      "completed_search": 7
+    },
+    "actual_query_raw_status_counts": {
+      "completed_visible_search": 1,
+      "completed_visible_search_fulltext_read": 1,
+      "completed_visible_search_fulltext_read_historical": 4,
+      "completed_visible_search_no_usable_fulltext": 1
+    },
+    "exact_framework_queries_completed": 0,
+    "known_result_count_sum": 149,
+    "visible_result_title_count": 46,
+    "queries_with_unknown_result_count": 0,
+    "fulltext_pages_read": 7,
+    "evidence_input_count": 6,
+    "accepted_fulltext_evidence_count": 6,
+    "pending_evidence_count": 0,
+    "coverage_exhausted": false,
+    "source_read_operation_count": 0,
+    "accepted_source_count": 6,
+    "public_index_query_count": 0
+  },
+  "xhs_society_reader": {
+    "platform": "小红书",
+    "source_directory": "xhs_society_reader",
+    "coverage_file_present": true,
+    "evidence_file_present": true,
+    "unresolved_file_present": true,
+    "framework_query_count": null,
+    "source_coverage_row_count": 2,
+    "manifest_raw_status_counts": {
+      "completed": 1,
+      "partial": 1
+    },
+    "actual_query_count": 0,
+    "actual_query_status_counts": {},
+    "actual_query_raw_status_counts": {},
+    "exact_framework_queries_completed": 0,
+    "known_result_count_sum": 0,
+    "visible_result_title_count": 0,
+    "queries_with_unknown_result_count": 0,
+    "fulltext_pages_read": 1,
+    "evidence_input_count": 2,
+    "accepted_fulltext_evidence_count": 1,
+    "pending_evidence_count": 1,
+    "coverage_exhausted": false,
+    "source_read_operation_count": 2,
+    "accepted_source_count": 1,
+    "public_index_query_count": 0
+  },
+  "wechat": {
+    "platform": "微信公众号",
+    "source_directory": "wechat",
+    "coverage_file_present": true,
+    "evidence_file_present": true,
+    "unresolved_file_present": true,
+    "framework_query_count": null,
+    "source_coverage_row_count": 14,
+    "manifest_raw_status_counts": {
+      "completed_no_results": 4,
+      "completed_results_reviewed_historic_nonwechat_only": 2,
+      "completed_results_reviewed_lead_not_opened": 1,
+      "completed_results_reviewed_no_target_wechat_review": 4,
+      "completed_results_reviewed_nonreview_results": 1,
+      "full_text_read_historical_course_experience": 1,
+      "submitted_result_unread_browser_timeout": 1
+    },
+    "actual_query_count": 2,
+    "actual_query_status_counts": {
+      "completed_search": 1,
+      "failed_or_blocked": 1
+    },
+    "actual_query_raw_status_counts": {
+      "full_text_read_historical_course_experience": 1,
+      "submitted_result_unread_browser_timeout": 1
+    },
+    "exact_framework_queries_completed": 0,
+    "known_result_count_sum": 0,
+    "visible_result_title_count": 0,
+    "queries_with_unknown_result_count": 2,
+    "fulltext_pages_read": 1,
+    "evidence_input_count": 2,
+    "accepted_fulltext_evidence_count": 2,
+    "pending_evidence_count": 0,
+    "coverage_exhausted": false,
+    "source_read_operation_count": 0,
+    "accepted_source_count": 1,
+    "public_index_query_count": 12
+  }
+}

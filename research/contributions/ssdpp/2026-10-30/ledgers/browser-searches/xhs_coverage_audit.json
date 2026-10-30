@@ -1,0 +1,482 @@
+{
+  "platform": "小红书",
+  "source_directory": "xhs",
+  "coverage_file_present": true,
+  "evidence_file_present": true,
+  "unresolved_file_present": true,
+  "coverage": {
+    "platform": "小红书",
+    "access_method": "Edge 登录态可见页面",
+    "queries": [
+      {
+        "query_id": "xhs-broad-ssdpp-001",
+        "query": "复旦 社政 课评",
+        "status": "partial",
+        "searched_at": "2026-10-30",
+        "pages_fetched": 1,
+        "hit_count": null,
+        "result_titles_observed": [
+          "复旦社政小登课表求瑞平＋捞捞课友",
+          "复旦研一｜湾湾女生开学两周碎碎念18图来袭",
+          "复旦社政｜罗曼蒂克的短暂与温柔",
+          "老师事多给分低",
+          "复旦 | 这两年，我上过的好课推荐✨",
+          "复旦文科类好课推荐"
+        ],
+        "source_urls": [
+          "https://www.xiaohongshu.com/explore/6a59a00d000000000f014a3e",
+          "https://www.xiaohongshu.com/explore/6a9d1f2400000000110394fa",
+          "https://www.xiaohongshu.com/explore/688624d9000000002001a93e",
+          "https://www.xiaohongshu.com/explore/6a33c55d0000000008003f18"
+        ],
+        "limit": "结果页初屏已读，未穷尽滚动；两篇正文和当前展开评论已读，配图及折叠回复未全部核读。连接延迟导致动作与观察分开执行。"
+      },
+      {
+        "query_id": "xhs-title-soci20001-001",
+        "query": "复旦 社会学导论",
+        "result_titles_observed": [
+          "复旦大学社会学专业 本科必修课简述",
+          "复旦社会学的三个学期",
+          "高考志愿填了社会学 两年后我想说……",
+          "复旦沈奕斐老师的课｜个人经验分享～",
+          "在复旦的第三个期末终于拿下专业课满绩"
+        ],
+        "source_urls": [
+          "https://www.xiaohongshu.com/explore/6a815f5300000000220118c6",
+          "https://www.xiaohongshu.com/explore/6addf4070000000014012910"
+        ],
+        "status": "partial",
+        "searched_at": "2026-10-30",
+        "pages_fetched": 1,
+        "hit_count": null,
+        "limit": "已读结果页初屏及选定来源，未穷尽滚动、排序与全部结果；不代表全站覆盖。每篇实际阅读范围另列。",
+        "fulltext_read_links": [
+          "https://www.xiaohongshu.com/explore/6a815f5300000000220118c6"
+        ]
+      },
+      {
+        "query_id": "xhs-title-psyc20001-gj-001",
+        "query": "复旦 心理学导论 高隽",
+        "result_titles_observed": [
+          "复旦心理学好课求推荐",
+          "我在复旦很少感到discouraged的原因",
+          "天气好，督导也好",
+          "心理学导论重点抄作业了"
+        ],
+        "source_urls": [
+          "https://www.xiaohongshu.com/explore/6aae7d310000000028001fbc"
+        ],
+        "status": "partial",
+        "searched_at": "2026-10-30",
+        "pages_fetched": 1,
+        "hit_count": null,
+        "limit": "已读结果页初屏及选定来源，未穷尽滚动、排序与全部结果；不代表全站覆盖。每篇实际阅读范围另列。",
+        "fulltext_read_links": [
+          "https://www.xiaohongshu.com/explore/6aae7d310000000028001fbc"
+        ]
+      },
+      {
+        "query_id": "xhs-alias-xindao-001",
+        "query": "复旦 心导",
+        "search_forms": [
+          "course_alias"
+        ],
+        "status": "partial",
+        "searched_at": "2026-10-30",
+        "operation_type": "site_search",
+        "pages_fetched": 1,
+        "hit_count": null,
+        "result_titles_observed": [
+          "复旦研一｜湾湾女生开学两周碎碎念18图来袭",
+          "在复旦的第三个期末 终于拿下专业课满绩",
+          "听说这是复旦抬头率最高的课"
+        ],
+        "limit": "实际在登录态Edge搜索框提交，结果页已读至首批加载内容。大量结果仅为复旦校园生活；未据此判断拼音精确命中或无结果，未穷尽翻页。"
+      },
+      {
+        "query_id": "xhs-initials-gj-001",
+        "query": "复旦 GJ 心理学导论",
+        "search_forms": [
+          "teacher_initials",
+          "course_full_name"
+        ],
+        "status": "partial",
+        "searched_at": "2026-10-30",
+        "operation_type": "site_search",
+        "pages_fetched": 1,
+        "hit_count": null,
+        "result_titles_observed": [
+          "复旦心理学好课求推荐",
+          "我在复旦很少感到discouraged的原因",
+          "心理学导论重点，抄作业了"
+        ],
+        "limit": "实际在登录态Edge搜索框提交，结果页已读至首批加载内容。大量结果仅为复旦校园生活；未据此判断拼音精确命中或无结果，未穷尽翻页。"
+      },
+      {
+        "query_id": "xhs-pinyin-psyc-gj-001",
+        "query": "复旦 gaojun xinlixuedaolun",
+        "search_forms": [
+          "teacher_pinyin",
+          "course_pinyin"
+        ],
+        "status": "partial",
+        "searched_at": "2026-10-30",
+        "operation_type": "site_search",
+        "pages_fetched": 1,
+        "hit_count": null,
+        "result_titles_observed": [
+          "复旦研一｜湾湾女生开学两周碎碎念18图来袭",
+          "复旦大四｜最后一次Fdanso专场记录",
+          "复旦树洞里的恐怖故事"
+        ],
+        "limit": "实际在登录态Edge搜索框提交，结果页已读至首批加载内容。大量结果仅为复旦校园生活；未据此判断拼音精确命中或无结果，未穷尽翻页。"
+      },
+      {
+        "query_id": "xhs-swk-course-review-001",
+        "query": "复旦 社会工作 课评",
+        "search_forms": [
+          "discipline",
+          "course_review"
+        ],
+        "status": "partial",
+        "searched_at": "2026-10-30",
+        "operation_type": "site_search",
+        "pages_fetched": 1,
+        "hit_count": null,
+        "result_titles_observed": [
+          "复旦大学社会学专业 本科必修课简述",
+          "迟到的社会工作专业课经验贴",
+          "复旦社政｜罗曼蒂克的短暂与温柔"
+        ],
+        "limit": "实际在登录态Edge搜索框提交，结果页已读至首批加载内容。大量结果仅为复旦校园生活；未据此判断拼音精确命中或无结果，未穷尽翻页。"
+      },
+      {
+        "query_id": "xhs-teacher-cyy-001",
+        "query": "复旦 陈岩燕",
+        "search_forms": [
+          "teacher_full_name"
+        ],
+        "status": "partial",
+        "searched_at": "2026-10-30",
+        "operation_type": "site_search",
+        "pages_fetched": 1,
+        "hit_count": null,
+        "result_titles_observed": [
+          "孩子总问我们家有钱吗？复旦教授教你如何答",
+          "“苓听”第六期",
+          "复旦人表导师求避雷或推荐"
+        ],
+        "limit": "实际在登录态Edge搜索框提交，结果页已读至首批加载内容。大量结果仅为复旦校园生活；未据此判断拼音精确命中或无结果，未穷尽翻页。"
+      }
+    ]
+  },
+  "actual_query_rows": [
+    {
+      "query_id": "xhs-broad-ssdpp-001",
+      "query": "复旦 社政 课评",
+      "status": "partial",
+      "searched_at": "2026-10-30",
+      "pages_fetched": 1,
+      "hit_count": null,
+      "result_titles_observed": [
+        "复旦社政小登课表求瑞平＋捞捞课友",
+        "复旦研一｜湾湾女生开学两周碎碎念18图来袭",
+        "复旦社政｜罗曼蒂克的短暂与温柔",
+        "老师事多给分低",
+        "复旦 | 这两年，我上过的好课推荐✨",
+        "复旦文科类好课推荐"
+      ],
+      "source_urls": [
+        "https://www.xiaohongshu.com/explore/6a59a00d000000000f014a3e",
+        "https://www.xiaohongshu.com/explore/6a9d1f2400000000110394fa",
+        "https://www.xiaohongshu.com/explore/688624d9000000002001a93e",
+        "https://www.xiaohongshu.com/explore/6a33c55d0000000008003f18"
+      ],
+      "limit": "结果页初屏已读，未穷尽滚动；两篇正文和当前展开评论已读，配图及折叠回复未全部核读。连接延迟导致动作与观察分开执行。"
+    },
+    {
+      "query_id": "xhs-title-soci20001-001",
+      "query": "复旦 社会学导论",
+      "result_titles_observed": [
+        "复旦大学社会学专业 本科必修课简述",
+        "复旦社会学的三个学期",
+        "高考志愿填了社会学 两年后我想说……",
+        "复旦沈奕斐老师的课｜个人经验分享～",
+        "在复旦的第三个期末终于拿下专业课满绩"
+      ],
+      "source_urls": [
+        "https://www.xiaohongshu.com/explore/6a815f5300000000220118c6",
+        "https://www.xiaohongshu.com/explore/6addf4070000000014012910"
+      ],
+      "status": "partial",
+      "searched_at": "2026-10-30",
+      "pages_fetched": 1,
+      "hit_count": null,
+      "limit": "已读结果页初屏及选定来源，未穷尽滚动、排序与全部结果；不代表全站覆盖。每篇实际阅读范围另列。",
+      "fulltext_read_links": [
+        "https://www.xiaohongshu.com/explore/6a815f5300000000220118c6"
+      ]
+    },
+    {
+      "query_id": "xhs-title-psyc20001-gj-001",
+      "query": "复旦 心理学导论 高隽",
+      "result_titles_observed": [
+        "复旦心理学好课求推荐",
+        "我在复旦很少感到discouraged的原因",
+        "天气好，督导也好",
+        "心理学导论重点抄作业了"
+      ],
+      "source_urls": [
+        "https://www.xiaohongshu.com/explore/6aae7d310000000028001fbc"
+      ],
+      "status": "partial",
+      "searched_at": "2026-10-30",
+      "pages_fetched": 1,
+      "hit_count": null,
+      "limit": "已读结果页初屏及选定来源，未穷尽滚动、排序与全部结果；不代表全站覆盖。每篇实际阅读范围另列。",
+      "fulltext_read_links": [
+        "https://www.xiaohongshu.com/explore/6aae7d310000000028001fbc"
+      ]
+    },
+    {
+      "query_id": "xhs-alias-xindao-001",
+      "query": "复旦 心导",
+      "search_forms": [
+        "course_alias"
+      ],
+      "status": "partial",
+      "searched_at": "2026-10-30",
+      "operation_type": "site_search",
+      "pages_fetched": 1,
+      "hit_count": null,
+      "result_titles_observed": [
+        "复旦研一｜湾湾女生开学两周碎碎念18图来袭",
+        "在复旦的第三个期末 终于拿下专业课满绩",
+        "听说这是复旦抬头率最高的课"
+      ],
+      "limit": "实际在登录态Edge搜索框提交，结果页已读至首批加载内容。大量结果仅为复旦校园生活；未据此判断拼音精确命中或无结果，未穷尽翻页。"
+    },
+    {
+      "query_id": "xhs-initials-gj-001",
+      "query": "复旦 GJ 心理学导论",
+      "search_forms": [
+        "teacher_initials",
+        "course_full_name"
+      ],
+      "status": "partial",
+      "searched_at": "2026-10-30",
+      "operation_type": "site_search",
+      "pages_fetched": 1,
+      "hit_count": null,
+      "result_titles_observed": [
+        "复旦心理学好课求推荐",
+        "我在复旦很少感到discouraged的原因",
+        "心理学导论重点，抄作业了"
+      ],
+      "limit": "实际在登录态Edge搜索框提交，结果页已读至首批加载内容。大量结果仅为复旦校园生活；未据此判断拼音精确命中或无结果，未穷尽翻页。"
+    },
+    {
+      "query_id": "xhs-pinyin-psyc-gj-001",
+      "query": "复旦 gaojun xinlixuedaolun",
+      "search_forms": [
+        "teacher_pinyin",
+        "course_pinyin"
+      ],
+      "status": "partial",
+      "searched_at": "2026-10-30",
+      "operation_type": "site_search",
+      "pages_fetched": 1,
+      "hit_count": null,
+      "result_titles_observed": [
+        "复旦研一｜湾湾女生开学两周碎碎念18图来袭",
+        "复旦大四｜最后一次Fdanso专场记录",
+        "复旦树洞里的恐怖故事"
+      ],
+      "limit": "实际在登录态Edge搜索框提交，结果页已读至首批加载内容。大量结果仅为复旦校园生活；未据此判断拼音精确命中或无结果，未穷尽翻页。"
+    },
+    {
+      "query_id": "xhs-swk-course-review-001",
+      "query": "复旦 社会工作 课评",
+      "search_forms": [
+        "discipline",
+        "course_review"
+      ],
+      "status": "partial",
+      "searched_at": "2026-10-30",
+      "operation_type": "site_search",
+      "pages_fetched": 1,
+      "hit_count": null,
+      "result_titles_observed": [
+        "复旦大学社会学专业 本科必修课简述",
+        "迟到的社会工作专业课经验贴",
+        "复旦社政｜罗曼蒂克的短暂与温柔"
+      ],
+      "limit": "实际在登录态Edge搜索框提交，结果页已读至首批加载内容。大量结果仅为复旦校园生活；未据此判断拼音精确命中或无结果，未穷尽翻页。"
+    },
+    {
+      "query_id": "xhs-teacher-cyy-001",
+      "query": "复旦 陈岩燕",
+      "search_forms": [
+        "teacher_full_name"
+      ],
+      "status": "partial",
+      "searched_at": "2026-10-30",
+      "operation_type": "site_search",
+      "pages_fetched": 1,
+      "hit_count": null,
+      "result_titles_observed": [
+        "孩子总问我们家有钱吗？复旦教授教你如何答",
+        "“苓听”第六期",
+        "复旦人表导师求避雷或推荐"
+      ],
+      "limit": "实际在登录态Edge搜索框提交，结果页已读至首批加载内容。大量结果仅为复旦校园生活；未据此判断拼音精确命中或无结果，未穷尽翻页。"
+    }
+  ],
+  "evidence_input_count": 10,
+  "accepted_evidence_count": 10,
+  "pending_evidence": [],
+  "unresolved": [
+    {
+      "platform": "小红书",
+      "source_id": "6a59a00d000000000f014a3e",
+      "source_url": "https://www.xiaohongshu.com/explore/6a59a00d000000000f014a3e",
+      "title": "老师事多给分低",
+      "visible_publication_date": "07-17",
+      "status": "excluded_unconfirmed_institution_course",
+      "read_status": "正文及首批可见评论已读；3张配图及折叠回复未全读",
+      "reason": "文章抱怨某大学马院课程平时分、PPT和期末分，但未指明复旦、社政学院、课程或教师，不能归入本项目。",
+      "query_ids": [
+        "xhs-broad-ssdpp-001"
+      ]
+    },
+    {
+      "platform": "小红书",
+      "source_id": "6a9d1f2400000000110394fa",
+      "source_url": "https://www.xiaohongshu.com/explore/6a9d1f2400000000110394fa",
+      "title": "复旦社政小登课表求瑞平＋捞捞课友",
+      "visible_publication_date": "编辑于09-08",
+      "status": "question_course_identity_unresolved",
+      "read_status": "正文、可见一级评论和默认展开回复已读；配图未读，仍有3条和1条折叠回复",
+      "reason": "社政新生询问学分负担、笔记、Python/思政/体育等选课。未从文字获得本院目标课程的明确名称或教师；wwh缩写不足以确认教师身份。未采纳为课程体验摘要。",
+      "query_ids": [
+        "xhs-broad-ssdpp-001"
+      ]
+    },
+    {
+      "source_id": "688624d9000000002001a93e",
+      "title": "复旦文科类好课推荐",
+      "visible_publication_date": "2025-07-28",
+      "status": "partial_image_source",
+      "read_status": "正文及可见评论已读；3张图片仅核读第1张，折叠评论未全读",
+      "reason": "已读图片主要为院系范围外课程；剩余两张未读，不记为无相关内容。",
+      "query_ids": [
+        "xhs-broad-ssdpp-001"
+      ],
+      "platform": "小红书",
+      "source_url": "https://www.xiaohongshu.com/explore/688624d9000000002001a93e"
+    },
+    {
+      "source_id": "6a33c55d0000000008003f18",
+      "title": "复旦｜这两年我上过的好课推荐",
+      "visible_publication_date": "06-18（年份未显示）",
+      "status": "read_body_no_in_scope_course",
+      "read_status": "正文五门课程及默认展开评论已读；41条评论未全部展开",
+      "reason": "正文网球、欧洲电影、现代散文、排球、新闻学概论均不在本院目标代码表；评论中的其他院系课程未强行归入。",
+      "query_ids": [
+        "xhs-broad-ssdpp-001"
+      ],
+      "platform": "小红书",
+      "source_url": "https://www.xiaohongshu.com/explore/6a33c55d0000000008003f18"
+    },
+    {
+      "source_id": "6addf4070000000014012910",
+      "title": "复旦沈奕斐老师的课｜个人经验分享～",
+      "visible_publication_date": "4天前（2026-10-30查看）",
+      "status": "video_unread",
+      "read_status": "视频说明正文及可见评论已读，视频未观看",
+      "reason": "正文仅引言，评论称婚姻与家庭；无法从已读文字得到具体课程体验，暂不采用。当前视频发布时间也不能证明对应2025秋至2026春。",
+      "query_ids": [
+        "xhs-title-soci20001-001"
+      ],
+      "platform": "小红书",
+      "source_url": "https://www.xiaohongshu.com/explore/6addf4070000000014012910"
+    },
+    {
+      "source_id": "6a815f5300000000220118c6",
+      "title": "复旦大学社会学专业 本科必修课简述（未归属条目）",
+      "status": "course_variant_unresolved",
+      "read_status": "正文与全部2张图片已读",
+      "reason": "古典社会学理论（TF/LX）、社会统计学（ZJA）、统计软件应用（ZJA）的普通班与H班无法凭本文区分；保留为候选，不复制进两个代码。西方社会学思想等未匹配目标代码的条目暂不采用。",
+      "candidate_course_codes": [
+        "SOCI30020",
+        "SOCI30020h",
+        "SOCI30006",
+        "SOCI30006h",
+        "SOCI30037",
+        "SOCI30037h"
+      ],
+      "query_ids": [
+        "xhs-title-soci20001-001"
+      ],
+      "platform": "小红书",
+      "source_url": "https://www.xiaohongshu.com/explore/6a815f5300000000220118c6"
+    },
+    {
+      "source_id": "6aae7d310000000028001fbc",
+      "title": "复旦心理学好课求推荐（未归属条目）",
+      "status": "no_exact_target_course_match",
+      "read_status": "正文与全部18条评论已读",
+      "reason": "陈侃的心理分析与中国社会、教师未明的儿童发展与社会适应未匹配本院两学期目标代码，暂不按近似课名归入其他课程。",
+      "query_ids": [
+        "xhs-title-psyc20001-gj-001"
+      ],
+      "platform": "小红书",
+      "source_url": "https://www.xiaohongshu.com/explore/6aae7d310000000028001fbc"
+    },
+    {
+      "platform": "小红书",
+      "source_id": "696a2041000000000903b261",
+      "source_url": "https://www.xiaohongshu.com/explore/696a2041000000000903b261",
+      "title": "在复旦的第三个期末 终于拿下专业课满绩",
+      "status": "read_text_no_target_course",
+      "read_status": "正文与默认展开评论已读；未穷尽配图和全部评论",
+      "reason": "正文为经院学生世界经济、公司金融、宏观经济等课程与学习经历，已读文字未确认本院目标课程。不能把整学期成绩映射为社政学院课程给分。",
+      "query_ids": [
+        "xhs-title-psyc20001-gj-001",
+        "xhs-initials-gj-001"
+      ]
+    },
+    {
+      "platform": "小红书",
+      "source_id": "6a6c9ac5000000002201276f",
+      "source_url": "https://www.xiaohongshu.com/explore/6a6c9ac5000000002201276f",
+      "title": "我在复旦很少感到discouraged的原因",
+      "status": "read_text_no_target_course",
+      "read_status": "正文与默认展开评论已读；未穷尽配图和全部评论",
+      "reason": "正文为研究生校园生活与个人适应经验，已读文字未出现本院目标课程或明确课程评价。",
+      "query_ids": [
+        "xhs-title-psyc20001-gj-001",
+        "xhs-initials-gj-001"
+      ]
+    },
+    {
+      "platform": "小红书",
+      "source_id": "6a8d5ab9000000002803255c",
+      "source_url": "https://www.xiaohongshu.com/explore/6a8d5ab9000000002803255c",
+      "title": "迟到的社会工作专业课经验贴",
+      "status": "read_text_no_target_course",
+      "read_status": "正文与默认展开评论已读；未穷尽配图和全部评论",
+      "reason": "标签和可见问答明确为社会工作考研与备考资料/辅导，非复旦入学后的课程修读体验；图片未读，不据此归入本院教学班。",
+      "query_ids": [
+        "xhs-swk-course-review-001"
+      ]
+    }
+  ],
+  "actual_query_status_counts": {
+    "partial": 8
+  },
+  "framework_query_count": null,
+  "coverage_exhausted": false,
+  "source_read_rows": [],
+  "public_index_query_rows": []
+}

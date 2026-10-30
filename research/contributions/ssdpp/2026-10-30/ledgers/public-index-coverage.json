@@ -1,0 +1,117 @@
+{
+  "researched_at": "2026-10-30",
+  "scope": {
+    "school": "Fudan University School of Social Development and Public Policy (SSDPP)",
+    "target_terms": [
+      "2025 autumn",
+      "2026 spring"
+    ],
+    "official_course_code_count": 296,
+    "official_roster_teacher_count": 143
+  },
+  "method": "Read-only public web-index searches; no Edge or authenticated Zhihu/WeChat/Xiaohongshu site search. Only roster course names and teacher names sourced from work/ssdpp-research/live-jobs/targets.json. Search-result blocks and snippets are discovery aids; they were not treated as full text. Candidate URLs are not confirmed reviews until the actual page is read and matches course, instructor, institution, timing and student-review context.",
+  "coverage": {
+    "course_title_only": {
+      "distinct_official_titles": 278,
+      "course_codes_mapped": 296,
+      "queries": 278,
+      "web_search_calls": 70,
+      "repeated_unparsed_batch_retried": {
+        "batch": "TITLE-237-240",
+        "retry_status": "no_result_links_returned",
+        "query_count": 4
+      },
+      "batch_status_counts": {
+        "results_returned": 67,
+        "no_visible_public_index_hit": 2,
+        "unparsed_response": 1
+      },
+      "raw_result_records": 547,
+      "unique_candidate_urls": 409,
+      "provisional_course_name_association_records": 287,
+      "unique_hosts": [
+        "daily.zhihu.com",
+        "event.zhihu.com",
+        "fudan.edu.cn",
+        "job.xiaohongshu.com",
+        "pgy.xiaohongshu.com",
+        "rpdc.xiaohongshu.com",
+        "www.zhihu.com",
+        "www2.zhihu.com",
+        "zhuanlan.zhihu.com"
+      ],
+      "full_text_read": false
+    },
+    "course_plus_teacher": {
+      "queries": 100,
+      "unique_course_codes": 100,
+      "method_note": "Initial 100 query pass only; each query used official full course title and teacher full names as OR alternatives; not all 296 course codes were covered by this combined form.",
+      "full_text_read": false
+    },
+    "teacher_only": {
+      "official_teacher_names": 143,
+      "queries_executed": 143,
+      "search_calls": 36,
+      "unique_candidate_urls": 358,
+      "returned_hosts": [
+        "daily.zhihu.com",
+        "pages.xiaohongshu.com",
+        "pgy.xiaohongshu.com",
+        "rpdc.xiaohongshu.com",
+        "www.zhihu.com",
+        "www2.zhihu.com",
+        "zhuanlan.zhihu.com"
+      ],
+      "individual_result_attribution": "not reliable; links were returned as four-query batch-level result groups",
+      "full_text_read": false,
+      "platform_findings": {
+        "zhihu": "returned candidate URLs; many unrelated/general pages; not yet article-level classroom-review hits",
+        "xiaohongshu": "some indexed pages, mainly platform/vendor/admin or unrelated pages; no validated course-review hit",
+        "wechat": "no direct mp.weixin.qq.com URL in captured teacher-query links; this records index output only, not absence of in-platform content"
+      }
+    }
+  },
+  "discovery_result": "No direct student-authored, in-scope course review was validated in the captured public-index output. This is an index-based finding only; it does not prove that target-site or authenticated content does not exist.",
+  "data_files": [
+    "public_course_title_queries_001_040_corrected.json",
+    "public_course_title_queries_041_080.json",
+    "public_course_title_queries_081_120.json",
+    "public_course_title_queries_121_160.json",
+    "public_course_title_queries_161_200.json",
+    "public_course_title_queries_201_240.json",
+    "public_course_title_queries_241_278.json",
+    "public_course_title_retry_237_240.json",
+    "public_search_coverage_initial_corrected.json",
+    "teacher_query_coverage.json",
+    "teacher_query_coverage.csv",
+    "teacher_search_001_004.json",
+    "teacher_search_005_036.json",
+    "teacher_search_037_040.json",
+    "teacher_search_041_044.json",
+    "teacher_search_045_048.json",
+    "teacher_search_049_052.json",
+    "teacher_search_053_056.json",
+    "teacher_search_057_060.json",
+    "teacher_search_061_064.json",
+    "teacher_search_065_068.json",
+    "teacher_search_069_072.json",
+    "teacher_search_073_076.json",
+    "teacher_search_077_080.json",
+    "teacher_search_081_084.json",
+    "teacher_search_085_088.json",
+    "teacher_search_089_092.json",
+    "teacher_search_093_096.json",
+    "teacher_search_097_100.json",
+    "teacher_search_101_104.json",
+    "teacher_search_105_108.json",
+    "teacher_search_109_112.json",
+    "teacher_search_113_116.json",
+    "teacher_search_117_120.json",
+    "teacher_search_121_124.json",
+    "teacher_search_125_128.json",
+    "teacher_search_129_132.json",
+    "teacher_search_133_136.json",
+    "teacher_search_137_140.json",
+    "teacher_search_141_143.json"
+  ]
+}

@@ -1,0 +1,479 @@
+{
+  "platform": "微信公众号",
+  "source_directory": "wechat",
+  "coverage_file_present": true,
+  "evidence_file_present": true,
+  "unresolved_file_present": true,
+  "coverage": {
+    "generated_at_utc": "2026-10-30T06:41:02Z",
+    "scope": "Public WeChat discussion/course-review discovery for Fudan SSDPP courses in 2025 autumn and 2026 spring",
+    "input_manifests": {
+      "targets": "work/ssdpp-research/live-jobs/targets.json (296 official course entries)",
+      "forum_queries": "work/ssdpp-research/live-jobs/forum_queries.json (2029 queries)"
+    },
+    "method": "Public indexed web search plus a dedicated Edge Sogou WeChat UI query. The actual result was clicked; on follow-up the opened mp.weixin.qq.com article body was fully read from the accessible page.",
+    "browser_observation": {
+      "observed_at_utc": "2026-10-30T05:47:42Z",
+      "status": "article_opened_and_full_accessible_text_read_on_follow_up",
+      "edge_browser_id": "1",
+      "shared_tab_1085568344": "present in inventory; not bound or inspected",
+      "independent_edge_tab_created": true,
+      "read_boundary": "Full accessible article text was read on the opened mp.weixin.qq.com tab. It explicitly includes Social Introduction teacher sections for 吴菲/王威海/徐珂/徐建牛 and Psychology Introduction content highlighting 高隽. Historical descriptions are not target-term evaluations.",
+      "generated_at_utc": "2026-10-30T06:41:02Z",
+      "sogou_tab_id": "1085568549",
+      "article_tab_id": "1085568552",
+      "search_query": "复旦 社会学导论 徐珂 课评",
+      "visible_result_title": "入学那些事儿第三弹 | 专业篇",
+      "full_text_read": true,
+      "article_title": "入学那些事儿第三弹 | 专业篇",
+      "article_account": "船长der航海日记",
+      "article_publication_date": "2018-08-06 18:32",
+      "article_url": "https://mp.weixin.qq.com/s?src=11&timestamp=1793340756&ver=7057&signature=OcXCA87wiNwN5Qx4Qv2S3KNKFqSYFxzCTo1UwYKts-U7TBemSeSMm7DWz12qoXjbCYx1a-CtiywSn1mQT7qoRaiPaVBEabm6jSpYe1DkESyIYoxzmnm7ZbbZ-WNup%2Awd&new=1",
+      "supplemental_query": "复旦 社会学导论 吴菲",
+      "supplemental_query_status": "submitted_result_unread_browser_timeout",
+      "supplemental_query_read_boundary": "The Sogou WeChat search field was visibly updated and the query submitted. The following AX-state request timed out after 10 seconds and a screenshot request timed out after 60 seconds; no result state or result content was read. Stopped this browser entry after two observation failures. This is not a no-results finding.",
+      "article_url_note": "公开搜狗文章签名链接，非用户认证令牌，可能过期。"
+    },
+    "executed_query_count": 14,
+    "query_coverage": [
+      {
+        "query": "site:mp.weixin.qq.com 复旦 社会学导论 课评 课程",
+        "searched_at_utc": "2026-10-30T05:47:42Z",
+        "method": "public indexed web search",
+        "status": "completed_no_results",
+        "read_boundary": "Search result page only; no WeChat article opened.",
+        "query_id": "wechat-index-001",
+        "operation_type": "public_index_search"
+      },
+      {
+        "query": "site:mp.weixin.qq.com 复旦 社会心理学 选课 课评",
+        "searched_at_utc": "2026-10-30T05:47:42Z",
+        "method": "public indexed web search",
+        "status": "completed_no_results",
+        "read_boundary": "Search result page only; no WeChat article opened.",
+        "query_id": "wechat-index-002",
+        "operation_type": "public_index_search"
+      },
+      {
+        "query": "site:mp.weixin.qq.com 复旦 社会工作导论 课评",
+        "searched_at_utc": "2026-10-30T05:47:42Z",
+        "method": "public indexed web search",
+        "status": "completed_no_results",
+        "read_boundary": "Search result page only; no WeChat article opened.",
+        "query_id": "wechat-index-003",
+        "operation_type": "public_index_search"
+      },
+      {
+        "query": "site:mp.weixin.qq.com 复旦 社会学 课程 课评",
+        "searched_at_utc": "2026-10-30T05:47:42Z",
+        "method": "public indexed web search",
+        "status": "completed_no_results",
+        "read_boundary": "Search result page only; no WeChat article opened.",
+        "query_id": "wechat-index-004",
+        "operation_type": "public_index_search"
+      },
+      {
+        "query": "复旦大学 社会学导论 课评 选课 社政院",
+        "searched_at_utc": "2026-10-30T05:47:42Z",
+        "method": "public indexed web search",
+        "status": "completed_results_reviewed_no_target_wechat_review",
+        "read_boundary": "Search snippets/results reviewed; returned official announcements, course-selection material and other adjacent pages, no WeChat student review identified.",
+        "query_id": "wechat-index-005",
+        "operation_type": "public_index_search"
+      },
+      {
+        "query": "复旦大学 社会心理学 课评 选课 公众号",
+        "searched_at_utc": "2026-10-30T05:47:42Z",
+        "method": "public indexed web search",
+        "status": "completed_results_reviewed_no_target_wechat_review",
+        "read_boundary": "Search snippets/results reviewed; no WeChat student review identified.",
+        "query_id": "wechat-index-006",
+        "operation_type": "public_index_search"
+      },
+      {
+        "query": "复旦 社会工作导论 课程评价 选课指南",
+        "searched_at_utc": "2026-10-30T05:47:42Z",
+        "method": "public indexed web search",
+        "status": "completed_results_reviewed_no_target_wechat_review",
+        "read_boundary": "Search snippets/results reviewed; returned official course description/instructional-design items, not a student review.",
+        "query_id": "wechat-index-007",
+        "operation_type": "public_index_search"
+      },
+      {
+        "query": "复旦 社会学 课评 选课 微信公众号",
+        "searched_at_utc": "2026-10-30T05:47:42Z",
+        "method": "public indexed web search",
+        "status": "completed_results_reviewed_no_target_wechat_review",
+        "read_boundary": "Search snippets/results reviewed; no WeChat student review identified.",
+        "query_id": "wechat-index-008",
+        "operation_type": "public_index_search"
+      },
+      {
+        "query": "\"社会学导论\" \"徐珂\" 复旦 选课 课评",
+        "searched_at_utc": "2026-10-30T05:47:42Z",
+        "method": "public indexed web search",
+        "status": "completed_results_reviewed_historic_nonwechat_only",
+        "read_boundary": "Returned an official 2010 Fudan news profile with generalized student sentiment; date and genre do not satisfy target term/course-review criteria.",
+        "query_id": "wechat-index-009",
+        "operation_type": "public_index_search"
+      },
+      {
+        "query": "\"社会工作导论\" \"顾东辉\" 复旦 学生 课程 评价",
+        "searched_at_utc": "2026-10-30T05:47:42Z",
+        "method": "public indexed web search",
+        "status": "completed_results_reviewed_nonreview_results",
+        "read_boundary": "Returned official promotional/course information and a retrospective alumni profile, not a target-term student course review.",
+        "query_id": "wechat-index-010",
+        "operation_type": "public_index_search"
+      },
+      {
+        "query": "复旦 \"社会学导论\" 公众号 课评 徐珂",
+        "searched_at_utc": "2026-10-30T05:47:42Z",
+        "method": "public indexed web search",
+        "status": "completed_results_reviewed_historic_nonwechat_only",
+        "read_boundary": "Search snippets/results reviewed; no WeChat student review identified.",
+        "query_id": "wechat-index-011",
+        "operation_type": "public_index_search"
+      },
+      {
+        "query": "复旦社会学系 选课指南 社会学导论 课评",
+        "searched_at_utc": "2026-10-30T05:47:42Z",
+        "method": "public indexed web search",
+        "status": "completed_results_reviewed_lead_not_opened",
+        "read_boundary": "Fudan Manual course-selection page appeared as a search result, but was not opened or inspected; it is not a WeChat source.",
+        "query_id": "wechat-index-012",
+        "operation_type": "public_index_search"
+      },
+      {
+        "query": "复旦 社会学导论 徐珂 课评",
+        "searched_at_utc": "2026-10-30T06:17:52Z",
+        "method": "Edge UI / Sogou WeChat Search",
+        "status": "full_text_read_historical_course_experience",
+        "read_boundary": "Clicked actual Sogou WeChat result and read the full accessible article text; historical experience only, not 2025秋/2026春.",
+        "full_text_read": true,
+        "article_title": "入学那些事儿第三弹 | 专业篇",
+        "article_date": "2018-08-06 18:32",
+        "matched_course_codes": [
+          "SOCI20001",
+          "PSYC20001"
+        ],
+        "query_id": "wechat-ui-001",
+        "operation_type": "site_search",
+        "fulltext_read_links": [
+          "https://mp.weixin.qq.com/s?src=11&timestamp=1793340756&ver=7057&signature=OcXCA87wiNwN5Qx4Qv2S3KNKFqSYFxzCTo1UwYKts-U7TBemSeSMm7DWz12qoXjbCYx1a-CtiywSn1mQT7qoRaiPaVBEabm6jSpYe1DkESyIYoxzmnm7ZbbZ-WNup%2Awd&new=1"
+        ],
+        "source_urls": [
+          "https://mp.weixin.qq.com/s?src=11&timestamp=1793340756&ver=7057&signature=OcXCA87wiNwN5Qx4Qv2S3KNKFqSYFxzCTo1UwYKts-U7TBemSeSMm7DWz12qoXjbCYx1a-CtiywSn1mQT7qoRaiPaVBEabm6jSpYe1DkESyIYoxzmnm7ZbbZ-WNup%2Awd&new=1"
+        ]
+      },
+      {
+        "query": "复旦 社会学导论 吴菲",
+        "searched_at_utc": "2026-10-30T06:41:02Z",
+        "method": "Edge UI / Sogou WeChat Search",
+        "status": "submitted_result_unread_browser_timeout",
+        "read_boundary": "Query field and submission were visible; subsequent AX-state and screenshot reads timed out. Results were not read; do not count as no results.",
+        "full_text_read": false,
+        "query_id": "wechat-ui-002",
+        "operation_type": "site_search"
+      }
+    ],
+    "search_result_binding": "Search engine returned result groups per batch; per-result assignment to individual queries is not asserted where the tool did not expose it. See unresolved.json for inspected candidates and exclusion reasons.",
+    "limitations": [
+      "Only 12 targeted public-index queries were run; the 2029-query manifest was not exhausted.",
+      "A public-index no-result does not establish that an article does not exist or is not accessible through WeChat search.",
+      "No course evaluation inside Fudan's authenticated teaching-evaluation system was accessed.",
+      "Two focused Edge/Sogou WeChat UI queries were submitted. One returned a result that was opened and fully read; the second query (复旦 社会学导论 吴菲) was submitted, but its result state remained unread after two browser observation timeouts. This partial UI check is not exhaustive."
+    ],
+    "actual_query_stats": {
+      "public_index_queries_completed": 12,
+      "wechat_ui_queries_submitted": 2,
+      "wechat_ui_query_results_read": 1,
+      "wechat_ui_query_results_unread": 1,
+      "fulltext_articles_read": 1,
+      "manifest_queries_total": 2029,
+      "manifest_exhausted": false
+    }
+  },
+  "actual_query_rows": [
+    {
+      "query": "复旦 社会学导论 徐珂 课评",
+      "searched_at_utc": "2026-10-30T06:17:52Z",
+      "method": "Edge UI / Sogou WeChat Search",
+      "status": "full_text_read_historical_course_experience",
+      "read_boundary": "Clicked actual Sogou WeChat result and read the full accessible article text; historical experience only, not 2025秋/2026春.",
+      "full_text_read": true,
+      "article_title": "入学那些事儿第三弹 | 专业篇",
+      "article_date": "2018-08-06 18:32",
+      "matched_course_codes": [
+        "SOCI20001",
+        "PSYC20001"
+      ],
+      "query_id": "wechat-ui-001",
+      "operation_type": "site_search",
+      "fulltext_read_links": [
+        "https://mp.weixin.qq.com/s?src=11&timestamp=1793340756&ver=7057&signature=OcXCA87wiNwN5Qx4Qv2S3KNKFqSYFxzCTo1UwYKts-U7TBemSeSMm7DWz12qoXjbCYx1a-CtiywSn1mQT7qoRaiPaVBEabm6jSpYe1DkESyIYoxzmnm7ZbbZ-WNup%2Awd&new=1"
+      ],
+      "source_urls": [
+        "https://mp.weixin.qq.com/s?src=11&timestamp=1793340756&ver=7057&signature=OcXCA87wiNwN5Qx4Qv2S3KNKFqSYFxzCTo1UwYKts-U7TBemSeSMm7DWz12qoXjbCYx1a-CtiywSn1mQT7qoRaiPaVBEabm6jSpYe1DkESyIYoxzmnm7ZbbZ-WNup%2Awd&new=1"
+      ]
+    },
+    {
+      "query": "复旦 社会学导论 吴菲",
+      "searched_at_utc": "2026-10-30T06:41:02Z",
+      "method": "Edge UI / Sogou WeChat Search",
+      "status": "submitted_result_unread_browser_timeout",
+      "read_boundary": "Query field and submission were visible; subsequent AX-state and screenshot reads timed out. Results were not read; do not count as no results.",
+      "full_text_read": false,
+      "query_id": "wechat-ui-002",
+      "operation_type": "site_search"
+    }
+  ],
+  "evidence_input_count": 2,
+  "accepted_evidence_count": 2,
+  "pending_evidence": [],
+  "unresolved": [
+    {
+      "course_code": "SOCI20001",
+      "course_name": "社会学导论",
+      "teachers": [
+        "吴菲",
+        "徐建牛",
+        "徐珂",
+        "王威海"
+      ],
+      "target_terms": [
+        "2025秋",
+        "2026春"
+      ],
+      "status": "historical_fulltext_evidence_found_target_term_unresolved",
+      "note": "Full-text historical WeChat article dated 2018-08-06 is now in evidence.json. The 2025秋/2026春 course-specific student review remains unconfirmed.",
+      "unresolved_group": "unresolved_courses"
+    },
+    {
+      "course_code": "PSYC30006",
+      "course_name": "社会心理学",
+      "teachers": [
+        "田芊",
+        "陈斌斌"
+      ],
+      "target_terms": [
+        "2025秋"
+      ],
+      "status": "no_qualifying_wechat_result_in_executed_queries",
+      "note": "Public-index query returned no qualifying WeChat student review.",
+      "unresolved_group": "unresolved_courses"
+    },
+    {
+      "course_code": "SWK20002",
+      "course_name": "社会工作导论",
+      "teachers": [
+        "陈岩燕",
+        "顾东辉"
+      ],
+      "target_terms": [
+        "2025秋",
+        "2026春"
+      ],
+      "status": "no_qualifying_wechat_result_in_executed_queries",
+      "note": "Returned sources were official course description or retrospective alumni content, not a target-term student review.",
+      "unresolved_group": "unresolved_courses"
+    },
+    {
+      "course_code": "PSYC20001",
+      "course_name": "心理学导论",
+      "teachers": [
+        "吴国宏",
+        "李婧",
+        "王喆辰",
+        "田芊",
+        "高隽"
+      ],
+      "target_terms": [
+        "2025秋",
+        "2026春"
+      ],
+      "status": "historical_fulltext_evidence_found_target_term_unresolved",
+      "note": "2018-08-06 WeChat article includes historical psychology-introduction comments, especially 高隽; no target-term student review confirmed.",
+      "unresolved_group": "unresolved_courses"
+    },
+    {
+      "source_id": "web-search-result-2010-xuke-profile",
+      "platform": "Fudan University news site (PDF), not WeChat",
+      "title": "博学笃诚 切问近喻：徐珂",
+      "url": "https://news.fudan.edu.cn/_upload/article/files/24/6b/550eb3ed4443ac7d7a36a5122842/5d401a44-90d7-44c0-892e-2edaa45bc71f.pdf",
+      "publication_date": "2010-10-27",
+      "teachers": [
+        "徐珂"
+      ],
+      "term_limited": false,
+      "kind": "official_profile_with_generalized_student_sentiment",
+      "read_status": "search_result_content_visible; source not opened",
+      "short_summary": "Official profile quotes broad student praise of Xu Ke's teaching and the popularity of his sociology introduction course, but is a 2010 profile rather than a course-specific review for 2025秋/2026春.",
+      "exclusion_reason": "Wrong publication period and genre; not WeChat.",
+      "unresolved_group": "adjacent_sources_not_accepted_as_evidence"
+    },
+    {
+      "source_id": "web-search-result-2023-sw-intro-course",
+      "platform": "Fudan SSDPP official site, not WeChat",
+      "title": "喜报 | 顾东辉教授的《社会工作导论》获批国家级一流本科课程",
+      "url": "https://ssdpp.fudan.edu.cn/bc/93/c20775a507027/page.htm",
+      "publication_date": "2023-06-16",
+      "teachers": [
+        "顾东辉"
+      ],
+      "term_limited": false,
+      "kind": "official_course_description_and_award_notice",
+      "read_status": "search_result_content_visible",
+      "short_summary": "Official announcement describes course goals and teaching approach. It is official course information, not student evaluation.",
+      "exclusion_reason": "Official course description; excluded from student-review evidence.",
+      "unresolved_group": "adjacent_sources_not_accepted_as_evidence"
+    },
+    {
+      "source_id": "web-search-result-sw-intro-alumni-profile",
+      "platform": "Fudan Alumni official site, not WeChat",
+      "title": "15级社会工作本科刘子潇：从探索到深耕，从受助到助人",
+      "url": "https://alumni.fudan.edu.cn/d0/7f/c14609a774271/page.htm",
+      "publication_date": "2026 (search snippet says published about seven months before 2026-10-30; exact date not shown in returned snippet)",
+      "teachers": [
+        "顾东辉"
+      ],
+      "term_limited": false,
+      "kind": "alumni_retrospective",
+      "read_status": "search_result_content_visible",
+      "short_summary": "Alumnus recalls that the course introduced him to social work and influenced his academic interest; does not assess teaching or a target semester.",
+      "exclusion_reason": "Retrospective personal statement, not a course evaluation for the target term; not WeChat.",
+      "unresolved_group": "adjacent_sources_not_accepted_as_evidence"
+    },
+    {
+      "source_id": "web-search-result-fudanmanual-course-selection",
+      "platform": "Fudan Manual (public website), not WeChat",
+      "title": "选课 - 复旦生存手册 | Fudan Manual",
+      "url": "https://fudanmanual.github.io/FudanManual/Curriculum/",
+      "publication_date": "search result crawled about 3.1 years ago; exact article date not shown",
+      "teachers": [],
+      "term_limited": false,
+      "kind": "student-maintained-course-selection-guide_lead",
+      "read_status": "search-result snippet only; page not opened",
+      "short_summary": "Search result indicates a course selection guide with course/teacher opinions, but no specific SSDPP course entry was confirmed.",
+      "exclusion_reason": "Unopened lead and not a WeChat source; cannot be treated as verified course evidence.",
+      "unresolved_group": "adjacent_sources_not_accepted_as_evidence"
+    }
+  ],
+  "actual_query_status_counts": {
+    "completed_search": 1,
+    "failed_or_blocked": 1
+  },
+  "framework_query_count": null,
+  "coverage_exhausted": false,
+  "source_read_rows": [],
+  "public_index_query_rows": [
+    {
+      "query": "site:mp.weixin.qq.com 复旦 社会学导论 课评 课程",
+      "searched_at_utc": "2026-10-30T05:47:42Z",
+      "method": "public indexed web search",
+      "status": "completed_no_results",
+      "read_boundary": "Search result page only; no WeChat article opened.",
+      "query_id": "wechat-index-001",
+      "operation_type": "public_index_search"
+    },
+    {
+      "query": "site:mp.weixin.qq.com 复旦 社会心理学 选课 课评",
+      "searched_at_utc": "2026-10-30T05:47:42Z",
+      "method": "public indexed web search",
+      "status": "completed_no_results",
+      "read_boundary": "Search result page only; no WeChat article opened.",
+      "query_id": "wechat-index-002",
+      "operation_type": "public_index_search"
+    },
+    {
+      "query": "site:mp.weixin.qq.com 复旦 社会工作导论 课评",
+      "searched_at_utc": "2026-10-30T05:47:42Z",
+      "method": "public indexed web search",
+      "status": "completed_no_results",
+      "read_boundary": "Search result page only; no WeChat article opened.",
+      "query_id": "wechat-index-003",
+      "operation_type": "public_index_search"
+    },
+    {
+      "query": "site:mp.weixin.qq.com 复旦 社会学 课程 课评",
+      "searched_at_utc": "2026-10-30T05:47:42Z",
+      "method": "public indexed web search",
+      "status": "completed_no_results",
+      "read_boundary": "Search result page only; no WeChat article opened.",
+      "query_id": "wechat-index-004",
+      "operation_type": "public_index_search"
+    },
+    {
+      "query": "复旦大学 社会学导论 课评 选课 社政院",
+      "searched_at_utc": "2026-10-30T05:47:42Z",
+      "method": "public indexed web search",
+      "status": "completed_results_reviewed_no_target_wechat_review",
+      "read_boundary": "Search snippets/results reviewed; returned official announcements, course-selection material and other adjacent pages, no WeChat student review identified.",
+      "query_id": "wechat-index-005",
+      "operation_type": "public_index_search"
+    },
+    {
+      "query": "复旦大学 社会心理学 课评 选课 公众号",
+      "searched_at_utc": "2026-10-30T05:47:42Z",
+      "method": "public indexed web search",
+      "status": "completed_results_reviewed_no_target_wechat_review",
+      "read_boundary": "Search snippets/results reviewed; no WeChat student review identified.",
+      "query_id": "wechat-index-006",
+      "operation_type": "public_index_search"
+    },
+    {
+      "query": "复旦 社会工作导论 课程评价 选课指南",
+      "searched_at_utc": "2026-10-30T05:47:42Z",
+      "method": "public indexed web search",
+      "status": "completed_results_reviewed_no_target_wechat_review",
+      "read_boundary": "Search snippets/results reviewed; returned official course description/instructional-design items, not a student review.",
+      "query_id": "wechat-index-007",
+      "operation_type": "public_index_search"
+    },
+    {
+      "query": "复旦 社会学 课评 选课 微信公众号",
+      "searched_at_utc": "2026-10-30T05:47:42Z",
+      "method": "public indexed web search",
+      "status": "completed_results_reviewed_no_target_wechat_review",
+      "read_boundary": "Search snippets/results reviewed; no WeChat student review identified.",
+      "query_id": "wechat-index-008",
+      "operation_type": "public_index_search"
+    },
+    {
+      "query": "\"社会学导论\" \"徐珂\" 复旦 选课 课评",
+      "searched_at_utc": "2026-10-30T05:47:42Z",
+      "method": "public indexed web search",
+      "status": "completed_results_reviewed_historic_nonwechat_only",
+      "read_boundary": "Returned an official 2010 Fudan news profile with generalized student sentiment; date and genre do not satisfy target term/course-review criteria.",
+      "query_id": "wechat-index-009",
+      "operation_type": "public_index_search"
+    },
+    {
+      "query": "\"社会工作导论\" \"顾东辉\" 复旦 学生 课程 评价",
+      "searched_at_utc": "2026-10-30T05:47:42Z",
+      "method": "public indexed web search",
+      "status": "completed_results_reviewed_nonreview_results",
+      "read_boundary": "Returned official promotional/course information and a retrospective alumni profile, not a target-term student course review.",
+      "query_id": "wechat-index-010",
+      "operation_type": "public_index_search"
+    },
+    {
+      "query": "复旦 \"社会学导论\" 公众号 课评 徐珂",
+      "searched_at_utc": "2026-10-30T05:47:42Z",
+      "method": "public indexed web search",
+      "status": "completed_results_reviewed_historic_nonwechat_only",
+      "read_boundary": "Search snippets/results reviewed; no WeChat student review identified.",
+      "query_id": "wechat-index-011",
+      "operation_type": "public_index_search"
+    },
+    {
+      "query": "复旦社会学系 选课指南 社会学导论 课评",
+      "searched_at_utc": "2026-10-30T05:47:42Z",
+      "method": "public indexed web search",
+      "status": "completed_results_reviewed_lead_not_opened",
+      "read_boundary": "Fudan Manual course-selection page appeared as a search result, but was not opened or inspected; it is not a WeChat source.",
+      "query_id": "wechat-index-012",
+      "operation_type": "public_index_search"
+    }
+  ]
+}

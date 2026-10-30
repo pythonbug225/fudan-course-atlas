@@ -1,0 +1,245 @@
+{
+  "platform": "小红书",
+  "source_directory": "xhs_society_reader",
+  "coverage_file_present": true,
+  "evidence_file_present": true,
+  "unresolved_file_present": true,
+  "coverage": {
+    "schema_version": 1,
+    "platform": "小红书",
+    "queries": [
+      {
+        "query_id": "XHS-POST-696FAD8F-READ",
+        "operation_type": "source_read",
+        "query": "直接打开并核读《复旦社会学的三个学期》",
+        "course_codes": [
+          "SOCI30020h"
+        ],
+        "status": "completed",
+        "hit_count": 1,
+        "source_urls": [
+          "https://www.xiaohongshu.com/explore/696fad8f000000000d00b7ae"
+        ],
+        "post_title": "复旦社会学的三个学期",
+        "body_read": true,
+        "images_total": 3,
+        "images_reviewed": [
+          1,
+          2,
+          3
+        ],
+        "comments_status": "visible_empty",
+        "coverage_note": "正文、三张课程表配图及可见评论区域均已核读。正文的课程组泛评没有拆分给具体课程。"
+      },
+      {
+        "query_id": "XHS-POST-6A428825-PARTIAL",
+        "operation_type": "source_read",
+        "query": "直接打开并核读同作者《高考志愿填了社会学 两年后我想说……》及可见评论",
+        "course_codes": [
+          "SOCI30023"
+        ],
+        "status": "partial",
+        "hit_count": 1,
+        "source_urls": [
+          "https://www.xiaohongshu.com/explore/6a428825000000000702bece"
+        ],
+        "post_title": "高考志愿填了社会学 两年后我想说……",
+        "body_read": false,
+        "images_total": 12,
+        "images_reviewed": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "comments_total_displayed": 74,
+        "comments_read_status": "visible_subset_only",
+        "partial_reason": "后续图片截图读取超时；未读第5至第12张图片，且没有遍历全部74条评论。只采用页面当前可见的作者回复。",
+        "coverage_note": "部分完成状态不表示未检出或无评价。"
+      }
+    ]
+  },
+  "actual_query_rows": [],
+  "evidence_input_count": 2,
+  "accepted_evidence_count": 1,
+  "pending_evidence": [
+    {
+      "platform": "小红书",
+      "item": {
+        "course_code": "SOCI30023",
+        "course_name": "文化社会学",
+        "platform": "小红书",
+        "source_id": "6a428825000000000702bece",
+        "source_url": "https://www.xiaohongshu.com/explore/6a428825000000000702bece",
+        "title": "高考志愿填了社会学 两年后我想说……",
+        "date": null,
+        "date_text": "编辑于07-01；页面未显示年份",
+        "target_term": null,
+        "teacher": null,
+        "official_teacher_candidates": [
+          "杜世超",
+          "梅笑"
+        ],
+        "teacher_match": "评论没有提及授课教师；官方targets中该课号列有两位候选教师。",
+        "kind": "course_question_answer",
+        "record_category": "问课/资料/课程事务",
+        "summary": "有评论者直接询问文化社会学的修读体验，原帖作者回复‘课件即所学’，并说之后会整理笔记。该回复可说明作者谈的是这门课，但没有给出教师、学期、考核或总体满意度。",
+        "match_basis": "原帖作者在评论中直接回应一条点名‘文化社会学’修读体验的提问；官方targets中该课程唯一代码为SOCI30023。",
+        "confidence": "medium",
+        "full_text_read": false,
+        "images_reviewed": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "comments_read_status": "visible_subset_of_74",
+        "term_note": "这是第二篇同作者帖子评论中的短回复，不是完整课程评价。页面显示共74条评论；只读到可见评论子集。帖子主体为12张图片，已核对前4张；后续图片未读，未据此归纳。"
+      },
+      "status": "pending_platform_verification",
+      "pending_reason": [
+        "full_text_read is not true; search snippets/short summaries remain pending."
+      ]
+    }
+  ],
+  "unresolved": [
+    {
+      "source_id": "696fad8f000000000d00b7ae",
+      "source_url": "https://www.xiaohongshu.com/explore/696fad8f000000000d00b7ae",
+      "title": "复旦社会学的三个学期",
+      "kind": "group_level_course_comment",
+      "course_code_candidates": [
+        "SOCI20001"
+      ],
+      "course_name_candidates": [
+        "社会学导论"
+      ],
+      "comment_summary": "作者将大一课程整体描述为基础、简单、乏味、收获有限；同帖2024-2025学年第一学期课程表包含社会学导论，但没有单独评价这门课。",
+      "reason": "这是多门课程的总体感受，不能因课表出现SOCI20001就拆成该课的单独评价；且所涉学期为2024-2025学年第一学期，早于本轮目标学期。",
+      "status": "unresolved_group_and_out_of_scope_term",
+      "unresolved_group": "unresolved"
+    },
+    {
+      "source_id": "696fad8f000000000d00b7ae",
+      "source_url": "https://www.xiaohongshu.com/explore/696fad8f000000000d00b7ae",
+      "title": "复旦社会学的三个学期",
+      "kind": "group_level_course_comment",
+      "course_code_candidates": [
+        "SOCI30022",
+        "SOCI30023",
+        "SOCI30004"
+      ],
+      "course_name_candidates": [
+        "西方社会思想史",
+        "文化社会学",
+        "经济社会学"
+      ],
+      "target_term_candidates": [
+        "2025秋"
+      ],
+      "comment_summary": "作者对古典社会学理论以外的社会学专业课程作了笼统负面评价，称内容偏浅或范式不合；同帖2025-2026学年第一学期课表还列有上述三门社会学专业课。",
+      "reason": "没有把负面感受逐门对应到具体课名，不能分配给这三门课程中的任何一门。",
+      "status": "unresolved_group_comment",
+      "unresolved_group": "unresolved"
+    },
+    {
+      "source_id": "696fad8f000000000d00b7ae",
+      "source_url": "https://www.xiaohongshu.com/explore/696fad8f000000000d00b7ae",
+      "title": "复旦社会学的三个学期",
+      "kind": "out_of_scope_course_comment",
+      "course_code_candidates": [
+        "CS30043"
+      ],
+      "course_name_candidates": [
+        "集合与图论",
+        "ICS（未能确认官方课程名）"
+      ],
+      "comment_summary": "作者称CS方向的课程带来许多新知识，并举集合与图论和ICS为例。",
+      "reason": "CS30043不在本轮296门官方targets中；ICS也没有足够信息映射到目标课程代码。",
+      "status": "unresolved_outside_official_targets",
+      "unresolved_group": "unresolved"
+    },
+    {
+      "source_id": "6a428825000000000702bece",
+      "source_url": "https://www.xiaohongshu.com/explore/6a428825000000000702bece",
+      "title": "高考志愿填了社会学 两年后我想说……",
+      "kind": "author_comment_about_a_book",
+      "course_code_candidates": [
+        "SOCI20002"
+      ],
+      "course_name_candidates": [
+        "社会研究方法A"
+      ],
+      "comment_summary": "有评论者问读纽曼的《社会研究方法》很慢是否正常，作者回应其认为研究方法偏理工思维、重在会用，并建议不必回到原著。",
+      "reason": "讨论对象是一本方法类书和一般学习建议，没有指明复旦的社会研究方法A课程、班型、教师或学期，不作为课程修读评价。",
+      "status": "unresolved_book_not_course",
+      "unresolved_group": "unresolved"
+    },
+    {
+      "source_id": "6a428825000000000702bece",
+      "source_url": "https://www.xiaohongshu.com/explore/6a428825000000000702bece",
+      "title": "高考志愿填了社会学 两年后我想说……",
+      "kind": "unread_post_image_pages",
+      "course_code_candidates": [],
+      "comment_summary": "第二帖为12张图片的长文；已视觉核读第1至第4张。第5至第12张尚未读取。",
+      "reason": "后续配图读取超时；不根据未读图片推断课程名、教师或课程体验。",
+      "status": "unresolved_pending_read",
+      "unresolved_group": "unresolved"
+    }
+  ],
+  "actual_query_status_counts": {},
+  "framework_query_count": null,
+  "coverage_exhausted": false,
+  "source_read_rows": [
+    {
+      "query_id": "XHS-POST-696FAD8F-READ",
+      "operation_type": "source_read",
+      "query": "直接打开并核读《复旦社会学的三个学期》",
+      "course_codes": [
+        "SOCI30020h"
+      ],
+      "status": "completed",
+      "hit_count": 1,
+      "source_urls": [
+        "https://www.xiaohongshu.com/explore/696fad8f000000000d00b7ae"
+      ],
+      "post_title": "复旦社会学的三个学期",
+      "body_read": true,
+      "images_total": 3,
+      "images_reviewed": [
+        1,
+        2,
+        3
+      ],
+      "comments_status": "visible_empty",
+      "coverage_note": "正文、三张课程表配图及可见评论区域均已核读。正文的课程组泛评没有拆分给具体课程。"
+    },
+    {
+      "query_id": "XHS-POST-6A428825-PARTIAL",
+      "operation_type": "source_read",
+      "query": "直接打开并核读同作者《高考志愿填了社会学 两年后我想说……》及可见评论",
+      "course_codes": [
+        "SOCI30023"
+      ],
+      "status": "partial",
+      "hit_count": 1,
+      "source_urls": [
+        "https://www.xiaohongshu.com/explore/6a428825000000000702bece"
+      ],
+      "post_title": "高考志愿填了社会学 两年后我想说……",
+      "body_read": false,
+      "images_total": 12,
+      "images_reviewed": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "comments_total_displayed": 74,
+      "comments_read_status": "visible_subset_only",
+      "partial_reason": "后续图片截图读取超时；未读第5至第12张图片，且没有遍历全部74条评论。只采用页面当前可见的作者回复。",
+      "coverage_note": "部分完成状态不表示未检出或无评价。"
+    }
+  ],
+  "public_index_query_rows": []
+}

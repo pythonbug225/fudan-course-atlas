@@ -1,0 +1,21 @@
+{
+  "society_candidate_queue_status": {
+    "已完整核读": 2052,
+    "机器归类排除（未计全文核读）": 191
+  },
+  "society_first_pass_machine_exclusion_count": 30604,
+  "note": "候选池状态不代表全站穷尽；机器排除、阅读后排除、采用摘要分别记录。拼音与首字母的大量无关命中不计全文核读。",
+  "psychology_title_screening": {
+    "candidate_rows": 3159,
+    "unique_candidate_ids": 3159,
+    "already_full_read_ids": 1226,
+    "no_target_teacher_exact_title_ids": 2873,
+    "unread_title_only_before_machine": 2873,
+    "non_thesis_title_pool": 1167,
+    "machine_trade_excluded": 273,
+    "machine_image_only": 0,
+    "question_only_not_adopted": 296,
+    "no_substantive_course_cue": 587,
+    "review_candidates": 11
+  }
+}
