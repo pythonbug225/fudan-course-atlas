@@ -1,5 +1,5 @@
 const fs=require('node:fs'),path=require('node:path'),vm=require('node:vm'),assert=require('node:assert/strict');
-const root=path.resolve(__dirname,'../public'),read=f=>JSON.parse(fs.readFileSync(path.join(root,'data',f),'utf8'));
+const root=path.resolve(__dirname,'../public'),read=f=>require('../scripts/read-catalog.cjs')(path.join(root,'data',f));
 const cat=read('catalog.json'),reviews=read('review-supplement.json'),search=read('search.json');
 const groups=new Map(cat.scope.map(g=>[g.id,g])),select={innerHTML:''};
 const box={D:cat,document:{querySelector:()=>select}};

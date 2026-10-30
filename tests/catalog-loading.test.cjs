@@ -7,4 +7,8 @@ const root=path.resolve(__dirname,'..'),box={window:{}};vm.runInNewContext(fs.re
  await assert.rejects(()=>load(async n=>n==='catalog.json'?structuredClone(manifest):{scope:[]}));
  await assert.rejects(()=>load(async()=>({catalog_parts:['../private.json']})));
  const html=fs.readFileSync(path.join(root,'public/index.html'),'utf8');assert(html.indexOf('assets/catalog-loader.js')<html.indexOf('assets/app.js'));assert(fs.readFileSync(path.join(root,'public/assets/app.js'),'utf8').includes('CatalogLoader.load(fetchJSON)'));
- console.log('Catalog monolith compatibility, ordered chunk loading, missing chunks and index validation passed.');})();
+ const sourcePath=path.join(root,'public/data/catalog.json'),source=require('../scripts/read-catalog.cjs')(sourcePath);
+ const actual=await load(async n=>JSON.parse(fs.readFileSync(path.join(root,'public/data',n),'utf8')));
+ assert.deepEqual(JSON.parse(JSON.stringify(actual)),source);
+ for(const n of ['catalog.json',...JSON.parse(fs.readFileSync(sourcePath,'utf8')).catalog_parts])assert(fs.statSync(path.join(root,'public/data',n)).size<33554432);
+ console.log('Catalog monolith compatibility, source/browser equality, ordered chunk loading, missing chunks and size validation passed.');})();

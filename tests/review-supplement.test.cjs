@@ -1,9 +1,9 @@
 const fs=require('node:fs'),vm=require('node:vm'),assert=require('node:assert/strict'),path=require('node:path');
-const root=path.resolve(__dirname,'../public'),data=JSON.parse(fs.readFileSync(root+'/data/review-supplement.json','utf8')),cat=JSON.parse(fs.readFileSync(root+'/data/catalog.json','utf8'));
+const root=path.resolve(__dirname,'../public'),data=require('../scripts/read-catalog.cjs')(root+'/data/review-supplement.json'),cat=require('../scripts/read-catalog.cjs')(root+'/data/catalog.json');
 let passed=0;const ok=(v,m)=>{assert.ok(v,m);passed++};const ids=new Set(cat.scope.map(g=>g.id));
 ok(new Set(data.records.map(r=>r.id)).size===data.records.length,'record IDs unique');
-const serverIds=JSON.parse(fs.readFileSync(path.join(root,'../lib/course-ids.json'),'utf8'));ok(serverIds.length===ids.size&&serverIds.every(id=>ids.has(id)),'public catalog and upload API share the same course list');
-const coverage=JSON.parse(fs.readFileSync(root+'/data/research-coverage.json','utf8'));
+const serverIds=require('../scripts/read-catalog.cjs')(path.join(root,'../lib/course-ids.json'));ok(serverIds.length===ids.size&&serverIds.every(id=>ids.has(id)),'public catalog and upload API share the same course list');
+const coverage=require('../scripts/read-catalog.cjs')(root+'/data/research-coverage.json');
 ok(coverage.courses.length===ids.size&&new Set(coverage.courses.map(g=>g.id)).size===ids.size,'every course has a reading status');
 for(const g of coverage.courses){ok(g.read_direct_reviews+g.unread_direct_reviews===g.direct_reviews,'reading counts reconcile '+g.id);ok(g.teachers.every(t=>t.read_reviews<=t.direct_reviews),'teacher reading counts are bounded')}
 const chats=data.records.filter(r=>r.id.startsWith('chat'));

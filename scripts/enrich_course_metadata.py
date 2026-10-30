@@ -3,10 +3,11 @@ from pathlib import Path
 from collections import defaultdict,Counter
 import argparse,json,re,unicodedata
 import pdfplumber
+from catalog_io import read_catalog,write_catalog
 
 parser=argparse.ArgumentParser();parser.add_argument('--sources',required=True);parser.add_argument('--audit',required=True);args=parser.parse_args()
 P=Path(args.sources);D=Path(__file__).resolve().parents[1]/'public/data'
-def read(p):return json.loads(p.read_text('utf-8-sig'))
+def read(p):return read_catalog(p)
 def clean(s):return re.sub(r'\s+','',unicodedata.normalize('NFKC',s or '')).translate(str.maketrans({'⻢':'马','⻩':'黄','⻜':'飞','⻘':'青','⻓':'长','⻔':'门','⺠':'民','⻄':'西','⻅':'见','⻛':'风'}))
 cat=read(D/'catalog.json');rows=read(P/'catalog_expanded.json');plan=read(P/'sources/plan_courses.json')
 source_rows={(r['term'],r['code']):r for r in rows};departments={};audit=[];pages=defaultdict(list)
@@ -82,7 +83,7 @@ for g in cat['scope']:
     if g.get('history_only') and len(plan_credits.get(g['code'],[]))==1:
         g['plan_credits']=next(iter(plan_credits[g['code']]));g['credits_source']='培养方案课程行'
 cat['metadata_sources']={'credits':'按当前筛选范围内开课教学班学分展示；历史课程取明确方案课程行。','departments':'用户提供开课PDF的开课院系列与开课变更表；未用限选学生院系或教师任职单位推断。','english_levels':'2026级公共方案按明确课程代码列出的综合英语、进阶、高阶；未纳入三类清单的课程不按名称或代码猜分级。'}
-(D/'catalog.json').write_text(json.dumps(cat,ensure_ascii=False,separators=(',',':'))+'\n',encoding='utf8')
+write_catalog(D/'catalog.json',cat)
 report={'offers':sum(len(g['offerings']) for g in cat['scope']),'departments_confirmed':len(departments),'missing_offerings':audit,'department_names':dict(Counter(v[0] for v in departments.values())),'english_levels':{g['code']:g['english_level'] for g in cat['scope'] if g.get('english_level')},'english_conflicts':{k:sorted(v) for k,v in english.items() if len(v)>1}}
 Path(args.audit).write_text(json.dumps(report,ensure_ascii=False,indent=2),encoding='utf8')
 print(json.dumps({k:v for k,v in report.items() if k in ['offers','departments_confirmed','english_levels','english_conflicts']},ensure_ascii=False),flush=True)

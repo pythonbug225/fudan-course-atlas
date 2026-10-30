@@ -1,5 +1,5 @@
 const fs=require('node:fs'),vm=require('node:vm'),assert=require('node:assert/strict'),path=require('node:path');
-const root=path.resolve(__dirname,'../public'),read=f=>JSON.parse(fs.readFileSync(root+'/data/'+f,'utf8'));
+const root=path.resolve(__dirname,'../public'),read=f=>require('../scripts/read-catalog.cjs')(root+'/data/'+f);
 const cat=read('catalog.json'),summer=read('summer.json'),full=read('full-reviews.json'),idx=read('curated-reading.json'),sup=read('review-supplement.json');let passed=0;const ok=(v,m)=>{assert.ok(v,m);passed++};
 ok(summer.records.length===81&&summer.records.reduce((n,r)=>n+r.offerings.length,0)===100,'official summer PDF and live-index union preserved');
 ok(summer.records.filter(r=>r.recognition?.kind==='core').length===22,'core recognition rows');ok(summer.records.filter(r=>r.recognition?.kind==='english_2023_and_before').length===12,'English recognition cohort limitation');
@@ -10,7 +10,7 @@ const box={window:{},URL,encodeURIComponent,document:{addEventListener(){}},fetc
 for(const f of ['course-synthesis.js','course-meta.js','review-supplement.js','review-reader.js','summer.js'])vm.runInNewContext(fs.readFileSync(root+'/assets/'+f,'utf8'),box);
 (async()=>{await box.window.CourseSynthesis.init();await box.window.ReviewSupplement.init();await box.window.ReviewReader.init(cat);await box.window.SummerInfo.init();const get=code=>cat.scope.find(g=>g.code===code),rep=get('GEIP20006');
 ok(box.window.CourseSynthesis.card(rep,[],'2026暑')!==box.window.CourseSynthesis.card(rep,[],'2026春'),'summer and regular descriptions stay distinct');ok(box.window.CourseSynthesis.summary(rep,'孟永').includes('2026暑期')||box.window.CourseSynthesis.summary(rep,'孟永').includes('2026暑'),'summer-only teacher not assigned regular parallel-class judgement');
-const missing=cat.scope.find(g=>!g.student_evaluation.has_reviews);ok(box.window.CourseMeta.render(missing,missing.offerings).includes('暂无已归属本课的学生评价'),'no student feedback marked explicitly');
+const missing=cat.scope.find(g=>!g.student_evaluation.has_reviews);ok(box.window.CourseMeta.render(missing,missing.offerings).includes('暂无已核实学生评价'),'no student feedback marked explicitly');
 ok(box.window.SummerInfo.render(get('GEEC10315')).includes('不能替代'),'summer PE cannot satisfy required PE credits');ok(box.window.SummerInfo.render(get('GEIS10019')).includes('2023级及以前'),'summer English is not assigned to newer cohorts');
 const movie=sup.records.find(r=>r.id==='summer_xhs_movie_6865326f'),links=box.window.ReviewSupplement.sourceLinks(movie,get('GECC10044'));ok(links.includes('/explore/6865326f')&&links.includes('/search_result?keyword='),'external original and title-search alternative included');
 const target=idx.courses.find(g=>g.long_reviews.some(r=>r.review_id===4345)),g=cat.scope.find(g=>g.id===target.course_id),rendered=box.window.ReviewReader.render(g);ok(rendered.includes('完整原评')&&rendered.includes(full.records[4345].author_label),'rendered reader includes complete body and author');console.log(JSON.stringify({passed,courses:cat.scope.length,full_originals:Object.keys(full.records).length}));})().catch(e=>{console.error(e);process.exitCode=1});

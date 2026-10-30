@@ -27,6 +27,7 @@
         html+='<article class="enrollment-row" data-enrollment-section="'+esc(r.section_code)+'"><div class="enrollment-row-top"><b>'+esc(r.teachers.join('、')||'教师未注明')+'</b><strong>'+r.std_count+' / '+(hasCap?r.limit_count:'未注明')+' 人</strong></div><div class="enrollment-bar" aria-hidden="true"><i style="width:'+(hasCap?Math.min(100,ratio*100):0)+'%"></i></div><p class="enrollment-caption">'+esc(r.section_code)+' · '+(hasCap?'容量使用率 '+(ratio*100).toFixed(1)+'%'+(ratio>1?'（系统返回人数超过返回上限）':''):'容量未注明，不计算比例')+(allGroup.length>1&&share!==null?' · 本组人数占比 '+(share*100).toFixed(1)+'%':'')+'</p>';
         if(!hasCap&&r.planned_capacity)html+='<p class="meta">课程表预排人数 '+esc(r.planned_capacity)+'；不作为当前系统上限。</p>';
         if(r.snapshot_as_of)html+='<p class="meta">该班快照：'+esc(r.snapshot_as_of)+'</p>';
+        if(r.capacity_snapshot_as_of&&r.capacity_snapshot_as_of!==r.snapshot_as_of)html+='<p class="meta">人数上限快照：'+esc(r.capacity_snapshot_as_of)+'</p>';
         if(r.schedule_hint)html+='<details class="enrollment-schedule"><summary>上课时间与地点</summary><p>'+esc(r.schedule_hint)+'</p></details>';
         html+='</article>';
       }

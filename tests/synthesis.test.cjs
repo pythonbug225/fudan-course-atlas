@@ -1,5 +1,5 @@
 const fs=require('node:fs'),vm=require('node:vm'),assert=require('node:assert/strict'),path=require('node:path');
-const root=path.resolve(__dirname,'../public'),read=f=>JSON.parse(fs.readFileSync(root+'/data/'+f,'utf8'));
+const root=path.resolve(__dirname,'../public'),read=f=>require('../scripts/read-catalog.cjs')(root+'/data/'+f);
 const data=read('course-summaries.json'),catalog=read('catalog.json'),reader=read('curated-reading.json'),supplement=read('review-supplement.json');
 let passed=0;const ok=(v,m)=>{assert.ok(v,m);passed++};
 ok(data.records.length===catalog.scope.length&&new Set(data.records.map(r=>r.id)).size===catalog.scope.length,'all courses have exactly one rewritten synthesis');

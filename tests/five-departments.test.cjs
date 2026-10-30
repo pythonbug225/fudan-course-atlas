@@ -1,5 +1,5 @@
 const fs=require('node:fs'),path=require('node:path'),vm=require('node:vm'),assert=require('node:assert/strict');
-const root=path.resolve(__dirname,'../public');const read=n=>JSON.parse(fs.readFileSync(path.join(root,'data',n+'.json'),'utf8'));
+const root=path.resolve(__dirname,'../public');const read=n=>require('../scripts/read-catalog.cjs')(path.join(root,'data',n+'.json'));
 const cat=read('catalog'),sup=read('review-supplement'),full=read('full-discussions'),en=read('enrollment'),search=read('search');
 const select={innerHTML:''},box={D:cat,document:{querySelector:()=>select}};
 vm.runInNewContext(fs.readFileSync(path.join(root,'assets/taxonomy.js'),'utf8')+';this.taxonomy=CourseTaxonomy;',box);box.taxonomy.init(cat);

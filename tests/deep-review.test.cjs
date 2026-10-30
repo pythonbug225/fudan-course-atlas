@@ -1,5 +1,5 @@
 const fs=require('node:fs'),assert=require('node:assert/strict'),path=require('node:path');
-const d=path.resolve(__dirname,'../public/data'),sup=JSON.parse(fs.readFileSync(d+'/review-supplement.json','utf8')),idx=JSON.parse(fs.readFileSync(d+'/search.json','utf8')).entries;
+const d=path.resolve(__dirname,'../public/data'),sup=require('../scripts/read-catalog.cjs')(d+'/review-supplement.json'),idx=require('../scripts/read-catalog.cjs')(d+'/search.json').entries;
 let passed=0;const ok=(x,m)=>{assert.ok(x,m);passed++};
 const model=sup.records.find(r=>r.id==='679510-2026spring-wangyue');
 ok(model?.course_ids.join()==='C0049'&&model.teacher==='王玥','WY model full review correctly attributed');
