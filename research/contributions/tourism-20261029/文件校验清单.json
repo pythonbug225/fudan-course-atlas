@@ -1,13 +1,203 @@
 [
   {
     "path": ".gitattributes",
-    "bytes": 249,
-    "sha256": "8eb309ec47fb9387f29e0dbc6f9e630bb714c8347e41a8dca4b5e84e4809b429"
+    "bytes": 257,
+    "sha256": "4b6cf7de050c4a1d070f2a43c476d7d247284664dc17c998c36d2aed939f5238"
+  },
+  {
+    "path": "raw/course-groups/danke-group-1014.json.gz",
+    "bytes": 1398,
+    "sha256": "eb79d92816dd4c28ae6f69d162b491c0d1346814613b9640d0477f8d5e2be49b"
+  },
+  {
+    "path": "raw/course-groups/danke-group-1947.json.gz",
+    "bytes": 8464,
+    "sha256": "128082a278547dfc5c00d7245719b447830839b52a60769c215d32c1cadf781f"
+  },
+  {
+    "path": "raw/course-groups/danke-group-1994.json.gz",
+    "bytes": 1859,
+    "sha256": "09d04943aac73ad36a62805293eb4e737bd382f0ef6a5f3e4e837bcdb0416919"
+  },
+  {
+    "path": "raw/course-groups/danke-group-2258.json.gz",
+    "bytes": 2531,
+    "sha256": "82f558eb1bf28da83a25058a5a0adfd06f304802053e4bc49109c6c42875adb4"
+  },
+  {
+    "path": "raw/course-groups/danke-group-3492.json.gz",
+    "bytes": 12362,
+    "sha256": "77e33ea4b5f93ea6adce210ead5b82f60326179dfaa1c8138269033d2a504f8e"
+  },
+  {
+    "path": "raw/course-groups/danke-group-3536.json.gz",
+    "bytes": 747,
+    "sha256": "7adbfdb44f4fa0e44ead03407295a83a33d0a15a904e4799551b93a4b7a31370"
+  },
+  {
+    "path": "raw/course-groups/danke-group-6178.json.gz",
+    "bytes": 3771,
+    "sha256": "e17c5beccfe6222b02687a80eb9c0fc1e7c73d6497cfc5a7693a62422cf3ed78"
+  },
+  {
+    "path": "raw/course-groups/danke-group-6189.json.gz",
+    "bytes": 756,
+    "sha256": "8267856d0810f04ae45132b3e55243de6f624afdb68833541ff1c993261c3454"
+  },
+  {
+    "path": "raw/course-groups/danke-group-6463.json.gz",
+    "bytes": 1009,
+    "sha256": "8c2bd2e36c7f27593c3341474b1e81fb84c4a6d085a69d836a006ca7e12d8f83"
+  },
+  {
+    "path": "raw/course-groups/danke-group-7703.json.gz",
+    "bytes": 600,
+    "sha256": "7f3cb2714682d6556f13bb5ea99618bbc69dfa7785c06184ea8b435553a4ef75"
+  },
+  {
+    "path": "raw/course-groups/danke-group-7716.json.gz",
+    "bytes": 1771,
+    "sha256": "8b3215d886c94466f4c52041c71ec3dd6ce649b58d10e8d527b07174c4dfd90c"
+  },
+  {
+    "path": "raw/danke_details_ledger.json.gz",
+    "bytes": 9503,
+    "sha256": "2bbebcc8fae8046dfa53e096cb620b640e61b508623595b83e74b752af0f8325"
+  },
+  {
+    "path": "raw/danke_details_results.json.gz",
+    "bytes": 18817,
+    "sha256": "21b7d8f3ca80cf12975f71b15bb6f96fa53a58b44735212db63d180beeb06cf4"
+  },
+  {
+    "path": "raw/danke_search_ledger.json.gz",
+    "bytes": 21585,
+    "sha256": "b6348b390d6c13c63114f5174a5422b18a02d6061b4a1c948c1caaa22d5f92de"
+  },
+  {
+    "path": "raw/danke_search_results.json.gz",
+    "bytes": 11628,
+    "sha256": "abbf1f3f58cb2cefe89f09c9e93fc8778af594ab9e05d951971e906991a6a97a"
+  },
+  {
+    "path": "raw/excluded-queries.json",
+    "bytes": 224,
+    "sha256": "609f0dcdee6d3c203b8ada7886d66b71f080afb37267dfa3b619b8d180af4f35"
+  },
+  {
+    "path": "raw/forum_context_ledger.json.gz",
+    "bytes": 11052,
+    "sha256": "839897de4e03cac58cb7ec3ec34db94d3b48b7a8786d18d23ec580e76181fa92"
+  },
+  {
+    "path": "raw/forum_context_results.json.gz",
+    "bytes": 117163,
+    "sha256": "fcbbc8781d972246809acf4e4bd6a3e668c497868ae5046acbb0c2a684080397"
+  },
+  {
+    "path": "raw/forum_search_ledger.json.gz",
+    "bytes": 72329,
+    "sha256": "beac56b93b2b78f573fc35b4b1e08fa77af3669adffa0ea45cec6010b7873a06"
+  },
+  {
+    "path": "raw/forum_search_results.json.gz",
+    "bytes": 662243,
+    "sha256": "47f5c3135da3f85021d3cfb103a23a7e89bda5e8e523baf7f96b96945db1e849"
+  },
+  {
+    "path": "raw/manifest.json",
+    "bytes": 26578,
+    "sha256": "7f5433b4a7baf02f407e0d8bc250c20872d113268c516cd0590ed65fa715e90f"
+  },
+  {
+    "path": "raw/query-plans/danke_queries.json.gz",
+    "bytes": 25496,
+    "sha256": "19e36a36b4a704a27e685728a33926b00007168a49f9c4bf6e5cef66d8572285"
+  },
+  {
+    "path": "raw/query-plans/forum_queries.json.gz",
+    "bytes": 27705,
+    "sha256": "8a862d396bf9148f158354258f8892eabc7232448d9c1cbe935a3b3438170440"
+  },
+  {
+    "path": "raw/reading-ledgers/danke_group_counts.json.gz",
+    "bytes": 152,
+    "sha256": "1ec68694f19ffc0fe0a4260eeb64cb9d8037220b66796bd1d5d8fe8282937478"
+  },
+  {
+    "path": "raw/reading-ledgers/excluded_query.json.gz",
+    "bytes": 192,
+    "sha256": "1f04f2de172cd6c971ea1864451ce5b10e38d7cfc14e1bf1f0e4b319e605ab49"
+  },
+  {
+    "path": "raw/reading-ledgers/observed_alias_manifest.json.gz",
+    "bytes": 319,
+    "sha256": "656bde7bc2f9b9c261e3ad11951878fc877da041ef457ad37e7dd930e239b139"
+  },
+  {
+    "path": "raw/reading-ledgers/reading_context_official_002.json.gz",
+    "bytes": 3851,
+    "sha256": "36d9c4d6a598e9f79ef0ef6dab3058bc8f9fd344006065e2bff1f69aa118280b"
+  },
+  {
+    "path": "raw/reading-ledgers/reading_context_public_004.json.gz",
+    "bytes": 2471,
+    "sha256": "e14ff177fcdf4c854a0b038f48fa1af50ff3f7ebea2880adbcf33678363fec73"
+  },
+  {
+    "path": "raw/reading-ledgers/reading_context_root_002.json.gz",
+    "bytes": 1937,
+    "sha256": "debdb90dc2c63c4c703911f83c2a5801cfba1887239c2b4ab23e183c796b1caf"
+  },
+  {
+    "path": "raw/reading-ledgers/reading_context_root_003.json.gz",
+    "bytes": 1388,
+    "sha256": "9857432d1b6c72b2a5a798a944cd541b57f1aeb6099461eff7d655a7c78c712d"
+  },
+  {
+    "path": "raw/reading-ledgers/reading_context_social_002.json.gz",
+    "bytes": 3926,
+    "sha256": "8104fdae3a1bc347012ca821ca65bc55a0fea3e95ce0fc5c493fd4291fe44226"
+  },
+  {
+    "path": "raw/reading-ledgers/reading_danke_root.json.gz",
+    "bytes": 1218,
+    "sha256": "65cee93096190bafc5d8e83450d55d16ae6530e2f64f9b658319611389c4b456"
+  },
+  {
+    "path": "raw/reading-ledgers/reading_official_001.json.gz",
+    "bytes": 2935,
+    "sha256": "01e6f53687fc75d09fb158515cca48f2f308e9eaf7c9bdf353917038dc2b1493"
+  },
+  {
+    "path": "raw/reading-ledgers/reading_official_003.json.gz",
+    "bytes": 1797,
+    "sha256": "02ca3dea47f14ed5ff77fba1b0edd65bd3547db67b803acc1d76d6a3b9dfadfd"
+  },
+  {
+    "path": "raw/reading-ledgers/reading_official_004.json.gz",
+    "bytes": 1687,
+    "sha256": "a50f13016ef6e853888c2fc378ccf66c6d90dffb355e1adda24e729590502177"
+  },
+  {
+    "path": "raw/reading-ledgers/reading_root_001.json.gz",
+    "bytes": 1537,
+    "sha256": "6c3c390f68bbdf4883cd4db88965ce654115275ba983aa019556d749435999ee"
+  },
+  {
+    "path": "raw/reading-ledgers/reading_social_002.json.gz",
+    "bytes": 3026,
+    "sha256": "cb1822535fce42a2ca171e53dc420d2bc1941770724b078ccc88acb663ab2715"
+  },
+  {
+    "path": "raw/README.md",
+    "bytes": 3279,
+    "sha256": "bfd83908e53b058d7cad2b4bde9bf003a1f3418a2b2660c4415e18b41d85e6d5"
   },
   {
     "path": "README.md",
-    "bytes": 5471,
-    "sha256": "c5d2389ee164844e20469689343f4d13ad3a3feba77950fcf13f076bad7cd7cf"
+    "bytes": 6217,
+    "sha256": "4a855f6b243f52f6f021b78d5687d04268747e6d56c0b652349f4bdd28dcc81f"
   },
   {
     "path": "公开平台检索/public/public_research.json",
