@@ -1,0 +1,132 @@
+<!doctype html><html lang="zh-CN"><meta charset="utf-8"><title>数据可视化应用及实现</title><body><h1>数据可视化应用及实现</h1><p>2026秋 · STAT50027.01 · 陈思明</p><p>来源：复旦教务系统教学大纲，本轮使用已授权账号下载。原始正文与考核信息；去除联系方式和网页脚本，内嵌图片按原字节去重保存。</p><h2>课程简介（中文）</h2><p>本课程按“道—术—用”三层讲授大数据可视化与可视分析：数据基础、视觉心理与设计、交互与D3.js编程；高维、时序、时空、图与层次数据可视化；可视分析方法论及社交媒体、金融科技、数字人文等应用与AI前沿。配套自编国家级规划教材与交互式智慧课件，通过编程实践、翻转课堂与分组系统开发答辩培养实战能力。</p><h2>课程简介（英文）</h2><p>This course offers a systematic introduction to big data visualization and visual analytics, organized in three layers. <em>Foundations</em> cover the history of visualization, data abstraction and preprocessing, visual perception and design principles, interaction and animation, and programming with D3.js and Vega-Lite. <em>Methods</em> cover the visualization of high-dimensional, temporal, geospatial, scientific, graph and hierarchical data. <em>Applications</em> cover the visual analytics methodology and its use in social media, fintech, digital humanities and scientific simulation, closing with the frontier of AI and visualization (AI4VIS, VIS4AI, NL2VIS). Teaching is supported by the instructor’s national planning textbook and a self-developed interactive courseware with in-browser demonstrations, quizzes and gamified exercises. Students learn through programming assignments, a flipped classroom with a simulated visualization conference, and a team project in which they build, evaluate and defend a working visual analytics system.</p><h2>教学目标</h2><p>课程面向数据科学与统计学研究生。<strong>知识上</strong>，建立“道—术—用”的可视化与可视分析知识体系，掌握视觉编码、交互设计与各类数据的可视化方法；<strong>能力上</strong>，能独立完成从数据处理、可视化设计到系统实现与评估的全流程，用可视化表达洞察、支撑复杂决策；<strong>价值上</strong>，通过国计民生领域的真实案例，引导学生关注国家重大需求与数据安全，树立自主创新意识与科技报国情怀，学会用数据讲好中国故事，坚守数据呈现的科学性与伦理。</p><h2>教学方式</h2><p>1. <strong>讲授与交互式课件结合</strong>：教师系统讲授核心原理，配合自建交互式智慧课件（覆盖教材17章，含60余个在线交互演示、150余道即时测验与50余个互动闯关）在课堂现场演示与即时反馈，支持课前预习、课中互动与课后复习。</p>
+<p>2. <strong>编程实践</strong>：每一模块配套 D3.js / Python 实验课（Tutorial），学生在课上与课后完成可运行的可视化作品，助教一对一答疑。</p>
+<p>3. <strong>翻转课堂与“模拟可视化会议”</strong>：学生分组研读 IEEE VIS / ACM CHI 等前沿论文并做学术报告，自行组织海报与答辩环节，模拟真实学术会议流程。</p>
+<p>4. <strong>项目驱动</strong>：以国计民生领域的真实数据集为牵引，分组完成可视分析系统的选题、设计、实现、评估与答辩，教师全程指导。</p>
+<p>5. <strong>案例研讨与课程思政</strong>：结合网络安全、智慧城市、金融风控、数字人文等真实案例组织研讨，讨论数据呈现的科学性、误导性与伦理边界。</p><h2>教学内容与进度安排</h2><table>
+<thead>
+<tr>
+<th>教学周<br>Week</th>
+<th>学时<br>Hours</th>
+<th>教学内容与教学目标<br>Content &amp; Objectives</th>
+<th>作业/考核<br>Assignment</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>3</td>
+<td>绪论：走进可视化世界（教材第1章）。可视化与可视分析的定义、价值与学科版图；从洞穴壁画、南丁格尔玫瑰图到现代交互系统的发展脉络；以“数据侦探”案例导入。<br>目标：理解基本概念，建立可视化思维。</td>
+<td>课堂完成智慧课件第1章互动闯关；组建期末项目小组</td>
+</tr>
+<tr>
+<td>2</td>
+<td>3</td>
+<td>可视化的数据基础（第2章）。数据属性与类型、数据组织与预处理、描述统计与相关分析、数据抽象。<br>目标：能对真实数据集完成清洗、抽象与统计刻画。</td>
+<td>作业1：数据探索与数据抽象报告</td>
+</tr>
+<tr>
+<td>3</td>
+<td>3</td>
+<td>可视化的心理学与设计基础（第3章）。视觉生理、前注意加工、格式塔法则、视觉错觉、视觉变量与视觉映射、设计评估。<br>目标：能依据感知原理判断并改进可视化设计。</td>
+<td>智慧课件第3章章节测验</td>
+</tr>
+<tr>
+<td>4</td>
+<td>3</td>
+<td>可视化的交互与动画基础（第4章）。交互的本质与界面范式、刷选-链接等基本交互类型、动画在叙事与认知中的作用。<br>目标：掌握常用交互模式并能合理选用。</td>
+<td> </td>
+</tr>
+<tr>
+<td>5</td>
+<td>3</td>
+<td>可视化编程基础（第5章）+ 实验课。HTML/CSS/JS 三件套、D3.js 数据绑定与比例尺、Vega-Lite 与可视化工具生态。<br>目标：能独立搭建 Web 可视化开发环境并实现基本图表。</td>
+<td>作业2：D3.js 基础编程（交互式柱状图/散点图）</td>
+</tr>
+<tr>
+<td>6</td>
+<td>3</td>
+<td>高维数据可视化与可视分析（第6章）。雷达图、平行坐标、散点图矩阵；PCA、MDS、t-SNE 降维与投影解释。<br>目标：能针对高维数据选择并实现合适的可视化。</td>
+<td> </td>
+</tr>
+<tr>
+<td>7</td>
+<td>3</td>
+<td>时序数据可视化与可视分析（第7章）。折线图、堆叠图、日历热力图、螺旋图与周期表示；DTW 与模式发现。<br>目标：掌握时间数据的编码与模式识别方法。</td>
+<td>作业3：D3.js 时序与平行坐标可视化</td>
+</tr>
+<tr>
+<td>8</td>
+<td>3</td>
+<td>地理时空数据可视化（第8章）。地图投影与符号系统、等值区域图、OD 流可视化、时空立方体与轨迹分析。<br>目标：能处理地理数据并实现地图可视化。</td>
+<td> </td>
+</tr>
+<tr>
+<td>9</td>
+<td>3</td>
+<td>科学数据可视化（第9章）。标量场与流场、颜色映射、等值面、流线与体绘制、特征提取。<br>目标：理解科学可视化的基本管线与代表方法。</td>
+<td>作业4：地理时空可视化</td>
+</tr>
+<tr>
+<td>10</td>
+<td>3</td>
+<td>图数据可视化（第10章）。力导向布局、邻接矩阵、社区检测、边捆绑与大规模图简化。<br>目标：能实现并评价图可视化布局。</td>
+<td> </td>
+</tr>
+<tr>
+<td>11</td>
+<td>3</td>
+<td>层次数据可视化（第11章）。节点-链接树、矩形树图、旭日图、圆堆图与层次聚合。<br>目标：掌握层次结构的空间填充式表达。</td>
+<td>期末项目开题：数据集、问题定义与任务分析</td>
+</tr>
+<tr>
+<td>12</td>
+<td>3</td>
+<td>可视分析方法论（第12章）。可视分析流水线、人在回路、态势感知；监控、探索、比较、溯因、预测、决策六大分析模式与系统构建方法论。<br>目标：能设计一个完整可视分析系统的架构。</td>
+<td> </td>
+</tr>
+<tr>
+<td>13</td>
+<td>3</td>
+<td>社交媒体可视分析（第13章）。影响力网络、信息传播模拟、情感分析与时空热力图；舆情分析真实案例。<br>目标：理解社会媒体数据的分析流程与呈现方法。</td>
+<td>期末项目中期检查</td>
+</tr>
+<tr>
+<td>14</td>
+<td>3</td>
+<td>金融科技可视分析（第14章）。K 线图、金融知识图谱、基金筛选、区块链与交易异常检测。<br>目标：理解可视分析在金融风控与决策中的作用。</td>
+<td> </td>
+</tr>
+<tr>
+<td>15</td>
+<td>3</td>
+<td>数字人文可视化（第15章）。历史人物轨迹、古典文学意象、文物关联与数据故事叙述。<br>目标：能用可视化叙事表达人文数据中的洞察。</td>
+<td>叙事可视化小作业：用数据讲好中国故事</td>
+</tr>
+<tr>
+<td>16</td>
+<td>3</td>
+<td>科学模拟数据可视分析（第16章）。参数空间探索、集合（ensemble）可视化、不确定性表达。<br>目标：理解面向模拟数据的高级可视分析方法。</td>
+<td> </td>
+</tr>
+<tr>
+<td>17</td>
+<td>3</td>
+<td>未来趋势：人工智能与可视分析深度融合（第17章）。AI4VIS、VIS4AI、NL2VIS、大模型驱动的可视分析与人机协同前沿。<br>目标：把握学科前沿，具备文献研读与学术表达能力。</td>
+<td>“模拟可视化会议”：分组论文报告与海报评议</td>
+</tr>
+<tr>
+<td>18</td>
+<td>3</td>
+<td>期末项目答辩与课程总结。各组演示自建可视分析系统，接受师生提问与互评；回顾“道—术—用”知识体系。<br>目标：完成从问题到系统的完整闭环。</td>
+<td>期末项目：系统演示答辩 + 课程论文提交</td>
+</tr>
+</tbody>
+</table>
+<p>合计：18 教学周，54 学时（含课内实验/上机与研讨环节）。</p><h2>教学参考资料</h2><p>1. Tamara Munzner. <em>Visualization Analysis and Design</em>. CRC Press, 2014. ISBN 978-1466508910.</p>
+<p>2. 陈为, 张嵩, 鲁爱东. 《数据可视化的基本原理与方法》. 科学出版社, 2013. ISBN 978-7-03-037488-2.</p>
+<p>3. Scott Murray 著, 李松峰 译. 《数据可视化实战：使用D3设计交互式图表》. 人民邮电出版社, 2013. ISBN 978-7-115-32011-7.</p>
+<p>4. Robert Spence 著, 陈雅茜 译. 《信息可视化——交互设计》. 机械工业出版社, 2011. ISBN 978-7-111-36246-3.</p>
+<p>5. Casey Reas, Ben Fry 著, 陈思明, 聂奕凝, 郭浩赟 译. 《爱上Processing》. 人民邮电出版社, 2017. ISBN 978-7-115-45439-3.</p>
+<p>6. 本课程自建《大数据可视化与可视分析》交互式智慧教材网站：17章交互演示、章节测验与互动闯关，配套讲义与代码仓库。</p>
+<p>7. 前沿论文研读：IEEE TVCG、IEEE VIS、ACM CHI、EuroVis、IEEE PacificVis、ChinaVis 近三年代表性论文（课堂研讨与模拟会议用）。</p>
+<p>8. 在线资源：D3.js 官方文档 https://d3js.org ；Vega-Lite https://vega.github.io/vega-lite/ ；Observable https://observablehq.com ；IEEE VAST Challenge 历年数据集。</p><h2>考核与成绩构成</h2><table><tr><th>项目</th><th>比例</th><th>评定说明</th></tr><tr><td>出勤Attendance</td><td>10.0%</td><td>课堂签到与出勤记录</td></tr><tr><td>课堂表现Participation</td><td>10.0%</td><td>课堂提问与研讨参与度、交互式课件章节测验与闯关完成情况</td></tr><tr><td>作业/实验/实践Assignment</td><td>40.0%</td><td>4 次 D3.js 编程作业与叙事可视化小作业的完成度、正确性与设计质量</td></tr><tr><td>汇报Presentation</td><td>10.0%</td><td>模拟可视化会议的论文报告与海报评议表现</td></tr><tr><td>课题论文Research Paper</td><td>30.0%</td><td>期末可视分析系统的实现质量、课程论文与答辩表现</td></tr></table></body></html>

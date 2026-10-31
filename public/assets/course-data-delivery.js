@@ -1,0 +1,1 @@
+window.COURSE_DATA_COMPRESSED=false;

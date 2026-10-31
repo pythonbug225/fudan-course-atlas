@@ -1,0 +1,172 @@
+<!doctype html><html lang="zh-CN"><meta charset="utf-8"><title>计算等离子体物理</title><body><h1>计算等离子体物理</h1><p>2026秋 · PHYS50017.01 · 龚少博、王占辉</p><p>来源：复旦教务系统教学大纲，本轮使用已授权账号下载。原始正文与考核信息；去除联系方式和网页脚本，内嵌图片按原字节去重保存。</p><h2>课程简介（中文）</h2><p>课程内容包括：1.引言（等离子体基础概述、等离子体物理基本方程、基本数值模拟方法等）；2.空间离散方法（有限差分、有限体积、有限元和谱方法）；3.时间积分与数值稳定性；4.磁流体动力学MHD模拟；5.单带电粒子在电磁场中运动；6.回旋动理学模拟；7.粒子碰撞与输运模拟；8.多时空尺度集成模拟方法；9.AI等离子体模拟方法。10.等离子体数值模拟上机练习主要以课下练习为主，并设计在平时作业及习题课中。11.汇报为针对课程设计的实践课题或自选相关实践课题进行调研。12.论文为选取实践课题中等离子体物理相关问题并进行数值模拟研究，论文题目需经任课老师同意。</p><h2>课程简介（英文）</h2><p>The course content includes:</p>
+<ol>
+<li>Introduction (Overview of plasma fundamentals, basic equations of plasma physics, basic numerical simulation methods, etc.);</li>
+<li>Spatial discretization methods (finite difference, finite volume, finite element, and spectral methods);</li>
+<li>Time integration and numerical stability;</li>
+<li>Magnetohydrodynamics (MHD) simulation;</li>
+<li>Motion of single charged particles in electromagnetic fields;</li>
+<li>Gyrokinetic simulation;</li>
+<li>Particle collision and transport simulation;</li>
+<li>Multi-scale integrated simulation methods;</li>
+<li>AI-based plasma simulation methods.</li>
+<li>The computer practice of plasma numerical simulation mainly focuses on exercises outside of class and is designed for regular homework and problem-solving sessions.</li>
+<li>Reports involve investigating practical topics related to the course design or self-selected related practical topics.</li>
+<li>The thesis involves selecting plasma physics-related issues from practical topics and conducting numerical simulation research, and the thesis title must be approved by the course instructor.</li>
+</ol><h2>教学目标</h2><p>本课程是等离子体物理、数值分析、高性能计算、人工智能等多领域交叉，需要掌握多领域背景知识。本课程目的是让研究生掌握等离子体数值模拟的基本思想与方法，并利用计算机模拟方法解决等离子体物理问题，了解等离子体模拟的主要脉络与发展前沿技术，熟悉磁约束聚变等离子体、空间等离子体、低温等离子体方面的数值模拟应用实例，提高解决等离子体物理问题的计算机编程、数据分析等实践能力。此外，教授学生对计算等离子体物理专业课题开展调研、建模、数值模拟、分析和验证研究的基本方法，打下一定基础。</p><h2>教学方式</h2><p>以线下课堂讲授及实验室实践为主</p><h2>教学内容与进度安排</h2><p>总学时54，其中15学时为实践学时，考试周为2周:期末复习及考试(6学时)。除去考试周和实践学时，授课学时为33学时，具体教学内容与进度安排如下:</p>
+<p><strong>第一章 计算等离子体基本框架与方法  12学时  （第1-4教学周）</strong></p>
+<p>第1周：绪论</p>
+<p><strong>主要内容：</strong>等离子体定义、基本特性（准中性、集体行为）、德拜长度、等离子体频率、磁化与非磁化等离子体、等离子体基本方程、计算等离子体发展历程、不同等离子体领域的数值模拟概况。</p>
+<p><strong>教学目标：</strong>复述等离子体核心物理概念，总结归纳等离子体方程（如连续方程、动量方程等）。</p>
+<p>第2周：空间离散方法（有限差分）</p>
+<p><strong>主要内容：</strong>一维/二维有限差分格式（显式/隐式）、差分精度分析、边界条件处理。</p>
+<p><strong>教学目标：</strong>能针对实践课题的具体工程和物理问题，独立构建等离子体物理方程的有限差分格式，分析离散误差。</p>
+<p>第3周：空间离散方法（有限体积、有限元和谱方法）</p>
+<p><strong>主要内容：</strong>守恒律的有限体积法、有限元原理、快速傅里叶变换在谱方法中的应用。</p>
+<p><strong>教学目标：</strong>对比不同空间离散方法的优缺点，找到适用于实践课题应用场景的离散方法。</p>
+<p>第4周：时间积分与数值稳定性</p>
+<p><strong>主要内容：</strong>显式/隐式积分器（如Runge-Kutta、Crank-Nicolson）、CFL稳定性条件、数值耗散与色散，布置课后作业要求学生编写一维含源对流扩散项的粒子输运偏微分方程求解（不使用AI工具）。</p>
+<p><strong>教学目标：</strong>能针对实践课题的具体工程和物理问题，设计稳定高效的时间推进方案，避免数值发散。</p>
+<p> </p>
+<p><strong>第二章 等离子体流体和粒子模拟  12学时  （第5-8教学周）</strong></p>
+<p>第5周：流体输运模型 &amp; MHD模拟</p>
+<p><strong>主要内容：</strong>含源等离子体多流体方程组、磁流体方程组，MHD平衡位形（托卡马克）、撕裂模/气球模不稳定性、专业输运及MHD程序应用剖析</p>
+<p><strong>教学目标：</strong>掌握等离子体宏观流体尺度模拟的核心守恒方程组及计算求解方法，能根据计算模拟结果分析MHD平衡与失稳物理机制。</p>
+<p>第6周：单粒子模拟与PIC方法</p>
+<p><strong>主要内容：</strong>带电粒子在电磁场中的运动方程、带电粒子计算方法、磁化等离子体导心运动计算方法、PIC算法流程（电荷分配、场求解）、专业PIC程序应用剖析。</p>
+<p><strong>教学目标：</strong>实现带电粒子在电磁场中的运动模拟，理解PIC的统计采样原理。</p>
+<p>第7周：回旋动理学模拟</p>
+<p><strong>主要内容：</strong>回旋轨道运动平均方法、漂移近似、回旋动理学方程导引、线性及非线性回旋动理学程序介绍。</p>
+<p><strong>教学目标：</strong>掌握处理强磁场中粒子回旋运动的回旋动理学算法。</p>
+<p>第8周：粒子碰撞与输运模拟</p>
+<p><strong>主要内容：</strong>库伦碰撞、蒙特卡洛碰撞模型、Vlasov 方程、Fokker-Planck方程数值计算求解、Delta-f算法。</p>
+<p><strong>教学目标：</strong>模拟粒子间碰撞效应，复述碰撞产生的各种源项计算过程，评估粒子碰撞输运系数（如扩散率）。</p>
+<p> </p>
+<p><strong>第三章 先进等离子体模拟方法  6学时  （第9、10教学周）</strong></p>
+<p>第9周：多尺度物理集成方法与应用案例</p>
+<p><strong>主要内容：</strong>不同算法耦合（如PIC粒子-MHD流体）、快慢时间分割法、磁约束聚变中的MHD湍流与输运耦合集成模拟、磁约束聚变装置放电运行模式集成模拟设计</p>
+<p><strong>教学目标：</strong>结合工程和物理实践课题，设计跨尺度集成方案，解决多物理场耦合问题。</p>
+<p>第10周：AI等离子体模拟方法</p>
+<p><strong>主要内容：</strong>神经网络替代模型、数据驱动湍流预测、AI辅助实验分析、强化学习等离子体放电控制，布置课后AI作业要求学生编写一维含源对流扩散项的粒子输运偏微分方程求解（利用AI工具）。</p>
+<p><strong>教学目标：</strong>结合工程和物理实践课题，应用AI加速传统模拟，构建智能等离子体分析与控制策略，解决实际问题。</p>
+<p> </p>
+<p><strong>第四章 不同等离子体领域的应用实践案例  3学时  （第11教学周）</strong></p>
+<p><strong>主要内容：</strong>核聚变装置实验模拟与优化（核聚变等离子体），地球磁层太阳风相互作用（空间等离子体）、等离子体对材料表面处理模拟（低温等离子体）</p>
+<p><strong>教学目标：</strong>结合工程和物理实践课题的不同应用场景给出计算模拟方案，采用先进等离子体模拟方法分析工程和物理实际问题。</p><h2>教学参考资料</h2><table>
+<tbody>
+<tr>
+<td>
+<table>
+<tbody>
+<tr>
+<td>
+<p>序号</p>
+<p>No.</p>
+</td>
+<td>
+<p>名称</p>
+<p>Title</p>
+</td>
+<td>
+<p>作者</p>
+<p>Author(s)</p>
+</td>
+<td>
+<p>出版机构</p>
+<p>Publisher</p>
+</td>
+<td>
+<p>出版日期</p>
+<p>Publication Date</p>
+</td>
+</tr>
+<tr>
+<td>
+<p>1</p>
+</td>
+<td>
+<p>空间等离子体数值模拟</p>
+</td>
+<td>
+<p>傅竹风、胡友秋</p>
+</td>
+<td>
+<p>安徽科学技术出版社</p>
+</td>
+<td>
+<p>1995年</p>
+</td>
+</tr>
+<tr>
+<td>
+<p>2</p>
+</td>
+<td>
+<p>Computational Plasma Physics —with Applications to Fusion and Astrophysics</p>
+</td>
+<td>
+<p>Toshiki Tajima</p>
+</td>
+<td>
+<p>CRC Press</p>
+</td>
+<td>
+<p>2018年</p>
+</td>
+</tr>
+<tr>
+<td>
+<p>3</p>
+</td>
+<td>
+<p>Numerical Simulation of Plasma. Springer Series in Computational Physics</p>
+</td>
+<td>
+<p>Y. N. Dnestrovskii and D. P. Kostomarov.</p>
+</td>
+<td>
+<p>Springer</p>
+</td>
+<td>
+<p>1986年</p>
+</td>
+</tr>
+<tr>
+<td>
+<p>4</p>
+</td>
+<td>
+<p>Plasma Physics via Computer Simulation, the Adam Hilger Series on Plasma Physics</p>
+</td>
+<td>
+<p>C K Birdsall, A B Langdon</p>
+</td>
+<td>
+<p>lOP Publishing Ltd</p>
+</td>
+<td>
+<p>1991年</p>
+</td>
+</tr>
+<tr>
+<td>
+<p>5</p>
+</td>
+<td>
+<p>计算等离子体物理导论</p>
+</td>
+<td>
+<p>谢华生</p>
+</td>
+<td>
+<p>科学出版社</p>
+</td>
+<td>
+<p>2018年</p>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table><h2>考核与成绩构成</h2><table><tr><th>项目</th><th>比例</th><th>评定说明</th></tr><tr><td>出勤Attendance</td><td>10.0%</td><td>按出勤次数统计</td></tr><tr><td>作业/实验/实践Assignment</td><td>20.0%</td><td>以作业完成情况统计</td></tr><tr><td>汇报Presentation</td><td>30.0%</td><td>完成由任课老师设计的相关小课题或自选本课程相关小课题</td></tr><tr><td>课题论文Research Paper</td><td>40.0%</td><td>针对经任课老师同意的实践课题中等离子体物理问题开展数值模拟研究，论文按照如下标准进行评定：选题（15%）+ 内容（50%）+ 规范（15%）+ 创新（20%）</td></tr></table></body></html>

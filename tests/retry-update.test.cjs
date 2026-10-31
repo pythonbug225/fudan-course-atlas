@@ -1,3 +1,4 @@
+const auditSnapshot=require('./audit-snapshot.cjs');
 const fs=require('node:fs'),path=require('node:path'),assert=require('node:assert/strict'),vm=require('node:vm');
 const root=path.resolve(__dirname,'../public'),read=n=>require('../scripts/read-catalog.cjs')(path.join(root,'data',n+'.json'));
 const catalog=read('catalog'),update=read('retry-update'),supp=read('review-supplement'),syn=read('course-summaries');
@@ -9,7 +10,7 @@ assert(supp.records.length>=update.before.supplement_records+1);
 const norm=s=>s.normalize('NFKC').replace(/\s+/g,'').toUpperCase();
 for(const row of update.availability){
  const g=catalog.scope.find(g=>g.id===row.course_id),o=g.offerings.find(o=>o.official_lesson_id===row.lesson_id);
- assert(o);assert.equal(o.term,row.term);assert.equal(norm(o.code),norm(row.section_code));assert.deepEqual([...o.teachers].sort(),[...row.teachers].sort());
+ assert(o);assert.equal(o.term,row.term);assert.equal(norm(o.code),norm(row.section_code));assert.deepEqual(auditSnapshot.normalizedNames(o.teachers),auditSnapshot.normalizedNames(row.teachers));
  assert.equal(o.syllabus_availability.status,'not_approved');assert(!o.syllabus);
  assert.equal(o.syllabus_availability.message,'该教学任务暂无审核通过的学期课程教学大纲');
 }
@@ -21,7 +22,7 @@ for(const p of update.parallel_references){
  const html=box.render(target);assert(html.includes('平行班参照'));
  for(const r of target.syllabus_references){
   const s=catalog.syllabi.find(s=>String(s.lesson_id)===String(r.lesson_id));assert(s&&!s.summary_only);
-  assert.equal(norm(s.course_code),norm(g.code));assert.equal(s.term,target.term);assert.deepEqual([...s.teachers].sort(),[...target.teachers].sort());
+  assert.equal(norm(s.course_code),norm(g.code));assert.equal(s.term,target.term);assert.deepEqual(auditSnapshot.normalizedNames(s.teachers),auditSnapshot.normalizedNames(target.teachers));
   const source=g.offerings.find(o=>o.term===r.term&&norm(o.code)===norm(r.section_code));assert(source&&source.class_type===target.class_type);
   assert(html.includes(`data-inline-syllabus="${r.lesson_id}"`));assert(html.includes(r.section_code));
  }

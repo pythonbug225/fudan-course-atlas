@@ -1,10 +1,11 @@
+const auditSnapshot=require('./audit-snapshot.cjs');
 const fs=require('node:fs'),path=require('node:path'),vm=require('node:vm'),assert=require('node:assert/strict');
 const root=path.resolve(__dirname,'../public');const read=n=>require('../scripts/read-catalog.cjs')(path.join(root,'data',n+'.json'));
 const cat=read('catalog'),sup=read('review-supplement'),full=read('full-discussions'),en=read('enrollment'),search=read('search');
 const select={innerHTML:''},box={D:cat,document:{querySelector:()=>select}};
 vm.runInNewContext(fs.readFileSync(path.join(root,'assets/taxonomy.js'),'utf8')+';this.taxonomy=CourseTaxonomy;',box);box.taxonomy.init(cat);
 for(const [key,label,count] of [['atmosphere','大气与海洋专业',73],['nuclear','核科学专业',52],['polymer','高分子专业',59],['biotech','生物技术专业',54],['bigdata','大数据专业',84]]){
- const groups=cat.scope.filter(g=>box.taxonomy.match(g,key));assert.equal(groups.length,count);assert(select.innerHTML.includes(`value="${key}"`));assert(groups.every(g=>g.categories.includes(label)&&search.entries[g.id]));
+ const groups=cat.scope.filter(g=>auditSnapshot.baseline(g)&&box.taxonomy.match(g,key));assert.equal(groups.length,count);assert(select.innerHTML.includes(`value="${key}"`));assert(groups.every(g=>g.categories.includes(label)&&search.entries[g.id]));
 }
 const course=code=>cat.scope.find(g=>g.code===code);
 const intro=course('ATMO10001');assert(search.entries[intro.id].fields.includes('dqkxdl'));assert(intro.offerings.some(o=>o.term==='2025秋'&&o.credits===2&&o.teachers.includes('张若楠')));

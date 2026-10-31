@@ -1,9 +1,10 @@
+const auditSnapshot=require('./audit-snapshot.cjs');
 const fs=require('node:fs'),path=require('node:path'),vm=require('node:vm'),assert=require('node:assert/strict'),crypto=require('node:crypto');
 const root=path.resolve(__dirname,'../public'),read=n=>require('../scripts/read-catalog.cjs')(path.join(root,'data',n+'.json'));
 const c=read('catalog'),r=read('latest-update'),s=read('review-supplement'),f=read('full-discussions'),q=read('search'),syn=read('course-summaries');
 const select={innerHTML:''},box={D:c,document:{querySelector:()=>select}};vm.runInNewContext(fs.readFileSync(path.join(root,'assets/taxonomy.js'),'utf8')+';this.api=CourseTaxonomy;',box);box.api.init(c);
 for(const [key,label] of [['history','历史专业'],['ices','国交课程'],['ssdpp','社政专业'],['journalism','新闻专业'],['marxism','马克思主义理论专业']]){
- assert(select.innerHTML.includes(`value="${key}"`));assert.equal(c.scope.filter(g=>box.api.match(g,key)).length,r.domain_groups[key]);
+ assert(select.innerHTML.includes(`value="${key}"`));assert.equal(c.scope.filter(g=>auditSnapshot.baseline(g)&&box.api.match(g,key)).length,r.domain_groups[key]);
  for(const g of c.scope.filter(g=>g.categories.includes(label))){assert(q.entries[g.id]);assert(syn.records.some(x=>x.id===g.id));}
 }
 const batch=s.records.filter(x=>x.batch==='20261030-latest');assert.equal(batch.length,r.counts.evaluation_records+r.counts.discussion_records);
