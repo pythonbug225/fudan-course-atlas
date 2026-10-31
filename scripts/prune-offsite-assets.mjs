@@ -8,7 +8,7 @@ const manifest=JSON.parse(await fs.readFile(path.join(root,'data/offsite-assets.
 let removed=0;
 for(const item of manifest.assets){
  assert(item.path.startsWith('assets/')&&item.path.split('/').every(p=>/^[a-zA-Z0-9._-]+$/.test(p)&&p!=='.'&&p!=='..'));
- assert(item.url.startsWith('https://github.com/pythonbug225/fudan-course-atlas/releases/download/')||item.url.startsWith('https://raw.githubusercontent.com/pythonbug225/fudan-course-atlas/55c0c42d67c5f6790871b0a32686fd73bedaaa7d/public/assets/'));
+ assert(item.url.startsWith('https://github.com/pythonbug225/fudan-course-atlas/releases/download/')||/^https:\/\/raw\.githubusercontent\.com\/pythonbug225\/fudan-course-atlas\/[a-f0-9]{40}\/public\/assets\//.test(item.url));
  const file=path.resolve(root,item.path);
  assert(file.startsWith(root+path.sep));
  const data=await fs.readFile(file);

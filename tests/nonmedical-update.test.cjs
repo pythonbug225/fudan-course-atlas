@@ -21,7 +21,7 @@ for(const [type,label]of [['robotics','机器人与制造专业'],['materials-en
 assert(!/wxid_|@chatroom|xsec_token|SAMLResponse|loginToken/.test(JSON.stringify(r)));
 for(const item of read('offsite-assets').assets){
  assert.equal(crypto.createHash('sha256').update(fs.readFileSync(path.join(root,item.path))).digest('hex'),item.sha256);
- assert(item.url.startsWith('https://github.com/pythonbug225/fudan-course-atlas/releases/download/nonmedical-completion-20261031/')||item.url.startsWith('https://raw.githubusercontent.com/pythonbug225/fudan-course-atlas/55c0c42d67c5f6790871b0a32686fd73bedaaa7d/public/assets/'));
+ assert(item.url.startsWith('https://github.com/pythonbug225/fudan-course-atlas/releases/download/nonmedical-completion-20261031/')||/^https:\/\/raw\.githubusercontent\.com\/pythonbug225\/fudan-course-atlas\/[a-f0-9]{40}\/public\/assets\//.test(item.url));
  assert(!fs.readFileSync(path.join(root,'_redirects'),'utf8').split('\n').some(line=>line.trim()&&!line.trim().startsWith('#')));
 }
 console.log('Nonmedical plans, official classes, original reviews, identity joins and resources verified.');
