@@ -5,7 +5,7 @@
   const termRank=s=>Number(String(s).slice(0,4))*3+(String(s).includes('秋')?2:String(s).includes('暑')?1:0);
   async function init(){
     if(loading)return loading;
-    loading=fetch('data/enrollment.json').then(r=>{if(!r.ok)throw Error('enrollment '+r.status);return r.json()}).then(d=>{data=d;for(const r of d.records||[])for(const cid of r.course_ids||[]){if(!byCourse.has(cid))byCourse.set(cid,[]);byCourse.get(cid).push(r)}return true}).catch(()=>false);
+    loading=(window.CourseDataJSON?window.CourseDataJSON.load('data/enrollment.json'):fetch('data/enrollment.json').then(r=>{if(!r.ok)throw Error('enrollment '+r.status);return r.json()})).then(d=>{data=d;for(const r of d.records||[])for(const cid of r.course_ids||[]){if(!byCourse.has(cid))byCourse.set(cid,[]);byCourse.get(cid).push(r)}return true}).catch(()=>false);
     return loading;
   }
   function rows(id){return byCourse.get(id)||[]}
