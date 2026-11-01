@@ -1,0 +1,17 @@
+import fs from 'node:fs/promises';import assert from 'node:assert/strict';
+import {runAgent,comparePlans} from '../public/agent.js';
+const read=async p=>JSON.parse(await fs.readFile('public/data/'+p,'utf8'));
+const [data,details,publicPlan,major]=await Promise.all(['catalog.json','details.json','plans/466.json','plans/152034.json'].map(read));
+const ctx={data,details,publicPlan,major,byId:Object.fromEntries(data.courses.map(c=>[c.id,c])),state:{profile:{plan:'152034',goal:'research',maxCredits:18,freeWednesday:true,term:'2026春',hours:30,completed:[],englishTier:'B',development:'专业进阶路径'},records:[{code:'MATH10020',name:'解析几何',credits:4,status:'passed',term:'2025秋'},{code:'MATH30011',name:'数理统计',credits:3,status:'preselected',term:'2026春'}],recognitions:[],checks:{},allocations:{},plans:{A:[],B:[]},planProfiles:{},history:[]}};
+if(!process.stdin.isTTY)throw Error('Use hidden TTY input');process.stdin.setRawMode(true);process.stdin.resume();process.stdin.setEncoding('utf8');console.log('Ready for API key on hidden stdin.');
+let key=await new Promise(resolve=>{let buf='';const f=chunk=>{buf+=chunk;if(/[\r\n]/.test(buf)){process.stdin.off('data',f);process.stdin.setRawMode(false);process.stdin.pause();resolve(buf.trim());}};process.stdin.on('data',f);});
+const turns=[],callModel=async payload=>{const r=await fetch('http://127.0.0.1:8769/api/model',{method:'POST',headers:{'Content-Type':'application/json','x-deepseek-key':key},body:JSON.stringify(payload)});const d=await r.json();if(!r.ok)throw Error(d.error||'API '+r.status);return d;};
+try{
+ const first=await runAgent(ctx,'请先读取我的资料与公共+专业审计，检索数理统计并读取尤翀、杨莹的课程大纲和考核。用2026春真实课程生成两个方案：A偏数学AI科研不超过18学分，B偏均衡不超过16学分，两者周三下午6到10节留空。生成后调用工具比较两案，并说明已通过和预选学分区别。',callModel,{onTrace:e=>console.log(e.tool+' '+JSON.stringify(e.args))});turns.push(first);console.log('Turn 1 complete',first.usage);
+ assert(ctx.state.plans.A.length&&ctx.state.plans.B.length);assert(first.trace.some(t=>t.tool==='get_course_details'));assert(first.trace.some(t=>t.tool==='audit_curriculum'));
+ const before=JSON.stringify(ctx.state.plans.A),remove=ctx.state.plans.B.find(i=>i.course.code!=='MATH30011')||ctx.state.plans.B[0];
+ const second=await runAgent(ctx,`保留A不动，B删掉${remove.course.name}（${remove.course.code}），不要加替代课。重新审计B并比较A/B，总结B减少多少学分、还有哪些未完成要求。`,callModel,{onTrace:e=>console.log(e.tool+' '+JSON.stringify(e.args))});turns.push(second);console.log('Turn 2 complete',second.usage);assert.equal(JSON.stringify(ctx.state.plans.A),before);assert(!ctx.state.plans.B.some(i=>i.course.code===remove.course.code));
+ const result=comparePlans(ctx);assert(result.A.credits<=18&&result.B.credits<=16);assert.equal(result.A.conflicts.length,0);assert.equal(result.B.conflicts.length,0);assert.equal(result.auditA.passedCredits,4);assert.equal(result.auditA.forecastCredits,4+result.A.credits);
+ await fs.mkdir('.sites-runtime/test-output',{recursive:true});await fs.writeFile('.sites-runtime/test-output/deepseek-e2e.json',JSON.stringify({testedAt:new Date().toISOString(),model:'deepseek-flash',status:'passed',turns,comparison:result,sourceSnapshot:data.snapshot},null,2));
+ console.log(JSON.stringify({status:'passed',turns:turns.length,toolCalls:turns.reduce((n,r)=>n+r.trace.length,0),tokens:turns.reduce((n,r)=>n+r.usage.total_tokens,0),A:result.A.credits,B:result.B.credits,passed:result.auditA.passedCredits}));
+}finally{key='';console.log('Test credential cleared from process memory.');}
