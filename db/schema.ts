@@ -1,7 +1,5 @@
-// Intentionally empty by default.
-// Add Drizzle tables here when the site actually needs a database.
-// See examples/d1/db/schema.ts for an opt-in example.
-import { sqliteTable, text, integer, index } from 'drizzle-orm/sqlite-core';
+// D1 tables used by the site.
+import { sqliteTable, text, integer, index, uniqueIndex } from 'drizzle-orm/sqlite-core';
 export const reviews = sqliteTable('community_reviews', {
  id: text('id').primaryKey(), courseId:text('course_id').notNull(), authorId:text('author_id').notNull(),
  teacher:text('teacher').notNull(), term:text('term').notNull(), classType:text('class_type').notNull(),
@@ -14,3 +12,12 @@ export const files=sqliteTable('review_files',{
  id:text('id').primaryKey(),reviewId:text('review_id').notNull(),objectKey:text('object_key').notNull(),
  name:text('name').notNull(),mime:text('mime').notNull(),size:integer('size').notNull()
 },t=>[index('files_review').on(t.reviewId)]);
+
+export const pointEvents=sqliteTable('point_events',{
+ id:text('id').primaryKey(),userId:text('user_id').notNull(),
+ eventType:text('event_type',{enum:['checkin','exam_unlock']}).notNull(),
+ eventKey:text('event_key').notNull(),delta:integer('delta').notNull(),createdAt:text('created_at').notNull(),
+},t=>[
+ uniqueIndex('point_events_user_event').on(t.userId,t.eventKey),
+ index('point_events_user_created').on(t.userId,t.createdAt),
+]);

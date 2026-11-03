@@ -1,128 +1,151 @@
 'use strict';
 (() => {
-  const storageKey = 'fudan-course-atlas-points-preview-checkins-v2';
-  const examDownloadsKey = 'fudan-course-atlas-points-preview-exam-file-unlocks-v2';
-  const basePoints = 120;
-  const dailyPoints = 5;
+  const $ = (selector) => document.querySelector(selector);
   const tiers = [
     { name: '同行者', threshold: 0 },
     { name: '共建伙伴', threshold: 50 },
     { name: '课程共建者', threshold: 150 },
   ];
-  const $ = (selector) => document.querySelector(selector);
+  const state = { loaded: false, signedIn: false, balance: null, checkedInToday: false, events: [] };
+  let checkingIn = false;
 
-  function dateKey(date) {
-    return [date.getFullYear(), String(date.getMonth() + 1).padStart(2, '0'), String(date.getDate()).padStart(2, '0')].join('-');
-  }
+  const escapeHtml = (value) => String(value ?? '').replace(/[&<>"']/g, (char) => ({
+    '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;',
+  })[char]);
 
-  function readCheckins() {
-    try {
-      const value = JSON.parse(localStorage.getItem(storageKey) || '[]');
-      return Array.isArray(value)
-        ? [...new Set(value.filter((day) => typeof day === 'string' && /^\d{4}-\d{2}-\d{2}$/.test(day)))].sort()
-        : [];
-    } catch {
-      return [];
-    }
-  }
-
-  function readExamDownloads() {
-    try {
-      const value = JSON.parse(localStorage.getItem(examDownloadsKey) || '[]');
-      if (!Array.isArray(value)) return [];
-      const unique = new Map();
-      value.filter((entry) => entry && typeof entry.id === 'string').forEach((entry) => unique.set(entry.id, entry));
-      return [...unique.values()];
-    } catch {
-      return [];
-    }
-  }
-
-  function currentBalance() {
-    return basePoints + readCheckins().length * dailyPoints - readExamDownloads().length;
+  function setText(selector, value) {
+    const element = $(selector);
+    if (element) element.textContent = value;
   }
 
   function render() {
-    const days = readCheckins();
-    const today = dateKey(new Date());
-    const checkedIn = days.includes(today);
-    const downloads = readExamDownloads();
-    const points = basePoints + days.length * dailyPoints - downloads.length;
-    const currentTier = [...tiers].reverse().find((tier) => points >= tier.threshold) || tiers[0];
+    const balance = state.balance;
+    setText('#points-balance-value', balance === null ? '—' : String(balance));
+    document.querySelectorAll('[data-points-login]').forEach((login) => {
+      login.hidden = state.loaded && state.signedIn;
+    });
+
+    const button = $('[data-checkin]');
+    if (button) {
+      button.disabled = !state.signedIn || state.checkedInToday || checkingIn;
+      button.textContent = checkingIn ? '正在记账…' : state.checkedInToday ? '今日已签到' : '立即签到 · +5 分';
+    }
+
+    if (state.error) {
+      setText('#points-checkin-status', state.error);
+    } else if (!state.loaded) {
+      setText('#points-checkin-status', '正在读取账户积分…');
+    } else if (!state.signedIn) {
+      setText('#points-checkin-status', '登录后可签到；课程资料仍可免费浏览。');
+    } else {
+      setText('#points-checkin-status', state.checkedInToday ? '今日签到已由服务端确认。' : '每日签到 +5 分，积分记入你的账户。');
+    }
+
+    const currentTier = [...tiers].reverse().find((tier) => balance !== null && balance >= tier.threshold) || tiers[0];
     const nextTier = tiers.find((tier) => tier.threshold > currentTier.threshold);
     const target = nextTier ? nextTier.threshold : currentTier.threshold;
-    const remaining = nextTier ? target - points : 0;
-    const percentage = target ? Math.min(100, (points / target) * 100) : 100;
-    const last30Start = new Date();
-    last30Start.setHours(0, 0, 0, 0);
-    last30Start.setDate(last30Start.getDate() - 29);
-    const recentCheckins = days.filter((day) => new Date(`${day}T00:00:00`).getTime() >= last30Start.getTime()).length;
-
-    $('#points-balance-value').textContent = String(points);
-    $('#points-recent-total').textContent = `+${45 + recentCheckins * dailyPoints}`;
-    $('#points-next-label').textContent = nextTier ? `距离升级为「${nextTier.name}」` : '当前展示称号';
-    $('#points-next-remaining').textContent = nextTier ? `还差 ${remaining} 分` : '已达成';
-    $('#points-progress-fill').style.width = `${percentage}%`;
-    $('.points-progress-track').setAttribute('aria-label', nextTier ? `距离下一等级还差${remaining}分` : '已达到课程共建者等级');
-    $('#points-level-current').textContent = `当前：${currentTier.name}`;
-    $('#points-progress-value').textContent = nextTier ? `${points} / ${target} 分` : `${points} 分`;
-    $('#points-level-name').textContent = currentTier.name;
+    const remaining = balance === null ? null : Math.max(0, target - balance);
+    const fill = $('#points-progress-fill');
+    if (fill) fill.style.width = balance === null ? '0%' : `${target ? Math.min(100, (balance / target) * 100) : 100}%`;
+    const track = $('.points-progress-track');
+    if (track) track.setAttribute('aria-label', remaining === null ? '读取积分后显示等级进度' : nextTier ? `距离下一等级还差${remaining}分` : '已达到课程共建者等级');
+    setText('#points-level-current', `当前：${currentTier.name}`);
+    setText('#points-level-name', currentTier.name);
+    setText('#points-next-label', nextTier ? `距离升级为「${nextTier.name}」` : '当前展示称号');
+    setText('#points-next-remaining', remaining === null ? '—' : nextTier ? `还差 ${remaining} 分` : '已达成');
+    setText('#points-progress-value', balance === null ? '—' : nextTier ? `${balance} / ${target} 分` : `${balance} 分`);
     document.querySelectorAll('[data-points-level]').forEach((row) => {
       row.classList.toggle('active-rank', row.dataset.pointsLevel === currentTier.name);
     });
-    $('#points-checkin-status').textContent = checkedIn
-      ? '今日已签到，+5 分已计入本地演示余额。'
-      : '今天签到一次可得 +5 分；状态只保存在当前浏览器。';
-    const button = $('[data-checkin]');
-    button.disabled = checkedIn;
-    button.textContent = checkedIn ? '今日已签到' : '立即签到 · +5 分';
-    $('#points-checkin-activity').hidden = !checkedIn;
-    const downloadActivity = $('#points-download-activity');
-    if (downloadActivity) {
-      downloadActivity.hidden = downloads.length === 0;
-      $('#points-download-activity-detail').textContent = `独立文件解锁 · ${downloads.length} 份本地演示`;
-      $('#points-download-activity-points').textContent = `−${downloads.length}`;
+
+    const history = $('#points-activity-list');
+    if (history) {
+      if (!state.signedIn) {
+        history.innerHTML = '<p class="points-empty">登录后可查看个人积分流水。</p>';
+      } else if (!state.events.length) {
+        history.innerHTML = '<p class="points-empty">目前还没有积分记录。每日签到可获得 5 分。</p>';
+      } else {
+        history.innerHTML = state.events.map((event) => {
+          const isCheckIn = event.eventType === 'checkin';
+          const title = isCheckIn ? '每日签到' : '试卷文件解锁';
+          const detail = isCheckIn ? '账户签到奖励' : `文件编号 ${escapeHtml(event.referenceId || '—')}`;
+          const date = event.createdAt ? new Date(event.createdAt).toLocaleString('zh-CN', { timeZone: 'Asia/Shanghai', dateStyle: 'medium', timeStyle: 'short' }) : '时间未知';
+          const delta = Number(event.delta);
+          return `<article class="points-activity-row"><div><b>${title}</b><span>${detail}</span></div><time>${escapeHtml(date)}</time><strong>${delta > 0 ? '+' : '−'}${Math.abs(delta)}</strong></article>`;
+        }).join('');
+      }
     }
   }
 
-  function spendExamFile(fileId) {
-    const downloads = readExamDownloads();
-    const alreadyUnlocked = isExamFileUnlocked(fileId);
-    if (alreadyUnlocked) return { ok: true, alreadyUnlocked: true, balance: currentBalance() };
-    const balance = currentBalance();
-    if (balance < 1) return { ok: false, balance };
+  async function refresh() {
+    state.error = '';
     try {
-      downloads.push({ id: fileId, time: new Date().toISOString() });
-      localStorage.setItem(examDownloadsKey, JSON.stringify(downloads));
-      render();
-      return { ok: true, alreadyUnlocked: false, balance: balance - 1 };
+      const response = await fetch('/api/points', { credentials: 'same-origin', cache: 'no-store' });
+      if (!response.ok) throw new Error('积分服务暂不可用，请稍后刷新。');
+      const data = await response.json();
+      state.loaded = true;
+      state.signedIn = Boolean(data.signedIn);
+      state.balance = state.signedIn ? Number(data.balance) : null;
+      state.checkedInToday = Boolean(data.checkedInToday);
+      state.events = Array.isArray(data.events) ? data.events : [];
     } catch {
-      $('#points-checkin-status').textContent = '浏览器未能保存积分演示记录；本次文件访问没有记分。';
-      return { ok: false, balance };
+      state.error = '积分服务暂不可用，暂时无法确认签到状态或账户余额。';
+      state.loaded = false;
+      state.balance = null;
     }
+    render();
+    return { ...state };
   }
 
-  function isExamFileUnlocked(fileId) {
-    return readExamDownloads().some((entry) => typeof entry === 'object' && entry.id === fileId);
+  async function checkIn() {
+    if (!state.signedIn) {
+      setText('#points-checkin-status', '请先登录，再使用每日签到。');
+      const login = $('[data-points-login]');
+      if (login) login.hidden = false;
+      return false;
+    }
+    if (checkingIn || state.checkedInToday) return false;
+    checkingIn = true;
+    state.error = '';
+    render();
+    try {
+      const response = await fetch('/api/points/checkin', {
+        method: 'POST', credentials: 'same-origin',
+        headers: { 'Content-Type': 'application/json' }, body: '{}',
+      });
+      const data = await response.json();
+      if (!response.ok) {
+        if (response.status === 401) {
+          state.signedIn = false;
+          const login = $('[data-points-login]');
+          if (login) login.hidden = false;
+        }
+        throw new Error(response.status === 503 ? '积分服务暂不可用，签到没有记账。' : '签到未成功，请登录后重试。');
+      }
+      state.balance = Number(data.balance);
+      state.checkedInToday = true;
+      state.loaded = true;
+      render();
+      setText('#points-checkin-status', data.alreadyCheckedIn ? '今天已经签到过，本次没有重复增加积分。' : '签到完成，服务端已记入 +5 分。');
+      await refresh();
+      setText('#points-checkin-status', data.alreadyCheckedIn ? '今天已经签到过，本次没有重复增加积分。' : '签到完成，服务端已记入 +5 分。');
+      return true;
+    } catch (error) {
+      state.error = error instanceof Error ? error.message : '签到失败，请稍后重试。';
+      setText('#points-checkin-status', state.error);
+      return false;
+    } finally {
+      checkingIn = false;
+      render();
+    }
   }
 
   document.addEventListener('click', (event) => {
     const button = event.target.closest('[data-checkin]');
     if (!button || button.disabled) return;
-    const days = readCheckins();
-    const today = dateKey(new Date());
-    if (days.includes(today)) {
-      render();
-      return;
-    }
-    try {
-      localStorage.setItem(storageKey, JSON.stringify([...days, today]));
-      render();
-    } catch {
-      $('#points-checkin-status').textContent = '浏览器未能保存签到状态；这次预览签到没有记分。';
-    }
+    void checkIn();
   });
 
-  window.FudanPointsPreview = { currentBalance, isExamFileUnlocked, spendExamFile, render };
-  render();
+  window.FudanPoints = { refresh, checkIn, getState: () => ({ ...state }) };
+  window.FudanPoints.ready = refresh();
 })();
