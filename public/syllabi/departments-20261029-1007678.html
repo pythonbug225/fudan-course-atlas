@@ -1,0 +1,247 @@
+<!doctype html><html lang="zh-CN"><meta charset="utf-8"><body><h1>数值计算</h1><p>2025秋 · STAT50035.01 · 周宝健</p><p>来源：复旦教务系统教学大纲；正文整理。</p><h2>课程简介（中文）</h2><div style="white-space:pre-wrap">数值计算是指使用计算机程序来求解数学问题的方法与分析过程。本课程主要讲授数值计算的基本方法，其中包括误差的计算与分析、非线性方程的数值解法、线性方程组的数值解法、矩阵的特征值和特征向量计算与分析、插值及其方法、积分及其方法、数值微分、常微分方程解法、矩阵的特征值和特征向量计算等内容。</div><h2>课程简介（英文）</h2><div style="white-space:pre-wrap">Numerical computation refers to the methods and analytical processes of using computer programs to solve mathematical problems. This course mainly covers the fundamental methods of numerical computation, including error calculation and analysis, numerical solutions of nonlinear equations, numerical solutions of linear systems of equations, computation and analysis of eigenvalues and eigenvectors of matrices, interpolation and its methods, integration and its methods, numerical differentiation, methods for solving ordinary differential equations, as well as the computation of eigenvalues and eigenvectors of matrices.</div><h2>教学目标</h2><div style="white-space:pre-wrap">本课程通过讲授和课程项目实践方式，使得学生掌握数值计算的基本算法和主要分析方法，希望达到以下目标： 1. 了解和掌握使用Matlab 或者 Python 求解各类基本的数值问题。 2. 了解和掌握数值分析算法以及分析技巧。掌握数值算法的收敛分析、时空复杂度分析、误差分析、稳定性分析。 3. 通过实践与案例分析，能够使用数值计算的方法解决实际科研中遇到的数值问题。帮助提高学生的大数据技术应用的综合素质。</div><h2>教学方式</h2><div style="white-space:pre-wrap">采用具体问题加算法解析的方式展开。</div><h2>教学内容与进度安排</h2><div style="white-space:pre-wrap">Introduction
+
+
+Course Introduction
+
+Fundamentals and Computer Arithmetic: IEEE 754
+
+Solving nonlinear equations: Bisection and its error analysis
+
+
+
+
+
+
+
+Solving nonlinear equations
+
+
+Fixed-Point Iteration: Linear convergence of FPI/iteration complexity
+
+Newton’s Method and its convergence for simple/multiple roots
+
+Secant Method and its convergence
+
+Other variants: Dekker’s, Brent’s, and Ridder’s
+
+Sensitivity of root findings
+
+
+
+
+
+
+
+Solving
+
+
+Norms and condition number of  / S.P.D. matrices
+
+Direct solvers: Gauss Elimination/Cholesky Factorization
+
+Stationary iterative solvers: Jacobi/Gauss-Seidel/SOR
+
+
+
+
+
+
+
+Solving S.P.D. linear equations for graph problems
+
+
+Linear systems of graph Laplacian (PageRank)
+
+Quadratic minimization and Steepest Descent
+
+Richardson: Iteration and convergence analysis
+
+SOR method (Convergence analysis for Stieltjes matrices)
+
+
+
+
+
+
+
+Conjugate Gradient Method (CGM)
+
+
+Improving Steepest Descent: Conjugate Direction
+
+Conjugate Direction method
+
+Conjugate Vectors finding and CGM
+
+Chebyshev polynomial and min-max property
+
+Convergence analysis of CGM (including clustered eigenvalues)
+
+Preconditioning and PCG
+
+
+
+
+
+
+
+Semi-iterative (SI) and Chebyshev Method
+
+
+Idea of semi-iterative
+
+SI based on Chebyshev polynomial
+
+A lower bound of iteration complexity
+
+
+
+
+
+
+
+Iterative methods on graphs and localization
+
+
+Large-scale linear system on graphs
+
+Local algorithm APPR: Approximate Personalized PageRank
+
+Graph-independent bound for APPR
+
+Local linear convergence of APPR
+
+
+
+
+
+
+
+Interpolation
+
+
+Function approximation and interpolation
+
+Error analysis of polynomial interpolation
+
+Trigonometric Interpolation and FFT
+
+Spline Interpolation
+
+
+
+
+
+
+
+Least Squares
+
+
+LS and Gauss-Markov Theorem
+
+Householder’s QR-factorization
+
+Sensitivity and conditioning
+
+Nonlinear LS and system of nonlinear equations
+
+
+
+
+
+
+
+Differentiation and Integration
+
+
+Numerical differentiation and finite-difference
+
+Extrapolation and Richardson’s method
+
+Integration and Newton-Cotes formula
+
+Romberg Integration
+
+(Adaptive) Quadrature
+
+
+
+
+
+
+
+ODE and numerical methods for IVPs
+
+
+ODE and motivative examples
+
+Euler’s method and truncation error analysis
+
+Runge-Kutta
+
+Backward methods
+
+
+
+
+
+
+
+Numerical methods for BVPs
+
+
+Motivative examples and BVPs
+
+Shooting/Finite-difference methods
+
+Collocation
+
+Finite-element and Galerkin’s method
+
+
+
+
+
+
+
+Eigenvalue and Eigenvectors
+
+
+Eigenvalue and PageRank problem
+
+Leading eigenvalue and power-iteration
+
+Graph conductance and Cheeger’s Inequality
+
+Spectral clustering
+
+
+
+
+
+
+
+Randomization and SDE
+
+
+Random generation and Linear Congruential generator
+
+Sampling standard Gaussian and Box-Muller method
+
+Brownian motion and SDE
+
+Euler-Maruyama method and error analysis
+
+
+
+
+
+
+
+Solving differential equations
+
+l  Review of lectures</div><h2>教学参考资料</h2><div style="white-space:pre-wrap">Numerical Analysis: Mathematics of Scientific Computing, David Ronald, and Elliott Ward Cheney.
+
+Matrix Computation (4th), Gene H. Golub and Charles F. Van Loan.
+
+Numerical Analysis (3rd edition), Timothy Sauer.</div><h2>考核方式</h2><div style="white-space:pre-wrap">出勤Attendance 5.0%；作业/实验/实践Assignment 50.0%；期中考试Midterm Examination 15.0%；课题论文Research Paper 30.0%</div><h2>考核构成</h2><ul><li>出勤Attendance 5.0% </li><li>作业/实验/实践Assignment 50.0% </li><li>期中考试Midterm Examination 15.0% </li><li>课题论文Research Paper 30.0% </li></ul></body></html>

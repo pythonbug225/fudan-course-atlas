@@ -1,0 +1,366 @@
+<!doctype html><html lang="zh-CN"><meta charset="utf-8"><body><h1>脑科学与类脑系统</h1><p>2025秋 · CS50031.01 · 肖晓、于玉国</p><p>来源：复旦教务系统教学大纲；正文整理。</p><h2>课程简介（中文）</h2><div style="white-space:pre-wrap">整体教学内容分为三部分。第一篇，脑和类脑科学的神经机制；第二篇，脑高级功能和类脑AI模型；第三篇：脑和类脑AI的脉冲神经网络计算模型和信息表征机制。
+
+第一篇：脑和类脑科学的神经机制
+
+学生将掌握神经元的结构和功能基础，了解动作电位的神经机制，并利用数理模型模拟神经元。通过学习Cable模型，建立神经信号的传递模型，模拟神经元的膜电位变化和神经电信号在神经轴突的传播。还将学习神经突触传递的基本形式及其可塑性的概念，并利用Monte Carlo模型模拟神经突触的动力学过程。同时，探讨如何构建计算模型来模拟神经元和突触传递过程，并将这些模型应用于人工智能的人工神经元模型构建。
+
+第二篇：脑高级功能和类脑AI模型
+
+学生将学习认知神经科学的概念和内涵，理解认知的神经基础，了解认知神经科学的主要研究方法及其应用范例。掌握感觉、运动控制、注意、知觉与意识等基本认知功能的概念和神经生理模型，探讨其认知心理学范式和相关神经机制。深入了解动机、情绪、记忆等脑功能的定义和分类，探讨语言、创造力、共情力等高级功能的神经机制。学生将学习如何应用深度学习网络来模拟大脑处理视觉和听觉信息，理解情感、注意、奖赏等机制，并将这些神经机制融入AI神经网络模型算法。
+
+第三篇：脑和类脑AI的脉冲神经网络计算模型和信息表征机制
+
+学生将掌握多种神经元的计算建模和理解多种离子通道及神经形态对神经信号响应的作用机制。通过学习神经联接的基本概念和建立神经网络数学模型，学生将通过编程实现神经网络模拟，并能理解和解释网络节律振荡的现象和动力学机制。课程还将深入探讨人工神经网络和反向传播算法的基本原理和实现方法，理解脉冲神经网络和深度神经网络模型，并解释其在类脑AI计算中的应用。
+
+内容上覆盖理解并模拟神经元和突触传递的脑机制、脑高级功能的神经环路和行为模型、脑启发的人工智能算法、以及神经网络如何通过动态交互实现复杂功能等脑科学和类脑科学的基本核心概念，并通过Case study等计算/模拟模型手段，学习和应用各种机器学习技术来分析和模拟神经数据，加深学生对基本概念的理念和运用，培养学生解决脑科学和类脑人工智能科学问题的能力。</div><h2>课程简介（英文）</h2><div style="white-space:pre-wrap">Course Overview
+
+This course provides an integrated introduction to the neural foundations, computational modeling, and artificial intelligence approaches inspired by the brain. It is organized into three major sections:
+
+
+Neural Mechanisms of the Brain and Brain-Inspired Science
+
+Higher Brain Functions and Brain-Inspired AI Models
+
+Computational Models and Information Representation in Spiking Neural Networks
+
+
+Part I. Neural Mechanisms of the Brain and Brain-Inspired Science
+
+This section introduces the structural and functional foundations of neurons and the neural basis of action potentials. Students will develop mathematical models to simulate neuronal behavior and membrane potential dynamics.
+Through the Cable model, students will construct models of neural signal propagation along axons. The section also covers the basic forms of synaptic transmission and the concept of synaptic plasticity. Using Monte Carlo simulations, students will explore the stochastic dynamics of synaptic processes.
+The course further examines how computational modeling can be used to simulate neuronal and synaptic mechanisms, providing the foundation for designing artificial neuron models used in modern AI systems.
+
+Part II. Higher Brain Functions and Brain-Inspired AI Models
+
+This section introduces the conceptual framework of cognitive neuroscience, focusing on the neural bases of cognition and the methods used to investigate them. Students will learn about the neural and psychological models underlying sensation, motor control, attention, perception, and consciousness, as well as their cognitive paradigms and physiological mechanisms.
+The course also examines motivation, emotion, and memory, and extends to higher-order cognitive functions such as language, creativity, and empathy.
+Students will explore how deep learning architectures can simulate brain-like processing of visual and auditory information, model emotion, attention, and reward mechanisms, and integrate these biological principles into AI neural network algorithms.
+
+Part III. Computational Models and Information Representation in Spiking Neural Networks
+
+In this section, students will learn to construct and analyze various computational neuron models, understanding how ion channels and neuronal morphology shape signal responses.
+They will build mathematical models of neural connectivity, implement neural network simulations through programming, and investigate network oscillations and their dynamical mechanisms.
+Further topics include the theoretical and algorithmic principles of artificial neural networks, backpropagation, and spiking neural networks (SNNs), emphasizing their relevance to brain-inspired computation and deep neural architectures.</div><h2>教学目标</h2><div style="white-space:pre-wrap">本课程旨在系统介绍脑科学和类脑智能系统的核心概念与最新研究进展，通过了解大脑的结构和功能，为人工智能提供生物学原理和灵感。本课程教学将涵盖脑科学的神经机制基础、脑的高级认知功能和类脑模型，以及神经网络计算模型和信息处理机制三部分。学生将系统学习神经元和神经信号联系的神经机制及其数理模型，掌握脑高级认知功能的神经生理和病理机制，以及脑的信息处理过程及其对人工智能算法的启示，为从事脑科学和类脑智能科学及相关领域研究打下良好的基础。
+
+本课程的构建将立足于脑科学的神经数理基础、脑高级认知功能的神经机制和算法实现，以及类脑数理计算和模型等多学科知识融合，以深入探讨和理解神经系统的感知、信息处理、认知功能、神经机制及脑启发计算模型和信息处理算法机制等。教学过程中，将结合神经科学和心理学实验与案例分析，引导学生从计算角度及实验和理论相互结合的角度理解神经系统的工作机制，研究非程序的、适应性的信息处理的本质和能力，探索神经信息处理的基本机理，促进学生对脑启发式人工智能的理解，提升相关人工智能算法的应用有效性。
+
+通过本课程的学习，学生将从脑科学、数理科学和人工智能等多学科角度理解大脑从分子、细胞到脑网络的功能实现和神经机制，培养在计算神经科学领域的专业学习能力，并激发探索脑科学和类脑智能等领域的学术激情。这种跨学科的知识和技能将使他们在推动人工智能领域的发展中发挥重要作用。</div><h2>教学方式</h2><div style="white-space:pre-wrap">1. 多学科多维度协同：课程内容涵盖从分子、细胞、神经网络、到行为模式的不同层次，结合物理、数学、人工智能、心理学和神经科学的知识体系，为学生提供一个全方位的视角，帮助他们在多学科背景下理解大脑的复杂功能。
+
+2. 教学大纲更加明确地展示脑科学与人工智能之间的相互作用和融合，确保学生能够理解并应用AI技术来探索和模拟脑工作原理。同时，也帮助学生认识到人工智能如何从脑科学中获得启发，并在类脑人工智能系统中得到应用。
+
+3. 数理模型基础：通过Case study的形式引入数理模型和心理范式，并通过python等软件处理模块的使用，帮助学生深入理解脑科学和类脑人工智能科学的核心概念和扩展运用。
+
+4. 前沿技术引入：课程中引入深度学习模型和算法、高密度多电极记录、双光子成像、脑基因组学和脑连接组学等前沿技术，使学生掌握最先进的实验技术和数据分析工具。
+
+5. 实时数据分析：通过真实实验数据的实时分析和模拟，培养学生处理和解释大数据的能力。
+
+6. 问题导向学习与AI应用：采用问题导向的教学方法，不仅鼓励学生自主提出科学问题并进行研究，而且要求他们在这一过程中应用人工智能技术，如数据挖掘和机器学习，以培养他们的创新思维和独立研究能力。
+
+7. 理解生物脑与AI设计规则：学生应深入理解大尺度脑网络的结构布线规则和特征，并探讨这些规则如何启发人工智能系统的设计，特别是在神经网络架构和信息处理策略中体现生物脑设计原则。
+
+8. 掌握类脑人工智能模型和算法：学生应通过案例研究，构建并训练脉冲神经网络模型，该模型不仅能够识别数字手写体，而且要展示其在模拟大脑处理信息方面的能力。学生需要分析并优化模型性能，探讨不同参数和算法对模拟大脑功能和提高AI系统效率的影响。
+
+
+
+考核和评价方式:
+
+课堂出席：10%，
+
+课堂讨论：10%，
+
+课后作业：20%，
+
+期末考试成绩：60%。</div><h2>教学内容与进度安排</h2><div style="white-space:pre-wrap">第一篇：脑和类脑科学的神经机制。
+
+教学要求：
+
+
+掌握神经元的结构和功能基础，以及动作电位的神经机制。
+
+利用数理模型模拟神经元，利用Cable模型建立神经信号的传递模型，模拟神经元的膜电位变化和神经电信号在神经轴突的传播。
+
+掌握神经突触传递的基本形式及其可塑性的基本概念，利用Monte Carlo模型模拟神经突触的动力学过程。
+
+学习如何构建计算模型来模拟神经元和突触传递过程，并讨论如何将这些模型应用于人工智能的人工神经元模型构建。
+
+
+
+
+第一周：神经元的电化学信号。
+
+主要知识点：神经元细胞膜的化学渗透压平衡，能斯特方程和静息膜电位。
+
+Case study 1：神经细胞的数理模型。
+
+
+
+第二周：动作电位的产生、传播和离子通道基础。
+
+主要知识点：神经动作电位的特性，传播，有髓鞘神经的跳跃传导。钠通道和钾通道的特性和对动作电位的调控机制。
+
+Case study 2：神经线缆模型（Cable model）和分析人工神经元的激活函数曲线的神经机制起源。
+
+
+
+第三周：电压钳和膜片钳技术。
+
+主要知识点：电压钳和膜片钳的原理、电路分析和应用。
+
+Case study 3：膜片钳电路模型和分析。
+
+
+
+第四周：Hodgkin–Huxley模型。
+
+主要知识点：Hodgkin–Huxley模型的建立和分析。
+
+学习构建基于生物神经元的通用型人工智能脉冲神经元模型和算法。
+
+Case study 4：利用BrainPy建立Hodgkin–Huxley模型，并分析其结果。
+
+
+
+第五周：突触传递和神经可塑性。
+
+主要知识点：电突触和化学突触的特征，突触传递的定量分析和神经可塑性的机制。学习构建基于可塑性突触机制的通用型人工智能脉冲神经网络模型和算法。
+
+Case study 5：近端抑制和远端抑制的神经模拟及其神经生理作用分析。
+
+
+
+第二篇：脑和类脑AI的脉冲神经网络计算模型和信息表征机制。
+
+教学要求：
+
+
+掌握多种神经元的计算建模和理解多种离子通道及神经形态对神经信号响应的作用机制。
+
+掌握神经联接的基本概念和建立神经网络数学模型，通过编程实现神经网络模拟，并能理解和解释网络节律振荡的现象和动力学机制。
+
+学生应熟悉人工神经网络和反向传播算法的基本原理和实现方法，理解脉冲神经网络和深度神经网络模型，能够解释其在类脑AI计算中的应用。
+
+
+
+
+第六周：神经计算模型
+
+主要知识点：动作电位产生和传输的电子电路、GHK方程、多舱室神经元树突和轴突计算模型和LIF计算模型，钠钾离子通道数学模型，神经元数学模型的数值求解。
+
+Case study 11：神经元计算模型的编程和对信号的响应规律分析。
+
+
+
+第七周：突触连接和神经网络数学模型
+
+主要知识点：兴奋性和抑制性突触信号数学模型，随机神经网络模型，随机神经网络模型，前馈神经网络数学模型的建立和动力学机制。
+
+思考可替代人工智能模型中反向传播梯度下降算法的新型脑启发网络算法。
+
+Case study 12：神经网络计算模型的编程，学习构建应用于人工智能的通用型脉冲人工神经网络模型和算法。
+
+
+
+第八周：神经网络特征分析
+
+主要知识点：结构网络，功能网络，小世界网络，无标度网络，复杂网络的指标和理论分析，掌握如平均最短路径、集聚系数等计算方法。
+
+Case study 13：对于生物脑或人工神经网络，通过编程高效分析复杂网络特征和计算相应指标。
+
+
+
+第九周：神经信息处理机制
+
+主要知识点：感受野，发放率编码，时间编码，稀疏编码和群体编码，信息熵和贝叶斯理论，反应熵、噪声熵和互信息。思考如何构建融入贝叶斯原理的新型人工神经网络模型算法。
+
+Case study 14：学习分析和计算给定网络时空序列信号的信息熵、噪声熵。
+
+
+
+第十周：类脑计算模型和算法
+
+主要知识点：大尺度脑网络的布线规则，人工神经网络（ANN）和反向传播算法，脉冲神经网络和深度神经网络模型。
+
+Case study 15：学习构建一个能够识别数字手写体的脉冲神经网络计算模型和算法研究。
+
+
+
+第三篇：脑高级功能和类脑AI模型。
+
+教学要求：
+
+
+学习认知神经科学的概念和内涵，理解认知的神经基础，了解认知神经科学的主要研究方法及其应用范例。
+
+掌握感觉、运动控制、注意、知觉与意识等基本认知功能的概念和神经生理模型，探讨其认知心理学范式和相关神经机制。
+
+掌握动机、情绪、记忆等脑功能的定义和分类，了解情感障碍、认知障碍和精神类疾病的发病原理和现有理论模型，探讨语言、创造力、共情力等高级功能的神经机制。
+
+学习如何应用深度学习网络来模拟大脑处理视觉和听觉信息，理解情感、注意、奖赏等机制，并思考如何在AI神经网络模型算法里加入相应神经机制。
+
+
+
+
+第十一周：脑功能与认知。
+
+主要知识点：脑的基本功能和认知过程，经典和前沿的神经科学、心理学、计算科学研究方法。
+
+学习可用于人工智能神经网络的强化学习、监督学习及无监督学习的生物机制。
+
+Case study 6：经典条件行为与操作式条件行为分析，强化学习。
+
+
+
+
+
+第十二周：感觉与运动。
+
+主要知识点：视觉系统、听觉系统、体感系统、运动系统的神经机制及现有模型。
+
+理解基于生物脑多感觉整合的工作原理，思考人工神经网络可借鉴的多模态神经工作基础，和预测模型。
+
+Case study 7：视错觉模型和预测性感知理论。
+
+
+
+第十三周：知觉与意识。
+
+主要知识点：大脑连接组计划、知觉与认知地图、注意与注意力缺陷多动障碍、意识与睡眠。学习如何应用AI解析大脑复杂图谱；思考如何将注意力机制和脑图谱融入人工神经网络里。
+
+Case study 8：注意力选择模型和信息整合理论等意识理论。
+
+
+
+第十四周：动机与情绪。
+
+主要知识点：动机、奖赏与成瘾、情绪与情感、情绪障碍。
+
+思考如何发展基于奖赏机制的人工智能模型和算法。
+
+Case study 9：多巴胺系统在动机和情绪调控中的作用，情绪理论模型。
+
+
+
+第十五周：学习记忆与高级功能。
+
+主要知识点：本能行为与后天学习行为、记忆的概念和分类、额叶进化与精神分裂症疾病和创造力之间的关系。
+
+思考如何发展基于生物脑学习机制的可持续性学习的通用神经网络模型算法。
+
+Case study 10：可塑性与记忆的相互关系。
+
+
+
+第十六周：随堂期末考试。形式：闭卷。</div><h2>教学参考资料</h2><div style="white-space:pre-wrap">序号
+
+No.
+
+
+
+名称
+
+Title
+
+
+
+编著者
+
+Author(s)
+
+
+
+标准书号
+
+ISBN
+
+
+
+出版机构
+
+Publisher
+
+
+
+出版年月
+
+Publication Date
+
+
+
+
+
+
+1
+
+
+
+神经科学
+
+
+
+韩济生
+
+
+
+9787117272392
+
+
+
+人民卫生出版社
+
+
+
+2018
+
+
+
+
+
+
+2
+
+
+
+Theoretical Neuroscience
+
+
+
+Peter Dayan and Larry F. Abbott
+
+
+
+9780262041997
+
+
+
+MIT Press
+
+
+
+2001
+
+
+
+
+
+
+3
+
+
+
+Cognitive Psychology
+
+
+
+Bruce Goldstein
+
+
+
+9781337408271
+
+
+
+Cengage Learning
+
+
+
+2018</div><h2>考核方式</h2><div style="white-space:pre-wrap">出勤Attendance 10.0%（每位同学可有2次请假）；课堂表现Participation 10.0%（课堂讨论和发言次数）；作业/实验/实践Assignment 20.0%（作业次数和成绩打分）；期末考试Final Examination：闭卷  60.0%（以试卷分值进行换算）</div><h2>考核构成</h2><ul><li>出勤Attendance 10.0% 每位同学可有2次请假</li><li>课堂表现Participation 10.0% 课堂讨论和发言次数</li><li>作业/实验/实践Assignment 20.0% 作业次数和成绩打分</li><li>期末考试Final Examination：闭卷 60.0% 以试卷分值进行换算</li></ul></body></html>

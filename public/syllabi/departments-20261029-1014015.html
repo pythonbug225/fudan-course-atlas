@@ -1,0 +1,76 @@
+<!doctype html><html lang="zh-CN"><meta charset="utf-8"><body><h1>大数据技术</h1><p>2025秋 · MAS50002.01 · 王有为、孙海</p><p>来源：复旦教务系统教学大纲；正文整理。</p><h2>课程简介（中文）</h2><div style="white-space:pre-wrap">本课程旨在培养学生对分布式文件系统、分布式数据库、内存计算、前馈神经网络、卷积神经网络、循环神经网络及相关的深度学习模型的理解，并培养他们使用开源软件动手处理文本、图片、视频、语音等非结构化数据的能力。另外，本课程还将介绍生成式大模型的基本原理及LlamaIndex编程框架，通过编写可扩展的智能代理应用程序满足企业的业务需求。本课程的教学工作分为4章，共10个课时（每次课3个小时）。选课同学将完成3个左右的项目大作业（个人+小组）。
+
+本课程内容分为四大模块：
+
+模块一：分布式文件系统与分布式计算架构。内容包括Hadoop大数据系统架构，并行计算的程序设计（MapReduce框架）。
+
+模块二：Spark并行计算技术。主要讲授基于Spark的内存计算框架、RDD编程技术的主要技巧、Spark对数据仓库和非关系数据库的操作方法，以及Spark如何调用机器学习库中的算法对大数据进行平行计算。
+
+模块三：深度学习模型及其在非结构化数据分析与处理方面的应用。包括基本的前向神经网络（FFN）以及网络优化和正则化方法、卷积神经网络、循环神经网络以及注意力机制。
+
+模块四：生成式大模型及LlamaIndex编程框架。包括文生文大模型、文生图大模型等。另外，使用LlamaIndex框架编写可扩展的智能代理（Agent）应用程序，满足企业的业务需求。
+
+本课程还包括一个可选的嘉宾演讲环节（根据课程进度情况灵活决定）。</div><h2>课程简介（英文）</h2><div style="white-space:pre-wrap">This course aims to cultivate students&#x27; understanding of distributed file systems, distributed databases, in-memory computing, feedforward neural networks, convolutional neural networks, recurrent neural networks, and related deep learning models. It also aims at developing students&#x27; ability to use open-source software to practically handle unstructured data such as text, images, videos, and speech. Additionally, the course introduces the fundamental principles of generative large models and the LlamaIndex programming framework, enabling students to develop scalable intelligent agent applications that meet enterprise business needs. The course is organized into four chapters, comprising a total of 10 sessions (each session lasting 3 hours). Enrolled students will complete 3 major projects, which are individual and group-based.
+
+The course content is divided into four main modules:
+Module 1: Distributed File Systems and Distributed Computing Architectures. This includes the Hadoop big data system architecture and parallel computing programming (MapReduce framework).
+Module 2: Spark Parallel Computing Technology. This module mainly covers the in-memory computing framework based on Spark, key techniques of RDD programming, Spark’s methods for operating data warehouses and NoSQL databases, and how Spark calls algorithms from machine learning libraries to perform parallel computing on big data.
+Module 3: Deep Learning Models and Their Applications in Unstructured Data Analysis and Processing. This includes basic feedforward neural networks (FFN), network optimization and regularization methods, convolutional neural networks, recurrent neural networks, and attention mechanisms.
+Module 4: Generative Large Models and the LlamaIndex Programming Framework. This covers text-to-text large models, text-to-graph large models, and more. Additionally, students will use the LlamaIndex framework to develop scalable intelligent agent applications that fulfill enterprise business requirements.
+
+The course also includes an optional guest lecture segment, which will be scheduled flexibly depending on the course progress.</div><h2>教学目标</h2><div style="white-space:pre-wrap">（1）理解分布式文件系统和分布式编程框架，能够基于MapReduce框架设计和实现分布式统计分析程序；
+
+（2）理解内存计算的基本概念和RDD编程框架，能够编写RDD程序操纵各类结构化和非结构化数据库（及数据仓库），能够调用机器学习库实现海量数据的平行计算；
+
+（3）理解常用的神经网络和深度学习模型，使用开源软件架构和代码分析文本、图片、视频、语音等等非结构化数据；
+
+（4）理解文生文、文生图等各类生成式人工智能技术的原理和常见算法；
+
+（5）能够使用LlamaIndex编程框架开发可复用、可扩展的大模型应用程序和智能体（Agent）程序，满足企业具体的AI应用需求。</div><h2>教学方式</h2><div style="white-space:pre-wrap">本课程的教学方法如下：
+1、基础知识：主要通过课堂授课（Lecture）的形式进行
+2、编程实践：主要通过随堂练习（以及课后的小组+个人大作业）的形式进行，每个部分的教学内容都配有相关的编程练习/上机任务，因此要求选课的同学自带电脑。由于很多并行计算的教学内容都需要使用服务器环境，因此本课题将提前准备好服务器环境（主+从结点），第一次上课时会给每个同学分配登录帐号。编程练习和大作业都将在服务器环境下完成。课程结束后，服务器账号将关闭。</div><h2>教学内容与进度安排</h2><div style="white-space:pre-wrap">本课题共10个教学周，分成4个教学模块，每周（节）的具体安排如下：
+
+模块一：分布式文件系统与分布式计算架构
+第1周：大数据技术概述
+大数据开发技术、大数据分析技术、大数据开发与分析技术的比较
+Hadoop的起源、优点及应用领域，HDFS体系结构
+
+第2周：MapReduce（Hadoop计算架构）
+MapReduce编程模型、MapReduce运行框架、MapReduce编程实践
+
+模块二：Spark并行计算技术
+第3周： Spark基本原理
+Spark生态系统、Spark运行架构、Spark的部署方式
+
+第4周： Spark RDD编程
+RDD编程基础、键值对RDD、综合案例
+
+大作业1：Spark RDD编程
+
+第5周： Spark数据操作
+文件数据读写、Spark关系数据库/数据仓库操作
+
+第6周： Spark MLlib
+机器学习工作流、特征抽取、转化和选择、分类与回归
+
+大作业2：Spark ML编程
+
+模块三：深度学习模型及其在非结构化数据分析与处理方面的应用
+第7周：人工神经网络基础
+前馈神经网络简介、常用开源软件架构（TensorFlow/Keras/MXNet/PyTorch）
+参数初始化、层归一化、正则化（regularization）、卷积神经网络/CNN与图像分类和物体识别、典型的卷积神经网络（LeNet-5, AlexNet, Inception网络，残差网络）
+
+大作业3：CNN处理图像数据
+
+第8周：循环神经网络与注意力机制
+循环神经网络/RNN、门控RNN与长短期记忆网络/LSTM、注意力模型、Transformer
+
+模块四：生成式大模型及LlamaIndex编程框架
+第9周：文生文大模型与ChatGPT
+文生文大模型：序列到序列模型、GPT-1/2/3、Instruct-GPT、ChatGPT
+文生图大模型：扩散模型、去噪扩散概率模型DDPM、潜在扩散模型LDM
+
+第10周：LlamaIndex编程框架
+LlamaIndex编程框架、模型I/O、数据增强、链、记忆模块</div><h2>教学参考资料</h2><div style="white-space:pre-wrap">张伟洋，《Spark大数据分析实战》，清华大学出版社，第1版，2020年7月
+
+[美]弗朗索瓦.肖莱 著，张亮 译，《Python深度学习》，人民邮电出版社，第2版，2022年8月</div><h2>教材（教务大纲）</h2><div style="white-space:pre-wrap">书名：神经网络与深度学习；作者：邱锡鹏；出版社：机械工业出版社；出版时间：2020-04；ISBN：9787111649687</div><h2>考核方式</h2><div style="white-space:pre-wrap">出勤Attendance 10.0%（不缺席、不迟到早退）；课堂表现Participation 10.0%（积极参与课堂讨论）；作业/实验/实践Assignment 20.0%（个人大作业（共1次））；汇报Presentation 20.0%（小组大作业（共2次））；课题论文Research Paper 40.0%（期末课程大作业）</div><h2>考核构成</h2><ul><li>出勤Attendance 10.0% 不缺席、不迟到早退</li><li>课堂表现Participation 10.0% 积极参与课堂讨论</li><li>作业/实验/实践Assignment 20.0% 个人大作业（共1次）</li><li>汇报Presentation 20.0% 小组大作业（共2次）</li><li>课题论文Research Paper 40.0% 期末课程大作业</li></ul></body></html>

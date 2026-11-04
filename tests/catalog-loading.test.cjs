@@ -1,0 +1,14 @@
+const fs=require('node:fs'),path=require('node:path'),vm=require('node:vm'),assert=require('node:assert/strict');
+const root=path.resolve(__dirname,'..'),box={window:{}};vm.runInNewContext(fs.readFileSync(path.join(root,'public/assets/catalog-loader.js'),'utf8'),box);
+(async()=>{const load=box.window.CatalogLoader.load,fixture={stats:{course_code_groups:2},scope:[{id:'甲',teachers:['王老师']},{id:'乙'}],syllabi:[{lesson_id:1}]};
+ assert.deepEqual(await load(async()=>fixture),fixture);
+ const manifest={...fixture,catalog_parts:['catalog-scope-001.json','catalog-scope-002.json']};delete manifest.scope;
+ const result=await load(async n=>n==='catalog.json'?structuredClone(manifest):{scope:n.includes('001')?[fixture.scope[0]]:[fixture.scope[1]]});assert.deepEqual(JSON.parse(JSON.stringify(result)),fixture);
+ await assert.rejects(()=>load(async n=>n==='catalog.json'?structuredClone(manifest):{scope:[]}));
+ await assert.rejects(()=>load(async()=>({catalog_parts:['../private.json']})));
+ const html=fs.readFileSync(path.join(root,'public/index.html'),'utf8');assert(html.indexOf('assets/catalog-loader.js')<html.indexOf('assets/app.js'));assert(fs.readFileSync(path.join(root,'public/assets/app.js'),'utf8').includes('CatalogLoader.load(fetchJSON)'));
+ const sourcePath=path.join(root,'public/data/catalog.json'),source=require('../scripts/read-catalog.cjs')(sourcePath);
+ const actual=await load(async n=>JSON.parse(fs.readFileSync(path.join(root,'public/data',n),'utf8')));
+ assert.deepEqual(JSON.parse(JSON.stringify(actual)),source);
+ for(const n of ['catalog.json',...JSON.parse(fs.readFileSync(sourcePath,'utf8')).catalog_parts])assert(fs.statSync(path.join(root,'public/data',n)).size<33554432);
+ console.log('Catalog monolith compatibility, source/browser equality, ordered chunk loading, missing chunks and size validation passed.');})();

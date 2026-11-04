@@ -2,7 +2,7 @@ const assert=require('node:assert/strict');
 const fs=require('node:fs');
 const path=require('node:path');
 const root=path.join(__dirname,'..','public');
-const read=name=>JSON.parse(fs.readFileSync(path.join(root,'data',name),'utf8'));
+const read=name=>require('../scripts/read-catalog.cjs')(path.join(root,'data',name));
 const cat=read('catalog.json'),syn=read('course-summaries.json'),discussions=read('full-discussions.json'),supp=read('review-supplement.json');
 const byCode=new Map(cat.scope.map(g=>[g.code,g]));
 assert.equal(cat.stats.caic_course_groups,273);

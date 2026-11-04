@@ -1,306 +1,306 @@
-<!doctype html><html lang="zh-CN"><meta charset="utf-8"><title>嵌入式系统 · 张睿 · 2026春 CS70007.01</title><style>body{max-width:1000px;margin:35px auto;padding:0 20px;font:16px/1.9 system-ui}table{border-collapse:collapse}td,th{border:1px solid #cad7cf;padding:8px}img{max-width:100%}</style><body><h1>嵌入式系统</h1><p>2026春 · CS70007.01 · 张睿</p><p>来源：复旦教务系统教学班大纲。</p><h2>考核与成绩构成</h2><ul><li>作业/实验/实践Assignment 80.0% 实验成绩</li><li>课堂表现Participation 20.0% 出勤、讨论等</li></ul><h2>课程简介（中文）</h2><p>全面讲解嵌入式系统的一些基本原理和开发流程，详细介绍系统原理、设计方法及软件编程技巧。结合具体的嵌入式实验操作，加深对嵌入式系统的学习。在学习完这门课程之后，学生应该能够对嵌入式系统有一个深入的了解，熟悉基于ARM嵌入式系统的系统结构，掌握基本的嵌入式系统的设计和开发技巧，能够在工作中运用这些知识解决实际问题。</p><h2>课程简介（英文）</h2><p>This course comprehensively explains some basic principles and development processes of embedded systems, providing a detailed introduction to system principles, design methods, and software programming techniques. By combining specific embedded experimental operations, students can deepen their understanding of embedded systems. After completing this course, students should have a profound understanding of embedded systems, be familiar with the system architecture based on ARM embedded systems, master basic design and development techniques of embedded systems, and be able to apply this knowledge to solve practical problems in their work.</p><h2>教学目标</h2><p>对嵌入式系统的定义、组成原理和软硬件设计方法进行全面的介绍。以多核ARM处理器（Cortex-A）为例，详细讲解其硬件结构和控制方法，并在实验平台上实现linux操作系统的移植、硬件驱动以及应用系统开发。通过学习，使学生深入地了解嵌入式系统结构，掌握其软硬件设计方法，提高学生的嵌入式系统开发能力和经验。</p><h2>教学方式</h2><p>课程讲解与实验</p><h2>教学内容与进度安排</h2><table width="637">
-<tbody>
-<tr>
-<td width="45">
-<p><strong>课次</strong></p>
-<p>No.</p>
-</td>
-<td width="66">
-<p><strong>教学周</strong></p>
-<p>Week</p>
-</td>
-<td width="340">
-<p><strong>教学内容及预期效果</strong></p>
-<p>Content &amp; Expected Achievement</p>
-</td>
-<td width="186">
-<p><strong>作业</strong><strong>/</strong><strong>实验</strong><strong>/</strong><strong>实践</strong></p>
-<p>Assignment</p>
-</td>
-</tr>
-<tr>
-<td width="45">
-<p>1</p>
-</td>
-<td width="66">
-<p>1</p>
-</td>
-<td width="340">
-<p>嵌入式系统概述</p>
-<p>1 嵌入式系统的特点</p>
-<p>2 嵌入式系统的发展</p>
-<p>3 常用的嵌入式系统产品</p>
-</td>
-<td width="186">
-<p> </p>
-</td>
-</tr>
-<tr>
-<td width="45">
-<p>2</p>
-</td>
-<td width="66">
-<p>2</p>
-</td>
-<td width="340">
-<p>嵌入式系统开发过程</p>
-<p>1 嵌入式系统的开发流程</p>
-<p>2 嵌入式操作系统及有关软件</p>
-<p>3 嵌入式系统开发的硬件和调试接口</p>
-<p>4 应用开发实例</p>
-</td>
-<td width="186">
-<p> </p>
-</td>
-</tr>
-<tr>
-<td width="45">
-<p>3</p>
-</td>
-<td width="66">
-<p>3</p>
-</td>
-<td width="340">
-<p>嵌入式开发环境</p>
-<p>1 编译环境的基本常识</p>
-<p>2 交叉编译器的生成</p>
-<p>3 开发环境的建立</p>
-<p> </p>
-</td>
-<td width="186">
-<p> </p>
-</td>
-</tr>
-<tr>
-<td width="45">
-<p>4</p>
-</td>
-<td width="66">
-<p>4</p>
-</td>
-<td width="340">
-<p>嵌入式系统移植</p>
-<p>1 bootloader的移植</p>
-<p>2 linux内核的移植</p>
-<p>3文件系统的移植</p>
-</td>
-<td width="186">
-<p> </p>
-</td>
-</tr>
-<tr>
-<td width="45">
-<p>5</p>
-</td>
-<td width="66">
-<p>5</p>
-</td>
-<td width="340">
-<p>实验1：嵌入式linux及android系统移植</p>
-</td>
-<td width="186">
-<p>实验操作及调试</p>
-</td>
-</tr>
-<tr>
-<td width="45">
-<p>6</p>
-</td>
-<td width="66">
-<p>6</p>
-</td>
-<td width="340">
-<p>实验1：嵌入式linux及android系统移植</p>
-</td>
-<td width="186">
-<p>实验操作及调试</p>
-</td>
-</tr>
-<tr>
-<td width="45">
-<p>7</p>
-</td>
-<td width="66">
-<p>7</p>
-</td>
-<td width="340">
-<p>ARM处理器体系结构</p>
-<p>1 嵌入式处理器的内部结构</p>
-<p>2 处理器存储管理体系</p>
-<p>3 处理器总线接口结构</p>
-<p> </p>
-</td>
-<td width="186">
-<p> </p>
-</td>
-</tr>
-<tr>
-<td width="45">
-<p>8</p>
-</td>
-<td width="66">
-<p>8</p>
-</td>
-<td width="340">
-<p>接口原理和软件编程方法（一）</p>
-<p>1 内存管理</p>
-<p>2 UART与SPI接口</p>
-<p>3 GPIO接口</p>
-<p>4 硬件设计与驱动编程</p>
-</td>
-<td width="186">
-<p> </p>
-</td>
-</tr>
-<tr>
-<td width="45">
-<p>9</p>
-</td>
-<td width="66">
-<p>9</p>
-</td>
-<td width="340">
-<p>接口原理和软件编程方法（二）</p>
-<p>1 中断</p>
-<p>2 定时器</p>
-<p>3  DMA传输</p>
-<p>4 相应编程技巧</p>
-</td>
-<td width="186">
-<p> </p>
-</td>
-</tr>
-<tr>
-<td width="45">
-<p>10</p>
-</td>
-<td width="66">
-<p>10</p>
-</td>
-<td width="340">
-<p>实验2 GPIO控制LED灯驱动编程及调用</p>
-</td>
-<td width="186">
-<p>实验操作及调试</p>
-</td>
-</tr>
-<tr>
-<td width="45">
-<p>11</p>
-</td>
-<td width="66">
-<p>11</p>
-</td>
-<td width="340">
-<p>实验2 GPIO控制LED灯驱动编程及调用</p>
-</td>
-<td width="186">
-<p>实验操作及调试</p>
-</td>
-</tr>
-<tr>
-<td width="45">
-<p>12</p>
-</td>
-<td width="66">
-<p>12</p>
-</td>
-<td width="340">
-<p>实验2 GPIO控制LED灯驱动编程及调用</p>
-</td>
-<td width="186">
-<p>实验操作及调试</p>
-</td>
-</tr>
-<tr>
-<td width="45">
-<p>13</p>
-</td>
-<td width="66">
-<p>13</p>
-</td>
-<td width="340">
-<p>实验2 GPIO控制LED灯驱动编程及调用</p>
-</td>
-<td width="186">
-<p>实验操作及调试</p>
-</td>
-</tr>
-<tr>
-<td width="45">
-<p>14</p>
-</td>
-<td width="66">
-<p>14</p>
-</td>
-<td width="340">
-<p>接口原理和软件编程方法（三）</p>
-<p>1 Internet接口介绍</p>
-<p>2 Socks编程技巧</p>
-<p>3 internet server 移植</p>
-</td>
-<td width="186">
-<p> </p>
-</td>
-</tr>
-<tr>
-<td width="45">
-<p>15</p>
-</td>
-<td width="66">
-<p>15</p>
-</td>
-<td width="340">
-<p>应用编程</p>
-<p>     1 简单通信协议介绍</p>
-<p>     2 云平台介绍</p>
-<p>     3 实际工程项目分析</p>
-</td>
-<td width="186">
-<p> </p>
-</td>
-</tr>
-<tr>
-<td width="45">
-<p>16</p>
-</td>
-<td width="66">
-<p>16</p>
-</td>
-<td width="340">
-<p>实验3 云服务器及客户端模型实现</p>
-</td>
-<td width="186">
-<p>实验操作及调试</p>
-</td>
-</tr>
-<tr>
-<td width="45">
-<p>17</p>
-</td>
-<td width="66">
-<p>17</p>
-</td>
-<td width="340">
-<p>实验3 云服务器及客户端模型实现</p>
-</td>
-<td width="186">
-<p>实验操作及调试</p>
-</td>
-</tr>
-<tr>
-<td width="45">
-<p>18</p>
-</td>
-<td width="66">
-<p>18</p>
-</td>
-<td width="340">
-<p>实验3 云服务器及客户端模型实现</p>
-</td>
-<td width="186">
-<p>实验操作及调试</p>
-</td>
-</tr>
-</tbody>
+<!doctype html><html lang="zh-CN"><meta charset="utf-8"><title>嵌入式系统 · 张睿 · 2026春 CS70007.01</title><style>body{max-width:1000px;margin:35px auto;padding:0 20px;font:16px/1.9 system-ui}table{border-collapse:collapse}td,th{border:1px solid #cad7cf;padding:8px}img{max-width:100%}</style><body><h1>嵌入式系统</h1><p>2026春 · CS70007.01 · 张睿</p><p>来源：复旦教务系统教学班大纲。</p><h2>考核与成绩构成</h2><ul><li>作业/实验/实践Assignment 80.0% 实验成绩</li><li>课堂表现Participation 20.0% 出勤、讨论等</li></ul><h2>课程简介（中文）</h2><p>全面讲解嵌入式系统的一些基本原理和开发流程，详细介绍系统原理、设计方法及软件编程技巧。结合具体的嵌入式实验操作，加深对嵌入式系统的学习。在学习完这门课程之后，学生应该能够对嵌入式系统有一个深入的了解，熟悉基于ARM嵌入式系统的系统结构，掌握基本的嵌入式系统的设计和开发技巧，能够在工作中运用这些知识解决实际问题。</p><h2>课程简介（英文）</h2><p>This course comprehensively explains some basic principles and development processes of embedded systems, providing a detailed introduction to system principles, design methods, and software programming techniques. By combining specific embedded experimental operations, students can deepen their understanding of embedded systems. After completing this course, students should have a profound understanding of embedded systems, be familiar with the system architecture based on ARM embedded systems, master basic design and development techniques of embedded systems, and be able to apply this knowledge to solve practical problems in their work.</p><h2>教学目标</h2><p>对嵌入式系统的定义、组成原理和软硬件设计方法进行全面的介绍。以多核ARM处理器（Cortex-A）为例，详细讲解其硬件结构和控制方法，并在实验平台上实现linux操作系统的移植、硬件驱动以及应用系统开发。通过学习，使学生深入地了解嵌入式系统结构，掌握其软硬件设计方法，提高学生的嵌入式系统开发能力和经验。</p><h2>教学方式</h2><p>课程讲解与实验</p><h2>教学内容与进度安排</h2><table width="637">
+<tbody>
+<tr>
+<td width="45">
+<p><strong>课次</strong></p>
+<p>No.</p>
+</td>
+<td width="66">
+<p><strong>教学周</strong></p>
+<p>Week</p>
+</td>
+<td width="340">
+<p><strong>教学内容及预期效果</strong></p>
+<p>Content &amp; Expected Achievement</p>
+</td>
+<td width="186">
+<p><strong>作业</strong><strong>/</strong><strong>实验</strong><strong>/</strong><strong>实践</strong></p>
+<p>Assignment</p>
+</td>
+</tr>
+<tr>
+<td width="45">
+<p>1</p>
+</td>
+<td width="66">
+<p>1</p>
+</td>
+<td width="340">
+<p>嵌入式系统概述</p>
+<p>1 嵌入式系统的特点</p>
+<p>2 嵌入式系统的发展</p>
+<p>3 常用的嵌入式系统产品</p>
+</td>
+<td width="186">
+<p> </p>
+</td>
+</tr>
+<tr>
+<td width="45">
+<p>2</p>
+</td>
+<td width="66">
+<p>2</p>
+</td>
+<td width="340">
+<p>嵌入式系统开发过程</p>
+<p>1 嵌入式系统的开发流程</p>
+<p>2 嵌入式操作系统及有关软件</p>
+<p>3 嵌入式系统开发的硬件和调试接口</p>
+<p>4 应用开发实例</p>
+</td>
+<td width="186">
+<p> </p>
+</td>
+</tr>
+<tr>
+<td width="45">
+<p>3</p>
+</td>
+<td width="66">
+<p>3</p>
+</td>
+<td width="340">
+<p>嵌入式开发环境</p>
+<p>1 编译环境的基本常识</p>
+<p>2 交叉编译器的生成</p>
+<p>3 开发环境的建立</p>
+<p> </p>
+</td>
+<td width="186">
+<p> </p>
+</td>
+</tr>
+<tr>
+<td width="45">
+<p>4</p>
+</td>
+<td width="66">
+<p>4</p>
+</td>
+<td width="340">
+<p>嵌入式系统移植</p>
+<p>1 bootloader的移植</p>
+<p>2 linux内核的移植</p>
+<p>3文件系统的移植</p>
+</td>
+<td width="186">
+<p> </p>
+</td>
+</tr>
+<tr>
+<td width="45">
+<p>5</p>
+</td>
+<td width="66">
+<p>5</p>
+</td>
+<td width="340">
+<p>实验1：嵌入式linux及android系统移植</p>
+</td>
+<td width="186">
+<p>实验操作及调试</p>
+</td>
+</tr>
+<tr>
+<td width="45">
+<p>6</p>
+</td>
+<td width="66">
+<p>6</p>
+</td>
+<td width="340">
+<p>实验1：嵌入式linux及android系统移植</p>
+</td>
+<td width="186">
+<p>实验操作及调试</p>
+</td>
+</tr>
+<tr>
+<td width="45">
+<p>7</p>
+</td>
+<td width="66">
+<p>7</p>
+</td>
+<td width="340">
+<p>ARM处理器体系结构</p>
+<p>1 嵌入式处理器的内部结构</p>
+<p>2 处理器存储管理体系</p>
+<p>3 处理器总线接口结构</p>
+<p> </p>
+</td>
+<td width="186">
+<p> </p>
+</td>
+</tr>
+<tr>
+<td width="45">
+<p>8</p>
+</td>
+<td width="66">
+<p>8</p>
+</td>
+<td width="340">
+<p>接口原理和软件编程方法（一）</p>
+<p>1 内存管理</p>
+<p>2 UART与SPI接口</p>
+<p>3 GPIO接口</p>
+<p>4 硬件设计与驱动编程</p>
+</td>
+<td width="186">
+<p> </p>
+</td>
+</tr>
+<tr>
+<td width="45">
+<p>9</p>
+</td>
+<td width="66">
+<p>9</p>
+</td>
+<td width="340">
+<p>接口原理和软件编程方法（二）</p>
+<p>1 中断</p>
+<p>2 定时器</p>
+<p>3  DMA传输</p>
+<p>4 相应编程技巧</p>
+</td>
+<td width="186">
+<p> </p>
+</td>
+</tr>
+<tr>
+<td width="45">
+<p>10</p>
+</td>
+<td width="66">
+<p>10</p>
+</td>
+<td width="340">
+<p>实验2 GPIO控制LED灯驱动编程及调用</p>
+</td>
+<td width="186">
+<p>实验操作及调试</p>
+</td>
+</tr>
+<tr>
+<td width="45">
+<p>11</p>
+</td>
+<td width="66">
+<p>11</p>
+</td>
+<td width="340">
+<p>实验2 GPIO控制LED灯驱动编程及调用</p>
+</td>
+<td width="186">
+<p>实验操作及调试</p>
+</td>
+</tr>
+<tr>
+<td width="45">
+<p>12</p>
+</td>
+<td width="66">
+<p>12</p>
+</td>
+<td width="340">
+<p>实验2 GPIO控制LED灯驱动编程及调用</p>
+</td>
+<td width="186">
+<p>实验操作及调试</p>
+</td>
+</tr>
+<tr>
+<td width="45">
+<p>13</p>
+</td>
+<td width="66">
+<p>13</p>
+</td>
+<td width="340">
+<p>实验2 GPIO控制LED灯驱动编程及调用</p>
+</td>
+<td width="186">
+<p>实验操作及调试</p>
+</td>
+</tr>
+<tr>
+<td width="45">
+<p>14</p>
+</td>
+<td width="66">
+<p>14</p>
+</td>
+<td width="340">
+<p>接口原理和软件编程方法（三）</p>
+<p>1 Internet接口介绍</p>
+<p>2 Socks编程技巧</p>
+<p>3 internet server 移植</p>
+</td>
+<td width="186">
+<p> </p>
+</td>
+</tr>
+<tr>
+<td width="45">
+<p>15</p>
+</td>
+<td width="66">
+<p>15</p>
+</td>
+<td width="340">
+<p>应用编程</p>
+<p>     1 简单通信协议介绍</p>
+<p>     2 云平台介绍</p>
+<p>     3 实际工程项目分析</p>
+</td>
+<td width="186">
+<p> </p>
+</td>
+</tr>
+<tr>
+<td width="45">
+<p>16</p>
+</td>
+<td width="66">
+<p>16</p>
+</td>
+<td width="340">
+<p>实验3 云服务器及客户端模型实现</p>
+</td>
+<td width="186">
+<p>实验操作及调试</p>
+</td>
+</tr>
+<tr>
+<td width="45">
+<p>17</p>
+</td>
+<td width="66">
+<p>17</p>
+</td>
+<td width="340">
+<p>实验3 云服务器及客户端模型实现</p>
+</td>
+<td width="186">
+<p>实验操作及调试</p>
+</td>
+</tr>
+<tr>
+<td width="45">
+<p>18</p>
+</td>
+<td width="66">
+<p>18</p>
+</td>
+<td width="340">
+<p>实验3 云服务器及客户端模型实现</p>
+</td>
+<td width="186">
+<p>实验操作及调试</p>
+</td>
+</tr>
+</tbody>
 </table><h2>课程考核与成绩评定</h2><h2>教材</h2><h2>教学参考资料</h2><p>实验板手册及芯片手册、网络开发资源等</p><h2>教学团队成员</h2></body></html>

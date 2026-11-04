@@ -1,0 +1,186 @@
+<!doctype html><html lang="zh-CN"><meta charset="utf-8"><body><h1>医学图像处理</h1><p>2026春 · CS50026.01 · 周渊</p><p>来源：复旦教务系统教学大纲；正文整理。</p><h2>课程简介（中文）</h2><div style="white-space:pre-wrap">本课程讲授医学图像处理在重建，去噪，分割，配准领域的经典算法。在时间允许的情况下，也会包括疾病进展模型和可解释机器学习等前沿内容。具体内容如下。
+
+1、重建：各种模态图像的成像原理，傅里叶变换，CT重建。
+
+2、去噪：高斯滤波，变分法，全变分去噪，非局部均值滤波。
+
+3、分割：边缘检测，动态规划，主动轮廓模型，主动形状模型。
+
+4、配准：空间变换，相似度测量，多尺度搜索，形变配准，微分同胚配准。</div><h2>课程简介（英文）</h2><div style="white-space:pre-wrap">This course teaches the classic algorithms in the reconstruction, denoising, segmentation, registration areas of medical image analysis. When time is allowed, the course will also include advanced topics such as disease progression models and interpretable machine learning. The specific contents include:
+
+1. Reconstruction: recontruction principles of various imaging modalities, Fourier transform, CT reconstruction
+
+2. Denoising: Gaussian filtering, calculus of variations, total variation denoising, non-local means
+
+3. Segmentation: edge detection, dynamic programming, active contour model, active shape model
+
+4. Registration: transformations, similarity metric, multi-resolution search, deformable registration, diffeomorphic registration</div><h2>教学目标</h2><div style="white-space:pre-wrap">本课程旨在通过对医学图像处理算法的学习，使学生理解医学图像的重建、去噪、分割、配准等常用处理算法。在掌握理论知识的同时，让学生实践这些算法并应用到医学图像上，从而让学生能够独立地对这一领域的问题进行建模并解决相关问题。</div><h2>教学方式</h2><div style="white-space:pre-wrap">课程以课堂讲解为主，具体方式包括板书、计算机程序演示和PPT展示，课堂提问讨论为辅，并根据授课情况进行调整。有兴趣的同学可以通过elearning自学阅读资料，与老师通过微信群、邮件和当面答疑方式交流。学生通过课后练习和项目实践主动参与学习。</div><h2>教学内容与进度安排</h2><div style="white-space:pre-wrap">第一周 – 前言
+成像的基本原理
+医学图像处理中的问题
+
+第二周 – 傅里叶变换
+复数
+傅里叶变换（1d和2d）
+傅里叶变换的性质
+卷积
+傅里叶变换的例子
+
+第三周 – 采样定理
+采样定理
+离散傅里叶变换
+快速傅里叶变换
+
+第四周 – CT重建
+Radon变换
+投影切片定理
+Filtered Backprojection
+
+第五周 – 高斯滤波 vs. 偏微分方程
+高斯平滑，尺度空间理论及其与扩散方程的关系
+各向异性扩散
+
+第六周 – 变分法
+变分法
+
+第七周 – 从局部滤波器到全局滤波器
+全变分去噪
+非局部均值滤波
+
+第八周 – 分割基础
+基于区域的分割vs基于边缘的分割
+边缘检测（LoG，Canny）
+霍夫变换
+动态规划
+
+第九周 – Snake
+Snake和GVF
+
+第十周 – 水平集
+隐式曲线
+隐式曲线/曲面的几何性质
+符号距离函数
+
+第十一周 – 水平集方法
+水平集方法
+测地线活动轮廓
+Chan-Vese模型
+
+第十二周 – 形状先验
+形状空间
+主动形状模型
+
+第十三周 – 配准介绍
+单模态vs.多模态
+变换（刚性、相似、仿射、可变形、微分同胚）
+相似度度量（SSD，交叉相关，互信息）
+为什么互信息有效
+
+第十四周 – 搜索
+多分辨率搜索策略
+相位相关
+
+第十五周 – 形变配准
+扩散模型
+Demon
+互信息的导数
+
+第十六周 – 微分同胚配准
+Diffeomorphic Demon
+LDDMM
+SyN, DARTEL
+
+
+
+Week 1 - Introduction
+Imaging Fundamentals
+Problems in Medical Image Analysis
+
+Week 2 - Fourier transform
+Complex Number
+Fourier Transform 1D/2D
+Fourier Transform Properties
+Fourier Transform Examples
+
+Week 3 – Sampling theorem
+Sampling Theorem
+Discrete Fourier Transform
+Fast Fourier Transform
+
+Week 4 - CT reconstruction
+Radon transform
+Projection slice theorem
+Filtered backprojection
+
+Week 5 - Gaussian filtering vs. PDE
+Gaussian smoothing, scale space theory and its relation to the diffusion equation
+Anisotropic diffusion
+
+Week 6 - Calculus of variations
+Calculus of variations
+
+Week 7 - From local filter to global filter
+Total variation denoising
+Non-local means
+
+Week 8 - Segmentation basics
+Region-based vs edge-based
+Edge detection (Laplacian of Gaussian, Canny)
+Hough Transform
+Dynamic Programming
+
+Week 9 - Snake
+Snake and GVF
+
+Week 10 - Level set
+Implicit curve
+Geometric properties of implicit curve
+Signed distance function
+
+Week 11 - Level set methods
+Level set methods
+Geodesic active contour
+Chan-Vese model
+
+Week 12 – Shape prior
+Shape space
+Active shape model (Introduce shape prior into segmentation)
+
+Week 13 - Introduction to registration
+Single modality vs multiple modality
+Transformations (rigid, similarity, affine, deformable, diffeomorphic)
+Similarity metric (SSD, cross correlation, mutual information)
+Why mutual information works
+
+Week 14 - Searching
+Multiresolution search strategy
+Phase correlation
+
+Week 15 - Deformable registration
+Diffusion model
+Demon
+B-spline
+Derivative of mutual information
+
+Week 16 - Diffeomorphic Registration
+Diffeomorphic Demon
+LDDMM
+SyN, DARTEL</div><h2>教学参考资料</h2><div style="white-space:pre-wrap">教材
+•    P. Suetens, “Fundamentals of Medical Imaging”, Cambridge Univ. Press, 2017
+•    Rafael C. Gonzalez, Richard E. Woods, “Digital Image Processing”, Fourth edition, Pearson Education International, 2018
+•    Joachim Weickert, “Anisotropic Diffusion in Image Processing”, Teubner Stuttgart, 1998
+•    Stanley Osher, Ronald Fedkiw, “Level Set Methods and Dynamic Implicit Surfaces”, Springer, 2003
+论文
+•    P. Perona, J. Malik, “Scale-space and edge detection using anisotropic diffusion”, TPAMI, 1990
+•    L. Rudin, S. Osher, E. Fatemi, “Nonlinear total variation based noise removal algorithms”, Physica D: Nonlinear Phenomena, 1992
+•    C. Tomasi, R. Manduchi, “Bilateral filtering for gray and color images”, ICCV, 1998
+•    A. Buades, B. Coll, J-M Morel, “A non-local algorithm for image denoising”, CVPR, 2005
+•    M. Kass, A. Witkin, D. Terzopoulos, “Snakes: Active contour models”, IJCV, 1988
+•    L. Cohen, “On active contour models and balloons”, CVGIP, 1991
+•    V. Caselles, R. Kimmel, G. Sapiro, “Geodesic active contours”, IJCV, 1997
+•    C. Xu, J.L. Prince, “Snakes, shapes, and gradient vector flow”, TIP, 1998
+•    T.F. Chan, L.A. Vese, “Active contours without edges”, TIP, 2001
+•    J.P. Thirion, “Image matching as a diffusion process: an analogy with Maxwell&#x27;s demons”, MedIA, 1998
+•    B.S. Reddy, B.N. Chatterji, “An FFT-based technique for translation, rotation, and scale-invariant image registration”, TIP, 1996
+•    A. Sotiras, C. Davatzikos, N. Paragios, “Deformable Medical Image Registration: A Survey”, TMI, 2013
+•    M.F. Beg, M. Miller, A. Trouve, L. Younes, “Computing Large Deformation Metric Mappings via Geodesic Flows of Diffeomorphisms”, IJCV, 2005
+•    T. Vercauteren, X. Pennec, A. Perchant, N. Ayache, “Diffeomorphic demons: Efficient non-parametric image registration”, NeuroImage, 2009</div><h2>考核方式</h2><div style="white-space:pre-wrap">作业/实验/实践Assignment 40.0%；课题论文Research Paper 60.0%</div><h2>考核构成</h2><ul><li>作业/实验/实践Assignment 40.0% </li><li>课题论文Research Paper 60.0% </li></ul></body></html>

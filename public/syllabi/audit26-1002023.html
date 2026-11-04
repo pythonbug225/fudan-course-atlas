@@ -1,0 +1,231 @@
+<!doctype html><html lang="zh-CN"><meta charset="utf-8"><title>医学影像深度学习</title><body><h1>医学影像深度学习</h1><p>2025秋 · AIS310019.02 · 宋志坚、史勇红、王满宁、章琛曦</p><p>来源：复旦教务系统教学大纲，本轮使用已授权账号下载。原始正文与考核信息；去除联系方式和网页脚本，内嵌图片按原字节去重保存。</p><h2>课程简介（中文）</h2><p>本课程系统讲授医学影像基础与机器学习/深度学习核心理论，深入剖析神经网络、卷积神经网络、循环神经网络及Transformer等前沿模型在处理图像与序列数据中的独特优势。学生将探索深度学习在医学影像分析（如精准分割、目标检测、智能分类）中的广泛应用，掌握网络设计、性能优化及针对特定医学任务的模型定制策略。核心特色在于贯穿始终的MATLAB编程实践：通过真实医学影像数据集，学生将亲历从数据获取与预处理、特征工程、模型构建与训练，到严谨评估与迭代优化的全流程，旨在将理论知识高效转化为解决实际医学AI问题的实战能力。</p><h2>课程简介（英文）</h2><table>
+<tbody>
+<tr>
+<td>
+<p>This course systematically covers the fundamentals of medical imaging alongside the core theories of machine learning and deep learning. It delves into the unique advantages of advanced models such as Neural Networks (NN), Convolutional Neural Networks (CNN), Recurrent Neural Networks (RNN), and Transformers in processing image and sequential data. Students will explore the extensive applications of deep learning in medical image analysis,  including precise segmentation, object detection, and intelligent classification, and master network design, performance optimization, and strategies for customizing models to specific medical tasks. A key highlight is the integral MATLAB programming practice threaded throughout. Through hands-on work with real-world medical imaging datasets, students will experience the entire pipeline: from data acquisition and preprocessing, feature engineering, and model construction and training, to rigorous evaluation and iterative optimization. The course aims to effectively translate theoretical knowledge into practical skills for addressing real-world AI challenges in medicine.</p>
+</td>
+</tr>
+</tbody>
+</table><h2>教学目标</h2><table>
+<tbody>
+<tr>
+<td>
+<p>《医学影像深度学习》作为AI赋能的交叉学科课程，深度融合医学、计算机科学、人工智能与数据科学，旨在为医学生构建跨学科综合知识体系与前瞻视野。课程秉持理论与实践并重，确保学生不仅精通深度学习原理，更能将其应用于医学影像的真实挑战。内容将紧随技术前沿持续更新，并通过实验与项目驱动，激发创新思维，培养学生解决复杂医学AI问题的综合能力。<strong>本课程教学目标体现在三个方面。在价值引领上，</strong>引导学生深入挖掘医学影像信息，培养结合临床实际、广泛涉猎、审思明辨的科学素养，以创造性地提出解决实际医学问题的AI方案。<strong>在知识传授上，</strong>系统讲授深度学习的基础理论、核心算法、经典及前沿网络结构，及其在医学影像分类、分割、目标检测等关键任务中的应用。<strong>在能力培养上，</strong>强化实践技能，使学生能熟练运用MATLAB等工具进行医学影像的规范处理与智能分析，并掌握深度学习模型设计、高效实现、严谨评估与持续优化的全周期能力。</p>
+</td>
+</tr>
+</tbody>
+</table><h2>教学方式</h2><table>
+<tbody>
+<tr>
+<td>
+<p>本课程<strong>组织形式：</strong>每节课均采用“2课时理论引导与研讨 + 2课时MATLAB编程实践”的结构。</p>
+<p><strong>教学策略与方法：理论学习阶段（聚焦知识传授与价值引领）：</strong>超越传统单向讲授，通过系统梳理结合案例驱动与问题导向的研讨式教学，引导学生主动思考、积极参与。此环节旨在让学生不仅掌握深度学习的核心概念、算法原理及前沿网络，更能将理论与临床实际相联系，内化审思明辨的科学素养，为创造性提出医学AI解决方案奠定基础。这直接对应了知识传授与价值引领目标。<strong>MATLAB</strong><strong>编程实践阶段（强化能力培养与知识应用）：</strong>该阶段与理论教学紧密衔接，学生将亲历从数据预处理、模型构建与训练，到性能评估与优化的全流程实战。通过指导性实验确保基本技能掌握，并通过开放性任务与小型项目鼓励自主探索、协作攻关。这一过程使学生在“做中学”中将抽象理论显性化、技能化，直接锤炼其运用工具进行影像分析、设计、实现与优化AI模型的全周期核心能力，与能力培养目标精准对齐。</p>
+</td>
+</tr>
+</tbody>
+</table><h2>教学内容与进度安排</h2><table>
+<tbody>
+<tr>
+<td>
+<p><strong>教学周：第1周 </strong><strong>(</strong><strong>主讲：宋志坚老师；实验：史勇红老师)</strong></p>
+<p>·      <strong>理论课内容</strong><strong> (2</strong><strong>学时</strong><strong>): </strong><strong>深度学习简介</strong></p>
+<p>基本概念：人工智能、机器学习、深度学习的层级关系与核心思想。发展历程：关键里程碑事件、代表性人物与突破。医学影像分析中的应用：概述在疾病检测、分割、配准、重建等领域的成功案例与前景。</p>
+<p>·      <strong>教学目标</strong><strong> (</strong><strong>理论</strong><strong>):</strong></p>
+<p>理解深度学习的基本概念、特点及其与机器学习、人工智能的关系。了解深度学习的主要发展阶段和关键技术突破。初步认识深度学习在医学影像分析领域的应用场景和潜力。激发学生对本课程及相关前沿技术的学习兴趣（价值引领）。</p>
+<p>·      <strong>实验课内容</strong><strong> (2</strong><strong>学时，需算力支持</strong><strong>):  MATLAB</strong><strong>编程基础</strong><strong> (</strong><strong>一</strong><strong>)</strong></p>
+<p>MATLAB环境介绍、基本操作界面、变量与数据类型、基本运算符。脚本文件和函数文件的创建与使用。数组和矩阵的创建、索引与基本运算。</p>
+<p>·      <strong>教学目标</strong><strong> (</strong><strong>实验</strong><strong>):</strong></p>
+<p>熟悉MATLAB的开发环境和基本操作。掌握MATLAB中变量定义、基本数据类型和运算符的使用。掌握MATLAB脚本和函数的编写与调用方法。熟练进行MATLAB中数组和矩阵的创建、索引及基本运算（能力培养）。</p>
+<p>·      <strong>暂定作业要求</strong><strong>:</strong></p>
+<p>1)       预习神经网络基本原理。</p>
+<p><strong>教学周：第2周 (主讲：宋志坚老师；实验：史勇红老师)</strong></p>
+<p>·      <strong>理论课内容</strong><strong> (2</strong><strong>学时</strong><strong>): </strong><strong>神经网络基本原理及其临床应用</strong></p>
+<p>生物神经元与人工神经元模型（MP模型）。感知机模型及其局限性。多层感知机（MLP）、激活函数（Sigmoid, Tanh, ReLU等）。神经网络在临床诊断、预后预测中的初步应用案例。</p>
+<p>·      <strong>教学目标</strong><strong> (</strong><strong>理论</strong><strong>):</strong></p>
+<p>理解人工神经元、感知机和多层感知机的基本结构与工作原理（知识传授）。掌握常用激活函数的作用和特性。了解神经网络如何应用于解决简单的临床问题。</p>
+<p>·      <strong>实验课内容</strong><strong> (2</strong><strong>学时，需算力支持</strong><strong>): MATLAB</strong><strong>编程基础</strong><strong> (</strong><strong>二</strong><strong>)</strong></p>
+<p>MATLAB流程控制语句：if-else, for, while。MATLAB绘图基础：二维图形绘制（plot, scatter, bar等）。简单数据文件的读写操作。</p>
+<p>·      <strong>教学目标</strong><strong> (</strong><strong>实验</strong><strong>):</strong></p>
+<p>掌握MATLAB中常用流程控制语句的编写和使用。学会使用MATLAB绘制基本的二维图形，并进行图表修饰。掌握MATLAB对简单数据文件（如.txt, .csv）的读写操作（能力培养）。</p>
+<p>·      <strong>暂定作业要求</strong><strong>:</strong></p>
+<p>1)       简述感知机与多层感知机的区别与联系。</p>
+<p>2)       预习医学影像预处理</p>
+<p><strong>教学周：第3周 (主讲+实验：史勇红老师)</strong></p>
+<p>·      <strong>理论课内容</strong><strong> (2</strong><strong>学时</strong><strong>): </strong><strong>医学影像预处理及影像增强</strong></p>
+<p>医学影像数据特点（DICOM标准简介）。预处理的目的与意义：噪声去除、对比度增强、几何校正、归一化等。常用预处理方法：灰度变换、直方图均衡化、空间滤波（均值、中值、高斯）。</p>
+<p>·      <strong>教学目标</strong><strong> (</strong><strong>理论</strong><strong>):</strong></p>
+<p>了解医学影像数据的基本特点和DICOM标准。理解医学影像预处理的目的、重要性以及常用技术手段（知识传授）。掌握灰度变换、直方图均衡化、空间滤波等基本预处理方法的原理。</p>
+<p>·      <strong>实验课内容</strong><strong> (2</strong><strong>学时，需算力支持</strong><strong>): </strong><strong>利用</strong><strong>MATLAB</strong><strong>读写可视化影像及预处理实践</strong></p>
+<p>MATLAB读取、显示和保存常见医学影像格式（如DICOM, NIfTI, PNG, JPG）。实现灰度变换、直方图均衡化、均值滤波、中值滤波等预处理算法。</p>
+<p>·      <strong>教学目标</strong><strong> (</strong><strong>实验</strong><strong>):</strong></p>
+<p>掌握使用MATLAB进行常见医学影像文件的读取、显示和保存（能力培养）。能够运用MATLAB编程实现并对比不同的图像预处理方法及其效果。培养对预处理参数选择与结果评估的初步能力。</p>
+<p>·      <strong>暂定作业要求</strong><strong>:</strong></p>
+<p>1)       选择一张医学影像，分别对其进行直方图均衡化、均值滤波和中值滤波处理，对比并分析结果。提交代码及实验报告。</p>
+<p>2)       预习医学影像分割基础</p>
+<p><strong>教学周：第4周 (主讲+实验：史勇红老师)</strong></p>
+<p>·      <strong>理论课内容</strong><strong> (2</strong><strong>学时</strong><strong>): </strong><strong>医学影像分割基础</strong></p>
+<p>影像分割定义、目的及在临床诊断中的应用。基于阈值的分割方法（全局阈值、自适应阈值、Otsu法）。基于区域的分割方法（区域生长、区域分裂与合并）。基于边缘的分割方法（Roberts, Sobel, Prewitt, Canny算子）。</p>
+<p>·      <strong>教学目标</strong><strong> (</strong><strong>理论</strong><strong>):</strong></p>
+<p>理解医学影像分割的基本概念、目标和临床意义（知识传授）。掌握基于阈值、区域和边缘的经典分割方法的原理和适用场景。能够分析不同分割方法的优缺点。</p>
+<p>·      <strong>实验课内容</strong><strong> (2</strong><strong>学时，需算力支持</strong><strong>): </strong><strong>利用</strong><strong>MATLAB</strong><strong>进行医学影像分割实践</strong></p>
+<p>实现全局阈值分割、Otsu法分割。实现基于区域生长的分割算法。应用Roberts, Sobel, Canny等边缘检测算子。对比不同分割方法在特定医学影像上的效果。</p>
+<p>·      <strong>教学目标</strong><strong> (</strong><strong>实验</strong><strong>):</strong></p>
+<p>能够运用MATLAB编程实现经典的图像分割算法（能力培养）。学会调整分割算法参数，观察并分析分割结果。初步培养评估分割算法性能的意识。</p>
+<p>·      <strong>暂定作业要求</strong><strong>:</strong></p>
+<p>1)       选择一张包含明确目标区域的医学影像，分别尝试使用Otsu法和区域生长法进行分割，比较结果并讨论各自的优劣。提交代码及实验报告。</p>
+<p>2)       预习医学影像形态学</p>
+<p><strong>教学周：第5周 (主讲+实验：史勇红老师)</strong></p>
+<p>·      <strong>理论课内容</strong><strong> (2</strong><strong>学时</strong><strong>): </strong><strong>医学影像形态学及特征分析</strong></p>
+<p>数学形态学基本操作：腐蚀、膨胀、开运算、闭运算。形态学应用：噪声去除、目标连接、孔洞填充、骨架提取等。医学影像特征提取：形状特征、纹理特征（灰度共生矩阵等）、统计特征。</p>
+<p>·      <strong>教学目标</strong><strong> (</strong><strong>理论</strong><strong>):</strong></p>
+<p>掌握数学形态学的基本运算及其组合运算的原理和作用（知识传授）。了解形态学处理在医学影像分析中的常见应用。理解医学影像中常用特征（形状、纹理、统计）的定义和提取方法。</p>
+<p>·      <strong>实验课内容</strong><strong> (2</strong><strong>学时，需算力支持</strong><strong>): </strong><strong>利用</strong><strong>MATLAB</strong><strong>进行形态学处理及特征提取实践</strong></p>
+<p>实现腐蚀、膨胀、开运算、闭运算等形态学操作。应用形态学操作进行图像去噪或目标细节处理。提取医学影像目标的简单形状特征（面积、周长、圆形度等）和统计特征（均值、方差等）。</p>
+<p>·      <strong>教学目标</strong><strong> (</strong><strong>实验</strong><strong>):</strong></p>
+<p>能够运用MATLAB实现基本的数学形态学运算，并应用于医学影像处理任务（能力培养）。掌握从分割后的医学影像目标中提取简单形状和统计特征的方法。</p>
+<p>·      <strong>暂定作业要求</strong><strong>:</strong></p>
+<p>1)       对上周分割结果进行形态学后处理（如开/闭运算去除噪声或连接断裂区域），分析处理效果。计算处理后目标的面积和周长。提交代码及实验报告。</p>
+<p>2)       预习最近邻分类器。</p>
+<p><strong>教学周：第6周 (主讲+实验：王满宁老师)</strong></p>
+<p>·      <strong>理论课内容</strong><strong> (2</strong><strong>学时</strong><strong>): </strong><strong>最近邻分类器</strong></p>
+<p>针对数字化图像的分类问题，介绍规则驱动的分类方法和数据驱动的分类方法；介绍最近邻分类器和K近邻分类器原理，分类器训练中的数据划分和分类器性能评价方法；讲解一个实用的分类方法：特征提取+最近邻分类器。</p>
+<p>·      <strong>教学目标</strong><strong> (</strong><strong>理论</strong><strong>):</strong></p>
+<p>理解数据驱动分类方法的基本逻辑；掌握最近邻分类器和K近邻分类器的原理和实现方法；掌握数据驱动的分类器训练的两项基本内容：数据划分和性能评价（知识传授）。</p>
+<p>·      <strong>实验课内容</strong><strong> (2</strong><strong>学时，需算力支持</strong><strong>): </strong><strong>基于规则的分类器和最近邻</strong><strong>/K</strong><strong>近邻分类器</strong><strong>   </strong></p>
+<p>使用MATLAB实现一系列规则驱动的分类器；使用MATLAB编写最近邻分类器程序，实现对手写体数字的分类；使用MATLAB编写特征提取和最近邻分类器程序，实现对CIFA10数据集中的图像的分类</p>
+<p>·      <strong>教学目标</strong><strong> (</strong><strong>实验</strong><strong>):</strong></p>
+<p>掌握使用MATLAB实现最近邻分算法的能力（能力培养）。</p>
+<p>·      <strong>暂定作业要求</strong><strong>:</strong></p>
+<p>1)       预习线性分类器相关内容。</p>
+<p><strong>教学周：第7周 (主讲+实验：王满宁老师)</strong></p>
+<p>·      <strong>理论课内容</strong><strong> (2</strong><strong>学时</strong><strong>): </strong><strong>深度学习基础：线性分类器</strong></p>
+<p>回顾线性代数相关基本概念；介绍线性分类器的两个主要部分：评分函数和损失函数；介绍SVM损失和SoftMax损失的原理及相互关系。</p>
+<p>·      <strong>教学目标</strong><strong> (</strong><strong>理论</strong><strong>):</strong></p>
+<p>掌握必要的线性代数基础知识；理解线性分类器的工作原理；掌握SVM和SoftMax损失的原理。</p>
+<p>·      <strong>实验课内容</strong><strong> (2</strong><strong>学时，需算力支持</strong><strong>): </strong><strong>线性分类器设计实践</strong></p>
+<p>利用MATLAB实现线性代数中关于矩阵和向量的基本运算；利用MATLAB编程，针对手写体数字识别数据集（图像），计算不同图像针对不同分类类别的评分；利用MATLAB编程，针对手写体数字识别数据集（图像），计算不同图像针对不同分类类别的svm损失。</p>
+<p>·      <strong>教学目标</strong><strong> (</strong><strong>实验</strong><strong>):</strong></p>
+<p>能够使用MATLAB实现评分和损失的计算（能力培养）。通过实践进一步理解线性代数关于矩阵和向量的基本运算。进一步增强代码调试能力</p>
+<p>·      <strong>暂定作业要求</strong><strong>:</strong></p>
+<p>1)       线性代数基本运算作业（可以借用MATLAB进行计算）；</p>
+<p>2)       样本评分和损失计算；</p>
+<p>3)       预习“规范化、优化和神经网络”相关内容</p>
+<p><strong>教学周：第8周 (主讲+实验：王满宁老师)</strong></p>
+<p>·      <strong>理论课内容</strong><strong> (2</strong><strong>学时</strong><strong>):</strong><strong>规范化、优化和神经网络</strong></p>
+<p>介绍分类器训练中规范化和损失的作用和基本原理；介绍目标函数优化的基本方法；介绍梯度下降优化方法；介绍神经网络的基本原理。</p>
+<p>·      <strong>教学目标</strong><strong> (</strong><strong>理论</strong><strong>):</strong></p>
+<p>理解实际分类模型的设计和优化方法及其两个核心部分：规范化和优化（知识传授）。介绍一个实用的优化方法——梯度下降法。（价值引领：培养严谨的科研态度）。</p>
+<p>·      <strong>实验课内容</strong><strong> (2</strong><strong>学时，需算力支持</strong><strong>):</strong><strong>分类器优化实践</strong></p>
+<p>利用MATLAB编写一个线性分类器，并使用SVM损失和梯度下降法对其进行优化，查看随着优化的进行分类器性能的变化。</p>
+<p>·      <strong>教学目标</strong><strong> (</strong><strong>实验</strong><strong>):</strong></p>
+<p>学会使用MATLAB进行更复杂编程的能力（能力培养）。掌握基本的分类器设计、实现、优化方法，并对分类结果进行解读和初步分析。</p>
+<p>·      <strong>暂定作业要求</strong><strong>:</strong></p>
+<p>1)       分类器优化程序运行及结果分析。</p>
+<p>2)       预习卷积神经网络（CNN）基础。</p>
+<p><strong>教学周：第9周 (主讲+实验：章琛曦老师)</strong></p>
+<p>·      <strong>理论课内容</strong><strong> (2</strong><strong>学时</strong><strong>): CNN</strong><strong>与医学影像分类</strong></p>
+<p>卷积神经网络（CNN）基本原理：局部感受野、权值共享、池化。CNN核心组件：卷积层、池化层（最大池化、平均池化）、全连接层。典型CNN架构入门（如LeNet-5）。CNN在医学影像分类任务中的优势与应用案例。</p>
+<p>·      <strong>教学目标</strong><strong> (</strong><strong>理论</strong><strong>):</strong></p>
+<p>理解CNN的核心思想（局部感受野、权值共享）和基本组件（卷积层、池化层）的工作原理（知识传授）。掌握典型CNN（如LeNet-5）的网络结构。分析CNN在处理图像数据，特别是医学影像分类方面的优势。</p>
+<p>·      <strong>实验课内容</strong><strong> (2</strong><strong>学时，需算力支持</strong><strong>): </strong><strong>基于</strong><strong>CNN</strong><strong>的医学影像分类实践</strong></p>
+<p>利用MATLAB深度学习工具箱构建一个简单的CNN模型（如类似LeNet-5的结构）。使用公开的MINIST手写字符数据集，训练CNN模型，并进行性能评估。</p>
+<p>·      <strong>教学目标</strong><strong> (</strong><strong>实验</strong><strong>):</strong></p>
+<p>掌握使用MATLAB深度学习工具箱构建、训练和评估简单CNN模型的方法（能力培养）。学会观察训练过程中的损失和准确率曲线，进行初步的模型诊断。</p>
+<p>·      <strong>暂定作业要求</strong><strong>:</strong></p>
+<p>1)       分组作业：在实验CNN模型基础上，使用MINIST手写字符数据集，尝试调整卷积核大小、数量，或池化方式，分析其对模型性能的影响。完成CNN实验报告第一部分（无需提交）。</p>
+<p><strong>教学周：第10周 (主讲+实验：章琛曦老师)</strong></p>
+<p>·      <strong>理论课内容</strong><strong> (2</strong><strong>学时</strong><strong>): CNN</strong><strong>常用架构及医学影像分析</strong><strong> I</strong></p>
+<p>经典CNN架构回顾与发展：AlexNet, VGG。网络深度、有效感受野以及卷积核尺寸对性能的影响。</p>
+<p>·      <strong>教学目标</strong><strong> (</strong><strong>理论</strong><strong>):</strong></p>
+<p>了解AlexNet, VGG等经典CNN架构的设计思想和特点（知识传授）。理解网络深度、有效感受野以及卷积核尺寸如何对性能产生影响。</p>
+<p>·      <strong>实验课内容</strong><strong> (2</strong><strong>学时，需算力支持</strong><strong>): </strong><strong>基于</strong><strong>CNN</strong><strong>常用架构的影像分析实践</strong><strong> I</strong></p>
+<p>利用MATLAB深度学习工具箱构建一个简单的CNN模型。使用公开的皮肤镜数据集，训练CNN模型，并进行性能评估。</p>
+<p>·      <strong>教学目标</strong><strong> (</strong><strong>实验</strong><strong>):</strong></p>
+<p>进一步掌握使用MATLAB深度学习工具箱构建、训练和评估简单CNN模型的方法（能力培养）。学会观察训练过程中的损失和准确率曲线，掌握网络的权重层意义，进行初步的医学图像AI模型诊断。</p>
+<p>·      <strong>暂定作业要求</strong><strong>:</strong></p>
+<p>1)       分组作业：在实验CNN模型基础上，使用皮肤镜数据集，尝试调整网络深度及卷积核尺寸，分析其对模型性能的影响。完成CNN实验报告第二部分（无需提交）。</p>
+<p>2)       预习GoogLeNet, ResNet等更深层次的网络。</p>
+<p><strong>教学周：第11周  (主讲+实验：章琛曦老师)</strong></p>
+<p>·      <strong>理论课内容</strong><strong> (2</strong><strong>学时</strong><strong>): CNN</strong><strong>常用架构及医学影像分析</strong><strong> II</strong></p>
+<p>更深层次的CNN架构：GoogLeNet (Inception模块), ResNet (残差学习)。模型集成（Ensemble Learning）初步概念。迁移学习（Transfer Learning）基本概念及其在医学影像分析中的应用。</p>
+<p>·      <strong>教学目标</strong><strong> (</strong><strong>理论</strong><strong>):</strong></p>
+<p>掌握GoogLeNet的Inception模块和ResNet的残差学习等核心设计思想（知识传授）。初步理解模型集成的概念。掌握迁移学习的基本概念及其在数据量有限的医学影像分析中的重要性（价值引领：培养解决实际问题的能力）。</p>
+<p>·      <strong>实验课内容</strong><strong> (2</strong><strong>学时，需算力支持</strong><strong>): </strong><strong>基于</strong><strong>CNN</strong><strong>常用架构的影像分析实践</strong><strong> II</strong></p>
+<p>在MATLAB中利用迁移学习对预训练的AlexNet或ResNet进行微调（Fine-tuning），在特定的医学影像分类任务上进行训练和评估。</p>
+<p>·      <strong>教学目标</strong><strong> (</strong><strong>实验</strong><strong>):</strong></p>
+<p>学会使用MATLAB加载预训练的CNN模型，并利用其进行特征提取（能力培养）。掌握迁移学习的基本应用流程：特征提取 + 新分类器。</p>
+<p>·      <strong>暂定作业要求</strong><strong>:</strong></p>
+<p>1)       分组作业：尝试对AlexNet或ResNet模型微调不同的层（如只微调最后几层 vs 微调全部层），观察并分析其对模型性能和训练时间的影响。完成CNN实验报告第三部分，并提交实验报告。</p>
+<p><strong>教学周：第12周 (主讲+实验：章琛曦老师)</strong></p>
+<p>·      <strong>理论课内容</strong><strong> (2</strong><strong>学时</strong><strong>): U-Net</strong><strong>网络架构</strong></p>
+<p>语义分割（Semantic Segmentation）任务概述。U-Net网络结构详解：编码器-解码器结构、跳跃连接（Skip Connections）。U-Net在医学影像分割中的广泛应用和变体（如U-Net++, Attention U-Net简介）。</p>
+<p>·      <strong>教学目标</strong><strong> (</strong><strong>理论</strong><strong>):</strong></p>
+<p>理解语义分割任务及其与图像分类的区别。掌握U-Net网络的核心结构、设计思想（特别是跳跃连接的作用）（知识传授）。了解U-Net在医学影像分割领域的成功应用和主要改进方向。</p>
+<p>·      <strong>实验课内容</strong><strong> (2</strong><strong>学时，需算力支持</strong><strong>): U-Net</strong><strong>网络的医学数据实践</strong></p>
+<p>使用MATLAB深度学习工具箱构建或加载U-Net模型。准备医学影像分割数据集（如细胞分割、器官分割的简化数据集）。训练U-Net模型进行像素级分割，并使用Dice系数等指标评估分割性能。</p>
+<p>·      <strong>教学目标</strong><strong> (</strong><strong>实验</strong><strong>):</strong></p>
+<p>掌握使用MATLAB构建和训练U-Net模型进行医学影像分割的方法（能力培养）。学会使用Dice系数等常用指标评估分割模型的性能。体验从数据准备到模型训练、评估的完整语义分割流程。</p>
+<p>·      <strong>暂定作业要求</strong><strong>:</strong></p>
+<p>1)       分组作业：基于实验框架，尝试对U-Net模型的深度或通道数进行调整，观察其对分割性能和计算资源消耗的影响。提交实验报告。</p>
+<p>2)       预习基于CNN的目标检测方法。</p>
+<p><strong>教学周：第13周 (主讲+实验：史勇红老师)</strong></p>
+<p>·      <strong>理论课内容</strong><strong> (2</strong><strong>学时</strong><strong>): </strong><strong>基于</strong><strong>CNN</strong><strong>的目标检测</strong></p>
+<p>目标检测任务概述：定位与分类。两阶段检测器：R-CNN系列（R-CNN, Fast R-CNN, Faster R-CNN）原理与演进。单阶段检测器：YOLO, SSD原理简介。目标检测在医学影像中的应用（如病灶检测、器官定位）。</p>
+<p>·      <strong>教学目标</strong><strong> (</strong><strong>理论</strong><strong>):</strong></p>
+<p>理解目标检测任务的目标和评价指标（如IoU, mAP）。掌握R-CNN系列等两阶段检测器的基本原理和演进过程（知识传授）。了解YOLO, SSD等单阶段检测器的核心思想。认识目标检测技术在医学影像分析中的应用价值。</p>
+<p>·      <strong>实验课内容</strong><strong> (2</strong><strong>学时，需算力支持</strong><strong>): </strong><strong>基于</strong><strong>CNN</strong><strong>的目标检测实践</strong></p>
+<p>利用MATLAB深度学习工具箱中的目标检测功能（如基于YOLOv2/v3或SSD的模型）。使用标注好的医学影像目标检测数据集。训练或微调目标检测模型，并在测试集上进行评估。</p>
+<p>·      <strong>教学目标</strong><strong> (</strong><strong>实验</strong><strong>):</strong></p>
+<p>学会使用MATLAB进行简单的目标检测模型训练或微调。掌握目标检测任务的基本流程，包括数据准备、模型训练和结果可视化。能够对目标检测结果进行初步解读。</p>
+<p>·      <strong>暂定作业要求</strong><strong>:</strong></p>
+<p>1)       分析目标检测结果，讨论模型可能存在的漏检、误检情况，并思考可能的改进方向。提交实验报告。</p>
+<p>2)       预习循环神经网络。</p>
+<p><strong>教学周：第14周 (主讲+实验：史勇红老师)</strong></p>
+<p>·      <strong>理论课内容</strong><strong> (2</strong><strong>学时</strong><strong>): </strong><strong>循环神经网络及</strong><strong>LSTM</strong><strong>网络</strong></p>
+<p>序列数据与循环神经网络（RNN）基本原理。RNN的梯度消失/爆炸问题。长短期记忆网络（LSTM）和门控循环单元（GRU）的结构与原理。RNN/LSTM在医学信号处理（如ECG、EEG）或医学文本分析中的应用。</p>
+<p>·      <strong>教学目标</strong><strong> (</strong><strong>理论</strong><strong>):</strong></p>
+<p>理解RNN处理序列数据的基本原理及其面临的挑战。掌握LSTM和GRU的核心结构（门控机制）及其解决长程依赖问题的思路。了解RNN/LSTM在医学领域中处理序列数据的应用场景。</p>
+<p>·      <strong>实验课内容</strong><strong> (2</strong><strong>学时，需算力支持</strong><strong>): LSTM</strong><strong>网络的医学数据实践</strong></p>
+<p>利用MATLAB深度学习工具箱构建LSTM模型。准备简单的医学序列数据（如模拟的生理信号时间序列分类或预测任务）。训练LSTM模型并进行性能评估。</p>
+<p>·      <strong>教学目标</strong><strong> (</strong><strong>实验</strong><strong>):</strong></p>
+<p>掌握使用MATLAB构建和训练LSTM模型处理序列数据的方法。体验RNN/LSTM在序列数据分析任务上的应用。</p>
+<p>·      <strong>暂定作业要求</strong><strong>:</strong></p>
+<p>1)       尝试调整LSTM网络层数或单元数，观察其对序列数据处理任务性能的影响。提交实验报告。</p>
+<p>2)       预习注意力机制与Transformer网络。</p>
+<p><strong>教学周：第15周 (主讲+实验：史勇红老师)</strong></p>
+<p>·      <strong>理论课内容</strong><strong> (2</strong><strong>学时</strong><strong>): </strong><strong>注意力机制及</strong><strong>Transformer</strong><strong>网络</strong></p>
+<p>注意力（Attention）机制的基本思想与类型（自注意力、交叉注意力）。Transformer网络核心架构：Encoder-Decoder、多头自注意力机制、位置编码。Vision Transformer (ViT) 及其他Transformer在医学影像分析中的应用进展。</p>
+<p>·      <strong>教学目标</strong><strong> (</strong><strong>理论</strong><strong>):</strong></p>
+<p>理解注意力机制的核心思想及其在序列处理和计算机视觉中的作用（知识传授）。掌握Transformer网络的主要组成部分和工作原理。了解Transformer及其变体（如ViT）在医学影像分析领域的最新应用和潜力。</p>
+<p>·      <strong>实验课内容</strong><strong> (2</strong><strong>学时，需算力支持</strong><strong>): Transformer</strong><strong>网络的医学数据实践</strong><strong> (</strong><strong>概念性</strong><strong>/</strong><strong>简化版</strong><strong>)</strong></p>
+<p>使用MATLAB实现或调用一个简化的基于Transformer的分类/分割任务，或基于预训练ViT模型进行迁移学习，理解其数据流和关键模块。</p>
+<p>·      <strong>教学目标</strong><strong> (</strong><strong>实验</strong><strong>):</strong></p>
+<p>理解Transformer模型在MATLAB中的实现思路或应用方式（能力培养）。通过分析或简化实践，加深对Transformer核心组件的理解。</p>
+<p>·      <strong>暂定作业要求</strong><strong>:</strong></p>
+<p>1)       思考和讨论Transformer的核心组件在处理医学影像数据时可能遇到的挑战和优势。</p>
+<p><strong>教学周：第16周 (主讲：宋志坚老师，史勇红老师)</strong></p>
+<p>·      <strong>理论课内容</strong><strong> (2</strong><strong>学时</strong><strong>):</strong><strong>医学影像深度学习前沿与趋势</strong></p>
+<p>课程内容回顾与重点总结。当前研究热点：可解释性AI (XAI) in Medical Imaging、联邦学习、自监督学习、多模态融合、小样本学习等。伦理、法规与挑战：数据隐私、算法偏见、临床转化障碍。未来展望与学习资源推荐。</p>
+<p>·      <strong>教学目标</strong><strong> (</strong><strong>理论</strong><strong>):</strong></p>
+<p>系统回顾和巩固课程所学核心知识与技能。了解医学影像深度学习领域的最新研究热点和发展趋势（知识传授、价值引领）。认识该领域面临的伦理、法规等方面的挑战，培养负责任的科研态度（价值引领）。为学生后续的深入学习和研究指明方向。</p>
+<p>·      <strong>实验课内容</strong><strong> (2</strong><strong>学时，无需算力</strong><strong>): </strong><strong>课程复习与答疑</strong></p>
+<p>教师引导学生回顾整个课程的知识体系。针对学生提出的问题进行集中解答和讨论。分享优秀课程项目或作业案例。期末考试范围和题型说明。</p>
+<p>·      <strong>教学目标</strong><strong> (</strong><strong>实验</strong><strong>):</strong></p>
+<p>帮助学生梳理知识脉络，查漏补缺。解决学生在学习过程中积累的疑问。明确考试要求，指导学生有效复习。</p>
+<p>·      <strong>暂定作业要求</strong><strong>:</strong></p>
+<p>1)       整理课程学习笔记，形成知识图谱或思维导图。</p>
+<p>2)       针对期末考试范围进行全面复习。</p>
+<p><strong>考试周：第17周 （监考：史勇红老师，王满宁老师，章琛曦老师）</strong></p>
+<p>·      <strong>闭卷考试</strong><strong>：</strong>按照学校规定组织期末闭卷考试。全面检验学生对课程核心理论知识的掌握程度。评估学生分析问题和综合运用所学知识解决基本应用问题的能力。</p>
+<p>·      <strong>考试、批阅试卷及登分：</strong>考试组织与监考。后续进行试卷批阅和成绩登录工作。确保考试公平公正进行。客观评估学生学习成果。</p>
+</td>
+</tr>
+</tbody>
+</table><h2>教学参考资料</h2><ol>
+<li>Richard Szeliski(著)，艾海舟(译)：《计算机视觉——算法和应用》，清华大学出版社，2012。</li>
+<li>David Forsyth，Jean Ponce(著)，高永强(译)：《计算机视觉：一种现代方法（第二版）》，电子工业出版社，2017。</li>
+<li>Rafael C. Gonzalez, Richard E. Woods (著)，阮秋琦、阮宇智(译)：《数字图像处理（第四版）》，电子工业出版社，2020。</li>
+<li>Trevor Hastie，Robert Tibshirani，Jerome Friedman(著)，张军平(译)：《统计学习要素：机器学习中的数据挖掘、推断与预测（第2版）》，清华大学出版社，2020。</li>
+<li>李航：《统计机器学习（第2版）》，清华大学出版社，2019。</li>
+<li>Richard O. Duda, Peter E. Hart, David G. Stork(著)，李宏东，姚天翔(译)：. 《模式分类（第二版）》，机械工业出版社，2003。</li>
+</ol><h2>考核与成绩构成</h2><table><tr><th>项目</th><th>比例</th><th>评定说明</th></tr><tr><td>出勤Attendance</td><td>5.0%</td><td></td></tr><tr><td>课堂表现Participation</td><td>5.0%</td><td></td></tr><tr><td>作业/实验/实践Assignment</td><td>20.0%</td><td></td></tr><tr><td>期末考试Final Examination：闭卷</td><td>70.0%</td><td></td></tr></table></body></html>

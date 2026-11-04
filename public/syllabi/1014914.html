@@ -1,287 +1,287 @@
-<!doctype html><html lang="zh-CN"><meta charset="utf-8"><title>高级网络 · 赵进、吕智慧 · 2025秋 CS50007.01</title><style>body{max-width:1000px;margin:35px auto;padding:0 20px;font:16px/1.9 system-ui}table{border-collapse:collapse}td,th{border:1px solid #cad7cf;padding:8px}img{max-width:100%}</style><body><h1>高级网络</h1><p>2025秋 · CS50007.01 · 赵进、吕智慧</p><p>来源：复旦教务系统教学班大纲。</p><h2>考核与成绩构成</h2><ul><li>出勤Attendance 10.0% 出勤次数</li><li>课堂表现Participation 10.0% 参与课堂的讨论、回答互动问题</li><li>作业/实验/实践Assignment 25.0% 在线作业/课程实验</li><li>课题论文Research Paper 55.0% 创新度、完整度和规范性</li></ul><h2>课程简介（中文）</h2><p>本课程面向硕士/博士研究生全面地讲述高级网络原理与核心技术，包括TCP/IP核心网络协议、网络QoS 与拥塞控制、软件定义网络、网络功能虚拟化、数据中心网络、多媒体传输网络协议、多媒体通信系统与流媒体协议、无线网络、内容分发网络、未来网络体系架构等。结合网络领域主流国际会议Sigcomm、Infocom、NSDI、ICDCS、ICNP、IWQoS和国际权威期刊TON、JSAC、IEEE Network、TMC等展开与此相关的网络前沿专题研究。最后讨论和展望网络领域各种相关的前沿技术发展。</p><h2>课程简介（英文）</h2><p>This course comprehensively covers advanced network principles and core technologies for master&#x27;s/doctoral students, including TCP/IP core network protocols, network QoS and congestion control, software defined networks, network function virtualization, data center networks, multimedia transmission network protocols, multimedia communication systems and streaming media protocols, wireless networks, content distribution networks, future network architecture, etc. Conduct cutting-edge research on network related topics by combining mainstream international conferences such as Sigcomm, Infocom, NSDI, ICDCS, ICNP, IWQoS, and authoritative international journals such as TON, JSAC, IEEE Network, TMC, etc. Finally, discuss and look forward to the development of various cutting-edge technologies in the field of networking.</p><h2>教学目标</h2><p>本课程面向硕士/博士研究生全面地讲述高级网络原理与核心技术，包括TCP/IP核心网络协议、网络QoS模型与算法、拥塞控制模型与方法、网络路由机制、软件定义网络与网络功能虚拟化、数据中心网络、多媒体传输网络协议、多媒体通信系统与流媒体协议、无线网络、内容分发网络、可编程网络、云原生网络、未来网络体系架构等。课程教学中讲述内容与专题研究相结合，培养研究生在理解教师讲授内容的基础上能够开展小组专题研究和论文讨论，提高网络技术方面的学术研究能力。并将研究与系统设计相结合，在研究的基础上培养研究生能够进行网络相关系统的分析和一些关键技术方案的设计与实施。总体上，重点培养学生理解现有网络体系结构中面临的根本性问题，以及未来网络体系结构的发展趋势。在此基础上在网络技术相关的模型算法与系统设计中具备分析、解决问题的能力，为未来开展网络技术相关的研究、设计和开发工作打下坚实基础。</p><h2>教学方式</h2><p>教师课堂讲授、专题讲座、期末课程设计。</p><h2>教学内容与进度安排</h2><table width="614">
-<tbody>
-<tr>
-<td width="149">
-<p><strong>课次</strong><strong>/</strong><strong>模块</strong></p>
-<p>No.</p>
-</td>
-<td width="149">
-<p><strong>教学周</strong></p>
-<p>Week</p>
-</td>
-<td width="149">
-<p><strong>教学内容及预期效果</strong></p>
-<p>Content &amp; Expected Achievement</p>
-</td>
-<td width="167">
-<p><strong>作业</strong><strong>/</strong><strong>练习</strong></p>
-<p>Assignment</p>
-</td>
-</tr>
-<tr>
-<td width="149">
-<p>1</p>
-</td>
-<td width="149">
-<p>1</p>
-</td>
-<td width="149">
-<p>计算机网络概述 </p>
-</td>
-<td width="167">
-<p>作业</p>
-</td>
-</tr>
-<tr>
-<td width="149">
-<p>2</p>
-</td>
-<td width="149">
-<p>2</p>
-</td>
-<td width="149">
-<p>网络核心协议TCP-IP</p>
-</td>
-<td width="167">
-<p>作业</p>
-</td>
-</tr>
-<tr>
-<td width="149">
-<p>3</p>
-</td>
-<td width="149">
-<p>3</p>
-</td>
-<td width="149">
-<p>网络多媒体实时传输协议</p>
-</td>
-<td width="167">
-<p>作业</p>
-</td>
-</tr>
-<tr>
-<td width="149">
-<p>4</p>
-</td>
-<td width="149">
-<p>4</p>
-</td>
-<td width="149">
-<p>网络流媒体系统</p>
-</td>
-<td width="167">
-<p>课后思考题</p>
-</td>
-</tr>
-<tr>
-<td width="149">
-<p>5</p>
-</td>
-<td width="149">
-<p>5</p>
-</td>
-<td width="149">
-<p>多媒体通信系统与应用H.323与SIP</p>
-</td>
-<td width="167">
-<p>作业</p>
-</td>
-</tr>
-<tr>
-<td width="149">
-<p>6</p>
-</td>
-<td width="149">
-<p>6</p>
-</td>
-<td width="149">
-<p>内容分发网络</p>
-</td>
-<td width="167">
-<p>论文阅读</p>
-</td>
-</tr>
-<tr>
-<td width="149">
-<p>7</p>
-</td>
-<td width="149">
-<p>7</p>
-</td>
-<td width="149">
-<p>无线网络技术：</p>
-<p>无线网络通信技术概述/无线、宽带网络技术发展趋势、4G和5G技术概述</p>
-</td>
-<td width="167">
-<p>论文阅读</p>
-</td>
-</tr>
-<tr>
-<td width="149">
-<p>8</p>
-</td>
-<td width="149">
-<p>8</p>
-</td>
-<td width="149">
-<p>网络QoS（1）</p>
-<p>掌握网络业务的特征与QoS的基本模型</p>
-</td>
-<td width="167">
-<p>论文阅读</p>
-</td>
-</tr>
-<tr>
-<td width="149">
-<p>9</p>
-</td>
-<td width="149">
-<p>9</p>
-</td>
-<td width="149">
-<p>网络QoS（2）</p>
-<p>掌握QoS的典型算法</p>
-</td>
-<td width="167">
-<p>课后思考题</p>
-</td>
-</tr>
-<tr>
-<td width="149">
-<p>10</p>
-</td>
-<td width="149">
-<p>10</p>
-</td>
-<td width="149">
-<p>互联网体系结构</p>
-<p>了解互联网体系结构的设计原则、演进路线</p>
-</td>
-<td width="167">
-<p>课后思考题</p>
-</td>
-</tr>
-<tr>
-<td width="149">
-<p>11</p>
-</td>
-<td width="149">
-<p>11</p>
-</td>
-<td width="149">
-<p>拥塞控制（1）</p>
-<p>掌握拥塞控制的需求与基本原理</p>
-</td>
-<td width="167">
-<p>论文阅读</p>
-</td>
-</tr>
-<tr>
-<td width="149">
-<p>12</p>
-</td>
-<td width="149">
-<p>12</p>
-</td>
-<td width="149">
-<p>拥塞控制（2）</p>
-<p>以TCP为例，了解拥塞控制算法设计</p>
-</td>
-<td width="167">
-<p>课后思考题</p>
-</td>
-</tr>
-<tr>
-<td width="149">
-<p>13</p>
-</td>
-<td width="149">
-<p>13</p>
-</td>
-<td width="149">
-<p>拥塞控制（3）</p>
-<p>讲述拥塞控制在数据中心、无线网络中的最新进展</p>
-</td>
-<td width="167">
-<p>课后思考题</p>
-</td>
-</tr>
-<tr>
-<td width="149">
-<p>14</p>
-</td>
-<td width="149">
-<p>14</p>
-</td>
-<td width="149">
-<p>未来网络体系结构：</p>
-<p>了解SDN、NFV的最新进展、了解可编程网络、云原生网络的最新进展</p>
-</td>
-<td width="167">
-<p>课后思考题</p>
-</td>
-</tr>
-<tr>
-<td width="149">
-<p>15</p>
-</td>
-<td width="149">
-<p>15</p>
-</td>
-<td width="149">
-<p>期末课程设计课上汇报：论文研究或系统设计</p>
-</td>
-<td width="167">
-<p>学生课上汇报</p>
-</td>
-</tr>
-<tr>
-<td width="149">
-<p>16</p>
-</td>
-<td width="149">
-<p>16</p>
-</td>
-<td width="149">
-<p>期末课程设计课上汇报：论文研究或系统设计</p>
-</td>
-<td width="167">
-<p>学生课上汇报</p>
-</td>
-</tr>
-<tr>
-<td width="149">
-<p>17</p>
-</td>
-<td width="149">
-<p>17</p>
-</td>
-<td width="149">
-<p>期末课程设计报告提交：论文研究或系统设计</p>
-</td>
-<td width="167">
-<p>课程设计报告提交</p>
-</td>
-</tr>
-<tr>
-<td width="149">
-<p>18</p>
-</td>
-<td width="149">
-<p>18</p>
-</td>
-<td width="149">
-<p>期末课程设计报告提交：论文研究或系统设计</p>
-</td>
-<td width="167">
-<p>课程设计报告提交</p>
-</td>
-</tr>
-</tbody>
-</table><h2>课程考核与成绩评定</h2><h2>教材</h2><h2>教学参考资料</h2><ol>
-<li>高级计算机网络（第2版）， 徐恪、徐明伟、李琦，清华大学出版社     2021年3月。</li>
-<li>边缘计算实践--内容分发网络技术与前沿， 吕智慧、黄莎琳等，科学出版社，2024年05月。</li>
-<li>计算机网络:自顶向下方法（原书第6版），（美）库罗斯，（美）罗斯 著，陈鸣 译， 机械工业出版社，2014-10-01。</li>
-<li>计算机网络：系统方法（原书第5版），［美］拉里 L. 彼得森（Larry L. Peterson），机械工业出版社，2015-06-01。</li>
+<!doctype html><html lang="zh-CN"><meta charset="utf-8"><title>高级网络 · 赵进、吕智慧 · 2025秋 CS50007.01</title><style>body{max-width:1000px;margin:35px auto;padding:0 20px;font:16px/1.9 system-ui}table{border-collapse:collapse}td,th{border:1px solid #cad7cf;padding:8px}img{max-width:100%}</style><body><h1>高级网络</h1><p>2025秋 · CS50007.01 · 赵进、吕智慧</p><p>来源：复旦教务系统教学班大纲。</p><h2>考核与成绩构成</h2><ul><li>出勤Attendance 10.0% 出勤次数</li><li>课堂表现Participation 10.0% 参与课堂的讨论、回答互动问题</li><li>作业/实验/实践Assignment 25.0% 在线作业/课程实验</li><li>课题论文Research Paper 55.0% 创新度、完整度和规范性</li></ul><h2>课程简介（中文）</h2><p>本课程面向硕士/博士研究生全面地讲述高级网络原理与核心技术，包括TCP/IP核心网络协议、网络QoS 与拥塞控制、软件定义网络、网络功能虚拟化、数据中心网络、多媒体传输网络协议、多媒体通信系统与流媒体协议、无线网络、内容分发网络、未来网络体系架构等。结合网络领域主流国际会议Sigcomm、Infocom、NSDI、ICDCS、ICNP、IWQoS和国际权威期刊TON、JSAC、IEEE Network、TMC等展开与此相关的网络前沿专题研究。最后讨论和展望网络领域各种相关的前沿技术发展。</p><h2>课程简介（英文）</h2><p>This course comprehensively covers advanced network principles and core technologies for master&#x27;s/doctoral students, including TCP/IP core network protocols, network QoS and congestion control, software defined networks, network function virtualization, data center networks, multimedia transmission network protocols, multimedia communication systems and streaming media protocols, wireless networks, content distribution networks, future network architecture, etc. Conduct cutting-edge research on network related topics by combining mainstream international conferences such as Sigcomm, Infocom, NSDI, ICDCS, ICNP, IWQoS, and authoritative international journals such as TON, JSAC, IEEE Network, TMC, etc. Finally, discuss and look forward to the development of various cutting-edge technologies in the field of networking.</p><h2>教学目标</h2><p>本课程面向硕士/博士研究生全面地讲述高级网络原理与核心技术，包括TCP/IP核心网络协议、网络QoS模型与算法、拥塞控制模型与方法、网络路由机制、软件定义网络与网络功能虚拟化、数据中心网络、多媒体传输网络协议、多媒体通信系统与流媒体协议、无线网络、内容分发网络、可编程网络、云原生网络、未来网络体系架构等。课程教学中讲述内容与专题研究相结合，培养研究生在理解教师讲授内容的基础上能够开展小组专题研究和论文讨论，提高网络技术方面的学术研究能力。并将研究与系统设计相结合，在研究的基础上培养研究生能够进行网络相关系统的分析和一些关键技术方案的设计与实施。总体上，重点培养学生理解现有网络体系结构中面临的根本性问题，以及未来网络体系结构的发展趋势。在此基础上在网络技术相关的模型算法与系统设计中具备分析、解决问题的能力，为未来开展网络技术相关的研究、设计和开发工作打下坚实基础。</p><h2>教学方式</h2><p>教师课堂讲授、专题讲座、期末课程设计。</p><h2>教学内容与进度安排</h2><table width="614">
+<tbody>
+<tr>
+<td width="149">
+<p><strong>课次</strong><strong>/</strong><strong>模块</strong></p>
+<p>No.</p>
+</td>
+<td width="149">
+<p><strong>教学周</strong></p>
+<p>Week</p>
+</td>
+<td width="149">
+<p><strong>教学内容及预期效果</strong></p>
+<p>Content &amp; Expected Achievement</p>
+</td>
+<td width="167">
+<p><strong>作业</strong><strong>/</strong><strong>练习</strong></p>
+<p>Assignment</p>
+</td>
+</tr>
+<tr>
+<td width="149">
+<p>1</p>
+</td>
+<td width="149">
+<p>1</p>
+</td>
+<td width="149">
+<p>计算机网络概述 </p>
+</td>
+<td width="167">
+<p>作业</p>
+</td>
+</tr>
+<tr>
+<td width="149">
+<p>2</p>
+</td>
+<td width="149">
+<p>2</p>
+</td>
+<td width="149">
+<p>网络核心协议TCP-IP</p>
+</td>
+<td width="167">
+<p>作业</p>
+</td>
+</tr>
+<tr>
+<td width="149">
+<p>3</p>
+</td>
+<td width="149">
+<p>3</p>
+</td>
+<td width="149">
+<p>网络多媒体实时传输协议</p>
+</td>
+<td width="167">
+<p>作业</p>
+</td>
+</tr>
+<tr>
+<td width="149">
+<p>4</p>
+</td>
+<td width="149">
+<p>4</p>
+</td>
+<td width="149">
+<p>网络流媒体系统</p>
+</td>
+<td width="167">
+<p>课后思考题</p>
+</td>
+</tr>
+<tr>
+<td width="149">
+<p>5</p>
+</td>
+<td width="149">
+<p>5</p>
+</td>
+<td width="149">
+<p>多媒体通信系统与应用H.323与SIP</p>
+</td>
+<td width="167">
+<p>作业</p>
+</td>
+</tr>
+<tr>
+<td width="149">
+<p>6</p>
+</td>
+<td width="149">
+<p>6</p>
+</td>
+<td width="149">
+<p>内容分发网络</p>
+</td>
+<td width="167">
+<p>论文阅读</p>
+</td>
+</tr>
+<tr>
+<td width="149">
+<p>7</p>
+</td>
+<td width="149">
+<p>7</p>
+</td>
+<td width="149">
+<p>无线网络技术：</p>
+<p>无线网络通信技术概述/无线、宽带网络技术发展趋势、4G和5G技术概述</p>
+</td>
+<td width="167">
+<p>论文阅读</p>
+</td>
+</tr>
+<tr>
+<td width="149">
+<p>8</p>
+</td>
+<td width="149">
+<p>8</p>
+</td>
+<td width="149">
+<p>网络QoS（1）</p>
+<p>掌握网络业务的特征与QoS的基本模型</p>
+</td>
+<td width="167">
+<p>论文阅读</p>
+</td>
+</tr>
+<tr>
+<td width="149">
+<p>9</p>
+</td>
+<td width="149">
+<p>9</p>
+</td>
+<td width="149">
+<p>网络QoS（2）</p>
+<p>掌握QoS的典型算法</p>
+</td>
+<td width="167">
+<p>课后思考题</p>
+</td>
+</tr>
+<tr>
+<td width="149">
+<p>10</p>
+</td>
+<td width="149">
+<p>10</p>
+</td>
+<td width="149">
+<p>互联网体系结构</p>
+<p>了解互联网体系结构的设计原则、演进路线</p>
+</td>
+<td width="167">
+<p>课后思考题</p>
+</td>
+</tr>
+<tr>
+<td width="149">
+<p>11</p>
+</td>
+<td width="149">
+<p>11</p>
+</td>
+<td width="149">
+<p>拥塞控制（1）</p>
+<p>掌握拥塞控制的需求与基本原理</p>
+</td>
+<td width="167">
+<p>论文阅读</p>
+</td>
+</tr>
+<tr>
+<td width="149">
+<p>12</p>
+</td>
+<td width="149">
+<p>12</p>
+</td>
+<td width="149">
+<p>拥塞控制（2）</p>
+<p>以TCP为例，了解拥塞控制算法设计</p>
+</td>
+<td width="167">
+<p>课后思考题</p>
+</td>
+</tr>
+<tr>
+<td width="149">
+<p>13</p>
+</td>
+<td width="149">
+<p>13</p>
+</td>
+<td width="149">
+<p>拥塞控制（3）</p>
+<p>讲述拥塞控制在数据中心、无线网络中的最新进展</p>
+</td>
+<td width="167">
+<p>课后思考题</p>
+</td>
+</tr>
+<tr>
+<td width="149">
+<p>14</p>
+</td>
+<td width="149">
+<p>14</p>
+</td>
+<td width="149">
+<p>未来网络体系结构：</p>
+<p>了解SDN、NFV的最新进展、了解可编程网络、云原生网络的最新进展</p>
+</td>
+<td width="167">
+<p>课后思考题</p>
+</td>
+</tr>
+<tr>
+<td width="149">
+<p>15</p>
+</td>
+<td width="149">
+<p>15</p>
+</td>
+<td width="149">
+<p>期末课程设计课上汇报：论文研究或系统设计</p>
+</td>
+<td width="167">
+<p>学生课上汇报</p>
+</td>
+</tr>
+<tr>
+<td width="149">
+<p>16</p>
+</td>
+<td width="149">
+<p>16</p>
+</td>
+<td width="149">
+<p>期末课程设计课上汇报：论文研究或系统设计</p>
+</td>
+<td width="167">
+<p>学生课上汇报</p>
+</td>
+</tr>
+<tr>
+<td width="149">
+<p>17</p>
+</td>
+<td width="149">
+<p>17</p>
+</td>
+<td width="149">
+<p>期末课程设计报告提交：论文研究或系统设计</p>
+</td>
+<td width="167">
+<p>课程设计报告提交</p>
+</td>
+</tr>
+<tr>
+<td width="149">
+<p>18</p>
+</td>
+<td width="149">
+<p>18</p>
+</td>
+<td width="149">
+<p>期末课程设计报告提交：论文研究或系统设计</p>
+</td>
+<td width="167">
+<p>课程设计报告提交</p>
+</td>
+</tr>
+</tbody>
+</table><h2>课程考核与成绩评定</h2><h2>教材</h2><h2>教学参考资料</h2><ol>
+<li>高级计算机网络（第2版）， 徐恪、徐明伟、李琦，清华大学出版社     2021年3月。</li>
+<li>边缘计算实践--内容分发网络技术与前沿， 吕智慧、黄莎琳等，科学出版社，2024年05月。</li>
+<li>计算机网络:自顶向下方法（原书第6版），（美）库罗斯，（美）罗斯 著，陈鸣 译， 机械工业出版社，2014-10-01。</li>
+<li>计算机网络：系统方法（原书第5版），［美］拉里 L. 彼得森（Larry L. Peterson），机械工业出版社，2015-06-01。</li>
 </ol><h2>教学团队成员</h2><h2>教材与参考书</h2><p>谢希仁；2017-01；9787121302954；计算机网络（第7版）；电子工业出版社</p></body></html>

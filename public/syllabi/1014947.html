@@ -1,325 +1,325 @@
-<!doctype html><html lang="zh-CN"><meta charset="utf-8"><title>数据密集型计算理论与实践 · 张奇 · 2025秋 CS50012.01</title><style>body{max-width:1000px;margin:35px auto;padding:0 20px;font:16px/1.9 system-ui}table{border-collapse:collapse}td,th{border:1px solid #cad7cf;padding:8px}img{max-width:100%}</style><body><h1>数据密集型计算理论与实践</h1><p>2025秋 · CS50012.01 · 张奇</p><p>来源：复旦教务系统教学班大纲。</p><h2>考核与成绩构成</h2><ul><li>作业/实验/实践Assignment 100.0% </li></ul><h2>课程简介（中文）</h2><p>当前，整个计算机行业特别是互联网行业都正在从信息时代向数据时代演进，大规模的数据处理技术成为企业和公众敲开数据世界大门所必不可少的工具。在大规模数据处理领域每年都会涌现出大量新的技术，包括获取、存储、处理分析以及可视化的有效手段等。本课程将介绍并行计算和分布式计算的基本概念、原理和编程模型，并结合当时时代的热点介绍相关编程框架。</p><h2>课程简介（英文）</h2><p>Currently, the entire computer industry, particularly the internet sector, is transitioning from the information age to the data age. Large-scale data processing technology has become an indispensable tool for both enterprises and the public to unlock the door to the world of data. In the field of large-scale data processing, numerous new technologies emerge each year, including effective methods for acquisition, storage, processing, analysis, and visualization. This course will introduce the basic concepts, principles, and programming models of parallel and distributed computing, and provide relevant programming frameworks based on current hot topics.</p><h2>教学目标</h2><p>通过数据密集型计算课程的学习，学生能够系统掌握分布式系统、并行计算和数据密集型计算的核心基本概念，深入理解分布式架构设计、并行处理原理及数据密集型计算的技术内涵。同时，熟练掌握 MapReduce、Spark、Flink 等常见的数据密集型编程模型，明晰其适用场景与技术特性。此外，全面了解 Hadoop、Hive、Kafka 等数据密集型计算开发常用工具的功能与操作方法。 </p><h2>教学方式</h2><p>课堂授课和项目实践</p><h2>教学内容与进度安排</h2><table width="637">
-<tbody>
-<tr>
-<td width="45">
-<p><strong>课次</strong></p>
-<p>No.</p>
-</td>
-<td width="66">
-<p><strong>教学周</strong></p>
-<p>Week</p>
-</td>
-<td width="340">
-<p><strong>教学内容及预期效果</strong></p>
-<p>Content &amp; Expected Achievement</p>
-</td>
-<td width="186">
-<p><strong>作业</strong><strong>/</strong><strong>实验</strong></p>
-<p>Assignment</p>
-</td>
-</tr>
-<tr>
-<td width="45">
-<p>1</p>
-</td>
-<td width="66">
-<p>1</p>
-</td>
-<td width="340">
-<p>并行计算简介</p>
-</td>
-<td width="186">
-<p> </p>
-</td>
-</tr>
-<tr>
-<td width="45">
-<p>2</p>
-</td>
-<td width="66">
-<p>2</p>
-</td>
-<td width="340">
-<p>并行计算与并行计算机结构模型</p>
-</td>
-<td width="186">
-<p> </p>
-</td>
-</tr>
-<tr>
-<td width="45">
-<p>3</p>
-</td>
-<td width="66">
-<p>3</p>
-</td>
-<td width="340">
-<p>并行计算机系统互连与基本通信操作</p>
-</td>
-<td width="186">
-<p> </p>
-</td>
-</tr>
-<tr>
-<td width="45">
-<p>4</p>
-</td>
-<td width="66">
-<p>4</p>
-</td>
-<td width="340">
-<p>典型并行计算机系统介绍</p>
-</td>
-<td width="186">
-<p> </p>
-</td>
-</tr>
-<tr>
-<td width="45">
-<p>5</p>
-</td>
-<td width="66">
-<p>5</p>
-</td>
-<td width="340">
-<p>并行计算性能评测</p>
-</td>
-<td width="186">
-<p> </p>
-</td>
-</tr>
-<tr>
-<td width="45">
-<p>6</p>
-</td>
-<td width="66">
-<p>6</p>
-</td>
-<td width="340">
-<p>并行算法与并行计算模型</p>
-</td>
-<td width="186">
-<p> </p>
-</td>
-</tr>
-<tr>
-<td width="45">
-<p>7</p>
-</td>
-<td width="66">
-<p>7</p>
-</td>
-<td width="340">
-<p>共享存储系统并行编程</p>
-</td>
-<td width="186">
-<p> </p>
-</td>
-</tr>
-<tr>
-<td width="45">
-<p>8</p>
-</td>
-<td width="66">
-<p>8</p>
-</td>
-<td width="340">
-<p>MapReduce 框架介绍</p>
-</td>
-<td width="186">
-<p> </p>
-</td>
-</tr>
-<tr>
-<td width="45">
-<p>9</p>
-</td>
-<td width="66">
-<p>9</p>
-</td>
-<td width="340">
-<p>MapReduce 信息检索相关算法</p>
-</td>
-<td width="186">
-<p> </p>
-</td>
-</tr>
-<tr>
-<td width="45">
-<p>10</p>
-</td>
-<td width="66">
-<p>10</p>
-</td>
-<td width="340">
-<p>MapReduce 图相关算法</p>
-</td>
-<td width="186">
-<p> </p>
-</td>
-</tr>
-<tr>
-<td width="45">
-<p>11</p>
-</td>
-<td width="66">
-<p>11</p>
-</td>
-<td width="340">
-<p>CUDA 编程（I）</p>
-</td>
-<td width="186">
-<p> </p>
-</td>
-</tr>
-<tr>
-<td width="45">
-<p>12</p>
-</td>
-<td width="66">
-<p>12</p>
-</td>
-<td width="340">
-<p>CUDA编程（II）</p>
-</td>
-<td width="186">
-<p> </p>
-</td>
-</tr>
-<tr>
-<td width="45">
-<p>13</p>
-</td>
-<td width="66">
-<p>13</p>
-</td>
-<td width="340">
-<p>CUDA编程（III）</p>
-</td>
-<td width="186">
-<p> </p>
-</td>
-</tr>
-<tr>
-<td width="45">
-<p>14</p>
-</td>
-<td width="66">
-<p>14</p>
-</td>
-<td width="340">
-<p>Hadoop &amp; YARN 框架介绍</p>
-</td>
-<td width="186">
-<p> </p>
-</td>
-</tr>
-<tr>
-<td width="45">
-<p>15</p>
-</td>
-<td width="66">
-<p>15</p>
-</td>
-<td width="340">
-<p>Storm &amp; Kafka 编程介绍</p>
-</td>
-<td width="186">
-<p> </p>
-</td>
-</tr>
-<tr>
-<td width="45">
-<p>16</p>
-</td>
-<td width="66">
-<p>16</p>
-</td>
-<td width="340">
-<p>Spark &amp; Flink  编程介绍</p>
-</td>
-<td width="186">
-<p> </p>
-</td>
-</tr>
-<tr>
-<td width="45">
-<p>17</p>
-</td>
-<td width="66">
-<p>17</p>
-</td>
-<td width="340">
-<p>Giraph and GraphX  编程介绍</p>
-</td>
-<td width="186">
-<p> </p>
-</td>
-</tr>
-<tr>
-<td width="45">
-<p>18</p>
-</td>
-<td width="66">
-<p>18</p>
-</td>
-<td width="340">
-<p>NoSQL (Redis / MongoDB) 介绍</p>
-</td>
-<td width="186">
-<p> </p>
-</td>
-</tr>
-</tbody>
-</table><h2>课程考核与成绩评定</h2><h2>教材</h2><h2>教学参考资料</h2><table width="637">
-<tbody>
-<tr>
-<td width="180">
-<p><strong>名称</strong></p>
-<p>Title</p>
-</td>
-<td width="113">
-<p><strong>作者</strong></p>
-<p>Author(s)</p>
-</td>
-<td width="123">
-<p><strong>出版机构</strong></p>
-<p>Publisher</p>
-</td>
-<td width="85">
-<p><strong>出版日期</strong></p>
-<p>Publication Date</p>
-</td>
-</tr>
-<tr>
-<td width="180">
-<p>Data-Intensive Text Processing with MapReduce</p>
-</td>
-<td width="113">
-<p>Jimmy Lin and Chris Dyer</p>
-</td>
-<td width="123">
-<p>MIT</p>
-</td>
-<td width="85">
-<p>2001</p>
-</td>
-</tr>
-<tr>
-<td width="180">
-<p>GPU高性能编程CUDA实战</p>
-<p> </p>
-</td>
-<td width="113">
-<p>（美）桑德斯 著 聂雪军 等 译</p>
-<p> </p>
-</td>
-<td width="123">
-<p>机械工业出版社</p>
-</td>
-<td width="85">
-<p>2011</p>
-</td>
-</tr>
-</tbody>
+<!doctype html><html lang="zh-CN"><meta charset="utf-8"><title>数据密集型计算理论与实践 · 张奇 · 2025秋 CS50012.01</title><style>body{max-width:1000px;margin:35px auto;padding:0 20px;font:16px/1.9 system-ui}table{border-collapse:collapse}td,th{border:1px solid #cad7cf;padding:8px}img{max-width:100%}</style><body><h1>数据密集型计算理论与实践</h1><p>2025秋 · CS50012.01 · 张奇</p><p>来源：复旦教务系统教学班大纲。</p><h2>考核与成绩构成</h2><ul><li>作业/实验/实践Assignment 100.0% </li></ul><h2>课程简介（中文）</h2><p>当前，整个计算机行业特别是互联网行业都正在从信息时代向数据时代演进，大规模的数据处理技术成为企业和公众敲开数据世界大门所必不可少的工具。在大规模数据处理领域每年都会涌现出大量新的技术，包括获取、存储、处理分析以及可视化的有效手段等。本课程将介绍并行计算和分布式计算的基本概念、原理和编程模型，并结合当时时代的热点介绍相关编程框架。</p><h2>课程简介（英文）</h2><p>Currently, the entire computer industry, particularly the internet sector, is transitioning from the information age to the data age. Large-scale data processing technology has become an indispensable tool for both enterprises and the public to unlock the door to the world of data. In the field of large-scale data processing, numerous new technologies emerge each year, including effective methods for acquisition, storage, processing, analysis, and visualization. This course will introduce the basic concepts, principles, and programming models of parallel and distributed computing, and provide relevant programming frameworks based on current hot topics.</p><h2>教学目标</h2><p>通过数据密集型计算课程的学习，学生能够系统掌握分布式系统、并行计算和数据密集型计算的核心基本概念，深入理解分布式架构设计、并行处理原理及数据密集型计算的技术内涵。同时，熟练掌握 MapReduce、Spark、Flink 等常见的数据密集型编程模型，明晰其适用场景与技术特性。此外，全面了解 Hadoop、Hive、Kafka 等数据密集型计算开发常用工具的功能与操作方法。 </p><h2>教学方式</h2><p>课堂授课和项目实践</p><h2>教学内容与进度安排</h2><table width="637">
+<tbody>
+<tr>
+<td width="45">
+<p><strong>课次</strong></p>
+<p>No.</p>
+</td>
+<td width="66">
+<p><strong>教学周</strong></p>
+<p>Week</p>
+</td>
+<td width="340">
+<p><strong>教学内容及预期效果</strong></p>
+<p>Content &amp; Expected Achievement</p>
+</td>
+<td width="186">
+<p><strong>作业</strong><strong>/</strong><strong>实验</strong></p>
+<p>Assignment</p>
+</td>
+</tr>
+<tr>
+<td width="45">
+<p>1</p>
+</td>
+<td width="66">
+<p>1</p>
+</td>
+<td width="340">
+<p>并行计算简介</p>
+</td>
+<td width="186">
+<p> </p>
+</td>
+</tr>
+<tr>
+<td width="45">
+<p>2</p>
+</td>
+<td width="66">
+<p>2</p>
+</td>
+<td width="340">
+<p>并行计算与并行计算机结构模型</p>
+</td>
+<td width="186">
+<p> </p>
+</td>
+</tr>
+<tr>
+<td width="45">
+<p>3</p>
+</td>
+<td width="66">
+<p>3</p>
+</td>
+<td width="340">
+<p>并行计算机系统互连与基本通信操作</p>
+</td>
+<td width="186">
+<p> </p>
+</td>
+</tr>
+<tr>
+<td width="45">
+<p>4</p>
+</td>
+<td width="66">
+<p>4</p>
+</td>
+<td width="340">
+<p>典型并行计算机系统介绍</p>
+</td>
+<td width="186">
+<p> </p>
+</td>
+</tr>
+<tr>
+<td width="45">
+<p>5</p>
+</td>
+<td width="66">
+<p>5</p>
+</td>
+<td width="340">
+<p>并行计算性能评测</p>
+</td>
+<td width="186">
+<p> </p>
+</td>
+</tr>
+<tr>
+<td width="45">
+<p>6</p>
+</td>
+<td width="66">
+<p>6</p>
+</td>
+<td width="340">
+<p>并行算法与并行计算模型</p>
+</td>
+<td width="186">
+<p> </p>
+</td>
+</tr>
+<tr>
+<td width="45">
+<p>7</p>
+</td>
+<td width="66">
+<p>7</p>
+</td>
+<td width="340">
+<p>共享存储系统并行编程</p>
+</td>
+<td width="186">
+<p> </p>
+</td>
+</tr>
+<tr>
+<td width="45">
+<p>8</p>
+</td>
+<td width="66">
+<p>8</p>
+</td>
+<td width="340">
+<p>MapReduce 框架介绍</p>
+</td>
+<td width="186">
+<p> </p>
+</td>
+</tr>
+<tr>
+<td width="45">
+<p>9</p>
+</td>
+<td width="66">
+<p>9</p>
+</td>
+<td width="340">
+<p>MapReduce 信息检索相关算法</p>
+</td>
+<td width="186">
+<p> </p>
+</td>
+</tr>
+<tr>
+<td width="45">
+<p>10</p>
+</td>
+<td width="66">
+<p>10</p>
+</td>
+<td width="340">
+<p>MapReduce 图相关算法</p>
+</td>
+<td width="186">
+<p> </p>
+</td>
+</tr>
+<tr>
+<td width="45">
+<p>11</p>
+</td>
+<td width="66">
+<p>11</p>
+</td>
+<td width="340">
+<p>CUDA 编程（I）</p>
+</td>
+<td width="186">
+<p> </p>
+</td>
+</tr>
+<tr>
+<td width="45">
+<p>12</p>
+</td>
+<td width="66">
+<p>12</p>
+</td>
+<td width="340">
+<p>CUDA编程（II）</p>
+</td>
+<td width="186">
+<p> </p>
+</td>
+</tr>
+<tr>
+<td width="45">
+<p>13</p>
+</td>
+<td width="66">
+<p>13</p>
+</td>
+<td width="340">
+<p>CUDA编程（III）</p>
+</td>
+<td width="186">
+<p> </p>
+</td>
+</tr>
+<tr>
+<td width="45">
+<p>14</p>
+</td>
+<td width="66">
+<p>14</p>
+</td>
+<td width="340">
+<p>Hadoop &amp; YARN 框架介绍</p>
+</td>
+<td width="186">
+<p> </p>
+</td>
+</tr>
+<tr>
+<td width="45">
+<p>15</p>
+</td>
+<td width="66">
+<p>15</p>
+</td>
+<td width="340">
+<p>Storm &amp; Kafka 编程介绍</p>
+</td>
+<td width="186">
+<p> </p>
+</td>
+</tr>
+<tr>
+<td width="45">
+<p>16</p>
+</td>
+<td width="66">
+<p>16</p>
+</td>
+<td width="340">
+<p>Spark &amp; Flink  编程介绍</p>
+</td>
+<td width="186">
+<p> </p>
+</td>
+</tr>
+<tr>
+<td width="45">
+<p>17</p>
+</td>
+<td width="66">
+<p>17</p>
+</td>
+<td width="340">
+<p>Giraph and GraphX  编程介绍</p>
+</td>
+<td width="186">
+<p> </p>
+</td>
+</tr>
+<tr>
+<td width="45">
+<p>18</p>
+</td>
+<td width="66">
+<p>18</p>
+</td>
+<td width="340">
+<p>NoSQL (Redis / MongoDB) 介绍</p>
+</td>
+<td width="186">
+<p> </p>
+</td>
+</tr>
+</tbody>
+</table><h2>课程考核与成绩评定</h2><h2>教材</h2><h2>教学参考资料</h2><table width="637">
+<tbody>
+<tr>
+<td width="180">
+<p><strong>名称</strong></p>
+<p>Title</p>
+</td>
+<td width="113">
+<p><strong>作者</strong></p>
+<p>Author(s)</p>
+</td>
+<td width="123">
+<p><strong>出版机构</strong></p>
+<p>Publisher</p>
+</td>
+<td width="85">
+<p><strong>出版日期</strong></p>
+<p>Publication Date</p>
+</td>
+</tr>
+<tr>
+<td width="180">
+<p>Data-Intensive Text Processing with MapReduce</p>
+</td>
+<td width="113">
+<p>Jimmy Lin and Chris Dyer</p>
+</td>
+<td width="123">
+<p>MIT</p>
+</td>
+<td width="85">
+<p>2001</p>
+</td>
+</tr>
+<tr>
+<td width="180">
+<p>GPU高性能编程CUDA实战</p>
+<p> </p>
+</td>
+<td width="113">
+<p>（美）桑德斯 著 聂雪军 等 译</p>
+<p> </p>
+</td>
+<td width="123">
+<p>机械工业出版社</p>
+</td>
+<td width="85">
+<p>2011</p>
+</td>
+</tr>
+</tbody>
 </table><h2>教学团队成员</h2><h2>教材与参考书</h2><p>熊贇,朱扬勇；2016-04；9787547829615；大数据挖掘；上海科学技术出版社</p></body></html>

@@ -1,0 +1,347 @@
+<!doctype html><html lang="zh-CN"><meta charset="utf-8"><body><h1>神经网络与深度学习</h1><p>2026春 · CS30064.01 · 付彦伟</p><p>来源：复旦教务系统教学大纲；正文整理。</p><h2>课程简介（中文）</h2><div style="white-space:pre-wrap">本课程讲授神经网络和深度学习的核心方法、基本概念和算法。课程内容包括：前馈网络、网络训练、BP网络、神经网络的正则化、前馈深度网络、深度网络训练、卷积网络和循环神经网络。除此之外，课程还涵盖了拓展内容，如生成对抗网络（GANs）、元学习等。通过结合课程实践，为选课学生提供解决复杂实际问题的工具和方法。</div><h2>课程简介（英文）</h2><div style="white-space:pre-wrap">This course covers the core methods, fundamental concepts, and algorithms of neural networks and deep learning. The course content includes: feedforward networks, network training, backpropagation (BP) networks, regularization in neural networks, feedforward deep networks, deep network training, convolutional networks, and recurrent neural networks. In addition, the course also explores extended topics such as Generative Adversarial Networks (GANs), meta-learning, and more. By integrating practical components, the course equips students with tools and methodologies to tackle complex real-world problems.</div><h2>教学目标</h2><div style="white-space:pre-wrap">本课程是计算机学科的重要课程，重点在于向学生系统介绍神经网络与深度学习的基本概念、原理和常用算法，包括前馈网络、卷积网络、循环网络及 GAN、元学习等前沿内容。课程强调理论与实践结合，通过设计贴近实际的实践项目，指导学生运用所学模型与方法分析和解决复杂现实问题，培养其算法选型、模型优化与实际应用的能力，为后续科研或工程实践奠定坚实基础。</div><h2>教学方式</h2><div style="white-space:pre-wrap">本课程以主讲教师讲授为主，兼以课堂学生对若干具体问题分析讨论；通过课后作业对课堂所学内容进行回顾、总结；并用课堂所学知识，解决实际的问题。</div><h2>教学内容与进度安排</h2><div style="white-space:pre-wrap">教学内容安排 (按48学时共计18周，18周含考试周，具体到每节课内容):
+
+
+
+
+
+
+
+
+课次
+
+
+
+具体内容
+
+
+
+
+
+
+一
+
+
+
+Introduction to Neural Network (Chap 1 of book) 神经网络简介
+
+1, The history and recent development of Neural Network (NN) and Deep Neural Network (DNN);  神经网络历史简介
+
+2, Some basic concepts and examples in NN &amp;DNN; 基本概念简介
+
+3, the dataset (mnist, cifar-10, cifar-100) used in DNN; 数据集简介
+
+4, An introduction to the coding toolbox of NN&amp;DNN; 神经网络工具包简介
+
+
+
+
+
+
+二
+
+
+
+Mathematics and Machine learning Basic: (Chap. 2, 3 and 5 of the book) 数学及机器学习内容回顾
+
+      1, A Recap of Math and Programming; 数学及编程回顾
+
+2, Overview and key concepts of Machine learning and Statistical learning (overfitting) 重点统计机器学习概念回顾（如过拟合）
+
+3, The motivation of developing DNN. 研究神经网络的动机
+
+4、“Classical” Neural Network – MLP  经典神经网络
+
+l Multi-layer perception;  多层感知机
+
+l Radial basis function and Radial basis function network; 径向基网络等
+
+l Other types of Neural Network (e.g. Self-organizing map) 自组织神经网络
+
+
+
+
+
+
+三
+
+
+
+Tutorial about Pytorch, Tensorflow, and Mindspore  Portch、Tensorflow及Mindspore教程
+
+by 汪昀
+
+
+
+
+
+
+
+
+四
+
+
+
+Convolutional Neural Network (CNN): (Chap6, Chap 9 of the book) 卷积神经网络
+
+1. Introduction to CNN  CNN简介
+
+2. Convolutional layer, pooling, ReLU,  CNN几个基本构件
+
+3. Different CNN structures for image classification  图像分类的几个CNN
+
+4. BP algortihm BP算法
+
+by 徐宾霞
+
+
+
+
+
+
+
+
+五
+
+
+
+Regularization of CNN&amp;MLP (Chap 7 of the book) 神经网络的正则化
+
+1. Weight initialization  权重初始化
+
+2. L1, L2 regularization  L1、L2正则话
+
+3. Data augmentation, Early stopping, Dropout  数据增广、早停、Dropout等机制
+
+
+
+
+
+
+六
+
+
+
+Babysitting the training of CNN  训练神经网络实践
+
+1. Training CNN on cifar10, MNIST 在cifar10等数据集训练
+
+2. A tutorial of Mixup  Mixup策略
+
+Lab: Practical coding issues: SGD, Data augmentation, Batch Normalization;  实验：实用编程技巧、SGD、数据增广、批正则化
+
+by 徐宾霞
+
+
+
+
+
+
+
+
+七
+
+
+
+Optimization for Training Deep Models—Part 1 (Chap 4 and Chap 8.1—8.2 of the book) 神经网络优化（1）
+
+1， Numerical computing basics  数值计算遇到的问题
+
+2， Optimization Basics  优化基础
+
+3， The challenges in Optimization deep neural networks;  训练神经网路的挑战
+
+
+
+
+
+
+
+
+八
+
+
+
+Optimization for Training Deep Models—Part 2 (Chap 8.3 –8.7 of the book) 神经网络优化（2）
+
+1. SGD: motivation, implementation, variants, Pros/Cons.  SGD：动机、实现、衍生方法，及优缺点
+
+2. AdaGrad, RMSProp, Nesterov, Adam: motivation, implementation, variants, Pros/Cons.  AdaGrad, RMSProp等方法简介
+
+3. Recent Deeplearning Optimizer: Lars, Lamb, DessiLBI  最新的神经网络优化器
+
+
+
+
+
+
+九
+
+
+
+Optimization Tutorial (Pytorch)  (Chap 11 of the book)  优化的教程
+
+1. How to write an optimizer for Pytorch?  如何写一个Pytorch优化器
+
+2. Optimizer code reading: SGD, Nesterov, Adam  优化代码解读
+
+3. Batch Normalization helps Optimization, (Loss landscape)  为什么批正则化会帮助优化
+
+by 徐宾霞
+
+
+
+
+
+
+
+
+十
+
+
+
+Recurrent Neural Network(RNN) (Chap 9 of the book) 循环神经网络
+
+1， Vanilla methods in modelling Sequential Data: N-gram, HMM, word2vec  处理序列数据的一般方法
+
+2， Recurrent Neural Networks; 循环神经网络
+
+3， Variants of RNN, and examples of RNNs  循环神经网络的衍生
+
+
+
+
+
+
+十一
+
+
+
+Long short-term memory (LSTM) and Auto-Encoder (Chap 13, 14 of the book)  LSTM网络及自编码器网络
+
+1. LSTM models and its variants  LSTM网络及变种
+
+2. Auto-encoder, U-Net and its variants 自编码器及变种
+
+3. Transformers  变形器网络
+
+4. Applications of LSTM, and Autoencoders  模型的应用
+
+
+
+
+
+
+十二
+
+
+
+Lab and Mid-term Review, (Chap 12 of the book)  实验及中期回顾
+
+1. Works on object detections  物体检测
+
+2. Learning sequential models  序列化模型学习
+
+3. OCR examples: text detection, and text recognition  OCR例子等
+
+
+
+
+
+
+
+
+十三
+
+
+
+GANs  对抗生成网络， and Diffusion Model
+
+1. Basics of GANs  GAN的基础
+
+2. Variants of GANs: DC-GAN, SN-GAN, StyleGAN    GAN的衍生模型
+
+3. Image Translation and syntheze Examples: CycleGAN, StackGAN   基于GAN的图像处理
+
+by 汪昀
+
+
+
+
+
+
+
+
+十四
+
+
+
+Other Advanced Topics: 高级话题
+
+1. Meta-learning and one-shot learning  元学习及小样本学习
+
+2. Learning based 3D reconstruction   基于学习的三维重建
+
+
+
+
+
+
+十五
+
+
+
+Lab: Advanced Topics:  实验：高级题目
+
+1. examples of one-shot learning  小样本学习例子
+
+2. examples of meta-learning   元学习的例子
+
+3. Examples of learning based 3D reconstruction   基于学习的三维重建例子
+
+
+
+
+
+
+
+
+十六
+
+
+
+Summary and Review  总结及课程回顾
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+课内外讨论或练习、实践、体验等环节设计：
+
+本课程包括4个课程实验，主要考察学生掌握所学深度学习算法。让学生完成每一阶段对应的课程练习，完成相关算法的具体实现。4个课程练习如下：
+
+
+
+1.使用全连接神经网络在手写体数据集上进行预测识别。理解全连接层，激活函数，梯度下降法，损失函数等名词概念。
+
+
+
+2.训练卷积神经网络，然后在CIFAR-10数据集上进行图像分类。补全相应的代码。理解卷积操作、池化操作的具体过程。并对比与全连接神经网络的实验结果。
+
+
+
+3.比较有无Batch Normalization的VGG-A模型的性能，理解Batch Normalization在训练过程中的作用。测量其对优化过程的影响，如损失曲线的平滑度、梯度变化等。
+
+
+
+4.可视化不同学习率下的损失变化，比较有无Batch Normalization时的损失景观。通过可视化损失景观和梯度预测，深入理解Batch Normalization对优化过程的影响。</div><h2>教学参考资料</h2><div style="white-space:pre-wrap">Bishop, C.M. (2006). Pattern recognition and Machine Learning. Springer. (第5章)
+
+邱锡鹏，《神经网络与深度学习》，http://nndl.github.io/</div><h2>考核方式</h2><div style="white-space:pre-wrap">出勤Attendance 5.0%；作业/实验/实践Assignment 35.0%；期末考试Final Examination：闭卷  60.0%</div><h2>考核构成</h2><ul><li>出勤Attendance 5.0% </li><li>作业/实验/实践Assignment 35.0% </li><li>期末考试Final Examination：闭卷 60.0% </li></ul></body></html>

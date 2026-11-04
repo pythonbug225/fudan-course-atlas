@@ -7,7 +7,10 @@ export const reviews = sqliteTable('community_reviews', {
  assessment:text('assessment').notNull(), grading:text('grading').notNull(), overall:text('overall').notNull(),
  grade:text('grade').notNull(), hours:integer('hours'), createdAt:text('created_at').notNull(),
  kind:text('kind').notNull().default('review'),
-}, t=>[index('reviews_course_date').on(t.courseId,t.createdAt),index('reviews_author_date').on(t.authorId,t.createdAt)]);
+ status:text('status').notNull().default('legacy'),
+ contentHash:text('content_hash'),moderatorId:text('moderator_id'),moderatedAt:text('moderated_at'),
+ moderationNote:text('moderation_note').notNull().default(''),
+}, t=>[index('reviews_course_date').on(t.courseId,t.createdAt),index('reviews_author_date').on(t.authorId,t.createdAt),index('reviews_status_date').on(t.status,t.createdAt),uniqueIndex('reviews_author_content').on(t.authorId,t.contentHash)]);
 export const files=sqliteTable('review_files',{
  id:text('id').primaryKey(),reviewId:text('review_id').notNull(),objectKey:text('object_key').notNull(),
  name:text('name').notNull(),mime:text('mime').notNull(),size:integer('size').notNull()
@@ -15,7 +18,7 @@ export const files=sqliteTable('review_files',{
 
 export const pointEvents=sqliteTable('point_events',{
  id:text('id').primaryKey(),userId:text('user_id').notNull(),
- eventType:text('event_type',{enum:['checkin','exam_unlock']}).notNull(),
+ eventType:text('event_type',{enum:['checkin','exam_unlock','submission_reward','submission_withdrawal']}).notNull(),
  eventKey:text('event_key').notNull(),delta:integer('delta').notNull(),createdAt:text('created_at').notNull(),
 },t=>[
  uniqueIndex('point_events_user_event').on(t.userId,t.eventKey),

@@ -14,7 +14,7 @@ type ExamFile = { id: string; githubUrl?: string };
 type ExamIndex = { sets?: Array<{ files?: ExamFile[] }> };
 type PointEventRow = {
   id: string;
-  event_type: 'checkin' | 'exam_unlock';
+  event_type: 'checkin' | 'exam_unlock' | 'submission_reward' | 'submission_withdrawal';
   event_key: string;
   delta: number;
   created_at: string;
@@ -103,7 +103,7 @@ export async function getPointsResponse(req: Request, db: Database | null, now =
       events: recent.results.map((event) => ({
         id: event.id,
         eventType: event.event_type,
-        referenceId: event.event_type === 'exam_unlock' ? event.event_key.slice('exam:'.length) : null,
+        referenceId: event.event_type === 'checkin' ? null : event.event_key.slice(event.event_key.indexOf(':') + 1),
         delta: Number(event.delta),
         createdAt: event.created_at,
       })),

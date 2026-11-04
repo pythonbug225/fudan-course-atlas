@@ -1,0 +1,1732 @@
+{
+  "description": "第49–95门课程：教师姓名和课程名称的公开搜索引擎域名限定查询",
+  "limitations": [
+    "每门仅使用部分教师名称，不代表逐教师穷尽。",
+    "查询搜索引擎并非平台站内搜索；搜索不到不代表不存在课评。"
+  ],
+  "search_records": [
+    {
+      "scope_index": 49,
+      "code": "PHYS30016",
+      "course_name": "电动力学",
+      "teachers": [
+        "丁鲲",
+        "周磊"
+      ],
+      "honors": false,
+      "terms": [
+        "2025秋"
+      ],
+      "platform_searches": [
+        {
+          "platform": "知乎",
+          "query": "site:zhihu.com 复旦 电动力学 丁鲲 周磊",
+          "search_status": "completed",
+          "result_review": "仅返回无关招生/机构内容；未见课评",
+          "readable_course_teacher_review_found": false
+        },
+        {
+          "platform": "小红书",
+          "query": "site:xiaohongshu.com 复旦 电动力学 丁鲲 周磊",
+          "search_status": "completed",
+          "result_review": "搜索结果仅返回平台帮助、商业页面或无关内容；未见可匹配课程与教师的笔记正文/规范链接",
+          "readable_course_teacher_review_found": false
+        },
+        {
+          "platform": "微信公众号",
+          "query": "site:mp.weixin.qq.com 复旦 电动力学 丁鲲 周磊",
+          "search_status": "completed",
+          "result_review": "搜索结果未见可读文章",
+          "readable_course_teacher_review_found": false
+        }
+      ]
+    },
+    {
+      "scope_index": 50,
+      "code": "PHYS30016h",
+      "course_name": "电动力学(H)",
+      "teachers": [
+        "丁鲲",
+        "周磊"
+      ],
+      "honors": true,
+      "terms": [
+        "2025秋"
+      ],
+      "platform_searches": [
+        {
+          "platform": "知乎",
+          "query": "site:zhihu.com 复旦 电动力学荣誉课 丁鲲 周磊；追加精确全名查询 site:zhihu.com 复旦 \"电动力学(H)\" 丁鲲 周磊",
+          "search_status": "completed",
+          "result_review": "仅返回无关招生/机构内容；未见荣誉班课评",
+          "readable_course_teacher_review_found": false
+        },
+        {
+          "platform": "小红书",
+          "query": "site:xiaohongshu.com 复旦 电动力学荣誉课 丁鲲 周磊；追加精确全名查询 site:xiaohongshu.com 复旦 \"电动力学(H)\" 丁鲲 周磊",
+          "search_status": "completed",
+          "result_review": "搜索结果仅返回平台帮助、商业页面或无关内容；未见可匹配课程与教师的笔记正文/规范链接",
+          "readable_course_teacher_review_found": false
+        },
+        {
+          "platform": "微信公众号",
+          "query": "site:mp.weixin.qq.com 复旦 电动力学荣誉课 丁鲲 周磊；追加精确全名查询 site:mp.weixin.qq.com 复旦 \"电动力学(H)\" 丁鲲 周磊",
+          "search_status": "completed",
+          "result_review": "搜索结果未见可读文章",
+          "readable_course_teacher_review_found": false
+        }
+      ],
+      "scope_note": "荣誉班单独记录；除荣誉课搜索词外，已追加全名“电动力学(H)”精确查询。"
+    },
+    {
+      "scope_index": 51,
+      "code": "PHYS40003",
+      "course_name": "专业外语",
+      "teachers": [
+        "李世燕"
+      ],
+      "honors": false,
+      "terms": [
+        "2026春"
+      ],
+      "platform_searches": [
+        {
+          "platform": "知乎",
+          "query": "site:zhihu.com 复旦 专业外语 李世燕 物理",
+          "search_status": "completed",
+          "result_review": "返回课程介绍/师资资料而非学生课评",
+          "readable_course_teacher_review_found": false
+        },
+        {
+          "platform": "小红书",
+          "query": "site:xiaohongshu.com 复旦 专业外语 李世燕 物理",
+          "search_status": "completed",
+          "result_review": "搜索结果仅返回平台帮助、商业页面或无关内容；未见可匹配课程与教师的笔记正文/规范链接",
+          "readable_course_teacher_review_found": false
+        },
+        {
+          "platform": "微信公众号",
+          "query": "site:mp.weixin.qq.com 复旦 专业外语 李世燕 物理",
+          "search_status": "completed",
+          "result_review": "搜索结果未见可读文章",
+          "readable_course_teacher_review_found": false
+        }
+      ]
+    },
+    {
+      "scope_index": 52,
+      "code": "PHYS40005",
+      "course_name": "科学写作",
+      "teachers": [
+        "黄吉平"
+      ],
+      "honors": false,
+      "terms": [
+        "2025秋"
+      ],
+      "platform_searches": [
+        {
+          "platform": "知乎",
+          "query": "site:zhihu.com 复旦 科学写作 黄吉平",
+          "search_status": "completed",
+          "result_review": "返回读书博文/导师介绍而非学生课评",
+          "readable_course_teacher_review_found": false
+        },
+        {
+          "platform": "小红书",
+          "query": "site:xiaohongshu.com 复旦 科学写作 黄吉平",
+          "search_status": "completed",
+          "result_review": "搜索结果仅返回平台帮助、商业页面或无关内容；未见可匹配课程与教师的笔记正文/规范链接",
+          "readable_course_teacher_review_found": false
+        },
+        {
+          "platform": "微信公众号",
+          "query": "site:mp.weixin.qq.com 复旦 科学写作 黄吉平",
+          "search_status": "completed",
+          "result_review": "搜索结果未见可读文章",
+          "readable_course_teacher_review_found": false
+        }
+      ]
+    },
+    {
+      "scope_index": 53,
+      "code": "PHYS40006",
+      "course_name": "毕业论文",
+      "teachers": [
+        "Cosimo Bambi",
+        "丁鲲",
+        "万义顿",
+        "乐永康",
+        "何攀",
+        "何琼",
+        "侯晓远",
+        "俞熹",
+        "修发贤",
+        "刘子宏",
+        "刘文哲",
+        "古杰",
+        "向红军",
+        "吴赛骏",
+        "吴骅",
+        "周晓东",
+        "周洋",
+        "周磊",
+        "季敏标",
+        "季索清",
+        "安正华",
+        "张成",
+        "张远波",
+        "张鹏飞",
+        "徐长松",
+        "朱黄俊",
+        "李晓鹏",
+        "李海龙",
+        "杨中芹",
+        "杨吉辉",
+        "殳蕾",
+        "殷立峰",
+        "江华",
+        "滕飞",
+        "王熠华",
+        "王靖",
+        "石武",
+        "符维娟",
+        "肖江",
+        "肖艳红",
+        "袁峰",
+        "褚维斌",
+        "谭鹏",
+        "赵俊",
+        "邵鼎煜",
+        "钟振扬",
+        "韦广红",
+        "顾嘉荫",
+        "马永利",
+        "魏心源",
+        "黄吉平"
+      ],
+      "honors": false,
+      "terms": [
+        "2026春"
+      ],
+      "platform_searches": [
+        {
+          "platform": "知乎",
+          "query": "site:zhihu.com 复旦 毕业论文 物理系 丁鲲 万义顿 乐永康",
+          "search_status": "completed",
+          "result_review": "返回复旦物理本科整体回顾，已读正文但无法映射到指导教师或本课代码",
+          "readable_course_teacher_review_found": false
+        },
+        {
+          "platform": "小红书",
+          "query": "site:xiaohongshu.com 复旦 毕业论文 物理系 丁鲲 万义顿 乐永康",
+          "search_status": "completed",
+          "result_review": "搜索结果仅返回平台帮助、商业页面或无关内容；未见可匹配课程与教师的笔记正文/规范链接",
+          "readable_course_teacher_review_found": false
+        },
+        {
+          "platform": "微信公众号",
+          "query": "site:mp.weixin.qq.com 复旦 毕业论文 物理系 丁鲲 万义顿 乐永康",
+          "search_status": "completed",
+          "result_review": "搜索结果未见可读文章",
+          "readable_course_teacher_review_found": false
+        }
+      ],
+      "scope_note": "毕业论文教师字段为指导教师集合，不是统一授课教师；该查询只覆盖少数样例姓名，不代表逐导师穷尽。"
+    },
+    {
+      "scope_index": 54,
+      "code": "PHYS40008",
+      "course_name": "激光物理",
+      "teachers": [
+        "陶镇生"
+      ],
+      "honors": false,
+      "terms": [
+        "2026春"
+      ],
+      "platform_searches": [
+        {
+          "platform": "知乎",
+          "query": "site:zhihu.com 复旦 激光物理 陶镇生",
+          "search_status": "completed",
+          "result_review": "未见教师+课程匹配的学生评价；命中项为物理系整体回顾等无关内容",
+          "readable_course_teacher_review_found": false
+        },
+        {
+          "platform": "小红书",
+          "query": "site:xiaohongshu.com 复旦 激光物理 陶镇生",
+          "search_status": "completed",
+          "result_review": "搜索结果仅返回平台帮助、商业页面或无关内容；未见可匹配课程与教师的笔记正文/规范链接",
+          "readable_course_teacher_review_found": false
+        },
+        {
+          "platform": "微信公众号",
+          "query": "site:mp.weixin.qq.com 复旦 激光物理 陶镇生",
+          "search_status": "completed",
+          "result_review": "搜索结果未见可读文章",
+          "readable_course_teacher_review_found": false
+        }
+      ]
+    },
+    {
+      "scope_index": 55,
+      "code": "PHYS40009",
+      "course_name": "物理CAI课件设计I",
+      "teachers": [
+        "魏心源"
+      ],
+      "honors": false,
+      "terms": [
+        "2025秋"
+      ],
+      "platform_searches": [
+        {
+          "platform": "知乎",
+          "query": "site:zhihu.com 复旦 物理CAI课件设计I 魏心源",
+          "search_status": "completed",
+          "result_review": "未见教师+课程匹配的学生评价",
+          "readable_course_teacher_review_found": false
+        },
+        {
+          "platform": "小红书",
+          "query": "site:xiaohongshu.com 复旦 物理CAI课件设计I 魏心源",
+          "search_status": "completed",
+          "result_review": "搜索结果仅返回平台帮助、商业页面或无关内容；未见可匹配课程与教师的笔记正文/规范链接",
+          "readable_course_teacher_review_found": false
+        },
+        {
+          "platform": "微信公众号",
+          "query": "site:mp.weixin.qq.com 复旦 物理CAI课件设计I 魏心源",
+          "search_status": "completed",
+          "result_review": "搜索结果未见可读文章",
+          "readable_course_teacher_review_found": false
+        }
+      ]
+    },
+    {
+      "scope_index": 56,
+      "code": "PHYS40011",
+      "course_name": "热力学与统计物理II",
+      "teachers": [
+        "朱黄俊",
+        "绳田聪"
+      ],
+      "honors": false,
+      "terms": [
+        "2025秋"
+      ],
+      "platform_searches": [
+        {
+          "platform": "知乎",
+          "query": "site:zhihu.com 复旦 热力学与统计物理II 朱黄俊 绳田聪",
+          "search_status": "completed",
+          "result_review": "命中统计物理阅读/教材讨论等无关内容",
+          "readable_course_teacher_review_found": false
+        },
+        {
+          "platform": "小红书",
+          "query": "site:xiaohongshu.com 复旦 热力学与统计物理II 朱黄俊 绳田聪",
+          "search_status": "completed",
+          "result_review": "搜索结果仅返回平台帮助、商业页面或无关内容；未见可匹配课程与教师的笔记正文/规范链接",
+          "readable_course_teacher_review_found": false
+        },
+        {
+          "platform": "微信公众号",
+          "query": "site:mp.weixin.qq.com 复旦 热力学与统计物理II 朱黄俊 绳田聪",
+          "search_status": "completed",
+          "result_review": "搜索结果未见可读文章",
+          "readable_course_teacher_review_found": false
+        }
+      ]
+    },
+    {
+      "scope_index": 57,
+      "code": "PHYS40012",
+      "course_name": "量子力学II",
+      "teachers": [
+        "吴长勤",
+        "肖江"
+      ],
+      "honors": false,
+      "terms": [
+        "2025秋",
+        "2026春"
+      ],
+      "platform_searches": [
+        {
+          "platform": "知乎",
+          "query": "site:zhihu.com 复旦 量子力学II 吴长勤 肖江",
+          "search_status": "completed",
+          "result_review": "未见教师+课程匹配的学生评价",
+          "readable_course_teacher_review_found": false
+        },
+        {
+          "platform": "小红书",
+          "query": "site:xiaohongshu.com 复旦 量子力学II 吴长勤 肖江",
+          "search_status": "completed",
+          "result_review": "搜索结果仅返回平台帮助、商业页面或无关内容；未见可匹配课程与教师的笔记正文/规范链接",
+          "readable_course_teacher_review_found": false
+        },
+        {
+          "platform": "微信公众号",
+          "query": "site:mp.weixin.qq.com 复旦 量子力学II 吴长勤 肖江",
+          "search_status": "completed",
+          "result_review": "搜索结果未见可读文章",
+          "readable_course_teacher_review_found": false
+        }
+      ]
+    },
+    {
+      "scope_index": 58,
+      "code": "PHYS40013",
+      "course_name": "粒子物理，核物理，宇宙学前沿",
+      "teachers": [
+        "Maxim Khlopov"
+      ],
+      "honors": false,
+      "terms": [
+        "2025秋"
+      ],
+      "platform_searches": [
+        {
+          "platform": "知乎",
+          "query": "site:zhihu.com 复旦 粒子物理核物理宇宙学前沿 Maxim Khlopov",
+          "search_status": "completed",
+          "result_review": "仅见物理学概论类内容，非本课评价",
+          "readable_course_teacher_review_found": false
+        },
+        {
+          "platform": "小红书",
+          "query": "site:xiaohongshu.com 复旦 粒子物理核物理宇宙学前沿 Maxim Khlopov",
+          "search_status": "completed",
+          "result_review": "搜索结果仅返回平台帮助、商业页面或无关内容；未见可匹配课程与教师的笔记正文/规范链接",
+          "readable_course_teacher_review_found": false
+        },
+        {
+          "platform": "微信公众号",
+          "query": "site:mp.weixin.qq.com 复旦 粒子物理核物理宇宙学前沿 Maxim Khlopov",
+          "search_status": "completed",
+          "result_review": "搜索结果未见可读文章",
+          "readable_course_teacher_review_found": false
+        }
+      ]
+    },
+    {
+      "scope_index": 59,
+      "code": "PHYS40014",
+      "course_name": "近代物理实验II",
+      "teachers": [
+        "乐永康"
+      ],
+      "honors": false,
+      "terms": [
+        "2025秋"
+      ],
+      "platform_searches": [
+        {
+          "platform": "知乎",
+          "query": "site:zhihu.com 复旦 近代物理实验II 乐永康",
+          "search_status": "completed",
+          "result_review": "仅见实验中心整体介绍，非本课评价",
+          "readable_course_teacher_review_found": false
+        },
+        {
+          "platform": "小红书",
+          "query": "site:xiaohongshu.com 复旦 近代物理实验II 乐永康",
+          "search_status": "completed",
+          "result_review": "搜索结果仅返回平台帮助、商业页面或无关内容；未见可匹配课程与教师的笔记正文/规范链接",
+          "readable_course_teacher_review_found": false
+        },
+        {
+          "platform": "微信公众号",
+          "query": "site:mp.weixin.qq.com 复旦 近代物理实验II 乐永康",
+          "search_status": "completed",
+          "result_review": "搜索结果未见可读文章",
+          "readable_course_teacher_review_found": false
+        }
+      ]
+    },
+    {
+      "scope_index": 60,
+      "code": "PHYS40016",
+      "course_name": "物理演示实验拓展",
+      "teachers": [
+        "刘文哲",
+        "符维娟"
+      ],
+      "honors": false,
+      "terms": [
+        "2025秋",
+        "2026春"
+      ],
+      "platform_searches": [
+        {
+          "platform": "知乎",
+          "query": "site:zhihu.com 复旦 物理演示实验拓展 刘文哲 符维娟",
+          "search_status": "completed",
+          "result_review": "仅见实验中心整体介绍，非本课评价",
+          "readable_course_teacher_review_found": false
+        },
+        {
+          "platform": "小红书",
+          "query": "site:xiaohongshu.com 复旦 物理演示实验拓展 刘文哲 符维娟",
+          "search_status": "completed",
+          "result_review": "搜索结果仅返回平台帮助、商业页面或无关内容；未见可匹配课程与教师的笔记正文/规范链接",
+          "readable_course_teacher_review_found": false
+        },
+        {
+          "platform": "微信公众号",
+          "query": "site:mp.weixin.qq.com 复旦 物理演示实验拓展 刘文哲 符维娟",
+          "search_status": "completed",
+          "result_review": "搜索结果未见可读文章",
+          "readable_course_teacher_review_found": false
+        }
+      ]
+    },
+    {
+      "scope_index": 61,
+      "code": "PHYS40017",
+      "course_name": "医学物理实验",
+      "teachers": [
+        "姚红英",
+        "张成",
+        "石武"
+      ],
+      "honors": false,
+      "terms": [
+        "2025秋",
+        "2026春"
+      ],
+      "platform_searches": [
+        {
+          "platform": "知乎",
+          "query": "site:zhihu.com 复旦 医学物理实验 姚红英 张成 石武",
+          "search_status": "completed",
+          "result_review": "仅见实验中心介绍，未发现本课+教师课评",
+          "readable_course_teacher_review_found": false
+        },
+        {
+          "platform": "小红书",
+          "query": "site:xiaohongshu.com 复旦 医学物理实验 姚红英 张成 石武",
+          "search_status": "completed",
+          "result_review": "索引仅返回小红书帮助中心、商业/招聘等无关页面；未见匹配笔记正文或规范链接",
+          "readable_course_teacher_review_found": false
+        },
+        {
+          "platform": "微信公众号",
+          "query": "site:mp.weixin.qq.com 复旦 医学物理实验 姚红英 张成 石武",
+          "search_status": "completed",
+          "result_review": "搜索结果未见可读文章",
+          "readable_course_teacher_review_found": false
+        }
+      ]
+    },
+    {
+      "scope_index": 62,
+      "code": "PHYS40018",
+      "course_name": "医学影像物理基础",
+      "teachers": [
+        "张成"
+      ],
+      "honors": false,
+      "terms": [
+        "2026春"
+      ],
+      "platform_searches": [
+        {
+          "platform": "知乎",
+          "query": "site:zhihu.com 复旦 医学影像物理基础 张成",
+          "search_status": "completed",
+          "result_review": "未见本课+教师学生评价",
+          "readable_course_teacher_review_found": false
+        },
+        {
+          "platform": "小红书",
+          "query": "site:xiaohongshu.com 复旦 医学影像物理基础 张成",
+          "search_status": "completed",
+          "result_review": "索引仅返回小红书帮助中心、商业/招聘等无关页面；未见匹配笔记正文或规范链接",
+          "readable_course_teacher_review_found": false
+        },
+        {
+          "platform": "微信公众号",
+          "query": "site:mp.weixin.qq.com 复旦 医学影像物理基础 张成",
+          "search_status": "completed",
+          "result_review": "搜索结果未见可读文章",
+          "readable_course_teacher_review_found": false
+        }
+      ]
+    },
+    {
+      "scope_index": 63,
+      "code": "PHYS40019",
+      "course_name": "计算物理模拟实验",
+      "teachers": [
+        "褚维斌",
+        "龚新高"
+      ],
+      "honors": false,
+      "terms": [
+        "2025秋"
+      ],
+      "platform_searches": [
+        {
+          "platform": "知乎",
+          "query": "site:zhihu.com 复旦 计算物理模拟实验 褚维斌 龚新高",
+          "search_status": "completed",
+          "result_review": "未见本课+教师学生评价",
+          "readable_course_teacher_review_found": false
+        },
+        {
+          "platform": "小红书",
+          "query": "site:xiaohongshu.com 复旦 计算物理模拟实验 褚维斌 龚新高",
+          "search_status": "completed",
+          "result_review": "索引仅返回小红书帮助中心、商业/招聘等无关页面；未见匹配笔记正文或规范链接",
+          "readable_course_teacher_review_found": false
+        },
+        {
+          "platform": "微信公众号",
+          "query": "site:mp.weixin.qq.com 复旦 计算物理模拟实验 褚维斌 龚新高",
+          "search_status": "completed",
+          "result_review": "搜索结果未见可读文章",
+          "readable_course_teacher_review_found": false
+        }
+      ]
+    },
+    {
+      "scope_index": 64,
+      "code": "PHYS50001",
+      "course_name": "固态电子学与器件",
+      "teachers": [
+        "修发贤"
+      ],
+      "honors": false,
+      "terms": [
+        "2025秋"
+      ],
+      "platform_searches": [
+        {
+          "platform": "知乎",
+          "query": "site:zhihu.com 复旦 固态电子学与器件 修发贤",
+          "search_status": "completed",
+          "result_review": "检索到微电子器件科研介绍，非课程评价",
+          "readable_course_teacher_review_found": false
+        },
+        {
+          "platform": "小红书",
+          "query": "site:xiaohongshu.com 复旦 固态电子学与器件 修发贤",
+          "search_status": "completed",
+          "result_review": "索引仅返回小红书帮助中心、商业/招聘等无关页面；未见匹配笔记正文或规范链接",
+          "readable_course_teacher_review_found": false
+        },
+        {
+          "platform": "微信公众号",
+          "query": "site:mp.weixin.qq.com 复旦 固态电子学与器件 修发贤",
+          "search_status": "completed",
+          "result_review": "搜索结果未见可读文章",
+          "readable_course_teacher_review_found": false
+        }
+      ]
+    },
+    {
+      "scope_index": 65,
+      "code": "PHYS50002",
+      "course_name": "计算物理B",
+      "teachers": [
+        "季索清",
+        "邵鼎煜"
+      ],
+      "honors": false,
+      "terms": [
+        "2025秋"
+      ],
+      "platform_searches": [
+        {
+          "platform": "知乎",
+          "query": "site:zhihu.com 复旦 计算物理B 季索清 邵鼎煜",
+          "search_status": "completed",
+          "result_review": "未见本课+教师学生评价",
+          "readable_course_teacher_review_found": false
+        },
+        {
+          "platform": "小红书",
+          "query": "site:xiaohongshu.com 复旦 计算物理B 季索清 邵鼎煜",
+          "search_status": "completed",
+          "result_review": "索引仅返回小红书帮助中心、商业/招聘等无关页面；未见匹配笔记正文或规范链接",
+          "readable_course_teacher_review_found": false
+        },
+        {
+          "platform": "微信公众号",
+          "query": "site:mp.weixin.qq.com 复旦 计算物理B 季索清 邵鼎煜",
+          "search_status": "completed",
+          "result_review": "搜索结果未见可读文章",
+          "readable_course_teacher_review_found": false
+        }
+      ]
+    },
+    {
+      "scope_index": 66,
+      "code": "PHYS50006",
+      "course_name": "半导体物理A",
+      "teachers": [
+        "陆昉"
+      ],
+      "honors": false,
+      "terms": [
+        "2025秋",
+        "2026春"
+      ],
+      "platform_searches": [
+        {
+          "platform": "知乎",
+          "query": "site:zhihu.com 复旦 半导体物理A 陆昉",
+          "search_status": "completed",
+          "result_review": "有半导体主题内容但未匹配陆昉授课的本课评价",
+          "readable_course_teacher_review_found": false
+        },
+        {
+          "platform": "小红书",
+          "query": "site:xiaohongshu.com 复旦 半导体物理A 陆昉",
+          "search_status": "completed",
+          "result_review": "索引仅返回小红书帮助中心、商业/招聘等无关页面；未见匹配笔记正文或规范链接",
+          "readable_course_teacher_review_found": false
+        },
+        {
+          "platform": "微信公众号",
+          "query": "site:mp.weixin.qq.com 复旦 半导体物理A 陆昉",
+          "search_status": "completed",
+          "result_review": "搜索结果未见可读文章",
+          "readable_course_teacher_review_found": false
+        }
+      ]
+    },
+    {
+      "scope_index": 67,
+      "code": "PHYS50007",
+      "course_name": "群论",
+      "teachers": [
+        "徐建军",
+        "戚扬"
+      ],
+      "honors": false,
+      "terms": [
+        "2026春"
+      ],
+      "platform_searches": [
+        {
+          "platform": "知乎",
+          "query": "site:zhihu.com 复旦 群论 徐建军 戚扬",
+          "search_status": "completed",
+          "result_review": "未见本课+教师学生评价",
+          "readable_course_teacher_review_found": false
+        },
+        {
+          "platform": "小红书",
+          "query": "site:xiaohongshu.com 复旦 群论 徐建军 戚扬",
+          "search_status": "completed",
+          "result_review": "索引仅返回小红书帮助中心、商业/招聘等无关页面；未见匹配笔记正文或规范链接",
+          "readable_course_teacher_review_found": false
+        },
+        {
+          "platform": "微信公众号",
+          "query": "site:mp.weixin.qq.com 复旦 群论 徐建军 戚扬",
+          "search_status": "completed",
+          "result_review": "搜索结果未见可读文章",
+          "readable_course_teacher_review_found": false
+        }
+      ]
+    },
+    {
+      "scope_index": 68,
+      "code": "PHYS50008",
+      "course_name": "高等电动力学",
+      "teachers": [
+        "滕飞"
+      ],
+      "honors": false,
+      "terms": [
+        "2025秋"
+      ],
+      "platform_searches": [
+        {
+          "platform": "知乎",
+          "query": "site:zhihu.com 复旦 高等电动力学 滕飞",
+          "search_status": "completed",
+          "result_review": "未见本课+教师学生评价",
+          "readable_course_teacher_review_found": false
+        },
+        {
+          "platform": "小红书",
+          "query": "site:xiaohongshu.com 复旦 高等电动力学 滕飞",
+          "search_status": "completed",
+          "result_review": "索引仅返回小红书帮助中心、商业/招聘等无关页面；未见匹配笔记正文或规范链接",
+          "readable_course_teacher_review_found": false
+        },
+        {
+          "platform": "微信公众号",
+          "query": "site:mp.weixin.qq.com 复旦 高等电动力学 滕飞",
+          "search_status": "completed",
+          "result_review": "搜索结果未见可读文章",
+          "readable_course_teacher_review_found": false
+        }
+      ]
+    },
+    {
+      "scope_index": 69,
+      "code": "PHYS50009",
+      "course_name": "宇宙学导论",
+      "teachers": [
+        "Antonino Marciano"
+      ],
+      "honors": false,
+      "terms": [
+        "2026春"
+      ],
+      "platform_searches": [
+        {
+          "platform": "知乎",
+          "query": "site:zhihu.com 复旦 宇宙学导论 Antonino Marciano",
+          "search_status": "completed",
+          "result_review": "仅见天体物理相关资讯，非该课程评价",
+          "readable_course_teacher_review_found": false
+        },
+        {
+          "platform": "小红书",
+          "query": "site:xiaohongshu.com 复旦 宇宙学导论 Antonino Marciano",
+          "search_status": "completed",
+          "result_review": "索引仅返回小红书帮助中心、商业/招聘等无关页面；未见匹配笔记正文或规范链接",
+          "readable_course_teacher_review_found": false
+        },
+        {
+          "platform": "微信公众号",
+          "query": "site:mp.weixin.qq.com 复旦 宇宙学导论 Antonino Marciano",
+          "search_status": "completed",
+          "result_review": "搜索结果未见可读文章",
+          "readable_course_teacher_review_found": false
+        }
+      ]
+    },
+    {
+      "scope_index": 70,
+      "code": "PHYS50010",
+      "course_name": "天体物理学导论",
+      "teachers": [
+        "Cosimo Bambi"
+      ],
+      "honors": false,
+      "terms": [
+        "2025秋"
+      ],
+      "platform_searches": [
+        {
+          "platform": "知乎",
+          "query": "site:zhihu.com 复旦 天体物理学导论 Cosimo Bambi",
+          "search_status": "completed",
+          "result_review": "仅见天体物理课程/教材介绍，非该教师课程评价",
+          "readable_course_teacher_review_found": false
+        },
+        {
+          "platform": "小红书",
+          "query": "site:xiaohongshu.com 复旦 天体物理学导论 Cosimo Bambi",
+          "search_status": "completed",
+          "result_review": "索引仅返回小红书帮助中心、商业/招聘等无关页面；未见匹配笔记正文或规范链接",
+          "readable_course_teacher_review_found": false
+        },
+        {
+          "platform": "微信公众号",
+          "query": "site:mp.weixin.qq.com 复旦 天体物理学导论 Cosimo Bambi",
+          "search_status": "completed",
+          "result_review": "搜索结果未见可读文章",
+          "readable_course_teacher_review_found": false
+        }
+      ]
+    },
+    {
+      "scope_index": 71,
+      "code": "PHYS50011",
+      "course_name": "前沿讲座",
+      "teachers": [
+        "季索清",
+        "滕飞"
+      ],
+      "honors": false,
+      "terms": [
+        "2025秋",
+        "2026春"
+      ],
+      "platform_searches": [
+        {
+          "platform": "知乎",
+          "query": "site:zhihu.com 复旦 前沿讲座 季索清 滕飞",
+          "search_status": "completed",
+          "result_review": "未见本课+教师学生评价",
+          "readable_course_teacher_review_found": false
+        },
+        {
+          "platform": "小红书",
+          "query": "site:xiaohongshu.com 复旦 前沿讲座 季索清 滕飞",
+          "search_status": "completed",
+          "result_review": "索引仅返回小红书帮助中心、商业/招聘等无关页面；未见匹配笔记正文或规范链接",
+          "readable_course_teacher_review_found": false
+        },
+        {
+          "platform": "微信公众号",
+          "query": "site:mp.weixin.qq.com 复旦 前沿讲座 季索清 滕飞",
+          "search_status": "completed",
+          "result_review": "搜索结果未见可读文章",
+          "readable_course_teacher_review_found": false
+        }
+      ]
+    },
+    {
+      "scope_index": 72,
+      "code": "PHYS60016",
+      "course_name": "表面物理",
+      "teachers": [
+        "杨新菊"
+      ],
+      "honors": false,
+      "terms": [
+        "2025秋"
+      ],
+      "platform_searches": [
+        {
+          "platform": "知乎",
+          "query": "site:zhihu.com 复旦 表面物理 杨新菊",
+          "search_status": "completed",
+          "result_review": "未见本课+教师学生评价",
+          "readable_course_teacher_review_found": false
+        },
+        {
+          "platform": "小红书",
+          "query": "site:xiaohongshu.com 复旦 表面物理 杨新菊",
+          "search_status": "completed",
+          "result_review": "索引仅返回小红书帮助中心、商业/招聘等无关页面；未见匹配笔记正文或规范链接",
+          "readable_course_teacher_review_found": false
+        },
+        {
+          "platform": "微信公众号",
+          "query": "site:mp.weixin.qq.com 复旦 表面物理 杨新菊",
+          "search_status": "completed",
+          "result_review": "搜索结果未见可读文章",
+          "readable_course_teacher_review_found": false
+        }
+      ]
+    },
+    {
+      "scope_index": 73,
+      "code": "PHYS60017",
+      "course_name": "粒子物理",
+      "teachers": [
+        "顾嘉荫"
+      ],
+      "honors": false,
+      "terms": [
+        "2025秋"
+      ],
+      "platform_searches": [
+        {
+          "platform": "知乎",
+          "query": "site:zhihu.com 复旦 粒子物理 顾嘉荫",
+          "search_status": "completed",
+          "result_review": "仅见粒子物理通识或招生无关页面，无本课教师课评",
+          "readable_course_teacher_review_found": false
+        },
+        {
+          "platform": "小红书",
+          "query": "site:xiaohongshu.com 复旦 粒子物理 顾嘉荫",
+          "search_status": "completed",
+          "result_review": "索引返回商业、帮助/招聘等无关页面；未见匹配笔记正文或规范链接",
+          "readable_course_teacher_review_found": false
+        },
+        {
+          "platform": "微信公众号",
+          "query": "site:mp.weixin.qq.com 复旦 粒子物理 顾嘉荫",
+          "search_status": "completed",
+          "result_review": "搜索结果未见可读文章",
+          "readable_course_teacher_review_found": false
+        }
+      ]
+    },
+    {
+      "scope_index": 74,
+      "code": "PHYS60018",
+      "course_name": "铁磁学",
+      "teachers": [
+        "吴义政"
+      ],
+      "honors": false,
+      "terms": [
+        "2025秋"
+      ],
+      "platform_searches": [
+        {
+          "platform": "知乎",
+          "query": "site:zhihu.com 复旦 铁磁学 吴义政",
+          "search_status": "completed",
+          "result_review": "未见本课+教师学生评价",
+          "readable_course_teacher_review_found": false
+        },
+        {
+          "platform": "小红书",
+          "query": "site:xiaohongshu.com 复旦 铁磁学 吴义政",
+          "search_status": "completed",
+          "result_review": "索引返回商业、帮助/招聘等无关页面；未见匹配笔记正文或规范链接",
+          "readable_course_teacher_review_found": false
+        },
+        {
+          "platform": "微信公众号",
+          "query": "site:mp.weixin.qq.com 复旦 铁磁学 吴义政",
+          "search_status": "completed",
+          "result_review": "搜索结果未见可读文章",
+          "readable_course_teacher_review_found": false
+        }
+      ]
+    },
+    {
+      "scope_index": 75,
+      "code": "PHYS60019",
+      "course_name": "广义相对论",
+      "teachers": [
+        "Cosimo Bambi"
+      ],
+      "honors": false,
+      "terms": [
+        "2026春"
+      ],
+      "platform_searches": [
+        {
+          "platform": "知乎",
+          "query": "site:zhihu.com 复旦 广义相对论 Cosimo Bambi",
+          "search_status": "completed",
+          "result_review": "命中广义相对论科普书籍/阅读内容，不是复旦该课的学生评价",
+          "readable_course_teacher_review_found": false
+        },
+        {
+          "platform": "小红书",
+          "query": "site:xiaohongshu.com 复旦 广义相对论 Cosimo Bambi",
+          "search_status": "completed",
+          "result_review": "索引返回商业、帮助/招聘等无关页面；未见匹配笔记正文或规范链接",
+          "readable_course_teacher_review_found": false
+        },
+        {
+          "platform": "微信公众号",
+          "query": "site:mp.weixin.qq.com 复旦 广义相对论 Cosimo Bambi",
+          "search_status": "completed",
+          "result_review": "搜索结果未见可读文章",
+          "readable_course_teacher_review_found": false
+        }
+      ]
+    },
+    {
+      "scope_index": 76,
+      "code": "PHYS60020",
+      "course_name": "凝聚态物理",
+      "teachers": [
+        "娄捷",
+        "陈焱"
+      ],
+      "honors": false,
+      "terms": [
+        "2025秋"
+      ],
+      "platform_searches": [
+        {
+          "platform": "知乎",
+          "query": "site:zhihu.com 复旦 凝聚态物理 娄捷 陈焱",
+          "search_status": "completed",
+          "result_review": "未见本课+教师学生评价",
+          "readable_course_teacher_review_found": false
+        },
+        {
+          "platform": "小红书",
+          "query": "site:xiaohongshu.com 复旦 凝聚态物理 娄捷 陈焱",
+          "search_status": "completed",
+          "result_review": "索引返回商业、帮助/招聘等无关页面；未见匹配笔记正文或规范链接",
+          "readable_course_teacher_review_found": false
+        },
+        {
+          "platform": "微信公众号",
+          "query": "site:mp.weixin.qq.com 复旦 凝聚态物理 娄捷 陈焱",
+          "search_status": "completed",
+          "result_review": "搜索结果未见可读文章",
+          "readable_course_teacher_review_found": false
+        }
+      ]
+    },
+    {
+      "scope_index": 77,
+      "code": "PHYS60021",
+      "course_name": "量子计算与量子信息",
+      "teachers": [
+        "万义顿"
+      ],
+      "honors": false,
+      "terms": [
+        "2025秋"
+      ],
+      "platform_searches": [
+        {
+          "platform": "知乎",
+          "query": "site:zhihu.com 复旦 量子计算与量子信息 万义顿",
+          "search_status": "completed",
+          "result_review": "命中量子信息入门书单，非复旦万义顿课程评价",
+          "readable_course_teacher_review_found": false
+        },
+        {
+          "platform": "小红书",
+          "query": "site:xiaohongshu.com 复旦 量子计算与量子信息 万义顿",
+          "search_status": "completed",
+          "result_review": "索引返回商业、帮助/招聘等无关页面；未见匹配笔记正文或规范链接",
+          "readable_course_teacher_review_found": false
+        },
+        {
+          "platform": "微信公众号",
+          "query": "site:mp.weixin.qq.com 复旦 量子计算与量子信息 万义顿",
+          "search_status": "completed",
+          "result_review": "搜索结果未见可读文章",
+          "readable_course_teacher_review_found": false
+        }
+      ]
+    },
+    {
+      "scope_index": 78,
+      "code": "PHYS60022",
+      "course_name": "量子场论",
+      "teachers": [
+        "周洋"
+      ],
+      "honors": false,
+      "terms": [
+        "2025秋"
+      ],
+      "platform_searches": [
+        {
+          "platform": "知乎",
+          "query": "site:zhihu.com 复旦 量子场论 周洋",
+          "search_status": "completed",
+          "result_review": "仅见量子场论通用词条/资讯，非该课程评价",
+          "readable_course_teacher_review_found": false
+        },
+        {
+          "platform": "小红书",
+          "query": "site:xiaohongshu.com 复旦 量子场论 周洋",
+          "search_status": "completed",
+          "result_review": "索引返回商业、帮助/招聘等无关页面；未见匹配笔记正文或规范链接",
+          "readable_course_teacher_review_found": false
+        },
+        {
+          "platform": "微信公众号",
+          "query": "site:mp.weixin.qq.com 复旦 量子场论 周洋",
+          "search_status": "completed",
+          "result_review": "搜索结果未见可读文章",
+          "readable_course_teacher_review_found": false
+        }
+      ]
+    },
+    {
+      "scope_index": 79,
+      "code": "PHYS60023",
+      "course_name": "量子光学",
+      "teachers": [
+        "冯磊"
+      ],
+      "honors": false,
+      "terms": [
+        "2025秋"
+      ],
+      "platform_searches": [
+        {
+          "platform": "知乎",
+          "query": "site:zhihu.com 复旦 量子光学 冯磊",
+          "search_status": "completed",
+          "result_review": "未见本课+教师学生评价",
+          "readable_course_teacher_review_found": false
+        },
+        {
+          "platform": "小红书",
+          "query": "site:xiaohongshu.com 复旦 量子光学 冯磊",
+          "search_status": "completed",
+          "result_review": "索引返回商业、帮助/招聘等无关页面；未见匹配笔记正文或规范链接",
+          "readable_course_teacher_review_found": false
+        },
+        {
+          "platform": "微信公众号",
+          "query": "site:mp.weixin.qq.com 复旦 量子光学 冯磊",
+          "search_status": "completed",
+          "result_review": "搜索结果未见可读文章",
+          "readable_course_teacher_review_found": false
+        }
+      ]
+    },
+    {
+      "scope_index": 80,
+      "code": "PHYS60024",
+      "course_name": "软凝聚态物理导论",
+      "teachers": [
+        "谭鹏"
+      ],
+      "honors": false,
+      "terms": [
+        "2026春"
+      ],
+      "platform_searches": [
+        {
+          "platform": "知乎",
+          "query": "site:zhihu.com 复旦 软凝聚态物理导论 谭鹏",
+          "search_status": "completed",
+          "result_review": "未见本课+教师学生评价",
+          "readable_course_teacher_review_found": false
+        },
+        {
+          "platform": "小红书",
+          "query": "site:xiaohongshu.com 复旦 软凝聚态物理导论 谭鹏",
+          "search_status": "completed",
+          "result_review": "索引返回商业、帮助/招聘等无关页面；未见匹配笔记正文或规范链接",
+          "readable_course_teacher_review_found": false
+        },
+        {
+          "platform": "微信公众号",
+          "query": "site:mp.weixin.qq.com 复旦 软凝聚态物理导论 谭鹏",
+          "search_status": "completed",
+          "result_review": "搜索结果未见可读文章",
+          "readable_course_teacher_review_found": false
+        }
+      ]
+    },
+    {
+      "scope_index": 81,
+      "code": "PHYS60025",
+      "course_name": "固体理论",
+      "teachers": [
+        "戚扬"
+      ],
+      "honors": false,
+      "terms": [
+        "2026春"
+      ],
+      "platform_searches": [
+        {
+          "platform": "知乎",
+          "query": "site:zhihu.com 复旦 固体理论 戚扬",
+          "search_status": "completed",
+          "result_review": "命中固体理论教材/学习建议，未匹配复旦戚扬课程",
+          "readable_course_teacher_review_found": false
+        },
+        {
+          "platform": "小红书",
+          "query": "site:xiaohongshu.com 复旦 固体理论 戚扬",
+          "search_status": "completed",
+          "result_review": "公开搜索引擎域名限定查询结果仅返回平台帮助/招聘/商业页面等无关内容，未见匹配笔记正文",
+          "readable_course_teacher_review_found": false
+        },
+        {
+          "platform": "微信公众号",
+          "query": "site:mp.weixin.qq.com 复旦 固体理论 戚扬",
+          "search_status": "completed",
+          "result_review": "搜索结果未见可读文章",
+          "readable_course_teacher_review_found": false
+        }
+      ]
+    },
+    {
+      "scope_index": 82,
+      "code": "PHYS60028",
+      "course_name": "量子多体理论",
+      "teachers": [
+        "张鹏飞"
+      ],
+      "honors": false,
+      "terms": [
+        "2026春"
+      ],
+      "platform_searches": [
+        {
+          "platform": "知乎",
+          "query": "site:zhihu.com 复旦 量子多体理论 张鹏飞",
+          "search_status": "completed",
+          "result_review": "未见该课名+教师匹配的学生课评",
+          "readable_course_teacher_review_found": false
+        },
+        {
+          "platform": "小红书",
+          "query": "site:xiaohongshu.com 复旦 量子多体理论 张鹏飞",
+          "search_status": "completed",
+          "result_review": "公开搜索引擎域名限定查询结果仅返回平台帮助/招聘/商业页面等无关内容，未见匹配笔记正文",
+          "readable_course_teacher_review_found": false
+        },
+        {
+          "platform": "微信公众号",
+          "query": "site:mp.weixin.qq.com 复旦 量子多体理论 张鹏飞",
+          "search_status": "completed",
+          "result_review": "搜索结果未见可读文章",
+          "readable_course_teacher_review_found": false
+        }
+      ]
+    },
+    {
+      "scope_index": 83,
+      "code": "PHYS60031",
+      "course_name": "星际介质物理",
+      "teachers": [
+        "季索清"
+      ],
+      "honors": false,
+      "terms": [
+        "2026春"
+      ],
+      "platform_searches": [
+        {
+          "platform": "知乎",
+          "query": "site:zhihu.com 复旦 星际介质物理 季索清",
+          "search_status": "completed",
+          "result_review": "命中天文学课程资料/教师相关信息，非学生课程评价",
+          "readable_course_teacher_review_found": false
+        },
+        {
+          "platform": "小红书",
+          "query": "site:xiaohongshu.com 复旦 星际介质物理 季索清",
+          "search_status": "completed",
+          "result_review": "公开搜索引擎域名限定查询结果仅返回平台帮助/招聘/商业页面等无关内容，未见匹配笔记正文",
+          "readable_course_teacher_review_found": false
+        },
+        {
+          "platform": "微信公众号",
+          "query": "site:mp.weixin.qq.com 复旦 星际介质物理 季索清",
+          "search_status": "completed",
+          "result_review": "搜索结果未见可读文章",
+          "readable_course_teacher_review_found": false
+        }
+      ]
+    },
+    {
+      "scope_index": 84,
+      "code": "PHYS70008",
+      "course_name": "低温和超导物理",
+      "teachers": [
+        "李炜"
+      ],
+      "honors": false,
+      "terms": [
+        "2025秋"
+      ],
+      "platform_searches": [
+        {
+          "platform": "知乎",
+          "query": "site:zhihu.com 复旦 低温和超导物理 李炜",
+          "search_status": "completed",
+          "result_review": "返回半导体课程视频等其他课程信息，非李炜该课评价",
+          "readable_course_teacher_review_found": false
+        },
+        {
+          "platform": "小红书",
+          "query": "site:xiaohongshu.com 复旦 低温和超导物理 李炜",
+          "search_status": "completed",
+          "result_review": "公开搜索引擎域名限定查询结果仅返回平台帮助/招聘/商业页面等无关内容，未见匹配笔记正文",
+          "readable_course_teacher_review_found": false
+        },
+        {
+          "platform": "微信公众号",
+          "query": "site:mp.weixin.qq.com 复旦 低温和超导物理 李炜",
+          "search_status": "completed",
+          "result_review": "搜索结果未见可读文章",
+          "readable_course_teacher_review_found": false
+        }
+      ]
+    },
+    {
+      "scope_index": 85,
+      "code": "PHYS70009",
+      "course_name": "经济物理",
+      "teachers": [
+        "陈昱"
+      ],
+      "honors": false,
+      "terms": [
+        "2025秋"
+      ],
+      "platform_searches": [
+        {
+          "platform": "知乎",
+          "query": "site:zhihu.com 复旦 经济物理 陈昱",
+          "search_status": "completed",
+          "result_review": "未见该课名+教师匹配的学生课评",
+          "readable_course_teacher_review_found": false
+        },
+        {
+          "platform": "小红书",
+          "query": "site:xiaohongshu.com 复旦 经济物理 陈昱",
+          "search_status": "completed",
+          "result_review": "公开搜索引擎域名限定查询结果仅返回平台帮助/招聘/商业页面等无关内容，未见匹配笔记正文",
+          "readable_course_teacher_review_found": false
+        },
+        {
+          "platform": "微信公众号",
+          "query": "site:mp.weixin.qq.com 复旦 经济物理 陈昱",
+          "search_status": "completed",
+          "result_review": "搜索结果未见可读文章",
+          "readable_course_teacher_review_found": false
+        }
+      ]
+    },
+    {
+      "scope_index": 86,
+      "code": "PHYS70010",
+      "course_name": "物理生物学",
+      "teachers": [
+        "韦广红"
+      ],
+      "honors": false,
+      "terms": [
+        "2025秋"
+      ],
+      "platform_searches": [
+        {
+          "platform": "知乎",
+          "query": "site:zhihu.com 复旦 物理生物学 韦广红",
+          "search_status": "completed",
+          "result_review": "未见该课名+教师匹配的学生课评",
+          "readable_course_teacher_review_found": false
+        },
+        {
+          "platform": "小红书",
+          "query": "site:xiaohongshu.com 复旦 物理生物学 韦广红",
+          "search_status": "completed",
+          "result_review": "公开搜索引擎域名限定查询结果仅返回平台帮助/招聘/商业页面等无关内容，未见匹配笔记正文",
+          "readable_course_teacher_review_found": false
+        },
+        {
+          "platform": "微信公众号",
+          "query": "site:mp.weixin.qq.com 复旦 物理生物学 韦广红",
+          "search_status": "completed",
+          "result_review": "搜索结果未见可读文章",
+          "readable_course_teacher_review_found": false
+        }
+      ]
+    },
+    {
+      "scope_index": 87,
+      "code": "PHYS70011",
+      "course_name": "固体电子结构",
+      "teachers": [
+        "吴骅"
+      ],
+      "honors": false,
+      "terms": [
+        "2026春"
+      ],
+      "platform_searches": [
+        {
+          "platform": "知乎",
+          "query": "site:zhihu.com 复旦 固体电子结构 吴骅",
+          "search_status": "completed",
+          "result_review": "未见该课名+教师匹配的学生课评",
+          "readable_course_teacher_review_found": false
+        },
+        {
+          "platform": "小红书",
+          "query": "site:xiaohongshu.com 复旦 固体电子结构 吴骅",
+          "search_status": "completed",
+          "result_review": "公开搜索引擎域名限定查询结果仅返回平台帮助/招聘/商业页面等无关内容，未见匹配笔记正文",
+          "readable_course_teacher_review_found": false
+        },
+        {
+          "platform": "微信公众号",
+          "query": "site:mp.weixin.qq.com 复旦 固体电子结构 吴骅",
+          "search_status": "completed",
+          "result_review": "搜索结果未见可读文章",
+          "readable_course_teacher_review_found": false
+        }
+      ]
+    },
+    {
+      "scope_index": 88,
+      "code": "PHYS70012",
+      "course_name": "规范场理论",
+      "teachers": [
+        "滕飞"
+      ],
+      "honors": false,
+      "terms": [
+        "2026春"
+      ],
+      "platform_searches": [
+        {
+          "platform": "知乎",
+          "query": "site:zhihu.com 复旦 规范场理论 滕飞",
+          "search_status": "completed",
+          "result_review": "命中规范场理论通识文章，非复旦该教师课程评价",
+          "readable_course_teacher_review_found": false
+        },
+        {
+          "platform": "小红书",
+          "query": "site:xiaohongshu.com 复旦 规范场理论 滕飞",
+          "search_status": "completed",
+          "result_review": "公开搜索引擎域名限定查询结果仅返回平台帮助/招聘/商业页面等无关内容，未见匹配笔记正文",
+          "readable_course_teacher_review_found": false
+        },
+        {
+          "platform": "微信公众号",
+          "query": "site:mp.weixin.qq.com 复旦 规范场理论 滕飞",
+          "search_status": "completed",
+          "result_review": "搜索结果未见可读文章",
+          "readable_course_teacher_review_found": false
+        }
+      ]
+    },
+    {
+      "scope_index": 89,
+      "code": "PHYS70013",
+      "course_name": "共形场论",
+      "teachers": [
+        "周洋"
+      ],
+      "honors": false,
+      "terms": [
+        "2026春"
+      ],
+      "platform_searches": [
+        {
+          "platform": "知乎",
+          "query": "site:zhihu.com 复旦 共形场论 周洋",
+          "search_status": "completed",
+          "result_review": "未见该课名+教师匹配的学生课评",
+          "readable_course_teacher_review_found": false
+        },
+        {
+          "platform": "小红书",
+          "query": "site:xiaohongshu.com 复旦 共形场论 周洋",
+          "search_status": "completed",
+          "result_review": "公开搜索引擎域名限定查询结果仅返回平台帮助/招聘/商业页面等无关内容，未见匹配笔记正文",
+          "readable_course_teacher_review_found": false
+        },
+        {
+          "platform": "微信公众号",
+          "query": "site:mp.weixin.qq.com 复旦 共形场论 周洋",
+          "search_status": "completed",
+          "result_review": "搜索结果未见可读文章",
+          "readable_course_teacher_review_found": false
+        }
+      ]
+    },
+    {
+      "scope_index": 90,
+      "code": "PHYS70015",
+      "course_name": "散射物理",
+      "teachers": [
+        "郑长林"
+      ],
+      "honors": false,
+      "terms": [
+        "2026春"
+      ],
+      "platform_searches": [
+        {
+          "platform": "知乎",
+          "query": "site:zhihu.com 复旦 散射物理 郑长林",
+          "search_status": "completed",
+          "result_review": "未见该课名+教师匹配的学生课评",
+          "readable_course_teacher_review_found": false
+        },
+        {
+          "platform": "小红书",
+          "query": "site:xiaohongshu.com 复旦 散射物理 郑长林",
+          "search_status": "completed",
+          "result_review": "公开搜索引擎域名限定查询结果仅返回平台帮助/招聘/商业页面等无关内容，未见匹配笔记正文",
+          "readable_course_teacher_review_found": false
+        },
+        {
+          "platform": "微信公众号",
+          "query": "site:mp.weixin.qq.com 复旦 散射物理 郑长林",
+          "search_status": "completed",
+          "result_review": "搜索结果未见可读文章",
+          "readable_course_teacher_review_found": false
+        }
+      ]
+    },
+    {
+      "scope_index": 91,
+      "code": "PHYS70016",
+      "course_name": "生物医学光子学",
+      "teachers": [
+        "季敏标"
+      ],
+      "honors": false,
+      "terms": [
+        "2025秋"
+      ],
+      "platform_searches": [
+        {
+          "platform": "知乎",
+          "query": "site:zhihu.com 复旦 生物医学光子学 季敏标",
+          "search_status": "completed",
+          "result_review": "未见该课名+教师匹配的学生课评",
+          "readable_course_teacher_review_found": false
+        },
+        {
+          "platform": "小红书",
+          "query": "site:xiaohongshu.com 复旦 生物医学光子学 季敏标",
+          "search_status": "completed",
+          "result_review": "公开搜索引擎域名限定查询结果仅返回平台帮助/招聘/商业页面等无关内容，未见匹配笔记正文",
+          "readable_course_teacher_review_found": false
+        },
+        {
+          "platform": "微信公众号",
+          "query": "site:mp.weixin.qq.com 复旦 生物医学光子学 季敏标",
+          "search_status": "completed",
+          "result_review": "搜索结果未见可读文章",
+          "readable_course_teacher_review_found": false
+        }
+      ]
+    },
+    {
+      "scope_index": 92,
+      "code": "PHYS70017",
+      "course_name": "电子结构理论与计算",
+      "teachers": [
+        "向红军"
+      ],
+      "honors": false,
+      "terms": [
+        "2025秋"
+      ],
+      "platform_searches": [
+        {
+          "platform": "知乎",
+          "query": "site:zhihu.com 复旦 电子结构理论与计算 向红军",
+          "search_status": "completed",
+          "result_review": "未见该课名+教师匹配的学生课评",
+          "readable_course_teacher_review_found": false
+        },
+        {
+          "platform": "小红书",
+          "query": "site:xiaohongshu.com 复旦 电子结构理论与计算 向红军",
+          "search_status": "completed",
+          "result_review": "公开搜索引擎域名限定查询结果仅返回平台帮助/招聘/商业页面等无关内容，未见匹配笔记正文",
+          "readable_course_teacher_review_found": false
+        },
+        {
+          "platform": "微信公众号",
+          "query": "site:mp.weixin.qq.com 复旦 电子结构理论与计算 向红军",
+          "search_status": "completed",
+          "result_review": "搜索结果未见可读文章",
+          "readable_course_teacher_review_found": false
+        }
+      ]
+    },
+    {
+      "scope_index": 93,
+      "code": "PHYS70018",
+      "course_name": "非线性光学",
+      "teachers": [
+        "冯磊"
+      ],
+      "honors": false,
+      "terms": [
+        "2026春"
+      ],
+      "platform_searches": [
+        {
+          "platform": "知乎",
+          "query": "site:zhihu.com 复旦 非线性光学 冯磊",
+          "search_status": "completed",
+          "result_review": "未见该课名+教师匹配的学生课评",
+          "readable_course_teacher_review_found": false
+        },
+        {
+          "platform": "小红书",
+          "query": "site:xiaohongshu.com 复旦 非线性光学 冯磊",
+          "search_status": "completed",
+          "result_review": "公开搜索引擎域名限定查询结果仅返回平台帮助/招聘/商业页面等无关内容，未见匹配笔记正文",
+          "readable_course_teacher_review_found": false
+        },
+        {
+          "platform": "微信公众号",
+          "query": "site:mp.weixin.qq.com 复旦 非线性光学 冯磊",
+          "search_status": "completed",
+          "result_review": "搜索结果未见可读文章",
+          "readable_course_teacher_review_found": false
+        }
+      ]
+    },
+    {
+      "scope_index": 94,
+      "code": "PHYS70019",
+      "course_name": "物理中的微分几何",
+      "teachers": [
+        "绳田聪"
+      ],
+      "honors": false,
+      "terms": [
+        "2026春"
+      ],
+      "platform_searches": [
+        {
+          "platform": "知乎",
+          "query": "site:zhihu.com 复旦 物理中的微分几何 绳田聪",
+          "search_status": "completed",
+          "result_review": "未见该课名+教师匹配的学生课评；另有物理系历史整体回顾，但无教师/班次归属，不作本课评价",
+          "readable_course_teacher_review_found": false
+        },
+        {
+          "platform": "小红书",
+          "query": "site:xiaohongshu.com 复旦 物理中的微分几何 绳田聪",
+          "search_status": "completed",
+          "result_review": "公开搜索引擎域名限定查询结果仅返回平台帮助/招聘/商业页面等无关内容，未见匹配笔记正文",
+          "readable_course_teacher_review_found": false
+        },
+        {
+          "platform": "微信公众号",
+          "query": "site:mp.weixin.qq.com 复旦 物理中的微分几何 绳田聪",
+          "search_status": "completed",
+          "result_review": "搜索结果未见可读文章",
+          "readable_course_teacher_review_found": false
+        }
+      ]
+    },
+    {
+      "scope_index": 95,
+      "code": "PHYS70020",
+      "course_name": "物理中的数学方法",
+      "teachers": [
+        "林志方"
+      ],
+      "honors": false,
+      "terms": [
+        "2026春"
+      ],
+      "platform_searches": [
+        {
+          "platform": "知乎",
+          "query": "site:zhihu.com 复旦 物理中的数学方法 林志方",
+          "search_status": "completed",
+          "result_review": "未见该课名+教师匹配的学生课评；另有物理系历史整体回顾，但无教师/班次归属，不作本课评价",
+          "readable_course_teacher_review_found": false
+        },
+        {
+          "platform": "小红书",
+          "query": "site:xiaohongshu.com 复旦 物理中的数学方法 林志方",
+          "search_status": "completed",
+          "result_review": "公开搜索引擎域名限定查询结果仅返回平台帮助/招聘/商业页面等无关内容，未见匹配笔记正文",
+          "readable_course_teacher_review_found": false
+        },
+        {
+          "platform": "微信公众号",
+          "query": "site:mp.weixin.qq.com 复旦 物理中的数学方法 林志方",
+          "search_status": "completed",
+          "result_review": "搜索结果未见可读文章",
+          "readable_course_teacher_review_found": false
+        }
+      ]
+    }
+  ],
+  "readable_but_non_specific_leads": [
+    {
+      "platform": "知乎",
+      "title": "What is the Physics program at Fudan University like? How is the faculty?",
+      "url": "https://www.zhihu.com/en/answer/1378784556",
+      "body_read_status": "readable full answer text via public index page",
+      "evidence": "答主自述物理本科毕业一年后写回顾；谈到实验课报告、数学方法、群表示论、微分几何与高阶课程，但未给出这些课的具体教师、班次、代码/学期。只作为物理系整体回顾，不并入任何具体课程或教师。"
+    }
+  ]
+}

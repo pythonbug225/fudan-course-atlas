@@ -1,5 +1,5 @@
 const assert=require('node:assert/strict'),fs=require('node:fs'),vm=require('node:vm'),path=require('node:path');
-const root=path.join(__dirname,'..','public'),box={module:{exports:{}}};vm.runInNewContext(fs.readFileSync(root+'/assets/components.js','utf8'),box);const t=box.module.exports,p=JSON.parse(fs.readFileSync(root+'/data/grading.json','utf8'));let passed=0;
+const root=path.join(__dirname,'..','public'),box={module:{exports:{}}};vm.runInNewContext(fs.readFileSync(root+'/assets/components.js','utf8'),box);const t=box.module.exports,p=require('../scripts/read-catalog.cjs')(root+'/data/grading.json');let passed=0;
 const near=(a,b)=>{assert.ok(Math.abs(a-b)<1e-9,`${a} != ${b}`);passed++};const base={allCredits:0,allGpa:0,professionalCredits:0,professionalGpa:0};
 let rows=[{credits:3,grade:'A+',professional:true},{credits:2,grade:'B',professional:false}];let r=t.collegeGPA(base,rows,p,{correction:0});near(r.all.low,3.78);near(r.professional.low,4.3);near(r.low,4.04);near(r.high,4.08); // B为3.0—3.2，未知实际值保留区间。
 r=t.multiGPA({credits:0,gpa:0},[{credits:3,grade:'A+'},{credits:2,grade:'manual',manual:3}],p);near(r.low,3.6);

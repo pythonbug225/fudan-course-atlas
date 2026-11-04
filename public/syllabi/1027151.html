@@ -1,18 +1,18 @@
-<!doctype html><html lang="zh-CN"><meta charset="utf-8"><title>面向大模型的编程与并行学习算法 · 周学功 · 2026春 CS20015.01</title><style>body{max-width:1000px;margin:35px auto;padding:0 20px;font:16px/1.9 system-ui}table{border-collapse:collapse}td,th{border:1px solid #cad7cf;padding:8px}img{max-width:100%}</style><body><h1>面向大模型的编程与并行学习算法</h1><p>2026春 · CS20015.01 · 周学功</p><p>来源：复旦教务系统教学班大纲。</p><h2>考核与成绩构成</h2><ul><li>作业/实验/实践Assignment 20.0% </li><li>课题论文Research Paper 30.0% </li><li>期末考试Final Examination：闭卷  50.0% </li></ul><h2>课程简介（中文）</h2><p>近年来大模型蓬勃发展，在很多领域都展现出了很强的能力。本课程在介绍并行计算的基本概念和原理的基础上，以实际的大模型实现代码为实例，深入讲解大模型所涉及的算法、模型训练方法及其并行化方法。通过本课程的学习与课后实践，使学生了解和掌握面向大模型的并行编程、并行算法设计、机器学习算法以及并行分布式训练。</p><h2>课程简介（英文）</h2><p>In recent years, large-scale models have flourished and demonstrated strong capabilities across many fields. This course introduces the fundamental concepts and principles of parallel computing, using the implementation code of real-world large models as examples to provide an in-depth explanation of the algorithms, model training methods, and parallelization techniques involved in large models. Through both learning and practicing, students will grasp parallel programming, parallel algorithm design, machine learning algorithms, and parallel distributed training specifically oriented toward large models.</p><h2>教学目标</h2><p>通过本课程的学习，使学生掌握面向大模型的并行计算的概念、基本原理、模型和编程。深入理解大模型所涉及的机器学习算法及其并行化方法，并结合实际的大模型实现代码，在并行算法设计与编程实现，以及并行分布式训练等方面开展实践。</p><h2>教学方式</h2><p>以课堂讲授为主，结合课程项目实践。</p><h2>教学内容与进度安排</h2><p>第一周 并行计算与大模型基础<br>    并行计算基本概念<br>    机器学习、神经网络和大模型基础</p>
-<p>第二周 并行计算系统结构<br>    并行体系结构<br>    GPU和AI加速器<br>    互连网络</p>
-<p>第三周 并行算法设计<br>    并行编程模型<br>    并行算法结构设计模式</p>
-<p>第四周 并行程序设计<br>    C++多线程编程<br>    OpenMP编程<br>    MPI消息传递编程</p>
-<p> 第五周 CUDA编程<br>    CUDA编程模型<br>    存储器和数据局部性<br>    CUDA编程优化</p>
-<p>第六周 并行算法设计实例<br>    矩阵的划分<br>    矩阵乘法<br>    面向GPU的矩阵乘法优化</p>
-<p>第七周 深度神经网络<br>    MLP、CNN、RNN<br>    前向传播、反向传播和计算图<br>    优化算法<br>    编程实例</p>
-<p>第八周 自然语言处理（预训练）<br>    词切分、词嵌入<br>    编程实例</p>
-<p>第九周 注意力机制<br>    基本概念<br>    自注意力、因果注意力、多头注意力<br>    编程实例</p>
-<p>第十周 大语言模型结构<br>    Transformer结构<br>    Bert、GPT、Llama等模型结构<br>    编程实例</p>
-<p>第十一周 LLM训练与文本生成<br>    损失函数<br>    模型训练<br>    解码策略<br>    编程实例</p>
-<p>第十二周 LLM微调<br>    提示学习和语境学习<br>    模型微调<br>    模型评估<br>    编程实例</p>
-<p>第十三周 并行分布式训练方法<br>    数据并行、模型并行、混合并行<br>    分布式机器学习算法</p>
-<p>第十四周 LLM并行编程实例</p>
-<p>第十五周 LLM并行训练实例</p>
-<p>第十六周 习题选讲和期末复习</p>
-<p>第十七周 期末考试</p>
+<!doctype html><html lang="zh-CN"><meta charset="utf-8"><title>面向大模型的编程与并行学习算法 · 周学功 · 2026春 CS20015.01</title><style>body{max-width:1000px;margin:35px auto;padding:0 20px;font:16px/1.9 system-ui}table{border-collapse:collapse}td,th{border:1px solid #cad7cf;padding:8px}img{max-width:100%}</style><body><h1>面向大模型的编程与并行学习算法</h1><p>2026春 · CS20015.01 · 周学功</p><p>来源：复旦教务系统教学班大纲。</p><h2>考核与成绩构成</h2><ul><li>作业/实验/实践Assignment 20.0% </li><li>课题论文Research Paper 30.0% </li><li>期末考试Final Examination：闭卷  50.0% </li></ul><h2>课程简介（中文）</h2><p>近年来大模型蓬勃发展，在很多领域都展现出了很强的能力。本课程在介绍并行计算的基本概念和原理的基础上，以实际的大模型实现代码为实例，深入讲解大模型所涉及的算法、模型训练方法及其并行化方法。通过本课程的学习与课后实践，使学生了解和掌握面向大模型的并行编程、并行算法设计、机器学习算法以及并行分布式训练。</p><h2>课程简介（英文）</h2><p>In recent years, large-scale models have flourished and demonstrated strong capabilities across many fields. This course introduces the fundamental concepts and principles of parallel computing, using the implementation code of real-world large models as examples to provide an in-depth explanation of the algorithms, model training methods, and parallelization techniques involved in large models. Through both learning and practicing, students will grasp parallel programming, parallel algorithm design, machine learning algorithms, and parallel distributed training specifically oriented toward large models.</p><h2>教学目标</h2><p>通过本课程的学习，使学生掌握面向大模型的并行计算的概念、基本原理、模型和编程。深入理解大模型所涉及的机器学习算法及其并行化方法，并结合实际的大模型实现代码，在并行算法设计与编程实现，以及并行分布式训练等方面开展实践。</p><h2>教学方式</h2><p>以课堂讲授为主，结合课程项目实践。</p><h2>教学内容与进度安排</h2><p>第一周 并行计算与大模型基础<br>    并行计算基本概念<br>    机器学习、神经网络和大模型基础</p>
+<p>第二周 并行计算系统结构<br>    并行体系结构<br>    GPU和AI加速器<br>    互连网络</p>
+<p>第三周 并行算法设计<br>    并行编程模型<br>    并行算法结构设计模式</p>
+<p>第四周 并行程序设计<br>    C++多线程编程<br>    OpenMP编程<br>    MPI消息传递编程</p>
+<p> 第五周 CUDA编程<br>    CUDA编程模型<br>    存储器和数据局部性<br>    CUDA编程优化</p>
+<p>第六周 并行算法设计实例<br>    矩阵的划分<br>    矩阵乘法<br>    面向GPU的矩阵乘法优化</p>
+<p>第七周 深度神经网络<br>    MLP、CNN、RNN<br>    前向传播、反向传播和计算图<br>    优化算法<br>    编程实例</p>
+<p>第八周 自然语言处理（预训练）<br>    词切分、词嵌入<br>    编程实例</p>
+<p>第九周 注意力机制<br>    基本概念<br>    自注意力、因果注意力、多头注意力<br>    编程实例</p>
+<p>第十周 大语言模型结构<br>    Transformer结构<br>    Bert、GPT、Llama等模型结构<br>    编程实例</p>
+<p>第十一周 LLM训练与文本生成<br>    损失函数<br>    模型训练<br>    解码策略<br>    编程实例</p>
+<p>第十二周 LLM微调<br>    提示学习和语境学习<br>    模型微调<br>    模型评估<br>    编程实例</p>
+<p>第十三周 并行分布式训练方法<br>    数据并行、模型并行、混合并行<br>    分布式机器学习算法</p>
+<p>第十四周 LLM并行编程实例</p>
+<p>第十五周 LLM并行训练实例</p>
+<p>第十六周 习题选讲和期末复习</p>
+<p>第十七周 期末考试</p>
 <p> </p><h2>课程考核与成绩评定</h2><h2>教材</h2><h2>教学参考资料</h2><p>陈国良.《并行计算:结构.算法.编程(第3版)》. 高等教育出版社, 2012.9<br>塞巴斯蒂安·拉施卡.《从零构建大模型》. 人民邮电出版社，2025.4<br>阿斯顿·张，扎卡里 C.立顿，李沐，亚历山大 J.斯莫拉.《动手学深度学习》. 人民邮电出版社，2023.2. https://zh.d2l.ai/<br>张奇，桂韬，郑锐，黄萱菁.《大规模语言模型：从理论到实践（第2版）》. 电子工业出版社,2025.4<br>刘铁岩，陈薇，王太峰，高飞.《分布式机器学习：算法、理论与实践》. 机械工业出版社，2018.10</p><h2>教学团队成员</h2></body></html>

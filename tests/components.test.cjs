@@ -1,6 +1,6 @@
 const assert=require('assert/strict'),fs=require('fs');
 const root=require('path').join(__dirname,'..','public');
-const vm=require('node:vm');const box={module:{exports:{}}};vm.runInNewContext(fs.readFileSync(root+'/assets/components.js','utf8'),box);const t=box.module.exports,p=JSON.parse(fs.readFileSync(root+'/data/grading.json','utf8')),f=JSON.parse(fs.readFileSync(root+'/data/fitness.json','utf8'));
+const vm=require('node:vm');const box={module:{exports:{}}};vm.runInNewContext(fs.readFileSync(root+'/assets/components.js','utf8'),box);const t=box.module.exports,p=require('../scripts/read-catalog.cjs')(root+'/data/grading.json'),f=require('../scripts/read-catalog.cjs')(root+'/data/fitness.json');
 let passed=0;function near(a,b){assert.ok(Math.abs(a-b)<1e-8,`${a} != ${b}`);passed++}
 let r=t.multiGPA({gpa:3.6,credits:60},[{credits:3,grade:'A-'},{credits:2,grade:'B+'},{credits:4,grade:'P'},{credits:2,grade:'NP'}],p);
 near(r.low,(216+11.1+6.6)/65);near(r.high,(216+11.4+7.2)/65);near(r.excluded,6);near(r.denominator,65);

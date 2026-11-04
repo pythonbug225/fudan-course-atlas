@@ -1,0 +1,5838 @@
+{
+  "testedAt": "2026-10-31T17:00:08.954Z",
+  "model": "deepseek-flash",
+  "status": "passed",
+  "turns": [
+    {
+      "answer": "检索「数理统计」\n数理统计 · MATH30011 · 尤翀、杨莹\n统计学基础I:数理统计(H) · STAT20010h · 孙鑫伟\n概率论与数理统计 · STAT30014 · 张鹏、王勇、郭跃飞、金玲飞\n概率论与数理统计 · PHYS20014 · 许明宇\n数理统计方法在化学中的应用 · CHEM20008 · 李振华\n环境数理统计 · ESE70003 · 张浩\n\n课程证据 · 数理统计（MATH30011）\n\n杨莹 · MATH30011.02 · 3 学分\n16周 星期三 3~5节 H3309 杨莹; \n1周 星期三 3~5节 HGX508 杨莹; \n2~15周 星期三 3~5节 H3309 杨莹\n考核：作业/实验/实践Assignment 20%；期中考试Midterm Examination 30%；期末考试Final Examination：闭卷  50%\n班次资格：适用业务类型：本研融通 院系包含：数学科学学院 适用业务类型：本研融通 年级包含：2024 专业包含：数学与应用数学-人工智能(双学士学位项目)\n来源：复旦教务系统 · 2026春 · MATH30011.02\n\n尤翀 · MATH30011.01 · 3 学分\n1~15周 星期五 6~8节 HGX503 尤翀\n考核：作业/实验/实践Assignment 25%；期中考试Midterm Examination 25%；期末考试Final Examination：闭卷  50%\n班次资格：适用业务类型：本研融通 年级包含：2023 院系包含：数学科学学院\n来源：复旦教务系统 · 2026春 · MATH30011.01\n\n历史学生体验 · 杨莹\n多篇评价承认新教师讲授还不够流畅、证明跳跃，后续统计课程能帮助回看理解。\n历史反馈记载作业集中在少数几次，并有带回家完成的期中；期末需安排计算与完整推导练习。\n期末计算量大、曾不允许计算器；期中必须把推导写完整。2026春评价记期中30%。\n来源：课评 #4341；课评 #4376；课评 #4510；课评 #6128；课评 #6145\n\n历史学生体验 · 尤翀\n完整树洞长评认为课程内容偏基础，复习以老师课件为主；课件有少量茆诗松教材之外的内容，需要把补充部分也学会。\n全学期4次作业，每次4—5题，合计不到20题，占25%。\n期中25%：开卷、4道多小问题，考前一周给练习题；期末50%：最后一周明确划课件重点，范围小于整本教材。\n来源：树洞 #680105 / 0,1,2,5,6,7,8,9,10,11层\n\n公共＋专业审计 · 2026数学与应用数学-人工智能双学士学位项目培养方案\n已通过 4 学分；在读 / 预选 / 待审核 1 条。毕业总要求 157 学分。\n\n方案 A · 18 学分 · 6 门\n数理统计（杨莹，3 学分）；数学模型（蔡志杰，3 学分）；概率论（吴波，3 学分）；人工智能导论（张景锋、丁恒辉，3 学分）；人工智能的软件基础（徐辉、周喆，3 学分）；抽象代数II（朱胜林，3 学分）\n时间冲突 0 组；平均每周到课 3.9 天（含周末）；最高每周 21 节。\n加入后预测 22 学分；完成要求 0 → 0 / 31 项。\n\n方案 B · 15 学分 · 6 门\n数学模型（蔡志杰，3 学分）；数理统计（杨莹，3 学分）；概率论（吴波，3 学分）；英语视听（杨霞，2 学分）；英语论说文写作（张雪波，2 学分）；学术英语(医学)（赵静，2 学分）\n时间冲突 0 组；平均每周到课 4.9 天（含周末）；最高每周 18 节。\n加入后预测 19 学分；完成要求 0 → 1 / 31 项。\n\n两案差异\nA 独有：人工智能导论、人工智能的软件基础、抽象代数II。\nB 独有：英语视听、英语论说文写作、学术英语(医学)。\n学分差 A − B：3。\n\n尚需推进的要求 · 当前\n思政A：0/12 学分，0/6 门\n创新A：0/2 学分，0/2 门\n思政与创新A：0/14 学分，0/8 门\n思政B：0/2 学分，0/1 门\n思想政治理论课与创新课模块：0/16 学分，0/1 门\n艺术创作与审美体验：0/2 学分\n核心课程七大模块：0/6 学分\n国家安全教育：0/1 学分，0/1 门\n完整规则、必修待补清单与归属见「学分审计」。\n\n接下来想先调整教师与考核方式，还是集中处理尚未完成的培养要求？",
+      "modelFollowup": "两案已生成并比较：A 案（科研向，18 学分）多出 AI 与抽象代数课程，B 案（均衡向，15 学分）补上外语模块。数理统计在两案中的选班相同；你现在的数理统计是2026春预选记录，只计入预测，只有解析几何为已通过，没有其他已通过学分。要调整的话，你希望我先把哪一案的选班或课程替换掉？",
+      "trace": [
+        {
+          "round": 1,
+          "id": "call_00_1y2f67w0HHvMeINwA2a82078",
+          "tool": "get_profile",
+          "args": {},
+          "result": {
+            "profile": {
+              "plan": "152034",
+              "goal": "research",
+              "maxCredits": 18,
+              "freeWednesday": true,
+              "term": "2026春",
+              "hours": 30,
+              "completed": [],
+              "englishTier": "B",
+              "development": "专业进阶路径"
+            },
+            "records": [
+              {
+                "code": "MATH10020",
+                "name": "解析几何",
+                "credits": 4,
+                "status": "passed",
+                "term": "2025秋"
+              },
+              {
+                "code": "MATH30011",
+                "name": "数理统计",
+                "credits": 3,
+                "status": "preselected",
+                "term": "2026春"
+              }
+            ],
+            "plans": {
+              "A": [],
+              "B": []
+            },
+            "dataSnapshot": "2026-10-31 · 网站 v39"
+          }
+        },
+        {
+          "round": 1,
+          "id": "call_01_XC07iywyj6mrRH5M5Y4o8231",
+          "tool": "audit_curriculum",
+          "args": {
+            "slot": "current"
+          },
+          "result": {
+            "title": "2026数学与应用数学-人工智能双学士学位项目培养方案",
+            "target": 157,
+            "passedCredits": 4,
+            "forecastCredits": 4,
+            "completedRules": 0,
+            "forecastCompletedRules": 0,
+            "totalRules": 31,
+            "pendingRecords": 1,
+            "duplicateCodes": [],
+            "gaps": [
+              {
+                "module": "思政A",
+                "id": "public:15143085",
+                "credits": 0,
+                "required": 12,
+                "courses": 0,
+                "requiredCourses": 6,
+                "missingRequired": [
+                  {
+                    "code": "GEIP30002",
+                    "name": "习近平新时代中国特色社会主义思想概论"
+                  },
+                  {
+                    "code": "GEIP10001",
+                    "name": "马克思主义基本原理"
+                  },
+                  {
+                    "code": "GEIP10003",
+                    "name": "大学生思想文化素养"
+                  },
+                  {
+                    "code": "GEIP10002",
+                    "name": "中国共产党历史与理论"
+                  },
+                  {
+                    "code": "GEIP10004",
+                    "name": "新时代实践教育Ⅰ"
+                  },
+                  {
+                    "code": "GEIP10005",
+                    "name": "新时代实践教育Ⅱ"
+                  }
+                ],
+                "checks": []
+              },
+              {
+                "module": "创新A",
+                "id": "public:15143086",
+                "credits": 0,
+                "required": 2,
+                "courses": 0,
+                "requiredCourses": 2,
+                "missingRequired": [
+                  {
+                    "code": "GEIP10006",
+                    "name": "大学生创新实践Ⅰ"
+                  },
+                  {
+                    "code": "GEIP10007",
+                    "name": "大学生创新实践Ⅱ"
+                  }
+                ],
+                "checks": []
+              },
+              {
+                "module": "思政与创新A",
+                "id": "public:9497468",
+                "credits": 0,
+                "required": 14,
+                "courses": 0,
+                "requiredCourses": 8,
+                "missingRequired": [],
+                "checks": []
+              },
+              {
+                "module": "思政B",
+                "id": "public:9497469",
+                "credits": 0,
+                "required": 2,
+                "courses": 0,
+                "requiredCourses": 1,
+                "missingRequired": [],
+                "checks": []
+              },
+              {
+                "module": "思想政治理论课与创新课模块",
+                "id": "public:9497467",
+                "credits": 0,
+                "required": 16,
+                "courses": 0,
+                "requiredCourses": 1,
+                "missingRequired": [],
+                "checks": []
+              },
+              {
+                "module": "艺术创作与审美体验",
+                "id": "public:9497480",
+                "credits": 0,
+                "required": 2,
+                "courses": 0,
+                "requiredCourses": 0,
+                "missingRequired": [],
+                "checks": []
+              },
+              {
+                "module": "核心课程七大模块",
+                "id": "public:9497473",
+                "credits": 0,
+                "required": 6,
+                "courses": 0,
+                "requiredCourses": 0,
+                "missingRequired": [],
+                "checks": []
+              },
+              {
+                "module": "国家安全教育",
+                "id": "public:9497482",
+                "credits": 0,
+                "required": 1,
+                "courses": 0,
+                "requiredCourses": 1,
+                "missingRequired": [
+                  {
+                    "code": "GESS10001",
+                    "name": "大学生国家安全教育"
+                  }
+                ],
+                "checks": []
+              },
+              {
+                "module": "通识教育核心课程",
+                "id": "major:9552075",
+                "credits": 0,
+                "required": 23,
+                "courses": 0,
+                "requiredCourses": 0,
+                "missingRequired": [],
+                "checks": []
+              },
+              {
+                "module": "大学英语进阶课程",
+                "id": "public:9497492",
+                "credits": 0,
+                "required": 2,
+                "courses": 0,
+                "requiredCourses": 0,
+                "missingRequired": [],
+                "checks": []
+              },
+              {
+                "module": "大学英语高阶课程",
+                "id": "public:9497495",
+                "credits": 0,
+                "required": 2,
+                "courses": 0,
+                "requiredCourses": 0,
+                "missingRequired": [],
+                "checks": []
+              },
+              {
+                "module": "大学外语（B级）",
+                "id": "public:9497491",
+                "credits": 0,
+                "required": 4,
+                "courses": 0,
+                "requiredCourses": 2,
+                "missingRequired": [
+                  {
+                    "code": "GEEF30032",
+                    "name": "复旦大学英语水平测试"
+                  }
+                ],
+                "checks": []
+              },
+              {
+                "module": "大学外语",
+                "id": "public:9497484",
+                "credits": 0,
+                "required": 4,
+                "courses": 0,
+                "requiredCourses": 0,
+                "missingRequired": [],
+                "checks": [
+                  "复旦大学英语水平测试 FET"
+                ]
+              },
+              {
+                "module": "体育课程",
+                "id": "public:9497512",
+                "credits": 0,
+                "required": 4,
+                "courses": 0,
+                "requiredCourses": 4,
+                "missingRequired": [],
+                "checks": [
+                  "四个学期体育必修"
+                ]
+              },
+              {
+                "module": "军事课程",
+                "id": "public:9497513",
+                "credits": 0,
+                "required": 4,
+                "courses": 0,
+                "requiredCourses": 2,
+                "missingRequired": [
+                  {
+                    "code": "GEND10001",
+                    "name": "军事理论"
+                  },
+                  {
+                    "code": "GEND10002",
+                    "name": "军事技能"
+                  }
+                ],
+                "checks": []
+              },
+              {
+                "module": "心理健康教育课程",
+                "id": "public:9497515",
+                "credits": 0,
+                "required": 1,
+                "courses": 0,
+                "requiredCourses": 1,
+                "missingRequired": [],
+                "checks": [
+                  "2 学分课程，或在线课加 16 学时实践 / 1 学分线下课"
+                ]
+              },
+              {
+                "module": "实验室安全教育",
+                "id": "public:9497516",
+                "credits": 0,
+                "required": 0,
+                "courses": 0,
+                "requiredCourses": 0,
+                "missingRequired": [],
+                "checks": [
+                  "在线安全教育、消防培训与相应实验室准入"
+                ]
+              },
+              {
+                "module": "通识教育专项教育课程",
+                "id": "major:9552088",
+                "credits": 0,
+                "required": 13,
+                "courses": 0,
+                "requiredCourses": 0,
+                "missingRequired": [],
+                "checks": []
+              },
+              {
+                "module": "通识教育课程",
+                "id": "major:9552074",
+                "credits": 0,
+                "required": 36,
+                "courses": 0,
+                "requiredCourses": 0,
+                "missingRequired": [],
+                "checks": []
+              },
+              {
+                "module": "必修课程",
+                "id": "major:9452273",
+                "credits": 0,
+                "required": 14,
+                "courses": 0,
+                "requiredCourses": 0,
+                "missingRequired": [
+                  {
+                    "code": "MATH10010",
+                    "name": "数学分析AⅠ"
+                  },
+                  {
+                    "code": "MATH10011",
+                    "name": "数学分析AⅡ"
+                  },
+                  {
+                    "code": "CS10004",
+                    "name": "程序设计"
+                  }
+                ],
+                "checks": []
+              },
+              {
+                "module": "数学类基础课（大物B）",
+                "id": "major:9452275",
+                "credits": 0,
+                "required": 8,
+                "courses": 0,
+                "requiredCourses": 0,
+                "missingRequired": [],
+                "checks": []
+              },
+              {
+                "module": "数学类基础课（大学物理）",
+                "id": "major:9452274",
+                "credits": 0,
+                "required": 8,
+                "courses": 0,
+                "requiredCourses": 0,
+                "missingRequired": [],
+                "checks": []
+              },
+              {
+                "module": "学科基础课程",
+                "id": "major:9452272",
+                "credits": 0,
+                "required": 22,
+                "courses": 0,
+                "requiredCourses": 0,
+                "missingRequired": [],
+                "checks": []
+              },
+              {
+                "module": "必修课程",
+                "id": "major:9452278",
+                "credits": 4,
+                "required": 38,
+                "courses": 1,
+                "requiredCourses": 0,
+                "missingRequired": [
+                  {
+                    "code": "MATH10009",
+                    "name": "高等代数Ⅰ"
+                  },
+                  {
+                    "code": "MATH10019",
+                    "name": "高等代数II"
+                  },
+                  {
+                    "code": "MATH20004",
+                    "name": "数学分析AⅢ"
+                  },
+                  {
+                    "code": "MATH20014",
+                    "name": "常微分方程"
+                  },
+                  {
+                    "code": "MATH20015",
+                    "name": "抽象代数"
+                  }
+                ],
+                "checks": []
+              }
+            ]
+          }
+        },
+        {
+          "round": 1,
+          "id": "call_02_9R1BNOvYqSsOxjHoARDL6310",
+          "tool": "search_courses",
+          "args": {
+            "query": "数理统计"
+          },
+          "result": [
+            {
+              "id": "C0055",
+              "code": "MATH30011",
+              "name": "数理统计",
+              "credits": [
+                3
+              ],
+              "teachers": [
+                "尤翀",
+                "杨莹"
+              ],
+              "planMatch": true,
+              "sections": [
+                {
+                  "id": "1017541",
+                  "teacher": [
+                    "杨莹"
+                  ],
+                  "credits": 3,
+                  "schedule": "16周 星期三 3~5节 H3309 杨莹; \n1周 星期三 3~5节 HGX508 杨莹; \n2~15周 星期三 3~5节 H3309 杨莹"
+                },
+                {
+                  "id": "1017540",
+                  "teacher": [
+                    "尤翀"
+                  ],
+                  "credits": 3,
+                  "schedule": "1~15周 星期五 6~8节 HGX503 尤翀"
+                }
+              ]
+            },
+            {
+              "id": "U1694",
+              "code": "STAT20010h",
+              "name": "统计学基础I:数理统计(H)",
+              "credits": [
+                4
+              ],
+              "teachers": [
+                "孙鑫伟"
+              ],
+              "planMatch": false,
+              "sections": [
+                {
+                  "id": "1028905",
+                  "teacher": [
+                    "孙鑫伟"
+                  ],
+                  "credits": 4,
+                  "schedule": "1~3,16周 星期五 6~9节 H6406 孙鑫伟; \n4~15周 星期五 6~8节 H6406 孙鑫伟; \n12周 星期六 3~3节 HGX202 孙鑫伟; \n14~16(双)周 星期六 5~5节 HGX205 孙鑫伟; \n12周 星期六 2~2节 HGX202 孙鑫伟; \n12周 星期六 4~4节 HGX202 孙鑫伟; \n14~16(双)周 星期六 4~4节 HGX205 孙鑫伟; \n14~16(双)周 星期六 2~2节 HGX205 孙鑫伟; \n12周 星期六 5~5节 HGX202 孙鑫伟; \n14~16(双)周 星期六 3~3节 HGX205 孙鑫伟"
+                }
+              ]
+            },
+            {
+              "id": "CAIC_STAT30014",
+              "code": "STAT30014",
+              "name": "概率论与数理统计",
+              "credits": [
+                4
+              ],
+              "teachers": [
+                "张鹏",
+                "王勇",
+                "郭跃飞",
+                "金玲飞"
+              ],
+              "planMatch": false,
+              "sections": []
+            },
+            {
+              "id": "PHYSICS_PHYS20014",
+              "code": "PHYS20014",
+              "name": "概率论与数理统计",
+              "credits": [
+                2
+              ],
+              "teachers": [
+                "许明宇"
+              ],
+              "planMatch": false,
+              "sections": [
+                {
+                  "id": "1022852",
+                  "teacher": [
+                    "许明宇"
+                  ],
+                  "credits": 2,
+                  "schedule": "1~16周 星期四 3~4节 H2115 许明宇"
+                }
+              ]
+            },
+            {
+              "id": "COLLAB_CHEM20008",
+              "code": "CHEM20008",
+              "name": "数理统计方法在化学中的应用",
+              "credits": [
+                2
+              ],
+              "teachers": [
+                "李振华"
+              ],
+              "planMatch": false,
+              "sections": [
+                {
+                  "id": "1027166",
+                  "teacher": [
+                    "李振华"
+                  ],
+                  "credits": 2,
+                  "schedule": "1~16周 星期四 6~7节 H2113A 李振华"
+                }
+              ]
+            },
+            {
+              "id": "COLLAB_ESE70003",
+              "code": "ESE70003",
+              "name": "环境数理统计",
+              "credits": [
+                3
+              ],
+              "teachers": [
+                "张浩"
+              ],
+              "planMatch": false,
+              "sections": []
+            },
+            {
+              "id": "COLLAB_NUCLEAR_STAT20002",
+              "code": "STAT20002",
+              "name": "概率论与数理统计",
+              "credits": [
+                2
+              ],
+              "teachers": [
+                "郭玉萍",
+                "严亮"
+              ],
+              "planMatch": false,
+              "sections": [
+                {
+                  "id": "1026995",
+                  "teacher": [
+                    "郭玉萍",
+                    "严亮"
+                  ],
+                  "credits": 2,
+                  "schedule": "1~11周 星期二 1~2节 H3305 郭玉萍; \n12~16周 星期二 1~2节 H3305 严亮"
+                }
+              ]
+            },
+            {
+              "id": "COLLAB_ECONOMICS_ECON30016",
+              "code": "ECON30016",
+              "name": "概率论与数理统计",
+              "credits": [
+                3
+              ],
+              "teachers": [
+                "付中昊",
+                "江嘉骏",
+                "许友传",
+                "朱弘鑫"
+              ],
+              "planMatch": false,
+              "sections": [
+                {
+                  "id": "1037022",
+                  "teacher": [
+                    "朱弘鑫"
+                  ],
+                  "credits": 3,
+                  "schedule": "1~16周 星期六 6~9节 在线教学 朱弘鑫"
+                }
+              ]
+            },
+            {
+              "id": "COLLAB_MANAGEMENT_STAT20003",
+              "code": "STAT20003",
+              "name": "数理统计",
+              "credits": [
+                4
+              ],
+              "teachers": [
+                "沈娟",
+                "夏寅"
+              ],
+              "planMatch": false,
+              "sections": [
+                {
+                  "id": "1020719",
+                  "teacher": [
+                    "沈娟"
+                  ],
+                  "credits": 4,
+                  "schedule": "1~16周 星期五 9~10节 H6309 沈娟; \n1~14,16周 星期三 3~5节 H6309 沈娟; \n15周 星期三 3~5节 H国顺路院区史带楼友邦堂 沈娟"
+                },
+                {
+                  "id": "1027911",
+                  "teacher": [
+                    "夏寅"
+                  ],
+                  "credits": 4,
+                  "schedule": "1~16周 星期三 3~5节 H6404 夏寅; \n1~16周 星期五 9~10节 H6404 夏寅"
+                }
+              ]
+            },
+            {
+              "id": "COLLAB_MANAGEMENT_STAT20012",
+              "code": "STAT20012",
+              "name": "概率论与数理统计",
+              "credits": [
+                4
+              ],
+              "teachers": [
+                "朱仲义",
+                "戴国榕",
+                "章玮"
+              ],
+              "planMatch": false,
+              "sections": []
+            },
+            {
+              "id": "COLLAB_MANAGEMENT_STAT20012H",
+              "code": "STAT20012h",
+              "name": "概率论与数理统计（H）",
+              "credits": [
+                4
+              ],
+              "teachers": [
+                "朱仲义"
+              ],
+              "planMatch": false,
+              "sections": []
+            },
+            {
+              "id": "COLLAB_MANAGEMENT_STAT30026",
+              "code": "STAT30026",
+              "name": "高等数理统计（一）",
+              "credits": [
+                3
+              ],
+              "teachers": [
+                "徐勤丰"
+              ],
+              "planMatch": false,
+              "sections": []
+            },
+            {
+              "id": "COLLAB_MANAGEMENT_STAT50037",
+              "code": "STAT50037",
+              "name": "高等数理统计（一）",
+              "credits": [
+                3
+              ],
+              "teachers": [
+                "徐勤丰"
+              ],
+              "planMatch": false,
+              "sections": []
+            },
+            {
+              "id": "COLLAB_MANAGEMENT_STAT50038",
+              "code": "STAT50038",
+              "name": "高等数理统计（二）",
+              "credits": [
+                3
+              ],
+              "teachers": [
+                "沈娟"
+              ],
+              "planMatch": false,
+              "sections": [
+                {
+                  "id": "1032676",
+                  "teacher": [
+                    "沈娟"
+                  ],
+                  "credits": 3,
+                  "schedule": "1~16周 星期五 2~4节 H国顺路院区史带楼303 沈娟"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "round": 2,
+          "id": "call_00_BWmHsTG4TutdrHYP1EpA5025",
+          "tool": "get_course_details",
+          "args": {
+            "course_ids": [
+              "C0055"
+            ]
+          },
+          "result": [
+            {
+              "id": "C0055",
+              "code": "MATH30011",
+              "name": "数理统计",
+              "sections": [
+                {
+                  "id": "1017541",
+                  "code": "MATH30011.02",
+                  "term": "2026春",
+                  "teachers": [
+                    "杨莹"
+                  ],
+                  "credits": 3,
+                  "schedule": "16周 星期三 3~5节 H3309 杨莹; \n1周 星期三 3~5节 HGX508 杨莹; \n2~15周 星期三 3~5节 H3309 杨莹",
+                  "enrolled": 121,
+                  "capacity": 130,
+                  "assessment": [
+                    {
+                      "criteria": "作业/实验/实践Assignment",
+                      "percentage": 20,
+                      "standard": ""
+                    },
+                    {
+                      "criteria": "期中考试Midterm Examination",
+                      "percentage": 30,
+                      "standard": ""
+                    },
+                    {
+                      "criteria": "期末考试Final Examination：闭卷 ",
+                      "percentage": 50,
+                      "standard": ""
+                    }
+                  ],
+                  "exam": "闭卷",
+                  "exam_time": "考试日期: 2026-06-17\n考试时间: 09:55-11:55",
+                  "restrictions": "适用业务类型：本研融通 院系包含：数学科学学院 适用业务类型：本研融通 年级包含：2024 专业包含：数学与应用数学-人工智能(双学士学位项目)",
+                  "class_type": "普通班",
+                  "learning": "",
+                  "tasks": "",
+                  "prereq": "",
+                  "source": "复旦教务系统 · 2026春 · MATH30011.02"
+                },
+                {
+                  "id": "1017540",
+                  "code": "MATH30011.01",
+                  "term": "2026春",
+                  "teachers": [
+                    "尤翀"
+                  ],
+                  "credits": 3,
+                  "schedule": "1~15周 星期五 6~8节 HGX503 尤翀",
+                  "enrolled": 29,
+                  "capacity": 1,
+                  "assessment": [
+                    {
+                      "criteria": "作业/实验/实践Assignment",
+                      "percentage": 25,
+                      "standard": ""
+                    },
+                    {
+                      "criteria": "期中考试Midterm Examination",
+                      "percentage": 25,
+                      "standard": ""
+                    },
+                    {
+                      "criteria": "期末考试Final Examination：闭卷 ",
+                      "percentage": 50,
+                      "standard": ""
+                    }
+                  ],
+                  "exam": "闭卷",
+                  "exam_time": "13:30~15:30",
+                  "restrictions": "适用业务类型：本研融通 年级包含：2023 院系包含：数学科学学院",
+                  "class_type": "英才班",
+                  "learning": "",
+                  "tasks": "",
+                  "prereq": "",
+                  "source": "复旦教务系统 · 2026春 · MATH30011.01"
+                }
+              ],
+              "historicalStudentEvidence": [
+                {
+                  "teacher": "杨莹",
+                  "title": "数理统计｜杨莹 yy",
+                  "teaching": "多篇评价承认新教师讲授还不够流畅、证明跳跃，后续统计课程能帮助回看理解。",
+                  "workload": "历史反馈记载作业集中在少数几次，并有带回家完成的期中；期末需安排计算与完整推导练习。",
+                  "assessment": "期末计算量大、曾不允许计算器；期中必须把推导写完整。2026春评价记期中30%。",
+                  "source": "课评 #4341；课评 #4376；课评 #4510；课评 #6128；课评 #6145",
+                  "review_ids": [
+                    4341,
+                    4376,
+                    4510,
+                    6128,
+                    6145
+                  ]
+                },
+                {
+                  "teacher": "尤翀",
+                  "title": "数理统计｜尤翀（2026春 .01）",
+                  "teaching": "完整树洞长评认为课程内容偏基础，复习以老师课件为主；课件有少量茆诗松教材之外的内容，需要把补充部分也学会。",
+                  "workload": "全学期4次作业，每次4—5题，合计不到20题，占25%。",
+                  "assessment": "期中25%：开卷、4道多小问题，考前一周给练习题；期末50%：最后一周明确划课件重点，范围小于整本教材。",
+                  "source": "树洞 #680105 / 0,1,2,5,6,7,8,9,10,11层",
+                  "review_ids": []
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "round": 3,
+          "id": "call_00_odcx7MFLvpZHfga5NCAc0752",
+          "tool": "set_preferences",
+          "args": {
+            "goal": "research",
+            "maxCredits": 18,
+            "freeWednesday": true
+          },
+          "result": {
+            "plan": "152034",
+            "goal": "research",
+            "maxCredits": 18,
+            "freeWednesday": true,
+            "term": "2026春",
+            "hours": 30,
+            "completed": [],
+            "englishTier": "B",
+            "development": "专业进阶路径"
+          }
+        },
+        {
+          "round": 4,
+          "id": "call_00_34swuWtEqxptq8pqyFdd1463",
+          "tool": "build_plan",
+          "args": {
+            "slot": "A",
+            "goal": "research",
+            "max_credits": 18,
+            "free_wednesday": true
+          },
+          "result": {
+            "slot": "A",
+            "metrics": {
+              "credits": 18,
+              "courses": 6,
+              "conflicts": [],
+              "unknownTimes": 0,
+              "averageDays": 3.9,
+              "peakPeriods": 21,
+              "weeks": [
+                {
+                  "week": 1,
+                  "days": 4,
+                  "periods": 18,
+                  "longestFreeBlock": 10
+                },
+                {
+                  "week": 2,
+                  "days": 4,
+                  "periods": 18,
+                  "longestFreeBlock": 10
+                },
+                {
+                  "week": 3,
+                  "days": 4,
+                  "periods": 18,
+                  "longestFreeBlock": 10
+                },
+                {
+                  "week": 4,
+                  "days": 4,
+                  "periods": 18,
+                  "longestFreeBlock": 10
+                },
+                {
+                  "week": 5,
+                  "days": 4,
+                  "periods": 18,
+                  "longestFreeBlock": 10
+                },
+                {
+                  "week": 6,
+                  "days": 4,
+                  "periods": 21,
+                  "longestFreeBlock": 10
+                },
+                {
+                  "week": 7,
+                  "days": 4,
+                  "periods": 18,
+                  "longestFreeBlock": 10
+                },
+                {
+                  "week": 8,
+                  "days": 4,
+                  "periods": 18,
+                  "longestFreeBlock": 10
+                },
+                {
+                  "week": 9,
+                  "days": 4,
+                  "periods": 18,
+                  "longestFreeBlock": 10
+                },
+                {
+                  "week": 10,
+                  "days": 4,
+                  "periods": 18,
+                  "longestFreeBlock": 10
+                },
+                {
+                  "week": 11,
+                  "days": 4,
+                  "periods": 18,
+                  "longestFreeBlock": 10
+                },
+                {
+                  "week": 12,
+                  "days": 4,
+                  "periods": 18,
+                  "longestFreeBlock": 10
+                },
+                {
+                  "week": 13,
+                  "days": 4,
+                  "periods": 15,
+                  "longestFreeBlock": 10
+                },
+                {
+                  "week": 14,
+                  "days": 4,
+                  "periods": 21,
+                  "longestFreeBlock": 10
+                },
+                {
+                  "week": 15,
+                  "days": 4,
+                  "periods": 18,
+                  "longestFreeBlock": 10
+                },
+                {
+                  "week": 16,
+                  "days": 3,
+                  "periods": 15,
+                  "longestFreeBlock": 10
+                },
+                {
+                  "week": 17,
+                  "days": 0,
+                  "periods": 0,
+                  "longestFreeBlock": 10
+                },
+                {
+                  "week": 18,
+                  "days": 0,
+                  "periods": 0,
+                  "longestFreeBlock": 10
+                },
+                {
+                  "week": 19,
+                  "days": 0,
+                  "periods": 0,
+                  "longestFreeBlock": 10
+                },
+                {
+                  "week": 20,
+                  "days": 0,
+                  "periods": 0,
+                  "longestFreeBlock": 10
+                }
+              ]
+            },
+            "courses": [
+              {
+                "id": "C0055",
+                "code": "MATH30011",
+                "name": "数理统计",
+                "section_id": "1017541",
+                "teacher": [
+                  "杨莹"
+                ],
+                "credits": 3,
+                "schedule": "16周 星期三 3~5节 H3309 杨莹; \n1周 星期三 3~5节 HGX508 杨莹; \n2~15周 星期三 3~5节 H3309 杨莹",
+                "restrictions": "适用业务类型：本研融通 院系包含：数学科学学院 适用业务类型：本研融通 年级包含：2024 专业包含：数学与应用数学-人工智能(双学士学位项目)"
+              },
+              {
+                "id": "C0049",
+                "code": "MATH20009",
+                "name": "数学模型",
+                "section_id": "1017484",
+                "teacher": [
+                  "蔡志杰"
+                ],
+                "credits": 3,
+                "schedule": "1周 星期二 3~5节 HGX506 蔡志杰; \n6周 星期六 3~5节 HGX203 蔡志杰; \n2~15周 星期二 3~5节 HGX203 蔡志杰",
+                "restrictions": "适用业务类型：本研融通 年级包含：2023,2024 院系包含：数学科学学院,集成电路与微纳电子创新学院"
+              },
+              {
+                "id": "C0064",
+                "code": "MATH30003",
+                "name": "概率论",
+                "section_id": "1017486",
+                "teacher": [
+                  "吴波"
+                ],
+                "credits": 3,
+                "schedule": "1~14,16周 星期四 3~5节 HGX304 吴波; \n15周 星期二 6~8节 HGX304 吴波",
+                "restrictions": "适用业务类型：本研融通 院系包含：数学科学学院"
+              },
+              {
+                "id": "C0114",
+                "code": "AIE310005",
+                "name": "人工智能导论",
+                "section_id": "1027464",
+                "teacher": [
+                  "张景锋",
+                  "丁恒辉"
+                ],
+                "credits": 3,
+                "schedule": "6周 星期四 11~13节 H4301 张景锋; \n1~5,7~16周 星期四 11~13节 H4301 丁恒辉",
+                "restrictions": "适用业务类型：本研融通 培养类型包含：双学士学位"
+              },
+              {
+                "id": "C0115",
+                "code": "AIE310008",
+                "name": "人工智能的软件基础",
+                "section_id": "1027496",
+                "teacher": [
+                  "徐辉",
+                  "周喆"
+                ],
+                "credits": 3,
+                "schedule": "1~11,13~16周 星期六 6~8节 H2201 徐辉; \n12周 星期六 6~8节 H2201 周喆",
+                "restrictions": "适用业务类型：本研融通 培养类型包含：双学士学位"
+              },
+              {
+                "id": "C0030",
+                "code": "MATH20013",
+                "name": "抽象代数II",
+                "section_id": "1029970",
+                "teacher": [
+                  "朱胜林"
+                ],
+                "credits": 3,
+                "schedule": "16周 星期四 6~8节  朱胜林; \n14周 星期六 3~5节 HGX410 朱胜林; \n1~12,14~15周 星期四 6~8节 HGX410 朱胜林",
+                "restrictions": "适用业务类型：本研融通 年级包含：2024 院系包含：数学科学学院"
+              }
+            ],
+            "audit": {
+              "title": "2026数学与应用数学-人工智能双学士学位项目培养方案",
+              "target": 157,
+              "passedCredits": 4,
+              "forecastCredits": 22,
+              "completedRules": 0,
+              "forecastCompletedRules": 0,
+              "totalRules": 31,
+              "pendingRecords": 1,
+              "duplicateCodes": [
+                "MATH30011"
+              ],
+              "gaps": [
+                {
+                  "module": "思政A",
+                  "id": "public:15143085",
+                  "credits": 0,
+                  "required": 12,
+                  "courses": 0,
+                  "requiredCourses": 6,
+                  "missingRequired": [
+                    {
+                      "code": "GEIP30002",
+                      "name": "习近平新时代中国特色社会主义思想概论"
+                    },
+                    {
+                      "code": "GEIP10001",
+                      "name": "马克思主义基本原理"
+                    },
+                    {
+                      "code": "GEIP10003",
+                      "name": "大学生思想文化素养"
+                    },
+                    {
+                      "code": "GEIP10002",
+                      "name": "中国共产党历史与理论"
+                    },
+                    {
+                      "code": "GEIP10004",
+                      "name": "新时代实践教育Ⅰ"
+                    },
+                    {
+                      "code": "GEIP10005",
+                      "name": "新时代实践教育Ⅱ"
+                    }
+                  ],
+                  "checks": []
+                },
+                {
+                  "module": "创新A",
+                  "id": "public:15143086",
+                  "credits": 0,
+                  "required": 2,
+                  "courses": 0,
+                  "requiredCourses": 2,
+                  "missingRequired": [
+                    {
+                      "code": "GEIP10006",
+                      "name": "大学生创新实践Ⅰ"
+                    },
+                    {
+                      "code": "GEIP10007",
+                      "name": "大学生创新实践Ⅱ"
+                    }
+                  ],
+                  "checks": []
+                },
+                {
+                  "module": "思政与创新A",
+                  "id": "public:9497468",
+                  "credits": 0,
+                  "required": 14,
+                  "courses": 0,
+                  "requiredCourses": 8,
+                  "missingRequired": [],
+                  "checks": []
+                },
+                {
+                  "module": "思政B",
+                  "id": "public:9497469",
+                  "credits": 0,
+                  "required": 2,
+                  "courses": 0,
+                  "requiredCourses": 1,
+                  "missingRequired": [],
+                  "checks": []
+                },
+                {
+                  "module": "思想政治理论课与创新课模块",
+                  "id": "public:9497467",
+                  "credits": 0,
+                  "required": 16,
+                  "courses": 0,
+                  "requiredCourses": 1,
+                  "missingRequired": [],
+                  "checks": []
+                },
+                {
+                  "module": "艺术创作与审美体验",
+                  "id": "public:9497480",
+                  "credits": 0,
+                  "required": 2,
+                  "courses": 0,
+                  "requiredCourses": 0,
+                  "missingRequired": [],
+                  "checks": []
+                },
+                {
+                  "module": "核心课程七大模块",
+                  "id": "public:9497473",
+                  "credits": 0,
+                  "required": 6,
+                  "courses": 0,
+                  "requiredCourses": 0,
+                  "missingRequired": [],
+                  "checks": []
+                },
+                {
+                  "module": "国家安全教育",
+                  "id": "public:9497482",
+                  "credits": 0,
+                  "required": 1,
+                  "courses": 0,
+                  "requiredCourses": 1,
+                  "missingRequired": [
+                    {
+                      "code": "GESS10001",
+                      "name": "大学生国家安全教育"
+                    }
+                  ],
+                  "checks": []
+                },
+                {
+                  "module": "通识教育核心课程",
+                  "id": "major:9552075",
+                  "credits": 0,
+                  "required": 23,
+                  "courses": 0,
+                  "requiredCourses": 0,
+                  "missingRequired": [],
+                  "checks": []
+                },
+                {
+                  "module": "大学英语进阶课程",
+                  "id": "public:9497492",
+                  "credits": 0,
+                  "required": 2,
+                  "courses": 0,
+                  "requiredCourses": 0,
+                  "missingRequired": [],
+                  "checks": []
+                },
+                {
+                  "module": "大学英语高阶课程",
+                  "id": "public:9497495",
+                  "credits": 0,
+                  "required": 2,
+                  "courses": 0,
+                  "requiredCourses": 0,
+                  "missingRequired": [],
+                  "checks": []
+                },
+                {
+                  "module": "大学外语（B级）",
+                  "id": "public:9497491",
+                  "credits": 0,
+                  "required": 4,
+                  "courses": 0,
+                  "requiredCourses": 2,
+                  "missingRequired": [
+                    {
+                      "code": "GEEF30032",
+                      "name": "复旦大学英语水平测试"
+                    }
+                  ],
+                  "checks": []
+                },
+                {
+                  "module": "大学外语",
+                  "id": "public:9497484",
+                  "credits": 0,
+                  "required": 4,
+                  "courses": 0,
+                  "requiredCourses": 0,
+                  "missingRequired": [],
+                  "checks": [
+                    "复旦大学英语水平测试 FET"
+                  ]
+                },
+                {
+                  "module": "体育课程",
+                  "id": "public:9497512",
+                  "credits": 0,
+                  "required": 4,
+                  "courses": 0,
+                  "requiredCourses": 4,
+                  "missingRequired": [],
+                  "checks": [
+                    "四个学期体育必修"
+                  ]
+                },
+                {
+                  "module": "军事课程",
+                  "id": "public:9497513",
+                  "credits": 0,
+                  "required": 4,
+                  "courses": 0,
+                  "requiredCourses": 2,
+                  "missingRequired": [
+                    {
+                      "code": "GEND10001",
+                      "name": "军事理论"
+                    },
+                    {
+                      "code": "GEND10002",
+                      "name": "军事技能"
+                    }
+                  ],
+                  "checks": []
+                },
+                {
+                  "module": "心理健康教育课程",
+                  "id": "public:9497515",
+                  "credits": 0,
+                  "required": 1,
+                  "courses": 0,
+                  "requiredCourses": 1,
+                  "missingRequired": [],
+                  "checks": [
+                    "2 学分课程，或在线课加 16 学时实践 / 1 学分线下课"
+                  ]
+                },
+                {
+                  "module": "实验室安全教育",
+                  "id": "public:9497516",
+                  "credits": 0,
+                  "required": 0,
+                  "courses": 0,
+                  "requiredCourses": 0,
+                  "missingRequired": [],
+                  "checks": [
+                    "在线安全教育、消防培训与相应实验室准入"
+                  ]
+                },
+                {
+                  "module": "通识教育专项教育课程",
+                  "id": "major:9552088",
+                  "credits": 0,
+                  "required": 13,
+                  "courses": 0,
+                  "requiredCourses": 0,
+                  "missingRequired": [],
+                  "checks": []
+                },
+                {
+                  "module": "通识教育课程",
+                  "id": "major:9552074",
+                  "credits": 0,
+                  "required": 36,
+                  "courses": 0,
+                  "requiredCourses": 0,
+                  "missingRequired": [],
+                  "checks": []
+                },
+                {
+                  "module": "必修课程",
+                  "id": "major:9452273",
+                  "credits": 0,
+                  "required": 14,
+                  "courses": 0,
+                  "requiredCourses": 0,
+                  "missingRequired": [
+                    {
+                      "code": "MATH10010",
+                      "name": "数学分析AⅠ"
+                    },
+                    {
+                      "code": "MATH10011",
+                      "name": "数学分析AⅡ"
+                    },
+                    {
+                      "code": "CS10004",
+                      "name": "程序设计"
+                    }
+                  ],
+                  "checks": []
+                },
+                {
+                  "module": "数学类基础课（大物B）",
+                  "id": "major:9452275",
+                  "credits": 0,
+                  "required": 8,
+                  "courses": 0,
+                  "requiredCourses": 0,
+                  "missingRequired": [],
+                  "checks": []
+                },
+                {
+                  "module": "数学类基础课（大学物理）",
+                  "id": "major:9452274",
+                  "credits": 0,
+                  "required": 8,
+                  "courses": 0,
+                  "requiredCourses": 0,
+                  "missingRequired": [],
+                  "checks": []
+                },
+                {
+                  "module": "学科基础课程",
+                  "id": "major:9452272",
+                  "credits": 0,
+                  "required": 22,
+                  "courses": 0,
+                  "requiredCourses": 0,
+                  "missingRequired": [],
+                  "checks": []
+                },
+                {
+                  "module": "必修课程",
+                  "id": "major:9452278",
+                  "credits": 7,
+                  "required": 38,
+                  "courses": 2,
+                  "requiredCourses": 0,
+                  "missingRequired": [
+                    {
+                      "code": "MATH10009",
+                      "name": "高等代数Ⅰ"
+                    },
+                    {
+                      "code": "MATH10019",
+                      "name": "高等代数II"
+                    },
+                    {
+                      "code": "MATH20004",
+                      "name": "数学分析AⅢ"
+                    },
+                    {
+                      "code": "MATH20014",
+                      "name": "常微分方程"
+                    },
+                    {
+                      "code": "MATH20015",
+                      "name": "抽象代数"
+                    }
+                  ],
+                  "checks": []
+                }
+              ]
+            }
+          }
+        },
+        {
+          "round": 5,
+          "id": "call_00_iLgIK1EfeSBEJPgSrhwC1488",
+          "tool": "build_plan",
+          "args": {
+            "free_wednesday": true,
+            "goal": "balanced",
+            "max_credits": 16,
+            "slot": "B"
+          },
+          "result": {
+            "slot": "B",
+            "metrics": {
+              "credits": 15,
+              "courses": 6,
+              "conflicts": [],
+              "unknownTimes": 0,
+              "averageDays": 4.9,
+              "peakPeriods": 18,
+              "weeks": [
+                {
+                  "week": 1,
+                  "days": 5,
+                  "periods": 15,
+                  "longestFreeBlock": 10
+                },
+                {
+                  "week": 2,
+                  "days": 5,
+                  "periods": 15,
+                  "longestFreeBlock": 10
+                },
+                {
+                  "week": 3,
+                  "days": 4,
+                  "periods": 13,
+                  "longestFreeBlock": 10
+                },
+                {
+                  "week": 4,
+                  "days": 5,
+                  "periods": 15,
+                  "longestFreeBlock": 10
+                },
+                {
+                  "week": 5,
+                  "days": 5,
+                  "periods": 15,
+                  "longestFreeBlock": 10
+                },
+                {
+                  "week": 6,
+                  "days": 6,
+                  "periods": 18,
+                  "longestFreeBlock": 10
+                },
+                {
+                  "week": 7,
+                  "days": 5,
+                  "periods": 15,
+                  "longestFreeBlock": 10
+                },
+                {
+                  "week": 8,
+                  "days": 6,
+                  "periods": 17,
+                  "longestFreeBlock": 10
+                },
+                {
+                  "week": 9,
+                  "days": 5,
+                  "periods": 15,
+                  "longestFreeBlock": 10
+                },
+                {
+                  "week": 10,
+                  "days": 5,
+                  "periods": 15,
+                  "longestFreeBlock": 10
+                },
+                {
+                  "week": 11,
+                  "days": 5,
+                  "periods": 15,
+                  "longestFreeBlock": 10
+                },
+                {
+                  "week": 12,
+                  "days": 5,
+                  "periods": 15,
+                  "longestFreeBlock": 10
+                },
+                {
+                  "week": 13,
+                  "days": 5,
+                  "periods": 15,
+                  "longestFreeBlock": 10
+                },
+                {
+                  "week": 14,
+                  "days": 5,
+                  "periods": 15,
+                  "longestFreeBlock": 10
+                },
+                {
+                  "week": 15,
+                  "days": 4,
+                  "periods": 15,
+                  "longestFreeBlock": 10
+                },
+                {
+                  "week": 16,
+                  "days": 4,
+                  "periods": 12,
+                  "longestFreeBlock": 10
+                },
+                {
+                  "week": 17,
+                  "days": 0,
+                  "periods": 0,
+                  "longestFreeBlock": 10
+                },
+                {
+                  "week": 18,
+                  "days": 0,
+                  "periods": 0,
+                  "longestFreeBlock": 10
+                },
+                {
+                  "week": 19,
+                  "days": 0,
+                  "periods": 0,
+                  "longestFreeBlock": 10
+                },
+                {
+                  "week": 20,
+                  "days": 0,
+                  "periods": 0,
+                  "longestFreeBlock": 10
+                }
+              ]
+            },
+            "courses": [
+              {
+                "id": "C0049",
+                "code": "MATH20009",
+                "name": "数学模型",
+                "section_id": "1017484",
+                "teacher": [
+                  "蔡志杰"
+                ],
+                "credits": 3,
+                "schedule": "1周 星期二 3~5节 HGX506 蔡志杰; \n6周 星期六 3~5节 HGX203 蔡志杰; \n2~15周 星期二 3~5节 HGX203 蔡志杰",
+                "restrictions": "适用业务类型：本研融通 年级包含：2023,2024 院系包含：数学科学学院,集成电路与微纳电子创新学院"
+              },
+              {
+                "id": "C0055",
+                "code": "MATH30011",
+                "name": "数理统计",
+                "section_id": "1017541",
+                "teacher": [
+                  "杨莹"
+                ],
+                "credits": 3,
+                "schedule": "16周 星期三 3~5节 H3309 杨莹; \n1周 星期三 3~5节 HGX508 杨莹; \n2~15周 星期三 3~5节 H3309 杨莹",
+                "restrictions": "适用业务类型：本研融通 院系包含：数学科学学院 适用业务类型：本研融通 年级包含：2024 专业包含：数学与应用数学-人工智能(双学士学位项目)"
+              },
+              {
+                "id": "C0064",
+                "code": "MATH30003",
+                "name": "概率论",
+                "section_id": "1017486",
+                "teacher": [
+                  "吴波"
+                ],
+                "credits": 3,
+                "schedule": "1~14,16周 星期四 3~5节 HGX304 吴波; \n15周 星期二 6~8节 HGX304 吴波",
+                "restrictions": "适用业务类型：本研融通 院系包含：数学科学学院"
+              },
+              {
+                "id": "C0782",
+                "code": "GEEF20004",
+                "name": "英语视听",
+                "section_id": "1028263",
+                "teacher": [
+                  "杨霞"
+                ],
+                "credits": 2,
+                "schedule": "1~10,12~16周 星期三 1~2节 H4405（听力） 杨霞; \n11周 星期三 1~2节 在线教学 杨霞",
+                "restrictions": ""
+              },
+              {
+                "id": "C0783",
+                "code": "GEEF20011",
+                "name": "英语论说文写作",
+                "section_id": "1028277",
+                "teacher": [
+                  "张雪波"
+                ],
+                "credits": 2,
+                "schedule": "8周 星期日 6~7节 H2102A 张雪波; \n1~2,4~16周 星期五 1~2节 H2102A 张雪波",
+                "restrictions": ""
+              },
+              {
+                "id": "C0429",
+                "code": "GEEF30017",
+                "name": "学术英语(医学)",
+                "section_id": "1028434",
+                "teacher": [
+                  "赵静"
+                ],
+                "credits": 2,
+                "schedule": "1~4,6~7,9~11,13~16周 星期一 1~2节 F2302 赵静; \n5,8,12周 星期一 1~2节 在线教学 赵静",
+                "restrictions": ""
+              }
+            ],
+            "audit": {
+              "title": "2026数学与应用数学-人工智能双学士学位项目培养方案",
+              "target": 157,
+              "passedCredits": 4,
+              "forecastCredits": 19,
+              "completedRules": 0,
+              "forecastCompletedRules": 1,
+              "totalRules": 31,
+              "pendingRecords": 1,
+              "duplicateCodes": [
+                "MATH30011"
+              ],
+              "gaps": [
+                {
+                  "module": "思政A",
+                  "id": "public:15143085",
+                  "credits": 0,
+                  "required": 12,
+                  "courses": 0,
+                  "requiredCourses": 6,
+                  "missingRequired": [
+                    {
+                      "code": "GEIP30002",
+                      "name": "习近平新时代中国特色社会主义思想概论"
+                    },
+                    {
+                      "code": "GEIP10001",
+                      "name": "马克思主义基本原理"
+                    },
+                    {
+                      "code": "GEIP10003",
+                      "name": "大学生思想文化素养"
+                    },
+                    {
+                      "code": "GEIP10002",
+                      "name": "中国共产党历史与理论"
+                    },
+                    {
+                      "code": "GEIP10004",
+                      "name": "新时代实践教育Ⅰ"
+                    },
+                    {
+                      "code": "GEIP10005",
+                      "name": "新时代实践教育Ⅱ"
+                    }
+                  ],
+                  "checks": []
+                },
+                {
+                  "module": "创新A",
+                  "id": "public:15143086",
+                  "credits": 0,
+                  "required": 2,
+                  "courses": 0,
+                  "requiredCourses": 2,
+                  "missingRequired": [
+                    {
+                      "code": "GEIP10006",
+                      "name": "大学生创新实践Ⅰ"
+                    },
+                    {
+                      "code": "GEIP10007",
+                      "name": "大学生创新实践Ⅱ"
+                    }
+                  ],
+                  "checks": []
+                },
+                {
+                  "module": "思政与创新A",
+                  "id": "public:9497468",
+                  "credits": 0,
+                  "required": 14,
+                  "courses": 0,
+                  "requiredCourses": 8,
+                  "missingRequired": [],
+                  "checks": []
+                },
+                {
+                  "module": "思政B",
+                  "id": "public:9497469",
+                  "credits": 0,
+                  "required": 2,
+                  "courses": 0,
+                  "requiredCourses": 1,
+                  "missingRequired": [],
+                  "checks": []
+                },
+                {
+                  "module": "思想政治理论课与创新课模块",
+                  "id": "public:9497467",
+                  "credits": 0,
+                  "required": 16,
+                  "courses": 0,
+                  "requiredCourses": 1,
+                  "missingRequired": [],
+                  "checks": []
+                },
+                {
+                  "module": "艺术创作与审美体验",
+                  "id": "public:9497480",
+                  "credits": 0,
+                  "required": 2,
+                  "courses": 0,
+                  "requiredCourses": 0,
+                  "missingRequired": [],
+                  "checks": []
+                },
+                {
+                  "module": "核心课程七大模块",
+                  "id": "public:9497473",
+                  "credits": 0,
+                  "required": 6,
+                  "courses": 0,
+                  "requiredCourses": 0,
+                  "missingRequired": [],
+                  "checks": []
+                },
+                {
+                  "module": "国家安全教育",
+                  "id": "public:9497482",
+                  "credits": 0,
+                  "required": 1,
+                  "courses": 0,
+                  "requiredCourses": 1,
+                  "missingRequired": [
+                    {
+                      "code": "GESS10001",
+                      "name": "大学生国家安全教育"
+                    }
+                  ],
+                  "checks": []
+                },
+                {
+                  "module": "通识教育核心课程",
+                  "id": "major:9552075",
+                  "credits": 0,
+                  "required": 23,
+                  "courses": 0,
+                  "requiredCourses": 0,
+                  "missingRequired": [],
+                  "checks": []
+                },
+                {
+                  "module": "大学英语高阶课程",
+                  "id": "public:9497495",
+                  "credits": 0,
+                  "required": 2,
+                  "courses": 0,
+                  "requiredCourses": 0,
+                  "missingRequired": [],
+                  "checks": []
+                },
+                {
+                  "module": "大学外语（B级）",
+                  "id": "public:9497491",
+                  "credits": 4,
+                  "required": 4,
+                  "courses": 2,
+                  "requiredCourses": 2,
+                  "missingRequired": [
+                    {
+                      "code": "GEEF30032",
+                      "name": "复旦大学英语水平测试"
+                    }
+                  ],
+                  "checks": []
+                },
+                {
+                  "module": "大学外语",
+                  "id": "public:9497484",
+                  "credits": 4,
+                  "required": 4,
+                  "courses": 2,
+                  "requiredCourses": 0,
+                  "missingRequired": [],
+                  "checks": [
+                    "复旦大学英语水平测试 FET"
+                  ]
+                },
+                {
+                  "module": "体育课程",
+                  "id": "public:9497512",
+                  "credits": 0,
+                  "required": 4,
+                  "courses": 0,
+                  "requiredCourses": 4,
+                  "missingRequired": [],
+                  "checks": [
+                    "四个学期体育必修"
+                  ]
+                },
+                {
+                  "module": "军事课程",
+                  "id": "public:9497513",
+                  "credits": 0,
+                  "required": 4,
+                  "courses": 0,
+                  "requiredCourses": 2,
+                  "missingRequired": [
+                    {
+                      "code": "GEND10001",
+                      "name": "军事理论"
+                    },
+                    {
+                      "code": "GEND10002",
+                      "name": "军事技能"
+                    }
+                  ],
+                  "checks": []
+                },
+                {
+                  "module": "心理健康教育课程",
+                  "id": "public:9497515",
+                  "credits": 0,
+                  "required": 1,
+                  "courses": 0,
+                  "requiredCourses": 1,
+                  "missingRequired": [],
+                  "checks": [
+                    "2 学分课程，或在线课加 16 学时实践 / 1 学分线下课"
+                  ]
+                },
+                {
+                  "module": "实验室安全教育",
+                  "id": "public:9497516",
+                  "credits": 0,
+                  "required": 0,
+                  "courses": 0,
+                  "requiredCourses": 0,
+                  "missingRequired": [],
+                  "checks": [
+                    "在线安全教育、消防培训与相应实验室准入"
+                  ]
+                },
+                {
+                  "module": "通识教育专项教育课程",
+                  "id": "major:9552088",
+                  "credits": 4,
+                  "required": 13,
+                  "courses": 2,
+                  "requiredCourses": 0,
+                  "missingRequired": [],
+                  "checks": []
+                },
+                {
+                  "module": "通识教育课程",
+                  "id": "major:9552074",
+                  "credits": 4,
+                  "required": 36,
+                  "courses": 2,
+                  "requiredCourses": 0,
+                  "missingRequired": [],
+                  "checks": []
+                },
+                {
+                  "module": "必修课程",
+                  "id": "major:9452273",
+                  "credits": 0,
+                  "required": 14,
+                  "courses": 0,
+                  "requiredCourses": 0,
+                  "missingRequired": [
+                    {
+                      "code": "MATH10010",
+                      "name": "数学分析AⅠ"
+                    },
+                    {
+                      "code": "MATH10011",
+                      "name": "数学分析AⅡ"
+                    },
+                    {
+                      "code": "CS10004",
+                      "name": "程序设计"
+                    }
+                  ],
+                  "checks": []
+                },
+                {
+                  "module": "数学类基础课（大物B）",
+                  "id": "major:9452275",
+                  "credits": 0,
+                  "required": 8,
+                  "courses": 0,
+                  "requiredCourses": 0,
+                  "missingRequired": [],
+                  "checks": []
+                },
+                {
+                  "module": "数学类基础课（大学物理）",
+                  "id": "major:9452274",
+                  "credits": 0,
+                  "required": 8,
+                  "courses": 0,
+                  "requiredCourses": 0,
+                  "missingRequired": [],
+                  "checks": []
+                },
+                {
+                  "module": "学科基础课程",
+                  "id": "major:9452272",
+                  "credits": 0,
+                  "required": 22,
+                  "courses": 0,
+                  "requiredCourses": 0,
+                  "missingRequired": [],
+                  "checks": []
+                },
+                {
+                  "module": "必修课程",
+                  "id": "major:9452278",
+                  "credits": 7,
+                  "required": 38,
+                  "courses": 2,
+                  "requiredCourses": 0,
+                  "missingRequired": [
+                    {
+                      "code": "MATH10009",
+                      "name": "高等代数Ⅰ"
+                    },
+                    {
+                      "code": "MATH10019",
+                      "name": "高等代数II"
+                    },
+                    {
+                      "code": "MATH20004",
+                      "name": "数学分析AⅢ"
+                    },
+                    {
+                      "code": "MATH20014",
+                      "name": "常微分方程"
+                    },
+                    {
+                      "code": "MATH20015",
+                      "name": "抽象代数"
+                    }
+                  ],
+                  "checks": []
+                },
+                {
+                  "module": "双学位融合必修课程",
+                  "id": "major:9452279",
+                  "credits": 3,
+                  "required": 36,
+                  "courses": 1,
+                  "requiredCourses": 0,
+                  "missingRequired": [
+                    {
+                      "code": "AIE310007",
+                      "name": "数据结构"
+                    },
+                    {
+                      "code": "AIE210006",
+                      "name": "计算机系统基础"
+                    },
+                    {
+                      "code": "AIE310005",
+                      "name": "人工智能导论"
+                    },
+                    {
+                      "code": "AIE310008",
+                      "name": "人工智能的软件基础"
+                    },
+                    {
+                      "code": "AIE410001",
+                      "name": "模式识别与机器学习"
+                    },
+                    {
+                      "code": "AIE831001",
+                      "name": "人工智能安全"
+                    },
+                    {
+                      "code": "PHIL50006",
+                      "name": "人工智能的伦理与治理"
+                    },
+                    {
+                      "code": "AIE410002",
+                      "name": "自然语言处理与大语言模型"
+                    },
+                    {
+                      "code": "AIE310004",
+                      "name": "计算机视觉"
+                    },
+                    {
+                      "code": "AIE531001",
+                      "name": "人工智能前沿探索实践"
+                    },
+                    {
+                      "code": "MATH30001",
+                      "name": "离散数学"
+                    }
+                  ],
+                  "checks": []
+                }
+              ]
+            }
+          }
+        },
+        {
+          "round": 6,
+          "id": "call_00_3vjeUjsb2VJ9YYfpkxuZ1716",
+          "tool": "compare_plans",
+          "args": {},
+          "result": {
+            "A": {
+              "credits": 18,
+              "courses": 6,
+              "conflicts": [],
+              "unknownTimes": 0,
+              "averageDays": 3.9,
+              "peakPeriods": 21,
+              "weeks": [
+                {
+                  "week": 1,
+                  "days": 4,
+                  "periods": 18,
+                  "longestFreeBlock": 10
+                },
+                {
+                  "week": 2,
+                  "days": 4,
+                  "periods": 18,
+                  "longestFreeBlock": 10
+                },
+                {
+                  "week": 3,
+                  "days": 4,
+                  "periods": 18,
+                  "longestFreeBlock": 10
+                },
+                {
+                  "week": 4,
+                  "days": 4,
+                  "periods": 18,
+                  "longestFreeBlock": 10
+                },
+                {
+                  "week": 5,
+                  "days": 4,
+                  "periods": 18,
+                  "longestFreeBlock": 10
+                },
+                {
+                  "week": 6,
+                  "days": 4,
+                  "periods": 21,
+                  "longestFreeBlock": 10
+                },
+                {
+                  "week": 7,
+                  "days": 4,
+                  "periods": 18,
+                  "longestFreeBlock": 10
+                },
+                {
+                  "week": 8,
+                  "days": 4,
+                  "periods": 18,
+                  "longestFreeBlock": 10
+                },
+                {
+                  "week": 9,
+                  "days": 4,
+                  "periods": 18,
+                  "longestFreeBlock": 10
+                },
+                {
+                  "week": 10,
+                  "days": 4,
+                  "periods": 18,
+                  "longestFreeBlock": 10
+                },
+                {
+                  "week": 11,
+                  "days": 4,
+                  "periods": 18,
+                  "longestFreeBlock": 10
+                },
+                {
+                  "week": 12,
+                  "days": 4,
+                  "periods": 18,
+                  "longestFreeBlock": 10
+                },
+                {
+                  "week": 13,
+                  "days": 4,
+                  "periods": 15,
+                  "longestFreeBlock": 10
+                },
+                {
+                  "week": 14,
+                  "days": 4,
+                  "periods": 21,
+                  "longestFreeBlock": 10
+                },
+                {
+                  "week": 15,
+                  "days": 4,
+                  "periods": 18,
+                  "longestFreeBlock": 10
+                },
+                {
+                  "week": 16,
+                  "days": 3,
+                  "periods": 15,
+                  "longestFreeBlock": 10
+                },
+                {
+                  "week": 17,
+                  "days": 0,
+                  "periods": 0,
+                  "longestFreeBlock": 10
+                },
+                {
+                  "week": 18,
+                  "days": 0,
+                  "periods": 0,
+                  "longestFreeBlock": 10
+                },
+                {
+                  "week": 19,
+                  "days": 0,
+                  "periods": 0,
+                  "longestFreeBlock": 10
+                },
+                {
+                  "week": 20,
+                  "days": 0,
+                  "periods": 0,
+                  "longestFreeBlock": 10
+                }
+              ]
+            },
+            "B": {
+              "credits": 15,
+              "courses": 6,
+              "conflicts": [],
+              "unknownTimes": 0,
+              "averageDays": 4.9,
+              "peakPeriods": 18,
+              "weeks": [
+                {
+                  "week": 1,
+                  "days": 5,
+                  "periods": 15,
+                  "longestFreeBlock": 10
+                },
+                {
+                  "week": 2,
+                  "days": 5,
+                  "periods": 15,
+                  "longestFreeBlock": 10
+                },
+                {
+                  "week": 3,
+                  "days": 4,
+                  "periods": 13,
+                  "longestFreeBlock": 10
+                },
+                {
+                  "week": 4,
+                  "days": 5,
+                  "periods": 15,
+                  "longestFreeBlock": 10
+                },
+                {
+                  "week": 5,
+                  "days": 5,
+                  "periods": 15,
+                  "longestFreeBlock": 10
+                },
+                {
+                  "week": 6,
+                  "days": 6,
+                  "periods": 18,
+                  "longestFreeBlock": 10
+                },
+                {
+                  "week": 7,
+                  "days": 5,
+                  "periods": 15,
+                  "longestFreeBlock": 10
+                },
+                {
+                  "week": 8,
+                  "days": 6,
+                  "periods": 17,
+                  "longestFreeBlock": 10
+                },
+                {
+                  "week": 9,
+                  "days": 5,
+                  "periods": 15,
+                  "longestFreeBlock": 10
+                },
+                {
+                  "week": 10,
+                  "days": 5,
+                  "periods": 15,
+                  "longestFreeBlock": 10
+                },
+                {
+                  "week": 11,
+                  "days": 5,
+                  "periods": 15,
+                  "longestFreeBlock": 10
+                },
+                {
+                  "week": 12,
+                  "days": 5,
+                  "periods": 15,
+                  "longestFreeBlock": 10
+                },
+                {
+                  "week": 13,
+                  "days": 5,
+                  "periods": 15,
+                  "longestFreeBlock": 10
+                },
+                {
+                  "week": 14,
+                  "days": 5,
+                  "periods": 15,
+                  "longestFreeBlock": 10
+                },
+                {
+                  "week": 15,
+                  "days": 4,
+                  "periods": 15,
+                  "longestFreeBlock": 10
+                },
+                {
+                  "week": 16,
+                  "days": 4,
+                  "periods": 12,
+                  "longestFreeBlock": 10
+                },
+                {
+                  "week": 17,
+                  "days": 0,
+                  "periods": 0,
+                  "longestFreeBlock": 10
+                },
+                {
+                  "week": 18,
+                  "days": 0,
+                  "periods": 0,
+                  "longestFreeBlock": 10
+                },
+                {
+                  "week": 19,
+                  "days": 0,
+                  "periods": 0,
+                  "longestFreeBlock": 10
+                },
+                {
+                  "week": 20,
+                  "days": 0,
+                  "periods": 0,
+                  "longestFreeBlock": 10
+                }
+              ]
+            },
+            "auditA": {
+              "title": "2026数学与应用数学-人工智能双学士学位项目培养方案",
+              "target": 157,
+              "passedCredits": 4,
+              "forecastCredits": 22,
+              "completedRules": 0,
+              "forecastCompletedRules": 0,
+              "totalRules": 31,
+              "pendingRecords": 1,
+              "duplicateCodes": [
+                "MATH30011"
+              ],
+              "gaps": [
+                {
+                  "module": "思政A",
+                  "id": "public:15143085",
+                  "credits": 0,
+                  "required": 12,
+                  "courses": 0,
+                  "requiredCourses": 6,
+                  "missingRequired": [
+                    {
+                      "code": "GEIP30002",
+                      "name": "习近平新时代中国特色社会主义思想概论"
+                    },
+                    {
+                      "code": "GEIP10001",
+                      "name": "马克思主义基本原理"
+                    },
+                    {
+                      "code": "GEIP10003",
+                      "name": "大学生思想文化素养"
+                    },
+                    {
+                      "code": "GEIP10002",
+                      "name": "中国共产党历史与理论"
+                    },
+                    {
+                      "code": "GEIP10004",
+                      "name": "新时代实践教育Ⅰ"
+                    },
+                    {
+                      "code": "GEIP10005",
+                      "name": "新时代实践教育Ⅱ"
+                    }
+                  ],
+                  "checks": []
+                },
+                {
+                  "module": "创新A",
+                  "id": "public:15143086",
+                  "credits": 0,
+                  "required": 2,
+                  "courses": 0,
+                  "requiredCourses": 2,
+                  "missingRequired": [
+                    {
+                      "code": "GEIP10006",
+                      "name": "大学生创新实践Ⅰ"
+                    },
+                    {
+                      "code": "GEIP10007",
+                      "name": "大学生创新实践Ⅱ"
+                    }
+                  ],
+                  "checks": []
+                },
+                {
+                  "module": "思政与创新A",
+                  "id": "public:9497468",
+                  "credits": 0,
+                  "required": 14,
+                  "courses": 0,
+                  "requiredCourses": 8,
+                  "missingRequired": [],
+                  "checks": []
+                },
+                {
+                  "module": "思政B",
+                  "id": "public:9497469",
+                  "credits": 0,
+                  "required": 2,
+                  "courses": 0,
+                  "requiredCourses": 1,
+                  "missingRequired": [],
+                  "checks": []
+                },
+                {
+                  "module": "思想政治理论课与创新课模块",
+                  "id": "public:9497467",
+                  "credits": 0,
+                  "required": 16,
+                  "courses": 0,
+                  "requiredCourses": 1,
+                  "missingRequired": [],
+                  "checks": []
+                },
+                {
+                  "module": "艺术创作与审美体验",
+                  "id": "public:9497480",
+                  "credits": 0,
+                  "required": 2,
+                  "courses": 0,
+                  "requiredCourses": 0,
+                  "missingRequired": [],
+                  "checks": []
+                },
+                {
+                  "module": "核心课程七大模块",
+                  "id": "public:9497473",
+                  "credits": 0,
+                  "required": 6,
+                  "courses": 0,
+                  "requiredCourses": 0,
+                  "missingRequired": [],
+                  "checks": []
+                },
+                {
+                  "module": "国家安全教育",
+                  "id": "public:9497482",
+                  "credits": 0,
+                  "required": 1,
+                  "courses": 0,
+                  "requiredCourses": 1,
+                  "missingRequired": [
+                    {
+                      "code": "GESS10001",
+                      "name": "大学生国家安全教育"
+                    }
+                  ],
+                  "checks": []
+                },
+                {
+                  "module": "通识教育核心课程",
+                  "id": "major:9552075",
+                  "credits": 0,
+                  "required": 23,
+                  "courses": 0,
+                  "requiredCourses": 0,
+                  "missingRequired": [],
+                  "checks": []
+                },
+                {
+                  "module": "大学英语进阶课程",
+                  "id": "public:9497492",
+                  "credits": 0,
+                  "required": 2,
+                  "courses": 0,
+                  "requiredCourses": 0,
+                  "missingRequired": [],
+                  "checks": []
+                },
+                {
+                  "module": "大学英语高阶课程",
+                  "id": "public:9497495",
+                  "credits": 0,
+                  "required": 2,
+                  "courses": 0,
+                  "requiredCourses": 0,
+                  "missingRequired": [],
+                  "checks": []
+                },
+                {
+                  "module": "大学外语（B级）",
+                  "id": "public:9497491",
+                  "credits": 0,
+                  "required": 4,
+                  "courses": 0,
+                  "requiredCourses": 2,
+                  "missingRequired": [
+                    {
+                      "code": "GEEF30032",
+                      "name": "复旦大学英语水平测试"
+                    }
+                  ],
+                  "checks": []
+                },
+                {
+                  "module": "大学外语",
+                  "id": "public:9497484",
+                  "credits": 0,
+                  "required": 4,
+                  "courses": 0,
+                  "requiredCourses": 0,
+                  "missingRequired": [],
+                  "checks": [
+                    "复旦大学英语水平测试 FET"
+                  ]
+                },
+                {
+                  "module": "体育课程",
+                  "id": "public:9497512",
+                  "credits": 0,
+                  "required": 4,
+                  "courses": 0,
+                  "requiredCourses": 4,
+                  "missingRequired": [],
+                  "checks": [
+                    "四个学期体育必修"
+                  ]
+                },
+                {
+                  "module": "军事课程",
+                  "id": "public:9497513",
+                  "credits": 0,
+                  "required": 4,
+                  "courses": 0,
+                  "requiredCourses": 2,
+                  "missingRequired": [
+                    {
+                      "code": "GEND10001",
+                      "name": "军事理论"
+                    },
+                    {
+                      "code": "GEND10002",
+                      "name": "军事技能"
+                    }
+                  ],
+                  "checks": []
+                },
+                {
+                  "module": "心理健康教育课程",
+                  "id": "public:9497515",
+                  "credits": 0,
+                  "required": 1,
+                  "courses": 0,
+                  "requiredCourses": 1,
+                  "missingRequired": [],
+                  "checks": [
+                    "2 学分课程，或在线课加 16 学时实践 / 1 学分线下课"
+                  ]
+                },
+                {
+                  "module": "实验室安全教育",
+                  "id": "public:9497516",
+                  "credits": 0,
+                  "required": 0,
+                  "courses": 0,
+                  "requiredCourses": 0,
+                  "missingRequired": [],
+                  "checks": [
+                    "在线安全教育、消防培训与相应实验室准入"
+                  ]
+                },
+                {
+                  "module": "通识教育专项教育课程",
+                  "id": "major:9552088",
+                  "credits": 0,
+                  "required": 13,
+                  "courses": 0,
+                  "requiredCourses": 0,
+                  "missingRequired": [],
+                  "checks": []
+                },
+                {
+                  "module": "通识教育课程",
+                  "id": "major:9552074",
+                  "credits": 0,
+                  "required": 36,
+                  "courses": 0,
+                  "requiredCourses": 0,
+                  "missingRequired": [],
+                  "checks": []
+                },
+                {
+                  "module": "必修课程",
+                  "id": "major:9452273",
+                  "credits": 0,
+                  "required": 14,
+                  "courses": 0,
+                  "requiredCourses": 0,
+                  "missingRequired": [
+                    {
+                      "code": "MATH10010",
+                      "name": "数学分析AⅠ"
+                    },
+                    {
+                      "code": "MATH10011",
+                      "name": "数学分析AⅡ"
+                    },
+                    {
+                      "code": "CS10004",
+                      "name": "程序设计"
+                    }
+                  ],
+                  "checks": []
+                },
+                {
+                  "module": "数学类基础课（大物B）",
+                  "id": "major:9452275",
+                  "credits": 0,
+                  "required": 8,
+                  "courses": 0,
+                  "requiredCourses": 0,
+                  "missingRequired": [],
+                  "checks": []
+                },
+                {
+                  "module": "数学类基础课（大学物理）",
+                  "id": "major:9452274",
+                  "credits": 0,
+                  "required": 8,
+                  "courses": 0,
+                  "requiredCourses": 0,
+                  "missingRequired": [],
+                  "checks": []
+                },
+                {
+                  "module": "学科基础课程",
+                  "id": "major:9452272",
+                  "credits": 0,
+                  "required": 22,
+                  "courses": 0,
+                  "requiredCourses": 0,
+                  "missingRequired": [],
+                  "checks": []
+                },
+                {
+                  "module": "必修课程",
+                  "id": "major:9452278",
+                  "credits": 7,
+                  "required": 38,
+                  "courses": 2,
+                  "requiredCourses": 0,
+                  "missingRequired": [
+                    {
+                      "code": "MATH10009",
+                      "name": "高等代数Ⅰ"
+                    },
+                    {
+                      "code": "MATH10019",
+                      "name": "高等代数II"
+                    },
+                    {
+                      "code": "MATH20004",
+                      "name": "数学分析AⅢ"
+                    },
+                    {
+                      "code": "MATH20014",
+                      "name": "常微分方程"
+                    },
+                    {
+                      "code": "MATH20015",
+                      "name": "抽象代数"
+                    }
+                  ],
+                  "checks": []
+                }
+              ]
+            },
+            "auditB": {
+              "title": "2026数学与应用数学-人工智能双学士学位项目培养方案",
+              "target": 157,
+              "passedCredits": 4,
+              "forecastCredits": 19,
+              "completedRules": 0,
+              "forecastCompletedRules": 1,
+              "totalRules": 31,
+              "pendingRecords": 1,
+              "duplicateCodes": [
+                "MATH30011"
+              ],
+              "gaps": [
+                {
+                  "module": "思政A",
+                  "id": "public:15143085",
+                  "credits": 0,
+                  "required": 12,
+                  "courses": 0,
+                  "requiredCourses": 6,
+                  "missingRequired": [
+                    {
+                      "code": "GEIP30002",
+                      "name": "习近平新时代中国特色社会主义思想概论"
+                    },
+                    {
+                      "code": "GEIP10001",
+                      "name": "马克思主义基本原理"
+                    },
+                    {
+                      "code": "GEIP10003",
+                      "name": "大学生思想文化素养"
+                    },
+                    {
+                      "code": "GEIP10002",
+                      "name": "中国共产党历史与理论"
+                    },
+                    {
+                      "code": "GEIP10004",
+                      "name": "新时代实践教育Ⅰ"
+                    },
+                    {
+                      "code": "GEIP10005",
+                      "name": "新时代实践教育Ⅱ"
+                    }
+                  ],
+                  "checks": []
+                },
+                {
+                  "module": "创新A",
+                  "id": "public:15143086",
+                  "credits": 0,
+                  "required": 2,
+                  "courses": 0,
+                  "requiredCourses": 2,
+                  "missingRequired": [
+                    {
+                      "code": "GEIP10006",
+                      "name": "大学生创新实践Ⅰ"
+                    },
+                    {
+                      "code": "GEIP10007",
+                      "name": "大学生创新实践Ⅱ"
+                    }
+                  ],
+                  "checks": []
+                },
+                {
+                  "module": "思政与创新A",
+                  "id": "public:9497468",
+                  "credits": 0,
+                  "required": 14,
+                  "courses": 0,
+                  "requiredCourses": 8,
+                  "missingRequired": [],
+                  "checks": []
+                },
+                {
+                  "module": "思政B",
+                  "id": "public:9497469",
+                  "credits": 0,
+                  "required": 2,
+                  "courses": 0,
+                  "requiredCourses": 1,
+                  "missingRequired": [],
+                  "checks": []
+                },
+                {
+                  "module": "思想政治理论课与创新课模块",
+                  "id": "public:9497467",
+                  "credits": 0,
+                  "required": 16,
+                  "courses": 0,
+                  "requiredCourses": 1,
+                  "missingRequired": [],
+                  "checks": []
+                },
+                {
+                  "module": "艺术创作与审美体验",
+                  "id": "public:9497480",
+                  "credits": 0,
+                  "required": 2,
+                  "courses": 0,
+                  "requiredCourses": 0,
+                  "missingRequired": [],
+                  "checks": []
+                },
+                {
+                  "module": "核心课程七大模块",
+                  "id": "public:9497473",
+                  "credits": 0,
+                  "required": 6,
+                  "courses": 0,
+                  "requiredCourses": 0,
+                  "missingRequired": [],
+                  "checks": []
+                },
+                {
+                  "module": "国家安全教育",
+                  "id": "public:9497482",
+                  "credits": 0,
+                  "required": 1,
+                  "courses": 0,
+                  "requiredCourses": 1,
+                  "missingRequired": [
+                    {
+                      "code": "GESS10001",
+                      "name": "大学生国家安全教育"
+                    }
+                  ],
+                  "checks": []
+                },
+                {
+                  "module": "通识教育核心课程",
+                  "id": "major:9552075",
+                  "credits": 0,
+                  "required": 23,
+                  "courses": 0,
+                  "requiredCourses": 0,
+                  "missingRequired": [],
+                  "checks": []
+                },
+                {
+                  "module": "大学英语高阶课程",
+                  "id": "public:9497495",
+                  "credits": 0,
+                  "required": 2,
+                  "courses": 0,
+                  "requiredCourses": 0,
+                  "missingRequired": [],
+                  "checks": []
+                },
+                {
+                  "module": "大学外语（B级）",
+                  "id": "public:9497491",
+                  "credits": 4,
+                  "required": 4,
+                  "courses": 2,
+                  "requiredCourses": 2,
+                  "missingRequired": [
+                    {
+                      "code": "GEEF30032",
+                      "name": "复旦大学英语水平测试"
+                    }
+                  ],
+                  "checks": []
+                },
+                {
+                  "module": "大学外语",
+                  "id": "public:9497484",
+                  "credits": 4,
+                  "required": 4,
+                  "courses": 2,
+                  "requiredCourses": 0,
+                  "missingRequired": [],
+                  "checks": [
+                    "复旦大学英语水平测试 FET"
+                  ]
+                },
+                {
+                  "module": "体育课程",
+                  "id": "public:9497512",
+                  "credits": 0,
+                  "required": 4,
+                  "courses": 0,
+                  "requiredCourses": 4,
+                  "missingRequired": [],
+                  "checks": [
+                    "四个学期体育必修"
+                  ]
+                },
+                {
+                  "module": "军事课程",
+                  "id": "public:9497513",
+                  "credits": 0,
+                  "required": 4,
+                  "courses": 0,
+                  "requiredCourses": 2,
+                  "missingRequired": [
+                    {
+                      "code": "GEND10001",
+                      "name": "军事理论"
+                    },
+                    {
+                      "code": "GEND10002",
+                      "name": "军事技能"
+                    }
+                  ],
+                  "checks": []
+                },
+                {
+                  "module": "心理健康教育课程",
+                  "id": "public:9497515",
+                  "credits": 0,
+                  "required": 1,
+                  "courses": 0,
+                  "requiredCourses": 1,
+                  "missingRequired": [],
+                  "checks": [
+                    "2 学分课程，或在线课加 16 学时实践 / 1 学分线下课"
+                  ]
+                },
+                {
+                  "module": "实验室安全教育",
+                  "id": "public:9497516",
+                  "credits": 0,
+                  "required": 0,
+                  "courses": 0,
+                  "requiredCourses": 0,
+                  "missingRequired": [],
+                  "checks": [
+                    "在线安全教育、消防培训与相应实验室准入"
+                  ]
+                },
+                {
+                  "module": "通识教育专项教育课程",
+                  "id": "major:9552088",
+                  "credits": 4,
+                  "required": 13,
+                  "courses": 2,
+                  "requiredCourses": 0,
+                  "missingRequired": [],
+                  "checks": []
+                },
+                {
+                  "module": "通识教育课程",
+                  "id": "major:9552074",
+                  "credits": 4,
+                  "required": 36,
+                  "courses": 2,
+                  "requiredCourses": 0,
+                  "missingRequired": [],
+                  "checks": []
+                },
+                {
+                  "module": "必修课程",
+                  "id": "major:9452273",
+                  "credits": 0,
+                  "required": 14,
+                  "courses": 0,
+                  "requiredCourses": 0,
+                  "missingRequired": [
+                    {
+                      "code": "MATH10010",
+                      "name": "数学分析AⅠ"
+                    },
+                    {
+                      "code": "MATH10011",
+                      "name": "数学分析AⅡ"
+                    },
+                    {
+                      "code": "CS10004",
+                      "name": "程序设计"
+                    }
+                  ],
+                  "checks": []
+                },
+                {
+                  "module": "数学类基础课（大物B）",
+                  "id": "major:9452275",
+                  "credits": 0,
+                  "required": 8,
+                  "courses": 0,
+                  "requiredCourses": 0,
+                  "missingRequired": [],
+                  "checks": []
+                },
+                {
+                  "module": "数学类基础课（大学物理）",
+                  "id": "major:9452274",
+                  "credits": 0,
+                  "required": 8,
+                  "courses": 0,
+                  "requiredCourses": 0,
+                  "missingRequired": [],
+                  "checks": []
+                },
+                {
+                  "module": "学科基础课程",
+                  "id": "major:9452272",
+                  "credits": 0,
+                  "required": 22,
+                  "courses": 0,
+                  "requiredCourses": 0,
+                  "missingRequired": [],
+                  "checks": []
+                },
+                {
+                  "module": "必修课程",
+                  "id": "major:9452278",
+                  "credits": 7,
+                  "required": 38,
+                  "courses": 2,
+                  "requiredCourses": 0,
+                  "missingRequired": [
+                    {
+                      "code": "MATH10009",
+                      "name": "高等代数Ⅰ"
+                    },
+                    {
+                      "code": "MATH10019",
+                      "name": "高等代数II"
+                    },
+                    {
+                      "code": "MATH20004",
+                      "name": "数学分析AⅢ"
+                    },
+                    {
+                      "code": "MATH20014",
+                      "name": "常微分方程"
+                    },
+                    {
+                      "code": "MATH20015",
+                      "name": "抽象代数"
+                    }
+                  ],
+                  "checks": []
+                },
+                {
+                  "module": "双学位融合必修课程",
+                  "id": "major:9452279",
+                  "credits": 3,
+                  "required": 36,
+                  "courses": 1,
+                  "requiredCourses": 0,
+                  "missingRequired": [
+                    {
+                      "code": "AIE310007",
+                      "name": "数据结构"
+                    },
+                    {
+                      "code": "AIE210006",
+                      "name": "计算机系统基础"
+                    },
+                    {
+                      "code": "AIE310005",
+                      "name": "人工智能导论"
+                    },
+                    {
+                      "code": "AIE310008",
+                      "name": "人工智能的软件基础"
+                    },
+                    {
+                      "code": "AIE410001",
+                      "name": "模式识别与机器学习"
+                    },
+                    {
+                      "code": "AIE831001",
+                      "name": "人工智能安全"
+                    },
+                    {
+                      "code": "PHIL50006",
+                      "name": "人工智能的伦理与治理"
+                    },
+                    {
+                      "code": "AIE410002",
+                      "name": "自然语言处理与大语言模型"
+                    },
+                    {
+                      "code": "AIE310004",
+                      "name": "计算机视觉"
+                    },
+                    {
+                      "code": "AIE531001",
+                      "name": "人工智能前沿探索实践"
+                    },
+                    {
+                      "code": "MATH30001",
+                      "name": "离散数学"
+                    }
+                  ],
+                  "checks": []
+                }
+              ]
+            },
+            "onlyA": [
+              "人工智能导论",
+              "人工智能的软件基础",
+              "抽象代数II"
+            ],
+            "onlyB": [
+              "英语视听",
+              "英语论说文写作",
+              "学术英语(医学)"
+            ],
+            "changedTeachers": []
+          }
+        }
+      ],
+      "usage": {
+        "total_tokens": 51845
+      },
+      "elapsedMs": 8857
+    },
+    {
+      "answer": "方案 B 已更新：15 → 12 学分，变化 -3 学分。\n\n公共＋专业审计 · 2026数学与应用数学-人工智能双学士学位项目培养方案\n已通过 4 学分；在读 / 预选 / 待审核 1 条。毕业总要求 157 学分。\n\n方案 A · 18 学分 · 6 门\n数理统计（杨莹，3 学分）；数学模型（蔡志杰，3 学分）；概率论（吴波，3 学分）；人工智能导论（张景锋、丁恒辉，3 学分）；人工智能的软件基础（徐辉、周喆，3 学分）；抽象代数II（朱胜林，3 学分）\n时间冲突 0 组；平均每周到课 3.9 天（含周末）；最高每周 21 节。\n加入后预测 22 学分；完成要求 0 → 0 / 31 项。\n\n方案 B · 12 学分 · 5 门\n数理统计（杨莹，3 学分）；概率论（吴波，3 学分）；英语视听（杨霞，2 学分）；英语论说文写作（张雪波，2 学分）；学术英语(医学)（赵静，2 学分）\n时间冲突 0 组；平均每周到课 4 天（含周末）；最高每周 14 节。\n加入后预测 16 学分；完成要求 0 → 1 / 31 项。\n\n两案差异\nA 独有：数学模型、人工智能导论、人工智能的软件基础、抽象代数II。\nB 独有：英语视听、英语论说文写作、学术英语(医学)。\n学分差 A − B：6。\n\n尚需推进的要求 · B 方案后\n思政A：0/12 学分，0/6 门\n创新A：0/2 学分，0/2 门\n思政与创新A：0/14 学分，0/8 门\n思政B：0/2 学分，0/1 门\n思想政治理论课与创新课模块：0/16 学分，0/1 门\n艺术创作与审美体验：0/2 学分\n核心课程七大模块：0/6 学分\n国家安全教育：0/1 学分，0/1 门\n完整规则、必修待补清单与归属见「学分审计」。\n\n接下来想先调整教师与考核方式，还是集中处理尚未完成的培养要求？",
+      "modelFollowup": "A 案保持 18 学分不变；B 案删除数学模型后降为 12 学分、5 门课，比原来少 3 学分、少 1 门课，两案均无时间冲突。B 案现已完成大学外语（B 级）模块，但仍欠缺思政、创新、艺术、核心课程、体育、军事、心理健康、通识核心、学科基础与双学位融合等多项要求，尚未达到毕业条件。接下来你希望我如何调整？",
+      "trace": [
+        {
+          "round": 1,
+          "id": "call_00_I6KDYjuO3a5Dhv3iyaWz9040",
+          "tool": "edit_plan",
+          "args": {
+            "slot": "B",
+            "remove_codes": [
+              "MATH20009"
+            ]
+          },
+          "result": {
+            "slot": "B",
+            "before": {
+              "credits": 15,
+              "courses": 6,
+              "conflicts": [],
+              "unknownTimes": 0,
+              "averageDays": 4.9,
+              "peakPeriods": 18,
+              "weeks": [
+                {
+                  "week": 1,
+                  "days": 5,
+                  "periods": 15,
+                  "longestFreeBlock": 10
+                },
+                {
+                  "week": 2,
+                  "days": 5,
+                  "periods": 15,
+                  "longestFreeBlock": 10
+                },
+                {
+                  "week": 3,
+                  "days": 4,
+                  "periods": 13,
+                  "longestFreeBlock": 10
+                },
+                {
+                  "week": 4,
+                  "days": 5,
+                  "periods": 15,
+                  "longestFreeBlock": 10
+                },
+                {
+                  "week": 5,
+                  "days": 5,
+                  "periods": 15,
+                  "longestFreeBlock": 10
+                },
+                {
+                  "week": 6,
+                  "days": 6,
+                  "periods": 18,
+                  "longestFreeBlock": 10
+                },
+                {
+                  "week": 7,
+                  "days": 5,
+                  "periods": 15,
+                  "longestFreeBlock": 10
+                },
+                {
+                  "week": 8,
+                  "days": 6,
+                  "periods": 17,
+                  "longestFreeBlock": 10
+                },
+                {
+                  "week": 9,
+                  "days": 5,
+                  "periods": 15,
+                  "longestFreeBlock": 10
+                },
+                {
+                  "week": 10,
+                  "days": 5,
+                  "periods": 15,
+                  "longestFreeBlock": 10
+                },
+                {
+                  "week": 11,
+                  "days": 5,
+                  "periods": 15,
+                  "longestFreeBlock": 10
+                },
+                {
+                  "week": 12,
+                  "days": 5,
+                  "periods": 15,
+                  "longestFreeBlock": 10
+                },
+                {
+                  "week": 13,
+                  "days": 5,
+                  "periods": 15,
+                  "longestFreeBlock": 10
+                },
+                {
+                  "week": 14,
+                  "days": 5,
+                  "periods": 15,
+                  "longestFreeBlock": 10
+                },
+                {
+                  "week": 15,
+                  "days": 4,
+                  "periods": 15,
+                  "longestFreeBlock": 10
+                },
+                {
+                  "week": 16,
+                  "days": 4,
+                  "periods": 12,
+                  "longestFreeBlock": 10
+                },
+                {
+                  "week": 17,
+                  "days": 0,
+                  "periods": 0,
+                  "longestFreeBlock": 10
+                },
+                {
+                  "week": 18,
+                  "days": 0,
+                  "periods": 0,
+                  "longestFreeBlock": 10
+                },
+                {
+                  "week": 19,
+                  "days": 0,
+                  "periods": 0,
+                  "longestFreeBlock": 10
+                },
+                {
+                  "week": 20,
+                  "days": 0,
+                  "periods": 0,
+                  "longestFreeBlock": 10
+                }
+              ]
+            },
+            "courses": [
+              {
+                "id": "C0055",
+                "code": "MATH30011",
+                "name": "数理统计",
+                "section_id": "1017541",
+                "teacher": [
+                  "杨莹"
+                ],
+                "credits": 3,
+                "schedule": "16周 星期三 3~5节 H3309 杨莹; \n1周 星期三 3~5节 HGX508 杨莹; \n2~15周 星期三 3~5节 H3309 杨莹",
+                "restrictions": "适用业务类型：本研融通 院系包含：数学科学学院 适用业务类型：本研融通 年级包含：2024 专业包含：数学与应用数学-人工智能(双学士学位项目)"
+              },
+              {
+                "id": "C0064",
+                "code": "MATH30003",
+                "name": "概率论",
+                "section_id": "1017486",
+                "teacher": [
+                  "吴波"
+                ],
+                "credits": 3,
+                "schedule": "1~14,16周 星期四 3~5节 HGX304 吴波; \n15周 星期二 6~8节 HGX304 吴波",
+                "restrictions": "适用业务类型：本研融通 院系包含：数学科学学院"
+              },
+              {
+                "id": "C0782",
+                "code": "GEEF20004",
+                "name": "英语视听",
+                "section_id": "1028263",
+                "teacher": [
+                  "杨霞"
+                ],
+                "credits": 2,
+                "schedule": "1~10,12~16周 星期三 1~2节 H4405（听力） 杨霞; \n11周 星期三 1~2节 在线教学 杨霞",
+                "restrictions": ""
+              },
+              {
+                "id": "C0783",
+                "code": "GEEF20011",
+                "name": "英语论说文写作",
+                "section_id": "1028277",
+                "teacher": [
+                  "张雪波"
+                ],
+                "credits": 2,
+                "schedule": "8周 星期日 6~7节 H2102A 张雪波; \n1~2,4~16周 星期五 1~2节 H2102A 张雪波",
+                "restrictions": ""
+              },
+              {
+                "id": "C0429",
+                "code": "GEEF30017",
+                "name": "学术英语(医学)",
+                "section_id": "1028434",
+                "teacher": [
+                  "赵静"
+                ],
+                "credits": 2,
+                "schedule": "1~4,6~7,9~11,13~16周 星期一 1~2节 F2302 赵静; \n5,8,12周 星期一 1~2节 在线教学 赵静",
+                "restrictions": ""
+              }
+            ],
+            "metrics": {
+              "credits": 12,
+              "courses": 5,
+              "conflicts": [],
+              "unknownTimes": 0,
+              "averageDays": 4,
+              "peakPeriods": 14,
+              "weeks": [
+                {
+                  "week": 1,
+                  "days": 4,
+                  "periods": 12,
+                  "longestFreeBlock": 10
+                },
+                {
+                  "week": 2,
+                  "days": 4,
+                  "periods": 12,
+                  "longestFreeBlock": 10
+                },
+                {
+                  "week": 3,
+                  "days": 3,
+                  "periods": 10,
+                  "longestFreeBlock": 10
+                },
+                {
+                  "week": 4,
+                  "days": 4,
+                  "periods": 12,
+                  "longestFreeBlock": 10
+                },
+                {
+                  "week": 5,
+                  "days": 4,
+                  "periods": 12,
+                  "longestFreeBlock": 10
+                },
+                {
+                  "week": 6,
+                  "days": 4,
+                  "periods": 12,
+                  "longestFreeBlock": 10
+                },
+                {
+                  "week": 7,
+                  "days": 4,
+                  "periods": 12,
+                  "longestFreeBlock": 10
+                },
+                {
+                  "week": 8,
+                  "days": 5,
+                  "periods": 14,
+                  "longestFreeBlock": 10
+                },
+                {
+                  "week": 9,
+                  "days": 4,
+                  "periods": 12,
+                  "longestFreeBlock": 10
+                },
+                {
+                  "week": 10,
+                  "days": 4,
+                  "periods": 12,
+                  "longestFreeBlock": 10
+                },
+                {
+                  "week": 11,
+                  "days": 4,
+                  "periods": 12,
+                  "longestFreeBlock": 10
+                },
+                {
+                  "week": 12,
+                  "days": 4,
+                  "periods": 12,
+                  "longestFreeBlock": 10
+                },
+                {
+                  "week": 13,
+                  "days": 4,
+                  "periods": 12,
+                  "longestFreeBlock": 10
+                },
+                {
+                  "week": 14,
+                  "days": 4,
+                  "periods": 12,
+                  "longestFreeBlock": 10
+                },
+                {
+                  "week": 15,
+                  "days": 4,
+                  "periods": 12,
+                  "longestFreeBlock": 10
+                },
+                {
+                  "week": 16,
+                  "days": 4,
+                  "periods": 12,
+                  "longestFreeBlock": 10
+                },
+                {
+                  "week": 17,
+                  "days": 0,
+                  "periods": 0,
+                  "longestFreeBlock": 10
+                },
+                {
+                  "week": 18,
+                  "days": 0,
+                  "periods": 0,
+                  "longestFreeBlock": 10
+                },
+                {
+                  "week": 19,
+                  "days": 0,
+                  "periods": 0,
+                  "longestFreeBlock": 10
+                },
+                {
+                  "week": 20,
+                  "days": 0,
+                  "periods": 0,
+                  "longestFreeBlock": 10
+                }
+              ]
+            },
+            "audit": {
+              "title": "2026数学与应用数学-人工智能双学士学位项目培养方案",
+              "target": 157,
+              "passedCredits": 4,
+              "forecastCredits": 16,
+              "completedRules": 0,
+              "forecastCompletedRules": 1,
+              "totalRules": 31,
+              "pendingRecords": 1,
+              "duplicateCodes": [
+                "MATH30011"
+              ],
+              "gaps": [
+                {
+                  "module": "思政A",
+                  "id": "public:15143085",
+                  "credits": 0,
+                  "required": 12,
+                  "courses": 0,
+                  "requiredCourses": 6,
+                  "missingRequired": [
+                    {
+                      "code": "GEIP30002",
+                      "name": "习近平新时代中国特色社会主义思想概论"
+                    },
+                    {
+                      "code": "GEIP10001",
+                      "name": "马克思主义基本原理"
+                    },
+                    {
+                      "code": "GEIP10003",
+                      "name": "大学生思想文化素养"
+                    },
+                    {
+                      "code": "GEIP10002",
+                      "name": "中国共产党历史与理论"
+                    },
+                    {
+                      "code": "GEIP10004",
+                      "name": "新时代实践教育Ⅰ"
+                    },
+                    {
+                      "code": "GEIP10005",
+                      "name": "新时代实践教育Ⅱ"
+                    }
+                  ],
+                  "checks": []
+                },
+                {
+                  "module": "创新A",
+                  "id": "public:15143086",
+                  "credits": 0,
+                  "required": 2,
+                  "courses": 0,
+                  "requiredCourses": 2,
+                  "missingRequired": [
+                    {
+                      "code": "GEIP10006",
+                      "name": "大学生创新实践Ⅰ"
+                    },
+                    {
+                      "code": "GEIP10007",
+                      "name": "大学生创新实践Ⅱ"
+                    }
+                  ],
+                  "checks": []
+                },
+                {
+                  "module": "思政与创新A",
+                  "id": "public:9497468",
+                  "credits": 0,
+                  "required": 14,
+                  "courses": 0,
+                  "requiredCourses": 8,
+                  "missingRequired": [],
+                  "checks": []
+                },
+                {
+                  "module": "思政B",
+                  "id": "public:9497469",
+                  "credits": 0,
+                  "required": 2,
+                  "courses": 0,
+                  "requiredCourses": 1,
+                  "missingRequired": [],
+                  "checks": []
+                },
+                {
+                  "module": "思想政治理论课与创新课模块",
+                  "id": "public:9497467",
+                  "credits": 0,
+                  "required": 16,
+                  "courses": 0,
+                  "requiredCourses": 1,
+                  "missingRequired": [],
+                  "checks": []
+                },
+                {
+                  "module": "艺术创作与审美体验",
+                  "id": "public:9497480",
+                  "credits": 0,
+                  "required": 2,
+                  "courses": 0,
+                  "requiredCourses": 0,
+                  "missingRequired": [],
+                  "checks": []
+                },
+                {
+                  "module": "核心课程七大模块",
+                  "id": "public:9497473",
+                  "credits": 0,
+                  "required": 6,
+                  "courses": 0,
+                  "requiredCourses": 0,
+                  "missingRequired": [],
+                  "checks": []
+                },
+                {
+                  "module": "国家安全教育",
+                  "id": "public:9497482",
+                  "credits": 0,
+                  "required": 1,
+                  "courses": 0,
+                  "requiredCourses": 1,
+                  "missingRequired": [
+                    {
+                      "code": "GESS10001",
+                      "name": "大学生国家安全教育"
+                    }
+                  ],
+                  "checks": []
+                },
+                {
+                  "module": "通识教育核心课程",
+                  "id": "major:9552075",
+                  "credits": 0,
+                  "required": 23,
+                  "courses": 0,
+                  "requiredCourses": 0,
+                  "missingRequired": [],
+                  "checks": []
+                },
+                {
+                  "module": "大学英语高阶课程",
+                  "id": "public:9497495",
+                  "credits": 0,
+                  "required": 2,
+                  "courses": 0,
+                  "requiredCourses": 0,
+                  "missingRequired": [],
+                  "checks": []
+                },
+                {
+                  "module": "大学外语（B级）",
+                  "id": "public:9497491",
+                  "credits": 4,
+                  "required": 4,
+                  "courses": 2,
+                  "requiredCourses": 2,
+                  "missingRequired": [
+                    {
+                      "code": "GEEF30032",
+                      "name": "复旦大学英语水平测试"
+                    }
+                  ],
+                  "checks": []
+                },
+                {
+                  "module": "大学外语",
+                  "id": "public:9497484",
+                  "credits": 4,
+                  "required": 4,
+                  "courses": 2,
+                  "requiredCourses": 0,
+                  "missingRequired": [],
+                  "checks": [
+                    "复旦大学英语水平测试 FET"
+                  ]
+                },
+                {
+                  "module": "体育课程",
+                  "id": "public:9497512",
+                  "credits": 0,
+                  "required": 4,
+                  "courses": 0,
+                  "requiredCourses": 4,
+                  "missingRequired": [],
+                  "checks": [
+                    "四个学期体育必修"
+                  ]
+                },
+                {
+                  "module": "军事课程",
+                  "id": "public:9497513",
+                  "credits": 0,
+                  "required": 4,
+                  "courses": 0,
+                  "requiredCourses": 2,
+                  "missingRequired": [
+                    {
+                      "code": "GEND10001",
+                      "name": "军事理论"
+                    },
+                    {
+                      "code": "GEND10002",
+                      "name": "军事技能"
+                    }
+                  ],
+                  "checks": []
+                },
+                {
+                  "module": "心理健康教育课程",
+                  "id": "public:9497515",
+                  "credits": 0,
+                  "required": 1,
+                  "courses": 0,
+                  "requiredCourses": 1,
+                  "missingRequired": [],
+                  "checks": [
+                    "2 学分课程，或在线课加 16 学时实践 / 1 学分线下课"
+                  ]
+                },
+                {
+                  "module": "实验室安全教育",
+                  "id": "public:9497516",
+                  "credits": 0,
+                  "required": 0,
+                  "courses": 0,
+                  "requiredCourses": 0,
+                  "missingRequired": [],
+                  "checks": [
+                    "在线安全教育、消防培训与相应实验室准入"
+                  ]
+                },
+                {
+                  "module": "通识教育专项教育课程",
+                  "id": "major:9552088",
+                  "credits": 4,
+                  "required": 13,
+                  "courses": 2,
+                  "requiredCourses": 0,
+                  "missingRequired": [],
+                  "checks": []
+                },
+                {
+                  "module": "通识教育课程",
+                  "id": "major:9552074",
+                  "credits": 4,
+                  "required": 36,
+                  "courses": 2,
+                  "requiredCourses": 0,
+                  "missingRequired": [],
+                  "checks": []
+                },
+                {
+                  "module": "必修课程",
+                  "id": "major:9452273",
+                  "credits": 0,
+                  "required": 14,
+                  "courses": 0,
+                  "requiredCourses": 0,
+                  "missingRequired": [
+                    {
+                      "code": "MATH10010",
+                      "name": "数学分析AⅠ"
+                    },
+                    {
+                      "code": "MATH10011",
+                      "name": "数学分析AⅡ"
+                    },
+                    {
+                      "code": "CS10004",
+                      "name": "程序设计"
+                    }
+                  ],
+                  "checks": []
+                },
+                {
+                  "module": "数学类基础课（大物B）",
+                  "id": "major:9452275",
+                  "credits": 0,
+                  "required": 8,
+                  "courses": 0,
+                  "requiredCourses": 0,
+                  "missingRequired": [],
+                  "checks": []
+                },
+                {
+                  "module": "数学类基础课（大学物理）",
+                  "id": "major:9452274",
+                  "credits": 0,
+                  "required": 8,
+                  "courses": 0,
+                  "requiredCourses": 0,
+                  "missingRequired": [],
+                  "checks": []
+                },
+                {
+                  "module": "学科基础课程",
+                  "id": "major:9452272",
+                  "credits": 0,
+                  "required": 22,
+                  "courses": 0,
+                  "requiredCourses": 0,
+                  "missingRequired": [],
+                  "checks": []
+                },
+                {
+                  "module": "必修课程",
+                  "id": "major:9452278",
+                  "credits": 7,
+                  "required": 38,
+                  "courses": 2,
+                  "requiredCourses": 0,
+                  "missingRequired": [
+                    {
+                      "code": "MATH10009",
+                      "name": "高等代数Ⅰ"
+                    },
+                    {
+                      "code": "MATH10019",
+                      "name": "高等代数II"
+                    },
+                    {
+                      "code": "MATH20004",
+                      "name": "数学分析AⅢ"
+                    },
+                    {
+                      "code": "MATH20014",
+                      "name": "常微分方程"
+                    },
+                    {
+                      "code": "MATH20015",
+                      "name": "抽象代数"
+                    }
+                  ],
+                  "checks": []
+                },
+                {
+                  "module": "双学位融合必修课程",
+                  "id": "major:9452279",
+                  "credits": 3,
+                  "required": 36,
+                  "courses": 1,
+                  "requiredCourses": 0,
+                  "missingRequired": [
+                    {
+                      "code": "AIE310007",
+                      "name": "数据结构"
+                    },
+                    {
+                      "code": "AIE210006",
+                      "name": "计算机系统基础"
+                    },
+                    {
+                      "code": "AIE310005",
+                      "name": "人工智能导论"
+                    },
+                    {
+                      "code": "AIE310008",
+                      "name": "人工智能的软件基础"
+                    },
+                    {
+                      "code": "AIE410001",
+                      "name": "模式识别与机器学习"
+                    },
+                    {
+                      "code": "AIE831001",
+                      "name": "人工智能安全"
+                    },
+                    {
+                      "code": "PHIL50006",
+                      "name": "人工智能的伦理与治理"
+                    },
+                    {
+                      "code": "AIE410002",
+                      "name": "自然语言处理与大语言模型"
+                    },
+                    {
+                      "code": "AIE310004",
+                      "name": "计算机视觉"
+                    },
+                    {
+                      "code": "AIE531001",
+                      "name": "人工智能前沿探索实践"
+                    },
+                    {
+                      "code": "MATH30001",
+                      "name": "离散数学"
+                    }
+                  ],
+                  "checks": []
+                }
+              ]
+            }
+          }
+        },
+        {
+          "round": 2,
+          "id": "call_00_LpJyTi4Yu0wGnANBxzPC7364",
+          "tool": "compare_plans",
+          "args": {},
+          "result": {
+            "A": {
+              "credits": 18,
+              "courses": 6,
+              "conflicts": [],
+              "unknownTimes": 0,
+              "averageDays": 3.9,
+              "peakPeriods": 21,
+              "weeks": [
+                {
+                  "week": 1,
+                  "days": 4,
+                  "periods": 18,
+                  "longestFreeBlock": 10
+                },
+                {
+                  "week": 2,
+                  "days": 4,
+                  "periods": 18,
+                  "longestFreeBlock": 10
+                },
+                {
+                  "week": 3,
+                  "days": 4,
+                  "periods": 18,
+                  "longestFreeBlock": 10
+                },
+                {
+                  "week": 4,
+                  "days": 4,
+                  "periods": 18,
+                  "longestFreeBlock": 10
+                },
+                {
+                  "week": 5,
+                  "days": 4,
+                  "periods": 18,
+                  "longestFreeBlock": 10
+                },
+                {
+                  "week": 6,
+                  "days": 4,
+                  "periods": 21,
+                  "longestFreeBlock": 10
+                },
+                {
+                  "week": 7,
+                  "days": 4,
+                  "periods": 18,
+                  "longestFreeBlock": 10
+                },
+                {
+                  "week": 8,
+                  "days": 4,
+                  "periods": 18,
+                  "longestFreeBlock": 10
+                },
+                {
+                  "week": 9,
+                  "days": 4,
+                  "periods": 18,
+                  "longestFreeBlock": 10
+                },
+                {
+                  "week": 10,
+                  "days": 4,
+                  "periods": 18,
+                  "longestFreeBlock": 10
+                },
+                {
+                  "week": 11,
+                  "days": 4,
+                  "periods": 18,
+                  "longestFreeBlock": 10
+                },
+                {
+                  "week": 12,
+                  "days": 4,
+                  "periods": 18,
+                  "longestFreeBlock": 10
+                },
+                {
+                  "week": 13,
+                  "days": 4,
+                  "periods": 15,
+                  "longestFreeBlock": 10
+                },
+                {
+                  "week": 14,
+                  "days": 4,
+                  "periods": 21,
+                  "longestFreeBlock": 10
+                },
+                {
+                  "week": 15,
+                  "days": 4,
+                  "periods": 18,
+                  "longestFreeBlock": 10
+                },
+                {
+                  "week": 16,
+                  "days": 3,
+                  "periods": 15,
+                  "longestFreeBlock": 10
+                },
+                {
+                  "week": 17,
+                  "days": 0,
+                  "periods": 0,
+                  "longestFreeBlock": 10
+                },
+                {
+                  "week": 18,
+                  "days": 0,
+                  "periods": 0,
+                  "longestFreeBlock": 10
+                },
+                {
+                  "week": 19,
+                  "days": 0,
+                  "periods": 0,
+                  "longestFreeBlock": 10
+                },
+                {
+                  "week": 20,
+                  "days": 0,
+                  "periods": 0,
+                  "longestFreeBlock": 10
+                }
+              ]
+            },
+            "B": {
+              "credits": 12,
+              "courses": 5,
+              "conflicts": [],
+              "unknownTimes": 0,
+              "averageDays": 4,
+              "peakPeriods": 14,
+              "weeks": [
+                {
+                  "week": 1,
+                  "days": 4,
+                  "periods": 12,
+                  "longestFreeBlock": 10
+                },
+                {
+                  "week": 2,
+                  "days": 4,
+                  "periods": 12,
+                  "longestFreeBlock": 10
+                },
+                {
+                  "week": 3,
+                  "days": 3,
+                  "periods": 10,
+                  "longestFreeBlock": 10
+                },
+                {
+                  "week": 4,
+                  "days": 4,
+                  "periods": 12,
+                  "longestFreeBlock": 10
+                },
+                {
+                  "week": 5,
+                  "days": 4,
+                  "periods": 12,
+                  "longestFreeBlock": 10
+                },
+                {
+                  "week": 6,
+                  "days": 4,
+                  "periods": 12,
+                  "longestFreeBlock": 10
+                },
+                {
+                  "week": 7,
+                  "days": 4,
+                  "periods": 12,
+                  "longestFreeBlock": 10
+                },
+                {
+                  "week": 8,
+                  "days": 5,
+                  "periods": 14,
+                  "longestFreeBlock": 10
+                },
+                {
+                  "week": 9,
+                  "days": 4,
+                  "periods": 12,
+                  "longestFreeBlock": 10
+                },
+                {
+                  "week": 10,
+                  "days": 4,
+                  "periods": 12,
+                  "longestFreeBlock": 10
+                },
+                {
+                  "week": 11,
+                  "days": 4,
+                  "periods": 12,
+                  "longestFreeBlock": 10
+                },
+                {
+                  "week": 12,
+                  "days": 4,
+                  "periods": 12,
+                  "longestFreeBlock": 10
+                },
+                {
+                  "week": 13,
+                  "days": 4,
+                  "periods": 12,
+                  "longestFreeBlock": 10
+                },
+                {
+                  "week": 14,
+                  "days": 4,
+                  "periods": 12,
+                  "longestFreeBlock": 10
+                },
+                {
+                  "week": 15,
+                  "days": 4,
+                  "periods": 12,
+                  "longestFreeBlock": 10
+                },
+                {
+                  "week": 16,
+                  "days": 4,
+                  "periods": 12,
+                  "longestFreeBlock": 10
+                },
+                {
+                  "week": 17,
+                  "days": 0,
+                  "periods": 0,
+                  "longestFreeBlock": 10
+                },
+                {
+                  "week": 18,
+                  "days": 0,
+                  "periods": 0,
+                  "longestFreeBlock": 10
+                },
+                {
+                  "week": 19,
+                  "days": 0,
+                  "periods": 0,
+                  "longestFreeBlock": 10
+                },
+                {
+                  "week": 20,
+                  "days": 0,
+                  "periods": 0,
+                  "longestFreeBlock": 10
+                }
+              ]
+            },
+            "auditA": {
+              "title": "2026数学与应用数学-人工智能双学士学位项目培养方案",
+              "target": 157,
+              "passedCredits": 4,
+              "forecastCredits": 22,
+              "completedRules": 0,
+              "forecastCompletedRules": 0,
+              "totalRules": 31,
+              "pendingRecords": 1,
+              "duplicateCodes": [
+                "MATH30011"
+              ],
+              "gaps": [
+                {
+                  "module": "思政A",
+                  "id": "public:15143085",
+                  "credits": 0,
+                  "required": 12,
+                  "courses": 0,
+                  "requiredCourses": 6,
+                  "missingRequired": [
+                    {
+                      "code": "GEIP30002",
+                      "name": "习近平新时代中国特色社会主义思想概论"
+                    },
+                    {
+                      "code": "GEIP10001",
+                      "name": "马克思主义基本原理"
+                    },
+                    {
+                      "code": "GEIP10003",
+                      "name": "大学生思想文化素养"
+                    },
+                    {
+                      "code": "GEIP10002",
+                      "name": "中国共产党历史与理论"
+                    },
+                    {
+                      "code": "GEIP10004",
+                      "name": "新时代实践教育Ⅰ"
+                    },
+                    {
+                      "code": "GEIP10005",
+                      "name": "新时代实践教育Ⅱ"
+                    }
+                  ],
+                  "checks": []
+                },
+                {
+                  "module": "创新A",
+                  "id": "public:15143086",
+                  "credits": 0,
+                  "required": 2,
+                  "courses": 0,
+                  "requiredCourses": 2,
+                  "missingRequired": [
+                    {
+                      "code": "GEIP10006",
+                      "name": "大学生创新实践Ⅰ"
+                    },
+                    {
+                      "code": "GEIP10007",
+                      "name": "大学生创新实践Ⅱ"
+                    }
+                  ],
+                  "checks": []
+                },
+                {
+                  "module": "思政与创新A",
+                  "id": "public:9497468",
+                  "credits": 0,
+                  "required": 14,
+                  "courses": 0,
+                  "requiredCourses": 8,
+                  "missingRequired": [],
+                  "checks": []
+                },
+                {
+                  "module": "思政B",
+                  "id": "public:9497469",
+                  "credits": 0,
+                  "required": 2,
+                  "courses": 0,
+                  "requiredCourses": 1,
+                  "missingRequired": [],
+                  "checks": []
+                },
+                {
+                  "module": "思想政治理论课与创新课模块",
+                  "id": "public:9497467",
+                  "credits": 0,
+                  "required": 16,
+                  "courses": 0,
+                  "requiredCourses": 1,
+                  "missingRequired": [],
+                  "checks": []
+                },
+                {
+                  "module": "艺术创作与审美体验",
+                  "id": "public:9497480",
+                  "credits": 0,
+                  "required": 2,
+                  "courses": 0,
+                  "requiredCourses": 0,
+                  "missingRequired": [],
+                  "checks": []
+                },
+                {
+                  "module": "核心课程七大模块",
+                  "id": "public:9497473",
+                  "credits": 0,
+                  "required": 6,
+                  "courses": 0,
+                  "requiredCourses": 0,
+                  "missingRequired": [],
+                  "checks": []
+                },
+                {
+                  "module": "国家安全教育",
+                  "id": "public:9497482",
+                  "credits": 0,
+                  "required": 1,
+                  "courses": 0,
+                  "requiredCourses": 1,
+                  "missingRequired": [
+                    {
+                      "code": "GESS10001",
+                      "name": "大学生国家安全教育"
+                    }
+                  ],
+                  "checks": []
+                },
+                {
+                  "module": "通识教育核心课程",
+                  "id": "major:9552075",
+                  "credits": 0,
+                  "required": 23,
+                  "courses": 0,
+                  "requiredCourses": 0,
+                  "missingRequired": [],
+                  "checks": []
+                },
+                {
+                  "module": "大学英语进阶课程",
+                  "id": "public:9497492",
+                  "credits": 0,
+                  "required": 2,
+                  "courses": 0,
+                  "requiredCourses": 0,
+                  "missingRequired": [],
+                  "checks": []
+                },
+                {
+                  "module": "大学英语高阶课程",
+                  "id": "public:9497495",
+                  "credits": 0,
+                  "required": 2,
+                  "courses": 0,
+                  "requiredCourses": 0,
+                  "missingRequired": [],
+                  "checks": []
+                },
+                {
+                  "module": "大学外语（B级）",
+                  "id": "public:9497491",
+                  "credits": 0,
+                  "required": 4,
+                  "courses": 0,
+                  "requiredCourses": 2,
+                  "missingRequired": [
+                    {
+                      "code": "GEEF30032",
+                      "name": "复旦大学英语水平测试"
+                    }
+                  ],
+                  "checks": []
+                },
+                {
+                  "module": "大学外语",
+                  "id": "public:9497484",
+                  "credits": 0,
+                  "required": 4,
+                  "courses": 0,
+                  "requiredCourses": 0,
+                  "missingRequired": [],
+                  "checks": [
+                    "复旦大学英语水平测试 FET"
+                  ]
+                },
+                {
+                  "module": "体育课程",
+                  "id": "public:9497512",
+                  "credits": 0,
+                  "required": 4,
+                  "courses": 0,
+                  "requiredCourses": 4,
+                  "missingRequired": [],
+                  "checks": [
+                    "四个学期体育必修"
+                  ]
+                },
+                {
+                  "module": "军事课程",
+                  "id": "public:9497513",
+                  "credits": 0,
+                  "required": 4,
+                  "courses": 0,
+                  "requiredCourses": 2,
+                  "missingRequired": [
+                    {
+                      "code": "GEND10001",
+                      "name": "军事理论"
+                    },
+                    {
+                      "code": "GEND10002",
+                      "name": "军事技能"
+                    }
+                  ],
+                  "checks": []
+                },
+                {
+                  "module": "心理健康教育课程",
+                  "id": "public:9497515",
+                  "credits": 0,
+                  "required": 1,
+                  "courses": 0,
+                  "requiredCourses": 1,
+                  "missingRequired": [],
+                  "checks": [
+                    "2 学分课程，或在线课加 16 学时实践 / 1 学分线下课"
+                  ]
+                },
+                {
+                  "module": "实验室安全教育",
+                  "id": "public:9497516",
+                  "credits": 0,
+                  "required": 0,
+                  "courses": 0,
+                  "requiredCourses": 0,
+                  "missingRequired": [],
+                  "checks": [
+                    "在线安全教育、消防培训与相应实验室准入"
+                  ]
+                },
+                {
+                  "module": "通识教育专项教育课程",
+                  "id": "major:9552088",
+                  "credits": 0,
+                  "required": 13,
+                  "courses": 0,
+                  "requiredCourses": 0,
+                  "missingRequired": [],
+                  "checks": []
+                },
+                {
+                  "module": "通识教育课程",
+                  "id": "major:9552074",
+                  "credits": 0,
+                  "required": 36,
+                  "courses": 0,
+                  "requiredCourses": 0,
+                  "missingRequired": [],
+                  "checks": []
+                },
+                {
+                  "module": "必修课程",
+                  "id": "major:9452273",
+                  "credits": 0,
+                  "required": 14,
+                  "courses": 0,
+                  "requiredCourses": 0,
+                  "missingRequired": [
+                    {
+                      "code": "MATH10010",
+                      "name": "数学分析AⅠ"
+                    },
+                    {
+                      "code": "MATH10011",
+                      "name": "数学分析AⅡ"
+                    },
+                    {
+                      "code": "CS10004",
+                      "name": "程序设计"
+                    }
+                  ],
+                  "checks": []
+                },
+                {
+                  "module": "数学类基础课（大物B）",
+                  "id": "major:9452275",
+                  "credits": 0,
+                  "required": 8,
+                  "courses": 0,
+                  "requiredCourses": 0,
+                  "missingRequired": [],
+                  "checks": []
+                },
+                {
+                  "module": "数学类基础课（大学物理）",
+                  "id": "major:9452274",
+                  "credits": 0,
+                  "required": 8,
+                  "courses": 0,
+                  "requiredCourses": 0,
+                  "missingRequired": [],
+                  "checks": []
+                },
+                {
+                  "module": "学科基础课程",
+                  "id": "major:9452272",
+                  "credits": 0,
+                  "required": 22,
+                  "courses": 0,
+                  "requiredCourses": 0,
+                  "missingRequired": [],
+                  "checks": []
+                },
+                {
+                  "module": "必修课程",
+                  "id": "major:9452278",
+                  "credits": 7,
+                  "required": 38,
+                  "courses": 2,
+                  "requiredCourses": 0,
+                  "missingRequired": [
+                    {
+                      "code": "MATH10009",
+                      "name": "高等代数Ⅰ"
+                    },
+                    {
+                      "code": "MATH10019",
+                      "name": "高等代数II"
+                    },
+                    {
+                      "code": "MATH20004",
+                      "name": "数学分析AⅢ"
+                    },
+                    {
+                      "code": "MATH20014",
+                      "name": "常微分方程"
+                    },
+                    {
+                      "code": "MATH20015",
+                      "name": "抽象代数"
+                    }
+                  ],
+                  "checks": []
+                }
+              ]
+            },
+            "auditB": {
+              "title": "2026数学与应用数学-人工智能双学士学位项目培养方案",
+              "target": 157,
+              "passedCredits": 4,
+              "forecastCredits": 16,
+              "completedRules": 0,
+              "forecastCompletedRules": 1,
+              "totalRules": 31,
+              "pendingRecords": 1,
+              "duplicateCodes": [
+                "MATH30011"
+              ],
+              "gaps": [
+                {
+                  "module": "思政A",
+                  "id": "public:15143085",
+                  "credits": 0,
+                  "required": 12,
+                  "courses": 0,
+                  "requiredCourses": 6,
+                  "missingRequired": [
+                    {
+                      "code": "GEIP30002",
+                      "name": "习近平新时代中国特色社会主义思想概论"
+                    },
+                    {
+                      "code": "GEIP10001",
+                      "name": "马克思主义基本原理"
+                    },
+                    {
+                      "code": "GEIP10003",
+                      "name": "大学生思想文化素养"
+                    },
+                    {
+                      "code": "GEIP10002",
+                      "name": "中国共产党历史与理论"
+                    },
+                    {
+                      "code": "GEIP10004",
+                      "name": "新时代实践教育Ⅰ"
+                    },
+                    {
+                      "code": "GEIP10005",
+                      "name": "新时代实践教育Ⅱ"
+                    }
+                  ],
+                  "checks": []
+                },
+                {
+                  "module": "创新A",
+                  "id": "public:15143086",
+                  "credits": 0,
+                  "required": 2,
+                  "courses": 0,
+                  "requiredCourses": 2,
+                  "missingRequired": [
+                    {
+                      "code": "GEIP10006",
+                      "name": "大学生创新实践Ⅰ"
+                    },
+                    {
+                      "code": "GEIP10007",
+                      "name": "大学生创新实践Ⅱ"
+                    }
+                  ],
+                  "checks": []
+                },
+                {
+                  "module": "思政与创新A",
+                  "id": "public:9497468",
+                  "credits": 0,
+                  "required": 14,
+                  "courses": 0,
+                  "requiredCourses": 8,
+                  "missingRequired": [],
+                  "checks": []
+                },
+                {
+                  "module": "思政B",
+                  "id": "public:9497469",
+                  "credits": 0,
+                  "required": 2,
+                  "courses": 0,
+                  "requiredCourses": 1,
+                  "missingRequired": [],
+                  "checks": []
+                },
+                {
+                  "module": "思想政治理论课与创新课模块",
+                  "id": "public:9497467",
+                  "credits": 0,
+                  "required": 16,
+                  "courses": 0,
+                  "requiredCourses": 1,
+                  "missingRequired": [],
+                  "checks": []
+                },
+                {
+                  "module": "艺术创作与审美体验",
+                  "id": "public:9497480",
+                  "credits": 0,
+                  "required": 2,
+                  "courses": 0,
+                  "requiredCourses": 0,
+                  "missingRequired": [],
+                  "checks": []
+                },
+                {
+                  "module": "核心课程七大模块",
+                  "id": "public:9497473",
+                  "credits": 0,
+                  "required": 6,
+                  "courses": 0,
+                  "requiredCourses": 0,
+                  "missingRequired": [],
+                  "checks": []
+                },
+                {
+                  "module": "国家安全教育",
+                  "id": "public:9497482",
+                  "credits": 0,
+                  "required": 1,
+                  "courses": 0,
+                  "requiredCourses": 1,
+                  "missingRequired": [
+                    {
+                      "code": "GESS10001",
+                      "name": "大学生国家安全教育"
+                    }
+                  ],
+                  "checks": []
+                },
+                {
+                  "module": "通识教育核心课程",
+                  "id": "major:9552075",
+                  "credits": 0,
+                  "required": 23,
+                  "courses": 0,
+                  "requiredCourses": 0,
+                  "missingRequired": [],
+                  "checks": []
+                },
+                {
+                  "module": "大学英语高阶课程",
+                  "id": "public:9497495",
+                  "credits": 0,
+                  "required": 2,
+                  "courses": 0,
+                  "requiredCourses": 0,
+                  "missingRequired": [],
+                  "checks": []
+                },
+                {
+                  "module": "大学外语（B级）",
+                  "id": "public:9497491",
+                  "credits": 4,
+                  "required": 4,
+                  "courses": 2,
+                  "requiredCourses": 2,
+                  "missingRequired": [
+                    {
+                      "code": "GEEF30032",
+                      "name": "复旦大学英语水平测试"
+                    }
+                  ],
+                  "checks": []
+                },
+                {
+                  "module": "大学外语",
+                  "id": "public:9497484",
+                  "credits": 4,
+                  "required": 4,
+                  "courses": 2,
+                  "requiredCourses": 0,
+                  "missingRequired": [],
+                  "checks": [
+                    "复旦大学英语水平测试 FET"
+                  ]
+                },
+                {
+                  "module": "体育课程",
+                  "id": "public:9497512",
+                  "credits": 0,
+                  "required": 4,
+                  "courses": 0,
+                  "requiredCourses": 4,
+                  "missingRequired": [],
+                  "checks": [
+                    "四个学期体育必修"
+                  ]
+                },
+                {
+                  "module": "军事课程",
+                  "id": "public:9497513",
+                  "credits": 0,
+                  "required": 4,
+                  "courses": 0,
+                  "requiredCourses": 2,
+                  "missingRequired": [
+                    {
+                      "code": "GEND10001",
+                      "name": "军事理论"
+                    },
+                    {
+                      "code": "GEND10002",
+                      "name": "军事技能"
+                    }
+                  ],
+                  "checks": []
+                },
+                {
+                  "module": "心理健康教育课程",
+                  "id": "public:9497515",
+                  "credits": 0,
+                  "required": 1,
+                  "courses": 0,
+                  "requiredCourses": 1,
+                  "missingRequired": [],
+                  "checks": [
+                    "2 学分课程，或在线课加 16 学时实践 / 1 学分线下课"
+                  ]
+                },
+                {
+                  "module": "实验室安全教育",
+                  "id": "public:9497516",
+                  "credits": 0,
+                  "required": 0,
+                  "courses": 0,
+                  "requiredCourses": 0,
+                  "missingRequired": [],
+                  "checks": [
+                    "在线安全教育、消防培训与相应实验室准入"
+                  ]
+                },
+                {
+                  "module": "通识教育专项教育课程",
+                  "id": "major:9552088",
+                  "credits": 4,
+                  "required": 13,
+                  "courses": 2,
+                  "requiredCourses": 0,
+                  "missingRequired": [],
+                  "checks": []
+                },
+                {
+                  "module": "通识教育课程",
+                  "id": "major:9552074",
+                  "credits": 4,
+                  "required": 36,
+                  "courses": 2,
+                  "requiredCourses": 0,
+                  "missingRequired": [],
+                  "checks": []
+                },
+                {
+                  "module": "必修课程",
+                  "id": "major:9452273",
+                  "credits": 0,
+                  "required": 14,
+                  "courses": 0,
+                  "requiredCourses": 0,
+                  "missingRequired": [
+                    {
+                      "code": "MATH10010",
+                      "name": "数学分析AⅠ"
+                    },
+                    {
+                      "code": "MATH10011",
+                      "name": "数学分析AⅡ"
+                    },
+                    {
+                      "code": "CS10004",
+                      "name": "程序设计"
+                    }
+                  ],
+                  "checks": []
+                },
+                {
+                  "module": "数学类基础课（大物B）",
+                  "id": "major:9452275",
+                  "credits": 0,
+                  "required": 8,
+                  "courses": 0,
+                  "requiredCourses": 0,
+                  "missingRequired": [],
+                  "checks": []
+                },
+                {
+                  "module": "数学类基础课（大学物理）",
+                  "id": "major:9452274",
+                  "credits": 0,
+                  "required": 8,
+                  "courses": 0,
+                  "requiredCourses": 0,
+                  "missingRequired": [],
+                  "checks": []
+                },
+                {
+                  "module": "学科基础课程",
+                  "id": "major:9452272",
+                  "credits": 0,
+                  "required": 22,
+                  "courses": 0,
+                  "requiredCourses": 0,
+                  "missingRequired": [],
+                  "checks": []
+                },
+                {
+                  "module": "必修课程",
+                  "id": "major:9452278",
+                  "credits": 7,
+                  "required": 38,
+                  "courses": 2,
+                  "requiredCourses": 0,
+                  "missingRequired": [
+                    {
+                      "code": "MATH10009",
+                      "name": "高等代数Ⅰ"
+                    },
+                    {
+                      "code": "MATH10019",
+                      "name": "高等代数II"
+                    },
+                    {
+                      "code": "MATH20004",
+                      "name": "数学分析AⅢ"
+                    },
+                    {
+                      "code": "MATH20014",
+                      "name": "常微分方程"
+                    },
+                    {
+                      "code": "MATH20015",
+                      "name": "抽象代数"
+                    }
+                  ],
+                  "checks": []
+                },
+                {
+                  "module": "双学位融合必修课程",
+                  "id": "major:9452279",
+                  "credits": 3,
+                  "required": 36,
+                  "courses": 1,
+                  "requiredCourses": 0,
+                  "missingRequired": [
+                    {
+                      "code": "AIE310007",
+                      "name": "数据结构"
+                    },
+                    {
+                      "code": "AIE210006",
+                      "name": "计算机系统基础"
+                    },
+                    {
+                      "code": "AIE310005",
+                      "name": "人工智能导论"
+                    },
+                    {
+                      "code": "AIE310008",
+                      "name": "人工智能的软件基础"
+                    },
+                    {
+                      "code": "AIE410001",
+                      "name": "模式识别与机器学习"
+                    },
+                    {
+                      "code": "AIE831001",
+                      "name": "人工智能安全"
+                    },
+                    {
+                      "code": "PHIL50006",
+                      "name": "人工智能的伦理与治理"
+                    },
+                    {
+                      "code": "AIE410002",
+                      "name": "自然语言处理与大语言模型"
+                    },
+                    {
+                      "code": "AIE310004",
+                      "name": "计算机视觉"
+                    },
+                    {
+                      "code": "AIE531001",
+                      "name": "人工智能前沿探索实践"
+                    },
+                    {
+                      "code": "MATH30001",
+                      "name": "离散数学"
+                    }
+                  ],
+                  "checks": []
+                }
+              ]
+            },
+            "onlyA": [
+              "数学模型",
+              "人工智能导论",
+              "人工智能的软件基础",
+              "抽象代数II"
+            ],
+            "onlyB": [
+              "英语视听",
+              "英语论说文写作",
+              "学术英语(医学)"
+            ],
+            "changedTeachers": []
+          }
+        }
+      ],
+      "usage": {
+        "total_tokens": 55449
+      },
+      "elapsedMs": 3951
+    }
+  ],
+  "comparison": {
+    "A": {
+      "credits": 18,
+      "courses": 6,
+      "conflicts": [],
+      "unknownTimes": 0,
+      "averageDays": 3.9,
+      "peakPeriods": 21,
+      "weeks": [
+        {
+          "week": 1,
+          "days": 4,
+          "periods": 18,
+          "longestFreeBlock": 10
+        },
+        {
+          "week": 2,
+          "days": 4,
+          "periods": 18,
+          "longestFreeBlock": 10
+        },
+        {
+          "week": 3,
+          "days": 4,
+          "periods": 18,
+          "longestFreeBlock": 10
+        },
+        {
+          "week": 4,
+          "days": 4,
+          "periods": 18,
+          "longestFreeBlock": 10
+        },
+        {
+          "week": 5,
+          "days": 4,
+          "periods": 18,
+          "longestFreeBlock": 10
+        },
+        {
+          "week": 6,
+          "days": 4,
+          "periods": 21,
+          "longestFreeBlock": 10
+        },
+        {
+          "week": 7,
+          "days": 4,
+          "periods": 18,
+          "longestFreeBlock": 10
+        },
+        {
+          "week": 8,
+          "days": 4,
+          "periods": 18,
+          "longestFreeBlock": 10
+        },
+        {
+          "week": 9,
+          "days": 4,
+          "periods": 18,
+          "longestFreeBlock": 10
+        },
+        {
+          "week": 10,
+          "days": 4,
+          "periods": 18,
+          "longestFreeBlock": 10
+        },
+        {
+          "week": 11,
+          "days": 4,
+          "periods": 18,
+          "longestFreeBlock": 10
+        },
+        {
+          "week": 12,
+          "days": 4,
+          "periods": 18,
+          "longestFreeBlock": 10
+        },
+        {
+          "week": 13,
+          "days": 4,
+          "periods": 15,
+          "longestFreeBlock": 10
+        },
+        {
+          "week": 14,
+          "days": 4,
+          "periods": 21,
+          "longestFreeBlock": 10
+        },
+        {
+          "week": 15,
+          "days": 4,
+          "periods": 18,
+          "longestFreeBlock": 10
+        },
+        {
+          "week": 16,
+          "days": 3,
+          "periods": 15,
+          "longestFreeBlock": 10
+        },
+        {
+          "week": 17,
+          "days": 0,
+          "periods": 0,
+          "longestFreeBlock": 10
+        },
+        {
+          "week": 18,
+          "days": 0,
+          "periods": 0,
+          "longestFreeBlock": 10
+        },
+        {
+          "week": 19,
+          "days": 0,
+          "periods": 0,
+          "longestFreeBlock": 10
+        },
+        {
+          "week": 20,
+          "days": 0,
+          "periods": 0,
+          "longestFreeBlock": 10
+        }
+      ]
+    },
+    "B": {
+      "credits": 12,
+      "courses": 5,
+      "conflicts": [],
+      "unknownTimes": 0,
+      "averageDays": 4,
+      "peakPeriods": 14,
+      "weeks": [
+        {
+          "week": 1,
+          "days": 4,
+          "periods": 12,
+          "longestFreeBlock": 10
+        },
+        {
+          "week": 2,
+          "days": 4,
+          "periods": 12,
+          "longestFreeBlock": 10
+        },
+        {
+          "week": 3,
+          "days": 3,
+          "periods": 10,
+          "longestFreeBlock": 10
+        },
+        {
+          "week": 4,
+          "days": 4,
+          "periods": 12,
+          "longestFreeBlock": 10
+        },
+        {
+          "week": 5,
+          "days": 4,
+          "periods": 12,
+          "longestFreeBlock": 10
+        },
+        {
+          "week": 6,
+          "days": 4,
+          "periods": 12,
+          "longestFreeBlock": 10
+        },
+        {
+          "week": 7,
+          "days": 4,
+          "periods": 12,
+          "longestFreeBlock": 10
+        },
+        {
+          "week": 8,
+          "days": 5,
+          "periods": 14,
+          "longestFreeBlock": 10
+        },
+        {
+          "week": 9,
+          "days": 4,
+          "periods": 12,
+          "longestFreeBlock": 10
+        },
+        {
+          "week": 10,
+          "days": 4,
+          "periods": 12,
+          "longestFreeBlock": 10
+        },
+        {
+          "week": 11,
+          "days": 4,
+          "periods": 12,
+          "longestFreeBlock": 10
+        },
+        {
+          "week": 12,
+          "days": 4,
+          "periods": 12,
+          "longestFreeBlock": 10
+        },
+        {
+          "week": 13,
+          "days": 4,
+          "periods": 12,
+          "longestFreeBlock": 10
+        },
+        {
+          "week": 14,
+          "days": 4,
+          "periods": 12,
+          "longestFreeBlock": 10
+        },
+        {
+          "week": 15,
+          "days": 4,
+          "periods": 12,
+          "longestFreeBlock": 10
+        },
+        {
+          "week": 16,
+          "days": 4,
+          "periods": 12,
+          "longestFreeBlock": 10
+        },
+        {
+          "week": 17,
+          "days": 0,
+          "periods": 0,
+          "longestFreeBlock": 10
+        },
+        {
+          "week": 18,
+          "days": 0,
+          "periods": 0,
+          "longestFreeBlock": 10
+        },
+        {
+          "week": 19,
+          "days": 0,
+          "periods": 0,
+          "longestFreeBlock": 10
+        },
+        {
+          "week": 20,
+          "days": 0,
+          "periods": 0,
+          "longestFreeBlock": 10
+        }
+      ]
+    },
+    "auditA": {
+      "title": "2026数学与应用数学-人工智能双学士学位项目培养方案",
+      "target": 157,
+      "passedCredits": 4,
+      "forecastCredits": 22,
+      "completedRules": 0,
+      "forecastCompletedRules": 0,
+      "totalRules": 31,
+      "pendingRecords": 1,
+      "duplicateCodes": [
+        "MATH30011"
+      ],
+      "gaps": [
+        {
+          "module": "思政A",
+          "id": "public:15143085",
+          "credits": 0,
+          "required": 12,
+          "courses": 0,
+          "requiredCourses": 6,
+          "missingRequired": [
+            {
+              "code": "GEIP30002",
+              "name": "习近平新时代中国特色社会主义思想概论"
+            },
+            {
+              "code": "GEIP10001",
+              "name": "马克思主义基本原理"
+            },
+            {
+              "code": "GEIP10003",
+              "name": "大学生思想文化素养"
+            },
+            {
+              "code": "GEIP10002",
+              "name": "中国共产党历史与理论"
+            },
+            {
+              "code": "GEIP10004",
+              "name": "新时代实践教育Ⅰ"
+            },
+            {
+              "code": "GEIP10005",
+              "name": "新时代实践教育Ⅱ"
+            }
+          ],
+          "checks": []
+        },
+        {
+          "module": "创新A",
+          "id": "public:15143086",
+          "credits": 0,
+          "required": 2,
+          "courses": 0,
+          "requiredCourses": 2,
+          "missingRequired": [
+            {
+              "code": "GEIP10006",
+              "name": "大学生创新实践Ⅰ"
+            },
+            {
+              "code": "GEIP10007",
+              "name": "大学生创新实践Ⅱ"
+            }
+          ],
+          "checks": []
+        },
+        {
+          "module": "思政与创新A",
+          "id": "public:9497468",
+          "credits": 0,
+          "required": 14,
+          "courses": 0,
+          "requiredCourses": 8,
+          "missingRequired": [],
+          "checks": []
+        },
+        {
+          "module": "思政B",
+          "id": "public:9497469",
+          "credits": 0,
+          "required": 2,
+          "courses": 0,
+          "requiredCourses": 1,
+          "missingRequired": [],
+          "checks": []
+        },
+        {
+          "module": "思想政治理论课与创新课模块",
+          "id": "public:9497467",
+          "credits": 0,
+          "required": 16,
+          "courses": 0,
+          "requiredCourses": 1,
+          "missingRequired": [],
+          "checks": []
+        },
+        {
+          "module": "艺术创作与审美体验",
+          "id": "public:9497480",
+          "credits": 0,
+          "required": 2,
+          "courses": 0,
+          "requiredCourses": 0,
+          "missingRequired": [],
+          "checks": []
+        },
+        {
+          "module": "核心课程七大模块",
+          "id": "public:9497473",
+          "credits": 0,
+          "required": 6,
+          "courses": 0,
+          "requiredCourses": 0,
+          "missingRequired": [],
+          "checks": []
+        },
+        {
+          "module": "国家安全教育",
+          "id": "public:9497482",
+          "credits": 0,
+          "required": 1,
+          "courses": 0,
+          "requiredCourses": 1,
+          "missingRequired": [
+            {
+              "code": "GESS10001",
+              "name": "大学生国家安全教育"
+            }
+          ],
+          "checks": []
+        },
+        {
+          "module": "通识教育核心课程",
+          "id": "major:9552075",
+          "credits": 0,
+          "required": 23,
+          "courses": 0,
+          "requiredCourses": 0,
+          "missingRequired": [],
+          "checks": []
+        },
+        {
+          "module": "大学英语进阶课程",
+          "id": "public:9497492",
+          "credits": 0,
+          "required": 2,
+          "courses": 0,
+          "requiredCourses": 0,
+          "missingRequired": [],
+          "checks": []
+        },
+        {
+          "module": "大学英语高阶课程",
+          "id": "public:9497495",
+          "credits": 0,
+          "required": 2,
+          "courses": 0,
+          "requiredCourses": 0,
+          "missingRequired": [],
+          "checks": []
+        },
+        {
+          "module": "大学外语（B级）",
+          "id": "public:9497491",
+          "credits": 0,
+          "required": 4,
+          "courses": 0,
+          "requiredCourses": 2,
+          "missingRequired": [
+            {
+              "code": "GEEF30032",
+              "name": "复旦大学英语水平测试"
+            }
+          ],
+          "checks": []
+        },
+        {
+          "module": "大学外语",
+          "id": "public:9497484",
+          "credits": 0,
+          "required": 4,
+          "courses": 0,
+          "requiredCourses": 0,
+          "missingRequired": [],
+          "checks": [
+            "复旦大学英语水平测试 FET"
+          ]
+        },
+        {
+          "module": "体育课程",
+          "id": "public:9497512",
+          "credits": 0,
+          "required": 4,
+          "courses": 0,
+          "requiredCourses": 4,
+          "missingRequired": [],
+          "checks": [
+            "四个学期体育必修"
+          ]
+        },
+        {
+          "module": "军事课程",
+          "id": "public:9497513",
+          "credits": 0,
+          "required": 4,
+          "courses": 0,
+          "requiredCourses": 2,
+          "missingRequired": [
+            {
+              "code": "GEND10001",
+              "name": "军事理论"
+            },
+            {
+              "code": "GEND10002",
+              "name": "军事技能"
+            }
+          ],
+          "checks": []
+        },
+        {
+          "module": "心理健康教育课程",
+          "id": "public:9497515",
+          "credits": 0,
+          "required": 1,
+          "courses": 0,
+          "requiredCourses": 1,
+          "missingRequired": [],
+          "checks": [
+            "2 学分课程，或在线课加 16 学时实践 / 1 学分线下课"
+          ]
+        },
+        {
+          "module": "实验室安全教育",
+          "id": "public:9497516",
+          "credits": 0,
+          "required": 0,
+          "courses": 0,
+          "requiredCourses": 0,
+          "missingRequired": [],
+          "checks": [
+            "在线安全教育、消防培训与相应实验室准入"
+          ]
+        },
+        {
+          "module": "通识教育专项教育课程",
+          "id": "major:9552088",
+          "credits": 0,
+          "required": 13,
+          "courses": 0,
+          "requiredCourses": 0,
+          "missingRequired": [],
+          "checks": []
+        },
+        {
+          "module": "通识教育课程",
+          "id": "major:9552074",
+          "credits": 0,
+          "required": 36,
+          "courses": 0,
+          "requiredCourses": 0,
+          "missingRequired": [],
+          "checks": []
+        },
+        {
+          "module": "必修课程",
+          "id": "major:9452273",
+          "credits": 0,
+          "required": 14,
+          "courses": 0,
+          "requiredCourses": 0,
+          "missingRequired": [
+            {
+              "code": "MATH10010",
+              "name": "数学分析AⅠ"
+            },
+            {
+              "code": "MATH10011",
+              "name": "数学分析AⅡ"
+            },
+            {
+              "code": "CS10004",
+              "name": "程序设计"
+            }
+          ],
+          "checks": []
+        },
+        {
+          "module": "数学类基础课（大物B）",
+          "id": "major:9452275",
+          "credits": 0,
+          "required": 8,
+          "courses": 0,
+          "requiredCourses": 0,
+          "missingRequired": [],
+          "checks": []
+        },
+        {
+          "module": "数学类基础课（大学物理）",
+          "id": "major:9452274",
+          "credits": 0,
+          "required": 8,
+          "courses": 0,
+          "requiredCourses": 0,
+          "missingRequired": [],
+          "checks": []
+        },
+        {
+          "module": "学科基础课程",
+          "id": "major:9452272",
+          "credits": 0,
+          "required": 22,
+          "courses": 0,
+          "requiredCourses": 0,
+          "missingRequired": [],
+          "checks": []
+        },
+        {
+          "module": "必修课程",
+          "id": "major:9452278",
+          "credits": 7,
+          "required": 38,
+          "courses": 2,
+          "requiredCourses": 0,
+          "missingRequired": [
+            {
+              "code": "MATH10009",
+              "name": "高等代数Ⅰ"
+            },
+            {
+              "code": "MATH10019",
+              "name": "高等代数II"
+            },
+            {
+              "code": "MATH20004",
+              "name": "数学分析AⅢ"
+            },
+            {
+              "code": "MATH20014",
+              "name": "常微分方程"
+            },
+            {
+              "code": "MATH20015",
+              "name": "抽象代数"
+            }
+          ],
+          "checks": []
+        }
+      ]
+    },
+    "auditB": {
+      "title": "2026数学与应用数学-人工智能双学士学位项目培养方案",
+      "target": 157,
+      "passedCredits": 4,
+      "forecastCredits": 16,
+      "completedRules": 0,
+      "forecastCompletedRules": 1,
+      "totalRules": 31,
+      "pendingRecords": 1,
+      "duplicateCodes": [
+        "MATH30011"
+      ],
+      "gaps": [
+        {
+          "module": "思政A",
+          "id": "public:15143085",
+          "credits": 0,
+          "required": 12,
+          "courses": 0,
+          "requiredCourses": 6,
+          "missingRequired": [
+            {
+              "code": "GEIP30002",
+              "name": "习近平新时代中国特色社会主义思想概论"
+            },
+            {
+              "code": "GEIP10001",
+              "name": "马克思主义基本原理"
+            },
+            {
+              "code": "GEIP10003",
+              "name": "大学生思想文化素养"
+            },
+            {
+              "code": "GEIP10002",
+              "name": "中国共产党历史与理论"
+            },
+            {
+              "code": "GEIP10004",
+              "name": "新时代实践教育Ⅰ"
+            },
+            {
+              "code": "GEIP10005",
+              "name": "新时代实践教育Ⅱ"
+            }
+          ],
+          "checks": []
+        },
+        {
+          "module": "创新A",
+          "id": "public:15143086",
+          "credits": 0,
+          "required": 2,
+          "courses": 0,
+          "requiredCourses": 2,
+          "missingRequired": [
+            {
+              "code": "GEIP10006",
+              "name": "大学生创新实践Ⅰ"
+            },
+            {
+              "code": "GEIP10007",
+              "name": "大学生创新实践Ⅱ"
+            }
+          ],
+          "checks": []
+        },
+        {
+          "module": "思政与创新A",
+          "id": "public:9497468",
+          "credits": 0,
+          "required": 14,
+          "courses": 0,
+          "requiredCourses": 8,
+          "missingRequired": [],
+          "checks": []
+        },
+        {
+          "module": "思政B",
+          "id": "public:9497469",
+          "credits": 0,
+          "required": 2,
+          "courses": 0,
+          "requiredCourses": 1,
+          "missingRequired": [],
+          "checks": []
+        },
+        {
+          "module": "思想政治理论课与创新课模块",
+          "id": "public:9497467",
+          "credits": 0,
+          "required": 16,
+          "courses": 0,
+          "requiredCourses": 1,
+          "missingRequired": [],
+          "checks": []
+        },
+        {
+          "module": "艺术创作与审美体验",
+          "id": "public:9497480",
+          "credits": 0,
+          "required": 2,
+          "courses": 0,
+          "requiredCourses": 0,
+          "missingRequired": [],
+          "checks": []
+        },
+        {
+          "module": "核心课程七大模块",
+          "id": "public:9497473",
+          "credits": 0,
+          "required": 6,
+          "courses": 0,
+          "requiredCourses": 0,
+          "missingRequired": [],
+          "checks": []
+        },
+        {
+          "module": "国家安全教育",
+          "id": "public:9497482",
+          "credits": 0,
+          "required": 1,
+          "courses": 0,
+          "requiredCourses": 1,
+          "missingRequired": [
+            {
+              "code": "GESS10001",
+              "name": "大学生国家安全教育"
+            }
+          ],
+          "checks": []
+        },
+        {
+          "module": "通识教育核心课程",
+          "id": "major:9552075",
+          "credits": 0,
+          "required": 23,
+          "courses": 0,
+          "requiredCourses": 0,
+          "missingRequired": [],
+          "checks": []
+        },
+        {
+          "module": "大学英语高阶课程",
+          "id": "public:9497495",
+          "credits": 0,
+          "required": 2,
+          "courses": 0,
+          "requiredCourses": 0,
+          "missingRequired": [],
+          "checks": []
+        },
+        {
+          "module": "大学外语（B级）",
+          "id": "public:9497491",
+          "credits": 4,
+          "required": 4,
+          "courses": 2,
+          "requiredCourses": 2,
+          "missingRequired": [
+            {
+              "code": "GEEF30032",
+              "name": "复旦大学英语水平测试"
+            }
+          ],
+          "checks": []
+        },
+        {
+          "module": "大学外语",
+          "id": "public:9497484",
+          "credits": 4,
+          "required": 4,
+          "courses": 2,
+          "requiredCourses": 0,
+          "missingRequired": [],
+          "checks": [
+            "复旦大学英语水平测试 FET"
+          ]
+        },
+        {
+          "module": "体育课程",
+          "id": "public:9497512",
+          "credits": 0,
+          "required": 4,
+          "courses": 0,
+          "requiredCourses": 4,
+          "missingRequired": [],
+          "checks": [
+            "四个学期体育必修"
+          ]
+        },
+        {
+          "module": "军事课程",
+          "id": "public:9497513",
+          "credits": 0,
+          "required": 4,
+          "courses": 0,
+          "requiredCourses": 2,
+          "missingRequired": [
+            {
+              "code": "GEND10001",
+              "name": "军事理论"
+            },
+            {
+              "code": "GEND10002",
+              "name": "军事技能"
+            }
+          ],
+          "checks": []
+        },
+        {
+          "module": "心理健康教育课程",
+          "id": "public:9497515",
+          "credits": 0,
+          "required": 1,
+          "courses": 0,
+          "requiredCourses": 1,
+          "missingRequired": [],
+          "checks": [
+            "2 学分课程，或在线课加 16 学时实践 / 1 学分线下课"
+          ]
+        },
+        {
+          "module": "实验室安全教育",
+          "id": "public:9497516",
+          "credits": 0,
+          "required": 0,
+          "courses": 0,
+          "requiredCourses": 0,
+          "missingRequired": [],
+          "checks": [
+            "在线安全教育、消防培训与相应实验室准入"
+          ]
+        },
+        {
+          "module": "通识教育专项教育课程",
+          "id": "major:9552088",
+          "credits": 4,
+          "required": 13,
+          "courses": 2,
+          "requiredCourses": 0,
+          "missingRequired": [],
+          "checks": []
+        },
+        {
+          "module": "通识教育课程",
+          "id": "major:9552074",
+          "credits": 4,
+          "required": 36,
+          "courses": 2,
+          "requiredCourses": 0,
+          "missingRequired": [],
+          "checks": []
+        },
+        {
+          "module": "必修课程",
+          "id": "major:9452273",
+          "credits": 0,
+          "required": 14,
+          "courses": 0,
+          "requiredCourses": 0,
+          "missingRequired": [
+            {
+              "code": "MATH10010",
+              "name": "数学分析AⅠ"
+            },
+            {
+              "code": "MATH10011",
+              "name": "数学分析AⅡ"
+            },
+            {
+              "code": "CS10004",
+              "name": "程序设计"
+            }
+          ],
+          "checks": []
+        },
+        {
+          "module": "数学类基础课（大物B）",
+          "id": "major:9452275",
+          "credits": 0,
+          "required": 8,
+          "courses": 0,
+          "requiredCourses": 0,
+          "missingRequired": [],
+          "checks": []
+        },
+        {
+          "module": "数学类基础课（大学物理）",
+          "id": "major:9452274",
+          "credits": 0,
+          "required": 8,
+          "courses": 0,
+          "requiredCourses": 0,
+          "missingRequired": [],
+          "checks": []
+        },
+        {
+          "module": "学科基础课程",
+          "id": "major:9452272",
+          "credits": 0,
+          "required": 22,
+          "courses": 0,
+          "requiredCourses": 0,
+          "missingRequired": [],
+          "checks": []
+        },
+        {
+          "module": "必修课程",
+          "id": "major:9452278",
+          "credits": 7,
+          "required": 38,
+          "courses": 2,
+          "requiredCourses": 0,
+          "missingRequired": [
+            {
+              "code": "MATH10009",
+              "name": "高等代数Ⅰ"
+            },
+            {
+              "code": "MATH10019",
+              "name": "高等代数II"
+            },
+            {
+              "code": "MATH20004",
+              "name": "数学分析AⅢ"
+            },
+            {
+              "code": "MATH20014",
+              "name": "常微分方程"
+            },
+            {
+              "code": "MATH20015",
+              "name": "抽象代数"
+            }
+          ],
+          "checks": []
+        },
+        {
+          "module": "双学位融合必修课程",
+          "id": "major:9452279",
+          "credits": 3,
+          "required": 36,
+          "courses": 1,
+          "requiredCourses": 0,
+          "missingRequired": [
+            {
+              "code": "AIE310007",
+              "name": "数据结构"
+            },
+            {
+              "code": "AIE210006",
+              "name": "计算机系统基础"
+            },
+            {
+              "code": "AIE310005",
+              "name": "人工智能导论"
+            },
+            {
+              "code": "AIE310008",
+              "name": "人工智能的软件基础"
+            },
+            {
+              "code": "AIE410001",
+              "name": "模式识别与机器学习"
+            },
+            {
+              "code": "AIE831001",
+              "name": "人工智能安全"
+            },
+            {
+              "code": "PHIL50006",
+              "name": "人工智能的伦理与治理"
+            },
+            {
+              "code": "AIE410002",
+              "name": "自然语言处理与大语言模型"
+            },
+            {
+              "code": "AIE310004",
+              "name": "计算机视觉"
+            },
+            {
+              "code": "AIE531001",
+              "name": "人工智能前沿探索实践"
+            },
+            {
+              "code": "MATH30001",
+              "name": "离散数学"
+            }
+          ],
+          "checks": []
+        }
+      ]
+    },
+    "onlyA": [
+      "数学模型",
+      "人工智能导论",
+      "人工智能的软件基础",
+      "抽象代数II"
+    ],
+    "onlyB": [
+      "英语视听",
+      "英语论说文写作",
+      "学术英语(医学)"
+    ],
+    "changedTeachers": []
+  },
+  "sourceSnapshot": "2026-10-31 · 网站 v39"
+}

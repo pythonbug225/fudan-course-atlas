@@ -1,0 +1,123 @@
+<!doctype html><html lang="zh-CN"><meta charset="utf-8"><title>财务大数据分析与AI应用</title><body><h1>财务大数据分析与AI应用</h1><p>2026秋 · BA50006.01 · 杨德天</p><p>来源：复旦教务系统教学大纲，本轮使用已授权账号下载。原始正文与考核信息；去除联系方式和网页脚本，内嵌图片按原字节去重保存。</p><h2>课程简介（中文）</h2><p><span>《财务大数据分析与AI应用》是面向会计、财务及相关商科本科生的专业进阶课程。课程站在企业公开披露信息的外部使用者（投资者、银行、监管者、客户、供应商和消费者等）视角，介绍财务与会计领域的结构化和非结构化大数据及其常用分析方法。内容涵盖Python与Pandas基础、财务报表数据获取与分析、机器学习识别财务舞弊，以及年度报告、电话会议、重大事项披露、社交媒体和ESG报告等文本数据的获取与分析。课程强调财会领域知识、结果解释和既有工具的恰当使用，不以算法开发或复杂编程为重点，并简要介绍DeepSeek等生成式AI工具在财务大数据分析中的应用。</span></p><h2>课程简介（英文）</h2><p><span>Financial Big Data Analytics and AI Applications is an advanced undergraduate course designed for students majoring in accounting, finance, and related business disciplines. From the perspective of external users of corporate public disclosures—including investors, banks, regulators, customers, suppliers, and consumers—the course introduces structured and unstructured big data in accounting and finance, along with commonly used analytical methods.</span></p>
+<p><br><span>The course covers the fundamentals of Python and Pandas, the acquisition and analysis of financial statement data, the use of machine learning to identify financial fraud, and the acquisition and analysis of textual data from annual reports, earnings conference calls, material event disclosures, social media, and ESG reports. The course emphasizes domain knowledge in accounting and finance, appropriate interpretation of analytical results, and the effective use of existing analytical tools, rather than algorithm development or advanced programming. It also provides a brief introduction to the application of generative AI tools, such as DeepSeek, in financial big data analytics.</span></p><h2>教学目标</h2><p><span>本课程旨在培养能够以财会领域知识驾驭数据与人工智能工具的学生，重点实现以下目标：</span></p>
+<p><span><strong>• 价值引领</strong>：形成数据伦理、信息安全和责任型AI意识，理解分析模型与生成式AI不能替代财会专业判断和审慎责任。</span><br><span><span><strong>• 知识传授</strong>：理解财务报表及多类公司文本披露的数据结构与获取方式，掌握Python、Pandas、财务报表分析、基础机器学习和文本分析的核心概念与流程</span><span>。</span></span><br><span><span><strong>• 能力培养</strong>：能够围绕外部信息使用者的真实问题，完成结构化或非结构化数据的获取、清洗、分析、结果核验与专业解释，并形成规范的分析报告</span><span>。</span></span></p><h2>教学方式</h2><p><span>课程采用“领域问题—数据结构—分析方法—专业解释”的组织方式，具体包括：</span></p>
+<ul>
+<li><span><strong> </strong><strong>讲授与示范相结合：</strong>围绕核心概念、数据结构与分析框架开展讲授，并用Jupyter Notebook演示必要的Python和Pandas操作；代码服务于分析，不作为课程重点。</span></li>
+<li><span><strong> </strong><strong>案例讨论与课堂互动：</strong>基于财务报表、年报、电话会议、重大事项、社交媒体和ESG报告等真实财务与会计大数据，引导学生从外部使用者视角提出问题、解释结果。演示DeepSeek等工具在代码辅助、文本处理和结果表达中的简要应用，要求学生核验来源、方法和输出，保留专业判断。</span></li>
+<li><span><strong>作业与课程报告：</strong>通过分阶段作业训练数据获取、清洗、建模和文本分析，并在期末课程报告中综合呈现分析过程、证据与结论。</span></li>
+</ul>
+<p><span>课程配套答疑、作业讲评与项目工作坊，强调教师引导、学生主体、实践驱动与持续反馈。</span></p><h2>教学内容与进度安排</h2><table>
+<tbody>
+<tr>
+<td>
+<p><span>本课程教学进度安排如下：</span></p>
+<p><span>第1周 第1章 财务与会计中的大数据分析</span></p>
+<ul>
+<li><span>教学内容：大数据用于决策的发展；外部信息使用者视角；结构化与非结构化数据；领域知识；理论驱动与机器学习驱动方法。</span></li>
+<li><span>教学目标：识别财务与会计大数据的主要类型、来源和应用场景，理解财会领域知识在数据分析中的相对优势。</span></li>
+<li><span>课后作业：选择一类公司公开披露数据，说明其结构、潜在使用者和可回答的财务问题。</span></li>
+</ul>
+<p><span>第2周 第2章 Python基础快速入门</span></p>
+<ul>
+<li><span>教学内容：Jupyter Notebook、变量与数据类型、运算符、条件与循环、函数和模块；运行与修改现有代码。</span></li>
+<li><span>教学目标：读懂并运行完成财务数据处理所需的基础Python代码，形成可复现的Notebook操作习惯。</span></li>
+<li><span>课后作业：完成Python基础与Notebook练习。</span></li>
+</ul>
+<p><span>第3周 第3章 财务大数据分析利器——Pandas库（上）</span></p>
+<ul>
+<li><span>教学内容： DataFrame、文件读取与写入、索引与筛选、数据类型、数据表拼接、合并、分组聚合、重塑与结果导出等。</span></li>
+<li><span>教学目标：能够将Excel/CSV等财务数据导入DataFrame并完成基本清洗与筛选；能够组合多来源财务数据并形成可重复使用的数据处理流程。</span></li>
+<li><span>课后作业：清洗并整理给定财务数据；使用Pandas完成多表合并与汇总分析。</span></li>
+</ul>
+<p><span>第4周 第4章 结构化数据——财务报表及其数据获取</span></p>
+<ul>
+<li><span>教学内容：资产负债表、利润表、现金流量表和所有者权益变动表的数据结构；公开披露平台、数据库或接口的数据获取与字段匹配。</span></li>
+<li><span>教学目标：理解主要财务报表的结构与勾稽关系，能够获取并整理指定公司的结构化财务数据。</span></li>
+<li><span>课后作业：获取指定公司及期间的财务报表数据并完成字段核对。</span></li>
+</ul>
+<p><span>第5周 第5章 财务可视化基础——Matplotlib库</span></p>
+<ul>
+<li><span>教学内容：Matplotlib基本图形绘制、可视化小技巧和财务可视化案例实战。</span></li>
+<li><span>教学目标：掌握Matplotlib库的基本使用方法；能够应用Matplotlib库绘制财务数据可视化图表；熟悉股票K线图的绘制方法和技巧；能够应用Matplotlib库绘制财务数据可视化图表。</span></li>
+<li><span>课后作业：按要求绘制财务可视化图表。</span></li>
+</ul>
+<p><span>第6周 第6章 分析财务报表（上）</span></p>
+<ul>
+<li><span>教学内容：盈利、运营、偿债和成长能力指标；静态分析、趋势分析与同业比较。</span></li>
+<li><span>教学目标：能够计算并解释核心财务指标，结合时间和行业基准识别经营与财务特征。</span></li>
+<li><span>课后作业：完成指定公司的财务比率、趋势与同业比较分析。</span></li>
+</ul>
+<p><span>第7周 第6章 分析财务报表（下）</span></p>
+<ul>
+<li><span>教学内容：现金流量表进阶指标、自由现金流、现金流画像和杜邦分析；多指标综合解释。</span></li>
+<li><span>教学目标：能够将利润、资产负债和现金流信息结合起来，对公司财务状况作整体判断。</span></li>
+<li><span>课后作业：完成现金流与杜邦分析简报。</span></li>
+</ul>
+<p><span>第8周 第7章 机器学习及其在识别财务舞弊中的应用（上）</span></p>
+<ul>
+<li><span>教学内容：监督学习流程、训练集与测试集、特征与标签、决策树及集成模型、分类评估指标。</span></li>
+<li><span>教学目标：理解财务舞弊分类模型的基本流程，能够比较模型输出并解释准确率、召回率等指标。</span></li>
+<li><span>课后作业：使用给定特征训练并评估基础舞弊识别模型。</span></li>
+</ul>
+<p><span>第9周 第7章 机器学习及其在识别财务舞弊中的应用（下）</span></p>
+<ul>
+<li><span>教学内容：样本不平衡、过采样、交叉验证、参数调优、模型解释及舞弊红旗信号。</span></li>
+<li><span>教学目标：能够评价舞弊识别模型的可靠性和局限，将预测结果转化为审计或投资分析线索。</span></li>
+<li><span>课后作业：完成舞弊识别模型比较与专业解释。</span></li>
+</ul>
+<p><span>第10周 第8章 非结构化数据——上市公司年度报告中的文本</span></p>
+<ul>
+<li><span>教学内容：年度报告及监管申报文件的结构、重点文本区段、下载、解析、清洗与语料构建。</span></li>
+<li><span>教学目标：识别年度报告中具有决策价值的文本区段，并将原始文档转换为可分析文本数据。</span></li>
+<li><span>课后作业：获取并解析指定公司的年度报告文本。</span></li>
+</ul>
+<p><span>第11周 第9章 分析上市公司年度报告中的文本</span></p>
+<ul>
+<li><span>教学内容：关键词与词典法、词频、可读性、语调与情感、主题模型及结果的财务解释。</span></li>
+<li><span>教学目标：能够构造基础文本指标，评价其与公司经营、风险和资本市场判断之间的联系。</span></li>
+<li><span>课后作业：完成一份年度报告文本分析。</span></li>
+</ul>
+<p><span>第12周 第10章 文本分析中的新兴AI技术</span></p>
+<ul>
+<li><span>教学内容：文本机器学习流程、词与句子表示、预训练模型、BERT、提示词工程、大语言模型及人机协作。</span></li>
+<li><span>教学目标：理解新兴AI文本技术的用途与边界，能够设计提示词并核验生成式AI的分析结果。</span></li>
+<li><span>课后作业：使用生成式AI完成一项文本分析任务，并提交核验记录。</span></li>
+</ul>
+<p><span>第13周 第11章 非结构化数据——上市公司电话会议</span></p>
+<ul>
+<li><span>教学内容：电话会议记录的数据结构、管理层陈述与问答环节、说话人和语境特征，以及NLP和生成式AI应用。</span></li>
+<li><span>教学目标：能够从电话会议文本中提取语调、主题和语境信息，并解释其对外部使用者的价值。</span></li>
+<li><span>课后作业：比较同一场电话会议陈述与问答环节的文本特征。</span></li>
+</ul>
+<p><span>第14周 第12章 非结构化数据——上市公司重大事项披露</span></p>
+<ul>
+<li><span>教学内容：重大事项披露的类型、时效性和文本结构；事件分类、信息抽取及披露策略案例。</span></li>
+<li><span>教学目标：能够整理重大事项文本并识别事件类别、关键信息及潜在资本市场含义。</span></li>
+<li><span>课后作业：构建小型重大事项数据集并完成分类分析。</span></li>
+</ul>
+<p><span>第15周 第13章 非结构化数据——社交媒体</span></p>
+<ul>
+<li><span>教学内容：社交媒体平台与用户生成内容、数据获取、情感与主题、同业信息传播，以及样本偏差和噪声。</span></li>
+<li><span>教学目标：能够评价社交媒体信号的及时性、代表性和可信度，并与公司正式披露进行交叉验证。</span></li>
+<li><span>课后作业：完成一项与公司相关的社交媒体文本分析。</span></li>
+</ul>
+<p><span>第16周 第14章 非结构化数据——ESG报告</span></p>
+<ul>
+<li><span>教学内容：ESG报告的结构与文本指标、议题识别、可比性、选择性披露和漂绿风险；AI辅助摘要与核验。</span></li>
+<li><span>教学目标：能够提取和比较ESG披露信息，并将文本结论与财务表现、治理和风险分析结合。</span></li>
+<li><span>课后作业：比较两家公司的ESG报告并形成分析备忘录。</span></li>
+</ul>
+<p><span>第17周 综合复习与期末课程报告</span></p>
+<ul>
+<li><span>教学内容：整合结构化与非结构化数据分析流程，讨论选题、数据、方法、结果解释、AI使用披露和报告规范。</span></li>
+<li><span>教学目标：形成从财务问题、数据获取、分析方法到专业结论的完整证据链，完善期末课程报告。</span></li>
+</ul>
+<p><span>第18周 期末课程报告</span></p>
+<ul>
+<li><span>考核形式：期末课程报告，占总评成绩40%。</span></li>
+<li><span>考核内容：围绕真实财务或会计问题提交完整报告，说明数据来源、分析过程、结果核验、专业解释与局限。</span></li>
+</ul>
+</td>
+</tr>
+</tbody>
+</table><h2>教学参考资料</h2><p><span>1、Analytics for Finance and Accounting: Data Structures and Applied AI, Sean Cao, Wei Jiang, and Lijun Lei, SmartLearn Publishing, 2025, ISBN: 9781967109166</span><br><span>2、《AI+金融财务导论》，曹顺、姜玮、雷力君、许年行著，中国人民大学出版社，2026年4月，ISBN：9787300348803</span><br><span>3、《大数据财务分析——基于Python》，张敏、王宇韬著，中国人民大学出版社，2022年6月，ISBN：9787300303864</span></p><h2>考核与成绩构成</h2><table><tr><th>项目</th><th>比例</th><th>评定说明</th></tr><tr><td>课堂表现Participation</td><td>30.0%</td><td>按时出席、积极参与课堂讨论</td></tr><tr><td>作业/实验/实践Assignment</td><td>30.0%</td><td>认真独立完成作业、按时提交</td></tr><tr><td>期末考试Final Examination：其他</td><td>40.0%</td><td>期末课程报告</td></tr></table></body></html>

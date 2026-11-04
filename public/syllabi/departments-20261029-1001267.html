@@ -1,0 +1,90 @@
+<!doctype html><html lang="zh-CN"><meta charset="utf-8"><body><h1>统计计算</h1><p>2025秋 · STAT30024.01 · 蒋斐宇</p><p>来源：复旦教务系统教学大纲；正文整理。</p><h2>课程简介（中文）</h2><div style="white-space:pre-wrap">本课程主要教授经典和现代统计计算方法，包括优化方法、数值计算和统计抽样等内容，旨在培养和锻炼学生使用统计计算方法分析和解决问题的实际能力。</div><h2>课程简介（英文）</h2><div style="white-space:pre-wrap">This course primarily teaches classical and modern statistical computational methods, including optimization techniques, numerical computation, and statistical sampling, aiming to develop and enhance students&#x27; practical ability to analyze and solve problems using statistical computational approaches.</div><h2>教学目标</h2><div style="white-space:pre-wrap">学生在解决统计问题时，学生能够熟练使用非线性优化和组合优化方法来解决函数型优化和求解问题，能够指出各种优化方法的适用情况和优缺点；在需要使用数值方法进行积分或近似运算时能够使用诸如黎曼法、梯形法、蒙特卡罗方法等进行数值计算，并指出各方法的优劣。
+
+在缺失数据的模型框架下，学生能够使用EM算法给出缺失数据模型的相应参数的统计推断，包括参数估计、参数的方差估计、参数的统计推断。
+
+针对不同的随机变量分布，学生能够指出包括重要性抽样、马尔科夫链的重要性抽样、重要性重抽样等在内的经典抽样方法的适用范围，并能够在计算机中使用软件复现上述抽样方法。
+
+   学生在进行统计推断问题时，能够对一般的参数模型使用参数自助法给出参数的方差估计，能够使用自助法构建相对应统计推断问题的统计检验结果。
+
+   学生能够复述出MCMC中的经典概念，例如Gibbs抽样，M-H算法等。</div><h2>教学方式</h2><div style="white-space:pre-wrap">授课为主</div><h2>教学内容与进度安排</h2><div style="white-space:pre-wrap">1、    介绍课程的课时安排、对学生的预修课程要求以及考核等相关事项+单变量非线性优化问题1。
+1.1    介绍本课程设计的基本内容
+1.2    介绍本课程所涉及的一些重要数学背景（简略），包括大O和小o的使用，泰勒展开，似然函数、贝叶斯统计等知识。
+1.3 单变量优化的二分法
+1.4 单变量优化的牛顿法
+
+2、    单变量的（无约束）非线性优化问题2
+2.1 MLE中的牛顿法：Fisher得分
+2.2 割线法
+2.3 不动点法
+
+3、    多变量的非线性优化问题
+3.1 牛顿法和Fisher得分
+3.2 伪牛顿法及牛顿法的各种变形
+
+4、    梯度下降
+4.1 随机梯度下降
+4.2 小批量优化及正则化
+4.3 Momentum/Adam
+
+5、    组合优化方法及模拟退火
+5.1 组合优化方法的背景
+5.2 模拟退火法
+
+6、    遗传算法
+6.1 遗传算法的背景知识
+6.2 遗传算法的变种
+6.3 初始值的选取和收敛准则的选取
+
+7、    禁忌搜索算法
+7.1 禁忌算法的背景
+7.2 禁忌列表和藐视准则
+7.3 泛化方法和变形方法
+
+8、    EM算法1
+8.1 缺失数据、似然函数等背景介绍
+8.2 EM算法的基础概念和收敛保证
+8.3 EM算法的方差估计
+
+9、    EM算法2
+9.1 对E步的提升：蒙特卡洛E
+9.2 对M步的提升：ECM 和 EM Gradient
+9.3 加速方法
+
+10、    数值积分
+10.1 牛顿法、梯形准则和Simpson准则
+10.2 Romberg积分
+10.3高斯积分
+
+11、    数值积分和蒙特卡洛方法
+11.1 数值积分中的常见操作指南
+11.2蒙特卡洛方法介绍
+11.3伪随机数的生成
+11.4产生非均匀分布的随机变量
+
+12、    蒙特卡洛方法2和随机数生成
+12.1拒绝抽样法
+12.2 多元随机数的生成
+12.3 抽样重抽样法
+
+13、    蒙特卡洛方法3
+13.1 序贯蒙特卡洛
+13.2 降低方差的方法
+
+14、    自助法
+14.1 自助法的背景知识
+14.2 参数自助法和非参数自助法
+
+15、    自助法的进阶
+15.1 基于自助法的统计推断
+15.2相依数据的自助法
+
+16、    MCMC选讲*
+16.1 贝叶斯统计简洁、先验、后验和共轭分布
+16.2 M-H算法
+16.3 Gibbs 抽样
+
+*课程内容可能因课程进度、放假、调休等因素进行删减。</div><h2>教学参考资料</h2><div style="white-space:pre-wrap">[1]. James E. Gentle (2009) Computational Statistics, Springer.
+
+[2]. Maria L. Rizzo (2019) Statistical Computing with R, 2nd Edition, CRC Press.
+
+[3].李东风，统计计算，高等教育出版社</div><h2>教材（教务大纲）</h2><div style="white-space:pre-wrap">书名：Computational Statistics (2nd Edition)；作者：Geof Givens &amp; Jennifer Hoeting；出版社：Wiley；出版时间：2012-11；ISBN：9780470533314</div><h2>考核方式</h2><div style="white-space:pre-wrap">课堂表现Participation 5.0%（点名及回答）；作业/实验/实践Assignment 35.0%（提交程序代码）；汇报Presentation 15.0%（小组展示）；期末考试Final Examination：开卷  45.0%</div><h2>考核构成</h2><ul><li>课堂表现Participation 5.0% 点名及回答</li><li>作业/实验/实践Assignment 35.0% 提交程序代码</li><li>汇报Presentation 15.0% 小组展示</li><li>期末考试Final Examination：开卷 45.0% </li></ul></body></html>

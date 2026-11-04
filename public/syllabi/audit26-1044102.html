@@ -1,0 +1,202 @@
+<!doctype html><html lang="zh-CN"><meta charset="utf-8"><title>生成式人工智能技术基础</title><body><h1>生成式人工智能技术基础</h1><p>2026秋 · MSE30003.01 · 陈刚</p><p>来源：复旦教务系统教学大纲，本轮使用已授权账号下载。原始正文与考核信息；去除联系方式和网页脚本，内嵌图片按原字节去重保存。</p><h2>课程简介（中文）</h2><p>本课程聚焦大模型前沿技术，结合中国AI商业实践，帮助学生掌握大模型基础技术原理、训练流程及开发和应用策略，理解面向商业需求的大模型建模原理，提升利用大模型技术进行商业价值创造的能力。课程主要内容包括：Transformer架构、监督微调、偏好对齐、智能体开发，结合Skills、MCP和企业案例开展实验，培养学生面向商业问题解决的设计、实现与评价生成式人工智能的能力。</p><h2>课程简介（英文）</h2><p>This course focuses on advanced large language model (LLM) technologies and draws on AI business practices in China. It equips students with an understanding of the fundamental principles, training processes, and development and application strategies of LLMs. Students learn to design models around business needs and apply LLM technologies to create business value. Key topics include Transformer architectures, supervised fine-tuning, preference alignment, and agent development. Through hands-on experiments incorporating Skills, MCP, and enterprise case studies, students develop the ability to design, implement, and evaluate generative AI solutions to business problems.</p><h2>教学目标</h2><p>1.价值引领：理解生成式人工智能的商业价值与责任边界，形成数据合规、结果核验和人机协同意识。</p>
+<p>2.知识掌握：理解Transformer及语言、视觉、多模态模型，掌握知识增强、参数适配、偏好对齐、训练推理优化、蒸馏与智能体的基本原理。</p>
+<p>3.能力培养：能将管理问题转化为技术任务，选择适当模型与工具，完成可复现的实验和企业应用原型，并评价效果、成本及局限。</p><h2>教学方式</h2><p>本课程采用以下教学方式：</p>
+<p>（1）原理讲授与算例：围绕输入表示、学习目标、计算过程和评价指标，讲解核心机制，并通过张量尺寸、损失函数和参数量等练习检验理解。</p>
+<p>（2）管理情境分析：以记忆、联想、预期和调节等概念组织问题讨论，分析其与知识检索、信息关联、任务规划和反馈改进的联系；区分管理学解释与模型计算机制。</p>
+<p>（3）理论与实验衔接：将核心技术原理与上机实验相结合，引导学生通过模型实现、对比实验与错误分析，加深对技术机制及其适用条件的理解，培养将理论知识转化为商业问题解决方案的能力。</p>
+<p>（4）小组协作与案例研讨：围绕知识问答、多模态业务分析和报表自动化开展需求拆解、方案设计、工具调用与结果核验。</p>
+<p> </p>
+<p> </p><h2>教学内容与进度安排</h2><table>
+<tbody>
+<tr>
+<td>
+<p><strong>教学周</strong></p>
+</td>
+<td>
+<p><strong>教学内容</strong></p>
+</td>
+<td>
+<p><strong>作业与验收</strong></p>
+</td>
+</tr>
+<tr>
+<td>
+<p>第1周</p>
+</td>
+<td>
+<p><strong>① Transformer</strong><strong>基础</strong><br>Token、词嵌入与位置编码；自注意力与多头注意力机制；编码器、解码器及编码器—解码器结构。</p>
+</td>
+<td>
+<p>完成自注意力计算练习，标注关键张量的维度，绘制模型信息流图。</p>
+</td>
+</tr>
+<tr>
+<td>
+<p>第2周</p>
+</td>
+<td>
+<p><strong>第1—2节：② 语言Transformer</strong><br>BERT与GPT的模型结构、训练目标及典型应用；上下文学习的基本机制与适用条件。<br><strong>第3—4节：实验1——语言模型调用与评价</strong><br>比较不同提示方式与采样配置对输出的影响，建立固定测试集。</p>
+</td>
+<td>
+<p>提交模型调用代码、测试样本、运行配置和评价结果；说明数据来源及工具使用规范。</p>
+</td>
+</tr>
+<tr>
+<td>
+<p>第3周</p>
+</td>
+<td>
+<p><strong>③ </strong><strong>视觉Transformer</strong><br>图像分块与Patch嵌入；ViT的基本结构及其在图像分类、目标检测和语义分割中的应用。<br><strong>④ </strong><strong>多模态Transformer（上）</strong><br>图文表示、跨模态对齐与信息融合；CLIP的训练目标与应用方式。</p>
+</td>
+<td>
+<p>计算不同图像尺寸与分块设置下的序列长度，绘制图文对齐流程图。</p>
+</td>
+</tr>
+<tr>
+<td>
+<p>第4周</p>
+</td>
+<td>
+<p><strong>第1—2节：④ 多模态Transformer（下）</strong><br>视觉语言模型的基本结构；图像问答与跨模态生成。<br><strong>第3—4节：实验2——视觉与多模态模型应用</strong><br>围绕相同业务任务，比较图文输入与纯文本输入的结果。</p>
+</td>
+<td>
+<p>提交样本来源、输入配置和对比结果；归纳至少两类失败案例，分析其原因与改进方向。</p>
+</td>
+</tr>
+<tr>
+<td>
+<p>第5周</p>
+</td>
+<td>
+<p><strong>⑤ </strong><strong>检索增强生成（RAG）</strong><br>知识库构建、文档切分、向量检索与生成；检索重排、来源引用与效果评价；GraphRAG与Agentic RAG概览。</p>
+</td>
+<td>
+<p>设计知识库结构与文档切分方案，提出检索和回答质量的评价指标及来源核验方法。</p>
+</td>
+</tr>
+<tr>
+<td>
+<p>第6周</p>
+</td>
+<td>
+<p><strong>第1—2节：⑥ Prompt Tuning</strong><br>人工提示与可学习软提示的区别；Prompt Tuning、Prefix Tuning与P-Tuning的基本原理及适用条件。<br><strong>第3—4节：实验3——企业知识库问答</strong><br>构建小型知识库，比较无检索与使用RAG时的回答质量。</p>
+</td>
+<td>
+<p>提交知识库说明、问答测试集、回答及引用结果；分析检索与生成环节的典型错误，开展阶段讨论。</p>
+</td>
+</tr>
+<tr>
+<td>
+<p>第7周</p>
+</td>
+<td>
+<p><strong>⑦ </strong><strong>监督微调（SFT）</strong><br>指令数据构建、监督学习目标及训练集与验证集划分；LoRA的基本原理与参数高效微调方法。</p>
+</td>
+<td>
+<p>提交指令数据样例与数据划分方案，完成LoRA可训练参数量计算，说明微调效果的评价方法。</p>
+</td>
+</tr>
+<tr>
+<td>
+<p>第8周</p>
+</td>
+<td>
+<p><strong>第1—2节：⑧ RLHF与偏好对齐</strong><br>人类反馈、偏好数据与奖励模型；PPO、DPO和GRPO的基本思路；偏好信号与规则奖励的适用条件。<br><strong>第3—4节：实验4——提示调优与监督微调</strong><br>在统一任务与测试集上，比较基线模型与软提示调优或LoRA-SFT的结果。</p>
+</td>
+<td>
+<p>提交数据划分、实验配置、训练曲线或运行记录及评价表；说明采用实际训练还是预计算结果分析，并讨论效果差异。</p>
+</td>
+</tr>
+<tr>
+<td>
+<p>第9周</p>
+</td>
+<td>
+<p><strong>⑨ </strong><strong>大模型推理方法</strong><br>思维链（CoT）、思维树（ToT）与结构化推理；任务分解、候选路径探索和结果验证。</p>
+</td>
+<td>
+<p>围绕同一业务问题，比较直接回答、思维链与思维树的表现；分析回答质量、计算成本及适用条件。</p>
+</td>
+</tr>
+<tr>
+<td>
+<p>第10周</p>
+</td>
+<td>
+<p><strong>第1—2节：⑩ 知识蒸馏</strong><br>教师模型与学生模型；硬标签、软标签及推理轨迹蒸馏；蒸馏效果与应用成本评价。<br><strong>第3—4节：实验5——偏好优化与知识蒸馏对比</strong><br>基于小规模实验或预计算结果，比较偏好优化与教师输出蒸馏的效果。</p>
+</td>
+<td>
+<p>提交偏好数据与蒸馏数据样例、实验配置和统一测试集上的评价结果；分析两类方法的目标差异及质量与成本的权衡。</p>
+</td>
+</tr>
+<tr>
+<td>
+<p>第11周</p>
+</td>
+<td>
+<p><strong>⑪</strong><strong> Agent</strong><strong>基础（上）</strong><br>智能体的规划、记忆、工具调用与反馈机制；知识库与工具库的作用；MCP与工具连接，包括工具发现、调用流程、权限控制和失败处理。</p>
+</td>
+<td>
+<p>围绕企业应用场景绘制Agent工作流，明确输入输出、工具接口、权限边界与异常处理方式。</p>
+</td>
+</tr>
+<tr>
+<td>
+<p>第12周</p>
+</td>
+<td>
+<p><strong>第1—2节：</strong><strong>⑪</strong><strong> Agent</strong><strong>基础（下）</strong><br>Skills与流程编排；技能封装、渐进式加载、输入输出约定及标准操作流程（SOP）。<br><strong>第3—4节：实验6（第一阶段）——智能体项目准备</strong><br>配置实验环境，准备模拟业务数据与工具，编写SKILL.md并验证接口。</p>
+</td>
+<td>
+<p>提交项目结构、数据说明、Skill初稿、接口测试结果及问题清单；开展阶段讨论并完善实施方案。</p>
+</td>
+</tr>
+<tr>
+<td>
+<p>第13周</p>
+</td>
+<td>
+<p><strong>⑪</strong><strong> Agent</strong><strong>可靠性与结果核验</strong><br>输入检查、确定性计算、证据追溯、异常恢复与人工复核；面向业务任务的测试与验收方法。</p>
+</td>
+<td>
+<p>制定项目测试与验收方案，覆盖正常输入、异常输入和工具调用失败等情况，明确结果核验与人工介入条件。</p>
+</td>
+</tr>
+<tr>
+<td>
+<p>第14周</p>
+</td>
+<td>
+<p><strong>第1—2节：智能体集成与报表生成</strong><br>串联数据获取、指标计算、证据分析与文档生成流程；明确报告结构、来源追溯和质量检查要求。<br><strong>第3—4节：实验6（第二阶段）——报表自动化实现</strong><br>在90分钟内完成取数、计算、证据分析、模板生成与异常拦截，形成可编辑、可追溯的经营报告。</p>
+</td>
+<td>
+<p>提交可运行代码、Skill、经营报告及运行记录；展示至少一项异常拦截或故障恢复结果，并根据讲评完善系统。</p>
+</td>
+</tr>
+<tr>
+<td>
+<p>第15周</p>
+</td>
+<td>
+<p><strong>商业方案评价与项目研讨</strong><br>结合记忆、联想、预期与调节等管理学概念，分析智能体的业务作用，并区分管理学解释与模型计算机制；从质量、成本和业务价值等维度评价方案，说明技术选择的依据与局限。</p>
+</td>
+<td>
+<p>提交方案评价材料、个人贡献说明及修订记录；根据同伴反馈完善项目与汇报材料。</p>
+</td>
+</tr>
+<tr>
+<td>
+<p>第16周</p>
+</td>
+<td>
+<p><strong>小组项目汇报与课程总结</strong><br>汇报业务需求、技术方案、实验结果与应用价值，讨论方案局限及改进方向。</p>
+</td>
+<td>
+<p>提交最终代码、Skill、报告、测试结果及失败与恢复记录；结合小组汇报、现场演示和个人贡献说明完成综合评价。</p>
+</td>
+</tr>
+</tbody>
+</table>
+<p> </p><h2>教学参考资料</h2><p>[1] 田永林, 张亚洲, 王飞跃. 大模型算法基础: Transformers原理与应用[M]. 北京: 清华大学出版社, 2025.</p>
+<p>[2] 梁楠. 从零构建大模型: 算法、训练与微调[M]. 北京: 清华大学出版社, 2025.</p>
+<p>[3] 代晶. Agent Skills开发实战: 像搭积木一样构建智能体[M]. 北京: 人民邮电出版社, 2026.</p><h2>考核与成绩构成</h2><table><tr><th>项目</th><th>比例</th><th>评定说明</th></tr><tr><td>出勤Attendance</td><td>5.0%</td><td>课前签到，按出勤比率评分</td></tr><tr><td>课堂表现Participation</td><td>5.0%</td><td>按照课堂发言、参与课堂讨论程度评分</td></tr><tr><td>作业/实验/实践Assignment</td><td>15.0%</td><td>布置课后作业并要求提交，按照提交的作业质量进行评分</td></tr><tr><td>课题研讨Topic Discussion</td><td>10.0%</td><td>按照小组讨论与案例分析参与度进行评分</td></tr><tr><td>汇报Presentation</td><td>15.0%</td><td>按照技术解决方案的创新性、严谨性、商业应用价值进行评分</td></tr><tr><td>期末考试Final Examination：其他</td><td>50.0%</td><td>学生独立完成课程论文或个人项目，二选一。课程论文应围绕课程相关问题，完成问题界定、文献梳理、方法分析及实验或案例验证；个人项目应完成需求分析、方案设计、系统实现与效果评价，并提交代码、运行说明及项目报告。两类成果均根据问题的明确性、技术原理运用的准确性、分析与验证的严谨性、成果完整性及独立贡献评分。</td></tr></table></body></html>

@@ -1,133 +1,133 @@
-<!doctype html><html lang="zh-CN"><meta charset="utf-8"><title>机器学习系统（H） · 尚笠、徐跃东 · 2026春 CS30058h.01</title><style>body{max-width:1000px;margin:35px auto;padding:0 20px;font:16px/1.9 system-ui}table{border-collapse:collapse}td,th{border:1px solid #cad7cf;padding:8px}img{max-width:100%}</style><body><h1>机器学习系统（H）</h1><p>2026春 · CS30058h.01 · 尚笠、徐跃东</p><p>来源：复旦教务系统教学班大纲。</p><h2>考核与成绩构成</h2><ul><li>作业/实验/实践Assignment 30.0% 课程作业与测验占30%</li><li>汇报Presentation 20.0% 课堂讨论占20%</li><li>期末考试Final Examination：其他  50.0% 课程项目与展示占50% 针对荣誉课程，与3学分普通课程相比，4学分的荣誉课程的课程项目工作量与质量相应提升30%，项目成果与报告达到科研论文工作标准。</li></ul><h2>课程简介（中文）</h2><p>《机器学习系统》课程探讨机器学习系统从设计到优化的全过程，重点强调大模型、系统软件与硬件架构的深度融合。核心内容包括 GPU 与人工智能加速器架构、CUDA 编程、机器学习编译器、并行训练框架、模型推理与优化技术。课程还将探讨隐私保护、可持续性与系统安全等关键伦理议题。通过实践性实验与课程项目，学生将获得构建可扩展、高效、可靠的机器学习系统的实际经验，面向真实世界的应用场景。</p><h2>课程简介（英文）</h2><p>The <em>Machine Learning Systems</em> course provides a comprehensive exploration of the end-to-end design and optimization of machine learning systems, with an emphasis on the integration of large models, system software, and hardware architecture. Core topics include GPU and AI accelerator architectures, CUDA programming, machine learning compilers, parallel training frameworks, model inference, and optimization techniques. The course also addresses critical ethical issues such as privacy, sustainability, and safety. Through hands-on labs and a final project, students will gain practical experience in developing scalable, efficient, and reliable ML systems for real-world applications.</p><h2>教学目标</h2><p>本课程旨在使学生深入理解并掌握大规模机器学习系统的设计、优化与部署方法。课程贯通大模型、系统软件与硬件架构之间的协同关系，帮助学生具备构建可扩展、高效机器学习服务的系统能力。学生将在动手实践与项目开发中培养系统性技能，同时也将探讨诸如隐私、公平性与环境可持续性等广泛的伦理问题。课程结束后，学生将能够掌握满足性能与成本要求的端到端机器学习系统的相关设计与优化的知识。</p><h2>教学方式</h2><p>以课堂讲授、文献阅读讨论与课程项目为主。课堂讲解介绍相关理论、模型和原理，实践编程和项目作业帮助学生切实了解机器学习系统从设计到部署的全过程，并学会创建适用于快速发展且多样化的人工智能应用的、高效、可扩展且可靠的机器学习系统。</p><h2>教学内容与进度安排</h2><table width="100%">
-<tbody>
-<tr>
-<td width="622">
-<p><strong>第1周：机器学习系统课程介绍</strong></p>
-<ul>
-<li>课程内容纵览与项目任务说明</li>
-<li>深度学习系统整体架构与关键技术综述</li>
-<li>冯·诺依曼通用计算架构回顾及其局限性</li>
-</ul>
-<p> </p>
-<p><strong>第2周：GPU计算体系架构</strong></p>
-<ul>
-<li>GPU硬件架构与并行计算模型</li>
-<li>深度学习中的GPU加速机制</li>
-</ul>
-<p> </p>
-<p><strong>第3–4周：CUDA编程与性能优化</strong></p>
-<ul>
-<li>CUDA编程模型与执行框架</li>
-<li>内存管理、线程调度及并行执行优化方法</li>
-<li>实验：典型算子的CUDA实现与性能调优</li>
-</ul>
-<p> </p>
-<p><strong>第5–6周：机器学习编译框架与系统栈</strong></p>
-<ul>
-<li>主流深度学习框架解析（TensorFlow、PyTorch等）</li>
-<li>机器学习编译工具链（TVM等）</li>
-<li>面向深度学习与大模型的编译优化实践（Triton等）</li>
-</ul>
-<p> </p>
-<p><strong>第7–10周：大规模模型训练系统</strong></p>
-<ul>
-<li>并行训练技术：数据并行、模型并行与流水线并行等策略</li>
-<li>分布式训练系统与工具链（Megatron、DeepSpeed）</li>
-<li>模型微调策略与后训练优化框架（Post-Training Optimization）</li>
-</ul>
-<p> </p>
-<p><strong>第11周：模型推理与部署系统</strong></p>
-<ul>
-<li>主流推理框架</li>
-<li>推理阶段的性能优化与系统集成策略</li>
-</ul>
-<p> </p>
-<p><strong>第12周：模型优化与系统性能提升技术</strong></p>
-<ul>
-<li>模型剪枝、知识蒸馏与量化技术</li>
-<li>混合精度训练机制与训练稳定性提升方法</li>
-</ul>
-<p> </p>
-<p><strong>第13周：AI硬件加速与嵌入式部署实践</strong></p>
-<ul>
-<li>端侧应用场景中资源限制</li>
-<li>AI硬件加速技术</li>
-</ul>
-<p> </p>
-<p><strong>第14周：课程项目展示与总结研讨</strong></p>
-<ul>
-<li>学生课程项目答辩</li>
-<li>课程内容回顾与前沿展望</li>
-</ul>
-<p> </p>
-<p><strong>第15-18周：机器学习系统工业界报告</strong></p>
-<ul>
-<li>邀请业界专家围绕课程内容相关主题进行演讲，这些主题包括但不限于：机器学习编译器与优化、并行训练、推理系统、移动端与边缘设备上的部署、硬件加速器，以及开源社区的实践等。</li>
-</ul>
-<p> </p>
-<p><strong>Week 1: Introduction to Machine Learning Systems</strong></p>
-<ul>
-<li>Course overview</li>
-<li>Machine learning systems overview</li>
-<li>Review of the von Neumann computing architecture</li>
-</ul>
-<p> </p>
-<p><strong>Weeks 2: GPU Architecture</strong></p>
-<ul>
-<li>GPU architecture and parallel computing models</li>
-<li>GPU acceleration mechanisms in deep learning</li>
-</ul>
-<p> </p>
-<p><strong>Weeks 3</strong><strong>–4: CUDA Programming </strong></p>
-<ul>
-<li>CUDA programming model and execution framework</li>
-<li>Memory management, thread scheduling, and parallel execution optimization</li>
-<li>Lab: CUDA implementation and performance tuning of representative operators</li>
-</ul>
-<p> </p>
-<p><strong>Weeks 5</strong><strong>–6: ML Compilation </strong></p>
-<ul>
-<li>Mainstream deep learning frameworks (e.g., TensorFlow, PyTorch)</li>
-<li>Machine learning compilers (e.g., TVM)</li>
-<li>Compiler optimization for deep learning and large models (e.g., Triton)</li>
-</ul>
-<p> </p>
-<p><strong>Weeks 7</strong><strong>–10: Parallel Training </strong></p>
-<ul>
-<li>Parallel training techniques: data/model/pipeline parallelism, etc.</li>
-<li>Distributed training systems and toolchains (e.g., Megatron, DeepSpeed)</li>
-<li>Model fine-tuning strategies and post-training optimization frameworks</li>
-</ul>
-<p> </p>
-<p><strong>Week 11: Model Inference and Deployment </strong></p>
-<ul>
-<li>Mainstream inference frameworks</li>
-<li>Performance optimization for model inference</li>
-</ul>
-<p> </p>
-<p><strong>Week 12: Model Optimization </strong></p>
-<ul>
-<li>Model pruning, knowledge distillation, and quantization techniques</li>
-<li>Mixed-precision training and stability improvement methods</li>
-</ul>
-<p> </p>
-<p><strong>Week 13: AI Hardware Acceleration and Edge Deployment</strong></p>
-<ul>
-<li>Resource constraints in edge application scenarios</li>
-<li>AI hardware acceleration technologies</li>
-</ul>
-<p> </p>
-<p><strong>Week 14: Course Project Presentation and Course Summary</strong></p>
-<ul>
-<li>Student project presentations</li>
-<li>Course recap and ML System outlook</li>
-</ul>
-<p> </p>
-<p><strong>Week 15-18: Machine Learning Systems Seminars</strong></p>
-<ul>
-<li>We invite industry experts to deliver talks on topics including ML compilers and optimizations, parallel training, inference systems, deployment on mobile and edge devices, hardware accelerators, and open-source community practices.</li>
-</ul>
-</td>
-</tr>
-</tbody>
+<!doctype html><html lang="zh-CN"><meta charset="utf-8"><title>机器学习系统（H） · 尚笠、徐跃东 · 2026春 CS30058h.01</title><style>body{max-width:1000px;margin:35px auto;padding:0 20px;font:16px/1.9 system-ui}table{border-collapse:collapse}td,th{border:1px solid #cad7cf;padding:8px}img{max-width:100%}</style><body><h1>机器学习系统（H）</h1><p>2026春 · CS30058h.01 · 尚笠、徐跃东</p><p>来源：复旦教务系统教学班大纲。</p><h2>考核与成绩构成</h2><ul><li>作业/实验/实践Assignment 30.0% 课程作业与测验占30%</li><li>汇报Presentation 20.0% 课堂讨论占20%</li><li>期末考试Final Examination：其他  50.0% 课程项目与展示占50% 针对荣誉课程，与3学分普通课程相比，4学分的荣誉课程的课程项目工作量与质量相应提升30%，项目成果与报告达到科研论文工作标准。</li></ul><h2>课程简介（中文）</h2><p>《机器学习系统》课程探讨机器学习系统从设计到优化的全过程，重点强调大模型、系统软件与硬件架构的深度融合。核心内容包括 GPU 与人工智能加速器架构、CUDA 编程、机器学习编译器、并行训练框架、模型推理与优化技术。课程还将探讨隐私保护、可持续性与系统安全等关键伦理议题。通过实践性实验与课程项目，学生将获得构建可扩展、高效、可靠的机器学习系统的实际经验，面向真实世界的应用场景。</p><h2>课程简介（英文）</h2><p>The <em>Machine Learning Systems</em> course provides a comprehensive exploration of the end-to-end design and optimization of machine learning systems, with an emphasis on the integration of large models, system software, and hardware architecture. Core topics include GPU and AI accelerator architectures, CUDA programming, machine learning compilers, parallel training frameworks, model inference, and optimization techniques. The course also addresses critical ethical issues such as privacy, sustainability, and safety. Through hands-on labs and a final project, students will gain practical experience in developing scalable, efficient, and reliable ML systems for real-world applications.</p><h2>教学目标</h2><p>本课程旨在使学生深入理解并掌握大规模机器学习系统的设计、优化与部署方法。课程贯通大模型、系统软件与硬件架构之间的协同关系，帮助学生具备构建可扩展、高效机器学习服务的系统能力。学生将在动手实践与项目开发中培养系统性技能，同时也将探讨诸如隐私、公平性与环境可持续性等广泛的伦理问题。课程结束后，学生将能够掌握满足性能与成本要求的端到端机器学习系统的相关设计与优化的知识。</p><h2>教学方式</h2><p>以课堂讲授、文献阅读讨论与课程项目为主。课堂讲解介绍相关理论、模型和原理，实践编程和项目作业帮助学生切实了解机器学习系统从设计到部署的全过程，并学会创建适用于快速发展且多样化的人工智能应用的、高效、可扩展且可靠的机器学习系统。</p><h2>教学内容与进度安排</h2><table width="100%">
+<tbody>
+<tr>
+<td width="622">
+<p><strong>第1周：机器学习系统课程介绍</strong></p>
+<ul>
+<li>课程内容纵览与项目任务说明</li>
+<li>深度学习系统整体架构与关键技术综述</li>
+<li>冯·诺依曼通用计算架构回顾及其局限性</li>
+</ul>
+<p> </p>
+<p><strong>第2周：GPU计算体系架构</strong></p>
+<ul>
+<li>GPU硬件架构与并行计算模型</li>
+<li>深度学习中的GPU加速机制</li>
+</ul>
+<p> </p>
+<p><strong>第3–4周：CUDA编程与性能优化</strong></p>
+<ul>
+<li>CUDA编程模型与执行框架</li>
+<li>内存管理、线程调度及并行执行优化方法</li>
+<li>实验：典型算子的CUDA实现与性能调优</li>
+</ul>
+<p> </p>
+<p><strong>第5–6周：机器学习编译框架与系统栈</strong></p>
+<ul>
+<li>主流深度学习框架解析（TensorFlow、PyTorch等）</li>
+<li>机器学习编译工具链（TVM等）</li>
+<li>面向深度学习与大模型的编译优化实践（Triton等）</li>
+</ul>
+<p> </p>
+<p><strong>第7–10周：大规模模型训练系统</strong></p>
+<ul>
+<li>并行训练技术：数据并行、模型并行与流水线并行等策略</li>
+<li>分布式训练系统与工具链（Megatron、DeepSpeed）</li>
+<li>模型微调策略与后训练优化框架（Post-Training Optimization）</li>
+</ul>
+<p> </p>
+<p><strong>第11周：模型推理与部署系统</strong></p>
+<ul>
+<li>主流推理框架</li>
+<li>推理阶段的性能优化与系统集成策略</li>
+</ul>
+<p> </p>
+<p><strong>第12周：模型优化与系统性能提升技术</strong></p>
+<ul>
+<li>模型剪枝、知识蒸馏与量化技术</li>
+<li>混合精度训练机制与训练稳定性提升方法</li>
+</ul>
+<p> </p>
+<p><strong>第13周：AI硬件加速与嵌入式部署实践</strong></p>
+<ul>
+<li>端侧应用场景中资源限制</li>
+<li>AI硬件加速技术</li>
+</ul>
+<p> </p>
+<p><strong>第14周：课程项目展示与总结研讨</strong></p>
+<ul>
+<li>学生课程项目答辩</li>
+<li>课程内容回顾与前沿展望</li>
+</ul>
+<p> </p>
+<p><strong>第15-18周：机器学习系统工业界报告</strong></p>
+<ul>
+<li>邀请业界专家围绕课程内容相关主题进行演讲，这些主题包括但不限于：机器学习编译器与优化、并行训练、推理系统、移动端与边缘设备上的部署、硬件加速器，以及开源社区的实践等。</li>
+</ul>
+<p> </p>
+<p><strong>Week 1: Introduction to Machine Learning Systems</strong></p>
+<ul>
+<li>Course overview</li>
+<li>Machine learning systems overview</li>
+<li>Review of the von Neumann computing architecture</li>
+</ul>
+<p> </p>
+<p><strong>Weeks 2: GPU Architecture</strong></p>
+<ul>
+<li>GPU architecture and parallel computing models</li>
+<li>GPU acceleration mechanisms in deep learning</li>
+</ul>
+<p> </p>
+<p><strong>Weeks 3</strong><strong>–4: CUDA Programming </strong></p>
+<ul>
+<li>CUDA programming model and execution framework</li>
+<li>Memory management, thread scheduling, and parallel execution optimization</li>
+<li>Lab: CUDA implementation and performance tuning of representative operators</li>
+</ul>
+<p> </p>
+<p><strong>Weeks 5</strong><strong>–6: ML Compilation </strong></p>
+<ul>
+<li>Mainstream deep learning frameworks (e.g., TensorFlow, PyTorch)</li>
+<li>Machine learning compilers (e.g., TVM)</li>
+<li>Compiler optimization for deep learning and large models (e.g., Triton)</li>
+</ul>
+<p> </p>
+<p><strong>Weeks 7</strong><strong>–10: Parallel Training </strong></p>
+<ul>
+<li>Parallel training techniques: data/model/pipeline parallelism, etc.</li>
+<li>Distributed training systems and toolchains (e.g., Megatron, DeepSpeed)</li>
+<li>Model fine-tuning strategies and post-training optimization frameworks</li>
+</ul>
+<p> </p>
+<p><strong>Week 11: Model Inference and Deployment </strong></p>
+<ul>
+<li>Mainstream inference frameworks</li>
+<li>Performance optimization for model inference</li>
+</ul>
+<p> </p>
+<p><strong>Week 12: Model Optimization </strong></p>
+<ul>
+<li>Model pruning, knowledge distillation, and quantization techniques</li>
+<li>Mixed-precision training and stability improvement methods</li>
+</ul>
+<p> </p>
+<p><strong>Week 13: AI Hardware Acceleration and Edge Deployment</strong></p>
+<ul>
+<li>Resource constraints in edge application scenarios</li>
+<li>AI hardware acceleration technologies</li>
+</ul>
+<p> </p>
+<p><strong>Week 14: Course Project Presentation and Course Summary</strong></p>
+<ul>
+<li>Student project presentations</li>
+<li>Course recap and ML System outlook</li>
+</ul>
+<p> </p>
+<p><strong>Week 15-18: Machine Learning Systems Seminars</strong></p>
+<ul>
+<li>We invite industry experts to deliver talks on topics including ML compilers and optimizations, parallel training, inference systems, deployment on mobile and edge devices, hardware accelerators, and open-source community practices.</li>
+</ul>
+</td>
+</tr>
+</tbody>
 </table><h2>课程考核与成绩评定</h2><h2>教材</h2><h2>教学参考资料</h2><p>V. J. Reddi, Machine Learning Systems, https://mlsysbook.ai</p><h2>教学团队成员</h2></body></html>

@@ -1,0 +1,269 @@
+<!doctype html><html lang="zh-CN"><meta charset="utf-8"><body><h1>高等统计学习</h1><p>2025秋 · STAT40011.01 · 林晓蕾</p><p>来源：复旦教务系统教学大纲；正文整理。</p><h2>课程简介（中文）</h2><div style="white-space:pre-wrap">本课程主要讲解监督式学习(supervised learning)，并简略的讨论一些无监督学习(unsupervised learning)方法。
+
+监督式学习内容包括：线性和多项式回归， logistic回归和线性判别分析；交叉验证和重采样方法，模型选择和规则化（ridge regression 和 lasso）；非线性方法，splines 和GAM; tree based methods － 决策树，随机森林，boosting； 支持向量机。
+
+无监督学习内容包括：主成分分析 和聚类分析。</div><h2>课程简介（英文）</h2><div style="white-space:pre-wrap">This is an advanced statistical learning course, with a focus on regression and classi cation methods. Potential topics include: linear models for regression
+
+and classi cation, basis expansion and regularization, model assessment and selection, kernel methods, resampling methods, tree based methods and boosting, support vector machine, nearest neighbour, hidden markov models. Some unsupervised learning methods are briefly discussed. This is not a math-heavy course, so I&#x27;ll try to describe the methods without heavy reliance on formulas and complex mathematics. We focus on what we consider to be the important elements of modern statistical learning.</div><h2>教学目标</h2><div style="white-space:pre-wrap">这是一门统计学习的高阶课程，课程的目的在于使学生熟悉并掌握统计学习的基本方法极其涉及的理论知识。该课程侧重于对理论知识的理解，同时结合实践项目，培养学生利用统计学原理解决实际大数据问题的能力。本课程的设计目的是让学生全面掌握当前统计学习领域使用的方法论以及每个方法的优缺点和适用范围，从而引导学生探索新的研究课题。</div><h2>教学方式</h2><div style="white-space:pre-wrap">课堂以主讲教师讲授为主（80%），学生可以自由提出问题，自由发表对解决问题的观点 。学期中学生将分组，每组将自选涉及近期学习方法论的期刊论文并上讲台讲解 。所选论文可以是本领域的著名标志性论作，也可以是应用型文章 （20%）。教学助理将有office hour讲解课程的相关问题；学期末学生会有一个final project；本课程不设置期末随堂考试。</div><h2>教学内容与进度安排</h2><div style="white-space:pre-wrap">课次
+
+
+
+具体内容
+
+
+
+
+
+
+1
+
+
+
+1. Self-introduction
+
+2. Pre-course survey
+
+3. Syllabus
+
+4. Overview of statistical learning
+
+
+
+
+
+
+2-3
+
+
+
+Linear regression
+
+
+Simple &amp; multiple linear regression
+
+Model estimation - least squares, MLE
+
+Interpretation and variable selection
+
+Extension: interaction &amp; nonlinearity
+
+Model diagnostics
+
+Generalization of linear model
+
+
+Generalized linear model
+
+
+
+
+
+
+4
+
+
+
+Classification - generative approach
+
+
+Fisher’s LDA, derivation
+
+Hierarchical models.
+
+
+
+
+
+
+
+5
+
+
+
+Classification - generative approach continued
+
+3.  Mixture models &amp; EM algorithm
+
+4.  Example
+
+
+
+
+
+
+6
+
+
+
+Classification - discriminative approach
+
+
+Logistic regression, estimation, prediction
+
+SVM
+
+
+
+
+
+
+
+7
+
+
+
+Classification - discriminative approach continued
+
+3.   Tree based methods
+
+4.   Bagging &amp; random forest
+
+5.   Boosting
+
+6.   Example
+
+
+
+
+
+
+8
+
+
+
+Paper presentation
+
+
+
+
+
+
+9
+
+
+
+Resampling methods
+
+
+Training error &amp; testing error
+
+Cross validation
+
+Bootstrap
+
+Permutation tests
+
+
+
+
+
+
+
+10-11
+
+
+
+Model selection
+
+
+Subset selection
+
+Shrinkage - regularization
+
+Dimension reduction
+
+
+
+
+
+
+
+12
+
+
+
+Paper presentation
+
+
+
+
+
+
+13
+
+
+
+Non-linearity
+
+
+Polynomial regression
+
+Piecewise polynomial
+
+Splines
+
+Generalized additive models
+
+Nearest neighbour methods
+
+
+
+
+
+
+
+14
+
+
+
+Sequential Data
+
+
+Hidden Markov Models
+
+Estimation &amp; computation
+
+
+
+
+
+
+
+15
+
+
+
+Unsupervised learning
+
+
+PCA
+
+Clustering
+
+
+
+
+
+
+
+16
+
+
+
+Paper presentation</div><h2>教学参考资料</h2><div style="white-space:pre-wrap">教材：The Elements of Statistical Learning. Jerome H. Friedman, Robert Tibshirani,Trevor Hastie. Springer, 2nd edition.
+
+辅助教学资料：
+
+1.An Introduction to Statistical Learning with Applications in R. Gareth James, Daniela Witten, Trevor Hastie, Robert Tibshirani. Springer, Corr. 7th printing 2017 Edition
+
+2.The Elements of Statistical Learning. Jerome H. Friedman, Robert Tibshirani,Trevor Hastie. Springer, 2nd edition.
+
+3.Pattern Recognition and Machine Learning. Christopher M. Bishop. Springer.
+
+
+ Linear models with R. Julian J. Faraway. Taylor and Francis, 2nd edition.
+
+ Generalized Linear Models. P. McCULLAGH, J.A.NELDER. Chapman and Hall, 2nd edition.
+
+
+6. Statistical Inference. George Casella, Roger L.Berger. Cengage Learning, 2nd edition.</div><h2>考核方式</h2><div style="white-space:pre-wrap">作业/实验/实践Assignment 40.0%（两次课后作业，每次20%）；汇报Presentation 20.0%（教科书/科研论文presentatino）；期中考试Midterm Examination 40.0%（闭卷考试，期中或期末）</div><h2>考核构成</h2><ul><li>作业/实验/实践Assignment 40.0% 两次课后作业，每次20%</li><li>汇报Presentation 20.0% 教科书/科研论文presentatino</li><li>期中考试Midterm Examination 40.0% 闭卷考试，期中或期末</li></ul></body></html>

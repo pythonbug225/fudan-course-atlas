@@ -46,7 +46,7 @@
     const target = nextTier ? nextTier.threshold : currentTier.threshold;
     const remaining = balance === null ? null : Math.max(0, target - balance);
     const fill = $('#points-progress-fill');
-    if (fill) fill.style.width = balance === null ? '0%' : `${target ? Math.min(100, (balance / target) * 100) : 100}%`;
+    if (fill) fill.style.width = balance === null ? '0%' : `${target ? Math.max(0, Math.min(100, (balance / target) * 100)) : 100}%`;
     const track = $('.points-progress-track');
     if (track) track.setAttribute('aria-label', remaining === null ? '读取积分后显示等级进度' : nextTier ? `距离下一等级还差${remaining}分` : '已达到课程共建者等级');
     setText('#points-level-current', `当前：${currentTier.name}`);
@@ -67,8 +67,8 @@
       } else {
         history.innerHTML = state.events.map((event) => {
           const isCheckIn = event.eventType === 'checkin';
-          const title = isCheckIn ? '每日签到' : '试卷文件解锁';
-          const detail = isCheckIn ? '账户签到奖励' : `文件编号 ${escapeHtml(event.referenceId || '—')}`;
+          const title = ({checkin:'每日签到',exam_unlock:'试卷文件解锁',submission_reward:'投稿审核奖励',submission_withdrawal:'投稿撤回 · 奖励收回'})[event.eventType] || '积分变动';
+          const detail = isCheckIn ? '账户签到奖励' : `${event.eventType==='exam_unlock'?'文件':'投稿'}编号 ${escapeHtml(event.referenceId || '—')}`;
           const date = event.createdAt ? new Date(event.createdAt).toLocaleString('zh-CN', { timeZone: 'Asia/Shanghai', dateStyle: 'medium', timeStyle: 'short' }) : '时间未知';
           const delta = Number(event.delta);
           return `<article class="points-activity-row"><div><b>${title}</b><span>${detail}</span></div><time>${escapeHtml(date)}</time><strong>${delta > 0 ? '+' : '−'}${Math.abs(delta)}</strong></article>`;

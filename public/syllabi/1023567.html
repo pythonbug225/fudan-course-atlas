@@ -1,221 +1,221 @@
-<!doctype html><html lang="zh-CN"><meta charset="utf-8"><title>计算机可视化-进阶实践 · 徐志平 · 2026春 CS40019.01</title><style>body{max-width:1000px;margin:35px auto;padding:0 20px;font:16px/1.9 system-ui}table{border-collapse:collapse}td,th{border:1px solid #cad7cf;padding:8px}img{max-width:100%}</style><body><h1>计算机可视化-进阶实践</h1><p>2026春 · CS40019.01 · 徐志平</p><p>来源：复旦教务系统教学班大纲。</p><h2>考核与成绩构成</h2><ul><li>出勤Attendance 10.0% </li><li>作业/实验/实践Assignment 30.0% </li><li>期末考试Final Examination：论文  60.0% </li></ul><h2>课程简介（中文）</h2><p>本课程《高级可视化》旨在探索三维视觉设计的前沿领域，结合开源三维软件 <strong>Blender</strong> 与当下先进的 <strong>AIGC（人工智能生成内容）</strong> 技术，建立高效且高质量的产品可视化工作流。</p>
-<p>课程将打破传统渲染流程，引入 AI 辅助贴图生成、AI 环境贴图（HDRI）定制以及 AI 后期合成技术。教学内容以实战案例为主，涵盖香水瓶、智能小音箱、头戴式耳机及无线蓝牙耳机等典型工业产品。学生将通过本课程掌握从模型构建、复杂材质调节到电影级布光渲染的全流程技能，具备独立完成商业级产品视觉展示的能力。</p><h2>课程简介（英文）</h2><p>This course, <em>Advanced Visualization</em>, explores the cutting edge of 3D visual design by integrating <strong>Blender</strong> with advanced <strong>AIGC (Artificial Intelligence Generated Content)</strong> technologies to establish an efficient and high-quality product visualization workflow.</p>
-<p>Moving beyond traditional rendering pipelines, the course introduces AI-assisted texture generation, AI-customized HDRI environments, and AI post-processing compositing. The curriculum focuses on practical case studies, including <strong>Perfume Bottles (glass and liquids), Smart Speakers (geometry and topology), Over-Ear Headphones (hard surface mixed with soft materials), and TWS Bluetooth Earbuds (complex organic surfaces).</strong> Students will master the full process from modeling and advanced material shading to cinematic lighting and rendering, equipping them with the skills to independently produce commercial-grade product visualizations.</p><h2>教学目标</h2><ul>
-<li>
-<p><strong>技术掌握</strong>：精通 Blender 的多边形建模（Polygon Modeling）与细分曲面建模（Sub-d）技术，能够处理从规则几何体到复杂曲面的各类工业产品结构。</p>
-</li>
-<li>
-<p><strong>AI 融合</strong>：掌握利用 AI 工具（如 Stable Diffusion, Midjourney 或 Photoshop AI）生成无缝纹理、表面瑕疵贴图及背景环境图的方法，提升渲染真实感与效率。</p>
-</li>
-<li>
-<p><strong>美学素养</strong>：理解商业产品摄影的布光逻辑（三点布光、伦布朗光等），能够利用光影展现产品的材质质感与体积感。</p>
-</li>
-<li>
-<p><strong>综合应用</strong>：能够独立完成从零开始的建模到最终动态视频或高精度静帧的输出，产出具有行业竞争力的作品集。</p>
-</li>
-</ul><h2>教学方式</h2><ul>
-<li>
-<p><strong>讲授与演示 (Lectures &amp; Demos)</strong>：核心技术点的理论讲解与 Blender 实时操作演示。</p>
-</li>
-<li>
-<p><strong>案例驱动 (Project-Based Learning)</strong>：以四个核心产品（香水、音箱、两类耳机）为单元，贯穿教学全过程。</p>
-</li>
-<li>
-<p><strong>工作坊 (Workshops)</strong>：课堂即时练习，针对 AI 生成素材与 Blender 材质节点的结合进行实验性操作。</p>
-</li>
-<li>
-<p><strong>作品讲评 (Critique)</strong>：阶段性作业点评，分析渲染图的光影瑕疵与材质逻辑。</p>
-</li>
-</ul><h2>教学内容与进度安排</h2><ul>
-<li>
-<p><strong>第 1 周：课程概览与 AI 辅助工作流搭建</strong></p>
-<ul>
-<li>
-<p>Blender 界面与高阶设置回顾；</p>
-</li>
-<li>
-<p>AIGC 在 3D 流程中的应用（AI 生成参考图）；</p>
-</li>
-<li>
-<p>建立标准化的渲染工作室环境。</p>
-</li>
-</ul>
-</li>
-<li>
-<p><strong>第 2 周：透明材质与流体 —— 香水瓶建模</strong></p>
-<ul>
-<li>
-<p>多边形建模基础：构建香水瓶身与瓶盖；</p>
-</li>
-<li>
-<p>液体建模技巧：解决重叠面与法线问题；</p>
-</li>
-<li>
-<p>AI 辅助：利用 AI 生成独特的香水标签设计与 Logo 矢量化。</p>
-</li>
-</ul>
-</li>
-<li>
-<p><strong>第 3 周：高级材质表现 —— 玻璃与液体渲染</strong></p>
-<ul>
-<li>
-<p>Cycles 渲染器中的玻璃折射（IOR）与焦散（Caustics）设置；</p>
-</li>
-<li>
-<p>利用节点编辑器（Shader Editor）调节液体颜色与密度；</p>
-</li>
-<li>
-<p>布光技巧：如何表现透明物体的通透感。</p>
-</li>
-</ul>
-</li>
-<li>
-<p><strong>第 4 周：几何美学与布线 —— 智能小音箱建模</strong></p>
-<ul>
-<li>
-<p>硬表面建模逻辑：布尔运算（Boolean）与重拓扑（Retopology）基础；</p>
-</li>
-<li>
-<p>制作音箱的金属网罩结构（使用修改器快速生成）。</p>
-</li>
-</ul>
-</li>
-<li>
-<p><strong>第 5 周：程序化纹理与 AI 贴图 —— 音箱材质</strong></p>
-<ul>
-<li>
-<p>Blender 程序化节点：生成塑料磨砂颗粒感；</p>
-</li>
-<li>
-<p>AI 辅助：利用 AI 生成不同风格的织物纹理贴图，并制作无缝法线贴图；</p>
-</li>
-<li>
-<p>细节刻画：指纹与灰尘的添加。</p>
-</li>
-</ul>
-</li>
-<li>
-<p><strong>第 6 周：初阶产品动画 —— 音箱动态展示</strong></p>
-<ul>
-<li>
-<p>简易关键帧动画：制作音箱的分解图（Exploded View）动画；</p>
-</li>
-<li>
-<p>相机运动与景深控制；</p>
-</li>
-<li>
-<p>渲染输出设置与 AI 视频降噪工具介绍。</p>
-</li>
-</ul>
-</li>
-<li>
-<p><strong>第 7 周：复杂曲面挑战 —— 头戴式耳机建模（上）</strong></p>
-<ul>
-<li>
-<p>利用曲线（Curve）工具构建头梁结构；</p>
-</li>
-<li>
-<p>耳罩外壳的硬表面布线技巧；</p>
-</li>
-<li>
-<p>收缩包裹修改器（Shrinkwrap）的高级应用。</p>
-</li>
-</ul>
-</li>
-<li>
-<p><strong>第 8 周：软体与皮革 —— 头戴式耳机建模（下）</strong></p>
-<ul>
-<li>
-<p>耳罩软垫的褶皱雕刻（Sculpting）入门；</p>
-</li>
-<li>
-<p>AI 辅助：使用 AI 生成真实的皮革纹理与缝线法线贴图；</p>
-</li>
-<li>
-<p>UV 展开的高级技巧。</p>
-</li>
-</ul>
-</li>
-<li>
-<p><strong>第 9 周：综合材质系统 —— 耳机质感表现</strong></p>
-<ul>
-<li>
-<p>混合材质节点：金属拉丝、磨砂塑料与蛋白皮的混合表现；</p>
-</li>
-<li>
-<p>利用 AI 生成环境光贴图（HDRI）以匹配特定的品牌调性；</p>
-</li>
-<li>
-<p>多通道渲染（Render Passes）输出。</p>
-</li>
-</ul>
-</li>
-<li>
-<p><strong>第 10 周：极致细节 —— 蓝牙耳机建模（上）</strong></p>
-<ul>
-<li>
-<p>高精度细分曲面建模：处理耳机复杂的入耳曲率；</p>
-</li>
-<li>
-<p>充电仓的建模与磁吸结构细节；</p>
-</li>
-</ul>
-</li>
-<li>
-<p><strong>第 11 周：3S 材质与光影 —— 蓝牙耳机建模（下）</strong></p>
-<ul>
-<li>
-<p>次表面散射（SSS）节点应用：表现白色塑料的温润感；</p>
-</li>
-<li>
-<p>充电指示灯的发光材质设置；</p>
-</li>
-<li>
-<p>微距摄影布光：展现微小产品的工艺细节。</p>
-</li>
-</ul>
-</li>
-<li>
-<p><strong>第 12 周：场景与叙事 —— 产品视觉化整合</strong></p>
-<ul>
-<li>
-<p>利用 AI 生成创意背景图，并通过投影映射（Projection Mapping）构建伪 3D 场景；</p>
-</li>
-</ul>
-</li>
-<li>
-<p><strong>第 13 周：后期合成与 AI 增强</strong></p>
-<ul>
-<li>
-<p>Blender Compositor 基础；</p>
-</li>
-<li>
-<p>将渲染图导入 Photoshop/Stable Diffusion 进行 AI 局部重绘（Inpainting）与光影增强；</p>
-</li>
-<li>
-<p>最终大作业辅导与答疑。</p>
-</li>
-</ul>
-</li>
-<li>
-<p><strong>第 14 周：期末作品展示与讲评</strong></p>
-<ul>
-<li>
-<p>学生期末作品（静态图 + 15秒短片）汇报；</p>
-</li>
-<li>
-<p>行业视角点评与课程总结。</p>
-</li>
-</ul>
-</li>
-</ul><h2>课程考核与成绩评定</h2><h2>教材</h2><h2>教学参考资料</h2><p>自编</p>
-<ol>
-<li>
-<p><em>Blender 4.0: The Complete Guide to 3D Modeling</em> (参考书目，非强制)</p>
-</li>
-<li>
-<p>Blender 官方用户手册 (docs.blender.org)</p>
-</li>
-</ol>
-<p> </p>
+<!doctype html><html lang="zh-CN"><meta charset="utf-8"><title>计算机可视化-进阶实践 · 徐志平 · 2026春 CS40019.01</title><style>body{max-width:1000px;margin:35px auto;padding:0 20px;font:16px/1.9 system-ui}table{border-collapse:collapse}td,th{border:1px solid #cad7cf;padding:8px}img{max-width:100%}</style><body><h1>计算机可视化-进阶实践</h1><p>2026春 · CS40019.01 · 徐志平</p><p>来源：复旦教务系统教学班大纲。</p><h2>考核与成绩构成</h2><ul><li>出勤Attendance 10.0% </li><li>作业/实验/实践Assignment 30.0% </li><li>期末考试Final Examination：论文  60.0% </li></ul><h2>课程简介（中文）</h2><p>本课程《高级可视化》旨在探索三维视觉设计的前沿领域，结合开源三维软件 <strong>Blender</strong> 与当下先进的 <strong>AIGC（人工智能生成内容）</strong> 技术，建立高效且高质量的产品可视化工作流。</p>
+<p>课程将打破传统渲染流程，引入 AI 辅助贴图生成、AI 环境贴图（HDRI）定制以及 AI 后期合成技术。教学内容以实战案例为主，涵盖香水瓶、智能小音箱、头戴式耳机及无线蓝牙耳机等典型工业产品。学生将通过本课程掌握从模型构建、复杂材质调节到电影级布光渲染的全流程技能，具备独立完成商业级产品视觉展示的能力。</p><h2>课程简介（英文）</h2><p>This course, <em>Advanced Visualization</em>, explores the cutting edge of 3D visual design by integrating <strong>Blender</strong> with advanced <strong>AIGC (Artificial Intelligence Generated Content)</strong> technologies to establish an efficient and high-quality product visualization workflow.</p>
+<p>Moving beyond traditional rendering pipelines, the course introduces AI-assisted texture generation, AI-customized HDRI environments, and AI post-processing compositing. The curriculum focuses on practical case studies, including <strong>Perfume Bottles (glass and liquids), Smart Speakers (geometry and topology), Over-Ear Headphones (hard surface mixed with soft materials), and TWS Bluetooth Earbuds (complex organic surfaces).</strong> Students will master the full process from modeling and advanced material shading to cinematic lighting and rendering, equipping them with the skills to independently produce commercial-grade product visualizations.</p><h2>教学目标</h2><ul>
+<li>
+<p><strong>技术掌握</strong>：精通 Blender 的多边形建模（Polygon Modeling）与细分曲面建模（Sub-d）技术，能够处理从规则几何体到复杂曲面的各类工业产品结构。</p>
+</li>
+<li>
+<p><strong>AI 融合</strong>：掌握利用 AI 工具（如 Stable Diffusion, Midjourney 或 Photoshop AI）生成无缝纹理、表面瑕疵贴图及背景环境图的方法，提升渲染真实感与效率。</p>
+</li>
+<li>
+<p><strong>美学素养</strong>：理解商业产品摄影的布光逻辑（三点布光、伦布朗光等），能够利用光影展现产品的材质质感与体积感。</p>
+</li>
+<li>
+<p><strong>综合应用</strong>：能够独立完成从零开始的建模到最终动态视频或高精度静帧的输出，产出具有行业竞争力的作品集。</p>
+</li>
+</ul><h2>教学方式</h2><ul>
+<li>
+<p><strong>讲授与演示 (Lectures &amp; Demos)</strong>：核心技术点的理论讲解与 Blender 实时操作演示。</p>
+</li>
+<li>
+<p><strong>案例驱动 (Project-Based Learning)</strong>：以四个核心产品（香水、音箱、两类耳机）为单元，贯穿教学全过程。</p>
+</li>
+<li>
+<p><strong>工作坊 (Workshops)</strong>：课堂即时练习，针对 AI 生成素材与 Blender 材质节点的结合进行实验性操作。</p>
+</li>
+<li>
+<p><strong>作品讲评 (Critique)</strong>：阶段性作业点评，分析渲染图的光影瑕疵与材质逻辑。</p>
+</li>
+</ul><h2>教学内容与进度安排</h2><ul>
+<li>
+<p><strong>第 1 周：课程概览与 AI 辅助工作流搭建</strong></p>
+<ul>
+<li>
+<p>Blender 界面与高阶设置回顾；</p>
+</li>
+<li>
+<p>AIGC 在 3D 流程中的应用（AI 生成参考图）；</p>
+</li>
+<li>
+<p>建立标准化的渲染工作室环境。</p>
+</li>
+</ul>
+</li>
+<li>
+<p><strong>第 2 周：透明材质与流体 —— 香水瓶建模</strong></p>
+<ul>
+<li>
+<p>多边形建模基础：构建香水瓶身与瓶盖；</p>
+</li>
+<li>
+<p>液体建模技巧：解决重叠面与法线问题；</p>
+</li>
+<li>
+<p>AI 辅助：利用 AI 生成独特的香水标签设计与 Logo 矢量化。</p>
+</li>
+</ul>
+</li>
+<li>
+<p><strong>第 3 周：高级材质表现 —— 玻璃与液体渲染</strong></p>
+<ul>
+<li>
+<p>Cycles 渲染器中的玻璃折射（IOR）与焦散（Caustics）设置；</p>
+</li>
+<li>
+<p>利用节点编辑器（Shader Editor）调节液体颜色与密度；</p>
+</li>
+<li>
+<p>布光技巧：如何表现透明物体的通透感。</p>
+</li>
+</ul>
+</li>
+<li>
+<p><strong>第 4 周：几何美学与布线 —— 智能小音箱建模</strong></p>
+<ul>
+<li>
+<p>硬表面建模逻辑：布尔运算（Boolean）与重拓扑（Retopology）基础；</p>
+</li>
+<li>
+<p>制作音箱的金属网罩结构（使用修改器快速生成）。</p>
+</li>
+</ul>
+</li>
+<li>
+<p><strong>第 5 周：程序化纹理与 AI 贴图 —— 音箱材质</strong></p>
+<ul>
+<li>
+<p>Blender 程序化节点：生成塑料磨砂颗粒感；</p>
+</li>
+<li>
+<p>AI 辅助：利用 AI 生成不同风格的织物纹理贴图，并制作无缝法线贴图；</p>
+</li>
+<li>
+<p>细节刻画：指纹与灰尘的添加。</p>
+</li>
+</ul>
+</li>
+<li>
+<p><strong>第 6 周：初阶产品动画 —— 音箱动态展示</strong></p>
+<ul>
+<li>
+<p>简易关键帧动画：制作音箱的分解图（Exploded View）动画；</p>
+</li>
+<li>
+<p>相机运动与景深控制；</p>
+</li>
+<li>
+<p>渲染输出设置与 AI 视频降噪工具介绍。</p>
+</li>
+</ul>
+</li>
+<li>
+<p><strong>第 7 周：复杂曲面挑战 —— 头戴式耳机建模（上）</strong></p>
+<ul>
+<li>
+<p>利用曲线（Curve）工具构建头梁结构；</p>
+</li>
+<li>
+<p>耳罩外壳的硬表面布线技巧；</p>
+</li>
+<li>
+<p>收缩包裹修改器（Shrinkwrap）的高级应用。</p>
+</li>
+</ul>
+</li>
+<li>
+<p><strong>第 8 周：软体与皮革 —— 头戴式耳机建模（下）</strong></p>
+<ul>
+<li>
+<p>耳罩软垫的褶皱雕刻（Sculpting）入门；</p>
+</li>
+<li>
+<p>AI 辅助：使用 AI 生成真实的皮革纹理与缝线法线贴图；</p>
+</li>
+<li>
+<p>UV 展开的高级技巧。</p>
+</li>
+</ul>
+</li>
+<li>
+<p><strong>第 9 周：综合材质系统 —— 耳机质感表现</strong></p>
+<ul>
+<li>
+<p>混合材质节点：金属拉丝、磨砂塑料与蛋白皮的混合表现；</p>
+</li>
+<li>
+<p>利用 AI 生成环境光贴图（HDRI）以匹配特定的品牌调性；</p>
+</li>
+<li>
+<p>多通道渲染（Render Passes）输出。</p>
+</li>
+</ul>
+</li>
+<li>
+<p><strong>第 10 周：极致细节 —— 蓝牙耳机建模（上）</strong></p>
+<ul>
+<li>
+<p>高精度细分曲面建模：处理耳机复杂的入耳曲率；</p>
+</li>
+<li>
+<p>充电仓的建模与磁吸结构细节；</p>
+</li>
+</ul>
+</li>
+<li>
+<p><strong>第 11 周：3S 材质与光影 —— 蓝牙耳机建模（下）</strong></p>
+<ul>
+<li>
+<p>次表面散射（SSS）节点应用：表现白色塑料的温润感；</p>
+</li>
+<li>
+<p>充电指示灯的发光材质设置；</p>
+</li>
+<li>
+<p>微距摄影布光：展现微小产品的工艺细节。</p>
+</li>
+</ul>
+</li>
+<li>
+<p><strong>第 12 周：场景与叙事 —— 产品视觉化整合</strong></p>
+<ul>
+<li>
+<p>利用 AI 生成创意背景图，并通过投影映射（Projection Mapping）构建伪 3D 场景；</p>
+</li>
+</ul>
+</li>
+<li>
+<p><strong>第 13 周：后期合成与 AI 增强</strong></p>
+<ul>
+<li>
+<p>Blender Compositor 基础；</p>
+</li>
+<li>
+<p>将渲染图导入 Photoshop/Stable Diffusion 进行 AI 局部重绘（Inpainting）与光影增强；</p>
+</li>
+<li>
+<p>最终大作业辅导与答疑。</p>
+</li>
+</ul>
+</li>
+<li>
+<p><strong>第 14 周：期末作品展示与讲评</strong></p>
+<ul>
+<li>
+<p>学生期末作品（静态图 + 15秒短片）汇报；</p>
+</li>
+<li>
+<p>行业视角点评与课程总结。</p>
+</li>
+</ul>
+</li>
+</ul><h2>课程考核与成绩评定</h2><h2>教材</h2><h2>教学参考资料</h2><p>自编</p>
+<ol>
+<li>
+<p><em>Blender 4.0: The Complete Guide to 3D Modeling</em> (参考书目，非强制)</p>
+</li>
+<li>
+<p>Blender 官方用户手册 (docs.blender.org)</p>
+</li>
+</ol>
+<p> </p>
 <h3> </h3><h2>教学团队成员</h2></body></html>

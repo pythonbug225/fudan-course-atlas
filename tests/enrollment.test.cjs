@@ -1,11 +1,11 @@
 const fs=require('node:fs'),path=require('node:path'),vm=require('node:vm'),assert=require('node:assert/strict');
-const root=path.resolve(__dirname,'../public'),data=JSON.parse(fs.readFileSync(root+'/data/enrollment.json','utf8')),catalog=JSON.parse(fs.readFileSync(root+'/data/catalog.json','utf8'));
+const root=path.resolve(__dirname,'../public'),data=require('../scripts/read-catalog.cjs')(root+'/data/enrollment.json'),catalog=require('../scripts/read-catalog.cjs')(root+'/data/catalog.json');
 let passed=0;const ok=(v,m)=>{assert.ok(v,m);passed++};const valid=new Set(catalog.scope.map(g=>g.id));
 ok(data.terms.length===8&&data.terms.filter(t=>!t.term.includes('暑')).length===7,'seven regular semesters plus separately queried summer');
 ok(data.stats.source_sections===43840&&data.records.length===data.stats.matched_sections&&data.records.length>=11852&&data.records.filter(r=>r.term==='2026暑').length===95,'source and matched regular/summer teaching sections reconcile');
 ok(data.records.every(r=>r.course_ids.length&&r.course_ids.every(id=>valid.has(id))),'all enrollment rows refer to catalog courses');
 ok(data.records.every(r=>['course_code_and_name','official_lesson_id'].includes(r.mapping_method)),'enrollment matches by code and name or by official lesson ID');
-ok(data.records.every(r=>Number.isInteger(r.std_count)&&r.std_count>=0&&Number.isInteger(r.limit_count)&&r.limit_count>=0),'aggregate counts are nonnegative integers');
+ok(data.records.every(r=>Number.isInteger(r.std_count)&&r.std_count>=0&&(r.limit_count===null||Number.isInteger(r.limit_count)&&r.limit_count>=0)),'student counts are nonnegative integers; missing capacity remains null');
 ok(data.records.every(r=>Array.isArray(r.teachers)&&!('remark'in r)&&!('selectionLimit'in r)&&!('id'in r)&&!('lesson_id'in r)),'only teaching aggregates published');
 ok(!/wxid_|@chatroom|xsec_token|SAMLResponse|loginToken/.test(JSON.stringify(data)),'no account or browser material');
 const box={window:{},fetch:async()=>({ok:true,json:async()=>data})};vm.runInNewContext(fs.readFileSync(root+'/assets/enrollment.js','utf8'),box);

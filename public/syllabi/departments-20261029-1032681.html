@@ -1,0 +1,275 @@
+<!doctype html><html lang="zh-CN"><meta charset="utf-8"><body><h1>数据驱动决策</h1><p>2026春 · MSE60005.01 · 周明龙</p><p>来源：复旦教务系统教学大纲；正文整理。</p><h2>课程简介（中文）</h2><div style="white-space:pre-wrap">这门课程是针对硕博阶段开展的课程，我们将重点学习近年来先进的数据驱动的优化模型。随着各类数据的普及、机器学习和优化方法的发展，数据驱动的分析和决策方法在管理科学问题中展示了出极大的潜力。针对从数据出发得到有效的运筹决策这一重点问题，我们将讨论几种数据驱动的优化框架及其应用。本课程涵盖常见的机器学习预测模型、不确定性环境下的优化模型、“先预测，后优化”模型、预测与优化结合的模型等。对于目前较为先进的多种模型，我会简单介绍实用的Python求解工具和具体应用案例，帮助学生了解从建模到求解的整个流程。</div><h2>课程简介（英文）</h2><div style="white-space:pre-wrap">This course is designed for master&#x27;s and doctoral students, focusing on advanced data-driven optimization models developed in recent years. With the widespread availability of various types of data and advancements in machine learning and optimization methods, data-driven analysis and decision-making approaches have demonstrated significant potential in addressing management science problems. To tackle the key issue of deriving effective operational decisions from data, we will explore several data-driven optimization frameworks and their applications. The course covers common machine learning prediction models, optimization models under uncertainty, &quot;predict-then-optimize&quot; models, and integrated prediction-optimization models, among others. For various advanced models, I will briefly introduce practical Python solution tools and specific application cases to help students understand the entire process from modeling to solution.</div><h2>教学目标</h2><div style="white-space:pre-wrap">本课程的整体目标是帮助学生熟悉并掌握数据驱动决策的基本概念，研究思路，以及相关领域的研究前沿。此课程致力于开阔学生科研视野，并使学生有一定能力独立进行与数据驱动的优化相关的科研项目。具体目标如下：
+
+
+
+掌握核心模型与框架：理解并掌握近年来先进的数据驱动优化模型，包括机器学习预测模型、不确定性环境下的优化模型、“先预测，后优化”框架，以及预测与优化结合的集成模型。
+
+
+
+理解数据驱动决策的原理与应用：认识数据驱动方法在管理科学中的潜力，学会如何从实际数据出发，构建有效的优化模型以支持运筹与决策。
+
+
+
+熟悉常用工具与实现流程：了解并初步掌握使用Python及相关工具进行数据驱动建模与求解的方法，能够通过实际案例体验从问题建模到模型求解的完整过程。
+
+
+
+为后续研究奠定基础：为硕博阶段开展相关领域的研究提供模型基础与方法支持，激发学生对数据驱动优化前沿方向的探索兴趣。</div><h2>教学方式</h2><div style="white-space:pre-wrap">教师授课与学生汇报相结合。</div><h2>教学内容与进度安排</h2><div style="white-space:pre-wrap">1-16周课程大纲（根据实际上课情况会有些调整）
+
+第一周
+
+
+介绍课程admin相关事宜
+
+介绍课程大纲
+
+介绍数据驱动的优化模型
+
+
+不确定性环境下的优化
+
+预测
+
+预测与优化结合
+
+
+
+简单介绍应用实例：Data-driven Newsvendor问题
+
+
+___________________________________________________________________
+
+第二周
+
+
+不确定性环境下的优化模型
+
+
+不确定性下的线性规划
+
+简介基于风险测度的优化模型
+
+经典鲁棒优化 – Price of robustness
+
+
+
+
+___________________________________________________________________
+
+第三周
+
+
+不确定性环境下的优化模型
+
+
+鲁棒优化 – Robust Linear Optimization
+
+两阶段鲁棒优化 – Adaptive Robust Linear Optimization
+
+介绍鲁棒优化求解器
+
+应用实例
+
+
+
+
+___________________________________________________________________
+
+第四周
+
+
+不确定性环境下的优化模型
+
+
+随即优化 – Stochastic Optimization
+
+分布式鲁棒优化 – Distributionally （Data-driven） Robust Optimization
+
+介绍分布式鲁棒优化求解器
+
+
+
+
+___________________________________________________________________
+
+第五周
+
+
+不确定性环境下的多阶段优化模型
+
+
+随即优化 – 两阶段问题
+
+两阶段鲁棒优化 – Adaptive Robust Linear Optimization
+
+两阶段分布式鲁棒优化 – Adaptive Distributionally Robust Linear Optimization
+
+目标鲁棒性优化 – Robust Satisficing
+
+
+
+应用实例：Network lot-sizing
+
+
+___________________________________________________________________
+
+第六周
+
+
+预测 Predictive Analytics
+
+现代优化框架下的预测模型
+
+
+线性回归
+
+中位数回归
+
+逻辑回归，SVM
+
+
+应用实例：数据驱动的诊疗方案
+
+
+___________________________________________________________________
+
+第七周
+
+
+现代优化框架下的预测模型
+
+
+正则化与（分布式）鲁棒优化间的关联与等价关系
+
+
+
+
+___________________________________________________________________
+
+第八周
+
+
+现代优化框架下的预测模型
+
+
+决策与分类树
+
+随机森林
+
+
+
+应用实例：数据驱动的诊疗方案
+
+
+___________________________________________________________________
+
+第九周
+
+
+现代优化框架下的预测模型
+
+
+神经网络（CNN、FNN、RNN）
+
+
+
+
+___________________________________________________________________
+
+第十周
+
+
+介绍term paper要求
+
+先预测，后优化：
+
+
+Predict-then-optimize
+
+利用conditional distribution的随即优化（及DRO）模型
+
+Smart predict，then optimize
+
+
+
+___________________________________________________________________
+
+第十一周
+
+
+先预测，后优化
+
+
+随机性模型：利用机器学习重新定义随即优化中样本权重
+
+相关讨论及应用
+
+From predictive to prescriptive analytics
+
+Stochastic optimization forest
+
+
+
+
+___________________________________________________________________
+
+第十二周
+
+
+从数据中学习最优策略
+
+
+
+利用机器学习学习最优解与模型参数关系：The Voice of Optimization
+
+利用分类树在有限数据中学习并推测最优解：Optimal Prescriptive Tree
+
+
+
+
+___________________________________________________________________
+
+第十三周
+
+
+从数据中学习最优策略
+
+
+学习最优策略实例：Big-data Newsvendor
+
+学习最优策略方法论：Explainable Robust Analytics
+
+
+
+
+___________________________________________________________________
+
+第十四周
+
+
+预测融入鲁棒优化
+
+
+利用鲁棒优化框架：Joint Estimation and Robust Optimization
+
+利用分布式鲁棒优化框架：Analytics or Robust Satisficing
+
+应用实例：Assortment optimization/Multiproduct Pricing
+
+
+
+
+___________________________________________________________________
+
+第十五周
+
+
+Term Paper Presentation
+
+
+___________________________________________________________________
+
+第十六周
+
+
+Term Paper Presentation</div><h2>考核方式</h2><div style="white-space:pre-wrap">出勤Attendance 20.0%（出勤）；汇报Presentation 20.0%（相关论文汇报）；作业/实验/实践Assignment 30.0%（作业）；课题论文Research Paper 30.0%（课程论文及汇报）</div><h2>考核构成</h2><ul><li>出勤Attendance 20.0% 出勤</li><li>汇报Presentation 20.0% 相关论文汇报</li><li>作业/实验/实践Assignment 30.0% 作业</li><li>课题论文Research Paper 30.0% 课程论文及汇报</li></ul></body></html>
