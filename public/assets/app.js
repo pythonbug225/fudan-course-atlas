@@ -30,7 +30,8 @@ function classMark(t){const honor=t.includes('荣誉'),elite=t.includes('英才�
 
 function classTags(os){return [...new Set(os.map(o=>o.class_type))].map(classMark).join('')}
 
-function view(name='courses'){state.view=name;$$('.view').forEach(e=>e.hidden=e.id!=='view-'+name);$$('.nav').forEach(b=>b.classList.toggle('active',b.dataset.view===name));$('#breadcrumb').textContent='选课工具 / '+({courses:'课程检索','faculty-resources':'院系资料',exams:'试卷资料',calculator:'GPA试算',grades:'等级与分数映射',fitness:'国家体测计算器',rules:'选课规则',upload:'课评与资料投稿',points:'贡献积分'}[name]);if(name==='courses')renderCourses();if(name==='faculty-resources')FacultyResources.render($('#faculty-resource-list'),{faculty:$('#faculty-resource-faculty')?.value||'all',type:$('#faculty-resource-type')?.value||'all'});if(name==='exams')ExamPreview.render();window.scrollTo(0,0)}
+function view(name='courses'){state.view=name;$$('.view').forEach(e=>e.hidden=e.id!=='view-'+name);$$('.nav').forEach(b=>b.classList.toggle('active',b.dataset.view===name));$('#breadcrumb').textContent='选课工具 / '+({courses:'课程检索','faculty-resources':'院系资料',exams:'试卷资料',calculator:'GPA试算',grades:'等级与分数映射',fitness:'国家体测计算器',rules:'选课规则',upload:'课评与资料投稿',points:'贡献积分'}[name]);if(name==='courses')renderCourses();if(name==='faculty-resources')FacultyResources.render($('#faculty-resource-list'),{faculty:$('#faculty-resource-faculty')?.value||'all',type:$('#faculty-resource-type')?.value||'all'});if(name==='exams')ExamPreview.render();window.scrollTo(0,0)}
+
 
 function matches(g){const os=selectedOffers(g);if(!os.length&&!((g.history_only||g.plan_only)&&$('#term').value==='all'&&$('#class-type').value==='all'))return false;const refs=planRefs(g),plan=$('#plan').value,part=$('#planpart').value,req=$('#requirement').value;if((plan!=='all'||part!=='all')&&!refs.length)return false;if(req!=='all'&&!refs.some(r=>r.requirement===req))return false;const cat=$('#category').value;if(!CourseTaxonomy.match(g,cat))return false;const prefix=g.code.match(/^[A-Z]+/)?.[0]||g.code;if($('#code-type').value!=='all'&&prefix!==$('#code-type').value)return false;if($('#module').value!=='all'&&!g.modules.includes(Number($('#module').value)))return false;const ev=g.teacher_evidence.filter(t=>teachers(g).includes(t.teacher));const cv=$('#coverage').value;if(cv==='no-student'&&g.student_evaluation?.has_reviews!==false)return false;if(cv==='notes'&&!currentNotes(g).length&&!currentSupplements(g).length||cv==='evidence'&&!ev.some(t=>t.direct_review_ids.length)||cv==='missing'&&ev.some(t=>t.direct_review_ids.length))return false;return $('#query').value.trim().split(/\s+/).filter(Boolean).every(q=>g.search.some(field=>field.includes(canon(q))))}
 
@@ -189,4 +190,3 @@ async function init(){try{
  }catch(err){$('#loading').innerHTML='<div><b>资料暂未载入</b><p>请刷新页面重试。</p></div>';console.error(err)}}
 
 init();
-
