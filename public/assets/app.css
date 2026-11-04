@@ -58,3 +58,5 @@ button,.secondary,.primary{border-radius:9px;transition:filter .15s ease,transfo
 @media(max-width:760px){.points-login-note,.exam-login-note{align-items:flex-start;flex-direction:column}.points-login-note .sign-in-button,.exam-login-note .sign-in-button{width:100%;text-align:center}}
 
 .submission-center{margin-top:24px}.submission-card{padding:18px 0;border-bottom:1px solid #dde5df;overflow-wrap:anywhere}.submission-card p{white-space:pre-wrap}.submission-heading,.submission-actions{display:flex;justify-content:space-between;align-items:center;gap:12px;flex-wrap:wrap}.submission-feedback{padding:12px;background:#f7f0df;border-radius:8px}.submission-actions{justify-content:flex-start;margin-top:12px}.submission-card input{width:100%}.submission-card .field{margin:12px 0}
+
+[hidden]{display:none!important}

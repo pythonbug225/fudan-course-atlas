@@ -42,7 +42,7 @@
     if (!action) return;
     const article=action.closest('[data-submission]'), status=article.querySelector('[data-submission-status]');
     const decision=action.dataset.reviewDecision;
-    if (!decision && !confirm('撤回后停止公开展示，并收回本篇已发放的奖励。确定撤回？')) return;
+    if (!decision && action.dataset.confirm !== 'yes') { action.dataset.confirm='yes'; action.textContent='再次点击确认撤回'; status.textContent='撤回后停止公开展示，并收回本篇已发放的奖励。'; return; }
     const reason=article.querySelector('[data-review-note]')?.value.trim() || '';
     if (decision==='rejected' && !reason) { status.textContent='请先填写退回修改的建议。'; return; }
     action.disabled=true; status.textContent='正在保存…';
