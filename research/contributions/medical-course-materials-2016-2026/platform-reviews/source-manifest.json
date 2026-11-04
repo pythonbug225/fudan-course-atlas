@@ -1,0 +1,58 @@
+{
+  "authorization_basis": "提交者确认：相关平台管理员允许为本课题公开检索到的课程评价，并要求标注来源。",
+  "source_files": [
+    {
+      "file": "临床与基础核心_楼层与课评.json",
+      "bytes": 5990048,
+      "sha256": "a5521355c082e4733d7119b507d8ae36e6f89d40ded196449e4ff7f23c4e8714",
+      "source_sections": [
+        "hole_search",
+        "threads",
+        "danke",
+        "danke_search"
+      ],
+      "capture_time": "2026-10-30"
+    },
+    {
+      "file": "第一轮数据_被引用条目摘录.json",
+      "bytes": 291635,
+      "sha256": "48743be2fc26bc966d2194d2fba92bf8207d67eb0a03285380f5d60d936dce5a",
+      "source_sections": [
+        "树洞楼层",
+        "旦克课程组"
+      ],
+      "capture_time": null
+    },
+    {
+      "file": "补充_楼层与课评.json",
+      "bytes": 5567512,
+      "sha256": "dd195a06c4aeb56bbe7ecb1f87bbacf04911b557f6e7a03f4f2a52cd9b548fa9",
+      "source_sections": [
+        "hole_search",
+        "threads",
+        "danke",
+        "danke_search"
+      ],
+      "capture_time": "2026-10-30"
+    }
+  ],
+  "records": {
+    "treehole_unique_floors": 13296,
+    "treehole_source_observations": 19344,
+    "treehole_duplicate_observations_merged": 6048,
+    "danke_unique_reviews": 99,
+    "danke_review_observations": 99,
+    "danke_duplicate_observations_merged": 0,
+    "danke_unique_course_entries": 66
+  },
+  "redactions": {
+    "phone": 80,
+    "email": 30,
+    "id18": 1
+  },
+  "removed_identity_fields": {
+    "reviewer_id": 120,
+    "is_me": 99
+  },
+  "source_policy": "Retain platform name, source IDs, original timestamps, input file/section/query provenance; remove account/reviewer identifiers and redact detected phone, email, and 18-digit national-ID patterns in text."
+}

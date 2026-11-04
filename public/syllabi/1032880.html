@@ -1,23 +1,23 @@
-<!doctype html><html lang="zh-CN"><meta charset="utf-8"><title>半结构与非结构数据管理与分析 · 谈子敬、周向东 · 2026春 CS70014.01</title><style>body{max-width:1000px;margin:35px auto;padding:0 20px;font:16px/1.9 system-ui}table{border-collapse:collapse}td,th{border:1px solid #cad7cf;padding:8px}img{max-width:100%}</style><body><h1>半结构与非结构数据管理与分析</h1><p>2026春 · CS70014.01 · 谈子敬、周向东</p><p>来源：复旦教务系统教学班大纲。</p><h2>考核与成绩构成</h2><ul><li>汇报Presentation 30.0% </li><li>课题论文Research Paper 70.0% </li></ul><h2>课程简介（中文）</h2><p>本课程聚焦半结构化（XML、JSON）与非结构化数据（文本、图像）的管理与分析，讲解数据特性、NoSQL存储模型（含基于LSM树的系统如LevelDB，及文档/图数据库），以及信息抽取、文本挖掘、多模态分析等技术。通过实践，培养复杂数据处理能力，解锁非传统数据价值。</p><h2>课程简介（英文）</h2><p>This course explores managing and analyzing semi-structured (XML, JSON) and unstructured data (text, images). It covers data traits, NoSQL storage models, including LSM-tree-based systems (e.g., LevelDB) and document/graph databases, and techniques like info extraction, text mining, and multimodal analysis. Hands-on practice builds skills to handle complex data and unlock non-traditional value.</p><h2>教学目标</h2><p><strong>教学目标</strong>：</p>
-<ol>
-<li>
-<p>掌握半结构化（XML、JSON等）与非结构化数据（文本、图像、BIM模型等）的特征、分类及在建筑、制造、互联网等领域的典型应用场景，能辨析其与结构化数据的差异与管理难点。</p>
-</li>
-<li>
-<p>理解NoSQL存储模型的核心原理与选型方法，包括基于LSM树的系统（LevelDB、RocksDB）、文档数据库（MongoDB）及图数据库（Neo4j）的架构特性、适用场景与性能权衡。</p>
-</li>
-<li>
-<p>理解图数据模型（属性图、RDF）与基础理论（图遍历、中心性指标等），掌握图数据高级管理与应用，如分布式图存储（GraphX、Pregel）、图算法（最短路径、社区发现）及在社交网络、知识图谱、推荐系统中的实践。</p>
-</li>
-<li>
-<p>理解BIM数据管理与存储技术，熟悉STEP/IFC标准、BIM模型组成（几何、语义、属性）及版本化管理，能结合NoSQL、图数据库与LSM-tree系统实现BIM数据的解析、存储、检索与跨专业协同分析，支撑数字孪生与智能建造应用。</p>
-</li>
-</ol><h2>教学方式</h2><p>课堂教学+项目安排</p><h2>教学内容与进度安排</h2><p><strong>教学内容与进度安排</strong>：</p>
-<p><strong>第1-2周</strong>：XML数据存储</p>
-<p><strong>第3-4周</strong>：XML数据查询</p>
-<p><strong>第5-7周</strong>：半结构化数据处理——XML/JSON解析、Schema设计、查询与转换技术</p>
-<p><strong>第8-10周</strong>：LSM-tree-Based Systems 专题，包括典型系统</p>
-<p><strong>第11-13周</strong>：图数据模型与基础理论, 图数据高级管理与应用</p>
-<p><strong>第14-16周</strong>：STEP与 BIM数据管理与存储技术</p>
-<p> </p>
+<!doctype html><html lang="zh-CN"><meta charset="utf-8"><title>半结构与非结构数据管理与分析 · 谈子敬、周向东 · 2026春 CS70014.01</title><style>body{max-width:1000px;margin:35px auto;padding:0 20px;font:16px/1.9 system-ui}table{border-collapse:collapse}td,th{border:1px solid #cad7cf;padding:8px}img{max-width:100%}</style><body><h1>半结构与非结构数据管理与分析</h1><p>2026春 · CS70014.01 · 谈子敬、周向东</p><p>来源：复旦教务系统教学班大纲。</p><h2>考核与成绩构成</h2><ul><li>汇报Presentation 30.0% </li><li>课题论文Research Paper 70.0% </li></ul><h2>课程简介（中文）</h2><p>本课程聚焦半结构化（XML、JSON）与非结构化数据（文本、图像）的管理与分析，讲解数据特性、NoSQL存储模型（含基于LSM树的系统如LevelDB，及文档/图数据库），以及信息抽取、文本挖掘、多模态分析等技术。通过实践，培养复杂数据处理能力，解锁非传统数据价值。</p><h2>课程简介（英文）</h2><p>This course explores managing and analyzing semi-structured (XML, JSON) and unstructured data (text, images). It covers data traits, NoSQL storage models, including LSM-tree-based systems (e.g., LevelDB) and document/graph databases, and techniques like info extraction, text mining, and multimodal analysis. Hands-on practice builds skills to handle complex data and unlock non-traditional value.</p><h2>教学目标</h2><p><strong>教学目标</strong>：</p>
+<ol>
+<li>
+<p>掌握半结构化（XML、JSON等）与非结构化数据（文本、图像、BIM模型等）的特征、分类及在建筑、制造、互联网等领域的典型应用场景，能辨析其与结构化数据的差异与管理难点。</p>
+</li>
+<li>
+<p>理解NoSQL存储模型的核心原理与选型方法，包括基于LSM树的系统（LevelDB、RocksDB）、文档数据库（MongoDB）及图数据库（Neo4j）的架构特性、适用场景与性能权衡。</p>
+</li>
+<li>
+<p>理解图数据模型（属性图、RDF）与基础理论（图遍历、中心性指标等），掌握图数据高级管理与应用，如分布式图存储（GraphX、Pregel）、图算法（最短路径、社区发现）及在社交网络、知识图谱、推荐系统中的实践。</p>
+</li>
+<li>
+<p>理解BIM数据管理与存储技术，熟悉STEP/IFC标准、BIM模型组成（几何、语义、属性）及版本化管理，能结合NoSQL、图数据库与LSM-tree系统实现BIM数据的解析、存储、检索与跨专业协同分析，支撑数字孪生与智能建造应用。</p>
+</li>
+</ol><h2>教学方式</h2><p>课堂教学+项目安排</p><h2>教学内容与进度安排</h2><p><strong>教学内容与进度安排</strong>：</p>
+<p><strong>第1-2周</strong>：XML数据存储</p>
+<p><strong>第3-4周</strong>：XML数据查询</p>
+<p><strong>第5-7周</strong>：半结构化数据处理——XML/JSON解析、Schema设计、查询与转换技术</p>
+<p><strong>第8-10周</strong>：LSM-tree-Based Systems 专题，包括典型系统</p>
+<p><strong>第11-13周</strong>：图数据模型与基础理论, 图数据高级管理与应用</p>
+<p><strong>第14-16周</strong>：STEP与 BIM数据管理与存储技术</p>
+<p> </p>
 <p> </p><h2>课程考核与成绩评定</h2><h2>教材</h2><h2>教学参考资料</h2><h2>教学团队成员</h2></body></html>

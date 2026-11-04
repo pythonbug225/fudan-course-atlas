@@ -1,213 +1,213 @@
-<!doctype html><html lang="zh-CN"><meta charset="utf-8"><title>GPU程序设计 · 周雅倩 · 2025秋 CS50014.01</title><style>body{max-width:1000px;margin:35px auto;padding:0 20px;font:16px/1.9 system-ui}table{border-collapse:collapse}td,th{border:1px solid #cad7cf;padding:8px}img{max-width:100%}</style><body><h1>GPU程序设计</h1><p>2025秋 · CS50014.01 · 周雅倩</p><p>来源：复旦教务系统教学班大纲。</p><h2>考核与成绩构成</h2><ul><li>课堂表现Participation 20.0% 参加课堂研讨，根据研讨的质量进行评分</li><li>作业/实验/实践Assignment 30.0% 3次实验，每次10分</li><li>课题论文Research Paper 50.0% 期末提交课程论文，根据论文的质量进行评分</li></ul><h2>课程简介（中文）</h2><p>本课程基于CUDA C语言，教授使用GPU来进行高性能并行计算的技能。课程涵盖了CUDA的基本概念，包括核函数的编写、内存管理、线程协作等方面，同时注重实际应用案例的演练和对最新研究进展的了解。学生将有机会通过实际项目深入理解CUDA C，提高并行计算的编程技能。</p><h2>课程简介（英文）</h2><p>This course, based on CUDA C, teaches the skills of using GPUs for high-performance parallel computing. It covers the fundamental concepts of CUDA, including kernel function programming, memory management, thread collaboration, and more, while emphasizing hands-on practice with real-world applications and keeping up with the latest research advancements. Students will have the opportunity to deepen their understanding of CUDA C through practical projects and enhance their parallel computing programming skills.</p><h2>教学目标</h2><p>本课程的教学目标是使学生全面掌握使用CUDA进行高性能并行计算的关键概念和技能。通过该课程，学生将深入理解NVIDIA GPU架构，了解CUDA编程模型，包括核函数、线程层次结构和内存模型，熟练使用CUDA C语言编写高效的并行程序，学习并行计算的性能优化技巧，将所学的CUDA C知识应用于解决实际问题以及了解最新研究进展。</p><h2>教学方式</h2><p>课堂讲授和课堂研讨</p><h2>教学内容与进度安排</h2><table width="637">
-<tbody>
-<tr>
-<td width="45">
-<p><strong>课次</strong></p>
-<p>No.</p>
-</td>
-<td width="66">
-<p><strong>教学周</strong></p>
-<p>Week</p>
-</td>
-<td width="340">
-<p><strong>教学内容及预期效果</strong></p>
-<p>Content &amp; Expected Achievement</p>
-</td>
-<td width="186">
-<p><strong>作业</strong><strong>/</strong><strong>实验</strong></p>
-<p>Assignment</p>
-</td>
-</tr>
-<tr>
-<td width="45">
-<p>1</p>
-</td>
-<td width="66">
-<p>1-2</p>
-</td>
-<td width="340">
-<p>基于CUDA的异构并行计算简介：编程模型和执行模型</p>
-</td>
-<td width="186">
-<p>1.CUDA环境搭建和基础编程</p>
-</td>
-</tr>
-<tr>
-<td width="45">
-<p>2</p>
-</td>
-<td width="66">
-<p>3-4</p>
-</td>
-<td width="340">
-<p>内存模型：全局内存，共享内存和常量内存</p>
-</td>
-<td width="186">
-<p> </p>
-</td>
-</tr>
-<tr>
-<td width="45">
-<p>3</p>
-</td>
-<td width="66">
-<p>5</p>
-</td>
-<td width="340">
-<p>线程管理：流和并发</p>
-</td>
-<td width="186">
-<p>2.共享内存和线程协作</p>
-</td>
-</tr>
-<tr>
-<td width="45">
-<p>4</p>
-</td>
-<td width="66">
-<p>6</p>
-</td>
-<td width="340">调试工具和性能优化</td>
-<td width="186">
-<p> </p>
-</td>
-</tr>
-<tr>
-<td width="45">
-<p>5</p>
-</td>
-<td width="66">
-<p>7-8</p>
-</td>
-<td width="340">
-<p>GPU加速库和Pytorch连接</p>
-</td>
-<td width="186">
-<p> </p>
-</td>
-</tr>
-<tr>
-<td width="45">
-<p>6</p>
-</td>
-<td width="66">
-<p>9-10</p>
-</td>
-<td width="340">
-<p>多GPU编程和深度神经网络</p>
-</td>
-<td width="186">
-<p>3.深度学习任务实践（结合算子融合优化）</p>
-</td>
-</tr>
-<tr>
-<td width="45">
-<p>7</p>
-</td>
-<td width="66">
-<p>11-14</p>
-</td>
-<td width="340">
-<p>基于CUDA的性能优化实践研讨</p>
-</td>
-<td width="186">
-<p> </p>
-</td>
-</tr>
-<tr>
-<td width="45">
-<p>8</p>
-</td>
-<td width="66">
-<p>15-18</p>
-</td>
-<td width="340">
-<p>GPU并行计算最新研究进展研讨</p>
-</td>
-<td width="186">
-<p> </p>
-</td>
-</tr>
-</tbody>
-</table><h2>课程考核与成绩评定</h2><h2>教材</h2><h2>教学参考资料</h2><table width="637">
-<tbody>
-<tr>
-<td width="45">
-<p><strong>序号</strong></p>
-<p>No.</p>
-</td>
-<td width="139">
-<p><strong>名称</strong></p>
-<p>Title</p>
-</td>
-<td width="75">
-<p><strong>作者</strong></p>
-<p>Author(s)</p>
-</td>
-<td width="94">
-<p><strong>标准号码</strong></p>
-<p>ISBN/DIO</p>
-</td>
-<td width="108">
-<p><strong>出版机构</strong></p>
-<p>Publisher</p>
-</td>
-<td width="85">
-<p><strong>出版日期</strong></p>
-<p>Publication Date</p>
-</td>
-<td width="92">
-<p><strong>是否必读</strong></p>
-<p>Mandatory or Elective</p>
-</td>
-</tr>
-<tr>
-<td width="45">
-<p><strong>1</strong></p>
-</td>
-<td width="139">
-<p>CUDA C++ Programming Guide</p>
-</td>
-<td width="75">
-<p> </p>
-</td>
-<td width="94">
-<p>https://docs.nvidia.com/cuda/cuda-c-programming-guide</p>
-</td>
-<td width="108">
-<p>NVIDIA</p>
-<p> </p>
-</td>
-<td width="85">
-<p>2023</p>
-</td>
-<td width="92">
-<p>否</p>
-</td>
-</tr>
-<tr>
-<td width="45">
-<p><strong>2</strong></p>
-</td>
-<td width="139">
-<p>C++ Best Practices Guide</p>
-</td>
-<td width="75">
-<p> </p>
-</td>
-<td width="94">
-<p>https://docs.nvidia.com/cuda/cuda-c-best-practices-guide</p>
-</td>
-<td width="108">
-<p>NVIDIA</p>
-<p> </p>
-</td>
-<td width="85">
-<p>2023</p>
-</td>
-<td width="92">
-<p>否</p>
-</td>
-</tr>
-</tbody>
+<!doctype html><html lang="zh-CN"><meta charset="utf-8"><title>GPU程序设计 · 周雅倩 · 2025秋 CS50014.01</title><style>body{max-width:1000px;margin:35px auto;padding:0 20px;font:16px/1.9 system-ui}table{border-collapse:collapse}td,th{border:1px solid #cad7cf;padding:8px}img{max-width:100%}</style><body><h1>GPU程序设计</h1><p>2025秋 · CS50014.01 · 周雅倩</p><p>来源：复旦教务系统教学班大纲。</p><h2>考核与成绩构成</h2><ul><li>课堂表现Participation 20.0% 参加课堂研讨，根据研讨的质量进行评分</li><li>作业/实验/实践Assignment 30.0% 3次实验，每次10分</li><li>课题论文Research Paper 50.0% 期末提交课程论文，根据论文的质量进行评分</li></ul><h2>课程简介（中文）</h2><p>本课程基于CUDA C语言，教授使用GPU来进行高性能并行计算的技能。课程涵盖了CUDA的基本概念，包括核函数的编写、内存管理、线程协作等方面，同时注重实际应用案例的演练和对最新研究进展的了解。学生将有机会通过实际项目深入理解CUDA C，提高并行计算的编程技能。</p><h2>课程简介（英文）</h2><p>This course, based on CUDA C, teaches the skills of using GPUs for high-performance parallel computing. It covers the fundamental concepts of CUDA, including kernel function programming, memory management, thread collaboration, and more, while emphasizing hands-on practice with real-world applications and keeping up with the latest research advancements. Students will have the opportunity to deepen their understanding of CUDA C through practical projects and enhance their parallel computing programming skills.</p><h2>教学目标</h2><p>本课程的教学目标是使学生全面掌握使用CUDA进行高性能并行计算的关键概念和技能。通过该课程，学生将深入理解NVIDIA GPU架构，了解CUDA编程模型，包括核函数、线程层次结构和内存模型，熟练使用CUDA C语言编写高效的并行程序，学习并行计算的性能优化技巧，将所学的CUDA C知识应用于解决实际问题以及了解最新研究进展。</p><h2>教学方式</h2><p>课堂讲授和课堂研讨</p><h2>教学内容与进度安排</h2><table width="637">
+<tbody>
+<tr>
+<td width="45">
+<p><strong>课次</strong></p>
+<p>No.</p>
+</td>
+<td width="66">
+<p><strong>教学周</strong></p>
+<p>Week</p>
+</td>
+<td width="340">
+<p><strong>教学内容及预期效果</strong></p>
+<p>Content &amp; Expected Achievement</p>
+</td>
+<td width="186">
+<p><strong>作业</strong><strong>/</strong><strong>实验</strong></p>
+<p>Assignment</p>
+</td>
+</tr>
+<tr>
+<td width="45">
+<p>1</p>
+</td>
+<td width="66">
+<p>1-2</p>
+</td>
+<td width="340">
+<p>基于CUDA的异构并行计算简介：编程模型和执行模型</p>
+</td>
+<td width="186">
+<p>1.CUDA环境搭建和基础编程</p>
+</td>
+</tr>
+<tr>
+<td width="45">
+<p>2</p>
+</td>
+<td width="66">
+<p>3-4</p>
+</td>
+<td width="340">
+<p>内存模型：全局内存，共享内存和常量内存</p>
+</td>
+<td width="186">
+<p> </p>
+</td>
+</tr>
+<tr>
+<td width="45">
+<p>3</p>
+</td>
+<td width="66">
+<p>5</p>
+</td>
+<td width="340">
+<p>线程管理：流和并发</p>
+</td>
+<td width="186">
+<p>2.共享内存和线程协作</p>
+</td>
+</tr>
+<tr>
+<td width="45">
+<p>4</p>
+</td>
+<td width="66">
+<p>6</p>
+</td>
+<td width="340">调试工具和性能优化</td>
+<td width="186">
+<p> </p>
+</td>
+</tr>
+<tr>
+<td width="45">
+<p>5</p>
+</td>
+<td width="66">
+<p>7-8</p>
+</td>
+<td width="340">
+<p>GPU加速库和Pytorch连接</p>
+</td>
+<td width="186">
+<p> </p>
+</td>
+</tr>
+<tr>
+<td width="45">
+<p>6</p>
+</td>
+<td width="66">
+<p>9-10</p>
+</td>
+<td width="340">
+<p>多GPU编程和深度神经网络</p>
+</td>
+<td width="186">
+<p>3.深度学习任务实践（结合算子融合优化）</p>
+</td>
+</tr>
+<tr>
+<td width="45">
+<p>7</p>
+</td>
+<td width="66">
+<p>11-14</p>
+</td>
+<td width="340">
+<p>基于CUDA的性能优化实践研讨</p>
+</td>
+<td width="186">
+<p> </p>
+</td>
+</tr>
+<tr>
+<td width="45">
+<p>8</p>
+</td>
+<td width="66">
+<p>15-18</p>
+</td>
+<td width="340">
+<p>GPU并行计算最新研究进展研讨</p>
+</td>
+<td width="186">
+<p> </p>
+</td>
+</tr>
+</tbody>
+</table><h2>课程考核与成绩评定</h2><h2>教材</h2><h2>教学参考资料</h2><table width="637">
+<tbody>
+<tr>
+<td width="45">
+<p><strong>序号</strong></p>
+<p>No.</p>
+</td>
+<td width="139">
+<p><strong>名称</strong></p>
+<p>Title</p>
+</td>
+<td width="75">
+<p><strong>作者</strong></p>
+<p>Author(s)</p>
+</td>
+<td width="94">
+<p><strong>标准号码</strong></p>
+<p>ISBN/DIO</p>
+</td>
+<td width="108">
+<p><strong>出版机构</strong></p>
+<p>Publisher</p>
+</td>
+<td width="85">
+<p><strong>出版日期</strong></p>
+<p>Publication Date</p>
+</td>
+<td width="92">
+<p><strong>是否必读</strong></p>
+<p>Mandatory or Elective</p>
+</td>
+</tr>
+<tr>
+<td width="45">
+<p><strong>1</strong></p>
+</td>
+<td width="139">
+<p>CUDA C++ Programming Guide</p>
+</td>
+<td width="75">
+<p> </p>
+</td>
+<td width="94">
+<p>https://docs.nvidia.com/cuda/cuda-c-programming-guide</p>
+</td>
+<td width="108">
+<p>NVIDIA</p>
+<p> </p>
+</td>
+<td width="85">
+<p>2023</p>
+</td>
+<td width="92">
+<p>否</p>
+</td>
+</tr>
+<tr>
+<td width="45">
+<p><strong>2</strong></p>
+</td>
+<td width="139">
+<p>C++ Best Practices Guide</p>
+</td>
+<td width="75">
+<p> </p>
+</td>
+<td width="94">
+<p>https://docs.nvidia.com/cuda/cuda-c-best-practices-guide</p>
+</td>
+<td width="108">
+<p>NVIDIA</p>
+<p> </p>
+</td>
+<td width="85">
+<p>2023</p>
+</td>
+<td width="92">
+<p>否</p>
+</td>
+</tr>
+</tbody>
 </table><h2>教学团队成员</h2></body></html>

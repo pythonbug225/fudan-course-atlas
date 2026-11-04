@@ -1,151 +1,151 @@
-<!doctype html><html lang="zh-CN"><meta charset="utf-8"><title>大模型数据工程 · 周宝健、梁家卿、肖仰华、郭宏成 · 2026春 AIS531007.01</title><style>body{max-width:1000px;margin:35px auto;padding:0 20px;font:16px/1.9 system-ui}table{border-collapse:collapse}td,th{border:1px solid #cad7cf;padding:8px}img{max-width:100%}</style><body><h1>大模型数据工程</h1><p>2026春 · AIS531007.01 · 周宝健、梁家卿、肖仰华、郭宏成</p><p>来源：复旦教务系统教学班大纲。</p><h2>考核与成绩构成</h2><ul><li>出勤Attendance 5.0% 考勤</li><li>课堂表现Participation 5.0% 提问</li><li>作业/实验/实践Assignment 30.0% 课程project</li><li>课题论文Research Paper 60.0% 完成度</li></ul><h2>课程简介（中文）</h2><p>本课程《大模型数据工程》分为理论技术与实践案例两大核心部分。理论部分由计算与智能创新学院的肖仰华教授、蒋思航博士后，以及大数据学院的梁家卿青年副研究员、周宝健青年副研究员、郭宏成助理教授联合主讲，涵盖大模型在数据工程领域的最新进展。课程系统介绍以数据为中心的人工智能（DCAI）框架、数据治理体系与数据工程生命周期，深入讲解训练语料构建与清洗、指令数据合成与优化、思维链（CoT）与推理数据增强、多模态数据工程、以及面向Agent与RAG应用的数据优化等前沿理论与方法 。</p>
-<div> </div>
-<p>注意到本领域仍处在快速发展与变化之中，本课程内容设置分为基础篇和进阶篇两阶段。基础篇涵盖语料工程与指令工程，内容相对稳定，已经初步形成工业界共识；进阶篇涵盖思维增强、多模态处理及认知进化等内容，紧扣学术发展动态进行灵活调整与扩充。同时课程将结合工业界实践，一方面拓展学生学术视野，另一方面根据本领域发展动态灵活调整其主题与内容。课程注重实际操作能力的培养，通过技术报告和实践项目等多样化形式进行学习成果的考察。课程总计2学时，面向有计算机基础知识的本科生、硕士生和博士生开放。</p><h2>课程简介（英文）</h2><p>This course, &quot;Data Engineering of Foundation Models&quot; is composed of theoretical techniques and practical cases, jointly delivered by Professor Xiao Yanghua and Postdoctoral Fellow Jiang Sihang from College of Computer Science and Artificial Intelligence, alongside Young Associate Researchers Liang Jiaqing and Zhou Baojian, and Assistant Professor Guo Hongcheng from School of Data Science. The curriculum systematically introduces the Data-Centric AI (DCAI) framework, data governance systems, and the data engineering lifecycle. It provides in-depth instruction on cutting-edge theories and methods, including training corpus construction and cleaning, instruction data synthesis and optimization, Chain-of-Thought (CoT) reasoning enhancement, multimodal data engineering, and data optimization for Agent and RAG (Retrieval-Augmented Generation) applications.</p>
-<p>Given the rapid evolution of this field, the course is divided into a &quot;Basic Phase&quot; covering corpus and instruction engineering with established industrial consensus, and an &quot;Advanced Phase&quot; exploring dynamic topics like thinking enhancement, multimodal processing, and cognitive evolution. By integrating industrial practice to broaden academic horizons, the course flexibly adjusts themes to align with emerging trends and emphasizes practical operational skills through technical reports and projects. The course awards 2 credits and is open to undergraduate, master&#x27;s, and doctoral students with a background in computer science.</p><h2>教学目标</h2><p>《大模型数据工程》专注于深化学生对大规模语言模型数据工程核心技术的理解，强调数据治理在模型训练、优化和应用中的关键作用。学生将通过本课程理解大模型数据治理体系、数据工程生命周期、数据评价标准、大模型评测体系，掌握训练语料数据集构建、指令数据构造、大模型评测、大模型能力优化等方法，从而胜任大模型落地繁杂数据工程的要求。课程将结合本领域的学术前沿与工业界进展，帮助学生建立大模型数据工程的系统观念，培养学用从事大模型数据治理的实践能力。同时培养学生的开放的学术视野和跨学科的创新思维。</p><h2>教学方式</h2><p><span><span>本课程采取专家联合理论讲授与工业界前沿案例剖析相结合的教学模式，通过基础与进阶分层教学、技术调研报告撰写及全流程实践项目等多元化组织形式，全方位培养学生在大模型数据工程领域的系统思维与实战创新能力 </span></span><span>。</span></p><h2>教学内容与进度安排</h2><table>
-<thead>
-<tr>
-<td><strong>课次/模块 (No.)</strong></td>
-<td><strong>教学周 (Week)</strong></td>
-<td><strong>教学内容 (Content)</strong></td>
-<td><strong>作业/练习 (Assignment)</strong></td>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><span><strong>1 大模型与DCAI概述</strong></span></td>
-<td><span>1</span></td>
-<td>
-<p><span><span>介绍大模型的基本概念与关键要素，引入“以数据为中心的人工智能”（DCAI）框架，阐述DCAI的必要性、学术与工业界动态，以及真实世界数据的挑战 </span></span><span>。</span></p>
-<p> </p>
-</td>
-<td><span>文献阅读</span></td>
-</tr>
-<tr>
-<td><span><strong>2 数据基础设施与治理</strong></span></td>
-<td><span>2</span></td>
-<td>
-<p><span><span>讲解训练数据与推理数据的开发流程（特征化、开发、维护），介绍数据质量评估标准、DCAI评测集构建，以及数据偏差、公平性与分布偏移分析 </span></span><span>。</span></p>
-<p> </p>
-</td>
-<td><span>文献阅读</span></td>
-</tr>
-<tr>
-<td><span><strong>3 大模型语料工程(一)</strong></span></td>
-<td><span>3</span></td>
-<td>
-<p> </p>
-<p><span><strong><span>语料组织与合成</span></strong><span>：介绍语料的分级分类标签体系与知识映射，深入讲解语料合成的必要性、合成技术及合成语料的质量控制与多样性评估 </span></span><span>。</span></p>
-<p> </p>
-</td>
-<td><span>文献阅读</span></td>
-</tr>
-<tr>
-<td><span><strong>4 大模型语料工程(二)</strong></span></td>
-<td><span>4</span></td>
-<td>
-<p> </p>
-<p><span><strong><span>语料清洗与优化</span></strong><span>：详述数据清洗（去重/去噪/切割）与合规处理（脱敏/敏感过滤），介绍语料采样与配比优化策略，以及支持持续学习的数据方法 </span></span><span>。</span></p>
-<p> </p>
-</td>
-<td><span>文献阅读</span></td>
-</tr>
-<tr>
-<td><span><strong>5 大模型指令工程(一)</strong></span></td>
-<td><span>5</span></td>
-<td>
-<p> </p>
-<p><span><strong><span>指令体系与合成</span></strong><span>：介绍指令数据的分级分类与评估标准，重点讲解模型提示合成法、进化迭代合成法、知识蒸馏与对抗训练等合成技术 </span></span><span>。</span></p>
-<p> </p>
-</td>
-<td><span>文献阅读</span></td>
-</tr>
-<tr>
-<td><span><strong>6 大模型指令工程(二)</strong></span></td>
-<td><span>6</span></td>
-<td>
-<p> </p>
-<p><span><strong><span>指令筛选与训练</span></strong><span>：讲解规则驱动与LLM驱动的指令筛选方法，介绍指令微调（SFT）与直接偏好优化（DPO）的数据策略及多任务混合训练 </span></span><span>。</span></p>
-<p> </p>
-</td>
-<td><span>文献阅读</span></td>
-</tr>
-<tr>
-<td><span><strong>7 思维与推理增强(一)</strong></span></td>
-<td><span>7</span></td>
-<td>
-<p> </p>
-<p><span><strong><span>思维数据构造</span></strong><span>：介绍大模型的思维机制与反思能力，讲解基于大模型的思维链（CoT）数据合成、采样策略及思维路径构造方法 </span></span><span>。</span></p>
-<p> </p>
-</td>
-<td><span>研究报告</span></td>
-</tr>
-<tr>
-<td><span><strong>8 思维与推理增强(二)</strong></span></td>
-<td><span>8</span></td>
-<td>
-<p> </p>
-<p><span><strong><span>验证与反馈优化</span></strong><span>：深入讲解结果验证器与过程验证器（Process Reward Model）的训练，介绍基于过程反馈的强化学习（RLVR）与在线/后反思机制 </span></span><span>。</span></p>
-<p> </p>
-</td>
-<td><span>研究报告</span></td>
-</tr>
-<tr>
-<td><span><strong>9 多模态数据工程(一)</strong></span></td>
-<td><span>9</span></td>
-<td>
-<p> </p>
-<p><span><strong><span>多模态数据处理</span></strong><span>：概述多模态大模型的数据驱动阶段，详述图文/视频数据的收集、过滤、去重技术，介绍视觉信息描述与多模态对齐增强方法 </span></span><span>。</span></p>
-<p> </p>
-</td>
-<td><span>研究报告</span></td>
-</tr>
-<tr>
-<td><span><strong>10 多模态数据工程(二)</strong></span></td>
-<td><span>10</span></td>
-<td>
-<p> </p>
-<p><span><strong><span>多模态指令与幻觉</span></strong><span>：讲解多模态指令微调数据的生成、精炼与适配，探讨多模态数据的混合策略、质量评估及多模态幻觉的数据治理 </span></span><span>。</span></p>
-<p> </p>
-</td>
-<td><span>研究报告</span></td>
-</tr>
-<tr>
-<td><span><strong>11 应用数据工程(一)</strong></span></td>
-<td><span>11</span></td>
-<td>
-<p> </p>
-<p><span><strong><span>Agent数据与规划</span></strong><span>：针对Agent应用，讲解工具调用、环境反馈与规划（Planning）数据的构建，介绍模拟环境与真实世界数据的合成与评估 </span></span><span>。</span></p>
-<p> </p>
-</td>
-<td><span>研究报告</span></td>
-</tr>
-<tr>
-<td><span><strong>12 应用数据工程(二)</strong></span></td>
-<td><span>12</span></td>
-<td>
-<p> </p>
-<p><span><strong><span>RAG数据优化</span></strong><span>：针对RAG系统，介绍文档索引、检索排序、上下文增强的数据优化方法，讲解数据驱动的检索、归因与引用能力评估 </span></span><span>。</span></p>
-<p> </p>
-</td>
-<td><span>研究报告</span></td>
-</tr>
-<tr>
-<td><span><strong>13&amp;14 大模型的认知增强(一)</strong></span></td>
-<td><span>13、14</span></td>
-<td>
-<p> </p>
-<p><span><strong><span>社会与心理认知</span></strong><span>：介绍类人认知评测与Benchmark，重点讲解社会认知、心理认知（Theory of Mind）、文化认知的数据构建与优化方法 </span></span><span>。<strong><span>高阶认知与人格</span></strong><span>：</span><span>探讨好奇心、创造力与泛化能力的数据支撑，讲解大模型角色认知（Role）、性格（Personality）与人格化的数据工程方法 </span>。</span></p>
-<p> </p>
-</td>
-<td><span>研究报告</span></td>
-</tr>
-<tr>
-<td><span><strong>15&amp;16 前沿趋势与分享</strong></span></td>
-<td><span>15、16</span></td>
-<td>
-<p><span><span>探讨大模型的过程自进化、数据靶向优化与归因溯源 </span></span><span>；拟邀请工业界专家进行特邀讲座或安排项目汇报。</span></p>
-</td>
-<td><span>无</span></td>
-</tr>
-</tbody>
+<!doctype html><html lang="zh-CN"><meta charset="utf-8"><title>大模型数据工程 · 周宝健、梁家卿、肖仰华、郭宏成 · 2026春 AIS531007.01</title><style>body{max-width:1000px;margin:35px auto;padding:0 20px;font:16px/1.9 system-ui}table{border-collapse:collapse}td,th{border:1px solid #cad7cf;padding:8px}img{max-width:100%}</style><body><h1>大模型数据工程</h1><p>2026春 · AIS531007.01 · 周宝健、梁家卿、肖仰华、郭宏成</p><p>来源：复旦教务系统教学班大纲。</p><h2>考核与成绩构成</h2><ul><li>出勤Attendance 5.0% 考勤</li><li>课堂表现Participation 5.0% 提问</li><li>作业/实验/实践Assignment 30.0% 课程project</li><li>课题论文Research Paper 60.0% 完成度</li></ul><h2>课程简介（中文）</h2><p>本课程《大模型数据工程》分为理论技术与实践案例两大核心部分。理论部分由计算与智能创新学院的肖仰华教授、蒋思航博士后，以及大数据学院的梁家卿青年副研究员、周宝健青年副研究员、郭宏成助理教授联合主讲，涵盖大模型在数据工程领域的最新进展。课程系统介绍以数据为中心的人工智能（DCAI）框架、数据治理体系与数据工程生命周期，深入讲解训练语料构建与清洗、指令数据合成与优化、思维链（CoT）与推理数据增强、多模态数据工程、以及面向Agent与RAG应用的数据优化等前沿理论与方法 。</p>
+<div> </div>
+<p>注意到本领域仍处在快速发展与变化之中，本课程内容设置分为基础篇和进阶篇两阶段。基础篇涵盖语料工程与指令工程，内容相对稳定，已经初步形成工业界共识；进阶篇涵盖思维增强、多模态处理及认知进化等内容，紧扣学术发展动态进行灵活调整与扩充。同时课程将结合工业界实践，一方面拓展学生学术视野，另一方面根据本领域发展动态灵活调整其主题与内容。课程注重实际操作能力的培养，通过技术报告和实践项目等多样化形式进行学习成果的考察。课程总计2学时，面向有计算机基础知识的本科生、硕士生和博士生开放。</p><h2>课程简介（英文）</h2><p>This course, &quot;Data Engineering of Foundation Models&quot; is composed of theoretical techniques and practical cases, jointly delivered by Professor Xiao Yanghua and Postdoctoral Fellow Jiang Sihang from College of Computer Science and Artificial Intelligence, alongside Young Associate Researchers Liang Jiaqing and Zhou Baojian, and Assistant Professor Guo Hongcheng from School of Data Science. The curriculum systematically introduces the Data-Centric AI (DCAI) framework, data governance systems, and the data engineering lifecycle. It provides in-depth instruction on cutting-edge theories and methods, including training corpus construction and cleaning, instruction data synthesis and optimization, Chain-of-Thought (CoT) reasoning enhancement, multimodal data engineering, and data optimization for Agent and RAG (Retrieval-Augmented Generation) applications.</p>
+<p>Given the rapid evolution of this field, the course is divided into a &quot;Basic Phase&quot; covering corpus and instruction engineering with established industrial consensus, and an &quot;Advanced Phase&quot; exploring dynamic topics like thinking enhancement, multimodal processing, and cognitive evolution. By integrating industrial practice to broaden academic horizons, the course flexibly adjusts themes to align with emerging trends and emphasizes practical operational skills through technical reports and projects. The course awards 2 credits and is open to undergraduate, master&#x27;s, and doctoral students with a background in computer science.</p><h2>教学目标</h2><p>《大模型数据工程》专注于深化学生对大规模语言模型数据工程核心技术的理解，强调数据治理在模型训练、优化和应用中的关键作用。学生将通过本课程理解大模型数据治理体系、数据工程生命周期、数据评价标准、大模型评测体系，掌握训练语料数据集构建、指令数据构造、大模型评测、大模型能力优化等方法，从而胜任大模型落地繁杂数据工程的要求。课程将结合本领域的学术前沿与工业界进展，帮助学生建立大模型数据工程的系统观念，培养学用从事大模型数据治理的实践能力。同时培养学生的开放的学术视野和跨学科的创新思维。</p><h2>教学方式</h2><p><span><span>本课程采取专家联合理论讲授与工业界前沿案例剖析相结合的教学模式，通过基础与进阶分层教学、技术调研报告撰写及全流程实践项目等多元化组织形式，全方位培养学生在大模型数据工程领域的系统思维与实战创新能力 </span></span><span>。</span></p><h2>教学内容与进度安排</h2><table>
+<thead>
+<tr>
+<td><strong>课次/模块 (No.)</strong></td>
+<td><strong>教学周 (Week)</strong></td>
+<td><strong>教学内容 (Content)</strong></td>
+<td><strong>作业/练习 (Assignment)</strong></td>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><span><strong>1 大模型与DCAI概述</strong></span></td>
+<td><span>1</span></td>
+<td>
+<p><span><span>介绍大模型的基本概念与关键要素，引入“以数据为中心的人工智能”（DCAI）框架，阐述DCAI的必要性、学术与工业界动态，以及真实世界数据的挑战 </span></span><span>。</span></p>
+<p> </p>
+</td>
+<td><span>文献阅读</span></td>
+</tr>
+<tr>
+<td><span><strong>2 数据基础设施与治理</strong></span></td>
+<td><span>2</span></td>
+<td>
+<p><span><span>讲解训练数据与推理数据的开发流程（特征化、开发、维护），介绍数据质量评估标准、DCAI评测集构建，以及数据偏差、公平性与分布偏移分析 </span></span><span>。</span></p>
+<p> </p>
+</td>
+<td><span>文献阅读</span></td>
+</tr>
+<tr>
+<td><span><strong>3 大模型语料工程(一)</strong></span></td>
+<td><span>3</span></td>
+<td>
+<p> </p>
+<p><span><strong><span>语料组织与合成</span></strong><span>：介绍语料的分级分类标签体系与知识映射，深入讲解语料合成的必要性、合成技术及合成语料的质量控制与多样性评估 </span></span><span>。</span></p>
+<p> </p>
+</td>
+<td><span>文献阅读</span></td>
+</tr>
+<tr>
+<td><span><strong>4 大模型语料工程(二)</strong></span></td>
+<td><span>4</span></td>
+<td>
+<p> </p>
+<p><span><strong><span>语料清洗与优化</span></strong><span>：详述数据清洗（去重/去噪/切割）与合规处理（脱敏/敏感过滤），介绍语料采样与配比优化策略，以及支持持续学习的数据方法 </span></span><span>。</span></p>
+<p> </p>
+</td>
+<td><span>文献阅读</span></td>
+</tr>
+<tr>
+<td><span><strong>5 大模型指令工程(一)</strong></span></td>
+<td><span>5</span></td>
+<td>
+<p> </p>
+<p><span><strong><span>指令体系与合成</span></strong><span>：介绍指令数据的分级分类与评估标准，重点讲解模型提示合成法、进化迭代合成法、知识蒸馏与对抗训练等合成技术 </span></span><span>。</span></p>
+<p> </p>
+</td>
+<td><span>文献阅读</span></td>
+</tr>
+<tr>
+<td><span><strong>6 大模型指令工程(二)</strong></span></td>
+<td><span>6</span></td>
+<td>
+<p> </p>
+<p><span><strong><span>指令筛选与训练</span></strong><span>：讲解规则驱动与LLM驱动的指令筛选方法，介绍指令微调（SFT）与直接偏好优化（DPO）的数据策略及多任务混合训练 </span></span><span>。</span></p>
+<p> </p>
+</td>
+<td><span>文献阅读</span></td>
+</tr>
+<tr>
+<td><span><strong>7 思维与推理增强(一)</strong></span></td>
+<td><span>7</span></td>
+<td>
+<p> </p>
+<p><span><strong><span>思维数据构造</span></strong><span>：介绍大模型的思维机制与反思能力，讲解基于大模型的思维链（CoT）数据合成、采样策略及思维路径构造方法 </span></span><span>。</span></p>
+<p> </p>
+</td>
+<td><span>研究报告</span></td>
+</tr>
+<tr>
+<td><span><strong>8 思维与推理增强(二)</strong></span></td>
+<td><span>8</span></td>
+<td>
+<p> </p>
+<p><span><strong><span>验证与反馈优化</span></strong><span>：深入讲解结果验证器与过程验证器（Process Reward Model）的训练，介绍基于过程反馈的强化学习（RLVR）与在线/后反思机制 </span></span><span>。</span></p>
+<p> </p>
+</td>
+<td><span>研究报告</span></td>
+</tr>
+<tr>
+<td><span><strong>9 多模态数据工程(一)</strong></span></td>
+<td><span>9</span></td>
+<td>
+<p> </p>
+<p><span><strong><span>多模态数据处理</span></strong><span>：概述多模态大模型的数据驱动阶段，详述图文/视频数据的收集、过滤、去重技术，介绍视觉信息描述与多模态对齐增强方法 </span></span><span>。</span></p>
+<p> </p>
+</td>
+<td><span>研究报告</span></td>
+</tr>
+<tr>
+<td><span><strong>10 多模态数据工程(二)</strong></span></td>
+<td><span>10</span></td>
+<td>
+<p> </p>
+<p><span><strong><span>多模态指令与幻觉</span></strong><span>：讲解多模态指令微调数据的生成、精炼与适配，探讨多模态数据的混合策略、质量评估及多模态幻觉的数据治理 </span></span><span>。</span></p>
+<p> </p>
+</td>
+<td><span>研究报告</span></td>
+</tr>
+<tr>
+<td><span><strong>11 应用数据工程(一)</strong></span></td>
+<td><span>11</span></td>
+<td>
+<p> </p>
+<p><span><strong><span>Agent数据与规划</span></strong><span>：针对Agent应用，讲解工具调用、环境反馈与规划（Planning）数据的构建，介绍模拟环境与真实世界数据的合成与评估 </span></span><span>。</span></p>
+<p> </p>
+</td>
+<td><span>研究报告</span></td>
+</tr>
+<tr>
+<td><span><strong>12 应用数据工程(二)</strong></span></td>
+<td><span>12</span></td>
+<td>
+<p> </p>
+<p><span><strong><span>RAG数据优化</span></strong><span>：针对RAG系统，介绍文档索引、检索排序、上下文增强的数据优化方法，讲解数据驱动的检索、归因与引用能力评估 </span></span><span>。</span></p>
+<p> </p>
+</td>
+<td><span>研究报告</span></td>
+</tr>
+<tr>
+<td><span><strong>13&amp;14 大模型的认知增强(一)</strong></span></td>
+<td><span>13、14</span></td>
+<td>
+<p> </p>
+<p><span><strong><span>社会与心理认知</span></strong><span>：介绍类人认知评测与Benchmark，重点讲解社会认知、心理认知（Theory of Mind）、文化认知的数据构建与优化方法 </span></span><span>。<strong><span>高阶认知与人格</span></strong><span>：</span><span>探讨好奇心、创造力与泛化能力的数据支撑，讲解大模型角色认知（Role）、性格（Personality）与人格化的数据工程方法 </span>。</span></p>
+<p> </p>
+</td>
+<td><span>研究报告</span></td>
+</tr>
+<tr>
+<td><span><strong>15&amp;16 前沿趋势与分享</strong></span></td>
+<td><span>15、16</span></td>
+<td>
+<p><span><span>探讨大模型的过程自进化、数据靶向优化与归因溯源 </span></span><span>；拟邀请工业界专家进行特邀讲座或安排项目汇报。</span></p>
+</td>
+<td><span>无</span></td>
+</tr>
+</tbody>
 </table><h2>课程考核与成绩评定</h2><h2>教材</h2><h2>教学参考资料</h2><p>使用自编讲义</p><h2>教学团队成员</h2></body></html>

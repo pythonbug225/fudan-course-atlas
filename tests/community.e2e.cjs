@@ -15,8 +15,8 @@ await p.locator('[name=overall]').fill(body);await p.locator('.review-more').nth
 await p.locator('[data-open-submitted]').click();await p.locator('.community-review').waitFor();ok((await p.locator('.community-review').innerText()).includes('尤翀 · 2026春 · 英才班'));ok((await p.locator('.community-review').innerText()).includes('3.5小时'));ok(!await p.evaluate(()=>window.BAD));
 ok(await p.locator('#detail-body a').count()===0);await p.locator('[data-attachment]').click();await p.locator('.attachment-preview pre').waitFor();ok((await p.locator('.attachment-preview pre').innerText()).includes('课程笔记测试'));
 const data=await p.evaluate(()=>fetch('/api/reviews?course=C0055').then(r=>r.json()));const review=data.reviews.find(r=>r.overall===body);ok(!!review);ok(!('author_id' in review));
-const guest=await browser.newContext();const q=await guest.newPage();await q.goto(base+'/index.html');const publicData=await q.evaluate(()=>fetch('/api/reviews?course=C0055').then(r=>r.json()));const persisted=publicData.reviews.find(r=>r.id===review.id);ok(!!persisted);ok(!persisted.mine);
-const attachId=review.files[0].id;ok((await q.request.get(base+'/api/attachments/'+attachId)).status()===200);
+const guest=await browser.newContext();const q=await guest.newPage();await q.goto(base+'/index.html');const publicData=await q.evaluate(()=>fetch('/api/reviews?course=C0055').then(r=>r.json()));const persisted=publicData.reviews.find(r=>r.id===review.id);ok(!persisted);
+const attachId=review.files[0].id;ok((await q.request.get(base+'/api/attachments/'+attachId)).status()===404);
 status=await q.evaluate(async id=>(await fetch('/api/reviews/'+id,{method:'DELETE'})).status,review.id);ok(status===401);
 status=await context.request.post(base+'/api/reviews',{headers:{Origin:'https://other.invalid'}}).then(r=>r.status());ok(status===403);
 await p.locator('[data-delete-review]').evaluate(b=>{window.confirm=()=>true;b.click()});await p.locator('.community-review').waitFor({state:'detached'});ok(true);ok((await q.request.get(base+'/api/attachments/'+attachId)).status()===404);

@@ -1,329 +1,329 @@
-<!doctype html><html lang="zh-CN"><meta charset="utf-8"><title>分布式数据库 · 卢暾 · 2025秋 CS60006.01</title><style>body{max-width:1000px;margin:35px auto;padding:0 20px;font:16px/1.9 system-ui}table{border-collapse:collapse}td,th{border:1px solid #cad7cf;padding:8px}img{max-width:100%}</style><body><h1>分布式数据库</h1><p>2025秋 · CS60006.01 · 卢暾</p><p>来源：复旦教务系统教学班大纲。</p><h2>考核与成绩构成</h2><ul><li>出勤Attendance 15.0% 签到（次数）</li><li>作业/实验/实践Assignment 40.0% 分布式数据库应用项目以及项目报告</li><li>课题论文Research Paper 15.0% 自选课程相关研究主题（前沿、深入、详细、规范等）</li><li>课堂表现Participation 30.0% 研究论文报告（深入、理解、评述、表达等）</li></ul><h2>课程简介（中文）</h2><p>本课程围绕探究构建和管理大规模分布式数据库系统的核心原理、关键技术及前沿实践，内容将系统性地涵盖分布式数据库的架构基础、核心机制与挑战以及前沿发展与融合，培养学生设计、分析与优化高性能、高可靠、可扩展分布式数据系统的能力，以应对现代海量数据与复杂应用场景的挑战。</p><h2>课程简介（英文）</h2><p><span>This course explores the core principles, key technologies, and cutting-edge practices of large-scale distributed database systems. It systematically covers foundational architectures, core mechanisms (distributed transactions, consensus protocols, CAP theory), challenges, and emerging developments (stream processing, AI optimization). Students will develop capabilities to design, analyze, and optimize high-performance, highly reliable, and scalable data systems, enabling them to address challenges posed by modern massive datasets and complex applications.</span></p><h2>教学目标</h2><p>使学生掌握分布式数据库的基本概念、模型和原理、方法和应用技术，掌握分布式数据库管理系统的设计和实现方法，掌握分布式数据库管理系统的查询优化、分布式事务、分布式并发控制以及分布式DBMS可靠性等核心原理、算法和技术，能针对具体应用需求设计和实现可靠的分布式数据库应用。</p><h2>教学方式</h2><p>课堂教学+课程项目</p><h2>教学内容与进度安排</h2><table width="0">
-<tbody>
-<tr>
-<td width="45">
-<p><strong>课次</strong></p>
-</td>
-<td width="57">
-<p><strong>教学周</strong></p>
-</td>
-<td width="406">
-<p><strong>教学内容及预期效果</strong></p>
-</td>
-<td width="130">
-<p><strong>作业</strong><strong>/</strong><strong>实验</strong></p>
-</td>
-</tr>
-<tr>
-<td width="45">
-<p>1</p>
-</td>
-<td width="57">
-<p>1</p>
-</td>
-<td width="406">
-<p>分布式数据库简介；了解分布式数据的起源、概念、研究点，以及应用与发展</p>
-</td>
-<td width="130">
-<p>无</p>
-</td>
-</tr>
-<tr>
-<td width="45">
-<p>2</p>
-</td>
-<td width="57">
-<p>2</p>
-</td>
-<td width="406">
-<p>分布式DBMS体系结构、分布式数据库设计方法-1；掌握分布式数据库的体系结构模型、分布式DBMS体系结构、全局分布式目录等，掌握分布式数据库设计策略、分布式数据库设计的核心问题（分片、分配等）</p>
-</td>
-<td width="130">
-<p>无</p>
-</td>
-</tr>
-<tr>
-<td width="45">
-<p>3</p>
-</td>
-<td width="57">
-<p>3</p>
-</td>
-<td width="406">
-<p>分布式数据库设计方法-2；掌握分布式数据库水平分片和垂直分片（Horizontal/ Vertical Fragmentation）技术，分片分配（Fragmentation Allocation）方法</p>
-</td>
-<td width="130">
-<p>无</p>
-</td>
-</tr>
-<tr>
-<td width="45">
-<p>4</p>
-</td>
-<td width="57">
-<p>4</p>
-</td>
-<td width="406">
-<p>分布式数据库查询优化-1；了解集中式查询优化的核心问题，掌握集中式查询优化的典型算法</p>
-</td>
-<td width="130">
-<p>无</p>
-</td>
-</tr>
-<tr>
-<td width="45">
-<p>5</p>
-</td>
-<td width="57">
-<p>5</p>
-</td>
-<td width="406">
-<p>分布式数据库查询优化-2；了解带分片的分布式连接和半连接操作（Semi-join），掌握典型的分布式查询优化算法</p>
-</td>
-<td width="130">
-<p>无</p>
-</td>
-</tr>
-<tr>
-<td width="45">
-<p>6</p>
-</td>
-<td width="57">
-<p>6</p>
-</td>
-<td width="406">
-<p>分布式事务；了解分布式事务的形式化定义和描述，掌握分布式事务的性质、类型，以及带分布式事务处理的DBMS体系结构</p>
-</td>
-<td width="130">
-<p>无</p>
-</td>
-</tr>
-<tr>
-<td width="45">
-<p>7</p>
-</td>
-<td width="57">
-<p>7</p>
-</td>
-<td width="406">
-<p>分布式并发控制-1；掌握序列化（Serializability）理论、并发控制方法的分类，以及基于Lock的并发控制方法（2PL及其变种）</p>
-</td>
-<td width="130">
-<p>无</p>
-</td>
-</tr>
-<tr>
-<td width="45">
-<p>8</p>
-</td>
-<td width="57">
-<p>8</p>
-</td>
-<td width="406">
-<p>分布式并发控制-2；掌握基于Timestamp的分布式并发控制方法、乐观并发控制算法、死锁管理，以及Relaxed并发控制方法</p>
-</td>
-<td width="130">
-<p>无</p>
-</td>
-</tr>
-<tr>
-<td width="45">
-<p>9</p>
-</td>
-<td width="57">
-<p>9</p>
-</td>
-<td width="406">
-<p>分布式数据库应用项目（订票系统）介绍、讲解和发布</p>
-</td>
-<td width="130">
-<p>课程大项目布置，开始和完成时限：5月份-7月份（与课程并行，课后进行）</p>
-</td>
-</tr>
-<tr>
-<td width="45">
-<p>10</p>
-</td>
-<td width="57">
-<p>10</p>
-</td>
-<td width="406">
-<p>分布式数据库可靠性-1；了解可靠性的概念和度量，分布式系统和DBMS中的失效和容错，掌握本地可靠性协议</p>
-</td>
-<td width="130">
-<p>无</p>
-</td>
-</tr>
-<tr>
-<td width="45">
-<p>11</p>
-</td>
-<td width="57">
-<p>11</p>
-</td>
-<td width="406">
-<p>分布式数据库可靠性-2；掌握分布式可靠性协议（2PC及其变种），站点失效、网络分区等难题的处理等</p>
-</td>
-<td width="130">
-<p>无</p>
-</td>
-</tr>
-<tr>
-<td width="45">
-<p>12</p>
-</td>
-<td width="57">
-<p>12</p>
-</td>
-<td rowspan="4" width="406">
-<p>近年来在数据库、体系结构与操作系统、分布式系统、协同计算、网络等领域的顶级学术会议（SIGMOD、VLDB、PODS、ICDE、PODS、SOSP、PODC、ICDCS、CSCW、ISCA、EuroSys、SIGCOMM、INFOCOM等）和期刊（TPDS、TKDE、JPDC等）上的与本课程主题相关的研究论文分组报告（每周3-4位学生，每位学生45分钟，其中30分钟论文报告，5分钟评述，10分钟问答）</p>
-</td>
-<td width="130">
-<p>无</p>
-</td>
-</tr>
-<tr>
-<td width="45">
-<p>13</p>
-</td>
-<td width="57">
-<p>13</p>
-</td>
-<td width="130">
-<p>无</p>
-</td>
-</tr>
-<tr>
-<td width="45">
-<p>14</p>
-</td>
-<td width="57">
-<p>14</p>
-</td>
-<td width="130">
-<p>无</p>
-</td>
-</tr>
-<tr>
-<td width="45">
-<p>15</p>
-</td>
-<td width="57">
-<p>15</p>
-</td>
-<td width="130">
-<p>无</p>
-</td>
-</tr>
-<tr>
-<td width="45">
-<p>16</p>
-</td>
-<td width="57">
-<p>16</p>
-</td>
-<td rowspan="2" width="406">
-<p>分布式数据库应用项目设计与实现的分组介绍，包括项目分工和计划、设计思路、实现与评估方法，以及项目进展情况（每组1-2个同学，每周2-3组同学，每组45-60分钟）</p>
-</td>
-<td rowspan="2" width="130">
-<p>课程大项目的计划与进展（与课程并行，课后进行）</p>
-</td>
-</tr>
-<tr>
-<td width="45">
-<p>17</p>
-</td>
-<td width="57">
-<p>17</p>
-</td>
-</tr>
-</tbody>
-</table><h2>课程考核与成绩评定</h2><h2>教材</h2><h2>教学参考资料</h2><table width="0">
-<tbody>
-<tr>
-<td width="52">
-<p><strong>序号</strong></p>
-</td>
-<td width="210">
-<p><strong>名称</strong></p>
-</td>
-<td width="132">
-<p><strong>作者</strong></p>
-</td>
-<td width="144">
-<p><strong>出版机构</strong></p>
-</td>
-<td width="99">
-<p><strong>出版日期</strong></p>
-</td>
-</tr>
-<tr>
-<td width="52">
-<p><strong>1</strong></p>
-</td>
-<td width="210">
-<p>Principles of Distributed Database Systems (4<sup>th</sup> Edition)</p>
-</td>
-<td width="132">
-<p>M. Tame Ozsu, Patrick Valduriez</p>
-</td>
-<td width="144">
-<p>Prentice-Hall</p>
-</td>
-<td width="99">
-<p>2020</p>
-</td>
-</tr>
-<tr>
-<td width="52">
-<p><strong>2</strong></p>
-</td>
-<td width="210">
-<p>Distributed Databases: Principles and Systems</p>
-</td>
-<td width="132">
-<p>Stefano Ceri, Giuseppe Pelagatti</p>
-</td>
-<td width="144">
-<p>McGraw-Hill,</p>
-</td>
-<td width="99">
-<p>1985</p>
-</td>
-</tr>
-<tr>
-<td width="52">
-<p><strong>3</strong></p>
-</td>
-<td width="210">
-<p>分布式数据库系统及其应用（第二版）</p>
-</td>
-<td width="132">
-<p>卲佩英</p>
-</td>
-<td width="144">
-<p>科学出版社</p>
-</td>
-<td width="99">
-<p>2005</p>
-</td>
-</tr>
-<tr>
-<td width="52">
-<p><strong>4</strong></p>
-</td>
-<td width="210">
-<p>分布式数据库技术</p>
-</td>
-<td width="132">
-<p>贾焰等</p>
-</td>
-<td width="144">
-<p>国防工业出版社</p>
-</td>
-<td width="99">
-<p>2000</p>
-</td>
-</tr>
-</tbody>
+<!doctype html><html lang="zh-CN"><meta charset="utf-8"><title>分布式数据库 · 卢暾 · 2025秋 CS60006.01</title><style>body{max-width:1000px;margin:35px auto;padding:0 20px;font:16px/1.9 system-ui}table{border-collapse:collapse}td,th{border:1px solid #cad7cf;padding:8px}img{max-width:100%}</style><body><h1>分布式数据库</h1><p>2025秋 · CS60006.01 · 卢暾</p><p>来源：复旦教务系统教学班大纲。</p><h2>考核与成绩构成</h2><ul><li>出勤Attendance 15.0% 签到（次数）</li><li>作业/实验/实践Assignment 40.0% 分布式数据库应用项目以及项目报告</li><li>课题论文Research Paper 15.0% 自选课程相关研究主题（前沿、深入、详细、规范等）</li><li>课堂表现Participation 30.0% 研究论文报告（深入、理解、评述、表达等）</li></ul><h2>课程简介（中文）</h2><p>本课程围绕探究构建和管理大规模分布式数据库系统的核心原理、关键技术及前沿实践，内容将系统性地涵盖分布式数据库的架构基础、核心机制与挑战以及前沿发展与融合，培养学生设计、分析与优化高性能、高可靠、可扩展分布式数据系统的能力，以应对现代海量数据与复杂应用场景的挑战。</p><h2>课程简介（英文）</h2><p><span>This course explores the core principles, key technologies, and cutting-edge practices of large-scale distributed database systems. It systematically covers foundational architectures, core mechanisms (distributed transactions, consensus protocols, CAP theory), challenges, and emerging developments (stream processing, AI optimization). Students will develop capabilities to design, analyze, and optimize high-performance, highly reliable, and scalable data systems, enabling them to address challenges posed by modern massive datasets and complex applications.</span></p><h2>教学目标</h2><p>使学生掌握分布式数据库的基本概念、模型和原理、方法和应用技术，掌握分布式数据库管理系统的设计和实现方法，掌握分布式数据库管理系统的查询优化、分布式事务、分布式并发控制以及分布式DBMS可靠性等核心原理、算法和技术，能针对具体应用需求设计和实现可靠的分布式数据库应用。</p><h2>教学方式</h2><p>课堂教学+课程项目</p><h2>教学内容与进度安排</h2><table width="0">
+<tbody>
+<tr>
+<td width="45">
+<p><strong>课次</strong></p>
+</td>
+<td width="57">
+<p><strong>教学周</strong></p>
+</td>
+<td width="406">
+<p><strong>教学内容及预期效果</strong></p>
+</td>
+<td width="130">
+<p><strong>作业</strong><strong>/</strong><strong>实验</strong></p>
+</td>
+</tr>
+<tr>
+<td width="45">
+<p>1</p>
+</td>
+<td width="57">
+<p>1</p>
+</td>
+<td width="406">
+<p>分布式数据库简介；了解分布式数据的起源、概念、研究点，以及应用与发展</p>
+</td>
+<td width="130">
+<p>无</p>
+</td>
+</tr>
+<tr>
+<td width="45">
+<p>2</p>
+</td>
+<td width="57">
+<p>2</p>
+</td>
+<td width="406">
+<p>分布式DBMS体系结构、分布式数据库设计方法-1；掌握分布式数据库的体系结构模型、分布式DBMS体系结构、全局分布式目录等，掌握分布式数据库设计策略、分布式数据库设计的核心问题（分片、分配等）</p>
+</td>
+<td width="130">
+<p>无</p>
+</td>
+</tr>
+<tr>
+<td width="45">
+<p>3</p>
+</td>
+<td width="57">
+<p>3</p>
+</td>
+<td width="406">
+<p>分布式数据库设计方法-2；掌握分布式数据库水平分片和垂直分片（Horizontal/ Vertical Fragmentation）技术，分片分配（Fragmentation Allocation）方法</p>
+</td>
+<td width="130">
+<p>无</p>
+</td>
+</tr>
+<tr>
+<td width="45">
+<p>4</p>
+</td>
+<td width="57">
+<p>4</p>
+</td>
+<td width="406">
+<p>分布式数据库查询优化-1；了解集中式查询优化的核心问题，掌握集中式查询优化的典型算法</p>
+</td>
+<td width="130">
+<p>无</p>
+</td>
+</tr>
+<tr>
+<td width="45">
+<p>5</p>
+</td>
+<td width="57">
+<p>5</p>
+</td>
+<td width="406">
+<p>分布式数据库查询优化-2；了解带分片的分布式连接和半连接操作（Semi-join），掌握典型的分布式查询优化算法</p>
+</td>
+<td width="130">
+<p>无</p>
+</td>
+</tr>
+<tr>
+<td width="45">
+<p>6</p>
+</td>
+<td width="57">
+<p>6</p>
+</td>
+<td width="406">
+<p>分布式事务；了解分布式事务的形式化定义和描述，掌握分布式事务的性质、类型，以及带分布式事务处理的DBMS体系结构</p>
+</td>
+<td width="130">
+<p>无</p>
+</td>
+</tr>
+<tr>
+<td width="45">
+<p>7</p>
+</td>
+<td width="57">
+<p>7</p>
+</td>
+<td width="406">
+<p>分布式并发控制-1；掌握序列化（Serializability）理论、并发控制方法的分类，以及基于Lock的并发控制方法（2PL及其变种）</p>
+</td>
+<td width="130">
+<p>无</p>
+</td>
+</tr>
+<tr>
+<td width="45">
+<p>8</p>
+</td>
+<td width="57">
+<p>8</p>
+</td>
+<td width="406">
+<p>分布式并发控制-2；掌握基于Timestamp的分布式并发控制方法、乐观并发控制算法、死锁管理，以及Relaxed并发控制方法</p>
+</td>
+<td width="130">
+<p>无</p>
+</td>
+</tr>
+<tr>
+<td width="45">
+<p>9</p>
+</td>
+<td width="57">
+<p>9</p>
+</td>
+<td width="406">
+<p>分布式数据库应用项目（订票系统）介绍、讲解和发布</p>
+</td>
+<td width="130">
+<p>课程大项目布置，开始和完成时限：5月份-7月份（与课程并行，课后进行）</p>
+</td>
+</tr>
+<tr>
+<td width="45">
+<p>10</p>
+</td>
+<td width="57">
+<p>10</p>
+</td>
+<td width="406">
+<p>分布式数据库可靠性-1；了解可靠性的概念和度量，分布式系统和DBMS中的失效和容错，掌握本地可靠性协议</p>
+</td>
+<td width="130">
+<p>无</p>
+</td>
+</tr>
+<tr>
+<td width="45">
+<p>11</p>
+</td>
+<td width="57">
+<p>11</p>
+</td>
+<td width="406">
+<p>分布式数据库可靠性-2；掌握分布式可靠性协议（2PC及其变种），站点失效、网络分区等难题的处理等</p>
+</td>
+<td width="130">
+<p>无</p>
+</td>
+</tr>
+<tr>
+<td width="45">
+<p>12</p>
+</td>
+<td width="57">
+<p>12</p>
+</td>
+<td rowspan="4" width="406">
+<p>近年来在数据库、体系结构与操作系统、分布式系统、协同计算、网络等领域的顶级学术会议（SIGMOD、VLDB、PODS、ICDE、PODS、SOSP、PODC、ICDCS、CSCW、ISCA、EuroSys、SIGCOMM、INFOCOM等）和期刊（TPDS、TKDE、JPDC等）上的与本课程主题相关的研究论文分组报告（每周3-4位学生，每位学生45分钟，其中30分钟论文报告，5分钟评述，10分钟问答）</p>
+</td>
+<td width="130">
+<p>无</p>
+</td>
+</tr>
+<tr>
+<td width="45">
+<p>13</p>
+</td>
+<td width="57">
+<p>13</p>
+</td>
+<td width="130">
+<p>无</p>
+</td>
+</tr>
+<tr>
+<td width="45">
+<p>14</p>
+</td>
+<td width="57">
+<p>14</p>
+</td>
+<td width="130">
+<p>无</p>
+</td>
+</tr>
+<tr>
+<td width="45">
+<p>15</p>
+</td>
+<td width="57">
+<p>15</p>
+</td>
+<td width="130">
+<p>无</p>
+</td>
+</tr>
+<tr>
+<td width="45">
+<p>16</p>
+</td>
+<td width="57">
+<p>16</p>
+</td>
+<td rowspan="2" width="406">
+<p>分布式数据库应用项目设计与实现的分组介绍，包括项目分工和计划、设计思路、实现与评估方法，以及项目进展情况（每组1-2个同学，每周2-3组同学，每组45-60分钟）</p>
+</td>
+<td rowspan="2" width="130">
+<p>课程大项目的计划与进展（与课程并行，课后进行）</p>
+</td>
+</tr>
+<tr>
+<td width="45">
+<p>17</p>
+</td>
+<td width="57">
+<p>17</p>
+</td>
+</tr>
+</tbody>
+</table><h2>课程考核与成绩评定</h2><h2>教材</h2><h2>教学参考资料</h2><table width="0">
+<tbody>
+<tr>
+<td width="52">
+<p><strong>序号</strong></p>
+</td>
+<td width="210">
+<p><strong>名称</strong></p>
+</td>
+<td width="132">
+<p><strong>作者</strong></p>
+</td>
+<td width="144">
+<p><strong>出版机构</strong></p>
+</td>
+<td width="99">
+<p><strong>出版日期</strong></p>
+</td>
+</tr>
+<tr>
+<td width="52">
+<p><strong>1</strong></p>
+</td>
+<td width="210">
+<p>Principles of Distributed Database Systems (4<sup>th</sup> Edition)</p>
+</td>
+<td width="132">
+<p>M. Tame Ozsu, Patrick Valduriez</p>
+</td>
+<td width="144">
+<p>Prentice-Hall</p>
+</td>
+<td width="99">
+<p>2020</p>
+</td>
+</tr>
+<tr>
+<td width="52">
+<p><strong>2</strong></p>
+</td>
+<td width="210">
+<p>Distributed Databases: Principles and Systems</p>
+</td>
+<td width="132">
+<p>Stefano Ceri, Giuseppe Pelagatti</p>
+</td>
+<td width="144">
+<p>McGraw-Hill,</p>
+</td>
+<td width="99">
+<p>1985</p>
+</td>
+</tr>
+<tr>
+<td width="52">
+<p><strong>3</strong></p>
+</td>
+<td width="210">
+<p>分布式数据库系统及其应用（第二版）</p>
+</td>
+<td width="132">
+<p>卲佩英</p>
+</td>
+<td width="144">
+<p>科学出版社</p>
+</td>
+<td width="99">
+<p>2005</p>
+</td>
+</tr>
+<tr>
+<td width="52">
+<p><strong>4</strong></p>
+</td>
+<td width="210">
+<p>分布式数据库技术</p>
+</td>
+<td width="132">
+<p>贾焰等</p>
+</td>
+<td width="144">
+<p>国防工业出版社</p>
+</td>
+<td width="99">
+<p>2000</p>
+</td>
+</tr>
+</tbody>
 </table><h2>教学团队成员</h2></body></html>

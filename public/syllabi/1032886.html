@@ -1,378 +1,378 @@
-<!doctype html><html lang="zh-CN"><meta charset="utf-8"><title>医学影像分析 · 谭伟敏 · 2026春 CS60015.01</title><style>body{max-width:1000px;margin:35px auto;padding:0 20px;font:16px/1.9 system-ui}table{border-collapse:collapse}td,th{border:1px solid #cad7cf;padding:8px}img{max-width:100%}</style><body><h1>医学影像分析</h1><p>2026春 · CS60015.01 · 谭伟敏</p><p>来源：复旦教务系统教学班大纲。</p><h2>考核与成绩构成</h2><ul><li>汇报Presentation 10.0% 汇报逻辑清晰、表述详细、方法新颖、实验结果详实。</li><li>课堂表现Participation 10.0% 按时上课、提交作业</li><li>期中考试Midterm Examination 30.0% 按时高质量完成项目任务</li><li>期末考试Final Examination：论文  50.0% 课程论文思路新颖、论证详实、理论扎实、启发性强</li></ul><h2>课程简介（中文）</h2><p>《医学影像分析》课程系统讲授人工智能技术在医学影像领域的前沿应用，重点涵盖生成式模型、视觉大模型、多智能体协同等方向的核心方法与研究进展。课程内容紧密跟踪MICCAI、CVPR、ICCV、NeurIPS等国际顶会近3年代表性工作，通过理论讲授、论文精读、算法复现与项目实践相结合的方式，引导学生掌握技术原理、复现关键实验并开展合理改进。教学中注重科研规范训练、临床需求对接与伦理问题探讨（如数据隐私、算法偏见），培养学生学术思维与跨学科协作意识。课程适用于具备机器学习与医学影像基础的研究生，为其在医学AI领域的科研探索与专业发展提供扎实支撑。</p><h2>课程简介（英文）</h2><p>The Medical Image Analysis course offers a systematic exploration of cutting-edge Artificial Intelligence applications within the medical imaging domain, with a primary focus on core methodologies and research advancements in Generative Models, Vision Large Models (VLMs), and Multi-Agent Systems. The curriculum is designed to closely track representative works from premier international conferences—including MICCAI, CVPR, ICCV, and NeurIPS—published within the last three years. By integrating theoretical lectures, intensive paper reading, algorithm replication, and hands-on project practice, the course guides students to master underlying technical principles, reproduce pivotal experiments, and execute meaningful algorithmic improvements. Beyond technical proficiency, the teaching emphasizes research standards, alignment with actual clinical needs, and critical discourse on ethical considerations (such as data privacy and algorithmic bias). The goal is to cultivate an academic mindset and a strong sense of interdisciplinary collaboration. This course is tailored for graduate students with a foundational background in machine learning and medical imaging, providing robust support for their research exploration and professional trajectory in the field of Medical AI.</p><h2>教学目标</h2><p>本课程是计算机学科的重要专业课程，课程的重点在于向学生介绍当前医学影像分析领域的基本内容、思想、主要概念以及关键技术的实现方法，使学生对医学影像分析研究现状与技术前沿有一个基本的了解，同时引导和培养学生的科研思路和兴趣。</p><h2>教学方式</h2><p>本课程采用理论精讲、顶会研讨、阶梯实践教学模式。理论环节介绍生成式AI、大模型等核心技术原理，结合MICCAI等顶会论文案例夯实知识基础；研讨环节围绕数据隐私、算法公平性等伦理议题开展小组辩论，嵌入医学知识引导；实践环节依托开源框架，在BraTS、MIMIC-CXR等合规数据集上完成算法复现、改进与跨学科小组项目，强化工程能力。通过实验报告、论文研讨、项目答辩等多元考核，引导学生认真治学，实现知识、能力与价值目标的协同达成。</p><h2>教学内容与进度安排</h2><table width="637">
-<tbody>
-<tr>
-<td width="45">
-<p><strong>课次</strong></p>
-<p>No.</p>
-</td>
-<td width="66">
-<p><strong>教学周</strong></p>
-<p>Week</p>
-</td>
-<td width="340">
-<p><strong>教学内容及预期效果</strong></p>
-<p>Content &amp; Expected Achievement</p>
-</td>
-<td width="186">
-<p><strong>作业</strong><strong>/</strong><strong>实验</strong><strong>/</strong><strong>实践</strong></p>
-<p>Assignment</p>
-</td>
-</tr>
-<tr>
-<td width="45">
-<p>1</p>
-</td>
-<td width="66">
-<p>1</p>
-</td>
-<td width="340">
-<p>将介绍医学影像分析的内容、总体处理框架以及当前研究现状。</p>
-<p>对医学影像分析的目标、处理流程、研究现状、面临的挑战等有基本的认识与了解。</p>
-</td>
-<td width="186">
-<p>-</p>
-</td>
-</tr>
-<tr>
-<td width="45">
-<p>2</p>
-</td>
-<td width="66">
-<p>2</p>
-</td>
-<td width="340">
-<p>将介绍医学影像分析中涉及的主要影像模态，包括其采集、类别与特点。</p>
-<p>对医学影像中的主要模态如X射线成像、CT、MRI、核成像、超声成像、摄影和显微图像等有基本认识，对成像的物理实体和图像中显示信息之间的关系，以及重建方法和由此产生的伪影有初步了解。</p>
-</td>
-<td width="186">
-<p>-</p>
-</td>
-</tr>
-<tr>
-<td width="45">
-<p>3</p>
-</td>
-<td width="66">
-<p>3</p>
-</td>
-<td width="340">
-<p>将介绍医学影像增强处理技术。</p>
-<p>对传统增强方法有基本的了解，能编程实现经典方法。</p>
-</td>
-<td width="186">
-<p>编程实现</p>
-</td>
-</tr>
-<tr>
-<td width="45">
-<p>4</p>
-</td>
-<td width="66">
-<p>4</p>
-</td>
-<td width="340">
-<p>将介绍医学影像增强处理技术。</p>
-<p>对当前最新增强方法有初步的认识，了解当今经典的和最先进的增强算法。</p>
-</td>
-<td width="186">
-<p>文献汇报与讨论</p>
-</td>
-</tr>
-<tr>
-<td width="45">
-<p>5</p>
-</td>
-<td width="66">
-<p>5</p>
-</td>
-<td width="340">
-<p>将以显微镜图像为例介绍当前的增强算法与挑战。</p>
-<p>通过具体实例，引导学生结合显微镜图像增强设计相应的算法，提升其科研探索能力。</p>
-</td>
-<td width="186">
-<p>文献汇报与讨论</p>
-</td>
-</tr>
-<tr>
-<td width="45">
-<p>6</p>
-</td>
-<td width="66">
-<p>6</p>
-</td>
-<td width="340">
-<p>将介绍医学影像分割处理技术。</p>
-<p>对传统分割方法有基本的了解，能编程实现经典方法。</p>
-</td>
-<td width="186">
-<p>编程实现</p>
-</td>
-</tr>
-<tr>
-<td width="45">
-<p>7</p>
-</td>
-<td width="66">
-<p>7</p>
-</td>
-<td width="340">
-<p>将介绍医学影像分割处理技术。</p>
-<p>对当前最新分割方法有初步的认识，了解当今经典的和最先进的分割算法。</p>
-</td>
-<td width="186">
-<p>文献汇报与讨论</p>
-</td>
-</tr>
-<tr>
-<td width="45">
-<p>8</p>
-</td>
-<td width="66">
-<p>8</p>
-</td>
-<td width="340">
-<p>将以细胞图像为例介绍当前的分割算法与难点。</p>
-<p>引导学生结合细胞图像分割设计相应的方法，重新思考当前分割算法存在的改进点。</p>
-</td>
-<td width="186">
-<p>文献汇报与讨论</p>
-</td>
-</tr>
-<tr>
-<td width="45">
-<p>9</p>
-</td>
-<td width="66">
-<p>9</p>
-</td>
-<td width="340">
-<p>将介绍医学影像配准处理技术。</p>
-<p>对仿射变换中的平移、缩放、旋转、剪切以及组合变换有清楚的认识；对反向映射、剖面分析、其他几何变换、单应性等有基本了解。</p>
-</td>
-<td width="186">
-<p>编程实现</p>
-</td>
-</tr>
-<tr>
-<td width="45">
-<p>10</p>
-</td>
-<td width="66">
-<p>10</p>
-</td>
-<td width="340">
-<p>将介绍医学影像配准处理技术。</p>
-<p>对常见的传统配准技术有基本的了解，如基于特征的图像配准、基于强度的图像配准。</p>
-</td>
-<td width="186">
-<p>文献汇报与讨论</p>
-</td>
-</tr>
-<tr>
-<td width="45">
-<p>11</p>
-</td>
-<td width="66">
-<p>11</p>
-</td>
-<td width="340">
-<p>将介绍医学影像诊断技术。</p>
-<p>对常见的诊断模型有比较全面的了解。</p>
-</td>
-<td width="186">
-<p>-</p>
-</td>
-</tr>
-<tr>
-<td width="45">
-<p>12</p>
-</td>
-<td width="66">
-<p>12</p>
-</td>
-<td width="340">
-<p>将介绍医学影像诊断技术。</p>
-<p>对诊断技术中常见的目标优化函数有比较全面的了解，知道各自的优劣差异、特点、应用场景等。</p>
-</td>
-<td width="186">
-<p>文献汇报与讨论</p>
-</td>
-</tr>
-<tr>
-<td width="45">
-<p>13</p>
-</td>
-<td width="66">
-<p>13</p>
-</td>
-<td width="340">
-<p>将介绍医学影像诊断技术。</p>
-<p>以内镜诊断为具体实例，介绍当前的研究现状和方法。</p>
-</td>
-<td width="186">
-<p>文献汇报与讨论</p>
-</td>
-</tr>
-<tr>
-<td width="45">
-<p>14</p>
-</td>
-<td width="66">
-<p>14</p>
-</td>
-<td width="340">
-<p>将介绍医学影像分析的前沿研究进展。</p>
-<p>对医学影像分析未来的研究热点进行梳理和介绍。</p>
-</td>
-<td width="186">
-<p>文献汇报与讨论</p>
-</td>
-</tr>
-<tr>
-<td width="45">
-<p>15</p>
-</td>
-<td width="66">
-<p>15</p>
-</td>
-<td width="340">
-<p>将介绍医学影像分析的前沿研究进展。</p>
-<p>对医学影像分析未来的研究热点进行梳理和介绍。</p>
-</td>
-<td width="186">
-<p>文献汇报与讨论</p>
-</td>
-</tr>
-<tr>
-<td width="45">
-<p>16</p>
-</td>
-<td width="66">
-<p>16</p>
-</td>
-<td width="340">
-<p>课程项目报告</p>
-</td>
-<td width="186">
-<p>报告</p>
-</td>
-</tr>
-<tr>
-<td width="45">
-<p>17</p>
-</td>
-<td width="66">
-<p>17</p>
-</td>
-<td width="340">
-<p>课程项目报告</p>
-</td>
-<td width="186">
-<p>报告</p>
-</td>
-</tr>
-<tr>
-<td width="45">
-<p>18</p>
-</td>
-<td width="66">
-<p>18</p>
-</td>
-<td width="340">
-<p>课程项目报告</p>
-</td>
-<td width="186">
-<p>报告</p>
-</td>
-</tr>
-</tbody>
-</table><h2>课程考核与成绩评定</h2><h2>教材</h2><h2>教学参考资料</h2><table width="637">
-<tbody>
-<tr>
-<td width="45">
-<p><strong>序号</strong></p>
-<p>No.</p>
-</td>
-<td width="174">
-<p><strong>名称</strong></p>
-<p>Title</p>
-</td>
-<td width="123">
-<p><strong>主编</strong><strong>/</strong><strong>作者</strong></p>
-<p>Author(s)</p>
-</td>
-<td width="82">
-<p><strong>标准书号</strong></p>
-<p>ISBN</p>
-</td>
-<td width="99">
-<p><strong>出版机构</strong></p>
-<p>Publisher</p>
-</td>
-<td width="116">
-<p><strong>出版日期</strong></p>
-<p>Publication Date</p>
-</td>
-</tr>
-<tr>
-<td width="45">
-<p><strong>1</strong></p>
-</td>
-<td width="174">
-<p>Medical Image Analysis, Second Edition</p>
-</td>
-<td width="123">
-<p>Dhawan</p>
-</td>
-<td width="82">
-<p>9780470922897</p>
-</td>
-<td width="99">
-<p>Wiley</p>
-</td>
-<td width="116">
-<p>2011</p>
-</td>
-</tr>
-<tr>
-<td width="45">
-<p><strong>2</strong></p>
-</td>
-<td width="174">
-<p>Guide to Medical Image Analysis: Methods and Algorithms</p>
-</td>
-<td width="123">
-<p>Klaus D. Toennies</p>
-</td>
-<td width="82">
-<p>978-1-4471-2751-2</p>
-</td>
-<td width="99">
-<p>Springer</p>
-</td>
-<td width="116">
-<p>2012</p>
-</td>
-</tr>
-<tr>
-<td width="45">
-<p><strong>3</strong></p>
-</td>
-<td width="174">
-<p>Introduction to Medical Image Analysis</p>
-</td>
-<td width="123">
-<p>Rasmus R. Paulsen, Thomas B. Moeslund</p>
-</td>
-<td width="82">
-<p>978-3-030-39363-2</p>
-</td>
-<td width="99">
-<p>Springer</p>
-</td>
-<td width="116">
-<p>2020</p>
-</td>
-</tr>
-</tbody>
+<!doctype html><html lang="zh-CN"><meta charset="utf-8"><title>医学影像分析 · 谭伟敏 · 2026春 CS60015.01</title><style>body{max-width:1000px;margin:35px auto;padding:0 20px;font:16px/1.9 system-ui}table{border-collapse:collapse}td,th{border:1px solid #cad7cf;padding:8px}img{max-width:100%}</style><body><h1>医学影像分析</h1><p>2026春 · CS60015.01 · 谭伟敏</p><p>来源：复旦教务系统教学班大纲。</p><h2>考核与成绩构成</h2><ul><li>汇报Presentation 10.0% 汇报逻辑清晰、表述详细、方法新颖、实验结果详实。</li><li>课堂表现Participation 10.0% 按时上课、提交作业</li><li>期中考试Midterm Examination 30.0% 按时高质量完成项目任务</li><li>期末考试Final Examination：论文  50.0% 课程论文思路新颖、论证详实、理论扎实、启发性强</li></ul><h2>课程简介（中文）</h2><p>《医学影像分析》课程系统讲授人工智能技术在医学影像领域的前沿应用，重点涵盖生成式模型、视觉大模型、多智能体协同等方向的核心方法与研究进展。课程内容紧密跟踪MICCAI、CVPR、ICCV、NeurIPS等国际顶会近3年代表性工作，通过理论讲授、论文精读、算法复现与项目实践相结合的方式，引导学生掌握技术原理、复现关键实验并开展合理改进。教学中注重科研规范训练、临床需求对接与伦理问题探讨（如数据隐私、算法偏见），培养学生学术思维与跨学科协作意识。课程适用于具备机器学习与医学影像基础的研究生，为其在医学AI领域的科研探索与专业发展提供扎实支撑。</p><h2>课程简介（英文）</h2><p>The Medical Image Analysis course offers a systematic exploration of cutting-edge Artificial Intelligence applications within the medical imaging domain, with a primary focus on core methodologies and research advancements in Generative Models, Vision Large Models (VLMs), and Multi-Agent Systems. The curriculum is designed to closely track representative works from premier international conferences—including MICCAI, CVPR, ICCV, and NeurIPS—published within the last three years. By integrating theoretical lectures, intensive paper reading, algorithm replication, and hands-on project practice, the course guides students to master underlying technical principles, reproduce pivotal experiments, and execute meaningful algorithmic improvements. Beyond technical proficiency, the teaching emphasizes research standards, alignment with actual clinical needs, and critical discourse on ethical considerations (such as data privacy and algorithmic bias). The goal is to cultivate an academic mindset and a strong sense of interdisciplinary collaboration. This course is tailored for graduate students with a foundational background in machine learning and medical imaging, providing robust support for their research exploration and professional trajectory in the field of Medical AI.</p><h2>教学目标</h2><p>本课程是计算机学科的重要专业课程，课程的重点在于向学生介绍当前医学影像分析领域的基本内容、思想、主要概念以及关键技术的实现方法，使学生对医学影像分析研究现状与技术前沿有一个基本的了解，同时引导和培养学生的科研思路和兴趣。</p><h2>教学方式</h2><p>本课程采用理论精讲、顶会研讨、阶梯实践教学模式。理论环节介绍生成式AI、大模型等核心技术原理，结合MICCAI等顶会论文案例夯实知识基础；研讨环节围绕数据隐私、算法公平性等伦理议题开展小组辩论，嵌入医学知识引导；实践环节依托开源框架，在BraTS、MIMIC-CXR等合规数据集上完成算法复现、改进与跨学科小组项目，强化工程能力。通过实验报告、论文研讨、项目答辩等多元考核，引导学生认真治学，实现知识、能力与价值目标的协同达成。</p><h2>教学内容与进度安排</h2><table width="637">
+<tbody>
+<tr>
+<td width="45">
+<p><strong>课次</strong></p>
+<p>No.</p>
+</td>
+<td width="66">
+<p><strong>教学周</strong></p>
+<p>Week</p>
+</td>
+<td width="340">
+<p><strong>教学内容及预期效果</strong></p>
+<p>Content &amp; Expected Achievement</p>
+</td>
+<td width="186">
+<p><strong>作业</strong><strong>/</strong><strong>实验</strong><strong>/</strong><strong>实践</strong></p>
+<p>Assignment</p>
+</td>
+</tr>
+<tr>
+<td width="45">
+<p>1</p>
+</td>
+<td width="66">
+<p>1</p>
+</td>
+<td width="340">
+<p>将介绍医学影像分析的内容、总体处理框架以及当前研究现状。</p>
+<p>对医学影像分析的目标、处理流程、研究现状、面临的挑战等有基本的认识与了解。</p>
+</td>
+<td width="186">
+<p>-</p>
+</td>
+</tr>
+<tr>
+<td width="45">
+<p>2</p>
+</td>
+<td width="66">
+<p>2</p>
+</td>
+<td width="340">
+<p>将介绍医学影像分析中涉及的主要影像模态，包括其采集、类别与特点。</p>
+<p>对医学影像中的主要模态如X射线成像、CT、MRI、核成像、超声成像、摄影和显微图像等有基本认识，对成像的物理实体和图像中显示信息之间的关系，以及重建方法和由此产生的伪影有初步了解。</p>
+</td>
+<td width="186">
+<p>-</p>
+</td>
+</tr>
+<tr>
+<td width="45">
+<p>3</p>
+</td>
+<td width="66">
+<p>3</p>
+</td>
+<td width="340">
+<p>将介绍医学影像增强处理技术。</p>
+<p>对传统增强方法有基本的了解，能编程实现经典方法。</p>
+</td>
+<td width="186">
+<p>编程实现</p>
+</td>
+</tr>
+<tr>
+<td width="45">
+<p>4</p>
+</td>
+<td width="66">
+<p>4</p>
+</td>
+<td width="340">
+<p>将介绍医学影像增强处理技术。</p>
+<p>对当前最新增强方法有初步的认识，了解当今经典的和最先进的增强算法。</p>
+</td>
+<td width="186">
+<p>文献汇报与讨论</p>
+</td>
+</tr>
+<tr>
+<td width="45">
+<p>5</p>
+</td>
+<td width="66">
+<p>5</p>
+</td>
+<td width="340">
+<p>将以显微镜图像为例介绍当前的增强算法与挑战。</p>
+<p>通过具体实例，引导学生结合显微镜图像增强设计相应的算法，提升其科研探索能力。</p>
+</td>
+<td width="186">
+<p>文献汇报与讨论</p>
+</td>
+</tr>
+<tr>
+<td width="45">
+<p>6</p>
+</td>
+<td width="66">
+<p>6</p>
+</td>
+<td width="340">
+<p>将介绍医学影像分割处理技术。</p>
+<p>对传统分割方法有基本的了解，能编程实现经典方法。</p>
+</td>
+<td width="186">
+<p>编程实现</p>
+</td>
+</tr>
+<tr>
+<td width="45">
+<p>7</p>
+</td>
+<td width="66">
+<p>7</p>
+</td>
+<td width="340">
+<p>将介绍医学影像分割处理技术。</p>
+<p>对当前最新分割方法有初步的认识，了解当今经典的和最先进的分割算法。</p>
+</td>
+<td width="186">
+<p>文献汇报与讨论</p>
+</td>
+</tr>
+<tr>
+<td width="45">
+<p>8</p>
+</td>
+<td width="66">
+<p>8</p>
+</td>
+<td width="340">
+<p>将以细胞图像为例介绍当前的分割算法与难点。</p>
+<p>引导学生结合细胞图像分割设计相应的方法，重新思考当前分割算法存在的改进点。</p>
+</td>
+<td width="186">
+<p>文献汇报与讨论</p>
+</td>
+</tr>
+<tr>
+<td width="45">
+<p>9</p>
+</td>
+<td width="66">
+<p>9</p>
+</td>
+<td width="340">
+<p>将介绍医学影像配准处理技术。</p>
+<p>对仿射变换中的平移、缩放、旋转、剪切以及组合变换有清楚的认识；对反向映射、剖面分析、其他几何变换、单应性等有基本了解。</p>
+</td>
+<td width="186">
+<p>编程实现</p>
+</td>
+</tr>
+<tr>
+<td width="45">
+<p>10</p>
+</td>
+<td width="66">
+<p>10</p>
+</td>
+<td width="340">
+<p>将介绍医学影像配准处理技术。</p>
+<p>对常见的传统配准技术有基本的了解，如基于特征的图像配准、基于强度的图像配准。</p>
+</td>
+<td width="186">
+<p>文献汇报与讨论</p>
+</td>
+</tr>
+<tr>
+<td width="45">
+<p>11</p>
+</td>
+<td width="66">
+<p>11</p>
+</td>
+<td width="340">
+<p>将介绍医学影像诊断技术。</p>
+<p>对常见的诊断模型有比较全面的了解。</p>
+</td>
+<td width="186">
+<p>-</p>
+</td>
+</tr>
+<tr>
+<td width="45">
+<p>12</p>
+</td>
+<td width="66">
+<p>12</p>
+</td>
+<td width="340">
+<p>将介绍医学影像诊断技术。</p>
+<p>对诊断技术中常见的目标优化函数有比较全面的了解，知道各自的优劣差异、特点、应用场景等。</p>
+</td>
+<td width="186">
+<p>文献汇报与讨论</p>
+</td>
+</tr>
+<tr>
+<td width="45">
+<p>13</p>
+</td>
+<td width="66">
+<p>13</p>
+</td>
+<td width="340">
+<p>将介绍医学影像诊断技术。</p>
+<p>以内镜诊断为具体实例，介绍当前的研究现状和方法。</p>
+</td>
+<td width="186">
+<p>文献汇报与讨论</p>
+</td>
+</tr>
+<tr>
+<td width="45">
+<p>14</p>
+</td>
+<td width="66">
+<p>14</p>
+</td>
+<td width="340">
+<p>将介绍医学影像分析的前沿研究进展。</p>
+<p>对医学影像分析未来的研究热点进行梳理和介绍。</p>
+</td>
+<td width="186">
+<p>文献汇报与讨论</p>
+</td>
+</tr>
+<tr>
+<td width="45">
+<p>15</p>
+</td>
+<td width="66">
+<p>15</p>
+</td>
+<td width="340">
+<p>将介绍医学影像分析的前沿研究进展。</p>
+<p>对医学影像分析未来的研究热点进行梳理和介绍。</p>
+</td>
+<td width="186">
+<p>文献汇报与讨论</p>
+</td>
+</tr>
+<tr>
+<td width="45">
+<p>16</p>
+</td>
+<td width="66">
+<p>16</p>
+</td>
+<td width="340">
+<p>课程项目报告</p>
+</td>
+<td width="186">
+<p>报告</p>
+</td>
+</tr>
+<tr>
+<td width="45">
+<p>17</p>
+</td>
+<td width="66">
+<p>17</p>
+</td>
+<td width="340">
+<p>课程项目报告</p>
+</td>
+<td width="186">
+<p>报告</p>
+</td>
+</tr>
+<tr>
+<td width="45">
+<p>18</p>
+</td>
+<td width="66">
+<p>18</p>
+</td>
+<td width="340">
+<p>课程项目报告</p>
+</td>
+<td width="186">
+<p>报告</p>
+</td>
+</tr>
+</tbody>
+</table><h2>课程考核与成绩评定</h2><h2>教材</h2><h2>教学参考资料</h2><table width="637">
+<tbody>
+<tr>
+<td width="45">
+<p><strong>序号</strong></p>
+<p>No.</p>
+</td>
+<td width="174">
+<p><strong>名称</strong></p>
+<p>Title</p>
+</td>
+<td width="123">
+<p><strong>主编</strong><strong>/</strong><strong>作者</strong></p>
+<p>Author(s)</p>
+</td>
+<td width="82">
+<p><strong>标准书号</strong></p>
+<p>ISBN</p>
+</td>
+<td width="99">
+<p><strong>出版机构</strong></p>
+<p>Publisher</p>
+</td>
+<td width="116">
+<p><strong>出版日期</strong></p>
+<p>Publication Date</p>
+</td>
+</tr>
+<tr>
+<td width="45">
+<p><strong>1</strong></p>
+</td>
+<td width="174">
+<p>Medical Image Analysis, Second Edition</p>
+</td>
+<td width="123">
+<p>Dhawan</p>
+</td>
+<td width="82">
+<p>9780470922897</p>
+</td>
+<td width="99">
+<p>Wiley</p>
+</td>
+<td width="116">
+<p>2011</p>
+</td>
+</tr>
+<tr>
+<td width="45">
+<p><strong>2</strong></p>
+</td>
+<td width="174">
+<p>Guide to Medical Image Analysis: Methods and Algorithms</p>
+</td>
+<td width="123">
+<p>Klaus D. Toennies</p>
+</td>
+<td width="82">
+<p>978-1-4471-2751-2</p>
+</td>
+<td width="99">
+<p>Springer</p>
+</td>
+<td width="116">
+<p>2012</p>
+</td>
+</tr>
+<tr>
+<td width="45">
+<p><strong>3</strong></p>
+</td>
+<td width="174">
+<p>Introduction to Medical Image Analysis</p>
+</td>
+<td width="123">
+<p>Rasmus R. Paulsen, Thomas B. Moeslund</p>
+</td>
+<td width="82">
+<p>978-3-030-39363-2</p>
+</td>
+<td width="99">
+<p>Springer</p>
+</td>
+<td width="116">
+<p>2020</p>
+</td>
+</tr>
+</tbody>
 </table><h2>教学团队成员</h2><h2>教材与参考书</h2><p>唐子惠；2020-01；9787547848128；医学人工智能导论；上海科学技术出版社</p><p>金征宇、龚启勇；2020-11；9787117208161；医学影像学；人民卫生出版社</p></body></html>

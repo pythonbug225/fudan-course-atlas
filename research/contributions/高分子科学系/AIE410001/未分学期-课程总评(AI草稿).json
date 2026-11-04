@@ -1,0 +1,105 @@
+{
+  "schema_version": 1,
+  "course": {
+    "code": "AIE410001",
+    "name": "模式识别与机器学习",
+    "department": "高分子科学系",
+    "credits": 3.0,
+    "term": "未分学期",
+    "teachers": [],
+    "section_code": null,
+    "class_type": "ordinary",
+    "course_type_code": null,
+    "program_year": 2026,
+    "program_names": [],
+    "required_or_elective": "required_or_core_in_some_program"
+  },
+  "aliases": {
+    "course_names": [],
+    "teacher_names_or_pinyin": [],
+    "ambiguous_matches": []
+  },
+  "progress": {
+    "owner": "",
+    "reviewer": "",
+    "status": "ai_draft_not_reviewed",
+    "queries": [
+      "本地树洞/蛋壳快照关键词检索（课名：模式识别与机器学习）"
+    ],
+    "remaining_scope": [
+      "全部来源只是关键词命中的片段，未读完整上下文，需人工核对是否属于本课",
+      "未分教师、未分学期，需按教师和学期拆分",
+      "未做网上补查（知乎、小红书、公众号等）"
+    ],
+    "no_student_reviews_found": false
+  },
+  "sources": [
+    {
+      "source_id": "treehole-506431",
+      "source_type": "treehole",
+      "canonical_url": null,
+      "public_author_label": null,
+      "published_at": null,
+      "fetched_at": null,
+      "hole_id": 506431,
+      "floor_id": null,
+      "floor_number": null,
+      "review_id": null,
+      "file_and_page": null,
+      "image_page": null,
+      "reading_status": "collected",
+      "mapping_status": "pending",
+      "record_type": "pending",
+      "adoption": "pending",
+      "reason": "本地关键词检索命中的片段，未读完整上下文；是否属于本课待人工核对",
+      "duplicate_of": null,
+      "license": null,
+      "fulltext_permission": "unconfirmed",
+      "attribution_and_changes": ""
+    },
+    {
+      "source_id": "danke-4025",
+      "source_type": "treehole_or_danke_or_official_or_external_or_anonymized_chat",
+      "canonical_url": null,
+      "public_author_label": null,
+      "published_at": null,
+      "fetched_at": null,
+      "hole_id": null,
+      "floor_id": null,
+      "floor_number": null,
+      "review_id": 4025,
+      "file_and_page": null,
+      "image_page": null,
+      "reading_status": "collected",
+      "mapping_status": "pending",
+      "record_type": "pending",
+      "adoption": "pending",
+      "reason": "本地关键词检索命中的蛋壳原评；是否属于本课待人工核对",
+      "duplicate_of": null,
+      "license": null,
+      "fulltext_permission": "unconfirmed",
+      "attribution_and_changes": ""
+    }
+  ],
+  "syllabus": {
+    "source_ids": [],
+    "content": "",
+    "prerequisites": "",
+    "assessment": ""
+  },
+  "materials": [],
+  "student_reviews_and_discussions": [],
+  "quantitative_observations": [],
+  "comparison_and_summary": {
+    "teaching_and_learning": "成果考核占比高，要做实验和英文论文；旧混合班评价偏容易。 从线性模型到神经网络。2025年混合班（邱锡鹏、姜育刚）线上视频为主，有人称\"自己刷视频即可\"。",
+    "workload": "Lab容易，PJ选题复现即可；也有说法要写5—6页英文论文并做实验分析。",
+    "assessment": "2025班为两exercise共10分、两assignment各20分、PJ45分。2026刘乐茂班作业40%、论文45%；姜若曦班有20%期中。",
+    "grading_and_risk": "",
+    "teacher_and_term_differences": "",
+    "who_it_suits": "选题要有实验解释，不能只跑通代码。",
+    "source_ids": [
+      "treehole-506431",
+      "danke-4025"
+    ]
+  }
+}

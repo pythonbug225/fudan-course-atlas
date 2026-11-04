@@ -1,377 +1,377 @@
-<!doctype html><html lang="zh-CN"><meta charset="utf-8"><title>可证明安全理论与应用 · 黄橙 · 2025秋 CSEC60002.01</title><style>body{max-width:1000px;margin:35px auto;padding:0 20px;font:16px/1.9 system-ui}table{border-collapse:collapse}td,th{border:1px solid #cad7cf;padding:8px}img{max-width:100%}</style><body><h1>可证明安全理论与应用</h1><p>2025秋 · CSEC60002.01 · 黄橙</p><p>来源：复旦教务系统教学班大纲。</p><h2>考核与成绩构成</h2><ul><li>出勤Attendance 10.0% 按时上课</li><li>课堂表现Participation 10.0% 积极讨论、发言</li><li>汇报Presentation 40.0% 按时、高质量完成文献汇报与相关作业</li><li>课题论文Research Paper 40.0% 课程论文思路新颖、论证详实</li></ul><h2>课程简介（中文）</h2><p>本课程聚焦可证明安全理论框架下严谨的算法/协议设计和安全归约，系统梳理从理论假设、算法/协议设计到安全证明的关键环节，深入离散对数、RSA、Diffie-Hellman等经典安全假设，结合Game-based、Simulation-based以及 UC(Universal Composability)-based等主流安全证明方法，阐释如何通过形式化的安全证明方法证明算法与协议的安全性；同时针对前沿研究，探讨零知识证明、多方安全计算、同态加密、隐私信息检索等技术的最新方案构造和证明，剖析如何在医疗、金融、AI等复杂场景中实现严谨的安全性定义与证明。</p><h2>课程简介（英文）</h2><p>This course focuses on the rigorous design of algorithms and protocols, as well as security reductions, within the framework of provable security. It systematically examines the key stages from theoretical assumptions, algorithm and protocol design, to security proofs. The course delves deeply into classical security assumptions such as the discrete logarithm problem, RSA, and Diffie-Hellman, and explores how to establish the security of algorithms and protocols through formal proof techniques, including game-based, simulation-based, and universally composable (UC)-based security proof methods. In addition, the course engages with cutting-edge research topics, discussing the latest constructions and proofs in zero-knowledge proofs, secure multi-party computation, homomorphic encryption, and private information retrieval. It further analyzes how to achieve rigorous security definitions and proofs in complex application domains such as healthcare, finance, and artificial intelligence.</p><h2>教学目标</h2><p>本课程是网络空间安全学科的重要课程，重点培养学生：(1)理解可证明安全的核心概念与理论基础，掌握主要安全模型与安全假设；(2)熟悉加密、认证、多方计算、零知识证明等关键安全算法及协议的安全性证明方法；(3)在实际应用场景中设计安全算法和协议，并证明其安全性的能力；(4)对密码学前沿研究方向的认识，为后续科研或行业实践奠定基础。</p><h2>教学方式</h2><p>本课程采用“理论讲授 + 案例分析 + 实践探索”相结合的教学模式。通过课堂讲授系统阐释可证明安全的核心理论与方法，辅以经典论文研读和前沿成果讨论，培养学生对安全假设与安全证明方法的深入理解。课程设置专题研讨环节，鼓励学生围绕零知识证明、多方安全计算等热点领域进行小组讨论与汇报，提升协作与学术表达能力。另设有实践作业，要求学生独立完成选定算法或协议的安全证明，强化理论知识在实际问题中的应用能力。</p><h2>教学内容与进度安排</h2><table>
-<tbody>
-<tr>
-<td width="33">
-<p><strong>课次</strong></p>
-<p>No.</p>
-</td>
-<td width="49">
-<p><strong>教学周</strong></p>
-<p>Week</p>
-</td>
-<td width="255">
-<p><strong>教学内容及预期效果</strong></p>
-<p>Content &amp; Expected Achievement</p>
-</td>
-<td width="139">
-<p><strong>作业/实验/实践</strong></p>
-<p>Assignment</p>
-</td>
-</tr>
-<tr>
-<td width="33">
-<p>1</p>
-</td>
-<td width="49">
-<p>1</p>
-</td>
-<td width="255">
-<p><strong>教学内容：</strong>介绍本课程的整体目标与要求，介绍可证明安全的历史、发展脉络与意义，回顾可证明安全理论需要的数学知识，并简要介绍 Game-based、Simulation-based、UC(Universal Composability)-based等安全证明方法及其应用。</p>
-<p><strong>预期效果：</strong>学生了解课程整体规划和学习目标，建立对可证明安全重要性的初步认识，区分不同层次的安全性概念，对后续将要深入学习的安全模型有初步认识。</p>
-</td>
-<td width="139">
-<p>-</p>
-</td>
-</tr>
-<tr>
-<td width="33">
-<p>2</p>
-</td>
-<td width="49">
-<p>2</p>
-</td>
-<td width="255">
-<p><strong>教学内容</strong>：介绍可证明安全理论的基本概念，介绍离散对数问题、RSA问题、Diffie-Hellman问题等常见计算或判定型安全假设，分析复杂性假设如何在安全归约证明中起到支撑作用并给出简单案例，串联数学原语、密码方案、困难问题与安全规约的关系，介绍安全证明中常见的模型，包括标准模型，随机预言机(Random Oracle, RO)模型，通用群(Generic Group, GG)模型，公共参考字符串模型(Common Reference String, CRS)等。</p>
-<p><strong>预期效果</strong>：学生能够列举并区分主要密码学假设，理解“若能攻破算法/协议，即可在多项式时间内解决某难题”的基本逻辑，为后续针对安全算法和协议的归约方法理解奠定基础。</p>
-</td>
-<td width="139">
-<p>-</p>
-</td>
-</tr>
-<tr>
-<td width="33">
-<p>3</p>
-</td>
-<td width="49">
-<p>3</p>
-</td>
-<td width="255">
-<p><strong>教学内容</strong>：介绍Game-based安全规约证明方法论，介绍攻击者 vs. 挑战者的对抗Game安全模型，讨论针对加密算法的IND-CPA, IND-CCA等安全模型，和针对签名算法的EUF-CMA，SU-CMA等安全模型，并给出加密和签名算法的安全性证明实例。</p>
-<p><strong>预期效果</strong>：学生理解如何以Game的视角刻画安全性，能描述一个基本Game的结构，掌握在Game-based模型中做概率分析的思路，对后续掌握更复杂的Game-based安全证明方法奠定基础。</p>
-</td>
-<td width="139">
-<p>-</p>
-</td>
-</tr>
-<tr>
-<td width="33">
-<p>4</p>
-</td>
-<td width="49">
-<p>4</p>
-</td>
-<td width="255">
-<p><strong>教学内容</strong>：介绍Simulation-based和UC的安全规约证明方法论，包括模拟器(Simulator)的设计思想、真实世界(Real World)与理想世界(Ideal World)的模型对比，以及如何通过模拟器在理想世界中重现攻击者在真实世界中的行为，从而证明协议或算法的安全性；给出简单的安全性证明实例。</p>
-<p><strong>预期效果</strong>：学生能够理解 Simulation-based 和UC-based安全证明方法的理论基础，学会在理想/真实双世界模型下刻画协议安全性，并掌握设计模拟器和分析攻击成功概率的思路。</p>
-</td>
-<td width="139">
-<p>-</p>
-</td>
-</tr>
-<tr>
-<td width="33">
-<p>5</p>
-</td>
-<td width="49">
-<p>5</p>
-</td>
-<td width="255">
-<p><strong>教学内容</strong>：介绍零知识证明(Zero-Knowledge Proof)与前沿Zk-SNARK协议的安全性证明方法，包括零知识、完备性与可靠性三大性质的定义与证明思路。重点讨论在RO模型、CRS模型等环境下如何保证零知识性质与健壮性。</p>
-<p><strong>预期效果</strong>：学生理解零知识证明的核心原理，掌握零知识性与可靠性在安全证明中的具体刻画方法，了解Zk-SNARK的基本构造及其高效性优势，能够阅读并理解主流零知识协议及其安全性证明要点。</p>
-</td>
-<td width="139">
-<p>文献汇报与讨论</p>
-</td>
-</tr>
-<tr>
-<td width="33">
-<p>6</p>
-</td>
-<td width="49">
-<p>6</p>
-</td>
-<td width="255">
-<p><strong>教学内容</strong>：深入探讨半同态加密(Somewhat Homomorphic Encryption, SHE)与全同态加密(Fully Homomorphic Encryption, FHE)的算法设计与安全性证明基础，分析同态加密在支持加法、乘法操作方面的差异，讨论经典和前沿同态加密算法的安全性归约方法。</p>
-<p><strong>预期效果</strong>：学生明确半同态加密与全同态加密在功能性与安全性方面的差异，理解同态加密的核心假设(如LWE、RLWE等)如何支持安全归约，能够熟悉典型 SHE/FHE方案的构造思路与安全性证明结构。</p>
-</td>
-<td width="139">
-<p>文献汇报与讨论</p>
-</td>
-</tr>
-<tr>
-<td width="33">
-<p>7</p>
-</td>
-<td width="49">
-<p>7</p>
-</td>
-<td width="255">
-<p><strong>教学内容</strong>：介绍通用安全多方计算(Multi-Party Computation, MPC)中半诚实模型(Semi-Honest Model)的安全性证明，分析各参与方在遵循协议前提下如何确保输入隐私，重点讨论半诚实模型下常用的协议设计(如GC、BGW、GMW等)以及其安全性证明的核心步骤与方法。</p>
-<p><strong>预期效果</strong>：学生了解多方安全计算在半诚实模型下的安全特征，掌握常见的 MPC 协议设计思路及安全归约技巧，能够对半诚实场景中的多方计算协议进行初步的安全性评估与分析。</p>
-</td>
-<td width="139">
-<p>文献汇报与讨论</p>
-</td>
-</tr>
-<tr>
-<td width="33">
-<p>8</p>
-</td>
-<td width="49">
-<p>8</p>
-</td>
-<td width="255">
-<p><strong>教学内容</strong>：在通用安全多方计算中，进一步探讨恶意模型(Malicious Model)的安全性证明，介绍恶意参与方可能的攻击方式及其防御策略。讨论如何将半诚实模型的协议扩展或改造为在恶意模型下依旧保证正确性与隐私性的通用安全协议。</p>
-<p><strong>预期效果</strong>：学生理解在恶意模型中面临的更严格安全要求，掌握针对恶意攻击的防护思路与技术点，能够区分和评价MPC协议在不同安全模型下的适用性和效率。</p>
-</td>
-<td width="139">
-<p>文献汇报与讨论</p>
-</td>
-</tr>
-<tr>
-<td width="33">
-<p>9</p>
-</td>
-<td width="49">
-<p>9</p>
-</td>
-<td width="255">
-<p><strong>教学内容</strong>：介绍可搜索加密(Searchable Encryption)的基本原理和系统架构，重点讨论其核心安全目标(如索引隐私、关键词隐私和查询模式隐藏等)，并结合经典可搜索加密方案分析其安全性证明方法与关键技术点。</p>
-<p><strong>预期效果</strong>：学生了解可搜索加密在云存储与检索场景中的应用场景与价值，掌握可搜索加密安全性定义与证明思路，能针对具体可搜索加密方案进行安全分析并判断其适用性和局限性。</p>
-</td>
-<td width="139">
-<p>文献汇报与讨论</p>
-</td>
-</tr>
-<tr>
-<td width="33">
-<p>10</p>
-</td>
-<td width="49">
-<p>10</p>
-</td>
-<td width="255">
-<p><strong>教学内容</strong>：介绍隐私信息检索(Private Information Retrieval, PIR)的主要模型与协议，分析单服务器与多服务器 PIR 协议的不同安全假设和复杂度要求，重点讨论如何在数据提供者与检索方之间实现最小化的信息泄露，探讨常见的 PIR 协议实现及其安全性证明方法。<br><strong>预期效果</strong>：学生了解隐私信息检索在实际应用中的重要意义，理解单服务器与多服务器PIR模型的核心差异及其安全性要求，能够阅读并分析典型的PIR协议及相关安全性证明。</p>
-</td>
-<td width="139">
-<p>文献汇报与讨论</p>
-</td>
-</tr>
-<tr>
-<td width="33">
-<p>11</p>
-</td>
-<td width="49">
-<p>11</p>
-</td>
-<td width="255">
-<p><strong>教学内容</strong>：介绍消息认证与身份凭证管理协议的安全性证明框架，重点讨论常见和前沿的认证协议中所需考虑的抗重放攻击、抗假冒攻击等要点，以及如何刻画并证明认证协议的安全性。</p>
-<p><strong>预期效果</strong>：学生掌握在身份认证协议中常见的安全威胁与对应的防护机制，理解如何利用安全模型来定义认证协议的安全目标和威胁模型，能够对消息或身份认证协议进行安全分析与证明。</p>
-</td>
-<td width="139">
-<p>文献汇报与讨论</p>
-</td>
-</tr>
-<tr>
-<td width="33">
-<p>12</p>
-</td>
-<td width="49">
-<p>12</p>
-</td>
-<td width="255">
-<p><strong>教学内容</strong>：介绍基于身份的加密(Identity-based Encryption,IBE)、基于属性的加密(Attribute-base Encryption, ABE)以及基于功能的加密(Functional Encryption, FE)算法及其安全模型。重点阐述如何在系统初始化、密钥生成与密文解密的各阶段确保安全性，以及相关安全假设的适用场景与归约思路。</p>
-<p><strong>预期效果</strong>：学生了解IBE、ABE、FE的核心设计理念与安全特性，掌握相应算法的安全证明逻辑，能够理解基于身份/属性/功能的加密算法并分析其安全性。</p>
-</td>
-<td width="139">
-<p>文献汇报与讨论</p>
-</td>
-</tr>
-<tr>
-<td width="33">
-<p>13</p>
-</td>
-<td width="49">
-<p>13</p>
-</td>
-<td width="255">
-<p><strong>教学内容</strong>：介绍隐私集合求交协议(Private Set Intersection, PSI)的安全性定义及常用协议，包括半诚实模型与恶意模型下的PSI方案；分析其核心安全目标(如结果正确性、输入隐私)和常见技术手段(如哈希、同态加密、盲化等)，并讨论如何进行安全性证明。</p>
-<p><strong>预期效果</strong>：学生熟悉隐私集合求交在联合分析等场景中的重要性，能够在不同安全模型下理解 PSI协议的安全证明思路，掌握评估PSI协议在效率和隐私性方面的取舍思路。</p>
-</td>
-<td width="139">
-<p>文献汇报与讨论</p>
-</td>
-</tr>
-<tr>
-<td width="33">
-<p>14</p>
-</td>
-<td width="49">
-<p>14</p>
-</td>
-<td width="255">
-<p><strong>教学内容</strong>：面向医疗、金融、人工智能等领域的隐私计算应用和协议，重点讨论如何结合前面所学基本技术，用于保护敏感数据(如医疗数据、金融交易信息)在处理过程中的安全和隐私。分析真实场景下安全模型的选取与安全性证明案例。</p>
-<p><strong>预期效果</strong>：学生认识到不同行业的隐私需求与合规要求，了解在实际应用中如何综合利用多种密码技术及安全模型，能够对具体的隐私计算应用进行需求分析与安全性验证。</p>
-</td>
-<td width="139">
-<p>文献汇报与讨论</p>
-</td>
-</tr>
-<tr>
-<td width="33">
-<p>15</p>
-</td>
-<td width="49">
-<p>15</p>
-</td>
-<td width="255">
-<p><strong>教学内容</strong>：探讨区块链和分布式信任协议的安全性证明方法，介绍区块链共识协议的安全性需求、攻击模型与归约思路，分析跨链、多链环境下的安全挑战与可能的解决方案，讨论分布式信任协议在去中心化应用中的应用前景。</p>
-<p><strong>预期效果</strong>：学生掌握常见共识协议安全性证明的基本框架与核心假设，能够在去中心化系统和应用中进行安全性分析，评估协议对抗恶意攻击者的鲁棒性。</p>
-</td>
-<td width="139">
-<p>文献汇报与讨论</p>
-</td>
-</tr>
-<tr>
-<td width="33">
-<p>16</p>
-</td>
-<td width="49">
-<p>16</p>
-</td>
-<td width="255">
-<p>课程项目报告</p>
-</td>
-<td width="139">
-<p>报告</p>
-</td>
-</tr>
-<tr>
-<td width="33">
-<p>17</p>
-</td>
-<td width="49">
-<p>17</p>
-</td>
-<td width="255">
-<p>课程项目报告</p>
-</td>
-<td width="139">
-<p>报告</p>
-</td>
-</tr>
-<tr>
-<td width="33">
-<p>18</p>
-</td>
-<td width="49">
-<p>18</p>
-</td>
-<td width="255">
-<p>课程项目报告</p>
-</td>
-<td width="139">
-<p>报告</p>
-</td>
-</tr>
-</tbody>
-</table><h2>课程考核与成绩评定</h2><h2>教材</h2><h2>教学参考资料</h2><table>
-<tbody>
-<tr>
-<td width="33">
-<p><strong>序号</strong></p>
-<p>No.</p>
-</td>
-<td width="103">
-<p><strong>名称</strong></p>
-<p>Title</p>
-</td>
-<td width="68">
-<p><strong>作者</strong></p>
-<p>Author(s)</p>
-</td>
-<td width="71">
-<p><strong>标准书号</strong></p>
-<p>ISBN</p>
-</td>
-<td width="68">
-<p><strong>出版机构</strong></p>
-<p>Publisher</p>
-</td>
-<td width="69">
-<p><strong>出版日期</strong></p>
-<p>Publication Date</p>
-</td>
-</tr>
-<tr>
-<td width="33">
-<p><strong>1</strong></p>
-</td>
-<td width="103">
-<p><strong>Introduction to Security Reduction</strong></p>
-</td>
-<td width="68">
-<p>Fuchun Guo, Willy Susilo, Yi Mu</p>
-</td>
-<td width="71">
-<p>9783030065744</p>
-</td>
-<td width="68">
-<p>Springer</p>
-</td>
-<td width="69">
-<p>2019年01月</p>
-</td>
-</tr>
-<tr>
-<td width="33">
-<p><strong>2</strong></p>
-</td>
-<td width="103">
-<p><strong>How To Simulate It – A Tutorial on the Simulation</strong></p>
-</td>
-<td width="68">
-<p>Yehuda Lindell</p>
-</td>
-<td width="71">
-<p>9783319570488</p>
-</td>
-<td width="68">
-<p>Springer</p>
-</td>
-<td width="69">
-<p>2017年04月</p>
-</td>
-</tr>
-<tr>
-<td width="33">
-<p><strong>3</strong></p>
-</td>
-<td width="103">
-<p><strong>密码学中的可证明安全性</strong></p>
-</td>
-<td width="68">
-<p>杨波</p>
-</td>
-<td width="71">
-<p>9787302467229</p>
-</td>
-<td width="68">
-<p>清华大学出版社</p>
-</td>
-<td width="69">
-<p>2017年04月</p>
-</td>
-</tr>
-</tbody>
+<!doctype html><html lang="zh-CN"><meta charset="utf-8"><title>可证明安全理论与应用 · 黄橙 · 2025秋 CSEC60002.01</title><style>body{max-width:1000px;margin:35px auto;padding:0 20px;font:16px/1.9 system-ui}table{border-collapse:collapse}td,th{border:1px solid #cad7cf;padding:8px}img{max-width:100%}</style><body><h1>可证明安全理论与应用</h1><p>2025秋 · CSEC60002.01 · 黄橙</p><p>来源：复旦教务系统教学班大纲。</p><h2>考核与成绩构成</h2><ul><li>出勤Attendance 10.0% 按时上课</li><li>课堂表现Participation 10.0% 积极讨论、发言</li><li>汇报Presentation 40.0% 按时、高质量完成文献汇报与相关作业</li><li>课题论文Research Paper 40.0% 课程论文思路新颖、论证详实</li></ul><h2>课程简介（中文）</h2><p>本课程聚焦可证明安全理论框架下严谨的算法/协议设计和安全归约，系统梳理从理论假设、算法/协议设计到安全证明的关键环节，深入离散对数、RSA、Diffie-Hellman等经典安全假设，结合Game-based、Simulation-based以及 UC(Universal Composability)-based等主流安全证明方法，阐释如何通过形式化的安全证明方法证明算法与协议的安全性；同时针对前沿研究，探讨零知识证明、多方安全计算、同态加密、隐私信息检索等技术的最新方案构造和证明，剖析如何在医疗、金融、AI等复杂场景中实现严谨的安全性定义与证明。</p><h2>课程简介（英文）</h2><p>This course focuses on the rigorous design of algorithms and protocols, as well as security reductions, within the framework of provable security. It systematically examines the key stages from theoretical assumptions, algorithm and protocol design, to security proofs. The course delves deeply into classical security assumptions such as the discrete logarithm problem, RSA, and Diffie-Hellman, and explores how to establish the security of algorithms and protocols through formal proof techniques, including game-based, simulation-based, and universally composable (UC)-based security proof methods. In addition, the course engages with cutting-edge research topics, discussing the latest constructions and proofs in zero-knowledge proofs, secure multi-party computation, homomorphic encryption, and private information retrieval. It further analyzes how to achieve rigorous security definitions and proofs in complex application domains such as healthcare, finance, and artificial intelligence.</p><h2>教学目标</h2><p>本课程是网络空间安全学科的重要课程，重点培养学生：(1)理解可证明安全的核心概念与理论基础，掌握主要安全模型与安全假设；(2)熟悉加密、认证、多方计算、零知识证明等关键安全算法及协议的安全性证明方法；(3)在实际应用场景中设计安全算法和协议，并证明其安全性的能力；(4)对密码学前沿研究方向的认识，为后续科研或行业实践奠定基础。</p><h2>教学方式</h2><p>本课程采用“理论讲授 + 案例分析 + 实践探索”相结合的教学模式。通过课堂讲授系统阐释可证明安全的核心理论与方法，辅以经典论文研读和前沿成果讨论，培养学生对安全假设与安全证明方法的深入理解。课程设置专题研讨环节，鼓励学生围绕零知识证明、多方安全计算等热点领域进行小组讨论与汇报，提升协作与学术表达能力。另设有实践作业，要求学生独立完成选定算法或协议的安全证明，强化理论知识在实际问题中的应用能力。</p><h2>教学内容与进度安排</h2><table>
+<tbody>
+<tr>
+<td width="33">
+<p><strong>课次</strong></p>
+<p>No.</p>
+</td>
+<td width="49">
+<p><strong>教学周</strong></p>
+<p>Week</p>
+</td>
+<td width="255">
+<p><strong>教学内容及预期效果</strong></p>
+<p>Content &amp; Expected Achievement</p>
+</td>
+<td width="139">
+<p><strong>作业/实验/实践</strong></p>
+<p>Assignment</p>
+</td>
+</tr>
+<tr>
+<td width="33">
+<p>1</p>
+</td>
+<td width="49">
+<p>1</p>
+</td>
+<td width="255">
+<p><strong>教学内容：</strong>介绍本课程的整体目标与要求，介绍可证明安全的历史、发展脉络与意义，回顾可证明安全理论需要的数学知识，并简要介绍 Game-based、Simulation-based、UC(Universal Composability)-based等安全证明方法及其应用。</p>
+<p><strong>预期效果：</strong>学生了解课程整体规划和学习目标，建立对可证明安全重要性的初步认识，区分不同层次的安全性概念，对后续将要深入学习的安全模型有初步认识。</p>
+</td>
+<td width="139">
+<p>-</p>
+</td>
+</tr>
+<tr>
+<td width="33">
+<p>2</p>
+</td>
+<td width="49">
+<p>2</p>
+</td>
+<td width="255">
+<p><strong>教学内容</strong>：介绍可证明安全理论的基本概念，介绍离散对数问题、RSA问题、Diffie-Hellman问题等常见计算或判定型安全假设，分析复杂性假设如何在安全归约证明中起到支撑作用并给出简单案例，串联数学原语、密码方案、困难问题与安全规约的关系，介绍安全证明中常见的模型，包括标准模型，随机预言机(Random Oracle, RO)模型，通用群(Generic Group, GG)模型，公共参考字符串模型(Common Reference String, CRS)等。</p>
+<p><strong>预期效果</strong>：学生能够列举并区分主要密码学假设，理解“若能攻破算法/协议，即可在多项式时间内解决某难题”的基本逻辑，为后续针对安全算法和协议的归约方法理解奠定基础。</p>
+</td>
+<td width="139">
+<p>-</p>
+</td>
+</tr>
+<tr>
+<td width="33">
+<p>3</p>
+</td>
+<td width="49">
+<p>3</p>
+</td>
+<td width="255">
+<p><strong>教学内容</strong>：介绍Game-based安全规约证明方法论，介绍攻击者 vs. 挑战者的对抗Game安全模型，讨论针对加密算法的IND-CPA, IND-CCA等安全模型，和针对签名算法的EUF-CMA，SU-CMA等安全模型，并给出加密和签名算法的安全性证明实例。</p>
+<p><strong>预期效果</strong>：学生理解如何以Game的视角刻画安全性，能描述一个基本Game的结构，掌握在Game-based模型中做概率分析的思路，对后续掌握更复杂的Game-based安全证明方法奠定基础。</p>
+</td>
+<td width="139">
+<p>-</p>
+</td>
+</tr>
+<tr>
+<td width="33">
+<p>4</p>
+</td>
+<td width="49">
+<p>4</p>
+</td>
+<td width="255">
+<p><strong>教学内容</strong>：介绍Simulation-based和UC的安全规约证明方法论，包括模拟器(Simulator)的设计思想、真实世界(Real World)与理想世界(Ideal World)的模型对比，以及如何通过模拟器在理想世界中重现攻击者在真实世界中的行为，从而证明协议或算法的安全性；给出简单的安全性证明实例。</p>
+<p><strong>预期效果</strong>：学生能够理解 Simulation-based 和UC-based安全证明方法的理论基础，学会在理想/真实双世界模型下刻画协议安全性，并掌握设计模拟器和分析攻击成功概率的思路。</p>
+</td>
+<td width="139">
+<p>-</p>
+</td>
+</tr>
+<tr>
+<td width="33">
+<p>5</p>
+</td>
+<td width="49">
+<p>5</p>
+</td>
+<td width="255">
+<p><strong>教学内容</strong>：介绍零知识证明(Zero-Knowledge Proof)与前沿Zk-SNARK协议的安全性证明方法，包括零知识、完备性与可靠性三大性质的定义与证明思路。重点讨论在RO模型、CRS模型等环境下如何保证零知识性质与健壮性。</p>
+<p><strong>预期效果</strong>：学生理解零知识证明的核心原理，掌握零知识性与可靠性在安全证明中的具体刻画方法，了解Zk-SNARK的基本构造及其高效性优势，能够阅读并理解主流零知识协议及其安全性证明要点。</p>
+</td>
+<td width="139">
+<p>文献汇报与讨论</p>
+</td>
+</tr>
+<tr>
+<td width="33">
+<p>6</p>
+</td>
+<td width="49">
+<p>6</p>
+</td>
+<td width="255">
+<p><strong>教学内容</strong>：深入探讨半同态加密(Somewhat Homomorphic Encryption, SHE)与全同态加密(Fully Homomorphic Encryption, FHE)的算法设计与安全性证明基础，分析同态加密在支持加法、乘法操作方面的差异，讨论经典和前沿同态加密算法的安全性归约方法。</p>
+<p><strong>预期效果</strong>：学生明确半同态加密与全同态加密在功能性与安全性方面的差异，理解同态加密的核心假设(如LWE、RLWE等)如何支持安全归约，能够熟悉典型 SHE/FHE方案的构造思路与安全性证明结构。</p>
+</td>
+<td width="139">
+<p>文献汇报与讨论</p>
+</td>
+</tr>
+<tr>
+<td width="33">
+<p>7</p>
+</td>
+<td width="49">
+<p>7</p>
+</td>
+<td width="255">
+<p><strong>教学内容</strong>：介绍通用安全多方计算(Multi-Party Computation, MPC)中半诚实模型(Semi-Honest Model)的安全性证明，分析各参与方在遵循协议前提下如何确保输入隐私，重点讨论半诚实模型下常用的协议设计(如GC、BGW、GMW等)以及其安全性证明的核心步骤与方法。</p>
+<p><strong>预期效果</strong>：学生了解多方安全计算在半诚实模型下的安全特征，掌握常见的 MPC 协议设计思路及安全归约技巧，能够对半诚实场景中的多方计算协议进行初步的安全性评估与分析。</p>
+</td>
+<td width="139">
+<p>文献汇报与讨论</p>
+</td>
+</tr>
+<tr>
+<td width="33">
+<p>8</p>
+</td>
+<td width="49">
+<p>8</p>
+</td>
+<td width="255">
+<p><strong>教学内容</strong>：在通用安全多方计算中，进一步探讨恶意模型(Malicious Model)的安全性证明，介绍恶意参与方可能的攻击方式及其防御策略。讨论如何将半诚实模型的协议扩展或改造为在恶意模型下依旧保证正确性与隐私性的通用安全协议。</p>
+<p><strong>预期效果</strong>：学生理解在恶意模型中面临的更严格安全要求，掌握针对恶意攻击的防护思路与技术点，能够区分和评价MPC协议在不同安全模型下的适用性和效率。</p>
+</td>
+<td width="139">
+<p>文献汇报与讨论</p>
+</td>
+</tr>
+<tr>
+<td width="33">
+<p>9</p>
+</td>
+<td width="49">
+<p>9</p>
+</td>
+<td width="255">
+<p><strong>教学内容</strong>：介绍可搜索加密(Searchable Encryption)的基本原理和系统架构，重点讨论其核心安全目标(如索引隐私、关键词隐私和查询模式隐藏等)，并结合经典可搜索加密方案分析其安全性证明方法与关键技术点。</p>
+<p><strong>预期效果</strong>：学生了解可搜索加密在云存储与检索场景中的应用场景与价值，掌握可搜索加密安全性定义与证明思路，能针对具体可搜索加密方案进行安全分析并判断其适用性和局限性。</p>
+</td>
+<td width="139">
+<p>文献汇报与讨论</p>
+</td>
+</tr>
+<tr>
+<td width="33">
+<p>10</p>
+</td>
+<td width="49">
+<p>10</p>
+</td>
+<td width="255">
+<p><strong>教学内容</strong>：介绍隐私信息检索(Private Information Retrieval, PIR)的主要模型与协议，分析单服务器与多服务器 PIR 协议的不同安全假设和复杂度要求，重点讨论如何在数据提供者与检索方之间实现最小化的信息泄露，探讨常见的 PIR 协议实现及其安全性证明方法。<br><strong>预期效果</strong>：学生了解隐私信息检索在实际应用中的重要意义，理解单服务器与多服务器PIR模型的核心差异及其安全性要求，能够阅读并分析典型的PIR协议及相关安全性证明。</p>
+</td>
+<td width="139">
+<p>文献汇报与讨论</p>
+</td>
+</tr>
+<tr>
+<td width="33">
+<p>11</p>
+</td>
+<td width="49">
+<p>11</p>
+</td>
+<td width="255">
+<p><strong>教学内容</strong>：介绍消息认证与身份凭证管理协议的安全性证明框架，重点讨论常见和前沿的认证协议中所需考虑的抗重放攻击、抗假冒攻击等要点，以及如何刻画并证明认证协议的安全性。</p>
+<p><strong>预期效果</strong>：学生掌握在身份认证协议中常见的安全威胁与对应的防护机制，理解如何利用安全模型来定义认证协议的安全目标和威胁模型，能够对消息或身份认证协议进行安全分析与证明。</p>
+</td>
+<td width="139">
+<p>文献汇报与讨论</p>
+</td>
+</tr>
+<tr>
+<td width="33">
+<p>12</p>
+</td>
+<td width="49">
+<p>12</p>
+</td>
+<td width="255">
+<p><strong>教学内容</strong>：介绍基于身份的加密(Identity-based Encryption,IBE)、基于属性的加密(Attribute-base Encryption, ABE)以及基于功能的加密(Functional Encryption, FE)算法及其安全模型。重点阐述如何在系统初始化、密钥生成与密文解密的各阶段确保安全性，以及相关安全假设的适用场景与归约思路。</p>
+<p><strong>预期效果</strong>：学生了解IBE、ABE、FE的核心设计理念与安全特性，掌握相应算法的安全证明逻辑，能够理解基于身份/属性/功能的加密算法并分析其安全性。</p>
+</td>
+<td width="139">
+<p>文献汇报与讨论</p>
+</td>
+</tr>
+<tr>
+<td width="33">
+<p>13</p>
+</td>
+<td width="49">
+<p>13</p>
+</td>
+<td width="255">
+<p><strong>教学内容</strong>：介绍隐私集合求交协议(Private Set Intersection, PSI)的安全性定义及常用协议，包括半诚实模型与恶意模型下的PSI方案；分析其核心安全目标(如结果正确性、输入隐私)和常见技术手段(如哈希、同态加密、盲化等)，并讨论如何进行安全性证明。</p>
+<p><strong>预期效果</strong>：学生熟悉隐私集合求交在联合分析等场景中的重要性，能够在不同安全模型下理解 PSI协议的安全证明思路，掌握评估PSI协议在效率和隐私性方面的取舍思路。</p>
+</td>
+<td width="139">
+<p>文献汇报与讨论</p>
+</td>
+</tr>
+<tr>
+<td width="33">
+<p>14</p>
+</td>
+<td width="49">
+<p>14</p>
+</td>
+<td width="255">
+<p><strong>教学内容</strong>：面向医疗、金融、人工智能等领域的隐私计算应用和协议，重点讨论如何结合前面所学基本技术，用于保护敏感数据(如医疗数据、金融交易信息)在处理过程中的安全和隐私。分析真实场景下安全模型的选取与安全性证明案例。</p>
+<p><strong>预期效果</strong>：学生认识到不同行业的隐私需求与合规要求，了解在实际应用中如何综合利用多种密码技术及安全模型，能够对具体的隐私计算应用进行需求分析与安全性验证。</p>
+</td>
+<td width="139">
+<p>文献汇报与讨论</p>
+</td>
+</tr>
+<tr>
+<td width="33">
+<p>15</p>
+</td>
+<td width="49">
+<p>15</p>
+</td>
+<td width="255">
+<p><strong>教学内容</strong>：探讨区块链和分布式信任协议的安全性证明方法，介绍区块链共识协议的安全性需求、攻击模型与归约思路，分析跨链、多链环境下的安全挑战与可能的解决方案，讨论分布式信任协议在去中心化应用中的应用前景。</p>
+<p><strong>预期效果</strong>：学生掌握常见共识协议安全性证明的基本框架与核心假设，能够在去中心化系统和应用中进行安全性分析，评估协议对抗恶意攻击者的鲁棒性。</p>
+</td>
+<td width="139">
+<p>文献汇报与讨论</p>
+</td>
+</tr>
+<tr>
+<td width="33">
+<p>16</p>
+</td>
+<td width="49">
+<p>16</p>
+</td>
+<td width="255">
+<p>课程项目报告</p>
+</td>
+<td width="139">
+<p>报告</p>
+</td>
+</tr>
+<tr>
+<td width="33">
+<p>17</p>
+</td>
+<td width="49">
+<p>17</p>
+</td>
+<td width="255">
+<p>课程项目报告</p>
+</td>
+<td width="139">
+<p>报告</p>
+</td>
+</tr>
+<tr>
+<td width="33">
+<p>18</p>
+</td>
+<td width="49">
+<p>18</p>
+</td>
+<td width="255">
+<p>课程项目报告</p>
+</td>
+<td width="139">
+<p>报告</p>
+</td>
+</tr>
+</tbody>
+</table><h2>课程考核与成绩评定</h2><h2>教材</h2><h2>教学参考资料</h2><table>
+<tbody>
+<tr>
+<td width="33">
+<p><strong>序号</strong></p>
+<p>No.</p>
+</td>
+<td width="103">
+<p><strong>名称</strong></p>
+<p>Title</p>
+</td>
+<td width="68">
+<p><strong>作者</strong></p>
+<p>Author(s)</p>
+</td>
+<td width="71">
+<p><strong>标准书号</strong></p>
+<p>ISBN</p>
+</td>
+<td width="68">
+<p><strong>出版机构</strong></p>
+<p>Publisher</p>
+</td>
+<td width="69">
+<p><strong>出版日期</strong></p>
+<p>Publication Date</p>
+</td>
+</tr>
+<tr>
+<td width="33">
+<p><strong>1</strong></p>
+</td>
+<td width="103">
+<p><strong>Introduction to Security Reduction</strong></p>
+</td>
+<td width="68">
+<p>Fuchun Guo, Willy Susilo, Yi Mu</p>
+</td>
+<td width="71">
+<p>9783030065744</p>
+</td>
+<td width="68">
+<p>Springer</p>
+</td>
+<td width="69">
+<p>2019年01月</p>
+</td>
+</tr>
+<tr>
+<td width="33">
+<p><strong>2</strong></p>
+</td>
+<td width="103">
+<p><strong>How To Simulate It – A Tutorial on the Simulation</strong></p>
+</td>
+<td width="68">
+<p>Yehuda Lindell</p>
+</td>
+<td width="71">
+<p>9783319570488</p>
+</td>
+<td width="68">
+<p>Springer</p>
+</td>
+<td width="69">
+<p>2017年04月</p>
+</td>
+</tr>
+<tr>
+<td width="33">
+<p><strong>3</strong></p>
+</td>
+<td width="103">
+<p><strong>密码学中的可证明安全性</strong></p>
+</td>
+<td width="68">
+<p>杨波</p>
+</td>
+<td width="71">
+<p>9787302467229</p>
+</td>
+<td width="68">
+<p>清华大学出版社</p>
+</td>
+<td width="69">
+<p>2017年04月</p>
+</td>
+</tr>
+</tbody>
 </table><h2>教学团队成员</h2></body></html>

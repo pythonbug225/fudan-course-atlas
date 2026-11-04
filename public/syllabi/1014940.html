@@ -1,222 +1,222 @@
-<!doctype html><html lang="zh-CN"><meta charset="utf-8"><title>程序分析 · 李弋 · 2025秋 CS60027.01</title><style>body{max-width:1000px;margin:35px auto;padding:0 20px;font:16px/1.9 system-ui}table{border-collapse:collapse}td,th{border:1px solid #cad7cf;padding:8px}img{max-width:100%}</style><body><h1>程序分析</h1><p>2025秋 · CS60027.01 · 李弋</p><p>来源：复旦教务系统教学班大纲。</p><h2>考核与成绩构成</h2><ul><li>课堂表现Participation 30.0% 回答问题、参与讨论和presentation</li><li>作业/实验/实践Assignment 30.0% 干次书面作业或实践作业</li><li>课题论文Research Paper 40.0% 运用程序分析的基本知识和方法，描述解决实际问题的方法，包含数据</li></ul><h2>课程简介（中文）</h2><p>课程分为程序理论和程序分析技术两大部分。首先，介绍程序语言的基本理论，主要包括程序语言的核心概念、设计中的问题和对编程的影响；然后，介绍程序分析的基本理论和典型方法，主要包括程序的语义描述、程序结构的形式化描述、程序静态分析、数据流分析、控制流分析、抽象解释、过程间分析、符号执行、SMT理论、程序验证、模型检验、程序综合、并发的形式化表示和程序的动态分析，以及静态分析方法的典型应用。</p><h2>课程简介（英文）</h2><p>The course has two parts, foundation of programming language and program analysis. We first introduce preliminaries of programming language, including basic concepts, issues in language design, and impacts to programming. Then, we learn fundamental theory and typical methods, including semantics, data flow analysis, contorl flow analysis, abstract interpretation, interprocedural analysis, symbolic analysis, and program logic etc..</p><h2>教学目标</h2><div><span>通过课程学习，学生掌握程序语言的基本理论，理解程序的基本行为；进一步掌握描述程序的形式化方法，以及静态分析的各种理论和工具，并运用这些理论和技术为特定的应用构建静态分析的工具；了解程序静态分析的局限，能够基于学习到方法描述程序的行为，例如并发，并为动态程序分析和测试提供指导。</span></div><h2>教学方式</h2><p>课堂教学：理论学习</p>
-<p>课后Lab：运用理论知识完成一些列Lab</p>
-<p> </p><h2>教学内容与进度安排</h2><table width="614">
-<tbody>
-<tr>
-<td width="47">
-<p><strong>教学周</strong></p>
-<p>Week</p>
-</td>
-<td width="265">
-<p><strong>教学内容及预期效果</strong></p>
-<p>Content &amp; Expected Achievement</p>
-</td>
-<td width="151">
-<p><strong>作业</strong><strong>/</strong><strong>练习</strong></p>
-<p>Assignment</p>
-</td>
-</tr>
-<tr>
-<td width="47">
-<p>1</p>
-</td>
-<td width="265">
-<p>Introduction to Program Analysis</p>
-</td>
-<td width="151">
-<p> </p>
-</td>
-</tr>
-<tr>
-<td width="47">
-<p>2</p>
-</td>
-<td width="265">
-<p>Functional Programming Language &amp; Lambda Calculus</p>
-</td>
-<td width="151">
-<p>Paper Reading</p>
-</td>
-</tr>
-<tr>
-<td width="47">
-<p>3</p>
-</td>
-<td width="265">
-<p>Program Semantics</p>
-</td>
-<td width="151">
-<p>Paper Reading</p>
-</td>
-</tr>
-<tr>
-<td width="47">
-<p>4</p>
-</td>
-<td width="265">
-<p>Data Flow Analysis</p>
-</td>
-<td width="151">
-<p>Paper Reading</p>
-</td>
-</tr>
-<tr>
-<td width="47">
-<p>5</p>
-</td>
-<td width="265">
-<p>Type and Effect Systems</p>
-</td>
-<td width="151">
-<p>Paper Reading/Project</p>
-</td>
-</tr>
-<tr>
-<td width="47">
-<p>6</p>
-</td>
-<td width="265">
-<p>Abstraction Interpretation I: Compositional</p>
-</td>
-<td width="151">
-<p>Paper Reading</p>
-</td>
-</tr>
-<tr>
-<td width="47">
-<p>7</p>
-</td>
-<td width="265">
-<p>Abstraction Interpretation II: Transitional</p>
-</td>
-<td width="151">
-<p>Paper Reading</p>
-</td>
-</tr>
-<tr>
-<td width="47">
-<p>8</p>
-</td>
-<td width="265">
-<p>Abstraction Interpretation III: Advanced Techniques</p>
-</td>
-<td width="151">
-<p>Paper Reading</p>
-</td>
-</tr>
-<tr>
-<td width="47">
-<p>9</p>
-</td>
-<td width="265">
-<p>Abstraction Interpretation IV: Applications</p>
-</td>
-<td width="151">
-<p>Paper Reading/Project</p>
-</td>
-</tr>
-<tr>
-<td width="47">
-<p>10</p>
-</td>
-<td width="265">
-<p>Advanced Topic I: Interprocedural Analysis</p>
-</td>
-<td width="151">
-<p>Paper Reading</p>
-</td>
-</tr>
-<tr>
-<td width="47">
-<p>11</p>
-</td>
-<td width="265">
-<p>Advanced Topic II: Symbolic Execution</p>
-</td>
-<td width="151">
-<p>Paper Reading</p>
-</td>
-</tr>
-<tr>
-<td width="47">
-<p>12</p>
-</td>
-<td width="265">
-<p>Advanced Topic III: Memory and Separation Logic</p>
-</td>
-<td width="151">
-<p>Paper Reading</p>
-</td>
-</tr>
-<tr>
-<td width="47">
-<p>13</p>
-</td>
-<td width="265">
-<p>Presentation &amp; Discussion I</p>
-</td>
-<td width="151">
-<p> </p>
-</td>
-</tr>
-<tr>
-<td width="47">
-<p>14</p>
-</td>
-<td width="265">
-<p>Presentation &amp; Discussion II</p>
-</td>
-<td width="151">
-<p> </p>
-</td>
-</tr>
-<tr>
-<td width="47">
-<p>15</p>
-</td>
-<td width="265">
-<p>Presentation &amp; Discussion III</p>
-</td>
-<td width="151">
-<p> </p>
-</td>
-</tr>
-<tr>
-<td width="47">
-<p>16</p>
-</td>
-<td width="265">
-<p>Presentation &amp; Discussion IV</p>
-</td>
-<td width="151">
-<p> </p>
-</td>
-</tr>
-<tr>
-<td width="47">
-<p>17</p>
-</td>
-<td width="265">
-<p>准备课程论文</p>
-</td>
-<td width="151">
-<p> </p>
-</td>
-</tr>
-<tr>
-<td width="47">
-<p>18</p>
-</td>
-<td width="265">
-<p>提交课程论文和Project</p>
-</td>
-<td width="151">
-<p> </p>
-</td>
-</tr>
-</tbody>
-</table><h2>课程考核与成绩评定</h2><h2>教材</h2><h2>教学参考资料</h2><ol>
-<li><span><span>Flemming Nielson, Hanne Riis Nielson and Chris Hankin. </span></span>机械工业出版社, 2022.</li>
-<li>Flemming Nielson, Hanne Riis Nielson. <strong>Formal Method: An Appetizer. </strong>Springer, 2019.</li>
-<li>Patrick Cousot. <strong>Principles of Abstract Interpretation. </strong>The MIT Press, 2021.</li>
+<!doctype html><html lang="zh-CN"><meta charset="utf-8"><title>程序分析 · 李弋 · 2025秋 CS60027.01</title><style>body{max-width:1000px;margin:35px auto;padding:0 20px;font:16px/1.9 system-ui}table{border-collapse:collapse}td,th{border:1px solid #cad7cf;padding:8px}img{max-width:100%}</style><body><h1>程序分析</h1><p>2025秋 · CS60027.01 · 李弋</p><p>来源：复旦教务系统教学班大纲。</p><h2>考核与成绩构成</h2><ul><li>课堂表现Participation 30.0% 回答问题、参与讨论和presentation</li><li>作业/实验/实践Assignment 30.0% 干次书面作业或实践作业</li><li>课题论文Research Paper 40.0% 运用程序分析的基本知识和方法，描述解决实际问题的方法，包含数据</li></ul><h2>课程简介（中文）</h2><p>课程分为程序理论和程序分析技术两大部分。首先，介绍程序语言的基本理论，主要包括程序语言的核心概念、设计中的问题和对编程的影响；然后，介绍程序分析的基本理论和典型方法，主要包括程序的语义描述、程序结构的形式化描述、程序静态分析、数据流分析、控制流分析、抽象解释、过程间分析、符号执行、SMT理论、程序验证、模型检验、程序综合、并发的形式化表示和程序的动态分析，以及静态分析方法的典型应用。</p><h2>课程简介（英文）</h2><p>The course has two parts, foundation of programming language and program analysis. We first introduce preliminaries of programming language, including basic concepts, issues in language design, and impacts to programming. Then, we learn fundamental theory and typical methods, including semantics, data flow analysis, contorl flow analysis, abstract interpretation, interprocedural analysis, symbolic analysis, and program logic etc..</p><h2>教学目标</h2><div><span>通过课程学习，学生掌握程序语言的基本理论，理解程序的基本行为；进一步掌握描述程序的形式化方法，以及静态分析的各种理论和工具，并运用这些理论和技术为特定的应用构建静态分析的工具；了解程序静态分析的局限，能够基于学习到方法描述程序的行为，例如并发，并为动态程序分析和测试提供指导。</span></div><h2>教学方式</h2><p>课堂教学：理论学习</p>
+<p>课后Lab：运用理论知识完成一些列Lab</p>
+<p> </p><h2>教学内容与进度安排</h2><table width="614">
+<tbody>
+<tr>
+<td width="47">
+<p><strong>教学周</strong></p>
+<p>Week</p>
+</td>
+<td width="265">
+<p><strong>教学内容及预期效果</strong></p>
+<p>Content &amp; Expected Achievement</p>
+</td>
+<td width="151">
+<p><strong>作业</strong><strong>/</strong><strong>练习</strong></p>
+<p>Assignment</p>
+</td>
+</tr>
+<tr>
+<td width="47">
+<p>1</p>
+</td>
+<td width="265">
+<p>Introduction to Program Analysis</p>
+</td>
+<td width="151">
+<p> </p>
+</td>
+</tr>
+<tr>
+<td width="47">
+<p>2</p>
+</td>
+<td width="265">
+<p>Functional Programming Language &amp; Lambda Calculus</p>
+</td>
+<td width="151">
+<p>Paper Reading</p>
+</td>
+</tr>
+<tr>
+<td width="47">
+<p>3</p>
+</td>
+<td width="265">
+<p>Program Semantics</p>
+</td>
+<td width="151">
+<p>Paper Reading</p>
+</td>
+</tr>
+<tr>
+<td width="47">
+<p>4</p>
+</td>
+<td width="265">
+<p>Data Flow Analysis</p>
+</td>
+<td width="151">
+<p>Paper Reading</p>
+</td>
+</tr>
+<tr>
+<td width="47">
+<p>5</p>
+</td>
+<td width="265">
+<p>Type and Effect Systems</p>
+</td>
+<td width="151">
+<p>Paper Reading/Project</p>
+</td>
+</tr>
+<tr>
+<td width="47">
+<p>6</p>
+</td>
+<td width="265">
+<p>Abstraction Interpretation I: Compositional</p>
+</td>
+<td width="151">
+<p>Paper Reading</p>
+</td>
+</tr>
+<tr>
+<td width="47">
+<p>7</p>
+</td>
+<td width="265">
+<p>Abstraction Interpretation II: Transitional</p>
+</td>
+<td width="151">
+<p>Paper Reading</p>
+</td>
+</tr>
+<tr>
+<td width="47">
+<p>8</p>
+</td>
+<td width="265">
+<p>Abstraction Interpretation III: Advanced Techniques</p>
+</td>
+<td width="151">
+<p>Paper Reading</p>
+</td>
+</tr>
+<tr>
+<td width="47">
+<p>9</p>
+</td>
+<td width="265">
+<p>Abstraction Interpretation IV: Applications</p>
+</td>
+<td width="151">
+<p>Paper Reading/Project</p>
+</td>
+</tr>
+<tr>
+<td width="47">
+<p>10</p>
+</td>
+<td width="265">
+<p>Advanced Topic I: Interprocedural Analysis</p>
+</td>
+<td width="151">
+<p>Paper Reading</p>
+</td>
+</tr>
+<tr>
+<td width="47">
+<p>11</p>
+</td>
+<td width="265">
+<p>Advanced Topic II: Symbolic Execution</p>
+</td>
+<td width="151">
+<p>Paper Reading</p>
+</td>
+</tr>
+<tr>
+<td width="47">
+<p>12</p>
+</td>
+<td width="265">
+<p>Advanced Topic III: Memory and Separation Logic</p>
+</td>
+<td width="151">
+<p>Paper Reading</p>
+</td>
+</tr>
+<tr>
+<td width="47">
+<p>13</p>
+</td>
+<td width="265">
+<p>Presentation &amp; Discussion I</p>
+</td>
+<td width="151">
+<p> </p>
+</td>
+</tr>
+<tr>
+<td width="47">
+<p>14</p>
+</td>
+<td width="265">
+<p>Presentation &amp; Discussion II</p>
+</td>
+<td width="151">
+<p> </p>
+</td>
+</tr>
+<tr>
+<td width="47">
+<p>15</p>
+</td>
+<td width="265">
+<p>Presentation &amp; Discussion III</p>
+</td>
+<td width="151">
+<p> </p>
+</td>
+</tr>
+<tr>
+<td width="47">
+<p>16</p>
+</td>
+<td width="265">
+<p>Presentation &amp; Discussion IV</p>
+</td>
+<td width="151">
+<p> </p>
+</td>
+</tr>
+<tr>
+<td width="47">
+<p>17</p>
+</td>
+<td width="265">
+<p>准备课程论文</p>
+</td>
+<td width="151">
+<p> </p>
+</td>
+</tr>
+<tr>
+<td width="47">
+<p>18</p>
+</td>
+<td width="265">
+<p>提交课程论文和Project</p>
+</td>
+<td width="151">
+<p> </p>
+</td>
+</tr>
+</tbody>
+</table><h2>课程考核与成绩评定</h2><h2>教材</h2><h2>教学参考资料</h2><ol>
+<li><span><span>Flemming Nielson, Hanne Riis Nielson and Chris Hankin. </span></span>机械工业出版社, 2022.</li>
+<li>Flemming Nielson, Hanne Riis Nielson. <strong>Formal Method: An Appetizer. </strong>Springer, 2019.</li>
+<li>Patrick Cousot. <strong>Principles of Abstract Interpretation. </strong>The MIT Press, 2021.</li>
 </ol><h2>教学团队成员</h2></body></html>

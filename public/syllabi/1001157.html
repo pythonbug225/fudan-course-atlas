@@ -1,20 +1,20 @@
-<!doctype html><html lang="zh-CN"><meta charset="utf-8"><title>系统安全攻防技术 · 张源、杨珉 · 2025秋 CSEC30019.01</title><style>body{max-width:1000px;margin:35px auto;padding:0 20px;font:16px/1.9 system-ui}table{border-collapse:collapse}td,th{border:1px solid #cad7cf;padding:8px}img{max-width:100%}</style><body><h1>系统安全攻防技术</h1><p>2025秋 · CSEC30019.01 · 张源、杨珉</p><p>来源：复旦教务系统教学班大纲。</p><h2>考核与成绩构成</h2><ul><li>课堂表现Participation 10.0% </li><li>作业/实验/实践Assignment 50.0% </li><li>期末考试Final Examination：闭卷  40.0% </li></ul><h2>课程简介（中文）</h2><p>本课程介绍Web安全攻防技术的背景、发展和现状。以Web应用程序为主要平台，介绍Web应用程序和服务器中间件中存在的典型安全问题，如SQL注入、文件上传漏洞，增加对Web应用程序的理解；以及主流安全分析手段、攻击手段和防御手段，培养分析问题解决问题的能力；同时介绍开展实验所需要的工具和实践技巧，培养学生的动手能力。围绕课程内容，结合真实的Web应用程序，设计安全攻防实验，锻炼学生在模拟真实场景下的攻防能力。</p><h2>课程简介（英文）</h2><p>This course introduces the background, the development, and the current status of Web security attack and defense technologies. With Web applications as the main platform, this course introduces typical security issues in Web applications and server middleware, such as SQL injection and file upload vulnerabilities, to increase students&#x27; understanding of Web applications; as well as mainstream security analysis methods, attack methods and defense methods, to cultivate students&#x27; ability to analyze and solve problems; at the same time, it introduces the tools and practical skills needed to carry out experiments to develop students&#x27; hands-on ability. Based on the course content and combined with real Web applications, security attack and defense experiments are designed to train students&#x27; attack and defense capabilities in simulated real scenarios.</p><h2>教学目标</h2><p>本课程以Web安全为主要教学平台，介绍Web安全中的常见问题，以及针对这些问题主流的分析技术、攻击技术和防御技术。同时，从安全问题扩展到一般Web应用程序开发中，帮助学生进一步理解Web网站的运行原理，最终提高学生在计算机技术，尤其是Web安全领域的安全素养。此外，本课程将通过结合安全攻防实验的方式，培养学生通过实践检验与完善理论的思想意识与行为习惯，以及运用专业知识解决具体问题的能力、认知社会的能力。</p><h2>教学方式</h2><p>讲授、实验等多种方式结合。</p><h2>教学内容与进度安排</h2><ul>
-<li>第1周 课程简介：通过本次课程，学生需要掌握对系统安全、网络安全威胁、威胁模型、软件漏洞等知识点的基本理解。</li>
-<li>第2周 Web安全介绍：通过本次课程，学生需要掌握对Web安全、应用层HTTP/HTTPS协议、浏览器安全机制等知识点的基本理解。</li>
-<li>第3周 隐私泄露攻击：通过本次课程，学生需要掌握隐私信息定义、隐私泄露攻击危害及途径、防范等知识点，在Lab平台利用BurpSuite工具的字典爆破模块实践隐私泄露攻击。</li>
-<li>第4周 越权攻击： 通过本次课程，学生需要掌握访问控制以及越权攻击危害、途径、防范等知识点，在Lab平台使用相关工具实践不同类型的越权攻击。</li>
-<li>第5周 文件包含攻击： 通过本次课程，学生需要掌握文件包含漏洞、PHP和其他编程语言下文件包含原理、利用和 防范等知识点，在Lab平台实践PHP过滤流等常用文件包含攻击手法。</li>
-<li>第6周 文件上传攻击： 通过本次课程，学生需要掌握文件上传漏洞定义、利用原理和防范等知识点，在Lab平台使用相关工具来实践不同类型的文件上传攻击。</li>
-<li>第7周 SQL注入攻击I： 通过本次课程，学生需要掌握SQL注入定义、利用原理等知识点，在Lab平台实践万能密码、Union 注入等攻击。</li>
-<li>第8周 SQL注入攻击II： 通过本次课程，学生需要掌握SQL高级注入技巧、防御及绕过等知识点，在Lab平台实践报错注入、布尔盲注、二阶注入等攻击。</li>
-<li>第9周 代码/命令注入： 通过本次课程，学生需要掌握命令注入定义、PHP代码注入原理以及防范、模板注入等知识点，在Lab平台实践命令/代码注入攻击的基本流程。</li>
-<li>第10周 跨站脚本攻击： 通过本次课程，学生需要理解XSS漏洞基本概念、原理、利用和防御方法，在Lab平台实践XSS漏洞攻击的基本流程。</li>
-<li>第11周 序列化对象注入攻击： 通过本次课程，学生需要理解PHP反序列化漏洞的原理、Java反序列化漏洞的原理、序列化攻击的防御方法，在Lab平台实践PHP反序列化攻击的基本流程。</li>
-<li>第12周 命名实体注入攻击： 通过本次课程，学生需要理解XXE漏洞的原理、掌握XXE漏洞的利用和修复方法，在Lab平台实践利用XXE漏洞完成信息泄露、端口扫描等攻击。</li>
-<li>第13周 客户端/服务端请求伪造攻击： 通过本次课程，学生需要理解CSRF和SSRF漏洞的原理，掌握CSRF和SSRF漏洞的的利用和修复方法，在Lab平台实践CSRF和SSRF攻击的基本流程。</li>
-<li>第14周 渗透测试： 通过本次课程，学生需要了解渗透测试的基本概念、流程，掌握域名枚举，端口爆破等信息收集方法，掌握社会工程学、权限维持、权限提升、内网代理等知识点。</li>
-<li>第15周 课程综合实践： 在本次课程中，学生需要运用之前课程中的知识点和攻防实践训练，完成对Web攻防能力综合考察。</li>
-<li>第16周 随堂测试： 本次课程中，学生需要完成对Web攻防方面理论知识的综合考察。</li>
-</ul><h2>课程考核与成绩评定</h2><h2>教材</h2><h2>教学参考资料</h2><p>1.《白帽子讲WEB安全（第2版）》，电子工业出版社，2023.7，ISBN：9787121459672</p>
-<p>2.《Web前端黑客技术揭秘》，电子工业出版社，2013.1，ISBN：9787121192036</p>
+<!doctype html><html lang="zh-CN"><meta charset="utf-8"><title>系统安全攻防技术 · 张源、杨珉 · 2025秋 CSEC30019.01</title><style>body{max-width:1000px;margin:35px auto;padding:0 20px;font:16px/1.9 system-ui}table{border-collapse:collapse}td,th{border:1px solid #cad7cf;padding:8px}img{max-width:100%}</style><body><h1>系统安全攻防技术</h1><p>2025秋 · CSEC30019.01 · 张源、杨珉</p><p>来源：复旦教务系统教学班大纲。</p><h2>考核与成绩构成</h2><ul><li>课堂表现Participation 10.0% </li><li>作业/实验/实践Assignment 50.0% </li><li>期末考试Final Examination：闭卷  40.0% </li></ul><h2>课程简介（中文）</h2><p>本课程介绍Web安全攻防技术的背景、发展和现状。以Web应用程序为主要平台，介绍Web应用程序和服务器中间件中存在的典型安全问题，如SQL注入、文件上传漏洞，增加对Web应用程序的理解；以及主流安全分析手段、攻击手段和防御手段，培养分析问题解决问题的能力；同时介绍开展实验所需要的工具和实践技巧，培养学生的动手能力。围绕课程内容，结合真实的Web应用程序，设计安全攻防实验，锻炼学生在模拟真实场景下的攻防能力。</p><h2>课程简介（英文）</h2><p>This course introduces the background, the development, and the current status of Web security attack and defense technologies. With Web applications as the main platform, this course introduces typical security issues in Web applications and server middleware, such as SQL injection and file upload vulnerabilities, to increase students&#x27; understanding of Web applications; as well as mainstream security analysis methods, attack methods and defense methods, to cultivate students&#x27; ability to analyze and solve problems; at the same time, it introduces the tools and practical skills needed to carry out experiments to develop students&#x27; hands-on ability. Based on the course content and combined with real Web applications, security attack and defense experiments are designed to train students&#x27; attack and defense capabilities in simulated real scenarios.</p><h2>教学目标</h2><p>本课程以Web安全为主要教学平台，介绍Web安全中的常见问题，以及针对这些问题主流的分析技术、攻击技术和防御技术。同时，从安全问题扩展到一般Web应用程序开发中，帮助学生进一步理解Web网站的运行原理，最终提高学生在计算机技术，尤其是Web安全领域的安全素养。此外，本课程将通过结合安全攻防实验的方式，培养学生通过实践检验与完善理论的思想意识与行为习惯，以及运用专业知识解决具体问题的能力、认知社会的能力。</p><h2>教学方式</h2><p>讲授、实验等多种方式结合。</p><h2>教学内容与进度安排</h2><ul>
+<li>第1周 课程简介：通过本次课程，学生需要掌握对系统安全、网络安全威胁、威胁模型、软件漏洞等知识点的基本理解。</li>
+<li>第2周 Web安全介绍：通过本次课程，学生需要掌握对Web安全、应用层HTTP/HTTPS协议、浏览器安全机制等知识点的基本理解。</li>
+<li>第3周 隐私泄露攻击：通过本次课程，学生需要掌握隐私信息定义、隐私泄露攻击危害及途径、防范等知识点，在Lab平台利用BurpSuite工具的字典爆破模块实践隐私泄露攻击。</li>
+<li>第4周 越权攻击： 通过本次课程，学生需要掌握访问控制以及越权攻击危害、途径、防范等知识点，在Lab平台使用相关工具实践不同类型的越权攻击。</li>
+<li>第5周 文件包含攻击： 通过本次课程，学生需要掌握文件包含漏洞、PHP和其他编程语言下文件包含原理、利用和 防范等知识点，在Lab平台实践PHP过滤流等常用文件包含攻击手法。</li>
+<li>第6周 文件上传攻击： 通过本次课程，学生需要掌握文件上传漏洞定义、利用原理和防范等知识点，在Lab平台使用相关工具来实践不同类型的文件上传攻击。</li>
+<li>第7周 SQL注入攻击I： 通过本次课程，学生需要掌握SQL注入定义、利用原理等知识点，在Lab平台实践万能密码、Union 注入等攻击。</li>
+<li>第8周 SQL注入攻击II： 通过本次课程，学生需要掌握SQL高级注入技巧、防御及绕过等知识点，在Lab平台实践报错注入、布尔盲注、二阶注入等攻击。</li>
+<li>第9周 代码/命令注入： 通过本次课程，学生需要掌握命令注入定义、PHP代码注入原理以及防范、模板注入等知识点，在Lab平台实践命令/代码注入攻击的基本流程。</li>
+<li>第10周 跨站脚本攻击： 通过本次课程，学生需要理解XSS漏洞基本概念、原理、利用和防御方法，在Lab平台实践XSS漏洞攻击的基本流程。</li>
+<li>第11周 序列化对象注入攻击： 通过本次课程，学生需要理解PHP反序列化漏洞的原理、Java反序列化漏洞的原理、序列化攻击的防御方法，在Lab平台实践PHP反序列化攻击的基本流程。</li>
+<li>第12周 命名实体注入攻击： 通过本次课程，学生需要理解XXE漏洞的原理、掌握XXE漏洞的利用和修复方法，在Lab平台实践利用XXE漏洞完成信息泄露、端口扫描等攻击。</li>
+<li>第13周 客户端/服务端请求伪造攻击： 通过本次课程，学生需要理解CSRF和SSRF漏洞的原理，掌握CSRF和SSRF漏洞的的利用和修复方法，在Lab平台实践CSRF和SSRF攻击的基本流程。</li>
+<li>第14周 渗透测试： 通过本次课程，学生需要了解渗透测试的基本概念、流程，掌握域名枚举，端口爆破等信息收集方法，掌握社会工程学、权限维持、权限提升、内网代理等知识点。</li>
+<li>第15周 课程综合实践： 在本次课程中，学生需要运用之前课程中的知识点和攻防实践训练，完成对Web攻防能力综合考察。</li>
+<li>第16周 随堂测试： 本次课程中，学生需要完成对Web攻防方面理论知识的综合考察。</li>
+</ul><h2>课程考核与成绩评定</h2><h2>教材</h2><h2>教学参考资料</h2><p>1.《白帽子讲WEB安全（第2版）》，电子工业出版社，2023.7，ISBN：9787121459672</p>
+<p>2.《Web前端黑客技术揭秘》，电子工业出版社，2013.1，ISBN：9787121192036</p>
 <p>3.《白帽子讲Web扫描》，电子工业出版社，2017.6，ISBN：9787121314773</p><h2>教学团队成员</h2></body></html>

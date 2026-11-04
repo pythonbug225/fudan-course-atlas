@@ -1,282 +1,282 @@
-<!doctype html><html lang="zh-CN"><meta charset="utf-8"><title>生成模型基础与应用 · 周水庚、糜予曦 · 2025秋 CS60014.01</title><style>body{max-width:1000px;margin:35px auto;padding:0 20px;font:16px/1.9 system-ui}table{border-collapse:collapse}td,th{border:1px solid #cad7cf;padding:8px}img{max-width:100%}</style><body><h1>生成模型基础与应用</h1><p>2025秋 · CS60014.01 · 周水庚、糜予曦</p><p>来源：复旦教务系统教学班大纲。</p><h2>考核与成绩构成</h2><ul><li>出勤Attendance 10.0% </li><li>课堂表现Participation 20.0% 包括：课程论文报告、课堂提问、参与讨论等表现</li><li>作业/实验/实践Assignment 20.0% 包括：论文阅读、模型实现</li><li>课题论文Research Paper 50.0% 包括：研究综述、算法实现和新方法探究等</li></ul><h2>课程简介（中文）</h2><p>生成模型（Generative Model）是概率统计、机器学习和深度学习中的一类重要模型，通常用于随机生成可观测数据，如图像、文本、声音等。本课程面向研究生（特别是博士生），介绍各种重要生成模型，如自回归模型、变分自编码器、生成对抗网络等的基本原理与关键技术，学习如何从未知的概率分布中取样。目前，生成模型是一个非常活跃的研究领域，本课程介绍的大多数模型都是最近10年中发展的。因此，本课程与当前的研究进展紧密结合，将提供学生阅读该领域最新论文所需的背景知识。此外，本课程还将介绍生成模型方法在图像、视频、文本、声音和生物医学等领域的实际应用。</p><h2>课程简介（英文）</h2><p><span>Generative models are an important type of models in probability statistics, machine learning, and deep learning, typically used to randomly generate observable data such as images, text, sound, etc. This course is aimed at graduate students (especially doctoral students), introducing the basic principles and key technologies of various important generative models such as autoregressive models, variational autoencoders, generative adversarial networks, etc., and learning how to sample from unknown probability distributions. At present, generative modeling is a very active research field, and most of the models introduced in this course have been developed in the past 10 years. Therefore, this course will focus on the current research progress and will provide students with the background knowledge necessary to read the latest papers in this field. In addition, this course will also introduce the practical applications of generative modeling methods in fields such as images, videos, text, sound, and biomedical sciences.</span></p><h2>教学目标</h2><p>通过本课程学习，让学生达到以下几个目标：</p>
-<ul>
-<li>了解生成模型的相关背景知识，能够无障碍地阅读该领域最新的研究论文；</li>
-<li>针对若干重要的生成模型，熟悉其基本的建模过程、算法原理以及关键技术；</li>
-<li>针对若干应用领域，学会选择适合的生成模型，并进行算法实现；</li>
-<li>启发学生思维，提出新的模型，将模型应用于解决实际问题。</li>
-</ul><h2>教学方式</h2><p>教师讲授基本原理，学生汇报最新应用进展。</p><h2>教学内容与进度安排</h2><p> </p>
-<table width="637">
-<tbody>
-<tr>
-<td width="45">
-<p><strong>课次</strong></p>
-<p>No.</p>
-</td>
-<td width="66">
-<p><strong>教学周</strong></p>
-<p>Week</p>
-</td>
-<td width="340">
-<p><strong>教学内容及预期效果</strong></p>
-<p>Content &amp; Expected Achievement</p>
-</td>
-<td width="186">
-<p><strong>作业</strong><strong>/</strong><strong>实验</strong><strong>/</strong><strong>实践</strong></p>
-<p>Assignment</p>
-</td>
-</tr>
-<tr>
-<td width="45">
-<p>1</p>
-</td>
-<td width="66">
-<p>1</p>
-</td>
-<td width="340">
-<p>引言、离散和连续化建模、参数化建模</p>
-</td>
-<td width="186">
-<p> </p>
-</td>
-</tr>
-<tr>
-<td width="45">
-<p>2</p>
-</td>
-<td width="66">
-<p>2</p>
-</td>
-<td width="340">
-<p>高斯混合模型、期望最大化</p>
-</td>
-<td width="186">
-<p>相关论文阅读与模型实现</p>
-</td>
-</tr>
-<tr>
-<td width="45">
-<p>3</p>
-</td>
-<td width="66">
-<p>3</p>
-</td>
-<td width="340">
-<p>自回归模型：线性自回归模型、N-gram模型、神经自回归分布估计</p>
-</td>
-<td width="186">
-<p>相关论文阅读与模型实现</p>
-</td>
-</tr>
-<tr>
-<td width="45">
-<p>4</p>
-</td>
-<td width="66">
-<p>4</p>
-</td>
-<td width="340">
-<p>自回归模型： RNN、LSTM and Transformers</p>
-</td>
-<td width="186">
-<p> </p>
-</td>
-</tr>
-<tr>
-<td width="45">
-<p>5</p>
-</td>
-<td width="66">
-<p>5</p>
-</td>
-<td width="340">
-<p>变分自编码器（VAE）：高斯VAE、卷积神经网络、残差神经网络</p>
-</td>
-<td width="186">
-<p>相关论文阅读与模型实现</p>
-</td>
-</tr>
-<tr>
-<td width="45">
-<p>6</p>
-</td>
-<td width="66">
-<p>6</p>
-</td>
-<td width="340">
-<p>变分自动编码器（VAE）：重要性加权自动编码器、离散VAE、“后验失效”现象</p>
-</td>
-<td width="186">
-<p> </p>
-</td>
-</tr>
-<tr>
-<td width="45">
-<p>7</p>
-</td>
-<td width="66">
-<p>7</p>
-</td>
-<td width="340">
-<p>生成对抗网络（GAN）：f-GANs、Goodfellow GAN</p>
-</td>
-<td width="186">
-<p>相关论文阅读与模型实现</p>
-</td>
-</tr>
-<tr>
-<td width="45">
-<p>8</p>
-</td>
-<td width="66">
-<p>8</p>
-</td>
-<td width="340">
-<p>生成对抗网络（GAN）：Wasserstein GANs、Sinkhorn建模</p>
-</td>
-<td width="186">
-<p> </p>
-</td>
-</tr>
-<tr>
-<td width="45">
-<p>9</p>
-</td>
-<td width="66">
-<p>9</p>
-</td>
-<td width="340">
-<p>基于流的生成模型：自回归流模型、逆自回归流模型、神经网络常微分方程</p>
-</td>
-<td width="186">
-<p>相关论文阅读与模型实现</p>
-</td>
-</tr>
-<tr>
-<td width="45">
-<p>10</p>
-</td>
-<td width="66">
-<p>10</p>
-</td>
-<td width="340">
-<p>能量模型：Langevin Dynamics算法、倾向评分匹配</p>
-</td>
-<td width="186">
-<p>相关论文阅读与模型实现</p>
-</td>
-</tr>
-<tr>
-<td width="45">
-<p>11</p>
-</td>
-<td width="66">
-<p>11</p>
-</td>
-<td width="340">
-<p>能量模型：去噪自编码器、模拟退火、去噪扩散概率模型</p>
-</td>
-<td width="186">
-<p> </p>
-</td>
-</tr>
-<tr>
-<td width="45">
-<p>12</p>
-</td>
-<td width="66">
-<p>12</p>
-</td>
-<td width="340">
-<p>生成模型在图像处理领域的应用</p>
-</td>
-<td width="186">
-<p>相关论文阅读</p>
-</td>
-</tr>
-<tr>
-<td width="45">
-<p>13</p>
-</td>
-<td width="66">
-<p>13</p>
-</td>
-<td width="340">
-<p>生成模型在语音处理领域的应用</p>
-</td>
-<td width="186">
-<p>相关论文阅读</p>
-</td>
-</tr>
-<tr>
-<td width="45">
-<p>14</p>
-</td>
-<td width="66">
-<p>14</p>
-</td>
-<td width="340">
-<p>生成模型在文本处理领域的应用</p>
-</td>
-<td width="186">
-<p>相关论文阅读</p>
-</td>
-</tr>
-<tr>
-<td width="45">
-<p>15</p>
-</td>
-<td width="66">
-<p>15</p>
-</td>
-<td width="340">
-<p>生成模型在视频处理领域的应用</p>
-</td>
-<td width="186">
-<p>相关论文阅读</p>
-</td>
-</tr>
-<tr>
-<td width="45">
-<p>16</p>
-</td>
-<td width="66">
-<p>16</p>
-</td>
-<td width="340">
-<p>生成模型在生物医学领域的应用</p>
-</td>
-<td width="186">
-<p>相关论文阅读</p>
-</td>
-</tr>
-<tr>
-<td width="45">
-<p>17</p>
-</td>
-<td width="66">
-<p>17</p>
-</td>
-<td width="340">
-<p>学生课程论文报告</p>
-</td>
-<td width="186">
-<p> </p>
-</td>
-</tr>
-<tr>
-<td width="45">
-<p>18</p>
-</td>
-<td width="66">
-<p>18</p>
-</td>
-<td width="340">
-<p>学生课程论文报告</p>
-</td>
-<td width="186">
-<p> </p>
-</td>
-</tr>
-</tbody>
-</table>
+<!doctype html><html lang="zh-CN"><meta charset="utf-8"><title>生成模型基础与应用 · 周水庚、糜予曦 · 2025秋 CS60014.01</title><style>body{max-width:1000px;margin:35px auto;padding:0 20px;font:16px/1.9 system-ui}table{border-collapse:collapse}td,th{border:1px solid #cad7cf;padding:8px}img{max-width:100%}</style><body><h1>生成模型基础与应用</h1><p>2025秋 · CS60014.01 · 周水庚、糜予曦</p><p>来源：复旦教务系统教学班大纲。</p><h2>考核与成绩构成</h2><ul><li>出勤Attendance 10.0% </li><li>课堂表现Participation 20.0% 包括：课程论文报告、课堂提问、参与讨论等表现</li><li>作业/实验/实践Assignment 20.0% 包括：论文阅读、模型实现</li><li>课题论文Research Paper 50.0% 包括：研究综述、算法实现和新方法探究等</li></ul><h2>课程简介（中文）</h2><p>生成模型（Generative Model）是概率统计、机器学习和深度学习中的一类重要模型，通常用于随机生成可观测数据，如图像、文本、声音等。本课程面向研究生（特别是博士生），介绍各种重要生成模型，如自回归模型、变分自编码器、生成对抗网络等的基本原理与关键技术，学习如何从未知的概率分布中取样。目前，生成模型是一个非常活跃的研究领域，本课程介绍的大多数模型都是最近10年中发展的。因此，本课程与当前的研究进展紧密结合，将提供学生阅读该领域最新论文所需的背景知识。此外，本课程还将介绍生成模型方法在图像、视频、文本、声音和生物医学等领域的实际应用。</p><h2>课程简介（英文）</h2><p><span>Generative models are an important type of models in probability statistics, machine learning, and deep learning, typically used to randomly generate observable data such as images, text, sound, etc. This course is aimed at graduate students (especially doctoral students), introducing the basic principles and key technologies of various important generative models such as autoregressive models, variational autoencoders, generative adversarial networks, etc., and learning how to sample from unknown probability distributions. At present, generative modeling is a very active research field, and most of the models introduced in this course have been developed in the past 10 years. Therefore, this course will focus on the current research progress and will provide students with the background knowledge necessary to read the latest papers in this field. In addition, this course will also introduce the practical applications of generative modeling methods in fields such as images, videos, text, sound, and biomedical sciences.</span></p><h2>教学目标</h2><p>通过本课程学习，让学生达到以下几个目标：</p>
+<ul>
+<li>了解生成模型的相关背景知识，能够无障碍地阅读该领域最新的研究论文；</li>
+<li>针对若干重要的生成模型，熟悉其基本的建模过程、算法原理以及关键技术；</li>
+<li>针对若干应用领域，学会选择适合的生成模型，并进行算法实现；</li>
+<li>启发学生思维，提出新的模型，将模型应用于解决实际问题。</li>
+</ul><h2>教学方式</h2><p>教师讲授基本原理，学生汇报最新应用进展。</p><h2>教学内容与进度安排</h2><p> </p>
+<table width="637">
+<tbody>
+<tr>
+<td width="45">
+<p><strong>课次</strong></p>
+<p>No.</p>
+</td>
+<td width="66">
+<p><strong>教学周</strong></p>
+<p>Week</p>
+</td>
+<td width="340">
+<p><strong>教学内容及预期效果</strong></p>
+<p>Content &amp; Expected Achievement</p>
+</td>
+<td width="186">
+<p><strong>作业</strong><strong>/</strong><strong>实验</strong><strong>/</strong><strong>实践</strong></p>
+<p>Assignment</p>
+</td>
+</tr>
+<tr>
+<td width="45">
+<p>1</p>
+</td>
+<td width="66">
+<p>1</p>
+</td>
+<td width="340">
+<p>引言、离散和连续化建模、参数化建模</p>
+</td>
+<td width="186">
+<p> </p>
+</td>
+</tr>
+<tr>
+<td width="45">
+<p>2</p>
+</td>
+<td width="66">
+<p>2</p>
+</td>
+<td width="340">
+<p>高斯混合模型、期望最大化</p>
+</td>
+<td width="186">
+<p>相关论文阅读与模型实现</p>
+</td>
+</tr>
+<tr>
+<td width="45">
+<p>3</p>
+</td>
+<td width="66">
+<p>3</p>
+</td>
+<td width="340">
+<p>自回归模型：线性自回归模型、N-gram模型、神经自回归分布估计</p>
+</td>
+<td width="186">
+<p>相关论文阅读与模型实现</p>
+</td>
+</tr>
+<tr>
+<td width="45">
+<p>4</p>
+</td>
+<td width="66">
+<p>4</p>
+</td>
+<td width="340">
+<p>自回归模型： RNN、LSTM and Transformers</p>
+</td>
+<td width="186">
+<p> </p>
+</td>
+</tr>
+<tr>
+<td width="45">
+<p>5</p>
+</td>
+<td width="66">
+<p>5</p>
+</td>
+<td width="340">
+<p>变分自编码器（VAE）：高斯VAE、卷积神经网络、残差神经网络</p>
+</td>
+<td width="186">
+<p>相关论文阅读与模型实现</p>
+</td>
+</tr>
+<tr>
+<td width="45">
+<p>6</p>
+</td>
+<td width="66">
+<p>6</p>
+</td>
+<td width="340">
+<p>变分自动编码器（VAE）：重要性加权自动编码器、离散VAE、“后验失效”现象</p>
+</td>
+<td width="186">
+<p> </p>
+</td>
+</tr>
+<tr>
+<td width="45">
+<p>7</p>
+</td>
+<td width="66">
+<p>7</p>
+</td>
+<td width="340">
+<p>生成对抗网络（GAN）：f-GANs、Goodfellow GAN</p>
+</td>
+<td width="186">
+<p>相关论文阅读与模型实现</p>
+</td>
+</tr>
+<tr>
+<td width="45">
+<p>8</p>
+</td>
+<td width="66">
+<p>8</p>
+</td>
+<td width="340">
+<p>生成对抗网络（GAN）：Wasserstein GANs、Sinkhorn建模</p>
+</td>
+<td width="186">
+<p> </p>
+</td>
+</tr>
+<tr>
+<td width="45">
+<p>9</p>
+</td>
+<td width="66">
+<p>9</p>
+</td>
+<td width="340">
+<p>基于流的生成模型：自回归流模型、逆自回归流模型、神经网络常微分方程</p>
+</td>
+<td width="186">
+<p>相关论文阅读与模型实现</p>
+</td>
+</tr>
+<tr>
+<td width="45">
+<p>10</p>
+</td>
+<td width="66">
+<p>10</p>
+</td>
+<td width="340">
+<p>能量模型：Langevin Dynamics算法、倾向评分匹配</p>
+</td>
+<td width="186">
+<p>相关论文阅读与模型实现</p>
+</td>
+</tr>
+<tr>
+<td width="45">
+<p>11</p>
+</td>
+<td width="66">
+<p>11</p>
+</td>
+<td width="340">
+<p>能量模型：去噪自编码器、模拟退火、去噪扩散概率模型</p>
+</td>
+<td width="186">
+<p> </p>
+</td>
+</tr>
+<tr>
+<td width="45">
+<p>12</p>
+</td>
+<td width="66">
+<p>12</p>
+</td>
+<td width="340">
+<p>生成模型在图像处理领域的应用</p>
+</td>
+<td width="186">
+<p>相关论文阅读</p>
+</td>
+</tr>
+<tr>
+<td width="45">
+<p>13</p>
+</td>
+<td width="66">
+<p>13</p>
+</td>
+<td width="340">
+<p>生成模型在语音处理领域的应用</p>
+</td>
+<td width="186">
+<p>相关论文阅读</p>
+</td>
+</tr>
+<tr>
+<td width="45">
+<p>14</p>
+</td>
+<td width="66">
+<p>14</p>
+</td>
+<td width="340">
+<p>生成模型在文本处理领域的应用</p>
+</td>
+<td width="186">
+<p>相关论文阅读</p>
+</td>
+</tr>
+<tr>
+<td width="45">
+<p>15</p>
+</td>
+<td width="66">
+<p>15</p>
+</td>
+<td width="340">
+<p>生成模型在视频处理领域的应用</p>
+</td>
+<td width="186">
+<p>相关论文阅读</p>
+</td>
+</tr>
+<tr>
+<td width="45">
+<p>16</p>
+</td>
+<td width="66">
+<p>16</p>
+</td>
+<td width="340">
+<p>生成模型在生物医学领域的应用</p>
+</td>
+<td width="186">
+<p>相关论文阅读</p>
+</td>
+</tr>
+<tr>
+<td width="45">
+<p>17</p>
+</td>
+<td width="66">
+<p>17</p>
+</td>
+<td width="340">
+<p>学生课程论文报告</p>
+</td>
+<td width="186">
+<p> </p>
+</td>
+</tr>
+<tr>
+<td width="45">
+<p>18</p>
+</td>
+<td width="66">
+<p>18</p>
+</td>
+<td width="340">
+<p>学生课程论文报告</p>
+</td>
+<td width="186">
+<p> </p>
+</td>
+</tr>
+</tbody>
+</table>
 <p> </p><h2>课程考核与成绩评定</h2><h2>教材</h2><h2>教学参考资料</h2><h2>教学团队成员</h2></body></html>
