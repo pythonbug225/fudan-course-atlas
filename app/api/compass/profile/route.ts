@@ -1,3 +1,4 @@
+import { withStudentAccess } from '../../../../lib/student-access';
 import { env } from 'cloudflare:workers';
 import { user } from '../../../../lib/community';
 import { activateCompassSnapshot, apiError, CompassStateError, listCompassProfile } from '../../../../lib/compass-state';
@@ -5,9 +6,9 @@ import { activateCompassSnapshot, apiError, CompassStateError, listCompassProfil
 export const dynamic = 'force-dynamic';
 const json = (body: unknown, status = 200) => Response.json(body, { status, headers: { 'Cache-Control': 'no-store', 'X-Content-Type-Options': 'nosniff' } });
 
-export async function GET(req: Request) {
+async function handleGET(req: Request) {
   const userId = user(req);
-  if (!userId) return json({ error: '请先登录 ChatGPT 账号。' }, 401);
+  if (!userId) return json({ error: '请先使用学号登录。' }, 401);
   if (!env.DB) return json({ error: '课途云端保存服务暂不可用。' }, 503);
   try {
     return json(await listCompassProfile(env.DB, userId));
@@ -16,9 +17,9 @@ export async function GET(req: Request) {
   }
 }
 
-export async function PUT(req: Request) {
+async function handlePUT(req: Request) {
   const userId = user(req);
-  if (!userId) return json({ error: '请先登录 ChatGPT 账号。' }, 401);
+  if (!userId) return json({ error: '请先使用学号登录。' }, 401);
   if (req.headers.get('origin') !== new URL(req.url).origin) return json({ error: '请从本站提交。' }, 403);
   if (!env.DB) return json({ error: '课途云端保存服务暂不可用。' }, 503);
   try {
@@ -40,3 +41,7 @@ export async function PUT(req: Request) {
     return apiError(error);
   }
 }
+
+export async function GET(req:Request) { return withStudentAccess(req, handleGET); }
+
+export async function PUT(req:Request) { return withStudentAccess(req, handlePUT); }

@@ -54,12 +54,13 @@
   });
   async function init() {
     try {
-      const session=await api('/api/session'); signedIn=session.signedIn; moderator=session.isModerator;
+      const session=await window.FudanAuth.ready; signedIn=session.signedIn; moderator=session.isModerator;
       $('#moderation-center').hidden=!moderator;
       $('#moderation-status').addEventListener('change',refreshQueue);
       await refreshMine(); await refreshQueue();
     } catch(e) { $('#my-submission-list').textContent=e.message; }
   }
+  window.addEventListener('auth-changed',event=>{signedIn=event.detail.signedIn;moderator=event.detail.isModerator;$('#moderation-center').hidden=!moderator;void refreshMine();void refreshQueue();});
   window.addEventListener('community-submitted',()=>{void refreshMine();void refreshQueue();});
   window.SubmissionCenter={refreshMine,refreshQueue,ready:init()};
 })();

@@ -248,8 +248,8 @@ export async function saveCompassSnapshot(
   }
   const now = new Date().toISOString();
   const result = await db.prepare(
-    'UPDATE compass_snapshots SET state_json=?, version=version+1, updated_at=? WHERE snapshot_id=? AND user_id=? AND version=?'
-  ).bind(JSON.stringify(state), now, snapshotId, userId, expectedVersion).run();
+    'UPDATE compass_snapshots SET state_json=?, version=version+1, updated_at=? WHERE snapshot_id=? AND user_id=? AND version=? AND EXISTS (SELECT 1 FROM compass_profiles WHERE user_id=? AND active_snapshot_id=? AND version=?)'
+  ).bind(JSON.stringify(state), now, snapshotId, userId, expectedVersion, userId, snapshotId, profile.version).run();
   if ((result.meta?.changes ?? 0) === 0) {
     const current = await getCompassSnapshot(db, userId, snapshotId);
     if (!current) throw new CompassStateError('规划快照不存在。', 404);

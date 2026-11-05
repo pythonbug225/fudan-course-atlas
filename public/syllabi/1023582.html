@@ -1,98 +1,98 @@
-<!doctype html><html lang="zh-CN"><meta charset="utf-8"><title>智能系统安全实践 · 张谧 · 2026春 CSEC30017.01</title><style>body{max-width:1000px;margin:35px auto;padding:0 20px;font:16px/1.9 system-ui}table{border-collapse:collapse}td,th{border:1px solid #cad7cf;padding:8px}img{max-width:100%}</style><body><h1>智能系统安全实践</h1><p>2026春 · CSEC30017.01 · 张谧</p><p>来源：复旦教务系统教学班大纲。</p><h2>考核与成绩构成</h2><ul><li>出勤Attendance 10.0% 按时到课，每缺勤一次扣减相应分数。</li><li>作业/实验/实践Assignment 75.0% 根据任务完成的准确性、完整性、提交的及时性以及独立思考能力进行评分。</li><li>课题论文Research Paper 15.0% 评估研究选题的相关性、文献综述的广度、论证的严谨性及论文结构和语言表达能力。</li></ul><h2>课程简介（中文）</h2><p>本课程涵盖智能系统安全的理论与实践内容，包括对抗样本、后门攻击、成员推理等常见攻防技术，以及模型知识产权保护、隐私保护、AI服务于系统安全/网络安全等前沿研究；同时结合人脸识别、分布式系统、无人驾驶、恶意软件检测等现实场景，探讨典型安全应用。实践部分涉及基础的机器学习与深度学习知识，以及相关攻防模拟演练。</p><h2>课程简介（英文）</h2><p>This course covers both theoretical and practical aspects of intelligent system security. It includes common attack and defense techniques such as adversarial examples, backdoor attacks, and membership inference, as well as cutting-edge research on model intellectual property protection, fairness, and privacy. Real-world scenarios like facial recognition, distributed systems, and autonomous driving are used to explore typical security applications. The practical component involves foundational machine learning and deep learning knowledge, along with hands-on security attack and defense exercises.</p><h2>教学目标</h2><p>随着人工智能技术在人脸识别、无人驾驶、金融风控等实际场景中的规模化应用，智能系统及其所部署的深度学习模型的安全性也逐渐成为社会各界关注的焦点问题，是构建新一代安全可靠的人工智能技术的关键。本课程的主要目标是介绍智能系统所面临的多种新型安全风险，掌握人工智能安全的基础理论、关键技术和具体实践。通过本课程的学习，同学们将掌握对抗样本、数据投毒、后门攻击、大模型服务于系统安全/网络安全等智能系统安全核心知识，在多种应用场景上对智能攻防算法进行实践，提升安全分析能力，理解智能系统安全内涵。</p><h2>教学方式</h2><p>课堂教学 + 动手实践（需自带笔记本电脑）</p><h2>教学内容与进度安排</h2><ul>
-<li><strong>第1周：</strong><strong>智能系统安全综述</strong></li>
-</ul>
-<p>（1）智能系统安全案例综述、课程要求介绍</p>
-<p>（2）实践：搭建并熟悉深度学习实验环境</p>
-<p> </p>
-<ul>
-<li><strong>第2周：</strong><strong>深度伪造</strong></li>
-</ul>
-<p>（1）介绍深度伪造威胁实例、基本原理、检测与防御方法</p>
-<p>（2）实践：在简单线性分类数据集上实现有监督学习</p>
-<p> </p>
-<ul>
-<li><strong>第3周：</strong><strong>人脸识别</strong></li>
-</ul>
-<p>（1）介绍人脸识别漏洞实例、模型侧威胁与系统侧威胁</p>
-<p>（2）实践：用基础全连接神经网络（MLP）实现手写数字识别（MNIST）</p>
-<p> </p>
-<ul>
-<li><strong>第4周：PJ1</strong><strong><u>检查</u></strong></li>
-</ul>
-<p>（1）介绍图片分类任务相关的其他模型结构</p>
-<p>（2）答疑和检查PJ 1</p>
-<p> </p>
-<ul>
-<li><strong>第5周：</strong><strong>对抗样本</strong></li>
-</ul>
-<p>（1）介绍对抗样本的基本概念以及多种场景下的攻防算法</p>
-<p>（2）实践：基于PyTorch框架重新实现MLP模型</p>
-<p> </p>
-<ul>
-<li><strong>第6周：</strong><strong>分布式系统安全</strong></li>
-</ul>
-<p>（1）介绍分布式系统中的共识问题与攻防算法</p>
-<p>（2）实践：实现基础对抗攻击算法，评估模型准确率下降程度</p>
-<p> </p>
-<ul>
-<li><strong>第7周：</strong><strong>无人驾驶安全</strong></li>
-</ul>
-<p>（1）介绍针对无人驾驶平台的安全评估与攻防算法</p>
-<p>（2）实践：实现基础对抗训练防御算法，验证模型的防御效果提升程度</p>
-<ul>
-<li><strong>第8周：PJ2</strong><strong><u>检查</u></strong></li>
-</ul>
-<p>（1）介绍对抗攻防相关的更多话题（多场景下的攻防算法）</p>
-<p>（2）PJ2答疑 &amp; 检查</p>
-<p> </p>
-<ul>
-<li><strong>第9周：</strong><strong>后门攻击</strong></li>
-</ul>
-<p>（1）介绍后门攻击的基本概念以及多种场景下的攻防算法</p>
-<p>（2）实践：实现基础数据投毒攻击，验证模型准确率下降程度</p>
-<p> </p>
-<ul>
-<li><strong>第10周：</strong><strong>知识产权保护</strong></li>
-</ul>
-<p>（1）介绍模型水印与模型指纹的基本概念以及常见攻防算法</p>
-<p>（2）实践：实现基础后门攻击，验证攻击成功率和模型准确度</p>
-<p> </p>
-<ul>
-<li><strong>第11周：</strong><strong>系统安全</strong></li>
-</ul>
-<p>（1）介绍AI在程序分析、黑产识别中的应用</p>
-<p>（2）实践：实现基于不可见扰动的后门攻击，验证攻击成功率和模型准确度</p>
-<p> </p>
-<ul>
-<li><strong>第12周：PJ3</strong></li>
-</ul>
-<p>（1）介绍数据投毒相关的更多内容（应用场景、防御算法等）</p>
-<p>（2）PJ3答疑 &amp; 检查</p>
-<p> </p>
-<ul>
-<li><strong>第13周：</strong><strong>成员推理</strong></li>
-</ul>
-<p>（1）介绍成员推理攻击和遗忘学习的基本概念与常见方法</p>
-<p>（2）实践：实现基础成员推理攻击，验证攻击准确度</p>
-<p>  </p>
-<ul>
-<li><strong>第14周：</strong><strong>模型反演</strong></li>
-</ul>
-<p>（1）介绍模型反演攻击与数据重建攻击的基本概念与常见方法</p>
-<p>（2）实践：实现基于知识蒸馏的基础模型窃取攻击</p>
-<p> </p>
-<ul>
-<li><strong>第15周：</strong><strong>属性推理</strong></li>
-</ul>
-<p>（1）介绍属性推理攻击的基本概念和常见方法、以及模型公平性问题</p>
-<p>（2）实践：实现基础属性推理攻击，验证在不同结构MLP上的攻击效果</p>
-<p> </p>
-<ul>
-<li><strong>第16周：PJ4</strong></li>
-</ul>
-<p>（1）介绍更多关于模型隐私问题的研究工作和应用场景</p>
-<p>（2）PJ4答疑 &amp; 检查</p>
-<p> </p>
-<ul>
-<li><strong>第17</strong><strong>、1</strong><strong>8周：</strong><strong>期末课程报告</strong></li>
+<!doctype html><html lang="zh-CN"><meta charset="utf-8"><title>智能系统安全实践 · 张谧 · 2026春 CSEC30017.01</title><style>body{max-width:1000px;margin:35px auto;padding:0 20px;font:16px/1.9 system-ui}table{border-collapse:collapse}td,th{border:1px solid #cad7cf;padding:8px}img{max-width:100%}</style><body><h1>智能系统安全实践</h1><p>2026春 · CSEC30017.01 · 张谧</p><p>来源：复旦教务系统教学班大纲。</p><h2>考核与成绩构成</h2><ul><li>出勤Attendance 10.0% 按时到课，每缺勤一次扣减相应分数。</li><li>作业/实验/实践Assignment 75.0% 根据任务完成的准确性、完整性、提交的及时性以及独立思考能力进行评分。</li><li>课题论文Research Paper 15.0% 评估研究选题的相关性、文献综述的广度、论证的严谨性及论文结构和语言表达能力。</li></ul><h2>课程简介（中文）</h2><p>本课程涵盖智能系统安全的理论与实践内容，包括对抗样本、后门攻击、成员推理等常见攻防技术，以及模型知识产权保护、隐私保护、AI服务于系统安全/网络安全等前沿研究；同时结合人脸识别、分布式系统、无人驾驶、恶意软件检测等现实场景，探讨典型安全应用。实践部分涉及基础的机器学习与深度学习知识，以及相关攻防模拟演练。</p><h2>课程简介（英文）</h2><p>This course covers both theoretical and practical aspects of intelligent system security. It includes common attack and defense techniques such as adversarial examples, backdoor attacks, and membership inference, as well as cutting-edge research on model intellectual property protection, fairness, and privacy. Real-world scenarios like facial recognition, distributed systems, and autonomous driving are used to explore typical security applications. The practical component involves foundational machine learning and deep learning knowledge, along with hands-on security attack and defense exercises.</p><h2>教学目标</h2><p>随着人工智能技术在人脸识别、无人驾驶、金融风控等实际场景中的规模化应用，智能系统及其所部署的深度学习模型的安全性也逐渐成为社会各界关注的焦点问题，是构建新一代安全可靠的人工智能技术的关键。本课程的主要目标是介绍智能系统所面临的多种新型安全风险，掌握人工智能安全的基础理论、关键技术和具体实践。通过本课程的学习，同学们将掌握对抗样本、数据投毒、后门攻击、大模型服务于系统安全/网络安全等智能系统安全核心知识，在多种应用场景上对智能攻防算法进行实践，提升安全分析能力，理解智能系统安全内涵。</p><h2>教学方式</h2><p>课堂教学 + 动手实践（需自带笔记本电脑）</p><h2>教学内容与进度安排</h2><ul>
+<li><strong>第1周：</strong><strong>智能系统安全综述</strong></li>
+</ul>
+<p>（1）智能系统安全案例综述、课程要求介绍</p>
+<p>（2）实践：搭建并熟悉深度学习实验环境</p>
+<p> </p>
+<ul>
+<li><strong>第2周：</strong><strong>深度伪造</strong></li>
+</ul>
+<p>（1）介绍深度伪造威胁实例、基本原理、检测与防御方法</p>
+<p>（2）实践：在简单线性分类数据集上实现有监督学习</p>
+<p> </p>
+<ul>
+<li><strong>第3周：</strong><strong>人脸识别</strong></li>
+</ul>
+<p>（1）介绍人脸识别漏洞实例、模型侧威胁与系统侧威胁</p>
+<p>（2）实践：用基础全连接神经网络（MLP）实现手写数字识别（MNIST）</p>
+<p> </p>
+<ul>
+<li><strong>第4周：PJ1</strong><strong><u>检查</u></strong></li>
+</ul>
+<p>（1）介绍图片分类任务相关的其他模型结构</p>
+<p>（2）答疑和检查PJ 1</p>
+<p> </p>
+<ul>
+<li><strong>第5周：</strong><strong>对抗样本</strong></li>
+</ul>
+<p>（1）介绍对抗样本的基本概念以及多种场景下的攻防算法</p>
+<p>（2）实践：基于PyTorch框架重新实现MLP模型</p>
+<p> </p>
+<ul>
+<li><strong>第6周：</strong><strong>分布式系统安全</strong></li>
+</ul>
+<p>（1）介绍分布式系统中的共识问题与攻防算法</p>
+<p>（2）实践：实现基础对抗攻击算法，评估模型准确率下降程度</p>
+<p> </p>
+<ul>
+<li><strong>第7周：</strong><strong>无人驾驶安全</strong></li>
+</ul>
+<p>（1）介绍针对无人驾驶平台的安全评估与攻防算法</p>
+<p>（2）实践：实现基础对抗训练防御算法，验证模型的防御效果提升程度</p>
+<ul>
+<li><strong>第8周：PJ2</strong><strong><u>检查</u></strong></li>
+</ul>
+<p>（1）介绍对抗攻防相关的更多话题（多场景下的攻防算法）</p>
+<p>（2）PJ2答疑 &amp; 检查</p>
+<p> </p>
+<ul>
+<li><strong>第9周：</strong><strong>后门攻击</strong></li>
+</ul>
+<p>（1）介绍后门攻击的基本概念以及多种场景下的攻防算法</p>
+<p>（2）实践：实现基础数据投毒攻击，验证模型准确率下降程度</p>
+<p> </p>
+<ul>
+<li><strong>第10周：</strong><strong>知识产权保护</strong></li>
+</ul>
+<p>（1）介绍模型水印与模型指纹的基本概念以及常见攻防算法</p>
+<p>（2）实践：实现基础后门攻击，验证攻击成功率和模型准确度</p>
+<p> </p>
+<ul>
+<li><strong>第11周：</strong><strong>系统安全</strong></li>
+</ul>
+<p>（1）介绍AI在程序分析、黑产识别中的应用</p>
+<p>（2）实践：实现基于不可见扰动的后门攻击，验证攻击成功率和模型准确度</p>
+<p> </p>
+<ul>
+<li><strong>第12周：PJ3</strong></li>
+</ul>
+<p>（1）介绍数据投毒相关的更多内容（应用场景、防御算法等）</p>
+<p>（2）PJ3答疑 &amp; 检查</p>
+<p> </p>
+<ul>
+<li><strong>第13周：</strong><strong>成员推理</strong></li>
+</ul>
+<p>（1）介绍成员推理攻击和遗忘学习的基本概念与常见方法</p>
+<p>（2）实践：实现基础成员推理攻击，验证攻击准确度</p>
+<p>  </p>
+<ul>
+<li><strong>第14周：</strong><strong>模型反演</strong></li>
+</ul>
+<p>（1）介绍模型反演攻击与数据重建攻击的基本概念与常见方法</p>
+<p>（2）实践：实现基于知识蒸馏的基础模型窃取攻击</p>
+<p> </p>
+<ul>
+<li><strong>第15周：</strong><strong>属性推理</strong></li>
+</ul>
+<p>（1）介绍属性推理攻击的基本概念和常见方法、以及模型公平性问题</p>
+<p>（2）实践：实现基础属性推理攻击，验证在不同结构MLP上的攻击效果</p>
+<p> </p>
+<ul>
+<li><strong>第16周：PJ4</strong></li>
+</ul>
+<p>（1）介绍更多关于模型隐私问题的研究工作和应用场景</p>
+<p>（2）PJ4答疑 &amp; 检查</p>
+<p> </p>
+<ul>
+<li><strong>第17</strong><strong>、1</strong><strong>8周：</strong><strong>期末课程报告</strong></li>
 </ul><h2>课程考核与成绩评定</h2><h2>教材</h2><h2>教学参考资料</h2><h2>教学团队成员</h2></body></html>

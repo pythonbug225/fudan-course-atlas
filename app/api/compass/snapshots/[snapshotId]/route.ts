@@ -1,3 +1,4 @@
+import { withStudentAccess } from '../../../../../lib/student-access';
 import { env } from 'cloudflare:workers';
 import { user } from '../../../../../lib/community';
 import { apiError, CompassStateError, getCompassSnapshot, saveCompassSnapshot } from '../../../../../lib/compass-state';
@@ -16,9 +17,9 @@ async function readBody(req: Request) {
   catch { throw new CompassStateError('请求内容不是有效 JSON。', 400); }
 }
 
-export async function GET(req: Request, { params }: { params: Promise<{ snapshotId: string }> }) {
+async function handleGET(req: Request, { params }: { params: Promise<{ snapshotId: string }> }) {
   const userId = user(req);
-  if (!userId) return json({ error: '请先登录 ChatGPT 账号。' }, 401);
+  if (!userId) return json({ error: '请先使用学号登录。' }, 401);
   if (!env.DB) return json({ error: '课途云端保存服务暂不可用。' }, 503);
   try {
     const { snapshotId } = await params;
@@ -29,9 +30,9 @@ export async function GET(req: Request, { params }: { params: Promise<{ snapshot
   }
 }
 
-export async function PUT(req: Request, { params }: { params: Promise<{ snapshotId: string }> }) {
+async function handlePUT(req: Request, { params }: { params: Promise<{ snapshotId: string }> }) {
   const userId = user(req);
-  if (!userId) return json({ error: '请先登录 ChatGPT 账号。' }, 401);
+  if (!userId) return json({ error: '请先使用学号登录。' }, 401);
   if (req.headers.get('origin') !== new URL(req.url).origin) return json({ error: '请从本站提交。' }, 403);
   if (!env.DB) return json({ error: '课途云端保存服务暂不可用。' }, 503);
   try {
@@ -45,3 +46,7 @@ export async function PUT(req: Request, { params }: { params: Promise<{ snapshot
     return apiError(error);
   }
 }
+
+export async function GET(req:Request, context:{params:Promise<{snapshotId:string}>}) { return withStudentAccess(req, verified => handleGET(verified,context)); }
+
+export async function PUT(req:Request, context:{params:Promise<{snapshotId:string}>}) { return withStudentAccess(req, verified => handlePUT(verified,context)); }

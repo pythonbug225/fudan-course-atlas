@@ -1,121 +1,121 @@
-<!doctype html><html lang="zh-CN"><meta charset="utf-8"><title>数据结构 · 郑骁庆 · 2025秋 CS20009.04</title><style>body{max-width:1000px;margin:35px auto;padding:0 20px;font:16px/1.9 system-ui}table{border-collapse:collapse}td,th{border:1px solid #cad7cf;padding:8px}img{max-width:100%}</style><body><h1>数据结构</h1><p>2025秋 · CS20009.04 · 郑骁庆</p><p>来源：复旦教务系统教学班大纲。</p><h2>考核与成绩构成</h2><ul><li>期末考试Final Examination：闭卷  50.0% 卷面成绩</li><li>作业/实验/实践Assignment 50.0% 上机实验和综合项目</li></ul><h2>课程简介（中文）</h2><p>课程讲解数据结构与算法的基础性内容，包括基本数据结构（栈、队列、链表、树和图）、基本算法（排序、搜索、最短路径和字符串匹配）和算法设计思想（分而治之法、动态规划法和贪婪算法）等。要求学生掌握计算复杂性分析的基本方法；具备使用和扩展上述数据结构和算法，并为特定问题选择适合的数据结构和算法的能力。</p><h2>课程简介（英文）</h2><p>This course provides a comprehensive introduction to the modern study of computer algorithms and data structures. It presents many data structures and algorithms and covers them in considerable depth, yet makes their design and analysis accessible to different levels of students. These topics include: algorithm analysis and recurrences, divide and conquer, elementary data structures, sorting algorithms, hash tables, binary search trees, dynamic programming, greedy algorithms, graph algorithms, and string matching. It discusses implementation concerns and engineering issues in algorithm design, as well as mathematical aspects. </p><h2>教学目标</h2><p>“数据结构”是软件工程的专业必修课，也是本专业课程体系中最重要的基础性课程之一。该课程面向软件工程专业本科二年级的学生，课程既是先导课程“程序设计”知识的巩固和扩展，又是后续“形式语言与计算理论”、“编译原理”、“计算机图形学”、 “智能系统原理与开发”、“人工智能”、“数字图像处理” 、“多媒体技术基础”等课程内容的基础和引导。本课程在专业教学中承担着承前启后、提高专业素养、加强思维能力和强化开发能力的任务。通过综合项目，提升社会责任感，社会参与感及公民意识，提高自我认知、个人成长和同理心，促使实现富有目标感的人生价值，促进全面发展。</p><h2>教学方式</h2><p>课堂讲解为主，并且通过实验和项目，以及课堂研讨让学生巩固和运用课堂上所学的知识。除了正常授课外，还设计了多个小型实验和综合项目，要求学生独立完成。实验突出教学内容的重点和难点，让学生通过实验巩固课堂上所学知识，并通过实践体会和掌握技术细节。项目则侧重培养学生综合运用知识和独立解决问题的能力，并且训练学生通过实验来发现问题以及结合理论分析实验结果的能力。在课堂教学中引入研讨型方式，在实验环节中采用协作性项目，并且针对中国学生的特点，探索如何引导学生提出问题、参与讨论，从而培养学生在立题、思辨和协作方面的能力。</p><h2>教学内容与进度安排</h2><p>本课程介绍数据结构与算法的基础性内容，主要包括算法分析方法、基础数据结构、排序算法、树与图的算法、算法设计思想和NP完全性问题等。课程涵盖了数据结构与算法的基础性内容，主要包括：算法分析（含递归分析）；堆栈、队列、链表、树等基础数据结构；排序算法；散列函数与散列表；二叉树与平衡二叉树（含<em>AVL</em>树、红黑树和B树）；递延算法分析；关于图的算法（含广度和深度优先搜索、最小生成树、最短路径、最小费用最大流）；字符串匹配算法；多线程编程；矩阵计算；算法设计思想（分而治之法、动态规划法和贪婪算法）；增强与扩展已有数据结构方法；NP完全性问题。</p>
-<p>Chapter 1. Algorithm analysis and recurrences (4 hours)</p>
-<p>1.1 Definition of algorithm</p>
-<p>1.2 Insertion sort and merge sort</p>
-<p>1.3 Running time and asymptotic analysis</p>
-<p>1.4 Θ-notation, Ω-notation, and <em>O</em>-notation</p>
-<p>1.5 Recurrences</p>
-<p>1.6 Substitution, recursion-tree method, and master method</p>
-<p> </p>
-<p>Chapter 2. Divide and conquer (2hours)</p>
-<p>2.1 Divide-and-conquer design paradigm</p>
-<p>2.2 Recurrence for merge sort and binary search</p>
-<p>2.3 Powering a number</p>
-<p>2.4 Fibonacci numbers</p>
-<p>2.5 Recursive squaring</p>
-<p>2.6 Matrix multiplication</p>
-<p>2.7 Strassen&#x27;s algorithm</p>
-<p> </p>
-<p>Chapter 3. Basic data structure (2 hours)</p>
-<p>3.1 Definition of data structure</p>
-<p>3.2 Stacks</p>
-<p>3.3 Queues</p>
-<p>3.4 Linked lists</p>
-<p>3.5 Trees</p>
-<p>3.6 Postfix expression</p>
-<p>3.7 Infix to postfix conversion</p>
-<p> </p>
-<p>Chapter 4. Sorting (4 hours)</p>
-<p>4.1 Randomized algorithm</p>
-<p>4.2 Quicksort and randomized quicksort</p>
-<p>4.3 Expected running time of quicksort</p>
-<p>4.4 Max-heaps and min-heaps</p>
-<p>4.5 Heap operations: heapify, building, and key increasing</p>
-<p>4.6 heap sort and priority queues</p>
-<p>4.7 Comparisons of sort algorithms: heap sort, quick sort, insertion sort, and merge sort</p>
-<p>4.8 Comparison sort and decision tree model</p>
-<p>4.9 Sorting in linear time: counting-sort, radix sort, and bucket sort</p>
-<p> </p>
-<p>Chapter 5. Hash tables (2 hours)</p>
-<p>5.1 Dictionary problem</p>
-<p>5.2 Hash functions</p>
-<p>5.3 Collisions resolution by chaining</p>
-<p>5.4 Open addressing</p>
-<p>5.5 Probing strategies: linear, quadratic, and double hashing</p>
-<p>5.6 Analysis of open addressing</p>
-<p> </p>
-<p>Chapter 6. Binary search trees (8 hours)</p>
-<p>6.1 Binary trees and binary search tree</p>
-<p>6.2 Inorder, preorder, and postorder tree walk</p>
-<p>6.3 Successor and predecessor of BST</p>
-<p>6.4 Operations of BST: search, Minimum and maximum, constructing, deletion and insertion</p>
-<p>6.5 Balanced search trees</p>
-<p>6.6 AVL trees</p>
-<p>6.7 Single and double rotation</p>
-<p>6.8 Red-black trees</p>
-<p>6.9 B-tree (2-3-4 tree)</p>
-<p> </p>
-<p>Chapter 7. Amortized analysis (2 hours)</p>
-<p>7.1 Introduction to amortized analysis</p>
-<p>7.2 Aggregate method</p>
-<p>7.3 Accounting method</p>
-<p>7.4 Potential method</p>
-<p>7.5 Dynamic tables</p>
-<p> </p>
-<p>Chapter 8. Dynamic programming (4 hours)</p>
-<p>8.1 Manufacturing problem</p>
-<p>8.2 Matrix-chain multiplication</p>
-<p>8.3 Elements of dynamic programming</p>
-<p>8.4 Four steps of development</p>
-<p>8.5 Longest common subsequence problem</p>
-<p> </p>
-<p>Chapter 9. Greedy algorithms (4 hours)</p>
-<p>  9.1 Activity-selection problem</p>
-<p>9.2 Introduction to greedy solution</p>
-<p>9.3 Steps of the greedy strategy</p>
-<p>9.4 Knapsack problem</p>
-<p>9.5 Huffman code</p>
-<p> </p>
-<p>Chapter 10. Graph algorithms (8 hours)</p>
-<p>  10.1 Graph representations</p>
-<p>10.2 Breadth-first and depth-first search algorithms</p>
-<p>10.3 Topological sort</p>
-<p>10.4 Disjoint sets and strategy of union by rank and path compression</p>
-<p>10.5 Minimum spanning tree</p>
-<p>10.6 Prim&#x27;s and Kruskal&#x27;s algorithm</p>
-<p>10.7 Single-source shortest-paths algorithms: breadth-first search, Dag shortest paths, Dijkstra</p>
-<p>algorithm, and Bellman-Ford algorithm</p>
-<p>10.8 All-pairs shortest-paths algorithms: brute-force, dynamic programming, Floyd-Warshall</p>
-<p>algorithm, and Johnson algorithm</p>
-<p>10.9 Ford-Fulkerson max-flow algorithm and Edmonds-Karp algorithm</p>
-<p> </p>
-<p>Chapter 11. String Matching (4 hours)</p>
-<p>11.1 String matching problem</p>
-<p>11.2 Naive string-matching algorithm</p>
-<p>11.3 Rabin-Karp algorithm</p>
-<p>11.4 Finite automaton</p>
-<p>11.5 Knuth-Morris-Pratt algorithm</p>
-<p> </p>
-<p>Chapter 12. Multithreaded Algorithms (2 hours)</p>
-<p>12.1 The basics of dynamic multithreading</p>
-<p>12.2 Multithreaded matrix multiplication</p>
-<p>12.3 Multithreaded mere sort</p>
-<p> </p>
-<p>Chapter 13. Matrix operations (2 hours)</p>
-<p>13.1 Solving systems of linear equations</p>
-<p>13.2 Inverting matrices</p>
-<p>13.3 Symmetric positive-definite matrices and least-squares approximation</p>
-<p> </p>
-<p>Chapter 14. Augmenting data structures (2 hours)</p>
-<p>14.1 Dynamic order statistics</p>
-<p>14.2 How to augment a data structure</p>
-<p>14.3 Interval trees</p>
-<p> </p>
-<p>Chapter 15. NP-complete problems (4 hours)</p>
-<p>15.1 Polynomial time algorithms</p>
-<p>15.2 Undecidable</p>
-<p>15.3 NP-complete</p>
-<p>15.4 Approximation algorithms</p>
-<p>15.5 Dealing with hard problems</p><h2>课程考核与成绩评定</h2><h2>教材</h2><h2>教学参考资料</h2><p>殷人昆、谢若阳，《数据结构（用面向对象方法和C++描述）》（第二版），       清华大学出版社   2007年。</p>
-<p>F. Sowa. Data Structures and Algorithm Analysis in Java (Second edition). China Machine Press, 2002.</p>
+<!doctype html><html lang="zh-CN"><meta charset="utf-8"><title>数据结构 · 郑骁庆 · 2025秋 CS20009.04</title><style>body{max-width:1000px;margin:35px auto;padding:0 20px;font:16px/1.9 system-ui}table{border-collapse:collapse}td,th{border:1px solid #cad7cf;padding:8px}img{max-width:100%}</style><body><h1>数据结构</h1><p>2025秋 · CS20009.04 · 郑骁庆</p><p>来源：复旦教务系统教学班大纲。</p><h2>考核与成绩构成</h2><ul><li>期末考试Final Examination：闭卷  50.0% 卷面成绩</li><li>作业/实验/实践Assignment 50.0% 上机实验和综合项目</li></ul><h2>课程简介（中文）</h2><p>课程讲解数据结构与算法的基础性内容，包括基本数据结构（栈、队列、链表、树和图）、基本算法（排序、搜索、最短路径和字符串匹配）和算法设计思想（分而治之法、动态规划法和贪婪算法）等。要求学生掌握计算复杂性分析的基本方法；具备使用和扩展上述数据结构和算法，并为特定问题选择适合的数据结构和算法的能力。</p><h2>课程简介（英文）</h2><p>This course provides a comprehensive introduction to the modern study of computer algorithms and data structures. It presents many data structures and algorithms and covers them in considerable depth, yet makes their design and analysis accessible to different levels of students. These topics include: algorithm analysis and recurrences, divide and conquer, elementary data structures, sorting algorithms, hash tables, binary search trees, dynamic programming, greedy algorithms, graph algorithms, and string matching. It discusses implementation concerns and engineering issues in algorithm design, as well as mathematical aspects. </p><h2>教学目标</h2><p>“数据结构”是软件工程的专业必修课，也是本专业课程体系中最重要的基础性课程之一。该课程面向软件工程专业本科二年级的学生，课程既是先导课程“程序设计”知识的巩固和扩展，又是后续“形式语言与计算理论”、“编译原理”、“计算机图形学”、 “智能系统原理与开发”、“人工智能”、“数字图像处理” 、“多媒体技术基础”等课程内容的基础和引导。本课程在专业教学中承担着承前启后、提高专业素养、加强思维能力和强化开发能力的任务。通过综合项目，提升社会责任感，社会参与感及公民意识，提高自我认知、个人成长和同理心，促使实现富有目标感的人生价值，促进全面发展。</p><h2>教学方式</h2><p>课堂讲解为主，并且通过实验和项目，以及课堂研讨让学生巩固和运用课堂上所学的知识。除了正常授课外，还设计了多个小型实验和综合项目，要求学生独立完成。实验突出教学内容的重点和难点，让学生通过实验巩固课堂上所学知识，并通过实践体会和掌握技术细节。项目则侧重培养学生综合运用知识和独立解决问题的能力，并且训练学生通过实验来发现问题以及结合理论分析实验结果的能力。在课堂教学中引入研讨型方式，在实验环节中采用协作性项目，并且针对中国学生的特点，探索如何引导学生提出问题、参与讨论，从而培养学生在立题、思辨和协作方面的能力。</p><h2>教学内容与进度安排</h2><p>本课程介绍数据结构与算法的基础性内容，主要包括算法分析方法、基础数据结构、排序算法、树与图的算法、算法设计思想和NP完全性问题等。课程涵盖了数据结构与算法的基础性内容，主要包括：算法分析（含递归分析）；堆栈、队列、链表、树等基础数据结构；排序算法；散列函数与散列表；二叉树与平衡二叉树（含<em>AVL</em>树、红黑树和B树）；递延算法分析；关于图的算法（含广度和深度优先搜索、最小生成树、最短路径、最小费用最大流）；字符串匹配算法；多线程编程；矩阵计算；算法设计思想（分而治之法、动态规划法和贪婪算法）；增强与扩展已有数据结构方法；NP完全性问题。</p>
+<p>Chapter 1. Algorithm analysis and recurrences (4 hours)</p>
+<p>1.1 Definition of algorithm</p>
+<p>1.2 Insertion sort and merge sort</p>
+<p>1.3 Running time and asymptotic analysis</p>
+<p>1.4 Θ-notation, Ω-notation, and <em>O</em>-notation</p>
+<p>1.5 Recurrences</p>
+<p>1.6 Substitution, recursion-tree method, and master method</p>
+<p> </p>
+<p>Chapter 2. Divide and conquer (2hours)</p>
+<p>2.1 Divide-and-conquer design paradigm</p>
+<p>2.2 Recurrence for merge sort and binary search</p>
+<p>2.3 Powering a number</p>
+<p>2.4 Fibonacci numbers</p>
+<p>2.5 Recursive squaring</p>
+<p>2.6 Matrix multiplication</p>
+<p>2.7 Strassen&#x27;s algorithm</p>
+<p> </p>
+<p>Chapter 3. Basic data structure (2 hours)</p>
+<p>3.1 Definition of data structure</p>
+<p>3.2 Stacks</p>
+<p>3.3 Queues</p>
+<p>3.4 Linked lists</p>
+<p>3.5 Trees</p>
+<p>3.6 Postfix expression</p>
+<p>3.7 Infix to postfix conversion</p>
+<p> </p>
+<p>Chapter 4. Sorting (4 hours)</p>
+<p>4.1 Randomized algorithm</p>
+<p>4.2 Quicksort and randomized quicksort</p>
+<p>4.3 Expected running time of quicksort</p>
+<p>4.4 Max-heaps and min-heaps</p>
+<p>4.5 Heap operations: heapify, building, and key increasing</p>
+<p>4.6 heap sort and priority queues</p>
+<p>4.7 Comparisons of sort algorithms: heap sort, quick sort, insertion sort, and merge sort</p>
+<p>4.8 Comparison sort and decision tree model</p>
+<p>4.9 Sorting in linear time: counting-sort, radix sort, and bucket sort</p>
+<p> </p>
+<p>Chapter 5. Hash tables (2 hours)</p>
+<p>5.1 Dictionary problem</p>
+<p>5.2 Hash functions</p>
+<p>5.3 Collisions resolution by chaining</p>
+<p>5.4 Open addressing</p>
+<p>5.5 Probing strategies: linear, quadratic, and double hashing</p>
+<p>5.6 Analysis of open addressing</p>
+<p> </p>
+<p>Chapter 6. Binary search trees (8 hours)</p>
+<p>6.1 Binary trees and binary search tree</p>
+<p>6.2 Inorder, preorder, and postorder tree walk</p>
+<p>6.3 Successor and predecessor of BST</p>
+<p>6.4 Operations of BST: search, Minimum and maximum, constructing, deletion and insertion</p>
+<p>6.5 Balanced search trees</p>
+<p>6.6 AVL trees</p>
+<p>6.7 Single and double rotation</p>
+<p>6.8 Red-black trees</p>
+<p>6.9 B-tree (2-3-4 tree)</p>
+<p> </p>
+<p>Chapter 7. Amortized analysis (2 hours)</p>
+<p>7.1 Introduction to amortized analysis</p>
+<p>7.2 Aggregate method</p>
+<p>7.3 Accounting method</p>
+<p>7.4 Potential method</p>
+<p>7.5 Dynamic tables</p>
+<p> </p>
+<p>Chapter 8. Dynamic programming (4 hours)</p>
+<p>8.1 Manufacturing problem</p>
+<p>8.2 Matrix-chain multiplication</p>
+<p>8.3 Elements of dynamic programming</p>
+<p>8.4 Four steps of development</p>
+<p>8.5 Longest common subsequence problem</p>
+<p> </p>
+<p>Chapter 9. Greedy algorithms (4 hours)</p>
+<p>  9.1 Activity-selection problem</p>
+<p>9.2 Introduction to greedy solution</p>
+<p>9.3 Steps of the greedy strategy</p>
+<p>9.4 Knapsack problem</p>
+<p>9.5 Huffman code</p>
+<p> </p>
+<p>Chapter 10. Graph algorithms (8 hours)</p>
+<p>  10.1 Graph representations</p>
+<p>10.2 Breadth-first and depth-first search algorithms</p>
+<p>10.3 Topological sort</p>
+<p>10.4 Disjoint sets and strategy of union by rank and path compression</p>
+<p>10.5 Minimum spanning tree</p>
+<p>10.6 Prim&#x27;s and Kruskal&#x27;s algorithm</p>
+<p>10.7 Single-source shortest-paths algorithms: breadth-first search, Dag shortest paths, Dijkstra</p>
+<p>algorithm, and Bellman-Ford algorithm</p>
+<p>10.8 All-pairs shortest-paths algorithms: brute-force, dynamic programming, Floyd-Warshall</p>
+<p>algorithm, and Johnson algorithm</p>
+<p>10.9 Ford-Fulkerson max-flow algorithm and Edmonds-Karp algorithm</p>
+<p> </p>
+<p>Chapter 11. String Matching (4 hours)</p>
+<p>11.1 String matching problem</p>
+<p>11.2 Naive string-matching algorithm</p>
+<p>11.3 Rabin-Karp algorithm</p>
+<p>11.4 Finite automaton</p>
+<p>11.5 Knuth-Morris-Pratt algorithm</p>
+<p> </p>
+<p>Chapter 12. Multithreaded Algorithms (2 hours)</p>
+<p>12.1 The basics of dynamic multithreading</p>
+<p>12.2 Multithreaded matrix multiplication</p>
+<p>12.3 Multithreaded mere sort</p>
+<p> </p>
+<p>Chapter 13. Matrix operations (2 hours)</p>
+<p>13.1 Solving systems of linear equations</p>
+<p>13.2 Inverting matrices</p>
+<p>13.3 Symmetric positive-definite matrices and least-squares approximation</p>
+<p> </p>
+<p>Chapter 14. Augmenting data structures (2 hours)</p>
+<p>14.1 Dynamic order statistics</p>
+<p>14.2 How to augment a data structure</p>
+<p>14.3 Interval trees</p>
+<p> </p>
+<p>Chapter 15. NP-complete problems (4 hours)</p>
+<p>15.1 Polynomial time algorithms</p>
+<p>15.2 Undecidable</p>
+<p>15.3 NP-complete</p>
+<p>15.4 Approximation algorithms</p>
+<p>15.5 Dealing with hard problems</p><h2>课程考核与成绩评定</h2><h2>教材</h2><h2>教学参考资料</h2><p>殷人昆、谢若阳，《数据结构（用面向对象方法和C++描述）》（第二版），       清华大学出版社   2007年。</p>
+<p>F. Sowa. Data Structures and Algorithm Analysis in Java (Second edition). China Machine Press, 2002.</p>
 <p> </p><h2>教学团队成员</h2><h2>教材与参考书</h2><p>Thomas H. Cormen, Charles E. Leiserson, Ronald L. Rivest, Clifford Stein；2022-10；9780262046305；Introduction to algorithms；The MIT Press</p></body></html>

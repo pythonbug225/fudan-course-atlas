@@ -25,6 +25,20 @@ export const pointEvents=sqliteTable('point_events',{
  index('point_events_user_created').on(t.userId,t.createdAt),
 ]);
 
+export const studentAccounts=sqliteTable('student_accounts',{
+ id:text('id').primaryKey(),studentNumber:text('student_number').notNull().unique(),nickname:text('nickname').notNull(),
+ passwordHash:text('password_hash').notNull(),salt:text('salt').notNull(),recoveryHash:text('recovery_hash').notNull(),
+ status:text('status',{enum:['pending','approved','rejected','suspended']}).notNull().default('pending'),
+ createdAt:text('created_at').notNull(),reviewedAt:text('reviewed_at'),reviewedBy:text('reviewed_by'),reviewNote:text('review_note').notNull().default(''),
+});
+export const studentSessions=sqliteTable('student_sessions',{
+ tokenHash:text('token_hash').primaryKey(),accountId:text('account_id').notNull().references(()=>studentAccounts.id),
+ expiresAt:integer('expires_at').notNull(),createdAt:text('created_at').notNull(),
+},t=>[index('student_sessions_account').on(t.accountId)]);
+export const authRateLimits=sqliteTable('auth_rate_limits',{
+ key:text('key').primaryKey(),count:integer('count').notNull(),resetAt:integer('reset_at').notNull(),
+});
+
 export const compassProfiles = sqliteTable('compass_profiles', {
  userId: text('user_id').primaryKey(),
  activeSnapshotId: text('active_snapshot_id'),
@@ -46,3 +60,8 @@ export const compassSnapshots = sqliteTable('compass_snapshots', {
  index('compass_snapshots_user_updated').on(t.userId, t.updatedAt),
  uniqueIndex('compass_snapshots_user_import').on(t.userId, t.importKey),
 ]);
+
+export const privateAssetImportGrants=sqliteTable('private_asset_import_grants',{
+ tokenHash:text('token_hash').primaryKey(),assetVersion:text('asset_version').notNull(),
+ manifestHash:text('manifest_hash'),createdAt:integer('created_at').notNull(),expiresAt:integer('expires_at').notNull(),revokedAt:integer('revoked_at'),
+});

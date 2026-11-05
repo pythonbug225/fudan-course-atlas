@@ -1,76 +1,76 @@
-<!doctype html><html lang="zh-CN"><meta charset="utf-8"><title>并行分布式计算 · 张奇 · 2025秋 CS40021.01</title><style>body{max-width:1000px;margin:35px auto;padding:0 20px;font:16px/1.9 system-ui}table{border-collapse:collapse}td,th{border:1px solid #cad7cf;padding:8px}img{max-width:100%}</style><body><h1>并行分布式计算</h1><p>2025秋 · CS40021.01 · 张奇</p><p>来源：复旦教务系统教学班大纲。</p><h2>考核与成绩构成</h2><ul><li>期末考试Final Examination：闭卷  70.0% </li><li>作业/实验/实践Assignment 30.0% </li></ul><h2>课程简介（中文）</h2><p>介绍并行计算的基本概念、原理和编程模型，包括：并行计算基础、进程间通信、并行算法分解模式、并行程序结构设计、CUDA编程；分布式计算的模型、逻辑时间、全局状态记录与快照算法、消息序列与组通信、终止监测、MapReduce 编程框架等。</p><h2>课程简介（英文）</h2><p>Parallel computing is a field of computer science that involves the use of multiple processors to perform computational tasks simultaneously. The basic concepts of parallel computing include the use of multiple processors to divide a task into smaller sub-tasks that can be executed concurrently. The principles of parallel computing involve the coordination of these processors to ensure that the sub-tasks are executed in a coordinated and efficient manner.</p>
-<p>The programming models used in parallel computing include shared memory models, distributed memory models, and hybrid models. In shared memory models, multiple processors share a common memory space, while in distributed memory models, each processor has its own memory space. Hybrid models combine elements of both shared and distributed memory models.</p><h2>教学目标</h2><p>通过本课程的学习，使学生掌握并行和分布式计算的概念、基本原理和模型。深入了解实际的并行和分布式计算中所涉及的系统难点包括互斥、死锁检测、全局状态、逻辑时间等，并结合当前热点在并行和分布式算法设计、实现以及应用等方面开展实践。</p><h2>教学方式</h2><p>本课程以课堂讲授为主，结合课后实验。</p><h2>教学内容与进度安排</h2><p><strong>第一周  并行计算与并行计算机结构模型</strong></p>
-<ul>
-<li>并行计算简介</li>
-<li>并行计算机体系结构</li>
-<li>并行计算概述</li>
-</ul>
-<p><strong>第二周 </strong><strong>  </strong><strong>并行计算系统结构</strong></p>
-<p>         第一节  并行体系结构简介</p>
-<p>         第二节  并行编程环境</p>
-<p>         第三节  通讯</p>
-<p><strong>第三周 </strong><strong>  </strong><strong>并行算法设计</strong></p>
-<p>         第一节  并行算法设计简介</p>
-<p>         第二节  任务分解模式</p>
-<p>         第三节  数据分解模式</p>
-<p><strong>第四周 </strong><strong>  </strong><strong>并行算法结构设计</strong></p>
-<p>         第一节  并行算法结构设计模式</p>
-<p>         第二节  任务和分治模式</p>
-<p>         第三节  几何和递归模式</p>
-<p><strong>第五周 </strong><strong>  </strong><strong>并行算法的常用设计技术</strong></p>
-<p>         第一节  划分设计</p>
-<p>         第二节  分治设计</p>
-<p>         第三节  流水线设</p>
-<p><strong>第六周 </strong><strong>  GPU</strong><strong>介绍</strong></p>
-<p>         第一节  GPU硬件简介</p>
-<p>         第二节  SIMD设计模式</p>
-<p>         第三节  GPU编程简介</p>
-<p><strong>第七周 </strong><strong>  CUDA</strong><strong>编程介绍</strong></p>
-<p>         第一节  CUDA编程模型</p>
-<p>         第二节  CUDA内存与线程</p>
-<p>         第三节  CUDA编程优化</p>
-<p><strong>第八周 </strong><strong>  </strong><strong>并行算法的一般设计过程</strong></p>
-<p>         第一节  PCAM设计方法学</p>
-<p>         第二节  划分、通信</p>
-<p>         第三节  组合、映射</p>
-<p><strong>第九周 </strong><strong>  </strong><strong>稠密矩阵计算</strong></p>
-<p>         第一节  矩阵的划分</p>
-<p>         第二节  矩阵转置</p>
-<p>         第三节  矩阵-向量乘法</p>
-<p><strong>第十周 </strong><strong>  </strong><strong>并行程序设计基础</strong></p>
-<p>         第一节  并行程序设计概述</p>
-<p>         第二节  进程和线程</p>
-<p>         第三节  同步和通信步</p>
-<p><strong>第十一周 </strong><strong>  </strong><strong>共享存储系统并行编程</strong></p>
-<p>         第一节  共享存储系统回顾</p>
-<p>         第二节  线程编程</p>
-<p>         第三节  OpenMP编程</p>
-<p><strong>第十二周 </strong><strong>  </strong><strong>分布式存储系统并行编程</strong></p>
-<p>         第一节  互联网协议的API</p>
-<p>         第二节  外部数据表示和编码</p>
-<p>         第三节  远程过程调用和方法调用</p>
-<p><strong>第十三周 </strong><strong>  </strong><strong>分布式互斥</strong></p>
-<p>         第一节  分布式互斥基础</p>
-<p>         第二节  Lamport算法</p>
-<p>         第三节  令牌算法</p>
-<p><strong>第十四周 </strong><strong>  </strong><strong>共识和协定</strong></p>
-<p>         第一节  无故障系统的协定问题</p>
-<p>         第二节  有故障同步系统中的协定问题</p>
-<p>         第三节  有故障异步消息传输系统中的协定问题</p>
-<p><strong>第十五周 </strong><strong>  </strong><strong>事务和并发控制</strong></p>
-<p>         第一节  事务与嵌套事务</p>
-<p>         第二节  锁机制</p>
-<p>         第三节  乐观并发控制与时间戳排序</p>
-<p><strong>第十六周 </strong><strong>  MapReduce</strong><strong>编程框架</strong></p>
-<p>         第一节  MapReduce框架简介</p>
-<p>         第二节  MapReduce框架编程逻辑</p>
-<p>         第三节  MapReduce框架执行逻辑</p>
-<p><strong>第十七周 </strong><strong>  MapReduce </strong><strong>信息检索任务</strong></p>
-<p>         第一节  信息检索任务介绍</p>
-<p>         第二节  索引构建算法</p>
-<p>         第三节  语言模型算法</p>
-<p><strong>第十八周 </strong><strong>  MapReduce </strong><strong>图算法介绍</strong></p>
-<p>         第一节  图表示与算法</p>
-<p>         第二节  并行广度有限搜索算法</p>
-<p>         第三节  PageRank算法</p>
+<!doctype html><html lang="zh-CN"><meta charset="utf-8"><title>并行分布式计算 · 张奇 · 2025秋 CS40021.01</title><style>body{max-width:1000px;margin:35px auto;padding:0 20px;font:16px/1.9 system-ui}table{border-collapse:collapse}td,th{border:1px solid #cad7cf;padding:8px}img{max-width:100%}</style><body><h1>并行分布式计算</h1><p>2025秋 · CS40021.01 · 张奇</p><p>来源：复旦教务系统教学班大纲。</p><h2>考核与成绩构成</h2><ul><li>期末考试Final Examination：闭卷  70.0% </li><li>作业/实验/实践Assignment 30.0% </li></ul><h2>课程简介（中文）</h2><p>介绍并行计算的基本概念、原理和编程模型，包括：并行计算基础、进程间通信、并行算法分解模式、并行程序结构设计、CUDA编程；分布式计算的模型、逻辑时间、全局状态记录与快照算法、消息序列与组通信、终止监测、MapReduce 编程框架等。</p><h2>课程简介（英文）</h2><p>Parallel computing is a field of computer science that involves the use of multiple processors to perform computational tasks simultaneously. The basic concepts of parallel computing include the use of multiple processors to divide a task into smaller sub-tasks that can be executed concurrently. The principles of parallel computing involve the coordination of these processors to ensure that the sub-tasks are executed in a coordinated and efficient manner.</p>
+<p>The programming models used in parallel computing include shared memory models, distributed memory models, and hybrid models. In shared memory models, multiple processors share a common memory space, while in distributed memory models, each processor has its own memory space. Hybrid models combine elements of both shared and distributed memory models.</p><h2>教学目标</h2><p>通过本课程的学习，使学生掌握并行和分布式计算的概念、基本原理和模型。深入了解实际的并行和分布式计算中所涉及的系统难点包括互斥、死锁检测、全局状态、逻辑时间等，并结合当前热点在并行和分布式算法设计、实现以及应用等方面开展实践。</p><h2>教学方式</h2><p>本课程以课堂讲授为主，结合课后实验。</p><h2>教学内容与进度安排</h2><p><strong>第一周  并行计算与并行计算机结构模型</strong></p>
+<ul>
+<li>并行计算简介</li>
+<li>并行计算机体系结构</li>
+<li>并行计算概述</li>
+</ul>
+<p><strong>第二周 </strong><strong>  </strong><strong>并行计算系统结构</strong></p>
+<p>         第一节  并行体系结构简介</p>
+<p>         第二节  并行编程环境</p>
+<p>         第三节  通讯</p>
+<p><strong>第三周 </strong><strong>  </strong><strong>并行算法设计</strong></p>
+<p>         第一节  并行算法设计简介</p>
+<p>         第二节  任务分解模式</p>
+<p>         第三节  数据分解模式</p>
+<p><strong>第四周 </strong><strong>  </strong><strong>并行算法结构设计</strong></p>
+<p>         第一节  并行算法结构设计模式</p>
+<p>         第二节  任务和分治模式</p>
+<p>         第三节  几何和递归模式</p>
+<p><strong>第五周 </strong><strong>  </strong><strong>并行算法的常用设计技术</strong></p>
+<p>         第一节  划分设计</p>
+<p>         第二节  分治设计</p>
+<p>         第三节  流水线设</p>
+<p><strong>第六周 </strong><strong>  GPU</strong><strong>介绍</strong></p>
+<p>         第一节  GPU硬件简介</p>
+<p>         第二节  SIMD设计模式</p>
+<p>         第三节  GPU编程简介</p>
+<p><strong>第七周 </strong><strong>  CUDA</strong><strong>编程介绍</strong></p>
+<p>         第一节  CUDA编程模型</p>
+<p>         第二节  CUDA内存与线程</p>
+<p>         第三节  CUDA编程优化</p>
+<p><strong>第八周 </strong><strong>  </strong><strong>并行算法的一般设计过程</strong></p>
+<p>         第一节  PCAM设计方法学</p>
+<p>         第二节  划分、通信</p>
+<p>         第三节  组合、映射</p>
+<p><strong>第九周 </strong><strong>  </strong><strong>稠密矩阵计算</strong></p>
+<p>         第一节  矩阵的划分</p>
+<p>         第二节  矩阵转置</p>
+<p>         第三节  矩阵-向量乘法</p>
+<p><strong>第十周 </strong><strong>  </strong><strong>并行程序设计基础</strong></p>
+<p>         第一节  并行程序设计概述</p>
+<p>         第二节  进程和线程</p>
+<p>         第三节  同步和通信步</p>
+<p><strong>第十一周 </strong><strong>  </strong><strong>共享存储系统并行编程</strong></p>
+<p>         第一节  共享存储系统回顾</p>
+<p>         第二节  线程编程</p>
+<p>         第三节  OpenMP编程</p>
+<p><strong>第十二周 </strong><strong>  </strong><strong>分布式存储系统并行编程</strong></p>
+<p>         第一节  互联网协议的API</p>
+<p>         第二节  外部数据表示和编码</p>
+<p>         第三节  远程过程调用和方法调用</p>
+<p><strong>第十三周 </strong><strong>  </strong><strong>分布式互斥</strong></p>
+<p>         第一节  分布式互斥基础</p>
+<p>         第二节  Lamport算法</p>
+<p>         第三节  令牌算法</p>
+<p><strong>第十四周 </strong><strong>  </strong><strong>共识和协定</strong></p>
+<p>         第一节  无故障系统的协定问题</p>
+<p>         第二节  有故障同步系统中的协定问题</p>
+<p>         第三节  有故障异步消息传输系统中的协定问题</p>
+<p><strong>第十五周 </strong><strong>  </strong><strong>事务和并发控制</strong></p>
+<p>         第一节  事务与嵌套事务</p>
+<p>         第二节  锁机制</p>
+<p>         第三节  乐观并发控制与时间戳排序</p>
+<p><strong>第十六周 </strong><strong>  MapReduce</strong><strong>编程框架</strong></p>
+<p>         第一节  MapReduce框架简介</p>
+<p>         第二节  MapReduce框架编程逻辑</p>
+<p>         第三节  MapReduce框架执行逻辑</p>
+<p><strong>第十七周 </strong><strong>  MapReduce </strong><strong>信息检索任务</strong></p>
+<p>         第一节  信息检索任务介绍</p>
+<p>         第二节  索引构建算法</p>
+<p>         第三节  语言模型算法</p>
+<p><strong>第十八周 </strong><strong>  MapReduce </strong><strong>图算法介绍</strong></p>
+<p>         第一节  图表示与算法</p>
+<p>         第二节  并行广度有限搜索算法</p>
+<p>         第三节  PageRank算法</p>
 <p> </p><h2>课程考核与成绩评定</h2><h2>教材</h2><h2>教学参考资料</h2><h2>教学团队成员</h2></body></html>

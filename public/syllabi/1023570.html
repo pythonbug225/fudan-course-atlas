@@ -1,127 +1,127 @@
-<!doctype html><html lang="zh-CN"><meta charset="utf-8"><title>互联网：协议与应用 · 毛迪林 · 2026春 CS30050.01</title><style>body{max-width:1000px;margin:35px auto;padding:0 20px;font:16px/1.9 system-ui}table{border-collapse:collapse}td,th{border:1px solid #cad7cf;padding:8px}img{max-width:100%}</style><body><h1>互联网：协议与应用</h1><p>2026春 · CS30050.01 · 毛迪林</p><p>来源：复旦教务系统教学班大纲。</p><h2>考核与成绩构成</h2><ul><li>出勤Attendance 5.0% 基于考勤记录计算</li><li>作业/实验/实践Assignment 40.0% 实践编程作业完成情况</li><li>期末考试Final Examination：闭卷  55.0% 期末考试成绩</li></ul><h2>课程简介（中文）</h2><p>在前期课程“计算机网络”的基础上，本课程重点关注Internet中的网络安全协议、网络应用、服务质量控制、路由协议和网络管理等。主要内容包括：网络安全的基本原理和基本机制，网络安全协议，防火墙，DNS和电子邮件安全，HTTP/2协议和QUIC协议，多媒体网络，NAT穿越，服务质量控制， BGP路由，软件定义网络，网络管理等。</p><h2>课程简介（英文）</h2><p>Following on the prerequisite course &quot;Computer Networks&quot;, this course focuses on Internet-related topics：network security protocols, network applications, quality of service control, routing protocols, and network management. The main contents include: fundamental principles and basic mechanisms of network security, network security protocols, firewalls, DNS and email security, HTTP/2 protocol and QUIC protocol, multimedia networks, NAT traversal, quality of service control, BGP routing, software-defined networking (SDN), network management, etc.</p><h2>教学目标</h2><p>在前期课程“计算机网络”的基础上，介绍Internet的主要协议和各种类型的应用，使得学生了解Internet的总体架构和工作原理，熟悉Internet的主要协议，了解Internet的最新进展，为今后工作或者继续从事相关研究打下基础。</p><h2>教学方式</h2><p><strong>课堂讲授。</strong><strong>2-3</strong><strong>个网络编程实践作业</strong></p><h2>教学内容与进度安排</h2><p><strong>2-3</strong><strong>个网络编程实践作业</strong></p>
-<p><strong> </strong></p>
-<p>第1周  网络安全基本原理</p>
-<ul>
-<li>课程简介</li>
-<li>网络安全威胁</li>
-<li>密码学基础</li>
-</ul>
-<p>目标：了解计算机网络领域的安全威胁，增强网络安全和隐私保护的意识。掌握密码学的基本原理：包括古典密码、对称密钥、公开密钥和消息散列函数。</p>
-<p> </p>
-<p>第2周  网络安全机制</p>
-<ul>
-<li>数字签名</li>
-<li>认证协议</li>
-<li>密钥预分发：Diffie-Hellman密钥交换，数字证书</li>
-</ul>
-<p>目标：掌握网络安全协议的基础：如何保证消息完整性，如何进行端点认证，如何进行共享密钥和公开密钥的预分发</p>
-<p> </p>
-<p>第3周  网络安全协议（1）</p>
-<ul>
-<li>TLS：记录层、握手协议、3</li>
-<li>SSH</li>
-</ul>
-<p>目标：掌握TLS协议，如何提供机密和消息完整性保证，如何通过握手协议建立TLS会话、实现端点认证和生成会话密钥。了解SSH协议的层次结构，掌握SSH连接协议，如何实现端口转发</p>
-<p> </p>
-<p>第4周  网络安全协议（2）</p>
-<ul>
-<li>IPsec</li>
-<li>防火墙和入侵检测系统</li>
-<li>网络安全法规</li>
-</ul>
-<p>目标：掌握IPsec：安全关联，传输模式和隧道模式，ESP。了解防火墙的3种基本类型，掌握如何设置相应的规则来过滤分组。了解入侵检测系统。了解网络安全和隐私保护的相关法规，合法合规地使用计算机网络。</p>
-<p> </p>
-<p>第5周  应用层安全</p>
-<ul>
-<li>DNS安全</li>
-<li>电子邮件安全和IMAP协议</li>
-</ul>
-<p>目标：了解DNS协议的安全问题，如何防止缓存污染攻击，掌握DNSSEC。掌握如何通过发送方认证、SPF、DKIM和DMARC机制保证电子邮件的安全，防止垃圾邮件。掌握电子邮件访问协议IMAP协议。</p>
-<p> </p>
-<p>第6周  HTTP/2</p>
-<ul>
-<li>二进制封装</li>
-<li>多路复用和流量控制</li>
-<li>头部压缩</li>
-</ul>
-<p>目标：掌握HTTP/2的基本原理，掌握如何通过HEADER+DATA帧实现多路复用，如何进行头部压缩</p>
-<p> </p>
-<p>第7周 QUIC</p>
-<ul>
-<li>QUIC协议概述</li>
-<li>连接建立和释放</li>
-<li>差错恢复机制</li>
-<li>QUIC拥塞控制算法：BBR</li>
-</ul>
-<p>目标：掌握QUIC协议的基本原理，包括快速握手、连接迁移、丢失恢复和拥塞控制</p>
-<p> </p>
-<p>第8周 多媒体网络</p>
-<ul>
-<li>多媒体网络概述</li>
-<li>RTP和RTCP</li>
-<li>SIP</li>
-<li>点播型流媒体</li>
-</ul>
-<p>目标：了解多媒体网络的主要协议，如何通过播放缓冲区应对延迟的抖动。掌握RTP和RTCP协议，两者如何结合为多媒体网络应用提供底层支持。掌握SIP协议，如何确定到被呼叫者的路由。</p>
-<p> </p>
-<p>第9周：服务质量控制</p>
-<ul>
-<li>概述</li>
-<li>主动队列管理</li>
-<li>调度机制</li>
-<li>流量管理</li>
-<li>服务质量体系结构</li>
-</ul>
-<p>目标：了解主动队列管理的基本原理，掌握RED算法。掌握漏桶和令牌桶算法，如何通过令牌桶描述负载特性，进行标记和整形。了解调度机制，包括WRR和WFQ调度算法，理解最大最小公平性，掌握WFQ是如何通过虚拟时钟模拟理想的调度算法GPS的。了解集成服务和区分服务。</p>
-<p> </p>
-<p>第10周 NAT穿越</p>
-<ul>
-<li>NAT类型</li>
-<li>STUN和TURN</li>
-<li>ICE</li>
-</ul>
-<p>目标：掌握如何通过映射和过滤两个角度描述NAT实现的类型。掌握通过SIP协议与ICE协议的结合，基于STUN和TURN，实现UDP负载对NAT设备的穿越。</p>
-<p> </p>
-<p>第11周 BGP路由</p>
-<ul>
-<li>BGP协议</li>
-<li>BGP路径属性</li>
-<li>BGP策略控制</li>
-</ul>
-<p>目标：掌握BGP协议的基本工作原理，掌握BGP的主要路径属性，学会如何通过BGP的路径属性，基于BGP的路由决定过程，实现自治系统间的策略控制。</p>
-<p> </p>
-<p>第12周 网络管理和测量</p>
-<ul>
-<li>网络管理概述</li>
-<li>SNMP协议</li>
-<li>NETCONF/YANG</li>
-<li>网络测量：流级和分组级测量</li>
-</ul>
-<p>目标：了解网络管理的基本构建，掌握如何通过SMI描述MIB，如何通过SNMP协议访问标量和表格型的被管对象。了解新的网络管理协议NETCONF，如何通过YANG进行数据建模。掌握NetFlow和sFlow的基本工作原理。</p>
-<p><strong>协议分析</strong><strong>3</strong><strong>：</strong><strong>SNMP</strong></p>
-<p> </p>
-<p>第13周 软件定义网络</p>
-<ul>
-<li>SDN概述</li>
-<li>Openflow</li>
-<li>SDN控制器</li>
-</ul>
-<p>目标：掌握SDN的基本概念，掌握Openflow协议，了解SDN控制器的主要功能</p>
-<p> </p>
-<p>第14周 无线局域网</p>
-<ul>
-<li>11体系结构</li>
-<li>11 MAC协议、MAC帧格式</li>
-<li>无线局域网安全</li>
-</ul>
-<p>目标：掌握802.11的媒体访问机制，为什么要引入CSMA/CA机制，如何处理隐藏节点问题，如何处理节点移动以及节省节点能耗，掌握在802.11局域网中是如何保证局域网的安全的</p>
-<p> </p>
-<p>第15周 机动+复习</p>
-<p> </p>
-<p>第16周 期末考试</p><h2>课程考核与成绩评定</h2><h2>教材</h2><h2>教学参考资料</h2><ul>
-<li>eLearning站点提供PPT</li>
-<li>计算机网络—自顶向下方法 Computer Networking: A Top-Down Approach（原书第8版 ）James F.Kurose等 陈鸣等(译者) ，机械工业出版社，2022年8月</li>
-<li>计算机网络 Computer Networks (第6版) Andrew Tanenbaum等 潘爱民(译者)，清华大学出版社，2022年6月</li>
-<li>计算机网络:系统方法 Computer Networks A Systems Approach（原书第6版）Larry L.Peterson等 王勇 (译者), 机械工业出版社，2022年8月</li>
-<li>高传善、曹袖、毛迪林、王雪平，计算机网络教程(第2版)， 高等教育出版社, 2013年11月</li>
+<!doctype html><html lang="zh-CN"><meta charset="utf-8"><title>互联网：协议与应用 · 毛迪林 · 2026春 CS30050.01</title><style>body{max-width:1000px;margin:35px auto;padding:0 20px;font:16px/1.9 system-ui}table{border-collapse:collapse}td,th{border:1px solid #cad7cf;padding:8px}img{max-width:100%}</style><body><h1>互联网：协议与应用</h1><p>2026春 · CS30050.01 · 毛迪林</p><p>来源：复旦教务系统教学班大纲。</p><h2>考核与成绩构成</h2><ul><li>出勤Attendance 5.0% 基于考勤记录计算</li><li>作业/实验/实践Assignment 40.0% 实践编程作业完成情况</li><li>期末考试Final Examination：闭卷  55.0% 期末考试成绩</li></ul><h2>课程简介（中文）</h2><p>在前期课程“计算机网络”的基础上，本课程重点关注Internet中的网络安全协议、网络应用、服务质量控制、路由协议和网络管理等。主要内容包括：网络安全的基本原理和基本机制，网络安全协议，防火墙，DNS和电子邮件安全，HTTP/2协议和QUIC协议，多媒体网络，NAT穿越，服务质量控制， BGP路由，软件定义网络，网络管理等。</p><h2>课程简介（英文）</h2><p>Following on the prerequisite course &quot;Computer Networks&quot;, this course focuses on Internet-related topics：network security protocols, network applications, quality of service control, routing protocols, and network management. The main contents include: fundamental principles and basic mechanisms of network security, network security protocols, firewalls, DNS and email security, HTTP/2 protocol and QUIC protocol, multimedia networks, NAT traversal, quality of service control, BGP routing, software-defined networking (SDN), network management, etc.</p><h2>教学目标</h2><p>在前期课程“计算机网络”的基础上，介绍Internet的主要协议和各种类型的应用，使得学生了解Internet的总体架构和工作原理，熟悉Internet的主要协议，了解Internet的最新进展，为今后工作或者继续从事相关研究打下基础。</p><h2>教学方式</h2><p><strong>课堂讲授。</strong><strong>2-3</strong><strong>个网络编程实践作业</strong></p><h2>教学内容与进度安排</h2><p><strong>2-3</strong><strong>个网络编程实践作业</strong></p>
+<p><strong> </strong></p>
+<p>第1周  网络安全基本原理</p>
+<ul>
+<li>课程简介</li>
+<li>网络安全威胁</li>
+<li>密码学基础</li>
+</ul>
+<p>目标：了解计算机网络领域的安全威胁，增强网络安全和隐私保护的意识。掌握密码学的基本原理：包括古典密码、对称密钥、公开密钥和消息散列函数。</p>
+<p> </p>
+<p>第2周  网络安全机制</p>
+<ul>
+<li>数字签名</li>
+<li>认证协议</li>
+<li>密钥预分发：Diffie-Hellman密钥交换，数字证书</li>
+</ul>
+<p>目标：掌握网络安全协议的基础：如何保证消息完整性，如何进行端点认证，如何进行共享密钥和公开密钥的预分发</p>
+<p> </p>
+<p>第3周  网络安全协议（1）</p>
+<ul>
+<li>TLS：记录层、握手协议、3</li>
+<li>SSH</li>
+</ul>
+<p>目标：掌握TLS协议，如何提供机密和消息完整性保证，如何通过握手协议建立TLS会话、实现端点认证和生成会话密钥。了解SSH协议的层次结构，掌握SSH连接协议，如何实现端口转发</p>
+<p> </p>
+<p>第4周  网络安全协议（2）</p>
+<ul>
+<li>IPsec</li>
+<li>防火墙和入侵检测系统</li>
+<li>网络安全法规</li>
+</ul>
+<p>目标：掌握IPsec：安全关联，传输模式和隧道模式，ESP。了解防火墙的3种基本类型，掌握如何设置相应的规则来过滤分组。了解入侵检测系统。了解网络安全和隐私保护的相关法规，合法合规地使用计算机网络。</p>
+<p> </p>
+<p>第5周  应用层安全</p>
+<ul>
+<li>DNS安全</li>
+<li>电子邮件安全和IMAP协议</li>
+</ul>
+<p>目标：了解DNS协议的安全问题，如何防止缓存污染攻击，掌握DNSSEC。掌握如何通过发送方认证、SPF、DKIM和DMARC机制保证电子邮件的安全，防止垃圾邮件。掌握电子邮件访问协议IMAP协议。</p>
+<p> </p>
+<p>第6周  HTTP/2</p>
+<ul>
+<li>二进制封装</li>
+<li>多路复用和流量控制</li>
+<li>头部压缩</li>
+</ul>
+<p>目标：掌握HTTP/2的基本原理，掌握如何通过HEADER+DATA帧实现多路复用，如何进行头部压缩</p>
+<p> </p>
+<p>第7周 QUIC</p>
+<ul>
+<li>QUIC协议概述</li>
+<li>连接建立和释放</li>
+<li>差错恢复机制</li>
+<li>QUIC拥塞控制算法：BBR</li>
+</ul>
+<p>目标：掌握QUIC协议的基本原理，包括快速握手、连接迁移、丢失恢复和拥塞控制</p>
+<p> </p>
+<p>第8周 多媒体网络</p>
+<ul>
+<li>多媒体网络概述</li>
+<li>RTP和RTCP</li>
+<li>SIP</li>
+<li>点播型流媒体</li>
+</ul>
+<p>目标：了解多媒体网络的主要协议，如何通过播放缓冲区应对延迟的抖动。掌握RTP和RTCP协议，两者如何结合为多媒体网络应用提供底层支持。掌握SIP协议，如何确定到被呼叫者的路由。</p>
+<p> </p>
+<p>第9周：服务质量控制</p>
+<ul>
+<li>概述</li>
+<li>主动队列管理</li>
+<li>调度机制</li>
+<li>流量管理</li>
+<li>服务质量体系结构</li>
+</ul>
+<p>目标：了解主动队列管理的基本原理，掌握RED算法。掌握漏桶和令牌桶算法，如何通过令牌桶描述负载特性，进行标记和整形。了解调度机制，包括WRR和WFQ调度算法，理解最大最小公平性，掌握WFQ是如何通过虚拟时钟模拟理想的调度算法GPS的。了解集成服务和区分服务。</p>
+<p> </p>
+<p>第10周 NAT穿越</p>
+<ul>
+<li>NAT类型</li>
+<li>STUN和TURN</li>
+<li>ICE</li>
+</ul>
+<p>目标：掌握如何通过映射和过滤两个角度描述NAT实现的类型。掌握通过SIP协议与ICE协议的结合，基于STUN和TURN，实现UDP负载对NAT设备的穿越。</p>
+<p> </p>
+<p>第11周 BGP路由</p>
+<ul>
+<li>BGP协议</li>
+<li>BGP路径属性</li>
+<li>BGP策略控制</li>
+</ul>
+<p>目标：掌握BGP协议的基本工作原理，掌握BGP的主要路径属性，学会如何通过BGP的路径属性，基于BGP的路由决定过程，实现自治系统间的策略控制。</p>
+<p> </p>
+<p>第12周 网络管理和测量</p>
+<ul>
+<li>网络管理概述</li>
+<li>SNMP协议</li>
+<li>NETCONF/YANG</li>
+<li>网络测量：流级和分组级测量</li>
+</ul>
+<p>目标：了解网络管理的基本构建，掌握如何通过SMI描述MIB，如何通过SNMP协议访问标量和表格型的被管对象。了解新的网络管理协议NETCONF，如何通过YANG进行数据建模。掌握NetFlow和sFlow的基本工作原理。</p>
+<p><strong>协议分析</strong><strong>3</strong><strong>：</strong><strong>SNMP</strong></p>
+<p> </p>
+<p>第13周 软件定义网络</p>
+<ul>
+<li>SDN概述</li>
+<li>Openflow</li>
+<li>SDN控制器</li>
+</ul>
+<p>目标：掌握SDN的基本概念，掌握Openflow协议，了解SDN控制器的主要功能</p>
+<p> </p>
+<p>第14周 无线局域网</p>
+<ul>
+<li>11体系结构</li>
+<li>11 MAC协议、MAC帧格式</li>
+<li>无线局域网安全</li>
+</ul>
+<p>目标：掌握802.11的媒体访问机制，为什么要引入CSMA/CA机制，如何处理隐藏节点问题，如何处理节点移动以及节省节点能耗，掌握在802.11局域网中是如何保证局域网的安全的</p>
+<p> </p>
+<p>第15周 机动+复习</p>
+<p> </p>
+<p>第16周 期末考试</p><h2>课程考核与成绩评定</h2><h2>教材</h2><h2>教学参考资料</h2><ul>
+<li>eLearning站点提供PPT</li>
+<li>计算机网络—自顶向下方法 Computer Networking: A Top-Down Approach（原书第8版 ）James F.Kurose等 陈鸣等(译者) ，机械工业出版社，2022年8月</li>
+<li>计算机网络 Computer Networks (第6版) Andrew Tanenbaum等 潘爱民(译者)，清华大学出版社，2022年6月</li>
+<li>计算机网络:系统方法 Computer Networks A Systems Approach（原书第6版）Larry L.Peterson等 王勇 (译者), 机械工业出版社，2022年8月</li>
+<li>高传善、曹袖、毛迪林、王雪平，计算机网络教程(第2版)， 高等教育出版社, 2013年11月</li>
 </ul><h2>教学团队成员</h2></body></html>

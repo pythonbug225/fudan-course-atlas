@@ -195,9 +195,9 @@ test('api_routes_export_expected_methods_and_delegate_to_ledger', () => {
   const unlockRoute = readRoute('../app/api/exams/[fileId]/unlock/route.ts');
 
   assert.match(pointsRoute, /export\s+async\s+function\s+GET\s*\(/);
-  assert.match(pointsRoute, /getPointsResponse\s*\(\s*req\s*,\s*env\.DB/);
+  assert.match(pointsRoute, /getPointsResponse\s*\(\s*verified\s*,\s*env\.DB/);
   assert.match(checkInRoute, /export\s+async\s+function\s+POST\s*\(/);
-  assert.match(checkInRoute, /checkInResponse\s*\(\s*req\s*,\s*env\.DB/);
+  assert.match(checkInRoute, /checkInResponse\s*\(\s*verified\s*,\s*env\.DB/);
   assert.match(unlockRoute, /export\s+async\s+function\s+POST\s*\(/);
-  assert.match(unlockRoute, /unlockExamResponse\s*\(\s*req\s*,\s*env\.DB(?:\s*\?\?\s*null)?\s*,\s*fileId/);
+  assert.match(unlockRoute, /unlockExamResponse\s*\(\s*verified\s*,\s*env\.DB(?:\s*\?\?\s*null)?\s*,\s*fileId/);
 });

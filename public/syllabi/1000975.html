@@ -1,194 +1,194 @@
-<!doctype html><html lang="zh-CN"><meta charset="utf-8"><title>数字逻辑与部件设计 · 孙晓光 · 2025秋 CS20008.02</title><style>body{max-width:1000px;margin:35px auto;padding:0 20px;font:16px/1.9 system-ui}table{border-collapse:collapse}td,th{border:1px solid #cad7cf;padding:8px}img{max-width:100%}</style><body><h1>数字逻辑与部件设计</h1><p>2025秋 · CS20008.02 · 孙晓光</p><p>来源：复旦教务系统教学班大纲。</p><h2>考核与成绩构成</h2><ul><li>作业/实验/实践Assignment 30.0% </li><li>期中考试Midterm Examination 30.0% </li><li>期末考试Final Examination：闭卷  40.0% </li></ul><h2>课程简介（中文）</h2><p>数字逻辑课程是计算机科学与技术等专业的核心基础课。讲授数字系统分析与设计的数学基础和基本逻辑单元，重点研究组合逻辑电路与时序逻辑电路的工作原理、分析方法和设计技术。课程强调逻辑抽象思维与硬件实现能力的培养，通过理论学习与实验实践相结合，使学生掌握使用基本逻辑部件构建复杂数字功能模块的能力。</p><h2>课程简介（英文）</h2><p>Digital Logic is a core foundational course for majors such as Computer Science and Technology. It teaches the mathematical basis (Boolean algebra) and fundamental logic units (gates) for digital system analysis and design, focusing on the working principles, analysis methods, and design techniques of combinational logic circuits and sequential logic circuits (e.g., flip-flops, registers, counters). The course emphasizes the development of abstract logical thinking and hardware implementation skills. By combining theoretical learning with experimental practice, it enables students to master the ability to construct complex digital function modules (such as adders, decoders, state machines) using basic logic components.</p><h2>教学目标</h2><p>课程旨在培养学生掌握数字系统分析与设计的核心基础。学生将深入理解布尔代数等数学工具，熟练认知基本逻辑门及其特性。课程着重培养学生对组合逻辑电路和时序逻辑电路（包含触发器、寄存器、计数器等）进行逻辑分析、功能设计和优化的能力。通过理论学习与实验实践紧密结合，学生将发展硬件抽象思维，提升数字系统设计素养，最终具备运用基本逻辑部件独立设计、实现并验证满足特定功能需求的复杂数字模块的工程实践能力，为后续计算机硬件相关课程奠定基础。</p><h2>教学方式</h2><p>课堂教学和实验教学混合方式进行。</p>
-<p>理论部分采用课堂授课方式进行；</p>
-<p>实验部分采用Xilinx Vivado软件和Nexys4开发板对各种电路进行设计、仿真和验证。</p><h2>教学内容与进度安排</h2><table width="593">
-<tbody>
-<tr>
-<td width="68">
-<p><strong>教学周</strong></p>
-</td>
-<td width="357">
-<p><strong>教学内容（理论</strong><strong>+</strong><strong>实验</strong><strong>）</strong></p>
-</td>
-<td width="168">
-<p><strong>实验内容</strong></p>
-</td>
-</tr>
-<tr>
-<td width="68">
-<p>第1周</p>
-</td>
-<td width="357">
-<p>简介、数制、码制+ Nexys4、Vivado、SystemVerilog</p>
-</td>
-<td width="168">
-<p>LED、拨码开关</p>
-</td>
-</tr>
-<tr>
-<td width="68">
-<p>第2周</p>
-</td>
-<td width="357">
-<p>逻辑门、布尔代数+七段数码管</p>
-</td>
-<td width="168">
-<p>七段数码管</p>
-</td>
-</tr>
-<tr>
-<td width="68">
-<p>第3周</p>
-</td>
-<td width="357">
-<p>卡诺图+译码器、编码器</p>
-</td>
-<td width="168">
-<p>译码器、编码器</p>
-</td>
-</tr>
-<tr>
-<td width="68">
-<p>第4周</p>
-</td>
-<td width="357">
-<p>组合逻辑分析、设计+编码转换器</p>
-</td>
-<td width="168">
-<p>二进制转换为十进制</p>
-</td>
-</tr>
-<tr>
-<td width="68">
-<p>第5周</p>
-</td>
-<td width="357">
-<p>常用组合模块1+ALU</p>
-</td>
-<td width="168">
-<p>ALU</p>
-</td>
-</tr>
-<tr>
-<td width="68">
-<p>第6周</p>
-</td>
-<td width="357">
-<p>常用组合模块2+加法器</p>
-</td>
-<td width="168">
-<p>加法器</p>
-</td>
-</tr>
-<tr>
-<td width="68">
-<p>第7周</p>
-</td>
-<td width="357">
-<p><strong>期中考试</strong></p>
-</td>
-<td width="168">
-<p>IP核</p>
-</td>
-</tr>
-<tr>
-<td width="68">
-<p>第8周</p>
-</td>
-<td width="357">
-<p>锁存器、触发器+锁存器、触发器</p>
-</td>
-<td width="168">
-<p>触发器、移位寄存器</p>
-</td>
-</tr>
-<tr>
-<td width="68">
-<p>第9周</p>
-</td>
-<td width="357">
-<p>寄存器、计数器+寄存器、移位寄存器、计数器</p>
-</td>
-<td width="168">
-<p>计数器、数字钟</p>
-</td>
-</tr>
-<tr>
-<td width="68">
-<p>第10周</p>
-</td>
-<td width="357">
-<p>存储器、逻辑阵列+ROM、RAM</p>
-</td>
-<td width="168">
-<p>ROM、RAM、总线</p>
-</td>
-</tr>
-<tr>
-<td width="68">
-<p>第11周</p>
-</td>
-<td width="357">
-<p>时序逻辑分析+有限状态机</p>
-</td>
-<td width="168">
-<p>交通灯</p>
-</td>
-</tr>
-<tr>
-<td width="68">
-<p>第12周</p>
-</td>
-<td width="357">
-<p>时序逻辑设计+去抖、单脉冲电路</p>
-</td>
-<td width="168">
-<p>密码锁</p>
-</td>
-</tr>
-<tr>
-<td width="68">
-<p>第13周</p>
-</td>
-<td width="357">
-<p>数字系统设计+ VGA、图像显示</p>
-</td>
-<td width="168">
-<p>乒乓球游戏</p>
-</td>
-</tr>
-<tr>
-<td width="68">
-<p>第14周</p>
-</td>
-<td width="357">
-<p>汇编语言+声音播放、文字显示</p>
-</td>
-<td width="168">
-<p>单周期CPU</p>
-</td>
-</tr>
-<tr>
-<td width="68">
-<p>第15周</p>
-</td>
-<td width="357">
-<p>单周期CPU设计</p>
-</td>
-<td width="168">
-<p>单周期CPU</p>
-</td>
-</tr>
-<tr>
-<td width="68">
-<p>第16周</p>
-</td>
-<td width="357">
-<p>复习</p>
-</td>
-<td width="168">
-<p>单周期CPU</p>
-</td>
-</tr>
-</tbody>
-</table><h2>课程考核与成绩评定</h2><h2>教材</h2><h2>教学参考资料</h2><p>Morris Mano, 徐志军 译，数字设计与Verilog实现（第五版），电子工业出版社，2015.1</p>
+<!doctype html><html lang="zh-CN"><meta charset="utf-8"><title>数字逻辑与部件设计 · 孙晓光 · 2025秋 CS20008.02</title><style>body{max-width:1000px;margin:35px auto;padding:0 20px;font:16px/1.9 system-ui}table{border-collapse:collapse}td,th{border:1px solid #cad7cf;padding:8px}img{max-width:100%}</style><body><h1>数字逻辑与部件设计</h1><p>2025秋 · CS20008.02 · 孙晓光</p><p>来源：复旦教务系统教学班大纲。</p><h2>考核与成绩构成</h2><ul><li>作业/实验/实践Assignment 30.0% </li><li>期中考试Midterm Examination 30.0% </li><li>期末考试Final Examination：闭卷  40.0% </li></ul><h2>课程简介（中文）</h2><p>数字逻辑课程是计算机科学与技术等专业的核心基础课。讲授数字系统分析与设计的数学基础和基本逻辑单元，重点研究组合逻辑电路与时序逻辑电路的工作原理、分析方法和设计技术。课程强调逻辑抽象思维与硬件实现能力的培养，通过理论学习与实验实践相结合，使学生掌握使用基本逻辑部件构建复杂数字功能模块的能力。</p><h2>课程简介（英文）</h2><p>Digital Logic is a core foundational course for majors such as Computer Science and Technology. It teaches the mathematical basis (Boolean algebra) and fundamental logic units (gates) for digital system analysis and design, focusing on the working principles, analysis methods, and design techniques of combinational logic circuits and sequential logic circuits (e.g., flip-flops, registers, counters). The course emphasizes the development of abstract logical thinking and hardware implementation skills. By combining theoretical learning with experimental practice, it enables students to master the ability to construct complex digital function modules (such as adders, decoders, state machines) using basic logic components.</p><h2>教学目标</h2><p>课程旨在培养学生掌握数字系统分析与设计的核心基础。学生将深入理解布尔代数等数学工具，熟练认知基本逻辑门及其特性。课程着重培养学生对组合逻辑电路和时序逻辑电路（包含触发器、寄存器、计数器等）进行逻辑分析、功能设计和优化的能力。通过理论学习与实验实践紧密结合，学生将发展硬件抽象思维，提升数字系统设计素养，最终具备运用基本逻辑部件独立设计、实现并验证满足特定功能需求的复杂数字模块的工程实践能力，为后续计算机硬件相关课程奠定基础。</p><h2>教学方式</h2><p>课堂教学和实验教学混合方式进行。</p>
+<p>理论部分采用课堂授课方式进行；</p>
+<p>实验部分采用Xilinx Vivado软件和Nexys4开发板对各种电路进行设计、仿真和验证。</p><h2>教学内容与进度安排</h2><table width="593">
+<tbody>
+<tr>
+<td width="68">
+<p><strong>教学周</strong></p>
+</td>
+<td width="357">
+<p><strong>教学内容（理论</strong><strong>+</strong><strong>实验</strong><strong>）</strong></p>
+</td>
+<td width="168">
+<p><strong>实验内容</strong></p>
+</td>
+</tr>
+<tr>
+<td width="68">
+<p>第1周</p>
+</td>
+<td width="357">
+<p>简介、数制、码制+ Nexys4、Vivado、SystemVerilog</p>
+</td>
+<td width="168">
+<p>LED、拨码开关</p>
+</td>
+</tr>
+<tr>
+<td width="68">
+<p>第2周</p>
+</td>
+<td width="357">
+<p>逻辑门、布尔代数+七段数码管</p>
+</td>
+<td width="168">
+<p>七段数码管</p>
+</td>
+</tr>
+<tr>
+<td width="68">
+<p>第3周</p>
+</td>
+<td width="357">
+<p>卡诺图+译码器、编码器</p>
+</td>
+<td width="168">
+<p>译码器、编码器</p>
+</td>
+</tr>
+<tr>
+<td width="68">
+<p>第4周</p>
+</td>
+<td width="357">
+<p>组合逻辑分析、设计+编码转换器</p>
+</td>
+<td width="168">
+<p>二进制转换为十进制</p>
+</td>
+</tr>
+<tr>
+<td width="68">
+<p>第5周</p>
+</td>
+<td width="357">
+<p>常用组合模块1+ALU</p>
+</td>
+<td width="168">
+<p>ALU</p>
+</td>
+</tr>
+<tr>
+<td width="68">
+<p>第6周</p>
+</td>
+<td width="357">
+<p>常用组合模块2+加法器</p>
+</td>
+<td width="168">
+<p>加法器</p>
+</td>
+</tr>
+<tr>
+<td width="68">
+<p>第7周</p>
+</td>
+<td width="357">
+<p><strong>期中考试</strong></p>
+</td>
+<td width="168">
+<p>IP核</p>
+</td>
+</tr>
+<tr>
+<td width="68">
+<p>第8周</p>
+</td>
+<td width="357">
+<p>锁存器、触发器+锁存器、触发器</p>
+</td>
+<td width="168">
+<p>触发器、移位寄存器</p>
+</td>
+</tr>
+<tr>
+<td width="68">
+<p>第9周</p>
+</td>
+<td width="357">
+<p>寄存器、计数器+寄存器、移位寄存器、计数器</p>
+</td>
+<td width="168">
+<p>计数器、数字钟</p>
+</td>
+</tr>
+<tr>
+<td width="68">
+<p>第10周</p>
+</td>
+<td width="357">
+<p>存储器、逻辑阵列+ROM、RAM</p>
+</td>
+<td width="168">
+<p>ROM、RAM、总线</p>
+</td>
+</tr>
+<tr>
+<td width="68">
+<p>第11周</p>
+</td>
+<td width="357">
+<p>时序逻辑分析+有限状态机</p>
+</td>
+<td width="168">
+<p>交通灯</p>
+</td>
+</tr>
+<tr>
+<td width="68">
+<p>第12周</p>
+</td>
+<td width="357">
+<p>时序逻辑设计+去抖、单脉冲电路</p>
+</td>
+<td width="168">
+<p>密码锁</p>
+</td>
+</tr>
+<tr>
+<td width="68">
+<p>第13周</p>
+</td>
+<td width="357">
+<p>数字系统设计+ VGA、图像显示</p>
+</td>
+<td width="168">
+<p>乒乓球游戏</p>
+</td>
+</tr>
+<tr>
+<td width="68">
+<p>第14周</p>
+</td>
+<td width="357">
+<p>汇编语言+声音播放、文字显示</p>
+</td>
+<td width="168">
+<p>单周期CPU</p>
+</td>
+</tr>
+<tr>
+<td width="68">
+<p>第15周</p>
+</td>
+<td width="357">
+<p>单周期CPU设计</p>
+</td>
+<td width="168">
+<p>单周期CPU</p>
+</td>
+</tr>
+<tr>
+<td width="68">
+<p>第16周</p>
+</td>
+<td width="357">
+<p>复习</p>
+</td>
+<td width="168">
+<p>单周期CPU</p>
+</td>
+</tr>
+</tbody>
+</table><h2>课程考核与成绩评定</h2><h2>教材</h2><h2>教学参考资料</h2><p>Morris Mano, 徐志军 译，数字设计与Verilog实现（第五版），电子工业出版社，2015.1</p>
 <p><strong>康华光</strong>， 电子技术基础 数字部分（第7版），高等教育出版社，2021</p><h2>教学团队成员</h2><h2>教材与参考书</h2><p>戴维·莫尼·哈里斯；2016-04；9787111534518；数字设计和计算机体系结构（原书第2版）；机械工业出版社</p></body></html>

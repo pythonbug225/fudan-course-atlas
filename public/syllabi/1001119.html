@@ -1,101 +1,101 @@
-<!doctype html><html lang="zh-CN"><meta charset="utf-8"><title>并行计算与性能优化 · 唐渊 · 2025秋 CS40033.01</title><style>body{max-width:1000px;margin:35px auto;padding:0 20px;font:16px/1.9 system-ui}table{border-collapse:collapse}td,th{border:1px solid #cad7cf;padding:8px}img{max-width:100%}</style><body><h1>并行计算与性能优化</h1><p>2025秋 · CS40033.01 · 唐渊</p><p>来源：复旦教务系统教学班大纲。</p><h2>考核与成绩构成</h2><ul><li>作业/实验/实践Assignment 30.0% </li><li>期末考试Final Examination：闭卷  70.0% </li></ul><h2>课程简介（中文）</h2><p><strong>基本内容：</strong>现代计算系统的基本特点，与之相对应的并行计算模型、并行算法<strong>（侧重数值算法）</strong>与数据结构的设计与分析、并行编程方法、以及实现层面的性能优化技巧。关注国内高性能计算学术界的理论与实践的前沿。</p>
-<ul>
-<li><strong>现代计算系统的基本特点</strong>：包括但不限于，层次式/树状存储体系结构，流水线、超标量、向量化、以及多核/众核、GPU/NPU、分布式内存体系结构的区别与联系，。</li>
-<li><strong>基本并行编程方法</strong>：OpenMP, Pthreads, Cilk, MPI</li>
-<li><strong>并行计算模型：</strong>重点讲述传统计算模型中忽略的<strong>通信复杂度</strong>（单节点上的访存复杂度以及多节点间的通信带宽与次数）以及各类并行计算平台上的<strong>并行度</strong>（关键路径长度）。主要内容包括串行的理想缓存模型（ideal cache model，又称为缓存无关模型，cache-oblivious model），并行的处理器无关的工作量-时间模型（Processor-Oblivious work-time model；又称为work-span model, work-depth model, fork-join model, binary forking model等），并行的处理器相关的分布式理想存储模型（Processor-Aware distributed ideal-cache model），读/写非对称的存储模型（asymmetric memory model）等。</li>
-<li><strong>现代并行算法与数据结构：</strong>包括但不限于，在处理器无关（Processor-Oblivious）模型和在处理器相关（Processor-Aware）模型上的并行与通信优化，读/写非对称的优化算法等。</li>
-<li><strong>实现层面的性能优化技巧：</strong>包括但不限于，位运算、猜测式执行、无锁同步、确定性并行（deterministic parallelization）和非确定性并行（non-deterministic parallelization）等。</li>
-</ul>
-<p> </p>
-<p><strong>实验平台</strong>：本课程的主要实验平台是共享内存体系结构的多核服务器，但所介绍的理论和方法适用于从共享内存（可以有多个NUMA，多个NUMA之间可以在计算和通信的性能上具有异构性）到分布式内存、以及CPU+GPU/NPU的各类现代计算平台。这些不同的实验平台的区别主要在编程的接口以及究竟是由谁负责数据的传输（共享内存的多核编程接口简单且由系统（cache-coherence protocol &amp; cache-replacement policy）来负责数据传输，而GPU和分布式内存平台编程接口复杂且由程序自己负责数据的传输）。有条件的话会使用国产高性能计算平台作为实验平台，增强对国产高性能计算从硬件到软件的认同。有条件的情况下也会布置实验让同学们学习如何将同一个算法在不同计算平台上进行实现，体验算法的可移植性（Portable Performance）与可扩展性（Scalable Performance）。</p><h2>课程简介（英文）</h2><p><strong>Course Description:</strong></p>
-<p>This course provides an in-depth exploration of the fundamental characteristics of modern computing systems, corresponding parallel computing models, the design and analysis of parallel algorithms (with a focus on numerical algorithms) and data structures, parallel programming methodologies, and performance optimization techniques at the implementation level. It also emphasizes the theoretical and practical advancements in the field of high-performance computing (HPC) within China.</p>
-<h3>Key Topics:</h3>
-<ol>
-<li>
-<p><strong>Fundamental Characteristics of Modern Computing Systems</strong></p>
-<ul>
-<li>Includes but is not limited to hierarchical/tree-structured memory architectures, pipelining, superscalar processing, vectorization, multi-core/many-core architectures, GPU/NPU systems, and distinctions and connections between distributed memory architectures.</li>
-</ul>
-</li>
-<li>
-<p><strong>Basic Parallel Programming Methods</strong></p>
-<ul>
-<li>OpenMP, Pthreads, Cilk, MPI.</li>
-</ul>
-</li>
-<li>
-<p><strong>Parallel Computing Models</strong></p>
-<ul>
-<li>Focuses on communication complexity, often overlooked in traditional computational models, including memory access complexity within single nodes and communication bandwidth and frequency across multiple nodes.</li>
-<li>Key models discussed include:
-<ul>
-<li>Serial ideal cache model (also known as the cache-oblivious model).</li>
-<li>Parallel processor-oblivious work-time model (also known as the work-span model, work-depth model, fork-join model, binary forking model, etc.).</li>
-<li>Parallel processor-aware distributed ideal-cache model.</li>
-<li>Asymmetric memory models (read/write asymmetry).</li>
-</ul>
-</li>
-</ul>
-</li>
-<li>
-<p><strong>Modern Parallel Algorithms and Data Structures</strong></p>
-<ul>
-<li>Includes, but is not limited to:
-<ul>
-<li>Parallel and communication-optimized algorithms in processor-oblivious and processor-aware models.</li>
-<li>Optimization algorithms for read/write asymmetry.</li>
-</ul>
-</li>
-</ul>
-</li>
-<li>
-<p><strong>Performance Optimization Techniques at the Implementation Level</strong></p>
-<ul>
-<li>Includes, but is not limited to:
-<ul>
-<li>Bitwise operations, speculative execution, lock-free synchronization, deterministic parallelization, and non-deterministic parallelization.</li>
-</ul>
-</li>
-</ul>
-</li>
-</ol>
-<h3>Experimental Platform:</h3>
-<p>The primary experimental platform for this course is shared-memory multi-core servers. However, the theories and methodologies introduced are applicable to a wide range of modern computing platforms, from shared memory systems (which may include multiple NUMA nodes with heterogeneous compute and communication performance across NUMAs) to distributed memory systems and CPU+GPU/NPU architectures.</p>
-<ul>
-<li>
-<p><strong>Key Differences Across Platforms</strong>:</p>
-<ul>
-<li>Shared-memory multi-core programming interfaces are relatively simple, with data transfer managed by the system (cache-coherence protocol &amp; cache-replacement policy).</li>
-<li>Programming interfaces for GPU and distributed memory platforms are more complex, requiring the programmer to explicitly handle data transfers.</li>
-</ul>
-</li>
-<li>
-<p><strong>Use of Domestic HPC Platforms</strong>:</p>
-<ul>
-<li>When feasible, domestic high-performance computing platforms will be used as experimental platforms to foster an appreciation for the integration of hardware and software in domestic HPC systems.</li>
-</ul>
-</li>
-<li>
-<p><strong>Cross-Platform Algorithm Implementation</strong>:</p>
-<ul>
-<li>Students may also be assigned experiments to implement the same algorithm across different computing platforms, thereby experiencing algorithm portability (portable performance) and scalability (scalable performance).</li>
-</ul>
-</li>
-</ul><h2>教学目标</h2><p>通过本课程的学习，让学生了解和掌握现代计算系统上的计算方法，从理论到实践。特别的，针对现代计算平台的超大规模并行性以及层次式树状的存储/网络结构，学习如何对任意多个处理器节点达到性能上的最优扩展（Optimal Scaling），以及如何在各类现代计算平台（包括但不限于，共享内存（可以有多个NUMA，多个NUMA之间的计算和通信性能可以有一定的异构性）、分布式内存、CPU+GPU/NPU异构系统等）上达到性能可移植（Portable Performance）与性能可扩展（Scalable Performance）。特别关注如何在国产高性能计算平台（比如华为的鲲鹏CPU或昇腾NPU）上达到最优扩展，解决卡脖子问题，培养国家自豪感。</p><h2>教学方式</h2><p>课堂讲授，课后习题与实验（lab）。</p><h2>教学内容与进度安排</h2><ol>
-<li>课程简介、以矩阵乘法为例，介绍从算法到实现的逐层优化。</li>
-<li>传统的，常用的性能编程技巧，Bentley’s Rule；位运算技巧；计算机体系结构与性能优化的关系。了解流水线，超标量，向量化，共享内存的多核/众核CPU系统（可以有多个NUMA，多个NUMA之间在计算和通信的性能上可以有一定的异构性）、CPU+GPU/NPU的异构系统、分布式内存体系结构之间的区别与联系，以及与算法设计、性能优化的关系</li>
-<li>多核处理器上的多线程编程技术，简介PThreads, OpenMP, Intel TBB, Cilk等主流的多线程编程语言及工具，分析各自的优缺点。竞争（race）与（处理器无关模型上的）并行度的量化计算，包括Amdahl’s Law，Work Law，Span Law</li>
-<li>多线程算法的分析与实例。包括递归与循环程序结构。以矩阵乘法、归并排序、最长公共子序列等问题为例。</li>
-<li>并行算法的基本组件（basic building blocks）：scan, filter, flattern, search, merge，k-th smallest, etc.</li>
-<li>了解现代计算机系统的层次式存储体系结构，并行程序内存分配的基本方法，栈、堆、TLS（Thread-Local Storage）的区别以及在并行程序中的应用；</li>
-<li>缓存优化算法（cache-efficient algorithms）：介绍理想缓存模型、competitive analysis，</li>
-<li>程序的通信复杂度（访存复杂度）的分析：以矩阵乘法为例，说明为什么分块的矩阵乘法不是一个好的算法；常用排序算法的通信复杂度（2-way mergesort, M/B-way mergesort），B-tree</li>
-<li>缓存无关算法（Cache-Oblivious Algorithms）I：Scanning, Reversal, Permute, Median Finding, Stencil, Sorting (Funnel Sort, Distribution Sort), static searching (Binary, B-tree, van Emde Boas)</li>
-<li>缓存无关算法（Cache-Oblivious Algorithms）II：Dynamic Search Trees, Ordered File Maintenance (OFM), List Labeling, Cache-Oblivious Priority Queue</li>
-<li>各类并行排序算法：merge sort, quick sort, sample sort, integer sort, semi-sort</li>
-<li>并行数值算法：Cholesky Decomposition, TRSM, LU Decomposition</li>
-<li>并行图算法：BFS and Low Diameter Decomposition</li>
-<li>运行时调度（runtime scheduling）：Randomized Work-Stealing及相关理论</li>
-<li>同步优化技巧，包括无锁同步，Peterson’s Algorithm</li>
-<li>猜测式并行编程技术（Speculative Parallelism）：运用于象棋程序的alpha-beta剪枝，运用于围棋AlphaGo的MCMC（Markov Chain Monte Carlo）</li>
+<!doctype html><html lang="zh-CN"><meta charset="utf-8"><title>并行计算与性能优化 · 唐渊 · 2025秋 CS40033.01</title><style>body{max-width:1000px;margin:35px auto;padding:0 20px;font:16px/1.9 system-ui}table{border-collapse:collapse}td,th{border:1px solid #cad7cf;padding:8px}img{max-width:100%}</style><body><h1>并行计算与性能优化</h1><p>2025秋 · CS40033.01 · 唐渊</p><p>来源：复旦教务系统教学班大纲。</p><h2>考核与成绩构成</h2><ul><li>作业/实验/实践Assignment 30.0% </li><li>期末考试Final Examination：闭卷  70.0% </li></ul><h2>课程简介（中文）</h2><p><strong>基本内容：</strong>现代计算系统的基本特点，与之相对应的并行计算模型、并行算法<strong>（侧重数值算法）</strong>与数据结构的设计与分析、并行编程方法、以及实现层面的性能优化技巧。关注国内高性能计算学术界的理论与实践的前沿。</p>
+<ul>
+<li><strong>现代计算系统的基本特点</strong>：包括但不限于，层次式/树状存储体系结构，流水线、超标量、向量化、以及多核/众核、GPU/NPU、分布式内存体系结构的区别与联系，。</li>
+<li><strong>基本并行编程方法</strong>：OpenMP, Pthreads, Cilk, MPI</li>
+<li><strong>并行计算模型：</strong>重点讲述传统计算模型中忽略的<strong>通信复杂度</strong>（单节点上的访存复杂度以及多节点间的通信带宽与次数）以及各类并行计算平台上的<strong>并行度</strong>（关键路径长度）。主要内容包括串行的理想缓存模型（ideal cache model，又称为缓存无关模型，cache-oblivious model），并行的处理器无关的工作量-时间模型（Processor-Oblivious work-time model；又称为work-span model, work-depth model, fork-join model, binary forking model等），并行的处理器相关的分布式理想存储模型（Processor-Aware distributed ideal-cache model），读/写非对称的存储模型（asymmetric memory model）等。</li>
+<li><strong>现代并行算法与数据结构：</strong>包括但不限于，在处理器无关（Processor-Oblivious）模型和在处理器相关（Processor-Aware）模型上的并行与通信优化，读/写非对称的优化算法等。</li>
+<li><strong>实现层面的性能优化技巧：</strong>包括但不限于，位运算、猜测式执行、无锁同步、确定性并行（deterministic parallelization）和非确定性并行（non-deterministic parallelization）等。</li>
+</ul>
+<p> </p>
+<p><strong>实验平台</strong>：本课程的主要实验平台是共享内存体系结构的多核服务器，但所介绍的理论和方法适用于从共享内存（可以有多个NUMA，多个NUMA之间可以在计算和通信的性能上具有异构性）到分布式内存、以及CPU+GPU/NPU的各类现代计算平台。这些不同的实验平台的区别主要在编程的接口以及究竟是由谁负责数据的传输（共享内存的多核编程接口简单且由系统（cache-coherence protocol &amp; cache-replacement policy）来负责数据传输，而GPU和分布式内存平台编程接口复杂且由程序自己负责数据的传输）。有条件的话会使用国产高性能计算平台作为实验平台，增强对国产高性能计算从硬件到软件的认同。有条件的情况下也会布置实验让同学们学习如何将同一个算法在不同计算平台上进行实现，体验算法的可移植性（Portable Performance）与可扩展性（Scalable Performance）。</p><h2>课程简介（英文）</h2><p><strong>Course Description:</strong></p>
+<p>This course provides an in-depth exploration of the fundamental characteristics of modern computing systems, corresponding parallel computing models, the design and analysis of parallel algorithms (with a focus on numerical algorithms) and data structures, parallel programming methodologies, and performance optimization techniques at the implementation level. It also emphasizes the theoretical and practical advancements in the field of high-performance computing (HPC) within China.</p>
+<h3>Key Topics:</h3>
+<ol>
+<li>
+<p><strong>Fundamental Characteristics of Modern Computing Systems</strong></p>
+<ul>
+<li>Includes but is not limited to hierarchical/tree-structured memory architectures, pipelining, superscalar processing, vectorization, multi-core/many-core architectures, GPU/NPU systems, and distinctions and connections between distributed memory architectures.</li>
+</ul>
+</li>
+<li>
+<p><strong>Basic Parallel Programming Methods</strong></p>
+<ul>
+<li>OpenMP, Pthreads, Cilk, MPI.</li>
+</ul>
+</li>
+<li>
+<p><strong>Parallel Computing Models</strong></p>
+<ul>
+<li>Focuses on communication complexity, often overlooked in traditional computational models, including memory access complexity within single nodes and communication bandwidth and frequency across multiple nodes.</li>
+<li>Key models discussed include:
+<ul>
+<li>Serial ideal cache model (also known as the cache-oblivious model).</li>
+<li>Parallel processor-oblivious work-time model (also known as the work-span model, work-depth model, fork-join model, binary forking model, etc.).</li>
+<li>Parallel processor-aware distributed ideal-cache model.</li>
+<li>Asymmetric memory models (read/write asymmetry).</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p><strong>Modern Parallel Algorithms and Data Structures</strong></p>
+<ul>
+<li>Includes, but is not limited to:
+<ul>
+<li>Parallel and communication-optimized algorithms in processor-oblivious and processor-aware models.</li>
+<li>Optimization algorithms for read/write asymmetry.</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p><strong>Performance Optimization Techniques at the Implementation Level</strong></p>
+<ul>
+<li>Includes, but is not limited to:
+<ul>
+<li>Bitwise operations, speculative execution, lock-free synchronization, deterministic parallelization, and non-deterministic parallelization.</li>
+</ul>
+</li>
+</ul>
+</li>
+</ol>
+<h3>Experimental Platform:</h3>
+<p>The primary experimental platform for this course is shared-memory multi-core servers. However, the theories and methodologies introduced are applicable to a wide range of modern computing platforms, from shared memory systems (which may include multiple NUMA nodes with heterogeneous compute and communication performance across NUMAs) to distributed memory systems and CPU+GPU/NPU architectures.</p>
+<ul>
+<li>
+<p><strong>Key Differences Across Platforms</strong>:</p>
+<ul>
+<li>Shared-memory multi-core programming interfaces are relatively simple, with data transfer managed by the system (cache-coherence protocol &amp; cache-replacement policy).</li>
+<li>Programming interfaces for GPU and distributed memory platforms are more complex, requiring the programmer to explicitly handle data transfers.</li>
+</ul>
+</li>
+<li>
+<p><strong>Use of Domestic HPC Platforms</strong>:</p>
+<ul>
+<li>When feasible, domestic high-performance computing platforms will be used as experimental platforms to foster an appreciation for the integration of hardware and software in domestic HPC systems.</li>
+</ul>
+</li>
+<li>
+<p><strong>Cross-Platform Algorithm Implementation</strong>:</p>
+<ul>
+<li>Students may also be assigned experiments to implement the same algorithm across different computing platforms, thereby experiencing algorithm portability (portable performance) and scalability (scalable performance).</li>
+</ul>
+</li>
+</ul><h2>教学目标</h2><p>通过本课程的学习，让学生了解和掌握现代计算系统上的计算方法，从理论到实践。特别的，针对现代计算平台的超大规模并行性以及层次式树状的存储/网络结构，学习如何对任意多个处理器节点达到性能上的最优扩展（Optimal Scaling），以及如何在各类现代计算平台（包括但不限于，共享内存（可以有多个NUMA，多个NUMA之间的计算和通信性能可以有一定的异构性）、分布式内存、CPU+GPU/NPU异构系统等）上达到性能可移植（Portable Performance）与性能可扩展（Scalable Performance）。特别关注如何在国产高性能计算平台（比如华为的鲲鹏CPU或昇腾NPU）上达到最优扩展，解决卡脖子问题，培养国家自豪感。</p><h2>教学方式</h2><p>课堂讲授，课后习题与实验（lab）。</p><h2>教学内容与进度安排</h2><ol>
+<li>课程简介、以矩阵乘法为例，介绍从算法到实现的逐层优化。</li>
+<li>传统的，常用的性能编程技巧，Bentley’s Rule；位运算技巧；计算机体系结构与性能优化的关系。了解流水线，超标量，向量化，共享内存的多核/众核CPU系统（可以有多个NUMA，多个NUMA之间在计算和通信的性能上可以有一定的异构性）、CPU+GPU/NPU的异构系统、分布式内存体系结构之间的区别与联系，以及与算法设计、性能优化的关系</li>
+<li>多核处理器上的多线程编程技术，简介PThreads, OpenMP, Intel TBB, Cilk等主流的多线程编程语言及工具，分析各自的优缺点。竞争（race）与（处理器无关模型上的）并行度的量化计算，包括Amdahl’s Law，Work Law，Span Law</li>
+<li>多线程算法的分析与实例。包括递归与循环程序结构。以矩阵乘法、归并排序、最长公共子序列等问题为例。</li>
+<li>并行算法的基本组件（basic building blocks）：scan, filter, flattern, search, merge，k-th smallest, etc.</li>
+<li>了解现代计算机系统的层次式存储体系结构，并行程序内存分配的基本方法，栈、堆、TLS（Thread-Local Storage）的区别以及在并行程序中的应用；</li>
+<li>缓存优化算法（cache-efficient algorithms）：介绍理想缓存模型、competitive analysis，</li>
+<li>程序的通信复杂度（访存复杂度）的分析：以矩阵乘法为例，说明为什么分块的矩阵乘法不是一个好的算法；常用排序算法的通信复杂度（2-way mergesort, M/B-way mergesort），B-tree</li>
+<li>缓存无关算法（Cache-Oblivious Algorithms）I：Scanning, Reversal, Permute, Median Finding, Stencil, Sorting (Funnel Sort, Distribution Sort), static searching (Binary, B-tree, van Emde Boas)</li>
+<li>缓存无关算法（Cache-Oblivious Algorithms）II：Dynamic Search Trees, Ordered File Maintenance (OFM), List Labeling, Cache-Oblivious Priority Queue</li>
+<li>各类并行排序算法：merge sort, quick sort, sample sort, integer sort, semi-sort</li>
+<li>并行数值算法：Cholesky Decomposition, TRSM, LU Decomposition</li>
+<li>并行图算法：BFS and Low Diameter Decomposition</li>
+<li>运行时调度（runtime scheduling）：Randomized Work-Stealing及相关理论</li>
+<li>同步优化技巧，包括无锁同步，Peterson’s Algorithm</li>
+<li>猜测式并行编程技术（Speculative Parallelism）：运用于象棋程序的alpha-beta剪枝，运用于围棋AlphaGo的MCMC（Markov Chain Monte Carlo）</li>
 </ol><h2>课程考核与成绩评定</h2><h2>教材</h2><h2>教学参考资料</h2><h2>教学团队成员</h2></body></html>
