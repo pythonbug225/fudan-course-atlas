@@ -7,7 +7,9 @@ const req=(body,key=fixtureKey)=>new Request('https://atlas.test/api/compass/mod
 test('invalid model credentials and oversized conversations never call the provider',async()=>{
  const old=globalThis.fetch;globalThis.fetch=()=>{throw Error('provider must not be called');};
  try{
-  assert.equal((await forwardDeepSeek(req({messages:[]},''))).status,400);
+  const invalid=req({messages:[]},'');
+  assert.equal((await forwardDeepSeek(invalid)).status,400);
+  assert.equal(invalid.bodyUsed,true,'an early error must finish the incoming request body');
   assert.equal((await forwardDeepSeek(req({messages:[]}))).status,400);
   assert.equal((await forwardDeepSeek(req('x'.repeat(256*1024+1)))).status,413);
  }finally{globalThis.fetch=old;}
