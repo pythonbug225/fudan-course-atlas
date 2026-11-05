@@ -1,6 +1,11 @@
 {
-  "version": "20261106-compass-v1",
+  "version": "20261106-compass-v2",
   "fallbackVersions": [
+    "20261106-compass-v1",
     "20261105-student-v1"
-  ]
+  ],
+  "reuseManifest": {
+    "version": "20261106-compass-v1",
+    "sha256": "cb179310bed447c1e1461ae01a371ec1254847c4c6545e76b09f2352e62ab586"
+  }
 }

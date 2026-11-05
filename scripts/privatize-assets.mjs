@@ -1,7 +1,8 @@
 import fs from 'node:fs/promises';
 import path from 'node:path';
 import crypto from 'node:crypto';
-const {version}=JSON.parse(await fs.readFile(new URL('../lib/private-assets-config.json',import.meta.url),'utf8'));
+const config=JSON.parse(await fs.readFile(new URL('../lib/private-assets-config.json',import.meta.url),'utf8'));
+const {version}=config;
 const root=path.resolve('dist/client'),out=path.resolve('.sites-runtime/private-assets',version);
 await fs.mkdir(out,{recursive:true});
 const publicFiles=new Set(['login.html','assets/student-login.js','assets/student-login.css']);
@@ -17,6 +18,25 @@ for(const file of files){const relative=path.relative(root,file).split(path.sep)
  await handle.writeFile(bytes);hash.update(bytes);size+=bytes.length;
  if(!file.startsWith(root+path.sep))throw Error('Asset path escaped build root');await fs.unlink(file);
 }
-await finish();await fs.writeFile(path.join(out,'manifest.json'),JSON.stringify(manifest));
+await finish();
+// Reuse only a published manifest pinned by SHA256; missing local baselines produce a full pack set.
+let reused=0;
+if(config.reuseManifest&&config.fallbackVersions?.includes(config.reuseManifest.version)){
+ const baselinePath=path.resolve('.sites-runtime/private-assets',config.reuseManifest.version,'manifest.json');
+ try{
+  const raw=await fs.readFile(baselinePath);
+  if(crypto.createHash('sha256').update(raw).digest('hex')!==config.reuseManifest.sha256)throw Error('Published baseline checksum mismatch');
+  const baseline=JSON.parse(raw);if(baseline.version!==config.reuseManifest.version)throw Error('Published baseline version mismatch');
+  const shared=new Set(manifest.packs.filter(p=>Object.entries(manifest.files).filter(([,entry])=>entry.pack===p.name).every(([name,entry])=>{
+   const old=baseline.files[name],oldPack=old&&baseline.packs.find(pack=>pack.name===old.pack);
+   return old&&old.offset===entry.offset&&old.size===entry.size&&old.type===entry.type&&oldPack?.sha256===p.sha256&&oldPack.size===p.size;
+  })).map(p=>p.name));
+  for(const [name,entry]of Object.entries(manifest.files))if(shared.has(entry.pack)){delete manifest.files[name];reused++;}
+  for(const name of shared)await fs.unlink(path.join(out,name));
+  manifest.packs=manifest.packs.filter(p=>!shared.has(p.name));
+ }catch(error){if(error.code!=='ENOENT')throw error;}
+}
+if(reused)console.log('Reused '+reused+' unchanged private files from the pinned published version.');
+await fs.writeFile(path.join(out,'manifest.json'),JSON.stringify(manifest));
 const remaining=await walk(root);if(remaining.some(f=>!publicFiles.has(path.relative(root,f).split(path.sep).join('/'))))throw Error('A private asset remains publicly deployable');
 console.log('Private assets: '+Object.keys(manifest.files).length+' files in '+manifest.packs.length+' packs. Public build contains only login assets. Import directory: '+out);

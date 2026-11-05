@@ -290,3 +290,5 @@ python scripts/build_search.py
 完整构建最后运行 `privatize-assets.mjs`，公开静态文件仅有登录页和两份登录资源。分卷与目录位于忽略提交的 `.sites-runtime/private-assets/<版本>/`。更新 `lib/private-assets-config.json` 的版本后，在 `/admin-assets` 导入；目录先暂存，全部分卷校验后才发布。发布前继续读取上一版本，避免迁移时中断阅读。
 
 自动发布任务可由站点所有者临时配置 secret `PRIVATE_ASSET_PUBLISH_KEY`。任务只允许导入当前版本、查看完整性和完成发布，最长一小时。首次目录上传绑定其哈希；完成发布即在 D1 撤销任务，旧密钥即使仍存在于运行实例也会被拒绝，随后移除环境变量。密钥、用户数据及本机分卷不提交到 Git。
+
+私有资料更新支持复用已发布分卷：本地基线清单必须匹配配置中固定的 SHA256，文件路径、偏移、大小、类型和分卷哈希也须一致。基线缺失时构建完整分卷。每次发布使用新版本编号，并保留旧版作为读取后备。`node scripts/publish-private-assets.mjs` 接收隐藏标准输入 JSON（`base`、`directory`、`key`），需要 Python 3；发布密钥只放运行时 secret，完成后即撤销并移除。
