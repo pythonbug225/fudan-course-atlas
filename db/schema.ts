@@ -24,3 +24,25 @@ export const pointEvents=sqliteTable('point_events',{
  uniqueIndex('point_events_user_event').on(t.userId,t.eventKey),
  index('point_events_user_created').on(t.userId,t.createdAt),
 ]);
+
+export const compassProfiles = sqliteTable('compass_profiles', {
+ userId: text('user_id').primaryKey(),
+ activeSnapshotId: text('active_snapshot_id'),
+ version: integer('version').notNull().default(0),
+ updatedAt: text('updated_at').notNull(),
+});
+
+export const compassSnapshots = sqliteTable('compass_snapshots', {
+ snapshotId: text('snapshot_id').primaryKey(),
+ userId: text('user_id').notNull(),
+ label: text('label').notNull(),
+ stateJson: text('state_json').notNull(),
+ version: integer('version').notNull().default(1),
+ source: text('source').notNull(),
+ importKey: text('import_key'),
+ createdAt: text('created_at').notNull(),
+ updatedAt: text('updated_at').notNull(),
+}, t => [
+ index('compass_snapshots_user_updated').on(t.userId, t.updatedAt),
+ uniqueIndex('compass_snapshots_user_import').on(t.userId, t.importKey),
+]);
