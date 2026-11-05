@@ -1,251 +1,251 @@
-<!doctype html><html lang="zh-CN"><meta charset="utf-8"><title>机器学习 · 池明旻 · 2025秋 CS60013.01</title><style>body{max-width:1000px;margin:35px auto;padding:0 20px;font:16px/1.9 system-ui}table{border-collapse:collapse}td,th{border:1px solid #cad7cf;padding:8px}img{max-width:100%}</style><body><h1>机器学习</h1><p>2025秋 · CS60013.01 · 池明旻</p><p>来源：复旦教务系统教学班大纲。</p><h2>考核与成绩构成</h2><ul><li>期中考试Midterm Examination 20.0% 选题背景，相关工作调研，技术路线阐述。</li><li>期末考试Final Examination：口试  50.0% 相关工作最新研究进展完善，解决问题和对应机器学习算法解决方案，以及对应实验结果（包含baseline、sota以及自己的解决方案对应结果）。</li><li>课题论文Research Paper 30.0% 论文撰写：摘要，工作动机（introduction），相关工作，解决方案，实验结果及总结和展望。</li></ul><h2>课程简介（中文）</h2><p>本课程介绍一系列人工智能的基础算法，主要介绍监督学习中的线性分类算法以及非线性的求解问题和非监督学习中的聚类和降维问题，特别深度学习的基础理论和最新进展（包括大模型），并向学生解释这些方法内在的本质和联系，并可以应用于各个领域数据分析，例如工业智能、金融科技、计算机视觉等，了解人工智能的在国内外发展现状与趋势，培养学生的创新创业能力。</p><h2>课程简介（英文）</h2><p>This course introduces a series of fundamental artificial intelligence algorithms, focusing primarily on ‌<strong>linear classification algorithms in supervised learning</strong>‌ and ‌<strong>methods for solving nonlinear problems</strong>‌, as well as ‌<strong>clustering and dimensionality reduction in unsupervised learning</strong>‌. It particularly covers the ‌<strong>theoretical foundations and cutting-edge advancements in deep learning</strong>‌, including ‌<strong>large-scale models</strong>‌. The course explains the ‌<strong>intrinsic nature and connections</strong>‌ among these methodologies and enables their application across diverse fields such as ‌<strong>industrial intelligence, fintech, and computer vision</strong>‌. Students will gain insight into the ‌<strong>current development and trends of AI both domestically and internationally</strong>‌, while cultivating their ‌<strong>innovation and entrepreneurial capabilities</strong>‌.</p><h2>教学目标</h2><p>通过学习该课程，学生将系统掌握机器学习核心方法（包括监督学习中的线性/非线性算法、无监督学习的聚类与降维技术，以及深度学习中卷积神经网络、Transformer及其在实际工作中的应用，以及大语言模型的基础、拓展及应用等），并理解其数学本质与跨领域关联性。</p><h2>教学方式</h2><p><strong>混合式学习法：理论加实践相结合：</strong></p>
-<p><strong>（1）前7周通过讲授奠定基础理论，同步布置论文选题； <br>（2）中期提交论文选题并分组； <br>（3）再补充机器学习的最新进展，包括大模型等，同步聚焦论文方案的可行性讨论，教师针对性补充解决方案。</strong></p><h2>教学内容与进度安排</h2><table>
-<tbody>
-<tr>
-<td width="67">
-<p><strong>课次</strong></p>
-<p>No.</p>
-</td>
-<td width="510">
-<p><strong>教学内容</strong><strong> </strong></p>
-<p>Content </p>
-</td>
-<td width="99"> </td>
-</tr>
-<tr>
-<td width="67">
-<p>1</p>
-</td>
-<td width="510">
-<p>Introduction to machine learning</p>
-</td>
-<td width="99"> </td>
-</tr>
-<tr>
-<td width="67">
-<p>2</p>
-</td>
-<td width="510">
-<p>Linear regression and its extensions</p>
-</td>
-<td width="99"> </td>
-</tr>
-<tr>
-<td width="67">
-<p>3</p>
-</td>
-<td width="510">
-<p>Logistic Regression（LR）， Perceptron</p>
-</td>
-<td width="99"> </td>
-</tr>
-<tr>
-<td width="67">
-<p>4</p>
-</td>
-<td width="510">
-<p>Support Vector Machine (SVM), Multi-Layer Perceptron Neural Network (MLP-NN)</p>
-</td>
-<td width="99"> </td>
-</tr>
-<tr>
-<td width="67">
-<p>5</p>
-</td>
-<td width="510">
-<p>卷积神经网络CNN基础</p>
-</td>
-<td width="99"> </td>
-</tr>
-<tr>
-<td width="67">
-<p>6</p>
-</td>
-<td width="510">
-<p>CNN应用，如目标检测、语义分割等</p>
-</td>
-<td width="99"> </td>
-</tr>
-<tr>
-<td width="67">
-<p>7</p>
-</td>
-<td width="510">
-<p>无监督学习: k-Means,高斯混合模型 gmm,主成分分析PCA，</p>
-</td>
-<td width="99"> </td>
-</tr>
-<tr>
-<td width="67">
-<p>8</p>
-</td>
-<td width="510">
-<p>期中考试：论文选题和分组</p>
-</td>
-<td width="99"> </td>
-</tr>
-<tr>
-<td width="67">
-<p>9</p>
-</td>
-<td width="510">
-<p>迭代神经网络RNNs；自注意机制</p>
-</td>
-<td width="99"> </td>
-</tr>
-<tr>
-<td width="67">
-<p>10</p>
-</td>
-<td width="510">
-<p>Transformer基础及应用</p>
-</td>
-<td width="99"> </td>
-</tr>
-<tr>
-<td width="67">
-<p>11</p>
-</td>
-<td width="510">
-<p>（深度）增强学习 （DL）</p>
-</td>
-<td width="99"> </td>
-</tr>
-<tr>
-<td width="67">
-<p>12</p>
-</td>
-<td width="510">
-<p>（深度）编解码器</p>
-</td>
-<td width="99"> </td>
-</tr>
-<tr>
-<td width="67">
-<p>13</p>
-</td>
-<td width="510">
-<p>生成模型：Generative Adversarial Network (GAN) 和扩散模型</p>
-</td>
-<td width="99"> </td>
-</tr>
-<tr>
-<td width="67">
-<p>14</p>
-</td>
-<td width="510">
-<p>（多模态）大模型</p>
-</td>
-<td width="99"> </td>
-</tr>
-<tr>
-<td width="67">
-<p>15</p>
-</td>
-<td width="510">
-<p>期末课题汇报1</p>
-</td>
-<td width="99"> </td>
-</tr>
-<tr>
-<td width="67">
-<p>16</p>
-</td>
-<td width="510">
-<p>期末课题汇报2</p>
-</td>
-<td width="99"> </td>
-</tr>
-</tbody>
-</table><h2>课程考核与成绩评定</h2><h2>教材</h2><h2>教学参考资料</h2><table>
-<tbody>
-<tr>
-<td width="67">
-<p><strong>序号</strong></p>
-<p>No.</p>
-</td>
-<td width="260">
-<p><strong>名称</strong></p>
-<p>Title</p>
-</td>
-<td width="184">
-<p><strong>主编/</strong><strong>作者</strong></p>
-<p>Author(s)</p>
-</td>
-<td width="122">
-<p><strong>标准书号</strong></p>
-<p>ISBN</p>
-</td>
-<td width="148">
-<p><strong>出版机构</strong></p>
-<p>Publisher</p>
-</td>
-<td width="173">
-<p><strong>出版日期</strong></p>
-<p>Publication Date</p>
-</td>
-</tr>
-<tr>
-<td width="67">
-<p><strong>1</strong></p>
-</td>
-<td width="260">
-<p>Pattern Recognition and Machine Learning</p>
-</td>
-<td width="184">
-<p>Christopher M. Bishop</p>
-</td>
-<td width="122">
-<p> </p>
-</td>
-<td width="148">
-<p>Springer</p>
-</td>
-<td width="173">
-<p>2006</p>
-</td>
-</tr>
-<tr>
-<td width="67">
-<p><strong>2</strong></p>
-</td>
-<td width="260">
-<p>Deep Learning</p>
-</td>
-<td width="184">
-<p> Ian Goodfellow, Yoshua Bengio and Aaron Courvill</p>
-</td>
-<td width="122">
-<p> </p>
-</td>
-<td width="148">
-<p>MIT Press</p>
-<p> </p>
-</td>
-<td width="173">
-<p>2016</p>
-</td>
-</tr>
-<tr>
-<td width="67">
-<p><strong>3</strong></p>
-</td>
-<td width="260">
-<p>Hands-On Machine Learning with Scikit-Learn, Keras, and TensorFlow: Concepts, Tools, and Techniques to Build Intelligent Systems （2nd Ed）</p>
-<p> </p>
-</td>
-<td width="184">
-<p>Aurélien Géron </p>
-</td>
-<td width="122">
-<p> </p>
-</td>
-<td width="148">
-<p>O&#x27;Reilly Media</p>
-</td>
-<td width="173">
-<p>2019</p>
-</td>
-</tr>
-</tbody>
+<!doctype html><html lang="zh-CN"><meta charset="utf-8"><title>机器学习 · 池明旻 · 2025秋 CS60013.01</title><style>body{max-width:1000px;margin:35px auto;padding:0 20px;font:16px/1.9 system-ui}table{border-collapse:collapse}td,th{border:1px solid #cad7cf;padding:8px}img{max-width:100%}</style><body><h1>机器学习</h1><p>2025秋 · CS60013.01 · 池明旻</p><p>来源：复旦教务系统教学班大纲。</p><h2>考核与成绩构成</h2><ul><li>期中考试Midterm Examination 20.0% 选题背景，相关工作调研，技术路线阐述。</li><li>期末考试Final Examination：口试  50.0% 相关工作最新研究进展完善，解决问题和对应机器学习算法解决方案，以及对应实验结果（包含baseline、sota以及自己的解决方案对应结果）。</li><li>课题论文Research Paper 30.0% 论文撰写：摘要，工作动机（introduction），相关工作，解决方案，实验结果及总结和展望。</li></ul><h2>课程简介（中文）</h2><p>本课程介绍一系列人工智能的基础算法，主要介绍监督学习中的线性分类算法以及非线性的求解问题和非监督学习中的聚类和降维问题，特别深度学习的基础理论和最新进展（包括大模型），并向学生解释这些方法内在的本质和联系，并可以应用于各个领域数据分析，例如工业智能、金融科技、计算机视觉等，了解人工智能的在国内外发展现状与趋势，培养学生的创新创业能力。</p><h2>课程简介（英文）</h2><p>This course introduces a series of fundamental artificial intelligence algorithms, focusing primarily on ‌<strong>linear classification algorithms in supervised learning</strong>‌ and ‌<strong>methods for solving nonlinear problems</strong>‌, as well as ‌<strong>clustering and dimensionality reduction in unsupervised learning</strong>‌. It particularly covers the ‌<strong>theoretical foundations and cutting-edge advancements in deep learning</strong>‌, including ‌<strong>large-scale models</strong>‌. The course explains the ‌<strong>intrinsic nature and connections</strong>‌ among these methodologies and enables their application across diverse fields such as ‌<strong>industrial intelligence, fintech, and computer vision</strong>‌. Students will gain insight into the ‌<strong>current development and trends of AI both domestically and internationally</strong>‌, while cultivating their ‌<strong>innovation and entrepreneurial capabilities</strong>‌.</p><h2>教学目标</h2><p>通过学习该课程，学生将系统掌握机器学习核心方法（包括监督学习中的线性/非线性算法、无监督学习的聚类与降维技术，以及深度学习中卷积神经网络、Transformer及其在实际工作中的应用，以及大语言模型的基础、拓展及应用等），并理解其数学本质与跨领域关联性。</p><h2>教学方式</h2><p><strong>混合式学习法：理论加实践相结合：</strong></p>
+<p><strong>（1）前7周通过讲授奠定基础理论，同步布置论文选题； <br>（2）中期提交论文选题并分组； <br>（3）再补充机器学习的最新进展，包括大模型等，同步聚焦论文方案的可行性讨论，教师针对性补充解决方案。</strong></p><h2>教学内容与进度安排</h2><table>
+<tbody>
+<tr>
+<td width="67">
+<p><strong>课次</strong></p>
+<p>No.</p>
+</td>
+<td width="510">
+<p><strong>教学内容</strong><strong> </strong></p>
+<p>Content </p>
+</td>
+<td width="99"> </td>
+</tr>
+<tr>
+<td width="67">
+<p>1</p>
+</td>
+<td width="510">
+<p>Introduction to machine learning</p>
+</td>
+<td width="99"> </td>
+</tr>
+<tr>
+<td width="67">
+<p>2</p>
+</td>
+<td width="510">
+<p>Linear regression and its extensions</p>
+</td>
+<td width="99"> </td>
+</tr>
+<tr>
+<td width="67">
+<p>3</p>
+</td>
+<td width="510">
+<p>Logistic Regression（LR）， Perceptron</p>
+</td>
+<td width="99"> </td>
+</tr>
+<tr>
+<td width="67">
+<p>4</p>
+</td>
+<td width="510">
+<p>Support Vector Machine (SVM), Multi-Layer Perceptron Neural Network (MLP-NN)</p>
+</td>
+<td width="99"> </td>
+</tr>
+<tr>
+<td width="67">
+<p>5</p>
+</td>
+<td width="510">
+<p>卷积神经网络CNN基础</p>
+</td>
+<td width="99"> </td>
+</tr>
+<tr>
+<td width="67">
+<p>6</p>
+</td>
+<td width="510">
+<p>CNN应用，如目标检测、语义分割等</p>
+</td>
+<td width="99"> </td>
+</tr>
+<tr>
+<td width="67">
+<p>7</p>
+</td>
+<td width="510">
+<p>无监督学习: k-Means,高斯混合模型 gmm,主成分分析PCA，</p>
+</td>
+<td width="99"> </td>
+</tr>
+<tr>
+<td width="67">
+<p>8</p>
+</td>
+<td width="510">
+<p>期中考试：论文选题和分组</p>
+</td>
+<td width="99"> </td>
+</tr>
+<tr>
+<td width="67">
+<p>9</p>
+</td>
+<td width="510">
+<p>迭代神经网络RNNs；自注意机制</p>
+</td>
+<td width="99"> </td>
+</tr>
+<tr>
+<td width="67">
+<p>10</p>
+</td>
+<td width="510">
+<p>Transformer基础及应用</p>
+</td>
+<td width="99"> </td>
+</tr>
+<tr>
+<td width="67">
+<p>11</p>
+</td>
+<td width="510">
+<p>（深度）增强学习 （DL）</p>
+</td>
+<td width="99"> </td>
+</tr>
+<tr>
+<td width="67">
+<p>12</p>
+</td>
+<td width="510">
+<p>（深度）编解码器</p>
+</td>
+<td width="99"> </td>
+</tr>
+<tr>
+<td width="67">
+<p>13</p>
+</td>
+<td width="510">
+<p>生成模型：Generative Adversarial Network (GAN) 和扩散模型</p>
+</td>
+<td width="99"> </td>
+</tr>
+<tr>
+<td width="67">
+<p>14</p>
+</td>
+<td width="510">
+<p>（多模态）大模型</p>
+</td>
+<td width="99"> </td>
+</tr>
+<tr>
+<td width="67">
+<p>15</p>
+</td>
+<td width="510">
+<p>期末课题汇报1</p>
+</td>
+<td width="99"> </td>
+</tr>
+<tr>
+<td width="67">
+<p>16</p>
+</td>
+<td width="510">
+<p>期末课题汇报2</p>
+</td>
+<td width="99"> </td>
+</tr>
+</tbody>
+</table><h2>课程考核与成绩评定</h2><h2>教材</h2><h2>教学参考资料</h2><table>
+<tbody>
+<tr>
+<td width="67">
+<p><strong>序号</strong></p>
+<p>No.</p>
+</td>
+<td width="260">
+<p><strong>名称</strong></p>
+<p>Title</p>
+</td>
+<td width="184">
+<p><strong>主编/</strong><strong>作者</strong></p>
+<p>Author(s)</p>
+</td>
+<td width="122">
+<p><strong>标准书号</strong></p>
+<p>ISBN</p>
+</td>
+<td width="148">
+<p><strong>出版机构</strong></p>
+<p>Publisher</p>
+</td>
+<td width="173">
+<p><strong>出版日期</strong></p>
+<p>Publication Date</p>
+</td>
+</tr>
+<tr>
+<td width="67">
+<p><strong>1</strong></p>
+</td>
+<td width="260">
+<p>Pattern Recognition and Machine Learning</p>
+</td>
+<td width="184">
+<p>Christopher M. Bishop</p>
+</td>
+<td width="122">
+<p> </p>
+</td>
+<td width="148">
+<p>Springer</p>
+</td>
+<td width="173">
+<p>2006</p>
+</td>
+</tr>
+<tr>
+<td width="67">
+<p><strong>2</strong></p>
+</td>
+<td width="260">
+<p>Deep Learning</p>
+</td>
+<td width="184">
+<p> Ian Goodfellow, Yoshua Bengio and Aaron Courvill</p>
+</td>
+<td width="122">
+<p> </p>
+</td>
+<td width="148">
+<p>MIT Press</p>
+<p> </p>
+</td>
+<td width="173">
+<p>2016</p>
+</td>
+</tr>
+<tr>
+<td width="67">
+<p><strong>3</strong></p>
+</td>
+<td width="260">
+<p>Hands-On Machine Learning with Scikit-Learn, Keras, and TensorFlow: Concepts, Tools, and Techniques to Build Intelligent Systems （2nd Ed）</p>
+<p> </p>
+</td>
+<td width="184">
+<p>Aurélien Géron </p>
+</td>
+<td width="122">
+<p> </p>
+</td>
+<td width="148">
+<p>O&#x27;Reilly Media</p>
+</td>
+<td width="173">
+<p>2019</p>
+</td>
+</tr>
+</tbody>
 </table><h2>教学团队成员</h2></body></html>

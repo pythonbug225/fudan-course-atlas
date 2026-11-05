@@ -1,763 +1,763 @@
-<!doctype html><html lang="zh-CN"><meta charset="utf-8"><title>模式识别与机器学习 · 邱锡鹏、姜育刚 · 2025秋 CS30037.01</title><style>body{max-width:1000px;margin:35px auto;padding:0 20px;font:16px/1.9 system-ui}table{border-collapse:collapse}td,th{border:1px solid #cad7cf;padding:8px}img{max-width:100%}</style><body><h1>模式识别与机器学习</h1><p>2025秋 · CS30037.01 · 邱锡鹏、姜育刚</p><p>来源：复旦教务系统教学班大纲。</p><h2>考核与成绩构成</h2><ul><li>课堂表现Participation 10.0% 平时课堂成绩 （10%)：主要包括学生对课堂若干具体问题关键性思考（critical thinking）（5%）、线上答疑（5%）、分析与讨论（5%）；</li><li>作业/实验/实践Assignment 40.0% 2次课程实验项目（40%）：该项是该课程的主要考察方式。主要考察学生对机器学习知识的掌握情况。提交的实验报告包括：算法概要、关键代码摘要、实验结果分析、所用方法的优势与劣势。</li><li>汇报Presentation 10.0% 期末课程论文汇报（10%）</li><li>课题论文Research Paper 40.0% 期末课程论文（40%）：课程期末考核实验项目，较深入的研究机器学习中的关键性问题。最终实验包页数不少于4页（不包括参考文献）。主要内容包括：（1）问题背景简介与可能的应用前景介绍（5%）；（2）现有方法的简单回顾与摘要（5%）；（3）算法概要与关键代码分析与摘要、所用算法理论分析（15%）；（4）实验结果分析与方法优势与劣势的讨论（15%）。</li></ul><h2>课程简介（中文）</h2><p>本课程致力于介绍经典的模式识别与机器学习算法，让学生初步掌握机器学习领域的基本方法与蓝图。通过掌握监机器学习的算法与理论知识，能查阅并理解相关领域的前沿文献，同时熟练使用相关的机器学习算法，解决流行的人工智能领域应用问题，为今后在深度学习相关教学、科研和项目开发工作中深入解决实际模式识别应用问题打好基础。</p><h2>课程简介（英文）</h2><p>This course is dedicated to introducing classic algorithms in pattern recognition and machine learning, aiming to equip students with a foundational understanding of core methods and frameworks in the field of machine learning. By mastering supervised learning algorithms and theoretical concepts, students will be able to read and comprehend cutting-edge research literature, proficiently apply relevant machine learning techniques, and tackle common application problems in artificial intelligence. This provides a solid foundation for future work in teaching, research, and project development related to deep learning and practical pattern recognition tasks.</p><h2>教学目标</h2><p>本课程的重点在于培养学生以机器学习的思想和方法处理并解决实际模式识别问题的能力。通过该课程的学习，要求学生掌握经典的模式识别与机器学习算法，理解算法的理论知识与推导过程，具备基本的问题分析能力；同时该课程更加强调学生动手能力，理解并分析具体的机器学习算法，学以致用，解决现实生活中真实存在的应用问题。</p>
-<p>本课程要求学生有初步的python编程基础，并使用飞桨、Mindspore、计图等国产深度学习框架来完成平时课程练习和期末课程论文。</p><h2>教学方式</h2><p>本课程尝试以线上线下混合的方式进行授课。教学内容以主讲教师线上讲授为主，兼以线下辅导学生进行实践、答疑、对若干具体问题分析讨论；通过课后作业对课堂所学内容进行回顾、总结；并用课堂所学知识，解决实际的问题。</p>
-<p> </p>
-<p>本课程的在线网址为：<a>https://mooc1.chaoxing.com/course/224348208.html</a></p><h2>教学内容与进度安排</h2><table width="652">
-<tbody>
-<tr>
-<td colspan="5" width="652">
-<p><strong>授课方式: </strong></p>
-<p>本课程尝试以线上线下混合的方式进行授课。教学内容以主讲教师线上讲授为主，兼以线下辅导学生进行实践、答疑、对若干具体问题分析讨论；通过课后作业对课堂所学内容进行回顾、总结；并用课堂所学知识，解决实际的问题。</p>
-<p> </p>
-<p>本课程的在线网址为：<a>https://mooc1.chaoxing.com/course/224348208.html</a></p>
-</td>
-</tr>
-<tr>
-<td colspan="5" width="652">
-<p><strong>主讲教师简介</strong>:<strong> </strong><strong>（请注明主讲老师的邮箱联系方式和答疑时间）</strong></p>
-<p>邱锡鹏，复旦大学计算机学院教授，担任中国中文信息学会理事、上海市计算机学会自然语言处理专委会主任等，主要研究方向为自然语言处理基础技术和基础模型，发表CCF A/B类论文100余篇，被引用2万余次，连续多年入选爱思唯尔中国高被引学者。获得ACL 2017/2024杰出论文奖（CCF A类）、CCL 2019/2023最佳论文奖、《中国科学：技术科学》2021年度高影响力论文奖，有5篇论文入选ACL/EMNLP等会议的最有影响力论文，主持开发了开源框架FudanNLP和FastNLP，已被国内外数百家单位使用，发布了MOSS、CPT、BART-Chinese等开源语言模型，在中文大模型中下载量排名前列。曾获中国科协青年人才托举工程、国家优青等项目，2020年获第四届上海高校青年教师教学竞赛优等奖，两次获得上海市计算机学会教学成果奖一等奖，2022年获钱伟长中文信息处理科学技术奖一等奖，2023年入选中国教师发展基金会“高校计算机专业优秀教师奖励计划”。培养学生多人次获得国家一级学会优博。</p>
-<p> </p>
-<p>联系方式：<a>[邮箱已略]</a></p>
-<p>答疑时间：每周工作二下午13:00-15:00，江湾校区交叉二楼A5019室</p>
-</td>
-</tr>
-<tr>
-<td colspan="5" width="652">
-<p><strong>教学团队成员</strong></p>
-</td>
-</tr>
-<tr>
-<td width="101">
-<p><strong>姓名</strong></p>
-</td>
-<td width="106">
-<p><strong>性别</strong></p>
-</td>
-<td width="111">
-<p><strong>职称</strong></p>
-</td>
-<td width="160">
-<p><strong>院系</strong></p>
-</td>
-<td width="174">
-<p><strong>在教学中承担的职责</strong></p>
-</td>
-</tr>
-<tr>
-<td width="101">
-<p>邱锡鹏</p>
-</td>
-<td width="106">
-<p>男</p>
-</td>
-<td width="111">
-<p>教授</p>
-</td>
-<td width="160">
-<p>计算机学院</p>
-</td>
-<td width="174">
-<p>课程建设/授课</p>
-</td>
-</tr>
-<tr>
-<td width="101">
-<p>陈新驰</p>
-</td>
-<td width="106">
-<p>男</p>
-</td>
-<td width="111">
-<p>青年研究员</p>
-</td>
-<td width="160">
-<p>计算机学院</p>
-</td>
-<td width="174">
-<p>授课</p>
-</td>
-</tr>
-<tr>
-<td width="101">
-<p>姜育刚</p>
-</td>
-<td width="106">
-<p>男</p>
-</td>
-<td width="111">
-<p>教授</p>
-</td>
-<td width="160">
-<p>计算机学院</p>
-</td>
-<td width="174">
-<p>授课</p>
-</td>
-</tr>
-<tr>
-<td width="101">
-<p><strong> </strong></p>
-</td>
-<td width="106">
-<p><strong> </strong></p>
-</td>
-<td width="111">
-<p><strong> </strong></p>
-</td>
-<td width="160">
-<p><strong> </strong></p>
-</td>
-<td width="174">
-<p><strong> </strong></p>
-</td>
-</tr>
-<tr>
-<td colspan="5" width="652">
-<p><strong>教学内容安排 </strong>(按48学时共计18周，18周含考试周，具体到每节课内容)<strong>:</strong></p>
-<table width="614">
-<tbody>
-<tr>
-<td width="28">
-<p><strong>周</strong></p>
-</td>
-<td width="94">
-<p><strong>内容</strong></p>
-</td>
-<td width="57">
-<p><strong>课程形式</strong></p>
-</td>
-<td width="161">
-<p><strong>知识点名称</strong></p>
-</td>
-<td width="76">
-<p><strong>课时分配</strong></p>
-</td>
-<td width="198">
-<p><strong>单元目标</strong></p>
-</td>
-</tr>
-<tr>
-<td rowspan="4" width="28">
-<p>1</p>
-</td>
-<td rowspan="4" width="94">
-<p>模式识别概述</p>
-</td>
-<td rowspan="4" width="57">
-<p>线下</p>
-</td>
-<td width="161">
-<p>第一讲 模式识别定义</p>
-</td>
-<td width="76">
-<p>1</p>
-</td>
-<td width="198">
-<p>1) 模式识别基本概念；<br>2) 理解模式识别的知识体系；<br>3) 初步了解模式识别的研究历史与基本方法；</p>
-</td>
-</tr>
-<tr>
-<td width="161">
-<p>第二讲 曲线拟合：回归</p>
-</td>
-<td width="76">
-<p>1</p>
-</td>
-<td rowspan="3" width="198">
-<p>4) 通过模式识别案例培养学习兴趣。</p>
-</td>
-</tr>
-<tr>
-<td width="161">
-<p>第三讲 模型选择</p>
-</td>
-<td width="76">
-<p>　</p>
-</td>
-</tr>
-<tr>
-<td width="161">
-<p>第四讲 实训环境介绍</p>
-</td>
-<td width="76">
-<p>1</p>
-</td>
-</tr>
-<tr>
-<td rowspan="5" width="28">
-<p>2</p>
-</td>
-<td rowspan="5" width="94">
-<p>线性回归模型</p>
-</td>
-<td rowspan="5" width="57">
-<p>线上</p>
-</td>
-<td width="161">
-<p>第一讲 回归</p>
-</td>
-<td width="76">
-<p>0.5</p>
-</td>
-<td width="198">
-<p>1) 回归基本概念；</p>
-</td>
-</tr>
-<tr>
-<td width="161">
-<p>第二讲 线性基函数模型</p>
-</td>
-<td width="76">
-<p>1</p>
-</td>
-<td width="198">
-<p>2) 理解基函数；</p>
-</td>
-</tr>
-<tr>
-<td width="161">
-<p>第三讲 损失函数</p>
-</td>
-<td width="76">
-<p>0.5</p>
-</td>
-<td rowspan="2" width="198">
-<p>3) 优化：随机梯度下降;</p>
-</td>
-</tr>
-<tr>
-<td width="161">
-<p>第四讲 参数学习</p>
-</td>
-<td width="76">
-<p>0.5</p>
-</td>
-</tr>
-<tr>
-<td width="161">
-<p>第五讲 正则化</p>
-</td>
-<td width="76">
-<p>0.5</p>
-</td>
-<td width="198">
-<p>4) 正则化。</p>
-</td>
-</tr>
-<tr>
-<td rowspan="3" width="28">
-<p>3</p>
-</td>
-<td rowspan="3" width="94">
-<p>决策树与最近邻方法</p>
-</td>
-<td rowspan="3" width="57">
-<p>线上</p>
-</td>
-<td width="161">
-<p>第一讲  分类</p>
-</td>
-<td width="76">
-<p>0.5</p>
-</td>
-<td width="198">
-<p>1）分类问题定义；</p>
-</td>
-</tr>
-<tr>
-<td width="161">
-<p>第二讲  决策树</p>
-</td>
-<td width="76">
-<p>1.5</p>
-</td>
-<td width="198">
-<p>2）决策树模型；</p>
-</td>
-</tr>
-<tr>
-<td width="161">
-<p>第三讲  最近邻方法</p>
-</td>
-<td width="76">
-<p>1</p>
-</td>
-<td width="198">
-<p>3）最近邻方法。</p>
-</td>
-</tr>
-<tr>
-<td width="28">
-<p>4</p>
-</td>
-<td width="94">
-<p>实践与讨论课</p>
-</td>
-<td width="57">
-<p>线下</p>
-</td>
-<td width="161">
-<p>线性回归实践和知识点讨论</p>
-</td>
-<td width="76">
-<p>3</p>
-</td>
-<td width="198">
-<p>　</p>
-</td>
-</tr>
-<tr>
-<td width="28">
-<p>5</p>
-</td>
-<td width="94">
-<p>放假</p>
-</td>
-<td width="57">
-<p>线下</p>
-</td>
-<td width="161">
-<p>　</p>
-</td>
-<td width="76">
-<p>　</p>
-</td>
-<td width="198">
-<p>　</p>
-</td>
-</tr>
-<tr>
-<td rowspan="5" width="28">
-<p>6</p>
-</td>
-<td rowspan="5" width="94">
-<p>线性分类模型</p>
-</td>
-<td rowspan="5" width="57">
-<p>线上</p>
-</td>
-<td width="161">
-<p>第一讲 线性判别函数和决策边界</p>
-</td>
-<td width="76">
-<p>0.5</p>
-</td>
-<td width="198">
-<p>1）损失函数的定义<br>2）线性可分性</p>
-</td>
-</tr>
-<tr>
-<td width="161">
-<p>第二讲 Logistic回归</p>
-</td>
-<td width="76">
-<p>0.5</p>
-</td>
-<td rowspan="4" width="198">
-<p>3）四种线性模型的区别和对比</p>
-</td>
-</tr>
-<tr>
-<td width="161">
-<p>第三讲 Softmax回归</p>
-</td>
-<td width="76">
-<p>0.5</p>
-</td>
-</tr>
-<tr>
-<td width="161">
-<p>第四讲 感知器</p>
-</td>
-<td width="76">
-<p>1</p>
-</td>
-</tr>
-<tr>
-<td width="161">
-<p>第五讲 支持向量机与核方法</p>
-</td>
-<td width="76">
-<p>0.5</p>
-</td>
-</tr>
-<tr>
-<td rowspan="4" width="28">
-<p>7</p>
-</td>
-<td rowspan="4" width="94">
-<p>核方法与支持向量机</p>
-</td>
-<td rowspan="4" width="57">
-<p>线上</p>
-</td>
-<td width="161">
-<p>第一讲 核方法</p>
-</td>
-<td width="76">
-<p>1</p>
-</td>
-<td width="198">
-<p>1）核方法定义</p>
-</td>
-</tr>
-<tr>
-<td width="161">
-<p>第二讲 最优线性判别函数</p>
-</td>
-<td width="76">
-<p>0.5</p>
-</td>
-<td width="198">
-<p>2）间隔定义</p>
-</td>
-</tr>
-<tr>
-<td width="161">
-<p>第三讲 支持向量机</p>
-</td>
-<td width="76">
-<p>1</p>
-</td>
-<td width="198">
-<p>3）KKT条件</p>
-</td>
-</tr>
-<tr>
-<td width="161">
-<p>第四讲 线性不可分问题</p>
-</td>
-<td width="76">
-<p>0.5</p>
-</td>
-<td width="198">
-<p>4）Hinge损失函数</p>
-</td>
-</tr>
-<tr>
-<td width="28">
-<p>8</p>
-</td>
-<td width="94">
-<p>实践与讨论课</p>
-</td>
-<td width="57">
-<p>线下</p>
-</td>
-<td width="161">
-<p>分类任务实践和知识点讨论</p>
-</td>
-<td width="76">
-<p>3</p>
-</td>
-<td width="198">
-<p>　</p>
-</td>
-</tr>
-<tr>
-<td rowspan="3" width="28">
-<p>9</p>
-</td>
-<td rowspan="3" width="94">
-<p>无监督学习与降维</p>
-</td>
-<td rowspan="3" width="57">
-<p>线上</p>
-</td>
-<td width="161">
-<p>第一讲 无监督学习</p>
-</td>
-<td width="76">
-<p>0.5</p>
-</td>
-<td width="198">
-<p>1）   无监督学习定义</p>
-</td>
-</tr>
-<tr>
-<td width="161">
-<p>第二讲 聚类算法</p>
-</td>
-<td width="76">
-<p>1</p>
-</td>
-<td width="198">
-<p>2）   聚类算法: K-means</p>
-</td>
-</tr>
-<tr>
-<td width="161">
-<p>第三讲 降维</p>
-</td>
-<td width="76">
-<p>1.5</p>
-</td>
-<td width="198">
-<p>a) PCA<br>b) 自编码</p>
-</td>
-</tr>
-<tr>
-<td width="28">
-<p>10</p>
-</td>
-<td width="94">
-<p>实践与讨论课</p>
-</td>
-<td width="57">
-<p>线下</p>
-</td>
-<td width="161">
-<p>线性分类实践和知识点讨论</p>
-</td>
-<td width="76">
-<p>3</p>
-</td>
-<td width="198">
-<p>　</p>
-</td>
-</tr>
-<tr>
-<td rowspan="5" width="28">
-<p>11</p>
-</td>
-<td rowspan="5" width="94">
-<p>前馈神经网络</p>
-</td>
-<td rowspan="5" width="57">
-<p>线上</p>
-</td>
-<td rowspan="2" width="161">
-<p>第一讲 神经元与激活函数</p>
-</td>
-<td rowspan="2" width="76">
-<p>1</p>
-</td>
-<td width="198">
-<p>1) 神经元与激活函数</p>
-</td>
-</tr>
-<tr>
-<td width="198">
-<p>2) 前馈神经网络</p>
-</td>
-</tr>
-<tr>
-<td width="161">
-<p>第二讲 前馈神经网络</p>
-</td>
-<td width="76">
-<p>1</p>
-</td>
-<td width="198">
-<p>3) 通用近似定理</p>
-</td>
-</tr>
-<tr>
-<td width="161">
-<p>第三讲 反向传播算法</p>
-</td>
-<td width="76">
-<p>0.5</p>
-</td>
-<td width="198">
-<p>4) 前馈神经网络应用到模式识别</p>
-</td>
-</tr>
-<tr>
-<td width="161">
-<p>第四讲 自动微分与计算图</p>
-</td>
-<td width="76">
-<p>0.5</p>
-</td>
-<td width="198">
-<p>5) 参数学习</p>
-</td>
-</tr>
-<tr>
-<td rowspan="7" width="28">
-<p>12</p>
-</td>
-<td rowspan="7" width="94">
-<p>卷积神经网络<br>循环神经网络</p>
-</td>
-<td rowspan="7" width="57">
-<p>线上</p>
-</td>
-<td width="161">
-<p>第一讲 卷积的定义</p>
-</td>
-<td width="76">
-<p>1</p>
-</td>
-<td width="198">
-<p>1) 一维、二维卷积<br>2) 卷积扩展、互相关</p>
-</td>
-</tr>
-<tr>
-<td width="161">
-<p>第二讲 卷积神经网络</p>
-</td>
-<td width="76">
-<p>0.5</p>
-</td>
-<td width="198">
-<p>3) 卷积神经网络</p>
-</td>
-</tr>
-<tr>
-<td rowspan="2" width="161">
-<p>第三讲 给神经网络增加记忆</p>
-</td>
-<td rowspan="2" width="76">
-<p>0.5</p>
-</td>
-<td width="198">
-<p>1) 简单循环网络</p>
-</td>
-</tr>
-<tr>
-<td width="198">
-<p>a) 延时神经网络</p>
-</td>
-</tr>
-<tr>
-<td width="161">
-<p>第四讲 循环神经网络</p>
-</td>
-<td width="76">
-<p>0.5</p>
-</td>
-<td width="198">
-<p>b) 自回归模型</p>
-</td>
-</tr>
-<tr>
-<td width="161">
-<p>第五讲 长程依赖问题</p>
-</td>
-<td width="76">
-<p>0.5</p>
-</td>
-<td width="198">
-<p>c) 非线性自回归模型</p>
-</td>
-</tr>
-<tr>
-<td width="161">
-<p>第六讲 长短期记忆神经网络</p>
-</td>
-<td width="76">
-<p>0.5</p>
-</td>
-<td width="198">
-<p>2) 长程依赖问题</p>
-</td>
-</tr>
-<tr>
-<td width="28">
-<p>13</p>
-</td>
-<td width="94">
-<p>实践与讨论课</p>
-</td>
-<td width="57">
-<p>线下</p>
-</td>
-<td width="161">
-<p>实践和知识点讨论</p>
-</td>
-<td width="76">
-<p>3</p>
-</td>
-<td width="198">
-<p>　</p>
-</td>
-</tr>
-<tr>
-<td rowspan="3" width="28">
-<p>14</p>
-</td>
-<td rowspan="3" width="94">
-<p>Transformer</p>
-</td>
-<td rowspan="3" width="57">
-<p>线上</p>
-</td>
-<td width="161">
-<p>第一讲 注意力机制</p>
-</td>
-<td width="76">
-<p>　</p>
-</td>
-<td width="198">
-<p>　</p>
-</td>
-</tr>
-<tr>
-<td width="161">
-<p>第二讲 自注意力机制</p>
-</td>
-<td width="76">
-<p>　</p>
-</td>
-<td width="198">
-<p>　</p>
-</td>
-</tr>
-<tr>
-<td width="161">
-<p>第三讲 Transformer</p>
-</td>
-<td width="76">
-<p>　</p>
-</td>
-<td width="198">
-<p>　</p>
-</td>
-</tr>
-<tr>
-<td width="28">
-<p>15</p>
-</td>
-<td width="94">
-<p>实践与讨论课</p>
-</td>
-<td width="57">
-<p>线下</p>
-</td>
-<td width="161">
-<p>实践和知识点讨论</p>
-</td>
-<td width="76">
-<p>3</p>
-</td>
-<td width="198">
-<p>　</p>
-</td>
-</tr>
-<tr>
-<td width="28">
-<p>16</p>
-</td>
-<td width="94">
-<p>实践与讨论课</p>
-</td>
-<td width="57">
-<p>线上</p>
-</td>
-<td width="161">
-<p>实践和知识点讨论</p>
-</td>
-<td width="76">
-<p>3</p>
-</td>
-<td width="198">
-<p>　</p>
-</td>
-</tr>
-</tbody>
-</table>
-</td>
-</tr>
-</tbody>
+<!doctype html><html lang="zh-CN"><meta charset="utf-8"><title>模式识别与机器学习 · 邱锡鹏、姜育刚 · 2025秋 CS30037.01</title><style>body{max-width:1000px;margin:35px auto;padding:0 20px;font:16px/1.9 system-ui}table{border-collapse:collapse}td,th{border:1px solid #cad7cf;padding:8px}img{max-width:100%}</style><body><h1>模式识别与机器学习</h1><p>2025秋 · CS30037.01 · 邱锡鹏、姜育刚</p><p>来源：复旦教务系统教学班大纲。</p><h2>考核与成绩构成</h2><ul><li>课堂表现Participation 10.0% 平时课堂成绩 （10%)：主要包括学生对课堂若干具体问题关键性思考（critical thinking）（5%）、线上答疑（5%）、分析与讨论（5%）；</li><li>作业/实验/实践Assignment 40.0% 2次课程实验项目（40%）：该项是该课程的主要考察方式。主要考察学生对机器学习知识的掌握情况。提交的实验报告包括：算法概要、关键代码摘要、实验结果分析、所用方法的优势与劣势。</li><li>汇报Presentation 10.0% 期末课程论文汇报（10%）</li><li>课题论文Research Paper 40.0% 期末课程论文（40%）：课程期末考核实验项目，较深入的研究机器学习中的关键性问题。最终实验包页数不少于4页（不包括参考文献）。主要内容包括：（1）问题背景简介与可能的应用前景介绍（5%）；（2）现有方法的简单回顾与摘要（5%）；（3）算法概要与关键代码分析与摘要、所用算法理论分析（15%）；（4）实验结果分析与方法优势与劣势的讨论（15%）。</li></ul><h2>课程简介（中文）</h2><p>本课程致力于介绍经典的模式识别与机器学习算法，让学生初步掌握机器学习领域的基本方法与蓝图。通过掌握监机器学习的算法与理论知识，能查阅并理解相关领域的前沿文献，同时熟练使用相关的机器学习算法，解决流行的人工智能领域应用问题，为今后在深度学习相关教学、科研和项目开发工作中深入解决实际模式识别应用问题打好基础。</p><h2>课程简介（英文）</h2><p>This course is dedicated to introducing classic algorithms in pattern recognition and machine learning, aiming to equip students with a foundational understanding of core methods and frameworks in the field of machine learning. By mastering supervised learning algorithms and theoretical concepts, students will be able to read and comprehend cutting-edge research literature, proficiently apply relevant machine learning techniques, and tackle common application problems in artificial intelligence. This provides a solid foundation for future work in teaching, research, and project development related to deep learning and practical pattern recognition tasks.</p><h2>教学目标</h2><p>本课程的重点在于培养学生以机器学习的思想和方法处理并解决实际模式识别问题的能力。通过该课程的学习，要求学生掌握经典的模式识别与机器学习算法，理解算法的理论知识与推导过程，具备基本的问题分析能力；同时该课程更加强调学生动手能力，理解并分析具体的机器学习算法，学以致用，解决现实生活中真实存在的应用问题。</p>
+<p>本课程要求学生有初步的python编程基础，并使用飞桨、Mindspore、计图等国产深度学习框架来完成平时课程练习和期末课程论文。</p><h2>教学方式</h2><p>本课程尝试以线上线下混合的方式进行授课。教学内容以主讲教师线上讲授为主，兼以线下辅导学生进行实践、答疑、对若干具体问题分析讨论；通过课后作业对课堂所学内容进行回顾、总结；并用课堂所学知识，解决实际的问题。</p>
+<p> </p>
+<p>本课程的在线网址为：<a>https://mooc1.chaoxing.com/course/224348208.html</a></p><h2>教学内容与进度安排</h2><table width="652">
+<tbody>
+<tr>
+<td colspan="5" width="652">
+<p><strong>授课方式: </strong></p>
+<p>本课程尝试以线上线下混合的方式进行授课。教学内容以主讲教师线上讲授为主，兼以线下辅导学生进行实践、答疑、对若干具体问题分析讨论；通过课后作业对课堂所学内容进行回顾、总结；并用课堂所学知识，解决实际的问题。</p>
+<p> </p>
+<p>本课程的在线网址为：<a>https://mooc1.chaoxing.com/course/224348208.html</a></p>
+</td>
+</tr>
+<tr>
+<td colspan="5" width="652">
+<p><strong>主讲教师简介</strong>:<strong> </strong><strong>（请注明主讲老师的邮箱联系方式和答疑时间）</strong></p>
+<p>邱锡鹏，复旦大学计算机学院教授，担任中国中文信息学会理事、上海市计算机学会自然语言处理专委会主任等，主要研究方向为自然语言处理基础技术和基础模型，发表CCF A/B类论文100余篇，被引用2万余次，连续多年入选爱思唯尔中国高被引学者。获得ACL 2017/2024杰出论文奖（CCF A类）、CCL 2019/2023最佳论文奖、《中国科学：技术科学》2021年度高影响力论文奖，有5篇论文入选ACL/EMNLP等会议的最有影响力论文，主持开发了开源框架FudanNLP和FastNLP，已被国内外数百家单位使用，发布了MOSS、CPT、BART-Chinese等开源语言模型，在中文大模型中下载量排名前列。曾获中国科协青年人才托举工程、国家优青等项目，2020年获第四届上海高校青年教师教学竞赛优等奖，两次获得上海市计算机学会教学成果奖一等奖，2022年获钱伟长中文信息处理科学技术奖一等奖，2023年入选中国教师发展基金会“高校计算机专业优秀教师奖励计划”。培养学生多人次获得国家一级学会优博。</p>
+<p> </p>
+<p>联系方式：<a>[邮箱已略]</a></p>
+<p>答疑时间：每周工作二下午13:00-15:00，江湾校区交叉二楼A5019室</p>
+</td>
+</tr>
+<tr>
+<td colspan="5" width="652">
+<p><strong>教学团队成员</strong></p>
+</td>
+</tr>
+<tr>
+<td width="101">
+<p><strong>姓名</strong></p>
+</td>
+<td width="106">
+<p><strong>性别</strong></p>
+</td>
+<td width="111">
+<p><strong>职称</strong></p>
+</td>
+<td width="160">
+<p><strong>院系</strong></p>
+</td>
+<td width="174">
+<p><strong>在教学中承担的职责</strong></p>
+</td>
+</tr>
+<tr>
+<td width="101">
+<p>邱锡鹏</p>
+</td>
+<td width="106">
+<p>男</p>
+</td>
+<td width="111">
+<p>教授</p>
+</td>
+<td width="160">
+<p>计算机学院</p>
+</td>
+<td width="174">
+<p>课程建设/授课</p>
+</td>
+</tr>
+<tr>
+<td width="101">
+<p>陈新驰</p>
+</td>
+<td width="106">
+<p>男</p>
+</td>
+<td width="111">
+<p>青年研究员</p>
+</td>
+<td width="160">
+<p>计算机学院</p>
+</td>
+<td width="174">
+<p>授课</p>
+</td>
+</tr>
+<tr>
+<td width="101">
+<p>姜育刚</p>
+</td>
+<td width="106">
+<p>男</p>
+</td>
+<td width="111">
+<p>教授</p>
+</td>
+<td width="160">
+<p>计算机学院</p>
+</td>
+<td width="174">
+<p>授课</p>
+</td>
+</tr>
+<tr>
+<td width="101">
+<p><strong> </strong></p>
+</td>
+<td width="106">
+<p><strong> </strong></p>
+</td>
+<td width="111">
+<p><strong> </strong></p>
+</td>
+<td width="160">
+<p><strong> </strong></p>
+</td>
+<td width="174">
+<p><strong> </strong></p>
+</td>
+</tr>
+<tr>
+<td colspan="5" width="652">
+<p><strong>教学内容安排 </strong>(按48学时共计18周，18周含考试周，具体到每节课内容)<strong>:</strong></p>
+<table width="614">
+<tbody>
+<tr>
+<td width="28">
+<p><strong>周</strong></p>
+</td>
+<td width="94">
+<p><strong>内容</strong></p>
+</td>
+<td width="57">
+<p><strong>课程形式</strong></p>
+</td>
+<td width="161">
+<p><strong>知识点名称</strong></p>
+</td>
+<td width="76">
+<p><strong>课时分配</strong></p>
+</td>
+<td width="198">
+<p><strong>单元目标</strong></p>
+</td>
+</tr>
+<tr>
+<td rowspan="4" width="28">
+<p>1</p>
+</td>
+<td rowspan="4" width="94">
+<p>模式识别概述</p>
+</td>
+<td rowspan="4" width="57">
+<p>线下</p>
+</td>
+<td width="161">
+<p>第一讲 模式识别定义</p>
+</td>
+<td width="76">
+<p>1</p>
+</td>
+<td width="198">
+<p>1) 模式识别基本概念；<br>2) 理解模式识别的知识体系；<br>3) 初步了解模式识别的研究历史与基本方法；</p>
+</td>
+</tr>
+<tr>
+<td width="161">
+<p>第二讲 曲线拟合：回归</p>
+</td>
+<td width="76">
+<p>1</p>
+</td>
+<td rowspan="3" width="198">
+<p>4) 通过模式识别案例培养学习兴趣。</p>
+</td>
+</tr>
+<tr>
+<td width="161">
+<p>第三讲 模型选择</p>
+</td>
+<td width="76">
+<p>　</p>
+</td>
+</tr>
+<tr>
+<td width="161">
+<p>第四讲 实训环境介绍</p>
+</td>
+<td width="76">
+<p>1</p>
+</td>
+</tr>
+<tr>
+<td rowspan="5" width="28">
+<p>2</p>
+</td>
+<td rowspan="5" width="94">
+<p>线性回归模型</p>
+</td>
+<td rowspan="5" width="57">
+<p>线上</p>
+</td>
+<td width="161">
+<p>第一讲 回归</p>
+</td>
+<td width="76">
+<p>0.5</p>
+</td>
+<td width="198">
+<p>1) 回归基本概念；</p>
+</td>
+</tr>
+<tr>
+<td width="161">
+<p>第二讲 线性基函数模型</p>
+</td>
+<td width="76">
+<p>1</p>
+</td>
+<td width="198">
+<p>2) 理解基函数；</p>
+</td>
+</tr>
+<tr>
+<td width="161">
+<p>第三讲 损失函数</p>
+</td>
+<td width="76">
+<p>0.5</p>
+</td>
+<td rowspan="2" width="198">
+<p>3) 优化：随机梯度下降;</p>
+</td>
+</tr>
+<tr>
+<td width="161">
+<p>第四讲 参数学习</p>
+</td>
+<td width="76">
+<p>0.5</p>
+</td>
+</tr>
+<tr>
+<td width="161">
+<p>第五讲 正则化</p>
+</td>
+<td width="76">
+<p>0.5</p>
+</td>
+<td width="198">
+<p>4) 正则化。</p>
+</td>
+</tr>
+<tr>
+<td rowspan="3" width="28">
+<p>3</p>
+</td>
+<td rowspan="3" width="94">
+<p>决策树与最近邻方法</p>
+</td>
+<td rowspan="3" width="57">
+<p>线上</p>
+</td>
+<td width="161">
+<p>第一讲  分类</p>
+</td>
+<td width="76">
+<p>0.5</p>
+</td>
+<td width="198">
+<p>1）分类问题定义；</p>
+</td>
+</tr>
+<tr>
+<td width="161">
+<p>第二讲  决策树</p>
+</td>
+<td width="76">
+<p>1.5</p>
+</td>
+<td width="198">
+<p>2）决策树模型；</p>
+</td>
+</tr>
+<tr>
+<td width="161">
+<p>第三讲  最近邻方法</p>
+</td>
+<td width="76">
+<p>1</p>
+</td>
+<td width="198">
+<p>3）最近邻方法。</p>
+</td>
+</tr>
+<tr>
+<td width="28">
+<p>4</p>
+</td>
+<td width="94">
+<p>实践与讨论课</p>
+</td>
+<td width="57">
+<p>线下</p>
+</td>
+<td width="161">
+<p>线性回归实践和知识点讨论</p>
+</td>
+<td width="76">
+<p>3</p>
+</td>
+<td width="198">
+<p>　</p>
+</td>
+</tr>
+<tr>
+<td width="28">
+<p>5</p>
+</td>
+<td width="94">
+<p>放假</p>
+</td>
+<td width="57">
+<p>线下</p>
+</td>
+<td width="161">
+<p>　</p>
+</td>
+<td width="76">
+<p>　</p>
+</td>
+<td width="198">
+<p>　</p>
+</td>
+</tr>
+<tr>
+<td rowspan="5" width="28">
+<p>6</p>
+</td>
+<td rowspan="5" width="94">
+<p>线性分类模型</p>
+</td>
+<td rowspan="5" width="57">
+<p>线上</p>
+</td>
+<td width="161">
+<p>第一讲 线性判别函数和决策边界</p>
+</td>
+<td width="76">
+<p>0.5</p>
+</td>
+<td width="198">
+<p>1）损失函数的定义<br>2）线性可分性</p>
+</td>
+</tr>
+<tr>
+<td width="161">
+<p>第二讲 Logistic回归</p>
+</td>
+<td width="76">
+<p>0.5</p>
+</td>
+<td rowspan="4" width="198">
+<p>3）四种线性模型的区别和对比</p>
+</td>
+</tr>
+<tr>
+<td width="161">
+<p>第三讲 Softmax回归</p>
+</td>
+<td width="76">
+<p>0.5</p>
+</td>
+</tr>
+<tr>
+<td width="161">
+<p>第四讲 感知器</p>
+</td>
+<td width="76">
+<p>1</p>
+</td>
+</tr>
+<tr>
+<td width="161">
+<p>第五讲 支持向量机与核方法</p>
+</td>
+<td width="76">
+<p>0.5</p>
+</td>
+</tr>
+<tr>
+<td rowspan="4" width="28">
+<p>7</p>
+</td>
+<td rowspan="4" width="94">
+<p>核方法与支持向量机</p>
+</td>
+<td rowspan="4" width="57">
+<p>线上</p>
+</td>
+<td width="161">
+<p>第一讲 核方法</p>
+</td>
+<td width="76">
+<p>1</p>
+</td>
+<td width="198">
+<p>1）核方法定义</p>
+</td>
+</tr>
+<tr>
+<td width="161">
+<p>第二讲 最优线性判别函数</p>
+</td>
+<td width="76">
+<p>0.5</p>
+</td>
+<td width="198">
+<p>2）间隔定义</p>
+</td>
+</tr>
+<tr>
+<td width="161">
+<p>第三讲 支持向量机</p>
+</td>
+<td width="76">
+<p>1</p>
+</td>
+<td width="198">
+<p>3）KKT条件</p>
+</td>
+</tr>
+<tr>
+<td width="161">
+<p>第四讲 线性不可分问题</p>
+</td>
+<td width="76">
+<p>0.5</p>
+</td>
+<td width="198">
+<p>4）Hinge损失函数</p>
+</td>
+</tr>
+<tr>
+<td width="28">
+<p>8</p>
+</td>
+<td width="94">
+<p>实践与讨论课</p>
+</td>
+<td width="57">
+<p>线下</p>
+</td>
+<td width="161">
+<p>分类任务实践和知识点讨论</p>
+</td>
+<td width="76">
+<p>3</p>
+</td>
+<td width="198">
+<p>　</p>
+</td>
+</tr>
+<tr>
+<td rowspan="3" width="28">
+<p>9</p>
+</td>
+<td rowspan="3" width="94">
+<p>无监督学习与降维</p>
+</td>
+<td rowspan="3" width="57">
+<p>线上</p>
+</td>
+<td width="161">
+<p>第一讲 无监督学习</p>
+</td>
+<td width="76">
+<p>0.5</p>
+</td>
+<td width="198">
+<p>1）   无监督学习定义</p>
+</td>
+</tr>
+<tr>
+<td width="161">
+<p>第二讲 聚类算法</p>
+</td>
+<td width="76">
+<p>1</p>
+</td>
+<td width="198">
+<p>2）   聚类算法: K-means</p>
+</td>
+</tr>
+<tr>
+<td width="161">
+<p>第三讲 降维</p>
+</td>
+<td width="76">
+<p>1.5</p>
+</td>
+<td width="198">
+<p>a) PCA<br>b) 自编码</p>
+</td>
+</tr>
+<tr>
+<td width="28">
+<p>10</p>
+</td>
+<td width="94">
+<p>实践与讨论课</p>
+</td>
+<td width="57">
+<p>线下</p>
+</td>
+<td width="161">
+<p>线性分类实践和知识点讨论</p>
+</td>
+<td width="76">
+<p>3</p>
+</td>
+<td width="198">
+<p>　</p>
+</td>
+</tr>
+<tr>
+<td rowspan="5" width="28">
+<p>11</p>
+</td>
+<td rowspan="5" width="94">
+<p>前馈神经网络</p>
+</td>
+<td rowspan="5" width="57">
+<p>线上</p>
+</td>
+<td rowspan="2" width="161">
+<p>第一讲 神经元与激活函数</p>
+</td>
+<td rowspan="2" width="76">
+<p>1</p>
+</td>
+<td width="198">
+<p>1) 神经元与激活函数</p>
+</td>
+</tr>
+<tr>
+<td width="198">
+<p>2) 前馈神经网络</p>
+</td>
+</tr>
+<tr>
+<td width="161">
+<p>第二讲 前馈神经网络</p>
+</td>
+<td width="76">
+<p>1</p>
+</td>
+<td width="198">
+<p>3) 通用近似定理</p>
+</td>
+</tr>
+<tr>
+<td width="161">
+<p>第三讲 反向传播算法</p>
+</td>
+<td width="76">
+<p>0.5</p>
+</td>
+<td width="198">
+<p>4) 前馈神经网络应用到模式识别</p>
+</td>
+</tr>
+<tr>
+<td width="161">
+<p>第四讲 自动微分与计算图</p>
+</td>
+<td width="76">
+<p>0.5</p>
+</td>
+<td width="198">
+<p>5) 参数学习</p>
+</td>
+</tr>
+<tr>
+<td rowspan="7" width="28">
+<p>12</p>
+</td>
+<td rowspan="7" width="94">
+<p>卷积神经网络<br>循环神经网络</p>
+</td>
+<td rowspan="7" width="57">
+<p>线上</p>
+</td>
+<td width="161">
+<p>第一讲 卷积的定义</p>
+</td>
+<td width="76">
+<p>1</p>
+</td>
+<td width="198">
+<p>1) 一维、二维卷积<br>2) 卷积扩展、互相关</p>
+</td>
+</tr>
+<tr>
+<td width="161">
+<p>第二讲 卷积神经网络</p>
+</td>
+<td width="76">
+<p>0.5</p>
+</td>
+<td width="198">
+<p>3) 卷积神经网络</p>
+</td>
+</tr>
+<tr>
+<td rowspan="2" width="161">
+<p>第三讲 给神经网络增加记忆</p>
+</td>
+<td rowspan="2" width="76">
+<p>0.5</p>
+</td>
+<td width="198">
+<p>1) 简单循环网络</p>
+</td>
+</tr>
+<tr>
+<td width="198">
+<p>a) 延时神经网络</p>
+</td>
+</tr>
+<tr>
+<td width="161">
+<p>第四讲 循环神经网络</p>
+</td>
+<td width="76">
+<p>0.5</p>
+</td>
+<td width="198">
+<p>b) 自回归模型</p>
+</td>
+</tr>
+<tr>
+<td width="161">
+<p>第五讲 长程依赖问题</p>
+</td>
+<td width="76">
+<p>0.5</p>
+</td>
+<td width="198">
+<p>c) 非线性自回归模型</p>
+</td>
+</tr>
+<tr>
+<td width="161">
+<p>第六讲 长短期记忆神经网络</p>
+</td>
+<td width="76">
+<p>0.5</p>
+</td>
+<td width="198">
+<p>2) 长程依赖问题</p>
+</td>
+</tr>
+<tr>
+<td width="28">
+<p>13</p>
+</td>
+<td width="94">
+<p>实践与讨论课</p>
+</td>
+<td width="57">
+<p>线下</p>
+</td>
+<td width="161">
+<p>实践和知识点讨论</p>
+</td>
+<td width="76">
+<p>3</p>
+</td>
+<td width="198">
+<p>　</p>
+</td>
+</tr>
+<tr>
+<td rowspan="3" width="28">
+<p>14</p>
+</td>
+<td rowspan="3" width="94">
+<p>Transformer</p>
+</td>
+<td rowspan="3" width="57">
+<p>线上</p>
+</td>
+<td width="161">
+<p>第一讲 注意力机制</p>
+</td>
+<td width="76">
+<p>　</p>
+</td>
+<td width="198">
+<p>　</p>
+</td>
+</tr>
+<tr>
+<td width="161">
+<p>第二讲 自注意力机制</p>
+</td>
+<td width="76">
+<p>　</p>
+</td>
+<td width="198">
+<p>　</p>
+</td>
+</tr>
+<tr>
+<td width="161">
+<p>第三讲 Transformer</p>
+</td>
+<td width="76">
+<p>　</p>
+</td>
+<td width="198">
+<p>　</p>
+</td>
+</tr>
+<tr>
+<td width="28">
+<p>15</p>
+</td>
+<td width="94">
+<p>实践与讨论课</p>
+</td>
+<td width="57">
+<p>线下</p>
+</td>
+<td width="161">
+<p>实践和知识点讨论</p>
+</td>
+<td width="76">
+<p>3</p>
+</td>
+<td width="198">
+<p>　</p>
+</td>
+</tr>
+<tr>
+<td width="28">
+<p>16</p>
+</td>
+<td width="94">
+<p>实践与讨论课</p>
+</td>
+<td width="57">
+<p>线上</p>
+</td>
+<td width="161">
+<p>实践和知识点讨论</p>
+</td>
+<td width="76">
+<p>3</p>
+</td>
+<td width="198">
+<p>　</p>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
 </table><h2>课程考核与成绩评定</h2><h2>教材</h2><h2>教学参考资料</h2><h2>教学团队成员</h2><h2>教材与参考书</h2><p>邱锡鹏；2020-04；9787111649687；神经网络与深度学习；机械工业出版社</p></body></html>

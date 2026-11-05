@@ -1,312 +1,312 @@
-<!doctype html><html lang="zh-CN"><meta charset="utf-8"><title>Python程序设计 · 张向东 · 2025秋 AIB110002.14</title><style>body{max-width:1000px;margin:35px auto;padding:0 20px;font:16px/1.9 system-ui}table{border-collapse:collapse}td,th{border:1px solid #cad7cf;padding:8px}img{max-width:100%}</style><body><h1>Python程序设计</h1><p>2025秋 · AIB110002.14 · 张向东</p><p>来源：复旦教务系统教学班大纲。</p><h2>考核与成绩构成</h2><ul><li>出勤Attendance 10.0% 从第3周开始打卡考勤。得分=出勤次数/考勤次数*100。</li><li>课堂表现Participation 10.0% 得分=第4周课堂限时编码测验得分*50%+第11周Debug实战赛得分*50%</li><li>作业/实验/实践Assignment 40.0% 平时作业若干次，项目大作业1次。作业若迟交则该次作业成绩打8折。得分=平时各次作业成绩平均*50%+大作业成绩*50%。</li><li>课题研讨Topic Discussion 5.0% 第14周代码伦理报告。</li><li>课题论文Research Paper 5.0% 第16周技术影响调研报告。</li><li>期末考试Final Examination：闭卷  30.0% 试卷设计紧扣教学大纲，重点考查学生对知识的理解和应用能力，题型多样，难易适中。</li></ul><h2>课程简介（中文）</h2><p>课程面向零基础学生，以Python为载体，系统讲授程序设计基础（包括数据结构、流程控制、函数与模块化开发等），并结合AI辅助编程技术，帮助学生掌握AI工具在代码生成、调试等环节的高效应用方法。课程采用“理论+实践”模式，培养学生的逻辑思维和解决问题的能力，全面提升学生的AI素养。</p>
-<p>课程适用于各专业学生的程序设计与创新能力培养。</p><h2>课程简介（英文）</h2><p>This course is designed for beginners with no prior programming experience. Using Python as the teaching language, it systematically covers programming fundamentals including data structures, flow control, functions, and modular development. The course integrates AI-assisted programming techniques to help students effectively utilize intelligent tools for code generation and debugging. Through a combination of theoretical instruction and hands-on practice, it aims to develop students&#x27; logic-thinking, problem-solving skills, and AI competency. The course is suitable for students of all academic disciplines to acquire programming design skills and foster innovative thinking.</p><h2>教学目标</h2><p>课程以Python为载体，培养计算思维和AI素养；弱化记忆要求，强调对知识的理解和应用，树立严谨创新的科学精神；培养高层次认知能力、创造性解决问题的能力。</p>
-<p>知识目标：掌握程序设计基础（数据结构、流程控制、函数与模块化开发等）；应用AI辅助编程的技术。</p>
-<p>能力目标：培养逻辑思维和解决问题的能力（通过&quot;理论+实践&quot;），提升AI工具应用水平。</p>
-<p>价值目标：强化代码伦理意识，理解技术与社会的关系；培养创新精神；培养终身学习能力，适应AI时代。</p><h2>教学方式</h2><p>为实现课程目标，采用 <strong>“以学生为中心、AI赋能、分层递进”</strong> 的教学模式，结合理论讲授、项目实践、智能工具辅助及反思评价，具体策略如下：</p>
-<h4><strong>1. 理论教学（知识目标）</strong></h4>
-<ul>
-<li><strong>案例驱动</strong>：以真实场景（如数据分析、生活实际问题）引入编程概念，避免抽象讲解。</li>
-<li><strong>可视化辅助</strong>：用流程图、动画演示，降低理解门槛。</li>
-<li><strong>AI即时反馈</strong>：利用AI工具演示代码生成，对比人工编写与AI生成的差异，分析优劣。</li>
-</ul>
-<h4><strong>2. 实践训练（能力目标）</strong></h4>
-<ul>
-<li><strong>分层任务设计</strong>：
-<ul>
-<li>基础层：填空式编程（补全关键代码）</li>
-<li>进阶层：开放式问题（如用不同算法实现同一功能）</li>
-<li>挑战层：项目大作业（如开发简易AI对话机器人）</li>
-</ul>
-</li>
-<li><strong>AI结对编程</strong>：学生与AI工具协作完成任务，培养“提问—调试—优化”的闭环能力。</li>
-<li><strong>Debug实战赛</strong>：提供含错误的代码，限时排查，培养问题定位能力。</li>
-</ul>
-<h4><strong>3. 价值引领（价值目标）</strong></h4>
-<ul>
-<li><strong>伦理情景讨论</strong>：
-<ul>
-<li>案例1：人脸识别技术的隐私争议 → “技术便利与伦理边界”</li>
-<li>案例2：AI生成代码的版权问题</li>
-</ul>
-</li>
-<li><strong>技术影响调研</strong>：学生调研某技术（如推荐算法）的社会影响，提交反思报告。</li>
-</ul>
-<h4><strong>4. 评价方式</strong></h4>
-<ul>
-<li><strong>过程性评价</strong>（50%）：
-<ul>
-<li>代码注释质量（体现逻辑严谨性）</li>
-<li>AI工具使用记录（如Prompt优化日志）</li>
-<li>限时开发任务（允许使用AI工具，但需独立解释代码）</li>
-</ul>
-</li>
-<li><strong>终结性评价</strong>（期末50%）</li>
-</ul>
-<h4><strong>特色设计</strong></h4>
-<ul>
-<li><strong>“AI助教”系统</strong>：可以适配教学进度，不会以超纲超前内容回答学生提问。学生可以利用其生成符合大纲要求的自测练习题。</li>
-</ul><h2>教学内容与进度安排</h2><p>每周1节上课，1节上机实践，每周有作业或考核。</p>
-<table>
-<tbody>
-<tr>
-<td width="47">
-<p><strong>周次</strong></p>
-</td>
-<td width="75">
-<p><strong>课程主题</strong></p>
-</td>
-<td width="141">
-<p><strong>教学内容与目标</strong></p>
-</td>
-<td width="150">
-<p><strong>作业与考核要求</strong></p>
-</td>
-</tr>
-<tr>
-<td width="47">
-<p><strong>Week 1</strong></p>
-</td>
-<td width="75">
-<p>程序设计与AI工具介绍</p>
-</td>
-<td width="141">
-<p><strong>教学目标</strong>：<br>- 理解程序设计核心思想与AI辅助编程的价值<br>- 掌握Python开发环境配置（VS Code+AI插件）<br><strong>内容</strong>：<br>- 编程思维导论（IPO模型）<br>- AI工具演示（代码生成）</p>
-</td>
-<td width="150">
-<p><strong>作业</strong>：<br>- 配置开发环境并提交截图<br>- 用AI生成简单“Happy New  Year 20xx！”程序（需附加注释说明生成用的提示词）</p>
-</td>
-</tr>
-<tr>
-<td width="47">
-<p><strong>Week 2</strong></p>
-</td>
-<td width="75">
-<p>Python快速入门</p>
-</td>
-<td width="141">
-<p><strong>教学目标</strong>：<br>- 掌握变量、表达式、输入输出等基础语法<br><strong>内容</strong>：<br>- 数据类型与运算符<br>- 简单交互程序开发</p>
-</td>
-<td width="150">
-<p><strong>作业</strong>：<br>- 编写BMI计算器（需用AI优化代码结构）</p>
-</td>
-</tr>
-<tr>
-<td width="47">
-<p><strong>Week 3</strong></p>
-</td>
-<td width="75">
-<p>AI辅助编程方法论</p>
-</td>
-<td width="141">
-<p><strong>教学目标</strong>：<br>- 识别AI生成代码的缺陷（如幻觉问题）<br>- 掌握Prompt优化技巧<br><strong>内容</strong>：<br>- AI代码验证案例分析</p>
-</td>
-<td width="150">
-<p><strong>作业</strong>：<br>- 提交AI调试日志（记录3次失败案例与修正过程）</p>
-</td>
-</tr>
-<tr>
-<td width="47">
-<p><strong>Week 4</strong></p>
-</td>
-<td width="75">
-<p>程序调试基础</p>
-</td>
-<td width="141">
-<p><strong>教学目标</strong>：<br>- 掌握错误分类（语法/逻辑/运行时）与调试工具<br><strong>内容</strong>：<br>- 断点调试与异常捕获<br>- 打印日志</p>
-</td>
-<td width="150">
-<p><strong>考核</strong>：<br>- 课堂限时编码测验（W1-3内容，20分钟）</p>
-<p><strong>作业</strong>：<br>- 修复含预设错误的代码片段</p>
-</td>
-</tr>
-<tr>
-<td width="47">
-<p><strong>Week </strong><strong>5</strong></p>
-</td>
-<td width="75">
-<p>流程控制</p>
-</td>
-<td width="141">
-<p><strong>教学目标</strong>：<br>- 设计条件分支与循环逻辑<br><strong>内容</strong>：<br>- 算法流程控制<br>- 嵌套结构优化</p>
-</td>
-<td width="150">
-<p><strong>作业</strong>：<br>- 开发猜数字游戏（需包含难度分级）</p>
-</td>
-</tr>
-<tr>
-<td width="47">
-<p><strong>Week </strong><strong>6</strong></p>
-</td>
-<td width="75">
-<p>列表和元组</p>
-</td>
-<td width="141">
-<p><strong>教学目标</strong>：<br>- 熟练应用列表等结构解决实际问题<br><strong>内容</strong>：<br>- 列表、元组</p>
-</td>
-<td width="150">
-<p><strong>作业</strong>：<br>- 学生成绩管理系统（列表版）</p>
-</td>
-</tr>
-<tr>
-<td width="47">
-<p><strong>Week </strong><strong>7</strong></p>
-</td>
-<td width="75">
-<p>字典和集合</p>
-</td>
-<td width="141">
-<p><strong>教学目标</strong>：<br>- 熟练应用字典等结构解决实际问题<br><strong>内容</strong>：</p>
-<p>- 字典、集合<br>- 数据操作与性能对比<br>- AI生成代码重构实践</p>
-</td>
-<td width="150">
-<p><strong>作业</strong>：<br>- 学生成绩管理系统（字典版）</p>
-</td>
-</tr>
-<tr>
-<td width="47">
-<p><strong>Week </strong><strong>8</strong></p>
-</td>
-<td width="75">
-<p>标准模块应用</p>
-</td>
-<td width="141">
-<p><strong>教学目标</strong>：<br>- 调用标准模块处理实际问题<br><strong>内容</strong>：<br>- math、random、string、re模块</p>
-<p>- 技术文档阅读技巧</p>
-</td>
-<td width="150">
-<p><strong>作业</strong>：<br>- 利用标准库函数实践解决应用问题（双色球号码、从文本提取邮箱手机、贷款等额本息月供计算器）</p>
-</td>
-</tr>
-<tr>
-<td width="47">
-<p><strong>Week </strong><strong>9</strong></p>
-</td>
-<td width="75">
-<p>函数</p>
-</td>
-<td width="141">
-<p><strong>教学目标</strong>：<br>- 实现高内聚低耦合的模块设计，理解函数参数传递机制</p>
-<p><strong>内容</strong>：<br>- 函数定义与参数传递（位置/关键字参数）<br>- Lambda表达式与高阶函数（map/filter）<br>- AI生成函数的可读性优化</p>
-</td>
-<td width="150">
-<p><strong>作业</strong>：<br>- 函数实现和调用（薪资计算器）<br><br></p>
-</td>
-</tr>
-<tr>
-<td width="47">
-<p><strong>Week </strong><strong>10</strong></p>
-</td>
-<td width="75">
-<p>模块化</p>
-</td>
-<td width="141">
-<p><strong>教学目标</strong>：<br>- 理解掌握自顶向下模块分解的思维方法<br><strong>内容</strong>：</p>
-<p>- 模块化程序的跟踪调试<br>- AI生成代码的模块化构造</p>
-</td>
-<td width="150">
-<p><strong>作业</strong>：<br>- 将W6-7作业重构为模块化结构<br><strong>考核</strong><strong>准备</strong>：</p>
-<p>- 项目大作业要求（选题涵盖数据管理、自动化脚本、智能对话、爬虫等方向）</p>
-</td>
-</tr>
-<tr>
-<td width="47">
-<p><strong>Week 1</strong><strong>1</strong></p>
-</td>
-<td width="75">
-<p>文件与交互</p>
-</td>
-<td width="141">
-<p><strong>教学目标</strong>：<br>- 掌握文件读写与用户交互设计<br><strong>内容</strong>：<br>- CSV/JSON数据处理<br>- 异常处理增强鲁棒性</p>
-</td>
-<td width="150">
-<p><strong>考核</strong>：<br>- Debug实战赛（20分钟）</p>
-<p><strong>作业</strong>：<br>- 开发问卷数据收集工具</p>
-</td>
-</tr>
-<tr>
-<td width="47">
-<p><strong>Week 12</strong></p>
-</td>
-<td width="75">
-<p>第三方模块应用</p>
-</td>
-<td width="141">
-<p><strong>教学目标</strong>：<br>- 调用Pandas处理实际问题<br><strong>内容</strong>：</p>
-<p>- 第三方模块安装<br>- 数据清洗与分析案例</p>
-</td>
-<td width="150">
-<p><strong>作业</strong>：<br>- 数据可视化（含AI辅助分析说明）</p>
-</td>
-</tr>
-<tr>
-<td width="47">
-<p><strong>Week 13</strong></p>
-</td>
-<td width="75">
-<p>API开发实战</p>
-</td>
-<td width="141">
-<p><strong>教学目标</strong>：<br>- 完成API调用与集成开发<br><strong>内容</strong>：<br>- Http API、Requests库与JSON解析<br>- 完成简单Web API的数据获取与处理流程</p>
-</td>
-<td width="150">
-<p><strong>作业</strong>：<br>- 网络爬虫（如天气查询）</p>
-</td>
-</tr>
-<tr>
-<td width="47">
-<p><strong>Week 14</strong></p>
-</td>
-<td width="75">
-<p>大模型开发实战</p>
-</td>
-<td width="141">
-<p><strong>教学目标</strong>：<br>- LLM的API调用与集成开发<br><strong>内容</strong>：<br>-实践调用开源大语言模型的API<br>- 大模型API调用伦理讨论</p>
-</td>
-<td width="150">
-<p><strong>考核</strong>：<br>-代码伦理情景讨论，撰写个人报告（500字）</p>
-<p><strong>考核</strong><strong>准备</strong>：</p>
-<p>- 优秀项目答辩报名</p>
-</td>
-</tr>
-<tr>
-<td width="47">
-<p><strong>Week 15</strong></p>
-</td>
-<td width="75">
-<p>综合项目</p>
-</td>
-<td width="141">
-<p><strong>教学目标</strong>：<br>- 整合全课程技能解决复杂问题<br><strong>内容</strong>：<br>- 项目需求分析与任务分解</p>
-</td>
-<td width="150">
-<p><strong>考核</strong>：<br>- 优秀项目答辩</p>
-</td>
-</tr>
-<tr>
-<td width="47">
-<p><strong>Week 16</strong></p>
-</td>
-<td width="75">
-<p>总结与展示</p>
-</td>
-<td width="141">
-<p><strong>教学目标</strong>：<br>- 反思AI工具使用边界<br><strong>内容</strong>：<br>- 课程知识图谱复盘</p>
-</td>
-<td width="150">
-<p><strong>考核</strong>：<br>-调研某技术（如推荐算法）的社会影响，提交反思报告。（800字）</p>
-</td>
-</tr>
-</tbody>
-</table>
-<p>实践环节说明：</p>
-<ul>
-<li>上机实践：每周1学时，完成当周作业原型开发</li>
-<li>特色活动：
-<ul>
-<li>Week 4：课堂限时编码测验（计入课堂表现分）</li>
-<li>Week 11：Debug实战赛（计入课堂表现分）</li>
-<li>Week 14：代码伦理情景讨论（计入课题研讨分）</li>
-<li>Week 16：技术影响调研报告（计入课题论文分）</li>
-</ul>
-</li>
+<!doctype html><html lang="zh-CN"><meta charset="utf-8"><title>Python程序设计 · 张向东 · 2025秋 AIB110002.14</title><style>body{max-width:1000px;margin:35px auto;padding:0 20px;font:16px/1.9 system-ui}table{border-collapse:collapse}td,th{border:1px solid #cad7cf;padding:8px}img{max-width:100%}</style><body><h1>Python程序设计</h1><p>2025秋 · AIB110002.14 · 张向东</p><p>来源：复旦教务系统教学班大纲。</p><h2>考核与成绩构成</h2><ul><li>出勤Attendance 10.0% 从第3周开始打卡考勤。得分=出勤次数/考勤次数*100。</li><li>课堂表现Participation 10.0% 得分=第4周课堂限时编码测验得分*50%+第11周Debug实战赛得分*50%</li><li>作业/实验/实践Assignment 40.0% 平时作业若干次，项目大作业1次。作业若迟交则该次作业成绩打8折。得分=平时各次作业成绩平均*50%+大作业成绩*50%。</li><li>课题研讨Topic Discussion 5.0% 第14周代码伦理报告。</li><li>课题论文Research Paper 5.0% 第16周技术影响调研报告。</li><li>期末考试Final Examination：闭卷  30.0% 试卷设计紧扣教学大纲，重点考查学生对知识的理解和应用能力，题型多样，难易适中。</li></ul><h2>课程简介（中文）</h2><p>课程面向零基础学生，以Python为载体，系统讲授程序设计基础（包括数据结构、流程控制、函数与模块化开发等），并结合AI辅助编程技术，帮助学生掌握AI工具在代码生成、调试等环节的高效应用方法。课程采用“理论+实践”模式，培养学生的逻辑思维和解决问题的能力，全面提升学生的AI素养。</p>
+<p>课程适用于各专业学生的程序设计与创新能力培养。</p><h2>课程简介（英文）</h2><p>This course is designed for beginners with no prior programming experience. Using Python as the teaching language, it systematically covers programming fundamentals including data structures, flow control, functions, and modular development. The course integrates AI-assisted programming techniques to help students effectively utilize intelligent tools for code generation and debugging. Through a combination of theoretical instruction and hands-on practice, it aims to develop students&#x27; logic-thinking, problem-solving skills, and AI competency. The course is suitable for students of all academic disciplines to acquire programming design skills and foster innovative thinking.</p><h2>教学目标</h2><p>课程以Python为载体，培养计算思维和AI素养；弱化记忆要求，强调对知识的理解和应用，树立严谨创新的科学精神；培养高层次认知能力、创造性解决问题的能力。</p>
+<p>知识目标：掌握程序设计基础（数据结构、流程控制、函数与模块化开发等）；应用AI辅助编程的技术。</p>
+<p>能力目标：培养逻辑思维和解决问题的能力（通过&quot;理论+实践&quot;），提升AI工具应用水平。</p>
+<p>价值目标：强化代码伦理意识，理解技术与社会的关系；培养创新精神；培养终身学习能力，适应AI时代。</p><h2>教学方式</h2><p>为实现课程目标，采用 <strong>“以学生为中心、AI赋能、分层递进”</strong> 的教学模式，结合理论讲授、项目实践、智能工具辅助及反思评价，具体策略如下：</p>
+<h4><strong>1. 理论教学（知识目标）</strong></h4>
+<ul>
+<li><strong>案例驱动</strong>：以真实场景（如数据分析、生活实际问题）引入编程概念，避免抽象讲解。</li>
+<li><strong>可视化辅助</strong>：用流程图、动画演示，降低理解门槛。</li>
+<li><strong>AI即时反馈</strong>：利用AI工具演示代码生成，对比人工编写与AI生成的差异，分析优劣。</li>
+</ul>
+<h4><strong>2. 实践训练（能力目标）</strong></h4>
+<ul>
+<li><strong>分层任务设计</strong>：
+<ul>
+<li>基础层：填空式编程（补全关键代码）</li>
+<li>进阶层：开放式问题（如用不同算法实现同一功能）</li>
+<li>挑战层：项目大作业（如开发简易AI对话机器人）</li>
+</ul>
+</li>
+<li><strong>AI结对编程</strong>：学生与AI工具协作完成任务，培养“提问—调试—优化”的闭环能力。</li>
+<li><strong>Debug实战赛</strong>：提供含错误的代码，限时排查，培养问题定位能力。</li>
+</ul>
+<h4><strong>3. 价值引领（价值目标）</strong></h4>
+<ul>
+<li><strong>伦理情景讨论</strong>：
+<ul>
+<li>案例1：人脸识别技术的隐私争议 → “技术便利与伦理边界”</li>
+<li>案例2：AI生成代码的版权问题</li>
+</ul>
+</li>
+<li><strong>技术影响调研</strong>：学生调研某技术（如推荐算法）的社会影响，提交反思报告。</li>
+</ul>
+<h4><strong>4. 评价方式</strong></h4>
+<ul>
+<li><strong>过程性评价</strong>（50%）：
+<ul>
+<li>代码注释质量（体现逻辑严谨性）</li>
+<li>AI工具使用记录（如Prompt优化日志）</li>
+<li>限时开发任务（允许使用AI工具，但需独立解释代码）</li>
+</ul>
+</li>
+<li><strong>终结性评价</strong>（期末50%）</li>
+</ul>
+<h4><strong>特色设计</strong></h4>
+<ul>
+<li><strong>“AI助教”系统</strong>：可以适配教学进度，不会以超纲超前内容回答学生提问。学生可以利用其生成符合大纲要求的自测练习题。</li>
+</ul><h2>教学内容与进度安排</h2><p>每周1节上课，1节上机实践，每周有作业或考核。</p>
+<table>
+<tbody>
+<tr>
+<td width="47">
+<p><strong>周次</strong></p>
+</td>
+<td width="75">
+<p><strong>课程主题</strong></p>
+</td>
+<td width="141">
+<p><strong>教学内容与目标</strong></p>
+</td>
+<td width="150">
+<p><strong>作业与考核要求</strong></p>
+</td>
+</tr>
+<tr>
+<td width="47">
+<p><strong>Week 1</strong></p>
+</td>
+<td width="75">
+<p>程序设计与AI工具介绍</p>
+</td>
+<td width="141">
+<p><strong>教学目标</strong>：<br>- 理解程序设计核心思想与AI辅助编程的价值<br>- 掌握Python开发环境配置（VS Code+AI插件）<br><strong>内容</strong>：<br>- 编程思维导论（IPO模型）<br>- AI工具演示（代码生成）</p>
+</td>
+<td width="150">
+<p><strong>作业</strong>：<br>- 配置开发环境并提交截图<br>- 用AI生成简单“Happy New  Year 20xx！”程序（需附加注释说明生成用的提示词）</p>
+</td>
+</tr>
+<tr>
+<td width="47">
+<p><strong>Week 2</strong></p>
+</td>
+<td width="75">
+<p>Python快速入门</p>
+</td>
+<td width="141">
+<p><strong>教学目标</strong>：<br>- 掌握变量、表达式、输入输出等基础语法<br><strong>内容</strong>：<br>- 数据类型与运算符<br>- 简单交互程序开发</p>
+</td>
+<td width="150">
+<p><strong>作业</strong>：<br>- 编写BMI计算器（需用AI优化代码结构）</p>
+</td>
+</tr>
+<tr>
+<td width="47">
+<p><strong>Week 3</strong></p>
+</td>
+<td width="75">
+<p>AI辅助编程方法论</p>
+</td>
+<td width="141">
+<p><strong>教学目标</strong>：<br>- 识别AI生成代码的缺陷（如幻觉问题）<br>- 掌握Prompt优化技巧<br><strong>内容</strong>：<br>- AI代码验证案例分析</p>
+</td>
+<td width="150">
+<p><strong>作业</strong>：<br>- 提交AI调试日志（记录3次失败案例与修正过程）</p>
+</td>
+</tr>
+<tr>
+<td width="47">
+<p><strong>Week 4</strong></p>
+</td>
+<td width="75">
+<p>程序调试基础</p>
+</td>
+<td width="141">
+<p><strong>教学目标</strong>：<br>- 掌握错误分类（语法/逻辑/运行时）与调试工具<br><strong>内容</strong>：<br>- 断点调试与异常捕获<br>- 打印日志</p>
+</td>
+<td width="150">
+<p><strong>考核</strong>：<br>- 课堂限时编码测验（W1-3内容，20分钟）</p>
+<p><strong>作业</strong>：<br>- 修复含预设错误的代码片段</p>
+</td>
+</tr>
+<tr>
+<td width="47">
+<p><strong>Week </strong><strong>5</strong></p>
+</td>
+<td width="75">
+<p>流程控制</p>
+</td>
+<td width="141">
+<p><strong>教学目标</strong>：<br>- 设计条件分支与循环逻辑<br><strong>内容</strong>：<br>- 算法流程控制<br>- 嵌套结构优化</p>
+</td>
+<td width="150">
+<p><strong>作业</strong>：<br>- 开发猜数字游戏（需包含难度分级）</p>
+</td>
+</tr>
+<tr>
+<td width="47">
+<p><strong>Week </strong><strong>6</strong></p>
+</td>
+<td width="75">
+<p>列表和元组</p>
+</td>
+<td width="141">
+<p><strong>教学目标</strong>：<br>- 熟练应用列表等结构解决实际问题<br><strong>内容</strong>：<br>- 列表、元组</p>
+</td>
+<td width="150">
+<p><strong>作业</strong>：<br>- 学生成绩管理系统（列表版）</p>
+</td>
+</tr>
+<tr>
+<td width="47">
+<p><strong>Week </strong><strong>7</strong></p>
+</td>
+<td width="75">
+<p>字典和集合</p>
+</td>
+<td width="141">
+<p><strong>教学目标</strong>：<br>- 熟练应用字典等结构解决实际问题<br><strong>内容</strong>：</p>
+<p>- 字典、集合<br>- 数据操作与性能对比<br>- AI生成代码重构实践</p>
+</td>
+<td width="150">
+<p><strong>作业</strong>：<br>- 学生成绩管理系统（字典版）</p>
+</td>
+</tr>
+<tr>
+<td width="47">
+<p><strong>Week </strong><strong>8</strong></p>
+</td>
+<td width="75">
+<p>标准模块应用</p>
+</td>
+<td width="141">
+<p><strong>教学目标</strong>：<br>- 调用标准模块处理实际问题<br><strong>内容</strong>：<br>- math、random、string、re模块</p>
+<p>- 技术文档阅读技巧</p>
+</td>
+<td width="150">
+<p><strong>作业</strong>：<br>- 利用标准库函数实践解决应用问题（双色球号码、从文本提取邮箱手机、贷款等额本息月供计算器）</p>
+</td>
+</tr>
+<tr>
+<td width="47">
+<p><strong>Week </strong><strong>9</strong></p>
+</td>
+<td width="75">
+<p>函数</p>
+</td>
+<td width="141">
+<p><strong>教学目标</strong>：<br>- 实现高内聚低耦合的模块设计，理解函数参数传递机制</p>
+<p><strong>内容</strong>：<br>- 函数定义与参数传递（位置/关键字参数）<br>- Lambda表达式与高阶函数（map/filter）<br>- AI生成函数的可读性优化</p>
+</td>
+<td width="150">
+<p><strong>作业</strong>：<br>- 函数实现和调用（薪资计算器）<br><br></p>
+</td>
+</tr>
+<tr>
+<td width="47">
+<p><strong>Week </strong><strong>10</strong></p>
+</td>
+<td width="75">
+<p>模块化</p>
+</td>
+<td width="141">
+<p><strong>教学目标</strong>：<br>- 理解掌握自顶向下模块分解的思维方法<br><strong>内容</strong>：</p>
+<p>- 模块化程序的跟踪调试<br>- AI生成代码的模块化构造</p>
+</td>
+<td width="150">
+<p><strong>作业</strong>：<br>- 将W6-7作业重构为模块化结构<br><strong>考核</strong><strong>准备</strong>：</p>
+<p>- 项目大作业要求（选题涵盖数据管理、自动化脚本、智能对话、爬虫等方向）</p>
+</td>
+</tr>
+<tr>
+<td width="47">
+<p><strong>Week 1</strong><strong>1</strong></p>
+</td>
+<td width="75">
+<p>文件与交互</p>
+</td>
+<td width="141">
+<p><strong>教学目标</strong>：<br>- 掌握文件读写与用户交互设计<br><strong>内容</strong>：<br>- CSV/JSON数据处理<br>- 异常处理增强鲁棒性</p>
+</td>
+<td width="150">
+<p><strong>考核</strong>：<br>- Debug实战赛（20分钟）</p>
+<p><strong>作业</strong>：<br>- 开发问卷数据收集工具</p>
+</td>
+</tr>
+<tr>
+<td width="47">
+<p><strong>Week 12</strong></p>
+</td>
+<td width="75">
+<p>第三方模块应用</p>
+</td>
+<td width="141">
+<p><strong>教学目标</strong>：<br>- 调用Pandas处理实际问题<br><strong>内容</strong>：</p>
+<p>- 第三方模块安装<br>- 数据清洗与分析案例</p>
+</td>
+<td width="150">
+<p><strong>作业</strong>：<br>- 数据可视化（含AI辅助分析说明）</p>
+</td>
+</tr>
+<tr>
+<td width="47">
+<p><strong>Week 13</strong></p>
+</td>
+<td width="75">
+<p>API开发实战</p>
+</td>
+<td width="141">
+<p><strong>教学目标</strong>：<br>- 完成API调用与集成开发<br><strong>内容</strong>：<br>- Http API、Requests库与JSON解析<br>- 完成简单Web API的数据获取与处理流程</p>
+</td>
+<td width="150">
+<p><strong>作业</strong>：<br>- 网络爬虫（如天气查询）</p>
+</td>
+</tr>
+<tr>
+<td width="47">
+<p><strong>Week 14</strong></p>
+</td>
+<td width="75">
+<p>大模型开发实战</p>
+</td>
+<td width="141">
+<p><strong>教学目标</strong>：<br>- LLM的API调用与集成开发<br><strong>内容</strong>：<br>-实践调用开源大语言模型的API<br>- 大模型API调用伦理讨论</p>
+</td>
+<td width="150">
+<p><strong>考核</strong>：<br>-代码伦理情景讨论，撰写个人报告（500字）</p>
+<p><strong>考核</strong><strong>准备</strong>：</p>
+<p>- 优秀项目答辩报名</p>
+</td>
+</tr>
+<tr>
+<td width="47">
+<p><strong>Week 15</strong></p>
+</td>
+<td width="75">
+<p>综合项目</p>
+</td>
+<td width="141">
+<p><strong>教学目标</strong>：<br>- 整合全课程技能解决复杂问题<br><strong>内容</strong>：<br>- 项目需求分析与任务分解</p>
+</td>
+<td width="150">
+<p><strong>考核</strong>：<br>- 优秀项目答辩</p>
+</td>
+</tr>
+<tr>
+<td width="47">
+<p><strong>Week 16</strong></p>
+</td>
+<td width="75">
+<p>总结与展示</p>
+</td>
+<td width="141">
+<p><strong>教学目标</strong>：<br>- 反思AI工具使用边界<br><strong>内容</strong>：<br>- 课程知识图谱复盘</p>
+</td>
+<td width="150">
+<p><strong>考核</strong>：<br>-调研某技术（如推荐算法）的社会影响，提交反思报告。（800字）</p>
+</td>
+</tr>
+</tbody>
+</table>
+<p>实践环节说明：</p>
+<ul>
+<li>上机实践：每周1学时，完成当周作业原型开发</li>
+<li>特色活动：
+<ul>
+<li>Week 4：课堂限时编码测验（计入课堂表现分）</li>
+<li>Week 11：Debug实战赛（计入课堂表现分）</li>
+<li>Week 14：代码伦理情景讨论（计入课题研讨分）</li>
+<li>Week 16：技术影响调研报告（计入课题论文分）</li>
+</ul>
+</li>
 </ul><h2>课程考核与成绩评定</h2><h2>教材</h2><h2>教学参考资料</h2><h2>教学团队成员</h2><h2>教材与参考书</h2><p>复旦大学计算机基础教学团队；2024-09；9787113313807；Python程序设计基础教程；中国铁道出版社</p></body></html>

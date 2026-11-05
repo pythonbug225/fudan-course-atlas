@@ -12,7 +12,7 @@ export function createCommunity(env:any){
  }
  async function contentHash(value:unknown){
   const bytes=value instanceof Uint8Array?value:new TextEncoder().encode(JSON.stringify(value).normalize('NFKC').replace(/\s+/g,' '));
-  return Array.from(new Uint8Array(await crypto.subtle.digest('SHA-256',bytes))).map(x=>x.toString(16).padStart(2,'0')).join('');
+  return Array.from(new Uint8Array(await crypto.subtle.digest('SHA-256',Uint8Array.from(bytes)))).map(x=>x.toString(16).padStart(2,'0')).join('');
  }
  async function hydrate(rows:any[],req:Request){
   return Promise.all(rows.map(async(row:any)=>{

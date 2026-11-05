@@ -1,71 +1,71 @@
-<!doctype html><html lang="zh-CN"><meta charset="utf-8"><title>计算机网络(H) · YANGXU（徐扬）、刘森 · 2025秋 CS30036h.01</title><style>body{max-width:1000px;margin:35px auto;padding:0 20px;font:16px/1.9 system-ui}table{border-collapse:collapse}td,th{border:1px solid #cad7cf;padding:8px}img{max-width:100%}</style><body><h1>计算机网络(H)</h1><p>2025秋 · CS30036h.01 · YANGXU（徐扬）、刘森</p><p>来源：复旦教务系统教学班大纲。</p><h2>考核与成绩构成</h2><ul><li>作业/实验/实践Assignment 40.0% 出勤及每章课后作业占总权重10%，课程实验占总权重30%</li><li>期末考试Final Examination：开卷  60.0% 满分100分</li></ul><h2>课程简介（中文）</h2><p>本课程以Internet的体系结构和协议为主线，从理论和实践的角度讲授计算机网络的基本概念和基本原理，主要内容包括：数据链路层、网络层（数据平面和控制平面）、运输层和网络应用等，涵盖各层所要解决的基础性问题，主流的网络协议，目前的最新进展等。本课程的实验部分包括网络协议分析以及网络编程，有助于学生加深对TCP/IP协议的理解，掌握网络应用的实现方法。</p><h2>课程简介（英文）</h2><div>
-<div>
-<div>
-<div>
-<div>
-<p>This course centers around the architecture and protocols of the Internet, providing both theoretical and practical perspectives on the fundamental concepts and principles of computer networks. The main topics include the data link layer, network layer (data plane and control plane), transport layer, and network applications. It covers the fundamental problems addressed at each layer, mainstream network protocols, and recent advances in the field. The practical component of the course involves network protocol analysis and network programming, which help students deepen their understanding of the TCP/IP protocol suite and acquire skills for implementing network applications.</p>
-</div>
-</div>
-</div>
-</div>
-</div><h2>教学目标</h2><p>通过自顶向下的方法讲授计算机网络的基本原理及其协议，并结合课程配套的实验使学生加深对课程内容的理解，培养学生理论联系实际和实践动手的能力，使学生不仅了解什么是计算机网络以及计算机网络是如何工作的，同时了解其为什么要这样设计，为今后工作或者继续从事相关科学研究打下扎实的专业基础；培养学生对计算机网络的历史发展和现实需求的理解，了解计算机网络研究热点问题、网络工程师职业道德要求、网络安全对计算机网络技术的设计及道德影响等。</p><h2>教学方式</h2><p>课堂理论教学与渐进式配套实验。</p><h2>教学内容与进度安排</h2><p>除去两周考试周，共16周教学周。 每章均有课后作业及对应的网络实验。</p>
-<p> </p>
-<p>第一章：计算机网络和Internet概述（6学时，共2周）</p>
-<ul>
-<li>Internet简介: 计算机网络的组成和定义，计算机网络分类</li>
-<li>交换技术：分组交换、电路交换，分组交换网中的时延、丢包和吞吐量</li>
-<li>网络体系结构：层次模型，OSI和Internet参考模型</li>
-<li>计算机网络的发展历史和标准化组织</li>
-<li>网络安全问题及计算机网络工程师职业伦理道德</li>
-</ul>
-<p>配套实验<br>Lab 1：使用Wireshark观察分组</p>
-<p> </p>
-<p>第二章：网络应用（9学时，共3周）</p>
-<ul>
-<li>域名服务：DNS基本概念，DNS资源纪录，域名解析过程，DNS协议</li>
-<li>传统应用：电子邮件（电子邮件概述，电子邮件格式，SMTP，IMAP协议），万维网WWW（WWW概述，HTTP协议，非持续连接和持续连接，HTTP报文格式，cookie）</li>
-<li>P2P文件分发</li>
-<li>视频流和内容分发网</li>
-<li>套接字编程：生成网络应用</li>
-</ul>
-<p>配套实验<br>Lab 2：应用层协议模拟与观察</p>
-<p> </p>
-<p>第三章：传输层协议（9学时，共3周）</p>
-<ul>
-<li>概述和运输层服务</li>
-<li>多路复用与多路分解</li>
-<li>可靠数据传输原理</li>
-<li>TCP协议：TCP概述和TCP报文格式，TCP连接管理，TCP数据传输和流量控制，TCP拥塞控制</li>
-<li>UDP协议</li>
-</ul>
-<p>配套实验<br>Lab 3：Socket编程<br>Lab 4：基于UDP的可靠传输</p>
-<p> </p>
-<p>第四章：网络层协议：数据平面（9学时，共3周）</p>
-<ul>
-<li>网络层概述：转发和路由选择，数据平面和控制平面</li>
-<li>路由器工作原理：数据包处理、交换、排队、调度</li>
-<li>IPv4协议、IPv6协议</li>
-<li>通用转发和软件定义网络（SDN）</li>
-</ul>
-<p>配套实验<br>Lab 5：网络层数据平面观察实验</p>
-<p> </p>
-<p>第五章：网络层协议：控制平面（9学时，共3周）</p>
-<ul>
-<li>路由选择算法：链路状态路由选择算法，距离向量路由选择算法</li>
-<li>域内路由选择和域间路由选择</li>
-<li>SDN控制平面</li>
-<li>ICMP</li>
-<li>网络管理和SNMP</li>
-</ul>
-<p>配套实验<br>Lab 6：网络层路由协议模拟与观察<br>Lab 7：网络层控制平面流表下发</p>
-<p> </p>
-<p>第六章：链路层和局域网（6学时，共2周）</p>
-<ul>
-<li>链路层概述</li>
-<li>差错检测和纠正技术</li>
-<li>多路访问链路和协议</li>
-<li>交换局域网</li>
-<li>链路虚拟化</li>
-<li>数据中心网络</li>
-</ul>
+<!doctype html><html lang="zh-CN"><meta charset="utf-8"><title>计算机网络(H) · YANGXU（徐扬）、刘森 · 2025秋 CS30036h.01</title><style>body{max-width:1000px;margin:35px auto;padding:0 20px;font:16px/1.9 system-ui}table{border-collapse:collapse}td,th{border:1px solid #cad7cf;padding:8px}img{max-width:100%}</style><body><h1>计算机网络(H)</h1><p>2025秋 · CS30036h.01 · YANGXU（徐扬）、刘森</p><p>来源：复旦教务系统教学班大纲。</p><h2>考核与成绩构成</h2><ul><li>作业/实验/实践Assignment 40.0% 出勤及每章课后作业占总权重10%，课程实验占总权重30%</li><li>期末考试Final Examination：开卷  60.0% 满分100分</li></ul><h2>课程简介（中文）</h2><p>本课程以Internet的体系结构和协议为主线，从理论和实践的角度讲授计算机网络的基本概念和基本原理，主要内容包括：数据链路层、网络层（数据平面和控制平面）、运输层和网络应用等，涵盖各层所要解决的基础性问题，主流的网络协议，目前的最新进展等。本课程的实验部分包括网络协议分析以及网络编程，有助于学生加深对TCP/IP协议的理解，掌握网络应用的实现方法。</p><h2>课程简介（英文）</h2><div>
+<div>
+<div>
+<div>
+<div>
+<p>This course centers around the architecture and protocols of the Internet, providing both theoretical and practical perspectives on the fundamental concepts and principles of computer networks. The main topics include the data link layer, network layer (data plane and control plane), transport layer, and network applications. It covers the fundamental problems addressed at each layer, mainstream network protocols, and recent advances in the field. The practical component of the course involves network protocol analysis and network programming, which help students deepen their understanding of the TCP/IP protocol suite and acquire skills for implementing network applications.</p>
+</div>
+</div>
+</div>
+</div>
+</div><h2>教学目标</h2><p>通过自顶向下的方法讲授计算机网络的基本原理及其协议，并结合课程配套的实验使学生加深对课程内容的理解，培养学生理论联系实际和实践动手的能力，使学生不仅了解什么是计算机网络以及计算机网络是如何工作的，同时了解其为什么要这样设计，为今后工作或者继续从事相关科学研究打下扎实的专业基础；培养学生对计算机网络的历史发展和现实需求的理解，了解计算机网络研究热点问题、网络工程师职业道德要求、网络安全对计算机网络技术的设计及道德影响等。</p><h2>教学方式</h2><p>课堂理论教学与渐进式配套实验。</p><h2>教学内容与进度安排</h2><p>除去两周考试周，共16周教学周。 每章均有课后作业及对应的网络实验。</p>
+<p> </p>
+<p>第一章：计算机网络和Internet概述（6学时，共2周）</p>
+<ul>
+<li>Internet简介: 计算机网络的组成和定义，计算机网络分类</li>
+<li>交换技术：分组交换、电路交换，分组交换网中的时延、丢包和吞吐量</li>
+<li>网络体系结构：层次模型，OSI和Internet参考模型</li>
+<li>计算机网络的发展历史和标准化组织</li>
+<li>网络安全问题及计算机网络工程师职业伦理道德</li>
+</ul>
+<p>配套实验<br>Lab 1：使用Wireshark观察分组</p>
+<p> </p>
+<p>第二章：网络应用（9学时，共3周）</p>
+<ul>
+<li>域名服务：DNS基本概念，DNS资源纪录，域名解析过程，DNS协议</li>
+<li>传统应用：电子邮件（电子邮件概述，电子邮件格式，SMTP，IMAP协议），万维网WWW（WWW概述，HTTP协议，非持续连接和持续连接，HTTP报文格式，cookie）</li>
+<li>P2P文件分发</li>
+<li>视频流和内容分发网</li>
+<li>套接字编程：生成网络应用</li>
+</ul>
+<p>配套实验<br>Lab 2：应用层协议模拟与观察</p>
+<p> </p>
+<p>第三章：传输层协议（9学时，共3周）</p>
+<ul>
+<li>概述和运输层服务</li>
+<li>多路复用与多路分解</li>
+<li>可靠数据传输原理</li>
+<li>TCP协议：TCP概述和TCP报文格式，TCP连接管理，TCP数据传输和流量控制，TCP拥塞控制</li>
+<li>UDP协议</li>
+</ul>
+<p>配套实验<br>Lab 3：Socket编程<br>Lab 4：基于UDP的可靠传输</p>
+<p> </p>
+<p>第四章：网络层协议：数据平面（9学时，共3周）</p>
+<ul>
+<li>网络层概述：转发和路由选择，数据平面和控制平面</li>
+<li>路由器工作原理：数据包处理、交换、排队、调度</li>
+<li>IPv4协议、IPv6协议</li>
+<li>通用转发和软件定义网络（SDN）</li>
+</ul>
+<p>配套实验<br>Lab 5：网络层数据平面观察实验</p>
+<p> </p>
+<p>第五章：网络层协议：控制平面（9学时，共3周）</p>
+<ul>
+<li>路由选择算法：链路状态路由选择算法，距离向量路由选择算法</li>
+<li>域内路由选择和域间路由选择</li>
+<li>SDN控制平面</li>
+<li>ICMP</li>
+<li>网络管理和SNMP</li>
+</ul>
+<p>配套实验<br>Lab 6：网络层路由协议模拟与观察<br>Lab 7：网络层控制平面流表下发</p>
+<p> </p>
+<p>第六章：链路层和局域网（6学时，共2周）</p>
+<ul>
+<li>链路层概述</li>
+<li>差错检测和纠正技术</li>
+<li>多路访问链路和协议</li>
+<li>交换局域网</li>
+<li>链路虚拟化</li>
+<li>数据中心网络</li>
+</ul>
 <p>配套实验<br>Lab 8：链路层观察</p><h2>课程考核与成绩评定</h2><h2>教材</h2><h2>教学参考资料</h2><p>计算机网络教程(第2版)，ISBN 978-7-04-038514-4，高传善、曹袖、毛迪林、王雪平，高等教育出版社, 2013年11月</p><h2>教学团队成员</h2><h2>教材与参考书</h2><p>[美] 詹姆斯·F.库罗斯，[美] 基思·W.罗斯 著，陈鸣 译；2022-11；9787111712367；计算机网络:自顶向下的方法；机械工业出版社</p></body></html>

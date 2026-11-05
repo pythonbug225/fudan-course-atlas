@@ -1,2 +1,6 @@
 public/assets/plans/** -text
 public/syllabi/** -text
+
+# Applied migrations and schema snapshots retain their deployed bytes.
+drizzle/*.sql -text
+drizzle/meta/*_snapshot.json -text

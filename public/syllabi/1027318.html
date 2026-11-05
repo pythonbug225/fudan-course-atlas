@@ -1,146 +1,146 @@
-<!doctype html><html lang="zh-CN"><meta charset="utf-8"><title>分布式系统 · 冯红伟 · 2026春 CS30033.01</title><style>body{max-width:1000px;margin:35px auto;padding:0 20px;font:16px/1.9 system-ui}table{border-collapse:collapse}td,th{border:1px solid #cad7cf;padding:8px}img{max-width:100%}</style><body><h1>分布式系统</h1><p>2026春 · CS30033.01 · 冯红伟</p><p>来源：复旦教务系统教学班大纲。</p><h2>考核与成绩构成</h2><ul><li>作业/实验/实践Assignment 50.0% </li><li>期末考试Final Examination：开卷  50.0% </li></ul><h2>课程简介（中文）</h2><p>课程将分析分布式系统构建的核心问题与挑战，介绍分布式系统模型、消息传递、p2p系统的模型、时钟与分布式系统同步模型、多副本与系统一致性，容错与安全，Hadoop云计算框架及应用。</p><h2>课程简介（英文）</h2><p>The course will analyze the core problems and challenges in building distributed systems, and introduce distributed system models, message passing, peer-to-peer (P2P) system models, clocks and synchronization models in distributed systems, replication and system consistency, fault tolerance and security, as well as the Hadoop cloud computing framework and its applications.</p><h2>教学目标</h2><p>通过本课程的学习，学生应当能够掌握构建分布式系统的基本原理，把握设计分布式系统时应该考虑的关键问题。要求掌握基本概念和理解基本设计理念，在分布式系统研究和应用领域内，提高分析问题和解决问题的能力，同时为分布式应用开发打下扎实的理论基础。</p><h2>教学方式</h2><p>1 课堂讲解及讨论</p>
-<p>  以教师讲解为主，同时组织对相关主题的小组讨论</p>
-<p>2 课程实践项目</p>
-<p>   课堂实践：通过实验验证理论结果</p>
-<p>   课后实践项目：以个人或小组的形式完成分布式系统或应用实践项目。</p><h2>教学内容与进度安排</h2><p> </p>
-<table>
-<tbody>
-<tr>
-<td width="132">
-<p><strong>教学周</strong></p>
-</td>
-<td width="680">
-<p><strong>教学内容及预期效果</strong></p>
-</td>
-</tr>
-<tr>
-<td width="132">
-<p>一</p>
-</td>
-<td width="680">
-<p>分布式体系结构的特点，掌握分布式基本概念，系统结果及设计方法</p>
-</td>
-</tr>
-<tr>
-<td width="132">
-<p>二</p>
-</td>
-<td width="680">
-<p>掌握线程、、虚拟化、客户、服务器、代码迁移等概念</p>
-</td>
-</tr>
-<tr>
-<td width="132">
-<p>三</p>
-</td>
-<td width="680">
-<p>学习远程过程调用，掌握面向消息的通信、面向流的通信、多播通信</p>
-</td>
-</tr>
-<tr>
-<td width="132">
-<p>四</p>
-</td>
-<td width="680">
-<p>命名系统，名称、标识符和地址、结构化命名</p>
-<p>无层次命名</p>
-</td>
-</tr>
-<tr>
-<td width="132">
-<p>五</p>
-</td>
-<td width="680">
-<p>系统同步，物理时钟、逻辑时钟、互斥、选举算法</p>
-</td>
-</tr>
-<tr>
-<td width="132">
-<p>六</p>
-</td>
-<td width="680">
-<p>一致性和复制：以数据为中心的一致性、以客户为中心的一致性，副本管理和一致性读写协议</p>
-</td>
-</tr>
-<tr>
-<td width="132">
-<p>七</p>
-</td>
-<td width="680">
-<p>容错性概念，进程恢复、可靠通信、分布式提交、</p>
-</td>
-</tr>
-<tr>
-<td width="132">
-<p>八</p>
-</td>
-<td width="680">
-<p>安全通信管道、访问控制与安全管理</p>
-</td>
-</tr>
-<tr>
-<td width="132">
-<p>九</p>
-</td>
-<td width="680">
-<p>基于对象的分布式系统，CORBA系统分析</p>
-</td>
-</tr>
-<tr>
-<td width="132">
-<p>十</p>
-</td>
-<td width="680">
-<p>分布式文件系统，掌握NFS系统的特点、接口设计、容错及一致性设计</p>
-</td>
-</tr>
-<tr>
-<td width="132">
-<p>十一</p>
-</td>
-<td width="680">
-<p>Hadoop的总体结构、Hadoop数据复制、Namenode的容错、Hadoop的读写流程</p>
-</td>
-</tr>
-<tr>
-<td width="132">
-<p>十二</p>
-</td>
-<td width="680">
-<p>掌握zookeeper 的概念、Zookeeper的接口与典型应用，掌握zookeeper集群一致性、容错恢复的原理</p>
-</td>
-</tr>
-<tr>
-<td width="132">
-<p>十三</p>
-</td>
-<td width="680">
-<p>MapReduce的概念、编程、计算案例</p>
-</td>
-</tr>
-<tr>
-<td width="132">
-<p>十四</p>
-</td>
-<td width="680">
-<p>Hbase的原理、数据存储特点、NOSQL的原理</p>
-</td>
-</tr>
-<tr>
-<td width="132">
-<p>十五</p>
-</td>
-<td width="680">
-<p>掌握AWS核心服务VPC、EC2、EBS、DynamoDB等模块的设计，掌握高可用于弹性服务ELB与auto scaling服务</p>
-</td>
-</tr>
-<tr>
-<td width="132">
-<p>十六</p>
-</td>
-<td width="680">
-<p>掌握基于spark的大数据计算框架</p>
-</td>
-</tr>
-</tbody>
+<!doctype html><html lang="zh-CN"><meta charset="utf-8"><title>分布式系统 · 冯红伟 · 2026春 CS30033.01</title><style>body{max-width:1000px;margin:35px auto;padding:0 20px;font:16px/1.9 system-ui}table{border-collapse:collapse}td,th{border:1px solid #cad7cf;padding:8px}img{max-width:100%}</style><body><h1>分布式系统</h1><p>2026春 · CS30033.01 · 冯红伟</p><p>来源：复旦教务系统教学班大纲。</p><h2>考核与成绩构成</h2><ul><li>作业/实验/实践Assignment 50.0% </li><li>期末考试Final Examination：开卷  50.0% </li></ul><h2>课程简介（中文）</h2><p>课程将分析分布式系统构建的核心问题与挑战，介绍分布式系统模型、消息传递、p2p系统的模型、时钟与分布式系统同步模型、多副本与系统一致性，容错与安全，Hadoop云计算框架及应用。</p><h2>课程简介（英文）</h2><p>The course will analyze the core problems and challenges in building distributed systems, and introduce distributed system models, message passing, peer-to-peer (P2P) system models, clocks and synchronization models in distributed systems, replication and system consistency, fault tolerance and security, as well as the Hadoop cloud computing framework and its applications.</p><h2>教学目标</h2><p>通过本课程的学习，学生应当能够掌握构建分布式系统的基本原理，把握设计分布式系统时应该考虑的关键问题。要求掌握基本概念和理解基本设计理念，在分布式系统研究和应用领域内，提高分析问题和解决问题的能力，同时为分布式应用开发打下扎实的理论基础。</p><h2>教学方式</h2><p>1 课堂讲解及讨论</p>
+<p>  以教师讲解为主，同时组织对相关主题的小组讨论</p>
+<p>2 课程实践项目</p>
+<p>   课堂实践：通过实验验证理论结果</p>
+<p>   课后实践项目：以个人或小组的形式完成分布式系统或应用实践项目。</p><h2>教学内容与进度安排</h2><p> </p>
+<table>
+<tbody>
+<tr>
+<td width="132">
+<p><strong>教学周</strong></p>
+</td>
+<td width="680">
+<p><strong>教学内容及预期效果</strong></p>
+</td>
+</tr>
+<tr>
+<td width="132">
+<p>一</p>
+</td>
+<td width="680">
+<p>分布式体系结构的特点，掌握分布式基本概念，系统结果及设计方法</p>
+</td>
+</tr>
+<tr>
+<td width="132">
+<p>二</p>
+</td>
+<td width="680">
+<p>掌握线程、、虚拟化、客户、服务器、代码迁移等概念</p>
+</td>
+</tr>
+<tr>
+<td width="132">
+<p>三</p>
+</td>
+<td width="680">
+<p>学习远程过程调用，掌握面向消息的通信、面向流的通信、多播通信</p>
+</td>
+</tr>
+<tr>
+<td width="132">
+<p>四</p>
+</td>
+<td width="680">
+<p>命名系统，名称、标识符和地址、结构化命名</p>
+<p>无层次命名</p>
+</td>
+</tr>
+<tr>
+<td width="132">
+<p>五</p>
+</td>
+<td width="680">
+<p>系统同步，物理时钟、逻辑时钟、互斥、选举算法</p>
+</td>
+</tr>
+<tr>
+<td width="132">
+<p>六</p>
+</td>
+<td width="680">
+<p>一致性和复制：以数据为中心的一致性、以客户为中心的一致性，副本管理和一致性读写协议</p>
+</td>
+</tr>
+<tr>
+<td width="132">
+<p>七</p>
+</td>
+<td width="680">
+<p>容错性概念，进程恢复、可靠通信、分布式提交、</p>
+</td>
+</tr>
+<tr>
+<td width="132">
+<p>八</p>
+</td>
+<td width="680">
+<p>安全通信管道、访问控制与安全管理</p>
+</td>
+</tr>
+<tr>
+<td width="132">
+<p>九</p>
+</td>
+<td width="680">
+<p>基于对象的分布式系统，CORBA系统分析</p>
+</td>
+</tr>
+<tr>
+<td width="132">
+<p>十</p>
+</td>
+<td width="680">
+<p>分布式文件系统，掌握NFS系统的特点、接口设计、容错及一致性设计</p>
+</td>
+</tr>
+<tr>
+<td width="132">
+<p>十一</p>
+</td>
+<td width="680">
+<p>Hadoop的总体结构、Hadoop数据复制、Namenode的容错、Hadoop的读写流程</p>
+</td>
+</tr>
+<tr>
+<td width="132">
+<p>十二</p>
+</td>
+<td width="680">
+<p>掌握zookeeper 的概念、Zookeeper的接口与典型应用，掌握zookeeper集群一致性、容错恢复的原理</p>
+</td>
+</tr>
+<tr>
+<td width="132">
+<p>十三</p>
+</td>
+<td width="680">
+<p>MapReduce的概念、编程、计算案例</p>
+</td>
+</tr>
+<tr>
+<td width="132">
+<p>十四</p>
+</td>
+<td width="680">
+<p>Hbase的原理、数据存储特点、NOSQL的原理</p>
+</td>
+</tr>
+<tr>
+<td width="132">
+<p>十五</p>
+</td>
+<td width="680">
+<p>掌握AWS核心服务VPC、EC2、EBS、DynamoDB等模块的设计，掌握高可用于弹性服务ELB与auto scaling服务</p>
+</td>
+</tr>
+<tr>
+<td width="132">
+<p>十六</p>
+</td>
+<td width="680">
+<p>掌握基于spark的大数据计算框架</p>
+</td>
+</tr>
+</tbody>
 </table><h2>课程考核与成绩评定</h2><h2>教材</h2><h2>教学参考资料</h2><p><strong>Tanenbaum</strong><strong> </strong><strong>《分布式系统原理与范型》第二版，清华大学出版社，2010-09-01，ISBN：9787302172796</strong></p><h2>教学团队成员</h2></body></html>

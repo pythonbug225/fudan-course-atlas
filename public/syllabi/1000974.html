@@ -1,86 +1,86 @@
-<!doctype html><html lang="zh-CN"><meta charset="utf-8"><title>数字逻辑与部件设计 · 唐志强 · 2025秋 CS20008.01</title><style>body{max-width:1000px;margin:35px auto;padding:0 20px;font:16px/1.9 system-ui}table{border-collapse:collapse}td,th{border:1px solid #cad7cf;padding:8px}img{max-width:100%}</style><body><h1>数字逻辑与部件设计</h1><p>2025秋 · CS20008.01 · 唐志强</p><p>来源：复旦教务系统教学班大纲。</p><h2>考核与成绩构成</h2><ul><li>作业/实验/实践Assignment 30.0% </li><li>期末考试Final Examination：闭卷  70.0% </li></ul><h2>课程简介（中文）</h2><p>数字逻辑课程是计算机科学与技术等专业的核心基础课。讲授数字系统分析与设计的数学基础和基本逻辑单元，重点研究组合逻辑电路与时序逻辑电路的工作原理、分析方法和设计技术。课程强调逻辑抽象思维与硬件实现能力的培养，通过理论学习与实验实践相结合，使学生掌握使用基本逻辑部件构建复杂数字功能模块的能力。</p><h2>课程简介（英文）</h2><p>Digital Logic is a core foundational course for majors such as Computer Science and Technology. It teaches the mathematical basis (Boolean algebra) and fundamental logic units (gates) for digital system analysis and design, focusing on the working principles, analysis methods, and design techniques of combinational logic circuits and sequential logic circuits (e.g., flip-flops, registers, counters). The course emphasizes the development of abstract logical thinking and hardware implementation skills. By combining theoretical learning with experimental practice, it enables students to master the ability to construct complex digital function modules (such as adders, decoders, state machines) using basic logic components.</p><h2>教学目标</h2><p>课程旨在培养学生掌握数字系统分析与设计的核心基础。学生将深入理解布尔代数等数学工具，熟练认知基本逻辑门及其特性。课程着重培养学生对组合逻辑电路和时序逻辑电路（包含触发器、寄存器、计数器等）进行逻辑分析、功能设计和优化的能力。通过理论学习与实验实践紧密结合，学生将发展硬件抽象思维，提升数字系统设计素养，最终具备运用基本逻辑部件独立设计、实现并验证满足特定功能需求的复杂数字模块的工程实践能力，为后续计算机硬件相关课程奠定基础。</p><h2>教学方式</h2><p>课堂教学和实验教学混合方式进行。</p>
-<p>理论部分采用课堂授课方式进行；</p>
-<p>实验部分采用Xilinx Vivado软件和Basys3开发板对各种电路进行设计和验证。</p><h2>教学内容与进度安排</h2><table width="596">
-<tbody>
-<tr>
-<td width="596">
-<p><strong>教学内容安排 </strong>(按54学时共计18周，具体到每节课内容)<strong>:</strong></p>
-<p>第一周：数字系统概述：</p>
-<p>第一节：数字计算机信息表示</p>
-<p>第二节：数制，算术运算</p>
-<p>第三节：编码，思政内容</p>
-<p><strong>第二周：verilog语言介绍</strong></p>
-<p>第一节：<strong>verilog</strong><strong>语言（补充1）</strong></p>
-<p>第二节：<strong>verilog</strong><strong>语言（补充2）</strong></p>
-<p>第三节：<strong>verilog</strong><strong>语言（补充3）</strong></p>
-<p> </p>
-<p>第三周：<strong>门电路和布尔代数</strong>：</p>
-<p>第一节：二值逻辑和门</p>
-<p>第二节：布尔代数</p>
-<p>第三节：标准形式</p>
-<p>第四周: 电路优化：</p>
-<p>第一节：二级电路的优化</p>
-<p>第二节: 卡诺图</p>
-<p>第三节：多级电路的优化，其他类型的门和电路</p>
-<p>第五周：组合逻辑设计</p>
-<p>第一节: 设计过程</p>
-<p>第二节：分层设计</p>
-<p>第三节: 工艺映射，验证</p>
-<p>第六周 组合逻辑设计（续）</p>
-<p>第一节: 功能模块</p>
-<p>第二节：译码器，编码器</p>
-<p>第三节: 多路选择器</p>
-<p>第七周 算术功能模块</p>
-<p>第一节:迭代组合电路</p>
-<p>第二节:二进制加法器，二进制减法</p>
-<p>第三节：其他算术功能块</p>
-<p> </p>
-<p>第八周：课堂练习</p>
-<p>第一节到第三节：课堂练习</p>
-<p>第九周：时序电路</p>
-<p>第一节：时序电路介绍</p>
-<p>第二节：锁存器、触发器</p>
-<p>第三节：时序电路分析</p>
-<p>第十周：时序电路设计</p>
-<p>第一节：时序电路设计（1）</p>
-<p>第二节：时序电路设计（2）</p>
-<p>第三节：时序电路设计（3）</p>
-<p>第十一周：状态机设计，可编程逻辑电路</p>
-<p>第一节：状态机设计</p>
-<p>第二节：可编程逻辑技术</p>
-<p>第三节: ，ROM,PLA和PAL</p>
-<p>第十二周：寄存器和寄存器传输：</p>
-<p>第一节：<strong>寄存器和加载使能，寄存器传输操作，微操作，对单一寄存器的微操作</strong></p>
-<p><strong>第二节：对单一寄存器的微操作(</strong><strong>续)</strong><strong>，计数器，寄存器单元设计</strong></p>
-<p>第三节：<strong>寄存器单元设计（续），多寄存器的基于多路器和基于总线的传输，串行传输及微操作</strong></p>
-<p>第十三周：<strong>寄存器传输的控制，存储器</strong></p>
-<p>第一节：<strong>寄存器传输系统介绍</strong></p>
-<p><strong>第二节：寄存器传输例子</strong></p>
-<p>第三节：存储器基础</p>
-<p>第十四周：计算机设计基础</p>
-<p>第一节：数据通路，算术逻辑单元</p>
-<p>第二节：控制器</p>
-<p>第三节：单周期计算机的设计，</p>
-<p>第十五周：复习</p>
-<p>第一节：习题讲解</p>
-<p>第二节:复习</p>
-<p>第三节：复习</p>
-<p>第十六周：答疑</p>
-<p>第一节：答疑</p>
-<p>第二节: 答疑</p>
-<p>第三节：答疑</p>
-<p> </p>
-<p> </p>
-<p> </p>
-<p> </p>
-<p> </p>
-<p> </p>
-<p> </p>
-<p> </p>
-<p> </p>
-<p> </p>
-<p> </p>
-</td>
-</tr>
-</tbody>
+<!doctype html><html lang="zh-CN"><meta charset="utf-8"><title>数字逻辑与部件设计 · 唐志强 · 2025秋 CS20008.01</title><style>body{max-width:1000px;margin:35px auto;padding:0 20px;font:16px/1.9 system-ui}table{border-collapse:collapse}td,th{border:1px solid #cad7cf;padding:8px}img{max-width:100%}</style><body><h1>数字逻辑与部件设计</h1><p>2025秋 · CS20008.01 · 唐志强</p><p>来源：复旦教务系统教学班大纲。</p><h2>考核与成绩构成</h2><ul><li>作业/实验/实践Assignment 30.0% </li><li>期末考试Final Examination：闭卷  70.0% </li></ul><h2>课程简介（中文）</h2><p>数字逻辑课程是计算机科学与技术等专业的核心基础课。讲授数字系统分析与设计的数学基础和基本逻辑单元，重点研究组合逻辑电路与时序逻辑电路的工作原理、分析方法和设计技术。课程强调逻辑抽象思维与硬件实现能力的培养，通过理论学习与实验实践相结合，使学生掌握使用基本逻辑部件构建复杂数字功能模块的能力。</p><h2>课程简介（英文）</h2><p>Digital Logic is a core foundational course for majors such as Computer Science and Technology. It teaches the mathematical basis (Boolean algebra) and fundamental logic units (gates) for digital system analysis and design, focusing on the working principles, analysis methods, and design techniques of combinational logic circuits and sequential logic circuits (e.g., flip-flops, registers, counters). The course emphasizes the development of abstract logical thinking and hardware implementation skills. By combining theoretical learning with experimental practice, it enables students to master the ability to construct complex digital function modules (such as adders, decoders, state machines) using basic logic components.</p><h2>教学目标</h2><p>课程旨在培养学生掌握数字系统分析与设计的核心基础。学生将深入理解布尔代数等数学工具，熟练认知基本逻辑门及其特性。课程着重培养学生对组合逻辑电路和时序逻辑电路（包含触发器、寄存器、计数器等）进行逻辑分析、功能设计和优化的能力。通过理论学习与实验实践紧密结合，学生将发展硬件抽象思维，提升数字系统设计素养，最终具备运用基本逻辑部件独立设计、实现并验证满足特定功能需求的复杂数字模块的工程实践能力，为后续计算机硬件相关课程奠定基础。</p><h2>教学方式</h2><p>课堂教学和实验教学混合方式进行。</p>
+<p>理论部分采用课堂授课方式进行；</p>
+<p>实验部分采用Xilinx Vivado软件和Basys3开发板对各种电路进行设计和验证。</p><h2>教学内容与进度安排</h2><table width="596">
+<tbody>
+<tr>
+<td width="596">
+<p><strong>教学内容安排 </strong>(按54学时共计18周，具体到每节课内容)<strong>:</strong></p>
+<p>第一周：数字系统概述：</p>
+<p>第一节：数字计算机信息表示</p>
+<p>第二节：数制，算术运算</p>
+<p>第三节：编码，思政内容</p>
+<p><strong>第二周：verilog语言介绍</strong></p>
+<p>第一节：<strong>verilog</strong><strong>语言（补充1）</strong></p>
+<p>第二节：<strong>verilog</strong><strong>语言（补充2）</strong></p>
+<p>第三节：<strong>verilog</strong><strong>语言（补充3）</strong></p>
+<p> </p>
+<p>第三周：<strong>门电路和布尔代数</strong>：</p>
+<p>第一节：二值逻辑和门</p>
+<p>第二节：布尔代数</p>
+<p>第三节：标准形式</p>
+<p>第四周: 电路优化：</p>
+<p>第一节：二级电路的优化</p>
+<p>第二节: 卡诺图</p>
+<p>第三节：多级电路的优化，其他类型的门和电路</p>
+<p>第五周：组合逻辑设计</p>
+<p>第一节: 设计过程</p>
+<p>第二节：分层设计</p>
+<p>第三节: 工艺映射，验证</p>
+<p>第六周 组合逻辑设计（续）</p>
+<p>第一节: 功能模块</p>
+<p>第二节：译码器，编码器</p>
+<p>第三节: 多路选择器</p>
+<p>第七周 算术功能模块</p>
+<p>第一节:迭代组合电路</p>
+<p>第二节:二进制加法器，二进制减法</p>
+<p>第三节：其他算术功能块</p>
+<p> </p>
+<p>第八周：课堂练习</p>
+<p>第一节到第三节：课堂练习</p>
+<p>第九周：时序电路</p>
+<p>第一节：时序电路介绍</p>
+<p>第二节：锁存器、触发器</p>
+<p>第三节：时序电路分析</p>
+<p>第十周：时序电路设计</p>
+<p>第一节：时序电路设计（1）</p>
+<p>第二节：时序电路设计（2）</p>
+<p>第三节：时序电路设计（3）</p>
+<p>第十一周：状态机设计，可编程逻辑电路</p>
+<p>第一节：状态机设计</p>
+<p>第二节：可编程逻辑技术</p>
+<p>第三节: ，ROM,PLA和PAL</p>
+<p>第十二周：寄存器和寄存器传输：</p>
+<p>第一节：<strong>寄存器和加载使能，寄存器传输操作，微操作，对单一寄存器的微操作</strong></p>
+<p><strong>第二节：对单一寄存器的微操作(</strong><strong>续)</strong><strong>，计数器，寄存器单元设计</strong></p>
+<p>第三节：<strong>寄存器单元设计（续），多寄存器的基于多路器和基于总线的传输，串行传输及微操作</strong></p>
+<p>第十三周：<strong>寄存器传输的控制，存储器</strong></p>
+<p>第一节：<strong>寄存器传输系统介绍</strong></p>
+<p><strong>第二节：寄存器传输例子</strong></p>
+<p>第三节：存储器基础</p>
+<p>第十四周：计算机设计基础</p>
+<p>第一节：数据通路，算术逻辑单元</p>
+<p>第二节：控制器</p>
+<p>第三节：单周期计算机的设计，</p>
+<p>第十五周：复习</p>
+<p>第一节：习题讲解</p>
+<p>第二节:复习</p>
+<p>第三节：复习</p>
+<p>第十六周：答疑</p>
+<p>第一节：答疑</p>
+<p>第二节: 答疑</p>
+<p>第三节：答疑</p>
+<p> </p>
+<p> </p>
+<p> </p>
+<p> </p>
+<p> </p>
+<p> </p>
+<p> </p>
+<p> </p>
+<p> </p>
+<p> </p>
+<p> </p>
+</td>
+</tr>
+</tbody>
 </table><h2>课程考核与成绩评定</h2><h2>教材</h2><h2>教学参考资料</h2><h2>教学团队成员</h2></body></html>

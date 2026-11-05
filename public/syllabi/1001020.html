@@ -1,36 +1,36 @@
-<!doctype html><html lang="zh-CN"><meta charset="utf-8"><title>自然语言处理和知识表示 · 黄萱菁 · 2025秋 CS30054.01</title><style>body{max-width:1000px;margin:35px auto;padding:0 20px;font:16px/1.9 system-ui}table{border-collapse:collapse}td,th{border:1px solid #cad7cf;padding:8px}img{max-width:100%}</style><body><h1>自然语言处理和知识表示</h1><p>2025秋 · CS30054.01 · 黄萱菁</p><p>来源：复旦教务系统教学班大纲。</p><h2>考核与成绩构成</h2><ul><li>作业/实验/实践Assignment 45.0% 实践完成度</li><li>期末考试Final Examination：闭卷  45.0% 答题准确率，分析问题和解决问题的能力</li><li>课堂表现Participation 10.0% 出勤与问题回答</li></ul><h2>课程简介（中文）</h2><p>本课程从自然语言处理的基本概念、语言理论与方法和部分下游应用研究进行展开。课程内容涵盖自然语言处理中基础概念和理论模型的介绍，也包括对下游具体应用的研究背景、实现方法和技术现状的详细阐述，同时包含最新的大型语言模型的研究内容和进展的特别介绍。具体包括：</p>
-<p>(1)        基础知识：从词汇、句法到篇章三个不同粒度的语言单位，从形态、结构到语义三个不同语言层面，对自然语言处理的基础技术进行介绍。深入讲解分词与词性标注、语义表示、语义消歧与标注等基础语言处理技术。</p>
-<p>(2)        语言模型：详细介绍语言模型的原理与应用，从经典n-gram模型到神经网络模型（如RNN、LSTM、GRU），再到预训练语言模型（如BERT、GPT系列）的原理和应用。涵盖最新的大规模语言模型技术，包括其训练方法、基于Transformer的模型架构、以及预训练语料集的选择与处理。阐述大模型训练三个基本阶段（基础大模型训练、指令微调以及人类反馈）。探讨高效微调方法及其在实际应用中的效果和挑战。</p>
-<p>(3)        下游任务：介绍自然语言处理支撑各种应用的核心技术，涵盖各种NLP的下游任务，包括但不限于文本分类、情感分析、信息抽取、机器翻译和智能问答系统。详细阐述对应的研究背景、当前技术现状和实现方法的详细阐述，帮助学生将理论知识应用到实际问题。</p><h2>课程简介（英文）</h2><p>This course unfolds from the basic concepts of natural language processing, language theories and methods, to some downstream application research. The course content covers the introduction of basic concepts and theoretical models in natural language processing, detailed elaboration on the research background, implementation methods, and technical status of specific downstream applications, as well as special introductions to the research content and progress of the latest large language models. Specifically included are: (1) **Basic Knowledge**: Introducing basic technologies of natural language processing from three language units of different granularities (vocabulary, syntax, and discourse) and three different linguistic levels (morphology, structure, and semantics). In-depth explanations of fundamental language processing technologies such as word segmentation and part-of-speech tagging, semantic representation, semantic disambiguation, and annotation. (2) **Language Models**: Detailing the principles and applications of language models, ranging from classic n-gram models to neural network models (e.g., RNN, LSTM, GRU), and then to the principles and applications of pre-trained language models (e.g., BERT, GPT series). Covering the latest large-scale language model technologies, including their training methods, Transformer-based model architectures, and the selection and processing of pre-training corpora. Elaborating on the three fundamental stages of large model training (basic large model training, instruction fine-tuning, and human feedback). Exploring efficient fine-tuning methods and their effects and challenges in practical applications. (3) **Downstream Tasks**: Introducing the core technologies supporting various natural language processing applications, covering downstream NLP tasks including but not limited to text classification, sentiment analysis, information extraction, machine translation, and intelligent question-answering systems. Detailed exposition on the corresponding research background, current technical status, and implementation methods to help students apply theoretical knowledge to practical problems.</p><h2>教学目标</h2><p>本课程旨在系统介绍自然语言处理概念，特别是大规模真实文本信息下的自然语言处理的理论与方法，帮助学生洞悉自然语言处理发展趋势，启迪学生的创新思维与意识，提高学生实践能力，促使学生素质的全面提高。具体教学目标包括：</p>
-<p>(1)        基础概念：系统介绍自然语言处理的基本概念，包括分词、词性标注和语义表示，及语言模型和预训练模型的基本原理。</p>
-<p>(2)        应用实践：通过3次实践课提升学生实际动手能力，让学生掌握文本分类、信息抽取、和智能问答等下游任务的实现方法。</p>
-<p>(3)        前沿知识：介绍最新的大语言模型研究进展，包括大模型的模型架构、训练数据组成、训练步骤以及评估方法。</p><h2>教学方式</h2><p>多媒体授课</p><h2>教学内容与进度安排</h2><p>本课程作为共16次理论教学时间，每节课的内容如下：</p>
-<ol>
-<li>自然语言处理基本概念介绍：自然语言处理旨在使计算机能够理解、解释和生成人类自然语言。本节课主要介绍自然语言处理的基本概念和研究内容，并对自然语言处理范式进行总结和介绍。</li>
-<li>词汇分析：词是形式和意义相结合的基本单元，也是语言中能够独立运用的最小单位。本节课将介绍词汇分析的基本概念，包括词的定义和分类，以及词语规范化的相关内容。重点讲解典型的序列标注任务，如中文分词和词性分析。</li>
-<li>句法分析：句法是研究自然语言中不同成分组成句子的方式，以及支配句子结构并决定句子是否成立的规则。本节课首先介绍语言学中句法的基本概念，在此基础上介绍成分句法分析算法、依存句法分析算法以及常用的句法分析语料库。</li>
-<li>语义表示：语义表示是语义的符号化和形式化的过程，主要研究语义表示的通用原则和方法。本节课介绍常见的一阶谓词逻辑、框架、语义网、分布式等语义表示方法。</li>
-<li>词义消歧与语义角色标注：词义消歧是解决多义词在特定上下文中确切含义的问题，而语义角色标注则旨在识别句子中的谓词论元结构，揭示概念之间的语义关系。本节课将以基于朴素贝叶斯分类器、上下文向量表示的词义消歧方法为例，介绍基于统计机器学习及深度学习的词义消歧方法。</li>
-<li>篇章分析：篇章分析是从整体上理解连贯的句子集合，对篇章的连贯性和衔接性进行分析。本节课首先介绍篇章分析的基本概念，在此基础上介绍篇章分析的三个子任务：话语分割、篇章结构分析和指代消解的主要算法和语料库。</li>
-<li>语言模型和国产语言大模型：语言模型是自然语言处理的核心，它用于预测文本中的词序列，建模语言的统计特性。本节课首先介绍语言模型的基本概念，在此基础上介绍n元语言模型。进一步深入探讨语言模型的构建与应用，特别关注国产语言大模型的快速发展。</li>
-<li>神经网络和预训练模型：神经网络特别是深度学习模型，已成为现代自然语言处理的核心技术。本课程将首先概述前馈和循环神经网络的基本架构，然后深入探讨ELMo等动态词向量方法。进而深入分析Transformer架构下的BERT预训练模型，以及GPT和BART等生成式预训练模型。</li>
-<li>文本分类：文本分类是自然语言处理中的一种重要任务，主要涉及分析文本的内容和结构，理解文本的主题或意义，并将其分类到预定义的类别中。本节课介绍的任务形式主要包括情感分析、垃圾邮件检测、主题分类、新闻分类等。</li>
-<li>文本信息抽取：文本信息抽取的目标就是从非结构化的文本内容中提取特定的信息，信息抽取并不试图对全文进行理解，仅针对任务需求从篇章中抽取特定信息。本节课主要介绍的文本信息抽取任务包含命名实体识别、关系抽取、事件抽取、时间表达式识别、实体归一化、模板填充、话题检测与跟踪等。</li>
-<li>情感分析：情感分析又称观点挖掘，目标旨在从文本中分析得到人们关于主题或实体的评价、观点或态度，还包括分析文本所表达的情绪信息。本节课主要介绍情感分析在舆情分析、情报挖掘、电子商务、对话系统等领域的应用。</li>
-<li>习题课</li>
-<li>机器翻译：机器翻译是自然语言处理中研究历史最长，也是最重要的任务之一，是指利用计算机将一种语言（源语言）自动翻译为另外一种语言（目标语言）的过程。本节课主要介绍包括基于规则的机器翻译、基于统计的机器翻译以及基于神经网络的机器翻译等方法。</li>
-<li>智能问答：智能问答旨在自动回答用户以自然语言方式提出的各类问题。本节课按照按照问答答案来源的不同，分别介绍阅读理解、表格问答、社区问答以及开放领域问答相关算法。</li>
-<li>知识图谱：知识图谱的研究内容涵盖知识表示、知识存储、知识推理、图谱构建、图谱问答等方面，还涉及自然语言处理、机器学习、图数据库、逻辑推理等多个交叉领域，是智能问答、语义检索、机器翻译、语义表示等任务的重要基础。本节课主要介绍知识图谱基本概念，知识图谱构建，知识图谱推理、基于知识图谱的问答以及知识图谱存储等。</li>
-<li>期末考试</li>
-</ol>
-<p> </p>
-<p>本课程包含7次课程实践，每节实践课的内容如下(暂定)：</p>
-<ol>
-<li>环境配置与PyTorch函数实践</li>
-<li>比较Word2vec和GloVe的词向量在文本分类任务上的效果</li>
-<li>利用BiLSTM模型进行中文分词</li>
-<li>使用RNN实现文本摘要</li>
-<li>基于BERT的文本分类任务</li>
-<li>基于SpanBERT的命名实体识别</li>
-</ol>
+<!doctype html><html lang="zh-CN"><meta charset="utf-8"><title>自然语言处理和知识表示 · 黄萱菁 · 2025秋 CS30054.01</title><style>body{max-width:1000px;margin:35px auto;padding:0 20px;font:16px/1.9 system-ui}table{border-collapse:collapse}td,th{border:1px solid #cad7cf;padding:8px}img{max-width:100%}</style><body><h1>自然语言处理和知识表示</h1><p>2025秋 · CS30054.01 · 黄萱菁</p><p>来源：复旦教务系统教学班大纲。</p><h2>考核与成绩构成</h2><ul><li>作业/实验/实践Assignment 45.0% 实践完成度</li><li>期末考试Final Examination：闭卷  45.0% 答题准确率，分析问题和解决问题的能力</li><li>课堂表现Participation 10.0% 出勤与问题回答</li></ul><h2>课程简介（中文）</h2><p>本课程从自然语言处理的基本概念、语言理论与方法和部分下游应用研究进行展开。课程内容涵盖自然语言处理中基础概念和理论模型的介绍，也包括对下游具体应用的研究背景、实现方法和技术现状的详细阐述，同时包含最新的大型语言模型的研究内容和进展的特别介绍。具体包括：</p>
+<p>(1)        基础知识：从词汇、句法到篇章三个不同粒度的语言单位，从形态、结构到语义三个不同语言层面，对自然语言处理的基础技术进行介绍。深入讲解分词与词性标注、语义表示、语义消歧与标注等基础语言处理技术。</p>
+<p>(2)        语言模型：详细介绍语言模型的原理与应用，从经典n-gram模型到神经网络模型（如RNN、LSTM、GRU），再到预训练语言模型（如BERT、GPT系列）的原理和应用。涵盖最新的大规模语言模型技术，包括其训练方法、基于Transformer的模型架构、以及预训练语料集的选择与处理。阐述大模型训练三个基本阶段（基础大模型训练、指令微调以及人类反馈）。探讨高效微调方法及其在实际应用中的效果和挑战。</p>
+<p>(3)        下游任务：介绍自然语言处理支撑各种应用的核心技术，涵盖各种NLP的下游任务，包括但不限于文本分类、情感分析、信息抽取、机器翻译和智能问答系统。详细阐述对应的研究背景、当前技术现状和实现方法的详细阐述，帮助学生将理论知识应用到实际问题。</p><h2>课程简介（英文）</h2><p>This course unfolds from the basic concepts of natural language processing, language theories and methods, to some downstream application research. The course content covers the introduction of basic concepts and theoretical models in natural language processing, detailed elaboration on the research background, implementation methods, and technical status of specific downstream applications, as well as special introductions to the research content and progress of the latest large language models. Specifically included are: (1) **Basic Knowledge**: Introducing basic technologies of natural language processing from three language units of different granularities (vocabulary, syntax, and discourse) and three different linguistic levels (morphology, structure, and semantics). In-depth explanations of fundamental language processing technologies such as word segmentation and part-of-speech tagging, semantic representation, semantic disambiguation, and annotation. (2) **Language Models**: Detailing the principles and applications of language models, ranging from classic n-gram models to neural network models (e.g., RNN, LSTM, GRU), and then to the principles and applications of pre-trained language models (e.g., BERT, GPT series). Covering the latest large-scale language model technologies, including their training methods, Transformer-based model architectures, and the selection and processing of pre-training corpora. Elaborating on the three fundamental stages of large model training (basic large model training, instruction fine-tuning, and human feedback). Exploring efficient fine-tuning methods and their effects and challenges in practical applications. (3) **Downstream Tasks**: Introducing the core technologies supporting various natural language processing applications, covering downstream NLP tasks including but not limited to text classification, sentiment analysis, information extraction, machine translation, and intelligent question-answering systems. Detailed exposition on the corresponding research background, current technical status, and implementation methods to help students apply theoretical knowledge to practical problems.</p><h2>教学目标</h2><p>本课程旨在系统介绍自然语言处理概念，特别是大规模真实文本信息下的自然语言处理的理论与方法，帮助学生洞悉自然语言处理发展趋势，启迪学生的创新思维与意识，提高学生实践能力，促使学生素质的全面提高。具体教学目标包括：</p>
+<p>(1)        基础概念：系统介绍自然语言处理的基本概念，包括分词、词性标注和语义表示，及语言模型和预训练模型的基本原理。</p>
+<p>(2)        应用实践：通过3次实践课提升学生实际动手能力，让学生掌握文本分类、信息抽取、和智能问答等下游任务的实现方法。</p>
+<p>(3)        前沿知识：介绍最新的大语言模型研究进展，包括大模型的模型架构、训练数据组成、训练步骤以及评估方法。</p><h2>教学方式</h2><p>多媒体授课</p><h2>教学内容与进度安排</h2><p>本课程作为共16次理论教学时间，每节课的内容如下：</p>
+<ol>
+<li>自然语言处理基本概念介绍：自然语言处理旨在使计算机能够理解、解释和生成人类自然语言。本节课主要介绍自然语言处理的基本概念和研究内容，并对自然语言处理范式进行总结和介绍。</li>
+<li>词汇分析：词是形式和意义相结合的基本单元，也是语言中能够独立运用的最小单位。本节课将介绍词汇分析的基本概念，包括词的定义和分类，以及词语规范化的相关内容。重点讲解典型的序列标注任务，如中文分词和词性分析。</li>
+<li>句法分析：句法是研究自然语言中不同成分组成句子的方式，以及支配句子结构并决定句子是否成立的规则。本节课首先介绍语言学中句法的基本概念，在此基础上介绍成分句法分析算法、依存句法分析算法以及常用的句法分析语料库。</li>
+<li>语义表示：语义表示是语义的符号化和形式化的过程，主要研究语义表示的通用原则和方法。本节课介绍常见的一阶谓词逻辑、框架、语义网、分布式等语义表示方法。</li>
+<li>词义消歧与语义角色标注：词义消歧是解决多义词在特定上下文中确切含义的问题，而语义角色标注则旨在识别句子中的谓词论元结构，揭示概念之间的语义关系。本节课将以基于朴素贝叶斯分类器、上下文向量表示的词义消歧方法为例，介绍基于统计机器学习及深度学习的词义消歧方法。</li>
+<li>篇章分析：篇章分析是从整体上理解连贯的句子集合，对篇章的连贯性和衔接性进行分析。本节课首先介绍篇章分析的基本概念，在此基础上介绍篇章分析的三个子任务：话语分割、篇章结构分析和指代消解的主要算法和语料库。</li>
+<li>语言模型和国产语言大模型：语言模型是自然语言处理的核心，它用于预测文本中的词序列，建模语言的统计特性。本节课首先介绍语言模型的基本概念，在此基础上介绍n元语言模型。进一步深入探讨语言模型的构建与应用，特别关注国产语言大模型的快速发展。</li>
+<li>神经网络和预训练模型：神经网络特别是深度学习模型，已成为现代自然语言处理的核心技术。本课程将首先概述前馈和循环神经网络的基本架构，然后深入探讨ELMo等动态词向量方法。进而深入分析Transformer架构下的BERT预训练模型，以及GPT和BART等生成式预训练模型。</li>
+<li>文本分类：文本分类是自然语言处理中的一种重要任务，主要涉及分析文本的内容和结构，理解文本的主题或意义，并将其分类到预定义的类别中。本节课介绍的任务形式主要包括情感分析、垃圾邮件检测、主题分类、新闻分类等。</li>
+<li>文本信息抽取：文本信息抽取的目标就是从非结构化的文本内容中提取特定的信息，信息抽取并不试图对全文进行理解，仅针对任务需求从篇章中抽取特定信息。本节课主要介绍的文本信息抽取任务包含命名实体识别、关系抽取、事件抽取、时间表达式识别、实体归一化、模板填充、话题检测与跟踪等。</li>
+<li>情感分析：情感分析又称观点挖掘，目标旨在从文本中分析得到人们关于主题或实体的评价、观点或态度，还包括分析文本所表达的情绪信息。本节课主要介绍情感分析在舆情分析、情报挖掘、电子商务、对话系统等领域的应用。</li>
+<li>习题课</li>
+<li>机器翻译：机器翻译是自然语言处理中研究历史最长，也是最重要的任务之一，是指利用计算机将一种语言（源语言）自动翻译为另外一种语言（目标语言）的过程。本节课主要介绍包括基于规则的机器翻译、基于统计的机器翻译以及基于神经网络的机器翻译等方法。</li>
+<li>智能问答：智能问答旨在自动回答用户以自然语言方式提出的各类问题。本节课按照按照问答答案来源的不同，分别介绍阅读理解、表格问答、社区问答以及开放领域问答相关算法。</li>
+<li>知识图谱：知识图谱的研究内容涵盖知识表示、知识存储、知识推理、图谱构建、图谱问答等方面，还涉及自然语言处理、机器学习、图数据库、逻辑推理等多个交叉领域，是智能问答、语义检索、机器翻译、语义表示等任务的重要基础。本节课主要介绍知识图谱基本概念，知识图谱构建，知识图谱推理、基于知识图谱的问答以及知识图谱存储等。</li>
+<li>期末考试</li>
+</ol>
+<p> </p>
+<p>本课程包含7次课程实践，每节实践课的内容如下(暂定)：</p>
+<ol>
+<li>环境配置与PyTorch函数实践</li>
+<li>比较Word2vec和GloVe的词向量在文本分类任务上的效果</li>
+<li>利用BiLSTM模型进行中文分词</li>
+<li>使用RNN实现文本摘要</li>
+<li>基于BERT的文本分类任务</li>
+<li>基于SpanBERT的命名实体识别</li>
+</ol>
 <p>用国产NLP大模型和密集文档检索实现文档级生成式问答系统</p><h2>课程考核与成绩评定</h2><h2>教材</h2><h2>教学参考资料</h2><h2>教学团队成员</h2><h2>教材与参考书</h2><p>张奇,桂韬,黄萱菁；2023-08；9787121460326；自然语言处理导论；电子工业出版社</p><p>张奇,桂韬,郑锐,黄萱菁；2023-01；9787121467059；大规模语言模型：从理论到实践；电子工业出版社</p></body></html>

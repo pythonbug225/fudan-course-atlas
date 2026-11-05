@@ -30,7 +30,7 @@ function classMark(t){const honor=t.includes('荣誉'),elite=t.includes('英才�
 
 function classTags(os){return [...new Set(os.map(o=>o.class_type))].map(classMark).join('')}
 
-function view(name='courses'){state.view=name;$$('.view').forEach(e=>e.hidden=e.id!=='view-'+name);$$('.nav').forEach(b=>b.classList.toggle('active',b.dataset.view===name));$('#breadcrumb').textContent='选课工具 / '+({courses:'课程检索','faculty-resources':'院系资料',exams:'试卷资料',calculator:'GPA试算',grades:'等级与分数映射',fitness:'国家体测计算器',rules:'选课规则',upload:'课评与资料投稿',points:'贡献积分'}[name]);if(name==='courses')renderCourses();if(name==='faculty-resources')FacultyResources.render($('#faculty-resource-list'),{faculty:$('#faculty-resource-faculty')?.value||'all',type:$('#faculty-resource-type')?.value||'all'});if(name==='exams')ExamPreview.render();window.scrollTo(0,0)}
+function view(name='courses'){state.view=name;$$('.view').forEach(e=>e.hidden=e.id!=='view-'+name);$$('.nav').forEach(b=>b.classList.toggle('active',b.dataset.view===name));$('#breadcrumb').textContent='选课工具 / '+({courses:'课程检索','faculty-resources':'院系资料',exams:'试卷资料',calculator:'GPA试算',grades:'等级与分数映射',fitness:'国家体测计算器',rules:'选课规则',upload:'课评与资料投稿',points:'贡献积分',account:'我的账户'}[name]);if(name==='courses')renderCourses();if(name==='faculty-resources')FacultyResources.render($('#faculty-resource-list'),{faculty:$('#faculty-resource-faculty')?.value||'all',type:$('#faculty-resource-type')?.value||'all'});if(name==='exams')ExamPreview.render();window.scrollTo(0,0)}
 
 
 function matches(g){const os=selectedOffers(g);if(!os.length&&!((g.history_only||g.plan_only)&&$('#term').value==='all'&&$('#class-type').value==='all'))return false;const refs=planRefs(g),plan=$('#plan').value,part=$('#planpart').value,req=$('#requirement').value;if((plan!=='all'||part!=='all')&&!refs.length)return false;if(req!=='all'&&!refs.some(r=>r.requirement===req))return false;const cat=$('#category').value;if(!CourseTaxonomy.match(g,cat))return false;const prefix=g.code.match(/^[A-Z]+/)?.[0]||g.code;if($('#code-type').value!=='all'&&prefix!==$('#code-type').value)return false;if($('#module').value!=='all'&&!g.modules.includes(Number($('#module').value)))return false;const ev=g.teacher_evidence.filter(t=>teachers(g).includes(t.teacher));const cv=$('#coverage').value;if(cv==='no-student'&&g.student_evaluation?.has_reviews!==false)return false;if(cv==='notes'&&!currentNotes(g).length&&!currentSupplements(g).length||cv==='evidence'&&!ev.some(t=>t.direct_review_ids.length)||cv==='missing'&&ev.some(t=>t.direct_review_ids.length))return false;return $('#query').value.trim().split(/\s+/).filter(Boolean).every(q=>g.search.some(field=>field.includes(canon(q))))}
@@ -157,7 +157,7 @@ async function init(){try{
 
  const add=(id,values)=>values.forEach(v=>$(id).add(new Option(v,v)));add('#plan',[...new Set(D.plans.filter(p=>!p.public).map(p=>p.title))]);add('#requirement',[...new Set(D.scope.flatMap(g=>g.plan_refs.map(r=>r.requirement)))]);add('#code-type',[...new Set(D.scope.map(g=>g.code.match(/^[A-Z]+/)?.[0]||g.code))].sort());D.module_names.forEach((m,i)=>$('#module').add(new Option((i+1)+' · '+m,String(i+1))));
 
- $$('.nav').forEach(b=>b.onclick=()=>view(b.dataset.view));
+ $$('.nav[data-view]').forEach(b=>b.onclick=()=>view(b.dataset.view));
 
  ['query','category','plan','term','planpart','requirement','class-type','code-type','module','coverage','sort'].forEach(id=>$('#'+id).addEventListener(id==='query'?'input':'change',()=>{state.page=0;renderCourses()}));
 
@@ -175,7 +175,7 @@ async function init(){try{
 
  $('#compare-open').onclick=openCompare;$('#compare-clear').onclick=()=>{state.compare=[];$('#compare-tray').hidden=true};
 
- window.addEventListener('hashchange',()=>{const id=new URLSearchParams(location.hash.slice(1)).get('course');if(D.scope.some(g=>g.id===id))openCourse(id)});
+ window.addEventListener('hashchange',()=>{const name=location.hash.slice(1);if(document.getElementById('view-'+name)){view(name);return}const id=new URLSearchParams(name).get('course');if(D.scope.some(g=>g.id===id))openCourse(id)});
 
  $('#grade-table').innerHTML='<table><thead><tr><th>等级</th><th>教务绩点 / 是否计入</th><th>数院评奖 / 推免口径</th></tr></thead><tbody>'+P.intervals.map(r=>`<tr><td>${E(r.grade)}</td><td>${r.kind==='excluded'?'不计GPA':r.min===r.max?r.min.toFixed(2):r.min.toFixed(2)+'—'+r.max.toFixed(2)}</td><td>${r.grade==='A+'?'4.30':r.kind==='excluded'?'不计GPA':'同教务实际绩点'}</td></tr>`).join('')+'</tbody></table>';
 
@@ -185,7 +185,7 @@ async function init(){try{
 
  ['calc-g','calc-c','calc-new-c','calc-manual'].forEach(id=>$('#'+id).oninput=calc);$('#calc-grade').onchange=calc;['rank-n','rank-r'].forEach(id=>$('#'+id).oninput=rankCalc);$('#rank-grade').onchange=rankCalc;calc();rankCalc();
 
- FacultyResources.init().catch(console.error);await CourseTools.init(P);Community.init(D).catch(console.error);$('#loading').hidden=true;view(location.hash==='#points'?'points':location.hash==='#exams'?'exams':'courses');const id=new URLSearchParams(location.hash.slice(1)).get('course');if(D.scope.some(g=>g.id===id))openCourse(id);
+ FacultyResources.init().catch(console.error);await CourseTools.init(P);Community.init(D).catch(console.error);$('#loading').hidden=true;view(document.getElementById('view-'+location.hash.slice(1))?location.hash.slice(1):'courses');const id=new URLSearchParams(location.hash.slice(1)).get('course');if(D.scope.some(g=>g.id===id))openCourse(id);
 
  }catch(err){$('#loading').innerHTML='<div><b>资料暂未载入</b><p>请刷新页面重试。</p></div>';console.error(err)}}
 

@@ -1,26 +1,26 @@
-<!doctype html><html lang="zh-CN"><meta charset="utf-8"><title>编译(H) · Xiaoyang WANG(王晓阳) · 2026春 CS30017h.01</title><style>body{max-width:1000px;margin:35px auto;padding:0 20px;font:16px/1.9 system-ui}table{border-collapse:collapse}td,th{border:1px solid #cad7cf;padding:8px}img{max-width:100%}</style><body><h1>编译(H)</h1><p>2026春 · CS30017h.01 · Xiaoyang WANG(王晓阳)</p><p>来源：复旦教务系统教学班大纲。</p><h2>考核与成绩构成</h2><ul><li>作业/实验/实践Assignment 60.0% 作业</li><li>期中考试Midterm Examination 20.0% 4次课堂小测验</li><li>课题论文Research Paper 20.0% 期末报告包括PJ</li></ul><h2>课程简介（中文）</h2><div>本课程理论与实践紧密结合，将涉及词法分析，语法分析，语义分析，中间代码生成、指令选择、代码优化等内容，并以搭建一个编译器为课程主要实践手段。</div><h2>课程简介（英文）</h2><p>This course closely integrates theory and practice, covering topics such as lexical analysis, syntax analysis, semantic analysis, intermediate code generation, instruction selection, and code optimization. The main practical method of the course is to build a compiler.</p><h2>教学目标</h2><p>本课程旨在通过对现代编译器核心架构及关键组件的深入研读与系统化实验，引导学生透彻掌握从词法分析到代码生成的全链路原理、实现方法及底层编程技巧。课程强调理论与实践的深度融合，着重培养学生在复杂系统软件中的综合运用能力与工程素养。在当前新型软硬件架构层出不穷的时代背景下，致力于通过严谨的思维训练与技术积淀，赋予学生应对未来技术变革的适应力与创新力，为其后续的学术深造及职业生涯发展奠定坚实基础。</p><h2>教学方式</h2><div>教学方式包括面授和上机辅导。每周课堂讲解与讨论。整个学期使用自定义的高级语言，以及相配套的AST，IR，Quad等，进行编译器构造练习。相应材料将在elearning上发布，并将使用一个Git server进行代码、测试集发布。整个学期使用编程语言C++。</div>
-<p>本课程每周安排2节上机实践课，进行编程练习和教学辅导。</p>
-<p>(1) 课内授课中，可能安排随堂练习环节，根据授课内容进行课上交流与讨论；</p>
-<p>(2) 上机实践课中，安排习题环节，通过授课内容与编程习题的结合，锻炼学生实践能力；</p>
-<p><span>(3) 构建班级微信群、邮件等及时进行课外交流与讨论。</span></p><h2>教学内容与进度安排</h2><p>**每周都有作业布置**</p>
-<p>第1周：Introduction &amp; Lexical analysis</p>
-<p>第2周：Lexical Analysis &amp; Parsing</p>
-<p>第3周：Parsing</p>
-<p>第4周：Parsing &amp; Abstract syntax (AST)  &amp; Semantic analysis</p>
-<p>第5周：Intermediate Representation (IR) &amp; Translation of AST to IR (quiz #1)</p>
-<p>第6周：Translation of AST to tree-IR</p>
-<p>第7周：Translation of AST to tree-IR</p>
-<p>第8周：Canonical representation &amp; Quad Representation &amp; Instruction selection</p>
-<p>第9周：Liveness analysis &amp; Static Single Assignment (quiz #2)</p>
-<p>第10周：Static Single Assignment</p>
-<p>第11周：Static Single Assignment</p>
-<p>第12周：Activation Record &amp; Register allocation</p>
-<p>第13周：Register Allocation (quiz #3)</p>
-<p>第14周：Code generation &amp; optimization</p>
-<p>第15周：Code optimization topics</p>
-<p>第16周：Advanced topics (quiz #4)</p>
-<p><span>第</span><span>17周：Final report</span></p><h2>课程考核与成绩评定</h2><h2>教材</h2><h2>教学参考资料</h2><p>教材：（虎书C版）Modern Compiler Implementation in C, Andrew W. Appel. Cambridge University Press, ISBN: 0521607655</p>
-<p>参考资料：</p>
-<p>1）（教材的中文翻译版）现代编译原理（C语言描述 修订版）      [美] 安德鲁·W.安佩尔（Andrew W. Appel） 著，赵克佳，黄春，沈志宇 译，人民邮电出版社，ISBN：9787115476883</p>
-<p>2）（虎书Java版）Modern Compiler Implementation in Java，Andrew W. Appel, Cambridge University Press, ISBN: 052182060</p>
+<!doctype html><html lang="zh-CN"><meta charset="utf-8"><title>编译(H) · Xiaoyang WANG(王晓阳) · 2026春 CS30017h.01</title><style>body{max-width:1000px;margin:35px auto;padding:0 20px;font:16px/1.9 system-ui}table{border-collapse:collapse}td,th{border:1px solid #cad7cf;padding:8px}img{max-width:100%}</style><body><h1>编译(H)</h1><p>2026春 · CS30017h.01 · Xiaoyang WANG(王晓阳)</p><p>来源：复旦教务系统教学班大纲。</p><h2>考核与成绩构成</h2><ul><li>作业/实验/实践Assignment 60.0% 作业</li><li>期中考试Midterm Examination 20.0% 4次课堂小测验</li><li>课题论文Research Paper 20.0% 期末报告包括PJ</li></ul><h2>课程简介（中文）</h2><div>本课程理论与实践紧密结合，将涉及词法分析，语法分析，语义分析，中间代码生成、指令选择、代码优化等内容，并以搭建一个编译器为课程主要实践手段。</div><h2>课程简介（英文）</h2><p>This course closely integrates theory and practice, covering topics such as lexical analysis, syntax analysis, semantic analysis, intermediate code generation, instruction selection, and code optimization. The main practical method of the course is to build a compiler.</p><h2>教学目标</h2><p>本课程旨在通过对现代编译器核心架构及关键组件的深入研读与系统化实验，引导学生透彻掌握从词法分析到代码生成的全链路原理、实现方法及底层编程技巧。课程强调理论与实践的深度融合，着重培养学生在复杂系统软件中的综合运用能力与工程素养。在当前新型软硬件架构层出不穷的时代背景下，致力于通过严谨的思维训练与技术积淀，赋予学生应对未来技术变革的适应力与创新力，为其后续的学术深造及职业生涯发展奠定坚实基础。</p><h2>教学方式</h2><div>教学方式包括面授和上机辅导。每周课堂讲解与讨论。整个学期使用自定义的高级语言，以及相配套的AST，IR，Quad等，进行编译器构造练习。相应材料将在elearning上发布，并将使用一个Git server进行代码、测试集发布。整个学期使用编程语言C++。</div>
+<p>本课程每周安排2节上机实践课，进行编程练习和教学辅导。</p>
+<p>(1) 课内授课中，可能安排随堂练习环节，根据授课内容进行课上交流与讨论；</p>
+<p>(2) 上机实践课中，安排习题环节，通过授课内容与编程习题的结合，锻炼学生实践能力；</p>
+<p><span>(3) 构建班级微信群、邮件等及时进行课外交流与讨论。</span></p><h2>教学内容与进度安排</h2><p>**每周都有作业布置**</p>
+<p>第1周：Introduction &amp; Lexical analysis</p>
+<p>第2周：Lexical Analysis &amp; Parsing</p>
+<p>第3周：Parsing</p>
+<p>第4周：Parsing &amp; Abstract syntax (AST)  &amp; Semantic analysis</p>
+<p>第5周：Intermediate Representation (IR) &amp; Translation of AST to IR (quiz #1)</p>
+<p>第6周：Translation of AST to tree-IR</p>
+<p>第7周：Translation of AST to tree-IR</p>
+<p>第8周：Canonical representation &amp; Quad Representation &amp; Instruction selection</p>
+<p>第9周：Liveness analysis &amp; Static Single Assignment (quiz #2)</p>
+<p>第10周：Static Single Assignment</p>
+<p>第11周：Static Single Assignment</p>
+<p>第12周：Activation Record &amp; Register allocation</p>
+<p>第13周：Register Allocation (quiz #3)</p>
+<p>第14周：Code generation &amp; optimization</p>
+<p>第15周：Code optimization topics</p>
+<p>第16周：Advanced topics (quiz #4)</p>
+<p><span>第</span><span>17周：Final report</span></p><h2>课程考核与成绩评定</h2><h2>教材</h2><h2>教学参考资料</h2><p>教材：（虎书C版）Modern Compiler Implementation in C, Andrew W. Appel. Cambridge University Press, ISBN: 0521607655</p>
+<p>参考资料：</p>
+<p>1）（教材的中文翻译版）现代编译原理（C语言描述 修订版）      [美] 安德鲁·W.安佩尔（Andrew W. Appel） 著，赵克佳，黄春，沈志宇 译，人民邮电出版社，ISBN：9787115476883</p>
+<p>2）（虎书Java版）Modern Compiler Implementation in Java，Andrew W. Appel, Cambridge University Press, ISBN: 052182060</p>
 <p><span>3)</span><span> </span><span>编译原理第</span><span>3版教材+习题精选与解析 第三版 陈意云、张昱，高等教育出版社（2本）</span></p><h2>教学团队成员</h2></body></html>

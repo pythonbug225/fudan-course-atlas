@@ -1,124 +1,124 @@
-<!doctype html><html lang="zh-CN"><meta charset="utf-8"><title>计算机网络 · 毛迪林 · 2025秋 CS30036.02</title><style>body{max-width:1000px;margin:35px auto;padding:0 20px;font:16px/1.9 system-ui}table{border-collapse:collapse}td,th{border:1px solid #cad7cf;padding:8px}img{max-width:100%}</style><body><h1>计算机网络</h1><p>2025秋 · CS30036.02 · 毛迪林</p><p>来源：复旦教务系统教学班大纲。</p><h2>考核与成绩构成</h2><ul><li>出勤Attendance 5.0% 基于考勤记录</li><li>作业/实验/实践Assignment 35.0% 作业和实验报告</li><li>期末考试Final Examination：闭卷  60.0% 考试成绩</li></ul><h2>课程简介（中文）</h2><p>本课程主要以Internet的体系结构和协议为主线，同时也包含数据通信方面的内容，从理论和实践的角度讨论计算机网络的基本概念和基本原理，涵盖各层所要解决的基础性问题，主流的网络协议，目前的最新进展。主要内容包括：网络应用、运输层、网络层、数据链路层和物理层。</p><h2>课程简介（英文）</h2><p>This course primarily centers on the architecture and protocols of the Internet, while also incorporating content on data communication. It discusses the basic concepts and fundamental principles of computer networks from both theoretical and practical perspectives, covering the foundational issues, mainstream network protocols, current cutting-edge advancements. The main topics include: network applications, the transport layer, the network layer, the data link layer, the physical layer.</p><h2>教学目标</h2><p>通过本课程的教学，帮助学生掌握计算机网络的基本概念和基本原理，并且结合课程配套的实验加深理解，培养学生理论联系实际和实践动手能力，使得学生不仅仅了解什么是计算机网络以及如何工作的，而且了解其为什么要这样设计，为今后工作或者继续从事相关研究打下扎实的专业基础。了解计算机网络安全相关的知识，增强安全防范意识，了解网络安全和隐私保护的相关法规，合法合规地使用计算机网络。</p><h2>教学方式</h2><p><strong>课堂讲授为主。每周布置课后习题，还包括网络协议分析和网络编程项目。</strong></p><h2>教学内容与进度安排</h2><p>每周布置习题。配套实验部分包括网络协议分析以及网络编程。</p>
-<p>第1周 计算机网络和Internet概述</p>
-<ul>
-<li>计算机网络和Internet简介</li>
-<li>网络边缘：接入网和物理媒体</li>
-<li>网络核心：分组交换、电路交换</li>
-<li>分组交换网中的时延、丢包和吞吐量</li>
-</ul>
-<p>目标：了解计算机网络的发展历史和基本组成，了解网络边缘的端系统如何接入，了解各种物理媒体的基本特性。掌握分组交换的基本原理，掌握计算机网络领域中的主要性能度量指标</p>
-<p> </p>
-<p>第2周 网络体系结构和网络应用概述</p>
-<ul>
-<li>网络体系结构：层次模型，OSI和Internet参考模型</li>
-<li>计算机网络(Internet)的发展历史和标准化组织</li>
-<li>计算机网络的安全威胁，计算机网络工程师的职业伦理道德</li>
-<li>网络应用概述</li>
-</ul>
-<p>目标：掌握计算机网络的体系结构。了解计算机网络的标准化组织，了解计算机网络可能面向的安全威胁以及计算机网络工程师应该遵循的职业伦理道德。了解网络应用的两种架构：C/S和P2P，了解网络应用的不同需求</p>
-<p> </p>
-<p>第3周 网络应用（1）</p>
-<ul>
-<li>Web和HTTP：WWW概述，HTTP协议和HTTPS，非持续连接和持续连接，HTTP消息格式，cookie，Web缓存，HTTP/2</li>
-<li>电子邮件：电子邮件概述，SMTP，电子邮件格式，邮件访问协议</li>
-</ul>
-<p>目标：掌握HTTP协议的基本工作原理，掌握电子邮件的工作原理</p>
-<p> </p>
-<p>第4周 网络应用（2）</p>
-<ul>
-<li>域名服务：DNS基本概念，DNS资源纪录，域名解析过程，DNS协议</li>
-<li>运输层协议概述</li>
-</ul>
-<p>目标：掌握DNS基础设施的工作原理</p>
-<p> </p>
-<p>第5周 运输层（1）</p>
-<ul>
-<li>UDP协议</li>
-<li>可靠数据传输原理</li>
-</ul>
-<p>目标：掌握可靠数据传输的基本原理，包括停等协议、GBN和选择重传机制</p>
-<p> </p>
-<p>第6周 运输层（2）</p>
-<ul>
-<li>TCP概述和TCP报文格式，</li>
-<li>TCP数据传输和流量控制</li>
-</ul>
-<p>目标：掌握TCP段中的主要字段要解决的问题；掌握TCP的数据传输是如何工作的，与数据链路层的可靠数据传输协议的区别</p>
-<p> </p>
-<p>第7周 运输层（3）</p>
-<ul>
-<li>TCP连接管理</li>
-<li>TCP拥塞控制</li>
-</ul>
-<p>目标：掌握TCP的连接建立和释放；掌握TCP的拥塞控制的基本原理</p>
-<p> </p>
-<p>第8周 网络层协议：数据平面</p>
-<ul>
-<li>网络层概述：转发和路由选择，数据平面和控制平面</li>
-<li>路由器工作原理概述</li>
-<li>IPv4协议、ICMP协议</li>
-</ul>
-<p>目标：了解IP协议设计的基本原理，掌握IP协议以及属于控制平面的ICMP协议</p>
-<p> </p>
-<p>第9周 网络层协议：数据平面（2）</p>
-<ul>
-<li>DHCP和NAT</li>
-<li>IPv6协议</li>
-<li>软件定义网络（SDN）</li>
-</ul>
-<p>目标：掌握DHCP以及NAT的工作原理，掌握IPv6协议，了解SDN的基本思想</p>
-<p> </p>
-<p>第10周 网络层协议：控制平面</p>
-<ul>
-<li>路由选择算法概述</li>
-<li>链路状态路由算法</li>
-<li>距离向量路由算法</li>
-</ul>
-<p>目标：掌握链路状态和距离向量路由算法</p>
-<p> </p>
-<p>第11周 网络层协议：控制平面（2）</p>
-<ul>
-<li>OSPF路由协议</li>
-<li>BGP路由协议</li>
-</ul>
-<p>目标：掌握OSPF路由协议，了解BGP路由协议</p>
-<p> </p>
-<p>第12周 数据链路层</p>
-<ul>
-<li>链路层概述</li>
-<li>差错检测与校正</li>
-<li>媒体访问控制概述：信道划分协议</li>
-</ul>
-<p>目标：掌握链路层的帧同步机制，掌握CRC</p>
-<p> </p>
-<p>第13周 媒体访问控制</p>
-<ul>
-<li>竞争协议：ALOHA，CSMA和CSMA/CD</li>
-<li>轮流协议</li>
-<li>以太网：MAC地址、帧格式</li>
-<li>ARP协议</li>
-</ul>
-<p>目标：掌握常用的媒体访问控制协议，掌握ARP协议以及IP分组如何通过链路层转发</p>
-<p> </p>
-<p>第14周 局域网互连</p>
-<ul>
-<li>物理层互连：转发器和集线器</li>
-<li>链路层互连：网桥和交换机</li>
-</ul>
-<p>目标：掌握网桥的基本工作原理，生成树算法是如何解决可能的回路的</p>
-<p> </p>
-<p>第15周 物理层（数据通信基础）</p>
-<ul>
-<li>信道的最大数据速率：Nyquist定理和Shannon定理</li>
-<li>数字编码：NRZI、曼彻斯特编码、4B5B码</li>
-<li>数字调制</li>
-</ul>
-<p>目标：掌握物理层的基本原理，理解Nyquist定理和Shannon定理，如何进行数字编码</p>
-<p> </p>
-<p>第16周 机动与复习</p>
-<p> </p>
-<p>第17-18周 考试周</p><h2>课程考核与成绩评定</h2><h2>教材</h2><h2>教学参考资料</h2><ol>
-<li>计算机网络 Computer Networks (第6版) Andrew Tanenbaum等 潘爱民(译者)，ISBN：9787302604716，清华大学出版社，2022年6月</li>
-<li>计算机网络:系统方法 Computer Networks A Systems Approach（原书第6版）Larry L.Peterson等 王勇 (译者), ISBN：9787111705673，机械工业出版社，2022年8月</li>
-<li>计算机网络教程(第2版)，高传善、曹袖、毛迪林、王雪平，ISBN: 9787040385144，高等教育出版社，2013年11月</li>
+<!doctype html><html lang="zh-CN"><meta charset="utf-8"><title>计算机网络 · 毛迪林 · 2025秋 CS30036.02</title><style>body{max-width:1000px;margin:35px auto;padding:0 20px;font:16px/1.9 system-ui}table{border-collapse:collapse}td,th{border:1px solid #cad7cf;padding:8px}img{max-width:100%}</style><body><h1>计算机网络</h1><p>2025秋 · CS30036.02 · 毛迪林</p><p>来源：复旦教务系统教学班大纲。</p><h2>考核与成绩构成</h2><ul><li>出勤Attendance 5.0% 基于考勤记录</li><li>作业/实验/实践Assignment 35.0% 作业和实验报告</li><li>期末考试Final Examination：闭卷  60.0% 考试成绩</li></ul><h2>课程简介（中文）</h2><p>本课程主要以Internet的体系结构和协议为主线，同时也包含数据通信方面的内容，从理论和实践的角度讨论计算机网络的基本概念和基本原理，涵盖各层所要解决的基础性问题，主流的网络协议，目前的最新进展。主要内容包括：网络应用、运输层、网络层、数据链路层和物理层。</p><h2>课程简介（英文）</h2><p>This course primarily centers on the architecture and protocols of the Internet, while also incorporating content on data communication. It discusses the basic concepts and fundamental principles of computer networks from both theoretical and practical perspectives, covering the foundational issues, mainstream network protocols, current cutting-edge advancements. The main topics include: network applications, the transport layer, the network layer, the data link layer, the physical layer.</p><h2>教学目标</h2><p>通过本课程的教学，帮助学生掌握计算机网络的基本概念和基本原理，并且结合课程配套的实验加深理解，培养学生理论联系实际和实践动手能力，使得学生不仅仅了解什么是计算机网络以及如何工作的，而且了解其为什么要这样设计，为今后工作或者继续从事相关研究打下扎实的专业基础。了解计算机网络安全相关的知识，增强安全防范意识，了解网络安全和隐私保护的相关法规，合法合规地使用计算机网络。</p><h2>教学方式</h2><p><strong>课堂讲授为主。每周布置课后习题，还包括网络协议分析和网络编程项目。</strong></p><h2>教学内容与进度安排</h2><p>每周布置习题。配套实验部分包括网络协议分析以及网络编程。</p>
+<p>第1周 计算机网络和Internet概述</p>
+<ul>
+<li>计算机网络和Internet简介</li>
+<li>网络边缘：接入网和物理媒体</li>
+<li>网络核心：分组交换、电路交换</li>
+<li>分组交换网中的时延、丢包和吞吐量</li>
+</ul>
+<p>目标：了解计算机网络的发展历史和基本组成，了解网络边缘的端系统如何接入，了解各种物理媒体的基本特性。掌握分组交换的基本原理，掌握计算机网络领域中的主要性能度量指标</p>
+<p> </p>
+<p>第2周 网络体系结构和网络应用概述</p>
+<ul>
+<li>网络体系结构：层次模型，OSI和Internet参考模型</li>
+<li>计算机网络(Internet)的发展历史和标准化组织</li>
+<li>计算机网络的安全威胁，计算机网络工程师的职业伦理道德</li>
+<li>网络应用概述</li>
+</ul>
+<p>目标：掌握计算机网络的体系结构。了解计算机网络的标准化组织，了解计算机网络可能面向的安全威胁以及计算机网络工程师应该遵循的职业伦理道德。了解网络应用的两种架构：C/S和P2P，了解网络应用的不同需求</p>
+<p> </p>
+<p>第3周 网络应用（1）</p>
+<ul>
+<li>Web和HTTP：WWW概述，HTTP协议和HTTPS，非持续连接和持续连接，HTTP消息格式，cookie，Web缓存，HTTP/2</li>
+<li>电子邮件：电子邮件概述，SMTP，电子邮件格式，邮件访问协议</li>
+</ul>
+<p>目标：掌握HTTP协议的基本工作原理，掌握电子邮件的工作原理</p>
+<p> </p>
+<p>第4周 网络应用（2）</p>
+<ul>
+<li>域名服务：DNS基本概念，DNS资源纪录，域名解析过程，DNS协议</li>
+<li>运输层协议概述</li>
+</ul>
+<p>目标：掌握DNS基础设施的工作原理</p>
+<p> </p>
+<p>第5周 运输层（1）</p>
+<ul>
+<li>UDP协议</li>
+<li>可靠数据传输原理</li>
+</ul>
+<p>目标：掌握可靠数据传输的基本原理，包括停等协议、GBN和选择重传机制</p>
+<p> </p>
+<p>第6周 运输层（2）</p>
+<ul>
+<li>TCP概述和TCP报文格式，</li>
+<li>TCP数据传输和流量控制</li>
+</ul>
+<p>目标：掌握TCP段中的主要字段要解决的问题；掌握TCP的数据传输是如何工作的，与数据链路层的可靠数据传输协议的区别</p>
+<p> </p>
+<p>第7周 运输层（3）</p>
+<ul>
+<li>TCP连接管理</li>
+<li>TCP拥塞控制</li>
+</ul>
+<p>目标：掌握TCP的连接建立和释放；掌握TCP的拥塞控制的基本原理</p>
+<p> </p>
+<p>第8周 网络层协议：数据平面</p>
+<ul>
+<li>网络层概述：转发和路由选择，数据平面和控制平面</li>
+<li>路由器工作原理概述</li>
+<li>IPv4协议、ICMP协议</li>
+</ul>
+<p>目标：了解IP协议设计的基本原理，掌握IP协议以及属于控制平面的ICMP协议</p>
+<p> </p>
+<p>第9周 网络层协议：数据平面（2）</p>
+<ul>
+<li>DHCP和NAT</li>
+<li>IPv6协议</li>
+<li>软件定义网络（SDN）</li>
+</ul>
+<p>目标：掌握DHCP以及NAT的工作原理，掌握IPv6协议，了解SDN的基本思想</p>
+<p> </p>
+<p>第10周 网络层协议：控制平面</p>
+<ul>
+<li>路由选择算法概述</li>
+<li>链路状态路由算法</li>
+<li>距离向量路由算法</li>
+</ul>
+<p>目标：掌握链路状态和距离向量路由算法</p>
+<p> </p>
+<p>第11周 网络层协议：控制平面（2）</p>
+<ul>
+<li>OSPF路由协议</li>
+<li>BGP路由协议</li>
+</ul>
+<p>目标：掌握OSPF路由协议，了解BGP路由协议</p>
+<p> </p>
+<p>第12周 数据链路层</p>
+<ul>
+<li>链路层概述</li>
+<li>差错检测与校正</li>
+<li>媒体访问控制概述：信道划分协议</li>
+</ul>
+<p>目标：掌握链路层的帧同步机制，掌握CRC</p>
+<p> </p>
+<p>第13周 媒体访问控制</p>
+<ul>
+<li>竞争协议：ALOHA，CSMA和CSMA/CD</li>
+<li>轮流协议</li>
+<li>以太网：MAC地址、帧格式</li>
+<li>ARP协议</li>
+</ul>
+<p>目标：掌握常用的媒体访问控制协议，掌握ARP协议以及IP分组如何通过链路层转发</p>
+<p> </p>
+<p>第14周 局域网互连</p>
+<ul>
+<li>物理层互连：转发器和集线器</li>
+<li>链路层互连：网桥和交换机</li>
+</ul>
+<p>目标：掌握网桥的基本工作原理，生成树算法是如何解决可能的回路的</p>
+<p> </p>
+<p>第15周 物理层（数据通信基础）</p>
+<ul>
+<li>信道的最大数据速率：Nyquist定理和Shannon定理</li>
+<li>数字编码：NRZI、曼彻斯特编码、4B5B码</li>
+<li>数字调制</li>
+</ul>
+<p>目标：掌握物理层的基本原理，理解Nyquist定理和Shannon定理，如何进行数字编码</p>
+<p> </p>
+<p>第16周 机动与复习</p>
+<p> </p>
+<p>第17-18周 考试周</p><h2>课程考核与成绩评定</h2><h2>教材</h2><h2>教学参考资料</h2><ol>
+<li>计算机网络 Computer Networks (第6版) Andrew Tanenbaum等 潘爱民(译者)，ISBN：9787302604716，清华大学出版社，2022年6月</li>
+<li>计算机网络:系统方法 Computer Networks A Systems Approach（原书第6版）Larry L.Peterson等 王勇 (译者), ISBN：9787111705673，机械工业出版社，2022年8月</li>
+<li>计算机网络教程(第2版)，高传善、曹袖、毛迪林、王雪平，ISBN: 9787040385144，高等教育出版社，2013年11月</li>
 </ol><h2>教学团队成员</h2><h2>教材与参考书</h2><p>[美] 詹姆斯·F.库罗斯，[美] 基思·W.罗斯 著，陈鸣 译；2022-11；9787111712367；计算机网络:自顶向下的方法；机械工业出版社</p></body></html>

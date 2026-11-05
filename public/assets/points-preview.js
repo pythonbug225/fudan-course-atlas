@@ -94,6 +94,7 @@
       state.balance = null;
     }
     render();
+    window.dispatchEvent(new Event('points-changed'));
     return { ...state };
   }
 
@@ -146,6 +147,8 @@
     void checkIn();
   });
 
+  window.addEventListener('auth-changed', () => { void refresh(); });
   window.FudanPoints = { refresh, checkIn, getState: () => ({ ...state }) };
   window.FudanPoints.ready = refresh();
+  window.FudanPoints.ready.then(() => window.dispatchEvent(new Event('points-changed')));
 })();

@@ -1,93 +1,93 @@
-<!doctype html><html lang="zh-CN"><meta charset="utf-8"><title>深度学习及其应用 · 赵卫东 · 2025秋 CS40034.01</title><style>body{max-width:1000px;margin:35px auto;padding:0 20px;font:16px/1.9 system-ui}table{border-collapse:collapse}td,th{border:1px solid #cad7cf;padding:8px}img{max-width:100%}</style><body><h1>深度学习及其应用</h1><p>2025秋 · CS40034.01 · 赵卫东</p><p>来源：复旦教务系统教学班大纲。</p><h2>考核与成绩构成</h2><ul><li>出勤Attendance 10.0% 出勤次数</li><li>作业/实验/实践Assignment 30.0% 实验和小测验质量</li><li>课题论文Research Paper 60.0% 根据选题创新、分析深度、逻辑性和语言等综合评定</li></ul><h2>课程简介（中文）</h2><p>课程涵盖了深度学习的核心概念和关键技术，包括卷积神经网络（CNN）、循环神经网络（RNN）、生成对抗网络（GAN）、注意力机制和Transformer等。这些方法不仅构成了深度学习的基础，被广泛应用于多个领域。课程通过使用机器学习领域的主流开源框架，指导学生如何在股票预测、人脸特征分析、目标检测、语义分割、图像风格转移以及社交网络情感分析等实际问题中应用深度学习技术。</p><h2>课程简介（英文）</h2><p>The course &quot;Deep Learning and Its Applications&quot; covers the core concepts and key technologies of deep learning, including Convolutional Neural Networks (CNN), Recurrent Neural Networks (RNN), Generative Adversarial Networks (GAN), attention mechanisms, and Transformers. These methods not only form the foundation of deep learning but are also widely applied across various fields. By utilizing mainstream open-source frameworks in the field of machine learning, the course guides students in applying deep learning techniques to practical problems such as stock prediction, facial feature analysis, object detection, semantic segmentation, image style transfer, and sentiment analysis in social networks. Through these hands-on practices, students gain an in-depth understanding of how deep learning models work and master the skills needed to apply these models to solve real-world problems.</p><h2>教学目标</h2><p>深度学习及其应用课程的教学目标旨在为学生提供一个基础而深入的学习体验，使他们能够熟练掌握深度学习领域的关键知识和实践技能。通过本课程的学习，学生将深刻理解卷积、池化等基本概念，并能够运用这些概念构建高效的卷积神经网络模型。同时，学生还将应用这些算法解决常见的图像识别问题。</p>
-<p>课程还将深入解析目标检测和语义分割算法的原理和应用案例，帮助学生理解这些高级算法的工作原理，并能够在实际问题中灵活运用。同时，学生还将了解生成对抗网络的基本原理和基本算法，探索其在图像生成、数据增强等领域的应用潜力。</p>
-<p>为了让学生能够更好地将理论知识转化为实践能力，课程还将引入深度学习低代码开发平台摩搭，帮助学生实现深度学习典型算法的开发过程。通过实际操作，学生将熟悉平台的各项功能，掌握模型构建、训练、调优和部署等各个环节的技巧，从而全面提升自己的深度学习应用能力。</p><h2>教学方式</h2><p>针对本课程的特点以及学生的基础水平，精心设计了多样化的教学方法。</p>
-<p>（1）采用了讲授教学。通过系统、全面地讲解深度学习的基本原理、卷积神经网络等核心内容，使学生能够建立起扎实的知识基础。在此过程中，注重理论与实际应用的结合，通过生动的案例和实例，帮助学生更好地理解和掌握知识。</p>
-<p>（2）本课程还特别注重实验教学的应用。通过设计多个与课程内容紧密相关的实验项目，让学生在实践中深化对理论知识的理解。实验教学不仅有助于提高学生的动手能力，还能培养他们的创新思维和解决问题的能力。</p>
-<p>（3）课程还引入了案例教学法。通过选取典型的深度学习应用案例，如人脸识别、电动车头盔检测等，进行深入剖析和讨论。案例教学法能够使学生将所学知识与实际问题相结合，提高他们分析问题、解决问题的能力。</p>
-<p>在教学过程中，还注重与学生的互动与交流。通过课堂讨论、小组合作等方式，鼓励学生积极参与课堂活动，发表自己的观点和看法。这种互动式的教学方式有助于激发学生的学习兴趣，提高他们的学习效果。</p><h2>教学内容与进度安排</h2><p>本课程旨在全面介绍深度学习计算机图像处理的基本原理，并重点讲解卷积神经网络、目标检测以及图像语义分割等关键领域的基本方法及其典型应用。</p>
-<p>首先，课程将详细阐述深度学习的基本原理，通过理论讲解和实例分析，学生将深入理解深度学习模型的结构和工作原理。其中，课程将重点介绍卷积神经网络（Convolutional Neural Networks，CNN）的原理和应用，详细解析CNN的卷积层、池化层等关键组件，并通过实例展示CNN在图像分类、人脸识别等任务中的优异性能。</p>
-<p>课程还将介绍目标检测、图像语义分割等高级技术，讲解这些技术的基本原理和实现方法，并通过实际案例展示它们在车道和车道线检测、影像分析等领域的应用。</p>
-<p>为了使学生能够更好地将理论知识应用于实践，课程将借助深度学习智能平台阿里摩搭实现深度学习在人脸识别、电动车头盔检测、车道线检测以及图像生成等典型应用领域的应用过程。学生将有机会亲自动手操作，通过实践掌握深度学习技术的实际应用技巧。</p>
-<p>通过本课程的学习，学生将掌握深度学习的基本原理和关键技术，并具备将其应用于实际问题的能力。这将为他们在人工智能领域的进一步研究和职业发展提供有力的支持。</p>
-<p><strong>教学内容安排 </strong>(按36学时共计18周，具体到每节课内容)<strong>:</strong></p>
-<p>其中理论教学24学时，实验、实训12学时（不含实训大作业），占比35%+。限于课时，部分容易理解的内容通过在线课程自学。</p>
-<ol>
-<li><strong> </strong><strong>神经网络概论（在线课程翻转教学为主）</strong><strong> </strong><strong>第</strong><strong>1-2</strong><strong>周</strong><strong> 2</strong><strong>课时</strong></li>
-</ol>
-<p>本单元将为学生打开深度学习的大门，通过简要介绍神经网络的发展历程，使学生对其起源、演变及当前的应用有一个整体的认知。还将深入探讨神经网络的结构、算法，并通过经典的前向多层神经网络来阐述其工作原理和应用案例，为后续深入学习深度学习神经网络打下坚实的基础。</p>
-<p><strong>0.1 </strong><strong>神经网络的发展</strong></p>
-<p>回顾神经网络从感知机到深度学习的演变过程，探讨其关键技术的突破和进步。通过了解神经网络的发展脉络，学生可以更好地理解其背后的科学原理和技术创新。</p>
-<p><strong>0.2 </strong><strong>前向神经网络结构</strong></p>
-<p>详细介绍前向神经网络的基本结构，包括神经元、权重、偏置等核心概念。通过理论讲解和实例展示，帮助学生建立对前向神经网络直观而深刻的理解。</p>
-<p><strong>0.3 </strong><strong>前馈神经网络训练算法</strong></p>
-<p>深入解析前馈神经网络的训练过程，重点介绍反向传播算法的原理和实现方法。通过实例演示和代码实践，让学生亲自体验神经网络的训练过程，并掌握相关算法。</p>
-<p><strong>0.4 </strong><strong>神经网络的典型应用</strong></p>
-<p>列举神经网络在各个领域的典型应用案例，如图像识别、语音识别、自然语言处理等。通过分析这些案例，学生可以更好地理解神经网络的应用价值和潜在优势。</p>
-<p><strong>0.5 </strong><strong>案例：新闻分类</strong></p>
-<p>使用神经网络实现新闻分类任务。通过分析新闻文本的特征和类别，建立相应的神经网络模型，并进行训练和评估。通过这个案例，学生可以了解神经网络在文本分类任务中的应用方法和效果。</p>
-<p><strong>0.6 </strong><strong>实验：银行客户流失预测</strong><strong>  1</strong><strong>课时</strong></p>
-<p>本实验旨在指导学生利用神经网络进行银行客户流失预测。学生需要收集和处理相关数据，设计并实现神经网络模型，并进行训练和评估。通过这个实验，学生可以掌握神经网络在实际问题中的应用技巧和方法。</p>
-<ol>
-<li><strong> </strong><strong>卷积神经网络基础</strong><strong><sup>**</sup></strong><strong> </strong><strong>第</strong><strong>3-7</strong><strong>周（重点、难点）</strong><strong>8</strong><strong>课时</strong></li>
-</ol>
-<p>本单元将全面介绍卷积神经网络的基本原理和应用。通过深入讲解卷积的概念和特征，以及图像编码与卷积的关系，帮助学生理解卷积神经网络在图像处理中的优势。同时，还将介绍常见的卷积神经网络算法，并通过案例和实验来加深学生的理解。</p>
-<p><strong>1.1 </strong><strong>卷积的概念和特征</strong><strong>    </strong><strong>全课程基础，此部分内容重要</strong></p>
-<p>详细解释卷积操作的基本原理，包括卷积核、池化、步长、填充等概念。通过实例展示和图像处理应用案例，帮助学生直观理解卷积在特征提取中的作用和意义。此部分重点阐述卷积的内涵，池化、填充、通道等内容通过在线教学自学为主。</p>
-<p><strong>1.2 </strong><strong>图像编码与卷积</strong></p>
-<p>探讨图像编码方式与卷积的关系，分析不同编码方式对卷积操作的影响。通过对比实验和结果分析，帮助学生理解图像编码在卷积神经网络中的重要性。</p>
-<p><strong>1.3 </strong><strong>卷积神经网络训练和优化</strong></p>
-<p>深入讲解卷积神经网络的训练过程，包括损失函数、优化算法、正则化技术等。通过实例演示和代码实践，让学生掌握卷积神经网络的训练和优化技巧。</p>
-<p><strong>1.4 </strong><strong>常见的卷积神经网络算法</strong></p>
-<p>介绍几种常见的卷积神经网络算法，如VGG、Inception、Resnet、Darknet等。通过对比分析各算法的性能和适用场景，帮助学生选择适合的算法来解决实际问题。</p>
-<p><strong>1.5 </strong><strong>案例：图像分类、长臂猿保护</strong></p>
-<p>使用卷积神经网络实现图像分类任务，并以长臂猿保护为例进行说明。通过分析金丝猴图像的特征和类别，建立相应的卷积神经网络模型，并进行训练和评估。通过这个案例，学生可以了解卷积神经网络在图像分类任务中的创新应用。</p>
-<p><strong>1.6 </strong><strong>案例：人脸识别、性别识别、年龄识别、活体检测等</strong></p>
-<p>介绍卷积神经网络在人脸识别等任务中的应用。通过展示相关算法和模型，以及在实际应用中的挑战和解决方案，帮助学生了解这些技术的最新进展和实际应用情况。<strong> </strong></p>
-<p><strong>通过众多案例讨论，宣扬技术向善、精益求精和法律伦理等思政元素。</strong></p>
-<p><strong>1.7 </strong><strong>实验：</strong><strong> 2</strong><strong>课时</strong></p>
-<p>图像分类—MindSpore实现</p>
-<p>动物识别实验—MindSpore实现</p>
-<ol>
-<li><strong> </strong><strong>目标检测</strong><strong><sup>**</sup></strong><strong> </strong><strong>第</strong><strong>8-13</strong><strong>周</strong><strong>（重点、难点）</strong><strong>10</strong><strong>课时</strong></li>
-</ol>
-<p><strong>2.1 </strong><strong>目标检测的基本概念</strong></p>
-<p>本单元将介绍目标检测的基本概念和原理。目标检测旨在从图像或视频中准确地定位并识别出特定的物体。常见的目标检测算法包括基于特征的方法、基于候选区域的方法和基于深度学习的方法等。本部分将概述这些算法的基本原理和适用场景，为后续深入学习打下基础。</p>
-<p><strong>2.2 </strong><strong>基于候选区域的目标检测</strong></p>
-<p>详细解析基于候选区域的目标检测算法。这类算法首先通过某种方式生成一系列候选区域，然后对每个候选区域进行分类和回归，以得到最终的检测结果。常见的算法如Faster RCNN等都属于此类方法。本部分将深入分析其算法原理、实现步骤和性能表现，同时探讨其在实际应用中的优势和局限性。</p>
-<p><strong>2.3 Faster R-CNN</strong><strong>目标检测算法</strong></p>
-<p>重点介绍Faster RCNN目标检测算法。Faster R-CNN通过引入区域提议网络（RPN）来改进传统的基于候选区域的目标检测方法，实现了端到端的训练和优化。本部分将详细讲解Faster RCNN的算法原理和流程，包括特征提取、区域提议生成、分类与回归等步骤。同时，将通过实验数据和案例来展示Faster RCNN在目标检测任务中的优异性能。</p>
-<p><strong>2.4 YOLO v1-v4</strong><strong>目标检测算法</strong></p>
-<p>介绍YOLO系列目标检测算法的发展历程。YOLO（You Only Look Once）算法通过一次前向传播即可实现目标的定位和分类，具有较快的检测速度。本部分将详细介绍YOLO v1到v4各个版本的算法原理和改进点，包括网络结构、损失函数、训练策略等方面的变化。同时，将对比各版本算法的性能表现，分析其在不同场景下的应用效果。</p>
-<p><strong>2.5 YOLO v5</strong><strong>算法</strong></p>
-<p>重点关注最新的YOLOv5算法。YOLOv5在保持较快检测速度的同时，进一步提升了检测的准确率。本部分将详细解析YOLOv5的算法特点和优势，包括其网络结构、训练技巧、优化策略等。同时，将探讨YOLOv5在实时目标检测任务中的应用前景，分析其在不同领域的潜在价值。</p>
-<p><strong>2.6 </strong><strong>案例：智能厨房</strong></p>
-<p>通过一个厨房老鼠、蟑螂、外来狗或猫的监控需求，使用YOLOv5算法设计一个智能检测系统，提升厨房的管理水平。由于YOLOv5预训练模型不能识别老鼠和蟑螂等目标，因此需要采集、标注这类样本，然后使用迁移学生微调预训练的YOLOv5模型，使其能识别老鼠和蟑螂。尽管YOLOv5模型可以识别狗和猫等动物，但为了减少上述迁移学习带来的记忆遗忘问题，在YOLOv5的精调中，也加入了一些狗猫的样本。此外，为了实现在移动端的加速推理，本案例还使用了OpenVINO加速器，对精调的YOLOv5模型进行格式转换，使之方便在边缘移动端的快速推理。</p>
-<p><strong>2.7 </strong><strong>实验：</strong><strong>  </strong><strong>3</strong><strong>课时</strong></p>
-<p>大型高分辨率集体照人脸检测与识别（MindSpore框架实现）</p>
-<p>Faster R-CNN目标检测算法（MindSpore框架实现）</p>
-<p><strong>通过上述案例和实验，开展科技兴国、技术服务社会、工匠精神等思政元素。</strong></p>
-<p><strong> </strong></p>
-<ol>
-<li><strong> </strong><strong>图像语义分割</strong><strong><sup>**</sup></strong><strong> </strong><strong>第</strong><strong>14-15</strong><strong>周（难点）</strong><strong> 3</strong><strong>课时</strong></li>
-</ol>
-<p><strong>3.1 </strong><strong>语义分割概述</strong></p>
-<p>在本单元中，详细介绍语义分割的任务和目标，并介绍一些常见的语义分割算法，通过案例和实验来展示这些算法的原理和应用效果，帮助学生深入理解语义分割的基本概念和原理。</p>
-<p><strong>3.2 UNet</strong><strong>算法</strong></p>
-<p>深入介绍UNet算法的结构和特点，包括其网络结构、损失函数、训练策略等关键方面。将通过案例分析来展示UNet在医学图像分割中的应用效果，并讨论其在实际应用中的优势和局限性。此外，还将探讨UNet在其他领域的应用潜力，帮助学生拓展视野并激发创新思维。</p>
-<p><strong>3.4 </strong><strong>案例：医学图像分割</strong></p>
-<p>展示一些医学图像分割的实际应用案例，包括肺部CT图像的病灶分割、脑部MRI图像的脑组织分割等。将分析这些案例中的算法原理、实现过程和应用效果，并讨论算法在解决实际问题中的优势和局限性。通过这些案例的学习，学生可以更深入地了解语义分割算法在医学领域的应用价值和挑战。</p>
-<p><strong>3.5 </strong><strong>实验：车道和车道线检测  </strong><strong>2</strong><strong>课时</strong></p>
-<p>UNet算法—MindSpore实现</p>
-<p><strong>通过上述案例和实验，开展技术服务社会、工匠精神、精益求精、职业和伦理道德等思政元素。</strong></p>
-<p><strong>4.生成对抗网络</strong><strong><sup>*</sup></strong><strong>（研讨型教学为主，在线课程自学为主）</strong><strong> </strong><strong>第</strong><strong>16</strong><strong>周</strong><strong> 1</strong><strong>课时</strong></p>
-<p><strong>4.1 </strong><strong>生成对抗网络基本原理</strong></p>
-<p>深入解释GAN的基本思想和结构，探讨其在图像生成、语音合成等任务中的应用潜力，并介绍GAN的发展历史和现状。</p>
-<p><strong>4.2 </strong><strong>生成对抗网络算法DCGAN</strong></p>
-<p>详细介绍DCGAN算法的原理和特点，分析其在图像生成任务中的性能表现，并通过实验案例来展示DCGAN的生成效果和应用价值。</p>
-<p><strong>4.3 </strong><strong>实验：超分辨率图像重建   </strong><strong>2</strong><strong>课时</strong></p>
-<p>DCGAN和WGAN算法—MindSpore实现</p><h2>课程考核与成绩评定</h2><h2>教材</h2><h2>教学参考资料</h2><p>[1] 赵卫东著. python机器学习实用案例集（第2版）.北京：清华大学出版社，2022</p>
-<p>[2]赵卫东著.<a>机器学习</a>案例实战（第2版）.北京：人民邮电出版社，2021</p>
-<p>[3] 赵卫东编著.深度学习实战案例.北京：人民邮电出版社，2024</p>
-<p>[4]深度学习及其应用在线课程（中国大学MOOC）：<a>https://www.icourse163.org/course/FUDAN-1205806833</a></p>
-<p>[5]机器学习实践在线课程（头歌）：<a>https://www.educoder.net/paths/ygpm7bqe</a></p>
+<!doctype html><html lang="zh-CN"><meta charset="utf-8"><title>深度学习及其应用 · 赵卫东 · 2025秋 CS40034.01</title><style>body{max-width:1000px;margin:35px auto;padding:0 20px;font:16px/1.9 system-ui}table{border-collapse:collapse}td,th{border:1px solid #cad7cf;padding:8px}img{max-width:100%}</style><body><h1>深度学习及其应用</h1><p>2025秋 · CS40034.01 · 赵卫东</p><p>来源：复旦教务系统教学班大纲。</p><h2>考核与成绩构成</h2><ul><li>出勤Attendance 10.0% 出勤次数</li><li>作业/实验/实践Assignment 30.0% 实验和小测验质量</li><li>课题论文Research Paper 60.0% 根据选题创新、分析深度、逻辑性和语言等综合评定</li></ul><h2>课程简介（中文）</h2><p>课程涵盖了深度学习的核心概念和关键技术，包括卷积神经网络（CNN）、循环神经网络（RNN）、生成对抗网络（GAN）、注意力机制和Transformer等。这些方法不仅构成了深度学习的基础，被广泛应用于多个领域。课程通过使用机器学习领域的主流开源框架，指导学生如何在股票预测、人脸特征分析、目标检测、语义分割、图像风格转移以及社交网络情感分析等实际问题中应用深度学习技术。</p><h2>课程简介（英文）</h2><p>The course &quot;Deep Learning and Its Applications&quot; covers the core concepts and key technologies of deep learning, including Convolutional Neural Networks (CNN), Recurrent Neural Networks (RNN), Generative Adversarial Networks (GAN), attention mechanisms, and Transformers. These methods not only form the foundation of deep learning but are also widely applied across various fields. By utilizing mainstream open-source frameworks in the field of machine learning, the course guides students in applying deep learning techniques to practical problems such as stock prediction, facial feature analysis, object detection, semantic segmentation, image style transfer, and sentiment analysis in social networks. Through these hands-on practices, students gain an in-depth understanding of how deep learning models work and master the skills needed to apply these models to solve real-world problems.</p><h2>教学目标</h2><p>深度学习及其应用课程的教学目标旨在为学生提供一个基础而深入的学习体验，使他们能够熟练掌握深度学习领域的关键知识和实践技能。通过本课程的学习，学生将深刻理解卷积、池化等基本概念，并能够运用这些概念构建高效的卷积神经网络模型。同时，学生还将应用这些算法解决常见的图像识别问题。</p>
+<p>课程还将深入解析目标检测和语义分割算法的原理和应用案例，帮助学生理解这些高级算法的工作原理，并能够在实际问题中灵活运用。同时，学生还将了解生成对抗网络的基本原理和基本算法，探索其在图像生成、数据增强等领域的应用潜力。</p>
+<p>为了让学生能够更好地将理论知识转化为实践能力，课程还将引入深度学习低代码开发平台摩搭，帮助学生实现深度学习典型算法的开发过程。通过实际操作，学生将熟悉平台的各项功能，掌握模型构建、训练、调优和部署等各个环节的技巧，从而全面提升自己的深度学习应用能力。</p><h2>教学方式</h2><p>针对本课程的特点以及学生的基础水平，精心设计了多样化的教学方法。</p>
+<p>（1）采用了讲授教学。通过系统、全面地讲解深度学习的基本原理、卷积神经网络等核心内容，使学生能够建立起扎实的知识基础。在此过程中，注重理论与实际应用的结合，通过生动的案例和实例，帮助学生更好地理解和掌握知识。</p>
+<p>（2）本课程还特别注重实验教学的应用。通过设计多个与课程内容紧密相关的实验项目，让学生在实践中深化对理论知识的理解。实验教学不仅有助于提高学生的动手能力，还能培养他们的创新思维和解决问题的能力。</p>
+<p>（3）课程还引入了案例教学法。通过选取典型的深度学习应用案例，如人脸识别、电动车头盔检测等，进行深入剖析和讨论。案例教学法能够使学生将所学知识与实际问题相结合，提高他们分析问题、解决问题的能力。</p>
+<p>在教学过程中，还注重与学生的互动与交流。通过课堂讨论、小组合作等方式，鼓励学生积极参与课堂活动，发表自己的观点和看法。这种互动式的教学方式有助于激发学生的学习兴趣，提高他们的学习效果。</p><h2>教学内容与进度安排</h2><p>本课程旨在全面介绍深度学习计算机图像处理的基本原理，并重点讲解卷积神经网络、目标检测以及图像语义分割等关键领域的基本方法及其典型应用。</p>
+<p>首先，课程将详细阐述深度学习的基本原理，通过理论讲解和实例分析，学生将深入理解深度学习模型的结构和工作原理。其中，课程将重点介绍卷积神经网络（Convolutional Neural Networks，CNN）的原理和应用，详细解析CNN的卷积层、池化层等关键组件，并通过实例展示CNN在图像分类、人脸识别等任务中的优异性能。</p>
+<p>课程还将介绍目标检测、图像语义分割等高级技术，讲解这些技术的基本原理和实现方法，并通过实际案例展示它们在车道和车道线检测、影像分析等领域的应用。</p>
+<p>为了使学生能够更好地将理论知识应用于实践，课程将借助深度学习智能平台阿里摩搭实现深度学习在人脸识别、电动车头盔检测、车道线检测以及图像生成等典型应用领域的应用过程。学生将有机会亲自动手操作，通过实践掌握深度学习技术的实际应用技巧。</p>
+<p>通过本课程的学习，学生将掌握深度学习的基本原理和关键技术，并具备将其应用于实际问题的能力。这将为他们在人工智能领域的进一步研究和职业发展提供有力的支持。</p>
+<p><strong>教学内容安排 </strong>(按36学时共计18周，具体到每节课内容)<strong>:</strong></p>
+<p>其中理论教学24学时，实验、实训12学时（不含实训大作业），占比35%+。限于课时，部分容易理解的内容通过在线课程自学。</p>
+<ol>
+<li><strong> </strong><strong>神经网络概论（在线课程翻转教学为主）</strong><strong> </strong><strong>第</strong><strong>1-2</strong><strong>周</strong><strong> 2</strong><strong>课时</strong></li>
+</ol>
+<p>本单元将为学生打开深度学习的大门，通过简要介绍神经网络的发展历程，使学生对其起源、演变及当前的应用有一个整体的认知。还将深入探讨神经网络的结构、算法，并通过经典的前向多层神经网络来阐述其工作原理和应用案例，为后续深入学习深度学习神经网络打下坚实的基础。</p>
+<p><strong>0.1 </strong><strong>神经网络的发展</strong></p>
+<p>回顾神经网络从感知机到深度学习的演变过程，探讨其关键技术的突破和进步。通过了解神经网络的发展脉络，学生可以更好地理解其背后的科学原理和技术创新。</p>
+<p><strong>0.2 </strong><strong>前向神经网络结构</strong></p>
+<p>详细介绍前向神经网络的基本结构，包括神经元、权重、偏置等核心概念。通过理论讲解和实例展示，帮助学生建立对前向神经网络直观而深刻的理解。</p>
+<p><strong>0.3 </strong><strong>前馈神经网络训练算法</strong></p>
+<p>深入解析前馈神经网络的训练过程，重点介绍反向传播算法的原理和实现方法。通过实例演示和代码实践，让学生亲自体验神经网络的训练过程，并掌握相关算法。</p>
+<p><strong>0.4 </strong><strong>神经网络的典型应用</strong></p>
+<p>列举神经网络在各个领域的典型应用案例，如图像识别、语音识别、自然语言处理等。通过分析这些案例，学生可以更好地理解神经网络的应用价值和潜在优势。</p>
+<p><strong>0.5 </strong><strong>案例：新闻分类</strong></p>
+<p>使用神经网络实现新闻分类任务。通过分析新闻文本的特征和类别，建立相应的神经网络模型，并进行训练和评估。通过这个案例，学生可以了解神经网络在文本分类任务中的应用方法和效果。</p>
+<p><strong>0.6 </strong><strong>实验：银行客户流失预测</strong><strong>  1</strong><strong>课时</strong></p>
+<p>本实验旨在指导学生利用神经网络进行银行客户流失预测。学生需要收集和处理相关数据，设计并实现神经网络模型，并进行训练和评估。通过这个实验，学生可以掌握神经网络在实际问题中的应用技巧和方法。</p>
+<ol>
+<li><strong> </strong><strong>卷积神经网络基础</strong><strong><sup>**</sup></strong><strong> </strong><strong>第</strong><strong>3-7</strong><strong>周（重点、难点）</strong><strong>8</strong><strong>课时</strong></li>
+</ol>
+<p>本单元将全面介绍卷积神经网络的基本原理和应用。通过深入讲解卷积的概念和特征，以及图像编码与卷积的关系，帮助学生理解卷积神经网络在图像处理中的优势。同时，还将介绍常见的卷积神经网络算法，并通过案例和实验来加深学生的理解。</p>
+<p><strong>1.1 </strong><strong>卷积的概念和特征</strong><strong>    </strong><strong>全课程基础，此部分内容重要</strong></p>
+<p>详细解释卷积操作的基本原理，包括卷积核、池化、步长、填充等概念。通过实例展示和图像处理应用案例，帮助学生直观理解卷积在特征提取中的作用和意义。此部分重点阐述卷积的内涵，池化、填充、通道等内容通过在线教学自学为主。</p>
+<p><strong>1.2 </strong><strong>图像编码与卷积</strong></p>
+<p>探讨图像编码方式与卷积的关系，分析不同编码方式对卷积操作的影响。通过对比实验和结果分析，帮助学生理解图像编码在卷积神经网络中的重要性。</p>
+<p><strong>1.3 </strong><strong>卷积神经网络训练和优化</strong></p>
+<p>深入讲解卷积神经网络的训练过程，包括损失函数、优化算法、正则化技术等。通过实例演示和代码实践，让学生掌握卷积神经网络的训练和优化技巧。</p>
+<p><strong>1.4 </strong><strong>常见的卷积神经网络算法</strong></p>
+<p>介绍几种常见的卷积神经网络算法，如VGG、Inception、Resnet、Darknet等。通过对比分析各算法的性能和适用场景，帮助学生选择适合的算法来解决实际问题。</p>
+<p><strong>1.5 </strong><strong>案例：图像分类、长臂猿保护</strong></p>
+<p>使用卷积神经网络实现图像分类任务，并以长臂猿保护为例进行说明。通过分析金丝猴图像的特征和类别，建立相应的卷积神经网络模型，并进行训练和评估。通过这个案例，学生可以了解卷积神经网络在图像分类任务中的创新应用。</p>
+<p><strong>1.6 </strong><strong>案例：人脸识别、性别识别、年龄识别、活体检测等</strong></p>
+<p>介绍卷积神经网络在人脸识别等任务中的应用。通过展示相关算法和模型，以及在实际应用中的挑战和解决方案，帮助学生了解这些技术的最新进展和实际应用情况。<strong> </strong></p>
+<p><strong>通过众多案例讨论，宣扬技术向善、精益求精和法律伦理等思政元素。</strong></p>
+<p><strong>1.7 </strong><strong>实验：</strong><strong> 2</strong><strong>课时</strong></p>
+<p>图像分类—MindSpore实现</p>
+<p>动物识别实验—MindSpore实现</p>
+<ol>
+<li><strong> </strong><strong>目标检测</strong><strong><sup>**</sup></strong><strong> </strong><strong>第</strong><strong>8-13</strong><strong>周</strong><strong>（重点、难点）</strong><strong>10</strong><strong>课时</strong></li>
+</ol>
+<p><strong>2.1 </strong><strong>目标检测的基本概念</strong></p>
+<p>本单元将介绍目标检测的基本概念和原理。目标检测旨在从图像或视频中准确地定位并识别出特定的物体。常见的目标检测算法包括基于特征的方法、基于候选区域的方法和基于深度学习的方法等。本部分将概述这些算法的基本原理和适用场景，为后续深入学习打下基础。</p>
+<p><strong>2.2 </strong><strong>基于候选区域的目标检测</strong></p>
+<p>详细解析基于候选区域的目标检测算法。这类算法首先通过某种方式生成一系列候选区域，然后对每个候选区域进行分类和回归，以得到最终的检测结果。常见的算法如Faster RCNN等都属于此类方法。本部分将深入分析其算法原理、实现步骤和性能表现，同时探讨其在实际应用中的优势和局限性。</p>
+<p><strong>2.3 Faster R-CNN</strong><strong>目标检测算法</strong></p>
+<p>重点介绍Faster RCNN目标检测算法。Faster R-CNN通过引入区域提议网络（RPN）来改进传统的基于候选区域的目标检测方法，实现了端到端的训练和优化。本部分将详细讲解Faster RCNN的算法原理和流程，包括特征提取、区域提议生成、分类与回归等步骤。同时，将通过实验数据和案例来展示Faster RCNN在目标检测任务中的优异性能。</p>
+<p><strong>2.4 YOLO v1-v4</strong><strong>目标检测算法</strong></p>
+<p>介绍YOLO系列目标检测算法的发展历程。YOLO（You Only Look Once）算法通过一次前向传播即可实现目标的定位和分类，具有较快的检测速度。本部分将详细介绍YOLO v1到v4各个版本的算法原理和改进点，包括网络结构、损失函数、训练策略等方面的变化。同时，将对比各版本算法的性能表现，分析其在不同场景下的应用效果。</p>
+<p><strong>2.5 YOLO v5</strong><strong>算法</strong></p>
+<p>重点关注最新的YOLOv5算法。YOLOv5在保持较快检测速度的同时，进一步提升了检测的准确率。本部分将详细解析YOLOv5的算法特点和优势，包括其网络结构、训练技巧、优化策略等。同时，将探讨YOLOv5在实时目标检测任务中的应用前景，分析其在不同领域的潜在价值。</p>
+<p><strong>2.6 </strong><strong>案例：智能厨房</strong></p>
+<p>通过一个厨房老鼠、蟑螂、外来狗或猫的监控需求，使用YOLOv5算法设计一个智能检测系统，提升厨房的管理水平。由于YOLOv5预训练模型不能识别老鼠和蟑螂等目标，因此需要采集、标注这类样本，然后使用迁移学生微调预训练的YOLOv5模型，使其能识别老鼠和蟑螂。尽管YOLOv5模型可以识别狗和猫等动物，但为了减少上述迁移学习带来的记忆遗忘问题，在YOLOv5的精调中，也加入了一些狗猫的样本。此外，为了实现在移动端的加速推理，本案例还使用了OpenVINO加速器，对精调的YOLOv5模型进行格式转换，使之方便在边缘移动端的快速推理。</p>
+<p><strong>2.7 </strong><strong>实验：</strong><strong>  </strong><strong>3</strong><strong>课时</strong></p>
+<p>大型高分辨率集体照人脸检测与识别（MindSpore框架实现）</p>
+<p>Faster R-CNN目标检测算法（MindSpore框架实现）</p>
+<p><strong>通过上述案例和实验，开展科技兴国、技术服务社会、工匠精神等思政元素。</strong></p>
+<p><strong> </strong></p>
+<ol>
+<li><strong> </strong><strong>图像语义分割</strong><strong><sup>**</sup></strong><strong> </strong><strong>第</strong><strong>14-15</strong><strong>周（难点）</strong><strong> 3</strong><strong>课时</strong></li>
+</ol>
+<p><strong>3.1 </strong><strong>语义分割概述</strong></p>
+<p>在本单元中，详细介绍语义分割的任务和目标，并介绍一些常见的语义分割算法，通过案例和实验来展示这些算法的原理和应用效果，帮助学生深入理解语义分割的基本概念和原理。</p>
+<p><strong>3.2 UNet</strong><strong>算法</strong></p>
+<p>深入介绍UNet算法的结构和特点，包括其网络结构、损失函数、训练策略等关键方面。将通过案例分析来展示UNet在医学图像分割中的应用效果，并讨论其在实际应用中的优势和局限性。此外，还将探讨UNet在其他领域的应用潜力，帮助学生拓展视野并激发创新思维。</p>
+<p><strong>3.4 </strong><strong>案例：医学图像分割</strong></p>
+<p>展示一些医学图像分割的实际应用案例，包括肺部CT图像的病灶分割、脑部MRI图像的脑组织分割等。将分析这些案例中的算法原理、实现过程和应用效果，并讨论算法在解决实际问题中的优势和局限性。通过这些案例的学习，学生可以更深入地了解语义分割算法在医学领域的应用价值和挑战。</p>
+<p><strong>3.5 </strong><strong>实验：车道和车道线检测  </strong><strong>2</strong><strong>课时</strong></p>
+<p>UNet算法—MindSpore实现</p>
+<p><strong>通过上述案例和实验，开展技术服务社会、工匠精神、精益求精、职业和伦理道德等思政元素。</strong></p>
+<p><strong>4.生成对抗网络</strong><strong><sup>*</sup></strong><strong>（研讨型教学为主，在线课程自学为主）</strong><strong> </strong><strong>第</strong><strong>16</strong><strong>周</strong><strong> 1</strong><strong>课时</strong></p>
+<p><strong>4.1 </strong><strong>生成对抗网络基本原理</strong></p>
+<p>深入解释GAN的基本思想和结构，探讨其在图像生成、语音合成等任务中的应用潜力，并介绍GAN的发展历史和现状。</p>
+<p><strong>4.2 </strong><strong>生成对抗网络算法DCGAN</strong></p>
+<p>详细介绍DCGAN算法的原理和特点，分析其在图像生成任务中的性能表现，并通过实验案例来展示DCGAN的生成效果和应用价值。</p>
+<p><strong>4.3 </strong><strong>实验：超分辨率图像重建   </strong><strong>2</strong><strong>课时</strong></p>
+<p>DCGAN和WGAN算法—MindSpore实现</p><h2>课程考核与成绩评定</h2><h2>教材</h2><h2>教学参考资料</h2><p>[1] 赵卫东著. python机器学习实用案例集（第2版）.北京：清华大学出版社，2022</p>
+<p>[2]赵卫东著.<a>机器学习</a>案例实战（第2版）.北京：人民邮电出版社，2021</p>
+<p>[3] 赵卫东编著.深度学习实战案例.北京：人民邮电出版社，2024</p>
+<p>[4]深度学习及其应用在线课程（中国大学MOOC）：<a>https://www.icourse163.org/course/FUDAN-1205806833</a></p>
+<p>[5]机器学习实践在线课程（头歌）：<a>https://www.educoder.net/paths/ygpm7bqe</a></p>
 <p> </p><h2>教学团队成员</h2><h2>教材与参考书</h2><p>赵卫东；2022-11；9787115598486；机器学习；清华大学出版社</p></body></html>

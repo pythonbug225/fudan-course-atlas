@@ -1,732 +1,732 @@
-<!doctype html><html lang="zh-CN"><meta charset="utf-8"><title>操作系统（H） · 张亮 · 2025秋 CS30031h.01</title><style>body{max-width:1000px;margin:35px auto;padding:0 20px;font:16px/1.9 system-ui}table{border-collapse:collapse}td,th{border:1px solid #cad7cf;padding:8px}img{max-width:100%}</style><body><h1>操作系统（H）</h1><p>2025秋 · CS30031h.01 · 张亮</p><p>来源：复旦教务系统教学班大纲。</p><h2>考核与成绩构成</h2><ul><li>作业/实验/实践Assignment 60.0% </li><li>课题论文Research Paper 25.0% </li><li>分组讨论Group Discussion 15.0% </li></ul><h2>课程简介（中文）</h2><p>操作系统(Operating Systems, OS)是一种系统软件，抽象了硬件资源，通过管理和共享这些资源而协调多道应用程序的并发执行。按照 ACM/IEEE  CC2020 教学方案的界定，操作系统隶属于计算机 34 个重点知识领域之一，分属软件基础（Software  Fundamentals，其原理涉及现代计算机系统的重多方面，影响计算机系统的性能、虚拟化与隔离以及资源分配与调度等问题；并行和分布式计算中的并行基础问题；信息保障和安全中的深度取证与安全问题。总之，操作系统中很多内容都关联到这些交叉知识领域。以华为基座课程为平台，结合 openEuler  的 Linux  操 作系统内核为例，引导学生完成操作系统核心组件的设计，开发和实现一个基于 ARM v8 的教学操作系统内核，鼓励学生探索实现基于 RISC-V 的操作系统内核。</p><h2>课程简介（英文）</h2><p>An operating system (OS) is a type of system software that abstracts hardware resources and coordinates the concurrent execution of multiple applications through the management and sharing of those resources. As defined in the ACM/IEEE curriculum guidelines CC2020, operating systems represent one of the 34 core knowledge areas in computer science and fall under Software Fundamentals. The principles of operating systems touch on critical aspects of modern computer systems—affecting performance, virtualization, isolation, resource allocation, and scheduling, among other areas. They also play a fundamental role in parallelism within parallel and distributed computing, as well as in digital forensics and security under information assurance.</p>
-<p>Overall, many concepts in operating systems are deeply intertwined with these cross-disciplinary domains. Using Huawei’s foundational course platform and the openEuler Linux kernel as an example, students are guided through the design, development, and implementation of a teaching-oriented OS kernel based on ARM v8. They are further encouraged to explore the implementation of a similar kernel based on the RISC-V architecture.</p><h2>教学目标</h2><ul>
-<li>   遵循威廉·巴特勒·叶芝（WilliamButlerYeats）的“教育不是注满一桶水，而是点燃一把 火”的理念，本课程力求成为点燃学生心智的火花！</li>
-<li>   与学生一起共同探索操作系统的本质，激发学生掌握操作系统原理、结构和机制的潜力。培养学生通过操系统经典文献的阅读掌握操作系统的基本原理和发展趋势，形成计算机系统观</li>
-<li>   通过开发一个教学用操作系统内核掌握操作系统的设计和工程化开发方法，掌握计算机系统能力</li>
-<li>   鼓励学生选择挑战性课题，完成新兴思想和创新技术的实践。</li>
-</ul><h2>教学方式</h2><p>本课程遵从学术研究的授课风格：首先确定问题，然后以代表性文献为基础，介绍各种解决方案的缘由和 发展，并通过比较各个具体的设计决策实现技术，探讨操作系统的原理、方法和技术。让学生知其然，也 知其所以然，培养具有系统能力的计算机专业人才。课堂广泛采用研讨方式。</p><h2>教学内容与进度安排</h2><p><strong>第</strong> <strong>1   </strong><strong>周：课程总论、操作系统引论</strong> <strong>OS</strong><strong>00-</strong><strong>这门课的特点</strong> <strong>(</strong><strong>OS</strong><strong>00</strong><strong>-  </strong><strong>What</strong><strong>   </strong><strong>makes</strong><strong>  </strong><strong>this</strong><strong>   </strong><strong>course </strong><strong>distinguished)</strong></p>
-<ol>
-<li>大学教学的主要目的</li>
-</ol>
-<ul>
-<li>批判性阅读能力——使同学们对工作中复杂的行动方案进行清晰的阐述；</li>
-<li>必要的写作能力——使同学们清楚地向同僚阐明自己的观点；</li>
-<li>独立思考能力——使同学们避免人云亦云；</li>
-<li>终生学习的能力——使同学们轻松应对工作中无所不在的变化。</li>
-</ul>
-<ol>
-<li>本课程的实施方法
-<p>通过分享教师的体会和师生交流、生生交流，引导和启发同学自己的能力提升。具体地，</p>
-<ul>
-<li>经典文献阅读，全面理解OS中各项内容的 5W</li>
-<li>剖析教学OS 内核代码，加深对 How 的理解</li>
-<li>最新技术进展文献导读，了解OS 发展动向</li>
-</ul>
-<ol>
-<li>本课程的主题</li>
-</ol>
-<p>按照 OSTEP 作者 ARPACI-DUSSEAU 和 ARPACI-DUSSEAU 的观点，学习操作系统应该掌握三大主题：</p>
-<ul>
-<li>虚拟化（virtualization）</li>
-<li>并发（concurrency）</li>
-<li>持久化（persistence）</li>
-</ul>
-<p>同时对部分操作系统最新研究成果开展研讨。</p>
-<p> </p>
-<p><strong>操作系统</strong><strong>-01.  </strong><strong>操作系统概论</strong></p>
-<p><strong>OS01:</strong><strong> </strong><strong>Introduction to </strong><strong>Operating Systems)</strong></p>
-<p><strong>KEYWORDS</strong><strong> </strong><strong>Abstraction, System calls,</strong><strong> </strong><strong>Processes, OS</strong><strong> </strong><strong>Architecture</strong><a><strong>, openEuler/openHarmony</strong><strong> </strong></a><strong>[</strong><strong>核心一级，</strong><strong>2x3</strong><strong> </strong><strong>学时</strong><strong>]</strong></p>
-<p><strong>要点综述</strong></p>
-<ul>
-<li>   计算机的基本功能就是运行程序，本讲初步揭开以下谜团：</li>
-</ul>
-<p>o 任何一个程序的运行需要得到哪些帮助（需求）</p>
-<p>o 操作系统与其他用户空间中的程序是主从关系（控制范围）</p>
-<p>o 操作系统通过优先引导和内核模式掌握着控制权（控制时机）</p>
-<p>o 操作系统发展的趋势是逐步走向多种内核结构并存的局面（体系结构演变）</p>
-<ul>
-<li>     openEuler及其内核创新</li>
-</ul>
-<p><strong>学习成效</strong></p>
-<ul>
-<li>解释现代操作系统的目标和功能 [熟悉]</li>
-<li>能够基于系统程序设计的思想解释对操作系统内核支持的需求[理解]</li>
-<li>能够解释为什么计算机系统需要操作系统以及操作系统的作用[理解]</li>
-<li>用工程化的方法分析操作系统设计中的权衡与取舍、稳定与变化 [运用]</li>
-<li>论证操作系统的用户模式和特权模式的原因[使用]</li>
-<li>理解API、系统调用、中间件的价值 [评估]</li>
-<li>解释应用软件是如何使用计算资源的，系统软件是如何管理资源的 [熟悉]</li>
-<li>评论现代操作系统在易用性、效率和演化能力等方面的功能 [评价]</li>
-<li>了解网络操作系统、基于客户端-服务器模式的操作系统、分布式操作系统与单用户操作系统 的区别[熟悉]</li>
-<li>了解操作系统的潜在隐患以及相应的安全防范机制 [熟悉]</li>
-</ul>
-<p><strong>教学内容：</strong></p>
-<ul>
-<li>   操作系统-01.  操作系统概论(OS01:Introductionto Operating Systems )</li>
-</ul>
-<p>KEYWORDS Abstraction, System calls, Processes, OS Architecture, openEuler/openHarmony</p>
-<p>o 从应用程序看操作系统</p>
-<p>  混沌初开， HelloWorld！</p>
-<p>  当程序变身为进程</p>
-<p>  当使用到线程</p>
-<p>  当批处理变为交互式程序</p>
-<p>o 是谁给予了我们额外的帮助</p>
-<p>o 操作系统及其接口设计</p>
-<p>o 操作系统的内核</p>
-<p>o 操作系统内核体系结构与组成</p>
-<p>o openEuler 及其内核创新 附录 A  操作系统的用户视角</p>
-<p>A.1  进程相关的系统程序设计</p>
-<p>A.1.1  运行新程序</p>
-<p>A.1.2 进程间通信</p>
-<p>A.2  内存相关的系统程序设计</p>
-<p>A.3 输入输出相关的系统程序设计</p>
-<p>A.4  文件相关的系统程序设计</p>
-<p>A.5  多线程系统程序设计 研讨问题</p>
-<p>课堂研讨与作业安排</p>
-<p>课后阅读作业</p>
-<p>参考文献</p>
-<p> </p>
-<p><strong>第</strong> <strong>2</strong><strong> </strong><strong>周：操作系统引论（续）</strong> <strong>——  </strong><strong>用户空间</strong><strong>里的操作系统视图</strong></p>
-<p> </p>
-<p><strong>第</strong> <strong>3 </strong><strong>周：操作系统</strong><strong>-02.  </strong><strong>进程、线程与进程组</strong></p>
-<p><strong>(OS02:</strong><strong> </strong><strong>Process, Threads, and</strong><strong> </strong><strong>Proc</strong><strong>ess Group)</strong></p>
-<p><strong>KEYWORDS CPU Abstraction,</strong><strong> </strong><strong>Process</strong><strong> </strong><strong>Life-cycle, Threads,</strong><strong> </strong><strong>ULTs/</strong><strong>KLTs,</strong><strong> </strong><strong>Kernel-free Thread</strong><strong> </strong><strong>Mechanism vs</strong><strong> </strong><strong>Policy</strong></p>
-<p><strong>[</strong><strong>核心一级，</strong><strong>3</strong><strong> </strong><strong>学时</strong><strong>]</strong></p>
-<p><strong>要点综述</strong></p>
-<ul>
-<li>如何为用户程序抽象出一个其运行所需要的完整计算机（处理器的物理核数与虚拟计算机的数量解 耦）</li>
-<li>如何隔离运行于同一台计算机上的用户程序</li>
-<li>进程接口的实现技术</li>
-<li>保证程序运行的效率且可控的实现机制</li>
-<li>如何在可控的前提下还能最大限度地满足用户程序和管理的多样性需求</li>
-</ul>
-<p><strong>学习成效</strong></p>
-<ul>
-<li>能充分理解处理器抽象的动机和潜在的挑战 [熟悉]</li>
-<li>能够权衡能力和灵活性而有针对性地设计机制和策略[运用]</li>
-<li>能够论证操作系统应该提供怎样的进程来创建及控制接口，使之既方便又实用[评估]</li>
-<li>能够设计高效、可控地实现CPU虚拟化的机制 [理解]</li>
-<li>能够论证设计的合理性和效率 [评估]、掌握并活用策略与机制分离的设计原则[运用] <strong>教学内容：</strong></li>
-<li>操作系统-02.  进程、线程与进程组(OS02:Process, Threads, and Process Group)</li>
-</ul>
-<p>o 进程的概念</p>
-<p> 进程的表示</p>
-<p> 进程的状态与变迁</p>
-<p>o 进程相关系统调用的实现</p>
-<p> 进程的创建与执行</p>
-<p> 进程的退出</p>
-<p> 进程等待</p>
-<p> 进程睡眠</p>
-<p>o 处理器虚拟化机制</p>
-<p>  处理器提供的模式位</p>
-<p>  时钟中断</p>
-<p>  上下文切换 o 线程</p>
-<p>  线程是独立的调度单位</p>
-<p>  线程管理接口的实现</p>
-<p>  内核级线程与用户级线程</p>
-<p>  纤程与协程</p>
-<p>o 进程组 o 小结</p>
-<p>课后阅读</p>
-<p>参考文献</p>
-<p> </p>
-<p><strong>第</strong> <strong>4 </strong><strong>周</strong><strong>-</strong><strong>第</strong> <strong>5 </strong><strong>周：地址空间与存储管理</strong></p>
-<p><strong>操作系统</strong><strong>-03.  </strong><strong>地址空间与存储管理</strong></p>
-<p><strong>(OS03: Address Space and</strong><strong> </strong><strong>Memory Management)</strong></p>
-<p><strong>KEYWORDS</strong><strong> </strong><strong>Memory Management,</strong><strong> </strong><strong>MMU,</strong><strong> </strong><strong>Paging, TLB,</strong><strong> </strong><strong>Locality, Virtual</strong><strong> </strong><strong>memory</strong></p>
-<p><strong>[</strong><strong>核心二级，</strong> <strong>2x3</strong><strong> </strong><strong>学时</strong><strong>]</strong></p>
-<p><strong>要点综述</strong></p>
-<ul>
-<li>   操作系统存储管理的科学问题、技术问题和工程问题</li>
-<li>   现代计算机系统通过采用存储体系的方案权衡访问容量、访问速度和成本</li>
-<li>   存储体系的有效性建立在程序局部性原理之上</li>
-<li>   缓存技术广泛地应用于计算机存储体系的各级当中</li>
-<li>   存储管理中的内存布局规划和各类算法实现是操作系统需要着重解决的问题</li>
-<li>   现代操作系统普遍采用请求式分页的虚存管理方案</li>
-<li>   工作集理论是内存管理充分利用程序局部性的一种重要指导方针</li>
-<li>openEuler的存储管理技术</li>
-</ul>
-<p><strong>学习成效</strong></p>
-<ul>
-<li>解释存储体系和性能代价间的权衡 [熟悉]</li>
-<li>归纳缓存在虚存中的应用原理 [熟悉]</li>
-<li>   评估内存大小和处理器速度间的权衡[评估]</li>
-<li>   阐明内存分配的不同方法，并陈述每种方法的相对优缺点[评估]</li>
-<li>   描述缓存的必要性和使用方法(性能和接近程度,缓存给隔离和虚拟机抽象带来的复杂性)[熟悉]</li>
-<li>   讨论抖动发生的原因及其识别和管理技术[熟悉]</li>
-<li>openEuler的存储管理技术 [了解]</li>
-</ul>
-<p><strong>教学内容：</strong></p>
-<ul>
-<li>   操作系统-03.  地址空间与存储管理 (OS03: AddressSpaceand Memory Management)</li>
-</ul>
-<p>o 地址空间</p>
-<p>o 内存虚拟化的机制——地址转换</p>
-<p>  连续地址（Single Contiguous Allocation）管理</p>
-<p>  分段（Segmented  ）式内存管理</p>
-<p>  分页式（Paging）内存管理</p>
-<p>  段页式（Segmentation with Paging）内存管理</p>
-<p>o 解决页表占用空间过多的技术方案</p>
-<p>o 操作系统管理页表映射</p>
-<p>  操作系统规划地址空间布局</p>
-<p>  操作系统实现填充进程页表项机制</p>
-<p>  操作系统实现清除进程页表项机制</p>
-<p>  操作系统填充页表的策略</p>
-<p>  为虚拟内存提供扩展功能</p>
-<p>o 提高地址转换的效率</p>
-<p>o 破除物理内存的限制</p>
-<p>  判断页面是否在内存中</p>
-<p>  页面故障及其处理</p>
-<p>  内存充满时的处理</p>
-<p>  页面替换策略</p>
-<p>  其它的一些设计问题</p>
-<p>o 物理内存管理</p>
-<p>  伙伴系统</p>
-<p>    SL[AUO]B 分配器</p>
-<p>o 专题讨论</p>
-<p>  抖动和工作集</p>
-<p>  物理内存分配与 CPU 缓存</p>
-<p>  多核与内存分配</p>
-<p>o openEuler 的存储管理系统分析</p>
-<p>    openEuler 的地址空间</p>
-<p> 进程的动态内存申请和释放</p>
-<p>  地址转换</p>
-<p>    openEuler 的页面故障处理</p>
-<p>  解决页框不足的问题</p>
-<p>    ARM 的弱内存序模型 o 小结</p>
-<p>阅读作业</p>
-<p>参考文献</p>
-<p> </p>
-<p><strong>第</strong> <strong>6 </strong><strong>周</strong> <strong>国庆节假期</strong> <strong>Workshop</strong><strong> 01: </strong><strong>The</strong><strong> </strong><strong>Evolution</strong><strong> </strong><strong>of</strong><strong> </strong><strong>OS </strong><strong>专题研讨会</strong> <strong>01-  </strong><strong>操作系统的发展</strong></p>
-<p><strong>Workshop 01 - The</strong><strong> </strong><strong>Evolution o</strong><strong>f OS</strong></p>
-<p><strong>[</strong><strong>拓展一级，</strong><strong>3</strong><strong> </strong><strong>学时</strong><strong>]</strong></p>
-<p><strong>要点综述</strong></p>
-<ul>
-<li>   结合两篇综述性文章探索操作系统的发展里程和未来趋势</li>
-<li>为进一步研究操作系统播下种子</li>
-</ul>
-<p><strong>学习成效</strong></p>
-<ul>
-<li>清晰了解操作系统的发展过程 [熟悉]</li>
-<li>   能够就操作系统的关键里成本和典型原理发表自己的认识和观点</li>
-</ul>
-<ul>
-<li>   能够基于批判性思维，分析有关操作系统未来发展趋势的文章[运用]</li>
-<li>   对操作系统的学习有一个更为宽广的视野[理解]</li>
-</ul>
-<p><strong>教学内容：</strong>研讨课-01.  操作系统的过去、现在和未来</p>
-<p>Workshop01: The Research and Development of Operating Systems</p>
-<p>KEYWORDS Essey Review, Panel Discussion, Operating System Development W1.1  论文导读&quot;Fifty Years of Operating Systems&quot;</p>
-<p>W1.2  研讨问题</p>
-<p>W1.3  论文导读&quot;面向 2030 的操作系统架构与演进思考&quot;</p>
-<p>W1.4  研讨问题</p>
-<p>参考文献</p>
-<ul>
-<li>   PeterJ.Denning. Fifty Years of Operating Systems. CACM 59(3): 30-32. 2016 (略)</li>
-<li>   陈海波,   贾宁,  钱梽杨.面向 2030   的操作系统架构与演进思考.   中国计算机学会通讯.   18(12):65-72</li>
-</ul>
-<p>聆听大师的声音，发表自己的看法，通过研讨弄清事物发展的本质。</p>
-<p><strong>第</strong> <strong>7 </strong><strong>周：调度和分派</strong></p>
-<p><strong>操作系统</strong><strong>-04.  </strong><strong>调度和分派</strong></p>
-<p><strong>(OS04: Scheduling and</strong><strong> </strong><strong>Dispatching)</strong></p>
-<p><strong>KEYWORDS Scheduling , Context s</strong><strong>witching,</strong><strong> </strong><strong>Mechanism,</strong><strong> </strong><strong>Policy, Thread</strong></p>
-<p><strong>[</strong><strong>核心二级</strong><strong>, 3</strong><strong> </strong><strong>学时</strong><strong>]</strong></p>
-<p><strong>要点综述</strong></p>
-<ul>
-<li>   调度是根据某种策略对任务执行顺序的重新安排，以追求某种性能指标的改善。</li>
-<li>   在操作系统关注的范围内，存在着四类调度：长程调度、中程调度、短程调度和磁盘调度</li>
-<li>   进程调度程序是在就绪进程间分配有限的处理器时间资源的内核子系统。处理器调度程序负 责决 定将CPU赋予哪个进程，使之投入实际运行，何时运行以及运行多长时间</li>
-<li>   典型的进程调度策略包括：先来先服务、短作业优先、基于优先级、轮转、高响应比优先、 多重 队列、多重反馈队列、公平分享等策略，以及现代Linux内核采用的完全公平调度策略</li>
-<li>   在有线程概念的操作系统中，调度的对象是线程</li>
-<li>   多处理器调度提出了与单处理器调度不同的需求，更多追求被调度进程的效用，典型的调度 策略 包括：成组调度和专属调度</li>
-<li>   多处理器调度中的分布式就绪队列的一个挑战，是如何在保持负载均衡的过程中继续保持处 理器 亲和性，充分利用缓存带来的性能改善</li>
-<li>   实时处理的要点是满足任务的时限约束，典型的调度策略包括率单调调度（适用于周期性任</li>
-<li>   务，注重分析可调度性）和期限优先调度（适用于周期或非周期任务）</li>
-</ul>
-<p><strong>学习成效</strong></p>
-<ul>
-<li>   深刻理解教材关于调度策略的思辨过程：提出假设-&gt;总结问题-&gt;解决方案-&gt;假设检验-&gt;适用性 分析的多次迭代，并能够加以运用 [运用]</li>
-<li>   对比操作系统中抢占和非抢占调度的常用策略，如优先级、性能和公平分享等 [评估]</li>
-<li>描述调度算法和应用领域的联系 [熟悉]</li>
-<li>    了解实时系统的定义 [熟悉]</li>
-<li>   解释实时系统中时延的存在并描述其特点[熟悉]</li>
-<li>对比实时调度的静态与动态方法 [评估]</li>
-<li>   讨论抢占调度和截止期限调度的必要性[熟悉]
-<ul>
-<li>能够解释CFS 实现完全公平的原理 [解] <strong>教学内容：</strong></li>
-<li>   操作系统-04.  调度和分派 (OS04:Schedulingand Dispatching) 问题的引入</li>
-</ul>
-</li>
-<li>
-<p>o 资源的调度</p>
-<p>o 调度策略设计</p>
-<p> 进程的行为</p>
-<p>  负载假设</p>
-<p>  调度的性能指标</p>
-<p>  工作方式</p>
-<p>o 调度策略</p>
-<p>  先来先服务</p>
-<p>  短作业优先   轮转</p>
-<p>  基于优先级策略</p>
-<p>  高响应比优先</p>
-<p>  多重队列</p>
-<p>  多重反馈队列</p>
-<p>  公平分享</p>
-<p>o 多处理器调度</p>
-<p>  多核调度策略的分类</p>
-<p>  成组调度</p>
-<p>  解决缓存亲和性问题</p>
-<p>o 实时调度</p>
-<p>  率单调调度</p>
-<p>  限期调度</p>
-<p>o 进程和线程调度</p>
-<p>o openEuler 的调度</p>
-<p>  调度类及其优先级</p>
-<p>  完全公平调度 CFS</p>
-<p>    openEuler 的调度过程</p>
-<p>o 调度在新场景下的应用 o 小结</p>
-<p>阅读作业</p>
-<p>参考文献</p>
-<p> </p>
-<p><strong>第</strong> <strong>8 </strong><strong>周：文件系统的系统调用</strong></p>
-<p><strong>操作系统</strong><strong>-05.  </strong><strong>文件系统的系统调用</strong></p>
-<p><strong>(OS05: System Calls for</strong><strong> </strong><strong>The</strong><strong> </strong><strong>Fil</strong><strong>e System)</strong></p>
-<p>KEYWORDS <strong>Abstraction,</strong><strong> </strong><strong>File,</strong><strong> </strong><strong>UNIX,</strong><strong> System Calls for</strong><strong> </strong><strong>The</strong><strong> </strong><strong>File System</strong><strong> </strong><strong>[</strong><strong>核心一级，</strong><strong>3</strong><strong> </strong><strong>学时</strong><strong>]</strong></p>
-<p><strong>要点综述</strong></p>
-<ul>
-<li>文件系统相关的原理——设计know-how</li>
-<li>UNIX类的万物皆文件的各种表现形式</li>
-</ul>
-</li>
-</ul>
-<ul>
-<li>UNIX的文件接口设计</li>
-<li>万物皆文件的抽象机制的应用场景</li>
-<li>论文导读：TheAtlas Milestone</li>
-</ul>
-<p><strong>学习成效</strong></p>
-<ul>
-<li>   熟悉文件系统相关原理——设计know-how[理解]</li>
-<li>   解释Atlas在操作系统演进过程中的重大技术贡献 [理解]</li>
-<li>分析和理解UNIX 这种文件抽象的本质 [理解]</li>
-<li>灵活应用这种抽象机制 [运用]</li>
-<li>知晓这种抽象机制的实现思路 [了解]</li>
-</ul>
-<p><strong>教学内容：</strong></p>
-<ul>
-<li>  <a>操作系统-05.  文件系统的系统调用</a><a>(OS05:SystemCalls for The File System)</a></li>
-</ul>
-<p>o 操作系统对设备、数据和其他实体的抽象</p>
-<p>o /proc</p>
-<p>o /dev</p>
-<p>o<a>Socket 文件</a></p>
-<p>o<a>UNIX 的文件系统接口</a></p>
-<p>  系统调用 OPEN</p>
-<p>  系统调用 READ</p>
-<p>  系统调用 WRITE</p>
-<p>  系统调用 LSEEK</p>
-<p> <a>系统调用 CLOSE</a></p>
-<p> <a>系统调用 CREAT</a></p>
-<p> <a>系统调用 MKNOD</a></p>
-<p> <a>系统调用 CHDIR</a></p>
-<p> <a>系统调用 CHROOT</a></p>
-<p>  系统调用 CHOWN/CHMOD</p>
-<p> <a>系统调用 STAT/FSTAT</a></p>
-<p> <a>系统调用 PIPE</a></p>
-<p> <a>系统调用 DUP</a></p>
-<p>o<a>论文导读：The Atlas Milestone</a> o<a>小结</a></p>
-<p><a>阅读作业</a></p>
-<p><a>参考文献</a></p>
-<p> </p>
-<p><strong>第</strong> <strong>9-10 </strong><strong>周：文件系统的实现</strong></p>
-<p><strong>OS</strong><strong>06-  </strong><strong>文件系统的实现</strong></p>
-<p><strong>(OS06:</strong><strong> </strong><strong>File System</strong><strong> </strong><strong>Implementation)</strong></p>
-<p>KEYWORDS <strong>File System</strong><strong> </strong><strong>Imp</strong><strong>lementation, inode,</strong><strong> </strong><strong>FFS,</strong><strong> </strong><strong>LFS, JFS</strong><strong> </strong><strong>[</strong><strong>可选，</strong><strong>3+3</strong><strong>  </strong><strong>学时</strong><strong>]</strong></p>
-<p><strong>要点综述</strong></p>
-<ul>
-<li>UNIX文件系统的优良设计和启发</li>
-<li>   从简单文件系统的实现开始逐步优化文件系统的实现，直至当前最新的技术方案</li>
-<li>   FFS的出现形成了文件系统设计的分水岭。其原则是：设计要因地制宜，并在保持文件系统接口不变的情况下不断优化其实现</li>
-</ul>
-<ul>
-<li>   LFS针对现代计算机系统中写操作占据I/O 开销主体的问题开发了一种更新磁盘的新方法。其大块 （顺序）写入的操作具有良好的普适性</li>
-<li>    日志文件系统将文件系统的崩溃恢复时间由O(磁盘卷大小)缩减到O(日志大小)，极大地提升了文件 系统的可靠性</li>
-<li>openEuler的文件系统实现</li>
-<li>论文导读：为SSD 设计的新的文件系统</li>
-</ul>
-<p><strong>学习成效</strong></p>
-<ul>
-<li>   掌握文件系统的实现技术、性能调优技术、可靠性增强技术，能够说明各项技术背后的原理 [运用]</li>
-<li>能够明确解释FFS 和 LFS 成功的原理 [理解]</li>
-<li>openEuler的文件系统设计 [了解]</li>
-<li>   总结硬件发展是如何改变文件系统设计和管理中的优先级[熟悉]</li>
-<li>    了解新时期的文件系统研究动向 [熟悉]</li>
-</ul>
-<p><strong>教学内容：</strong></p>
-<ul>
-<li>   OS06-文件系统的实现 (OS09:FileSystem Implementation)</li>
-</ul>
-<p>o 文件系统的实现</p>
-<p>  磁盘分配方案</p>
-<p>  简单文件系统 VSFS</p>
-<p>  磁盘布局</p>
-<p>    inode 设计和文件分配</p>
-<p>  目录组织</p>
-<p>  空闲空间管理</p>
-<p>  典型系统调用的实现打开文件读文件写文件关闭文件</p>
-<p>    VSFS 的性能改进</p>
-<p>o 快速文件系统 FFS</p>
-<p>o 日志结构文件系统</p>
-<p>    LFS 的基本思想</p>
-<p>  如何将随机写入变成大块的循序写入</p>
-<p>  根据磁盘特性决定交换段大小</p>
-<p>  如何定位 inode</p>
-<p>    LFS 的读文件操作</p>
-<p>  目录组织及其访问</p>
-<p>  无用块回收</p>
-<p>o 文件系统的性能优化</p>
-<p>  缓存与缓冲</p>
-<p>  多级索引与 Extent</p>
-<p>o 文件系统的可靠性改进——崩溃一致性维护</p>
-<p>o 文件系统的可用性改进——虚拟文件系统</p>
-<p>o openEuler 的文件系统实现</p>
-<p>  超级块</p>
-<p>  文件的索引节点</p>
-<p>  目录的存储</p>
-<p>  空闲块管理</p>
-<p>  文件的读取和写入</p>
-<p>    openEuler 的 I/O 性能优化技术</p>
-<p>    openEuler 的崩溃一致性保证技术</p>
-<p>    openEuler 的虚拟文件系统</p>
-<p>o 文章导读背景知识：基于 Flash 的固态硬盘 OSDI 文章导读：一种适用于 SSD 的现代高效文件系统</p>
-<p>o 小结</p>
-<p>阅读作业</p>
-<p>参考文献</p>
-<p> </p>
-<p><strong>第</strong> <strong>11 </strong><strong>周</strong><strong>:</strong><strong>：输入输出设备管理</strong></p>
-<p><strong>OS</strong><strong>07.   </strong><strong>输入输出设备管理</strong></p>
-<p><strong>(OS07:</strong><strong> </strong><strong>Input/Output</strong><strong> </strong><strong>Ma</strong><strong>nagement)</strong></p>
-<p><strong>KEYWORDS</strong><strong> </strong><strong>Device</strong><strong> </strong><strong>Management,</strong><strong> </strong><strong>Device</strong><strong> </strong><strong>Driver,</strong><strong> </strong><strong>Interrupt,</strong><strong> </strong><strong>Buffering,</strong><strong> </strong><strong>DMA,</strong><strong> </strong><strong>I/O Schedu</strong><strong>ling</strong><strong> </strong><strong>[</strong><strong>可选，</strong><strong>3</strong><strong> </strong><strong>学时</strong><strong>]</strong></p>
-<p><strong>要点综述</strong></p>
-<ul>
-<li>   系统需要与外界交互而发展，输入输出泛指计算机借助设备完成计算与系统其他组件之间或与外部 环境的交互</li>
-<li>   设备树是一种描述特定计算机硬件组件（如CPU、内存、总线和集成外围设备等）的数据结构，以 便操作系统内核可以发现这些组件</li>
-<li>   设备驱动程序为操作系统的I/O子系统提供了一致的设备接口，屏蔽了设备的底层细节</li>
-<li>   计算机与外部设备通过设备控制器通信，按照设备驱动程序的协议交换信息</li>
-<li>   为了提高效率，中断、DMA和通道机制在特定的场景下减轻CPU 干预 I/O 的必要性</li>
-<li>   操作系统既为多样性差异化的各类设备提供统一的访问接口，又采取多种措施解决因抽象造成的效 率损耗和因设备差异性造成的失配等问题</li>
-<li>   各种辅助技术，如缓冲、高速缓存、I/O调度可解决速度失配问题，提升系统整体性能</li>
-<li>   为可同时改善持久化存储设备的容量、访问速度和可靠性，可采纳RAID解决技术方案。应根据应 用需求选择合理的 RAID 级别</li>
-</ul>
-<p><strong>学习成效</strong></p>
-<ul>
-<li>    了解设备树对操作系统内核的作用 [了解]</li>
-<li>   解释缓存、缓冲的概念，并描述实现机制[熟悉]</li>
-<li>   描述中断机制，评述DMA的优缺点，并讨论其适用场景 [运用]</li>
-<li>定义故障恢复的需求 [熟悉]</li>
-<li>实现一个适用于多种设备的简单设备驱动 [运用]</li>
-<li>能评估磁盘调度的各种方法 [评估]</li>
-<li>   评估常用RAID级别的特性和适用场景 [运用]</li>
-</ul>
-<p><strong>教学内容：</strong></p>
-<ul>
-<li>   OS07.   输入输出设备管理(OS09:Input/Output Management)</li>
-</ul>
-<p>o 设备的发现</p>
-<p>  什么是设备树</p>
-<p>  如何描述设备树</p>
-<p>  如何使用*.dtb 的设备树描述</p>
-<p>o CPU 与输入输出设备的连接</p>
-<p>  设备控制器</p>
-<p>    CPU 与设备控制器的互联</p>
-<p>o CPU 与 I/O 设备的通信</p>
-</li>
-<li>
-<p>o 总线</p>
-<p>o 设备异构性及其操作系统的对策</p>
-<p>o 内核 I/O 子系统</p>
-<p>    I/O 调度</p>
-<p>  磁盘缓冲</p>
-<p>  磁盘缓存</p>
-<p>    SPOOLing</p>
-<p>  错误处理</p>
-<p>o 设备文件</p>
-<p>o 设备驱动程序</p>
-<p>  字符设备驱动程序</p>
-<p>  块设备的驱动程序</p>
-<p>  网络套接字   时钟</p>
-<p>o 设计问题及其对策</p>
-<p>o 磁盘调度</p>
-<p>  先来先服务 FCFS</p>
-<p>  最短寻道时间优先 SSTF</p>
-<p>  扫描 SCAN</p>
-<p>  单向 C-SCAN</p>
-<p>    LOOK 和 C-LOOK</p>
-<p>    F-SCAN</p>
-<p>  最短定位时间优先 SPTF</p>
-<p>o RAID：改善存储容量、访问速度和存储可靠性</p>
-<p>o 小结</p>
-<p>附录 A  中断处理 (APPA: On Interrupts )</p>
-<p>A.1  中断的基本概念</p>
-<p>A.2  中断的控制级别</p>
-<p>A.3  中断处理模型</p>
-<p>A.3.1  经典的中断处理模型</p>
-<p>A.3.2  中断处理的线程模型</p>
-<p>A.3.3  实时系统的中断处理模型</p>
-<p>A.4  实时系统中中断处理与实时任务的相干性分析</p>
-<p>A.4.1  优先级的困扰</p>
-<p>A.4.2  中断延迟的困扰</p>
-<p>A.4.3  互斥的困扰</p>
-<p>A.4.4  时序的困扰 附录 BVirtIO</p>
-<p>课后阅读</p>
-<p>参考文献</p>
-<p> </p>
-<p><strong>第</strong> <strong>12 </strong><strong>周：特邀报告</strong></p>
-<p> </p>
-<p><strong>第</strong> <strong>13 </strong><strong>周：线程</strong><strong>/</strong><strong>进程间通信</strong></p>
-<p><strong>操作系统</strong><strong>-08.  </strong><strong>线程</strong><strong>/</strong><strong>进程间通信</strong></p>
-<p><strong>(OS08:</strong><strong> </strong><strong>Inter-Process Co</strong><strong>mmunication)</strong></p>
-<p><strong>KEYWORDS IPC, SYSTEM</strong><strong> </strong><strong>V </strong><strong>style,</strong><strong> </strong><strong>POSIX style</strong></p>
-<p><strong>[</strong><strong>核心二级，</strong><strong>3</strong><strong> </strong><strong>学时</strong><strong>]</strong></p>
-<p><strong>要点综述</strong></p>
-<ul>
-<li>   隔离和合作是操作系统的功能的两种体现（twosidesof the same coin!）</li>
-<li>   操作系统在保持无关进程隔离的前提下，还要支持协作进程的相互联系，因此提供了进程间通信（IPC）机制</li>
-<li>   隶属于同一个进程的线程因为共享同一个地址空间，因此可以通过共享的地址空间交换数据</li>
-<li>   操作系统提供的 IPC机制主要包括信号（Signal）、管道（Pipe）、信号量（Semaphore）、共享内存（Shared Memory）、消息队列（Message Queue）和套接字（Socket）等</li>
-<li>openEuler的 IPC 机制</li>
-</ul>
-<p><strong>学习成效</strong></p>
-<ul>
-<li>   能解释openEuler（Linux）的主要IPC 机制 [熟悉]</li>
-<li>   能够利用Linux的 IPC 机制解决进程协作的经典问题 [运用]</li>
-<li>能够根据应用的特征选择合适的IPC 机制 [运用]</li>
-<li>   能够发现并发进程对共享资源访问所引发的潜在问题，并能够从原理上解释产生并发问题的原因[熟悉]</li>
-</ul>
-<p><strong>教学内容：</strong></p>
-<ul>
-<li>   操作系统-08.  线程/进程间通信 (OS08:Inter-ProcessCommunication)</li>
-</ul>
-<p>o 为什么需要 IPC</p>
-<p>o 什么是 IPC</p>
-<p>o 基于信号的 IPC</p>
-<p>o 基于管道的 IPC</p>
-<p>o 基于共享内存的 IPC</p>
-<p>o 基于消息队列的 IPC</p>
-<p>o 基于套接字的 IPC</p>
-<p>o 信号量</p>
-<p>o IPC 的风格 o 小结</p>
-<p>阅读作业</p>
-<p>参考文献</p>
-<p> </p>
-<p><strong>第</strong> <strong>14 </strong><strong>周：</strong> <strong>操作系统</strong><strong>-09.</strong><strong>  </strong><strong>并发</strong></p>
-<p><strong>(OS09: Concurrency)</strong></p>
-<p><strong>KEYWORDS Concurrency,</strong><strong> </strong><strong>Race Condition,</strong><strong> </strong><strong>Mu</strong><strong>tual</strong><strong> </strong><strong>Exclusion, Synchronization</strong></p>
-<p><strong>[</strong><strong>核心二级，</strong><strong>3</strong><strong> </strong><strong>学时</strong><strong>]</strong></p>
-<p><strong>要点综述</strong></p>
-<ul>
-<li>   并发是自然界事物发展的典型形态。计算机系统中程序运行也不例外，广泛存在于基于单核处理器、多核处理器、并行、分布式操作系统中</li>
-<li>   先进处理器的多核与乱序执行冒险也会加剧多线程共享变量的并发问题</li>
-<li>   并发运行的任务访问共享资源将可能导致难以预测的结果</li>
-<li>   现代操作系统内核本质上是并发的，因此每个内核工程师都应该非常熟悉内核级并发以及在操作系 统内核中实现互斥的机制
-<ul>
-<li>   互斥与同步是并发中的基本问题抽象，操作系统需要提供这两类原语解决并发问题</li>
-<li>   并发问题的经典案例包括生产者/消费者问题、读者-写者问题和哲学家就餐问题。它们分别从不同的角度展示了并发可能产生的问题及其解决方案</li>
-<li>   无锁并发程序设计（Lock-freeconcurrentprogramming）可以在并发环境下获取较好的性能 <strong>学习成效</strong></li>
-<li>   能例示多个独立任务并发运行所可能引发的潜在问题[熟悉]</li>
-<li>   能够理解解释并发问题的普遍性,，并能够从原理上解释产生并发问题的原因[理解]</li>
-<li>   能够利用操作系统提供的并发控制机制编写并发环境下能够正确执行的程序 [运用]</li>
-<li>   能够概括操作系统中常用的并发处理机制并评估其优缺点[评估]</li>
-<li>能够用pthread 解决实际应用中的并发问题 [运用]</li>
-<li>   能够结合相关文献，分析并理解现代软件系统中的并发缺陷模式、产生的原因及处理对策 [分析] <strong>教学内容：</strong></li>
-<li>   操作系统纲要-09.  并发(OS09:Concurrency)</li>
-</ul>
-</li>
-<li>
-<p>o 并发执行及其挑战</p>
-<p>  应用级的并发挑战</p>
-<p>  协作进程间的并发挑战</p>
-<p>  线程协作的并发挑战</p>
-<p>  指令乱序执行的并发挑战</p>
-<p>o 并发执行线程的典型问题   互斥</p>
-<p>  同步</p>
-<p>  死锁</p>
-<p>  饥饿</p>
-<p>  活锁</p>
-<p>o 经典并发案例</p>
-<p>  生产者-消费者问题</p>
-<p>  读者-写者问题</p>
-<p>  哲学家就餐问题</p>
-<p>o 操作系统对象的原子访问管理</p>
-<p>o 同步原语的接口</p>
-<p>    Peterson 算法</p>
-<p>  锁机制</p>
-<p>  条件变量</p>
-<p>o 案例分析：求解生产者消费者问题</p>
-<p>  生产者和消费者的安全行为模拟</p>
-<p>  让生产者和消费者行为同步</p>
-<p>o 设计问题</p>
-<p>  临界节加锁粒度</p>
-<p>  加锁避免并发问题的难度</p>
-<p>o 并发执行的更多处理方法</p>
-<p>  无锁并发程序设计</p>
-<p>  事务性内存</p>
-<p>  函数程序设计</p>
-<p>    Actor 模型</p>
-</li>
-<li>
-<p>o 小结</p>
-<p>阅读作业</p>
-<p>参考文献</p>
-<p> </p>
-<p><strong>第</strong> <strong>15 </strong><strong>周：锁、死锁和饥饿</strong></p>
-<p><strong>OS</strong><strong>10.  </strong><strong>锁、死锁和饥饿</strong></p>
-<p><strong>(OS10:</strong><strong> </strong><strong>Lock,</strong><strong> </strong><strong>Deadlock,</strong><strong> Starvation, and</strong><strong> </strong><strong>Beyond)</strong></p>
-<p><strong>KEYWORDS</strong><strong> </strong><strong>Multiple Shared Objects,</strong><strong> </strong><strong>Lock,</strong><strong> </strong><strong>Deadlock, Starva</strong><strong>tion, Transactional</strong><strong> </strong><strong>Memory</strong><strong> </strong><strong>[</strong><strong>可选，</strong><strong>2+1</strong><strong> </strong><strong>学时</strong><strong>]</strong></p>
-<p><strong>要点综述</strong></p>
-<ul>
-<li>   处理互斥和同步问题的解决方案包括软件方法、硬件方法、操作系统支持和语言支持</li>
-<li>互斥锁的各种实现方式</li>
-<li>   当程序变得更复杂，有多个共享对象和多个锁时会发生什么？需要对共享对象之间的交互进行推理</li>
-<li>   解决并发问题的锁机制有可能产生死锁问题，解决死锁的方法又有可能引发饥饿、活锁问题</li>
-<li>   死锁的必要条件是同时满足互斥、持有并等待、不可剥夺、循环等待四个条件</li>
-<li>   死锁的应对策略：预防、避免、检测、无视</li>
-<li>   不存在通用的死锁解决方案。需要从期望、原则、工程、效用等多个方面综合考虑思索问题的解决 方案</li>
-<li>   一些特殊的应用，例如数据库事务处理，存在有效的解决方案，如数据库系统中的两阶段锁协议<a>2PL</a><a>链接到外部网站。</a></li>
-<li>结合openEuler 介绍并发控制原语实现</li>
-<li>   论文导读 “UnlockingConcurrency&quot;(2007)</li>
-</ul>
-<p><strong>学习成效</strong></p>
-<ul>
-<li>   能够概括操作系统同步的实现技术（描述基于操作系统原语的信号实现机制等）[评估]</li>
-<li>能够解释自旋锁的实现方式的进化过程 [分析]</li>
-<li>了解openEuler（Linux）内核的并发控制实现机制 [理解]</li>
-<li>   了解锁机制的不可组合特征，为学习更多的并发处理技术打下基础[熟悉]</li>
-<li>死锁的必要条件［理解］</li>
-<li>   死锁的应对策略：预防、避免、检测、无视［运用］</li>
-<li>   死锁相关问题的处理：活锁、饥饿的应对［评估］</li>
-<li>对死锁问题的态度 [评估]</li>
-<li>事务性内存的基本原理 [了解]</li>
-<li>   深刻理解当代计算机系统对并发处理带来的干扰和应对方案 [分析/评估]<strong>教学内容：</strong></li>
-<li>   OS10.  锁、死锁和饥饿(OS10:Lock, Deadlock, Starvation, and Beyond)</li>
-</ul>
-<p>o 锁机制的实现方法</p>
-<p>  软件方法实现</p>
-<p>  硬件实现</p>
-<p>  软硬件协同实现</p>
-<p>  自旋锁</p>
-<p>  条件变量</p>
-<p>  信号量 o 管程</p>
-<p>o openEuler 中的自旋锁</p>
-</li>
-<li>
-<p>    spinlock 代码结构</p>
-<p>    Qspinlock 的数据结构</p>
-<p>    Qspinlock 的状态迁移</p>
-<p>    NUMA 感知的 Qspinlock</p>
-<p>o 基于锁的并发数据结构</p>
-<p>  并发计数器</p>
-<p>  并发线性表</p>
-<p>  并发队列</p>
-<p>  并发哈希表 o 死锁</p>
-<p>o 死锁的条件</p>
-<p>o 死锁的对策</p>
-<p>  死锁的预防</p>
-<p>  死锁避免</p>
-<p>  死锁检测与恢复</p>
-<p>  鸵鸟策略 o 小结</p>
-<p>o 论文导读 阅读作业</p>
-<p>参考文献</p>
-<p> </p>
-<p><strong>第</strong> <strong>16 </strong><strong>周：系统及虚拟化及应用级虚拟化</strong></p>
-<p><strong>OS</strong><strong>11.  </strong><strong>系统级虚拟化及应用级虚拟化</strong></p>
-<p><strong>(OS11: System Virtualization and A</strong><strong>pplication Virtualization)</strong></p>
-<p><strong>KEYWORDS Virtualization,</strong><strong> </strong><strong>Hypervisor,</strong><strong> </strong><strong>VM</strong><strong>M,</strong><strong> </strong><strong>Linux namespaces,</strong><strong> </strong><strong>Linux cgroup, docker</strong></p>
-<p><strong>[</strong><strong>可选</strong><strong>,</strong><strong> </strong><strong>3</strong><strong> </strong><strong>学时</strong><strong>]</strong></p>
-<p><strong>要点综述</strong></p>
-<ul>
-<li>   在支撑业务系统的同时，降低维护成本和企业的总拥有成本，迅速部署定制化的运行环境，是每个 企业追求的目标</li>
-<li>   降低能耗和二氧化碳排放则是整个社会的要求和ICT从业者的职责</li>
-<li>   伴随着计算机资源的日益强大，虚拟化已成为实现上述目标目标的重要技术手段，并业已成为云计 算基础设施的核心技术</li>
-<li>常用的虚拟化技术各有其特点</li>
-</ul>
-<p>o 虚拟机</p>
-<p>o 操作系统容器</p>
-<p>o 应用容器</p>
-<ul>
-<li>   实现虚拟化时，由于虚拟机和物理机的分离，带来运行环境灵活性和敏捷性的同时，也给操作系统 的设计带来了一系列挑战</li>
-<li>   容器化依赖于操作系统（例如Linux）内核技术的发展，特别是namespace,  cgroup,  UnionFS 的支 持</li>
-<li>   基于KVM/QEMU的开源虚拟化技术</li>
-<li>基于Incus 的容器/虚拟机管理技术</li>
-<li>openEuler的虚拟化技术
-<p><strong>学习成效</strong></p>
-<ul>
-<li>   解决虚拟机操作系统特权指令的处理方法[熟悉]</li>
-<li>Linux的 namespace, cgroup, UnionFS [熟悉]</li>
-<li>虚拟化中的技术决策 [评估]</li>
-<li>判别合理的虚拟化类别</li>
-<li>评估虚拟化技术的适用场景</li>
-<li>Linux的 KVM/QEMU 虚拟化 [熟悉]</li>
-<li>   虚拟机管理程序以及不同类型虚拟机管理程序协作的必要性[运用]</li>
-<li>   根据特定应用场景，选择合适的虚拟化技术[运用]</li>
-<li>虚拟化的主要相关文献和发展趋势[熟悉]</li>
-<li>   容器技术对当前软件体系结构演变带来的影响[评估]</li>
-<li>openEuler的虚拟化技术 [了解]</li>
-</ul>
-<p><strong>教学内容：</strong></p>
-<ul>
-<li>   OS11.  系统级虚拟化及应用级虚拟化 (OS11:SystemVirtualization and Application Virtualization)</li>
-</ul>
-<p>o 虚拟化的动机</p>
-<p>o 虚拟机类型</p>
-<p>o 处理器的硬件虚拟化</p>
-<p>  硬件支持的全虚拟化：自陷-仿真（Trap-and-Emulate）</p>
-<p>  无硬件支持时的全虚拟化：二进制翻译</p>
-<p>  半虚拟化</p>
-<p>  基于硬件的系统虚拟化</p>
-<p>o 内存虚拟化</p>
-<p>o 基于容器的操作系统虚拟化</p>
-<p>    namespace 子系统 Namespace</p>
-<ul>
-<li>UserNamespace</li>
-<li>UTSNamespace</li>
-<li>MountNamespace</li>
-<li>cgroupNamespace</li>
-<li>IPCNamespace</li>
-<li>PIDNamespaceNet</li>
-</ul>
-<p>    cgroup 子系统</p>
-<p>    LXC</p>
-<p>    Incus/LXD</p>
-<p>o 应用级虚拟化</p>
-<p>o 云和云计算</p>
-<p>o openEuler 的虚拟化技术</p>
-<p>11.8.1 VHE</p>
-<p>11.8.2 StratoVirt</p>
-<p>11.8.3 Libvirt</p>
-<p>11.8.4  容器引擎 iSulad</p>
-<p>o 总结和文献导读 课后阅读</p>
-<p>参考文献</p>
-<p>第 17-18 周：考试周</p>
-<p>课内外讨论或练习、实践、体验等环节设计：</p>
-<p><strong>操作系统内核实验（</strong><strong>Labs</strong><strong>）</strong>采用多轮迭代的方式，始终让学生获得完整的操作系统内核的全局观念。伴随 着迭代，学生逐步掌握深入的细节设计和实现。完整的实验安排如下图所示：</p>
-</li>
-</ul>
-</li>
-</ul>
-</li>
-</ol><h2>课程考核与成绩评定</h2><h2>教材</h2><h2>教学参考资料</h2><ul>
-<li>   A.  Silberschatz,P.B.Galvin, G. Gagne. Operating System Concepts (ninth edition). John Wiley &amp; Sons, Inc., 2013</li>
-<li>   W.  Richard  Stevens,  StephenA.  Rago.Advanced  Programming  in the  UNIX  Environment  (Third Edition). Addison-Wesley Professional. 2013</li>
-<li>   W. Stallings. OperatingSystems- Internals And Design Principles (6th Edition), 2009</li>
-<li>   A. S. Tanenbaum,H.Bos. Modern Operating Systems (4th Edition) ，2014 <strong>在线材料</strong>：</li>
-<li><a>http://wiki.osdev.org/Main_Page</a></li>
-<li>   ACM<a>http://www.acm.org</a></li>
-<li>IEEE<a>http://www.computer.org</a></li>
-<li>USENIX<a>http://wwww.usenix.org</a> •    <a>http://williamstallings.com/OS/</a></li>
-</ul>
-<p><strong>实验材料：</strong></p>
-<ul>
-<li>elearning上的实验指导</li>
-<li>GNU编译工具链</li>
-<li>专门开发的教学内核</li>
+<!doctype html><html lang="zh-CN"><meta charset="utf-8"><title>操作系统（H） · 张亮 · 2025秋 CS30031h.01</title><style>body{max-width:1000px;margin:35px auto;padding:0 20px;font:16px/1.9 system-ui}table{border-collapse:collapse}td,th{border:1px solid #cad7cf;padding:8px}img{max-width:100%}</style><body><h1>操作系统（H）</h1><p>2025秋 · CS30031h.01 · 张亮</p><p>来源：复旦教务系统教学班大纲。</p><h2>考核与成绩构成</h2><ul><li>作业/实验/实践Assignment 60.0% </li><li>课题论文Research Paper 25.0% </li><li>分组讨论Group Discussion 15.0% </li></ul><h2>课程简介（中文）</h2><p>操作系统(Operating Systems, OS)是一种系统软件，抽象了硬件资源，通过管理和共享这些资源而协调多道应用程序的并发执行。按照 ACM/IEEE  CC2020 教学方案的界定，操作系统隶属于计算机 34 个重点知识领域之一，分属软件基础（Software  Fundamentals，其原理涉及现代计算机系统的重多方面，影响计算机系统的性能、虚拟化与隔离以及资源分配与调度等问题；并行和分布式计算中的并行基础问题；信息保障和安全中的深度取证与安全问题。总之，操作系统中很多内容都关联到这些交叉知识领域。以华为基座课程为平台，结合 openEuler  的 Linux  操 作系统内核为例，引导学生完成操作系统核心组件的设计，开发和实现一个基于 ARM v8 的教学操作系统内核，鼓励学生探索实现基于 RISC-V 的操作系统内核。</p><h2>课程简介（英文）</h2><p>An operating system (OS) is a type of system software that abstracts hardware resources and coordinates the concurrent execution of multiple applications through the management and sharing of those resources. As defined in the ACM/IEEE curriculum guidelines CC2020, operating systems represent one of the 34 core knowledge areas in computer science and fall under Software Fundamentals. The principles of operating systems touch on critical aspects of modern computer systems—affecting performance, virtualization, isolation, resource allocation, and scheduling, among other areas. They also play a fundamental role in parallelism within parallel and distributed computing, as well as in digital forensics and security under information assurance.</p>
+<p>Overall, many concepts in operating systems are deeply intertwined with these cross-disciplinary domains. Using Huawei’s foundational course platform and the openEuler Linux kernel as an example, students are guided through the design, development, and implementation of a teaching-oriented OS kernel based on ARM v8. They are further encouraged to explore the implementation of a similar kernel based on the RISC-V architecture.</p><h2>教学目标</h2><ul>
+<li>   遵循威廉·巴特勒·叶芝（WilliamButlerYeats）的“教育不是注满一桶水，而是点燃一把 火”的理念，本课程力求成为点燃学生心智的火花！</li>
+<li>   与学生一起共同探索操作系统的本质，激发学生掌握操作系统原理、结构和机制的潜力。培养学生通过操系统经典文献的阅读掌握操作系统的基本原理和发展趋势，形成计算机系统观</li>
+<li>   通过开发一个教学用操作系统内核掌握操作系统的设计和工程化开发方法，掌握计算机系统能力</li>
+<li>   鼓励学生选择挑战性课题，完成新兴思想和创新技术的实践。</li>
+</ul><h2>教学方式</h2><p>本课程遵从学术研究的授课风格：首先确定问题，然后以代表性文献为基础，介绍各种解决方案的缘由和 发展，并通过比较各个具体的设计决策实现技术，探讨操作系统的原理、方法和技术。让学生知其然，也 知其所以然，培养具有系统能力的计算机专业人才。课堂广泛采用研讨方式。</p><h2>教学内容与进度安排</h2><p><strong>第</strong> <strong>1   </strong><strong>周：课程总论、操作系统引论</strong> <strong>OS</strong><strong>00-</strong><strong>这门课的特点</strong> <strong>(</strong><strong>OS</strong><strong>00</strong><strong>-  </strong><strong>What</strong><strong>   </strong><strong>makes</strong><strong>  </strong><strong>this</strong><strong>   </strong><strong>course </strong><strong>distinguished)</strong></p>
+<ol>
+<li>大学教学的主要目的</li>
+</ol>
+<ul>
+<li>批判性阅读能力——使同学们对工作中复杂的行动方案进行清晰的阐述；</li>
+<li>必要的写作能力——使同学们清楚地向同僚阐明自己的观点；</li>
+<li>独立思考能力——使同学们避免人云亦云；</li>
+<li>终生学习的能力——使同学们轻松应对工作中无所不在的变化。</li>
+</ul>
+<ol>
+<li>本课程的实施方法
+<p>通过分享教师的体会和师生交流、生生交流，引导和启发同学自己的能力提升。具体地，</p>
+<ul>
+<li>经典文献阅读，全面理解OS中各项内容的 5W</li>
+<li>剖析教学OS 内核代码，加深对 How 的理解</li>
+<li>最新技术进展文献导读，了解OS 发展动向</li>
+</ul>
+<ol>
+<li>本课程的主题</li>
+</ol>
+<p>按照 OSTEP 作者 ARPACI-DUSSEAU 和 ARPACI-DUSSEAU 的观点，学习操作系统应该掌握三大主题：</p>
+<ul>
+<li>虚拟化（virtualization）</li>
+<li>并发（concurrency）</li>
+<li>持久化（persistence）</li>
+</ul>
+<p>同时对部分操作系统最新研究成果开展研讨。</p>
+<p> </p>
+<p><strong>操作系统</strong><strong>-01.  </strong><strong>操作系统概论</strong></p>
+<p><strong>OS01:</strong><strong> </strong><strong>Introduction to </strong><strong>Operating Systems)</strong></p>
+<p><strong>KEYWORDS</strong><strong> </strong><strong>Abstraction, System calls,</strong><strong> </strong><strong>Processes, OS</strong><strong> </strong><strong>Architecture</strong><a><strong>, openEuler/openHarmony</strong><strong> </strong></a><strong>[</strong><strong>核心一级，</strong><strong>2x3</strong><strong> </strong><strong>学时</strong><strong>]</strong></p>
+<p><strong>要点综述</strong></p>
+<ul>
+<li>   计算机的基本功能就是运行程序，本讲初步揭开以下谜团：</li>
+</ul>
+<p>o 任何一个程序的运行需要得到哪些帮助（需求）</p>
+<p>o 操作系统与其他用户空间中的程序是主从关系（控制范围）</p>
+<p>o 操作系统通过优先引导和内核模式掌握着控制权（控制时机）</p>
+<p>o 操作系统发展的趋势是逐步走向多种内核结构并存的局面（体系结构演变）</p>
+<ul>
+<li>     openEuler及其内核创新</li>
+</ul>
+<p><strong>学习成效</strong></p>
+<ul>
+<li>解释现代操作系统的目标和功能 [熟悉]</li>
+<li>能够基于系统程序设计的思想解释对操作系统内核支持的需求[理解]</li>
+<li>能够解释为什么计算机系统需要操作系统以及操作系统的作用[理解]</li>
+<li>用工程化的方法分析操作系统设计中的权衡与取舍、稳定与变化 [运用]</li>
+<li>论证操作系统的用户模式和特权模式的原因[使用]</li>
+<li>理解API、系统调用、中间件的价值 [评估]</li>
+<li>解释应用软件是如何使用计算资源的，系统软件是如何管理资源的 [熟悉]</li>
+<li>评论现代操作系统在易用性、效率和演化能力等方面的功能 [评价]</li>
+<li>了解网络操作系统、基于客户端-服务器模式的操作系统、分布式操作系统与单用户操作系统 的区别[熟悉]</li>
+<li>了解操作系统的潜在隐患以及相应的安全防范机制 [熟悉]</li>
+</ul>
+<p><strong>教学内容：</strong></p>
+<ul>
+<li>   操作系统-01.  操作系统概论(OS01:Introductionto Operating Systems )</li>
+</ul>
+<p>KEYWORDS Abstraction, System calls, Processes, OS Architecture, openEuler/openHarmony</p>
+<p>o 从应用程序看操作系统</p>
+<p>  混沌初开， HelloWorld！</p>
+<p>  当程序变身为进程</p>
+<p>  当使用到线程</p>
+<p>  当批处理变为交互式程序</p>
+<p>o 是谁给予了我们额外的帮助</p>
+<p>o 操作系统及其接口设计</p>
+<p>o 操作系统的内核</p>
+<p>o 操作系统内核体系结构与组成</p>
+<p>o openEuler 及其内核创新 附录 A  操作系统的用户视角</p>
+<p>A.1  进程相关的系统程序设计</p>
+<p>A.1.1  运行新程序</p>
+<p>A.1.2 进程间通信</p>
+<p>A.2  内存相关的系统程序设计</p>
+<p>A.3 输入输出相关的系统程序设计</p>
+<p>A.4  文件相关的系统程序设计</p>
+<p>A.5  多线程系统程序设计 研讨问题</p>
+<p>课堂研讨与作业安排</p>
+<p>课后阅读作业</p>
+<p>参考文献</p>
+<p> </p>
+<p><strong>第</strong> <strong>2</strong><strong> </strong><strong>周：操作系统引论（续）</strong> <strong>——  </strong><strong>用户空间</strong><strong>里的操作系统视图</strong></p>
+<p> </p>
+<p><strong>第</strong> <strong>3 </strong><strong>周：操作系统</strong><strong>-02.  </strong><strong>进程、线程与进程组</strong></p>
+<p><strong>(OS02:</strong><strong> </strong><strong>Process, Threads, and</strong><strong> </strong><strong>Proc</strong><strong>ess Group)</strong></p>
+<p><strong>KEYWORDS CPU Abstraction,</strong><strong> </strong><strong>Process</strong><strong> </strong><strong>Life-cycle, Threads,</strong><strong> </strong><strong>ULTs/</strong><strong>KLTs,</strong><strong> </strong><strong>Kernel-free Thread</strong><strong> </strong><strong>Mechanism vs</strong><strong> </strong><strong>Policy</strong></p>
+<p><strong>[</strong><strong>核心一级，</strong><strong>3</strong><strong> </strong><strong>学时</strong><strong>]</strong></p>
+<p><strong>要点综述</strong></p>
+<ul>
+<li>如何为用户程序抽象出一个其运行所需要的完整计算机（处理器的物理核数与虚拟计算机的数量解 耦）</li>
+<li>如何隔离运行于同一台计算机上的用户程序</li>
+<li>进程接口的实现技术</li>
+<li>保证程序运行的效率且可控的实现机制</li>
+<li>如何在可控的前提下还能最大限度地满足用户程序和管理的多样性需求</li>
+</ul>
+<p><strong>学习成效</strong></p>
+<ul>
+<li>能充分理解处理器抽象的动机和潜在的挑战 [熟悉]</li>
+<li>能够权衡能力和灵活性而有针对性地设计机制和策略[运用]</li>
+<li>能够论证操作系统应该提供怎样的进程来创建及控制接口，使之既方便又实用[评估]</li>
+<li>能够设计高效、可控地实现CPU虚拟化的机制 [理解]</li>
+<li>能够论证设计的合理性和效率 [评估]、掌握并活用策略与机制分离的设计原则[运用] <strong>教学内容：</strong></li>
+<li>操作系统-02.  进程、线程与进程组(OS02:Process, Threads, and Process Group)</li>
+</ul>
+<p>o 进程的概念</p>
+<p> 进程的表示</p>
+<p> 进程的状态与变迁</p>
+<p>o 进程相关系统调用的实现</p>
+<p> 进程的创建与执行</p>
+<p> 进程的退出</p>
+<p> 进程等待</p>
+<p> 进程睡眠</p>
+<p>o 处理器虚拟化机制</p>
+<p>  处理器提供的模式位</p>
+<p>  时钟中断</p>
+<p>  上下文切换 o 线程</p>
+<p>  线程是独立的调度单位</p>
+<p>  线程管理接口的实现</p>
+<p>  内核级线程与用户级线程</p>
+<p>  纤程与协程</p>
+<p>o 进程组 o 小结</p>
+<p>课后阅读</p>
+<p>参考文献</p>
+<p> </p>
+<p><strong>第</strong> <strong>4 </strong><strong>周</strong><strong>-</strong><strong>第</strong> <strong>5 </strong><strong>周：地址空间与存储管理</strong></p>
+<p><strong>操作系统</strong><strong>-03.  </strong><strong>地址空间与存储管理</strong></p>
+<p><strong>(OS03: Address Space and</strong><strong> </strong><strong>Memory Management)</strong></p>
+<p><strong>KEYWORDS</strong><strong> </strong><strong>Memory Management,</strong><strong> </strong><strong>MMU,</strong><strong> </strong><strong>Paging, TLB,</strong><strong> </strong><strong>Locality, Virtual</strong><strong> </strong><strong>memory</strong></p>
+<p><strong>[</strong><strong>核心二级，</strong> <strong>2x3</strong><strong> </strong><strong>学时</strong><strong>]</strong></p>
+<p><strong>要点综述</strong></p>
+<ul>
+<li>   操作系统存储管理的科学问题、技术问题和工程问题</li>
+<li>   现代计算机系统通过采用存储体系的方案权衡访问容量、访问速度和成本</li>
+<li>   存储体系的有效性建立在程序局部性原理之上</li>
+<li>   缓存技术广泛地应用于计算机存储体系的各级当中</li>
+<li>   存储管理中的内存布局规划和各类算法实现是操作系统需要着重解决的问题</li>
+<li>   现代操作系统普遍采用请求式分页的虚存管理方案</li>
+<li>   工作集理论是内存管理充分利用程序局部性的一种重要指导方针</li>
+<li>openEuler的存储管理技术</li>
+</ul>
+<p><strong>学习成效</strong></p>
+<ul>
+<li>解释存储体系和性能代价间的权衡 [熟悉]</li>
+<li>归纳缓存在虚存中的应用原理 [熟悉]</li>
+<li>   评估内存大小和处理器速度间的权衡[评估]</li>
+<li>   阐明内存分配的不同方法，并陈述每种方法的相对优缺点[评估]</li>
+<li>   描述缓存的必要性和使用方法(性能和接近程度,缓存给隔离和虚拟机抽象带来的复杂性)[熟悉]</li>
+<li>   讨论抖动发生的原因及其识别和管理技术[熟悉]</li>
+<li>openEuler的存储管理技术 [了解]</li>
+</ul>
+<p><strong>教学内容：</strong></p>
+<ul>
+<li>   操作系统-03.  地址空间与存储管理 (OS03: AddressSpaceand Memory Management)</li>
+</ul>
+<p>o 地址空间</p>
+<p>o 内存虚拟化的机制——地址转换</p>
+<p>  连续地址（Single Contiguous Allocation）管理</p>
+<p>  分段（Segmented  ）式内存管理</p>
+<p>  分页式（Paging）内存管理</p>
+<p>  段页式（Segmentation with Paging）内存管理</p>
+<p>o 解决页表占用空间过多的技术方案</p>
+<p>o 操作系统管理页表映射</p>
+<p>  操作系统规划地址空间布局</p>
+<p>  操作系统实现填充进程页表项机制</p>
+<p>  操作系统实现清除进程页表项机制</p>
+<p>  操作系统填充页表的策略</p>
+<p>  为虚拟内存提供扩展功能</p>
+<p>o 提高地址转换的效率</p>
+<p>o 破除物理内存的限制</p>
+<p>  判断页面是否在内存中</p>
+<p>  页面故障及其处理</p>
+<p>  内存充满时的处理</p>
+<p>  页面替换策略</p>
+<p>  其它的一些设计问题</p>
+<p>o 物理内存管理</p>
+<p>  伙伴系统</p>
+<p>    SL[AUO]B 分配器</p>
+<p>o 专题讨论</p>
+<p>  抖动和工作集</p>
+<p>  物理内存分配与 CPU 缓存</p>
+<p>  多核与内存分配</p>
+<p>o openEuler 的存储管理系统分析</p>
+<p>    openEuler 的地址空间</p>
+<p> 进程的动态内存申请和释放</p>
+<p>  地址转换</p>
+<p>    openEuler 的页面故障处理</p>
+<p>  解决页框不足的问题</p>
+<p>    ARM 的弱内存序模型 o 小结</p>
+<p>阅读作业</p>
+<p>参考文献</p>
+<p> </p>
+<p><strong>第</strong> <strong>6 </strong><strong>周</strong> <strong>国庆节假期</strong> <strong>Workshop</strong><strong> 01: </strong><strong>The</strong><strong> </strong><strong>Evolution</strong><strong> </strong><strong>of</strong><strong> </strong><strong>OS </strong><strong>专题研讨会</strong> <strong>01-  </strong><strong>操作系统的发展</strong></p>
+<p><strong>Workshop 01 - The</strong><strong> </strong><strong>Evolution o</strong><strong>f OS</strong></p>
+<p><strong>[</strong><strong>拓展一级，</strong><strong>3</strong><strong> </strong><strong>学时</strong><strong>]</strong></p>
+<p><strong>要点综述</strong></p>
+<ul>
+<li>   结合两篇综述性文章探索操作系统的发展里程和未来趋势</li>
+<li>为进一步研究操作系统播下种子</li>
+</ul>
+<p><strong>学习成效</strong></p>
+<ul>
+<li>清晰了解操作系统的发展过程 [熟悉]</li>
+<li>   能够就操作系统的关键里成本和典型原理发表自己的认识和观点</li>
+</ul>
+<ul>
+<li>   能够基于批判性思维，分析有关操作系统未来发展趋势的文章[运用]</li>
+<li>   对操作系统的学习有一个更为宽广的视野[理解]</li>
+</ul>
+<p><strong>教学内容：</strong>研讨课-01.  操作系统的过去、现在和未来</p>
+<p>Workshop01: The Research and Development of Operating Systems</p>
+<p>KEYWORDS Essey Review, Panel Discussion, Operating System Development W1.1  论文导读&quot;Fifty Years of Operating Systems&quot;</p>
+<p>W1.2  研讨问题</p>
+<p>W1.3  论文导读&quot;面向 2030 的操作系统架构与演进思考&quot;</p>
+<p>W1.4  研讨问题</p>
+<p>参考文献</p>
+<ul>
+<li>   PeterJ.Denning. Fifty Years of Operating Systems. CACM 59(3): 30-32. 2016 (略)</li>
+<li>   陈海波,   贾宁,  钱梽杨.面向 2030   的操作系统架构与演进思考.   中国计算机学会通讯.   18(12):65-72</li>
+</ul>
+<p>聆听大师的声音，发表自己的看法，通过研讨弄清事物发展的本质。</p>
+<p><strong>第</strong> <strong>7 </strong><strong>周：调度和分派</strong></p>
+<p><strong>操作系统</strong><strong>-04.  </strong><strong>调度和分派</strong></p>
+<p><strong>(OS04: Scheduling and</strong><strong> </strong><strong>Dispatching)</strong></p>
+<p><strong>KEYWORDS Scheduling , Context s</strong><strong>witching,</strong><strong> </strong><strong>Mechanism,</strong><strong> </strong><strong>Policy, Thread</strong></p>
+<p><strong>[</strong><strong>核心二级</strong><strong>, 3</strong><strong> </strong><strong>学时</strong><strong>]</strong></p>
+<p><strong>要点综述</strong></p>
+<ul>
+<li>   调度是根据某种策略对任务执行顺序的重新安排，以追求某种性能指标的改善。</li>
+<li>   在操作系统关注的范围内，存在着四类调度：长程调度、中程调度、短程调度和磁盘调度</li>
+<li>   进程调度程序是在就绪进程间分配有限的处理器时间资源的内核子系统。处理器调度程序负 责决 定将CPU赋予哪个进程，使之投入实际运行，何时运行以及运行多长时间</li>
+<li>   典型的进程调度策略包括：先来先服务、短作业优先、基于优先级、轮转、高响应比优先、 多重 队列、多重反馈队列、公平分享等策略，以及现代Linux内核采用的完全公平调度策略</li>
+<li>   在有线程概念的操作系统中，调度的对象是线程</li>
+<li>   多处理器调度提出了与单处理器调度不同的需求，更多追求被调度进程的效用，典型的调度 策略 包括：成组调度和专属调度</li>
+<li>   多处理器调度中的分布式就绪队列的一个挑战，是如何在保持负载均衡的过程中继续保持处 理器 亲和性，充分利用缓存带来的性能改善</li>
+<li>   实时处理的要点是满足任务的时限约束，典型的调度策略包括率单调调度（适用于周期性任</li>
+<li>   务，注重分析可调度性）和期限优先调度（适用于周期或非周期任务）</li>
+</ul>
+<p><strong>学习成效</strong></p>
+<ul>
+<li>   深刻理解教材关于调度策略的思辨过程：提出假设-&gt;总结问题-&gt;解决方案-&gt;假设检验-&gt;适用性 分析的多次迭代，并能够加以运用 [运用]</li>
+<li>   对比操作系统中抢占和非抢占调度的常用策略，如优先级、性能和公平分享等 [评估]</li>
+<li>描述调度算法和应用领域的联系 [熟悉]</li>
+<li>    了解实时系统的定义 [熟悉]</li>
+<li>   解释实时系统中时延的存在并描述其特点[熟悉]</li>
+<li>对比实时调度的静态与动态方法 [评估]</li>
+<li>   讨论抢占调度和截止期限调度的必要性[熟悉]
+<ul>
+<li>能够解释CFS 实现完全公平的原理 [解] <strong>教学内容：</strong></li>
+<li>   操作系统-04.  调度和分派 (OS04:Schedulingand Dispatching) 问题的引入</li>
+</ul>
+</li>
+<li>
+<p>o 资源的调度</p>
+<p>o 调度策略设计</p>
+<p> 进程的行为</p>
+<p>  负载假设</p>
+<p>  调度的性能指标</p>
+<p>  工作方式</p>
+<p>o 调度策略</p>
+<p>  先来先服务</p>
+<p>  短作业优先   轮转</p>
+<p>  基于优先级策略</p>
+<p>  高响应比优先</p>
+<p>  多重队列</p>
+<p>  多重反馈队列</p>
+<p>  公平分享</p>
+<p>o 多处理器调度</p>
+<p>  多核调度策略的分类</p>
+<p>  成组调度</p>
+<p>  解决缓存亲和性问题</p>
+<p>o 实时调度</p>
+<p>  率单调调度</p>
+<p>  限期调度</p>
+<p>o 进程和线程调度</p>
+<p>o openEuler 的调度</p>
+<p>  调度类及其优先级</p>
+<p>  完全公平调度 CFS</p>
+<p>    openEuler 的调度过程</p>
+<p>o 调度在新场景下的应用 o 小结</p>
+<p>阅读作业</p>
+<p>参考文献</p>
+<p> </p>
+<p><strong>第</strong> <strong>8 </strong><strong>周：文件系统的系统调用</strong></p>
+<p><strong>操作系统</strong><strong>-05.  </strong><strong>文件系统的系统调用</strong></p>
+<p><strong>(OS05: System Calls for</strong><strong> </strong><strong>The</strong><strong> </strong><strong>Fil</strong><strong>e System)</strong></p>
+<p>KEYWORDS <strong>Abstraction,</strong><strong> </strong><strong>File,</strong><strong> </strong><strong>UNIX,</strong><strong> System Calls for</strong><strong> </strong><strong>The</strong><strong> </strong><strong>File System</strong><strong> </strong><strong>[</strong><strong>核心一级，</strong><strong>3</strong><strong> </strong><strong>学时</strong><strong>]</strong></p>
+<p><strong>要点综述</strong></p>
+<ul>
+<li>文件系统相关的原理——设计know-how</li>
+<li>UNIX类的万物皆文件的各种表现形式</li>
+</ul>
+</li>
+</ul>
+<ul>
+<li>UNIX的文件接口设计</li>
+<li>万物皆文件的抽象机制的应用场景</li>
+<li>论文导读：TheAtlas Milestone</li>
+</ul>
+<p><strong>学习成效</strong></p>
+<ul>
+<li>   熟悉文件系统相关原理——设计know-how[理解]</li>
+<li>   解释Atlas在操作系统演进过程中的重大技术贡献 [理解]</li>
+<li>分析和理解UNIX 这种文件抽象的本质 [理解]</li>
+<li>灵活应用这种抽象机制 [运用]</li>
+<li>知晓这种抽象机制的实现思路 [了解]</li>
+</ul>
+<p><strong>教学内容：</strong></p>
+<ul>
+<li>  <a>操作系统-05.  文件系统的系统调用</a><a>(OS05:SystemCalls for The File System)</a></li>
+</ul>
+<p>o 操作系统对设备、数据和其他实体的抽象</p>
+<p>o /proc</p>
+<p>o /dev</p>
+<p>o<a>Socket 文件</a></p>
+<p>o<a>UNIX 的文件系统接口</a></p>
+<p>  系统调用 OPEN</p>
+<p>  系统调用 READ</p>
+<p>  系统调用 WRITE</p>
+<p>  系统调用 LSEEK</p>
+<p> <a>系统调用 CLOSE</a></p>
+<p> <a>系统调用 CREAT</a></p>
+<p> <a>系统调用 MKNOD</a></p>
+<p> <a>系统调用 CHDIR</a></p>
+<p> <a>系统调用 CHROOT</a></p>
+<p>  系统调用 CHOWN/CHMOD</p>
+<p> <a>系统调用 STAT/FSTAT</a></p>
+<p> <a>系统调用 PIPE</a></p>
+<p> <a>系统调用 DUP</a></p>
+<p>o<a>论文导读：The Atlas Milestone</a> o<a>小结</a></p>
+<p><a>阅读作业</a></p>
+<p><a>参考文献</a></p>
+<p> </p>
+<p><strong>第</strong> <strong>9-10 </strong><strong>周：文件系统的实现</strong></p>
+<p><strong>OS</strong><strong>06-  </strong><strong>文件系统的实现</strong></p>
+<p><strong>(OS06:</strong><strong> </strong><strong>File System</strong><strong> </strong><strong>Implementation)</strong></p>
+<p>KEYWORDS <strong>File System</strong><strong> </strong><strong>Imp</strong><strong>lementation, inode,</strong><strong> </strong><strong>FFS,</strong><strong> </strong><strong>LFS, JFS</strong><strong> </strong><strong>[</strong><strong>可选，</strong><strong>3+3</strong><strong>  </strong><strong>学时</strong><strong>]</strong></p>
+<p><strong>要点综述</strong></p>
+<ul>
+<li>UNIX文件系统的优良设计和启发</li>
+<li>   从简单文件系统的实现开始逐步优化文件系统的实现，直至当前最新的技术方案</li>
+<li>   FFS的出现形成了文件系统设计的分水岭。其原则是：设计要因地制宜，并在保持文件系统接口不变的情况下不断优化其实现</li>
+</ul>
+<ul>
+<li>   LFS针对现代计算机系统中写操作占据I/O 开销主体的问题开发了一种更新磁盘的新方法。其大块 （顺序）写入的操作具有良好的普适性</li>
+<li>    日志文件系统将文件系统的崩溃恢复时间由O(磁盘卷大小)缩减到O(日志大小)，极大地提升了文件 系统的可靠性</li>
+<li>openEuler的文件系统实现</li>
+<li>论文导读：为SSD 设计的新的文件系统</li>
+</ul>
+<p><strong>学习成效</strong></p>
+<ul>
+<li>   掌握文件系统的实现技术、性能调优技术、可靠性增强技术，能够说明各项技术背后的原理 [运用]</li>
+<li>能够明确解释FFS 和 LFS 成功的原理 [理解]</li>
+<li>openEuler的文件系统设计 [了解]</li>
+<li>   总结硬件发展是如何改变文件系统设计和管理中的优先级[熟悉]</li>
+<li>    了解新时期的文件系统研究动向 [熟悉]</li>
+</ul>
+<p><strong>教学内容：</strong></p>
+<ul>
+<li>   OS06-文件系统的实现 (OS09:FileSystem Implementation)</li>
+</ul>
+<p>o 文件系统的实现</p>
+<p>  磁盘分配方案</p>
+<p>  简单文件系统 VSFS</p>
+<p>  磁盘布局</p>
+<p>    inode 设计和文件分配</p>
+<p>  目录组织</p>
+<p>  空闲空间管理</p>
+<p>  典型系统调用的实现打开文件读文件写文件关闭文件</p>
+<p>    VSFS 的性能改进</p>
+<p>o 快速文件系统 FFS</p>
+<p>o 日志结构文件系统</p>
+<p>    LFS 的基本思想</p>
+<p>  如何将随机写入变成大块的循序写入</p>
+<p>  根据磁盘特性决定交换段大小</p>
+<p>  如何定位 inode</p>
+<p>    LFS 的读文件操作</p>
+<p>  目录组织及其访问</p>
+<p>  无用块回收</p>
+<p>o 文件系统的性能优化</p>
+<p>  缓存与缓冲</p>
+<p>  多级索引与 Extent</p>
+<p>o 文件系统的可靠性改进——崩溃一致性维护</p>
+<p>o 文件系统的可用性改进——虚拟文件系统</p>
+<p>o openEuler 的文件系统实现</p>
+<p>  超级块</p>
+<p>  文件的索引节点</p>
+<p>  目录的存储</p>
+<p>  空闲块管理</p>
+<p>  文件的读取和写入</p>
+<p>    openEuler 的 I/O 性能优化技术</p>
+<p>    openEuler 的崩溃一致性保证技术</p>
+<p>    openEuler 的虚拟文件系统</p>
+<p>o 文章导读背景知识：基于 Flash 的固态硬盘 OSDI 文章导读：一种适用于 SSD 的现代高效文件系统</p>
+<p>o 小结</p>
+<p>阅读作业</p>
+<p>参考文献</p>
+<p> </p>
+<p><strong>第</strong> <strong>11 </strong><strong>周</strong><strong>:</strong><strong>：输入输出设备管理</strong></p>
+<p><strong>OS</strong><strong>07.   </strong><strong>输入输出设备管理</strong></p>
+<p><strong>(OS07:</strong><strong> </strong><strong>Input/Output</strong><strong> </strong><strong>Ma</strong><strong>nagement)</strong></p>
+<p><strong>KEYWORDS</strong><strong> </strong><strong>Device</strong><strong> </strong><strong>Management,</strong><strong> </strong><strong>Device</strong><strong> </strong><strong>Driver,</strong><strong> </strong><strong>Interrupt,</strong><strong> </strong><strong>Buffering,</strong><strong> </strong><strong>DMA,</strong><strong> </strong><strong>I/O Schedu</strong><strong>ling</strong><strong> </strong><strong>[</strong><strong>可选，</strong><strong>3</strong><strong> </strong><strong>学时</strong><strong>]</strong></p>
+<p><strong>要点综述</strong></p>
+<ul>
+<li>   系统需要与外界交互而发展，输入输出泛指计算机借助设备完成计算与系统其他组件之间或与外部 环境的交互</li>
+<li>   设备树是一种描述特定计算机硬件组件（如CPU、内存、总线和集成外围设备等）的数据结构，以 便操作系统内核可以发现这些组件</li>
+<li>   设备驱动程序为操作系统的I/O子系统提供了一致的设备接口，屏蔽了设备的底层细节</li>
+<li>   计算机与外部设备通过设备控制器通信，按照设备驱动程序的协议交换信息</li>
+<li>   为了提高效率，中断、DMA和通道机制在特定的场景下减轻CPU 干预 I/O 的必要性</li>
+<li>   操作系统既为多样性差异化的各类设备提供统一的访问接口，又采取多种措施解决因抽象造成的效 率损耗和因设备差异性造成的失配等问题</li>
+<li>   各种辅助技术，如缓冲、高速缓存、I/O调度可解决速度失配问题，提升系统整体性能</li>
+<li>   为可同时改善持久化存储设备的容量、访问速度和可靠性，可采纳RAID解决技术方案。应根据应 用需求选择合理的 RAID 级别</li>
+</ul>
+<p><strong>学习成效</strong></p>
+<ul>
+<li>    了解设备树对操作系统内核的作用 [了解]</li>
+<li>   解释缓存、缓冲的概念，并描述实现机制[熟悉]</li>
+<li>   描述中断机制，评述DMA的优缺点，并讨论其适用场景 [运用]</li>
+<li>定义故障恢复的需求 [熟悉]</li>
+<li>实现一个适用于多种设备的简单设备驱动 [运用]</li>
+<li>能评估磁盘调度的各种方法 [评估]</li>
+<li>   评估常用RAID级别的特性和适用场景 [运用]</li>
+</ul>
+<p><strong>教学内容：</strong></p>
+<ul>
+<li>   OS07.   输入输出设备管理(OS09:Input/Output Management)</li>
+</ul>
+<p>o 设备的发现</p>
+<p>  什么是设备树</p>
+<p>  如何描述设备树</p>
+<p>  如何使用*.dtb 的设备树描述</p>
+<p>o CPU 与输入输出设备的连接</p>
+<p>  设备控制器</p>
+<p>    CPU 与设备控制器的互联</p>
+<p>o CPU 与 I/O 设备的通信</p>
+</li>
+<li>
+<p>o 总线</p>
+<p>o 设备异构性及其操作系统的对策</p>
+<p>o 内核 I/O 子系统</p>
+<p>    I/O 调度</p>
+<p>  磁盘缓冲</p>
+<p>  磁盘缓存</p>
+<p>    SPOOLing</p>
+<p>  错误处理</p>
+<p>o 设备文件</p>
+<p>o 设备驱动程序</p>
+<p>  字符设备驱动程序</p>
+<p>  块设备的驱动程序</p>
+<p>  网络套接字   时钟</p>
+<p>o 设计问题及其对策</p>
+<p>o 磁盘调度</p>
+<p>  先来先服务 FCFS</p>
+<p>  最短寻道时间优先 SSTF</p>
+<p>  扫描 SCAN</p>
+<p>  单向 C-SCAN</p>
+<p>    LOOK 和 C-LOOK</p>
+<p>    F-SCAN</p>
+<p>  最短定位时间优先 SPTF</p>
+<p>o RAID：改善存储容量、访问速度和存储可靠性</p>
+<p>o 小结</p>
+<p>附录 A  中断处理 (APPA: On Interrupts )</p>
+<p>A.1  中断的基本概念</p>
+<p>A.2  中断的控制级别</p>
+<p>A.3  中断处理模型</p>
+<p>A.3.1  经典的中断处理模型</p>
+<p>A.3.2  中断处理的线程模型</p>
+<p>A.3.3  实时系统的中断处理模型</p>
+<p>A.4  实时系统中中断处理与实时任务的相干性分析</p>
+<p>A.4.1  优先级的困扰</p>
+<p>A.4.2  中断延迟的困扰</p>
+<p>A.4.3  互斥的困扰</p>
+<p>A.4.4  时序的困扰 附录 BVirtIO</p>
+<p>课后阅读</p>
+<p>参考文献</p>
+<p> </p>
+<p><strong>第</strong> <strong>12 </strong><strong>周：特邀报告</strong></p>
+<p> </p>
+<p><strong>第</strong> <strong>13 </strong><strong>周：线程</strong><strong>/</strong><strong>进程间通信</strong></p>
+<p><strong>操作系统</strong><strong>-08.  </strong><strong>线程</strong><strong>/</strong><strong>进程间通信</strong></p>
+<p><strong>(OS08:</strong><strong> </strong><strong>Inter-Process Co</strong><strong>mmunication)</strong></p>
+<p><strong>KEYWORDS IPC, SYSTEM</strong><strong> </strong><strong>V </strong><strong>style,</strong><strong> </strong><strong>POSIX style</strong></p>
+<p><strong>[</strong><strong>核心二级，</strong><strong>3</strong><strong> </strong><strong>学时</strong><strong>]</strong></p>
+<p><strong>要点综述</strong></p>
+<ul>
+<li>   隔离和合作是操作系统的功能的两种体现（twosidesof the same coin!）</li>
+<li>   操作系统在保持无关进程隔离的前提下，还要支持协作进程的相互联系，因此提供了进程间通信（IPC）机制</li>
+<li>   隶属于同一个进程的线程因为共享同一个地址空间，因此可以通过共享的地址空间交换数据</li>
+<li>   操作系统提供的 IPC机制主要包括信号（Signal）、管道（Pipe）、信号量（Semaphore）、共享内存（Shared Memory）、消息队列（Message Queue）和套接字（Socket）等</li>
+<li>openEuler的 IPC 机制</li>
+</ul>
+<p><strong>学习成效</strong></p>
+<ul>
+<li>   能解释openEuler（Linux）的主要IPC 机制 [熟悉]</li>
+<li>   能够利用Linux的 IPC 机制解决进程协作的经典问题 [运用]</li>
+<li>能够根据应用的特征选择合适的IPC 机制 [运用]</li>
+<li>   能够发现并发进程对共享资源访问所引发的潜在问题，并能够从原理上解释产生并发问题的原因[熟悉]</li>
+</ul>
+<p><strong>教学内容：</strong></p>
+<ul>
+<li>   操作系统-08.  线程/进程间通信 (OS08:Inter-ProcessCommunication)</li>
+</ul>
+<p>o 为什么需要 IPC</p>
+<p>o 什么是 IPC</p>
+<p>o 基于信号的 IPC</p>
+<p>o 基于管道的 IPC</p>
+<p>o 基于共享内存的 IPC</p>
+<p>o 基于消息队列的 IPC</p>
+<p>o 基于套接字的 IPC</p>
+<p>o 信号量</p>
+<p>o IPC 的风格 o 小结</p>
+<p>阅读作业</p>
+<p>参考文献</p>
+<p> </p>
+<p><strong>第</strong> <strong>14 </strong><strong>周：</strong> <strong>操作系统</strong><strong>-09.</strong><strong>  </strong><strong>并发</strong></p>
+<p><strong>(OS09: Concurrency)</strong></p>
+<p><strong>KEYWORDS Concurrency,</strong><strong> </strong><strong>Race Condition,</strong><strong> </strong><strong>Mu</strong><strong>tual</strong><strong> </strong><strong>Exclusion, Synchronization</strong></p>
+<p><strong>[</strong><strong>核心二级，</strong><strong>3</strong><strong> </strong><strong>学时</strong><strong>]</strong></p>
+<p><strong>要点综述</strong></p>
+<ul>
+<li>   并发是自然界事物发展的典型形态。计算机系统中程序运行也不例外，广泛存在于基于单核处理器、多核处理器、并行、分布式操作系统中</li>
+<li>   先进处理器的多核与乱序执行冒险也会加剧多线程共享变量的并发问题</li>
+<li>   并发运行的任务访问共享资源将可能导致难以预测的结果</li>
+<li>   现代操作系统内核本质上是并发的，因此每个内核工程师都应该非常熟悉内核级并发以及在操作系 统内核中实现互斥的机制
+<ul>
+<li>   互斥与同步是并发中的基本问题抽象，操作系统需要提供这两类原语解决并发问题</li>
+<li>   并发问题的经典案例包括生产者/消费者问题、读者-写者问题和哲学家就餐问题。它们分别从不同的角度展示了并发可能产生的问题及其解决方案</li>
+<li>   无锁并发程序设计（Lock-freeconcurrentprogramming）可以在并发环境下获取较好的性能 <strong>学习成效</strong></li>
+<li>   能例示多个独立任务并发运行所可能引发的潜在问题[熟悉]</li>
+<li>   能够理解解释并发问题的普遍性,，并能够从原理上解释产生并发问题的原因[理解]</li>
+<li>   能够利用操作系统提供的并发控制机制编写并发环境下能够正确执行的程序 [运用]</li>
+<li>   能够概括操作系统中常用的并发处理机制并评估其优缺点[评估]</li>
+<li>能够用pthread 解决实际应用中的并发问题 [运用]</li>
+<li>   能够结合相关文献，分析并理解现代软件系统中的并发缺陷模式、产生的原因及处理对策 [分析] <strong>教学内容：</strong></li>
+<li>   操作系统纲要-09.  并发(OS09:Concurrency)</li>
+</ul>
+</li>
+<li>
+<p>o 并发执行及其挑战</p>
+<p>  应用级的并发挑战</p>
+<p>  协作进程间的并发挑战</p>
+<p>  线程协作的并发挑战</p>
+<p>  指令乱序执行的并发挑战</p>
+<p>o 并发执行线程的典型问题   互斥</p>
+<p>  同步</p>
+<p>  死锁</p>
+<p>  饥饿</p>
+<p>  活锁</p>
+<p>o 经典并发案例</p>
+<p>  生产者-消费者问题</p>
+<p>  读者-写者问题</p>
+<p>  哲学家就餐问题</p>
+<p>o 操作系统对象的原子访问管理</p>
+<p>o 同步原语的接口</p>
+<p>    Peterson 算法</p>
+<p>  锁机制</p>
+<p>  条件变量</p>
+<p>o 案例分析：求解生产者消费者问题</p>
+<p>  生产者和消费者的安全行为模拟</p>
+<p>  让生产者和消费者行为同步</p>
+<p>o 设计问题</p>
+<p>  临界节加锁粒度</p>
+<p>  加锁避免并发问题的难度</p>
+<p>o 并发执行的更多处理方法</p>
+<p>  无锁并发程序设计</p>
+<p>  事务性内存</p>
+<p>  函数程序设计</p>
+<p>    Actor 模型</p>
+</li>
+<li>
+<p>o 小结</p>
+<p>阅读作业</p>
+<p>参考文献</p>
+<p> </p>
+<p><strong>第</strong> <strong>15 </strong><strong>周：锁、死锁和饥饿</strong></p>
+<p><strong>OS</strong><strong>10.  </strong><strong>锁、死锁和饥饿</strong></p>
+<p><strong>(OS10:</strong><strong> </strong><strong>Lock,</strong><strong> </strong><strong>Deadlock,</strong><strong> Starvation, and</strong><strong> </strong><strong>Beyond)</strong></p>
+<p><strong>KEYWORDS</strong><strong> </strong><strong>Multiple Shared Objects,</strong><strong> </strong><strong>Lock,</strong><strong> </strong><strong>Deadlock, Starva</strong><strong>tion, Transactional</strong><strong> </strong><strong>Memory</strong><strong> </strong><strong>[</strong><strong>可选，</strong><strong>2+1</strong><strong> </strong><strong>学时</strong><strong>]</strong></p>
+<p><strong>要点综述</strong></p>
+<ul>
+<li>   处理互斥和同步问题的解决方案包括软件方法、硬件方法、操作系统支持和语言支持</li>
+<li>互斥锁的各种实现方式</li>
+<li>   当程序变得更复杂，有多个共享对象和多个锁时会发生什么？需要对共享对象之间的交互进行推理</li>
+<li>   解决并发问题的锁机制有可能产生死锁问题，解决死锁的方法又有可能引发饥饿、活锁问题</li>
+<li>   死锁的必要条件是同时满足互斥、持有并等待、不可剥夺、循环等待四个条件</li>
+<li>   死锁的应对策略：预防、避免、检测、无视</li>
+<li>   不存在通用的死锁解决方案。需要从期望、原则、工程、效用等多个方面综合考虑思索问题的解决 方案</li>
+<li>   一些特殊的应用，例如数据库事务处理，存在有效的解决方案，如数据库系统中的两阶段锁协议<a>2PL</a><a>链接到外部网站。</a></li>
+<li>结合openEuler 介绍并发控制原语实现</li>
+<li>   论文导读 “UnlockingConcurrency&quot;(2007)</li>
+</ul>
+<p><strong>学习成效</strong></p>
+<ul>
+<li>   能够概括操作系统同步的实现技术（描述基于操作系统原语的信号实现机制等）[评估]</li>
+<li>能够解释自旋锁的实现方式的进化过程 [分析]</li>
+<li>了解openEuler（Linux）内核的并发控制实现机制 [理解]</li>
+<li>   了解锁机制的不可组合特征，为学习更多的并发处理技术打下基础[熟悉]</li>
+<li>死锁的必要条件［理解］</li>
+<li>   死锁的应对策略：预防、避免、检测、无视［运用］</li>
+<li>   死锁相关问题的处理：活锁、饥饿的应对［评估］</li>
+<li>对死锁问题的态度 [评估]</li>
+<li>事务性内存的基本原理 [了解]</li>
+<li>   深刻理解当代计算机系统对并发处理带来的干扰和应对方案 [分析/评估]<strong>教学内容：</strong></li>
+<li>   OS10.  锁、死锁和饥饿(OS10:Lock, Deadlock, Starvation, and Beyond)</li>
+</ul>
+<p>o 锁机制的实现方法</p>
+<p>  软件方法实现</p>
+<p>  硬件实现</p>
+<p>  软硬件协同实现</p>
+<p>  自旋锁</p>
+<p>  条件变量</p>
+<p>  信号量 o 管程</p>
+<p>o openEuler 中的自旋锁</p>
+</li>
+<li>
+<p>    spinlock 代码结构</p>
+<p>    Qspinlock 的数据结构</p>
+<p>    Qspinlock 的状态迁移</p>
+<p>    NUMA 感知的 Qspinlock</p>
+<p>o 基于锁的并发数据结构</p>
+<p>  并发计数器</p>
+<p>  并发线性表</p>
+<p>  并发队列</p>
+<p>  并发哈希表 o 死锁</p>
+<p>o 死锁的条件</p>
+<p>o 死锁的对策</p>
+<p>  死锁的预防</p>
+<p>  死锁避免</p>
+<p>  死锁检测与恢复</p>
+<p>  鸵鸟策略 o 小结</p>
+<p>o 论文导读 阅读作业</p>
+<p>参考文献</p>
+<p> </p>
+<p><strong>第</strong> <strong>16 </strong><strong>周：系统及虚拟化及应用级虚拟化</strong></p>
+<p><strong>OS</strong><strong>11.  </strong><strong>系统级虚拟化及应用级虚拟化</strong></p>
+<p><strong>(OS11: System Virtualization and A</strong><strong>pplication Virtualization)</strong></p>
+<p><strong>KEYWORDS Virtualization,</strong><strong> </strong><strong>Hypervisor,</strong><strong> </strong><strong>VM</strong><strong>M,</strong><strong> </strong><strong>Linux namespaces,</strong><strong> </strong><strong>Linux cgroup, docker</strong></p>
+<p><strong>[</strong><strong>可选</strong><strong>,</strong><strong> </strong><strong>3</strong><strong> </strong><strong>学时</strong><strong>]</strong></p>
+<p><strong>要点综述</strong></p>
+<ul>
+<li>   在支撑业务系统的同时，降低维护成本和企业的总拥有成本，迅速部署定制化的运行环境，是每个 企业追求的目标</li>
+<li>   降低能耗和二氧化碳排放则是整个社会的要求和ICT从业者的职责</li>
+<li>   伴随着计算机资源的日益强大，虚拟化已成为实现上述目标目标的重要技术手段，并业已成为云计 算基础设施的核心技术</li>
+<li>常用的虚拟化技术各有其特点</li>
+</ul>
+<p>o 虚拟机</p>
+<p>o 操作系统容器</p>
+<p>o 应用容器</p>
+<ul>
+<li>   实现虚拟化时，由于虚拟机和物理机的分离，带来运行环境灵活性和敏捷性的同时，也给操作系统 的设计带来了一系列挑战</li>
+<li>   容器化依赖于操作系统（例如Linux）内核技术的发展，特别是namespace,  cgroup,  UnionFS 的支 持</li>
+<li>   基于KVM/QEMU的开源虚拟化技术</li>
+<li>基于Incus 的容器/虚拟机管理技术</li>
+<li>openEuler的虚拟化技术
+<p><strong>学习成效</strong></p>
+<ul>
+<li>   解决虚拟机操作系统特权指令的处理方法[熟悉]</li>
+<li>Linux的 namespace, cgroup, UnionFS [熟悉]</li>
+<li>虚拟化中的技术决策 [评估]</li>
+<li>判别合理的虚拟化类别</li>
+<li>评估虚拟化技术的适用场景</li>
+<li>Linux的 KVM/QEMU 虚拟化 [熟悉]</li>
+<li>   虚拟机管理程序以及不同类型虚拟机管理程序协作的必要性[运用]</li>
+<li>   根据特定应用场景，选择合适的虚拟化技术[运用]</li>
+<li>虚拟化的主要相关文献和发展趋势[熟悉]</li>
+<li>   容器技术对当前软件体系结构演变带来的影响[评估]</li>
+<li>openEuler的虚拟化技术 [了解]</li>
+</ul>
+<p><strong>教学内容：</strong></p>
+<ul>
+<li>   OS11.  系统级虚拟化及应用级虚拟化 (OS11:SystemVirtualization and Application Virtualization)</li>
+</ul>
+<p>o 虚拟化的动机</p>
+<p>o 虚拟机类型</p>
+<p>o 处理器的硬件虚拟化</p>
+<p>  硬件支持的全虚拟化：自陷-仿真（Trap-and-Emulate）</p>
+<p>  无硬件支持时的全虚拟化：二进制翻译</p>
+<p>  半虚拟化</p>
+<p>  基于硬件的系统虚拟化</p>
+<p>o 内存虚拟化</p>
+<p>o 基于容器的操作系统虚拟化</p>
+<p>    namespace 子系统 Namespace</p>
+<ul>
+<li>UserNamespace</li>
+<li>UTSNamespace</li>
+<li>MountNamespace</li>
+<li>cgroupNamespace</li>
+<li>IPCNamespace</li>
+<li>PIDNamespaceNet</li>
+</ul>
+<p>    cgroup 子系统</p>
+<p>    LXC</p>
+<p>    Incus/LXD</p>
+<p>o 应用级虚拟化</p>
+<p>o 云和云计算</p>
+<p>o openEuler 的虚拟化技术</p>
+<p>11.8.1 VHE</p>
+<p>11.8.2 StratoVirt</p>
+<p>11.8.3 Libvirt</p>
+<p>11.8.4  容器引擎 iSulad</p>
+<p>o 总结和文献导读 课后阅读</p>
+<p>参考文献</p>
+<p>第 17-18 周：考试周</p>
+<p>课内外讨论或练习、实践、体验等环节设计：</p>
+<p><strong>操作系统内核实验（</strong><strong>Labs</strong><strong>）</strong>采用多轮迭代的方式，始终让学生获得完整的操作系统内核的全局观念。伴随 着迭代，学生逐步掌握深入的细节设计和实现。完整的实验安排如下图所示：</p>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ol><h2>课程考核与成绩评定</h2><h2>教材</h2><h2>教学参考资料</h2><ul>
+<li>   A.  Silberschatz,P.B.Galvin, G. Gagne. Operating System Concepts (ninth edition). John Wiley &amp; Sons, Inc., 2013</li>
+<li>   W.  Richard  Stevens,  StephenA.  Rago.Advanced  Programming  in the  UNIX  Environment  (Third Edition). Addison-Wesley Professional. 2013</li>
+<li>   W. Stallings. OperatingSystems- Internals And Design Principles (6th Edition), 2009</li>
+<li>   A. S. Tanenbaum,H.Bos. Modern Operating Systems (4th Edition) ，2014 <strong>在线材料</strong>：</li>
+<li><a>http://wiki.osdev.org/Main_Page</a></li>
+<li>   ACM<a>http://www.acm.org</a></li>
+<li>IEEE<a>http://www.computer.org</a></li>
+<li>USENIX<a>http://wwww.usenix.org</a> •    <a>http://williamstallings.com/OS/</a></li>
+</ul>
+<p><strong>实验材料：</strong></p>
+<ul>
+<li>elearning上的实验指导</li>
+<li>GNU编译工具链</li>
+<li>专门开发的教学内核</li>
 </ul><h2>教学团队成员</h2><h2>教材与参考书</h2><p>Remzi H. Arpaci-Dusseau and Andrea C. Arpaci-Dussea；2015-01；9787111588191；Operating Systems: Three Easy Piece；.Arpaci-Dusseau Book</p></body></html>

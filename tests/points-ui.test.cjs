@@ -36,8 +36,8 @@ function pointsHarness(fetchImpl) {
     querySelectorAll(selector) { return selector === '[data-points-login]' ? [this.querySelector(selector)] : []; },
     addEventListener(name, callback) { this.listeners.set(name, callback); },
   };
-  const window = {};
-  vm.runInNewContext(pointsSource, { document, window, fetch: fetchImpl, console, Date, Intl, encodeURIComponent });
+  const window = { addEventListener() {}, dispatchEvent() {} };
+  vm.runInNewContext(pointsSource, { document, window, fetch: fetchImpl, console, Date, Intl, encodeURIComponent, Event });
   return { document, window, elements };
 }
 
