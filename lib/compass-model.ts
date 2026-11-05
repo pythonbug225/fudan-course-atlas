@@ -8,15 +8,16 @@ const json = (body: unknown, status = 200) => Response.json(body, {
 });
 
 export async function forwardDeepSeek(req: Request) {
+  // Drain the submitted body before any early response so the next request can proceed.
+  const bodyText = await req.text();
+  if (new TextEncoder().encode(bodyText).byteLength > MAX_REQUEST_BYTES) {
+    return json({ error: '模型请求过大，请缩短问题后重试。' }, 413);
+  }
   const key = req.headers.get('x-deepseek-key')?.trim() ?? '';
   if (key.length < 20 || key.length > 500 || /[\r\n]/.test(key)) {
     return json({ error: '请重新输入有效的 DeepSeek API Key。' }, 400);
   }
 
-  const bodyText = await req.text();
-  if (new TextEncoder().encode(bodyText).byteLength > MAX_REQUEST_BYTES) {
-    return json({ error: '模型请求过大，请缩短问题后重试。' }, 413);
-  }
   let input: Record<string, unknown>;
   try {
     const parsed: unknown = JSON.parse(bodyText);
