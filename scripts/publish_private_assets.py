@@ -4,6 +4,7 @@ import json
 from pathlib import Path
 import re
 import sys
+import time
 import urllib.error
 import urllib.parse
 import urllib.request
@@ -29,23 +30,30 @@ def request(route, body=None):
         'X-Asset-Publish-Key': cfg['key'],
         'Content-Type': 'application/octet-stream',
     })
-    with opener.open(req, timeout=90) as response:
-        return json.load(response)
+    for attempt in range(4):
+        try:
+            with opener.open(req, timeout=90) as response:
+                return json.load(response)
+        except urllib.error.HTTPError as error:
+            if error.code not in (500, 502, 503, 504) or attempt == 3:
+                raise
+        except (urllib.error.URLError, TimeoutError):
+            if attempt == 3:
+                raise
+        time.sleep(2 * (attempt + 1))
 
 request('/api/private-assets/import?name=manifest.json', raw)
 print('Manifest staged; existing published files remain active.', flush=True)
+missing = set(request('/api/private-assets/status')['missing'])
 for index, pack in enumerate(manifest['packs']):
     assert re.fullmatch(r'pack-\d{3}\.bin', pack['name'])
+    if pack['name'] not in missing:
+        print(f"Already verified {index+1}/{len(manifest['packs'])}: {pack['name']}", flush=True)
+        continue
     body = (root / pack['name']).read_bytes()
     assert len(body) == pack['size']
     assert hashlib.sha256(body).hexdigest() == pack['sha256']
-    for attempt in range(3):
-        try:
-            request('/api/private-assets/import?name=' + pack['name'], body)
-            break
-        except urllib.error.HTTPError as error:
-            if error.code not in (500, 502, 503, 504) or attempt == 2:
-                raise
+    request('/api/private-assets/import?name=' + pack['name'], body)
     print(f"Validated and uploaded {index+1}/{len(manifest['packs'])}: {pack['name']}", flush=True)
 status = request('/api/private-assets/status')
 assert status['ready'] and not status['missing']
