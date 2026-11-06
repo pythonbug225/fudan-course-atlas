@@ -1,0 +1,7256 @@
+{
+  "version": "2026-10-27",
+  "source_course_index": "official-courses/course-index-undergraduate-and-integrated.csv",
+  "transliteration": "pypinyin NORMAL/FIRST_LETTER; surname overrides 查屏球=zha ping qiu, 翟墨=zhai mo, 盛益民=sheng yi min; 拼音仅作查询词，不是身份事实",
+  "courses": [
+    {
+      "course_code": "CHIN00001",
+      "canonical_name": "大学语文",
+      "target_teachers": [
+        "陶磊"
+      ],
+      "terms": "2025秋",
+      "task_levels": "本科",
+      "pinyin": {
+        "full_joined": "daxueyuwen",
+        "full_spaced": "da xue yu wen",
+        "initials": "dxyw"
+      },
+      "aliases": [],
+      "pinyin_unpunctuated": {
+        "full_joined": "daxueyuwen",
+        "full_spaced": "da xue yu wen",
+        "initials": "dxyw"
+      }
+    },
+    {
+      "course_code": "CHIN10001",
+      "canonical_name": "中国文学传统",
+      "target_teachers": [
+        "汪涌豪",
+        "赵惠俊"
+      ],
+      "terms": "2025秋",
+      "task_levels": "本科",
+      "pinyin": {
+        "full_joined": "zhongguowenxuechuantong",
+        "full_spaced": "zhong guo wen xue chuan tong",
+        "initials": "zgwxct"
+      },
+      "aliases": [
+        {
+          "alias": "中文传统",
+          "status": "query_candidate",
+          "source_url": null,
+          "evidence_id": null,
+          "limitation": "机械压缩词形，仅检索候选"
+        },
+        {
+          "alias": "文传",
+          "status": "source_attested",
+          "source_url": "https://danke.fduhole.com/api/v3/course_groups/168",
+          "evidence_id": "DANKE-REVIEW-3901",
+          "limitation": "原评#3901明写“文传课”且称“小赵”；组信息为中国文学传统/赵惠俊，简称不能单独确定合授教师或学期",
+          "corroborating_evidence_ids": [
+            "DANKE-REVIEW-2577"
+          ]
+        }
+      ],
+      "pinyin_unpunctuated": {
+        "full_joined": "zhongguowenxuechuantong",
+        "full_spaced": "zhong guo wen xue chuan tong",
+        "initials": "zgwxct"
+      }
+    },
+    {
+      "course_code": "CHIN10005",
+      "canonical_name": "中国文学经典",
+      "target_teachers": [
+        "梁银峰",
+        "王文晖",
+        "许蔚",
+        "羊列荣",
+        "张金耀"
+      ],
+      "terms": "2025秋 / 2026春",
+      "task_levels": "本科",
+      "pinyin": {
+        "full_joined": "zhongguowenxuejingdian",
+        "full_spaced": "zhong guo wen xue jing dian",
+        "initials": "zgwxjd"
+      },
+      "aliases": [
+        {
+          "alias": "中文经典",
+          "status": "query_candidate",
+          "source_url": null,
+          "evidence_id": null,
+          "limitation": "机械压缩词形，仅检索候选"
+        },
+        {
+          "alias": "文经",
+          "status": "source_attested",
+          "source_url": "https://danke.fduhole.com/api/v3/course_groups/169",
+          "evidence_id": "DANKE-REVIEW-452",
+          "limitation": "原评#452自称“耀君的文经”；评价来自2021/S1张金耀教学班，不代表目标学期课班"
+        }
+      ],
+      "pinyin_unpunctuated": {
+        "full_joined": "zhongguowenxuejingdian",
+        "full_spaced": "zhong guo wen xue jing dian",
+        "initials": "zgwxjd"
+      }
+    },
+    {
+      "course_code": "CHIN20001",
+      "canonical_name": "现代汉语(上)",
+      "target_teachers": [
+        "陈忠敏",
+        "平悦铃",
+        "陶寰"
+      ],
+      "terms": "2025秋",
+      "task_levels": "本科",
+      "pinyin": {
+        "full_joined": "xiandaihanyu(shang)",
+        "full_spaced": "xian dai han yu ( shang )",
+        "initials": "xdhy(s)"
+      },
+      "aliases": [
+        {
+          "alias": "现汉",
+          "status": "source_attested",
+          "source_url": "https://www.sohu.com/a/252899039_820403",
+          "evidence_id": "PUB-CLASSNOTES-20180910",
+          "limitation": "正文未区分上下册，查询需课程/教师锚定"
+        },
+        {
+          "alias": "现代汉语上",
+          "status": "query_candidate",
+          "source_url": null,
+          "evidence_id": null,
+          "limitation": "仅机械去书名号/册别生成，不能视为真实俗称"
+        },
+        {
+          "alias": "现代汉语",
+          "status": "query_candidate",
+          "source_url": null,
+          "evidence_id": null,
+          "limitation": "仅机械去书名号/册别生成，不能视为真实俗称"
+        },
+        {
+          "alias": "现汉上",
+          "status": "query_candidate",
+          "source_url": null,
+          "evidence_id": null,
+          "limitation": "已检索目标原评与2018公开班级笔记未找到这个分册/概括简称；候选需完整课名或教师锚定"
+        }
+      ],
+      "pinyin_unpunctuated": {
+        "full_joined": "xiandaihanyushang",
+        "full_spaced": "xian dai han yu shang",
+        "initials": "xdhys"
+      }
+    },
+    {
+      "course_code": "CHIN20003",
+      "canonical_name": "中国现当代文学史(上)",
+      "target_teachers": [
+        "康凌",
+        "栾梅健",
+        "倪伟"
+      ],
+      "terms": "2025秋",
+      "task_levels": "本科",
+      "pinyin": {
+        "full_joined": "zhongguoxiandangdaiwenxueshi(shang)",
+        "full_spaced": "zhong guo xian dang dai wen xue shi ( shang )",
+        "initials": "zgxddwxs(s)"
+      },
+      "aliases": [
+        {
+          "alias": "现文史",
+          "status": "source_attested",
+          "source_url": "https://www.sohu.com/a/252899039_820403",
+          "evidence_id": "PUB-CLASSNOTES-20180910",
+          "limitation": "正文未区分上下，不能据简称归属教学班"
+        },
+        {
+          "alias": "中国现当代文学史上",
+          "status": "query_candidate",
+          "source_url": null,
+          "evidence_id": null,
+          "limitation": "仅机械去书名号/册别生成，不能视为真实俗称"
+        },
+        {
+          "alias": "中国现当代文学史",
+          "status": "query_candidate",
+          "source_url": null,
+          "evidence_id": null,
+          "limitation": "仅机械去书名号/册别生成，不能视为真实俗称"
+        }
+      ],
+      "pinyin_unpunctuated": {
+        "full_joined": "zhongguoxiandangdaiwenxueshishang",
+        "full_spaced": "zhong guo xian dang dai wen xue shi shang",
+        "initials": "zgxddwxss"
+      }
+    },
+    {
+      "course_code": "CHIN20005",
+      "canonical_name": "中国古代文学史(上)",
+      "target_teachers": [
+        "陈特",
+        "汪习波"
+      ],
+      "terms": "2025秋",
+      "task_levels": "本科",
+      "pinyin": {
+        "full_joined": "zhongguogudaiwenxueshi(shang)",
+        "full_spaced": "zhong guo gu dai wen xue shi ( shang )",
+        "initials": "zggdwxs(s)"
+      },
+      "aliases": [
+        {
+          "alias": "中国古代文学史上",
+          "status": "query_candidate",
+          "source_url": null,
+          "evidence_id": null,
+          "limitation": "仅机械去书名号/册别生成，不能视为真实俗称"
+        },
+        {
+          "alias": "中国古代文学史",
+          "status": "query_candidate",
+          "source_url": null,
+          "evidence_id": null,
+          "limitation": "仅机械去书名号/册别生成，不能视为真实俗称"
+        }
+      ],
+      "pinyin_unpunctuated": {
+        "full_joined": "zhongguogudaiwenxueshishang",
+        "full_spaced": "zhong guo gu dai wen xue shi shang",
+        "initials": "zggdwxss"
+      }
+    },
+    {
+      "course_code": "CHIN20007",
+      "canonical_name": "中国古代文学史(下)",
+      "target_teachers": [
+        "陈维昭",
+        "翟墨",
+        "孟昕"
+      ],
+      "terms": "2025秋",
+      "task_levels": "本科",
+      "pinyin": {
+        "full_joined": "zhongguogudaiwenxueshi(xia)",
+        "full_spaced": "zhong guo gu dai wen xue shi ( xia )",
+        "initials": "zggdwxs(x)"
+      },
+      "aliases": [
+        {
+          "alias": "古文史下",
+          "status": "source_attested",
+          "source_url": "https://www.sohu.com/a/252899039_820403",
+          "evidence_id": "PUB-CLASSNOTES-20180910",
+          "limitation": "学生历史简称"
+        },
+        {
+          "alias": "中国古代文学史下",
+          "status": "query_candidate",
+          "source_url": null,
+          "evidence_id": null,
+          "limitation": "仅机械去书名号/册别生成，不能视为真实俗称"
+        },
+        {
+          "alias": "中国古代文学史",
+          "status": "query_candidate",
+          "source_url": null,
+          "evidence_id": null,
+          "limitation": "仅机械去书名号/册别生成，不能视为真实俗称"
+        },
+        {
+          "alias": "古文史",
+          "status": "query_candidate",
+          "source_url": null,
+          "evidence_id": null,
+          "limitation": "已检索目标原评与2018公开班级笔记未找到这个分册/概括简称；候选需完整课名或教师锚定"
+        }
+      ],
+      "pinyin_unpunctuated": {
+        "full_joined": "zhongguogudaiwenxueshixia",
+        "full_spaced": "zhong guo gu dai wen xue shi xia",
+        "initials": "zggdwxsx"
+      }
+    },
+    {
+      "course_code": "CHIN20008",
+      "canonical_name": "外国文学史",
+      "target_teachers": [
+        "秦振耀",
+        "张燕萍"
+      ],
+      "terms": "2025秋",
+      "task_levels": "本科",
+      "pinyin": {
+        "full_joined": "waiguowenxueshi",
+        "full_spaced": "wai guo wen xue shi",
+        "initials": "wgwxs"
+      },
+      "aliases": [
+        {
+          "alias": "外国文史",
+          "status": "query_candidate",
+          "source_url": null,
+          "evidence_id": null,
+          "limitation": "机械压缩词形，仅检索候选"
+        }
+      ],
+      "pinyin_unpunctuated": {
+        "full_joined": "waiguowenxueshi",
+        "full_spaced": "wai guo wen xue shi",
+        "initials": "wgwxs"
+      }
+    },
+    {
+      "course_code": "CHIN20009",
+      "canonical_name": "文学概论",
+      "target_teachers": [
+        "王涛",
+        "徐贤樑"
+      ],
+      "terms": "2025秋",
+      "task_levels": "本科",
+      "pinyin": {
+        "full_joined": "wenxuegailun",
+        "full_spaced": "wen xue gai lun",
+        "initials": "wxgl"
+      },
+      "aliases": [
+        {
+          "alias": "文概论",
+          "status": "query_candidate",
+          "source_url": null,
+          "evidence_id": null,
+          "limitation": "机械压缩词形，仅检索候选"
+        }
+      ],
+      "pinyin_unpunctuated": {
+        "full_joined": "wenxuegailun",
+        "full_spaced": "wen xue gai lun",
+        "initials": "wxgl"
+      }
+    },
+    {
+      "course_code": "CHIN20010",
+      "canonical_name": "语言学概论",
+      "target_teachers": [
+        "卢英顺",
+        "史濛辉",
+        "张新华"
+      ],
+      "terms": "2025秋",
+      "task_levels": "本科",
+      "pinyin": {
+        "full_joined": "yuyanxuegailun",
+        "full_spaced": "yu yan xue gai lun",
+        "initials": "yyxgl"
+      },
+      "aliases": [
+        {
+          "alias": "语学概论",
+          "status": "query_candidate",
+          "source_url": null,
+          "evidence_id": null,
+          "limitation": "机械压缩词形，仅检索候选"
+        }
+      ],
+      "pinyin_unpunctuated": {
+        "full_joined": "yuyanxuegailun",
+        "full_spaced": "yu yan xue gai lun",
+        "initials": "yyxgl"
+      }
+    },
+    {
+      "course_code": "CHIN20012",
+      "canonical_name": "中国文学批评史",
+      "target_teachers": [
+        "羊列荣"
+      ],
+      "terms": "2025秋",
+      "task_levels": "本科",
+      "pinyin": {
+        "full_joined": "zhongguowenxuepipingshi",
+        "full_spaced": "zhong guo wen xue pi ping shi",
+        "initials": "zgwxpps"
+      },
+      "aliases": [
+        {
+          "alias": "中文批评史",
+          "status": "query_candidate",
+          "source_url": null,
+          "evidence_id": null,
+          "limitation": "机械压缩词形，仅检索候选"
+        }
+      ],
+      "pinyin_unpunctuated": {
+        "full_joined": "zhongguowenxuepipingshi",
+        "full_spaced": "zhong guo wen xue pi ping shi",
+        "initials": "zgwxpps"
+      }
+    },
+    {
+      "course_code": "CHIN20013",
+      "canonical_name": "专业英语(汉语言文学)",
+      "target_teachers": [
+        "张燕萍"
+      ],
+      "terms": "2025秋",
+      "task_levels": "本科",
+      "pinyin": {
+        "full_joined": "zhuanyeyingyu(hanyuyanwenxue)",
+        "full_spaced": "zhuan ye ying yu ( han yu yan wen xue )",
+        "initials": "zyyy(hyywx)"
+      },
+      "aliases": [
+        {
+          "alias": "专业英语汉语言文学",
+          "status": "query_candidate",
+          "source_url": null,
+          "evidence_id": null,
+          "limitation": "仅机械去书名号/册别生成，不能视为真实俗称"
+        }
+      ],
+      "pinyin_unpunctuated": {
+        "full_joined": "zhuanyeyingyuhanyuyanwenxue",
+        "full_spaced": "zhuan ye ying yu han yu yan wen xue",
+        "initials": "zyyyhyywx"
+      }
+    },
+    {
+      "course_code": "CHIN20015",
+      "canonical_name": "专业英语(汉语言)",
+      "target_teachers": [
+        "刘敏旗"
+      ],
+      "terms": "2025秋",
+      "task_levels": "本科",
+      "pinyin": {
+        "full_joined": "zhuanyeyingyu(hanyuyan)",
+        "full_spaced": "zhuan ye ying yu ( han yu yan )",
+        "initials": "zyyy(hyy)"
+      },
+      "aliases": [
+        {
+          "alias": "专业英语汉语言",
+          "status": "query_candidate",
+          "source_url": null,
+          "evidence_id": null,
+          "limitation": "仅机械去书名号/册别生成，不能视为真实俗称"
+        }
+      ],
+      "pinyin_unpunctuated": {
+        "full_joined": "zhuanyeyingyuhanyuyan",
+        "full_spaced": "zhuan ye ying yu han yu yan",
+        "initials": "zyyyhyy"
+      }
+    },
+    {
+      "course_code": "CHIN20016",
+      "canonical_name": "音韵学",
+      "target_teachers": [
+        "董建交"
+      ],
+      "terms": "2025秋",
+      "task_levels": "本科",
+      "pinyin": {
+        "full_joined": "yinyunxue",
+        "full_spaced": "yin yun xue",
+        "initials": "yyx"
+      },
+      "aliases": [],
+      "pinyin_unpunctuated": {
+        "full_joined": "yinyunxue",
+        "full_spaced": "yin yun xue",
+        "initials": "yyx"
+      }
+    },
+    {
+      "course_code": "CHIN20019",
+      "canonical_name": "文字学",
+      "target_teachers": [
+        "施瑞峰"
+      ],
+      "terms": "2025秋",
+      "task_levels": "本科",
+      "pinyin": {
+        "full_joined": "wenzixue",
+        "full_spaced": "wen zi xue",
+        "initials": "wzx"
+      },
+      "aliases": [],
+      "pinyin_unpunctuated": {
+        "full_joined": "wenzixue",
+        "full_spaced": "wen zi xue",
+        "initials": "wzx"
+      }
+    },
+    {
+      "course_code": "CHIN20023",
+      "canonical_name": "古典文献学基础",
+      "target_teachers": [
+        "李猛",
+        "夏婧"
+      ],
+      "terms": "2025秋",
+      "task_levels": "本科",
+      "pinyin": {
+        "full_joined": "gudianwenxianxuejichu",
+        "full_spaced": "gu dian wen xian xue ji chu",
+        "initials": "gdwxxjc"
+      },
+      "aliases": [],
+      "pinyin_unpunctuated": {
+        "full_joined": "gudianwenxianxuejichu",
+        "full_spaced": "gu dian wen xian xue ji chu",
+        "initials": "gdwxxjc"
+      }
+    },
+    {
+      "course_code": "CHIN20024",
+      "canonical_name": "古代汉语（上）",
+      "target_teachers": [
+        "董建交",
+        "梁银峰",
+        "王文晖"
+      ],
+      "terms": "2025秋",
+      "task_levels": "本科",
+      "pinyin": {
+        "full_joined": "gudaihanyu（shang）",
+        "full_spaced": "gu dai han yu （ shang ）",
+        "initials": "gdhy（s）"
+      },
+      "aliases": [
+        {
+          "alias": "古汉",
+          "status": "source_attested",
+          "source_url": "https://www.sohu.com/a/252899039_820403",
+          "evidence_id": "PUB-CLASSNOTES-20180910",
+          "limitation": "正文未区分上下，查询候选不等于课程映射"
+        },
+        {
+          "alias": "古代汉语上",
+          "status": "query_candidate",
+          "source_url": null,
+          "evidence_id": null,
+          "limitation": "仅机械去书名号/册别生成，不能视为真实俗称"
+        },
+        {
+          "alias": "古代汉语",
+          "status": "query_candidate",
+          "source_url": null,
+          "evidence_id": null,
+          "limitation": "仅机械去书名号/册别生成，不能视为真实俗称"
+        },
+        {
+          "alias": "古汉上",
+          "status": "query_candidate",
+          "source_url": null,
+          "evidence_id": null,
+          "limitation": "已检索目标原评与2018公开班级笔记未找到这个分册/概括简称；候选需完整课名或教师锚定"
+        }
+      ],
+      "pinyin_unpunctuated": {
+        "full_joined": "gudaihanyushang",
+        "full_spaced": "gu dai han yu shang",
+        "initials": "gdhys"
+      }
+    },
+    {
+      "course_code": "CHIN20026",
+      "canonical_name": "语法学",
+      "target_teachers": [
+        "卢英顺"
+      ],
+      "terms": "2025秋",
+      "task_levels": "本科",
+      "pinyin": {
+        "full_joined": "yufaxue",
+        "full_spaced": "yu fa xue",
+        "initials": "yfx"
+      },
+      "aliases": [],
+      "pinyin_unpunctuated": {
+        "full_joined": "yufaxue",
+        "full_spaced": "yu fa xue",
+        "initials": "yfx"
+      }
+    },
+    {
+      "course_code": "CHIN30012",
+      "canonical_name": "诗骚精读",
+      "target_teachers": [
+        "蒋文",
+        "张金耀"
+      ],
+      "terms": "2025秋",
+      "task_levels": "本科",
+      "pinyin": {
+        "full_joined": "shisaojingdu",
+        "full_spaced": "shi sao jing du",
+        "initials": "ssjd"
+      },
+      "aliases": [],
+      "pinyin_unpunctuated": {
+        "full_joined": "shisaojingdu",
+        "full_spaced": "shi sao jing du",
+        "initials": "ssjd"
+      }
+    },
+    {
+      "course_code": "CHIN30013",
+      "canonical_name": "鲁迅精读",
+      "target_teachers": [
+        "张业松"
+      ],
+      "terms": "2025秋",
+      "task_levels": "本科",
+      "pinyin": {
+        "full_joined": "luxunjingdu",
+        "full_spaced": "lu xun jing du",
+        "initials": "lxjd"
+      },
+      "aliases": [],
+      "pinyin_unpunctuated": {
+        "full_joined": "luxunjingdu",
+        "full_spaced": "lu xun jing du",
+        "initials": "lxjd"
+      }
+    },
+    {
+      "course_code": "CHIN30014",
+      "canonical_name": "《文心雕龙》精读",
+      "target_teachers": [
+        "陈特",
+        "杨焄"
+      ],
+      "terms": "2025秋 / 2026春",
+      "task_levels": "本科",
+      "pinyin": {
+        "full_joined": "《wenxindiaolong》jingdu",
+        "full_spaced": "《 wen xin diao long 》 jing du",
+        "initials": "《wxdl》jd"
+      },
+      "aliases": [
+        {
+          "alias": "文心雕龙精读",
+          "status": "query_candidate",
+          "source_url": null,
+          "evidence_id": null,
+          "limitation": "仅机械去书名号/册别生成，不能视为真实俗称"
+        }
+      ],
+      "pinyin_unpunctuated": {
+        "full_joined": "wenxindiaolongjingdu",
+        "full_spaced": "wen xin diao long jing du",
+        "initials": "wxdljd"
+      }
+    },
+    {
+      "course_code": "CHIN30022",
+      "canonical_name": "周作人散文精读",
+      "target_teachers": [
+        "康凌"
+      ],
+      "terms": "2025秋",
+      "task_levels": "本科",
+      "pinyin": {
+        "full_joined": "zhouzuorensanwenjingdu",
+        "full_spaced": "zhou zuo ren san wen jing du",
+        "initials": "zzrswjd"
+      },
+      "aliases": [],
+      "pinyin_unpunctuated": {
+        "full_joined": "zhouzuorensanwenjingdu",
+        "full_spaced": "zhou zuo ren san wen jing du",
+        "initials": "zzrswjd"
+      }
+    },
+    {
+      "course_code": "CHIN30025",
+      "canonical_name": "古文字学",
+      "target_teachers": [
+        "蒋文",
+        "陈剑"
+      ],
+      "terms": "2025秋",
+      "task_levels": "本科",
+      "pinyin": {
+        "full_joined": "guwenzixue",
+        "full_spaced": "gu wen zi xue",
+        "initials": "gwzx"
+      },
+      "aliases": [],
+      "pinyin_unpunctuated": {
+        "full_joined": "guwenzixue",
+        "full_spaced": "gu wen zi xue",
+        "initials": "gwzx"
+      }
+    },
+    {
+      "course_code": "CHIN30026",
+      "canonical_name": "老舍精读",
+      "target_teachers": [
+        "孙洁"
+      ],
+      "terms": "2025秋 / 2026春",
+      "task_levels": "本科",
+      "pinyin": {
+        "full_joined": "laoshejingdu",
+        "full_spaced": "lao she jing du",
+        "initials": "lsjd"
+      },
+      "aliases": [],
+      "pinyin_unpunctuated": {
+        "full_joined": "laoshejingdu",
+        "full_spaced": "lao she jing du",
+        "initials": "lsjd"
+      }
+    },
+    {
+      "course_code": "CHIN30029",
+      "canonical_name": "语言学史",
+      "target_teachers": [
+        "施瑞峰"
+      ],
+      "terms": "2025秋",
+      "task_levels": "本科",
+      "pinyin": {
+        "full_joined": "yuyanxueshi",
+        "full_spaced": "yu yan xue shi",
+        "initials": "yyxs"
+      },
+      "aliases": [
+        {
+          "alias": "语学史",
+          "status": "query_candidate",
+          "source_url": null,
+          "evidence_id": null,
+          "limitation": "机械压缩词形，仅检索候选"
+        }
+      ],
+      "pinyin_unpunctuated": {
+        "full_joined": "yuyanxueshi",
+        "full_spaced": "yu yan xue shi",
+        "initials": "yyxs"
+      }
+    },
+    {
+      "course_code": "CHIN40019",
+      "canonical_name": "《普通语言学教程》精读",
+      "target_teachers": [
+        "霍四通"
+      ],
+      "terms": "2025秋",
+      "task_levels": "本科",
+      "pinyin": {
+        "full_joined": "《putongyuyanxuejiaocheng》jingdu",
+        "full_spaced": "《 pu tong yu yan xue jiao cheng 》 jing du",
+        "initials": "《ptyyxjc》jd"
+      },
+      "aliases": [
+        {
+          "alias": "普通语言学教程精读",
+          "status": "query_candidate",
+          "source_url": null,
+          "evidence_id": null,
+          "limitation": "仅机械去书名号/册别生成，不能视为真实俗称"
+        }
+      ],
+      "pinyin_unpunctuated": {
+        "full_joined": "putongyuyanxuejiaochengjingdu",
+        "full_spaced": "pu tong yu yan xue jiao cheng jing du",
+        "initials": "ptyyxjcjd"
+      }
+    },
+    {
+      "course_code": "CHIN40022",
+      "canonical_name": "女性文学研究",
+      "target_teachers": [
+        "张岩冰"
+      ],
+      "terms": "2025秋 / 2026春",
+      "task_levels": "本科",
+      "pinyin": {
+        "full_joined": "nvxingwenxueyanjiu",
+        "full_spaced": "nv xing wen xue yan jiu",
+        "initials": "nxwxyj"
+      },
+      "aliases": [
+        {
+          "alias": "女性文学",
+          "status": "source_attested",
+          "source_url": "https://chinese.fudan.edu.cn/0f/9e/c33365a462750/page.htm",
+          "evidence_id": "PUB-EXPERIENCE-20221014",
+          "limitation": "同教师课程简称，保留题名差别"
+        }
+      ],
+      "pinyin_unpunctuated": {
+        "full_joined": "nvxingwenxueyanjiu",
+        "full_spaced": "nv xing wen xue yan jiu",
+        "initials": "nxwxyj"
+      }
+    },
+    {
+      "course_code": "CHIN40023",
+      "canonical_name": "台港澳文学研究",
+      "target_teachers": [
+        "梁燕丽",
+        "吴天舟"
+      ],
+      "terms": "2025秋 / 2026春",
+      "task_levels": "本科",
+      "pinyin": {
+        "full_joined": "taigangaowenxueyanjiu",
+        "full_spaced": "tai gang ao wen xue yan jiu",
+        "initials": "tgawxyj"
+      },
+      "aliases": [
+        {
+          "alias": "台港澳文研究",
+          "status": "query_candidate",
+          "source_url": null,
+          "evidence_id": null,
+          "limitation": "机械压缩词形，仅检索候选"
+        }
+      ],
+      "pinyin_unpunctuated": {
+        "full_joined": "taigangaowenxueyanjiu",
+        "full_spaced": "tai gang ao wen xue yan jiu",
+        "initials": "tgawxyj"
+      }
+    },
+    {
+      "course_code": "CHIN40025",
+      "canonical_name": "世界文学名著精读",
+      "target_teachers": [
+        "王柏华"
+      ],
+      "terms": "2025秋",
+      "task_levels": "本科",
+      "pinyin": {
+        "full_joined": "shijiewenxuemingzhujingdu",
+        "full_spaced": "shi jie wen xue ming zhu jing du",
+        "initials": "sjwxmzjd"
+      },
+      "aliases": [
+        {
+          "alias": "世界文名著精读",
+          "status": "query_candidate",
+          "source_url": null,
+          "evidence_id": null,
+          "limitation": "机械压缩词形，仅检索候选"
+        }
+      ],
+      "pinyin_unpunctuated": {
+        "full_joined": "shijiewenxuemingzhujingdu",
+        "full_spaced": "shi jie wen xue ming zhu jing du",
+        "initials": "sjwxmzjd"
+      }
+    },
+    {
+      "course_code": "CHIN40028",
+      "canonical_name": "中外文学关系",
+      "target_teachers": [
+        "张芙鸣"
+      ],
+      "terms": "2025秋",
+      "task_levels": "本科",
+      "pinyin": {
+        "full_joined": "zhongwaiwenxueguanxi",
+        "full_spaced": "zhong wai wen xue guan xi",
+        "initials": "zwwxgx"
+      },
+      "aliases": [
+        {
+          "alias": "中外文关系",
+          "status": "query_candidate",
+          "source_url": null,
+          "evidence_id": null,
+          "limitation": "机械压缩词形，仅检索候选"
+        }
+      ],
+      "pinyin_unpunctuated": {
+        "full_joined": "zhongwaiwenxueguanxi",
+        "full_spaced": "zhong wai wen xue guan xi",
+        "initials": "zwwxgx"
+      }
+    },
+    {
+      "course_code": "CHIN40029",
+      "canonical_name": "西方古典美学",
+      "target_teachers": [
+        "王才勇"
+      ],
+      "terms": "2025秋",
+      "task_levels": "本科",
+      "pinyin": {
+        "full_joined": "xifanggudianmeixue",
+        "full_spaced": "xi fang gu dian mei xue",
+        "initials": "xfgdmx"
+      },
+      "aliases": [],
+      "pinyin_unpunctuated": {
+        "full_joined": "xifanggudianmeixue",
+        "full_spaced": "xi fang gu dian mei xue",
+        "initials": "xfgdmx"
+      }
+    },
+    {
+      "course_code": "CHIN40030",
+      "canonical_name": "现当代话剧专题研究",
+      "target_teachers": [
+        "梁燕丽"
+      ],
+      "terms": "2025秋",
+      "task_levels": "本科",
+      "pinyin": {
+        "full_joined": "xiandangdaihuajuzhuantiyanjiu",
+        "full_spaced": "xian dang dai hua ju zhuan ti yan jiu",
+        "initials": "xddhjztyj"
+      },
+      "aliases": [],
+      "pinyin_unpunctuated": {
+        "full_joined": "xiandangdaihuajuzhuantiyanjiu",
+        "full_spaced": "xian dang dai hua ju zhuan ti yan jiu",
+        "initials": "xddhjztyj"
+      }
+    },
+    {
+      "course_code": "CHIN40033",
+      "canonical_name": "汉语史",
+      "target_teachers": [
+        "王文晖"
+      ],
+      "terms": "2025秋",
+      "task_levels": "本科",
+      "pinyin": {
+        "full_joined": "hanyushi",
+        "full_spaced": "han yu shi",
+        "initials": "hys"
+      },
+      "aliases": [],
+      "pinyin_unpunctuated": {
+        "full_joined": "hanyushi",
+        "full_spaced": "han yu shi",
+        "initials": "hys"
+      }
+    },
+    {
+      "course_code": "CHIN40036",
+      "canonical_name": "《马氏文通》精读",
+      "target_teachers": [
+        "赵国军"
+      ],
+      "terms": "2025秋",
+      "task_levels": "本科",
+      "pinyin": {
+        "full_joined": "《mashiwentong》jingdu",
+        "full_spaced": "《 ma shi wen tong 》 jing du",
+        "initials": "《mswt》jd"
+      },
+      "aliases": [
+        {
+          "alias": "马氏文通精读",
+          "status": "query_candidate",
+          "source_url": null,
+          "evidence_id": null,
+          "limitation": "仅机械去书名号/册别生成，不能视为真实俗称"
+        }
+      ],
+      "pinyin_unpunctuated": {
+        "full_joined": "mashiwentongjingdu",
+        "full_spaced": "ma shi wen tong jing du",
+        "initials": "mswtjd"
+      }
+    },
+    {
+      "course_code": "CHIN40037",
+      "canonical_name": "《语言论》精读",
+      "target_teachers": [
+        "叶婧婷",
+        "史濛辉"
+      ],
+      "terms": "2025秋",
+      "task_levels": "本科",
+      "pinyin": {
+        "full_joined": "《yuyanlun》jingdu",
+        "full_spaced": "《 yu yan lun 》 jing du",
+        "initials": "《yyl》jd"
+      },
+      "aliases": [
+        {
+          "alias": "语言论精读",
+          "status": "query_candidate",
+          "source_url": null,
+          "evidence_id": null,
+          "limitation": "仅机械去书名号/册别生成，不能视为真实俗称"
+        }
+      ],
+      "pinyin_unpunctuated": {
+        "full_joined": "yuyanlunjingdu",
+        "full_spaced": "yu yan lun jing du",
+        "initials": "yyljd"
+      }
+    },
+    {
+      "course_code": "CHIN40039",
+      "canonical_name": "实验语音学",
+      "target_teachers": [
+        "平悦铃"
+      ],
+      "terms": "2025秋",
+      "task_levels": "本科",
+      "pinyin": {
+        "full_joined": "shiyanyuyinxue",
+        "full_spaced": "shi yan yu yin xue",
+        "initials": "syyyx"
+      },
+      "aliases": [],
+      "pinyin_unpunctuated": {
+        "full_joined": "shiyanyuyinxue",
+        "full_spaced": "shi yan yu yin xue",
+        "initials": "syyyx"
+      }
+    },
+    {
+      "course_code": "CHIN40042",
+      "canonical_name": "汉语语法词汇史",
+      "target_teachers": [
+        "梁银峰"
+      ],
+      "terms": "2025秋",
+      "task_levels": "本科",
+      "pinyin": {
+        "full_joined": "hanyuyufacihuishi",
+        "full_spaced": "han yu yu fa ci hui shi",
+        "initials": "hyyfchs"
+      },
+      "aliases": [],
+      "pinyin_unpunctuated": {
+        "full_joined": "hanyuyufacihuishi",
+        "full_spaced": "han yu yu fa ci hui shi",
+        "initials": "hyyfchs"
+      }
+    },
+    {
+      "course_code": "CHIN40043",
+      "canonical_name": "中国近代文学",
+      "target_teachers": [
+        "李楠"
+      ],
+      "terms": "2025秋 / 2026春",
+      "task_levels": "本科",
+      "pinyin": {
+        "full_joined": "zhongguojindaiwenxue",
+        "full_spaced": "zhong guo jin dai wen xue",
+        "initials": "zgjdwx"
+      },
+      "aliases": [
+        {
+          "alias": "中近代文",
+          "status": "query_candidate",
+          "source_url": null,
+          "evidence_id": null,
+          "limitation": "机械压缩词形，仅检索候选"
+        }
+      ],
+      "pinyin_unpunctuated": {
+        "full_joined": "zhongguojindaiwenxue",
+        "full_spaced": "zhong guo jin dai wen xue",
+        "initials": "zgjdwx"
+      }
+    },
+    {
+      "course_code": "CHIN40046",
+      "canonical_name": "现代语言学",
+      "target_teachers": [
+        "钱昱夫"
+      ],
+      "terms": "2025秋",
+      "task_levels": "本科",
+      "pinyin": {
+        "full_joined": "xiandaiyuyanxue",
+        "full_spaced": "xian dai yu yan xue",
+        "initials": "xdyyx"
+      },
+      "aliases": [
+        {
+          "alias": "现代语学",
+          "status": "query_candidate",
+          "source_url": null,
+          "evidence_id": null,
+          "limitation": "机械压缩词形，仅检索候选"
+        }
+      ],
+      "pinyin_unpunctuated": {
+        "full_joined": "xiandaiyuyanxue",
+        "full_spaced": "xian dai yu yan xue",
+        "initials": "xdyyx"
+      }
+    },
+    {
+      "course_code": "CHIN40048",
+      "canonical_name": "民间文学与民俗文化专题",
+      "target_teachers": [
+        "张勤"
+      ],
+      "terms": "2025秋",
+      "task_levels": "本科",
+      "pinyin": {
+        "full_joined": "minjianwenxueyuminsuwenhuazhuanti",
+        "full_spaced": "min jian wen xue yu min su wen hua zhuan ti",
+        "initials": "mjwxymswhzt"
+      },
+      "aliases": [
+        {
+          "alias": "民间文与民俗文化专题",
+          "status": "query_candidate",
+          "source_url": null,
+          "evidence_id": null,
+          "limitation": "机械压缩词形，仅检索候选"
+        }
+      ],
+      "pinyin_unpunctuated": {
+        "full_joined": "minjianwenxueyuminsuwenhuazhuanti",
+        "full_spaced": "min jian wen xue yu min su wen hua zhuan ti",
+        "initials": "mjwxymswhzt"
+      }
+    },
+    {
+      "course_code": "CHIN40049",
+      "canonical_name": "断代文学研究",
+      "target_teachers": [
+        "许蔚"
+      ],
+      "terms": "2025秋",
+      "task_levels": "本科",
+      "pinyin": {
+        "full_joined": "duandaiwenxueyanjiu",
+        "full_spaced": "duan dai wen xue yan jiu",
+        "initials": "ddwxyj"
+      },
+      "aliases": [
+        {
+          "alias": "断代文研究",
+          "status": "query_candidate",
+          "source_url": null,
+          "evidence_id": null,
+          "limitation": "机械压缩词形，仅检索候选"
+        }
+      ],
+      "pinyin_unpunctuated": {
+        "full_joined": "duandaiwenxueyanjiu",
+        "full_spaced": "duan dai wen xue yan jiu",
+        "initials": "ddwxyj"
+      }
+    },
+    {
+      "course_code": "CHIN40052",
+      "canonical_name": "语言发声和感知的解剖生理机制",
+      "target_teachers": [
+        "陈忠敏"
+      ],
+      "terms": "2025秋",
+      "task_levels": "本科",
+      "pinyin": {
+        "full_joined": "yuyanfashengheganzhidejiepoushenglijizhi",
+        "full_spaced": "yu yan fa sheng he gan zhi de jie pou sheng li ji zhi",
+        "initials": "yyfshgzdjpsljz"
+      },
+      "aliases": [],
+      "pinyin_unpunctuated": {
+        "full_joined": "yuyanfashengheganzhidejiepoushenglijizhi",
+        "full_spaced": "yu yan fa sheng he gan zhi de jie pou sheng li ji zhi",
+        "initials": "yyfshgzdjpsljz"
+      }
+    },
+    {
+      "course_code": "CHIN40054",
+      "canonical_name": "中国翻译文学史",
+      "target_teachers": [
+        "陶磊"
+      ],
+      "terms": "2025秋",
+      "task_levels": "本科",
+      "pinyin": {
+        "full_joined": "zhongguofanyiwenxueshi",
+        "full_spaced": "zhong guo fan yi wen xue shi",
+        "initials": "zgfywxs"
+      },
+      "aliases": [
+        {
+          "alias": "中翻译文史",
+          "status": "query_candidate",
+          "source_url": null,
+          "evidence_id": null,
+          "limitation": "机械压缩词形，仅检索候选"
+        }
+      ],
+      "pinyin_unpunctuated": {
+        "full_joined": "zhongguofanyiwenxueshi",
+        "full_spaced": "zhong guo fan yi wen xue shi",
+        "initials": "zgfywxs"
+      }
+    },
+    {
+      "course_code": "CHIN40056",
+      "canonical_name": "甲骨学概论",
+      "target_teachers": [
+        "蒋玉斌"
+      ],
+      "terms": "2025秋",
+      "task_levels": "本科",
+      "pinyin": {
+        "full_joined": "jiaguxuegailun",
+        "full_spaced": "jia gu xue gai lun",
+        "initials": "jgxgl"
+      },
+      "aliases": [],
+      "pinyin_unpunctuated": {
+        "full_joined": "jiaguxuegailun",
+        "full_spaced": "jia gu xue gai lun",
+        "initials": "jgxgl"
+      }
+    },
+    {
+      "course_code": "CHIN40059",
+      "canonical_name": "秦汉文字概论",
+      "target_teachers": [
+        "石继承"
+      ],
+      "terms": "2025秋",
+      "task_levels": "本科",
+      "pinyin": {
+        "full_joined": "qinhanwenzigailun",
+        "full_spaced": "qin han wen zi gai lun",
+        "initials": "qhwzgl"
+      },
+      "aliases": [],
+      "pinyin_unpunctuated": {
+        "full_joined": "qinhanwenzigailun",
+        "full_spaced": "qin han wen zi gai lun",
+        "initials": "qhwzgl"
+      }
+    },
+    {
+      "course_code": "CHIN40067",
+      "canonical_name": "语言类型与共性",
+      "target_teachers": [
+        "叶婧婷",
+        "史濛辉"
+      ],
+      "terms": "2025秋",
+      "task_levels": "本科",
+      "pinyin": {
+        "full_joined": "yuyanleixingyugongxing",
+        "full_spaced": "yu yan lei xing yu gong xing",
+        "initials": "yylxygx"
+      },
+      "aliases": [],
+      "pinyin_unpunctuated": {
+        "full_joined": "yuyanleixingyugongxing",
+        "full_spaced": "yu yan lei xing yu gong xing",
+        "initials": "yylxygx"
+      }
+    },
+    {
+      "course_code": "CHIN40068",
+      "canonical_name": "近现代中西侦探小说与电影专题研究",
+      "target_teachers": [
+        "战玉冰"
+      ],
+      "terms": "2025秋",
+      "task_levels": "本科",
+      "pinyin": {
+        "full_joined": "jinxiandaizhongxizhentanxiaoshuoyudianyingzhuantiyanjiu",
+        "full_spaced": "jin xian dai zhong xi zhen tan xiao shuo yu dian ying zhuan ti yan jiu",
+        "initials": "jxdzxztxsydyztyj"
+      },
+      "aliases": [],
+      "pinyin_unpunctuated": {
+        "full_joined": "jinxiandaizhongxizhentanxiaoshuoyudianyingzhuantiyanjiu",
+        "full_spaced": "jin xian dai zhong xi zhen tan xiao shuo yu dian ying zhuan ti yan jiu",
+        "initials": "jxdzxztxsydyztyj"
+      }
+    },
+    {
+      "course_code": "CHIN40069",
+      "canonical_name": "汉字源流与中国传统文化",
+      "target_teachers": [
+        "周波"
+      ],
+      "terms": "2025秋",
+      "task_levels": "本科",
+      "pinyin": {
+        "full_joined": "hanziyuanliuyuzhongguochuantongwenhua",
+        "full_spaced": "han zi yuan liu yu zhong guo chuan tong wen hua",
+        "initials": "hzylyzgctwh"
+      },
+      "aliases": [
+        {
+          "alias": "汉字源流与中传统文化",
+          "status": "query_candidate",
+          "source_url": null,
+          "evidence_id": null,
+          "limitation": "机械压缩词形，仅检索候选"
+        }
+      ],
+      "pinyin_unpunctuated": {
+        "full_joined": "hanziyuanliuyuzhongguochuantongwenhua",
+        "full_spaced": "han zi yuan liu yu zhong guo chuan tong wen hua",
+        "initials": "hzylyzgctwh"
+      }
+    },
+    {
+      "course_code": "CHIN50036",
+      "canonical_name": "现当代西方美学",
+      "target_teachers": [
+        "李钧"
+      ],
+      "terms": "2025秋",
+      "task_levels": "本科",
+      "pinyin": {
+        "full_joined": "xiandangdaixifangmeixue",
+        "full_spaced": "xian dang dai xi fang mei xue",
+        "initials": "xddxfmx"
+      },
+      "aliases": [],
+      "pinyin_unpunctuated": {
+        "full_joined": "xiandangdaixifangmeixue",
+        "full_spaced": "xian dang dai xi fang mei xue",
+        "initials": "xddxfmx"
+      }
+    },
+    {
+      "course_code": "CHIN50038",
+      "canonical_name": "中国文学文体研究",
+      "target_teachers": [
+        "聂安福"
+      ],
+      "terms": "2025秋",
+      "task_levels": "本科",
+      "pinyin": {
+        "full_joined": "zhongguowenxuewentiyanjiu",
+        "full_spaced": "zhong guo wen xue wen ti yan jiu",
+        "initials": "zgwxwtyj"
+      },
+      "aliases": [
+        {
+          "alias": "中文文体研究",
+          "status": "query_candidate",
+          "source_url": null,
+          "evidence_id": null,
+          "limitation": "机械压缩词形，仅检索候选"
+        }
+      ],
+      "pinyin_unpunctuated": {
+        "full_joined": "zhongguowenxuewentiyanjiu",
+        "full_spaced": "zhong guo wen xue wen ti yan jiu",
+        "initials": "zgwxwtyj"
+      }
+    },
+    {
+      "course_code": "CHIN50045",
+      "canonical_name": "汉语修辞学史",
+      "target_teachers": [
+        "吴礼权"
+      ],
+      "terms": "2025秋",
+      "task_levels": "本科",
+      "pinyin": {
+        "full_joined": "hanyuxiucixueshi",
+        "full_spaced": "han yu xiu ci xue shi",
+        "initials": "hyxcxs"
+      },
+      "aliases": [],
+      "pinyin_unpunctuated": {
+        "full_joined": "hanyuxiucixueshi",
+        "full_spaced": "han yu xiu ci xue shi",
+        "initials": "hyxcxs"
+      }
+    },
+    {
+      "course_code": "CHIN50049",
+      "canonical_name": "生成语言学",
+      "target_teachers": [
+        "刘敏旗"
+      ],
+      "terms": "2025秋",
+      "task_levels": "本科",
+      "pinyin": {
+        "full_joined": "shengchengyuyanxue",
+        "full_spaced": "sheng cheng yu yan xue",
+        "initials": "scyyx"
+      },
+      "aliases": [
+        {
+          "alias": "生成语学",
+          "status": "query_candidate",
+          "source_url": null,
+          "evidence_id": null,
+          "limitation": "机械压缩词形，仅检索候选"
+        }
+      ],
+      "pinyin_unpunctuated": {
+        "full_joined": "shengchengyuyanxue",
+        "full_spaced": "sheng cheng yu yan xue",
+        "initials": "scyyx"
+      }
+    },
+    {
+      "course_code": "CHIN50051",
+      "canonical_name": "中国电影史研究",
+      "target_teachers": [
+        "杨新宇"
+      ],
+      "terms": "2025秋 / 2026春",
+      "task_levels": "本科 / 本研融通",
+      "pinyin": {
+        "full_joined": "zhongguodianyingshiyanjiu",
+        "full_spaced": "zhong guo dian ying shi yan jiu",
+        "initials": "zgdysyj"
+      },
+      "aliases": [
+        {
+          "alias": "中电影史研究",
+          "status": "query_candidate",
+          "source_url": null,
+          "evidence_id": null,
+          "limitation": "机械压缩词形，仅检索候选"
+        }
+      ],
+      "pinyin_unpunctuated": {
+        "full_joined": "zhongguodianyingshiyanjiu",
+        "full_spaced": "zhong guo dian ying shi yan jiu",
+        "initials": "zgdysyj"
+      }
+    },
+    {
+      "course_code": "CHIN50055",
+      "canonical_name": "学术名著选读",
+      "target_teachers": [
+        "白钢",
+        "刘天艺"
+      ],
+      "terms": "2025秋",
+      "task_levels": "本科",
+      "pinyin": {
+        "full_joined": "xueshumingzhuxuandu",
+        "full_spaced": "xue shu ming zhu xuan du",
+        "initials": "xsmzxd"
+      },
+      "aliases": [],
+      "pinyin_unpunctuated": {
+        "full_joined": "xueshumingzhuxuandu",
+        "full_spaced": "xue shu ming zhu xuan du",
+        "initials": "xsmzxd"
+      }
+    },
+    {
+      "course_code": "CHIN50057",
+      "canonical_name": "神经语言学",
+      "target_teachers": [
+        "马良"
+      ],
+      "terms": "2025秋",
+      "task_levels": "本科",
+      "pinyin": {
+        "full_joined": "shenjingyuyanxue",
+        "full_spaced": "shen jing yu yan xue",
+        "initials": "sjyyx"
+      },
+      "aliases": [
+        {
+          "alias": "神经语学",
+          "status": "query_candidate",
+          "source_url": null,
+          "evidence_id": null,
+          "limitation": "机械压缩词形，仅检索候选"
+        }
+      ],
+      "pinyin_unpunctuated": {
+        "full_joined": "shenjingyuyanxue",
+        "full_spaced": "shen jing yu yan xue",
+        "initials": "sjyyx"
+      }
+    },
+    {
+      "course_code": "CHIN50059",
+      "canonical_name": "古代小说研究",
+      "target_teachers": [
+        "李猛",
+        "许蔚"
+      ],
+      "terms": "2025秋 / 2026春",
+      "task_levels": "本科",
+      "pinyin": {
+        "full_joined": "gudaixiaoshuoyanjiu",
+        "full_spaced": "gu dai xiao shuo yan jiu",
+        "initials": "gdxsyj"
+      },
+      "aliases": [],
+      "pinyin_unpunctuated": {
+        "full_joined": "gudaixiaoshuoyanjiu",
+        "full_spaced": "gu dai xiao shuo yan jiu",
+        "initials": "gdxsyj"
+      }
+    },
+    {
+      "course_code": "CHIN50063",
+      "canonical_name": "心理语言学",
+      "target_teachers": [
+        "钱昱夫"
+      ],
+      "terms": "2025秋",
+      "task_levels": "本科",
+      "pinyin": {
+        "full_joined": "xinliyuyanxue",
+        "full_spaced": "xin li yu yan xue",
+        "initials": "xlyyx"
+      },
+      "aliases": [
+        {
+          "alias": "心理语学",
+          "status": "query_candidate",
+          "source_url": null,
+          "evidence_id": null,
+          "limitation": "机械压缩词形，仅检索候选"
+        }
+      ],
+      "pinyin_unpunctuated": {
+        "full_joined": "xinliyuyanxue",
+        "full_spaced": "xin li yu yan xue",
+        "initials": "xlyyx"
+      }
+    },
+    {
+      "course_code": "CHIN50064",
+      "canonical_name": "先唐文史要籍导读",
+      "target_teachers": [
+        "李猛"
+      ],
+      "terms": "2025秋",
+      "task_levels": "本科",
+      "pinyin": {
+        "full_joined": "xiantangwenshiyaojidaodu",
+        "full_spaced": "xian tang wen shi yao ji dao du",
+        "initials": "xtwsyjdd"
+      },
+      "aliases": [],
+      "pinyin_unpunctuated": {
+        "full_joined": "xiantangwenshiyaojidaodu",
+        "full_spaced": "xian tang wen shi yao ji dao du",
+        "initials": "xtwsyjdd"
+      }
+    },
+    {
+      "course_code": "CHIN50065",
+      "canonical_name": "六朝社会与文学",
+      "target_teachers": [
+        "戴燕",
+        "李猛"
+      ],
+      "terms": "2025秋 / 2026春",
+      "task_levels": "本科",
+      "pinyin": {
+        "full_joined": "liuchaoshehuiyuwenxue",
+        "full_spaced": "liu chao she hui yu wen xue",
+        "initials": "lcshywx"
+      },
+      "aliases": [
+        {
+          "alias": "六朝社会与文",
+          "status": "query_candidate",
+          "source_url": null,
+          "evidence_id": null,
+          "limitation": "机械压缩词形，仅检索候选"
+        }
+      ],
+      "pinyin_unpunctuated": {
+        "full_joined": "liuchaoshehuiyuwenxue",
+        "full_spaced": "liu chao she hui yu wen xue",
+        "initials": "lcshywx"
+      }
+    },
+    {
+      "course_code": "CHIN50066",
+      "canonical_name": "宋代文史要籍导读",
+      "target_teachers": [
+        "赵惠俊"
+      ],
+      "terms": "2025秋",
+      "task_levels": "本科",
+      "pinyin": {
+        "full_joined": "songdaiwenshiyaojidaodu",
+        "full_spaced": "song dai wen shi yao ji dao du",
+        "initials": "sdwsyjdd"
+      },
+      "aliases": [],
+      "pinyin_unpunctuated": {
+        "full_joined": "songdaiwenshiyaojidaodu",
+        "full_spaced": "song dai wen shi yao ji dao du",
+        "initials": "sdwsyjdd"
+      }
+    },
+    {
+      "course_code": "CHIN50067",
+      "canonical_name": "地理语言学入门",
+      "target_teachers": [
+        "高飞",
+        "黄河"
+      ],
+      "terms": "2025秋",
+      "task_levels": "本科",
+      "pinyin": {
+        "full_joined": "diliyuyanxuerumen",
+        "full_spaced": "di li yu yan xue ru men",
+        "initials": "dlyyxrm"
+      },
+      "aliases": [
+        {
+          "alias": "地理语学入门",
+          "status": "query_candidate",
+          "source_url": null,
+          "evidence_id": null,
+          "limitation": "机械压缩词形，仅检索候选"
+        }
+      ],
+      "pinyin_unpunctuated": {
+        "full_joined": "diliyuyanxuerumen",
+        "full_spaced": "di li yu yan xue ru men",
+        "initials": "dlyyxrm"
+      }
+    },
+    {
+      "course_code": "CHIN50069",
+      "canonical_name": "诠释学与人文研究",
+      "target_teachers": [
+        "郭西安"
+      ],
+      "terms": "2025秋",
+      "task_levels": "本科",
+      "pinyin": {
+        "full_joined": "quanshixueyurenwenyanjiu",
+        "full_spaced": "quan shi xue yu ren wen yan jiu",
+        "initials": "qsxyrwyj"
+      },
+      "aliases": [],
+      "pinyin_unpunctuated": {
+        "full_joined": "quanshixueyurenwenyanjiu",
+        "full_spaced": "quan shi xue yu ren wen yan jiu",
+        "initials": "qsxyrwyj"
+      }
+    },
+    {
+      "course_code": "GECC10004",
+      "canonical_name": "古典诗词导读",
+      "target_teachers": [
+        "侯体健"
+      ],
+      "terms": "2025秋",
+      "task_levels": "本科",
+      "pinyin": {
+        "full_joined": "gudianshicidaodu",
+        "full_spaced": "gu dian shi ci dao du",
+        "initials": "gdscdd"
+      },
+      "aliases": [],
+      "pinyin_unpunctuated": {
+        "full_joined": "gudianshicidaodu",
+        "full_spaced": "gu dian shi ci dao du",
+        "initials": "gdscdd"
+      }
+    },
+    {
+      "course_code": "GECC10006",
+      "canonical_name": "《周易》与中华审美文化",
+      "target_teachers": [
+        "谢金良"
+      ],
+      "terms": "2025秋 / 2026春",
+      "task_levels": "本科",
+      "pinyin": {
+        "full_joined": "《zhouyi》yuzhonghuashenmeiwenhua",
+        "full_spaced": "《 zhou yi 》 yu zhong hua shen mei wen hua",
+        "initials": "《zy》yzhsmwh"
+      },
+      "aliases": [
+        {
+          "alias": "周易与中华审美文化",
+          "status": "query_candidate",
+          "source_url": null,
+          "evidence_id": null,
+          "limitation": "仅机械去书名号/册别生成，不能视为真实俗称"
+        }
+      ],
+      "pinyin_unpunctuated": {
+        "full_joined": "zhouyiyuzhonghuashenmeiwenhua",
+        "full_spaced": "zhou yi yu zhong hua shen mei wen hua",
+        "initials": "zyyzhsmwh"
+      }
+    },
+    {
+      "course_code": "GECC10007",
+      "canonical_name": "唐诗经典与中国文化传统",
+      "target_teachers": [
+        "查屏球"
+      ],
+      "terms": "2025秋",
+      "task_levels": "本科",
+      "pinyin": {
+        "full_joined": "tangshijingdianyuzhongguowenhuachuantong",
+        "full_spaced": "tang shi jing dian yu zhong guo wen hua chuan tong",
+        "initials": "tsjdyzgwhct"
+      },
+      "aliases": [
+        {
+          "alias": "唐诗经典与中文化传统",
+          "status": "query_candidate",
+          "source_url": null,
+          "evidence_id": null,
+          "limitation": "机械压缩词形，仅检索候选"
+        }
+      ],
+      "pinyin_unpunctuated": {
+        "full_joined": "tangshijingdianyuzhongguowenhuachuantong",
+        "full_spaced": "tang shi jing dian yu zhong guo wen hua chuan tong",
+        "initials": "tsjdyzgwhct"
+      }
+    },
+    {
+      "course_code": "GECC10008",
+      "canonical_name": "唐宋八大家古文",
+      "target_teachers": [
+        "朱刚"
+      ],
+      "terms": "2025秋",
+      "task_levels": "本科",
+      "pinyin": {
+        "full_joined": "tangsongbadajiaguwen",
+        "full_spaced": "tang song ba da jia gu wen",
+        "initials": "tsbdjgw"
+      },
+      "aliases": [],
+      "pinyin_unpunctuated": {
+        "full_joined": "tangsongbadajiaguwen",
+        "full_spaced": "tang song ba da jia gu wen",
+        "initials": "tsbdjgw"
+      }
+    },
+    {
+      "course_code": "GECC10009",
+      "canonical_name": "中国当代小说选读",
+      "target_teachers": [
+        "金理"
+      ],
+      "terms": "2025秋 / 2026春",
+      "task_levels": "本科",
+      "pinyin": {
+        "full_joined": "zhongguodangdaixiaoshuoxuandu",
+        "full_spaced": "zhong guo dang dai xiao shuo xuan du",
+        "initials": "zgddxsxd"
+      },
+      "aliases": [
+        {
+          "alias": "中当代小说选读",
+          "status": "query_candidate",
+          "source_url": null,
+          "evidence_id": null,
+          "limitation": "机械压缩词形，仅检索候选"
+        }
+      ],
+      "pinyin_unpunctuated": {
+        "full_joined": "zhongguodangdaixiaoshuoxuandu",
+        "full_spaced": "zhong guo dang dai xiao shuo xuan du",
+        "initials": "zgddxsxd"
+      }
+    },
+    {
+      "course_code": "GECC10010",
+      "canonical_name": "中国新诗导读",
+      "target_teachers": [
+        "杨新宇"
+      ],
+      "terms": "2025秋",
+      "task_levels": "本科",
+      "pinyin": {
+        "full_joined": "zhongguoxinshidaodu",
+        "full_spaced": "zhong guo xin shi dao du",
+        "initials": "zgxsdd"
+      },
+      "aliases": [
+        {
+          "alias": "中新诗导读",
+          "status": "query_candidate",
+          "source_url": null,
+          "evidence_id": null,
+          "limitation": "机械压缩词形，仅检索候选"
+        }
+      ],
+      "pinyin_unpunctuated": {
+        "full_joined": "zhongguoxinshidaodu",
+        "full_spaced": "zhong guo xin shi dao du",
+        "initials": "zgxsdd"
+      }
+    },
+    {
+      "course_code": "GECC10012",
+      "canonical_name": "《史记》导读",
+      "target_teachers": [
+        "陈正宏"
+      ],
+      "terms": "2025秋",
+      "task_levels": "本科",
+      "pinyin": {
+        "full_joined": "《shiji》daodu",
+        "full_spaced": "《 shi ji 》 dao du",
+        "initials": "《sj》dd"
+      },
+      "aliases": [
+        {
+          "alias": "史记导读",
+          "status": "query_candidate",
+          "source_url": null,
+          "evidence_id": null,
+          "limitation": "仅机械去书名号/册别生成，不能视为真实俗称"
+        }
+      ],
+      "pinyin_unpunctuated": {
+        "full_joined": "shijidaodu",
+        "full_spaced": "shi ji dao du",
+        "initials": "sjdd"
+      }
+    },
+    {
+      "course_code": "GECC10013",
+      "canonical_name": "宋词导读",
+      "target_teachers": [
+        "聂安福",
+        "赵惠俊"
+      ],
+      "terms": "2025秋 / 2026春",
+      "task_levels": "本科 / 本研融通",
+      "pinyin": {
+        "full_joined": "songcidaodu",
+        "full_spaced": "song ci dao du",
+        "initials": "scdd"
+      },
+      "aliases": [],
+      "pinyin_unpunctuated": {
+        "full_joined": "songcidaodu",
+        "full_spaced": "song ci dao du",
+        "initials": "scdd"
+      }
+    },
+    {
+      "course_code": "GECC10015",
+      "canonical_name": "《红楼梦》与人生",
+      "target_teachers": [
+        "罗书华"
+      ],
+      "terms": "2025秋 / 2026春",
+      "task_levels": "本科",
+      "pinyin": {
+        "full_joined": "《hongloumeng》yurensheng",
+        "full_spaced": "《 hong lou meng 》 yu ren sheng",
+        "initials": "《hlm》yrs"
+      },
+      "aliases": [
+        {
+          "alias": "红楼梦与人生",
+          "status": "query_candidate",
+          "source_url": null,
+          "evidence_id": null,
+          "limitation": "仅机械去书名号/册别生成，不能视为真实俗称"
+        }
+      ],
+      "pinyin_unpunctuated": {
+        "full_joined": "hongloumengyurensheng",
+        "full_spaced": "hong lou meng yu ren sheng",
+        "initials": "hlmyrs"
+      }
+    },
+    {
+      "course_code": "GECC10017",
+      "canonical_name": "《文选》与中古社会",
+      "target_teachers": [
+        "汪习波"
+      ],
+      "terms": "2025秋",
+      "task_levels": "本科",
+      "pinyin": {
+        "full_joined": "《wenxuan》yuzhonggushehui",
+        "full_spaced": "《 wen xuan 》 yu zhong gu she hui",
+        "initials": "《wx》yzgsh"
+      },
+      "aliases": [
+        {
+          "alias": "文选与中古社会",
+          "status": "query_candidate",
+          "source_url": null,
+          "evidence_id": null,
+          "limitation": "仅机械去书名号/册别生成，不能视为真实俗称"
+        }
+      ],
+      "pinyin_unpunctuated": {
+        "full_joined": "wenxuanyuzhonggushehui",
+        "full_spaced": "wen xuan yu zhong gu she hui",
+        "initials": "wxyzgsh"
+      }
+    },
+    {
+      "course_code": "GECC10018",
+      "canonical_name": "中国现代散文导读",
+      "target_teachers": [
+        "周双全"
+      ],
+      "terms": "2025秋 / 2026春",
+      "task_levels": "本科",
+      "pinyin": {
+        "full_joined": "zhongguoxiandaisanwendaodu",
+        "full_spaced": "zhong guo xian dai san wen dao du",
+        "initials": "zgxdswdd"
+      },
+      "aliases": [
+        {
+          "alias": "中现代散文导读",
+          "status": "query_candidate",
+          "source_url": null,
+          "evidence_id": null,
+          "limitation": "机械压缩词形，仅检索候选"
+        }
+      ],
+      "pinyin_unpunctuated": {
+        "full_joined": "zhongguoxiandaisanwendaodu",
+        "full_spaced": "zhong guo xian dai san wen dao du",
+        "initials": "zgxdswdd"
+      }
+    },
+    {
+      "course_code": "GECC10019",
+      "canonical_name": "《艺术即经验》导读",
+      "target_teachers": [
+        "张宝贵"
+      ],
+      "terms": "2025秋",
+      "task_levels": "本科",
+      "pinyin": {
+        "full_joined": "《yishujijingyan》daodu",
+        "full_spaced": "《 yi shu ji jing yan 》 dao du",
+        "initials": "《ysjjy》dd"
+      },
+      "aliases": [
+        {
+          "alias": "艺术即经验导读",
+          "status": "query_candidate",
+          "source_url": null,
+          "evidence_id": null,
+          "limitation": "仅机械去书名号/册别生成，不能视为真实俗称"
+        }
+      ],
+      "pinyin_unpunctuated": {
+        "full_joined": "yishujijingyandaodu",
+        "full_spaced": "yi shu ji jing yan dao du",
+        "initials": "ysjjydd"
+      }
+    },
+    {
+      "course_code": "GECC10022",
+      "canonical_name": "中国现代文学名著选讲",
+      "target_teachers": [
+        "段怀清",
+        "李楠"
+      ],
+      "terms": "2025秋 / 2026春",
+      "task_levels": "本科",
+      "pinyin": {
+        "full_joined": "zhongguoxiandaiwenxuemingzhuxuanjiang",
+        "full_spaced": "zhong guo xian dai wen xue ming zhu xuan jiang",
+        "initials": "zgxdwxmzxj"
+      },
+      "aliases": [
+        {
+          "alias": "中现代文名著选讲",
+          "status": "query_candidate",
+          "source_url": null,
+          "evidence_id": null,
+          "limitation": "机械压缩词形，仅检索候选"
+        }
+      ],
+      "pinyin_unpunctuated": {
+        "full_joined": "zhongguoxiandaiwenxuemingzhuxuanjiang",
+        "full_spaced": "zhong guo xian dai wen xue ming zhu xuan jiang",
+        "initials": "zgxdwxmzxj"
+      }
+    },
+    {
+      "course_code": "GECC10024",
+      "canonical_name": "陶渊明精读",
+      "target_teachers": [
+        "陈特",
+        "杨焄"
+      ],
+      "terms": "2025秋 / 2026春",
+      "task_levels": "本科",
+      "pinyin": {
+        "full_joined": "taoyuanmingjingdu",
+        "full_spaced": "tao yuan ming jing du",
+        "initials": "tymjd"
+      },
+      "aliases": [],
+      "pinyin_unpunctuated": {
+        "full_joined": "taoyuanmingjingdu",
+        "full_spaced": "tao yuan ming jing du",
+        "initials": "tymjd"
+      }
+    },
+    {
+      "course_code": "GECC10025",
+      "canonical_name": "现代散文经典选读",
+      "target_teachers": [
+        "张业松"
+      ],
+      "terms": "2025秋",
+      "task_levels": "本科",
+      "pinyin": {
+        "full_joined": "xiandaisanwenjingdianxuandu",
+        "full_spaced": "xian dai san wen jing dian xuan du",
+        "initials": "xdswjdxd"
+      },
+      "aliases": [],
+      "pinyin_unpunctuated": {
+        "full_joined": "xiandaisanwenjingdianxuandu",
+        "full_spaced": "xian dai san wen jing dian xuan du",
+        "initials": "xdswjdxd"
+      }
+    },
+    {
+      "course_code": "GECS10001",
+      "canonical_name": "留学生高级汉语I",
+      "target_teachers": [
+        "赵国军"
+      ],
+      "terms": "2025秋",
+      "task_levels": "本科",
+      "pinyin": {
+        "full_joined": "liuxueshenggaojihanyuI",
+        "full_spaced": "liu xue sheng gao ji han yu I",
+        "initials": "lxsgjhyI"
+      },
+      "aliases": [],
+      "pinyin_unpunctuated": {
+        "full_joined": "liuxueshenggaojihanyui",
+        "full_spaced": "liu xue sheng gao ji han yu i",
+        "initials": "lxsgjhyi"
+      }
+    },
+    {
+      "course_code": "GECS10003",
+      "canonical_name": "留学生专业汉语I",
+      "target_teachers": [
+        "钱昱夫"
+      ],
+      "terms": "2025秋",
+      "task_levels": "本科",
+      "pinyin": {
+        "full_joined": "liuxueshengzhuanyehanyuI",
+        "full_spaced": "liu xue sheng zhuan ye han yu I",
+        "initials": "lxszyhyI"
+      },
+      "aliases": [],
+      "pinyin_unpunctuated": {
+        "full_joined": "liuxueshengzhuanyehanyui",
+        "full_spaced": "liu xue sheng zhuan ye han yu i",
+        "initials": "lxszyhyi"
+      }
+    },
+    {
+      "course_code": "GEEC10042",
+      "canonical_name": "中国古典诗词鉴赏",
+      "target_teachers": [
+        "翟墨"
+      ],
+      "terms": "2025秋 / 2026春",
+      "task_levels": "本科",
+      "pinyin": {
+        "full_joined": "zhongguogudianshicijianshang",
+        "full_spaced": "zhong guo gu dian shi ci jian shang",
+        "initials": "zggdscjs"
+      },
+      "aliases": [
+        {
+          "alias": "中古典诗词鉴赏",
+          "status": "query_candidate",
+          "source_url": null,
+          "evidence_id": null,
+          "limitation": "机械压缩词形，仅检索候选"
+        }
+      ],
+      "pinyin_unpunctuated": {
+        "full_joined": "zhongguogudianshicijianshang",
+        "full_spaced": "zhong guo gu dian shi ci jian shang",
+        "initials": "zggdscjs"
+      }
+    },
+    {
+      "course_code": "GEEC10045",
+      "canonical_name": "当代世界文学",
+      "target_teachers": [
+        "许平"
+      ],
+      "terms": "2025秋 / 2026春",
+      "task_levels": "本科",
+      "pinyin": {
+        "full_joined": "dangdaishijiewenxue",
+        "full_spaced": "dang dai shi jie wen xue",
+        "initials": "ddsjwx"
+      },
+      "aliases": [
+        {
+          "alias": "当代世界文",
+          "status": "query_candidate",
+          "source_url": null,
+          "evidence_id": null,
+          "limitation": "机械压缩词形，仅检索候选"
+        }
+      ],
+      "pinyin_unpunctuated": {
+        "full_joined": "dangdaishijiewenxue",
+        "full_spaced": "dang dai shi jie wen xue",
+        "initials": "ddsjwx"
+      }
+    },
+    {
+      "course_code": "GEEC10047",
+      "canonical_name": "东西方美学思潮",
+      "target_teachers": [
+        "王曦"
+      ],
+      "terms": "2025秋",
+      "task_levels": "本科",
+      "pinyin": {
+        "full_joined": "dongxifangmeixuesichao",
+        "full_spaced": "dong xi fang mei xue si chao",
+        "initials": "dxfmxsc"
+      },
+      "aliases": [],
+      "pinyin_unpunctuated": {
+        "full_joined": "dongxifangmeixuesichao",
+        "full_spaced": "dong xi fang mei xue si chao",
+        "initials": "dxfmxsc"
+      }
+    },
+    {
+      "course_code": "GEEC10051",
+      "canonical_name": "中国民俗文化",
+      "target_teachers": [
+        "郑土有"
+      ],
+      "terms": "2025秋",
+      "task_levels": "本科",
+      "pinyin": {
+        "full_joined": "zhongguominsuwenhua",
+        "full_spaced": "zhong guo min su wen hua",
+        "initials": "zgmswh"
+      },
+      "aliases": [
+        {
+          "alias": "中民俗文化",
+          "status": "query_candidate",
+          "source_url": null,
+          "evidence_id": null,
+          "limitation": "机械压缩词形，仅检索候选"
+        }
+      ],
+      "pinyin_unpunctuated": {
+        "full_joined": "zhongguominsuwenhua",
+        "full_spaced": "zhong guo min su wen hua",
+        "initials": "zgmswh"
+      }
+    },
+    {
+      "course_code": "GEEC10053",
+      "canonical_name": "先秦诸子美学思想与文化",
+      "target_teachers": [
+        "谢金良"
+      ],
+      "terms": "2025秋",
+      "task_levels": "本科",
+      "pinyin": {
+        "full_joined": "xianqinzhuzimeixuesixiangyuwenhua",
+        "full_spaced": "xian qin zhu zi mei xue si xiang yu wen hua",
+        "initials": "xqzzmxsxywh"
+      },
+      "aliases": [],
+      "pinyin_unpunctuated": {
+        "full_joined": "xianqinzhuzimeixuesixiangyuwenhua",
+        "full_spaced": "xian qin zhu zi mei xue si xiang yu wen hua",
+        "initials": "xqzzmxsxywh"
+      }
+    },
+    {
+      "course_code": "GEEC10055",
+      "canonical_name": "《旧约》与中国现代作家",
+      "target_teachers": [
+        "周双全"
+      ],
+      "terms": "2025秋 / 2026春",
+      "task_levels": "本科",
+      "pinyin": {
+        "full_joined": "《jiuyue》yuzhongguoxiandaizuojia",
+        "full_spaced": "《 jiu yue 》 yu zhong guo xian dai zuo jia",
+        "initials": "《jy》yzgxdzj"
+      },
+      "aliases": [
+        {
+          "alias": "旧约与中国现代作家",
+          "status": "query_candidate",
+          "source_url": null,
+          "evidence_id": null,
+          "limitation": "仅机械去书名号/册别生成，不能视为真实俗称"
+        }
+      ],
+      "pinyin_unpunctuated": {
+        "full_joined": "jiuyueyuzhongguoxiandaizuojia",
+        "full_spaced": "jiu yue yu zhong guo xian dai zuo jia",
+        "initials": "jyyzgxdzj"
+      }
+    },
+    {
+      "course_code": "GEEC10057",
+      "canonical_name": "言语交际与人际沟通",
+      "target_teachers": [
+        "吴礼权"
+      ],
+      "terms": "2025秋 / 2026春",
+      "task_levels": "本科",
+      "pinyin": {
+        "full_joined": "yanyujiaojiyurenjigoutong",
+        "full_spaced": "yan yu jiao ji yu ren ji gou tong",
+        "initials": "yyjjyrjgt"
+      },
+      "aliases": [],
+      "pinyin_unpunctuated": {
+        "full_joined": "yanyujiaojiyurenjigoutong",
+        "full_spaced": "yan yu jiao ji yu ren ji gou tong",
+        "initials": "yyjjyrjgt"
+      }
+    },
+    {
+      "course_code": "GEEC10059",
+      "canonical_name": "世界科幻电影导论",
+      "target_teachers": [
+        "杨俊蕾"
+      ],
+      "terms": "2025秋 / 2026春",
+      "task_levels": "本科",
+      "pinyin": {
+        "full_joined": "shijiekehuandianyingdaolun",
+        "full_spaced": "shi jie ke huan dian ying dao lun",
+        "initials": "sjkhdydl"
+      },
+      "aliases": [],
+      "pinyin_unpunctuated": {
+        "full_joined": "shijiekehuandianyingdaolun",
+        "full_spaced": "shi jie ke huan dian ying dao lun",
+        "initials": "sjkhdydl"
+      }
+    },
+    {
+      "course_code": "GEFS10003",
+      "canonical_name": "语言科学",
+      "target_teachers": [
+        "陈振宇",
+        "盛益民",
+        "陈忠敏",
+        "叶婧婷",
+        "史濛辉",
+        "郭永秉",
+        "董建交",
+        "陶寰",
+        "黄河",
+        "刘敏旗",
+        "徐坤宇",
+        "马良",
+        "钱昱夫",
+        "张梦翰",
+        "桂韬"
+      ],
+      "terms": "2025秋 / 2026春",
+      "task_levels": "本科",
+      "pinyin": {
+        "full_joined": "yuyankexue",
+        "full_spaced": "yu yan ke xue",
+        "initials": "yykx"
+      },
+      "aliases": [],
+      "pinyin_unpunctuated": {
+        "full_joined": "yuyankexue",
+        "full_spaced": "yu yan ke xue",
+        "initials": "yykx"
+      }
+    },
+    {
+      "course_code": "GESP20003",
+      "canonical_name": "强国之路：形势、政策与使命Ⅲ",
+      "target_teachers": [
+        "白建松",
+        "陈特",
+        "陈瑜",
+        "丁玉红",
+        "龚金平",
+        "马奔腾",
+        "盛益民",
+        "史濛辉",
+        "宋颖",
+        "许肖潇",
+        "张勤"
+      ],
+      "terms": "2025秋",
+      "task_levels": "本科",
+      "pinyin": {
+        "full_joined": "qiangguozhilu：xingshi、zhengceyushimingⅢ",
+        "full_spaced": "qiang guo zhi lu ： xing shi 、 zheng ce yu shi ming Ⅲ",
+        "initials": "qgzl：xs、zcysmⅢ"
+      },
+      "aliases": [],
+      "pinyin_unpunctuated": {
+        "full_joined": "qiangguozhiluxingshizhengceyushiming",
+        "full_spaced": "qiang guo zhi lu xing shi zheng ce yu shi ming",
+        "initials": "qgzlxszcysm"
+      }
+    },
+    {
+      "course_code": "AIS210007",
+      "canonical_name": "语言大数据与统计建模",
+      "target_teachers": [
+        "黄河",
+        "陈振宇"
+      ],
+      "terms": "2026春",
+      "task_levels": "本科",
+      "pinyin": {
+        "full_joined": "yuyandashujuyutongjijianmo",
+        "full_spaced": "yu yan da shu ju yu tong ji jian mo",
+        "initials": "yydsjytjjm"
+      },
+      "aliases": [],
+      "pinyin_unpunctuated": {
+        "full_joined": "yuyandashujuyutongjijianmo",
+        "full_spaced": "yu yan da shu ju yu tong ji jian mo",
+        "initials": "yydsjytjjm"
+      }
+    },
+    {
+      "course_code": "CHIN00002",
+      "canonical_name": "汉语写作",
+      "target_teachers": [
+        "陶磊"
+      ],
+      "terms": "2026春",
+      "task_levels": "本科",
+      "pinyin": {
+        "full_joined": "hanyuxiezuo",
+        "full_spaced": "han yu xie zuo",
+        "initials": "hyxz"
+      },
+      "aliases": [],
+      "pinyin_unpunctuated": {
+        "full_joined": "hanyuxiezuo",
+        "full_spaced": "han yu xie zuo",
+        "initials": "hyxz"
+      }
+    },
+    {
+      "course_code": "CHIN10002",
+      "canonical_name": "美学",
+      "target_teachers": [
+        "徐贤樑"
+      ],
+      "terms": "2026春",
+      "task_levels": "本科",
+      "pinyin": {
+        "full_joined": "meixue",
+        "full_spaced": "mei xue",
+        "initials": "mx"
+      },
+      "aliases": [],
+      "pinyin_unpunctuated": {
+        "full_joined": "meixue",
+        "full_spaced": "mei xue",
+        "initials": "mx"
+      }
+    },
+    {
+      "course_code": "CHIN10003",
+      "canonical_name": "现代文艺赏析",
+      "target_teachers": [
+        "金理"
+      ],
+      "terms": "2026春",
+      "task_levels": "本科",
+      "pinyin": {
+        "full_joined": "xiandaiwenyishangxi",
+        "full_spaced": "xian dai wen yi shang xi",
+        "initials": "xdwysx"
+      },
+      "aliases": [],
+      "pinyin_unpunctuated": {
+        "full_joined": "xiandaiwenyishangxi",
+        "full_spaced": "xian dai wen yi shang xi",
+        "initials": "xdwysx"
+      }
+    },
+    {
+      "course_code": "CHIN10006",
+      "canonical_name": "语言与文化",
+      "target_teachers": [
+        "叶婧婷",
+        "史濛辉"
+      ],
+      "terms": "2026春",
+      "task_levels": "本科",
+      "pinyin": {
+        "full_joined": "yuyanyuwenhua",
+        "full_spaced": "yu yan yu wen hua",
+        "initials": "yyywh"
+      },
+      "aliases": [],
+      "pinyin_unpunctuated": {
+        "full_joined": "yuyanyuwenhua",
+        "full_spaced": "yu yan yu wen hua",
+        "initials": "yyywh"
+      }
+    },
+    {
+      "course_code": "CHIN20002",
+      "canonical_name": "现代汉语(下)",
+      "target_teachers": [
+        "霍四通",
+        "盛益民",
+        "张豫峰"
+      ],
+      "terms": "2026春",
+      "task_levels": "本科",
+      "pinyin": {
+        "full_joined": "xiandaihanyu(xia)",
+        "full_spaced": "xian dai han yu ( xia )",
+        "initials": "xdhy(x)"
+      },
+      "aliases": [
+        {
+          "alias": "现汉",
+          "status": "source_attested",
+          "source_url": "https://www.sohu.com/a/252899039_820403",
+          "evidence_id": "PUB-CLASSNOTES-20180910",
+          "limitation": "正文未区分上下册，查询需课程/教师锚定"
+        },
+        {
+          "alias": "现代汉语下",
+          "status": "query_candidate",
+          "source_url": null,
+          "evidence_id": null,
+          "limitation": "仅机械去书名号/册别生成，不能视为真实俗称"
+        },
+        {
+          "alias": "现代汉语",
+          "status": "query_candidate",
+          "source_url": null,
+          "evidence_id": null,
+          "limitation": "仅机械去书名号/册别生成，不能视为真实俗称"
+        },
+        {
+          "alias": "现汉下",
+          "status": "query_candidate",
+          "source_url": null,
+          "evidence_id": null,
+          "limitation": "已检索目标原评与2018公开班级笔记未找到这个分册/概括简称；候选需完整课名或教师锚定"
+        }
+      ],
+      "pinyin_unpunctuated": {
+        "full_joined": "xiandaihanyuxia",
+        "full_spaced": "xian dai han yu xia",
+        "initials": "xdhyx"
+      }
+    },
+    {
+      "course_code": "CHIN20004",
+      "canonical_name": "中国现当代文学史(下)",
+      "target_teachers": [
+        "郜元宝",
+        "张业松",
+        "康凌",
+        "栾梅健",
+        "倪伟"
+      ],
+      "terms": "2026春",
+      "task_levels": "本科",
+      "pinyin": {
+        "full_joined": "zhongguoxiandangdaiwenxueshi(xia)",
+        "full_spaced": "zhong guo xian dang dai wen xue shi ( xia )",
+        "initials": "zgxddwxs(x)"
+      },
+      "aliases": [
+        {
+          "alias": "现文史",
+          "status": "source_attested",
+          "source_url": "https://www.sohu.com/a/252899039_820403",
+          "evidence_id": "PUB-CLASSNOTES-20180910",
+          "limitation": "正文未区分上下，不能据简称归属教学班"
+        },
+        {
+          "alias": "中国现当代文学史下",
+          "status": "query_candidate",
+          "source_url": null,
+          "evidence_id": null,
+          "limitation": "仅机械去书名号/册别生成，不能视为真实俗称"
+        },
+        {
+          "alias": "中国现当代文学史",
+          "status": "query_candidate",
+          "source_url": null,
+          "evidence_id": null,
+          "limitation": "仅机械去书名号/册别生成，不能视为真实俗称"
+        }
+      ],
+      "pinyin_unpunctuated": {
+        "full_joined": "zhongguoxiandangdaiwenxueshixia",
+        "full_spaced": "zhong guo xian dang dai wen xue shi xia",
+        "initials": "zgxddwxsx"
+      }
+    },
+    {
+      "course_code": "CHIN20006",
+      "canonical_name": "中国古代文学史(中)",
+      "target_teachers": [
+        "侯体健",
+        "赵惠俊"
+      ],
+      "terms": "2026春",
+      "task_levels": "本科",
+      "pinyin": {
+        "full_joined": "zhongguogudaiwenxueshi(zhong)",
+        "full_spaced": "zhong guo gu dai wen xue shi ( zhong )",
+        "initials": "zggdwxs(z)"
+      },
+      "aliases": [
+        {
+          "alias": "中国古代文学史中",
+          "status": "query_candidate",
+          "source_url": null,
+          "evidence_id": null,
+          "limitation": "仅机械去书名号/册别生成，不能视为真实俗称"
+        },
+        {
+          "alias": "中国古代文学史",
+          "status": "query_candidate",
+          "source_url": null,
+          "evidence_id": null,
+          "limitation": "仅机械去书名号/册别生成，不能视为真实俗称"
+        },
+        {
+          "alias": "古文史",
+          "status": "query_candidate",
+          "source_url": null,
+          "evidence_id": null,
+          "limitation": "已检索目标原评与2018公开班级笔记未找到这个分册/概括简称；候选需完整课名或教师锚定"
+        }
+      ],
+      "pinyin_unpunctuated": {
+        "full_joined": "zhongguogudaiwenxueshizhong",
+        "full_spaced": "zhong guo gu dai wen xue shi zhong",
+        "initials": "zggdwxsz"
+      }
+    },
+    {
+      "course_code": "CHIN20011",
+      "canonical_name": "比较文学导论",
+      "target_teachers": [
+        "郭西安",
+        "刘耘华"
+      ],
+      "terms": "2026春",
+      "task_levels": "本科",
+      "pinyin": {
+        "full_joined": "bijiaowenxuedaolun",
+        "full_spaced": "bi jiao wen xue dao lun",
+        "initials": "bjwxdl"
+      },
+      "aliases": [
+        {
+          "alias": "比较文导论",
+          "status": "query_candidate",
+          "source_url": null,
+          "evidence_id": null,
+          "limitation": "机械压缩词形，仅检索候选"
+        }
+      ],
+      "pinyin_unpunctuated": {
+        "full_joined": "bijiaowenxuedaolun",
+        "full_spaced": "bi jiao wen xue dao lun",
+        "initials": "bjwxdl"
+      }
+    },
+    {
+      "course_code": "CHIN20017",
+      "canonical_name": "汉语方言学",
+      "target_teachers": [
+        "陶寰"
+      ],
+      "terms": "2026春",
+      "task_levels": "本科",
+      "pinyin": {
+        "full_joined": "hanyufangyanxue",
+        "full_spaced": "han yu fang yan xue",
+        "initials": "hyfyx"
+      },
+      "aliases": [],
+      "pinyin_unpunctuated": {
+        "full_joined": "hanyufangyanxue",
+        "full_spaced": "han yu fang yan xue",
+        "initials": "hyfyx"
+      }
+    },
+    {
+      "course_code": "CHIN20018",
+      "canonical_name": "语言统计学",
+      "target_teachers": [
+        "马良"
+      ],
+      "terms": "2026春",
+      "task_levels": "本科",
+      "pinyin": {
+        "full_joined": "yuyantongjixue",
+        "full_spaced": "yu yan tong ji xue",
+        "initials": "yytjx"
+      },
+      "aliases": [],
+      "pinyin_unpunctuated": {
+        "full_joined": "yuyantongjixue",
+        "full_spaced": "yu yan tong ji xue",
+        "initials": "yytjx"
+      }
+    },
+    {
+      "course_code": "CHIN20020",
+      "canonical_name": "训诂学",
+      "target_teachers": [
+        "王文晖"
+      ],
+      "terms": "2026春",
+      "task_levels": "本科",
+      "pinyin": {
+        "full_joined": "xunguxue",
+        "full_spaced": "xun gu xue",
+        "initials": "xgx"
+      },
+      "aliases": [],
+      "pinyin_unpunctuated": {
+        "full_joined": "xunguxue",
+        "full_spaced": "xun gu xue",
+        "initials": "xgx"
+      }
+    },
+    {
+      "course_code": "CHIN20021",
+      "canonical_name": "语音学",
+      "target_teachers": [
+        "平悦铃"
+      ],
+      "terms": "2026春",
+      "task_levels": "本科",
+      "pinyin": {
+        "full_joined": "yuyinxue",
+        "full_spaced": "yu yin xue",
+        "initials": "yyx"
+      },
+      "aliases": [],
+      "pinyin_unpunctuated": {
+        "full_joined": "yuyinxue",
+        "full_spaced": "yu yin xue",
+        "initials": "yyx"
+      }
+    },
+    {
+      "course_code": "CHIN20022",
+      "canonical_name": "学年论文",
+      "target_teachers": [
+        "盛益民"
+      ],
+      "terms": "2026春",
+      "task_levels": "本科",
+      "pinyin": {
+        "full_joined": "xuenianlunwen",
+        "full_spaced": "xue nian lun wen",
+        "initials": "xnlw"
+      },
+      "aliases": [],
+      "pinyin_unpunctuated": {
+        "full_joined": "xuenianlunwen",
+        "full_spaced": "xue nian lun wen",
+        "initials": "xnlw"
+      }
+    },
+    {
+      "course_code": "CHIN20025",
+      "canonical_name": "古代汉语（下）",
+      "target_teachers": [
+        "郭永秉",
+        "梁银峰",
+        "王文晖"
+      ],
+      "terms": "2026春",
+      "task_levels": "本科",
+      "pinyin": {
+        "full_joined": "gudaihanyu（xia）",
+        "full_spaced": "gu dai han yu （ xia ）",
+        "initials": "gdhy（x）"
+      },
+      "aliases": [
+        {
+          "alias": "古汉",
+          "status": "source_attested",
+          "source_url": "https://www.sohu.com/a/252899039_820403",
+          "evidence_id": "PUB-CLASSNOTES-20180910",
+          "limitation": "正文未区分上下，查询候选不等于课程映射"
+        },
+        {
+          "alias": "古代汉语下",
+          "status": "query_candidate",
+          "source_url": null,
+          "evidence_id": null,
+          "limitation": "仅机械去书名号/册别生成，不能视为真实俗称"
+        },
+        {
+          "alias": "古代汉语",
+          "status": "query_candidate",
+          "source_url": null,
+          "evidence_id": null,
+          "limitation": "仅机械去书名号/册别生成，不能视为真实俗称"
+        },
+        {
+          "alias": "古汉下",
+          "status": "query_candidate",
+          "source_url": null,
+          "evidence_id": null,
+          "limitation": "已检索目标原评与2018公开班级笔记未找到这个分册/概括简称；候选需完整课名或教师锚定"
+        }
+      ],
+      "pinyin_unpunctuated": {
+        "full_joined": "gudaihanyuxia",
+        "full_spaced": "gu dai han yu xia",
+        "initials": "gdhyx"
+      }
+    },
+    {
+      "course_code": "CHIN20027",
+      "canonical_name": "修辞学",
+      "target_teachers": [
+        "吴礼权"
+      ],
+      "terms": "2026春",
+      "task_levels": "本科",
+      "pinyin": {
+        "full_joined": "xiucixue",
+        "full_spaced": "xiu ci xue",
+        "initials": "xcx"
+      },
+      "aliases": [],
+      "pinyin_unpunctuated": {
+        "full_joined": "xiucixue",
+        "full_spaced": "xiu ci xue",
+        "initials": "xcx"
+      }
+    },
+    {
+      "course_code": "CHIN20028",
+      "canonical_name": "社会实践",
+      "target_teachers": [
+        "盛益民"
+      ],
+      "terms": "2026春",
+      "task_levels": "本科",
+      "pinyin": {
+        "full_joined": "shehuishijian",
+        "full_spaced": "she hui shi jian",
+        "initials": "shsj"
+      },
+      "aliases": [],
+      "pinyin_unpunctuated": {
+        "full_joined": "shehuishijian",
+        "full_spaced": "she hui shi jian",
+        "initials": "shsj"
+      }
+    },
+    {
+      "course_code": "CHIN30002",
+      "canonical_name": "《文选》精读",
+      "target_teachers": [
+        "汪习波"
+      ],
+      "terms": "2026春",
+      "task_levels": "本科",
+      "pinyin": {
+        "full_joined": "《wenxuan》jingdu",
+        "full_spaced": "《 wen xuan 》 jing du",
+        "initials": "《wx》jd"
+      },
+      "aliases": [
+        {
+          "alias": "文选精读",
+          "status": "query_candidate",
+          "source_url": null,
+          "evidence_id": null,
+          "limitation": "仅机械去书名号/册别生成，不能视为真实俗称"
+        }
+      ],
+      "pinyin_unpunctuated": {
+        "full_joined": "wenxuanjingdu",
+        "full_spaced": "wen xuan jing du",
+        "initials": "wxjd"
+      }
+    },
+    {
+      "course_code": "CHIN30003",
+      "canonical_name": "《诗论》精读",
+      "target_teachers": [
+        "王涛"
+      ],
+      "terms": "2026春",
+      "task_levels": "本科",
+      "pinyin": {
+        "full_joined": "《shilun》jingdu",
+        "full_spaced": "《 shi lun 》 jing du",
+        "initials": "《sl》jd"
+      },
+      "aliases": [
+        {
+          "alias": "诗论精读",
+          "status": "query_candidate",
+          "source_url": null,
+          "evidence_id": null,
+          "limitation": "仅机械去书名号/册别生成，不能视为真实俗称"
+        }
+      ],
+      "pinyin_unpunctuated": {
+        "full_joined": "shilunjingdu",
+        "full_spaced": "shi lun jing du",
+        "initials": "sljd"
+      }
+    },
+    {
+      "course_code": "CHIN30009",
+      "canonical_name": "莎士比亚精读",
+      "target_teachers": [
+        "张燕萍"
+      ],
+      "terms": "2026春",
+      "task_levels": "本科",
+      "pinyin": {
+        "full_joined": "shashibiyajingdu",
+        "full_spaced": "sha shi bi ya jing du",
+        "initials": "ssbyjd"
+      },
+      "aliases": [],
+      "pinyin_unpunctuated": {
+        "full_joined": "shashibiyajingdu",
+        "full_spaced": "sha shi bi ya jing du",
+        "initials": "ssbyjd"
+      }
+    },
+    {
+      "course_code": "CHIN30010",
+      "canonical_name": "《二十世纪西方文学理论》精读",
+      "target_teachers": [
+        "徐贤樑"
+      ],
+      "terms": "2026春",
+      "task_levels": "本科",
+      "pinyin": {
+        "full_joined": "《ershishijixifangwenxuelilun》jingdu",
+        "full_spaced": "《 er shi shi ji xi fang wen xue li lun 》 jing du",
+        "initials": "《essjxfwxll》jd"
+      },
+      "aliases": [
+        {
+          "alias": "二十世纪西方文学理论精读",
+          "status": "query_candidate",
+          "source_url": null,
+          "evidence_id": null,
+          "limitation": "仅机械去书名号/册别生成，不能视为真实俗称"
+        }
+      ],
+      "pinyin_unpunctuated": {
+        "full_joined": "ershishijixifangwenxuelilunjingdu",
+        "full_spaced": "er shi shi ji xi fang wen xue li lun jing du",
+        "initials": "essjxfwxlljd"
+      }
+    },
+    {
+      "course_code": "CHIN30011",
+      "canonical_name": "西方语言学史",
+      "target_teachers": [
+        "张新华"
+      ],
+      "terms": "2026春",
+      "task_levels": "本科",
+      "pinyin": {
+        "full_joined": "xifangyuyanxueshi",
+        "full_spaced": "xi fang yu yan xue shi",
+        "initials": "xfyyxs"
+      },
+      "aliases": [
+        {
+          "alias": "西方语学史",
+          "status": "query_candidate",
+          "source_url": null,
+          "evidence_id": null,
+          "limitation": "机械压缩词形，仅检索候选"
+        }
+      ],
+      "pinyin_unpunctuated": {
+        "full_joined": "xifangyuyanxueshi",
+        "full_spaced": "xi fang yu yan xue shi",
+        "initials": "xfyyxs"
+      }
+    },
+    {
+      "course_code": "CHIN30015",
+      "canonical_name": "《四库提要》精读",
+      "target_teachers": [
+        "唐雯"
+      ],
+      "terms": "2026春",
+      "task_levels": "本科",
+      "pinyin": {
+        "full_joined": "《sikutiyao》jingdu",
+        "full_spaced": "《 si ku ti yao 》 jing du",
+        "initials": "《skty》jd"
+      },
+      "aliases": [
+        {
+          "alias": "四库提要精读",
+          "status": "query_candidate",
+          "source_url": null,
+          "evidence_id": null,
+          "limitation": "仅机械去书名号/册别生成，不能视为真实俗称"
+        }
+      ],
+      "pinyin_unpunctuated": {
+        "full_joined": "sikutiyaojingdu",
+        "full_spaced": "si ku ti yao jing du",
+        "initials": "sktyjd"
+      }
+    },
+    {
+      "course_code": "CHIN30019",
+      "canonical_name": "《世说新语》精读",
+      "target_teachers": [
+        "张金耀"
+      ],
+      "terms": "2026春",
+      "task_levels": "本科",
+      "pinyin": {
+        "full_joined": "《shishuoxinyu》jingdu",
+        "full_spaced": "《 shi shuo xin yu 》 jing du",
+        "initials": "《ssxy》jd"
+      },
+      "aliases": [
+        {
+          "alias": "世说新语精读",
+          "status": "query_candidate",
+          "source_url": null,
+          "evidence_id": null,
+          "limitation": "仅机械去书名号/册别生成，不能视为真实俗称"
+        }
+      ],
+      "pinyin_unpunctuated": {
+        "full_joined": "shishuoxinyujingdu",
+        "full_spaced": "shi shuo xin yu jing du",
+        "initials": "ssxyjd"
+      }
+    },
+    {
+      "course_code": "CHIN30021",
+      "canonical_name": "《胡适文存》精读",
+      "target_teachers": [
+        "段怀清"
+      ],
+      "terms": "2026春",
+      "task_levels": "本科",
+      "pinyin": {
+        "full_joined": "《hushiwencun》jingdu",
+        "full_spaced": "《 hu shi wen cun 》 jing du",
+        "initials": "《hswc》jd"
+      },
+      "aliases": [
+        {
+          "alias": "胡适文存精读",
+          "status": "query_candidate",
+          "source_url": null,
+          "evidence_id": null,
+          "limitation": "仅机械去书名号/册别生成，不能视为真实俗称"
+        }
+      ],
+      "pinyin_unpunctuated": {
+        "full_joined": "hushiwencunjingdu",
+        "full_spaced": "hu shi wen cun jing du",
+        "initials": "hswcjd"
+      }
+    },
+    {
+      "course_code": "CHIN30023",
+      "canonical_name": "苏轼精读",
+      "target_teachers": [
+        "朱刚"
+      ],
+      "terms": "2026春",
+      "task_levels": "本科",
+      "pinyin": {
+        "full_joined": "sushijingdu",
+        "full_spaced": "su shi jing du",
+        "initials": "ssjd"
+      },
+      "aliases": [],
+      "pinyin_unpunctuated": {
+        "full_joined": "sushijingdu",
+        "full_spaced": "su shi jing du",
+        "initials": "ssjd"
+      }
+    },
+    {
+      "course_code": "CHIN30027",
+      "canonical_name": "论语精读",
+      "target_teachers": [
+        "陈特"
+      ],
+      "terms": "2026春",
+      "task_levels": "本科",
+      "pinyin": {
+        "full_joined": "lunyujingdu",
+        "full_spaced": "lun yu jing du",
+        "initials": "lyjd"
+      },
+      "aliases": [],
+      "pinyin_unpunctuated": {
+        "full_joined": "lunyujingdu",
+        "full_spaced": "lun yu jing du",
+        "initials": "lyjd"
+      }
+    },
+    {
+      "course_code": "CHIN30028",
+      "canonical_name": "马克思主义文论精读",
+      "target_teachers": [
+        "张宝贵"
+      ],
+      "terms": "2026春",
+      "task_levels": "本科",
+      "pinyin": {
+        "full_joined": "makesizhuyiwenlunjingdu",
+        "full_spaced": "ma ke si zhu yi wen lun jing du",
+        "initials": "mkszywljd"
+      },
+      "aliases": [],
+      "pinyin_unpunctuated": {
+        "full_joined": "makesizhuyiwenlunjingdu",
+        "full_spaced": "ma ke si zhu yi wen lun jing du",
+        "initials": "mkszywljd"
+      }
+    },
+    {
+      "course_code": "CHIN40003",
+      "canonical_name": "明清诗文研究",
+      "target_teachers": [
+        "龚宗杰"
+      ],
+      "terms": "2026春",
+      "task_levels": "本科",
+      "pinyin": {
+        "full_joined": "mingqingshiwenyanjiu",
+        "full_spaced": "ming qing shi wen yan jiu",
+        "initials": "mqswyj"
+      },
+      "aliases": [],
+      "pinyin_unpunctuated": {
+        "full_joined": "mingqingshiwenyanjiu",
+        "full_spaced": "ming qing shi wen yan jiu",
+        "initials": "mqswyj"
+      }
+    },
+    {
+      "course_code": "CHIN40004",
+      "canonical_name": "《红楼梦》与红学研究",
+      "target_teachers": [
+        "陈维昭"
+      ],
+      "terms": "2026春",
+      "task_levels": "本科",
+      "pinyin": {
+        "full_joined": "《hongloumeng》yuhongxueyanjiu",
+        "full_spaced": "《 hong lou meng 》 yu hong xue yan jiu",
+        "initials": "《hlm》yhxyj"
+      },
+      "aliases": [
+        {
+          "alias": "红楼梦与红学研究",
+          "status": "query_candidate",
+          "source_url": null,
+          "evidence_id": null,
+          "limitation": "仅机械去书名号/册别生成，不能视为真实俗称"
+        }
+      ],
+      "pinyin_unpunctuated": {
+        "full_joined": "hongloumengyuhongxueyanjiu",
+        "full_spaced": "hong lou meng yu hong xue yan jiu",
+        "initials": "hlmyhxyj"
+      }
+    },
+    {
+      "course_code": "CHIN40010",
+      "canonical_name": "音系学",
+      "target_teachers": [
+        "史濛辉",
+        "刘敏旗"
+      ],
+      "terms": "2026春",
+      "task_levels": "本科",
+      "pinyin": {
+        "full_joined": "yinxixue",
+        "full_spaced": "yin xi xue",
+        "initials": "yxx"
+      },
+      "aliases": [],
+      "pinyin_unpunctuated": {
+        "full_joined": "yinxixue",
+        "full_spaced": "yin xi xue",
+        "initials": "yxx"
+      }
+    },
+    {
+      "course_code": "CHIN40013",
+      "canonical_name": "文学写作",
+      "target_teachers": [
+        "张怡微"
+      ],
+      "terms": "2026春",
+      "task_levels": "本科",
+      "pinyin": {
+        "full_joined": "wenxuexiezuo",
+        "full_spaced": "wen xue xie zuo",
+        "initials": "wxxz"
+      },
+      "aliases": [
+        {
+          "alias": "文写作",
+          "status": "query_candidate",
+          "source_url": null,
+          "evidence_id": null,
+          "limitation": "机械压缩词形，仅检索候选"
+        }
+      ],
+      "pinyin_unpunctuated": {
+        "full_joined": "wenxuexiezuo",
+        "full_spaced": "wen xue xie zuo",
+        "initials": "wxxz"
+      }
+    },
+    {
+      "course_code": "CHIN40021",
+      "canonical_name": "中国古典美学",
+      "target_teachers": [
+        "谢金良"
+      ],
+      "terms": "2026春",
+      "task_levels": "本科",
+      "pinyin": {
+        "full_joined": "zhongguogudianmeixue",
+        "full_spaced": "zhong guo gu dian mei xue",
+        "initials": "zggdmx"
+      },
+      "aliases": [
+        {
+          "alias": "中古典美学",
+          "status": "query_candidate",
+          "source_url": null,
+          "evidence_id": null,
+          "limitation": "机械压缩词形，仅检索候选"
+        }
+      ],
+      "pinyin_unpunctuated": {
+        "full_joined": "zhongguogudianmeixue",
+        "full_spaced": "zhong guo gu dian mei xue",
+        "initials": "zggdmx"
+      }
+    },
+    {
+      "course_code": "CHIN40032",
+      "canonical_name": "语义学",
+      "target_teachers": [
+        "梁银峰"
+      ],
+      "terms": "2026春",
+      "task_levels": "本科",
+      "pinyin": {
+        "full_joined": "yuyixue",
+        "full_spaced": "yu yi xue",
+        "initials": "yyx"
+      },
+      "aliases": [],
+      "pinyin_unpunctuated": {
+        "full_joined": "yuyixue",
+        "full_spaced": "yu yi xue",
+        "initials": "yyx"
+      }
+    },
+    {
+      "course_code": "CHIN40034",
+      "canonical_name": "语用学",
+      "target_teachers": [
+        "陈振宇"
+      ],
+      "terms": "2026春",
+      "task_levels": "本科",
+      "pinyin": {
+        "full_joined": "yuyongxue",
+        "full_spaced": "yu yong xue",
+        "initials": "yyx"
+      },
+      "aliases": [],
+      "pinyin_unpunctuated": {
+        "full_joined": "yuyongxue",
+        "full_spaced": "yu yong xue",
+        "initials": "yyx"
+      }
+    },
+    {
+      "course_code": "CHIN40038",
+      "canonical_name": "汉语词汇学",
+      "target_teachers": [
+        "卢英顺",
+        "张宝"
+      ],
+      "terms": "2026春",
+      "task_levels": "本科",
+      "pinyin": {
+        "full_joined": "hanyucihuixue",
+        "full_spaced": "han yu ci hui xue",
+        "initials": "hychx"
+      },
+      "aliases": [],
+      "pinyin_unpunctuated": {
+        "full_joined": "hanyucihuixue",
+        "full_spaced": "han yu ci hui xue",
+        "initials": "hychx"
+      }
+    },
+    {
+      "course_code": "CHIN40041",
+      "canonical_name": "中国语言学论著选读",
+      "target_teachers": [
+        "施瑞峰"
+      ],
+      "terms": "2026春",
+      "task_levels": "本科",
+      "pinyin": {
+        "full_joined": "zhongguoyuyanxuelunzhuxuandu",
+        "full_spaced": "zhong guo yu yan xue lun zhu xuan du",
+        "initials": "zgyyxlzxd"
+      },
+      "aliases": [
+        {
+          "alias": "中语学论著选读",
+          "status": "query_candidate",
+          "source_url": null,
+          "evidence_id": null,
+          "limitation": "机械压缩词形，仅检索候选"
+        }
+      ],
+      "pinyin_unpunctuated": {
+        "full_joined": "zhongguoyuyanxuelunzhuxuandu",
+        "full_spaced": "zhong guo yu yan xue lun zhu xuan du",
+        "initials": "zgyyxlzxd"
+      }
+    },
+    {
+      "course_code": "CHIN40047",
+      "canonical_name": "新媒体语言研究",
+      "target_teachers": [
+        "赵国军"
+      ],
+      "terms": "2026春",
+      "task_levels": "本科",
+      "pinyin": {
+        "full_joined": "xinmeitiyuyanyanjiu",
+        "full_spaced": "xin mei ti yu yan yan jiu",
+        "initials": "xmtyyyj"
+      },
+      "aliases": [],
+      "pinyin_unpunctuated": {
+        "full_joined": "xinmeitiyuyanyanjiu",
+        "full_spaced": "xin mei ti yu yan yan jiu",
+        "initials": "xmtyyyj"
+      }
+    },
+    {
+      "course_code": "CHIN40053",
+      "canonical_name": "语篇语言学",
+      "target_teachers": [
+        "赵国军"
+      ],
+      "terms": "2026春",
+      "task_levels": "本科",
+      "pinyin": {
+        "full_joined": "yupianyuyanxue",
+        "full_spaced": "yu pian yu yan xue",
+        "initials": "ypyyx"
+      },
+      "aliases": [
+        {
+          "alias": "语篇语学",
+          "status": "query_candidate",
+          "source_url": null,
+          "evidence_id": null,
+          "limitation": "机械压缩词形，仅检索候选"
+        }
+      ],
+      "pinyin_unpunctuated": {
+        "full_joined": "yupianyuyanxue",
+        "full_spaced": "yu pian yu yan xue",
+        "initials": "ypyyx"
+      }
+    },
+    {
+      "course_code": "CHIN40057",
+      "canonical_name": "商周金文概论",
+      "target_teachers": [
+        "谢明文"
+      ],
+      "terms": "2026春",
+      "task_levels": "本科",
+      "pinyin": {
+        "full_joined": "shangzhoujinwengailun",
+        "full_spaced": "shang zhou jin wen gai lun",
+        "initials": "szjwgl"
+      },
+      "aliases": [],
+      "pinyin_unpunctuated": {
+        "full_joined": "shangzhoujinwengailun",
+        "full_spaced": "shang zhou jin wen gai lun",
+        "initials": "szjwgl"
+      }
+    },
+    {
+      "course_code": "CHIN40058",
+      "canonical_name": "战国文字概论",
+      "target_teachers": [
+        "周波"
+      ],
+      "terms": "2026春",
+      "task_levels": "本科",
+      "pinyin": {
+        "full_joined": "zhanguowenzigailun",
+        "full_spaced": "zhan guo wen zi gai lun",
+        "initials": "zgwzgl"
+      },
+      "aliases": [],
+      "pinyin_unpunctuated": {
+        "full_joined": "zhanguowenzigailun",
+        "full_spaced": "zhan guo wen zi gai lun",
+        "initials": "zgwzgl"
+      }
+    },
+    {
+      "course_code": "CHIN40061",
+      "canonical_name": "敦煌学概论",
+      "target_teachers": [
+        "张小艳"
+      ],
+      "terms": "2026春",
+      "task_levels": "本科",
+      "pinyin": {
+        "full_joined": "dunhuangxuegailun",
+        "full_spaced": "dun huang xue gai lun",
+        "initials": "dhxgl"
+      },
+      "aliases": [],
+      "pinyin_unpunctuated": {
+        "full_joined": "dunhuangxuegailun",
+        "full_spaced": "dun huang xue gai lun",
+        "initials": "dhxgl"
+      }
+    },
+    {
+      "course_code": "CHIN40065",
+      "canonical_name": "汉语上古音基础",
+      "target_teachers": [
+        "张富海"
+      ],
+      "terms": "2026春",
+      "task_levels": "本科",
+      "pinyin": {
+        "full_joined": "hanyushangguyinjichu",
+        "full_spaced": "han yu shang gu yin ji chu",
+        "initials": "hysgyjc"
+      },
+      "aliases": [],
+      "pinyin_unpunctuated": {
+        "full_joined": "hanyushangguyinjichu",
+        "full_spaced": "han yu shang gu yin ji chu",
+        "initials": "hysgyjc"
+      }
+    },
+    {
+      "course_code": "CHIN40076",
+      "canonical_name": "毕业论文",
+      "target_teachers": [
+        "白钢",
+        "查屏球",
+        "陈特",
+        "陈忠敏",
+        "戴燕",
+        "翟墨",
+        "郜元宝",
+        "郭西安",
+        "侯体健",
+        "黄河",
+        "霍四通",
+        "金理",
+        "康凌",
+        "李钧",
+        "李猛",
+        "李楠",
+        "梁燕丽",
+        "梁银峰",
+        "刘敏旗",
+        "刘天艺",
+        "刘耘华",
+        "卢英顺",
+        "栾梅健",
+        "倪伟",
+        "平悦铃",
+        "钱昱夫",
+        "秦振耀",
+        "盛益民",
+        "石继承",
+        "史濛辉",
+        "孙洁",
+        "唐雯",
+        "陶磊",
+        "汪涌豪",
+        "王柏华",
+        "王涛",
+        "王文晖",
+        "邬可晶",
+        "吴天舟",
+        "夏婧",
+        "谢明文",
+        "徐贤樑",
+        "羊列荣",
+        "杨俊蕾",
+        "杨新宇",
+        "杨焄",
+        "叶婧婷",
+        "战玉冰",
+        "张传官",
+        "张芙鸣",
+        "张勤",
+        "张小艳",
+        "张新颖",
+        "张岩冰",
+        "张燕萍",
+        "赵国军",
+        "郑土有",
+        "周荣胜",
+        "朱刚"
+      ],
+      "terms": "2026春",
+      "task_levels": "本科",
+      "pinyin": {
+        "full_joined": "biyelunwen",
+        "full_spaced": "bi ye lun wen",
+        "initials": "bylw"
+      },
+      "aliases": [],
+      "pinyin_unpunctuated": {
+        "full_joined": "biyelunwen",
+        "full_spaced": "bi ye lun wen",
+        "initials": "bylw"
+      }
+    },
+    {
+      "course_code": "CHIN50003",
+      "canonical_name": "中国近、现、当代文学研究前沿课题",
+      "target_teachers": [
+        "刘天艺"
+      ],
+      "terms": "2026春",
+      "task_levels": "本科",
+      "pinyin": {
+        "full_joined": "zhongguojin、xian、dangdaiwenxueyanjiuqianyanketi",
+        "full_spaced": "zhong guo jin 、 xian 、 dang dai wen xue yan jiu qian yan ke ti",
+        "initials": "zgj、x、ddwxyjqykt"
+      },
+      "aliases": [
+        {
+          "alias": "中近、现、当代文研究前沿课题",
+          "status": "query_candidate",
+          "source_url": null,
+          "evidence_id": null,
+          "limitation": "机械压缩词形，仅检索候选"
+        }
+      ],
+      "pinyin_unpunctuated": {
+        "full_joined": "zhongguojinxiandangdaiwenxueyanjiuqianyanketi",
+        "full_spaced": "zhong guo jin xian dang dai wen xue yan jiu qian yan ke ti",
+        "initials": "zgjxddwxyjqykt"
+      }
+    },
+    {
+      "course_code": "CHIN50006",
+      "canonical_name": "病理语言学",
+      "target_teachers": [
+        "马良"
+      ],
+      "terms": "2026春",
+      "task_levels": "本研融通",
+      "pinyin": {
+        "full_joined": "bingliyuyanxue",
+        "full_spaced": "bing li yu yan xue",
+        "initials": "blyyx"
+      },
+      "aliases": [
+        {
+          "alias": "病理语学",
+          "status": "query_candidate",
+          "source_url": null,
+          "evidence_id": null,
+          "limitation": "机械压缩词形，仅检索候选"
+        }
+      ],
+      "pinyin_unpunctuated": {
+        "full_joined": "bingliyuyanxue",
+        "full_spaced": "bing li yu yan xue",
+        "initials": "blyyx"
+      }
+    },
+    {
+      "course_code": "CHIN50012",
+      "canonical_name": "版本目录学",
+      "target_teachers": [
+        "石祥"
+      ],
+      "terms": "2026春",
+      "task_levels": "本科",
+      "pinyin": {
+        "full_joined": "banbenmuluxue",
+        "full_spaced": "ban ben mu lu xue",
+        "initials": "bbmlx"
+      },
+      "aliases": [],
+      "pinyin_unpunctuated": {
+        "full_joined": "banbenmuluxue",
+        "full_spaced": "ban ben mu lu xue",
+        "initials": "bbmlx"
+      }
+    },
+    {
+      "course_code": "CHIN50015",
+      "canonical_name": "语言习得与发展",
+      "target_teachers": [
+        "刘敏旗"
+      ],
+      "terms": "2026春",
+      "task_levels": "本科",
+      "pinyin": {
+        "full_joined": "yuyanxideyufazhan",
+        "full_spaced": "yu yan xi de yu fa zhan",
+        "initials": "yyxdyfz"
+      },
+      "aliases": [],
+      "pinyin_unpunctuated": {
+        "full_joined": "yuyanxideyufazhan",
+        "full_spaced": "yu yan xi de yu fa zhan",
+        "initials": "yyxdyfz"
+      }
+    },
+    {
+      "course_code": "CHIN50016",
+      "canonical_name": "汉语方言语法研究",
+      "target_teachers": [
+        "盛益民"
+      ],
+      "terms": "2026春",
+      "task_levels": "本研融通",
+      "pinyin": {
+        "full_joined": "hanyufangyanyufayanjiu",
+        "full_spaced": "han yu fang yan yu fa yan jiu",
+        "initials": "hyfyyfyj"
+      },
+      "aliases": [],
+      "pinyin_unpunctuated": {
+        "full_joined": "hanyufangyanyufayanjiu",
+        "full_spaced": "han yu fang yan yu fa yan jiu",
+        "initials": "hyfyyfyj"
+      }
+    },
+    {
+      "course_code": "CHIN50020",
+      "canonical_name": "中国台港地区电影研究",
+      "target_teachers": [
+        "杨新宇"
+      ],
+      "terms": "2026春",
+      "task_levels": "本研融通",
+      "pinyin": {
+        "full_joined": "zhongguotaigangdiqudianyingyanjiu",
+        "full_spaced": "zhong guo tai gang di qu dian ying yan jiu",
+        "initials": "zgtgdqdyyj"
+      },
+      "aliases": [
+        {
+          "alias": "中台港地区电影研究",
+          "status": "query_candidate",
+          "source_url": null,
+          "evidence_id": null,
+          "limitation": "机械压缩词形，仅检索候选"
+        }
+      ],
+      "pinyin_unpunctuated": {
+        "full_joined": "zhongguotaigangdiqudianyingyanjiu",
+        "full_spaced": "zhong guo tai gang di qu dian ying yan jiu",
+        "initials": "zgtgdqdyyj"
+      }
+    },
+    {
+      "course_code": "CHIN50028",
+      "canonical_name": "世界华文文学研究",
+      "target_teachers": [
+        "吴天舟"
+      ],
+      "terms": "2026春",
+      "task_levels": "本科",
+      "pinyin": {
+        "full_joined": "shijiehuawenwenxueyanjiu",
+        "full_spaced": "shi jie hua wen wen xue yan jiu",
+        "initials": "sjhwwxyj"
+      },
+      "aliases": [
+        {
+          "alias": "世界华文文研究",
+          "status": "query_candidate",
+          "source_url": null,
+          "evidence_id": null,
+          "limitation": "机械压缩词形，仅检索候选"
+        }
+      ],
+      "pinyin_unpunctuated": {
+        "full_joined": "shijiehuawenwenxueyanjiu",
+        "full_spaced": "shi jie hua wen wen xue yan jiu",
+        "initials": "sjhwwxyj"
+      }
+    },
+    {
+      "course_code": "CHIN50039",
+      "canonical_name": "民间文学经典研究",
+      "target_teachers": [
+        "张勤"
+      ],
+      "terms": "2026春",
+      "task_levels": "本科",
+      "pinyin": {
+        "full_joined": "minjianwenxuejingdianyanjiu",
+        "full_spaced": "min jian wen xue jing dian yan jiu",
+        "initials": "mjwxjdyj"
+      },
+      "aliases": [
+        {
+          "alias": "民间文经典研究",
+          "status": "query_candidate",
+          "source_url": null,
+          "evidence_id": null,
+          "limitation": "机械压缩词形，仅检索候选"
+        }
+      ],
+      "pinyin_unpunctuated": {
+        "full_joined": "minjianwenxuejingdianyanjiu",
+        "full_spaced": "min jian wen xue jing dian yan jiu",
+        "initials": "mjwxjdyj"
+      }
+    },
+    {
+      "course_code": "CHIN50040",
+      "canonical_name": "中国新诗",
+      "target_teachers": [
+        "张新颖"
+      ],
+      "terms": "2026春",
+      "task_levels": "本科",
+      "pinyin": {
+        "full_joined": "zhongguoxinshi",
+        "full_spaced": "zhong guo xin shi",
+        "initials": "zgxs"
+      },
+      "aliases": [
+        {
+          "alias": "中新诗",
+          "status": "query_candidate",
+          "source_url": null,
+          "evidence_id": null,
+          "limitation": "机械压缩词形，仅检索候选"
+        }
+      ],
+      "pinyin_unpunctuated": {
+        "full_joined": "zhongguoxinshi",
+        "full_spaced": "zhong guo xin shi",
+        "initials": "zgxs"
+      }
+    },
+    {
+      "course_code": "CHIN50041",
+      "canonical_name": "民间文学导论",
+      "target_teachers": [
+        "纪秋悦",
+        "郑土有"
+      ],
+      "terms": "2026春",
+      "task_levels": "本科",
+      "pinyin": {
+        "full_joined": "minjianwenxuedaolun",
+        "full_spaced": "min jian wen xue dao lun",
+        "initials": "mjwxdl"
+      },
+      "aliases": [
+        {
+          "alias": "民间文导论",
+          "status": "query_candidate",
+          "source_url": null,
+          "evidence_id": null,
+          "limitation": "机械压缩词形，仅检索候选"
+        }
+      ],
+      "pinyin_unpunctuated": {
+        "full_joined": "minjianwenxuedaolun",
+        "full_spaced": "min jian wen xue dao lun",
+        "initials": "mjwxdl"
+      }
+    },
+    {
+      "course_code": "CHIN50044",
+      "canonical_name": "社会语言学",
+      "target_teachers": [
+        "平悦铃"
+      ],
+      "terms": "2026春",
+      "task_levels": "本科",
+      "pinyin": {
+        "full_joined": "shehuiyuyanxue",
+        "full_spaced": "she hui yu yan xue",
+        "initials": "shyyx"
+      },
+      "aliases": [
+        {
+          "alias": "社会语学",
+          "status": "query_candidate",
+          "source_url": null,
+          "evidence_id": null,
+          "limitation": "机械压缩词形，仅检索候选"
+        }
+      ],
+      "pinyin_unpunctuated": {
+        "full_joined": "shehuiyuyanxue",
+        "full_spaced": "she hui yu yan xue",
+        "initials": "shyyx"
+      }
+    },
+    {
+      "course_code": "CHIN50047",
+      "canonical_name": "语言哲学",
+      "target_teachers": [
+        "张新华"
+      ],
+      "terms": "2026春",
+      "task_levels": "本科",
+      "pinyin": {
+        "full_joined": "yuyanzhexue",
+        "full_spaced": "yu yan zhe xue",
+        "initials": "yyzx"
+      },
+      "aliases": [],
+      "pinyin_unpunctuated": {
+        "full_joined": "yuyanzhexue",
+        "full_spaced": "yu yan zhe xue",
+        "initials": "yyzx"
+      }
+    },
+    {
+      "course_code": "CHIN50048",
+      "canonical_name": "汉语认知语言学",
+      "target_teachers": [
+        "卢英顺",
+        "张宝"
+      ],
+      "terms": "2026春",
+      "task_levels": "本科",
+      "pinyin": {
+        "full_joined": "hanyurenzhiyuyanxue",
+        "full_spaced": "han yu ren zhi yu yan xue",
+        "initials": "hyrzyyx"
+      },
+      "aliases": [
+        {
+          "alias": "汉语认知语学",
+          "status": "query_candidate",
+          "source_url": null,
+          "evidence_id": null,
+          "limitation": "机械压缩词形，仅检索候选"
+        }
+      ],
+      "pinyin_unpunctuated": {
+        "full_joined": "hanyurenzhiyuyanxue",
+        "full_spaced": "han yu ren zhi yu yan xue",
+        "initials": "hyrzyyx"
+      }
+    },
+    {
+      "course_code": "CHIN50050",
+      "canonical_name": "汉语语音史",
+      "target_teachers": [
+        "董建交"
+      ],
+      "terms": "2026春",
+      "task_levels": "本科",
+      "pinyin": {
+        "full_joined": "hanyuyuyinshi",
+        "full_spaced": "han yu yu yin shi",
+        "initials": "hyyys"
+      },
+      "aliases": [],
+      "pinyin_unpunctuated": {
+        "full_joined": "hanyuyuyinshi",
+        "full_spaced": "han yu yu yin shi",
+        "initials": "hyyys"
+      }
+    },
+    {
+      "course_code": "CHIN50053",
+      "canonical_name": "中西文艺学名著导读",
+      "target_teachers": [
+        "李钧"
+      ],
+      "terms": "2026春",
+      "task_levels": "本科",
+      "pinyin": {
+        "full_joined": "zhongxiwenyixuemingzhudaodu",
+        "full_spaced": "zhong xi wen yi xue ming zhu dao du",
+        "initials": "zxwyxmzdd"
+      },
+      "aliases": [],
+      "pinyin_unpunctuated": {
+        "full_joined": "zhongxiwenyixuemingzhudaodu",
+        "full_spaced": "zhong xi wen yi xue ming zhu dao du",
+        "initials": "zxwyxmzdd"
+      }
+    },
+    {
+      "course_code": "CHIN50058",
+      "canonical_name": "历史比较语言学",
+      "target_teachers": [
+        "陈忠敏"
+      ],
+      "terms": "2026春",
+      "task_levels": "本研融通",
+      "pinyin": {
+        "full_joined": "lishibijiaoyuyanxue",
+        "full_spaced": "li shi bi jiao yu yan xue",
+        "initials": "lsbjyyx"
+      },
+      "aliases": [
+        {
+          "alias": "历史比较语学",
+          "status": "query_candidate",
+          "source_url": null,
+          "evidence_id": null,
+          "limitation": "机械压缩词形，仅检索候选"
+        }
+      ],
+      "pinyin_unpunctuated": {
+        "full_joined": "lishibijiaoyuyanxue",
+        "full_spaced": "li shi bi jiao yu yan xue",
+        "initials": "lsbjyyx"
+      }
+    },
+    {
+      "course_code": "CHIN50061",
+      "canonical_name": "古籍校释实践",
+      "target_teachers": [
+        "夏婧"
+      ],
+      "terms": "2026春",
+      "task_levels": "本科",
+      "pinyin": {
+        "full_joined": "gujixiaoshishijian",
+        "full_spaced": "gu ji xiao shi shi jian",
+        "initials": "gjxssj"
+      },
+      "aliases": [],
+      "pinyin_unpunctuated": {
+        "full_joined": "gujixiaoshishijian",
+        "full_spaced": "gu ji xiao shi shi jian",
+        "initials": "gjxssj"
+      }
+    },
+    {
+      "course_code": "CHIN50062",
+      "canonical_name": "唐代文史要籍导读",
+      "target_teachers": [
+        "唐雯"
+      ],
+      "terms": "2026春",
+      "task_levels": "本科",
+      "pinyin": {
+        "full_joined": "tangdaiwenshiyaojidaodu",
+        "full_spaced": "tang dai wen shi yao ji dao du",
+        "initials": "tdwsyjdd"
+      },
+      "aliases": [],
+      "pinyin_unpunctuated": {
+        "full_joined": "tangdaiwenshiyaojidaodu",
+        "full_spaced": "tang dai wen shi yao ji dao du",
+        "initials": "tdwsyjdd"
+      }
+    },
+    {
+      "course_code": "CHIN50068",
+      "canonical_name": "欧美文学批评概论",
+      "target_teachers": [
+        "秦振耀"
+      ],
+      "terms": "2026春",
+      "task_levels": "本科",
+      "pinyin": {
+        "full_joined": "oumeiwenxuepipinggailun",
+        "full_spaced": "ou mei wen xue pi ping gai lun",
+        "initials": "omwxppgl"
+      },
+      "aliases": [
+        {
+          "alias": "欧美文批评概论",
+          "status": "query_candidate",
+          "source_url": null,
+          "evidence_id": null,
+          "limitation": "机械压缩词形，仅检索候选"
+        }
+      ],
+      "pinyin_unpunctuated": {
+        "full_joined": "oumeiwenxuepipinggailun",
+        "full_spaced": "ou mei wen xue pi ping gai lun",
+        "initials": "omwxppgl"
+      }
+    },
+    {
+      "course_code": "CHIN50071",
+      "canonical_name": "中国古典诗学",
+      "target_teachers": [
+        "王涛"
+      ],
+      "terms": "2026春",
+      "task_levels": "本科",
+      "pinyin": {
+        "full_joined": "zhongguogudianshixue",
+        "full_spaced": "zhong guo gu dian shi xue",
+        "initials": "zggdsx"
+      },
+      "aliases": [
+        {
+          "alias": "中古典诗学",
+          "status": "query_candidate",
+          "source_url": null,
+          "evidence_id": null,
+          "limitation": "机械压缩词形，仅检索候选"
+        }
+      ],
+      "pinyin_unpunctuated": {
+        "full_joined": "zhongguogudianshixue",
+        "full_spaced": "zhong guo gu dian shi xue",
+        "initials": "zggdsx"
+      }
+    },
+    {
+      "course_code": "GECC10011",
+      "canonical_name": "鲁迅与中国现代文化",
+      "target_teachers": [
+        "郜元宝"
+      ],
+      "terms": "2026春",
+      "task_levels": "本科",
+      "pinyin": {
+        "full_joined": "luxunyuzhongguoxiandaiwenhua",
+        "full_spaced": "lu xun yu zhong guo xian dai wen hua",
+        "initials": "lxyzgxdwh"
+      },
+      "aliases": [
+        {
+          "alias": "鲁迅与中现代文化",
+          "status": "query_candidate",
+          "source_url": null,
+          "evidence_id": null,
+          "limitation": "机械压缩词形，仅检索候选"
+        }
+      ],
+      "pinyin_unpunctuated": {
+        "full_joined": "luxunyuzhongguoxiandaiwenhua",
+        "full_spaced": "lu xun yu zhong guo xian dai wen hua",
+        "initials": "lxyzgxdwh"
+      }
+    },
+    {
+      "course_code": "GECC10014",
+      "canonical_name": "诗经与传统文化",
+      "target_teachers": [
+        "张金耀"
+      ],
+      "terms": "2026春",
+      "task_levels": "本科",
+      "pinyin": {
+        "full_joined": "shijingyuchuantongwenhua",
+        "full_spaced": "shi jing yu chuan tong wen hua",
+        "initials": "sjyctwh"
+      },
+      "aliases": [],
+      "pinyin_unpunctuated": {
+        "full_joined": "shijingyuchuantongwenhua",
+        "full_spaced": "shi jing yu chuan tong wen hua",
+        "initials": "sjyctwh"
+      }
+    },
+    {
+      "course_code": "GECC10026",
+      "canonical_name": "游戏与文化",
+      "target_teachers": [
+        "严锋"
+      ],
+      "terms": "2026春",
+      "task_levels": "本科",
+      "pinyin": {
+        "full_joined": "youxiyuwenhua",
+        "full_spaced": "you xi yu wen hua",
+        "initials": "yxywh"
+      },
+      "aliases": [],
+      "pinyin_unpunctuated": {
+        "full_joined": "youxiyuwenhua",
+        "full_spaced": "you xi yu wen hua",
+        "initials": "yxywh"
+      }
+    },
+    {
+      "course_code": "GECC10027",
+      "canonical_name": "汉语方言与中国文化",
+      "target_teachers": [
+        "盛益民"
+      ],
+      "terms": "2026春",
+      "task_levels": "本科",
+      "pinyin": {
+        "full_joined": "hanyufangyanyuzhongguowenhua",
+        "full_spaced": "han yu fang yan yu zhong guo wen hua",
+        "initials": "hyfyyzgwh"
+      },
+      "aliases": [
+        {
+          "alias": "汉语方言与中文化",
+          "status": "query_candidate",
+          "source_url": null,
+          "evidence_id": null,
+          "limitation": "机械压缩词形，仅检索候选"
+        }
+      ],
+      "pinyin_unpunctuated": {
+        "full_joined": "hanyufangyanyuzhongguowenhua",
+        "full_spaced": "han yu fang yan yu zhong guo wen hua",
+        "initials": "hyfyyzgwh"
+      }
+    },
+    {
+      "course_code": "GECS10002",
+      "canonical_name": "留学生高级汉语II",
+      "target_teachers": [
+        "赵国军"
+      ],
+      "terms": "2026春",
+      "task_levels": "本科",
+      "pinyin": {
+        "full_joined": "liuxueshenggaojihanyuII",
+        "full_spaced": "liu xue sheng gao ji han yu I I",
+        "initials": "lxsgjhyII"
+      },
+      "aliases": [],
+      "pinyin_unpunctuated": {
+        "full_joined": "liuxueshenggaojihanyuii",
+        "full_spaced": "liu xue sheng gao ji han yu i i",
+        "initials": "lxsgjhyii"
+      }
+    },
+    {
+      "course_code": "GEEC10048",
+      "canonical_name": "古代文学选讲",
+      "target_teachers": [
+        "孟昕"
+      ],
+      "terms": "2026春",
+      "task_levels": "本科",
+      "pinyin": {
+        "full_joined": "gudaiwenxuexuanjiang",
+        "full_spaced": "gu dai wen xue xuan jiang",
+        "initials": "gdwxxj"
+      },
+      "aliases": [
+        {
+          "alias": "古代文选讲",
+          "status": "query_candidate",
+          "source_url": null,
+          "evidence_id": null,
+          "limitation": "机械压缩词形，仅检索候选"
+        }
+      ],
+      "pinyin_unpunctuated": {
+        "full_joined": "gudaiwenxuexuanjiang",
+        "full_spaced": "gu dai wen xue xuan jiang",
+        "initials": "gdwxxj"
+      }
+    },
+    {
+      "course_code": "GEEC10049",
+      "canonical_name": "现代文学思潮",
+      "target_teachers": [
+        "张芙鸣"
+      ],
+      "terms": "2026春",
+      "task_levels": "本科",
+      "pinyin": {
+        "full_joined": "xiandaiwenxuesichao",
+        "full_spaced": "xian dai wen xue si chao",
+        "initials": "xdwxsc"
+      },
+      "aliases": [
+        {
+          "alias": "现代文思潮",
+          "status": "query_candidate",
+          "source_url": null,
+          "evidence_id": null,
+          "limitation": "机械压缩词形，仅检索候选"
+        }
+      ],
+      "pinyin_unpunctuated": {
+        "full_joined": "xiandaiwenxuesichao",
+        "full_spaced": "xian dai wen xue si chao",
+        "initials": "xdwxsc"
+      }
+    },
+    {
+      "course_code": "GEEC10056",
+      "canonical_name": "英语诗歌导读",
+      "target_teachers": [
+        "王柏华"
+      ],
+      "terms": "2026春",
+      "task_levels": "本科",
+      "pinyin": {
+        "full_joined": "yingyushigedaodu",
+        "full_spaced": "ying yu shi ge dao du",
+        "initials": "yysgdd"
+      },
+      "aliases": [],
+      "pinyin_unpunctuated": {
+        "full_joined": "yingyushigedaodu",
+        "full_spaced": "ying yu shi ge dao du",
+        "initials": "yysgdd"
+      }
+    },
+    {
+      "course_code": "GESP10004",
+      "canonical_name": "强国之路：形势、政策与使命Ⅱ",
+      "target_teachers": [
+        "陈特",
+        "葛剑雄",
+        "陈建民",
+        "金理",
+        "马奔腾",
+        "王国豫",
+        "蒋文",
+        "吴天舟",
+        "顾一然",
+        "刘天艺",
+        "张传官",
+        "杨俊蕾",
+        "唐雯",
+        "傅骏"
+      ],
+      "terms": "2026春",
+      "task_levels": "本科",
+      "pinyin": {
+        "full_joined": "qiangguozhilu：xingshi、zhengceyushimingⅡ",
+        "full_spaced": "qiang guo zhi lu ： xing shi 、 zheng ce yu shi ming Ⅱ",
+        "initials": "qgzl：xs、zcysmⅡ"
+      },
+      "aliases": [],
+      "pinyin_unpunctuated": {
+        "full_joined": "qiangguozhiluxingshizhengceyushiming",
+        "full_spaced": "qiang guo zhi lu xing shi zheng ce yu shi ming",
+        "initials": "qgzlxszcysm"
+      }
+    },
+    {
+      "course_code": "GESP20004",
+      "canonical_name": "强国之路：形势、政策与使命Ⅳ",
+      "target_teachers": [
+        "陈瑜",
+        "周素娟",
+        "张若昕",
+        "吴国庆",
+        "张志文",
+        "孙亮",
+        "龚金平",
+        "王久存",
+        "马奔腾",
+        "鲁明军",
+        "李凌",
+        "马维虎",
+        "吕广钊",
+        "郭一诚",
+        "罗强",
+        "金玲飞",
+        "丁玉红",
+        "童连",
+        "刘勇",
+        "申华蕾",
+        "杨晓畅",
+        "史大晓",
+        "陈特",
+        "孙默",
+        "张晓寒",
+        "戴嘉润",
+        "王凯",
+        "许肖潇",
+        "黄彦淇",
+        "黄海",
+        "千海"
+      ],
+      "terms": "2026春",
+      "task_levels": "本科",
+      "pinyin": {
+        "full_joined": "qiangguozhilu：xingshi、zhengceyushimingⅣ",
+        "full_spaced": "qiang guo zhi lu ： xing shi 、 zheng ce yu shi ming Ⅳ",
+        "initials": "qgzl：xs、zcysmⅣ"
+      },
+      "aliases": [],
+      "pinyin_unpunctuated": {
+        "full_joined": "qiangguozhiluxingshizhengceyushiming",
+        "full_spaced": "qiang guo zhi lu xing shi zheng ce yu shi ming",
+        "initials": "qgzlxszcysm"
+      }
+    }
+  ],
+  "teachers": [
+    {
+      "canonical_name": "陶磊",
+      "pinyin": {
+        "full_joined": "taolei",
+        "full_spaced": "tao lei",
+        "initials": "tl"
+      },
+      "aliases": [
+        {
+          "alias": "陶老师",
+          "status": "query_candidate",
+          "source_url": null,
+          "evidence_id": null,
+          "limitation": "姓氏称谓非唯一别名，仅与完整课名联合查询"
+        }
+      ],
+      "course_codes": [
+        "CHIN00001",
+        "CHIN40054",
+        "CHIN00002",
+        "CHIN40076"
+      ]
+    },
+    {
+      "canonical_name": "汪涌豪",
+      "pinyin": {
+        "full_joined": "wangyonghao",
+        "full_spaced": "wang yong hao",
+        "initials": "wyh"
+      },
+      "aliases": [
+        {
+          "alias": "汪老师",
+          "status": "query_candidate",
+          "source_url": null,
+          "evidence_id": null,
+          "limitation": "姓氏称谓非唯一别名，仅与完整课名联合查询"
+        }
+      ],
+      "course_codes": [
+        "CHIN10001",
+        "CHIN40076"
+      ]
+    },
+    {
+      "canonical_name": "赵惠俊",
+      "pinyin": {
+        "full_joined": "zhaohuijun",
+        "full_spaced": "zhao hui jun",
+        "initials": "zhj"
+      },
+      "aliases": [
+        {
+          "alias": "赵老师",
+          "status": "query_candidate",
+          "source_url": null,
+          "evidence_id": null,
+          "limitation": "姓氏称谓非唯一别名，仅与完整课名联合查询"
+        },
+        {
+          "alias": "小赵",
+          "status": "source_attested",
+          "source_url": "https://danke.fduhole.com/api/v3/course_groups/168",
+          "evidence_id": "DANKE-REVIEW-3901",
+          "limitation": "完整课程与教师锚点仅在原评#3901的中国文学传统/赵惠俊上成立，不孤立将小赵映射为其他教师",
+          "corroborating_evidence_ids": [
+            "DANKE-REVIEW-2577"
+          ]
+        }
+      ],
+      "course_codes": [
+        "CHIN10001",
+        "CHIN50066",
+        "GECC10013",
+        "CHIN20006"
+      ]
+    },
+    {
+      "canonical_name": "梁银峰",
+      "pinyin": {
+        "full_joined": "liangyinfeng",
+        "full_spaced": "liang yin feng",
+        "initials": "lyf"
+      },
+      "aliases": [
+        {
+          "alias": "梁老师",
+          "status": "query_candidate",
+          "source_url": null,
+          "evidence_id": null,
+          "limitation": "姓氏称谓非唯一别名，仅与完整课名联合查询"
+        }
+      ],
+      "course_codes": [
+        "CHIN10005",
+        "CHIN20024",
+        "CHIN40042",
+        "CHIN20025",
+        "CHIN40032",
+        "CHIN40076"
+      ]
+    },
+    {
+      "canonical_name": "王文晖",
+      "pinyin": {
+        "full_joined": "wangwenhui",
+        "full_spaced": "wang wen hui",
+        "initials": "wwh"
+      },
+      "aliases": [
+        {
+          "alias": "王老师",
+          "status": "query_candidate",
+          "source_url": null,
+          "evidence_id": null,
+          "limitation": "姓氏称谓非唯一别名，仅与完整课名联合查询"
+        }
+      ],
+      "course_codes": [
+        "CHIN10005",
+        "CHIN20024",
+        "CHIN40033",
+        "CHIN20020",
+        "CHIN20025",
+        "CHIN40076"
+      ]
+    },
+    {
+      "canonical_name": "许蔚",
+      "pinyin": {
+        "full_joined": "xuwei",
+        "full_spaced": "xu wei",
+        "initials": "xw"
+      },
+      "aliases": [
+        {
+          "alias": "许老师",
+          "status": "query_candidate",
+          "source_url": null,
+          "evidence_id": null,
+          "limitation": "姓氏称谓非唯一别名，仅与完整课名联合查询"
+        }
+      ],
+      "course_codes": [
+        "CHIN10005",
+        "CHIN40049",
+        "CHIN50059"
+      ]
+    },
+    {
+      "canonical_name": "羊列荣",
+      "pinyin": {
+        "full_joined": "yanglierong",
+        "full_spaced": "yang lie rong",
+        "initials": "ylr"
+      },
+      "aliases": [
+        {
+          "alias": "羊老师",
+          "status": "query_candidate",
+          "source_url": null,
+          "evidence_id": null,
+          "limitation": "姓氏称谓非唯一别名，仅与完整课名联合查询"
+        }
+      ],
+      "course_codes": [
+        "CHIN10005",
+        "CHIN20012",
+        "CHIN40076"
+      ]
+    },
+    {
+      "canonical_name": "张金耀",
+      "pinyin": {
+        "full_joined": "zhangjinyao",
+        "full_spaced": "zhang jin yao",
+        "initials": "zjy"
+      },
+      "aliases": [
+        {
+          "alias": "耀君",
+          "status": "source_attested",
+          "source_url": "https://www.sohu.com/a/252899039_820403",
+          "evidence_id": "PUB-CLASSNOTES-20180910"
+        },
+        {
+          "alias": "张老师",
+          "status": "query_candidate",
+          "source_url": null,
+          "evidence_id": null,
+          "limitation": "姓氏称谓非唯一别名，仅与完整课名联合查询"
+        }
+      ],
+      "course_codes": [
+        "CHIN10005",
+        "CHIN30012",
+        "CHIN30019",
+        "GECC10014"
+      ]
+    },
+    {
+      "canonical_name": "陈忠敏",
+      "pinyin": {
+        "full_joined": "chenzhongmin",
+        "full_spaced": "chen zhong min",
+        "initials": "czm"
+      },
+      "aliases": [
+        {
+          "alias": "陈老师",
+          "status": "query_candidate",
+          "source_url": null,
+          "evidence_id": null,
+          "limitation": "姓氏称谓非唯一别名，仅与完整课名联合查询"
+        }
+      ],
+      "course_codes": [
+        "CHIN20001",
+        "CHIN40052",
+        "GEFS10003",
+        "CHIN40076",
+        "CHIN50058"
+      ]
+    },
+    {
+      "canonical_name": "平悦铃",
+      "pinyin": {
+        "full_joined": "pingyueling",
+        "full_spaced": "ping yue ling",
+        "initials": "pyl"
+      },
+      "aliases": [
+        {
+          "alias": "平老师",
+          "status": "query_candidate",
+          "source_url": null,
+          "evidence_id": null,
+          "limitation": "姓氏称谓非唯一别名，仅与完整课名联合查询"
+        }
+      ],
+      "course_codes": [
+        "CHIN20001",
+        "CHIN40039",
+        "CHIN20021",
+        "CHIN40076",
+        "CHIN50044"
+      ]
+    },
+    {
+      "canonical_name": "陶寰",
+      "pinyin": {
+        "full_joined": "taohuan",
+        "full_spaced": "tao huan",
+        "initials": "th"
+      },
+      "aliases": [
+        {
+          "alias": "陶老师",
+          "status": "query_candidate",
+          "source_url": null,
+          "evidence_id": null,
+          "limitation": "姓氏称谓非唯一别名，仅与完整课名联合查询"
+        }
+      ],
+      "course_codes": [
+        "CHIN20001",
+        "GEFS10003",
+        "CHIN20017"
+      ]
+    },
+    {
+      "canonical_name": "康凌",
+      "pinyin": {
+        "full_joined": "kangling",
+        "full_spaced": "kang ling",
+        "initials": "kl"
+      },
+      "aliases": [
+        {
+          "alias": "康老师",
+          "status": "query_candidate",
+          "source_url": null,
+          "evidence_id": null,
+          "limitation": "姓氏称谓非唯一别名，仅与完整课名联合查询"
+        }
+      ],
+      "course_codes": [
+        "CHIN20003",
+        "CHIN30022",
+        "CHIN20004",
+        "CHIN40076"
+      ]
+    },
+    {
+      "canonical_name": "栾梅健",
+      "pinyin": {
+        "full_joined": "luanmeijian",
+        "full_spaced": "luan mei jian",
+        "initials": "lmj"
+      },
+      "aliases": [
+        {
+          "alias": "栾栾",
+          "status": "source_attested",
+          "source_url": "https://www.sohu.com/a/252899039_820403",
+          "evidence_id": "PUB-CLASSNOTES-20180910"
+        },
+        {
+          "alias": "栾老师",
+          "status": "query_candidate",
+          "source_url": null,
+          "evidence_id": null,
+          "limitation": "姓氏称谓非唯一别名，仅与完整课名联合查询"
+        }
+      ],
+      "course_codes": [
+        "CHIN20003",
+        "CHIN20004",
+        "CHIN40076"
+      ]
+    },
+    {
+      "canonical_name": "倪伟",
+      "pinyin": {
+        "full_joined": "niwei",
+        "full_spaced": "ni wei",
+        "initials": "nw"
+      },
+      "aliases": [
+        {
+          "alias": "倪老师",
+          "status": "query_candidate",
+          "source_url": null,
+          "evidence_id": null,
+          "limitation": "姓氏称谓非唯一别名，仅与完整课名联合查询"
+        }
+      ],
+      "course_codes": [
+        "CHIN20003",
+        "CHIN20004",
+        "CHIN40076"
+      ]
+    },
+    {
+      "canonical_name": "陈特",
+      "pinyin": {
+        "full_joined": "chente",
+        "full_spaced": "chen te",
+        "initials": "ct"
+      },
+      "aliases": [
+        {
+          "alias": "陈老师",
+          "status": "query_candidate",
+          "source_url": null,
+          "evidence_id": null,
+          "limitation": "姓氏称谓非唯一别名，仅与完整课名联合查询"
+        }
+      ],
+      "course_codes": [
+        "CHIN20005",
+        "CHIN30014",
+        "GECC10024",
+        "GESP20003",
+        "CHIN30027",
+        "CHIN40076",
+        "GESP10004",
+        "GESP20004"
+      ]
+    },
+    {
+      "canonical_name": "汪习波",
+      "pinyin": {
+        "full_joined": "wangxibo",
+        "full_spaced": "wang xi bo",
+        "initials": "wxb"
+      },
+      "aliases": [
+        {
+          "alias": "汪老师",
+          "status": "query_candidate",
+          "source_url": null,
+          "evidence_id": null,
+          "limitation": "姓氏称谓非唯一别名，仅与完整课名联合查询"
+        }
+      ],
+      "course_codes": [
+        "CHIN20005",
+        "GECC10017",
+        "CHIN30002"
+      ]
+    },
+    {
+      "canonical_name": "陈维昭",
+      "pinyin": {
+        "full_joined": "chenweizhao",
+        "full_spaced": "chen wei zhao",
+        "initials": "cwz"
+      },
+      "aliases": [
+        {
+          "alias": "陈老师",
+          "status": "query_candidate",
+          "source_url": null,
+          "evidence_id": null,
+          "limitation": "姓氏称谓非唯一别名，仅与完整课名联合查询"
+        }
+      ],
+      "course_codes": [
+        "CHIN20007",
+        "CHIN40004"
+      ]
+    },
+    {
+      "canonical_name": "翟墨",
+      "pinyin": {
+        "full_joined": "zhaimo",
+        "full_spaced": "zhai mo",
+        "initials": "zm"
+      },
+      "aliases": [
+        {
+          "alias": "翟老师",
+          "status": "query_candidate",
+          "source_url": null,
+          "evidence_id": null,
+          "limitation": "姓氏称谓非唯一别名，仅与完整课名联合查询"
+        }
+      ],
+      "course_codes": [
+        "CHIN20007",
+        "GEEC10042",
+        "CHIN40076"
+      ]
+    },
+    {
+      "canonical_name": "孟昕",
+      "pinyin": {
+        "full_joined": "mengxin",
+        "full_spaced": "meng xin",
+        "initials": "mx"
+      },
+      "aliases": [
+        {
+          "alias": "孟老师",
+          "status": "query_candidate",
+          "source_url": null,
+          "evidence_id": null,
+          "limitation": "姓氏称谓非唯一别名，仅与完整课名联合查询"
+        }
+      ],
+      "course_codes": [
+        "CHIN20007",
+        "GEEC10048"
+      ]
+    },
+    {
+      "canonical_name": "秦振耀",
+      "pinyin": {
+        "full_joined": "qinzhenyao",
+        "full_spaced": "qin zhen yao",
+        "initials": "qzy"
+      },
+      "aliases": [
+        {
+          "alias": "秦老师",
+          "status": "query_candidate",
+          "source_url": null,
+          "evidence_id": null,
+          "limitation": "姓氏称谓非唯一别名，仅与完整课名联合查询"
+        }
+      ],
+      "course_codes": [
+        "CHIN20008",
+        "CHIN40076",
+        "CHIN50068"
+      ]
+    },
+    {
+      "canonical_name": "张燕萍",
+      "pinyin": {
+        "full_joined": "zhangyanping",
+        "full_spaced": "zhang yan ping",
+        "initials": "zyp"
+      },
+      "aliases": [
+        {
+          "alias": "张老师",
+          "status": "query_candidate",
+          "source_url": null,
+          "evidence_id": null,
+          "limitation": "姓氏称谓非唯一别名，仅与完整课名联合查询"
+        }
+      ],
+      "course_codes": [
+        "CHIN20008",
+        "CHIN20013",
+        "CHIN30009",
+        "CHIN40076"
+      ]
+    },
+    {
+      "canonical_name": "王涛",
+      "pinyin": {
+        "full_joined": "wangtao",
+        "full_spaced": "wang tao",
+        "initials": "wt"
+      },
+      "aliases": [
+        {
+          "alias": "王老师",
+          "status": "query_candidate",
+          "source_url": null,
+          "evidence_id": null,
+          "limitation": "姓氏称谓非唯一别名，仅与完整课名联合查询"
+        }
+      ],
+      "course_codes": [
+        "CHIN20009",
+        "CHIN30003",
+        "CHIN40076",
+        "CHIN50071"
+      ]
+    },
+    {
+      "canonical_name": "徐贤樑",
+      "pinyin": {
+        "full_joined": "xuxianliang",
+        "full_spaced": "xu xian liang",
+        "initials": "xxl"
+      },
+      "aliases": [
+        {
+          "alias": "徐老师",
+          "status": "query_candidate",
+          "source_url": null,
+          "evidence_id": null,
+          "limitation": "姓氏称谓非唯一别名，仅与完整课名联合查询"
+        }
+      ],
+      "course_codes": [
+        "CHIN20009",
+        "CHIN10002",
+        "CHIN30010",
+        "CHIN40076"
+      ]
+    },
+    {
+      "canonical_name": "卢英顺",
+      "pinyin": {
+        "full_joined": "luyingshun",
+        "full_spaced": "lu ying shun",
+        "initials": "lys"
+      },
+      "aliases": [
+        {
+          "alias": "卢老师",
+          "status": "query_candidate",
+          "source_url": null,
+          "evidence_id": null,
+          "limitation": "姓氏称谓非唯一别名，仅与完整课名联合查询"
+        }
+      ],
+      "course_codes": [
+        "CHIN20010",
+        "CHIN20026",
+        "CHIN40038",
+        "CHIN40076",
+        "CHIN50048"
+      ]
+    },
+    {
+      "canonical_name": "史濛辉",
+      "pinyin": {
+        "full_joined": "shimenghui",
+        "full_spaced": "shi meng hui",
+        "initials": "smh"
+      },
+      "aliases": [
+        {
+          "alias": "史老师",
+          "status": "query_candidate",
+          "source_url": null,
+          "evidence_id": null,
+          "limitation": "姓氏称谓非唯一别名，仅与完整课名联合查询"
+        }
+      ],
+      "course_codes": [
+        "CHIN20010",
+        "CHIN40037",
+        "CHIN40067",
+        "GEFS10003",
+        "GESP20003",
+        "CHIN10006",
+        "CHIN40010",
+        "CHIN40076"
+      ]
+    },
+    {
+      "canonical_name": "张新华",
+      "pinyin": {
+        "full_joined": "zhangxinhua",
+        "full_spaced": "zhang xin hua",
+        "initials": "zxh"
+      },
+      "aliases": [
+        {
+          "alias": "张老师",
+          "status": "query_candidate",
+          "source_url": null,
+          "evidence_id": null,
+          "limitation": "姓氏称谓非唯一别名，仅与完整课名联合查询"
+        }
+      ],
+      "course_codes": [
+        "CHIN20010",
+        "CHIN30011",
+        "CHIN50047"
+      ]
+    },
+    {
+      "canonical_name": "刘敏旗",
+      "pinyin": {
+        "full_joined": "liuminqi",
+        "full_spaced": "liu min qi",
+        "initials": "lmq"
+      },
+      "aliases": [
+        {
+          "alias": "刘老师",
+          "status": "query_candidate",
+          "source_url": null,
+          "evidence_id": null,
+          "limitation": "姓氏称谓非唯一别名，仅与完整课名联合查询"
+        }
+      ],
+      "course_codes": [
+        "CHIN20015",
+        "CHIN50049",
+        "GEFS10003",
+        "CHIN40010",
+        "CHIN40076",
+        "CHIN50015"
+      ]
+    },
+    {
+      "canonical_name": "董建交",
+      "pinyin": {
+        "full_joined": "dongjianjiao",
+        "full_spaced": "dong jian jiao",
+        "initials": "djj"
+      },
+      "aliases": [
+        {
+          "alias": "董老师",
+          "status": "query_candidate",
+          "source_url": null,
+          "evidence_id": null,
+          "limitation": "姓氏称谓非唯一别名，仅与完整课名联合查询"
+        }
+      ],
+      "course_codes": [
+        "CHIN20016",
+        "CHIN20024",
+        "GEFS10003",
+        "CHIN50050"
+      ]
+    },
+    {
+      "canonical_name": "施瑞峰",
+      "pinyin": {
+        "full_joined": "shiruifeng",
+        "full_spaced": "shi rui feng",
+        "initials": "srf"
+      },
+      "aliases": [
+        {
+          "alias": "施老师",
+          "status": "query_candidate",
+          "source_url": null,
+          "evidence_id": null,
+          "limitation": "姓氏称谓非唯一别名，仅与完整课名联合查询"
+        }
+      ],
+      "course_codes": [
+        "CHIN20019",
+        "CHIN30029",
+        "CHIN40041"
+      ]
+    },
+    {
+      "canonical_name": "李猛",
+      "pinyin": {
+        "full_joined": "limeng",
+        "full_spaced": "li meng",
+        "initials": "lm"
+      },
+      "aliases": [
+        {
+          "alias": "李老师",
+          "status": "query_candidate",
+          "source_url": null,
+          "evidence_id": null,
+          "limitation": "姓氏称谓非唯一别名，仅与完整课名联合查询"
+        }
+      ],
+      "course_codes": [
+        "CHIN20023",
+        "CHIN50059",
+        "CHIN50064",
+        "CHIN50065",
+        "CHIN40076"
+      ]
+    },
+    {
+      "canonical_name": "夏婧",
+      "pinyin": {
+        "full_joined": "xiajing",
+        "full_spaced": "xia jing",
+        "initials": "xj"
+      },
+      "aliases": [
+        {
+          "alias": "夏老师",
+          "status": "query_candidate",
+          "source_url": null,
+          "evidence_id": null,
+          "limitation": "姓氏称谓非唯一别名，仅与完整课名联合查询"
+        }
+      ],
+      "course_codes": [
+        "CHIN20023",
+        "CHIN40076",
+        "CHIN50061"
+      ]
+    },
+    {
+      "canonical_name": "蒋文",
+      "pinyin": {
+        "full_joined": "jiangwen",
+        "full_spaced": "jiang wen",
+        "initials": "jw"
+      },
+      "aliases": [
+        {
+          "alias": "蒋老师",
+          "status": "query_candidate",
+          "source_url": null,
+          "evidence_id": null,
+          "limitation": "姓氏称谓非唯一别名，仅与完整课名联合查询"
+        }
+      ],
+      "course_codes": [
+        "CHIN30012",
+        "CHIN30025",
+        "GESP10004"
+      ]
+    },
+    {
+      "canonical_name": "张业松",
+      "pinyin": {
+        "full_joined": "zhangyesong",
+        "full_spaced": "zhang ye song",
+        "initials": "zys"
+      },
+      "aliases": [
+        {
+          "alias": "张老师",
+          "status": "query_candidate",
+          "source_url": null,
+          "evidence_id": null,
+          "limitation": "姓氏称谓非唯一别名，仅与完整课名联合查询"
+        }
+      ],
+      "course_codes": [
+        "CHIN30013",
+        "GECC10025",
+        "CHIN20004"
+      ]
+    },
+    {
+      "canonical_name": "杨焄",
+      "pinyin": {
+        "full_joined": "yangxun",
+        "full_spaced": "yang xun",
+        "initials": "yx"
+      },
+      "aliases": [
+        {
+          "alias": "杨老师",
+          "status": "query_candidate",
+          "source_url": null,
+          "evidence_id": null,
+          "limitation": "姓氏称谓非唯一别名，仅与完整课名联合查询"
+        }
+      ],
+      "course_codes": [
+        "CHIN30014",
+        "GECC10024",
+        "CHIN40076"
+      ]
+    },
+    {
+      "canonical_name": "陈剑",
+      "pinyin": {
+        "full_joined": "chenjian",
+        "full_spaced": "chen jian",
+        "initials": "cj"
+      },
+      "aliases": [
+        {
+          "alias": "陈老师",
+          "status": "query_candidate",
+          "source_url": null,
+          "evidence_id": null,
+          "limitation": "姓氏称谓非唯一别名，仅与完整课名联合查询"
+        }
+      ],
+      "course_codes": [
+        "CHIN30025"
+      ]
+    },
+    {
+      "canonical_name": "孙洁",
+      "pinyin": {
+        "full_joined": "sunjie",
+        "full_spaced": "sun jie",
+        "initials": "sj"
+      },
+      "aliases": [
+        {
+          "alias": "孙老师",
+          "status": "query_candidate",
+          "source_url": null,
+          "evidence_id": null,
+          "limitation": "姓氏称谓非唯一别名，仅与完整课名联合查询"
+        }
+      ],
+      "course_codes": [
+        "CHIN30026",
+        "CHIN40076"
+      ]
+    },
+    {
+      "canonical_name": "霍四通",
+      "pinyin": {
+        "full_joined": "huositong",
+        "full_spaced": "huo si tong",
+        "initials": "hst"
+      },
+      "aliases": [
+        {
+          "alias": "霍老师",
+          "status": "query_candidate",
+          "source_url": null,
+          "evidence_id": null,
+          "limitation": "姓氏称谓非唯一别名，仅与完整课名联合查询"
+        }
+      ],
+      "course_codes": [
+        "CHIN40019",
+        "CHIN20002",
+        "CHIN40076"
+      ]
+    },
+    {
+      "canonical_name": "张岩冰",
+      "pinyin": {
+        "full_joined": "zhangyanbing",
+        "full_spaced": "zhang yan bing",
+        "initials": "zyb"
+      },
+      "aliases": [
+        {
+          "alias": "张老师",
+          "status": "query_candidate",
+          "source_url": null,
+          "evidence_id": null,
+          "limitation": "姓氏称谓非唯一别名，仅与完整课名联合查询"
+        }
+      ],
+      "course_codes": [
+        "CHIN40022",
+        "CHIN40076"
+      ]
+    },
+    {
+      "canonical_name": "梁燕丽",
+      "pinyin": {
+        "full_joined": "liangyanli",
+        "full_spaced": "liang yan li",
+        "initials": "lyl"
+      },
+      "aliases": [
+        {
+          "alias": "梁老师",
+          "status": "query_candidate",
+          "source_url": null,
+          "evidence_id": null,
+          "limitation": "姓氏称谓非唯一别名，仅与完整课名联合查询"
+        }
+      ],
+      "course_codes": [
+        "CHIN40023",
+        "CHIN40030",
+        "CHIN40076"
+      ]
+    },
+    {
+      "canonical_name": "吴天舟",
+      "pinyin": {
+        "full_joined": "wutianzhou",
+        "full_spaced": "wu tian zhou",
+        "initials": "wtz"
+      },
+      "aliases": [
+        {
+          "alias": "吴老师",
+          "status": "query_candidate",
+          "source_url": null,
+          "evidence_id": null,
+          "limitation": "姓氏称谓非唯一别名，仅与完整课名联合查询"
+        }
+      ],
+      "course_codes": [
+        "CHIN40023",
+        "CHIN40076",
+        "CHIN50028",
+        "GESP10004"
+      ]
+    },
+    {
+      "canonical_name": "王柏华",
+      "pinyin": {
+        "full_joined": "wangbaihua",
+        "full_spaced": "wang bai hua",
+        "initials": "wbh"
+      },
+      "aliases": [
+        {
+          "alias": "王老师",
+          "status": "query_candidate",
+          "source_url": null,
+          "evidence_id": null,
+          "limitation": "姓氏称谓非唯一别名，仅与完整课名联合查询"
+        }
+      ],
+      "course_codes": [
+        "CHIN40025",
+        "CHIN40076",
+        "GEEC10056"
+      ]
+    },
+    {
+      "canonical_name": "张芙鸣",
+      "pinyin": {
+        "full_joined": "zhangfuming",
+        "full_spaced": "zhang fu ming",
+        "initials": "zfm"
+      },
+      "aliases": [
+        {
+          "alias": "张老师",
+          "status": "query_candidate",
+          "source_url": null,
+          "evidence_id": null,
+          "limitation": "姓氏称谓非唯一别名，仅与完整课名联合查询"
+        }
+      ],
+      "course_codes": [
+        "CHIN40028",
+        "CHIN40076",
+        "GEEC10049"
+      ]
+    },
+    {
+      "canonical_name": "王才勇",
+      "pinyin": {
+        "full_joined": "wangcaiyong",
+        "full_spaced": "wang cai yong",
+        "initials": "wcy"
+      },
+      "aliases": [
+        {
+          "alias": "王老师",
+          "status": "query_candidate",
+          "source_url": null,
+          "evidence_id": null,
+          "limitation": "姓氏称谓非唯一别名，仅与完整课名联合查询"
+        }
+      ],
+      "course_codes": [
+        "CHIN40029"
+      ]
+    },
+    {
+      "canonical_name": "赵国军",
+      "pinyin": {
+        "full_joined": "zhaoguojun",
+        "full_spaced": "zhao guo jun",
+        "initials": "zgj"
+      },
+      "aliases": [
+        {
+          "alias": "赵老师",
+          "status": "query_candidate",
+          "source_url": null,
+          "evidence_id": null,
+          "limitation": "姓氏称谓非唯一别名，仅与完整课名联合查询"
+        }
+      ],
+      "course_codes": [
+        "CHIN40036",
+        "GECS10001",
+        "CHIN40047",
+        "CHIN40053",
+        "CHIN40076",
+        "GECS10002"
+      ]
+    },
+    {
+      "canonical_name": "叶婧婷",
+      "pinyin": {
+        "full_joined": "yejingting",
+        "full_spaced": "ye jing ting",
+        "initials": "yjt"
+      },
+      "aliases": [
+        {
+          "alias": "叶老师",
+          "status": "query_candidate",
+          "source_url": null,
+          "evidence_id": null,
+          "limitation": "姓氏称谓非唯一别名，仅与完整课名联合查询"
+        }
+      ],
+      "course_codes": [
+        "CHIN40037",
+        "CHIN40067",
+        "GEFS10003",
+        "CHIN10006",
+        "CHIN40076"
+      ]
+    },
+    {
+      "canonical_name": "李楠",
+      "pinyin": {
+        "full_joined": "linan",
+        "full_spaced": "li nan",
+        "initials": "ln"
+      },
+      "aliases": [
+        {
+          "alias": "李老师",
+          "status": "query_candidate",
+          "source_url": null,
+          "evidence_id": null,
+          "limitation": "姓氏称谓非唯一别名，仅与完整课名联合查询"
+        }
+      ],
+      "course_codes": [
+        "CHIN40043",
+        "GECC10022",
+        "CHIN40076"
+      ]
+    },
+    {
+      "canonical_name": "钱昱夫",
+      "pinyin": {
+        "full_joined": "qianyufu",
+        "full_spaced": "qian yu fu",
+        "initials": "qyf"
+      },
+      "aliases": [
+        {
+          "alias": "钱老师",
+          "status": "query_candidate",
+          "source_url": null,
+          "evidence_id": null,
+          "limitation": "姓氏称谓非唯一别名，仅与完整课名联合查询"
+        }
+      ],
+      "course_codes": [
+        "CHIN40046",
+        "CHIN50063",
+        "GECS10003",
+        "GEFS10003",
+        "CHIN40076"
+      ]
+    },
+    {
+      "canonical_name": "张勤",
+      "pinyin": {
+        "full_joined": "zhangqin",
+        "full_spaced": "zhang qin",
+        "initials": "zq"
+      },
+      "aliases": [
+        {
+          "alias": "张老师",
+          "status": "query_candidate",
+          "source_url": null,
+          "evidence_id": null,
+          "limitation": "姓氏称谓非唯一别名，仅与完整课名联合查询"
+        }
+      ],
+      "course_codes": [
+        "CHIN40048",
+        "GESP20003",
+        "CHIN40076",
+        "CHIN50039"
+      ]
+    },
+    {
+      "canonical_name": "蒋玉斌",
+      "pinyin": {
+        "full_joined": "jiangyubin",
+        "full_spaced": "jiang yu bin",
+        "initials": "jyb"
+      },
+      "aliases": [
+        {
+          "alias": "蒋老师",
+          "status": "query_candidate",
+          "source_url": null,
+          "evidence_id": null,
+          "limitation": "姓氏称谓非唯一别名，仅与完整课名联合查询"
+        }
+      ],
+      "course_codes": [
+        "CHIN40056"
+      ]
+    },
+    {
+      "canonical_name": "石继承",
+      "pinyin": {
+        "full_joined": "shijicheng",
+        "full_spaced": "shi ji cheng",
+        "initials": "sjc"
+      },
+      "aliases": [
+        {
+          "alias": "石老师",
+          "status": "query_candidate",
+          "source_url": null,
+          "evidence_id": null,
+          "limitation": "姓氏称谓非唯一别名，仅与完整课名联合查询"
+        }
+      ],
+      "course_codes": [
+        "CHIN40059",
+        "CHIN40076"
+      ]
+    },
+    {
+      "canonical_name": "战玉冰",
+      "pinyin": {
+        "full_joined": "zhanyubing",
+        "full_spaced": "zhan yu bing",
+        "initials": "zyb"
+      },
+      "aliases": [
+        {
+          "alias": "战老师",
+          "status": "query_candidate",
+          "source_url": null,
+          "evidence_id": null,
+          "limitation": "姓氏称谓非唯一别名，仅与完整课名联合查询"
+        }
+      ],
+      "course_codes": [
+        "CHIN40068",
+        "CHIN40076"
+      ]
+    },
+    {
+      "canonical_name": "周波",
+      "pinyin": {
+        "full_joined": "zhoubo",
+        "full_spaced": "zhou bo",
+        "initials": "zb"
+      },
+      "aliases": [
+        {
+          "alias": "周老师",
+          "status": "query_candidate",
+          "source_url": null,
+          "evidence_id": null,
+          "limitation": "姓氏称谓非唯一别名，仅与完整课名联合查询"
+        }
+      ],
+      "course_codes": [
+        "CHIN40069",
+        "CHIN40058"
+      ]
+    },
+    {
+      "canonical_name": "李钧",
+      "pinyin": {
+        "full_joined": "lijun",
+        "full_spaced": "li jun",
+        "initials": "lj"
+      },
+      "aliases": [
+        {
+          "alias": "李老师",
+          "status": "query_candidate",
+          "source_url": null,
+          "evidence_id": null,
+          "limitation": "姓氏称谓非唯一别名，仅与完整课名联合查询"
+        }
+      ],
+      "course_codes": [
+        "CHIN50036",
+        "CHIN40076",
+        "CHIN50053"
+      ]
+    },
+    {
+      "canonical_name": "聂安福",
+      "pinyin": {
+        "full_joined": "nieanfu",
+        "full_spaced": "nie an fu",
+        "initials": "naf"
+      },
+      "aliases": [
+        {
+          "alias": "聂老师",
+          "status": "query_candidate",
+          "source_url": null,
+          "evidence_id": null,
+          "limitation": "姓氏称谓非唯一别名，仅与完整课名联合查询"
+        }
+      ],
+      "course_codes": [
+        "CHIN50038",
+        "GECC10013"
+      ]
+    },
+    {
+      "canonical_name": "吴礼权",
+      "pinyin": {
+        "full_joined": "wuliquan",
+        "full_spaced": "wu li quan",
+        "initials": "wlq"
+      },
+      "aliases": [
+        {
+          "alias": "吴老师",
+          "status": "query_candidate",
+          "source_url": null,
+          "evidence_id": null,
+          "limitation": "姓氏称谓非唯一别名，仅与完整课名联合查询"
+        }
+      ],
+      "course_codes": [
+        "CHIN50045",
+        "GEEC10057",
+        "CHIN20027"
+      ]
+    },
+    {
+      "canonical_name": "杨新宇",
+      "pinyin": {
+        "full_joined": "yangxinyu",
+        "full_spaced": "yang xin yu",
+        "initials": "yxy"
+      },
+      "aliases": [
+        {
+          "alias": "杨老师",
+          "status": "query_candidate",
+          "source_url": null,
+          "evidence_id": null,
+          "limitation": "姓氏称谓非唯一别名，仅与完整课名联合查询"
+        }
+      ],
+      "course_codes": [
+        "CHIN50051",
+        "GECC10010",
+        "CHIN40076",
+        "CHIN50020"
+      ]
+    },
+    {
+      "canonical_name": "白钢",
+      "pinyin": {
+        "full_joined": "baigang",
+        "full_spaced": "bai gang",
+        "initials": "bg"
+      },
+      "aliases": [
+        {
+          "alias": "白老师",
+          "status": "query_candidate",
+          "source_url": null,
+          "evidence_id": null,
+          "limitation": "姓氏称谓非唯一别名，仅与完整课名联合查询"
+        }
+      ],
+      "course_codes": [
+        "CHIN50055",
+        "CHIN40076"
+      ]
+    },
+    {
+      "canonical_name": "刘天艺",
+      "pinyin": {
+        "full_joined": "liutianyi",
+        "full_spaced": "liu tian yi",
+        "initials": "lty"
+      },
+      "aliases": [
+        {
+          "alias": "刘老师",
+          "status": "query_candidate",
+          "source_url": null,
+          "evidence_id": null,
+          "limitation": "姓氏称谓非唯一别名，仅与完整课名联合查询"
+        }
+      ],
+      "course_codes": [
+        "CHIN50055",
+        "CHIN40076",
+        "CHIN50003",
+        "GESP10004"
+      ]
+    },
+    {
+      "canonical_name": "马良",
+      "pinyin": {
+        "full_joined": "maliang",
+        "full_spaced": "ma liang",
+        "initials": "ml"
+      },
+      "aliases": [
+        {
+          "alias": "马老师",
+          "status": "query_candidate",
+          "source_url": null,
+          "evidence_id": null,
+          "limitation": "姓氏称谓非唯一别名，仅与完整课名联合查询"
+        }
+      ],
+      "course_codes": [
+        "CHIN50057",
+        "GEFS10003",
+        "CHIN20018",
+        "CHIN50006"
+      ]
+    },
+    {
+      "canonical_name": "戴燕",
+      "pinyin": {
+        "full_joined": "daiyan",
+        "full_spaced": "dai yan",
+        "initials": "dy"
+      },
+      "aliases": [
+        {
+          "alias": "戴老师",
+          "status": "query_candidate",
+          "source_url": null,
+          "evidence_id": null,
+          "limitation": "姓氏称谓非唯一别名，仅与完整课名联合查询"
+        }
+      ],
+      "course_codes": [
+        "CHIN50065",
+        "CHIN40076"
+      ]
+    },
+    {
+      "canonical_name": "高飞",
+      "pinyin": {
+        "full_joined": "gaofei",
+        "full_spaced": "gao fei",
+        "initials": "gf"
+      },
+      "aliases": [
+        {
+          "alias": "高老师",
+          "status": "query_candidate",
+          "source_url": null,
+          "evidence_id": null,
+          "limitation": "姓氏称谓非唯一别名，仅与完整课名联合查询"
+        }
+      ],
+      "course_codes": [
+        "CHIN50067"
+      ]
+    },
+    {
+      "canonical_name": "黄河",
+      "pinyin": {
+        "full_joined": "huanghe",
+        "full_spaced": "huang he",
+        "initials": "hh"
+      },
+      "aliases": [
+        {
+          "alias": "黄老师",
+          "status": "query_candidate",
+          "source_url": null,
+          "evidence_id": null,
+          "limitation": "姓氏称谓非唯一别名，仅与完整课名联合查询"
+        }
+      ],
+      "course_codes": [
+        "CHIN50067",
+        "GEFS10003",
+        "AIS210007",
+        "CHIN40076"
+      ]
+    },
+    {
+      "canonical_name": "郭西安",
+      "pinyin": {
+        "full_joined": "guoxian",
+        "full_spaced": "guo xi an",
+        "initials": "gxa"
+      },
+      "aliases": [
+        {
+          "alias": "郭老师",
+          "status": "query_candidate",
+          "source_url": null,
+          "evidence_id": null,
+          "limitation": "姓氏称谓非唯一别名，仅与完整课名联合查询"
+        }
+      ],
+      "course_codes": [
+        "CHIN50069",
+        "CHIN20011",
+        "CHIN40076"
+      ]
+    },
+    {
+      "canonical_name": "侯体健",
+      "pinyin": {
+        "full_joined": "houtijian",
+        "full_spaced": "hou ti jian",
+        "initials": "htj"
+      },
+      "aliases": [
+        {
+          "alias": "侯哥",
+          "status": "source_attested",
+          "source_url": "https://www.sohu.com/a/252899039_820403",
+          "evidence_id": "PUB-CLASSNOTES-20180910"
+        },
+        {
+          "alias": "侯老师",
+          "status": "query_candidate",
+          "source_url": null,
+          "evidence_id": null,
+          "limitation": "姓氏称谓非唯一别名，仅与完整课名联合查询"
+        }
+      ],
+      "course_codes": [
+        "GECC10004",
+        "CHIN20006",
+        "CHIN40076"
+      ]
+    },
+    {
+      "canonical_name": "谢金良",
+      "pinyin": {
+        "full_joined": "xiejinliang",
+        "full_spaced": "xie jin liang",
+        "initials": "xjl"
+      },
+      "aliases": [
+        {
+          "alias": "谢老师",
+          "status": "query_candidate",
+          "source_url": null,
+          "evidence_id": null,
+          "limitation": "姓氏称谓非唯一别名，仅与完整课名联合查询"
+        }
+      ],
+      "course_codes": [
+        "GECC10006",
+        "GEEC10053",
+        "CHIN40021"
+      ]
+    },
+    {
+      "canonical_name": "查屏球",
+      "pinyin": {
+        "full_joined": "zhapingqiu",
+        "full_spaced": "zha ping qiu",
+        "initials": "zpq"
+      },
+      "aliases": [
+        {
+          "alias": "查老师",
+          "status": "query_candidate",
+          "source_url": null,
+          "evidence_id": null,
+          "limitation": "姓氏称谓非唯一别名，仅与完整课名联合查询"
+        }
+      ],
+      "course_codes": [
+        "GECC10007",
+        "CHIN40076"
+      ]
+    },
+    {
+      "canonical_name": "朱刚",
+      "pinyin": {
+        "full_joined": "zhugang",
+        "full_spaced": "zhu gang",
+        "initials": "zg"
+      },
+      "aliases": [
+        {
+          "alias": "朱刚大大",
+          "status": "source_attested",
+          "source_url": "https://www.sohu.com/a/252899039_820403",
+          "evidence_id": "PUB-CLASSNOTES-20180910"
+        },
+        {
+          "alias": "朱老师",
+          "status": "query_candidate",
+          "source_url": null,
+          "evidence_id": null,
+          "limitation": "姓氏称谓非唯一别名，仅与完整课名联合查询"
+        }
+      ],
+      "course_codes": [
+        "GECC10008",
+        "CHIN30023",
+        "CHIN40076"
+      ]
+    },
+    {
+      "canonical_name": "金理",
+      "pinyin": {
+        "full_joined": "jinli",
+        "full_spaced": "jin li",
+        "initials": "jl"
+      },
+      "aliases": [
+        {
+          "alias": "金老师",
+          "status": "query_candidate",
+          "source_url": null,
+          "evidence_id": null,
+          "limitation": "姓氏称谓非唯一别名，仅与完整课名联合查询"
+        }
+      ],
+      "course_codes": [
+        "GECC10009",
+        "CHIN10003",
+        "CHIN40076",
+        "GESP10004"
+      ]
+    },
+    {
+      "canonical_name": "陈正宏",
+      "pinyin": {
+        "full_joined": "chenzhenghong",
+        "full_spaced": "chen zheng hong",
+        "initials": "czh"
+      },
+      "aliases": [
+        {
+          "alias": "陈老师",
+          "status": "query_candidate",
+          "source_url": null,
+          "evidence_id": null,
+          "limitation": "姓氏称谓非唯一别名，仅与完整课名联合查询"
+        }
+      ],
+      "course_codes": [
+        "GECC10012"
+      ]
+    },
+    {
+      "canonical_name": "罗书华",
+      "pinyin": {
+        "full_joined": "luoshuhua",
+        "full_spaced": "luo shu hua",
+        "initials": "lsh"
+      },
+      "aliases": [
+        {
+          "alias": "罗老师",
+          "status": "query_candidate",
+          "source_url": null,
+          "evidence_id": null,
+          "limitation": "姓氏称谓非唯一别名，仅与完整课名联合查询"
+        }
+      ],
+      "course_codes": [
+        "GECC10015"
+      ]
+    },
+    {
+      "canonical_name": "周双全",
+      "pinyin": {
+        "full_joined": "zhoushuangquan",
+        "full_spaced": "zhou shuang quan",
+        "initials": "zsq"
+      },
+      "aliases": [
+        {
+          "alias": "周老师",
+          "status": "query_candidate",
+          "source_url": null,
+          "evidence_id": null,
+          "limitation": "姓氏称谓非唯一别名，仅与完整课名联合查询"
+        }
+      ],
+      "course_codes": [
+        "GECC10018",
+        "GEEC10055"
+      ]
+    },
+    {
+      "canonical_name": "张宝贵",
+      "pinyin": {
+        "full_joined": "zhangbaogui",
+        "full_spaced": "zhang bao gui",
+        "initials": "zbg"
+      },
+      "aliases": [
+        {
+          "alias": "张老师",
+          "status": "query_candidate",
+          "source_url": null,
+          "evidence_id": null,
+          "limitation": "姓氏称谓非唯一别名，仅与完整课名联合查询"
+        }
+      ],
+      "course_codes": [
+        "GECC10019",
+        "CHIN30028"
+      ]
+    },
+    {
+      "canonical_name": "段怀清",
+      "pinyin": {
+        "full_joined": "duanhuaiqing",
+        "full_spaced": "duan huai qing",
+        "initials": "dhq"
+      },
+      "aliases": [
+        {
+          "alias": "段老师",
+          "status": "query_candidate",
+          "source_url": null,
+          "evidence_id": null,
+          "limitation": "姓氏称谓非唯一别名，仅与完整课名联合查询"
+        }
+      ],
+      "course_codes": [
+        "GECC10022",
+        "CHIN30021"
+      ]
+    },
+    {
+      "canonical_name": "许平",
+      "pinyin": {
+        "full_joined": "xuping",
+        "full_spaced": "xu ping",
+        "initials": "xp"
+      },
+      "aliases": [
+        {
+          "alias": "许老师",
+          "status": "query_candidate",
+          "source_url": null,
+          "evidence_id": null,
+          "limitation": "姓氏称谓非唯一别名，仅与完整课名联合查询"
+        }
+      ],
+      "course_codes": [
+        "GEEC10045"
+      ]
+    },
+    {
+      "canonical_name": "王曦",
+      "pinyin": {
+        "full_joined": "wangxi",
+        "full_spaced": "wang xi",
+        "initials": "wx"
+      },
+      "aliases": [
+        {
+          "alias": "王老师",
+          "status": "query_candidate",
+          "source_url": null,
+          "evidence_id": null,
+          "limitation": "姓氏称谓非唯一别名，仅与完整课名联合查询"
+        }
+      ],
+      "course_codes": [
+        "GEEC10047"
+      ]
+    },
+    {
+      "canonical_name": "郑土有",
+      "pinyin": {
+        "full_joined": "zhengtuyou",
+        "full_spaced": "zheng tu you",
+        "initials": "zty"
+      },
+      "aliases": [
+        {
+          "alias": "郑老师",
+          "status": "query_candidate",
+          "source_url": null,
+          "evidence_id": null,
+          "limitation": "姓氏称谓非唯一别名，仅与完整课名联合查询"
+        }
+      ],
+      "course_codes": [
+        "GEEC10051",
+        "CHIN40076",
+        "CHIN50041"
+      ]
+    },
+    {
+      "canonical_name": "杨俊蕾",
+      "pinyin": {
+        "full_joined": "yangjunlei",
+        "full_spaced": "yang jun lei",
+        "initials": "yjl"
+      },
+      "aliases": [
+        {
+          "alias": "杨老师",
+          "status": "query_candidate",
+          "source_url": null,
+          "evidence_id": null,
+          "limitation": "姓氏称谓非唯一别名，仅与完整课名联合查询"
+        }
+      ],
+      "course_codes": [
+        "GEEC10059",
+        "CHIN40076",
+        "GESP10004"
+      ]
+    },
+    {
+      "canonical_name": "陈振宇",
+      "pinyin": {
+        "full_joined": "chenzhenyu",
+        "full_spaced": "chen zhen yu",
+        "initials": "czy"
+      },
+      "aliases": [
+        {
+          "alias": "陈老师",
+          "status": "query_candidate",
+          "source_url": null,
+          "evidence_id": null,
+          "limitation": "姓氏称谓非唯一别名，仅与完整课名联合查询"
+        }
+      ],
+      "course_codes": [
+        "GEFS10003",
+        "AIS210007",
+        "CHIN40034"
+      ]
+    },
+    {
+      "canonical_name": "盛益民",
+      "pinyin": {
+        "full_joined": "shengyimin",
+        "full_spaced": "sheng yi min",
+        "initials": "sym"
+      },
+      "aliases": [
+        {
+          "alias": "盛老师",
+          "status": "query_candidate",
+          "source_url": null,
+          "evidence_id": null,
+          "limitation": "姓氏称谓非唯一别名，仅与完整课名联合查询"
+        }
+      ],
+      "course_codes": [
+        "GEFS10003",
+        "GESP20003",
+        "CHIN20002",
+        "CHIN20022",
+        "CHIN20028",
+        "CHIN40076",
+        "CHIN50016",
+        "GECC10027"
+      ]
+    },
+    {
+      "canonical_name": "郭永秉",
+      "pinyin": {
+        "full_joined": "guoyongbing",
+        "full_spaced": "guo yong bing",
+        "initials": "gyb"
+      },
+      "aliases": [
+        {
+          "alias": "郭老师",
+          "status": "query_candidate",
+          "source_url": null,
+          "evidence_id": null,
+          "limitation": "姓氏称谓非唯一别名，仅与完整课名联合查询"
+        }
+      ],
+      "course_codes": [
+        "GEFS10003",
+        "CHIN20025"
+      ]
+    },
+    {
+      "canonical_name": "徐坤宇",
+      "pinyin": {
+        "full_joined": "xukunyu",
+        "full_spaced": "xu kun yu",
+        "initials": "xky"
+      },
+      "aliases": [
+        {
+          "alias": "徐老师",
+          "status": "query_candidate",
+          "source_url": null,
+          "evidence_id": null,
+          "limitation": "姓氏称谓非唯一别名，仅与完整课名联合查询"
+        }
+      ],
+      "course_codes": [
+        "GEFS10003"
+      ]
+    },
+    {
+      "canonical_name": "张梦翰",
+      "pinyin": {
+        "full_joined": "zhangmenghan",
+        "full_spaced": "zhang meng han",
+        "initials": "zmh"
+      },
+      "aliases": [
+        {
+          "alias": "张老师",
+          "status": "query_candidate",
+          "source_url": null,
+          "evidence_id": null,
+          "limitation": "姓氏称谓非唯一别名，仅与完整课名联合查询"
+        }
+      ],
+      "course_codes": [
+        "GEFS10003"
+      ]
+    },
+    {
+      "canonical_name": "桂韬",
+      "pinyin": {
+        "full_joined": "guitao",
+        "full_spaced": "gui tao",
+        "initials": "gt"
+      },
+      "aliases": [
+        {
+          "alias": "桂老师",
+          "status": "query_candidate",
+          "source_url": null,
+          "evidence_id": null,
+          "limitation": "姓氏称谓非唯一别名，仅与完整课名联合查询"
+        }
+      ],
+      "course_codes": [
+        "GEFS10003"
+      ]
+    },
+    {
+      "canonical_name": "白建松",
+      "pinyin": {
+        "full_joined": "baijiansong",
+        "full_spaced": "bai jian song",
+        "initials": "bjs"
+      },
+      "aliases": [
+        {
+          "alias": "白老师",
+          "status": "query_candidate",
+          "source_url": null,
+          "evidence_id": null,
+          "limitation": "姓氏称谓非唯一别名，仅与完整课名联合查询"
+        }
+      ],
+      "course_codes": [
+        "GESP20003"
+      ]
+    },
+    {
+      "canonical_name": "陈瑜",
+      "pinyin": {
+        "full_joined": "chenyu",
+        "full_spaced": "chen yu",
+        "initials": "cy"
+      },
+      "aliases": [
+        {
+          "alias": "陈老师",
+          "status": "query_candidate",
+          "source_url": null,
+          "evidence_id": null,
+          "limitation": "姓氏称谓非唯一别名，仅与完整课名联合查询"
+        }
+      ],
+      "course_codes": [
+        "GESP20003",
+        "GESP20004"
+      ]
+    },
+    {
+      "canonical_name": "丁玉红",
+      "pinyin": {
+        "full_joined": "dingyuhong",
+        "full_spaced": "ding yu hong",
+        "initials": "dyh"
+      },
+      "aliases": [
+        {
+          "alias": "丁老师",
+          "status": "query_candidate",
+          "source_url": null,
+          "evidence_id": null,
+          "limitation": "姓氏称谓非唯一别名，仅与完整课名联合查询"
+        }
+      ],
+      "course_codes": [
+        "GESP20003",
+        "GESP20004"
+      ]
+    },
+    {
+      "canonical_name": "龚金平",
+      "pinyin": {
+        "full_joined": "gongjinping",
+        "full_spaced": "gong jin ping",
+        "initials": "gjp"
+      },
+      "aliases": [
+        {
+          "alias": "龚老师",
+          "status": "query_candidate",
+          "source_url": null,
+          "evidence_id": null,
+          "limitation": "姓氏称谓非唯一别名，仅与完整课名联合查询"
+        }
+      ],
+      "course_codes": [
+        "GESP20003",
+        "GESP20004"
+      ]
+    },
+    {
+      "canonical_name": "马奔腾",
+      "pinyin": {
+        "full_joined": "mabenteng",
+        "full_spaced": "ma ben teng",
+        "initials": "mbt"
+      },
+      "aliases": [
+        {
+          "alias": "马老师",
+          "status": "query_candidate",
+          "source_url": null,
+          "evidence_id": null,
+          "limitation": "姓氏称谓非唯一别名，仅与完整课名联合查询"
+        }
+      ],
+      "course_codes": [
+        "GESP20003",
+        "GESP10004",
+        "GESP20004"
+      ]
+    },
+    {
+      "canonical_name": "宋颖",
+      "pinyin": {
+        "full_joined": "songying",
+        "full_spaced": "song ying",
+        "initials": "sy"
+      },
+      "aliases": [
+        {
+          "alias": "宋老师",
+          "status": "query_candidate",
+          "source_url": null,
+          "evidence_id": null,
+          "limitation": "姓氏称谓非唯一别名，仅与完整课名联合查询"
+        }
+      ],
+      "course_codes": [
+        "GESP20003"
+      ]
+    },
+    {
+      "canonical_name": "许肖潇",
+      "pinyin": {
+        "full_joined": "xuxiaoxiao",
+        "full_spaced": "xu xiao xiao",
+        "initials": "xxx"
+      },
+      "aliases": [
+        {
+          "alias": "许老师",
+          "status": "query_candidate",
+          "source_url": null,
+          "evidence_id": null,
+          "limitation": "姓氏称谓非唯一别名，仅与完整课名联合查询"
+        }
+      ],
+      "course_codes": [
+        "GESP20003",
+        "GESP20004"
+      ]
+    },
+    {
+      "canonical_name": "张豫峰",
+      "pinyin": {
+        "full_joined": "zhangyufeng",
+        "full_spaced": "zhang yu feng",
+        "initials": "zyf"
+      },
+      "aliases": [
+        {
+          "alias": "张老师",
+          "status": "query_candidate",
+          "source_url": null,
+          "evidence_id": null,
+          "limitation": "姓氏称谓非唯一别名，仅与完整课名联合查询"
+        }
+      ],
+      "course_codes": [
+        "CHIN20002"
+      ]
+    },
+    {
+      "canonical_name": "郜元宝",
+      "pinyin": {
+        "full_joined": "gaoyuanbao",
+        "full_spaced": "gao yuan bao",
+        "initials": "gyb"
+      },
+      "aliases": [
+        {
+          "alias": "郜老师",
+          "status": "query_candidate",
+          "source_url": null,
+          "evidence_id": null,
+          "limitation": "姓氏称谓非唯一别名，仅与完整课名联合查询"
+        }
+      ],
+      "course_codes": [
+        "CHIN20004",
+        "CHIN40076",
+        "GECC10011"
+      ]
+    },
+    {
+      "canonical_name": "刘耘华",
+      "pinyin": {
+        "full_joined": "liuyunhua",
+        "full_spaced": "liu yun hua",
+        "initials": "lyh"
+      },
+      "aliases": [
+        {
+          "alias": "刘老师",
+          "status": "query_candidate",
+          "source_url": null,
+          "evidence_id": null,
+          "limitation": "姓氏称谓非唯一别名，仅与完整课名联合查询"
+        }
+      ],
+      "course_codes": [
+        "CHIN20011",
+        "CHIN40076"
+      ]
+    },
+    {
+      "canonical_name": "唐雯",
+      "pinyin": {
+        "full_joined": "tangwen",
+        "full_spaced": "tang wen",
+        "initials": "tw"
+      },
+      "aliases": [
+        {
+          "alias": "唐老师",
+          "status": "query_candidate",
+          "source_url": null,
+          "evidence_id": null,
+          "limitation": "姓氏称谓非唯一别名，仅与完整课名联合查询"
+        }
+      ],
+      "course_codes": [
+        "CHIN30015",
+        "CHIN40076",
+        "CHIN50062",
+        "GESP10004"
+      ]
+    },
+    {
+      "canonical_name": "龚宗杰",
+      "pinyin": {
+        "full_joined": "gongzongjie",
+        "full_spaced": "gong zong jie",
+        "initials": "gzj"
+      },
+      "aliases": [
+        {
+          "alias": "龚老师",
+          "status": "query_candidate",
+          "source_url": null,
+          "evidence_id": null,
+          "limitation": "姓氏称谓非唯一别名，仅与完整课名联合查询"
+        }
+      ],
+      "course_codes": [
+        "CHIN40003"
+      ]
+    },
+    {
+      "canonical_name": "张怡微",
+      "pinyin": {
+        "full_joined": "zhangyiwei",
+        "full_spaced": "zhang yi wei",
+        "initials": "zyw"
+      },
+      "aliases": [
+        {
+          "alias": "张老师",
+          "status": "query_candidate",
+          "source_url": null,
+          "evidence_id": null,
+          "limitation": "姓氏称谓非唯一别名，仅与完整课名联合查询"
+        }
+      ],
+      "course_codes": [
+        "CHIN40013"
+      ]
+    },
+    {
+      "canonical_name": "张宝",
+      "pinyin": {
+        "full_joined": "zhangbao",
+        "full_spaced": "zhang bao",
+        "initials": "zb"
+      },
+      "aliases": [
+        {
+          "alias": "张老师",
+          "status": "query_candidate",
+          "source_url": null,
+          "evidence_id": null,
+          "limitation": "姓氏称谓非唯一别名，仅与完整课名联合查询"
+        }
+      ],
+      "course_codes": [
+        "CHIN40038",
+        "CHIN50048"
+      ]
+    },
+    {
+      "canonical_name": "谢明文",
+      "pinyin": {
+        "full_joined": "xiemingwen",
+        "full_spaced": "xie ming wen",
+        "initials": "xmw"
+      },
+      "aliases": [
+        {
+          "alias": "谢老师",
+          "status": "query_candidate",
+          "source_url": null,
+          "evidence_id": null,
+          "limitation": "姓氏称谓非唯一别名，仅与完整课名联合查询"
+        }
+      ],
+      "course_codes": [
+        "CHIN40057",
+        "CHIN40076"
+      ]
+    },
+    {
+      "canonical_name": "张小艳",
+      "pinyin": {
+        "full_joined": "zhangxiaoyan",
+        "full_spaced": "zhang xiao yan",
+        "initials": "zxy"
+      },
+      "aliases": [
+        {
+          "alias": "张老师",
+          "status": "query_candidate",
+          "source_url": null,
+          "evidence_id": null,
+          "limitation": "姓氏称谓非唯一别名，仅与完整课名联合查询"
+        }
+      ],
+      "course_codes": [
+        "CHIN40061",
+        "CHIN40076"
+      ]
+    },
+    {
+      "canonical_name": "张富海",
+      "pinyin": {
+        "full_joined": "zhangfuhai",
+        "full_spaced": "zhang fu hai",
+        "initials": "zfh"
+      },
+      "aliases": [
+        {
+          "alias": "张老师",
+          "status": "query_candidate",
+          "source_url": null,
+          "evidence_id": null,
+          "limitation": "姓氏称谓非唯一别名，仅与完整课名联合查询"
+        }
+      ],
+      "course_codes": [
+        "CHIN40065"
+      ]
+    },
+    {
+      "canonical_name": "邬可晶",
+      "pinyin": {
+        "full_joined": "wukejing",
+        "full_spaced": "wu ke jing",
+        "initials": "wkj"
+      },
+      "aliases": [
+        {
+          "alias": "邬老师",
+          "status": "query_candidate",
+          "source_url": null,
+          "evidence_id": null,
+          "limitation": "姓氏称谓非唯一别名，仅与完整课名联合查询"
+        }
+      ],
+      "course_codes": [
+        "CHIN40076"
+      ]
+    },
+    {
+      "canonical_name": "张传官",
+      "pinyin": {
+        "full_joined": "zhangchuanguan",
+        "full_spaced": "zhang chuan guan",
+        "initials": "zcg"
+      },
+      "aliases": [
+        {
+          "alias": "张老师",
+          "status": "query_candidate",
+          "source_url": null,
+          "evidence_id": null,
+          "limitation": "姓氏称谓非唯一别名，仅与完整课名联合查询"
+        }
+      ],
+      "course_codes": [
+        "CHIN40076",
+        "GESP10004"
+      ]
+    },
+    {
+      "canonical_name": "张新颖",
+      "pinyin": {
+        "full_joined": "zhangxinying",
+        "full_spaced": "zhang xin ying",
+        "initials": "zxy"
+      },
+      "aliases": [
+        {
+          "alias": "张老师",
+          "status": "query_candidate",
+          "source_url": null,
+          "evidence_id": null,
+          "limitation": "姓氏称谓非唯一别名，仅与完整课名联合查询"
+        }
+      ],
+      "course_codes": [
+        "CHIN40076",
+        "CHIN50040"
+      ]
+    },
+    {
+      "canonical_name": "周荣胜",
+      "pinyin": {
+        "full_joined": "zhourongsheng",
+        "full_spaced": "zhou rong sheng",
+        "initials": "zrs"
+      },
+      "aliases": [
+        {
+          "alias": "周老师",
+          "status": "query_candidate",
+          "source_url": null,
+          "evidence_id": null,
+          "limitation": "姓氏称谓非唯一别名，仅与完整课名联合查询"
+        }
+      ],
+      "course_codes": [
+        "CHIN40076"
+      ]
+    },
+    {
+      "canonical_name": "石祥",
+      "pinyin": {
+        "full_joined": "shixiang",
+        "full_spaced": "shi xiang",
+        "initials": "sx"
+      },
+      "aliases": [
+        {
+          "alias": "石老师",
+          "status": "query_candidate",
+          "source_url": null,
+          "evidence_id": null,
+          "limitation": "姓氏称谓非唯一别名，仅与完整课名联合查询"
+        }
+      ],
+      "course_codes": [
+        "CHIN50012"
+      ]
+    },
+    {
+      "canonical_name": "纪秋悦",
+      "pinyin": {
+        "full_joined": "jiqiuyue",
+        "full_spaced": "ji qiu yue",
+        "initials": "jqy"
+      },
+      "aliases": [
+        {
+          "alias": "纪老师",
+          "status": "query_candidate",
+          "source_url": null,
+          "evidence_id": null,
+          "limitation": "姓氏称谓非唯一别名，仅与完整课名联合查询"
+        }
+      ],
+      "course_codes": [
+        "CHIN50041"
+      ]
+    },
+    {
+      "canonical_name": "严锋",
+      "pinyin": {
+        "full_joined": "yanfeng",
+        "full_spaced": "yan feng",
+        "initials": "yf"
+      },
+      "aliases": [
+        {
+          "alias": "严老师",
+          "status": "query_candidate",
+          "source_url": null,
+          "evidence_id": null,
+          "limitation": "姓氏称谓非唯一别名，仅与完整课名联合查询"
+        }
+      ],
+      "course_codes": [
+        "GECC10026"
+      ]
+    },
+    {
+      "canonical_name": "葛剑雄",
+      "pinyin": {
+        "full_joined": "gejianxiong",
+        "full_spaced": "ge jian xiong",
+        "initials": "gjx"
+      },
+      "aliases": [
+        {
+          "alias": "葛老师",
+          "status": "query_candidate",
+          "source_url": null,
+          "evidence_id": null,
+          "limitation": "姓氏称谓非唯一别名，仅与完整课名联合查询"
+        }
+      ],
+      "course_codes": [
+        "GESP10004"
+      ]
+    },
+    {
+      "canonical_name": "陈建民",
+      "pinyin": {
+        "full_joined": "chenjianmin",
+        "full_spaced": "chen jian min",
+        "initials": "cjm"
+      },
+      "aliases": [
+        {
+          "alias": "陈老师",
+          "status": "query_candidate",
+          "source_url": null,
+          "evidence_id": null,
+          "limitation": "姓氏称谓非唯一别名，仅与完整课名联合查询"
+        }
+      ],
+      "course_codes": [
+        "GESP10004"
+      ]
+    },
+    {
+      "canonical_name": "王国豫",
+      "pinyin": {
+        "full_joined": "wangguoyu",
+        "full_spaced": "wang guo yu",
+        "initials": "wgy"
+      },
+      "aliases": [
+        {
+          "alias": "王老师",
+          "status": "query_candidate",
+          "source_url": null,
+          "evidence_id": null,
+          "limitation": "姓氏称谓非唯一别名，仅与完整课名联合查询"
+        }
+      ],
+      "course_codes": [
+        "GESP10004"
+      ]
+    },
+    {
+      "canonical_name": "顾一然",
+      "pinyin": {
+        "full_joined": "guyiran",
+        "full_spaced": "gu yi ran",
+        "initials": "gyr"
+      },
+      "aliases": [
+        {
+          "alias": "顾老师",
+          "status": "query_candidate",
+          "source_url": null,
+          "evidence_id": null,
+          "limitation": "姓氏称谓非唯一别名，仅与完整课名联合查询"
+        }
+      ],
+      "course_codes": [
+        "GESP10004"
+      ]
+    },
+    {
+      "canonical_name": "傅骏",
+      "pinyin": {
+        "full_joined": "fujun",
+        "full_spaced": "fu jun",
+        "initials": "fj"
+      },
+      "aliases": [
+        {
+          "alias": "傅老师",
+          "status": "query_candidate",
+          "source_url": null,
+          "evidence_id": null,
+          "limitation": "姓氏称谓非唯一别名，仅与完整课名联合查询"
+        }
+      ],
+      "course_codes": [
+        "GESP10004"
+      ]
+    },
+    {
+      "canonical_name": "周素娟",
+      "pinyin": {
+        "full_joined": "zhousujuan",
+        "full_spaced": "zhou su juan",
+        "initials": "zsj"
+      },
+      "aliases": [
+        {
+          "alias": "周老师",
+          "status": "query_candidate",
+          "source_url": null,
+          "evidence_id": null,
+          "limitation": "姓氏称谓非唯一别名，仅与完整课名联合查询"
+        }
+      ],
+      "course_codes": [
+        "GESP20004"
+      ]
+    },
+    {
+      "canonical_name": "张若昕",
+      "pinyin": {
+        "full_joined": "zhangruoxin",
+        "full_spaced": "zhang ruo xin",
+        "initials": "zrx"
+      },
+      "aliases": [
+        {
+          "alias": "张老师",
+          "status": "query_candidate",
+          "source_url": null,
+          "evidence_id": null,
+          "limitation": "姓氏称谓非唯一别名，仅与完整课名联合查询"
+        }
+      ],
+      "course_codes": [
+        "GESP20004"
+      ]
+    },
+    {
+      "canonical_name": "吴国庆",
+      "pinyin": {
+        "full_joined": "wuguoqing",
+        "full_spaced": "wu guo qing",
+        "initials": "wgq"
+      },
+      "aliases": [
+        {
+          "alias": "吴老师",
+          "status": "query_candidate",
+          "source_url": null,
+          "evidence_id": null,
+          "limitation": "姓氏称谓非唯一别名，仅与完整课名联合查询"
+        }
+      ],
+      "course_codes": [
+        "GESP20004"
+      ]
+    },
+    {
+      "canonical_name": "张志文",
+      "pinyin": {
+        "full_joined": "zhangzhiwen",
+        "full_spaced": "zhang zhi wen",
+        "initials": "zzw"
+      },
+      "aliases": [
+        {
+          "alias": "张老师",
+          "status": "query_candidate",
+          "source_url": null,
+          "evidence_id": null,
+          "limitation": "姓氏称谓非唯一别名，仅与完整课名联合查询"
+        }
+      ],
+      "course_codes": [
+        "GESP20004"
+      ]
+    },
+    {
+      "canonical_name": "孙亮",
+      "pinyin": {
+        "full_joined": "sunliang",
+        "full_spaced": "sun liang",
+        "initials": "sl"
+      },
+      "aliases": [
+        {
+          "alias": "孙老师",
+          "status": "query_candidate",
+          "source_url": null,
+          "evidence_id": null,
+          "limitation": "姓氏称谓非唯一别名，仅与完整课名联合查询"
+        }
+      ],
+      "course_codes": [
+        "GESP20004"
+      ]
+    },
+    {
+      "canonical_name": "王久存",
+      "pinyin": {
+        "full_joined": "wangjiucun",
+        "full_spaced": "wang jiu cun",
+        "initials": "wjc"
+      },
+      "aliases": [
+        {
+          "alias": "王老师",
+          "status": "query_candidate",
+          "source_url": null,
+          "evidence_id": null,
+          "limitation": "姓氏称谓非唯一别名，仅与完整课名联合查询"
+        }
+      ],
+      "course_codes": [
+        "GESP20004"
+      ]
+    },
+    {
+      "canonical_name": "鲁明军",
+      "pinyin": {
+        "full_joined": "lumingjun",
+        "full_spaced": "lu ming jun",
+        "initials": "lmj"
+      },
+      "aliases": [
+        {
+          "alias": "鲁老师",
+          "status": "query_candidate",
+          "source_url": null,
+          "evidence_id": null,
+          "limitation": "姓氏称谓非唯一别名，仅与完整课名联合查询"
+        }
+      ],
+      "course_codes": [
+        "GESP20004"
+      ]
+    },
+    {
+      "canonical_name": "李凌",
+      "pinyin": {
+        "full_joined": "liling",
+        "full_spaced": "li ling",
+        "initials": "ll"
+      },
+      "aliases": [
+        {
+          "alias": "李老师",
+          "status": "query_candidate",
+          "source_url": null,
+          "evidence_id": null,
+          "limitation": "姓氏称谓非唯一别名，仅与完整课名联合查询"
+        }
+      ],
+      "course_codes": [
+        "GESP20004"
+      ]
+    },
+    {
+      "canonical_name": "马维虎",
+      "pinyin": {
+        "full_joined": "maweihu",
+        "full_spaced": "ma wei hu",
+        "initials": "mwh"
+      },
+      "aliases": [
+        {
+          "alias": "马老师",
+          "status": "query_candidate",
+          "source_url": null,
+          "evidence_id": null,
+          "limitation": "姓氏称谓非唯一别名，仅与完整课名联合查询"
+        }
+      ],
+      "course_codes": [
+        "GESP20004"
+      ]
+    },
+    {
+      "canonical_name": "吕广钊",
+      "pinyin": {
+        "full_joined": "lvguangzhao",
+        "full_spaced": "lv guang zhao",
+        "initials": "lgz"
+      },
+      "aliases": [
+        {
+          "alias": "吕老师",
+          "status": "query_candidate",
+          "source_url": null,
+          "evidence_id": null,
+          "limitation": "姓氏称谓非唯一别名，仅与完整课名联合查询"
+        }
+      ],
+      "course_codes": [
+        "GESP20004"
+      ]
+    },
+    {
+      "canonical_name": "郭一诚",
+      "pinyin": {
+        "full_joined": "guoyicheng",
+        "full_spaced": "guo yi cheng",
+        "initials": "gyc"
+      },
+      "aliases": [
+        {
+          "alias": "郭老师",
+          "status": "query_candidate",
+          "source_url": null,
+          "evidence_id": null,
+          "limitation": "姓氏称谓非唯一别名，仅与完整课名联合查询"
+        }
+      ],
+      "course_codes": [
+        "GESP20004"
+      ]
+    },
+    {
+      "canonical_name": "罗强",
+      "pinyin": {
+        "full_joined": "luoqiang",
+        "full_spaced": "luo qiang",
+        "initials": "lq"
+      },
+      "aliases": [
+        {
+          "alias": "罗老师",
+          "status": "query_candidate",
+          "source_url": null,
+          "evidence_id": null,
+          "limitation": "姓氏称谓非唯一别名，仅与完整课名联合查询"
+        }
+      ],
+      "course_codes": [
+        "GESP20004"
+      ]
+    },
+    {
+      "canonical_name": "金玲飞",
+      "pinyin": {
+        "full_joined": "jinlingfei",
+        "full_spaced": "jin ling fei",
+        "initials": "jlf"
+      },
+      "aliases": [
+        {
+          "alias": "金老师",
+          "status": "query_candidate",
+          "source_url": null,
+          "evidence_id": null,
+          "limitation": "姓氏称谓非唯一别名，仅与完整课名联合查询"
+        }
+      ],
+      "course_codes": [
+        "GESP20004"
+      ]
+    },
+    {
+      "canonical_name": "童连",
+      "pinyin": {
+        "full_joined": "tonglian",
+        "full_spaced": "tong lian",
+        "initials": "tl"
+      },
+      "aliases": [
+        {
+          "alias": "童老师",
+          "status": "query_candidate",
+          "source_url": null,
+          "evidence_id": null,
+          "limitation": "姓氏称谓非唯一别名，仅与完整课名联合查询"
+        }
+      ],
+      "course_codes": [
+        "GESP20004"
+      ]
+    },
+    {
+      "canonical_name": "刘勇",
+      "pinyin": {
+        "full_joined": "liuyong",
+        "full_spaced": "liu yong",
+        "initials": "ly"
+      },
+      "aliases": [
+        {
+          "alias": "刘老师",
+          "status": "query_candidate",
+          "source_url": null,
+          "evidence_id": null,
+          "limitation": "姓氏称谓非唯一别名，仅与完整课名联合查询"
+        }
+      ],
+      "course_codes": [
+        "GESP20004"
+      ]
+    },
+    {
+      "canonical_name": "申华蕾",
+      "pinyin": {
+        "full_joined": "shenhualei",
+        "full_spaced": "shen hua lei",
+        "initials": "shl"
+      },
+      "aliases": [
+        {
+          "alias": "申老师",
+          "status": "query_candidate",
+          "source_url": null,
+          "evidence_id": null,
+          "limitation": "姓氏称谓非唯一别名，仅与完整课名联合查询"
+        }
+      ],
+      "course_codes": [
+        "GESP20004"
+      ]
+    },
+    {
+      "canonical_name": "杨晓畅",
+      "pinyin": {
+        "full_joined": "yangxiaochang",
+        "full_spaced": "yang xiao chang",
+        "initials": "yxc"
+      },
+      "aliases": [
+        {
+          "alias": "杨老师",
+          "status": "query_candidate",
+          "source_url": null,
+          "evidence_id": null,
+          "limitation": "姓氏称谓非唯一别名，仅与完整课名联合查询"
+        }
+      ],
+      "course_codes": [
+        "GESP20004"
+      ]
+    },
+    {
+      "canonical_name": "史大晓",
+      "pinyin": {
+        "full_joined": "shidaxiao",
+        "full_spaced": "shi da xiao",
+        "initials": "sdx"
+      },
+      "aliases": [
+        {
+          "alias": "史老师",
+          "status": "query_candidate",
+          "source_url": null,
+          "evidence_id": null,
+          "limitation": "姓氏称谓非唯一别名，仅与完整课名联合查询"
+        }
+      ],
+      "course_codes": [
+        "GESP20004"
+      ]
+    },
+    {
+      "canonical_name": "孙默",
+      "pinyin": {
+        "full_joined": "sunmo",
+        "full_spaced": "sun mo",
+        "initials": "sm"
+      },
+      "aliases": [
+        {
+          "alias": "孙老师",
+          "status": "query_candidate",
+          "source_url": null,
+          "evidence_id": null,
+          "limitation": "姓氏称谓非唯一别名，仅与完整课名联合查询"
+        }
+      ],
+      "course_codes": [
+        "GESP20004"
+      ]
+    },
+    {
+      "canonical_name": "张晓寒",
+      "pinyin": {
+        "full_joined": "zhangxiaohan",
+        "full_spaced": "zhang xiao han",
+        "initials": "zxh"
+      },
+      "aliases": [
+        {
+          "alias": "张老师",
+          "status": "query_candidate",
+          "source_url": null,
+          "evidence_id": null,
+          "limitation": "姓氏称谓非唯一别名，仅与完整课名联合查询"
+        }
+      ],
+      "course_codes": [
+        "GESP20004"
+      ]
+    },
+    {
+      "canonical_name": "戴嘉润",
+      "pinyin": {
+        "full_joined": "daijiarun",
+        "full_spaced": "dai jia run",
+        "initials": "djr"
+      },
+      "aliases": [
+        {
+          "alias": "戴老师",
+          "status": "query_candidate",
+          "source_url": null,
+          "evidence_id": null,
+          "limitation": "姓氏称谓非唯一别名，仅与完整课名联合查询"
+        }
+      ],
+      "course_codes": [
+        "GESP20004"
+      ]
+    },
+    {
+      "canonical_name": "王凯",
+      "pinyin": {
+        "full_joined": "wangkai",
+        "full_spaced": "wang kai",
+        "initials": "wk"
+      },
+      "aliases": [
+        {
+          "alias": "王老师",
+          "status": "query_candidate",
+          "source_url": null,
+          "evidence_id": null,
+          "limitation": "姓氏称谓非唯一别名，仅与完整课名联合查询"
+        }
+      ],
+      "course_codes": [
+        "GESP20004"
+      ]
+    },
+    {
+      "canonical_name": "黄彦淇",
+      "pinyin": {
+        "full_joined": "huangyanqi",
+        "full_spaced": "huang yan qi",
+        "initials": "hyq"
+      },
+      "aliases": [
+        {
+          "alias": "黄老师",
+          "status": "query_candidate",
+          "source_url": null,
+          "evidence_id": null,
+          "limitation": "姓氏称谓非唯一别名，仅与完整课名联合查询"
+        }
+      ],
+      "course_codes": [
+        "GESP20004"
+      ]
+    },
+    {
+      "canonical_name": "黄海",
+      "pinyin": {
+        "full_joined": "huanghai",
+        "full_spaced": "huang hai",
+        "initials": "hh"
+      },
+      "aliases": [
+        {
+          "alias": "黄老师",
+          "status": "query_candidate",
+          "source_url": null,
+          "evidence_id": null,
+          "limitation": "姓氏称谓非唯一别名，仅与完整课名联合查询"
+        }
+      ],
+      "course_codes": [
+        "GESP20004"
+      ]
+    },
+    {
+      "canonical_name": "千海",
+      "pinyin": {
+        "full_joined": "qianhai",
+        "full_spaced": "qian hai",
+        "initials": "qh"
+      },
+      "aliases": [
+        {
+          "alias": "千老师",
+          "status": "query_candidate",
+          "source_url": null,
+          "evidence_id": null,
+          "limitation": "姓氏称谓非唯一别名，仅与完整课名联合查询"
+        }
+      ],
+      "course_codes": [
+        "GESP20004"
+      ]
+    }
+  ],
+  "warnings": [
+    "简称/首字母存在歧义，必须与复旦和另一个完整锚点并用",
+    "来源未区分上下册时，简称命中不能自动分配教学班",
+    "query_candidate不是已证实别名",
+    "复旦15中文2018原文中的傅子不作教师实名映射"
+  ],
+  "statistics": {
+    "courses": 163,
+    "teachers": 137,
+    "query_candidates": 1916,
+    "source_attested_course_aliases": 10,
+    "source_attested_teacher_aliases": 5,
+    "supplemental_query_candidates": 20
+  }
+}

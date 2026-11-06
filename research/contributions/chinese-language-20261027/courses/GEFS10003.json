@@ -1,0 +1,2732 @@
+{
+  "schema_version": 1,
+  "course": {
+    "code": "GEFS10003",
+    "name": "语言科学",
+    "department": "中国语言文学系",
+    "credits": 2,
+    "term": "2025秋 / 2026春",
+    "teachers": [
+      "陈振宇",
+      "盛益民",
+      "陈忠敏",
+      "叶婧婷",
+      "史濛辉",
+      "郭永秉",
+      "董建交",
+      "陶寰",
+      "黄河",
+      "刘敏旗",
+      "徐坤宇",
+      "马良",
+      "钱昱夫",
+      "张梦翰",
+      "桂韬"
+    ],
+    "section_code": null,
+    "class_type": "ordinary",
+    "course_type_code": null,
+    "program_year": null,
+    "program_names": [],
+    "required_or_elective": null
+  },
+  "aliases": {
+    "course_names": [],
+    "teacher_names_or_pinyin": [
+      {
+        "teacher": "陈忠敏",
+        "value": "陈忠敏",
+        "kind": "canonical_name",
+        "status": "official_target_name"
+      },
+      {
+        "teacher": "陈忠敏",
+        "value": "chenzhongmin",
+        "kind": "full_joined",
+        "status": "generated_query_candidate"
+      },
+      {
+        "teacher": "陈忠敏",
+        "value": "chen zhong min",
+        "kind": "full_spaced",
+        "status": "generated_query_candidate"
+      },
+      {
+        "teacher": "陈忠敏",
+        "value": "czm",
+        "kind": "initials",
+        "status": "generated_query_candidate"
+      },
+      {
+        "teacher": "陈忠敏",
+        "value": "陈老师",
+        "kind": "teacher_alias",
+        "status": "query_candidate",
+        "source_url": null,
+        "evidence_id": null,
+        "limitation": "姓氏称谓非唯一别名，仅与完整课名联合查询"
+      },
+      {
+        "teacher": "陶寰",
+        "value": "陶寰",
+        "kind": "canonical_name",
+        "status": "official_target_name"
+      },
+      {
+        "teacher": "陶寰",
+        "value": "taohuan",
+        "kind": "full_joined",
+        "status": "generated_query_candidate"
+      },
+      {
+        "teacher": "陶寰",
+        "value": "tao huan",
+        "kind": "full_spaced",
+        "status": "generated_query_candidate"
+      },
+      {
+        "teacher": "陶寰",
+        "value": "th",
+        "kind": "initials",
+        "status": "generated_query_candidate"
+      },
+      {
+        "teacher": "陶寰",
+        "value": "陶老师",
+        "kind": "teacher_alias",
+        "status": "query_candidate",
+        "source_url": null,
+        "evidence_id": null,
+        "limitation": "姓氏称谓非唯一别名，仅与完整课名联合查询"
+      },
+      {
+        "teacher": "史濛辉",
+        "value": "史濛辉",
+        "kind": "canonical_name",
+        "status": "official_target_name"
+      },
+      {
+        "teacher": "史濛辉",
+        "value": "shimenghui",
+        "kind": "full_joined",
+        "status": "generated_query_candidate"
+      },
+      {
+        "teacher": "史濛辉",
+        "value": "shi meng hui",
+        "kind": "full_spaced",
+        "status": "generated_query_candidate"
+      },
+      {
+        "teacher": "史濛辉",
+        "value": "smh",
+        "kind": "initials",
+        "status": "generated_query_candidate"
+      },
+      {
+        "teacher": "史濛辉",
+        "value": "史老师",
+        "kind": "teacher_alias",
+        "status": "query_candidate",
+        "source_url": null,
+        "evidence_id": null,
+        "limitation": "姓氏称谓非唯一别名，仅与完整课名联合查询"
+      },
+      {
+        "teacher": "刘敏旗",
+        "value": "刘敏旗",
+        "kind": "canonical_name",
+        "status": "official_target_name"
+      },
+      {
+        "teacher": "刘敏旗",
+        "value": "liuminqi",
+        "kind": "full_joined",
+        "status": "generated_query_candidate"
+      },
+      {
+        "teacher": "刘敏旗",
+        "value": "liu min qi",
+        "kind": "full_spaced",
+        "status": "generated_query_candidate"
+      },
+      {
+        "teacher": "刘敏旗",
+        "value": "lmq",
+        "kind": "initials",
+        "status": "generated_query_candidate"
+      },
+      {
+        "teacher": "刘敏旗",
+        "value": "刘老师",
+        "kind": "teacher_alias",
+        "status": "query_candidate",
+        "source_url": null,
+        "evidence_id": null,
+        "limitation": "姓氏称谓非唯一别名，仅与完整课名联合查询"
+      },
+      {
+        "teacher": "董建交",
+        "value": "董建交",
+        "kind": "canonical_name",
+        "status": "official_target_name"
+      },
+      {
+        "teacher": "董建交",
+        "value": "dongjianjiao",
+        "kind": "full_joined",
+        "status": "generated_query_candidate"
+      },
+      {
+        "teacher": "董建交",
+        "value": "dong jian jiao",
+        "kind": "full_spaced",
+        "status": "generated_query_candidate"
+      },
+      {
+        "teacher": "董建交",
+        "value": "djj",
+        "kind": "initials",
+        "status": "generated_query_candidate"
+      },
+      {
+        "teacher": "董建交",
+        "value": "董老师",
+        "kind": "teacher_alias",
+        "status": "query_candidate",
+        "source_url": null,
+        "evidence_id": null,
+        "limitation": "姓氏称谓非唯一别名，仅与完整课名联合查询"
+      },
+      {
+        "teacher": "叶婧婷",
+        "value": "叶婧婷",
+        "kind": "canonical_name",
+        "status": "official_target_name"
+      },
+      {
+        "teacher": "叶婧婷",
+        "value": "yejingting",
+        "kind": "full_joined",
+        "status": "generated_query_candidate"
+      },
+      {
+        "teacher": "叶婧婷",
+        "value": "ye jing ting",
+        "kind": "full_spaced",
+        "status": "generated_query_candidate"
+      },
+      {
+        "teacher": "叶婧婷",
+        "value": "yjt",
+        "kind": "initials",
+        "status": "generated_query_candidate"
+      },
+      {
+        "teacher": "叶婧婷",
+        "value": "叶老师",
+        "kind": "teacher_alias",
+        "status": "query_candidate",
+        "source_url": null,
+        "evidence_id": null,
+        "limitation": "姓氏称谓非唯一别名，仅与完整课名联合查询"
+      },
+      {
+        "teacher": "钱昱夫",
+        "value": "钱昱夫",
+        "kind": "canonical_name",
+        "status": "official_target_name"
+      },
+      {
+        "teacher": "钱昱夫",
+        "value": "qianyufu",
+        "kind": "full_joined",
+        "status": "generated_query_candidate"
+      },
+      {
+        "teacher": "钱昱夫",
+        "value": "qian yu fu",
+        "kind": "full_spaced",
+        "status": "generated_query_candidate"
+      },
+      {
+        "teacher": "钱昱夫",
+        "value": "qyf",
+        "kind": "initials",
+        "status": "generated_query_candidate"
+      },
+      {
+        "teacher": "钱昱夫",
+        "value": "钱老师",
+        "kind": "teacher_alias",
+        "status": "query_candidate",
+        "source_url": null,
+        "evidence_id": null,
+        "limitation": "姓氏称谓非唯一别名，仅与完整课名联合查询"
+      },
+      {
+        "teacher": "马良",
+        "value": "马良",
+        "kind": "canonical_name",
+        "status": "official_target_name"
+      },
+      {
+        "teacher": "马良",
+        "value": "maliang",
+        "kind": "full_joined",
+        "status": "generated_query_candidate"
+      },
+      {
+        "teacher": "马良",
+        "value": "ma liang",
+        "kind": "full_spaced",
+        "status": "generated_query_candidate"
+      },
+      {
+        "teacher": "马良",
+        "value": "ml",
+        "kind": "initials",
+        "status": "generated_query_candidate"
+      },
+      {
+        "teacher": "马良",
+        "value": "马老师",
+        "kind": "teacher_alias",
+        "status": "query_candidate",
+        "source_url": null,
+        "evidence_id": null,
+        "limitation": "姓氏称谓非唯一别名，仅与完整课名联合查询"
+      },
+      {
+        "teacher": "黄河",
+        "value": "黄河",
+        "kind": "canonical_name",
+        "status": "official_target_name"
+      },
+      {
+        "teacher": "黄河",
+        "value": "huanghe",
+        "kind": "full_joined",
+        "status": "generated_query_candidate"
+      },
+      {
+        "teacher": "黄河",
+        "value": "huang he",
+        "kind": "full_spaced",
+        "status": "generated_query_candidate"
+      },
+      {
+        "teacher": "黄河",
+        "value": "hh",
+        "kind": "initials",
+        "status": "generated_query_candidate"
+      },
+      {
+        "teacher": "黄河",
+        "value": "黄老师",
+        "kind": "teacher_alias",
+        "status": "query_candidate",
+        "source_url": null,
+        "evidence_id": null,
+        "limitation": "姓氏称谓非唯一别名，仅与完整课名联合查询"
+      },
+      {
+        "teacher": "陈振宇",
+        "value": "陈振宇",
+        "kind": "canonical_name",
+        "status": "official_target_name"
+      },
+      {
+        "teacher": "陈振宇",
+        "value": "chenzhenyu",
+        "kind": "full_joined",
+        "status": "generated_query_candidate"
+      },
+      {
+        "teacher": "陈振宇",
+        "value": "chen zhen yu",
+        "kind": "full_spaced",
+        "status": "generated_query_candidate"
+      },
+      {
+        "teacher": "陈振宇",
+        "value": "czy",
+        "kind": "initials",
+        "status": "generated_query_candidate"
+      },
+      {
+        "teacher": "陈振宇",
+        "value": "陈老师",
+        "kind": "teacher_alias",
+        "status": "query_candidate",
+        "source_url": null,
+        "evidence_id": null,
+        "limitation": "姓氏称谓非唯一别名，仅与完整课名联合查询"
+      },
+      {
+        "teacher": "盛益民",
+        "value": "盛益民",
+        "kind": "canonical_name",
+        "status": "official_target_name"
+      },
+      {
+        "teacher": "盛益民",
+        "value": "shengyimin",
+        "kind": "full_joined",
+        "status": "generated_query_candidate"
+      },
+      {
+        "teacher": "盛益民",
+        "value": "sheng yi min",
+        "kind": "full_spaced",
+        "status": "generated_query_candidate"
+      },
+      {
+        "teacher": "盛益民",
+        "value": "sym",
+        "kind": "initials",
+        "status": "generated_query_candidate"
+      },
+      {
+        "teacher": "盛益民",
+        "value": "盛老师",
+        "kind": "teacher_alias",
+        "status": "query_candidate",
+        "source_url": null,
+        "evidence_id": null,
+        "limitation": "姓氏称谓非唯一别名，仅与完整课名联合查询"
+      },
+      {
+        "teacher": "郭永秉",
+        "value": "郭永秉",
+        "kind": "canonical_name",
+        "status": "official_target_name"
+      },
+      {
+        "teacher": "郭永秉",
+        "value": "guoyongbing",
+        "kind": "full_joined",
+        "status": "generated_query_candidate"
+      },
+      {
+        "teacher": "郭永秉",
+        "value": "guo yong bing",
+        "kind": "full_spaced",
+        "status": "generated_query_candidate"
+      },
+      {
+        "teacher": "郭永秉",
+        "value": "gyb",
+        "kind": "initials",
+        "status": "generated_query_candidate"
+      },
+      {
+        "teacher": "郭永秉",
+        "value": "郭老师",
+        "kind": "teacher_alias",
+        "status": "query_candidate",
+        "source_url": null,
+        "evidence_id": null,
+        "limitation": "姓氏称谓非唯一别名，仅与完整课名联合查询"
+      },
+      {
+        "teacher": "徐坤宇",
+        "value": "徐坤宇",
+        "kind": "canonical_name",
+        "status": "official_target_name"
+      },
+      {
+        "teacher": "徐坤宇",
+        "value": "xukunyu",
+        "kind": "full_joined",
+        "status": "generated_query_candidate"
+      },
+      {
+        "teacher": "徐坤宇",
+        "value": "xu kun yu",
+        "kind": "full_spaced",
+        "status": "generated_query_candidate"
+      },
+      {
+        "teacher": "徐坤宇",
+        "value": "xky",
+        "kind": "initials",
+        "status": "generated_query_candidate"
+      },
+      {
+        "teacher": "徐坤宇",
+        "value": "徐老师",
+        "kind": "teacher_alias",
+        "status": "query_candidate",
+        "source_url": null,
+        "evidence_id": null,
+        "limitation": "姓氏称谓非唯一别名，仅与完整课名联合查询"
+      },
+      {
+        "teacher": "张梦翰",
+        "value": "张梦翰",
+        "kind": "canonical_name",
+        "status": "official_target_name"
+      },
+      {
+        "teacher": "张梦翰",
+        "value": "zhangmenghan",
+        "kind": "full_joined",
+        "status": "generated_query_candidate"
+      },
+      {
+        "teacher": "张梦翰",
+        "value": "zhang meng han",
+        "kind": "full_spaced",
+        "status": "generated_query_candidate"
+      },
+      {
+        "teacher": "张梦翰",
+        "value": "zmh",
+        "kind": "initials",
+        "status": "generated_query_candidate"
+      },
+      {
+        "teacher": "张梦翰",
+        "value": "张老师",
+        "kind": "teacher_alias",
+        "status": "query_candidate",
+        "source_url": null,
+        "evidence_id": null,
+        "limitation": "姓氏称谓非唯一别名，仅与完整课名联合查询"
+      },
+      {
+        "teacher": "桂韬",
+        "value": "桂韬",
+        "kind": "canonical_name",
+        "status": "official_target_name"
+      },
+      {
+        "teacher": "桂韬",
+        "value": "guitao",
+        "kind": "full_joined",
+        "status": "generated_query_candidate"
+      },
+      {
+        "teacher": "桂韬",
+        "value": "gui tao",
+        "kind": "full_spaced",
+        "status": "generated_query_candidate"
+      },
+      {
+        "teacher": "桂韬",
+        "value": "gt",
+        "kind": "initials",
+        "status": "generated_query_candidate"
+      },
+      {
+        "teacher": "桂韬",
+        "value": "桂老师",
+        "kind": "teacher_alias",
+        "status": "query_candidate",
+        "source_url": null,
+        "evidence_id": null,
+        "limitation": "姓氏称谓非唯一别名，仅与完整课名联合查询"
+      }
+    ],
+    "ambiguous_matches": [
+      {
+        "value": "yuyankexue",
+        "kind": "course_pinyin_full_joined",
+        "status": "generated_query_candidate",
+        "limitation": "Generated transliteration is a search term, not an attested spoken alias."
+      },
+      {
+        "value": "yu yan ke xue",
+        "kind": "course_pinyin_full_spaced",
+        "status": "generated_query_candidate",
+        "limitation": "Generated transliteration is a search term, not an attested spoken alias."
+      },
+      {
+        "value": "yykx",
+        "kind": "course_pinyin_initials",
+        "status": "generated_query_candidate",
+        "limitation": "Generated transliteration is a search term, not an attested spoken alias."
+      },
+      {
+        "teacher": "陈忠敏",
+        "value": "chenzhongmin",
+        "kind": "full_joined",
+        "status": "generated_query_candidate",
+        "limitation": "Generated transliteration is a search token, not proof of person identity."
+      },
+      {
+        "teacher": "陈忠敏",
+        "value": "chen zhong min",
+        "kind": "full_spaced",
+        "status": "generated_query_candidate",
+        "limitation": "Generated transliteration is a search token, not proof of person identity."
+      },
+      {
+        "teacher": "陈忠敏",
+        "value": "czm",
+        "kind": "initials",
+        "status": "generated_query_candidate",
+        "limitation": "Generated transliteration is a search token, not proof of person identity."
+      },
+      {
+        "teacher": "陈忠敏",
+        "value": "陈老师",
+        "kind": "teacher_alias",
+        "status": "query_candidate",
+        "source_url": null,
+        "evidence_id": null,
+        "limitation": "姓氏称谓非唯一别名，仅与完整课名联合查询"
+      },
+      {
+        "teacher": "陶寰",
+        "value": "taohuan",
+        "kind": "full_joined",
+        "status": "generated_query_candidate",
+        "limitation": "Generated transliteration is a search token, not proof of person identity."
+      },
+      {
+        "teacher": "陶寰",
+        "value": "tao huan",
+        "kind": "full_spaced",
+        "status": "generated_query_candidate",
+        "limitation": "Generated transliteration is a search token, not proof of person identity."
+      },
+      {
+        "teacher": "陶寰",
+        "value": "th",
+        "kind": "initials",
+        "status": "generated_query_candidate",
+        "limitation": "Generated transliteration is a search token, not proof of person identity."
+      },
+      {
+        "teacher": "陶寰",
+        "value": "陶老师",
+        "kind": "teacher_alias",
+        "status": "query_candidate",
+        "source_url": null,
+        "evidence_id": null,
+        "limitation": "姓氏称谓非唯一别名，仅与完整课名联合查询"
+      },
+      {
+        "teacher": "史濛辉",
+        "value": "shimenghui",
+        "kind": "full_joined",
+        "status": "generated_query_candidate",
+        "limitation": "Generated transliteration is a search token, not proof of person identity."
+      },
+      {
+        "teacher": "史濛辉",
+        "value": "shi meng hui",
+        "kind": "full_spaced",
+        "status": "generated_query_candidate",
+        "limitation": "Generated transliteration is a search token, not proof of person identity."
+      },
+      {
+        "teacher": "史濛辉",
+        "value": "smh",
+        "kind": "initials",
+        "status": "generated_query_candidate",
+        "limitation": "Generated transliteration is a search token, not proof of person identity."
+      },
+      {
+        "teacher": "史濛辉",
+        "value": "史老师",
+        "kind": "teacher_alias",
+        "status": "query_candidate",
+        "source_url": null,
+        "evidence_id": null,
+        "limitation": "姓氏称谓非唯一别名，仅与完整课名联合查询"
+      },
+      {
+        "teacher": "刘敏旗",
+        "value": "liuminqi",
+        "kind": "full_joined",
+        "status": "generated_query_candidate",
+        "limitation": "Generated transliteration is a search token, not proof of person identity."
+      },
+      {
+        "teacher": "刘敏旗",
+        "value": "liu min qi",
+        "kind": "full_spaced",
+        "status": "generated_query_candidate",
+        "limitation": "Generated transliteration is a search token, not proof of person identity."
+      },
+      {
+        "teacher": "刘敏旗",
+        "value": "lmq",
+        "kind": "initials",
+        "status": "generated_query_candidate",
+        "limitation": "Generated transliteration is a search token, not proof of person identity."
+      },
+      {
+        "teacher": "刘敏旗",
+        "value": "刘老师",
+        "kind": "teacher_alias",
+        "status": "query_candidate",
+        "source_url": null,
+        "evidence_id": null,
+        "limitation": "姓氏称谓非唯一别名，仅与完整课名联合查询"
+      },
+      {
+        "teacher": "董建交",
+        "value": "dongjianjiao",
+        "kind": "full_joined",
+        "status": "generated_query_candidate",
+        "limitation": "Generated transliteration is a search token, not proof of person identity."
+      },
+      {
+        "teacher": "董建交",
+        "value": "dong jian jiao",
+        "kind": "full_spaced",
+        "status": "generated_query_candidate",
+        "limitation": "Generated transliteration is a search token, not proof of person identity."
+      },
+      {
+        "teacher": "董建交",
+        "value": "djj",
+        "kind": "initials",
+        "status": "generated_query_candidate",
+        "limitation": "Generated transliteration is a search token, not proof of person identity."
+      },
+      {
+        "teacher": "董建交",
+        "value": "董老师",
+        "kind": "teacher_alias",
+        "status": "query_candidate",
+        "source_url": null,
+        "evidence_id": null,
+        "limitation": "姓氏称谓非唯一别名，仅与完整课名联合查询"
+      },
+      {
+        "teacher": "叶婧婷",
+        "value": "yejingting",
+        "kind": "full_joined",
+        "status": "generated_query_candidate",
+        "limitation": "Generated transliteration is a search token, not proof of person identity."
+      },
+      {
+        "teacher": "叶婧婷",
+        "value": "ye jing ting",
+        "kind": "full_spaced",
+        "status": "generated_query_candidate",
+        "limitation": "Generated transliteration is a search token, not proof of person identity."
+      },
+      {
+        "teacher": "叶婧婷",
+        "value": "yjt",
+        "kind": "initials",
+        "status": "generated_query_candidate",
+        "limitation": "Generated transliteration is a search token, not proof of person identity."
+      },
+      {
+        "teacher": "叶婧婷",
+        "value": "叶老师",
+        "kind": "teacher_alias",
+        "status": "query_candidate",
+        "source_url": null,
+        "evidence_id": null,
+        "limitation": "姓氏称谓非唯一别名，仅与完整课名联合查询"
+      },
+      {
+        "teacher": "钱昱夫",
+        "value": "qianyufu",
+        "kind": "full_joined",
+        "status": "generated_query_candidate",
+        "limitation": "Generated transliteration is a search token, not proof of person identity."
+      },
+      {
+        "teacher": "钱昱夫",
+        "value": "qian yu fu",
+        "kind": "full_spaced",
+        "status": "generated_query_candidate",
+        "limitation": "Generated transliteration is a search token, not proof of person identity."
+      },
+      {
+        "teacher": "钱昱夫",
+        "value": "qyf",
+        "kind": "initials",
+        "status": "generated_query_candidate",
+        "limitation": "Generated transliteration is a search token, not proof of person identity."
+      },
+      {
+        "teacher": "钱昱夫",
+        "value": "钱老师",
+        "kind": "teacher_alias",
+        "status": "query_candidate",
+        "source_url": null,
+        "evidence_id": null,
+        "limitation": "姓氏称谓非唯一别名，仅与完整课名联合查询"
+      },
+      {
+        "teacher": "马良",
+        "value": "maliang",
+        "kind": "full_joined",
+        "status": "generated_query_candidate",
+        "limitation": "Generated transliteration is a search token, not proof of person identity."
+      },
+      {
+        "teacher": "马良",
+        "value": "ma liang",
+        "kind": "full_spaced",
+        "status": "generated_query_candidate",
+        "limitation": "Generated transliteration is a search token, not proof of person identity."
+      },
+      {
+        "teacher": "马良",
+        "value": "ml",
+        "kind": "initials",
+        "status": "generated_query_candidate",
+        "limitation": "Generated transliteration is a search token, not proof of person identity."
+      },
+      {
+        "teacher": "马良",
+        "value": "马老师",
+        "kind": "teacher_alias",
+        "status": "query_candidate",
+        "source_url": null,
+        "evidence_id": null,
+        "limitation": "姓氏称谓非唯一别名，仅与完整课名联合查询"
+      },
+      {
+        "teacher": "黄河",
+        "value": "huanghe",
+        "kind": "full_joined",
+        "status": "generated_query_candidate",
+        "limitation": "Generated transliteration is a search token, not proof of person identity."
+      },
+      {
+        "teacher": "黄河",
+        "value": "huang he",
+        "kind": "full_spaced",
+        "status": "generated_query_candidate",
+        "limitation": "Generated transliteration is a search token, not proof of person identity."
+      },
+      {
+        "teacher": "黄河",
+        "value": "hh",
+        "kind": "initials",
+        "status": "generated_query_candidate",
+        "limitation": "Generated transliteration is a search token, not proof of person identity."
+      },
+      {
+        "teacher": "黄河",
+        "value": "黄老师",
+        "kind": "teacher_alias",
+        "status": "query_candidate",
+        "source_url": null,
+        "evidence_id": null,
+        "limitation": "姓氏称谓非唯一别名，仅与完整课名联合查询"
+      },
+      {
+        "teacher": "陈振宇",
+        "value": "chenzhenyu",
+        "kind": "full_joined",
+        "status": "generated_query_candidate",
+        "limitation": "Generated transliteration is a search token, not proof of person identity."
+      },
+      {
+        "teacher": "陈振宇",
+        "value": "chen zhen yu",
+        "kind": "full_spaced",
+        "status": "generated_query_candidate",
+        "limitation": "Generated transliteration is a search token, not proof of person identity."
+      },
+      {
+        "teacher": "陈振宇",
+        "value": "czy",
+        "kind": "initials",
+        "status": "generated_query_candidate",
+        "limitation": "Generated transliteration is a search token, not proof of person identity."
+      },
+      {
+        "teacher": "陈振宇",
+        "value": "陈老师",
+        "kind": "teacher_alias",
+        "status": "query_candidate",
+        "source_url": null,
+        "evidence_id": null,
+        "limitation": "姓氏称谓非唯一别名，仅与完整课名联合查询"
+      },
+      {
+        "teacher": "盛益民",
+        "value": "shengyimin",
+        "kind": "full_joined",
+        "status": "generated_query_candidate",
+        "limitation": "Generated transliteration is a search token, not proof of person identity."
+      },
+      {
+        "teacher": "盛益民",
+        "value": "sheng yi min",
+        "kind": "full_spaced",
+        "status": "generated_query_candidate",
+        "limitation": "Generated transliteration is a search token, not proof of person identity."
+      },
+      {
+        "teacher": "盛益民",
+        "value": "sym",
+        "kind": "initials",
+        "status": "generated_query_candidate",
+        "limitation": "Generated transliteration is a search token, not proof of person identity."
+      },
+      {
+        "teacher": "盛益民",
+        "value": "盛老师",
+        "kind": "teacher_alias",
+        "status": "query_candidate",
+        "source_url": null,
+        "evidence_id": null,
+        "limitation": "姓氏称谓非唯一别名，仅与完整课名联合查询"
+      },
+      {
+        "teacher": "郭永秉",
+        "value": "guoyongbing",
+        "kind": "full_joined",
+        "status": "generated_query_candidate",
+        "limitation": "Generated transliteration is a search token, not proof of person identity."
+      },
+      {
+        "teacher": "郭永秉",
+        "value": "guo yong bing",
+        "kind": "full_spaced",
+        "status": "generated_query_candidate",
+        "limitation": "Generated transliteration is a search token, not proof of person identity."
+      },
+      {
+        "teacher": "郭永秉",
+        "value": "gyb",
+        "kind": "initials",
+        "status": "generated_query_candidate",
+        "limitation": "Generated transliteration is a search token, not proof of person identity."
+      },
+      {
+        "teacher": "郭永秉",
+        "value": "郭老师",
+        "kind": "teacher_alias",
+        "status": "query_candidate",
+        "source_url": null,
+        "evidence_id": null,
+        "limitation": "姓氏称谓非唯一别名，仅与完整课名联合查询"
+      },
+      {
+        "teacher": "徐坤宇",
+        "value": "xukunyu",
+        "kind": "full_joined",
+        "status": "generated_query_candidate",
+        "limitation": "Generated transliteration is a search token, not proof of person identity."
+      },
+      {
+        "teacher": "徐坤宇",
+        "value": "xu kun yu",
+        "kind": "full_spaced",
+        "status": "generated_query_candidate",
+        "limitation": "Generated transliteration is a search token, not proof of person identity."
+      },
+      {
+        "teacher": "徐坤宇",
+        "value": "xky",
+        "kind": "initials",
+        "status": "generated_query_candidate",
+        "limitation": "Generated transliteration is a search token, not proof of person identity."
+      },
+      {
+        "teacher": "徐坤宇",
+        "value": "徐老师",
+        "kind": "teacher_alias",
+        "status": "query_candidate",
+        "source_url": null,
+        "evidence_id": null,
+        "limitation": "姓氏称谓非唯一别名，仅与完整课名联合查询"
+      },
+      {
+        "teacher": "张梦翰",
+        "value": "zhangmenghan",
+        "kind": "full_joined",
+        "status": "generated_query_candidate",
+        "limitation": "Generated transliteration is a search token, not proof of person identity."
+      },
+      {
+        "teacher": "张梦翰",
+        "value": "zhang meng han",
+        "kind": "full_spaced",
+        "status": "generated_query_candidate",
+        "limitation": "Generated transliteration is a search token, not proof of person identity."
+      },
+      {
+        "teacher": "张梦翰",
+        "value": "zmh",
+        "kind": "initials",
+        "status": "generated_query_candidate",
+        "limitation": "Generated transliteration is a search token, not proof of person identity."
+      },
+      {
+        "teacher": "张梦翰",
+        "value": "张老师",
+        "kind": "teacher_alias",
+        "status": "query_candidate",
+        "source_url": null,
+        "evidence_id": null,
+        "limitation": "姓氏称谓非唯一别名，仅与完整课名联合查询"
+      },
+      {
+        "teacher": "桂韬",
+        "value": "guitao",
+        "kind": "full_joined",
+        "status": "generated_query_candidate",
+        "limitation": "Generated transliteration is a search token, not proof of person identity."
+      },
+      {
+        "teacher": "桂韬",
+        "value": "gui tao",
+        "kind": "full_spaced",
+        "status": "generated_query_candidate",
+        "limitation": "Generated transliteration is a search token, not proof of person identity."
+      },
+      {
+        "teacher": "桂韬",
+        "value": "gt",
+        "kind": "initials",
+        "status": "generated_query_candidate",
+        "limitation": "Generated transliteration is a search token, not proof of person identity."
+      },
+      {
+        "teacher": "桂韬",
+        "value": "桂老师",
+        "kind": "teacher_alias",
+        "status": "query_candidate",
+        "source_url": null,
+        "evidence_id": null,
+        "limitation": "姓氏称谓非唯一别名，仅与完整课名联合查询"
+      }
+    ]
+  },
+  "progress": {
+    "owner": "",
+    "reviewer": "",
+    "status": "in_progress",
+    "queries": [
+      {
+        "query_id": "PLATFORM-GEFS10003-2025秋 / 2026春-小红书",
+        "category": "canonical_title_teacher_platform_search",
+        "term": "2025秋 / 2026春",
+        "query": "复旦 \"语言科学\" 课程 评价",
+        "status": "no_link_returned",
+        "search_scope": "platform_specific_external_search_index",
+        "domains": [
+          "xiaohongshu.com"
+        ],
+        "attempts": 1,
+        "returned_link_count": 0,
+        "confirmed_direct_reviews": 0,
+        "read_status": "search_index_only",
+        "source_file": "reports/公开平台逐课检索台账.csv",
+        "source_record_id": "PLATFORM-GEFS10003-2025秋 / 2026春-小红书",
+        "source_record_pointer": "course_code=GEFS10003;terms=2025秋 / 2026春;platform=小红书",
+        "limitation": "外部搜索索引覆盖有限；不代表站内不存在"
+      },
+      {
+        "query_id": "PLATFORM-GEFS10003-2025秋 / 2026春-微信公众号",
+        "category": "canonical_title_teacher_platform_search",
+        "term": "2025秋 / 2026春",
+        "query": "复旦 \"语言科学\" 课程 评价",
+        "status": "no_link_returned",
+        "search_scope": "platform_specific_external_search_index",
+        "domains": [
+          "mp.weixin.qq.com"
+        ],
+        "attempts": 1,
+        "returned_link_count": 0,
+        "confirmed_direct_reviews": 0,
+        "read_status": "search_index_only",
+        "source_file": "reports/公开平台逐课检索台账.csv",
+        "source_record_id": "PLATFORM-GEFS10003-2025秋 / 2026春-微信公众号",
+        "source_record_pointer": "course_code=GEFS10003;terms=2025秋 / 2026春;platform=微信公众号",
+        "limitation": "外部搜索索引覆盖有限；不代表站内不存在"
+      },
+      {
+        "query_id": "PLATFORM-GEFS10003-2025秋 / 2026春-知乎",
+        "category": "canonical_title_teacher_platform_search",
+        "term": "2025秋 / 2026春",
+        "query": "复旦 \"语言科学\" 课程 评价",
+        "status": "results_returned_no_adopted_review",
+        "search_scope": "platform_specific_external_search_index",
+        "domains": [
+          "zhihu.com"
+        ],
+        "attempts": 1,
+        "returned_link_count": 12,
+        "confirmed_direct_reviews": 0,
+        "read_status": "search_index_only",
+        "source_file": "reports/公开平台逐课检索台账.csv",
+        "source_record_id": "PLATFORM-GEFS10003-2025秋 / 2026春-知乎",
+        "source_record_pointer": "course_code=GEFS10003;terms=2025秋 / 2026春;platform=知乎",
+        "limitation": "外部搜索索引覆盖有限；不代表站内不存在"
+      },
+      {
+        "query_id": "PUBALIAS-00801",
+        "category": "course_pinyin_full_joined",
+        "term": "yuyankexue",
+        "query": "复旦 \"陈振宇\" \"yuyankexue\"",
+        "status": "completed",
+        "search_scope": "external_index_union_of_three_domains",
+        "domains": [
+          "zhihu.com",
+          "xiaohongshu.com",
+          "mp.weixin.qq.com"
+        ],
+        "attempts": 1,
+        "returned_link_count": 0,
+        "confirmed_direct_reviews": 0,
+        "read_status": "query execution only; not article reading",
+        "source_file": "reports/别名拼音扩展检索台账.csv",
+        "source_record_id": "PUBALIAS-00801",
+        "source_record_pointer": "query_id=PUBALIAS-00801",
+        "limitation": "A union-domain query is one logged record, not one execution per listed platform."
+      },
+      {
+        "query_id": "PUBALIAS-00802",
+        "category": "course_pinyin_full_spaced",
+        "term": "yu yan ke xue",
+        "query": "复旦 \"陈振宇\" \"yu yan ke xue\"",
+        "status": "completed",
+        "search_scope": "external_index_union_of_three_domains",
+        "domains": [
+          "zhihu.com",
+          "xiaohongshu.com",
+          "mp.weixin.qq.com"
+        ],
+        "attempts": 1,
+        "returned_link_count": 0,
+        "confirmed_direct_reviews": 0,
+        "read_status": "query execution only; not article reading",
+        "source_file": "reports/别名拼音扩展检索台账.csv",
+        "source_record_id": "PUBALIAS-00802",
+        "source_record_pointer": "query_id=PUBALIAS-00802",
+        "limitation": "A union-domain query is one logged record, not one execution per listed platform."
+      },
+      {
+        "query_id": "PUBALIAS-00803",
+        "category": "course_pinyin_initials",
+        "term": "yykx",
+        "query": "复旦 \"陈振宇\" \"yykx\"",
+        "status": "completed",
+        "search_scope": "external_index_union_of_three_domains",
+        "domains": [
+          "zhihu.com",
+          "xiaohongshu.com",
+          "mp.weixin.qq.com"
+        ],
+        "attempts": 1,
+        "returned_link_count": 0,
+        "confirmed_direct_reviews": 0,
+        "read_status": "query execution only; not article reading",
+        "source_file": "reports/别名拼音扩展检索台账.csv",
+        "source_record_id": "PUBALIAS-00803",
+        "source_record_pointer": "query_id=PUBALIAS-00803",
+        "limitation": "A union-domain query is one logged record, not one execution per listed platform."
+      },
+      {
+        "query_id": "PUBALIAS-00804",
+        "category": "teacher_pinyin_full_joined",
+        "term": "chenzhenyu",
+        "query": "复旦 \"语言科学\" \"chenzhenyu\"",
+        "status": "completed",
+        "search_scope": "external_index_union_of_three_domains",
+        "domains": [
+          "zhihu.com",
+          "xiaohongshu.com",
+          "mp.weixin.qq.com"
+        ],
+        "attempts": 1,
+        "returned_link_count": 0,
+        "confirmed_direct_reviews": 0,
+        "read_status": "query execution only; not article reading",
+        "source_file": "reports/别名拼音扩展检索台账.csv",
+        "source_record_id": "PUBALIAS-00804",
+        "source_record_pointer": "query_id=PUBALIAS-00804",
+        "limitation": "A union-domain query is one logged record, not one execution per listed platform."
+      },
+      {
+        "query_id": "PUBALIAS-00805",
+        "category": "teacher_pinyin_full_spaced",
+        "term": "chen zhen yu",
+        "query": "复旦 \"语言科学\" \"chen zhen yu\"",
+        "status": "completed",
+        "search_scope": "external_index_union_of_three_domains",
+        "domains": [
+          "zhihu.com",
+          "xiaohongshu.com",
+          "mp.weixin.qq.com"
+        ],
+        "attempts": 1,
+        "returned_link_count": 0,
+        "confirmed_direct_reviews": 0,
+        "read_status": "query execution only; not article reading",
+        "source_file": "reports/别名拼音扩展检索台账.csv",
+        "source_record_id": "PUBALIAS-00805",
+        "source_record_pointer": "query_id=PUBALIAS-00805",
+        "limitation": "A union-domain query is one logged record, not one execution per listed platform."
+      },
+      {
+        "query_id": "PUBALIAS-00806",
+        "category": "teacher_pinyin_initials",
+        "term": "czy",
+        "query": "复旦 \"语言科学\" \"czy\"",
+        "status": "completed",
+        "search_scope": "external_index_union_of_three_domains",
+        "domains": [
+          "zhihu.com",
+          "xiaohongshu.com",
+          "mp.weixin.qq.com"
+        ],
+        "attempts": 1,
+        "returned_link_count": 0,
+        "confirmed_direct_reviews": 0,
+        "read_status": "query execution only; not article reading",
+        "source_file": "reports/别名拼音扩展检索台账.csv",
+        "source_record_id": "PUBALIAS-00806",
+        "source_record_pointer": "query_id=PUBALIAS-00806",
+        "limitation": "A union-domain query is one logged record, not one execution per listed platform."
+      },
+      {
+        "query_id": "PUBALIAS-00807",
+        "category": "teacher_alias",
+        "term": "陈老师",
+        "query": "复旦 \"语言科学\" \"陈老师\"",
+        "status": "completed",
+        "search_scope": "external_index_union_of_three_domains",
+        "domains": [
+          "zhihu.com",
+          "xiaohongshu.com",
+          "mp.weixin.qq.com"
+        ],
+        "attempts": 1,
+        "returned_link_count": 0,
+        "confirmed_direct_reviews": 0,
+        "read_status": "query execution only; not article reading",
+        "source_file": "reports/别名拼音扩展检索台账.csv",
+        "source_record_id": "PUBALIAS-00807",
+        "source_record_pointer": "query_id=PUBALIAS-00807",
+        "limitation": "A union-domain query is one logged record, not one execution per listed platform."
+      },
+      {
+        "query_id": "PUBALIAS-00808",
+        "category": "teacher_pinyin_full_joined",
+        "term": "shengyimin",
+        "query": "复旦 \"语言科学\" \"shengyimin\"",
+        "status": "completed",
+        "search_scope": "external_index_union_of_three_domains",
+        "domains": [
+          "zhihu.com",
+          "xiaohongshu.com",
+          "mp.weixin.qq.com"
+        ],
+        "attempts": 1,
+        "returned_link_count": 0,
+        "confirmed_direct_reviews": 0,
+        "read_status": "query execution only; not article reading",
+        "source_file": "reports/别名拼音扩展检索台账.csv",
+        "source_record_id": "PUBALIAS-00808",
+        "source_record_pointer": "query_id=PUBALIAS-00808",
+        "limitation": "A union-domain query is one logged record, not one execution per listed platform."
+      },
+      {
+        "query_id": "PUBALIAS-00809",
+        "category": "teacher_pinyin_full_spaced",
+        "term": "sheng yi min",
+        "query": "复旦 \"语言科学\" \"sheng yi min\"",
+        "status": "completed",
+        "search_scope": "external_index_union_of_three_domains",
+        "domains": [
+          "zhihu.com",
+          "xiaohongshu.com",
+          "mp.weixin.qq.com"
+        ],
+        "attempts": 1,
+        "returned_link_count": 0,
+        "confirmed_direct_reviews": 0,
+        "read_status": "query execution only; not article reading",
+        "source_file": "reports/别名拼音扩展检索台账.csv",
+        "source_record_id": "PUBALIAS-00809",
+        "source_record_pointer": "query_id=PUBALIAS-00809",
+        "limitation": "A union-domain query is one logged record, not one execution per listed platform."
+      },
+      {
+        "query_id": "PUBALIAS-00810",
+        "category": "teacher_pinyin_initials",
+        "term": "sym",
+        "query": "复旦 \"语言科学\" \"sym\"",
+        "status": "completed",
+        "search_scope": "external_index_union_of_three_domains",
+        "domains": [
+          "zhihu.com",
+          "xiaohongshu.com",
+          "mp.weixin.qq.com"
+        ],
+        "attempts": 1,
+        "returned_link_count": 0,
+        "confirmed_direct_reviews": 0,
+        "read_status": "query execution only; not article reading",
+        "source_file": "reports/别名拼音扩展检索台账.csv",
+        "source_record_id": "PUBALIAS-00810",
+        "source_record_pointer": "query_id=PUBALIAS-00810",
+        "limitation": "A union-domain query is one logged record, not one execution per listed platform."
+      },
+      {
+        "query_id": "PUBALIAS-00811",
+        "category": "teacher_alias",
+        "term": "盛老师",
+        "query": "复旦 \"语言科学\" \"盛老师\"",
+        "status": "completed",
+        "search_scope": "external_index_union_of_three_domains",
+        "domains": [
+          "zhihu.com",
+          "xiaohongshu.com",
+          "mp.weixin.qq.com"
+        ],
+        "attempts": 1,
+        "returned_link_count": 0,
+        "confirmed_direct_reviews": 0,
+        "read_status": "query execution only; not article reading",
+        "source_file": "reports/别名拼音扩展检索台账.csv",
+        "source_record_id": "PUBALIAS-00811",
+        "source_record_pointer": "query_id=PUBALIAS-00811",
+        "limitation": "A union-domain query is one logged record, not one execution per listed platform."
+      },
+      {
+        "query_id": "PUBALIAS-00812",
+        "category": "teacher_pinyin_full_joined",
+        "term": "chenzhongmin",
+        "query": "复旦 \"语言科学\" \"chenzhongmin\"",
+        "status": "completed",
+        "search_scope": "external_index_union_of_three_domains",
+        "domains": [
+          "zhihu.com",
+          "xiaohongshu.com",
+          "mp.weixin.qq.com"
+        ],
+        "attempts": 1,
+        "returned_link_count": 0,
+        "confirmed_direct_reviews": 0,
+        "read_status": "query execution only; not article reading",
+        "source_file": "reports/别名拼音扩展检索台账.csv",
+        "source_record_id": "PUBALIAS-00812",
+        "source_record_pointer": "query_id=PUBALIAS-00812",
+        "limitation": "A union-domain query is one logged record, not one execution per listed platform."
+      },
+      {
+        "query_id": "PUBALIAS-00813",
+        "category": "teacher_pinyin_full_spaced",
+        "term": "chen zhong min",
+        "query": "复旦 \"语言科学\" \"chen zhong min\"",
+        "status": "completed",
+        "search_scope": "external_index_union_of_three_domains",
+        "domains": [
+          "zhihu.com",
+          "xiaohongshu.com",
+          "mp.weixin.qq.com"
+        ],
+        "attempts": 1,
+        "returned_link_count": 0,
+        "confirmed_direct_reviews": 0,
+        "read_status": "query execution only; not article reading",
+        "source_file": "reports/别名拼音扩展检索台账.csv",
+        "source_record_id": "PUBALIAS-00813",
+        "source_record_pointer": "query_id=PUBALIAS-00813",
+        "limitation": "A union-domain query is one logged record, not one execution per listed platform."
+      },
+      {
+        "query_id": "PUBALIAS-00814",
+        "category": "teacher_pinyin_initials",
+        "term": "czm",
+        "query": "复旦 \"语言科学\" \"czm\"",
+        "status": "completed",
+        "search_scope": "external_index_union_of_three_domains",
+        "domains": [
+          "zhihu.com",
+          "xiaohongshu.com",
+          "mp.weixin.qq.com"
+        ],
+        "attempts": 1,
+        "returned_link_count": 0,
+        "confirmed_direct_reviews": 0,
+        "read_status": "query execution only; not article reading",
+        "source_file": "reports/别名拼音扩展检索台账.csv",
+        "source_record_id": "PUBALIAS-00814",
+        "source_record_pointer": "query_id=PUBALIAS-00814",
+        "limitation": "A union-domain query is one logged record, not one execution per listed platform."
+      },
+      {
+        "query_id": "PUBALIAS-00815",
+        "category": "teacher_pinyin_full_joined",
+        "term": "yejingting",
+        "query": "复旦 \"语言科学\" \"yejingting\"",
+        "status": "completed",
+        "search_scope": "external_index_union_of_three_domains",
+        "domains": [
+          "zhihu.com",
+          "xiaohongshu.com",
+          "mp.weixin.qq.com"
+        ],
+        "attempts": 1,
+        "returned_link_count": 0,
+        "confirmed_direct_reviews": 0,
+        "read_status": "query execution only; not article reading",
+        "source_file": "reports/别名拼音扩展检索台账.csv",
+        "source_record_id": "PUBALIAS-00815",
+        "source_record_pointer": "query_id=PUBALIAS-00815",
+        "limitation": "A union-domain query is one logged record, not one execution per listed platform."
+      },
+      {
+        "query_id": "PUBALIAS-00816",
+        "category": "teacher_pinyin_full_spaced",
+        "term": "ye jing ting",
+        "query": "复旦 \"语言科学\" \"ye jing ting\"",
+        "status": "completed",
+        "search_scope": "external_index_union_of_three_domains",
+        "domains": [
+          "zhihu.com",
+          "xiaohongshu.com",
+          "mp.weixin.qq.com"
+        ],
+        "attempts": 1,
+        "returned_link_count": 0,
+        "confirmed_direct_reviews": 0,
+        "read_status": "query execution only; not article reading",
+        "source_file": "reports/别名拼音扩展检索台账.csv",
+        "source_record_id": "PUBALIAS-00816",
+        "source_record_pointer": "query_id=PUBALIAS-00816",
+        "limitation": "A union-domain query is one logged record, not one execution per listed platform."
+      },
+      {
+        "query_id": "PUBALIAS-00817",
+        "category": "teacher_pinyin_initials",
+        "term": "yjt",
+        "query": "复旦 \"语言科学\" \"yjt\"",
+        "status": "completed",
+        "search_scope": "external_index_union_of_three_domains",
+        "domains": [
+          "zhihu.com",
+          "xiaohongshu.com",
+          "mp.weixin.qq.com"
+        ],
+        "attempts": 1,
+        "returned_link_count": 0,
+        "confirmed_direct_reviews": 0,
+        "read_status": "query execution only; not article reading",
+        "source_file": "reports/别名拼音扩展检索台账.csv",
+        "source_record_id": "PUBALIAS-00817",
+        "source_record_pointer": "query_id=PUBALIAS-00817",
+        "limitation": "A union-domain query is one logged record, not one execution per listed platform."
+      },
+      {
+        "query_id": "PUBALIAS-00818",
+        "category": "teacher_alias",
+        "term": "叶老师",
+        "query": "复旦 \"语言科学\" \"叶老师\"",
+        "status": "completed",
+        "search_scope": "external_index_union_of_three_domains",
+        "domains": [
+          "zhihu.com",
+          "xiaohongshu.com",
+          "mp.weixin.qq.com"
+        ],
+        "attempts": 1,
+        "returned_link_count": 0,
+        "confirmed_direct_reviews": 0,
+        "read_status": "query execution only; not article reading",
+        "source_file": "reports/别名拼音扩展检索台账.csv",
+        "source_record_id": "PUBALIAS-00818",
+        "source_record_pointer": "query_id=PUBALIAS-00818",
+        "limitation": "A union-domain query is one logged record, not one execution per listed platform."
+      },
+      {
+        "query_id": "PUBALIAS-00819",
+        "category": "teacher_pinyin_full_joined",
+        "term": "shimenghui",
+        "query": "复旦 \"语言科学\" \"shimenghui\"",
+        "status": "completed",
+        "search_scope": "external_index_union_of_three_domains",
+        "domains": [
+          "zhihu.com",
+          "xiaohongshu.com",
+          "mp.weixin.qq.com"
+        ],
+        "attempts": 1,
+        "returned_link_count": 0,
+        "confirmed_direct_reviews": 0,
+        "read_status": "query execution only; not article reading",
+        "source_file": "reports/别名拼音扩展检索台账.csv",
+        "source_record_id": "PUBALIAS-00819",
+        "source_record_pointer": "query_id=PUBALIAS-00819",
+        "limitation": "A union-domain query is one logged record, not one execution per listed platform."
+      },
+      {
+        "query_id": "PUBALIAS-00820",
+        "category": "teacher_pinyin_full_spaced",
+        "term": "shi meng hui",
+        "query": "复旦 \"语言科学\" \"shi meng hui\"",
+        "status": "completed",
+        "search_scope": "external_index_union_of_three_domains",
+        "domains": [
+          "zhihu.com",
+          "xiaohongshu.com",
+          "mp.weixin.qq.com"
+        ],
+        "attempts": 1,
+        "returned_link_count": 0,
+        "confirmed_direct_reviews": 0,
+        "read_status": "query execution only; not article reading",
+        "source_file": "reports/别名拼音扩展检索台账.csv",
+        "source_record_id": "PUBALIAS-00820",
+        "source_record_pointer": "query_id=PUBALIAS-00820",
+        "limitation": "A union-domain query is one logged record, not one execution per listed platform."
+      },
+      {
+        "query_id": "PUBALIAS-00821",
+        "category": "teacher_pinyin_initials",
+        "term": "smh",
+        "query": "复旦 \"语言科学\" \"smh\"",
+        "status": "completed",
+        "search_scope": "external_index_union_of_three_domains",
+        "domains": [
+          "zhihu.com",
+          "xiaohongshu.com",
+          "mp.weixin.qq.com"
+        ],
+        "attempts": 1,
+        "returned_link_count": 0,
+        "confirmed_direct_reviews": 0,
+        "read_status": "query execution only; not article reading",
+        "source_file": "reports/别名拼音扩展检索台账.csv",
+        "source_record_id": "PUBALIAS-00821",
+        "source_record_pointer": "query_id=PUBALIAS-00821",
+        "limitation": "A union-domain query is one logged record, not one execution per listed platform."
+      },
+      {
+        "query_id": "PUBALIAS-00822",
+        "category": "teacher_alias",
+        "term": "史老师",
+        "query": "复旦 \"语言科学\" \"史老师\"",
+        "status": "completed",
+        "search_scope": "external_index_union_of_three_domains",
+        "domains": [
+          "zhihu.com",
+          "xiaohongshu.com",
+          "mp.weixin.qq.com"
+        ],
+        "attempts": 1,
+        "returned_link_count": 0,
+        "confirmed_direct_reviews": 0,
+        "read_status": "query execution only; not article reading",
+        "source_file": "reports/别名拼音扩展检索台账.csv",
+        "source_record_id": "PUBALIAS-00822",
+        "source_record_pointer": "query_id=PUBALIAS-00822",
+        "limitation": "A union-domain query is one logged record, not one execution per listed platform."
+      },
+      {
+        "query_id": "PUBALIAS-00823",
+        "category": "teacher_pinyin_full_joined",
+        "term": "guoyongbing",
+        "query": "复旦 \"语言科学\" \"guoyongbing\"",
+        "status": "completed",
+        "search_scope": "external_index_union_of_three_domains",
+        "domains": [
+          "zhihu.com",
+          "xiaohongshu.com",
+          "mp.weixin.qq.com"
+        ],
+        "attempts": 1,
+        "returned_link_count": 0,
+        "confirmed_direct_reviews": 0,
+        "read_status": "query execution only; not article reading",
+        "source_file": "reports/别名拼音扩展检索台账.csv",
+        "source_record_id": "PUBALIAS-00823",
+        "source_record_pointer": "query_id=PUBALIAS-00823",
+        "limitation": "A union-domain query is one logged record, not one execution per listed platform."
+      },
+      {
+        "query_id": "PUBALIAS-00824",
+        "category": "teacher_pinyin_full_spaced",
+        "term": "guo yong bing",
+        "query": "复旦 \"语言科学\" \"guo yong bing\"",
+        "status": "completed",
+        "search_scope": "external_index_union_of_three_domains",
+        "domains": [
+          "zhihu.com",
+          "xiaohongshu.com",
+          "mp.weixin.qq.com"
+        ],
+        "attempts": 1,
+        "returned_link_count": 0,
+        "confirmed_direct_reviews": 0,
+        "read_status": "query execution only; not article reading",
+        "source_file": "reports/别名拼音扩展检索台账.csv",
+        "source_record_id": "PUBALIAS-00824",
+        "source_record_pointer": "query_id=PUBALIAS-00824",
+        "limitation": "A union-domain query is one logged record, not one execution per listed platform."
+      },
+      {
+        "query_id": "PUBALIAS-00825",
+        "category": "teacher_pinyin_initials",
+        "term": "gyb",
+        "query": "复旦 \"语言科学\" \"gyb\"",
+        "status": "completed",
+        "search_scope": "external_index_union_of_three_domains",
+        "domains": [
+          "zhihu.com",
+          "xiaohongshu.com",
+          "mp.weixin.qq.com"
+        ],
+        "attempts": 1,
+        "returned_link_count": 0,
+        "confirmed_direct_reviews": 0,
+        "read_status": "query execution only; not article reading",
+        "source_file": "reports/别名拼音扩展检索台账.csv",
+        "source_record_id": "PUBALIAS-00825",
+        "source_record_pointer": "query_id=PUBALIAS-00825",
+        "limitation": "A union-domain query is one logged record, not one execution per listed platform."
+      },
+      {
+        "query_id": "PUBALIAS-00826",
+        "category": "teacher_alias",
+        "term": "郭老师",
+        "query": "复旦 \"语言科学\" \"郭老师\"",
+        "status": "completed",
+        "search_scope": "external_index_union_of_three_domains",
+        "domains": [
+          "zhihu.com",
+          "xiaohongshu.com",
+          "mp.weixin.qq.com"
+        ],
+        "attempts": 1,
+        "returned_link_count": 0,
+        "confirmed_direct_reviews": 0,
+        "read_status": "query execution only; not article reading",
+        "source_file": "reports/别名拼音扩展检索台账.csv",
+        "source_record_id": "PUBALIAS-00826",
+        "source_record_pointer": "query_id=PUBALIAS-00826",
+        "limitation": "A union-domain query is one logged record, not one execution per listed platform."
+      },
+      {
+        "query_id": "PUBALIAS-00827",
+        "category": "teacher_pinyin_full_joined",
+        "term": "dongjianjiao",
+        "query": "复旦 \"语言科学\" \"dongjianjiao\"",
+        "status": "completed",
+        "search_scope": "external_index_union_of_three_domains",
+        "domains": [
+          "zhihu.com",
+          "xiaohongshu.com",
+          "mp.weixin.qq.com"
+        ],
+        "attempts": 1,
+        "returned_link_count": 0,
+        "confirmed_direct_reviews": 0,
+        "read_status": "query execution only; not article reading",
+        "source_file": "reports/别名拼音扩展检索台账.csv",
+        "source_record_id": "PUBALIAS-00827",
+        "source_record_pointer": "query_id=PUBALIAS-00827",
+        "limitation": "A union-domain query is one logged record, not one execution per listed platform."
+      },
+      {
+        "query_id": "PUBALIAS-00828",
+        "category": "teacher_pinyin_full_spaced",
+        "term": "dong jian jiao",
+        "query": "复旦 \"语言科学\" \"dong jian jiao\"",
+        "status": "completed",
+        "search_scope": "external_index_union_of_three_domains",
+        "domains": [
+          "zhihu.com",
+          "xiaohongshu.com",
+          "mp.weixin.qq.com"
+        ],
+        "attempts": 1,
+        "returned_link_count": 0,
+        "confirmed_direct_reviews": 0,
+        "read_status": "query execution only; not article reading",
+        "source_file": "reports/别名拼音扩展检索台账.csv",
+        "source_record_id": "PUBALIAS-00828",
+        "source_record_pointer": "query_id=PUBALIAS-00828",
+        "limitation": "A union-domain query is one logged record, not one execution per listed platform."
+      },
+      {
+        "query_id": "PUBALIAS-00829",
+        "category": "teacher_pinyin_initials",
+        "term": "djj",
+        "query": "复旦 \"语言科学\" \"djj\"",
+        "status": "completed",
+        "search_scope": "external_index_union_of_three_domains",
+        "domains": [
+          "zhihu.com",
+          "xiaohongshu.com",
+          "mp.weixin.qq.com"
+        ],
+        "attempts": 1,
+        "returned_link_count": 0,
+        "confirmed_direct_reviews": 0,
+        "read_status": "query execution only; not article reading",
+        "source_file": "reports/别名拼音扩展检索台账.csv",
+        "source_record_id": "PUBALIAS-00829",
+        "source_record_pointer": "query_id=PUBALIAS-00829",
+        "limitation": "A union-domain query is one logged record, not one execution per listed platform."
+      },
+      {
+        "query_id": "PUBALIAS-00830",
+        "category": "teacher_alias",
+        "term": "董老师",
+        "query": "复旦 \"语言科学\" \"董老师\"",
+        "status": "completed",
+        "search_scope": "external_index_union_of_three_domains",
+        "domains": [
+          "zhihu.com",
+          "xiaohongshu.com",
+          "mp.weixin.qq.com"
+        ],
+        "attempts": 1,
+        "returned_link_count": 0,
+        "confirmed_direct_reviews": 0,
+        "read_status": "query execution only; not article reading",
+        "source_file": "reports/别名拼音扩展检索台账.csv",
+        "source_record_id": "PUBALIAS-00830",
+        "source_record_pointer": "query_id=PUBALIAS-00830",
+        "limitation": "A union-domain query is one logged record, not one execution per listed platform."
+      },
+      {
+        "query_id": "PUBALIAS-00831",
+        "category": "teacher_pinyin_full_joined",
+        "term": "taohuan",
+        "query": "复旦 \"语言科学\" \"taohuan\"",
+        "status": "completed",
+        "search_scope": "external_index_union_of_three_domains",
+        "domains": [
+          "zhihu.com",
+          "xiaohongshu.com",
+          "mp.weixin.qq.com"
+        ],
+        "attempts": 1,
+        "returned_link_count": 0,
+        "confirmed_direct_reviews": 0,
+        "read_status": "query execution only; not article reading",
+        "source_file": "reports/别名拼音扩展检索台账.csv",
+        "source_record_id": "PUBALIAS-00831",
+        "source_record_pointer": "query_id=PUBALIAS-00831",
+        "limitation": "A union-domain query is one logged record, not one execution per listed platform."
+      },
+      {
+        "query_id": "PUBALIAS-00832",
+        "category": "teacher_pinyin_full_spaced",
+        "term": "tao huan",
+        "query": "复旦 \"语言科学\" \"tao huan\"",
+        "status": "completed",
+        "search_scope": "external_index_union_of_three_domains",
+        "domains": [
+          "zhihu.com",
+          "xiaohongshu.com",
+          "mp.weixin.qq.com"
+        ],
+        "attempts": 1,
+        "returned_link_count": 0,
+        "confirmed_direct_reviews": 0,
+        "read_status": "query execution only; not article reading",
+        "source_file": "reports/别名拼音扩展检索台账.csv",
+        "source_record_id": "PUBALIAS-00832",
+        "source_record_pointer": "query_id=PUBALIAS-00832",
+        "limitation": "A union-domain query is one logged record, not one execution per listed platform."
+      },
+      {
+        "query_id": "PUBALIAS-00833",
+        "category": "teacher_pinyin_initials",
+        "term": "th",
+        "query": "复旦 \"语言科学\" \"th\"",
+        "status": "completed",
+        "search_scope": "external_index_union_of_three_domains",
+        "domains": [
+          "zhihu.com",
+          "xiaohongshu.com",
+          "mp.weixin.qq.com"
+        ],
+        "attempts": 1,
+        "returned_link_count": 0,
+        "confirmed_direct_reviews": 0,
+        "read_status": "query execution only; not article reading",
+        "source_file": "reports/别名拼音扩展检索台账.csv",
+        "source_record_id": "PUBALIAS-00833",
+        "source_record_pointer": "query_id=PUBALIAS-00833",
+        "limitation": "A union-domain query is one logged record, not one execution per listed platform."
+      },
+      {
+        "query_id": "PUBALIAS-00834",
+        "category": "teacher_alias",
+        "term": "陶老师",
+        "query": "复旦 \"语言科学\" \"陶老师\"",
+        "status": "completed",
+        "search_scope": "external_index_union_of_three_domains",
+        "domains": [
+          "zhihu.com",
+          "xiaohongshu.com",
+          "mp.weixin.qq.com"
+        ],
+        "attempts": 1,
+        "returned_link_count": 0,
+        "confirmed_direct_reviews": 0,
+        "read_status": "query execution only; not article reading",
+        "source_file": "reports/别名拼音扩展检索台账.csv",
+        "source_record_id": "PUBALIAS-00834",
+        "source_record_pointer": "query_id=PUBALIAS-00834",
+        "limitation": "A union-domain query is one logged record, not one execution per listed platform."
+      },
+      {
+        "query_id": "PUBALIAS-00835",
+        "category": "teacher_pinyin_full_joined",
+        "term": "huanghe",
+        "query": "复旦 \"语言科学\" \"huanghe\"",
+        "status": "completed",
+        "search_scope": "external_index_union_of_three_domains",
+        "domains": [
+          "zhihu.com",
+          "xiaohongshu.com",
+          "mp.weixin.qq.com"
+        ],
+        "attempts": 1,
+        "returned_link_count": 0,
+        "confirmed_direct_reviews": 0,
+        "read_status": "query execution only; not article reading",
+        "source_file": "reports/别名拼音扩展检索台账.csv",
+        "source_record_id": "PUBALIAS-00835",
+        "source_record_pointer": "query_id=PUBALIAS-00835",
+        "limitation": "A union-domain query is one logged record, not one execution per listed platform."
+      },
+      {
+        "query_id": "PUBALIAS-00836",
+        "category": "teacher_pinyin_full_spaced",
+        "term": "huang he",
+        "query": "复旦 \"语言科学\" \"huang he\"",
+        "status": "completed",
+        "search_scope": "external_index_union_of_three_domains",
+        "domains": [
+          "zhihu.com",
+          "xiaohongshu.com",
+          "mp.weixin.qq.com"
+        ],
+        "attempts": 1,
+        "returned_link_count": 0,
+        "confirmed_direct_reviews": 0,
+        "read_status": "query execution only; not article reading",
+        "source_file": "reports/别名拼音扩展检索台账.csv",
+        "source_record_id": "PUBALIAS-00836",
+        "source_record_pointer": "query_id=PUBALIAS-00836",
+        "limitation": "A union-domain query is one logged record, not one execution per listed platform."
+      },
+      {
+        "query_id": "PUBALIAS-00837",
+        "category": "teacher_pinyin_initials",
+        "term": "hh",
+        "query": "复旦 \"语言科学\" \"hh\"",
+        "status": "completed",
+        "search_scope": "external_index_union_of_three_domains",
+        "domains": [
+          "zhihu.com",
+          "xiaohongshu.com",
+          "mp.weixin.qq.com"
+        ],
+        "attempts": 1,
+        "returned_link_count": 0,
+        "confirmed_direct_reviews": 0,
+        "read_status": "query execution only; not article reading",
+        "source_file": "reports/别名拼音扩展检索台账.csv",
+        "source_record_id": "PUBALIAS-00837",
+        "source_record_pointer": "query_id=PUBALIAS-00837",
+        "limitation": "A union-domain query is one logged record, not one execution per listed platform."
+      },
+      {
+        "query_id": "PUBALIAS-00838",
+        "category": "teacher_alias",
+        "term": "黄老师",
+        "query": "复旦 \"语言科学\" \"黄老师\"",
+        "status": "completed",
+        "search_scope": "external_index_union_of_three_domains",
+        "domains": [
+          "zhihu.com",
+          "xiaohongshu.com",
+          "mp.weixin.qq.com"
+        ],
+        "attempts": 1,
+        "returned_link_count": 0,
+        "confirmed_direct_reviews": 0,
+        "read_status": "query execution only; not article reading",
+        "source_file": "reports/别名拼音扩展检索台账.csv",
+        "source_record_id": "PUBALIAS-00838",
+        "source_record_pointer": "query_id=PUBALIAS-00838",
+        "limitation": "A union-domain query is one logged record, not one execution per listed platform."
+      },
+      {
+        "query_id": "PUBALIAS-00839",
+        "category": "teacher_pinyin_full_joined",
+        "term": "liuminqi",
+        "query": "复旦 \"语言科学\" \"liuminqi\"",
+        "status": "completed",
+        "search_scope": "external_index_union_of_three_domains",
+        "domains": [
+          "zhihu.com",
+          "xiaohongshu.com",
+          "mp.weixin.qq.com"
+        ],
+        "attempts": 1,
+        "returned_link_count": 0,
+        "confirmed_direct_reviews": 0,
+        "read_status": "query execution only; not article reading",
+        "source_file": "reports/别名拼音扩展检索台账.csv",
+        "source_record_id": "PUBALIAS-00839",
+        "source_record_pointer": "query_id=PUBALIAS-00839",
+        "limitation": "A union-domain query is one logged record, not one execution per listed platform."
+      },
+      {
+        "query_id": "PUBALIAS-00840",
+        "category": "teacher_pinyin_full_spaced",
+        "term": "liu min qi",
+        "query": "复旦 \"语言科学\" \"liu min qi\"",
+        "status": "completed",
+        "search_scope": "external_index_union_of_three_domains",
+        "domains": [
+          "zhihu.com",
+          "xiaohongshu.com",
+          "mp.weixin.qq.com"
+        ],
+        "attempts": 1,
+        "returned_link_count": 0,
+        "confirmed_direct_reviews": 0,
+        "read_status": "query execution only; not article reading",
+        "source_file": "reports/别名拼音扩展检索台账.csv",
+        "source_record_id": "PUBALIAS-00840",
+        "source_record_pointer": "query_id=PUBALIAS-00840",
+        "limitation": "A union-domain query is one logged record, not one execution per listed platform."
+      },
+      {
+        "query_id": "PUBALIAS-00841",
+        "category": "teacher_pinyin_initials",
+        "term": "lmq",
+        "query": "复旦 \"语言科学\" \"lmq\"",
+        "status": "completed",
+        "search_scope": "external_index_union_of_three_domains",
+        "domains": [
+          "zhihu.com",
+          "xiaohongshu.com",
+          "mp.weixin.qq.com"
+        ],
+        "attempts": 1,
+        "returned_link_count": 0,
+        "confirmed_direct_reviews": 0,
+        "read_status": "query execution only; not article reading",
+        "source_file": "reports/别名拼音扩展检索台账.csv",
+        "source_record_id": "PUBALIAS-00841",
+        "source_record_pointer": "query_id=PUBALIAS-00841",
+        "limitation": "A union-domain query is one logged record, not one execution per listed platform."
+      },
+      {
+        "query_id": "PUBALIAS-00842",
+        "category": "teacher_alias",
+        "term": "刘老师",
+        "query": "复旦 \"语言科学\" \"刘老师\"",
+        "status": "completed",
+        "search_scope": "external_index_union_of_three_domains",
+        "domains": [
+          "zhihu.com",
+          "xiaohongshu.com",
+          "mp.weixin.qq.com"
+        ],
+        "attempts": 1,
+        "returned_link_count": 0,
+        "confirmed_direct_reviews": 0,
+        "read_status": "query execution only; not article reading",
+        "source_file": "reports/别名拼音扩展检索台账.csv",
+        "source_record_id": "PUBALIAS-00842",
+        "source_record_pointer": "query_id=PUBALIAS-00842",
+        "limitation": "A union-domain query is one logged record, not one execution per listed platform."
+      },
+      {
+        "query_id": "PUBALIAS-00843",
+        "category": "teacher_pinyin_full_joined",
+        "term": "xukunyu",
+        "query": "复旦 \"语言科学\" \"xukunyu\"",
+        "status": "completed",
+        "search_scope": "external_index_union_of_three_domains",
+        "domains": [
+          "zhihu.com",
+          "xiaohongshu.com",
+          "mp.weixin.qq.com"
+        ],
+        "attempts": 1,
+        "returned_link_count": 0,
+        "confirmed_direct_reviews": 0,
+        "read_status": "query execution only; not article reading",
+        "source_file": "reports/别名拼音扩展检索台账.csv",
+        "source_record_id": "PUBALIAS-00843",
+        "source_record_pointer": "query_id=PUBALIAS-00843",
+        "limitation": "A union-domain query is one logged record, not one execution per listed platform."
+      },
+      {
+        "query_id": "PUBALIAS-00844",
+        "category": "teacher_pinyin_full_spaced",
+        "term": "xu kun yu",
+        "query": "复旦 \"语言科学\" \"xu kun yu\"",
+        "status": "completed",
+        "search_scope": "external_index_union_of_three_domains",
+        "domains": [
+          "zhihu.com",
+          "xiaohongshu.com",
+          "mp.weixin.qq.com"
+        ],
+        "attempts": 1,
+        "returned_link_count": 0,
+        "confirmed_direct_reviews": 0,
+        "read_status": "query execution only; not article reading",
+        "source_file": "reports/别名拼音扩展检索台账.csv",
+        "source_record_id": "PUBALIAS-00844",
+        "source_record_pointer": "query_id=PUBALIAS-00844",
+        "limitation": "A union-domain query is one logged record, not one execution per listed platform."
+      },
+      {
+        "query_id": "PUBALIAS-00845",
+        "category": "teacher_pinyin_initials",
+        "term": "xky",
+        "query": "复旦 \"语言科学\" \"xky\"",
+        "status": "completed",
+        "search_scope": "external_index_union_of_three_domains",
+        "domains": [
+          "zhihu.com",
+          "xiaohongshu.com",
+          "mp.weixin.qq.com"
+        ],
+        "attempts": 1,
+        "returned_link_count": 0,
+        "confirmed_direct_reviews": 0,
+        "read_status": "query execution only; not article reading",
+        "source_file": "reports/别名拼音扩展检索台账.csv",
+        "source_record_id": "PUBALIAS-00845",
+        "source_record_pointer": "query_id=PUBALIAS-00845",
+        "limitation": "A union-domain query is one logged record, not one execution per listed platform."
+      },
+      {
+        "query_id": "PUBALIAS-00846",
+        "category": "teacher_alias",
+        "term": "徐老师",
+        "query": "复旦 \"语言科学\" \"徐老师\"",
+        "status": "completed",
+        "search_scope": "external_index_union_of_three_domains",
+        "domains": [
+          "zhihu.com",
+          "xiaohongshu.com",
+          "mp.weixin.qq.com"
+        ],
+        "attempts": 1,
+        "returned_link_count": 0,
+        "confirmed_direct_reviews": 0,
+        "read_status": "query execution only; not article reading",
+        "source_file": "reports/别名拼音扩展检索台账.csv",
+        "source_record_id": "PUBALIAS-00846",
+        "source_record_pointer": "query_id=PUBALIAS-00846",
+        "limitation": "A union-domain query is one logged record, not one execution per listed platform."
+      },
+      {
+        "query_id": "PUBALIAS-00847",
+        "category": "teacher_pinyin_full_joined",
+        "term": "maliang",
+        "query": "复旦 \"语言科学\" \"maliang\"",
+        "status": "completed",
+        "search_scope": "external_index_union_of_three_domains",
+        "domains": [
+          "zhihu.com",
+          "xiaohongshu.com",
+          "mp.weixin.qq.com"
+        ],
+        "attempts": 1,
+        "returned_link_count": 0,
+        "confirmed_direct_reviews": 0,
+        "read_status": "query execution only; not article reading",
+        "source_file": "reports/别名拼音扩展检索台账.csv",
+        "source_record_id": "PUBALIAS-00847",
+        "source_record_pointer": "query_id=PUBALIAS-00847",
+        "limitation": "A union-domain query is one logged record, not one execution per listed platform."
+      },
+      {
+        "query_id": "PUBALIAS-00848",
+        "category": "teacher_pinyin_full_spaced",
+        "term": "ma liang",
+        "query": "复旦 \"语言科学\" \"ma liang\"",
+        "status": "completed",
+        "search_scope": "external_index_union_of_three_domains",
+        "domains": [
+          "zhihu.com",
+          "xiaohongshu.com",
+          "mp.weixin.qq.com"
+        ],
+        "attempts": 1,
+        "returned_link_count": 0,
+        "confirmed_direct_reviews": 0,
+        "read_status": "query execution only; not article reading",
+        "source_file": "reports/别名拼音扩展检索台账.csv",
+        "source_record_id": "PUBALIAS-00848",
+        "source_record_pointer": "query_id=PUBALIAS-00848",
+        "limitation": "A union-domain query is one logged record, not one execution per listed platform."
+      },
+      {
+        "query_id": "PUBALIAS-00849",
+        "category": "teacher_pinyin_initials",
+        "term": "ml",
+        "query": "复旦 \"语言科学\" \"ml\"",
+        "status": "completed",
+        "search_scope": "external_index_union_of_three_domains",
+        "domains": [
+          "zhihu.com",
+          "xiaohongshu.com",
+          "mp.weixin.qq.com"
+        ],
+        "attempts": 1,
+        "returned_link_count": 0,
+        "confirmed_direct_reviews": 0,
+        "read_status": "query execution only; not article reading",
+        "source_file": "reports/别名拼音扩展检索台账.csv",
+        "source_record_id": "PUBALIAS-00849",
+        "source_record_pointer": "query_id=PUBALIAS-00849",
+        "limitation": "A union-domain query is one logged record, not one execution per listed platform."
+      },
+      {
+        "query_id": "PUBALIAS-00850",
+        "category": "teacher_alias",
+        "term": "马老师",
+        "query": "复旦 \"语言科学\" \"马老师\"",
+        "status": "completed",
+        "search_scope": "external_index_union_of_three_domains",
+        "domains": [
+          "zhihu.com",
+          "xiaohongshu.com",
+          "mp.weixin.qq.com"
+        ],
+        "attempts": 1,
+        "returned_link_count": 0,
+        "confirmed_direct_reviews": 0,
+        "read_status": "query execution only; not article reading",
+        "source_file": "reports/别名拼音扩展检索台账.csv",
+        "source_record_id": "PUBALIAS-00850",
+        "source_record_pointer": "query_id=PUBALIAS-00850",
+        "limitation": "A union-domain query is one logged record, not one execution per listed platform."
+      },
+      {
+        "query_id": "PUBALIAS-00851",
+        "category": "teacher_pinyin_full_joined",
+        "term": "qianyufu",
+        "query": "复旦 \"语言科学\" \"qianyufu\"",
+        "status": "completed",
+        "search_scope": "external_index_union_of_three_domains",
+        "domains": [
+          "zhihu.com",
+          "xiaohongshu.com",
+          "mp.weixin.qq.com"
+        ],
+        "attempts": 1,
+        "returned_link_count": 0,
+        "confirmed_direct_reviews": 0,
+        "read_status": "query execution only; not article reading",
+        "source_file": "reports/别名拼音扩展检索台账.csv",
+        "source_record_id": "PUBALIAS-00851",
+        "source_record_pointer": "query_id=PUBALIAS-00851",
+        "limitation": "A union-domain query is one logged record, not one execution per listed platform."
+      },
+      {
+        "query_id": "PUBALIAS-00852",
+        "category": "teacher_pinyin_full_spaced",
+        "term": "qian yu fu",
+        "query": "复旦 \"语言科学\" \"qian yu fu\"",
+        "status": "completed",
+        "search_scope": "external_index_union_of_three_domains",
+        "domains": [
+          "zhihu.com",
+          "xiaohongshu.com",
+          "mp.weixin.qq.com"
+        ],
+        "attempts": 1,
+        "returned_link_count": 0,
+        "confirmed_direct_reviews": 0,
+        "read_status": "query execution only; not article reading",
+        "source_file": "reports/别名拼音扩展检索台账.csv",
+        "source_record_id": "PUBALIAS-00852",
+        "source_record_pointer": "query_id=PUBALIAS-00852",
+        "limitation": "A union-domain query is one logged record, not one execution per listed platform."
+      },
+      {
+        "query_id": "PUBALIAS-00853",
+        "category": "teacher_pinyin_initials",
+        "term": "qyf",
+        "query": "复旦 \"语言科学\" \"qyf\"",
+        "status": "completed",
+        "search_scope": "external_index_union_of_three_domains",
+        "domains": [
+          "zhihu.com",
+          "xiaohongshu.com",
+          "mp.weixin.qq.com"
+        ],
+        "attempts": 1,
+        "returned_link_count": 0,
+        "confirmed_direct_reviews": 0,
+        "read_status": "query execution only; not article reading",
+        "source_file": "reports/别名拼音扩展检索台账.csv",
+        "source_record_id": "PUBALIAS-00853",
+        "source_record_pointer": "query_id=PUBALIAS-00853",
+        "limitation": "A union-domain query is one logged record, not one execution per listed platform."
+      },
+      {
+        "query_id": "PUBALIAS-00854",
+        "category": "teacher_alias",
+        "term": "钱老师",
+        "query": "复旦 \"语言科学\" \"钱老师\"",
+        "status": "completed",
+        "search_scope": "external_index_union_of_three_domains",
+        "domains": [
+          "zhihu.com",
+          "xiaohongshu.com",
+          "mp.weixin.qq.com"
+        ],
+        "attempts": 1,
+        "returned_link_count": 0,
+        "confirmed_direct_reviews": 0,
+        "read_status": "query execution only; not article reading",
+        "source_file": "reports/别名拼音扩展检索台账.csv",
+        "source_record_id": "PUBALIAS-00854",
+        "source_record_pointer": "query_id=PUBALIAS-00854",
+        "limitation": "A union-domain query is one logged record, not one execution per listed platform."
+      },
+      {
+        "query_id": "PUBALIAS-00855",
+        "category": "teacher_pinyin_full_joined",
+        "term": "zhangmenghan",
+        "query": "复旦 \"语言科学\" \"zhangmenghan\"",
+        "status": "completed",
+        "search_scope": "external_index_union_of_three_domains",
+        "domains": [
+          "zhihu.com",
+          "xiaohongshu.com",
+          "mp.weixin.qq.com"
+        ],
+        "attempts": 1,
+        "returned_link_count": 0,
+        "confirmed_direct_reviews": 0,
+        "read_status": "query execution only; not article reading",
+        "source_file": "reports/别名拼音扩展检索台账.csv",
+        "source_record_id": "PUBALIAS-00855",
+        "source_record_pointer": "query_id=PUBALIAS-00855",
+        "limitation": "A union-domain query is one logged record, not one execution per listed platform."
+      },
+      {
+        "query_id": "PUBALIAS-00856",
+        "category": "teacher_pinyin_full_spaced",
+        "term": "zhang meng han",
+        "query": "复旦 \"语言科学\" \"zhang meng han\"",
+        "status": "completed",
+        "search_scope": "external_index_union_of_three_domains",
+        "domains": [
+          "zhihu.com",
+          "xiaohongshu.com",
+          "mp.weixin.qq.com"
+        ],
+        "attempts": 1,
+        "returned_link_count": 0,
+        "confirmed_direct_reviews": 0,
+        "read_status": "query execution only; not article reading",
+        "source_file": "reports/别名拼音扩展检索台账.csv",
+        "source_record_id": "PUBALIAS-00856",
+        "source_record_pointer": "query_id=PUBALIAS-00856",
+        "limitation": "A union-domain query is one logged record, not one execution per listed platform."
+      },
+      {
+        "query_id": "PUBALIAS-00857",
+        "category": "teacher_pinyin_initials",
+        "term": "zmh",
+        "query": "复旦 \"语言科学\" \"zmh\"",
+        "status": "completed",
+        "search_scope": "external_index_union_of_three_domains",
+        "domains": [
+          "zhihu.com",
+          "xiaohongshu.com",
+          "mp.weixin.qq.com"
+        ],
+        "attempts": 1,
+        "returned_link_count": 0,
+        "confirmed_direct_reviews": 0,
+        "read_status": "query execution only; not article reading",
+        "source_file": "reports/别名拼音扩展检索台账.csv",
+        "source_record_id": "PUBALIAS-00857",
+        "source_record_pointer": "query_id=PUBALIAS-00857",
+        "limitation": "A union-domain query is one logged record, not one execution per listed platform."
+      },
+      {
+        "query_id": "PUBALIAS-00858",
+        "category": "teacher_alias",
+        "term": "张老师",
+        "query": "复旦 \"语言科学\" \"张老师\"",
+        "status": "completed",
+        "search_scope": "external_index_union_of_three_domains",
+        "domains": [
+          "zhihu.com",
+          "xiaohongshu.com",
+          "mp.weixin.qq.com"
+        ],
+        "attempts": 1,
+        "returned_link_count": 0,
+        "confirmed_direct_reviews": 0,
+        "read_status": "query execution only; not article reading",
+        "source_file": "reports/别名拼音扩展检索台账.csv",
+        "source_record_id": "PUBALIAS-00858",
+        "source_record_pointer": "query_id=PUBALIAS-00858",
+        "limitation": "A union-domain query is one logged record, not one execution per listed platform."
+      },
+      {
+        "query_id": "PUBALIAS-00859",
+        "category": "teacher_pinyin_full_joined",
+        "term": "guitao",
+        "query": "复旦 \"语言科学\" \"guitao\"",
+        "status": "completed",
+        "search_scope": "external_index_union_of_three_domains",
+        "domains": [
+          "zhihu.com",
+          "xiaohongshu.com",
+          "mp.weixin.qq.com"
+        ],
+        "attempts": 1,
+        "returned_link_count": 0,
+        "confirmed_direct_reviews": 0,
+        "read_status": "query execution only; not article reading",
+        "source_file": "reports/别名拼音扩展检索台账.csv",
+        "source_record_id": "PUBALIAS-00859",
+        "source_record_pointer": "query_id=PUBALIAS-00859",
+        "limitation": "A union-domain query is one logged record, not one execution per listed platform."
+      },
+      {
+        "query_id": "PUBALIAS-00860",
+        "category": "teacher_pinyin_full_spaced",
+        "term": "gui tao",
+        "query": "复旦 \"语言科学\" \"gui tao\"",
+        "status": "completed",
+        "search_scope": "external_index_union_of_three_domains",
+        "domains": [
+          "zhihu.com",
+          "xiaohongshu.com",
+          "mp.weixin.qq.com"
+        ],
+        "attempts": 1,
+        "returned_link_count": 0,
+        "confirmed_direct_reviews": 0,
+        "read_status": "query execution only; not article reading",
+        "source_file": "reports/别名拼音扩展检索台账.csv",
+        "source_record_id": "PUBALIAS-00860",
+        "source_record_pointer": "query_id=PUBALIAS-00860",
+        "limitation": "A union-domain query is one logged record, not one execution per listed platform."
+      },
+      {
+        "query_id": "PUBALIAS-00861",
+        "category": "teacher_pinyin_initials",
+        "term": "gt",
+        "query": "复旦 \"语言科学\" \"gt\"",
+        "status": "completed",
+        "search_scope": "external_index_union_of_three_domains",
+        "domains": [
+          "zhihu.com",
+          "xiaohongshu.com",
+          "mp.weixin.qq.com"
+        ],
+        "attempts": 1,
+        "returned_link_count": 0,
+        "confirmed_direct_reviews": 0,
+        "read_status": "query execution only; not article reading",
+        "source_file": "reports/别名拼音扩展检索台账.csv",
+        "source_record_id": "PUBALIAS-00861",
+        "source_record_pointer": "query_id=PUBALIAS-00861",
+        "limitation": "A union-domain query is one logged record, not one execution per listed platform."
+      },
+      {
+        "query_id": "PUBALIAS-00862",
+        "category": "teacher_alias",
+        "term": "桂老师",
+        "query": "复旦 \"语言科学\" \"桂老师\"",
+        "status": "completed",
+        "search_scope": "external_index_union_of_three_domains",
+        "domains": [
+          "zhihu.com",
+          "xiaohongshu.com",
+          "mp.weixin.qq.com"
+        ],
+        "attempts": 1,
+        "returned_link_count": 0,
+        "confirmed_direct_reviews": 0,
+        "read_status": "query execution only; not article reading",
+        "source_file": "reports/别名拼音扩展检索台账.csv",
+        "source_record_id": "PUBALIAS-00862",
+        "source_record_pointer": "query_id=PUBALIAS-00862",
+        "limitation": "A union-domain query is one logged record, not one execution per listed platform."
+      }
+    ],
+    "query_status_counts": {
+      "no_link_returned": 2,
+      "results_returned_no_adopted_review": 1,
+      "completed": 62
+    },
+    "query_coverage_note": "已执行课程全名、可证别名、教师全名及拼音/首字母组合的公开索引检索。跨域联合查询按一条日志记录，不按列出的域重复计数。查询完成不表示结果页已读，也不代表平台内容穷尽。",
+    "remaining_scope": [
+      "公开索引覆盖有限，未穷尽各平台站内搜索及未被索引的页面。",
+      "六个课程群聊的原始私密内容不进入本次公开贡献，仍有私密渠道缺口。",
+      "这是当前本地证据快照；新增上下文、历史教师材料和课评需重跑脚本更新。"
+    ],
+    "no_student_reviews_found": true,
+    "no_student_reviews_found_note": "true表示本快照没有已采用的学生平台摘要，不表示不存在其他评价；另见index_only_hits和查询日志。"
+  },
+  "sources": [
+    {
+      "source_id": "OFFICIAL-OFFERING-1002316",
+      "source_type": "official",
+      "canonical_url": "https://fdjwgl.fudan.edu.cn/student/for-all/lesson-search/semester/504/search/504?openDepartmentAssocs=2620&queryPage__=1,500",
+      "public_author_label": null,
+      "published_at": null,
+      "fetched_at": "2026-10-27",
+      "hole_id": null,
+      "floor_id": null,
+      "floor_number": null,
+      "review_id": null,
+      "file_and_page": "official timetable lesson_id=1002316",
+      "image_page": null,
+      "reading_status": "official_timetable_record_read",
+      "mapping_status": "official course code and lesson_id",
+      "record_type": "official_course_offering",
+      "adoption": "adopted_official_metadata",
+      "reason": "Official 2025 autumn / 2026 spring timetable row.",
+      "duplicate_of": null,
+      "license": null,
+      "fulltext_permission": "unconfirmed",
+      "attribution_and_changes": "Official offering metadata; no student personal data included.",
+      "raw_filename": "reports/两学期全部教学班.json",
+      "raw_record_id": "1002316",
+      "course_code": "GEFS10003",
+      "report_filename": "reports/两学期全部教学班.json",
+      "report_record_id": "1002316",
+      "report_record_pointer": null,
+      "raw_body_status": null,
+      "teacher_if_explicit": "陈振宇",
+      "term_as_stated": "2025秋",
+      "section_code": "GEFS10003.01"
+    },
+    {
+      "source_id": "OFFICIAL-SYLLABUS-1002316",
+      "source_type": "official",
+      "canonical_url": "https://fdjwgl.fudan.edu.cn/student/for-all/lesson-search/teachingSyllabusInfo/1002316",
+      "public_author_label": null,
+      "published_at": null,
+      "fetched_at": "2026-10-27",
+      "hole_id": null,
+      "floor_id": null,
+      "floor_number": null,
+      "review_id": null,
+      "file_and_page": "official syllabus lesson_id=1002316",
+      "image_page": null,
+      "reading_status": "structured_text_extracted",
+      "mapping_status": "lesson syllabus course code checked",
+      "record_type": "official_syllabus",
+      "adoption": "adopted_official_requirements",
+      "reason": "Official syllabus parsed locally; requirements stay attached to this offering.",
+      "duplicate_of": null,
+      "license": null,
+      "fulltext_permission": "unconfirmed",
+      "attribution_and_changes": "Only metadata, section titles, textbook details and assessment structure are exported; full syllabus text is not republished.",
+      "raw_filename": "reports/官方大纲结构化摘要.json",
+      "raw_record_id": "1002316",
+      "course_code": "GEFS10003",
+      "report_filename": "reports/官方大纲结构化摘要.json",
+      "report_record_id": "1002316",
+      "report_record_pointer": null,
+      "raw_body_status": null,
+      "teacher_if_explicit": "陈振宇",
+      "term_as_stated": "2025秋",
+      "section_code": "GEFS10003.01"
+    },
+    {
+      "source_id": "OFFICIAL-OFFERING-1030205",
+      "source_type": "official",
+      "canonical_url": "https://fdjwgl.fudan.edu.cn/student/for-all/lesson-search/semester/505/search/505?openDepartmentAssocs=2620&queryPage__=1,500",
+      "public_author_label": null,
+      "published_at": null,
+      "fetched_at": "2026-10-27",
+      "hole_id": null,
+      "floor_id": null,
+      "floor_number": null,
+      "review_id": null,
+      "file_and_page": "official timetable lesson_id=1030205",
+      "image_page": null,
+      "reading_status": "official_timetable_record_read",
+      "mapping_status": "official course code and lesson_id",
+      "record_type": "official_course_offering",
+      "adoption": "adopted_official_metadata",
+      "reason": "Official 2025 autumn / 2026 spring timetable row.",
+      "duplicate_of": null,
+      "license": null,
+      "fulltext_permission": "unconfirmed",
+      "attribution_and_changes": "Official offering metadata; no student personal data included.",
+      "raw_filename": "reports/两学期全部教学班.json",
+      "raw_record_id": "1030205",
+      "course_code": "GEFS10003",
+      "report_filename": "reports/两学期全部教学班.json",
+      "report_record_id": "1030205",
+      "report_record_pointer": null,
+      "raw_body_status": null,
+      "teacher_if_explicit": "盛益民 / 陈忠敏 / 叶婧婷 / 史濛辉 / 陈振宇 / 郭永秉 / 董建交 / 陶寰 / 黄河 / 刘敏旗 / 徐坤宇 / 马良 / 钱昱夫 / 张梦翰 / 桂韬",
+      "term_as_stated": "2026春",
+      "section_code": "GEFS10003.01"
+    },
+    {
+      "source_id": "OFFICIAL-SYLLABUS-1030205",
+      "source_type": "official",
+      "canonical_url": "https://fdjwgl.fudan.edu.cn/student/for-all/lesson-search/teachingSyllabusInfo/1030205",
+      "public_author_label": null,
+      "published_at": null,
+      "fetched_at": "2026-10-27",
+      "hole_id": null,
+      "floor_id": null,
+      "floor_number": null,
+      "review_id": null,
+      "file_and_page": "official syllabus lesson_id=1030205",
+      "image_page": null,
+      "reading_status": "structured_text_extracted",
+      "mapping_status": "lesson syllabus course code checked",
+      "record_type": "official_syllabus",
+      "adoption": "adopted_official_requirements",
+      "reason": "Official syllabus parsed locally; requirements stay attached to this offering.",
+      "duplicate_of": null,
+      "license": null,
+      "fulltext_permission": "unconfirmed",
+      "attribution_and_changes": "Only metadata, section titles, textbook details and assessment structure are exported; full syllabus text is not republished.",
+      "raw_filename": "reports/官方大纲结构化摘要.json",
+      "raw_record_id": "1030205",
+      "course_code": "GEFS10003",
+      "report_filename": "reports/官方大纲结构化摘要.json",
+      "report_record_id": "1030205",
+      "report_record_pointer": null,
+      "raw_body_status": null,
+      "teacher_if_explicit": "盛益民 / 陈忠敏 / 叶婧婷 / 史濛辉 / 陈振宇 / 郭永秉 / 董建交 / 陶寰 / 黄河 / 刘敏旗 / 徐坤宇 / 马良 / 钱昱夫 / 张梦翰 / 桂韬",
+      "term_as_stated": "2026春",
+      "section_code": "GEFS10003.01"
+    }
+  ],
+  "syllabus": {
+    "source_ids": [
+      "OFFICIAL-SYLLABUS-1002316",
+      "OFFICIAL-SYLLABUS-1030205"
+    ],
+    "content": "官方大纲按教学班逐项记录在offerings；不同学期或平行班要求未合并。",
+    "prerequisites": "",
+    "assessment": ""
+  },
+  "materials": [],
+  "student_reviews_and_discussions": [],
+  "index_only_hits": [],
+  "quantitative_observations": [],
+  "offerings": [
+    {
+      "term": "2025秋",
+      "section_code": "GEFS10003.01",
+      "lesson_id": 1002316,
+      "course_code": "GEFS10003",
+      "course_name": "语言科学",
+      "teachers": [
+        "陈振宇"
+      ],
+      "credits": 2,
+      "task_level": "本科",
+      "open_department": "中国语言文学系",
+      "course_type": "新生研讨课",
+      "course_table_type": "通识教育选修课程：通识2（书院）",
+      "exam_mode": "论文",
+      "total_hours": 36,
+      "source_ids": [
+        "OFFICIAL-OFFERING-1002316",
+        "OFFICIAL-SYLLABUS-1002316"
+      ],
+      "official_syllabus": {
+        "status": "structured_text_extracted",
+        "source_id": "OFFICIAL-SYLLABUS-1002316",
+        "section_titles": [
+          "课程简介（中文）",
+          "课程简介（英文）",
+          "教学目标",
+          "教学方式",
+          "教学内容与进度安排",
+          "课程考核与成绩评定",
+          "教材",
+          "教学参考资料",
+          "教学团队成员"
+        ],
+        "prerequisites": [],
+        "assessment": [
+          {
+            "criteria": "作业/实验/实践Assignment",
+            "percentage": 10.0,
+            "standard": "阅读同时完成单选多选题、分析题以及简答题；案例分析报告（主观题）。"
+          },
+          {
+            "criteria": "汇报Presentation",
+            "percentage": 20.0,
+            "standard": "能结合课程案例提出可操作的伦理准则改进方案，结合课程理论与AI实践，反思语言分析中的技术局限"
+          },
+          {
+            "criteria": "期末考试Final Examination：论文 ",
+            "percentage": 70.0,
+            "standard": "五大要素齐全，逻辑链条清晰；维度划分无错误，标签与理论一致；脚本可复现分析过程，输出结构化。"
+          }
+        ],
+        "grade_rule": "两级制",
+        "textbooks": [],
+        "syllabus_id": 672,
+        "error": null
+      }
+    },
+    {
+      "term": "2026春",
+      "section_code": "GEFS10003.01",
+      "lesson_id": 1030205,
+      "course_code": "GEFS10003",
+      "course_name": "语言科学",
+      "teachers": [
+        "盛益民",
+        "陈忠敏",
+        "叶婧婷",
+        "史濛辉",
+        "陈振宇",
+        "郭永秉",
+        "董建交",
+        "陶寰",
+        "黄河",
+        "刘敏旗",
+        "徐坤宇",
+        "马良",
+        "钱昱夫",
+        "张梦翰",
+        "桂韬"
+      ],
+      "credits": 2,
+      "task_level": "本科",
+      "open_department": "中国语言文学系",
+      "course_type": "新生研讨课",
+      "course_table_type": "通识教育选修课程：通识2（书院）",
+      "exam_mode": "其他",
+      "total_hours": 36,
+      "source_ids": [
+        "OFFICIAL-OFFERING-1030205",
+        "OFFICIAL-SYLLABUS-1030205"
+      ],
+      "official_syllabus": {
+        "status": "structured_text_extracted",
+        "source_id": "OFFICIAL-SYLLABUS-1030205",
+        "section_titles": [
+          "课程简介（中文）",
+          "课程简介（英文）",
+          "教学目标",
+          "教学方式",
+          "教学内容与进度安排",
+          "课程考核与成绩评定",
+          "教材",
+          "教学参考资料",
+          "教学团队成员"
+        ],
+        "prerequisites": [],
+        "assessment": [
+          {
+            "criteria": "出勤Attendance",
+            "percentage": 20.0
+          },
+          {
+            "criteria": "课堂表现Participation",
+            "percentage": 30.0
+          },
+          {
+            "criteria": "分组讨论Group Discussion",
+            "percentage": 20.0
+          },
+          {
+            "criteria": "期末考试Final Examination：其他 ",
+            "percentage": 30.0
+          }
+        ],
+        "grade_rule": "两级制",
+        "textbooks": [],
+        "syllabus_id": 7151,
+        "error": null
+      }
+    }
+  ],
+  "official_metadata": {
+    "department": "中国语言文学系",
+    "target_terms": [
+      "2025秋",
+      "2026春"
+    ],
+    "target_teachers": [
+      "陈振宇",
+      "盛益民",
+      "陈忠敏",
+      "叶婧婷",
+      "史濛辉",
+      "郭永秉",
+      "董建交",
+      "陶寰",
+      "黄河",
+      "刘敏旗",
+      "徐坤宇",
+      "马良",
+      "钱昱夫",
+      "张梦翰",
+      "桂韬"
+    ],
+    "task_levels": [
+      "本科"
+    ],
+    "section_count": 2,
+    "official_offering_count_in_snapshot": 2,
+    "course_type_values_by_offering": [
+      "新生研讨课"
+    ],
+    "course_table_type_values_by_offering": [
+      "通识教育选修课程：通识2（书院）"
+    ],
+    "source_ids": [
+      "OFFICIAL-OFFERING-1002316",
+      "OFFICIAL-OFFERING-1030205"
+    ]
+  },
+  "comparison_and_summary": {
+    "teaching_and_learning": "本快照没有可读的课程体验材料，无法归纳学习收获。",
+    "workload": "本快照没有可读的课程体验材料，无法归纳准备或作业量。",
+    "assessment": "本快照没有可读的课程体验材料，无法归纳考核或评分。",
+    "grading_and_risk": "",
+    "teacher_and_term_differences": "已读来源未明确写出教师姓名；不能据课程名或现任教师表补认授课者。 来源没有可确认的修读学期。",
+    "who_it_suits": "",
+    "source_ids": [],
+    "section_source_ids": {
+      "teaching_and_learning": [],
+      "workload": [],
+      "assessment": [],
+      "teacher_and_term_differences": []
+    },
+    "manual_comparison": {
+      "status": "not_prepared_in_current_snapshot",
+      "text": "本快照未形成逐课人工综合；不依据模板或相邻课程推导结论。",
+      "evidence_ids": [],
+      "limitations": "可查看已读来源摘要和官方教学班资料；仍需逐课人工比较。",
+      "confidence": null
+    },
+    "confidence": "none：本快照无已读、可采用来源。",
+    "limitations": "当前已读材料没有可采用的课程体验证据；未读索引、广告、提问或仅仓库摘要不计入。"
+  },
+  "research_snapshot": {
+    "date": "2026-10-27",
+    "curated_evidence_record_count": 535,
+    "synthesis_source_assignment_count": 522,
+    "public_review_index_record_count": 167,
+    "public_adopted_findings_count": 11
+  }
+}

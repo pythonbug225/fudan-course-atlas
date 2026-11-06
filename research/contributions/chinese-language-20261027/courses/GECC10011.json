@@ -1,0 +1,858 @@
+{
+  "schema_version": 1,
+  "course": {
+    "code": "GECC10011",
+    "name": "鲁迅与中国现代文化",
+    "department": "中国语言文学系",
+    "credits": 2,
+    "term": "2026春",
+    "teachers": [
+      "郜元宝"
+    ],
+    "section_code": null,
+    "class_type": "ordinary",
+    "course_type_code": null,
+    "program_year": null,
+    "program_names": [],
+    "required_or_elective": null
+  },
+  "aliases": {
+    "course_names": [
+      {
+        "value": "鲁迅与中现代文化",
+        "kind": "course_name_alias",
+        "status": "query_candidate",
+        "source_url": null,
+        "evidence_id": null,
+        "limitation": "机械压缩词形，仅检索候选"
+      }
+    ],
+    "teacher_names_or_pinyin": [
+      {
+        "teacher": "郜元宝",
+        "value": "郜元宝",
+        "kind": "canonical_name",
+        "status": "official_target_name"
+      },
+      {
+        "teacher": "郜元宝",
+        "value": "gaoyuanbao",
+        "kind": "full_joined",
+        "status": "generated_query_candidate"
+      },
+      {
+        "teacher": "郜元宝",
+        "value": "gao yuan bao",
+        "kind": "full_spaced",
+        "status": "generated_query_candidate"
+      },
+      {
+        "teacher": "郜元宝",
+        "value": "gyb",
+        "kind": "initials",
+        "status": "generated_query_candidate"
+      },
+      {
+        "teacher": "郜元宝",
+        "value": "郜老师",
+        "kind": "teacher_alias",
+        "status": "query_candidate",
+        "source_url": null,
+        "evidence_id": null,
+        "limitation": "姓氏称谓非唯一别名，仅与完整课名联合查询"
+      }
+    ],
+    "ambiguous_matches": [
+      {
+        "value": "鲁迅与中现代文化",
+        "kind": "course_name_alias",
+        "status": "query_candidate",
+        "source_url": null,
+        "evidence_id": null,
+        "limitation": "机械压缩词形，仅检索候选"
+      },
+      {
+        "value": "luxunyuzhongguoxiandaiwenhua",
+        "kind": "course_pinyin_full_joined",
+        "status": "generated_query_candidate",
+        "limitation": "Generated transliteration is a search term, not an attested spoken alias."
+      },
+      {
+        "value": "lu xun yu zhong guo xian dai wen hua",
+        "kind": "course_pinyin_full_spaced",
+        "status": "generated_query_candidate",
+        "limitation": "Generated transliteration is a search term, not an attested spoken alias."
+      },
+      {
+        "value": "lxyzgxdwh",
+        "kind": "course_pinyin_initials",
+        "status": "generated_query_candidate",
+        "limitation": "Generated transliteration is a search term, not an attested spoken alias."
+      },
+      {
+        "teacher": "郜元宝",
+        "value": "gaoyuanbao",
+        "kind": "full_joined",
+        "status": "generated_query_candidate",
+        "limitation": "Generated transliteration is a search token, not proof of person identity."
+      },
+      {
+        "teacher": "郜元宝",
+        "value": "gao yuan bao",
+        "kind": "full_spaced",
+        "status": "generated_query_candidate",
+        "limitation": "Generated transliteration is a search token, not proof of person identity."
+      },
+      {
+        "teacher": "郜元宝",
+        "value": "gyb",
+        "kind": "initials",
+        "status": "generated_query_candidate",
+        "limitation": "Generated transliteration is a search token, not proof of person identity."
+      },
+      {
+        "teacher": "郜元宝",
+        "value": "郜老师",
+        "kind": "teacher_alias",
+        "status": "query_candidate",
+        "source_url": null,
+        "evidence_id": null,
+        "limitation": "姓氏称谓非唯一别名，仅与完整课名联合查询"
+      }
+    ]
+  },
+  "progress": {
+    "owner": "",
+    "reviewer": "",
+    "status": "in_progress",
+    "queries": [
+      {
+        "query_id": "PLATFORM-GECC10011-2026春-小红书",
+        "category": "canonical_title_teacher_platform_search",
+        "term": "2026春",
+        "query": "复旦 \"鲁迅与中国现代文化\" (\"郜元宝\") 课程 评价",
+        "status": "no_link_returned",
+        "search_scope": "platform_specific_external_search_index",
+        "domains": [
+          "xiaohongshu.com"
+        ],
+        "attempts": 1,
+        "returned_link_count": 0,
+        "confirmed_direct_reviews": 0,
+        "read_status": "search_index_only",
+        "source_file": "reports/公开平台逐课检索台账.csv",
+        "source_record_id": "PLATFORM-GECC10011-2026春-小红书",
+        "source_record_pointer": "course_code=GECC10011;terms=2026春;platform=小红书",
+        "limitation": "外部搜索索引覆盖有限；不代表站内不存在"
+      },
+      {
+        "query_id": "PLATFORM-GECC10011-2026春-微信公众号",
+        "category": "canonical_title_teacher_platform_search",
+        "term": "2026春",
+        "query": "复旦 \"鲁迅与中国现代文化\" (\"郜元宝\") 课程 评价",
+        "status": "no_link_returned",
+        "search_scope": "platform_specific_external_search_index",
+        "domains": [
+          "mp.weixin.qq.com"
+        ],
+        "attempts": 1,
+        "returned_link_count": 0,
+        "confirmed_direct_reviews": 0,
+        "read_status": "search_index_only",
+        "source_file": "reports/公开平台逐课检索台账.csv",
+        "source_record_id": "PLATFORM-GECC10011-2026春-微信公众号",
+        "source_record_pointer": "course_code=GECC10011;terms=2026春;platform=微信公众号",
+        "limitation": "外部搜索索引覆盖有限；不代表站内不存在"
+      },
+      {
+        "query_id": "PLATFORM-GECC10011-2026春-知乎",
+        "category": "canonical_title_teacher_platform_search",
+        "term": "2026春",
+        "query": "复旦 \"鲁迅与中国现代文化\" (\"郜元宝\") 课程 评价",
+        "status": "no_link_returned",
+        "search_scope": "platform_specific_external_search_index",
+        "domains": [
+          "zhihu.com"
+        ],
+        "attempts": 1,
+        "returned_link_count": 0,
+        "confirmed_direct_reviews": 0,
+        "read_status": "search_index_only",
+        "source_file": "reports/公开平台逐课检索台账.csv",
+        "source_record_id": "PLATFORM-GECC10011-2026春-知乎",
+        "source_record_pointer": "course_code=GECC10011;terms=2026春;platform=知乎",
+        "limitation": "外部搜索索引覆盖有限；不代表站内不存在"
+      },
+      {
+        "query_id": "PUBALIAS-01678",
+        "category": "course_alias",
+        "term": "鲁迅与中现代文化",
+        "query": "复旦 \"郜元宝\" \"鲁迅与中现代文化\"",
+        "status": "completed",
+        "search_scope": "external_index_union_of_three_domains",
+        "domains": [
+          "zhihu.com",
+          "xiaohongshu.com",
+          "mp.weixin.qq.com"
+        ],
+        "attempts": 1,
+        "returned_link_count": 0,
+        "confirmed_direct_reviews": 0,
+        "read_status": "query execution only; not article reading",
+        "source_file": "reports/别名拼音扩展检索台账.csv",
+        "source_record_id": "PUBALIAS-01678",
+        "source_record_pointer": "query_id=PUBALIAS-01678",
+        "limitation": "A union-domain query is one logged record, not one execution per listed platform."
+      },
+      {
+        "query_id": "PUBALIAS-01679",
+        "category": "course_pinyin_full_joined",
+        "term": "luxunyuzhongguoxiandaiwenhua",
+        "query": "复旦 \"郜元宝\" \"luxunyuzhongguoxiandaiwenhua\"",
+        "status": "completed",
+        "search_scope": "external_index_union_of_three_domains",
+        "domains": [
+          "zhihu.com",
+          "xiaohongshu.com",
+          "mp.weixin.qq.com"
+        ],
+        "attempts": 1,
+        "returned_link_count": 0,
+        "confirmed_direct_reviews": 0,
+        "read_status": "query execution only; not article reading",
+        "source_file": "reports/别名拼音扩展检索台账.csv",
+        "source_record_id": "PUBALIAS-01679",
+        "source_record_pointer": "query_id=PUBALIAS-01679",
+        "limitation": "A union-domain query is one logged record, not one execution per listed platform."
+      },
+      {
+        "query_id": "PUBALIAS-01680",
+        "category": "course_pinyin_full_spaced",
+        "term": "lu xun yu zhong guo xian dai wen hua",
+        "query": "复旦 \"郜元宝\" \"lu xun yu zhong guo xian dai wen hua\"",
+        "status": "completed",
+        "search_scope": "external_index_union_of_three_domains",
+        "domains": [
+          "zhihu.com",
+          "xiaohongshu.com",
+          "mp.weixin.qq.com"
+        ],
+        "attempts": 1,
+        "returned_link_count": 0,
+        "confirmed_direct_reviews": 0,
+        "read_status": "query execution only; not article reading",
+        "source_file": "reports/别名拼音扩展检索台账.csv",
+        "source_record_id": "PUBALIAS-01680",
+        "source_record_pointer": "query_id=PUBALIAS-01680",
+        "limitation": "A union-domain query is one logged record, not one execution per listed platform."
+      },
+      {
+        "query_id": "PUBALIAS-01681",
+        "category": "course_pinyin_initials",
+        "term": "lxyzgxdwh",
+        "query": "复旦 \"郜元宝\" \"lxyzgxdwh\"",
+        "status": "completed",
+        "search_scope": "external_index_union_of_three_domains",
+        "domains": [
+          "zhihu.com",
+          "xiaohongshu.com",
+          "mp.weixin.qq.com"
+        ],
+        "attempts": 1,
+        "returned_link_count": 0,
+        "confirmed_direct_reviews": 0,
+        "read_status": "query execution only; not article reading",
+        "source_file": "reports/别名拼音扩展检索台账.csv",
+        "source_record_id": "PUBALIAS-01681",
+        "source_record_pointer": "query_id=PUBALIAS-01681",
+        "limitation": "A union-domain query is one logged record, not one execution per listed platform."
+      },
+      {
+        "query_id": "PUBALIAS-01682",
+        "category": "teacher_pinyin_full_joined",
+        "term": "gaoyuanbao",
+        "query": "复旦 \"鲁迅与中国现代文化\" \"gaoyuanbao\"",
+        "status": "completed",
+        "search_scope": "external_index_union_of_three_domains",
+        "domains": [
+          "zhihu.com",
+          "xiaohongshu.com",
+          "mp.weixin.qq.com"
+        ],
+        "attempts": 1,
+        "returned_link_count": 0,
+        "confirmed_direct_reviews": 0,
+        "read_status": "query execution only; not article reading",
+        "source_file": "reports/别名拼音扩展检索台账.csv",
+        "source_record_id": "PUBALIAS-01682",
+        "source_record_pointer": "query_id=PUBALIAS-01682",
+        "limitation": "A union-domain query is one logged record, not one execution per listed platform."
+      },
+      {
+        "query_id": "PUBALIAS-01683",
+        "category": "teacher_pinyin_full_spaced",
+        "term": "gao yuan bao",
+        "query": "复旦 \"鲁迅与中国现代文化\" \"gao yuan bao\"",
+        "status": "completed",
+        "search_scope": "external_index_union_of_three_domains",
+        "domains": [
+          "zhihu.com",
+          "xiaohongshu.com",
+          "mp.weixin.qq.com"
+        ],
+        "attempts": 1,
+        "returned_link_count": 0,
+        "confirmed_direct_reviews": 0,
+        "read_status": "query execution only; not article reading",
+        "source_file": "reports/别名拼音扩展检索台账.csv",
+        "source_record_id": "PUBALIAS-01683",
+        "source_record_pointer": "query_id=PUBALIAS-01683",
+        "limitation": "A union-domain query is one logged record, not one execution per listed platform."
+      },
+      {
+        "query_id": "PUBALIAS-01684",
+        "category": "teacher_pinyin_initials",
+        "term": "gyb",
+        "query": "复旦 \"鲁迅与中国现代文化\" \"gyb\"",
+        "status": "completed",
+        "search_scope": "external_index_union_of_three_domains",
+        "domains": [
+          "zhihu.com",
+          "xiaohongshu.com",
+          "mp.weixin.qq.com"
+        ],
+        "attempts": 1,
+        "returned_link_count": 0,
+        "confirmed_direct_reviews": 0,
+        "read_status": "query execution only; not article reading",
+        "source_file": "reports/别名拼音扩展检索台账.csv",
+        "source_record_id": "PUBALIAS-01684",
+        "source_record_pointer": "query_id=PUBALIAS-01684",
+        "limitation": "A union-domain query is one logged record, not one execution per listed platform."
+      },
+      {
+        "query_id": "PUBALIAS-01685",
+        "category": "teacher_alias",
+        "term": "郜老师",
+        "query": "复旦 \"鲁迅与中国现代文化\" \"郜老师\"",
+        "status": "completed",
+        "search_scope": "external_index_union_of_three_domains",
+        "domains": [
+          "zhihu.com",
+          "xiaohongshu.com",
+          "mp.weixin.qq.com"
+        ],
+        "attempts": 1,
+        "returned_link_count": 0,
+        "confirmed_direct_reviews": 0,
+        "read_status": "query execution only; not article reading",
+        "source_file": "reports/别名拼音扩展检索台账.csv",
+        "source_record_id": "PUBALIAS-01685",
+        "source_record_pointer": "query_id=PUBALIAS-01685",
+        "limitation": "A union-domain query is one logged record, not one execution per listed platform."
+      }
+    ],
+    "query_status_counts": {
+      "no_link_returned": 3,
+      "completed": 8
+    },
+    "query_coverage_note": "已执行课程全名、可证别名、教师全名及拼音/首字母组合的公开索引检索。跨域联合查询按一条日志记录，不按列出的域重复计数。查询完成不表示结果页已读，也不代表平台内容穷尽。",
+    "remaining_scope": [
+      "公开索引覆盖有限，未穷尽各平台站内搜索及未被索引的页面。",
+      "六个课程群聊的原始私密内容不进入本次公开贡献，仍有私密渠道缺口。",
+      "这是当前本地证据快照；新增上下文、历史教师材料和课评需重跑脚本更新。"
+    ],
+    "no_student_reviews_found": false,
+    "no_student_reviews_found_note": "true表示本快照没有已采用的学生平台摘要，不表示不存在其他评价；另见index_only_hits和查询日志。"
+  },
+  "sources": [
+    {
+      "source_id": "OFFICIAL-OFFERING-1028442",
+      "source_type": "official",
+      "canonical_url": "https://fdjwgl.fudan.edu.cn/student/for-all/lesson-search/semester/505/search/505?openDepartmentAssocs=2620&queryPage__=1,500",
+      "public_author_label": null,
+      "published_at": null,
+      "fetched_at": "2026-10-27",
+      "hole_id": null,
+      "floor_id": null,
+      "floor_number": null,
+      "review_id": null,
+      "file_and_page": "official timetable lesson_id=1028442",
+      "image_page": null,
+      "reading_status": "official_timetable_record_read",
+      "mapping_status": "official course code and lesson_id",
+      "record_type": "official_course_offering",
+      "adoption": "adopted_official_metadata",
+      "reason": "Official 2025 autumn / 2026 spring timetable row.",
+      "duplicate_of": null,
+      "license": null,
+      "fulltext_permission": "unconfirmed",
+      "attribution_and_changes": "Official offering metadata; no student personal data included.",
+      "raw_filename": "reports/两学期全部教学班.json",
+      "raw_record_id": "1028442",
+      "course_code": "GECC10011",
+      "report_filename": "reports/两学期全部教学班.json",
+      "report_record_id": "1028442",
+      "report_record_pointer": null,
+      "raw_body_status": null,
+      "teacher_if_explicit": "郜元宝",
+      "term_as_stated": "2026春",
+      "section_code": "GECC10011.01"
+    },
+    {
+      "source_id": "OFFICIAL-SYLLABUS-1028442",
+      "source_type": "official",
+      "canonical_url": "https://fdjwgl.fudan.edu.cn/student/for-all/lesson-search/teachingSyllabusInfo/1028442",
+      "public_author_label": null,
+      "published_at": null,
+      "fetched_at": "2026-10-27",
+      "hole_id": null,
+      "floor_id": null,
+      "floor_number": null,
+      "review_id": null,
+      "file_and_page": "official syllabus lesson_id=1028442",
+      "image_page": null,
+      "reading_status": "structured_text_extracted",
+      "mapping_status": "lesson syllabus course code checked",
+      "record_type": "official_syllabus",
+      "adoption": "adopted_official_requirements",
+      "reason": "Official syllabus parsed locally; requirements stay attached to this offering.",
+      "duplicate_of": null,
+      "license": null,
+      "fulltext_permission": "unconfirmed",
+      "attribution_and_changes": "Only metadata, section titles, textbook details and assessment structure are exported; full syllabus text is not republished.",
+      "raw_filename": "reports/官方大纲结构化摘要.json",
+      "raw_record_id": "1028442",
+      "course_code": "GECC10011",
+      "report_filename": "reports/官方大纲结构化摘要.json",
+      "report_record_id": "1028442",
+      "report_record_pointer": null,
+      "raw_body_status": null,
+      "teacher_if_explicit": "郜元宝",
+      "term_as_stated": "2026春",
+      "section_code": "GECC10011.01"
+    },
+    {
+      "source_id": "DANKE-6057",
+      "source_type": "danke",
+      "canonical_url": "https://danke.fduhole.com/api/reviews/6057",
+      "public_author_label": null,
+      "published_at": "2026-06-19T01:32:21.311Z",
+      "fetched_at": "2026-10-27",
+      "hole_id": null,
+      "floor_id": null,
+      "floor_number": null,
+      "review_id": 6057,
+      "file_and_page": "danke source DANKE-6057",
+      "image_page": null,
+      "reading_status": "full_returned_text",
+      "mapping_status": "verified course assignment from curated evidence",
+      "record_type": "detailed_review",
+      "adoption": "adopted_limited",
+      "reason": "",
+      "duplicate_of": null,
+      "license": null,
+      "fulltext_permission": "unconfirmed; short summary only exported",
+      "attribution_and_changes": "Short paraphrase from locally curated evidence; original body, account metadata and media are not copied.",
+      "raw_filename": "raw/danke.jsonl",
+      "raw_record_id": 6057,
+      "course_code": "GECC10011",
+      "report_filename": "reports/课程人工综合与来源.json",
+      "report_record_id": "DANKE-6057",
+      "report_record_pointer": null,
+      "raw_body_status": "published_redacted",
+      "teacher_if_explicit": "郜元宝",
+      "term_as_stated": "26年春季学期（正文首句）",
+      "section_code": null,
+      "raw_year": 2021,
+      "raw_semester": 1,
+      "indexed_terms": [
+        "2021秋"
+      ],
+      "indexed_course_periods": null,
+      "body_term_if_explicit": "26年春季学期（正文首句）",
+      "body_claimed_calendar_terms": [
+        "2026春"
+      ],
+      "body_term_conflict": true,
+      "review_time_conflict": null,
+      "index_conflict_note": "API 2021/S1映射2021秋，与正文26春冲突；并列保留。",
+      "term_scope": "API所挂课程索引期：2021秋；依据官方客户端学年/学期映射。它不自动证明作者实际修读期；正文明确时间或冲突另行保留。 时间冲突：正文为2026春，索引为2021秋；均保留。 API 2021/S1映射2021秋，与正文26春冲突；并列保留。",
+      "body_term_precision": "single_term",
+      "body_term_scope": "author_course_period",
+      "relative_period_phrases": [
+        "今年（考试题目叙述）"
+      ],
+      "semester_mapping_source": "https://github.com/DanXi-Dev/DanXi/blob/3c1f5f026fbc7ca50e151865f813cdb381807abe/lib/model/danke/course.dart#L36-L45",
+      "body_calendar_terms_parsed": [
+        "2026春"
+      ],
+      "body_claimed_target_terms": [
+        "2026春"
+      ],
+      "indexed_target_terms": [],
+      "target_period_note": "正文明确自述目标期，仍核对教师及索引冲突。"
+    },
+    {
+      "source_id": "DANKE-5978",
+      "source_type": "danke",
+      "canonical_url": "https://danke.fduhole.com/api/reviews/5978",
+      "public_author_label": null,
+      "published_at": "2026-05-31T15:13:50.658Z",
+      "fetched_at": "2026-10-27",
+      "hole_id": null,
+      "floor_id": null,
+      "floor_number": null,
+      "review_id": 5978,
+      "file_and_page": "danke source DANKE-5978",
+      "image_page": null,
+      "reading_status": "full_returned_text",
+      "mapping_status": "verified course assignment from curated evidence",
+      "record_type": "detailed_review",
+      "adoption": "adopted_limited",
+      "reason": "",
+      "duplicate_of": null,
+      "license": null,
+      "fulltext_permission": "unconfirmed; short summary only exported",
+      "attribution_and_changes": "Short paraphrase from locally curated evidence; original body, account metadata and media are not copied.",
+      "raw_filename": "raw/danke.jsonl",
+      "raw_record_id": 5978,
+      "course_code": "GECC10011",
+      "report_filename": "reports/课程人工综合与来源.json",
+      "report_record_id": "DANKE-5978",
+      "report_record_pointer": null,
+      "raw_body_status": "published_redacted",
+      "teacher_if_explicit": "郜元宝",
+      "term_as_stated": "正文修读学期未明确",
+      "section_code": null,
+      "raw_year": 2020,
+      "raw_semester": 1,
+      "indexed_terms": [
+        "2020秋"
+      ],
+      "indexed_course_periods": null,
+      "body_term_if_explicit": null,
+      "body_claimed_calendar_terms": null,
+      "body_term_conflict": null,
+      "review_time_conflict": null,
+      "index_conflict_note": null,
+      "term_scope": "API所挂课程索引期：2020秋；依据官方客户端学年/学期映射。它不自动证明作者实际修读期；正文明确时间或冲突另行保留。",
+      "body_term_precision": null,
+      "body_term_scope": null,
+      "relative_period_phrases": null,
+      "semester_mapping_source": "https://github.com/DanXi-Dev/DanXi/blob/3c1f5f026fbc7ca50e151865f813cdb381807abe/lib/model/danke/course.dart#L36-L45",
+      "body_calendar_terms_parsed": [],
+      "body_claimed_target_terms": [],
+      "indexed_target_terms": [],
+      "target_period_note": "非目标期、相对或未知修读期，不当作目标期直接反馈。"
+    },
+    {
+      "source_id": "DANKE-INDEX-GROUP-5978",
+      "source_type": "danke",
+      "canonical_url": "https://danke.fduhole.com/api/v3/course_groups/3558",
+      "public_author_label": null,
+      "published_at": "2026-05-31T15:13:50.658Z",
+      "fetched_at": "2026-10-27",
+      "hole_id": null,
+      "floor_id": null,
+      "floor_number": null,
+      "review_id": null,
+      "file_and_page": "鲁迅与中国现代文化",
+      "image_page": null,
+      "reading_status": "index_or_search_excerpt_only",
+      "mapping_status": "legacy archive catalog mapping; not individual review verification",
+      "record_type": "course_review_group_index",
+      "adoption": "excluded_index_only",
+      "reason": "未读完整正文；只保留来源索引和课程映射，不形成课程体验结论。",
+      "duplicate_of": null,
+      "license": null,
+      "fulltext_permission": "unconfirmed",
+      "attribution_and_changes": "Index metadata only; no snippet or body copied.",
+      "raw_filename": "reports/逐课研究数据.json",
+      "raw_record_id": "GECC10011:DANKE-INDEX-GROUP-5978",
+      "course_code": "GECC10011",
+      "report_filename": "reports/逐课研究数据.json",
+      "report_record_id": "GECC10011",
+      "report_record_pointer": "courses[GECC10011].old_review_ids includes 5978",
+      "raw_body_status": "index_or_search_excerpt_only",
+      "teacher_if_explicit": "郜元宝",
+      "term_as_stated": "2020/S1",
+      "section_code": null
+    },
+    {
+      "source_id": "DANKE-INDEX-GROUP-6057",
+      "source_type": "danke",
+      "canonical_url": "https://danke.fduhole.com/api/v3/course_groups/3558",
+      "public_author_label": null,
+      "published_at": "2026-06-19T01:32:21.311Z",
+      "fetched_at": "2026-10-27",
+      "hole_id": null,
+      "floor_id": null,
+      "floor_number": null,
+      "review_id": null,
+      "file_and_page": "鲁迅与中国现代文化",
+      "image_page": null,
+      "reading_status": "index_or_search_excerpt_only",
+      "mapping_status": "legacy archive catalog mapping; not individual review verification",
+      "record_type": "course_review_group_index",
+      "adoption": "excluded_index_only",
+      "reason": "未读完整正文；只保留来源索引和课程映射，不形成课程体验结论。",
+      "duplicate_of": null,
+      "license": null,
+      "fulltext_permission": "unconfirmed",
+      "attribution_and_changes": "Index metadata only; no snippet or body copied.",
+      "raw_filename": "reports/逐课研究数据.json",
+      "raw_record_id": "GECC10011:DANKE-INDEX-GROUP-6057",
+      "course_code": "GECC10011",
+      "report_filename": "reports/逐课研究数据.json",
+      "report_record_id": "GECC10011",
+      "report_record_pointer": "courses[GECC10011].old_review_ids includes 6057",
+      "raw_body_status": "index_or_search_excerpt_only",
+      "teacher_if_explicit": "郜元宝",
+      "term_as_stated": "2021/S1",
+      "section_code": null
+    }
+  ],
+  "syllabus": {
+    "source_ids": [
+      "OFFICIAL-SYLLABUS-1028442"
+    ],
+    "content": "官方大纲按教学班逐项记录在offerings；不同学期或平行班要求未合并。",
+    "prerequisites": "",
+    "assessment": ""
+  },
+  "materials": [],
+  "student_reviews_and_discussions": [
+    {
+      "source_id": "DANKE-6057",
+      "source_type": "danke",
+      "record_type": "detailed_review",
+      "canonical_url": "https://danke.fduhole.com/api/reviews/6057",
+      "reading_status": "full_returned_text",
+      "mapping_status": "verified course assignment from curated evidence",
+      "adoption": "adopted_limited",
+      "teacher_if_explicit": "郜元宝",
+      "term_as_stated": "26年春季学期（正文首句）",
+      "indexed_terms": [
+        "2021秋"
+      ],
+      "raw_body_status": "published_redacted",
+      "raw_year": 2021,
+      "raw_semester": 1,
+      "indexed_course_periods": null,
+      "body_term_if_explicit": "26年春季学期（正文首句）",
+      "body_claimed_calendar_terms": [
+        "2026春"
+      ],
+      "body_term_conflict": true,
+      "review_time_conflict": null,
+      "index_conflict_note": "API 2021/S1映射2021秋，与正文26春冲突；并列保留。",
+      "term_scope": "API所挂课程索引期：2021秋；依据官方客户端学年/学期映射。它不自动证明作者实际修读期；正文明确时间或冲突另行保留。 时间冲突：正文为2026春，索引为2021秋；均保留。 API 2021/S1映射2021秋，与正文26春冲突；并列保留。",
+      "body_term_precision": "single_term",
+      "body_term_scope": "author_course_period",
+      "relative_period_phrases": [
+        "今年（考试题目叙述）"
+      ],
+      "semester_mapping_source": "https://github.com/DanXi-Dev/DanXi/blob/3c1f5f026fbc7ca50e151865f813cdb381807abe/lib/model/danke/course.dart#L36-L45",
+      "body_calendar_terms_parsed": [
+        "2026春"
+      ],
+      "body_claimed_target_terms": [
+        "2026春"
+      ],
+      "indexed_target_terms": [],
+      "target_period_note": "正文明确自述目标期，仍核对教师及索引冲突。",
+      "period_status": "正文明确自述目标期，仍核对教师及索引冲突。",
+      "summary": "作者明确称26年春修读，介绍鲁迅作品、五次讨论课、汇报与讨论稿及闭卷考题型。作者认为给分应不错，但未提供个人成绩。",
+      "limitations": "基于本轮已完整返回的API正文；正文内图片和外链未核读。课程体验、任务说明及成绩均为发帖者自述，不能视为官方要求或成绩统计；不以发帖日期推断修读学期。",
+      "reason": ""
+    },
+    {
+      "source_id": "DANKE-5978",
+      "source_type": "danke",
+      "record_type": "detailed_review",
+      "canonical_url": "https://danke.fduhole.com/api/reviews/5978",
+      "reading_status": "full_returned_text",
+      "mapping_status": "verified course assignment from curated evidence",
+      "adoption": "adopted_limited",
+      "teacher_if_explicit": "郜元宝",
+      "term_as_stated": "正文修读学期未明确",
+      "indexed_terms": [
+        "2020秋"
+      ],
+      "raw_body_status": "published_redacted",
+      "raw_year": 2020,
+      "raw_semester": 1,
+      "indexed_course_periods": null,
+      "body_term_if_explicit": null,
+      "body_claimed_calendar_terms": null,
+      "body_term_conflict": null,
+      "review_time_conflict": null,
+      "index_conflict_note": null,
+      "term_scope": "API所挂课程索引期：2020秋；依据官方客户端学年/学期映射。它不自动证明作者实际修读期；正文明确时间或冲突另行保留。",
+      "body_term_precision": null,
+      "body_term_scope": null,
+      "relative_period_phrases": null,
+      "semester_mapping_source": "https://github.com/DanXi-Dev/DanXi/blob/3c1f5f026fbc7ca50e151865f813cdb381807abe/lib/model/danke/course.dart#L36-L45",
+      "body_calendar_terms_parsed": [],
+      "body_claimed_target_terms": [],
+      "indexed_target_terms": [],
+      "target_period_note": "非目标期、相对或未知修读期，不当作目标期直接反馈。",
+      "period_status": "非目标期、相对或未知修读期，不当作目标期直接反馈。",
+      "summary": "作者介绍五次周末讨论课、集体汇报/论文及闭卷考试，并称教师授课有权威感。其所谓“无限A-”是作者猜测，不能作为评分比例证据。",
+      "limitations": "基于本轮已完整返回的API正文；正文内图片和外链未核读。课程体验、任务说明及成绩均为发帖者自述，不能视为官方要求或成绩统计；不以发帖日期推断修读学期。",
+      "reason": ""
+    }
+  ],
+  "index_only_hits": [
+    {
+      "source_id": "DANKE-INDEX-GROUP-5978",
+      "course_as_indexed": "鲁迅与中国现代文化",
+      "teacher_as_indexed": "郜元宝",
+      "source_term_label": "2020/S1",
+      "reading_status": "index_or_search_excerpt_only",
+      "mapping_status": "legacy archive index only",
+      "adoption": "excluded_index_only",
+      "raw_body_status": "index_or_search_excerpt_only",
+      "reason": "未读完整正文；只保留来源索引和课程映射，不形成课程体验结论。"
+    },
+    {
+      "source_id": "DANKE-INDEX-GROUP-6057",
+      "course_as_indexed": "鲁迅与中国现代文化",
+      "teacher_as_indexed": "郜元宝",
+      "source_term_label": "2021/S1",
+      "reading_status": "index_or_search_excerpt_only",
+      "mapping_status": "legacy archive index only",
+      "adoption": "excluded_index_only",
+      "raw_body_status": "index_or_search_excerpt_only",
+      "reason": "未读完整正文；只保留来源索引和课程映射，不形成课程体验结论。"
+    }
+  ],
+  "quantitative_observations": [],
+  "offerings": [
+    {
+      "term": "2026春",
+      "section_code": "GECC10011.01",
+      "lesson_id": 1028442,
+      "course_code": "GECC10011",
+      "course_name": "鲁迅与中国现代文化",
+      "teachers": [
+        "郜元宝"
+      ],
+      "credits": 2,
+      "task_level": "本科",
+      "open_department": "中国语言文学系",
+      "course_type": "文史经典与文化传承",
+      "course_table_type": "通识教育核心课程：七模1（文史经典）",
+      "exam_mode": "闭卷",
+      "total_hours": 36,
+      "source_ids": [
+        "OFFICIAL-OFFERING-1028442",
+        "OFFICIAL-SYLLABUS-1028442"
+      ],
+      "official_syllabus": {
+        "status": "structured_text_extracted",
+        "source_id": "OFFICIAL-SYLLABUS-1028442",
+        "section_titles": [
+          "课程简介（中文）",
+          "课程简介（英文）",
+          "教学目标",
+          "教学方式",
+          "教学内容与进度安排",
+          "课程考核与成绩评定",
+          "教材",
+          "教学参考资料",
+          "教学团队成员"
+        ],
+        "prerequisites": [],
+        "assessment": [
+          {
+            "criteria": "出勤Attendance",
+            "percentage": 10.0,
+            "standard": "是否出勤"
+          },
+          {
+            "criteria": "课题研讨Topic Discussion",
+            "percentage": 20.0,
+            "standard": "是否提交讨论小提纲、是否积极参与小组讨论"
+          },
+          {
+            "criteria": "期末考试Final Examination：闭卷 ",
+            "percentage": 70.0,
+            "standard": "实际卷面评分"
+          }
+        ],
+        "grade_rule": "等级制",
+        "textbooks": [],
+        "syllabus_id": 9255,
+        "error": null
+      }
+    }
+  ],
+  "official_metadata": {
+    "department": "中国语言文学系",
+    "target_terms": [
+      "2026春"
+    ],
+    "target_teachers": [
+      "郜元宝"
+    ],
+    "task_levels": [
+      "本科"
+    ],
+    "section_count": 1,
+    "official_offering_count_in_snapshot": 1,
+    "course_type_values_by_offering": [
+      "文史经典与文化传承"
+    ],
+    "course_table_type_values_by_offering": [
+      "通识教育核心课程：七模1（文史经典）"
+    ],
+    "source_ids": [
+      "OFFICIAL-OFFERING-1028442"
+    ]
+  },
+  "comparison_and_summary": {
+    "teaching_and_learning": "已读摘要没有明确记录具体学习收获或能力变化。",
+    "workload": "26年春自述提到五次讨论课、汇报和讨论稿（DANKE-6057）；另一篇学期不明的回顾也记有五次周末讨论、集体汇报/论文和闭卷考（DANKE-5978）。两篇对准备时长和任务工作量的说明有限，不能据此估计其他班级。",
+    "assessment": "26年春回顾提及闭卷题型，只说给分“应不错”，没有报告个人等第（DANKE-6057）。另一篇历史回顾也记有闭卷考试；其中“无限A-”是作者猜测，不能作为评分比例证据（DANKE-5978）。",
+    "grading_and_risk": "",
+    "teacher_and_term_differences": "已读来源未明确写出教师姓名；不能据课程名或现任教师表补认授课者。 来源没有可确认的修读学期。",
+    "who_it_suits": "",
+    "source_ids": [
+      "DANKE-6057",
+      "DANKE-5978"
+    ],
+    "section_source_ids": {
+      "teaching_and_learning": [],
+      "workload": [
+        "DANKE-6057",
+        "DANKE-5978"
+      ],
+      "assessment": [
+        "DANKE-6057",
+        "DANKE-5978"
+      ],
+      "teacher_and_term_differences": []
+    },
+    "manual_comparison": {
+      "status": "human_synthesized",
+      "text": "一位作者明确称26年春修读郜元宝班，记有五次讨论课、汇报/讨论稿及闭卷题型；课程围绕鲁迅作品展开，但作者只说给分“应不错”，没有本人等第（DANKE-6057）。另一历史回顾提到周末讨论、集体汇报/论文和闭卷考，不把A−说法作为比例证据（DANKE-5978）。",
+      "evidence_ids": [
+        "DANKE-6057",
+        "DANKE-5978"
+      ],
+      "limitations": "新材料补足了本人修课证据；较早材料学期不明，给分猜测不当作规则。",
+      "confidence": "low：材料主要为二手、短评或编辑选取内容，只能作线索。"
+    },
+    "confidence": "low：材料主要为二手、短评或编辑选取内容，只能作线索。",
+    "limitations": "共纳入1条已读来源，其中本人经历/评课0条、二手转述1条，另有校方精选、媒体报道或历史汇编0条；这些材料不代表班级分布。 没有明确目标期的一手评价；历史或学期不明材料不能移作当前班级结论。"
+  },
+  "research_snapshot": {
+    "date": "2026-10-27",
+    "curated_evidence_record_count": 535,
+    "synthesis_source_assignment_count": 522,
+    "public_review_index_record_count": 167,
+    "public_adopted_findings_count": 11
+  }
+}

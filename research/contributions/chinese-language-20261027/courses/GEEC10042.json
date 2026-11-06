@@ -1,0 +1,960 @@
+{
+  "schema_version": 1,
+  "course": {
+    "code": "GEEC10042",
+    "name": "中国古典诗词鉴赏",
+    "department": "中国语言文学系",
+    "credits": 2,
+    "term": "2025秋 / 2026春",
+    "teachers": [
+      "翟墨"
+    ],
+    "section_code": null,
+    "class_type": "ordinary",
+    "course_type_code": null,
+    "program_year": null,
+    "program_names": [],
+    "required_or_elective": null
+  },
+  "aliases": {
+    "course_names": [
+      {
+        "value": "中古典诗词鉴赏",
+        "kind": "course_name_alias",
+        "status": "query_candidate",
+        "source_url": null,
+        "evidence_id": null,
+        "limitation": "机械压缩词形，仅检索候选"
+      }
+    ],
+    "teacher_names_or_pinyin": [
+      {
+        "teacher": "翟墨",
+        "value": "翟墨",
+        "kind": "canonical_name",
+        "status": "official_target_name"
+      },
+      {
+        "teacher": "翟墨",
+        "value": "zhaimo",
+        "kind": "full_joined",
+        "status": "generated_query_candidate"
+      },
+      {
+        "teacher": "翟墨",
+        "value": "zhai mo",
+        "kind": "full_spaced",
+        "status": "generated_query_candidate"
+      },
+      {
+        "teacher": "翟墨",
+        "value": "zm",
+        "kind": "initials",
+        "status": "generated_query_candidate"
+      },
+      {
+        "teacher": "翟墨",
+        "value": "翟老师",
+        "kind": "teacher_alias",
+        "status": "query_candidate",
+        "source_url": null,
+        "evidence_id": null,
+        "limitation": "姓氏称谓非唯一别名，仅与完整课名联合查询"
+      }
+    ],
+    "ambiguous_matches": [
+      {
+        "value": "中古典诗词鉴赏",
+        "kind": "course_name_alias",
+        "status": "query_candidate",
+        "source_url": null,
+        "evidence_id": null,
+        "limitation": "机械压缩词形，仅检索候选"
+      },
+      {
+        "value": "zhongguogudianshicijianshang",
+        "kind": "course_pinyin_full_joined",
+        "status": "generated_query_candidate",
+        "limitation": "Generated transliteration is a search term, not an attested spoken alias."
+      },
+      {
+        "value": "zhong guo gu dian shi ci jian shang",
+        "kind": "course_pinyin_full_spaced",
+        "status": "generated_query_candidate",
+        "limitation": "Generated transliteration is a search term, not an attested spoken alias."
+      },
+      {
+        "value": "zggdscjs",
+        "kind": "course_pinyin_initials",
+        "status": "generated_query_candidate",
+        "limitation": "Generated transliteration is a search term, not an attested spoken alias."
+      },
+      {
+        "teacher": "翟墨",
+        "value": "zhaimo",
+        "kind": "full_joined",
+        "status": "generated_query_candidate",
+        "limitation": "Generated transliteration is a search token, not proof of person identity."
+      },
+      {
+        "teacher": "翟墨",
+        "value": "zhai mo",
+        "kind": "full_spaced",
+        "status": "generated_query_candidate",
+        "limitation": "Generated transliteration is a search token, not proof of person identity."
+      },
+      {
+        "teacher": "翟墨",
+        "value": "zm",
+        "kind": "initials",
+        "status": "generated_query_candidate",
+        "limitation": "Generated transliteration is a search token, not proof of person identity."
+      },
+      {
+        "teacher": "翟墨",
+        "value": "翟老师",
+        "kind": "teacher_alias",
+        "status": "query_candidate",
+        "source_url": null,
+        "evidence_id": null,
+        "limitation": "姓氏称谓非唯一别名，仅与完整课名联合查询"
+      }
+    ]
+  },
+  "progress": {
+    "owner": "",
+    "reviewer": "",
+    "status": "in_progress",
+    "queries": [
+      {
+        "query_id": "PLATFORM-GEEC10042-2025秋 / 2026春-小红书",
+        "category": "canonical_title_teacher_platform_search",
+        "term": "2025秋 / 2026春",
+        "query": "复旦 \"中国古典诗词鉴赏\" (\"翟墨\") 课程 评价",
+        "status": "no_link_returned",
+        "search_scope": "platform_specific_external_search_index",
+        "domains": [
+          "xiaohongshu.com"
+        ],
+        "attempts": 1,
+        "returned_link_count": 0,
+        "confirmed_direct_reviews": 0,
+        "read_status": "search_index_only",
+        "source_file": "reports/公开平台逐课检索台账.csv",
+        "source_record_id": "PLATFORM-GEEC10042-2025秋 / 2026春-小红书",
+        "source_record_pointer": "course_code=GEEC10042;terms=2025秋 / 2026春;platform=小红书",
+        "limitation": "外部搜索索引覆盖有限；不代表站内不存在"
+      },
+      {
+        "query_id": "PLATFORM-GEEC10042-2025秋 / 2026春-微信公众号",
+        "category": "canonical_title_teacher_platform_search",
+        "term": "2025秋 / 2026春",
+        "query": "复旦 \"中国古典诗词鉴赏\" (\"翟墨\") 课程 评价",
+        "status": "no_link_returned",
+        "search_scope": "platform_specific_external_search_index",
+        "domains": [
+          "mp.weixin.qq.com"
+        ],
+        "attempts": 1,
+        "returned_link_count": 0,
+        "confirmed_direct_reviews": 0,
+        "read_status": "search_index_only",
+        "source_file": "reports/公开平台逐课检索台账.csv",
+        "source_record_id": "PLATFORM-GEEC10042-2025秋 / 2026春-微信公众号",
+        "source_record_pointer": "course_code=GEEC10042;terms=2025秋 / 2026春;platform=微信公众号",
+        "limitation": "外部搜索索引覆盖有限；不代表站内不存在"
+      },
+      {
+        "query_id": "PLATFORM-GEEC10042-2025秋 / 2026春-知乎",
+        "category": "canonical_title_teacher_platform_search",
+        "term": "2025秋 / 2026春",
+        "query": "复旦 \"中国古典诗词鉴赏\" (\"翟墨\") 课程 评价",
+        "status": "results_returned_no_adopted_review",
+        "search_scope": "platform_specific_external_search_index",
+        "domains": [
+          "zhihu.com"
+        ],
+        "attempts": 1,
+        "returned_link_count": 1,
+        "confirmed_direct_reviews": 0,
+        "read_status": "search_index_only",
+        "source_file": "reports/公开平台逐课检索台账.csv",
+        "source_record_id": "PLATFORM-GEEC10042-2025秋 / 2026春-知乎",
+        "source_record_pointer": "course_code=GEEC10042;terms=2025秋 / 2026春;platform=知乎",
+        "limitation": "外部搜索索引覆盖有限；不代表站内不存在"
+      },
+      {
+        "query_id": "PUBALIAS-00741",
+        "category": "course_alias",
+        "term": "中古典诗词鉴赏",
+        "query": "复旦 \"翟墨\" \"中古典诗词鉴赏\"",
+        "status": "completed",
+        "search_scope": "external_index_union_of_three_domains",
+        "domains": [
+          "zhihu.com",
+          "xiaohongshu.com",
+          "mp.weixin.qq.com"
+        ],
+        "attempts": 1,
+        "returned_link_count": 0,
+        "confirmed_direct_reviews": 0,
+        "read_status": "query execution only; not article reading",
+        "source_file": "reports/别名拼音扩展检索台账.csv",
+        "source_record_id": "PUBALIAS-00741",
+        "source_record_pointer": "query_id=PUBALIAS-00741",
+        "limitation": "A union-domain query is one logged record, not one execution per listed platform."
+      },
+      {
+        "query_id": "PUBALIAS-00742",
+        "category": "course_pinyin_full_joined",
+        "term": "zhongguogudianshicijianshang",
+        "query": "复旦 \"翟墨\" \"zhongguogudianshicijianshang\"",
+        "status": "completed",
+        "search_scope": "external_index_union_of_three_domains",
+        "domains": [
+          "zhihu.com",
+          "xiaohongshu.com",
+          "mp.weixin.qq.com"
+        ],
+        "attempts": 1,
+        "returned_link_count": 0,
+        "confirmed_direct_reviews": 0,
+        "read_status": "query execution only; not article reading",
+        "source_file": "reports/别名拼音扩展检索台账.csv",
+        "source_record_id": "PUBALIAS-00742",
+        "source_record_pointer": "query_id=PUBALIAS-00742",
+        "limitation": "A union-domain query is one logged record, not one execution per listed platform."
+      },
+      {
+        "query_id": "PUBALIAS-00743",
+        "category": "course_pinyin_full_spaced",
+        "term": "zhong guo gu dian shi ci jian shang",
+        "query": "复旦 \"翟墨\" \"zhong guo gu dian shi ci jian shang\"",
+        "status": "completed",
+        "search_scope": "external_index_union_of_three_domains",
+        "domains": [
+          "zhihu.com",
+          "xiaohongshu.com",
+          "mp.weixin.qq.com"
+        ],
+        "attempts": 1,
+        "returned_link_count": 0,
+        "confirmed_direct_reviews": 0,
+        "read_status": "query execution only; not article reading",
+        "source_file": "reports/别名拼音扩展检索台账.csv",
+        "source_record_id": "PUBALIAS-00743",
+        "source_record_pointer": "query_id=PUBALIAS-00743",
+        "limitation": "A union-domain query is one logged record, not one execution per listed platform."
+      },
+      {
+        "query_id": "PUBALIAS-00744",
+        "category": "course_pinyin_initials",
+        "term": "zggdscjs",
+        "query": "复旦 \"翟墨\" \"zggdscjs\"",
+        "status": "completed",
+        "search_scope": "external_index_union_of_three_domains",
+        "domains": [
+          "zhihu.com",
+          "xiaohongshu.com",
+          "mp.weixin.qq.com"
+        ],
+        "attempts": 1,
+        "returned_link_count": 0,
+        "confirmed_direct_reviews": 0,
+        "read_status": "query execution only; not article reading",
+        "source_file": "reports/别名拼音扩展检索台账.csv",
+        "source_record_id": "PUBALIAS-00744",
+        "source_record_pointer": "query_id=PUBALIAS-00744",
+        "limitation": "A union-domain query is one logged record, not one execution per listed platform."
+      },
+      {
+        "query_id": "PUBALIAS-00745",
+        "category": "teacher_pinyin_full_joined",
+        "term": "zhaimo",
+        "query": "复旦 \"中国古典诗词鉴赏\" \"zhaimo\"",
+        "status": "completed",
+        "search_scope": "external_index_union_of_three_domains",
+        "domains": [
+          "zhihu.com",
+          "xiaohongshu.com",
+          "mp.weixin.qq.com"
+        ],
+        "attempts": 1,
+        "returned_link_count": 0,
+        "confirmed_direct_reviews": 0,
+        "read_status": "query execution only; not article reading",
+        "source_file": "reports/别名拼音扩展检索台账.csv",
+        "source_record_id": "PUBALIAS-00745",
+        "source_record_pointer": "query_id=PUBALIAS-00745",
+        "limitation": "A union-domain query is one logged record, not one execution per listed platform."
+      },
+      {
+        "query_id": "PUBALIAS-00746",
+        "category": "teacher_pinyin_full_spaced",
+        "term": "zhai mo",
+        "query": "复旦 \"中国古典诗词鉴赏\" \"zhai mo\"",
+        "status": "completed",
+        "search_scope": "external_index_union_of_three_domains",
+        "domains": [
+          "zhihu.com",
+          "xiaohongshu.com",
+          "mp.weixin.qq.com"
+        ],
+        "attempts": 1,
+        "returned_link_count": 0,
+        "confirmed_direct_reviews": 0,
+        "read_status": "query execution only; not article reading",
+        "source_file": "reports/别名拼音扩展检索台账.csv",
+        "source_record_id": "PUBALIAS-00746",
+        "source_record_pointer": "query_id=PUBALIAS-00746",
+        "limitation": "A union-domain query is one logged record, not one execution per listed platform."
+      },
+      {
+        "query_id": "PUBALIAS-00747",
+        "category": "teacher_pinyin_initials",
+        "term": "zm",
+        "query": "复旦 \"中国古典诗词鉴赏\" \"zm\"",
+        "status": "completed",
+        "search_scope": "external_index_union_of_three_domains",
+        "domains": [
+          "zhihu.com",
+          "xiaohongshu.com",
+          "mp.weixin.qq.com"
+        ],
+        "attempts": 1,
+        "returned_link_count": 0,
+        "confirmed_direct_reviews": 0,
+        "read_status": "query execution only; not article reading",
+        "source_file": "reports/别名拼音扩展检索台账.csv",
+        "source_record_id": "PUBALIAS-00747",
+        "source_record_pointer": "query_id=PUBALIAS-00747",
+        "limitation": "A union-domain query is one logged record, not one execution per listed platform."
+      },
+      {
+        "query_id": "PUBALIAS-00748",
+        "category": "teacher_alias",
+        "term": "翟老师",
+        "query": "复旦 \"中国古典诗词鉴赏\" \"翟老师\"",
+        "status": "completed",
+        "search_scope": "external_index_union_of_three_domains",
+        "domains": [
+          "zhihu.com",
+          "xiaohongshu.com",
+          "mp.weixin.qq.com"
+        ],
+        "attempts": 1,
+        "returned_link_count": 0,
+        "confirmed_direct_reviews": 0,
+        "read_status": "query execution only; not article reading",
+        "source_file": "reports/别名拼音扩展检索台账.csv",
+        "source_record_id": "PUBALIAS-00748",
+        "source_record_pointer": "query_id=PUBALIAS-00748",
+        "limitation": "A union-domain query is one logged record, not one execution per listed platform."
+      }
+    ],
+    "query_status_counts": {
+      "no_link_returned": 2,
+      "results_returned_no_adopted_review": 1,
+      "completed": 8
+    },
+    "query_coverage_note": "已执行课程全名、可证别名、教师全名及拼音/首字母组合的公开索引检索。跨域联合查询按一条日志记录，不按列出的域重复计数。查询完成不表示结果页已读，也不代表平台内容穷尽。",
+    "remaining_scope": [
+      "公开索引覆盖有限，未穷尽各平台站内搜索及未被索引的页面。",
+      "六个课程群聊的原始私密内容不进入本次公开贡献，仍有私密渠道缺口。",
+      "这是当前本地证据快照；新增上下文、历史教师材料和课评需重跑脚本更新。"
+    ],
+    "no_student_reviews_found": false,
+    "no_student_reviews_found_note": "true表示本快照没有已采用的学生平台摘要，不表示不存在其他评价；另见index_only_hits和查询日志。"
+  },
+  "sources": [
+    {
+      "source_id": "OFFICIAL-OFFERING-1001986",
+      "source_type": "official",
+      "canonical_url": "https://fdjwgl.fudan.edu.cn/student/for-all/lesson-search/semester/504/search/504?openDepartmentAssocs=2620&queryPage__=1,500",
+      "public_author_label": null,
+      "published_at": null,
+      "fetched_at": "2026-10-27",
+      "hole_id": null,
+      "floor_id": null,
+      "floor_number": null,
+      "review_id": null,
+      "file_and_page": "official timetable lesson_id=1001986",
+      "image_page": null,
+      "reading_status": "official_timetable_record_read",
+      "mapping_status": "official course code and lesson_id",
+      "record_type": "official_course_offering",
+      "adoption": "adopted_official_metadata",
+      "reason": "Official 2025 autumn / 2026 spring timetable row.",
+      "duplicate_of": null,
+      "license": null,
+      "fulltext_permission": "unconfirmed",
+      "attribution_and_changes": "Official offering metadata; no student personal data included.",
+      "raw_filename": "reports/两学期全部教学班.json",
+      "raw_record_id": "1001986",
+      "course_code": "GEEC10042",
+      "report_filename": "reports/两学期全部教学班.json",
+      "report_record_id": "1001986",
+      "report_record_pointer": null,
+      "raw_body_status": null,
+      "teacher_if_explicit": "翟墨",
+      "term_as_stated": "2025秋",
+      "section_code": "GEEC10042.01"
+    },
+    {
+      "source_id": "OFFICIAL-SYLLABUS-1001986",
+      "source_type": "official",
+      "canonical_url": "https://fdjwgl.fudan.edu.cn/student/for-all/lesson-search/teachingSyllabusInfo/1001986",
+      "public_author_label": null,
+      "published_at": null,
+      "fetched_at": "2026-10-27",
+      "hole_id": null,
+      "floor_id": null,
+      "floor_number": null,
+      "review_id": null,
+      "file_and_page": "official syllabus lesson_id=1001986",
+      "image_page": null,
+      "reading_status": "structured_text_extracted",
+      "mapping_status": "lesson syllabus course code checked",
+      "record_type": "official_syllabus",
+      "adoption": "adopted_official_requirements",
+      "reason": "Official syllabus parsed locally; requirements stay attached to this offering.",
+      "duplicate_of": null,
+      "license": null,
+      "fulltext_permission": "unconfirmed",
+      "attribution_and_changes": "Only metadata, section titles, textbook details and assessment structure are exported; full syllabus text is not republished.",
+      "raw_filename": "reports/官方大纲结构化摘要.json",
+      "raw_record_id": "1001986",
+      "course_code": "GEEC10042",
+      "report_filename": "reports/官方大纲结构化摘要.json",
+      "report_record_id": "1001986",
+      "report_record_pointer": null,
+      "raw_body_status": null,
+      "teacher_if_explicit": "翟墨",
+      "term_as_stated": "2025秋",
+      "section_code": "GEEC10042.01"
+    },
+    {
+      "source_id": "OFFICIAL-OFFERING-1027254",
+      "source_type": "official",
+      "canonical_url": "https://fdjwgl.fudan.edu.cn/student/for-all/lesson-search/semester/505/search/505?openDepartmentAssocs=2620&queryPage__=1,500",
+      "public_author_label": null,
+      "published_at": null,
+      "fetched_at": "2026-10-27",
+      "hole_id": null,
+      "floor_id": null,
+      "floor_number": null,
+      "review_id": null,
+      "file_and_page": "official timetable lesson_id=1027254",
+      "image_page": null,
+      "reading_status": "official_timetable_record_read",
+      "mapping_status": "official course code and lesson_id",
+      "record_type": "official_course_offering",
+      "adoption": "adopted_official_metadata",
+      "reason": "Official 2025 autumn / 2026 spring timetable row.",
+      "duplicate_of": null,
+      "license": null,
+      "fulltext_permission": "unconfirmed",
+      "attribution_and_changes": "Official offering metadata; no student personal data included.",
+      "raw_filename": "reports/两学期全部教学班.json",
+      "raw_record_id": "1027254",
+      "course_code": "GEEC10042",
+      "report_filename": "reports/两学期全部教学班.json",
+      "report_record_id": "1027254",
+      "report_record_pointer": null,
+      "raw_body_status": null,
+      "teacher_if_explicit": "翟墨",
+      "term_as_stated": "2026春",
+      "section_code": "GEEC10042.01"
+    },
+    {
+      "source_id": "OFFICIAL-SYLLABUS-1027254",
+      "source_type": "official",
+      "canonical_url": "https://fdjwgl.fudan.edu.cn/student/for-all/lesson-search/teachingSyllabusInfo/1027254",
+      "public_author_label": null,
+      "published_at": null,
+      "fetched_at": "2026-10-27",
+      "hole_id": null,
+      "floor_id": null,
+      "floor_number": null,
+      "review_id": null,
+      "file_and_page": "official syllabus lesson_id=1027254",
+      "image_page": null,
+      "reading_status": "structured_text_extracted",
+      "mapping_status": "lesson syllabus course code checked",
+      "record_type": "official_syllabus",
+      "adoption": "adopted_official_requirements",
+      "reason": "Official syllabus parsed locally; requirements stay attached to this offering.",
+      "duplicate_of": null,
+      "license": null,
+      "fulltext_permission": "unconfirmed",
+      "attribution_and_changes": "Only metadata, section titles, textbook details and assessment structure are exported; full syllabus text is not republished.",
+      "raw_filename": "reports/官方大纲结构化摘要.json",
+      "raw_record_id": "1027254",
+      "course_code": "GEEC10042",
+      "report_filename": "reports/官方大纲结构化摘要.json",
+      "report_record_id": "1027254",
+      "report_record_pointer": null,
+      "raw_body_status": null,
+      "teacher_if_explicit": "翟墨",
+      "term_as_stated": "2026春",
+      "section_code": "GEEC10042.01"
+    },
+    {
+      "source_id": "FORUM-5197745",
+      "source_type": "treehole",
+      "canonical_url": "https://forum.fduhole.com/api/floors/5197745",
+      "public_author_label": null,
+      "published_at": "2025-12-23T19:29:11.711+08:00",
+      "fetched_at": "2026-10-27",
+      "hole_id": null,
+      "floor_id": 5197745,
+      "floor_number": null,
+      "review_id": null,
+      "file_and_page": "forum source FORUM-5197745",
+      "image_page": null,
+      "reading_status": "full_text_read_contact_redacted",
+      "mapping_status": "verified course assignment from curated evidence",
+      "record_type": "experience",
+      "adoption": "adopted_limited",
+      "reason": "",
+      "duplicate_of": null,
+      "license": null,
+      "fulltext_permission": "unconfirmed; short summary only exported",
+      "attribution_and_changes": "Short paraphrase from locally curated evidence; original body, account metadata and media are not copied.",
+      "raw_filename": "raw/forum.jsonl",
+      "raw_record_id": 5197745,
+      "course_code": "GEEC10042",
+      "report_filename": "reports/课程人工综合与来源.json",
+      "report_record_id": "FORUM-5197745",
+      "report_record_pointer": null,
+      "raw_body_status": "published_redacted",
+      "teacher_if_explicit": "翟墨",
+      "term_as_stated": null,
+      "section_code": null,
+      "raw_year": null,
+      "raw_semester": null,
+      "indexed_terms": null,
+      "indexed_course_periods": null,
+      "body_term_if_explicit": null,
+      "body_claimed_calendar_terms": null,
+      "body_term_conflict": null,
+      "review_time_conflict": null,
+      "index_conflict_note": null,
+      "term_scope": "修读学期未知",
+      "body_term_precision": null,
+      "body_term_scope": null,
+      "relative_period_phrases": null,
+      "semester_mapping_source": null,
+      "body_calendar_terms_parsed": null,
+      "body_claimed_target_terms": [],
+      "indexed_target_terms": [],
+      "target_period_note": "非目标期、相对或未知修读期，不当作目标期直接反馈。"
+    },
+    {
+      "source_id": "DANKE-5430",
+      "source_type": "danke",
+      "canonical_url": "https://danke.fduhole.com/api/reviews/5430",
+      "public_author_label": null,
+      "published_at": "2026-01-23T02:04:06.888Z",
+      "fetched_at": "2026-10-27",
+      "hole_id": null,
+      "floor_id": null,
+      "floor_number": null,
+      "review_id": 5430,
+      "file_and_page": "danke source DANKE-5430",
+      "image_page": null,
+      "reading_status": "full_returned_text",
+      "mapping_status": "verified course assignment from curated evidence",
+      "record_type": "detailed_review",
+      "adoption": "adopted_limited",
+      "reason": "",
+      "duplicate_of": null,
+      "license": null,
+      "fulltext_permission": "unconfirmed; short summary only exported",
+      "attribution_and_changes": "Short paraphrase from locally curated evidence; original body, account metadata and media are not copied.",
+      "raw_filename": "raw/danke.jsonl",
+      "raw_record_id": 5430,
+      "course_code": "GEEC10042",
+      "report_filename": "reports/课程人工综合与来源.json",
+      "report_record_id": "DANKE-5430",
+      "report_record_pointer": null,
+      "raw_body_status": "published_redacted",
+      "teacher_if_explicit": "翟墨",
+      "term_as_stated": "正文修读学期未明确",
+      "section_code": null,
+      "raw_year": 2025,
+      "raw_semester": 1,
+      "indexed_terms": [
+        "2025秋"
+      ],
+      "indexed_course_periods": null,
+      "body_term_if_explicit": null,
+      "body_claimed_calendar_terms": null,
+      "body_term_conflict": false,
+      "review_time_conflict": null,
+      "index_conflict_note": null,
+      "term_scope": "API所挂课程索引期：2025秋；依据官方客户端学年/学期映射。它不自动证明作者实际修读期；正文明确时间或冲突另行保留。",
+      "body_term_precision": null,
+      "body_term_scope": null,
+      "relative_period_phrases": null,
+      "semester_mapping_source": "https://github.com/DanXi-Dev/DanXi/blob/3c1f5f026fbc7ca50e151865f813cdb381807abe/lib/model/danke/course.dart#L36-L45",
+      "body_calendar_terms_parsed": [],
+      "body_claimed_target_terms": [],
+      "indexed_target_terms": [
+        "2025秋"
+      ],
+      "target_period_note": "只有目标期课程索引，正文未独立明示修读期。"
+    },
+    {
+      "source_id": "DANKE-INDEX-GROUP-3590",
+      "source_type": "danke",
+      "canonical_url": "https://danke.fduhole.com/api/v3/course_groups/145",
+      "public_author_label": null,
+      "published_at": "2025-06-05T03:48:40.94Z",
+      "fetched_at": "2026-10-27",
+      "hole_id": null,
+      "floor_id": null,
+      "floor_number": null,
+      "review_id": null,
+      "file_and_page": "中国古典诗词鉴赏",
+      "image_page": null,
+      "reading_status": "index_or_search_excerpt_only",
+      "mapping_status": "legacy archive catalog mapping; not individual review verification",
+      "record_type": "course_review_group_index",
+      "adoption": "excluded_index_only",
+      "reason": "未读完整正文；只保留来源索引和课程映射，不形成课程体验结论。",
+      "duplicate_of": null,
+      "license": null,
+      "fulltext_permission": "unconfirmed",
+      "attribution_and_changes": "Index metadata only; no snippet or body copied.",
+      "raw_filename": "reports/逐课研究数据.json",
+      "raw_record_id": "GEEC10042:DANKE-INDEX-GROUP-3590",
+      "course_code": "GEEC10042",
+      "report_filename": "reports/逐课研究数据.json",
+      "report_record_id": "GEEC10042",
+      "report_record_pointer": "courses[GEEC10042].old_review_ids includes 3590",
+      "raw_body_status": "index_or_search_excerpt_only",
+      "teacher_if_explicit": "翟墨",
+      "term_as_stated": "2024/S3",
+      "section_code": null
+    },
+    {
+      "source_id": "DANKE-INDEX-GROUP-5430",
+      "source_type": "danke",
+      "canonical_url": "https://danke.fduhole.com/api/v3/course_groups/9654",
+      "public_author_label": null,
+      "published_at": "2026-01-23T02:04:06.888Z",
+      "fetched_at": "2026-10-27",
+      "hole_id": null,
+      "floor_id": null,
+      "floor_number": null,
+      "review_id": null,
+      "file_and_page": "中国古典诗词鉴赏",
+      "image_page": null,
+      "reading_status": "index_or_search_excerpt_only",
+      "mapping_status": "legacy archive catalog mapping; not individual review verification",
+      "record_type": "course_review_group_index",
+      "adoption": "excluded_index_only",
+      "reason": "未读完整正文；只保留来源索引和课程映射，不形成课程体验结论。",
+      "duplicate_of": null,
+      "license": null,
+      "fulltext_permission": "unconfirmed",
+      "attribution_and_changes": "Index metadata only; no snippet or body copied.",
+      "raw_filename": "reports/逐课研究数据.json",
+      "raw_record_id": "GEEC10042:DANKE-INDEX-GROUP-5430",
+      "course_code": "GEEC10042",
+      "report_filename": "reports/逐课研究数据.json",
+      "report_record_id": "GEEC10042",
+      "report_record_pointer": "courses[GEEC10042].old_review_ids includes 5430",
+      "raw_body_status": "index_or_search_excerpt_only",
+      "teacher_if_explicit": "翟墨",
+      "term_as_stated": "2025/S1",
+      "section_code": null
+    }
+  ],
+  "syllabus": {
+    "source_ids": [
+      "OFFICIAL-SYLLABUS-1001986",
+      "OFFICIAL-SYLLABUS-1027254"
+    ],
+    "content": "官方大纲按教学班逐项记录在offerings；不同学期或平行班要求未合并。",
+    "prerequisites": "",
+    "assessment": ""
+  },
+  "materials": [],
+  "student_reviews_and_discussions": [
+    {
+      "source_id": "FORUM-5197745",
+      "source_type": "treehole",
+      "record_type": "experience",
+      "canonical_url": "https://forum.fduhole.com/api/floors/5197745",
+      "reading_status": "full_text_read_contact_redacted",
+      "mapping_status": "verified course assignment from curated evidence",
+      "adoption": "adopted_limited",
+      "teacher_if_explicit": "翟墨",
+      "term_as_stated": null,
+      "indexed_terms": null,
+      "raw_body_status": "published_redacted",
+      "raw_year": null,
+      "raw_semester": null,
+      "indexed_course_periods": null,
+      "body_term_if_explicit": null,
+      "body_claimed_calendar_terms": null,
+      "body_term_conflict": null,
+      "review_time_conflict": null,
+      "index_conflict_note": null,
+      "term_scope": "修读学期未知",
+      "body_term_precision": null,
+      "body_term_scope": null,
+      "relative_period_phrases": null,
+      "semester_mapping_source": null,
+      "body_calendar_terms_parsed": null,
+      "body_claimed_target_terms": [],
+      "indexed_target_terms": [],
+      "target_period_note": "非目标期、相对或未知修读期，不当作目标期直接反馈。",
+      "period_status": "非目标期、相对或未知修读期，不当作目标期直接反馈。",
+      "summary": "作者以本人体验介绍课程：称无考勤、从题目中选一做十分钟内展示并整理成论文，平时任务少。作者明确以个人文学兴趣作判断；不外推给中文系学生或其他专业。",
+      "limitations": "单条本人自述，不能推及其他班级、学期或学生群体。 匿名个体经历或转述；原文未明示的教师或绝对学期不补齐，不能替代官方大纲，个体等第不预测未来成绩。",
+      "reason": ""
+    },
+    {
+      "source_id": "DANKE-5430",
+      "source_type": "danke",
+      "record_type": "detailed_review",
+      "canonical_url": "https://danke.fduhole.com/api/reviews/5430",
+      "reading_status": "full_returned_text",
+      "mapping_status": "verified course assignment from curated evidence",
+      "adoption": "adopted_limited",
+      "teacher_if_explicit": "翟墨",
+      "term_as_stated": "正文修读学期未明确",
+      "indexed_terms": [
+        "2025秋"
+      ],
+      "raw_body_status": "published_redacted",
+      "raw_year": 2025,
+      "raw_semester": 1,
+      "indexed_course_periods": null,
+      "body_term_if_explicit": null,
+      "body_claimed_calendar_terms": null,
+      "body_term_conflict": false,
+      "review_time_conflict": null,
+      "index_conflict_note": null,
+      "term_scope": "API所挂课程索引期：2025秋；依据官方客户端学年/学期映射。它不自动证明作者实际修读期；正文明确时间或冲突另行保留。",
+      "body_term_precision": null,
+      "body_term_scope": null,
+      "relative_period_phrases": null,
+      "semester_mapping_source": "https://github.com/DanXi-Dev/DanXi/blob/3c1f5f026fbc7ca50e151865f813cdb381807abe/lib/model/danke/course.dart#L36-L45",
+      "body_calendar_terms_parsed": [],
+      "body_claimed_target_terms": [],
+      "indexed_target_terms": [
+        "2025秋"
+      ],
+      "target_period_note": "只有目标期课程索引，正文未独立明示修读期。",
+      "period_status": "只有目标期课程索引，正文未独立明示修读期。",
+      "summary": "作者推荐翟墨老师课程，称考核为论文和一次pre，论文沿用pre讲稿。课堂从新角度讲诗词、播放影视片段并安排三行情诗活动。",
+      "limitations": "匿名作者的个人叙述；成绩及感受仅代表其个人。API year/semester保留原值，不由发帖日期推定；历史课评不等于当前教学安排。",
+      "reason": ""
+    }
+  ],
+  "index_only_hits": [
+    {
+      "source_id": "DANKE-INDEX-GROUP-3590",
+      "course_as_indexed": "中国古典诗词鉴赏",
+      "teacher_as_indexed": "翟墨",
+      "source_term_label": "2024/S3",
+      "reading_status": "index_or_search_excerpt_only",
+      "mapping_status": "legacy archive index only",
+      "adoption": "excluded_index_only",
+      "raw_body_status": "index_or_search_excerpt_only",
+      "reason": "未读完整正文；只保留来源索引和课程映射，不形成课程体验结论。"
+    },
+    {
+      "source_id": "DANKE-INDEX-GROUP-5430",
+      "course_as_indexed": "中国古典诗词鉴赏",
+      "teacher_as_indexed": "翟墨",
+      "source_term_label": "2025/S1",
+      "reading_status": "index_or_search_excerpt_only",
+      "mapping_status": "legacy archive index only",
+      "adoption": "excluded_index_only",
+      "raw_body_status": "index_or_search_excerpt_only",
+      "reason": "未读完整正文；只保留来源索引和课程映射，不形成课程体验结论。"
+    }
+  ],
+  "quantitative_observations": [],
+  "offerings": [
+    {
+      "term": "2025秋",
+      "section_code": "GEEC10042.01",
+      "lesson_id": 1001986,
+      "course_code": "GEEC10042",
+      "course_name": "中国古典诗词鉴赏",
+      "teachers": [
+        "翟墨"
+      ],
+      "credits": 2,
+      "task_level": "本科",
+      "open_department": "中国语言文学系",
+      "course_type": "人文科学与艺术",
+      "course_table_type": "通识教育选修课程：通识1",
+      "exam_mode": "论文",
+      "total_hours": 36,
+      "source_ids": [
+        "OFFICIAL-OFFERING-1001986",
+        "OFFICIAL-SYLLABUS-1001986"
+      ],
+      "official_syllabus": {
+        "status": "structured_text_extracted",
+        "source_id": "OFFICIAL-SYLLABUS-1001986",
+        "section_titles": [
+          "课程简介（中文）",
+          "课程简介（英文）",
+          "教学目标",
+          "教学方式",
+          "教学内容与进度安排",
+          "课程考核与成绩评定",
+          "教材",
+          "教学参考资料",
+          "教学团队成员"
+        ],
+        "prerequisites": [],
+        "assessment": [
+          {
+            "criteria": "课堂表现Participation",
+            "percentage": 30.0,
+            "standard": "课堂报告形式，逻辑明确，表述清晰，材料充实，时长合宜"
+          },
+          {
+            "criteria": "期末考试Final Examination：论文 ",
+            "percentage": 70.0,
+            "standard": "逻辑明确，表述清晰，材料充实，引证规范"
+          }
+        ],
+        "grade_rule": "等级制",
+        "textbooks": [],
+        "syllabus_id": 3006,
+        "error": null
+      }
+    },
+    {
+      "term": "2026春",
+      "section_code": "GEEC10042.01",
+      "lesson_id": 1027254,
+      "course_code": "GEEC10042",
+      "course_name": "中国古典诗词鉴赏",
+      "teachers": [
+        "翟墨"
+      ],
+      "credits": 2,
+      "task_level": "本科",
+      "open_department": "中国语言文学系",
+      "course_type": "人文科学与艺术",
+      "course_table_type": "通识教育选修课程：通识1",
+      "exam_mode": "论文",
+      "total_hours": 36,
+      "source_ids": [
+        "OFFICIAL-OFFERING-1027254",
+        "OFFICIAL-SYLLABUS-1027254"
+      ],
+      "official_syllabus": {
+        "status": "structured_text_extracted",
+        "source_id": "OFFICIAL-SYLLABUS-1027254",
+        "section_titles": [
+          "课程简介（中文）",
+          "课程简介（英文）",
+          "教学目标",
+          "教学方式",
+          "教学内容与进度安排",
+          "课程考核与成绩评定",
+          "教材",
+          "教学参考资料",
+          "教学团队成员"
+        ],
+        "prerequisites": [],
+        "assessment": [
+          {
+            "criteria": "课堂表现Participation",
+            "percentage": 30.0,
+            "standard": "课堂报告形式，逻辑明确，表述清晰，材料充实，时长合宜"
+          },
+          {
+            "criteria": "期末考试Final Examination：论文 ",
+            "percentage": 70.0,
+            "standard": "逻辑明确，表述清晰，材料充实，引证规范"
+          }
+        ],
+        "grade_rule": "等级制",
+        "textbooks": [],
+        "syllabus_id": 9042,
+        "error": null
+      }
+    }
+  ],
+  "official_metadata": {
+    "department": "中国语言文学系",
+    "target_terms": [
+      "2025秋",
+      "2026春"
+    ],
+    "target_teachers": [
+      "翟墨"
+    ],
+    "task_levels": [
+      "本科"
+    ],
+    "section_count": 2,
+    "official_offering_count_in_snapshot": 2,
+    "course_type_values_by_offering": [
+      "人文科学与艺术"
+    ],
+    "course_table_type_values_by_offering": [
+      "通识教育选修课程：通识1"
+    ],
+    "source_ids": [
+      "OFFICIAL-OFFERING-1001986",
+      "OFFICIAL-OFFERING-1027254"
+    ]
+  },
+  "comparison_and_summary": {
+    "teaching_and_learning": "个别已读来源提及的学习体验、兴趣或理解包括（不据此推断效果）：本人经历作者以本人体验介绍课程：称无考勤、从题目中选一做十分钟内展示并整理成论文，平时任务少。作者明确以个人文学兴趣作判断；不外推给中文系学生或其他专业。（FORUM-5197745）",
+    "workload": "已读来源中的具体要求或投入记录包括：本人经历作者以本人体验介绍课程：称无考勤、从题目中选一做十分钟内展示并整理成论文，平时任务少。作者明确以个人文学兴趣作判断；不外推给中文系学生或其他专业。（FORUM-5197745）",
+    "assessment": "已读摘要没有提供可核实的考核形式或评分细节。",
+    "grading_and_risk": "",
+    "teacher_and_term_differences": "来源中明确出现的教师称谓为：翟墨。仅保留原称谓，不把缩写或昵称扩写，也不把不同教师班合并。 来源没有可确认的修读学期。",
+    "who_it_suits": "",
+    "source_ids": [
+      "FORUM-5197745",
+      "DANKE-5430"
+    ],
+    "section_source_ids": {
+      "teaching_and_learning": [
+        "FORUM-5197745"
+      ],
+      "workload": [
+        "FORUM-5197745"
+      ],
+      "assessment": [],
+      "teacher_and_term_differences": [
+        "FORUM-5197745"
+      ]
+    },
+    "manual_comparison": {
+      "status": "human_synthesized",
+      "text": "翟墨班的两条历史回顾都将论文与pre相连：有人说期末论文沿用pre讲稿，课堂从新角度讲诗词并有影视片段和三行情诗活动；另一位称可选题并做约十分钟展示（DANKE-5430、FORUM-5197745）。",
+      "evidence_ids": [
+        "DANKE-5430",
+        "FORUM-5197745"
+      ],
+      "limitations": "索引为2025/S1但正文未明示实际修读时间；只有少量个人体验。",
+      "confidence": "low：有已读一手来源，但学期为历史或未定，不能代表目标期。"
+    },
+    "confidence": "low：有已读一手来源，但学期为历史或未定，不能代表目标期。",
+    "limitations": "共纳入1条已读来源，其中本人经历/评课1条、二手转述0条，另有校方精选、媒体报道或历史汇编0条；这些材料不代表班级分布。 没有明确目标期的一手评价；历史或学期不明材料不能移作当前班级结论。"
+  },
+  "research_snapshot": {
+    "date": "2026-10-27",
+    "curated_evidence_record_count": 535,
+    "synthesis_source_assignment_count": 522,
+    "public_review_index_record_count": 167,
+    "public_adopted_findings_count": 11
+  }
+}

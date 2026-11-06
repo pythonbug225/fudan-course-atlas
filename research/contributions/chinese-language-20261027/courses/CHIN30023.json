@@ -1,0 +1,779 @@
+{
+  "schema_version": 1,
+  "course": {
+    "code": "CHIN30023",
+    "name": "苏轼精读",
+    "department": "中国语言文学系",
+    "credits": 2,
+    "term": "2026春",
+    "teachers": [
+      "朱刚"
+    ],
+    "section_code": null,
+    "class_type": "ordinary",
+    "course_type_code": null,
+    "program_year": null,
+    "program_names": [],
+    "required_or_elective": null
+  },
+  "aliases": {
+    "course_names": [],
+    "teacher_names_or_pinyin": [
+      {
+        "teacher": "朱刚",
+        "value": "朱刚",
+        "kind": "canonical_name",
+        "status": "official_target_name"
+      },
+      {
+        "teacher": "朱刚",
+        "value": "zhugang",
+        "kind": "full_joined",
+        "status": "generated_query_candidate"
+      },
+      {
+        "teacher": "朱刚",
+        "value": "zhu gang",
+        "kind": "full_spaced",
+        "status": "generated_query_candidate"
+      },
+      {
+        "teacher": "朱刚",
+        "value": "zg",
+        "kind": "initials",
+        "status": "generated_query_candidate"
+      },
+      {
+        "teacher": "朱刚",
+        "value": "朱刚大大",
+        "kind": "teacher_alias",
+        "status": "source_attested",
+        "source_url": "https://www.sohu.com/a/252899039_820403",
+        "evidence_id": "PUB-CLASSNOTES-20180910",
+        "limitation": null
+      },
+      {
+        "teacher": "朱刚",
+        "value": "朱老师",
+        "kind": "teacher_alias",
+        "status": "query_candidate",
+        "source_url": null,
+        "evidence_id": null,
+        "limitation": "姓氏称谓非唯一别名，仅与完整课名联合查询"
+      }
+    ],
+    "ambiguous_matches": [
+      {
+        "value": "sushijingdu",
+        "kind": "course_pinyin_full_joined",
+        "status": "generated_query_candidate",
+        "limitation": "Generated transliteration is a search term, not an attested spoken alias."
+      },
+      {
+        "value": "su shi jing du",
+        "kind": "course_pinyin_full_spaced",
+        "status": "generated_query_candidate",
+        "limitation": "Generated transliteration is a search term, not an attested spoken alias."
+      },
+      {
+        "value": "ssjd",
+        "kind": "course_pinyin_initials",
+        "status": "generated_query_candidate",
+        "limitation": "Generated transliteration is a search term, not an attested spoken alias."
+      },
+      {
+        "teacher": "朱刚",
+        "value": "zhugang",
+        "kind": "full_joined",
+        "status": "generated_query_candidate",
+        "limitation": "Generated transliteration is a search token, not proof of person identity."
+      },
+      {
+        "teacher": "朱刚",
+        "value": "zhu gang",
+        "kind": "full_spaced",
+        "status": "generated_query_candidate",
+        "limitation": "Generated transliteration is a search token, not proof of person identity."
+      },
+      {
+        "teacher": "朱刚",
+        "value": "zg",
+        "kind": "initials",
+        "status": "generated_query_candidate",
+        "limitation": "Generated transliteration is a search token, not proof of person identity."
+      },
+      {
+        "teacher": "朱刚",
+        "value": "朱老师",
+        "kind": "teacher_alias",
+        "status": "query_candidate",
+        "source_url": null,
+        "evidence_id": null,
+        "limitation": "姓氏称谓非唯一别名，仅与完整课名联合查询"
+      }
+    ]
+  },
+  "progress": {
+    "owner": "",
+    "reviewer": "",
+    "status": "in_progress",
+    "queries": [
+      {
+        "query_id": "PLATFORM-CHIN30023-2026春-小红书",
+        "category": "canonical_title_teacher_platform_search",
+        "term": "2026春",
+        "query": "复旦 \"苏轼精读\" (\"朱刚\") 课程 评价",
+        "status": "no_link_returned",
+        "search_scope": "platform_specific_external_search_index",
+        "domains": [
+          "xiaohongshu.com"
+        ],
+        "attempts": 1,
+        "returned_link_count": 0,
+        "confirmed_direct_reviews": 0,
+        "read_status": "search_index_only",
+        "source_file": "reports/公开平台逐课检索台账.csv",
+        "source_record_id": "PLATFORM-CHIN30023-2026春-小红书",
+        "source_record_pointer": "course_code=CHIN30023;terms=2026春;platform=小红书",
+        "limitation": "外部搜索索引覆盖有限；不代表站内不存在"
+      },
+      {
+        "query_id": "PLATFORM-CHIN30023-2026春-微信公众号",
+        "category": "canonical_title_teacher_platform_search",
+        "term": "2026春",
+        "query": "复旦 \"苏轼精读\" (\"朱刚\") 课程 评价",
+        "status": "no_link_returned",
+        "search_scope": "platform_specific_external_search_index",
+        "domains": [
+          "mp.weixin.qq.com"
+        ],
+        "attempts": 1,
+        "returned_link_count": 0,
+        "confirmed_direct_reviews": 0,
+        "read_status": "search_index_only",
+        "source_file": "reports/公开平台逐课检索台账.csv",
+        "source_record_id": "PLATFORM-CHIN30023-2026春-微信公众号",
+        "source_record_pointer": "course_code=CHIN30023;terms=2026春;platform=微信公众号",
+        "limitation": "外部搜索索引覆盖有限；不代表站内不存在"
+      },
+      {
+        "query_id": "PLATFORM-CHIN30023-2026春-知乎",
+        "category": "canonical_title_teacher_platform_search",
+        "term": "2026春",
+        "query": "复旦 \"苏轼精读\" (\"朱刚\") 课程 评价",
+        "status": "results_returned_no_adopted_review",
+        "search_scope": "platform_specific_external_search_index",
+        "domains": [
+          "zhihu.com"
+        ],
+        "attempts": 1,
+        "returned_link_count": 12,
+        "confirmed_direct_reviews": 0,
+        "read_status": "search_index_only",
+        "source_file": "reports/公开平台逐课检索台账.csv",
+        "source_record_id": "PLATFORM-CHIN30023-2026春-知乎",
+        "source_record_pointer": "course_code=CHIN30023;terms=2026春;platform=知乎",
+        "limitation": "外部搜索索引覆盖有限；不代表站内不存在"
+      },
+      {
+        "query_id": "PUBALIAS-01154",
+        "category": "course_pinyin_full_joined",
+        "term": "sushijingdu",
+        "query": "复旦 \"朱刚\" \"sushijingdu\"",
+        "status": "completed",
+        "search_scope": "external_index_union_of_three_domains",
+        "domains": [
+          "zhihu.com",
+          "xiaohongshu.com",
+          "mp.weixin.qq.com"
+        ],
+        "attempts": 1,
+        "returned_link_count": 0,
+        "confirmed_direct_reviews": 0,
+        "read_status": "query execution only; not article reading",
+        "source_file": "reports/别名拼音扩展检索台账.csv",
+        "source_record_id": "PUBALIAS-01154",
+        "source_record_pointer": "query_id=PUBALIAS-01154",
+        "limitation": "A union-domain query is one logged record, not one execution per listed platform."
+      },
+      {
+        "query_id": "PUBALIAS-01155",
+        "category": "course_pinyin_full_spaced",
+        "term": "su shi jing du",
+        "query": "复旦 \"朱刚\" \"su shi jing du\"",
+        "status": "completed",
+        "search_scope": "external_index_union_of_three_domains",
+        "domains": [
+          "zhihu.com",
+          "xiaohongshu.com",
+          "mp.weixin.qq.com"
+        ],
+        "attempts": 1,
+        "returned_link_count": 0,
+        "confirmed_direct_reviews": 0,
+        "read_status": "query execution only; not article reading",
+        "source_file": "reports/别名拼音扩展检索台账.csv",
+        "source_record_id": "PUBALIAS-01155",
+        "source_record_pointer": "query_id=PUBALIAS-01155",
+        "limitation": "A union-domain query is one logged record, not one execution per listed platform."
+      },
+      {
+        "query_id": "PUBALIAS-01156",
+        "category": "course_pinyin_initials",
+        "term": "ssjd",
+        "query": "复旦 \"朱刚\" \"ssjd\"",
+        "status": "completed",
+        "search_scope": "external_index_union_of_three_domains",
+        "domains": [
+          "zhihu.com",
+          "xiaohongshu.com",
+          "mp.weixin.qq.com"
+        ],
+        "attempts": 1,
+        "returned_link_count": 0,
+        "confirmed_direct_reviews": 0,
+        "read_status": "query execution only; not article reading",
+        "source_file": "reports/别名拼音扩展检索台账.csv",
+        "source_record_id": "PUBALIAS-01156",
+        "source_record_pointer": "query_id=PUBALIAS-01156",
+        "limitation": "A union-domain query is one logged record, not one execution per listed platform."
+      },
+      {
+        "query_id": "PUBALIAS-01157",
+        "category": "teacher_pinyin_full_joined",
+        "term": "zhugang",
+        "query": "复旦 \"苏轼精读\" \"zhugang\"",
+        "status": "completed",
+        "search_scope": "external_index_union_of_three_domains",
+        "domains": [
+          "zhihu.com",
+          "xiaohongshu.com",
+          "mp.weixin.qq.com"
+        ],
+        "attempts": 1,
+        "returned_link_count": 0,
+        "confirmed_direct_reviews": 0,
+        "read_status": "query execution only; not article reading",
+        "source_file": "reports/别名拼音扩展检索台账.csv",
+        "source_record_id": "PUBALIAS-01157",
+        "source_record_pointer": "query_id=PUBALIAS-01157",
+        "limitation": "A union-domain query is one logged record, not one execution per listed platform."
+      },
+      {
+        "query_id": "PUBALIAS-01158",
+        "category": "teacher_pinyin_full_spaced",
+        "term": "zhu gang",
+        "query": "复旦 \"苏轼精读\" \"zhu gang\"",
+        "status": "completed",
+        "search_scope": "external_index_union_of_three_domains",
+        "domains": [
+          "zhihu.com",
+          "xiaohongshu.com",
+          "mp.weixin.qq.com"
+        ],
+        "attempts": 1,
+        "returned_link_count": 0,
+        "confirmed_direct_reviews": 0,
+        "read_status": "query execution only; not article reading",
+        "source_file": "reports/别名拼音扩展检索台账.csv",
+        "source_record_id": "PUBALIAS-01158",
+        "source_record_pointer": "query_id=PUBALIAS-01158",
+        "limitation": "A union-domain query is one logged record, not one execution per listed platform."
+      },
+      {
+        "query_id": "PUBALIAS-01159",
+        "category": "teacher_pinyin_initials",
+        "term": "zg",
+        "query": "复旦 \"苏轼精读\" \"zg\"",
+        "status": "completed",
+        "search_scope": "external_index_union_of_three_domains",
+        "domains": [
+          "zhihu.com",
+          "xiaohongshu.com",
+          "mp.weixin.qq.com"
+        ],
+        "attempts": 1,
+        "returned_link_count": 0,
+        "confirmed_direct_reviews": 0,
+        "read_status": "query execution only; not article reading",
+        "source_file": "reports/别名拼音扩展检索台账.csv",
+        "source_record_id": "PUBALIAS-01159",
+        "source_record_pointer": "query_id=PUBALIAS-01159",
+        "limitation": "A union-domain query is one logged record, not one execution per listed platform."
+      },
+      {
+        "query_id": "PUBALIAS-01160",
+        "category": "teacher_alias",
+        "term": "朱刚大大",
+        "query": "复旦 \"苏轼精读\" \"朱刚大大\"",
+        "status": "completed",
+        "search_scope": "external_index_union_of_three_domains",
+        "domains": [
+          "zhihu.com",
+          "xiaohongshu.com",
+          "mp.weixin.qq.com"
+        ],
+        "attempts": 1,
+        "returned_link_count": 0,
+        "confirmed_direct_reviews": 0,
+        "read_status": "query execution only; not article reading",
+        "source_file": "reports/别名拼音扩展检索台账.csv",
+        "source_record_id": "PUBALIAS-01160",
+        "source_record_pointer": "query_id=PUBALIAS-01160",
+        "limitation": "A union-domain query is one logged record, not one execution per listed platform."
+      },
+      {
+        "query_id": "PUBALIAS-01161",
+        "category": "teacher_alias",
+        "term": "朱老师",
+        "query": "复旦 \"苏轼精读\" \"朱老师\"",
+        "status": "completed",
+        "search_scope": "external_index_union_of_three_domains",
+        "domains": [
+          "zhihu.com",
+          "xiaohongshu.com",
+          "mp.weixin.qq.com"
+        ],
+        "attempts": 1,
+        "returned_link_count": 0,
+        "confirmed_direct_reviews": 0,
+        "read_status": "query execution only; not article reading",
+        "source_file": "reports/别名拼音扩展检索台账.csv",
+        "source_record_id": "PUBALIAS-01161",
+        "source_record_pointer": "query_id=PUBALIAS-01161",
+        "limitation": "A union-domain query is one logged record, not one execution per listed platform."
+      }
+    ],
+    "query_status_counts": {
+      "no_link_returned": 2,
+      "results_returned_no_adopted_review": 1,
+      "completed": 8
+    },
+    "query_coverage_note": "已执行课程全名、可证别名、教师全名及拼音/首字母组合的公开索引检索。跨域联合查询按一条日志记录，不按列出的域重复计数。查询完成不表示结果页已读，也不代表平台内容穷尽。",
+    "remaining_scope": [
+      "公开索引覆盖有限，未穷尽各平台站内搜索及未被索引的页面。",
+      "六个课程群聊的原始私密内容不进入本次公开贡献，仍有私密渠道缺口。",
+      "这是当前本地证据快照；新增上下文、历史教师材料和课评需重跑脚本更新。"
+    ],
+    "no_student_reviews_found": false,
+    "no_student_reviews_found_note": "true表示本快照没有已采用的学生平台摘要，不表示不存在其他评价；另见index_only_hits和查询日志。"
+  },
+  "sources": [
+    {
+      "source_id": "OFFICIAL-OFFERING-1027250",
+      "source_type": "official",
+      "canonical_url": "https://fdjwgl.fudan.edu.cn/student/for-all/lesson-search/semester/505/search/505?openDepartmentAssocs=2620&queryPage__=1,500",
+      "public_author_label": null,
+      "published_at": null,
+      "fetched_at": "2026-10-27",
+      "hole_id": null,
+      "floor_id": null,
+      "floor_number": null,
+      "review_id": null,
+      "file_and_page": "official timetable lesson_id=1027250",
+      "image_page": null,
+      "reading_status": "official_timetable_record_read",
+      "mapping_status": "official course code and lesson_id",
+      "record_type": "official_course_offering",
+      "adoption": "adopted_official_metadata",
+      "reason": "Official 2025 autumn / 2026 spring timetable row.",
+      "duplicate_of": null,
+      "license": null,
+      "fulltext_permission": "unconfirmed",
+      "attribution_and_changes": "Official offering metadata; no student personal data included.",
+      "raw_filename": "reports/两学期全部教学班.json",
+      "raw_record_id": "1027250",
+      "course_code": "CHIN30023",
+      "report_filename": "reports/两学期全部教学班.json",
+      "report_record_id": "1027250",
+      "report_record_pointer": null,
+      "raw_body_status": null,
+      "teacher_if_explicit": "朱刚",
+      "term_as_stated": "2026春",
+      "section_code": "CHIN30023.01"
+    },
+    {
+      "source_id": "OFFICIAL-SYLLABUS-1027250",
+      "source_type": "official",
+      "canonical_url": "https://fdjwgl.fudan.edu.cn/student/for-all/lesson-search/teachingSyllabusInfo/1027250",
+      "public_author_label": null,
+      "published_at": null,
+      "fetched_at": "2026-10-27",
+      "hole_id": null,
+      "floor_id": null,
+      "floor_number": null,
+      "review_id": null,
+      "file_and_page": "official syllabus lesson_id=1027250",
+      "image_page": null,
+      "reading_status": "structured_text_extracted",
+      "mapping_status": "lesson syllabus course code checked",
+      "record_type": "official_syllabus",
+      "adoption": "adopted_official_requirements",
+      "reason": "Official syllabus parsed locally; requirements stay attached to this offering.",
+      "duplicate_of": null,
+      "license": null,
+      "fulltext_permission": "unconfirmed",
+      "attribution_and_changes": "Only metadata, section titles, textbook details and assessment structure are exported; full syllabus text is not republished.",
+      "raw_filename": "reports/官方大纲结构化摘要.json",
+      "raw_record_id": "1027250",
+      "course_code": "CHIN30023",
+      "report_filename": "reports/官方大纲结构化摘要.json",
+      "report_record_id": "1027250",
+      "report_record_pointer": null,
+      "raw_body_status": null,
+      "teacher_if_explicit": "朱刚",
+      "term_as_stated": "2026春",
+      "section_code": "CHIN30023.01"
+    },
+    {
+      "source_id": "FORUM-5575759",
+      "source_type": "treehole",
+      "canonical_url": "https://forum.fduhole.com/api/floors/5575759",
+      "public_author_label": null,
+      "published_at": "2026-03-17T18:08:21.757+08:00",
+      "fetched_at": "2026-10-27",
+      "hole_id": null,
+      "floor_id": 5575759,
+      "floor_number": null,
+      "review_id": null,
+      "file_and_page": "forum source FORUM-5575759",
+      "image_page": null,
+      "reading_status": "read",
+      "mapping_status": "verified course assignment from curated evidence",
+      "record_type": "experience",
+      "adoption": "adopted_limited",
+      "reason": "",
+      "duplicate_of": null,
+      "license": null,
+      "fulltext_permission": "unconfirmed; short summary only exported",
+      "attribution_and_changes": "Short paraphrase from locally curated evidence; original body, account metadata and media are not copied.",
+      "raw_filename": "raw/forum.jsonl",
+      "raw_record_id": 5575759,
+      "course_code": "CHIN30023",
+      "report_filename": "reports/课程人工综合与来源.json",
+      "report_record_id": "FORUM-5575759",
+      "report_record_pointer": null,
+      "raw_body_status": "published_redacted",
+      "teacher_if_explicit": null,
+      "term_as_stated": null,
+      "section_code": null,
+      "raw_year": null,
+      "raw_semester": null,
+      "indexed_terms": null,
+      "indexed_course_periods": null,
+      "body_term_if_explicit": null,
+      "body_claimed_calendar_terms": null,
+      "body_term_conflict": null,
+      "review_time_conflict": null,
+      "index_conflict_note": null,
+      "term_scope": "修读学期未知",
+      "body_term_precision": null,
+      "body_term_scope": null,
+      "relative_period_phrases": null,
+      "semester_mapping_source": null,
+      "body_calendar_terms_parsed": null,
+      "body_claimed_target_terms": [],
+      "indexed_target_terms": [],
+      "target_period_note": "非目标期、相对或未知修读期，不当作目标期直接反馈。"
+    },
+    {
+      "source_id": "FORUM-46777",
+      "source_type": "treehole",
+      "canonical_url": "https://forum.fduhole.com/api/floors/46777",
+      "public_author_label": null,
+      "published_at": "2021-09-09T13:22:40.902+08:00",
+      "fetched_at": "2026-10-27",
+      "hole_id": null,
+      "floor_id": 46777,
+      "floor_number": null,
+      "review_id": null,
+      "file_and_page": "forum source FORUM-46777",
+      "image_page": null,
+      "reading_status": "read",
+      "mapping_status": "verified course assignment from curated evidence",
+      "record_type": "secondhand",
+      "adoption": "adopted_limited",
+      "reason": "",
+      "duplicate_of": null,
+      "license": null,
+      "fulltext_permission": "unconfirmed; short summary only exported",
+      "attribution_and_changes": "Short paraphrase from locally curated evidence; original body, account metadata and media are not copied.",
+      "raw_filename": "raw/forum.jsonl",
+      "raw_record_id": 46777,
+      "course_code": "CHIN30023",
+      "report_filename": "reports/课程人工综合与来源.json",
+      "report_record_id": "FORUM-46777",
+      "report_record_pointer": null,
+      "raw_body_status": "published_redacted",
+      "teacher_if_explicit": "朱刚",
+      "term_as_stated": null,
+      "section_code": null,
+      "raw_year": null,
+      "raw_semester": null,
+      "indexed_terms": null,
+      "indexed_course_periods": null,
+      "body_term_if_explicit": null,
+      "body_claimed_calendar_terms": null,
+      "body_term_conflict": null,
+      "review_time_conflict": null,
+      "index_conflict_note": null,
+      "term_scope": "修读学期未知",
+      "body_term_precision": null,
+      "body_term_scope": null,
+      "relative_period_phrases": null,
+      "semester_mapping_source": null,
+      "body_calendar_terms_parsed": null,
+      "body_claimed_target_terms": [],
+      "indexed_target_terms": [],
+      "target_period_note": "非目标期、相对或未知修读期，不当作目标期直接反馈。"
+    },
+    {
+      "source_id": "PUB-EXPERIENCE-20221014",
+      "source_type": "official",
+      "canonical_url": "https://chinese.fudan.edu.cn/0f/9e/c33365a462750/page.htm",
+      "public_author_label": null,
+      "published_at": "2022-10-14",
+      "fetched_at": "2026-10-27",
+      "hole_id": null,
+      "floor_id": null,
+      "floor_number": null,
+      "review_id": null,
+      "file_and_page": null,
+      "image_page": null,
+      "reading_status": "relevant_course_sections_read",
+      "mapping_status": "映射明确同课名同教师；当前不同教师或题名不一致者不计入当前班结论",
+      "record_type": "department_selected_student_reflections",
+      "adoption": "adopted_limited",
+      "reason": "官方选取获奖学生，非代表性调查；无当前目标学期或成绩。 本批原文未公开，摘要保留课程相关内容，可回原站核对。",
+      "duplicate_of": null,
+      "license": null,
+      "fulltext_permission": "unconfirmed; short paraphrase and URL only",
+      "attribution_and_changes": "Short paraphrase only; no full text or screenshot copied; no republication license implied.",
+      "raw_filename": "reports/课程人工综合与来源.json",
+      "raw_record_id": "PUB-EXPERIENCE-20221014",
+      "course_code": "CHIN30023",
+      "report_filename": "reports/课程人工综合与来源.json",
+      "report_record_id": "PUB-EXPERIENCE-20221014",
+      "report_record_pointer": null,
+      "raw_body_status": "relevant_course_sections_read",
+      "teacher_if_explicit": null,
+      "term_as_stated": "2022届本科经历，含2020春记录",
+      "section_code": null
+    }
+  ],
+  "syllabus": {
+    "source_ids": [
+      "OFFICIAL-SYLLABUS-1027250"
+    ],
+    "content": "官方大纲按教学班逐项记录在offerings；不同学期或平行班要求未合并。",
+    "prerequisites": "",
+    "assessment": ""
+  },
+  "materials": [],
+  "student_reviews_and_discussions": [
+    {
+      "source_id": "FORUM-5575759",
+      "source_type": "treehole",
+      "record_type": "experience",
+      "canonical_url": "https://forum.fduhole.com/api/floors/5575759",
+      "reading_status": "read",
+      "mapping_status": "verified course assignment from curated evidence",
+      "adoption": "adopted_limited",
+      "teacher_if_explicit": null,
+      "term_as_stated": null,
+      "indexed_terms": null,
+      "raw_body_status": "published_redacted",
+      "raw_year": null,
+      "raw_semester": null,
+      "indexed_course_periods": null,
+      "body_term_if_explicit": null,
+      "body_claimed_calendar_terms": null,
+      "body_term_conflict": null,
+      "review_time_conflict": null,
+      "index_conflict_note": null,
+      "term_scope": "修读学期未知",
+      "body_term_precision": null,
+      "body_term_scope": null,
+      "relative_period_phrases": null,
+      "semester_mapping_source": null,
+      "body_calendar_terms_parsed": null,
+      "body_claimed_target_terms": [],
+      "indexed_target_terms": [],
+      "target_period_note": "非目标期、相对或未知修读期，不当作目标期直接反馈。",
+      "period_status": "非目标期、相对或未知修读期，不当作目标期直接反馈。",
+      "summary": "发帖者描述苏轼精读教室拥挤、需提前等座，并表达对选课安排的不满。",
+      "limitations": "已按完整楼层文字与课程身份复核；课程评价和求问不自动视作本人修读。 匿名个体经历或转述；原文未明示的教师或绝对学期不补齐，不能替代官方大纲，个体等第不预测未来成绩。",
+      "reason": ""
+    },
+    {
+      "source_id": "FORUM-46777",
+      "source_type": "treehole",
+      "record_type": "secondhand",
+      "canonical_url": "https://forum.fduhole.com/api/floors/46777",
+      "reading_status": "read",
+      "mapping_status": "verified course assignment from curated evidence",
+      "adoption": "adopted_limited",
+      "teacher_if_explicit": "朱刚",
+      "term_as_stated": null,
+      "indexed_terms": null,
+      "raw_body_status": "published_redacted",
+      "raw_year": null,
+      "raw_semester": null,
+      "indexed_course_periods": null,
+      "body_term_if_explicit": null,
+      "body_claimed_calendar_terms": null,
+      "body_term_conflict": null,
+      "review_time_conflict": null,
+      "index_conflict_note": null,
+      "term_scope": "修读学期未知",
+      "body_term_precision": null,
+      "body_term_scope": null,
+      "relative_period_phrases": null,
+      "semester_mapping_source": null,
+      "body_calendar_terms_parsed": null,
+      "body_claimed_target_terms": [],
+      "indexed_target_terms": [],
+      "target_period_note": "非目标期、相对或未知修读期，不当作目标期直接反馈。",
+      "period_status": "非目标期、相对或未知修读期，不当作目标期直接反馈。",
+      "summary": "称赞朱刚老师的苏轼精读课程。",
+      "limitations": "仅有简短赞语，没有具体修读或考核经历。 匿名个体经历或转述；原文未明示的教师或绝对学期不补齐，不能替代官方大纲，个体等第不预测未来成绩。",
+      "reason": ""
+    },
+    {
+      "source_id": "PUB-EXPERIENCE-20221014",
+      "source_type": "official",
+      "record_type": "department_selected_student_reflections",
+      "canonical_url": "https://chinese.fudan.edu.cn/0f/9e/c33365a462750/page.htm",
+      "reading_status": "relevant_course_sections_read",
+      "mapping_status": "映射明确同课名同教师；当前不同教师或题名不一致者不计入当前班结论",
+      "adoption": "adopted_limited",
+      "teacher_if_explicit": null,
+      "term_as_stated": "2022届本科经历，含2020春记录",
+      "summary": "中文系官网刊载2022届拔尖计划学生获奖感言；可见苏轼精读/朱刚、女性文学/张岩冰等历史学习体验，也提到语言与文化/申小龙和中国新诗/张新颖等不同师资。",
+      "raw_body_status": "relevant_course_sections_read",
+      "limitations": "官方选取获奖学生，非代表性调查；无当前目标学期或成绩。 本批原文未公开，摘要保留课程相关内容，可回原站核对。",
+      "reason": "官方选取获奖学生，非代表性调查；无当前目标学期或成绩。 本批原文未公开，摘要保留课程相关内容，可回原站核对。"
+    }
+  ],
+  "index_only_hits": [],
+  "quantitative_observations": [],
+  "offerings": [
+    {
+      "term": "2026春",
+      "section_code": "CHIN30023.01",
+      "lesson_id": 1027250,
+      "course_code": "CHIN30023",
+      "course_name": "苏轼精读",
+      "teachers": [
+        "朱刚"
+      ],
+      "credits": 2,
+      "task_level": "本科",
+      "open_department": "中国语言文学系",
+      "course_type": "专业选修课程",
+      "course_table_type": "基础和专业：专业课程",
+      "exam_mode": "闭卷",
+      "total_hours": 36,
+      "source_ids": [
+        "OFFICIAL-OFFERING-1027250",
+        "OFFICIAL-SYLLABUS-1027250"
+      ],
+      "official_syllabus": {
+        "status": "structured_text_extracted",
+        "source_id": "OFFICIAL-SYLLABUS-1027250",
+        "section_titles": [
+          "课程简介（中文）",
+          "课程简介（英文）",
+          "教学目标",
+          "教学方式",
+          "教学内容与进度安排",
+          "课程考核与成绩评定",
+          "教材",
+          "教学参考资料",
+          "教学团队成员"
+        ],
+        "prerequisites": [],
+        "assessment": [
+          {
+            "criteria": "课题研讨Topic Discussion",
+            "percentage": 30.0,
+            "standard": "根据研讨提纲的质量评定"
+          },
+          {
+            "criteria": "期末考试Final Examination：闭卷 ",
+            "percentage": 70.0,
+            "standard": "根据卷面成绩评定"
+          }
+        ],
+        "grade_rule": "等级制",
+        "textbooks": [],
+        "syllabus_id": 9131,
+        "error": null
+      }
+    }
+  ],
+  "official_metadata": {
+    "department": "中国语言文学系",
+    "target_terms": [
+      "2026春"
+    ],
+    "target_teachers": [
+      "朱刚"
+    ],
+    "task_levels": [
+      "本科"
+    ],
+    "section_count": 1,
+    "official_offering_count_in_snapshot": 1,
+    "course_type_values_by_offering": [
+      "专业选修课程"
+    ],
+    "course_table_type_values_by_offering": [
+      "基础和专业：专业课程"
+    ],
+    "source_ids": [
+      "OFFICIAL-OFFERING-1027250"
+    ]
+  },
+  "comparison_and_summary": {
+    "teaching_and_learning": "已读摘要没有明确记录具体学习收获或能力变化。",
+    "workload": "已读摘要没有提供可核实的具体准备或作业要求。",
+    "assessment": "已读摘要没有提供可核实的考核形式或评分细节。",
+    "grading_and_risk": "",
+    "teacher_and_term_differences": "来源中明确出现的教师称谓为：朱刚。仅保留原称谓，不把缩写或昵称扩写，也不把不同教师班合并。 学期信息按原文保留（明确历史期：2022届本科经历，含2020春记录）；“本学期/上学期”等未注明年份的说法不换算为目标期。",
+    "who_it_suits": "",
+    "source_ids": [
+      "FORUM-5575759",
+      "FORUM-46777",
+      "PUB-EXPERIENCE-20221014"
+    ],
+    "section_source_ids": {
+      "teaching_and_learning": [],
+      "workload": [],
+      "assessment": [],
+      "teacher_and_term_differences": [
+        "FORUM-46777",
+        "PUB-EXPERIENCE-20221014"
+      ]
+    },
+    "manual_comparison": {
+      "status": "human_synthesized",
+      "text": "亲历帖子主要谈苏轼精读教室拥挤、需提前等座；另有简短转述称朱刚老师的苏轼精读受欢迎，但没有展开课堂内容或考核（FORUM-5575759、FORUM-46777）。 因此目前只能确认座位情况和简短称赞，不能总结教学或考核。",
+      "evidence_ids": [
+        "FORUM-5575759",
+        "FORUM-46777"
+      ],
+      "limitations": "拥挤和选课安排不等于教学评价；教师名字仅在第二手简评中出现，学期未知。",
+      "confidence": "low：有已读一手来源，但学期为历史或未定，不能代表目标期。"
+    },
+    "confidence": "low：有已读一手来源，但学期为历史或未定，不能代表目标期。",
+    "limitations": "共纳入3条已读来源，其中本人经历/评课1条、二手转述1条，另有校方精选、媒体报道或历史汇编1条；这些材料不代表班级分布。 没有明确目标期的一手评价；历史或学期不明材料不能移作当前班级结论。"
+  },
+  "research_snapshot": {
+    "date": "2026-10-27",
+    "curated_evidence_record_count": 535,
+    "synthesis_source_assignment_count": 522,
+    "public_review_index_record_count": 167,
+    "public_adopted_findings_count": 11
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "reviewed_ids": [2109,5688],
+  "method": "根代理核读两篇完整可读正文与课程元数据，对照live-jobs中GESP10004明列旧课号PTSS110092；原先预处理未规范化罗马数字II/Ⅱ而漏归。",
+  "records": {
+    "2109": {"verified_course_codes":["GESP10004"],"usable_for_conclusion":true,"identity_verification":"API课程PTSS110092与目标GESP10004的显式旧课号对应；属于历史集体授课，整体课堂体验不归给某一位教师。","limitations":"原索引2023学年春季即2024春；正文未独立明示时间。集体授课整体回顾，不评价单一教师，不替代2026春班要求。"},
+    "5688": {"verified_course_codes":["GESP10004"],"usable_for_conclusion":false,"identity_verification":"API课程PTSS110092对应GESP10004，II/Ⅱ为罗马数字格式差异。","limitations":"标题与正文只表达笼统负面意见，缺少学习过程、任务和考核信息，不用于课程负担或教师结论。"}
+  }
+}

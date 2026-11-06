@@ -1,0 +1,1899 @@
+{
+  "schema_version": 1,
+  "course": {
+    "code": "CHIN20002",
+    "name": "现代汉语(下)",
+    "department": "中国语言文学系",
+    "credits": 2,
+    "term": "2026春",
+    "teachers": [
+      "霍四通",
+      "盛益民",
+      "张豫峰"
+    ],
+    "section_code": null,
+    "class_type": "ordinary",
+    "course_type_code": null,
+    "program_year": null,
+    "program_names": [],
+    "required_or_elective": null
+  },
+  "aliases": {
+    "course_names": [
+      {
+        "value": "现汉",
+        "kind": "course_name_alias",
+        "status": "source_attested",
+        "source_url": "https://www.sohu.com/a/252899039_820403",
+        "evidence_id": "PUB-CLASSNOTES-20180910",
+        "limitation": "正文未区分上下册，查询需课程/教师锚定"
+      },
+      {
+        "value": "现代汉语下",
+        "kind": "course_name_alias",
+        "status": "query_candidate",
+        "source_url": null,
+        "evidence_id": null,
+        "limitation": "仅机械去书名号/册别生成，不能视为真实俗称"
+      },
+      {
+        "value": "现代汉语",
+        "kind": "course_name_alias",
+        "status": "query_candidate",
+        "source_url": null,
+        "evidence_id": null,
+        "limitation": "仅机械去书名号/册别生成，不能视为真实俗称"
+      },
+      {
+        "value": "现汉下",
+        "kind": "course_name_alias",
+        "status": "query_candidate",
+        "source_url": null,
+        "evidence_id": null,
+        "limitation": "已检索目标原评与2018公开班级笔记未找到这个分册/概括简称；候选需完整课名或教师锚定"
+      }
+    ],
+    "teacher_names_or_pinyin": [
+      {
+        "teacher": "霍四通",
+        "value": "霍四通",
+        "kind": "canonical_name",
+        "status": "official_target_name"
+      },
+      {
+        "teacher": "霍四通",
+        "value": "huositong",
+        "kind": "full_joined",
+        "status": "generated_query_candidate"
+      },
+      {
+        "teacher": "霍四通",
+        "value": "huo si tong",
+        "kind": "full_spaced",
+        "status": "generated_query_candidate"
+      },
+      {
+        "teacher": "霍四通",
+        "value": "hst",
+        "kind": "initials",
+        "status": "generated_query_candidate"
+      },
+      {
+        "teacher": "霍四通",
+        "value": "霍老师",
+        "kind": "teacher_alias",
+        "status": "query_candidate",
+        "source_url": null,
+        "evidence_id": null,
+        "limitation": "姓氏称谓非唯一别名，仅与完整课名联合查询"
+      },
+      {
+        "teacher": "盛益民",
+        "value": "盛益民",
+        "kind": "canonical_name",
+        "status": "official_target_name"
+      },
+      {
+        "teacher": "盛益民",
+        "value": "shengyimin",
+        "kind": "full_joined",
+        "status": "generated_query_candidate"
+      },
+      {
+        "teacher": "盛益民",
+        "value": "sheng yi min",
+        "kind": "full_spaced",
+        "status": "generated_query_candidate"
+      },
+      {
+        "teacher": "盛益民",
+        "value": "sym",
+        "kind": "initials",
+        "status": "generated_query_candidate"
+      },
+      {
+        "teacher": "盛益民",
+        "value": "盛老师",
+        "kind": "teacher_alias",
+        "status": "query_candidate",
+        "source_url": null,
+        "evidence_id": null,
+        "limitation": "姓氏称谓非唯一别名，仅与完整课名联合查询"
+      },
+      {
+        "teacher": "张豫峰",
+        "value": "张豫峰",
+        "kind": "canonical_name",
+        "status": "official_target_name"
+      },
+      {
+        "teacher": "张豫峰",
+        "value": "zhangyufeng",
+        "kind": "full_joined",
+        "status": "generated_query_candidate"
+      },
+      {
+        "teacher": "张豫峰",
+        "value": "zhang yu feng",
+        "kind": "full_spaced",
+        "status": "generated_query_candidate"
+      },
+      {
+        "teacher": "张豫峰",
+        "value": "zyf",
+        "kind": "initials",
+        "status": "generated_query_candidate"
+      },
+      {
+        "teacher": "张豫峰",
+        "value": "张老师",
+        "kind": "teacher_alias",
+        "status": "query_candidate",
+        "source_url": null,
+        "evidence_id": null,
+        "limitation": "姓氏称谓非唯一别名，仅与完整课名联合查询"
+      }
+    ],
+    "ambiguous_matches": [
+      {
+        "value": "现代汉语下",
+        "kind": "course_name_alias",
+        "status": "query_candidate",
+        "source_url": null,
+        "evidence_id": null,
+        "limitation": "仅机械去书名号/册别生成，不能视为真实俗称"
+      },
+      {
+        "value": "现代汉语",
+        "kind": "course_name_alias",
+        "status": "query_candidate",
+        "source_url": null,
+        "evidence_id": null,
+        "limitation": "仅机械去书名号/册别生成，不能视为真实俗称"
+      },
+      {
+        "value": "现汉下",
+        "kind": "course_name_alias",
+        "status": "query_candidate",
+        "source_url": null,
+        "evidence_id": null,
+        "limitation": "已检索目标原评与2018公开班级笔记未找到这个分册/概括简称；候选需完整课名或教师锚定"
+      },
+      {
+        "value": "xiandaihanyu(xia)",
+        "kind": "course_pinyin_full_joined",
+        "status": "generated_query_candidate",
+        "limitation": "Generated transliteration is a search term, not an attested spoken alias."
+      },
+      {
+        "value": "xian dai han yu ( xia )",
+        "kind": "course_pinyin_full_spaced",
+        "status": "generated_query_candidate",
+        "limitation": "Generated transliteration is a search term, not an attested spoken alias."
+      },
+      {
+        "value": "xdhy(x)",
+        "kind": "course_pinyin_initials",
+        "status": "generated_query_candidate",
+        "limitation": "Generated transliteration is a search term, not an attested spoken alias."
+      },
+      {
+        "teacher": "霍四通",
+        "value": "huositong",
+        "kind": "full_joined",
+        "status": "generated_query_candidate",
+        "limitation": "Generated transliteration is a search token, not proof of person identity."
+      },
+      {
+        "teacher": "霍四通",
+        "value": "huo si tong",
+        "kind": "full_spaced",
+        "status": "generated_query_candidate",
+        "limitation": "Generated transliteration is a search token, not proof of person identity."
+      },
+      {
+        "teacher": "霍四通",
+        "value": "hst",
+        "kind": "initials",
+        "status": "generated_query_candidate",
+        "limitation": "Generated transliteration is a search token, not proof of person identity."
+      },
+      {
+        "teacher": "霍四通",
+        "value": "霍老师",
+        "kind": "teacher_alias",
+        "status": "query_candidate",
+        "source_url": null,
+        "evidence_id": null,
+        "limitation": "姓氏称谓非唯一别名，仅与完整课名联合查询"
+      },
+      {
+        "teacher": "盛益民",
+        "value": "shengyimin",
+        "kind": "full_joined",
+        "status": "generated_query_candidate",
+        "limitation": "Generated transliteration is a search token, not proof of person identity."
+      },
+      {
+        "teacher": "盛益民",
+        "value": "sheng yi min",
+        "kind": "full_spaced",
+        "status": "generated_query_candidate",
+        "limitation": "Generated transliteration is a search token, not proof of person identity."
+      },
+      {
+        "teacher": "盛益民",
+        "value": "sym",
+        "kind": "initials",
+        "status": "generated_query_candidate",
+        "limitation": "Generated transliteration is a search token, not proof of person identity."
+      },
+      {
+        "teacher": "盛益民",
+        "value": "盛老师",
+        "kind": "teacher_alias",
+        "status": "query_candidate",
+        "source_url": null,
+        "evidence_id": null,
+        "limitation": "姓氏称谓非唯一别名，仅与完整课名联合查询"
+      },
+      {
+        "teacher": "张豫峰",
+        "value": "zhangyufeng",
+        "kind": "full_joined",
+        "status": "generated_query_candidate",
+        "limitation": "Generated transliteration is a search token, not proof of person identity."
+      },
+      {
+        "teacher": "张豫峰",
+        "value": "zhang yu feng",
+        "kind": "full_spaced",
+        "status": "generated_query_candidate",
+        "limitation": "Generated transliteration is a search token, not proof of person identity."
+      },
+      {
+        "teacher": "张豫峰",
+        "value": "zyf",
+        "kind": "initials",
+        "status": "generated_query_candidate",
+        "limitation": "Generated transliteration is a search token, not proof of person identity."
+      },
+      {
+        "teacher": "张豫峰",
+        "value": "张老师",
+        "kind": "teacher_alias",
+        "status": "query_candidate",
+        "source_url": null,
+        "evidence_id": null,
+        "limitation": "姓氏称谓非唯一别名，仅与完整课名联合查询"
+      }
+    ]
+  },
+  "progress": {
+    "owner": "",
+    "reviewer": "",
+    "status": "in_progress",
+    "queries": [
+      {
+        "query_id": "PLATFORM-CHIN20002-2026春-小红书",
+        "category": "canonical_title_teacher_platform_search",
+        "term": "2026春",
+        "query": "复旦 \"现代汉语\" (\"霍四通\" OR \"盛益民\" OR \"张豫峰\") 课程 评价",
+        "status": "no_link_returned",
+        "search_scope": "platform_specific_external_search_index",
+        "domains": [
+          "xiaohongshu.com"
+        ],
+        "attempts": 1,
+        "returned_link_count": 0,
+        "confirmed_direct_reviews": 0,
+        "read_status": "search_index_only",
+        "source_file": "reports/公开平台逐课检索台账.csv",
+        "source_record_id": "PLATFORM-CHIN20002-2026春-小红书",
+        "source_record_pointer": "course_code=CHIN20002;terms=2026春;platform=小红书",
+        "limitation": "外部搜索索引覆盖有限；不代表站内不存在"
+      },
+      {
+        "query_id": "PLATFORM-CHIN20002-2026春-微信公众号",
+        "category": "canonical_title_teacher_platform_search",
+        "term": "2026春",
+        "query": "复旦 \"现代汉语\" (\"霍四通\" OR \"盛益民\" OR \"张豫峰\") 课程 评价",
+        "status": "no_link_returned",
+        "search_scope": "platform_specific_external_search_index",
+        "domains": [
+          "mp.weixin.qq.com"
+        ],
+        "attempts": 1,
+        "returned_link_count": 0,
+        "confirmed_direct_reviews": 0,
+        "read_status": "search_index_only",
+        "source_file": "reports/公开平台逐课检索台账.csv",
+        "source_record_id": "PLATFORM-CHIN20002-2026春-微信公众号",
+        "source_record_pointer": "course_code=CHIN20002;terms=2026春;platform=微信公众号",
+        "limitation": "外部搜索索引覆盖有限；不代表站内不存在"
+      },
+      {
+        "query_id": "PLATFORM-CHIN20002-2026春-知乎",
+        "category": "canonical_title_teacher_platform_search",
+        "term": "2026春",
+        "query": "复旦 \"现代汉语\" (\"霍四通\" OR \"盛益民\" OR \"张豫峰\") 课程 评价",
+        "status": "no_link_returned",
+        "search_scope": "platform_specific_external_search_index",
+        "domains": [
+          "zhihu.com"
+        ],
+        "attempts": 1,
+        "returned_link_count": 0,
+        "confirmed_direct_reviews": 0,
+        "read_status": "search_index_only",
+        "source_file": "reports/公开平台逐课检索台账.csv",
+        "source_record_id": "PLATFORM-CHIN20002-2026春-知乎",
+        "source_record_pointer": "course_code=CHIN20002;terms=2026春;platform=知乎",
+        "limitation": "外部搜索索引覆盖有限；不代表站内不存在"
+      },
+      {
+        "query_id": "PUBALIAS-00952",
+        "category": "course_alias",
+        "term": "现汉",
+        "query": "复旦 \"霍四通\" \"现汉\"",
+        "status": "completed",
+        "search_scope": "external_index_union_of_three_domains",
+        "domains": [
+          "zhihu.com",
+          "xiaohongshu.com",
+          "mp.weixin.qq.com"
+        ],
+        "attempts": 1,
+        "returned_link_count": 0,
+        "confirmed_direct_reviews": 0,
+        "read_status": "query execution only; not article reading",
+        "source_file": "reports/别名拼音扩展检索台账.csv",
+        "source_record_id": "PUBALIAS-00952",
+        "source_record_pointer": "query_id=PUBALIAS-00952",
+        "limitation": "A union-domain query is one logged record, not one execution per listed platform."
+      },
+      {
+        "query_id": "PUBALIAS-00953",
+        "category": "course_alias",
+        "term": "现代汉语下",
+        "query": "复旦 \"霍四通\" \"现代汉语下\"",
+        "status": "completed",
+        "search_scope": "external_index_union_of_three_domains",
+        "domains": [
+          "zhihu.com",
+          "xiaohongshu.com",
+          "mp.weixin.qq.com"
+        ],
+        "attempts": 1,
+        "returned_link_count": 0,
+        "confirmed_direct_reviews": 0,
+        "read_status": "query execution only; not article reading",
+        "source_file": "reports/别名拼音扩展检索台账.csv",
+        "source_record_id": "PUBALIAS-00953",
+        "source_record_pointer": "query_id=PUBALIAS-00953",
+        "limitation": "A union-domain query is one logged record, not one execution per listed platform."
+      },
+      {
+        "query_id": "PUBALIAS-00954",
+        "category": "course_alias",
+        "term": "现代汉语",
+        "query": "复旦 \"霍四通\" \"现代汉语\"",
+        "status": "completed",
+        "search_scope": "external_index_union_of_three_domains",
+        "domains": [
+          "zhihu.com",
+          "xiaohongshu.com",
+          "mp.weixin.qq.com"
+        ],
+        "attempts": 1,
+        "returned_link_count": 0,
+        "confirmed_direct_reviews": 0,
+        "read_status": "query execution only; not article reading",
+        "source_file": "reports/别名拼音扩展检索台账.csv",
+        "source_record_id": "PUBALIAS-00954",
+        "source_record_pointer": "query_id=PUBALIAS-00954",
+        "limitation": "A union-domain query is one logged record, not one execution per listed platform."
+      },
+      {
+        "query_id": "PUBALIAS-00955",
+        "category": "course_pinyin_full_joined",
+        "term": "xiandaihanyu(xia)",
+        "query": "复旦 \"霍四通\" \"xiandaihanyu(xia)\"",
+        "status": "completed",
+        "search_scope": "external_index_union_of_three_domains",
+        "domains": [
+          "zhihu.com",
+          "xiaohongshu.com",
+          "mp.weixin.qq.com"
+        ],
+        "attempts": 1,
+        "returned_link_count": 0,
+        "confirmed_direct_reviews": 0,
+        "read_status": "query execution only; not article reading",
+        "source_file": "reports/别名拼音扩展检索台账.csv",
+        "source_record_id": "PUBALIAS-00955",
+        "source_record_pointer": "query_id=PUBALIAS-00955",
+        "limitation": "A union-domain query is one logged record, not one execution per listed platform."
+      },
+      {
+        "query_id": "PUBALIAS-00956",
+        "category": "course_pinyin_full_spaced",
+        "term": "xian dai han yu ( xia )",
+        "query": "复旦 \"霍四通\" \"xian dai han yu ( xia )\"",
+        "status": "completed",
+        "search_scope": "external_index_union_of_three_domains",
+        "domains": [
+          "zhihu.com",
+          "xiaohongshu.com",
+          "mp.weixin.qq.com"
+        ],
+        "attempts": 1,
+        "returned_link_count": 0,
+        "confirmed_direct_reviews": 0,
+        "read_status": "query execution only; not article reading",
+        "source_file": "reports/别名拼音扩展检索台账.csv",
+        "source_record_id": "PUBALIAS-00956",
+        "source_record_pointer": "query_id=PUBALIAS-00956",
+        "limitation": "A union-domain query is one logged record, not one execution per listed platform."
+      },
+      {
+        "query_id": "PUBALIAS-00957",
+        "category": "course_pinyin_initials",
+        "term": "xdhy(x)",
+        "query": "复旦 \"霍四通\" \"xdhy(x)\"",
+        "status": "completed",
+        "search_scope": "external_index_union_of_three_domains",
+        "domains": [
+          "zhihu.com",
+          "xiaohongshu.com",
+          "mp.weixin.qq.com"
+        ],
+        "attempts": 1,
+        "returned_link_count": 0,
+        "confirmed_direct_reviews": 0,
+        "read_status": "query execution only; not article reading",
+        "source_file": "reports/别名拼音扩展检索台账.csv",
+        "source_record_id": "PUBALIAS-00957",
+        "source_record_pointer": "query_id=PUBALIAS-00957",
+        "limitation": "A union-domain query is one logged record, not one execution per listed platform."
+      },
+      {
+        "query_id": "PUBALIAS-00958",
+        "category": "teacher_pinyin_full_joined",
+        "term": "huositong",
+        "query": "复旦 \"现代汉语(下)\" \"huositong\"",
+        "status": "completed",
+        "search_scope": "external_index_union_of_three_domains",
+        "domains": [
+          "zhihu.com",
+          "xiaohongshu.com",
+          "mp.weixin.qq.com"
+        ],
+        "attempts": 1,
+        "returned_link_count": 0,
+        "confirmed_direct_reviews": 0,
+        "read_status": "query execution only; not article reading",
+        "source_file": "reports/别名拼音扩展检索台账.csv",
+        "source_record_id": "PUBALIAS-00958",
+        "source_record_pointer": "query_id=PUBALIAS-00958",
+        "limitation": "A union-domain query is one logged record, not one execution per listed platform."
+      },
+      {
+        "query_id": "PUBALIAS-00959",
+        "category": "teacher_pinyin_full_spaced",
+        "term": "huo si tong",
+        "query": "复旦 \"现代汉语(下)\" \"huo si tong\"",
+        "status": "completed",
+        "search_scope": "external_index_union_of_three_domains",
+        "domains": [
+          "zhihu.com",
+          "xiaohongshu.com",
+          "mp.weixin.qq.com"
+        ],
+        "attempts": 1,
+        "returned_link_count": 0,
+        "confirmed_direct_reviews": 0,
+        "read_status": "query execution only; not article reading",
+        "source_file": "reports/别名拼音扩展检索台账.csv",
+        "source_record_id": "PUBALIAS-00959",
+        "source_record_pointer": "query_id=PUBALIAS-00959",
+        "limitation": "A union-domain query is one logged record, not one execution per listed platform."
+      },
+      {
+        "query_id": "PUBALIAS-00960",
+        "category": "teacher_pinyin_initials",
+        "term": "hst",
+        "query": "复旦 \"现代汉语(下)\" \"hst\"",
+        "status": "completed",
+        "search_scope": "external_index_union_of_three_domains",
+        "domains": [
+          "zhihu.com",
+          "xiaohongshu.com",
+          "mp.weixin.qq.com"
+        ],
+        "attempts": 1,
+        "returned_link_count": 0,
+        "confirmed_direct_reviews": 0,
+        "read_status": "query execution only; not article reading",
+        "source_file": "reports/别名拼音扩展检索台账.csv",
+        "source_record_id": "PUBALIAS-00960",
+        "source_record_pointer": "query_id=PUBALIAS-00960",
+        "limitation": "A union-domain query is one logged record, not one execution per listed platform."
+      },
+      {
+        "query_id": "PUBALIAS-00961",
+        "category": "teacher_alias",
+        "term": "霍老师",
+        "query": "复旦 \"现代汉语(下)\" \"霍老师\"",
+        "status": "completed",
+        "search_scope": "external_index_union_of_three_domains",
+        "domains": [
+          "zhihu.com",
+          "xiaohongshu.com",
+          "mp.weixin.qq.com"
+        ],
+        "attempts": 1,
+        "returned_link_count": 0,
+        "confirmed_direct_reviews": 0,
+        "read_status": "query execution only; not article reading",
+        "source_file": "reports/别名拼音扩展检索台账.csv",
+        "source_record_id": "PUBALIAS-00961",
+        "source_record_pointer": "query_id=PUBALIAS-00961",
+        "limitation": "A union-domain query is one logged record, not one execution per listed platform."
+      },
+      {
+        "query_id": "PUBALIAS-00962",
+        "category": "teacher_pinyin_full_joined",
+        "term": "shengyimin",
+        "query": "复旦 \"现代汉语(下)\" \"shengyimin\"",
+        "status": "completed",
+        "search_scope": "external_index_union_of_three_domains",
+        "domains": [
+          "zhihu.com",
+          "xiaohongshu.com",
+          "mp.weixin.qq.com"
+        ],
+        "attempts": 1,
+        "returned_link_count": 0,
+        "confirmed_direct_reviews": 0,
+        "read_status": "query execution only; not article reading",
+        "source_file": "reports/别名拼音扩展检索台账.csv",
+        "source_record_id": "PUBALIAS-00962",
+        "source_record_pointer": "query_id=PUBALIAS-00962",
+        "limitation": "A union-domain query is one logged record, not one execution per listed platform."
+      },
+      {
+        "query_id": "PUBALIAS-00963",
+        "category": "teacher_pinyin_full_spaced",
+        "term": "sheng yi min",
+        "query": "复旦 \"现代汉语(下)\" \"sheng yi min\"",
+        "status": "completed",
+        "search_scope": "external_index_union_of_three_domains",
+        "domains": [
+          "zhihu.com",
+          "xiaohongshu.com",
+          "mp.weixin.qq.com"
+        ],
+        "attempts": 1,
+        "returned_link_count": 0,
+        "confirmed_direct_reviews": 0,
+        "read_status": "query execution only; not article reading",
+        "source_file": "reports/别名拼音扩展检索台账.csv",
+        "source_record_id": "PUBALIAS-00963",
+        "source_record_pointer": "query_id=PUBALIAS-00963",
+        "limitation": "A union-domain query is one logged record, not one execution per listed platform."
+      },
+      {
+        "query_id": "PUBALIAS-00964",
+        "category": "teacher_pinyin_initials",
+        "term": "sym",
+        "query": "复旦 \"现代汉语(下)\" \"sym\"",
+        "status": "completed",
+        "search_scope": "external_index_union_of_three_domains",
+        "domains": [
+          "zhihu.com",
+          "xiaohongshu.com",
+          "mp.weixin.qq.com"
+        ],
+        "attempts": 1,
+        "returned_link_count": 0,
+        "confirmed_direct_reviews": 0,
+        "read_status": "query execution only; not article reading",
+        "source_file": "reports/别名拼音扩展检索台账.csv",
+        "source_record_id": "PUBALIAS-00964",
+        "source_record_pointer": "query_id=PUBALIAS-00964",
+        "limitation": "A union-domain query is one logged record, not one execution per listed platform."
+      },
+      {
+        "query_id": "PUBALIAS-00965",
+        "category": "teacher_alias",
+        "term": "盛老师",
+        "query": "复旦 \"现代汉语(下)\" \"盛老师\"",
+        "status": "completed",
+        "search_scope": "external_index_union_of_three_domains",
+        "domains": [
+          "zhihu.com",
+          "xiaohongshu.com",
+          "mp.weixin.qq.com"
+        ],
+        "attempts": 1,
+        "returned_link_count": 0,
+        "confirmed_direct_reviews": 0,
+        "read_status": "query execution only; not article reading",
+        "source_file": "reports/别名拼音扩展检索台账.csv",
+        "source_record_id": "PUBALIAS-00965",
+        "source_record_pointer": "query_id=PUBALIAS-00965",
+        "limitation": "A union-domain query is one logged record, not one execution per listed platform."
+      },
+      {
+        "query_id": "PUBALIAS-00966",
+        "category": "teacher_pinyin_full_joined",
+        "term": "zhangyufeng",
+        "query": "复旦 \"现代汉语(下)\" \"zhangyufeng\"",
+        "status": "completed",
+        "search_scope": "external_index_union_of_three_domains",
+        "domains": [
+          "zhihu.com",
+          "xiaohongshu.com",
+          "mp.weixin.qq.com"
+        ],
+        "attempts": 1,
+        "returned_link_count": 0,
+        "confirmed_direct_reviews": 0,
+        "read_status": "query execution only; not article reading",
+        "source_file": "reports/别名拼音扩展检索台账.csv",
+        "source_record_id": "PUBALIAS-00966",
+        "source_record_pointer": "query_id=PUBALIAS-00966",
+        "limitation": "A union-domain query is one logged record, not one execution per listed platform."
+      },
+      {
+        "query_id": "PUBALIAS-00967",
+        "category": "teacher_pinyin_full_spaced",
+        "term": "zhang yu feng",
+        "query": "复旦 \"现代汉语(下)\" \"zhang yu feng\"",
+        "status": "completed",
+        "search_scope": "external_index_union_of_three_domains",
+        "domains": [
+          "zhihu.com",
+          "xiaohongshu.com",
+          "mp.weixin.qq.com"
+        ],
+        "attempts": 1,
+        "returned_link_count": 0,
+        "confirmed_direct_reviews": 0,
+        "read_status": "query execution only; not article reading",
+        "source_file": "reports/别名拼音扩展检索台账.csv",
+        "source_record_id": "PUBALIAS-00967",
+        "source_record_pointer": "query_id=PUBALIAS-00967",
+        "limitation": "A union-domain query is one logged record, not one execution per listed platform."
+      },
+      {
+        "query_id": "PUBALIAS-00968",
+        "category": "teacher_pinyin_initials",
+        "term": "zyf",
+        "query": "复旦 \"现代汉语(下)\" \"zyf\"",
+        "status": "completed",
+        "search_scope": "external_index_union_of_three_domains",
+        "domains": [
+          "zhihu.com",
+          "xiaohongshu.com",
+          "mp.weixin.qq.com"
+        ],
+        "attempts": 1,
+        "returned_link_count": 0,
+        "confirmed_direct_reviews": 0,
+        "read_status": "query execution only; not article reading",
+        "source_file": "reports/别名拼音扩展检索台账.csv",
+        "source_record_id": "PUBALIAS-00968",
+        "source_record_pointer": "query_id=PUBALIAS-00968",
+        "limitation": "A union-domain query is one logged record, not one execution per listed platform."
+      },
+      {
+        "query_id": "PUBALIAS-00969",
+        "category": "teacher_alias",
+        "term": "张老师",
+        "query": "复旦 \"现代汉语(下)\" \"张老师\"",
+        "status": "completed",
+        "search_scope": "external_index_union_of_three_domains",
+        "domains": [
+          "zhihu.com",
+          "xiaohongshu.com",
+          "mp.weixin.qq.com"
+        ],
+        "attempts": 1,
+        "returned_link_count": 0,
+        "confirmed_direct_reviews": 0,
+        "read_status": "query execution only; not article reading",
+        "source_file": "reports/别名拼音扩展检索台账.csv",
+        "source_record_id": "PUBALIAS-00969",
+        "source_record_pointer": "query_id=PUBALIAS-00969",
+        "limitation": "A union-domain query is one logged record, not one execution per listed platform."
+      },
+      {
+        "query_id": "PUBFOLLOW-0014",
+        "category": "double_abbreviation_initials",
+        "term": "现汉下",
+        "query": "复旦 现汉下 sym",
+        "status": "completed",
+        "search_scope": "external_index_union_of_three_domains",
+        "domains": [
+          "zhihu.com",
+          "xiaohongshu.com",
+          "mp.weixin.qq.com"
+        ],
+        "attempts": 2,
+        "returned_link_count": 0,
+        "confirmed_direct_reviews": null,
+        "read_status": "completed alias follow-up query",
+        "source_file": "reports/别名来源补查台账.csv",
+        "source_record_id": "PUBFOLLOW-0014",
+        "source_record_pointer": "query_id=PUBFOLLOW-0014",
+        "limitation": "Completed query does not imply a result page or review was adopted."
+      },
+      {
+        "query_id": "PLAINPINYIN-0055",
+        "category": "plain_pinyin_candidate",
+        "term": "xiandaihanyuxia",
+        "query": "复旦 xiandaihanyuxia",
+        "status": "completed",
+        "search_scope": "external_index_plain_pinyin_query",
+        "domains": [],
+        "attempts": 1,
+        "returned_link_count": null,
+        "confirmed_direct_reviews": null,
+        "read_status": "返回摘要已记录并程序初筛，未计页面全文阅读",
+        "source_file": "reports/纯拼音补查台账.csv",
+        "source_record_id": "PLAINPINYIN-0055",
+        "source_record_pointer": "查询ID=PLAINPINYIN-0055",
+        "limitation": "Search summaries were screened; not counted as full-page reading."
+      },
+      {
+        "query_id": "PLAINPINYIN-0056",
+        "category": "plain_pinyin_candidate",
+        "term": "xian dai han yu xia",
+        "query": "复旦 xian dai han yu xia",
+        "status": "completed",
+        "search_scope": "external_index_plain_pinyin_query",
+        "domains": [],
+        "attempts": 1,
+        "returned_link_count": null,
+        "confirmed_direct_reviews": null,
+        "read_status": "返回摘要已记录并程序初筛，未计页面全文阅读",
+        "source_file": "reports/纯拼音补查台账.csv",
+        "source_record_id": "PLAINPINYIN-0056",
+        "source_record_pointer": "查询ID=PLAINPINYIN-0056",
+        "limitation": "Search summaries were screened; not counted as full-page reading."
+      },
+      {
+        "query_id": "PLAINPINYIN-0057",
+        "category": "plain_pinyin_candidate",
+        "term": "xdhyx",
+        "query": "复旦 xdhyx",
+        "status": "completed",
+        "search_scope": "external_index_plain_pinyin_query",
+        "domains": [],
+        "attempts": 1,
+        "returned_link_count": null,
+        "confirmed_direct_reviews": null,
+        "read_status": "返回摘要已记录并程序初筛，未计页面全文阅读",
+        "source_file": "reports/纯拼音补查台账.csv",
+        "source_record_id": "PLAINPINYIN-0057",
+        "source_record_pointer": "查询ID=PLAINPINYIN-0057",
+        "limitation": "Search summaries were screened; not counted as full-page reading."
+      }
+    ],
+    "query_status_counts": {
+      "no_link_returned": 3,
+      "completed": 22
+    },
+    "query_coverage_note": "已执行课程全名、可证别名、教师全名及拼音/首字母组合的公开索引检索。跨域联合查询按一条日志记录，不按列出的域重复计数。查询完成不表示结果页已读，也不代表平台内容穷尽。",
+    "remaining_scope": [
+      "公开索引覆盖有限，未穷尽各平台站内搜索及未被索引的页面。",
+      "六个课程群聊的原始私密内容不进入本次公开贡献，仍有私密渠道缺口。",
+      "这是当前本地证据快照；新增上下文、历史教师材料和课评需重跑脚本更新。"
+    ],
+    "no_student_reviews_found": false,
+    "no_student_reviews_found_note": "true表示本快照没有已采用的学生平台摘要，不表示不存在其他评价；另见index_only_hits和查询日志。"
+  },
+  "sources": [
+    {
+      "source_id": "OFFICIAL-OFFERING-1020737",
+      "source_type": "official",
+      "canonical_url": "https://fdjwgl.fudan.edu.cn/student/for-all/lesson-search/semester/505/search/505?openDepartmentAssocs=2620&queryPage__=1,500",
+      "public_author_label": null,
+      "published_at": null,
+      "fetched_at": "2026-10-27",
+      "hole_id": null,
+      "floor_id": null,
+      "floor_number": null,
+      "review_id": null,
+      "file_and_page": "official timetable lesson_id=1020737",
+      "image_page": null,
+      "reading_status": "official_timetable_record_read",
+      "mapping_status": "official course code and lesson_id",
+      "record_type": "official_course_offering",
+      "adoption": "adopted_official_metadata",
+      "reason": "Official 2025 autumn / 2026 spring timetable row.",
+      "duplicate_of": null,
+      "license": null,
+      "fulltext_permission": "unconfirmed",
+      "attribution_and_changes": "Official offering metadata; no student personal data included.",
+      "raw_filename": "reports/两学期全部教学班.json",
+      "raw_record_id": "1020737",
+      "course_code": "CHIN20002",
+      "report_filename": "reports/两学期全部教学班.json",
+      "report_record_id": "1020737",
+      "report_record_pointer": null,
+      "raw_body_status": null,
+      "teacher_if_explicit": "张豫峰",
+      "term_as_stated": "2026春",
+      "section_code": "CHIN20002.01"
+    },
+    {
+      "source_id": "OFFICIAL-SYLLABUS-1020737",
+      "source_type": "official",
+      "canonical_url": "https://fdjwgl.fudan.edu.cn/student/for-all/lesson-search/teachingSyllabusInfo/1020737",
+      "public_author_label": null,
+      "published_at": null,
+      "fetched_at": "2026-10-27",
+      "hole_id": null,
+      "floor_id": null,
+      "floor_number": null,
+      "review_id": null,
+      "file_and_page": "official syllabus lesson_id=1020737",
+      "image_page": null,
+      "reading_status": "structured_text_extracted",
+      "mapping_status": "lesson syllabus course code checked",
+      "record_type": "official_syllabus",
+      "adoption": "adopted_official_requirements",
+      "reason": "Official syllabus parsed locally; requirements stay attached to this offering.",
+      "duplicate_of": null,
+      "license": null,
+      "fulltext_permission": "unconfirmed",
+      "attribution_and_changes": "Only metadata, section titles, textbook details and assessment structure are exported; full syllabus text is not republished.",
+      "raw_filename": "reports/官方大纲结构化摘要.json",
+      "raw_record_id": "1020737",
+      "course_code": "CHIN20002",
+      "report_filename": "reports/官方大纲结构化摘要.json",
+      "report_record_id": "1020737",
+      "report_record_pointer": null,
+      "raw_body_status": null,
+      "teacher_if_explicit": "张豫峰",
+      "term_as_stated": "2026春",
+      "section_code": "CHIN20002.01"
+    },
+    {
+      "source_id": "OFFICIAL-OFFERING-1020738",
+      "source_type": "official",
+      "canonical_url": "https://fdjwgl.fudan.edu.cn/student/for-all/lesson-search/semester/505/search/505?openDepartmentAssocs=2620&queryPage__=1,500",
+      "public_author_label": null,
+      "published_at": null,
+      "fetched_at": "2026-10-27",
+      "hole_id": null,
+      "floor_id": null,
+      "floor_number": null,
+      "review_id": null,
+      "file_and_page": "official timetable lesson_id=1020738",
+      "image_page": null,
+      "reading_status": "official_timetable_record_read",
+      "mapping_status": "official course code and lesson_id",
+      "record_type": "official_course_offering",
+      "adoption": "adopted_official_metadata",
+      "reason": "Official 2025 autumn / 2026 spring timetable row.",
+      "duplicate_of": null,
+      "license": null,
+      "fulltext_permission": "unconfirmed",
+      "attribution_and_changes": "Official offering metadata; no student personal data included.",
+      "raw_filename": "reports/两学期全部教学班.json",
+      "raw_record_id": "1020738",
+      "course_code": "CHIN20002",
+      "report_filename": "reports/两学期全部教学班.json",
+      "report_record_id": "1020738",
+      "report_record_pointer": null,
+      "raw_body_status": null,
+      "teacher_if_explicit": "霍四通",
+      "term_as_stated": "2026春",
+      "section_code": "CHIN20002.02"
+    },
+    {
+      "source_id": "OFFICIAL-SYLLABUS-1020738",
+      "source_type": "official",
+      "canonical_url": "https://fdjwgl.fudan.edu.cn/student/for-all/lesson-search/teachingSyllabusInfo/1020738",
+      "public_author_label": null,
+      "published_at": null,
+      "fetched_at": "2026-10-27",
+      "hole_id": null,
+      "floor_id": null,
+      "floor_number": null,
+      "review_id": null,
+      "file_and_page": "official syllabus lesson_id=1020738",
+      "image_page": null,
+      "reading_status": "structured_text_extracted",
+      "mapping_status": "lesson syllabus course code checked",
+      "record_type": "official_syllabus",
+      "adoption": "adopted_official_requirements",
+      "reason": "Official syllabus parsed locally; requirements stay attached to this offering.",
+      "duplicate_of": null,
+      "license": null,
+      "fulltext_permission": "unconfirmed",
+      "attribution_and_changes": "Only metadata, section titles, textbook details and assessment structure are exported; full syllabus text is not republished.",
+      "raw_filename": "reports/官方大纲结构化摘要.json",
+      "raw_record_id": "1020738",
+      "course_code": "CHIN20002",
+      "report_filename": "reports/官方大纲结构化摘要.json",
+      "report_record_id": "1020738",
+      "report_record_pointer": null,
+      "raw_body_status": null,
+      "teacher_if_explicit": "霍四通",
+      "term_as_stated": "2026春",
+      "section_code": "CHIN20002.02"
+    },
+    {
+      "source_id": "OFFICIAL-OFFERING-1020739",
+      "source_type": "official",
+      "canonical_url": "https://fdjwgl.fudan.edu.cn/student/for-all/lesson-search/semester/505/search/505?openDepartmentAssocs=2620&queryPage__=1,500",
+      "public_author_label": null,
+      "published_at": null,
+      "fetched_at": "2026-10-27",
+      "hole_id": null,
+      "floor_id": null,
+      "floor_number": null,
+      "review_id": null,
+      "file_and_page": "official timetable lesson_id=1020739",
+      "image_page": null,
+      "reading_status": "official_timetable_record_read",
+      "mapping_status": "official course code and lesson_id",
+      "record_type": "official_course_offering",
+      "adoption": "adopted_official_metadata",
+      "reason": "Official 2025 autumn / 2026 spring timetable row.",
+      "duplicate_of": null,
+      "license": null,
+      "fulltext_permission": "unconfirmed",
+      "attribution_and_changes": "Official offering metadata; no student personal data included.",
+      "raw_filename": "reports/两学期全部教学班.json",
+      "raw_record_id": "1020739",
+      "course_code": "CHIN20002",
+      "report_filename": "reports/两学期全部教学班.json",
+      "report_record_id": "1020739",
+      "report_record_pointer": null,
+      "raw_body_status": null,
+      "teacher_if_explicit": "盛益民",
+      "term_as_stated": "2026春",
+      "section_code": "CHIN20002.03"
+    },
+    {
+      "source_id": "OFFICIAL-SYLLABUS-1020739",
+      "source_type": "official",
+      "canonical_url": "https://fdjwgl.fudan.edu.cn/student/for-all/lesson-search/teachingSyllabusInfo/1020739",
+      "public_author_label": null,
+      "published_at": null,
+      "fetched_at": "2026-10-27",
+      "hole_id": null,
+      "floor_id": null,
+      "floor_number": null,
+      "review_id": null,
+      "file_and_page": "official syllabus lesson_id=1020739",
+      "image_page": null,
+      "reading_status": "structured_text_extracted",
+      "mapping_status": "lesson syllabus course code checked",
+      "record_type": "official_syllabus",
+      "adoption": "adopted_official_requirements",
+      "reason": "Official syllabus parsed locally; requirements stay attached to this offering.",
+      "duplicate_of": null,
+      "license": null,
+      "fulltext_permission": "unconfirmed",
+      "attribution_and_changes": "Only metadata, section titles, textbook details and assessment structure are exported; full syllabus text is not republished.",
+      "raw_filename": "reports/官方大纲结构化摘要.json",
+      "raw_record_id": "1020739",
+      "course_code": "CHIN20002",
+      "report_filename": "reports/官方大纲结构化摘要.json",
+      "report_record_id": "1020739",
+      "report_record_pointer": null,
+      "raw_body_status": null,
+      "teacher_if_explicit": "盛益民",
+      "term_as_stated": "2026春",
+      "section_code": "CHIN20002.03"
+    },
+    {
+      "source_id": "XHS-6a9d78fd0000000012035abb-OBS-3",
+      "source_type": "external",
+      "canonical_url": "https://www.xiaohongshu.com/explore/6a9d78fd0000000012035abb",
+      "public_author_label": null,
+      "published_at": null,
+      "fetched_at": "2026-10-27",
+      "hole_id": null,
+      "floor_id": null,
+      "floor_number": null,
+      "review_id": null,
+      "file_and_page": "xiaohongshu source XHS-6a9d78fd0000000012035abb-OBS-3",
+      "image_page": null,
+      "reading_status": "配文和4页图片正文逐页核读；评论区显示无评论。",
+      "mapping_status": "verified course assignment from curated evidence",
+      "record_type": "historical_learning_recollection",
+      "adoption": "adopted_limited",
+      "reason": "本批原文未公开，摘要保留课程相关内容，可回原站核对。",
+      "duplicate_of": null,
+      "license": null,
+      "fulltext_permission": "unconfirmed; short summary only exported",
+      "attribution_and_changes": "Short paraphrase from locally curated evidence; original body, account metadata and media are not copied.",
+      "raw_filename": "raw/external-sources.json",
+      "raw_record_id": "XHS-6a9d78fd0000000012035abb-OBS-3",
+      "course_code": "CHIN20002",
+      "report_filename": "reports/课程人工综合与来源.json",
+      "report_record_id": "XHS-6a9d78fd0000000012035abb-OBS-3",
+      "report_record_pointer": null,
+      "raw_body_status": "external_fulltext_not_redistributed",
+      "teacher_if_explicit": "张豫峰",
+      "term_as_stated": "本科历史回顾，具体学期未定",
+      "section_code": null,
+      "raw_year": null,
+      "raw_semester": null,
+      "indexed_terms": null,
+      "indexed_course_periods": null,
+      "body_term_if_explicit": null,
+      "body_claimed_calendar_terms": null,
+      "body_term_conflict": null,
+      "review_time_conflict": null,
+      "index_conflict_note": null,
+      "term_scope": "编辑刊载匿名在校生投稿，范围大一上至大二上；未明确修读年份，不认定为目标两学期直接评价。",
+      "body_term_precision": null,
+      "body_term_scope": null,
+      "relative_period_phrases": null,
+      "semester_mapping_source": null,
+      "body_calendar_terms_parsed": null,
+      "body_claimed_target_terms": [],
+      "indexed_target_terms": [],
+      "target_period_note": "非目标期、相对或未知修读期，不当作目标期直接反馈。"
+    },
+    {
+      "source_id": "DANKE-140",
+      "source_type": "danke",
+      "canonical_url": "https://danke.fduhole.com/api/reviews/140",
+      "public_author_label": null,
+      "published_at": "2022-07-21T14:19:55.946Z",
+      "fetched_at": "2026-10-27",
+      "hole_id": null,
+      "floor_id": null,
+      "floor_number": null,
+      "review_id": 140,
+      "file_and_page": "danke source DANKE-140",
+      "image_page": null,
+      "reading_status": "full_returned_text",
+      "mapping_status": "verified course assignment from curated evidence",
+      "record_type": "brief_opinion",
+      "adoption": "adopted_limited",
+      "reason": "",
+      "duplicate_of": null,
+      "license": null,
+      "fulltext_permission": "unconfirmed; short summary only exported",
+      "attribution_and_changes": "Short paraphrase from locally curated evidence; original body, account metadata and media are not copied.",
+      "raw_filename": "raw/danke.jsonl",
+      "raw_record_id": 140,
+      "course_code": "CHIN20002",
+      "report_filename": "reports/课程人工综合与来源.json",
+      "report_record_id": "DANKE-140",
+      "report_record_pointer": null,
+      "raw_body_status": "published_redacted",
+      "teacher_if_explicit": "盛益民",
+      "term_as_stated": "正文修读学期未明确",
+      "section_code": null,
+      "raw_year": 2021,
+      "raw_semester": 3,
+      "indexed_terms": [
+        "2022春"
+      ],
+      "indexed_course_periods": null,
+      "body_term_if_explicit": null,
+      "body_claimed_calendar_terms": null,
+      "body_term_conflict": null,
+      "review_time_conflict": null,
+      "index_conflict_note": null,
+      "term_scope": "API所挂课程索引期：2022春；依据官方客户端学年/学期映射。它不自动证明作者实际修读期；正文明确时间或冲突另行保留。",
+      "body_term_precision": null,
+      "body_term_scope": null,
+      "relative_period_phrases": null,
+      "semester_mapping_source": "https://github.com/DanXi-Dev/DanXi/blob/3c1f5f026fbc7ca50e151865f813cdb381807abe/lib/model/danke/course.dart#L36-L45",
+      "body_calendar_terms_parsed": [],
+      "body_claimed_target_terms": [],
+      "indexed_target_terms": [],
+      "target_period_note": "非目标期、相对或未知修读期，不当作目标期直接反馈。"
+    },
+    {
+      "source_id": "DANKE-1626",
+      "source_type": "danke",
+      "canonical_url": "https://danke.fduhole.com/api/reviews/1626",
+      "public_author_label": null,
+      "published_at": "2024-03-25T10:00:35.134Z",
+      "fetched_at": "2026-10-27",
+      "hole_id": null,
+      "floor_id": null,
+      "floor_number": null,
+      "review_id": 1626,
+      "file_and_page": "danke source DANKE-1626",
+      "image_page": null,
+      "reading_status": "full_returned_text",
+      "mapping_status": "verified course assignment from curated evidence",
+      "record_type": "brief_opinion",
+      "adoption": "adopted_limited",
+      "reason": "",
+      "duplicate_of": null,
+      "license": null,
+      "fulltext_permission": "unconfirmed; short summary only exported",
+      "attribution_and_changes": "Short paraphrase from locally curated evidence; original body, account metadata and media are not copied.",
+      "raw_filename": "raw/danke.jsonl",
+      "raw_record_id": 1626,
+      "course_code": "CHIN20002",
+      "report_filename": "reports/课程人工综合与来源.json",
+      "report_record_id": "DANKE-1626",
+      "report_record_pointer": null,
+      "raw_body_status": "published_redacted",
+      "teacher_if_explicit": "霍四通",
+      "term_as_stated": "2023秋（标题）",
+      "section_code": null,
+      "raw_year": 2022,
+      "raw_semester": 3,
+      "indexed_terms": [
+        "2023春"
+      ],
+      "indexed_course_periods": null,
+      "body_term_if_explicit": "2023秋（标题）",
+      "body_claimed_calendar_terms": [
+        "2023秋"
+      ],
+      "body_term_conflict": true,
+      "review_time_conflict": null,
+      "index_conflict_note": "API 2022/S3映射2023春，与标题2023秋冲突；并列保留。",
+      "term_scope": "API所挂课程索引期：2023春；依据官方客户端学年/学期映射。它不自动证明作者实际修读期；正文明确时间或冲突另行保留。 时间冲突：正文为2023秋，索引为2023春；均保留。 API 2022/S3映射2023春，与标题2023秋冲突；并列保留。",
+      "body_term_precision": "single_term",
+      "body_term_scope": "author_course_period",
+      "relative_period_phrases": [],
+      "semester_mapping_source": "https://github.com/DanXi-Dev/DanXi/blob/3c1f5f026fbc7ca50e151865f813cdb381807abe/lib/model/danke/course.dart#L36-L45",
+      "body_calendar_terms_parsed": [
+        "2023秋"
+      ],
+      "body_claimed_target_terms": [],
+      "indexed_target_terms": [],
+      "target_period_note": "非目标期、相对或未知修读期，不当作目标期直接反馈。"
+    },
+    {
+      "source_id": "DANKE-6771",
+      "source_type": "danke",
+      "canonical_url": "https://danke.fduhole.com/api/reviews/6771",
+      "public_author_label": null,
+      "published_at": "2026-09-11T06:26:23.703Z",
+      "fetched_at": "2026-10-27",
+      "hole_id": null,
+      "floor_id": null,
+      "floor_number": null,
+      "review_id": 6771,
+      "file_and_page": "danke source DANKE-6771",
+      "image_page": null,
+      "reading_status": "full_returned_text",
+      "mapping_status": "verified course assignment from curated evidence",
+      "record_type": "brief_opinion",
+      "adoption": "adopted_limited",
+      "reason": "",
+      "duplicate_of": null,
+      "license": null,
+      "fulltext_permission": "unconfirmed; short summary only exported",
+      "attribution_and_changes": "Short paraphrase from locally curated evidence; original body, account metadata and media are not copied.",
+      "raw_filename": "raw/danke.jsonl",
+      "raw_record_id": 6771,
+      "course_code": "CHIN20002",
+      "report_filename": "reports/课程人工综合与来源.json",
+      "report_record_id": "DANKE-6771",
+      "report_record_pointer": null,
+      "raw_body_status": "published_redacted",
+      "teacher_if_explicit": "张豫峰",
+      "term_as_stated": "25-26春（正文括注）",
+      "section_code": null,
+      "raw_year": 2024,
+      "raw_semester": 3,
+      "indexed_terms": [
+        "2025春"
+      ],
+      "indexed_course_periods": null,
+      "body_term_if_explicit": "25-26春（正文括注）",
+      "body_claimed_calendar_terms": [
+        "25-26春"
+      ],
+      "body_term_conflict": null,
+      "review_time_conflict": null,
+      "index_conflict_note": "API 2024/S3映射2025春；正文范围保留，不推成2026春。",
+      "term_scope": "API所挂课程索引期：2025春；依据官方客户端学年/学期映射。它不自动证明作者实际修读期；正文明确时间或冲突另行保留。 API 2024/S3映射2025春；正文范围保留，不推成2026春。",
+      "body_term_precision": "range_preserved",
+      "body_term_scope": "author_course_period",
+      "relative_period_phrases": [
+        "往年"
+      ],
+      "semester_mapping_source": "https://github.com/DanXi-Dev/DanXi/blob/3c1f5f026fbc7ca50e151865f813cdb381807abe/lib/model/danke/course.dart#L36-L45",
+      "body_calendar_terms_parsed": [
+        "25-26春"
+      ],
+      "body_claimed_target_terms": [],
+      "indexed_target_terms": [],
+      "target_period_note": "非目标期、相对或未知修读期，不当作目标期直接反馈。"
+    },
+    {
+      "source_id": "DANKE-6158",
+      "source_type": "danke",
+      "canonical_url": "https://danke.fduhole.com/api/reviews/6158",
+      "public_author_label": null,
+      "published_at": "2026-06-26T17:57:01.258Z",
+      "fetched_at": "2026-10-27",
+      "hole_id": null,
+      "floor_id": null,
+      "floor_number": null,
+      "review_id": 6158,
+      "file_and_page": "danke source DANKE-6158",
+      "image_page": null,
+      "reading_status": "full_returned_text",
+      "mapping_status": "verified course assignment from curated evidence",
+      "record_type": "detailed_review",
+      "adoption": "adopted_limited",
+      "reason": "",
+      "duplicate_of": null,
+      "license": null,
+      "fulltext_permission": "unconfirmed; short summary only exported",
+      "attribution_and_changes": "Short paraphrase from locally curated evidence; original body, account metadata and media are not copied.",
+      "raw_filename": "raw/danke.jsonl",
+      "raw_record_id": 6158,
+      "course_code": "CHIN20002",
+      "report_filename": "reports/课程人工综合与来源.json",
+      "report_record_id": "DANKE-6158",
+      "report_record_pointer": null,
+      "raw_body_status": "published_redacted",
+      "teacher_if_explicit": "盛益民",
+      "term_as_stated": "26春（标题）",
+      "section_code": null,
+      "raw_year": 2024,
+      "raw_semester": 3,
+      "indexed_terms": [
+        "2025春"
+      ],
+      "indexed_course_periods": null,
+      "body_term_if_explicit": "26春（标题）",
+      "body_claimed_calendar_terms": [
+        "2026春"
+      ],
+      "body_term_conflict": true,
+      "review_time_conflict": null,
+      "index_conflict_note": "API 2024/S3映射2025春，与标题26春冲突；并列保留。",
+      "term_scope": "API所挂课程索引期：2025春；依据官方客户端学年/学期映射。它不自动证明作者实际修读期；正文明确时间或冲突另行保留。 时间冲突：正文为2026春，索引为2025春；均保留。 API 2024/S3映射2025春，与标题26春冲突；并列保留。",
+      "body_term_precision": "single_term",
+      "body_term_scope": "author_course_period",
+      "relative_period_phrases": [],
+      "semester_mapping_source": "https://github.com/DanXi-Dev/DanXi/blob/3c1f5f026fbc7ca50e151865f813cdb381807abe/lib/model/danke/course.dart#L36-L45",
+      "body_calendar_terms_parsed": [
+        "2026春"
+      ],
+      "body_claimed_target_terms": [
+        "2026春"
+      ],
+      "indexed_target_terms": [],
+      "target_period_note": "正文明确自述目标期，仍核对教师及索引冲突。"
+    },
+    {
+      "source_id": "DANKE-6178",
+      "source_type": "danke",
+      "canonical_url": "https://danke.fduhole.com/api/reviews/6178",
+      "public_author_label": null,
+      "published_at": "2026-06-27T21:01:36.558Z",
+      "fetched_at": "2026-10-27",
+      "hole_id": null,
+      "floor_id": null,
+      "floor_number": null,
+      "review_id": 6178,
+      "file_and_page": "danke source DANKE-6178",
+      "image_page": null,
+      "reading_status": "full_returned_text",
+      "mapping_status": "verified course assignment from curated evidence",
+      "record_type": "detailed_review",
+      "adoption": "adopted_limited",
+      "reason": "",
+      "duplicate_of": null,
+      "license": null,
+      "fulltext_permission": "unconfirmed; short summary only exported",
+      "attribution_and_changes": "Short paraphrase from locally curated evidence; original body, account metadata and media are not copied.",
+      "raw_filename": "raw/danke.jsonl",
+      "raw_record_id": 6178,
+      "course_code": "CHIN20002",
+      "report_filename": "reports/课程人工综合与来源.json",
+      "report_record_id": "DANKE-6178",
+      "report_record_pointer": null,
+      "raw_body_status": "published_redacted",
+      "teacher_if_explicit": "盛益民",
+      "term_as_stated": "26春（标题及正文）",
+      "section_code": null,
+      "raw_year": 2024,
+      "raw_semester": 3,
+      "indexed_terms": [
+        "2025春"
+      ],
+      "indexed_course_periods": null,
+      "body_term_if_explicit": "26春（标题及正文）",
+      "body_claimed_calendar_terms": [
+        "2026春"
+      ],
+      "body_term_conflict": true,
+      "review_time_conflict": null,
+      "index_conflict_note": "API 2024/S3映射2025春，与正文/标题26春冲突；并列保留。",
+      "term_scope": "API所挂课程索引期：2025春；依据官方客户端学年/学期映射。它不自动证明作者实际修读期；正文明确时间或冲突另行保留。 时间冲突：正文为2026春，索引为2025春；均保留。 API 2024/S3映射2025春，与正文/标题26春冲突；并列保留。",
+      "body_term_precision": "single_term",
+      "body_term_scope": "author_course_period",
+      "relative_period_phrases": [],
+      "semester_mapping_source": "https://github.com/DanXi-Dev/DanXi/blob/3c1f5f026fbc7ca50e151865f813cdb381807abe/lib/model/danke/course.dart#L36-L45",
+      "body_calendar_terms_parsed": [
+        "2026春"
+      ],
+      "body_claimed_target_terms": [
+        "2026春"
+      ],
+      "indexed_target_terms": [],
+      "target_period_note": "正文明确自述目标期，仍核对教师及索引冲突。"
+    }
+  ],
+  "syllabus": {
+    "source_ids": [
+      "OFFICIAL-SYLLABUS-1020737",
+      "OFFICIAL-SYLLABUS-1020738",
+      "OFFICIAL-SYLLABUS-1020739"
+    ],
+    "content": "官方大纲按教学班逐项记录在offerings；不同学期或平行班要求未合并。",
+    "prerequisites": "",
+    "assessment": ""
+  },
+  "materials": [
+    {
+      "type": "official_textbook",
+      "title": "现代汉语",
+      "author": "胡裕树",
+      "publisher": "上海教育出版社",
+      "publication_date": "2021-07",
+      "isbn": "9787544435789",
+      "term": "2026春",
+      "section_code": "CHIN20002.01",
+      "source_ids": [
+        "OFFICIAL-SYLLABUS-1020737"
+      ]
+    },
+    {
+      "type": "official_textbook",
+      "title": "现代汉语",
+      "author": "胡裕树",
+      "publisher": "上海教育出版社",
+      "publication_date": "2021-07",
+      "isbn": "9787544435789",
+      "term": "2026春",
+      "section_code": "CHIN20002.02",
+      "source_ids": [
+        "OFFICIAL-SYLLABUS-1020738"
+      ]
+    }
+  ],
+  "student_reviews_and_discussions": [
+    {
+      "source_id": "XHS-6a9d78fd0000000012035abb-OBS-3",
+      "source_type": "external",
+      "record_type": "historical_learning_recollection",
+      "canonical_url": "https://www.xiaohongshu.com/explore/6a9d78fd0000000012035abb",
+      "reading_status": "配文和4页图片正文逐页核读；评论区显示无评论。",
+      "mapping_status": "verified course assignment from curated evidence",
+      "adoption": "adopted_limited",
+      "teacher_if_explicit": "张豫峰",
+      "term_as_stated": "本科历史回顾，具体学期未定",
+      "indexed_terms": null,
+      "raw_body_status": "external_fulltext_not_redistributed",
+      "raw_year": null,
+      "raw_semester": null,
+      "indexed_course_periods": null,
+      "body_term_if_explicit": null,
+      "body_claimed_calendar_terms": null,
+      "body_term_conflict": null,
+      "review_time_conflict": null,
+      "index_conflict_note": null,
+      "term_scope": "编辑刊载匿名在校生投稿，范围大一上至大二上；未明确修读年份，不认定为目标两学期直接评价。",
+      "body_term_precision": null,
+      "body_term_scope": null,
+      "relative_period_phrases": null,
+      "semester_mapping_source": null,
+      "body_calendar_terms_parsed": null,
+      "body_claimed_target_terms": [],
+      "indexed_target_terms": [],
+      "target_period_note": "非目标期、相对或未知修读期，不当作目标期直接反馈。",
+      "period_status": "非目标期、相对或未知修读期，不当作目标期直接反馈。",
+      "summary": "大一下段落描述学习重心转向语法和词汇，重视课堂参与；投稿者回忆无期中作业，期末闭卷。",
+      "limitations": "原文标题未写下册，以大一下位置、承接上学期语音模块及教师对应为下册；不外推现行考核。 仅作历史学习体验，不能替代当前班考核、给分或教师结论。 本批原文未公开，摘要保留课程相关内容，可回原站核对。",
+      "reason": "本批原文未公开，摘要保留课程相关内容，可回原站核对。"
+    },
+    {
+      "source_id": "DANKE-140",
+      "source_type": "danke",
+      "record_type": "brief_opinion",
+      "canonical_url": "https://danke.fduhole.com/api/reviews/140",
+      "reading_status": "full_returned_text",
+      "mapping_status": "verified course assignment from curated evidence",
+      "adoption": "adopted_limited",
+      "teacher_if_explicit": "盛益民",
+      "term_as_stated": "正文修读学期未明确",
+      "indexed_terms": [
+        "2022春"
+      ],
+      "raw_body_status": "published_redacted",
+      "raw_year": 2021,
+      "raw_semester": 3,
+      "indexed_course_periods": null,
+      "body_term_if_explicit": null,
+      "body_claimed_calendar_terms": null,
+      "body_term_conflict": null,
+      "review_time_conflict": null,
+      "index_conflict_note": null,
+      "term_scope": "API所挂课程索引期：2022春；依据官方客户端学年/学期映射。它不自动证明作者实际修读期；正文明确时间或冲突另行保留。",
+      "body_term_precision": null,
+      "body_term_scope": null,
+      "relative_period_phrases": null,
+      "semester_mapping_source": "https://github.com/DanXi-Dev/DanXi/blob/3c1f5f026fbc7ca50e151865f813cdb381807abe/lib/model/danke/course.dart#L36-L45",
+      "body_calendar_terms_parsed": [],
+      "body_claimed_target_terms": [],
+      "indexed_target_terms": [],
+      "target_period_note": "非目标期、相对或未知修读期，不当作目标期直接反馈。",
+      "period_status": "非目标期、相对或未知修读期，不当作目标期直接反馈。",
+      "summary": "作者称盛益民的现代汉语下有线上与线下授课体验差别，并回忆当届采用开卷考试，认为试题重应用。没有明确修读学期。",
+      "limitations": "基于本轮已完整返回的API正文；正文内图片和外链未核读。课程体验、任务说明及成绩均为发帖者自述，不能视为官方要求或成绩统计；不以发帖日期推断修读学期。",
+      "reason": ""
+    },
+    {
+      "source_id": "DANKE-1626",
+      "source_type": "danke",
+      "record_type": "brief_opinion",
+      "canonical_url": "https://danke.fduhole.com/api/reviews/1626",
+      "reading_status": "full_returned_text",
+      "mapping_status": "verified course assignment from curated evidence",
+      "adoption": "adopted_limited",
+      "teacher_if_explicit": "霍四通",
+      "term_as_stated": "2023秋（标题）",
+      "indexed_terms": [
+        "2023春"
+      ],
+      "raw_body_status": "published_redacted",
+      "raw_year": 2022,
+      "raw_semester": 3,
+      "indexed_course_periods": null,
+      "body_term_if_explicit": "2023秋（标题）",
+      "body_claimed_calendar_terms": [
+        "2023秋"
+      ],
+      "body_term_conflict": true,
+      "review_time_conflict": null,
+      "index_conflict_note": "API 2022/S3映射2023春，与标题2023秋冲突；并列保留。",
+      "term_scope": "API所挂课程索引期：2023春；依据官方客户端学年/学期映射。它不自动证明作者实际修读期；正文明确时间或冲突另行保留。 时间冲突：正文为2023秋，索引为2023春；均保留。 API 2022/S3映射2023春，与标题2023秋冲突；并列保留。",
+      "body_term_precision": "single_term",
+      "body_term_scope": "author_course_period",
+      "relative_period_phrases": [],
+      "semester_mapping_source": "https://github.com/DanXi-Dev/DanXi/blob/3c1f5f026fbc7ca50e151865f813cdb381807abe/lib/model/danke/course.dart#L36-L45",
+      "body_calendar_terms_parsed": [
+        "2023秋"
+      ],
+      "body_claimed_target_terms": [],
+      "indexed_target_terms": [],
+      "target_period_note": "非目标期、相对或未知修读期，不当作目标期直接反馈。",
+      "period_status": "非目标期、相对或未知修读期，不当作目标期直接反馈。",
+      "summary": "标题标注2023秋；作者称课程内容较充实、涉及前沿内容，但讲课风格略显乏味，并认为期末关注教材、给分尚可。给分是作者预期而非成绩事实。",
+      "limitations": "基于本轮已完整返回的API正文；正文内图片和外链未核读。课程体验、任务说明及成绩均为发帖者自述，不能视为官方要求或成绩统计；不以发帖日期推断修读学期。",
+      "reason": ""
+    },
+    {
+      "source_id": "DANKE-6771",
+      "source_type": "danke",
+      "record_type": "brief_opinion",
+      "canonical_url": "https://danke.fduhole.com/api/reviews/6771",
+      "reading_status": "full_returned_text",
+      "mapping_status": "verified course assignment from curated evidence",
+      "adoption": "adopted_limited",
+      "teacher_if_explicit": "张豫峰",
+      "term_as_stated": "25-26春（正文括注）",
+      "indexed_terms": [
+        "2025春"
+      ],
+      "raw_body_status": "published_redacted",
+      "raw_year": 2024,
+      "raw_semester": 3,
+      "indexed_course_periods": null,
+      "body_term_if_explicit": "25-26春（正文括注）",
+      "body_claimed_calendar_terms": [
+        "25-26春"
+      ],
+      "body_term_conflict": null,
+      "review_time_conflict": null,
+      "index_conflict_note": "API 2024/S3映射2025春；正文范围保留，不推成2026春。",
+      "term_scope": "API所挂课程索引期：2025春；依据官方客户端学年/学期映射。它不自动证明作者实际修读期；正文明确时间或冲突另行保留。 API 2024/S3映射2025春；正文范围保留，不推成2026春。",
+      "body_term_precision": "range_preserved",
+      "body_term_scope": "author_course_period",
+      "relative_period_phrases": [
+        "往年"
+      ],
+      "semester_mapping_source": "https://github.com/DanXi-Dev/DanXi/blob/3c1f5f026fbc7ca50e151865f813cdb381807abe/lib/model/danke/course.dart#L36-L45",
+      "body_calendar_terms_parsed": [
+        "25-26春"
+      ],
+      "body_claimed_target_terms": [],
+      "indexed_target_terms": [],
+      "target_period_note": "非目标期、相对或未知修读期，不当作目标期直接反馈。",
+      "period_status": "非目标期、相对或未知修读期，不当作目标期直接反馈。",
+      "summary": "作者明确更正实际修读为25—26春，称教师讲授较好、期末与往年题重合度高，并自述获得A。关于题目重合和给分的说法来自个人经历。",
+      "limitations": "基于本轮已完整返回的API正文；正文内图片和外链未核读。课程体验、任务说明及成绩均为发帖者自述，不能视为官方要求或成绩统计；不以发帖日期推断修读学期。",
+      "reason": ""
+    },
+    {
+      "source_id": "DANKE-6158",
+      "source_type": "danke",
+      "record_type": "detailed_review",
+      "canonical_url": "https://danke.fduhole.com/api/reviews/6158",
+      "reading_status": "full_returned_text",
+      "mapping_status": "verified course assignment from curated evidence",
+      "adoption": "adopted_limited",
+      "teacher_if_explicit": "盛益民",
+      "term_as_stated": "26春（标题）",
+      "indexed_terms": [
+        "2025春"
+      ],
+      "raw_body_status": "published_redacted",
+      "raw_year": 2024,
+      "raw_semester": 3,
+      "indexed_course_periods": null,
+      "body_term_if_explicit": "26春（标题）",
+      "body_claimed_calendar_terms": [
+        "2026春"
+      ],
+      "body_term_conflict": true,
+      "review_time_conflict": null,
+      "index_conflict_note": "API 2024/S3映射2025春，与标题26春冲突；并列保留。",
+      "term_scope": "API所挂课程索引期：2025春；依据官方客户端学年/学期映射。它不自动证明作者实际修读期；正文明确时间或冲突另行保留。 时间冲突：正文为2026春，索引为2025春；均保留。 API 2024/S3映射2025春，与标题26春冲突；并列保留。",
+      "body_term_precision": "single_term",
+      "body_term_scope": "author_course_period",
+      "relative_period_phrases": [],
+      "semester_mapping_source": "https://github.com/DanXi-Dev/DanXi/blob/3c1f5f026fbc7ca50e151865f813cdb381807abe/lib/model/danke/course.dart#L36-L45",
+      "body_calendar_terms_parsed": [
+        "2026春"
+      ],
+      "body_claimed_target_terms": [
+        "2026春"
+      ],
+      "indexed_target_terms": [],
+      "target_period_note": "正文明确自述目标期，仍核对教师及索引冲突。",
+      "period_status": "正文明确自述目标期，仍核对教师及索引冲突。",
+      "summary": "标题说明这是26春的盛益民现代汉语下课评；作者介绍课程侧重语法、语用与修辞，平时五次小作业及应用型期末，并自述获得A。关于小作业对考试的帮助是作者的复习体验。",
+      "limitations": "基于本轮已完整返回的API正文；正文内图片和外链未核读。课程体验、任务说明及成绩均为发帖者自述，不能视为官方要求或成绩统计；不以发帖日期推断修读学期。",
+      "reason": ""
+    },
+    {
+      "source_id": "DANKE-6178",
+      "source_type": "danke",
+      "record_type": "detailed_review",
+      "canonical_url": "https://danke.fduhole.com/api/reviews/6178",
+      "reading_status": "full_returned_text",
+      "mapping_status": "verified course assignment from curated evidence",
+      "adoption": "adopted_limited",
+      "teacher_if_explicit": "盛益民",
+      "term_as_stated": "26春（标题及正文）",
+      "indexed_terms": [
+        "2025春"
+      ],
+      "raw_body_status": "published_redacted",
+      "raw_year": 2024,
+      "raw_semester": 3,
+      "indexed_course_periods": null,
+      "body_term_if_explicit": "26春（标题及正文）",
+      "body_claimed_calendar_terms": [
+        "2026春"
+      ],
+      "body_term_conflict": true,
+      "review_time_conflict": null,
+      "index_conflict_note": "API 2024/S3映射2025春，与正文/标题26春冲突；并列保留。",
+      "term_scope": "API所挂课程索引期：2025春；依据官方客户端学年/学期映射。它不自动证明作者实际修读期；正文明确时间或冲突另行保留。 时间冲突：正文为2026春，索引为2025春；均保留。 API 2024/S3映射2025春，与正文/标题26春冲突；并列保留。",
+      "body_term_precision": "single_term",
+      "body_term_scope": "author_course_period",
+      "relative_period_phrases": [],
+      "semester_mapping_source": "https://github.com/DanXi-Dev/DanXi/blob/3c1f5f026fbc7ca50e151865f813cdb381807abe/lib/model/danke/course.dart#L36-L45",
+      "body_calendar_terms_parsed": [
+        "2026春"
+      ],
+      "body_claimed_target_terms": [
+        "2026春"
+      ],
+      "indexed_target_terms": [],
+      "target_period_note": "正文明确自述目标期，仍核对教师及索引冲突。",
+      "period_status": "正文明确自述目标期，仍核对教师及索引冲突。",
+      "summary": "作者明确标注26春，介绍六次作业与期末闭卷的比例，并自述较少听课但通过作业学习后获得较好结果。其对考试区分度的判断来自个人回忆。",
+      "limitations": "基于本轮已完整返回的API正文；正文内图片和外链未核读。课程体验、任务说明及成绩均为发帖者自述，不能视为官方要求或成绩统计；不以发帖日期推断修读学期。",
+      "reason": ""
+    }
+  ],
+  "index_only_hits": [],
+  "quantitative_observations": [],
+  "offerings": [
+    {
+      "term": "2026春",
+      "section_code": "CHIN20002.01",
+      "lesson_id": 1020737,
+      "course_code": "CHIN20002",
+      "course_name": "现代汉语(下)",
+      "teachers": [
+        "张豫峰"
+      ],
+      "credits": 2,
+      "task_level": "本科",
+      "open_department": "中国语言文学系",
+      "course_type": "必修课程",
+      "course_table_type": "基础和专业：专业课程",
+      "exam_mode": "闭卷",
+      "total_hours": 36,
+      "source_ids": [
+        "OFFICIAL-OFFERING-1020737",
+        "OFFICIAL-SYLLABUS-1020737"
+      ],
+      "official_syllabus": {
+        "status": "structured_text_extracted",
+        "source_id": "OFFICIAL-SYLLABUS-1020737",
+        "section_titles": [
+          "课程简介（中文）",
+          "课程简介（英文）",
+          "教学目标",
+          "教学方式",
+          "教学内容与进度安排",
+          "课程考核与成绩评定",
+          "教材",
+          "教学参考资料",
+          "教学团队成员"
+        ],
+        "prerequisites": [],
+        "assessment": [
+          {
+            "criteria": "出勤Attendance",
+            "percentage": 10.0,
+            "standard": "不迟到、早退，不旷课"
+          },
+          {
+            "criteria": "课堂表现Participation",
+            "percentage": 20.0,
+            "standard": "积极参加课堂讨论，主动回答问题，提出自己的创新观点"
+          },
+          {
+            "criteria": "期末考试Final Examination：闭卷 ",
+            "percentage": 70.0,
+            "standard": "能准确回答问题，并有创新观点。"
+          }
+        ],
+        "grade_rule": "等级制",
+        "textbooks": [
+          {
+            "name": "现代汉语",
+            "author": "胡裕树",
+            "publishingHouse": "上海教育出版社",
+            "date": "2021-07",
+            "isbn": "9787544435789"
+          }
+        ],
+        "syllabus_id": 9309,
+        "error": null
+      }
+    },
+    {
+      "term": "2026春",
+      "section_code": "CHIN20002.02",
+      "lesson_id": 1020738,
+      "course_code": "CHIN20002",
+      "course_name": "现代汉语(下)",
+      "teachers": [
+        "霍四通"
+      ],
+      "credits": 2,
+      "task_level": "本科",
+      "open_department": "中国语言文学系",
+      "course_type": "必修课程",
+      "course_table_type": "基础和专业：专业课程",
+      "exam_mode": "闭卷",
+      "total_hours": 36,
+      "source_ids": [
+        "OFFICIAL-OFFERING-1020738",
+        "OFFICIAL-SYLLABUS-1020738"
+      ],
+      "official_syllabus": {
+        "status": "structured_text_extracted",
+        "source_id": "OFFICIAL-SYLLABUS-1020738",
+        "section_titles": [
+          "课程简介（中文）",
+          "课程简介（英文）",
+          "教学目标",
+          "教学方式",
+          "教学内容与进度安排",
+          "课程考核与成绩评定",
+          "教材",
+          "教学参考资料",
+          "教学团队成员"
+        ],
+        "prerequisites": [],
+        "assessment": [
+          {
+            "criteria": "期末考试Final Examination：闭卷 ",
+            "percentage": 70.0
+          },
+          {
+            "criteria": "出勤Attendance",
+            "percentage": 10.0
+          },
+          {
+            "criteria": "课堂表现Participation",
+            "percentage": 10.0
+          },
+          {
+            "criteria": "作业/实验/实践Assignment",
+            "percentage": 10.0
+          }
+        ],
+        "grade_rule": "等级制",
+        "textbooks": [
+          {
+            "name": "现代汉语",
+            "author": "胡裕树",
+            "publishingHouse": "上海教育出版社",
+            "date": "2021-07",
+            "isbn": "9787544435789"
+          }
+        ],
+        "syllabus_id": 8736,
+        "error": null
+      }
+    },
+    {
+      "term": "2026春",
+      "section_code": "CHIN20002.03",
+      "lesson_id": 1020739,
+      "course_code": "CHIN20002",
+      "course_name": "现代汉语(下)",
+      "teachers": [
+        "盛益民"
+      ],
+      "credits": 2,
+      "task_level": "本科",
+      "open_department": "中国语言文学系",
+      "course_type": "必修课程",
+      "course_table_type": "基础和专业：专业课程",
+      "exam_mode": "闭卷",
+      "total_hours": 36,
+      "source_ids": [
+        "OFFICIAL-OFFERING-1020739",
+        "OFFICIAL-SYLLABUS-1020739"
+      ],
+      "official_syllabus": {
+        "status": "structured_text_extracted",
+        "source_id": "OFFICIAL-SYLLABUS-1020739",
+        "section_titles": [
+          "课程简介（中文）",
+          "课程简介（英文）",
+          "教学目标",
+          "教学方式",
+          "教学内容与进度安排",
+          "课程考核与成绩评定",
+          "教材",
+          "教学参考资料",
+          "教学团队成员"
+        ],
+        "prerequisites": [],
+        "assessment": [
+          {
+            "criteria": "课堂表现Participation",
+            "percentage": 10.0
+          },
+          {
+            "criteria": "作业/实验/实践Assignment",
+            "percentage": 30.0
+          },
+          {
+            "criteria": "出勤Attendance",
+            "percentage": 10.0
+          },
+          {
+            "criteria": "期末考试Final Examination：闭卷 ",
+            "percentage": 50.0
+          }
+        ],
+        "grade_rule": "等级制",
+        "textbooks": [],
+        "syllabus_id": 7146,
+        "error": null
+      }
+    }
+  ],
+  "official_metadata": {
+    "department": "中国语言文学系",
+    "target_terms": [
+      "2026春"
+    ],
+    "target_teachers": [
+      "霍四通",
+      "盛益民",
+      "张豫峰"
+    ],
+    "task_levels": [
+      "本科"
+    ],
+    "section_count": 3,
+    "official_offering_count_in_snapshot": 3,
+    "course_type_values_by_offering": [
+      "必修课程"
+    ],
+    "course_table_type_values_by_offering": [
+      "基础和专业：专业课程"
+    ],
+    "source_ids": [
+      "OFFICIAL-OFFERING-1020737",
+      "OFFICIAL-OFFERING-1020738",
+      "OFFICIAL-OFFERING-1020739"
+    ]
+  },
+  "comparison_and_summary": {
+    "teaching_and_learning": "本快照没有可读的课程体验材料，无法归纳学习收获。",
+    "workload": "本快照没有可读的课程体验材料，无法归纳准备或作业量。",
+    "assessment": "本快照没有可读的课程体验材料，无法归纳考核或评分。",
+    "grading_and_risk": "",
+    "teacher_and_term_differences": "已读来源未明确写出教师姓名；不能据课程名或现任教师表补认授课者。 来源没有可确认的修读学期。",
+    "who_it_suits": "",
+    "source_ids": [
+      "XHS-6a9d78fd0000000012035abb-OBS-3",
+      "DANKE-140",
+      "DANKE-1626",
+      "DANKE-6771",
+      "DANKE-6158",
+      "DANKE-6178"
+    ],
+    "section_source_ids": {
+      "teaching_and_learning": [],
+      "workload": [],
+      "assessment": [],
+      "teacher_and_term_differences": []
+    },
+    "manual_comparison": {
+      "status": "human_synthesized",
+      "text": "不同教师班的现代汉语（下）侧重点各异：盛益民的回顾强调语法、语用、修辞与五至六次练习，张豫峰班回忆语法词汇和闭卷考试（DANKE-6158、DANKE-6178、XHS-6a9d78fd0000000012035abb-OBS-3）。DANKE-6771正文更正为25—26春并自述得A，但API索引为2024/S3；两者保留，不把题目重合或成绩视为保证。",
+      "evidence_ids": [
+        "DANKE-6158",
+        "DANKE-6178",
+        "DANKE-6771",
+        "DANKE-140",
+        "XHS-6a9d78fd0000000012035abb-OBS-3"
+      ],
+      "limitations": "盛益民、张豫峰、霍四通等版本分开看待；正文与API时间冲突，且考试和等第均是个人回忆。",
+      "confidence": "none：本快照无已读、可采用来源。"
+    },
+    "confidence": "none：本快照无已读、可采用来源。",
+    "limitations": "当前已读材料没有可采用的课程体验证据；未读索引、广告、提问或仅仓库摘要不计入。"
+  },
+  "research_snapshot": {
+    "date": "2026-10-27",
+    "curated_evidence_record_count": 535,
+    "synthesis_source_assignment_count": 522,
+    "public_review_index_record_count": 167,
+    "public_adopted_findings_count": 11
+  }
+}

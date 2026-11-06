@@ -1,0 +1,109 @@
+﻿# 树洞与蛋壳课程研究只读接口
+
+核验日期：2026-10-27。本说明的源码及网络探测部分记录初期核验：当时只核对公开源码、Swagger 和不带凭证的 GET 连通性。随后已按用户授权经官方 UIS、WebVPN 与旦挞业务登录，实际读取树洞和课评区正文；最新数量、分页、错误及阅读进度见上级目录“实时接口研究状态.json”。初期匿名探测不代表后续登录会话状态。
+
+## 源码版本与线上连通性
+
+| 项目 | 默认分支核验 SHA | 来源 |
+|---|---|---|
+| 树洞后端 `OpenTreeHole/treehole_next` | `a25d1a4828dccb31d882a3b16da118d9a6cbccc7` | GitHub API 的 `main` 与该提交一致；提交日期 2026-10-03 |
+| 蛋壳后端 `OpenTreeHole/backend` | `ced0889294b8725eb9396e0018a8e942a10f63be` | GitHub API 的 `main`；提交日期 2026-09-16 |
+| DanXi 客户端服务地址 | `3c1f5f026fbc7ca50e151865f813cdb381807abe` | GitHub API 的 `main`；提交日期 2026-10-21 |
+| 树洞共享 JWT 库 | `go-common` tag `v0.1.7`，对象 SHA `ec1a2480dd842d6b6783f4971390d9dc13acb7b4` | 与树洞 `go.mod` 依赖版本一致 |
+
+DanXi 的 `lib/common/constant.dart` 将树洞、认证、蛋壳 API 分别设为 `https://forum.fduhole.com/api`、`https://auth.fduhole.com/api`、`https://danke.fduhole.com/api`。本客户端只调用树洞和蛋壳 API，不调用认证端点。
+
+无凭证探测使用唯一的 `codex_connectivity_probe_20261027` 搜索词，没有设置 Authorization 或 Cookie。两个主机的系统 DNS 查询都返回 `10.107.13.152`（私有地址）；对每个 GET 的 TCP 连接等待 12 秒后超时，curl 返回 HTTP `000`，没有进入 TLS/HTTP 响应阶段。因此这次只能说明当前网络路径无法连通该地址，不能据此宣称线上服务返回了 401，也不能判断登录后的 API 可用性。DNS 结果像是分流或本地网络解析，但仅凭本次观测无法确定限制来自哪里。
+
+## 复旦树洞
+
+API 根地址：`https://forum.fduhole.com/api`
+
+| 用途 | 请求 | 返回结构 |
+|---|---|---|
+| 搜索楼层 | `GET /floors/search` | 直接返回楼层数组，不包含 `total` 或页码。ES 搜索结果每项多 `highlighted_content`；数据库 fallback 未承诺此字段。 |
+| 读取一洞 | `GET /holes/{id}` | 单个 Hole 对象。 |
+| 读取一洞楼层 | `GET /holes/{id}/floors` | 直接返回楼层数组。 |
+| 读取单楼层 | `GET /floors/{id}` | 单个 Floor 对象。 |
+
+搜索参数均为 query 参数：
+
+| 参数 | 类型 | 源码行为 |
+|---|---|---|
+| `search` | string | 必填。 |
+| `size` | integer | 默认 10，最小 0；源码未给该搜索参数设最大值。客户端另行限制为 1–100，避免一次请求过大。 |
+| `offset` | integer | 默认 0，最小 0，按结果条数偏移。 |
+| `accurate` | boolean | 默认 false；ES 模式下 true 使用短语匹配，false 使用 match。数据库 fallback 使用内容子串匹配，不沿用此开关。 |
+| `start_time` | int64 | 可选 Unix 秒。ES 查询 `updated_at >= start_time`；SQL fallback 查询 `created_at >= start_time`。 |
+| `end_time` | int64 | 可选 Unix 秒。ES 查询 `updated_at <= end_time`；SQL fallback 查询 `created_at <= end_time`。 |
+
+另有 POST 搜索路由，但处理器仍从 query string 解析参数，不需要 JSON body。课程研究使用 GET。源码排序为相关度分数降序、再按 `updated_at` 降序；fallback 的排序细节与 ES 不同。当前源码以 `From(offset).Size(size)` 查询，没有显式写出 10000 条的硬上限；线上 Elasticsearch 的窗口、部署版本和速率限制都没有从当前网络验证。
+
+`Floor` 返回的关键字段及 JSON 名称：
+
+```text
+id, time_created, time_updated, content, anonyname, ranking, reply_to,
+like, dislike, deleted, modified, fold_v2, special_tag,
+is_sensitive, is_actual_sensitive, sensitive_detail, hole_id, floor_id,
+fold, liked, disliked, is_me, mention
+```
+
+`id` 是楼层记录 ID，`hole_id` 是洞 ID，`floor_id` 是洞内显示楼号，不能互换。查询命中楼层仅是候选；归档前应保留正文、时间、回复关系及删除/折叠/修改/敏感标记。
+
+`Hole` 对象包括 `id`、兼容字段 `hole_id`、`division_id`、`floors`、`reply`、`tags`、`time_created`、`time_updated`，以及 `hidden`、`locked`、`view`、`favorite_count`、`subscription_count`、`good`、`no_purge`、`time_deleted` 等字段；`frozen` 对普通用户可能省略或不可见。洞详情的 `floors` 是供客户端展示的预加载楼层，不应当作全量上下文。若需完整上下文，使用楼层列表端点并明确分页参数。
+
+楼层列表参数：`size` 默认 30，`offset` 默认 0，`sort` 为 `asc|desc`（默认 `asc`），`order_by` 为 `id|like`（默认 `id`）。注意源码将 `size=0` 转为不加 SQL LIMIT；客户端禁止传 0，并建议按 `order_by=id&sort=asc` 逐页读取。
+
+## 复旦蛋壳课评
+
+API 根地址：`https://danke.fduhole.com/api`
+
+| 用途 | 请求 | 返回结构 |
+|---|---|---|
+| 搜索课程组 | `GET /v3/course_groups/search` | 对象 `{items, page, page_size, extra}`，不是数组。 |
+| 课程组详情 | `GET /v3/course_groups/{id}` | `CourseGroupV3Response`，详情含课程列表。 |
+| 课程评价列表 | `GET /courses/{id}/reviews` | 评价数组；源码没有分页参数。每次只对已选定课程调用。 |
+| 单条评价 | `GET /reviews/{id}` | `ReviewV1Response`。 |
+
+课程组搜索 query 参数：
+
+| 参数 | 类型 | 源码行为 |
+|---|---|---|
+| `query` | string | 必填。若匹配课程编号格式，按编号前缀查找；否则按教师名或课程组名子串查找。 |
+| `page` | integer | Swagger/验证允许 `>=0`；客户端固定从 1 开始。传 0 会被服务端改为 1。 |
+| `page_size` | integer | 源码允许 0–100；客户端使用 1–100。对 page>0 且 page_size=0 时服务端回退到 10；page=0 且 page_size=0 时源码不设 LIMIT，因此客户端不传 0。 |
+
+`CourseGroupV3Response` 顶层字段：`id, name, code, credits, department, campus_name, course_count, review_count, course_list`。搜索结果不预加载课程列表；详情会加载课程和评价相关信息。`course_list` 中的 `CourseV1Response` 字段为 `id, name, code, code_id, credit, department, campus_name, max_student, week_hour, semester, year, teachers, review_list`。其中 `code_id` 区分同一课程号下的平行班，`semester` 和 `year` 可辅助判断评价对应班次。课程组编号可能与单门课号有区别，后续应按课程组 `course_list` 里的课程逐条读取评价。
+
+`ReviewV1Response` 顶层字段：`id, time_created, time_updated, title, content, reviewer_id, rank, remark, vote, is_me, history, extra`。`rank` 的键为 `assessment, content, overall, workload`（各项 1–5）；`extra` 下有 `achievements` 数组，每项含 `domain, name, obtain_date`。`history` 每项含 `time, alter_by, original`；`original` 中含旧版 `title, content, rank, remark, reviewer_id, time_created, time_updated`。接口返回可能带评价正文及评价者 ID，课程研究应仅保留任务所需字段并减少原文引用。
+
+## 认证、失败台账与采集边界
+
+树洞所有业务路由都挂在 `/api` 用户中间件下；蛋壳搜索、课程详情及评价读取处理器也直接调用 `GetCurrentUser`。源码中的 JWT 可放在 `Authorization: Bearer <ACCESS_TOKEN>` 请求头，旧客户端也支持名为 `access` 的 Cookie。Swagger 没有 securityDefinitions 并不代表匿名开放。本客户端只读取调用方明确设置的 `TREEHOLE_ACCESS_TOKEN` 与 `DANKE_ACCESS_TOKEN` 环境变量；它不读取浏览器 Cookie、密码、缓存或其他本机凭证。需要授权访问时，调用方可为两个变量分别提供已正常登录取得的令牌。
+
+客户端只暴露 GET；串行发请求，默认相邻请求间隔 0.5 秒；搜索默认每次 30 项，最多自动翻 10 页；结果按 `id` 去重；遇到 HTTP、连接、超时或 JSON 解析失败即停止当前分页并记录失败台账，不自动重试。客户端每次仅搜索明确给定的课程/关键词；不会遍历课程目录或无界抓取全库。单课程评价接口本身没有分页，调用者应在确认课程后逐个读取。
+
+调用示例（由调用方在运行进程环境中自行设置上述 token 环境变量；令牌缺失时服务通常会拒绝请求）：
+
+```python
+from luna_readonly_client import DankeClient, TreeholeClient
+
+hits = TreeholeClient().search_floors("课程全名", page_size=30, max_pages=3)
+print(len(hits["items"]), hits["failures"])
+
+groups = DankeClient().search_course_groups("课程全名", page_size=25, max_pages=3)
+print(groups["items"], groups["failures"])
+```
+本地测试仅使用构造的匿名 fixture 响应和 mock transport，不请求线上 API，也不需要令牌。运行：
+
+```powershell
+python -m unittest discover -s . -p luna_test_readonly_client.py -v
+```
+
+## 固定源码引用
+
+- [树洞 main 提交](https://github.com/OpenTreeHole/treehole_next/commit/a25d1a4828dccb31d882a3b16da118d9a6cbccc7)：[路由与认证中间件](https://github.com/OpenTreeHole/treehole_next/blob/a25d1a4828dccb31d882a3b16da118d9a6cbccc7/apis/routes.go)、[搜索参数与处理器](https://github.com/OpenTreeHole/treehole_next/blob/a25d1a4828dccb31d882a3b16da118d9a6cbccc7/apis/floor/search.go)、[楼层路由](https://github.com/OpenTreeHole/treehole_next/blob/a25d1a4828dccb31d882a3b16da118d9a6cbccc7/apis/floor/routes.go)、[楼层列表参数](https://github.com/OpenTreeHole/treehole_next/blob/a25d1a4828dccb31d882a3b16da118d9a6cbccc7/apis/floor/schemas.go)、[洞路由](https://github.com/OpenTreeHole/treehole_next/blob/a25d1a4828dccb31d882a3b16da118d9a6cbccc7/apis/hole/routes.go)、[ES 与数据库 fallback](https://github.com/OpenTreeHole/treehole_next/blob/a25d1a4828dccb31d882a3b16da118d9a6cbccc7/models/elastic.go)、[Swagger](https://github.com/OpenTreeHole/treehole_next/blob/a25d1a4828dccb31d882a3b16da118d9a6cbccc7/docs/swagger.json)。
+- [蛋壳 backend main 提交](https://github.com/OpenTreeHole/backend/commit/ced0889294b8725eb9396e0018a8e942a10f63be)：[课程组处理器](https://github.com/OpenTreeHole/backend/blob/ced0889294b8725eb9396e0018a8e942a10f63be/danke/api/course_group.go)、[评价处理器](https://github.com/OpenTreeHole/backend/blob/ced0889294b8725eb9396e0018a8e942a10f63be/danke/api/review.go)、[路由](https://github.com/OpenTreeHole/backend/blob/ced0889294b8725eb9396e0018a8e942a10f63be/danke/api/routes.go)、[课程组 schema](https://github.com/OpenTreeHole/backend/blob/ced0889294b8725eb9396e0018a8e942a10f63be/danke/schema/course_group.go)、[评价 schema](https://github.com/OpenTreeHole/backend/blob/ced0889294b8725eb9396e0018a8e942a10f63be/danke/schema/review.go)、[Swagger](https://github.com/OpenTreeHole/backend/blob/ced0889294b8725eb9396e0018a8e942a10f63be/danke/docs/swagger.json)。
+- [DanXi base URL 常量](https://github.com/DanXi-Dev/DanXi/blob/3c1f5f026fbc7ca50e151865f813cdb381807abe/lib/common/constant.dart)、[go-common v0.1.7 JWT 读取](https://github.com/OpenTreeHole/go-common/blob/v0.1.7/jwt.go)。
+
+这份说明给出的是公开源码接口契约；因为当前网络无法连到服务地址，所以不能确认部署与上述提交一致，也不能确认授权请求是否成功。

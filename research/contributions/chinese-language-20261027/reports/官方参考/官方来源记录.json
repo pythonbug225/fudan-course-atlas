@@ -1,0 +1,63 @@
+{
+  "read_date": "2026-10-27",
+  "scope": "中国语言文学系开课院系2620，2025秋与2026春，全部任务层次",
+  "primary_sources": [
+    {
+      "title": "复旦教务课程查询",
+      "url": "https://fdjwgl.fudan.edu.cn/student/for-all/lesson-search",
+      "status": "read_public_html",
+      "method": "页面表单与脚本核对semester_id、openDepartmentAssocs、任务层次与分页参数"
+    },
+    {
+      "title": "2025秋中文系全量课程查询",
+      "url": "https://fdjwgl.fudan.edu.cn/student/for-all/lesson-search/semester/504/search/504?openDepartmentAssocs=2620&queryPage__=1,500",
+      "status": "read_json",
+      "total_rows": 205,
+      "saved": "official-courses/2025-autumn-raw.json"
+    },
+    {
+      "title": "2026春中文系全量课程查询",
+      "url": "https://fdjwgl.fudan.edu.cn/student/for-all/lesson-search/semester/505/search/505?openDepartmentAssocs=2620&queryPage__=1,500",
+      "status": "read_json",
+      "total_rows": 246,
+      "saved": "official-courses/2026-spring-raw.json"
+    },
+    {
+      "title": "复旦大学2025-2026学年第二学期课程表（哲学学院转载）",
+      "url": "https://philosophy.fudan.edu.cn/b2/d1/c20829a766673/page.htm",
+      "published": "2026-01-08",
+      "status": "read_html_and_pdf_downloaded",
+      "pdf_url": "https://philosophy.fudan.edu.cn/_upload/article/files/c9/e9/4e05dd8040bb8acbdd5f22f5fad6/dbd907b8-430d-444a-8f7a-fecc44caab12.pdf",
+      "pdf_bytes": 4976259,
+      "pdf_pages": 343,
+      "pdf_sha256": "D5E66149AC2B1B7FC637D6EA2907633A5DEEAE32AD7185FF0467073CBD789B47",
+      "saved": "official-courses/2026-spring-official-timetable.pdf"
+    },
+    {
+      "title": "复旦大学2025-2026学年第一学期本科生课程表",
+      "url": "https://jwc.fudan.edu.cn/23/29/c27267a729897/page.htm",
+      "published": "2025-05-12",
+      "status": "official_listing_verified_detail_redirects_to_login"
+    },
+    {
+      "title": "复旦大学2025-2026学年第二学期课程表",
+      "url": "https://jwc.fudan.edu.cn/90/7b/c27267a757883/page.htm",
+      "published": "2025-11-25",
+      "status": "official_listing_verified_detail_redirects_to_login"
+    },
+    {
+      "title": "复旦大学中文系转专业考核方案",
+      "url": "https://chinese.fudan.edu.cn/70/90/c33363a422032/page.htm",
+      "published": "2021-12-01",
+      "status": "read_html",
+      "scope_warning": "只可佐证历史专业命名（汉语言文学、汉语言、汉语言古文字学方向），不可替代2026级培养方案目录"
+    },
+    {
+      "title": "中文系本科生栏目",
+      "url": "https://chinese.fudan.edu.cn/bks/list.psp",
+      "status": "read_html",
+      "scope_warning": "栏目未直接列出2026级培养方案，不据此推定2026方案数量"
+    }
+  ],
+  "delivery_note": "全校春季课表PDF已下载校验，含非目标院系行政联系目录，仅留工作区；本交付包包含已分系导出的中文系完整课表及官方PDF来源链接。"
+}

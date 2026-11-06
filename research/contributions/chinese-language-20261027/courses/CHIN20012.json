@@ -1,0 +1,791 @@
+{
+  "schema_version": 1,
+  "course": {
+    "code": "CHIN20012",
+    "name": "中国文学批评史",
+    "department": "中国语言文学系",
+    "credits": 3,
+    "term": "2025秋",
+    "teachers": [
+      "羊列荣"
+    ],
+    "section_code": null,
+    "class_type": "ordinary",
+    "course_type_code": null,
+    "program_year": null,
+    "program_names": [],
+    "required_or_elective": null
+  },
+  "aliases": {
+    "course_names": [
+      {
+        "value": "中文批评史",
+        "kind": "course_name_alias",
+        "status": "query_candidate",
+        "source_url": null,
+        "evidence_id": null,
+        "limitation": "机械压缩词形，仅检索候选"
+      }
+    ],
+    "teacher_names_or_pinyin": [
+      {
+        "teacher": "羊列荣",
+        "value": "羊列荣",
+        "kind": "canonical_name",
+        "status": "official_target_name"
+      },
+      {
+        "teacher": "羊列荣",
+        "value": "yanglierong",
+        "kind": "full_joined",
+        "status": "generated_query_candidate"
+      },
+      {
+        "teacher": "羊列荣",
+        "value": "yang lie rong",
+        "kind": "full_spaced",
+        "status": "generated_query_candidate"
+      },
+      {
+        "teacher": "羊列荣",
+        "value": "ylr",
+        "kind": "initials",
+        "status": "generated_query_candidate"
+      },
+      {
+        "teacher": "羊列荣",
+        "value": "羊老师",
+        "kind": "teacher_alias",
+        "status": "query_candidate",
+        "source_url": null,
+        "evidence_id": null,
+        "limitation": "姓氏称谓非唯一别名，仅与完整课名联合查询"
+      }
+    ],
+    "ambiguous_matches": [
+      {
+        "value": "中文批评史",
+        "kind": "course_name_alias",
+        "status": "query_candidate",
+        "source_url": null,
+        "evidence_id": null,
+        "limitation": "机械压缩词形，仅检索候选"
+      },
+      {
+        "value": "zhongguowenxuepipingshi",
+        "kind": "course_pinyin_full_joined",
+        "status": "generated_query_candidate",
+        "limitation": "Generated transliteration is a search term, not an attested spoken alias."
+      },
+      {
+        "value": "zhong guo wen xue pi ping shi",
+        "kind": "course_pinyin_full_spaced",
+        "status": "generated_query_candidate",
+        "limitation": "Generated transliteration is a search term, not an attested spoken alias."
+      },
+      {
+        "value": "zgwxpps",
+        "kind": "course_pinyin_initials",
+        "status": "generated_query_candidate",
+        "limitation": "Generated transliteration is a search term, not an attested spoken alias."
+      },
+      {
+        "teacher": "羊列荣",
+        "value": "yanglierong",
+        "kind": "full_joined",
+        "status": "generated_query_candidate",
+        "limitation": "Generated transliteration is a search token, not proof of person identity."
+      },
+      {
+        "teacher": "羊列荣",
+        "value": "yang lie rong",
+        "kind": "full_spaced",
+        "status": "generated_query_candidate",
+        "limitation": "Generated transliteration is a search token, not proof of person identity."
+      },
+      {
+        "teacher": "羊列荣",
+        "value": "ylr",
+        "kind": "initials",
+        "status": "generated_query_candidate",
+        "limitation": "Generated transliteration is a search token, not proof of person identity."
+      },
+      {
+        "teacher": "羊列荣",
+        "value": "羊老师",
+        "kind": "teacher_alias",
+        "status": "query_candidate",
+        "source_url": null,
+        "evidence_id": null,
+        "limitation": "姓氏称谓非唯一别名，仅与完整课名联合查询"
+      }
+    ]
+  },
+  "progress": {
+    "owner": "",
+    "reviewer": "",
+    "status": "in_progress",
+    "queries": [
+      {
+        "query_id": "PLATFORM-CHIN20012-2025秋-小红书",
+        "category": "canonical_title_teacher_platform_search",
+        "term": "2025秋",
+        "query": "复旦 \"中国文学批评史\" (\"羊列荣\") 课程 评价",
+        "status": "no_link_returned",
+        "search_scope": "platform_specific_external_search_index",
+        "domains": [
+          "xiaohongshu.com"
+        ],
+        "attempts": 1,
+        "returned_link_count": 0,
+        "confirmed_direct_reviews": 0,
+        "read_status": "search_index_only",
+        "source_file": "reports/公开平台逐课检索台账.csv",
+        "source_record_id": "PLATFORM-CHIN20012-2025秋-小红书",
+        "source_record_pointer": "course_code=CHIN20012;terms=2025秋;platform=小红书",
+        "limitation": "外部搜索索引覆盖有限；不代表站内不存在"
+      },
+      {
+        "query_id": "PLATFORM-CHIN20012-2025秋-微信公众号",
+        "category": "canonical_title_teacher_platform_search",
+        "term": "2025秋",
+        "query": "复旦 \"中国文学批评史\" (\"羊列荣\") 课程 评价",
+        "status": "no_link_returned",
+        "search_scope": "platform_specific_external_search_index",
+        "domains": [
+          "mp.weixin.qq.com"
+        ],
+        "attempts": 1,
+        "returned_link_count": 0,
+        "confirmed_direct_reviews": 0,
+        "read_status": "search_index_only",
+        "source_file": "reports/公开平台逐课检索台账.csv",
+        "source_record_id": "PLATFORM-CHIN20012-2025秋-微信公众号",
+        "source_record_pointer": "course_code=CHIN20012;terms=2025秋;platform=微信公众号",
+        "limitation": "外部搜索索引覆盖有限；不代表站内不存在"
+      },
+      {
+        "query_id": "PLATFORM-CHIN20012-2025秋-知乎",
+        "category": "canonical_title_teacher_platform_search",
+        "term": "2025秋",
+        "query": "复旦 \"中国文学批评史\" (\"羊列荣\") 课程 评价",
+        "status": "results_returned_no_adopted_review",
+        "search_scope": "platform_specific_external_search_index",
+        "domains": [
+          "zhihu.com"
+        ],
+        "attempts": 1,
+        "returned_link_count": 8,
+        "confirmed_direct_reviews": 0,
+        "read_status": "search_index_only",
+        "source_file": "reports/公开平台逐课检索台账.csv",
+        "source_record_id": "PLATFORM-CHIN20012-2025秋-知乎",
+        "source_record_pointer": "course_code=CHIN20012;terms=2025秋;platform=知乎",
+        "limitation": "外部搜索索引覆盖有限；不代表站内不存在"
+      },
+      {
+        "query_id": "PUBALIAS-00153",
+        "category": "course_alias",
+        "term": "中文批评史",
+        "query": "复旦 \"羊列荣\" \"中文批评史\"",
+        "status": "completed",
+        "search_scope": "external_index_union_of_three_domains",
+        "domains": [
+          "zhihu.com",
+          "xiaohongshu.com",
+          "mp.weixin.qq.com"
+        ],
+        "attempts": 1,
+        "returned_link_count": 0,
+        "confirmed_direct_reviews": 0,
+        "read_status": "query execution only; not article reading",
+        "source_file": "reports/别名拼音扩展检索台账.csv",
+        "source_record_id": "PUBALIAS-00153",
+        "source_record_pointer": "query_id=PUBALIAS-00153",
+        "limitation": "A union-domain query is one logged record, not one execution per listed platform."
+      },
+      {
+        "query_id": "PUBALIAS-00154",
+        "category": "course_pinyin_full_joined",
+        "term": "zhongguowenxuepipingshi",
+        "query": "复旦 \"羊列荣\" \"zhongguowenxuepipingshi\"",
+        "status": "completed",
+        "search_scope": "external_index_union_of_three_domains",
+        "domains": [
+          "zhihu.com",
+          "xiaohongshu.com",
+          "mp.weixin.qq.com"
+        ],
+        "attempts": 1,
+        "returned_link_count": 0,
+        "confirmed_direct_reviews": 0,
+        "read_status": "query execution only; not article reading",
+        "source_file": "reports/别名拼音扩展检索台账.csv",
+        "source_record_id": "PUBALIAS-00154",
+        "source_record_pointer": "query_id=PUBALIAS-00154",
+        "limitation": "A union-domain query is one logged record, not one execution per listed platform."
+      },
+      {
+        "query_id": "PUBALIAS-00155",
+        "category": "course_pinyin_full_spaced",
+        "term": "zhong guo wen xue pi ping shi",
+        "query": "复旦 \"羊列荣\" \"zhong guo wen xue pi ping shi\"",
+        "status": "completed",
+        "search_scope": "external_index_union_of_three_domains",
+        "domains": [
+          "zhihu.com",
+          "xiaohongshu.com",
+          "mp.weixin.qq.com"
+        ],
+        "attempts": 1,
+        "returned_link_count": 0,
+        "confirmed_direct_reviews": 0,
+        "read_status": "query execution only; not article reading",
+        "source_file": "reports/别名拼音扩展检索台账.csv",
+        "source_record_id": "PUBALIAS-00155",
+        "source_record_pointer": "query_id=PUBALIAS-00155",
+        "limitation": "A union-domain query is one logged record, not one execution per listed platform."
+      },
+      {
+        "query_id": "PUBALIAS-00156",
+        "category": "course_pinyin_initials",
+        "term": "zgwxpps",
+        "query": "复旦 \"羊列荣\" \"zgwxpps\"",
+        "status": "completed",
+        "search_scope": "external_index_union_of_three_domains",
+        "domains": [
+          "zhihu.com",
+          "xiaohongshu.com",
+          "mp.weixin.qq.com"
+        ],
+        "attempts": 1,
+        "returned_link_count": 0,
+        "confirmed_direct_reviews": 0,
+        "read_status": "query execution only; not article reading",
+        "source_file": "reports/别名拼音扩展检索台账.csv",
+        "source_record_id": "PUBALIAS-00156",
+        "source_record_pointer": "query_id=PUBALIAS-00156",
+        "limitation": "A union-domain query is one logged record, not one execution per listed platform."
+      },
+      {
+        "query_id": "PUBALIAS-00157",
+        "category": "teacher_pinyin_full_joined",
+        "term": "yanglierong",
+        "query": "复旦 \"中国文学批评史\" \"yanglierong\"",
+        "status": "completed",
+        "search_scope": "external_index_union_of_three_domains",
+        "domains": [
+          "zhihu.com",
+          "xiaohongshu.com",
+          "mp.weixin.qq.com"
+        ],
+        "attempts": 1,
+        "returned_link_count": 0,
+        "confirmed_direct_reviews": 0,
+        "read_status": "query execution only; not article reading",
+        "source_file": "reports/别名拼音扩展检索台账.csv",
+        "source_record_id": "PUBALIAS-00157",
+        "source_record_pointer": "query_id=PUBALIAS-00157",
+        "limitation": "A union-domain query is one logged record, not one execution per listed platform."
+      },
+      {
+        "query_id": "PUBALIAS-00158",
+        "category": "teacher_pinyin_full_spaced",
+        "term": "yang lie rong",
+        "query": "复旦 \"中国文学批评史\" \"yang lie rong\"",
+        "status": "completed",
+        "search_scope": "external_index_union_of_three_domains",
+        "domains": [
+          "zhihu.com",
+          "xiaohongshu.com",
+          "mp.weixin.qq.com"
+        ],
+        "attempts": 1,
+        "returned_link_count": 0,
+        "confirmed_direct_reviews": 0,
+        "read_status": "query execution only; not article reading",
+        "source_file": "reports/别名拼音扩展检索台账.csv",
+        "source_record_id": "PUBALIAS-00158",
+        "source_record_pointer": "query_id=PUBALIAS-00158",
+        "limitation": "A union-domain query is one logged record, not one execution per listed platform."
+      },
+      {
+        "query_id": "PUBALIAS-00159",
+        "category": "teacher_pinyin_initials",
+        "term": "ylr",
+        "query": "复旦 \"中国文学批评史\" \"ylr\"",
+        "status": "completed",
+        "search_scope": "external_index_union_of_three_domains",
+        "domains": [
+          "zhihu.com",
+          "xiaohongshu.com",
+          "mp.weixin.qq.com"
+        ],
+        "attempts": 1,
+        "returned_link_count": 0,
+        "confirmed_direct_reviews": 0,
+        "read_status": "query execution only; not article reading",
+        "source_file": "reports/别名拼音扩展检索台账.csv",
+        "source_record_id": "PUBALIAS-00159",
+        "source_record_pointer": "query_id=PUBALIAS-00159",
+        "limitation": "A union-domain query is one logged record, not one execution per listed platform."
+      },
+      {
+        "query_id": "PUBALIAS-00160",
+        "category": "teacher_alias",
+        "term": "羊老师",
+        "query": "复旦 \"中国文学批评史\" \"羊老师\"",
+        "status": "completed",
+        "search_scope": "external_index_union_of_three_domains",
+        "domains": [
+          "zhihu.com",
+          "xiaohongshu.com",
+          "mp.weixin.qq.com"
+        ],
+        "attempts": 1,
+        "returned_link_count": 0,
+        "confirmed_direct_reviews": 0,
+        "read_status": "query execution only; not article reading",
+        "source_file": "reports/别名拼音扩展检索台账.csv",
+        "source_record_id": "PUBALIAS-00160",
+        "source_record_pointer": "query_id=PUBALIAS-00160",
+        "limitation": "A union-domain query is one logged record, not one execution per listed platform."
+      }
+    ],
+    "query_status_counts": {
+      "no_link_returned": 2,
+      "results_returned_no_adopted_review": 1,
+      "completed": 8
+    },
+    "query_coverage_note": "已执行课程全名、可证别名、教师全名及拼音/首字母组合的公开索引检索。跨域联合查询按一条日志记录，不按列出的域重复计数。查询完成不表示结果页已读，也不代表平台内容穷尽。",
+    "remaining_scope": [
+      "公开索引覆盖有限，未穷尽各平台站内搜索及未被索引的页面。",
+      "六个课程群聊的原始私密内容不进入本次公开贡献，仍有私密渠道缺口。",
+      "这是当前本地证据快照；新增上下文、历史教师材料和课评需重跑脚本更新。"
+    ],
+    "no_student_reviews_found": false,
+    "no_student_reviews_found_note": "true表示本快照没有已采用的学生平台摘要，不表示不存在其他评价；另见index_only_hits和查询日志。"
+  },
+  "sources": [
+    {
+      "source_id": "OFFICIAL-OFFERING-1001910",
+      "source_type": "official",
+      "canonical_url": "https://fdjwgl.fudan.edu.cn/student/for-all/lesson-search/semester/504/search/504?openDepartmentAssocs=2620&queryPage__=1,500",
+      "public_author_label": null,
+      "published_at": null,
+      "fetched_at": "2026-10-27",
+      "hole_id": null,
+      "floor_id": null,
+      "floor_number": null,
+      "review_id": null,
+      "file_and_page": "official timetable lesson_id=1001910",
+      "image_page": null,
+      "reading_status": "official_timetable_record_read",
+      "mapping_status": "official course code and lesson_id",
+      "record_type": "official_course_offering",
+      "adoption": "adopted_official_metadata",
+      "reason": "Official 2025 autumn / 2026 spring timetable row.",
+      "duplicate_of": null,
+      "license": null,
+      "fulltext_permission": "unconfirmed",
+      "attribution_and_changes": "Official offering metadata; no student personal data included.",
+      "raw_filename": "reports/两学期全部教学班.json",
+      "raw_record_id": "1001910",
+      "course_code": "CHIN20012",
+      "report_filename": "reports/两学期全部教学班.json",
+      "report_record_id": "1001910",
+      "report_record_pointer": null,
+      "raw_body_status": null,
+      "teacher_if_explicit": "羊列荣",
+      "term_as_stated": "2025秋",
+      "section_code": "CHIN20012.01"
+    },
+    {
+      "source_id": "OFFICIAL-SYLLABUS-1001910",
+      "source_type": "official",
+      "canonical_url": "https://fdjwgl.fudan.edu.cn/student/for-all/lesson-search/teachingSyllabusInfo/1001910",
+      "public_author_label": null,
+      "published_at": null,
+      "fetched_at": "2026-10-27",
+      "hole_id": null,
+      "floor_id": null,
+      "floor_number": null,
+      "review_id": null,
+      "file_and_page": "official syllabus lesson_id=1001910",
+      "image_page": null,
+      "reading_status": "structured_text_extracted",
+      "mapping_status": "lesson syllabus course code checked",
+      "record_type": "official_syllabus",
+      "adoption": "adopted_official_requirements",
+      "reason": "Official syllabus parsed locally; requirements stay attached to this offering.",
+      "duplicate_of": null,
+      "license": null,
+      "fulltext_permission": "unconfirmed",
+      "attribution_and_changes": "Only metadata, section titles, textbook details and assessment structure are exported; full syllabus text is not republished.",
+      "raw_filename": "reports/官方大纲结构化摘要.json",
+      "raw_record_id": "1001910",
+      "course_code": "CHIN20012",
+      "report_filename": "reports/官方大纲结构化摘要.json",
+      "report_record_id": "1001910",
+      "report_record_pointer": null,
+      "raw_body_status": null,
+      "teacher_if_explicit": "羊列荣",
+      "term_as_stated": "2025秋",
+      "section_code": "CHIN20012.01"
+    },
+    {
+      "source_id": "DANKE-1365",
+      "source_type": "danke",
+      "canonical_url": "https://danke.fduhole.com/api/reviews/1365",
+      "public_author_label": null,
+      "published_at": "2024-01-09T10:08:05.068Z",
+      "fetched_at": "2026-10-27",
+      "hole_id": null,
+      "floor_id": null,
+      "floor_number": null,
+      "review_id": 1365,
+      "file_and_page": "danke source DANKE-1365",
+      "image_page": null,
+      "reading_status": "full_returned_text",
+      "mapping_status": "verified course assignment from curated evidence",
+      "record_type": "detailed_review",
+      "adoption": "adopted_limited",
+      "reason": "",
+      "duplicate_of": null,
+      "license": null,
+      "fulltext_permission": "unconfirmed; short summary only exported",
+      "attribution_and_changes": "Short paraphrase from locally curated evidence; original body, account metadata and media are not copied.",
+      "raw_filename": "raw/danke.jsonl",
+      "raw_record_id": 1365,
+      "course_code": "CHIN20012",
+      "report_filename": "reports/课程人工综合与来源.json",
+      "report_record_id": "DANKE-1365",
+      "report_record_pointer": null,
+      "raw_body_status": "published_redacted",
+      "teacher_if_explicit": "羊列荣",
+      "term_as_stated": "23秋（标题）",
+      "section_code": null,
+      "raw_year": 2023,
+      "raw_semester": 1,
+      "indexed_terms": [
+        "2023秋"
+      ],
+      "indexed_course_periods": null,
+      "body_term_if_explicit": "23秋（标题）",
+      "body_claimed_calendar_terms": [
+        "2023秋"
+      ],
+      "body_term_conflict": false,
+      "review_time_conflict": null,
+      "index_conflict_note": "标题保留23秋；不以发帖日期或索引替代作者期别。",
+      "term_scope": "API所挂课程索引期：2023秋；依据官方客户端学年/学期映射。它不自动证明作者实际修读期；正文明确时间或冲突另行保留。 标题保留23秋；不以发帖日期或索引替代作者期别。",
+      "body_term_precision": "single_term",
+      "body_term_scope": "author_course_period",
+      "relative_period_phrases": [
+        "今年"
+      ],
+      "semester_mapping_source": "https://github.com/DanXi-Dev/DanXi/blob/3c1f5f026fbc7ca50e151865f813cdb381807abe/lib/model/danke/course.dart#L36-L45",
+      "body_calendar_terms_parsed": [
+        "2023秋"
+      ],
+      "body_claimed_target_terms": [],
+      "indexed_target_terms": [],
+      "target_period_note": "非目标期、相对或未知修读期，不当作目标期直接反馈。"
+    },
+    {
+      "source_id": "DANKE-2970",
+      "source_type": "danke",
+      "canonical_url": "https://danke.fduhole.com/api/reviews/2970",
+      "public_author_label": null,
+      "published_at": "2025-01-09T05:43:47.937Z",
+      "fetched_at": "2026-10-27",
+      "hole_id": null,
+      "floor_id": null,
+      "floor_number": null,
+      "review_id": 2970,
+      "file_and_page": "danke source DANKE-2970",
+      "image_page": null,
+      "reading_status": "full_returned_text",
+      "mapping_status": "verified course assignment from curated evidence",
+      "record_type": "detailed_review",
+      "adoption": "adopted_limited",
+      "reason": "",
+      "duplicate_of": null,
+      "license": null,
+      "fulltext_permission": "unconfirmed; short summary only exported",
+      "attribution_and_changes": "Short paraphrase from locally curated evidence; original body, account metadata and media are not copied.",
+      "raw_filename": "raw/danke.jsonl",
+      "raw_record_id": 2970,
+      "course_code": "CHIN20012",
+      "report_filename": "reports/课程人工综合与来源.json",
+      "report_record_id": "DANKE-2970",
+      "report_record_pointer": null,
+      "raw_body_status": "published_redacted",
+      "teacher_if_explicit": "羊列荣",
+      "term_as_stated": "24秋（标题）",
+      "section_code": null,
+      "raw_year": 2024,
+      "raw_semester": 1,
+      "indexed_terms": [
+        "2024秋"
+      ],
+      "indexed_course_periods": null,
+      "body_term_if_explicit": "24秋（标题）",
+      "body_claimed_calendar_terms": [
+        "2024秋"
+      ],
+      "body_term_conflict": false,
+      "review_time_conflict": null,
+      "index_conflict_note": "标题保留24秋；正文“今年/这学期”不据发布日期换算。",
+      "term_scope": "API所挂课程索引期：2024秋；依据官方客户端学年/学期映射。它不自动证明作者实际修读期；正文明确时间或冲突另行保留。 标题保留24秋；正文“今年/这学期”不据发布日期换算。",
+      "body_term_precision": "single_term",
+      "body_term_scope": "author_course_period",
+      "relative_period_phrases": [
+        "今年",
+        "这学期"
+      ],
+      "semester_mapping_source": "https://github.com/DanXi-Dev/DanXi/blob/3c1f5f026fbc7ca50e151865f813cdb381807abe/lib/model/danke/course.dart#L36-L45",
+      "body_calendar_terms_parsed": [
+        "2024秋"
+      ],
+      "body_claimed_target_terms": [],
+      "indexed_target_terms": [],
+      "target_period_note": "非目标期、相对或未知修读期，不当作目标期直接反馈。"
+    }
+  ],
+  "syllabus": {
+    "source_ids": [
+      "OFFICIAL-SYLLABUS-1001910"
+    ],
+    "content": "官方大纲按教学班逐项记录在offerings；不同学期或平行班要求未合并。",
+    "prerequisites": "",
+    "assessment": ""
+  },
+  "materials": [
+    {
+      "type": "official_textbook",
+      "title": "中国文学理论批评史（第二版）",
+      "author": "黄霖、李春青、李建中",
+      "publisher": "高等教育出版社",
+      "publication_date": "2018-01",
+      "isbn": "9787040501100",
+      "term": "2025秋",
+      "section_code": "CHIN20012.01",
+      "source_ids": [
+        "OFFICIAL-SYLLABUS-1001910"
+      ]
+    }
+  ],
+  "student_reviews_and_discussions": [
+    {
+      "source_id": "DANKE-1365",
+      "source_type": "danke",
+      "record_type": "detailed_review",
+      "canonical_url": "https://danke.fduhole.com/api/reviews/1365",
+      "reading_status": "full_returned_text",
+      "mapping_status": "verified course assignment from curated evidence",
+      "adoption": "adopted_limited",
+      "teacher_if_explicit": "羊列荣",
+      "term_as_stated": "23秋（标题）",
+      "indexed_terms": [
+        "2023秋"
+      ],
+      "raw_body_status": "published_redacted",
+      "raw_year": 2023,
+      "raw_semester": 1,
+      "indexed_course_periods": null,
+      "body_term_if_explicit": "23秋（标题）",
+      "body_claimed_calendar_terms": [
+        "2023秋"
+      ],
+      "body_term_conflict": false,
+      "review_time_conflict": null,
+      "index_conflict_note": "标题保留23秋；不以发帖日期或索引替代作者期别。",
+      "term_scope": "API所挂课程索引期：2023秋；依据官方客户端学年/学期映射。它不自动证明作者实际修读期；正文明确时间或冲突另行保留。 标题保留23秋；不以发帖日期或索引替代作者期别。",
+      "body_term_precision": "single_term",
+      "body_term_scope": "author_course_period",
+      "relative_period_phrases": [
+        "今年"
+      ],
+      "semester_mapping_source": "https://github.com/DanXi-Dev/DanXi/blob/3c1f5f026fbc7ca50e151865f813cdb381807abe/lib/model/danke/course.dart#L36-L45",
+      "body_calendar_terms_parsed": [
+        "2023秋"
+      ],
+      "body_claimed_target_terms": [],
+      "indexed_target_terms": [],
+      "target_period_note": "非目标期、相对或未知修读期，不当作目标期直接反馈。",
+      "period_status": "非目标期、相对或未知修读期，不当作目标期直接反馈。",
+      "summary": "标题标注23秋；期中需从文论选中选篇目写读书报告，期末含填空、名词解释和两道论述。作者认为复习到位可得A，同时提醒缺少准备有挂科风险。",
+      "limitations": "匿名作者的个人叙述；成绩及感受仅代表其个人。API year/semester保留原值，不由发帖日期推定；历史课评不等于当前教学安排。",
+      "reason": ""
+    },
+    {
+      "source_id": "DANKE-2970",
+      "source_type": "danke",
+      "record_type": "detailed_review",
+      "canonical_url": "https://danke.fduhole.com/api/reviews/2970",
+      "reading_status": "full_returned_text",
+      "mapping_status": "verified course assignment from curated evidence",
+      "adoption": "adopted_limited",
+      "teacher_if_explicit": "羊列荣",
+      "term_as_stated": "24秋（标题）",
+      "indexed_terms": [
+        "2024秋"
+      ],
+      "raw_body_status": "published_redacted",
+      "raw_year": 2024,
+      "raw_semester": 1,
+      "indexed_course_periods": null,
+      "body_term_if_explicit": "24秋（标题）",
+      "body_claimed_calendar_terms": [
+        "2024秋"
+      ],
+      "body_term_conflict": false,
+      "review_time_conflict": null,
+      "index_conflict_note": "标题保留24秋；正文“今年/这学期”不据发布日期换算。",
+      "term_scope": "API所挂课程索引期：2024秋；依据官方客户端学年/学期映射。它不自动证明作者实际修读期；正文明确时间或冲突另行保留。 标题保留24秋；正文“今年/这学期”不据发布日期换算。",
+      "body_term_precision": "single_term",
+      "body_term_scope": "author_course_period",
+      "relative_period_phrases": [
+        "今年",
+        "这学期"
+      ],
+      "semester_mapping_source": "https://github.com/DanXi-Dev/DanXi/blob/3c1f5f026fbc7ca50e151865f813cdb381807abe/lib/model/danke/course.dart#L36-L45",
+      "body_calendar_terms_parsed": [
+        "2024秋"
+      ],
+      "body_claimed_target_terms": [],
+      "indexed_target_terms": [],
+      "target_period_note": "非目标期、相对或未知修读期，不当作目标期直接反馈。",
+      "period_status": "非目标期、相对或未知修读期，不当作目标期直接反馈。",
+      "summary": "标题标注24秋；作者补充填空考查作者、文集、观点及出处关联，论述题可能变换复习材料。作者自述只准备一晚得B-，并推荐教师。",
+      "limitations": "匿名作者的个人叙述；成绩及感受仅代表其个人。API year/semester保留原值，不由发帖日期推定；历史课评不等于当前教学安排。",
+      "reason": ""
+    }
+  ],
+  "index_only_hits": [],
+  "quantitative_observations": [],
+  "offerings": [
+    {
+      "term": "2025秋",
+      "section_code": "CHIN20012.01",
+      "lesson_id": 1001910,
+      "course_code": "CHIN20012",
+      "course_name": "中国文学批评史",
+      "teachers": [
+        "羊列荣"
+      ],
+      "credits": 3,
+      "task_level": "本科",
+      "open_department": "中国语言文学系",
+      "course_type": "必修课程",
+      "course_table_type": "基础和专业：专业课程",
+      "exam_mode": "闭卷",
+      "total_hours": 54,
+      "source_ids": [
+        "OFFICIAL-OFFERING-1001910",
+        "OFFICIAL-SYLLABUS-1001910"
+      ],
+      "official_syllabus": {
+        "status": "structured_text_extracted",
+        "source_id": "OFFICIAL-SYLLABUS-1001910",
+        "section_titles": [
+          "课程简介（中文）",
+          "课程简介（英文）",
+          "教学目标",
+          "教学方式",
+          "教学内容与进度安排",
+          "课程考核与成绩评定",
+          "教材",
+          "教学参考资料",
+          "教学团队成员"
+        ],
+        "prerequisites": [],
+        "assessment": [
+          {
+            "criteria": "课题论文Research Paper",
+            "percentage": 30.0,
+            "standard": "根据自己的兴趣选择一部或一篇古代文论作品进行认真阅读，撰写读书笔记或论文，有一定的个人见解。"
+          },
+          {
+            "criteria": "期末考试Final Examination：闭卷 ",
+            "percentage": 70.0,
+            "standard": "以标准答案为根据。"
+          }
+        ],
+        "grade_rule": "等级制",
+        "textbooks": [
+          {
+            "name": "中国文学理论批评史（第二版）",
+            "author": "黄霖、李春青、李建中",
+            "publishingHouse": "高等教育出版社",
+            "date": "2018-01",
+            "isbn": "9787040501100"
+          }
+        ],
+        "syllabus_id": 374,
+        "error": null
+      }
+    }
+  ],
+  "official_metadata": {
+    "department": "中国语言文学系",
+    "target_terms": [
+      "2025秋"
+    ],
+    "target_teachers": [
+      "羊列荣"
+    ],
+    "task_levels": [
+      "本科"
+    ],
+    "section_count": 1,
+    "official_offering_count_in_snapshot": 1,
+    "course_type_values_by_offering": [
+      "必修课程"
+    ],
+    "course_table_type_values_by_offering": [
+      "基础和专业：专业课程"
+    ],
+    "source_ids": [
+      "OFFICIAL-OFFERING-1001910"
+    ]
+  },
+  "comparison_and_summary": {
+    "teaching_and_learning": "本快照没有可读的课程体验材料，无法归纳学习收获。",
+    "workload": "本快照没有可读的课程体验材料，无法归纳准备或作业量。",
+    "assessment": "本快照没有可读的课程体验材料，无法归纳考核或评分。",
+    "grading_and_risk": "",
+    "teacher_and_term_differences": "已读来源未明确写出教师姓名；不能据课程名或现任教师表补认授课者。 来源没有可确认的修读学期。",
+    "who_it_suits": "",
+    "source_ids": [
+      "DANKE-1365",
+      "DANKE-2970"
+    ],
+    "section_source_ids": {
+      "teaching_and_learning": [],
+      "workload": [],
+      "assessment": [],
+      "teacher_and_term_differences": []
+    },
+    "manual_comparison": {
+      "status": "human_synthesized",
+      "text": "羊列荣的中国文学批评史有两条正文分别标注23秋、24秋，考核包括文论选读书目读书报告，期末填空、名词解释和论述题；一人称复习到位后得A，另一人临时准备后得B−（DANKE-1365、DANKE-2970）。",
+      "evidence_ids": [
+        "DANKE-1365",
+        "DANKE-2970"
+      ],
+      "limitations": "只代表两个历史个体；题型和分数不构成目标期保证或普遍评分分布。",
+      "confidence": "none：本快照无已读、可采用来源。"
+    },
+    "confidence": "none：本快照无已读、可采用来源。",
+    "limitations": "当前已读材料没有可采用的课程体验证据；未读索引、广告、提问或仅仓库摘要不计入。"
+  },
+  "research_snapshot": {
+    "date": "2026-10-27",
+    "curated_evidence_record_count": 535,
+    "synthesis_source_assignment_count": 522,
+    "public_review_index_record_count": 167,
+    "public_adopted_findings_count": 11
+  }
+}

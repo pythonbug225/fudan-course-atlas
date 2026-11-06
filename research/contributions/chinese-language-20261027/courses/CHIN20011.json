@@ -1,0 +1,923 @@
+{
+  "schema_version": 1,
+  "course": {
+    "code": "CHIN20011",
+    "name": "比较文学导论",
+    "department": "中国语言文学系",
+    "credits": 2,
+    "term": "2026春",
+    "teachers": [
+      "郭西安",
+      "刘耘华"
+    ],
+    "section_code": null,
+    "class_type": "ordinary",
+    "course_type_code": null,
+    "program_year": null,
+    "program_names": [],
+    "required_or_elective": null
+  },
+  "aliases": {
+    "course_names": [
+      {
+        "value": "比较文导论",
+        "kind": "course_name_alias",
+        "status": "query_candidate",
+        "source_url": null,
+        "evidence_id": null,
+        "limitation": "机械压缩词形，仅检索候选"
+      }
+    ],
+    "teacher_names_or_pinyin": [
+      {
+        "teacher": "郭西安",
+        "value": "郭西安",
+        "kind": "canonical_name",
+        "status": "official_target_name"
+      },
+      {
+        "teacher": "郭西安",
+        "value": "guoxian",
+        "kind": "full_joined",
+        "status": "generated_query_candidate"
+      },
+      {
+        "teacher": "郭西安",
+        "value": "guo xi an",
+        "kind": "full_spaced",
+        "status": "generated_query_candidate"
+      },
+      {
+        "teacher": "郭西安",
+        "value": "gxa",
+        "kind": "initials",
+        "status": "generated_query_candidate"
+      },
+      {
+        "teacher": "郭西安",
+        "value": "郭老师",
+        "kind": "teacher_alias",
+        "status": "query_candidate",
+        "source_url": null,
+        "evidence_id": null,
+        "limitation": "姓氏称谓非唯一别名，仅与完整课名联合查询"
+      },
+      {
+        "teacher": "刘耘华",
+        "value": "刘耘华",
+        "kind": "canonical_name",
+        "status": "official_target_name"
+      },
+      {
+        "teacher": "刘耘华",
+        "value": "liuyunhua",
+        "kind": "full_joined",
+        "status": "generated_query_candidate"
+      },
+      {
+        "teacher": "刘耘华",
+        "value": "liu yun hua",
+        "kind": "full_spaced",
+        "status": "generated_query_candidate"
+      },
+      {
+        "teacher": "刘耘华",
+        "value": "lyh",
+        "kind": "initials",
+        "status": "generated_query_candidate"
+      },
+      {
+        "teacher": "刘耘华",
+        "value": "刘老师",
+        "kind": "teacher_alias",
+        "status": "query_candidate",
+        "source_url": null,
+        "evidence_id": null,
+        "limitation": "姓氏称谓非唯一别名，仅与完整课名联合查询"
+      }
+    ],
+    "ambiguous_matches": [
+      {
+        "value": "比较文导论",
+        "kind": "course_name_alias",
+        "status": "query_candidate",
+        "source_url": null,
+        "evidence_id": null,
+        "limitation": "机械压缩词形，仅检索候选"
+      },
+      {
+        "value": "bijiaowenxuedaolun",
+        "kind": "course_pinyin_full_joined",
+        "status": "generated_query_candidate",
+        "limitation": "Generated transliteration is a search term, not an attested spoken alias."
+      },
+      {
+        "value": "bi jiao wen xue dao lun",
+        "kind": "course_pinyin_full_spaced",
+        "status": "generated_query_candidate",
+        "limitation": "Generated transliteration is a search term, not an attested spoken alias."
+      },
+      {
+        "value": "bjwxdl",
+        "kind": "course_pinyin_initials",
+        "status": "generated_query_candidate",
+        "limitation": "Generated transliteration is a search term, not an attested spoken alias."
+      },
+      {
+        "teacher": "郭西安",
+        "value": "guoxian",
+        "kind": "full_joined",
+        "status": "generated_query_candidate",
+        "limitation": "Generated transliteration is a search token, not proof of person identity."
+      },
+      {
+        "teacher": "郭西安",
+        "value": "guo xi an",
+        "kind": "full_spaced",
+        "status": "generated_query_candidate",
+        "limitation": "Generated transliteration is a search token, not proof of person identity."
+      },
+      {
+        "teacher": "郭西安",
+        "value": "gxa",
+        "kind": "initials",
+        "status": "generated_query_candidate",
+        "limitation": "Generated transliteration is a search token, not proof of person identity."
+      },
+      {
+        "teacher": "郭西安",
+        "value": "郭老师",
+        "kind": "teacher_alias",
+        "status": "query_candidate",
+        "source_url": null,
+        "evidence_id": null,
+        "limitation": "姓氏称谓非唯一别名，仅与完整课名联合查询"
+      },
+      {
+        "teacher": "刘耘华",
+        "value": "liuyunhua",
+        "kind": "full_joined",
+        "status": "generated_query_candidate",
+        "limitation": "Generated transliteration is a search token, not proof of person identity."
+      },
+      {
+        "teacher": "刘耘华",
+        "value": "liu yun hua",
+        "kind": "full_spaced",
+        "status": "generated_query_candidate",
+        "limitation": "Generated transliteration is a search token, not proof of person identity."
+      },
+      {
+        "teacher": "刘耘华",
+        "value": "lyh",
+        "kind": "initials",
+        "status": "generated_query_candidate",
+        "limitation": "Generated transliteration is a search token, not proof of person identity."
+      },
+      {
+        "teacher": "刘耘华",
+        "value": "刘老师",
+        "kind": "teacher_alias",
+        "status": "query_candidate",
+        "source_url": null,
+        "evidence_id": null,
+        "limitation": "姓氏称谓非唯一别名，仅与完整课名联合查询"
+      }
+    ]
+  },
+  "progress": {
+    "owner": "",
+    "reviewer": "",
+    "status": "in_progress",
+    "queries": [
+      {
+        "query_id": "PLATFORM-CHIN20011-2026春-小红书",
+        "category": "canonical_title_teacher_platform_search",
+        "term": "2026春",
+        "query": "复旦 \"比较文学导论\" (\"郭西安\" OR \"刘耘华\") 课程 评价",
+        "status": "no_link_returned",
+        "search_scope": "platform_specific_external_search_index",
+        "domains": [
+          "xiaohongshu.com"
+        ],
+        "attempts": 1,
+        "returned_link_count": 0,
+        "confirmed_direct_reviews": 0,
+        "read_status": "search_index_only",
+        "source_file": "reports/公开平台逐课检索台账.csv",
+        "source_record_id": "PLATFORM-CHIN20011-2026春-小红书",
+        "source_record_pointer": "course_code=CHIN20011;terms=2026春;platform=小红书",
+        "limitation": "外部搜索索引覆盖有限；不代表站内不存在"
+      },
+      {
+        "query_id": "PLATFORM-CHIN20011-2026春-微信公众号",
+        "category": "canonical_title_teacher_platform_search",
+        "term": "2026春",
+        "query": "复旦 \"比较文学导论\" (\"郭西安\" OR \"刘耘华\") 课程 评价",
+        "status": "no_link_returned",
+        "search_scope": "platform_specific_external_search_index",
+        "domains": [
+          "mp.weixin.qq.com"
+        ],
+        "attempts": 1,
+        "returned_link_count": 0,
+        "confirmed_direct_reviews": 0,
+        "read_status": "search_index_only",
+        "source_file": "reports/公开平台逐课检索台账.csv",
+        "source_record_id": "PLATFORM-CHIN20011-2026春-微信公众号",
+        "source_record_pointer": "course_code=CHIN20011;terms=2026春;platform=微信公众号",
+        "limitation": "外部搜索索引覆盖有限；不代表站内不存在"
+      },
+      {
+        "query_id": "PLATFORM-CHIN20011-2026春-知乎",
+        "category": "canonical_title_teacher_platform_search",
+        "term": "2026春",
+        "query": "复旦 \"比较文学导论\" (\"郭西安\" OR \"刘耘华\") 课程 评价",
+        "status": "results_returned_no_adopted_review",
+        "search_scope": "platform_specific_external_search_index",
+        "domains": [
+          "zhihu.com"
+        ],
+        "attempts": 1,
+        "returned_link_count": 2,
+        "confirmed_direct_reviews": 0,
+        "read_status": "search_index_only",
+        "source_file": "reports/公开平台逐课检索台账.csv",
+        "source_record_id": "PLATFORM-CHIN20011-2026春-知乎",
+        "source_record_pointer": "course_code=CHIN20011;terms=2026春;platform=知乎",
+        "limitation": "外部搜索索引覆盖有限；不代表站内不存在"
+      },
+      {
+        "query_id": "PUBALIAS-01011",
+        "category": "course_alias",
+        "term": "比较文导论",
+        "query": "复旦 \"郭西安\" \"比较文导论\"",
+        "status": "completed",
+        "search_scope": "external_index_union_of_three_domains",
+        "domains": [
+          "zhihu.com",
+          "xiaohongshu.com",
+          "mp.weixin.qq.com"
+        ],
+        "attempts": 1,
+        "returned_link_count": 0,
+        "confirmed_direct_reviews": 0,
+        "read_status": "query execution only; not article reading",
+        "source_file": "reports/别名拼音扩展检索台账.csv",
+        "source_record_id": "PUBALIAS-01011",
+        "source_record_pointer": "query_id=PUBALIAS-01011",
+        "limitation": "A union-domain query is one logged record, not one execution per listed platform."
+      },
+      {
+        "query_id": "PUBALIAS-01012",
+        "category": "course_pinyin_full_joined",
+        "term": "bijiaowenxuedaolun",
+        "query": "复旦 \"郭西安\" \"bijiaowenxuedaolun\"",
+        "status": "completed",
+        "search_scope": "external_index_union_of_three_domains",
+        "domains": [
+          "zhihu.com",
+          "xiaohongshu.com",
+          "mp.weixin.qq.com"
+        ],
+        "attempts": 1,
+        "returned_link_count": 0,
+        "confirmed_direct_reviews": 0,
+        "read_status": "query execution only; not article reading",
+        "source_file": "reports/别名拼音扩展检索台账.csv",
+        "source_record_id": "PUBALIAS-01012",
+        "source_record_pointer": "query_id=PUBALIAS-01012",
+        "limitation": "A union-domain query is one logged record, not one execution per listed platform."
+      },
+      {
+        "query_id": "PUBALIAS-01013",
+        "category": "course_pinyin_full_spaced",
+        "term": "bi jiao wen xue dao lun",
+        "query": "复旦 \"郭西安\" \"bi jiao wen xue dao lun\"",
+        "status": "completed",
+        "search_scope": "external_index_union_of_three_domains",
+        "domains": [
+          "zhihu.com",
+          "xiaohongshu.com",
+          "mp.weixin.qq.com"
+        ],
+        "attempts": 1,
+        "returned_link_count": 0,
+        "confirmed_direct_reviews": 0,
+        "read_status": "query execution only; not article reading",
+        "source_file": "reports/别名拼音扩展检索台账.csv",
+        "source_record_id": "PUBALIAS-01013",
+        "source_record_pointer": "query_id=PUBALIAS-01013",
+        "limitation": "A union-domain query is one logged record, not one execution per listed platform."
+      },
+      {
+        "query_id": "PUBALIAS-01014",
+        "category": "course_pinyin_initials",
+        "term": "bjwxdl",
+        "query": "复旦 \"郭西安\" \"bjwxdl\"",
+        "status": "completed",
+        "search_scope": "external_index_union_of_three_domains",
+        "domains": [
+          "zhihu.com",
+          "xiaohongshu.com",
+          "mp.weixin.qq.com"
+        ],
+        "attempts": 1,
+        "returned_link_count": 0,
+        "confirmed_direct_reviews": 0,
+        "read_status": "query execution only; not article reading",
+        "source_file": "reports/别名拼音扩展检索台账.csv",
+        "source_record_id": "PUBALIAS-01014",
+        "source_record_pointer": "query_id=PUBALIAS-01014",
+        "limitation": "A union-domain query is one logged record, not one execution per listed platform."
+      },
+      {
+        "query_id": "PUBALIAS-01015",
+        "category": "teacher_pinyin_full_joined",
+        "term": "guoxian",
+        "query": "复旦 \"比较文学导论\" \"guoxian\"",
+        "status": "completed",
+        "search_scope": "external_index_union_of_three_domains",
+        "domains": [
+          "zhihu.com",
+          "xiaohongshu.com",
+          "mp.weixin.qq.com"
+        ],
+        "attempts": 1,
+        "returned_link_count": 0,
+        "confirmed_direct_reviews": 0,
+        "read_status": "query execution only; not article reading",
+        "source_file": "reports/别名拼音扩展检索台账.csv",
+        "source_record_id": "PUBALIAS-01015",
+        "source_record_pointer": "query_id=PUBALIAS-01015",
+        "limitation": "A union-domain query is one logged record, not one execution per listed platform."
+      },
+      {
+        "query_id": "PUBALIAS-01016",
+        "category": "teacher_pinyin_full_spaced",
+        "term": "guo xi an",
+        "query": "复旦 \"比较文学导论\" \"guo xi an\"",
+        "status": "completed",
+        "search_scope": "external_index_union_of_three_domains",
+        "domains": [
+          "zhihu.com",
+          "xiaohongshu.com",
+          "mp.weixin.qq.com"
+        ],
+        "attempts": 1,
+        "returned_link_count": 0,
+        "confirmed_direct_reviews": 0,
+        "read_status": "query execution only; not article reading",
+        "source_file": "reports/别名拼音扩展检索台账.csv",
+        "source_record_id": "PUBALIAS-01016",
+        "source_record_pointer": "query_id=PUBALIAS-01016",
+        "limitation": "A union-domain query is one logged record, not one execution per listed platform."
+      },
+      {
+        "query_id": "PUBALIAS-01017",
+        "category": "teacher_pinyin_initials",
+        "term": "gxa",
+        "query": "复旦 \"比较文学导论\" \"gxa\"",
+        "status": "completed",
+        "search_scope": "external_index_union_of_three_domains",
+        "domains": [
+          "zhihu.com",
+          "xiaohongshu.com",
+          "mp.weixin.qq.com"
+        ],
+        "attempts": 1,
+        "returned_link_count": 0,
+        "confirmed_direct_reviews": 0,
+        "read_status": "query execution only; not article reading",
+        "source_file": "reports/别名拼音扩展检索台账.csv",
+        "source_record_id": "PUBALIAS-01017",
+        "source_record_pointer": "query_id=PUBALIAS-01017",
+        "limitation": "A union-domain query is one logged record, not one execution per listed platform."
+      },
+      {
+        "query_id": "PUBALIAS-01018",
+        "category": "teacher_alias",
+        "term": "郭老师",
+        "query": "复旦 \"比较文学导论\" \"郭老师\"",
+        "status": "completed",
+        "search_scope": "external_index_union_of_three_domains",
+        "domains": [
+          "zhihu.com",
+          "xiaohongshu.com",
+          "mp.weixin.qq.com"
+        ],
+        "attempts": 1,
+        "returned_link_count": 0,
+        "confirmed_direct_reviews": 0,
+        "read_status": "query execution only; not article reading",
+        "source_file": "reports/别名拼音扩展检索台账.csv",
+        "source_record_id": "PUBALIAS-01018",
+        "source_record_pointer": "query_id=PUBALIAS-01018",
+        "limitation": "A union-domain query is one logged record, not one execution per listed platform."
+      },
+      {
+        "query_id": "PUBALIAS-01019",
+        "category": "teacher_pinyin_full_joined",
+        "term": "liuyunhua",
+        "query": "复旦 \"比较文学导论\" \"liuyunhua\"",
+        "status": "completed",
+        "search_scope": "external_index_union_of_three_domains",
+        "domains": [
+          "zhihu.com",
+          "xiaohongshu.com",
+          "mp.weixin.qq.com"
+        ],
+        "attempts": 1,
+        "returned_link_count": 0,
+        "confirmed_direct_reviews": 0,
+        "read_status": "query execution only; not article reading",
+        "source_file": "reports/别名拼音扩展检索台账.csv",
+        "source_record_id": "PUBALIAS-01019",
+        "source_record_pointer": "query_id=PUBALIAS-01019",
+        "limitation": "A union-domain query is one logged record, not one execution per listed platform."
+      },
+      {
+        "query_id": "PUBALIAS-01020",
+        "category": "teacher_pinyin_full_spaced",
+        "term": "liu yun hua",
+        "query": "复旦 \"比较文学导论\" \"liu yun hua\"",
+        "status": "completed",
+        "search_scope": "external_index_union_of_three_domains",
+        "domains": [
+          "zhihu.com",
+          "xiaohongshu.com",
+          "mp.weixin.qq.com"
+        ],
+        "attempts": 1,
+        "returned_link_count": 0,
+        "confirmed_direct_reviews": 0,
+        "read_status": "query execution only; not article reading",
+        "source_file": "reports/别名拼音扩展检索台账.csv",
+        "source_record_id": "PUBALIAS-01020",
+        "source_record_pointer": "query_id=PUBALIAS-01020",
+        "limitation": "A union-domain query is one logged record, not one execution per listed platform."
+      },
+      {
+        "query_id": "PUBALIAS-01021",
+        "category": "teacher_pinyin_initials",
+        "term": "lyh",
+        "query": "复旦 \"比较文学导论\" \"lyh\"",
+        "status": "completed",
+        "search_scope": "external_index_union_of_three_domains",
+        "domains": [
+          "zhihu.com",
+          "xiaohongshu.com",
+          "mp.weixin.qq.com"
+        ],
+        "attempts": 1,
+        "returned_link_count": 0,
+        "confirmed_direct_reviews": 0,
+        "read_status": "query execution only; not article reading",
+        "source_file": "reports/别名拼音扩展检索台账.csv",
+        "source_record_id": "PUBALIAS-01021",
+        "source_record_pointer": "query_id=PUBALIAS-01021",
+        "limitation": "A union-domain query is one logged record, not one execution per listed platform."
+      },
+      {
+        "query_id": "PUBALIAS-01022",
+        "category": "teacher_alias",
+        "term": "刘老师",
+        "query": "复旦 \"比较文学导论\" \"刘老师\"",
+        "status": "completed",
+        "search_scope": "external_index_union_of_three_domains",
+        "domains": [
+          "zhihu.com",
+          "xiaohongshu.com",
+          "mp.weixin.qq.com"
+        ],
+        "attempts": 1,
+        "returned_link_count": 0,
+        "confirmed_direct_reviews": 0,
+        "read_status": "query execution only; not article reading",
+        "source_file": "reports/别名拼音扩展检索台账.csv",
+        "source_record_id": "PUBALIAS-01022",
+        "source_record_pointer": "query_id=PUBALIAS-01022",
+        "limitation": "A union-domain query is one logged record, not one execution per listed platform."
+      }
+    ],
+    "query_status_counts": {
+      "no_link_returned": 2,
+      "results_returned_no_adopted_review": 1,
+      "completed": 12
+    },
+    "query_coverage_note": "已执行课程全名、可证别名、教师全名及拼音/首字母组合的公开索引检索。跨域联合查询按一条日志记录，不按列出的域重复计数。查询完成不表示结果页已读，也不代表平台内容穷尽。",
+    "remaining_scope": [
+      "公开索引覆盖有限，未穷尽各平台站内搜索及未被索引的页面。",
+      "六个课程群聊的原始私密内容不进入本次公开贡献，仍有私密渠道缺口。",
+      "这是当前本地证据快照；新增上下文、历史教师材料和课评需重跑脚本更新。"
+    ],
+    "no_student_reviews_found": true,
+    "no_student_reviews_found_note": "true表示本快照没有已采用的学生平台摘要，不表示不存在其他评价；另见index_only_hits和查询日志。"
+  },
+  "sources": [
+    {
+      "source_id": "OFFICIAL-OFFERING-1020762",
+      "source_type": "official",
+      "canonical_url": "https://fdjwgl.fudan.edu.cn/student/for-all/lesson-search/semester/505/search/505?openDepartmentAssocs=2620&queryPage__=1,500",
+      "public_author_label": null,
+      "published_at": null,
+      "fetched_at": "2026-10-27",
+      "hole_id": null,
+      "floor_id": null,
+      "floor_number": null,
+      "review_id": null,
+      "file_and_page": "official timetable lesson_id=1020762",
+      "image_page": null,
+      "reading_status": "official_timetable_record_read",
+      "mapping_status": "official course code and lesson_id",
+      "record_type": "official_course_offering",
+      "adoption": "adopted_official_metadata",
+      "reason": "Official 2025 autumn / 2026 spring timetable row.",
+      "duplicate_of": null,
+      "license": null,
+      "fulltext_permission": "unconfirmed",
+      "attribution_and_changes": "Official offering metadata; no student personal data included.",
+      "raw_filename": "reports/两学期全部教学班.json",
+      "raw_record_id": "1020762",
+      "course_code": "CHIN20011",
+      "report_filename": "reports/两学期全部教学班.json",
+      "report_record_id": "1020762",
+      "report_record_pointer": null,
+      "raw_body_status": null,
+      "teacher_if_explicit": "刘耘华",
+      "term_as_stated": "2026春",
+      "section_code": "CHIN20011.01"
+    },
+    {
+      "source_id": "OFFICIAL-SYLLABUS-1020762",
+      "source_type": "official",
+      "canonical_url": "https://fdjwgl.fudan.edu.cn/student/for-all/lesson-search/teachingSyllabusInfo/1020762",
+      "public_author_label": null,
+      "published_at": null,
+      "fetched_at": "2026-10-27",
+      "hole_id": null,
+      "floor_id": null,
+      "floor_number": null,
+      "review_id": null,
+      "file_and_page": "official syllabus lesson_id=1020762",
+      "image_page": null,
+      "reading_status": "structured_text_extracted",
+      "mapping_status": "lesson syllabus course code checked",
+      "record_type": "official_syllabus",
+      "adoption": "adopted_official_requirements",
+      "reason": "Official syllabus parsed locally; requirements stay attached to this offering.",
+      "duplicate_of": null,
+      "license": null,
+      "fulltext_permission": "unconfirmed",
+      "attribution_and_changes": "Only metadata, section titles, textbook details and assessment structure are exported; full syllabus text is not republished.",
+      "raw_filename": "reports/官方大纲结构化摘要.json",
+      "raw_record_id": "1020762",
+      "course_code": "CHIN20011",
+      "report_filename": "reports/官方大纲结构化摘要.json",
+      "report_record_id": "1020762",
+      "report_record_pointer": null,
+      "raw_body_status": null,
+      "teacher_if_explicit": "刘耘华",
+      "term_as_stated": "2026春",
+      "section_code": "CHIN20011.01"
+    },
+    {
+      "source_id": "OFFICIAL-OFFERING-1020763",
+      "source_type": "official",
+      "canonical_url": "https://fdjwgl.fudan.edu.cn/student/for-all/lesson-search/semester/505/search/505?openDepartmentAssocs=2620&queryPage__=1,500",
+      "public_author_label": null,
+      "published_at": null,
+      "fetched_at": "2026-10-27",
+      "hole_id": null,
+      "floor_id": null,
+      "floor_number": null,
+      "review_id": null,
+      "file_and_page": "official timetable lesson_id=1020763",
+      "image_page": null,
+      "reading_status": "official_timetable_record_read",
+      "mapping_status": "official course code and lesson_id",
+      "record_type": "official_course_offering",
+      "adoption": "adopted_official_metadata",
+      "reason": "Official 2025 autumn / 2026 spring timetable row.",
+      "duplicate_of": null,
+      "license": null,
+      "fulltext_permission": "unconfirmed",
+      "attribution_and_changes": "Official offering metadata; no student personal data included.",
+      "raw_filename": "reports/两学期全部教学班.json",
+      "raw_record_id": "1020763",
+      "course_code": "CHIN20011",
+      "report_filename": "reports/两学期全部教学班.json",
+      "report_record_id": "1020763",
+      "report_record_pointer": null,
+      "raw_body_status": null,
+      "teacher_if_explicit": "郭西安",
+      "term_as_stated": "2026春",
+      "section_code": "CHIN20011.02"
+    },
+    {
+      "source_id": "OFFICIAL-SYLLABUS-1020763",
+      "source_type": "official",
+      "canonical_url": "https://fdjwgl.fudan.edu.cn/student/for-all/lesson-search/teachingSyllabusInfo/1020763",
+      "public_author_label": null,
+      "published_at": null,
+      "fetched_at": "2026-10-27",
+      "hole_id": null,
+      "floor_id": null,
+      "floor_number": null,
+      "review_id": null,
+      "file_and_page": "official syllabus lesson_id=1020763",
+      "image_page": null,
+      "reading_status": "structured_text_extracted",
+      "mapping_status": "lesson syllabus course code checked",
+      "record_type": "official_syllabus",
+      "adoption": "adopted_official_requirements",
+      "reason": "Official syllabus parsed locally; requirements stay attached to this offering.",
+      "duplicate_of": null,
+      "license": null,
+      "fulltext_permission": "unconfirmed",
+      "attribution_and_changes": "Only metadata, section titles, textbook details and assessment structure are exported; full syllabus text is not republished.",
+      "raw_filename": "reports/官方大纲结构化摘要.json",
+      "raw_record_id": "1020763",
+      "course_code": "CHIN20011",
+      "report_filename": "reports/官方大纲结构化摘要.json",
+      "report_record_id": "1020763",
+      "report_record_pointer": null,
+      "raw_body_status": null,
+      "teacher_if_explicit": "郭西安",
+      "term_as_stated": "2026春",
+      "section_code": "CHIN20011.02"
+    }
+  ],
+  "syllabus": {
+    "source_ids": [
+      "OFFICIAL-SYLLABUS-1020762",
+      "OFFICIAL-SYLLABUS-1020763"
+    ],
+    "content": "官方大纲按教学班逐项记录在offerings；不同学期或平行班要求未合并。",
+    "prerequisites": "",
+    "assessment": ""
+  },
+  "materials": [
+    {
+      "type": "official_textbook",
+      "title": "比较文学概论(第二版）",
+      "author": "曹顺庆,孙景尧,高旭东",
+      "publisher": "高等教育出版社",
+      "publication_date": "2018-01",
+      "isbn": "9787040501056",
+      "term": "2026春",
+      "section_code": "CHIN20011.01",
+      "source_ids": [
+        "OFFICIAL-SYLLABUS-1020762"
+      ]
+    },
+    {
+      "type": "official_textbook",
+      "title": "比较文学概论",
+      "author": "杨乃乔",
+      "publisher": "北京大学出版社",
+      "publication_date": "2021-01",
+      "isbn": "9787301222577",
+      "term": "2026春",
+      "section_code": "CHIN20011.01",
+      "source_ids": [
+        "OFFICIAL-SYLLABUS-1020762"
+      ]
+    },
+    {
+      "type": "official_textbook",
+      "title": "比较文学概论",
+      "author": "杨乃乔",
+      "publisher": "北京大学出版社",
+      "publication_date": "2021-01",
+      "isbn": "9787301222577",
+      "term": "2026春",
+      "section_code": "CHIN20011.02",
+      "source_ids": [
+        "OFFICIAL-SYLLABUS-1020763"
+      ]
+    },
+    {
+      "type": "official_textbook",
+      "title": "比较文学概论(第二版）",
+      "author": "曹顺庆,孙景尧,高旭东",
+      "publisher": "高等教育出版社",
+      "publication_date": "2018-01",
+      "isbn": "9787040501056",
+      "term": "2026春",
+      "section_code": "CHIN20011.02",
+      "source_ids": [
+        "OFFICIAL-SYLLABUS-1020763"
+      ]
+    }
+  ],
+  "student_reviews_and_discussions": [],
+  "index_only_hits": [],
+  "quantitative_observations": [],
+  "offerings": [
+    {
+      "term": "2026春",
+      "section_code": "CHIN20011.01",
+      "lesson_id": 1020762,
+      "course_code": "CHIN20011",
+      "course_name": "比较文学导论",
+      "teachers": [
+        "刘耘华"
+      ],
+      "credits": 2,
+      "task_level": "本科",
+      "open_department": "中国语言文学系",
+      "course_type": "必修课程",
+      "course_table_type": "基础和专业：专业课程",
+      "exam_mode": "闭卷",
+      "total_hours": 36,
+      "source_ids": [
+        "OFFICIAL-OFFERING-1020762",
+        "OFFICIAL-SYLLABUS-1020762"
+      ],
+      "official_syllabus": {
+        "status": "structured_text_extracted",
+        "source_id": "OFFICIAL-SYLLABUS-1020762",
+        "section_titles": [
+          "课程简介（中文）",
+          "课程简介（英文）",
+          "教学目标",
+          "教学方式",
+          "教学内容与进度安排",
+          "课程考核与成绩评定",
+          "教材",
+          "教学参考资料",
+          "教学团队成员"
+        ],
+        "prerequisites": [],
+        "assessment": [
+          {
+            "criteria": "出勤Attendance",
+            "percentage": 10.0
+          },
+          {
+            "criteria": "课题研讨Topic Discussion",
+            "percentage": 30.0
+          },
+          {
+            "criteria": "期末考试Final Examination：闭卷 ",
+            "percentage": 60.0
+          }
+        ],
+        "grade_rule": "等级制",
+        "textbooks": [
+          {
+            "name": "比较文学概论(第二版）",
+            "author": "曹顺庆,孙景尧,高旭东",
+            "publishingHouse": "高等教育出版社",
+            "date": "2018-01",
+            "isbn": "9787040501056"
+          },
+          {
+            "name": "比较文学概论",
+            "author": "杨乃乔",
+            "publishingHouse": "北京大学出版社",
+            "date": "2021-01",
+            "isbn": "9787301222577"
+          }
+        ],
+        "syllabus_id": 9067,
+        "error": null
+      }
+    },
+    {
+      "term": "2026春",
+      "section_code": "CHIN20011.02",
+      "lesson_id": 1020763,
+      "course_code": "CHIN20011",
+      "course_name": "比较文学导论",
+      "teachers": [
+        "郭西安"
+      ],
+      "credits": 2,
+      "task_level": "本科",
+      "open_department": "中国语言文学系",
+      "course_type": "必修课程",
+      "course_table_type": "基础和专业：专业课程",
+      "exam_mode": "闭卷",
+      "total_hours": 36,
+      "source_ids": [
+        "OFFICIAL-OFFERING-1020763",
+        "OFFICIAL-SYLLABUS-1020763"
+      ],
+      "official_syllabus": {
+        "status": "structured_text_extracted",
+        "source_id": "OFFICIAL-SYLLABUS-1020763",
+        "section_titles": [
+          "课程简介（中文）",
+          "课程简介（英文）",
+          "教学目标",
+          "教学方式",
+          "教学内容与进度安排",
+          "课程考核与成绩评定",
+          "教材",
+          "教学参考资料",
+          "教学团队成员"
+        ],
+        "prerequisites": [],
+        "assessment": [
+          {
+            "criteria": "出勤Attendance",
+            "percentage": 10.0,
+            "standard": "要求学生准时出席每一次面授，遵守基本课堂秩序，事假病假需向任课老师报备请批，全学期请假应不得超过三次；"
+          },
+          {
+            "criteria": "课堂表现Participation",
+            "percentage": 20.0,
+            "standard": "积极响应老师提问，主动参与课堂讨论，课后阅读课堂所布置的所有材料并为课程做好复习与预习工作，并在此过程中有意识训练批判性思辨及学术表达的能力。（1）学生根据自身兴趣等考量，就老师所提供的阅读文献做出简要书面反馈；（2）学生根据自身兴趣等考量，按照老师提供的基本指南在比较文学与世界文学学科研究领域中设计一份选题报告。上述两项内容可据其具体完成情况在总评分基础上获取1-10分的绝对附加分值。"
+          },
+          {
+            "criteria": "汇报Presentation",
+            "percentage": 20.0,
+            "standard": "课堂报告，学生就有关比较文学基本概念/发展历史或经典案例的学术论文进行细读分析，集体合作完成一次学术发言，要求准备充分，发言有条理、有依据、有基本的问题意识与结论倾向，能够较好地表达一个与比较文学相关的观点，并回答听众同学的提问。"
+          },
+          {
+            "criteria": "期末考试Final Examination：闭卷 ",
+            "percentage": 50.0,
+            "standard": "要求对问答题能够根据题干清晰、简洁、基本准确地予以回答，对陈述题要求语言清晰、晓畅，观点明确，问题意识突出，有基本的学科意识，体现一定程度的批判思维与独立思考能力。"
+          }
+        ],
+        "grade_rule": "等级制",
+        "textbooks": [
+          {
+            "name": "比较文学概论",
+            "author": "杨乃乔",
+            "publishingHouse": "北京大学出版社",
+            "date": "2021-01",
+            "isbn": "9787301222577"
+          },
+          {
+            "name": "比较文学概论(第二版）",
+            "author": "曹顺庆,孙景尧,高旭东",
+            "publishingHouse": "高等教育出版社",
+            "date": "2018-01",
+            "isbn": "9787040501056"
+          }
+        ],
+        "syllabus_id": 8588,
+        "error": null
+      }
+    }
+  ],
+  "official_metadata": {
+    "department": "中国语言文学系",
+    "target_terms": [
+      "2026春"
+    ],
+    "target_teachers": [
+      "郭西安",
+      "刘耘华"
+    ],
+    "task_levels": [
+      "本科"
+    ],
+    "section_count": 2,
+    "official_offering_count_in_snapshot": 2,
+    "course_type_values_by_offering": [
+      "必修课程"
+    ],
+    "course_table_type_values_by_offering": [
+      "基础和专业：专业课程"
+    ],
+    "source_ids": [
+      "OFFICIAL-OFFERING-1020762",
+      "OFFICIAL-OFFERING-1020763"
+    ]
+  },
+  "comparison_and_summary": {
+    "teaching_and_learning": "本快照没有可读的课程体验材料，无法归纳学习收获。",
+    "workload": "本快照没有可读的课程体验材料，无法归纳准备或作业量。",
+    "assessment": "本快照没有可读的课程体验材料，无法归纳考核或评分。",
+    "grading_and_risk": "",
+    "teacher_and_term_differences": "已读来源未明确写出教师姓名；不能据课程名或现任教师表补认授课者。 来源没有可确认的修读学期。",
+    "who_it_suits": "",
+    "source_ids": [],
+    "section_source_ids": {
+      "teaching_and_learning": [],
+      "workload": [],
+      "assessment": [],
+      "teacher_and_term_differences": []
+    },
+    "manual_comparison": {
+      "status": "not_prepared_in_current_snapshot",
+      "text": "本快照未形成逐课人工综合；不依据模板或相邻课程推导结论。",
+      "evidence_ids": [],
+      "limitations": "可查看已读来源摘要和官方教学班资料；仍需逐课人工比较。",
+      "confidence": null
+    },
+    "confidence": "none：本快照无已读、可采用来源。",
+    "limitations": "当前已读材料没有可采用的课程体验证据；未读索引、广告、提问或仅仓库摘要不计入。"
+  },
+  "research_snapshot": {
+    "date": "2026-10-27",
+    "curated_evidence_record_count": 535,
+    "synthesis_source_assignment_count": 522,
+    "public_review_index_record_count": 167,
+    "public_adopted_findings_count": 11
+  }
+}
