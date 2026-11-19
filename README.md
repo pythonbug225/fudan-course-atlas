@@ -1,6 +1,6 @@
 # 复旦选课地图 · 全校课评库协作
 
-**本分支中文系资料：[原始数据文件](中文系原始数据/README.md) · [中文系课程名单](research/contributions/chinese-language-20261027/中文系课程名单.txt) · [课评与研究报告](research/contributions/chinese-language-20261027/README.md)**
+**本分支中文系资料：[课程关系图谱](中文系课程关系图谱/README.md) · [原始数据文件](中文系原始数据/README.md) · [中文系课程名单](research/contributions/chinese-language-20261027/中文系课程名单.txt) · [课评与研究报告](research/contributions/chinese-language-20261027/README.md)**
 
 [在线使用](https://fudan-course-atlas.xiasinm.chatgpt.site) · [下载引用资料包](https://github.com/pythonbug225/fudan-course-atlas/releases/tag/references-20261027-caic) · [参与修改](CONTRIBUTING.md) · [提交反馈](https://github.com/pythonbug225/fudan-course-atlas/issues)
 
@@ -246,3 +246,4 @@ python scripts/build_search.py
 [GitHub参考资料包](https://github.com/pythonbug225/fudan-course-atlas/releases/tag/references-20261026-summer)按课程索引、大纲与培养方案、数学试卷分包；本次新增暑期课程和认定资料，既有大纲、数学试卷及手册压缩包沿用前版原件与校验值，以控制重复下载。解压到同一目录后打开离线引用目录。附课程引用索引、JSON/CSV、BibTeX和SHA256清单。FDU-Sharing原件保留固定commit链接，避免重复镜像上游大文件。
 
 详见[暑期课程与精选全文补充记录](docs/summer-and-full-reviews-20261026.md)、[本轮续补记录](docs/review-research-20261025-batch2.md)与[此前阅读台账](docs/review-research-20261025.md)。私人聊天原档、成员信息、个人教务记录和登录状态不进入公开仓库或Release；可公开的既有树洞／蛋壳抓取快照经脱敏后见原始数据Release。
+
