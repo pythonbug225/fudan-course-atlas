@@ -1,0 +1,173 @@
+{
+  "snapshot_date": "2026-10-28",
+  "review_date": "2026-11-19",
+  "programs": [
+    {
+      "program_id": "153012",
+      "source_ref": "plan-153012",
+      "fields": [
+        {
+          "pointer": "/courseModules/37/planCourses/0/course/defaultPreCourses",
+          "value": []
+        },
+        {
+          "pointer": "/courseModules/37/planCourses/0/course/defaultPreCourseList",
+          "value": []
+        },
+        {
+          "pointer": "/courseModules/37/realPlanCourses/0/course/defaultPreCourses",
+          "value": []
+        },
+        {
+          "pointer": "/courseModules/37/realPlanCourses/0/course/defaultPreCourseList",
+          "value": []
+        }
+      ],
+      "nonempty_prerequisite_fields": 0,
+      "textual_keyword_hits": [],
+      "word_xml_chars": 37068,
+      "word_keyword_hits": [],
+      "conclusion": "非空先修记录未确认。字段只在FDUROP占位课程出现且为空；不能把其空值解释为HIST课程无需先修。",
+      "limits": "JSON可见文本及Word正文XML已检索；未OCR图片，未取得全部课程大纲和研究生培养方案。"
+    },
+    {
+      "program_id": "154472",
+      "source_ref": "plan-154472",
+      "fields": [
+        {
+          "pointer": "/courseModules/37/planCourses/0/course/defaultPreCourses",
+          "value": []
+        },
+        {
+          "pointer": "/courseModules/37/planCourses/0/course/defaultPreCourseList",
+          "value": []
+        },
+        {
+          "pointer": "/courseModules/37/realPlanCourses/0/course/defaultPreCourses",
+          "value": []
+        },
+        {
+          "pointer": "/courseModules/37/realPlanCourses/0/course/defaultPreCourseList",
+          "value": []
+        }
+      ],
+      "nonempty_prerequisite_fields": 0,
+      "textual_keyword_hits": [],
+      "word_xml_chars": 36560,
+      "word_keyword_hits": [],
+      "conclusion": "非空先修记录未确认。字段只在FDUROP占位课程出现且为空；不能把其空值解释为HIST课程无需先修。",
+      "limits": "JSON可见文本及Word正文XML已检索；未OCR图片，未取得全部课程大纲和研究生培养方案。"
+    },
+    {
+      "program_id": "154078",
+      "source_ref": "plan-154078",
+      "fields": [
+        {
+          "pointer": "/courseModules/23/planCourses/2/course/defaultPreCourses",
+          "value": []
+        },
+        {
+          "pointer": "/courseModules/23/planCourses/2/course/defaultPreCourseList",
+          "value": []
+        },
+        {
+          "pointer": "/courseModules/23/realPlanCourses/2/course/defaultPreCourses",
+          "value": []
+        },
+        {
+          "pointer": "/courseModules/23/realPlanCourses/2/course/defaultPreCourseList",
+          "value": []
+        }
+      ],
+      "nonempty_prerequisite_fields": 0,
+      "textual_keyword_hits": [],
+      "word_xml_chars": 9396,
+      "word_keyword_hits": [],
+      "conclusion": "非空先修记录未确认。字段只在FDUROP占位课程出现且为空；不能把其空值解释为HIST课程无需先修。",
+      "limits": "JSON可见文本及Word正文XML已检索；未OCR图片，未取得全部课程大纲和研究生培养方案。"
+    },
+    {
+      "program_id": "153592",
+      "source_ref": "plan-153592",
+      "fields": [
+        {
+          "pointer": "/courseModules/41/planCourses/1/course/defaultPreCourses",
+          "value": []
+        },
+        {
+          "pointer": "/courseModules/41/planCourses/1/course/defaultPreCourseList",
+          "value": []
+        },
+        {
+          "pointer": "/courseModules/41/realPlanCourses/1/course/defaultPreCourses",
+          "value": []
+        },
+        {
+          "pointer": "/courseModules/41/realPlanCourses/1/course/defaultPreCourseList",
+          "value": []
+        }
+      ],
+      "nonempty_prerequisite_fields": 0,
+      "textual_keyword_hits": [],
+      "word_xml_chars": 38484,
+      "word_keyword_hits": [],
+      "conclusion": "非空先修记录未确认。字段只在FDUROP占位课程出现且为空；不能把其空值解释为HIST课程无需先修。",
+      "limits": "JSON可见文本及Word正文XML已检索；未OCR图片，未取得全部课程大纲和研究生培养方案。"
+    }
+  ],
+  "official_prerequisites_confirmed": 0,
+  "input_files": [
+    {
+      "path": "2026-10-30/report/history-research/official/历史学课程清单.json",
+      "sha256": "1b30995649cdfaeaa18816f18fcb55204742dd3bdb2eed2c192cda416f162504"
+    },
+    {
+      "path": "2026-10-30/report/history-research/official/历史学课程教学班.json",
+      "sha256": "2e60a615f162d55f579280f54f2ccaed923947692d37ff91663ea6dbe9f3a4d3"
+    },
+    {
+      "path": "2026-10-30/report/history-research/official/培养方案课程索引.json",
+      "sha256": "ed268b1bc98dfb0c484493720030ce550d94b6e784e9f356b81e2dda8961d02b"
+    },
+    {
+      "path": "2026-10-30/report/history-research/official/方案下载清单.json",
+      "sha256": "a43a5067c7cdbb155265f1151366c3d7097039ba9eb2cd69435d81d75947d7a3"
+    },
+    {
+      "path": "course-graph/rules.json",
+      "sha256": "bafad220ba2a014adcd29b998074cc8c13a259059e6707a4efff614e5bf7139b"
+    },
+    {
+      "path": "2026-10-30/report/history-research/official/原始接口/153012.json",
+      "sha256": "d3e99d984b59f5e637c170e45fea00256520bfb891dff1f721355a7318cb6213"
+    },
+    {
+      "path": "2026-10-30/report/history-research/official/方案原件/153012_2026历史学专业本科培养方案.docx",
+      "sha256": "77a7aebf682184efaa3943a8f219729375a70791e53c52ffde90ded7b4ab46c7"
+    },
+    {
+      "path": "2026-10-30/report/history-research/official/原始接口/154472.json",
+      "sha256": "46e7ec8f6d46ff4f3daa2a94cef4c591058f8e8680aa2e29198be06ea4fd5c5f"
+    },
+    {
+      "path": "2026-10-30/report/history-research/official/方案原件/154472_2026历史学专业本科培养方案（留学生适用）.docx",
+      "sha256": "c5f97e63e2a262839db98cce829ec273f710ae7aedffd57a9319b822038eae2d"
+    },
+    {
+      "path": "2026-10-30/report/history-research/official/原始接口/154078.json",
+      "sha256": "88f96b0bc02394cad798b56f77d45b1a6ba59e1dbd3fc360781076a04002ffc4"
+    },
+    {
+      "path": "2026-10-30/report/history-research/official/方案原件/154078_2026历史学-旅游管理双学士学位项目培养方案.docx",
+      "sha256": "033c6b462580ebb6c0d83e2e9345ac0fa19414e51c5d4ec240a15bf82446f0c1"
+    },
+    {
+      "path": "2026-10-30/report/history-research/official/原始接口/153592.json",
+      "sha256": "766a5f845711d7d1fc7d5fe66391af772aa1118e5f1acf8e61d8185bad9dd142"
+    },
+    {
+      "path": "2026-10-30/report/history-research/official/方案原件/153592_2026历史学专业本科培养方案（强基计划）.docx",
+      "sha256": "b4c7412b71a7b5145abfdc101387647e7804234762b927a0510c6e07e5d0ddb3"
+    }
+  ]
+}
