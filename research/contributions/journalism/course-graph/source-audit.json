@@ -1,0 +1,219 @@
+{
+  "date": "2026-11-19",
+  "snapshot_commit": "802ace3b97a20c334818673331c5f4728773156b",
+  "catalog_sections": 352,
+  "catalog_course_codes": 207,
+  "catalog_unique_names": 203,
+  "programs_checked": 27,
+  "program_only_additional_codes": 78,
+  "graph_nodes": 285,
+  "all_hard_prerequisite_fields_status": "未发现具名先修条款；不等于没有先修要求。",
+  "textual_prerequisite_hits": 0,
+  "curriculum_figures_extracted": 27,
+  "unique_figure_hashes": 19,
+  "figures_visually_read": [
+    "153731",
+    "153733",
+    "153736",
+    "153741"
+  ],
+  "confirmed_enrollment_prerequisite_edges": 0,
+  "scope_limits": [
+    "2025秋—2026春开课快照与2026级培养方案分别标记；本图不声称当前学期已开出全部方案列课。",
+    "未取得逐班教学大纲；内容联系与建议知识准备主要以课程题名和通用学科逻辑整理。",
+    "没有按课号大小、难度等级、秋春开课先后推断强制先修；也没有生成所有较早/较晚课程之间的边。",
+    "同名异号、本研课程、方案名称变化不自动合并，内容联系不表示学分互认。",
+    "四张官方课程体系配图中的15条清晰课程箭头被编码；未把其余活动、未清楚判读箭头及整张图都宣称为已结构化。"
+  ],
+  "programs": [
+    {
+      "id": "153731",
+      "name": "2026传播学专业本科培养方案",
+      "json_sha256": "346b0cfd0e0403c2234888c11e311e65c07e4d7addb9d9898491c128775a7194",
+      "curriculum_section": "课程体系与科研训练体系",
+      "source": "https://github.com/pythonbug225/fudan-course-atlas/blob/802ace3b97a20c334818673331c5f4728773156b/research/contributions/journalism/official/official-originals.zip"
+    },
+    {
+      "id": "153733",
+      "name": "2026广播电视学（数字视听）专业本科培养方案",
+      "json_sha256": "a22f35c82ba2dc0a17475f87748545fa3ddecdfc30755bf61b7ad38322bbf076",
+      "curriculum_section": "课程体系与科研训练体系",
+      "source": "https://github.com/pythonbug225/fudan-course-atlas/blob/802ace3b97a20c334818673331c5f4728773156b/research/contributions/journalism/official/official-originals.zip"
+    },
+    {
+      "id": "153736",
+      "name": "2026广告学（商业传播）专业本科培养方案",
+      "json_sha256": "71ee3ff27ceabb4835c2d3d42ee66ba23e1a77c75ef6df7b84bd6af775873064",
+      "curriculum_section": "课程体系与科研训练体系",
+      "source": "https://github.com/pythonbug225/fudan-course-atlas/blob/802ace3b97a20c334818673331c5f4728773156b/research/contributions/journalism/official/official-originals.zip"
+    },
+    {
+      "id": "153737",
+      "name": "2026传播学专业本科培养方案（留学生）",
+      "json_sha256": "055d417d085fdee734adfcf76b8b9ca0cb31105b1d6a06b8de4c08c0d067a852",
+      "curriculum_section": "课程体系与科研训练体系",
+      "source": "https://github.com/pythonbug225/fudan-course-atlas/blob/802ace3b97a20c334818673331c5f4728773156b/research/contributions/journalism/official/official-originals.zip"
+    },
+    {
+      "id": "153738",
+      "name": "2026传播学专业本科培养方案（港澳台侨生）",
+      "json_sha256": "5d9668c899f9f25eeced8022fee2e82aea4ad94c8a0b2351fd41c2246f6b4b73",
+      "curriculum_section": "课程体系与科研训练体系",
+      "source": "https://github.com/pythonbug225/fudan-course-atlas/blob/802ace3b97a20c334818673331c5f4728773156b/research/contributions/journalism/official/official-originals.zip"
+    },
+    {
+      "id": "153739",
+      "name": "2026广播电视学（数字视听）专业本科培养方案（港澳台侨生）",
+      "json_sha256": "7aff96c524444947e8d27bc3addfddee6e9c44a3dfa0a0f00937d62dcef02904",
+      "curriculum_section": "课程体系与科研训练体系",
+      "source": "https://github.com/pythonbug225/fudan-course-atlas/blob/802ace3b97a20c334818673331c5f4728773156b/research/contributions/journalism/official/official-originals.zip"
+    },
+    {
+      "id": "153740",
+      "name": "2026广播电视学（数字视听）专业本科培养方案（留学生）",
+      "json_sha256": "ab2d0e89902bbd0f43cc62e7358322dedcc1d650d511eb0ff8ee968bd68889b7",
+      "curriculum_section": "课程体系与科研训练体系",
+      "source": "https://github.com/pythonbug225/fudan-course-atlas/blob/802ace3b97a20c334818673331c5f4728773156b/research/contributions/journalism/official/official-originals.zip"
+    },
+    {
+      "id": "153741",
+      "name": "2026新闻学专业本科培养方案",
+      "json_sha256": "2984dc1a78f74938c6295ce474eac49b1c8edf8f8a53f5c69e2f446362ed0174",
+      "curriculum_section": "课程体系与科研训练体系",
+      "source": "https://github.com/pythonbug225/fudan-course-atlas/blob/802ace3b97a20c334818673331c5f4728773156b/research/contributions/journalism/official/official-originals.zip"
+    },
+    {
+      "id": "153742",
+      "name": "2026新闻学专业本科培养方案（港澳台侨生）",
+      "json_sha256": "12d30cca62941fb3e0a2029b8f6cff03e1f46c154f806c805b397e227a145190",
+      "curriculum_section": "课程体系与科研训练体系",
+      "source": "https://github.com/pythonbug225/fudan-course-atlas/blob/802ace3b97a20c334818673331c5f4728773156b/research/contributions/journalism/official/official-originals.zip"
+    },
+    {
+      "id": "153745",
+      "name": "2026新闻学专业本科培养方案（留学生）",
+      "json_sha256": "b8aecd752be0f8a0f93c65a2771f9b31cbcea07f2c53bebde511f4ec3966372e",
+      "curriculum_section": "课程体系与科研训练体系",
+      "source": "https://github.com/pythonbug225/fudan-course-atlas/blob/802ace3b97a20c334818673331c5f4728773156b/research/contributions/journalism/official/official-originals.zip"
+    },
+    {
+      "id": "153746",
+      "name": "2026广告学（商业传播）专业本科培养方案（港澳台侨生）",
+      "json_sha256": "af952999c21566583e357290d8834c3c5aa80a883efdabd4cdc08ce914d1e9ba",
+      "curriculum_section": "课程体系与科研训练体系",
+      "source": "https://github.com/pythonbug225/fudan-course-atlas/blob/802ace3b97a20c334818673331c5f4728773156b/research/contributions/journalism/official/official-originals.zip"
+    },
+    {
+      "id": "153747",
+      "name": "2026广告学（商业传播）专业本科培养方案（留学生）",
+      "json_sha256": "4ae29072b256677f8042c8863a0bba1c4fe29b2d7fa53e829614bf61017e4c04",
+      "curriculum_section": "课程体系与科研训练体系",
+      "source": "https://github.com/pythonbug225/fudan-course-atlas/blob/802ace3b97a20c334818673331c5f4728773156b/research/contributions/journalism/official/official-originals.zip"
+    },
+    {
+      "id": "153748",
+      "name": "2026传播学-人工智能双学士学位项目本科培养方案",
+      "json_sha256": "cff7bc83e48cc1373a0fcc326ad93bea1e68ac44bcddb2e86c91ade4992839f7",
+      "curriculum_section": "课程体系与科研训练体系",
+      "source": "https://github.com/pythonbug225/fudan-course-atlas/blob/802ace3b97a20c334818673331c5f4728773156b/research/contributions/journalism/official/official-originals.zip"
+    },
+    {
+      "id": "153750",
+      "name": "2026传播学-社会学双学士学位项目本科培养方案",
+      "json_sha256": "13da62e1e4b283293abf4da884996241df496a6016a42028eccd9bce44924bb0",
+      "curriculum_section": "课程体系与科研训练体系",
+      "source": "https://github.com/pythonbug225/fudan-course-atlas/blob/802ace3b97a20c334818673331c5f4728773156b/research/contributions/journalism/official/official-originals.zip"
+    },
+    {
+      "id": "153751",
+      "name": "2026新闻学-法学双学士学位项目本科培养方案",
+      "json_sha256": "6514e0a42182ab30255c37b3edbf85f7f6706d906c9a04c2edc891bbe4cf8a59",
+      "curriculum_section": "课程体系与科研训练体系",
+      "source": "https://github.com/pythonbug225/fudan-course-atlas/blob/802ace3b97a20c334818673331c5f4728773156b/research/contributions/journalism/official/official-originals.zip"
+    },
+    {
+      "id": "153752",
+      "name": "2026新闻学-国际政治（全球领导力方向）双学士学位项目本科培养方案",
+      "json_sha256": "fdc47d3c97eb45ab606054052cedc54eff5734acb0b3e0e6b5db4f899a6feaa1",
+      "curriculum_section": "课程体系与科研训练体系",
+      "source": "https://github.com/pythonbug225/fudan-course-atlas/blob/802ace3b97a20c334818673331c5f4728773156b/research/contributions/journalism/official/official-originals.zip"
+    },
+    {
+      "id": "153753",
+      "name": "2026新闻学-经济学双学士学位项目本科培养方案",
+      "json_sha256": "2f8abec712aa1bbf62dd736ea64109b539864c562a420d154ee26d81afd2b892",
+      "curriculum_section": "课程体系与科研训练体系",
+      "source": "https://github.com/pythonbug225/fudan-course-atlas/blob/802ace3b97a20c334818673331c5f4728773156b/research/contributions/journalism/official/official-originals.zip"
+    },
+    {
+      "id": "153754",
+      "name": "2026新闻学-人工智能双学士学位项目本科培养方案",
+      "json_sha256": "134bcc283740a57b7b292ed93758010c1576281b15ccc438de4ee7aade1256ad",
+      "curriculum_section": "课程体系与科研训练体系",
+      "source": "https://github.com/pythonbug225/fudan-course-atlas/blob/802ace3b97a20c334818673331c5f4728773156b/research/contributions/journalism/official/official-originals.zip"
+    },
+    {
+      "id": "153755",
+      "name": "2026新闻学-社会学双学士学位项目本科培养方案",
+      "json_sha256": "0bed1cc2f01b7409960b17b8973f6b2b905ac72429966d33f0525adfa1ee0774",
+      "curriculum_section": "课程体系与科研训练体系",
+      "source": "https://github.com/pythonbug225/fudan-course-atlas/blob/802ace3b97a20c334818673331c5f4728773156b/research/contributions/journalism/official/official-originals.zip"
+    },
+    {
+      "id": "153756",
+      "name": "2026新闻学（望道新闻卓越班）--新闻传播学本硕融通培养方案",
+      "json_sha256": "63281bdf6a00b1210ac616e8018e0c7079967896519c57694bca05e591450836",
+      "curriculum_section": "课程体系与科研训练体系",
+      "source": "https://github.com/pythonbug225/fudan-course-atlas/blob/802ace3b97a20c334818673331c5f4728773156b/research/contributions/journalism/official/official-originals.zip"
+    },
+    {
+      "id": "153757",
+      "name": "2026新闻学（望道新闻卓越班）-法学双学士学位项目本硕融通方案",
+      "json_sha256": "06866ef5423fa1541ccb1f6d8f1a16bdd006d3a75244062645009e264ab52d16",
+      "curriculum_section": "课程体系与科研训练体系",
+      "source": "https://github.com/pythonbug225/fudan-course-atlas/blob/802ace3b97a20c334818673331c5f4728773156b/research/contributions/journalism/official/official-originals.zip"
+    },
+    {
+      "id": "153758",
+      "name": "2026新闻学（望道新闻卓越班）-国际政治（全球领导力方向）双学士学位项目本硕融通方案",
+      "json_sha256": "ac0843250f794ba88701966947ab6aabdf9f450465041d0d0b5da34ff513de5d",
+      "curriculum_section": "课程体系与科研训练体系",
+      "source": "https://github.com/pythonbug225/fudan-course-atlas/blob/802ace3b97a20c334818673331c5f4728773156b/research/contributions/journalism/official/official-originals.zip"
+    },
+    {
+      "id": "153759",
+      "name": "2026新闻学（望道新闻卓越班）-经济学双学士学位项目本硕融通方案",
+      "json_sha256": "873b68fda1926963418fb4de8f7ba9adb5d5752561777eb20bbd123aeadeb8fc",
+      "curriculum_section": "课程体系与科研训练体系",
+      "source": "https://github.com/pythonbug225/fudan-course-atlas/blob/802ace3b97a20c334818673331c5f4728773156b/research/contributions/journalism/official/official-originals.zip"
+    },
+    {
+      "id": "153761",
+      "name": "2026新闻学（望道新闻卓越班）-人工智能双学士学位项目本硕融通方案",
+      "json_sha256": "142515084532231f0d09529e022985f1596d695552bfe20be864984cce630ce8",
+      "curriculum_section": "课程体系与科研训练体系",
+      "source": "https://github.com/pythonbug225/fudan-course-atlas/blob/802ace3b97a20c334818673331c5f4728773156b/research/contributions/journalism/official/official-originals.zip"
+    },
+    {
+      "id": "154152",
+      "name": "2026广播电视学--新闻传播学本硕融通培养方案（数字视听菁英班）",
+      "json_sha256": "8243dc9172922825d36b1641a533ecab548834c366e2a810cd2b666ffb997391",
+      "curriculum_section": "课程体系与科研训练体系",
+      "source": "https://github.com/pythonbug225/fudan-course-atlas/blob/802ace3b97a20c334818673331c5f4728773156b/research/contributions/journalism/official/official-originals.zip"
+    },
+    {
+      "id": "154153",
+      "name": "2026广告学--新闻传播学本硕融通培养方案（战略传播菁英班）",
+      "json_sha256": "8271c5e78596c381cdf919306abe6c1095b4f01ef2758987756b6c279b0211eb",
+      "curriculum_section": "课程体系与科研训练体系",
+      "source": "https://github.com/pythonbug225/fudan-course-atlas/blob/802ace3b97a20c334818673331c5f4728773156b/research/contributions/journalism/official/official-originals.zip"
+    },
+    {
+      "id": "154237",
+      "name": "2026新闻学（望道新闻卓越班）-社会学双学士学位项目本硕融通方案",
+      "json_sha256": "45c75e1d8a716bb990d2d87f8c837370450c48cefcb0262afcf7837b4dfd5d40",
+      "curriculum_section": "课程体系与科研训练体系",
+      "source": "https://github.com/pythonbug225/fudan-course-atlas/blob/802ace3b97a20c334818673331c5f4728773156b/research/contributions/journalism/official/official-originals.zip"
+    }
+  ]
+}

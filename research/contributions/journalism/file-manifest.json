@@ -23,6 +23,106 @@
   },
   "files": [
     {
+      "path": "README.md",
+      "bytes": 4602,
+      "sha256": "61abdd4a06d8636a86dcc5f02faffba74dd67ee21a03c13ab114c6e32f0729a2"
+    },
+    {
+      "path": "course-graph/README.md",
+      "bytes": 3393,
+      "sha256": "a6bd08ef29485e4150ec64352d8c00046390b62a55f50fb32b63a1b4a2de6f5f"
+    },
+    {
+      "path": "course-graph/build_graph.py",
+      "bytes": 16084,
+      "sha256": "22c9ee7c4b8eae934f4618ad4faf82e2ebb696b7340c83aa2cba7b50986786cf"
+    },
+    {
+      "path": "course-graph/curation.py",
+      "bytes": 17637,
+      "sha256": "8cc3dbd12a16ed2cfecc5872b25190587a7a90e8db0cbce8a593f9f8810bdf95"
+    },
+    {
+      "path": "course-graph/edges.csv",
+      "bytes": 93579,
+      "sha256": "9a94e61391bebbb3076be16874f3056fd4350703ee59ac7025d90195d2f46743"
+    },
+    {
+      "path": "course-graph/extract_program_index.py",
+      "bytes": 1309,
+      "sha256": "66e6748f1e8e89cd50024a0357f14d71f1210f3bf70dac21ed8cc556f69862d9"
+    },
+    {
+      "path": "course-graph/graph.json",
+      "bytes": 747621,
+      "sha256": "aeb1f894efc260b4cc6efa919fd9fa6a38245064b0db729ab6bfe8b14d2d6d47"
+    },
+    {
+      "path": "course-graph/nodes.csv",
+      "bytes": 74125,
+      "sha256": "ad22de4894b4343aad7734ed63e1a0bb77189a3d4b8bf5a60106a86c860868f6"
+    },
+    {
+      "path": "course-graph/prepare_sources.py",
+      "bytes": 1948,
+      "sha256": "f05b4f44b4f3be5771066d17cebcc7d95835dc5d87e688e3e6ae56d33b2b579f"
+    },
+    {
+      "path": "course-graph/program-memberships.json",
+      "bytes": 672143,
+      "sha256": "d055c0a37dfe6fa20e0a4b6c7c4000e403199bb7e45bee644fb6c239bacc2072"
+    },
+    {
+      "path": "course-graph/source-audit.json",
+      "bytes": 13920,
+      "sha256": "74740850dace96696bef7f4626c18b5cb7f7593d15eaba89d0515ad8369ab439"
+    },
+    {
+      "path": "course-graph/source-figures/153731.png",
+      "bytes": 44005,
+      "sha256": "c1aa0834ad99af87ebdc271a022de0f89d0f473fa87673af17f8f1922cb7e129"
+    },
+    {
+      "path": "course-graph/source-figures/153733.png",
+      "bytes": 86709,
+      "sha256": "6d598da66b332fd76ce72d1c3ed732b6e59312a40ecc941ad17dc2e10ca70504"
+    },
+    {
+      "path": "course-graph/source-figures/153736.png",
+      "bytes": 64428,
+      "sha256": "2f39f72d334aaf8d0823b8845bdb3e775a424897dd9b2ad90471776989be0994"
+    },
+    {
+      "path": "course-graph/source-figures/153741.png",
+      "bytes": 58780,
+      "sha256": "40209bd426f091a7efa5b8e231382408baeb2d6ef9855935a66adcbf90555215"
+    },
+    {
+      "path": "course-graph/validate_graph.py",
+      "bytes": 1998,
+      "sha256": "648a711e707c4217374588ed985b45f377ba64f1ee4ce5007099192927dffdc6"
+    },
+    {
+      "path": "course-graph/validation.json",
+      "bytes": 433,
+      "sha256": "09a9645cbbaf6c60511b09ed1d96bdb9c4b37ffd258afd63d790ec122c252036"
+    },
+    {
+      "path": "course-graph/viewer-template.html",
+      "bytes": 17208,
+      "sha256": "e76653173626ea066198e87c122d75c5220158ca85d54f79f6735b7c57f1010a"
+    },
+    {
+      "path": "course-graph/课程关系主线.svg",
+      "bytes": 7696,
+      "sha256": "0cf61e38f8eb60bd81dd6fb1a8312ebfdf844f104a5ea9af2f04e627d5b69e21"
+    },
+    {
+      "path": "course-graph/课程关系图谱.html",
+      "bytes": 479143,
+      "sha256": "8dabdbd658d289c9515b131840a0a7dd93a9dfa94f17d27499980c1a4d75bab7"
+    },
+    {
       "path": "derived/research-data-and-summaries.zip",
       "bytes": 392333,
       "sha256": "3abb1abfb8561eb7e0a947cc98a814748c0e9401ae98c4e4149f9420482a3a98"
@@ -68,11 +168,6 @@
       "sha256": "5c96e0f459bffd80281a7e565616ee5d6004a2912c899b061b5cc7dd7dc55663"
     },
     {
-      "path": "README.md",
-      "bytes": 3861,
-      "sha256": "ecabce3920f3e90c6f1034e3cd53d4ed71a97d49ccb539657f61cd2f43a2aded"
-    },
-    {
       "path": "reports/新闻学院完整研究报告.zip",
       "bytes": 12754927,
       "sha256": "7c18c10fa8adb9a8470abf6a49ba6c9254783693f0c571b9948c0cd8e28c03b9"
@@ -107,5 +202,11 @@
       "bytes": 4812,
       "sha256": "34dc86cdacd666062410f6c02d161a5898c61d35708fcd03add9de04ffa87f89"
     }
-  ]
+  ],
+  "course_graph": {
+    "updated": "2026-11-19",
+    "nodes": 285,
+    "edges": 273,
+    "confirmed_enrollment_prerequisites": 0
+  }
 }
