@@ -7,6 +7,11 @@
       "sha256": "bec2a9838f45598da930476ca49f577f28c429d6cfe1d9bef6cb823dd2e9abfb"
     },
     {
+      "path": "README.md",
+      "bytes": 5208,
+      "sha256": "825e1bafe51ae0d7b6cf9d494c90021f7386ded06291518784c714bf51220595"
+    },
+    {
       "path": "course-summaries.md",
       "bytes": 91643,
       "sha256": "c0b2f0877a2514f3653e36588e7029999d910bb978bb50abc18a58a43b8982b9"
@@ -65,11 +70,6 @@
       "path": "official/schedule-field-audit.json",
       "bytes": 385971,
       "sha256": "bddd6d2bffbee726ba70bfab98c992ca4c89ad9cd906761a34ad4a5b09e60a9a"
-    },
-    {
-      "path": "README.md",
-      "bytes": 4948,
-      "sha256": "ded1fcad49b5b22279621490b9377a5ecfab91a0cef59602f81b3de282a7ee02"
     },
     {
       "path": "summaries/aliases.json",
@@ -720,6 +720,61 @@
       "path": "哲学系课程名单.txt",
       "bytes": 6058,
       "sha256": "ec6576e3b4dc93fee2405fe955da6ddf1a739e42353db38d795cc414eccf4cb1"
+    },
+    {
+      "path": "课程关系图谱/README.md",
+      "bytes": 14398,
+      "sha256": "487c6c861f8f386edc7f79316afa1c4f02622a4458eb5270038111556344b232"
+    },
+    {
+      "path": "课程关系图谱/audit.json",
+      "bytes": 558,
+      "sha256": "8ff78b9b71d54de26d29dcb2c7eac51cadb353dacd7f40d7dd67278ec06b6b99"
+    },
+    {
+      "path": "课程关系图谱/build_graph.py",
+      "bytes": 20944,
+      "sha256": "55dc16cf2d8eccc5f0abc042cb0b59fc619bee33231e96dfd6ef34851565eb8d"
+    },
+    {
+      "path": "课程关系图谱/check_graph.py",
+      "bytes": 2737,
+      "sha256": "1b80b62bc8a31ac3975ac63bba66bc99a0bb761b4a186a57c525a79047a12c43"
+    },
+    {
+      "path": "课程关系图谱/edges.csv",
+      "bytes": 146530,
+      "sha256": "eb91e4fc1d7ecfdbbdddda355f134b7e74636184ed26fb43a817cbeabb2dff78"
+    },
+    {
+      "path": "课程关系图谱/graph.json",
+      "bytes": 490912,
+      "sha256": "8aeeaf034de40eb8296ed554b4b692559c523af5d2c67291e99d5292bf6cf3df"
+    },
+    {
+      "path": "课程关系图谱/index.html",
+      "bytes": 359703,
+      "sha256": "9b0c101bb68d43aaf3b98b5a8c23ffd8d32e37c028434ded964d6b8ecd711f03"
+    },
+    {
+      "path": "课程关系图谱/nodes.csv",
+      "bytes": 26221,
+      "sha256": "b5b58a5594905383aadf43ca0cec8e048465ab396234102857f7003560d13ea9"
+    },
+    {
+      "path": "课程关系图谱/sources.json",
+      "bytes": 1212,
+      "sha256": "6ca326d295d0bb17259f081c68dd59bd5fc05a2c8cd10fd1b4d2bac92657960e"
+    },
+    {
+      "path": "课程关系图谱/viewer.js",
+      "bytes": 7267,
+      "sha256": "8fab8a7bfaeb3dc251ac952fff28a7c6816e28a0b8d232e53befafd32aa2d3c2"
+    },
+    {
+      "path": "课程关系图谱/viewer.template.html",
+      "bytes": 5733,
+      "sha256": "390b719255776cce7696b1d1d037601f88567702993c823c2c1742b923e6a873"
     }
   ],
   "release": {
