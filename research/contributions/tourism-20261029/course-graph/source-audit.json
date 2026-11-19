@@ -1,0 +1,90 @@
+{
+  "date": "2026-11-19",
+  "base_commit": "262d99e34d453e99fda887773c41137376209be0",
+  "plans": [
+    {
+      "plan_id": "154832",
+      "prerequisite_fields": [
+        {
+          "path": "/courseModules/21/planCourses/0/course/defaultPreCourses",
+          "value": []
+        },
+        {
+          "path": "/courseModules/21/planCourses/0/course/defaultPreCourseList",
+          "value": []
+        },
+        {
+          "path": "/courseModules/21/realPlanCourses/0/course/defaultPreCourses",
+          "value": []
+        },
+        {
+          "path": "/courseModules/21/realPlanCourses/0/course/defaultPreCourseList",
+          "value": []
+        }
+      ],
+      "prerequisite_text_paths": [],
+      "current_hard_prerequisites_verified": 0
+    },
+    {
+      "plan_id": "154078",
+      "prerequisite_fields": [
+        {
+          "path": "/courseModules/23/planCourses/2/course/defaultPreCourses",
+          "value": []
+        },
+        {
+          "path": "/courseModules/23/planCourses/2/course/defaultPreCourseList",
+          "value": []
+        },
+        {
+          "path": "/courseModules/23/realPlanCourses/2/course/defaultPreCourses",
+          "value": []
+        },
+        {
+          "path": "/courseModules/23/realPlanCourses/2/course/defaultPreCourseList",
+          "value": []
+        }
+      ],
+      "prerequisite_text_paths": [],
+      "current_hard_prerequisites_verified": 0
+    }
+  ],
+  "images_reviewed": [
+    {
+      "title": "2026旅游管理专业本科培养方案（留学生适用）：课程体系与科研训练体系图",
+      "url": "source-figures/plan-154832-curriculum.png",
+      "path": "source-figures/plan-154832-curriculum.png",
+      "original_docx_url": "https://github.com/pythonbug225/fudan-course-atlas/blob/262d99e34d453e99fda887773c41137376209be0/research/contributions/tourism-20261029/官方资料/方案原件/2026-plan-154832.docx",
+      "original_member": "word/media/document_image_rId6.png",
+      "sha256": "f53e09098a767e341cb5158df3a1df298dc671429a011859b991ec3528fc41b7",
+      "reviewed": "2026-11-19逐行核对学期、课程框及科研训练箭头；图中没有逐门课程的强制先修连线。"
+    },
+    {
+      "title": "2026历史学-旅游管理双学士学位项目培养方案：课程体系与科研训练体系图",
+      "url": "source-figures/plan-154078-curriculum.png",
+      "path": "source-figures/plan-154078-curriculum.png",
+      "original_docx_url": "https://github.com/pythonbug225/fudan-course-atlas/blob/262d99e34d453e99fda887773c41137376209be0/research/contributions/tourism-20261029/官方资料/方案原件/2026-plan-154078.docx",
+      "original_member": "word/media/document_image_rId8.png",
+      "sha256": "84d9bf419831f2dd3c9a0de7e86b24d5fea766fa609b0dd81dc0d3067a905c00",
+      "reviewed": "2026-11-19逐行核对学期、课程框及科研训练箭头；图中没有逐门课程的强制先修连线。"
+    }
+  ],
+  "handbook_access": [
+    {
+      "url": "https://jwc.fudan.edu.cn/0c/d5/c39650a789717/page.htm",
+      "status": "2026手册入口转统一认证；未读取正文，不算依据"
+    },
+    {
+      "url": "https://jwc.fudan.edu.cn/81/eb/c39650a688619/page.htm",
+      "status": "2024手册入口转统一认证；未取得旅游学系手册；搜索返回的历史学手册未替代采用"
+    }
+  ],
+  "limits": [
+    "文本接口阅读副本可能按换行规范化；reading_copy_sha256仅校验本次阅读副本，原始源版本由固定Git提交与路径定位。",
+    "未取得逐教学班大纲及现行先修规则；空defaultPreCourses/suggestTerms字段不证明没有先修。",
+    "学期安排来自2026方案，不能解释成2025秋/2026春教学班的选课硬条件。",
+    "本科、研究生、同名异号与科研活动102分别保留；不推断互认。",
+    "课程体系图的“社会研究方法基础”与API“社会研究方法”存在标题差异，该节点安排采用同课号API，不单靠近似标题匹配。",
+    "数字学期来自terms/课程体系图；未将旧索引的开设季节数字误认作季节或自动连出先修边。"
+  ]
+}

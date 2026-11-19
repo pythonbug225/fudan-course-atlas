@@ -1,0 +1,27 @@
+{
+  "status": "passed",
+  "date": "2026-11-19",
+  "course_nodes": 131,
+  "activity_nodes": 1,
+  "offered_course_codes": 85,
+  "plan_only_nodes": 47,
+  "edges": 143,
+  "edge_types": {
+    "planned_before": 21,
+    "recommended_preparation": 28,
+    "content_related": 87,
+    "same_name_distinct_code": 7
+  },
+  "hard_prerequisites_verified": 0,
+  "checks": [
+    "Source-backed same-plan term order and DAG",
+    "Distinct codes, activity type, and education levels",
+    "Complete 85-code offering coverage, 123 sections, and 47 additional plan entries",
+    "All nodes have an explicit relation; all learning paths use existing edges",
+    "Figure hashes, parseable SVG/CSV, embedded graph identity, and relative links"
+  ],
+  "browser_ui_validation": {
+    "status": "not_completed",
+    "reason": "Browser security policy rejected the local file URL; no workaround attempted."
+  }
+}
