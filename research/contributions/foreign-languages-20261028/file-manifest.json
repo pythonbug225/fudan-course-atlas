@@ -1,11 +1,21 @@
 {
   "schema_version": 1,
-  "date": "2026-10-30",
+  "date": "2026-11-19",
   "files": [
     {
       "path": ".gitattributes",
       "bytes": 54,
       "sha256": "d54277c377d2de7195bed718541e4f3f927c6387f2bfa98c348d6ca9f7cdf98f"
+    },
+    {
+      "path": "GUIDE.md",
+      "bytes": 33724,
+      "sha256": "7197d2da7e4e6f8298eb5931b9b4db255a8631ddd666b369893c55ccea1b7ff1"
+    },
+    {
+      "path": "README.md",
+      "bytes": 5582,
+      "sha256": "99ef3af32cd8b616eacdb07ce0abcecb20c27fe8801f1b66c10dc75e448f3180"
     },
     {
       "path": "audits/candidate_disposition.json",
@@ -56,6 +66,46 @@
       "path": "audits/teacher_query_disposition.json",
       "bytes": 119741,
       "sha256": "f3ed3126d75b4961618022f192ef53d3b45c57c487f55b156ff0ef5a4611e1d0"
+    },
+    {
+      "path": "course-graph/README.md",
+      "bytes": 2263,
+      "sha256": "f72bee372a0c38be026c793704b4e107060317f004084835c9ea3626f807865b"
+    },
+    {
+      "path": "course-graph/build_graph.py",
+      "bytes": 7975,
+      "sha256": "fcd1e6d979567e89b943f1c107cf53c417a14fe1f54eaa8cbb0c9dba07de0971"
+    },
+    {
+      "path": "course-graph/build_viewer.py",
+      "bytes": 10209,
+      "sha256": "810e06c31ec8eb8f37142763482710c4a8f5417d69ab6c4b63ce1dee28942571"
+    },
+    {
+      "path": "course-graph/edges.csv",
+      "bytes": 659709,
+      "sha256": "d3cd3620322573b4f3302e856ed23aea5d72892417b68da28fcb4aa673b8d5aa"
+    },
+    {
+      "path": "course-graph/graph.json",
+      "bytes": 1228219,
+      "sha256": "8a2eaa85723fad04664e7a5088eae2c4b9858dacd8d264eafca6f428a3f64656"
+    },
+    {
+      "path": "course-graph/index.html",
+      "bytes": 1027533,
+      "sha256": "3e0e3740dee007f41c2b48699256c6c8eea5d45f932872bab760d54f5a91ba48"
+    },
+    {
+      "path": "course-graph/nodes.csv",
+      "bytes": 148435,
+      "sha256": "c0315146792c53e21abd739b05a489f6aea005aa29ef3690f799f0ea6f7a30af"
+    },
+    {
+      "path": "course-graph/validate.py",
+      "bytes": 2237,
+      "sha256": "9431ef673c2f39aa27f1fe78a616dfc1cfc09e3c1a712fe34c4e1bff4eef89ca"
     },
     {
       "path": "courses/AIS531002.json",
@@ -2393,11 +2443,6 @@
       "sha256": "d9e7179af92cc6b81feda06bd68a931ead96b3005967f4e181395bb4af60c67b"
     },
     {
-      "path": "GUIDE.md",
-      "bytes": 33724,
-      "sha256": "7197d2da7e4e6f8298eb5931b9b4db255a8631ddd666b369893c55ccea1b7ff1"
-    },
-    {
       "path": "raw/danke-course-groups.json",
       "bytes": 694339,
       "sha256": "e841f400fdd9de49787d5fccf286aa0197b21c070b5435f5d2edb0a31e22adb0"
@@ -2701,11 +2746,6 @@
       "path": "raw/official-timetables/2026-spring-raw.json",
       "bytes": 340491,
       "sha256": "e3d609297233b4822f32bdabfd8a820a96d6d58292fa361e7a812c5b45de371a"
-    },
-    {
-      "path": "README.md",
-      "bytes": 5284,
-      "sha256": "481ff537abb044a6dc4598a15b97ba734dfc72f1940b1a28fae28384609232fe"
     },
     {
       "path": "release-manifest.json",
