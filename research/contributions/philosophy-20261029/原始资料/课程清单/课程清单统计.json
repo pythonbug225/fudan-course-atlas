@@ -1,0 +1,29 @@
+{
+  "department": "哲学学院",
+  "department_id": "2623",
+  "read_date": "2026-10-29",
+  "sections": 384,
+  "terms": {
+    "2025秋": {
+      "semester_id": 504,
+      "source_url": "https://fdjwgl.fudan.edu.cn/student/for-all/lesson-search/semester/504/search/504?openDepartmentAssocs=2623&queryPage__=1,500",
+      "teaching_sections": 170,
+      "totalRows": 170,
+      "rowsInPage": 170,
+      "totalPages": 1,
+      "distinct_course_codes": 135,
+      "empty_course_codes": 0
+    },
+    "2026春": {
+      "semester_id": 505,
+      "source_url": "https://fdjwgl.fudan.edu.cn/student/for-all/lesson-search/semester/505/search/505?openDepartmentAssocs=2623&queryPage__=1,500",
+      "teaching_sections": 214,
+      "totalRows": 214,
+      "rowsInPage": 214,
+      "totalPages": 1,
+      "distinct_course_codes": 142,
+      "empty_course_codes": 0
+    }
+  },
+  "scope_note": "All actual teaching sections returned by the official openDepartment query; includes every course level returned by the API. No student-level data is collected."
+}

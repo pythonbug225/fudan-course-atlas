@@ -1,0 +1,1787 @@
+{
+  "audit_date": "2026-10-29",
+  "scope": "parent_forum_notes.json及forum_batch1_notes.json至forum_batch5_notes.json中全部已采纳树洞证据；逐条核查对应源楼层正文和必要的同洞上下文，并将课名、代码、目标学期教师与官方course_catalog.json对照。",
+  "context_source": "work/philosophy-research/live/forum_context_results.json",
+  "official_course_source": "work/philosophy-research/course_catalog.json",
+  "audited_entry_count": 55,
+  "distinct_source_floor_count": 52,
+  "distinct_source_hole_count": 45,
+  "missing_context_floor_ids": [],
+  "whole_holes_marked_read": false,
+  "clear_course_codes": [],
+  "evidence_overrides": [
+    {
+      "evidence_id": "FORUM-MENCIUS-2",
+      "source_floor_ids": [
+        "3208150",
+        "3217520"
+      ],
+      "field": "teachers",
+      "action": "clear_for_these_sources",
+      "replacement": [],
+      "reason": "两条来自2024-09另一洞，只写《孟子》导读，不含教师；现合并证据还包含2025-11 floor 5055608 的 xb/徐波，需拆开或限缩教师归属。课程码GECC20017不清除。"
+    },
+    {
+      "evidence_id": "FORUM-ZZL-HIST",
+      "source_floor_ids": [
+        "1792621",
+        "987063",
+        "4387136"
+      ],
+      "field": "teachers",
+      "action": "clear_full_name_or_mark_unverified",
+      "replacement": [],
+      "reason": "源楼层只出现zzl，未出现郑召利全名；不使用未验证首字母扩展。课程码PHIL10002保留。"
+    },
+    {
+      "evidence_id": "FORUM-3677806",
+      "source_floor_ids": [
+        "3677806"
+      ],
+      "field": "teachers",
+      "action": "clear_full_name_or_mark_unverified",
+      "replacement": [],
+      "reason": "源楼层只称sb老师/孙老师，未核定孙斌全名；历史课名可对应GECC20027，不能映射到目标期袁新教学班。课程码保留。"
+    },
+    {
+      "evidence_id": "FORUM-1775499",
+      "source_floor_ids": [
+        "1775499"
+      ],
+      "field": "teachers",
+      "action": "clear_full_name_or_mark_unverified",
+      "replacement": [],
+      "reason": "2023年源楼层仅称徐老师，未核定徐波全名；不依据2025秋名单扩展。课程码GECC20017保留。"
+    }
+  ],
+  "general_findings": [
+    "所有已采纳条目中，课名或主题与所列官方课程代码相符；未发现需清除的课程代码。",
+    "教师未知的条目保留未知，不根据同洞别帖传播教师。",
+    "FORUM-5722179三门课与三名教师按原文先后顺序匹配，官方名单相符，但教师配对是顺序推断。",
+    "FORUM-6168234原文“张寄翼”与官方“张寄冀”一字差异，当前笔记已注明并按官方名标准化。",
+    "FORUM-6168031原文明列王国豫、朱林蕃；目标期交叉开课列表另有杨庆峰，原文未称名单穷尽，因此只记录原文明列的两位。",
+    "FORUM-3677806、FORUM-ZZL-HIST、FORUM-1775499历史教师全名不是目标学期官方名单可直接证实；请按evidence_overrides处理。"
+  ],
+  "entries": [
+    {
+      "source_file": "parent_forum_notes.json",
+      "id": "FORUM-5389195-WJ",
+      "source_floor_ids": [
+        "5389195"
+      ],
+      "claimed_course_codes": [
+        "PHIL10002"
+      ],
+      "claimed_teachers": [
+        "王聚"
+      ],
+      "status": "supported_teacher_initial_crosswalk",
+      "teacher_check": "原文wj称王聚，2025秋PHIL10002对应班教师王聚。",
+      "official_course_crosswalk": [
+        {
+          "course_code": "PHIL10002",
+          "official_offerings": [
+            {
+              "term": "2025秋",
+              "course_name": "哲学导论",
+              "teachers": [
+                "谢晶"
+              ]
+            },
+            {
+              "term": "2026春",
+              "course_name": "哲学导论",
+              "teachers": [
+                "贺腾",
+                "钱康"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "source_file": "parent_forum_notes.json",
+      "id": "FORUM-5389195-XJ",
+      "source_floor_ids": [
+        "5389195"
+      ],
+      "claimed_course_codes": [
+        "PHIL10002"
+      ],
+      "claimed_teachers": [
+        "谢晶"
+      ],
+      "status": "supported_teacher_initial_crosswalk",
+      "teacher_check": "原文xj称谢晶，2025秋PHIL10002对应班教师谢晶。",
+      "official_course_crosswalk": [
+        {
+          "course_code": "PHIL10002",
+          "official_offerings": [
+            {
+              "term": "2025秋",
+              "course_name": "哲学导论",
+              "teachers": [
+                "谢晶"
+              ]
+            },
+            {
+              "term": "2026春",
+              "course_name": "哲学导论",
+              "teachers": [
+                "贺腾",
+                "钱康"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "source_file": "parent_forum_notes.json",
+      "id": "FORUM-3706544-HISTORY",
+      "source_floor_ids": [
+        "3706544"
+      ],
+      "claimed_course_codes": [
+        "PHIL10001"
+      ],
+      "claimed_teachers": [
+        "王纬",
+        "贺腾"
+      ],
+      "status": "supported_teacher_initial_crosswalk",
+      "teacher_check": "原文以ww、ht缩写并明确西方哲学史（上）；与当前官方该课王纬、贺腾相符。",
+      "official_course_crosswalk": [
+        {
+          "course_code": "PHIL10001",
+          "official_offerings": [
+            {
+              "term": "2026春",
+              "course_name": "西方哲学史（上）",
+              "teachers": [
+                "王纬",
+                "贺腾"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "source_file": "parent_forum_notes.json",
+      "id": "FORUM-3706544-RELIGION",
+      "source_floor_ids": [
+        "3706544"
+      ],
+      "claimed_course_codes": [
+        "PHIL10004"
+      ],
+      "claimed_teachers": [
+        "郁喆隽"
+      ],
+      "status": "supported_teacher_initial_crosswalk",
+      "teacher_check": "原文以yzj缩写指宗教学导论；当前官方同名课教师含郁喆隽，映射一致。",
+      "official_course_crosswalk": [
+        {
+          "course_code": "PHIL10004",
+          "official_offerings": [
+            {
+              "term": "2026春",
+              "course_name": "宗教学导论",
+              "teachers": [
+                "郁喆隽",
+                "胡劼辰"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "source_file": "parent_forum_notes.json",
+      "id": "FORUM-3706544-ETHICS",
+      "source_floor_ids": [
+        "3706544"
+      ],
+      "claimed_course_codes": [
+        "PHIL20012"
+      ],
+      "claimed_teachers": [
+        "钱康"
+      ],
+      "status": "supported_teacher_initial_crosswalk",
+      "teacher_check": "原文课程名伦理学基础并以qk指教师；与官方同名课钱康相符。",
+      "official_course_crosswalk": [
+        {
+          "course_code": "PHIL20012",
+          "official_offerings": [
+            {
+              "term": "2026春",
+              "course_name": "伦理学基础",
+              "teachers": [
+                "钱康"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "source_file": "parent_forum_notes.json",
+      "id": "FORUM-1713325",
+      "source_floor_ids": [
+        "1713325"
+      ],
+      "claimed_course_codes": [
+        "PHIL20003"
+      ],
+      "claimed_teachers": [
+        "张寅"
+      ],
+      "status": "supported_course_mapping",
+      "teacher_check": "",
+      "official_course_crosswalk": [
+        {
+          "course_code": "PHIL20003",
+          "official_offerings": [
+            {
+              "term": "2025秋",
+              "course_name": "马克思主义哲学导论",
+              "teachers": [
+                "张寅"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "source_file": "parent_forum_notes.json",
+      "id": "FORUM-5722179-ANALYTIC",
+      "source_floor_ids": [
+        "5722179"
+      ],
+      "claimed_course_codes": [
+        "PHIL30049"
+      ],
+      "claimed_teachers": [
+        "孙宁"
+      ],
+      "status": "supported_teacher_order_inferred",
+      "teacher_check": "同一条把三门课顺序列出，再把孙宁、王聚、胡劼辰三位教师依次列出；与当前官方课程逐项相符，但对应关系按顺序推断，不是逐句点名。",
+      "official_course_crosswalk": [
+        {
+          "course_code": "PHIL30049",
+          "official_offerings": [
+            {
+              "term": "2026春",
+              "course_name": "现代英美哲学",
+              "teachers": [
+                "孙宁"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "source_file": "parent_forum_notes.json",
+      "id": "FORUM-5722179-EPISTEMOLOGY",
+      "source_floor_ids": [
+        "5722179"
+      ],
+      "claimed_course_codes": [
+        "PHIL30054"
+      ],
+      "claimed_teachers": [
+        "王聚"
+      ],
+      "status": "supported_teacher_order_inferred",
+      "teacher_check": "同一条把三门课顺序列出，再把孙宁、王聚、胡劼辰三位教师依次列出；与当前官方课程逐项相符，但对应关系按顺序推断，不是逐句点名。",
+      "official_course_crosswalk": [
+        {
+          "course_code": "PHIL30054",
+          "official_offerings": [
+            {
+              "term": "2026春",
+              "course_name": "知识论",
+              "teachers": [
+                "王聚"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "source_file": "parent_forum_notes.json",
+      "id": "FORUM-5722179-NEWRELIGION",
+      "source_floor_ids": [
+        "5722179"
+      ],
+      "claimed_course_codes": [
+        "PHIL50009"
+      ],
+      "claimed_teachers": [
+        "胡劼辰"
+      ],
+      "status": "supported_teacher_order_inferred",
+      "teacher_check": "同一条把三门课顺序列出，再把孙宁、王聚、胡劼辰三位教师依次列出；与当前官方课程逐项相符，但对应关系按顺序推断，不是逐句点名。",
+      "official_course_crosswalk": [
+        {
+          "course_code": "PHIL50009",
+          "official_offerings": [
+            {
+              "term": "2026春",
+              "course_name": "新兴宗教概论",
+              "teachers": [
+                "胡劼辰"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "source_file": "parent_forum_notes.json",
+      "id": "FORUM-6168234",
+      "source_floor_ids": [
+        "6168234"
+      ],
+      "claimed_course_codes": [
+        "PHIL50051"
+      ],
+      "claimed_teachers": [
+        "王聚",
+        "张寄冀"
+      ],
+      "status": "supported_course_teacher_spelling_variant",
+      "teacher_check": "原文教师字段为“王聚 张寄翼”，当前官方形式知识论为王聚、张寄冀；现有笔记已注明一字差异。规范名属按精确课名和官方课表校正，保留原文异体/疑似错字。",
+      "official_course_crosswalk": [
+        {
+          "course_code": "PHIL50051",
+          "official_offerings": [
+            {
+              "term": "2026春",
+              "course_name": "形式知识论",
+              "teachers": [
+                "张寄冀",
+                "王聚"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "source_file": "parent_forum_notes.json",
+      "id": "FORUM-6168031",
+      "source_floor_ids": [
+        "6168031"
+      ],
+      "claimed_course_codes": [
+        "AIB310001",
+        "MAE70003"
+      ],
+      "claimed_teachers": [
+        "王国豫",
+        "朱林蕃"
+      ],
+      "status": "supported_crosslisted_teacher_subset",
+      "teacher_check": "原文明列王国豫、朱林蕃，官方目标期AIB310001和MAE70003同名课还列杨庆峰。原文未称教师列表完整，现列两位可保留，不应补作三人共同授课体验。",
+      "official_course_crosswalk": [
+        {
+          "course_code": "AIB310001",
+          "official_offerings": [
+            {
+              "term": "2026春",
+              "course_name": "人工智能伦理",
+              "teachers": [
+                "王国豫",
+                "杨庆峰",
+                "朱林蕃"
+              ]
+            }
+          ]
+        },
+        {
+          "course_code": "MAE70003",
+          "official_offerings": [
+            {
+              "term": "2026春",
+              "course_name": "人工智能伦理",
+              "teachers": [
+                "王国豫",
+                "杨庆峰",
+                "朱林蕃"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "source_file": "forum_batch1_notes.json",
+      "id": "FORUM-3565478",
+      "source_floor_ids": [
+        "3565478"
+      ],
+      "claimed_course_codes": [
+        "GECC20027"
+      ],
+      "claimed_teachers": [
+        "袁新"
+      ],
+      "status": "supported_course_mapping",
+      "teacher_check": "",
+      "official_course_crosswalk": [
+        {
+          "course_code": "GECC20027",
+          "official_offerings": [
+            {
+              "term": "2025秋",
+              "course_name": "艺术哲学与审美问题",
+              "teachers": [
+                "袁新"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "source_file": "forum_batch1_notes.json",
+      "id": "FORUM-6400844",
+      "source_floor_ids": [
+        "6400844"
+      ],
+      "claimed_course_codes": [
+        "GECC20009"
+      ],
+      "claimed_teachers": [
+        "佘碧平"
+      ],
+      "status": "supported_course_mapping",
+      "teacher_check": "",
+      "official_course_crosswalk": [
+        {
+          "course_code": "GECC20009",
+          "official_offerings": [
+            {
+              "term": "2025秋",
+              "course_name": "笛卡尔《谈谈方法》导读",
+              "teachers": [
+                "佘碧平"
+              ]
+            },
+            {
+              "term": "2026春",
+              "course_name": "笛卡尔《谈谈方法》导读",
+              "teachers": [
+                "佘碧平"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "source_file": "forum_batch1_notes.json",
+      "id": "FORUM-5246022",
+      "source_floor_ids": [
+        "5246022"
+      ],
+      "claimed_course_codes": [
+        "PHIL10002"
+      ],
+      "claimed_teachers": [
+        "王聚"
+      ],
+      "status": "supported_course_mapping",
+      "teacher_check": "",
+      "official_course_crosswalk": [
+        {
+          "course_code": "PHIL10002",
+          "official_offerings": [
+            {
+              "term": "2025秋",
+              "course_name": "哲学导论",
+              "teachers": [
+                "谢晶"
+              ]
+            },
+            {
+              "term": "2026春",
+              "course_name": "哲学导论",
+              "teachers": [
+                "贺腾",
+                "钱康"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "source_file": "forum_batch1_notes.json",
+      "id": "FORUM-462481",
+      "source_floor_ids": [
+        "462481"
+      ],
+      "claimed_course_codes": [
+        "PHIL10002"
+      ],
+      "claimed_teachers": [
+        "邹诗鹏"
+      ],
+      "status": "supported_course_mapping",
+      "teacher_check": "",
+      "official_course_crosswalk": [
+        {
+          "course_code": "PHIL10002",
+          "official_offerings": [
+            {
+              "term": "2025秋",
+              "course_name": "哲学导论",
+              "teachers": [
+                "谢晶"
+              ]
+            },
+            {
+              "term": "2026春",
+              "course_name": "哲学导论",
+              "teachers": [
+                "贺腾",
+                "钱康"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "source_file": "forum_batch1_notes.json",
+      "id": "FORUM-3225501",
+      "source_floor_ids": [
+        "3225501"
+      ],
+      "claimed_course_codes": [
+        "PHIL30021",
+        "PHIL30067"
+      ],
+      "claimed_teachers": [
+        "王春明"
+      ],
+      "status": "supported_teacher_initial_crosswalk",
+      "teacher_check": "原文以wcm称王春明并点名现代法国哲学、现欧陆原著；两个代码对应官方目标课程名与王春明。",
+      "official_course_crosswalk": [
+        {
+          "course_code": "PHIL30021",
+          "official_offerings": [
+            {
+              "term": "2026春",
+              "course_name": "现代法国哲学",
+              "teachers": [
+                "王春明"
+              ]
+            }
+          ]
+        },
+        {
+          "course_code": "PHIL30067",
+          "official_offerings": [
+            {
+              "term": "2025秋",
+              "course_name": "现代欧陆哲学原著选读",
+              "teachers": [
+                "王春明"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "source_file": "forum_batch1_notes.json",
+      "id": "FORUM-3677806",
+      "source_floor_ids": [
+        "3677806"
+      ],
+      "claimed_course_codes": [
+        "GECC20027"
+      ],
+      "claimed_teachers": [
+        "孙老师（sb，全名未核）"
+      ],
+      "status": "supported_course_historical_teacher_unverified",
+      "teacher_check": "原帖仅写“sb老师”“孙老师”，不能从该楼核定全名孙斌；目标期2025秋官方GECC20027教师为袁新。代码/标题有据，教师应保留原称或留空，不能挂到袁新目标班。",
+      "official_course_crosswalk": [
+        {
+          "course_code": "GECC20027",
+          "official_offerings": [
+            {
+              "term": "2025秋",
+              "course_name": "艺术哲学与审美问题",
+              "teachers": [
+                "袁新"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "source_file": "forum_batch1_notes.json",
+      "id": "FORUM-6166615",
+      "source_floor_ids": [
+        "6166615"
+      ],
+      "claimed_course_codes": [
+        "PHIL30011"
+      ],
+      "claimed_teachers": [
+        "程群"
+      ],
+      "status": "supported_course_mapping",
+      "teacher_check": "",
+      "official_course_crosswalk": [
+        {
+          "course_code": "PHIL30011",
+          "official_offerings": [
+            {
+              "term": "2026春",
+              "course_name": "佛教哲学",
+              "teachers": [
+                "程群"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "source_file": "forum_batch1_notes.json",
+      "id": "FORUM-4824825",
+      "source_floor_ids": [
+        "4824825"
+      ],
+      "claimed_course_codes": [
+        "PHIL10002"
+      ],
+      "claimed_teachers": [
+        "邹诗鹏"
+      ],
+      "status": "supported_course_mapping",
+      "teacher_check": "",
+      "official_course_crosswalk": [
+        {
+          "course_code": "PHIL10002",
+          "official_offerings": [
+            {
+              "term": "2025秋",
+              "course_name": "哲学导论",
+              "teachers": [
+                "谢晶"
+              ]
+            },
+            {
+              "term": "2026春",
+              "course_name": "哲学导论",
+              "teachers": [
+                "贺腾",
+                "钱康"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "source_file": "forum_batch1_notes.json",
+      "id": "FORUM-2167917-PSYCH",
+      "source_floor_ids": [
+        "2167917"
+      ],
+      "claimed_course_codes": [
+        "PHIL30114"
+      ],
+      "claimed_teachers": [
+        "王球"
+      ],
+      "status": "supported_teacher_initial_crosswalk",
+      "teacher_check": "原文以wq称心理学哲学教师；目标期官方PHIL30114对应王球。",
+      "official_course_crosswalk": [
+        {
+          "course_code": "PHIL30114",
+          "official_offerings": [
+            {
+              "term": "2025秋",
+              "course_name": "心理学哲学",
+              "teachers": [
+                "王球"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "source_file": "forum_batch1_notes.json",
+      "id": "FORUM-2167917-FRENCH",
+      "source_floor_ids": [
+        "2167917"
+      ],
+      "claimed_course_codes": [
+        "PHIL30021"
+      ],
+      "claimed_teachers": [
+        "王春明"
+      ],
+      "status": "supported_course_mapping",
+      "teacher_check": "",
+      "official_course_crosswalk": [
+        {
+          "course_code": "PHIL30021",
+          "official_offerings": [
+            {
+              "term": "2026春",
+              "course_name": "现代法国哲学",
+              "teachers": [
+                "王春明"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "source_file": "forum_batch2_notes.json",
+      "id": "FORUM-MENCIUS-2",
+      "source_floor_ids": [
+        "3208150",
+        "3217520"
+      ],
+      "claimed_course_codes": [
+        "GECC20017"
+      ],
+      "claimed_teachers": [],
+      "status": "supported_code_teacher_scope_mixed",
+      "teacher_check": "floor 5055608 用“xb”指《孟子》导读；对应2025秋官方GECC20017唯一教师徐波。floor 3208150和3217520来自2024-09旧帖，仅称《孟子》导读，未写教师名，不能把徐波传播到这两条。建议拆分/限缩教师归属。",
+      "official_course_crosswalk": [
+        {
+          "course_code": "GECC20017",
+          "official_offerings": [
+            {
+              "term": "2025秋",
+              "course_name": "《孟子》导读",
+              "teachers": [
+                "徐波"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "source_file": "forum_batch2_notes.json",
+      "id": "FORUM-1015008",
+      "source_floor_ids": [
+        "1015008"
+      ],
+      "claimed_course_codes": [
+        "GEEC10344"
+      ],
+      "claimed_teachers": [
+        "王聚"
+      ],
+      "status": "supported_course_mapping",
+      "teacher_check": "",
+      "official_course_crosswalk": [
+        {
+          "course_code": "GEEC10344",
+          "official_offerings": [
+            {
+              "term": "2025秋",
+              "course_name": "人生哲学",
+              "teachers": [
+                "王聚"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "source_file": "forum_batch2_notes.json",
+      "id": "FORUM-6451880",
+      "source_floor_ids": [
+        "6451880"
+      ],
+      "claimed_course_codes": [
+        "PHIL10002"
+      ],
+      "claimed_teachers": [
+        "宋一帆",
+        "邹诗鹏"
+      ],
+      "status": "supported_course_mapping",
+      "teacher_check": "",
+      "official_course_crosswalk": [
+        {
+          "course_code": "PHIL10002",
+          "official_offerings": [
+            {
+              "term": "2025秋",
+              "course_name": "哲学导论",
+              "teachers": [
+                "谢晶"
+              ]
+            },
+            {
+              "term": "2026春",
+              "course_name": "哲学导论",
+              "teachers": [
+                "贺腾",
+                "钱康"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "source_file": "forum_batch2_notes.json",
+      "id": "FORUM-ZZL-HIST",
+      "source_floor_ids": [
+        "1792621",
+        "987063",
+        "4387136"
+      ],
+      "claimed_course_codes": [
+        "PHIL10002"
+      ],
+      "claimed_teachers": [
+        "zzl（历史教师缩写，全名未核）"
+      ],
+      "status": "supported_course_teacher_initial_only",
+      "teacher_check": "三条原文均仅称“zzl”，没有郑召利全名；该名字扩展未由这些楼层或本轮目标课表证实。建议教师留空或保留未经核验缩写。",
+      "official_course_crosswalk": [
+        {
+          "course_code": "PHIL10002",
+          "official_offerings": [
+            {
+              "term": "2025秋",
+              "course_name": "哲学导论",
+              "teachers": [
+                "谢晶"
+              ]
+            },
+            {
+              "term": "2026春",
+              "course_name": "哲学导论",
+              "teachers": [
+                "贺腾",
+                "钱康"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "source_file": "forum_batch2_notes.json",
+      "id": "FORUM-6167986",
+      "source_floor_ids": [
+        "6167986"
+      ],
+      "claimed_course_codes": [
+        "PHIL30047"
+      ],
+      "claimed_teachers": [
+        "MIYAHARA KATSUNORI"
+      ],
+      "status": "supported_course_mapping",
+      "teacher_check": "",
+      "official_course_crosswalk": [
+        {
+          "course_code": "PHIL30047",
+          "official_offerings": [
+            {
+              "term": "2026春",
+              "course_name": "人工智能哲学",
+              "teachers": [
+                "MIYAHARA KATSUNORI"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "source_file": "forum_batch2_notes.json",
+      "id": "FORUM-6172048",
+      "source_floor_ids": [
+        "6172048"
+      ],
+      "claimed_course_codes": [
+        "GECC20028"
+      ],
+      "claimed_teachers": [
+        "黄翔"
+      ],
+      "status": "supported_teacher_initial_crosswalk",
+      "teacher_check": "原文明称科学哲学和认知问题、hx；目标期官方GECC20028课程名与黄翔教师一致。",
+      "official_course_crosswalk": [
+        {
+          "course_code": "GECC20028",
+          "official_offerings": [
+            {
+              "term": "2025秋",
+              "course_name": "科学哲学与认知问题",
+              "teachers": [
+                "黄翔"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "source_file": "forum_batch2_notes.json",
+      "id": "FORUM-5511203",
+      "source_floor_ids": [
+        "5511203"
+      ],
+      "claimed_course_codes": [
+        "PHIL20003"
+      ],
+      "claimed_teachers": [
+        "张寅"
+      ],
+      "status": "supported_teacher_initial_crosswalk",
+      "teacher_check": "原文以zy指哲院马克思主义哲学导论；目标课表唯一对应教师张寅，简称与官方教师一致。",
+      "official_course_crosswalk": [
+        {
+          "course_code": "PHIL20003",
+          "official_offerings": [
+            {
+              "term": "2025秋",
+              "course_name": "马克思主义哲学导论",
+              "teachers": [
+                "张寅"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "source_file": "forum_batch2_notes.json",
+      "id": "FORUM-1893995",
+      "source_floor_ids": [
+        "1893995"
+      ],
+      "claimed_course_codes": [
+        "PHIL10002"
+      ],
+      "claimed_teachers": [
+        "王聚"
+      ],
+      "status": "supported_course_mapping",
+      "teacher_check": "",
+      "official_course_crosswalk": [
+        {
+          "course_code": "PHIL10002",
+          "official_offerings": [
+            {
+              "term": "2025秋",
+              "course_name": "哲学导论",
+              "teachers": [
+                "谢晶"
+              ]
+            },
+            {
+              "term": "2026春",
+              "course_name": "哲学导论",
+              "teachers": [
+                "贺腾",
+                "钱康"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "source_file": "forum_batch2_notes.json",
+      "id": "FORUM-1006068",
+      "source_floor_ids": [
+        "1006068"
+      ],
+      "claimed_course_codes": [
+        "PHIL10002"
+      ],
+      "claimed_teachers": [
+        "谢晶"
+      ],
+      "status": "supported_course_mapping",
+      "teacher_check": "",
+      "official_course_crosswalk": [
+        {
+          "course_code": "PHIL10002",
+          "official_offerings": [
+            {
+              "term": "2025秋",
+              "course_name": "哲学导论",
+              "teachers": [
+                "谢晶"
+              ]
+            },
+            {
+              "term": "2026春",
+              "course_name": "哲学导论",
+              "teachers": [
+                "贺腾",
+                "钱康"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "source_file": "forum_batch2_notes.json",
+      "id": "FORUM-3632008",
+      "source_floor_ids": [
+        "3632008"
+      ],
+      "claimed_course_codes": [
+        "GECC20027"
+      ],
+      "claimed_teachers": [
+        "袁新"
+      ],
+      "status": "supported_course_mapping",
+      "teacher_check": "",
+      "official_course_crosswalk": [
+        {
+          "course_code": "GECC20027",
+          "official_offerings": [
+            {
+              "term": "2025秋",
+              "course_name": "艺术哲学与审美问题",
+              "teachers": [
+                "袁新"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "source_file": "forum_batch2_notes.json",
+      "id": "FORUM-5161045",
+      "source_floor_ids": [
+        "5161045"
+      ],
+      "claimed_course_codes": [
+        "GEEC10344"
+      ],
+      "claimed_teachers": [
+        "王聚"
+      ],
+      "status": "supported_course_mapping",
+      "teacher_check": "",
+      "official_course_crosswalk": [
+        {
+          "course_code": "GEEC10344",
+          "official_offerings": [
+            {
+              "term": "2025秋",
+              "course_name": "人生哲学",
+              "teachers": [
+                "王聚"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "source_file": "forum_batch2_notes.json",
+      "id": "FORUM-5055608",
+      "source_floor_ids": [
+        "5055608"
+      ],
+      "claimed_course_codes": [
+        "GECC20017"
+      ],
+      "claimed_teachers": [
+        "徐波（依据同课xb缩写推定）"
+      ],
+      "status": "supported_course_mapping",
+      "teacher_check": "",
+      "official_course_crosswalk": [
+        {
+          "course_code": "GECC20017",
+          "official_offerings": [
+            {
+              "term": "2025秋",
+              "course_name": "《孟子》导读",
+              "teachers": [
+                "徐波"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "source_file": "forum_batch3_notes.json",
+      "id": "FORUM-5543852",
+      "source_floor_ids": [
+        "5543852"
+      ],
+      "claimed_course_codes": [
+        "GECC20021"
+      ],
+      "claimed_teachers": [
+        "吴新文"
+      ],
+      "status": "supported_course_mapping",
+      "teacher_check": "",
+      "official_course_crosswalk": [
+        {
+          "course_code": "GECC20021",
+          "official_offerings": [
+            {
+              "term": "2025秋",
+              "course_name": "《查拉图斯特拉如是说》导读",
+              "teachers": [
+                "吴新文"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "source_file": "forum_batch3_notes.json",
+      "id": "FORUM-2425090",
+      "source_floor_ids": [
+        "2425090"
+      ],
+      "claimed_course_codes": [
+        "PHIL30008"
+      ],
+      "claimed_teachers": [
+        "钱康"
+      ],
+      "status": "supported_course_mapping",
+      "teacher_check": "",
+      "official_course_crosswalk": [
+        {
+          "course_code": "PHIL30008",
+          "official_offerings": [
+            {
+              "term": "2025秋",
+              "course_name": "康德哲学",
+              "teachers": [
+                "钱康"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "source_file": "forum_batch3_notes.json",
+      "id": "FORUM-2146456-FR",
+      "source_floor_ids": [
+        "2146456"
+      ],
+      "claimed_course_codes": [
+        "PHIL30021"
+      ],
+      "claimed_teachers": [
+        "王春明"
+      ],
+      "status": "supported_course_mapping",
+      "teacher_check": "",
+      "official_course_crosswalk": [
+        {
+          "course_code": "PHIL30021",
+          "official_offerings": [
+            {
+              "term": "2026春",
+              "course_name": "现代法国哲学",
+              "teachers": [
+                "王春明"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "source_file": "forum_batch3_notes.json",
+      "id": "FORUM-2146456-MARX",
+      "source_floor_ids": [
+        "2146456"
+      ],
+      "claimed_course_codes": [
+        "PHIL30099"
+      ],
+      "claimed_teachers": [
+        "吴晓明"
+      ],
+      "status": "supported_course_mapping",
+      "teacher_check": "",
+      "official_course_crosswalk": [
+        {
+          "course_code": "PHIL30099",
+          "official_offerings": [
+            {
+              "term": "2026春",
+              "course_name": "马克思主义哲学史",
+              "teachers": [
+                "祁涛",
+                "吴晓明"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "source_file": "forum_batch3_notes.json",
+      "id": "FORUM-5204035",
+      "source_floor_ids": [
+        "5204035"
+      ],
+      "claimed_course_codes": [
+        "GECC20029"
+      ],
+      "claimed_teachers": [],
+      "status": "supported_course_mapping",
+      "teacher_check": "",
+      "official_course_crosswalk": [
+        {
+          "course_code": "GECC20029",
+          "official_offerings": [
+            {
+              "term": "2025秋",
+              "course_name": "批判性思维与论证问题",
+              "teachers": [
+                "陈伟"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "source_file": "forum_batch3_notes.json",
+      "id": "FORUM-1775499",
+      "source_floor_ids": [
+        "1775499"
+      ],
+      "claimed_course_codes": [
+        "GECC20017"
+      ],
+      "claimed_teachers": [
+        "徐老师（全名未核）"
+      ],
+      "status": "supported_course_teacher_surname_only",
+      "teacher_check": "原文称“徐老师”，2023年楼层；不应用2025秋课程表把历史教师扩成徐波。代码/课程名有据，建议全名教师留空，原文称呼单列。",
+      "official_course_crosswalk": [
+        {
+          "course_code": "GECC20017",
+          "official_offerings": [
+            {
+              "term": "2025秋",
+              "course_name": "《孟子》导读",
+              "teachers": [
+                "徐波"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "source_file": "forum_batch3_notes.json",
+      "id": "FORUM-2069352",
+      "source_floor_ids": [
+        "2069352"
+      ],
+      "claimed_course_codes": [
+        "GECC20031"
+      ],
+      "claimed_teachers": [],
+      "status": "supported_course_mapping",
+      "teacher_check": "",
+      "official_course_crosswalk": [
+        {
+          "course_code": "GECC20031",
+          "official_offerings": [
+            {
+              "term": "2025秋",
+              "course_name": "希伯来圣经",
+              "teachers": [
+                "刘平"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "source_file": "forum_batch3_notes.json",
+      "id": "FORUM-977473",
+      "source_floor_ids": [
+        "977473"
+      ],
+      "claimed_course_codes": [
+        "GECC20014"
+      ],
+      "claimed_teachers": [],
+      "status": "supported_course_mapping",
+      "teacher_check": "",
+      "official_course_crosswalk": [
+        {
+          "course_code": "GECC20014",
+          "official_offerings": [
+            {
+              "term": "2026春",
+              "course_name": "《论法的精神》导读",
+              "teachers": [
+                "莫伟民"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "source_file": "forum_batch3_notes.json",
+      "id": "FORUM-5111496",
+      "source_floor_ids": [
+        "5111496"
+      ],
+      "claimed_course_codes": [
+        "GECC20017"
+      ],
+      "claimed_teachers": [],
+      "status": "supported_course_mapping",
+      "teacher_check": "",
+      "official_course_crosswalk": [
+        {
+          "course_code": "GECC20017",
+          "official_offerings": [
+            {
+              "term": "2025秋",
+              "course_name": "《孟子》导读",
+              "teachers": [
+                "徐波"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "source_file": "forum_batch3_notes.json",
+      "id": "FORUM-6723341",
+      "source_floor_ids": [
+        "6723341"
+      ],
+      "claimed_course_codes": [
+        "PHIL10002"
+      ],
+      "claimed_teachers": [],
+      "status": "supported_course_mapping",
+      "teacher_check": "",
+      "official_course_crosswalk": [
+        {
+          "course_code": "PHIL10002",
+          "official_offerings": [
+            {
+              "term": "2025秋",
+              "course_name": "哲学导论",
+              "teachers": [
+                "谢晶"
+              ]
+            },
+            {
+              "term": "2026春",
+              "course_name": "哲学导论",
+              "teachers": [
+                "贺腾",
+                "钱康"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "source_file": "forum_batch3_notes.json",
+      "id": "FORUM-5188040",
+      "source_floor_ids": [
+        "5188040"
+      ],
+      "claimed_course_codes": [
+        "GECC20031"
+      ],
+      "claimed_teachers": [
+        "刘平"
+      ],
+      "status": "supported_course_mapping",
+      "teacher_check": "",
+      "official_course_crosswalk": [
+        {
+          "course_code": "GECC20031",
+          "official_offerings": [
+            {
+              "term": "2025秋",
+              "course_name": "希伯来圣经",
+              "teachers": [
+                "刘平"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "source_file": "forum_batch4_notes.json",
+      "id": "FORUM-5195272",
+      "source_floor_ids": [
+        "5195272"
+      ],
+      "claimed_course_codes": [
+        "GECC20031"
+      ],
+      "claimed_teachers": [],
+      "status": "supported_course_mapping",
+      "teacher_check": "",
+      "official_course_crosswalk": [
+        {
+          "course_code": "GECC20031",
+          "official_offerings": [
+            {
+              "term": "2025秋",
+              "course_name": "希伯来圣经",
+              "teachers": [
+                "刘平"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "source_file": "forum_batch4_notes.json",
+      "id": "FORUM-1761524",
+      "source_floor_ids": [
+        "1761524"
+      ],
+      "claimed_course_codes": [
+        "GECC20014"
+      ],
+      "claimed_teachers": [],
+      "status": "supported_course_mapping",
+      "teacher_check": "",
+      "official_course_crosswalk": [
+        {
+          "course_code": "GECC20014",
+          "official_offerings": [
+            {
+              "term": "2026春",
+              "course_name": "《论法的精神》导读",
+              "teachers": [
+                "莫伟民"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "source_file": "forum_batch4_notes.json",
+      "id": "FORUM-6493352",
+      "source_floor_ids": [
+        "6493352"
+      ],
+      "claimed_course_codes": [
+        "GECC20031"
+      ],
+      "claimed_teachers": [],
+      "status": "supported_course_mapping",
+      "teacher_check": "",
+      "official_course_crosswalk": [
+        {
+          "course_code": "GECC20031",
+          "official_offerings": [
+            {
+              "term": "2025秋",
+              "course_name": "希伯来圣经",
+              "teachers": [
+                "刘平"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "source_file": "forum_batch4_notes.json",
+      "id": "FORUM-5766197",
+      "source_floor_ids": [
+        "5766197"
+      ],
+      "claimed_course_codes": [
+        "GECC20031"
+      ],
+      "claimed_teachers": [],
+      "status": "supported_course_mapping",
+      "teacher_check": "",
+      "official_course_crosswalk": [
+        {
+          "course_code": "GECC20031",
+          "official_offerings": [
+            {
+              "term": "2025秋",
+              "course_name": "希伯来圣经",
+              "teachers": [
+                "刘平"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "source_file": "forum_batch5_notes.json",
+      "id": "FORUM-4658751",
+      "source_floor_ids": [
+        "4658751"
+      ],
+      "claimed_course_codes": [
+        "PHIL20013"
+      ],
+      "claimed_teachers": [],
+      "status": "supported_course_mapping",
+      "teacher_check": "",
+      "official_course_crosswalk": [
+        {
+          "course_code": "PHIL20013",
+          "official_offerings": [
+            {
+              "term": "2026春",
+              "course_name": "数理逻辑",
+              "teachers": [
+                "姚宁远"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "source_file": "forum_batch5_notes.json",
+      "id": "FORUM-4155412",
+      "source_floor_ids": [
+        "4155412"
+      ],
+      "claimed_course_codes": [
+        "PHIL10004"
+      ],
+      "claimed_teachers": [],
+      "status": "supported_course_mapping",
+      "teacher_check": "",
+      "official_course_crosswalk": [
+        {
+          "course_code": "PHIL10004",
+          "official_offerings": [
+            {
+              "term": "2026春",
+              "course_name": "宗教学导论",
+              "teachers": [
+                "郁喆隽",
+                "胡劼辰"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "source_file": "forum_batch5_notes.json",
+      "id": "FORUM-1780455",
+      "source_floor_ids": [
+        "1780455"
+      ],
+      "claimed_course_codes": [
+        "GECC20037",
+        "PHIL10002"
+      ],
+      "claimed_teachers": [
+        "谢晶"
+      ],
+      "status": "supported_course_mapping",
+      "teacher_check": "",
+      "official_course_crosswalk": [
+        {
+          "course_code": "GECC20037",
+          "official_offerings": [
+            {
+              "term": "2026春",
+              "course_name": "卢梭论人类不平等的起源与基础",
+              "teachers": [
+                "谢晶"
+              ]
+            }
+          ]
+        },
+        {
+          "course_code": "PHIL10002",
+          "official_offerings": [
+            {
+              "term": "2025秋",
+              "course_name": "哲学导论",
+              "teachers": [
+                "谢晶"
+              ]
+            },
+            {
+              "term": "2026春",
+              "course_name": "哲学导论",
+              "teachers": [
+                "贺腾",
+                "钱康"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "source_file": "forum_batch5_notes.json",
+      "id": "FORUM-5042063",
+      "source_floor_ids": [
+        "5042063"
+      ],
+      "claimed_course_codes": [
+        "GECC20037"
+      ],
+      "claimed_teachers": [
+        "谢晶"
+      ],
+      "status": "supported_course_mapping",
+      "teacher_check": "",
+      "official_course_crosswalk": [
+        {
+          "course_code": "GECC20037",
+          "official_offerings": [
+            {
+              "term": "2026春",
+              "course_name": "卢梭论人类不平等的起源与基础",
+              "teachers": [
+                "谢晶"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "source_file": "forum_batch5_notes.json",
+      "id": "FORUM-5489323",
+      "source_floor_ids": [
+        "5489323"
+      ],
+      "claimed_course_codes": [
+        "PHIL20013"
+      ],
+      "claimed_teachers": [
+        "姚宁远"
+      ],
+      "status": "supported_course_mapping",
+      "teacher_check": "",
+      "official_course_crosswalk": [
+        {
+          "course_code": "PHIL20013",
+          "official_offerings": [
+            {
+              "term": "2026春",
+              "course_name": "数理逻辑",
+              "teachers": [
+                "姚宁远"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "source_file": "forum_batch5_notes.json",
+      "id": "FORUM-MENCIUS-3",
+      "source_floor_ids": [
+        "3631660",
+        "3217418"
+      ],
+      "claimed_course_codes": [
+        "GECC20017"
+      ],
+      "claimed_teachers": [],
+      "status": "supported_course_mapping",
+      "teacher_check": "",
+      "official_course_crosswalk": [
+        {
+          "course_code": "GECC20017",
+          "official_offerings": [
+            {
+              "term": "2025秋",
+              "course_name": "《孟子》导读",
+              "teachers": [
+                "徐波"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "source_file": "forum_batch5_notes.json",
+      "id": "FORUM-1700734",
+      "source_floor_ids": [
+        "1700734"
+      ],
+      "claimed_course_codes": [
+        "PHIL20014"
+      ],
+      "claimed_teachers": [],
+      "status": "supported_course_mapping",
+      "teacher_check": "",
+      "official_course_crosswalk": [
+        {
+          "course_code": "PHIL20014",
+          "official_offerings": [
+            {
+              "term": "2025秋",
+              "course_name": "先秦哲学",
+              "teachers": [
+                "何益鑫",
+                "白彤东"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "applied_corrections_note": "上述建议已在最终课程总结与证据索引中实施，原始私有帖文不包含在此交付文件。"
+}
