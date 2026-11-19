@@ -2,7 +2,7 @@
   "schema_version": 1,
   "batch_id": "law-20261029",
   "collected_at": "2026-10-29",
-  "exported_at": "2026-10-30T19:59:14+08:00",
+  "exported_at": "2026-11-19",
   "scope": {
     "programs": 8,
     "course_codes": 260,
@@ -14,13 +14,90 @@
     "full_review_bodies": 71,
     "raw_capture_files": 58,
     "raw_retained_forum_floor_bodies": 469,
-    "raw_retained_review_bodies": 71
+    "raw_retained_review_bodies": 71,
+    "course_graph": {
+      "course_nodes": 260,
+      "recommended_prerequisites": 74,
+      "content_relations": 248,
+      "confirmed_official_prerequisites": 0,
+      "unmapped_courses": 7
+    }
   },
   "files": [
     {
       "path": ".gitattributes",
       "bytes": 31,
       "sha256": "baee7984df4b9e185bf8e3ac25c6fbd7308acb1fce1e0207cc28bbcecb9b5b72"
+    },
+    {
+      "path": "course-graph/build.py",
+      "bytes": 16656,
+      "sha256": "03ea28d73537cacd1e3c8f0b51627dfd1ae522c2b4f09bf9d7b9766f38dfeb5d"
+    },
+    {
+      "path": "course-graph/graph-core.js",
+      "bytes": 1955,
+      "sha256": "4ef3ac946392207d24d3dd7387b3347092352e4469cfc8290ffc954886038180"
+    },
+    {
+      "path": "course-graph/graph.json",
+      "bytes": 880750,
+      "sha256": "121a261e953398a29b0fc3e1e080e0ba63ddb7b1d864ebbd01fb40548314c564"
+    },
+    {
+      "path": "course-graph/index.html",
+      "bytes": 627428,
+      "sha256": "37400de86ec77e2d56fdb458fd317c7118852da76bd293cc60ceeb1df0a48990"
+    },
+    {
+      "path": "course-graph/nodes.csv",
+      "bytes": 22393,
+      "sha256": "cc1d574943015503ee3562e50535dc9784a91d7d375e6adb0bc2f8c3f20f8a9a"
+    },
+    {
+      "path": "course-graph/overview.mmd",
+      "bytes": 976,
+      "sha256": "08eada1b23d891f4f628cc32c59e143214a575655a3ceda8066ec6fe0b36b0e3"
+    },
+    {
+      "path": "course-graph/overview.svg",
+      "bytes": 7718,
+      "sha256": "a38a3917d35abf6606830b11325a08d649211c9fcbd3052561397680603b47b0"
+    },
+    {
+      "path": "course-graph/README.md",
+      "bytes": 6058,
+      "sha256": "d3e37bc506767b90375ed7c3f3f1d2f3521215df97b33342c65ffd28b788f2af"
+    },
+    {
+      "path": "course-graph/relations.csv",
+      "bytes": 78219,
+      "sha256": "4e111a8f257841278700cab8d9532efbff2990ce8d8026c434c0be7c77e6258d"
+    },
+    {
+      "path": "course-graph/rules.json",
+      "bytes": 23220,
+      "sha256": "21de508da91bd6c48f025a6b1fc26039b1a17b5f45f16152bef0a892d2109cef"
+    },
+    {
+      "path": "course-graph/source-audit.json",
+      "bytes": 25726,
+      "sha256": "6b3afeb8ecbbff21a64143353680f03e552813bf19af146e378362e5ef370ca9"
+    },
+    {
+      "path": "course-graph/test_graph.cjs",
+      "bytes": 2773,
+      "sha256": "28f3c1e192500c18d2bfb9090a764138dcc54c65bdcb3a29ff40e97cb079548e"
+    },
+    {
+      "path": "course-graph/test_graph.py",
+      "bytes": 5931,
+      "sha256": "9ec1a28cf00d79544f8a225f2579fd2dd654a1463c68d21265c99483b3f292ac"
+    },
+    {
+      "path": "course-graph/viewer.html",
+      "bytes": 23097,
+      "sha256": "013ebe07eb4d5ab3414c68c8f0bf41d7770bd23486dd6dc5c690134366f2ac99"
     },
     {
       "path": "course-list.md",
@@ -1699,8 +1776,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 4726,
-      "sha256": "99d46676aac1403ba8dcf731ac9d4383e01f69c0c54b591a360fcf094283b0c8"
+      "bytes": 4975,
+      "sha256": "8e32bcc2686d9e8a3bedde7b492315d165517cb4c0a27a7e1c1144daeabb5a01"
     },
     {
       "path": "release-assets.json",

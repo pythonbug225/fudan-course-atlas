@@ -10,6 +10,7 @@
 
 ## 阅读入口
 
+- [课程关系图谱](course-graph/README.md)：覆盖260课号，74条建议先学关系、248条内容联系；含交互HTML、GitHub可查看的SVG概览及JSON／CSV。官方先修尚未确认，编辑建议与方案学期顺序分别注明。
 - [原始采集数据](raw/README.md)（58份脱敏接口响应／查询计划，gzip压缩JSON，保留结果与分页）；[逐文件SHA-256](raw/manifest.json)；[摘要到原始ID对应](raw/evidence-source-links.json)。原始响应与下列整理结果分开保存。
 - [下载原始数据包](https://github.com/pythonbug225/fudan-course-atlas/releases/download/law-research-20261029/law-raw-snapshots-20261030.zip)：包含同一套58份响应、校验清单与离线还原脚本；2026-10-30补充。
 - [法学院课程名单](法学院课程名单.txt)（仅课程名称，每行一个，按名称去重共244项）；[详细课程目录](course-list.md)；[逐课贡献文件](courses/)（260个文件，参照仓库单课模板扩展为多学期／多教学班）。
