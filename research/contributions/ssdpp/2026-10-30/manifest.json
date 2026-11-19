@@ -19,6 +19,106 @@
       "sha256": "a79691a93b46e49ce460c26ef22afcc03d6eca1e63bf2edbc20e96159510f6c9"
     },
     {
+      "path": "course-graph/.gitattributes",
+      "bytes": 27,
+      "sha256": "c089985639038cc07dc37c07a8d0d543df7ddf9b1873a948000494a6e230530d"
+    },
+    {
+      "path": "course-graph/build_graph.py",
+      "bytes": 22306,
+      "sha256": "3636b69b550116f47c3c42cbee1c2fa868371cfc82fa8935c899a1ba761be2ad"
+    },
+    {
+      "path": "course-graph/build_views.py",
+      "bytes": 8674,
+      "sha256": "a73330dec66d27bdfefefe7a3b942875f7eb9bf511d59183deea34be592c8f33"
+    },
+    {
+      "path": "course-graph/edges.csv",
+      "bytes": 123650,
+      "sha256": "197b9d93ae7ffdd413619b30a3fb34d2405e695d18c1a0fe1985d4d1cbe7b946"
+    },
+    {
+      "path": "course-graph/graph.json",
+      "bytes": 1390929,
+      "sha256": "d1e488be2700c527d341768e9adc78f53109c5c2a99906f44396a7a62f560218"
+    },
+    {
+      "path": "course-graph/index.html",
+      "bytes": 986137,
+      "sha256": "1c51e7bbebf5a823bbe323495bda325385008fa218fd005d226cd5b3c59fb421"
+    },
+    {
+      "path": "course-graph/nodes.csv",
+      "bytes": 78320,
+      "sha256": "087d57e9e111d710c625bc60ecb753f0318f84da962623ce6f637d3c0e8b7e70"
+    },
+    {
+      "path": "course-graph/README.md",
+      "bytes": 4131,
+      "sha256": "9afbfc868604e8e2d7d3edaac40c3ecde57ea2a868bf559ce7c166cdc0fcef3c"
+    },
+    {
+      "path": "course-graph/source-audit.json",
+      "bytes": 22152,
+      "sha256": "18bb7c6ed4a9181005718348f8095205b346716b7d002c488a7bb1dfceb342c5"
+    },
+    {
+      "path": "course-graph/source-figures/153443-curriculum.png",
+      "bytes": 24251,
+      "sha256": "485ce17a73c8c75edd8425d25c21cbabd9c8b5a8a5336389d8387507e3c9dc4c"
+    },
+    {
+      "path": "course-graph/source-figures/153443.json",
+      "bytes": 483,
+      "sha256": "64a4793d7b87a77ea37887b14d2e4f785419669b02470ffc9f606fba67ea0e40"
+    },
+    {
+      "path": "course-graph/source-figures/153495-curriculum.png",
+      "bytes": 623650,
+      "sha256": "a926d2662338fea543d061ac93c4dc0cdd84dd00b9b4ab4be4793e686975c3f1"
+    },
+    {
+      "path": "course-graph/source-figures/153495.json",
+      "bytes": 483,
+      "sha256": "096323a5139d5fb25741278dadba16bb7028211f448fbe60e3838cf4649673b7"
+    },
+    {
+      "path": "course-graph/source-figures/154352-curriculum.png",
+      "bytes": 375460,
+      "sha256": "773f5ccf8ae3a32686f25f088dc8c1d84c817b40f1a41290a6998b3c9c120df7"
+    },
+    {
+      "path": "course-graph/source-figures/154352.json",
+      "bytes": 483,
+      "sha256": "a785f7593f2237cda7b18faaea49596ccea049860de439d33503235f77d7a658"
+    },
+    {
+      "path": "course-graph/validate_graph.py",
+      "bytes": 3494,
+      "sha256": "8531d8fc9151057d251bd5cd894c34eae7958e30f88d14ce6699ab4474fd19ab"
+    },
+    {
+      "path": "course-graph/validation.json",
+      "bytes": 735,
+      "sha256": "87f44218730d77f43e9bc8f1e68ae8319008302308124a2e884ed8896b658935"
+    },
+    {
+      "path": "course-graph/viewer-template.html",
+      "bytes": 13480,
+      "sha256": "c755e7f1e05b07d4c1c2c25c8ea881fb9a4c66649cf8f52d1993570fe98e22e0"
+    },
+    {
+      "path": "course-graph/专业主线.svg",
+      "bytes": 17706,
+      "sha256": "05e7a470a6efc30c14c77a85adf0bbf389617389ab2034b6846c472c8acef924"
+    },
+    {
+      "path": "course-graph/待补关系.csv",
+      "bytes": 45527,
+      "sha256": "57decdd2e2f1de4dae0f2fda08b64eb9cf4b4b0cc99c62d48bf1f1c551878094"
+    },
+    {
       "path": "course-list.md",
       "bytes": 36689,
       "sha256": "2ee9718067c1d2ec1388c236e73aed802afedbe815bf865f3cddb76884a846b0"
@@ -2170,8 +2270,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 5016,
-      "sha256": "c53cddc981a87ba573bfc50ffaed05a69a28d8c9893084760a7592aa4a65d9a0"
+      "bytes": 5214,
+      "sha256": "4b0f067f59058edf074092101160eb45c1e1f8a9b2067cca4e521bcdea14849b"
     },
     {
       "path": "release-assets.json",
@@ -2217,5 +2317,12 @@
   "raw_data": {
     "manifest": "raw/manifest.json",
     "release": "https://github.com/pythonbug225/fudan-course-atlas/releases/tag/ssdpp-raw-data-20261030"
+  },
+  "course_graph": {
+    "path": "course-graph/README.md",
+    "generated_on": "2026-11-19",
+    "nodes": 681,
+    "edges": 297,
+    "source_commit": "be2cf25c30b21a79907db7d01edb657f5f6e6229"
   }
 }

@@ -1,0 +1,33 @@
+{
+  "passed": true,
+  "nodes": 681,
+  "edges": 297,
+  "types": {
+    "official_recommendation": 1,
+    "curriculum_sequence": 1,
+    "recommended_preparation": 73,
+    "content_link": 222
+  },
+  "offering_codes": 296,
+  "directed_cycle_count": 0,
+  "official_text_pointers_verified": 3,
+  "plans_scanned": 15,
+  "empty_prerequisite_field_instances": 128,
+  "unmapped_offering_codes": [
+    "000.000.6",
+    "GEIP40013",
+    "GESP10004",
+    "GESP20003",
+    "GESP20004",
+    "PSYC40005",
+    "PSYC60002",
+    "SOCI40010h"
+  ],
+  "browser_checks": {
+    "search_by_course_code": true,
+    "relation_type_filter": true,
+    "empty_search_state": true,
+    "official_source_quote_display": true,
+    "visual_layout_inspected": true
+  }
+}
