@@ -16,6 +16,7 @@
 
 ## 阅读与下载
 
+- [课程关系图谱](course-graph/README.md)：133门课程、156条分类型关系；含可搜索离线交互图、SVG总览、2024手册预修记录和机器可读JSON。
 - [本分支中的原始数据](raw/README.md)：官方接口与7份Word原件、社区响应发布版、查询/分页和人工判读原档；[逐文件校验清单](raw/source-inventory.json)。
 - [逐课摘要和证据链接](course-summaries.md)、[文物与博物馆学系课程名单](文物与博物馆学系课程名单.txt)
 - [官方教学班与排课信息](official/offerings.csv)、[课程—学期清单](official/courses.csv)

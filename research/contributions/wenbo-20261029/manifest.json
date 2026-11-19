@@ -48,6 +48,66 @@
       "sha256": "da9ee129568977285e5c53b47aa86e8ba131d3ef3245d72503c3415f2322afc4"
     },
     {
+      "path": "README.md",
+      "bytes": 5235,
+      "sha256": "26bc2489ab8b2bbbfeac9df49b00e47b4e0ef4f75b17e1ca5da545d22cc143ad"
+    },
+    {
+      "path": "course-graph/.gitignore",
+      "bytes": 14,
+      "sha256": "0bb5e908544e65360b69a4baebee1768a83b9f2499b1537246c80c3213554ff4"
+    },
+    {
+      "path": "course-graph/README.md",
+      "bytes": 3221,
+      "sha256": "8e6b861c39b9fdededa2e150fc0e082d64956c7b9ee6d881be622a57f1e27f12"
+    },
+    {
+      "path": "course-graph/build_graph.py",
+      "bytes": 20422,
+      "sha256": "31fdd0a0f0c5febcd9b378fa1ac57e50f25e6a3a4457c2837ad0982e538d2378"
+    },
+    {
+      "path": "course-graph/curation.py",
+      "bytes": 17187,
+      "sha256": "0efcad580d75b1c98ea7d130e6e92e63dbc9ab17daacb2944d57664088fd5974"
+    },
+    {
+      "path": "course-graph/graph.json",
+      "bytes": 283687,
+      "sha256": "390288c93d9684e48a2eae4fed2ad5347edb6a80cac1984786a5dd71eadcc0ef"
+    },
+    {
+      "path": "course-graph/historical-fields.json",
+      "bytes": 41157,
+      "sha256": "02181b72be68b593185ac932ee8d42afc1b6e2c2f0b0b1507190edb7406181b4"
+    },
+    {
+      "path": "course-graph/index.html",
+      "bytes": 239538,
+      "sha256": "209fad83d36a06d0c1e8e6f801bd8940a883e18ac2fc029a67fb564c7ce7dbbe"
+    },
+    {
+      "path": "course-graph/learning-paths.md",
+      "bytes": 7056,
+      "sha256": "0854f05011bcdefa44086875de6322fa5ebfcd664568f25109c94645544ea10d"
+    },
+    {
+      "path": "course-graph/overview.svg",
+      "bytes": 8980,
+      "sha256": "cec728d10d3a8ba4cce9172caab0de6a6a0adeaa1060845cdcc2522788ac69d2"
+    },
+    {
+      "path": "course-graph/source-audit.json",
+      "bytes": 1154,
+      "sha256": "75a0663a51b18ce3733553f921396b5717c0d93749666de91f1ae7ff301639ad"
+    },
+    {
+      "path": "course-graph/viewer-template.html",
+      "bytes": 15666,
+      "sha256": "d3137f0f8395698866415765406afeaa6a8ce484da273fc4541d1e762c409bab"
+    },
+    {
       "path": "course-summaries.md",
       "bytes": 113959,
       "sha256": "15b19b91850f6ac58e4d19f1b8c5145cdc98dc6fa2fd2facbd31ed0b478420c3"
@@ -98,6 +158,11 @@
       "sha256": "4f40252a555ee10ad8896bf2197107320d12e2fb77267f1f93ac560afeffd6e7"
     },
     {
+      "path": "official/README.md",
+      "bytes": 2809,
+      "sha256": "7f53c8f5b4746c46bde06e22bbac4e54f87814e54a56cdfc6997e8a85e3fe93e"
+    },
+    {
       "path": "official/courses.csv",
       "bytes": 53374,
       "sha256": "7e6bc42d0d9e8a33558da51a549b8094f4007b4249354c501c505fd5ddd95f4f"
@@ -128,14 +193,14 @@
       "sha256": "763a08c576636f836f20010c9aae6ed76511361fa2f1a419a7e203063de925f8"
     },
     {
-      "path": "official/README.md",
-      "bytes": 2809,
-      "sha256": "7f53c8f5b4746c46bde06e22bbac4e54f87814e54a56cdfc6997e8a85e3fe93e"
-    },
-    {
       "path": "official/statistics.json",
       "bytes": 11048,
       "sha256": "abc224719819790605e0502df8abbc1d411bc93ecad0d85e1f1190da2bba9f6d"
+    },
+    {
+      "path": "raw/README.md",
+      "bytes": 2532,
+      "sha256": "1d320e70016e72b65fc4f5e4d6b1b642d29efdc8ed875132ebf95e8987b0e90d"
     },
     {
       "path": "raw/collected/danke_details_results.json.gz",
@@ -308,11 +373,6 @@
       "sha256": "087a9a79fc3cf75a203447e1fdade4676d9ec35701df1172f08294575f1b95c8"
     },
     {
-      "path": "raw/README.md",
-      "bytes": 2532,
-      "sha256": "1d320e70016e72b65fc4f5e4d6b1b642d29efdc8ed875132ebf95e8987b0e90d"
-    },
-    {
       "path": "raw/rights-and-exclusions.json",
       "bytes": 945,
       "sha256": "22fcc19912417561f6f0807eddba4d2088be8108551a6db6593453f79daf52ce"
@@ -321,11 +381,6 @@
       "path": "raw/source-inventory.json",
       "bytes": 33046,
       "sha256": "9beeb327cea4fd49d3fec7ac1f120a7b14e02ffc3deb5264dcc4b63778169579"
-    },
-    {
-      "path": "README.md",
-      "bytes": 5060,
-      "sha256": "34a26049a8c623faa15b5b950a75ccb7173da16ab7f66efc609028de64de9ef3"
     },
     {
       "path": "summaries/aliases.json",
@@ -420,5 +475,28 @@
         "original_deleted": 7
       }
     }
+  },
+  "course_graph": {
+    "path": "course-graph/README.md",
+    "data": "course-graph/graph.json",
+    "statistics": {
+      "courses": 133,
+      "edges": 156,
+      "edge_types": {
+        "historical_prerequisite": 10,
+        "historical_recommended": 5,
+        "recommended_preparation": 31,
+        "content_related": 103,
+        "parallel_variant": 5,
+        "same_name_distinct_code": 2
+      },
+      "groups": 9,
+      "current_verified_hard_prerequisites": 0,
+      "historical_handbook_mapped_courses": 61,
+      "historical_field_records": 64,
+      "isolated_courses": []
+    },
+    "data_as_of": "2026-11-19",
+    "handbook_version": 2024
   }
 }
