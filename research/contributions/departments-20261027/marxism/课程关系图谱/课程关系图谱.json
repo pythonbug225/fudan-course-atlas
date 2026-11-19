@@ -1,0 +1,5870 @@
+{
+  "schema": "fudan-course-graph/1",
+  "scope": "马院课程名单148个名称；2025秋与2026春教学班大纲、2026级方案",
+  "source_sha256": "99e3f75901aab66c44f3c298a5bef4e514a60c41835fc01c87c147fc8c31b1e2",
+  "notes": [
+    "先修要求未核实；空白不等于没有先修要求。",
+    "内容关联由课程大纲中的主题词构建，是检索线索，不是先修要求。",
+    "各课程最多保留五个匹配主题；未关联不表示无内容联系。",
+    "同名课程合并为一个节点，课程代码和教学班证据保留。"
+  ],
+  "nodes": [
+    {
+      "id": "course:“马克思主义与人工智能”前沿专题",
+      "type": "course",
+      "name": "“马克思主义与人工智能”前沿专题",
+      "course_codes": [
+        "TMAX60008"
+      ],
+      "classes": 1,
+      "readable_syllabi": 1,
+      "prerequisite_status": "未核实"
+    },
+    {
+      "id": "course:《共产党宣言》精讲",
+      "type": "course",
+      "name": "《共产党宣言》精讲",
+      "course_codes": [
+        "TMAX30001"
+      ],
+      "classes": 0,
+      "readable_syllabi": 0,
+      "prerequisite_status": "未核实"
+    },
+    {
+      "id": "course:《资本论》第一卷精讲",
+      "type": "course",
+      "name": "《资本论》第一卷精讲",
+      "course_codes": [
+        "TMAX60015"
+      ],
+      "classes": 1,
+      "readable_syllabi": 1,
+      "prerequisite_status": "未核实"
+    },
+    {
+      "id": "course:《资本论》选读",
+      "type": "course",
+      "name": "《资本论》选读",
+      "course_codes": [
+        "TMAX70006"
+      ],
+      "classes": 0,
+      "readable_syllabi": 0,
+      "prerequisite_status": "未核实"
+    },
+    {
+      "id": "course:专业外语",
+      "type": "course",
+      "name": "专业外语",
+      "course_codes": [
+        "TMAX40001",
+        "TMAX50002"
+      ],
+      "classes": 2,
+      "readable_syllabi": 2,
+      "prerequisite_status": "未核实"
+    },
+    {
+      "id": "course:专业实习（挂职锻炼）",
+      "type": "course",
+      "name": "专业实习（挂职锻炼）",
+      "course_codes": [
+        "TMAX70002"
+      ],
+      "classes": 1,
+      "readable_syllabi": 0,
+      "prerequisite_status": "未核实"
+    },
+    {
+      "id": "course:世界政党治理与政党发展前沿问题研究",
+      "type": "course",
+      "name": "世界政党治理与政党发展前沿问题研究",
+      "course_codes": [
+        "HCCPC60011"
+      ],
+      "classes": 1,
+      "readable_syllabi": 1,
+      "prerequisite_status": "未核实"
+    },
+    {
+      "id": "course:世界社会主义运动史专题",
+      "type": "course",
+      "name": "世界社会主义运动史专题",
+      "course_codes": [
+        "TMAX60007"
+      ],
+      "classes": 0,
+      "readable_syllabi": 0,
+      "prerequisite_status": "未核实"
+    },
+    {
+      "id": "course:中共党史专题研究",
+      "type": "course",
+      "name": "中共党史专题研究",
+      "course_codes": [
+        "HCCPC50002"
+      ],
+      "classes": 1,
+      "readable_syllabi": 1,
+      "prerequisite_status": "未核实"
+    },
+    {
+      "id": "course:中共党史人物生平与思想研究",
+      "type": "course",
+      "name": "中共党史人物生平与思想研究",
+      "course_codes": [
+        "HCCPC50008"
+      ],
+      "classes": 1,
+      "readable_syllabi": 1,
+      "prerequisite_status": "未核实"
+    },
+    {
+      "id": "course:中共党史文献研究",
+      "type": "course",
+      "name": "中共党史文献研究",
+      "course_codes": [
+        "HCCPC50012"
+      ],
+      "classes": 1,
+      "readable_syllabi": 1,
+      "prerequisite_status": "未核实"
+    },
+    {
+      "id": "course:中共党史论纲",
+      "type": "course",
+      "name": "中共党史论纲",
+      "course_codes": [
+        "HCCPC60004"
+      ],
+      "classes": 1,
+      "readable_syllabi": 1,
+      "prerequisite_status": "未核实"
+    },
+    {
+      "id": "course:中华优秀传统文化",
+      "type": "course",
+      "name": "中华优秀传统文化",
+      "course_codes": [
+        "GEEC20071"
+      ],
+      "classes": 2,
+      "readable_syllabi": 1,
+      "prerequisite_status": "未核实"
+    },
+    {
+      "id": "course:中华民国史",
+      "type": "course",
+      "name": "中华民国史",
+      "course_codes": [
+        "HCCPC60008"
+      ],
+      "classes": 1,
+      "readable_syllabi": 1,
+      "prerequisite_status": "未核实"
+    },
+    {
+      "id": "course:中国共产党与中国政治发展",
+      "type": "course",
+      "name": "中国共产党与中国政治发展",
+      "course_codes": [
+        "HCCPC50004",
+        "TMAX50025"
+      ],
+      "classes": 1,
+      "readable_syllabi": 1,
+      "prerequisite_status": "未核实"
+    },
+    {
+      "id": "course:中国共产党与城市治理现代化",
+      "type": "course",
+      "name": "中国共产党与城市治理现代化",
+      "course_codes": [
+        "TMAX50013"
+      ],
+      "classes": 1,
+      "readable_syllabi": 1,
+      "prerequisite_status": "未核实"
+    },
+    {
+      "id": "course:中国共产党与文化建设",
+      "type": "course",
+      "name": "中国共产党与文化建设",
+      "course_codes": [
+        "TMAX60001"
+      ],
+      "classes": 0,
+      "readable_syllabi": 0,
+      "prerequisite_status": "未核实"
+    },
+    {
+      "id": "course:中国共产党与统一战线研究",
+      "type": "course",
+      "name": "中国共产党与统一战线研究",
+      "course_codes": [
+        "HCCPC60010"
+      ],
+      "classes": 1,
+      "readable_syllabi": 1,
+      "prerequisite_status": "未核实"
+    },
+    {
+      "id": "course:中国共产党历史",
+      "type": "course",
+      "name": "中国共产党历史",
+      "course_codes": [
+        "GEIP20002",
+        "TMAX10001"
+      ],
+      "classes": 11,
+      "readable_syllabi": 9,
+      "prerequisite_status": "未核实"
+    },
+    {
+      "id": "course:中国共产党历史与理论",
+      "type": "course",
+      "name": "中国共产党历史与理论",
+      "course_codes": [
+        "GEIP10002"
+      ],
+      "classes": 0,
+      "readable_syllabi": 0,
+      "prerequisite_status": "未核实"
+    },
+    {
+      "id": "course:中国共产党建设理论与实践",
+      "type": "course",
+      "name": "中国共产党建设理论与实践",
+      "course_codes": [
+        "TMAX20012"
+      ],
+      "classes": 1,
+      "readable_syllabi": 1,
+      "prerequisite_status": "未核实"
+    },
+    {
+      "id": "course:中国共产党思想史研究专题",
+      "type": "course",
+      "name": "中国共产党思想史研究专题",
+      "course_codes": [
+        "HCCPC60003"
+      ],
+      "classes": 1,
+      "readable_syllabi": 1,
+      "prerequisite_status": "未核实"
+    },
+    {
+      "id": "course:中国共产党的城市工作理论与实践",
+      "type": "course",
+      "name": "中国共产党的城市工作理论与实践",
+      "course_codes": [
+        "TMAX70001"
+      ],
+      "classes": 1,
+      "readable_syllabi": 1,
+      "prerequisite_status": "未核实"
+    },
+    {
+      "id": "course:中国古代德育思想",
+      "type": "course",
+      "name": "中国古代德育思想",
+      "course_codes": [
+        "TMAX50037"
+      ],
+      "classes": 1,
+      "readable_syllabi": 1,
+      "prerequisite_status": "未核实"
+    },
+    {
+      "id": "course:中国式现代化概论",
+      "type": "course",
+      "name": "中国式现代化概论",
+      "course_codes": [
+        "TMAX50010"
+      ],
+      "classes": 1,
+      "readable_syllabi": 1,
+      "prerequisite_status": "未核实"
+    },
+    {
+      "id": "course:中国政党制度",
+      "type": "course",
+      "name": "中国政党制度",
+      "course_codes": [
+        "TMAX50004"
+      ],
+      "classes": 1,
+      "readable_syllabi": 1,
+      "prerequisite_status": "未核实"
+    },
+    {
+      "id": "course:中国政治制度史",
+      "type": "course",
+      "name": "中国政治制度史",
+      "course_codes": [
+        "TMAX30012"
+      ],
+      "classes": 1,
+      "readable_syllabi": 1,
+      "prerequisite_status": "未核实"
+    },
+    {
+      "id": "course:中国特色现代化道路的研究",
+      "type": "course",
+      "name": "中国特色现代化道路的研究",
+      "course_codes": [
+        "HCCPC60002"
+      ],
+      "classes": 1,
+      "readable_syllabi": 1,
+      "prerequisite_status": "未核实"
+    },
+    {
+      "id": "course:中国特色社会主义市场经济概论",
+      "type": "course",
+      "name": "中国特色社会主义市场经济概论",
+      "course_codes": [
+        "TMAX50024"
+      ],
+      "classes": 1,
+      "readable_syllabi": 1,
+      "prerequisite_status": "未核实"
+    },
+    {
+      "id": "course:中国特色社会主义政治经济学",
+      "type": "course",
+      "name": "中国特色社会主义政治经济学",
+      "course_codes": [
+        "TMAX50022"
+      ],
+      "classes": 2,
+      "readable_syllabi": 2,
+      "prerequisite_status": "未核实"
+    },
+    {
+      "id": "course:中国特色社会主义政治经济学研究",
+      "type": "course",
+      "name": "中国特色社会主义政治经济学研究",
+      "course_codes": [
+        "TMAX60023"
+      ],
+      "classes": 1,
+      "readable_syllabi": 1,
+      "prerequisite_status": "未核实"
+    },
+    {
+      "id": "course:中国现代化问题研究",
+      "type": "course",
+      "name": "中国现代化问题研究",
+      "course_codes": [
+        "POLI50014"
+      ],
+      "classes": 1,
+      "readable_syllabi": 1,
+      "prerequisite_status": "未核实"
+    },
+    {
+      "id": "course:中国近现代历史文献选读",
+      "type": "course",
+      "name": "中国近现代历史文献选读",
+      "course_codes": [
+        "TMAX50033"
+      ],
+      "classes": 1,
+      "readable_syllabi": 1,
+      "prerequisite_status": "未核实"
+    },
+    {
+      "id": "course:中国近现代史",
+      "type": "course",
+      "name": "中国近现代史",
+      "course_codes": [
+        "TMAX10004"
+      ],
+      "classes": 1,
+      "readable_syllabi": 1,
+      "prerequisite_status": "未核实"
+    },
+    {
+      "id": "course:中国近现代史专题研究",
+      "type": "course",
+      "name": "中国近现代史专题研究",
+      "course_codes": [
+        "TMAX50062",
+        "TMAX60021"
+      ],
+      "classes": 1,
+      "readable_syllabi": 1,
+      "prerequisite_status": "未核实"
+    },
+    {
+      "id": "course:中国近现代史主题主线研究",
+      "type": "course",
+      "name": "中国近现代史主题主线研究",
+      "course_codes": [
+        "TMAX50031"
+      ],
+      "classes": 1,
+      "readable_syllabi": 1,
+      "prerequisite_status": "未核实"
+    },
+    {
+      "id": "course:中国近现代史纲要",
+      "type": "course",
+      "name": "中国近现代史纲要",
+      "course_codes": [
+        "GEIP20006"
+      ],
+      "classes": 39,
+      "readable_syllabi": 39,
+      "prerequisite_status": "未核实"
+    },
+    {
+      "id": "course:中国近现代思想文化",
+      "type": "course",
+      "name": "中国近现代思想文化",
+      "course_codes": [
+        "TMAX50049"
+      ],
+      "classes": 1,
+      "readable_syllabi": 1,
+      "prerequisite_status": "未核实"
+    },
+    {
+      "id": "course:中国近现代思想通论",
+      "type": "course",
+      "name": "中国近现代思想通论",
+      "course_codes": [
+        "TMAX40004"
+      ],
+      "classes": 1,
+      "readable_syllabi": 1,
+      "prerequisite_status": "未核实"
+    },
+    {
+      "id": "course:中国近现代档案史料与研究方法",
+      "type": "course",
+      "name": "中国近现代档案史料与研究方法",
+      "course_codes": [
+        "TMAX50034"
+      ],
+      "classes": 1,
+      "readable_syllabi": 1,
+      "prerequisite_status": "未核实"
+    },
+    {
+      "id": "course:中国马克思主义与当代",
+      "type": "course",
+      "name": "中国马克思主义与当代",
+      "course_codes": [
+        "GEIP40001"
+      ],
+      "classes": 13,
+      "readable_syllabi": 13,
+      "prerequisite_status": "未核实"
+    },
+    {
+      "id": "course:中外政党政治比较专题研究",
+      "type": "course",
+      "name": "中外政党政治比较专题研究",
+      "course_codes": [
+        "HCCPC50014"
+      ],
+      "classes": 1,
+      "readable_syllabi": 1,
+      "prerequisite_status": "未核实"
+    },
+    {
+      "id": "course:习近平新时代中国特色社会主义思想专题研究",
+      "type": "course",
+      "name": "习近平新时代中国特色社会主义思想专题研究",
+      "course_codes": [
+        "TMAX30008"
+      ],
+      "classes": 1,
+      "readable_syllabi": 0,
+      "prerequisite_status": "未核实"
+    },
+    {
+      "id": "course:习近平新时代中国特色社会主义思想概论",
+      "type": "course",
+      "name": "习近平新时代中国特色社会主义思想概论",
+      "course_codes": [
+        "GEIP30002"
+      ],
+      "classes": 33,
+      "readable_syllabi": 31,
+      "prerequisite_status": "未核实"
+    },
+    {
+      "id": "course:习近平新时代中国特色社会主义思想研究",
+      "type": "course",
+      "name": "习近平新时代中国特色社会主义思想研究",
+      "course_codes": [
+        "TMAX50044"
+      ],
+      "classes": 1,
+      "readable_syllabi": 0,
+      "prerequisite_status": "未核实"
+    },
+    {
+      "id": "course:习近平生态文明思想概论",
+      "type": "course",
+      "name": "习近平生态文明思想概论",
+      "course_codes": [
+        "TMAX50005"
+      ],
+      "classes": 1,
+      "readable_syllabi": 0,
+      "prerequisite_status": "未核实"
+    },
+    {
+      "id": "course:习近平著作选读",
+      "type": "course",
+      "name": "习近平著作选读",
+      "course_codes": [
+        "GEIP40014"
+      ],
+      "classes": 1,
+      "readable_syllabi": 1,
+      "prerequisite_status": "未核实"
+    },
+    {
+      "id": "course:互联网党建",
+      "type": "course",
+      "name": "互联网党建",
+      "course_codes": [
+        "TMAX50006"
+      ],
+      "classes": 1,
+      "readable_syllabi": 0,
+      "prerequisite_status": "未核实"
+    },
+    {
+      "id": "course:党内法规与政党治理",
+      "type": "course",
+      "name": "党内法规与政党治理",
+      "course_codes": [
+        "HCCPC50007"
+      ],
+      "classes": 1,
+      "readable_syllabi": 1,
+      "prerequisite_status": "未核实"
+    },
+    {
+      "id": "course:党史党建史料和方法",
+      "type": "course",
+      "name": "党史党建史料和方法",
+      "course_codes": [
+        "HCCPC50009"
+      ],
+      "classes": 1,
+      "readable_syllabi": 1,
+      "prerequisite_status": "未核实"
+    },
+    {
+      "id": "course:党建理论与实践前沿",
+      "type": "course",
+      "name": "党建理论与实践前沿",
+      "course_codes": [
+        "TMAX50026"
+      ],
+      "classes": 1,
+      "readable_syllabi": 1,
+      "prerequisite_status": "未核实"
+    },
+    {
+      "id": "course:党的建设理论和实践专题",
+      "type": "course",
+      "name": "党的建设理论和实践专题",
+      "course_codes": [
+        "HCCPC60007"
+      ],
+      "classes": 1,
+      "readable_syllabi": 1,
+      "prerequisite_status": "未核实"
+    },
+    {
+      "id": "course:党的建设经典文献选读",
+      "type": "course",
+      "name": "党的建设经典文献选读",
+      "course_codes": [
+        "HCCPC60006"
+      ],
+      "classes": 1,
+      "readable_syllabi": 1,
+      "prerequisite_status": "未核实"
+    },
+    {
+      "id": "course:党的建设论纲",
+      "type": "course",
+      "name": "党的建设论纲",
+      "course_codes": [
+        "HCCPC60005"
+      ],
+      "classes": 1,
+      "readable_syllabi": 1,
+      "prerequisite_status": "未核实"
+    },
+    {
+      "id": "course:共产国际与中国革命",
+      "type": "course",
+      "name": "共产国际与中国革命",
+      "course_codes": [
+        "HCCPC50011"
+      ],
+      "classes": 1,
+      "readable_syllabi": 1,
+      "prerequisite_status": "未核实"
+    },
+    {
+      "id": "course:历史唯物主义前沿问题研究",
+      "type": "course",
+      "name": "历史唯物主义前沿问题研究",
+      "course_codes": [
+        "TMAX50028"
+      ],
+      "classes": 1,
+      "readable_syllabi": 1,
+      "prerequisite_status": "未核实"
+    },
+    {
+      "id": "course:唯物史观与中国现代化研究",
+      "type": "course",
+      "name": "唯物史观与中国现代化研究",
+      "course_codes": [
+        "TMAX50046"
+      ],
+      "classes": 1,
+      "readable_syllabi": 1,
+      "prerequisite_status": "未核实"
+    },
+    {
+      "id": "course:唯物史观专题",
+      "type": "course",
+      "name": "唯物史观专题",
+      "course_codes": [
+        "TMAX70005"
+      ],
+      "classes": 1,
+      "readable_syllabi": 0,
+      "prerequisite_status": "未核实"
+    },
+    {
+      "id": "course:唯物史观研究",
+      "type": "course",
+      "name": "唯物史观研究",
+      "course_codes": [
+        "TMAX60018"
+      ],
+      "classes": 1,
+      "readable_syllabi": 1,
+      "prerequisite_status": "未核实"
+    },
+    {
+      "id": "course:国共关系史研究",
+      "type": "course",
+      "name": "国共关系史研究",
+      "course_codes": [
+        "HCCPC50003"
+      ],
+      "classes": 1,
+      "readable_syllabi": 1,
+      "prerequisite_status": "未核实"
+    },
+    {
+      "id": "course:国外生态马克思主义研究",
+      "type": "course",
+      "name": "国外生态马克思主义研究",
+      "course_codes": [
+        "TMAX60026"
+      ],
+      "classes": 1,
+      "readable_syllabi": 1,
+      "prerequisite_status": "未核实"
+    },
+    {
+      "id": "course:国外社会主义思潮",
+      "type": "course",
+      "name": "国外社会主义思潮",
+      "course_codes": [
+        "TMAX50020",
+        "TMAX50048"
+      ],
+      "classes": 2,
+      "readable_syllabi": 2,
+      "prerequisite_status": "未核实"
+    },
+    {
+      "id": "course:国外马克思主义与当代中国马克思主义比较",
+      "type": "course",
+      "name": "国外马克思主义与当代中国马克思主义比较",
+      "course_codes": [
+        "TMAX50017"
+      ],
+      "classes": 0,
+      "readable_syllabi": 0,
+      "prerequisite_status": "未核实"
+    },
+    {
+      "id": "course:国外马克思主义与当代中国马克思主义比较之专题研究",
+      "type": "course",
+      "name": "国外马克思主义与当代中国马克思主义比较之专题研究",
+      "course_codes": [
+        "TMAX60027"
+      ],
+      "classes": 1,
+      "readable_syllabi": 1,
+      "prerequisite_status": "未核实"
+    },
+    {
+      "id": "course:国外马克思主义与当代思潮",
+      "type": "course",
+      "name": "国外马克思主义与当代思潮",
+      "course_codes": [
+        "GEEC20067"
+      ],
+      "classes": 1,
+      "readable_syllabi": 0,
+      "prerequisite_status": "未核实"
+    },
+    {
+      "id": "course:国外马克思主义概论",
+      "type": "course",
+      "name": "国外马克思主义概论",
+      "course_codes": [
+        "TMAX20010"
+      ],
+      "classes": 1,
+      "readable_syllabi": 1,
+      "prerequisite_status": "未核实"
+    },
+    {
+      "id": "course:国外马克思主义经济理论",
+      "type": "course",
+      "name": "国外马克思主义经济理论",
+      "course_codes": [
+        "TMAX50018"
+      ],
+      "classes": 1,
+      "readable_syllabi": 1,
+      "prerequisite_status": "未核实"
+    },
+    {
+      "id": "course:国家治理现代化专题研究",
+      "type": "course",
+      "name": "国家治理现代化专题研究",
+      "course_codes": [
+        "TMAX60024"
+      ],
+      "classes": 1,
+      "readable_syllabi": 1,
+      "prerequisite_status": "未核实"
+    },
+    {
+      "id": "course:大学生思想文化素养",
+      "type": "course",
+      "name": "大学生思想文化素养",
+      "course_codes": [
+        "GEIP10003"
+      ],
+      "classes": 0,
+      "readable_syllabi": 0,
+      "prerequisite_status": "未核实"
+    },
+    {
+      "id": "course:学术论文写作",
+      "type": "course",
+      "name": "学术论文写作",
+      "course_codes": [
+        "TMAX30010"
+      ],
+      "classes": 1,
+      "readable_syllabi": 1,
+      "prerequisite_status": "未核实"
+    },
+    {
+      "id": "course:应用伦理学",
+      "type": "course",
+      "name": "应用伦理学",
+      "course_codes": [
+        "GEEC20064"
+      ],
+      "classes": 2,
+      "readable_syllabi": 2,
+      "prerequisite_status": "未核实"
+    },
+    {
+      "id": "course:康德哲学",
+      "type": "course",
+      "name": "康德哲学",
+      "course_codes": [
+        "TMAX60006"
+      ],
+      "classes": 1,
+      "readable_syllabi": 1,
+      "prerequisite_status": "未核实"
+    },
+    {
+      "id": "course:延安时期历史人物研究",
+      "type": "course",
+      "name": "延安时期历史人物研究",
+      "course_codes": [
+        "TMAX50030"
+      ],
+      "classes": 1,
+      "readable_syllabi": 1,
+      "prerequisite_status": "未核实"
+    },
+    {
+      "id": "course:延安时期历史文化研究",
+      "type": "course",
+      "name": "延安时期历史文化研究",
+      "course_codes": [
+        "TMAX50056"
+      ],
+      "classes": 1,
+      "readable_syllabi": 1,
+      "prerequisite_status": "未核实"
+    },
+    {
+      "id": "course:强国之路：形势、政策与使命Ⅱ",
+      "type": "course",
+      "name": "强国之路：形势、政策与使命Ⅱ",
+      "course_codes": [
+        "GESP10004"
+      ],
+      "classes": 1,
+      "readable_syllabi": 0,
+      "prerequisite_status": "未核实"
+    },
+    {
+      "id": "course:强国之路：形势、政策与使命Ⅲ",
+      "type": "course",
+      "name": "强国之路：形势、政策与使命Ⅲ",
+      "course_codes": [
+        "GESP20003"
+      ],
+      "classes": 4,
+      "readable_syllabi": 0,
+      "prerequisite_status": "未核实"
+    },
+    {
+      "id": "course:当代中国马克思主义专题",
+      "type": "course",
+      "name": "当代中国马克思主义专题",
+      "course_codes": [
+        "TMAX60009"
+      ],
+      "classes": 1,
+      "readable_syllabi": 1,
+      "prerequisite_status": "未核实"
+    },
+    {
+      "id": "course:当代中国马克思主义概论",
+      "type": "course",
+      "name": "当代中国马克思主义概论",
+      "course_codes": [
+        "TMAX60014"
+      ],
+      "classes": 1,
+      "readable_syllabi": 1,
+      "prerequisite_status": "未核实"
+    },
+    {
+      "id": "course:当代中国马克思主义经典著作选读",
+      "type": "course",
+      "name": "当代中国马克思主义经典著作选读",
+      "course_codes": [
+        "TMAX30004"
+      ],
+      "classes": 1,
+      "readable_syllabi": 0,
+      "prerequisite_status": "未核实"
+    },
+    {
+      "id": "course:当代中国马克思主义美学",
+      "type": "course",
+      "name": "当代中国马克思主义美学",
+      "course_codes": [
+        "TMAX50014"
+      ],
+      "classes": 0,
+      "readable_syllabi": 0,
+      "prerequisite_status": "未核实"
+    },
+    {
+      "id": "course:当代中外马克思主义比较研究",
+      "type": "course",
+      "name": "当代中外马克思主义比较研究",
+      "course_codes": [
+        "TMAX50035"
+      ],
+      "classes": 1,
+      "readable_syllabi": 1,
+      "prerequisite_status": "未核实"
+    },
+    {
+      "id": "course:当代俄罗斯马克思主义研究",
+      "type": "course",
+      "name": "当代俄罗斯马克思主义研究",
+      "course_codes": [
+        "TMAX60025"
+      ],
+      "classes": 1,
+      "readable_syllabi": 1,
+      "prerequisite_status": "未核实"
+    },
+    {
+      "id": "course:当代社会思潮",
+      "type": "course",
+      "name": "当代社会思潮",
+      "course_codes": [
+        "TMAX10002"
+      ],
+      "classes": 0,
+      "readable_syllabi": 0,
+      "prerequisite_status": "未核实"
+    },
+    {
+      "id": "course:当代社会思潮评述",
+      "type": "course",
+      "name": "当代社会思潮评述",
+      "course_codes": [
+        "TMAX50047"
+      ],
+      "classes": 1,
+      "readable_syllabi": 1,
+      "prerequisite_status": "未核实"
+    },
+    {
+      "id": "course:当代西方左翼与社会运动",
+      "type": "course",
+      "name": "当代西方左翼与社会运动",
+      "course_codes": [
+        "TMAX60004"
+      ],
+      "classes": 1,
+      "readable_syllabi": 0,
+      "prerequisite_status": "未核实"
+    },
+    {
+      "id": "course:当代资本主义前沿问题研究",
+      "type": "course",
+      "name": "当代资本主义前沿问题研究",
+      "course_codes": [
+        "TMAX30011"
+      ],
+      "classes": 1,
+      "readable_syllabi": 1,
+      "prerequisite_status": "未核实"
+    },
+    {
+      "id": "course:思想政治教育原著导读",
+      "type": "course",
+      "name": "思想政治教育原著导读",
+      "course_codes": [
+        "TMAX50050"
+      ],
+      "classes": 1,
+      "readable_syllabi": 1,
+      "prerequisite_status": "未核实"
+    },
+    {
+      "id": "course:思想政治教育学前沿问题研究",
+      "type": "course",
+      "name": "思想政治教育学前沿问题研究",
+      "course_codes": [
+        "TMAX50001"
+      ],
+      "classes": 1,
+      "readable_syllabi": 1,
+      "prerequisite_status": "未核实"
+    },
+    {
+      "id": "course:思想政治教育学原理",
+      "type": "course",
+      "name": "思想政治教育学原理",
+      "course_codes": [
+        "TMAX20009"
+      ],
+      "classes": 1,
+      "readable_syllabi": 1,
+      "prerequisite_status": "未核实"
+    },
+    {
+      "id": "course:思想政治教育学研究",
+      "type": "course",
+      "name": "思想政治教育学研究",
+      "course_codes": [
+        "TMAX50045"
+      ],
+      "classes": 1,
+      "readable_syllabi": 1,
+      "prerequisite_status": "未核实"
+    },
+    {
+      "id": "course:思想政治教育的理论和方法",
+      "type": "course",
+      "name": "思想政治教育的理论和方法",
+      "course_codes": [
+        "TMAX60012"
+      ],
+      "classes": 1,
+      "readable_syllabi": 1,
+      "prerequisite_status": "未核实"
+    },
+    {
+      "id": "course:思想道德与法治",
+      "type": "course",
+      "name": "思想道德与法治",
+      "course_codes": [
+        "GEIP20007"
+      ],
+      "classes": 49,
+      "readable_syllabi": 49,
+      "prerequisite_status": "未核实"
+    },
+    {
+      "id": "course:改革开放史",
+      "type": "course",
+      "name": "改革开放史",
+      "course_codes": [
+        "GEIP20004",
+        "TMAX20005"
+      ],
+      "classes": 9,
+      "readable_syllabi": 9,
+      "prerequisite_status": "未核实"
+    },
+    {
+      "id": "course:政务文书写作",
+      "type": "course",
+      "name": "政务文书写作",
+      "course_codes": [
+        "TMAX70004"
+      ],
+      "classes": 1,
+      "readable_syllabi": 1,
+      "prerequisite_status": "未核实"
+    },
+    {
+      "id": "course:政治经济学理论研究",
+      "type": "course",
+      "name": "政治经济学理论研究",
+      "course_codes": [
+        "TMAX50040"
+      ],
+      "classes": 1,
+      "readable_syllabi": 1,
+      "prerequisite_status": "未核实"
+    },
+    {
+      "id": "course:数字资本主义研究",
+      "type": "course",
+      "name": "数字资本主义研究",
+      "course_codes": [
+        "TMAX50036"
+      ],
+      "classes": 1,
+      "readable_syllabi": 1,
+      "prerequisite_status": "未核实"
+    },
+    {
+      "id": "course:数智赋能政党建设",
+      "type": "course",
+      "name": "数智赋能政党建设",
+      "course_codes": [
+        "AIT310022"
+      ],
+      "classes": 1,
+      "readable_syllabi": 1,
+      "prerequisite_status": "未核实"
+    },
+    {
+      "id": "course:新中国史",
+      "type": "course",
+      "name": "新中国史",
+      "course_codes": [
+        "GEIP20003"
+      ],
+      "classes": 4,
+      "readable_syllabi": 4,
+      "prerequisite_status": "未核实"
+    },
+    {
+      "id": "course:新中国史（实践课程）",
+      "type": "course",
+      "name": "新中国史（实践课程）",
+      "course_codes": [
+        "TMAX20007"
+      ],
+      "classes": 1,
+      "readable_syllabi": 1,
+      "prerequisite_status": "未核实"
+    },
+    {
+      "id": "course:新时代中国特色社会主义理论与实践",
+      "type": "course",
+      "name": "新时代中国特色社会主义理论与实践",
+      "course_codes": [
+        "GEIP40013"
+      ],
+      "classes": 42,
+      "readable_syllabi": 42,
+      "prerequisite_status": "未核实"
+    },
+    {
+      "id": "course:欧洲公法发展与现代国家观念",
+      "type": "course",
+      "name": "欧洲公法发展与现代国家观念",
+      "course_codes": [
+        "GECC20052"
+      ],
+      "classes": 1,
+      "readable_syllabi": 1,
+      "prerequisite_status": "未核实"
+    },
+    {
+      "id": "course:比较思想政治教育",
+      "type": "course",
+      "name": "比较思想政治教育",
+      "course_codes": [
+        "TMAX50009"
+      ],
+      "classes": 1,
+      "readable_syllabi": 1,
+      "prerequisite_status": "未核实"
+    },
+    {
+      "id": "course:比较思想政治教育研究专题",
+      "type": "course",
+      "name": "比较思想政治教育研究专题",
+      "course_codes": [
+        "TMAX60011"
+      ],
+      "classes": 1,
+      "readable_syllabi": 1,
+      "prerequisite_status": "未核实"
+    },
+    {
+      "id": "course:毕业论文",
+      "type": "course",
+      "name": "毕业论文",
+      "course_codes": [
+        "TMAX40005"
+      ],
+      "classes": 27,
+      "readable_syllabi": 0,
+      "prerequisite_status": "未核实"
+    },
+    {
+      "id": "course:毛泽东思想",
+      "type": "course",
+      "name": "毛泽东思想",
+      "course_codes": [
+        "TMAX10005"
+      ],
+      "classes": 1,
+      "readable_syllabi": 1,
+      "prerequisite_status": "未核实"
+    },
+    {
+      "id": "course:毛泽东思想和中国特色社会主义理论体系概论",
+      "type": "course",
+      "name": "毛泽东思想和中国特色社会主义理论体系概论",
+      "course_codes": [
+        "GEIP30001"
+      ],
+      "classes": 42,
+      "readable_syllabi": 42,
+      "prerequisite_status": "未核实"
+    },
+    {
+      "id": "course:法学理论专题研究",
+      "type": "course",
+      "name": "法学理论专题研究",
+      "course_codes": [
+        "HCCPC50001"
+      ],
+      "classes": 1,
+      "readable_syllabi": 1,
+      "prerequisite_status": "未核实"
+    },
+    {
+      "id": "course:海外中共学",
+      "type": "course",
+      "name": "海外中共学",
+      "course_codes": [
+        "TMAX50016"
+      ],
+      "classes": 1,
+      "readable_syllabi": 0,
+      "prerequisite_status": "未核实"
+    },
+    {
+      "id": "course:海外中国共产党研究",
+      "type": "course",
+      "name": "海外中国共产党研究",
+      "course_codes": [
+        "HCCPC60009"
+      ],
+      "classes": 1,
+      "readable_syllabi": 1,
+      "prerequisite_status": "未核实"
+    },
+    {
+      "id": "course:现代德育理论和传播",
+      "type": "course",
+      "name": "现代德育理论和传播",
+      "course_codes": [
+        "TMAX50039"
+      ],
+      "classes": 1,
+      "readable_syllabi": 1,
+      "prerequisite_status": "未核实"
+    },
+    {
+      "id": "course:现代科技与社会发展",
+      "type": "course",
+      "name": "现代科技与社会发展",
+      "course_codes": [
+        "TMAX60002"
+      ],
+      "classes": 1,
+      "readable_syllabi": 0,
+      "prerequisite_status": "未核实"
+    },
+    {
+      "id": "course:生命科学史",
+      "type": "course",
+      "name": "生命科学史",
+      "course_codes": [
+        "GECC20050"
+      ],
+      "classes": 3,
+      "readable_syllabi": 3,
+      "prerequisite_status": "未核实"
+    },
+    {
+      "id": "course:社会与政治经济学批判史专题",
+      "type": "course",
+      "name": "社会与政治经济学批判史专题",
+      "course_codes": [
+        "TMAX60020"
+      ],
+      "classes": 1,
+      "readable_syllabi": 1,
+      "prerequisite_status": "未核实"
+    },
+    {
+      "id": "course:社会主义发展史",
+      "type": "course",
+      "name": "社会主义发展史",
+      "course_codes": [
+        "GEIP20005"
+      ],
+      "classes": 4,
+      "readable_syllabi": 2,
+      "prerequisite_status": "未核实"
+    },
+    {
+      "id": "course:社会主义思想史",
+      "type": "course",
+      "name": "社会主义思想史",
+      "course_codes": [
+        "POLI50015"
+      ],
+      "classes": 1,
+      "readable_syllabi": 1,
+      "prerequisite_status": "未核实"
+    },
+    {
+      "id": "course:社会科学研究方法与论文写作",
+      "type": "course",
+      "name": "社会科学研究方法与论文写作",
+      "course_codes": [
+        "HCCPC50015"
+      ],
+      "classes": 1,
+      "readable_syllabi": 1,
+      "prerequisite_status": "未核实"
+    },
+    {
+      "id": "course:科学社会主义",
+      "type": "course",
+      "name": "科学社会主义",
+      "course_codes": [
+        "TMAX20011"
+      ],
+      "classes": 1,
+      "readable_syllabi": 1,
+      "prerequisite_status": "未核实"
+    },
+    {
+      "id": "course:科学社会主义经典文献精读",
+      "type": "course",
+      "name": "科学社会主义经典文献精读",
+      "course_codes": [
+        "POLI60058"
+      ],
+      "classes": 1,
+      "readable_syllabi": 1,
+      "prerequisite_status": "未核实"
+    },
+    {
+      "id": "course:科研方法与论文写作",
+      "type": "course",
+      "name": "科研方法与论文写作",
+      "course_codes": [
+        "TMAX70007"
+      ],
+      "classes": 1,
+      "readable_syllabi": 1,
+      "prerequisite_status": "未核实"
+    },
+    {
+      "id": "course:自然辩证法",
+      "type": "course",
+      "name": "自然辩证法",
+      "course_codes": [
+        "GEIP40007"
+      ],
+      "classes": 7,
+      "readable_syllabi": 7,
+      "prerequisite_status": "未核实"
+    },
+    {
+      "id": "course:苏联时期的马克思主义研究",
+      "type": "course",
+      "name": "苏联时期的马克思主义研究",
+      "course_codes": [
+        "TMAX50052"
+      ],
+      "classes": 1,
+      "readable_syllabi": 1,
+      "prerequisite_status": "未核实"
+    },
+    {
+      "id": "course:苏联社会主义及其政治演变",
+      "type": "course",
+      "name": "苏联社会主义及其政治演变",
+      "course_codes": [
+        "POLI60056"
+      ],
+      "classes": 1,
+      "readable_syllabi": 1,
+      "prerequisite_status": "未核实"
+    },
+    {
+      "id": "course:西方政治思想史",
+      "type": "course",
+      "name": "西方政治思想史",
+      "course_codes": [
+        "TMAX30013"
+      ],
+      "classes": 1,
+      "readable_syllabi": 1,
+      "prerequisite_status": "未核实"
+    },
+    {
+      "id": "course:西方马克思主义与历史唯物主义",
+      "type": "course",
+      "name": "西方马克思主义与历史唯物主义",
+      "course_codes": [
+        "TMAX60013"
+      ],
+      "classes": 1,
+      "readable_syllabi": 1,
+      "prerequisite_status": "未核实"
+    },
+    {
+      "id": "course:西方马克思主义原著选读",
+      "type": "course",
+      "name": "西方马克思主义原著选读",
+      "course_codes": [
+        "TMAX50021"
+      ],
+      "classes": 1,
+      "readable_syllabi": 0,
+      "prerequisite_status": "未核实"
+    },
+    {
+      "id": "course:课题组讨论",
+      "type": "course",
+      "name": "课题组讨论",
+      "course_codes": [
+        "000.000.6"
+      ],
+      "classes": 1,
+      "readable_syllabi": 0,
+      "prerequisite_status": "未核实"
+    },
+    {
+      "id": "course:马克思主义与社会科学方法论",
+      "type": "course",
+      "name": "马克思主义与社会科学方法论",
+      "course_codes": [
+        "GEIP40008"
+      ],
+      "classes": 10,
+      "readable_syllabi": 8,
+      "prerequisite_status": "未核实"
+    },
+    {
+      "id": "course:马克思主义中国化历史进程与基本经验",
+      "type": "course",
+      "name": "马克思主义中国化历史进程与基本经验",
+      "course_codes": [
+        "TMAX50023"
+      ],
+      "classes": 0,
+      "readable_syllabi": 0,
+      "prerequisite_status": "未核实"
+    },
+    {
+      "id": "course:马克思主义中国化概论",
+      "type": "course",
+      "name": "马克思主义中国化概论",
+      "course_codes": [
+        "TMAX50032"
+      ],
+      "classes": 1,
+      "readable_syllabi": 1,
+      "prerequisite_status": "未核实"
+    },
+    {
+      "id": "course:马克思主义伦理学",
+      "type": "course",
+      "name": "马克思主义伦理学",
+      "course_codes": [
+        "TMAX20008"
+      ],
+      "classes": 1,
+      "readable_syllabi": 1,
+      "prerequisite_status": "未核实"
+    },
+    {
+      "id": "course:马克思主义前史专题研究",
+      "type": "course",
+      "name": "马克思主义前史专题研究",
+      "course_codes": [
+        "TMAX50029"
+      ],
+      "classes": 1,
+      "readable_syllabi": 1,
+      "prerequisite_status": "未核实"
+    },
+    {
+      "id": "course:马克思主义发展史",
+      "type": "course",
+      "name": "马克思主义发展史",
+      "course_codes": [
+        "TMAX30006"
+      ],
+      "classes": 1,
+      "readable_syllabi": 1,
+      "prerequisite_status": "未核实"
+    },
+    {
+      "id": "course:马克思主义发展史专题研究",
+      "type": "course",
+      "name": "马克思主义发展史专题研究",
+      "course_codes": [
+        "TMAX50042"
+      ],
+      "classes": 1,
+      "readable_syllabi": 1,
+      "prerequisite_status": "未核实"
+    },
+    {
+      "id": "course:马克思主义哲学",
+      "type": "course",
+      "name": "马克思主义哲学",
+      "course_codes": [
+        "TMAX10003"
+      ],
+      "classes": 1,
+      "readable_syllabi": 0,
+      "prerequisite_status": "未核实"
+    },
+    {
+      "id": "course:马克思主义哲学经典著作选读",
+      "type": "course",
+      "name": "马克思主义哲学经典著作选读",
+      "course_codes": [
+        "TMAX30002"
+      ],
+      "classes": 1,
+      "readable_syllabi": 1,
+      "prerequisite_status": "未核实"
+    },
+    {
+      "id": "course:马克思主义基本原理",
+      "type": "course",
+      "name": "马克思主义基本原理",
+      "course_codes": [
+        "GEIP40012"
+      ],
+      "classes": 40,
+      "readable_syllabi": 38,
+      "prerequisite_status": "未核实"
+    },
+    {
+      "id": "course:马克思主义基础理论研究",
+      "type": "course",
+      "name": "马克思主义基础理论研究",
+      "course_codes": [
+        "HCCPC50005"
+      ],
+      "classes": 1,
+      "readable_syllabi": 1,
+      "prerequisite_status": "未核实"
+    },
+    {
+      "id": "course:马克思主义思想渊源",
+      "type": "course",
+      "name": "马克思主义思想渊源",
+      "course_codes": [
+        "TMAX60019"
+      ],
+      "classes": 1,
+      "readable_syllabi": 1,
+      "prerequisite_status": "未核实"
+    },
+    {
+      "id": "course:马克思主义政党学说史",
+      "type": "course",
+      "name": "马克思主义政党学说史",
+      "course_codes": [
+        "HCCPC50010",
+        "TMAX40002"
+      ],
+      "classes": 3,
+      "readable_syllabi": 3,
+      "prerequisite_status": "未核实"
+    },
+    {
+      "id": "course:马克思主义政党理论研究",
+      "type": "course",
+      "name": "马克思主义政党理论研究",
+      "course_codes": [
+        "HCCPC50006"
+      ],
+      "classes": 1,
+      "readable_syllabi": 1,
+      "prerequisite_status": "未核实"
+    },
+    {
+      "id": "course:马克思主义政治经济学",
+      "type": "course",
+      "name": "马克思主义政治经济学",
+      "course_codes": [
+        "TMAX20001"
+      ],
+      "classes": 1,
+      "readable_syllabi": 1,
+      "prerequisite_status": "未核实"
+    },
+    {
+      "id": "course:马克思主义政治经济学史的研究",
+      "type": "course",
+      "name": "马克思主义政治经济学史的研究",
+      "course_codes": [
+        "TMAX60010"
+      ],
+      "classes": 1,
+      "readable_syllabi": 1,
+      "prerequisite_status": "未核实"
+    },
+    {
+      "id": "course:马克思主义方法论研究",
+      "type": "course",
+      "name": "马克思主义方法论研究",
+      "course_codes": [
+        "TMAX50043"
+      ],
+      "classes": 1,
+      "readable_syllabi": 1,
+      "prerequisite_status": "未核实"
+    },
+    {
+      "id": "course:马克思主义时代化专题研究",
+      "type": "course",
+      "name": "马克思主义时代化专题研究",
+      "course_codes": [
+        "TMAX60022"
+      ],
+      "classes": 1,
+      "readable_syllabi": 1,
+      "prerequisite_status": "未核实"
+    },
+    {
+      "id": "course:马克思主义法律思想史",
+      "type": "course",
+      "name": "马克思主义法律思想史",
+      "course_codes": [
+        "TMAX50027"
+      ],
+      "classes": 1,
+      "readable_syllabi": 0,
+      "prerequisite_status": "未核实"
+    },
+    {
+      "id": "course:马克思主义理论专业外语",
+      "type": "course",
+      "name": "马克思主义理论专业外语",
+      "course_codes": [
+        "TMAX40003"
+      ],
+      "classes": 0,
+      "readable_syllabi": 0,
+      "prerequisite_status": "未核实"
+    },
+    {
+      "id": "course:马克思主义经典文献导读",
+      "type": "course",
+      "name": "马克思主义经典文献导读",
+      "course_codes": [
+        "TMAX50041"
+      ],
+      "classes": 1,
+      "readable_syllabi": 1,
+      "prerequisite_status": "未核实"
+    },
+    {
+      "id": "course:马克思恩格斯思想发展史",
+      "type": "course",
+      "name": "马克思恩格斯思想发展史",
+      "course_codes": [
+        "TMAX60016"
+      ],
+      "classes": 1,
+      "readable_syllabi": 1,
+      "prerequisite_status": "未核实"
+    },
+    {
+      "id": "topic:马克思主义哲学",
+      "type": "topic",
+      "name": "马克思主义哲学"
+    },
+    {
+      "id": "topic:政治经济学",
+      "type": "topic",
+      "name": "政治经济学"
+    },
+    {
+      "id": "topic:科学社会主义",
+      "type": "topic",
+      "name": "科学社会主义"
+    },
+    {
+      "id": "topic:马克思主义经典著作",
+      "type": "topic",
+      "name": "马克思主义经典著作"
+    },
+    {
+      "id": "topic:马克思主义发展史",
+      "type": "topic",
+      "name": "马克思主义发展史"
+    },
+    {
+      "id": "topic:中国近现代史",
+      "type": "topic",
+      "name": "中国近现代史"
+    },
+    {
+      "id": "topic:中国共产党历史",
+      "type": "topic",
+      "name": "中国共产党历史"
+    },
+    {
+      "id": "topic:中华人民共和国史",
+      "type": "topic",
+      "name": "中华人民共和国史"
+    },
+    {
+      "id": "topic:改革开放史",
+      "type": "topic",
+      "name": "改革开放史"
+    },
+    {
+      "id": "topic:中国特色社会主义",
+      "type": "topic",
+      "name": "中国特色社会主义"
+    },
+    {
+      "id": "topic:思想政治教育",
+      "type": "topic",
+      "name": "思想政治教育"
+    },
+    {
+      "id": "topic:伦理与道德",
+      "type": "topic",
+      "name": "伦理与道德"
+    },
+    {
+      "id": "topic:社会研究方法",
+      "type": "topic",
+      "name": "社会研究方法"
+    },
+    {
+      "id": "topic:人工智能与技术",
+      "type": "topic",
+      "name": "人工智能与技术"
+    },
+    {
+      "id": "topic:科学技术与社会",
+      "type": "topic",
+      "name": "科学技术与社会"
+    },
+    {
+      "id": "topic:世界政治与国际关系",
+      "type": "topic",
+      "name": "世界政治与国际关系"
+    },
+    {
+      "id": "topic:法律与法治",
+      "type": "topic",
+      "name": "法律与法治"
+    },
+    {
+      "id": "topic:生态与环境",
+      "type": "topic",
+      "name": "生态与环境"
+    },
+    {
+      "id": "topic:文化与意识形态",
+      "type": "topic",
+      "name": "文化与意识形态"
+    }
+  ],
+  "edges": [
+    {
+      "source": "course:“马克思主义与人工智能”前沿专题",
+      "target": "topic:人工智能与技术",
+      "type": "内容关联",
+      "matched_term": "人工智能",
+      "evidence": {
+        "course_code": "TMAX60008",
+        "lesson_id": 1030608,
+        "term": "2026春",
+        "section": "课程简介（中文）",
+        "excerpt": "如今以人工智能为代表的新科技革命方兴未艾，为马克思主义经典理论内容的时代化提供了新的时代背景。本课程旨在充分发挥马",
+        "url": "https://fdjwgl.fudan.edu.cn/student/for-all/lesson-search/teachingSyllabusInfo/1030608",
+        "snapshot": "../raw-official/syllabi-20261027/1030608.html.gz"
+      }
+    },
+    {
+      "source": "course:“马克思主义与人工智能”前沿专题",
+      "target": "topic:科学技术与社会",
+      "type": "内容关联",
+      "matched_term": "科学技术哲学",
+      "evidence": {
+        "course_code": "TMAX60008",
+        "lesson_id": 1030608,
+        "term": "2026春",
+        "section": "教学内容与进度安排",
+        "excerpt": "1):14-25. 4、刘鸿宇.人工智能现象意识合成何以可能[J].科学技术哲学研究,2023,40(05):88-94. 5、宋春艳.镜像自我识别实验——类脑智能自我意识的本质",
+        "url": "https://fdjwgl.fudan.edu.cn/student/for-all/lesson-search/teachingSyllabusInfo/1030608",
+        "snapshot": "../raw-official/syllabi-20261027/1030608.html.gz"
+      }
+    },
+    {
+      "source": "course:“马克思主义与人工智能”前沿专题",
+      "target": "topic:马克思主义经典著作",
+      "type": "内容关联",
+      "matched_term": "马克思恩格斯",
+      "evidence": {
+        "course_code": "TMAX60008",
+        "lesson_id": 1030608,
+        "term": "2026春",
+        "section": "教学内容与进度安排",
+        "excerpt": "一般智力”概念，如何理解人工智能的“智能”性质？ 课程文献： 1、马克思恩格斯全集（第31卷）[M]. 北京: 人民出版社, 1998. 2、马克思恩格斯文集（第5卷）[M]",
+        "url": "https://fdjwgl.fudan.edu.cn/student/for-all/lesson-search/teachingSyllabusInfo/1030608",
+        "snapshot": "../raw-official/syllabi-20261027/1030608.html.gz"
+      }
+    },
+    {
+      "source": "course:“马克思主义与人工智能”前沿专题",
+      "target": "topic:政治经济学",
+      "type": "内容关联",
+      "matched_term": "政治经济学",
+      "evidence": {
+        "course_code": "TMAX60008",
+        "lesson_id": 1030608,
+        "term": "2026春",
+        "section": "教学内容与进度安排",
+        "excerpt": "022年版； 2、机器论片段：1857—58年经济学手稿 笔记本六，政治经济学批判； 3、James Steinhoff：《Automation and Autonomy：La",
+        "url": "https://fdjwgl.fudan.edu.cn/student/for-all/lesson-search/teachingSyllabusInfo/1030608",
+        "snapshot": "../raw-official/syllabi-20261027/1030608.html.gz"
+      }
+    },
+    {
+      "source": "course:“马克思主义与人工智能”前沿专题",
+      "target": "topic:世界政治与国际关系",
+      "type": "内容关联",
+      "matched_term": "国际关系",
+      "evidence": {
+        "course_code": "TMAX60008",
+        "lesson_id": 1030608,
+        "term": "2026春",
+        "section": "教学内容与进度安排",
+        "excerpt": "人工智能与国际政治经济格局（上） 课程纲要： 马克思主义认为，国际关系的结构和变动有其经济根源。人工智能将带来生产力和生产关系的深刻调整，并进一步引发国际政治经济关系的变",
+        "url": "https://fdjwgl.fudan.edu.cn/student/for-all/lesson-search/teachingSyllabusInfo/1030608",
+        "snapshot": "../raw-official/syllabi-20261027/1030608.html.gz"
+      }
+    },
+    {
+      "source": "course:《资本论》第一卷精讲",
+      "target": "topic:政治经济学",
+      "type": "内容关联",
+      "matched_term": "资本论",
+      "evidence": {
+        "course_code": "TMAX60015",
+        "lesson_id": 1006580,
+        "term": "2025秋",
+        "section": "课程简介（中文）",
+        "excerpt": "《资本论——政治经济学批判》是反映马克思思想学说的经典之作，同时也是马克思主义的重要百科全书。但由于篇幅巨大",
+        "url": "https://fdjwgl.fudan.edu.cn/student/for-all/lesson-search/teachingSyllabusInfo/1006580",
+        "snapshot": "../raw-official/syllabi-20261027/1006580.html.gz"
+      }
+    },
+    {
+      "source": "course:《资本论》第一卷精讲",
+      "target": "topic:中国特色社会主义",
+      "type": "内容关联",
+      "matched_term": "中国特色社会主义",
+      "evidence": {
+        "course_code": "TMAX60015",
+        "lesson_id": 1006580,
+        "term": "2025秋",
+        "section": "课程简介（中文）",
+        "excerpt": "课程聚焦于《资本论》第一卷，精选其中最核心的篇章进行句读，并结合新时代中国特色社会主义理论与实践中的具体问题，引导学生进入政治经济学批判的马克思主义殿堂。",
+        "url": "https://fdjwgl.fudan.edu.cn/student/for-all/lesson-search/teachingSyllabusInfo/1006580",
+        "snapshot": "../raw-official/syllabi-20261027/1006580.html.gz"
+      }
+    },
+    {
+      "source": "course:《资本论》第一卷精讲",
+      "target": "topic:科学社会主义",
+      "type": "内容关联",
+      "matched_term": "社会主义理论",
+      "evidence": {
+        "course_code": "TMAX60015",
+        "lesson_id": 1006580,
+        "term": "2025秋",
+        "section": "课程简介（中文）",
+        "excerpt": "于《资本论》第一卷，精选其中最核心的篇章进行句读，并结合新时代中国特色社会主义理论与实践中的具体问题，引导学生进入政治经济学批判的马克思主义殿堂。",
+        "url": "https://fdjwgl.fudan.edu.cn/student/for-all/lesson-search/teachingSyllabusInfo/1006580",
+        "snapshot": "../raw-official/syllabi-20261027/1006580.html.gz"
+      }
+    },
+    {
+      "source": "course:专业外语",
+      "target": "topic:中国特色社会主义",
+      "type": "内容关联",
+      "matched_term": "马克思主义中国化",
+      "evidence": {
+        "course_code": "TMAX40001",
+        "lesson_id": 1006559,
+        "term": "2025秋",
+        "section": "教学内容与进度安排",
+        "excerpt": "1-2周：马克思主义中国化时代化理论的翻译与阅读。阅读讲解二十大报告和二十届三中全会英译本。 3-4周：马克思主义经典原著及",
+        "url": "https://fdjwgl.fudan.edu.cn/student/for-all/lesson-search/teachingSyllabusInfo/1006559",
+        "snapshot": "../raw-official/syllabi-20261027/1006559.html.gz"
+      }
+    },
+    {
+      "source": "course:专业外语",
+      "target": "topic:文化与意识形态",
+      "type": "内容关联",
+      "matched_term": "文化理论",
+      "evidence": {
+        "course_code": "TMAX40001",
+        "lesson_id": 1006559,
+        "term": "2025秋",
+        "section": "课程简介（中文）",
+        "excerpt": "专业术语的英文表达，提升跨语言文本解读能力，为参与国际学术对话、开展跨文化理论研究奠定语言与学术基础。课程注重理论深度与实践应用结合，助力学生成长为具有国际视野的马克思主义理论研",
+        "url": "https://fdjwgl.fudan.edu.cn/student/for-all/lesson-search/teachingSyllabusInfo/1006559",
+        "snapshot": "../raw-official/syllabi-20261027/1006559.html.gz"
+      }
+    },
+    {
+      "source": "course:专业外语",
+      "target": "topic:马克思主义经典著作",
+      "type": "内容关联",
+      "matched_term": "经典著作",
+      "evidence": {
+        "course_code": "TMAX40001",
+        "lesson_id": 1006559,
+        "term": "2025秋",
+        "section": "课程简介（中文）",
+        "excerpt": "课程以马克思主义经典著作英文文本为核心，涵盖《共产党宣言》《资本论》等文献的选读与分析，结合当代马克思主义理论前沿议题的英文",
+        "url": "https://fdjwgl.fudan.edu.cn/student/for-all/lesson-search/teachingSyllabusInfo/1006559",
+        "snapshot": "../raw-official/syllabi-20261027/1006559.html.gz"
+      }
+    },
+    {
+      "source": "course:专业外语",
+      "target": "topic:政治经济学",
+      "type": "内容关联",
+      "matched_term": "资本论",
+      "evidence": {
+        "course_code": "TMAX40001",
+        "lesson_id": 1006559,
+        "term": "2025秋",
+        "section": "课程简介（中文）",
+        "excerpt": "课程以马克思主义经典著作英文文本为核心，涵盖《共产党宣言》《资本论》等文献的选读与分析，结合当代马克思主义理论前沿议题的英文文献研读，训练学术翻译、英文论文写作及国际",
+        "url": "https://fdjwgl.fudan.edu.cn/student/for-all/lesson-search/teachingSyllabusInfo/1006559",
+        "snapshot": "../raw-official/syllabi-20261027/1006559.html.gz"
+      }
+    },
+    {
+      "source": "course:中共党史专题研究",
+      "target": "topic:中国共产党历史",
+      "type": "内容关联",
+      "matched_term": "党史",
+      "evidence": {
+        "course_code": "HCCPC50002",
+        "lesson_id": 1006564,
+        "term": "2025秋",
+        "section": "课程简介（中文）",
+        "excerpt": "本问题以及重要人物、重要会议、重大决策、重大历史转折等，以期建立完整的党史知识体系，并实现正本清源和以史为鉴的目的。",
+        "url": "https://fdjwgl.fudan.edu.cn/student/for-all/lesson-search/teachingSyllabusInfo/1006564",
+        "snapshot": "../raw-official/syllabi-20261027/1006564.html.gz"
+      }
+    },
+    {
+      "source": "course:中共党史人物生平与思想研究",
+      "target": "topic:中国共产党历史",
+      "type": "内容关联",
+      "matched_term": "中共党史",
+      "evidence": {
+        "course_code": "HCCPC50008",
+        "lesson_id": 1006566,
+        "term": "2025秋",
+        "section": "课程简介（中文）",
+        "excerpt": "对陈独秀、李大钊、恽代英、斯诺、毛泽东、周恩来等人物的讲授，使学生熟悉中共党史重要人物的生平与思想。",
+        "url": "https://fdjwgl.fudan.edu.cn/student/for-all/lesson-search/teachingSyllabusInfo/1006566",
+        "snapshot": "../raw-official/syllabi-20261027/1006566.html.gz"
+      }
+    },
+    {
+      "source": "course:中共党史文献研究",
+      "target": "topic:中国共产党历史",
+      "type": "内容关联",
+      "matched_term": "中共党史",
+      "evidence": {
+        "course_code": "HCCPC50012",
+        "lesson_id": 1031586,
+        "term": "2026春",
+        "section": "课程简介（中文）",
+        "excerpt": "中共党史文献研究将按照历史时期，系统介绍和研究各个阶段的中共党史文献，旨在让研究生熟悉中共党史基本文献，",
+        "url": "https://fdjwgl.fudan.edu.cn/student/for-all/lesson-search/teachingSyllabusInfo/1031586",
+        "snapshot": "../raw-official/syllabi-20261027/1031586.html.gz"
+      }
+    },
+    {
+      "source": "course:中共党史论纲",
+      "target": "topic:中国共产党历史",
+      "type": "内容关联",
+      "matched_term": "党史",
+      "evidence": {
+        "course_code": "HCCPC60004",
+        "lesson_id": 1006579,
+        "term": "2025秋",
+        "section": "课程简介（中文）",
+        "excerpt": "以大历史视野，对中国共产党百余年历史进行系统性、整体性研究，梳理百余年党史的基本脉络，包括中国共产党的创建史；中国共产党百年奋斗历经的各个阶段的历史，其中包括对百余年历史经验",
+        "url": "https://fdjwgl.fudan.edu.cn/student/for-all/lesson-search/teachingSyllabusInfo/1006579",
+        "snapshot": "../raw-official/syllabi-20261027/1006579.html.gz"
+      }
+    },
+    {
+      "source": "course:中共党史论纲",
+      "target": "topic:中国特色社会主义",
+      "type": "内容关联",
+      "matched_term": "中国特色社会主义",
+      "evidence": {
+        "course_code": "HCCPC60004",
+        "lesson_id": 1006579,
+        "term": "2025秋",
+        "section": "教学内容与进度安排",
+        "excerpt": "改革开放：决定中国命运的关键一招 读书笔记 9 1 邓小平与中国特色社会主义理论（体系） 读书笔记 10 1 中国特色社会主义新时代党的治国理政成就和经验 读书笔记",
+        "url": "https://fdjwgl.fudan.edu.cn/student/for-all/lesson-search/teachingSyllabusInfo/1006579",
+        "snapshot": "../raw-official/syllabi-20261027/1006579.html.gz"
+      }
+    },
+    {
+      "source": "course:中共党史论纲",
+      "target": "topic:科学社会主义",
+      "type": "内容关联",
+      "matched_term": "社会主义理论",
+      "evidence": {
+        "course_code": "HCCPC60004",
+        "lesson_id": 1006579,
+        "term": "2025秋",
+        "section": "教学内容与进度安排",
+        "excerpt": "放：决定中国命运的关键一招 读书笔记 9 1 邓小平与中国特色社会主义理论（体系） 读书笔记 10 1 中国特色社会主义新时代党的治国理政成就和经验 读书笔记 1",
+        "url": "https://fdjwgl.fudan.edu.cn/student/for-all/lesson-search/teachingSyllabusInfo/1006579",
+        "snapshot": "../raw-official/syllabi-20261027/1006579.html.gz"
+      }
+    },
+    {
+      "source": "course:中共党史论纲",
+      "target": "topic:马克思主义哲学",
+      "type": "内容关联",
+      "matched_term": "历史唯物主义",
+      "evidence": {
+        "course_code": "HCCPC60004",
+        "lesson_id": 1006579,
+        "term": "2025秋",
+        "section": "教学目标",
+        "excerpt": "全面系统地学习，使学生具备研究中共党史党建的坚实基础。引导学生学会运用历史唯物主义和辩证的科学方法，思考回答党史上的大是大非问题，正确总结历史经验，从中把握百年历史的主流、主线、本质",
+        "url": "https://fdjwgl.fudan.edu.cn/student/for-all/lesson-search/teachingSyllabusInfo/1006579",
+        "snapshot": "../raw-official/syllabi-20261027/1006579.html.gz"
+      }
+    },
+    {
+      "source": "course:中国共产党与中国政治发展",
+      "target": "topic:改革开放史",
+      "type": "内容关联",
+      "matched_term": "改革开放以来",
+      "evidence": {
+        "course_code": "HCCPC50004",
+        "lesson_id": 1032448,
+        "term": "2026春",
+        "section": "教学内容与进度安排",
+        "excerpt": "4、中国共产党与国家的关系 5、中国共产党与新兴社会力量关系 7、改革开放以来党、政府同群众关系的变化与问题 8、基层党组织和基层党员的存在状态与困境 参考文献： 1、王长",
+        "url": "https://fdjwgl.fudan.edu.cn/student/for-all/lesson-search/teachingSyllabusInfo/1032448",
+        "snapshot": "../raw-official/syllabi-20261027/1032448.html.gz"
+      }
+    },
+    {
+      "source": "course:中国共产党与中国政治发展",
+      "target": "topic:马克思主义经典著作",
+      "type": "内容关联",
+      "matched_term": "马克思恩格斯",
+      "evidence": {
+        "course_code": "HCCPC50004",
+        "lesson_id": 1032448,
+        "term": "2026春",
+        "section": "教学内容与进度安排",
+        "excerpt": "么办？”、“进一步、退两步”《列宁专题文集：论无产阶级政党》，中共中央马克思恩格斯列宁大林著作编译局 编，人民出版社； 卢森堡：《卢森堡文选》，李宗禹主编，“俄国社会民主党的组织问",
+        "url": "https://fdjwgl.fudan.edu.cn/student/for-all/lesson-search/teachingSyllabusInfo/1032448",
+        "snapshot": "../raw-official/syllabi-20261027/1032448.html.gz"
+      }
+    },
+    {
+      "source": "course:中国共产党与中国政治发展",
+      "target": "topic:中国近现代史",
+      "type": "内容关联",
+      "matched_term": "中国近代史",
+      "evidence": {
+        "course_code": "HCCPC50004",
+        "lesson_id": 1032448,
+        "term": "2026春",
+        "section": "教学内容与进度安排",
+        "excerpt": "》，上海世纪出版集团，2008年； 11、王建朗 黄克武：《两岸新编中国近代史》（民国卷，上），社会科学文献出版社，2016年； 12、[英]克里斯多夫·皮尔逊：《论现代国家》",
+        "url": "https://fdjwgl.fudan.edu.cn/student/for-all/lesson-search/teachingSyllabusInfo/1032448",
+        "snapshot": "../raw-official/syllabi-20261027/1032448.html.gz"
+      }
+    },
+    {
+      "source": "course:中国共产党与中国政治发展",
+      "target": "topic:中国共产党历史",
+      "type": "内容关联",
+      "matched_term": "中共党史",
+      "evidence": {
+        "course_code": "HCCPC50004",
+        "lesson_id": 1032448,
+        "term": "2026春",
+        "section": "教学目标",
+        "excerpt": "基本的政治学原理、概念和分析方法，并立足于社会主义革命运动、中国历史、中共党史，来把握中共在革命历程中以及在执政后的国家治理实践中形成的新政治原理，培养同学思考中共及中国政治发展",
+        "url": "https://fdjwgl.fudan.edu.cn/student/for-all/lesson-search/teachingSyllabusInfo/1032448",
+        "snapshot": "../raw-official/syllabi-20261027/1032448.html.gz"
+      }
+    },
+    {
+      "source": "course:中国共产党与城市治理现代化",
+      "target": "topic:马克思主义经典著作",
+      "type": "内容关联",
+      "matched_term": "马克思恩格斯",
+      "evidence": {
+        "course_code": "TMAX50013",
+        "lesson_id": 1029178,
+        "term": "2026春",
+        "section": "教学内容与进度安排",
+        "excerpt": "1、马克思主义城市思想及其中国化（上） 第一节 马克思恩格斯论城市起源 第二节 城市、资本主义私有制与阶级形成 2、马克思主义城市思想及其中国化（下） 第",
+        "url": "https://fdjwgl.fudan.edu.cn/student/for-all/lesson-search/teachingSyllabusInfo/1029178",
+        "snapshot": "../raw-official/syllabi-20261027/1029178.html.gz"
+      }
+    },
+    {
+      "source": "course:中国共产党与城市治理现代化",
+      "target": "topic:生态与环境",
+      "type": "内容关联",
+      "matched_term": "生态文明",
+      "evidence": {
+        "course_code": "TMAX50013",
+        "lesson_id": 1029178,
+        "term": "2026春",
+        "section": "教学内容与进度安排",
+        "excerpt": "城市化战略、城市产业结构、城市就业工作、城市基层党建，21世纪初的城市生态文明建设、城乡统筹、城市布局、城市群发展、新“四化”和城市农民工群体等内容进行研究。） 10、十八大以",
+        "url": "https://fdjwgl.fudan.edu.cn/student/for-all/lesson-search/teachingSyllabusInfo/1029178",
+        "snapshot": "../raw-official/syllabi-20261027/1029178.html.gz"
+      }
+    },
+    {
+      "source": "course:中国共产党与统一战线研究",
+      "target": "topic:中国特色社会主义",
+      "type": "内容关联",
+      "matched_term": "中国特色社会主义",
+      "evidence": {
+        "course_code": "HCCPC60010",
+        "lesson_id": 1032451,
+        "term": "2026春",
+        "section": "教学内容与进度安排",
+        "excerpt": "讨论： 1、社会化形态的统一战线：社会分化与统一战线 2、政党调适与中国特色社会主义事业建设者的提出 3、基本经济制度与“两个健康” 4、中国特色社会主义事业建设者 5、五大关系：统一",
+        "url": "https://fdjwgl.fudan.edu.cn/student/for-all/lesson-search/teachingSyllabusInfo/1032451",
+        "snapshot": "../raw-official/syllabi-20261027/1032451.html.gz"
+      }
+    },
+    {
+      "source": "course:中国共产党与统一战线研究",
+      "target": "topic:中国共产党历史",
+      "type": "内容关联",
+      "matched_term": "中国共产党历史",
+      "evidence": {
+        "course_code": "HCCPC60010",
+        "lesson_id": 1032451,
+        "term": "2026春",
+        "section": "教学内容与进度安排",
+        "excerpt": "版。 [美] 范力沛（Lyman P.Van Slyke）：《敌与友：中国共产党历史中的统一战线》，肖存良译 [澳大利亚]格雷·格鲁特《发展转型：社团主义、霸权主义视野下的中共统战工作",
+        "url": "https://fdjwgl.fudan.edu.cn/student/for-all/lesson-search/teachingSyllabusInfo/1032451",
+        "snapshot": "../raw-official/syllabi-20261027/1032451.html.gz"
+      }
+    },
+    {
+      "source": "course:中国共产党与统一战线研究",
+      "target": "topic:马克思主义经典著作",
+      "type": "内容关联",
+      "matched_term": "马克思恩格斯",
+      "evidence": {
+        "course_code": "HCCPC60010",
+        "lesson_id": 1032451,
+        "term": "2026春",
+        "section": "教学内容与进度安排",
+        "excerpt": "第一部分：经典作家论统一战线 第一单元：阶级革命：马克思恩格斯统一战线思想 讨论： 1、为什么无产阶级要联合起来，建立统一战线？ 2、《共产党宣言》中的统一战线思",
+        "url": "https://fdjwgl.fudan.edu.cn/student/for-all/lesson-search/teachingSyllabusInfo/1032451",
+        "snapshot": "../raw-official/syllabi-20261027/1032451.html.gz"
+      }
+    },
+    {
+      "source": "course:中国共产党历史",
+      "target": "topic:中国特色社会主义",
+      "type": "内容关联",
+      "matched_term": "中国特色社会主义",
+      "evidence": {
+        "course_code": "GEIP20002",
+        "lesson_id": 1003397,
+        "term": "2025秋",
+        "section": "课程简介（中文）",
+        "excerpt": "革命时期、社会主义革命和建设时期、改革开放和社会主义现代化建设新时期、中国特色社会主义新时代的历史，学习党的不懈奋斗史、不怕牺牲史、理论探索史、为民造福史、自身建设史，认识和把握党对中国",
+        "url": "https://fdjwgl.fudan.edu.cn/student/for-all/lesson-search/teachingSyllabusInfo/1003397",
+        "snapshot": "../raw-official/syllabi-20261027/1003397.html.gz"
+      }
+    },
+    {
+      "source": "course:中国共产党历史",
+      "target": "topic:科学社会主义",
+      "type": "内容关联",
+      "matched_term": "社会主义理论",
+      "evidence": {
+        "course_code": "TMAX10001",
+        "lesson_id": 1004814,
+        "term": "2025秋",
+        "section": "教学内容与进度安排",
+        "excerpt": "1、党的十四大、十五大与改革开放的深入推进 2、中国特色社会主义理论与实践的发展 3、“一国两制”与香港澳门回归祖国 第十章 成功在新形势下坚持和发展中国特色",
+        "url": "https://fdjwgl.fudan.edu.cn/student/for-all/lesson-search/teachingSyllabusInfo/1004814",
+        "snapshot": "../raw-official/syllabi-20261027/1004814.html.gz"
+      }
+    },
+    {
+      "source": "course:中国共产党历史",
+      "target": "topic:中华人民共和国史",
+      "type": "内容关联",
+      "matched_term": "新中国成立",
+      "evidence": {
+        "course_code": "TMAX10001",
+        "lesson_id": 1004814,
+        "term": "2025秋",
+        "section": "教学内容与进度安排",
+        "excerpt": "第五章 中华人民共和国成立和社会主义制度的建立【第八周】 1、新中国成立初期党面临的考验 2、中国共产党作为执政党是如何应对这些新考验的？ 3、如何理解过渡时期",
+        "url": "https://fdjwgl.fudan.edu.cn/student/for-all/lesson-search/teachingSyllabusInfo/1004814",
+        "snapshot": "../raw-official/syllabi-20261027/1004814.html.gz"
+      }
+    },
+    {
+      "source": "course:中国共产党历史",
+      "target": "topic:中国共产党历史",
+      "type": "内容关联",
+      "matched_term": "党史",
+      "evidence": {
+        "course_code": "GEIP20002",
+        "lesson_id": 1003397,
+        "term": "2025秋",
+        "section": "课程简介（中文）",
+        "excerpt": "全面系统学习党史，学习党在新民主主义革命时期、社会主义革命和建设时期、改革开放和社会主义现代化建设新时期、中国特色社",
+        "url": "https://fdjwgl.fudan.edu.cn/student/for-all/lesson-search/teachingSyllabusInfo/1003397",
+        "snapshot": "../raw-official/syllabi-20261027/1003397.html.gz"
+      }
+    },
+    {
+      "source": "course:中国共产党建设理论与实践",
+      "target": "topic:中国特色社会主义",
+      "type": "内容关联",
+      "matched_term": "中国特色社会主义",
+      "evidence": {
+        "course_code": "TMAX20012",
+        "lesson_id": 1004821,
+        "term": "2025秋",
+        "section": "课程简介（中文）",
+        "excerpt": "《马克思主义基本原理》课程教学是中国特色社会主义高等教育的本质特征之一，是在校 大学生的共同必修课，是全面准确阐释马克思主义基本原理，并对大学生进行",
+        "url": "https://fdjwgl.fudan.edu.cn/student/for-all/lesson-search/teachingSyllabusInfo/1004821",
+        "snapshot": "../raw-official/syllabi-20261027/1004821.html.gz"
+      }
+    },
+    {
+      "source": "course:中国共产党建设理论与实践",
+      "target": "topic:马克思主义哲学",
+      "type": "内容关联",
+      "matched_term": "马克思主义哲学",
+      "evidence": {
+        "course_code": "TMAX20012",
+        "lesson_id": 1004821,
+        "term": "2025秋",
+        "section": "课程简介（中文）",
+        "excerpt": "程。通过本课程的学习，学生能 从整体上把握马克思主义的基本观点，进而以马克思主义哲学为基础，把握资本主义经济的一 般发展规律，认清社会主义代替资本主义的历史必然性，坚定共产主义理想信念",
+        "url": "https://fdjwgl.fudan.edu.cn/student/for-all/lesson-search/teachingSyllabusInfo/1004821",
+        "snapshot": "../raw-official/syllabi-20261027/1004821.html.gz"
+      }
+    },
+    {
+      "source": "course:中国共产党建设理论与实践",
+      "target": "topic:科学社会主义",
+      "type": "内容关联",
+      "matched_term": "科学社会主义",
+      "evidence": {
+        "course_code": "TMAX20012",
+        "lesson_id": 1004821,
+        "term": "2025秋",
+        "section": "教学目标",
+        "excerpt": "学习马克思主义哲学、政治经济学和科学社会主义基本理论，掌握马克思主义基本 立场、基本观点和基本方法，运用多媒体教学、理论讲授、社会实践等教学方法",
+        "url": "https://fdjwgl.fudan.edu.cn/student/for-all/lesson-search/teachingSyllabusInfo/1004821",
+        "snapshot": "../raw-official/syllabi-20261027/1004821.html.gz"
+      }
+    },
+    {
+      "source": "course:中国共产党建设理论与实践",
+      "target": "topic:政治经济学",
+      "type": "内容关联",
+      "matched_term": "政治经济学",
+      "evidence": {
+        "course_code": "TMAX20012",
+        "lesson_id": 1004821,
+        "term": "2025秋",
+        "section": "教学目标",
+        "excerpt": "学习马克思主义哲学、政治经济学和科学社会主义基本理论，掌握马克思主义基本 立场、基本观点和基本方法，运用多媒体教学、理论讲授、社会",
+        "url": "https://fdjwgl.fudan.edu.cn/student/for-all/lesson-search/teachingSyllabusInfo/1004821",
+        "snapshot": "../raw-official/syllabi-20261027/1004821.html.gz"
+      }
+    },
+    {
+      "source": "course:中国共产党建设理论与实践",
+      "target": "topic:文化与意识形态",
+      "type": "内容关联",
+      "matched_term": "意识形态",
+      "evidence": {
+        "course_code": "TMAX20012",
+        "lesson_id": 1004821,
+        "term": "2025秋",
+        "section": "教学内容与进度安排",
+        "excerpt": "累；剩余价值论及其意义；资本主义基本矛盾与经济危机；资本主义政治制度与意识形态的特点和本质等。 第13周 资本主义的发展及其趋势；私人、垄断资本主义的形成及特点；国家垄断资本主",
+        "url": "https://fdjwgl.fudan.edu.cn/student/for-all/lesson-search/teachingSyllabusInfo/1004821",
+        "snapshot": "../raw-official/syllabi-20261027/1004821.html.gz"
+      }
+    },
+    {
+      "source": "course:中国古代德育思想",
+      "target": "topic:思想政治教育",
+      "type": "内容关联",
+      "matched_term": "思想政治教育",
+      "evidence": {
+        "course_code": "TMAX50037",
+        "lesson_id": 1006562,
+        "term": "2025秋",
+        "section": "教学目标",
+        "excerpt": "》等经典著作。 3.领会中国古代德育思想的现代价值，主要是对当代思想政治教育的借鉴和启示。",
+        "url": "https://fdjwgl.fudan.edu.cn/student/for-all/lesson-search/teachingSyllabusInfo/1006562",
+        "snapshot": "../raw-official/syllabi-20261027/1006562.html.gz"
+      }
+    },
+    {
+      "source": "course:中国古代德育思想",
+      "target": "topic:马克思主义经典著作",
+      "type": "内容关联",
+      "matched_term": "经典著作",
+      "evidence": {
+        "course_code": "TMAX50037",
+        "lesson_id": 1006562,
+        "term": "2025秋",
+        "section": "教学目标",
+        "excerpt": "。例如《论语》《孟子》《老子》《庄子》《学记》《颜氏家训》《传习录》等经典著作。 3.领会中国古代德育思想的现代价值，主要是对当代思想政治教育的借鉴和启示。",
+        "url": "https://fdjwgl.fudan.edu.cn/student/for-all/lesson-search/teachingSyllabusInfo/1006562",
+        "snapshot": "../raw-official/syllabi-20261027/1006562.html.gz"
+      }
+    },
+    {
+      "source": "course:中国式现代化概论",
+      "target": "topic:文化与意识形态",
+      "type": "内容关联",
+      "matched_term": "文化建设",
+      "evidence": {
+        "course_code": "TMAX50010",
+        "lesson_id": 1029176,
+        "term": "2026春",
+        "section": "教学内容与进度安排",
+        "excerpt": "中国式现代化总体布局——政治建设 11. 中国式现代化总体布局——文化建设 12. 中国式现代化总体布局——社会建设 13. 中国式现代化总体布局——生态文明建设",
+        "url": "https://fdjwgl.fudan.edu.cn/student/for-all/lesson-search/teachingSyllabusInfo/1029176",
+        "snapshot": "../raw-official/syllabi-20261027/1029176.html.gz"
+      }
+    },
+    {
+      "source": "course:中国式现代化概论",
+      "target": "topic:生态与环境",
+      "type": "内容关联",
+      "matched_term": "生态文明",
+      "evidence": {
+        "course_code": "TMAX50010",
+        "lesson_id": 1029176,
+        "term": "2026春",
+        "section": "教学内容与进度安排",
+        "excerpt": "中国式现代化总体布局——社会建设 13. 中国式现代化总体布局——生态文明建设 14. 中国式现代化对世界的影响和贡献 15. 中国共产党的伟大使命 16. 专题",
+        "url": "https://fdjwgl.fudan.edu.cn/student/for-all/lesson-search/teachingSyllabusInfo/1029176",
+        "snapshot": "../raw-official/syllabi-20261027/1029176.html.gz"
+      }
+    },
+    {
+      "source": "course:中国特色现代化道路的研究",
+      "target": "topic:中国特色社会主义",
+      "type": "内容关联",
+      "matched_term": "中国特色社会主义",
+      "evidence": {
+        "course_code": "HCCPC60002",
+        "lesson_id": 1031587,
+        "term": "2026春",
+        "section": "课程简介（中文）",
+        "excerpt": "现代化的基本理论和流派；认识中国现代化与资本主义及社会主义的关系；认识中国特色社会主义现代化道路是历史的选择。同时，对于中国现代化程中遇到的各种问题及其解决的途径进行思考与探索。课程的主",
+        "url": "https://fdjwgl.fudan.edu.cn/student/for-all/lesson-search/teachingSyllabusInfo/1031587",
+        "snapshot": "../raw-official/syllabi-20261027/1031587.html.gz"
+      }
+    },
+    {
+      "source": "course:中国特色现代化道路的研究",
+      "target": "topic:马克思主义哲学",
+      "type": "内容关联",
+      "matched_term": "辩证唯物主义",
+      "evidence": {
+        "course_code": "HCCPC60002",
+        "lesson_id": 1031587,
+        "term": "2026春",
+        "section": "教学内容与进度安排",
+        "excerpt": "要求是：历史和现实相结合，理论与实际相结合，从中国的特殊国情出发，运用辩证唯物主义和历史唯物主义方法分析问题和解决问题。",
+        "url": "https://fdjwgl.fudan.edu.cn/student/for-all/lesson-search/teachingSyllabusInfo/1031587",
+        "snapshot": "../raw-official/syllabi-20261027/1031587.html.gz"
+      }
+    },
+    {
+      "source": "course:中国特色现代化道路的研究",
+      "target": "topic:马克思主义经典著作",
+      "type": "内容关联",
+      "matched_term": "马克思恩格斯",
+      "evidence": {
+        "course_code": "HCCPC60002",
+        "lesson_id": 1031587,
+        "term": "2026春",
+        "section": "教学内容与进度安排",
+        "excerpt": "第五专题：落后国家的发展与发达资本主义国家的关系理论（之一） ——马克思恩格斯关于落后国家发展道路问题的阐述 第六专题：“西方经典现代化理论”关于落后国家与发达国家关系的理论（",
+        "url": "https://fdjwgl.fudan.edu.cn/student/for-all/lesson-search/teachingSyllabusInfo/1031587",
+        "snapshot": "../raw-official/syllabi-20261027/1031587.html.gz"
+      }
+    },
+    {
+      "source": "course:中国特色社会主义市场经济概论",
+      "target": "topic:中国特色社会主义",
+      "type": "内容关联",
+      "matched_term": "中国特色社会主义",
+      "evidence": {
+        "course_code": "TMAX50024",
+        "lesson_id": 1004812,
+        "term": "2025秋",
+        "section": "课程简介（中文）",
+        "excerpt": "济学、20世纪以来的现代经济学理论、中国传统经济思想的多元视域下，介绍中国特色社会主义市场经济体制的理论和实践。突出面向新时代、面向实践需要、面向改革难点，以期提高同学们掌握运用理论、理",
+        "url": "https://fdjwgl.fudan.edu.cn/student/for-all/lesson-search/teachingSyllabusInfo/1004812",
+        "snapshot": "../raw-official/syllabi-20261027/1004812.html.gz"
+      }
+    },
+    {
+      "source": "course:中国特色社会主义市场经济概论",
+      "target": "topic:改革开放史",
+      "type": "内容关联",
+      "matched_term": "改革开放以来",
+      "evidence": {
+        "course_code": "TMAX50024",
+        "lesson_id": 1004812,
+        "term": "2025秋",
+        "section": "课程简介（中文）",
+        "excerpt": "针对改革开放以来、特别是新时代以来中国高水平社会主义市场经济体制建设中的前沿实践问题，在马克思主义政治经济学、20世",
+        "url": "https://fdjwgl.fudan.edu.cn/student/for-all/lesson-search/teachingSyllabusInfo/1004812",
+        "snapshot": "../raw-official/syllabi-20261027/1004812.html.gz"
+      }
+    },
+    {
+      "source": "course:中国特色社会主义市场经济概论",
+      "target": "topic:政治经济学",
+      "type": "内容关联",
+      "matched_term": "政治经济学",
+      "evidence": {
+        "course_code": "TMAX50024",
+        "lesson_id": 1004812,
+        "term": "2025秋",
+        "section": "课程简介（中文）",
+        "excerpt": "代以来中国高水平社会主义市场经济体制建设中的前沿实践问题，在马克思主义政治经济学、20世纪以来的现代经济学理论、中国传统经济思想的多元视域下，介绍中国特色社会主义市场经济体制的理论",
+        "url": "https://fdjwgl.fudan.edu.cn/student/for-all/lesson-search/teachingSyllabusInfo/1004812",
+        "snapshot": "../raw-official/syllabi-20261027/1004812.html.gz"
+      }
+    },
+    {
+      "source": "course:中国特色社会主义市场经济概论",
+      "target": "topic:世界政治与国际关系",
+      "type": "内容关联",
+      "matched_term": "国际政治",
+      "evidence": {
+        "course_code": "TMAX50024",
+        "lesson_id": 1004812,
+        "term": "2025秋",
+        "section": "教学内容与进度安排",
+        "excerpt": "环境与世界愿景。 在推动人类命运共同体建设的愿景中，介绍二战以来国际政治经济环境，聚焦中国特色社会主义市场经济所肩负的政治经济和国内外多重任务。并举例说明。 4.",
+        "url": "https://fdjwgl.fudan.edu.cn/student/for-all/lesson-search/teachingSyllabusInfo/1004812",
+        "snapshot": "../raw-official/syllabi-20261027/1004812.html.gz"
+      }
+    },
+    {
+      "source": "course:中国特色社会主义市场经济概论",
+      "target": "topic:人工智能与技术",
+      "type": "内容关联",
+      "matched_term": "数字时代",
+      "evidence": {
+        "course_code": "TMAX50024",
+        "lesson_id": 1004812,
+        "term": "2025秋",
+        "section": "教学内容与进度安排",
+        "excerpt": "程，包括股票市场的建立、银行体系的改革、利率市场化进程等；最后，分析在数字时代，数据要素市场的形成、数据产权制度的建立。通过对这些要素市场的深入分析，阐释中国特色社会主义市场经济",
+        "url": "https://fdjwgl.fudan.edu.cn/student/for-all/lesson-search/teachingSyllabusInfo/1004812",
+        "snapshot": "../raw-official/syllabi-20261027/1004812.html.gz"
+      }
+    },
+    {
+      "source": "course:中国特色社会主义政治经济学",
+      "target": "topic:中国特色社会主义",
+      "type": "内容关联",
+      "matched_term": "中国特色社会主义",
+      "evidence": {
+        "course_code": "TMAX50022",
+        "lesson_id": 1004817,
+        "term": "2025秋",
+        "section": "课程简介（中文）",
+        "excerpt": "本课程主要讲授中国特色社会主义政治经济学的基本知识，包括中国特色社会主义基本经济制度、社会主义市场经济运行规律、我国宏观经济治理、",
+        "url": "https://fdjwgl.fudan.edu.cn/student/for-all/lesson-search/teachingSyllabusInfo/1004817",
+        "snapshot": "../raw-official/syllabi-20261027/1004817.html.gz"
+      }
+    },
+    {
+      "source": "course:中国特色社会主义政治经济学",
+      "target": "topic:政治经济学",
+      "type": "内容关联",
+      "matched_term": "政治经济学",
+      "evidence": {
+        "course_code": "TMAX50022",
+        "lesson_id": 1004817,
+        "term": "2025秋",
+        "section": "课程简介（中文）",
+        "excerpt": "本课程主要讲授中国特色社会主义政治经济学的基本知识，包括中国特色社会主义基本经济制度、社会主义市场经济运行规律、我国宏观经济治理、经济发展、",
+        "url": "https://fdjwgl.fudan.edu.cn/student/for-all/lesson-search/teachingSyllabusInfo/1004817",
+        "snapshot": "../raw-official/syllabi-20261027/1004817.html.gz"
+      }
+    },
+    {
+      "source": "course:中国特色社会主义政治经济学",
+      "target": "topic:科学社会主义",
+      "type": "内容关联",
+      "matched_term": "社会主义理论",
+      "evidence": {
+        "course_code": "TMAX50022",
+        "lesson_id": 1004817,
+        "term": "2025秋",
+        "section": "教学目标",
+        "excerpt": "义政治经济学的理论体系； （2）加深对马克思主义政治经济学和中国特色社会主义理论体系的理解； （3）增进对我国经济现实的了解，增强分析和解决我国经济问题的能力； （4）进一步坚",
+        "url": "https://fdjwgl.fudan.edu.cn/student/for-all/lesson-search/teachingSyllabusInfo/1004817",
+        "snapshot": "../raw-official/syllabi-20261027/1004817.html.gz"
+      }
+    },
+    {
+      "source": "course:中国特色社会主义政治经济学研究",
+      "target": "topic:中国特色社会主义",
+      "type": "内容关联",
+      "matched_term": "中国特色社会主义",
+      "evidence": {
+        "course_code": "TMAX60023",
+        "lesson_id": 1031609,
+        "term": "2026春",
+        "section": "教学内容与进度安排",
+        "excerpt": "1-2专题一：《资本论》与中国特色社会主义政治经济学的研究对象 3-4专题二：《资本论》与中国特色社会主义生产资料所有制的相关问题研究 5-6",
+        "url": "https://fdjwgl.fudan.edu.cn/student/for-all/lesson-search/teachingSyllabusInfo/1031609",
+        "snapshot": "../raw-official/syllabi-20261027/1031609.html.gz"
+      }
+    },
+    {
+      "source": "course:中国特色社会主义政治经济学研究",
+      "target": "topic:政治经济学",
+      "type": "内容关联",
+      "matched_term": "政治经济学",
+      "evidence": {
+        "course_code": "TMAX60023",
+        "lesson_id": 1031609,
+        "term": "2026春",
+        "section": "课程简介（中文）",
+        "excerpt": "国社会主义市场经济的实际来理解和领会《资本论》的精髓，能够运用马克思的政治经济学理论分析重大的社会现实问题。",
+        "url": "https://fdjwgl.fudan.edu.cn/student/for-all/lesson-search/teachingSyllabusInfo/1031609",
+        "snapshot": "../raw-official/syllabi-20261027/1031609.html.gz"
+      }
+    },
+    {
+      "source": "course:中国特色社会主义政治经济学研究",
+      "target": "topic:马克思主义哲学",
+      "type": "内容关联",
+      "matched_term": "马克思主义哲学",
+      "evidence": {
+        "course_code": "TMAX60023",
+        "lesson_id": 1031609,
+        "term": "2026春",
+        "section": "教学目标",
+        "excerpt": "程引导学生从全面整体的视角解读《资本论》。马克思主义的研究与发展实际是马克思主义哲学、政治经济学和科学社会主义三大组成部分有机结合的推动，三者的紧密结合才构成了真正的马克思主义，其中政",
+        "url": "https://fdjwgl.fudan.edu.cn/student/for-all/lesson-search/teachingSyllabusInfo/1031609",
+        "snapshot": "../raw-official/syllabi-20261027/1031609.html.gz"
+      }
+    },
+    {
+      "source": "course:中国特色社会主义政治经济学研究",
+      "target": "topic:科学社会主义",
+      "type": "内容关联",
+      "matched_term": "科学社会主义",
+      "evidence": {
+        "course_code": "TMAX60023",
+        "lesson_id": 1031609,
+        "term": "2026春",
+        "section": "教学目标",
+        "excerpt": "读《资本论》。马克思主义的研究与发展实际是马克思主义哲学、政治经济学和科学社会主义三大组成部分有机结合的推动，三者的紧密结合才构成了真正的马克思主义，其中政治经济学尤为重要，仅从哲学",
+        "url": "https://fdjwgl.fudan.edu.cn/student/for-all/lesson-search/teachingSyllabusInfo/1031609",
+        "snapshot": "../raw-official/syllabi-20261027/1031609.html.gz"
+      }
+    },
+    {
+      "source": "course:中国特色社会主义政治经济学研究",
+      "target": "topic:文化与意识形态",
+      "type": "内容关联",
+      "matched_term": "意识形态",
+      "evidence": {
+        "course_code": "TMAX60023",
+        "lesson_id": 1031609,
+        "term": "2026春",
+        "section": "教学目标",
+        "excerpt": "学习、理论研究的定位去学习马克思主义，不能将马克思主义简单化看成是一种意识形态，这样的做法既不利于马克思主义的研究，更不利于马克思主义的发展。",
+        "url": "https://fdjwgl.fudan.edu.cn/student/for-all/lesson-search/teachingSyllabusInfo/1031609",
+        "snapshot": "../raw-official/syllabi-20261027/1031609.html.gz"
+      }
+    },
+    {
+      "source": "course:中国现代化问题研究",
+      "target": "topic:中国特色社会主义",
+      "type": "内容关联",
+      "matched_term": "中国特色社会主义",
+      "evidence": {
+        "course_code": "POLI50014",
+        "lesson_id": 1032453,
+        "term": "2026春",
+        "section": "教学目标",
+        "excerpt": "文化、欧美现代化理论的双重资源反思中国现代化的理论和实践，以理解新时代中国特色社会主义何以开创中国式现代化新道路和人类文明新形态。",
+        "url": "https://fdjwgl.fudan.edu.cn/student/for-all/lesson-search/teachingSyllabusInfo/1032453",
+        "snapshot": "../raw-official/syllabi-20261027/1032453.html.gz"
+      }
+    },
+    {
+      "source": "course:中国近现代历史文献选读",
+      "target": "topic:中国近现代史",
+      "type": "内容关联",
+      "matched_term": "近现代中国",
+      "evidence": {
+        "course_code": "TMAX50033",
+        "lesson_id": 1006561,
+        "term": "2025秋",
+        "section": "课程简介（中文）",
+        "excerpt": "代表作品的阅读和讲解，使学生了解中国近现代历史文化的发展脉络，深度认识近现代中国在思想文化上所走过的道路，探讨“世界和中国”之关系。在教学过程中，透过历史文化经典作品的阅读，提高学",
+        "url": "https://fdjwgl.fudan.edu.cn/student/for-all/lesson-search/teachingSyllabusInfo/1006561",
+        "snapshot": "../raw-official/syllabi-20261027/1006561.html.gz"
+      }
+    },
+    {
+      "source": "course:中国近现代史",
+      "target": "topic:中国近现代史",
+      "type": "内容关联",
+      "matched_term": "中国近现代史",
+      "evidence": {
+        "course_code": "TMAX10004",
+        "lesson_id": 1004816,
+        "term": "2025秋",
+        "section": "课程简介（中文）",
+        "excerpt": "“中国近现代史”课程学习的重点在于把握1840年以来中国社会发展和革命、建设、改革的总体轮廓、基本史实、主题主线、",
+        "url": "https://fdjwgl.fudan.edu.cn/student/for-all/lesson-search/teachingSyllabusInfo/1004816",
+        "snapshot": "../raw-official/syllabi-20261027/1004816.html.gz"
+      }
+    },
+    {
+      "source": "course:中国近现代史",
+      "target": "topic:中国特色社会主义",
+      "type": "内容关联",
+      "matched_term": "中国特色社会主义",
+      "evidence": {
+        "course_code": "TMAX10004",
+        "lesson_id": 1004816,
+        "term": "2025秋",
+        "section": "教学内容与进度安排",
+        "excerpt": "国而奋斗、中华人民共和国的成立与中国社会主义建设道路的探索、改革开放与中国特色社会主义的开创与发展、中国特色社会主义进入新时代。 三、课程讲授安排： 课程有导论、晚清史、民国史、共和国史",
+        "url": "https://fdjwgl.fudan.edu.cn/student/for-all/lesson-search/teachingSyllabusInfo/1004816",
+        "snapshot": "../raw-official/syllabi-20261027/1004816.html.gz"
+      }
+    },
+    {
+      "source": "course:中国近现代史专题研究",
+      "target": "topic:中国近现代史",
+      "type": "内容关联",
+      "matched_term": "中国近现代史",
+      "evidence": {
+        "course_code": "TMAX60021",
+        "lesson_id": 1031608,
+        "term": "2026春",
+        "section": "课程简介（中文）",
+        "excerpt": "会历史文化进行专题性探索研究。课程强调运用大历史观，采用古今中外法，把中国近现代史放在世界历史大格局下，抓住主要问题，穿越历史与现实、中国与西方，进行跨学科综合研究，引导学生对中国现",
+        "url": "https://fdjwgl.fudan.edu.cn/student/for-all/lesson-search/teachingSyllabusInfo/1031608",
+        "snapshot": "../raw-official/syllabi-20261027/1031608.html.gz"
+      }
+    },
+    {
+      "source": "course:中国近现代史主题主线研究",
+      "target": "topic:中国近现代史",
+      "type": "内容关联",
+      "matched_term": "中国近现代史",
+      "evidence": {
+        "course_code": "TMAX50031",
+        "lesson_id": 1031595,
+        "term": "2026春",
+        "section": "课程简介（中文）",
+        "excerpt": "关键理论命题与学术争论，强化历史与理论互证，提升研究生运用唯物史观分析中国近现代史基本问题、把握历史规律与时代大势的科研与教学能力。",
+        "url": "https://fdjwgl.fudan.edu.cn/student/for-all/lesson-search/teachingSyllabusInfo/1031595",
+        "snapshot": "../raw-official/syllabi-20261027/1031595.html.gz"
+      }
+    },
+    {
+      "source": "course:中国近现代史主题主线研究",
+      "target": "topic:中国特色社会主义",
+      "type": "内容关联",
+      "matched_term": "中国特色社会主义",
+      "evidence": {
+        "course_code": "TMAX50031",
+        "lesson_id": 1031595,
+        "term": "2026春",
+        "section": "教学内容与进度安排",
+        "excerpt": "、曲折与经验教训 正确认识改革开放前的历史时期 第六讲 改革开放与中国特色社会主义：开创、坚持与发展 历史转折与解放思想、实事求是 改革开放的主题、动力与历史成就 中国特色社会",
+        "url": "https://fdjwgl.fudan.edu.cn/student/for-all/lesson-search/teachingSyllabusInfo/1031595",
+        "snapshot": "../raw-official/syllabi-20261027/1031595.html.gz"
+      }
+    },
+    {
+      "source": "course:中国近现代史主题主线研究",
+      "target": "topic:中华人民共和国史",
+      "type": "内容关联",
+      "matched_term": "新中国成立",
+      "evidence": {
+        "course_code": "TMAX50031",
+        "lesson_id": 1031595,
+        "term": "2026春",
+        "section": "教学内容与进度安排",
+        "excerpt": "一战线、武装斗争、党的建设 抗日战争的中流砥柱与民族复兴关键转折 新中国成立：民族独立、人民解放的实现 第五讲 社会主义革命与建设：艰辛探索与奠基 从新民主主义到社会主义的",
+        "url": "https://fdjwgl.fudan.edu.cn/student/for-all/lesson-search/teachingSyllabusInfo/1031595",
+        "snapshot": "../raw-official/syllabi-20261027/1031595.html.gz"
+      }
+    },
+    {
+      "source": "course:中国近现代史主题主线研究",
+      "target": "topic:中国共产党历史",
+      "type": "内容关联",
+      "matched_term": "党的历史",
+      "evidence": {
+        "course_code": "TMAX50031",
+        "lesson_id": 1031595,
+        "term": "2026春",
+        "section": "教学内容与进度安排",
+        "excerpt": "十月革命影响与新文化运动转向 工人阶级壮大与先进分子的理论觉醒 建党的历史条件与初心使命 “中国产生了共产党，这是开天辟地的大事变” 第四讲 新民主主义革命：主题主线的展",
+        "url": "https://fdjwgl.fudan.edu.cn/student/for-all/lesson-search/teachingSyllabusInfo/1031595",
+        "snapshot": "../raw-official/syllabi-20261027/1031595.html.gz"
+      }
+    },
+    {
+      "source": "course:中国近现代史纲要",
+      "target": "topic:中国近现代史",
+      "type": "内容关联",
+      "matched_term": "中国近现代史",
+      "evidence": {
+        "course_code": "GEIP20006",
+        "lesson_id": 1003393,
+        "term": "2025秋",
+        "section": "课程简介（中文）",
+        "excerpt": "中国近现代史纲要课程学习的重点在于把握1840年以来中国社会发展和革命、建设、改革的总体轮廓、基本史实、主题主线",
+        "url": "https://fdjwgl.fudan.edu.cn/student/for-all/lesson-search/teachingSyllabusInfo/1003393",
+        "snapshot": "../raw-official/syllabi-20261027/1003393.html.gz"
+      }
+    },
+    {
+      "source": "course:中国近现代史纲要",
+      "target": "topic:中国特色社会主义",
+      "type": "内容关联",
+      "matched_term": "中国特色社会主义",
+      "evidence": {
+        "course_code": "GEIP20006",
+        "lesson_id": 1003393,
+        "term": "2025秋",
+        "section": "课程简介（中文）",
+        "excerpt": "国而奋斗；中华人民共和国的成立与中国社会主义建设道路的探索；改革开放与中国特色社会主义的开创与发展；中国特色社会主义进入新时代。",
+        "url": "https://fdjwgl.fudan.edu.cn/student/for-all/lesson-search/teachingSyllabusInfo/1003393",
+        "snapshot": "../raw-official/syllabi-20261027/1003393.html.gz"
+      }
+    },
+    {
+      "source": "course:中国近现代史纲要",
+      "target": "topic:思想政治教育",
+      "type": "内容关联",
+      "matched_term": "思想政治理论课",
+      "evidence": {
+        "course_code": "GEIP20006",
+        "lesson_id": 1003403,
+        "term": "2025秋",
+        "section": "课程简介（中文）",
+        "excerpt": "“中国近现代史纲要”是全国高等学校本科生必修的一门思想政治理论课，课程学习的重点在于把握1840年以来中国社会发展和革命、建设、改革的总体轮廓、基本史实、主题主线、",
+        "url": "https://fdjwgl.fudan.edu.cn/student/for-all/lesson-search/teachingSyllabusInfo/1003403",
+        "snapshot": "../raw-official/syllabi-20261027/1003403.html.gz"
+      }
+    },
+    {
+      "source": "course:中国近现代史纲要",
+      "target": "topic:改革开放史",
+      "type": "内容关联",
+      "matched_term": "改革开放史",
+      "evidence": {
+        "course_code": "GEIP20006",
+        "lesson_id": 1003410,
+        "term": "2025秋",
+        "section": "教学内容与进度安排",
+        "excerpt": "国特色社会主义现代化建设；使学生了解只有中国特色社会主义才能发展中国，改革开放史决定中国命运 的关键一招 14.中国特色社会主义新时代；使学生了解近十多年中国发生的历史巨变",
+        "url": "https://fdjwgl.fudan.edu.cn/student/for-all/lesson-search/teachingSyllabusInfo/1003410",
+        "snapshot": "../raw-official/syllabi-20261027/1003410.html.gz"
+      }
+    },
+    {
+      "source": "course:中国近现代史纲要",
+      "target": "topic:中国共产党历史",
+      "type": "内容关联",
+      "matched_term": "党史",
+      "evidence": {
+        "course_code": "GEIP20006",
+        "lesson_id": 1003410,
+        "term": "2025秋",
+        "section": "教学目标",
+        "excerpt": "本道理有一个形象化与理性化的认识。尤其是将习总书记的“大历史观”“正确党史观”融入课堂教学。培养学生正确的历史观、价值观和人生观，知党、爱党、跟党，为中华民族伟大复兴而学习、",
+        "url": "https://fdjwgl.fudan.edu.cn/student/for-all/lesson-search/teachingSyllabusInfo/1003410",
+        "snapshot": "../raw-official/syllabi-20261027/1003410.html.gz"
+      }
+    },
+    {
+      "source": "course:中国近现代思想文化",
+      "target": "topic:中国近现代史",
+      "type": "内容关联",
+      "matched_term": "近代中国",
+      "evidence": {
+        "course_code": "TMAX50049",
+        "lesson_id": 1006571,
+        "term": "2025秋",
+        "section": "课程简介（中文）",
+        "excerpt": "本课程拟通过对近代中国主要社会思潮的介绍，让学生了解中国近现代思想文化的发展历程，了解中国近现代社会思潮的起起伏伏。",
+        "url": "https://fdjwgl.fudan.edu.cn/student/for-all/lesson-search/teachingSyllabusInfo/1006571",
+        "snapshot": "../raw-official/syllabi-20261027/1006571.html.gz"
+      }
+    },
+    {
+      "source": "course:中国近现代档案史料与研究方法",
+      "target": "topic:中国近现代史",
+      "type": "内容关联",
+      "matched_term": "中国近现代史",
+      "evidence": {
+        "course_code": "TMAX50034",
+        "lesson_id": 1031597,
+        "term": "2026春",
+        "section": "课程简介（中文）",
+        "excerpt": "0年以来中国近代现史史料学学科的发展轨迹和成果进行学术回顾，梳理并介绍中国近现代史的史料成果，围绕中国近现代档案史料与研究方法相关理论和方法上的研究成果，既介绍档案史料的建立与发展，",
+        "url": "https://fdjwgl.fudan.edu.cn/student/for-all/lesson-search/teachingSyllabusInfo/1031597",
+        "snapshot": "../raw-official/syllabi-20261027/1031597.html.gz"
+      }
+    },
+    {
+      "source": "course:中国近现代档案史料与研究方法",
+      "target": "topic:中国共产党历史",
+      "type": "内容关联",
+      "matched_term": "中共党史",
+      "evidence": {
+        "course_code": "TMAX50034",
+        "lesson_id": 1031597,
+        "term": "2026春",
+        "section": "教学目标",
+        "excerpt": "掌握和使用马克思主义唯物史观和历史学的基本理论与方法，对中国近现代史、中共党史的基本发展背景、发展脉络、发展经验、发展逻辑有一定的了解和认识，结合国内外研究的现状、前沿和发展方向",
+        "url": "https://fdjwgl.fudan.edu.cn/student/for-all/lesson-search/teachingSyllabusInfo/1031597",
+        "snapshot": "../raw-official/syllabi-20261027/1031597.html.gz"
+      }
+    },
+    {
+      "source": "course:中国马克思主义与当代",
+      "target": "topic:思想政治教育",
+      "type": "内容关联",
+      "matched_term": "思想政治理论课",
+      "evidence": {
+        "course_code": "GEIP40001",
+        "lesson_id": 1006441,
+        "term": "2025秋",
+        "section": "课程简介（中文）",
+        "excerpt": "本课程是指定的博士研究生思想政治理论课，作为一门内容涉及广泛，又要求体现中国特色、世界视野和时代情怀的公共课，致力于为不同专业门类的博士生",
+        "url": "https://fdjwgl.fudan.edu.cn/student/for-all/lesson-search/teachingSyllabusInfo/1006441",
+        "snapshot": "../raw-official/syllabi-20261027/1006441.html.gz"
+      }
+    },
+    {
+      "source": "course:中国马克思主义与当代",
+      "target": "topic:世界政治与国际关系",
+      "type": "内容关联",
+      "matched_term": "世界政治",
+      "evidence": {
+        "course_code": "GEIP40001",
+        "lesson_id": 1006441,
+        "term": "2025秋",
+        "section": "教学内容与进度安排",
+        "excerpt": "新时代的中国与当代世界 2 2 当代世界经济 3 3 当代世界政治 随堂测验 4 4 当代世界文化 5 5 当代社会问题 6 6 当代生态环境",
+        "url": "https://fdjwgl.fudan.edu.cn/student/for-all/lesson-search/teachingSyllabusInfo/1006441",
+        "snapshot": "../raw-official/syllabi-20261027/1006441.html.gz"
+      }
+    },
+    {
+      "source": "course:中国马克思主义与当代",
+      "target": "topic:生态与环境",
+      "type": "内容关联",
+      "matched_term": "生态环境",
+      "evidence": {
+        "course_code": "GEIP40001",
+        "lesson_id": 1006441,
+        "term": "2025秋",
+        "section": "教学内容与进度安排",
+        "excerpt": "4 当代世界文化 5 5 当代社会问题 6 6 当代生态环境 随堂测验 7 7 当代科学技术 8 8 当代资本主义 9 9 当代社会主义",
+        "url": "https://fdjwgl.fudan.edu.cn/student/for-all/lesson-search/teachingSyllabusInfo/1006441",
+        "snapshot": "../raw-official/syllabi-20261027/1006441.html.gz"
+      }
+    },
+    {
+      "source": "course:中外政党政治比较专题研究",
+      "target": "topic:中国特色社会主义",
+      "type": "内容关联",
+      "matched_term": "中国特色社会主义",
+      "evidence": {
+        "course_code": "HCCPC50014",
+        "lesson_id": 1006574,
+        "term": "2025秋",
+        "section": "课程简介（中文）",
+        "excerpt": "中激荡思想，丰富对于世界各国政党的认识，丰富对于中国共产党、民主党派和中国特色社会主义政党制度的认识。",
+        "url": "https://fdjwgl.fudan.edu.cn/student/for-all/lesson-search/teachingSyllabusInfo/1006574",
+        "snapshot": "../raw-official/syllabi-20261027/1006574.html.gz"
+      }
+    },
+    {
+      "source": "course:中外政党政治比较专题研究",
+      "target": "topic:文化与意识形态",
+      "type": "内容关联",
+      "matched_term": "意识形态",
+      "evidence": {
+        "course_code": "HCCPC50014",
+        "lesson_id": 1006574,
+        "term": "2025秋",
+        "section": "课程简介（中文）",
+        "excerpt": "问题和政党发展的现实趋势。这些内容包括：政党的概念、政治的组织、政党的意识形态、政党的社会基础、马克思主义政党、政党制度比较、政党治理等等。本课程会开展丰富的课程讨论，让学生在讨",
+        "url": "https://fdjwgl.fudan.edu.cn/student/for-all/lesson-search/teachingSyllabusInfo/1006574",
+        "snapshot": "../raw-official/syllabi-20261027/1006574.html.gz"
+      }
+    },
+    {
+      "source": "course:习近平新时代中国特色社会主义思想概论",
+      "target": "topic:中国特色社会主义",
+      "type": "内容关联",
+      "matched_term": "中国特色社会主义",
+      "evidence": {
+        "course_code": "GEIP30002",
+        "lesson_id": 1002814,
+        "term": "2025秋",
+        "section": "教学目标",
+        "excerpt": "本课程旨在指导学生从整体上把握习近平新时代中国特色社会主义思想，系统学习这一思想的基本内容、理论体系、时代价值与历史意义，更好把握中国特色社会主义的理论精髓与",
+        "url": "https://fdjwgl.fudan.edu.cn/student/for-all/lesson-search/teachingSyllabusInfo/1002814",
+        "snapshot": "../raw-official/syllabi-20261027/1002814.html.gz"
+      }
+    },
+    {
+      "source": "course:习近平新时代中国特色社会主义思想概论",
+      "target": "topic:生态与环境",
+      "type": "内容关联",
+      "matched_term": "生态文明",
+      "evidence": {
+        "course_code": "GEIP30002",
+        "lesson_id": 1002814,
+        "term": "2025秋",
+        "section": "教学内容与进度安排",
+        "excerpt": "专题十二：以保障和改善民生为重点加强社会建设 专题十三：建设社会主义生态文明 专题十四：维护和塑造国家安全 专题十五：建设巩固国防和强大人民军队 专题十六：坚持“一国两制",
+        "url": "https://fdjwgl.fudan.edu.cn/student/for-all/lesson-search/teachingSyllabusInfo/1002814",
+        "snapshot": "../raw-official/syllabi-20261027/1002814.html.gz"
+      }
+    },
+    {
+      "source": "course:习近平新时代中国特色社会主义思想概论",
+      "target": "topic:法律与法治",
+      "type": "内容关联",
+      "matched_term": "法治",
+      "evidence": {
+        "course_code": "GEIP30002",
+        "lesson_id": 1002814,
+        "term": "2025秋",
+        "section": "教学内容与进度安排",
+        "excerpt": "的教育、科技、人才战略 专题九：发展全过程人民民主 专题十：全面依法治国 专题十一：建设社会主义文化强国 专题十二：以保障和改善民生为重点加强社会建设 专题十三：建",
+        "url": "https://fdjwgl.fudan.edu.cn/student/for-all/lesson-search/teachingSyllabusInfo/1002814",
+        "snapshot": "../raw-official/syllabi-20261027/1002814.html.gz"
+      }
+    },
+    {
+      "source": "course:习近平著作选读",
+      "target": "topic:中国特色社会主义",
+      "type": "内容关联",
+      "matched_term": "中国特色社会主义",
+      "evidence": {
+        "course_code": "GEIP40014",
+        "lesson_id": 1033870,
+        "term": "2026春",
+        "section": "课程简介（中文）",
+        "excerpt": "深厚的课程体系。在著作篇目选择上坚持经典导向，力求充分展现习近平新时代中国特色社会主义思想的丰富内涵、核心要义、实践要求和原创性贡献。",
+        "url": "https://fdjwgl.fudan.edu.cn/student/for-all/lesson-search/teachingSyllabusInfo/1033870",
+        "snapshot": "../raw-official/syllabi-20261027/1033870.html.gz"
+      }
+    },
+    {
+      "source": "course:习近平著作选读",
+      "target": "topic:生态与环境",
+      "type": "内容关联",
+      "matched_term": "生态文明",
+      "evidence": {
+        "course_code": "GEIP40014",
+        "lesson_id": 1033870,
+        "term": "2026春",
+        "section": "课程简介（中文）",
+        "excerpt": "主义中国化时代化最新成果的理论脉络，横向上覆盖经济、政治、文化、社会、生态文明等各领域内容，形成了以“总论——基础理论——分论”为标识的层次分明、结构严谨、内涵深厚的课程体系。在",
+        "url": "https://fdjwgl.fudan.edu.cn/student/for-all/lesson-search/teachingSyllabusInfo/1033870",
+        "snapshot": "../raw-official/syllabi-20261027/1033870.html.gz"
+      }
+    },
+    {
+      "source": "course:习近平著作选读",
+      "target": "topic:马克思主义经典著作",
+      "type": "内容关联",
+      "matched_term": "经典著作",
+      "evidence": {
+        "course_code": "GEIP40014",
+        "lesson_id": 1033870,
+        "term": "2026春",
+        "section": "课程简介（中文）",
+        "excerpt": "本课程拟通过解读习近平总书记经典著作（文献），全部课程分为十六个专题。纵向上贯通马克思主义中国化时代化最新成果的理论脉络，横向上覆盖经济",
+        "url": "https://fdjwgl.fudan.edu.cn/student/for-all/lesson-search/teachingSyllabusInfo/1033870",
+        "snapshot": "../raw-official/syllabi-20261027/1033870.html.gz"
+      }
+    },
+    {
+      "source": "course:习近平著作选读",
+      "target": "topic:法律与法治",
+      "type": "内容关联",
+      "matched_term": "法治",
+      "evidence": {
+        "course_code": "GEIP40014",
+        "lesson_id": 1033870,
+        "term": "2026春",
+        "section": "教学内容与进度安排",
+        "excerpt": "国式现代化 六、关于全面深化改革 七、习近平经济思想 八、习近平法治思想 九、习近平文化思想 十、习近平外交思想 十一、习近平生态文明思想 十二、习近平关于社会",
+        "url": "https://fdjwgl.fudan.edu.cn/student/for-all/lesson-search/teachingSyllabusInfo/1033870",
+        "snapshot": "../raw-official/syllabi-20261027/1033870.html.gz"
+      }
+    },
+    {
+      "source": "course:党史党建史料和方法",
+      "target": "topic:中国共产党历史",
+      "type": "内容关联",
+      "matched_term": "党史",
+      "evidence": {
+        "course_code": "HCCPC50009",
+        "lesson_id": 1031584,
+        "term": "2026春",
+        "section": "教学目标",
+        "excerpt": "读，以问题意识为主导，通过原始文献阅读、课堂报告、课堂讨论等形式，帮助党史、党建专业学生深入理解中国共产党的建设中诸多层面和各种重要问题。通过教学实践的展开，让学生能够系统掌",
+        "url": "https://fdjwgl.fudan.edu.cn/student/for-all/lesson-search/teachingSyllabusInfo/1031584",
+        "snapshot": "../raw-official/syllabi-20261027/1031584.html.gz"
+      }
+    },
+    {
+      "source": "course:党建理论与实践前沿",
+      "target": "topic:科学社会主义",
+      "type": "内容关联",
+      "matched_term": "社会主义运动",
+      "evidence": {
+        "course_code": "TMAX50026",
+        "lesson_id": 1030490,
+        "term": "2026春",
+        "section": "教学内容与进度安排",
+        "excerpt": "六周为课程整体总结。其他周课程为理论和知识点的讲授。 第一周：导论：社会主义运动的世界背景 第二周：马列主义政党建设理论 第三周：中国共产党的建立 第四周：中国共产党的历史发",
+        "url": "https://fdjwgl.fudan.edu.cn/student/for-all/lesson-search/teachingSyllabusInfo/1030490",
+        "snapshot": "../raw-official/syllabi-20261027/1030490.html.gz"
+      }
+    },
+    {
+      "source": "course:党建理论与实践前沿",
+      "target": "topic:中国共产党历史",
+      "type": "内容关联",
+      "matched_term": "党的历史",
+      "evidence": {
+        "course_code": "TMAX50026",
+        "lesson_id": 1030490,
+        "term": "2026春",
+        "section": "教学内容与进度安排",
+        "excerpt": "：马列主义政党建设理论 第三周：中国共产党的建立 第四周：中国共产党的历史发展 第五周：中国共产党的组织基础 第六周：政党基层组织的中西比较 第七周：社会转型与党的建设",
+        "url": "https://fdjwgl.fudan.edu.cn/student/for-all/lesson-search/teachingSyllabusInfo/1030490",
+        "snapshot": "../raw-official/syllabi-20261027/1030490.html.gz"
+      }
+    },
+    {
+      "source": "course:党的建设理论和实践专题",
+      "target": "topic:中国共产党历史",
+      "type": "内容关联",
+      "matched_term": "中共党史",
+      "evidence": {
+        "course_code": "HCCPC60007",
+        "lesson_id": 1006584,
+        "term": "2025秋",
+        "section": "课程简介（中文）",
+        "excerpt": "本课程为马克思主义理论专业、中共党史党建学专业的本科生、硕士生的通选课、专业必修课，同时为中共党史党学大党建方向博士生的选修课（必选课）",
+        "url": "https://fdjwgl.fudan.edu.cn/student/for-all/lesson-search/teachingSyllabusInfo/1006584",
+        "snapshot": "../raw-official/syllabi-20261027/1006584.html.gz"
+      }
+    },
+    {
+      "source": "course:党的建设经典文献选读",
+      "target": "topic:马克思主义经典著作",
+      "type": "内容关联",
+      "matched_term": "经典著作",
+      "evidence": {
+        "course_code": "HCCPC60006",
+        "lesson_id": 1013928,
+        "term": "2025秋",
+        "section": "课程简介（中文）",
+        "excerpt": "党的建设经典著作选读，是党的建设专业的必修课。主要是精读马克思主义、中国化马克思主义党的建设经典著作。学习其创作的历",
+        "url": "https://fdjwgl.fudan.edu.cn/student/for-all/lesson-search/teachingSyllabusInfo/1013928",
+        "snapshot": "../raw-official/syllabi-20261027/1013928.html.gz"
+      }
+    },
+    {
+      "source": "course:党的建设论纲",
+      "target": "topic:中国共产党历史",
+      "type": "内容关联",
+      "matched_term": "党史",
+      "evidence": {
+        "course_code": "HCCPC60005",
+        "lesson_id": 1013926,
+        "term": "2025秋",
+        "section": "课程简介（中文）",
+        "excerpt": "本课程《党的建设论纲》作为党史党建、近代史纲要博士生核心课程，整体性、全面性地讲授中国共产党百年党的建设发展史、新时代党的建设总体",
+        "url": "https://fdjwgl.fudan.edu.cn/student/for-all/lesson-search/teachingSyllabusInfo/1013926",
+        "snapshot": "../raw-official/syllabi-20261027/1013926.html.gz"
+      }
+    },
+    {
+      "source": "course:共产国际与中国革命",
+      "target": "topic:中国共产党历史",
+      "type": "内容关联",
+      "matched_term": "中国共产党历史",
+      "evidence": {
+        "course_code": "HCCPC50011",
+        "lesson_id": 1013921,
+        "term": "2025秋",
+        "section": "教学目标",
+        "excerpt": "动学生更好地学习和理解中国共产党的革命历史，培养学生从国际视野出发理解中国共产党历史的能力。",
+        "url": "https://fdjwgl.fudan.edu.cn/student/for-all/lesson-search/teachingSyllabusInfo/1013921",
+        "snapshot": "../raw-official/syllabi-20261027/1013921.html.gz"
+      }
+    },
+    {
+      "source": "course:历史唯物主义前沿问题研究",
+      "target": "topic:马克思主义哲学",
+      "type": "内容关联",
+      "matched_term": "历史唯物主义",
+      "evidence": {
+        "course_code": "TMAX50028",
+        "lesson_id": 1014230,
+        "term": "2025秋",
+        "section": "课程简介（中文）",
+        "excerpt": "学习探讨当前学术界对于历史唯物主义的相关核心论题的最新进展，以及相关问题的探索，包括历史规律性问题、历史哲学与唯物史观的关系、历史评价",
+        "url": "https://fdjwgl.fudan.edu.cn/student/for-all/lesson-search/teachingSyllabusInfo/1014230",
+        "snapshot": "../raw-official/syllabi-20261027/1014230.html.gz"
+      }
+    },
+    {
+      "source": "course:历史唯物主义前沿问题研究",
+      "target": "topic:马克思主义发展史",
+      "type": "内容关联",
+      "matched_term": "马克思主义发展史",
+      "evidence": {
+        "course_code": "TMAX50028",
+        "lesson_id": 1014230,
+        "term": "2025秋",
+        "section": "教学目标",
+        "excerpt": "主要是对马克思主义原理、马克思主义发展史、国外马克思主义专业研究生进行以历史唯 物主义在历史规律性问题、历史评价等最新理论成果、前沿观点、思",
+        "url": "https://fdjwgl.fudan.edu.cn/student/for-all/lesson-search/teachingSyllabusInfo/1014230",
+        "snapshot": "../raw-official/syllabi-20261027/1014230.html.gz"
+      }
+    },
+    {
+      "source": "course:历史唯物主义前沿问题研究",
+      "target": "topic:社会研究方法",
+      "type": "内容关联",
+      "matched_term": "实证研究",
+      "evidence": {
+        "course_code": "TMAX50028",
+        "lesson_id": 1014230,
+        "term": "2025秋",
+        "section": "课程简介（中文）",
+        "excerpt": "历史哲学与唯物史观的关系、历史评价问题、唯物史观的架构特征与扩展、历史实证研究对于唯物史观的参考意义、唯物史观的理论基础问题、唯物史观对历史学、社会学理论的指引反思、历史辩证法、",
+        "url": "https://fdjwgl.fudan.edu.cn/student/for-all/lesson-search/teachingSyllabusInfo/1014230",
+        "snapshot": "../raw-official/syllabi-20261027/1014230.html.gz"
+      }
+    },
+    {
+      "source": "course:历史唯物主义前沿问题研究",
+      "target": "topic:马克思主义经典著作",
+      "type": "内容关联",
+      "matched_term": "马克思恩格斯",
+      "evidence": {
+        "course_code": "TMAX50028",
+        "lesson_id": 1014230,
+        "term": "2025秋",
+        "section": "教学内容与进度安排",
+        "excerpt": "对马克思恩格斯相关问题的文本考察，学界包括历史哲学现有研究成果的理 解与继续探索，联系西方哲学、社会学与历史学发展",
+        "url": "https://fdjwgl.fudan.edu.cn/student/for-all/lesson-search/teachingSyllabusInfo/1014230",
+        "snapshot": "../raw-official/syllabi-20261027/1014230.html.gz"
+      }
+    },
+    {
+      "source": "course:唯物史观与中国现代化研究",
+      "target": "topic:中国特色社会主义",
+      "type": "内容关联",
+      "matched_term": "中国特色社会主义",
+      "evidence": {
+        "course_code": "TMAX50046",
+        "lesson_id": 1031602,
+        "term": "2026春",
+        "section": "课程简介（中文）",
+        "excerpt": "和基本原则，具体而言主要是唯物史观板块、社会主义板块、现代化理论板块，中国特色社会主义及其中国式现代化的实践，为理解中国式现代化进程提供一个可知性框架。",
+        "url": "https://fdjwgl.fudan.edu.cn/student/for-all/lesson-search/teachingSyllabusInfo/1031602",
+        "snapshot": "../raw-official/syllabi-20261027/1031602.html.gz"
+      }
+    },
+    {
+      "source": "course:唯物史观与中国现代化研究",
+      "target": "topic:马克思主义经典著作",
+      "type": "内容关联",
+      "matched_term": "马克思恩格斯",
+      "evidence": {
+        "course_code": "TMAX50046",
+        "lesson_id": 1031602,
+        "term": "2026春",
+        "section": "教学目标",
+        "excerpt": "1、结合马克思恩格斯经典文本的解读，整体理解唯物史观和社会主义的基本内容 2、结合各种现代化理论，与唯物史观形成比较研",
+        "url": "https://fdjwgl.fudan.edu.cn/student/for-all/lesson-search/teachingSyllabusInfo/1031602",
+        "snapshot": "../raw-official/syllabi-20261027/1031602.html.gz"
+      }
+    },
+    {
+      "source": "course:唯物史观研究",
+      "target": "topic:马克思主义发展史",
+      "type": "内容关联",
+      "matched_term": "马克思主义发展史",
+      "evidence": {
+        "course_code": "TMAX60018",
+        "lesson_id": 1006581,
+        "term": "2025秋",
+        "section": "教学目标",
+        "excerpt": "北宜昌人，哲学博士，复旦大学马克思主义学院教授、博士生导师，研究方向为马克思主义发展史和德国古典哲学。2009年毕业于中国社会科学院研究生院，获外国哲学博士学位，曾先后任教于湖南科技大学",
+        "url": "https://fdjwgl.fudan.edu.cn/student/for-all/lesson-search/teachingSyllabusInfo/1006581",
+        "snapshot": "../raw-official/syllabi-20261027/1006581.html.gz"
+      }
+    },
+    {
+      "source": "course:唯物史观研究",
+      "target": "topic:政治经济学",
+      "type": "内容关联",
+      "matched_term": "生产关系",
+      "evidence": {
+        "course_code": "TMAX60018",
+        "lesson_id": 1006581,
+        "term": "2025秋",
+        "section": "课程简介（中文）",
+        "excerpt": "找到推动历史变革的真正主体力量，并系统地阐释人类社会和自然界、生产力和生产关系、经济基础和上层建筑的辩证关系，在此基础上解释了社会意识、科学技术及其在社会历史中的地位和作用。本课",
+        "url": "https://fdjwgl.fudan.edu.cn/student/for-all/lesson-search/teachingSyllabusInfo/1006581",
+        "snapshot": "../raw-official/syllabi-20261027/1006581.html.gz"
+      }
+    },
+    {
+      "source": "course:唯物史观研究",
+      "target": "topic:马克思主义哲学",
+      "type": "内容关联",
+      "matched_term": "历史唯物主义",
+      "evidence": {
+        "course_code": "TMAX60018",
+        "lesson_id": 1006581,
+        "term": "2025秋",
+        "section": "教学目标",
+        "excerpt": "通过唯物史观课程的深度引导，加强历史唯物主义基本原理在马克思主义理论学科中的价值引领和核心地位，夯实复旦大学马克思主义理论各二级学科博士生的马克",
+        "url": "https://fdjwgl.fudan.edu.cn/student/for-all/lesson-search/teachingSyllabusInfo/1006581",
+        "snapshot": "../raw-official/syllabi-20261027/1006581.html.gz"
+      }
+    },
+    {
+      "source": "course:唯物史观研究",
+      "target": "topic:文化与意识形态",
+      "type": "内容关联",
+      "matched_term": "意识形态",
+      "evidence": {
+        "course_code": "TMAX60018",
+        "lesson_id": 1006581,
+        "term": "2025秋",
+        "section": "教学内容与进度安排",
+        "excerpt": "2 5）《关于费尔巴哈的提纲》：实践唯物主义的确立； 6）《德意志意识形态》：唯物史观的正式确立。",
+        "url": "https://fdjwgl.fudan.edu.cn/student/for-all/lesson-search/teachingSyllabusInfo/1006581",
+        "snapshot": "../raw-official/syllabi-20261027/1006581.html.gz"
+      }
+    },
+    {
+      "source": "course:国共关系史研究",
+      "target": "topic:中国近现代史",
+      "type": "内容关联",
+      "matched_term": "中国近现代史",
+      "evidence": {
+        "course_code": "HCCPC50003",
+        "lesson_id": 1032447,
+        "term": "2026春",
+        "section": "课程简介（中文）",
+        "excerpt": "在中国近现代史的大背景下，讨论20世纪20年代到50年代国共两党发展历程，研究国共两党合作与分裂的经验和教训，揭示",
+        "url": "https://fdjwgl.fudan.edu.cn/student/for-all/lesson-search/teachingSyllabusInfo/1032447",
+        "snapshot": "../raw-official/syllabi-20261027/1032447.html.gz"
+      }
+    },
+    {
+      "source": "course:国外生态马克思主义研究",
+      "target": "topic:中国特色社会主义",
+      "type": "内容关联",
+      "matched_term": "中国特色社会主义",
+      "evidence": {
+        "course_code": "TMAX60026",
+        "lesson_id": 1031612,
+        "term": "2026春",
+        "section": "课程简介（中文）",
+        "excerpt": "沿动态、我国学术界关于生态马克思主义以及生态文明理论的研究现状与展望、中国特色社会主义生态文明观的科学性和优越性等",
+        "url": "https://fdjwgl.fudan.edu.cn/student/for-all/lesson-search/teachingSyllabusInfo/1031612",
+        "snapshot": "../raw-official/syllabi-20261027/1031612.html.gz"
+      }
+    },
+    {
+      "source": "course:国外生态马克思主义研究",
+      "target": "topic:生态与环境",
+      "type": "内容关联",
+      "matched_term": "生态文明",
+      "evidence": {
+        "course_code": "TMAX60026",
+        "lesson_id": 1031612,
+        "term": "2026春",
+        "section": "课程简介（中文）",
+        "excerpt": "的基本观点、生态马克思主义的前沿动态、我国学术界关于生态马克思主义以及生态文明理论的研究现状与展望、中国特色社会主义生态文明观的科学性和优越性等",
+        "url": "https://fdjwgl.fudan.edu.cn/student/for-all/lesson-search/teachingSyllabusInfo/1031612",
+        "snapshot": "../raw-official/syllabi-20261027/1031612.html.gz"
+      }
+    },
+    {
+      "source": "course:国外生态马克思主义研究",
+      "target": "topic:马克思主义哲学",
+      "type": "内容关联",
+      "matched_term": "历史唯物主义",
+      "evidence": {
+        "course_code": "TMAX60026",
+        "lesson_id": 1031612,
+        "term": "2026春",
+        "section": "教学内容与进度安排",
+        "excerpt": "3周：生态马克思主义的技术批判与技术观 第4-5周：生态马克思主义对历史唯物主义生产力发展观的重构 第6-7周：生态马克思主义对生态价值观的重构 第8-9周：生态马克思主义的需",
+        "url": "https://fdjwgl.fudan.edu.cn/student/for-all/lesson-search/teachingSyllabusInfo/1031612",
+        "snapshot": "../raw-official/syllabi-20261027/1031612.html.gz"
+      }
+    },
+    {
+      "source": "course:国外社会主义思潮",
+      "target": "topic:中国特色社会主义",
+      "type": "内容关联",
+      "matched_term": "中国特色社会主义",
+      "evidence": {
+        "course_code": "TMAX50020",
+        "lesson_id": 1004819,
+        "term": "2025秋",
+        "section": "课程简介（中文）",
+        "excerpt": "野，深化对世界社会主义多样性的认识，增强马克思主义辨析能力，从而更坚定中国特色社会主义道路自信。",
+        "url": "https://fdjwgl.fudan.edu.cn/student/for-all/lesson-search/teachingSyllabusInfo/1004819",
+        "snapshot": "../raw-official/syllabi-20261027/1004819.html.gz"
+      }
+    },
+    {
+      "source": "course:国外社会主义思潮",
+      "target": "topic:科学社会主义",
+      "type": "内容关联",
+      "matched_term": "社会主义理论",
+      "evidence": {
+        "course_code": "TMAX50020",
+        "lesson_id": 1004819,
+        "term": "2025秋",
+        "section": "教学目标",
+        "excerpt": "理论本质，对其进行批判与辨析，把握时代发展与世界思想版图，对于推动我国社会主义理论研究与发展具有重要意义。",
+        "url": "https://fdjwgl.fudan.edu.cn/student/for-all/lesson-search/teachingSyllabusInfo/1004819",
+        "snapshot": "../raw-official/syllabi-20261027/1004819.html.gz"
+      }
+    },
+    {
+      "source": "course:国外马克思主义与当代中国马克思主义比较之专题研究",
+      "target": "topic:中国特色社会主义",
+      "type": "内容关联",
+      "matched_term": "中国特色社会主义",
+      "evidence": {
+        "course_code": "TMAX60027",
+        "lesson_id": 1031613,
+        "term": "2026春",
+        "section": "课程简介（中文）",
+        "excerpt": "发展脉络、理论形态与实践路径，并立足党的十八大以来的理论创新成果，聚焦中国特色社会主义理论体系与国外马克思主义思潮的对话、互鉴与差异，进行前沿专题比较研究，引导学生在比较视野中把握马克思",
+        "url": "https://fdjwgl.fudan.edu.cn/student/for-all/lesson-search/teachingSyllabusInfo/1031613",
+        "snapshot": "../raw-official/syllabi-20261027/1031613.html.gz"
+      }
+    },
+    {
+      "source": "course:国外马克思主义与当代中国马克思主义比较之专题研究",
+      "target": "topic:科学社会主义",
+      "type": "内容关联",
+      "matched_term": "社会主义理论",
+      "evidence": {
+        "course_code": "TMAX60027",
+        "lesson_id": 1031613,
+        "term": "2026春",
+        "section": "课程简介（中文）",
+        "excerpt": "、理论形态与实践路径，并立足党的十八大以来的理论创新成果，聚焦中国特色社会主义理论体系与国外马克思主义思潮的对话、互鉴与差异，进行前沿专题比较研究，引导学生在比较视野中把握马克思主义",
+        "url": "https://fdjwgl.fudan.edu.cn/student/for-all/lesson-search/teachingSyllabusInfo/1031613",
+        "snapshot": "../raw-official/syllabi-20261027/1031613.html.gz"
+      }
+    },
+    {
+      "source": "course:国外马克思主义与当代中国马克思主义比较之专题研究",
+      "target": "topic:马克思主义哲学",
+      "type": "内容关联",
+      "matched_term": "历史唯物主义",
+      "evidence": {
+        "course_code": "TMAX60027",
+        "lesson_id": 1031613,
+        "term": "2026春",
+        "section": "教学内容与进度安排",
+        "excerpt": "社会主义和共产主义理论比较研究，当代激进左翼理论批判 13-18周：历史唯物主义理论比较研究",
+        "url": "https://fdjwgl.fudan.edu.cn/student/for-all/lesson-search/teachingSyllabusInfo/1031613",
+        "snapshot": "../raw-official/syllabi-20261027/1031613.html.gz"
+      }
+    },
+    {
+      "source": "course:国外马克思主义概论",
+      "target": "topic:马克思主义发展史",
+      "type": "内容关联",
+      "matched_term": "马克思主义发展",
+      "evidence": {
+        "course_code": "TMAX20010",
+        "lesson_id": 1029161,
+        "term": "2026春",
+        "section": "课程简介（中文）",
+        "excerpt": "本课程以介绍国外马克思主义发展中的主要流派思想为主轴，引导学生较为系统地掌握国外马克思主义发展的基本逻辑和历史脉络， 力图全景式映",
+        "url": "https://fdjwgl.fudan.edu.cn/student/for-all/lesson-search/teachingSyllabusInfo/1029161",
+        "snapshot": "../raw-official/syllabi-20261027/1029161.html.gz"
+      }
+    },
+    {
+      "source": "course:国外马克思主义概论",
+      "target": "topic:政治经济学",
+      "type": "内容关联",
+      "matched_term": "政治经济学",
+      "evidence": {
+        "course_code": "TMAX20010",
+        "lesson_id": 1029161,
+        "term": "2026春",
+        "section": "教学内容与进度安排",
+        "excerpt": "札记》的主要思想及其思想特征，哲学的转向。马克思的理论工作是从哲学转向政治经济学，卢卡奇等西方马克思主义早期代表人物则转向哲学。阐明这一转向的积极意义和可能引发的消极效应。 第二",
+        "url": "https://fdjwgl.fudan.edu.cn/student/for-all/lesson-search/teachingSyllabusInfo/1029161",
+        "snapshot": "../raw-official/syllabi-20261027/1029161.html.gz"
+      }
+    },
+    {
+      "source": "course:国外马克思主义概论",
+      "target": "topic:科学技术与社会",
+      "type": "内容关联",
+      "matched_term": "自然辩证法",
+      "evidence": {
+        "course_code": "TMAX20010",
+        "lesson_id": 1029161,
+        "term": "2026春",
+        "section": "教学内容与进度安排",
+        "excerpt": "时） 目的与要求：了解萨特“存在主义的马克思主义”的思想核心，一是与自然辩证法相对立的“人学辩证法”，一是“历史人学”。进而阐明它对于人道主义的马克思主义的总结性意义。 主要内",
+        "url": "https://fdjwgl.fudan.edu.cn/student/for-all/lesson-search/teachingSyllabusInfo/1029161",
+        "snapshot": "../raw-official/syllabi-20261027/1029161.html.gz"
+      }
+    },
+    {
+      "source": "course:国外马克思主义概论",
+      "target": "topic:马克思主义哲学",
+      "type": "内容关联",
+      "matched_term": "辩证法",
+      "evidence": {
+        "course_code": "TMAX20010",
+        "lesson_id": 1029161,
+        "term": "2026春",
+        "section": "教学内容与进度安排",
+        "excerpt": "目的与要求：了解萨特“存在主义的马克思主义”的思想核心，一是与自然辩证法相对立的“人学辩证法”，一是“历史人学”。进而阐明它对于人道主义的马克思主义的总结性意义。 主要内",
+        "url": "https://fdjwgl.fudan.edu.cn/student/for-all/lesson-search/teachingSyllabusInfo/1029161",
+        "snapshot": "../raw-official/syllabi-20261027/1029161.html.gz"
+      }
+    },
+    {
+      "source": "course:国外马克思主义经济理论",
+      "target": "topic:政治经济学",
+      "type": "内容关联",
+      "matched_term": "政治经济学",
+      "evidence": {
+        "course_code": "TMAX50018",
+        "lesson_id": 1030432,
+        "term": "2026春",
+        "section": "教学目标",
+        "excerpt": "究中具有重大学术贡献或社会影响的理论成果，系统把握和理解国外马克思主义政治经济学重要问题的发展脉络、科学内涵和理论体系，全面理解国外马克思主义政治经济学的时代特征、历史发展和理论体",
+        "url": "https://fdjwgl.fudan.edu.cn/student/for-all/lesson-search/teachingSyllabusInfo/1030432",
+        "snapshot": "../raw-official/syllabi-20261027/1030432.html.gz"
+      }
+    },
+    {
+      "source": "course:国家治理现代化专题研究",
+      "target": "topic:世界政治与国际关系",
+      "type": "内容关联",
+      "matched_term": "全球治理",
+      "evidence": {
+        "course_code": "TMAX60024",
+        "lesson_id": 1031610,
+        "term": "2026春",
+        "section": "课程简介（中文）",
+        "excerpt": "党治理，中国共产党与政府治理、经济治理、社会治理、乡村治理、城市治理、全球治理，以及互联网时代的国家治理、中国国家治理研究的方法论等主题切入，全面立体地对中国共产党与国家治理现代",
+        "url": "https://fdjwgl.fudan.edu.cn/student/for-all/lesson-search/teachingSyllabusInfo/1031610",
+        "snapshot": "../raw-official/syllabi-20261027/1031610.html.gz"
+      }
+    },
+    {
+      "source": "course:应用伦理学",
+      "target": "topic:伦理与道德",
+      "type": "内容关联",
+      "matched_term": "伦理学",
+      "evidence": {
+        "course_code": "GEEC20064",
+        "lesson_id": 1003414,
+        "term": "2025秋",
+        "section": "课程简介（中文）",
+        "excerpt": "本课程将在论述应用伦理学一般理论基础上，着重以科技伦理为主线，以专题形式探讨科学共同体伦理规范、科研不端行为、生物医学伦理、",
+        "url": "https://fdjwgl.fudan.edu.cn/student/for-all/lesson-search/teachingSyllabusInfo/1003414",
+        "snapshot": "../raw-official/syllabi-20261027/1003414.html.gz"
+      }
+    },
+    {
+      "source": "course:应用伦理学",
+      "target": "topic:科学技术与社会",
+      "type": "内容关联",
+      "matched_term": "科技伦理",
+      "evidence": {
+        "course_code": "GEEC20064",
+        "lesson_id": 1003414,
+        "term": "2025秋",
+        "section": "课程简介（中文）",
+        "excerpt": "本课程将在论述应用伦理学一般理论基础上，着重以科技伦理为主线，以专题形式探讨科学共同体伦理规范、科研不端行为、生物医学伦理、生态伦理、动物伦理、网络伦理、",
+        "url": "https://fdjwgl.fudan.edu.cn/student/for-all/lesson-search/teachingSyllabusInfo/1003414",
+        "snapshot": "../raw-official/syllabi-20261027/1003414.html.gz"
+      }
+    },
+    {
+      "source": "course:应用伦理学",
+      "target": "topic:人工智能与技术",
+      "type": "内容关联",
+      "matched_term": "人工智能",
+      "evidence": {
+        "course_code": "GEEC20064",
+        "lesson_id": 1003414,
+        "term": "2025秋",
+        "section": "教学内容与进度安排",
+        "excerpt": "（选讲） 第14周 围绕5个专题分组讨论（包括爱情婚姻家庭和性伦理、人工智能以及大数据伦理问题） 第15周 各组代表，大班交流 第16周 考试",
+        "url": "https://fdjwgl.fudan.edu.cn/student/for-all/lesson-search/teachingSyllabusInfo/1003414",
+        "snapshot": "../raw-official/syllabi-20261027/1003414.html.gz"
+      }
+    },
+    {
+      "source": "course:应用伦理学",
+      "target": "topic:生态与环境",
+      "type": "内容关联",
+      "matched_term": "生态文明",
+      "evidence": {
+        "course_code": "GEEC20064",
+        "lesson_id": 1003414,
+        "term": "2025秋",
+        "section": "教学内容与进度安排",
+        "excerpt": "全球生态环境恶化与生态伦理的产生；生态伦理的性质及其基本理论；当代生态文明建设及其对生态伦理问题的调适，包括动物实验伦理问题等。 第12周 战争伦理 战争与人性；恐怖主义",
+        "url": "https://fdjwgl.fudan.edu.cn/student/for-all/lesson-search/teachingSyllabusInfo/1003414",
+        "snapshot": "../raw-official/syllabi-20261027/1003414.html.gz"
+      }
+    },
+    {
+      "source": "course:延安时期历史人物研究",
+      "target": "topic:中国近现代史",
+      "type": "内容关联",
+      "matched_term": "中国近现代史",
+      "evidence": {
+        "course_code": "TMAX50030",
+        "lesson_id": 1031594,
+        "term": "2026春",
+        "section": "教学目标",
+        "excerpt": "方法； 其三，通过具体案例分析，引导学生对于历史复杂人物研究，如何从中国近现代史主题主线的角度去发掘理论问题，把握学术分寸，进行学术训练。",
+        "url": "https://fdjwgl.fudan.edu.cn/student/for-all/lesson-search/teachingSyllabusInfo/1031594",
+        "snapshot": "../raw-official/syllabi-20261027/1031594.html.gz"
+      }
+    },
+    {
+      "source": "course:延安时期历史人物研究",
+      "target": "topic:马克思主义哲学",
+      "type": "内容关联",
+      "matched_term": "历史唯物主义",
+      "evidence": {
+        "course_code": "TMAX50030",
+        "lesson_id": 1031594,
+        "term": "2026春",
+        "section": "教学目标",
+        "excerpt": "目标有三： 其一，通过具体历史人物分析，引导学生把握对历史人物研究的历史唯物主义观点和方法； 其二，引导学生学习掌握对历史人物研究的档案文献史料查询、相关知情人物访谈、学术观点提",
+        "url": "https://fdjwgl.fudan.edu.cn/student/for-all/lesson-search/teachingSyllabusInfo/1031594",
+        "snapshot": "../raw-official/syllabi-20261027/1031594.html.gz"
+      }
+    },
+    {
+      "source": "course:延安时期历史人物研究",
+      "target": "topic:中华人民共和国史",
+      "type": "内容关联",
+      "matched_term": "新中国成立",
+      "evidence": {
+        "course_code": "TMAX50030",
+        "lesson_id": 1031594,
+        "term": "2026春",
+        "section": "教学内容与进度安排",
+        "excerpt": "15 埃德加·斯诺对于中国革命的传播：延安时期最早采访中共和红军，新中国成立后应邀访问中国，其卓越的报道，促进中美建交 阅读《西行漫记》 16 16 史沫特莱与中国革命",
+        "url": "https://fdjwgl.fudan.edu.cn/student/for-all/lesson-search/teachingSyllabusInfo/1031594",
+        "snapshot": "../raw-official/syllabi-20261027/1031594.html.gz"
+      }
+    },
+    {
+      "source": "course:延安时期历史人物研究",
+      "target": "topic:政治经济学",
+      "type": "内容关联",
+      "matched_term": "生产关系",
+      "evidence": {
+        "course_code": "TMAX50030",
+        "lesson_id": 1031594,
+        "term": "2026春",
+        "section": "教学内容与进度安排",
+        "excerpt": "卷 12 12 农民劳动英雄吴满有：延安大生产运动中农业生产力与生产关系的有效调整 阅读《延安日常生活中的历史》 13 13 工人劳动英雄赵占魁：延安时期的公营工厂",
+        "url": "https://fdjwgl.fudan.edu.cn/student/for-all/lesson-search/teachingSyllabusInfo/1031594",
+        "snapshot": "../raw-official/syllabi-20261027/1031594.html.gz"
+      }
+    },
+    {
+      "source": "course:延安时期历史文化研究",
+      "target": "topic:中国特色社会主义",
+      "type": "内容关联",
+      "matched_term": "中国特色社会主义",
+      "evidence": {
+        "course_code": "TMAX50056",
+        "lesson_id": 1006576,
+        "term": "2025秋",
+        "section": "教学目标",
+        "excerpt": "步形成中国特色的学科话语体系；三是鼓励学生由此思考中国共产党为什么能，中国特色社会主义为什么行等中国近现代史基本问题，并找到正确的答案。",
+        "url": "https://fdjwgl.fudan.edu.cn/student/for-all/lesson-search/teachingSyllabusInfo/1006576",
+        "snapshot": "../raw-official/syllabi-20261027/1006576.html.gz"
+      }
+    },
+    {
+      "source": "course:延安时期历史文化研究",
+      "target": "topic:中国近现代史",
+      "type": "内容关联",
+      "matched_term": "中国近现代史",
+      "evidence": {
+        "course_code": "TMAX50056",
+        "lesson_id": 1006576,
+        "term": "2025秋",
+        "section": "教学目标",
+        "excerpt": "系；三是鼓励学生由此思考中国共产党为什么能，中国特色社会主义为什么行等中国近现代史基本问题，并找到正确的答案。",
+        "url": "https://fdjwgl.fudan.edu.cn/student/for-all/lesson-search/teachingSyllabusInfo/1006576",
+        "snapshot": "../raw-official/syllabi-20261027/1006576.html.gz"
+      }
+    },
+    {
+      "source": "course:当代中国马克思主义专题",
+      "target": "topic:文化与意识形态",
+      "type": "内容关联",
+      "matched_term": "意识形态",
+      "evidence": {
+        "course_code": "TMAX60009",
+        "lesson_id": 1013923,
+        "term": "2025秋",
+        "section": "教学内容与进度安排",
+        "excerpt": "六、马克思主义和中国传统文化（第11-12周） 七、执政党与国家意识形态建设（第13-14周） 八、新全球化与开启人类新文明（第15-16周）",
+        "url": "https://fdjwgl.fudan.edu.cn/student/for-all/lesson-search/teachingSyllabusInfo/1013923",
+        "snapshot": "../raw-official/syllabi-20261027/1013923.html.gz"
+      }
+    },
+    {
+      "source": "course:当代中国马克思主义概论",
+      "target": "topic:中国特色社会主义",
+      "type": "内容关联",
+      "matched_term": "中国特色社会主义",
+      "evidence": {
+        "course_code": "TMAX60014",
+        "lesson_id": 1031607,
+        "term": "2026春",
+        "section": "课程简介（中文）",
+        "excerpt": "成果、发展规律、发展机制与基本经验等重大理论问题，深入研究习近平新时代中国特色社会主义思想、中国特色社会主义政治经济学、新发展阶段、新发展理念、新发展格局等重大现实问题。",
+        "url": "https://fdjwgl.fudan.edu.cn/student/for-all/lesson-search/teachingSyllabusInfo/1031607",
+        "snapshot": "../raw-official/syllabi-20261027/1031607.html.gz"
+      }
+    },
+    {
+      "source": "course:当代中国马克思主义概论",
+      "target": "topic:政治经济学",
+      "type": "内容关联",
+      "matched_term": "政治经济学",
+      "evidence": {
+        "course_code": "TMAX60014",
+        "lesson_id": 1031607,
+        "term": "2026春",
+        "section": "课程简介（中文）",
+        "excerpt": "大理论问题，深入研究习近平新时代中国特色社会主义思想、中国特色社会主义政治经济学、新发展阶段、新发展理念、新发展格局等重大现实问题。",
+        "url": "https://fdjwgl.fudan.edu.cn/student/for-all/lesson-search/teachingSyllabusInfo/1031607",
+        "snapshot": "../raw-official/syllabi-20261027/1031607.html.gz"
+      }
+    },
+    {
+      "source": "course:当代中国马克思主义概论",
+      "target": "topic:科学社会主义",
+      "type": "内容关联",
+      "matched_term": "科学社会主义",
+      "evidence": {
+        "course_code": "TMAX60014",
+        "lesson_id": 1031607,
+        "term": "2026春",
+        "section": "教学内容与进度安排",
+        "excerpt": "中国化的发展机制 第6周 马克思主义中国化的基本经验 第7周 坚持科学社会主义基本原则 第8周 习近平新时代中国特色社会主义思想的理论体系 第9周 中国特色社会主义政治经济学",
+        "url": "https://fdjwgl.fudan.edu.cn/student/for-all/lesson-search/teachingSyllabusInfo/1031607",
+        "snapshot": "../raw-official/syllabi-20261027/1031607.html.gz"
+      }
+    },
+    {
+      "source": "course:当代中外马克思主义比较研究",
+      "target": "topic:中国特色社会主义",
+      "type": "内容关联",
+      "matched_term": "中国特色社会主义",
+      "evidence": {
+        "course_code": "TMAX50035",
+        "lesson_id": 1031598,
+        "term": "2026春",
+        "section": "课程简介（中文）",
+        "excerpt": "发展脉络、理论形态与实践路径，并立足党的十八大以来的理论创新成果，聚焦中国特色社会主义理论体系与国外马克思主义思潮的对话、互鉴与差异，进行前沿专题比较研究，引导学生在比较视野中把握马克思",
+        "url": "https://fdjwgl.fudan.edu.cn/student/for-all/lesson-search/teachingSyllabusInfo/1031598",
+        "snapshot": "../raw-official/syllabi-20261027/1031598.html.gz"
+      }
+    },
+    {
+      "source": "course:当代中外马克思主义比较研究",
+      "target": "topic:科学社会主义",
+      "type": "内容关联",
+      "matched_term": "社会主义理论",
+      "evidence": {
+        "course_code": "TMAX50035",
+        "lesson_id": 1031598,
+        "term": "2026春",
+        "section": "课程简介（中文）",
+        "excerpt": "、理论形态与实践路径，并立足党的十八大以来的理论创新成果，聚焦中国特色社会主义理论体系与国外马克思主义思潮的对话、互鉴与差异，进行前沿专题比较研究，引导学生在比较视野中把握马克思主义",
+        "url": "https://fdjwgl.fudan.edu.cn/student/for-all/lesson-search/teachingSyllabusInfo/1031598",
+        "snapshot": "../raw-official/syllabi-20261027/1031598.html.gz"
+      }
+    },
+    {
+      "source": "course:当代中外马克思主义比较研究",
+      "target": "topic:马克思主义哲学",
+      "type": "内容关联",
+      "matched_term": "历史唯物主义",
+      "evidence": {
+        "course_code": "TMAX50035",
+        "lesson_id": 1031598,
+        "term": "2026春",
+        "section": "教学内容与进度安排",
+        "excerpt": "社会主义和共产主义理论比较研究，当代激进左翼理论批判 13-18周：历史唯物主义理论比较研究",
+        "url": "https://fdjwgl.fudan.edu.cn/student/for-all/lesson-search/teachingSyllabusInfo/1031598",
+        "snapshot": "../raw-official/syllabi-20261027/1031598.html.gz"
+      }
+    },
+    {
+      "source": "course:当代俄罗斯马克思主义研究",
+      "target": "topic:中国特色社会主义",
+      "type": "内容关联",
+      "matched_term": "马克思主义中国化",
+      "evidence": {
+        "course_code": "TMAX60025",
+        "lesson_id": 1031611,
+        "term": "2026春",
+        "section": "课程简介（中文）",
+        "excerpt": "的现实困境与发展前景，重点解读其对构建 21 世纪世界马克思主义、推进马克思主义中国化时代化的特殊意义。通过本课程的学习，学生能从整体上把握当代俄罗斯马克思主义的基本理论与发展规律，明晰",
+        "url": "https://fdjwgl.fudan.edu.cn/student/for-all/lesson-search/teachingSyllabusInfo/1031611",
+        "snapshot": "../raw-official/syllabi-20261027/1031611.html.gz"
+      }
+    },
+    {
+      "source": "course:当代俄罗斯马克思主义研究",
+      "target": "topic:马克思主义发展史",
+      "type": "内容关联",
+      "matched_term": "马克思主义发展",
+      "evidence": {
+        "course_code": "TMAX60025",
+        "lesson_id": 1031611,
+        "term": "2026春",
+        "section": "课程简介（中文）",
+        "excerpt": "研究》课程是面向马克思主义理论相关专业学生，系统探究 21 世纪俄罗斯马克思主义发展脉络、理论格局与实践价值的重要教学载体，也是深化马克思主义国别化研究、拓宽马克思主义理论国际视野的重",
+        "url": "https://fdjwgl.fudan.edu.cn/student/for-all/lesson-search/teachingSyllabusInfo/1031611",
+        "snapshot": "../raw-official/syllabi-20261027/1031611.html.gz"
+      }
+    },
+    {
+      "source": "course:当代俄罗斯马克思主义研究",
+      "target": "topic:马克思主义哲学",
+      "type": "内容关联",
+      "matched_term": "辩证法",
+      "evidence": {
+        "course_code": "TMAX60025",
+        "lesson_id": 1031611,
+        "term": "2026春",
+        "section": "教学内容与进度安排",
+        "excerpt": "义批判派（上）；批判派的代表人物与核心研究阵地；批判派的理论主旨与唯物辩证法方法论基础； 第9周 俄罗斯马克思主义批判派（下）；批判派对晚期资本主义的辩证审视；批判派的理论创",
+        "url": "https://fdjwgl.fudan.edu.cn/student/for-all/lesson-search/teachingSyllabusInfo/1031611",
+        "snapshot": "../raw-official/syllabi-20261027/1031611.html.gz"
+      }
+    },
+    {
+      "source": "course:当代社会思潮评述",
+      "target": "topic:文化与意识形态",
+      "type": "内容关联",
+      "matched_term": "意识形态",
+      "evidence": {
+        "course_code": "TMAX50047",
+        "lesson_id": 1031603,
+        "term": "2026春",
+        "section": "教学内容与进度安排",
+        "excerpt": "第14周 大同平等 第15周 建设具有强大凝聚力和引领力的社会主义意识形态 I 第16周 建设具有强大凝聚力和引领力的社会主义意识形态 II",
+        "url": "https://fdjwgl.fudan.edu.cn/student/for-all/lesson-search/teachingSyllabusInfo/1031603",
+        "snapshot": "../raw-official/syllabi-20261027/1031603.html.gz"
+      }
+    },
+    {
+      "source": "course:当代资本主义前沿问题研究",
+      "target": "topic:中国特色社会主义",
+      "type": "内容关联",
+      "matched_term": "中国特色社会主义",
+      "evidence": {
+        "course_code": "TMAX30011",
+        "lesson_id": 1029160,
+        "term": "2026春",
+        "section": "课程简介（中文）",
+        "excerpt": "和热点问题，辨别当代资本主义最新发展的积极成果和消极因素，思考对新时代中国特色社会主义建设的有益启示。",
+        "url": "https://fdjwgl.fudan.edu.cn/student/for-all/lesson-search/teachingSyllabusInfo/1029160",
+        "snapshot": "../raw-official/syllabi-20261027/1029160.html.gz"
+      }
+    },
+    {
+      "source": "course:当代资本主义前沿问题研究",
+      "target": "topic:科学社会主义",
+      "type": "内容关联",
+      "matched_term": "社会主义运动",
+      "evidence": {
+        "course_code": "TMAX30011",
+        "lesson_id": 1029160,
+        "term": "2026春",
+        "section": "教学内容与进度安排",
+        "excerpt": ". 生态马克思主义同资本主义发展现实相结合 3. 生态马克思主义推动社会主义运动 二 全课总结 1. 经济维度：数字资本主义的政治经济学批判 2. 政治维度：公平与正义问题",
+        "url": "https://fdjwgl.fudan.edu.cn/student/for-all/lesson-search/teachingSyllabusInfo/1029160",
+        "snapshot": "../raw-official/syllabi-20261027/1029160.html.gz"
+      }
+    },
+    {
+      "source": "course:当代资本主义前沿问题研究",
+      "target": "topic:政治经济学",
+      "type": "内容关联",
+      "matched_term": "政治经济学",
+      "evidence": {
+        "course_code": "TMAX30011",
+        "lesson_id": 1029160,
+        "term": "2026春",
+        "section": "教学内容与进度安排",
+        "excerpt": "越路径 第五周 一 从“洛克式”到“马克思式”：数字劳动所有权的政治经济学分析： 1. 数字劳动所有权的“原始方程式” 2. 数字劳动所有权的双重规律 3. 数字劳动所",
+        "url": "https://fdjwgl.fudan.edu.cn/student/for-all/lesson-search/teachingSyllabusInfo/1029160",
+        "snapshot": "../raw-official/syllabi-20261027/1029160.html.gz"
+      }
+    },
+    {
+      "source": "course:当代资本主义前沿问题研究",
+      "target": "topic:人工智能与技术",
+      "type": "内容关联",
+      "matched_term": "人工智能",
+      "evidence": {
+        "course_code": "TMAX30011",
+        "lesson_id": 1029160,
+        "term": "2026春",
+        "section": "教学内容与进度安排",
+        "excerpt": "悖谬 2.“马克思式”数字劳动所有权的建构 第六周 一 生成式人工智能赋能数字劳动的新形态： 1. 生成式AI对数字劳动模式的重塑 2. 生成式AI中数字劳动三要素的",
+        "url": "https://fdjwgl.fudan.edu.cn/student/for-all/lesson-search/teachingSyllabusInfo/1029160",
+        "snapshot": "../raw-official/syllabi-20261027/1029160.html.gz"
+      }
+    },
+    {
+      "source": "course:思想政治教育原著导读",
+      "target": "topic:思想政治教育",
+      "type": "内容关联",
+      "matched_term": "思想政治教育",
+      "evidence": {
+        "course_code": "TMAX50050",
+        "lesson_id": 1031605,
+        "term": "2026春",
+        "section": "课程简介（中文）",
+        "excerpt": "培养严谨的学术态度和求真务实的治学精神，提升学术素养和理论修养，增强对思想政治教育学科的认同感和归属感，树立专业自信，激发专业学习的主动性和积极性，培养跨文化视野，能够客观看待中西方",
+        "url": "https://fdjwgl.fudan.edu.cn/student/for-all/lesson-search/teachingSyllabusInfo/1031605",
+        "snapshot": "../raw-official/syllabi-20261027/1031605.html.gz"
+      }
+    },
+    {
+      "source": "course:思想政治教育原著导读",
+      "target": "topic:伦理与道德",
+      "type": "内容关联",
+      "matched_term": "道德教育",
+      "evidence": {
+        "course_code": "TMAX50050",
+        "lesson_id": 1031605,
+        "term": "2026春",
+        "section": "课程简介（中文）",
+        "excerpt": "通过聚焦道德教育与法治教育的经典文本，以阅读和学科议题探讨为主要教学方式，坚定马克思主义信仰，培养严谨的学术态度和求",
+        "url": "https://fdjwgl.fudan.edu.cn/student/for-all/lesson-search/teachingSyllabusInfo/1031605",
+        "snapshot": "../raw-official/syllabi-20261027/1031605.html.gz"
+      }
+    },
+    {
+      "source": "course:思想政治教育原著导读",
+      "target": "topic:法律与法治",
+      "type": "内容关联",
+      "matched_term": "法治",
+      "evidence": {
+        "course_code": "TMAX50050",
+        "lesson_id": 1031605,
+        "term": "2026春",
+        "section": "课程简介（中文）",
+        "excerpt": "通过聚焦道德教育与法治教育的经典文本，以阅读和学科议题探讨为主要教学方式，坚定马克思主义信仰，培养严谨的学术态度和求真务实",
+        "url": "https://fdjwgl.fudan.edu.cn/student/for-all/lesson-search/teachingSyllabusInfo/1031605",
+        "snapshot": "../raw-official/syllabi-20261027/1031605.html.gz"
+      }
+    },
+    {
+      "source": "course:思想政治教育学前沿问题研究",
+      "target": "topic:思想政治教育",
+      "type": "内容关联",
+      "matched_term": "思想政治教育",
+      "evidence": {
+        "course_code": "TMAX50001",
+        "lesson_id": 1031591,
+        "term": "2026春",
+        "section": "课程简介（中文）",
+        "excerpt": "本课程为思想政治教育博士生的专业选修课，课程旨在介绍思想政治教育学的前沿研究动态，帮助学生了解思想政治教育学在诸核心论域",
+        "url": "https://fdjwgl.fudan.edu.cn/student/for-all/lesson-search/teachingSyllabusInfo/1031591",
+        "snapshot": "../raw-official/syllabi-20261027/1031591.html.gz"
+      }
+    },
+    {
+      "source": "course:思想政治教育学原理",
+      "target": "topic:思想政治教育",
+      "type": "内容关联",
+      "matched_term": "思想政治教育",
+      "evidence": {
+        "course_code": "TMAX20009",
+        "lesson_id": 1004826,
+        "term": "2025秋",
+        "section": "课程简介（中文）",
+        "excerpt": "本门课程集中讲授思想政治教育理论与实践的基础知识，具体讲授的内容包括：思想政治教育学科的发展历程、学科属性和基本特征，思想政治教",
+        "url": "https://fdjwgl.fudan.edu.cn/student/for-all/lesson-search/teachingSyllabusInfo/1004826",
+        "snapshot": "../raw-official/syllabi-20261027/1004826.html.gz"
+      }
+    },
+    {
+      "source": "course:思想政治教育学原理",
+      "target": "topic:中国特色社会主义",
+      "type": "内容关联",
+      "matched_term": "中国特色社会主义",
+      "evidence": {
+        "course_code": "TMAX20009",
+        "lesson_id": 1004826,
+        "term": "2025秋",
+        "section": "教学目标",
+        "excerpt": "研究与实践提供理论依据、分析工具和方法论基础作用。本课程以习近平新时代中国特色社会主义思想为指导，全面贯彻落实习近平总书记在学校思想政治理论课教师座谈会发表的重要讲话精神以及全国教育大会",
+        "url": "https://fdjwgl.fudan.edu.cn/student/for-all/lesson-search/teachingSyllabusInfo/1004826",
+        "snapshot": "../raw-official/syllabi-20261027/1004826.html.gz"
+      }
+    },
+    {
+      "source": "course:思想政治教育学原理",
+      "target": "topic:伦理与道德",
+      "type": "内容关联",
+      "matched_term": "道德观",
+      "evidence": {
+        "course_code": "TMAX20009",
+        "lesson_id": 1004826,
+        "term": "2025秋",
+        "section": "教学内容与进度安排",
+        "excerpt": "育 第三节价值观教育 第四节政治观教育 第五节道德观教育 第六节法治观教育 第九章思想政治教育的原则和方法 第一节思想政治教育的主要",
+        "url": "https://fdjwgl.fudan.edu.cn/student/for-all/lesson-search/teachingSyllabusInfo/1004826",
+        "snapshot": "../raw-official/syllabi-20261027/1004826.html.gz"
+      }
+    },
+    {
+      "source": "course:思想政治教育学原理",
+      "target": "topic:法律与法治",
+      "type": "内容关联",
+      "matched_term": "法治",
+      "evidence": {
+        "course_code": "TMAX20009",
+        "lesson_id": 1004826,
+        "term": "2025秋",
+        "section": "教学内容与进度安排",
+        "excerpt": "育 第四节政治观教育 第五节道德观教育 第六节法治观教育 第九章思想政治教育的原则和方法 第一节思想政治教育的主要原则 第二节思想",
+        "url": "https://fdjwgl.fudan.edu.cn/student/for-all/lesson-search/teachingSyllabusInfo/1004826",
+        "snapshot": "../raw-official/syllabi-20261027/1004826.html.gz"
+      }
+    },
+    {
+      "source": "course:思想政治教育学研究",
+      "target": "topic:思想政治教育",
+      "type": "内容关联",
+      "matched_term": "思想政治教育",
+      "evidence": {
+        "course_code": "TMAX50045",
+        "lesson_id": 1032454,
+        "term": "2026春",
+        "section": "课程简介（中文）",
+        "excerpt": "思想政治教育专业硕士研究生专业核心课程。系统学习和研究当代思想政治教育学理论与实践的重要问题及其研究成果。通过对",
+        "url": "https://fdjwgl.fudan.edu.cn/student/for-all/lesson-search/teachingSyllabusInfo/1032454",
+        "snapshot": "../raw-official/syllabi-20261027/1032454.html.gz"
+      }
+    },
+    {
+      "source": "course:思想政治教育的理论和方法",
+      "target": "topic:思想政治教育",
+      "type": "内容关联",
+      "matched_term": "思想政治教育",
+      "evidence": {
+        "course_code": "TMAX60012",
+        "lesson_id": 1006578,
+        "term": "2025秋",
+        "section": "课程简介（中文）",
+        "excerpt": "通过经典文本研读，就思想政治教育的理论与方法进行专题式深度探讨。",
+        "url": "https://fdjwgl.fudan.edu.cn/student/for-all/lesson-search/teachingSyllabusInfo/1006578",
+        "snapshot": "../raw-official/syllabi-20261027/1006578.html.gz"
+      }
+    },
+    {
+      "source": "course:思想政治教育的理论和方法",
+      "target": "topic:中国特色社会主义",
+      "type": "内容关联",
+      "matched_term": "中国化时代化",
+      "evidence": {
+        "course_code": "TMAX60012",
+        "lesson_id": 1006578,
+        "term": "2025秋",
+        "section": "教学目标",
+        "excerpt": "新发展，结合中华优秀传统文化，汲取人类文明中的相关成果，以马克思主义、中国化时代化的马克思主义深刻回答相关专题研究的问题，对下一步深入研究、推进思想政治教育学科发展，明确目标。",
+        "url": "https://fdjwgl.fudan.edu.cn/student/for-all/lesson-search/teachingSyllabusInfo/1006578",
+        "snapshot": "../raw-official/syllabi-20261027/1006578.html.gz"
+      }
+    },
+    {
+      "source": "course:思想政治教育的理论和方法",
+      "target": "topic:文化与意识形态",
+      "type": "内容关联",
+      "matched_term": "意识形态",
+      "evidence": {
+        "course_code": "TMAX60012",
+        "lesson_id": 1006578,
+        "term": "2025秋",
+        "section": "教学内容与进度安排",
+        "excerpt": "治教育中的认知、社会认知、情感体验、信念认同的转化机制进行深入研究，就意识形态、精神形态、价值观及其教育、范畴论、规律论等进行文献研究、现状研判、理论阐释。期末提交一篇不少于60",
+        "url": "https://fdjwgl.fudan.edu.cn/student/for-all/lesson-search/teachingSyllabusInfo/1006578",
+        "snapshot": "../raw-official/syllabi-20261027/1006578.html.gz"
+      }
+    },
+    {
+      "source": "course:思想道德与法治",
+      "target": "topic:法律与法治",
+      "type": "内容关联",
+      "matched_term": "法治",
+      "evidence": {
+        "course_code": "GEIP20007",
+        "lesson_id": 1002827,
+        "term": "2025秋",
+        "section": "课程简介（中文）",
+        "excerpt": "立德树人使命，针对大学生的阶段性特点，从思想道德修养、政治觉悟、法律与法治素养等方面开展育人工作，厚植青年学子的家国情、事业梦，鼓励并引导他们将小我和大我进行充分融合。本课程",
+        "url": "https://fdjwgl.fudan.edu.cn/student/for-all/lesson-search/teachingSyllabusInfo/1002827",
+        "snapshot": "../raw-official/syllabi-20261027/1002827.html.gz"
+      }
+    },
+    {
+      "source": "course:思想道德与法治",
+      "target": "topic:思想政治教育",
+      "type": "内容关联",
+      "matched_term": "思想政治理论课",
+      "evidence": {
+        "course_code": "GEIP20007",
+        "lesson_id": 1002827,
+        "term": "2025秋",
+        "section": "课程简介（中文）",
+        "excerpt": "本课程为通识教育核心课程中的思想政治理论课（必修），入选国家级精品课程、首批国家级一流本科课程。本课程承担了重要的立德树人使命，针对大学生的阶",
+        "url": "https://fdjwgl.fudan.edu.cn/student/for-all/lesson-search/teachingSyllabusInfo/1002827",
+        "snapshot": "../raw-official/syllabi-20261027/1002827.html.gz"
+      }
+    },
+    {
+      "source": "course:思想道德与法治",
+      "target": "topic:中国特色社会主义",
+      "type": "内容关联",
+      "matched_term": "中国特色社会主义",
+      "evidence": {
+        "course_code": "GEIP20007",
+        "lesson_id": 1002827,
+        "term": "2025秋",
+        "section": "教学目标",
+        "excerpt": "1.使学生充分理解当今中国所处的时代背景，掌握中国特色社会主义进入新阶段后的新特征、新任务，对世情、国情、民情有全面认识，增强使命感和对中国特色社会主义事业的自豪",
+        "url": "https://fdjwgl.fudan.edu.cn/student/for-all/lesson-search/teachingSyllabusInfo/1002827",
+        "snapshot": "../raw-official/syllabi-20261027/1002827.html.gz"
+      }
+    },
+    {
+      "source": "course:思想道德与法治",
+      "target": "topic:马克思主义哲学",
+      "type": "内容关联",
+      "matched_term": "辩证唯物主义",
+      "evidence": {
+        "course_code": "GEIP20007",
+        "lesson_id": 1002842,
+        "term": "2025秋",
+        "section": "课程简介（中文）",
+        "excerpt": "帮助学生掌握辩证唯物主义和历史唯物主义世界观和方法论，解决成长成才过程中遇到的实际问题，更好适应大学生活，促进德智体美劳全面",
+        "url": "https://fdjwgl.fudan.edu.cn/student/for-all/lesson-search/teachingSyllabusInfo/1002842",
+        "snapshot": "../raw-official/syllabi-20261027/1002842.html.gz"
+      }
+    },
+    {
+      "source": "course:思想道德与法治",
+      "target": "topic:伦理与道德",
+      "type": "内容关联",
+      "matched_term": "道德观",
+      "evidence": {
+        "course_code": "GEIP20007",
+        "lesson_id": 1002827,
+        "term": "2025秋",
+        "section": "课程简介（中文）",
+        "excerpt": "程中面临的思想困惑和法律问题，开展马克思主义的世界观、人生观、价值观、道德观、法治观教育，引导大学生积极践行社会主义核心价值观，进而成长为自觉担当民族复兴大任的时代新人。",
+        "url": "https://fdjwgl.fudan.edu.cn/student/for-all/lesson-search/teachingSyllabusInfo/1002827",
+        "snapshot": "../raw-official/syllabi-20261027/1002827.html.gz"
+      }
+    },
+    {
+      "source": "course:改革开放史",
+      "target": "topic:中国特色社会主义",
+      "type": "内容关联",
+      "matched_term": "中国特色社会主义",
+      "evidence": {
+        "course_code": "GEIP20004",
+        "lesson_id": 1003419,
+        "term": "2025秋",
+        "section": "课程简介（中文）",
+        "excerpt": "程、成就，每个历史阶段遇到的问题、解决的方法、理论创新，阐明为什么只有中国特色社会主义才能发展中国，改革开放是决定中国前途命运的关键一招。",
+        "url": "https://fdjwgl.fudan.edu.cn/student/for-all/lesson-search/teachingSyllabusInfo/1003419",
+        "snapshot": "../raw-official/syllabi-20261027/1003419.html.gz"
+      }
+    },
+    {
+      "source": "course:改革开放史",
+      "target": "topic:改革开放史",
+      "type": "内容关联",
+      "matched_term": "改革开放的历史",
+      "evidence": {
+        "course_code": "GEIP20004",
+        "lesson_id": 1003405,
+        "term": "2025秋",
+        "section": "课程简介（中文）",
+        "excerpt": "成功抵御国际负面环境及显示出的制度优势；深入理解新时代进一步坚持和深化改革开放的历史必然性。",
+        "url": "https://fdjwgl.fudan.edu.cn/student/for-all/lesson-search/teachingSyllabusInfo/1003405",
+        "snapshot": "../raw-official/syllabi-20261027/1003405.html.gz"
+      }
+    },
+    {
+      "source": "course:改革开放史",
+      "target": "topic:马克思主义哲学",
+      "type": "内容关联",
+      "matched_term": "辩证唯物主义",
+      "evidence": {
+        "course_code": "GEIP20004",
+        "lesson_id": 1003419,
+        "term": "2025秋",
+        "section": "教学目标",
+        "excerpt": "程为高校“四史”课程之一，必选课，面向本科生。引导学生用历史唯物主义和辩证唯物主义的思维看待当代中国问题，传授改革开放的基本知识，如经济、政治、文化、社会、生态领域是如何改革的？中国",
+        "url": "https://fdjwgl.fudan.edu.cn/student/for-all/lesson-search/teachingSyllabusInfo/1003419",
+        "snapshot": "../raw-official/syllabi-20261027/1003419.html.gz"
+      }
+    },
+    {
+      "source": "course:改革开放史",
+      "target": "topic:法律与法治",
+      "type": "内容关联",
+      "matched_term": "法治",
+      "evidence": {
+        "course_code": "GEIP20004",
+        "lesson_id": 1003419,
+        "term": "2025秋",
+        "section": "教学内容与进度安排",
+        "excerpt": "、国企、科技、教育体制改革，对外开放格局) 三.坚强民主法治和精神文明建设(82修宪、完善社会主义政治制度、社会主义精神文明建设、党的建设) 四.",
+        "url": "https://fdjwgl.fudan.edu.cn/student/for-all/lesson-search/teachingSyllabusInfo/1003419",
+        "snapshot": "../raw-official/syllabi-20261027/1003419.html.gz"
+      }
+    },
+    {
+      "source": "course:政务文书写作",
+      "target": "topic:中华人民共和国史",
+      "type": "内容关联",
+      "matched_term": "新中国成立",
+      "evidence": {
+        "course_code": "TMAX70004",
+        "lesson_id": 1030607,
+        "term": "2026春",
+        "section": "教学内容与进度安排",
+        "excerpt": "历史演变 1、从历史维度分析不同历史时期的公文特点； 2、重点掌握新中国成立以后公文的历史演变； 3、把握公文的历史性、人文性与政治性相结合的特点。 第三课：公文的类型与特",
+        "url": "https://fdjwgl.fudan.edu.cn/student/for-all/lesson-search/teachingSyllabusInfo/1030607",
+        "snapshot": "../raw-official/syllabi-20261027/1030607.html.gz"
+      }
+    },
+    {
+      "source": "course:政务文书写作",
+      "target": "topic:法律与法治",
+      "type": "内容关联",
+      "matched_term": "法治",
+      "evidence": {
+        "course_code": "TMAX70004",
+        "lesson_id": 1030607,
+        "term": "2026春",
+        "section": "教学目标",
+        "excerpt": "、了解《党政机关公文处理工作条例》《党政机关公文格式》的相关内容，树立法治思维和规范习惯，掌握公文的法定效力和规范格式，了解不同类型公文的规范和要求。 3、系统掌握党政机关",
+        "url": "https://fdjwgl.fudan.edu.cn/student/for-all/lesson-search/teachingSyllabusInfo/1030607",
+        "snapshot": "../raw-official/syllabi-20261027/1030607.html.gz"
+      }
+    },
+    {
+      "source": "course:政治经济学理论研究",
+      "target": "topic:政治经济学",
+      "type": "内容关联",
+      "matched_term": "政治经济学",
+      "evidence": {
+        "course_code": "TMAX50040",
+        "lesson_id": 1006567,
+        "term": "2025秋",
+        "section": "课程简介（中文）",
+        "excerpt": "政治经济学是经济学专业基础课，又是马克思主义理论专业的核心课程。",
+        "url": "https://fdjwgl.fudan.edu.cn/student/for-all/lesson-search/teachingSyllabusInfo/1006567",
+        "snapshot": "../raw-official/syllabi-20261027/1006567.html.gz"
+      }
+    },
+    {
+      "source": "course:政治经济学理论研究",
+      "target": "topic:中国特色社会主义",
+      "type": "内容关联",
+      "matched_term": "中国特色社会主义",
+      "evidence": {
+        "course_code": "TMAX50040",
+        "lesson_id": 1006567,
+        "term": "2025秋",
+        "section": "教学内容与进度安排",
+        "excerpt": "学生通过对比，清楚目前西方理论存在的问题与马克思主义理论的真理性。 3中国特色社会主义经济理论（ 社会主义经济制度的建立和发展 、 社会主义初级阶段及其基本经济制度 、 社会主义市场经济",
+        "url": "https://fdjwgl.fudan.edu.cn/student/for-all/lesson-search/teachingSyllabusInfo/1006567",
+        "snapshot": "../raw-official/syllabi-20261027/1006567.html.gz"
+      }
+    },
+    {
+      "source": "course:数字资本主义研究",
+      "target": "topic:人工智能与技术",
+      "type": "内容关联",
+      "matched_term": "人工智能",
+      "evidence": {
+        "course_code": "TMAX50036",
+        "lesson_id": 1031599,
+        "term": "2026春",
+        "section": "课程简介（中文）",
+        "excerpt": "特币的产生等探讨数字资本主义金融化问题。第五，以ChatGPT为例探讨人工智能赋能数字劳动的新形态及其资本化的问题。",
+        "url": "https://fdjwgl.fudan.edu.cn/student/for-all/lesson-search/teachingSyllabusInfo/1031599",
+        "snapshot": "../raw-official/syllabi-20261027/1031599.html.gz"
+      }
+    },
+    {
+      "source": "course:数智赋能政党建设",
+      "target": "topic:人工智能与技术",
+      "type": "内容关联",
+      "matched_term": "人工智能",
+      "evidence": {
+        "course_code": "AIT310022",
+        "lesson_id": 1031644,
+        "term": "2026春",
+        "section": "课程简介（中文）",
+        "excerpt": "本课程的基本内容为讲授人工智能与政党建设的理论和实践，授课内容共分三大模块。课程的第一阶段为AI for Science基础知识模",
+        "url": "https://fdjwgl.fudan.edu.cn/student/for-all/lesson-search/teachingSyllabusInfo/1031644",
+        "snapshot": "../raw-official/syllabi-20261027/1031644.html.gz"
+      }
+    },
+    {
+      "source": "course:数智赋能政党建设",
+      "target": "topic:文化与意识形态",
+      "type": "内容关联",
+      "matched_term": "意识形态",
+      "evidence": {
+        "course_code": "AIT310022",
+        "lesson_id": 1031644,
+        "term": "2026春",
+        "section": "课程简介（中文）",
+        "excerpt": "同维度应用人工智能技术所带来的机遇和挑战，分析和研判这对政党组织模式、意识形态、政党活动、社会基础、政党成员和政党发展的影响。",
+        "url": "https://fdjwgl.fudan.edu.cn/student/for-all/lesson-search/teachingSyllabusInfo/1031644",
+        "snapshot": "../raw-official/syllabi-20261027/1031644.html.gz"
+      }
+    },
+    {
+      "source": "course:新中国史",
+      "target": "topic:中华人民共和国史",
+      "type": "内容关联",
+      "matched_term": "新中国史",
+      "evidence": {
+        "course_code": "GEIP20003",
+        "lesson_id": 1003389,
+        "term": "2025秋",
+        "section": "课程简介（中文）",
+        "excerpt": "《新中国史》课程讲述新中国在共产党领导下，如何选择确立、探索发展并坚持完善社会主义制度，逐步实现站起来、富起来",
+        "url": "https://fdjwgl.fudan.edu.cn/student/for-all/lesson-search/teachingSyllabusInfo/1003389",
+        "snapshot": "../raw-official/syllabi-20261027/1003389.html.gz"
+      }
+    },
+    {
+      "source": "course:新中国史",
+      "target": "topic:中国特色社会主义",
+      "type": "内容关联",
+      "matched_term": "中国特色社会主义",
+      "evidence": {
+        "course_code": "GEIP20003",
+        "lesson_id": 1003389,
+        "term": "2025秋",
+        "section": "课程简介（中文）",
+        "excerpt": "逻辑、理论逻辑与现实逻辑关系，培养学生清醒的理性精神和爱国情怀，坚定走中国特色社会主义道路的自信心和使命感。",
+        "url": "https://fdjwgl.fudan.edu.cn/student/for-all/lesson-search/teachingSyllabusInfo/1003389",
+        "snapshot": "../raw-official/syllabi-20261027/1003389.html.gz"
+      }
+    },
+    {
+      "source": "course:新中国史",
+      "target": "topic:科学社会主义",
+      "type": "内容关联",
+      "matched_term": "社会主义理论",
+      "evidence": {
+        "course_code": "GEIP20003",
+        "lesson_id": 1003389,
+        "term": "2025秋",
+        "section": "教学内容与进度安排",
+        "excerpt": "会主义初级阶段论述；从“小康社会”到“全面小康社会”。 9、中国特色社会主义理论：共产党的领导；社会主义制度。 10、“三个代表”重要思想：“三个代表”思想内涵；十二大党章修订。",
+        "url": "https://fdjwgl.fudan.edu.cn/student/for-all/lesson-search/teachingSyllabusInfo/1003389",
+        "snapshot": "../raw-official/syllabi-20261027/1003389.html.gz"
+      }
+    },
+    {
+      "source": "course:新中国史",
+      "target": "topic:生态与环境",
+      "type": "内容关联",
+      "matched_term": "生态文明",
+      "evidence": {
+        "course_code": "GEIP20003",
+        "lesson_id": 1003389,
+        "term": "2025秋",
+        "section": "教学内容与进度安排",
+        "excerpt": "化自信与核心价值观：精神文明建设；核心价值体系；核心价值观。 15、生态文明与美丽中国：“两山”论；垃圾分类；碳达峰与碳中和。 16、“命运共同体”与“生命共同体”：中华民族",
+        "url": "https://fdjwgl.fudan.edu.cn/student/for-all/lesson-search/teachingSyllabusInfo/1003389",
+        "snapshot": "../raw-official/syllabi-20261027/1003389.html.gz"
+      }
+    },
+    {
+      "source": "course:新中国史（实践课程）",
+      "target": "topic:中华人民共和国史",
+      "type": "内容关联",
+      "matched_term": "新中国史",
+      "evidence": {
+        "course_code": "TMAX20007",
+        "lesson_id": 1029166,
+        "term": "2026春",
+        "section": "教学内容与进度安排",
+        "excerpt": "该课程计划安排15次45课时，按专题划分章节如下： 前言：如何学习《新中国史》实践课程。 新中国诞生与政权巩固：如何设计新中国；新民主主义革命与人民民主专政政权。 对外抗美",
+        "url": "https://fdjwgl.fudan.edu.cn/student/for-all/lesson-search/teachingSyllabusInfo/1029166",
+        "snapshot": "../raw-official/syllabi-20261027/1029166.html.gz"
+      }
+    },
+    {
+      "source": "course:新中国史（实践课程）",
+      "target": "topic:中国特色社会主义",
+      "type": "内容关联",
+      "matched_term": "中国特色社会主义",
+      "evidence": {
+        "course_code": "TMAX20007",
+        "lesson_id": 1029166,
+        "term": "2026春",
+        "section": "课程简介（中文）",
+        "excerpt": "逻辑、理论逻辑与现实逻辑关系，培养学生清醒的理性精神和爱国情怀，坚定走中国特色社会主义道路的自信心和使命感。",
+        "url": "https://fdjwgl.fudan.edu.cn/student/for-all/lesson-search/teachingSyllabusInfo/1029166",
+        "snapshot": "../raw-official/syllabi-20261027/1029166.html.gz"
+      }
+    },
+    {
+      "source": "course:新中国史（实践课程）",
+      "target": "topic:科学社会主义",
+      "type": "内容关联",
+      "matched_term": "社会主义理论",
+      "evidence": {
+        "course_code": "TMAX20007",
+        "lesson_id": 1029166,
+        "term": "2026春",
+        "section": "教学内容与进度安排",
+        "excerpt": "社会主义的重新认识；从“小康社会”到“全面小康社会”。 9、中国特色社会主义理论与实践：共产党的领导；社会主义制度。“三个代表”思想内涵；“和谐社会”与“科学发展观”；国家治理与社",
+        "url": "https://fdjwgl.fudan.edu.cn/student/for-all/lesson-search/teachingSyllabusInfo/1029166",
+        "snapshot": "../raw-official/syllabi-20261027/1029166.html.gz"
+      }
+    },
+    {
+      "source": "course:新时代中国特色社会主义理论与实践",
+      "target": "topic:中国特色社会主义",
+      "type": "内容关联",
+      "matched_term": "中国特色社会主义",
+      "evidence": {
+        "course_code": "GEIP40013",
+        "lesson_id": 1006418,
+        "term": "2025秋",
+        "section": "课程简介（中文）",
+        "excerpt": "专题讲授新时代中国特色社会主义理论和实践的重大问题，帮助学生进一步掌握中国特色社会主义理论体系，深化对习近平新时代中国特色社会主义",
+        "url": "https://fdjwgl.fudan.edu.cn/student/for-all/lesson-search/teachingSyllabusInfo/1006418",
+        "snapshot": "../raw-official/syllabi-20261027/1006418.html.gz"
+      }
+    },
+    {
+      "source": "course:新时代中国特色社会主义理论与实践",
+      "target": "topic:科学社会主义",
+      "type": "内容关联",
+      "matched_term": "社会主义理论",
+      "evidence": {
+        "course_code": "GEIP40013",
+        "lesson_id": 1006418,
+        "term": "2025秋",
+        "section": "课程简介（中文）",
+        "excerpt": "专题讲授新时代中国特色社会主义理论和实践的重大问题，帮助学生进一步掌握中国特色社会主义理论体系，深化对习近平新时代中国特色社会主义思想",
+        "url": "https://fdjwgl.fudan.edu.cn/student/for-all/lesson-search/teachingSyllabusInfo/1006418",
+        "snapshot": "../raw-official/syllabi-20261027/1006418.html.gz"
+      }
+    },
+    {
+      "source": "course:新时代中国特色社会主义理论与实践",
+      "target": "topic:马克思主义经典著作",
+      "type": "内容关联",
+      "matched_term": "马克思、恩格斯",
+      "evidence": {
+        "course_code": "GEIP40013",
+        "lesson_id": 1006430,
+        "term": "2025秋",
+        "section": "教学内容与进度安排",
+        "excerpt": "批判》导言 3.4 恩格斯：家庭、私有制和国家的起源 3.5 马克思、恩格斯：共产党宣言 3.5.1 Manifesto of the Communist Party 18",
+        "url": "https://fdjwgl.fudan.edu.cn/student/for-all/lesson-search/teachingSyllabusInfo/1006430",
+        "snapshot": "../raw-official/syllabi-20261027/1006430.html.gz"
+      }
+    },
+    {
+      "source": "course:新时代中国特色社会主义理论与实践",
+      "target": "topic:文化与意识形态",
+      "type": "内容关联",
+      "matched_term": "文化建设",
+      "evidence": {
+        "course_code": "GEIP40013",
+        "lesson_id": 1030389,
+        "term": "2026春",
+        "section": "课程简介（中文）",
+        "excerpt": "课题。课程涵盖新时代的历史方位、中国式现代化道路、经济建设、政治建设、文化建设、社会建设、生态文明建设、国家安全与国防外交、党的建设等核心板块，旨在引导学生全面把握新时代党的创新",
+        "url": "https://fdjwgl.fudan.edu.cn/student/for-all/lesson-search/teachingSyllabusInfo/1030389",
+        "snapshot": "../raw-official/syllabi-20261027/1030389.html.gz"
+      }
+    },
+    {
+      "source": "course:新时代中国特色社会主义理论与实践",
+      "target": "topic:生态与环境",
+      "type": "内容关联",
+      "matched_term": "生态文明",
+      "evidence": {
+        "course_code": "GEIP40013",
+        "lesson_id": 1030389,
+        "term": "2026春",
+        "section": "课程简介（中文）",
+        "excerpt": "的历史方位、中国式现代化道路、经济建设、政治建设、文化建设、社会建设、生态文明建设、国家安全与国防外交、党的建设等核心板块，旨在引导学生全面把握新时代党的创新理论成果，深刻理解中",
+        "url": "https://fdjwgl.fudan.edu.cn/student/for-all/lesson-search/teachingSyllabusInfo/1030389",
+        "snapshot": "../raw-official/syllabi-20261027/1030389.html.gz"
+      }
+    },
+    {
+      "source": "course:欧洲公法发展与现代国家观念",
+      "target": "topic:法律与法治",
+      "type": "内容关联",
+      "matched_term": "宪法",
+      "evidence": {
+        "course_code": "GECC20052",
+        "lesson_id": 1005710,
+        "term": "2025秋",
+        "section": "课程简介（中文）",
+        "excerpt": "绍欧洲公法发展历程及其对国家观念的影响。通过围绕“国家”、“主权”、“宪法”等相关的概念阐述和讨论其对公法发展的影响，呈现欧洲公法及其思想的发展与现代国家形成和发展之间的联系",
+        "url": "https://fdjwgl.fudan.edu.cn/student/for-all/lesson-search/teachingSyllabusInfo/1005710",
+        "snapshot": "../raw-official/syllabi-20261027/1005710.html.gz"
+      }
+    },
+    {
+      "source": "course:比较思想政治教育",
+      "target": "topic:思想政治教育",
+      "type": "内容关联",
+      "matched_term": "思想政治教育",
+      "evidence": {
+        "course_code": "TMAX50009",
+        "lesson_id": 1030489,
+        "term": "2026春",
+        "section": "课程简介（中文）",
+        "excerpt": "本课程按照思想政治教育比较研究的理论基础、基本方法、典型国家或地区、不同场域和行业领域内的思想政治教育理论与实践中的关键议",
+        "url": "https://fdjwgl.fudan.edu.cn/student/for-all/lesson-search/teachingSyllabusInfo/1030489",
+        "snapshot": "../raw-official/syllabi-20261027/1030489.html.gz"
+      }
+    },
+    {
+      "source": "course:比较思想政治教育",
+      "target": "topic:文化与意识形态",
+      "type": "内容关联",
+      "matched_term": "意识形态",
+      "evidence": {
+        "course_code": "TMAX50009",
+        "lesson_id": 1030489,
+        "term": "2026春",
+        "section": "教学内容与进度安排",
+        "excerpt": "第四周 思想政治教育“比较”的方法论 第五周 显性还是隐性：意识形态教育的两种表现形式 第六周 爱国主义：中美之间的国别考察 第七周 以历史为主轴的英国公民教育",
+        "url": "https://fdjwgl.fudan.edu.cn/student/for-all/lesson-search/teachingSyllabusInfo/1030489",
+        "snapshot": "../raw-official/syllabi-20261027/1030489.html.gz"
+      }
+    },
+    {
+      "source": "course:比较思想政治教育研究专题",
+      "target": "topic:思想政治教育",
+      "type": "内容关联",
+      "matched_term": "思想政治教育",
+      "evidence": {
+        "course_code": "TMAX60011",
+        "lesson_id": 1013924,
+        "term": "2025秋",
+        "section": "课程简介（中文）",
+        "excerpt": "本课程为思想政治教育专业核心课程，设立九个研究专题， 围绕思想政治教育理论基础、思想政治教育地位、作用及目标、思想政治教",
+        "url": "https://fdjwgl.fudan.edu.cn/student/for-all/lesson-search/teachingSyllabusInfo/1013924",
+        "snapshot": "../raw-official/syllabi-20261027/1013924.html.gz"
+      }
+    },
+    {
+      "source": "course:毛泽东思想",
+      "target": "topic:中国特色社会主义",
+      "type": "内容关联",
+      "matched_term": "中国特色社会主义",
+      "evidence": {
+        "course_code": "TMAX10005",
+        "lesson_id": 1004818,
+        "term": "2025秋",
+        "section": "教学目标",
+        "excerpt": "民取得中国革命和社会主义建设事业的伟大胜利。由此，延伸到新时期、新时代中国特色社会主义事业开创和中华民族伟大复兴的历史渊源。",
+        "url": "https://fdjwgl.fudan.edu.cn/student/for-all/lesson-search/teachingSyllabusInfo/1004818",
+        "snapshot": "../raw-official/syllabi-20261027/1004818.html.gz"
+      }
+    },
+    {
+      "source": "course:毛泽东思想和中国特色社会主义理论体系概论",
+      "target": "topic:中国特色社会主义",
+      "type": "内容关联",
+      "matched_term": "中国特色社会主义",
+      "evidence": {
+        "course_code": "GEIP30001",
+        "lesson_id": 1002856,
+        "term": "2025秋",
+        "section": "课程简介（中文）",
+        "excerpt": "同中华优秀传统文化相结合，坚定不移走社会主义道路，坚持不懈地建设和发展中国特色社会主义。",
+        "url": "https://fdjwgl.fudan.edu.cn/student/for-all/lesson-search/teachingSyllabusInfo/1002856",
+        "snapshot": "../raw-official/syllabi-20261027/1002856.html.gz"
+      }
+    },
+    {
+      "source": "course:毛泽东思想和中国特色社会主义理论体系概论",
+      "target": "topic:科学社会主义",
+      "type": "内容关联",
+      "matched_term": "社会主义理论",
+      "evidence": {
+        "course_code": "GEIP30001",
+        "lesson_id": 1002856,
+        "term": "2025秋",
+        "section": "教学内容与进度安排",
+        "excerpt": "索的理论成果、初步探索的历史意义和经验教训 第七周 第五章中国特色社会主义理论体系的形成发展 中国特色社会主义理论体系形成发展的社会历史条件及其形成发展过程 第八周 第五章",
+        "url": "https://fdjwgl.fudan.edu.cn/student/for-all/lesson-search/teachingSyllabusInfo/1002856",
+        "snapshot": "../raw-official/syllabi-20261027/1002856.html.gz"
+      }
+    },
+    {
+      "source": "course:毛泽东思想和中国特色社会主义理论体系概论",
+      "target": "topic:中国近现代史",
+      "type": "内容关联",
+      "matched_term": "近代中国",
+      "evidence": {
+        "course_code": "GEIP30001",
+        "lesson_id": 1002856,
+        "term": "2025秋",
+        "section": "教学内容与进度安排",
+        "excerpt": "形成发展、主要内容、历史地位 第三周 第二章新民主主义革命理论 近代中国国情、中国革命时代特征、新民主主义革命总路线 第四周 第二章新民主主义革命理论 新民主主义的基",
+        "url": "https://fdjwgl.fudan.edu.cn/student/for-all/lesson-search/teachingSyllabusInfo/1002856",
+        "snapshot": "../raw-official/syllabi-20261027/1002856.html.gz"
+      }
+    },
+    {
+      "source": "course:法学理论专题研究",
+      "target": "topic:中国特色社会主义",
+      "type": "内容关联",
+      "matched_term": "中国特色社会主义",
+      "evidence": {
+        "course_code": "HCCPC50001",
+        "lesson_id": 1006560,
+        "term": "2025秋",
+        "section": "课程简介（中文）",
+        "excerpt": "课程从历史、理论和实践三重维度解析中国共产党领导下的法治中国建设脉络和中国特色社会主义法治道路的科学内涵；从“一体建设”框架下的法治国家、法治政府、法治社会三大领域讲解社会主义法治理论与",
+        "url": "https://fdjwgl.fudan.edu.cn/student/for-all/lesson-search/teachingSyllabusInfo/1006560",
+        "snapshot": "../raw-official/syllabi-20261027/1006560.html.gz"
+      }
+    },
+    {
+      "source": "course:法学理论专题研究",
+      "target": "topic:法律与法治",
+      "type": "内容关联",
+      "matched_term": "法治",
+      "evidence": {
+        "course_code": "HCCPC50001",
+        "lesson_id": 1006560,
+        "term": "2025秋",
+        "section": "课程简介（中文）",
+        "excerpt": "本课程从历史、理论和实践三重维度解析中国共产党领导下的法治中国建设脉络和中国特色社会主义法治道路的科学内涵；从“一体建设”框架下的法治国家、法治政府、法治社会",
+        "url": "https://fdjwgl.fudan.edu.cn/student/for-all/lesson-search/teachingSyllabusInfo/1006560",
+        "snapshot": "../raw-official/syllabi-20261027/1006560.html.gz"
+      }
+    },
+    {
+      "source": "course:海外中国共产党研究",
+      "target": "topic:中国特色社会主义",
+      "type": "内容关联",
+      "matched_term": "中国特色社会主义",
+      "evidence": {
+        "course_code": "HCCPC60009",
+        "lesson_id": 1031589,
+        "term": "2026春",
+        "section": "教学内容与进度安排",
+        "excerpt": "讲：海外主流智库对中国共产党研究的研究 第十三讲：海外对习近平新时代中国特色社会主义思想的研究 第十四讲：海外中国共产党反腐败研究 第十五讲：海外中国共产党形象构建研究 第十六讲",
+        "url": "https://fdjwgl.fudan.edu.cn/student/for-all/lesson-search/teachingSyllabusInfo/1031589",
+        "snapshot": "../raw-official/syllabi-20261027/1031589.html.gz"
+      }
+    },
+    {
+      "source": "course:海外中国共产党研究",
+      "target": "topic:世界政治与国际关系",
+      "type": "内容关联",
+      "matched_term": "国际关系",
+      "evidence": {
+        "course_code": "HCCPC60009",
+        "lesson_id": 1031589,
+        "term": "2026春",
+        "section": "教学目标",
+        "excerpt": "海外中国共产党研究的内容丰富，研究方法涉及历史学、政治学、国际关系学、经济学等多学科。通过学习这门课程，使学生了解海外中国共产党研究的脉络和现状、研究方法、研究内容和",
+        "url": "https://fdjwgl.fudan.edu.cn/student/for-all/lesson-search/teachingSyllabusInfo/1031589",
+        "snapshot": "../raw-official/syllabi-20261027/1031589.html.gz"
+      }
+    },
+    {
+      "source": "course:现代德育理论和传播",
+      "target": "topic:思想政治教育",
+      "type": "内容关联",
+      "matched_term": "思想政治教育",
+      "evidence": {
+        "course_code": "TMAX50039",
+        "lesson_id": 1031600,
+        "term": "2026春",
+        "section": "课程简介（中文）",
+        "excerpt": "本课程是思想政治教育专业硕士生专业必修课程，课程围绕现代德育的基本问题、德育前沿问题、德育课程论、德育社会化等议题，探究",
+        "url": "https://fdjwgl.fudan.edu.cn/student/for-all/lesson-search/teachingSyllabusInfo/1031600",
+        "snapshot": "../raw-official/syllabi-20261027/1031600.html.gz"
+      }
+    },
+    {
+      "source": "course:现代德育理论和传播",
+      "target": "topic:伦理与道德",
+      "type": "内容关联",
+      "matched_term": "道德教育",
+      "evidence": {
+        "course_code": "TMAX50039",
+        "lesson_id": 1031600,
+        "term": "2026春",
+        "section": "教学内容与进度安排",
+        "excerpt": "贤：《德育新论》，江苏教育出版社，2010年版。 3.冯建军：《当代道德教育的人学论域》，福建教育出版社，2015年版。 Samuel Scheffler, Human Mo",
+        "url": "https://fdjwgl.fudan.edu.cn/student/for-all/lesson-search/teachingSyllabusInfo/1031600",
+        "snapshot": "../raw-official/syllabi-20261027/1031600.html.gz"
+      }
+    },
+    {
+      "source": "course:生命科学史",
+      "target": "topic:伦理与道德",
+      "type": "内容关联",
+      "matched_term": "伦理问题",
+      "evidence": {
+        "course_code": "GECC20050",
+        "lesson_id": 1003421,
+        "term": "2025秋",
+        "section": "教学内容与进度安排",
+        "excerpt": "2.克隆技术的诱惑 3.人类基因组研究及其伦理问题 4.生命科学研究是否需要伦理规范 第十三章 生命科学发展的一般规律 教学要点：1.生命科学",
+        "url": "https://fdjwgl.fudan.edu.cn/student/for-all/lesson-search/teachingSyllabusInfo/1003421",
+        "snapshot": "../raw-official/syllabi-20261027/1003421.html.gz"
+      }
+    },
+    {
+      "source": "course:社会与政治经济学批判史专题",
+      "target": "topic:政治经济学",
+      "type": "内容关联",
+      "matched_term": "政治经济学",
+      "evidence": {
+        "course_code": "TMAX60020",
+        "lesson_id": 1006583,
+        "term": "2025秋",
+        "section": "课程简介（中文）",
+        "excerpt": "社会与政治经济学批判是马克思主义的重要组成部分，同时也是现当代马克思主义成果最为丰富的领域之一。本课程旨在向学生介绍",
+        "url": "https://fdjwgl.fudan.edu.cn/student/for-all/lesson-search/teachingSyllabusInfo/1006583",
+        "snapshot": "../raw-official/syllabi-20261027/1006583.html.gz"
+      }
+    },
+    {
+      "source": "course:社会主义发展史",
+      "target": "topic:中国特色社会主义",
+      "type": "内容关联",
+      "matched_term": "中国特色社会主义",
+      "evidence": {
+        "course_code": "GEIP20005",
+        "lesson_id": 1028640,
+        "term": "2026春",
+        "section": "教学目标",
+        "excerpt": "本课程旨在指导学生从整体上把握习近平新时代中国特色社会主义思想，系统学习这一思想的基本内容、理论体系、时代价值与历史意义，更好把握中国特色社会主义的理论精髓与",
+        "url": "https://fdjwgl.fudan.edu.cn/student/for-all/lesson-search/teachingSyllabusInfo/1028640",
+        "snapshot": "../raw-official/syllabi-20261027/1028640.html.gz"
+      }
+    },
+    {
+      "source": "course:社会主义发展史",
+      "target": "topic:生态与环境",
+      "type": "内容关联",
+      "matched_term": "生态文明",
+      "evidence": {
+        "course_code": "GEIP20005",
+        "lesson_id": 1028640,
+        "term": "2026春",
+        "section": "教学内容与进度安排",
+        "excerpt": "专题十二：以保障和改善民生为重点加强社会建设 专题十三：建设社会主义生态文明 专题十四：维护和塑造国家安全 专题十五：建设巩固国防和强大人民军队 专题十六：坚持“一国两制",
+        "url": "https://fdjwgl.fudan.edu.cn/student/for-all/lesson-search/teachingSyllabusInfo/1028640",
+        "snapshot": "../raw-official/syllabi-20261027/1028640.html.gz"
+      }
+    },
+    {
+      "source": "course:社会主义发展史",
+      "target": "topic:法律与法治",
+      "type": "内容关联",
+      "matched_term": "法治",
+      "evidence": {
+        "course_code": "GEIP20005",
+        "lesson_id": 1028640,
+        "term": "2026春",
+        "section": "教学内容与进度安排",
+        "excerpt": "的教育、科技、人才战略 专题九：发展全过程人民民主 专题十：全面依法治国 专题十一：建设社会主义文化强国 专题十二：以保障和改善民生为重点加强社会建设 专题十三：建",
+        "url": "https://fdjwgl.fudan.edu.cn/student/for-all/lesson-search/teachingSyllabusInfo/1028640",
+        "snapshot": "../raw-official/syllabi-20261027/1028640.html.gz"
+      }
+    },
+    {
+      "source": "course:社会主义思想史",
+      "target": "topic:科学社会主义",
+      "type": "内容关联",
+      "matched_term": "科学社会主义",
+      "evidence": {
+        "course_code": "POLI50015",
+        "lesson_id": 1006573,
+        "term": "2025秋",
+        "section": "课程简介（中文）",
+        "excerpt": "现代政治思想交汇中的社会主义传统》、《马克思及其同时代的社会主义》和《科学社会主义的发展、争鸣与实践》。主要通过文本解释的方法，研究社会主义思想的背景、起源、发生、奠基、争鸣与发展的",
+        "url": "https://fdjwgl.fudan.edu.cn/student/for-all/lesson-search/teachingSyllabusInfo/1006573",
+        "snapshot": "../raw-official/syllabi-20261027/1006573.html.gz"
+      }
+    },
+    {
+      "source": "course:社会主义思想史",
+      "target": "topic:马克思主义经典著作",
+      "type": "内容关联",
+      "matched_term": "马克思、恩格斯",
+      "evidence": {
+        "course_code": "POLI50015",
+        "lesson_id": 1006573,
+        "term": "2025秋",
+        "section": "教学内容与进度安排",
+        "excerpt": "邓安庆译，人民出版社 2017 年。 （十）科学社会主义：马克思 马克思、恩格斯:《德意志意识形态》，人民出版社 2003 年（其它版本可）。 马克思:《黑格尔法哲学批判》，人民",
+        "url": "https://fdjwgl.fudan.edu.cn/student/for-all/lesson-search/teachingSyllabusInfo/1006573",
+        "snapshot": "../raw-official/syllabi-20261027/1006573.html.gz"
+      }
+    },
+    {
+      "source": "course:社会主义思想史",
+      "target": "topic:文化与意识形态",
+      "type": "内容关联",
+      "matched_term": "意识形态",
+      "evidence": {
+        "course_code": "POLI50015",
+        "lesson_id": 1006573,
+        "term": "2025秋",
+        "section": "教学内容与进度安排",
+        "excerpt": "017 年。 （十）科学社会主义：马克思 马克思、恩格斯:《德意志意识形态》，人民出版社 2003 年（其它版本可）。 马克思:《黑格尔法哲学批判》，人民出版社 1963",
+        "url": "https://fdjwgl.fudan.edu.cn/student/for-all/lesson-search/teachingSyllabusInfo/1006573",
+        "snapshot": "../raw-official/syllabi-20261027/1006573.html.gz"
+      }
+    },
+    {
+      "source": "course:社会主义思想史",
+      "target": "topic:中国共产党历史",
+      "type": "内容关联",
+      "matched_term": "党史",
+      "evidence": {
+        "course_code": "POLI50015",
+        "lesson_id": 1006573,
+        "term": "2025秋",
+        "section": "教学内容与进度安排",
+        "excerpt": "周，以下为每周研读书目: （一）导论 德弗·梅林：《德国社会民主党史》，青载繁译，生活·读书·新知三联书店1963年。 （二）英国革命 基佐：《一六四〇年英国革命》",
+        "url": "https://fdjwgl.fudan.edu.cn/student/for-all/lesson-search/teachingSyllabusInfo/1006573",
+        "snapshot": "../raw-official/syllabi-20261027/1006573.html.gz"
+      }
+    },
+    {
+      "source": "course:社会科学研究方法与论文写作",
+      "target": "topic:社会研究方法",
+      "type": "内容关联",
+      "matched_term": "社会科学研究方法",
+      "evidence": {
+        "course_code": "HCCPC50015",
+        "lesson_id": 1013922,
+        "term": "2025秋",
+        "section": "课程简介（中文）",
+        "excerpt": "本课程将为学生进行系统的社会科学研究方法介绍，帮助学生根据自己的研究需要掌握适合自己的研究方法和路径。与此同时，为了提高研究生的论文写作尤其",
+        "url": "https://fdjwgl.fudan.edu.cn/student/for-all/lesson-search/teachingSyllabusInfo/1013922",
+        "snapshot": "../raw-official/syllabi-20261027/1013922.html.gz"
+      }
+    },
+    {
+      "source": "course:科学社会主义",
+      "target": "topic:科学社会主义",
+      "type": "内容关联",
+      "matched_term": "科学社会主义",
+      "evidence": {
+        "course_code": "TMAX20011",
+        "lesson_id": 1029168,
+        "term": "2026春",
+        "section": "课程简介（中文）",
+        "excerpt": "本课程主要讲授科学社会主义基本理论、经典著作和研究方法，坚持史、论、著相结合，重在启发培养学生理论思维能力和学术研究能力。",
+        "url": "https://fdjwgl.fudan.edu.cn/student/for-all/lesson-search/teachingSyllabusInfo/1029168",
+        "snapshot": "../raw-official/syllabi-20261027/1029168.html.gz"
+      }
+    },
+    {
+      "source": "course:科学社会主义",
+      "target": "topic:中国特色社会主义",
+      "type": "内容关联",
+      "matched_term": "中国特色社会主义",
+      "evidence": {
+        "course_code": "TMAX20011",
+        "lesson_id": 1029168,
+        "term": "2026春",
+        "section": "教学内容与进度安排",
+        "excerpt": "内部矛盾的问题》 第十讲 科学社会主义的经典著作研读《关于坚持发展中国特色社会主义的几个问题》 期中答疑辅导：学术研究基本问题与基本方法 第十一讲 研究专题精讲1",
+        "url": "https://fdjwgl.fudan.edu.cn/student/for-all/lesson-search/teachingSyllabusInfo/1029168",
+        "snapshot": "../raw-official/syllabi-20261027/1029168.html.gz"
+      }
+    },
+    {
+      "source": "course:科学社会主义",
+      "target": "topic:马克思主义经典著作",
+      "type": "内容关联",
+      "matched_term": "经典著作",
+      "evidence": {
+        "course_code": "TMAX20011",
+        "lesson_id": 1029168,
+        "term": "2026春",
+        "section": "课程简介（中文）",
+        "excerpt": "本课程主要讲授科学社会主义基本理论、经典著作和研究方法，坚持史、论、著相结合，重在启发培养学生理论思维能力和学术研究能力。",
+        "url": "https://fdjwgl.fudan.edu.cn/student/for-all/lesson-search/teachingSyllabusInfo/1029168",
+        "snapshot": "../raw-official/syllabi-20261027/1029168.html.gz"
+      }
+    },
+    {
+      "source": "course:科学社会主义经典文献精读",
+      "target": "topic:科学社会主义",
+      "type": "内容关联",
+      "matched_term": "科学社会主义",
+      "evidence": {
+        "course_code": "POLI60058",
+        "lesson_id": 1013927,
+        "term": "2025秋",
+        "section": "课程简介（中文）",
+        "excerpt": "本课程聚焦《共产党宣言》《法兰西内战》，以及《国家与革命》等科学社会主义经典文献，系统解析马克思主义科学社会主义理论的形成脉络、核心原理与方法论。通过文本精读与当代议题结合",
+        "url": "https://fdjwgl.fudan.edu.cn/student/for-all/lesson-search/teachingSyllabusInfo/1013927",
+        "snapshot": "../raw-official/syllabi-20261027/1013927.html.gz"
+      }
+    },
+    {
+      "source": "course:科学社会主义经典文献精读",
+      "target": "topic:马克思主义经典著作",
+      "type": "内容关联",
+      "matched_term": "马克思、恩格斯",
+      "evidence": {
+        "course_code": "POLI60058",
+        "lesson_id": 1013927,
+        "term": "2025秋",
+        "section": "教学内容与进度安排",
+        "excerpt": "相关经典著作包括：马克思、恩格斯的《社会主义从空想到 科学的发展》《共产党宣言》《1848年至1850年的法兰西阶级斗争》《路易·波",
+        "url": "https://fdjwgl.fudan.edu.cn/student/for-all/lesson-search/teachingSyllabusInfo/1013927",
+        "snapshot": "../raw-official/syllabi-20261027/1013927.html.gz"
+      }
+    },
+    {
+      "source": "course:自然辩证法",
+      "target": "topic:科学技术与社会",
+      "type": "内容关联",
+      "matched_term": "自然辩证法",
+      "evidence": {
+        "course_code": "GEIP40007",
+        "lesson_id": 1014204,
+        "term": "2025秋",
+        "section": "课程简介（中文）",
+        "excerpt": "自然辩证法是硕士研究生公共思想政治理论课。自然辩证法是马克思主义的重要组成部分，它以马克思主义的理论、观点与方",
+        "url": "https://fdjwgl.fudan.edu.cn/student/for-all/lesson-search/teachingSyllabusInfo/1014204",
+        "snapshot": "../raw-official/syllabi-20261027/1014204.html.gz"
+      }
+    },
+    {
+      "source": "course:自然辩证法",
+      "target": "topic:马克思主义哲学",
+      "type": "内容关联",
+      "matched_term": "辩证法",
+      "evidence": {
+        "course_code": "GEIP40007",
+        "lesson_id": 1014204,
+        "term": "2025秋",
+        "section": "课程简介（中文）",
+        "excerpt": "自然辩证法是硕士研究生公共思想政治理论课。自然辩证法是马克思主义的重要组成部分，它以马克思主义的理论、观点与方",
+        "url": "https://fdjwgl.fudan.edu.cn/student/for-all/lesson-search/teachingSyllabusInfo/1014204",
+        "snapshot": "../raw-official/syllabi-20261027/1014204.html.gz"
+      }
+    },
+    {
+      "source": "course:自然辩证法",
+      "target": "topic:思想政治教育",
+      "type": "内容关联",
+      "matched_term": "思想政治理论课",
+      "evidence": {
+        "course_code": "GEIP40007",
+        "lesson_id": 1014204,
+        "term": "2025秋",
+        "section": "课程简介（中文）",
+        "excerpt": "自然辩证法是硕士研究生公共思想政治理论课。自然辩证法是马克思主义的重要组成部分，它以马克思主义的理论、观点与方法为指导，基于社会历史条件和时",
+        "url": "https://fdjwgl.fudan.edu.cn/student/for-all/lesson-search/teachingSyllabusInfo/1014204",
+        "snapshot": "../raw-official/syllabi-20261027/1014204.html.gz"
+      }
+    },
+    {
+      "source": "course:苏联时期的马克思主义研究",
+      "target": "topic:中国特色社会主义",
+      "type": "内容关联",
+      "matched_term": "中国特色社会主义",
+      "evidence": {
+        "course_code": "TMAX50052",
+        "lesson_id": 1006575,
+        "term": "2025秋",
+        "section": "教学目标",
+        "excerpt": "反思马克思主义俄国化的成果及其弊端的视角，自觉地思考马克思主义中国化和中国特色社会主义中的理论与现实问题，能够比较分析苏联马克思主义与当代中国马克思主义学术研究的理论前沿和热点问题。",
+        "url": "https://fdjwgl.fudan.edu.cn/student/for-all/lesson-search/teachingSyllabusInfo/1006575",
+        "snapshot": "../raw-official/syllabi-20261027/1006575.html.gz"
+      }
+    },
+    {
+      "source": "course:苏联时期的马克思主义研究",
+      "target": "topic:马克思主义发展史",
+      "type": "内容关联",
+      "matched_term": "马克思主义发展",
+      "evidence": {
+        "course_code": "TMAX50052",
+        "lesson_id": 1006575,
+        "term": "2025秋",
+        "section": "教学内容与进度安排",
+        "excerpt": "展 9 第9周 苏联马克思主义的发展 10 第10周 苏联马克思主义发展阶段的代表性著作简介与解读 11 第11周 苏联马克思主义的后期蜕变 12 第12周 苏",
+        "url": "https://fdjwgl.fudan.edu.cn/student/for-all/lesson-search/teachingSyllabusInfo/1006575",
+        "snapshot": "../raw-official/syllabi-20261027/1006575.html.gz"
+      }
+    },
+    {
+      "source": "course:苏联社会主义及其政治演变",
+      "target": "topic:文化与意识形态",
+      "type": "内容关联",
+      "matched_term": "意识形态",
+      "evidence": {
+        "course_code": "POLI60056",
+        "lesson_id": 1031590,
+        "term": "2026春",
+        "section": "教学内容与进度安排",
+        "excerpt": "苏联人民代表大会、苏共二十八大、加盟共和国分离浪潮、社会民主运动、西方意识形态渗透、500天计划、国家紧急状态委员会、禁共令、苏联解体）",
+        "url": "https://fdjwgl.fudan.edu.cn/student/for-all/lesson-search/teachingSyllabusInfo/1031590",
+        "snapshot": "../raw-official/syllabi-20261027/1031590.html.gz"
+      }
+    },
+    {
+      "source": "course:西方马克思主义与历史唯物主义",
+      "target": "topic:马克思主义哲学",
+      "type": "内容关联",
+      "matched_term": "历史唯物主义",
+      "evidence": {
+        "course_code": "TMAX60013",
+        "lesson_id": 1031606,
+        "term": "2026春",
+        "section": "课程简介（中文）",
+        "excerpt": "课程主要在讲授历史唯物主义独特的思想境域和研究方法，揭示历史唯物主义的科学性及 其对当代状况的探讨具有根本上的启发意义基础上，",
+        "url": "https://fdjwgl.fudan.edu.cn/student/for-all/lesson-search/teachingSyllabusInfo/1031606",
+        "snapshot": "../raw-official/syllabi-20261027/1031606.html.gz"
+      }
+    },
+    {
+      "source": "course:马克思主义与社会科学方法论",
+      "target": "topic:思想政治教育",
+      "type": "内容关联",
+      "matched_term": "思想政治理论课",
+      "evidence": {
+        "course_code": "GEIP40008",
+        "lesson_id": 1006435,
+        "term": "2025秋",
+        "section": "课程简介（中文）",
+        "excerpt": "本课程为全日制硕士研究生思想政治理论课，教学内容主要包括社会科学与社会科学方法论、以实践为基础的研究方法、社会系统研究方法、社会矛盾研究方",
+        "url": "https://fdjwgl.fudan.edu.cn/student/for-all/lesson-search/teachingSyllabusInfo/1006435",
+        "snapshot": "../raw-official/syllabi-20261027/1006435.html.gz"
+      }
+    },
+    {
+      "source": "course:马克思主义与社会科学方法论",
+      "target": "topic:社会研究方法",
+      "type": "内容关联",
+      "matched_term": "社会科学研究方法",
+      "evidence": {
+        "course_code": "GEIP40008",
+        "lesson_id": 1006435,
+        "term": "2025秋",
+        "section": "教学内容与进度安排",
+        "excerpt": "7 7 第七讲 社会认知与评价研究方法 8 8 第八讲 社会科学研究方法的世界视野 9 9 考试",
+        "url": "https://fdjwgl.fudan.edu.cn/student/for-all/lesson-search/teachingSyllabusInfo/1006435",
+        "snapshot": "../raw-official/syllabi-20261027/1006435.html.gz"
+      }
+    },
+    {
+      "source": "course:马克思主义中国化概论",
+      "target": "topic:中国特色社会主义",
+      "type": "内容关联",
+      "matched_term": "马克思主义中国化",
+      "evidence": {
+        "course_code": "TMAX50032",
+        "lesson_id": 1031596,
+        "term": "2026春",
+        "section": "课程简介（中文）",
+        "excerpt": "视角，对马克思主义在中国百余年的传播和发展历史进行系统梳理和回顾，总结马克思主义中国化的历史经验和基本规律，学习掌握马克思主义中国化的理论成果尤其是其原创性贡献，掌握习近平新时代中国特色",
+        "url": "https://fdjwgl.fudan.edu.cn/student/for-all/lesson-search/teachingSyllabusInfo/1031596",
+        "snapshot": "../raw-official/syllabi-20261027/1031596.html.gz"
+      }
+    },
+    {
+      "source": "course:马克思主义伦理学",
+      "target": "topic:伦理与道德",
+      "type": "内容关联",
+      "matched_term": "伦理学",
+      "evidence": {
+        "course_code": "TMAX20008",
+        "lesson_id": 1029167,
+        "term": "2026春",
+        "section": "课程简介（中文）",
+        "excerpt": "在世界视野、中国语境中赓续中国价值。伦理学是研究道德的学说。火热的现实生活，伦理观念在其中起着重要的支撑作用。我们应怎样书写新时代的伦理学？",
+        "url": "https://fdjwgl.fudan.edu.cn/student/for-all/lesson-search/teachingSyllabusInfo/1029167",
+        "snapshot": "../raw-official/syllabi-20261027/1029167.html.gz"
+      }
+    },
+    {
+      "source": "course:马克思主义伦理学",
+      "target": "topic:中国特色社会主义",
+      "type": "内容关联",
+      "matched_term": "中国特色社会主义",
+      "evidence": {
+        "course_code": "TMAX20008",
+        "lesson_id": 1029167,
+        "term": "2026春",
+        "section": "教学内容与进度安排",
+        "excerpt": "性入手，揭示出伦理学与人们生活的终极价值追求之间的关系，并且结合当下的中国特色社会主义新时代的语境，将美好生活作为当代中国马克思主义伦理学的终极价值追求。这部分重点将从伦理学应有的价值意",
+        "url": "https://fdjwgl.fudan.edu.cn/student/for-all/lesson-search/teachingSyllabusInfo/1029167",
+        "snapshot": "../raw-official/syllabi-20261027/1029167.html.gz"
+      }
+    },
+    {
+      "source": "course:马克思主义伦理学",
+      "target": "topic:法律与法治",
+      "type": "内容关联",
+      "matched_term": "法治",
+      "evidence": {
+        "course_code": "TMAX20008",
+        "lesson_id": 1029167,
+        "term": "2026春",
+        "section": "课程简介（中文）",
+        "excerpt": "变与理论形态、社会主义道德核心与原则、当代中国道德建设面临的现实挑战、法治与德治相结合、社会主义核心价值观与社会主义道德、道德实践与道德评价展开，并辅以文献阅读、读书报告、分",
+        "url": "https://fdjwgl.fudan.edu.cn/student/for-all/lesson-search/teachingSyllabusInfo/1029167",
+        "snapshot": "../raw-official/syllabi-20261027/1029167.html.gz"
+      }
+    },
+    {
+      "source": "course:马克思主义前史专题研究",
+      "target": "topic:马克思主义哲学",
+      "type": "内容关联",
+      "matched_term": "辩证唯物主义",
+      "evidence": {
+        "course_code": "TMAX50029",
+        "lesson_id": 1031593,
+        "term": "2026春",
+        "section": "教学目标",
+        "excerpt": "。 2. 方法论训练：掌握“扬弃”的辩证思维 目标： 培养学生运用辩证唯物主义观察历史演进的能力。 重点： 让学生不仅知道马克思说了什么，更要通过对比研究，领悟马克思是如何打破",
+        "url": "https://fdjwgl.fudan.edu.cn/student/for-all/lesson-search/teachingSyllabusInfo/1031593",
+        "snapshot": "../raw-official/syllabi-20261027/1031593.html.gz"
+      }
+    },
+    {
+      "source": "course:马克思主义前史专题研究",
+      "target": "topic:政治经济学",
+      "type": "内容关联",
+      "matched_term": "政治经济学",
+      "evidence": {
+        "course_code": "TMAX50029",
+        "lesson_id": 1031593,
+        "term": "2026春",
+        "section": "教学目标",
+        "excerpt": "目标： 使学生深入理解德国古典哲学（特别是黑格尔和费尔巴哈）、英国古典政治经济学以及英法空想社会主义的核心观点。 重点： 掌握这些理论如何为马克思提供原始素材，并识别出它们在解决",
+        "url": "https://fdjwgl.fudan.edu.cn/student/for-all/lesson-search/teachingSyllabusInfo/1031593",
+        "snapshot": "../raw-official/syllabi-20261027/1031593.html.gz"
+      }
+    },
+    {
+      "source": "course:马克思主义发展史",
+      "target": "topic:马克思主义发展史",
+      "type": "内容关联",
+      "matched_term": "马克思主义发展",
+      "evidence": {
+        "course_code": "TMAX30006",
+        "lesson_id": 1029163,
+        "term": "2026春",
+        "section": "教学内容与进度安排",
+        "excerpt": "？ 第二板块：马克思主义的发展（讲授五次，讨论一次） 7 恩格斯在马克思主义发展中的作用 8 从意识形态批判到政治经济学批判 9 科学社会主义理论的形成与发展 10 共产主义",
+        "url": "https://fdjwgl.fudan.edu.cn/student/for-all/lesson-search/teachingSyllabusInfo/1029163",
+        "snapshot": "../raw-official/syllabi-20261027/1029163.html.gz"
+      }
+    },
+    {
+      "source": "course:马克思主义发展史",
+      "target": "topic:科学社会主义",
+      "type": "内容关联",
+      "matched_term": "科学社会主义",
+      "evidence": {
+        "course_code": "TMAX30006",
+        "lesson_id": 1029163,
+        "term": "2026春",
+        "section": "教学内容与进度安排",
+        "excerpt": "在马克思主义发展中的作用 8 从意识形态批判到政治经济学批判 9 科学社会主义理论的形成与发展 10 共产主义与国际主义 11 教条主义与修正主义 12 讨论：如何看待马克",
+        "url": "https://fdjwgl.fudan.edu.cn/student/for-all/lesson-search/teachingSyllabusInfo/1029163",
+        "snapshot": "../raw-official/syllabi-20261027/1029163.html.gz"
+      }
+    },
+    {
+      "source": "course:马克思主义发展史",
+      "target": "topic:政治经济学",
+      "type": "内容关联",
+      "matched_term": "政治经济学",
+      "evidence": {
+        "course_code": "TMAX30006",
+        "lesson_id": 1029163,
+        "term": "2026春",
+        "section": "教学内容与进度安排",
+        "excerpt": "论一次） 7 恩格斯在马克思主义发展中的作用 8 从意识形态批判到政治经济学批判 9 科学社会主义理论的形成与发展 10 共产主义与国际主义 11 教条主义与修正主义",
+        "url": "https://fdjwgl.fudan.edu.cn/student/for-all/lesson-search/teachingSyllabusInfo/1029163",
+        "snapshot": "../raw-official/syllabi-20261027/1029163.html.gz"
+      }
+    },
+    {
+      "source": "course:马克思主义发展史",
+      "target": "topic:文化与意识形态",
+      "type": "内容关联",
+      "matched_term": "意识形态",
+      "evidence": {
+        "course_code": "TMAX30006",
+        "lesson_id": 1029163,
+        "term": "2026春",
+        "section": "教学内容与进度安排",
+        "excerpt": "（讲授五次，讨论一次） 7 恩格斯在马克思主义发展中的作用 8 从意识形态批判到政治经济学批判 9 科学社会主义理论的形成与发展 10 共产主义与国际主义 11 教条主",
+        "url": "https://fdjwgl.fudan.edu.cn/student/for-all/lesson-search/teachingSyllabusInfo/1029163",
+        "snapshot": "../raw-official/syllabi-20261027/1029163.html.gz"
+      }
+    },
+    {
+      "source": "course:马克思主义发展史",
+      "target": "topic:马克思主义经典著作",
+      "type": "内容关联",
+      "matched_term": "经典著作",
+      "evidence": {
+        "course_code": "TMAX30006",
+        "lesson_id": 1029163,
+        "term": "2026春",
+        "section": "教学目标",
+        "excerpt": "克思主义的世界观和方法。每位学生要学会“解剖麻雀”，选取适合自己的一部经典著作，深入研究其中包含的马克思主义立场、观点和方法。",
+        "url": "https://fdjwgl.fudan.edu.cn/student/for-all/lesson-search/teachingSyllabusInfo/1029163",
+        "snapshot": "../raw-official/syllabi-20261027/1029163.html.gz"
+      }
+    },
+    {
+      "source": "course:马克思主义发展史专题研究",
+      "target": "topic:马克思主义发展史",
+      "type": "内容关联",
+      "matched_term": "马克思主义发展",
+      "evidence": {
+        "course_code": "TMAX50042",
+        "lesson_id": 1006569,
+        "term": "2025秋",
+        "section": "教学内容与进度安排",
+        "excerpt": "？ 第二板块：马克思主义的发展（讲授五次，讨论一次） 7 恩格斯在马克思主义发展中的作用 8 从意识形态批判到政治经济学批判 9 科学社会主义理论的形成与发展 10 共产主义",
+        "url": "https://fdjwgl.fudan.edu.cn/student/for-all/lesson-search/teachingSyllabusInfo/1006569",
+        "snapshot": "../raw-official/syllabi-20261027/1006569.html.gz"
+      }
+    },
+    {
+      "source": "course:马克思主义发展史专题研究",
+      "target": "topic:政治经济学",
+      "type": "内容关联",
+      "matched_term": "政治经济学",
+      "evidence": {
+        "course_code": "TMAX50042",
+        "lesson_id": 1006569,
+        "term": "2025秋",
+        "section": "课程简介（中文）",
+        "excerpt": "吸收了此前人类文明的一切优秀成果。德国古典哲学尤其是辩证法、英国的古典政治经济学和英法的社会主义都是马克思主义的理论来源。以此为基础，在恩格斯的协助下，马克思创立了唯物史观和剩余价",
+        "url": "https://fdjwgl.fudan.edu.cn/student/for-all/lesson-search/teachingSyllabusInfo/1006569",
+        "snapshot": "../raw-official/syllabi-20261027/1006569.html.gz"
+      }
+    },
+    {
+      "source": "course:马克思主义发展史专题研究",
+      "target": "topic:科学社会主义",
+      "type": "内容关联",
+      "matched_term": "科学社会主义",
+      "evidence": {
+        "course_code": "TMAX50042",
+        "lesson_id": 1006569,
+        "term": "2025秋",
+        "section": "教学内容与进度安排",
+        "excerpt": "在马克思主义发展中的作用 8 从意识形态批判到政治经济学批判 9 科学社会主义理论的形成与发展 10 共产主义与国际主义 11 教条主义与修正主义 12 讨论：如何看待马克",
+        "url": "https://fdjwgl.fudan.edu.cn/student/for-all/lesson-search/teachingSyllabusInfo/1006569",
+        "snapshot": "../raw-official/syllabi-20261027/1006569.html.gz"
+      }
+    },
+    {
+      "source": "course:马克思主义发展史专题研究",
+      "target": "topic:马克思主义哲学",
+      "type": "内容关联",
+      "matched_term": "辩证法",
+      "evidence": {
+        "course_code": "TMAX50042",
+        "lesson_id": 1006569,
+        "term": "2025秋",
+        "section": "课程简介（中文）",
+        "excerpt": "马克思主义吸收了此前人类文明的一切优秀成果。德国古典哲学尤其是辩证法、英国的古典政治经济学和英法的社会主义都是马克思主义的理论来源。以此为基础，在恩格斯的协助下，马克思",
+        "url": "https://fdjwgl.fudan.edu.cn/student/for-all/lesson-search/teachingSyllabusInfo/1006569",
+        "snapshot": "../raw-official/syllabi-20261027/1006569.html.gz"
+      }
+    },
+    {
+      "source": "course:马克思主义发展史专题研究",
+      "target": "topic:文化与意识形态",
+      "type": "内容关联",
+      "matched_term": "意识形态",
+      "evidence": {
+        "course_code": "TMAX50042",
+        "lesson_id": 1006569,
+        "term": "2025秋",
+        "section": "教学内容与进度安排",
+        "excerpt": "（讲授五次，讨论一次） 7 恩格斯在马克思主义发展中的作用 8 从意识形态批判到政治经济学批判 9 科学社会主义理论的形成与发展 10 共产主义与国际主义 11 教条主",
+        "url": "https://fdjwgl.fudan.edu.cn/student/for-all/lesson-search/teachingSyllabusInfo/1006569",
+        "snapshot": "../raw-official/syllabi-20261027/1006569.html.gz"
+      }
+    },
+    {
+      "source": "course:马克思主义哲学经典著作选读",
+      "target": "topic:马克思主义哲学",
+      "type": "内容关联",
+      "matched_term": "马克思主义哲学",
+      "evidence": {
+        "course_code": "TMAX30002",
+        "lesson_id": 1029162,
+        "term": "2026春",
+        "section": "教学目标",
+        "excerpt": "今中外思想家著作的技巧，并能站在新时代的高度，理论联系实际，科学地运用马克思主义哲学的立场、观点和方法，分析、鉴别与汲取中西方哲学、伦理学家的思想，培养和提高学生的理论思维、创新思维和",
+        "url": "https://fdjwgl.fudan.edu.cn/student/for-all/lesson-search/teachingSyllabusInfo/1029162",
+        "snapshot": "../raw-official/syllabi-20261027/1029162.html.gz"
+      }
+    },
+    {
+      "source": "course:马克思主义哲学经典著作选读",
+      "target": "topic:科学技术与社会",
+      "type": "内容关联",
+      "matched_term": "自然辩证法",
+      "evidence": {
+        "course_code": "TMAX30002",
+        "lesson_id": 1029162,
+        "term": "2026春",
+        "section": "课程简介（中文）",
+        "excerpt": "经济学哲学手稿》《关于费尔巴哈的提纲》《德意志意识形态》《反杜林论》《自然辩证法》《哲学笔记》《唯物主义与经验批判主义》等著作，提示马克思主义理论的历史发展线索，使学生掌握马克思主",
+        "url": "https://fdjwgl.fudan.edu.cn/student/for-all/lesson-search/teachingSyllabusInfo/1029162",
+        "snapshot": "../raw-official/syllabi-20261027/1029162.html.gz"
+      }
+    },
+    {
+      "source": "course:马克思主义哲学经典著作选读",
+      "target": "topic:文化与意识形态",
+      "type": "内容关联",
+      "matched_term": "意识形态",
+      "evidence": {
+        "course_code": "TMAX30002",
+        "lesson_id": 1029162,
+        "term": "2026春",
+        "section": "课程简介（中文）",
+        "excerpt": "纲挈领地讲授《1844年经济学哲学手稿》《关于费尔巴哈的提纲》《德意志意识形态》《反杜林论》《自然辩证法》《哲学笔记》《唯物主义与经验批判主义》等著作，提示马克思主义理论的历史发",
+        "url": "https://fdjwgl.fudan.edu.cn/student/for-all/lesson-search/teachingSyllabusInfo/1029162",
+        "snapshot": "../raw-official/syllabi-20261027/1029162.html.gz"
+      }
+    },
+    {
+      "source": "course:马克思主义哲学经典著作选读",
+      "target": "topic:伦理与道德",
+      "type": "内容关联",
+      "matched_term": "伦理学",
+      "evidence": {
+        "course_code": "TMAX30002",
+        "lesson_id": 1029162,
+        "term": "2026春",
+        "section": "教学目标",
+        "excerpt": "学地运用马克思主义哲学的立场、观点和方法，分析、鉴别与汲取中西方哲学、伦理学家的思想，培养和提高学生的理论思维、创新思维和解决问题的能力。",
+        "url": "https://fdjwgl.fudan.edu.cn/student/for-all/lesson-search/teachingSyllabusInfo/1029162",
+        "snapshot": "../raw-official/syllabi-20261027/1029162.html.gz"
+      }
+    },
+    {
+      "source": "course:马克思主义基本原理",
+      "target": "topic:中国特色社会主义",
+      "type": "内容关联",
+      "matched_term": "中国特色社会主义",
+      "evidence": {
+        "course_code": "GEIP40012",
+        "lesson_id": 1002878,
+        "term": "2025秋",
+        "section": "课程简介（中文）",
+        "excerpt": "《马克思主义基本原理》课程教学是中国特色社会主义高等教育的本质特征之一，是在校 大学生的共同必修课，是全面准确阐释马克思主义基本原理，并对大学生进行",
+        "url": "https://fdjwgl.fudan.edu.cn/student/for-all/lesson-search/teachingSyllabusInfo/1002878",
+        "snapshot": "../raw-official/syllabi-20261027/1002878.html.gz"
+      }
+    },
+    {
+      "source": "course:马克思主义基本原理",
+      "target": "topic:思想政治教育",
+      "type": "内容关联",
+      "matched_term": "思想政治理论课",
+      "evidence": {
+        "course_code": "GEIP40012",
+        "lesson_id": 1002850,
+        "term": "2025秋",
+        "section": "课程简介（中文）",
+        "excerpt": "本课是2005年中宣部、教育部《关于进一步加强和改进高等学校思想政治理论课的意见》及实施方案确定的思想政治理论课4门必修课之一。本课程体现了马克思主义与时俱进的理论品格，更好",
+        "url": "https://fdjwgl.fudan.edu.cn/student/for-all/lesson-search/teachingSyllabusInfo/1002850",
+        "snapshot": "../raw-official/syllabi-20261027/1002850.html.gz"
+      }
+    },
+    {
+      "source": "course:马克思主义基本原理",
+      "target": "topic:马克思主义哲学",
+      "type": "内容关联",
+      "matched_term": "马克思主义哲学",
+      "evidence": {
+        "course_code": "GEIP40012",
+        "lesson_id": 1002878,
+        "term": "2025秋",
+        "section": "课程简介（中文）",
+        "excerpt": "程。通过本课程的学习，学生能 从整体上把握马克思主义的基本观点，进而以马克思主义哲学为基础，把握资本主义经济的一 般发展规律，认清社会主义代替资本主义的历史必然性，坚定共产主义理想信念",
+        "url": "https://fdjwgl.fudan.edu.cn/student/for-all/lesson-search/teachingSyllabusInfo/1002878",
+        "snapshot": "../raw-official/syllabi-20261027/1002878.html.gz"
+      }
+    },
+    {
+      "source": "course:马克思主义基本原理",
+      "target": "topic:科学社会主义",
+      "type": "内容关联",
+      "matched_term": "科学社会主义",
+      "evidence": {
+        "course_code": "GEIP40012",
+        "lesson_id": 1002850,
+        "term": "2025秋",
+        "section": "课程简介（中文）",
+        "excerpt": "品格，更好地适应了时代发展的要求。本课程把马克思主义哲学、政治经济学和科学社会主义作为一个有机整体来讲授，有助于大学生掌握马克思主义的立场观点和方法。",
+        "url": "https://fdjwgl.fudan.edu.cn/student/for-all/lesson-search/teachingSyllabusInfo/1002850",
+        "snapshot": "../raw-official/syllabi-20261027/1002850.html.gz"
+      }
+    },
+    {
+      "source": "course:马克思主义基本原理",
+      "target": "topic:政治经济学",
+      "type": "内容关联",
+      "matched_term": "政治经济学",
+      "evidence": {
+        "course_code": "GEIP40012",
+        "lesson_id": 1002850,
+        "term": "2025秋",
+        "section": "课程简介（中文）",
+        "excerpt": "时俱进的理论品格，更好地适应了时代发展的要求。本课程把马克思主义哲学、政治经济学和科学社会主义作为一个有机整体来讲授，有助于大学生掌握马克思主义的立场观点和方法。",
+        "url": "https://fdjwgl.fudan.edu.cn/student/for-all/lesson-search/teachingSyllabusInfo/1002850",
+        "snapshot": "../raw-official/syllabi-20261027/1002850.html.gz"
+      }
+    },
+    {
+      "source": "course:马克思主义基础理论研究",
+      "target": "topic:马克思主义发展史",
+      "type": "内容关联",
+      "matched_term": "马克思主义发展史",
+      "evidence": {
+        "course_code": "HCCPC50005",
+        "lesson_id": 1032449,
+        "term": "2026春",
+        "section": "课程简介（中文）",
+        "excerpt": "本课程系马克思主义基本原理、马克思主义发展史、科学社会主义与国际共产主义运动等专业的硕士生学位专业课，教学内容主要包括马克思主义整体性、实践的唯",
+        "url": "https://fdjwgl.fudan.edu.cn/student/for-all/lesson-search/teachingSyllabusInfo/1032449",
+        "snapshot": "../raw-official/syllabi-20261027/1032449.html.gz"
+      }
+    },
+    {
+      "source": "course:马克思主义基础理论研究",
+      "target": "topic:科学社会主义",
+      "type": "内容关联",
+      "matched_term": "科学社会主义",
+      "evidence": {
+        "course_code": "HCCPC50005",
+        "lesson_id": 1032449,
+        "term": "2026春",
+        "section": "课程简介（中文）",
+        "excerpt": "本课程系马克思主义基本原理、马克思主义发展史、科学社会主义与国际共产主义运动等专业的硕士生学位专业课，教学内容主要包括马克思主义整体性、实践的唯物主义、人与自",
+        "url": "https://fdjwgl.fudan.edu.cn/student/for-all/lesson-search/teachingSyllabusInfo/1032449",
+        "snapshot": "../raw-official/syllabi-20261027/1032449.html.gz"
+      }
+    },
+    {
+      "source": "course:马克思主义基础理论研究",
+      "target": "topic:马克思主义哲学",
+      "type": "内容关联",
+      "matched_term": "辩证法",
+      "evidence": {
+        "course_code": "HCCPC50005",
+        "lesson_id": 1032449,
+        "term": "2026春",
+        "section": "课程简介（中文）",
+        "excerpt": "业课，教学内容主要包括马克思主义整体性、实践的唯物主义、人与自然关系、辩证法的理论形态、社会有机体与社会形态理论、阶级斗争理论、交往理论及人的自由而全面的发展理论等，采取专题式",
+        "url": "https://fdjwgl.fudan.edu.cn/student/for-all/lesson-search/teachingSyllabusInfo/1032449",
+        "snapshot": "../raw-official/syllabi-20261027/1032449.html.gz"
+      }
+    },
+    {
+      "source": "course:马克思主义思想渊源",
+      "target": "topic:马克思主义经典著作",
+      "type": "内容关联",
+      "matched_term": "马克思恩格斯",
+      "evidence": {
+        "course_code": "TMAX60019",
+        "lesson_id": 1006582,
+        "term": "2025秋",
+        "section": "教学内容与进度安排",
+        "excerpt": "） 4 4 专题二：从康德到马克思（下） 5 5 专题三：马克思恩格斯对黑格尔哲学的继承和发展（上） 6 6 专题三：马克思恩格斯对黑格尔哲学的继承和发展（下）",
+        "url": "https://fdjwgl.fudan.edu.cn/student/for-all/lesson-search/teachingSyllabusInfo/1006582",
+        "snapshot": "../raw-official/syllabi-20261027/1006582.html.gz"
+      }
+    },
+    {
+      "source": "course:马克思主义思想渊源",
+      "target": "topic:政治经济学",
+      "type": "内容关联",
+      "matched_term": "政治经济学",
+      "evidence": {
+        "course_code": "TMAX60019",
+        "lesson_id": 1006582,
+        "term": "2025秋",
+        "section": "教学内容与进度安排",
+        "excerpt": "与青年黑格尔派的“合与分”（下） 9 9 专题五：马克思恩格斯与政治经济学批判（上） 10 10 专题五：马克思恩格斯与政治经济学批判（下） 11 11 专题六：",
+        "url": "https://fdjwgl.fudan.edu.cn/student/for-all/lesson-search/teachingSyllabusInfo/1006582",
+        "snapshot": "../raw-official/syllabi-20261027/1006582.html.gz"
+      }
+    },
+    {
+      "source": "course:马克思主义政党学说史",
+      "target": "topic:文化与意识形态",
+      "type": "内容关联",
+      "matched_term": "意识形态",
+      "evidence": {
+        "course_code": "HCCPC50010",
+        "lesson_id": 1031585,
+        "term": "2026春",
+        "section": "课程简介（中文）",
+        "excerpt": "的主要内容，从政党自身建设、政党与国家、政党与群众、政党与军队、政党与意识形态等各个角度进行专题展开。",
+        "url": "https://fdjwgl.fudan.edu.cn/student/for-all/lesson-search/teachingSyllabusInfo/1031585",
+        "snapshot": "../raw-official/syllabi-20261027/1031585.html.gz"
+      }
+    },
+    {
+      "source": "course:马克思主义政党学说史",
+      "target": "topic:马克思主义经典著作",
+      "type": "内容关联",
+      "matched_term": "马克思恩格斯",
+      "evidence": {
+        "course_code": "TMAX40002",
+        "lesson_id": 1004809,
+        "term": "2025秋",
+        "section": "教学内容与进度安排",
+        "excerpt": "党理论的发展及其主要内容（下） 掌握前沿和热点问题 4 4 第二专题：马克思恩格斯政党理论（上） 掌握前沿和热点问题 5 5 第二专题：马克思恩格斯政党理论（中） 撰写读书笔记 6",
+        "url": "https://fdjwgl.fudan.edu.cn/student/for-all/lesson-search/teachingSyllabusInfo/1004809",
+        "snapshot": "../raw-official/syllabi-20261027/1004809.html.gz"
+      }
+    },
+    {
+      "source": "course:马克思主义政党学说史",
+      "target": "topic:中国共产党历史",
+      "type": "内容关联",
+      "matched_term": "党史",
+      "evidence": {
+        "course_code": "TMAX40002",
+        "lesson_id": 1004809,
+        "term": "2025秋",
+        "section": "课程简介（中文）",
+        "excerpt": "本质属性、奋斗目标、自身建设和领导社会革命等关键问题，为学生开展系统的党史党建研究打下坚实的理论基础。",
+        "url": "https://fdjwgl.fudan.edu.cn/student/for-all/lesson-search/teachingSyllabusInfo/1004809",
+        "snapshot": "../raw-official/syllabi-20261027/1004809.html.gz"
+      }
+    },
+    {
+      "source": "course:马克思主义政党理论研究",
+      "target": "topic:马克思主义经典著作",
+      "type": "内容关联",
+      "matched_term": "马克思恩格斯",
+      "evidence": {
+        "course_code": "HCCPC50006",
+        "lesson_id": 1006565,
+        "term": "2025秋",
+        "section": "教学内容与进度安排",
+        "excerpt": "党理论的发展及其主要内容（下） 掌握前沿和热点问题 4 4 第二专题：马克思恩格斯政党理论（上） 掌握前沿和热点问题 5 5 第二专题：马克思恩格斯政党理论（中） 撰写读书笔记 6",
+        "url": "https://fdjwgl.fudan.edu.cn/student/for-all/lesson-search/teachingSyllabusInfo/1006565",
+        "snapshot": "../raw-official/syllabi-20261027/1006565.html.gz"
+      }
+    },
+    {
+      "source": "course:马克思主义政党理论研究",
+      "target": "topic:中国共产党历史",
+      "type": "内容关联",
+      "matched_term": "党史",
+      "evidence": {
+        "course_code": "HCCPC50006",
+        "lesson_id": 1006565,
+        "term": "2025秋",
+        "section": "课程简介（中文）",
+        "excerpt": "本质属性、奋斗目标、自身建设和领导社会革命等关键问题，为学生开展系统的党史党建研究打下坚实的理论基础。",
+        "url": "https://fdjwgl.fudan.edu.cn/student/for-all/lesson-search/teachingSyllabusInfo/1006565",
+        "snapshot": "../raw-official/syllabi-20261027/1006565.html.gz"
+      }
+    },
+    {
+      "source": "course:马克思主义政治经济学",
+      "target": "topic:政治经济学",
+      "type": "内容关联",
+      "matched_term": "政治经济学",
+      "evidence": {
+        "course_code": "TMAX20001",
+        "lesson_id": 1029165,
+        "term": "2026春",
+        "section": "课程简介（中文）",
+        "excerpt": "本课程为马克思主义理论专业的本科生较为系统地介绍马克思主义政治经济学原理。在教学思路上，本课程注重结合马克思主义经典作家的相关原著和世界范围内现当代马克思主义政治经济学",
+        "url": "https://fdjwgl.fudan.edu.cn/student/for-all/lesson-search/teachingSyllabusInfo/1029165",
+        "snapshot": "../raw-official/syllabi-20261027/1029165.html.gz"
+      }
+    },
+    {
+      "source": "course:马克思主义政治经济学",
+      "target": "topic:马克思主义哲学",
+      "type": "内容关联",
+      "matched_term": "历史唯物主义",
+      "evidence": {
+        "course_code": "TMAX20001",
+        "lesson_id": 1029165,
+        "term": "2026春",
+        "section": "教学内容与进度安排",
+        "excerpt": "3 I.小组陈述与深度探讨 3月19日 4 核心理论 II.历史唯物主义 3月26日 5 II.小组陈述与深度探讨 4月2日 6 III.剩余价值理论 4月9",
+        "url": "https://fdjwgl.fudan.edu.cn/student/for-all/lesson-search/teachingSyllabusInfo/1029165",
+        "snapshot": "../raw-official/syllabi-20261027/1029165.html.gz"
+      }
+    },
+    {
+      "source": "course:马克思主义政治经济学",
+      "target": "topic:人工智能与技术",
+      "type": "内容关联",
+      "matched_term": "人工智能",
+      "evidence": {
+        "course_code": "TMAX20001",
+        "lesson_id": 1029165,
+        "term": "2026春",
+        "section": "教学内容与进度安排",
+        "excerpt": "1 V.小组陈述与深度探讨 5月14日 12 VI.科技革命与人工智能 5月21日 13 VI.小组陈述与深度探讨 5月28日 14 VII.生态与健康 6",
+        "url": "https://fdjwgl.fudan.edu.cn/student/for-all/lesson-search/teachingSyllabusInfo/1029165",
+        "snapshot": "../raw-official/syllabi-20261027/1029165.html.gz"
+      }
+    },
+    {
+      "source": "course:马克思主义政治经济学史的研究",
+      "target": "topic:政治经济学",
+      "type": "内容关联",
+      "matched_term": "政治经济学",
+      "evidence": {
+        "course_code": "TMAX60010",
+        "lesson_id": 1006577,
+        "term": "2025秋",
+        "section": "课程简介（中文）",
+        "excerpt": "本课程全面梳理和系统分析马克思主义政治经济学史的核心论题、主要流派、主要人物、主要著述与主要方法，深入研究马克思主义政治经济学的发展脉络、科学内",
+        "url": "https://fdjwgl.fudan.edu.cn/student/for-all/lesson-search/teachingSyllabusInfo/1006577",
+        "snapshot": "../raw-official/syllabi-20261027/1006577.html.gz"
+      }
+    },
+    {
+      "source": "course:马克思主义政治经济学史的研究",
+      "target": "topic:中国特色社会主义",
+      "type": "内容关联",
+      "matched_term": "中国特色社会主义",
+      "evidence": {
+        "course_code": "TMAX60010",
+        "lesson_id": 1006577,
+        "term": "2025秋",
+        "section": "教学内容与进度安排",
+        "excerpt": "义不发达政治经济学 第15周：讨论课三 第16周：毛泽东经济思想与中国特色社会主义经济思想",
+        "url": "https://fdjwgl.fudan.edu.cn/student/for-all/lesson-search/teachingSyllabusInfo/1006577",
+        "snapshot": "../raw-official/syllabi-20261027/1006577.html.gz"
+      }
+    },
+    {
+      "source": "course:马克思主义政治经济学史的研究",
+      "target": "topic:马克思主义经典著作",
+      "type": "内容关联",
+      "matched_term": "马克思、恩格斯",
+      "evidence": {
+        "course_code": "TMAX60010",
+        "lesson_id": 1006577,
+        "term": "2025秋",
+        "section": "教学内容与进度安排",
+        "excerpt": "第1周：导论：发展脉络（总体把握） 第2周：马克思、恩格斯经济思想的形成与发展 第3周：马克思、恩格斯经济思想的成熟 第4周：马克思、恩格斯经济思想的完善",
+        "url": "https://fdjwgl.fudan.edu.cn/student/for-all/lesson-search/teachingSyllabusInfo/1006577",
+        "snapshot": "../raw-official/syllabi-20261027/1006577.html.gz"
+      }
+    },
+    {
+      "source": "course:马克思主义方法论研究",
+      "target": "topic:马克思主义哲学",
+      "type": "内容关联",
+      "matched_term": "马克思主义哲学",
+      "evidence": {
+        "course_code": "TMAX50043",
+        "lesson_id": 1031601,
+        "term": "2026春",
+        "section": "课程简介（中文）",
+        "excerpt": "“马克思主义方法论研究”课程要求学生在马克思主义哲学的基础上，进一步研究马克思的新世界观对方法论的要求。马克思主义方法论可概括为作为历史现象学和实践诠释",
+        "url": "https://fdjwgl.fudan.edu.cn/student/for-all/lesson-search/teachingSyllabusInfo/1031601",
+        "snapshot": "../raw-official/syllabi-20261027/1031601.html.gz"
+      }
+    },
+    {
+      "source": "course:马克思主义方法论研究",
+      "target": "topic:社会研究方法",
+      "type": "内容关联",
+      "matched_term": "实证研究",
+      "evidence": {
+        "course_code": "TMAX50043",
+        "lesson_id": 1031601,
+        "term": "2026春",
+        "section": "教学内容与进度安排",
+        "excerpt": "科学方法 专题五、汤因比的历史研究方法 专题六、魏特夫对东方专制主义的实证研究方法 专题七、西方马克思主义的历史研究方法 专题九、两种生产与历史哲学 讨论二：历史研究方法与历史分",
+        "url": "https://fdjwgl.fudan.edu.cn/student/for-all/lesson-search/teachingSyllabusInfo/1031601",
+        "snapshot": "../raw-official/syllabi-20261027/1031601.html.gz"
+      }
+    },
+    {
+      "source": "course:马克思主义时代化专题研究",
+      "target": "topic:马克思主义发展史",
+      "type": "内容关联",
+      "matched_term": "马克思主义发展",
+      "evidence": {
+        "course_code": "TMAX60022",
+        "lesson_id": 1013929,
+        "term": "2025秋",
+        "section": "教学目标",
+        "excerpt": "论的启示。要求同学通过课堂传授和阅读有关文献，比较准确地了解 当今世界马克思主义发展的概貌，特别是把它看作一个世界性的思潮和运动，呈现其丰富多彩的本土特征和时代蕴涵。",
+        "url": "https://fdjwgl.fudan.edu.cn/student/for-all/lesson-search/teachingSyllabusInfo/1013929",
+        "snapshot": "../raw-official/syllabi-20261027/1013929.html.gz"
+      }
+    },
+    {
+      "source": "course:马克思主义时代化专题研究",
+      "target": "topic:文化与意识形态",
+      "type": "内容关联",
+      "matched_term": "意识形态",
+      "evidence": {
+        "course_code": "TMAX60022",
+        "lesson_id": 1013929,
+        "term": "2025秋",
+        "section": "课程简介（中文）",
+        "excerpt": "阐发和讨论，就马克思、马克思主义与“马克思主义”、马克思主义的科学性与意识形态、马克思主义与革命、建设和改革、马克思主义方法论问题、马克思主义整体性问题、马克思主义本土化问题、马",
+        "url": "https://fdjwgl.fudan.edu.cn/student/for-all/lesson-search/teachingSyllabusInfo/1013929",
+        "snapshot": "../raw-official/syllabi-20261027/1013929.html.gz"
+      }
+    },
+    {
+      "source": "course:马克思主义经典文献导读",
+      "target": "topic:科学社会主义",
+      "type": "内容关联",
+      "matched_term": "科学社会主义",
+      "evidence": {
+        "course_code": "TMAX50041",
+        "lesson_id": 1006568,
+        "term": "2025秋",
+        "section": "课程简介（中文）",
+        "excerpt": "作（文献），内容涉及马克思主义创始人所提出的唯物史观、剩余价值学说以及科学社会主义构想等，特别注重这些文献所贯穿的马 克思主义立场、观点和方法，并以强化对马克思主义理论的整体性理解。",
+        "url": "https://fdjwgl.fudan.edu.cn/student/for-all/lesson-search/teachingSyllabusInfo/1006568",
+        "snapshot": "../raw-official/syllabi-20261027/1006568.html.gz"
+      }
+    },
+    {
+      "source": "course:马克思主义经典文献导读",
+      "target": "topic:马克思主义经典著作",
+      "type": "内容关联",
+      "matched_term": "马克思、恩格斯",
+      "evidence": {
+        "course_code": "TMAX50041",
+        "lesson_id": 1006568,
+        "term": "2025秋",
+        "section": "教学内容与进度安排",
+        "excerpt": "1导 论 2马克思：《1844年经济学哲学手稿》 3马克思、恩格斯：《德意志意识形态》（节选） 4马克思、恩格斯：《费尔巴哈提纲》 5马克思、恩格斯：《共产党宣言》",
+        "url": "https://fdjwgl.fudan.edu.cn/student/for-all/lesson-search/teachingSyllabusInfo/1006568",
+        "snapshot": "../raw-official/syllabi-20261027/1006568.html.gz"
+      }
+    },
+    {
+      "source": "course:马克思主义经典文献导读",
+      "target": "topic:政治经济学",
+      "type": "内容关联",
+      "matched_term": "剩余价值",
+      "evidence": {
+        "course_code": "TMAX50041",
+        "lesson_id": 1006568,
+        "term": "2025秋",
+        "section": "课程简介（中文）",
+        "excerpt": "马克思主义经典著作（文献），内容涉及马克思主义创始人所提出的唯物史观、剩余价值学说以及科学社会主义构想等，特别注重这些文献所贯穿的马 克思主义立场、观点和方法，并以强化对马克思主",
+        "url": "https://fdjwgl.fudan.edu.cn/student/for-all/lesson-search/teachingSyllabusInfo/1006568",
+        "snapshot": "../raw-official/syllabi-20261027/1006568.html.gz"
+      }
+    },
+    {
+      "source": "course:马克思主义经典文献导读",
+      "target": "topic:文化与意识形态",
+      "type": "内容关联",
+      "matched_term": "意识形态",
+      "evidence": {
+        "course_code": "TMAX50041",
+        "lesson_id": 1006568,
+        "term": "2025秋",
+        "section": "教学内容与进度安排",
+        "excerpt": "论 2马克思：《1844年经济学哲学手稿》 3马克思、恩格斯：《德意志意识形态》（节选） 4马克思、恩格斯：《费尔巴哈提纲》 5马克思、恩格斯：《共产党宣言》 5马克思、恩格斯：",
+        "url": "https://fdjwgl.fudan.edu.cn/student/for-all/lesson-search/teachingSyllabusInfo/1006568",
+        "snapshot": "../raw-official/syllabi-20261027/1006568.html.gz"
+      }
+    },
+    {
+      "source": "course:马克思恩格斯思想发展史",
+      "target": "topic:马克思主义经典著作",
+      "type": "内容关联",
+      "matched_term": "马克思恩格斯",
+      "evidence": {
+        "course_code": "TMAX60016",
+        "lesson_id": 1032455,
+        "term": "2026春",
+        "section": "课程简介（中文）",
+        "excerpt": "有学者认为，在创立马克思主义的过程中，恩格斯曾担任了引领角色，但从整个马克思恩格斯发展史看，恩格斯以第二小提琴手自称，是完全正确的。研究马克思和恩格斯思想发展的历程，有助于我们更加准",
+        "url": "https://fdjwgl.fudan.edu.cn/student/for-all/lesson-search/teachingSyllabusInfo/1032455",
+        "snapshot": "../raw-official/syllabi-20261027/1032455.html.gz"
+      }
+    },
+    {
+      "source": "course:马克思恩格斯思想发展史",
+      "target": "topic:科学社会主义",
+      "type": "内容关联",
+      "matched_term": "科学社会主义",
+      "evidence": {
+        "course_code": "TMAX60016",
+        "lesson_id": 1032455,
+        "term": "2026春",
+        "section": "教学目标",
+        "excerpt": "其相互影响，并以此为基础，精研马克思和恩格斯在唯物史观、剩余价值理论和科学社会主义思想中的核心理念、基本原理，研究这些理念和原理在分析当今世界百年未有之大变局中的意义和作用。",
+        "url": "https://fdjwgl.fudan.edu.cn/student/for-all/lesson-search/teachingSyllabusInfo/1032455",
+        "snapshot": "../raw-official/syllabi-20261027/1032455.html.gz"
+      }
+    },
+    {
+      "source": "course:马克思恩格斯思想发展史",
+      "target": "topic:政治经济学",
+      "type": "内容关联",
+      "matched_term": "政治经济学",
+      "evidence": {
+        "course_code": "TMAX60016",
+        "lesson_id": 1032455,
+        "term": "2026春",
+        "section": "教学内容与进度安排",
+        "excerpt": "4 马克思和恩格斯两次会面的戏剧性结果 5 恩格斯对马克思进入政治经济学领域的影响 6 唯物史观的创立 7 劳动价值论和剩余价值理论的创立 8 科学社会主义理论",
+        "url": "https://fdjwgl.fudan.edu.cn/student/for-all/lesson-search/teachingSyllabusInfo/1032455",
+        "snapshot": "../raw-official/syllabi-20261027/1032455.html.gz"
+      }
+    },
+    {
+      "source": "course:马克思恩格斯思想发展史",
+      "target": "topic:科学技术与社会",
+      "type": "内容关联",
+      "matched_term": "自然辩证法",
+      "evidence": {
+        "course_code": "TMAX60016",
+        "lesson_id": 1032455,
+        "term": "2026春",
+        "section": "教学内容与进度安排",
+        "excerpt": "价值理论的创立 8 科学社会主义理论的创立 9 从唯物辩证法到自然辩证法 10 马克思的政治经济学批判研究 11 恩格斯晚年的研究 12 如何看待马克思和恩格斯",
+        "url": "https://fdjwgl.fudan.edu.cn/student/for-all/lesson-search/teachingSyllabusInfo/1032455",
+        "snapshot": "../raw-official/syllabi-20261027/1032455.html.gz"
+      }
+    },
+    {
+      "source": "course:马克思恩格斯思想发展史",
+      "target": "topic:马克思主义哲学",
+      "type": "内容关联",
+      "matched_term": "辩证法",
+      "evidence": {
+        "course_code": "TMAX60016",
+        "lesson_id": 1032455,
+        "term": "2026春",
+        "section": "教学内容与进度安排",
+        "excerpt": "论和剩余价值理论的创立 8 科学社会主义理论的创立 9 从唯物辩证法到自然辩证法 10 马克思的政治经济学批判研究 11 恩格斯晚年的研究 12 如何看待马",
+        "url": "https://fdjwgl.fudan.edu.cn/student/for-all/lesson-search/teachingSyllabusInfo/1032455",
+        "snapshot": "../raw-official/syllabi-20261027/1032455.html.gz"
+      }
+    }
+  ]
+}
