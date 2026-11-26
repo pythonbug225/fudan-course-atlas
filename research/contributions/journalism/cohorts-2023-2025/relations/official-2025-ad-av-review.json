@@ -1,0 +1,1566 @@
+{
+  "reviewed_images": [
+    {
+      "path": "official/source-figures/plan-97001-p196-04-document_image_rId7.png",
+      "sha256": "cd487c83d28281db7feb0055752d618529612fac07b99a5491f5f20b890291f7",
+      "conclusion": "课程体系与科研训练体系图已实际核读。保留16条箭头两端均能在该方案 raw 中唯一映射的课程间关系；图内指向本科/硕士毕业成果、国内外大赛平台、复生计划、实务模块等非课程框的箭头不编为课程边。相邻 p168 图为学分路径图，未作为课程关系图。"
+    },
+    {
+      "path": "official/source-figures/plan-97000-p197-04-document_image_rId7.png",
+      "sha256": "ae3ade537913f4159ca1f838071add83a540151020d3cafd0c161c12f701fd4a",
+      "conclusion": "该本硕课程体系图已核读，编码10条能在该方案唯一对应课号的课程间箭头，包含影像编辑→非虚构影像创作。指向毕业成果和无独立课号的实践活动不编码。"
+    },
+    {
+      "path": "official/source-figures/plan-97150-p026-05-document_image_rId8.png",
+      "sha256": "2f39f72d334aaf8d0823b8845bdb3e775a424897dd9b2ad90471776989be0994",
+      "conclusion": "课程体系与融合创新能力图已实际核读。保留12条两端唯一匹配课程箭头，其中含统计学（SOCI20003）→智能市场研究（AIS410003）。图中“校园实践”→“商业传播工作坊”因“校园实践”不在该方案 raw 中而排除；毕业作品/复生计划等非课程框不造节点。此图 SHA 与 97157、97154 的对应图相同，复用已核验的图面审阅。"
+    },
+    {
+      "path": "official/source-figures/plan-97157-p026-05-document_image_rId8.png",
+      "sha256": "2f39f72d334aaf8d0823b8845bdb3e775a424897dd9b2ad90471776989be0994",
+      "conclusion": "该课程体系图 SHA 与 plan 97150、97154 对应图相同，已核验同内容后复用图面审阅。按本方案 raw 单独核对，保留12条唯一匹配课程箭头；“校园实践”→“商业传播工作坊”因起点不在本方案 raw 中排除，毕业成果/项目框不作为课程端点。"
+    },
+    {
+      "path": "official/source-figures/plan-97154-p026-05-document_image_rId8.png",
+      "sha256": "2f39f72d334aaf8d0823b8845bdb3e775a424897dd9b2ad90471776989be0994",
+      "conclusion": "该课程体系图 SHA 与 plan 97150、97157 对应图相同，已核验同内容后复用图面审阅。按本方案 raw 单独核对，保留12条唯一匹配课程箭头；“校园实践”→“商业传播工作坊”因起点不在本方案 raw 中排除，毕业成果/项目框不作为课程端点。"
+    },
+    {
+      "path": "official/source-figures/plan-97149-p026-05-document_image_rId8.png",
+      "sha256": "6d598da66b332fd76ce72d1c3ed732b6e59312a40ecc941ad17dc2e10ca70504",
+      "conclusion": "课程体系与实务训练图已核读；三份图 SHA-256 相同。该图实际包含并编码6条能唯一对应方案列课的课程箭头。实践活动框及毕业设计未转成有课程代码的关系。该本科图不含本硕图的研究生延伸箭头。"
+    },
+    {
+      "path": "official/source-figures/plan-97156-p026-05-document_image_rId8.png",
+      "sha256": "6d598da66b332fd76ce72d1c3ed732b6e59312a40ecc941ad17dc2e10ca70504",
+      "conclusion": "课程体系与实务训练图已核读；三份图 SHA-256 相同。该图实际包含并编码6条能唯一对应方案列课的课程箭头。实践活动框及毕业设计未转成有课程代码的关系。该本科图不含本硕图的研究生延伸箭头。"
+    },
+    {
+      "path": "official/source-figures/plan-97153-p026-05-document_image_rId8.png",
+      "sha256": "6d598da66b332fd76ce72d1c3ed732b6e59312a40ecc941ad17dc2e10ca70504",
+      "conclusion": "课程体系与实务训练图已核读；三份图 SHA-256 相同。该图实际包含并编码6条能唯一对应方案列课的课程箭头。实践活动框及毕业设计未转成有课程代码的关系。该本科图不含本硕图的研究生延伸箭头。"
+    }
+  ],
+  "relations": [
+    {
+      "source_code": "JCM10002",
+      "source_name": "新闻学概论",
+      "target_code": "AIS210008",
+      "target_name": "智能媒介概论",
+      "type": "official_curriculum_link",
+      "reason": "2025官方方案图中的明确箭头：新闻学概论 → 智能媒介概论。此处记录方案课程/训练体系设计联系，不表示强制先修或选课限制。",
+      "program_ids": [
+        "97001"
+      ],
+      "evidence": [
+        {
+          "path": "official/source-figures/plan-97001-p196-04-document_image_rId7.png",
+          "locator": "document.xml p196; 课程体系/科研训练体系箭头；新闻学概论 → 智能媒介概论",
+          "kind": "official_figure"
+        }
+      ],
+      "inferred": false
+    },
+    {
+      "source_code": "JCM10003",
+      "source_name": "传播学概论",
+      "target_code": "AIS210008",
+      "target_name": "智能媒介概论",
+      "type": "official_curriculum_link",
+      "reason": "2025官方方案图中的明确箭头：传播学概论 → 智能媒介概论。此处记录方案课程/训练体系设计联系，不表示强制先修或选课限制。",
+      "program_ids": [
+        "97001"
+      ],
+      "evidence": [
+        {
+          "path": "official/source-figures/plan-97001-p196-04-document_image_rId7.png",
+          "locator": "document.xml p196; 课程体系/科研训练体系箭头；传播学概论 → 智能媒介概论",
+          "kind": "official_figure"
+        }
+      ],
+      "inferred": false
+    },
+    {
+      "source_code": "JCM10003",
+      "source_name": "传播学概论",
+      "target_code": "JCM20002",
+      "target_name": "商业传播导论",
+      "type": "official_curriculum_link",
+      "reason": "2025官方方案图中的明确箭头：传播学概论 → 商业传播导论。此处记录方案课程/训练体系设计联系，不表示强制先修或选课限制。",
+      "program_ids": [
+        "97001"
+      ],
+      "evidence": [
+        {
+          "path": "official/source-figures/plan-97001-p196-04-document_image_rId7.png",
+          "locator": "document.xml p196; 课程体系/科研训练体系箭头；传播学概论 → 商业传播导论",
+          "kind": "official_figure"
+        }
+      ],
+      "inferred": false
+    },
+    {
+      "source_code": "SOCI20003",
+      "source_name": "统计学",
+      "target_code": "AIS410003",
+      "target_name": "智能市场研究",
+      "type": "official_curriculum_link",
+      "reason": "2025官方方案图中的明确箭头：统计学 → 智能市场研究。此处记录方案课程/训练体系设计联系，不表示强制先修或选课限制。",
+      "program_ids": [
+        "97001"
+      ],
+      "evidence": [
+        {
+          "path": "official/source-figures/plan-97001-p196-04-document_image_rId7.png",
+          "locator": "document.xml p196; 课程体系/科研训练体系箭头；统计学 → 智能市场研究",
+          "kind": "official_figure"
+        }
+      ],
+      "inferred": false
+    },
+    {
+      "source_code": "AIS210008",
+      "source_name": "智能媒介概论",
+      "target_code": "JCM20002",
+      "target_name": "商业传播导论",
+      "type": "official_curriculum_link",
+      "reason": "2025官方方案图中的明确箭头：智能媒介概论 → 商业传播导论。此处记录方案课程/训练体系设计联系，不表示强制先修或选课限制。",
+      "program_ids": [
+        "97001"
+      ],
+      "evidence": [
+        {
+          "path": "official/source-figures/plan-97001-p196-04-document_image_rId7.png",
+          "locator": "document.xml p196; 课程体系/科研训练体系箭头；智能媒介概论 → 商业传播导论",
+          "kind": "official_figure"
+        }
+      ],
+      "inferred": false
+    },
+    {
+      "source_code": "AIS410003",
+      "source_name": "智能市场研究",
+      "target_code": "JCM20002",
+      "target_name": "商业传播导论",
+      "type": "official_curriculum_link",
+      "reason": "2025官方方案图中的明确箭头：智能市场研究 → 商业传播导论。此处记录方案课程/训练体系设计联系，不表示强制先修或选课限制。",
+      "program_ids": [
+        "97001"
+      ],
+      "evidence": [
+        {
+          "path": "official/source-figures/plan-97001-p196-04-document_image_rId7.png",
+          "locator": "document.xml p196; 课程体系/科研训练体系箭头；智能市场研究 → 商业传播导论",
+          "kind": "official_figure"
+        }
+      ],
+      "inferred": false
+    },
+    {
+      "source_code": "JCM20002",
+      "source_name": "商业传播导论",
+      "target_code": "JCM20003",
+      "target_name": "智能创意与表现",
+      "type": "official_curriculum_link",
+      "reason": "2025官方方案图中的明确箭头：商业传播导论 → 智能创意与表现。此处记录方案课程/训练体系设计联系，不表示强制先修或选课限制。",
+      "program_ids": [
+        "97001"
+      ],
+      "evidence": [
+        {
+          "path": "official/source-figures/plan-97001-p196-04-document_image_rId7.png",
+          "locator": "document.xml p196; 课程体系/科研训练体系箭头；商业传播导论 → 智能创意与表现",
+          "kind": "official_figure"
+        }
+      ],
+      "inferred": false
+    },
+    {
+      "source_code": "JCM30003",
+      "source_name": "营销传播策划",
+      "target_code": "JCM20003",
+      "target_name": "智能创意与表现",
+      "type": "official_curriculum_link",
+      "reason": "2025官方方案图中的明确箭头：营销传播策划 → 智能创意与表现。此处记录方案课程/训练体系设计联系，不表示强制先修或选课限制。",
+      "program_ids": [
+        "97001"
+      ],
+      "evidence": [
+        {
+          "path": "official/source-figures/plan-97001-p196-04-document_image_rId7.png",
+          "locator": "document.xml p196; 课程体系/科研训练体系箭头；营销传播策划 → 智能创意与表现",
+          "kind": "official_figure"
+        }
+      ],
+      "inferred": false
+    },
+    {
+      "source_code": "JCM20003",
+      "source_name": "智能创意与表现",
+      "target_code": "JCM20005",
+      "target_name": "商业修辞与写作",
+      "type": "official_curriculum_link",
+      "reason": "2025官方方案图中的明确箭头：智能创意与表现 → 商业修辞与写作。此处记录方案课程/训练体系设计联系，不表示强制先修或选课限制。",
+      "program_ids": [
+        "97001"
+      ],
+      "evidence": [
+        {
+          "path": "official/source-figures/plan-97001-p196-04-document_image_rId7.png",
+          "locator": "document.xml p196; 课程体系/科研训练体系箭头；智能创意与表现 → 商业修辞与写作",
+          "kind": "official_figure"
+        }
+      ],
+      "inferred": false
+    },
+    {
+      "source_code": "JCM50009",
+      "source_name": "商业文明史",
+      "target_code": "JCM50023",
+      "target_name": "商业、传播与社会",
+      "type": "official_curriculum_link",
+      "reason": "2025官方方案图中的明确箭头：商业文明史 → 商业、传播与社会。此处记录方案课程/训练体系设计联系，不表示强制先修或选课限制。",
+      "program_ids": [
+        "97001"
+      ],
+      "evidence": [
+        {
+          "path": "official/source-figures/plan-97001-p196-04-document_image_rId7.png",
+          "locator": "document.xml p196; 课程体系/科研训练体系箭头；商业文明史 → 商业、传播与社会",
+          "kind": "official_figure"
+        }
+      ],
+      "inferred": false
+    },
+    {
+      "source_code": "JCM50009",
+      "source_name": "商业文明史",
+      "target_code": "MJC70006",
+      "target_name": "公共外交与策略传播",
+      "type": "official_curriculum_link",
+      "reason": "2025官方方案图中的明确箭头：商业文明史 → 公共外交与策略传播。此处记录方案课程/训练体系设计联系，不表示强制先修或选课限制。",
+      "program_ids": [
+        "97001"
+      ],
+      "evidence": [
+        {
+          "path": "official/source-figures/plan-97001-p196-04-document_image_rId7.png",
+          "locator": "document.xml p196; 课程体系/科研训练体系箭头；商业文明史 → 公共外交与策略传播",
+          "kind": "official_figure"
+        }
+      ],
+      "inferred": false
+    },
+    {
+      "source_code": "JCM50023",
+      "source_name": "商业、传播与社会",
+      "target_code": "MJC60017",
+      "target_name": "战略传播",
+      "type": "official_curriculum_link",
+      "reason": "2025官方方案图中的明确箭头：商业、传播与社会 → 战略传播。此处记录方案课程/训练体系设计联系，不表示强制先修或选课限制。",
+      "program_ids": [
+        "97001"
+      ],
+      "evidence": [
+        {
+          "path": "official/source-figures/plan-97001-p196-04-document_image_rId7.png",
+          "locator": "document.xml p196; 课程体系/科研训练体系箭头；商业、传播与社会 → 战略传播",
+          "kind": "official_figure"
+        }
+      ],
+      "inferred": false
+    },
+    {
+      "source_code": "MJC60017",
+      "source_name": "战略传播",
+      "target_code": "MJC70006",
+      "target_name": "公共外交与策略传播",
+      "type": "official_curriculum_link",
+      "reason": "2025官方方案图中的明确箭头：战略传播 → 公共外交与策略传播。此处记录方案课程/训练体系设计联系，不表示强制先修或选课限制。",
+      "program_ids": [
+        "97001"
+      ],
+      "evidence": [
+        {
+          "path": "official/source-figures/plan-97001-p196-04-document_image_rId7.png",
+          "locator": "document.xml p196; 课程体系/科研训练体系箭头；战略传播 → 公共外交与策略传播",
+          "kind": "official_figure"
+        }
+      ],
+      "inferred": false
+    },
+    {
+      "source_code": "MJC60017",
+      "source_name": "战略传播",
+      "target_code": "MJC60018",
+      "target_name": "战略管理",
+      "type": "official_curriculum_link",
+      "reason": "2025官方方案图中的明确箭头：战略传播 → 战略管理。此处记录方案课程/训练体系设计联系，不表示强制先修或选课限制。",
+      "program_ids": [
+        "97001"
+      ],
+      "evidence": [
+        {
+          "path": "official/source-figures/plan-97001-p196-04-document_image_rId7.png",
+          "locator": "document.xml p196; 课程体系/科研训练体系箭头；战略传播 → 战略管理",
+          "kind": "official_figure"
+        }
+      ],
+      "inferred": false
+    },
+    {
+      "source_code": "JCM20001",
+      "source_name": "新闻传播学研究方法",
+      "target_code": "JCM50016",
+      "target_name": "海派商业文化专题研究",
+      "type": "official_curriculum_link",
+      "reason": "2025官方方案图中的明确箭头：新闻传播学研究方法 → 海派商业文化专题研究。此处记录方案课程/训练体系设计联系，不表示强制先修或选课限制。",
+      "program_ids": [
+        "97001"
+      ],
+      "evidence": [
+        {
+          "path": "official/source-figures/plan-97001-p196-04-document_image_rId7.png",
+          "locator": "document.xml p196; 课程体系/科研训练体系箭头；新闻传播学研究方法 → 海派商业文化专题研究",
+          "kind": "official_figure"
+        }
+      ],
+      "inferred": false
+    },
+    {
+      "source_code": "JCM50005",
+      "source_name": "商业传播工作坊",
+      "target_code": "JCM40001",
+      "target_name": "教学实习",
+      "type": "official_curriculum_link",
+      "reason": "2025官方方案图中的明确箭头：商业传播工作坊 → 教学实习。此处记录方案课程/训练体系设计联系，不表示强制先修或选课限制。",
+      "program_ids": [
+        "97001"
+      ],
+      "evidence": [
+        {
+          "path": "official/source-figures/plan-97001-p196-04-document_image_rId7.png",
+          "locator": "document.xml p196; 课程体系/科研训练体系箭头；商业传播工作坊 → 教学实习",
+          "kind": "official_figure"
+        }
+      ],
+      "inferred": false
+    },
+    {
+      "source_code": "JCM20029",
+      "source_name": "视听史论",
+      "target_code": "AIS210008",
+      "target_name": "智能媒介概论",
+      "type": "official_curriculum_link",
+      "reason": "2025官方方案图中的明确箭头：视听史论 → 智能媒介概论。此处记录方案课程/训练体系设计联系，不表示强制先修或选课限制。",
+      "program_ids": [
+        "97000"
+      ],
+      "evidence": [
+        {
+          "path": "official/source-figures/plan-97000-p197-04-document_image_rId7.png",
+          "locator": "document.xml p197; 课程体系/科研训练体系箭头；视听史论 → 智能媒介概论",
+          "kind": "official_figure"
+        }
+      ],
+      "inferred": false
+    },
+    {
+      "source_code": "JCM20007",
+      "source_name": "视听语言和审美",
+      "target_code": "JCM20008",
+      "target_name": "视听技术与应用",
+      "type": "official_curriculum_link",
+      "reason": "2025官方方案图中的明确箭头：视听语言和审美 → 视听技术与应用。此处记录方案课程/训练体系设计联系，不表示强制先修或选课限制。",
+      "program_ids": [
+        "97000"
+      ],
+      "evidence": [
+        {
+          "path": "official/source-figures/plan-97000-p197-04-document_image_rId7.png",
+          "locator": "document.xml p197; 课程体系/科研训练体系箭头；视听语言和审美 → 视听技术与应用",
+          "kind": "official_figure"
+        }
+      ],
+      "inferred": false
+    },
+    {
+      "source_code": "JCM20008",
+      "source_name": "视听技术与应用",
+      "target_code": "JCM20030",
+      "target_name": "影像编辑",
+      "type": "official_curriculum_link",
+      "reason": "2025官方方案图中的明确箭头：视听技术与应用 → 影像编辑。此处记录方案课程/训练体系设计联系，不表示强制先修或选课限制。",
+      "program_ids": [
+        "97000"
+      ],
+      "evidence": [
+        {
+          "path": "official/source-figures/plan-97000-p197-04-document_image_rId7.png",
+          "locator": "document.xml p197; 课程体系/科研训练体系箭头；视听技术与应用 → 影像编辑",
+          "kind": "official_figure"
+        }
+      ],
+      "inferred": false
+    },
+    {
+      "source_code": "AIS210008",
+      "source_name": "智能媒介概论",
+      "target_code": "JCM30027",
+      "target_name": "视听节目构成",
+      "type": "official_curriculum_link",
+      "reason": "2025官方方案图中的明确箭头：智能媒介概论 → 视听节目构成。此处记录方案课程/训练体系设计联系，不表示强制先修或选课限制。",
+      "program_ids": [
+        "97000"
+      ],
+      "evidence": [
+        {
+          "path": "official/source-figures/plan-97000-p197-04-document_image_rId7.png",
+          "locator": "document.xml p197; 课程体系/科研训练体系箭头；智能媒介概论 → 视听节目构成",
+          "kind": "official_figure"
+        }
+      ],
+      "inferred": false
+    },
+    {
+      "source_code": "JCM30027",
+      "source_name": "视听节目构成",
+      "target_code": "MJC60004",
+      "target_name": "视听文化导论",
+      "type": "official_curriculum_link",
+      "reason": "2025官方方案图中的明确箭头：视听节目构成 → 视听文化导论。此处记录方案课程/训练体系设计联系，不表示强制先修或选课限制。",
+      "program_ids": [
+        "97000"
+      ],
+      "evidence": [
+        {
+          "path": "official/source-figures/plan-97000-p197-04-document_image_rId7.png",
+          "locator": "document.xml p197; 课程体系/科研训练体系箭头；视听节目构成 → 视听文化导论",
+          "kind": "official_figure"
+        }
+      ],
+      "inferred": false
+    },
+    {
+      "source_code": "JCM30002",
+      "source_name": "数据分析与信息可视化",
+      "target_code": "JCM30006",
+      "target_name": "数字媒体艺术与技术应用",
+      "type": "official_curriculum_link",
+      "reason": "2025官方方案图中的明确箭头：数据分析与信息可视化 → 数字媒体艺术与技术应用。此处记录方案课程/训练体系设计联系，不表示强制先修或选课限制。",
+      "program_ids": [
+        "97000"
+      ],
+      "evidence": [
+        {
+          "path": "official/source-figures/plan-97000-p197-04-document_image_rId7.png",
+          "locator": "document.xml p197; 课程体系/科研训练体系箭头；数据分析与信息可视化 → 数字媒体艺术与技术应用",
+          "kind": "official_figure"
+        }
+      ],
+      "inferred": false
+    },
+    {
+      "source_code": "JCM30006",
+      "source_name": "数字媒体艺术与技术应用",
+      "target_code": "JCM30005",
+      "target_name": "数字互动叙事",
+      "type": "official_curriculum_link",
+      "reason": "2025官方方案图中的明确箭头：数字媒体艺术与技术应用 → 数字互动叙事。此处记录方案课程/训练体系设计联系，不表示强制先修或选课限制。",
+      "program_ids": [
+        "97000"
+      ],
+      "evidence": [
+        {
+          "path": "official/source-figures/plan-97000-p197-04-document_image_rId7.png",
+          "locator": "document.xml p197; 课程体系/科研训练体系箭头；数字媒体艺术与技术应用 → 数字互动叙事",
+          "kind": "official_figure"
+        }
+      ],
+      "inferred": false
+    },
+    {
+      "source_code": "JCM50094",
+      "source_name": "数字媒介产品营销传播",
+      "target_code": "MJC60005",
+      "target_name": "数字视听产业前沿",
+      "type": "official_curriculum_link",
+      "reason": "2025官方方案图中的明确箭头：数字媒介产品营销传播 → 数字视听产业前沿。此处记录方案课程/训练体系设计联系，不表示强制先修或选课限制。",
+      "program_ids": [
+        "97000"
+      ],
+      "evidence": [
+        {
+          "path": "official/source-figures/plan-97000-p197-04-document_image_rId7.png",
+          "locator": "document.xml p197; 课程体系/科研训练体系箭头；数字媒介产品营销传播 → 数字视听产业前沿",
+          "kind": "official_figure"
+        }
+      ],
+      "inferred": false
+    },
+    {
+      "source_code": "JCM30005",
+      "source_name": "数字互动叙事",
+      "target_code": "MJC60003",
+      "target_name": "数字视听生产实践",
+      "type": "official_curriculum_link",
+      "reason": "2025官方方案图中的明确箭头：数字互动叙事 → 数字视听生产实践。此处记录方案课程/训练体系设计联系，不表示强制先修或选课限制。",
+      "program_ids": [
+        "97000"
+      ],
+      "evidence": [
+        {
+          "path": "official/source-figures/plan-97000-p197-04-document_image_rId7.png",
+          "locator": "document.xml p197; 课程体系/科研训练体系箭头；数字互动叙事 → 数字视听生产实践",
+          "kind": "official_figure"
+        }
+      ],
+      "inferred": false
+    },
+    {
+      "source_code": "JCM10002",
+      "source_name": "新闻学概论",
+      "target_code": "AIS210008",
+      "target_name": "智能媒介概论",
+      "type": "official_curriculum_link",
+      "reason": "2025官方方案图中的明确箭头：新闻学概论 → 智能媒介概论。此处记录方案课程/训练体系设计联系，不表示强制先修或选课限制。",
+      "program_ids": [
+        "97150"
+      ],
+      "evidence": [
+        {
+          "path": "official/source-figures/plan-97150-p026-05-document_image_rId8.png",
+          "locator": "document.xml p26; 课程体系/科研训练体系箭头；新闻学概论 → 智能媒介概论",
+          "kind": "official_figure"
+        }
+      ],
+      "inferred": false
+    },
+    {
+      "source_code": "JCM10003",
+      "source_name": "传播学概论",
+      "target_code": "AIS210008",
+      "target_name": "智能媒介概论",
+      "type": "official_curriculum_link",
+      "reason": "2025官方方案图中的明确箭头：传播学概论 → 智能媒介概论。此处记录方案课程/训练体系设计联系，不表示强制先修或选课限制。",
+      "program_ids": [
+        "97150"
+      ],
+      "evidence": [
+        {
+          "path": "official/source-figures/plan-97150-p026-05-document_image_rId8.png",
+          "locator": "document.xml p26; 课程体系/科研训练体系箭头；传播学概论 → 智能媒介概论",
+          "kind": "official_figure"
+        }
+      ],
+      "inferred": false
+    },
+    {
+      "source_code": "JCM10003",
+      "source_name": "传播学概论",
+      "target_code": "JCM20002",
+      "target_name": "商业传播导论",
+      "type": "official_curriculum_link",
+      "reason": "2025官方方案图中的明确箭头：传播学概论 → 商业传播导论。此处记录方案课程/训练体系设计联系，不表示强制先修或选课限制。",
+      "program_ids": [
+        "97150"
+      ],
+      "evidence": [
+        {
+          "path": "official/source-figures/plan-97150-p026-05-document_image_rId8.png",
+          "locator": "document.xml p26; 课程体系/科研训练体系箭头；传播学概论 → 商业传播导论",
+          "kind": "official_figure"
+        }
+      ],
+      "inferred": false
+    },
+    {
+      "source_code": "SOCI20003",
+      "source_name": "统计学",
+      "target_code": "AIS410003",
+      "target_name": "智能市场研究",
+      "type": "official_curriculum_link",
+      "reason": "2025官方方案图中的明确箭头：统计学 → 智能市场研究。此处记录方案课程/训练体系设计联系，不表示强制先修或选课限制。",
+      "program_ids": [
+        "97150"
+      ],
+      "evidence": [
+        {
+          "path": "official/source-figures/plan-97150-p026-05-document_image_rId8.png",
+          "locator": "document.xml p26; 课程体系/科研训练体系箭头；统计学 → 智能市场研究",
+          "kind": "official_figure"
+        }
+      ],
+      "inferred": false
+    },
+    {
+      "source_code": "AIS210008",
+      "source_name": "智能媒介概论",
+      "target_code": "JCM20002",
+      "target_name": "商业传播导论",
+      "type": "official_curriculum_link",
+      "reason": "2025官方方案图中的明确箭头：智能媒介概论 → 商业传播导论。此处记录方案课程/训练体系设计联系，不表示强制先修或选课限制。",
+      "program_ids": [
+        "97150"
+      ],
+      "evidence": [
+        {
+          "path": "official/source-figures/plan-97150-p026-05-document_image_rId8.png",
+          "locator": "document.xml p26; 课程体系/科研训练体系箭头；智能媒介概论 → 商业传播导论",
+          "kind": "official_figure"
+        }
+      ],
+      "inferred": false
+    },
+    {
+      "source_code": "AIS410003",
+      "source_name": "智能市场研究",
+      "target_code": "JCM20002",
+      "target_name": "商业传播导论",
+      "type": "official_curriculum_link",
+      "reason": "2025官方方案图中的明确箭头：智能市场研究 → 商业传播导论。此处记录方案课程/训练体系设计联系，不表示强制先修或选课限制。",
+      "program_ids": [
+        "97150"
+      ],
+      "evidence": [
+        {
+          "path": "official/source-figures/plan-97150-p026-05-document_image_rId8.png",
+          "locator": "document.xml p26; 课程体系/科研训练体系箭头；智能市场研究 → 商业传播导论",
+          "kind": "official_figure"
+        }
+      ],
+      "inferred": false
+    },
+    {
+      "source_code": "JCM20002",
+      "source_name": "商业传播导论",
+      "target_code": "JCM20003",
+      "target_name": "智能创意与表现",
+      "type": "official_curriculum_link",
+      "reason": "2025官方方案图中的明确箭头：商业传播导论 → 智能创意与表现。此处记录方案课程/训练体系设计联系，不表示强制先修或选课限制。",
+      "program_ids": [
+        "97150"
+      ],
+      "evidence": [
+        {
+          "path": "official/source-figures/plan-97150-p026-05-document_image_rId8.png",
+          "locator": "document.xml p26; 课程体系/科研训练体系箭头；商业传播导论 → 智能创意与表现",
+          "kind": "official_figure"
+        }
+      ],
+      "inferred": false
+    },
+    {
+      "source_code": "JCM20003",
+      "source_name": "智能创意与表现",
+      "target_code": "JCM30003",
+      "target_name": "营销传播策划",
+      "type": "official_curriculum_link",
+      "reason": "2025官方方案图中的明确箭头：智能创意与表现 → 营销传播策划。此处记录方案课程/训练体系设计联系，不表示强制先修或选课限制。",
+      "program_ids": [
+        "97150"
+      ],
+      "evidence": [
+        {
+          "path": "official/source-figures/plan-97150-p026-05-document_image_rId8.png",
+          "locator": "document.xml p26; 课程体系/科研训练体系箭头；智能创意与表现 → 营销传播策划；复核为第4至第5学期向下箭头",
+          "kind": "official_figure"
+        }
+      ],
+      "inferred": false
+    },
+    {
+      "source_code": "JCM20003",
+      "source_name": "智能创意与表现",
+      "target_code": "JCM20005",
+      "target_name": "商业修辞与写作",
+      "type": "official_curriculum_link",
+      "reason": "2025官方方案图中的明确箭头：智能创意与表现 → 商业修辞与写作。此处记录方案课程/训练体系设计联系，不表示强制先修或选课限制。",
+      "program_ids": [
+        "97150"
+      ],
+      "evidence": [
+        {
+          "path": "official/source-figures/plan-97150-p026-05-document_image_rId8.png",
+          "locator": "document.xml p26; 课程体系/科研训练体系箭头；智能创意与表现 → 商业修辞与写作",
+          "kind": "official_figure"
+        }
+      ],
+      "inferred": false
+    },
+    {
+      "source_code": "JCM20005",
+      "source_name": "商业修辞与写作",
+      "target_code": "JCM30022",
+      "target_name": "企业传播",
+      "type": "official_curriculum_link",
+      "reason": "2025官方方案图中的明确箭头：商业修辞与写作 → 企业传播。此处记录方案课程/训练体系设计联系，不表示强制先修或选课限制。",
+      "program_ids": [
+        "97150"
+      ],
+      "evidence": [
+        {
+          "path": "official/source-figures/plan-97150-p026-05-document_image_rId8.png",
+          "locator": "document.xml p26; 课程体系/科研训练体系箭头；商业修辞与写作 → 企业传播",
+          "kind": "official_figure"
+        }
+      ],
+      "inferred": false
+    },
+    {
+      "source_code": "JCM30012",
+      "source_name": "公共关系学",
+      "target_code": "JCM30022",
+      "target_name": "企业传播",
+      "type": "official_curriculum_link",
+      "reason": "2025官方方案图中的明确箭头：公共关系学 → 企业传播。此处记录方案课程/训练体系设计联系，不表示强制先修或选课限制。",
+      "program_ids": [
+        "97150"
+      ],
+      "evidence": [
+        {
+          "path": "official/source-figures/plan-97150-p026-05-document_image_rId8.png",
+          "locator": "document.xml p26; 课程体系/科研训练体系箭头；公共关系学 → 企业传播",
+          "kind": "official_figure"
+        }
+      ],
+      "inferred": false
+    },
+    {
+      "source_code": "JCM50005",
+      "source_name": "商业传播工作坊",
+      "target_code": "JCM40001",
+      "target_name": "教学实习",
+      "type": "official_curriculum_link",
+      "reason": "2025官方方案图中的明确箭头：商业传播工作坊 → 教学实习。此处记录方案课程/训练体系设计联系，不表示强制先修或选课限制。",
+      "program_ids": [
+        "97150"
+      ],
+      "evidence": [
+        {
+          "path": "official/source-figures/plan-97150-p026-05-document_image_rId8.png",
+          "locator": "document.xml p26; 课程体系/科研训练体系箭头；商业传播工作坊 → 教学实习",
+          "kind": "official_figure"
+        }
+      ],
+      "inferred": false
+    },
+    {
+      "source_code": "JCM10002",
+      "source_name": "新闻学概论",
+      "target_code": "AIS210008",
+      "target_name": "智能媒介概论",
+      "type": "official_curriculum_link",
+      "reason": "2025官方方案图中的明确箭头：新闻学概论 → 智能媒介概论。此处记录方案课程/训练体系设计联系，不表示强制先修或选课限制。",
+      "program_ids": [
+        "97157"
+      ],
+      "evidence": [
+        {
+          "path": "official/source-figures/plan-97157-p026-05-document_image_rId8.png",
+          "locator": "document.xml p26; 课程体系/科研训练体系箭头；新闻学概论 → 智能媒介概论",
+          "kind": "official_figure"
+        }
+      ],
+      "inferred": false
+    },
+    {
+      "source_code": "JCM10003",
+      "source_name": "传播学概论",
+      "target_code": "AIS210008",
+      "target_name": "智能媒介概论",
+      "type": "official_curriculum_link",
+      "reason": "2025官方方案图中的明确箭头：传播学概论 → 智能媒介概论。此处记录方案课程/训练体系设计联系，不表示强制先修或选课限制。",
+      "program_ids": [
+        "97157"
+      ],
+      "evidence": [
+        {
+          "path": "official/source-figures/plan-97157-p026-05-document_image_rId8.png",
+          "locator": "document.xml p26; 课程体系/科研训练体系箭头；传播学概论 → 智能媒介概论",
+          "kind": "official_figure"
+        }
+      ],
+      "inferred": false
+    },
+    {
+      "source_code": "JCM10003",
+      "source_name": "传播学概论",
+      "target_code": "JCM20002",
+      "target_name": "商业传播导论",
+      "type": "official_curriculum_link",
+      "reason": "2025官方方案图中的明确箭头：传播学概论 → 商业传播导论。此处记录方案课程/训练体系设计联系，不表示强制先修或选课限制。",
+      "program_ids": [
+        "97157"
+      ],
+      "evidence": [
+        {
+          "path": "official/source-figures/plan-97157-p026-05-document_image_rId8.png",
+          "locator": "document.xml p26; 课程体系/科研训练体系箭头；传播学概论 → 商业传播导论",
+          "kind": "official_figure"
+        }
+      ],
+      "inferred": false
+    },
+    {
+      "source_code": "SOCI20003",
+      "source_name": "统计学",
+      "target_code": "AIS410003",
+      "target_name": "智能市场研究",
+      "type": "official_curriculum_link",
+      "reason": "2025官方方案图中的明确箭头：统计学 → 智能市场研究。此处记录方案课程/训练体系设计联系，不表示强制先修或选课限制。",
+      "program_ids": [
+        "97157"
+      ],
+      "evidence": [
+        {
+          "path": "official/source-figures/plan-97157-p026-05-document_image_rId8.png",
+          "locator": "document.xml p26; 课程体系/科研训练体系箭头；统计学 → 智能市场研究",
+          "kind": "official_figure"
+        }
+      ],
+      "inferred": false
+    },
+    {
+      "source_code": "AIS210008",
+      "source_name": "智能媒介概论",
+      "target_code": "JCM20002",
+      "target_name": "商业传播导论",
+      "type": "official_curriculum_link",
+      "reason": "2025官方方案图中的明确箭头：智能媒介概论 → 商业传播导论。此处记录方案课程/训练体系设计联系，不表示强制先修或选课限制。",
+      "program_ids": [
+        "97157"
+      ],
+      "evidence": [
+        {
+          "path": "official/source-figures/plan-97157-p026-05-document_image_rId8.png",
+          "locator": "document.xml p26; 课程体系/科研训练体系箭头；智能媒介概论 → 商业传播导论",
+          "kind": "official_figure"
+        }
+      ],
+      "inferred": false
+    },
+    {
+      "source_code": "AIS410003",
+      "source_name": "智能市场研究",
+      "target_code": "JCM20002",
+      "target_name": "商业传播导论",
+      "type": "official_curriculum_link",
+      "reason": "2025官方方案图中的明确箭头：智能市场研究 → 商业传播导论。此处记录方案课程/训练体系设计联系，不表示强制先修或选课限制。",
+      "program_ids": [
+        "97157"
+      ],
+      "evidence": [
+        {
+          "path": "official/source-figures/plan-97157-p026-05-document_image_rId8.png",
+          "locator": "document.xml p26; 课程体系/科研训练体系箭头；智能市场研究 → 商业传播导论",
+          "kind": "official_figure"
+        }
+      ],
+      "inferred": false
+    },
+    {
+      "source_code": "JCM20002",
+      "source_name": "商业传播导论",
+      "target_code": "JCM20003",
+      "target_name": "智能创意与表现",
+      "type": "official_curriculum_link",
+      "reason": "2025官方方案图中的明确箭头：商业传播导论 → 智能创意与表现。此处记录方案课程/训练体系设计联系，不表示强制先修或选课限制。",
+      "program_ids": [
+        "97157"
+      ],
+      "evidence": [
+        {
+          "path": "official/source-figures/plan-97157-p026-05-document_image_rId8.png",
+          "locator": "document.xml p26; 课程体系/科研训练体系箭头；商业传播导论 → 智能创意与表现",
+          "kind": "official_figure"
+        }
+      ],
+      "inferred": false
+    },
+    {
+      "source_code": "JCM20003",
+      "source_name": "智能创意与表现",
+      "target_code": "JCM30003",
+      "target_name": "营销传播策划",
+      "type": "official_curriculum_link",
+      "reason": "2025官方方案图中的明确箭头：智能创意与表现 → 营销传播策划。此处记录方案课程/训练体系设计联系，不表示强制先修或选课限制。",
+      "program_ids": [
+        "97157"
+      ],
+      "evidence": [
+        {
+          "path": "official/source-figures/plan-97157-p026-05-document_image_rId8.png",
+          "locator": "document.xml p26; 课程体系/科研训练体系箭头；智能创意与表现 → 营销传播策划；复核为第4至第5学期向下箭头",
+          "kind": "official_figure"
+        }
+      ],
+      "inferred": false
+    },
+    {
+      "source_code": "JCM20003",
+      "source_name": "智能创意与表现",
+      "target_code": "JCM20005",
+      "target_name": "商业修辞与写作",
+      "type": "official_curriculum_link",
+      "reason": "2025官方方案图中的明确箭头：智能创意与表现 → 商业修辞与写作。此处记录方案课程/训练体系设计联系，不表示强制先修或选课限制。",
+      "program_ids": [
+        "97157"
+      ],
+      "evidence": [
+        {
+          "path": "official/source-figures/plan-97157-p026-05-document_image_rId8.png",
+          "locator": "document.xml p26; 课程体系/科研训练体系箭头；智能创意与表现 → 商业修辞与写作",
+          "kind": "official_figure"
+        }
+      ],
+      "inferred": false
+    },
+    {
+      "source_code": "JCM20005",
+      "source_name": "商业修辞与写作",
+      "target_code": "JCM30022",
+      "target_name": "企业传播",
+      "type": "official_curriculum_link",
+      "reason": "2025官方方案图中的明确箭头：商业修辞与写作 → 企业传播。此处记录方案课程/训练体系设计联系，不表示强制先修或选课限制。",
+      "program_ids": [
+        "97157"
+      ],
+      "evidence": [
+        {
+          "path": "official/source-figures/plan-97157-p026-05-document_image_rId8.png",
+          "locator": "document.xml p26; 课程体系/科研训练体系箭头；商业修辞与写作 → 企业传播",
+          "kind": "official_figure"
+        }
+      ],
+      "inferred": false
+    },
+    {
+      "source_code": "JCM30012",
+      "source_name": "公共关系学",
+      "target_code": "JCM30022",
+      "target_name": "企业传播",
+      "type": "official_curriculum_link",
+      "reason": "2025官方方案图中的明确箭头：公共关系学 → 企业传播。此处记录方案课程/训练体系设计联系，不表示强制先修或选课限制。",
+      "program_ids": [
+        "97157"
+      ],
+      "evidence": [
+        {
+          "path": "official/source-figures/plan-97157-p026-05-document_image_rId8.png",
+          "locator": "document.xml p26; 课程体系/科研训练体系箭头；公共关系学 → 企业传播",
+          "kind": "official_figure"
+        }
+      ],
+      "inferred": false
+    },
+    {
+      "source_code": "JCM50005",
+      "source_name": "商业传播工作坊",
+      "target_code": "JCM40001",
+      "target_name": "教学实习",
+      "type": "official_curriculum_link",
+      "reason": "2025官方方案图中的明确箭头：商业传播工作坊 → 教学实习。此处记录方案课程/训练体系设计联系，不表示强制先修或选课限制。",
+      "program_ids": [
+        "97157"
+      ],
+      "evidence": [
+        {
+          "path": "official/source-figures/plan-97157-p026-05-document_image_rId8.png",
+          "locator": "document.xml p26; 课程体系/科研训练体系箭头；商业传播工作坊 → 教学实习",
+          "kind": "official_figure"
+        }
+      ],
+      "inferred": false
+    },
+    {
+      "source_code": "JCM10002",
+      "source_name": "新闻学概论",
+      "target_code": "AIS210008",
+      "target_name": "智能媒介概论",
+      "type": "official_curriculum_link",
+      "reason": "2025官方方案图中的明确箭头：新闻学概论 → 智能媒介概论。此处记录方案课程/训练体系设计联系，不表示强制先修或选课限制。",
+      "program_ids": [
+        "97154"
+      ],
+      "evidence": [
+        {
+          "path": "official/source-figures/plan-97154-p026-05-document_image_rId8.png",
+          "locator": "document.xml p26; 课程体系/科研训练体系箭头；新闻学概论 → 智能媒介概论",
+          "kind": "official_figure"
+        }
+      ],
+      "inferred": false
+    },
+    {
+      "source_code": "JCM10003",
+      "source_name": "传播学概论",
+      "target_code": "AIS210008",
+      "target_name": "智能媒介概论",
+      "type": "official_curriculum_link",
+      "reason": "2025官方方案图中的明确箭头：传播学概论 → 智能媒介概论。此处记录方案课程/训练体系设计联系，不表示强制先修或选课限制。",
+      "program_ids": [
+        "97154"
+      ],
+      "evidence": [
+        {
+          "path": "official/source-figures/plan-97154-p026-05-document_image_rId8.png",
+          "locator": "document.xml p26; 课程体系/科研训练体系箭头；传播学概论 → 智能媒介概论",
+          "kind": "official_figure"
+        }
+      ],
+      "inferred": false
+    },
+    {
+      "source_code": "JCM10003",
+      "source_name": "传播学概论",
+      "target_code": "JCM20002",
+      "target_name": "商业传播导论",
+      "type": "official_curriculum_link",
+      "reason": "2025官方方案图中的明确箭头：传播学概论 → 商业传播导论。此处记录方案课程/训练体系设计联系，不表示强制先修或选课限制。",
+      "program_ids": [
+        "97154"
+      ],
+      "evidence": [
+        {
+          "path": "official/source-figures/plan-97154-p026-05-document_image_rId8.png",
+          "locator": "document.xml p26; 课程体系/科研训练体系箭头；传播学概论 → 商业传播导论",
+          "kind": "official_figure"
+        }
+      ],
+      "inferred": false
+    },
+    {
+      "source_code": "SOCI20003",
+      "source_name": "统计学",
+      "target_code": "AIS410003",
+      "target_name": "智能市场研究",
+      "type": "official_curriculum_link",
+      "reason": "2025官方方案图中的明确箭头：统计学 → 智能市场研究。此处记录方案课程/训练体系设计联系，不表示强制先修或选课限制。",
+      "program_ids": [
+        "97154"
+      ],
+      "evidence": [
+        {
+          "path": "official/source-figures/plan-97154-p026-05-document_image_rId8.png",
+          "locator": "document.xml p26; 课程体系/科研训练体系箭头；统计学 → 智能市场研究",
+          "kind": "official_figure"
+        }
+      ],
+      "inferred": false
+    },
+    {
+      "source_code": "AIS210008",
+      "source_name": "智能媒介概论",
+      "target_code": "JCM20002",
+      "target_name": "商业传播导论",
+      "type": "official_curriculum_link",
+      "reason": "2025官方方案图中的明确箭头：智能媒介概论 → 商业传播导论。此处记录方案课程/训练体系设计联系，不表示强制先修或选课限制。",
+      "program_ids": [
+        "97154"
+      ],
+      "evidence": [
+        {
+          "path": "official/source-figures/plan-97154-p026-05-document_image_rId8.png",
+          "locator": "document.xml p26; 课程体系/科研训练体系箭头；智能媒介概论 → 商业传播导论",
+          "kind": "official_figure"
+        }
+      ],
+      "inferred": false
+    },
+    {
+      "source_code": "AIS410003",
+      "source_name": "智能市场研究",
+      "target_code": "JCM20002",
+      "target_name": "商业传播导论",
+      "type": "official_curriculum_link",
+      "reason": "2025官方方案图中的明确箭头：智能市场研究 → 商业传播导论。此处记录方案课程/训练体系设计联系，不表示强制先修或选课限制。",
+      "program_ids": [
+        "97154"
+      ],
+      "evidence": [
+        {
+          "path": "official/source-figures/plan-97154-p026-05-document_image_rId8.png",
+          "locator": "document.xml p26; 课程体系/科研训练体系箭头；智能市场研究 → 商业传播导论",
+          "kind": "official_figure"
+        }
+      ],
+      "inferred": false
+    },
+    {
+      "source_code": "JCM20002",
+      "source_name": "商业传播导论",
+      "target_code": "JCM20003",
+      "target_name": "智能创意与表现",
+      "type": "official_curriculum_link",
+      "reason": "2025官方方案图中的明确箭头：商业传播导论 → 智能创意与表现。此处记录方案课程/训练体系设计联系，不表示强制先修或选课限制。",
+      "program_ids": [
+        "97154"
+      ],
+      "evidence": [
+        {
+          "path": "official/source-figures/plan-97154-p026-05-document_image_rId8.png",
+          "locator": "document.xml p26; 课程体系/科研训练体系箭头；商业传播导论 → 智能创意与表现",
+          "kind": "official_figure"
+        }
+      ],
+      "inferred": false
+    },
+    {
+      "source_code": "JCM20003",
+      "source_name": "智能创意与表现",
+      "target_code": "JCM30003",
+      "target_name": "营销传播策划",
+      "type": "official_curriculum_link",
+      "reason": "2025官方方案图中的明确箭头：智能创意与表现 → 营销传播策划。此处记录方案课程/训练体系设计联系，不表示强制先修或选课限制。",
+      "program_ids": [
+        "97154"
+      ],
+      "evidence": [
+        {
+          "path": "official/source-figures/plan-97154-p026-05-document_image_rId8.png",
+          "locator": "document.xml p26; 课程体系/科研训练体系箭头；智能创意与表现 → 营销传播策划；复核为第4至第5学期向下箭头",
+          "kind": "official_figure"
+        }
+      ],
+      "inferred": false
+    },
+    {
+      "source_code": "JCM20003",
+      "source_name": "智能创意与表现",
+      "target_code": "JCM20005",
+      "target_name": "商业修辞与写作",
+      "type": "official_curriculum_link",
+      "reason": "2025官方方案图中的明确箭头：智能创意与表现 → 商业修辞与写作。此处记录方案课程/训练体系设计联系，不表示强制先修或选课限制。",
+      "program_ids": [
+        "97154"
+      ],
+      "evidence": [
+        {
+          "path": "official/source-figures/plan-97154-p026-05-document_image_rId8.png",
+          "locator": "document.xml p26; 课程体系/科研训练体系箭头；智能创意与表现 → 商业修辞与写作",
+          "kind": "official_figure"
+        }
+      ],
+      "inferred": false
+    },
+    {
+      "source_code": "JCM20005",
+      "source_name": "商业修辞与写作",
+      "target_code": "JCM30022",
+      "target_name": "企业传播",
+      "type": "official_curriculum_link",
+      "reason": "2025官方方案图中的明确箭头：商业修辞与写作 → 企业传播。此处记录方案课程/训练体系设计联系，不表示强制先修或选课限制。",
+      "program_ids": [
+        "97154"
+      ],
+      "evidence": [
+        {
+          "path": "official/source-figures/plan-97154-p026-05-document_image_rId8.png",
+          "locator": "document.xml p26; 课程体系/科研训练体系箭头；商业修辞与写作 → 企业传播",
+          "kind": "official_figure"
+        }
+      ],
+      "inferred": false
+    },
+    {
+      "source_code": "JCM30012",
+      "source_name": "公共关系学",
+      "target_code": "JCM30022",
+      "target_name": "企业传播",
+      "type": "official_curriculum_link",
+      "reason": "2025官方方案图中的明确箭头：公共关系学 → 企业传播。此处记录方案课程/训练体系设计联系，不表示强制先修或选课限制。",
+      "program_ids": [
+        "97154"
+      ],
+      "evidence": [
+        {
+          "path": "official/source-figures/plan-97154-p026-05-document_image_rId8.png",
+          "locator": "document.xml p26; 课程体系/科研训练体系箭头；公共关系学 → 企业传播",
+          "kind": "official_figure"
+        }
+      ],
+      "inferred": false
+    },
+    {
+      "source_code": "JCM50005",
+      "source_name": "商业传播工作坊",
+      "target_code": "JCM40001",
+      "target_name": "教学实习",
+      "type": "official_curriculum_link",
+      "reason": "2025官方方案图中的明确箭头：商业传播工作坊 → 教学实习。此处记录方案课程/训练体系设计联系，不表示强制先修或选课限制。",
+      "program_ids": [
+        "97154"
+      ],
+      "evidence": [
+        {
+          "path": "official/source-figures/plan-97154-p026-05-document_image_rId8.png",
+          "locator": "document.xml p26; 课程体系/科研训练体系箭头；商业传播工作坊 → 教学实习",
+          "kind": "official_figure"
+        }
+      ],
+      "inferred": false
+    },
+    {
+      "source_code": "JCM20029",
+      "source_name": "视听史论",
+      "target_code": "AIS210008",
+      "target_name": "智能媒介概论",
+      "type": "official_curriculum_link",
+      "reason": "2025官方方案图中的明确箭头：视听史论 → 智能媒介概论。此处记录方案课程/训练体系设计联系，不表示强制先修或选课限制。",
+      "program_ids": [
+        "97149"
+      ],
+      "evidence": [
+        {
+          "path": "official/source-figures/plan-97149-p026-05-document_image_rId8.png",
+          "locator": "document.xml p26; 课程体系/科研训练体系箭头；视听史论 → 智能媒介概论",
+          "kind": "official_figure"
+        }
+      ],
+      "inferred": false
+    },
+    {
+      "source_code": "JCM20007",
+      "source_name": "视听语言和审美",
+      "target_code": "JCM20008",
+      "target_name": "视听技术与应用",
+      "type": "official_curriculum_link",
+      "reason": "2025官方方案图中的明确箭头：视听语言和审美 → 视听技术与应用。此处记录方案课程/训练体系设计联系，不表示强制先修或选课限制。",
+      "program_ids": [
+        "97149"
+      ],
+      "evidence": [
+        {
+          "path": "official/source-figures/plan-97149-p026-05-document_image_rId8.png",
+          "locator": "document.xml p26; 课程体系/科研训练体系箭头；视听语言和审美 → 视听技术与应用",
+          "kind": "official_figure"
+        }
+      ],
+      "inferred": false
+    },
+    {
+      "source_code": "JCM20008",
+      "source_name": "视听技术与应用",
+      "target_code": "JCM20030",
+      "target_name": "影像编辑",
+      "type": "official_curriculum_link",
+      "reason": "2025官方方案图中的明确箭头：视听技术与应用 → 影像编辑。此处记录方案课程/训练体系设计联系，不表示强制先修或选课限制。",
+      "program_ids": [
+        "97149"
+      ],
+      "evidence": [
+        {
+          "path": "official/source-figures/plan-97149-p026-05-document_image_rId8.png",
+          "locator": "document.xml p26; 课程体系/科研训练体系箭头；视听技术与应用 → 影像编辑",
+          "kind": "official_figure"
+        }
+      ],
+      "inferred": false
+    },
+    {
+      "source_code": "AIS210008",
+      "source_name": "智能媒介概论",
+      "target_code": "JCM30027",
+      "target_name": "视听节目构成",
+      "type": "official_curriculum_link",
+      "reason": "2025官方方案图中的明确箭头：智能媒介概论 → 视听节目构成。此处记录方案课程/训练体系设计联系，不表示强制先修或选课限制。",
+      "program_ids": [
+        "97149"
+      ],
+      "evidence": [
+        {
+          "path": "official/source-figures/plan-97149-p026-05-document_image_rId8.png",
+          "locator": "document.xml p26; 课程体系/科研训练体系箭头；智能媒介概论 → 视听节目构成",
+          "kind": "official_figure"
+        }
+      ],
+      "inferred": false
+    },
+    {
+      "source_code": "JCM30002",
+      "source_name": "数据分析与信息可视化",
+      "target_code": "JCM30006",
+      "target_name": "数字媒体艺术与技术应用",
+      "type": "official_curriculum_link",
+      "reason": "2025官方方案图中的明确箭头：数据分析与信息可视化 → 数字媒体艺术与技术应用。此处记录方案课程/训练体系设计联系，不表示强制先修或选课限制。",
+      "program_ids": [
+        "97149"
+      ],
+      "evidence": [
+        {
+          "path": "official/source-figures/plan-97149-p026-05-document_image_rId8.png",
+          "locator": "document.xml p26; 课程体系/科研训练体系箭头；数据分析与信息可视化 → 数字媒体艺术与技术应用",
+          "kind": "official_figure"
+        }
+      ],
+      "inferred": false
+    },
+    {
+      "source_code": "JCM30006",
+      "source_name": "数字媒体艺术与技术应用",
+      "target_code": "JCM30005",
+      "target_name": "数字互动叙事",
+      "type": "official_curriculum_link",
+      "reason": "2025官方方案图中的明确箭头：数字媒体艺术与技术应用 → 数字互动叙事。此处记录方案课程/训练体系设计联系，不表示强制先修或选课限制。",
+      "program_ids": [
+        "97149"
+      ],
+      "evidence": [
+        {
+          "path": "official/source-figures/plan-97149-p026-05-document_image_rId8.png",
+          "locator": "document.xml p26; 课程体系/科研训练体系箭头；数字媒体艺术与技术应用 → 数字互动叙事",
+          "kind": "official_figure"
+        }
+      ],
+      "inferred": false
+    },
+    {
+      "source_code": "JCM20029",
+      "source_name": "视听史论",
+      "target_code": "AIS210008",
+      "target_name": "智能媒介概论",
+      "type": "official_curriculum_link",
+      "reason": "2025官方方案图中的明确箭头：视听史论 → 智能媒介概论。此处记录方案课程/训练体系设计联系，不表示强制先修或选课限制。",
+      "program_ids": [
+        "97156"
+      ],
+      "evidence": [
+        {
+          "path": "official/source-figures/plan-97156-p026-05-document_image_rId8.png",
+          "locator": "document.xml p26; 课程体系/科研训练体系箭头；视听史论 → 智能媒介概论",
+          "kind": "official_figure"
+        }
+      ],
+      "inferred": false
+    },
+    {
+      "source_code": "JCM20007",
+      "source_name": "视听语言和审美",
+      "target_code": "JCM20008",
+      "target_name": "视听技术与应用",
+      "type": "official_curriculum_link",
+      "reason": "2025官方方案图中的明确箭头：视听语言和审美 → 视听技术与应用。此处记录方案课程/训练体系设计联系，不表示强制先修或选课限制。",
+      "program_ids": [
+        "97156"
+      ],
+      "evidence": [
+        {
+          "path": "official/source-figures/plan-97156-p026-05-document_image_rId8.png",
+          "locator": "document.xml p26; 课程体系/科研训练体系箭头；视听语言和审美 → 视听技术与应用",
+          "kind": "official_figure"
+        }
+      ],
+      "inferred": false
+    },
+    {
+      "source_code": "JCM20008",
+      "source_name": "视听技术与应用",
+      "target_code": "JCM20030",
+      "target_name": "影像编辑",
+      "type": "official_curriculum_link",
+      "reason": "2025官方方案图中的明确箭头：视听技术与应用 → 影像编辑。此处记录方案课程/训练体系设计联系，不表示强制先修或选课限制。",
+      "program_ids": [
+        "97156"
+      ],
+      "evidence": [
+        {
+          "path": "official/source-figures/plan-97156-p026-05-document_image_rId8.png",
+          "locator": "document.xml p26; 课程体系/科研训练体系箭头；视听技术与应用 → 影像编辑",
+          "kind": "official_figure"
+        }
+      ],
+      "inferred": false
+    },
+    {
+      "source_code": "AIS210008",
+      "source_name": "智能媒介概论",
+      "target_code": "JCM30027",
+      "target_name": "视听节目构成",
+      "type": "official_curriculum_link",
+      "reason": "2025官方方案图中的明确箭头：智能媒介概论 → 视听节目构成。此处记录方案课程/训练体系设计联系，不表示强制先修或选课限制。",
+      "program_ids": [
+        "97156"
+      ],
+      "evidence": [
+        {
+          "path": "official/source-figures/plan-97156-p026-05-document_image_rId8.png",
+          "locator": "document.xml p26; 课程体系/科研训练体系箭头；智能媒介概论 → 视听节目构成",
+          "kind": "official_figure"
+        }
+      ],
+      "inferred": false
+    },
+    {
+      "source_code": "JCM30002",
+      "source_name": "数据分析与信息可视化",
+      "target_code": "JCM30006",
+      "target_name": "数字媒体艺术与技术应用",
+      "type": "official_curriculum_link",
+      "reason": "2025官方方案图中的明确箭头：数据分析与信息可视化 → 数字媒体艺术与技术应用。此处记录方案课程/训练体系设计联系，不表示强制先修或选课限制。",
+      "program_ids": [
+        "97156"
+      ],
+      "evidence": [
+        {
+          "path": "official/source-figures/plan-97156-p026-05-document_image_rId8.png",
+          "locator": "document.xml p26; 课程体系/科研训练体系箭头；数据分析与信息可视化 → 数字媒体艺术与技术应用",
+          "kind": "official_figure"
+        }
+      ],
+      "inferred": false
+    },
+    {
+      "source_code": "JCM30006",
+      "source_name": "数字媒体艺术与技术应用",
+      "target_code": "JCM30005",
+      "target_name": "数字互动叙事",
+      "type": "official_curriculum_link",
+      "reason": "2025官方方案图中的明确箭头：数字媒体艺术与技术应用 → 数字互动叙事。此处记录方案课程/训练体系设计联系，不表示强制先修或选课限制。",
+      "program_ids": [
+        "97156"
+      ],
+      "evidence": [
+        {
+          "path": "official/source-figures/plan-97156-p026-05-document_image_rId8.png",
+          "locator": "document.xml p26; 课程体系/科研训练体系箭头；数字媒体艺术与技术应用 → 数字互动叙事",
+          "kind": "official_figure"
+        }
+      ],
+      "inferred": false
+    },
+    {
+      "source_code": "JCM20029",
+      "source_name": "视听史论",
+      "target_code": "AIS210008",
+      "target_name": "智能媒介概论",
+      "type": "official_curriculum_link",
+      "reason": "2025官方方案图中的明确箭头：视听史论 → 智能媒介概论。此处记录方案课程/训练体系设计联系，不表示强制先修或选课限制。",
+      "program_ids": [
+        "97153"
+      ],
+      "evidence": [
+        {
+          "path": "official/source-figures/plan-97153-p026-05-document_image_rId8.png",
+          "locator": "document.xml p26; 课程体系/科研训练体系箭头；视听史论 → 智能媒介概论",
+          "kind": "official_figure"
+        }
+      ],
+      "inferred": false
+    },
+    {
+      "source_code": "JCM20007",
+      "source_name": "视听语言和审美",
+      "target_code": "JCM20008",
+      "target_name": "视听技术与应用",
+      "type": "official_curriculum_link",
+      "reason": "2025官方方案图中的明确箭头：视听语言和审美 → 视听技术与应用。此处记录方案课程/训练体系设计联系，不表示强制先修或选课限制。",
+      "program_ids": [
+        "97153"
+      ],
+      "evidence": [
+        {
+          "path": "official/source-figures/plan-97153-p026-05-document_image_rId8.png",
+          "locator": "document.xml p26; 课程体系/科研训练体系箭头；视听语言和审美 → 视听技术与应用",
+          "kind": "official_figure"
+        }
+      ],
+      "inferred": false
+    },
+    {
+      "source_code": "JCM20008",
+      "source_name": "视听技术与应用",
+      "target_code": "JCM20030",
+      "target_name": "影像编辑",
+      "type": "official_curriculum_link",
+      "reason": "2025官方方案图中的明确箭头：视听技术与应用 → 影像编辑。此处记录方案课程/训练体系设计联系，不表示强制先修或选课限制。",
+      "program_ids": [
+        "97153"
+      ],
+      "evidence": [
+        {
+          "path": "official/source-figures/plan-97153-p026-05-document_image_rId8.png",
+          "locator": "document.xml p26; 课程体系/科研训练体系箭头；视听技术与应用 → 影像编辑",
+          "kind": "official_figure"
+        }
+      ],
+      "inferred": false
+    },
+    {
+      "source_code": "AIS210008",
+      "source_name": "智能媒介概论",
+      "target_code": "JCM30027",
+      "target_name": "视听节目构成",
+      "type": "official_curriculum_link",
+      "reason": "2025官方方案图中的明确箭头：智能媒介概论 → 视听节目构成。此处记录方案课程/训练体系设计联系，不表示强制先修或选课限制。",
+      "program_ids": [
+        "97153"
+      ],
+      "evidence": [
+        {
+          "path": "official/source-figures/plan-97153-p026-05-document_image_rId8.png",
+          "locator": "document.xml p26; 课程体系/科研训练体系箭头；智能媒介概论 → 视听节目构成",
+          "kind": "official_figure"
+        }
+      ],
+      "inferred": false
+    },
+    {
+      "source_code": "JCM30002",
+      "source_name": "数据分析与信息可视化",
+      "target_code": "JCM30006",
+      "target_name": "数字媒体艺术与技术应用",
+      "type": "official_curriculum_link",
+      "reason": "2025官方方案图中的明确箭头：数据分析与信息可视化 → 数字媒体艺术与技术应用。此处记录方案课程/训练体系设计联系，不表示强制先修或选课限制。",
+      "program_ids": [
+        "97153"
+      ],
+      "evidence": [
+        {
+          "path": "official/source-figures/plan-97153-p026-05-document_image_rId8.png",
+          "locator": "document.xml p26; 课程体系/科研训练体系箭头；数据分析与信息可视化 → 数字媒体艺术与技术应用",
+          "kind": "official_figure"
+        }
+      ],
+      "inferred": false
+    },
+    {
+      "source_code": "JCM30006",
+      "source_name": "数字媒体艺术与技术应用",
+      "target_code": "JCM30005",
+      "target_name": "数字互动叙事",
+      "type": "official_curriculum_link",
+      "reason": "2025官方方案图中的明确箭头：数字媒体艺术与技术应用 → 数字互动叙事。此处记录方案课程/训练体系设计联系，不表示强制先修或选课限制。",
+      "program_ids": [
+        "97153"
+      ],
+      "evidence": [
+        {
+          "path": "official/source-figures/plan-97153-p026-05-document_image_rId8.png",
+          "locator": "document.xml p26; 课程体系/科研训练体系箭头；数字媒体艺术与技术应用 → 数字互动叙事",
+          "kind": "official_figure"
+        }
+      ],
+      "inferred": false
+    },
+    {
+      "source_code": "JCM20030",
+      "source_name": "影像编辑",
+      "target_code": "MJC60008",
+      "target_name": "非虚构影像创作",
+      "type": "official_curriculum_link",
+      "reason": "2025数字视听本硕方案图中，影像编辑沿纵向蓝箭头连接非虚构影像创作；记录官方培养设计联系，不表示强制先修。",
+      "program_ids": [
+        "97000"
+      ],
+      "inferred": false,
+      "evidence": [
+        {
+          "path": "official/source-figures/plan-97000-p197-04-document_image_rId7.png",
+          "locator": "课程体系右侧第4学期影像编辑 → 第9学期非虚构影像创作，纵向蓝色箭头；两端均唯一匹配该方案列课。",
+          "kind": "official_figure"
+        }
+      ]
+    }
+  ]
+}

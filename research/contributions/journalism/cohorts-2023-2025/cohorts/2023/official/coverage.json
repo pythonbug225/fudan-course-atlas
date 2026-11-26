@@ -1,0 +1,142 @@
+{
+  "cohort": 2023,
+  "department_id": 2621,
+  "department_name": "新闻学院",
+  "api_directory_url": "https://fdjwgl.fudan.edu.cn/manager/bizType/2/page-center/major-program-search-view/search",
+  "api_detail_template": "https://fdjwgl.fudan.edu.cn/manager/bizType/2/major-program-search/info/{ID}?skipAuth=1",
+  "api_word_export": "https://fdjwgl.fudan.edu.cn/manager/bizType/2/major-program-search/export-word",
+  "retrieved_at": "2026-11-26T08:23:06.454349+00:00",
+  "pagination": {
+    "page_size": 100,
+    "all_pages": [
+      {
+        "path": "raw/directory-all-page-1.json",
+        "url": "https://fdjwgl.fudan.edu.cn/manager/bizType/2/page-center/major-program-search-view/search?skipAuth=1&YEARS=2023&queryPage__=1%2C100",
+        "content_type": "application/json;charset=UTF-8",
+        "bytes": 23931,
+        "sha256": "a488b7975c6504564f53859bfd4abd570b13c4b26ee3aec9ed9e09de261e4e0b",
+        "current_page": 1,
+        "rows_in_page": 100,
+        "total_rows": 147,
+        "total_pages": 2
+      },
+      {
+        "path": "raw/directory-all-page-2.json",
+        "url": "https://fdjwgl.fudan.edu.cn/manager/bizType/2/page-center/major-program-search-view/search?skipAuth=1&YEARS=2023&queryPage__=2%2C100",
+        "content_type": "application/json;charset=UTF-8",
+        "bytes": 11529,
+        "sha256": "88bb0f298aef8c5da5654ab209f5dad0873da76df9a3187096d1c0b58da4b2ef",
+        "current_page": 2,
+        "rows_in_page": 47,
+        "total_rows": 147,
+        "total_pages": 2
+      }
+    ],
+    "department_pages": [
+      {
+        "path": "raw/directory-department-2621-page-1.json",
+        "url": "https://fdjwgl.fudan.edu.cn/manager/bizType/2/page-center/major-program-search-view/search?skipAuth=1&YEARS=2023&queryPage__=1%2C100&DEPART_IDS=2621",
+        "content_type": "application/json;charset=UTF-8",
+        "bytes": 2273,
+        "sha256": "b521231f2ec9809b0599d441ff3bf1e11b1f5c8e58a36f5e8d86583088281dc1",
+        "current_page": 1,
+        "rows_in_page": 10,
+        "total_rows": 10,
+        "total_pages": 1
+      }
+    ]
+  },
+  "all_directory_rows": 147,
+  "department_directory_rows": 10,
+  "selected_department_plans": 10,
+  "downloaded_original_json": 10,
+  "downloaded_original_word": 10,
+  "embedded_images": 10,
+  "cross_department_candidates_listed_not_downloaded": 0,
+  "cross_department_candidate_path": "raw/cross-department-relevant-candidates.json",
+  "not_downloaded_reason": "跨院候选仅作人工审阅记录；本批下载范围限定为官方目录中院系字段准确匹配新闻学院的培养方案。通识、公共及含新闻字样的泛方案不作为相关专业方案。",
+  "plans": [
+    {
+      "id": "67915",
+      "title": "2023 传播学“2+X”教学培养方案",
+      "major_name": "传播学",
+      "scope_tags": [],
+      "word_path": "word-originals/plan-67915.docx"
+    },
+    {
+      "id": "67918",
+      "title": "2023 传播学“2+X”教学培养方案 留学生（非英语国家）",
+      "major_name": "传播学",
+      "scope_tags": [
+        "international_student"
+      ],
+      "word_path": "word-originals/plan-67918.docx"
+    },
+    {
+      "id": "73598",
+      "title": "2023 广告学“2+X\"教学培养方案（港澳台）",
+      "major_name": "广告学",
+      "scope_tags": [
+        "hong_kong_macao_taiwan_overseas_chinese"
+      ],
+      "word_path": "word-originals/plan-73598.docx"
+    },
+    {
+      "id": "67916",
+      "title": "2023 广告学“2+X”教学培养方案",
+      "major_name": "广告学",
+      "scope_tags": [],
+      "word_path": "word-originals/plan-67916.docx"
+    },
+    {
+      "id": "67919",
+      "title": "2023 广告学“2+X”教学培养方案 留学生（非英语国家）",
+      "major_name": "广告学",
+      "scope_tags": [
+        "international_student"
+      ],
+      "word_path": "word-originals/plan-67919.docx"
+    },
+    {
+      "id": "73597",
+      "title": "2023 广播电视学“2+X\"教学培养方案（港澳台）",
+      "major_name": "广播电视学",
+      "scope_tags": [
+        "hong_kong_macao_taiwan_overseas_chinese"
+      ],
+      "word_path": "word-originals/plan-73597.docx"
+    },
+    {
+      "id": "67914",
+      "title": "2023 广播电视学“2+X”教学培养方案",
+      "major_name": "广播电视学",
+      "scope_tags": [],
+      "word_path": "word-originals/plan-67914.docx"
+    },
+    {
+      "id": "67917",
+      "title": "2023 广播电视学“2+X”教学培养方案 留学生（非英语国家）",
+      "major_name": "广播电视学",
+      "scope_tags": [
+        "international_student"
+      ],
+      "word_path": "word-originals/plan-67917.docx"
+    },
+    {
+      "id": "67913",
+      "title": "2023 新闻学“2+X”教学培养方案",
+      "major_name": "新闻学",
+      "scope_tags": [],
+      "word_path": "word-originals/plan-67913.docx"
+    },
+    {
+      "id": "67072",
+      "title": "2023 新闻学“2+X”教学培养方案 留学生（非英语国家）",
+      "major_name": "新闻学",
+      "scope_tags": [
+        "international_student"
+      ],
+      "word_path": "word-originals/plan-67072.docx"
+    }
+  ]
+}

@@ -1,0 +1,143 @@
+{
+  "plan_id": "67914",
+  "cohort": 2023,
+  "title": "2023 广播电视学“2+X”教学培养方案",
+  "department": "新闻学院",
+  "department_id": 2621,
+  "major_name": "广播电视学",
+  "scope": "department",
+  "scope_tags": [],
+  "directory_row": {
+    "YEARS": "2023",
+    "MAJOR_NAME": "广播电视学",
+    "MAJOR_ID": 504,
+    "DEPART_NAME": "新闻学院",
+    "AUDIT_STATE": "",
+    "ID": 67914,
+    "NAME_ZH": "2023 广播电视学“2+X”教学培养方案",
+    "DEPART_IDS": 2621,
+    "ROW_ID": 5
+  },
+  "detail_url": "https://fdjwgl.fudan.edu.cn/manager/bizType/2/major-program-search/info/67914?skipAuth=1",
+  "export_url": "https://fdjwgl.fudan.edu.cn/manager/bizType/2/major-program-search/export-word",
+  "export_method": "POST ids=67914",
+  "raw_path": "raw/plan-67914.json.gz",
+  "raw_bytes": 5187585,
+  "raw_sha256": "ab4d7836f27cf74b1e57975533423e0d84dc78177d4ef4c07410d79edeb867fe",
+  "detail_content_type": "application/json; reused from prior run",
+  "word_path": "word-originals/plan-67914.docx",
+  "word_text_path": "word-text/plan-67914.txt",
+  "word_bytes": 170504,
+  "word_sha256": "8c81570397004646f8910589550ec2b30f3201a2bcd639c46fb0559a58247a53",
+  "cohort_year_present_in_word_text": true,
+  "word_content_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document; reused from prior run",
+  "images": [
+    {
+      "path": "source-figures/plan-67914-p000-01-document_image_rId4.png",
+      "member": "word/media/document_image_rId4.png",
+      "relationship_id": "rId4",
+      "paragraph_index": 0,
+      "sha256": "079ee6539e29b85d9bccb9016e8147e9319c1fd1aa2a8a6ac0f4e74a915109bc",
+      "bytes": 2649
+    }
+  ],
+  "retrieved_at": "2026-11-26T08:23:05.687915+00:00",
+  "api_model_scope_fields": {
+    "id": 67914,
+    "nameZh": "2023 广播电视学“2+X”教学培养方案",
+    "grade": "2023",
+    "stdType": {
+      "nameZh": "普通本科生",
+      "nameEn": null,
+      "id": 1,
+      "code": "01",
+      "enabled": true,
+      "createdDateTime": null,
+      "updatedDateTime": "2025-03-26T18:20:22.000",
+      "bizTypeAssocs": [
+        2,
+        3,
+        4
+      ],
+      "bizTypeIds": [
+        4,
+        2,
+        3
+      ],
+      "transient": false,
+      "name": "普通本科生"
+    },
+    "cultivateType": {
+      "nameZh": "主修",
+      "nameEn": "Major",
+      "id": 1,
+      "code": "01",
+      "enabled": true,
+      "createdDateTime": null,
+      "updatedDateTime": null,
+      "bizTypeAssocs": [
+        2
+      ],
+      "bizTypeIds": [
+        2
+      ],
+      "transient": false,
+      "name": "主修"
+    },
+    "major": {
+      "id": 504,
+      "nameZh": "广播电视学",
+      "nameEn": "Broadcasting and TV",
+      "code": "133-2013",
+      "abbrZh": "广播电视学",
+      "abbrEn": null,
+      "parent": false,
+      "studyYears": 4.0,
+      "majorCertificate": null,
+      "baseDataNo": "032",
+      "establishYear": "2015",
+      "sbdp": false,
+      "jcrh": false,
+      "doubleDegree": null,
+      "firstEnrollYear": "2015",
+      "stopEnrollYear": null,
+      "invalidYear": null,
+      "enabled": true,
+      "graduateNameZh": "广播电视学",
+      "graduateNameEn": "Broadcasting and TV",
+      "international": false,
+      "parentMajorAssocs": [],
+      "childMajorAssocs": []
+    },
+    "department": {
+      "id": 2621,
+      "nameZh": "新闻学院",
+      "nameEn": "Journalism School",
+      "code": "013",
+      "abbrZh": "新闻",
+      "abbrEn": null,
+      "college": true,
+      "research": false,
+      "openCourse": true,
+      "experiment": false,
+      "telephone": null,
+      "address": null,
+      "indexNo": 100286,
+      "recruitTypeSet": [
+        "UNDERGRADUATE"
+      ],
+      "recruitTypes": "UNDERGRADUATE",
+      "yikou": false,
+      "enabled": true,
+      "unitCode": "100286"
+    },
+    "auditState": "ACCEPTED",
+    "bizType": {
+      "id": 2,
+      "nameZh": "本研融通",
+      "nameEn": "Undergraduate"
+    }
+  },
+  "original_raw_path": "raw/plan-67914.json",
+  "raw_compression": "gzip; raw_sha256 refers to the exact decompressed original response"
+}

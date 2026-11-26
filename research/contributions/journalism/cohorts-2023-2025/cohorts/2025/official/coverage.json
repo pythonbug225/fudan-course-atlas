@@ -1,0 +1,349 @@
+{
+  "cohort": 2025,
+  "department_id": 2621,
+  "department_name": "新闻学院",
+  "api_directory_url": "https://fdjwgl.fudan.edu.cn/manager/bizType/2/page-center/major-program-search-view/search",
+  "api_detail_template": "https://fdjwgl.fudan.edu.cn/manager/bizType/2/major-program-search/info/{ID}?skipAuth=1",
+  "api_word_export": "https://fdjwgl.fudan.edu.cn/manager/bizType/2/major-program-search/export-word",
+  "retrieved_at": "2026-11-26T08:26:45.401311+00:00",
+  "pagination": {
+    "page_size": 100,
+    "all_pages": [
+      {
+        "path": "raw/directory-all-page-1.json",
+        "url": "https://fdjwgl.fudan.edu.cn/manager/bizType/2/page-center/major-program-search-view/search?skipAuth=1&YEARS=2025&queryPage__=1%2C100",
+        "content_type": "application/json;charset=UTF-8",
+        "bytes": 26131,
+        "sha256": "e44b13adea438ae33673934d4a404b9d89cb13d3952ffc30948c612a2757cadd",
+        "current_page": 1,
+        "rows_in_page": 100,
+        "total_rows": 407,
+        "total_pages": 5
+      },
+      {
+        "path": "raw/directory-all-page-2.json",
+        "url": "https://fdjwgl.fudan.edu.cn/manager/bizType/2/page-center/major-program-search-view/search?skipAuth=1&YEARS=2025&queryPage__=2%2C100",
+        "content_type": "application/json;charset=UTF-8",
+        "bytes": 25639,
+        "sha256": "287878dc62dd3c507d125dee2de86922aa50155bcdc457f2f4a48befcd933d37",
+        "current_page": 2,
+        "rows_in_page": 100,
+        "total_rows": 407,
+        "total_pages": 5
+      },
+      {
+        "path": "raw/directory-all-page-3.json",
+        "url": "https://fdjwgl.fudan.edu.cn/manager/bizType/2/page-center/major-program-search-view/search?skipAuth=1&YEARS=2025&queryPage__=3%2C100",
+        "content_type": "application/json;charset=UTF-8",
+        "bytes": 26494,
+        "sha256": "237054667a8676f9967d5cfec0c8c6288c64a0b108c70dda80877eab1597feb2",
+        "current_page": 3,
+        "rows_in_page": 100,
+        "total_rows": 407,
+        "total_pages": 5
+      },
+      {
+        "path": "raw/directory-all-page-4.json",
+        "url": "https://fdjwgl.fudan.edu.cn/manager/bizType/2/page-center/major-program-search-view/search?skipAuth=1&YEARS=2025&queryPage__=4%2C100",
+        "content_type": "application/json;charset=UTF-8",
+        "bytes": 25201,
+        "sha256": "0e1a7b26b49349123bde62ad23ed5e92987c67889a0f7ff7a24e32c1a19f225c",
+        "current_page": 4,
+        "rows_in_page": 100,
+        "total_rows": 407,
+        "total_pages": 5
+      },
+      {
+        "path": "raw/directory-all-page-5.json",
+        "url": "https://fdjwgl.fudan.edu.cn/manager/bizType/2/page-center/major-program-search-view/search?skipAuth=1&YEARS=2025&queryPage__=5%2C100",
+        "content_type": "application/json;charset=UTF-8",
+        "bytes": 1916,
+        "sha256": "2af11407485af6798496734a5a2c0e85f1ec636dda3549197d049de4b38360a9",
+        "current_page": 5,
+        "rows_in_page": 7,
+        "total_rows": 407,
+        "total_pages": 5
+      }
+    ],
+    "department_pages": [
+      {
+        "path": "raw/directory-department-2621-page-1.json",
+        "url": "https://fdjwgl.fudan.edu.cn/manager/bizType/2/page-center/major-program-search-view/search?skipAuth=1&YEARS=2025&queryPage__=1%2C100&DEPART_IDS=2621",
+        "content_type": "application/json;charset=UTF-8",
+        "bytes": 7313,
+        "sha256": "b23898328695c16be4b8e063d96bd19b1fad98e05249b7505bb90a8b5b2c66e3",
+        "current_page": 1,
+        "rows_in_page": 29,
+        "total_rows": 29,
+        "total_pages": 1
+      }
+    ]
+  },
+  "all_directory_rows": 407,
+  "department_directory_rows": 29,
+  "selected_department_plans": 29,
+  "downloaded_original_json": 29,
+  "downloaded_original_word": 29,
+  "embedded_images": 129,
+  "cross_department_candidates_listed_not_downloaded": 0,
+  "cross_department_candidate_path": "raw/cross-department-relevant-candidates.json",
+  "not_downloaded_reason": "跨院候选仅作人工审阅记录；本批下载范围限定为官方目录中院系字段准确匹配新闻学院的培养方案。通识、公共及含新闻字样的泛方案不作为相关专业方案。",
+  "plans": [
+    {
+      "id": "97168",
+      "title": "2025传播学-人工智能双学士学位项目本科培养方案",
+      "major_name": "传播学-人工智能(双学士学位项目)",
+      "scope_tags": [
+        "double_degree"
+      ],
+      "word_path": "word-originals/plan-97168.docx"
+    },
+    {
+      "id": "97176",
+      "title": "2025传播学-社会学双学士学位项目本科培养方案",
+      "major_name": "传播学-社会学(双学士学位项目)",
+      "scope_tags": [
+        "double_degree"
+      ],
+      "word_path": "word-originals/plan-97176.docx"
+    },
+    {
+      "id": "97151",
+      "title": "2025传播学专业本科培养方案",
+      "major_name": "传播学",
+      "scope_tags": [],
+      "word_path": "word-originals/plan-97151.docx"
+    },
+    {
+      "id": "97155",
+      "title": "2025传播学专业本科培养方案（港澳台侨生）",
+      "major_name": "传播学",
+      "scope_tags": [
+        "hong_kong_macao_taiwan_overseas_chinese"
+      ],
+      "word_path": "word-originals/plan-97155.docx"
+    },
+    {
+      "id": "97152",
+      "title": "2025传播学专业本科培养方案（留学生）",
+      "major_name": "传播学",
+      "scope_tags": [
+        "international_student"
+      ],
+      "word_path": "word-originals/plan-97152.docx"
+    },
+    {
+      "id": "97001",
+      "title": "2025广告学--新闻传播学本硕融通培养方案（战略传播菁英班）",
+      "major_name": "广告学",
+      "scope_tags": [
+        "bachelor_master_integrated"
+      ],
+      "word_path": "word-originals/plan-97001.docx"
+    },
+    {
+      "id": "97150",
+      "title": "2025广告学（商业传播）专业本科培养方案",
+      "major_name": "广告学",
+      "scope_tags": [],
+      "word_path": "word-originals/plan-97150.docx"
+    },
+    {
+      "id": "97157",
+      "title": "2025广告学（商业传播）专业本科培养方案（港澳台侨生）",
+      "major_name": "广告学",
+      "scope_tags": [
+        "hong_kong_macao_taiwan_overseas_chinese"
+      ],
+      "word_path": "word-originals/plan-97157.docx"
+    },
+    {
+      "id": "97154",
+      "title": "2025广告学（商业传播）专业本科培养方案（留学生）",
+      "major_name": "广告学",
+      "scope_tags": [
+        "international_student"
+      ],
+      "word_path": "word-originals/plan-97154.docx"
+    },
+    {
+      "id": "97000",
+      "title": "2025广播电视学--新闻传播学本硕融通培养方案（数字视听菁英班）",
+      "major_name": "广播电视学",
+      "scope_tags": [
+        "bachelor_master_integrated"
+      ],
+      "word_path": "word-originals/plan-97000.docx"
+    },
+    {
+      "id": "97149",
+      "title": "2025广播电视学（数字视听）专业本科培养方案",
+      "major_name": "广播电视学",
+      "scope_tags": [],
+      "word_path": "word-originals/plan-97149.docx"
+    },
+    {
+      "id": "97156",
+      "title": "2025广播电视学（数字视听）专业本科培养方案（港澳台侨生）",
+      "major_name": "广播电视学",
+      "scope_tags": [
+        "hong_kong_macao_taiwan_overseas_chinese"
+      ],
+      "word_path": "word-originals/plan-97156.docx"
+    },
+    {
+      "id": "97153",
+      "title": "2025广播电视学（数字视听）专业本科培养方案（留学生）",
+      "major_name": "广播电视学",
+      "scope_tags": [
+        "international_student"
+      ],
+      "word_path": "word-originals/plan-97153.docx"
+    },
+    {
+      "id": "97480",
+      "title": "2025新闻传播学类培养方案（挂网）",
+      "major_name": "新闻传播学类",
+      "scope_tags": [],
+      "word_path": "word-originals/plan-97480.docx"
+    },
+    {
+      "id": "97491",
+      "title": "2025新闻传播学类培养方案（港澳台侨生）（挂网）",
+      "major_name": "新闻传播学类",
+      "scope_tags": [
+        "hong_kong_macao_taiwan_overseas_chinese"
+      ],
+      "word_path": "word-originals/plan-97491.docx"
+    },
+    {
+      "id": "97167",
+      "title": "2025新闻学-人工智能双学士学位项目本科培养方案",
+      "major_name": "新闻学-人工智能(双学士学位项目)",
+      "scope_tags": [
+        "double_degree"
+      ],
+      "word_path": "word-originals/plan-97167.docx"
+    },
+    {
+      "id": "97179",
+      "title": "2025新闻学-国际政治（全球领导力方向）双学士学位项目本科培养方案",
+      "major_name": "新闻学-国际政治(全球领导力)(双学士学位项目)",
+      "scope_tags": [
+        "double_degree"
+      ],
+      "word_path": "word-originals/plan-97179.docx"
+    },
+    {
+      "id": "97181",
+      "title": "2025新闻学-法学双学士学位项目本科培养方案",
+      "major_name": "新闻学-法学(双学士学位项目)",
+      "scope_tags": [
+        "double_degree"
+      ],
+      "word_path": "word-originals/plan-97181.docx"
+    },
+    {
+      "id": "97183",
+      "title": "2025新闻学-社会学双学士学位项目本科培养方案",
+      "major_name": "新闻学-社会学(双学士学位项目)",
+      "scope_tags": [
+        "double_degree"
+      ],
+      "word_path": "word-originals/plan-97183.docx"
+    },
+    {
+      "id": "97177",
+      "title": "2025新闻学-经济学双学士学位项目本科培养方案",
+      "major_name": "新闻学-经济学(双学士学位项目)",
+      "scope_tags": [
+        "double_degree"
+      ],
+      "word_path": "word-originals/plan-97177.docx"
+    },
+    {
+      "id": "97147",
+      "title": "2025新闻学专业本科培养方案",
+      "major_name": "新闻学",
+      "scope_tags": [],
+      "word_path": "word-originals/plan-97147.docx"
+    },
+    {
+      "id": "97160",
+      "title": "2025新闻学专业本科培养方案（港澳台侨生）",
+      "major_name": "新闻学",
+      "scope_tags": [
+        "hong_kong_macao_taiwan_overseas_chinese"
+      ],
+      "word_path": "word-originals/plan-97160.docx"
+    },
+    {
+      "id": "97159",
+      "title": "2025新闻学专业本科培养方案（留学生）",
+      "major_name": "新闻学",
+      "scope_tags": [
+        "international_student"
+      ],
+      "word_path": "word-originals/plan-97159.docx"
+    },
+    {
+      "id": "96689",
+      "title": "2025新闻学（望道新闻卓越班）--新闻传播学本硕融通培养方案",
+      "major_name": "新闻学(望道新闻卓越班)",
+      "scope_tags": [
+        "bachelor_master_integrated"
+      ],
+      "word_path": "word-originals/plan-96689.docx"
+    },
+    {
+      "id": "147551",
+      "title": "2025新闻学（望道新闻卓越班）-人工智能双学士学位项目本硕融通方案",
+      "major_name": "新闻学(望道新闻卓越班)-人工智能(双学士学位项目)",
+      "scope_tags": [
+        "double_degree",
+        "bachelor_master_integrated"
+      ],
+      "word_path": "word-originals/plan-147551.docx"
+    },
+    {
+      "id": "147553",
+      "title": "2025新闻学（望道新闻卓越班）-国际政治（全球领导力方向）双学士学位项目本硕融通方案",
+      "major_name": "新闻学(望道新闻卓越班)-国际政治(全球领导力)(双学士学位项目)",
+      "scope_tags": [
+        "double_degree",
+        "bachelor_master_integrated"
+      ],
+      "word_path": "word-originals/plan-147553.docx"
+    },
+    {
+      "id": "130371",
+      "title": "2025新闻学（望道新闻卓越班）-法学双学士学位项目本硕融通方案",
+      "major_name": "新闻学(望道新闻卓越班)-法学(双学士学位项目)",
+      "scope_tags": [
+        "double_degree",
+        "bachelor_master_integrated"
+      ],
+      "word_path": "word-originals/plan-130371.docx"
+    },
+    {
+      "id": "147552",
+      "title": "2025新闻学（望道新闻卓越班）-社会学双学士学位项目本硕融通方案",
+      "major_name": "新闻学(望道新闻卓越班)-社会学(双学士学位项目)",
+      "scope_tags": [
+        "double_degree",
+        "bachelor_master_integrated"
+      ],
+      "word_path": "word-originals/plan-147552.docx"
+    },
+    {
+      "id": "147554",
+      "title": "2025新闻学（望道新闻卓越班）-经济学双学士学位项目本硕融通方案",
+      "major_name": "新闻学(望道新闻卓越班)-经济学(双学士学位项目)",
+      "scope_tags": [
+        "double_degree",
+        "bachelor_master_integrated"
+      ],
+      "word_path": "word-originals/plan-147554.docx"
+    }
+  ]
+}

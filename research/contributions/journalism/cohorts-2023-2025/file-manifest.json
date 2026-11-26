@@ -1,0 +1,2175 @@
+{
+  "generated_date": "2026-11-26",
+  "files": [
+    {
+      "path": "cohorts/2023/course-graph/edges.csv",
+      "bytes": 159212,
+      "sha256": "6f1a942a19e28dc4c79affc03b557807901b95be651ef2b1b3d86ad4555f7803"
+    },
+    {
+      "path": "cohorts/2023/course-graph/graph.json",
+      "bytes": 4706885,
+      "sha256": "1441c28a5a5c2560030375747851d7fe1a2152c2342cda9d1560b770c0b989d7"
+    },
+    {
+      "path": "cohorts/2023/course-graph/modules.json",
+      "bytes": 358350,
+      "sha256": "09f4a13a95d8e7277a45dc7384a1138df368a9d4a244e144a79e8867f32c8e05"
+    },
+    {
+      "path": "cohorts/2023/course-graph/nodes.csv",
+      "bytes": 118310,
+      "sha256": "c3ff308334ce57c9bc28180f74e7564c23aecff82881aaea9585c2d2cd6912ab"
+    },
+    {
+      "path": "cohorts/2023/course-graph/program-course-memberships.csv",
+      "bytes": 877557,
+      "sha256": "cb6208077b5b15b53da6305541651d8653324b2fa52861b9897dbf3888df1bfb"
+    },
+    {
+      "path": "cohorts/2023/course-graph/program-course-memberships.json",
+      "bytes": 3391687,
+      "sha256": "cb16460cd69b1e9385f16ef0d762eba3e36c127cb00e58d475a348d8e655594b"
+    },
+    {
+      "path": "cohorts/2023/course-graph/source-audit.json",
+      "bytes": 67927,
+      "sha256": "2d75cb3a109ffd8b7306aa243a91fcc42970e232c3a5e203ade72561111b9c90"
+    },
+    {
+      "path": "cohorts/2023/course-graph/课程关系选览.svg",
+      "bytes": 7375,
+      "sha256": "50ecd2b444fd51704aeb6ce456e47dc6c6613688ffdaf9577f858c0985fbc36f"
+    },
+    {
+      "path": "cohorts/2023/official/coverage.json",
+      "bytes": 5159,
+      "sha256": "4fce907a718eedad75510bf5bc667ef1e12b3a8a984ccb5e026efc205b9a3c29"
+    },
+    {
+      "path": "cohorts/2023/official/metadata/plan-67072.json",
+      "bytes": 4277,
+      "sha256": "28d077092b6b2964c39976f148d1f42ef257ba88bdd96d8461692c2b8c1797f2"
+    },
+    {
+      "path": "cohorts/2023/official/metadata/plan-67913.json",
+      "bytes": 4186,
+      "sha256": "3e8ed76e9a0e0321e61f040e9ad9551d26facf6c3b44c62bbbb8933455619732"
+    },
+    {
+      "path": "cohorts/2023/official/metadata/plan-67914.json",
+      "bytes": 4256,
+      "sha256": "76be30775600ce35d90d091a82aaa7b8d09b4e1dd5510ef0f733ef2ca735c6d0"
+    },
+    {
+      "path": "cohorts/2023/official/metadata/plan-67915.json",
+      "bytes": 4191,
+      "sha256": "872f117e7246af6cced5ee67599ccaac9d30b3be7dc5f89733ed9e804ae3f58e"
+    },
+    {
+      "path": "cohorts/2023/official/metadata/plan-67916.json",
+      "bytes": 4187,
+      "sha256": "774a17a9c21f88fb410f7b1e0932fab1cd430646151676135e97605f564217fc"
+    },
+    {
+      "path": "cohorts/2023/official/metadata/plan-67917.json",
+      "bytes": 4348,
+      "sha256": "bf79ab843472d48122b3fb1bcd676757792ed5eec9c08b13eb7dc75ae5e529b8"
+    },
+    {
+      "path": "cohorts/2023/official/metadata/plan-67918.json",
+      "bytes": 4283,
+      "sha256": "63ff031a181c34f2f79534521b2830f8315c98215c0b7e9db71eb12fe00195d3"
+    },
+    {
+      "path": "cohorts/2023/official/metadata/plan-67919.json",
+      "bytes": 4279,
+      "sha256": "544c1c31cb52565e9b46fc4e210c08c83c96b5af7ac3c471e354a0dc5aeb0ea6"
+    },
+    {
+      "path": "cohorts/2023/official/metadata/plan-73597.json",
+      "bytes": 4328,
+      "sha256": "db41046f89e5455b6883dbf92c2ed672e13ce80bf1a11cceb175ebc576f145eb"
+    },
+    {
+      "path": "cohorts/2023/official/metadata/plan-73598.json",
+      "bytes": 4259,
+      "sha256": "a0bce3e4cb6901f82b318848ab6797d56823eec03207e3976a096363479e9325"
+    },
+    {
+      "path": "cohorts/2023/official/programmes.json",
+      "bytes": 45493,
+      "sha256": "a4dab3105bb7f5b1cacc142dca1acbe5100f1532c0286579e692ccc496382aa1"
+    },
+    {
+      "path": "cohorts/2023/official/raw/cross-department-relevant-candidates.json",
+      "bytes": 3,
+      "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570"
+    },
+    {
+      "path": "cohorts/2023/official/raw/department-rows.json",
+      "bytes": 2762,
+      "sha256": "ab1c469e92c4fd5debde139ea6a061702531149af6dcab8fba518b479e5f7322"
+    },
+    {
+      "path": "cohorts/2023/official/raw/directory-all-page-1.json",
+      "bytes": 23931,
+      "sha256": "a488b7975c6504564f53859bfd4abd570b13c4b26ee3aec9ed9e09de261e4e0b"
+    },
+    {
+      "path": "cohorts/2023/official/raw/directory-all-page-2.json",
+      "bytes": 11529,
+      "sha256": "88bb0f298aef8c5da5654ab209f5dad0873da76df9a3187096d1c0b58da4b2ef"
+    },
+    {
+      "path": "cohorts/2023/official/raw/directory-department-2621-page-1.json",
+      "bytes": 2273,
+      "sha256": "b521231f2ec9809b0599d441ff3bf1e11b1f5c8e58a36f5e8d86583088281dc1"
+    },
+    {
+      "path": "cohorts/2023/official/raw/plan-67072.json.gz",
+      "bytes": 37757,
+      "sha256": "feb1a7e6e7576b1cfa381aeada442101cbe160f25e9fd63789c65e750d460641"
+    },
+    {
+      "path": "cohorts/2023/official/raw/plan-67913.json.gz",
+      "bytes": 153773,
+      "sha256": "1da295adcb2bb4f409047a17a16e56bb189e18f4fe702f76ad8edf4b3679adca"
+    },
+    {
+      "path": "cohorts/2023/official/raw/plan-67914.json.gz",
+      "bytes": 154018,
+      "sha256": "1f6bb2edbe994722310b31b748c2c3f4974205879c3684c80538eb546328278f"
+    },
+    {
+      "path": "cohorts/2023/official/raw/plan-67915.json.gz",
+      "bytes": 153694,
+      "sha256": "70685e4bc0fdc7d55246fe83935630903c3f3d4b6cb80765201e10585aa48576"
+    },
+    {
+      "path": "cohorts/2023/official/raw/plan-67916.json.gz",
+      "bytes": 153560,
+      "sha256": "7d7d24fc17cf1e3815445d884e452339b1fa2fedf5d8412368f20596b6a7f338"
+    },
+    {
+      "path": "cohorts/2023/official/raw/plan-67917.json.gz",
+      "bytes": 37862,
+      "sha256": "4c2802fa254814dd0356bd9e126d99576a1ee596030b848d0c0769021fe519c1"
+    },
+    {
+      "path": "cohorts/2023/official/raw/plan-67918.json.gz",
+      "bytes": 39250,
+      "sha256": "741b1d9e2ab6f241713dbaac6aefbbc2fc085971cef422b1f00b91ab7aacfa00"
+    },
+    {
+      "path": "cohorts/2023/official/raw/plan-67919.json.gz",
+      "bytes": 38103,
+      "sha256": "64c3ac9709a32cfecc62659f3a5021ed80c7676e3103f165039a9353cde56422"
+    },
+    {
+      "path": "cohorts/2023/official/raw/plan-73597.json.gz",
+      "bytes": 151447,
+      "sha256": "3d9214640bb6f782e858ff48d910e454d6dcce0c3d8d3d27e40a1f4e2fb1fca5"
+    },
+    {
+      "path": "cohorts/2023/official/raw/plan-73598.json.gz",
+      "bytes": 151517,
+      "sha256": "648c827e0725a38483cab149c1e86beecd846d0bd16858593a332a8e84d02e12"
+    },
+    {
+      "path": "cohorts/2023/official/source-figures/plan-67072-p000-01-document_image_rId4.png",
+      "bytes": 2649,
+      "sha256": "079ee6539e29b85d9bccb9016e8147e9319c1fd1aa2a8a6ac0f4e74a915109bc"
+    },
+    {
+      "path": "cohorts/2023/official/source-figures/plan-67913-p000-01-document_image_rId4.png",
+      "bytes": 2649,
+      "sha256": "079ee6539e29b85d9bccb9016e8147e9319c1fd1aa2a8a6ac0f4e74a915109bc"
+    },
+    {
+      "path": "cohorts/2023/official/source-figures/plan-67914-p000-01-document_image_rId4.png",
+      "bytes": 2649,
+      "sha256": "079ee6539e29b85d9bccb9016e8147e9319c1fd1aa2a8a6ac0f4e74a915109bc"
+    },
+    {
+      "path": "cohorts/2023/official/source-figures/plan-67915-p000-01-document_image_rId4.png",
+      "bytes": 2649,
+      "sha256": "079ee6539e29b85d9bccb9016e8147e9319c1fd1aa2a8a6ac0f4e74a915109bc"
+    },
+    {
+      "path": "cohorts/2023/official/source-figures/plan-67916-p000-01-document_image_rId4.png",
+      "bytes": 2649,
+      "sha256": "079ee6539e29b85d9bccb9016e8147e9319c1fd1aa2a8a6ac0f4e74a915109bc"
+    },
+    {
+      "path": "cohorts/2023/official/source-figures/plan-67917-p000-01-document_image_rId4.png",
+      "bytes": 2649,
+      "sha256": "079ee6539e29b85d9bccb9016e8147e9319c1fd1aa2a8a6ac0f4e74a915109bc"
+    },
+    {
+      "path": "cohorts/2023/official/source-figures/plan-67918-p000-01-document_image_rId4.png",
+      "bytes": 2649,
+      "sha256": "079ee6539e29b85d9bccb9016e8147e9319c1fd1aa2a8a6ac0f4e74a915109bc"
+    },
+    {
+      "path": "cohorts/2023/official/source-figures/plan-67919-p000-01-document_image_rId4.png",
+      "bytes": 2649,
+      "sha256": "079ee6539e29b85d9bccb9016e8147e9319c1fd1aa2a8a6ac0f4e74a915109bc"
+    },
+    {
+      "path": "cohorts/2023/official/source-figures/plan-73597-p000-01-document_image_rId4.png",
+      "bytes": 2649,
+      "sha256": "079ee6539e29b85d9bccb9016e8147e9319c1fd1aa2a8a6ac0f4e74a915109bc"
+    },
+    {
+      "path": "cohorts/2023/official/source-figures/plan-73598-p000-01-document_image_rId4.png",
+      "bytes": 2649,
+      "sha256": "079ee6539e29b85d9bccb9016e8147e9319c1fd1aa2a8a6ac0f4e74a915109bc"
+    },
+    {
+      "path": "cohorts/2023/official/word-originals/plan-67072.docx",
+      "bytes": 47071,
+      "sha256": "307c4ac4d35209ab7b0c08fcd04a4cb2acd91ff313183e568b294ea4590ad7ab"
+    },
+    {
+      "path": "cohorts/2023/official/word-originals/plan-67913.docx",
+      "bytes": 170460,
+      "sha256": "a289f2598b28a75f6a8b6c2f85c3bf4753c12a196a7d88b8bb0fafe0c08c8925"
+    },
+    {
+      "path": "cohorts/2023/official/word-originals/plan-67914.docx",
+      "bytes": 170504,
+      "sha256": "8c81570397004646f8910589550ec2b30f3201a2bcd639c46fb0559a58247a53"
+    },
+    {
+      "path": "cohorts/2023/official/word-originals/plan-67915.docx",
+      "bytes": 170828,
+      "sha256": "4e9f9b19274c9255d4f6fa24490a2fbe2a6a7f46d7f28a2e53575f957f7fba50"
+    },
+    {
+      "path": "cohorts/2023/official/word-originals/plan-67916.docx",
+      "bytes": 170914,
+      "sha256": "ced797b4a527b9664d877c18eb7f49fbd53e1933ed37c82eb2cdc022c79e1383"
+    },
+    {
+      "path": "cohorts/2023/official/word-originals/plan-67917.docx",
+      "bytes": 47173,
+      "sha256": "348261b9b8647990584f93df2d1d5d503dd923ce28614c74909c01ce168ad15a"
+    },
+    {
+      "path": "cohorts/2023/official/word-originals/plan-67918.docx",
+      "bytes": 48077,
+      "sha256": "998c41d1b4d3971e032138ad16b69ffc3b52dbb1480f2f2eb4d7164c5b23f380"
+    },
+    {
+      "path": "cohorts/2023/official/word-originals/plan-67919.docx",
+      "bytes": 47554,
+      "sha256": "6aad0870753f99ef94132b81740ba34b0581cd9a47c120c0e34da247b0954058"
+    },
+    {
+      "path": "cohorts/2023/official/word-originals/plan-73597.docx",
+      "bytes": 168189,
+      "sha256": "7c6cac5f2364b9551acfc89609a3117832f87eefc2f29bcb0655416f1e822fe8"
+    },
+    {
+      "path": "cohorts/2023/official/word-originals/plan-73598.docx",
+      "bytes": 168563,
+      "sha256": "8bf41d78d9bb94ae97e2f8be79f6786d25dfcd6108529e185065086f39afa046"
+    },
+    {
+      "path": "cohorts/2023/official/word-text/plan-67072.txt",
+      "bytes": 19999,
+      "sha256": "b459d3afcd90be0ed628b9cd28113b644c307e9d02c22414e928e988ba26f5a4"
+    },
+    {
+      "path": "cohorts/2023/official/word-text/plan-67913.txt",
+      "bytes": 91576,
+      "sha256": "f5bde99b9ae90998ba5db848ebf6defd993812ee9e1d03c5014a82a366dfacba"
+    },
+    {
+      "path": "cohorts/2023/official/word-text/plan-67914.txt",
+      "bytes": 91670,
+      "sha256": "29aea50bb9a9fbab13c5ed8c1d4f634a78931df6f0456c86e81627abedb3a450"
+    },
+    {
+      "path": "cohorts/2023/official/word-text/plan-67915.txt",
+      "bytes": 91819,
+      "sha256": "b1220df3a49d813cb680be1a6e530286893316186d8f8b064a025321621c5087"
+    },
+    {
+      "path": "cohorts/2023/official/word-text/plan-67916.txt",
+      "bytes": 91763,
+      "sha256": "9c4795943d562325eda8511322f573816055175dbaf48598151decc024075e91"
+    },
+    {
+      "path": "cohorts/2023/official/word-text/plan-67917.txt",
+      "bytes": 20084,
+      "sha256": "047ad65eb3907377c3060ca4ca003a58bd843e55a9f884b144cdcc346e683f30"
+    },
+    {
+      "path": "cohorts/2023/official/word-text/plan-67918.txt",
+      "bytes": 20592,
+      "sha256": "62ecfe2b420b6a4043b2fc3c24b7ef8fc520d4e93939e0e3a02d58a5a26210d3"
+    },
+    {
+      "path": "cohorts/2023/official/word-text/plan-67919.txt",
+      "bytes": 20213,
+      "sha256": "8706c53cc1b910098b0cb816be305b5c96bfeae6e52595ecdd82a6e228483006"
+    },
+    {
+      "path": "cohorts/2023/official/word-text/plan-73597.txt",
+      "bytes": 86370,
+      "sha256": "42e0d50b0524530e4064ea366daa5d268737f5d3c4a8b0e2dc08d994a631ee70"
+    },
+    {
+      "path": "cohorts/2023/official/word-text/plan-73598.txt",
+      "bytes": 86449,
+      "sha256": "6961d6e626a30eb27e99616d40151acae77b4c6b8d4528922367596bfa958d98"
+    },
+    {
+      "path": "cohorts/2023/README.md",
+      "bytes": 3044,
+      "sha256": "4f102a44980ea16c89b4c14afeaeee8458cb85299fc8f3e2fb2fdbf1570770f3"
+    },
+    {
+      "path": "cohorts/2023/新闻学院课程名单.txt",
+      "bytes": 2636,
+      "sha256": "c2d17eeb203b92d84a16260b4366f00425ede7d9ce71ee923a95ba5a5af851a9"
+    },
+    {
+      "path": "cohorts/2024/course-graph/edges.csv",
+      "bytes": 185227,
+      "sha256": "2fab1296602eb64bbb28c89b6b9271ada12ad04b3ccf6796f61f4aef5fb04f29"
+    },
+    {
+      "path": "cohorts/2024/course-graph/graph.json",
+      "bytes": 1824919,
+      "sha256": "2cb6f668c7bc7370d16442dec93e014baf47e715fc70aae88927519436531009"
+    },
+    {
+      "path": "cohorts/2024/course-graph/modules.json",
+      "bytes": 242639,
+      "sha256": "b4e5c09d5b23c48deb137d7a3a5fc5442cd44000e0b874dbe56b5d28b9f89e72"
+    },
+    {
+      "path": "cohorts/2024/course-graph/nodes.csv",
+      "bytes": 35757,
+      "sha256": "376959410376013fff892bc7808bf68fdb9436c25800a0605eccbfbedf035e82"
+    },
+    {
+      "path": "cohorts/2024/course-graph/program-course-memberships.csv",
+      "bytes": 298683,
+      "sha256": "5f1c5f9401ba293b8641dac5230cbb290d1c8b7681b76be883e4e8c6fd964f6c"
+    },
+    {
+      "path": "cohorts/2024/course-graph/program-course-memberships.json",
+      "bytes": 1169005,
+      "sha256": "efbbe581cc64ed49fa76ebcba35575d346942daca2619086fada9af6fe3c5c8a"
+    },
+    {
+      "path": "cohorts/2024/course-graph/source-audit.json",
+      "bytes": 69706,
+      "sha256": "7d4507ade86fd088d974e806e89c8754b4983058bd72e597cfb316b96f043779"
+    },
+    {
+      "path": "cohorts/2024/course-graph/课程关系选览.svg",
+      "bytes": 7384,
+      "sha256": "7f5dd9fe4ce80cc7a8931fa075bd86aef5d6914f072e32cd62bdce0ba2a6be7b"
+    },
+    {
+      "path": "cohorts/2024/official/coverage.json",
+      "bytes": 6449,
+      "sha256": "3b92cc42375248b5f91263e273e651cb67a820e75a87a65d23a5ef52b38bc68d"
+    },
+    {
+      "path": "cohorts/2024/official/metadata/plan-72811.json",
+      "bytes": 4185,
+      "sha256": "887d3c565d1969eee57bfa07f3ed60bd61dbad6662592183ea96fb2a690accc6"
+    },
+    {
+      "path": "cohorts/2024/official/metadata/plan-72812.json",
+      "bytes": 4186,
+      "sha256": "2e6403c5829090b81c1e1cf0ff5b53fa7b72cab0ce9bd993237a02bcbe3b5790"
+    },
+    {
+      "path": "cohorts/2024/official/metadata/plan-72813.json",
+      "bytes": 4255,
+      "sha256": "100ca7412242e70a933bfb49ff26f7c4dfd398401382f06b774b5077eba34a93"
+    },
+    {
+      "path": "cohorts/2024/official/metadata/plan-72817.json",
+      "bytes": 4190,
+      "sha256": "d9f8bda85364a18db655cfb331506080dc26830d71a197836d04f08e43977415"
+    },
+    {
+      "path": "cohorts/2024/official/metadata/plan-72825.json",
+      "bytes": 4217,
+      "sha256": "68e5d7fbe2c0bd1bdff9c5a44c53b9cd5fcea8090c2416accbd9f41cb8d7562a"
+    },
+    {
+      "path": "cohorts/2024/official/metadata/plan-72826.json",
+      "bytes": 4211,
+      "sha256": "af75db6ddcb72edc6bdbb8617964de8c90978629680fa006ddba6c30d940cd3c"
+    },
+    {
+      "path": "cohorts/2024/official/metadata/plan-72827.json",
+      "bytes": 4213,
+      "sha256": "245e2f7af3980d36716569608fe6ac7b0e37143af4ae8217a44054889fd604fd"
+    },
+    {
+      "path": "cohorts/2024/official/metadata/plan-72828.json",
+      "bytes": 4282,
+      "sha256": "fcad3a6e48c72404714b595ef52634dc3f90fd44a81d853ee94464f51d5dc3cb"
+    },
+    {
+      "path": "cohorts/2024/official/metadata/plan-72861.json",
+      "bytes": 4255,
+      "sha256": "957595a770ca564fa53083bd202c54fc41237b3d4ca2f8b59bc7fe41b935f3b0"
+    },
+    {
+      "path": "cohorts/2024/official/metadata/plan-72978.json",
+      "bytes": 4576,
+      "sha256": "3bcffc7eea05311be509cd7c6c39fa14849df82ad8ff060e7f08ebc5a361d866"
+    },
+    {
+      "path": "cohorts/2024/official/metadata/plan-72979.json",
+      "bytes": 4581,
+      "sha256": "1ccca93e0a835b8a670b5250648465756a4429215a6dc09261cb0037c1519f18"
+    },
+    {
+      "path": "cohorts/2024/official/metadata/plan-73374.json",
+      "bytes": 4765,
+      "sha256": "119a613ab28d1a8448b9821eec192fa0de5e87183a5c79f558926ef6e12fc309"
+    },
+    {
+      "path": "cohorts/2024/official/metadata/plan-96633.json",
+      "bytes": 4261,
+      "sha256": "37e7a0b791419874f7d5755c26a1c13047ed0457ba614eee36082f1d61a57a0b"
+    },
+    {
+      "path": "cohorts/2024/official/programmes.json",
+      "bytes": 59945,
+      "sha256": "75631766b56c973db0d495acc2a5734d00e1ae9b7793768a9eaaabe4c0b59a9c"
+    },
+    {
+      "path": "cohorts/2024/official/raw/cross-department-relevant-candidates.json",
+      "bytes": 3,
+      "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570"
+    },
+    {
+      "path": "cohorts/2024/official/raw/department-rows.json",
+      "bytes": 3692,
+      "sha256": "a3afa6dbf7e8bf9bcdc9e705c520551828c02952d7012b7c4920e91b82110a1f"
+    },
+    {
+      "path": "cohorts/2024/official/raw/directory-all-page-1.json",
+      "bytes": 25575,
+      "sha256": "c2e760f58db0bf32b8f36842a477e48ffab00554b77a54aac98c8d5a5473eca8"
+    },
+    {
+      "path": "cohorts/2024/official/raw/directory-all-page-2.json",
+      "bytes": 24708,
+      "sha256": "e2fba10de4bc74b1555dc478741b6b9534eba9cb330f48c2fcdd9d1222cbf7b9"
+    },
+    {
+      "path": "cohorts/2024/official/raw/directory-all-page-3.json",
+      "bytes": 11204,
+      "sha256": "4e7b8e07dffaf4a10a78ba817d2111b22b013a172824ac9c7f31554da7828fc9"
+    },
+    {
+      "path": "cohorts/2024/official/raw/directory-department-2621-page-1.json",
+      "bytes": 3023,
+      "sha256": "f7fcf5d26371ce4e6856ca8864f17ac37bf03ab825f238a5229551cb98512cbc"
+    },
+    {
+      "path": "cohorts/2024/official/raw/plan-72811.json.gz",
+      "bytes": 52716,
+      "sha256": "2d4fbe37c0361bc87db38310b4edb4bbc80294e9e9d4feac6a18a622e2b30467"
+    },
+    {
+      "path": "cohorts/2024/official/raw/plan-72812.json.gz",
+      "bytes": 52437,
+      "sha256": "5a4d64292b5915aa3fede37156a937a094751e8586c3e16d0733934eafef717b"
+    },
+    {
+      "path": "cohorts/2024/official/raw/plan-72813.json.gz",
+      "bytes": 52130,
+      "sha256": "c1beb4bd1da7a3ac11c4b27d8c7a24a5995d59f43fc5bded07ceb7afb6a231e6"
+    },
+    {
+      "path": "cohorts/2024/official/raw/plan-72817.json.gz",
+      "bytes": 52848,
+      "sha256": "f72c7cd5edfa0be1412d7fad8ea7903ceb5935e93d738635d4320dd6dfe6b6c9"
+    },
+    {
+      "path": "cohorts/2024/official/raw/plan-72825.json.gz",
+      "bytes": 56300,
+      "sha256": "bb65f8a979e7d801977a868feb169e0008bf6fffc1721796a6f527c391f532c1"
+    },
+    {
+      "path": "cohorts/2024/official/raw/plan-72826.json.gz",
+      "bytes": 55267,
+      "sha256": "83a280cea5347b06653f1b85baf65c117acec24c11dd75f80681a6dfb728cf3d"
+    },
+    {
+      "path": "cohorts/2024/official/raw/plan-72827.json.gz",
+      "bytes": 55535,
+      "sha256": "a7f33d05ff7b6e25ee92d1100a56582f38650e073b9c409607384df926f18efd"
+    },
+    {
+      "path": "cohorts/2024/official/raw/plan-72828.json.gz",
+      "bytes": 55305,
+      "sha256": "52083914a11c1f0e82e9c0dfb771a93e4f72555237ec01f61eeca4f701b4feea"
+    },
+    {
+      "path": "cohorts/2024/official/raw/plan-72861.json.gz",
+      "bytes": 40185,
+      "sha256": "2b7aca270d1398e07456782bd3fba15925106614f78633f334c6a0e8299c0457"
+    },
+    {
+      "path": "cohorts/2024/official/raw/plan-72978.json.gz",
+      "bytes": 20382,
+      "sha256": "3bbca92695b88ba433532d68cd9194977e493927fc60b12985573e7fe942c424"
+    },
+    {
+      "path": "cohorts/2024/official/raw/plan-72979.json.gz",
+      "bytes": 19100,
+      "sha256": "184a43ad2da9a449ce447a23622390861ddcb94c049704fa4fa650389777053b"
+    },
+    {
+      "path": "cohorts/2024/official/raw/plan-73374.json.gz",
+      "bytes": 24875,
+      "sha256": "c0e80b96f0608e0f06ec333e658ec490d4462a4c7b3736966f62781f73d32f31"
+    },
+    {
+      "path": "cohorts/2024/official/raw/plan-96633.json.gz",
+      "bytes": 35946,
+      "sha256": "1ffa84ac00dd681bef11c481ea127e4228d0463836f21b134abb7b36e17a79c8"
+    },
+    {
+      "path": "cohorts/2024/official/source-figures/plan-72811-p000-01-document_image_rId4.png",
+      "bytes": 2649,
+      "sha256": "079ee6539e29b85d9bccb9016e8147e9319c1fd1aa2a8a6ac0f4e74a915109bc"
+    },
+    {
+      "path": "cohorts/2024/official/source-figures/plan-72812-p000-01-document_image_rId4.png",
+      "bytes": 2649,
+      "sha256": "079ee6539e29b85d9bccb9016e8147e9319c1fd1aa2a8a6ac0f4e74a915109bc"
+    },
+    {
+      "path": "cohorts/2024/official/source-figures/plan-72813-p000-01-document_image_rId4.png",
+      "bytes": 2649,
+      "sha256": "079ee6539e29b85d9bccb9016e8147e9319c1fd1aa2a8a6ac0f4e74a915109bc"
+    },
+    {
+      "path": "cohorts/2024/official/source-figures/plan-72817-p000-01-document_image_rId4.png",
+      "bytes": 2649,
+      "sha256": "079ee6539e29b85d9bccb9016e8147e9319c1fd1aa2a8a6ac0f4e74a915109bc"
+    },
+    {
+      "path": "cohorts/2024/official/source-figures/plan-72825-p000-01-document_image_rId4.png",
+      "bytes": 2649,
+      "sha256": "079ee6539e29b85d9bccb9016e8147e9319c1fd1aa2a8a6ac0f4e74a915109bc"
+    },
+    {
+      "path": "cohorts/2024/official/source-figures/plan-72826-p000-01-document_image_rId4.png",
+      "bytes": 2649,
+      "sha256": "079ee6539e29b85d9bccb9016e8147e9319c1fd1aa2a8a6ac0f4e74a915109bc"
+    },
+    {
+      "path": "cohorts/2024/official/source-figures/plan-72827-p000-01-document_image_rId4.png",
+      "bytes": 2649,
+      "sha256": "079ee6539e29b85d9bccb9016e8147e9319c1fd1aa2a8a6ac0f4e74a915109bc"
+    },
+    {
+      "path": "cohorts/2024/official/source-figures/plan-72828-p000-01-document_image_rId4.png",
+      "bytes": 2649,
+      "sha256": "079ee6539e29b85d9bccb9016e8147e9319c1fd1aa2a8a6ac0f4e74a915109bc"
+    },
+    {
+      "path": "cohorts/2024/official/source-figures/plan-72861-p000-01-document_image_rId4.png",
+      "bytes": 2649,
+      "sha256": "079ee6539e29b85d9bccb9016e8147e9319c1fd1aa2a8a6ac0f4e74a915109bc"
+    },
+    {
+      "path": "cohorts/2024/official/source-figures/plan-72978-p000-01-document_image_rId4.png",
+      "bytes": 2649,
+      "sha256": "079ee6539e29b85d9bccb9016e8147e9319c1fd1aa2a8a6ac0f4e74a915109bc"
+    },
+    {
+      "path": "cohorts/2024/official/source-figures/plan-72979-p000-01-document_image_rId4.png",
+      "bytes": 2649,
+      "sha256": "079ee6539e29b85d9bccb9016e8147e9319c1fd1aa2a8a6ac0f4e74a915109bc"
+    },
+    {
+      "path": "cohorts/2024/official/source-figures/plan-73374-p000-01-document_image_rId4.png",
+      "bytes": 2649,
+      "sha256": "079ee6539e29b85d9bccb9016e8147e9319c1fd1aa2a8a6ac0f4e74a915109bc"
+    },
+    {
+      "path": "cohorts/2024/official/source-figures/plan-96633-p000-01-document_image_rId4.png",
+      "bytes": 2649,
+      "sha256": "079ee6539e29b85d9bccb9016e8147e9319c1fd1aa2a8a6ac0f4e74a915109bc"
+    },
+    {
+      "path": "cohorts/2024/official/word-originals/plan-72811.docx",
+      "bytes": 67237,
+      "sha256": "5e905495c7552117b884055e4ccff650081fca0bab3a6c9f7b7e90e012b9f807"
+    },
+    {
+      "path": "cohorts/2024/official/word-originals/plan-72812.docx",
+      "bytes": 67074,
+      "sha256": "9bd28e500bc8138eb6523d1ea130f251f7df705c8aec77bb4e07510c68ec8e89"
+    },
+    {
+      "path": "cohorts/2024/official/word-originals/plan-72813.docx",
+      "bytes": 66750,
+      "sha256": "4673d317eb816fe74ed2d1ca7361f8cf9efddab49caed0dc4ac810857b351f61"
+    },
+    {
+      "path": "cohorts/2024/official/word-originals/plan-72817.docx",
+      "bytes": 67156,
+      "sha256": "f856cebbd70c5579726aade5294a1946efeef87c3ea3c2269a41fa94f5b754b1"
+    },
+    {
+      "path": "cohorts/2024/official/word-originals/plan-72825.docx",
+      "bytes": 70871,
+      "sha256": "730171b3cf62a75d0498e2e99e99c8883351fd213a465ec1c333554c0f8ee10b"
+    },
+    {
+      "path": "cohorts/2024/official/word-originals/plan-72826.docx",
+      "bytes": 70440,
+      "sha256": "70d5e00550b979dec7a3fe5ab00f12dc1d50268e711cd402980d3ea8a89a5332"
+    },
+    {
+      "path": "cohorts/2024/official/word-originals/plan-72827.docx",
+      "bytes": 70789,
+      "sha256": "a86fb0e0cb4b6c9e661fae7ebabf206a12501d463ffce78ca685d9df9dd327d3"
+    },
+    {
+      "path": "cohorts/2024/official/word-originals/plan-72828.docx",
+      "bytes": 70463,
+      "sha256": "6e518689046c88926eb8d3144b03696a2010223505b8499f5268f177edd87f61"
+    },
+    {
+      "path": "cohorts/2024/official/word-originals/plan-72861.docx",
+      "bytes": 46082,
+      "sha256": "641439d1c8400d6f813bf24a095a7973d0f9363770fffe5531fc2a3fc199341b"
+    },
+    {
+      "path": "cohorts/2024/official/word-originals/plan-72978.docx",
+      "bytes": 25367,
+      "sha256": "69ec75c6f1931ccd2e04bdde7cd03b4a9a21aae594b2e651861ebf17c5371ff7"
+    },
+    {
+      "path": "cohorts/2024/official/word-originals/plan-72979.docx",
+      "bytes": 24090,
+      "sha256": "d5061d4192d54de458bde96f9d108a138c8c1a9309a3b95bcead7a0d224f4818"
+    },
+    {
+      "path": "cohorts/2024/official/word-originals/plan-73374.docx",
+      "bytes": 30440,
+      "sha256": "a5f8e310c97c06dd1b00a0b4109618c45b18b1035dae9d9d6ae9af16f37fb055"
+    },
+    {
+      "path": "cohorts/2024/official/word-originals/plan-96633.docx",
+      "bytes": 43166,
+      "sha256": "dea6b2cc45ebbaf6a91adf252264864b4a534dcfeb29c63587160d242666cb49"
+    },
+    {
+      "path": "cohorts/2024/official/word-text/plan-72811.txt",
+      "bytes": 30984,
+      "sha256": "cba7c804210a710919edfb103926fce6243f1af32a7c0060e1b82012813811f2"
+    },
+    {
+      "path": "cohorts/2024/official/word-text/plan-72812.txt",
+      "bytes": 30971,
+      "sha256": "f201587ff261ba761e920610a7edecb065edae8458cc5979c08b2cf7be465b3a"
+    },
+    {
+      "path": "cohorts/2024/official/word-text/plan-72813.txt",
+      "bytes": 30839,
+      "sha256": "a87f892eb516972ac9a171dff71c1ffc277a26d6fe30779606e111a965d1571f"
+    },
+    {
+      "path": "cohorts/2024/official/word-text/plan-72817.txt",
+      "bytes": 31055,
+      "sha256": "dc87052641ce694f5a071ba37f2b6aa93ecce49cd61f1a84a9e7d16e8f595374"
+    },
+    {
+      "path": "cohorts/2024/official/word-text/plan-72825.txt",
+      "bytes": 32930,
+      "sha256": "1299d978fdf58425ce71bd0b778ab0273708674859a4975ac8f552bdb90cc3d1"
+    },
+    {
+      "path": "cohorts/2024/official/word-text/plan-72826.txt",
+      "bytes": 32636,
+      "sha256": "30218197c89f2378ed3a9122c8636af0844001cc0c5d5717935265a7ea7732e4"
+    },
+    {
+      "path": "cohorts/2024/official/word-text/plan-72827.txt",
+      "bytes": 32857,
+      "sha256": "8377a4888df79f2ed29ea0699c3a6e08c4bb608e6ca4b99d3b710e8a0bb8c138"
+    },
+    {
+      "path": "cohorts/2024/official/word-text/plan-72828.txt",
+      "bytes": 32726,
+      "sha256": "ba394a590c68f6e697844736fcf8891a1788c2105c9a76e9ae21bfe1fbb5a945"
+    },
+    {
+      "path": "cohorts/2024/official/word-text/plan-72861.txt",
+      "bytes": 21401,
+      "sha256": "00c39cd95bda2ef046837da598d09c8ec788e200742b50c6021879aea5b4d1fb"
+    },
+    {
+      "path": "cohorts/2024/official/word-text/plan-72978.txt",
+      "bytes": 8371,
+      "sha256": "a47a596a2787ce280388aa7abb58e0b08c95160d0636e7820e192b19d5387d8f"
+    },
+    {
+      "path": "cohorts/2024/official/word-text/plan-72979.txt",
+      "bytes": 7857,
+      "sha256": "f6d9e280b9bcfce1095b96f026f16f7bac25c9e5bde02d3b06057927e0a9cdd5"
+    },
+    {
+      "path": "cohorts/2024/official/word-text/plan-73374.txt",
+      "bytes": 11098,
+      "sha256": "83a221fda6878965a0f5b58a84bd64913f809a7dc8c377aa0571bdf2b2bf022d"
+    },
+    {
+      "path": "cohorts/2024/official/word-text/plan-96633.txt",
+      "bytes": 17845,
+      "sha256": "96571d4ca84d12dbc9b9741c1e0dfbaa2f97f677d99afca8daf4f08eb12e0c7f"
+    },
+    {
+      "path": "cohorts/2024/README.md",
+      "bytes": 3502,
+      "sha256": "f0f69e93c5f0679778d3fed5e665601484d9ce5943db04d77fa07b541cd1b68c"
+    },
+    {
+      "path": "cohorts/2024/新闻学院课程名单.txt",
+      "bytes": 2606,
+      "sha256": "36cb57f9de9c2e58b69412916c8daee4100f3b8e35e4f7e64adb83457e26c424"
+    },
+    {
+      "path": "cohorts/2025/course-graph/edges.csv",
+      "bytes": 377582,
+      "sha256": "948f46f2fe7a7eaaf2d0b3ea144ce37ea3008fd953bbbfc5223e9fb805511e12"
+    },
+    {
+      "path": "cohorts/2025/course-graph/graph.json",
+      "bytes": 5496916,
+      "sha256": "cb423854f4b14aa3d1e436c4183e8b51d6be64a3cf2cf7dece59f7ee4eb33cc2"
+    },
+    {
+      "path": "cohorts/2025/course-graph/modules.json",
+      "bytes": 461428,
+      "sha256": "0b2d483a91e83629cca6b22a9681c5f02ef6ab1f193c4f5a3af289f909a7f418"
+    },
+    {
+      "path": "cohorts/2025/course-graph/nodes.csv",
+      "bytes": 118018,
+      "sha256": "5a3992ac15cbf1454e287aebd6cbf7759baf39ef65e31fba9d6460dc6bf4e9ab"
+    },
+    {
+      "path": "cohorts/2025/course-graph/program-course-memberships.csv",
+      "bytes": 983797,
+      "sha256": "2895b96343b3784a3306bd94f85d2d3705311b6e7b29573dff4bdc8f7befdaf2"
+    },
+    {
+      "path": "cohorts/2025/course-graph/program-course-memberships.json",
+      "bytes": 3831722,
+      "sha256": "b1365278963451df495dac475685ea1b674dae8ca1aeb1d46f9cce6f0aa4bacb"
+    },
+    {
+      "path": "cohorts/2025/course-graph/source-audit.json",
+      "bytes": 78297,
+      "sha256": "e82189014f350f82f44406ce36d1a23a944db1ca49952ab9a85e398a70521eed"
+    },
+    {
+      "path": "cohorts/2025/course-graph/课程关系选览.svg",
+      "bytes": 11252,
+      "sha256": "5bf9f69fea4616a27ee97a0be1071e1831d5c5686cb7c62432742ad2b47b2e62"
+    },
+    {
+      "path": "cohorts/2025/official/coverage.json",
+      "bytes": 12629,
+      "sha256": "ca6c369e6f31a29b418cd216908fcc62749c62bb1743bc5175deabb8829e916c"
+    },
+    {
+      "path": "cohorts/2025/official/metadata/plan-130371.json",
+      "bytes": 5624,
+      "sha256": "33501f217f0af6685d37e6d345a9a1ab0bd6ec72689f8969caeb836e7eab528f"
+    },
+    {
+      "path": "cohorts/2025/official/metadata/plan-147551.json",
+      "bytes": 5707,
+      "sha256": "a63fb771efcdb994f9d3883de643ce11f87a48b56484d1c98099d5fff3eda63f"
+    },
+    {
+      "path": "cohorts/2025/official/metadata/plan-147552.json",
+      "bytes": 5657,
+      "sha256": "62cb875638732bb52e812ff4dee2b04623f1e335cebd4c9f4bbec02a3fb79f67"
+    },
+    {
+      "path": "cohorts/2025/official/metadata/plan-147553.json",
+      "bytes": 5855,
+      "sha256": "ae2d292f53b059ce439766754f760fa282f8c01761d632f726b4ea843c9ddf8d"
+    },
+    {
+      "path": "cohorts/2025/official/metadata/plan-147554.json",
+      "bytes": 5657,
+      "sha256": "fbb6b6d40af4566defe3ee2fdcfbd34441fc8c737fd3849c33535c70ff1e26bb"
+    },
+    {
+      "path": "cohorts/2025/official/metadata/plan-96689.json",
+      "bytes": 5357,
+      "sha256": "650ebdeb38d821554f8584191a5ee178815a795d8d73f8fcd6e90cdcad914a4c"
+    },
+    {
+      "path": "cohorts/2025/official/metadata/plan-97000.json",
+      "bytes": 5334,
+      "sha256": "906d004cf5ecb5cd598c751cd91b4a3e59df93869ab4a73140267a21173b468e"
+    },
+    {
+      "path": "cohorts/2025/official/metadata/plan-97001.json",
+      "bytes": 5266,
+      "sha256": "ecc0f07c4439ad945918e6e6a989cb61a6f1eb23ebbdc9df7ab1be07e3d3d74f"
+    },
+    {
+      "path": "cohorts/2025/official/metadata/plan-97147.json",
+      "bytes": 5409,
+      "sha256": "506cb96312cfe92c31be4c85b68cda81b1d2ab2e0565f0da95018758f9be785a"
+    },
+    {
+      "path": "cohorts/2025/official/metadata/plan-97149.json",
+      "bytes": 5533,
+      "sha256": "c7c4aa7fdde268f599ec271697586cea700e9fca9b377eed776559b9c8879b19"
+    },
+    {
+      "path": "cohorts/2025/official/metadata/plan-97150.json",
+      "bytes": 5465,
+      "sha256": "42ee4b1255f492eda0b5f0fac1334c1eb613143c67ddcae0fd2639abbff12d06"
+    },
+    {
+      "path": "cohorts/2025/official/metadata/plan-97151.json",
+      "bytes": 5413,
+      "sha256": "dc68b568b8be5d707a429811c84a6133752e88862ce5c46592e8e44d76019dc5"
+    },
+    {
+      "path": "cohorts/2025/official/metadata/plan-97152.json",
+      "bytes": 5459,
+      "sha256": "3e9b14e4a50ede842af04bb7dcc4e360694637b82c156fc47f47dcbb5719581c"
+    },
+    {
+      "path": "cohorts/2025/official/metadata/plan-97153.json",
+      "bytes": 5578,
+      "sha256": "f75a2249393320bcb57eb71d7a09e1dacfe5d5b4ad9796ccbbe6fb580fce07e3"
+    },
+    {
+      "path": "cohorts/2025/official/metadata/plan-97154.json",
+      "bytes": 5510,
+      "sha256": "6ce06d3b5dda30c36aca381f27af19659a10c42b44b94b01f83d002b261a43eb"
+    },
+    {
+      "path": "cohorts/2025/official/metadata/plan-97155.json",
+      "bytes": 5507,
+      "sha256": "31297a4b46b394dcf7bd42cfd400af3c57d07437c31e6d22e81f5859a9f3df76"
+    },
+    {
+      "path": "cohorts/2025/official/metadata/plan-97156.json",
+      "bytes": 5626,
+      "sha256": "cfbb52a240c6d5b60952f4932f7e009ee8b63ac07c9f56dac604edec3c876a07"
+    },
+    {
+      "path": "cohorts/2025/official/metadata/plan-97157.json",
+      "bytes": 5558,
+      "sha256": "5034e5545ffe7a5c8233470cad89a31bf646eff44054f52f61d7f5cc761ab0b4"
+    },
+    {
+      "path": "cohorts/2025/official/metadata/plan-97159.json",
+      "bytes": 5453,
+      "sha256": "7d25ed48f21a031b57d245acb1edcaa46a74b4a0c2dca457aaf7dbc1759cbcec"
+    },
+    {
+      "path": "cohorts/2025/official/metadata/plan-97160.json",
+      "bytes": 5501,
+      "sha256": "6e5380f944f56024c826ef056c036be6a60d2a336fb04f62d406ff4afdcbfe38"
+    },
+    {
+      "path": "cohorts/2025/official/metadata/plan-97167.json",
+      "bytes": 5797,
+      "sha256": "5192a08b28c0697c3204dbd456f75f7d88c166053d67b054e373b88acd849881"
+    },
+    {
+      "path": "cohorts/2025/official/metadata/plan-97168.json",
+      "bytes": 5802,
+      "sha256": "4007d7acfd9316d70b23149bc6d63ba542c9d216213ef13dc905ce8a04587839"
+    },
+    {
+      "path": "cohorts/2025/official/metadata/plan-97176.json",
+      "bytes": 5752,
+      "sha256": "ae38df56f0dadc83b42e24c3c54eace0f6ac57b7262a75b0738ef483916dc40d"
+    },
+    {
+      "path": "cohorts/2025/official/metadata/plan-97177.json",
+      "bytes": 5748,
+      "sha256": "f0636e154dd414c272a51a08f887bbf6c4d23fb657a7c3d0ba3a4694223fa97c"
+    },
+    {
+      "path": "cohorts/2025/official/metadata/plan-97179.json",
+      "bytes": 5944,
+      "sha256": "87c80bcfe8d320803b0fdab0062e9377fde53faac8ba765694b59e22f27f2252"
+    },
+    {
+      "path": "cohorts/2025/official/metadata/plan-97181.json",
+      "bytes": 5714,
+      "sha256": "c7c7e36497fb4ee7a8b93e143bb8f8480eb0e82511927aad7917e0d62618a762"
+    },
+    {
+      "path": "cohorts/2025/official/metadata/plan-97183.json",
+      "bytes": 5749,
+      "sha256": "d78e6287409a7570752321b879bc099dc157b8437fa3cf3d2717a1b6b6b54ae2"
+    },
+    {
+      "path": "cohorts/2025/official/metadata/plan-97480.json",
+      "bytes": 4191,
+      "sha256": "b66ce096f9f407c4b3319cda50e306f151e11f60ffd39ea31d46756d070f70b4"
+    },
+    {
+      "path": "cohorts/2025/official/metadata/plan-97491.json",
+      "bytes": 4284,
+      "sha256": "9cffd47581a76bff246b5a67b980a1a1cbc79711988b12eec0b2981a256a5b13"
+    },
+    {
+      "path": "cohorts/2025/official/programmes.json",
+      "bytes": 169484,
+      "sha256": "fdf8717c6524e4f1d240be2c75cf7707046b463eff7a5160f19ffeb0f2681242"
+    },
+    {
+      "path": "cohorts/2025/official/raw/cross-department-relevant-candidates.json",
+      "bytes": 3,
+      "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570"
+    },
+    {
+      "path": "cohorts/2025/official/raw/department-rows.json",
+      "bytes": 8942,
+      "sha256": "323da361763cd11eb91688a32865ebdf03d3c5f58ce434b20d92ec46431bd108"
+    },
+    {
+      "path": "cohorts/2025/official/raw/directory-all-page-1.json",
+      "bytes": 26131,
+      "sha256": "e44b13adea438ae33673934d4a404b9d89cb13d3952ffc30948c612a2757cadd"
+    },
+    {
+      "path": "cohorts/2025/official/raw/directory-all-page-2.json",
+      "bytes": 25639,
+      "sha256": "287878dc62dd3c507d125dee2de86922aa50155bcdc457f2f4a48befcd933d37"
+    },
+    {
+      "path": "cohorts/2025/official/raw/directory-all-page-3.json",
+      "bytes": 26494,
+      "sha256": "237054667a8676f9967d5cfec0c8c6288c64a0b108c70dda80877eab1597feb2"
+    },
+    {
+      "path": "cohorts/2025/official/raw/directory-all-page-4.json",
+      "bytes": 25201,
+      "sha256": "0e1a7b26b49349123bde62ad23ed5e92987c67889a0f7ff7a24e32c1a19f225c"
+    },
+    {
+      "path": "cohorts/2025/official/raw/directory-all-page-5.json",
+      "bytes": 1916,
+      "sha256": "2af11407485af6798496734a5a2c0e85f1ec636dda3549197d049de4b38360a9"
+    },
+    {
+      "path": "cohorts/2025/official/raw/directory-department-2621-page-1.json",
+      "bytes": 7313,
+      "sha256": "b23898328695c16be4b8e063d96bd19b1fad98e05249b7505bb90a8b5b2c66e3"
+    },
+    {
+      "path": "cohorts/2025/official/raw/plan-130371.json.gz",
+      "bytes": 33785,
+      "sha256": "c6323efd541cce0c08f9c78a66c5a90decde557bc4669b663eeb77ab6919ca63"
+    },
+    {
+      "path": "cohorts/2025/official/raw/plan-147551.json.gz",
+      "bytes": 30245,
+      "sha256": "8005f44935bb32377c4cebc23055e19620c27a3a7e9f7c6950206f607751de48"
+    },
+    {
+      "path": "cohorts/2025/official/raw/plan-147552.json.gz",
+      "bytes": 31599,
+      "sha256": "e3bc5a3913b52cfe9e4adacc49eca13339ee5e5a7b41d4860f2207bbc3fb3e56"
+    },
+    {
+      "path": "cohorts/2025/official/raw/plan-147553.json.gz",
+      "bytes": 31075,
+      "sha256": "e009e69c07c6a1820fbe1b48b09cc6f5d908acb36e75a8fd28237ee7edc3bc03"
+    },
+    {
+      "path": "cohorts/2025/official/raw/plan-147554.json.gz",
+      "bytes": 33924,
+      "sha256": "83d127a8de610ce6a8398cfee612c6ebe22b0eb3018fe29efac7b23d6c6f362f"
+    },
+    {
+      "path": "cohorts/2025/official/raw/plan-96689.json.gz",
+      "bytes": 109565,
+      "sha256": "e4f1f39e868e02df7dd62a77b071e86ca1089860fc9860d6002dbe33f0534e20"
+    },
+    {
+      "path": "cohorts/2025/official/raw/plan-97000.json.gz",
+      "bytes": 35227,
+      "sha256": "69f6e55040d765f518c1ec996892b24f73905f9cc0a275396d37789586624b0c"
+    },
+    {
+      "path": "cohorts/2025/official/raw/plan-97001.json.gz",
+      "bytes": 30789,
+      "sha256": "7ad1cfc3e7a9584b5c12cbb8542b36a5fb149891d796ed6fc447b12dc9d4ece5"
+    },
+    {
+      "path": "cohorts/2025/official/raw/plan-97147.json.gz",
+      "bytes": 42983,
+      "sha256": "ec49d0a5bd28c7a3e033a8b05a40a5cf41a89c6a8823e2a38060b6ee6c7e4bb8"
+    },
+    {
+      "path": "cohorts/2025/official/raw/plan-97149.json.gz",
+      "bytes": 42275,
+      "sha256": "f0f0908b91a92bbc11dfa98b3e4504bbf4d988ca404856d4e0db1a08354b9e7c"
+    },
+    {
+      "path": "cohorts/2025/official/raw/plan-97150.json.gz",
+      "bytes": 117960,
+      "sha256": "2488fdfc3df9b52de33fc269bb8a0a1d4ca7e03b3777ae3e5806e823e833fd73"
+    },
+    {
+      "path": "cohorts/2025/official/raw/plan-97151.json.gz",
+      "bytes": 118645,
+      "sha256": "6bed4fa22467bd9cdad55bbd5c7911d690f63fb5f9a3d628f6f5f195283eb804"
+    },
+    {
+      "path": "cohorts/2025/official/raw/plan-97152.json.gz",
+      "bytes": 114959,
+      "sha256": "a7fe32273c89adb89110b0566ac72eb9560c7ccff9236c0c85fff67236161d0f"
+    },
+    {
+      "path": "cohorts/2025/official/raw/plan-97153.json.gz",
+      "bytes": 45424,
+      "sha256": "77522a606d468842682bedc57cb29f1139b466bb5cc889287f21a6ff22912cc2"
+    },
+    {
+      "path": "cohorts/2025/official/raw/plan-97154.json.gz",
+      "bytes": 114325,
+      "sha256": "8358616e194552e69fe0d3947c1685561c14f23362e4ce1e80ddee32abac035b"
+    },
+    {
+      "path": "cohorts/2025/official/raw/plan-97155.json.gz",
+      "bytes": 111872,
+      "sha256": "673fec0b2f9ea07f59b94257f627a17a24db34829f7e408f1e9f8ac501b787ec"
+    },
+    {
+      "path": "cohorts/2025/official/raw/plan-97156.json.gz",
+      "bytes": 42235,
+      "sha256": "cd58074c1cf3b230d72d5c90bbc1c24734024eb3c817fcdd3bb38dcc0a95d46a"
+    },
+    {
+      "path": "cohorts/2025/official/raw/plan-97157.json.gz",
+      "bytes": 42503,
+      "sha256": "11911bb7c9400e5e68bdd3ad5d6c301060248995f377d57c344e064d8b6663f4"
+    },
+    {
+      "path": "cohorts/2025/official/raw/plan-97159.json.gz",
+      "bytes": 114860,
+      "sha256": "7ad9aea46f2795045f132745cbcdc9d48619d21812489f22fc2f2b87b59cc08d"
+    },
+    {
+      "path": "cohorts/2025/official/raw/plan-97160.json.gz",
+      "bytes": 111627,
+      "sha256": "6026c37ced2cb4e35cfe5e1fe40ae0575f19b58de9888b4493792cf8ce1b66a4"
+    },
+    {
+      "path": "cohorts/2025/official/raw/plan-97167.json.gz",
+      "bytes": 24183,
+      "sha256": "301023fca1ff4d4c8a2fa96dd03d62d52b33fe1004611f8d74290eaefff107e5"
+    },
+    {
+      "path": "cohorts/2025/official/raw/plan-97168.json.gz",
+      "bytes": 23171,
+      "sha256": "389126587c378d798cc18e9d5bb7062b41d8d0a2e2385f4369ee7bb113072c68"
+    },
+    {
+      "path": "cohorts/2025/official/raw/plan-97176.json.gz",
+      "bytes": 24103,
+      "sha256": "91c880bde474b14877b0627efb2fdf73f0ba82754317ba5aae8d46fbfca2c941"
+    },
+    {
+      "path": "cohorts/2025/official/raw/plan-97177.json.gz",
+      "bytes": 27823,
+      "sha256": "616f4d5e5de1972365a7079442afd2582b37d19e8c7ec0a2c48e3c034157b1bc"
+    },
+    {
+      "path": "cohorts/2025/official/raw/plan-97179.json.gz",
+      "bytes": 24812,
+      "sha256": "010a93cf20b13b87230337871f6b58c60c38b609f22b471b087ecbd2e5018b5c"
+    },
+    {
+      "path": "cohorts/2025/official/raw/plan-97181.json.gz",
+      "bytes": 27288,
+      "sha256": "ca5a8027176e12946c103b4a23cf52c5d9b3d4ea3b84fc11d315fed2801a03c8"
+    },
+    {
+      "path": "cohorts/2025/official/raw/plan-97183.json.gz",
+      "bytes": 25348,
+      "sha256": "be054eacf8170d2362dd93844645303278091ec0a6d930cf5bca4f068cb9ab15"
+    },
+    {
+      "path": "cohorts/2025/official/raw/plan-97480.json.gz",
+      "bytes": 49315,
+      "sha256": "75295c31dec3eec1597c8f2c8c44136b2600bc594a40a77d3e88d8d0f9a85ddc"
+    },
+    {
+      "path": "cohorts/2025/official/raw/plan-97491.json.gz",
+      "bytes": 49205,
+      "sha256": "4e25bd407e1672518994895a2de7a4ecbcad0f8bdb30b367629d403416a1dabf"
+    },
+    {
+      "path": "cohorts/2025/official/source-figures/plan-130371-p000-01-document_image_rId4.png",
+      "bytes": 2649,
+      "sha256": "079ee6539e29b85d9bccb9016e8147e9319c1fd1aa2a8a6ac0f4e74a915109bc"
+    },
+    {
+      "path": "cohorts/2025/official/source-figures/plan-130371-p008-02-document_image_rId5.png",
+      "bytes": 23523,
+      "sha256": "e96e69c6ee55e8899d01336ebff28015013e61a8c98105284f754353eac047ab"
+    },
+    {
+      "path": "cohorts/2025/official/source-figures/plan-130371-p168-03-document_image_rId6.png",
+      "bytes": 25680,
+      "sha256": "dc3971f6ebd39aa62f9ee2d4ceb5de6ba530b277679287da432d43357c242652"
+    },
+    {
+      "path": "cohorts/2025/official/source-figures/plan-130371-p187-04-document_image_rId7.png",
+      "bytes": 88795,
+      "sha256": "d18ea0cfcfc5853b2cad41b35605eb2e63c3905b566b06c685e1e4bb3a3b45fa"
+    },
+    {
+      "path": "cohorts/2025/official/source-figures/plan-147551-p000-01-document_image_rId4.png",
+      "bytes": 2649,
+      "sha256": "079ee6539e29b85d9bccb9016e8147e9319c1fd1aa2a8a6ac0f4e74a915109bc"
+    },
+    {
+      "path": "cohorts/2025/official/source-figures/plan-147551-p008-02-document_image_rId5.png",
+      "bytes": 23523,
+      "sha256": "e96e69c6ee55e8899d01336ebff28015013e61a8c98105284f754353eac047ab"
+    },
+    {
+      "path": "cohorts/2025/official/source-figures/plan-147551-p169-03-document_image_rId6.png",
+      "bytes": 26196,
+      "sha256": "a36a054f76e147fff984b00f2cc732010309284c146f96f55f427eeea51cb0de"
+    },
+    {
+      "path": "cohorts/2025/official/source-figures/plan-147551-p188-04-document_image_rId7.png",
+      "bytes": 83088,
+      "sha256": "4dcc154aa25513c07760245400ebfa0305143a776b8ac5955898c99531a4ae5b"
+    },
+    {
+      "path": "cohorts/2025/official/source-figures/plan-147552-p000-01-document_image_rId4.png",
+      "bytes": 2649,
+      "sha256": "079ee6539e29b85d9bccb9016e8147e9319c1fd1aa2a8a6ac0f4e74a915109bc"
+    },
+    {
+      "path": "cohorts/2025/official/source-figures/plan-147552-p009-02-document_image_rId5.png",
+      "bytes": 23523,
+      "sha256": "e96e69c6ee55e8899d01336ebff28015013e61a8c98105284f754353eac047ab"
+    },
+    {
+      "path": "cohorts/2025/official/source-figures/plan-147552-p170-03-document_image_rId6.png",
+      "bytes": 53937,
+      "sha256": "119b1c87c77a4e3afc0df90c49ca8857d74aa68e3690a89af089779a83d2a578"
+    },
+    {
+      "path": "cohorts/2025/official/source-figures/plan-147552-p189-04-document_image_rId7.png",
+      "bytes": 83677,
+      "sha256": "8e7d02bacab721811571cf5c2a6afa48219c1cdbd8d4ffaa996688c3fa2a040f"
+    },
+    {
+      "path": "cohorts/2025/official/source-figures/plan-147553-p000-01-document_image_rId4.png",
+      "bytes": 2649,
+      "sha256": "079ee6539e29b85d9bccb9016e8147e9319c1fd1aa2a8a6ac0f4e74a915109bc"
+    },
+    {
+      "path": "cohorts/2025/official/source-figures/plan-147553-p008-02-document_image_rId5.png",
+      "bytes": 23523,
+      "sha256": "e96e69c6ee55e8899d01336ebff28015013e61a8c98105284f754353eac047ab"
+    },
+    {
+      "path": "cohorts/2025/official/source-figures/plan-147553-p168-03-document_image_rId6.png",
+      "bytes": 25593,
+      "sha256": "6645451790b9993d778846f13d729d302e0747e9319531968c25578c3428df9f"
+    },
+    {
+      "path": "cohorts/2025/official/source-figures/plan-147553-p187-04-document_image_rId7.png",
+      "bytes": 87490,
+      "sha256": "db16a5f98126160dcf03a60814c2004e7db2f3cf2b1dfa0febf1f87ad829e233"
+    },
+    {
+      "path": "cohorts/2025/official/source-figures/plan-147554-p000-01-document_image_rId4.png",
+      "bytes": 2649,
+      "sha256": "079ee6539e29b85d9bccb9016e8147e9319c1fd1aa2a8a6ac0f4e74a915109bc"
+    },
+    {
+      "path": "cohorts/2025/official/source-figures/plan-147554-p008-02-document_image_rId5.png",
+      "bytes": 23523,
+      "sha256": "e96e69c6ee55e8899d01336ebff28015013e61a8c98105284f754353eac047ab"
+    },
+    {
+      "path": "cohorts/2025/official/source-figures/plan-147554-p168-03-document_image_rId6.png",
+      "bytes": 26427,
+      "sha256": "07e7b3258a690be5015b77a083ebe5b817dddd3381e038312afd08265d7a038f"
+    },
+    {
+      "path": "cohorts/2025/official/source-figures/plan-147554-p188-04-document_image_rId7.png",
+      "bytes": 85986,
+      "sha256": "ca4997b156509532bafd56f5f0045363bac5f3439089eefa16ea42bf84465267"
+    },
+    {
+      "path": "cohorts/2025/official/source-figures/plan-96689-p000-01-document_image_rId4.png",
+      "bytes": 2649,
+      "sha256": "079ee6539e29b85d9bccb9016e8147e9319c1fd1aa2a8a6ac0f4e74a915109bc"
+    },
+    {
+      "path": "cohorts/2025/official/source-figures/plan-96689-p008-02-document_image_rId5.png",
+      "bytes": 23765,
+      "sha256": "24c1cac6d87a1a7a837b3bc845560c7d352d15f07c29273d840e4a8b717ea1b7"
+    },
+    {
+      "path": "cohorts/2025/official/source-figures/plan-96689-p126-03-document_image_rId6.png",
+      "bytes": 105658,
+      "sha256": "acf65636b624f70e806a0e5819fa6740ab406341ed04bd5ec4387f64accc734c"
+    },
+    {
+      "path": "cohorts/2025/official/source-figures/plan-96689-p155-04-document_image_rId7.png",
+      "bytes": 67884,
+      "sha256": "179ba05a7f3130df37c157a85e60d50b26b14fac21da0b8246fcd11de9ce4afd"
+    },
+    {
+      "path": "cohorts/2025/official/source-figures/plan-97000-p000-01-document_image_rId4.png",
+      "bytes": 2649,
+      "sha256": "079ee6539e29b85d9bccb9016e8147e9319c1fd1aa2a8a6ac0f4e74a915109bc"
+    },
+    {
+      "path": "cohorts/2025/official/source-figures/plan-97000-p008-02-document_image_rId5.png",
+      "bytes": 24699,
+      "sha256": "f95056af88131ff690e0d26018bb5104e9b6ada9c703b9d4342670f43ac92133"
+    },
+    {
+      "path": "cohorts/2025/official/source-figures/plan-97000-p168-03-document_image_rId6.png",
+      "bytes": 94567,
+      "sha256": "7138dbbb52be938a66acf5f88fdd59006b126003011f1e9d637d618cc3bca51d"
+    },
+    {
+      "path": "cohorts/2025/official/source-figures/plan-97000-p197-04-document_image_rId7.png",
+      "bytes": 135879,
+      "sha256": "ae3ade537913f4159ca1f838071add83a540151020d3cafd0c161c12f701fd4a"
+    },
+    {
+      "path": "cohorts/2025/official/source-figures/plan-97001-p000-01-document_image_rId4.png",
+      "bytes": 2649,
+      "sha256": "079ee6539e29b85d9bccb9016e8147e9319c1fd1aa2a8a6ac0f4e74a915109bc"
+    },
+    {
+      "path": "cohorts/2025/official/source-figures/plan-97001-p008-02-document_image_rId5.png",
+      "bytes": 25370,
+      "sha256": "62b4cd545269e4b661f371fe9176e6f8c2b0336704324addb8dfdf4f43f2bb0c"
+    },
+    {
+      "path": "cohorts/2025/official/source-figures/plan-97001-p168-03-document_image_rId6.png",
+      "bytes": 96275,
+      "sha256": "e7e046747929d2ad982c520d0f5753675e116b82e48c4686a58e831f520a8289"
+    },
+    {
+      "path": "cohorts/2025/official/source-figures/plan-97001-p196-04-document_image_rId7.png",
+      "bytes": 143887,
+      "sha256": "cd487c83d28281db7feb0055752d618529612fac07b99a5491f5f20b890291f7"
+    },
+    {
+      "path": "cohorts/2025/official/source-figures/plan-97147-p000-01-document_image_rId4.png",
+      "bytes": 2649,
+      "sha256": "079ee6539e29b85d9bccb9016e8147e9319c1fd1aa2a8a6ac0f4e74a915109bc"
+    },
+    {
+      "path": "cohorts/2025/official/source-figures/plan-97147-p008-02-document_image_rId5.png",
+      "bytes": 23523,
+      "sha256": "e96e69c6ee55e8899d01336ebff28015013e61a8c98105284f754353eac047ab"
+    },
+    {
+      "path": "cohorts/2025/official/source-figures/plan-97147-p011-03-document_image_rId6.png",
+      "bytes": 51740,
+      "sha256": "aafe83546f3b1a332ba2997dc74675e820a68760a9a502e6066aa4ddd4d10629"
+    },
+    {
+      "path": "cohorts/2025/official/source-figures/plan-97147-p013-04-document_image_rId7.png",
+      "bytes": 97779,
+      "sha256": "5489d6af962286d2b85d8bd204c4c1bab1aaa28c168b3cab680ba40c7c59a00d"
+    },
+    {
+      "path": "cohorts/2025/official/source-figures/plan-97147-p027-05-document_image_rId8.png",
+      "bytes": 64505,
+      "sha256": "146dfd200bfe65307c226082a35e2cdfed90bcd112a3346cc5c2cafd68b33187"
+    },
+    {
+      "path": "cohorts/2025/official/source-figures/plan-97149-p000-01-document_image_rId4.png",
+      "bytes": 2649,
+      "sha256": "079ee6539e29b85d9bccb9016e8147e9319c1fd1aa2a8a6ac0f4e74a915109bc"
+    },
+    {
+      "path": "cohorts/2025/official/source-figures/plan-97149-p008-02-document_image_rId5.png",
+      "bytes": 25122,
+      "sha256": "374841998a406ab0bb80b19052c81bf9dc122e8fcfa8aaa15844375a8b35562a"
+    },
+    {
+      "path": "cohorts/2025/official/source-figures/plan-97149-p011-03-document_image_rId6.png",
+      "bytes": 12057,
+      "sha256": "c4b0efb6faaebe4d5a7ff10cfe6004548b63ddd9b4d9a6f11f230a1467233154"
+    },
+    {
+      "path": "cohorts/2025/official/source-figures/plan-97149-p013-04-document_image_rId7.png",
+      "bytes": 97779,
+      "sha256": "5489d6af962286d2b85d8bd204c4c1bab1aaa28c168b3cab680ba40c7c59a00d"
+    },
+    {
+      "path": "cohorts/2025/official/source-figures/plan-97149-p026-05-document_image_rId8.png",
+      "bytes": 86709,
+      "sha256": "6d598da66b332fd76ce72d1c3ed732b6e59312a40ecc941ad17dc2e10ca70504"
+    },
+    {
+      "path": "cohorts/2025/official/source-figures/plan-97150-p000-01-document_image_rId4.png",
+      "bytes": 2649,
+      "sha256": "079ee6539e29b85d9bccb9016e8147e9319c1fd1aa2a8a6ac0f4e74a915109bc"
+    },
+    {
+      "path": "cohorts/2025/official/source-figures/plan-97150-p008-02-document_image_rId5.png",
+      "bytes": 25440,
+      "sha256": "4eb3207f73f8baed6a61c403c4164ab3f0c744c68f240e75032ed5e7a859e90e"
+    },
+    {
+      "path": "cohorts/2025/official/source-figures/plan-97150-p011-03-document_image_rId6.png",
+      "bytes": 11645,
+      "sha256": "310a221fc549569b87bbb029e7cb3281696695a837937b16308b58035e68da15"
+    },
+    {
+      "path": "cohorts/2025/official/source-figures/plan-97150-p013-04-document_image_rId7.png",
+      "bytes": 97779,
+      "sha256": "5489d6af962286d2b85d8bd204c4c1bab1aaa28c168b3cab680ba40c7c59a00d"
+    },
+    {
+      "path": "cohorts/2025/official/source-figures/plan-97150-p026-05-document_image_rId8.png",
+      "bytes": 64428,
+      "sha256": "2f39f72d334aaf8d0823b8845bdb3e775a424897dd9b2ad90471776989be0994"
+    },
+    {
+      "path": "cohorts/2025/official/source-figures/plan-97151-p000-01-document_image_rId4.png",
+      "bytes": 2649,
+      "sha256": "079ee6539e29b85d9bccb9016e8147e9319c1fd1aa2a8a6ac0f4e74a915109bc"
+    },
+    {
+      "path": "cohorts/2025/official/source-figures/plan-97151-p008-02-document_image_rId5.png",
+      "bytes": 25174,
+      "sha256": "eb194735d80dada41066f633667138510823cd6b94540c5a89cc95d35a2e8b28"
+    },
+    {
+      "path": "cohorts/2025/official/source-figures/plan-97151-p011-03-document_image_rId6.png",
+      "bytes": 8337,
+      "sha256": "c4308cb83eaa7eb967f987b82edb8be888f99acf69c9f799a7c075e769cccb14"
+    },
+    {
+      "path": "cohorts/2025/official/source-figures/plan-97151-p013-04-document_image_rId7.png",
+      "bytes": 97779,
+      "sha256": "5489d6af962286d2b85d8bd204c4c1bab1aaa28c168b3cab680ba40c7c59a00d"
+    },
+    {
+      "path": "cohorts/2025/official/source-figures/plan-97151-p027-05-document_image_rId8.png",
+      "bytes": 82965,
+      "sha256": "2f7fec10498e687a7764936336a0bde0a099c372e3e8b5c16a29a2511053b21b"
+    },
+    {
+      "path": "cohorts/2025/official/source-figures/plan-97152-p000-01-document_image_rId4.png",
+      "bytes": 2649,
+      "sha256": "079ee6539e29b85d9bccb9016e8147e9319c1fd1aa2a8a6ac0f4e74a915109bc"
+    },
+    {
+      "path": "cohorts/2025/official/source-figures/plan-97152-p008-02-document_image_rId5.png",
+      "bytes": 25174,
+      "sha256": "eb194735d80dada41066f633667138510823cd6b94540c5a89cc95d35a2e8b28"
+    },
+    {
+      "path": "cohorts/2025/official/source-figures/plan-97152-p011-03-document_image_rId6.png",
+      "bytes": 56183,
+      "sha256": "f828685b6ad9f3e4a357d72413d9cb20c6b32b7c8f9460557552f78bb7bc81c2"
+    },
+    {
+      "path": "cohorts/2025/official/source-figures/plan-97152-p013-04-document_image_rId7.png",
+      "bytes": 24702,
+      "sha256": "96c73d585cc261bb6101a3be542eb8adaf161f9501c05be8602adaa2ccbe1051"
+    },
+    {
+      "path": "cohorts/2025/official/source-figures/plan-97152-p026-05-document_image_rId8.png",
+      "bytes": 82965,
+      "sha256": "2f7fec10498e687a7764936336a0bde0a099c372e3e8b5c16a29a2511053b21b"
+    },
+    {
+      "path": "cohorts/2025/official/source-figures/plan-97153-p000-01-document_image_rId4.png",
+      "bytes": 2649,
+      "sha256": "079ee6539e29b85d9bccb9016e8147e9319c1fd1aa2a8a6ac0f4e74a915109bc"
+    },
+    {
+      "path": "cohorts/2025/official/source-figures/plan-97153-p008-02-document_image_rId5.png",
+      "bytes": 25122,
+      "sha256": "374841998a406ab0bb80b19052c81bf9dc122e8fcfa8aaa15844375a8b35562a"
+    },
+    {
+      "path": "cohorts/2025/official/source-figures/plan-97153-p011-03-document_image_rId6.png",
+      "bytes": 12225,
+      "sha256": "aa5fb8ef5012aea91dbdce15d2b421af2e3b41d3b4e6c0c9e5055c8c39bc8fe3"
+    },
+    {
+      "path": "cohorts/2025/official/source-figures/plan-97153-p013-04-document_image_rId7.png",
+      "bytes": 65929,
+      "sha256": "9e6964a0ccd815ac58516e2c8acffd3c83e9ce8e8352b61720c47cf81ff254f5"
+    },
+    {
+      "path": "cohorts/2025/official/source-figures/plan-97153-p026-05-document_image_rId8.png",
+      "bytes": 86709,
+      "sha256": "6d598da66b332fd76ce72d1c3ed732b6e59312a40ecc941ad17dc2e10ca70504"
+    },
+    {
+      "path": "cohorts/2025/official/source-figures/plan-97154-p000-01-document_image_rId4.png",
+      "bytes": 2649,
+      "sha256": "079ee6539e29b85d9bccb9016e8147e9319c1fd1aa2a8a6ac0f4e74a915109bc"
+    },
+    {
+      "path": "cohorts/2025/official/source-figures/plan-97154-p008-02-document_image_rId5.png",
+      "bytes": 25440,
+      "sha256": "4eb3207f73f8baed6a61c403c4164ab3f0c744c68f240e75032ed5e7a859e90e"
+    },
+    {
+      "path": "cohorts/2025/official/source-figures/plan-97154-p011-03-document_image_rId6.png",
+      "bytes": 11515,
+      "sha256": "249cb13f78c793a133ef7573020428754fef3ed7d278355175f37269943a87e6"
+    },
+    {
+      "path": "cohorts/2025/official/source-figures/plan-97154-p013-04-document_image_rId7.png",
+      "bytes": 99836,
+      "sha256": "9dc35e4c80679e57bfd46f705b6c547d143c2ac2dac87ec4e1e68ec5cc8c9c9f"
+    },
+    {
+      "path": "cohorts/2025/official/source-figures/plan-97154-p026-05-document_image_rId8.png",
+      "bytes": 64428,
+      "sha256": "2f39f72d334aaf8d0823b8845bdb3e775a424897dd9b2ad90471776989be0994"
+    },
+    {
+      "path": "cohorts/2025/official/source-figures/plan-97155-p000-01-document_image_rId4.png",
+      "bytes": 2649,
+      "sha256": "079ee6539e29b85d9bccb9016e8147e9319c1fd1aa2a8a6ac0f4e74a915109bc"
+    },
+    {
+      "path": "cohorts/2025/official/source-figures/plan-97155-p008-02-document_image_rId5.png",
+      "bytes": 25174,
+      "sha256": "eb194735d80dada41066f633667138510823cd6b94540c5a89cc95d35a2e8b28"
+    },
+    {
+      "path": "cohorts/2025/official/source-figures/plan-97155-p011-03-document_image_rId6.png",
+      "bytes": 66021,
+      "sha256": "c36f0e2dfbd5e8dc6ecbfbc5d401970270e212ace65fe70f050e0322b3edf236"
+    },
+    {
+      "path": "cohorts/2025/official/source-figures/plan-97155-p013-04-document_image_rId7.png",
+      "bytes": 96512,
+      "sha256": "02736cb9cf91d2df60b2d0cd1b4b76eb6929549be44064badba90c375bb3d6ed"
+    },
+    {
+      "path": "cohorts/2025/official/source-figures/plan-97155-p027-05-document_image_rId8.png",
+      "bytes": 82965,
+      "sha256": "2f7fec10498e687a7764936336a0bde0a099c372e3e8b5c16a29a2511053b21b"
+    },
+    {
+      "path": "cohorts/2025/official/source-figures/plan-97156-p000-01-document_image_rId4.png",
+      "bytes": 2649,
+      "sha256": "079ee6539e29b85d9bccb9016e8147e9319c1fd1aa2a8a6ac0f4e74a915109bc"
+    },
+    {
+      "path": "cohorts/2025/official/source-figures/plan-97156-p008-02-document_image_rId5.png",
+      "bytes": 25122,
+      "sha256": "374841998a406ab0bb80b19052c81bf9dc122e8fcfa8aaa15844375a8b35562a"
+    },
+    {
+      "path": "cohorts/2025/official/source-figures/plan-97156-p011-03-document_image_rId6.png",
+      "bytes": 12037,
+      "sha256": "32f65fd7cd4aff377fdbe41628e1ce2b7e2f7003bad1b3699f70e86c74f05479"
+    },
+    {
+      "path": "cohorts/2025/official/source-figures/plan-97156-p013-04-document_image_rId7.png",
+      "bytes": 96512,
+      "sha256": "02736cb9cf91d2df60b2d0cd1b4b76eb6929549be44064badba90c375bb3d6ed"
+    },
+    {
+      "path": "cohorts/2025/official/source-figures/plan-97156-p026-05-document_image_rId8.png",
+      "bytes": 86709,
+      "sha256": "6d598da66b332fd76ce72d1c3ed732b6e59312a40ecc941ad17dc2e10ca70504"
+    },
+    {
+      "path": "cohorts/2025/official/source-figures/plan-97157-p000-01-document_image_rId4.png",
+      "bytes": 2649,
+      "sha256": "079ee6539e29b85d9bccb9016e8147e9319c1fd1aa2a8a6ac0f4e74a915109bc"
+    },
+    {
+      "path": "cohorts/2025/official/source-figures/plan-97157-p008-02-document_image_rId5.png",
+      "bytes": 25440,
+      "sha256": "4eb3207f73f8baed6a61c403c4164ab3f0c744c68f240e75032ed5e7a859e90e"
+    },
+    {
+      "path": "cohorts/2025/official/source-figures/plan-97157-p011-03-document_image_rId6.png",
+      "bytes": 11935,
+      "sha256": "83eb1d0dbb659f6b1946a3202289c82c52c4438711a6420583e32594ca89a239"
+    },
+    {
+      "path": "cohorts/2025/official/source-figures/plan-97157-p013-04-document_image_rId7.png",
+      "bytes": 96512,
+      "sha256": "02736cb9cf91d2df60b2d0cd1b4b76eb6929549be44064badba90c375bb3d6ed"
+    },
+    {
+      "path": "cohorts/2025/official/source-figures/plan-97157-p026-05-document_image_rId8.png",
+      "bytes": 64428,
+      "sha256": "2f39f72d334aaf8d0823b8845bdb3e775a424897dd9b2ad90471776989be0994"
+    },
+    {
+      "path": "cohorts/2025/official/source-figures/plan-97159-p000-01-document_image_rId4.png",
+      "bytes": 2649,
+      "sha256": "079ee6539e29b85d9bccb9016e8147e9319c1fd1aa2a8a6ac0f4e74a915109bc"
+    },
+    {
+      "path": "cohorts/2025/official/source-figures/plan-97159-p008-02-document_image_rId5.png",
+      "bytes": 23523,
+      "sha256": "e96e69c6ee55e8899d01336ebff28015013e61a8c98105284f754353eac047ab"
+    },
+    {
+      "path": "cohorts/2025/official/source-figures/plan-97159-p011-03-document_image_rId6.png",
+      "bytes": 8460,
+      "sha256": "fadddb602a8ba9c35eef753b93e34bef532b2d571c796fdb6f451aa5326a5c1f"
+    },
+    {
+      "path": "cohorts/2025/official/source-figures/plan-97159-p013-04-document_image_rId7.png",
+      "bytes": 99836,
+      "sha256": "9dc35e4c80679e57bfd46f705b6c547d143c2ac2dac87ec4e1e68ec5cc8c9c9f"
+    },
+    {
+      "path": "cohorts/2025/official/source-figures/plan-97159-p026-05-document_image_rId8.png",
+      "bytes": 64505,
+      "sha256": "146dfd200bfe65307c226082a35e2cdfed90bcd112a3346cc5c2cafd68b33187"
+    },
+    {
+      "path": "cohorts/2025/official/source-figures/plan-97160-p000-01-document_image_rId4.png",
+      "bytes": 2649,
+      "sha256": "079ee6539e29b85d9bccb9016e8147e9319c1fd1aa2a8a6ac0f4e74a915109bc"
+    },
+    {
+      "path": "cohorts/2025/official/source-figures/plan-97160-p008-02-document_image_rId5.png",
+      "bytes": 23523,
+      "sha256": "e96e69c6ee55e8899d01336ebff28015013e61a8c98105284f754353eac047ab"
+    },
+    {
+      "path": "cohorts/2025/official/source-figures/plan-97160-p012-03-document_image_rId6.png",
+      "bytes": 8418,
+      "sha256": "c1efe557e9f50287a4878f5dde9c3b42c8629f690b03fe971b8792b8fda212ea"
+    },
+    {
+      "path": "cohorts/2025/official/source-figures/plan-97160-p014-04-document_image_rId7.png",
+      "bytes": 96512,
+      "sha256": "02736cb9cf91d2df60b2d0cd1b4b76eb6929549be44064badba90c375bb3d6ed"
+    },
+    {
+      "path": "cohorts/2025/official/source-figures/plan-97160-p027-05-document_image_rId8.png",
+      "bytes": 64505,
+      "sha256": "146dfd200bfe65307c226082a35e2cdfed90bcd112a3346cc5c2cafd68b33187"
+    },
+    {
+      "path": "cohorts/2025/official/source-figures/plan-97167-p000-01-document_image_rId4.png",
+      "bytes": 2649,
+      "sha256": "079ee6539e29b85d9bccb9016e8147e9319c1fd1aa2a8a6ac0f4e74a915109bc"
+    },
+    {
+      "path": "cohorts/2025/official/source-figures/plan-97167-p008-02-document_image_rId5.png",
+      "bytes": 23523,
+      "sha256": "e96e69c6ee55e8899d01336ebff28015013e61a8c98105284f754353eac047ab"
+    },
+    {
+      "path": "cohorts/2025/official/source-figures/plan-97167-p011-03-document_image_rId6.png",
+      "bytes": 67889,
+      "sha256": "6ba46521e7a52f844fb8b007d5899bbb1bf6140bf093c0fa6ae05b3c8bc19fa0"
+    },
+    {
+      "path": "cohorts/2025/official/source-figures/plan-97167-p013-04-document_image_rId7.png",
+      "bytes": 90510,
+      "sha256": "13606733054454a97e1d23195bc3d50173fbdc6768c901329ca00cccd4e612dc"
+    },
+    {
+      "path": "cohorts/2025/official/source-figures/plan-97167-p026-05-document_image_rId8.png",
+      "bytes": 140514,
+      "sha256": "9fd1b67d746b6ab0a9adfb475399ca506bce7da108c76891dd9d1b29181d4ac1"
+    },
+    {
+      "path": "cohorts/2025/official/source-figures/plan-97168-p000-01-document_image_rId4.png",
+      "bytes": 2649,
+      "sha256": "079ee6539e29b85d9bccb9016e8147e9319c1fd1aa2a8a6ac0f4e74a915109bc"
+    },
+    {
+      "path": "cohorts/2025/official/source-figures/plan-97168-p008-02-document_image_rId5.png",
+      "bytes": 25174,
+      "sha256": "eb194735d80dada41066f633667138510823cd6b94540c5a89cc95d35a2e8b28"
+    },
+    {
+      "path": "cohorts/2025/official/source-figures/plan-97168-p011-03-document_image_rId6.png",
+      "bytes": 68016,
+      "sha256": "5daf580966f9966a6c8648e538a74fb35aadc104825b21155b3d1e5511ee6cef"
+    },
+    {
+      "path": "cohorts/2025/official/source-figures/plan-97168-p013-04-document_image_rId7.png",
+      "bytes": 90510,
+      "sha256": "13606733054454a97e1d23195bc3d50173fbdc6768c901329ca00cccd4e612dc"
+    },
+    {
+      "path": "cohorts/2025/official/source-figures/plan-97168-p027-05-document_image_rId8.png",
+      "bytes": 125576,
+      "sha256": "018f211fd3223ed1a7f2f8c53815505aedb15ad23e808933a20d6f25ceafa12e"
+    },
+    {
+      "path": "cohorts/2025/official/source-figures/plan-97176-p000-01-document_image_rId4.png",
+      "bytes": 2649,
+      "sha256": "079ee6539e29b85d9bccb9016e8147e9319c1fd1aa2a8a6ac0f4e74a915109bc"
+    },
+    {
+      "path": "cohorts/2025/official/source-figures/plan-97176-p009-02-document_image_rId5.png",
+      "bytes": 25174,
+      "sha256": "eb194735d80dada41066f633667138510823cd6b94540c5a89cc95d35a2e8b28"
+    },
+    {
+      "path": "cohorts/2025/official/source-figures/plan-97176-p012-03-document_image_rId6.png",
+      "bytes": 64970,
+      "sha256": "109b22c4b0b99cd8d35eca0d96a86f4a28b4dd9aadd0ee4f3c09dadedbeed5fa"
+    },
+    {
+      "path": "cohorts/2025/official/source-figures/plan-97176-p014-04-document_image_rId7.png",
+      "bytes": 105356,
+      "sha256": "fd8c958f380f5d050e5c550530729b6466ab06de23b5c64593faa08bff31b689"
+    },
+    {
+      "path": "cohorts/2025/official/source-figures/plan-97176-p027-05-document_image_rId8.png",
+      "bytes": 58554,
+      "sha256": "772a9e6c4a9158f7207f68abf6ed5e89ec04a88e944f3f9e77c57a92c4fbcb51"
+    },
+    {
+      "path": "cohorts/2025/official/source-figures/plan-97177-p000-01-document_image_rId4.png",
+      "bytes": 2649,
+      "sha256": "079ee6539e29b85d9bccb9016e8147e9319c1fd1aa2a8a6ac0f4e74a915109bc"
+    },
+    {
+      "path": "cohorts/2025/official/source-figures/plan-97177-p008-02-document_image_rId5.png",
+      "bytes": 23523,
+      "sha256": "e96e69c6ee55e8899d01336ebff28015013e61a8c98105284f754353eac047ab"
+    },
+    {
+      "path": "cohorts/2025/official/source-figures/plan-97177-p011-03-document_image_rId6.png",
+      "bytes": 58294,
+      "sha256": "40526e008fe05b40f7bc6f4cec7baabe542ac7e5cfa0c9cadf9980c3c01eec53"
+    },
+    {
+      "path": "cohorts/2025/official/source-figures/plan-97177-p013-04-document_image_rId7.png",
+      "bytes": 102086,
+      "sha256": "b13637d730d7d1de032a1da0f415aa89a8eaaec7e54a474fd6f3af55962fa575"
+    },
+    {
+      "path": "cohorts/2025/official/source-figures/plan-97177-p027-05-document_image_rId8.png",
+      "bytes": 138298,
+      "sha256": "9b392a330e337e5389360a8a4d0b7595b5d2e4e7d6cc244db97ce06ba5b72c4d"
+    },
+    {
+      "path": "cohorts/2025/official/source-figures/plan-97179-p000-01-document_image_rId4.png",
+      "bytes": 2649,
+      "sha256": "079ee6539e29b85d9bccb9016e8147e9319c1fd1aa2a8a6ac0f4e74a915109bc"
+    },
+    {
+      "path": "cohorts/2025/official/source-figures/plan-97179-p008-02-document_image_rId5.png",
+      "bytes": 23523,
+      "sha256": "e96e69c6ee55e8899d01336ebff28015013e61a8c98105284f754353eac047ab"
+    },
+    {
+      "path": "cohorts/2025/official/source-figures/plan-97179-p011-03-document_image_rId6.png",
+      "bytes": 10540,
+      "sha256": "950014320f7659fa1427cf430a560861be0f10e5c52ebfce93177bd8b2c6b73e"
+    },
+    {
+      "path": "cohorts/2025/official/source-figures/plan-97179-p013-04-document_image_rId7.png",
+      "bytes": 19790,
+      "sha256": "02ff8bc6139617575ee1b113ff3575803c141a9220b6e3345b2447a42eeb8ed2"
+    },
+    {
+      "path": "cohorts/2025/official/source-figures/plan-97179-p026-05-document_image_rId8.png",
+      "bytes": 82535,
+      "sha256": "a7868b6acb4830c9192db4e746721973a421bb2f58dabe18a215a32229b141e8"
+    },
+    {
+      "path": "cohorts/2025/official/source-figures/plan-97181-p000-01-document_image_rId4.png",
+      "bytes": 2649,
+      "sha256": "079ee6539e29b85d9bccb9016e8147e9319c1fd1aa2a8a6ac0f4e74a915109bc"
+    },
+    {
+      "path": "cohorts/2025/official/source-figures/plan-97181-p008-02-document_image_rId5.png",
+      "bytes": 23523,
+      "sha256": "e96e69c6ee55e8899d01336ebff28015013e61a8c98105284f754353eac047ab"
+    },
+    {
+      "path": "cohorts/2025/official/source-figures/plan-97181-p011-03-document_image_rId6.png",
+      "bytes": 64430,
+      "sha256": "4908fdafd0aff6265cae632e054eeaeb8b21b4dc50440e683f825698bb2e8a62"
+    },
+    {
+      "path": "cohorts/2025/official/source-figures/plan-97181-p014-04-document_image_rId7.png",
+      "bytes": 100835,
+      "sha256": "5f2e4cb258ab4e0328689e1698fb5411297705e00086976932e19369417a1e1b"
+    },
+    {
+      "path": "cohorts/2025/official/source-figures/plan-97181-p027-05-document_image_rId8.png",
+      "bytes": 80931,
+      "sha256": "bce7fce34a083a1a88ddd55a55b51142732d07640c6260fbf9cba89313e9597a"
+    },
+    {
+      "path": "cohorts/2025/official/source-figures/plan-97183-p000-01-document_image_rId4.png",
+      "bytes": 2649,
+      "sha256": "079ee6539e29b85d9bccb9016e8147e9319c1fd1aa2a8a6ac0f4e74a915109bc"
+    },
+    {
+      "path": "cohorts/2025/official/source-figures/plan-97183-p009-02-document_image_rId5.png",
+      "bytes": 23523,
+      "sha256": "e96e69c6ee55e8899d01336ebff28015013e61a8c98105284f754353eac047ab"
+    },
+    {
+      "path": "cohorts/2025/official/source-figures/plan-97183-p012-03-document_image_rId6.png",
+      "bytes": 68108,
+      "sha256": "356b3923a00c657b701401ea6759f618be2ae6e01d9dd85e4dc3722ecc1c285b"
+    },
+    {
+      "path": "cohorts/2025/official/source-figures/plan-97183-p014-04-document_image_rId7.png",
+      "bytes": 105356,
+      "sha256": "fd8c958f380f5d050e5c550530729b6466ab06de23b5c64593faa08bff31b689"
+    },
+    {
+      "path": "cohorts/2025/official/source-figures/plan-97183-p027-05-document_image_rId8.png",
+      "bytes": 80244,
+      "sha256": "4025dee0c0a07a4c8f7c68c045b47dea29613ccdadc00f4480194df7c60b5ba8"
+    },
+    {
+      "path": "cohorts/2025/official/source-figures/plan-97480-p000-01-document_image_rId4.png",
+      "bytes": 2649,
+      "sha256": "079ee6539e29b85d9bccb9016e8147e9319c1fd1aa2a8a6ac0f4e74a915109bc"
+    },
+    {
+      "path": "cohorts/2025/official/source-figures/plan-97491-p000-01-document_image_rId4.png",
+      "bytes": 2649,
+      "sha256": "079ee6539e29b85d9bccb9016e8147e9319c1fd1aa2a8a6ac0f4e74a915109bc"
+    },
+    {
+      "path": "cohorts/2025/official/word-originals/plan-130371.docx",
+      "bytes": 172602,
+      "sha256": "d32e2af18d8569695c68973a93dcd5f6530ec74c02fe4a87260f6190a5bf0bda"
+    },
+    {
+      "path": "cohorts/2025/official/word-originals/plan-147551.docx",
+      "bytes": 163008,
+      "sha256": "f6d253472c5f8e9356cc68271dbd23a073255e53079e8934dfea7f3a1eaf802b"
+    },
+    {
+      "path": "cohorts/2025/official/word-originals/plan-147552.docx",
+      "bytes": 194537,
+      "sha256": "b032c6f24bed7a93bd63ede5c40be9f675b067eb28f3f3099cc77d5c000b9234"
+    },
+    {
+      "path": "cohorts/2025/official/word-originals/plan-147553.docx",
+      "bytes": 167538,
+      "sha256": "a96491b56f8c3d35914a4a5d8aa09b1d0fb4991e6a6624c9e0fb5325c1c392fb"
+    },
+    {
+      "path": "cohorts/2025/official/word-originals/plan-147554.docx",
+      "bytes": 172574,
+      "sha256": "231744399d41a2fa5ad2dde1e8bb51ffb97034e32498c7b1d8dcd40d89c39e32"
+    },
+    {
+      "path": "cohorts/2025/official/word-originals/plan-96689.docx",
+      "bytes": 227653,
+      "sha256": "2fb7e1e2b8298e00f7b168639e22b78162e19526e1efe7720e4348dca8ae39e9"
+    },
+    {
+      "path": "cohorts/2025/official/word-originals/plan-97000.docx",
+      "bytes": 292252,
+      "sha256": "9315f20af640da5d0956714c2bf807b56788bcfaeb1ca88e106d39dc98a5689c"
+    },
+    {
+      "path": "cohorts/2025/official/word-originals/plan-97001.docx",
+      "bytes": 298800,
+      "sha256": "77436cfe026d80c18cccb459129b5d3ba8c2c6d2d6592a4ba0970f28c18b8344"
+    },
+    {
+      "path": "cohorts/2025/official/word-originals/plan-97147.docx",
+      "bytes": 276275,
+      "sha256": "9d7b60892c8b7d35f2043c15035f9b05f81e78780f172427d510db3c0174e4f1"
+    },
+    {
+      "path": "cohorts/2025/official/word-originals/plan-97149.docx",
+      "bytes": 262278,
+      "sha256": "797e9a6823c326f792673a4d5514d353f6bdbce346177028338410d41bf78106"
+    },
+    {
+      "path": "cohorts/2025/official/word-originals/plan-97150.docx",
+      "bytes": 238401,
+      "sha256": "0f794f66e18678f2030ffee715e3b32835677f32978fa8d1e60f2c146cabd94b"
+    },
+    {
+      "path": "cohorts/2025/official/word-originals/plan-97151.docx",
+      "bytes": 255714,
+      "sha256": "a2c2e5040e813bc11d9d8bda9569d346146a61fc5509ca593be57d9fc7b08868"
+    },
+    {
+      "path": "cohorts/2025/official/word-originals/plan-97152.docx",
+      "bytes": 233922,
+      "sha256": "bade810a6df340279fddd824d256f2175551afbaa51cc36b2b9df8c5575f4f62"
+    },
+    {
+      "path": "cohorts/2025/official/word-originals/plan-97153.docx",
+      "bytes": 232424,
+      "sha256": "af70f9769a05b7a36956564b22089b69bad55e304fcaed8133a233a417b244af"
+    },
+    {
+      "path": "cohorts/2025/official/word-originals/plan-97154.docx",
+      "bytes": 243799,
+      "sha256": "4512b8704cd83d4c2d78a27b202b3d444fd541c2ea25089aa80b3f85cd0232cf"
+    },
+    {
+      "path": "cohorts/2025/official/word-originals/plan-97155.docx",
+      "bytes": 308381,
+      "sha256": "de7c5022bd42f974560c98bc8d575a363ee858ac08fac85163f518afacd3dae6"
+    },
+    {
+      "path": "cohorts/2025/official/word-originals/plan-97156.docx",
+      "bytes": 260314,
+      "sha256": "8b686216f5658bf2c9d8e420252db220262f8cf7819a03865e01027c97914043"
+    },
+    {
+      "path": "cohorts/2025/official/word-originals/plan-97157.docx",
+      "bytes": 236695,
+      "sha256": "6ad5a9dc895db1def33145539b82063ed926e4c572f787548b37dde759845c51"
+    },
+    {
+      "path": "cohorts/2025/official/word-originals/plan-97159.docx",
+      "bytes": 239955,
+      "sha256": "75c082db9f13797fde7a38f43bcc94f77dfc9b6de8d30687069a8e8706261d2a"
+    },
+    {
+      "path": "cohorts/2025/official/word-originals/plan-97160.docx",
+      "bytes": 232244,
+      "sha256": "ce422bc467e2f50dfa51914c6a134bd8f9f66152c4d83ea69e897766d4d65103"
+    },
+    {
+      "path": "cohorts/2025/official/word-originals/plan-97167.docx",
+      "bytes": 343185,
+      "sha256": "8341949b6d35da06d9f467f9bef1ec1d2461255ecfb918fde1ccb8a80f0631e0"
+    },
+    {
+      "path": "cohorts/2025/official/word-originals/plan-97168.docx",
+      "bytes": 328955,
+      "sha256": "502fe1c2b7688044732d78a1b4ac7b693ac5f4c130bfca367e11b33504b67617"
+    },
+    {
+      "path": "cohorts/2025/official/word-originals/plan-97176.docx",
+      "bytes": 272588,
+      "sha256": "9c233ea4dbd5e4a32d55d92d3652f387b68591a9dbbce090a590047745dae39d"
+    },
+    {
+      "path": "cohorts/2025/official/word-originals/plan-97177.docx",
+      "bytes": 348350,
+      "sha256": "20a0265a50efe08680213fc998aa54af3c2a0fdad1ef2cb2870162ccd26ae802"
+    },
+    {
+      "path": "cohorts/2025/official/word-originals/plan-97179.docx",
+      "bytes": 159590,
+      "sha256": "6316d9acb3a711f175a45c736438861d7ce9ce314a18cfe870afd27c57e52467"
+    },
+    {
+      "path": "cohorts/2025/official/word-originals/plan-97181.docx",
+      "bytes": 292305,
+      "sha256": "78e492b502126372d474ab3ad19b7227114dfc8e03437e5e2ac7078896a1e871"
+    },
+    {
+      "path": "cohorts/2025/official/word-originals/plan-97183.docx",
+      "bytes": 296111,
+      "sha256": "b5525937dabc050fdb367ae32dfca07205f436e8247d43b437e582b627188b54"
+    },
+    {
+      "path": "cohorts/2025/official/word-originals/plan-97480.docx",
+      "bytes": 54046,
+      "sha256": "cbc5eeb7831828d24cac50ebf1e8d73fea7105e0fee6b91225a6a891a41be039"
+    },
+    {
+      "path": "cohorts/2025/official/word-originals/plan-97491.docx",
+      "bytes": 53367,
+      "sha256": "dd085f4f60546d72e4de8879404345b3aed96bf783f820bc76b66d6d86575744"
+    },
+    {
+      "path": "cohorts/2025/official/word-text/plan-130371.txt",
+      "bytes": 22593,
+      "sha256": "f2dd642f3670c84440f5e32da1c35aea3492e67d9ff164ff81c7d393c2784ee7"
+    },
+    {
+      "path": "cohorts/2025/official/word-text/plan-147551.txt",
+      "bytes": 20752,
+      "sha256": "4ff5db84be9de337b363877ff9c88922f2cc2819c0bd3b6eea5725f4f8a99e4c"
+    },
+    {
+      "path": "cohorts/2025/official/word-text/plan-147552.txt",
+      "bytes": 21529,
+      "sha256": "f74c72acff5acab7ab2f9e0357595a1a70d853ff092991a160f1dcf65708a73e"
+    },
+    {
+      "path": "cohorts/2025/official/word-text/plan-147553.txt",
+      "bytes": 21652,
+      "sha256": "93faad6d8161d66b97449dd408cdbd9edc444f50eba24ad434a63b39d1f51a6f"
+    },
+    {
+      "path": "cohorts/2025/official/word-text/plan-147554.txt",
+      "bytes": 22977,
+      "sha256": "47cbc521e50791c4c29c2f94af009ebc432107ec09a467ea8848b550545ef12e"
+    },
+    {
+      "path": "cohorts/2025/official/word-text/plan-96689.txt",
+      "bytes": 20795,
+      "sha256": "1e4aaacdc4b741e0836be5b6642fea42da6d79e462ae64e2d1b138440b677dbd"
+    },
+    {
+      "path": "cohorts/2025/official/word-text/plan-97000.txt",
+      "bytes": 23126,
+      "sha256": "fc7e8504f62161e6c932323206ceab8fd96ca28ca81e329d81b68310a142d382"
+    },
+    {
+      "path": "cohorts/2025/official/word-text/plan-97001.txt",
+      "bytes": 21253,
+      "sha256": "67f6f7b4b3627abf84737052c82938fb750e4b47e783182624b1de7cb5f3f1f5"
+    },
+    {
+      "path": "cohorts/2025/official/word-text/plan-97147.txt",
+      "bytes": 24261,
+      "sha256": "51accadf606fbdca81dc45b6dbc8e87b057483dac770bf851cad9aced8e6a0b5"
+    },
+    {
+      "path": "cohorts/2025/official/word-text/plan-97149.txt",
+      "bytes": 24117,
+      "sha256": "231251797d52ec563028af6a08050791088cc4d26a864f495f48156c29c7c71f"
+    },
+    {
+      "path": "cohorts/2025/official/word-text/plan-97150.txt",
+      "bytes": 24277,
+      "sha256": "e5d2b570d6c4ee42df82baa956dff41efe37bd21e98815db78508ecdbf2a46ec"
+    },
+    {
+      "path": "cohorts/2025/official/word-text/plan-97151.txt",
+      "bytes": 24436,
+      "sha256": "101463ad24919bdbe563eb9525f054c02fcf3911aa3ef159313a8917cfeaf984"
+    },
+    {
+      "path": "cohorts/2025/official/word-text/plan-97152.txt",
+      "bytes": 26152,
+      "sha256": "8808d541ea26b2702df6a7fc348f1b241d6d2af24e80e194c37b732d1d884d44"
+    },
+    {
+      "path": "cohorts/2025/official/word-text/plan-97153.txt",
+      "bytes": 25863,
+      "sha256": "8f6e826e95e19916ed0a62d293ce36421eadfdbb69049a1f893b1c16d06420d8"
+    },
+    {
+      "path": "cohorts/2025/official/word-text/plan-97154.txt",
+      "bytes": 26086,
+      "sha256": "fb120b26bb613ee2a4e0b29c53f99fc755bd87141bf49365209546bece09b8db"
+    },
+    {
+      "path": "cohorts/2025/official/word-text/plan-97155.txt",
+      "bytes": 24210,
+      "sha256": "7da6948179ba32327f05c11ad1c92c9a2fbe38823d376cb83c9e35116a422c1e"
+    },
+    {
+      "path": "cohorts/2025/official/word-text/plan-97156.txt",
+      "bytes": 23955,
+      "sha256": "aa592331038540f918b7203d5fb045efe4d7d43180151d673b06b32c09b98f36"
+    },
+    {
+      "path": "cohorts/2025/official/word-text/plan-97157.txt",
+      "bytes": 24050,
+      "sha256": "fd6202aebcd6c11f6cc22646b0c29675fe58b7f4c8c99bb9435d657febee86ec"
+    },
+    {
+      "path": "cohorts/2025/official/word-text/plan-97159.txt",
+      "bytes": 26013,
+      "sha256": "1d5198235cbb803cb2c5ad7d439e923a819ba99a9249dab99bf7f4dd84919036"
+    },
+    {
+      "path": "cohorts/2025/official/word-text/plan-97160.txt",
+      "bytes": 23972,
+      "sha256": "cb5bc58566811311bdaeb2e30f001fb68460c87c1be654dd45a935a93cc2c8a7"
+    },
+    {
+      "path": "cohorts/2025/official/word-text/plan-97167.txt",
+      "bytes": 14373,
+      "sha256": "bc3eb8c9521c1393b30dc81ffc139b1d64d106be5a870715b217966da3c83a63"
+    },
+    {
+      "path": "cohorts/2025/official/word-text/plan-97168.txt",
+      "bytes": 14270,
+      "sha256": "7adb6310caf226218b1789c0080fc99ba32e9390e7d2b718375ef61acba9b49c"
+    },
+    {
+      "path": "cohorts/2025/official/word-text/plan-97176.txt",
+      "bytes": 14749,
+      "sha256": "625a6c522bf30fc7657c91eda4e7b02fef738425d8a60d9062b1497ee67becaa"
+    },
+    {
+      "path": "cohorts/2025/official/word-text/plan-97177.txt",
+      "bytes": 16542,
+      "sha256": "9e63434c9a40941a715b68a95a96c224b7c78be8fbadc808b951beb1e6cc3eb5"
+    },
+    {
+      "path": "cohorts/2025/official/word-text/plan-97179.txt",
+      "bytes": 15213,
+      "sha256": "df4b0ce2936e2211badc8cf9fd81adf31b6e8763943a2a343ce5893912fd157a"
+    },
+    {
+      "path": "cohorts/2025/official/word-text/plan-97181.txt",
+      "bytes": 16214,
+      "sha256": "4b0b307d0c7ece2e914efb8f0d96e6ca67964eee6afdd30eca8b303862f76171"
+    },
+    {
+      "path": "cohorts/2025/official/word-text/plan-97183.txt",
+      "bytes": 15059,
+      "sha256": "662a94a5d4d1834596290f6444db900d69fef6145dcb6c6c2902e3ed54f1646f"
+    },
+    {
+      "path": "cohorts/2025/official/word-text/plan-97480.txt",
+      "bytes": 26604,
+      "sha256": "190ef2a2cb73ca06e8b12bcecd7867214edfe217e26861231f38e1216a6b9cb2"
+    },
+    {
+      "path": "cohorts/2025/official/word-text/plan-97491.txt",
+      "bytes": 26384,
+      "sha256": "bb9ff528e9867c1e3c314cad082bd55219af6b9ab75c555bebb33b237c6bcc34"
+    },
+    {
+      "path": "cohorts/2025/README.md",
+      "bytes": 6615,
+      "sha256": "af650f6b74efb04bf80976a566d40e1c12f12bc3ad3eeffd0c916eb6419079e2"
+    },
+    {
+      "path": "cohorts/2025/新闻学院课程名单.txt",
+      "bytes": 3652,
+      "sha256": "aaeda4c61de388139faf2e67af4429a5423c68bc82d2f00a703eaa7b315b77fc"
+    },
+    {
+      "path": "cohorts/graphs.json",
+      "bytes": 13365208,
+      "sha256": "b11bf1a98a4145a920b6df39fd2fc728268c62c2470a63e13ab24a032db2b796"
+    },
+    {
+      "path": "cohorts/source-index.json",
+      "bytes": 760,
+      "sha256": "cf0301f68933d8d4c6c65dee619ca02580f9fdc2c660b4798f6b95532f345d76"
+    },
+    {
+      "path": "cohorts/课程关系图谱.html",
+      "bytes": 7968921,
+      "sha256": "d5c7ba1606c377e72d82568782181984744265ed7a9c716c85fb378924c608f3"
+    },
+    {
+      "path": "README.md",
+      "bytes": 3154,
+      "sha256": "46832ce763a6260129e2599742c0f4375be86274bb29e9e5b9359874f504e444"
+    },
+    {
+      "path": "relations/2023.json",
+      "bytes": 265549,
+      "sha256": "0f074b80aac78688f489daac9bb9123c355af9c5fd33392f23b741b1846b6a99"
+    },
+    {
+      "path": "relations/2024.json",
+      "bytes": 303682,
+      "sha256": "8c825a10ca56d0337c07ee0bb327af9b552ceacc1a1a3dc7ab8da7c9c79f9a84"
+    },
+    {
+      "path": "relations/2025.json",
+      "bytes": 541092,
+      "sha256": "e7ae6b19d0e7a5a70453a739ea960e20945e9550ecae0881fc047dcd17e65a1a"
+    },
+    {
+      "path": "relations/official-2024-review.json",
+      "bytes": 5033,
+      "sha256": "ea4271d78d7c3e96a6c46b2bc21da8dd22f53e24e2976946b4353cea96d37896"
+    },
+    {
+      "path": "relations/official-2025-ad-av-review.json",
+      "bytes": 67891,
+      "sha256": "22aa826fb4691b94647f323895d8ae5996a8e07ebd95f37b5d4f97f71df6ec23"
+    },
+    {
+      "path": "relations/reused-semantic-2023.json",
+      "bytes": 210269,
+      "sha256": "cfc4df1386ee776d54b1ca02dd5017661248a2e99bb8253282d65fa2998a654e"
+    },
+    {
+      "path": "relations/reused-semantic-2024.json",
+      "bytes": 235905,
+      "sha256": "6bb5923ba33f9baab78f081a8b6e8ead0b3305a328fd0447f0514dcd4aec493b"
+    },
+    {
+      "path": "relations/reused-semantic-2025.json",
+      "bytes": 379905,
+      "sha256": "ceb303a119858ce4cbb83874607b7fd2244c0650d222e42e998c2225d3c30f6c"
+    },
+    {
+      "path": "scripts/build_cohorts.py",
+      "bytes": 12196,
+      "sha256": "c96df2e6c0ee163755a02cb3a26cadb597264bf648c132a4abda1c7559d53815"
+    },
+    {
+      "path": "scripts/fetch_official.py",
+      "bytes": 16115,
+      "sha256": "9d4b3987116d6ba9da3a563a4a7268b648ef19b14ca907db0d898b133043d0ae"
+    },
+    {
+      "path": "scripts/validate_cohorts.py",
+      "bytes": 4958,
+      "sha256": "97acded88cd4dc1ffc358817f48306b52bf998bda042fce8e25f331903e89066"
+    },
+    {
+      "path": "scripts/viewer-template.html",
+      "bytes": 30424,
+      "sha256": "d3739643900000877b40b1b347324906ca50a851e3bb45b29b1728800d34f33e"
+    },
+    {
+      "path": "source-extraction-audit.json",
+      "bytes": 6003,
+      "sha256": "9e1293704278f376950628c3b7adac937ac885525fd45c61cc71c1bede90d97f"
+    },
+    {
+      "path": "ui-validation.json",
+      "bytes": 495,
+      "sha256": "ee46da10c036021bc13c7da54539a46b9471c2001375854cbbe5e6f4c42ca103"
+    },
+    {
+      "path": "validation.json",
+      "bytes": 2471,
+      "sha256": "eba7c1b76fc03622951213e5f5a4c3f69e3efea0990190da468eada89fa4ac7d"
+    }
+  ]
+}

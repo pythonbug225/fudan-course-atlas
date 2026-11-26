@@ -1,0 +1,143 @@
+{
+  "plan_id": "72861",
+  "cohort": 2024,
+  "title": "2024级“望道新闻卓越班”",
+  "department": "新闻学院",
+  "department_id": 2621,
+  "major_name": "新闻学(望道新闻卓越班)",
+  "scope": "department",
+  "scope_tags": [],
+  "directory_row": {
+    "YEARS": "2024",
+    "MAJOR_NAME": "新闻学(望道新闻卓越班)",
+    "MAJOR_ID": 1604,
+    "DEPART_NAME": "新闻学院",
+    "AUDIT_STATE": "",
+    "ID": 72861,
+    "NAME_ZH": "2024级“望道新闻卓越班”",
+    "DEPART_IDS": 2621,
+    "ROW_ID": 12
+  },
+  "detail_url": "https://fdjwgl.fudan.edu.cn/manager/bizType/2/major-program-search/info/72861?skipAuth=1",
+  "export_url": "https://fdjwgl.fudan.edu.cn/manager/bizType/2/major-program-search/export-word",
+  "export_method": "POST ids=72861",
+  "raw_path": "raw/plan-72861.json.gz",
+  "raw_bytes": 987880,
+  "raw_sha256": "49f109592346323d84273b5bd2e4aeab44ffae1d07c8e80525998e0542296e76",
+  "detail_content_type": "application/json; reused from prior run",
+  "word_path": "word-originals/plan-72861.docx",
+  "word_text_path": "word-text/plan-72861.txt",
+  "word_bytes": 46082,
+  "word_sha256": "641439d1c8400d6f813bf24a095a7973d0f9363770fffe5531fc2a3fc199341b",
+  "cohort_year_present_in_word_text": true,
+  "word_content_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document; reused from prior run",
+  "images": [
+    {
+      "path": "source-figures/plan-72861-p000-01-document_image_rId4.png",
+      "member": "word/media/document_image_rId4.png",
+      "relationship_id": "rId4",
+      "paragraph_index": 0,
+      "sha256": "079ee6539e29b85d9bccb9016e8147e9319c1fd1aa2a8a6ac0f4e74a915109bc",
+      "bytes": 2649
+    }
+  ],
+  "retrieved_at": "2026-11-26T08:23:12.933927+00:00",
+  "api_model_scope_fields": {
+    "id": 72861,
+    "nameZh": "2024级“望道新闻卓越班”",
+    "grade": "2024",
+    "stdType": {
+      "nameZh": "普通本科生",
+      "nameEn": null,
+      "id": 1,
+      "code": "01",
+      "enabled": true,
+      "createdDateTime": null,
+      "updatedDateTime": "2025-03-26T18:20:22.000",
+      "bizTypeAssocs": [
+        2,
+        3,
+        4
+      ],
+      "transient": false,
+      "bizTypeIds": [
+        4,
+        2,
+        3
+      ],
+      "name": "普通本科生"
+    },
+    "cultivateType": {
+      "nameZh": "主修",
+      "nameEn": "Major",
+      "id": 1,
+      "code": "01",
+      "enabled": true,
+      "createdDateTime": null,
+      "updatedDateTime": null,
+      "bizTypeAssocs": [
+        2
+      ],
+      "transient": false,
+      "bizTypeIds": [
+        2
+      ],
+      "name": "主修"
+    },
+    "major": {
+      "id": 1604,
+      "nameZh": "新闻学(望道新闻卓越班)",
+      "nameEn": "Journalism(Wangdao Excellence Program)",
+      "code": "137",
+      "abbrZh": null,
+      "abbrEn": null,
+      "parent": false,
+      "studyYears": 4.0,
+      "majorCertificate": null,
+      "baseDataNo": "157",
+      "establishYear": "2024",
+      "sbdp": false,
+      "jcrh": false,
+      "doubleDegree": null,
+      "firstEnrollYear": "2024",
+      "stopEnrollYear": null,
+      "invalidYear": null,
+      "enabled": true,
+      "graduateNameZh": "新闻学",
+      "graduateNameEn": "Journalism",
+      "international": false,
+      "parentMajorAssocs": [],
+      "childMajorAssocs": []
+    },
+    "department": {
+      "id": 2621,
+      "nameZh": "新闻学院",
+      "nameEn": "Journalism School",
+      "code": "013",
+      "abbrZh": "新闻",
+      "abbrEn": null,
+      "college": true,
+      "research": false,
+      "openCourse": true,
+      "experiment": false,
+      "telephone": null,
+      "address": null,
+      "indexNo": 100286,
+      "recruitTypeSet": [
+        "UNDERGRADUATE"
+      ],
+      "recruitTypes": "UNDERGRADUATE",
+      "yikou": false,
+      "enabled": true,
+      "unitCode": "100286"
+    },
+    "auditState": "ACCEPTED",
+    "bizType": {
+      "id": 2,
+      "nameZh": "本研融通",
+      "nameEn": "Undergraduate"
+    }
+  },
+  "original_raw_path": "raw/plan-72861.json",
+  "raw_compression": "gzip; raw_sha256 refers to the exact decompressed original response"
+}

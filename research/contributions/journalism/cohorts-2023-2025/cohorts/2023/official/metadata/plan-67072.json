@@ -1,0 +1,145 @@
+{
+  "plan_id": "67072",
+  "cohort": 2023,
+  "title": "2023 新闻学“2+X”教学培养方案 留学生（非英语国家）",
+  "department": "新闻学院",
+  "department_id": 2621,
+  "major_name": "新闻学",
+  "scope": "department",
+  "scope_tags": [
+    "international_student"
+  ],
+  "directory_row": {
+    "YEARS": "2023",
+    "MAJOR_NAME": "新闻学",
+    "MAJOR_ID": 281,
+    "DEPART_NAME": "新闻学院",
+    "AUDIT_STATE": "",
+    "ID": 67072,
+    "NAME_ZH": "2023 新闻学“2+X”教学培养方案 留学生（非英语国家）",
+    "DEPART_IDS": 2621,
+    "ROW_ID": 9
+  },
+  "detail_url": "https://fdjwgl.fudan.edu.cn/manager/bizType/2/major-program-search/info/67072?skipAuth=1",
+  "export_url": "https://fdjwgl.fudan.edu.cn/manager/bizType/2/major-program-search/export-word",
+  "export_method": "POST ids=67072",
+  "raw_path": "raw/plan-67072.json.gz",
+  "raw_bytes": 1195617,
+  "raw_sha256": "e56fdd2a65caad753d01f4b5a2fd213c9178cb1937eb0e67fb046f55a4e7ab43",
+  "detail_content_type": "application/json; reused from prior run",
+  "word_path": "word-originals/plan-67072.docx",
+  "word_text_path": "word-text/plan-67072.txt",
+  "word_bytes": 47071,
+  "word_sha256": "307c4ac4d35209ab7b0c08fcd04a4cb2acd91ff313183e568b294ea4590ad7ab",
+  "cohort_year_present_in_word_text": true,
+  "word_content_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document; reused from prior run",
+  "images": [
+    {
+      "path": "source-figures/plan-67072-p000-01-document_image_rId4.png",
+      "member": "word/media/document_image_rId4.png",
+      "relationship_id": "rId4",
+      "paragraph_index": 0,
+      "sha256": "079ee6539e29b85d9bccb9016e8147e9319c1fd1aa2a8a6ac0f4e74a915109bc",
+      "bytes": 2649
+    }
+  ],
+  "retrieved_at": "2026-11-26T08:23:06.110382+00:00",
+  "api_model_scope_fields": {
+    "id": 67072,
+    "nameZh": "2023 新闻学“2+X”教学培养方案 留学生（非英语国家）",
+    "grade": "2023",
+    "stdType": {
+      "nameZh": "留学生",
+      "nameEn": null,
+      "id": 5,
+      "code": "05",
+      "enabled": true,
+      "createdDateTime": null,
+      "updatedDateTime": null,
+      "bizTypeAssocs": [
+        2,
+        3,
+        4
+      ],
+      "bizTypeIds": [
+        4,
+        2,
+        3
+      ],
+      "transient": false,
+      "name": "留学生"
+    },
+    "cultivateType": {
+      "nameZh": "主修",
+      "nameEn": "Major",
+      "id": 1,
+      "code": "01",
+      "enabled": true,
+      "createdDateTime": null,
+      "updatedDateTime": null,
+      "bizTypeAssocs": [
+        2
+      ],
+      "bizTypeIds": [
+        2
+      ],
+      "transient": false,
+      "name": "主修"
+    },
+    "major": {
+      "id": 281,
+      "nameZh": "新闻学",
+      "nameEn": "Journalism",
+      "code": "131",
+      "abbrZh": "新闻学",
+      "abbrEn": null,
+      "parent": false,
+      "studyYears": 4.0,
+      "majorCertificate": null,
+      "baseDataNo": "030",
+      "establishYear": "2015",
+      "sbdp": false,
+      "jcrh": false,
+      "doubleDegree": null,
+      "firstEnrollYear": "2015",
+      "stopEnrollYear": null,
+      "invalidYear": null,
+      "enabled": true,
+      "graduateNameZh": "新闻学",
+      "graduateNameEn": "Journalism",
+      "international": false,
+      "parentMajorAssocs": [],
+      "childMajorAssocs": []
+    },
+    "department": {
+      "id": 2621,
+      "nameZh": "新闻学院",
+      "nameEn": "Journalism School",
+      "code": "013",
+      "abbrZh": "新闻",
+      "abbrEn": null,
+      "college": true,
+      "research": false,
+      "openCourse": true,
+      "experiment": false,
+      "telephone": null,
+      "address": null,
+      "indexNo": 100286,
+      "recruitTypeSet": [
+        "UNDERGRADUATE"
+      ],
+      "recruitTypes": "UNDERGRADUATE",
+      "yikou": false,
+      "enabled": true,
+      "unitCode": "100286"
+    },
+    "auditState": "ACCEPTED",
+    "bizType": {
+      "id": 2,
+      "nameZh": "本研融通",
+      "nameEn": "Undergraduate"
+    }
+  },
+  "original_raw_path": "raw/plan-67072.json",
+  "raw_compression": "gzip; raw_sha256 refers to the exact decompressed original response"
+}

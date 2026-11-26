@@ -1,0 +1,128 @@
+{
+  "audit_date": "2026-11-26",
+  "scope": "Independent audit of all 52 downloaded official 2023-2025 Journalism curriculum JSONs. Original sources were not modified.",
+  "source_files": [
+    "scripts/build_cohorts.py",
+    "scripts/validate_cohorts.py",
+    "cohorts/{2023,2024,2025}/official/programmes.json",
+    "cohorts/{2023,2024,2025}/official/raw/plan-*.json.gz"
+  ],
+  "method": {
+    "course_entry_predicate": "course is a dict with nonempty code and its containing object has a terms key",
+    "builder_dedup_key": "(str(planCourse.id), course.code, course.nameZh)",
+    "independent_comparison": "Recursively scan the complete courseModules subtree; compare each raw (id,code,name) key and source path against build_cohorts.extract output.",
+    "department_node_rule": "Same as build_cohorts.py: any membership has openDepartment.id==2621, or course code starts JCM/MJC.",
+    "requiredCourse_interpretation": "Count property presence, null, booleans, and truthy nonempty values separately; false is not a prerequisite list."
+  },
+  "cohorts": {
+    "2023": {
+      "plan_count": 10,
+      "unique_code_name_count": 768,
+      "department_node_count_using_builder_flag_rule": 124,
+      "same_code_multiple_names": [],
+      "course_entries": {
+        "raw_occurrences_across_both_arrays": 10088,
+        "planCourses_entries": 5044,
+        "realPlanCourses_entries": 5044,
+        "builder_extract_membership_rows": 5044,
+        "plans_with_identical_planCourses_realPlanCourses_keys": 10,
+        "plans_with_array_differences": [],
+        "courses_without_detected_ancestor_module": 0,
+        "raw_vs_builder_extract_key_mismatches": [],
+        "raw_vs_builder_extract_source_path_mismatches": []
+      },
+      "module_integrity": {
+        "same_builder_dedup_key_seen_in_multiple_module_paths_count": 0,
+        "same_code_name_plan_seen_in_multiple_module_paths_count": 32,
+        "assessment": "The 32 same-pair cross-module occurrences are retained as separate memberships; their planCourse IDs differ. No builder dedup key spans multiple module paths."
+      },
+      "requiredCourse": {
+        "property_present": 10088,
+        "property_missing": 0,
+        "null": 10088,
+        "false": 0,
+        "true": 0,
+        "truthy_nonempty": 0
+      }
+    },
+    "2024": {
+      "plan_count": 13,
+      "unique_code_name_count": 214,
+      "department_node_count_using_builder_flag_rule": 124,
+      "same_code_multiple_names": [],
+      "course_entries": {
+        "raw_occurrences_across_both_arrays": 3474,
+        "planCourses_entries": 1737,
+        "realPlanCourses_entries": 1737,
+        "builder_extract_membership_rows": 1737,
+        "plans_with_identical_planCourses_realPlanCourses_keys": 13,
+        "plans_with_array_differences": [],
+        "courses_without_detected_ancestor_module": 0,
+        "raw_vs_builder_extract_key_mismatches": [],
+        "raw_vs_builder_extract_source_path_mismatches": []
+      },
+      "module_integrity": {
+        "same_builder_dedup_key_seen_in_multiple_module_paths_count": 0,
+        "same_code_name_plan_seen_in_multiple_module_paths_count": 0,
+        "assessment": "No same-pair cross-module occurrences or cross-module deduplication."
+      },
+      "requiredCourse": {
+        "property_present": 3474,
+        "property_missing": 0,
+        "null": 3474,
+        "false": 0,
+        "true": 0,
+        "truthy_nonempty": 0
+      }
+    },
+    "2025": {
+      "plan_count": 29,
+      "unique_code_name_count": 680,
+      "department_node_count_using_builder_flag_rule": 162,
+      "same_code_multiple_names": [],
+      "course_entries": {
+        "raw_occurrences_across_both_arrays": 11369,
+        "planCourses_entries": 5686,
+        "realPlanCourses_entries": 5683,
+        "builder_extract_membership_rows": 5686,
+        "plans_with_identical_planCourses_realPlanCourses_keys": 28,
+        "plans_with_array_differences": [
+          {
+            "plan_id": "96689",
+            "planCourses": 382,
+            "realPlanCourses": 379,
+            "overlap": 379,
+            "plan_only": 3,
+            "real_only": 0
+          }
+        ],
+        "courses_without_detected_ancestor_module": 0,
+        "raw_vs_builder_extract_key_mismatches": [],
+        "raw_vs_builder_extract_source_path_mismatches": []
+      },
+      "module_integrity": {
+        "same_builder_dedup_key_seen_in_multiple_module_paths_count": 0,
+        "same_code_name_plan_seen_in_multiple_module_paths_count": 9,
+        "assessment": "The nine same-pair cross-module occurrences are retained as separate memberships; their planCourse IDs differ. No builder dedup key spans multiple module paths."
+      },
+      "requiredCourse": {
+        "property_present": 11369,
+        "property_missing": 0,
+        "null": 9118,
+        "false": 2251,
+        "true": 0,
+        "truthy_nonempty": 0
+      }
+    }
+  },
+  "overall_findings": {
+    "all_nested_entries_matched_builder_extract": true,
+    "course_entries_without_module_ancestor": 0,
+    "same_dedup_key_merged_across_module_paths": 0,
+    "same_code_multiple_names_cases": 0,
+    "truthy_nonempty_requiredCourse_occurrences": 0,
+    "conclusion": "The recursive extractor includes both planCourses and realPlanCourses. All unique raw (id,code,name) keys match extractor output. No course entry was missed; no exact dedup key was merged across modules. Same-code/name rows shared across modules use distinct planCourse IDs and remain separate memberships. The 2025 plan 96689 has three extra planCourses absent from realPlanCourses, and all three are retained. There are no same-code/different-name cases. requiredCourse has no truthy nonempty value; 2025 has false boolean flags only.",
+    "all_raw_source_paths_preserved": true
+  },
+  "packaging_note": "原始计划 JSON 已以 gzip 无损压缩；核对依据为解压后的原始字节。"
+}

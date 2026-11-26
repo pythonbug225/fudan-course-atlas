@@ -1,0 +1,145 @@
+{
+  "plan_id": "72979",
+  "cohort": 2024,
+  "title": "传播学-人工智能双学士学位项目“2+X”教学培养方案",
+  "department": "新闻学院",
+  "department_id": 2621,
+  "major_name": "传播学-人工智能(双学士学位项目)",
+  "scope": "department",
+  "scope_tags": [
+    "double_degree"
+  ],
+  "directory_row": {
+    "YEARS": "2024",
+    "MAJOR_NAME": "传播学-人工智能(双学士学位项目)",
+    "MAJOR_ID": 1684,
+    "DEPART_NAME": "新闻学院",
+    "AUDIT_STATE": "",
+    "ID": 72979,
+    "NAME_ZH": "传播学-人工智能双学士学位项目“2+X”教学培养方案",
+    "DEPART_IDS": 2621,
+    "ROW_ID": 3
+  },
+  "detail_url": "https://fdjwgl.fudan.edu.cn/manager/bizType/2/major-program-search/info/72979?skipAuth=1",
+  "export_url": "https://fdjwgl.fudan.edu.cn/manager/bizType/2/major-program-search/export-word",
+  "export_method": "POST ids=72979",
+  "raw_path": "raw/plan-72979.json.gz",
+  "raw_bytes": 542076,
+  "raw_sha256": "81a02d1eba463bafd6dfdb4d13c34eaa3d8783ba0b174d326eab9956d5cd4405",
+  "detail_content_type": "application/json; reused from prior run",
+  "word_path": "word-originals/plan-72979.docx",
+  "word_text_path": "word-text/plan-72979.txt",
+  "word_bytes": 24090,
+  "word_sha256": "d5061d4192d54de458bde96f9d108a138c8c1a9309a3b95bcead7a0d224f4818",
+  "cohort_year_present_in_word_text": false,
+  "word_content_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document; reused from prior run",
+  "images": [
+    {
+      "path": "source-figures/plan-72979-p000-01-document_image_rId4.png",
+      "member": "word/media/document_image_rId4.png",
+      "relationship_id": "rId4",
+      "paragraph_index": 0,
+      "sha256": "079ee6539e29b85d9bccb9016e8147e9319c1fd1aa2a8a6ac0f4e74a915109bc",
+      "bytes": 2649
+    }
+  ],
+  "retrieved_at": "2026-11-26T08:23:12.036247+00:00",
+  "api_model_scope_fields": {
+    "id": 72979,
+    "nameZh": "传播学-人工智能双学士学位项目“2+X”教学培养方案",
+    "grade": "2024",
+    "stdType": {
+      "nameZh": "普通本科生",
+      "nameEn": null,
+      "id": 1,
+      "code": "01",
+      "enabled": true,
+      "createdDateTime": null,
+      "updatedDateTime": "2025-03-26T18:20:22.000",
+      "bizTypeAssocs": [
+        2,
+        3,
+        4
+      ],
+      "transient": false,
+      "bizTypeIds": [
+        4,
+        2,
+        3
+      ],
+      "name": "普通本科生"
+    },
+    "cultivateType": {
+      "nameZh": "双学士学位",
+      "nameEn": "Second Degree",
+      "id": 3,
+      "code": "03",
+      "enabled": true,
+      "createdDateTime": null,
+      "updatedDateTime": "2024-12-30T09:48:08.000",
+      "bizTypeAssocs": [
+        2
+      ],
+      "transient": false,
+      "bizTypeIds": [
+        2
+      ],
+      "name": "双学士学位"
+    },
+    "major": {
+      "id": 1684,
+      "nameZh": "传播学-人工智能(双学士学位项目)",
+      "nameEn": "Communication & Artificial Intelligence(Dual Degree Program)",
+      "code": "136a",
+      "abbrZh": null,
+      "abbrEn": null,
+      "parent": false,
+      "studyYears": 4.0,
+      "majorCertificate": null,
+      "baseDataNo": "171",
+      "establishYear": "2024",
+      "sbdp": false,
+      "jcrh": true,
+      "doubleDegree": true,
+      "firstEnrollYear": "2024",
+      "stopEnrollYear": null,
+      "invalidYear": null,
+      "enabled": true,
+      "graduateNameZh": "传播学(人工智能双学士学位项目)",
+      "graduateNameEn": "Communication & Artificial Intelligence(Dual Degree Program)",
+      "international": false,
+      "parentMajorAssocs": [],
+      "childMajorAssocs": []
+    },
+    "department": {
+      "id": 2621,
+      "nameZh": "新闻学院",
+      "nameEn": "Journalism School",
+      "code": "013",
+      "abbrZh": "新闻",
+      "abbrEn": null,
+      "college": true,
+      "research": false,
+      "openCourse": true,
+      "experiment": false,
+      "telephone": null,
+      "address": null,
+      "indexNo": 100286,
+      "recruitTypeSet": [
+        "UNDERGRADUATE"
+      ],
+      "recruitTypes": "UNDERGRADUATE",
+      "yikou": false,
+      "enabled": true,
+      "unitCode": "100286"
+    },
+    "auditState": "ACCEPTED",
+    "bizType": {
+      "id": 2,
+      "nameZh": "本研融通",
+      "nameEn": "Undergraduate"
+    }
+  },
+  "original_raw_path": "raw/plan-72979.json",
+  "raw_compression": "gzip; raw_sha256 refers to the exact decompressed original response"
+}

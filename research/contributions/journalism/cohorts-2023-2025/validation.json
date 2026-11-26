@@ -1,0 +1,72 @@
+{
+  "status": "passed",
+  "date": "2026-11-26",
+  "cohorts": {
+    "2023": {
+      "plans": 10,
+      "nodes": 768,
+      "edges": 95,
+      "types": {
+        "same_name_distinct_code": 13,
+        "content_related": 52,
+        "suggested_preparation": 30
+      },
+      "directed_cycles_in_combined_view": [],
+      "directed_cycles_by_program": {},
+      "cycle_interpretation": "不同方案图可有相反方向；混合关系图不是选课先修 DAG。图中所有方向必须结合 relation type 与 program_ids 解读。",
+      "official_word_zip_integrity": true,
+      "raw_course_coverage": true,
+      "cohort_scope_integrity": true,
+      "words_without_printed_cohort_but_api_grade_verified": [],
+      "evidence_paths_exist": true
+    },
+    "2024": {
+      "plans": 13,
+      "nodes": 214,
+      "edges": 94,
+      "types": {
+        "content_related": 61,
+        "same_name_distinct_code": 3,
+        "suggested_preparation": 30
+      },
+      "directed_cycles_in_combined_view": [],
+      "directed_cycles_by_program": {},
+      "cycle_interpretation": "不同方案图可有相反方向；混合关系图不是选课先修 DAG。图中所有方向必须结合 relation type 与 program_ids 解读。",
+      "official_word_zip_integrity": true,
+      "raw_course_coverage": true,
+      "cohort_scope_integrity": true,
+      "words_without_printed_cohort_but_api_grade_verified": [
+        "72979",
+        "72978"
+      ],
+      "evidence_paths_exist": true
+    },
+    "2025": {
+      "plans": 29,
+      "nodes": 680,
+      "edges": 134,
+      "types": {
+        "content_related": 77,
+        "official_curriculum_link": 38,
+        "same_name_distinct_code": 4,
+        "suggested_preparation": 15
+      },
+      "directed_cycles_in_combined_view": [
+        [
+          "JCM20003",
+          "JCM30003",
+          "JCM20003"
+        ]
+      ],
+      "directed_cycles_by_program": {},
+      "cycle_interpretation": "不同方案图可有相反方向；混合关系图不是选课先修 DAG。图中所有方向必须结合 relation type 与 program_ids 解读。",
+      "official_word_zip_integrity": true,
+      "raw_course_coverage": true,
+      "cohort_scope_integrity": true,
+      "words_without_printed_cohort_but_api_grade_verified": [],
+      "evidence_paths_exist": true
+    }
+  },
+  "official_word_documents_verified": 52,
+  "html_embedded_graph_matches": true
+}

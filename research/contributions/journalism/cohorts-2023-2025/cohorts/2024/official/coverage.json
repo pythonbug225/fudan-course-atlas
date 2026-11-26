@@ -1,0 +1,178 @@
+{
+  "cohort": 2024,
+  "department_id": 2621,
+  "department_name": "新闻学院",
+  "api_directory_url": "https://fdjwgl.fudan.edu.cn/manager/bizType/2/page-center/major-program-search-view/search",
+  "api_detail_template": "https://fdjwgl.fudan.edu.cn/manager/bizType/2/major-program-search/info/{ID}?skipAuth=1",
+  "api_word_export": "https://fdjwgl.fudan.edu.cn/manager/bizType/2/major-program-search/export-word",
+  "retrieved_at": "2026-11-26T08:23:12.972663+00:00",
+  "pagination": {
+    "page_size": 100,
+    "all_pages": [
+      {
+        "path": "raw/directory-all-page-1.json",
+        "url": "https://fdjwgl.fudan.edu.cn/manager/bizType/2/page-center/major-program-search-view/search?skipAuth=1&YEARS=2024&queryPage__=1%2C100",
+        "content_type": "application/json;charset=UTF-8",
+        "bytes": 25575,
+        "sha256": "c2e760f58db0bf32b8f36842a477e48ffab00554b77a54aac98c8d5a5473eca8",
+        "current_page": 1,
+        "rows_in_page": 100,
+        "total_rows": 244,
+        "total_pages": 3
+      },
+      {
+        "path": "raw/directory-all-page-2.json",
+        "url": "https://fdjwgl.fudan.edu.cn/manager/bizType/2/page-center/major-program-search-view/search?skipAuth=1&YEARS=2024&queryPage__=2%2C100",
+        "content_type": "application/json;charset=UTF-8",
+        "bytes": 24708,
+        "sha256": "e2fba10de4bc74b1555dc478741b6b9534eba9cb330f48c2fcdd9d1222cbf7b9",
+        "current_page": 2,
+        "rows_in_page": 100,
+        "total_rows": 244,
+        "total_pages": 3
+      },
+      {
+        "path": "raw/directory-all-page-3.json",
+        "url": "https://fdjwgl.fudan.edu.cn/manager/bizType/2/page-center/major-program-search-view/search?skipAuth=1&YEARS=2024&queryPage__=3%2C100",
+        "content_type": "application/json;charset=UTF-8",
+        "bytes": 11204,
+        "sha256": "4e7b8e07dffaf4a10a78ba817d2111b22b013a172824ac9c7f31554da7828fc9",
+        "current_page": 3,
+        "rows_in_page": 44,
+        "total_rows": 244,
+        "total_pages": 3
+      }
+    ],
+    "department_pages": [
+      {
+        "path": "raw/directory-department-2621-page-1.json",
+        "url": "https://fdjwgl.fudan.edu.cn/manager/bizType/2/page-center/major-program-search-view/search?skipAuth=1&YEARS=2024&queryPage__=1%2C100&DEPART_IDS=2621",
+        "content_type": "application/json;charset=UTF-8",
+        "bytes": 3023,
+        "sha256": "f7fcf5d26371ce4e6856ca8864f17ac37bf03ab825f238a5229551cb98512cbc",
+        "current_page": 1,
+        "rows_in_page": 13,
+        "total_rows": 13,
+        "total_pages": 1
+      }
+    ]
+  },
+  "all_directory_rows": 244,
+  "department_directory_rows": 13,
+  "selected_department_plans": 13,
+  "downloaded_original_json": 13,
+  "downloaded_original_word": 13,
+  "embedded_images": 13,
+  "cross_department_candidates_listed_not_downloaded": 0,
+  "cross_department_candidate_path": "raw/cross-department-relevant-candidates.json",
+  "not_downloaded_reason": "跨院候选仅作人工审阅记录；本批下载范围限定为官方目录中院系字段准确匹配新闻学院的培养方案。通识、公共及含新闻字样的泛方案不作为相关专业方案。",
+  "plans": [
+    {
+      "id": "72817",
+      "title": "2024 传播学“2+X”教学培养方案",
+      "major_name": "传播学",
+      "scope_tags": [],
+      "word_path": "word-originals/plan-72817.docx"
+    },
+    {
+      "id": "72812",
+      "title": "2024 广告学“2+X”教学培养方案",
+      "major_name": "广告学",
+      "scope_tags": [],
+      "word_path": "word-originals/plan-72812.docx"
+    },
+    {
+      "id": "96633",
+      "title": "2024 广告学“2+X”教学培养方案（港澳台）",
+      "major_name": "广告学",
+      "scope_tags": [
+        "hong_kong_macao_taiwan_overseas_chinese"
+      ],
+      "word_path": "word-originals/plan-96633.docx"
+    },
+    {
+      "id": "72813",
+      "title": "2024 广播电视学“2+X”教学培养方案",
+      "major_name": "广播电视学",
+      "scope_tags": [],
+      "word_path": "word-originals/plan-72813.docx"
+    },
+    {
+      "id": "72811",
+      "title": "2024 新闻学“2+X”教学培养方案",
+      "major_name": "新闻学",
+      "scope_tags": [],
+      "word_path": "word-originals/plan-72811.docx"
+    },
+    {
+      "id": "72825",
+      "title": "2024传播学“2+X”教学培养方案 留学生",
+      "major_name": "传播学",
+      "scope_tags": [
+        "international_student"
+      ],
+      "word_path": "word-originals/plan-72825.docx"
+    },
+    {
+      "id": "72827",
+      "title": "2024广告学“2+X”教学培养方案 留学生",
+      "major_name": "广告学",
+      "scope_tags": [
+        "international_student"
+      ],
+      "word_path": "word-originals/plan-72827.docx"
+    },
+    {
+      "id": "72828",
+      "title": "2024广播电视学“2+X”教学培养方案 留学生",
+      "major_name": "广播电视学",
+      "scope_tags": [
+        "international_student"
+      ],
+      "word_path": "word-originals/plan-72828.docx"
+    },
+    {
+      "id": "72826",
+      "title": "2024新闻学“2+X”教学培养方案 留学生",
+      "major_name": "新闻学",
+      "scope_tags": [
+        "international_student"
+      ],
+      "word_path": "word-originals/plan-72826.docx"
+    },
+    {
+      "id": "73374",
+      "title": "2024新闻学（望道新闻卓越班）-人工智能双学士学位项目“2+X”教学培养方案",
+      "major_name": "新闻学(望道新闻卓越班)-人工智能(双学士学位项目)",
+      "scope_tags": [
+        "double_degree"
+      ],
+      "word_path": "word-originals/plan-73374.docx"
+    },
+    {
+      "id": "72861",
+      "title": "2024级“望道新闻卓越班”",
+      "major_name": "新闻学(望道新闻卓越班)",
+      "scope_tags": [],
+      "word_path": "word-originals/plan-72861.docx"
+    },
+    {
+      "id": "72979",
+      "title": "传播学-人工智能双学士学位项目“2+X”教学培养方案",
+      "major_name": "传播学-人工智能(双学士学位项目)",
+      "scope_tags": [
+        "double_degree"
+      ],
+      "word_path": "word-originals/plan-72979.docx"
+    },
+    {
+      "id": "72978",
+      "title": "新闻学-人工智能双学士学位项目“2+X”教学培养方案",
+      "major_name": "新闻学-人工智能(双学士学位项目)",
+      "scope_tags": [
+        "double_degree"
+      ],
+      "word_path": "word-originals/plan-72978.docx"
+    }
+  ]
+}

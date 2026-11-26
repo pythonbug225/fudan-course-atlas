@@ -1,0 +1,175 @@
+{
+  "plan_id": "97147",
+  "cohort": 2025,
+  "title": "2025新闻学专业本科培养方案",
+  "department": "新闻学院",
+  "department_id": 2621,
+  "major_name": "新闻学",
+  "scope": "department",
+  "scope_tags": [],
+  "directory_row": {
+    "YEARS": "2025",
+    "MAJOR_NAME": "新闻学",
+    "MAJOR_ID": 281,
+    "DEPART_NAME": "新闻学院",
+    "AUDIT_STATE": "",
+    "ID": 97147,
+    "NAME_ZH": "2025新闻学专业本科培养方案",
+    "DEPART_IDS": 2621,
+    "ROW_ID": 18
+  },
+  "detail_url": "https://fdjwgl.fudan.edu.cn/manager/bizType/2/major-program-search/info/97147?skipAuth=1",
+  "export_url": "https://fdjwgl.fudan.edu.cn/manager/bizType/2/major-program-search/export-word",
+  "export_method": "POST ids=97147",
+  "raw_path": "raw/plan-97147.json.gz",
+  "raw_bytes": 1135293,
+  "raw_sha256": "c68030b3b6af9c8022aaea11777b14a8f85e8c0faf91b39190f646621d425507",
+  "detail_content_type": "application/json;charset=UTF-8",
+  "word_path": "word-originals/plan-97147.docx",
+  "word_text_path": "word-text/plan-97147.txt",
+  "word_bytes": 276275,
+  "word_sha256": "9d7b60892c8b7d35f2043c15035f9b05f81e78780f172427d510db3c0174e4f1",
+  "cohort_year_present_in_word_text": true,
+  "word_content_type": "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
+  "images": [
+    {
+      "path": "source-figures/plan-97147-p000-01-document_image_rId4.png",
+      "member": "word/media/document_image_rId4.png",
+      "relationship_id": "rId4",
+      "paragraph_index": 0,
+      "sha256": "079ee6539e29b85d9bccb9016e8147e9319c1fd1aa2a8a6ac0f4e74a915109bc",
+      "bytes": 2649
+    },
+    {
+      "path": "source-figures/plan-97147-p008-02-document_image_rId5.png",
+      "member": "word/media/document_image_rId5.png",
+      "relationship_id": "rId5",
+      "paragraph_index": 8,
+      "sha256": "e96e69c6ee55e8899d01336ebff28015013e61a8c98105284f754353eac047ab",
+      "bytes": 23523
+    },
+    {
+      "path": "source-figures/plan-97147-p011-03-document_image_rId6.png",
+      "member": "word/media/document_image_rId6.png",
+      "relationship_id": "rId6",
+      "paragraph_index": 11,
+      "sha256": "aafe83546f3b1a332ba2997dc74675e820a68760a9a502e6066aa4ddd4d10629",
+      "bytes": 51740
+    },
+    {
+      "path": "source-figures/plan-97147-p013-04-document_image_rId7.png",
+      "member": "word/media/document_image_rId7.png",
+      "relationship_id": "rId7",
+      "paragraph_index": 13,
+      "sha256": "5489d6af962286d2b85d8bd204c4c1bab1aaa28c168b3cab680ba40c7c59a00d",
+      "bytes": 97779
+    },
+    {
+      "path": "source-figures/plan-97147-p027-05-document_image_rId8.png",
+      "member": "word/media/document_image_rId8.png",
+      "relationship_id": "rId8",
+      "paragraph_index": 27,
+      "sha256": "146dfd200bfe65307c226082a35e2cdfed90bcd112a3346cc5c2cafd68b33187",
+      "bytes": 64505
+    }
+  ],
+  "retrieved_at": "2026-11-26T08:25:34.332456+00:00",
+  "api_model_scope_fields": {
+    "id": 97147,
+    "nameZh": "2025新闻学专业本科培养方案",
+    "grade": "2025",
+    "stdType": {
+      "nameZh": "普通本科生",
+      "nameEn": null,
+      "id": 1,
+      "code": "01",
+      "enabled": true,
+      "createdDateTime": null,
+      "updatedDateTime": "2025-03-26T18:20:22.000",
+      "bizTypeAssocs": [
+        2,
+        3,
+        4
+      ],
+      "transient": false,
+      "bizTypeIds": [
+        4,
+        2,
+        3
+      ],
+      "name": "普通本科生"
+    },
+    "cultivateType": {
+      "nameZh": "主修",
+      "nameEn": "Major",
+      "id": 1,
+      "code": "01",
+      "enabled": true,
+      "createdDateTime": null,
+      "updatedDateTime": null,
+      "bizTypeAssocs": [
+        2
+      ],
+      "transient": false,
+      "bizTypeIds": [
+        2
+      ],
+      "name": "主修"
+    },
+    "major": {
+      "id": 281,
+      "nameZh": "新闻学",
+      "nameEn": "Journalism",
+      "code": "131",
+      "abbrZh": "新闻学",
+      "abbrEn": null,
+      "parent": false,
+      "studyYears": 4.0,
+      "majorCertificate": null,
+      "baseDataNo": "030",
+      "establishYear": "2015",
+      "sbdp": false,
+      "jcrh": false,
+      "doubleDegree": null,
+      "firstEnrollYear": "2015",
+      "stopEnrollYear": null,
+      "invalidYear": null,
+      "enabled": true,
+      "graduateNameZh": "新闻学",
+      "graduateNameEn": "Journalism",
+      "international": false,
+      "parentMajorAssocs": [],
+      "childMajorAssocs": []
+    },
+    "department": {
+      "id": 2621,
+      "nameZh": "新闻学院",
+      "nameEn": "Journalism School",
+      "code": "013",
+      "abbrZh": "新闻",
+      "abbrEn": null,
+      "college": true,
+      "research": false,
+      "openCourse": true,
+      "experiment": false,
+      "telephone": null,
+      "address": null,
+      "indexNo": 100286,
+      "recruitTypeSet": [
+        "UNDERGRADUATE"
+      ],
+      "recruitTypes": "UNDERGRADUATE",
+      "yikou": false,
+      "enabled": true,
+      "unitCode": "100286"
+    },
+    "auditState": "ACCEPTED",
+    "bizType": {
+      "id": 2,
+      "nameZh": "本研融通",
+      "nameEn": "Undergraduate"
+    }
+  },
+  "original_raw_path": "raw/plan-97147.json",
+  "raw_compression": "gzip; raw_sha256 refers to the exact decompressed original response"
+}
