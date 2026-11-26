@@ -1,0 +1,36 @@
+{
+  "handbook_url": "https://philosophy.fudan.edu.cn/_upload/article/files/82/e0/fffa1188484786c6751f6f882235/c8d46080-bbae-4366-afd2-7515893daa80.pdf",
+  "method": "核对手册课程图中的箭头、教学大纲、课程简介的修读要求和荣誉课程替换表。印刷页码等于 PDF 页码减一。将手册旧课程代码与本届教务系统 oldCourseCode 栏核对。",
+  "registrar_coverage": {
+    "all_university_directory_rows": 147,
+    "school_rows": 13,
+    "word_exports_verified": 13,
+    "handbook_program_versions": 9,
+    "handbook_course_sequence_diagrams_pdf_pages": [16, 19, 22, 25, 28],
+    "handbook_semester_guidance_pdf_pages": [995, 996, 997, 998, 999, 1000, 1001, 1002, 1003, 1004, 1005, 1006, 1007, 1008, 1009, 1010, 1011, 1012, 1013, 1014, 1015, 1016, 1017, 1018, 1019, 1020, 1021, 1022, 1023, 1024],
+    "indexed_general_education": "教务计划返回了通识模块的要求学分和课程数。部分模块按全校课程池或专项指引执行，公开专业计划未为这些模块逐门列课程。",
+    "embedded_word_figures": "13 份 Word 原件仅各含一份相同的复旦大学字标图。课程箭头来自学院手册。",
+    "registrar_program_prerequisite_fields": "2736 条课程归属记录的课程对象均未出现 defaultPreCourseList 或 defaultPreCourses。",
+    "ppe": {
+      "status": "2023 本科招生目录提到由哲学学院管理的政治学、经济学与哲学跨院专业。公开教务系统 147 条 2023 级记录与学院手册目录均无该专业的独立培养方案记录。",
+      "admissions_url": "https://ao.fudan.edu.cn/b0/af/c40766a503983/page.htm",
+      "program_news_url": "https://news.fudan.edu.cn/2023/0626/c2669a135525/page.htm"
+    }
+  },
+  "unresolved_or_qualified_text": [
+    {"pdf_page": 283, "course": "科学、技术与社会（STS）", "text": "另要求一定的自然科学、科学思想史知识。", "disposition": "知识领域，无固定追加课程代码。"},
+    {"pdf_page": 330, "course": "认识论", "text": "哲学概论、西方哲学史、马克思主义哲学、马克思主义哲学原理、中国哲学史。", "disposition": "课程别名或领域无法唯一对齐；马克思主义哲学史另有唯一对应，已入图。"},
+    {"pdf_page": 350, "course": "社会哲学与社会理论", "text": "预修西方哲学史、现代西方哲学、马克思主义哲学。", "disposition": "手册标题与代码 PHIL130207 对应两门在册课程，先修名称亦无法唯一对齐。"},
+    {"pdf_page": 371, "course": "康德哲学", "text": "哲学 B 组的大纲不要求预修，建议了解欧洲近代哲学。", "disposition": "科逻 B 组和艺术 D 组另有大纲列了预修课程。入图的先修边仅限定于后两处大纲对应的普通方向。"},
+    {"pdf_page": 410, "course": "教育哲学", "text": "预修西方哲学史。", "disposition": "泛称无法唯一对齐现行课程。"},
+    {"pdf_page": 450, "course": "佛教经典选读", "text": "文本和课程大纲与佛教哲学相配合。", "disposition": "课程关联，未规定修读顺序。"},
+    {"pdf_page": 484, "course": "高等逻辑", "text": "课程面向已修完数理逻辑的学生。", "disposition": "教学目的中的受众说明，按修读建议入图。"},
+    {"pdf_page": 599, "course": "现代法国哲学", "text": "预修西方哲学史。", "disposition": "泛称无法唯一对齐现行课程。"},
+    {"pdf_page": 648, "course": "宗教哲学", "text": "教学基本要求另有西方哲学史、宗教学概论。", "disposition": "西方哲学史为泛称。预修课程表已以宗教学导论的名称入图。"},
+    {"pdf_page": 734, "course": "意识形态理论研究", "text": "预修西方马克思主义。", "disposition": "多门近似在册课程，编号无法唯一确定。"},
+    {"pdf_page": 776, "course": "力迫法", "text": "预修 Set theory and Mathematical Logic I。", "disposition": "未见对应代码或等价表，保留原文的单项写法。"},
+    {"pdf_page": 815, "course": "新兴宗教概论", "text": "预修宗教学概论。", "disposition": "在册的近似科目为宗教学导论，缺少指明两者同一课程的出处。"},
+    {"pdf_page": 870, "course": "法国哲学与文化", "text": "建议学过西方哲学史。", "disposition": "西方哲学史为泛称，且目标课程未列于 13 份方案的逐课明细。"},
+    {"pdf_page": 903, "course": "力迫法（通识选修）", "text": "预修 Set theory and Mathematical Logic I。", "disposition": "通识条目的旧代码 PHIL116002 未列于 13 份方案的逐课明细。"}
+  ]
+}

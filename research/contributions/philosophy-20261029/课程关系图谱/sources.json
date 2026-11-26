@@ -1,0 +1,25 @@
+[
+  {
+    "id": "catalogue",
+    "title": "哲学学院2025秋/2026春267代码与384教学班",
+    "path": "../summaries/courses.json",
+    "sha256": "a37afec322714fa2e4a3f41a9239969b38c26c6ebeeb58579fc4ae8474765885",
+    "scope": "提供课程名、代码、层次、教学班和培养方案匹配；未提供正式先修字段"
+  },
+  {
+    "id": "programmes",
+    "title": "2026级18份培养方案课程索引",
+    "path": "../official/programme-courses.json",
+    "sha256": "39f15c73672dc05db3b1bbd54de320d39925153b7da2ba1b4da7d73f20d2ff38",
+    "scope": "3327个方案课程条目；建议学期字段均空或null，不能由其生成先修边"
+  },
+  {
+    "id": "handbook-2026",
+    "title": "复旦大学哲学学院本科生课程学习手册（2026版）",
+    "url": "https://philosophy.fudan.edu.cn/_upload/article/files/98/2a/cd8af1f746e3ac12a137bbcfaffe/43d2a51a-eb21-4991-925c-26bb8fde30f4.pdf",
+    "sha256": "7bfb9ef2eafc04e888d3026e3348bd138ed4614ccd749b63fb2e8de9d8af77e1",
+    "pages": 235,
+    "accessed": "2026-11-19",
+    "scope": "第18页普通逻辑修读路线及H替代；第181、183、186、189、192页是微专业整体先修不作要求，不等于每门课无先修"
+  }
+]
