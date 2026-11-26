@@ -2,6 +2,12 @@
 
 2023 年度汇编，方案正文印刷页 89–91。本页附上原书 PDF 第 101–105 页，其中含本专业紧随正文的各版修读建议。逐行数据覆盖可可靠对应课号和名称的原表记录。[方案原页](original-pages.pdf) · [完整原版](https://jwc.fudan.edu.cn/_upload/article/files/83/6c/8a3c080c4f8991024f4b59ad4f1b/64d23c13-0465-4619-bd18-9e491594f850.pdf#page=101) · [逐行数据与来源](record.json)
 
+## 课程导读
+
+想了解古文字与文献的课程安排，可以在原表中找到《古文字学》（`CHIN130153`）、《甲骨学概论》（`CHIN130255`）、《商周金文概论》（`CHIN130256`）。 [原书 PDF 第 102 页](original-pages.pdf#page=2) · [原书 PDF 第 103 页](original-pages.pdf#page=3)
+
+图中把《文字学》（`CHIN130185`）和《训诂学》（`CHIN130186`）列作内容联系。文字形体与字词解释在古典文献阅读中联系紧密。 [原书 PDF 第 102 页](original-pages.pdf#page=2)
+
 ~~~mermaid
 flowchart LR
   xCHIN130011["语言学概论"] -->|知识准备建议|xCHIN130187["语音学"]

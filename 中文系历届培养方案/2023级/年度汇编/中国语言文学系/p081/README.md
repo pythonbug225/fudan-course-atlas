@@ -2,6 +2,12 @@
 
 2023 年度汇编，方案正文印刷页 81–84。本页附上原书 PDF 第 93–100 页，其中含本专业紧随正文的各版修读建议。逐行数据覆盖可可靠对应课号和名称的原表记录。[方案原页](original-pages.pdf) · [完整原版](https://jwc.fudan.edu.cn/_upload/article/files/83/6c/8a3c080c4f8991024f4b59ad4f1b/64d23c13-0465-4619-bd18-9e491594f850.pdf#page=93) · [逐行数据与来源](record.json)
 
+## 课程导读
+
+想了解汉语研究的课程安排，可以在原表中找到《现代汉语（上）》（`CHIN130002`）、《语言学概论》（`CHIN130011`）、《语法学》（`CHIN130239`）。 [原书 PDF 第 93 页](original-pages.pdf#page=1) · [原书 PDF 第 94 页](original-pages.pdf#page=2)
+
+图谱建议先读《语言学概论》（`CHIN130011`）再读《社会语言学》（`CHIN130137`）。语言结构与语言变异概念可支持社会语言学学习。 [原书 PDF 第 93 页](original-pages.pdf#page=1) · [原书 PDF 第 94 页](original-pages.pdf#page=2)
+
 ~~~mermaid
 flowchart LR
   xCHIN130011["语言学概论"] -->|知识准备建议|xCHIN130137["社会语言学"]

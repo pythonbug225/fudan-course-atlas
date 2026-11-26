@@ -2,6 +2,12 @@
 
 2023 年度汇编，方案正文印刷页 73–76。本页附上原书 PDF 第 85–92 页，其中含本专业紧随正文的各版修读建议。逐行数据覆盖可可靠对应课号和名称的原表记录。[方案原页](original-pages.pdf) · [完整原版](https://jwc.fudan.edu.cn/_upload/article/files/83/6c/8a3c080c4f8991024f4b59ad4f1b/64d23c13-0465-4619-bd18-9e491594f850.pdf#page=85) · [逐行数据与来源](record.json)
 
+## 课程导读
+
+想了解文学史与文本阅读的课程安排，可以在原表中找到《中国古代文学史（上）》（`CHIN130006`）、“《文学理论》精读”（`CHIN130019`）、《中国古代文学史（中）》（`CHIN130007`）。 [原书 PDF 第 85 页](original-pages.pdf#page=1) · [原书 PDF 第 86 页](original-pages.pdf#page=2)
+
+《中国古代文学史（上）》（`CHIN130006`）和《中国古代文学史（中）》（`CHIN130007`）是同一系列，图中的箭头按题名标出的分册顺序排列。原表分别排在第 1 学期和第 2 学期。 [原书 PDF 第 85 页](original-pages.pdf#page=1)
+
 ~~~mermaid
 flowchart LR
   xCHIN130006["中国古代文学史（上）"] -->|分册联系|xCHIN130007["中国古代文学史（中）"]
