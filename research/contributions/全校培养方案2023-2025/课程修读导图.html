@@ -77,6 +77,7 @@ const courseTypes = {
   content: ['课程内容联系', '#807079', '1 4'],
 };
 const sourceKinds = {system: '教务方案', annual: '年度汇编', advice: '修读建议'};
+const disciplineOrder = ['文', '理', '工', '医', '跨类'];
 let plans = [], departmentCategories = {}, detail, courses = new Map(), focusId = '', request = 0, drawFrame = 0;
 const byName = new Intl.Collator('zh-Hans-CN', {numeric: true});
 function node(tag, text, className) {
@@ -98,7 +99,11 @@ function filterPlans(changed = '', wanted) {
     const select = element(key);
     const field = key === 'plan' ? 'id' : key;
     const choices = new Map(subset.map(p => [String(p[field]), key === 'plan' ? (sourceKinds[p.sourceKind] || '教务方案') + ' · ' + p.title + ' · ' + p.id : String(p[field])]));
-    const values = [...choices].sort(([a, an], [b, bn]) => key === 'year' ? Number(b) - Number(a) : byName.compare(an, bn));
+    const values = [...choices].sort(([a, an], [b, bn]) => {
+      if (key === 'year') return Number(b) - Number(a);
+      if (key === 'category') return disciplineOrder.indexOf(a) - disciplineOrder.indexOf(b);
+      return byName.compare(an, bn);
+    });
     const preference = String(wanted?.[field] ?? (reset ? '' : select.value));
     const systemFirst = subset.find(p => !p.sourceKind || p.sourceKind === 'system');
     setOptions(select, values, values.some(([v]) => v === preference) ? preference : key === 'plan' ? String(systemFirst?.id ?? '') : '');
@@ -264,7 +269,10 @@ function renderGraph() {
     }
     termColumns.push(col);
   }
-  columns.replaceChildren(...(termColumns.length ? termColumns : [node('p', '此范围没有课程。可切换至方案全部课程。')]));
+  let empty = '此范围尚无可定位的课程，可切换至方案全部专业课程。';
+  if (!all.length) empty = '本节原页尚无可逐行定位的课程。请查看上方方案原件及下方导读。';
+  else if (scope.value === 'required') empty = '现有记录尚未确认无条件必修的课程。请选择其他范围，或查阅方案原件中的要求。';
+  columns.replaceChildren(...(termColumns.length ? termColumns : [node('p', empty)]));
   const visibleIds = new Set(visible.map(c => String(c.id)));
   const edges = currentEdges().filter(e => visibleIds.has(String(e.from)) && visibleIds.has(String(e.to)) && (lines.value !== 'syllabus' || e.type === 'syllabus_prerequisite'));
   const kinds = [...new Set(edges.map(e => e.type))];
@@ -362,6 +370,7 @@ function renderPanel() {
   const relations = currentEdges().filter(e => String(e.from) === focusId || String(e.to) === focusId);
   box.append(node('h3', '课程关系 · ' + relations.length));
   if (!relations.length) box.append(node('p', '当前方案尚无这门课的逐条关系记录。'));
+  const groups = new Map();
   for (const edge of relations) {
     const outgoing = String(edge.from) === focusId;
     const other = courses.get(String(outgoing ? edge.to : edge.from));
@@ -389,8 +398,15 @@ function renderPanel() {
       if (evidence.at) positions.push(evidence.at);
     }
     if (positions.length) row.append(node('code', positions.join('、')));
-    box.append(row);
+    const title = edge.type === 'content' ? '内容相关的课程' : outgoing ? '可衔接的课程' : '本课之前的课程';
+    if (!groups.has(title)) {
+      const section = node('section');
+      section.append(node('h4',title));
+      groups.set(title, section);
+    }
+    groups.get(title).append(row);
   }
+  box.append(...groups.values());
   panel.append(box);
 }
 function searchCourse() {
