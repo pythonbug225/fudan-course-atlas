@@ -1,0 +1,2052 @@
+{
+  "note": "候选规则是整理者的学科推断，仅在目标年级两端代码及课程题名均匹配时使用；有向建议还要求至少同一方案同时列课。2026级官方证据不继承。",
+  "edges": [
+    {
+      "source": "PSYC30017",
+      "source_name": "心理统计学(一)",
+      "target": "PSYC30018",
+      "target_name": "心理统计学(二)",
+      "type": "recommended_preparation",
+      "reason": "统计基础可支持后续推断与高级分析；题名序号支持递进建议，具体知识边界须核对大纲。"
+    },
+    {
+      "source": "PSYC30018",
+      "source_name": "心理统计学(二)",
+      "target": "PSYC40006",
+      "target_name": "高级心理统计分析",
+      "type": "recommended_preparation",
+      "reason": "统计基础可支持后续推断与高级分析；题名序号支持递进建议，具体知识边界须核对大纲。"
+    },
+    {
+      "source": "PSYC30001",
+      "source_name": "实验心理学(上)",
+      "target": "PSYC30002",
+      "target_name": "实验心理学(下)",
+      "type": "recommended_preparation",
+      "reason": "由实验基础到实验设计与独立研究方案，是建议的能力准备路线。"
+    },
+    {
+      "source": "PSYC30002",
+      "source_name": "实验心理学(下)",
+      "target": "PSYC30012",
+      "target_name": "心理实验设计与研究方法",
+      "type": "recommended_preparation",
+      "reason": "由实验基础到实验设计与独立研究方案，是建议的能力准备路线。"
+    },
+    {
+      "source": "PSYC30012",
+      "source_name": "心理实验设计与研究方法",
+      "target": "PSYC40004",
+      "target_name": "心理实验研究设计",
+      "type": "recommended_preparation",
+      "reason": "由实验基础到实验设计与独立研究方案，是建议的能力准备路线。"
+    },
+    {
+      "source": "PSYC20001",
+      "source_name": "心理学导论",
+      "target": "PSYC30004",
+      "target_name": "认知心理学",
+      "type": "recommended_preparation",
+      "reason": "心理学概念、认知过程与神经机制之间存在逐步深入的知识准备联系。"
+    },
+    {
+      "source": "PSYC30004",
+      "source_name": "认知心理学",
+      "target": "PSYC30025",
+      "target_name": "认知神经科学导论",
+      "type": "recommended_preparation",
+      "reason": "心理学概念、认知过程与神经机制之间存在逐步深入的知识准备联系。"
+    },
+    {
+      "source": "PSYC30025",
+      "source_name": "认知神经科学导论",
+      "target": "PSYC60001",
+      "target_name": "认知神经科学专题",
+      "type": "recommended_preparation",
+      "reason": "心理学概念、认知过程与神经机制之间存在逐步深入的知识准备联系。"
+    },
+    {
+      "source": "PSYC20001",
+      "source_name": "心理学导论",
+      "target": "PSYC30023",
+      "target_name": "变态心理学",
+      "type": "recommended_preparation",
+      "reason": "导论及异常心理知识可为临床与咨询学习提供背景；此顺序仅为建议，不代表临床执业资格。"
+    },
+    {
+      "source": "PSYC30023",
+      "source_name": "变态心理学",
+      "target": "PSYC30010",
+      "target_name": "临床心理学",
+      "type": "recommended_preparation",
+      "reason": "导论及异常心理知识可为临床与咨询学习提供背景；此顺序仅为建议，不代表临床执业资格。"
+    },
+    {
+      "source": "PSYC30010",
+      "source_name": "临床心理学",
+      "target": "PSYC30019",
+      "target_name": "心理咨询与治疗",
+      "type": "recommended_preparation",
+      "reason": "导论及异常心理知识可为临床与咨询学习提供背景；此顺序仅为建议，不代表临床执业资格。"
+    },
+    {
+      "source": "PSYC30017",
+      "source_name": "心理统计学(一)",
+      "target": "PSYC30008",
+      "target_name": "心理测验与应用",
+      "type": "recommended_preparation",
+      "reason": "统计基础支持测量概念与工具评价；具体覆盖须查各课大纲。"
+    },
+    {
+      "source": "PSYC30008",
+      "source_name": "心理测验与应用",
+      "target": "APSY60016",
+      "target_name": "心理测量及应用",
+      "type": "recommended_preparation",
+      "reason": "统计基础支持测量概念与工具评价；具体覆盖须查各课大纲。"
+    },
+    {
+      "source": "APSY70009",
+      "source_name": "应用心理统计学",
+      "target": "APSY70010",
+      "target_name": "高级心理学研究方法",
+      "type": "recommended_preparation",
+      "reason": "应用统计、研究方法和实验专题可形成研究能力准备；跨学期要求待大纲确认。"
+    },
+    {
+      "source": "APSY70010",
+      "source_name": "高级心理学研究方法",
+      "target": "APSY70002",
+      "target_name": "实验心理学专题",
+      "type": "recommended_preparation",
+      "reason": "应用统计、研究方法和实验专题可形成研究能力准备；跨学期要求待大纲确认。"
+    },
+    {
+      "source": "PSYC30027",
+      "source_name": "高级实验技术(一)",
+      "target": "PSYC30028",
+      "target_name": "高级实验技术(二)",
+      "type": "recommended_preparation",
+      "reason": "依据题名序号提出技术训练的连续修读建议。"
+    },
+    {
+      "source": "PSYC40002",
+      "source_name": "专业实践(一)",
+      "target": "PSYC40003",
+      "target_name": "专业实践(二)",
+      "type": "recommended_preparation",
+      "reason": "同一课号系列的实践一、二按序号提供学习顺序参考；不同版本代码不自动互认。"
+    },
+    {
+      "source": "SOCI20001",
+      "source_name": "社会学导论",
+      "target": "SOCI30020",
+      "target_name": "古典社会学理论",
+      "type": "recommended_preparation",
+      "reason": "导论提供概念，古典与当代理论可支持高级理论研读；跨培养层次的连接是知识准备。"
+    },
+    {
+      "source": "SOCI30020",
+      "source_name": "古典社会学理论",
+      "target": "SOCI30021",
+      "target_name": "当代社会学理论",
+      "type": "recommended_preparation",
+      "reason": "导论提供概念，古典与当代理论可支持高级理论研读；跨培养层次的连接是知识准备。"
+    },
+    {
+      "source": "SOCI30021",
+      "source_name": "当代社会学理论",
+      "target": "SOCI70001",
+      "target_name": "高级社会学理论研读",
+      "type": "recommended_preparation",
+      "reason": "导论提供概念，古典与当代理论可支持高级理论研读；跨培养层次的连接是知识准备。"
+    },
+    {
+      "source": "SOCI10003",
+      "source_name": "社会研究方法基础",
+      "target": "SOCI20002",
+      "target_name": "社会研究方法A",
+      "type": "recommended_preparation",
+      "reason": "从方法基础、研究设计到调查与高级方法整理建议路线。"
+    },
+    {
+      "source": "SOCI20002",
+      "source_name": "社会研究方法A",
+      "target": "SOCI30034",
+      "target_name": "社会调查方法",
+      "type": "recommended_preparation",
+      "reason": "从方法基础、研究设计到调查与高级方法整理建议路线。"
+    },
+    {
+      "source": "SOCI30034",
+      "source_name": "社会调查方法",
+      "target": "SOCI40009",
+      "target_name": "高级社会研究方法",
+      "type": "recommended_preparation",
+      "reason": "从方法基础、研究设计到调查与高级方法整理建议路线。"
+    },
+    {
+      "source": "SOCI20003",
+      "source_name": "统计学",
+      "target": "SOCI30006",
+      "target_name": "社会统计学",
+      "type": "recommended_preparation",
+      "reason": "统计基础和中级分析有助于进一步理解因果分析；具体模型依赖尚未获大纲确认。"
+    },
+    {
+      "source": "SOCI30006",
+      "source_name": "社会统计学",
+      "target": "SOCI50017",
+      "target_name": "中级社会统计分析",
+      "type": "recommended_preparation",
+      "reason": "统计基础和中级分析有助于进一步理解因果分析；具体模型依赖尚未获大纲确认。"
+    },
+    {
+      "source": "SOCI50017",
+      "source_name": "中级社会统计分析",
+      "target": "SOCI70009",
+      "target_name": "社会研究中的因果分析",
+      "type": "recommended_preparation",
+      "reason": "统计基础和中级分析有助于进一步理解因果分析；具体模型依赖尚未获大纲确认。"
+    },
+    {
+      "source": "SOCI30002",
+      "source_name": "文化人类学",
+      "target": "SOCI30035",
+      "target_name": "质性研究方法",
+      "type": "recommended_preparation",
+      "reason": "人类学视角与质性方法为田野研究和高级方法提供准备。"
+    },
+    {
+      "source": "SOCI30035",
+      "source_name": "质性研究方法",
+      "target": "SOCI30039",
+      "target_name": "人类学研究方法",
+      "type": "recommended_preparation",
+      "reason": "人类学视角与质性方法为田野研究和高级方法提供准备。"
+    },
+    {
+      "source": "SOCI30039",
+      "source_name": "人类学研究方法",
+      "target": "SOCI60002",
+      "target_name": "文化人类学研究方法",
+      "type": "recommended_preparation",
+      "reason": "人类学视角与质性方法为田野研究和高级方法提供准备。"
+    },
+    {
+      "source": "SOCI30034",
+      "source_name": "社会调查方法",
+      "target": "SOCI40004",
+      "target_name": "社会调查实践(一)",
+      "type": "recommended_preparation",
+      "reason": "建议先练习调查设计与调查实践，再形成论文；不是从开课学期机械推断的硬性链。"
+    },
+    {
+      "source": "SOCI40004",
+      "source_name": "社会调查实践(一)",
+      "target": "SOCI40005",
+      "target_name": "社会调查实践(二)",
+      "type": "recommended_preparation",
+      "reason": "建议先练习调查设计与调查实践，再形成论文；不是从开课学期机械推断的硬性链。"
+    },
+    {
+      "source": "SOCI40005",
+      "source_name": "社会调查实践(二)",
+      "target": "SOCI40003",
+      "target_name": "学年论文",
+      "type": "recommended_preparation",
+      "reason": "建议先练习调查设计与调查实践，再形成论文；不是从开课学期机械推断的硬性链。"
+    },
+    {
+      "source": "SOCI40003",
+      "source_name": "学年论文",
+      "target": "SOCI40006",
+      "target_name": "毕业论文",
+      "type": "recommended_preparation",
+      "reason": "建议先练习调查设计与调查实践，再形成论文；不是从开课学期机械推断的硬性链。"
+    },
+    {
+      "source": "SOCI30008",
+      "source_name": "人口社会学",
+      "target": "SOCI30018",
+      "target_name": "人口分析",
+      "type": "recommended_preparation",
+      "reason": "人口理论背景与人口分析可衔接统计与分析技术。"
+    },
+    {
+      "source": "SOCI30018",
+      "source_name": "人口分析",
+      "target": "SOCI50019",
+      "target_name": "人口统计与分析技术",
+      "type": "recommended_preparation",
+      "reason": "人口理论背景与人口分析可衔接统计与分析技术。"
+    },
+    {
+      "source": "SWK20002",
+      "source_name": "社会工作导论",
+      "target": "SWK30001",
+      "target_name": "个案工作",
+      "type": "recommended_preparation",
+      "reason": "导论、个案方法与技巧训练可为专业实习做准备；须按具体方案确认实践准入。"
+    },
+    {
+      "source": "SWK30001",
+      "source_name": "个案工作",
+      "target": "SWK40004",
+      "target_name": "社会工作技巧实验",
+      "type": "recommended_preparation",
+      "reason": "导论、个案方法与技巧训练可为专业实习做准备；须按具体方案确认实践准入。"
+    },
+    {
+      "source": "SWK40004",
+      "source_name": "社会工作技巧实验",
+      "target": "SWK40002",
+      "target_name": "社会工作实习(一)",
+      "type": "recommended_preparation",
+      "reason": "导论、个案方法与技巧训练可为专业实习做准备；须按具体方案确认实践准入。"
+    },
+    {
+      "source": "SWK40002",
+      "source_name": "社会工作实习(一)",
+      "target": "SWK40003",
+      "target_name": "社会工作实习(二)",
+      "type": "recommended_preparation",
+      "reason": "导论、个案方法与技巧训练可为专业实习做准备；须按具体方案确认实践准入。"
+    },
+    {
+      "source": "SWK30006",
+      "source_name": "社会政策",
+      "target": "SWK30014",
+      "target_name": "社会福利理论与制度",
+      "type": "recommended_preparation",
+      "reason": "政策与福利制度背景可支持服务评价；建议补充研究方法，不能仅以本链代替先修清单。"
+    },
+    {
+      "source": "SWK30014",
+      "source_name": "社会福利理论与制度",
+      "target": "SWK30015",
+      "target_name": "社会工作评估",
+      "type": "recommended_preparation",
+      "reason": "政策与福利制度背景可支持服务评价；建议补充研究方法，不能仅以本链代替先修清单。"
+    },
+    {
+      "source": "SWK30017",
+      "source_name": "质性研究方法",
+      "target": "SWK30020",
+      "target_name": "社会工作实务研究",
+      "type": "recommended_preparation",
+      "reason": "质性研究与实务研究可支持毕业论文的问题设计与资料分析。"
+    },
+    {
+      "source": "SWK30020",
+      "source_name": "社会工作实务研究",
+      "target": "SWK40001",
+      "target_name": "毕业论文",
+      "type": "recommended_preparation",
+      "reason": "质性研究与实务研究可支持毕业论文的问题设计与资料分析。"
+    },
+    {
+      "source": "SOCI30049",
+      "source_name": "社区社会工作",
+      "target": "SOCI30052",
+      "target_name": "社会项目的设计与评估",
+      "type": "recommended_preparation",
+      "reason": "社区工作与项目设计可衔接项目及服务评估；跨代码方案不表示学分替代。"
+    },
+    {
+      "source": "SOCI30052",
+      "source_name": "社会项目的设计与评估",
+      "target": "SWK30015",
+      "target_name": "社会工作评估",
+      "type": "recommended_preparation",
+      "reason": "社区工作与项目设计可衔接项目及服务评估；跨代码方案不表示学分替代。"
+    },
+    {
+      "source": "MANA50013",
+      "source_name": "公共管理导论",
+      "target": "MANA50011",
+      "target_name": "公共政策分析",
+      "type": "recommended_preparation",
+      "reason": "公共管理背景、政策分析与政策研究构成建议的概念到分析路线。"
+    },
+    {
+      "source": "MANA50011",
+      "source_name": "公共政策分析",
+      "target": "MANA50020",
+      "target_name": "公共政策研究",
+      "type": "recommended_preparation",
+      "reason": "公共管理背景、政策分析与政策研究构成建议的概念到分析路线。"
+    },
+    {
+      "source": "MANA50011",
+      "source_name": "公共政策分析",
+      "target": "MANA50015",
+      "target_name": "政策系统动力学",
+      "type": "recommended_preparation",
+      "reason": "政策分析可为系统动力学、政策模拟与实验提供问题框架。"
+    },
+    {
+      "source": "MANA50015",
+      "source_name": "政策系统动力学",
+      "target": "MANA60073",
+      "target_name": "政策模拟与实验II",
+      "type": "recommended_preparation",
+      "reason": "政策分析可为系统动力学、政策模拟与实验提供问题框架。"
+    },
+    {
+      "source": "SOCI50059",
+      "source_name": "老年学理论",
+      "target": "SOCI50055",
+      "target_name": "健康老龄化研究专题",
+      "type": "recommended_preparation",
+      "reason": "老年学与健康老龄化议题可为老年社会工作实务提供背景。"
+    },
+    {
+      "source": "SOCI50055",
+      "source_name": "健康老龄化研究专题",
+      "target": "MAA70002",
+      "target_name": "老年社会工作实务",
+      "type": "recommended_preparation",
+      "reason": "老年学与健康老龄化议题可为老年社会工作实务提供背景。"
+    },
+    {
+      "source": "SOCI30006",
+      "source_name": "社会统计学",
+      "target": "SOCI30029",
+      "target_name": "统计软件应用",
+      "type": "recommended_preparation",
+      "reason": "社会统计知识可支撑软件操作与统计计算；软件课可能并行修读。"
+    },
+    {
+      "source": "SOCI30029",
+      "source_name": "统计软件应用",
+      "target": "SOCI50020",
+      "target_name": "社会经济统计与计算机应用",
+      "type": "recommended_preparation",
+      "reason": "社会统计知识可支撑软件操作与统计计算；软件课可能并行修读。"
+    },
+    {
+      "source": "AIB110002",
+      "source_name": "Python程序设计",
+      "target": "AIE310007",
+      "target_name": "数据结构",
+      "type": "recommended_preparation",
+      "reason": "编程、数据结构及机器学习可为计算社会科学提供工具准备；不是强制选课链。"
+    },
+    {
+      "source": "AIE310007",
+      "source_name": "数据结构",
+      "target": "SOCI30046",
+      "target_name": "机器学习与社会科学研究",
+      "type": "recommended_preparation",
+      "reason": "编程、数据结构及机器学习可为计算社会科学提供工具准备；不是强制选课链。"
+    },
+    {
+      "source": "SOCI30046",
+      "source_name": "机器学习与社会科学研究",
+      "target": "AIS631008",
+      "target_name": "大数据与社会计算",
+      "type": "recommended_preparation",
+      "reason": "编程、数据结构及机器学习可为计算社会科学提供工具准备；不是强制选课链。"
+    },
+    {
+      "source": "AIE310009",
+      "source_name": "人工智能的数学基础",
+      "target": "AIE410001",
+      "target_name": "模式识别与机器学习",
+      "type": "recommended_preparation",
+      "reason": "数学基础、机器学习和语言模型之间存在方法准备联系，具体先修依赖须补充AI课程大纲。"
+    },
+    {
+      "source": "AIE410001",
+      "source_name": "模式识别与机器学习",
+      "target": "AIE410002",
+      "target_name": "自然语言处理与大语言模型",
+      "type": "recommended_preparation",
+      "reason": "数学基础、机器学习和语言模型之间存在方法准备联系，具体先修依赖须补充AI课程大纲。"
+    },
+    {
+      "source": "MSP60001",
+      "source_name": "GIS技术与应用",
+      "target": "SOCI40011",
+      "target_name": "空间数据分析与应用",
+      "type": "recommended_preparation",
+      "reason": "GIS工具知识有助于空间数据分析与应用。"
+    },
+    {
+      "source": "PSYC30017",
+      "source_name": "心理统计学(一)",
+      "target": "PSYC30012",
+      "target_name": "心理实验设计与研究方法",
+      "type": "recommended_preparation",
+      "reason": "统计知识支持实验设计中的变量控制、数据分析与结果解释。"
+    },
+    {
+      "source": "PSYC30026",
+      "source_name": "心理学质性研究方法",
+      "target": "PSYC40001",
+      "target_name": "毕业论文",
+      "type": "recommended_preparation",
+      "reason": "质性研究方法可支持采用访谈、观察等设计的论文。"
+    },
+    {
+      "source": "PSYC30024",
+      "source_name": "心理学研究技术与数据处理",
+      "target": "PSYC40001",
+      "target_name": "毕业论文",
+      "type": "recommended_preparation",
+      "reason": "研究技术和数据处理可为实证论文提供工具准备。"
+    },
+    {
+      "source": "PSYC30008",
+      "source_name": "心理测验与应用",
+      "target": "APSY60006",
+      "target_name": "心理评估诊断与案例概念化",
+      "type": "recommended_preparation",
+      "reason": "测量知识可帮助理解评估工具的适用范围与测量质量。"
+    },
+    {
+      "source": "APSY60008",
+      "source_name": "咨询与访谈技巧",
+      "target": "APSY70004",
+      "target_name": "个体咨询技术与案例督导",
+      "type": "recommended_preparation",
+      "reason": "访谈技巧可为个体咨询案例训练提供实践准备。"
+    },
+    {
+      "source": "SOCI30035",
+      "source_name": "质性研究方法",
+      "target": "SOCI50044",
+      "target_name": "高级质性研究方法",
+      "type": "recommended_preparation",
+      "reason": "质性方法基础可衔接高级质性方法。"
+    },
+    {
+      "source": "SOCI30032",
+      "source_name": "论文写作",
+      "target": "SOCI40003",
+      "target_name": "学年论文",
+      "type": "recommended_preparation",
+      "reason": "论文写作练习可支持学年论文。"
+    },
+    {
+      "source": "SWK30007",
+      "source_name": "社会工作伦理",
+      "target": "SWK40002",
+      "target_name": "社会工作实习(一)",
+      "type": "recommended_preparation",
+      "reason": "专业伦理为实习中的服务边界与专业判断提供准备。"
+    },
+    {
+      "source": "SWK30005",
+      "source_name": "人类行为与社会环境",
+      "target": "SWK30001",
+      "target_name": "个案工作",
+      "type": "recommended_preparation",
+      "reason": "理解个体与环境的关系有助于个案问题评估。"
+    },
+    {
+      "source": "SWK30002",
+      "source_name": "小组工作",
+      "target": "SWK40004",
+      "target_name": "社会工作技巧实验",
+      "type": "recommended_preparation",
+      "reason": "小组方法可以作为技巧训练的一类实务基础。"
+    },
+    {
+      "source": "SWK30011",
+      "source_name": "变态心理学",
+      "target": "SWK30012",
+      "target_name": "家庭治疗",
+      "type": "recommended_preparation",
+      "reason": "异常心理背景可为家庭治疗相关问题理解提供知识准备。"
+    },
+    {
+      "source": "MATH10031",
+      "source_name": "线性代数A",
+      "target": "AIE410001",
+      "target_name": "模式识别与机器学习",
+      "type": "recommended_preparation",
+      "reason": "线性代数为机器学习中的向量与矩阵方法提供基础；A/B课程不得自动替代。"
+    },
+    {
+      "source": "MATH10029",
+      "source_name": "大学数学I",
+      "target": "PSYC30017",
+      "target_name": "心理统计学(一)",
+      "type": "recommended_preparation",
+      "reason": "数学基础有助于统计概念理解；是否要求特定数学课须按心理学方案确认。"
+    },
+    {
+      "source": "SOCI30006",
+      "source_name": "社会统计学",
+      "target": "SOCI30037",
+      "target_name": "统计软件应用",
+      "type": "recommended_preparation",
+      "reason": "统计知识可支持统计软件应用；与SOCI30029同名但不自动合并。"
+    },
+    {
+      "source": "PSYC30017",
+      "source_name": "心理统计学(一)",
+      "target": "SOCI30006",
+      "target_name": "社会统计学",
+      "type": "content_link",
+      "reason": "共同涉及统计方法，应用问题分别来自社会研究与心理研究。"
+    },
+    {
+      "source": "PSYC30026",
+      "source_name": "心理学质性研究方法",
+      "target": "SOCI30035",
+      "target_name": "质性研究方法",
+      "type": "content_link",
+      "reason": "共享质性研究的方法主题，学科对象和训练要求可能不同。"
+    },
+    {
+      "source": "SOCI30035",
+      "source_name": "质性研究方法",
+      "target": "SWK30017",
+      "target_name": "质性研究方法",
+      "type": "content_link",
+      "reason": "共享访谈、观察等质性研究主题；具体方法覆盖待大纲复核。"
+    },
+    {
+      "source": "SOCI30006",
+      "source_name": "社会统计学",
+      "target": "SWK10001",
+      "target_name": "社会统计学基础",
+      "type": "content_link",
+      "reason": "共享社会统计基础主题，课程层次及方案要求不同。"
+    },
+    {
+      "source": "PSYC30006",
+      "source_name": "社会心理学",
+      "target": "SOCI70006",
+      "target_name": "社会心理学著作选读",
+      "type": "content_link",
+      "reason": "社会心理学与其著作研读共享学科主题，不能据此设定本科到博士的强制链。"
+    },
+    {
+      "source": "PSYC30003",
+      "source_name": "发展心理学",
+      "target": "SWK30005",
+      "target_name": "人类行为与社会环境",
+      "type": "content_link",
+      "reason": "发展过程与个体—环境关系在分析人的行为时可互相参照。"
+    },
+    {
+      "source": "PSYC30023",
+      "source_name": "变态心理学",
+      "target": "SWK30011",
+      "target_name": "变态心理学",
+      "type": "content_link",
+      "reason": "两课题名均为变态心理学，保留不同代码与专业背景；不推定两课可相互替代。"
+    },
+    {
+      "source": "PSYC30019",
+      "source_name": "心理咨询与治疗",
+      "target": "SWK30012",
+      "target_name": "家庭治疗",
+      "type": "content_link",
+      "reason": "心理咨询治疗与家庭治疗在助人方法及家庭问题上相邻。"
+    },
+    {
+      "source": "APSY60005",
+      "source_name": "心理咨询与治疗的理论与实务专题",
+      "target": "PSYC30019",
+      "target_name": "心理咨询与治疗",
+      "type": "content_link",
+      "reason": "共同讨论咨询与治疗；后者是专业硕士专题，目标和深度需分别核对。"
+    },
+    {
+      "source": "APSY60009",
+      "source_name": "婚姻与家庭专题",
+      "target": "SOCI30030",
+      "target_name": "婚姻与家庭",
+      "type": "content_link",
+      "reason": "婚姻家庭的社会结构与心理过程可形成跨学科视角。"
+    },
+    {
+      "source": "SOCI30014",
+      "source_name": "医疗和健康社会学",
+      "target": "SWK30008",
+      "target_name": "医疗社会工作",
+      "type": "content_link",
+      "reason": "医疗健康的社会解释与医疗社会工作实务相关。"
+    },
+    {
+      "source": "SOCI30038",
+      "source_name": "医学人类学",
+      "target": "SOCI60003",
+      "target_name": "医学人类学",
+      "type": "content_link",
+      "reason": "医学人类学题名一致，代码和培养层次分开保留。"
+    },
+    {
+      "source": "MAA70002",
+      "source_name": "老年社会工作实务",
+      "target": "SWK30009",
+      "target_name": "老年社会工作",
+      "type": "content_link",
+      "reason": "共同关注老年社会工作实务，培养层次不同。"
+    },
+    {
+      "source": "MSP50005",
+      "source_name": "社会政策导论",
+      "target": "SWK30006",
+      "target_name": "社会政策",
+      "type": "content_link",
+      "reason": "社会政策主题相邻，不能由同名推断内容与学分等价。"
+    },
+    {
+      "source": "GEEC10008",
+      "source_name": "健康管理与健康政策",
+      "target": "MANA50024",
+      "target_name": "卫生政策分析",
+      "type": "content_link",
+      "reason": "卫生政策与健康管理共享健康治理议题。"
+    },
+    {
+      "source": "GEEC10399",
+      "source_name": "人口学概论",
+      "target": "SOCI30008",
+      "target_name": "人口社会学",
+      "type": "content_link",
+      "reason": "人口社会学与人口学概论共享人口问题背景。"
+    },
+    {
+      "source": "ECON50016",
+      "source_name": "人口迁移与城市化研究",
+      "target": "SOCI30013",
+      "target_name": "城市社会学",
+      "type": "content_link",
+      "reason": "城市社会与人口迁移、城市化存在议题联系。"
+    },
+    {
+      "source": "ECON60021",
+      "source_name": "资源与环境经济学",
+      "target": "SOCI30011",
+      "target_name": "环境社会学",
+      "type": "content_link",
+      "reason": "环境社会学与资源环境经济学从不同学科分析环境问题。"
+    },
+    {
+      "source": "CS60021",
+      "source_name": "社会计算",
+      "target": "SOCI30033",
+      "target_name": "互联网与社会研究",
+      "type": "content_link",
+      "reason": "互联网与社会研究、社会计算共享数字社会议题。"
+    },
+    {
+      "source": "MANA50023",
+      "source_name": "政策网络分析",
+      "target": "SOCI30031",
+      "target_name": "社会网络分析导论",
+      "type": "content_link",
+      "reason": "社会网络与政策网络可共享网络分析视角。"
+    },
+    {
+      "source": "SOCI30044",
+      "source_name": "社会资本研究",
+      "target": "SOCI50040",
+      "target_name": "社会资本与关系研究",
+      "type": "content_link",
+      "reason": "社会资本与关系研究共享社会关系资源主题。"
+    },
+    {
+      "source": "SWK40006",
+      "source_name": "精神健康社会工作",
+      "target": "SWK50013",
+      "target_name": "精神卫生机构内的社会工作服务",
+      "type": "content_link",
+      "reason": "精神健康社会工作与精神卫生机构实务共享服务领域。"
+    },
+    {
+      "source": "SWK30004",
+      "source_name": "社会工作行政",
+      "target": "SWK50005",
+      "target_name": "社会服务机构管理",
+      "type": "content_link",
+      "reason": "社会工作行政与服务机构管理存在组织管理联系。"
+    },
+    {
+      "source": "SWK30015",
+      "source_name": "社会工作评估",
+      "target": "SWK50007",
+      "target_name": "社会服务评估",
+      "type": "content_link",
+      "reason": "社会工作评估与社会服务评估共享评价主题。"
+    },
+    {
+      "source": "PSYC30002",
+      "source_name": "实验心理学(下)",
+      "target": "PSYC30002h",
+      "target_name": "实验心理学(下)(H)",
+      "type": "content_link",
+      "reason": "普通与荣誉课程共享题名主题；要求、深度与考核可能不同，不自动继承先修或认定互认。"
+    },
+    {
+      "source": "PSYC30003",
+      "source_name": "发展心理学",
+      "target": "PSYC30003h",
+      "target_name": "发展心理学(H)",
+      "type": "content_link",
+      "reason": "普通与荣誉课程共享题名主题；要求、深度与考核可能不同，不自动继承先修或认定互认。"
+    },
+    {
+      "source": "PSYC30006",
+      "source_name": "社会心理学",
+      "target": "PSYC30006h",
+      "target_name": "社会心理学(H)",
+      "type": "content_link",
+      "reason": "普通与荣誉课程共享题名主题；要求、深度与考核可能不同，不自动继承先修或认定互认。"
+    },
+    {
+      "source": "PSYC30007",
+      "source_name": "人格心理学",
+      "target": "PSYC30007h",
+      "target_name": "人格心理学(H)",
+      "type": "content_link",
+      "reason": "普通与荣誉课程共享题名主题；要求、深度与考核可能不同，不自动继承先修或认定互认。"
+    },
+    {
+      "source": "PSYC30008",
+      "source_name": "心理测验与应用",
+      "target": "PSYC30008h",
+      "target_name": "心理测验及应用(H)",
+      "type": "content_link",
+      "reason": "普通与荣誉课程共享题名主题；要求、深度与考核可能不同，不自动继承先修或认定互认。"
+    },
+    {
+      "source": "PSYC30023",
+      "source_name": "变态心理学",
+      "target": "PSYC30023h",
+      "target_name": "变态心理学(H)",
+      "type": "content_link",
+      "reason": "普通与荣誉课程共享题名主题；要求、深度与考核可能不同，不自动继承先修或认定互认。"
+    },
+    {
+      "source": "SOCI30009",
+      "source_name": "组织社会学",
+      "target": "SOCI30009h",
+      "target_name": "组织社会学(H)",
+      "type": "content_link",
+      "reason": "普通与荣誉课程共享题名主题；要求、深度与考核可能不同，不自动继承先修或认定互认。"
+    },
+    {
+      "source": "SOCI30020",
+      "source_name": "古典社会学理论",
+      "target": "SOCI30020h",
+      "target_name": "古典社会学理论(H)",
+      "type": "content_link",
+      "reason": "普通与荣誉课程共享题名主题；要求、深度与考核可能不同，不自动继承先修或认定互认。"
+    },
+    {
+      "source": "SOCI30026",
+      "source_name": "社会分层与流动",
+      "target": "SOCI30026h",
+      "target_name": "社会分层与流动(H)",
+      "type": "content_link",
+      "reason": "普通与荣誉课程共享题名主题；要求、深度与考核可能不同，不自动继承先修或认定互认。"
+    },
+    {
+      "source": "SOCI30033",
+      "source_name": "互联网与社会研究",
+      "target": "SOCI30033h",
+      "target_name": "互联网与社会研究(H)",
+      "type": "content_link",
+      "reason": "普通与荣誉课程共享题名主题；要求、深度与考核可能不同，不自动继承先修或认定互认。"
+    },
+    {
+      "source": "SOCI30037",
+      "source_name": "统计软件应用",
+      "target": "SOCI30037h",
+      "target_name": "统计软件应用(H)",
+      "type": "content_link",
+      "reason": "普通与荣誉课程共享题名主题；要求、深度与考核可能不同，不自动继承先修或认定互认。"
+    },
+    {
+      "source": "SWK30005",
+      "source_name": "人类行为与社会环境",
+      "target": "SWK30005h",
+      "target_name": "人类行为与社会环境(H)",
+      "type": "content_link",
+      "reason": "普通与荣誉课程共享题名主题；要求、深度与考核可能不同，不自动继承先修或认定互认。"
+    },
+    {
+      "source": "SOCI60004",
+      "source_name": "社会学习明纳I",
+      "target": "SOCI60005",
+      "target_name": "社会学习明纳II",
+      "type": "content_link",
+      "reason": "同一系列讨论班；专题可能随学期变化，只标记系列联系，不推断先修顺序。"
+    },
+    {
+      "source": "SOCI80002",
+      "source_name": "高级社会学习明纳I",
+      "target": "SOCI80003",
+      "target_name": "高级社会学习明纳II",
+      "type": "content_link",
+      "reason": "同一系列讨论班；专题可能随学期变化，只标记系列联系，不推断先修顺序。"
+    },
+    {
+      "source": "SOCI80003",
+      "source_name": "高级社会学习明纳II",
+      "target": "SOCI80004",
+      "target_name": "高级社会学习明纳III",
+      "type": "content_link",
+      "reason": "同一系列讨论班；专题可能随学期变化，只标记系列联系，不推断先修顺序。"
+    },
+    {
+      "source": "SOCI20001",
+      "source_name": "社会学导论",
+      "target": "SOCI10004",
+      "target_name": "经典社会学理论",
+      "type": "recommended_preparation",
+      "reason": "导论中的基本概念有助于经典理论的阅读与讨论。"
+    },
+    {
+      "source": "SOCI10004",
+      "source_name": "经典社会学理论",
+      "target": "SOCI30021",
+      "target_name": "当代社会学理论",
+      "type": "recommended_preparation",
+      "reason": "经典理论的问题与概念可为当代理论比较提供背景。"
+    },
+    {
+      "source": "SOCI10003",
+      "source_name": "社会研究方法基础",
+      "target": "SOCI30034",
+      "target_name": "社会调查方法",
+      "type": "recommended_preparation",
+      "reason": "基础研究设计可为具体调查设计与实施提供准备。"
+    },
+    {
+      "source": "SOCI20002",
+      "source_name": "社会研究方法A",
+      "target": "SOCI30034",
+      "target_name": "社会调查方法",
+      "type": "recommended_preparation",
+      "reason": "社会研究方法基础可支持调查设计和测量安排。"
+    },
+    {
+      "source": "SOCI30034",
+      "source_name": "社会调查方法",
+      "target": "SOCI30050",
+      "target_name": "社会调查实践",
+      "type": "recommended_preparation",
+      "reason": "调查设计和资料收集方法可作为调查实践的准备。"
+    },
+    {
+      "source": "SOCI30050",
+      "source_name": "社会调查实践",
+      "target": "SOCI40006",
+      "target_name": "毕业论文",
+      "type": "recommended_preparation",
+      "reason": "调查实践的资料收集和分析经验可用于实证毕业论文。"
+    },
+    {
+      "source": "SWK10001",
+      "source_name": "社会统计学基础",
+      "target": "SOCI30037",
+      "target_name": "统计软件应用",
+      "type": "recommended_preparation",
+      "reason": "社会统计基础可支持软件输出的理解和解释。"
+    },
+    {
+      "source": "SWK10001",
+      "source_name": "社会统计学基础",
+      "target": "SOCI50017",
+      "target_name": "中级社会统计分析",
+      "type": "recommended_preparation",
+      "reason": "基础统计概念有助于理解中级统计模型。"
+    },
+    {
+      "source": "SOCI50017",
+      "source_name": "中级社会统计分析",
+      "target": "MSP60004",
+      "target_name": "统计分析进阶",
+      "type": "recommended_preparation",
+      "reason": "中级统计模型训练可支持进阶分析，具体模型覆盖待大纲确认。"
+    },
+    {
+      "source": "SOCI30034",
+      "source_name": "社会调查方法",
+      "target": "MSP60002",
+      "target_name": "社会调查方法进阶",
+      "type": "recommended_preparation",
+      "reason": "调查设计经验可帮助理解更高层次的方法讨论。"
+    },
+    {
+      "source": "SWK20002",
+      "source_name": "社会工作导论",
+      "target": "SWK20003",
+      "target_name": "个案社会工作",
+      "type": "recommended_preparation",
+      "reason": "导论提供专业概念与价值框架，支持个案方法训练。"
+    },
+    {
+      "source": "SWK20003",
+      "source_name": "个案社会工作",
+      "target": "SWK40004",
+      "target_name": "社会工作技巧实验",
+      "type": "recommended_preparation",
+      "reason": "个案方法可在技巧实验中结合情境练习。"
+    },
+    {
+      "source": "SOCI20006",
+      "source_name": "社会工作价值与伦理",
+      "target": "SWK40002",
+      "target_name": "社会工作实习(一)",
+      "type": "recommended_preparation",
+      "reason": "专业价值和伦理判断是实习服务中的知识准备。"
+    },
+    {
+      "source": "SOCI30049",
+      "source_name": "社区社会工作",
+      "target": "SWK50003",
+      "target_name": "宏观社会工作",
+      "type": "recommended_preparation",
+      "reason": "社区工作的组织与参与视角可支持宏观实务讨论。"
+    },
+    {
+      "source": "SWK30019",
+      "source_name": "社会工作理论基础",
+      "target": "SOCI50041",
+      "target_name": "社会工作理论",
+      "type": "recommended_preparation",
+      "reason": "基础理论学习可支持后续理论研读；需核对两课大纲的深度。"
+    },
+    {
+      "source": "SWK60002",
+      "source_name": "社会工作研究方法",
+      "target": "SWK60010",
+      "target_name": "证据为本的社会工作实务",
+      "type": "recommended_preparation",
+      "reason": "研究设计与证据评价知识有助于证据为本的实践。"
+    },
+    {
+      "source": "SWK30011",
+      "source_name": "变态心理学",
+      "target": "SWK40006",
+      "target_name": "精神健康社会工作",
+      "type": "recommended_preparation",
+      "reason": "异常心理的概念可为精神健康社会工作的学习提供知识准备；本年级未查到官方建议先修条款，此边仅为学习准备推断。"
+    },
+    {
+      "source": "PSYC30017",
+      "source_name": "心理统计学（一）",
+      "target": "PSYC30008",
+      "target_name": "心理测验与应用",
+      "type": "recommended_preparation",
+      "reason": "统计概念有助于理解测量工具的信度和效度。"
+    },
+    {
+      "source": "PSYC30018",
+      "source_name": "心理统计学（二）",
+      "target": "SOCI30029",
+      "target_name": "统计软件应用",
+      "type": "recommended_preparation",
+      "reason": "推断统计知识可支持统计软件的分析和输出解释。"
+    },
+    {
+      "source": "PSYC30002",
+      "source_name": "实验心理学(下)",
+      "target": "PSYC30024",
+      "target_name": "心理学研究技术与数据处理",
+      "type": "recommended_preparation",
+      "reason": "实验研究训练可为数据处理的研究情境提供准备。"
+    },
+    {
+      "source": "PSYC30024",
+      "source_name": "心理学研究技术与数据处理",
+      "target": "PSYC30027",
+      "target_name": "高级实验技术（一）",
+      "type": "recommended_preparation",
+      "reason": "研究技术与数据处理基础可支持高级实验训练。"
+    },
+    {
+      "source": "PSYC30029",
+      "source_name": "专业实践（一）",
+      "target": "PSYC30030",
+      "target_name": "专业实践（二）",
+      "type": "recommended_preparation",
+      "reason": "按同一系列的编号提供实践顺序建议；不自动继承旧课号的先修要求。"
+    },
+    {
+      "source": "PSYC30026",
+      "source_name": "心理学质性研究方法",
+      "target": "PSYC40007",
+      "target_name": "毕业论文",
+      "type": "recommended_preparation",
+      "reason": "质性研究方法可支持采用访谈或观察的毕业论文设计。"
+    },
+    {
+      "source": "PSYC30012",
+      "source_name": "心理实验设计与研究方法",
+      "target": "APSY70010",
+      "target_name": "高级心理学研究方法",
+      "type": "recommended_preparation",
+      "reason": "实验设计与研究方法可为高级研究方法学习提供基础。"
+    },
+    {
+      "source": "PSYC30018",
+      "source_name": "心理统计学（二）",
+      "target": "APSY70009",
+      "target_name": "应用心理统计学",
+      "type": "recommended_preparation",
+      "reason": "心理统计基础可支持应用情境中的统计分析。"
+    },
+    {
+      "source": "PSYC30003",
+      "source_name": "发展心理学",
+      "target": "APSY60001",
+      "target_name": "发展心理学专题",
+      "type": "recommended_preparation",
+      "reason": "发展理论概念可为专题研读提供准备。"
+    },
+    {
+      "source": "MATH10004",
+      "source_name": "高等数学B(上）",
+      "target": "MATH10005",
+      "target_name": "高等数学B(下）",
+      "type": "recommended_preparation",
+      "reason": "按上下册知识结构提出连续修读建议；未核定选课系统硬性门槛。"
+    },
+    {
+      "source": "PHYS10003",
+      "source_name": "大学物理B(上)",
+      "target": "PHYS10004",
+      "target_name": "大学物理B(下)",
+      "type": "recommended_preparation",
+      "reason": "按上下册知识结构提出连续修读建议。"
+    },
+    {
+      "source": "CS10004",
+      "source_name": "程序设计",
+      "target": "AIE310007",
+      "target_name": "数据结构",
+      "type": "recommended_preparation",
+      "reason": "程序设计的基本方法有助于实现和分析数据结构。"
+    },
+    {
+      "source": "AIE310006",
+      "source_name": "人工智能的编程基础",
+      "target": "AIE310007",
+      "target_name": "数据结构",
+      "type": "recommended_preparation",
+      "reason": "编程基础可支持数据结构与算法实现。"
+    },
+    {
+      "source": "SOCI30037",
+      "source_name": "统计软件应用",
+      "target": "SOCI30046",
+      "target_name": "机器学习与社会科学研究",
+      "type": "recommended_preparation",
+      "reason": "数据处理与统计分析经验可支持社会科学机器学习应用。"
+    },
+    {
+      "source": "AIE410001",
+      "source_name": "模式识别与机器学习",
+      "target": "AIE310004",
+      "target_name": "计算机视觉",
+      "type": "recommended_preparation",
+      "reason": "机器学习基本方法可作为理解计算机视觉模型的准备。"
+    },
+    {
+      "source": "PSYC30003",
+      "source_name": "发展心理学",
+      "target": "PSYC30005",
+      "target_name": "教育心理学",
+      "type": "content_link",
+      "reason": "发展阶段的心理变化与教育活动中的学习、适应问题相互关联。 此联系为题名及一般学科知识推断，待大纲复核。"
+    },
+    {
+      "source": "PSYC30005",
+      "source_name": "教育心理学",
+      "target": "APSY60001",
+      "target_name": "发展心理学专题",
+      "type": "content_link",
+      "reason": "发展阶段的心理变化与教育活动中的学习、适应问题相互关联。 此联系为题名及一般学科知识推断，待大纲复核。"
+    },
+    {
+      "source": "PSYC30006",
+      "source_name": "社会心理学",
+      "target": "PSYC30009",
+      "target_name": "管理心理学",
+      "type": "content_link",
+      "reason": "从个体、群体和组织结构分析组织中的行为；各课分析层次不同。 此联系为题名及一般学科知识推断，待大纲复核。"
+    },
+    {
+      "source": "PSYC30009",
+      "source_name": "管理心理学",
+      "target": "APSY60022",
+      "target_name": "组织心理学",
+      "type": "content_link",
+      "reason": "从个体、群体和组织结构分析组织中的行为；各课分析层次不同。 此联系为题名及一般学科知识推断，待大纲复核。"
+    },
+    {
+      "source": "APSY60022",
+      "source_name": "组织心理学",
+      "target": "SOCI30009",
+      "target_name": "组织社会学",
+      "type": "content_link",
+      "reason": "从个体、群体和组织结构分析组织中的行为；各课分析层次不同。 此联系为题名及一般学科知识推断，待大纲复核。"
+    },
+    {
+      "source": "SOCI30009",
+      "source_name": "组织社会学",
+      "target": "SOCI30048",
+      "target_name": "组织与社会",
+      "type": "content_link",
+      "reason": "从个体、群体和组织结构分析组织中的行为；各课分析层次不同。 此联系为题名及一般学科知识推断，待大纲复核。"
+    },
+    {
+      "source": "PSYC30021",
+      "source_name": "决策心理学",
+      "target": "PSYC30011",
+      "target_name": "消费心理学",
+      "type": "content_link",
+      "reason": "共享判断、选择与消费行为的研究问题。 此联系为题名及一般学科知识推断，待大纲复核。"
+    },
+    {
+      "source": "PSYC30011",
+      "source_name": "消费心理学",
+      "target": "APSY60019",
+      "target_name": "消费与广告心理学",
+      "type": "content_link",
+      "reason": "共享判断、选择与消费行为的研究问题。 此联系为题名及一般学科知识推断，待大纲复核。"
+    },
+    {
+      "source": "APSY60019",
+      "source_name": "消费与广告心理学",
+      "target": "APSY60013",
+      "target_name": "决策心理学",
+      "type": "content_link",
+      "reason": "共享判断、选择与消费行为的研究问题。 此联系为题名及一般学科知识推断，待大纲复核。"
+    },
+    {
+      "source": "PSYC30004",
+      "source_name": "认知心理学",
+      "target": "PSYC30016",
+      "target_name": "语言心理学",
+      "type": "content_link",
+      "reason": "认知过程、语言与智力研究共享认知机制的问题背景。 此联系为题名及一般学科知识推断，待大纲复核。"
+    },
+    {
+      "source": "PSYC30016",
+      "source_name": "语言心理学",
+      "target": "PSYC30014",
+      "target_name": "智力心理学",
+      "type": "content_link",
+      "reason": "认知过程、语言与智力研究共享认知机制的问题背景。 此联系为题名及一般学科知识推断，待大纲复核。"
+    },
+    {
+      "source": "PSYC30014",
+      "source_name": "智力心理学",
+      "target": "PSYC30025",
+      "target_name": "认知神经科学导论",
+      "type": "content_link",
+      "reason": "认知过程、语言与智力研究共享认知机制的问题背景。 此联系为题名及一般学科知识推断，待大纲复核。"
+    },
+    {
+      "source": "PSYC30007",
+      "source_name": "人格心理学",
+      "target": "PSYC30010",
+      "target_name": "临床心理学",
+      "type": "content_link",
+      "reason": "人格差异、心理异常与临床理解有相邻的概念背景，不表示评估资质或内容等价。 此联系为题名及一般学科知识推断，待大纲复核。"
+    },
+    {
+      "source": "PSYC30010",
+      "source_name": "临床心理学",
+      "target": "PSYC30023",
+      "target_name": "变态心理学",
+      "type": "content_link",
+      "reason": "人格差异、心理异常与临床理解有相邻的概念背景，不表示评估资质或内容等价。 此联系为题名及一般学科知识推断，待大纲复核。"
+    },
+    {
+      "source": "PSYC30019",
+      "source_name": "心理咨询与治疗",
+      "target": "PSYC30015",
+      "target_name": "艺术治疗",
+      "type": "content_link",
+      "reason": "在助人、表达与咨询干预方面存在内容联系，方法及服务边界需分别学习。 此联系为题名及一般学科知识推断，待大纲复核。"
+    },
+    {
+      "source": "PSYC30015",
+      "source_name": "艺术治疗",
+      "target": "APSY60008",
+      "target_name": "咨询与访谈技巧",
+      "type": "content_link",
+      "reason": "在助人、表达与咨询干预方面存在内容联系，方法及服务边界需分别学习。 此联系为题名及一般学科知识推断，待大纲复核。"
+    },
+    {
+      "source": "APSY60008",
+      "source_name": "咨询与访谈技巧",
+      "target": "APSY60014",
+      "target_name": "团体心理辅导",
+      "type": "content_link",
+      "reason": "在助人、表达与咨询干预方面存在内容联系，方法及服务边界需分别学习。 此联系为题名及一般学科知识推断，待大纲复核。"
+    },
+    {
+      "source": "APSY60014",
+      "source_name": "团体心理辅导",
+      "target": "SWK30012",
+      "target_name": "家庭治疗",
+      "type": "content_link",
+      "reason": "在助人、表达与咨询干预方面存在内容联系，方法及服务边界需分别学习。 此联系为题名及一般学科知识推断，待大纲复核。"
+    },
+    {
+      "source": "PSYC30022",
+      "source_name": "心理分析与中国社会",
+      "target": "PSYC30020",
+      "target_name": "性别心理学",
+      "type": "content_link",
+      "reason": "心理分析、性别心理与社会性别研究可以从不同角度讨论社会文化情境。 此联系为题名及一般学科知识推断，待大纲复核。"
+    },
+    {
+      "source": "PSYC30020",
+      "source_name": "性别心理学",
+      "target": "SOCI30017",
+      "target_name": "社会性别研究",
+      "type": "content_link",
+      "reason": "心理分析、性别心理与社会性别研究可以从不同角度讨论社会文化情境。 此联系为题名及一般学科知识推断，待大纲复核。"
+    },
+    {
+      "source": "SOCI30002",
+      "source_name": "文化人类学",
+      "target": "SOCI30023",
+      "target_name": "文化社会学",
+      "type": "content_link",
+      "reason": "共享文化分析及人类学研究视角，专题对象和研究方法各有侧重。 此联系为题名及一般学科知识推断，待大纲复核。"
+    },
+    {
+      "source": "SOCI30023",
+      "source_name": "文化社会学",
+      "target": "SOCI30024",
+      "target_name": "饮食人类学",
+      "type": "content_link",
+      "reason": "共享文化分析及人类学研究视角，专题对象和研究方法各有侧重。 此联系为题名及一般学科知识推断，待大纲复核。"
+    },
+    {
+      "source": "SOCI30024",
+      "source_name": "饮食人类学",
+      "target": "SOCI30038",
+      "target_name": "医学人类学",
+      "type": "content_link",
+      "reason": "共享文化分析及人类学研究视角，专题对象和研究方法各有侧重。 此联系为题名及一般学科知识推断，待大纲复核。"
+    },
+    {
+      "source": "SOCI30038",
+      "source_name": "医学人类学",
+      "target": "SOCI30039",
+      "target_name": "人类学研究方法",
+      "type": "content_link",
+      "reason": "共享文化分析及人类学研究视角，专题对象和研究方法各有侧重。 此联系为题名及一般学科知识推断，待大纲复核。"
+    },
+    {
+      "source": "SOCI30013",
+      "source_name": "城市社会学",
+      "target": "SOCI30012",
+      "target_name": "农村社会学",
+      "type": "content_link",
+      "reason": "共享城乡结构及其变迁议题，上海城市研究是具体地方情境。 此联系为题名及一般学科知识推断，待大纲复核。"
+    },
+    {
+      "source": "SOCI30012",
+      "source_name": "农村社会学",
+      "target": "SOCI30010",
+      "target_name": "社会变迁",
+      "type": "content_link",
+      "reason": "共享城乡结构及其变迁议题，上海城市研究是具体地方情境。 此联系为题名及一般学科知识推断，待大纲复核。"
+    },
+    {
+      "source": "SOCI30010",
+      "source_name": "社会变迁",
+      "target": "SOCI130135",
+      "target_name": "上海：城市研究",
+      "type": "content_link",
+      "reason": "共享城乡结构及其变迁议题，上海城市研究是具体地方情境。 此联系为题名及一般学科知识推断，待大纲复核。"
+    },
+    {
+      "source": "SOCI130064",
+      "source_name": "全球化研究",
+      "target": "SOCI130134",
+      "target_name": "全球化争议",
+      "type": "content_link",
+      "reason": "共同讨论全球化和社会经济发展的问题，不据此推断固定修读顺序。 此联系为题名及一般学科知识推断，待大纲复核。"
+    },
+    {
+      "source": "SOCI130134",
+      "source_name": "全球化争议",
+      "target": "SOCI30028",
+      "target_name": "全球化下的中国文化与社会",
+      "type": "content_link",
+      "reason": "共同讨论全球化和社会经济发展的问题，不据此推断固定修读顺序。 此联系为题名及一般学科知识推断，待大纲复核。"
+    },
+    {
+      "source": "SOCI30028",
+      "source_name": "全球化下的中国文化与社会",
+      "target": "SOCI30016",
+      "target_name": "发展研究",
+      "type": "content_link",
+      "reason": "共同讨论全球化和社会经济发展的问题，不据此推断固定修读顺序。 此联系为题名及一般学科知识推断，待大纲复核。"
+    },
+    {
+      "source": "SOCI30016",
+      "source_name": "发展研究",
+      "target": "SOCI30036",
+      "target_name": "经济发展研究",
+      "type": "content_link",
+      "reason": "共同讨论全球化和社会经济发展的问题，不据此推断固定修读顺序。 此联系为题名及一般学科知识推断，待大纲复核。"
+    },
+    {
+      "source": "SOCI30015",
+      "source_name": "宗教社会学",
+      "target": "SOCI30027",
+      "target_name": "中国社会与宗教",
+      "type": "content_link",
+      "reason": "宗教的社会组织、文化情境与中国社会中的宗教现象相互关联。 此联系为题名及一般学科知识推断，待大纲复核。"
+    },
+    {
+      "source": "SOCI30027",
+      "source_name": "中国社会与宗教",
+      "target": "SOCI50021",
+      "target_name": "宗教社会学",
+      "type": "content_link",
+      "reason": "宗教的社会组织、文化情境与中国社会中的宗教现象相互关联。 此联系为题名及一般学科知识推断，待大纲复核。"
+    },
+    {
+      "source": "SOCI50021",
+      "source_name": "宗教社会学",
+      "target": "SOCI50005",
+      "target_name": "Chinese Culture and Religion",
+      "type": "content_link",
+      "reason": "宗教的社会组织、文化情境与中国社会中的宗教现象相互关联。 此联系为题名及一般学科知识推断，待大纲复核。"
+    },
+    {
+      "source": "SOCI30004",
+      "source_name": "经济社会学",
+      "target": "SOCI30026",
+      "target_name": "社会分层与流动",
+      "type": "content_link",
+      "reason": "经济活动与社会结构、资源分配及分层流动具有交叉议题。 此联系为题名及一般学科知识推断，待大纲复核。"
+    },
+    {
+      "source": "SOCI30026",
+      "source_name": "社会分层与流动",
+      "target": "SOCI30007",
+      "target_name": "中国的政治经济状况",
+      "type": "content_link",
+      "reason": "经济活动与社会结构、资源分配及分层流动具有交叉议题。 此联系为题名及一般学科知识推断，待大纲复核。"
+    },
+    {
+      "source": "SOCI30007",
+      "source_name": "中国的政治经济状况",
+      "target": "SOCI60014",
+      "target_name": "经济社会学研究",
+      "type": "content_link",
+      "reason": "经济活动与社会结构、资源分配及分层流动具有交叉议题。 此联系为题名及一般学科知识推断，待大纲复核。"
+    },
+    {
+      "source": "SOCI30031",
+      "source_name": "社会网络分析导论",
+      "target": "SOCI30044",
+      "target_name": "社会资本研究",
+      "type": "content_link",
+      "reason": "关系网络、社会资本与情感的社会过程具有互相参照的分析视角。 此联系为题名及一般学科知识推断，待大纲复核。"
+    },
+    {
+      "source": "SOCI30044",
+      "source_name": "社会资本研究",
+      "target": "SOCI30040",
+      "target_name": "情感社会学",
+      "type": "content_link",
+      "reason": "关系网络、社会资本与情感的社会过程具有互相参照的分析视角。 此联系为题名及一般学科知识推断，待大纲复核。"
+    },
+    {
+      "source": "SOCI30020",
+      "source_name": "古典社会学理论",
+      "target": "SOCI30022",
+      "target_name": "西方社会思想史",
+      "type": "content_link",
+      "reason": "理论与经典文本学习具有相邻内容，各课选读文本与流派需核对。 此联系为题名及一般学科知识推断，待大纲复核。"
+    },
+    {
+      "source": "SOCI30022",
+      "source_name": "西方社会思想史",
+      "target": "SOCI130001",
+      "target_name": "马克思主义社会理论",
+      "type": "content_link",
+      "reason": "理论与经典文本学习具有相邻内容，各课选读文本与流派需核对。 此联系为题名及一般学科知识推断，待大纲复核。"
+    },
+    {
+      "source": "SOCI130001",
+      "source_name": "马克思主义社会理论",
+      "target": "GECC10114",
+      "target_name": "社会科学经典导读",
+      "type": "content_link",
+      "reason": "理论与经典文本学习具有相邻内容，各课选读文本与流派需核对。 此联系为题名及一般学科知识推断，待大纲复核。"
+    },
+    {
+      "source": "GECC10114",
+      "source_name": "社会科学经典导读",
+      "target": "SOCI10004",
+      "target_name": "经典社会学理论",
+      "type": "content_link",
+      "reason": "理论与经典文本学习具有相邻内容，各课选读文本与流派需核对。 此联系为题名及一般学科知识推断，待大纲复核。"
+    },
+    {
+      "source": "SOCI30005",
+      "source_name": "政治社会学",
+      "target": "SOCI130154",
+      "target_name": "社会运动",
+      "type": "content_link",
+      "reason": "权力、政治与社会运动共享集体行动和政治社会关系议题。 此联系为题名及一般学科知识推断，待大纲复核。"
+    },
+    {
+      "source": "SOCI130154",
+      "source_name": "社会运动",
+      "target": "SOCI50037",
+      "target_name": "政治与社会",
+      "type": "content_link",
+      "reason": "权力、政治与社会运动共享集体行动和政治社会关系议题。 此联系为题名及一般学科知识推断，待大纲复核。"
+    },
+    {
+      "source": "SOCI30008",
+      "source_name": "人口社会学",
+      "target": "SOCI30018",
+      "target_name": "人口分析",
+      "type": "content_link",
+      "reason": "人口结构、人口分析、老龄化及社会政策具有共同问题背景。 此联系为题名及一般学科知识推断，待大纲复核。"
+    },
+    {
+      "source": "SOCI30018",
+      "source_name": "人口分析",
+      "target": "GEEC10416",
+      "target_name": "数字化与长寿时代",
+      "type": "content_link",
+      "reason": "人口结构、人口分析、老龄化及社会政策具有共同问题背景。 此联系为题名及一般学科知识推断，待大纲复核。"
+    },
+    {
+      "source": "GEEC10416",
+      "source_name": "数字化与长寿时代",
+      "target": "SOCI50023",
+      "target_name": "人口问题与社会政策",
+      "type": "content_link",
+      "reason": "人口结构、人口分析、老龄化及社会政策具有共同问题背景。 此联系为题名及一般学科知识推断，待大纲复核。"
+    },
+    {
+      "source": "SOCI50023",
+      "source_name": "人口问题与社会政策",
+      "target": "SOCI50058",
+      "target_name": "老龄社会研究专题",
+      "type": "content_link",
+      "reason": "人口结构、人口分析、老龄化及社会政策具有共同问题背景。 此联系为题名及一般学科知识推断，待大纲复核。"
+    },
+    {
+      "source": "SOCI30030",
+      "source_name": "婚姻与家庭",
+      "target": "SOCI50038",
+      "target_name": "婚姻与家庭社会学",
+      "type": "content_link",
+      "reason": "家庭的社会结构与家庭治疗实践存在议题联系，理论与干预方法不同。 此联系为题名及一般学科知识推断，待大纲复核。"
+    },
+    {
+      "source": "SOCI50038",
+      "source_name": "婚姻与家庭社会学",
+      "target": "SWK30012",
+      "target_name": "家庭治疗",
+      "type": "content_link",
+      "reason": "家庭的社会结构与家庭治疗实践存在议题联系，理论与干预方法不同。 此联系为题名及一般学科知识推断，待大纲复核。"
+    },
+    {
+      "source": "SWK30003",
+      "source_name": "社区工作",
+      "target": "SOCI30003",
+      "target_name": "社区研究",
+      "type": "content_link",
+      "reason": "共同关注社区生活、组织和服务实践，不认定旧新代码互相替代。 此联系为题名及一般学科知识推断，待大纲复核。"
+    },
+    {
+      "source": "SOCI30003",
+      "source_name": "社区研究",
+      "target": "SOCI30049",
+      "target_name": "社区社会工作",
+      "type": "content_link",
+      "reason": "共同关注社区生活、组织和服务实践，不认定旧新代码互相替代。 此联系为题名及一般学科知识推断，待大纲复核。"
+    },
+    {
+      "source": "SOCI30049",
+      "source_name": "社区社会工作",
+      "target": "SWK50003",
+      "target_name": "宏观社会工作",
+      "type": "content_link",
+      "reason": "共同关注社区生活、组织和服务实践，不认定旧新代码互相替代。 此联系为题名及一般学科知识推断，待大纲复核。"
+    },
+    {
+      "source": "SWK30013",
+      "source_name": "非营利组织管理",
+      "target": "SOCI30001",
+      "target_name": "公益慈善与社会发展",
+      "type": "content_link",
+      "reason": "公益组织、慈善与社会服务机构的行政管理存在内容联系。 此联系为题名及一般学科知识推断，待大纲复核。"
+    },
+    {
+      "source": "SOCI30001",
+      "source_name": "公益慈善与社会发展",
+      "target": "SWK30004",
+      "target_name": "社会工作行政",
+      "type": "content_link",
+      "reason": "公益组织、慈善与社会服务机构的行政管理存在内容联系。 此联系为题名及一般学科知识推断，待大纲复核。"
+    },
+    {
+      "source": "SWK30004",
+      "source_name": "社会工作行政",
+      "target": "SWK30023",
+      "target_name": "社会工作行政管理",
+      "type": "content_link",
+      "reason": "公益组织、慈善与社会服务机构的行政管理存在内容联系。 此联系为题名及一般学科知识推断，待大纲复核。"
+    },
+    {
+      "source": "SWK30008",
+      "source_name": "医疗社会工作",
+      "target": "SWK30009",
+      "target_name": "老年社会工作",
+      "type": "content_link",
+      "reason": "医疗、老年、青少年与儿童社会工作是不同人群或场景的实务专题。 此联系为题名及一般学科知识推断，待大纲复核。"
+    },
+    {
+      "source": "SWK30009",
+      "source_name": "老年社会工作",
+      "target": "SWK30016",
+      "target_name": "青少年社会工作",
+      "type": "content_link",
+      "reason": "医疗、老年、青少年与儿童社会工作是不同人群或场景的实务专题。 此联系为题名及一般学科知识推断，待大纲复核。"
+    },
+    {
+      "source": "SWK30016",
+      "source_name": "青少年社会工作",
+      "target": "SWK30021",
+      "target_name": "儿童社会工作理论与实务",
+      "type": "content_link",
+      "reason": "医疗、老年、青少年与儿童社会工作是不同人群或场景的实务专题。 此联系为题名及一般学科知识推断，待大纲复核。"
+    },
+    {
+      "source": "SWK30010",
+      "source_name": "法律与社会工作",
+      "target": "SWK30007",
+      "target_name": "社会工作伦理",
+      "type": "content_link",
+      "reason": "社会工作中的法律、伦理与贫困问题需要结合不同制度和服务情境理解。 此联系为题名及一般学科知识推断，待大纲复核。"
+    },
+    {
+      "source": "SWK30007",
+      "source_name": "社会工作伦理",
+      "target": "SOCI20006",
+      "target_name": "社会工作价值与伦理",
+      "type": "content_link",
+      "reason": "社会工作中的法律、伦理与贫困问题需要结合不同制度和服务情境理解。 此联系为题名及一般学科知识推断，待大纲复核。"
+    },
+    {
+      "source": "SOCI20006",
+      "source_name": "社会工作价值与伦理",
+      "target": "SOCI130144",
+      "target_name": "贫穷与社会发展",
+      "type": "content_link",
+      "reason": "社会工作中的法律、伦理与贫困问题需要结合不同制度和服务情境理解。 此联系为题名及一般学科知识推断，待大纲复核。"
+    },
+    {
+      "source": "SOCI130144",
+      "source_name": "贫穷与社会发展",
+      "target": "SWK50016",
+      "target_name": "贫困与反贫困政策",
+      "type": "content_link",
+      "reason": "社会工作中的法律、伦理与贫困问题需要结合不同制度和服务情境理解。 此联系为题名及一般学科知识推断，待大纲复核。"
+    },
+    {
+      "source": "SWK30006",
+      "source_name": "社会政策",
+      "target": "SWK30014",
+      "target_name": "社会福利理论与制度",
+      "type": "content_link",
+      "reason": "共同讨论社会政策、福利制度或其比较视角，不能按相似题名认定课程互认。 此联系为题名及一般学科知识推断，待大纲复核。"
+    },
+    {
+      "source": "SWK30014",
+      "source_name": "社会福利理论与制度",
+      "target": "MSP50005",
+      "target_name": "社会政策导论",
+      "type": "content_link",
+      "reason": "共同讨论社会政策、福利制度或其比较视角，不能按相似题名认定课程互认。 此联系为题名及一般学科知识推断，待大纲复核。"
+    },
+    {
+      "source": "MSP50005",
+      "source_name": "社会政策导论",
+      "target": "MSP50004",
+      "target_name": "社会学与社会政策",
+      "type": "content_link",
+      "reason": "共同讨论社会政策、福利制度或其比较视角，不能按相似题名认定课程互认。 此联系为题名及一般学科知识推断，待大纲复核。"
+    },
+    {
+      "source": "MSP50004",
+      "source_name": "社会学与社会政策",
+      "target": "SWK50008",
+      "target_name": "比较社会政策",
+      "type": "content_link",
+      "reason": "共同讨论社会政策、福利制度或其比较视角，不能按相似题名认定课程互认。 此联系为题名及一般学科知识推断，待大纲复核。"
+    },
+    {
+      "source": "SOCI30033",
+      "source_name": "互联网与社会研究",
+      "target": "AIT410018",
+      "target_name": "大数据与社会科学",
+      "type": "content_link",
+      "reason": "数字社会问题与计算工具具有研究内容或方法联系。 此联系为题名及一般学科知识推断，待大纲复核。"
+    },
+    {
+      "source": "AIT410018",
+      "source_name": "大数据与社会科学",
+      "target": "AIS631008",
+      "target_name": "大数据与社会计算",
+      "type": "content_link",
+      "reason": "数字社会问题与计算工具具有研究内容或方法联系。 此联系为题名及一般学科知识推断，待大纲复核。"
+    },
+    {
+      "source": "AIS631008",
+      "source_name": "大数据与社会计算",
+      "target": "AIS631009",
+      "target_name": "人工智能、数据挖掘与算法：社会研究方法的新范式",
+      "type": "content_link",
+      "reason": "数字社会问题与计算工具具有研究内容或方法联系。 此联系为题名及一般学科知识推断，待大纲复核。"
+    },
+    {
+      "source": "AIS631009",
+      "source_name": "人工智能、数据挖掘与算法：社会研究方法的新范式",
+      "target": "SOCI30046",
+      "target_name": "机器学习与社会科学研究",
+      "type": "content_link",
+      "reason": "数字社会问题与计算工具具有研究内容或方法联系。 此联系为题名及一般学科知识推断，待大纲复核。"
+    },
+    {
+      "source": "SWK30025",
+      "source_name": "福祉科技与社会服务创新",
+      "target": "SWK70002",
+      "target_name": "社会工作视域下的健康管理",
+      "type": "content_link",
+      "reason": "科技辅助服务与健康管理存在社会服务应用层面的联系。 此联系为题名及一般学科知识推断，待大纲复核。"
+    }
+  ],
+  "pathways": [
+    {
+      "title": "心理统计与数据分析",
+      "course_ids": [
+        "PSYC30017",
+        "PSYC30018",
+        "PSYC40006"
+      ],
+      "topic": "psych",
+      "status": "inferred_learning_path"
+    },
+    {
+      "title": "实验研究训练",
+      "course_ids": [
+        "PSYC30001",
+        "PSYC30002",
+        "PSYC30012",
+        "PSYC40004"
+      ],
+      "topic": "psych",
+      "status": "inferred_learning_path"
+    },
+    {
+      "title": "认知与神经科学",
+      "course_ids": [
+        "PSYC20001",
+        "PSYC30004",
+        "PSYC30025",
+        "PSYC60001"
+      ],
+      "topic": "psych",
+      "status": "inferred_learning_path"
+    },
+    {
+      "title": "临床与咨询",
+      "course_ids": [
+        "PSYC20001",
+        "PSYC30023",
+        "PSYC30010",
+        "PSYC30019"
+      ],
+      "topic": "psych",
+      "status": "inferred_learning_path"
+    },
+    {
+      "title": "心理测量",
+      "course_ids": [
+        "PSYC30017",
+        "PSYC30008",
+        "APSY60016"
+      ],
+      "topic": "psych",
+      "status": "inferred_learning_path"
+    },
+    {
+      "title": "应用心理研究",
+      "course_ids": [
+        "APSY70009",
+        "APSY70010",
+        "APSY70002"
+      ],
+      "topic": "psych",
+      "status": "inferred_learning_path"
+    },
+    {
+      "title": "高级实验技术",
+      "course_ids": [
+        "PSYC30027",
+        "PSYC30028"
+      ],
+      "topic": "psych",
+      "status": "inferred_learning_path"
+    },
+    {
+      "title": "心理专业实践",
+      "course_ids": [
+        "PSYC40002",
+        "PSYC40003"
+      ],
+      "topic": "psych",
+      "status": "inferred_learning_path"
+    },
+    {
+      "title": "社会学理论",
+      "course_ids": [
+        "SOCI20001",
+        "SOCI30020",
+        "SOCI30021",
+        "SOCI70001"
+      ],
+      "topic": "social",
+      "status": "inferred_learning_path"
+    },
+    {
+      "title": "社会研究方法",
+      "course_ids": [
+        "SOCI10003",
+        "SOCI20002",
+        "SOCI30034",
+        "SOCI40009"
+      ],
+      "topic": "social",
+      "status": "inferred_learning_path"
+    },
+    {
+      "title": "社会统计",
+      "course_ids": [
+        "SOCI20003",
+        "SOCI30006",
+        "SOCI50017",
+        "SOCI70009"
+      ],
+      "topic": "social",
+      "status": "inferred_learning_path"
+    },
+    {
+      "title": "质性与人类学",
+      "course_ids": [
+        "SOCI30002",
+        "SOCI30035",
+        "SOCI30039",
+        "SOCI60002"
+      ],
+      "topic": "social",
+      "status": "inferred_learning_path"
+    },
+    {
+      "title": "调查与论文",
+      "course_ids": [
+        "SOCI30034",
+        "SOCI40004",
+        "SOCI40005",
+        "SOCI40003",
+        "SOCI40006"
+      ],
+      "topic": "social",
+      "status": "inferred_learning_path"
+    },
+    {
+      "title": "人口研究",
+      "course_ids": [
+        "SOCI30008",
+        "SOCI30018",
+        "SOCI50019"
+      ],
+      "topic": "policy",
+      "status": "inferred_learning_path"
+    },
+    {
+      "title": "社会工作个案实务",
+      "course_ids": [
+        "SWK20002",
+        "SWK30001",
+        "SWK40004",
+        "SWK40002",
+        "SWK40003"
+      ],
+      "topic": "work",
+      "status": "inferred_learning_path"
+    },
+    {
+      "title": "社会工作政策与评估",
+      "course_ids": [
+        "SWK30006",
+        "SWK30014",
+        "SWK30015"
+      ],
+      "topic": "work",
+      "status": "inferred_learning_path"
+    },
+    {
+      "title": "社会工作研究与写作",
+      "course_ids": [
+        "SWK30017",
+        "SWK30020",
+        "SWK40001"
+      ],
+      "topic": "work",
+      "status": "inferred_learning_path"
+    },
+    {
+      "title": "社区项目设计",
+      "course_ids": [
+        "SOCI30049",
+        "SOCI30052",
+        "SWK30015"
+      ],
+      "topic": "work",
+      "status": "inferred_learning_path"
+    },
+    {
+      "title": "公共政策研究",
+      "course_ids": [
+        "MANA50013",
+        "MANA50011",
+        "MANA50020"
+      ],
+      "topic": "policy",
+      "status": "inferred_learning_path"
+    },
+    {
+      "title": "政策建模",
+      "course_ids": [
+        "MANA50011",
+        "MANA50015",
+        "MANA60073"
+      ],
+      "topic": "policy",
+      "status": "inferred_learning_path"
+    },
+    {
+      "title": "老龄服务",
+      "course_ids": [
+        "SOCI50059",
+        "SOCI50055",
+        "MAA70002"
+      ],
+      "topic": "policy",
+      "status": "inferred_learning_path"
+    },
+    {
+      "title": "统计软件应用",
+      "course_ids": [
+        "SOCI30006",
+        "SOCI30029",
+        "SOCI50020"
+      ],
+      "topic": "data",
+      "status": "inferred_learning_path"
+    },
+    {
+      "title": "计算社会科学",
+      "course_ids": [
+        "AIB110002",
+        "AIE310007",
+        "SOCI30046",
+        "AIS631008"
+      ],
+      "topic": "data",
+      "status": "inferred_learning_path"
+    },
+    {
+      "title": "人工智能工具",
+      "course_ids": [
+        "AIE310009",
+        "AIE410001",
+        "AIE410002"
+      ],
+      "topic": "data",
+      "status": "inferred_learning_path"
+    },
+    {
+      "title": "空间分析",
+      "course_ids": [
+        "MSP60001",
+        "SOCI40011"
+      ],
+      "topic": "data",
+      "status": "inferred_learning_path"
+    },
+    {
+      "title": "2025社会学理论",
+      "course_ids": [
+        "SOCI20001",
+        "SOCI10004",
+        "SOCI30021"
+      ]
+    },
+    {
+      "title": "2025社会统计",
+      "course_ids": [
+        "SWK10001",
+        "SOCI50017",
+        "MSP60004"
+      ]
+    },
+    {
+      "title": "2025个案实务",
+      "course_ids": [
+        "SWK20002",
+        "SWK20003",
+        "SWK40004",
+        "SWK40002"
+      ]
+    },
+    {
+      "title": "心理统计与应用",
+      "course_ids": [
+        "PSYC30017",
+        "PSYC30018",
+        "APSY70009"
+      ]
+    },
+    {
+      "title": "研究技术与实验",
+      "course_ids": [
+        "PSYC30001",
+        "PSYC30002",
+        "PSYC30024",
+        "PSYC30027",
+        "PSYC30028"
+      ]
+    },
+    {
+      "title": "人工智能编程与模型",
+      "course_ids": [
+        "AIE310006",
+        "AIE310007"
+      ]
+    }
+  ]
+}

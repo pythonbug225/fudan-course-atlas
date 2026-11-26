@@ -1,0 +1,69 @@
+{
+  "retrieved_date": "2026-11-26",
+  "department_id": 2567,
+  "portal": [
+    {
+      "cohort": 2023,
+      "directory_total": 147,
+      "department_plans": 6,
+      "downloaded_originals": 6,
+      "all_directory_department_ids_match": true,
+      "retrieved_date": "2026-11-26",
+      "majors": [
+        "心理学",
+        "社会学",
+        "社会工作"
+      ],
+      "possible_common_plans": []
+    },
+    {
+      "cohort": 2024,
+      "directory_total": 244,
+      "department_plans": 3,
+      "downloaded_originals": 3,
+      "all_directory_department_ids_match": true,
+      "retrieved_date": "2026-11-26",
+      "majors": [
+        "社会学",
+        "社会学-人工智能(双学士学位项目)"
+      ],
+      "possible_common_plans": []
+    },
+    {
+      "cohort": 2025,
+      "directory_total": 407,
+      "department_plans": 9,
+      "downloaded_originals": 9,
+      "all_directory_department_ids_match": true,
+      "retrieved_date": "2026-11-26",
+      "majors": [
+        "心理学",
+        "社会学",
+        "社会工作"
+      ],
+      "possible_common_plans": []
+    }
+  ],
+  "supplement": {
+    "year": 2024,
+    "source": "2024/official/annual/metadata.json",
+    "status": "resolved_public_directory_omissions",
+    "majors": [
+      "社会学",
+      "社会工作",
+      "心理学"
+    ],
+    "scope_note": "年度汇编补齐系统未列出的社会工作及心理学；社会学保留两个官方版本。"
+  },
+  "remaining_limits": [
+    "无法证实是否还有未公开的特殊班型。",
+    "2024普通与留学生修读建议已保存在各专业章节；港澳台侨差异须结合原书共同说明，不能按留学生方案替代。",
+    "先修字段缺失或为空不是无先修的证据，逐课教学大纲仍待补充。"
+  ],
+  "excluded_sources": [
+    {
+      "url": "https://jwc.fudan.edu.cn/_upload/article/files/d4/56/707002a8413b8a3cc690244c1118/c13743da-d1b6-4876-8c09-410fdf0042d8.pdf",
+      "reason": "实际为中文系课程手册，不作为社政学院依据。"
+    }
+  ]
+}

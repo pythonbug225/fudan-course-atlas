@@ -1,0 +1,592 @@
+{
+  "cohort": 2025,
+  "plan_checks": [
+    {
+      "plan_id": "100165",
+      "detail_sha256": "c16ba9c17e6a62dba73a0af5d4df42452d9e43a96d3c3e6b9c645edb54b27186",
+      "word_sha256": "9f8fbca9bc6196c0992bd2fe236e016ddca3e2932f4fe46b6bf850afd7725736"
+    },
+    {
+      "plan_id": "97173",
+      "detail_sha256": "c04c0fc611cf045ebf15335308d1df569b2d8d50a58444147e1d9f9a21e3fcb8",
+      "word_sha256": "9f9e89c66dc75db54a35582655b502a5efdf6f40943f0d67356803bc80713b70"
+    },
+    {
+      "plan_id": "100255",
+      "detail_sha256": "8dec5923a7020fb0be847c567ef7ce207eea004d8286d1e3f11137221258e675",
+      "word_sha256": "fbb1dd0e160edab66931781f1ca26a43ad1d74aa2b59e6808d547ac80e51a031"
+    },
+    {
+      "plan_id": "96675",
+      "detail_sha256": "b5c49f6afbb5d4f53a244bf631a9cc4dc86f609baf2b5ff20607754007e68a9a",
+      "word_sha256": "6df83f2a7646736ae3dd76d6a612aef099d5b892b0a12ef46232225f2234fe6a"
+    },
+    {
+      "plan_id": "96705",
+      "detail_sha256": "2b03dd171a25df47f9d12fbe67fdafebe4242723848c877e6495f36472955f46",
+      "word_sha256": "7a38158762d6d3de613e8ac035d20941421315bf794bf6a652ce016c3b221d33"
+    },
+    {
+      "plan_id": "100164",
+      "detail_sha256": "d4c4a5c9086993f3001b7cf0c8506ac2b8c3aee2a82c7c717fa493be7b040c4b",
+      "word_sha256": "c44f628bd2c607d003a26077ac15fbdb77073635ee96c816d3998beb0c6c8727"
+    },
+    {
+      "plan_id": "100163",
+      "detail_sha256": "f9c1b6649cbf5a722e876960f21e2df1d50c751f9f8c439907ba5703903a0e24",
+      "word_sha256": "80fb63b30d1a80dd97b257524ac93c7dfefe3dec8e1bf5b54c500d761e4005ab"
+    },
+    {
+      "plan_id": "97235",
+      "detail_sha256": "132102347b439afe4b9a360fb3855fb6a29e8d2a6407ec80d46f02ad5d8fb86c",
+      "word_sha256": "55ccf7aa432aafef95ce6bae0479651dc31662a06b39fa884c3e0e555c3b4add"
+    },
+    {
+      "plan_id": "100166",
+      "detail_sha256": "69df5b8b116dcd86f896842b692525eb9f7f48c075f6f641dd79e06ef7ea0693",
+      "word_sha256": "27cd7afe19b59b16d2e6d56423f289e4a068060c342bc5fd62a5773d4607a899"
+    }
+  ],
+  "prerequisite_field_instances": [
+    {
+      "plan_id": "100165",
+      "pointer": "/courseModules/20/planCourses/0/course/defaultPreCourses",
+      "empty": true,
+      "value": []
+    },
+    {
+      "plan_id": "100165",
+      "pointer": "/courseModules/20/planCourses/0/course/defaultPreCourseList",
+      "empty": true,
+      "value": []
+    },
+    {
+      "plan_id": "100165",
+      "pointer": "/courseModules/20/realPlanCourses/0/course/defaultPreCourses",
+      "empty": true,
+      "value": []
+    },
+    {
+      "plan_id": "100165",
+      "pointer": "/courseModules/20/realPlanCourses/0/course/defaultPreCourseList",
+      "empty": true,
+      "value": []
+    },
+    {
+      "plan_id": "97173",
+      "pointer": "/courseModules/19/planCourses/0/course/defaultPreCourses",
+      "empty": true,
+      "value": []
+    },
+    {
+      "plan_id": "97173",
+      "pointer": "/courseModules/19/planCourses/0/course/defaultPreCourseList",
+      "empty": true,
+      "value": []
+    },
+    {
+      "plan_id": "97173",
+      "pointer": "/courseModules/19/realPlanCourses/0/course/defaultPreCourses",
+      "empty": true,
+      "value": []
+    },
+    {
+      "plan_id": "97173",
+      "pointer": "/courseModules/19/realPlanCourses/0/course/defaultPreCourseList",
+      "empty": true,
+      "value": []
+    },
+    {
+      "plan_id": "100255",
+      "pointer": "/courseModules/19/planCourses/0/course/defaultPreCourses",
+      "empty": true,
+      "value": []
+    },
+    {
+      "plan_id": "100255",
+      "pointer": "/courseModules/19/planCourses/0/course/defaultPreCourseList",
+      "empty": true,
+      "value": []
+    },
+    {
+      "plan_id": "100255",
+      "pointer": "/courseModules/19/realPlanCourses/0/course/defaultPreCourses",
+      "empty": true,
+      "value": []
+    },
+    {
+      "plan_id": "100255",
+      "pointer": "/courseModules/19/realPlanCourses/0/course/defaultPreCourseList",
+      "empty": true,
+      "value": []
+    },
+    {
+      "plan_id": "96675",
+      "pointer": "/courseModules/24/planCourses/0/course/defaultPreCourses",
+      "empty": true,
+      "value": []
+    },
+    {
+      "plan_id": "96675",
+      "pointer": "/courseModules/24/planCourses/0/course/defaultPreCourseList",
+      "empty": true,
+      "value": []
+    },
+    {
+      "plan_id": "96675",
+      "pointer": "/courseModules/24/realPlanCourses/0/course/defaultPreCourses",
+      "empty": true,
+      "value": []
+    },
+    {
+      "plan_id": "96675",
+      "pointer": "/courseModules/24/realPlanCourses/0/course/defaultPreCourseList",
+      "empty": true,
+      "value": []
+    },
+    {
+      "plan_id": "96705",
+      "pointer": "/courseModules/22/planCourses/0/course/defaultPreCourses",
+      "empty": true,
+      "value": []
+    },
+    {
+      "plan_id": "96705",
+      "pointer": "/courseModules/22/planCourses/0/course/defaultPreCourseList",
+      "empty": true,
+      "value": []
+    },
+    {
+      "plan_id": "96705",
+      "pointer": "/courseModules/22/planCourses/1/course/defaultPreCourses",
+      "empty": true,
+      "value": []
+    },
+    {
+      "plan_id": "96705",
+      "pointer": "/courseModules/22/planCourses/1/course/defaultPreCourseList",
+      "empty": true,
+      "value": []
+    },
+    {
+      "plan_id": "96705",
+      "pointer": "/courseModules/22/planCourses/2/course/defaultPreCourses",
+      "empty": true,
+      "value": []
+    },
+    {
+      "plan_id": "96705",
+      "pointer": "/courseModules/22/planCourses/2/course/defaultPreCourseList",
+      "empty": true,
+      "value": []
+    },
+    {
+      "plan_id": "96705",
+      "pointer": "/courseModules/22/planCourses/3/course/defaultPreCourses",
+      "empty": true,
+      "value": []
+    },
+    {
+      "plan_id": "96705",
+      "pointer": "/courseModules/22/planCourses/3/course/defaultPreCourseList",
+      "empty": true,
+      "value": []
+    },
+    {
+      "plan_id": "96705",
+      "pointer": "/courseModules/22/planCourses/4/course/defaultPreCourses",
+      "empty": true,
+      "value": []
+    },
+    {
+      "plan_id": "96705",
+      "pointer": "/courseModules/22/planCourses/4/course/defaultPreCourseList",
+      "empty": true,
+      "value": []
+    },
+    {
+      "plan_id": "96705",
+      "pointer": "/courseModules/22/planCourses/5/course/defaultPreCourses",
+      "empty": true,
+      "value": []
+    },
+    {
+      "plan_id": "96705",
+      "pointer": "/courseModules/22/planCourses/5/course/defaultPreCourseList",
+      "empty": true,
+      "value": []
+    },
+    {
+      "plan_id": "96705",
+      "pointer": "/courseModules/22/planCourses/6/course/defaultPreCourses",
+      "empty": true,
+      "value": []
+    },
+    {
+      "plan_id": "96705",
+      "pointer": "/courseModules/22/planCourses/6/course/defaultPreCourseList",
+      "empty": true,
+      "value": []
+    },
+    {
+      "plan_id": "96705",
+      "pointer": "/courseModules/22/planCourses/7/course/defaultPreCourses",
+      "empty": true,
+      "value": []
+    },
+    {
+      "plan_id": "96705",
+      "pointer": "/courseModules/22/planCourses/7/course/defaultPreCourseList",
+      "empty": true,
+      "value": []
+    },
+    {
+      "plan_id": "96705",
+      "pointer": "/courseModules/22/realPlanCourses/0/course/defaultPreCourses",
+      "empty": true,
+      "value": []
+    },
+    {
+      "plan_id": "96705",
+      "pointer": "/courseModules/22/realPlanCourses/0/course/defaultPreCourseList",
+      "empty": true,
+      "value": []
+    },
+    {
+      "plan_id": "96705",
+      "pointer": "/courseModules/22/realPlanCourses/1/course/defaultPreCourses",
+      "empty": true,
+      "value": []
+    },
+    {
+      "plan_id": "96705",
+      "pointer": "/courseModules/22/realPlanCourses/1/course/defaultPreCourseList",
+      "empty": true,
+      "value": []
+    },
+    {
+      "plan_id": "96705",
+      "pointer": "/courseModules/22/realPlanCourses/2/course/defaultPreCourses",
+      "empty": true,
+      "value": []
+    },
+    {
+      "plan_id": "96705",
+      "pointer": "/courseModules/22/realPlanCourses/2/course/defaultPreCourseList",
+      "empty": true,
+      "value": []
+    },
+    {
+      "plan_id": "96705",
+      "pointer": "/courseModules/22/realPlanCourses/3/course/defaultPreCourses",
+      "empty": true,
+      "value": []
+    },
+    {
+      "plan_id": "96705",
+      "pointer": "/courseModules/22/realPlanCourses/3/course/defaultPreCourseList",
+      "empty": true,
+      "value": []
+    },
+    {
+      "plan_id": "96705",
+      "pointer": "/courseModules/22/realPlanCourses/4/course/defaultPreCourses",
+      "empty": true,
+      "value": []
+    },
+    {
+      "plan_id": "96705",
+      "pointer": "/courseModules/22/realPlanCourses/4/course/defaultPreCourseList",
+      "empty": true,
+      "value": []
+    },
+    {
+      "plan_id": "96705",
+      "pointer": "/courseModules/22/realPlanCourses/5/course/defaultPreCourses",
+      "empty": true,
+      "value": []
+    },
+    {
+      "plan_id": "96705",
+      "pointer": "/courseModules/22/realPlanCourses/5/course/defaultPreCourseList",
+      "empty": true,
+      "value": []
+    },
+    {
+      "plan_id": "96705",
+      "pointer": "/courseModules/22/realPlanCourses/6/course/defaultPreCourses",
+      "empty": true,
+      "value": []
+    },
+    {
+      "plan_id": "96705",
+      "pointer": "/courseModules/22/realPlanCourses/6/course/defaultPreCourseList",
+      "empty": true,
+      "value": []
+    },
+    {
+      "plan_id": "96705",
+      "pointer": "/courseModules/22/realPlanCourses/7/course/defaultPreCourses",
+      "empty": true,
+      "value": []
+    },
+    {
+      "plan_id": "96705",
+      "pointer": "/courseModules/22/realPlanCourses/7/course/defaultPreCourseList",
+      "empty": true,
+      "value": []
+    },
+    {
+      "plan_id": "100164",
+      "pointer": "/courseModules/25/planCourses/0/course/defaultPreCourses",
+      "empty": true,
+      "value": []
+    },
+    {
+      "plan_id": "100164",
+      "pointer": "/courseModules/25/planCourses/0/course/defaultPreCourseList",
+      "empty": true,
+      "value": []
+    },
+    {
+      "plan_id": "100164",
+      "pointer": "/courseModules/25/realPlanCourses/0/course/defaultPreCourses",
+      "empty": true,
+      "value": []
+    },
+    {
+      "plan_id": "100164",
+      "pointer": "/courseModules/25/realPlanCourses/0/course/defaultPreCourseList",
+      "empty": true,
+      "value": []
+    },
+    {
+      "plan_id": "100163",
+      "pointer": "/courseModules/24/planCourses/0/course/defaultPreCourses",
+      "empty": true,
+      "value": []
+    },
+    {
+      "plan_id": "100163",
+      "pointer": "/courseModules/24/planCourses/0/course/defaultPreCourseList",
+      "empty": true,
+      "value": []
+    },
+    {
+      "plan_id": "100163",
+      "pointer": "/courseModules/24/realPlanCourses/0/course/defaultPreCourses",
+      "empty": true,
+      "value": []
+    },
+    {
+      "plan_id": "100163",
+      "pointer": "/courseModules/24/realPlanCourses/0/course/defaultPreCourseList",
+      "empty": true,
+      "value": []
+    },
+    {
+      "plan_id": "97235",
+      "pointer": "/courseModules/17/planCourses/1/course/defaultPreCourses",
+      "empty": true,
+      "value": []
+    },
+    {
+      "plan_id": "97235",
+      "pointer": "/courseModules/17/planCourses/1/course/defaultPreCourseList",
+      "empty": true,
+      "value": []
+    },
+    {
+      "plan_id": "97235",
+      "pointer": "/courseModules/17/planCourses/2/course/defaultPreCourses",
+      "empty": true,
+      "value": []
+    },
+    {
+      "plan_id": "97235",
+      "pointer": "/courseModules/17/planCourses/2/course/defaultPreCourseList",
+      "empty": true,
+      "value": []
+    },
+    {
+      "plan_id": "97235",
+      "pointer": "/courseModules/17/realPlanCourses/1/course/defaultPreCourses",
+      "empty": true,
+      "value": []
+    },
+    {
+      "plan_id": "97235",
+      "pointer": "/courseModules/17/realPlanCourses/1/course/defaultPreCourseList",
+      "empty": true,
+      "value": []
+    },
+    {
+      "plan_id": "97235",
+      "pointer": "/courseModules/17/realPlanCourses/2/course/defaultPreCourses",
+      "empty": true,
+      "value": []
+    },
+    {
+      "plan_id": "97235",
+      "pointer": "/courseModules/17/realPlanCourses/2/course/defaultPreCourseList",
+      "empty": true,
+      "value": []
+    },
+    {
+      "plan_id": "100166",
+      "pointer": "/courseModules/17/planCourses/0/course/defaultPreCourses",
+      "empty": true,
+      "value": []
+    },
+    {
+      "plan_id": "100166",
+      "pointer": "/courseModules/17/planCourses/0/course/defaultPreCourseList",
+      "empty": true,
+      "value": []
+    },
+    {
+      "plan_id": "100166",
+      "pointer": "/courseModules/17/planCourses/1/course/defaultPreCourses",
+      "empty": true,
+      "value": []
+    },
+    {
+      "plan_id": "100166",
+      "pointer": "/courseModules/17/planCourses/1/course/defaultPreCourseList",
+      "empty": true,
+      "value": []
+    },
+    {
+      "plan_id": "100166",
+      "pointer": "/courseModules/17/realPlanCourses/0/course/defaultPreCourses",
+      "empty": true,
+      "value": []
+    },
+    {
+      "plan_id": "100166",
+      "pointer": "/courseModules/17/realPlanCourses/0/course/defaultPreCourseList",
+      "empty": true,
+      "value": []
+    },
+    {
+      "plan_id": "100166",
+      "pointer": "/courseModules/17/realPlanCourses/1/course/defaultPreCourses",
+      "empty": true,
+      "value": []
+    },
+    {
+      "plan_id": "100166",
+      "pointer": "/courseModules/17/realPlanCourses/1/course/defaultPreCourseList",
+      "empty": true,
+      "value": []
+    }
+  ],
+  "keyword_hits": [],
+  "hard_prerequisites_verified": 0,
+  "explicit_recommendations_verified": 0,
+  "figure_reviews": [
+    {
+      "plan_id": "97235",
+      "source": "figure-97235",
+      "verified_pairs": [
+        [
+          "MATH10004",
+          "MATH10005"
+        ],
+        [
+          "PHYS10003",
+          "PHYS10004"
+        ],
+        [
+          "PSYC30001",
+          "PSYC30002"
+        ],
+        [
+          "PSYC30017",
+          "PSYC30018"
+        ],
+        [
+          "PSYC30002",
+          "PSYC30024"
+        ],
+        [
+          "PSYC30018",
+          "PSYC30024"
+        ],
+        [
+          "PSYC30018",
+          "SOCI30029"
+        ],
+        [
+          "PSYC30024",
+          "PSYC30027"
+        ],
+        [
+          "SOCI30029",
+          "PSYC30008"
+        ],
+        [
+          "PSYC30027",
+          "PSYC30028"
+        ],
+        [
+          "PSYC30029",
+          "PSYC30030"
+        ]
+      ],
+      "not_encoded": [
+        "科研实践、复芏计划等宽泛环节的汇合箭头",
+        "原图中认知科学AI工程没有可直接对应的列课代码"
+      ],
+      "review_note": "人工核读原图箭头，并在同一方案列课中逐一对应课程代码；不视为强制先修。"
+    },
+    {
+      "plan_id": "96675",
+      "verified_pairs": [],
+      "review_note": "图中“古典社会学理论”“社会统计学”与当前列课“经典社会学理论”“社会统计学基础”不一致，未跨标题替换代码。"
+    },
+    {
+      "plan_id": "97173",
+      "verified_pairs": [],
+      "review_note": "图中“社会研究方法A”“社会统计学”与列课“社会研究方法基础”“社会统计学基础”不一致，未将旧题名映射成新的官方课程边。"
+    }
+  ],
+  "word_text_keyword_scan": [
+    {
+      "plan_id": "100165",
+      "matches": []
+    },
+    {
+      "plan_id": "97173",
+      "matches": []
+    },
+    {
+      "plan_id": "100255",
+      "matches": []
+    },
+    {
+      "plan_id": "96675",
+      "matches": []
+    },
+    {
+      "plan_id": "96705",
+      "matches": []
+    },
+    {
+      "plan_id": "100164",
+      "matches": []
+    },
+    {
+      "plan_id": "100163",
+      "matches": []
+    },
+    {
+      "plan_id": "97235",
+      "matches": []
+    },
+    {
+      "plan_id": "100166",
+      "matches": []
+    }
+  ]
+}

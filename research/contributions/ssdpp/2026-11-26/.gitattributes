@@ -1,0 +1,9 @@
+* text eol=lf
+*.gz binary
+*.png binary
+*.jpeg binary
+*.jpg binary
+*.pdf binary
+
+# Preserve whitespace extracted from official Word documents.
+**/official/word-text/*.txt -whitespace

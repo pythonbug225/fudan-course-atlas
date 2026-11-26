@@ -1,0 +1,43 @@
+{
+  "passed": true,
+  "cohorts": [
+    {
+      "cohort": 2023,
+      "portal_plans": 6,
+      "nodes": 130,
+      "edges": 86,
+      "evidence_refs": 172,
+      "directed_cycles": 0
+    },
+    {
+      "cohort": 2024,
+      "portal_plans": 3,
+      "nodes": 241,
+      "edges": 201,
+      "evidence_refs": 414,
+      "directed_cycles": 0
+    },
+    {
+      "cohort": 2025,
+      "portal_plans": 9,
+      "nodes": 202,
+      "edges": 140,
+      "evidence_refs": 291,
+      "directed_cycles": 0
+    }
+  ],
+  "checks": [
+    "directory_total_and_department_match",
+    "all_plan_ids_and_cohorts",
+    "all_node_course_coverage",
+    "all_edge_evidence_pointers",
+    "directed_edges_same_plan",
+    "directed_acyclic",
+    "html_embedded_data",
+    "svg_xml",
+    "source_image_sha256",
+    "annual_pdf_full_code_coverage",
+    "annual_pdf_excerpt_sha256",
+    "sensitive_fields_redacted"
+  ]
+}

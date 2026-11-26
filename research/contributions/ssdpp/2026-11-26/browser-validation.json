@@ -1,0 +1,34 @@
+{
+  "checked_on": "2026-11-26",
+  "method": "Manual browser inspection through Codex in-app browser against local static files",
+  "checks": [
+    {
+      "cohort": 2023,
+      "checks": [
+        "SWK30011 search",
+        "SWK40006 relation labelled inferred preparation, not official prerequisite",
+        "same-title course codes remain separate"
+      ]
+    },
+    {
+      "cohort": 2024,
+      "checks": [
+        "annual2024-psychology programme filter",
+        "SOCI130158 search returns three preparation relations",
+        "evidence links include PDF page 747 and JSON row pointers",
+        "preparation toggle removes displayed relations",
+        "unknown-course search returns empty state",
+        "SVG main-path diagram visually inspected",
+        "final header uses source-entry count and evidence buttons fit table"
+      ]
+    },
+    {
+      "cohort": 2025,
+      "checks": [
+        "97235 programme filter",
+        "PSYC30017 search distinguishes official sequence and inferred preparation"
+      ]
+    }
+  ],
+  "result": "passed"
+}
