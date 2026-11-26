@@ -2,6 +2,12 @@
 
 2023 年度汇编，方案正文印刷页 396–398。本页附上原书 PDF 第 408–412 页，其中含本专业紧随正文的各版修读建议。逐行数据覆盖可可靠对应课号和名称的原表记录。[方案原页](original-pages.pdf) · [完整原版](https://jwc.fudan.edu.cn/_upload/article/files/83/6c/8a3c080c4f8991024f4b59ad4f1b/64d23c13-0465-4619-bd18-9e491594f850.pdf#page=408) · [逐行数据与来源](record.json)
 
+## 课程导读
+
+想了解国际贸易与数据分析的课程安排，可以在原表中找到《国际贸易》（`ECON130004`）、《数据结构》（`DATA130023`）、《国际经济学》（`ECON130019`）。 [原书 PDF 第 408 页](original-pages.pdf#page=1) · [原书 PDF 第 409 页](original-pages.pdf#page=2)
+
+《数值算法与案例分析I》（`DATA130002`）和《数值算法与案例分析II》（`DATA130010`）是同一系列，图中的箭头按题名标出的分册顺序排列。 [原书 PDF 第 409 页](original-pages.pdf#page=2) · [原书 PDF 第 410 页](original-pages.pdf#page=3)
+
 ~~~mermaid
 flowchart LR
   xDATA130002["数值算法与案例分析I"] -->|分册联系|xDATA130010["数值算法与案例分析II"]

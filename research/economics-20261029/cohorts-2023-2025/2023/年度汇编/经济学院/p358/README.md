@@ -2,6 +2,20 @@
 
 2023 年度汇编，方案正文印刷页 358–361。本页附上原书 PDF 第 370–379 页，其中含本专业紧随正文的各版修读建议。逐行数据覆盖可可靠对应课号和名称的原表记录。[方案原页](original-pages.pdf) · [完整原版](https://jwc.fudan.edu.cn/_upload/article/files/83/6c/8a3c080c4f8991024f4b59ad4f1b/64d23c13-0465-4619-bd18-9e491594f850.pdf#page=370) · [逐行数据与来源](record.json)
 
+## 课程导读
+
+想了解经济理论与计量方法的课程安排，可以在原表中找到《IntermediateMicroeconomics》（`ECON130244`）、《IntermediateMacroeconomics》（`ECON130245`）、《Econometrics （H）》（`ECON130240h`）。 [原书 PDF 第 370 页](original-pages.pdf#page=1)
+
+图中箭头表示本节原表收录该课，图上各课之间没有先修连线。
+
+```mermaid
+flowchart LR
+  scope["本专业方案"]
+  scope -->|原表收录| cECON130244["IntermediateMicroeconomics（ECON130244）"]
+  scope -->|原表收录| cECON130245["IntermediateMacroeconomics（ECON130245）"]
+  scope -->|原表收录| cECON130240h["Econometrics （H）（ECON130240h）"]
+```
+
 | 课号 | 课程名称 | 开课学期原文 | PDF 页 |
 |---|---|---|---|
 | ECON130189 | 数量分析软件应用 Applicationof Statistical and EconometricSoftware |  | 375 |
