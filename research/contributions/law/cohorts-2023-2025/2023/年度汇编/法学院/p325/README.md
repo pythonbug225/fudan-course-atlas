@@ -2,6 +2,12 @@
 
 2023 年度汇编，方案正文印刷页 325–328。本页附上原书 PDF 第 337–344 页，其中含本专业紧随正文的各版修读建议。逐行数据覆盖可可靠对应课号和名称的原表记录。[方案原页](original-pages.pdf) · [完整原版](https://jwc.fudan.edu.cn/_upload/article/files/83/6c/8a3c080c4f8991024f4b59ad4f1b/64d23c13-0465-4619-bd18-9e491594f850.pdf#page=337) · [逐行数据与来源](record.json)
 
+## 课程导读
+
+想了解实体法与法律程序的课程安排，可以在原表中找到《民法I》（`LAWS130002`）、《刑法I》（`LAWS130062`）、《行政诉讼法》（`LAWS130005`）。 [原书 PDF 第 337 页](original-pages.pdf#page=1)
+
+图中把《刑法I》（`LAWS130062`）和《刑事诉讼法》（`LAWS130007`）列作内容联系。犯罪与刑责的实体规则和程序规则可相互参照。 [原书 PDF 第 337 页](original-pages.pdf#page=1)
+
 ~~~mermaid
 flowchart LR
   xLAWS130062["刑法I"] ---|内容联系|xLAWS130007["刑事诉讼法"]
