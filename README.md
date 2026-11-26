@@ -1,6 +1,6 @@
 # 复旦选课地图 · 全校课评库协作
 
-**本分支中文系资料：[课程关系图谱](中文系课程关系图谱/README.md) · [原始数据文件](中文系原始数据/README.md) · [中文系课程名单](research/contributions/chinese-language-20261027/中文系课程名单.txt) · [课评与研究报告](research/contributions/chinese-language-20261027/README.md)**
+**本分支中文系资料：[2023–2025 级培养方案与分年级图谱](中文系历届培养方案/README.md) · [课程关系图谱](中文系课程关系图谱/README.md) · [原始数据文件](中文系原始数据/README.md) · [中文系课程名单](research/contributions/chinese-language-20261027/中文系课程名单.txt) · [课评与研究报告](research/contributions/chinese-language-20261027/README.md)**
 
 [在线使用](https://fudan-course-atlas.xiasinm.chatgpt.site) · [下载引用资料包](https://github.com/pythonbug225/fudan-course-atlas/releases/tag/references-20261027-caic) · [参与修改](CONTRIBUTING.md) · [提交反馈](https://github.com/pythonbug225/fudan-course-atlas/issues)
 
