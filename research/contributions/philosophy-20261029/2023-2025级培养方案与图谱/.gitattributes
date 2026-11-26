@@ -1,0 +1,7 @@
+**/raw/** -text whitespace=-blank-at-eol,-blank-at-eof,-space-before-tab
+**/originals/** -text whitespace=-blank-at-eol,-blank-at-eof,-space-before-tab
+*.docx binary
+*.png binary
+*.jpg binary
+*.html text eol=lf
+*.py text eol=lf
