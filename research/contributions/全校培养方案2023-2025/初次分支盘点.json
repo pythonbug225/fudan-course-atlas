@@ -1,0 +1,3592 @@
+{
+  "source": "pythonbug225/fudan-course-atlas, git ls-tree at the listed initial remote branch heads, plus official 2023/24/25 directory snapshot and SSDPP Release archive",
+  "heads": {
+    "chinese-2026-plans-2025fall-2026spring-reviews": "8952d6629913af55337dbba0194248243a568678",
+    "codex/compass-2027-spring": "a943b6a0a09456160e1cb45ca0b546badb233179",
+    "codex/register-course-source-links-20261028": "f4aaf6b77364633e5b0c9c7eafd24793ea4ec637",
+    "foreign-languages-2026-plans-2025fall-2026spring-reviews": "4cf86125e3b39c5d5dc8bb1f3b29d395e89399b8",
+    "journalism-2026-plans-2025fall-2026spring-reviews": "8530f26e241c23d8bdfaa113038b47b687588077",
+    "main": "b3629b36920ad2d64d5c56b397e6976f0cf4af8a",
+    "research/bigdata-2026-20261028": "8d05c6b4b3cf68efc16de0272ee9c7574f84a156",
+    "research/chemistry-2026-20261027": "3f3a5473b5975acfb80cb321f55266750021f8bd",
+    "research/chinese-sirpa-marxism-20261027": "d7f4963c3ad56c69b6c0c864a014c01354234bea",
+    "research/econ-management-2026-20261029": "1166455cb6406604def3d8c7170a5bf5ab49098a",
+    "research/history-2025autumn-2026spring-20261030": "868ddad4b4f8ccf0bec759c5c847af5e5d73b46d",
+    "research/ices-2025autumn-2026spring-20261030": "336a4f4828c16f68564c06eceae95f369ae185e4",
+    "research/law-2025autumn-2026spring-20261029": "13438b4e11ca64c447ad4355e113273ab720ddd5",
+    "research/math-2023-2025-20261126": "3b3ac0d1a78d4784c511c385969e74ff846d3ca5",
+    "research/philosophy-20261029": "73d9287ada411f9bd5b8cb3df5afc2f0df508a32",
+    "research/ssdpp-2025autumn-2026spring-20261030": "c223db7615d7962e78259780ad1245f2a98c5596",
+    "research/tourism-20261029": "933f91d017498c79fb7e7012edc2a8dfc75f9708",
+    "research/wenbo-20261029": "519383c302e888936b320c93d31c8273ece45ec3",
+    "sirpa-course-reviews-2025fall-2026spring": "b100374389e11296ab359d5544713a062ea69a9b"
+  },
+  "departments": [
+    {
+      "department_id": 2551,
+      "name": "外国语言文学学院",
+      "existing_branch": "foreign-languages-2026-plans-2025fall-2026spring-reviews",
+      "existing_folder": "research/contributions/foreign-languages-20261028/cohorts-2023-2025/cohorts/{y}",
+      "years": {
+        "2023": {
+          "official_ids": [
+            67513,
+            67553,
+            67573,
+            67595,
+            73552
+          ],
+          "status": "complete",
+          "graph_paths": [
+            "research/contributions/foreign-languages-20261028/cohorts-2023-2025/cohorts/2023/course-graph/graph.json"
+          ],
+          "missing_word_ids": [],
+          "missing_detail_ids": [],
+          "folder": "research/contributions/foreign-languages-20261028/cohorts-2023-2025/cohorts/2023"
+        },
+        "2024": {
+          "official_ids": [
+            72747,
+            72749,
+            72750,
+            72751,
+            72752,
+            72758,
+            72769,
+            72772,
+            72773,
+            73394,
+            73395,
+            73396,
+            73607,
+            153245
+          ],
+          "status": "complete",
+          "graph_paths": [
+            "research/contributions/foreign-languages-20261028/cohorts-2023-2025/cohorts/2024/course-graph/graph.json"
+          ],
+          "missing_word_ids": [],
+          "missing_detail_ids": [],
+          "folder": "research/contributions/foreign-languages-20261028/cohorts-2023-2025/cohorts/2024"
+        },
+        "2025": {
+          "official_ids": [
+            96712,
+            96786,
+            96808,
+            96911,
+            96921,
+            96924,
+            96926,
+            96928,
+            96973,
+            96976,
+            96983,
+            96987,
+            96989,
+            96992,
+            96995,
+            96996,
+            96997,
+            96999,
+            99306,
+            99655,
+            99830,
+            99832,
+            99839
+          ],
+          "status": "complete",
+          "graph_paths": [
+            "research/contributions/foreign-languages-20261028/cohorts-2023-2025/cohorts/2025/course-graph/graph.json"
+          ],
+          "missing_word_ids": [],
+          "missing_detail_ids": [],
+          "folder": "research/contributions/foreign-languages-20261028/cohorts-2023-2025/cohorts/2025"
+        }
+      }
+    },
+    {
+      "department_id": 2556,
+      "name": "历史学系",
+      "existing_branch": "research/history-2025autumn-2026spring-20261030",
+      "existing_folder": "research/contributions/history",
+      "years": {
+        "2023": {
+          "official_ids": [
+            67533,
+            73588,
+            73590,
+            73591
+          ],
+          "status": "missing",
+          "graph_paths": [],
+          "missing_word_ids": [
+            67533,
+            73588,
+            73590,
+            73591
+          ],
+          "missing_detail_ids": [
+            67533,
+            73588,
+            73590,
+            73591
+          ],
+          "folder": null
+        },
+        "2024": {
+          "official_ids": [
+            72577,
+            72911,
+            72916,
+            146821
+          ],
+          "status": "missing",
+          "graph_paths": [],
+          "missing_word_ids": [
+            72577,
+            72911,
+            72916,
+            146821
+          ],
+          "missing_detail_ids": [
+            72577,
+            72911,
+            72916,
+            146821
+          ],
+          "folder": null
+        },
+        "2025": {
+          "official_ids": [
+            96790,
+            97390,
+            97392,
+            98148,
+            98153,
+            151091
+          ],
+          "status": "missing",
+          "graph_paths": [],
+          "missing_word_ids": [
+            96790,
+            97390,
+            97392,
+            98148,
+            98153,
+            151091
+          ],
+          "missing_detail_ids": [
+            96790,
+            97390,
+            97392,
+            98148,
+            98153,
+            151091
+          ],
+          "folder": null
+        }
+      }
+    },
+    {
+      "department_id": 2564,
+      "name": "化学系",
+      "existing_branch": "research/chemistry-2026-20261027",
+      "existing_folder": "research/chemistry-20261027",
+      "years": {
+        "2023": {
+          "official_ids": [
+            67313,
+            67314,
+            67426,
+            67733,
+            67734
+          ],
+          "status": "missing",
+          "graph_paths": [],
+          "missing_word_ids": [
+            67313,
+            67314,
+            67426,
+            67733,
+            67734
+          ],
+          "missing_detail_ids": [
+            67313,
+            67314,
+            67426,
+            67733,
+            67734
+          ],
+          "folder": null
+        },
+        "2024": {
+          "official_ids": [
+            72597,
+            72682,
+            72691,
+            72710,
+            72987,
+            73171,
+            78951,
+            140426,
+            150358
+          ],
+          "status": "missing",
+          "graph_paths": [],
+          "missing_word_ids": [
+            72597,
+            72682,
+            72691,
+            72710,
+            72987,
+            73171,
+            78951,
+            140426,
+            150358
+          ],
+          "missing_detail_ids": [
+            72597,
+            72682,
+            72691,
+            72710,
+            72987,
+            73171,
+            78951,
+            140426,
+            150358
+          ],
+          "folder": null
+        },
+        "2025": {
+          "official_ids": [
+            96683,
+            97169,
+            97182,
+            97188,
+            97191,
+            97192,
+            97202,
+            97205,
+            97338,
+            150332,
+            151312
+          ],
+          "status": "missing",
+          "graph_paths": [],
+          "missing_word_ids": [
+            96683,
+            97169,
+            97182,
+            97188,
+            97191,
+            97192,
+            97202,
+            97205,
+            97338,
+            150332,
+            151312
+          ],
+          "missing_detail_ids": [
+            96683,
+            97169,
+            97182,
+            97188,
+            97191,
+            97192,
+            97202,
+            97205,
+            97338,
+            150332,
+            151312
+          ],
+          "folder": null
+        }
+      }
+    },
+    {
+      "department_id": 2565,
+      "name": "法学院",
+      "existing_branch": "research/law-2025autumn-2026spring-20261029",
+      "existing_folder": "research/contributions/law",
+      "years": {
+        "2023": {
+          "official_ids": [
+            67413,
+            67414,
+            67415,
+            73594
+          ],
+          "status": "missing",
+          "graph_paths": [],
+          "missing_word_ids": [
+            67413,
+            67414,
+            67415,
+            73594
+          ],
+          "missing_detail_ids": [
+            67413,
+            67414,
+            67415,
+            73594
+          ],
+          "folder": null
+        },
+        "2024": {
+          "official_ids": [
+            72913,
+            73004,
+            73018,
+            73020,
+            73022,
+            73024
+          ],
+          "status": "missing",
+          "graph_paths": [],
+          "missing_word_ids": [
+            72913,
+            73004,
+            73018,
+            73020,
+            73022,
+            73024
+          ],
+          "missing_detail_ids": [
+            72913,
+            73004,
+            73018,
+            73020,
+            73022,
+            73024
+          ],
+          "folder": null
+        },
+        "2025": {
+          "official_ids": [
+            96704,
+            96904,
+            96905,
+            96907,
+            97482
+          ],
+          "status": "missing",
+          "graph_paths": [],
+          "missing_word_ids": [
+            96704,
+            96904,
+            96905,
+            96907,
+            97482
+          ],
+          "missing_detail_ids": [
+            96704,
+            96904,
+            96905,
+            96907,
+            97482
+          ],
+          "folder": null
+        }
+      }
+    },
+    {
+      "department_id": 2567,
+      "name": "社会发展与公共政策学院",
+      "existing_branch": "research/ssdpp-2025autumn-2026spring-20261030",
+      "existing_folder": "research/contributions/ssdpp/2026-11-26/{y}",
+      "years": {
+        "2023": {
+          "official_ids": [
+            67673,
+            67674,
+            67675,
+            67676,
+            67895,
+            73543
+          ],
+          "status": "complete",
+          "graph_paths": [
+            "research/contributions/ssdpp/2026-11-26/2023/course-graph/graph.json"
+          ],
+          "missing_word_ids": [],
+          "missing_detail_ids": [],
+          "folder": "research/contributions/ssdpp/2026-11-26/2023"
+        },
+        "2024": {
+          "official_ids": [
+            72717,
+            73013,
+            73628
+          ],
+          "status": "complete",
+          "graph_paths": [
+            "research/contributions/ssdpp/2026-11-26/2024/course-graph/graph.json"
+          ],
+          "missing_word_ids": [],
+          "missing_detail_ids": [],
+          "folder": "research/contributions/ssdpp/2026-11-26/2024"
+        },
+        "2025": {
+          "official_ids": [
+            96675,
+            96705,
+            97173,
+            97235,
+            100163,
+            100164,
+            100165,
+            100166,
+            100255
+          ],
+          "status": "complete",
+          "graph_paths": [
+            "research/contributions/ssdpp/2026-11-26/2025/course-graph/graph.json"
+          ],
+          "missing_word_ids": [],
+          "missing_detail_ids": [],
+          "folder": "research/contributions/ssdpp/2026-11-26/2025"
+        }
+      }
+    },
+    {
+      "department_id": 2569,
+      "name": "文物与博物馆学系",
+      "existing_branch": "research/wenbo-20261029",
+      "existing_folder": "research/contributions/wenbo-20261029",
+      "years": {
+        "2023": {
+          "official_ids": [
+            67356,
+            67374
+          ],
+          "status": "missing",
+          "graph_paths": [],
+          "missing_word_ids": [
+            67356,
+            67374
+          ],
+          "missing_detail_ids": [
+            67356,
+            67374
+          ],
+          "folder": null
+        },
+        "2024": {
+          "official_ids": [
+            72723,
+            73067,
+            73070
+          ],
+          "status": "missing",
+          "graph_paths": [],
+          "missing_word_ids": [
+            72723,
+            73067,
+            73070
+          ],
+          "missing_detail_ids": [
+            72723,
+            73067,
+            73070
+          ],
+          "folder": null
+        },
+        "2025": {
+          "official_ids": [
+            96710,
+            96929,
+            96946,
+            97011,
+            97097,
+            97099,
+            97104,
+            97107
+          ],
+          "status": "missing",
+          "graph_paths": [],
+          "missing_word_ids": [
+            96710,
+            96929,
+            96946,
+            97011,
+            97097,
+            97099,
+            97104,
+            97107
+          ],
+          "missing_detail_ids": [
+            96710,
+            96929,
+            96946,
+            97011,
+            97097,
+            97099,
+            97104,
+            97107
+          ],
+          "folder": null
+        }
+      }
+    },
+    {
+      "department_id": 2571,
+      "name": "物理学系",
+      "existing_branch": null,
+      "existing_folder": null,
+      "years": {
+        "2023": {
+          "official_ids": [
+            67444,
+            67873,
+            67875,
+            67876,
+            73592
+          ],
+          "status": "missing",
+          "graph_paths": [],
+          "missing_word_ids": [
+            67444,
+            67873,
+            67875,
+            67876,
+            73592
+          ],
+          "missing_detail_ids": [
+            67444,
+            67873,
+            67875,
+            67876,
+            73592
+          ],
+          "folder": null
+        },
+        "2024": {
+          "official_ids": [
+            72619,
+            72908,
+            72975,
+            73011,
+            73039,
+            73055,
+            73113,
+            138640
+          ],
+          "status": "missing",
+          "graph_paths": [],
+          "missing_word_ids": [
+            72619,
+            72908,
+            72975,
+            73011,
+            73039,
+            73055,
+            73113,
+            138640
+          ],
+          "missing_detail_ids": [
+            72619,
+            72908,
+            72975,
+            73011,
+            73039,
+            73055,
+            73113,
+            138640
+          ],
+          "folder": null
+        },
+        "2025": {
+          "official_ids": [
+            73454,
+            97211,
+            97212,
+            97213,
+            97226,
+            99868,
+            99869,
+            159931
+          ],
+          "status": "missing",
+          "graph_paths": [],
+          "missing_word_ids": [
+            73454,
+            97211,
+            97212,
+            97213,
+            97226,
+            99868,
+            99869,
+            159931
+          ],
+          "missing_detail_ids": [
+            73454,
+            97211,
+            97212,
+            97213,
+            97226,
+            99868,
+            99869,
+            159931
+          ],
+          "folder": null
+        }
+      }
+    },
+    {
+      "department_id": 2581,
+      "name": "数学科学学院",
+      "existing_branch": "research/math-2023-2025-20261126",
+      "existing_folder": "research/contributions/数学科学学院/cohorts/{y}",
+      "years": {
+        "2023": {
+          "official_ids": [
+            67613,
+            67614,
+            73582,
+            73586,
+            73587,
+            73599,
+            83480
+          ],
+          "status": "complete",
+          "graph_paths": [
+            "research/contributions/数学科学学院/cohorts/2023/course-graph/graph.json"
+          ],
+          "missing_word_ids": [],
+          "missing_detail_ids": [],
+          "folder": "research/contributions/数学科学学院/cohorts/2023"
+        },
+        "2024": {
+          "official_ids": [
+            72704,
+            72714,
+            72716,
+            72965,
+            72972,
+            73314,
+            73354,
+            73495,
+            73496,
+            87133,
+            153571
+          ],
+          "status": "complete",
+          "graph_paths": [
+            "research/contributions/数学科学学院/cohorts/2024/course-graph/graph.json"
+          ],
+          "missing_word_ids": [],
+          "missing_detail_ids": [],
+          "folder": "research/contributions/数学科学学院/cohorts/2024"
+        },
+        "2025": {
+          "official_ids": [
+            87182,
+            96707,
+            96721,
+            96726,
+            96797,
+            97036,
+            97044,
+            97068,
+            97083,
+            97100,
+            97101,
+            97106,
+            97118,
+            97123,
+            97414,
+            97418,
+            97455,
+            160272
+          ],
+          "status": "complete",
+          "graph_paths": [
+            "research/contributions/数学科学学院/cohorts/2025/course-graph/graph.json"
+          ],
+          "missing_word_ids": [],
+          "missing_detail_ids": [],
+          "folder": "research/contributions/数学科学学院/cohorts/2025"
+        }
+      }
+    },
+    {
+      "department_id": 2586,
+      "name": "高分子科学系",
+      "existing_branch": "main",
+      "existing_folder": "research/contributions/高分子科学系",
+      "years": {
+        "2023": {
+          "official_ids": [],
+          "status": "no_directory_entry",
+          "graph_paths": [],
+          "missing_word_ids": [],
+          "missing_detail_ids": [],
+          "folder": null
+        },
+        "2024": {
+          "official_ids": [
+            72746,
+            73074,
+            154475
+          ],
+          "status": "missing",
+          "graph_paths": [],
+          "missing_word_ids": [
+            72746,
+            73074,
+            154475
+          ],
+          "missing_detail_ids": [
+            72746,
+            73074,
+            154475
+          ],
+          "folder": null
+        },
+        "2025": {
+          "official_ids": [
+            96711,
+            97165,
+            149432
+          ],
+          "status": "missing",
+          "graph_paths": [],
+          "missing_word_ids": [
+            96711,
+            97165,
+            149432
+          ],
+          "missing_detail_ids": [
+            96711,
+            97165,
+            149432
+          ],
+          "folder": null
+        }
+      }
+    },
+    {
+      "department_id": 2587,
+      "name": "环境科学与工程系",
+      "existing_branch": null,
+      "existing_folder": null,
+      "years": {
+        "2023": {
+          "official_ids": [],
+          "status": "no_directory_entry",
+          "graph_paths": [],
+          "missing_word_ids": [],
+          "missing_detail_ids": [],
+          "folder": null
+        },
+        "2024": {
+          "official_ids": [
+            72698,
+            72701,
+            72702
+          ],
+          "status": "missing",
+          "graph_paths": [],
+          "missing_word_ids": [
+            72698,
+            72701,
+            72702
+          ],
+          "missing_detail_ids": [
+            72698,
+            72701,
+            72702
+          ],
+          "folder": null
+        },
+        "2025": {
+          "official_ids": [
+            96694,
+            97102,
+            97471,
+            97478,
+            97479,
+            151491,
+            151533
+          ],
+          "status": "missing",
+          "graph_paths": [],
+          "missing_word_ids": [
+            96694,
+            97102,
+            97471,
+            97478,
+            97479,
+            151491,
+            151533
+          ],
+          "missing_detail_ids": [
+            96694,
+            97102,
+            97471,
+            97478,
+            97479,
+            151491,
+            151533
+          ],
+          "folder": null
+        }
+      }
+    },
+    {
+      "department_id": 2595,
+      "name": "旅游学系",
+      "existing_branch": "research/tourism-20261029",
+      "existing_folder": "research/contributions/tourism-20261029/cohorts/{y}",
+      "years": {
+        "2023": {
+          "official_ids": [
+            67418,
+            73589
+          ],
+          "status": "complete",
+          "graph_paths": [
+            "research/contributions/tourism-20261029/cohorts/2023/course-graph/graph.json"
+          ],
+          "missing_word_ids": [],
+          "missing_detail_ids": [],
+          "folder": "research/contributions/tourism-20261029/cohorts/2023"
+        },
+        "2024": {
+          "official_ids": [
+            72914,
+            72915
+          ],
+          "status": "complete",
+          "graph_paths": [
+            "research/contributions/tourism-20261029/cohorts/2024/course-graph/graph.json"
+          ],
+          "missing_word_ids": [],
+          "missing_detail_ids": [],
+          "folder": "research/contributions/tourism-20261029/cohorts/2024"
+        },
+        "2025": {
+          "official_ids": [
+            138082,
+            153800
+          ],
+          "status": "complete",
+          "graph_paths": [
+            "research/contributions/tourism-20261029/cohorts/2025/course-graph/graph.json"
+          ],
+          "missing_word_ids": [],
+          "missing_detail_ids": [],
+          "folder": "research/contributions/tourism-20261029/cohorts/2025"
+        }
+      }
+    },
+    {
+      "department_id": 2599,
+      "name": "公共卫生学院",
+      "existing_branch": null,
+      "existing_folder": null,
+      "years": {
+        "2023": {
+          "official_ids": [],
+          "status": "no_directory_entry",
+          "graph_paths": [],
+          "missing_word_ids": [],
+          "missing_detail_ids": [],
+          "folder": null
+        },
+        "2024": {
+          "official_ids": [
+            72688,
+            72690,
+            72693,
+            72992,
+            72993
+          ],
+          "status": "missing",
+          "graph_paths": [],
+          "missing_word_ids": [
+            72688,
+            72690,
+            72693,
+            72992,
+            72993
+          ],
+          "missing_detail_ids": [
+            72688,
+            72690,
+            72693,
+            72992,
+            72993
+          ],
+          "folder": null
+        },
+        "2025": {
+          "official_ids": [
+            96687,
+            97013,
+            97014,
+            97016,
+            97017,
+            97018
+          ],
+          "status": "missing",
+          "graph_paths": [],
+          "missing_word_ids": [
+            96687,
+            97013,
+            97014,
+            97016,
+            97017,
+            97018
+          ],
+          "missing_detail_ids": [
+            96687,
+            97013,
+            97014,
+            97016,
+            97017,
+            97018
+          ],
+          "folder": null
+        }
+      }
+    },
+    {
+      "department_id": 2600,
+      "name": "药学院",
+      "existing_branch": null,
+      "existing_folder": null,
+      "years": {
+        "2023": {
+          "official_ids": [
+            73593
+          ],
+          "status": "missing",
+          "graph_paths": [],
+          "missing_word_ids": [
+            73593
+          ],
+          "missing_detail_ids": [
+            73593
+          ],
+          "folder": null
+        },
+        "2024": {
+          "official_ids": [
+            72460,
+            72724,
+            72741,
+            73061,
+            73131
+          ],
+          "status": "missing",
+          "graph_paths": [],
+          "missing_word_ids": [
+            72460,
+            72724,
+            72741,
+            73061,
+            73131
+          ],
+          "missing_detail_ids": [
+            72460,
+            72724,
+            72741,
+            73061,
+            73131
+          ],
+          "folder": null
+        },
+        "2025": {
+          "official_ids": [
+            96696,
+            96701,
+            96802,
+            96950,
+            96951,
+            96952,
+            97085,
+            97092
+          ],
+          "status": "missing",
+          "graph_paths": [],
+          "missing_word_ids": [
+            96696,
+            96701,
+            96802,
+            96950,
+            96951,
+            96952,
+            97085,
+            97092
+          ],
+          "missing_detail_ids": [
+            96696,
+            96701,
+            96802,
+            96950,
+            96951,
+            96952,
+            97085,
+            97092
+          ],
+          "folder": null
+        }
+      }
+    },
+    {
+      "department_id": 2601,
+      "name": "护理学院",
+      "existing_branch": null,
+      "existing_folder": null,
+      "years": {
+        "2023": {
+          "official_ids": [],
+          "status": "no_directory_entry",
+          "graph_paths": [],
+          "missing_word_ids": [],
+          "missing_detail_ids": [],
+          "folder": null
+        },
+        "2024": {
+          "official_ids": [
+            72657
+          ],
+          "status": "missing",
+          "graph_paths": [],
+          "missing_word_ids": [
+            72657
+          ],
+          "missing_detail_ids": [
+            72657
+          ],
+          "folder": null
+        },
+        "2025": {
+          "official_ids": [
+            96691,
+            96727
+          ],
+          "status": "missing",
+          "graph_paths": [],
+          "missing_word_ids": [
+            96691,
+            96727
+          ],
+          "missing_detail_ids": [
+            96691,
+            96727
+          ],
+          "folder": null
+        }
+      }
+    },
+    {
+      "department_id": 2607,
+      "name": "经济学院",
+      "existing_branch": "research/econ-management-2026-20261029",
+      "existing_folder": "research/economics-20261029",
+      "years": {
+        "2023": {
+          "official_ids": [
+            67273,
+            67275,
+            67276,
+            67277,
+            67278,
+            67279,
+            67280,
+            67401,
+            67422,
+            67893,
+            67897,
+            67898,
+            67899,
+            67901,
+            67902,
+            67903,
+            73584
+          ],
+          "status": "missing",
+          "graph_paths": [],
+          "missing_word_ids": [
+            67273,
+            67275,
+            67276,
+            67277,
+            67278,
+            67279,
+            67280,
+            67401,
+            67422,
+            67893,
+            67897,
+            67898,
+            67899,
+            67901,
+            67902,
+            67903,
+            73584
+          ],
+          "missing_detail_ids": [
+            67273,
+            67275,
+            67276,
+            67277,
+            67278,
+            67279,
+            67280,
+            67401,
+            67422,
+            67893,
+            67897,
+            67898,
+            67899,
+            67901,
+            67902,
+            67903,
+            73584
+          ],
+          "folder": null
+        },
+        "2024": {
+          "official_ids": [
+            72497,
+            72729,
+            72731,
+            72732,
+            72734,
+            72735,
+            72736,
+            72738,
+            72739,
+            72740,
+            72774,
+            72777,
+            72778,
+            72781,
+            72782,
+            72961,
+            72962,
+            72963,
+            73073,
+            73334,
+            96984,
+            153732
+          ],
+          "status": "missing",
+          "graph_paths": [],
+          "missing_word_ids": [
+            72497,
+            72729,
+            72731,
+            72732,
+            72734,
+            72735,
+            72736,
+            72738,
+            72739,
+            72740,
+            72774,
+            72777,
+            72778,
+            72781,
+            72782,
+            72961,
+            72962,
+            72963,
+            73073,
+            73334,
+            96984,
+            153732
+          ],
+          "missing_detail_ids": [
+            72497,
+            72729,
+            72731,
+            72732,
+            72734,
+            72735,
+            72736,
+            72738,
+            72739,
+            72740,
+            72774,
+            72777,
+            72778,
+            72781,
+            72782,
+            72961,
+            72962,
+            72963,
+            73073,
+            73334,
+            96984,
+            153732
+          ],
+          "folder": null
+        },
+        "2025": {
+          "official_ids": [
+            96688,
+            96699,
+            96729,
+            96740,
+            96912,
+            96913,
+            96925,
+            96932,
+            96940,
+            96956,
+            96960,
+            96963,
+            96965,
+            96966,
+            96967,
+            96968,
+            96969,
+            96970,
+            96971,
+            96975,
+            96978,
+            96986,
+            97415,
+            97416,
+            97456,
+            97460
+          ],
+          "status": "missing",
+          "graph_paths": [],
+          "missing_word_ids": [
+            96688,
+            96699,
+            96729,
+            96740,
+            96912,
+            96913,
+            96925,
+            96932,
+            96940,
+            96956,
+            96960,
+            96963,
+            96965,
+            96966,
+            96967,
+            96968,
+            96969,
+            96970,
+            96971,
+            96975,
+            96978,
+            96986,
+            97415,
+            97416,
+            97456,
+            97460
+          ],
+          "missing_detail_ids": [
+            96688,
+            96699,
+            96729,
+            96740,
+            96912,
+            96913,
+            96925,
+            96932,
+            96940,
+            96956,
+            96960,
+            96963,
+            96965,
+            96966,
+            96967,
+            96968,
+            96969,
+            96970,
+            96971,
+            96975,
+            96978,
+            96986,
+            97415,
+            97416,
+            97456,
+            97460
+          ],
+          "folder": null
+        }
+      }
+    },
+    {
+      "department_id": 2608,
+      "name": "管理学院",
+      "existing_branch": "research/econ-management-2026-20261029",
+      "existing_folder": "research/management-20261029",
+      "years": {
+        "2023": {
+          "official_ids": [
+            65555,
+            67321,
+            67327,
+            67328,
+            67329,
+            67331,
+            67332,
+            67473,
+            67477,
+            67478,
+            67480,
+            67494,
+            67496,
+            67499,
+            137115,
+            154377
+          ],
+          "status": "missing",
+          "graph_paths": [],
+          "missing_word_ids": [
+            65555,
+            67321,
+            67327,
+            67328,
+            67329,
+            67331,
+            67332,
+            67473,
+            67477,
+            67478,
+            67480,
+            67494,
+            67496,
+            67499,
+            137115,
+            154377
+          ],
+          "missing_detail_ids": [
+            65555,
+            67321,
+            67327,
+            67328,
+            67329,
+            67331,
+            67332,
+            67473,
+            67477,
+            67478,
+            67480,
+            67494,
+            67496,
+            67499,
+            137115,
+            154377
+          ],
+          "folder": null
+        },
+        "2024": {
+          "official_ids": [
+            72768,
+            72776,
+            72798,
+            72799,
+            72800,
+            72802,
+            72897,
+            72899,
+            72900,
+            72901,
+            72902,
+            72903,
+            72904,
+            72905,
+            72906,
+            72907,
+            72909,
+            72964,
+            137117,
+            153691,
+            154378,
+            160131,
+            160132,
+            160133,
+            160134,
+            160135,
+            160136
+          ],
+          "status": "missing",
+          "graph_paths": [],
+          "missing_word_ids": [
+            72768,
+            72776,
+            72798,
+            72799,
+            72800,
+            72802,
+            72897,
+            72899,
+            72900,
+            72901,
+            72902,
+            72903,
+            72904,
+            72905,
+            72906,
+            72907,
+            72909,
+            72964,
+            137117,
+            153691,
+            154378,
+            160131,
+            160132,
+            160133,
+            160134,
+            160135,
+            160136
+          ],
+          "missing_detail_ids": [
+            72768,
+            72776,
+            72798,
+            72799,
+            72800,
+            72802,
+            72897,
+            72899,
+            72900,
+            72901,
+            72902,
+            72903,
+            72904,
+            72905,
+            72906,
+            72907,
+            72909,
+            72964,
+            137117,
+            153691,
+            154378,
+            160131,
+            160132,
+            160133,
+            160134,
+            160135,
+            160136
+          ],
+          "folder": null
+        },
+        "2025": {
+          "official_ids": [
+            96776,
+            97022,
+            97025,
+            97028,
+            97039,
+            97043,
+            97064,
+            97067,
+            97077,
+            97082,
+            97098,
+            97103,
+            97108,
+            97119,
+            97120,
+            97124,
+            97184,
+            97185,
+            97187,
+            97189,
+            97194,
+            97195,
+            97196,
+            97198,
+            97199,
+            97200,
+            97222,
+            97224,
+            97228,
+            97229,
+            97231,
+            97232,
+            97233,
+            97234
+          ],
+          "status": "missing",
+          "graph_paths": [],
+          "missing_word_ids": [
+            96776,
+            97022,
+            97025,
+            97028,
+            97039,
+            97043,
+            97064,
+            97067,
+            97077,
+            97082,
+            97098,
+            97103,
+            97108,
+            97119,
+            97120,
+            97124,
+            97184,
+            97185,
+            97187,
+            97189,
+            97194,
+            97195,
+            97196,
+            97198,
+            97199,
+            97200,
+            97222,
+            97224,
+            97228,
+            97229,
+            97231,
+            97232,
+            97233,
+            97234
+          ],
+          "missing_detail_ids": [
+            96776,
+            97022,
+            97025,
+            97028,
+            97039,
+            97043,
+            97064,
+            97067,
+            97077,
+            97082,
+            97098,
+            97103,
+            97108,
+            97119,
+            97120,
+            97124,
+            97184,
+            97185,
+            97187,
+            97189,
+            97194,
+            97195,
+            97196,
+            97198,
+            97199,
+            97200,
+            97222,
+            97224,
+            97228,
+            97229,
+            97231,
+            97232,
+            97233,
+            97234
+          ],
+          "folder": null
+        }
+      }
+    },
+    {
+      "department_id": 2609,
+      "name": "生命科学学院",
+      "existing_branch": null,
+      "existing_folder": null,
+      "years": {
+        "2023": {
+          "official_ids": [],
+          "status": "no_directory_entry",
+          "graph_paths": [],
+          "missing_word_ids": [],
+          "missing_detail_ids": [],
+          "folder": null
+        },
+        "2024": {
+          "official_ids": [
+            72860,
+            72877,
+            72959,
+            72996,
+            73045,
+            73049,
+            73476
+          ],
+          "status": "missing",
+          "graph_paths": [],
+          "missing_word_ids": [
+            72860,
+            72877,
+            72959,
+            72996,
+            73045,
+            73049,
+            73476
+          ],
+          "missing_detail_ids": [
+            72860,
+            72877,
+            72959,
+            72996,
+            73045,
+            73049,
+            73476
+          ],
+          "folder": null
+        },
+        "2025": {
+          "official_ids": [
+            96708,
+            96739,
+            97006,
+            97023,
+            97024,
+            97027,
+            97227,
+            97474,
+            138566,
+            151172,
+            153155,
+            153158,
+            153186
+          ],
+          "status": "missing",
+          "graph_paths": [],
+          "missing_word_ids": [
+            96708,
+            96739,
+            97006,
+            97023,
+            97024,
+            97027,
+            97227,
+            97474,
+            138566,
+            151172,
+            153155,
+            153158,
+            153186
+          ],
+          "missing_detail_ids": [
+            96708,
+            96739,
+            97006,
+            97023,
+            97024,
+            97027,
+            97227,
+            97474,
+            138566,
+            151172,
+            153155,
+            153158,
+            153186
+          ],
+          "folder": null
+        }
+      }
+    },
+    {
+      "department_id": 2615,
+      "name": "马克思主义学院",
+      "existing_branch": "research/chinese-sirpa-marxism-20261027",
+      "existing_folder": "research/contributions/departments-20261027/marxism",
+      "years": {
+        "2023": {
+          "official_ids": [
+            65505
+          ],
+          "status": "missing",
+          "graph_paths": [],
+          "missing_word_ids": [
+            65505
+          ],
+          "missing_detail_ids": [
+            65505
+          ],
+          "folder": null
+        },
+        "2024": {
+          "official_ids": [],
+          "status": "no_directory_entry",
+          "graph_paths": [],
+          "missing_word_ids": [],
+          "missing_detail_ids": [],
+          "folder": null
+        },
+        "2025": {
+          "official_ids": [
+            96671
+          ],
+          "status": "missing",
+          "graph_paths": [],
+          "missing_word_ids": [
+            96671
+          ],
+          "missing_detail_ids": [
+            96671
+          ],
+          "folder": null
+        }
+      }
+    },
+    {
+      "department_id": 2616,
+      "name": "体育教学部",
+      "existing_branch": null,
+      "existing_folder": null,
+      "years": {
+        "2023": {
+          "official_ids": [],
+          "status": "no_directory_entry",
+          "graph_paths": [],
+          "missing_word_ids": [],
+          "missing_detail_ids": [],
+          "folder": null
+        },
+        "2024": {
+          "official_ids": [
+            72664
+          ],
+          "status": "missing",
+          "graph_paths": [],
+          "missing_word_ids": [
+            72664
+          ],
+          "missing_detail_ids": [
+            72664
+          ],
+          "folder": null
+        },
+        "2025": {
+          "official_ids": [
+            96788
+          ],
+          "status": "missing",
+          "graph_paths": [],
+          "missing_word_ids": [
+            96788
+          ],
+          "missing_detail_ids": [
+            96788
+          ],
+          "folder": null
+        }
+      }
+    },
+    {
+      "department_id": 2620,
+      "name": "中国语言文学系",
+      "existing_branch": "chinese-2026-plans-2025fall-2026spring-reviews",
+      "existing_folder": "中文系历届培养方案/{y}级",
+      "years": {
+        "2023": {
+          "official_ids": [
+            67316,
+            67330,
+            67346,
+            67347,
+            67349,
+            67350,
+            67351
+          ],
+          "status": "complete",
+          "graph_paths": [
+            "中文系历届培养方案/2023级/课程关系.json"
+          ],
+          "missing_word_ids": [],
+          "missing_detail_ids": [],
+          "folder": "中文系历届培养方案/2023级"
+        },
+        "2024": {
+          "official_ids": [
+            72663,
+            72709,
+            72713,
+            72719,
+            72722,
+            72726,
+            72727,
+            72982
+          ],
+          "status": "complete",
+          "graph_paths": [
+            "中文系历届培养方案/2024级/课程关系.json"
+          ],
+          "missing_word_ids": [],
+          "missing_detail_ids": [],
+          "folder": "中文系历届培养方案/2024级"
+        },
+        "2025": {
+          "official_ids": [
+            96943,
+            96947,
+            96954,
+            96955,
+            96957,
+            96958,
+            96961,
+            96962,
+            97334,
+            140711,
+            151271
+          ],
+          "status": "complete",
+          "graph_paths": [
+            "中文系历届培养方案/2025级/课程关系.json"
+          ],
+          "missing_word_ids": [],
+          "missing_detail_ids": [],
+          "folder": "中文系历届培养方案/2025级"
+        }
+      }
+    },
+    {
+      "department_id": 2621,
+      "name": "新闻学院",
+      "existing_branch": "journalism-2026-plans-2025fall-2026spring-reviews",
+      "existing_folder": "research/contributions/journalism/cohorts-2023-2025/cohorts/{y}",
+      "years": {
+        "2023": {
+          "official_ids": [
+            67072,
+            67913,
+            67914,
+            67915,
+            67916,
+            67917,
+            67918,
+            67919,
+            73597,
+            73598
+          ],
+          "status": "complete",
+          "graph_paths": [
+            "research/contributions/journalism/cohorts-2023-2025/cohorts/2023/course-graph/graph.json"
+          ],
+          "missing_word_ids": [],
+          "missing_detail_ids": [],
+          "folder": "research/contributions/journalism/cohorts-2023-2025/cohorts/2023"
+        },
+        "2024": {
+          "official_ids": [
+            72811,
+            72812,
+            72813,
+            72817,
+            72825,
+            72826,
+            72827,
+            72828,
+            72861,
+            72978,
+            72979,
+            73374,
+            96633
+          ],
+          "status": "complete",
+          "graph_paths": [
+            "research/contributions/journalism/cohorts-2023-2025/cohorts/2024/course-graph/graph.json"
+          ],
+          "missing_word_ids": [],
+          "missing_detail_ids": [],
+          "folder": "research/contributions/journalism/cohorts-2023-2025/cohorts/2024"
+        },
+        "2025": {
+          "official_ids": [
+            96689,
+            97000,
+            97001,
+            97147,
+            97149,
+            97150,
+            97151,
+            97152,
+            97153,
+            97154,
+            97155,
+            97156,
+            97157,
+            97159,
+            97160,
+            97167,
+            97168,
+            97176,
+            97177,
+            97179,
+            97181,
+            97183,
+            97480,
+            97491,
+            130371,
+            147551,
+            147552,
+            147553,
+            147554
+          ],
+          "status": "complete",
+          "graph_paths": [
+            "research/contributions/journalism/cohorts-2023-2025/cohorts/2025/course-graph/graph.json"
+          ],
+          "missing_word_ids": [],
+          "missing_detail_ids": [],
+          "folder": "research/contributions/journalism/cohorts-2023-2025/cohorts/2025"
+        }
+      }
+    },
+    {
+      "department_id": 2623,
+      "name": "哲学学院",
+      "existing_branch": "research/philosophy-20261029",
+      "existing_folder": "research/contributions/philosophy-20261029/2023-2025级培养方案与图谱/{y}",
+      "years": {
+        "2023": {
+          "official_ids": [
+            67323,
+            67333,
+            67334,
+            67335,
+            67336,
+            67338,
+            67339,
+            67340,
+            67341,
+            67342,
+            67343,
+            105536,
+            147559
+          ],
+          "status": "complete",
+          "graph_paths": [
+            "research/contributions/philosophy-20261029/2023-2025级培养方案与图谱/2023/graph.json"
+          ],
+          "missing_word_ids": [],
+          "missing_detail_ids": [],
+          "folder": "research/contributions/philosophy-20261029/2023-2025级培养方案与图谱/2023"
+        },
+        "2024": {
+          "official_ids": [
+            72477,
+            72678,
+            72790,
+            72792,
+            72793,
+            72794,
+            72795,
+            72806,
+            72823,
+            72824,
+            72829,
+            72830,
+            72831,
+            72988,
+            72989,
+            140423
+          ],
+          "status": "complete",
+          "graph_paths": [
+            "research/contributions/philosophy-20261029/2023-2025级培养方案与图谱/2024/graph.json"
+          ],
+          "missing_word_ids": [],
+          "missing_detail_ids": [],
+          "folder": "research/contributions/philosophy-20261029/2023-2025级培养方案与图谱/2024"
+        },
+        "2025": {
+          "official_ids": [
+            96695,
+            96745,
+            96755,
+            96757,
+            96787,
+            96906,
+            97105,
+            97113,
+            97115,
+            97116,
+            97121,
+            97122,
+            97125,
+            97126,
+            97148,
+            98720,
+            98721
+          ],
+          "status": "complete",
+          "graph_paths": [
+            "research/contributions/philosophy-20261029/2023-2025级培养方案与图谱/2025/graph.json"
+          ],
+          "missing_word_ids": [],
+          "missing_detail_ids": [],
+          "folder": "research/contributions/philosophy-20261029/2023-2025级培养方案与图谱/2025"
+        }
+      }
+    },
+    {
+      "department_id": 2624,
+      "name": "国际关系与公共事务学院",
+      "existing_branch": "sirpa-course-reviews-2025fall-2026spring",
+      "existing_folder": "research/contributions/sirpa",
+      "years": {
+        "2023": {
+          "official_ids": [
+            67459,
+            67460,
+            67461,
+            67462,
+            67463,
+            67956
+          ],
+          "status": "missing",
+          "graph_paths": [],
+          "missing_word_ids": [
+            67459,
+            67460,
+            67461,
+            67462,
+            67463,
+            67956
+          ],
+          "missing_detail_ids": [
+            67459,
+            67460,
+            67461,
+            67462,
+            67463,
+            67956
+          ],
+          "folder": null
+        },
+        "2024": {
+          "official_ids": [
+            72699,
+            72762,
+            72763,
+            72764,
+            72766,
+            72767,
+            73251,
+            73271,
+            73538
+          ],
+          "status": "missing",
+          "graph_paths": [],
+          "missing_word_ids": [
+            72699,
+            72762,
+            72763,
+            72764,
+            72766,
+            72767,
+            73251,
+            73271,
+            73538
+          ],
+          "missing_detail_ids": [
+            72699,
+            72762,
+            72763,
+            72764,
+            72766,
+            72767,
+            73251,
+            73271,
+            73538
+          ],
+          "folder": null
+        },
+        "2025": {
+          "official_ids": [
+            96680,
+            96686,
+            96693,
+            96747,
+            96750,
+            96751,
+            96752,
+            96753,
+            96762,
+            96763,
+            96764,
+            96765,
+            96766,
+            96767,
+            96768,
+            96769,
+            96770,
+            96771,
+            96772,
+            96773,
+            96774,
+            96775,
+            96902,
+            102125
+          ],
+          "status": "missing",
+          "graph_paths": [],
+          "missing_word_ids": [
+            96680,
+            96686,
+            96693,
+            96747,
+            96750,
+            96751,
+            96752,
+            96753,
+            96762,
+            96763,
+            96764,
+            96765,
+            96766,
+            96767,
+            96768,
+            96769,
+            96770,
+            96771,
+            96772,
+            96773,
+            96774,
+            96775,
+            96902,
+            102125
+          ],
+          "missing_detail_ids": [
+            96680,
+            96686,
+            96693,
+            96747,
+            96750,
+            96751,
+            96752,
+            96753,
+            96762,
+            96763,
+            96764,
+            96765,
+            96766,
+            96767,
+            96768,
+            96769,
+            96770,
+            96771,
+            96772,
+            96773,
+            96774,
+            96775,
+            96902,
+            102125
+          ],
+          "folder": null
+        }
+      }
+    },
+    {
+      "department_id": 2626,
+      "name": "核科学与技术系",
+      "existing_branch": "main",
+      "existing_folder": "research/contributions/核科学与技术系",
+      "years": {
+        "2023": {
+          "official_ids": [
+            67294,
+            67318,
+            73415
+          ],
+          "status": "missing",
+          "graph_paths": [],
+          "missing_word_ids": [
+            67294,
+            67318,
+            73415
+          ],
+          "missing_detail_ids": [
+            67294,
+            67318,
+            73415
+          ],
+          "folder": null
+        },
+        "2024": {
+          "official_ids": [
+            72837,
+            72858,
+            72859,
+            72918,
+            73414,
+            138639
+          ],
+          "status": "missing",
+          "graph_paths": [],
+          "missing_word_ids": [
+            72837,
+            72858,
+            72859,
+            72918,
+            73414,
+            138639
+          ],
+          "missing_detail_ids": [
+            72837,
+            72858,
+            72859,
+            72918,
+            73414,
+            138639
+          ],
+          "folder": null
+        },
+        "2025": {
+          "official_ids": [
+            96690,
+            97095,
+            97096,
+            97128,
+            97129,
+            97139,
+            97170,
+            150331,
+            156394
+          ],
+          "status": "missing",
+          "graph_paths": [],
+          "missing_word_ids": [
+            96690,
+            97095,
+            97096,
+            97128,
+            97129,
+            97139,
+            97170,
+            150331,
+            156394
+          ],
+          "missing_detail_ids": [
+            96690,
+            97095,
+            97096,
+            97128,
+            97129,
+            97139,
+            97170,
+            150331,
+            156394
+          ],
+          "folder": null
+        }
+      }
+    },
+    {
+      "department_id": 2628,
+      "name": "国际文化交流学院",
+      "existing_branch": "research/ices-2025autumn-2026spring-20261030",
+      "existing_folder": "research/contributions/ices",
+      "years": {
+        "2023": {
+          "official_ids": [],
+          "status": "no_directory_entry",
+          "graph_paths": [],
+          "missing_word_ids": [],
+          "missing_detail_ids": [],
+          "folder": null
+        },
+        "2024": {
+          "official_ids": [
+            72720,
+            72721
+          ],
+          "status": "missing",
+          "graph_paths": [],
+          "missing_word_ids": [
+            72720,
+            72721
+          ],
+          "missing_detail_ids": [
+            72720,
+            72721
+          ],
+          "folder": null
+        },
+        "2025": {
+          "official_ids": [
+            96709,
+            96741
+          ],
+          "status": "missing",
+          "graph_paths": [],
+          "missing_word_ids": [
+            96709,
+            96741
+          ],
+          "missing_detail_ids": [
+            96709,
+            96741
+          ],
+          "folder": null
+        }
+      }
+    },
+    {
+      "department_id": 3367,
+      "name": "经济管理试验班",
+      "existing_branch": null,
+      "existing_folder": null,
+      "years": {
+        "2023": {
+          "official_ids": [],
+          "status": "no_directory_entry",
+          "graph_paths": [],
+          "missing_word_ids": [],
+          "missing_detail_ids": [],
+          "folder": null
+        },
+        "2024": {
+          "official_ids": [
+            73010
+          ],
+          "status": "missing",
+          "graph_paths": [],
+          "missing_word_ids": [
+            73010
+          ],
+          "missing_detail_ids": [
+            73010
+          ],
+          "folder": null
+        },
+        "2025": {
+          "official_ids": [],
+          "status": "no_directory_entry",
+          "graph_paths": [],
+          "missing_word_ids": [],
+          "missing_detail_ids": [],
+          "folder": null
+        }
+      }
+    },
+    {
+      "department_id": 3368,
+      "name": "自然科学试验班",
+      "existing_branch": null,
+      "existing_folder": null,
+      "years": {
+        "2023": {
+          "official_ids": [],
+          "status": "no_directory_entry",
+          "graph_paths": [],
+          "missing_word_ids": [],
+          "missing_detail_ids": [],
+          "folder": null
+        },
+        "2024": {
+          "official_ids": [
+            72969
+          ],
+          "status": "missing",
+          "graph_paths": [],
+          "missing_word_ids": [
+            72969
+          ],
+          "missing_detail_ids": [
+            72969
+          ],
+          "folder": null
+        },
+        "2025": {
+          "official_ids": [],
+          "status": "no_directory_entry",
+          "graph_paths": [],
+          "missing_word_ids": [],
+          "missing_detail_ids": [],
+          "folder": null
+        }
+      }
+    },
+    {
+      "department_id": 3372,
+      "name": "基础医学院",
+      "existing_branch": null,
+      "existing_folder": null,
+      "years": {
+        "2023": {
+          "official_ids": [],
+          "status": "no_directory_entry",
+          "graph_paths": [],
+          "missing_word_ids": [],
+          "missing_detail_ids": [],
+          "folder": null
+        },
+        "2024": {
+          "official_ids": [],
+          "status": "no_directory_entry",
+          "graph_paths": [],
+          "missing_word_ids": [],
+          "missing_detail_ids": [],
+          "folder": null
+        },
+        "2025": {
+          "official_ids": [
+            96685,
+            96998,
+            97230,
+            99838
+          ],
+          "status": "missing",
+          "graph_paths": [],
+          "missing_word_ids": [
+            96685,
+            96998,
+            97230,
+            99838
+          ],
+          "missing_detail_ids": [
+            96685,
+            96998,
+            97230,
+            99838
+          ],
+          "folder": null
+        }
+      }
+    },
+    {
+      "department_id": 3373,
+      "name": "临床医学院",
+      "existing_branch": null,
+      "existing_folder": null,
+      "years": {
+        "2023": {
+          "official_ids": [
+            68054,
+            68115,
+            68116,
+            68117
+          ],
+          "status": "missing",
+          "graph_paths": [],
+          "missing_word_ids": [
+            68054,
+            68115,
+            68116,
+            68117
+          ],
+          "missing_detail_ids": [
+            68054,
+            68115,
+            68116,
+            68117
+          ],
+          "folder": null
+        },
+        "2024": {
+          "official_ids": [
+            73006,
+            73009,
+            73037,
+            73050,
+            73054,
+            73060,
+            73063
+          ],
+          "status": "missing",
+          "graph_paths": [],
+          "missing_word_ids": [
+            73006,
+            73009,
+            73037,
+            73050,
+            73054,
+            73060,
+            73063
+          ],
+          "missing_detail_ids": [
+            73006,
+            73009,
+            73037,
+            73050,
+            73054,
+            73060,
+            73063
+          ],
+          "folder": null
+        },
+        "2025": {
+          "official_ids": [
+            97472,
+            97473,
+            97575,
+            98488,
+            98919,
+            100426,
+            102936,
+            102937,
+            102938,
+            102939,
+            131813
+          ],
+          "status": "missing",
+          "graph_paths": [],
+          "missing_word_ids": [
+            97472,
+            97473,
+            97575,
+            98488,
+            98919,
+            100426,
+            102936,
+            102937,
+            102938,
+            102939,
+            131813
+          ],
+          "missing_detail_ids": [
+            97472,
+            97473,
+            97575,
+            98488,
+            98919,
+            100426,
+            102936,
+            102937,
+            102938,
+            102939,
+            131813
+          ],
+          "folder": null
+        }
+      }
+    },
+    {
+      "department_id": 3381,
+      "name": "大数据学院",
+      "existing_branch": "research/bigdata-2026-20261028",
+      "existing_folder": "research/bigdata-20261028",
+      "years": {
+        "2023": {
+          "official_ids": [],
+          "status": "no_directory_entry",
+          "graph_paths": [],
+          "missing_word_ids": [],
+          "missing_detail_ids": [],
+          "folder": null
+        },
+        "2024": {
+          "official_ids": [
+            72617
+          ],
+          "status": "missing",
+          "graph_paths": [],
+          "missing_word_ids": [
+            72617
+          ],
+          "missing_detail_ids": [
+            72617
+          ],
+          "folder": null
+        },
+        "2025": {
+          "official_ids": [
+            96678,
+            96910,
+            96993,
+            97084,
+            97094
+          ],
+          "status": "missing",
+          "graph_paths": [],
+          "missing_word_ids": [
+            96678,
+            96910,
+            96993,
+            97084,
+            97094
+          ],
+          "missing_detail_ids": [
+            96678,
+            96910,
+            96993,
+            97084,
+            97094
+          ],
+          "folder": null
+        }
+      }
+    },
+    {
+      "department_id": 4362,
+      "name": "大气与海洋科学系",
+      "existing_branch": null,
+      "existing_folder": null,
+      "years": {
+        "2023": {
+          "official_ids": [
+            67432
+          ],
+          "status": "missing",
+          "graph_paths": [],
+          "missing_word_ids": [
+            67432
+          ],
+          "missing_detail_ids": [
+            67432
+          ],
+          "folder": null
+        },
+        "2024": {
+          "official_ids": [
+            72711,
+            73192,
+            73311
+          ],
+          "status": "missing",
+          "graph_paths": [],
+          "missing_word_ids": [
+            72711,
+            73192,
+            73311
+          ],
+          "missing_detail_ids": [
+            72711,
+            73192,
+            73311
+          ],
+          "folder": null
+        },
+        "2025": {
+          "official_ids": [
+            96682,
+            96795,
+            97178,
+            97225
+          ],
+          "status": "missing",
+          "graph_paths": [],
+          "missing_word_ids": [
+            96682,
+            96795,
+            97178,
+            97225
+          ],
+          "missing_detail_ids": [
+            96682,
+            96795,
+            97178,
+            97225
+          ],
+          "folder": null
+        }
+      }
+    },
+    {
+      "department_id": 4402,
+      "name": "预科",
+      "existing_branch": null,
+      "existing_folder": null,
+      "years": {
+        "2023": {
+          "official_ids": [],
+          "status": "no_directory_entry",
+          "graph_paths": [],
+          "missing_word_ids": [],
+          "missing_detail_ids": [],
+          "folder": null
+        },
+        "2024": {
+          "official_ids": [],
+          "status": "no_directory_entry",
+          "graph_paths": [],
+          "missing_word_ids": [],
+          "missing_detail_ids": [],
+          "folder": null
+        },
+        "2025": {
+          "official_ids": [
+            98034
+          ],
+          "status": "missing",
+          "graph_paths": [],
+          "missing_word_ids": [
+            98034
+          ],
+          "missing_detail_ids": [
+            98034
+          ],
+          "folder": null
+        }
+      }
+    },
+    {
+      "department_id": 4442,
+      "name": "国际金融学院",
+      "existing_branch": null,
+      "existing_folder": null,
+      "years": {
+        "2023": {
+          "official_ids": [
+            67293,
+            67317,
+            67319
+          ],
+          "status": "missing",
+          "graph_paths": [],
+          "missing_word_ids": [
+            67293,
+            67317,
+            67319
+          ],
+          "missing_detail_ids": [
+            67293,
+            67317,
+            67319
+          ],
+          "folder": null
+        },
+        "2024": {
+          "official_ids": [
+            72457,
+            72661,
+            72662
+          ],
+          "status": "missing",
+          "graph_paths": [],
+          "missing_word_ids": [
+            72457,
+            72661,
+            72662
+          ],
+          "missing_detail_ids": [
+            72457,
+            72661,
+            72662
+          ],
+          "folder": null
+        },
+        "2025": {
+          "official_ids": [
+            96703,
+            96731,
+            96732
+          ],
+          "status": "missing",
+          "graph_paths": [],
+          "missing_word_ids": [
+            96703,
+            96731,
+            96732
+          ],
+          "missing_detail_ids": [
+            96703,
+            96731,
+            96732
+          ],
+          "folder": null
+        }
+      }
+    },
+    {
+      "department_id": 5042,
+      "name": "口腔医学院",
+      "existing_branch": null,
+      "existing_folder": null,
+      "years": {
+        "2023": {
+          "official_ids": [],
+          "status": "no_directory_entry",
+          "graph_paths": [],
+          "missing_word_ids": [],
+          "missing_detail_ids": [],
+          "folder": null
+        },
+        "2024": {
+          "official_ids": [
+            72696,
+            73041,
+            73042
+          ],
+          "status": "missing",
+          "graph_paths": [],
+          "missing_word_ids": [
+            72696,
+            73041,
+            73042
+          ],
+          "missing_detail_ids": [
+            72696,
+            73041,
+            73042
+          ],
+          "folder": null
+        },
+        "2025": {
+          "official_ids": [
+            96672,
+            96718,
+            96953,
+            97086,
+            97395,
+            151154,
+            159559
+          ],
+          "status": "missing",
+          "graph_paths": [],
+          "missing_word_ids": [
+            96672,
+            96718,
+            96953,
+            97086,
+            97395,
+            151154,
+            159559
+          ],
+          "missing_detail_ids": [
+            96672,
+            96718,
+            96953,
+            97086,
+            97395,
+            151154,
+            159559
+          ],
+          "folder": null
+        }
+      }
+    },
+    {
+      "department_id": 5142,
+      "name": "智能机器人与先进制造创新学院",
+      "existing_branch": "main",
+      "existing_folder": "research/contributions/智能机器人与先进制造创新学院",
+      "years": {
+        "2023": {
+          "official_ids": [
+            67394,
+            67395,
+            67399,
+            67400,
+            67442,
+            67443,
+            73603,
+            96922
+          ],
+          "status": "missing",
+          "graph_paths": [],
+          "missing_word_ids": [
+            67394,
+            67395,
+            67399,
+            67400,
+            67442,
+            67443,
+            73603,
+            96922
+          ],
+          "missing_detail_ids": [
+            67394,
+            67395,
+            67399,
+            67400,
+            67442,
+            67443,
+            73603,
+            96922
+          ],
+          "folder": null
+        },
+        "2024": {
+          "official_ids": [
+            72560,
+            72561,
+            72686,
+            72687,
+            72862,
+            72983,
+            73046,
+            73062,
+            73213,
+            73291,
+            96949
+          ],
+          "status": "missing",
+          "graph_paths": [],
+          "missing_word_ids": [
+            72560,
+            72561,
+            72686,
+            72687,
+            72862,
+            72983,
+            73046,
+            73062,
+            73213,
+            73291,
+            96949
+          ],
+          "missing_detail_ids": [
+            72560,
+            72561,
+            72686,
+            72687,
+            72862,
+            72983,
+            73046,
+            73062,
+            73213,
+            73291,
+            96949
+          ],
+          "folder": null
+        },
+        "2025": {
+          "official_ids": [
+            97033,
+            97074,
+            97076,
+            97144,
+            97216,
+            98144,
+            98146,
+            151311,
+            153101
+          ],
+          "status": "missing",
+          "graph_paths": [],
+          "missing_word_ids": [
+            97033,
+            97074,
+            97076,
+            97144,
+            97216,
+            98144,
+            98146,
+            151311,
+            153101
+          ],
+          "missing_detail_ids": [
+            97033,
+            97074,
+            97076,
+            97144,
+            97216,
+            98144,
+            98146,
+            151311,
+            153101
+          ],
+          "folder": null
+        }
+      }
+    },
+    {
+      "department_id": 5143,
+      "name": "生物医学工程与技术创新学院",
+      "existing_branch": "main",
+      "existing_folder": "research/contributions/生物医学工程与技术创新学院",
+      "years": {
+        "2023": {
+          "official_ids": [
+            67438
+          ],
+          "status": "missing",
+          "graph_paths": [],
+          "missing_word_ids": [
+            67438
+          ],
+          "missing_detail_ids": [
+            67438
+          ],
+          "folder": null
+        },
+        "2024": {
+          "official_ids": [
+            73057,
+            124035
+          ],
+          "status": "missing",
+          "graph_paths": [],
+          "missing_word_ids": [
+            73057,
+            124035
+          ],
+          "missing_detail_ids": [
+            73057,
+            124035
+          ],
+          "folder": null
+        },
+        "2025": {
+          "official_ids": [
+            97259,
+            97375
+          ],
+          "status": "missing",
+          "graph_paths": [],
+          "missing_word_ids": [
+            97259,
+            97375
+          ],
+          "missing_detail_ids": [
+            97259,
+            97375
+          ],
+          "folder": null
+        }
+      }
+    },
+    {
+      "department_id": 5144,
+      "name": "计算与智能创新学院",
+      "existing_branch": null,
+      "existing_folder": null,
+      "years": {
+        "2023": {
+          "official_ids": [
+            67436,
+            67453,
+            67455
+          ],
+          "status": "missing",
+          "graph_paths": [],
+          "missing_word_ids": [
+            67436,
+            67453,
+            67455
+          ],
+          "missing_detail_ids": [
+            67436,
+            67453,
+            67455
+          ],
+          "folder": null
+        },
+        "2024": {
+          "official_ids": [
+            72517,
+            72558,
+            72665,
+            72677,
+            72679,
+            72695,
+            72697,
+            72755,
+            72960,
+            72974,
+            73044,
+            73052,
+            73076,
+            159182
+          ],
+          "status": "missing",
+          "graph_paths": [],
+          "missing_word_ids": [
+            72517,
+            72558,
+            72665,
+            72677,
+            72679,
+            72695,
+            72697,
+            72755,
+            72960,
+            72974,
+            73044,
+            73052,
+            73076,
+            159182
+          ],
+          "missing_detail_ids": [
+            72517,
+            72558,
+            72665,
+            72677,
+            72679,
+            72695,
+            72697,
+            72755,
+            72960,
+            72974,
+            73044,
+            73052,
+            73076,
+            159182
+          ],
+          "folder": null
+        },
+        "2025": {
+          "official_ids": [
+            96700,
+            96930,
+            96942,
+            96985,
+            96991,
+            97015,
+            97078,
+            97087,
+            97117,
+            97134,
+            97135,
+            97136,
+            97137,
+            97138,
+            97142,
+            98114,
+            98145,
+            98147,
+            159365
+          ],
+          "status": "missing",
+          "graph_paths": [],
+          "missing_word_ids": [
+            96700,
+            96930,
+            96942,
+            96985,
+            96991,
+            97015,
+            97078,
+            97087,
+            97117,
+            97134,
+            97135,
+            97136,
+            97137,
+            97138,
+            97142,
+            98114,
+            98145,
+            98147,
+            159365
+          ],
+          "missing_detail_ids": [
+            96700,
+            96930,
+            96942,
+            96985,
+            96991,
+            97015,
+            97078,
+            97087,
+            97117,
+            97134,
+            97135,
+            97136,
+            97137,
+            97138,
+            97142,
+            98114,
+            98145,
+            98147,
+            159365
+          ],
+          "folder": null
+        }
+      }
+    },
+    {
+      "department_id": 5222,
+      "name": "集成电路与微纳电子创新学院",
+      "existing_branch": "main",
+      "existing_folder": "research/contributions/集成电路与微纳电子创新学院",
+      "years": {
+        "2023": {
+          "official_ids": [
+            67402
+          ],
+          "status": "missing",
+          "graph_paths": [],
+          "missing_word_ids": [
+            67402
+          ],
+          "missing_detail_ids": [
+            67402
+          ],
+          "folder": null
+        },
+        "2024": {
+          "official_ids": [
+            72984
+          ],
+          "status": "missing",
+          "graph_paths": [],
+          "missing_word_ids": [
+            72984
+          ],
+          "missing_detail_ids": [
+            72984
+          ],
+          "folder": null
+        },
+        "2025": {
+          "official_ids": [
+            96702,
+            97007,
+            97141
+          ],
+          "status": "missing",
+          "graph_paths": [],
+          "missing_word_ids": [
+            96702,
+            97007,
+            97141
+          ],
+          "missing_detail_ids": [
+            96702,
+            97007,
+            97141
+          ],
+          "folder": null
+        }
+      }
+    },
+    {
+      "department_id": 5223,
+      "name": "未来信息创新学院",
+      "existing_branch": "main",
+      "existing_folder": "research/contributions/未来信息创新学院",
+      "years": {
+        "2023": {
+          "official_ids": [
+            67420,
+            67439,
+            67440,
+            67441,
+            68437,
+            72427
+          ],
+          "status": "missing",
+          "graph_paths": [],
+          "missing_word_ids": [
+            67420,
+            67439,
+            67440,
+            67441,
+            68437,
+            72427
+          ],
+          "missing_detail_ids": [
+            67420,
+            67439,
+            67440,
+            67441,
+            68437,
+            72427
+          ],
+          "folder": null
+        },
+        "2024": {
+          "official_ids": [
+            72680,
+            72683,
+            72685,
+            73015,
+            73040
+          ],
+          "status": "missing",
+          "graph_paths": [],
+          "missing_word_ids": [
+            72680,
+            72683,
+            72685,
+            73015,
+            73040
+          ],
+          "missing_detail_ids": [
+            72680,
+            72683,
+            72685,
+            73015,
+            73040
+          ],
+          "folder": null
+        },
+        "2025": {
+          "official_ids": [
+            96974,
+            96994,
+            97003,
+            97005,
+            97030,
+            97031,
+            97047,
+            97052,
+            97053,
+            97054,
+            97055,
+            97057,
+            97059,
+            97060,
+            97130,
+            97140,
+            97378,
+            97379,
+            97380,
+            97381,
+            97382,
+            97385,
+            97386,
+            97387,
+            97388,
+            97389,
+            97394,
+            97403,
+            97424,
+            97466,
+            97876,
+            151155
+          ],
+          "status": "missing",
+          "graph_paths": [],
+          "missing_word_ids": [
+            96974,
+            96994,
+            97003,
+            97005,
+            97030,
+            97031,
+            97047,
+            97052,
+            97053,
+            97054,
+            97055,
+            97057,
+            97059,
+            97060,
+            97130,
+            97140,
+            97378,
+            97379,
+            97380,
+            97381,
+            97382,
+            97385,
+            97386,
+            97387,
+            97388,
+            97389,
+            97394,
+            97403,
+            97424,
+            97466,
+            97876,
+            151155
+          ],
+          "missing_detail_ids": [
+            96974,
+            96994,
+            97003,
+            97005,
+            97030,
+            97031,
+            97047,
+            97052,
+            97053,
+            97054,
+            97055,
+            97057,
+            97059,
+            97060,
+            97130,
+            97140,
+            97378,
+            97379,
+            97380,
+            97381,
+            97382,
+            97385,
+            97386,
+            97387,
+            97388,
+            97389,
+            97394,
+            97403,
+            97424,
+            97466,
+            97876,
+            151155
+          ],
+          "folder": null
+        }
+      }
+    },
+    {
+      "department_id": 5224,
+      "name": "智能材料与未来能源创新学院",
+      "existing_branch": "main",
+      "existing_folder": "research/contributions/智能材料与未来能源创新学院",
+      "years": {
+        "2023": {
+          "official_ids": [
+            67358,
+            67361,
+            67364,
+            67365,
+            67369,
+            67370
+          ],
+          "status": "missing",
+          "graph_paths": [],
+          "missing_word_ids": [
+            67358,
+            67361,
+            67364,
+            67365,
+            67369,
+            67370
+          ],
+          "missing_detail_ids": [
+            67358,
+            67361,
+            67364,
+            67365,
+            67369,
+            67370
+          ],
+          "folder": null
+        },
+        "2024": {
+          "official_ids": [
+            72715,
+            72730,
+            72733
+          ],
+          "status": "missing",
+          "graph_paths": [],
+          "missing_word_ids": [
+            72715,
+            72730,
+            72733
+          ],
+          "missing_detail_ids": [
+            72715,
+            72730,
+            72733
+          ],
+          "folder": null
+        },
+        "2025": {
+          "official_ids": [
+            96697,
+            96722,
+            96730,
+            96733,
+            96734,
+            96735,
+            96737,
+            96742,
+            96743,
+            96744,
+            96746,
+            96779,
+            96780,
+            96781,
+            96782,
+            97371,
+            97457,
+            97458,
+            97459,
+            97476,
+            98723,
+            98724,
+            154414
+          ],
+          "status": "missing",
+          "graph_paths": [],
+          "missing_word_ids": [
+            96697,
+            96722,
+            96730,
+            96733,
+            96734,
+            96735,
+            96737,
+            96742,
+            96743,
+            96744,
+            96746,
+            96779,
+            96780,
+            96781,
+            96782,
+            97371,
+            97457,
+            97458,
+            97459,
+            97476,
+            98723,
+            98724,
+            154414
+          ],
+          "missing_detail_ids": [
+            96697,
+            96722,
+            96730,
+            96733,
+            96734,
+            96735,
+            96737,
+            96742,
+            96743,
+            96744,
+            96746,
+            96779,
+            96780,
+            96781,
+            96782,
+            97371,
+            97457,
+            97458,
+            97459,
+            97476,
+            98723,
+            98724,
+            154414
+          ],
+          "folder": null
+        }
+      }
+    },
+    {
+      "department_id": 5264,
+      "name": "法医学与法庭科学学院",
+      "existing_branch": null,
+      "existing_folder": null,
+      "years": {
+        "2023": {
+          "official_ids": [],
+          "status": "no_directory_entry",
+          "graph_paths": [],
+          "missing_word_ids": [],
+          "missing_detail_ids": [],
+          "folder": null
+        },
+        "2024": {
+          "official_ids": [
+            72822
+          ],
+          "status": "missing",
+          "graph_paths": [],
+          "missing_word_ids": [
+            72822
+          ],
+          "missing_detail_ids": [
+            72822
+          ],
+          "folder": null
+        },
+        "2025": {
+          "official_ids": [
+            97399
+          ],
+          "status": "missing",
+          "graph_paths": [],
+          "missing_word_ids": [
+            97399
+          ],
+          "missing_detail_ids": [
+            97399
+          ],
+          "folder": null
+        }
+      }
+    }
+  ]
+}

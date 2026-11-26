@@ -1,0 +1,10 @@
+{
+  "directory_source": "https://fdjwgl.fudan.edu.cn/manager/bizType/2/page-center/major-program-search-view",
+  "directory_method": "GET public search once per page, by grade; validate distinct IDs and totalRows.",
+  "detail_method": "Request /major-program-search/info/{id}?skipAuth=1 or reuse a previously archived public response after grade, department, title and ID checks.",
+  "detail_representation": "Compact UTF-8 JSON preserving response values, gzip compressed. The archive SHA-256 covers compressed bytes.",
+  "word_method": "POST /major-program-search/export-word with form ids={id}, or reuse previously downloaded bytes. Validate ZIP CRC and the matching programme title in word/document.xml.",
+  "dates": "date_snapshot denotes the local collection date. Reused originals may have been exported earlier. The publication or effective date is a separate field of each official plan.",
+  "identity": "Use each directory row's DEPART_IDS and DEPART_NAME; keep minor, honours, international and integrated variants under their own programme IDs.",
+  "absence": "A missing year in this public directory means zero matching directory rows at collection time."
+}

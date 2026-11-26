@@ -1,0 +1,2790 @@
+{
+  "expected_schools": 41,
+  "expected_groups": 104,
+  "expected_plans": 798,
+  "covered_schools": 41,
+  "totals": {
+    "groups": 104,
+    "plans": 798,
+    "course_rows": 133472,
+    "unresolved_mentions": 16,
+    "verified_files": 1596,
+    "recommended_preparation": 5161,
+    "term_order": 2923,
+    "content": 10509,
+    "official_sequence": 12
+  },
+  "zero_pairs": [],
+  "groups": [
+    {
+      "school": "中国语言文学系",
+      "year": 2023,
+      "ids": [
+        "67316",
+        "67330",
+        "67346",
+        "67347",
+        "67349",
+        "67350",
+        "67351"
+      ],
+      "relative_path": "data/中国语言文学系/2023",
+      "plans": 7,
+      "courses": 566,
+      "course_rows": 1612,
+      "relations_by_type": {
+        "recommended_preparation": 80,
+        "term_order": 50,
+        "content": 145
+      },
+      "uncoded_rows": 0,
+      "module_groups": 22,
+      "unresolved_mentions": 0,
+      "verified_files": 14
+    },
+    {
+      "school": "中国语言文学系",
+      "year": 2024,
+      "ids": [
+        "72663",
+        "72709",
+        "72713",
+        "72719",
+        "72722",
+        "72726",
+        "72727",
+        "72982"
+      ],
+      "relative_path": "data/中国语言文学系/2024",
+      "plans": 8,
+      "courses": 268,
+      "course_rows": 1505,
+      "relations_by_type": {
+        "recommended_preparation": 82,
+        "term_order": 58,
+        "content": 164
+      },
+      "uncoded_rows": 0,
+      "module_groups": 15,
+      "unresolved_mentions": 0,
+      "verified_files": 16
+    },
+    {
+      "school": "中国语言文学系",
+      "year": 2025,
+      "ids": [
+        "140711",
+        "151271",
+        "96943",
+        "96947",
+        "96954",
+        "96955",
+        "96957",
+        "96958",
+        "96961",
+        "96962",
+        "97334"
+      ],
+      "relative_path": "data/中国语言文学系/2025",
+      "plans": 11,
+      "courses": 333,
+      "course_rows": 1308,
+      "relations_by_type": {
+        "recommended_preparation": 84,
+        "term_order": 69,
+        "content": 204
+      },
+      "uncoded_rows": 0,
+      "module_groups": 15,
+      "unresolved_mentions": 0,
+      "verified_files": 22
+    },
+    {
+      "school": "临床医学院",
+      "year": 2023,
+      "ids": [
+        "68054",
+        "68115",
+        "68116",
+        "68117"
+      ],
+      "relative_path": "data/临床医学院/2023",
+      "plans": 4,
+      "courses": 1055,
+      "course_rows": 8935,
+      "relations_by_type": {
+        "content": 325,
+        "recommended_preparation": 132,
+        "term_order": 10
+      },
+      "uncoded_rows": 0,
+      "module_groups": 29,
+      "unresolved_mentions": 0,
+      "verified_files": 8
+    },
+    {
+      "school": "临床医学院",
+      "year": 2024,
+      "ids": [
+        "73006",
+        "73009",
+        "73037",
+        "73050",
+        "73054",
+        "73060",
+        "73063"
+      ],
+      "relative_path": "data/临床医学院/2024",
+      "plans": 7,
+      "courses": 1125,
+      "course_rows": 12429,
+      "relations_by_type": {
+        "content": 462,
+        "recommended_preparation": 197,
+        "term_order": 30
+      },
+      "uncoded_rows": 0,
+      "module_groups": 48,
+      "unresolved_mentions": 0,
+      "verified_files": 14
+    },
+    {
+      "school": "临床医学院",
+      "year": 2025,
+      "ids": [
+        "100426",
+        "102936",
+        "102937",
+        "102938",
+        "102939",
+        "131813",
+        "97472",
+        "97473",
+        "97575",
+        "98488",
+        "98919"
+      ],
+      "relative_path": "data/临床医学院/2025",
+      "plans": 11,
+      "courses": 286,
+      "course_rows": 1241,
+      "relations_by_type": {
+        "content": 173,
+        "recommended_preparation": 100,
+        "term_order": 87
+      },
+      "uncoded_rows": 0,
+      "module_groups": 17,
+      "unresolved_mentions": 0,
+      "verified_files": 22
+    },
+    {
+      "school": "体育教学部",
+      "year": 2024,
+      "ids": [
+        "72664"
+      ],
+      "relative_path": "data/体育教学部/2024",
+      "plans": 1,
+      "courses": 74,
+      "course_rows": 74,
+      "relations_by_type": {
+        "recommended_preparation": 7,
+        "content": 5
+      },
+      "uncoded_rows": 0,
+      "module_groups": 7,
+      "unresolved_mentions": 0,
+      "verified_files": 2
+    },
+    {
+      "school": "体育教学部",
+      "year": 2025,
+      "ids": [
+        "96788"
+      ],
+      "relative_path": "data/体育教学部/2025",
+      "plans": 1,
+      "courses": 74,
+      "course_rows": 74,
+      "relations_by_type": {
+        "recommended_preparation": 8,
+        "term_order": 8,
+        "content": 5
+      },
+      "uncoded_rows": 0,
+      "module_groups": 6,
+      "unresolved_mentions": 0,
+      "verified_files": 2
+    },
+    {
+      "school": "公共卫生学院",
+      "year": 2024,
+      "ids": [
+        "72688",
+        "72690",
+        "72693",
+        "72992",
+        "72993"
+      ],
+      "relative_path": "data/公共卫生学院/2024",
+      "plans": 5,
+      "courses": 216,
+      "course_rows": 629,
+      "relations_by_type": {
+        "content": 97,
+        "recommended_preparation": 34,
+        "term_order": 12
+      },
+      "uncoded_rows": 0,
+      "module_groups": 12,
+      "unresolved_mentions": 0,
+      "verified_files": 10
+    },
+    {
+      "school": "公共卫生学院",
+      "year": 2025,
+      "ids": [
+        "96687",
+        "97013",
+        "97014",
+        "97016",
+        "97017",
+        "97018"
+      ],
+      "relative_path": "data/公共卫生学院/2025",
+      "plans": 6,
+      "courses": 318,
+      "course_rows": 796,
+      "relations_by_type": {
+        "content": 99,
+        "recommended_preparation": 38,
+        "term_order": 21
+      },
+      "uncoded_rows": 0,
+      "module_groups": 13,
+      "unresolved_mentions": 0,
+      "verified_files": 12
+    },
+    {
+      "school": "化学系",
+      "year": 2023,
+      "ids": [
+        "67313",
+        "67314",
+        "67426",
+        "67733",
+        "67734"
+      ],
+      "relative_path": "data/化学系/2023",
+      "plans": 5,
+      "courses": 230,
+      "course_rows": 1013,
+      "relations_by_type": {
+        "recommended_preparation": 69,
+        "term_order": 37,
+        "content": 97
+      },
+      "uncoded_rows": 0,
+      "module_groups": 33,
+      "unresolved_mentions": 0,
+      "verified_files": 10
+    },
+    {
+      "school": "化学系",
+      "year": 2024,
+      "ids": [
+        "140426",
+        "150358",
+        "72597",
+        "72682",
+        "72691",
+        "72710",
+        "72987",
+        "73171",
+        "78951"
+      ],
+      "relative_path": "data/化学系/2024",
+      "plans": 9,
+      "courses": 417,
+      "course_rows": 1410,
+      "relations_by_type": {
+        "recommended_preparation": 93,
+        "term_order": 65,
+        "content": 113
+      },
+      "uncoded_rows": 0,
+      "module_groups": 18,
+      "unresolved_mentions": 0,
+      "verified_files": 18
+    },
+    {
+      "school": "化学系",
+      "year": 2025,
+      "ids": [
+        "150332",
+        "151312",
+        "96683",
+        "97169",
+        "97182",
+        "97188",
+        "97191",
+        "97192",
+        "97202",
+        "97205",
+        "97338"
+      ],
+      "relative_path": "data/化学系/2025",
+      "plans": 11,
+      "courses": 585,
+      "course_rows": 1989,
+      "relations_by_type": {
+        "recommended_preparation": 86,
+        "term_order": 85,
+        "content": 137
+      },
+      "uncoded_rows": 0,
+      "module_groups": 14,
+      "unresolved_mentions": 0,
+      "verified_files": 22
+    },
+    {
+      "school": "历史学系",
+      "year": 2023,
+      "ids": [
+        "67533",
+        "73588",
+        "73590",
+        "73591"
+      ],
+      "relative_path": "data/历史学系/2023",
+      "plans": 4,
+      "courses": 207,
+      "course_rows": 1253,
+      "relations_by_type": {
+        "recommended_preparation": 52,
+        "term_order": 12,
+        "content": 24
+      },
+      "uncoded_rows": 0,
+      "module_groups": 64,
+      "unresolved_mentions": 0,
+      "verified_files": 8
+    },
+    {
+      "school": "历史学系",
+      "year": 2024,
+      "ids": [
+        "146821",
+        "72577",
+        "72911",
+        "72916"
+      ],
+      "relative_path": "data/历史学系/2024",
+      "plans": 4,
+      "courses": 577,
+      "course_rows": 1591,
+      "relations_by_type": {
+        "recommended_preparation": 48,
+        "term_order": 12,
+        "content": 27
+      },
+      "uncoded_rows": 0,
+      "module_groups": 55,
+      "unresolved_mentions": 0,
+      "verified_files": 8
+    },
+    {
+      "school": "历史学系",
+      "year": 2025,
+      "ids": [
+        "151091",
+        "96790",
+        "97390",
+        "97392",
+        "98148",
+        "98153"
+      ],
+      "relative_path": "data/历史学系/2025",
+      "plans": 6,
+      "courses": 750,
+      "course_rows": 1927,
+      "relations_by_type": {
+        "recommended_preparation": 62,
+        "term_order": 22,
+        "content": 48
+      },
+      "uncoded_rows": 0,
+      "module_groups": 59,
+      "unresolved_mentions": 0,
+      "verified_files": 12
+    },
+    {
+      "school": "口腔医学院",
+      "year": 2024,
+      "ids": [
+        "72696",
+        "73041",
+        "73042"
+      ],
+      "relative_path": "data/口腔医学院/2024",
+      "plans": 3,
+      "courses": 89,
+      "course_rows": 213,
+      "relations_by_type": {
+        "content": 61,
+        "recommended_preparation": 10,
+        "term_order": 10
+      },
+      "uncoded_rows": 0,
+      "module_groups": 2,
+      "unresolved_mentions": 0,
+      "verified_files": 6
+    },
+    {
+      "school": "口腔医学院",
+      "year": 2025,
+      "ids": [
+        "151154",
+        "159559",
+        "96672",
+        "96718",
+        "96953",
+        "97086",
+        "97395"
+      ],
+      "relative_path": "data/口腔医学院/2025",
+      "plans": 7,
+      "courses": 769,
+      "course_rows": 2108,
+      "relations_by_type": {
+        "content": 146,
+        "recommended_preparation": 16,
+        "term_order": 10
+      },
+      "uncoded_rows": 0,
+      "module_groups": 3,
+      "unresolved_mentions": 0,
+      "verified_files": 14
+    },
+    {
+      "school": "哲学学院",
+      "year": 2023,
+      "ids": [
+        "105536",
+        "147559",
+        "67323",
+        "67333",
+        "67334",
+        "67335",
+        "67336",
+        "67338",
+        "67339",
+        "67340",
+        "67341",
+        "67342",
+        "67343"
+      ],
+      "relative_path": "data/哲学学院/2023",
+      "plans": 13,
+      "courses": 257,
+      "course_rows": 2736,
+      "relations_by_type": {
+        "recommended_preparation": 73,
+        "term_order": 6,
+        "content": 157
+      },
+      "uncoded_rows": 0,
+      "module_groups": 44,
+      "unresolved_mentions": 0,
+      "verified_files": 26
+    },
+    {
+      "school": "哲学学院",
+      "year": 2024,
+      "ids": [
+        "140423",
+        "72477",
+        "72678",
+        "72790",
+        "72792",
+        "72793",
+        "72794",
+        "72795",
+        "72806",
+        "72823",
+        "72824",
+        "72829",
+        "72830",
+        "72831",
+        "72988",
+        "72989"
+      ],
+      "relative_path": "data/哲学学院/2024",
+      "plans": 16,
+      "courses": 316,
+      "course_rows": 2984,
+      "relations_by_type": {
+        "recommended_preparation": 71,
+        "term_order": 9,
+        "content": 202
+      },
+      "uncoded_rows": 0,
+      "module_groups": 62,
+      "unresolved_mentions": 0,
+      "verified_files": 32
+    },
+    {
+      "school": "哲学学院",
+      "year": 2025,
+      "ids": [
+        "96695",
+        "96745",
+        "96755",
+        "96757",
+        "96787",
+        "96906",
+        "97105",
+        "97113",
+        "97115",
+        "97116",
+        "97121",
+        "97122",
+        "97125",
+        "97126",
+        "97148",
+        "98720",
+        "98721"
+      ],
+      "relative_path": "data/哲学学院/2025",
+      "plans": 17,
+      "courses": 305,
+      "course_rows": 3132,
+      "relations_by_type": {
+        "recommended_preparation": 90,
+        "term_order": 24,
+        "content": 218,
+        "official_sequence": 12
+      },
+      "uncoded_rows": 0,
+      "module_groups": 64,
+      "unresolved_mentions": 16,
+      "verified_files": 34,
+      "plans_with_text_for_review": 4
+    },
+    {
+      "school": "国际关系与公共事务学院",
+      "year": 2023,
+      "ids": [
+        "67459",
+        "67460",
+        "67461",
+        "67462",
+        "67463",
+        "67956"
+      ],
+      "relative_path": "data/国际关系与公共事务学院/2023",
+      "plans": 6,
+      "courses": 179,
+      "course_rows": 557,
+      "relations_by_type": {
+        "content": 43,
+        "recommended_preparation": 18
+      },
+      "uncoded_rows": 0,
+      "module_groups": 0,
+      "unresolved_mentions": 0,
+      "verified_files": 12
+    },
+    {
+      "school": "国际关系与公共事务学院",
+      "year": 2024,
+      "ids": [
+        "72699",
+        "72762",
+        "72763",
+        "72764",
+        "72766",
+        "72767",
+        "73251",
+        "73271",
+        "73538"
+      ],
+      "relative_path": "data/国际关系与公共事务学院/2024",
+      "plans": 9,
+      "courses": 194,
+      "course_rows": 770,
+      "relations_by_type": {
+        "recommended_preparation": 32,
+        "content": 71,
+        "term_order": 4
+      },
+      "uncoded_rows": 0,
+      "module_groups": 4,
+      "unresolved_mentions": 0,
+      "verified_files": 18
+    },
+    {
+      "school": "国际关系与公共事务学院",
+      "year": 2025,
+      "ids": [
+        "102125",
+        "96680",
+        "96686",
+        "96693",
+        "96747",
+        "96750",
+        "96751",
+        "96752",
+        "96753",
+        "96762",
+        "96763",
+        "96764",
+        "96765",
+        "96766",
+        "96767",
+        "96768",
+        "96769",
+        "96770",
+        "96771",
+        "96772",
+        "96773",
+        "96774",
+        "96775",
+        "96902"
+      ],
+      "relative_path": "data/国际关系与公共事务学院/2025",
+      "plans": 24,
+      "courses": 591,
+      "course_rows": 2705,
+      "relations_by_type": {
+        "recommended_preparation": 60,
+        "term_order": 44,
+        "content": 135
+      },
+      "uncoded_rows": 0,
+      "module_groups": 10,
+      "unresolved_mentions": 0,
+      "verified_files": 48
+    },
+    {
+      "school": "国际文化交流学院",
+      "year": 2024,
+      "ids": [
+        "72720",
+        "72721"
+      ],
+      "relative_path": "data/国际文化交流学院/2024",
+      "plans": 2,
+      "courses": 117,
+      "course_rows": 235,
+      "relations_by_type": {
+        "recommended_preparation": 25,
+        "term_order": 24,
+        "content": 12
+      },
+      "uncoded_rows": 0,
+      "module_groups": 2,
+      "unresolved_mentions": 0,
+      "verified_files": 4
+    },
+    {
+      "school": "国际文化交流学院",
+      "year": 2025,
+      "ids": [
+        "96709",
+        "96741"
+      ],
+      "relative_path": "data/国际文化交流学院/2025",
+      "plans": 2,
+      "courses": 120,
+      "course_rows": 173,
+      "relations_by_type": {
+        "recommended_preparation": 27,
+        "term_order": 24,
+        "content": 12
+      },
+      "uncoded_rows": 0,
+      "module_groups": 1,
+      "unresolved_mentions": 0,
+      "verified_files": 4
+    },
+    {
+      "school": "国际金融学院",
+      "year": 2023,
+      "ids": [
+        "67293",
+        "67317",
+        "67319"
+      ],
+      "relative_path": "data/国际金融学院/2023",
+      "plans": 3,
+      "courses": 31,
+      "course_rows": 93,
+      "relations_by_type": {
+        "recommended_preparation": 3,
+        "content": 15
+      },
+      "uncoded_rows": 0,
+      "module_groups": 9,
+      "unresolved_mentions": 0,
+      "verified_files": 6
+    },
+    {
+      "school": "国际金融学院",
+      "year": 2024,
+      "ids": [
+        "72457",
+        "72661",
+        "72662"
+      ],
+      "relative_path": "data/国际金融学院/2024",
+      "plans": 3,
+      "courses": 34,
+      "course_rows": 102,
+      "relations_by_type": {
+        "recommended_preparation": 9,
+        "content": 15
+      },
+      "uncoded_rows": 0,
+      "module_groups": 9,
+      "unresolved_mentions": 0,
+      "verified_files": 6
+    },
+    {
+      "school": "国际金融学院",
+      "year": 2025,
+      "ids": [
+        "96703",
+        "96731",
+        "96732"
+      ],
+      "relative_path": "data/国际金融学院/2025",
+      "plans": 3,
+      "courses": 39,
+      "course_rows": 111,
+      "relations_by_type": {
+        "recommended_preparation": 6,
+        "content": 15,
+        "term_order": 2
+      },
+      "uncoded_rows": 0,
+      "module_groups": 9,
+      "unresolved_mentions": 0,
+      "verified_files": 6
+    },
+    {
+      "school": "基础医学院",
+      "year": 2025,
+      "ids": [
+        "96685",
+        "96998",
+        "97230",
+        "99838"
+      ],
+      "relative_path": "data/基础医学院/2025",
+      "plans": 4,
+      "courses": 684,
+      "course_rows": 1035,
+      "relations_by_type": {
+        "recommended_preparation": 12,
+        "term_order": 8,
+        "content": 64
+      },
+      "uncoded_rows": 0,
+      "module_groups": 0,
+      "unresolved_mentions": 0,
+      "verified_files": 8
+    },
+    {
+      "school": "外国语言文学学院",
+      "year": 2023,
+      "ids": [
+        "67513",
+        "67553",
+        "67573",
+        "67595",
+        "73552"
+      ],
+      "relative_path": "data/外国语言文学学院/2023",
+      "plans": 5,
+      "courses": 161,
+      "course_rows": 908,
+      "relations_by_type": {
+        "recommended_preparation": 69,
+        "term_order": 33,
+        "content": 67
+      },
+      "uncoded_rows": 0,
+      "module_groups": 56,
+      "unresolved_mentions": 0,
+      "verified_files": 10
+    },
+    {
+      "school": "外国语言文学学院",
+      "year": 2024,
+      "ids": [
+        "153245",
+        "72747",
+        "72749",
+        "72750",
+        "72751",
+        "72752",
+        "72758",
+        "72769",
+        "72772",
+        "72773",
+        "73394",
+        "73395",
+        "73396",
+        "73607"
+      ],
+      "relative_path": "data/外国语言文学学院/2024",
+      "plans": 14,
+      "courses": 282,
+      "course_rows": 1050,
+      "relations_by_type": {
+        "recommended_preparation": 137,
+        "term_order": 126,
+        "content": 135
+      },
+      "uncoded_rows": 0,
+      "module_groups": 28,
+      "unresolved_mentions": 0,
+      "verified_files": 28
+    },
+    {
+      "school": "外国语言文学学院",
+      "year": 2025,
+      "ids": [
+        "96712",
+        "96786",
+        "96808",
+        "96911",
+        "96921",
+        "96924",
+        "96926",
+        "96928",
+        "96973",
+        "96976",
+        "96983",
+        "96987",
+        "96989",
+        "96992",
+        "96995",
+        "96996",
+        "96997",
+        "96999",
+        "99306",
+        "99655",
+        "99830",
+        "99832",
+        "99839"
+      ],
+      "relative_path": "data/外国语言文学学院/2025",
+      "plans": 23,
+      "courses": 415,
+      "course_rows": 2314,
+      "relations_by_type": {
+        "recommended_preparation": 219,
+        "term_order": 213,
+        "content": 223
+      },
+      "uncoded_rows": 0,
+      "module_groups": 104,
+      "unresolved_mentions": 0,
+      "verified_files": 46
+    },
+    {
+      "school": "大数据学院",
+      "year": 2024,
+      "ids": [
+        "72617"
+      ],
+      "relative_path": "data/大数据学院/2024",
+      "plans": 1,
+      "courses": 73,
+      "course_rows": 84,
+      "relations_by_type": {
+        "recommended_preparation": 5,
+        "term_order": 4,
+        "content": 13
+      },
+      "uncoded_rows": 0,
+      "module_groups": 5,
+      "unresolved_mentions": 0,
+      "verified_files": 2
+    },
+    {
+      "school": "大数据学院",
+      "year": 2025,
+      "ids": [
+        "96678",
+        "96910",
+        "96993",
+        "97084",
+        "97094"
+      ],
+      "relative_path": "data/大数据学院/2025",
+      "plans": 5,
+      "courses": 128,
+      "course_rows": 348,
+      "relations_by_type": {
+        "recommended_preparation": 12,
+        "term_order": 9,
+        "content": 52
+      },
+      "uncoded_rows": 0,
+      "module_groups": 33,
+      "unresolved_mentions": 0,
+      "verified_files": 10
+    },
+    {
+      "school": "大气与海洋科学系",
+      "year": 2023,
+      "ids": [
+        "67432"
+      ],
+      "relative_path": "data/大气与海洋科学系/2023",
+      "plans": 1,
+      "courses": 62,
+      "course_rows": 62,
+      "relations_by_type": {
+        "recommended_preparation": 5,
+        "term_order": 2,
+        "content": 11
+      },
+      "uncoded_rows": 0,
+      "module_groups": 3,
+      "unresolved_mentions": 0,
+      "verified_files": 2
+    },
+    {
+      "school": "大气与海洋科学系",
+      "year": 2024,
+      "ids": [
+        "72711",
+        "73192",
+        "73311"
+      ],
+      "relative_path": "data/大气与海洋科学系/2024",
+      "plans": 3,
+      "courses": 93,
+      "course_rows": 228,
+      "relations_by_type": {
+        "recommended_preparation": 19,
+        "term_order": 13,
+        "content": 40
+      },
+      "uncoded_rows": 0,
+      "module_groups": 15,
+      "unresolved_mentions": 0,
+      "verified_files": 6
+    },
+    {
+      "school": "大气与海洋科学系",
+      "year": 2025,
+      "ids": [
+        "96682",
+        "96795",
+        "97178",
+        "97225"
+      ],
+      "relative_path": "data/大气与海洋科学系/2025",
+      "plans": 4,
+      "courses": 127,
+      "course_rows": 503,
+      "relations_by_type": {
+        "recommended_preparation": 22,
+        "term_order": 10,
+        "content": 66
+      },
+      "uncoded_rows": 0,
+      "module_groups": 43,
+      "unresolved_mentions": 0,
+      "verified_files": 8
+    },
+    {
+      "school": "护理学院",
+      "year": 2024,
+      "ids": [
+        "72657"
+      ],
+      "relative_path": "data/护理学院/2024",
+      "plans": 1,
+      "courses": 61,
+      "course_rows": 61,
+      "relations_by_type": {
+        "recommended_preparation": 1,
+        "term_order": 1,
+        "content": 4
+      },
+      "uncoded_rows": 0,
+      "module_groups": 3,
+      "unresolved_mentions": 0,
+      "verified_files": 2
+    },
+    {
+      "school": "护理学院",
+      "year": 2025,
+      "ids": [
+        "96691",
+        "96727"
+      ],
+      "relative_path": "data/护理学院/2025",
+      "plans": 2,
+      "courses": 93,
+      "course_rows": 137,
+      "relations_by_type": {
+        "recommended_preparation": 5,
+        "term_order": 2,
+        "content": 15
+      },
+      "uncoded_rows": 0,
+      "module_groups": 6,
+      "unresolved_mentions": 0,
+      "verified_files": 4
+    },
+    {
+      "school": "数学科学学院",
+      "year": 2023,
+      "ids": [
+        "67613",
+        "67614",
+        "73582",
+        "73586",
+        "73587",
+        "73599",
+        "83480"
+      ],
+      "relative_path": "data/数学科学学院/2023",
+      "plans": 7,
+      "courses": 212,
+      "course_rows": 2589,
+      "relations_by_type": {
+        "content": 84,
+        "recommended_preparation": 88,
+        "term_order": 30
+      },
+      "uncoded_rows": 0,
+      "module_groups": 56,
+      "unresolved_mentions": 0,
+      "verified_files": 14
+    },
+    {
+      "school": "数学科学学院",
+      "year": 2024,
+      "ids": [
+        "153571",
+        "72704",
+        "72714",
+        "72716",
+        "72965",
+        "72972",
+        "73314",
+        "73354",
+        "73495",
+        "73496",
+        "87133"
+      ],
+      "relative_path": "data/数学科学学院/2024",
+      "plans": 11,
+      "courses": 246,
+      "course_rows": 2601,
+      "relations_by_type": {
+        "recommended_preparation": 110,
+        "term_order": 56,
+        "content": 131
+      },
+      "uncoded_rows": 0,
+      "module_groups": 46,
+      "unresolved_mentions": 0,
+      "verified_files": 22
+    },
+    {
+      "school": "数学科学学院",
+      "year": 2025,
+      "ids": [
+        "160272",
+        "87182",
+        "96707",
+        "96721",
+        "96726",
+        "96797",
+        "97036",
+        "97044",
+        "97068",
+        "97083",
+        "97100",
+        "97101",
+        "97106",
+        "97118",
+        "97123",
+        "97414",
+        "97418",
+        "97455"
+      ],
+      "relative_path": "data/数学科学学院/2025",
+      "plans": 18,
+      "courses": 377,
+      "course_rows": 2810,
+      "relations_by_type": {
+        "recommended_preparation": 131,
+        "term_order": 69,
+        "content": 152
+      },
+      "uncoded_rows": 0,
+      "module_groups": 4,
+      "unresolved_mentions": 0,
+      "verified_files": 36
+    },
+    {
+      "school": "文物与博物馆学系",
+      "year": 2023,
+      "ids": [
+        "67356",
+        "67374"
+      ],
+      "relative_path": "data/文物与博物馆学系/2023",
+      "plans": 2,
+      "courses": 140,
+      "course_rows": 364,
+      "relations_by_type": {
+        "content": 40,
+        "recommended_preparation": 8,
+        "term_order": 2
+      },
+      "uncoded_rows": 0,
+      "module_groups": 14,
+      "unresolved_mentions": 0,
+      "verified_files": 4
+    },
+    {
+      "school": "文物与博物馆学系",
+      "year": 2024,
+      "ids": [
+        "72723",
+        "73067",
+        "73070"
+      ],
+      "relative_path": "data/文物与博物馆学系/2024",
+      "plans": 3,
+      "courses": 109,
+      "course_rows": 510,
+      "relations_by_type": {
+        "content": 60,
+        "recommended_preparation": 12,
+        "term_order": 3
+      },
+      "uncoded_rows": 0,
+      "module_groups": 15,
+      "unresolved_mentions": 0,
+      "verified_files": 6
+    },
+    {
+      "school": "文物与博物馆学系",
+      "year": 2025,
+      "ids": [
+        "96710",
+        "96929",
+        "96946",
+        "97011",
+        "97097",
+        "97099",
+        "97104",
+        "97107"
+      ],
+      "relative_path": "data/文物与博物馆学系/2025",
+      "plans": 8,
+      "courses": 157,
+      "course_rows": 499,
+      "relations_by_type": {
+        "recommended_preparation": 46,
+        "content": 77,
+        "term_order": 5
+      },
+      "uncoded_rows": 0,
+      "module_groups": 18,
+      "unresolved_mentions": 0,
+      "verified_files": 16
+    },
+    {
+      "school": "新闻学院",
+      "year": 2023,
+      "ids": [
+        "67072",
+        "67913",
+        "67914",
+        "67915",
+        "67916",
+        "67917",
+        "67918",
+        "67919",
+        "73597",
+        "73598"
+      ],
+      "relative_path": "data/新闻学院/2023",
+      "plans": 10,
+      "courses": 768,
+      "course_rows": 5044,
+      "relations_by_type": {
+        "recommended_preparation": 80,
+        "content": 521
+      },
+      "uncoded_rows": 0,
+      "module_groups": 82,
+      "unresolved_mentions": 0,
+      "verified_files": 20
+    },
+    {
+      "school": "新闻学院",
+      "year": 2024,
+      "ids": [
+        "72811",
+        "72812",
+        "72813",
+        "72817",
+        "72825",
+        "72826",
+        "72827",
+        "72828",
+        "72861",
+        "72978",
+        "72979",
+        "73374",
+        "96633"
+      ],
+      "relative_path": "data/新闻学院/2024",
+      "plans": 13,
+      "courses": 196,
+      "course_rows": 1452,
+      "relations_by_type": {
+        "recommended_preparation": 58,
+        "term_order": 13,
+        "content": 264
+      },
+      "uncoded_rows": 0,
+      "module_groups": 19,
+      "unresolved_mentions": 0,
+      "verified_files": 26
+    },
+    {
+      "school": "新闻学院",
+      "year": 2025,
+      "ids": [
+        "130371",
+        "147551",
+        "147552",
+        "147553",
+        "147554",
+        "96689",
+        "97000",
+        "97001",
+        "97147",
+        "97149",
+        "97150",
+        "97151",
+        "97152",
+        "97153",
+        "97154",
+        "97155",
+        "97156",
+        "97157",
+        "97159",
+        "97160",
+        "97167",
+        "97168",
+        "97176",
+        "97177",
+        "97179",
+        "97181",
+        "97183",
+        "97480",
+        "97491"
+      ],
+      "relative_path": "data/新闻学院/2025",
+      "plans": 29,
+      "courses": 668,
+      "course_rows": 5496,
+      "relations_by_type": {
+        "recommended_preparation": 161,
+        "term_order": 32,
+        "content": 588
+      },
+      "uncoded_rows": 0,
+      "module_groups": 45,
+      "unresolved_mentions": 0,
+      "verified_files": 58
+    },
+    {
+      "school": "旅游学系",
+      "year": 2023,
+      "ids": [
+        "67418",
+        "73589"
+      ],
+      "relative_path": "data/旅游学系/2023",
+      "plans": 2,
+      "courses": 73,
+      "course_rows": 232,
+      "relations_by_type": {
+        "recommended_preparation": 12,
+        "term_order": 10,
+        "content": 10
+      },
+      "uncoded_rows": 0,
+      "module_groups": 24,
+      "unresolved_mentions": 0,
+      "verified_files": 4
+    },
+    {
+      "school": "旅游学系",
+      "year": 2024,
+      "ids": [
+        "72914",
+        "72915"
+      ],
+      "relative_path": "data/旅游学系/2024",
+      "plans": 2,
+      "courses": 435,
+      "course_rows": 660,
+      "relations_by_type": {
+        "recommended_preparation": 12,
+        "term_order": 10,
+        "content": 14
+      },
+      "uncoded_rows": 0,
+      "module_groups": 30,
+      "unresolved_mentions": 0,
+      "verified_files": 4
+    },
+    {
+      "school": "旅游学系",
+      "year": 2025,
+      "ids": [
+        "138082",
+        "153800"
+      ],
+      "relative_path": "data/旅游学系/2025",
+      "plans": 2,
+      "courses": 59,
+      "course_rows": 175,
+      "relations_by_type": {
+        "recommended_preparation": 7,
+        "term_order": 3,
+        "content": 18
+      },
+      "uncoded_rows": 0,
+      "module_groups": 3,
+      "unresolved_mentions": 0,
+      "verified_files": 4
+    },
+    {
+      "school": "智能机器人与先进制造创新学院",
+      "year": 2023,
+      "ids": [
+        "67394",
+        "67395",
+        "67399",
+        "67400",
+        "67442",
+        "67443",
+        "73603",
+        "96922"
+      ],
+      "relative_path": "data/智能机器人与先进制造创新学院/2023",
+      "plans": 8,
+      "courses": 311,
+      "course_rows": 616,
+      "relations_by_type": {
+        "content": 44,
+        "recommended_preparation": 34,
+        "term_order": 18
+      },
+      "uncoded_rows": 0,
+      "module_groups": 17,
+      "unresolved_mentions": 0,
+      "verified_files": 16
+    },
+    {
+      "school": "智能机器人与先进制造创新学院",
+      "year": 2024,
+      "ids": [
+        "72560",
+        "72561",
+        "72686",
+        "72687",
+        "72862",
+        "72983",
+        "73046",
+        "73062",
+        "73213",
+        "73291",
+        "96949"
+      ],
+      "relative_path": "data/智能机器人与先进制造创新学院/2024",
+      "plans": 11,
+      "courses": 190,
+      "course_rows": 709,
+      "relations_by_type": {
+        "recommended_preparation": 44,
+        "term_order": 38,
+        "content": 58
+      },
+      "uncoded_rows": 0,
+      "module_groups": 25,
+      "unresolved_mentions": 0,
+      "verified_files": 22
+    },
+    {
+      "school": "智能机器人与先进制造创新学院",
+      "year": 2025,
+      "ids": [
+        "151311",
+        "153101",
+        "97033",
+        "97074",
+        "97076",
+        "97144",
+        "97216",
+        "98144",
+        "98146"
+      ],
+      "relative_path": "data/智能机器人与先进制造创新学院/2025",
+      "plans": 9,
+      "courses": 226,
+      "course_rows": 1083,
+      "relations_by_type": {
+        "content": 101,
+        "recommended_preparation": 42,
+        "term_order": 38
+      },
+      "uncoded_rows": 0,
+      "module_groups": 90,
+      "unresolved_mentions": 0,
+      "verified_files": 18
+    },
+    {
+      "school": "智能材料与未来能源创新学院",
+      "year": 2023,
+      "ids": [
+        "67358",
+        "67361",
+        "67364",
+        "67365",
+        "67369",
+        "67370"
+      ],
+      "relative_path": "data/智能材料与未来能源创新学院/2023",
+      "plans": 6,
+      "courses": 360,
+      "course_rows": 776,
+      "relations_by_type": {
+        "content": 58,
+        "recommended_preparation": 34,
+        "term_order": 22
+      },
+      "uncoded_rows": 0,
+      "module_groups": 28,
+      "unresolved_mentions": 0,
+      "verified_files": 12
+    },
+    {
+      "school": "智能材料与未来能源创新学院",
+      "year": 2024,
+      "ids": [
+        "72715",
+        "72730",
+        "72733"
+      ],
+      "relative_path": "data/智能材料与未来能源创新学院/2024",
+      "plans": 3,
+      "courses": 105,
+      "course_rows": 243,
+      "relations_by_type": {
+        "content": 19,
+        "recommended_preparation": 14,
+        "term_order": 14
+      },
+      "uncoded_rows": 0,
+      "module_groups": 14,
+      "unresolved_mentions": 0,
+      "verified_files": 6
+    },
+    {
+      "school": "智能材料与未来能源创新学院",
+      "year": 2025,
+      "ids": [
+        "154414",
+        "96697",
+        "96722",
+        "96730",
+        "96733",
+        "96734",
+        "96735",
+        "96737",
+        "96742",
+        "96743",
+        "96744",
+        "96746",
+        "96779",
+        "96780",
+        "96781",
+        "96782",
+        "97371",
+        "97457",
+        "97458",
+        "97459",
+        "97476",
+        "98723",
+        "98724"
+      ],
+      "relative_path": "data/智能材料与未来能源创新学院/2025",
+      "plans": 23,
+      "courses": 802,
+      "course_rows": 3306,
+      "relations_by_type": {
+        "recommended_preparation": 187,
+        "term_order": 167,
+        "content": 193
+      },
+      "uncoded_rows": 0,
+      "module_groups": 184,
+      "unresolved_mentions": 0,
+      "verified_files": 46
+    },
+    {
+      "school": "未来信息创新学院",
+      "year": 2023,
+      "ids": [
+        "67420",
+        "67439",
+        "67440",
+        "67441",
+        "68437",
+        "72427"
+      ],
+      "relative_path": "data/未来信息创新学院/2023",
+      "plans": 6,
+      "courses": 841,
+      "course_rows": 3819,
+      "relations_by_type": {
+        "recommended_preparation": 22,
+        "term_order": 13,
+        "content": 42
+      },
+      "uncoded_rows": 0,
+      "module_groups": 12,
+      "unresolved_mentions": 0,
+      "verified_files": 12
+    },
+    {
+      "school": "未来信息创新学院",
+      "year": 2024,
+      "ids": [
+        "72680",
+        "72683",
+        "72685",
+        "73015",
+        "73040"
+      ],
+      "relative_path": "data/未来信息创新学院/2024",
+      "plans": 5,
+      "courses": 142,
+      "course_rows": 349,
+      "relations_by_type": {
+        "recommended_preparation": 19,
+        "term_order": 11,
+        "content": 24
+      },
+      "uncoded_rows": 0,
+      "module_groups": 6,
+      "unresolved_mentions": 0,
+      "verified_files": 10
+    },
+    {
+      "school": "未来信息创新学院",
+      "year": 2025,
+      "ids": [
+        "151155",
+        "96974",
+        "96994",
+        "97003",
+        "97005",
+        "97030",
+        "97031",
+        "97047",
+        "97052",
+        "97053",
+        "97054",
+        "97055",
+        "97057",
+        "97059",
+        "97060",
+        "97130",
+        "97140",
+        "97378",
+        "97379",
+        "97380",
+        "97381",
+        "97382",
+        "97385",
+        "97386",
+        "97387",
+        "97388",
+        "97389",
+        "97394",
+        "97403",
+        "97424",
+        "97466",
+        "97876"
+      ],
+      "relative_path": "data/未来信息创新学院/2025",
+      "plans": 32,
+      "courses": 254,
+      "course_rows": 2381,
+      "relations_by_type": {
+        "recommended_preparation": 154,
+        "term_order": 63,
+        "content": 180
+      },
+      "uncoded_rows": 0,
+      "module_groups": 86,
+      "unresolved_mentions": 0,
+      "verified_files": 64
+    },
+    {
+      "school": "核科学与技术系",
+      "year": 2023,
+      "ids": [
+        "67294",
+        "67318",
+        "73415"
+      ],
+      "relative_path": "data/核科学与技术系/2023",
+      "plans": 3,
+      "courses": 564,
+      "course_rows": 1659,
+      "relations_by_type": {
+        "recommended_preparation": 13,
+        "term_order": 11,
+        "content": 21
+      },
+      "uncoded_rows": 0,
+      "module_groups": 14,
+      "unresolved_mentions": 0,
+      "verified_files": 6
+    },
+    {
+      "school": "核科学与技术系",
+      "year": 2024,
+      "ids": [
+        "138639",
+        "72837",
+        "72858",
+        "72859",
+        "72918",
+        "73414"
+      ],
+      "relative_path": "data/核科学与技术系/2024",
+      "plans": 6,
+      "courses": 114,
+      "course_rows": 489,
+      "relations_by_type": {
+        "recommended_preparation": 25,
+        "term_order": 19,
+        "content": 71
+      },
+      "uncoded_rows": 0,
+      "module_groups": 24,
+      "unresolved_mentions": 0,
+      "verified_files": 12
+    },
+    {
+      "school": "核科学与技术系",
+      "year": 2025,
+      "ids": [
+        "150331",
+        "156394",
+        "96690",
+        "97095",
+        "97096",
+        "97128",
+        "97129",
+        "97139",
+        "97170"
+      ],
+      "relative_path": "data/核科学与技术系/2025",
+      "plans": 9,
+      "courses": 141,
+      "course_rows": 827,
+      "relations_by_type": {
+        "content": 103,
+        "recommended_preparation": 74,
+        "term_order": 74
+      },
+      "uncoded_rows": 0,
+      "module_groups": 90,
+      "unresolved_mentions": 0,
+      "verified_files": 18
+    },
+    {
+      "school": "法医学与法庭科学学院",
+      "year": 2024,
+      "ids": [
+        "72822"
+      ],
+      "relative_path": "data/法医学与法庭科学学院/2024",
+      "plans": 1,
+      "courses": 63,
+      "course_rows": 63,
+      "relations_by_type": {
+        "recommended_preparation": 3,
+        "term_order": 3,
+        "content": 16
+      },
+      "uncoded_rows": 0,
+      "module_groups": 1,
+      "unresolved_mentions": 0,
+      "verified_files": 2
+    },
+    {
+      "school": "法医学与法庭科学学院",
+      "year": 2025,
+      "ids": [
+        "97399"
+      ],
+      "relative_path": "data/法医学与法庭科学学院/2025",
+      "plans": 1,
+      "courses": 62,
+      "course_rows": 62,
+      "relations_by_type": {
+        "recommended_preparation": 1,
+        "term_order": 1,
+        "content": 14
+      },
+      "uncoded_rows": 0,
+      "module_groups": 0,
+      "unresolved_mentions": 0,
+      "verified_files": 2
+    },
+    {
+      "school": "法学院",
+      "year": 2023,
+      "ids": [
+        "67413",
+        "67414",
+        "67415",
+        "73594"
+      ],
+      "relative_path": "data/法学院/2023",
+      "plans": 4,
+      "courses": 112,
+      "course_rows": 358,
+      "relations_by_type": {
+        "recommended_preparation": 21,
+        "term_order": 18,
+        "content": 68
+      },
+      "uncoded_rows": 0,
+      "module_groups": 6,
+      "unresolved_mentions": 0,
+      "verified_files": 8
+    },
+    {
+      "school": "法学院",
+      "year": 2024,
+      "ids": [
+        "72913",
+        "73004",
+        "73018",
+        "73020",
+        "73022",
+        "73024"
+      ],
+      "relative_path": "data/法学院/2024",
+      "plans": 6,
+      "courses": 147,
+      "course_rows": 1072,
+      "relations_by_type": {
+        "recommended_preparation": 29,
+        "content": 115
+      },
+      "uncoded_rows": 0,
+      "module_groups": 16,
+      "unresolved_mentions": 0,
+      "verified_files": 12
+    },
+    {
+      "school": "法学院",
+      "year": 2025,
+      "ids": [
+        "96704",
+        "96904",
+        "96905",
+        "96907",
+        "97482"
+      ],
+      "relative_path": "data/法学院/2025",
+      "plans": 5,
+      "courses": 143,
+      "course_rows": 445,
+      "relations_by_type": {
+        "recommended_preparation": 25,
+        "term_order": 25,
+        "content": 69
+      },
+      "uncoded_rows": 0,
+      "module_groups": 0,
+      "unresolved_mentions": 0,
+      "verified_files": 10
+    },
+    {
+      "school": "物理学系",
+      "year": 2023,
+      "ids": [
+        "67444",
+        "67873",
+        "67875",
+        "67876",
+        "73592"
+      ],
+      "relative_path": "data/物理学系/2023",
+      "plans": 5,
+      "courses": 793,
+      "course_rows": 3351,
+      "relations_by_type": {
+        "recommended_preparation": 30,
+        "term_order": 15,
+        "content": 62
+      },
+      "uncoded_rows": 0,
+      "module_groups": 5,
+      "unresolved_mentions": 0,
+      "verified_files": 10
+    },
+    {
+      "school": "物理学系",
+      "year": 2024,
+      "ids": [
+        "138640",
+        "72619",
+        "72908",
+        "72975",
+        "73011",
+        "73039",
+        "73055",
+        "73113"
+      ],
+      "relative_path": "data/物理学系/2024",
+      "plans": 8,
+      "courses": 191,
+      "course_rows": 1115,
+      "relations_by_type": {
+        "recommended_preparation": 71,
+        "term_order": 41,
+        "content": 134
+      },
+      "uncoded_rows": 0,
+      "module_groups": 22,
+      "unresolved_mentions": 0,
+      "verified_files": 16
+    },
+    {
+      "school": "物理学系",
+      "year": 2025,
+      "ids": [
+        "159931",
+        "73454",
+        "97211",
+        "97212",
+        "97213",
+        "97226",
+        "99868",
+        "99869"
+      ],
+      "relative_path": "data/物理学系/2025",
+      "plans": 8,
+      "courses": 107,
+      "course_rows": 503,
+      "relations_by_type": {
+        "recommended_preparation": 56,
+        "term_order": 48,
+        "content": 69
+      },
+      "uncoded_rows": 0,
+      "module_groups": 22,
+      "unresolved_mentions": 0,
+      "verified_files": 16
+    },
+    {
+      "school": "环境科学与工程系",
+      "year": 2024,
+      "ids": [
+        "72698",
+        "72701",
+        "72702"
+      ],
+      "relative_path": "data/环境科学与工程系/2024",
+      "plans": 3,
+      "courses": 109,
+      "course_rows": 349,
+      "relations_by_type": {
+        "content": 26,
+        "recommended_preparation": 21,
+        "term_order": 9
+      },
+      "uncoded_rows": 0,
+      "module_groups": 10,
+      "unresolved_mentions": 0,
+      "verified_files": 6
+    },
+    {
+      "school": "环境科学与工程系",
+      "year": 2025,
+      "ids": [
+        "151491",
+        "151533",
+        "96694",
+        "97102",
+        "97471",
+        "97478",
+        "97479"
+      ],
+      "relative_path": "data/环境科学与工程系/2025",
+      "plans": 7,
+      "courses": 193,
+      "course_rows": 861,
+      "relations_by_type": {
+        "content": 115,
+        "recommended_preparation": 27,
+        "term_order": 9
+      },
+      "uncoded_rows": 0,
+      "module_groups": 1,
+      "unresolved_mentions": 0,
+      "verified_files": 14
+    },
+    {
+      "school": "生命科学学院",
+      "year": 2024,
+      "ids": [
+        "72860",
+        "72877",
+        "72959",
+        "72996",
+        "73045",
+        "73049",
+        "73476"
+      ],
+      "relative_path": "data/生命科学学院/2024",
+      "plans": 7,
+      "courses": 242,
+      "course_rows": 815,
+      "relations_by_type": {
+        "content": 145,
+        "recommended_preparation": 82,
+        "term_order": 35
+      },
+      "uncoded_rows": 0,
+      "module_groups": 107,
+      "unresolved_mentions": 0,
+      "verified_files": 14
+    },
+    {
+      "school": "生命科学学院",
+      "year": 2025,
+      "ids": [
+        "138566",
+        "151172",
+        "153155",
+        "153158",
+        "153186",
+        "96708",
+        "96739",
+        "97006",
+        "97023",
+        "97024",
+        "97027",
+        "97227",
+        "97474"
+      ],
+      "relative_path": "data/生命科学学院/2025",
+      "plans": 13,
+      "courses": 185,
+      "course_rows": 670,
+      "relations_by_type": {
+        "content": 131,
+        "recommended_preparation": 82,
+        "term_order": 63
+      },
+      "uncoded_rows": 0,
+      "module_groups": 17,
+      "unresolved_mentions": 0,
+      "verified_files": 26
+    },
+    {
+      "school": "生物医学工程与技术创新学院",
+      "year": 2023,
+      "ids": [
+        "67438"
+      ],
+      "relative_path": "data/生物医学工程与技术创新学院/2023",
+      "plans": 1,
+      "courses": 71,
+      "course_rows": 71,
+      "relations_by_type": {
+        "recommended_preparation": 3,
+        "term_order": 2,
+        "content": 7
+      },
+      "uncoded_rows": 0,
+      "module_groups": 2,
+      "unresolved_mentions": 0,
+      "verified_files": 2
+    },
+    {
+      "school": "生物医学工程与技术创新学院",
+      "year": 2024,
+      "ids": [
+        "124035",
+        "73057"
+      ],
+      "relative_path": "data/生物医学工程与技术创新学院/2024",
+      "plans": 2,
+      "courses": 84,
+      "course_rows": 182,
+      "relations_by_type": {
+        "recommended_preparation": 6,
+        "term_order": 4,
+        "content": 11
+      },
+      "uncoded_rows": 0,
+      "module_groups": 3,
+      "unresolved_mentions": 0,
+      "verified_files": 4
+    },
+    {
+      "school": "生物医学工程与技术创新学院",
+      "year": 2025,
+      "ids": [
+        "97259",
+        "97375"
+      ],
+      "relative_path": "data/生物医学工程与技术创新学院/2025",
+      "plans": 2,
+      "courses": 98,
+      "course_rows": 146,
+      "relations_by_type": {
+        "recommended_preparation": 7,
+        "term_order": 5,
+        "content": 15
+      },
+      "uncoded_rows": 0,
+      "module_groups": 5,
+      "unresolved_mentions": 0,
+      "verified_files": 4
+    },
+    {
+      "school": "社会发展与公共政策学院",
+      "year": 2023,
+      "ids": [
+        "67673",
+        "67674",
+        "67675",
+        "67676",
+        "67895",
+        "73543"
+      ],
+      "relative_path": "data/社会发展与公共政策学院/2023",
+      "plans": 6,
+      "courses": 130,
+      "course_rows": 484,
+      "relations_by_type": {
+        "recommended_preparation": 18,
+        "term_order": 10,
+        "content": 38
+      },
+      "uncoded_rows": 0,
+      "module_groups": 8,
+      "unresolved_mentions": 0,
+      "verified_files": 12
+    },
+    {
+      "school": "社会发展与公共政策学院",
+      "year": 2024,
+      "ids": [
+        "72717",
+        "73013",
+        "73628"
+      ],
+      "relative_path": "data/社会发展与公共政策学院/2024",
+      "plans": 3,
+      "courses": 103,
+      "course_rows": 228,
+      "relations_by_type": {
+        "recommended_preparation": 11,
+        "term_order": 9,
+        "content": 36
+      },
+      "uncoded_rows": 0,
+      "module_groups": 8,
+      "unresolved_mentions": 0,
+      "verified_files": 6
+    },
+    {
+      "school": "社会发展与公共政策学院",
+      "year": 2025,
+      "ids": [
+        "100163",
+        "100164",
+        "100165",
+        "100166",
+        "100255",
+        "96675",
+        "96705",
+        "97173",
+        "97235"
+      ],
+      "relative_path": "data/社会发展与公共政策学院/2025",
+      "plans": 9,
+      "courses": 202,
+      "course_rows": 694,
+      "relations_by_type": {
+        "recommended_preparation": 34,
+        "term_order": 26,
+        "content": 73
+      },
+      "uncoded_rows": 0,
+      "module_groups": 3,
+      "unresolved_mentions": 0,
+      "verified_files": 18
+    },
+    {
+      "school": "管理学院",
+      "year": 2023,
+      "ids": [
+        "137115",
+        "154377",
+        "65555",
+        "67321",
+        "67327",
+        "67328",
+        "67329",
+        "67331",
+        "67332",
+        "67473",
+        "67477",
+        "67478",
+        "67480",
+        "67494",
+        "67496",
+        "67499"
+      ],
+      "relative_path": "data/管理学院/2023",
+      "plans": 16,
+      "courses": 878,
+      "course_rows": 2609,
+      "relations_by_type": {
+        "recommended_preparation": 60,
+        "term_order": 57,
+        "content": 203
+      },
+      "uncoded_rows": 0,
+      "module_groups": 138,
+      "unresolved_mentions": 0,
+      "verified_files": 32
+    },
+    {
+      "school": "管理学院",
+      "year": 2024,
+      "ids": [
+        "137117",
+        "153691",
+        "154378",
+        "160131",
+        "160132",
+        "160133",
+        "160134",
+        "160135",
+        "160136",
+        "72768",
+        "72776",
+        "72798",
+        "72799",
+        "72800",
+        "72802",
+        "72897",
+        "72899",
+        "72900",
+        "72901",
+        "72902",
+        "72903",
+        "72904",
+        "72905",
+        "72906",
+        "72907",
+        "72909",
+        "72964"
+      ],
+      "relative_path": "data/管理学院/2024",
+      "plans": 27,
+      "courses": 251,
+      "course_rows": 3059,
+      "relations_by_type": {
+        "recommended_preparation": 100,
+        "term_order": 94,
+        "content": 356
+      },
+      "uncoded_rows": 0,
+      "module_groups": 179,
+      "unresolved_mentions": 0,
+      "verified_files": 54
+    },
+    {
+      "school": "管理学院",
+      "year": 2025,
+      "ids": [
+        "96776",
+        "97022",
+        "97025",
+        "97028",
+        "97039",
+        "97043",
+        "97064",
+        "97067",
+        "97077",
+        "97082",
+        "97098",
+        "97103",
+        "97108",
+        "97119",
+        "97120",
+        "97124",
+        "97184",
+        "97185",
+        "97187",
+        "97189",
+        "97194",
+        "97195",
+        "97196",
+        "97198",
+        "97199",
+        "97200",
+        "97222",
+        "97224",
+        "97228",
+        "97229",
+        "97231",
+        "97232",
+        "97233",
+        "97234"
+      ],
+      "relative_path": "data/管理学院/2025",
+      "plans": 34,
+      "courses": 249,
+      "course_rows": 3718,
+      "relations_by_type": {
+        "recommended_preparation": 180,
+        "term_order": 140,
+        "content": 555
+      },
+      "uncoded_rows": 0,
+      "module_groups": 204,
+      "unresolved_mentions": 0,
+      "verified_files": 68
+    },
+    {
+      "school": "经济学院",
+      "year": 2023,
+      "ids": [
+        "67273",
+        "67275",
+        "67276",
+        "67277",
+        "67278",
+        "67279",
+        "67280",
+        "67401",
+        "67422",
+        "67893",
+        "67897",
+        "67898",
+        "67899",
+        "67901",
+        "67902",
+        "67903",
+        "73584"
+      ],
+      "relative_path": "data/经济学院/2023",
+      "plans": 17,
+      "courses": 239,
+      "course_rows": 2725,
+      "relations_by_type": {
+        "recommended_preparation": 115,
+        "term_order": 41,
+        "content": 340
+      },
+      "uncoded_rows": 0,
+      "module_groups": 52,
+      "unresolved_mentions": 0,
+      "verified_files": 34
+    },
+    {
+      "school": "经济学院",
+      "year": 2024,
+      "ids": [
+        "153732",
+        "72497",
+        "72729",
+        "72731",
+        "72732",
+        "72734",
+        "72735",
+        "72736",
+        "72738",
+        "72739",
+        "72740",
+        "72774",
+        "72777",
+        "72778",
+        "72781",
+        "72782",
+        "72961",
+        "72962",
+        "72963",
+        "73073",
+        "73334",
+        "96984"
+      ],
+      "relative_path": "data/经济学院/2024",
+      "plans": 22,
+      "courses": 236,
+      "course_rows": 2669,
+      "relations_by_type": {
+        "content": 296,
+        "recommended_preparation": 120,
+        "term_order": 70
+      },
+      "uncoded_rows": 0,
+      "module_groups": 178,
+      "unresolved_mentions": 0,
+      "verified_files": 44
+    },
+    {
+      "school": "经济学院",
+      "year": 2025,
+      "ids": [
+        "96688",
+        "96699",
+        "96729",
+        "96740",
+        "96912",
+        "96913",
+        "96925",
+        "96932",
+        "96940",
+        "96956",
+        "96960",
+        "96963",
+        "96965",
+        "96966",
+        "96967",
+        "96968",
+        "96969",
+        "96970",
+        "96971",
+        "96975",
+        "96978",
+        "96986",
+        "97415",
+        "97416",
+        "97456",
+        "97460"
+      ],
+      "relative_path": "data/经济学院/2025",
+      "plans": 26,
+      "courses": 313,
+      "course_rows": 3182,
+      "relations_by_type": {
+        "recommended_preparation": 155,
+        "term_order": 68,
+        "content": 304
+      },
+      "uncoded_rows": 0,
+      "module_groups": 168,
+      "unresolved_mentions": 0,
+      "verified_files": 52
+    },
+    {
+      "school": "经济管理试验班",
+      "year": 2024,
+      "ids": [
+        "73010"
+      ],
+      "relative_path": "data/经济管理试验班/2024",
+      "plans": 1,
+      "courses": 106,
+      "course_rows": 111,
+      "relations_by_type": {
+        "recommended_preparation": 3,
+        "term_order": 3,
+        "content": 12
+      },
+      "uncoded_rows": 0,
+      "module_groups": 1,
+      "unresolved_mentions": 0,
+      "verified_files": 2
+    },
+    {
+      "school": "自然科学试验班",
+      "year": 2024,
+      "ids": [
+        "72969"
+      ],
+      "relative_path": "data/自然科学试验班/2024",
+      "plans": 1,
+      "courses": 21,
+      "course_rows": 21,
+      "relations_by_type": {
+        "recommended_preparation": 6,
+        "term_order": 1,
+        "content": 3
+      },
+      "uncoded_rows": 0,
+      "module_groups": 1,
+      "unresolved_mentions": 0,
+      "verified_files": 2
+    },
+    {
+      "school": "药学院",
+      "year": 2023,
+      "ids": [
+        "73593"
+      ],
+      "relative_path": "data/药学院/2023",
+      "plans": 1,
+      "courses": 104,
+      "course_rows": 130,
+      "relations_by_type": {
+        "content": 19,
+        "recommended_preparation": 10,
+        "term_order": 4
+      },
+      "uncoded_rows": 0,
+      "module_groups": 9,
+      "unresolved_mentions": 0,
+      "verified_files": 2
+    },
+    {
+      "school": "药学院",
+      "year": 2024,
+      "ids": [
+        "72460",
+        "72724",
+        "72741",
+        "73061",
+        "73131"
+      ],
+      "relative_path": "data/药学院/2024",
+      "plans": 5,
+      "courses": 162,
+      "course_rows": 665,
+      "relations_by_type": {
+        "content": 101,
+        "recommended_preparation": 54,
+        "term_order": 20
+      },
+      "uncoded_rows": 0,
+      "module_groups": 42,
+      "unresolved_mentions": 0,
+      "verified_files": 10
+    },
+    {
+      "school": "药学院",
+      "year": 2025,
+      "ids": [
+        "96696",
+        "96701",
+        "96802",
+        "96950",
+        "96951",
+        "96952",
+        "97085",
+        "97092"
+      ],
+      "relative_path": "data/药学院/2025",
+      "plans": 8,
+      "courses": 221,
+      "course_rows": 584,
+      "relations_by_type": {
+        "content": 102,
+        "recommended_preparation": 35,
+        "term_order": 34
+      },
+      "uncoded_rows": 0,
+      "module_groups": 8,
+      "unresolved_mentions": 0,
+      "verified_files": 16
+    },
+    {
+      "school": "计算与智能创新学院",
+      "year": 2023,
+      "ids": [
+        "67436",
+        "67453",
+        "67455"
+      ],
+      "relative_path": "data/计算与智能创新学院/2023",
+      "plans": 3,
+      "courses": 117,
+      "course_rows": 169,
+      "relations_by_type": {
+        "recommended_preparation": 11,
+        "term_order": 11,
+        "content": 7
+      },
+      "uncoded_rows": 0,
+      "module_groups": 0,
+      "unresolved_mentions": 0,
+      "verified_files": 6
+    },
+    {
+      "school": "计算与智能创新学院",
+      "year": 2024,
+      "ids": [
+        "159182",
+        "72517",
+        "72558",
+        "72665",
+        "72677",
+        "72679",
+        "72695",
+        "72697",
+        "72755",
+        "72960",
+        "72974",
+        "73044",
+        "73052",
+        "73076"
+      ],
+      "relative_path": "data/计算与智能创新学院/2024",
+      "plans": 14,
+      "courses": 195,
+      "course_rows": 760,
+      "relations_by_type": {
+        "recommended_preparation": 49,
+        "term_order": 43,
+        "content": 49
+      },
+      "uncoded_rows": 0,
+      "module_groups": 12,
+      "unresolved_mentions": 0,
+      "verified_files": 28
+    },
+    {
+      "school": "计算与智能创新学院",
+      "year": 2025,
+      "ids": [
+        "159365",
+        "96700",
+        "96930",
+        "96942",
+        "96985",
+        "96991",
+        "97015",
+        "97078",
+        "97087",
+        "97117",
+        "97134",
+        "97135",
+        "97136",
+        "97137",
+        "97138",
+        "97142",
+        "98114",
+        "98145",
+        "98147"
+      ],
+      "relative_path": "data/计算与智能创新学院/2025",
+      "plans": 19,
+      "courses": 169,
+      "course_rows": 1088,
+      "relations_by_type": {
+        "recommended_preparation": 78,
+        "term_order": 44,
+        "content": 50
+      },
+      "uncoded_rows": 0,
+      "module_groups": 21,
+      "unresolved_mentions": 0,
+      "verified_files": 38
+    },
+    {
+      "school": "集成电路与微纳电子创新学院",
+      "year": 2023,
+      "ids": [
+        "67402"
+      ],
+      "relative_path": "data/集成电路与微纳电子创新学院/2023",
+      "plans": 1,
+      "courses": 79,
+      "course_rows": 80,
+      "relations_by_type": {
+        "recommended_preparation": 3,
+        "term_order": 2,
+        "content": 12
+      },
+      "uncoded_rows": 0,
+      "module_groups": 3,
+      "unresolved_mentions": 0,
+      "verified_files": 2
+    },
+    {
+      "school": "集成电路与微纳电子创新学院",
+      "year": 2024,
+      "ids": [
+        "72984"
+      ],
+      "relative_path": "data/集成电路与微纳电子创新学院/2024",
+      "plans": 1,
+      "courses": 74,
+      "course_rows": 75,
+      "relations_by_type": {
+        "recommended_preparation": 6,
+        "term_order": 5,
+        "content": 9
+      },
+      "uncoded_rows": 0,
+      "module_groups": 10,
+      "unresolved_mentions": 0,
+      "verified_files": 2
+    },
+    {
+      "school": "集成电路与微纳电子创新学院",
+      "year": 2025,
+      "ids": [
+        "96702",
+        "97007",
+        "97141"
+      ],
+      "relative_path": "data/集成电路与微纳电子创新学院/2025",
+      "plans": 3,
+      "courses": 129,
+      "course_rows": 289,
+      "relations_by_type": {
+        "recommended_preparation": 16,
+        "term_order": 16,
+        "content": 53
+      },
+      "uncoded_rows": 0,
+      "module_groups": 9,
+      "unresolved_mentions": 0,
+      "verified_files": 6
+    },
+    {
+      "school": "预科",
+      "year": 2025,
+      "ids": [
+        "98034"
+      ],
+      "relative_path": "data/预科/2025",
+      "plans": 1,
+      "courses": 326,
+      "course_rows": 326,
+      "relations_by_type": {
+        "recommended_preparation": 46,
+        "term_order": 1,
+        "content": 6
+      },
+      "uncoded_rows": 0,
+      "module_groups": 10,
+      "unresolved_mentions": 0,
+      "verified_files": 2
+    },
+    {
+      "school": "马克思主义学院",
+      "year": 2023,
+      "ids": [
+        "65505"
+      ],
+      "relative_path": "data/马克思主义学院/2023",
+      "plans": 1,
+      "courses": 83,
+      "course_rows": 83,
+      "relations_by_type": {
+        "recommended_preparation": 5,
+        "term_order": 3,
+        "content": 6
+      },
+      "uncoded_rows": 0,
+      "module_groups": 2,
+      "unresolved_mentions": 0,
+      "verified_files": 2
+    },
+    {
+      "school": "马克思主义学院",
+      "year": 2025,
+      "ids": [
+        "96671"
+      ],
+      "relative_path": "data/马克思主义学院/2025",
+      "plans": 1,
+      "courses": 68,
+      "course_rows": 68,
+      "relations_by_type": {
+        "content": 6,
+        "recommended_preparation": 2,
+        "term_order": 1
+      },
+      "uncoded_rows": 0,
+      "module_groups": 3,
+      "unresolved_mentions": 0,
+      "verified_files": 2
+    },
+    {
+      "school": "高分子科学系",
+      "year": 2024,
+      "ids": [
+        "154475",
+        "72746",
+        "73074"
+      ],
+      "relative_path": "data/高分子科学系/2024",
+      "plans": 3,
+      "courses": 73,
+      "course_rows": 237,
+      "relations_by_type": {
+        "recommended_preparation": 39,
+        "term_order": 36,
+        "content": 36
+      },
+      "uncoded_rows": 0,
+      "module_groups": 3,
+      "unresolved_mentions": 0,
+      "verified_files": 6
+    },
+    {
+      "school": "高分子科学系",
+      "year": 2025,
+      "ids": [
+        "149432",
+        "96711",
+        "97165"
+      ],
+      "relative_path": "data/高分子科学系/2025",
+      "plans": 3,
+      "courses": 93,
+      "course_rows": 231,
+      "relations_by_type": {
+        "recommended_preparation": 36,
+        "term_order": 29,
+        "content": 50
+      },
+      "uncoded_rows": 0,
+      "module_groups": 6,
+      "unresolved_mentions": 0,
+      "verified_files": 6
+    }
+  ]
+}

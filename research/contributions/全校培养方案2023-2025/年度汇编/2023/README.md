@@ -1,0 +1,45 @@
+# 2023 年度本科教学培养方案汇编
+
+共 119 个分专业方案。归属与专业名称按出版时的目录，原页保留对应方案的适用条件。
+[完整官方 PDF](2023-original.pdf) · [机器可读目录](index.json)
+
+| 出版时院系或归属 | 方案数 |
+|---|---:|
+| [中国语言文学系](%E4%B8%AD%E5%9B%BD%E8%AF%AD%E8%A8%80%E6%96%87%E5%AD%A6%E7%B3%BB/README.md) | 3 |
+| [临床医学院](%E4%B8%B4%E5%BA%8A%E5%8C%BB%E5%AD%A6%E9%99%A2/README.md) | 4 |
+| [信息科学与工程学院](%E4%BF%A1%E6%81%AF%E7%A7%91%E5%AD%A6%E4%B8%8E%E5%B7%A5%E7%A8%8B%E5%AD%A6%E9%99%A2/README.md) | 8 |
+| [公共卫生学院](%E5%85%AC%E5%85%B1%E5%8D%AB%E7%94%9F%E5%AD%A6%E9%99%A2/README.md) | 3 |
+| [化学系](%E5%8C%96%E5%AD%A6%E7%B3%BB/README.md) | 2 |
+| [历史学系](%E5%8E%86%E5%8F%B2%E5%AD%A6%E7%B3%BB/README.md) | 3 |
+| [口腔医学院](%E5%8F%A3%E8%85%94%E5%8C%BB%E5%AD%A6%E9%99%A2/README.md) | 1 |
+| [哲学学院](%E5%93%B2%E5%AD%A6%E5%AD%A6%E9%99%A2/README.md) | 10 |
+| [国家保密学院](%E5%9B%BD%E5%AE%B6%E4%BF%9D%E5%AF%86%E5%AD%A6%E9%99%A2/README.md) | 1 |
+| [国际关系与公共事务学院](%E5%9B%BD%E9%99%85%E5%85%B3%E7%B3%BB%E4%B8%8E%E5%85%AC%E5%85%B1%E4%BA%8B%E5%8A%A1%E5%AD%A6%E9%99%A2/README.md) | 3 |
+| [国际文化交流学院](%E5%9B%BD%E9%99%85%E6%96%87%E5%8C%96%E4%BA%A4%E6%B5%81%E5%AD%A6%E9%99%A2/README.md) | 2 |
+| [基础医学院](%E5%9F%BA%E7%A1%80%E5%8C%BB%E5%AD%A6%E9%99%A2/README.md) | 3 |
+| [外国语言文学学院](%E5%A4%96%E5%9B%BD%E8%AF%AD%E8%A8%80%E6%96%87%E5%AD%A6%E5%AD%A6%E9%99%A2/README.md) | 8 |
+| [大数据学院](%E5%A4%A7%E6%95%B0%E6%8D%AE%E5%AD%A6%E9%99%A2/README.md) | 3 |
+| [大气与海洋科学系](%E5%A4%A7%E6%B0%94%E4%B8%8E%E6%B5%B7%E6%B4%8B%E7%A7%91%E5%AD%A6%E7%B3%BB/README.md) | 1 |
+| [微电子学院](%E5%BE%AE%E7%94%B5%E5%AD%90%E5%AD%A6%E9%99%A2/README.md) | 2 |
+| [护理学院](%E6%8A%A4%E7%90%86%E5%AD%A6%E9%99%A2/README.md) | 1 |
+| [数学科学学院](%E6%95%B0%E5%AD%A6%E7%A7%91%E5%AD%A6%E5%AD%A6%E9%99%A2/README.md) | 3 |
+| [文物与博物馆学系](%E6%96%87%E7%89%A9%E4%B8%8E%E5%8D%9A%E7%89%A9%E9%A6%86%E5%AD%A6%E7%B3%BB/README.md) | 1 |
+| [新闻学院](%E6%96%B0%E9%97%BB%E5%AD%A6%E9%99%A2/README.md) | 1 |
+| [材料科学系](%E6%9D%90%E6%96%99%E7%A7%91%E5%AD%A6%E7%B3%BB/README.md) | 6 |
+| [核科学与技术系](%E6%A0%B8%E7%A7%91%E5%AD%A6%E4%B8%8E%E6%8A%80%E6%9C%AF%E7%B3%BB/README.md) | 2 |
+| [法学院](%E6%B3%95%E5%AD%A6%E9%99%A2/README.md) | 2 |
+| [泛海国际金融学院](%E6%B3%9B%E6%B5%B7%E5%9B%BD%E9%99%85%E9%87%91%E8%9E%8D%E5%AD%A6%E9%99%A2/README.md) | 1 |
+| [物理学系](%E7%89%A9%E7%90%86%E5%AD%A6%E7%B3%BB/README.md) | 3 |
+| [环境科学与工程系](%E7%8E%AF%E5%A2%83%E7%A7%91%E5%AD%A6%E4%B8%8E%E5%B7%A5%E7%A8%8B%E7%B3%BB/README.md) | 3 |
+| [生命科学学院](%E7%94%9F%E5%91%BD%E7%A7%91%E5%AD%A6%E5%AD%A6%E9%99%A2/README.md) | 4 |
+| [社会发展与公共政策学院](%E7%A4%BE%E4%BC%9A%E5%8F%91%E5%B1%95%E4%B8%8E%E5%85%AC%E5%85%B1%E6%94%BF%E7%AD%96%E5%AD%A6%E9%99%A2/README.md) | 3 |
+| [管理学院](%E7%AE%A1%E7%90%86%E5%AD%A6%E9%99%A2/README.md) | 7 |
+| [经济学院](%E7%BB%8F%E6%B5%8E%E5%AD%A6%E9%99%A2/README.md) | 9 |
+| [航空航天系](%E8%88%AA%E7%A9%BA%E8%88%AA%E5%A4%A9%E7%B3%BB/README.md) | 4 |
+| [芯片与系统前沿技术研究院（筹）与微电子学院](%E8%8A%AF%E7%89%87%E4%B8%8E%E7%B3%BB%E7%BB%9F%E5%89%8D%E6%B2%BF%E6%8A%80%E6%9C%AF%E7%A0%94%E7%A9%B6%E9%99%A2%EF%BC%88%E7%AD%B9%EF%BC%89%E4%B8%8E%E5%BE%AE%E7%94%B5%E5%AD%90%E5%AD%A6%E9%99%A2/README.md) | 1 |
+| [药学院](%E8%8D%AF%E5%AD%A6%E9%99%A2/README.md) | 2 |
+| [计算机科学技术学院](%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%A7%91%E5%AD%A6%E6%8A%80%E6%9C%AF%E5%AD%A6%E9%99%A2/README.md) | 4 |
+| [软件学院](%E8%BD%AF%E4%BB%B6%E5%AD%A6%E9%99%A2/README.md) | 1 |
+| [预科](%E9%A2%84%E7%A7%91/README.md) | 1 |
+| [马克思主义学院](%E9%A9%AC%E5%85%8B%E6%80%9D%E4%B8%BB%E4%B9%89%E5%AD%A6%E9%99%A2/README.md) | 1 |
+| [高分子科学系](%E9%AB%98%E5%88%86%E5%AD%90%E7%A7%91%E5%AD%A6%E7%B3%BB/README.md) | 2 |

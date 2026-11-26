@@ -1,0 +1,204 @@
+{
+  "cohort": 2024,
+  "department": "预科",
+  "nodes": [
+    {
+      "id": "PTSS110089",
+      "type": "course",
+      "title": "思想道德与法治",
+      "names": [
+        "思想道德与法治"
+      ],
+      "scopes": [
+        "annual-2024-1096"
+      ]
+    },
+    {
+      "id": "PTSS110088",
+      "type": "course",
+      "title": "中国近现代史纲要",
+      "names": [
+        "中国近现代史纲要"
+      ],
+      "scopes": [
+        "annual-2024-1096"
+      ]
+    },
+    {
+      "id": "CHIN110008",
+      "type": "course",
+      "title": "大学语文",
+      "names": [
+        "大学语文"
+      ],
+      "scopes": [
+        "annual-2024-1096"
+      ]
+    },
+    {
+      "id": "CHIN110013",
+      "type": "course",
+      "title": "汉语写作",
+      "names": [
+        "汉语写作"
+      ],
+      "scopes": [
+        "annual-2024-1096"
+      ]
+    },
+    {
+      "id": "MATH010001",
+      "type": "course",
+      "title": "预科数学（上）",
+      "names": [
+        "预科数学（上）"
+      ],
+      "scopes": [
+        "annual-2024-1096"
+      ]
+    },
+    {
+      "id": "MATH010002",
+      "type": "course",
+      "title": "预科数学（下）",
+      "names": [
+        "预科数学（下）"
+      ],
+      "scopes": [
+        "annual-2024-1096"
+      ]
+    },
+    {
+      "id": "ENGL010001",
+      "type": "course",
+      "title": "预科英语I",
+      "names": [
+        "预科英语I"
+      ],
+      "scopes": [
+        "annual-2024-1096"
+      ]
+    },
+    {
+      "id": "ENGL010002",
+      "type": "course",
+      "title": "预科英语II",
+      "names": [
+        "预科英语II"
+      ],
+      "scopes": [
+        "annual-2024-1096"
+      ]
+    },
+    {
+      "id": "PTSS010003",
+      "type": "course",
+      "title": "形势政策与综合评价（一）",
+      "names": [
+        "形势政策与综合评价（一）"
+      ],
+      "scopes": [
+        "annual-2024-1096"
+      ]
+    },
+    {
+      "id": "PTSS010004",
+      "type": "course",
+      "title": "形势政策与综合评价（二）",
+      "names": [
+        "形势政策与综合评价（二）"
+      ],
+      "scopes": [
+        "annual-2024-1096"
+      ]
+    },
+    {
+      "id": "annual-2024-1096",
+      "type": "programme",
+      "title": "复旦大学预科生培养方案（2024年）",
+      "chapter": "annual-2024-1096",
+      "course_codes": [
+        "CHIN110008",
+        "CHIN110013",
+        "ENGL010001",
+        "ENGL010002",
+        "MATH010001",
+        "MATH010002",
+        "PTSS010003",
+        "PTSS010004",
+        "PTSS110088",
+        "PTSS110089"
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "source": "MATH010001",
+      "target": "MATH010002",
+      "kind": "recommended_preparation",
+      "directed": true,
+      "scope": "annual-2024-1096",
+      "basis": "同节课程题名标明连续分册或序号。",
+      "evidence": [
+        {
+          "pdf_page": 1111,
+          "table": 0,
+          "row": 1
+        },
+        {
+          "pdf_page": 1111,
+          "table": 0,
+          "row": 2
+        }
+      ]
+    },
+    {
+      "source": "ENGL010001",
+      "target": "ENGL010002",
+      "kind": "recommended_preparation",
+      "directed": true,
+      "scope": "annual-2024-1096",
+      "basis": "同节课程题名标明连续分册或序号。",
+      "evidence": [
+        {
+          "pdf_page": 1111,
+          "table": 0,
+          "row": 3
+        },
+        {
+          "pdf_page": 1111,
+          "table": 0,
+          "row": 4
+        }
+      ]
+    },
+    {
+      "source": "PTSS010003",
+      "target": "PTSS010004",
+      "kind": "recommended_preparation",
+      "directed": true,
+      "scope": "annual-2024-1096",
+      "basis": "同节课程题名标明连续分册或序号。",
+      "evidence": [
+        {
+          "pdf_page": 1111,
+          "table": 0,
+          "row": 9
+        },
+        {
+          "pdf_page": 1111,
+          "table": 0,
+          "row": 10
+        }
+      ]
+    }
+  ],
+  "relation_types": {
+    "official_preparation": "方案列明预修",
+    "official_sequence": "方案文字指定顺序",
+    "recommended_preparation": "建议学习顺序",
+    "term_order": "方案排课先后",
+    "content": "课程内容联系"
+  },
+  "source_url": "https://jwc.fudan.edu.cn/_upload/article/files/83/6c/8a3c080c4f8991024f4b59ad4f1b/a5fbd7c6-a589-4638-a379-cc2297ca3ea6.pdf"
+}
