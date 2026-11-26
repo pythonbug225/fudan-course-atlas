@@ -1,0 +1,3184 @@
+{
+  "schema_version": "1.0",
+  "review_date": "2026-11-26",
+  "scope": "42份2023–2025级外院公开接口官方Word原件内嵌图片；不包含另外下载的历史PDF图片。",
+  "image_instances": 133,
+  "unique_sha256_images": 73,
+  "reviewed_unique_images": 73,
+  "methods": [
+    "按SHA-256去重并保留每个副本路径",
+    "对全部73种图像逐张查看联系表；对12种含知识技能箭头的课程体系图和本博课程树/学期表查看原图",
+    "只按实际图示记录箭头，不把学期先后、空间上下和模块组成当作逐课先修"
+  ],
+  "category_unique_counts": {
+    "university_wordmark": 1,
+    "learning_objectives": 17,
+    "degree_credit_requirements": 22,
+    "degree_pathway_credit_diagram": 14,
+    "semester_curriculum_table": 6,
+    "semester_skills_diagram": 12,
+    "programme_module_tree": 1
+  },
+  "category_instance_counts": {
+    "university_wordmark": 42,
+    "learning_objectives": 23,
+    "degree_credit_requirements": 22,
+    "degree_pathway_credit_diagram": 22,
+    "semester_curriculum_table": 8,
+    "semester_skills_diagram": 15,
+    "programme_module_tree": 1
+  },
+  "knowledge_skill_arrow_images": 12,
+  "knowledge_skill_arrows_recorded": 47,
+  "verified_course_prerequisite_edges": 0,
+  "conclusion": "2023和2024的19份Word仅包含共同校名字样；2025的23份Word另有目标、学分、路径和课程体系图。发现的47条知识技能箭头未标明具体课程代码或先修门槛，不能认定为正式课程先修。",
+  "figures": [
+    {
+      "sha256": "079ee6539e29b85d9bccb9016e8147e9319c1fd1aa2a8a6ac0f4e74a915109bc",
+      "representative": "2023/official/source-figures/plan-67513-document_image_rId4.png",
+      "dimensions": [
+        393,
+        128
+      ],
+      "instances": [
+        "2023/official/source-figures/plan-67513-document_image_rId4.png",
+        "2023/official/source-figures/plan-67553-document_image_rId4.png",
+        "2023/official/source-figures/plan-67573-document_image_rId4.png",
+        "2023/official/source-figures/plan-67595-document_image_rId4.png",
+        "2023/official/source-figures/plan-73552-document_image_rId4.png",
+        "2024/official/source-figures/plan-153245-document_image_rId4.png",
+        "2024/official/source-figures/plan-72747-document_image_rId4.png",
+        "2024/official/source-figures/plan-72749-document_image_rId4.png",
+        "2024/official/source-figures/plan-72750-document_image_rId4.png",
+        "2024/official/source-figures/plan-72751-document_image_rId4.png",
+        "2024/official/source-figures/plan-72752-document_image_rId4.png",
+        "2024/official/source-figures/plan-72758-document_image_rId4.png",
+        "2024/official/source-figures/plan-72769-document_image_rId4.png",
+        "2024/official/source-figures/plan-72772-document_image_rId4.png",
+        "2024/official/source-figures/plan-72773-document_image_rId4.png",
+        "2024/official/source-figures/plan-73394-document_image_rId4.png",
+        "2024/official/source-figures/plan-73395-document_image_rId4.png",
+        "2024/official/source-figures/plan-73396-document_image_rId4.png",
+        "2024/official/source-figures/plan-73607-document_image_rId4.png",
+        "2025/official/source-figures/plan-96712-document_image_rId4.png",
+        "2025/official/source-figures/plan-96786-document_image_rId4.png",
+        "2025/official/source-figures/plan-96808-document_image_rId4.png",
+        "2025/official/source-figures/plan-96911-document_image_rId4.png",
+        "2025/official/source-figures/plan-96921-document_image_rId4.png",
+        "2025/official/source-figures/plan-96924-document_image_rId4.png",
+        "2025/official/source-figures/plan-96926-document_image_rId4.png",
+        "2025/official/source-figures/plan-96928-document_image_rId4.png",
+        "2025/official/source-figures/plan-96973-document_image_rId4.png",
+        "2025/official/source-figures/plan-96976-document_image_rId4.png",
+        "2025/official/source-figures/plan-96983-document_image_rId4.png",
+        "2025/official/source-figures/plan-96987-document_image_rId4.png",
+        "2025/official/source-figures/plan-96989-document_image_rId4.png",
+        "2025/official/source-figures/plan-96992-document_image_rId4.png",
+        "2025/official/source-figures/plan-96995-document_image_rId4.png",
+        "2025/official/source-figures/plan-96996-document_image_rId4.png",
+        "2025/official/source-figures/plan-96997-document_image_rId4.png",
+        "2025/official/source-figures/plan-96999-document_image_rId4.png",
+        "2025/official/source-figures/plan-99306-document_image_rId4.png",
+        "2025/official/source-figures/plan-99655-document_image_rId4.png",
+        "2025/official/source-figures/plan-99830-document_image_rId4.png",
+        "2025/official/source-figures/plan-99832-document_image_rId4.png",
+        "2025/official/source-figures/plan-99839-document_image_rId4.png"
+      ],
+      "review_id": 1,
+      "category": "university_wordmark",
+      "visual_review": "reviewed",
+      "review_method": "contact sheet visually inspected",
+      "observation": "复旦大学书法校名图案，无课程关系；42份Word均含同一字节图案。",
+      "verified_course_prerequisite_edges": [],
+      "source_program_ids": [
+        "153245",
+        "67513",
+        "67553",
+        "67573",
+        "67595",
+        "72747",
+        "72749",
+        "72750",
+        "72751",
+        "72752",
+        "72758",
+        "72769",
+        "72772",
+        "72773",
+        "73394",
+        "73395",
+        "73396",
+        "73552",
+        "73607",
+        "96712",
+        "96786",
+        "96808",
+        "96911",
+        "96921",
+        "96924",
+        "96926",
+        "96928",
+        "96973",
+        "96976",
+        "96983",
+        "96987",
+        "96989",
+        "96992",
+        "96995",
+        "96996",
+        "96997",
+        "96999",
+        "99306",
+        "99655",
+        "99830",
+        "99832",
+        "99839"
+      ],
+      "source_detail_urls": [
+        "https://fdjwgl.fudan.edu.cn/manager/bizType/2/major-program-search/info/153245?skipAuth=1",
+        "https://fdjwgl.fudan.edu.cn/manager/bizType/2/major-program-search/info/67513?skipAuth=1",
+        "https://fdjwgl.fudan.edu.cn/manager/bizType/2/major-program-search/info/67553?skipAuth=1",
+        "https://fdjwgl.fudan.edu.cn/manager/bizType/2/major-program-search/info/67573?skipAuth=1",
+        "https://fdjwgl.fudan.edu.cn/manager/bizType/2/major-program-search/info/67595?skipAuth=1",
+        "https://fdjwgl.fudan.edu.cn/manager/bizType/2/major-program-search/info/72747?skipAuth=1",
+        "https://fdjwgl.fudan.edu.cn/manager/bizType/2/major-program-search/info/72749?skipAuth=1",
+        "https://fdjwgl.fudan.edu.cn/manager/bizType/2/major-program-search/info/72750?skipAuth=1",
+        "https://fdjwgl.fudan.edu.cn/manager/bizType/2/major-program-search/info/72751?skipAuth=1",
+        "https://fdjwgl.fudan.edu.cn/manager/bizType/2/major-program-search/info/72752?skipAuth=1",
+        "https://fdjwgl.fudan.edu.cn/manager/bizType/2/major-program-search/info/72758?skipAuth=1",
+        "https://fdjwgl.fudan.edu.cn/manager/bizType/2/major-program-search/info/72769?skipAuth=1",
+        "https://fdjwgl.fudan.edu.cn/manager/bizType/2/major-program-search/info/72772?skipAuth=1",
+        "https://fdjwgl.fudan.edu.cn/manager/bizType/2/major-program-search/info/72773?skipAuth=1",
+        "https://fdjwgl.fudan.edu.cn/manager/bizType/2/major-program-search/info/73394?skipAuth=1",
+        "https://fdjwgl.fudan.edu.cn/manager/bizType/2/major-program-search/info/73395?skipAuth=1",
+        "https://fdjwgl.fudan.edu.cn/manager/bizType/2/major-program-search/info/73396?skipAuth=1",
+        "https://fdjwgl.fudan.edu.cn/manager/bizType/2/major-program-search/info/73552?skipAuth=1",
+        "https://fdjwgl.fudan.edu.cn/manager/bizType/2/major-program-search/info/73607?skipAuth=1",
+        "https://fdjwgl.fudan.edu.cn/manager/bizType/2/major-program-search/info/96712?skipAuth=1",
+        "https://fdjwgl.fudan.edu.cn/manager/bizType/2/major-program-search/info/96786?skipAuth=1",
+        "https://fdjwgl.fudan.edu.cn/manager/bizType/2/major-program-search/info/96808?skipAuth=1",
+        "https://fdjwgl.fudan.edu.cn/manager/bizType/2/major-program-search/info/96911?skipAuth=1",
+        "https://fdjwgl.fudan.edu.cn/manager/bizType/2/major-program-search/info/96921?skipAuth=1",
+        "https://fdjwgl.fudan.edu.cn/manager/bizType/2/major-program-search/info/96924?skipAuth=1",
+        "https://fdjwgl.fudan.edu.cn/manager/bizType/2/major-program-search/info/96926?skipAuth=1",
+        "https://fdjwgl.fudan.edu.cn/manager/bizType/2/major-program-search/info/96928?skipAuth=1",
+        "https://fdjwgl.fudan.edu.cn/manager/bizType/2/major-program-search/info/96973?skipAuth=1",
+        "https://fdjwgl.fudan.edu.cn/manager/bizType/2/major-program-search/info/96976?skipAuth=1",
+        "https://fdjwgl.fudan.edu.cn/manager/bizType/2/major-program-search/info/96983?skipAuth=1",
+        "https://fdjwgl.fudan.edu.cn/manager/bizType/2/major-program-search/info/96987?skipAuth=1",
+        "https://fdjwgl.fudan.edu.cn/manager/bizType/2/major-program-search/info/96989?skipAuth=1",
+        "https://fdjwgl.fudan.edu.cn/manager/bizType/2/major-program-search/info/96992?skipAuth=1",
+        "https://fdjwgl.fudan.edu.cn/manager/bizType/2/major-program-search/info/96995?skipAuth=1",
+        "https://fdjwgl.fudan.edu.cn/manager/bizType/2/major-program-search/info/96996?skipAuth=1",
+        "https://fdjwgl.fudan.edu.cn/manager/bizType/2/major-program-search/info/96997?skipAuth=1",
+        "https://fdjwgl.fudan.edu.cn/manager/bizType/2/major-program-search/info/96999?skipAuth=1",
+        "https://fdjwgl.fudan.edu.cn/manager/bizType/2/major-program-search/info/99306?skipAuth=1",
+        "https://fdjwgl.fudan.edu.cn/manager/bizType/2/major-program-search/info/99655?skipAuth=1",
+        "https://fdjwgl.fudan.edu.cn/manager/bizType/2/major-program-search/info/99830?skipAuth=1",
+        "https://fdjwgl.fudan.edu.cn/manager/bizType/2/major-program-search/info/99832?skipAuth=1",
+        "https://fdjwgl.fudan.edu.cn/manager/bizType/2/major-program-search/info/99839?skipAuth=1"
+      ],
+      "visible_arrow_kind": "none",
+      "visible_concept_arrows": []
+    },
+    {
+      "sha256": "c993875e819f366f6c974ed6be153e11aa15202c332fb6ef15e11acaac771e58",
+      "representative": "2025/official/source-figures/plan-96712-document_image_rId5.jpeg",
+      "dimensions": [
+        761,
+        305
+      ],
+      "instances": [
+        "2025/official/source-figures/plan-96712-document_image_rId5.jpeg",
+        "2025/official/source-figures/plan-96921-document_image_rId5.jpeg",
+        "2025/official/source-figures/plan-99306-document_image_rId5.jpeg"
+      ],
+      "review_id": 2,
+      "category": "learning_objectives",
+      "visual_review": "reviewed",
+      "review_method": "contact sheet visually inspected",
+      "observation": "人才培养知识、能力、素质目标的树状说明；连接表示目标分解，不表示课程先修。",
+      "verified_course_prerequisite_edges": [],
+      "source_program_ids": [
+        "96712",
+        "96921",
+        "99306"
+      ],
+      "source_detail_urls": [
+        "https://fdjwgl.fudan.edu.cn/manager/bizType/2/major-program-search/info/96712?skipAuth=1",
+        "https://fdjwgl.fudan.edu.cn/manager/bizType/2/major-program-search/info/96921?skipAuth=1",
+        "https://fdjwgl.fudan.edu.cn/manager/bizType/2/major-program-search/info/99306?skipAuth=1"
+      ],
+      "visible_arrow_kind": "none",
+      "visible_concept_arrows": []
+    },
+    {
+      "sha256": "e2527e80d5eef1fdd2473b1ed74227f4089421e25aa381d525de08f30dc3a661",
+      "representative": "2025/official/source-figures/plan-96712-document_image_rId6.png",
+      "dimensions": [
+        750,
+        233
+      ],
+      "instances": [
+        "2025/official/source-figures/plan-96712-document_image_rId6.png"
+      ],
+      "review_id": 3,
+      "category": "degree_credit_requirements",
+      "visual_review": "reviewed",
+      "review_method": "contact sheet visually inspected",
+      "observation": "授予学位、专业及学段审核学分表，无课程依赖箭头。",
+      "verified_course_prerequisite_edges": [],
+      "source_program_ids": [
+        "96712"
+      ],
+      "source_detail_urls": [
+        "https://fdjwgl.fudan.edu.cn/manager/bizType/2/major-program-search/info/96712?skipAuth=1"
+      ],
+      "visible_arrow_kind": "none",
+      "visible_concept_arrows": []
+    },
+    {
+      "sha256": "40a425fa72a93836885565e0b26d77c7883c0306452ce732729f1744bd19fff1",
+      "representative": "2025/official/source-figures/plan-96712-document_image_rId7.png",
+      "dimensions": [
+        750,
+        294
+      ],
+      "instances": [
+        "2025/official/source-figures/plan-96712-document_image_rId7.png"
+      ],
+      "review_id": 4,
+      "category": "degree_pathway_credit_diagram",
+      "visual_review": "reviewed",
+      "review_method": "contact sheet visually inspected",
+      "observation": "通识、专业培养、融合创新模块合成不同培养路径及总学分；箭头表示培养路径/学分组成，不是逐课先修。",
+      "verified_course_prerequisite_edges": [],
+      "source_program_ids": [
+        "96712"
+      ],
+      "source_detail_urls": [
+        "https://fdjwgl.fudan.edu.cn/manager/bizType/2/major-program-search/info/96712?skipAuth=1"
+      ],
+      "visible_arrow_kind": "degree_pathway_composition",
+      "visible_concept_arrows": []
+    },
+    {
+      "sha256": "e62472c0dfbaa5687487ade809f96787134e79d0878a49ccbaff0592fedf735a",
+      "representative": "2025/official/source-figures/plan-96712-document_image_rId8.png",
+      "dimensions": [
+        750,
+        360
+      ],
+      "instances": [
+        "2025/official/source-figures/plan-96712-document_image_rId8.png",
+        "2025/official/source-figures/plan-99306-document_image_rId8.png"
+      ],
+      "review_id": 5,
+      "category": "semester_curriculum_table",
+      "visual_review": "reviewed",
+      "review_method": "contact sheet; full-resolution original inspected",
+      "observation": "课程体系与科研实践按学期排表，未见连接具体课程的箭头；不将学期上下位置转成先修。",
+      "verified_course_prerequisite_edges": [],
+      "source_program_ids": [
+        "96712",
+        "99306"
+      ],
+      "source_detail_urls": [
+        "https://fdjwgl.fudan.edu.cn/manager/bizType/2/major-program-search/info/96712?skipAuth=1",
+        "https://fdjwgl.fudan.edu.cn/manager/bizType/2/major-program-search/info/99306?skipAuth=1"
+      ],
+      "visible_arrow_kind": "none",
+      "visible_concept_arrows": []
+    },
+    {
+      "sha256": "baae982c8b6b9b054d320561fd2f0462f72b039e9fd0f99cf895658a669a9435",
+      "representative": "2025/official/source-figures/plan-96786-document_image_rId5.png",
+      "dimensions": [
+        750,
+        312
+      ],
+      "instances": [
+        "2025/official/source-figures/plan-96786-document_image_rId5.png"
+      ],
+      "review_id": 6,
+      "category": "learning_objectives",
+      "visual_review": "reviewed",
+      "review_method": "contact sheet visually inspected",
+      "observation": "人才培养知识、能力、素质目标的树状说明；连接表示目标分解，不表示课程先修。",
+      "verified_course_prerequisite_edges": [],
+      "source_program_ids": [
+        "96786"
+      ],
+      "source_detail_urls": [
+        "https://fdjwgl.fudan.edu.cn/manager/bizType/2/major-program-search/info/96786?skipAuth=1"
+      ],
+      "visible_arrow_kind": "none",
+      "visible_concept_arrows": []
+    },
+    {
+      "sha256": "b918550fd368ea653470ebb5fe98a1cd928ce4a61c43387e83ac0984f6b0a3bf",
+      "representative": "2025/official/source-figures/plan-96786-document_image_rId6.jpeg",
+      "dimensions": [
+        1060,
+        330
+      ],
+      "instances": [
+        "2025/official/source-figures/plan-96786-document_image_rId6.jpeg"
+      ],
+      "review_id": 7,
+      "category": "degree_credit_requirements",
+      "visual_review": "reviewed",
+      "review_method": "contact sheet visually inspected",
+      "observation": "授予学位、专业及学段审核学分表，无课程依赖箭头。",
+      "verified_course_prerequisite_edges": [],
+      "source_program_ids": [
+        "96786"
+      ],
+      "source_detail_urls": [
+        "https://fdjwgl.fudan.edu.cn/manager/bizType/2/major-program-search/info/96786?skipAuth=1"
+      ],
+      "visible_arrow_kind": "none",
+      "visible_concept_arrows": []
+    },
+    {
+      "sha256": "9c109f792de41f7b080960e28a214416b1f381fbbff895b30f4536725c8ebee0",
+      "representative": "2025/official/source-figures/plan-96786-document_image_rId7.jpeg",
+      "dimensions": [
+        796,
+        355
+      ],
+      "instances": [
+        "2025/official/source-figures/plan-96786-document_image_rId7.jpeg"
+      ],
+      "review_id": 8,
+      "category": "degree_pathway_credit_diagram",
+      "visual_review": "reviewed",
+      "review_method": "contact sheet visually inspected",
+      "observation": "通识、专业培养、融合创新模块合成不同培养路径及总学分；箭头表示培养路径/学分组成，不是逐课先修。",
+      "verified_course_prerequisite_edges": [],
+      "source_program_ids": [
+        "96786"
+      ],
+      "source_detail_urls": [
+        "https://fdjwgl.fudan.edu.cn/manager/bizType/2/major-program-search/info/96786?skipAuth=1"
+      ],
+      "visible_arrow_kind": "degree_pathway_composition",
+      "visible_concept_arrows": []
+    },
+    {
+      "sha256": "27698df33926c90dab59f675c9fa7ec069ebe02295c1e4909b0c5eec9dff45b5",
+      "representative": "2025/official/source-figures/plan-96786-document_image_rId8.jpeg",
+      "dimensions": [
+        1078,
+        484
+      ],
+      "instances": [
+        "2025/official/source-figures/plan-96786-document_image_rId8.jpeg"
+      ],
+      "review_id": 9,
+      "category": "semester_curriculum_table",
+      "visual_review": "reviewed",
+      "review_method": "contact sheet visually inspected",
+      "observation": "课程体系与科研实践按学期排表，未见连接具体课程的箭头；不将学期上下位置转成先修。",
+      "verified_course_prerequisite_edges": [],
+      "source_program_ids": [
+        "96786"
+      ],
+      "source_detail_urls": [
+        "https://fdjwgl.fudan.edu.cn/manager/bizType/2/major-program-search/info/96786?skipAuth=1"
+      ],
+      "visible_arrow_kind": "none",
+      "visible_concept_arrows": []
+    },
+    {
+      "sha256": "427acc1441caba7975c2fc36b29f826a6cd2a2e2b4b2704cbf9b40d2f62354bf",
+      "representative": "2025/official/source-figures/plan-96808-document_image_rId5.jpeg",
+      "dimensions": [
+        634,
+        256
+      ],
+      "instances": [
+        "2025/official/source-figures/plan-96808-document_image_rId5.jpeg",
+        "2025/official/source-figures/plan-99832-document_image_rId5.jpeg"
+      ],
+      "review_id": 10,
+      "category": "learning_objectives",
+      "visual_review": "reviewed",
+      "review_method": "contact sheet visually inspected",
+      "observation": "人才培养知识、能力、素质目标的树状说明；连接表示目标分解，不表示课程先修。",
+      "verified_course_prerequisite_edges": [],
+      "source_program_ids": [
+        "96808",
+        "99832"
+      ],
+      "source_detail_urls": [
+        "https://fdjwgl.fudan.edu.cn/manager/bizType/2/major-program-search/info/96808?skipAuth=1",
+        "https://fdjwgl.fudan.edu.cn/manager/bizType/2/major-program-search/info/99832?skipAuth=1"
+      ],
+      "visible_arrow_kind": "none",
+      "visible_concept_arrows": []
+    },
+    {
+      "sha256": "e6db5b4e7534ba531cb238fede35db9bec6b14c6b59de1282852343a60353e3f",
+      "representative": "2025/official/source-figures/plan-96808-document_image_rId6.jpeg",
+      "dimensions": [
+        963,
+        295
+      ],
+      "instances": [
+        "2025/official/source-figures/plan-96808-document_image_rId6.jpeg"
+      ],
+      "review_id": 11,
+      "category": "degree_credit_requirements",
+      "visual_review": "reviewed",
+      "review_method": "contact sheet visually inspected",
+      "observation": "授予学位、专业及学段审核学分表，无课程依赖箭头。",
+      "verified_course_prerequisite_edges": [],
+      "source_program_ids": [
+        "96808"
+      ],
+      "source_detail_urls": [
+        "https://fdjwgl.fudan.edu.cn/manager/bizType/2/major-program-search/info/96808?skipAuth=1"
+      ],
+      "visible_arrow_kind": "none",
+      "visible_concept_arrows": []
+    },
+    {
+      "sha256": "50888a514421bb1d6c6a99a39370059d674fa85fcfd1a78336262dd3748eb6b7",
+      "representative": "2025/official/source-figures/plan-96808-document_image_rId7.jpeg",
+      "dimensions": [
+        611,
+        216
+      ],
+      "instances": [
+        "2025/official/source-figures/plan-96808-document_image_rId7.jpeg"
+      ],
+      "review_id": 12,
+      "category": "degree_pathway_credit_diagram",
+      "visual_review": "reviewed",
+      "review_method": "contact sheet visually inspected",
+      "observation": "通识、专业培养、融合创新模块合成不同培养路径及总学分；箭头表示培养路径/学分组成，不是逐课先修。",
+      "verified_course_prerequisite_edges": [],
+      "source_program_ids": [
+        "96808"
+      ],
+      "source_detail_urls": [
+        "https://fdjwgl.fudan.edu.cn/manager/bizType/2/major-program-search/info/96808?skipAuth=1"
+      ],
+      "visible_arrow_kind": "degree_pathway_composition",
+      "visible_concept_arrows": []
+    },
+    {
+      "sha256": "e45d08d21bcdeab3cd958cf1acd7167b9c9c4e71b51c3f31ea51fcf20a327498",
+      "representative": "2025/official/source-figures/plan-96808-document_image_rId8.jpeg",
+      "dimensions": [
+        481,
+        258
+      ],
+      "instances": [
+        "2025/official/source-figures/plan-96808-document_image_rId8.jpeg",
+        "2025/official/source-figures/plan-99832-document_image_rId8.jpeg"
+      ],
+      "review_id": 13,
+      "category": "semester_curriculum_table",
+      "visual_review": "reviewed",
+      "review_method": "contact sheet visually inspected",
+      "observation": "课程体系与科研实践按学期排表，未见连接具体课程的箭头；不将学期上下位置转成先修。",
+      "verified_course_prerequisite_edges": [],
+      "source_program_ids": [
+        "96808",
+        "99832"
+      ],
+      "source_detail_urls": [
+        "https://fdjwgl.fudan.edu.cn/manager/bizType/2/major-program-search/info/96808?skipAuth=1",
+        "https://fdjwgl.fudan.edu.cn/manager/bizType/2/major-program-search/info/99832?skipAuth=1"
+      ],
+      "visible_arrow_kind": "none",
+      "visible_concept_arrows": []
+    },
+    {
+      "sha256": "631c57b1f16bda42b6e12975beed8dd3042cdfd10f55b0b11efab758d120d214",
+      "representative": "2025/official/source-figures/plan-96911-document_image_rId5.jpeg",
+      "dimensions": [
+        1161,
+        411
+      ],
+      "instances": [
+        "2025/official/source-figures/plan-96911-document_image_rId5.jpeg"
+      ],
+      "review_id": 14,
+      "category": "learning_objectives",
+      "visual_review": "reviewed",
+      "review_method": "contact sheet visually inspected",
+      "observation": "人才培养知识、能力、素质目标的树状说明；连接表示目标分解，不表示课程先修。",
+      "verified_course_prerequisite_edges": [],
+      "source_program_ids": [
+        "96911"
+      ],
+      "source_detail_urls": [
+        "https://fdjwgl.fudan.edu.cn/manager/bizType/2/major-program-search/info/96911?skipAuth=1"
+      ],
+      "visible_arrow_kind": "none",
+      "visible_concept_arrows": []
+    },
+    {
+      "sha256": "2e0cd82c718fc7b0b156156dd870409e5804697533cafdb66e43ead9c82d241a",
+      "representative": "2025/official/source-figures/plan-96911-document_image_rId6.jpeg",
+      "dimensions": [
+        1188,
+        298
+      ],
+      "instances": [
+        "2025/official/source-figures/plan-96911-document_image_rId6.jpeg"
+      ],
+      "review_id": 15,
+      "category": "degree_credit_requirements",
+      "visual_review": "reviewed",
+      "review_method": "contact sheet visually inspected",
+      "observation": "授予学位、专业及学段审核学分表，无课程依赖箭头。",
+      "verified_course_prerequisite_edges": [],
+      "source_program_ids": [
+        "96911"
+      ],
+      "source_detail_urls": [
+        "https://fdjwgl.fudan.edu.cn/manager/bizType/2/major-program-search/info/96911?skipAuth=1"
+      ],
+      "visible_arrow_kind": "none",
+      "visible_concept_arrows": []
+    },
+    {
+      "sha256": "a0871d171aa695d82f72c9a86a51c8a36f417cbdaacfe98b5bfda7d800d02ad0",
+      "representative": "2025/official/source-figures/plan-96911-document_image_rId7.jpeg",
+      "dimensions": [
+        789,
+        325
+      ],
+      "instances": [
+        "2025/official/source-figures/plan-96911-document_image_rId7.jpeg"
+      ],
+      "review_id": 16,
+      "category": "degree_pathway_credit_diagram",
+      "visual_review": "reviewed",
+      "review_method": "contact sheet visually inspected",
+      "observation": "通识、专业培养、融合创新模块合成不同培养路径及总学分；箭头表示培养路径/学分组成，不是逐课先修。",
+      "verified_course_prerequisite_edges": [],
+      "source_program_ids": [
+        "96911"
+      ],
+      "source_detail_urls": [
+        "https://fdjwgl.fudan.edu.cn/manager/bizType/2/major-program-search/info/96911?skipAuth=1"
+      ],
+      "visible_arrow_kind": "degree_pathway_composition",
+      "visible_concept_arrows": []
+    },
+    {
+      "sha256": "a1b29b74bbde7166ee2e84c10a05810dedcdad5ccb3b8cdf4664eed21c651d07",
+      "representative": "2025/official/source-figures/plan-96911-document_image_rId8.jpeg",
+      "dimensions": [
+        894,
+        402
+      ],
+      "instances": [
+        "2025/official/source-figures/plan-96911-document_image_rId8.jpeg"
+      ],
+      "review_id": 17,
+      "category": "semester_curriculum_table",
+      "visual_review": "reviewed",
+      "review_method": "contact sheet visually inspected",
+      "observation": "课程体系与科研实践按学期排表，未见连接具体课程的箭头；不将学期上下位置转成先修。",
+      "verified_course_prerequisite_edges": [],
+      "source_program_ids": [
+        "96911"
+      ],
+      "source_detail_urls": [
+        "https://fdjwgl.fudan.edu.cn/manager/bizType/2/major-program-search/info/96911?skipAuth=1"
+      ],
+      "visible_arrow_kind": "none",
+      "visible_concept_arrows": []
+    },
+    {
+      "sha256": "79844b2f928ded4d28c46dfdeff94204ae11db2bbdbcfd77eb303744522d10b4",
+      "representative": "2025/official/source-figures/plan-96921-document_image_rId6.jpeg",
+      "dimensions": [
+        1066,
+        330
+      ],
+      "instances": [
+        "2025/official/source-figures/plan-96921-document_image_rId6.jpeg"
+      ],
+      "review_id": 18,
+      "category": "degree_credit_requirements",
+      "visual_review": "reviewed",
+      "review_method": "contact sheet visually inspected",
+      "observation": "授予学位、专业及学段审核学分表，无课程依赖箭头。",
+      "verified_course_prerequisite_edges": [],
+      "source_program_ids": [
+        "96921"
+      ],
+      "source_detail_urls": [
+        "https://fdjwgl.fudan.edu.cn/manager/bizType/2/major-program-search/info/96921?skipAuth=1"
+      ],
+      "visible_arrow_kind": "none",
+      "visible_concept_arrows": []
+    },
+    {
+      "sha256": "cebda5aa22ae48c25827f473e3867df0bbbc27e5b9873565c76a8e4a119a9b0d",
+      "representative": "2025/official/source-figures/plan-96921-document_image_rId7.jpeg",
+      "dimensions": [
+        847,
+        355
+      ],
+      "instances": [
+        "2025/official/source-figures/plan-96921-document_image_rId7.jpeg"
+      ],
+      "review_id": 19,
+      "category": "degree_pathway_credit_diagram",
+      "visual_review": "reviewed",
+      "review_method": "contact sheet visually inspected",
+      "observation": "通识、专业培养、融合创新模块合成不同培养路径及总学分；箭头表示培养路径/学分组成，不是逐课先修。",
+      "verified_course_prerequisite_edges": [],
+      "source_program_ids": [
+        "96921"
+      ],
+      "source_detail_urls": [
+        "https://fdjwgl.fudan.edu.cn/manager/bizType/2/major-program-search/info/96921?skipAuth=1"
+      ],
+      "visible_arrow_kind": "degree_pathway_composition",
+      "visible_concept_arrows": []
+    },
+    {
+      "sha256": "e308ea5a679045942631a2ad22ef0a09927ed31e5a5accd634b65e5e33146ca4",
+      "representative": "2025/official/source-figures/plan-96921-document_image_rId8.jpeg",
+      "dimensions": [
+        955,
+        460
+      ],
+      "instances": [
+        "2025/official/source-figures/plan-96921-document_image_rId8.jpeg"
+      ],
+      "review_id": 20,
+      "category": "semester_curriculum_table",
+      "visual_review": "reviewed",
+      "review_method": "contact sheet visually inspected",
+      "observation": "课程体系与科研实践按学期排表，未见连接具体课程的箭头；不将学期上下位置转成先修。",
+      "verified_course_prerequisite_edges": [],
+      "source_program_ids": [
+        "96921"
+      ],
+      "source_detail_urls": [
+        "https://fdjwgl.fudan.edu.cn/manager/bizType/2/major-program-search/info/96921?skipAuth=1"
+      ],
+      "visible_arrow_kind": "none",
+      "visible_concept_arrows": []
+    },
+    {
+      "sha256": "50b11a14f8716087357abe651d6a9dda7ae270651639ecfa7a7be1aed884a598",
+      "representative": "2025/official/source-figures/plan-96924-document_image_rId5.jpeg",
+      "dimensions": [
+        763,
+        304
+      ],
+      "instances": [
+        "2025/official/source-figures/plan-96924-document_image_rId5.jpeg",
+        "2025/official/source-figures/plan-99830-document_image_rId5.jpeg"
+      ],
+      "review_id": 21,
+      "category": "learning_objectives",
+      "visual_review": "reviewed",
+      "review_method": "contact sheet visually inspected",
+      "observation": "人才培养知识、能力、素质目标的树状说明；连接表示目标分解，不表示课程先修。",
+      "verified_course_prerequisite_edges": [],
+      "source_program_ids": [
+        "96924",
+        "99830"
+      ],
+      "source_detail_urls": [
+        "https://fdjwgl.fudan.edu.cn/manager/bizType/2/major-program-search/info/96924?skipAuth=1",
+        "https://fdjwgl.fudan.edu.cn/manager/bizType/2/major-program-search/info/99830?skipAuth=1"
+      ],
+      "visible_arrow_kind": "none",
+      "visible_concept_arrows": []
+    },
+    {
+      "sha256": "f66fea646db92552d9ec5c3bd3d9051583b503a4f54ab428b2ecf1da169eac7b",
+      "representative": "2025/official/source-figures/plan-96924-document_image_rId6.jpeg",
+      "dimensions": [
+        1093,
+        327
+      ],
+      "instances": [
+        "2025/official/source-figures/plan-96924-document_image_rId6.jpeg"
+      ],
+      "review_id": 22,
+      "category": "degree_credit_requirements",
+      "visual_review": "reviewed",
+      "review_method": "contact sheet visually inspected",
+      "observation": "授予学位、专业及学段审核学分表，无课程依赖箭头。",
+      "verified_course_prerequisite_edges": [],
+      "source_program_ids": [
+        "96924"
+      ],
+      "source_detail_urls": [
+        "https://fdjwgl.fudan.edu.cn/manager/bizType/2/major-program-search/info/96924?skipAuth=1"
+      ],
+      "visible_arrow_kind": "none",
+      "visible_concept_arrows": []
+    },
+    {
+      "sha256": "366c52d4f854e5a9577344b486076d0aeda2bb25a2571a246c96a8828aea7ad2",
+      "representative": "2025/official/source-figures/plan-96924-document_image_rId7.jpeg",
+      "dimensions": [
+        665,
+        263
+      ],
+      "instances": [
+        "2025/official/source-figures/plan-96924-document_image_rId7.jpeg",
+        "2025/official/source-figures/plan-96973-document_image_rId7.jpeg",
+        "2025/official/source-figures/plan-96987-document_image_rId7.jpeg",
+        "2025/official/source-figures/plan-96992-document_image_rId7.jpeg",
+        "2025/official/source-figures/plan-96996-document_image_rId7.jpeg",
+        "2025/official/source-figures/plan-96997-document_image_rId7.jpeg"
+      ],
+      "review_id": 23,
+      "category": "degree_pathway_credit_diagram",
+      "visual_review": "reviewed",
+      "review_method": "contact sheet visually inspected",
+      "observation": "通识、专业培养、融合创新模块合成不同培养路径及总学分；箭头表示培养路径/学分组成，不是逐课先修。",
+      "verified_course_prerequisite_edges": [],
+      "source_program_ids": [
+        "96924",
+        "96973",
+        "96987",
+        "96992",
+        "96996",
+        "96997"
+      ],
+      "source_detail_urls": [
+        "https://fdjwgl.fudan.edu.cn/manager/bizType/2/major-program-search/info/96924?skipAuth=1",
+        "https://fdjwgl.fudan.edu.cn/manager/bizType/2/major-program-search/info/96973?skipAuth=1",
+        "https://fdjwgl.fudan.edu.cn/manager/bizType/2/major-program-search/info/96987?skipAuth=1",
+        "https://fdjwgl.fudan.edu.cn/manager/bizType/2/major-program-search/info/96992?skipAuth=1",
+        "https://fdjwgl.fudan.edu.cn/manager/bizType/2/major-program-search/info/96996?skipAuth=1",
+        "https://fdjwgl.fudan.edu.cn/manager/bizType/2/major-program-search/info/96997?skipAuth=1"
+      ],
+      "visible_arrow_kind": "degree_pathway_composition",
+      "visible_concept_arrows": []
+    },
+    {
+      "sha256": "4705e05383b1512a453b69194767b1f432316fdf1c946bbd83c9666ae98099e2",
+      "representative": "2025/official/source-figures/plan-96924-document_image_rId8.jpeg",
+      "dimensions": [
+        540,
+        308
+      ],
+      "instances": [
+        "2025/official/source-figures/plan-96924-document_image_rId8.jpeg",
+        "2025/official/source-figures/plan-99830-document_image_rId8.jpeg"
+      ],
+      "review_id": 24,
+      "category": "semester_skills_diagram",
+      "visual_review": "reviewed",
+      "review_method": "contact sheet; full-resolution original inspected",
+      "observation": "课程体系按学期列出知识技能层次；顶部箭头将语言基础分解为词汇、语法等能力，未声明选课门槛。其余学期行间无箭头。",
+      "verified_course_prerequisite_edges": [],
+      "source_program_ids": [
+        "96924",
+        "99830"
+      ],
+      "source_detail_urls": [
+        "https://fdjwgl.fudan.edu.cn/manager/bizType/2/major-program-search/info/96924?skipAuth=1",
+        "https://fdjwgl.fudan.edu.cn/manager/bizType/2/major-program-search/info/99830?skipAuth=1"
+      ],
+      "visible_arrow_kind": "knowledge_skill_decomposition",
+      "visible_concept_arrows": [
+        {
+          "figure_review_id": 24,
+          "figure_sha256": "4705e05383b1512a453b69194767b1f432316fdf1c946bbd83c9666ae98099e2",
+          "figure_path": "2025/official/source-figures/plan-96924-document_image_rId8.jpeg",
+          "source_label": "俄语语言基础",
+          "target_label": "词汇",
+          "relation_interpretation": "official diagram: knowledge/skill decomposition",
+          "course_code_mapping": null,
+          "mandatory": false,
+          "prerequisite_evidence": false,
+          "note": "按原图箭头方向逐项抄录标签；这些是知识/技能类别，未强行匹配为同名课程。"
+        },
+        {
+          "figure_review_id": 24,
+          "figure_sha256": "4705e05383b1512a453b69194767b1f432316fdf1c946bbd83c9666ae98099e2",
+          "figure_path": "2025/official/source-figures/plan-96924-document_image_rId8.jpeg",
+          "source_label": "俄语语言基础",
+          "target_label": "语法",
+          "relation_interpretation": "official diagram: knowledge/skill decomposition",
+          "course_code_mapping": null,
+          "mandatory": false,
+          "prerequisite_evidence": false,
+          "note": "按原图箭头方向逐项抄录标签；这些是知识/技能类别，未强行匹配为同名课程。"
+        },
+        {
+          "figure_review_id": 24,
+          "figure_sha256": "4705e05383b1512a453b69194767b1f432316fdf1c946bbd83c9666ae98099e2",
+          "figure_path": "2025/official/source-figures/plan-96924-document_image_rId8.jpeg",
+          "source_label": "俄语语言基础",
+          "target_label": "阅读",
+          "relation_interpretation": "official diagram: knowledge/skill decomposition",
+          "course_code_mapping": null,
+          "mandatory": false,
+          "prerequisite_evidence": false,
+          "note": "按原图箭头方向逐项抄录标签；这些是知识/技能类别，未强行匹配为同名课程。"
+        },
+        {
+          "figure_review_id": 24,
+          "figure_sha256": "4705e05383b1512a453b69194767b1f432316fdf1c946bbd83c9666ae98099e2",
+          "figure_path": "2025/official/source-figures/plan-96924-document_image_rId8.jpeg",
+          "source_label": "俄语语言基础",
+          "target_label": "会话",
+          "relation_interpretation": "official diagram: knowledge/skill decomposition",
+          "course_code_mapping": null,
+          "mandatory": false,
+          "prerequisite_evidence": false,
+          "note": "按原图箭头方向逐项抄录标签；这些是知识/技能类别，未强行匹配为同名课程。"
+        }
+      ]
+    },
+    {
+      "sha256": "d8b7eb502a3d0e2a7a711983a0ff3489d6b191997bff3257ff93eadfd6f1b2bb",
+      "representative": "2025/official/source-figures/plan-96926-document_image_rId5.jpeg",
+      "dimensions": [
+        718,
+        283
+      ],
+      "instances": [
+        "2025/official/source-figures/plan-96926-document_image_rId5.jpeg"
+      ],
+      "review_id": 25,
+      "category": "learning_objectives",
+      "visual_review": "reviewed",
+      "review_method": "contact sheet visually inspected",
+      "observation": "人才培养知识、能力、素质目标的树状说明；连接表示目标分解，不表示课程先修。",
+      "verified_course_prerequisite_edges": [],
+      "source_program_ids": [
+        "96926"
+      ],
+      "source_detail_urls": [
+        "https://fdjwgl.fudan.edu.cn/manager/bizType/2/major-program-search/info/96926?skipAuth=1"
+      ],
+      "visible_arrow_kind": "none",
+      "visible_concept_arrows": []
+    },
+    {
+      "sha256": "d7ba2b3376913c2d914aa67174910311d66f1acf99bbd904e615010365c2a637",
+      "representative": "2025/official/source-figures/plan-96926-document_image_rId6.jpeg",
+      "dimensions": [
+        976,
+        297
+      ],
+      "instances": [
+        "2025/official/source-figures/plan-96926-document_image_rId6.jpeg"
+      ],
+      "review_id": 26,
+      "category": "degree_credit_requirements",
+      "visual_review": "reviewed",
+      "review_method": "contact sheet visually inspected",
+      "observation": "授予学位、专业及学段审核学分表，无课程依赖箭头。",
+      "verified_course_prerequisite_edges": [],
+      "source_program_ids": [
+        "96926"
+      ],
+      "source_detail_urls": [
+        "https://fdjwgl.fudan.edu.cn/manager/bizType/2/major-program-search/info/96926?skipAuth=1"
+      ],
+      "visible_arrow_kind": "none",
+      "visible_concept_arrows": []
+    },
+    {
+      "sha256": "94b117e11d14cfe891f92b4553634f6d3963b14f0cd6e2aff0061043e0b3d02d",
+      "representative": "2025/official/source-figures/plan-96926-document_image_rId7.jpeg",
+      "dimensions": [
+        841,
+        372
+      ],
+      "instances": [
+        "2025/official/source-figures/plan-96926-document_image_rId7.jpeg"
+      ],
+      "review_id": 27,
+      "category": "degree_pathway_credit_diagram",
+      "visual_review": "reviewed",
+      "review_method": "contact sheet visually inspected",
+      "observation": "通识、专业培养、融合创新模块合成不同培养路径及总学分；箭头表示培养路径/学分组成，不是逐课先修。",
+      "verified_course_prerequisite_edges": [],
+      "source_program_ids": [
+        "96926"
+      ],
+      "source_detail_urls": [
+        "https://fdjwgl.fudan.edu.cn/manager/bizType/2/major-program-search/info/96926?skipAuth=1"
+      ],
+      "visible_arrow_kind": "degree_pathway_composition",
+      "visible_concept_arrows": []
+    },
+    {
+      "sha256": "16e48fba48be39501751b84893fc3f280170f6c3972bc92ee56c80afb62b862f",
+      "representative": "2025/official/source-figures/plan-96926-document_image_rId8.jpeg",
+      "dimensions": [
+        673,
+        295
+      ],
+      "instances": [
+        "2025/official/source-figures/plan-96926-document_image_rId8.jpeg"
+      ],
+      "review_id": 28,
+      "category": "semester_skills_diagram",
+      "visual_review": "reviewed",
+      "review_method": "contact sheet; full-resolution original inspected",
+      "observation": "课程体系按学期列出知识技能层次；顶部箭头将语言基础分解为词汇、语法等能力，未声明选课门槛。其余学期行间无箭头。",
+      "verified_course_prerequisite_edges": [],
+      "source_program_ids": [
+        "96926"
+      ],
+      "source_detail_urls": [
+        "https://fdjwgl.fudan.edu.cn/manager/bizType/2/major-program-search/info/96926?skipAuth=1"
+      ],
+      "visible_arrow_kind": "knowledge_skill_decomposition",
+      "visible_concept_arrows": [
+        {
+          "figure_review_id": 28,
+          "figure_sha256": "16e48fba48be39501751b84893fc3f280170f6c3972bc92ee56c80afb62b862f",
+          "figure_path": "2025/official/source-figures/plan-96926-document_image_rId8.jpeg",
+          "source_label": "俄语语言-计算机基础",
+          "target_label": "词汇",
+          "relation_interpretation": "official diagram: knowledge/skill decomposition",
+          "course_code_mapping": null,
+          "mandatory": false,
+          "prerequisite_evidence": false,
+          "note": "按原图箭头方向逐项抄录标签；这些是知识/技能类别，未强行匹配为同名课程。"
+        },
+        {
+          "figure_review_id": 28,
+          "figure_sha256": "16e48fba48be39501751b84893fc3f280170f6c3972bc92ee56c80afb62b862f",
+          "figure_path": "2025/official/source-figures/plan-96926-document_image_rId8.jpeg",
+          "source_label": "俄语语言-计算机基础",
+          "target_label": "语法",
+          "relation_interpretation": "official diagram: knowledge/skill decomposition",
+          "course_code_mapping": null,
+          "mandatory": false,
+          "prerequisite_evidence": false,
+          "note": "按原图箭头方向逐项抄录标签；这些是知识/技能类别，未强行匹配为同名课程。"
+        },
+        {
+          "figure_review_id": 28,
+          "figure_sha256": "16e48fba48be39501751b84893fc3f280170f6c3972bc92ee56c80afb62b862f",
+          "figure_path": "2025/official/source-figures/plan-96926-document_image_rId8.jpeg",
+          "source_label": "俄语语言-计算机基础",
+          "target_label": "阅读",
+          "relation_interpretation": "official diagram: knowledge/skill decomposition",
+          "course_code_mapping": null,
+          "mandatory": false,
+          "prerequisite_evidence": false,
+          "note": "按原图箭头方向逐项抄录标签；这些是知识/技能类别，未强行匹配为同名课程。"
+        },
+        {
+          "figure_review_id": 28,
+          "figure_sha256": "16e48fba48be39501751b84893fc3f280170f6c3972bc92ee56c80afb62b862f",
+          "figure_path": "2025/official/source-figures/plan-96926-document_image_rId8.jpeg",
+          "source_label": "俄语语言-计算机基础",
+          "target_label": "会话",
+          "relation_interpretation": "official diagram: knowledge/skill decomposition",
+          "course_code_mapping": null,
+          "mandatory": false,
+          "prerequisite_evidence": false,
+          "note": "按原图箭头方向逐项抄录标签；这些是知识/技能类别，未强行匹配为同名课程。"
+        },
+        {
+          "figure_review_id": 28,
+          "figure_sha256": "16e48fba48be39501751b84893fc3f280170f6c3972bc92ee56c80afb62b862f",
+          "figure_path": "2025/official/source-figures/plan-96926-document_image_rId8.jpeg",
+          "source_label": "俄语语言-计算机基础",
+          "target_label": "软件基础知识",
+          "relation_interpretation": "official diagram: knowledge/skill decomposition",
+          "course_code_mapping": null,
+          "mandatory": false,
+          "prerequisite_evidence": false,
+          "note": "按原图箭头方向逐项抄录标签；这些是知识/技能类别，未强行匹配为同名课程。"
+        },
+        {
+          "figure_review_id": 28,
+          "figure_sha256": "16e48fba48be39501751b84893fc3f280170f6c3972bc92ee56c80afb62b862f",
+          "figure_path": "2025/official/source-figures/plan-96926-document_image_rId8.jpeg",
+          "source_label": "俄语语言-计算机基础",
+          "target_label": "硬件基础知识",
+          "relation_interpretation": "official diagram: knowledge/skill decomposition",
+          "course_code_mapping": null,
+          "mandatory": false,
+          "prerequisite_evidence": false,
+          "note": "按原图箭头方向逐项抄录标签；这些是知识/技能类别，未强行匹配为同名课程。"
+        }
+      ]
+    },
+    {
+      "sha256": "5a207c8c28118c9a6ca786f4d3c1ee6d406f9b001f64636c444755ffe3d38e4f",
+      "representative": "2025/official/source-figures/plan-96928-document_image_rId5.jpeg",
+      "dimensions": [
+        714,
+        281
+      ],
+      "instances": [
+        "2025/official/source-figures/plan-96928-document_image_rId5.jpeg"
+      ],
+      "review_id": 29,
+      "category": "learning_objectives",
+      "visual_review": "reviewed",
+      "review_method": "contact sheet visually inspected",
+      "observation": "人才培养知识、能力、素质目标的树状说明；连接表示目标分解，不表示课程先修。",
+      "verified_course_prerequisite_edges": [],
+      "source_program_ids": [
+        "96928"
+      ],
+      "source_detail_urls": [
+        "https://fdjwgl.fudan.edu.cn/manager/bizType/2/major-program-search/info/96928?skipAuth=1"
+      ],
+      "visible_arrow_kind": "none",
+      "visible_concept_arrows": []
+    },
+    {
+      "sha256": "c23d222de7b179017678f49f5cf62d430e46d55580b83c1324a2da6fc87dc75d",
+      "representative": "2025/official/source-figures/plan-96928-document_image_rId6.jpeg",
+      "dimensions": [
+        970,
+        297
+      ],
+      "instances": [
+        "2025/official/source-figures/plan-96928-document_image_rId6.jpeg"
+      ],
+      "review_id": 30,
+      "category": "degree_credit_requirements",
+      "visual_review": "reviewed",
+      "review_method": "contact sheet visually inspected",
+      "observation": "授予学位、专业及学段审核学分表，无课程依赖箭头。",
+      "verified_course_prerequisite_edges": [],
+      "source_program_ids": [
+        "96928"
+      ],
+      "source_detail_urls": [
+        "https://fdjwgl.fudan.edu.cn/manager/bizType/2/major-program-search/info/96928?skipAuth=1"
+      ],
+      "visible_arrow_kind": "none",
+      "visible_concept_arrows": []
+    },
+    {
+      "sha256": "7522d389391dc394d80716dd7f784c0f43dfa3875c9543e7e5cdcae3a31120e6",
+      "representative": "2025/official/source-figures/plan-96928-document_image_rId7.jpeg",
+      "dimensions": [
+        589,
+        243
+      ],
+      "instances": [
+        "2025/official/source-figures/plan-96928-document_image_rId7.jpeg",
+        "2025/official/source-figures/plan-96983-document_image_rId7.jpeg",
+        "2025/official/source-figures/plan-96989-document_image_rId7.jpeg",
+        "2025/official/source-figures/plan-96995-document_image_rId7.jpeg"
+      ],
+      "review_id": 31,
+      "category": "degree_pathway_credit_diagram",
+      "visual_review": "reviewed",
+      "review_method": "contact sheet visually inspected",
+      "observation": "通识、专业培养、融合创新模块合成不同培养路径及总学分；箭头表示培养路径/学分组成，不是逐课先修。",
+      "verified_course_prerequisite_edges": [],
+      "source_program_ids": [
+        "96928",
+        "96983",
+        "96989",
+        "96995"
+      ],
+      "source_detail_urls": [
+        "https://fdjwgl.fudan.edu.cn/manager/bizType/2/major-program-search/info/96928?skipAuth=1",
+        "https://fdjwgl.fudan.edu.cn/manager/bizType/2/major-program-search/info/96983?skipAuth=1",
+        "https://fdjwgl.fudan.edu.cn/manager/bizType/2/major-program-search/info/96989?skipAuth=1",
+        "https://fdjwgl.fudan.edu.cn/manager/bizType/2/major-program-search/info/96995?skipAuth=1"
+      ],
+      "visible_arrow_kind": "degree_pathway_composition",
+      "visible_concept_arrows": []
+    },
+    {
+      "sha256": "7537ad193eb341c2bb64df843515994e5e8ebb8c260873dacc21ce194a8875a3",
+      "representative": "2025/official/source-figures/plan-96928-document_image_rId8.jpeg",
+      "dimensions": [
+        487,
+        288
+      ],
+      "instances": [
+        "2025/official/source-figures/plan-96928-document_image_rId8.jpeg"
+      ],
+      "review_id": 32,
+      "category": "semester_skills_diagram",
+      "visual_review": "reviewed",
+      "review_method": "contact sheet; full-resolution original inspected",
+      "observation": "课程体系按学期列出知识技能层次；顶部箭头将语言基础分解为词汇、语法等能力，未声明选课门槛。其余学期行间无箭头。",
+      "verified_course_prerequisite_edges": [],
+      "source_program_ids": [
+        "96928"
+      ],
+      "source_detail_urls": [
+        "https://fdjwgl.fudan.edu.cn/manager/bizType/2/major-program-search/info/96928?skipAuth=1"
+      ],
+      "visible_arrow_kind": "knowledge_skill_decomposition",
+      "visible_concept_arrows": [
+        {
+          "figure_review_id": 32,
+          "figure_sha256": "7537ad193eb341c2bb64df843515994e5e8ebb8c260873dacc21ce194a8875a3",
+          "figure_path": "2025/official/source-figures/plan-96928-document_image_rId8.jpeg",
+          "source_label": "俄-英语言基础",
+          "target_label": "词汇",
+          "relation_interpretation": "official diagram: knowledge/skill decomposition",
+          "course_code_mapping": null,
+          "mandatory": false,
+          "prerequisite_evidence": false,
+          "note": "按原图箭头方向逐项抄录标签；这些是知识/技能类别，未强行匹配为同名课程。"
+        },
+        {
+          "figure_review_id": 32,
+          "figure_sha256": "7537ad193eb341c2bb64df843515994e5e8ebb8c260873dacc21ce194a8875a3",
+          "figure_path": "2025/official/source-figures/plan-96928-document_image_rId8.jpeg",
+          "source_label": "俄-英语言基础",
+          "target_label": "语法",
+          "relation_interpretation": "official diagram: knowledge/skill decomposition",
+          "course_code_mapping": null,
+          "mandatory": false,
+          "prerequisite_evidence": false,
+          "note": "按原图箭头方向逐项抄录标签；这些是知识/技能类别，未强行匹配为同名课程。"
+        },
+        {
+          "figure_review_id": 32,
+          "figure_sha256": "7537ad193eb341c2bb64df843515994e5e8ebb8c260873dacc21ce194a8875a3",
+          "figure_path": "2025/official/source-figures/plan-96928-document_image_rId8.jpeg",
+          "source_label": "俄-英语言基础",
+          "target_label": "阅读",
+          "relation_interpretation": "official diagram: knowledge/skill decomposition",
+          "course_code_mapping": null,
+          "mandatory": false,
+          "prerequisite_evidence": false,
+          "note": "按原图箭头方向逐项抄录标签；这些是知识/技能类别，未强行匹配为同名课程。"
+        },
+        {
+          "figure_review_id": 32,
+          "figure_sha256": "7537ad193eb341c2bb64df843515994e5e8ebb8c260873dacc21ce194a8875a3",
+          "figure_path": "2025/official/source-figures/plan-96928-document_image_rId8.jpeg",
+          "source_label": "俄-英语言基础",
+          "target_label": "会话",
+          "relation_interpretation": "official diagram: knowledge/skill decomposition",
+          "course_code_mapping": null,
+          "mandatory": false,
+          "prerequisite_evidence": false,
+          "note": "按原图箭头方向逐项抄录标签；这些是知识/技能类别，未强行匹配为同名课程。"
+        }
+      ]
+    },
+    {
+      "sha256": "bb603efc1f5e698f531424a62270bd8d98f4f7c0304e924f7bc37b8b582f2133",
+      "representative": "2025/official/source-figures/plan-96973-document_image_rId5.jpeg",
+      "dimensions": [
+        761,
+        307
+      ],
+      "instances": [
+        "2025/official/source-figures/plan-96973-document_image_rId5.jpeg"
+      ],
+      "review_id": 33,
+      "category": "learning_objectives",
+      "visual_review": "reviewed",
+      "review_method": "contact sheet visually inspected",
+      "observation": "人才培养知识、能力、素质目标的树状说明；连接表示目标分解，不表示课程先修。",
+      "verified_course_prerequisite_edges": [],
+      "source_program_ids": [
+        "96973"
+      ],
+      "source_detail_urls": [
+        "https://fdjwgl.fudan.edu.cn/manager/bizType/2/major-program-search/info/96973?skipAuth=1"
+      ],
+      "visible_arrow_kind": "none",
+      "visible_concept_arrows": []
+    },
+    {
+      "sha256": "c4e4934c89d483c428b7973817adf6abc5d471dfd7e82173a1044ef53147b3a4",
+      "representative": "2025/official/source-figures/plan-96973-document_image_rId6.jpeg",
+      "dimensions": [
+        1068,
+        331
+      ],
+      "instances": [
+        "2025/official/source-figures/plan-96973-document_image_rId6.jpeg"
+      ],
+      "review_id": 34,
+      "category": "degree_credit_requirements",
+      "visual_review": "reviewed",
+      "review_method": "contact sheet visually inspected",
+      "observation": "授予学位、专业及学段审核学分表，无课程依赖箭头。",
+      "verified_course_prerequisite_edges": [],
+      "source_program_ids": [
+        "96973"
+      ],
+      "source_detail_urls": [
+        "https://fdjwgl.fudan.edu.cn/manager/bizType/2/major-program-search/info/96973?skipAuth=1"
+      ],
+      "visible_arrow_kind": "none",
+      "visible_concept_arrows": []
+    },
+    {
+      "sha256": "e07146a8d16c10bb9bdd4b518d8c6046744e956cd17119b9933f8e37d939f93d",
+      "representative": "2025/official/source-figures/plan-96973-document_image_rId8.jpeg",
+      "dimensions": [
+        667,
+        258
+      ],
+      "instances": [
+        "2025/official/source-figures/plan-96973-document_image_rId8.jpeg"
+      ],
+      "review_id": 35,
+      "category": "semester_skills_diagram",
+      "visual_review": "reviewed",
+      "review_method": "contact sheet; full-resolution original inspected",
+      "observation": "课程体系按学期列出知识技能层次；顶部箭头将语言基础分解为词汇、语法等能力，未声明选课门槛。其余学期行间无箭头。",
+      "verified_course_prerequisite_edges": [],
+      "source_program_ids": [
+        "96973"
+      ],
+      "source_detail_urls": [
+        "https://fdjwgl.fudan.edu.cn/manager/bizType/2/major-program-search/info/96973?skipAuth=1"
+      ],
+      "visible_arrow_kind": "knowledge_skill_decomposition",
+      "visible_concept_arrows": [
+        {
+          "figure_review_id": 35,
+          "figure_sha256": "e07146a8d16c10bb9bdd4b518d8c6046744e956cd17119b9933f8e37d939f93d",
+          "figure_path": "2025/official/source-figures/plan-96973-document_image_rId8.jpeg",
+          "source_label": "德语语言基础",
+          "target_label": "语法知识",
+          "relation_interpretation": "official diagram: knowledge/skill decomposition",
+          "course_code_mapping": null,
+          "mandatory": false,
+          "prerequisite_evidence": false,
+          "note": "按原图箭头方向逐项抄录标签；这些是知识/技能类别，未强行匹配为同名课程。"
+        },
+        {
+          "figure_review_id": 35,
+          "figure_sha256": "e07146a8d16c10bb9bdd4b518d8c6046744e956cd17119b9933f8e37d939f93d",
+          "figure_path": "2025/official/source-figures/plan-96973-document_image_rId8.jpeg",
+          "source_label": "德语语言基础",
+          "target_label": "阅读理解",
+          "relation_interpretation": "official diagram: knowledge/skill decomposition",
+          "course_code_mapping": null,
+          "mandatory": false,
+          "prerequisite_evidence": false,
+          "note": "按原图箭头方向逐项抄录标签；这些是知识/技能类别，未强行匹配为同名课程。"
+        },
+        {
+          "figure_review_id": 35,
+          "figure_sha256": "e07146a8d16c10bb9bdd4b518d8c6046744e956cd17119b9933f8e37d939f93d",
+          "figure_path": "2025/official/source-figures/plan-96973-document_image_rId8.jpeg",
+          "source_label": "德语语言基础",
+          "target_label": "基本交际能力",
+          "relation_interpretation": "official diagram: knowledge/skill decomposition",
+          "course_code_mapping": null,
+          "mandatory": false,
+          "prerequisite_evidence": false,
+          "note": "按原图箭头方向逐项抄录标签；这些是知识/技能类别，未强行匹配为同名课程。"
+        }
+      ]
+    },
+    {
+      "sha256": "54229be0568c0122a5d5d53aaf8d40fdedffa75d86a445e5d77910fed7426728",
+      "representative": "2025/official/source-figures/plan-96976-document_image_rId5.jpeg",
+      "dimensions": [
+        788,
+        311
+      ],
+      "instances": [
+        "2025/official/source-figures/plan-96976-document_image_rId5.jpeg"
+      ],
+      "review_id": 36,
+      "category": "learning_objectives",
+      "visual_review": "reviewed",
+      "review_method": "contact sheet visually inspected",
+      "observation": "人才培养知识、能力、素质目标的树状说明；连接表示目标分解，不表示课程先修。",
+      "verified_course_prerequisite_edges": [],
+      "source_program_ids": [
+        "96976"
+      ],
+      "source_detail_urls": [
+        "https://fdjwgl.fudan.edu.cn/manager/bizType/2/major-program-search/info/96976?skipAuth=1"
+      ],
+      "visible_arrow_kind": "none",
+      "visible_concept_arrows": []
+    },
+    {
+      "sha256": "99f7444581d9fedfbc3b8397ea356eeee5887908241e5ca909d4fce5c26739ea",
+      "representative": "2025/official/source-figures/plan-96976-document_image_rId6.jpeg",
+      "dimensions": [
+        1156,
+        327
+      ],
+      "instances": [
+        "2025/official/source-figures/plan-96976-document_image_rId6.jpeg"
+      ],
+      "review_id": 37,
+      "category": "degree_credit_requirements",
+      "visual_review": "reviewed",
+      "review_method": "contact sheet visually inspected",
+      "observation": "授予学位、专业及学段审核学分表，无课程依赖箭头。",
+      "verified_course_prerequisite_edges": [],
+      "source_program_ids": [
+        "96976"
+      ],
+      "source_detail_urls": [
+        "https://fdjwgl.fudan.edu.cn/manager/bizType/2/major-program-search/info/96976?skipAuth=1"
+      ],
+      "visible_arrow_kind": "none",
+      "visible_concept_arrows": []
+    },
+    {
+      "sha256": "b191705875a265c8f7b996a237729ae2556a38fb43a14614341eee6aca5b2b28",
+      "representative": "2025/official/source-figures/plan-96976-document_image_rId7.jpeg",
+      "dimensions": [
+        967,
+        369
+      ],
+      "instances": [
+        "2025/official/source-figures/plan-96976-document_image_rId7.jpeg"
+      ],
+      "review_id": 38,
+      "category": "degree_pathway_credit_diagram",
+      "visual_review": "reviewed",
+      "review_method": "contact sheet visually inspected",
+      "observation": "通识、专业培养、融合创新模块合成不同培养路径及总学分；箭头表示培养路径/学分组成，不是逐课先修。",
+      "verified_course_prerequisite_edges": [],
+      "source_program_ids": [
+        "96976"
+      ],
+      "source_detail_urls": [
+        "https://fdjwgl.fudan.edu.cn/manager/bizType/2/major-program-search/info/96976?skipAuth=1"
+      ],
+      "visible_arrow_kind": "degree_pathway_composition",
+      "visible_concept_arrows": []
+    },
+    {
+      "sha256": "9ca01ee59b45ebfd3e6779d359d41c76cb4307cb6230a6de9389200422380c41",
+      "representative": "2025/official/source-figures/plan-96976-document_image_rId8.jpeg",
+      "dimensions": [
+        738,
+        290
+      ],
+      "instances": [
+        "2025/official/source-figures/plan-96976-document_image_rId8.jpeg"
+      ],
+      "review_id": 39,
+      "category": "semester_skills_diagram",
+      "visual_review": "reviewed",
+      "review_method": "contact sheet; full-resolution original inspected",
+      "observation": "课程体系按学期列出知识技能层次；顶部箭头将语言基础分解为词汇、语法等能力，未声明选课门槛。其余学期行间无箭头。",
+      "verified_course_prerequisite_edges": [],
+      "source_program_ids": [
+        "96976"
+      ],
+      "source_detail_urls": [
+        "https://fdjwgl.fudan.edu.cn/manager/bizType/2/major-program-search/info/96976?skipAuth=1"
+      ],
+      "visible_arrow_kind": "knowledge_skill_decomposition",
+      "visible_concept_arrows": [
+        {
+          "figure_review_id": 39,
+          "figure_sha256": "9ca01ee59b45ebfd3e6779d359d41c76cb4307cb6230a6de9389200422380c41",
+          "figure_path": "2025/official/source-figures/plan-96976-document_image_rId8.jpeg",
+          "source_label": "德语语言基础+计算机科技基础",
+          "target_label": "德语语法知识",
+          "relation_interpretation": "official diagram: knowledge/skill decomposition",
+          "course_code_mapping": null,
+          "mandatory": false,
+          "prerequisite_evidence": false,
+          "note": "按原图箭头方向逐项抄录标签；这些是知识/技能类别，未强行匹配为同名课程。"
+        },
+        {
+          "figure_review_id": 39,
+          "figure_sha256": "9ca01ee59b45ebfd3e6779d359d41c76cb4307cb6230a6de9389200422380c41",
+          "figure_path": "2025/official/source-figures/plan-96976-document_image_rId8.jpeg",
+          "source_label": "德语语言基础+计算机科技基础",
+          "target_label": "德语交际能力",
+          "relation_interpretation": "official diagram: knowledge/skill decomposition",
+          "course_code_mapping": null,
+          "mandatory": false,
+          "prerequisite_evidence": false,
+          "note": "按原图箭头方向逐项抄录标签；这些是知识/技能类别，未强行匹配为同名课程。"
+        },
+        {
+          "figure_review_id": 39,
+          "figure_sha256": "9ca01ee59b45ebfd3e6779d359d41c76cb4307cb6230a6de9389200422380c41",
+          "figure_path": "2025/official/source-figures/plan-96976-document_image_rId8.jpeg",
+          "source_label": "德语语言基础+计算机科技基础",
+          "target_label": "高等数学与编程基础",
+          "relation_interpretation": "official diagram: knowledge/skill decomposition",
+          "course_code_mapping": null,
+          "mandatory": false,
+          "prerequisite_evidence": false,
+          "note": "按原图箭头方向逐项抄录标签；这些是知识/技能类别，未强行匹配为同名课程。"
+        }
+      ]
+    },
+    {
+      "sha256": "511a39928d3d1fea8fc44ec2fe34d0a6f069b563d515917ded9bc2719fc970b9",
+      "representative": "2025/official/source-figures/plan-96983-document_image_rId5.jpeg",
+      "dimensions": [
+        707,
+        278
+      ],
+      "instances": [
+        "2025/official/source-figures/plan-96983-document_image_rId5.jpeg"
+      ],
+      "review_id": 40,
+      "category": "learning_objectives",
+      "visual_review": "reviewed",
+      "review_method": "contact sheet visually inspected",
+      "observation": "人才培养知识、能力、素质目标的树状说明；连接表示目标分解，不表示课程先修。",
+      "verified_course_prerequisite_edges": [],
+      "source_program_ids": [
+        "96983"
+      ],
+      "source_detail_urls": [
+        "https://fdjwgl.fudan.edu.cn/manager/bizType/2/major-program-search/info/96983?skipAuth=1"
+      ],
+      "visible_arrow_kind": "none",
+      "visible_concept_arrows": []
+    },
+    {
+      "sha256": "2d4868662f1dc4435bec8f059514fb6d873409d1b3e20383fa0ea9a022b2045c",
+      "representative": "2025/official/source-figures/plan-96983-document_image_rId6.jpeg",
+      "dimensions": [
+        1080,
+        327
+      ],
+      "instances": [
+        "2025/official/source-figures/plan-96983-document_image_rId6.jpeg"
+      ],
+      "review_id": 41,
+      "category": "degree_credit_requirements",
+      "visual_review": "reviewed",
+      "review_method": "contact sheet visually inspected",
+      "observation": "授予学位、专业及学段审核学分表，无课程依赖箭头。",
+      "verified_course_prerequisite_edges": [],
+      "source_program_ids": [
+        "96983"
+      ],
+      "source_detail_urls": [
+        "https://fdjwgl.fudan.edu.cn/manager/bizType/2/major-program-search/info/96983?skipAuth=1"
+      ],
+      "visible_arrow_kind": "none",
+      "visible_concept_arrows": []
+    },
+    {
+      "sha256": "ee9879aa8766f48c1122c336ff867ddf7e65aae20031ed036553d6a658873ecf",
+      "representative": "2025/official/source-figures/plan-96983-document_image_rId8.jpeg",
+      "dimensions": [
+        691,
+        277
+      ],
+      "instances": [
+        "2025/official/source-figures/plan-96983-document_image_rId8.jpeg"
+      ],
+      "review_id": 42,
+      "category": "semester_skills_diagram",
+      "visual_review": "reviewed",
+      "review_method": "contact sheet; full-resolution original inspected",
+      "observation": "课程体系按学期列出知识技能层次；顶部箭头将语言基础分解为词汇、语法等能力，未声明选课门槛。其余学期行间无箭头。",
+      "verified_course_prerequisite_edges": [],
+      "source_program_ids": [
+        "96983"
+      ],
+      "source_detail_urls": [
+        "https://fdjwgl.fudan.edu.cn/manager/bizType/2/major-program-search/info/96983?skipAuth=1"
+      ],
+      "visible_arrow_kind": "knowledge_skill_decomposition",
+      "visible_concept_arrows": [
+        {
+          "figure_review_id": 42,
+          "figure_sha256": "ee9879aa8766f48c1122c336ff867ddf7e65aae20031ed036553d6a658873ecf",
+          "figure_path": "2025/official/source-figures/plan-96983-document_image_rId8.jpeg",
+          "source_label": "德语语言基础",
+          "target_label": "语法知识",
+          "relation_interpretation": "official diagram: knowledge/skill decomposition",
+          "course_code_mapping": null,
+          "mandatory": false,
+          "prerequisite_evidence": false,
+          "note": "按原图箭头方向逐项抄录标签；这些是知识/技能类别，未强行匹配为同名课程。"
+        },
+        {
+          "figure_review_id": 42,
+          "figure_sha256": "ee9879aa8766f48c1122c336ff867ddf7e65aae20031ed036553d6a658873ecf",
+          "figure_path": "2025/official/source-figures/plan-96983-document_image_rId8.jpeg",
+          "source_label": "德语语言基础",
+          "target_label": "阅读理解",
+          "relation_interpretation": "official diagram: knowledge/skill decomposition",
+          "course_code_mapping": null,
+          "mandatory": false,
+          "prerequisite_evidence": false,
+          "note": "按原图箭头方向逐项抄录标签；这些是知识/技能类别，未强行匹配为同名课程。"
+        },
+        {
+          "figure_review_id": 42,
+          "figure_sha256": "ee9879aa8766f48c1122c336ff867ddf7e65aae20031ed036553d6a658873ecf",
+          "figure_path": "2025/official/source-figures/plan-96983-document_image_rId8.jpeg",
+          "source_label": "德语语言基础",
+          "target_label": "基本交际能力",
+          "relation_interpretation": "official diagram: knowledge/skill decomposition",
+          "course_code_mapping": null,
+          "mandatory": false,
+          "prerequisite_evidence": false,
+          "note": "按原图箭头方向逐项抄录标签；这些是知识/技能类别，未强行匹配为同名课程。"
+        }
+      ]
+    },
+    {
+      "sha256": "ad3a8ded061703696519a023c19d1e989298413fd817823f8d3494b72454032b",
+      "representative": "2025/official/source-figures/plan-96987-document_image_rId5.jpeg",
+      "dimensions": [
+        694,
+        282
+      ],
+      "instances": [
+        "2025/official/source-figures/plan-96987-document_image_rId5.jpeg"
+      ],
+      "review_id": 43,
+      "category": "learning_objectives",
+      "visual_review": "reviewed",
+      "review_method": "contact sheet visually inspected",
+      "observation": "人才培养知识、能力、素质目标的树状说明；连接表示目标分解，不表示课程先修。",
+      "verified_course_prerequisite_edges": [],
+      "source_program_ids": [
+        "96987"
+      ],
+      "source_detail_urls": [
+        "https://fdjwgl.fudan.edu.cn/manager/bizType/2/major-program-search/info/96987?skipAuth=1"
+      ],
+      "visible_arrow_kind": "none",
+      "visible_concept_arrows": []
+    },
+    {
+      "sha256": "ec298dee1c8f7eeaac5f92a6dc9906f90af6f42aafefdee05b797666983da8e9",
+      "representative": "2025/official/source-figures/plan-96987-document_image_rId6.jpeg",
+      "dimensions": [
+        973,
+        295
+      ],
+      "instances": [
+        "2025/official/source-figures/plan-96987-document_image_rId6.jpeg"
+      ],
+      "review_id": 44,
+      "category": "degree_credit_requirements",
+      "visual_review": "reviewed",
+      "review_method": "contact sheet visually inspected",
+      "observation": "授予学位、专业及学段审核学分表，无课程依赖箭头。",
+      "verified_course_prerequisite_edges": [],
+      "source_program_ids": [
+        "96987"
+      ],
+      "source_detail_urls": [
+        "https://fdjwgl.fudan.edu.cn/manager/bizType/2/major-program-search/info/96987?skipAuth=1"
+      ],
+      "visible_arrow_kind": "none",
+      "visible_concept_arrows": []
+    },
+    {
+      "sha256": "30eeea88ca8d6c3e69386d0dad95edd8ef0a484f81c4a7a5e6bc06817e463eb3",
+      "representative": "2025/official/source-figures/plan-96987-document_image_rId8.jpeg",
+      "dimensions": [
+        577,
+        259
+      ],
+      "instances": [
+        "2025/official/source-figures/plan-96987-document_image_rId8.jpeg"
+      ],
+      "review_id": 45,
+      "category": "semester_skills_diagram",
+      "visual_review": "reviewed",
+      "review_method": "contact sheet; full-resolution original inspected",
+      "observation": "课程体系按学期列出知识技能层次；顶部箭头将语言基础分解为词汇、语法等能力，未声明选课门槛。其余学期行间无箭头。",
+      "verified_course_prerequisite_edges": [],
+      "source_program_ids": [
+        "96987"
+      ],
+      "source_detail_urls": [
+        "https://fdjwgl.fudan.edu.cn/manager/bizType/2/major-program-search/info/96987?skipAuth=1"
+      ],
+      "visible_arrow_kind": "knowledge_skill_decomposition",
+      "visible_concept_arrows": [
+        {
+          "figure_review_id": 45,
+          "figure_sha256": "30eeea88ca8d6c3e69386d0dad95edd8ef0a484f81c4a7a5e6bc06817e463eb3",
+          "figure_path": "2025/official/source-figures/plan-96987-document_image_rId8.jpeg",
+          "source_label": "法语语言基础",
+          "target_label": "词汇",
+          "relation_interpretation": "official diagram: knowledge/skill decomposition",
+          "course_code_mapping": null,
+          "mandatory": false,
+          "prerequisite_evidence": false,
+          "note": "按原图箭头方向逐项抄录标签；这些是知识/技能类别，未强行匹配为同名课程。"
+        },
+        {
+          "figure_review_id": 45,
+          "figure_sha256": "30eeea88ca8d6c3e69386d0dad95edd8ef0a484f81c4a7a5e6bc06817e463eb3",
+          "figure_path": "2025/official/source-figures/plan-96987-document_image_rId8.jpeg",
+          "source_label": "法语语言基础",
+          "target_label": "语法",
+          "relation_interpretation": "official diagram: knowledge/skill decomposition",
+          "course_code_mapping": null,
+          "mandatory": false,
+          "prerequisite_evidence": false,
+          "note": "按原图箭头方向逐项抄录标签；这些是知识/技能类别，未强行匹配为同名课程。"
+        },
+        {
+          "figure_review_id": 45,
+          "figure_sha256": "30eeea88ca8d6c3e69386d0dad95edd8ef0a484f81c4a7a5e6bc06817e463eb3",
+          "figure_path": "2025/official/source-figures/plan-96987-document_image_rId8.jpeg",
+          "source_label": "法语语言基础",
+          "target_label": "阅读",
+          "relation_interpretation": "official diagram: knowledge/skill decomposition",
+          "course_code_mapping": null,
+          "mandatory": false,
+          "prerequisite_evidence": false,
+          "note": "按原图箭头方向逐项抄录标签；这些是知识/技能类别，未强行匹配为同名课程。"
+        },
+        {
+          "figure_review_id": 45,
+          "figure_sha256": "30eeea88ca8d6c3e69386d0dad95edd8ef0a484f81c4a7a5e6bc06817e463eb3",
+          "figure_path": "2025/official/source-figures/plan-96987-document_image_rId8.jpeg",
+          "source_label": "法语语言基础",
+          "target_label": "会话",
+          "relation_interpretation": "official diagram: knowledge/skill decomposition",
+          "course_code_mapping": null,
+          "mandatory": false,
+          "prerequisite_evidence": false,
+          "note": "按原图箭头方向逐项抄录标签；这些是知识/技能类别，未强行匹配为同名课程。"
+        }
+      ]
+    },
+    {
+      "sha256": "87ef0e3de4dbe538e2bd10d77632a8f36ab54d6a83ccd13b9783c5335753e5b0",
+      "representative": "2025/official/source-figures/plan-96989-document_image_rId5.jpeg",
+      "dimensions": [
+        710,
+        277
+      ],
+      "instances": [
+        "2025/official/source-figures/plan-96989-document_image_rId5.jpeg"
+      ],
+      "review_id": 46,
+      "category": "learning_objectives",
+      "visual_review": "reviewed",
+      "review_method": "contact sheet visually inspected",
+      "observation": "人才培养知识、能力、素质目标的树状说明；连接表示目标分解，不表示课程先修。",
+      "verified_course_prerequisite_edges": [],
+      "source_program_ids": [
+        "96989"
+      ],
+      "source_detail_urls": [
+        "https://fdjwgl.fudan.edu.cn/manager/bizType/2/major-program-search/info/96989?skipAuth=1"
+      ],
+      "visible_arrow_kind": "none",
+      "visible_concept_arrows": []
+    },
+    {
+      "sha256": "605b3aac57895cd503f1672b1631e1d64b32eac600c9add272fe93edf7e670fb",
+      "representative": "2025/official/source-figures/plan-96989-document_image_rId6.png",
+      "dimensions": [
+        736,
+        216
+      ],
+      "instances": [
+        "2025/official/source-figures/plan-96989-document_image_rId6.png"
+      ],
+      "review_id": 47,
+      "category": "degree_credit_requirements",
+      "visual_review": "reviewed",
+      "review_method": "contact sheet visually inspected",
+      "observation": "授予学位、专业及学段审核学分表，无课程依赖箭头。",
+      "verified_course_prerequisite_edges": [],
+      "source_program_ids": [
+        "96989"
+      ],
+      "source_detail_urls": [
+        "https://fdjwgl.fudan.edu.cn/manager/bizType/2/major-program-search/info/96989?skipAuth=1"
+      ],
+      "visible_arrow_kind": "none",
+      "visible_concept_arrows": []
+    },
+    {
+      "sha256": "a95c56130a0774228643d0af73a345838b9879df90be80e758a9ffb458e62e19",
+      "representative": "2025/official/source-figures/plan-96989-document_image_rId8.jpeg",
+      "dimensions": [
+        652,
+        292
+      ],
+      "instances": [
+        "2025/official/source-figures/plan-96989-document_image_rId8.jpeg"
+      ],
+      "review_id": 48,
+      "category": "semester_skills_diagram",
+      "visual_review": "reviewed",
+      "review_method": "contact sheet; full-resolution original inspected",
+      "observation": "课程体系按学期列出知识技能层次；顶部箭头将语言基础分解为词汇、语法等能力，未声明选课门槛。其余学期行间无箭头。",
+      "verified_course_prerequisite_edges": [],
+      "source_program_ids": [
+        "96989"
+      ],
+      "source_detail_urls": [
+        "https://fdjwgl.fudan.edu.cn/manager/bizType/2/major-program-search/info/96989?skipAuth=1"
+      ],
+      "visible_arrow_kind": "knowledge_skill_decomposition",
+      "visible_concept_arrows": [
+        {
+          "figure_review_id": 48,
+          "figure_sha256": "a95c56130a0774228643d0af73a345838b9879df90be80e758a9ffb458e62e19",
+          "figure_path": "2025/official/source-figures/plan-96989-document_image_rId8.jpeg",
+          "source_label": "法语语言基础",
+          "target_label": "词汇",
+          "relation_interpretation": "official diagram: knowledge/skill decomposition",
+          "course_code_mapping": null,
+          "mandatory": false,
+          "prerequisite_evidence": false,
+          "note": "按原图箭头方向逐项抄录标签；这些是知识/技能类别，未强行匹配为同名课程。"
+        },
+        {
+          "figure_review_id": 48,
+          "figure_sha256": "a95c56130a0774228643d0af73a345838b9879df90be80e758a9ffb458e62e19",
+          "figure_path": "2025/official/source-figures/plan-96989-document_image_rId8.jpeg",
+          "source_label": "法语语言基础",
+          "target_label": "语法",
+          "relation_interpretation": "official diagram: knowledge/skill decomposition",
+          "course_code_mapping": null,
+          "mandatory": false,
+          "prerequisite_evidence": false,
+          "note": "按原图箭头方向逐项抄录标签；这些是知识/技能类别，未强行匹配为同名课程。"
+        },
+        {
+          "figure_review_id": 48,
+          "figure_sha256": "a95c56130a0774228643d0af73a345838b9879df90be80e758a9ffb458e62e19",
+          "figure_path": "2025/official/source-figures/plan-96989-document_image_rId8.jpeg",
+          "source_label": "法语语言基础",
+          "target_label": "阅读",
+          "relation_interpretation": "official diagram: knowledge/skill decomposition",
+          "course_code_mapping": null,
+          "mandatory": false,
+          "prerequisite_evidence": false,
+          "note": "按原图箭头方向逐项抄录标签；这些是知识/技能类别，未强行匹配为同名课程。"
+        },
+        {
+          "figure_review_id": 48,
+          "figure_sha256": "a95c56130a0774228643d0af73a345838b9879df90be80e758a9ffb458e62e19",
+          "figure_path": "2025/official/source-figures/plan-96989-document_image_rId8.jpeg",
+          "source_label": "法语语言基础",
+          "target_label": "会话",
+          "relation_interpretation": "official diagram: knowledge/skill decomposition",
+          "course_code_mapping": null,
+          "mandatory": false,
+          "prerequisite_evidence": false,
+          "note": "按原图箭头方向逐项抄录标签；这些是知识/技能类别，未强行匹配为同名课程。"
+        }
+      ]
+    },
+    {
+      "sha256": "68970e29f251b483a35e52565c1f8818ade341fcd16eccea132fd7c8fbe314df",
+      "representative": "2025/official/source-figures/plan-96992-document_image_rId5.jpeg",
+      "dimensions": [
+        702,
+        281
+      ],
+      "instances": [
+        "2025/official/source-figures/plan-96992-document_image_rId5.jpeg"
+      ],
+      "review_id": 49,
+      "category": "learning_objectives",
+      "visual_review": "reviewed",
+      "review_method": "contact sheet visually inspected",
+      "observation": "人才培养知识、能力、素质目标的树状说明；连接表示目标分解，不表示课程先修。",
+      "verified_course_prerequisite_edges": [],
+      "source_program_ids": [
+        "96992"
+      ],
+      "source_detail_urls": [
+        "https://fdjwgl.fudan.edu.cn/manager/bizType/2/major-program-search/info/96992?skipAuth=1"
+      ],
+      "visible_arrow_kind": "none",
+      "visible_concept_arrows": []
+    },
+    {
+      "sha256": "fdc4309a92a2a0f1ef374ab76de9bc41987de8278d794a6ae0f24dbeea491b83",
+      "representative": "2025/official/source-figures/plan-96992-document_image_rId6.png",
+      "dimensions": [
+        723,
+        217
+      ],
+      "instances": [
+        "2025/official/source-figures/plan-96992-document_image_rId6.png"
+      ],
+      "review_id": 50,
+      "category": "degree_credit_requirements",
+      "visual_review": "reviewed",
+      "review_method": "contact sheet visually inspected",
+      "observation": "授予学位、专业及学段审核学分表，无课程依赖箭头。",
+      "verified_course_prerequisite_edges": [],
+      "source_program_ids": [
+        "96992"
+      ],
+      "source_detail_urls": [
+        "https://fdjwgl.fudan.edu.cn/manager/bizType/2/major-program-search/info/96992?skipAuth=1"
+      ],
+      "visible_arrow_kind": "none",
+      "visible_concept_arrows": []
+    },
+    {
+      "sha256": "a9112ae0a01bf5d5f6e527c86368a1a2780b82393b2ebbe8c9a3a95609753106",
+      "representative": "2025/official/source-figures/plan-96992-document_image_rId8.jpeg",
+      "dimensions": [
+        539,
+        291
+      ],
+      "instances": [
+        "2025/official/source-figures/plan-96992-document_image_rId8.jpeg"
+      ],
+      "review_id": 51,
+      "category": "semester_skills_diagram",
+      "visual_review": "reviewed",
+      "review_method": "contact sheet; full-resolution original inspected",
+      "observation": "课程体系按学期列出知识技能层次；顶部箭头将语言基础分解为词汇、语法等能力，未声明选课门槛。其余学期行间无箭头。",
+      "verified_course_prerequisite_edges": [],
+      "source_program_ids": [
+        "96992"
+      ],
+      "source_detail_urls": [
+        "https://fdjwgl.fudan.edu.cn/manager/bizType/2/major-program-search/info/96992?skipAuth=1"
+      ],
+      "visible_arrow_kind": "knowledge_skill_decomposition",
+      "visible_concept_arrows": [
+        {
+          "figure_review_id": 51,
+          "figure_sha256": "a9112ae0a01bf5d5f6e527c86368a1a2780b82393b2ebbe8c9a3a95609753106",
+          "figure_path": "2025/official/source-figures/plan-96992-document_image_rId8.jpeg",
+          "source_label": "西班牙语语言基础",
+          "target_label": "词汇",
+          "relation_interpretation": "official diagram: knowledge/skill decomposition",
+          "course_code_mapping": null,
+          "mandatory": false,
+          "prerequisite_evidence": false,
+          "note": "按原图箭头方向逐项抄录标签；这些是知识/技能类别，未强行匹配为同名课程。"
+        },
+        {
+          "figure_review_id": 51,
+          "figure_sha256": "a9112ae0a01bf5d5f6e527c86368a1a2780b82393b2ebbe8c9a3a95609753106",
+          "figure_path": "2025/official/source-figures/plan-96992-document_image_rId8.jpeg",
+          "source_label": "西班牙语语言基础",
+          "target_label": "语法",
+          "relation_interpretation": "official diagram: knowledge/skill decomposition",
+          "course_code_mapping": null,
+          "mandatory": false,
+          "prerequisite_evidence": false,
+          "note": "按原图箭头方向逐项抄录标签；这些是知识/技能类别，未强行匹配为同名课程。"
+        },
+        {
+          "figure_review_id": 51,
+          "figure_sha256": "a9112ae0a01bf5d5f6e527c86368a1a2780b82393b2ebbe8c9a3a95609753106",
+          "figure_path": "2025/official/source-figures/plan-96992-document_image_rId8.jpeg",
+          "source_label": "西班牙语语言基础",
+          "target_label": "读写",
+          "relation_interpretation": "official diagram: knowledge/skill decomposition",
+          "course_code_mapping": null,
+          "mandatory": false,
+          "prerequisite_evidence": false,
+          "note": "按原图箭头方向逐项抄录标签；这些是知识/技能类别，未强行匹配为同名课程。"
+        },
+        {
+          "figure_review_id": 51,
+          "figure_sha256": "a9112ae0a01bf5d5f6e527c86368a1a2780b82393b2ebbe8c9a3a95609753106",
+          "figure_path": "2025/official/source-figures/plan-96992-document_image_rId8.jpeg",
+          "source_label": "西班牙语语言基础",
+          "target_label": "听说",
+          "relation_interpretation": "official diagram: knowledge/skill decomposition",
+          "course_code_mapping": null,
+          "mandatory": false,
+          "prerequisite_evidence": false,
+          "note": "按原图箭头方向逐项抄录标签；这些是知识/技能类别，未强行匹配为同名课程。"
+        }
+      ]
+    },
+    {
+      "sha256": "935722fe97ecae347c18ddc52b70e308e94b2682b03fee0808a3ba7293f7cfc1",
+      "representative": "2025/official/source-figures/plan-96995-document_image_rId5.jpeg",
+      "dimensions": [
+        975,
+        385
+      ],
+      "instances": [
+        "2025/official/source-figures/plan-96995-document_image_rId5.jpeg"
+      ],
+      "review_id": 52,
+      "category": "learning_objectives",
+      "visual_review": "reviewed",
+      "review_method": "contact sheet visually inspected",
+      "observation": "人才培养知识、能力、素质目标的树状说明；连接表示目标分解，不表示课程先修。",
+      "verified_course_prerequisite_edges": [],
+      "source_program_ids": [
+        "96995"
+      ],
+      "source_detail_urls": [
+        "https://fdjwgl.fudan.edu.cn/manager/bizType/2/major-program-search/info/96995?skipAuth=1"
+      ],
+      "visible_arrow_kind": "none",
+      "visible_concept_arrows": []
+    },
+    {
+      "sha256": "58370592cb606aa6fde41e415acd491811afd4571fbc9fd28d41fdc76eabee40",
+      "representative": "2025/official/source-figures/plan-96995-document_image_rId6.png",
+      "dimensions": [
+        987,
+        297
+      ],
+      "instances": [
+        "2025/official/source-figures/plan-96995-document_image_rId6.png"
+      ],
+      "review_id": 53,
+      "category": "degree_credit_requirements",
+      "visual_review": "reviewed",
+      "review_method": "contact sheet visually inspected",
+      "observation": "授予学位、专业及学段审核学分表，无课程依赖箭头。",
+      "verified_course_prerequisite_edges": [],
+      "source_program_ids": [
+        "96995"
+      ],
+      "source_detail_urls": [
+        "https://fdjwgl.fudan.edu.cn/manager/bizType/2/major-program-search/info/96995?skipAuth=1"
+      ],
+      "visible_arrow_kind": "none",
+      "visible_concept_arrows": []
+    },
+    {
+      "sha256": "3e838f908864f509924cdc0ce7e62d9432cab7f7ec31ff2cbd4c4a64e617d279",
+      "representative": "2025/official/source-figures/plan-96995-document_image_rId8.jpeg",
+      "dimensions": [
+        694,
+        399
+      ],
+      "instances": [
+        "2025/official/source-figures/plan-96995-document_image_rId8.jpeg"
+      ],
+      "review_id": 54,
+      "category": "semester_skills_diagram",
+      "visual_review": "reviewed",
+      "review_method": "contact sheet; full-resolution original inspected",
+      "observation": "课程体系按学期列出知识技能层次；顶部箭头将语言基础分解为词汇、语法等能力，未声明选课门槛。其余学期行间无箭头。",
+      "verified_course_prerequisite_edges": [],
+      "source_program_ids": [
+        "96995"
+      ],
+      "source_detail_urls": [
+        "https://fdjwgl.fudan.edu.cn/manager/bizType/2/major-program-search/info/96995?skipAuth=1"
+      ],
+      "visible_arrow_kind": "knowledge_skill_decomposition",
+      "visible_concept_arrows": [
+        {
+          "figure_review_id": 54,
+          "figure_sha256": "3e838f908864f509924cdc0ce7e62d9432cab7f7ec31ff2cbd4c4a64e617d279",
+          "figure_path": "2025/official/source-figures/plan-96995-document_image_rId8.jpeg",
+          "source_label": "西班牙语语言基础",
+          "target_label": "词汇",
+          "relation_interpretation": "official diagram: knowledge/skill decomposition",
+          "course_code_mapping": null,
+          "mandatory": false,
+          "prerequisite_evidence": false,
+          "note": "按原图箭头方向逐项抄录标签；这些是知识/技能类别，未强行匹配为同名课程。"
+        },
+        {
+          "figure_review_id": 54,
+          "figure_sha256": "3e838f908864f509924cdc0ce7e62d9432cab7f7ec31ff2cbd4c4a64e617d279",
+          "figure_path": "2025/official/source-figures/plan-96995-document_image_rId8.jpeg",
+          "source_label": "西班牙语语言基础",
+          "target_label": "语法",
+          "relation_interpretation": "official diagram: knowledge/skill decomposition",
+          "course_code_mapping": null,
+          "mandatory": false,
+          "prerequisite_evidence": false,
+          "note": "按原图箭头方向逐项抄录标签；这些是知识/技能类别，未强行匹配为同名课程。"
+        },
+        {
+          "figure_review_id": 54,
+          "figure_sha256": "3e838f908864f509924cdc0ce7e62d9432cab7f7ec31ff2cbd4c4a64e617d279",
+          "figure_path": "2025/official/source-figures/plan-96995-document_image_rId8.jpeg",
+          "source_label": "西班牙语语言基础",
+          "target_label": "读写",
+          "relation_interpretation": "official diagram: knowledge/skill decomposition",
+          "course_code_mapping": null,
+          "mandatory": false,
+          "prerequisite_evidence": false,
+          "note": "按原图箭头方向逐项抄录标签；这些是知识/技能类别，未强行匹配为同名课程。"
+        },
+        {
+          "figure_review_id": 54,
+          "figure_sha256": "3e838f908864f509924cdc0ce7e62d9432cab7f7ec31ff2cbd4c4a64e617d279",
+          "figure_path": "2025/official/source-figures/plan-96995-document_image_rId8.jpeg",
+          "source_label": "西班牙语语言基础",
+          "target_label": "听说",
+          "relation_interpretation": "official diagram: knowledge/skill decomposition",
+          "course_code_mapping": null,
+          "mandatory": false,
+          "prerequisite_evidence": false,
+          "note": "按原图箭头方向逐项抄录标签；这些是知识/技能类别，未强行匹配为同名课程。"
+        }
+      ]
+    },
+    {
+      "sha256": "6a2478916bdcc2241856d41d0645a5f7ff8f963a982fcc188fa35394c42d3333",
+      "representative": "2025/official/source-figures/plan-96996-document_image_rId5.jpeg",
+      "dimensions": [
+        1050,
+        417
+      ],
+      "instances": [
+        "2025/official/source-figures/plan-96996-document_image_rId5.jpeg",
+        "2025/official/source-figures/plan-99839-document_image_rId5.jpeg"
+      ],
+      "review_id": 55,
+      "category": "learning_objectives",
+      "visual_review": "reviewed",
+      "review_method": "contact sheet visually inspected",
+      "observation": "人才培养知识、能力、素质目标的树状说明；连接表示目标分解，不表示课程先修。",
+      "verified_course_prerequisite_edges": [],
+      "source_program_ids": [
+        "96996",
+        "99839"
+      ],
+      "source_detail_urls": [
+        "https://fdjwgl.fudan.edu.cn/manager/bizType/2/major-program-search/info/96996?skipAuth=1",
+        "https://fdjwgl.fudan.edu.cn/manager/bizType/2/major-program-search/info/99839?skipAuth=1"
+      ],
+      "visible_arrow_kind": "none",
+      "visible_concept_arrows": []
+    },
+    {
+      "sha256": "e3327f6ca456dcfdc3658d55294f7f5748417b2ae8463f98ee318661e6801582",
+      "representative": "2025/official/source-figures/plan-96996-document_image_rId6.png",
+      "dimensions": [
+        1076,
+        333
+      ],
+      "instances": [
+        "2025/official/source-figures/plan-96996-document_image_rId6.png"
+      ],
+      "review_id": 56,
+      "category": "degree_credit_requirements",
+      "visual_review": "reviewed",
+      "review_method": "contact sheet visually inspected",
+      "observation": "授予学位、专业及学段审核学分表，无课程依赖箭头。",
+      "verified_course_prerequisite_edges": [],
+      "source_program_ids": [
+        "96996"
+      ],
+      "source_detail_urls": [
+        "https://fdjwgl.fudan.edu.cn/manager/bizType/2/major-program-search/info/96996?skipAuth=1"
+      ],
+      "visible_arrow_kind": "none",
+      "visible_concept_arrows": []
+    },
+    {
+      "sha256": "a3dabb0f5cc9ffcb10ab7e06a267d1384d1fa504016532b49495817ce8ef7b92",
+      "representative": "2025/official/source-figures/plan-96996-document_image_rId8.jpeg",
+      "dimensions": [
+        886,
+        447
+      ],
+      "instances": [
+        "2025/official/source-figures/plan-96996-document_image_rId8.jpeg",
+        "2025/official/source-figures/plan-99839-document_image_rId8.jpeg"
+      ],
+      "review_id": 57,
+      "category": "semester_skills_diagram",
+      "visual_review": "reviewed",
+      "review_method": "contact sheet; full-resolution original inspected",
+      "observation": "课程体系按学期列出知识技能层次；顶部箭头将语言基础分解为词汇、语法等能力，未声明选课门槛。其余学期行间无箭头。",
+      "verified_course_prerequisite_edges": [],
+      "source_program_ids": [
+        "96996",
+        "99839"
+      ],
+      "source_detail_urls": [
+        "https://fdjwgl.fudan.edu.cn/manager/bizType/2/major-program-search/info/96996?skipAuth=1",
+        "https://fdjwgl.fudan.edu.cn/manager/bizType/2/major-program-search/info/99839?skipAuth=1"
+      ],
+      "visible_arrow_kind": "knowledge_skill_decomposition",
+      "visible_concept_arrows": [
+        {
+          "figure_review_id": 57,
+          "figure_sha256": "a3dabb0f5cc9ffcb10ab7e06a267d1384d1fa504016532b49495817ce8ef7b92",
+          "figure_path": "2025/official/source-figures/plan-96996-document_image_rId8.jpeg",
+          "source_label": "日语语言基础",
+          "target_label": "词汇",
+          "relation_interpretation": "official diagram: knowledge/skill decomposition",
+          "course_code_mapping": null,
+          "mandatory": false,
+          "prerequisite_evidence": false,
+          "note": "按原图箭头方向逐项抄录标签；这些是知识/技能类别，未强行匹配为同名课程。"
+        },
+        {
+          "figure_review_id": 57,
+          "figure_sha256": "a3dabb0f5cc9ffcb10ab7e06a267d1384d1fa504016532b49495817ce8ef7b92",
+          "figure_path": "2025/official/source-figures/plan-96996-document_image_rId8.jpeg",
+          "source_label": "日语语言基础",
+          "target_label": "语法",
+          "relation_interpretation": "official diagram: knowledge/skill decomposition",
+          "course_code_mapping": null,
+          "mandatory": false,
+          "prerequisite_evidence": false,
+          "note": "按原图箭头方向逐项抄录标签；这些是知识/技能类别，未强行匹配为同名课程。"
+        },
+        {
+          "figure_review_id": 57,
+          "figure_sha256": "a3dabb0f5cc9ffcb10ab7e06a267d1384d1fa504016532b49495817ce8ef7b92",
+          "figure_path": "2025/official/source-figures/plan-96996-document_image_rId8.jpeg",
+          "source_label": "日语语言基础",
+          "target_label": "阅读",
+          "relation_interpretation": "official diagram: knowledge/skill decomposition",
+          "course_code_mapping": null,
+          "mandatory": false,
+          "prerequisite_evidence": false,
+          "note": "按原图箭头方向逐项抄录标签；这些是知识/技能类别，未强行匹配为同名课程。"
+        },
+        {
+          "figure_review_id": 57,
+          "figure_sha256": "a3dabb0f5cc9ffcb10ab7e06a267d1384d1fa504016532b49495817ce8ef7b92",
+          "figure_path": "2025/official/source-figures/plan-96996-document_image_rId8.jpeg",
+          "source_label": "日语语言基础",
+          "target_label": "会话",
+          "relation_interpretation": "official diagram: knowledge/skill decomposition",
+          "course_code_mapping": null,
+          "mandatory": false,
+          "prerequisite_evidence": false,
+          "note": "按原图箭头方向逐项抄录标签；这些是知识/技能类别，未强行匹配为同名课程。"
+        }
+      ]
+    },
+    {
+      "sha256": "46d10008a7b8f133607f2af3f8c80e280afc7c20f4fbfc9c7bea5915da8057dc",
+      "representative": "2025/official/source-figures/plan-96997-document_image_rId5.jpeg",
+      "dimensions": [
+        1128,
+        459
+      ],
+      "instances": [
+        "2025/official/source-figures/plan-96997-document_image_rId5.jpeg",
+        "2025/official/source-figures/plan-99655-document_image_rId5.jpeg"
+      ],
+      "review_id": 58,
+      "category": "learning_objectives",
+      "visual_review": "reviewed",
+      "review_method": "contact sheet visually inspected",
+      "observation": "人才培养知识、能力、素质目标的树状说明；连接表示目标分解，不表示课程先修。",
+      "verified_course_prerequisite_edges": [],
+      "source_program_ids": [
+        "96997",
+        "99655"
+      ],
+      "source_detail_urls": [
+        "https://fdjwgl.fudan.edu.cn/manager/bizType/2/major-program-search/info/96997?skipAuth=1",
+        "https://fdjwgl.fudan.edu.cn/manager/bizType/2/major-program-search/info/99655?skipAuth=1"
+      ],
+      "visible_arrow_kind": "none",
+      "visible_concept_arrows": []
+    },
+    {
+      "sha256": "e5b44782b867c4f5655754e2b1152aa41c64fb47cefc0fab54ac7f6e0ef9d49b",
+      "representative": "2025/official/source-figures/plan-96997-document_image_rId6.png",
+      "dimensions": [
+        1159,
+        354
+      ],
+      "instances": [
+        "2025/official/source-figures/plan-96997-document_image_rId6.png"
+      ],
+      "review_id": 59,
+      "category": "degree_credit_requirements",
+      "visual_review": "reviewed",
+      "review_method": "contact sheet visually inspected",
+      "observation": "授予学位、专业及学段审核学分表，无课程依赖箭头。",
+      "verified_course_prerequisite_edges": [],
+      "source_program_ids": [
+        "96997"
+      ],
+      "source_detail_urls": [
+        "https://fdjwgl.fudan.edu.cn/manager/bizType/2/major-program-search/info/96997?skipAuth=1"
+      ],
+      "visible_arrow_kind": "none",
+      "visible_concept_arrows": []
+    },
+    {
+      "sha256": "01f6a18844196b5881c95b08a6f6fa5a0d60c14253a585906ed5d1e96d6c220c",
+      "representative": "2025/official/source-figures/plan-96997-document_image_rId8.jpeg",
+      "dimensions": [
+        1122,
+        484
+      ],
+      "instances": [
+        "2025/official/source-figures/plan-96997-document_image_rId8.jpeg",
+        "2025/official/source-figures/plan-99655-document_image_rId8.jpeg"
+      ],
+      "review_id": 60,
+      "category": "semester_skills_diagram",
+      "visual_review": "reviewed",
+      "review_method": "contact sheet; full-resolution original inspected",
+      "observation": "课程体系按学期列出知识技能层次；顶部箭头将语言基础分解为词汇、语法等能力，未声明选课门槛。其余学期行间无箭头。",
+      "verified_course_prerequisite_edges": [],
+      "source_program_ids": [
+        "96997",
+        "99655"
+      ],
+      "source_detail_urls": [
+        "https://fdjwgl.fudan.edu.cn/manager/bizType/2/major-program-search/info/96997?skipAuth=1",
+        "https://fdjwgl.fudan.edu.cn/manager/bizType/2/major-program-search/info/99655?skipAuth=1"
+      ],
+      "visible_arrow_kind": "knowledge_skill_decomposition",
+      "visible_concept_arrows": [
+        {
+          "figure_review_id": 60,
+          "figure_sha256": "01f6a18844196b5881c95b08a6f6fa5a0d60c14253a585906ed5d1e96d6c220c",
+          "figure_path": "2025/official/source-figures/plan-96997-document_image_rId8.jpeg",
+          "source_label": "朝鲜语语言基础",
+          "target_label": "词汇",
+          "relation_interpretation": "official diagram: knowledge/skill decomposition",
+          "course_code_mapping": null,
+          "mandatory": false,
+          "prerequisite_evidence": false,
+          "note": "按原图箭头方向逐项抄录标签；这些是知识/技能类别，未强行匹配为同名课程。"
+        },
+        {
+          "figure_review_id": 60,
+          "figure_sha256": "01f6a18844196b5881c95b08a6f6fa5a0d60c14253a585906ed5d1e96d6c220c",
+          "figure_path": "2025/official/source-figures/plan-96997-document_image_rId8.jpeg",
+          "source_label": "朝鲜语语言基础",
+          "target_label": "语法",
+          "relation_interpretation": "official diagram: knowledge/skill decomposition",
+          "course_code_mapping": null,
+          "mandatory": false,
+          "prerequisite_evidence": false,
+          "note": "按原图箭头方向逐项抄录标签；这些是知识/技能类别，未强行匹配为同名课程。"
+        },
+        {
+          "figure_review_id": 60,
+          "figure_sha256": "01f6a18844196b5881c95b08a6f6fa5a0d60c14253a585906ed5d1e96d6c220c",
+          "figure_path": "2025/official/source-figures/plan-96997-document_image_rId8.jpeg",
+          "source_label": "朝鲜语语言基础",
+          "target_label": "阅读",
+          "relation_interpretation": "official diagram: knowledge/skill decomposition",
+          "course_code_mapping": null,
+          "mandatory": false,
+          "prerequisite_evidence": false,
+          "note": "按原图箭头方向逐项抄录标签；这些是知识/技能类别，未强行匹配为同名课程。"
+        },
+        {
+          "figure_review_id": 60,
+          "figure_sha256": "01f6a18844196b5881c95b08a6f6fa5a0d60c14253a585906ed5d1e96d6c220c",
+          "figure_path": "2025/official/source-figures/plan-96997-document_image_rId8.jpeg",
+          "source_label": "朝鲜语语言基础",
+          "target_label": "会话",
+          "relation_interpretation": "official diagram: knowledge/skill decomposition",
+          "course_code_mapping": null,
+          "mandatory": false,
+          "prerequisite_evidence": false,
+          "note": "按原图箭头方向逐项抄录标签；这些是知识/技能类别，未强行匹配为同名课程。"
+        }
+      ]
+    },
+    {
+      "sha256": "06992ca064780e3a4ba199e8a58b8ca5de85f80871206b4320e3cad8070f871b",
+      "representative": "2025/official/source-figures/plan-96999-document_image_rId5.png",
+      "dimensions": [
+        1330,
+        708
+      ],
+      "instances": [
+        "2025/official/source-figures/plan-96999-document_image_rId5.png"
+      ],
+      "review_id": 61,
+      "category": "learning_objectives",
+      "visual_review": "reviewed",
+      "review_method": "contact sheet visually inspected",
+      "observation": "人才培养知识、能力、素质目标的树状说明；连接表示目标分解，不表示课程先修。",
+      "verified_course_prerequisite_edges": [],
+      "source_program_ids": [
+        "96999"
+      ],
+      "source_detail_urls": [
+        "https://fdjwgl.fudan.edu.cn/manager/bizType/2/major-program-search/info/96999?skipAuth=1"
+      ],
+      "visible_arrow_kind": "none",
+      "visible_concept_arrows": []
+    },
+    {
+      "sha256": "4a689f033405d69d982e99ea6587e70fc0d06c97a84a51cdb3257c69dc4995d5",
+      "representative": "2025/official/source-figures/plan-96999-document_image_rId6.jpeg",
+      "dimensions": [
+        1191,
+        523
+      ],
+      "instances": [
+        "2025/official/source-figures/plan-96999-document_image_rId6.jpeg"
+      ],
+      "review_id": 62,
+      "category": "programme_module_tree",
+      "visual_review": "reviewed",
+      "review_method": "contact sheet; full-resolution original inspected",
+      "observation": "本博融通180分方案的课程模块/学分分类树，连接表示组成关系，无逐课先修箭头。",
+      "verified_course_prerequisite_edges": [],
+      "source_program_ids": [
+        "96999"
+      ],
+      "source_detail_urls": [
+        "https://fdjwgl.fudan.edu.cn/manager/bizType/2/major-program-search/info/96999?skipAuth=1"
+      ],
+      "visible_arrow_kind": "none",
+      "visible_concept_arrows": []
+    },
+    {
+      "sha256": "6b53fd4a051c4c5b48ae947ecc548281a92e1b9c01001125543b44ebbfbd3b20",
+      "representative": "2025/official/source-figures/plan-96999-document_image_rId7.jpeg",
+      "dimensions": [
+        1083,
+        591
+      ],
+      "instances": [
+        "2025/official/source-figures/plan-96999-document_image_rId7.jpeg"
+      ],
+      "review_id": 63,
+      "category": "semester_curriculum_table",
+      "visual_review": "reviewed",
+      "review_method": "contact sheet; full-resolution original inspected",
+      "observation": "课程体系与科研实践按学期排表，未见连接具体课程的箭头；不将学期上下位置转成先修。",
+      "verified_course_prerequisite_edges": [],
+      "source_program_ids": [
+        "96999"
+      ],
+      "source_detail_urls": [
+        "https://fdjwgl.fudan.edu.cn/manager/bizType/2/major-program-search/info/96999?skipAuth=1"
+      ],
+      "visible_arrow_kind": "none",
+      "visible_concept_arrows": []
+    },
+    {
+      "sha256": "416025a37b83c5005ef1f8905c2a8892727b7da8db94716cb5a5aec8d84efe17",
+      "representative": "2025/official/source-figures/plan-99306-document_image_rId6.jpeg",
+      "dimensions": [
+        712,
+        215
+      ],
+      "instances": [
+        "2025/official/source-figures/plan-99306-document_image_rId6.jpeg"
+      ],
+      "review_id": 64,
+      "category": "degree_credit_requirements",
+      "visual_review": "reviewed",
+      "review_method": "contact sheet visually inspected",
+      "observation": "授予学位、专业及学段审核学分表，无课程依赖箭头。",
+      "verified_course_prerequisite_edges": [],
+      "source_program_ids": [
+        "99306"
+      ],
+      "source_detail_urls": [
+        "https://fdjwgl.fudan.edu.cn/manager/bizType/2/major-program-search/info/99306?skipAuth=1"
+      ],
+      "visible_arrow_kind": "none",
+      "visible_concept_arrows": []
+    },
+    {
+      "sha256": "18cb0ba58cb16e1415ac67ab27e2ae3068fce766cfa9a2bd7964cd7fd2cf7d12",
+      "representative": "2025/official/source-figures/plan-99306-document_image_rId7.jpeg",
+      "dimensions": [
+        654,
+        239
+      ],
+      "instances": [
+        "2025/official/source-figures/plan-99306-document_image_rId7.jpeg"
+      ],
+      "review_id": 65,
+      "category": "degree_pathway_credit_diagram",
+      "visual_review": "reviewed",
+      "review_method": "contact sheet visually inspected",
+      "observation": "通识、专业培养、融合创新模块合成不同培养路径及总学分；箭头表示培养路径/学分组成，不是逐课先修。",
+      "verified_course_prerequisite_edges": [],
+      "source_program_ids": [
+        "99306"
+      ],
+      "source_detail_urls": [
+        "https://fdjwgl.fudan.edu.cn/manager/bizType/2/major-program-search/info/99306?skipAuth=1"
+      ],
+      "visible_arrow_kind": "degree_pathway_composition",
+      "visible_concept_arrows": []
+    },
+    {
+      "sha256": "81d4351f8e50dddcc47e0157e613f4d78e70ac3d4159637e53db03aeedee6d83",
+      "representative": "2025/official/source-figures/plan-99655-document_image_rId6.jpeg",
+      "dimensions": [
+        775,
+        237
+      ],
+      "instances": [
+        "2025/official/source-figures/plan-99655-document_image_rId6.jpeg"
+      ],
+      "review_id": 66,
+      "category": "degree_credit_requirements",
+      "visual_review": "reviewed",
+      "review_method": "contact sheet visually inspected",
+      "observation": "授予学位、专业及学段审核学分表，无课程依赖箭头。",
+      "verified_course_prerequisite_edges": [],
+      "source_program_ids": [
+        "99655"
+      ],
+      "source_detail_urls": [
+        "https://fdjwgl.fudan.edu.cn/manager/bizType/2/major-program-search/info/99655?skipAuth=1"
+      ],
+      "visible_arrow_kind": "none",
+      "visible_concept_arrows": []
+    },
+    {
+      "sha256": "c4892031b06b3fe6c65eef428039540e79fdf58696500c86e7939a981eaee42f",
+      "representative": "2025/official/source-figures/plan-99655-document_image_rId7.jpeg",
+      "dimensions": [
+        699,
+        258
+      ],
+      "instances": [
+        "2025/official/source-figures/plan-99655-document_image_rId7.jpeg"
+      ],
+      "review_id": 67,
+      "category": "degree_pathway_credit_diagram",
+      "visual_review": "reviewed",
+      "review_method": "contact sheet visually inspected",
+      "observation": "通识、专业培养、融合创新模块合成不同培养路径及总学分；箭头表示培养路径/学分组成，不是逐课先修。",
+      "verified_course_prerequisite_edges": [],
+      "source_program_ids": [
+        "99655"
+      ],
+      "source_detail_urls": [
+        "https://fdjwgl.fudan.edu.cn/manager/bizType/2/major-program-search/info/99655?skipAuth=1"
+      ],
+      "visible_arrow_kind": "degree_pathway_composition",
+      "visible_concept_arrows": []
+    },
+    {
+      "sha256": "8e2262c39ebe459de40a6bb8d85faee82c26164699cdfdbf6e86d372d6c4f55d",
+      "representative": "2025/official/source-figures/plan-99830-document_image_rId6.jpeg",
+      "dimensions": [
+        721,
+        227
+      ],
+      "instances": [
+        "2025/official/source-figures/plan-99830-document_image_rId6.jpeg"
+      ],
+      "review_id": 68,
+      "category": "degree_credit_requirements",
+      "visual_review": "reviewed",
+      "review_method": "contact sheet visually inspected",
+      "observation": "授予学位、专业及学段审核学分表，无课程依赖箭头。",
+      "verified_course_prerequisite_edges": [],
+      "source_program_ids": [
+        "99830"
+      ],
+      "source_detail_urls": [
+        "https://fdjwgl.fudan.edu.cn/manager/bizType/2/major-program-search/info/99830?skipAuth=1"
+      ],
+      "visible_arrow_kind": "none",
+      "visible_concept_arrows": []
+    },
+    {
+      "sha256": "82b553796c48bfc43dd167c67eb972f45822a3a4c6e875650b1bdc30ed5004dd",
+      "representative": "2025/official/source-figures/plan-99830-document_image_rId7.jpeg",
+      "dimensions": [
+        622,
+        239
+      ],
+      "instances": [
+        "2025/official/source-figures/plan-99830-document_image_rId7.jpeg"
+      ],
+      "review_id": 69,
+      "category": "degree_pathway_credit_diagram",
+      "visual_review": "reviewed",
+      "review_method": "contact sheet visually inspected",
+      "observation": "通识、专业培养、融合创新模块合成不同培养路径及总学分；箭头表示培养路径/学分组成，不是逐课先修。",
+      "verified_course_prerequisite_edges": [],
+      "source_program_ids": [
+        "99830"
+      ],
+      "source_detail_urls": [
+        "https://fdjwgl.fudan.edu.cn/manager/bizType/2/major-program-search/info/99830?skipAuth=1"
+      ],
+      "visible_arrow_kind": "degree_pathway_composition",
+      "visible_concept_arrows": []
+    },
+    {
+      "sha256": "ce2ab9b1338891b2f89ca3aefa39e47d58104b4dc6c4a1a097d077e9048543c5",
+      "representative": "2025/official/source-figures/plan-99832-document_image_rId6.jpeg",
+      "dimensions": [
+        649,
+        196
+      ],
+      "instances": [
+        "2025/official/source-figures/plan-99832-document_image_rId6.jpeg"
+      ],
+      "review_id": 70,
+      "category": "degree_credit_requirements",
+      "visual_review": "reviewed",
+      "review_method": "contact sheet visually inspected",
+      "observation": "授予学位、专业及学段审核学分表，无课程依赖箭头。",
+      "verified_course_prerequisite_edges": [],
+      "source_program_ids": [
+        "99832"
+      ],
+      "source_detail_urls": [
+        "https://fdjwgl.fudan.edu.cn/manager/bizType/2/major-program-search/info/99832?skipAuth=1"
+      ],
+      "visible_arrow_kind": "none",
+      "visible_concept_arrows": []
+    },
+    {
+      "sha256": "cc3ea046940ac52e9d29902687ecdef878f16b35af2b4ed7e595a6840d0ba6e7",
+      "representative": "2025/official/source-figures/plan-99832-document_image_rId7.jpeg",
+      "dimensions": [
+        541,
+        215
+      ],
+      "instances": [
+        "2025/official/source-figures/plan-99832-document_image_rId7.jpeg"
+      ],
+      "review_id": 71,
+      "category": "degree_pathway_credit_diagram",
+      "visual_review": "reviewed",
+      "review_method": "contact sheet visually inspected",
+      "observation": "通识、专业培养、融合创新模块合成不同培养路径及总学分；箭头表示培养路径/学分组成，不是逐课先修。",
+      "verified_course_prerequisite_edges": [],
+      "source_program_ids": [
+        "99832"
+      ],
+      "source_detail_urls": [
+        "https://fdjwgl.fudan.edu.cn/manager/bizType/2/major-program-search/info/99832?skipAuth=1"
+      ],
+      "visible_arrow_kind": "degree_pathway_composition",
+      "visible_concept_arrows": []
+    },
+    {
+      "sha256": "1c042e14a437f1e5e013fe9fa3e3e26612b4ecbcf79efc0e5be38d6377156a43",
+      "representative": "2025/official/source-figures/plan-99839-document_image_rId6.jpeg",
+      "dimensions": [
+        717,
+        216
+      ],
+      "instances": [
+        "2025/official/source-figures/plan-99839-document_image_rId6.jpeg"
+      ],
+      "review_id": 72,
+      "category": "degree_credit_requirements",
+      "visual_review": "reviewed",
+      "review_method": "contact sheet visually inspected",
+      "observation": "授予学位、专业及学段审核学分表，无课程依赖箭头。",
+      "verified_course_prerequisite_edges": [],
+      "source_program_ids": [
+        "99839"
+      ],
+      "source_detail_urls": [
+        "https://fdjwgl.fudan.edu.cn/manager/bizType/2/major-program-search/info/99839?skipAuth=1"
+      ],
+      "visible_arrow_kind": "none",
+      "visible_concept_arrows": []
+    },
+    {
+      "sha256": "c1b72c7dd601e0edb4ed23d84499bf6f0c2313a39c7fb537fe5b29e6e4cec52c",
+      "representative": "2025/official/source-figures/plan-99839-document_image_rId7.jpeg",
+      "dimensions": [
+        631,
+        239
+      ],
+      "instances": [
+        "2025/official/source-figures/plan-99839-document_image_rId7.jpeg"
+      ],
+      "review_id": 73,
+      "category": "degree_pathway_credit_diagram",
+      "visual_review": "reviewed",
+      "review_method": "contact sheet visually inspected",
+      "observation": "通识、专业培养、融合创新模块合成不同培养路径及总学分；箭头表示培养路径/学分组成，不是逐课先修。",
+      "verified_course_prerequisite_edges": [],
+      "source_program_ids": [
+        "99839"
+      ],
+      "source_detail_urls": [
+        "https://fdjwgl.fudan.edu.cn/manager/bizType/2/major-program-search/info/99839?skipAuth=1"
+      ],
+      "visible_arrow_kind": "degree_pathway_composition",
+      "visible_concept_arrows": []
+    }
+  ],
+  "concept_arrows": [
+    {
+      "figure_review_id": 24,
+      "figure_sha256": "4705e05383b1512a453b69194767b1f432316fdf1c946bbd83c9666ae98099e2",
+      "figure_path": "2025/official/source-figures/plan-96924-document_image_rId8.jpeg",
+      "source_label": "俄语语言基础",
+      "target_label": "词汇",
+      "relation_interpretation": "official diagram: knowledge/skill decomposition",
+      "course_code_mapping": null,
+      "mandatory": false,
+      "prerequisite_evidence": false,
+      "note": "按原图箭头方向逐项抄录标签；这些是知识/技能类别，未强行匹配为同名课程。"
+    },
+    {
+      "figure_review_id": 24,
+      "figure_sha256": "4705e05383b1512a453b69194767b1f432316fdf1c946bbd83c9666ae98099e2",
+      "figure_path": "2025/official/source-figures/plan-96924-document_image_rId8.jpeg",
+      "source_label": "俄语语言基础",
+      "target_label": "语法",
+      "relation_interpretation": "official diagram: knowledge/skill decomposition",
+      "course_code_mapping": null,
+      "mandatory": false,
+      "prerequisite_evidence": false,
+      "note": "按原图箭头方向逐项抄录标签；这些是知识/技能类别，未强行匹配为同名课程。"
+    },
+    {
+      "figure_review_id": 24,
+      "figure_sha256": "4705e05383b1512a453b69194767b1f432316fdf1c946bbd83c9666ae98099e2",
+      "figure_path": "2025/official/source-figures/plan-96924-document_image_rId8.jpeg",
+      "source_label": "俄语语言基础",
+      "target_label": "阅读",
+      "relation_interpretation": "official diagram: knowledge/skill decomposition",
+      "course_code_mapping": null,
+      "mandatory": false,
+      "prerequisite_evidence": false,
+      "note": "按原图箭头方向逐项抄录标签；这些是知识/技能类别，未强行匹配为同名课程。"
+    },
+    {
+      "figure_review_id": 24,
+      "figure_sha256": "4705e05383b1512a453b69194767b1f432316fdf1c946bbd83c9666ae98099e2",
+      "figure_path": "2025/official/source-figures/plan-96924-document_image_rId8.jpeg",
+      "source_label": "俄语语言基础",
+      "target_label": "会话",
+      "relation_interpretation": "official diagram: knowledge/skill decomposition",
+      "course_code_mapping": null,
+      "mandatory": false,
+      "prerequisite_evidence": false,
+      "note": "按原图箭头方向逐项抄录标签；这些是知识/技能类别，未强行匹配为同名课程。"
+    },
+    {
+      "figure_review_id": 28,
+      "figure_sha256": "16e48fba48be39501751b84893fc3f280170f6c3972bc92ee56c80afb62b862f",
+      "figure_path": "2025/official/source-figures/plan-96926-document_image_rId8.jpeg",
+      "source_label": "俄语语言-计算机基础",
+      "target_label": "词汇",
+      "relation_interpretation": "official diagram: knowledge/skill decomposition",
+      "course_code_mapping": null,
+      "mandatory": false,
+      "prerequisite_evidence": false,
+      "note": "按原图箭头方向逐项抄录标签；这些是知识/技能类别，未强行匹配为同名课程。"
+    },
+    {
+      "figure_review_id": 28,
+      "figure_sha256": "16e48fba48be39501751b84893fc3f280170f6c3972bc92ee56c80afb62b862f",
+      "figure_path": "2025/official/source-figures/plan-96926-document_image_rId8.jpeg",
+      "source_label": "俄语语言-计算机基础",
+      "target_label": "语法",
+      "relation_interpretation": "official diagram: knowledge/skill decomposition",
+      "course_code_mapping": null,
+      "mandatory": false,
+      "prerequisite_evidence": false,
+      "note": "按原图箭头方向逐项抄录标签；这些是知识/技能类别，未强行匹配为同名课程。"
+    },
+    {
+      "figure_review_id": 28,
+      "figure_sha256": "16e48fba48be39501751b84893fc3f280170f6c3972bc92ee56c80afb62b862f",
+      "figure_path": "2025/official/source-figures/plan-96926-document_image_rId8.jpeg",
+      "source_label": "俄语语言-计算机基础",
+      "target_label": "阅读",
+      "relation_interpretation": "official diagram: knowledge/skill decomposition",
+      "course_code_mapping": null,
+      "mandatory": false,
+      "prerequisite_evidence": false,
+      "note": "按原图箭头方向逐项抄录标签；这些是知识/技能类别，未强行匹配为同名课程。"
+    },
+    {
+      "figure_review_id": 28,
+      "figure_sha256": "16e48fba48be39501751b84893fc3f280170f6c3972bc92ee56c80afb62b862f",
+      "figure_path": "2025/official/source-figures/plan-96926-document_image_rId8.jpeg",
+      "source_label": "俄语语言-计算机基础",
+      "target_label": "会话",
+      "relation_interpretation": "official diagram: knowledge/skill decomposition",
+      "course_code_mapping": null,
+      "mandatory": false,
+      "prerequisite_evidence": false,
+      "note": "按原图箭头方向逐项抄录标签；这些是知识/技能类别，未强行匹配为同名课程。"
+    },
+    {
+      "figure_review_id": 28,
+      "figure_sha256": "16e48fba48be39501751b84893fc3f280170f6c3972bc92ee56c80afb62b862f",
+      "figure_path": "2025/official/source-figures/plan-96926-document_image_rId8.jpeg",
+      "source_label": "俄语语言-计算机基础",
+      "target_label": "软件基础知识",
+      "relation_interpretation": "official diagram: knowledge/skill decomposition",
+      "course_code_mapping": null,
+      "mandatory": false,
+      "prerequisite_evidence": false,
+      "note": "按原图箭头方向逐项抄录标签；这些是知识/技能类别，未强行匹配为同名课程。"
+    },
+    {
+      "figure_review_id": 28,
+      "figure_sha256": "16e48fba48be39501751b84893fc3f280170f6c3972bc92ee56c80afb62b862f",
+      "figure_path": "2025/official/source-figures/plan-96926-document_image_rId8.jpeg",
+      "source_label": "俄语语言-计算机基础",
+      "target_label": "硬件基础知识",
+      "relation_interpretation": "official diagram: knowledge/skill decomposition",
+      "course_code_mapping": null,
+      "mandatory": false,
+      "prerequisite_evidence": false,
+      "note": "按原图箭头方向逐项抄录标签；这些是知识/技能类别，未强行匹配为同名课程。"
+    },
+    {
+      "figure_review_id": 32,
+      "figure_sha256": "7537ad193eb341c2bb64df843515994e5e8ebb8c260873dacc21ce194a8875a3",
+      "figure_path": "2025/official/source-figures/plan-96928-document_image_rId8.jpeg",
+      "source_label": "俄-英语言基础",
+      "target_label": "词汇",
+      "relation_interpretation": "official diagram: knowledge/skill decomposition",
+      "course_code_mapping": null,
+      "mandatory": false,
+      "prerequisite_evidence": false,
+      "note": "按原图箭头方向逐项抄录标签；这些是知识/技能类别，未强行匹配为同名课程。"
+    },
+    {
+      "figure_review_id": 32,
+      "figure_sha256": "7537ad193eb341c2bb64df843515994e5e8ebb8c260873dacc21ce194a8875a3",
+      "figure_path": "2025/official/source-figures/plan-96928-document_image_rId8.jpeg",
+      "source_label": "俄-英语言基础",
+      "target_label": "语法",
+      "relation_interpretation": "official diagram: knowledge/skill decomposition",
+      "course_code_mapping": null,
+      "mandatory": false,
+      "prerequisite_evidence": false,
+      "note": "按原图箭头方向逐项抄录标签；这些是知识/技能类别，未强行匹配为同名课程。"
+    },
+    {
+      "figure_review_id": 32,
+      "figure_sha256": "7537ad193eb341c2bb64df843515994e5e8ebb8c260873dacc21ce194a8875a3",
+      "figure_path": "2025/official/source-figures/plan-96928-document_image_rId8.jpeg",
+      "source_label": "俄-英语言基础",
+      "target_label": "阅读",
+      "relation_interpretation": "official diagram: knowledge/skill decomposition",
+      "course_code_mapping": null,
+      "mandatory": false,
+      "prerequisite_evidence": false,
+      "note": "按原图箭头方向逐项抄录标签；这些是知识/技能类别，未强行匹配为同名课程。"
+    },
+    {
+      "figure_review_id": 32,
+      "figure_sha256": "7537ad193eb341c2bb64df843515994e5e8ebb8c260873dacc21ce194a8875a3",
+      "figure_path": "2025/official/source-figures/plan-96928-document_image_rId8.jpeg",
+      "source_label": "俄-英语言基础",
+      "target_label": "会话",
+      "relation_interpretation": "official diagram: knowledge/skill decomposition",
+      "course_code_mapping": null,
+      "mandatory": false,
+      "prerequisite_evidence": false,
+      "note": "按原图箭头方向逐项抄录标签；这些是知识/技能类别，未强行匹配为同名课程。"
+    },
+    {
+      "figure_review_id": 35,
+      "figure_sha256": "e07146a8d16c10bb9bdd4b518d8c6046744e956cd17119b9933f8e37d939f93d",
+      "figure_path": "2025/official/source-figures/plan-96973-document_image_rId8.jpeg",
+      "source_label": "德语语言基础",
+      "target_label": "语法知识",
+      "relation_interpretation": "official diagram: knowledge/skill decomposition",
+      "course_code_mapping": null,
+      "mandatory": false,
+      "prerequisite_evidence": false,
+      "note": "按原图箭头方向逐项抄录标签；这些是知识/技能类别，未强行匹配为同名课程。"
+    },
+    {
+      "figure_review_id": 35,
+      "figure_sha256": "e07146a8d16c10bb9bdd4b518d8c6046744e956cd17119b9933f8e37d939f93d",
+      "figure_path": "2025/official/source-figures/plan-96973-document_image_rId8.jpeg",
+      "source_label": "德语语言基础",
+      "target_label": "阅读理解",
+      "relation_interpretation": "official diagram: knowledge/skill decomposition",
+      "course_code_mapping": null,
+      "mandatory": false,
+      "prerequisite_evidence": false,
+      "note": "按原图箭头方向逐项抄录标签；这些是知识/技能类别，未强行匹配为同名课程。"
+    },
+    {
+      "figure_review_id": 35,
+      "figure_sha256": "e07146a8d16c10bb9bdd4b518d8c6046744e956cd17119b9933f8e37d939f93d",
+      "figure_path": "2025/official/source-figures/plan-96973-document_image_rId8.jpeg",
+      "source_label": "德语语言基础",
+      "target_label": "基本交际能力",
+      "relation_interpretation": "official diagram: knowledge/skill decomposition",
+      "course_code_mapping": null,
+      "mandatory": false,
+      "prerequisite_evidence": false,
+      "note": "按原图箭头方向逐项抄录标签；这些是知识/技能类别，未强行匹配为同名课程。"
+    },
+    {
+      "figure_review_id": 39,
+      "figure_sha256": "9ca01ee59b45ebfd3e6779d359d41c76cb4307cb6230a6de9389200422380c41",
+      "figure_path": "2025/official/source-figures/plan-96976-document_image_rId8.jpeg",
+      "source_label": "德语语言基础+计算机科技基础",
+      "target_label": "德语语法知识",
+      "relation_interpretation": "official diagram: knowledge/skill decomposition",
+      "course_code_mapping": null,
+      "mandatory": false,
+      "prerequisite_evidence": false,
+      "note": "按原图箭头方向逐项抄录标签；这些是知识/技能类别，未强行匹配为同名课程。"
+    },
+    {
+      "figure_review_id": 39,
+      "figure_sha256": "9ca01ee59b45ebfd3e6779d359d41c76cb4307cb6230a6de9389200422380c41",
+      "figure_path": "2025/official/source-figures/plan-96976-document_image_rId8.jpeg",
+      "source_label": "德语语言基础+计算机科技基础",
+      "target_label": "德语交际能力",
+      "relation_interpretation": "official diagram: knowledge/skill decomposition",
+      "course_code_mapping": null,
+      "mandatory": false,
+      "prerequisite_evidence": false,
+      "note": "按原图箭头方向逐项抄录标签；这些是知识/技能类别，未强行匹配为同名课程。"
+    },
+    {
+      "figure_review_id": 39,
+      "figure_sha256": "9ca01ee59b45ebfd3e6779d359d41c76cb4307cb6230a6de9389200422380c41",
+      "figure_path": "2025/official/source-figures/plan-96976-document_image_rId8.jpeg",
+      "source_label": "德语语言基础+计算机科技基础",
+      "target_label": "高等数学与编程基础",
+      "relation_interpretation": "official diagram: knowledge/skill decomposition",
+      "course_code_mapping": null,
+      "mandatory": false,
+      "prerequisite_evidence": false,
+      "note": "按原图箭头方向逐项抄录标签；这些是知识/技能类别，未强行匹配为同名课程。"
+    },
+    {
+      "figure_review_id": 42,
+      "figure_sha256": "ee9879aa8766f48c1122c336ff867ddf7e65aae20031ed036553d6a658873ecf",
+      "figure_path": "2025/official/source-figures/plan-96983-document_image_rId8.jpeg",
+      "source_label": "德语语言基础",
+      "target_label": "语法知识",
+      "relation_interpretation": "official diagram: knowledge/skill decomposition",
+      "course_code_mapping": null,
+      "mandatory": false,
+      "prerequisite_evidence": false,
+      "note": "按原图箭头方向逐项抄录标签；这些是知识/技能类别，未强行匹配为同名课程。"
+    },
+    {
+      "figure_review_id": 42,
+      "figure_sha256": "ee9879aa8766f48c1122c336ff867ddf7e65aae20031ed036553d6a658873ecf",
+      "figure_path": "2025/official/source-figures/plan-96983-document_image_rId8.jpeg",
+      "source_label": "德语语言基础",
+      "target_label": "阅读理解",
+      "relation_interpretation": "official diagram: knowledge/skill decomposition",
+      "course_code_mapping": null,
+      "mandatory": false,
+      "prerequisite_evidence": false,
+      "note": "按原图箭头方向逐项抄录标签；这些是知识/技能类别，未强行匹配为同名课程。"
+    },
+    {
+      "figure_review_id": 42,
+      "figure_sha256": "ee9879aa8766f48c1122c336ff867ddf7e65aae20031ed036553d6a658873ecf",
+      "figure_path": "2025/official/source-figures/plan-96983-document_image_rId8.jpeg",
+      "source_label": "德语语言基础",
+      "target_label": "基本交际能力",
+      "relation_interpretation": "official diagram: knowledge/skill decomposition",
+      "course_code_mapping": null,
+      "mandatory": false,
+      "prerequisite_evidence": false,
+      "note": "按原图箭头方向逐项抄录标签；这些是知识/技能类别，未强行匹配为同名课程。"
+    },
+    {
+      "figure_review_id": 45,
+      "figure_sha256": "30eeea88ca8d6c3e69386d0dad95edd8ef0a484f81c4a7a5e6bc06817e463eb3",
+      "figure_path": "2025/official/source-figures/plan-96987-document_image_rId8.jpeg",
+      "source_label": "法语语言基础",
+      "target_label": "词汇",
+      "relation_interpretation": "official diagram: knowledge/skill decomposition",
+      "course_code_mapping": null,
+      "mandatory": false,
+      "prerequisite_evidence": false,
+      "note": "按原图箭头方向逐项抄录标签；这些是知识/技能类别，未强行匹配为同名课程。"
+    },
+    {
+      "figure_review_id": 45,
+      "figure_sha256": "30eeea88ca8d6c3e69386d0dad95edd8ef0a484f81c4a7a5e6bc06817e463eb3",
+      "figure_path": "2025/official/source-figures/plan-96987-document_image_rId8.jpeg",
+      "source_label": "法语语言基础",
+      "target_label": "语法",
+      "relation_interpretation": "official diagram: knowledge/skill decomposition",
+      "course_code_mapping": null,
+      "mandatory": false,
+      "prerequisite_evidence": false,
+      "note": "按原图箭头方向逐项抄录标签；这些是知识/技能类别，未强行匹配为同名课程。"
+    },
+    {
+      "figure_review_id": 45,
+      "figure_sha256": "30eeea88ca8d6c3e69386d0dad95edd8ef0a484f81c4a7a5e6bc06817e463eb3",
+      "figure_path": "2025/official/source-figures/plan-96987-document_image_rId8.jpeg",
+      "source_label": "法语语言基础",
+      "target_label": "阅读",
+      "relation_interpretation": "official diagram: knowledge/skill decomposition",
+      "course_code_mapping": null,
+      "mandatory": false,
+      "prerequisite_evidence": false,
+      "note": "按原图箭头方向逐项抄录标签；这些是知识/技能类别，未强行匹配为同名课程。"
+    },
+    {
+      "figure_review_id": 45,
+      "figure_sha256": "30eeea88ca8d6c3e69386d0dad95edd8ef0a484f81c4a7a5e6bc06817e463eb3",
+      "figure_path": "2025/official/source-figures/plan-96987-document_image_rId8.jpeg",
+      "source_label": "法语语言基础",
+      "target_label": "会话",
+      "relation_interpretation": "official diagram: knowledge/skill decomposition",
+      "course_code_mapping": null,
+      "mandatory": false,
+      "prerequisite_evidence": false,
+      "note": "按原图箭头方向逐项抄录标签；这些是知识/技能类别，未强行匹配为同名课程。"
+    },
+    {
+      "figure_review_id": 48,
+      "figure_sha256": "a95c56130a0774228643d0af73a345838b9879df90be80e758a9ffb458e62e19",
+      "figure_path": "2025/official/source-figures/plan-96989-document_image_rId8.jpeg",
+      "source_label": "法语语言基础",
+      "target_label": "词汇",
+      "relation_interpretation": "official diagram: knowledge/skill decomposition",
+      "course_code_mapping": null,
+      "mandatory": false,
+      "prerequisite_evidence": false,
+      "note": "按原图箭头方向逐项抄录标签；这些是知识/技能类别，未强行匹配为同名课程。"
+    },
+    {
+      "figure_review_id": 48,
+      "figure_sha256": "a95c56130a0774228643d0af73a345838b9879df90be80e758a9ffb458e62e19",
+      "figure_path": "2025/official/source-figures/plan-96989-document_image_rId8.jpeg",
+      "source_label": "法语语言基础",
+      "target_label": "语法",
+      "relation_interpretation": "official diagram: knowledge/skill decomposition",
+      "course_code_mapping": null,
+      "mandatory": false,
+      "prerequisite_evidence": false,
+      "note": "按原图箭头方向逐项抄录标签；这些是知识/技能类别，未强行匹配为同名课程。"
+    },
+    {
+      "figure_review_id": 48,
+      "figure_sha256": "a95c56130a0774228643d0af73a345838b9879df90be80e758a9ffb458e62e19",
+      "figure_path": "2025/official/source-figures/plan-96989-document_image_rId8.jpeg",
+      "source_label": "法语语言基础",
+      "target_label": "阅读",
+      "relation_interpretation": "official diagram: knowledge/skill decomposition",
+      "course_code_mapping": null,
+      "mandatory": false,
+      "prerequisite_evidence": false,
+      "note": "按原图箭头方向逐项抄录标签；这些是知识/技能类别，未强行匹配为同名课程。"
+    },
+    {
+      "figure_review_id": 48,
+      "figure_sha256": "a95c56130a0774228643d0af73a345838b9879df90be80e758a9ffb458e62e19",
+      "figure_path": "2025/official/source-figures/plan-96989-document_image_rId8.jpeg",
+      "source_label": "法语语言基础",
+      "target_label": "会话",
+      "relation_interpretation": "official diagram: knowledge/skill decomposition",
+      "course_code_mapping": null,
+      "mandatory": false,
+      "prerequisite_evidence": false,
+      "note": "按原图箭头方向逐项抄录标签；这些是知识/技能类别，未强行匹配为同名课程。"
+    },
+    {
+      "figure_review_id": 51,
+      "figure_sha256": "a9112ae0a01bf5d5f6e527c86368a1a2780b82393b2ebbe8c9a3a95609753106",
+      "figure_path": "2025/official/source-figures/plan-96992-document_image_rId8.jpeg",
+      "source_label": "西班牙语语言基础",
+      "target_label": "词汇",
+      "relation_interpretation": "official diagram: knowledge/skill decomposition",
+      "course_code_mapping": null,
+      "mandatory": false,
+      "prerequisite_evidence": false,
+      "note": "按原图箭头方向逐项抄录标签；这些是知识/技能类别，未强行匹配为同名课程。"
+    },
+    {
+      "figure_review_id": 51,
+      "figure_sha256": "a9112ae0a01bf5d5f6e527c86368a1a2780b82393b2ebbe8c9a3a95609753106",
+      "figure_path": "2025/official/source-figures/plan-96992-document_image_rId8.jpeg",
+      "source_label": "西班牙语语言基础",
+      "target_label": "语法",
+      "relation_interpretation": "official diagram: knowledge/skill decomposition",
+      "course_code_mapping": null,
+      "mandatory": false,
+      "prerequisite_evidence": false,
+      "note": "按原图箭头方向逐项抄录标签；这些是知识/技能类别，未强行匹配为同名课程。"
+    },
+    {
+      "figure_review_id": 51,
+      "figure_sha256": "a9112ae0a01bf5d5f6e527c86368a1a2780b82393b2ebbe8c9a3a95609753106",
+      "figure_path": "2025/official/source-figures/plan-96992-document_image_rId8.jpeg",
+      "source_label": "西班牙语语言基础",
+      "target_label": "读写",
+      "relation_interpretation": "official diagram: knowledge/skill decomposition",
+      "course_code_mapping": null,
+      "mandatory": false,
+      "prerequisite_evidence": false,
+      "note": "按原图箭头方向逐项抄录标签；这些是知识/技能类别，未强行匹配为同名课程。"
+    },
+    {
+      "figure_review_id": 51,
+      "figure_sha256": "a9112ae0a01bf5d5f6e527c86368a1a2780b82393b2ebbe8c9a3a95609753106",
+      "figure_path": "2025/official/source-figures/plan-96992-document_image_rId8.jpeg",
+      "source_label": "西班牙语语言基础",
+      "target_label": "听说",
+      "relation_interpretation": "official diagram: knowledge/skill decomposition",
+      "course_code_mapping": null,
+      "mandatory": false,
+      "prerequisite_evidence": false,
+      "note": "按原图箭头方向逐项抄录标签；这些是知识/技能类别，未强行匹配为同名课程。"
+    },
+    {
+      "figure_review_id": 54,
+      "figure_sha256": "3e838f908864f509924cdc0ce7e62d9432cab7f7ec31ff2cbd4c4a64e617d279",
+      "figure_path": "2025/official/source-figures/plan-96995-document_image_rId8.jpeg",
+      "source_label": "西班牙语语言基础",
+      "target_label": "词汇",
+      "relation_interpretation": "official diagram: knowledge/skill decomposition",
+      "course_code_mapping": null,
+      "mandatory": false,
+      "prerequisite_evidence": false,
+      "note": "按原图箭头方向逐项抄录标签；这些是知识/技能类别，未强行匹配为同名课程。"
+    },
+    {
+      "figure_review_id": 54,
+      "figure_sha256": "3e838f908864f509924cdc0ce7e62d9432cab7f7ec31ff2cbd4c4a64e617d279",
+      "figure_path": "2025/official/source-figures/plan-96995-document_image_rId8.jpeg",
+      "source_label": "西班牙语语言基础",
+      "target_label": "语法",
+      "relation_interpretation": "official diagram: knowledge/skill decomposition",
+      "course_code_mapping": null,
+      "mandatory": false,
+      "prerequisite_evidence": false,
+      "note": "按原图箭头方向逐项抄录标签；这些是知识/技能类别，未强行匹配为同名课程。"
+    },
+    {
+      "figure_review_id": 54,
+      "figure_sha256": "3e838f908864f509924cdc0ce7e62d9432cab7f7ec31ff2cbd4c4a64e617d279",
+      "figure_path": "2025/official/source-figures/plan-96995-document_image_rId8.jpeg",
+      "source_label": "西班牙语语言基础",
+      "target_label": "读写",
+      "relation_interpretation": "official diagram: knowledge/skill decomposition",
+      "course_code_mapping": null,
+      "mandatory": false,
+      "prerequisite_evidence": false,
+      "note": "按原图箭头方向逐项抄录标签；这些是知识/技能类别，未强行匹配为同名课程。"
+    },
+    {
+      "figure_review_id": 54,
+      "figure_sha256": "3e838f908864f509924cdc0ce7e62d9432cab7f7ec31ff2cbd4c4a64e617d279",
+      "figure_path": "2025/official/source-figures/plan-96995-document_image_rId8.jpeg",
+      "source_label": "西班牙语语言基础",
+      "target_label": "听说",
+      "relation_interpretation": "official diagram: knowledge/skill decomposition",
+      "course_code_mapping": null,
+      "mandatory": false,
+      "prerequisite_evidence": false,
+      "note": "按原图箭头方向逐项抄录标签；这些是知识/技能类别，未强行匹配为同名课程。"
+    },
+    {
+      "figure_review_id": 57,
+      "figure_sha256": "a3dabb0f5cc9ffcb10ab7e06a267d1384d1fa504016532b49495817ce8ef7b92",
+      "figure_path": "2025/official/source-figures/plan-96996-document_image_rId8.jpeg",
+      "source_label": "日语语言基础",
+      "target_label": "词汇",
+      "relation_interpretation": "official diagram: knowledge/skill decomposition",
+      "course_code_mapping": null,
+      "mandatory": false,
+      "prerequisite_evidence": false,
+      "note": "按原图箭头方向逐项抄录标签；这些是知识/技能类别，未强行匹配为同名课程。"
+    },
+    {
+      "figure_review_id": 57,
+      "figure_sha256": "a3dabb0f5cc9ffcb10ab7e06a267d1384d1fa504016532b49495817ce8ef7b92",
+      "figure_path": "2025/official/source-figures/plan-96996-document_image_rId8.jpeg",
+      "source_label": "日语语言基础",
+      "target_label": "语法",
+      "relation_interpretation": "official diagram: knowledge/skill decomposition",
+      "course_code_mapping": null,
+      "mandatory": false,
+      "prerequisite_evidence": false,
+      "note": "按原图箭头方向逐项抄录标签；这些是知识/技能类别，未强行匹配为同名课程。"
+    },
+    {
+      "figure_review_id": 57,
+      "figure_sha256": "a3dabb0f5cc9ffcb10ab7e06a267d1384d1fa504016532b49495817ce8ef7b92",
+      "figure_path": "2025/official/source-figures/plan-96996-document_image_rId8.jpeg",
+      "source_label": "日语语言基础",
+      "target_label": "阅读",
+      "relation_interpretation": "official diagram: knowledge/skill decomposition",
+      "course_code_mapping": null,
+      "mandatory": false,
+      "prerequisite_evidence": false,
+      "note": "按原图箭头方向逐项抄录标签；这些是知识/技能类别，未强行匹配为同名课程。"
+    },
+    {
+      "figure_review_id": 57,
+      "figure_sha256": "a3dabb0f5cc9ffcb10ab7e06a267d1384d1fa504016532b49495817ce8ef7b92",
+      "figure_path": "2025/official/source-figures/plan-96996-document_image_rId8.jpeg",
+      "source_label": "日语语言基础",
+      "target_label": "会话",
+      "relation_interpretation": "official diagram: knowledge/skill decomposition",
+      "course_code_mapping": null,
+      "mandatory": false,
+      "prerequisite_evidence": false,
+      "note": "按原图箭头方向逐项抄录标签；这些是知识/技能类别，未强行匹配为同名课程。"
+    },
+    {
+      "figure_review_id": 60,
+      "figure_sha256": "01f6a18844196b5881c95b08a6f6fa5a0d60c14253a585906ed5d1e96d6c220c",
+      "figure_path": "2025/official/source-figures/plan-96997-document_image_rId8.jpeg",
+      "source_label": "朝鲜语语言基础",
+      "target_label": "词汇",
+      "relation_interpretation": "official diagram: knowledge/skill decomposition",
+      "course_code_mapping": null,
+      "mandatory": false,
+      "prerequisite_evidence": false,
+      "note": "按原图箭头方向逐项抄录标签；这些是知识/技能类别，未强行匹配为同名课程。"
+    },
+    {
+      "figure_review_id": 60,
+      "figure_sha256": "01f6a18844196b5881c95b08a6f6fa5a0d60c14253a585906ed5d1e96d6c220c",
+      "figure_path": "2025/official/source-figures/plan-96997-document_image_rId8.jpeg",
+      "source_label": "朝鲜语语言基础",
+      "target_label": "语法",
+      "relation_interpretation": "official diagram: knowledge/skill decomposition",
+      "course_code_mapping": null,
+      "mandatory": false,
+      "prerequisite_evidence": false,
+      "note": "按原图箭头方向逐项抄录标签；这些是知识/技能类别，未强行匹配为同名课程。"
+    },
+    {
+      "figure_review_id": 60,
+      "figure_sha256": "01f6a18844196b5881c95b08a6f6fa5a0d60c14253a585906ed5d1e96d6c220c",
+      "figure_path": "2025/official/source-figures/plan-96997-document_image_rId8.jpeg",
+      "source_label": "朝鲜语语言基础",
+      "target_label": "阅读",
+      "relation_interpretation": "official diagram: knowledge/skill decomposition",
+      "course_code_mapping": null,
+      "mandatory": false,
+      "prerequisite_evidence": false,
+      "note": "按原图箭头方向逐项抄录标签；这些是知识/技能类别，未强行匹配为同名课程。"
+    },
+    {
+      "figure_review_id": 60,
+      "figure_sha256": "01f6a18844196b5881c95b08a6f6fa5a0d60c14253a585906ed5d1e96d6c220c",
+      "figure_path": "2025/official/source-figures/plan-96997-document_image_rId8.jpeg",
+      "source_label": "朝鲜语语言基础",
+      "target_label": "会话",
+      "relation_interpretation": "official diagram: knowledge/skill decomposition",
+      "course_code_mapping": null,
+      "mandatory": false,
+      "prerequisite_evidence": false,
+      "note": "按原图箭头方向逐项抄录标签；这些是知识/技能类别，未强行匹配为同名课程。"
+    }
+  ]
+}

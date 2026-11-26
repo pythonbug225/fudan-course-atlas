@@ -1,0 +1,40 @@
+{
+  "review_date": "2026-11-26",
+  "source_title": "复旦大学外国语言文学学院2024级本科生学习手册",
+  "source_url": "https://jwc.fudan.edu.cn/_upload/article/files/d4/56/707002a8413b8a3cc690244c1118/dba1ab16-7a24-4926-b6b2-2157d52f8008.pdf",
+  "reviewed_pdf_pages": [34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44],
+  "page_number_convention": "PDF物理页码，从1开始；对应审读文本0034.txt至0044.txt。",
+  "scope": "第三章选课指导及相邻文字，不覆盖整本手册全部内容。",
+  "verified_course_pair_prerequisites": [],
+  "verified_course_pair_recommendations": [],
+  "module_level_recommendation": {
+    "pdf_page": 36,
+    "section": "3.2 翻译专业／课程选择与规划／专业进阶课程",
+    "from": "专业核心课程",
+    "to": "专业进阶课程",
+    "relation_type": "official_module_level_recommendation",
+    "mandatory": false,
+    "evidence_excerpt": "完成专业核心课程后，可根据个人兴趣和职业规划选择专业进阶课程。",
+    "interpretation": "官方给出核心到进阶的整体修读建议，但未指明每门进阶课依赖哪些核心课程。不得展开成所有核心课到所有进阶课的笛卡尔积。",
+    "course_code_mapping": null
+  },
+  "stage_guidance": {
+    "pdf_page": 36,
+    "major": "翻译",
+    "relation_type": "official_year_level_guidance",
+    "stages": [
+      {"study_year": 1, "focus": "英语基础技能及文学导读"},
+      {"study_year": 2, "focus": "读译、多文体写作、听说译述，尽早考虑第二外语"},
+      {"study_year": 3, "focus": "交替传译、英汉互译技巧、学术写作"},
+      {"study_year": 4, "focus": "翻译理论、同传基础、毕业论文"}
+    ],
+    "interpretation": "可作按学年展示的官方学习路径；不能仅凭先后年级把每两门课标为明确先修。"
+  },
+  "other_page_findings": [
+    {"pdf_pages": [34], "finding": "德语-计算机排课表收尾、导师和实践说明；未见具体先修约束。"},
+    {"pdf_pages": [35], "finding": "英语及翻译学分结构与通识完成时段；未给出课程对依赖。"},
+    {"pdf_pages": [37, 38, 39, 40, 41, 42, 43, 44], "finding": "各专业和双学位的学分、路径、实习论文与咨询建议；未见可直接提取的具体课程对先修声明。"}
+  ],
+  "editorial_action": "保留模块层级和年级层级建议作为证据；不直接修改manual-relations.json或增加课程先修边。",
+  "caution": "本结论只针对所审读页段；未发现具体课程对声明不证明该专业没有先修要求。"
+}

@@ -1,0 +1,684 @@
+{
+  "summary": {
+    "programs_checked": 38,
+    "api_programs_checked": 14,
+    "pdf_supplemental_programs": 24,
+    "prerequisite_field_instances": 0,
+    "nonempty_prerequisite_field_instances": 0,
+    "course_object_instances": 2100,
+    "course_objects_with_prerequisite_fields": 0,
+    "course_objects_without_prerequisite_fields": 2100,
+    "json_text_hits": 0,
+    "word_text_hits": 0,
+    "word_image_instances": 14,
+    "official_prerequisite_edges": 0,
+    "official_recommendation_edges": 0,
+    "scope_note": "字段实例包含 planCourses 与 realPlanCourses 等重复呈现；不是独立课程数量。缺失字段与空字段分别统计。图片由原件保留，图中空间排布不自动转成先修边。PDF抄录方案不参与API字段数量统计。"
+  },
+  "programs": [
+    {
+      "program_id": "72751",
+      "title": "2024 朝鲜语专业“2+X”教学培养方案",
+      "source_path": "official/raw/plan-72751.json.gz",
+      "source_type": "official_api",
+      "source_sha256": "2a880f8b225b620c3734c7460a2f610de7cd61cda3e7360355bcb7d420d384f0",
+      "prerequisite_fields": [],
+      "prerequisite_text_hits": [],
+      "course_objects_total": 94,
+      "course_objects_with_prerequisite_fields": 0,
+      "course_objects_without_prerequisite_fields": 94,
+      "word_text_hits": [],
+      "word_images": [
+        {
+          "member": "word/media/document_image_rId4.png",
+          "sha256": "079ee6539e29b85d9bccb9016e8147e9319c1fd1aa2a8a6ac0f4e74a915109bc"
+        }
+      ],
+      "duplicate_module_source_ids": {}
+    },
+    {
+      "program_id": "72747",
+      "title": "2024 德语专业“2+X”教学培养方案",
+      "source_path": "official/raw/plan-72747.json.gz",
+      "source_type": "official_api",
+      "source_sha256": "6ab73ffa832a9424507f436d2eeea9c6b2b20ee6770a28c036ee806d7b5bc6db",
+      "prerequisite_fields": [],
+      "prerequisite_text_hits": [],
+      "course_objects_total": 132,
+      "course_objects_with_prerequisite_fields": 0,
+      "course_objects_without_prerequisite_fields": 132,
+      "word_text_hits": [],
+      "word_images": [
+        {
+          "member": "word/media/document_image_rId4.png",
+          "sha256": "079ee6539e29b85d9bccb9016e8147e9319c1fd1aa2a8a6ac0f4e74a915109bc"
+        }
+      ],
+      "duplicate_module_source_ids": {}
+    },
+    {
+      "program_id": "73395",
+      "title": "2024 德语（德语-英语复语试验班）专业“2+X”教学培养方案",
+      "source_path": "official/raw/plan-73395.json.gz",
+      "source_type": "official_api",
+      "source_sha256": "eb1fa4bca98774c1ec44dfd080273c4f9f69d34b93be9ad2beb0b3c17fa89763",
+      "prerequisite_fields": [],
+      "prerequisite_text_hits": [],
+      "course_objects_total": 206,
+      "course_objects_with_prerequisite_fields": 0,
+      "course_objects_without_prerequisite_fields": 206,
+      "word_text_hits": [],
+      "word_images": [
+        {
+          "member": "word/media/document_image_rId4.png",
+          "sha256": "079ee6539e29b85d9bccb9016e8147e9319c1fd1aa2a8a6ac0f4e74a915109bc"
+        }
+      ],
+      "duplicate_module_source_ids": {}
+    },
+    {
+      "program_id": "72772",
+      "title": "2024 德语-计算机科学与技术双学士学位项目教学培养方案",
+      "source_path": "official/raw/plan-72772.json.gz",
+      "source_type": "official_api",
+      "source_sha256": "727acb376f3177990cc84f15e8b06883a68d23bb24d3bffc6aa32be6136fb9c0",
+      "prerequisite_fields": [],
+      "prerequisite_text_hits": [],
+      "course_objects_total": 130,
+      "course_objects_with_prerequisite_fields": 0,
+      "course_objects_without_prerequisite_fields": 130,
+      "word_text_hits": [],
+      "word_images": [
+        {
+          "member": "word/media/document_image_rId4.png",
+          "sha256": "079ee6539e29b85d9bccb9016e8147e9319c1fd1aa2a8a6ac0f4e74a915109bc"
+        }
+      ],
+      "duplicate_module_source_ids": {}
+    },
+    {
+      "program_id": "72749",
+      "title": "2024 俄语专业“2+X”教学培养方案",
+      "source_path": "official/raw/plan-72749.json.gz",
+      "source_type": "official_api",
+      "source_sha256": "cce9aab85d655cea602b6d534d3825f04d2fe5a44ca3915064b4441846ea19d0",
+      "prerequisite_fields": [],
+      "prerequisite_text_hits": [],
+      "course_objects_total": 118,
+      "course_objects_with_prerequisite_fields": 0,
+      "course_objects_without_prerequisite_fields": 118,
+      "word_text_hits": [],
+      "word_images": [
+        {
+          "member": "word/media/document_image_rId4.png",
+          "sha256": "079ee6539e29b85d9bccb9016e8147e9319c1fd1aa2a8a6ac0f4e74a915109bc"
+        }
+      ],
+      "duplicate_module_source_ids": {}
+    },
+    {
+      "program_id": "73396",
+      "title": "2024 俄语（俄语-英语复语试验班）专业“2+X”教学培养方案",
+      "source_path": "official/raw/plan-73396.json.gz",
+      "source_type": "official_api",
+      "source_sha256": "e9b2eb53bd56dfd9e5e1ae39755987b59a15ac1a84fadc56df10b99082e26370",
+      "prerequisite_fields": [],
+      "prerequisite_text_hits": [],
+      "course_objects_total": 216,
+      "course_objects_with_prerequisite_fields": 0,
+      "course_objects_without_prerequisite_fields": 216,
+      "word_text_hits": [],
+      "word_images": [
+        {
+          "member": "word/media/document_image_rId4.png",
+          "sha256": "079ee6539e29b85d9bccb9016e8147e9319c1fd1aa2a8a6ac0f4e74a915109bc"
+        }
+      ],
+      "duplicate_module_source_ids": {}
+    },
+    {
+      "program_id": "72773",
+      "title": "2024 俄语-计算机科学与技术双学士学位项目教学培养方案",
+      "source_path": "official/raw/plan-72773.json.gz",
+      "source_type": "official_api",
+      "source_sha256": "ce143db3ff62bb86f42cb291e787ec451ef5058a3c11f58e3921f00f85e9457f",
+      "prerequisite_fields": [],
+      "prerequisite_text_hits": [],
+      "course_objects_total": 136,
+      "course_objects_with_prerequisite_fields": 0,
+      "course_objects_without_prerequisite_fields": 136,
+      "word_text_hits": [],
+      "word_images": [
+        {
+          "member": "word/media/document_image_rId4.png",
+          "sha256": "079ee6539e29b85d9bccb9016e8147e9319c1fd1aa2a8a6ac0f4e74a915109bc"
+        }
+      ],
+      "duplicate_module_source_ids": {}
+    },
+    {
+      "program_id": "72750",
+      "title": "2024 法语专业“2+X”教学培养方案",
+      "source_path": "official/raw/plan-72750.json.gz",
+      "source_type": "official_api",
+      "source_sha256": "b416cbcac7ac62803f164f4ea3bcc8f5ca605b01533d485df446eb13e3ecae04",
+      "prerequisite_fields": [],
+      "prerequisite_text_hits": [],
+      "course_objects_total": 118,
+      "course_objects_with_prerequisite_fields": 0,
+      "course_objects_without_prerequisite_fields": 118,
+      "word_text_hits": [],
+      "word_images": [
+        {
+          "member": "word/media/document_image_rId4.png",
+          "sha256": "079ee6539e29b85d9bccb9016e8147e9319c1fd1aa2a8a6ac0f4e74a915109bc"
+        }
+      ],
+      "duplicate_module_source_ids": {}
+    },
+    {
+      "program_id": "72758",
+      "title": "2024 法语专业“2+X”教学培养方案（留学生适用）",
+      "source_path": "official/raw/plan-72758.json.gz",
+      "source_type": "official_api",
+      "source_sha256": "acef6890d0390e05adfbb5d9c2e29e70556e7f51c3bf01c5787358e10c5bb4ac",
+      "prerequisite_fields": [],
+      "prerequisite_text_hits": [],
+      "course_objects_total": 118,
+      "course_objects_with_prerequisite_fields": 0,
+      "course_objects_without_prerequisite_fields": 118,
+      "word_text_hits": [],
+      "word_images": [
+        {
+          "member": "word/media/document_image_rId4.png",
+          "sha256": "079ee6539e29b85d9bccb9016e8147e9319c1fd1aa2a8a6ac0f4e74a915109bc"
+        }
+      ],
+      "duplicate_module_source_ids": {}
+    },
+    {
+      "program_id": "153245",
+      "title": "2024法语(法语-英语复语试验班)本科培养方案(留学生适用)",
+      "source_path": "official/raw/plan-153245.json.gz",
+      "source_type": "official_api",
+      "source_sha256": "65741aeac63594ef37526e983f877e4ea9a50c2d1159725709a8c187d047a4ef",
+      "prerequisite_fields": [],
+      "prerequisite_text_hits": [],
+      "course_objects_total": 216,
+      "course_objects_with_prerequisite_fields": 0,
+      "course_objects_without_prerequisite_fields": 216,
+      "word_text_hits": [],
+      "word_images": [
+        {
+          "member": "word/media/document_image_rId4.png",
+          "sha256": "079ee6539e29b85d9bccb9016e8147e9319c1fd1aa2a8a6ac0f4e74a915109bc"
+        }
+      ],
+      "duplicate_module_source_ids": {}
+    },
+    {
+      "program_id": "73394",
+      "title": "2024 法语（法语-英语复语试验班）专业“2+X”教学培养方案",
+      "source_path": "official/raw/plan-73394.json.gz",
+      "source_type": "official_api",
+      "source_sha256": "7ddc83ea7148a7141fa16ca9015de1d32b14f2834a73c22bdaa1913ac11dbf92",
+      "prerequisite_fields": [],
+      "prerequisite_text_hits": [],
+      "course_objects_total": 216,
+      "course_objects_with_prerequisite_fields": 0,
+      "course_objects_without_prerequisite_fields": 216,
+      "word_text_hits": [],
+      "word_images": [
+        {
+          "member": "word/media/document_image_rId4.png",
+          "sha256": "079ee6539e29b85d9bccb9016e8147e9319c1fd1aa2a8a6ac0f4e74a915109bc"
+        }
+      ],
+      "duplicate_module_source_ids": {}
+    },
+    {
+      "program_id": "72752",
+      "title": "2024 西班牙语专业“2+X”教学培养方案",
+      "source_path": "official/raw/plan-72752.json.gz",
+      "source_type": "official_api",
+      "source_sha256": "fc28ce3254eaa3caaa27e95f69e7c48ee7151fc8c9990dd54373e3f5b543e496",
+      "prerequisite_fields": [],
+      "prerequisite_text_hits": [],
+      "course_objects_total": 122,
+      "course_objects_with_prerequisite_fields": 0,
+      "course_objects_without_prerequisite_fields": 122,
+      "word_text_hits": [],
+      "word_images": [
+        {
+          "member": "word/media/document_image_rId4.png",
+          "sha256": "079ee6539e29b85d9bccb9016e8147e9319c1fd1aa2a8a6ac0f4e74a915109bc"
+        }
+      ],
+      "duplicate_module_source_ids": {}
+    },
+    {
+      "program_id": "73607",
+      "title": "2024 西班牙语专业“2+X”教学培养方案（港澳台侨生适用）",
+      "source_path": "official/raw/plan-73607.json.gz",
+      "source_type": "official_api",
+      "source_sha256": "cad629d662a477b46d31c46cd33d31f38361b3a3486eaa459969cd08ab4f8e6c",
+      "prerequisite_fields": [],
+      "prerequisite_text_hits": [],
+      "course_objects_total": 110,
+      "course_objects_with_prerequisite_fields": 0,
+      "course_objects_without_prerequisite_fields": 110,
+      "word_text_hits": [],
+      "word_images": [
+        {
+          "member": "word/media/document_image_rId4.png",
+          "sha256": "079ee6539e29b85d9bccb9016e8147e9319c1fd1aa2a8a6ac0f4e74a915109bc"
+        }
+      ],
+      "duplicate_module_source_ids": {}
+    },
+    {
+      "program_id": "72769",
+      "title": "2024 英语-计算机科学与技术双学士学位项目教学培养方案",
+      "source_path": "official/raw/plan-72769.json.gz",
+      "source_type": "official_api",
+      "source_sha256": "2bf863baec6093ca34a30454aa92cc5c1dddcc33437cd9c7f1b819124b9df228",
+      "prerequisite_fields": [],
+      "prerequisite_text_hits": [],
+      "course_objects_total": 168,
+      "course_objects_with_prerequisite_fields": 0,
+      "course_objects_without_prerequisite_fields": 168,
+      "word_text_hits": [],
+      "word_images": [
+        {
+          "member": "word/media/document_image_rId4.png",
+          "sha256": "079ee6539e29b85d9bccb9016e8147e9319c1fd1aa2a8a6ac0f4e74a915109bc"
+        }
+      ],
+      "duplicate_module_source_ids": {}
+    },
+    {
+      "program_id": "pdf-2024-english",
+      "title": "2024 英语培养方案及一般修读建议［官方PDF］",
+      "source_path": "official/supplemental-programmes.json",
+      "source_type": "official_pdf_transcription",
+      "source_sha256": "220b1f94d70daa211b5ea3deed782c4f076221c27d9bf0015212cfb7cab5c91a",
+      "prerequisite_fields": [],
+      "prerequisite_text_hits": [],
+      "course_objects_total": 0,
+      "course_objects_with_prerequisite_fields": 0,
+      "course_objects_without_prerequisite_fields": 0,
+      "word_text_hits": [],
+      "word_images": [],
+      "review_note": "2024年官方整校PDF外院章节；印刷页212—218。这是PDF适用视图，非教务API方案编号；与API版本并列保留。；PDF抄录数据没有 API 先修字段，不能纳入空字段统计；正文及图像核查见独立来源核查。",
+      "duplicate_module_source_ids": {}
+    },
+    {
+      "program_id": "pdf-2024-english-international",
+      "title": "2024 英语修读建议（留学生适用）［官方PDF］",
+      "source_path": "official/supplemental-programmes.json",
+      "source_type": "official_pdf_transcription",
+      "source_sha256": "220b1f94d70daa211b5ea3deed782c4f076221c27d9bf0015212cfb7cab5c91a",
+      "prerequisite_fields": [],
+      "prerequisite_text_hits": [],
+      "course_objects_total": 0,
+      "course_objects_with_prerequisite_fields": 0,
+      "course_objects_without_prerequisite_fields": 0,
+      "word_text_hits": [],
+      "word_images": [],
+      "review_note": "2024年官方整校PDF外院章节；印刷页212—220。这是PDF适用视图，非教务API方案编号；与API版本并列保留。；PDF抄录数据没有 API 先修字段，不能纳入空字段统计；正文及图像核查见独立来源核查。",
+      "duplicate_module_source_ids": {}
+    },
+    {
+      "program_id": "pdf-2024-translation",
+      "title": "2024 翻译培养方案及一般修读建议［官方PDF］",
+      "source_path": "official/supplemental-programmes.json",
+      "source_type": "official_pdf_transcription",
+      "source_sha256": "220b1f94d70daa211b5ea3deed782c4f076221c27d9bf0015212cfb7cab5c91a",
+      "prerequisite_fields": [],
+      "prerequisite_text_hits": [],
+      "course_objects_total": 0,
+      "course_objects_with_prerequisite_fields": 0,
+      "course_objects_without_prerequisite_fields": 0,
+      "word_text_hits": [],
+      "word_images": [],
+      "review_note": "2024年官方整校PDF外院章节；印刷页221—226。这是PDF适用视图，非教务API方案编号；与API版本并列保留。；PDF抄录数据没有 API 先修字段，不能纳入空字段统计；正文及图像核查见独立来源核查。",
+      "duplicate_module_source_ids": {}
+    },
+    {
+      "program_id": "pdf-2024-translation-international",
+      "title": "2024 翻译修读建议（留学生适用）［官方PDF］",
+      "source_path": "official/supplemental-programmes.json",
+      "source_type": "official_pdf_transcription",
+      "source_sha256": "220b1f94d70daa211b5ea3deed782c4f076221c27d9bf0015212cfb7cab5c91a",
+      "prerequisite_fields": [],
+      "prerequisite_text_hits": [],
+      "course_objects_total": 0,
+      "course_objects_with_prerequisite_fields": 0,
+      "course_objects_without_prerequisite_fields": 0,
+      "word_text_hits": [],
+      "word_images": [],
+      "review_note": "2024年官方整校PDF外院章节；印刷页221—228。这是PDF适用视图，非教务API方案编号；与API版本并列保留。；PDF抄录数据没有 API 先修字段，不能纳入空字段统计；正文及图像核查见独立来源核查。",
+      "duplicate_module_source_ids": {}
+    },
+    {
+      "program_id": "pdf-2024-russian",
+      "title": "2024 俄语培养方案及一般修读建议［官方PDF］",
+      "source_path": "official/supplemental-programmes.json",
+      "source_type": "official_pdf_transcription",
+      "source_sha256": "220b1f94d70daa211b5ea3deed782c4f076221c27d9bf0015212cfb7cab5c91a",
+      "prerequisite_fields": [],
+      "prerequisite_text_hits": [],
+      "course_objects_total": 0,
+      "course_objects_with_prerequisite_fields": 0,
+      "course_objects_without_prerequisite_fields": 0,
+      "word_text_hits": [],
+      "word_images": [],
+      "review_note": "2024年官方整校PDF外院章节；印刷页229—233。这是PDF适用视图，非教务API方案编号；与API版本并列保留。；PDF抄录数据没有 API 先修字段，不能纳入空字段统计；正文及图像核查见独立来源核查。",
+      "duplicate_module_source_ids": {}
+    },
+    {
+      "program_id": "pdf-2024-russian-international",
+      "title": "2024 俄语修读建议（留学生适用）［官方PDF］",
+      "source_path": "official/supplemental-programmes.json",
+      "source_type": "official_pdf_transcription",
+      "source_sha256": "220b1f94d70daa211b5ea3deed782c4f076221c27d9bf0015212cfb7cab5c91a",
+      "prerequisite_fields": [],
+      "prerequisite_text_hits": [],
+      "course_objects_total": 0,
+      "course_objects_with_prerequisite_fields": 0,
+      "course_objects_without_prerequisite_fields": 0,
+      "word_text_hits": [],
+      "word_images": [],
+      "review_note": "2024年官方整校PDF外院章节；印刷页229—235。这是PDF适用视图，非教务API方案编号；与API版本并列保留。；PDF抄录数据没有 API 先修字段，不能纳入空字段统计；正文及图像核查见独立来源核查。",
+      "duplicate_module_source_ids": {}
+    },
+    {
+      "program_id": "pdf-2024-german",
+      "title": "2024 德语培养方案及一般修读建议［官方PDF］",
+      "source_path": "official/supplemental-programmes.json",
+      "source_type": "official_pdf_transcription",
+      "source_sha256": "220b1f94d70daa211b5ea3deed782c4f076221c27d9bf0015212cfb7cab5c91a",
+      "prerequisite_fields": [],
+      "prerequisite_text_hits": [],
+      "course_objects_total": 0,
+      "course_objects_with_prerequisite_fields": 0,
+      "course_objects_without_prerequisite_fields": 0,
+      "word_text_hits": [],
+      "word_images": [],
+      "review_note": "2024年官方整校PDF外院章节；印刷页236—240。这是PDF适用视图，非教务API方案编号；与API版本并列保留。；PDF抄录数据没有 API 先修字段，不能纳入空字段统计；正文及图像核查见独立来源核查。",
+      "duplicate_module_source_ids": {}
+    },
+    {
+      "program_id": "pdf-2024-german-international",
+      "title": "2024 德语修读建议（留学生适用）［官方PDF］",
+      "source_path": "official/supplemental-programmes.json",
+      "source_type": "official_pdf_transcription",
+      "source_sha256": "220b1f94d70daa211b5ea3deed782c4f076221c27d9bf0015212cfb7cab5c91a",
+      "prerequisite_fields": [],
+      "prerequisite_text_hits": [],
+      "course_objects_total": 0,
+      "course_objects_with_prerequisite_fields": 0,
+      "course_objects_without_prerequisite_fields": 0,
+      "word_text_hits": [],
+      "word_images": [],
+      "review_note": "2024年官方整校PDF外院章节；印刷页236—242。这是PDF适用视图，非教务API方案编号；与API版本并列保留。；PDF抄录数据没有 API 先修字段，不能纳入空字段统计；正文及图像核查见独立来源核查。",
+      "duplicate_module_source_ids": {}
+    },
+    {
+      "program_id": "pdf-2024-french",
+      "title": "2024 法语培养方案及一般修读建议［官方PDF］",
+      "source_path": "official/supplemental-programmes.json",
+      "source_type": "official_pdf_transcription",
+      "source_sha256": "220b1f94d70daa211b5ea3deed782c4f076221c27d9bf0015212cfb7cab5c91a",
+      "prerequisite_fields": [],
+      "prerequisite_text_hits": [],
+      "course_objects_total": 0,
+      "course_objects_with_prerequisite_fields": 0,
+      "course_objects_without_prerequisite_fields": 0,
+      "word_text_hits": [],
+      "word_images": [],
+      "review_note": "2024年官方整校PDF外院章节；印刷页243—247。这是PDF适用视图，非教务API方案编号；与API版本并列保留。；PDF抄录数据没有 API 先修字段，不能纳入空字段统计；正文及图像核查见独立来源核查。",
+      "duplicate_module_source_ids": {}
+    },
+    {
+      "program_id": "pdf-2024-french-international",
+      "title": "2024 法语修读建议（留学生适用）［官方PDF］",
+      "source_path": "official/supplemental-programmes.json",
+      "source_type": "official_pdf_transcription",
+      "source_sha256": "220b1f94d70daa211b5ea3deed782c4f076221c27d9bf0015212cfb7cab5c91a",
+      "prerequisite_fields": [],
+      "prerequisite_text_hits": [],
+      "course_objects_total": 0,
+      "course_objects_with_prerequisite_fields": 0,
+      "course_objects_without_prerequisite_fields": 0,
+      "word_text_hits": [],
+      "word_images": [],
+      "review_note": "2024年官方整校PDF外院章节；印刷页243—249。这是PDF适用视图，非教务API方案编号；与API版本并列保留。；PDF抄录数据没有 API 先修字段，不能纳入空字段统计；正文及图像核查见独立来源核查。",
+      "duplicate_module_source_ids": {}
+    },
+    {
+      "program_id": "pdf-2024-japanese",
+      "title": "2024 日语培养方案及一般修读建议［官方PDF］",
+      "source_path": "official/supplemental-programmes.json",
+      "source_type": "official_pdf_transcription",
+      "source_sha256": "220b1f94d70daa211b5ea3deed782c4f076221c27d9bf0015212cfb7cab5c91a",
+      "prerequisite_fields": [],
+      "prerequisite_text_hits": [],
+      "course_objects_total": 0,
+      "course_objects_with_prerequisite_fields": 0,
+      "course_objects_without_prerequisite_fields": 0,
+      "word_text_hits": [],
+      "word_images": [],
+      "review_note": "2024年官方整校PDF外院章节；印刷页250—254。这是PDF适用视图，非教务API方案编号；与API版本并列保留。；PDF抄录数据没有 API 先修字段，不能纳入空字段统计；正文及图像核查见独立来源核查。",
+      "duplicate_module_source_ids": {}
+    },
+    {
+      "program_id": "pdf-2024-japanese-international",
+      "title": "2024 日语修读建议（留学生适用）［官方PDF］",
+      "source_path": "official/supplemental-programmes.json",
+      "source_type": "official_pdf_transcription",
+      "source_sha256": "220b1f94d70daa211b5ea3deed782c4f076221c27d9bf0015212cfb7cab5c91a",
+      "prerequisite_fields": [],
+      "prerequisite_text_hits": [],
+      "course_objects_total": 0,
+      "course_objects_with_prerequisite_fields": 0,
+      "course_objects_without_prerequisite_fields": 0,
+      "word_text_hits": [],
+      "word_images": [],
+      "review_note": "2024年官方整校PDF外院章节；印刷页250—256。这是PDF适用视图，非教务API方案编号；与API版本并列保留。；PDF抄录数据没有 API 先修字段，不能纳入空字段统计；正文及图像核查见独立来源核查。",
+      "duplicate_module_source_ids": {}
+    },
+    {
+      "program_id": "pdf-2024-korean",
+      "title": "2024 朝鲜语培养方案及一般修读建议［官方PDF］",
+      "source_path": "official/supplemental-programmes.json",
+      "source_type": "official_pdf_transcription",
+      "source_sha256": "220b1f94d70daa211b5ea3deed782c4f076221c27d9bf0015212cfb7cab5c91a",
+      "prerequisite_fields": [],
+      "prerequisite_text_hits": [],
+      "course_objects_total": 0,
+      "course_objects_with_prerequisite_fields": 0,
+      "course_objects_without_prerequisite_fields": 0,
+      "word_text_hits": [],
+      "word_images": [],
+      "review_note": "2024年官方整校PDF外院章节；印刷页257—261。这是PDF适用视图，非教务API方案编号；与API版本并列保留。；PDF抄录数据没有 API 先修字段，不能纳入空字段统计；正文及图像核查见独立来源核查。",
+      "duplicate_module_source_ids": {}
+    },
+    {
+      "program_id": "pdf-2024-korean-international",
+      "title": "2024 朝鲜语修读建议（留学生适用）［官方PDF］",
+      "source_path": "official/supplemental-programmes.json",
+      "source_type": "official_pdf_transcription",
+      "source_sha256": "220b1f94d70daa211b5ea3deed782c4f076221c27d9bf0015212cfb7cab5c91a",
+      "prerequisite_fields": [],
+      "prerequisite_text_hits": [],
+      "course_objects_total": 0,
+      "course_objects_with_prerequisite_fields": 0,
+      "course_objects_without_prerequisite_fields": 0,
+      "word_text_hits": [],
+      "word_images": [],
+      "review_note": "2024年官方整校PDF外院章节；印刷页257—263。这是PDF适用视图，非教务API方案编号；与API版本并列保留。；PDF抄录数据没有 API 先修字段，不能纳入空字段统计；正文及图像核查见独立来源核查。",
+      "duplicate_module_source_ids": {}
+    },
+    {
+      "program_id": "pdf-2024-spanish",
+      "title": "2024 西班牙语培养方案及一般修读建议［官方PDF］",
+      "source_path": "official/supplemental-programmes.json",
+      "source_type": "official_pdf_transcription",
+      "source_sha256": "220b1f94d70daa211b5ea3deed782c4f076221c27d9bf0015212cfb7cab5c91a",
+      "prerequisite_fields": [],
+      "prerequisite_text_hits": [],
+      "course_objects_total": 0,
+      "course_objects_with_prerequisite_fields": 0,
+      "course_objects_without_prerequisite_fields": 0,
+      "word_text_hits": [],
+      "word_images": [],
+      "review_note": "2024年官方整校PDF外院章节；印刷页264—268。这是PDF适用视图，非教务API方案编号；与API版本并列保留。；PDF抄录数据没有 API 先修字段，不能纳入空字段统计；正文及图像核查见独立来源核查。",
+      "duplicate_module_source_ids": {}
+    },
+    {
+      "program_id": "pdf-2024-spanish-international",
+      "title": "2024 西班牙语修读建议（留学生适用）［官方PDF］",
+      "source_path": "official/supplemental-programmes.json",
+      "source_type": "official_pdf_transcription",
+      "source_sha256": "220b1f94d70daa211b5ea3deed782c4f076221c27d9bf0015212cfb7cab5c91a",
+      "prerequisite_fields": [],
+      "prerequisite_text_hits": [],
+      "course_objects_total": 0,
+      "course_objects_with_prerequisite_fields": 0,
+      "course_objects_without_prerequisite_fields": 0,
+      "word_text_hits": [],
+      "word_images": [],
+      "review_note": "2024年官方整校PDF外院章节；印刷页264—270。这是PDF适用视图，非教务API方案编号；与API版本并列保留。；PDF抄录数据没有 API 先修字段，不能纳入空字段统计；正文及图像核查见独立来源核查。",
+      "duplicate_module_source_ids": {}
+    },
+    {
+      "program_id": "pdf-2024-russian-english",
+      "title": "2024 俄语（俄语-英语复语试验班）培养方案及一般修读建议［官方PDF］",
+      "source_path": "official/supplemental-programmes.json",
+      "source_type": "official_pdf_transcription",
+      "source_sha256": "220b1f94d70daa211b5ea3deed782c4f076221c27d9bf0015212cfb7cab5c91a",
+      "prerequisite_fields": [],
+      "prerequisite_text_hits": [],
+      "course_objects_total": 0,
+      "course_objects_with_prerequisite_fields": 0,
+      "course_objects_without_prerequisite_fields": 0,
+      "word_text_hits": [],
+      "word_images": [],
+      "review_note": "2024年官方整校PDF外院章节；印刷页271—276。这是PDF适用视图，非教务API方案编号；与API版本并列保留。；PDF抄录数据没有 API 先修字段，不能纳入空字段统计；正文及图像核查见独立来源核查。",
+      "duplicate_module_source_ids": {}
+    },
+    {
+      "program_id": "pdf-2024-german-english",
+      "title": "2024 德语（德语-英语复语试验班）培养方案及一般修读建议［官方PDF］",
+      "source_path": "official/supplemental-programmes.json",
+      "source_type": "official_pdf_transcription",
+      "source_sha256": "220b1f94d70daa211b5ea3deed782c4f076221c27d9bf0015212cfb7cab5c91a",
+      "prerequisite_fields": [],
+      "prerequisite_text_hits": [],
+      "course_objects_total": 0,
+      "course_objects_with_prerequisite_fields": 0,
+      "course_objects_without_prerequisite_fields": 0,
+      "word_text_hits": [],
+      "word_images": [],
+      "review_note": "2024年官方整校PDF外院章节；印刷页277—282。这是PDF适用视图，非教务API方案编号；与API版本并列保留。；PDF抄录数据没有 API 先修字段，不能纳入空字段统计；正文及图像核查见独立来源核查。",
+      "duplicate_module_source_ids": {}
+    },
+    {
+      "program_id": "pdf-2024-french-english",
+      "title": "2024 法语（法语-英语复语试验班）培养方案及一般修读建议［官方PDF］",
+      "source_path": "official/supplemental-programmes.json",
+      "source_type": "official_pdf_transcription",
+      "source_sha256": "220b1f94d70daa211b5ea3deed782c4f076221c27d9bf0015212cfb7cab5c91a",
+      "prerequisite_fields": [],
+      "prerequisite_text_hits": [],
+      "course_objects_total": 0,
+      "course_objects_with_prerequisite_fields": 0,
+      "course_objects_without_prerequisite_fields": 0,
+      "word_text_hits": [],
+      "word_images": [],
+      "review_note": "2024年官方整校PDF外院章节；印刷页283—288。这是PDF适用视图，非教务API方案编号；与API版本并列保留。；PDF抄录数据没有 API 先修字段，不能纳入空字段统计；正文及图像核查见独立来源核查。",
+      "duplicate_module_source_ids": {}
+    },
+    {
+      "program_id": "pdf-2024-spanish-english",
+      "title": "2024 西班牙语（西班牙语-英语复语试验班）培养方案及一般修读建议［官方PDF］",
+      "source_path": "official/supplemental-programmes.json",
+      "source_type": "official_pdf_transcription",
+      "source_sha256": "220b1f94d70daa211b5ea3deed782c4f076221c27d9bf0015212cfb7cab5c91a",
+      "prerequisite_fields": [],
+      "prerequisite_text_hits": [],
+      "course_objects_total": 0,
+      "course_objects_with_prerequisite_fields": 0,
+      "course_objects_without_prerequisite_fields": 0,
+      "word_text_hits": [],
+      "word_images": [],
+      "review_note": "2024年官方整校PDF外院章节；印刷页289—294。这是PDF适用视图，非教务API方案编号；与API版本并列保留。；PDF抄录数据没有 API 先修字段，不能纳入空字段统计；正文及图像核查见独立来源核查。",
+      "duplicate_module_source_ids": {}
+    },
+    {
+      "program_id": "pdf-2024-english-computer",
+      "title": "2024 英语-计算机科学与技术双学士学位项目培养方案及一般修读建议［官方PDF］",
+      "source_path": "official/supplemental-programmes.json",
+      "source_type": "official_pdf_transcription",
+      "source_sha256": "220b1f94d70daa211b5ea3deed782c4f076221c27d9bf0015212cfb7cab5c91a",
+      "prerequisite_fields": [],
+      "prerequisite_text_hits": [],
+      "course_objects_total": 0,
+      "course_objects_with_prerequisite_fields": 0,
+      "course_objects_without_prerequisite_fields": 0,
+      "word_text_hits": [],
+      "word_images": [],
+      "review_note": "2024年官方整校PDF外院章节；印刷页295—299。这是PDF适用视图，非教务API方案编号；与API版本并列保留。；PDF抄录数据没有 API 先修字段，不能纳入空字段统计；正文及图像核查见独立来源核查。",
+      "duplicate_module_source_ids": {}
+    },
+    {
+      "program_id": "pdf-2024-translation-computer",
+      "title": "2024 翻译-计算机科学与技术双学士学位项目培养方案及一般修读建议［官方PDF］",
+      "source_path": "official/supplemental-programmes.json",
+      "source_type": "official_pdf_transcription",
+      "source_sha256": "220b1f94d70daa211b5ea3deed782c4f076221c27d9bf0015212cfb7cab5c91a",
+      "prerequisite_fields": [],
+      "prerequisite_text_hits": [],
+      "course_objects_total": 0,
+      "course_objects_with_prerequisite_fields": 0,
+      "course_objects_without_prerequisite_fields": 0,
+      "word_text_hits": [],
+      "word_images": [],
+      "review_note": "2024年官方整校PDF外院章节；印刷页300—304。这是PDF适用视图，非教务API方案编号；与API版本并列保留。；PDF抄录数据没有 API 先修字段，不能纳入空字段统计；正文及图像核查见独立来源核查。",
+      "duplicate_module_source_ids": {}
+    },
+    {
+      "program_id": "pdf-2024-russian-computer",
+      "title": "2024 俄语-计算机科学与技术双学士学位项目培养方案及一般修读建议［官方PDF］",
+      "source_path": "official/supplemental-programmes.json",
+      "source_type": "official_pdf_transcription",
+      "source_sha256": "220b1f94d70daa211b5ea3deed782c4f076221c27d9bf0015212cfb7cab5c91a",
+      "prerequisite_fields": [],
+      "prerequisite_text_hits": [],
+      "course_objects_total": 0,
+      "course_objects_with_prerequisite_fields": 0,
+      "course_objects_without_prerequisite_fields": 0,
+      "word_text_hits": [],
+      "word_images": [],
+      "review_note": "2024年官方整校PDF外院章节；印刷页305—309。这是PDF适用视图，非教务API方案编号；与API版本并列保留。；PDF抄录数据没有 API 先修字段，不能纳入空字段统计；正文及图像核查见独立来源核查。",
+      "duplicate_module_source_ids": {}
+    },
+    {
+      "program_id": "pdf-2024-german-computer",
+      "title": "2024 德语-计算机科学与技术双学士学位项目培养方案及一般修读建议［官方PDF］",
+      "source_path": "official/supplemental-programmes.json",
+      "source_type": "official_pdf_transcription",
+      "source_sha256": "220b1f94d70daa211b5ea3deed782c4f076221c27d9bf0015212cfb7cab5c91a",
+      "prerequisite_fields": [],
+      "prerequisite_text_hits": [],
+      "course_objects_total": 0,
+      "course_objects_with_prerequisite_fields": 0,
+      "course_objects_without_prerequisite_fields": 0,
+      "word_text_hits": [],
+      "word_images": [],
+      "review_note": "2024年官方整校PDF外院章节；印刷页310—314。这是PDF适用视图，非教务API方案编号；与API版本并列保留。；PDF抄录数据没有 API 先修字段，不能纳入空字段统计；正文及图像核查见独立来源核查。",
+      "duplicate_module_source_ids": {}
+    }
+  ]
+}

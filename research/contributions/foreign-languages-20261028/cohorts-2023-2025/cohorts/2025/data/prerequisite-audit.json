@@ -1,0 +1,1985 @@
+{
+  "summary": {
+    "programs_checked": 23,
+    "api_programs_checked": 23,
+    "pdf_supplemental_programs": 0,
+    "prerequisite_field_instances": 216,
+    "nonempty_prerequisite_field_instances": 0,
+    "course_object_instances": 4628,
+    "course_objects_with_prerequisite_fields": 108,
+    "course_objects_without_prerequisite_fields": 4520,
+    "json_text_hits": 0,
+    "word_text_hits": 0,
+    "word_image_instances": 114,
+    "official_prerequisite_edges": 0,
+    "official_recommendation_edges": 0,
+    "scope_note": "字段实例包含 planCourses 与 realPlanCourses 等重复呈现；不是独立课程数量。缺失字段与空字段分别统计。图片由原件保留，图中空间排布不自动转成先修边。PDF抄录方案不参与API字段数量统计。"
+  },
+  "programs": [
+    {
+      "program_id": "99655",
+      "title": "2025朝鲜语专业本科培养方案（留学生适用）",
+      "source_path": "official/raw/plan-99655.json.gz",
+      "source_type": "official_api",
+      "source_sha256": "8c70cde6bf071564501080f2ba9f136edb57db33a19ece1a164b80abc2987295",
+      "prerequisite_fields": [
+        {
+          "json_pointer": "/courseModules/18/planCourses/0/course/defaultPreCourseList",
+          "empty": true,
+          "value": []
+        },
+        {
+          "json_pointer": "/courseModules/18/planCourses/0/course/defaultPreCourses",
+          "empty": true,
+          "value": []
+        },
+        {
+          "json_pointer": "/courseModules/18/planCourses/1/course/defaultPreCourseList",
+          "empty": true,
+          "value": []
+        },
+        {
+          "json_pointer": "/courseModules/18/planCourses/1/course/defaultPreCourses",
+          "empty": true,
+          "value": []
+        },
+        {
+          "json_pointer": "/courseModules/18/realPlanCourses/0/course/defaultPreCourseList",
+          "empty": true,
+          "value": []
+        },
+        {
+          "json_pointer": "/courseModules/18/realPlanCourses/0/course/defaultPreCourses",
+          "empty": true,
+          "value": []
+        },
+        {
+          "json_pointer": "/courseModules/18/realPlanCourses/1/course/defaultPreCourseList",
+          "empty": true,
+          "value": []
+        },
+        {
+          "json_pointer": "/courseModules/18/realPlanCourses/1/course/defaultPreCourses",
+          "empty": true,
+          "value": []
+        }
+      ],
+      "prerequisite_text_hits": [],
+      "course_objects_total": 98,
+      "course_objects_with_prerequisite_fields": 4,
+      "course_objects_without_prerequisite_fields": 94,
+      "word_text_hits": [],
+      "word_images": [
+        {
+          "member": "word/media/document_image_rId4.png",
+          "sha256": "079ee6539e29b85d9bccb9016e8147e9319c1fd1aa2a8a6ac0f4e74a915109bc"
+        },
+        {
+          "member": "word/media/document_image_rId5.jpeg",
+          "sha256": "46d10008a7b8f133607f2af3f8c80e280afc7c20f4fbfc9c7bea5915da8057dc"
+        },
+        {
+          "member": "word/media/document_image_rId6.jpeg",
+          "sha256": "81d4351f8e50dddcc47e0157e613f4d78e70ac3d4159637e53db03aeedee6d83"
+        },
+        {
+          "member": "word/media/document_image_rId7.jpeg",
+          "sha256": "c4892031b06b3fe6c65eef428039540e79fdf58696500c86e7939a981eaee42f"
+        },
+        {
+          "member": "word/media/document_image_rId8.jpeg",
+          "sha256": "01f6a18844196b5881c95b08a6f6fa5a0d60c14253a585906ed5d1e96d6c220c"
+        }
+      ],
+      "duplicate_module_source_ids": {
+        "2": 2
+      }
+    },
+    {
+      "program_id": "96997",
+      "title": "2025朝鲜语专业本科培养方案",
+      "source_path": "official/raw/plan-96997.json.gz",
+      "source_type": "official_api",
+      "source_sha256": "527ad4779eb7f09e43f4e28466710655d0468a3dcde4c8213d4408e91edf73b2",
+      "prerequisite_fields": [
+        {
+          "json_pointer": "/courseModules/18/planCourses/0/course/defaultPreCourseList",
+          "empty": true,
+          "value": []
+        },
+        {
+          "json_pointer": "/courseModules/18/planCourses/0/course/defaultPreCourses",
+          "empty": true,
+          "value": []
+        },
+        {
+          "json_pointer": "/courseModules/18/planCourses/1/course/defaultPreCourseList",
+          "empty": true,
+          "value": []
+        },
+        {
+          "json_pointer": "/courseModules/18/planCourses/1/course/defaultPreCourses",
+          "empty": true,
+          "value": []
+        },
+        {
+          "json_pointer": "/courseModules/18/realPlanCourses/0/course/defaultPreCourseList",
+          "empty": true,
+          "value": []
+        },
+        {
+          "json_pointer": "/courseModules/18/realPlanCourses/0/course/defaultPreCourses",
+          "empty": true,
+          "value": []
+        },
+        {
+          "json_pointer": "/courseModules/18/realPlanCourses/1/course/defaultPreCourseList",
+          "empty": true,
+          "value": []
+        },
+        {
+          "json_pointer": "/courseModules/18/realPlanCourses/1/course/defaultPreCourses",
+          "empty": true,
+          "value": []
+        }
+      ],
+      "prerequisite_text_hits": [],
+      "course_objects_total": 98,
+      "course_objects_with_prerequisite_fields": 4,
+      "course_objects_without_prerequisite_fields": 94,
+      "word_text_hits": [],
+      "word_images": [
+        {
+          "member": "word/media/document_image_rId4.png",
+          "sha256": "079ee6539e29b85d9bccb9016e8147e9319c1fd1aa2a8a6ac0f4e74a915109bc"
+        },
+        {
+          "member": "word/media/document_image_rId5.jpeg",
+          "sha256": "46d10008a7b8f133607f2af3f8c80e280afc7c20f4fbfc9c7bea5915da8057dc"
+        },
+        {
+          "member": "word/media/document_image_rId6.png",
+          "sha256": "e5b44782b867c4f5655754e2b1152aa41c64fb47cefc0fab54ac7f6e0ef9d49b"
+        },
+        {
+          "member": "word/media/document_image_rId7.jpeg",
+          "sha256": "366c52d4f854e5a9577344b486076d0aeda2bb25a2571a246c96a8828aea7ad2"
+        },
+        {
+          "member": "word/media/document_image_rId8.jpeg",
+          "sha256": "01f6a18844196b5881c95b08a6f6fa5a0d60c14253a585906ed5d1e96d6c220c"
+        }
+      ],
+      "duplicate_module_source_ids": {
+        "2": 2
+      }
+    },
+    {
+      "program_id": "96973",
+      "title": "2025德语专业本科培养方案",
+      "source_path": "official/raw/plan-96973.json.gz",
+      "source_type": "official_api",
+      "source_sha256": "79733e730ea1fbb172d05c66abec0a8f46231727eb346c2d90e5a7ee5b69dd0f",
+      "prerequisite_fields": [
+        {
+          "json_pointer": "/courseModules/18/planCourses/0/course/defaultPreCourseList",
+          "empty": true,
+          "value": []
+        },
+        {
+          "json_pointer": "/courseModules/18/planCourses/0/course/defaultPreCourses",
+          "empty": true,
+          "value": []
+        },
+        {
+          "json_pointer": "/courseModules/18/planCourses/1/course/defaultPreCourseList",
+          "empty": true,
+          "value": []
+        },
+        {
+          "json_pointer": "/courseModules/18/planCourses/1/course/defaultPreCourses",
+          "empty": true,
+          "value": []
+        },
+        {
+          "json_pointer": "/courseModules/18/realPlanCourses/0/course/defaultPreCourseList",
+          "empty": true,
+          "value": []
+        },
+        {
+          "json_pointer": "/courseModules/18/realPlanCourses/0/course/defaultPreCourses",
+          "empty": true,
+          "value": []
+        },
+        {
+          "json_pointer": "/courseModules/18/realPlanCourses/1/course/defaultPreCourseList",
+          "empty": true,
+          "value": []
+        },
+        {
+          "json_pointer": "/courseModules/18/realPlanCourses/1/course/defaultPreCourses",
+          "empty": true,
+          "value": []
+        }
+      ],
+      "prerequisite_text_hits": [],
+      "course_objects_total": 124,
+      "course_objects_with_prerequisite_fields": 4,
+      "course_objects_without_prerequisite_fields": 120,
+      "word_text_hits": [],
+      "word_images": [
+        {
+          "member": "word/media/document_image_rId4.png",
+          "sha256": "079ee6539e29b85d9bccb9016e8147e9319c1fd1aa2a8a6ac0f4e74a915109bc"
+        },
+        {
+          "member": "word/media/document_image_rId5.jpeg",
+          "sha256": "bb603efc1f5e698f531424a62270bd8d98f4f7c0304e924f7bc37b8b582f2133"
+        },
+        {
+          "member": "word/media/document_image_rId6.jpeg",
+          "sha256": "c4e4934c89d483c428b7973817adf6abc5d471dfd7e82173a1044ef53147b3a4"
+        },
+        {
+          "member": "word/media/document_image_rId7.jpeg",
+          "sha256": "366c52d4f854e5a9577344b486076d0aeda2bb25a2571a246c96a8828aea7ad2"
+        },
+        {
+          "member": "word/media/document_image_rId8.jpeg",
+          "sha256": "e07146a8d16c10bb9bdd4b518d8c6046744e956cd17119b9933f8e37d939f93d"
+        }
+      ],
+      "duplicate_module_source_ids": {
+        "2": 2
+      }
+    },
+    {
+      "program_id": "96983",
+      "title": "2025德语（德语-英语复语试验班）专业本科培养方案",
+      "source_path": "official/raw/plan-96983.json.gz",
+      "source_type": "official_api",
+      "source_sha256": "fba62d57eb650ef12038a9695bb8225f4e50b7f53b032022545bb5629f7816da",
+      "prerequisite_fields": [
+        {
+          "json_pointer": "/courseModules/26/planCourses/0/course/defaultPreCourseList",
+          "empty": true,
+          "value": []
+        },
+        {
+          "json_pointer": "/courseModules/26/planCourses/0/course/defaultPreCourses",
+          "empty": true,
+          "value": []
+        },
+        {
+          "json_pointer": "/courseModules/26/planCourses/1/course/defaultPreCourseList",
+          "empty": true,
+          "value": []
+        },
+        {
+          "json_pointer": "/courseModules/26/planCourses/1/course/defaultPreCourses",
+          "empty": true,
+          "value": []
+        },
+        {
+          "json_pointer": "/courseModules/26/realPlanCourses/0/course/defaultPreCourseList",
+          "empty": true,
+          "value": []
+        },
+        {
+          "json_pointer": "/courseModules/26/realPlanCourses/0/course/defaultPreCourses",
+          "empty": true,
+          "value": []
+        },
+        {
+          "json_pointer": "/courseModules/26/realPlanCourses/1/course/defaultPreCourseList",
+          "empty": true,
+          "value": []
+        },
+        {
+          "json_pointer": "/courseModules/26/realPlanCourses/1/course/defaultPreCourses",
+          "empty": true,
+          "value": []
+        }
+      ],
+      "prerequisite_text_hits": [],
+      "course_objects_total": 218,
+      "course_objects_with_prerequisite_fields": 4,
+      "course_objects_without_prerequisite_fields": 214,
+      "word_text_hits": [],
+      "word_images": [
+        {
+          "member": "word/media/document_image_rId4.png",
+          "sha256": "079ee6539e29b85d9bccb9016e8147e9319c1fd1aa2a8a6ac0f4e74a915109bc"
+        },
+        {
+          "member": "word/media/document_image_rId5.jpeg",
+          "sha256": "511a39928d3d1fea8fc44ec2fe34d0a6f069b563d515917ded9bc2719fc970b9"
+        },
+        {
+          "member": "word/media/document_image_rId6.jpeg",
+          "sha256": "2d4868662f1dc4435bec8f059514fb6d873409d1b3e20383fa0ea9a022b2045c"
+        },
+        {
+          "member": "word/media/document_image_rId7.jpeg",
+          "sha256": "7522d389391dc394d80716dd7f784c0f43dfa3875c9543e7e5cdcae3a31120e6"
+        },
+        {
+          "member": "word/media/document_image_rId8.jpeg",
+          "sha256": "ee9879aa8766f48c1122c336ff867ddf7e65aae20031ed036553d6a658873ecf"
+        }
+      ],
+      "duplicate_module_source_ids": {
+        "2": 2
+      }
+    },
+    {
+      "program_id": "96976",
+      "title": "2025德语-计算机科学与技术双学士学位项目培养方案",
+      "source_path": "official/raw/plan-96976.json.gz",
+      "source_type": "official_api",
+      "source_sha256": "a31fbf14240769797987bde3476fcb4c6eef9323cb82530bd656e943a97f9529",
+      "prerequisite_fields": [
+        {
+          "json_pointer": "/courseModules/14/planCourses/0/course/defaultPreCourseList",
+          "empty": true,
+          "value": []
+        },
+        {
+          "json_pointer": "/courseModules/14/planCourses/0/course/defaultPreCourses",
+          "empty": true,
+          "value": []
+        },
+        {
+          "json_pointer": "/courseModules/14/planCourses/1/course/defaultPreCourseList",
+          "empty": true,
+          "value": []
+        },
+        {
+          "json_pointer": "/courseModules/14/planCourses/1/course/defaultPreCourses",
+          "empty": true,
+          "value": []
+        },
+        {
+          "json_pointer": "/courseModules/14/realPlanCourses/0/course/defaultPreCourseList",
+          "empty": true,
+          "value": []
+        },
+        {
+          "json_pointer": "/courseModules/14/realPlanCourses/0/course/defaultPreCourses",
+          "empty": true,
+          "value": []
+        },
+        {
+          "json_pointer": "/courseModules/14/realPlanCourses/1/course/defaultPreCourseList",
+          "empty": true,
+          "value": []
+        },
+        {
+          "json_pointer": "/courseModules/14/realPlanCourses/1/course/defaultPreCourses",
+          "empty": true,
+          "value": []
+        }
+      ],
+      "prerequisite_text_hits": [],
+      "course_objects_total": 118,
+      "course_objects_with_prerequisite_fields": 4,
+      "course_objects_without_prerequisite_fields": 114,
+      "word_text_hits": [],
+      "word_images": [
+        {
+          "member": "word/media/document_image_rId4.png",
+          "sha256": "079ee6539e29b85d9bccb9016e8147e9319c1fd1aa2a8a6ac0f4e74a915109bc"
+        },
+        {
+          "member": "word/media/document_image_rId5.jpeg",
+          "sha256": "54229be0568c0122a5d5d53aaf8d40fdedffa75d86a445e5d77910fed7426728"
+        },
+        {
+          "member": "word/media/document_image_rId6.jpeg",
+          "sha256": "99f7444581d9fedfbc3b8397ea356eeee5887908241e5ca909d4fce5c26739ea"
+        },
+        {
+          "member": "word/media/document_image_rId7.jpeg",
+          "sha256": "b191705875a265c8f7b996a237729ae2556a38fb43a14614341eee6aca5b2b28"
+        },
+        {
+          "member": "word/media/document_image_rId8.jpeg",
+          "sha256": "9ca01ee59b45ebfd3e6779d359d41c76cb4307cb6230a6de9389200422380c41"
+        }
+      ],
+      "duplicate_module_source_ids": {}
+    },
+    {
+      "program_id": "96924",
+      "title": "2025俄语专业本科培养方案",
+      "source_path": "official/raw/plan-96924.json.gz",
+      "source_type": "official_api",
+      "source_sha256": "30c64102727b20d7bed8ff6af141a1c6f2c96ebe09173c128165ba81b2fcebb3",
+      "prerequisite_fields": [
+        {
+          "json_pointer": "/courseModules/18/planCourses/0/course/defaultPreCourseList",
+          "empty": true,
+          "value": []
+        },
+        {
+          "json_pointer": "/courseModules/18/planCourses/0/course/defaultPreCourses",
+          "empty": true,
+          "value": []
+        },
+        {
+          "json_pointer": "/courseModules/18/planCourses/1/course/defaultPreCourseList",
+          "empty": true,
+          "value": []
+        },
+        {
+          "json_pointer": "/courseModules/18/planCourses/1/course/defaultPreCourses",
+          "empty": true,
+          "value": []
+        },
+        {
+          "json_pointer": "/courseModules/18/realPlanCourses/0/course/defaultPreCourseList",
+          "empty": true,
+          "value": []
+        },
+        {
+          "json_pointer": "/courseModules/18/realPlanCourses/0/course/defaultPreCourses",
+          "empty": true,
+          "value": []
+        },
+        {
+          "json_pointer": "/courseModules/18/realPlanCourses/1/course/defaultPreCourseList",
+          "empty": true,
+          "value": []
+        },
+        {
+          "json_pointer": "/courseModules/18/realPlanCourses/1/course/defaultPreCourses",
+          "empty": true,
+          "value": []
+        }
+      ],
+      "prerequisite_text_hits": [],
+      "course_objects_total": 126,
+      "course_objects_with_prerequisite_fields": 4,
+      "course_objects_without_prerequisite_fields": 122,
+      "word_text_hits": [],
+      "word_images": [
+        {
+          "member": "word/media/document_image_rId4.png",
+          "sha256": "079ee6539e29b85d9bccb9016e8147e9319c1fd1aa2a8a6ac0f4e74a915109bc"
+        },
+        {
+          "member": "word/media/document_image_rId5.jpeg",
+          "sha256": "50b11a14f8716087357abe651d6a9dda7ae270651639ecfa7a7be1aed884a598"
+        },
+        {
+          "member": "word/media/document_image_rId6.jpeg",
+          "sha256": "f66fea646db92552d9ec5c3bd3d9051583b503a4f54ab428b2ecf1da169eac7b"
+        },
+        {
+          "member": "word/media/document_image_rId7.jpeg",
+          "sha256": "366c52d4f854e5a9577344b486076d0aeda2bb25a2571a246c96a8828aea7ad2"
+        },
+        {
+          "member": "word/media/document_image_rId8.jpeg",
+          "sha256": "4705e05383b1512a453b69194767b1f432316fdf1c946bbd83c9666ae98099e2"
+        }
+      ],
+      "duplicate_module_source_ids": {
+        "2": 2
+      }
+    },
+    {
+      "program_id": "99830",
+      "title": "2025俄语专业本科培养方案（留学生适用）",
+      "source_path": "official/raw/plan-99830.json.gz",
+      "source_type": "official_api",
+      "source_sha256": "439abac722a4ffef67c95b836a89a91d1e4a417ffe041c7af18635925c58e1e7",
+      "prerequisite_fields": [
+        {
+          "json_pointer": "/courseModules/18/planCourses/0/course/defaultPreCourseList",
+          "empty": true,
+          "value": []
+        },
+        {
+          "json_pointer": "/courseModules/18/planCourses/0/course/defaultPreCourses",
+          "empty": true,
+          "value": []
+        },
+        {
+          "json_pointer": "/courseModules/18/planCourses/1/course/defaultPreCourseList",
+          "empty": true,
+          "value": []
+        },
+        {
+          "json_pointer": "/courseModules/18/planCourses/1/course/defaultPreCourses",
+          "empty": true,
+          "value": []
+        },
+        {
+          "json_pointer": "/courseModules/18/realPlanCourses/0/course/defaultPreCourseList",
+          "empty": true,
+          "value": []
+        },
+        {
+          "json_pointer": "/courseModules/18/realPlanCourses/0/course/defaultPreCourses",
+          "empty": true,
+          "value": []
+        },
+        {
+          "json_pointer": "/courseModules/18/realPlanCourses/1/course/defaultPreCourseList",
+          "empty": true,
+          "value": []
+        },
+        {
+          "json_pointer": "/courseModules/18/realPlanCourses/1/course/defaultPreCourses",
+          "empty": true,
+          "value": []
+        }
+      ],
+      "prerequisite_text_hits": [],
+      "course_objects_total": 126,
+      "course_objects_with_prerequisite_fields": 4,
+      "course_objects_without_prerequisite_fields": 122,
+      "word_text_hits": [],
+      "word_images": [
+        {
+          "member": "word/media/document_image_rId4.png",
+          "sha256": "079ee6539e29b85d9bccb9016e8147e9319c1fd1aa2a8a6ac0f4e74a915109bc"
+        },
+        {
+          "member": "word/media/document_image_rId5.jpeg",
+          "sha256": "50b11a14f8716087357abe651d6a9dda7ae270651639ecfa7a7be1aed884a598"
+        },
+        {
+          "member": "word/media/document_image_rId6.jpeg",
+          "sha256": "8e2262c39ebe459de40a6bb8d85faee82c26164699cdfdbf6e86d372d6c4f55d"
+        },
+        {
+          "member": "word/media/document_image_rId7.jpeg",
+          "sha256": "82b553796c48bfc43dd167c67eb972f45822a3a4c6e875650b1bdc30ed5004dd"
+        },
+        {
+          "member": "word/media/document_image_rId8.jpeg",
+          "sha256": "4705e05383b1512a453b69194767b1f432316fdf1c946bbd83c9666ae98099e2"
+        }
+      ],
+      "duplicate_module_source_ids": {
+        "2": 2
+      }
+    },
+    {
+      "program_id": "96928",
+      "title": "2025俄语（俄语-英语复语试验班）专业本科培养方案",
+      "source_path": "official/raw/plan-96928.json.gz",
+      "source_type": "official_api",
+      "source_sha256": "16b6c3446f45e30cdeb4c2c661afb00dfe0e00d4c8515a4e60e88cf2e799d1f8",
+      "prerequisite_fields": [
+        {
+          "json_pointer": "/courseModules/26/planCourses/0/course/defaultPreCourseList",
+          "empty": true,
+          "value": []
+        },
+        {
+          "json_pointer": "/courseModules/26/planCourses/0/course/defaultPreCourses",
+          "empty": true,
+          "value": []
+        },
+        {
+          "json_pointer": "/courseModules/26/planCourses/1/course/defaultPreCourseList",
+          "empty": true,
+          "value": []
+        },
+        {
+          "json_pointer": "/courseModules/26/planCourses/1/course/defaultPreCourses",
+          "empty": true,
+          "value": []
+        },
+        {
+          "json_pointer": "/courseModules/26/realPlanCourses/0/course/defaultPreCourseList",
+          "empty": true,
+          "value": []
+        },
+        {
+          "json_pointer": "/courseModules/26/realPlanCourses/0/course/defaultPreCourses",
+          "empty": true,
+          "value": []
+        },
+        {
+          "json_pointer": "/courseModules/26/realPlanCourses/1/course/defaultPreCourseList",
+          "empty": true,
+          "value": []
+        },
+        {
+          "json_pointer": "/courseModules/26/realPlanCourses/1/course/defaultPreCourses",
+          "empty": true,
+          "value": []
+        }
+      ],
+      "prerequisite_text_hits": [],
+      "course_objects_total": 224,
+      "course_objects_with_prerequisite_fields": 4,
+      "course_objects_without_prerequisite_fields": 220,
+      "word_text_hits": [],
+      "word_images": [
+        {
+          "member": "word/media/document_image_rId4.png",
+          "sha256": "079ee6539e29b85d9bccb9016e8147e9319c1fd1aa2a8a6ac0f4e74a915109bc"
+        },
+        {
+          "member": "word/media/document_image_rId5.jpeg",
+          "sha256": "5a207c8c28118c9a6ca786f4d3c1ee6d406f9b001f64636c444755ffe3d38e4f"
+        },
+        {
+          "member": "word/media/document_image_rId6.jpeg",
+          "sha256": "c23d222de7b179017678f49f5cf62d430e46d55580b83c1324a2da6fc87dc75d"
+        },
+        {
+          "member": "word/media/document_image_rId7.jpeg",
+          "sha256": "7522d389391dc394d80716dd7f784c0f43dfa3875c9543e7e5cdcae3a31120e6"
+        },
+        {
+          "member": "word/media/document_image_rId8.jpeg",
+          "sha256": "7537ad193eb341c2bb64df843515994e5e8ebb8c260873dacc21ce194a8875a3"
+        }
+      ],
+      "duplicate_module_source_ids": {
+        "2": 2
+      }
+    },
+    {
+      "program_id": "96926",
+      "title": "2025俄语-计算机科学与技术双学士学位项目培养方案",
+      "source_path": "official/raw/plan-96926.json.gz",
+      "source_type": "official_api",
+      "source_sha256": "73777aed3c8f8c1204430b4ce6792136ed804ce6a1bcd6ba8a7a754ff1cca4f2",
+      "prerequisite_fields": [
+        {
+          "json_pointer": "/courseModules/14/planCourses/0/course/defaultPreCourseList",
+          "empty": true,
+          "value": []
+        },
+        {
+          "json_pointer": "/courseModules/14/planCourses/0/course/defaultPreCourses",
+          "empty": true,
+          "value": []
+        },
+        {
+          "json_pointer": "/courseModules/14/planCourses/1/course/defaultPreCourseList",
+          "empty": true,
+          "value": []
+        },
+        {
+          "json_pointer": "/courseModules/14/planCourses/1/course/defaultPreCourses",
+          "empty": true,
+          "value": []
+        },
+        {
+          "json_pointer": "/courseModules/14/realPlanCourses/0/course/defaultPreCourseList",
+          "empty": true,
+          "value": []
+        },
+        {
+          "json_pointer": "/courseModules/14/realPlanCourses/0/course/defaultPreCourses",
+          "empty": true,
+          "value": []
+        },
+        {
+          "json_pointer": "/courseModules/14/realPlanCourses/1/course/defaultPreCourseList",
+          "empty": true,
+          "value": []
+        },
+        {
+          "json_pointer": "/courseModules/14/realPlanCourses/1/course/defaultPreCourses",
+          "empty": true,
+          "value": []
+        }
+      ],
+      "prerequisite_text_hits": [],
+      "course_objects_total": 132,
+      "course_objects_with_prerequisite_fields": 4,
+      "course_objects_without_prerequisite_fields": 128,
+      "word_text_hits": [],
+      "word_images": [
+        {
+          "member": "word/media/document_image_rId4.png",
+          "sha256": "079ee6539e29b85d9bccb9016e8147e9319c1fd1aa2a8a6ac0f4e74a915109bc"
+        },
+        {
+          "member": "word/media/document_image_rId5.jpeg",
+          "sha256": "d8b7eb502a3d0e2a7a711983a0ff3489d6b191997bff3257ff93eadfd6f1b2bb"
+        },
+        {
+          "member": "word/media/document_image_rId6.jpeg",
+          "sha256": "d7ba2b3376913c2d914aa67174910311d66f1acf99bbd904e615010365c2a637"
+        },
+        {
+          "member": "word/media/document_image_rId7.jpeg",
+          "sha256": "94b117e11d14cfe891f92b4553634f6d3963b14f0cd6e2aff0061043e0b3d02d"
+        },
+        {
+          "member": "word/media/document_image_rId8.jpeg",
+          "sha256": "16e48fba48be39501751b84893fc3f280170f6c3972bc92ee56c80afb62b862f"
+        }
+      ],
+      "duplicate_module_source_ids": {}
+    },
+    {
+      "program_id": "96987",
+      "title": "2025法语专业本科培养方案",
+      "source_path": "official/raw/plan-96987.json.gz",
+      "source_type": "official_api",
+      "source_sha256": "ca26feb3aaa72b3165deac99a87c20911477e3d496c09e0c8ef43939859895a4",
+      "prerequisite_fields": [
+        {
+          "json_pointer": "/courseModules/18/planCourses/0/course/defaultPreCourseList",
+          "empty": true,
+          "value": []
+        },
+        {
+          "json_pointer": "/courseModules/18/planCourses/0/course/defaultPreCourses",
+          "empty": true,
+          "value": []
+        },
+        {
+          "json_pointer": "/courseModules/18/planCourses/1/course/defaultPreCourseList",
+          "empty": true,
+          "value": []
+        },
+        {
+          "json_pointer": "/courseModules/18/planCourses/1/course/defaultPreCourses",
+          "empty": true,
+          "value": []
+        },
+        {
+          "json_pointer": "/courseModules/18/realPlanCourses/0/course/defaultPreCourseList",
+          "empty": true,
+          "value": []
+        },
+        {
+          "json_pointer": "/courseModules/18/realPlanCourses/0/course/defaultPreCourses",
+          "empty": true,
+          "value": []
+        },
+        {
+          "json_pointer": "/courseModules/18/realPlanCourses/1/course/defaultPreCourseList",
+          "empty": true,
+          "value": []
+        },
+        {
+          "json_pointer": "/courseModules/18/realPlanCourses/1/course/defaultPreCourses",
+          "empty": true,
+          "value": []
+        }
+      ],
+      "prerequisite_text_hits": [],
+      "course_objects_total": 126,
+      "course_objects_with_prerequisite_fields": 4,
+      "course_objects_without_prerequisite_fields": 122,
+      "word_text_hits": [],
+      "word_images": [
+        {
+          "member": "word/media/document_image_rId4.png",
+          "sha256": "079ee6539e29b85d9bccb9016e8147e9319c1fd1aa2a8a6ac0f4e74a915109bc"
+        },
+        {
+          "member": "word/media/document_image_rId5.jpeg",
+          "sha256": "ad3a8ded061703696519a023c19d1e989298413fd817823f8d3494b72454032b"
+        },
+        {
+          "member": "word/media/document_image_rId6.jpeg",
+          "sha256": "ec298dee1c8f7eeaac5f92a6dc9906f90af6f42aafefdee05b797666983da8e9"
+        },
+        {
+          "member": "word/media/document_image_rId7.jpeg",
+          "sha256": "366c52d4f854e5a9577344b486076d0aeda2bb25a2571a246c96a8828aea7ad2"
+        },
+        {
+          "member": "word/media/document_image_rId8.jpeg",
+          "sha256": "30eeea88ca8d6c3e69386d0dad95edd8ef0a484f81c4a7a5e6bc06817e463eb3"
+        }
+      ],
+      "duplicate_module_source_ids": {
+        "2": 2
+      }
+    },
+    {
+      "program_id": "96989",
+      "title": "2025法语（法语-英语复语试验班）专业本科培养方案",
+      "source_path": "official/raw/plan-96989.json.gz",
+      "source_type": "official_api",
+      "source_sha256": "b2533b8586649d5bf872b8334a08dc1868aaebd96371c5acc32aff003b03109c",
+      "prerequisite_fields": [
+        {
+          "json_pointer": "/courseModules/26/planCourses/0/course/defaultPreCourseList",
+          "empty": true,
+          "value": []
+        },
+        {
+          "json_pointer": "/courseModules/26/planCourses/0/course/defaultPreCourses",
+          "empty": true,
+          "value": []
+        },
+        {
+          "json_pointer": "/courseModules/26/planCourses/1/course/defaultPreCourseList",
+          "empty": true,
+          "value": []
+        },
+        {
+          "json_pointer": "/courseModules/26/planCourses/1/course/defaultPreCourses",
+          "empty": true,
+          "value": []
+        },
+        {
+          "json_pointer": "/courseModules/26/realPlanCourses/0/course/defaultPreCourseList",
+          "empty": true,
+          "value": []
+        },
+        {
+          "json_pointer": "/courseModules/26/realPlanCourses/0/course/defaultPreCourses",
+          "empty": true,
+          "value": []
+        },
+        {
+          "json_pointer": "/courseModules/26/realPlanCourses/1/course/defaultPreCourseList",
+          "empty": true,
+          "value": []
+        },
+        {
+          "json_pointer": "/courseModules/26/realPlanCourses/1/course/defaultPreCourses",
+          "empty": true,
+          "value": []
+        }
+      ],
+      "prerequisite_text_hits": [],
+      "course_objects_total": 224,
+      "course_objects_with_prerequisite_fields": 4,
+      "course_objects_without_prerequisite_fields": 220,
+      "word_text_hits": [],
+      "word_images": [
+        {
+          "member": "word/media/document_image_rId4.png",
+          "sha256": "079ee6539e29b85d9bccb9016e8147e9319c1fd1aa2a8a6ac0f4e74a915109bc"
+        },
+        {
+          "member": "word/media/document_image_rId5.jpeg",
+          "sha256": "87ef0e3de4dbe538e2bd10d77632a8f36ab54d6a83ccd13b9783c5335753e5b0"
+        },
+        {
+          "member": "word/media/document_image_rId6.png",
+          "sha256": "605b3aac57895cd503f1672b1631e1d64b32eac600c9add272fe93edf7e670fb"
+        },
+        {
+          "member": "word/media/document_image_rId7.jpeg",
+          "sha256": "7522d389391dc394d80716dd7f784c0f43dfa3875c9543e7e5cdcae3a31120e6"
+        },
+        {
+          "member": "word/media/document_image_rId8.jpeg",
+          "sha256": "a95c56130a0774228643d0af73a345838b9879df90be80e758a9ffb458e62e19"
+        }
+      ],
+      "duplicate_module_source_ids": {
+        "2": 2
+      }
+    },
+    {
+      "program_id": "99832",
+      "title": "2025翻译专业本科培养方案（留学生适用）",
+      "source_path": "official/raw/plan-99832.json.gz",
+      "source_type": "official_api",
+      "source_sha256": "5c931dfd355151a7118e73cd703c325130b934412cb607af2abfbcec5f01d9ea",
+      "prerequisite_fields": [
+        {
+          "json_pointer": "/courseModules/25/planCourses/0/course/defaultPreCourseList",
+          "empty": true,
+          "value": []
+        },
+        {
+          "json_pointer": "/courseModules/25/planCourses/0/course/defaultPreCourses",
+          "empty": true,
+          "value": []
+        },
+        {
+          "json_pointer": "/courseModules/25/planCourses/1/course/defaultPreCourseList",
+          "empty": true,
+          "value": []
+        },
+        {
+          "json_pointer": "/courseModules/25/planCourses/1/course/defaultPreCourses",
+          "empty": true,
+          "value": []
+        },
+        {
+          "json_pointer": "/courseModules/25/realPlanCourses/0/course/defaultPreCourseList",
+          "empty": true,
+          "value": []
+        },
+        {
+          "json_pointer": "/courseModules/25/realPlanCourses/0/course/defaultPreCourses",
+          "empty": true,
+          "value": []
+        },
+        {
+          "json_pointer": "/courseModules/25/realPlanCourses/1/course/defaultPreCourseList",
+          "empty": true,
+          "value": []
+        },
+        {
+          "json_pointer": "/courseModules/25/realPlanCourses/1/course/defaultPreCourses",
+          "empty": true,
+          "value": []
+        }
+      ],
+      "prerequisite_text_hits": [],
+      "course_objects_total": 180,
+      "course_objects_with_prerequisite_fields": 4,
+      "course_objects_without_prerequisite_fields": 176,
+      "word_text_hits": [],
+      "word_images": [
+        {
+          "member": "word/media/document_image_rId4.png",
+          "sha256": "079ee6539e29b85d9bccb9016e8147e9319c1fd1aa2a8a6ac0f4e74a915109bc"
+        },
+        {
+          "member": "word/media/document_image_rId5.jpeg",
+          "sha256": "427acc1441caba7975c2fc36b29f826a6cd2a2e2b4b2704cbf9b40d2f62354bf"
+        },
+        {
+          "member": "word/media/document_image_rId6.jpeg",
+          "sha256": "ce2ab9b1338891b2f89ca3aefa39e47d58104b4dc6c4a1a097d077e9048543c5"
+        },
+        {
+          "member": "word/media/document_image_rId7.jpeg",
+          "sha256": "cc3ea046940ac52e9d29902687ecdef878f16b35af2b4ed7e595a6840d0ba6e7"
+        },
+        {
+          "member": "word/media/document_image_rId8.jpeg",
+          "sha256": "e45d08d21bcdeab3cd958cf1acd7167b9c9c4e71b51c3f31ea51fcf20a327498"
+        }
+      ],
+      "duplicate_module_source_ids": {
+        "2": 2
+      }
+    },
+    {
+      "program_id": "96808",
+      "title": "2025翻译专业本科培养方案",
+      "source_path": "official/raw/plan-96808.json.gz",
+      "source_type": "official_api",
+      "source_sha256": "ddb9ec9f4b8751753a49014add2aac1c165e5bbf12bc9f6de3a384bc0c84f360",
+      "prerequisite_fields": [
+        {
+          "json_pointer": "/courseModules/25/planCourses/0/course/defaultPreCourseList",
+          "empty": true,
+          "value": []
+        },
+        {
+          "json_pointer": "/courseModules/25/planCourses/0/course/defaultPreCourses",
+          "empty": true,
+          "value": []
+        },
+        {
+          "json_pointer": "/courseModules/25/planCourses/1/course/defaultPreCourseList",
+          "empty": true,
+          "value": []
+        },
+        {
+          "json_pointer": "/courseModules/25/planCourses/1/course/defaultPreCourses",
+          "empty": true,
+          "value": []
+        },
+        {
+          "json_pointer": "/courseModules/25/realPlanCourses/0/course/defaultPreCourseList",
+          "empty": true,
+          "value": []
+        },
+        {
+          "json_pointer": "/courseModules/25/realPlanCourses/0/course/defaultPreCourses",
+          "empty": true,
+          "value": []
+        },
+        {
+          "json_pointer": "/courseModules/25/realPlanCourses/1/course/defaultPreCourseList",
+          "empty": true,
+          "value": []
+        },
+        {
+          "json_pointer": "/courseModules/25/realPlanCourses/1/course/defaultPreCourses",
+          "empty": true,
+          "value": []
+        }
+      ],
+      "prerequisite_text_hits": [],
+      "course_objects_total": 180,
+      "course_objects_with_prerequisite_fields": 4,
+      "course_objects_without_prerequisite_fields": 176,
+      "word_text_hits": [],
+      "word_images": [
+        {
+          "member": "word/media/document_image_rId4.png",
+          "sha256": "079ee6539e29b85d9bccb9016e8147e9319c1fd1aa2a8a6ac0f4e74a915109bc"
+        },
+        {
+          "member": "word/media/document_image_rId5.jpeg",
+          "sha256": "427acc1441caba7975c2fc36b29f826a6cd2a2e2b4b2704cbf9b40d2f62354bf"
+        },
+        {
+          "member": "word/media/document_image_rId6.jpeg",
+          "sha256": "e6db5b4e7534ba531cb238fede35db9bec6b14c6b59de1282852343a60353e3f"
+        },
+        {
+          "member": "word/media/document_image_rId7.jpeg",
+          "sha256": "50888a514421bb1d6c6a99a39370059d674fa85fcfd1a78336262dd3748eb6b7"
+        },
+        {
+          "member": "word/media/document_image_rId8.jpeg",
+          "sha256": "e45d08d21bcdeab3cd958cf1acd7167b9c9c4e71b51c3f31ea51fcf20a327498"
+        }
+      ],
+      "duplicate_module_source_ids": {
+        "2": 2
+      }
+    },
+    {
+      "program_id": "96911",
+      "title": "2025翻译-计算机科学与技术双学士学位项目培养方案",
+      "source_path": "official/raw/plan-96911.json.gz",
+      "source_type": "official_api",
+      "source_sha256": "536ee099daf678876ce652af58135d856a88b8597f116fd6e5960db6af992f4d",
+      "prerequisite_fields": [
+        {
+          "json_pointer": "/courseModules/20/planCourses/0/course/defaultPreCourseList",
+          "empty": true,
+          "value": []
+        },
+        {
+          "json_pointer": "/courseModules/20/planCourses/0/course/defaultPreCourses",
+          "empty": true,
+          "value": []
+        },
+        {
+          "json_pointer": "/courseModules/20/planCourses/1/course/defaultPreCourseList",
+          "empty": true,
+          "value": []
+        },
+        {
+          "json_pointer": "/courseModules/20/planCourses/1/course/defaultPreCourses",
+          "empty": true,
+          "value": []
+        },
+        {
+          "json_pointer": "/courseModules/20/realPlanCourses/0/course/defaultPreCourseList",
+          "empty": true,
+          "value": []
+        },
+        {
+          "json_pointer": "/courseModules/20/realPlanCourses/0/course/defaultPreCourses",
+          "empty": true,
+          "value": []
+        },
+        {
+          "json_pointer": "/courseModules/20/realPlanCourses/1/course/defaultPreCourseList",
+          "empty": true,
+          "value": []
+        },
+        {
+          "json_pointer": "/courseModules/20/realPlanCourses/1/course/defaultPreCourses",
+          "empty": true,
+          "value": []
+        }
+      ],
+      "prerequisite_text_hits": [],
+      "course_objects_total": 144,
+      "course_objects_with_prerequisite_fields": 4,
+      "course_objects_without_prerequisite_fields": 140,
+      "word_text_hits": [],
+      "word_images": [
+        {
+          "member": "word/media/document_image_rId4.png",
+          "sha256": "079ee6539e29b85d9bccb9016e8147e9319c1fd1aa2a8a6ac0f4e74a915109bc"
+        },
+        {
+          "member": "word/media/document_image_rId5.jpeg",
+          "sha256": "631c57b1f16bda42b6e12975beed8dd3042cdfd10f55b0b11efab758d120d214"
+        },
+        {
+          "member": "word/media/document_image_rId6.jpeg",
+          "sha256": "2e0cd82c718fc7b0b156156dd870409e5804697533cafdb66e43ead9c82d241a"
+        },
+        {
+          "member": "word/media/document_image_rId7.jpeg",
+          "sha256": "a0871d171aa695d82f72c9a86a51c8a36f417cbdaacfe98b5bfda7d800d02ad0"
+        },
+        {
+          "member": "word/media/document_image_rId8.jpeg",
+          "sha256": "a1b29b74bbde7166ee2e84c10a05810dedcdad5ccb3b8cdf4664eed21c651d07"
+        }
+      ],
+      "duplicate_module_source_ids": {}
+    },
+    {
+      "program_id": "96996",
+      "title": "2025日语专业本科培养方案",
+      "source_path": "official/raw/plan-96996.json.gz",
+      "source_type": "official_api",
+      "source_sha256": "e0048da4d4e9516aee944cc2a32094df5a94e1557c9dd42dfcf102ff415dbedf",
+      "prerequisite_fields": [
+        {
+          "json_pointer": "/courseModules/18/planCourses/0/course/defaultPreCourseList",
+          "empty": true,
+          "value": []
+        },
+        {
+          "json_pointer": "/courseModules/18/planCourses/0/course/defaultPreCourses",
+          "empty": true,
+          "value": []
+        },
+        {
+          "json_pointer": "/courseModules/18/planCourses/1/course/defaultPreCourseList",
+          "empty": true,
+          "value": []
+        },
+        {
+          "json_pointer": "/courseModules/18/planCourses/1/course/defaultPreCourses",
+          "empty": true,
+          "value": []
+        },
+        {
+          "json_pointer": "/courseModules/18/realPlanCourses/0/course/defaultPreCourseList",
+          "empty": true,
+          "value": []
+        },
+        {
+          "json_pointer": "/courseModules/18/realPlanCourses/0/course/defaultPreCourses",
+          "empty": true,
+          "value": []
+        },
+        {
+          "json_pointer": "/courseModules/18/realPlanCourses/1/course/defaultPreCourseList",
+          "empty": true,
+          "value": []
+        },
+        {
+          "json_pointer": "/courseModules/18/realPlanCourses/1/course/defaultPreCourses",
+          "empty": true,
+          "value": []
+        }
+      ],
+      "prerequisite_text_hits": [],
+      "course_objects_total": 110,
+      "course_objects_with_prerequisite_fields": 4,
+      "course_objects_without_prerequisite_fields": 106,
+      "word_text_hits": [],
+      "word_images": [
+        {
+          "member": "word/media/document_image_rId4.png",
+          "sha256": "079ee6539e29b85d9bccb9016e8147e9319c1fd1aa2a8a6ac0f4e74a915109bc"
+        },
+        {
+          "member": "word/media/document_image_rId5.jpeg",
+          "sha256": "6a2478916bdcc2241856d41d0645a5f7ff8f963a982fcc188fa35394c42d3333"
+        },
+        {
+          "member": "word/media/document_image_rId6.png",
+          "sha256": "e3327f6ca456dcfdc3658d55294f7f5748417b2ae8463f98ee318661e6801582"
+        },
+        {
+          "member": "word/media/document_image_rId7.jpeg",
+          "sha256": "366c52d4f854e5a9577344b486076d0aeda2bb25a2571a246c96a8828aea7ad2"
+        },
+        {
+          "member": "word/media/document_image_rId8.jpeg",
+          "sha256": "a3dabb0f5cc9ffcb10ab7e06a267d1384d1fa504016532b49495817ce8ef7b92"
+        }
+      ],
+      "duplicate_module_source_ids": {
+        "2": 2
+      }
+    },
+    {
+      "program_id": "99839",
+      "title": "2025日语专业本科培养方案（留学生适用）",
+      "source_path": "official/raw/plan-99839.json.gz",
+      "source_type": "official_api",
+      "source_sha256": "5679e3d8c2205e06ba66186cc727653562d9d84b513f5382913870796f08e119",
+      "prerequisite_fields": [
+        {
+          "json_pointer": "/courseModules/18/planCourses/0/course/defaultPreCourseList",
+          "empty": true,
+          "value": []
+        },
+        {
+          "json_pointer": "/courseModules/18/planCourses/0/course/defaultPreCourses",
+          "empty": true,
+          "value": []
+        },
+        {
+          "json_pointer": "/courseModules/18/planCourses/1/course/defaultPreCourseList",
+          "empty": true,
+          "value": []
+        },
+        {
+          "json_pointer": "/courseModules/18/planCourses/1/course/defaultPreCourses",
+          "empty": true,
+          "value": []
+        },
+        {
+          "json_pointer": "/courseModules/18/realPlanCourses/0/course/defaultPreCourseList",
+          "empty": true,
+          "value": []
+        },
+        {
+          "json_pointer": "/courseModules/18/realPlanCourses/0/course/defaultPreCourses",
+          "empty": true,
+          "value": []
+        },
+        {
+          "json_pointer": "/courseModules/18/realPlanCourses/1/course/defaultPreCourseList",
+          "empty": true,
+          "value": []
+        },
+        {
+          "json_pointer": "/courseModules/18/realPlanCourses/1/course/defaultPreCourses",
+          "empty": true,
+          "value": []
+        }
+      ],
+      "prerequisite_text_hits": [],
+      "course_objects_total": 110,
+      "course_objects_with_prerequisite_fields": 4,
+      "course_objects_without_prerequisite_fields": 106,
+      "word_text_hits": [],
+      "word_images": [
+        {
+          "member": "word/media/document_image_rId4.png",
+          "sha256": "079ee6539e29b85d9bccb9016e8147e9319c1fd1aa2a8a6ac0f4e74a915109bc"
+        },
+        {
+          "member": "word/media/document_image_rId5.jpeg",
+          "sha256": "6a2478916bdcc2241856d41d0645a5f7ff8f963a982fcc188fa35394c42d3333"
+        },
+        {
+          "member": "word/media/document_image_rId6.jpeg",
+          "sha256": "1c042e14a437f1e5e013fe9fa3e3e26612b4ecbcf79efc0e5be38d6377156a43"
+        },
+        {
+          "member": "word/media/document_image_rId7.jpeg",
+          "sha256": "c1b72c7dd601e0edb4ed23d84499bf6f0c2313a39c7fb537fe5b29e6e4cec52c"
+        },
+        {
+          "member": "word/media/document_image_rId8.jpeg",
+          "sha256": "a3dabb0f5cc9ffcb10ab7e06a267d1384d1fa504016532b49495817ce8ef7b92"
+        }
+      ],
+      "duplicate_module_source_ids": {
+        "2": 2
+      }
+    },
+    {
+      "program_id": "96992",
+      "title": "2025西班牙语专业本科培养方案",
+      "source_path": "official/raw/plan-96992.json.gz",
+      "source_type": "official_api",
+      "source_sha256": "83eb0e137cc9bea4a22beef1fc60959037c5cdb52d82a3f40894d155fde7f1e8",
+      "prerequisite_fields": [
+        {
+          "json_pointer": "/courseModules/18/planCourses/0/course/defaultPreCourseList",
+          "empty": true,
+          "value": []
+        },
+        {
+          "json_pointer": "/courseModules/18/planCourses/0/course/defaultPreCourses",
+          "empty": true,
+          "value": []
+        },
+        {
+          "json_pointer": "/courseModules/18/planCourses/1/course/defaultPreCourseList",
+          "empty": true,
+          "value": []
+        },
+        {
+          "json_pointer": "/courseModules/18/planCourses/1/course/defaultPreCourses",
+          "empty": true,
+          "value": []
+        },
+        {
+          "json_pointer": "/courseModules/18/realPlanCourses/0/course/defaultPreCourseList",
+          "empty": true,
+          "value": []
+        },
+        {
+          "json_pointer": "/courseModules/18/realPlanCourses/0/course/defaultPreCourses",
+          "empty": true,
+          "value": []
+        },
+        {
+          "json_pointer": "/courseModules/18/realPlanCourses/1/course/defaultPreCourseList",
+          "empty": true,
+          "value": []
+        },
+        {
+          "json_pointer": "/courseModules/18/realPlanCourses/1/course/defaultPreCourses",
+          "empty": true,
+          "value": []
+        }
+      ],
+      "prerequisite_text_hits": [],
+      "course_objects_total": 122,
+      "course_objects_with_prerequisite_fields": 4,
+      "course_objects_without_prerequisite_fields": 118,
+      "word_text_hits": [],
+      "word_images": [
+        {
+          "member": "word/media/document_image_rId4.png",
+          "sha256": "079ee6539e29b85d9bccb9016e8147e9319c1fd1aa2a8a6ac0f4e74a915109bc"
+        },
+        {
+          "member": "word/media/document_image_rId5.jpeg",
+          "sha256": "68970e29f251b483a35e52565c1f8818ade341fcd16eccea132fd7c8fbe314df"
+        },
+        {
+          "member": "word/media/document_image_rId6.png",
+          "sha256": "fdc4309a92a2a0f1ef374ab76de9bc41987de8278d794a6ae0f24dbeea491b83"
+        },
+        {
+          "member": "word/media/document_image_rId7.jpeg",
+          "sha256": "366c52d4f854e5a9577344b486076d0aeda2bb25a2571a246c96a8828aea7ad2"
+        },
+        {
+          "member": "word/media/document_image_rId8.jpeg",
+          "sha256": "a9112ae0a01bf5d5f6e527c86368a1a2780b82393b2ebbe8c9a3a95609753106"
+        }
+      ],
+      "duplicate_module_source_ids": {
+        "2": 2
+      }
+    },
+    {
+      "program_id": "96995",
+      "title": "2025西班牙语（西班牙语-英语复语试验班）专业本科培养方案",
+      "source_path": "official/raw/plan-96995.json.gz",
+      "source_type": "official_api",
+      "source_sha256": "d195628b12d4f9dcee8135e54ee5af6cbaef46cbfd6b08f7b10dd973ff08e27e",
+      "prerequisite_fields": [
+        {
+          "json_pointer": "/courseModules/26/planCourses/0/course/defaultPreCourseList",
+          "empty": true,
+          "value": []
+        },
+        {
+          "json_pointer": "/courseModules/26/planCourses/0/course/defaultPreCourses",
+          "empty": true,
+          "value": []
+        },
+        {
+          "json_pointer": "/courseModules/26/planCourses/1/course/defaultPreCourseList",
+          "empty": true,
+          "value": []
+        },
+        {
+          "json_pointer": "/courseModules/26/planCourses/1/course/defaultPreCourses",
+          "empty": true,
+          "value": []
+        },
+        {
+          "json_pointer": "/courseModules/26/realPlanCourses/0/course/defaultPreCourseList",
+          "empty": true,
+          "value": []
+        },
+        {
+          "json_pointer": "/courseModules/26/realPlanCourses/0/course/defaultPreCourses",
+          "empty": true,
+          "value": []
+        },
+        {
+          "json_pointer": "/courseModules/26/realPlanCourses/1/course/defaultPreCourseList",
+          "empty": true,
+          "value": []
+        },
+        {
+          "json_pointer": "/courseModules/26/realPlanCourses/1/course/defaultPreCourses",
+          "empty": true,
+          "value": []
+        }
+      ],
+      "prerequisite_text_hits": [],
+      "course_objects_total": 220,
+      "course_objects_with_prerequisite_fields": 4,
+      "course_objects_without_prerequisite_fields": 216,
+      "word_text_hits": [],
+      "word_images": [
+        {
+          "member": "word/media/document_image_rId4.png",
+          "sha256": "079ee6539e29b85d9bccb9016e8147e9319c1fd1aa2a8a6ac0f4e74a915109bc"
+        },
+        {
+          "member": "word/media/document_image_rId5.jpeg",
+          "sha256": "935722fe97ecae347c18ddc52b70e308e94b2682b03fee0808a3ba7293f7cfc1"
+        },
+        {
+          "member": "word/media/document_image_rId6.png",
+          "sha256": "58370592cb606aa6fde41e415acd491811afd4571fbc9fd28d41fdc76eabee40"
+        },
+        {
+          "member": "word/media/document_image_rId7.jpeg",
+          "sha256": "7522d389391dc394d80716dd7f784c0f43dfa3875c9543e7e5cdcae3a31120e6"
+        },
+        {
+          "member": "word/media/document_image_rId8.jpeg",
+          "sha256": "3e838f908864f509924cdc0ce7e62d9432cab7f7ec31ff2cbd4c4a64e617d279"
+        }
+      ],
+      "duplicate_module_source_ids": {
+        "2": 2
+      }
+    },
+    {
+      "program_id": "99306",
+      "title": "2025英语专业本科培养方案（港澳台侨生适用）",
+      "source_path": "official/raw/plan-99306.json.gz",
+      "source_type": "official_api",
+      "source_sha256": "15d221e7caf7765c811ae424b7eb92c26366807d0d145b4594765c7a4c634f01",
+      "prerequisite_fields": [
+        {
+          "json_pointer": "/courseModules/39/planCourses/0/course/defaultPreCourseList",
+          "empty": true,
+          "value": []
+        },
+        {
+          "json_pointer": "/courseModules/39/planCourses/0/course/defaultPreCourses",
+          "empty": true,
+          "value": []
+        },
+        {
+          "json_pointer": "/courseModules/39/planCourses/1/course/defaultPreCourseList",
+          "empty": true,
+          "value": []
+        },
+        {
+          "json_pointer": "/courseModules/39/planCourses/1/course/defaultPreCourses",
+          "empty": true,
+          "value": []
+        },
+        {
+          "json_pointer": "/courseModules/39/realPlanCourses/0/course/defaultPreCourseList",
+          "empty": true,
+          "value": []
+        },
+        {
+          "json_pointer": "/courseModules/39/realPlanCourses/0/course/defaultPreCourses",
+          "empty": true,
+          "value": []
+        },
+        {
+          "json_pointer": "/courseModules/39/realPlanCourses/1/course/defaultPreCourseList",
+          "empty": true,
+          "value": []
+        },
+        {
+          "json_pointer": "/courseModules/39/realPlanCourses/1/course/defaultPreCourses",
+          "empty": true,
+          "value": []
+        }
+      ],
+      "prerequisite_text_hits": [],
+      "course_objects_total": 528,
+      "course_objects_with_prerequisite_fields": 4,
+      "course_objects_without_prerequisite_fields": 524,
+      "word_text_hits": [],
+      "word_images": [
+        {
+          "member": "word/media/document_image_rId4.png",
+          "sha256": "079ee6539e29b85d9bccb9016e8147e9319c1fd1aa2a8a6ac0f4e74a915109bc"
+        },
+        {
+          "member": "word/media/document_image_rId5.jpeg",
+          "sha256": "c993875e819f366f6c974ed6be153e11aa15202c332fb6ef15e11acaac771e58"
+        },
+        {
+          "member": "word/media/document_image_rId6.jpeg",
+          "sha256": "416025a37b83c5005ef1f8905c2a8892727b7da8db94716cb5a5aec8d84efe17"
+        },
+        {
+          "member": "word/media/document_image_rId7.jpeg",
+          "sha256": "18cb0ba58cb16e1415ac67ab27e2ae3068fce766cfa9a2bd7964cd7fd2cf7d12"
+        },
+        {
+          "member": "word/media/document_image_rId8.png",
+          "sha256": "e62472c0dfbaa5687487ade809f96787134e79d0878a49ccbaff0592fedf735a"
+        }
+      ],
+      "duplicate_module_source_ids": {
+        "2": 2
+      }
+    },
+    {
+      "program_id": "96921",
+      "title": "2025英语专业本科培养方案（留学生适用）",
+      "source_path": "official/raw/plan-96921.json.gz",
+      "source_type": "official_api",
+      "source_sha256": "fa37e7c1010a111994f8b473919ad6f5bdc1ae3a17218a92ac015e15d8b21483",
+      "prerequisite_fields": [
+        {
+          "json_pointer": "/courseModules/39/planCourses/0/course/defaultPreCourseList",
+          "empty": true,
+          "value": []
+        },
+        {
+          "json_pointer": "/courseModules/39/planCourses/0/course/defaultPreCourses",
+          "empty": true,
+          "value": []
+        },
+        {
+          "json_pointer": "/courseModules/39/planCourses/1/course/defaultPreCourseList",
+          "empty": true,
+          "value": []
+        },
+        {
+          "json_pointer": "/courseModules/39/planCourses/1/course/defaultPreCourses",
+          "empty": true,
+          "value": []
+        },
+        {
+          "json_pointer": "/courseModules/39/realPlanCourses/0/course/defaultPreCourseList",
+          "empty": true,
+          "value": []
+        },
+        {
+          "json_pointer": "/courseModules/39/realPlanCourses/0/course/defaultPreCourses",
+          "empty": true,
+          "value": []
+        },
+        {
+          "json_pointer": "/courseModules/39/realPlanCourses/1/course/defaultPreCourseList",
+          "empty": true,
+          "value": []
+        },
+        {
+          "json_pointer": "/courseModules/39/realPlanCourses/1/course/defaultPreCourses",
+          "empty": true,
+          "value": []
+        }
+      ],
+      "prerequisite_text_hits": [],
+      "course_objects_total": 528,
+      "course_objects_with_prerequisite_fields": 4,
+      "course_objects_without_prerequisite_fields": 524,
+      "word_text_hits": [],
+      "word_images": [
+        {
+          "member": "word/media/document_image_rId4.png",
+          "sha256": "079ee6539e29b85d9bccb9016e8147e9319c1fd1aa2a8a6ac0f4e74a915109bc"
+        },
+        {
+          "member": "word/media/document_image_rId5.jpeg",
+          "sha256": "c993875e819f366f6c974ed6be153e11aa15202c332fb6ef15e11acaac771e58"
+        },
+        {
+          "member": "word/media/document_image_rId6.jpeg",
+          "sha256": "79844b2f928ded4d28c46dfdeff94204ae11db2bbdbcfd77eb303744522d10b4"
+        },
+        {
+          "member": "word/media/document_image_rId7.jpeg",
+          "sha256": "cebda5aa22ae48c25827f473e3867df0bbbc27e5b9873565c76a8e4a119a9b0d"
+        },
+        {
+          "member": "word/media/document_image_rId8.jpeg",
+          "sha256": "e308ea5a679045942631a2ad22ef0a09927ed31e5a5accd634b65e5e33146ca4"
+        }
+      ],
+      "duplicate_module_source_ids": {
+        "2": 2
+      }
+    },
+    {
+      "program_id": "96712",
+      "title": "2025英语专业本科培养方案",
+      "source_path": "official/raw/plan-96712.json.gz",
+      "source_type": "official_api",
+      "source_sha256": "41c3d72e7a06668a4a1c083de90fad76b6d52a965eeb92e7ebaa6113b2e9fd43",
+      "prerequisite_fields": [
+        {
+          "json_pointer": "/courseModules/39/planCourses/0/course/defaultPreCourseList",
+          "empty": true,
+          "value": []
+        },
+        {
+          "json_pointer": "/courseModules/39/planCourses/0/course/defaultPreCourses",
+          "empty": true,
+          "value": []
+        },
+        {
+          "json_pointer": "/courseModules/39/planCourses/1/course/defaultPreCourseList",
+          "empty": true,
+          "value": []
+        },
+        {
+          "json_pointer": "/courseModules/39/planCourses/1/course/defaultPreCourses",
+          "empty": true,
+          "value": []
+        },
+        {
+          "json_pointer": "/courseModules/39/realPlanCourses/0/course/defaultPreCourseList",
+          "empty": true,
+          "value": []
+        },
+        {
+          "json_pointer": "/courseModules/39/realPlanCourses/0/course/defaultPreCourses",
+          "empty": true,
+          "value": []
+        },
+        {
+          "json_pointer": "/courseModules/39/realPlanCourses/1/course/defaultPreCourseList",
+          "empty": true,
+          "value": []
+        },
+        {
+          "json_pointer": "/courseModules/39/realPlanCourses/1/course/defaultPreCourses",
+          "empty": true,
+          "value": []
+        }
+      ],
+      "prerequisite_text_hits": [],
+      "course_objects_total": 544,
+      "course_objects_with_prerequisite_fields": 4,
+      "course_objects_without_prerequisite_fields": 540,
+      "word_text_hits": [],
+      "word_images": [
+        {
+          "member": "word/media/document_image_rId4.png",
+          "sha256": "079ee6539e29b85d9bccb9016e8147e9319c1fd1aa2a8a6ac0f4e74a915109bc"
+        },
+        {
+          "member": "word/media/document_image_rId5.jpeg",
+          "sha256": "c993875e819f366f6c974ed6be153e11aa15202c332fb6ef15e11acaac771e58"
+        },
+        {
+          "member": "word/media/document_image_rId6.png",
+          "sha256": "e2527e80d5eef1fdd2473b1ed74227f4089421e25aa381d525de08f30dc3a661"
+        },
+        {
+          "member": "word/media/document_image_rId7.png",
+          "sha256": "40a425fa72a93836885565e0b26d77c7883c0306452ce732729f1744bd19fff1"
+        },
+        {
+          "member": "word/media/document_image_rId8.png",
+          "sha256": "e62472c0dfbaa5687487ade809f96787134e79d0878a49ccbaff0592fedf735a"
+        }
+      ],
+      "duplicate_module_source_ids": {
+        "2": 2
+      }
+    },
+    {
+      "program_id": "96999",
+      "title": "2025英语-外国语言文学本博融通培养方案（英语-数据语言学博雅班）",
+      "source_path": "official/raw/plan-96999.json.gz",
+      "source_type": "official_api",
+      "source_sha256": "a5042cbb200b0118230a2701253afa2564e9017524e5c4ed33fe91a6dfedc684",
+      "prerequisite_fields": [
+        {
+          "json_pointer": "/courseModules/32/planCourses/0/course/defaultPreCourseList",
+          "empty": true,
+          "value": []
+        },
+        {
+          "json_pointer": "/courseModules/32/planCourses/0/course/defaultPreCourses",
+          "empty": true,
+          "value": []
+        },
+        {
+          "json_pointer": "/courseModules/32/planCourses/1/course/defaultPreCourseList",
+          "empty": true,
+          "value": []
+        },
+        {
+          "json_pointer": "/courseModules/32/planCourses/1/course/defaultPreCourses",
+          "empty": true,
+          "value": []
+        },
+        {
+          "json_pointer": "/courseModules/32/planCourses/2/course/defaultPreCourseList",
+          "empty": true,
+          "value": []
+        },
+        {
+          "json_pointer": "/courseModules/32/planCourses/2/course/defaultPreCourses",
+          "empty": true,
+          "value": []
+        },
+        {
+          "json_pointer": "/courseModules/32/planCourses/3/course/defaultPreCourseList",
+          "empty": true,
+          "value": []
+        },
+        {
+          "json_pointer": "/courseModules/32/planCourses/3/course/defaultPreCourses",
+          "empty": true,
+          "value": []
+        },
+        {
+          "json_pointer": "/courseModules/32/planCourses/4/course/defaultPreCourseList",
+          "empty": true,
+          "value": []
+        },
+        {
+          "json_pointer": "/courseModules/32/planCourses/4/course/defaultPreCourses",
+          "empty": true,
+          "value": []
+        },
+        {
+          "json_pointer": "/courseModules/32/planCourses/5/course/defaultPreCourseList",
+          "empty": true,
+          "value": []
+        },
+        {
+          "json_pointer": "/courseModules/32/planCourses/5/course/defaultPreCourses",
+          "empty": true,
+          "value": []
+        },
+        {
+          "json_pointer": "/courseModules/32/planCourses/6/course/defaultPreCourseList",
+          "empty": true,
+          "value": []
+        },
+        {
+          "json_pointer": "/courseModules/32/planCourses/6/course/defaultPreCourses",
+          "empty": true,
+          "value": []
+        },
+        {
+          "json_pointer": "/courseModules/32/planCourses/7/course/defaultPreCourseList",
+          "empty": true,
+          "value": []
+        },
+        {
+          "json_pointer": "/courseModules/32/planCourses/7/course/defaultPreCourses",
+          "empty": true,
+          "value": []
+        },
+        {
+          "json_pointer": "/courseModules/32/planCourses/8/course/defaultPreCourseList",
+          "empty": true,
+          "value": []
+        },
+        {
+          "json_pointer": "/courseModules/32/planCourses/8/course/defaultPreCourses",
+          "empty": true,
+          "value": []
+        },
+        {
+          "json_pointer": "/courseModules/32/planCourses/9/course/defaultPreCourseList",
+          "empty": true,
+          "value": []
+        },
+        {
+          "json_pointer": "/courseModules/32/planCourses/9/course/defaultPreCourses",
+          "empty": true,
+          "value": []
+        },
+        {
+          "json_pointer": "/courseModules/32/realPlanCourses/0/course/defaultPreCourseList",
+          "empty": true,
+          "value": []
+        },
+        {
+          "json_pointer": "/courseModules/32/realPlanCourses/0/course/defaultPreCourses",
+          "empty": true,
+          "value": []
+        },
+        {
+          "json_pointer": "/courseModules/32/realPlanCourses/1/course/defaultPreCourseList",
+          "empty": true,
+          "value": []
+        },
+        {
+          "json_pointer": "/courseModules/32/realPlanCourses/1/course/defaultPreCourses",
+          "empty": true,
+          "value": []
+        },
+        {
+          "json_pointer": "/courseModules/32/realPlanCourses/2/course/defaultPreCourseList",
+          "empty": true,
+          "value": []
+        },
+        {
+          "json_pointer": "/courseModules/32/realPlanCourses/2/course/defaultPreCourses",
+          "empty": true,
+          "value": []
+        },
+        {
+          "json_pointer": "/courseModules/32/realPlanCourses/3/course/defaultPreCourseList",
+          "empty": true,
+          "value": []
+        },
+        {
+          "json_pointer": "/courseModules/32/realPlanCourses/3/course/defaultPreCourses",
+          "empty": true,
+          "value": []
+        },
+        {
+          "json_pointer": "/courseModules/32/realPlanCourses/4/course/defaultPreCourseList",
+          "empty": true,
+          "value": []
+        },
+        {
+          "json_pointer": "/courseModules/32/realPlanCourses/4/course/defaultPreCourses",
+          "empty": true,
+          "value": []
+        },
+        {
+          "json_pointer": "/courseModules/32/realPlanCourses/5/course/defaultPreCourseList",
+          "empty": true,
+          "value": []
+        },
+        {
+          "json_pointer": "/courseModules/32/realPlanCourses/5/course/defaultPreCourses",
+          "empty": true,
+          "value": []
+        },
+        {
+          "json_pointer": "/courseModules/32/realPlanCourses/6/course/defaultPreCourseList",
+          "empty": true,
+          "value": []
+        },
+        {
+          "json_pointer": "/courseModules/32/realPlanCourses/6/course/defaultPreCourses",
+          "empty": true,
+          "value": []
+        },
+        {
+          "json_pointer": "/courseModules/32/realPlanCourses/7/course/defaultPreCourseList",
+          "empty": true,
+          "value": []
+        },
+        {
+          "json_pointer": "/courseModules/32/realPlanCourses/7/course/defaultPreCourses",
+          "empty": true,
+          "value": []
+        },
+        {
+          "json_pointer": "/courseModules/32/realPlanCourses/8/course/defaultPreCourseList",
+          "empty": true,
+          "value": []
+        },
+        {
+          "json_pointer": "/courseModules/32/realPlanCourses/8/course/defaultPreCourses",
+          "empty": true,
+          "value": []
+        },
+        {
+          "json_pointer": "/courseModules/32/realPlanCourses/9/course/defaultPreCourseList",
+          "empty": true,
+          "value": []
+        },
+        {
+          "json_pointer": "/courseModules/32/realPlanCourses/9/course/defaultPreCourses",
+          "empty": true,
+          "value": []
+        }
+      ],
+      "prerequisite_text_hits": [],
+      "course_objects_total": 200,
+      "course_objects_with_prerequisite_fields": 20,
+      "course_objects_without_prerequisite_fields": 180,
+      "word_text_hits": [],
+      "word_images": [
+        {
+          "member": "word/media/document_image_rId4.png",
+          "sha256": "079ee6539e29b85d9bccb9016e8147e9319c1fd1aa2a8a6ac0f4e74a915109bc"
+        },
+        {
+          "member": "word/media/document_image_rId5.png",
+          "sha256": "06992ca064780e3a4ba199e8a58b8ca5de85f80871206b4320e3cad8070f871b"
+        },
+        {
+          "member": "word/media/document_image_rId6.jpeg",
+          "sha256": "4a689f033405d69d982e99ea6587e70fc0d06c97a84a51cdb3257c69dc4995d5"
+        },
+        {
+          "member": "word/media/document_image_rId7.jpeg",
+          "sha256": "6b53fd4a051c4c5b48ae947ecc548281a92e1b9c01001125543b44ebbfbd3b20"
+        }
+      ],
+      "duplicate_module_source_ids": {
+        "2": 2
+      }
+    },
+    {
+      "program_id": "96786",
+      "title": "2025英语-计算机科学与技术双学士学位项目培养方案",
+      "source_path": "official/raw/plan-96786.json.gz",
+      "source_type": "official_api",
+      "source_sha256": "c1767bc3e4fd6473270e69a30f6dd66da2d44894ddfe415add9de31954577285",
+      "prerequisite_fields": [
+        {
+          "json_pointer": "/courseModules/20/planCourses/0/course/defaultPreCourseList",
+          "empty": true,
+          "value": []
+        },
+        {
+          "json_pointer": "/courseModules/20/planCourses/0/course/defaultPreCourses",
+          "empty": true,
+          "value": []
+        },
+        {
+          "json_pointer": "/courseModules/20/planCourses/1/course/defaultPreCourseList",
+          "empty": true,
+          "value": []
+        },
+        {
+          "json_pointer": "/courseModules/20/planCourses/1/course/defaultPreCourses",
+          "empty": true,
+          "value": []
+        },
+        {
+          "json_pointer": "/courseModules/20/realPlanCourses/0/course/defaultPreCourseList",
+          "empty": true,
+          "value": []
+        },
+        {
+          "json_pointer": "/courseModules/20/realPlanCourses/0/course/defaultPreCourses",
+          "empty": true,
+          "value": []
+        },
+        {
+          "json_pointer": "/courseModules/20/realPlanCourses/1/course/defaultPreCourseList",
+          "empty": true,
+          "value": []
+        },
+        {
+          "json_pointer": "/courseModules/20/realPlanCourses/1/course/defaultPreCourses",
+          "empty": true,
+          "value": []
+        }
+      ],
+      "prerequisite_text_hits": [],
+      "course_objects_total": 148,
+      "course_objects_with_prerequisite_fields": 4,
+      "course_objects_without_prerequisite_fields": 144,
+      "word_text_hits": [],
+      "word_images": [
+        {
+          "member": "word/media/document_image_rId4.png",
+          "sha256": "079ee6539e29b85d9bccb9016e8147e9319c1fd1aa2a8a6ac0f4e74a915109bc"
+        },
+        {
+          "member": "word/media/document_image_rId5.png",
+          "sha256": "baae982c8b6b9b054d320561fd2f0462f72b039e9fd0f99cf895658a669a9435"
+        },
+        {
+          "member": "word/media/document_image_rId6.jpeg",
+          "sha256": "b918550fd368ea653470ebb5fe98a1cd928ce4a61c43387e83ac0984f6b0a3bf"
+        },
+        {
+          "member": "word/media/document_image_rId7.jpeg",
+          "sha256": "9c109f792de41f7b080960e28a214416b1f381fbbff895b30f4536725c8ebee0"
+        },
+        {
+          "member": "word/media/document_image_rId8.jpeg",
+          "sha256": "27698df33926c90dab59f675c9fa7ec069ebe02295c1e4909b0c5eec9dff45b5"
+        }
+      ],
+      "duplicate_module_source_ids": {}
+    }
+  ]
+}

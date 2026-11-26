@@ -1,0 +1,73 @@
+{
+  "status": "passed",
+  "checked_on": "2026-11-26",
+  "checks": [
+    "42 source JSON/DOCX files and embedded image hashes",
+    "all original plan course codes covered",
+    "all PDF normalized course codes covered",
+    "all evidence JSON pointers resolve",
+    "suggested edges share an applicable plan",
+    "CSV and graph equivalence",
+    "4 HTML embedded payloads equal graph data",
+    "local source links exist"
+  ],
+  "cohorts": [
+    {
+      "cohort": 2023,
+      "programs": 21,
+      "api_programs": 5,
+      "pdf_supplemental_programs": 16,
+      "courses": 506,
+      "modules": 160,
+      "topics": 12,
+      "edges": 2832,
+      "official_prerequisite": 0,
+      "official_recommendation": 0,
+      "suggested_sequence": 103,
+      "program_module": 2132,
+      "topic": 597,
+      "course_membership_rows": 2132,
+      "curricular_activities": 0,
+      "taught_course_codes": 506,
+      "evidence_pointers_checked": 4149
+    },
+    {
+      "cohort": 2024,
+      "programs": 38,
+      "api_programs": 14,
+      "pdf_supplemental_programs": 24,
+      "courses": 662,
+      "modules": 225,
+      "topics": 13,
+      "edges": 3947,
+      "official_prerequisite": 0,
+      "official_recommendation": 0,
+      "suggested_sequence": 135,
+      "program_module": 3030,
+      "topic": 782,
+      "course_membership_rows": 3030,
+      "curricular_activities": 0,
+      "taught_course_codes": 662,
+      "evidence_pointers_checked": 6486
+    },
+    {
+      "cohort": 2025,
+      "programs": 23,
+      "api_programs": 23,
+      "pdf_supplemental_programs": 0,
+      "courses": 415,
+      "modules": 211,
+      "topics": 13,
+      "edges": 2846,
+      "official_prerequisite": 0,
+      "official_recommendation": 0,
+      "suggested_sequence": 70,
+      "program_module": 2314,
+      "topic": 462,
+      "course_membership_rows": 2314,
+      "curricular_activities": 10,
+      "taught_course_codes": 405,
+      "evidence_pointers_checked": 4340
+    }
+  ]
+}

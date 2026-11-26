@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "date": "2026-11-19",
+  "date": "2026-11-26",
   "files": [
     {
       "path": ".gitattributes",
@@ -14,8 +14,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 5582,
-      "sha256": "99ef3af32cd8b616eacdb07ce0abcecb20c27fe8801f1b66c10dc75e448f3180"
+      "bytes": 6052,
+      "sha256": "bb86444fc9aed4d4a6a6c03fc4b49b9af7aee7e070300257e20ab7df61c3dd0b"
     },
     {
       "path": "audits/candidate_disposition.json",
@@ -66,6 +66,1971 @@
       "path": "audits/teacher_query_disposition.json",
       "bytes": 119741,
       "sha256": "f3ed3126d75b4961618022f192ef53d3b45c57c487f55b156ff0ef5a4611e1d0"
+    },
+    {
+      "path": "cohorts-2023-2025/README.md",
+      "bytes": 5479,
+      "sha256": "2267417408de26610acab462a09fa6ccf252b2051f0d1da272b83a19621e7aba"
+    },
+    {
+      "path": "cohorts-2023-2025/cohorts/2023/course-graph/README.md",
+      "bytes": 3813,
+      "sha256": "b6d25d98923894f069a64971c62522444463e1e948aba45d7bb89c60cb9c69d6"
+    },
+    {
+      "path": "cohorts-2023-2025/cohorts/2023/course-graph/edges.csv",
+      "bytes": 3223656,
+      "sha256": "467f4d5f6fadb5d2b336ee86f3872438daedd6275e39aade21b4afc140431da6"
+    },
+    {
+      "path": "cohorts-2023-2025/cohorts/2023/course-graph/graph.json",
+      "bytes": 4569316,
+      "sha256": "2c0a6888120b21ce0275757ab12b59418c38bd15a1b28a579e7a4ed53bd4f50e"
+    },
+    {
+      "path": "cohorts-2023-2025/cohorts/2023/course-graph/index.html",
+      "bytes": 3799639,
+      "sha256": "958d7d9bf99b5bd6b6ccfef8c1760a947c94ccc0267da8f178fb38a611dfe468"
+    },
+    {
+      "path": "cohorts-2023-2025/cohorts/2023/course-graph/nodes.csv",
+      "bytes": 330522,
+      "sha256": "fe91d879983593c44e1481887b51da5df0f82dcc382e865aa8f82103cda2e999"
+    },
+    {
+      "path": "cohorts-2023-2025/cohorts/2023/data/course-names.txt",
+      "bytes": 9163,
+      "sha256": "f2c89d2314af41ee70e95413e6b6f1375e6ca65c8f348cbd2175353650942031"
+    },
+    {
+      "path": "cohorts-2023-2025/cohorts/2023/data/prerequisite-audit.json",
+      "bytes": 22074,
+      "sha256": "d31a207e665c913c7f06f3cb8652465356347a13424dfff6f3c5f2d5533afb28"
+    },
+    {
+      "path": "cohorts-2023-2025/cohorts/2023/data/program-course-index.csv",
+      "bytes": 1114359,
+      "sha256": "d634fa169616fb0dbce93b8e9cba3d306966dfb5f876dc67b713c620422475bf"
+    },
+    {
+      "path": "cohorts-2023-2025/cohorts/2023/data/program-course-index.json",
+      "bytes": 2203392,
+      "sha256": "d932c72edfda544416548808f74075752b5ee3675c990178b2e752234c6b6d38"
+    },
+    {
+      "path": "cohorts-2023-2025/cohorts/2023/data/program-modules.csv",
+      "bytes": 83407,
+      "sha256": "a3d4e9178bdee0284f350e8a1d70149f294289099774fcf3a0b30fc1885a5826"
+    },
+    {
+      "path": "cohorts-2023-2025/cohorts/2023/data/programs.json",
+      "bytes": 14546,
+      "sha256": "1ce9ed47adda8d447b782ad86c60f678a8aaf818791e4b65b8c752a945f92272"
+    },
+    {
+      "path": "cohorts-2023-2025/cohorts/2023/official/README.md",
+      "bytes": 3340,
+      "sha256": "2bac0a667303372e64285f132d8e471a13f6cde2fdfff81597fb6729785faaa6"
+    },
+    {
+      "path": "cohorts-2023-2025/cohorts/2023/official/coverage.json",
+      "bytes": 630,
+      "sha256": "8eeac1db5dda46b8b99ad5fe816959116e7cc862f57dbb79ea216393f78ef4e4"
+    },
+    {
+      "path": "cohorts-2023-2025/cohorts/2023/official/full-curriculum-2023-original.pdf",
+      "bytes": 7074146,
+      "sha256": "39f7571c7d74e953d5f609af56a1e6de5fcb5021db7223bacde19ac3bb17bf14"
+    },
+    {
+      "path": "cohorts-2023-2025/cohorts/2023/official/handbook-common-reference.pdf",
+      "bytes": 958312,
+      "sha256": "b43321d79f51a18f4174e66f1fa87d30c3b777b12b8c13ceed2d70c18fcf278b"
+    },
+    {
+      "path": "cohorts-2023-2025/cohorts/2023/official/handbook-excerpt.pdf",
+      "bytes": 945900,
+      "sha256": "a915e3add59e4aae648ad4d09986b1319936f809a9c9ed8a32a52470ef7ad21e"
+    },
+    {
+      "path": "cohorts-2023-2025/cohorts/2023/official/handbook-non-course-rows.json",
+      "bytes": 282553,
+      "sha256": "56c344d4cef60bb8e835a133b801699db350b0397e63df437c8cdfd20e6972ab"
+    },
+    {
+      "path": "cohorts-2023-2025/cohorts/2023/official/handbook-page-text.json",
+      "bytes": 136438,
+      "sha256": "8cc884261fcdcae5de23b5f3534119160888c1fde27401308e0af7fca04dbc91"
+    },
+    {
+      "path": "cohorts-2023-2025/cohorts/2023/official/handbook-source-audit.json",
+      "bytes": 28090,
+      "sha256": "9c224ce91919fbdddd09e312e8d3bc2a3d430048b30dddd69641bbfeb612c539"
+    },
+    {
+      "path": "cohorts-2023-2025/cohorts/2023/official/handbook-table-extraction.json",
+      "bytes": 410092,
+      "sha256": "0e8515311352b16154b12fd6f73aad9135ab59dfb25e5bdd27032d831202232e"
+    },
+    {
+      "path": "cohorts-2023-2025/cohorts/2023/official/metadata/plan-67513.json",
+      "bytes": 1613,
+      "sha256": "dad52db686d679f007f89e433f72498dfd1b1a4e3deb6aa2969d1e4591e5b75d"
+    },
+    {
+      "path": "cohorts-2023-2025/cohorts/2023/official/metadata/plan-67553.json",
+      "bytes": 1655,
+      "sha256": "207098a08b12ade8a20328d63f9c138f9d5511925c4a5ddd73060cc272d1d3f3"
+    },
+    {
+      "path": "cohorts-2023-2025/cohorts/2023/official/metadata/plan-67573.json",
+      "bytes": 1613,
+      "sha256": "f26c45c61e31da797c5c5cadc5b58d93e08646f1c7f64224eef438585681525b"
+    },
+    {
+      "path": "cohorts-2023-2025/cohorts/2023/official/metadata/plan-67595.json",
+      "bytes": 1613,
+      "sha256": "65bda08e6b359da7c2cb497f637a4101f7e503d71103bec897668dc8e3264e32"
+    },
+    {
+      "path": "cohorts-2023-2025/cohorts/2023/official/metadata/plan-73552.json",
+      "bytes": 1667,
+      "sha256": "23e46c8ecf39108caa5165941207471ecf2b909c548f6ae8aaed22473094e56f"
+    },
+    {
+      "path": "cohorts-2023-2025/cohorts/2023/official/programmes.json",
+      "bytes": 8571,
+      "sha256": "d3cabd8edabe037ee244a444adae42ae105e178651a4f196db06741bffd90fc8"
+    },
+    {
+      "path": "cohorts-2023-2025/cohorts/2023/official/raw/common-candidates.json",
+      "bytes": 4,
+      "sha256": "a5338d955b09046ec0b16f3a9625b7955c763aae07dc722e474e6078745f932f"
+    },
+    {
+      "path": "cohorts-2023-2025/cohorts/2023/official/raw/department-rows.json",
+      "bytes": 1453,
+      "sha256": "c2d2f8be4e9d8f523f80e57b17c0169aea60f160434cd7336f9d1f7c897e58b8"
+    },
+    {
+      "path": "cohorts-2023-2025/cohorts/2023/official/raw/directory-all.json",
+      "bytes": 55829,
+      "sha256": "dd72d9bd0f908daddb73d902a1caa0fd014c5b87c99e535f353279237efc6ff4"
+    },
+    {
+      "path": "cohorts-2023-2025/cohorts/2023/official/raw/directory-department-2551.json",
+      "bytes": 2251,
+      "sha256": "f5e84dcd7af96e96cb86124c03b9d53ff807ab8598083088c25852e8ed8ca0dc"
+    },
+    {
+      "path": "cohorts-2023-2025/cohorts/2023/official/raw/plan-67513.json.gz",
+      "bytes": 57428,
+      "sha256": "18ad7965b8846635b45e3ee68da9352b6dbb68127d7276e54bd561107b92f383"
+    },
+    {
+      "path": "cohorts-2023-2025/cohorts/2023/official/raw/plan-67553.json.gz",
+      "bytes": 57236,
+      "sha256": "13fcfadbaa3ecdb013a2710511b34cde7a24d19e789ed30f1943fb3c389c5cc1"
+    },
+    {
+      "path": "cohorts-2023-2025/cohorts/2023/official/raw/plan-67573.json.gz",
+      "bytes": 24008,
+      "sha256": "321f4989bc7ce6622d00df9fcff5f87cda67b4a0c8cfd65d2dc8e97c301115da"
+    },
+    {
+      "path": "cohorts-2023-2025/cohorts/2023/official/raw/plan-67595.json.gz",
+      "bytes": 16591,
+      "sha256": "037dadf006a87dad7832c08de285cb9fed57c4268b626e61bdc6f4dc7ec5f36c"
+    },
+    {
+      "path": "cohorts-2023-2025/cohorts/2023/official/raw/plan-73552.json.gz",
+      "bytes": 54519,
+      "sha256": "9e9959954fef15bcd3ce9273bc1b3d5b578fbecc6987912a80b6ecd81e142d14"
+    },
+    {
+      "path": "cohorts-2023-2025/cohorts/2023/official/source-figures/plan-67513-document_image_rId4.png",
+      "bytes": 2649,
+      "sha256": "079ee6539e29b85d9bccb9016e8147e9319c1fd1aa2a8a6ac0f4e74a915109bc"
+    },
+    {
+      "path": "cohorts-2023-2025/cohorts/2023/official/source-figures/plan-67553-document_image_rId4.png",
+      "bytes": 2649,
+      "sha256": "079ee6539e29b85d9bccb9016e8147e9319c1fd1aa2a8a6ac0f4e74a915109bc"
+    },
+    {
+      "path": "cohorts-2023-2025/cohorts/2023/official/source-figures/plan-67573-document_image_rId4.png",
+      "bytes": 2649,
+      "sha256": "079ee6539e29b85d9bccb9016e8147e9319c1fd1aa2a8a6ac0f4e74a915109bc"
+    },
+    {
+      "path": "cohorts-2023-2025/cohorts/2023/official/source-figures/plan-67595-document_image_rId4.png",
+      "bytes": 2649,
+      "sha256": "079ee6539e29b85d9bccb9016e8147e9319c1fd1aa2a8a6ac0f4e74a915109bc"
+    },
+    {
+      "path": "cohorts-2023-2025/cohorts/2023/official/source-figures/plan-73552-document_image_rId4.png",
+      "bytes": 2649,
+      "sha256": "079ee6539e29b85d9bccb9016e8147e9319c1fd1aa2a8a6ac0f4e74a915109bc"
+    },
+    {
+      "path": "cohorts-2023-2025/cohorts/2023/official/supplemental-programmes.json",
+      "bytes": 416780,
+      "sha256": "bf2539565c6f4a9c9cd737375443b879128ea5b4a94861da0c3a5690a1aa0a07"
+    },
+    {
+      "path": "cohorts-2023-2025/cohorts/2023/official/word-originals/plan-67513.docx",
+      "bytes": 74201,
+      "sha256": "c34ef5bba14f959c43932e8e13e097c0b221079d203cb799ffb4be95e3224c88"
+    },
+    {
+      "path": "cohorts-2023-2025/cohorts/2023/official/word-originals/plan-67553.docx",
+      "bytes": 74062,
+      "sha256": "46560c39131efb9a258b9ca30df7ce631fe840af183bdc5c3f887c5463a6ad50"
+    },
+    {
+      "path": "cohorts-2023-2025/cohorts/2023/official/word-originals/plan-67573.docx",
+      "bytes": 36469,
+      "sha256": "307801dccb4b0c132641ad215cf03148ab7f457e3f1509c7b3efe8c99f309735"
+    },
+    {
+      "path": "cohorts-2023-2025/cohorts/2023/official/word-originals/plan-67595.docx",
+      "bytes": 23977,
+      "sha256": "a8c0ebe752f8fea49c6b1db169b0bc50135585b19d0c31b9a96f6a6fc3071ed9"
+    },
+    {
+      "path": "cohorts-2023-2025/cohorts/2023/official/word-originals/plan-73552.docx",
+      "bytes": 72493,
+      "sha256": "0e5ae3fdea786a8b5fbadfe606e463cf84de18d7f69d6a3b1a04134d5e076d79"
+    },
+    {
+      "path": "cohorts-2023-2025/cohorts/2023/official/word-text/plan-67513.txt",
+      "bytes": 34981,
+      "sha256": "efab3db4d3ef8e8a6656e6560e576bc866a124c264b67cc216d8edb111444535"
+    },
+    {
+      "path": "cohorts-2023-2025/cohorts/2023/official/word-text/plan-67553.txt",
+      "bytes": 34821,
+      "sha256": "703700ce169d48246d9a6fa604cc150ce598899570e1aacba2a3ec1cc9e15b09"
+    },
+    {
+      "path": "cohorts-2023-2025/cohorts/2023/official/word-text/plan-67573.txt",
+      "bytes": 15365,
+      "sha256": "204e254f7dd048c3ee884588e806bf43a00df859f8cc40ded42c12d269319c55"
+    },
+    {
+      "path": "cohorts-2023-2025/cohorts/2023/official/word-text/plan-67595.txt",
+      "bytes": 9423,
+      "sha256": "0b41eb96335a3d1a85edd01549ade1c8f3f1d70bb54b3f70cddb820ed4c89e59"
+    },
+    {
+      "path": "cohorts-2023-2025/cohorts/2023/official/word-text/plan-73552.txt",
+      "bytes": 33089,
+      "sha256": "36b17b7bf20945f16af96142425be8387b53eb8adf17ef41708d08b2be3b7bdb"
+    },
+    {
+      "path": "cohorts-2023-2025/cohorts/2024/course-graph/README.md",
+      "bytes": 3816,
+      "sha256": "53f6fafb0e88f9ab03454a0aac7771ac8ae78712df5e6064cb6aee28b1a0e187"
+    },
+    {
+      "path": "cohorts-2023-2025/cohorts/2024/course-graph/edges.csv",
+      "bytes": 4863457,
+      "sha256": "d241aabda543cd64b54055d54bbe8c028ef463df3f463b916859b89df216cc06"
+    },
+    {
+      "path": "cohorts-2023-2025/cohorts/2024/course-graph/graph.json",
+      "bytes": 6904424,
+      "sha256": "4cbd46f030e314d7ca8cc9321d94312f48d80cf4496ba81f972bc78adb0d4807"
+    },
+    {
+      "path": "cohorts-2023-2025/cohorts/2024/course-graph/index.html",
+      "bytes": 5732144,
+      "sha256": "3d61dea81023106d3554a38c118a722bbe97443182cc395e79c39106542a65a3"
+    },
+    {
+      "path": "cohorts-2023-2025/cohorts/2024/course-graph/nodes.csv",
+      "bytes": 575105,
+      "sha256": "300d85e2874c57366efafd49a8efc1d96b81592586822dd98a8084952be42958"
+    },
+    {
+      "path": "cohorts-2023-2025/cohorts/2024/data/course-names.txt",
+      "bytes": 10760,
+      "sha256": "a6c4f1c509b1d72c05a5ff687dd734810aab7f23d3eb6678f1d343746e8779e9"
+    },
+    {
+      "path": "cohorts-2023-2025/cohorts/2024/data/prerequisite-audit.json",
+      "bytes": 34373,
+      "sha256": "1c65511b8d76cf021e607bbf0fdc91e52ef5f44ae3a35d4019d52323037ef55d"
+    },
+    {
+      "path": "cohorts-2023-2025/cohorts/2024/data/program-course-index.csv",
+      "bytes": 1671112,
+      "sha256": "4d12315c3ded78520a5f454828f268c97fdf895c828c207954a2a9fdf955f34a"
+    },
+    {
+      "path": "cohorts-2023-2025/cohorts/2024/data/program-course-index.json",
+      "bytes": 3226059,
+      "sha256": "40ad2bdddeac52ab7e4b844c6dacd977f1690550fc6340c9143c87a5307226df"
+    },
+    {
+      "path": "cohorts-2023-2025/cohorts/2024/data/program-modules.csv",
+      "bytes": 158277,
+      "sha256": "f8ac5780a338f80e92839aa93bd61c03a4d6fdc23882965ab2f5850ba0fb1419"
+    },
+    {
+      "path": "cohorts-2023-2025/cohorts/2024/data/programs.json",
+      "bytes": 21077,
+      "sha256": "b126ee70abc3c9510609de65abc18237278d7496097f7dc2fea7fc33ea9fc590"
+    },
+    {
+      "path": "cohorts-2023-2025/cohorts/2024/official/README.md",
+      "bytes": 5585,
+      "sha256": "e87adadd50738cc3e72ba054226d84d6d72fcb8359eda96a7d3f6a60728a980f"
+    },
+    {
+      "path": "cohorts-2023-2025/cohorts/2024/official/common-requirements-excerpt.pdf",
+      "bytes": 882046,
+      "sha256": "38d1ec1a63c68984a8ea6df0ded9d381f224667a331b827a1ab217c1270efe5b"
+    },
+    {
+      "path": "cohorts-2023-2025/cohorts/2024/official/coverage.json",
+      "bytes": 632,
+      "sha256": "c1e1e35756df7832520e86af070bc8ea87e1ae5fb9c7f6d44f4fe05e5251ad11"
+    },
+    {
+      "path": "cohorts-2023-2025/cohorts/2024/official/full-curriculum-2024-original.pdf",
+      "bytes": 26229504,
+      "sha256": "5d01aacebcd38b41d4ca237c58698270a9e07cf9198502d8265b6d8b8f94a215"
+    },
+    {
+      "path": "cohorts-2023-2025/cohorts/2024/official/handbook-excerpt-text.txt",
+      "bytes": 249942,
+      "sha256": "b00549d5b047314e8d48f303ff8d6cc5364e17d9217008fa7d106429abc23395"
+    },
+    {
+      "path": "cohorts-2023-2025/cohorts/2024/official/handbook-excerpt.pdf",
+      "bytes": 1240752,
+      "sha256": "049687c6ef079276fdf082d50281deb70df85576fa35c6fb8f5a48b02c7aa586"
+    },
+    {
+      "path": "cohorts-2023-2025/cohorts/2024/official/metadata/plan-153245.json",
+      "bytes": 1745,
+      "sha256": "81a6fed02f37cfa0200b30dfe53b668e6a3643a567b5f626811e49e5ce080897"
+    },
+    {
+      "path": "cohorts-2023-2025/cohorts/2024/official/metadata/plan-72747.json",
+      "bytes": 1613,
+      "sha256": "227b7da17d24084d6000157270c8caa0db9ea8195578cbe625878983a22b9b40"
+    },
+    {
+      "path": "cohorts-2023-2025/cohorts/2024/official/metadata/plan-72749.json",
+      "bytes": 1613,
+      "sha256": "6129b658bb2686dcd69d69f9b856525f413ad960db42ed098035b93d9f307c91"
+    },
+    {
+      "path": "cohorts-2023-2025/cohorts/2024/official/metadata/plan-72750.json",
+      "bytes": 1613,
+      "sha256": "0f64b3e726f8c79807757ae8dbc477166eb3031f73df2aa5ac40937900cf9d0d"
+    },
+    {
+      "path": "cohorts-2023-2025/cohorts/2024/official/metadata/plan-72751.json",
+      "bytes": 1625,
+      "sha256": "bf431a38f46e5b4716d50de8bc841c565d9780e6f0d0e798157dd7820ac50560"
+    },
+    {
+      "path": "cohorts-2023-2025/cohorts/2024/official/metadata/plan-72752.json",
+      "bytes": 1638,
+      "sha256": "6052effb4ddf928a1bc68668631f261a6fc4a9ddb5cae2087cecbc7075c93289"
+    },
+    {
+      "path": "cohorts-2023-2025/cohorts/2024/official/metadata/plan-72758.json",
+      "bytes": 1655,
+      "sha256": "20b0ecaaa1bfb418f807f09676ead91f7f143a78baa096ed937cb6688f8a98e8"
+    },
+    {
+      "path": "cohorts-2023-2025/cohorts/2024/official/metadata/plan-72769.json",
+      "bytes": 1773,
+      "sha256": "dbdad3e59c05e3027eb06f641ef4420875612c33ae6cfbe299c0a92049d409c8"
+    },
+    {
+      "path": "cohorts-2023-2025/cohorts/2024/official/metadata/plan-72772.json",
+      "bytes": 1772,
+      "sha256": "46271845a0c55717bbfa73f7a735cf7a1218475536c5e80882d1d9907c14a6d0"
+    },
+    {
+      "path": "cohorts-2023-2025/cohorts/2024/official/metadata/plan-72773.json",
+      "bytes": 1772,
+      "sha256": "eb31f78eb43b0044af8613b638d93885b4a50c2bd48023bc27487e4c7890f1d3"
+    },
+    {
+      "path": "cohorts-2023-2025/cohorts/2024/official/metadata/plan-73394.json",
+      "bytes": 1743,
+      "sha256": "ebdd613d991fe77a85eebc1668b3cedf4fa13306cf0fe59d3b6b34c48ef1244c"
+    },
+    {
+      "path": "cohorts-2023-2025/cohorts/2024/official/metadata/plan-73395.json",
+      "bytes": 1742,
+      "sha256": "a4f79697d8ee666bee8c8065c110a5e6f20b6aa11e390a7ce3770ba027e55a01"
+    },
+    {
+      "path": "cohorts-2023-2025/cohorts/2024/official/metadata/plan-73396.json",
+      "bytes": 1742,
+      "sha256": "c9edc7c5cbeade903e1e88dcb0a3914775aaef3b6bb6e3fc2b4bdfc816442afd"
+    },
+    {
+      "path": "cohorts-2023-2025/cohorts/2024/official/metadata/plan-73607.json",
+      "bytes": 1692,
+      "sha256": "07a61fb63d1ef16e0e99f79f152f510eba464ed6280d4abf4afe0d3889ef36b3"
+    },
+    {
+      "path": "cohorts-2023-2025/cohorts/2024/official/pdf-extraction-audit.json",
+      "bytes": 116115,
+      "sha256": "ce500a63f6924015ef8ef865b3481b7d0b7d11beb9285391dc3b52339a08b9d8"
+    },
+    {
+      "path": "cohorts-2023-2025/cohorts/2024/official/pdf-prerequisite-text-audit.json",
+      "bytes": 313,
+      "sha256": "1aecd1e9c7f09ed15a1b1793c8534fea7ea329c451239f09c2dd4a2acb47187e"
+    },
+    {
+      "path": "cohorts-2023-2025/cohorts/2024/official/pdf-requirements-without-course-code.json",
+      "bytes": 388868,
+      "sha256": "f213fe96c1e21873f1527d779482e91052a408eabe20678665f97fddf9133481"
+    },
+    {
+      "path": "cohorts-2023-2025/cohorts/2024/official/pdf-source-manifest.json",
+      "bytes": 1605,
+      "sha256": "1c4e0f29915a6b724ac9dbacbbdba8d74cce1ac5132950abe329baea43a2ea4a"
+    },
+    {
+      "path": "cohorts-2023-2025/cohorts/2024/official/pdf-tables.json.gz",
+      "bytes": 62135,
+      "sha256": "f1cb391f30715269fdfbd1776a5d9f57dd52438d8f2a99e898c05d5be251b730"
+    },
+    {
+      "path": "cohorts-2023-2025/cohorts/2024/official/pdf-visual-validation.json",
+      "bytes": 790,
+      "sha256": "c290b35b6fa80c7aaab4ad8eeb8fee359769217517212702c5ee025afb71f96b"
+    },
+    {
+      "path": "cohorts-2023-2025/cohorts/2024/official/programmes.json",
+      "bytes": 24877,
+      "sha256": "d1fa4941263c1e7b564085e75c2b0821db19d2f16a5a91ee3125e203cd9fca99"
+    },
+    {
+      "path": "cohorts-2023-2025/cohorts/2024/official/raw/common-candidates.json",
+      "bytes": 4,
+      "sha256": "a5338d955b09046ec0b16f3a9625b7955c763aae07dc722e474e6078745f932f"
+    },
+    {
+      "path": "cohorts-2023-2025/cohorts/2024/official/raw/department-rows.json",
+      "bytes": 4506,
+      "sha256": "33ece6965544658150fbf52d2590cdeedf6aabef4fb953506d2ff2cb6511e98e"
+    },
+    {
+      "path": "cohorts-2023-2025/cohorts/2024/official/raw/directory-all.json",
+      "bytes": 95029,
+      "sha256": "0decf6e4278dd4850b7238848d825648f2fdcd1bb6be9f38c56f7f80f3b7caa7"
+    },
+    {
+      "path": "cohorts-2023-2025/cohorts/2024/official/raw/directory-department-2551.json",
+      "bytes": 5900,
+      "sha256": "416e63832053fb85d8a0224ced372ac732b1fe5b6e9ea069872a27028f5f7fa3"
+    },
+    {
+      "path": "cohorts-2023-2025/cohorts/2024/official/raw/plan-153245.json.gz",
+      "bytes": 29946,
+      "sha256": "65741aeac63594ef37526e983f877e4ea9a50c2d1159725709a8c187d047a4ef"
+    },
+    {
+      "path": "cohorts-2023-2025/cohorts/2024/official/raw/plan-72747.json.gz",
+      "bytes": 20917,
+      "sha256": "6ab73ffa832a9424507f436d2eeea9c6b2b20ee6770a28c036ee806d7b5bc6db"
+    },
+    {
+      "path": "cohorts-2023-2025/cohorts/2024/official/raw/plan-72749.json.gz",
+      "bytes": 18036,
+      "sha256": "cce9aab85d655cea602b6d534d3825f04d2fe5a44ca3915064b4441846ea19d0"
+    },
+    {
+      "path": "cohorts-2023-2025/cohorts/2024/official/raw/plan-72750.json.gz",
+      "bytes": 18005,
+      "sha256": "b416cbcac7ac62803f164f4ea3bcc8f5ca605b01533d485df446eb13e3ecae04"
+    },
+    {
+      "path": "cohorts-2023-2025/cohorts/2024/official/raw/plan-72751.json.gz",
+      "bytes": 16610,
+      "sha256": "2a880f8b225b620c3734c7460a2f610de7cd61cda3e7360355bcb7d420d384f0"
+    },
+    {
+      "path": "cohorts-2023-2025/cohorts/2024/official/raw/plan-72752.json.gz",
+      "bytes": 19803,
+      "sha256": "fc28ce3254eaa3caaa27e95f69e7c48ee7151fc8c9990dd54373e3f5b543e496"
+    },
+    {
+      "path": "cohorts-2023-2025/cohorts/2024/official/raw/plan-72758.json.gz",
+      "bytes": 17977,
+      "sha256": "acef6890d0390e05adfbb5d9c2e29e70556e7f51c3bf01c5787358e10c5bb4ac"
+    },
+    {
+      "path": "cohorts-2023-2025/cohorts/2024/official/raw/plan-72769.json.gz",
+      "bytes": 26523,
+      "sha256": "2bf863baec6093ca34a30454aa92cc5c1dddcc33437cd9c7f1b819124b9df228"
+    },
+    {
+      "path": "cohorts-2023-2025/cohorts/2024/official/raw/plan-72772.json.gz",
+      "bytes": 23318,
+      "sha256": "727acb376f3177990cc84f15e8b06883a68d23bb24d3bffc6aa32be6136fb9c0"
+    },
+    {
+      "path": "cohorts-2023-2025/cohorts/2024/official/raw/plan-72773.json.gz",
+      "bytes": 23538,
+      "sha256": "ce143db3ff62bb86f42cb291e787ec451ef5058a3c11f58e3921f00f85e9457f"
+    },
+    {
+      "path": "cohorts-2023-2025/cohorts/2024/official/raw/plan-73394.json.gz",
+      "bytes": 29855,
+      "sha256": "7ddc83ea7148a7141fa16ca9015de1d32b14f2834a73c22bdaa1913ac11dbf92"
+    },
+    {
+      "path": "cohorts-2023-2025/cohorts/2024/official/raw/plan-73395.json.gz",
+      "bytes": 29747,
+      "sha256": "eb1fa4bca98774c1ec44dfd080273c4f9f69d34b93be9ad2beb0b3c17fa89763"
+    },
+    {
+      "path": "cohorts-2023-2025/cohorts/2024/official/raw/plan-73396.json.gz",
+      "bytes": 29072,
+      "sha256": "e9b2eb53bd56dfd9e5e1ae39755987b59a15ac1a84fadc56df10b99082e26370"
+    },
+    {
+      "path": "cohorts-2023-2025/cohorts/2024/official/raw/plan-73607.json.gz",
+      "bytes": 15353,
+      "sha256": "cad629d662a477b46d31c46cd33d31f38361b3a3486eaa459969cd08ab4f8e6c"
+    },
+    {
+      "path": "cohorts-2023-2025/cohorts/2024/official/source-figures/plan-153245-document_image_rId4.png",
+      "bytes": 2649,
+      "sha256": "079ee6539e29b85d9bccb9016e8147e9319c1fd1aa2a8a6ac0f4e74a915109bc"
+    },
+    {
+      "path": "cohorts-2023-2025/cohorts/2024/official/source-figures/plan-72747-document_image_rId4.png",
+      "bytes": 2649,
+      "sha256": "079ee6539e29b85d9bccb9016e8147e9319c1fd1aa2a8a6ac0f4e74a915109bc"
+    },
+    {
+      "path": "cohorts-2023-2025/cohorts/2024/official/source-figures/plan-72749-document_image_rId4.png",
+      "bytes": 2649,
+      "sha256": "079ee6539e29b85d9bccb9016e8147e9319c1fd1aa2a8a6ac0f4e74a915109bc"
+    },
+    {
+      "path": "cohorts-2023-2025/cohorts/2024/official/source-figures/plan-72750-document_image_rId4.png",
+      "bytes": 2649,
+      "sha256": "079ee6539e29b85d9bccb9016e8147e9319c1fd1aa2a8a6ac0f4e74a915109bc"
+    },
+    {
+      "path": "cohorts-2023-2025/cohorts/2024/official/source-figures/plan-72751-document_image_rId4.png",
+      "bytes": 2649,
+      "sha256": "079ee6539e29b85d9bccb9016e8147e9319c1fd1aa2a8a6ac0f4e74a915109bc"
+    },
+    {
+      "path": "cohorts-2023-2025/cohorts/2024/official/source-figures/plan-72752-document_image_rId4.png",
+      "bytes": 2649,
+      "sha256": "079ee6539e29b85d9bccb9016e8147e9319c1fd1aa2a8a6ac0f4e74a915109bc"
+    },
+    {
+      "path": "cohorts-2023-2025/cohorts/2024/official/source-figures/plan-72758-document_image_rId4.png",
+      "bytes": 2649,
+      "sha256": "079ee6539e29b85d9bccb9016e8147e9319c1fd1aa2a8a6ac0f4e74a915109bc"
+    },
+    {
+      "path": "cohorts-2023-2025/cohorts/2024/official/source-figures/plan-72769-document_image_rId4.png",
+      "bytes": 2649,
+      "sha256": "079ee6539e29b85d9bccb9016e8147e9319c1fd1aa2a8a6ac0f4e74a915109bc"
+    },
+    {
+      "path": "cohorts-2023-2025/cohorts/2024/official/source-figures/plan-72772-document_image_rId4.png",
+      "bytes": 2649,
+      "sha256": "079ee6539e29b85d9bccb9016e8147e9319c1fd1aa2a8a6ac0f4e74a915109bc"
+    },
+    {
+      "path": "cohorts-2023-2025/cohorts/2024/official/source-figures/plan-72773-document_image_rId4.png",
+      "bytes": 2649,
+      "sha256": "079ee6539e29b85d9bccb9016e8147e9319c1fd1aa2a8a6ac0f4e74a915109bc"
+    },
+    {
+      "path": "cohorts-2023-2025/cohorts/2024/official/source-figures/plan-73394-document_image_rId4.png",
+      "bytes": 2649,
+      "sha256": "079ee6539e29b85d9bccb9016e8147e9319c1fd1aa2a8a6ac0f4e74a915109bc"
+    },
+    {
+      "path": "cohorts-2023-2025/cohorts/2024/official/source-figures/plan-73395-document_image_rId4.png",
+      "bytes": 2649,
+      "sha256": "079ee6539e29b85d9bccb9016e8147e9319c1fd1aa2a8a6ac0f4e74a915109bc"
+    },
+    {
+      "path": "cohorts-2023-2025/cohorts/2024/official/source-figures/plan-73396-document_image_rId4.png",
+      "bytes": 2649,
+      "sha256": "079ee6539e29b85d9bccb9016e8147e9319c1fd1aa2a8a6ac0f4e74a915109bc"
+    },
+    {
+      "path": "cohorts-2023-2025/cohorts/2024/official/source-figures/plan-73607-document_image_rId4.png",
+      "bytes": 2649,
+      "sha256": "079ee6539e29b85d9bccb9016e8147e9319c1fd1aa2a8a6ac0f4e74a915109bc"
+    },
+    {
+      "path": "cohorts-2023-2025/cohorts/2024/official/student-handbook-2024.pdf",
+      "bytes": 1070999,
+      "sha256": "ed79e8c56a7642b84e756f6885ebae366a632a5ab80b87e490f2d890cf6c5958"
+    },
+    {
+      "path": "cohorts-2023-2025/cohorts/2024/official/supplemental-programmes.json",
+      "bytes": 1195422,
+      "sha256": "220b1f94d70daa211b5ea3deed782c4f076221c27d9bf0015212cfb7cab5c91a"
+    },
+    {
+      "path": "cohorts-2023-2025/cohorts/2024/official/word-originals/plan-153245.docx",
+      "bytes": 38979,
+      "sha256": "21dd0fb99c2acfbab9fee0b9f1243e8e11a7f0ed5553908c9e0d1cbf92fe7652"
+    },
+    {
+      "path": "cohorts-2023-2025/cohorts/2024/official/word-originals/plan-72747.docx",
+      "bytes": 27499,
+      "sha256": "20cb1ec909bbcb0c9fffcaf12873e2b082bcd40b76d59f40cfc294875f24d5d8"
+    },
+    {
+      "path": "cohorts-2023-2025/cohorts/2024/official/word-originals/plan-72749.docx",
+      "bytes": 25585,
+      "sha256": "a2a29e6143f6e506108d4a113e1191dfac6b0e1e8d4fad72fcbeff07b3a90da8"
+    },
+    {
+      "path": "cohorts-2023-2025/cohorts/2024/official/word-originals/plan-72750.docx",
+      "bytes": 25789,
+      "sha256": "82ebd2e236d9d7272b481b40b88d3fa797d270bbe7b7d0ca38c55f9ec3d27c94"
+    },
+    {
+      "path": "cohorts-2023-2025/cohorts/2024/official/word-originals/plan-72751.docx",
+      "bytes": 23539,
+      "sha256": "2edef1f88693a5b6395f87c2ec6404e80afe43d0fcfc4d8ede9d26ad61826ac5"
+    },
+    {
+      "path": "cohorts-2023-2025/cohorts/2024/official/word-originals/plan-72752.docx",
+      "bytes": 26394,
+      "sha256": "08b785f020242bb2ed318843a52265403487d6e7e9a8547e04ade86b653cacb3"
+    },
+    {
+      "path": "cohorts-2023-2025/cohorts/2024/official/word-originals/plan-72758.docx",
+      "bytes": 25756,
+      "sha256": "dc11e2031ad05f02539a0b7198aaabe5ffe2783f46733660e258bb2cdb663d75"
+    },
+    {
+      "path": "cohorts-2023-2025/cohorts/2024/official/word-originals/plan-72769.docx",
+      "bytes": 35405,
+      "sha256": "9555fb5274136d4e63bf1dcac5ccd6da6bbf35c94fa96564b1b03f4833668bb6"
+    },
+    {
+      "path": "cohorts-2023-2025/cohorts/2024/official/word-originals/plan-72772.docx",
+      "bytes": 28693,
+      "sha256": "069bbc71ee0a24db06b59d826d0c728202976f40ccdb3b52acaea979e9324903"
+    },
+    {
+      "path": "cohorts-2023-2025/cohorts/2024/official/word-originals/plan-72773.docx",
+      "bytes": 29229,
+      "sha256": "43455c7aad075dec643f67102c8af2d52dbbc3352896340ff4c162923b008dfe"
+    },
+    {
+      "path": "cohorts-2023-2025/cohorts/2024/official/word-originals/plan-73394.docx",
+      "bytes": 38994,
+      "sha256": "8122156bf6a3b0357acebce21b5054ed4eb72ab33570dcf249087734ab1d8036"
+    },
+    {
+      "path": "cohorts-2023-2025/cohorts/2024/official/word-originals/plan-73395.docx",
+      "bytes": 37182,
+      "sha256": "df76ce4d20e155c68347d271968466fb0a35bdae64ebe490d14cb69dc9396c48"
+    },
+    {
+      "path": "cohorts-2023-2025/cohorts/2024/official/word-originals/plan-73396.docx",
+      "bytes": 37367,
+      "sha256": "d8267616013db3b7255d7ad3386302def95500beae2a8441b44fae9ef06fd319"
+    },
+    {
+      "path": "cohorts-2023-2025/cohorts/2024/official/word-originals/plan-73607.docx",
+      "bytes": 22731,
+      "sha256": "a6f5341312625a5c9d1931897087eb4920516962fd0d26f267528d58e65634f2"
+    },
+    {
+      "path": "cohorts-2023-2025/cohorts/2024/official/word-text/plan-153245.txt",
+      "bytes": 18879,
+      "sha256": "037f3dcbf215abe955dfd91658c44b5dc561aa3c8202d9e6c05df7bddc6f27d2"
+    },
+    {
+      "path": "cohorts-2023-2025/cohorts/2024/official/word-text/plan-72747.txt",
+      "bytes": 13710,
+      "sha256": "74977f01f9f8c534c726e2faad00f6c650fb87c1dd61780b5af2cbab47113adc"
+    },
+    {
+      "path": "cohorts-2023-2025/cohorts/2024/official/word-text/plan-72749.txt",
+      "bytes": 11982,
+      "sha256": "bb753662b34e5a52076d194e9cb7f80f997047499ff841bdd7103556435f8f47"
+    },
+    {
+      "path": "cohorts-2023-2025/cohorts/2024/official/word-text/plan-72750.txt",
+      "bytes": 12321,
+      "sha256": "1ec172e9496e0fc6c73b5970a72e61983ea50efea4226054d47085be6b83c57b"
+    },
+    {
+      "path": "cohorts-2023-2025/cohorts/2024/official/word-text/plan-72751.txt",
+      "bytes": 10873,
+      "sha256": "dda943b1982c0fcf368b8398db49f974dfe4fa1764ff5c5d24913b8c53988b7a"
+    },
+    {
+      "path": "cohorts-2023-2025/cohorts/2024/official/word-text/plan-72752.txt",
+      "bytes": 13339,
+      "sha256": "3f2c910cd02f26df6121b81cfc7148ed64333dc8d75088a39bcb9f2aee24a908"
+    },
+    {
+      "path": "cohorts-2023-2025/cohorts/2024/official/word-text/plan-72758.txt",
+      "bytes": 12275,
+      "sha256": "442fc1118445c3fc23873fbd88ef670f15ed6724fdf2d69bdb5c923a8b2f5617"
+    },
+    {
+      "path": "cohorts-2023-2025/cohorts/2024/official/word-text/plan-72769.txt",
+      "bytes": 14692,
+      "sha256": "838f031b834d4bcf0c0f233f9626e1f212435583ff262796c7d5606227b5d56b"
+    },
+    {
+      "path": "cohorts-2023-2025/cohorts/2024/official/word-text/plan-72772.txt",
+      "bytes": 11633,
+      "sha256": "814c702c8a7c8d4458c9bf7dd99416b02aa5e5672ccfd43e41489ef9bc3649cc"
+    },
+    {
+      "path": "cohorts-2023-2025/cohorts/2024/official/word-text/plan-72773.txt",
+      "bytes": 11820,
+      "sha256": "1b8e77c14e809c9588ed4a12c6ce9227359d3f0ee41a476c7368a1ad43d16d16"
+    },
+    {
+      "path": "cohorts-2023-2025/cohorts/2024/official/word-text/plan-73394.txt",
+      "bytes": 18942,
+      "sha256": "c2171a10f685ec4866bda453652df72c30d1629a335e8f7229eb85736d0de1a6"
+    },
+    {
+      "path": "cohorts-2023-2025/cohorts/2024/official/word-text/plan-73395.txt",
+      "bytes": 18405,
+      "sha256": "244c258d748ab44aab17d5302526898f521b5f0f95eb2f10cd457b5f7d85d9c9"
+    },
+    {
+      "path": "cohorts-2023-2025/cohorts/2024/official/word-text/plan-73396.txt",
+      "bytes": 18106,
+      "sha256": "22a6f16c70e965b69e23a6681f40cdacb9b799265cfd2f531c5b8e1416ce104a"
+    },
+    {
+      "path": "cohorts-2023-2025/cohorts/2024/official/word-text/plan-73607.txt",
+      "bytes": 7879,
+      "sha256": "b0dbb64a2d65fac7ab7a57e4126b9067f2b13ac9308b225757a37a53c3092463"
+    },
+    {
+      "path": "cohorts-2023-2025/cohorts/2025/course-graph/README.md",
+      "bytes": 3943,
+      "sha256": "5c970aa39411f1b1f7c7cefc637dd8a01d586926e5822691fc10aad59546a27b"
+    },
+    {
+      "path": "cohorts-2023-2025/cohorts/2025/course-graph/edges.csv",
+      "bytes": 2317610,
+      "sha256": "5793a7ac1afcda03f92b02bb3c09a499c1e0f28ee8c0bc102dffcafbcc43fbbb"
+    },
+    {
+      "path": "cohorts-2023-2025/cohorts/2025/course-graph/graph.json",
+      "bytes": 3609045,
+      "sha256": "7286c1055eb8a75dd69fa56f507f025086ab24f9bc7639ba899098751870a173"
+    },
+    {
+      "path": "cohorts-2023-2025/cohorts/2025/course-graph/index.html",
+      "bytes": 2913107,
+      "sha256": "ac4201ab4910e10eec515a5ba806c85b0c4edf3f50f03510878085f141f6024a"
+    },
+    {
+      "path": "cohorts-2023-2025/cohorts/2025/course-graph/nodes.csv",
+      "bytes": 318965,
+      "sha256": "2c0952cb2f5b08efbbaa4cf5abc9f7e549404877d639ffaf7d6da72059f20e8d"
+    },
+    {
+      "path": "cohorts-2023-2025/cohorts/2025/data/course-names.txt",
+      "bytes": 9556,
+      "sha256": "6ce42ffecdf48bb1b3c70c31acddb8fefb3396a80049ca73cc438ab3560fde28"
+    },
+    {
+      "path": "cohorts-2023-2025/cohorts/2025/data/prerequisite-audit.json",
+      "bytes": 68461,
+      "sha256": "b49385c898fab72c70315565390f876cc7e0bb714fd982849979b6209774648e"
+    },
+    {
+      "path": "cohorts-2023-2025/cohorts/2025/data/program-course-index.csv",
+      "bytes": 939381,
+      "sha256": "3f6b8a88174b55adc2778dda701515afc54105bd572b8c9ce6d334015252b0a5"
+    },
+    {
+      "path": "cohorts-2023-2025/cohorts/2025/data/program-course-index.json",
+      "bytes": 2037570,
+      "sha256": "d6d43feb7c3b8c5dd08c7b14e8bf7c380336db177acb2e6cd2fc65c58578a8b4"
+    },
+    {
+      "path": "cohorts-2023-2025/cohorts/2025/data/program-modules.csv",
+      "bytes": 172444,
+      "sha256": "c2b25a57721608ac3fb7767ac6a474ca71567338b55734ff65a608d2a76bdec2"
+    },
+    {
+      "path": "cohorts-2023-2025/cohorts/2025/data/programs.json",
+      "bytes": 9388,
+      "sha256": "6ba9c4be99b297bfcb2b99727da7a403723479959b2d7f785c54baa9ee33f32b"
+    },
+    {
+      "path": "cohorts-2023-2025/cohorts/2025/official/README.md",
+      "bytes": 6330,
+      "sha256": "372f38ec82c7ed9264e435fec007ef2f7cc7339f2670bdeb7aa3da418ef7ebea"
+    },
+    {
+      "path": "cohorts-2023-2025/cohorts/2025/official/coverage.json",
+      "bytes": 632,
+      "sha256": "487faa437dd8ff46bdf26da4648b90202a20a923c5f44a26f9e667126df73d14"
+    },
+    {
+      "path": "cohorts-2023-2025/cohorts/2025/official/metadata/plan-96712.json",
+      "bytes": 2580,
+      "sha256": "acb23f5e75911ae43cca9f27814257cd8e451698a910ec957107d37aa13f657c"
+    },
+    {
+      "path": "cohorts-2023-2025/cohorts/2025/official/metadata/plan-96786.json",
+      "bytes": 2749,
+      "sha256": "7b735b2757fd4740983b16a682c7dbf1120b5a4d97076a309b5d12128a5c64ab"
+    },
+    {
+      "path": "cohorts-2023-2025/cohorts/2025/official/metadata/plan-96808.json",
+      "bytes": 2586,
+      "sha256": "9f6e9b169199a8d02e7fd55a99aef986a78f0051e18e9afa444855d7e812c42f"
+    },
+    {
+      "path": "cohorts-2023-2025/cohorts/2025/official/metadata/plan-96911.json",
+      "bytes": 2751,
+      "sha256": "4800d4f2445b8e730c4d725d22cf6f54e3d51399bfe4524e293776c33ca05584"
+    },
+    {
+      "path": "cohorts-2023-2025/cohorts/2025/official/metadata/plan-96921.json",
+      "bytes": 2628,
+      "sha256": "27c496d411d07c1026da5f892057ef34000c8969c5426bffc8a5c329a16e823d"
+    },
+    {
+      "path": "cohorts-2023-2025/cohorts/2025/official/metadata/plan-96924.json",
+      "bytes": 2585,
+      "sha256": "c5affe5f1947029820ffdaf031bda4a4f9b2444c23610b7d3b94a5fbc50ac13c"
+    },
+    {
+      "path": "cohorts-2023-2025/cohorts/2025/official/metadata/plan-96926.json",
+      "bytes": 2750,
+      "sha256": "da4a2b09ad610970103d2f7348062d1fdba55b1c48053e101e0efcf0b93da51a"
+    },
+    {
+      "path": "cohorts-2023-2025/cohorts/2025/official/metadata/plan-96928.json",
+      "bytes": 2714,
+      "sha256": "ae55fd6eaded54d1528b3ac2dd3aadd98d8a05a5e11ed7d2c42a9c0ee521236a"
+    },
+    {
+      "path": "cohorts-2023-2025/cohorts/2025/official/metadata/plan-96973.json",
+      "bytes": 2585,
+      "sha256": "746de2714b207bd8f8c195b0b66cfa1ad8a02654b309d9b64ca912c192f1decb"
+    },
+    {
+      "path": "cohorts-2023-2025/cohorts/2025/official/metadata/plan-96976.json",
+      "bytes": 2750,
+      "sha256": "dcb981ad5e8eb0314cb9ae2324a24409d0ada2b524eee5f39279e98e6c6ce217"
+    },
+    {
+      "path": "cohorts-2023-2025/cohorts/2025/official/metadata/plan-96983.json",
+      "bytes": 2714,
+      "sha256": "3e52caa8d8f53c2b4d8088ac492f4c232d23ae2f2e8536c350f7eb5315fc5ae6"
+    },
+    {
+      "path": "cohorts-2023-2025/cohorts/2025/official/metadata/plan-96987.json",
+      "bytes": 2586,
+      "sha256": "18c596bbe76547fbf744c15bb895b1cc4063aa104c5ef590fb5fc7cb6587e0e9"
+    },
+    {
+      "path": "cohorts-2023-2025/cohorts/2025/official/metadata/plan-96989.json",
+      "bytes": 2713,
+      "sha256": "a2b64d8dad17b5ad503b174ed5c5da3a28e60388a130e91c965e6ea102716d73"
+    },
+    {
+      "path": "cohorts-2023-2025/cohorts/2025/official/metadata/plan-96992.json",
+      "bytes": 2608,
+      "sha256": "50644d205ddf852c342de942f5ea4e2c07d2e1295082b88fbde6d6bf1bbf678d"
+    },
+    {
+      "path": "cohorts-2023-2025/cohorts/2025/official/metadata/plan-96995.json",
+      "bytes": 2761,
+      "sha256": "508fb85b225098f0e371f8ca2ad79decc8505584f17ce5ecf2671f64fdec0cd3"
+    },
+    {
+      "path": "cohorts-2023-2025/cohorts/2025/official/metadata/plan-96996.json",
+      "bytes": 2584,
+      "sha256": "0ce208a7208f831495eb83b0c291f3e2f96f651e78cef3abb80cb28d378a35d6"
+    },
+    {
+      "path": "cohorts-2023-2025/cohorts/2025/official/metadata/plan-96997.json",
+      "bytes": 2595,
+      "sha256": "03d2a8f803ef9352355fb4b57ee625e573646c6f02c94e0ec7b9c6cbc32b8c14"
+    },
+    {
+      "path": "cohorts-2023-2025/cohorts/2025/official/metadata/plan-96999.json",
+      "bytes": 2450,
+      "sha256": "24631c841b22fbd41d233603f758c1e2fd8d757223913a007a293ba6de4e44dd"
+    },
+    {
+      "path": "cohorts-2023-2025/cohorts/2025/official/metadata/plan-99306.json",
+      "bytes": 2638,
+      "sha256": "b2562e7a6b06a7153a8ae03d1fe2dde2bf37b817b7739770f4118c2f3f4400d4"
+    },
+    {
+      "path": "cohorts-2023-2025/cohorts/2025/official/metadata/plan-99655.json",
+      "bytes": 2639,
+      "sha256": "4f923f84af8204325bf570361f9ba413b5e76943e7a4d3ff1393bc823cbb765e"
+    },
+    {
+      "path": "cohorts-2023-2025/cohorts/2025/official/metadata/plan-99830.json",
+      "bytes": 2627,
+      "sha256": "5da455ac6b2230b10f07086a6e6632ed71d0a19892d7ae6a2cfc56e0d1d1306f"
+    },
+    {
+      "path": "cohorts-2023-2025/cohorts/2025/official/metadata/plan-99832.json",
+      "bytes": 2628,
+      "sha256": "91e44a3a4fc2006cb0c80b4c21f99de7dbfa21a2f3d0edfc44038805777df8e0"
+    },
+    {
+      "path": "cohorts-2023-2025/cohorts/2025/official/metadata/plan-99839.json",
+      "bytes": 2628,
+      "sha256": "c0d2b238a36142f73973821a0c580de8e330057a5332c8ea7742c9ead94266c9"
+    },
+    {
+      "path": "cohorts-2023-2025/cohorts/2025/official/programmes.json",
+      "bytes": 63809,
+      "sha256": "d97a94013eba749af0783174285b02245fa7053130b6e8f6c53d534fbc8e663c"
+    },
+    {
+      "path": "cohorts-2023-2025/cohorts/2025/official/raw/common-candidates.json",
+      "bytes": 4,
+      "sha256": "a5338d955b09046ec0b16f3a9625b7955c763aae07dc722e474e6078745f932f"
+    },
+    {
+      "path": "cohorts-2023-2025/cohorts/2025/official/raw/department-rows.json",
+      "bytes": 7057,
+      "sha256": "72b046c49b5a5afede0481e307c538de3e8500dece0692d1407e8a6aece86bc3"
+    },
+    {
+      "path": "cohorts-2023-2025/cohorts/2025/official/raw/directory-all.json",
+      "bytes": 161023,
+      "sha256": "9172ebf8c6ea9bbc603ce7b08d9890974a54d97bf6cfec4a9b0bf0710c46a1f0"
+    },
+    {
+      "path": "cohorts-2023-2025/cohorts/2025/official/raw/directory-department-2551.json",
+      "bytes": 9045,
+      "sha256": "c5e937e8cd907edad1c79d2a28c96e0c3281f3e018195ce5ff2d27fb339a0c86"
+    },
+    {
+      "path": "cohorts-2023-2025/cohorts/2025/official/raw/plan-96712.json.gz",
+      "bytes": 73370,
+      "sha256": "41c3d72e7a06668a4a1c083de90fad76b6d52a965eeb92e7ebaa6113b2e9fd43"
+    },
+    {
+      "path": "cohorts-2023-2025/cohorts/2025/official/raw/plan-96786.json.gz",
+      "bytes": 27554,
+      "sha256": "c1767bc3e4fd6473270e69a30f6dd66da2d44894ddfe415add9de31954577285"
+    },
+    {
+      "path": "cohorts-2023-2025/cohorts/2025/official/raw/plan-96808.json.gz",
+      "bytes": 28171,
+      "sha256": "ddb9ec9f4b8751753a49014add2aac1c165e5bbf12bc9f6de3a384bc0c84f360"
+    },
+    {
+      "path": "cohorts-2023-2025/cohorts/2025/official/raw/plan-96911.json.gz",
+      "bytes": 26966,
+      "sha256": "536ee099daf678876ce652af58135d856a88b8597f116fd6e5960db6af992f4d"
+    },
+    {
+      "path": "cohorts-2023-2025/cohorts/2025/official/raw/plan-96921.json.gz",
+      "bytes": 67994,
+      "sha256": "fa37e7c1010a111994f8b473919ad6f5bdc1ae3a17218a92ac015e15d8b21483"
+    },
+    {
+      "path": "cohorts-2023-2025/cohorts/2025/official/raw/plan-96924.json.gz",
+      "bytes": 21130,
+      "sha256": "30c64102727b20d7bed8ff6af141a1c6f2c96ebe09173c128165ba81b2fcebb3"
+    },
+    {
+      "path": "cohorts-2023-2025/cohorts/2025/official/raw/plan-96926.json.gz",
+      "bytes": 24937,
+      "sha256": "73777aed3c8f8c1204430b4ce6792136ed804ce6a1bcd6ba8a7a754ff1cca4f2"
+    },
+    {
+      "path": "cohorts-2023-2025/cohorts/2025/official/raw/plan-96928.json.gz",
+      "bytes": 31921,
+      "sha256": "16b6c3446f45e30cdeb4c2c661afb00dfe0e00d4c8515a4e60e88cf2e799d1f8"
+    },
+    {
+      "path": "cohorts-2023-2025/cohorts/2025/official/raw/plan-96973.json.gz",
+      "bytes": 23256,
+      "sha256": "79733e730ea1fbb172d05c66abec0a8f46231727eb346c2d90e5a7ee5b69dd0f"
+    },
+    {
+      "path": "cohorts-2023-2025/cohorts/2025/official/raw/plan-96976.json.gz",
+      "bytes": 24256,
+      "sha256": "a31fbf14240769797987bde3476fcb4c6eef9323cb82530bd656e943a97f9529"
+    },
+    {
+      "path": "cohorts-2023-2025/cohorts/2025/official/raw/plan-96983.json.gz",
+      "bytes": 33605,
+      "sha256": "fba62d57eb650ef12038a9695bb8225f4e50b7f53b032022545bb5629f7816da"
+    },
+    {
+      "path": "cohorts-2023-2025/cohorts/2025/official/raw/plan-96987.json.gz",
+      "bytes": 22447,
+      "sha256": "ca26feb3aaa72b3165deac99a87c20911477e3d496c09e0c8ef43939859895a4"
+    },
+    {
+      "path": "cohorts-2023-2025/cohorts/2025/official/raw/plan-96989.json.gz",
+      "bytes": 33135,
+      "sha256": "b2533b8586649d5bf872b8334a08dc1868aaebd96371c5acc32aff003b03109c"
+    },
+    {
+      "path": "cohorts-2023-2025/cohorts/2025/official/raw/plan-96992.json.gz",
+      "bytes": 22805,
+      "sha256": "83eb0e137cc9bea4a22beef1fc60959037c5cdb52d82a3f40894d155fde7f1e8"
+    },
+    {
+      "path": "cohorts-2023-2025/cohorts/2025/official/raw/plan-96995.json.gz",
+      "bytes": 33537,
+      "sha256": "d195628b12d4f9dcee8135e54ee5af6cbaef46cbfd6b08f7b10dd973ff08e27e"
+    },
+    {
+      "path": "cohorts-2023-2025/cohorts/2025/official/raw/plan-96996.json.gz",
+      "bytes": 21026,
+      "sha256": "e0048da4d4e9516aee944cc2a32094df5a94e1557c9dd42dfcf102ff415dbedf"
+    },
+    {
+      "path": "cohorts-2023-2025/cohorts/2025/official/raw/plan-96997.json.gz",
+      "bytes": 20433,
+      "sha256": "527ad4779eb7f09e43f4e28466710655d0468a3dcde4c8213d4408e91edf73b2"
+    },
+    {
+      "path": "cohorts-2023-2025/cohorts/2025/official/raw/plan-96999.json.gz",
+      "bytes": 33522,
+      "sha256": "a5042cbb200b0118230a2701253afa2564e9017524e5c4ed33fe91a6dfedc684"
+    },
+    {
+      "path": "cohorts-2023-2025/cohorts/2025/official/raw/plan-99306.json.gz",
+      "bytes": 68017,
+      "sha256": "15d221e7caf7765c811ae424b7eb92c26366807d0d145b4594765c7a4c634f01"
+    },
+    {
+      "path": "cohorts-2023-2025/cohorts/2025/official/raw/plan-99655.json.gz",
+      "bytes": 20402,
+      "sha256": "8c70cde6bf071564501080f2ba9f136edb57db33a19ece1a164b80abc2987295"
+    },
+    {
+      "path": "cohorts-2023-2025/cohorts/2025/official/raw/plan-99830.json.gz",
+      "bytes": 21134,
+      "sha256": "439abac722a4ffef67c95b836a89a91d1e4a417ffe041c7af18635925c58e1e7"
+    },
+    {
+      "path": "cohorts-2023-2025/cohorts/2025/official/raw/plan-99832.json.gz",
+      "bytes": 28136,
+      "sha256": "5c931dfd355151a7118e73cd703c325130b934412cb607af2abfbcec5f01d9ea"
+    },
+    {
+      "path": "cohorts-2023-2025/cohorts/2025/official/raw/plan-99839.json.gz",
+      "bytes": 21003,
+      "sha256": "5679e3d8c2205e06ba66186cc727653562d9d84b513f5382913870796f08e119"
+    },
+    {
+      "path": "cohorts-2023-2025/cohorts/2025/official/source-figures/plan-96712-document_image_rId4.png",
+      "bytes": 2649,
+      "sha256": "079ee6539e29b85d9bccb9016e8147e9319c1fd1aa2a8a6ac0f4e74a915109bc"
+    },
+    {
+      "path": "cohorts-2023-2025/cohorts/2025/official/source-figures/plan-96712-document_image_rId5.jpeg",
+      "bytes": 118584,
+      "sha256": "c993875e819f366f6c974ed6be153e11aa15202c332fb6ef15e11acaac771e58"
+    },
+    {
+      "path": "cohorts-2023-2025/cohorts/2025/official/source-figures/plan-96712-document_image_rId6.png",
+      "bytes": 68944,
+      "sha256": "e2527e80d5eef1fdd2473b1ed74227f4089421e25aa381d525de08f30dc3a661"
+    },
+    {
+      "path": "cohorts-2023-2025/cohorts/2025/official/source-figures/plan-96712-document_image_rId7.png",
+      "bytes": 66458,
+      "sha256": "40a425fa72a93836885565e0b26d77c7883c0306452ce732729f1744bd19fff1"
+    },
+    {
+      "path": "cohorts-2023-2025/cohorts/2025/official/source-figures/plan-96712-document_image_rId8.png",
+      "bytes": 181269,
+      "sha256": "e62472c0dfbaa5687487ade809f96787134e79d0878a49ccbaff0592fedf735a"
+    },
+    {
+      "path": "cohorts-2023-2025/cohorts/2025/official/source-figures/plan-96786-document_image_rId4.png",
+      "bytes": 2649,
+      "sha256": "079ee6539e29b85d9bccb9016e8147e9319c1fd1aa2a8a6ac0f4e74a915109bc"
+    },
+    {
+      "path": "cohorts-2023-2025/cohorts/2025/official/source-figures/plan-96786-document_image_rId5.png",
+      "bytes": 94388,
+      "sha256": "baae982c8b6b9b054d320561fd2f0462f72b039e9fd0f99cf895658a669a9435"
+    },
+    {
+      "path": "cohorts-2023-2025/cohorts/2025/official/source-figures/plan-96786-document_image_rId6.jpeg",
+      "bytes": 95438,
+      "sha256": "b918550fd368ea653470ebb5fe98a1cd928ce4a61c43387e83ac0984f6b0a3bf"
+    },
+    {
+      "path": "cohorts-2023-2025/cohorts/2025/official/source-figures/plan-96786-document_image_rId7.jpeg",
+      "bytes": 103013,
+      "sha256": "9c109f792de41f7b080960e28a214416b1f381fbbff895b30f4536725c8ebee0"
+    },
+    {
+      "path": "cohorts-2023-2025/cohorts/2025/official/source-figures/plan-96786-document_image_rId8.jpeg",
+      "bytes": 218357,
+      "sha256": "27698df33926c90dab59f675c9fa7ec069ebe02295c1e4909b0c5eec9dff45b5"
+    },
+    {
+      "path": "cohorts-2023-2025/cohorts/2025/official/source-figures/plan-96808-document_image_rId4.png",
+      "bytes": 2649,
+      "sha256": "079ee6539e29b85d9bccb9016e8147e9319c1fd1aa2a8a6ac0f4e74a915109bc"
+    },
+    {
+      "path": "cohorts-2023-2025/cohorts/2025/official/source-figures/plan-96808-document_image_rId5.jpeg",
+      "bytes": 88881,
+      "sha256": "427acc1441caba7975c2fc36b29f826a6cd2a2e2b4b2704cbf9b40d2f62354bf"
+    },
+    {
+      "path": "cohorts-2023-2025/cohorts/2025/official/source-figures/plan-96808-document_image_rId6.jpeg",
+      "bytes": 80713,
+      "sha256": "e6db5b4e7534ba531cb238fede35db9bec6b14c6b59de1282852343a60353e3f"
+    },
+    {
+      "path": "cohorts-2023-2025/cohorts/2025/official/source-figures/plan-96808-document_image_rId7.jpeg",
+      "bytes": 59240,
+      "sha256": "50888a514421bb1d6c6a99a39370059d674fa85fcfd1a78336262dd3748eb6b7"
+    },
+    {
+      "path": "cohorts-2023-2025/cohorts/2025/official/source-figures/plan-96808-document_image_rId8.jpeg",
+      "bytes": 38721,
+      "sha256": "e45d08d21bcdeab3cd958cf1acd7167b9c9c4e71b51c3f31ea51fcf20a327498"
+    },
+    {
+      "path": "cohorts-2023-2025/cohorts/2025/official/source-figures/plan-96911-document_image_rId4.png",
+      "bytes": 2649,
+      "sha256": "079ee6539e29b85d9bccb9016e8147e9319c1fd1aa2a8a6ac0f4e74a915109bc"
+    },
+    {
+      "path": "cohorts-2023-2025/cohorts/2025/official/source-figures/plan-96911-document_image_rId5.jpeg",
+      "bytes": 243905,
+      "sha256": "631c57b1f16bda42b6e12975beed8dd3042cdfd10f55b0b11efab758d120d214"
+    },
+    {
+      "path": "cohorts-2023-2025/cohorts/2025/official/source-figures/plan-96911-document_image_rId6.jpeg",
+      "bytes": 86205,
+      "sha256": "2e0cd82c718fc7b0b156156dd870409e5804697533cafdb66e43ead9c82d241a"
+    },
+    {
+      "path": "cohorts-2023-2025/cohorts/2025/official/source-figures/plan-96911-document_image_rId7.jpeg",
+      "bytes": 72398,
+      "sha256": "a0871d171aa695d82f72c9a86a51c8a36f417cbdaacfe98b5bfda7d800d02ad0"
+    },
+    {
+      "path": "cohorts-2023-2025/cohorts/2025/official/source-figures/plan-96911-document_image_rId8.jpeg",
+      "bytes": 167503,
+      "sha256": "a1b29b74bbde7166ee2e84c10a05810dedcdad5ccb3b8cdf4664eed21c651d07"
+    },
+    {
+      "path": "cohorts-2023-2025/cohorts/2025/official/source-figures/plan-96921-document_image_rId4.png",
+      "bytes": 2649,
+      "sha256": "079ee6539e29b85d9bccb9016e8147e9319c1fd1aa2a8a6ac0f4e74a915109bc"
+    },
+    {
+      "path": "cohorts-2023-2025/cohorts/2025/official/source-figures/plan-96921-document_image_rId5.jpeg",
+      "bytes": 118584,
+      "sha256": "c993875e819f366f6c974ed6be153e11aa15202c332fb6ef15e11acaac771e58"
+    },
+    {
+      "path": "cohorts-2023-2025/cohorts/2025/official/source-figures/plan-96921-document_image_rId6.jpeg",
+      "bytes": 89188,
+      "sha256": "79844b2f928ded4d28c46dfdeff94204ae11db2bbdbcfd77eb303744522d10b4"
+    },
+    {
+      "path": "cohorts-2023-2025/cohorts/2025/official/source-figures/plan-96921-document_image_rId7.jpeg",
+      "bytes": 115707,
+      "sha256": "cebda5aa22ae48c25827f473e3867df0bbbc27e5b9873565c76a8e4a119a9b0d"
+    },
+    {
+      "path": "cohorts-2023-2025/cohorts/2025/official/source-figures/plan-96921-document_image_rId8.jpeg",
+      "bytes": 169471,
+      "sha256": "e308ea5a679045942631a2ad22ef0a09927ed31e5a5accd634b65e5e33146ca4"
+    },
+    {
+      "path": "cohorts-2023-2025/cohorts/2025/official/source-figures/plan-96924-document_image_rId4.png",
+      "bytes": 2649,
+      "sha256": "079ee6539e29b85d9bccb9016e8147e9319c1fd1aa2a8a6ac0f4e74a915109bc"
+    },
+    {
+      "path": "cohorts-2023-2025/cohorts/2025/official/source-figures/plan-96924-document_image_rId5.jpeg",
+      "bytes": 112999,
+      "sha256": "50b11a14f8716087357abe651d6a9dda7ae270651639ecfa7a7be1aed884a598"
+    },
+    {
+      "path": "cohorts-2023-2025/cohorts/2025/official/source-figures/plan-96924-document_image_rId6.jpeg",
+      "bytes": 110942,
+      "sha256": "f66fea646db92552d9ec5c3bd3d9051583b503a4f54ab428b2ecf1da169eac7b"
+    },
+    {
+      "path": "cohorts-2023-2025/cohorts/2025/official/source-figures/plan-96924-document_image_rId7.jpeg",
+      "bytes": 77297,
+      "sha256": "366c52d4f854e5a9577344b486076d0aeda2bb25a2571a246c96a8828aea7ad2"
+    },
+    {
+      "path": "cohorts-2023-2025/cohorts/2025/official/source-figures/plan-96924-document_image_rId8.jpeg",
+      "bytes": 46879,
+      "sha256": "4705e05383b1512a453b69194767b1f432316fdf1c946bbd83c9666ae98099e2"
+    },
+    {
+      "path": "cohorts-2023-2025/cohorts/2025/official/source-figures/plan-96926-document_image_rId4.png",
+      "bytes": 2649,
+      "sha256": "079ee6539e29b85d9bccb9016e8147e9319c1fd1aa2a8a6ac0f4e74a915109bc"
+    },
+    {
+      "path": "cohorts-2023-2025/cohorts/2025/official/source-figures/plan-96926-document_image_rId5.jpeg",
+      "bytes": 107928,
+      "sha256": "d8b7eb502a3d0e2a7a711983a0ff3489d6b191997bff3257ff93eadfd6f1b2bb"
+    },
+    {
+      "path": "cohorts-2023-2025/cohorts/2025/official/source-figures/plan-96926-document_image_rId6.jpeg",
+      "bytes": 86775,
+      "sha256": "d7ba2b3376913c2d914aa67174910311d66f1acf99bbd904e615010365c2a637"
+    },
+    {
+      "path": "cohorts-2023-2025/cohorts/2025/official/source-figures/plan-96926-document_image_rId7.jpeg",
+      "bytes": 76155,
+      "sha256": "94b117e11d14cfe891f92b4553634f6d3963b14f0cd6e2aff0061043e0b3d02d"
+    },
+    {
+      "path": "cohorts-2023-2025/cohorts/2025/official/source-figures/plan-96926-document_image_rId8.jpeg",
+      "bytes": 58564,
+      "sha256": "16e48fba48be39501751b84893fc3f280170f6c3972bc92ee56c80afb62b862f"
+    },
+    {
+      "path": "cohorts-2023-2025/cohorts/2025/official/source-figures/plan-96928-document_image_rId4.png",
+      "bytes": 2649,
+      "sha256": "079ee6539e29b85d9bccb9016e8147e9319c1fd1aa2a8a6ac0f4e74a915109bc"
+    },
+    {
+      "path": "cohorts-2023-2025/cohorts/2025/official/source-figures/plan-96928-document_image_rId5.jpeg",
+      "bytes": 103012,
+      "sha256": "5a207c8c28118c9a6ca786f4d3c1ee6d406f9b001f64636c444755ffe3d38e4f"
+    },
+    {
+      "path": "cohorts-2023-2025/cohorts/2025/official/source-figures/plan-96928-document_image_rId6.jpeg",
+      "bytes": 89234,
+      "sha256": "c23d222de7b179017678f49f5cf62d430e46d55580b83c1324a2da6fc87dc75d"
+    },
+    {
+      "path": "cohorts-2023-2025/cohorts/2025/official/source-figures/plan-96928-document_image_rId7.jpeg",
+      "bytes": 67511,
+      "sha256": "7522d389391dc394d80716dd7f784c0f43dfa3875c9543e7e5cdcae3a31120e6"
+    },
+    {
+      "path": "cohorts-2023-2025/cohorts/2025/official/source-figures/plan-96928-document_image_rId8.jpeg",
+      "bytes": 42188,
+      "sha256": "7537ad193eb341c2bb64df843515994e5e8ebb8c260873dacc21ce194a8875a3"
+    },
+    {
+      "path": "cohorts-2023-2025/cohorts/2025/official/source-figures/plan-96973-document_image_rId4.png",
+      "bytes": 2649,
+      "sha256": "079ee6539e29b85d9bccb9016e8147e9319c1fd1aa2a8a6ac0f4e74a915109bc"
+    },
+    {
+      "path": "cohorts-2023-2025/cohorts/2025/official/source-figures/plan-96973-document_image_rId5.jpeg",
+      "bytes": 120221,
+      "sha256": "bb603efc1f5e698f531424a62270bd8d98f4f7c0304e924f7bc37b8b582f2133"
+    },
+    {
+      "path": "cohorts-2023-2025/cohorts/2025/official/source-figures/plan-96973-document_image_rId6.jpeg",
+      "bytes": 88317,
+      "sha256": "c4e4934c89d483c428b7973817adf6abc5d471dfd7e82173a1044ef53147b3a4"
+    },
+    {
+      "path": "cohorts-2023-2025/cohorts/2025/official/source-figures/plan-96973-document_image_rId7.jpeg",
+      "bytes": 77297,
+      "sha256": "366c52d4f854e5a9577344b486076d0aeda2bb25a2571a246c96a8828aea7ad2"
+    },
+    {
+      "path": "cohorts-2023-2025/cohorts/2025/official/source-figures/plan-96973-document_image_rId8.jpeg",
+      "bytes": 57135,
+      "sha256": "e07146a8d16c10bb9bdd4b518d8c6046744e956cd17119b9933f8e37d939f93d"
+    },
+    {
+      "path": "cohorts-2023-2025/cohorts/2025/official/source-figures/plan-96976-document_image_rId4.png",
+      "bytes": 2649,
+      "sha256": "079ee6539e29b85d9bccb9016e8147e9319c1fd1aa2a8a6ac0f4e74a915109bc"
+    },
+    {
+      "path": "cohorts-2023-2025/cohorts/2025/official/source-figures/plan-96976-document_image_rId5.jpeg",
+      "bytes": 121518,
+      "sha256": "54229be0568c0122a5d5d53aaf8d40fdedffa75d86a445e5d77910fed7426728"
+    },
+    {
+      "path": "cohorts-2023-2025/cohorts/2025/official/source-figures/plan-96976-document_image_rId6.jpeg",
+      "bytes": 101576,
+      "sha256": "99f7444581d9fedfbc3b8397ea356eeee5887908241e5ca909d4fce5c26739ea"
+    },
+    {
+      "path": "cohorts-2023-2025/cohorts/2025/official/source-figures/plan-96976-document_image_rId7.jpeg",
+      "bytes": 81428,
+      "sha256": "b191705875a265c8f7b996a237729ae2556a38fb43a14614341eee6aca5b2b28"
+    },
+    {
+      "path": "cohorts-2023-2025/cohorts/2025/official/source-figures/plan-96976-document_image_rId8.jpeg",
+      "bytes": 74454,
+      "sha256": "9ca01ee59b45ebfd3e6779d359d41c76cb4307cb6230a6de9389200422380c41"
+    },
+    {
+      "path": "cohorts-2023-2025/cohorts/2025/official/source-figures/plan-96983-document_image_rId4.png",
+      "bytes": 2649,
+      "sha256": "079ee6539e29b85d9bccb9016e8147e9319c1fd1aa2a8a6ac0f4e74a915109bc"
+    },
+    {
+      "path": "cohorts-2023-2025/cohorts/2025/official/source-figures/plan-96983-document_image_rId5.jpeg",
+      "bytes": 98248,
+      "sha256": "511a39928d3d1fea8fc44ec2fe34d0a6f069b563d515917ded9bc2719fc970b9"
+    },
+    {
+      "path": "cohorts-2023-2025/cohorts/2025/official/source-figures/plan-96983-document_image_rId6.jpeg",
+      "bytes": 119071,
+      "sha256": "2d4868662f1dc4435bec8f059514fb6d873409d1b3e20383fa0ea9a022b2045c"
+    },
+    {
+      "path": "cohorts-2023-2025/cohorts/2025/official/source-figures/plan-96983-document_image_rId7.jpeg",
+      "bytes": 67511,
+      "sha256": "7522d389391dc394d80716dd7f784c0f43dfa3875c9543e7e5cdcae3a31120e6"
+    },
+    {
+      "path": "cohorts-2023-2025/cohorts/2025/official/source-figures/plan-96983-document_image_rId8.jpeg",
+      "bytes": 62913,
+      "sha256": "ee9879aa8766f48c1122c336ff867ddf7e65aae20031ed036553d6a658873ecf"
+    },
+    {
+      "path": "cohorts-2023-2025/cohorts/2025/official/source-figures/plan-96987-document_image_rId4.png",
+      "bytes": 2649,
+      "sha256": "079ee6539e29b85d9bccb9016e8147e9319c1fd1aa2a8a6ac0f4e74a915109bc"
+    },
+    {
+      "path": "cohorts-2023-2025/cohorts/2025/official/source-figures/plan-96987-document_image_rId5.jpeg",
+      "bytes": 96789,
+      "sha256": "ad3a8ded061703696519a023c19d1e989298413fd817823f8d3494b72454032b"
+    },
+    {
+      "path": "cohorts-2023-2025/cohorts/2025/official/source-figures/plan-96987-document_image_rId6.jpeg",
+      "bytes": 81260,
+      "sha256": "ec298dee1c8f7eeaac5f92a6dc9906f90af6f42aafefdee05b797666983da8e9"
+    },
+    {
+      "path": "cohorts-2023-2025/cohorts/2025/official/source-figures/plan-96987-document_image_rId7.jpeg",
+      "bytes": 77297,
+      "sha256": "366c52d4f854e5a9577344b486076d0aeda2bb25a2571a246c96a8828aea7ad2"
+    },
+    {
+      "path": "cohorts-2023-2025/cohorts/2025/official/source-figures/plan-96987-document_image_rId8.jpeg",
+      "bytes": 56162,
+      "sha256": "30eeea88ca8d6c3e69386d0dad95edd8ef0a484f81c4a7a5e6bc06817e463eb3"
+    },
+    {
+      "path": "cohorts-2023-2025/cohorts/2025/official/source-figures/plan-96989-document_image_rId4.png",
+      "bytes": 2649,
+      "sha256": "079ee6539e29b85d9bccb9016e8147e9319c1fd1aa2a8a6ac0f4e74a915109bc"
+    },
+    {
+      "path": "cohorts-2023-2025/cohorts/2025/official/source-figures/plan-96989-document_image_rId5.jpeg",
+      "bytes": 100976,
+      "sha256": "87ef0e3de4dbe538e2bd10d77632a8f36ab54d6a83ccd13b9783c5335753e5b0"
+    },
+    {
+      "path": "cohorts-2023-2025/cohorts/2025/official/source-figures/plan-96989-document_image_rId6.png",
+      "bytes": 15892,
+      "sha256": "605b3aac57895cd503f1672b1631e1d64b32eac600c9add272fe93edf7e670fb"
+    },
+    {
+      "path": "cohorts-2023-2025/cohorts/2025/official/source-figures/plan-96989-document_image_rId7.jpeg",
+      "bytes": 67511,
+      "sha256": "7522d389391dc394d80716dd7f784c0f43dfa3875c9543e7e5cdcae3a31120e6"
+    },
+    {
+      "path": "cohorts-2023-2025/cohorts/2025/official/source-figures/plan-96989-document_image_rId8.jpeg",
+      "bytes": 68271,
+      "sha256": "a95c56130a0774228643d0af73a345838b9879df90be80e758a9ffb458e62e19"
+    },
+    {
+      "path": "cohorts-2023-2025/cohorts/2025/official/source-figures/plan-96992-document_image_rId4.png",
+      "bytes": 2649,
+      "sha256": "079ee6539e29b85d9bccb9016e8147e9319c1fd1aa2a8a6ac0f4e74a915109bc"
+    },
+    {
+      "path": "cohorts-2023-2025/cohorts/2025/official/source-figures/plan-96992-document_image_rId5.jpeg",
+      "bytes": 100954,
+      "sha256": "68970e29f251b483a35e52565c1f8818ade341fcd16eccea132fd7c8fbe314df"
+    },
+    {
+      "path": "cohorts-2023-2025/cohorts/2025/official/source-figures/plan-96992-document_image_rId6.png",
+      "bytes": 15136,
+      "sha256": "fdc4309a92a2a0f1ef374ab76de9bc41987de8278d794a6ae0f24dbeea491b83"
+    },
+    {
+      "path": "cohorts-2023-2025/cohorts/2025/official/source-figures/plan-96992-document_image_rId7.jpeg",
+      "bytes": 77297,
+      "sha256": "366c52d4f854e5a9577344b486076d0aeda2bb25a2571a246c96a8828aea7ad2"
+    },
+    {
+      "path": "cohorts-2023-2025/cohorts/2025/official/source-figures/plan-96992-document_image_rId8.jpeg",
+      "bytes": 58841,
+      "sha256": "a9112ae0a01bf5d5f6e527c86368a1a2780b82393b2ebbe8c9a3a95609753106"
+    },
+    {
+      "path": "cohorts-2023-2025/cohorts/2025/official/source-figures/plan-96995-document_image_rId4.png",
+      "bytes": 2649,
+      "sha256": "079ee6539e29b85d9bccb9016e8147e9319c1fd1aa2a8a6ac0f4e74a915109bc"
+    },
+    {
+      "path": "cohorts-2023-2025/cohorts/2025/official/source-figures/plan-96995-document_image_rId5.jpeg",
+      "bytes": 220703,
+      "sha256": "935722fe97ecae347c18ddc52b70e308e94b2682b03fee0808a3ba7293f7cfc1"
+    },
+    {
+      "path": "cohorts-2023-2025/cohorts/2025/official/source-figures/plan-96995-document_image_rId6.png",
+      "bytes": 111791,
+      "sha256": "58370592cb606aa6fde41e415acd491811afd4571fbc9fd28d41fdc76eabee40"
+    },
+    {
+      "path": "cohorts-2023-2025/cohorts/2025/official/source-figures/plan-96995-document_image_rId7.jpeg",
+      "bytes": 67511,
+      "sha256": "7522d389391dc394d80716dd7f784c0f43dfa3875c9543e7e5cdcae3a31120e6"
+    },
+    {
+      "path": "cohorts-2023-2025/cohorts/2025/official/source-figures/plan-96995-document_image_rId8.jpeg",
+      "bytes": 85572,
+      "sha256": "3e838f908864f509924cdc0ce7e62d9432cab7f7ec31ff2cbd4c4a64e617d279"
+    },
+    {
+      "path": "cohorts-2023-2025/cohorts/2025/official/source-figures/plan-96996-document_image_rId4.png",
+      "bytes": 2649,
+      "sha256": "079ee6539e29b85d9bccb9016e8147e9319c1fd1aa2a8a6ac0f4e74a915109bc"
+    },
+    {
+      "path": "cohorts-2023-2025/cohorts/2025/official/source-figures/plan-96996-document_image_rId5.jpeg",
+      "bytes": 254135,
+      "sha256": "6a2478916bdcc2241856d41d0645a5f7ff8f963a982fcc188fa35394c42d3333"
+    },
+    {
+      "path": "cohorts-2023-2025/cohorts/2025/official/source-figures/plan-96996-document_image_rId6.png",
+      "bytes": 111213,
+      "sha256": "e3327f6ca456dcfdc3658d55294f7f5748417b2ae8463f98ee318661e6801582"
+    },
+    {
+      "path": "cohorts-2023-2025/cohorts/2025/official/source-figures/plan-96996-document_image_rId7.jpeg",
+      "bytes": 77297,
+      "sha256": "366c52d4f854e5a9577344b486076d0aeda2bb25a2571a246c96a8828aea7ad2"
+    },
+    {
+      "path": "cohorts-2023-2025/cohorts/2025/official/source-figures/plan-96996-document_image_rId8.jpeg",
+      "bytes": 116701,
+      "sha256": "a3dabb0f5cc9ffcb10ab7e06a267d1384d1fa504016532b49495817ce8ef7b92"
+    },
+    {
+      "path": "cohorts-2023-2025/cohorts/2025/official/source-figures/plan-96997-document_image_rId4.png",
+      "bytes": 2649,
+      "sha256": "079ee6539e29b85d9bccb9016e8147e9319c1fd1aa2a8a6ac0f4e74a915109bc"
+    },
+    {
+      "path": "cohorts-2023-2025/cohorts/2025/official/source-figures/plan-96997-document_image_rId5.jpeg",
+      "bytes": 260585,
+      "sha256": "46d10008a7b8f133607f2af3f8c80e280afc7c20f4fbfc9c7bea5915da8057dc"
+    },
+    {
+      "path": "cohorts-2023-2025/cohorts/2025/official/source-figures/plan-96997-document_image_rId6.png",
+      "bytes": 130615,
+      "sha256": "e5b44782b867c4f5655754e2b1152aa41c64fb47cefc0fab54ac7f6e0ef9d49b"
+    },
+    {
+      "path": "cohorts-2023-2025/cohorts/2025/official/source-figures/plan-96997-document_image_rId7.jpeg",
+      "bytes": 77297,
+      "sha256": "366c52d4f854e5a9577344b486076d0aeda2bb25a2571a246c96a8828aea7ad2"
+    },
+    {
+      "path": "cohorts-2023-2025/cohorts/2025/official/source-figures/plan-96997-document_image_rId8.jpeg",
+      "bytes": 121037,
+      "sha256": "01f6a18844196b5881c95b08a6f6fa5a0d60c14253a585906ed5d1e96d6c220c"
+    },
+    {
+      "path": "cohorts-2023-2025/cohorts/2025/official/source-figures/plan-96999-document_image_rId4.png",
+      "bytes": 2649,
+      "sha256": "079ee6539e29b85d9bccb9016e8147e9319c1fd1aa2a8a6ac0f4e74a915109bc"
+    },
+    {
+      "path": "cohorts-2023-2025/cohorts/2025/official/source-figures/plan-96999-document_image_rId5.png",
+      "bytes": 110129,
+      "sha256": "06992ca064780e3a4ba199e8a58b8ca5de85f80871206b4320e3cad8070f871b"
+    },
+    {
+      "path": "cohorts-2023-2025/cohorts/2025/official/source-figures/plan-96999-document_image_rId6.jpeg",
+      "bytes": 134165,
+      "sha256": "4a689f033405d69d982e99ea6587e70fc0d06c97a84a51cdb3257c69dc4995d5"
+    },
+    {
+      "path": "cohorts-2023-2025/cohorts/2025/official/source-figures/plan-96999-document_image_rId7.jpeg",
+      "bytes": 249330,
+      "sha256": "6b53fd4a051c4c5b48ae947ecc548281a92e1b9c01001125543b44ebbfbd3b20"
+    },
+    {
+      "path": "cohorts-2023-2025/cohorts/2025/official/source-figures/plan-99306-document_image_rId4.png",
+      "bytes": 2649,
+      "sha256": "079ee6539e29b85d9bccb9016e8147e9319c1fd1aa2a8a6ac0f4e74a915109bc"
+    },
+    {
+      "path": "cohorts-2023-2025/cohorts/2025/official/source-figures/plan-99306-document_image_rId5.jpeg",
+      "bytes": 118584,
+      "sha256": "c993875e819f366f6c974ed6be153e11aa15202c332fb6ef15e11acaac771e58"
+    },
+    {
+      "path": "cohorts-2023-2025/cohorts/2025/official/source-figures/plan-99306-document_image_rId6.jpeg",
+      "bytes": 40007,
+      "sha256": "416025a37b83c5005ef1f8905c2a8892727b7da8db94716cb5a5aec8d84efe17"
+    },
+    {
+      "path": "cohorts-2023-2025/cohorts/2025/official/source-figures/plan-99306-document_image_rId7.jpeg",
+      "bytes": 69778,
+      "sha256": "18cb0ba58cb16e1415ac67ab27e2ae3068fce766cfa9a2bd7964cd7fd2cf7d12"
+    },
+    {
+      "path": "cohorts-2023-2025/cohorts/2025/official/source-figures/plan-99306-document_image_rId8.png",
+      "bytes": 181269,
+      "sha256": "e62472c0dfbaa5687487ade809f96787134e79d0878a49ccbaff0592fedf735a"
+    },
+    {
+      "path": "cohorts-2023-2025/cohorts/2025/official/source-figures/plan-99655-document_image_rId4.png",
+      "bytes": 2649,
+      "sha256": "079ee6539e29b85d9bccb9016e8147e9319c1fd1aa2a8a6ac0f4e74a915109bc"
+    },
+    {
+      "path": "cohorts-2023-2025/cohorts/2025/official/source-figures/plan-99655-document_image_rId5.jpeg",
+      "bytes": 260585,
+      "sha256": "46d10008a7b8f133607f2af3f8c80e280afc7c20f4fbfc9c7bea5915da8057dc"
+    },
+    {
+      "path": "cohorts-2023-2025/cohorts/2025/official/source-figures/plan-99655-document_image_rId6.jpeg",
+      "bytes": 46006,
+      "sha256": "81d4351f8e50dddcc47e0157e613f4d78e70ac3d4159637e53db03aeedee6d83"
+    },
+    {
+      "path": "cohorts-2023-2025/cohorts/2025/official/source-figures/plan-99655-document_image_rId7.jpeg",
+      "bytes": 76219,
+      "sha256": "c4892031b06b3fe6c65eef428039540e79fdf58696500c86e7939a981eaee42f"
+    },
+    {
+      "path": "cohorts-2023-2025/cohorts/2025/official/source-figures/plan-99655-document_image_rId8.jpeg",
+      "bytes": 121037,
+      "sha256": "01f6a18844196b5881c95b08a6f6fa5a0d60c14253a585906ed5d1e96d6c220c"
+    },
+    {
+      "path": "cohorts-2023-2025/cohorts/2025/official/source-figures/plan-99830-document_image_rId4.png",
+      "bytes": 2649,
+      "sha256": "079ee6539e29b85d9bccb9016e8147e9319c1fd1aa2a8a6ac0f4e74a915109bc"
+    },
+    {
+      "path": "cohorts-2023-2025/cohorts/2025/official/source-figures/plan-99830-document_image_rId5.jpeg",
+      "bytes": 112999,
+      "sha256": "50b11a14f8716087357abe651d6a9dda7ae270651639ecfa7a7be1aed884a598"
+    },
+    {
+      "path": "cohorts-2023-2025/cohorts/2025/official/source-figures/plan-99830-document_image_rId6.jpeg",
+      "bytes": 46684,
+      "sha256": "8e2262c39ebe459de40a6bb8d85faee82c26164699cdfdbf6e86d372d6c4f55d"
+    },
+    {
+      "path": "cohorts-2023-2025/cohorts/2025/official/source-figures/plan-99830-document_image_rId7.jpeg",
+      "bytes": 66440,
+      "sha256": "82b553796c48bfc43dd167c67eb972f45822a3a4c6e875650b1bdc30ed5004dd"
+    },
+    {
+      "path": "cohorts-2023-2025/cohorts/2025/official/source-figures/plan-99830-document_image_rId8.jpeg",
+      "bytes": 46879,
+      "sha256": "4705e05383b1512a453b69194767b1f432316fdf1c946bbd83c9666ae98099e2"
+    },
+    {
+      "path": "cohorts-2023-2025/cohorts/2025/official/source-figures/plan-99832-document_image_rId4.png",
+      "bytes": 2649,
+      "sha256": "079ee6539e29b85d9bccb9016e8147e9319c1fd1aa2a8a6ac0f4e74a915109bc"
+    },
+    {
+      "path": "cohorts-2023-2025/cohorts/2025/official/source-figures/plan-99832-document_image_rId5.jpeg",
+      "bytes": 88881,
+      "sha256": "427acc1441caba7975c2fc36b29f826a6cd2a2e2b4b2704cbf9b40d2f62354bf"
+    },
+    {
+      "path": "cohorts-2023-2025/cohorts/2025/official/source-figures/plan-99832-document_image_rId6.jpeg",
+      "bytes": 34612,
+      "sha256": "ce2ab9b1338891b2f89ca3aefa39e47d58104b4dc6c4a1a097d077e9048543c5"
+    },
+    {
+      "path": "cohorts-2023-2025/cohorts/2025/official/source-figures/plan-99832-document_image_rId7.jpeg",
+      "bytes": 61710,
+      "sha256": "cc3ea046940ac52e9d29902687ecdef878f16b35af2b4ed7e595a6840d0ba6e7"
+    },
+    {
+      "path": "cohorts-2023-2025/cohorts/2025/official/source-figures/plan-99832-document_image_rId8.jpeg",
+      "bytes": 38721,
+      "sha256": "e45d08d21bcdeab3cd958cf1acd7167b9c9c4e71b51c3f31ea51fcf20a327498"
+    },
+    {
+      "path": "cohorts-2023-2025/cohorts/2025/official/source-figures/plan-99839-document_image_rId4.png",
+      "bytes": 2649,
+      "sha256": "079ee6539e29b85d9bccb9016e8147e9319c1fd1aa2a8a6ac0f4e74a915109bc"
+    },
+    {
+      "path": "cohorts-2023-2025/cohorts/2025/official/source-figures/plan-99839-document_image_rId5.jpeg",
+      "bytes": 254135,
+      "sha256": "6a2478916bdcc2241856d41d0645a5f7ff8f963a982fcc188fa35394c42d3333"
+    },
+    {
+      "path": "cohorts-2023-2025/cohorts/2025/official/source-figures/plan-99839-document_image_rId6.jpeg",
+      "bytes": 41934,
+      "sha256": "1c042e14a437f1e5e013fe9fa3e3e26612b4ecbcf79efc0e5be38d6377156a43"
+    },
+    {
+      "path": "cohorts-2023-2025/cohorts/2025/official/source-figures/plan-99839-document_image_rId7.jpeg",
+      "bytes": 63389,
+      "sha256": "c1b72c7dd601e0edb4ed23d84499bf6f0c2313a39c7fb537fe5b29e6e4cec52c"
+    },
+    {
+      "path": "cohorts-2023-2025/cohorts/2025/official/source-figures/plan-99839-document_image_rId8.jpeg",
+      "bytes": 116701,
+      "sha256": "a3dabb0f5cc9ffcb10ab7e06a267d1384d1fa504016532b49495817ce8ef7b92"
+    },
+    {
+      "path": "cohorts-2023-2025/cohorts/2025/official/word-originals/plan-96712.docx",
+      "bytes": 503363,
+      "sha256": "53aa2ce4b306e01e01db246422d6fd64e9f3dabd6981be3ad8299959a2c71e39"
+    },
+    {
+      "path": "cohorts-2023-2025/cohorts/2025/official/word-originals/plan-96786.docx",
+      "bytes": 473853,
+      "sha256": "82dad242d9b3f1e235149e3c363a62f0a0205ecd977aa98c6aabf044f68c4205"
+    },
+    {
+      "path": "cohorts-2023-2025/cohorts/2025/official/word-originals/plan-96808.docx",
+      "bytes": 257280,
+      "sha256": "1aff70ca37040c07fea2d9441a63d2b0b9723e3c8999c86b79cd5ae4d2d51a25"
+    },
+    {
+      "path": "cohorts-2023-2025/cohorts/2025/official/word-originals/plan-96911.docx",
+      "bytes": 530493,
+      "sha256": "a5e5c72fc7368d29f4e61ffb3e1f8f27d372d591ae313e4be70cddf018b605ce"
+    },
+    {
+      "path": "cohorts-2023-2025/cohorts/2025/official/word-originals/plan-96921.docx",
+      "bytes": 497001,
+      "sha256": "1e142724a6db2505ee6c71c151515407e77f68f48bcac006b80be454e0d98f96"
+    },
+    {
+      "path": "cohorts-2023-2025/cohorts/2025/official/word-originals/plan-96924.docx",
+      "bytes": 305795,
+      "sha256": "10b9cc9e9e11afaa40f6b54a92f93438789c0c6cd7415b79ae23f10076fda7b4"
+    },
+    {
+      "path": "cohorts-2023-2025/cohorts/2025/official/word-originals/plan-96926.docx",
+      "bytes": 302227,
+      "sha256": "f367a20dcc4592454ec1766de72cfce417f50a3019a43ae20f57497443c9be24"
+    },
+    {
+      "path": "cohorts-2023-2025/cohorts/2025/official/word-originals/plan-96928.docx",
+      "bytes": 282568,
+      "sha256": "933e788e0edd0cf1f2cc8248f36e8838f5dd974d536de32ac4f22ab6cf91c7c8"
+    },
+    {
+      "path": "cohorts-2023-2025/cohorts/2025/official/word-originals/plan-96973.docx",
+      "bytes": 299683,
+      "sha256": "5f5339c2dae4283127d791ce6a9fd26a8e7a5b123db5c86c3ae0df10e5deb08c"
+    },
+    {
+      "path": "cohorts-2023-2025/cohorts/2025/official/word-originals/plan-96976.docx",
+      "bytes": 358079,
+      "sha256": "ce6123b5e1cad8c8d64867e73492676aa2d7ac34ff1b46225538029f1d0559fc"
+    },
+    {
+      "path": "cohorts-2023-2025/cohorts/2025/official/word-originals/plan-96983.docx",
+      "bytes": 323988,
+      "sha256": "753f8ed92e28f1633790dd53f1742df62faab3bc38e8aa8f977dbb4b5d3ae5fa"
+    },
+    {
+      "path": "cohorts-2023-2025/cohorts/2025/official/word-originals/plan-96987.docx",
+      "bytes": 274914,
+      "sha256": "6ef117ac19ebead999d79bba183b9ebdb82368968ca7333e8c059f655263cf7f"
+    },
+    {
+      "path": "cohorts-2023-2025/cohorts/2025/official/word-originals/plan-96989.docx",
+      "bytes": 244418,
+      "sha256": "b834d7ff44d5261828032c386bb8dd29987338bc7b12c4159e4774285dc30db9"
+    },
+    {
+      "path": "cohorts-2023-2025/cohorts/2025/official/word-originals/plan-96992.docx",
+      "bytes": 228922,
+      "sha256": "1c1666240ac6c120a4c376d3b9ddd775e576671d3199b92fbbe427ea71bf64a8"
+    },
+    {
+      "path": "cohorts-2023-2025/cohorts/2025/official/word-originals/plan-96995.docx",
+      "bytes": 468458,
+      "sha256": "a6a2eb4b79aa1cdd7d0936bd2a9d60c6c9aac65ddf8ec722bf234486d8721a9b"
+    },
+    {
+      "path": "cohorts-2023-2025/cohorts/2025/official/word-originals/plan-96996.docx",
+      "bytes": 511031,
+      "sha256": "2faf579398b55af96bedafa9a82385f4906671f38dcea92d4ec34aa2d66a5af4"
+    },
+    {
+      "path": "cohorts-2023-2025/cohorts/2025/official/word-originals/plan-96997.docx",
+      "bytes": 533158,
+      "sha256": "ac9167d23afc995155cb33773040657f42ad6e2ae8e75313b86e0ac56da3cb8f"
+    },
+    {
+      "path": "cohorts-2023-2025/cohorts/2025/official/word-originals/plan-96999.docx",
+      "bytes": 516451,
+      "sha256": "13ae8fd140e31b4fbd0db2bff011b0fc78aabb12768e8170062088a1c2ba0e46"
+    },
+    {
+      "path": "cohorts-2023-2025/cohorts/2025/official/word-originals/plan-99306.docx",
+      "bytes": 440109,
+      "sha256": "9821fe020222e4ed1c65b0b8a317009a4a72e2533d05131124378b0a45b11aa9"
+    },
+    {
+      "path": "cohorts-2023-2025/cohorts/2025/official/word-originals/plan-99655.docx",
+      "bytes": 439078,
+      "sha256": "676929991d34b483423f020723898b9a7bddcf1e5d5690913eef7b973b362773"
+    },
+    {
+      "path": "cohorts-2023-2025/cohorts/2025/official/word-originals/plan-99830.docx",
+      "bytes": 241580,
+      "sha256": "b51571606bff4d39dd3ec1120e0aa8c54156b655fdbca60479dd2f2877d88e2b"
+    },
+    {
+      "path": "cohorts-2023-2025/cohorts/2025/official/word-originals/plan-99832.docx",
+      "bytes": 218851,
+      "sha256": "51a94e5ab8166c023cb3d1054e37632ee063754806288d032094ed48b8d8cfe8"
+    },
+    {
+      "path": "cohorts-2023-2025/cohorts/2025/official/word-originals/plan-99839.docx",
+      "bytes": 423241,
+      "sha256": "6b5b38c8b90f0a3a35fb4520a6e9c5a9e15033a1253a16f501b91ed16680c5fb"
+    },
+    {
+      "path": "cohorts-2023-2025/cohorts/2025/official/word-text/plan-96712.txt",
+      "bytes": 44337,
+      "sha256": "004fd35b850b1dbec245f5a43f904387eea26e564884b3198686a18a9a2bd828"
+    },
+    {
+      "path": "cohorts-2023-2025/cohorts/2025/official/word-text/plan-96786.txt",
+      "bytes": 16513,
+      "sha256": "ad31065b9eff7f9759adf6b8c535576e00aa9789c4be5be9e4d102b534f23872"
+    },
+    {
+      "path": "cohorts-2023-2025/cohorts/2025/official/word-text/plan-96808.txt",
+      "bytes": 19543,
+      "sha256": "b75f45af82d67794315fead10a26820c2e7652a083e4ea51f4ac85279d11b694"
+    },
+    {
+      "path": "cohorts-2023-2025/cohorts/2025/official/word-text/plan-96911.txt",
+      "bytes": 15922,
+      "sha256": "319be1bd586adf848639dd800bfc9c5771c4387bca4054349bc49157509bc47e"
+    },
+    {
+      "path": "cohorts-2023-2025/cohorts/2025/official/word-text/plan-96921.txt",
+      "bytes": 42326,
+      "sha256": "1af3e45dc61b57f80381b700590225043e850d41e981d2be5cc143f0046ef9d2"
+    },
+    {
+      "path": "cohorts-2023-2025/cohorts/2025/official/word-text/plan-96924.txt",
+      "bytes": 15182,
+      "sha256": "a060679f48eb963154a8e522c06aa621958bd757956e8c0babe4cd2fa39699c9"
+    },
+    {
+      "path": "cohorts-2023-2025/cohorts/2025/official/word-text/plan-96926.txt",
+      "bytes": 13671,
+      "sha256": "5b4a504e4f9361cd2885e19ab4566344f0305d9221ba5b49d3885000f39ca072"
+    },
+    {
+      "path": "cohorts-2023-2025/cohorts/2025/official/word-text/plan-96928.txt",
+      "bytes": 21596,
+      "sha256": "94f05382b420616931930d94b06d1beeb52976941a6e92cd32cdb3175903be08"
+    },
+    {
+      "path": "cohorts-2023-2025/cohorts/2025/official/word-text/plan-96973.txt",
+      "bytes": 16398,
+      "sha256": "3ad6f2cfee3f3c159455914d3c2cf50307ffa37f81cd543d518a91c9733b0f44"
+    },
+    {
+      "path": "cohorts-2023-2025/cohorts/2025/official/word-text/plan-96976.txt",
+      "bytes": 13721,
+      "sha256": "df39d53c42848120a2db0ef98aaf69361b8ad94d99281f1b7485f167fc4b69cb"
+    },
+    {
+      "path": "cohorts-2023-2025/cohorts/2025/official/word-text/plan-96983.txt",
+      "bytes": 22533,
+      "sha256": "04771eeb82d9d8af07fa4b7d1ab34796ea0dc16fdda5716968ce5b7366f7342d"
+    },
+    {
+      "path": "cohorts-2023-2025/cohorts/2025/official/word-text/plan-96987.txt",
+      "bytes": 15681,
+      "sha256": "22b52fa765af5dbadc2851bfae7de4c75eb4f1fd822c7554d6339d827a0a96f8"
+    },
+    {
+      "path": "cohorts-2023-2025/cohorts/2025/official/word-text/plan-96989.txt",
+      "bytes": 22061,
+      "sha256": "3003e66f112e5793318e99b224c6b7e78aae3b9dd7ed1316f5123f061174023e"
+    },
+    {
+      "path": "cohorts-2023-2025/cohorts/2025/official/word-text/plan-96992.txt",
+      "bytes": 16330,
+      "sha256": "89fdfd8a2a9c095cb94eb003a920bf103b7a50608676adbc8782d2246942a62f"
+    },
+    {
+      "path": "cohorts-2023-2025/cohorts/2025/official/word-text/plan-96995.txt",
+      "bytes": 22794,
+      "sha256": "185cc650cf2ca9260dec0f91f677e9fd944074444924ab02c14f652b73712c81"
+    },
+    {
+      "path": "cohorts-2023-2025/cohorts/2025/official/word-text/plan-96996.txt",
+      "bytes": 15284,
+      "sha256": "bad5c0b54e65ef2a214de8586c62d3c5e1e1123c4f38393b10b6fceb74b1eae2"
+    },
+    {
+      "path": "cohorts-2023-2025/cohorts/2025/official/word-text/plan-96997.txt",
+      "bytes": 14057,
+      "sha256": "565f03000d6ed4ba3724e8ae294a344b4363f698db0f10aaa57f73a98b4897e8"
+    },
+    {
+      "path": "cohorts-2023-2025/cohorts/2025/official/word-text/plan-96999.txt",
+      "bytes": 25747,
+      "sha256": "ded63dfd172672da25b6d77e767dbd73f56179bd2a1a9a77b76523982bd426b1"
+    },
+    {
+      "path": "cohorts-2023-2025/cohorts/2025/official/word-text/plan-99306.txt",
+      "bytes": 42470,
+      "sha256": "0ba6347c595596a916f71d053b250f808ed368a1b831d0fa78f85a4631ff8aab"
+    },
+    {
+      "path": "cohorts-2023-2025/cohorts/2025/official/word-text/plan-99655.txt",
+      "bytes": 14007,
+      "sha256": "9518847030cc3ba40b21be141b95dc74d1b3f45530890cc65ef43b5c6e73ddfa"
+    },
+    {
+      "path": "cohorts-2023-2025/cohorts/2025/official/word-text/plan-99830.txt",
+      "bytes": 15132,
+      "sha256": "bc672836e1d01172d59117ed784981996b2ddf075c474ae87d2cfc33354e48c4"
+    },
+    {
+      "path": "cohorts-2023-2025/cohorts/2025/official/word-text/plan-99832.txt",
+      "bytes": 19493,
+      "sha256": "319f184ee683c44736058c6734a6173f03fafe44ddcfd23f1332f69fc97eb712"
+    },
+    {
+      "path": "cohorts-2023-2025/cohorts/2025/official/word-text/plan-99839.txt",
+      "bytes": 15234,
+      "sha256": "6aedce81353f616b9b7388bbb8284e74b8d1410ec489237a6b3e284807d082ba"
+    },
+    {
+      "path": "cohorts-2023-2025/cohorts/catalogue-evidence/2024-handbook-guidance-review.json",
+      "bytes": 2605,
+      "sha256": "80bd7f6329ece299833c0b2ae8b125f5047a6eebb80cafe82bcdbb90002afb4a"
+    },
+    {
+      "path": "cohorts-2023-2025/cohorts/catalogue-evidence/README.md",
+      "bytes": 1278,
+      "sha256": "59580835d4f9e4db2c044de6b682c1633a87f7776e3b3a3c986c06ad96bd7cd0"
+    },
+    {
+      "path": "cohorts-2023-2025/cohorts/catalogue-evidence/directory-foreign-all-years-source.json",
+      "bytes": 342,
+      "sha256": "778eede35daec9254650ca00d32a8c9ede4906b5d5132237bde5d70620bf28d8"
+    },
+    {
+      "path": "cohorts-2023-2025/cohorts/catalogue-evidence/directory-foreign-all-years.json",
+      "bytes": 134923,
+      "sha256": "a195d7931148805228f38e8efa00a6cbbcb99c16a01b8dccff6e51ad5e936263"
+    },
+    {
+      "path": "cohorts-2023-2025/cohorts/catalogue-evidence/figure-review.json",
+      "bytes": 147373,
+      "sha256": "194dc79554e1367786c8923b0cca9cfe1dd79e8befd2417fba4d8fd2eeb7967a"
+    },
+    {
+      "path": "cohorts-2023-2025/cohorts/catalogue-evidence/figure-review.md",
+      "bytes": 1444,
+      "sha256": "8ef325aab2e3e2d94d37e38e6a9868fae5b4e93310a537f16f4b47df91a7ad64"
+    },
+    {
+      "path": "cohorts-2023-2025/cohorts/scripts/fetch_official.py",
+      "bytes": 5856,
+      "sha256": "3b183cbc22aa1ca5e125a9ccd5d5f30297ebc1a4254ffc01203e9a8de5eb7fd5"
+    },
+    {
+      "path": "cohorts-2023-2025/cohorts/scripts/verify_official.py",
+      "bytes": 2856,
+      "sha256": "206a478bdcd5e98847ee58612d30bbf607f88867e4a8556e9128a90874eaeea4"
+    },
+    {
+      "path": "cohorts-2023-2025/cohorts/source-download-verification.json",
+      "bytes": 1653,
+      "sha256": "cad0f30a9a997abe66101939ae99fae52f93af3f0b12890b9c13de17e65d325e"
+    },
+    {
+      "path": "cohorts-2023-2025/file-manifest.json",
+      "bytes": 76404,
+      "sha256": "58125960b7985b974df1b5ebfa39cace7670ebadf2644b4f9ea2c9a7f85497c5"
+    },
+    {
+      "path": "cohorts-2023-2025/index.html",
+      "bytes": 12396832,
+      "sha256": "51eecc4ddff41fcf651a67163d87b2a519e7213285880d55e243095413758899"
+    },
+    {
+      "path": "cohorts-2023-2025/scripts/build_graphs.py",
+      "bytes": 29442,
+      "sha256": "aa0ef7b4f44015943fe974b26a4224fd6e98e8eecf5f7930e9c845c2606d38c5"
+    },
+    {
+      "path": "cohorts-2023-2025/scripts/build_viewer.py",
+      "bytes": 25472,
+      "sha256": "7979672b028daf460412ed230bc8527f78e0abcc091245b06079294c66449ba2"
+    },
+    {
+      "path": "cohorts-2023-2025/scripts/extract_handbook_2023.py",
+      "bytes": 10066,
+      "sha256": "b04a757365657c71fc759f6d4f4de71b03cefc4b6de27cb301fac93149cc73b3"
+    },
+    {
+      "path": "cohorts-2023-2025/scripts/test_graph_rules.py",
+      "bytes": 5535,
+      "sha256": "aa18034f69f07d735dae85fdbdd9e38a22f13425bd6eca84a328878ac2da0288"
+    },
+    {
+      "path": "cohorts-2023-2025/scripts/validate.py",
+      "bytes": 6132,
+      "sha256": "6cc637ba70733b08eb28e4288415075fd2a40808fc5fd6dc25c3633c439121f8"
+    },
+    {
+      "path": "cohorts-2023-2025/validation-report.json",
+      "bytes": 2037,
+      "sha256": "4e7022c380d2ed103d87c38fdef59c2d21ac22c3ac939e89dc7a4c5320cc0b34"
     },
     {
       "path": "course-graph/README.md",
@@ -2389,8 +4354,8 @@
     },
     {
       "path": "data/course-names.txt",
-      "bytes": 13816,
-      "sha256": "cb594d5056af54686518327719fc12d144497eeaf83950e3445f133ad115c52b"
+      "bytes": 16428,
+      "sha256": "1101524c9b683724c7369afa4ea068634f536bec949749c70846959f14eab332"
     },
     {
       "path": "data/course-search-coverage.csv",
