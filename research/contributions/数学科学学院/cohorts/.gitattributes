@@ -1,0 +1,6 @@
+* -text
+*.docx binary
+*.pdf binary
+*.gz binary
+*.csv whitespace=cr-at-eol
+*/official/word-text/*.txt -whitespace

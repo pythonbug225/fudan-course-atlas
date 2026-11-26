@@ -1,0 +1,56 @@
+{
+  "passed": true,
+  "cohorts": [
+    {
+      "cohort": 2023,
+      "plans": 7,
+      "word_originals_verified": 7,
+      "raw_course_rows_verified": 2589,
+      "module_records": 216,
+      "nodes": 318,
+      "edges": 2684,
+      "learning_paths": 9,
+      "passed": true
+    },
+    {
+      "cohort": 2024,
+      "plans": 11,
+      "word_originals_verified": 11,
+      "raw_course_rows_verified": 2601,
+      "module_records": 272,
+      "nodes": 364,
+      "edges": 2717,
+      "learning_paths": 13,
+      "passed": true
+    },
+    {
+      "cohort": 2025,
+      "plans": 18,
+      "word_originals_verified": 18,
+      "raw_course_rows_verified": 2810,
+      "module_records": 365,
+      "nodes": 477,
+      "edges": 2901,
+      "learning_paths": 11,
+      "passed": true
+    }
+  ],
+  "checks": [
+    "official department directory equals downloaded plan IDs",
+    "cohort/model/department identity",
+    "Word ZIP CRC and SHA-256",
+    "Word media byte equality",
+    "raw JSON course pointers and complete row coverage",
+    "module membership completeness",
+    "plan-specific numeric term ordering",
+    "relation provenance and nonmandatory labels",
+    "learning path continuity",
+    "CSV row counts",
+    "SVG XML",
+    "embedded graph JSON equality",
+    "relative HTML links",
+    "68 syllabus index and handbook SHA-256"
+  ],
+  "browser_interaction_verified": false,
+  "hard_prerequisite_enforcement_verified": false
+}
