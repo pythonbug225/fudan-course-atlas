@@ -1,0 +1,67 @@
+{
+  "date": "2026-11-26",
+  "status": "passed",
+  "years": [
+    {
+      "cohort": 2023,
+      "status": "passed",
+      "plans": 2,
+      "course_entries": 73,
+      "programme_entries": 73,
+      "public_option_entries": 0,
+      "module_nodes": 26,
+      "edges": 307,
+      "edge_types": {
+        "planned_before": 12,
+        "recommended_preparation": 28,
+        "content_related": 35,
+        "module_membership": 232
+      },
+      "hard_prerequisites_verified": 0
+    },
+    {
+      "cohort": 2024,
+      "status": "passed",
+      "plans": 2,
+      "course_entries": 435,
+      "programme_entries": 68,
+      "public_option_entries": 367,
+      "module_nodes": 59,
+      "edges": 728,
+      "edge_types": {
+        "planned_before": 12,
+        "recommended_preparation": 25,
+        "content_related": 31,
+        "module_membership": 660
+      },
+      "hard_prerequisites_verified": 0
+    },
+    {
+      "cohort": 2025,
+      "status": "passed",
+      "plans": 4,
+      "course_entries": 592,
+      "programme_entries": 81,
+      "public_option_entries": 511,
+      "module_nodes": 42,
+      "edges": 924,
+      "edge_types": {
+        "planned_before": 21,
+        "recommended_preparation": 15,
+        "content_related": 40,
+        "module_membership": 848
+      },
+      "hard_prerequisites_verified": 0
+    }
+  ],
+  "checks": [
+    "8 official original DOCX CRC/size/SHA-256 and year/plan identity",
+    "Every normalized course row traces to its own cohort API JSON pointer",
+    "No invented mandatory prerequisites or cross-cohort term transfer",
+    "Same-plan term evidence and per-plan DAGs",
+    "All course entries link to a source module; public candidate scope preserved",
+    "Learning-path continuity, inline graph identity, JS syntax, parseable SVG and CSV",
+    "Sensitive-content scan"
+  ],
+  "browser_ui_validation": "not_performed; no claim of completed browser interaction tests"
+}
