@@ -2,6 +2,12 @@
 
 2023 年度汇编，方案正文印刷页 507–510。本页附上原书 PDF 第 519–526 页，其中含本专业紧随正文的各版修读建议。逐行数据覆盖可可靠对应课号和名称的原表记录。[方案原页](original-pages.pdf) · [完整原版](https://jwc.fudan.edu.cn/_upload/article/files/83/6c/8a3c080c4f8991024f4b59ad4f1b/64d23c13-0465-4619-bd18-9e491594f850.pdf#page=519) · [逐行数据与来源](record.json)
 
+## 课程导读
+
+想了解物理理论与实验的课程安排，可以在原表中找到《量子力学I》（`PHYS130008`）、《经典力学》（`PHYS130003`）、《电动力学》（`PHYS130114`）。 [原书 PDF 第 519 页](original-pages.pdf#page=1) · [原书 PDF 第 520 页](original-pages.pdf#page=2)
+
+《热力学与统计物理I》（`PHYS130113`）和《热力学与统计物理II》（`PHYS130035`）是同一系列，图中的箭头按题名标出的分册顺序排列。原表分别排在第 4 学期和第 7 学期。 [原书 PDF 第 519 页](original-pages.pdf#page=1) · [原书 PDF 第 520 页](original-pages.pdf#page=2)
+
 ~~~mermaid
 flowchart LR
   xPHYS130113["热力学与统计物理I"] -->|分册联系|xPHYS130035["热力学与统计物理II"]

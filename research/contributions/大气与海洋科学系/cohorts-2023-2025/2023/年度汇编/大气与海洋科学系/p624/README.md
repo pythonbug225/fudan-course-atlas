@@ -2,6 +2,12 @@
 
 2023 年度汇编，方案正文印刷页 624–626。本页附上原书 PDF 第 636–640 页，其中含本专业紧随正文的各版修读建议。逐行数据覆盖可可靠对应课号和名称的原表记录。[方案原页](original-pages.pdf) · [完整原版](https://jwc.fudan.edu.cn/_upload/article/files/83/6c/8a3c080c4f8991024f4b59ad4f1b/64d23c13-0465-4619-bd18-9e491594f850.pdf#page=636) · [逐行数据与来源](record.json)
 
+## 课程导读
+
+想了解大气与气候的课程安排，可以在原表中找到《大气科学导论》（`ATMO130003`）、《现代气候学》（`ATMO130037`）、《动力气象学》（`ATMO130033`）。 [原书 PDF 第 636 页](original-pages.pdf#page=1) · [原书 PDF 第 637 页](original-pages.pdf#page=2)
+
+《专业科研训练Ⅰ》（`ATMO130050`）和《专业科研训练Ⅱ》（`ATMO130051`）是同一系列，图中的箭头按题名标出的分册顺序排列。原表分别排在第 6 学期和第 7 学期。 [原书 PDF 第 637 页](original-pages.pdf#page=2) · [原书 PDF 第 638 页](original-pages.pdf#page=3)
+
 ~~~mermaid
 flowchart LR
   xATMO130050["专业科研训练Ⅰ"] -->|分册联系|xATMO130051["专业科研训练Ⅱ"]

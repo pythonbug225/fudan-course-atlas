@@ -2,6 +2,12 @@
 
 2023 年度汇编，方案正文印刷页 740–743。本页附上原书 PDF 第 752–757 页，其中含本专业紧随正文的各版修读建议。逐行数据覆盖可可靠对应课号和名称的原表记录。[方案原页](original-pages.pdf) · [完整原版](https://jwc.fudan.edu.cn/_upload/article/files/83/6c/8a3c080c4f8991024f4b59ad4f1b/64d23c13-0465-4619-bd18-9e491594f850.pdf#page=752) · [逐行数据与来源](record.json)
 
+## 课程导读
+
+想了解飞行器与力学的课程安排，可以在原表中找到《飞行器总体设计》（`MECH130065`）、《飞行力学与飞行控制》（`MECH130028`）、《实验空气动力学》（`MECH130027`）。 [原书 PDF 第 753 页](original-pages.pdf#page=2)
+
+《数学分析BI》（`MATH120016`）和《数学分析BII》（`MATH120017`）是同一系列，图中的箭头按题名标出的分册顺序排列。原表分别排在第 1 学期和第 2 学期。 [原书 PDF 第 752 页](original-pages.pdf#page=1)
+
 ~~~mermaid
 flowchart LR
   xMATH120016["数学分析BI"] -->|分册联系|xMATH120017["数学分析BII"]

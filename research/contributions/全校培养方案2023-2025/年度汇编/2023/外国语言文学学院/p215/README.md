@@ -2,6 +2,12 @@
 
 2023 年度汇编，方案正文印刷页 215–218。本页附上原书 PDF 第 227–234 页，其中含本专业紧随正文的各版修读建议。逐行数据覆盖可可靠对应课号和名称的原表记录。[方案原页](original-pages.pdf) · [完整原版](https://jwc.fudan.edu.cn/_upload/article/files/83/6c/8a3c080c4f8991024f4b59ad4f1b/64d23c13-0465-4619-bd18-9e491594f850.pdf#page=227) · [逐行数据与来源](record.json)
 
+## 课程导读
+
+想了解翻译训练的课程安排，可以在原表中找到《翻译与思辨》（`FORE130133`）、《笔译实务》（`FORE130461`）、《商务口译》（`FORE130323`）。 [原书 PDF 第 228 页](original-pages.pdf#page=2) · [原书 PDF 第 229 页](original-pages.pdf#page=3)
+
+《英汉互译技巧I》（`FORE130144`）和《英汉互译技巧II》（`FORE130145`）是同一系列，图中的箭头按题名标出的分册顺序排列。原表分别排在第 4 学期和第 5 学期。 [原书 PDF 第 228 页](original-pages.pdf#page=2)
+
 ~~~mermaid
 flowchart LR
   xFORE130144["英汉互译技巧I"] -->|分册联系|xFORE130145["英汉互译技巧II"]

@@ -1,5 +1,7 @@
 # 马克思主义学院 · 2023—2025 级培养方案
 
+[打开课程图谱与逐方案修读导读](课程图谱与修读导读.md)
+
 | 入学年级 | 教务系统方案与课程关系 | 入学年度汇编 |
 |---|---|---|
 | 2023 | [1 份](https://github.com/pythonbug225/fudan-course-atlas/tree/research/chinese-sirpa-marxism-20261027/research/contributions/departments-20261027/marxism/cohorts-2023-2025/2023) | [1 个专业方案](https://github.com/pythonbug225/fudan-course-atlas/blob/research/chinese-sirpa-marxism-20261027/research/contributions/departments-20261027/marxism/cohorts-2023-2025/2023/%E5%B9%B4%E5%BA%A6%E6%B1%87%E7%BC%96/%E9%A9%AC%E5%85%8B%E6%80%9D%E4%B8%BB%E4%B9%89%E5%AD%A6%E9%99%A2/p477/README.md) |

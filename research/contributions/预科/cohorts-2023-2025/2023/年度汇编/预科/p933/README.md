@@ -2,6 +2,12 @@
 
 2023 年度汇编，方案正文印刷页 933–934。本页附上原书 PDF 第 945–946 页，其中含本专业紧随正文的各版修读建议。逐行数据覆盖可可靠对应课号和名称的原表记录。[方案原页](original-pages.pdf) · [完整原版](https://jwc.fudan.edu.cn/_upload/article/files/83/6c/8a3c080c4f8991024f4b59ad4f1b/64d23c13-0465-4619-bd18-9e491594f850.pdf#page=945) · [逐行数据与来源](record.json)
 
+## 课程导读
+
+想了解预科学习的课程安排，可以在原表中找到《预科数学（上）》（`MATH010001`）、《汉语写作》（`CHIN110013`）、《大学语文》（`CHIN110008`）。 [原书 PDF 第 945 页](original-pages.pdf#page=1) · [原书 PDF 第 946 页](original-pages.pdf#page=2)
+
+《预科英语I》（`ENGL010001`）和《预科英语II》（`ENGL010002`）是同一系列，图中的箭头按题名标出的分册顺序排列。原表分别排在秋季学期和春季学期。 [原书 PDF 第 946 页](original-pages.pdf#page=2)
+
 ~~~mermaid
 flowchart LR
   xPTSS110058["形势与政策I"] -->|分册联系|xPTSS110059["形势与政策II"]

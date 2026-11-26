@@ -4,6 +4,12 @@
 
 [本节原页](plan-418.pdf#page=5) · [逐行数据](plan-418.json) · [院系目录](README.md)
 
+## 课程导读
+
+想了解经济理论与计量方法的课程安排，可以在原表中找到《中级微观经济学 Intermediate Microeconomics》（`ECON130244`）、《中级宏观经济学 Intermediate Macroeconomics》（`ECON130245`）、《计量经济学（H） Econometrics (H)》（`ECON130240h`）。 [原书 PDF 第 437 页](plan-418.pdf#page=6)
+
+图中连接《国际贸易》（`ECON130004`）和《国际贸易（H） International Trade （H)》（`ECON130267h`），两门课都从课程题名标出的“国际贸易”切入，可沿这一主题对照阅读。 [原书 PDF 第 437 页](plan-418.pdf#page=6) · [原书 PDF 第 438 页](plan-418.pdf#page=7)
+
 ## 课程关系图
 
 图中展示最多 20 条关系。下表列出本节全部关系。建议学习顺序供规划课程使用，正式选课资格以教务规定为准。

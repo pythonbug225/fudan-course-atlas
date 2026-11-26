@@ -2,6 +2,12 @@
 
 2023 年度汇编，方案正文印刷页 495–498。本页附上原书 PDF 第 507–512 页，其中含本专业紧随正文的各版修读建议。逐行数据覆盖可可靠对应课号和名称的原表记录。[方案原页](original-pages.pdf) · [完整原版](https://jwc.fudan.edu.cn/_upload/article/files/83/6c/8a3c080c4f8991024f4b59ad4f1b/64d23c13-0465-4619-bd18-9e491594f850.pdf#page=507) · [逐行数据与来源](record.json)
 
+## 课程导读
+
+想了解计算方法与数学基础的课程安排，可以在原表中找到《微分方程数值解法》（`MATH130016`）、《计算方法》（`MATH130036`）、《数学分析III》（`MATH130001`）。 [原书 PDF 第 507 页](original-pages.pdf#page=1) · [原书 PDF 第 508 页](original-pages.pdf#page=2)
+
+图中把《数学模型》（`MATH130008`）和《最优化方法》（`MATH130138`）列作内容联系。模型目标、决策变量与优化求解。 [原书 PDF 第 508 页](original-pages.pdf#page=2)
+
 ~~~mermaid
 flowchart LR
   xMATH130007["实变函数"] -->|知识准备建议|xMATH130011["泛函分析"]

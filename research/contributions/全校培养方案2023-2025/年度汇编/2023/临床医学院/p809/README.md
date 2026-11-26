@@ -2,6 +2,12 @@
 
 2023 年度汇编，方案正文印刷页 809–812。本页附上原书 PDF 第 821–830 页，其中含本专业紧随正文的各版修读建议。逐行数据覆盖可可靠对应课号和名称的原表记录。[方案原页](original-pages.pdf) · [完整原版](https://jwc.fudan.edu.cn/_upload/article/files/83/6c/8a3c080c4f8991024f4b59ad4f1b/64d23c13-0465-4619-bd18-9e491594f850.pdf#page=821) · [逐行数据与来源](record.json)
 
+## 课程导读
+
+想了解临床医学的课程安排，可以在原表中找到《诊断学》（`MED130447`）、《内科学B（上）》（`MED130380`）、《外科学B（上）》（`MED130382`）。 [原书 PDF 第 822 页](original-pages.pdf#page=2)
+
+图中把《医学遗传学》（`MED130480`）和《人体分子与细胞》（`MED130479`）列作内容联系。基因、细胞与人体性状是共同知识背景。 [原书 PDF 第 821 页](original-pages.pdf#page=1) · [原书 PDF 第 822 页](original-pages.pdf#page=2)
+
 ~~~mermaid
 flowchart LR
   xMED130398["人体解剖学"] -->|知识准备建议|xMED130446["局部解剖学"]

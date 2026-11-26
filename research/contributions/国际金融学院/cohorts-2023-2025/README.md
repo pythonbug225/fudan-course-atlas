@@ -1,5 +1,7 @@
 # 国际金融学院 · 2023—2025 级培养方案
 
+[打开课程图谱与逐方案修读导读](课程图谱与修读导读.md)
+
 | 入学年级 | 教务系统方案与课程关系 | 入学年度汇编 |
 |---|---|---|
 | 2023 | [3 份](https://github.com/pythonbug225/fudan-course-atlas/tree/research/schoolwide-cohorts-2023-2025/research/contributions/%E5%9B%BD%E9%99%85%E9%87%91%E8%9E%8D%E5%AD%A6%E9%99%A2/cohorts-2023-2025/2023) | [1 个专业方案](https://github.com/pythonbug225/fudan-course-atlas/blob/research/schoolwide-cohorts-2023-2025/research/contributions/%E5%9B%BD%E9%99%85%E9%87%91%E8%9E%8D%E5%AD%A6%E9%99%A2/cohorts-2023-2025/2023/%E5%B9%B4%E5%BA%A6%E6%B1%87%E7%BC%96/%E6%B3%9B%E6%B5%B7%E5%9B%BD%E9%99%85%E9%87%91%E8%9E%8D%E5%AD%A6%E9%99%A2/p401/README.md) |

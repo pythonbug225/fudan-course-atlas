@@ -2,6 +2,12 @@
 
 2023 年度汇编，方案正文印刷页 794–798。本页附上原书 PDF 第 806–814 页，其中含本专业紧随正文的各版修读建议。逐行数据覆盖可可靠对应课号和名称的原表记录。[方案原页](original-pages.pdf) · [完整原版](https://jwc.fudan.edu.cn/_upload/article/files/83/6c/8a3c080c4f8991024f4b59ad4f1b/64d23c13-0465-4619-bd18-9e491594f850.pdf#page=806) · [逐行数据与来源](record.json)
 
+## 课程导读
+
+想了解临床医学的课程安排，可以在原表中找到《诊断学》（`MED130522`）、《内科学A》（`MED130526`）、《外科学A》（`MED130527`）。 [原书 PDF 第 807 页](original-pages.pdf#page=2)
+
+图谱建议先读《诊断学》（`MED130522`）再读《内科学A》（`MED130526`）。病史、体格检查与诊断推理可用于内科课程的病例分析。 [原书 PDF 第 807 页](original-pages.pdf#page=2)
+
 ~~~mermaid
 flowchart LR
   xMED130522["诊断学"] -->|知识准备建议|xMED130526["内科学A"]

@@ -4,6 +4,20 @@
 
 [本节原页](plan-418.pdf#page=1) · [逐行数据](plan-418.json) · [院系目录](README.md)
 
+## 课程导读
+
+想了解经济理论与计量方法的课程安排，可以在原表中找到《Intermediate Microeconomics》（`ECON130244`）、《Intermediate Macroeconomics》（`ECON130245`）、《Econometrics (H)》（`ECON130240h`）。 [原书 PDF 第 432 页](plan-418.pdf#page=1)
+
+图中箭头表示本节原表收录该课，图上各课之间没有先修连线。
+
+```mermaid
+flowchart LR
+  scope["本专业方案"]
+  scope -->|原表收录| cECON130244["Intermediate Microeconomics（ECON130244）"]
+  scope -->|原表收录| cECON130245["Intermediate Macroeconomics（ECON130245）"]
+  scope -->|原表收录| cECON130240h["Econometrics (H)（ECON130240h）"]
+```
+
 本节未核实可定位到课程对的关系。
 
 

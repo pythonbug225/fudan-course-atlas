@@ -2,6 +2,12 @@
 
 2023 年度汇编，方案正文印刷页 669–671。本页附上原书 PDF 第 681–685 页，其中含本专业紧随正文的各版修读建议。逐行数据覆盖可可靠对应课号和名称的原表记录。[方案原页](original-pages.pdf) · [完整原版](https://jwc.fudan.edu.cn/_upload/article/files/83/6c/8a3c080c4f8991024f4b59ad4f1b/64d23c13-0465-4619-bd18-9e491594f850.pdf#page=681) · [逐行数据与来源](record.json)
 
+## 课程导读
+
+想了解通信与信号的课程安排，可以在原表中找到《信号与通信系统》（`INFO130009`）、《计算机通信与网络》（`INFO130031`）、《通信原理B》（`INFO130354`）。 [原书 PDF 第 681 页](original-pages.pdf#page=1) · [原书 PDF 第 682 页](original-pages.pdf#page=2)
+
+图中把《离散数学》（`INFO130120`）和《数据结构》（`INFO130327`）列作内容联系。图、树与离散结构。 [原书 PDF 第 682 页](original-pages.pdf#page=2) · [原书 PDF 第 683 页](original-pages.pdf#page=3)
+
 ~~~mermaid
 flowchart LR
   xINFO130327["数据结构"] -->|知识准备建议|xINFO130057["算法设计与分析"]

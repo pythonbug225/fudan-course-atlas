@@ -2,6 +2,12 @@
 
 2023 年度汇编，方案正文印刷页 760–763。本页附上原书 PDF 第 772–777 页，其中含本专业紧随正文的各版修读建议。逐行数据覆盖可可靠对应课号和名称的原表记录。[方案原页](original-pages.pdf) · [完整原版](https://jwc.fudan.edu.cn/_upload/article/files/83/6c/8a3c080c4f8991024f4b59ad4f1b/64d23c13-0465-4619-bd18-9e491594f850.pdf#page=772) · [逐行数据与来源](record.json)
 
+## 课程导读
+
+想了解机器学习与智能计算的课程安排，可以在原表中找到《人工智能》（`DATA130008`）、《模式识别与机器学习》（`COMP130137`）、《神经网络与深度学习》（`DATA130011`）。 [原书 PDF 第 773 页](original-pages.pdf#page=2) · [原书 PDF 第 774 页](original-pages.pdf#page=3)
+
+图谱建议先读《线性代数》（`COMP120004`）再读《模式识别与机器学习》（`COMP130137`）。向量表示和矩阵运算支持理解分类、回归等模型。 [原书 PDF 第 772 页](original-pages.pdf#page=1) · [原书 PDF 第 773 页](original-pages.pdf#page=2)
+
 ~~~mermaid
 flowchart LR
   xCOMP120004["线性代数"] -->|知识准备建议|xCOMP130137["模式识别与机器学习"]

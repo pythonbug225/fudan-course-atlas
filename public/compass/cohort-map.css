@@ -1,0 +1,54 @@
+:root { color-scheme: light; font: 15px/1.55 "Segoe UI","Microsoft YaHei",sans-serif; color: #213e32; background: #f8f7f1; }
+* { box-sizing: border-box; }
+[hidden] { display: none !important; }
+body { margin: 0; }
+main { max-width: 1350px; margin: 0 auto; padding: clamp(14px, 2vw, 28px); }
+header, nav, .reading-tools, #filters, .panel-heading { display: flex; align-items: end; flex-wrap: wrap; gap: 12px; }
+header, .panel-heading { align-items: center; justify-content: space-between; }
+h1, h2, h3, p { margin: 0 0 .6em; }
+h1 { font-size: clamp(1.6rem, 3vw, 2.4rem); }
+h2 { font-size: 1.35rem; }
+h3 { font-size: 1.05rem; }
+a { color: #21664c; }
+form, #map { margin-top: 12px; border: 1px solid #cfd9cb; border-radius: 12px; padding: clamp(12px, 2vw, 24px); }
+form { background: #e9f0e7; }
+#map { background: #fffefa; }
+fieldset { border: 0; min-width: 0; margin: 0; padding: 0; flex: 1 0 100%; }
+legend { font-weight: 650; font-size: .9rem; margin-bottom: 5px; }
+.choices { display: flex; flex-wrap: wrap; gap: 6px; }
+.choices button { padding: 4px 10px; border: 1px solid #bccdbd; color: #31553d; }
+.choices button[aria-pressed=true] { background: #28543e; color: white; }
+label { display: grid; gap: 4px; font-size: .9rem; font-weight: 600; }
+label.wide { flex: 1 0 min(340px, 100%); }
+select, input, button { font: inherit; color: inherit; border: 1px solid #aebdc8; border-radius: 6px; background: white; padding: 6px 9px; min-width: 0; max-width: 100%; }
+button { cursor: pointer; }
+.reading-tools { margin-top: 1.25rem; padding: 12px; border-radius: 7px; background: #eaf1e7; }
+#status, #legend, #summary { color: #4b5e50; }
+#status, #legend { margin: 12px 0; }
+#status:empty { display: none; }
+nav a { font-size: .9rem; }
+#companions:not(:empty) { margin-top: 10px; }
+.graph-scroll { overflow: auto; max-height: min(64vh, 770px); border: 1px solid #cbd5c8; border-radius: 8px; background: #f4f5ed; }
+#graph, #columns { width: max-content; min-width: 100%; position: relative; }
+#columns { display: flex; align-items: flex-start; gap: 34px; padding: 10px 30px 16px 12px; pointer-events: none; }
+.term { width: 210px; display: grid; gap: 9px; }
+.term h3 { margin: 0; padding: 5px 8px; color: #30533a; background: #e0ebdd; border-radius: 5px; position: sticky; top: 0; z-index: 1; }
+.course { pointer-events: auto; text-align: left; width: 100%; background: white; border: 1px solid #cdd6c9; border-left: 4px solid #477154; border-radius: 7px; padding: 7px 9px; }
+.course strong, .course small { display: block; }
+.course a { display: block; font-weight: 650; }
+.course button { margin-top: 3px; font-size: .78rem; padding: 1px 7px; }
+.course small { color: #526875; overflow-wrap: anywhere; }
+.course:hover, .course:focus-within { border-color: #527e60; }
+.course.current { outline: 2px solid #6c9674; outline-offset: 1px; background: #eef6ea; }
+#legend { display: flex; flex-wrap: wrap; align-items: center; column-gap: 14px; row-gap: 4px; font-size: .86rem; }
+.line-key { display: inline-flex; gap: 4px; align-items: center; }
+.line-key i { width: 20px; border-top-width: 2px; }
+#links { position: absolute; inset: 0; width: 100%; height: 100%; pointer-events: none; }
+#links path { fill: none; }
+details, #reading { margin-top: 16px; }
+.relation { border-top: 1px solid #d9e2e9; padding: 10px 0; }
+.relation p, .relation code { margin: 5px 0; font-size: .9rem; overflow-wrap: anywhere; }
+.relation button { color: #155980; }
+.panel { margin-top: 15px; border: 1px solid #c7d5df; border-radius: 8px; padding: 16px; }
+ul { margin: 6px 0; padding-left: 1.3rem; }
+@media(max-width:600px) { main { padding: 10px; } label { max-width: 100%; } #filters label { flex: 1 1 42%; } #filters .wide { flex-basis: 100%; } .term { width: 156px; } .reading-tools label:first-child { flex-basis: 100%; } }

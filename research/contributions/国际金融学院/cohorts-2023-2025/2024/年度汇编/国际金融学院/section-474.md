@@ -4,6 +4,12 @@
 
 [本节原页](plan-464.pdf#page=11) · [逐行数据](plan-464.json) · [院系目录](README.md)
 
+## 课程导读
+
+想了解金融科技的课程安排，可以在原表中找到《金融科技导论 Introduction to FinTech》（`FISF130008`）、《中国金融市场 China's Financial Market》（`FISF130003`）、《金融数据科学与编程 Data Science and Programming for Finance》（`FISF130007`）。 [原书 PDF 第 490 页](plan-464.pdf#page=13)
+
+图中连接《公司金融 Corporate Finance》（`FISF130001`）和《中国金融市场 China's Financial Market》（`FISF130003`），两门课都从课程题名标出的“金融”切入，可沿这一主题对照阅读。 [原书 PDF 第 489 页](plan-464.pdf#page=12) · [原书 PDF 第 490 页](plan-464.pdf#page=13)
+
 ## 课程关系图
 
 图中展示最多 20 条关系。下表列出本节全部关系。建议学习顺序供规划课程使用，正式选课资格以教务规定为准。

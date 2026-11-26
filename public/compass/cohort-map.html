@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>往届课程地图 · 复旦选课地图</title>
+  <link rel="stylesheet" href="cohort-map.css">
+  <script type="module" src="cohort-map.js"></script>
+</head>
+<body>
+  <main>
+    <header><h1>课程地图</h1><a href="/compass" target="_top">返回课途</a></header>
+    <form id="filters" aria-label="选择培养方案" onsubmit="return false">
+      <label>入学年级<select id="year"></select></label>
+      <fieldset><legend>学科门类</legend><div id="category-options" class="choices"></div><select aria-hidden="true" hidden id="category"></select></fieldset>
+      <fieldset><legend>院系</legend><div id="department-options" class="choices"></div><select aria-hidden="true" hidden id="department"></select></fieldset>
+      <label>专业<select id="major"></select></label>
+      <label class="wide">培养方案<select id="plan"></select></label>
+    </form>
+    <div id="status" role="status">正在读取培养方案目录…</div>
+    <button id="retry" hidden type="button">重新载入</button>
+    <section id="map" hidden>
+      <h2 id="title"></h2>
+      <p id="summary"></p>
+      <nav id="sources" aria-label="方案来源"></nav>
+      <nav id="companions" aria-label="配套方案与修读建议"></nav>
+      <div class="reading-tools">
+        <label>定位课程<input id="search" type="search" list="course-options" placeholder="输入课程名或课号"><datalist id="course-options"></datalist></label>
+        <label>显示范围<select id="scope"><option value="core">基础、核心与实践</option><option value="required">方案必修</option><option value="all">方案全部专业课程</option></select></label>
+        <label>连线<select id="lines"><option value="all">显示大纲先修与建议</option><option value="syllabus">只显示大纲先修</option><option value="off">隐藏连线</option></select></label>
+        <label id="syllabus-label" hidden>参考教学班大纲<select id="syllabus"></select></label>
+      </div>
+      <p id="legend"></p>
+      <div class="graph-scroll"><div id="graph" aria-label="按学期排列的课程地图"><svg id="links" aria-hidden="true"></svg><div id="columns"></div></div></div>
+      <div id="course-panel" aria-live="polite"></div>
+      <section id="reading"><h3>方案导读</h3><ul id="guide"></ul></section>
+    </section>
+  </main>
+</body></html>

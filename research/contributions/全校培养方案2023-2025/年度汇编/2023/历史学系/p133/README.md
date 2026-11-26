@@ -2,6 +2,12 @@
 
 2023 年度汇编，方案正文印刷页 133–135。本页附上原书 PDF 第 145–151 页，其中含本专业紧随正文的各版修读建议。逐行数据覆盖可可靠对应课号和名称的原表记录。[方案原页](original-pages.pdf) · [完整原版](https://jwc.fudan.edu.cn/_upload/article/files/83/6c/8a3c080c4f8991024f4b59ad4f1b/64d23c13-0465-4619-bd18-9e491594f850.pdf#page=145) · [逐行数据与来源](record.json)
 
+## 课程导读
+
+想了解旅游与目的地管理的课程安排，可以在原表中找到《旅游学原理》（`TOUR130004`）、《酒店管理概论》（`TOUR130064`）、《旅游目的地管理》（`TOUR130062`）。 [原书 PDF 第 145 页](original-pages.pdf#page=1) · [原书 PDF 第 146 页](original-pages.pdf#page=2)
+
+图中把《旅游市场研究》（`TOUR130037`）和《旅游营销管理》（`TOUR130007`）列作内容联系。游客需求和市场调查可用于营销问题。 [原书 PDF 第 145 页](original-pages.pdf#page=1) · [原书 PDF 第 146 页](original-pages.pdf#page=2)
+
 ~~~mermaid
 flowchart LR
   xTOUR130004["旅游学原理"] -->|知识准备建议|xTOUR130062["旅游目的地管理"]

@@ -2,6 +2,20 @@
 
 2023 年度汇编，方案正文印刷页 468–472。本页附上原书 PDF 第 480–488 页，其中含本专业紧随正文的各版修读建议。逐行数据覆盖可可靠对应课号和名称的原表记录。[方案原页](original-pages.pdf) · [完整原版](https://jwc.fudan.edu.cn/_upload/article/files/83/6c/8a3c080c4f8991024f4b59ad4f1b/64d23c13-0465-4619-bd18-9e491594f850.pdf#page=480) · [逐行数据与来源](record.json)
 
+## 课程导读
+
+想了解营销研究与决策的课程安排，可以在原表中找到《营销管理\*》（`MANA130006`）、《消费者行为学》（`MANA130055`）、《品牌传播管理》（`MANA130393`）。 [原书 PDF 第 480 页](original-pages.pdf#page=1) · [原书 PDF 第 481 页](original-pages.pdf#page=2) · [原书 PDF 第 483 页](original-pages.pdf#page=4)
+
+原表把 `MANA130006` 列在第 4 学期，把 `MANA130055` 列在第 5 学期。图中箭头表示本节原表收录该课，图上各课之间没有先修连线。
+
+```mermaid
+flowchart LR
+  scope["本专业方案"]
+  scope -->|原表收录| cMANA130006["营销管理*（MANA130006）"]
+  scope -->|原表收录| cMANA130055["消费者行为学（MANA130055）"]
+  scope -->|原表收录| cMANA130393["品牌传播管理（MANA130393）"]
+```
+
 | 课号 | 课程名称 | 开课学期原文 | PDF 页 |
 |---|---|---|---|
 | MANA130001 | 概率论与数理统计 | 3 | 480 |

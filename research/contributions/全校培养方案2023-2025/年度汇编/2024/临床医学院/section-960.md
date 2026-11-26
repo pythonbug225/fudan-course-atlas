@@ -4,6 +4,20 @@
 
 [本节原页](plan-960.pdf#page=1) · [逐行数据](plan-960.json) · [院系目录](README.md)
 
+## 课程导读
+
+想了解医学基础与临床课程的课程安排，可以在原表中找到《Systematic Anatomy》（`MED130205`）、《Pathology》（`MED130212`）、《Surgery I》（`MED130225`）。 [原书 PDF 第 975 页](plan-960.pdf#page=2)
+
+图中箭头表示本节原表收录该课，图上各课之间没有先修连线。
+
+```mermaid
+flowchart LR
+  scope["本专业方案"]
+  scope -->|原表收录| cMED130205["Systematic Anatomy（MED130205）"]
+  scope -->|原表收录| cMED130212["Pathology（MED130212）"]
+  scope -->|原表收录| cMED130225["Surgery I（MED130225）"]
+```
+
 本节未核实可定位到课程对的关系。
 
 

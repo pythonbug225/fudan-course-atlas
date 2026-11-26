@@ -2,6 +2,20 @@
 
 2023 年度汇编，方案正文印刷页 414–418。本页附上原书 PDF 第 426–434 页，其中含本专业紧随正文的各版修读建议。逐行数据覆盖可可靠对应课号和名称的原表记录。[方案原页](original-pages.pdf) · [完整原版](https://jwc.fudan.edu.cn/_upload/article/files/83/6c/8a3c080c4f8991024f4b59ad4f1b/64d23c13-0465-4619-bd18-9e491594f850.pdf#page=426) · [逐行数据与来源](record.json)
 
+## 课程导读
+
+想了解运营管理与数量分析的课程安排，可以在原表中找到《运筹学\*》（`MANA130005`）、《供应链管理》（`MANA130073`）、《运营管理\*》（`MANA130008`）。 [原书 PDF 第 426 页](original-pages.pdf#page=1) · [原书 PDF 第 427 页](original-pages.pdf#page=2) · [原书 PDF 第 429 页](original-pages.pdf#page=4)
+
+原表把 `MANA130005` 列在第 3 学期，把 `MANA130073` 列在第 4 学期。图中箭头表示本节原表收录该课，图上各课之间没有先修连线。
+
+```mermaid
+flowchart LR
+  scope["本专业方案"]
+  scope -->|原表收录| cMANA130005["运筹学*（MANA130005）"]
+  scope -->|原表收录| cMANA130073["供应链管理（MANA130073）"]
+  scope -->|原表收录| cMANA130008["运营管理*（MANA130008）"]
+```
+
 | 课号 | 课程名称 | 开课学期原文 | PDF 页 |
 |---|---|---|---|
 | MANA130001 | 概率论与数理统计 | 3 | 426 |

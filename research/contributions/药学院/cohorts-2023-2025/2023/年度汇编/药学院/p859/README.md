@@ -2,6 +2,12 @@
 
 2023 年度汇编，方案正文印刷页 859–862。本页附上原书 PDF 第 871–878 页，其中含本专业紧随正文的各版修读建议。逐行数据覆盖可可靠对应课号和名称的原表记录。[方案原页](original-pages.pdf) · [完整原版](https://jwc.fudan.edu.cn/_upload/article/files/83/6c/8a3c080c4f8991024f4b59ad4f1b/64d23c13-0465-4619-bd18-9e491594f850.pdf#page=871) · [逐行数据与来源](record.json)
 
+## 课程导读
+
+想了解药物研究与临床应用的课程安排，可以在原表中找到《药理学》（`PHAR130147`）、《药物流行病学》（`PHAR130094`）、《药剂学I》（`PHAR130149`）。 [原书 PDF 第 871 页](original-pages.pdf#page=1) · [原书 PDF 第 872 页](original-pages.pdf#page=2)
+
+《临床药物治疗学I》（`PHAR130136`）和《临床药物治疗学II》（`PHAR130137`）是同一系列，图中的箭头按题名标出的分册顺序排列。原表分别排在第 5 学期和第 7 学期。 [原书 PDF 第 872 页](original-pages.pdf#page=2)
+
 ~~~mermaid
 flowchart LR
   xPHAR130145["生物化学"] -->|知识准备建议|xPHAR130138["分子生物学"]

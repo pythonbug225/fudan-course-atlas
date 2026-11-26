@@ -2,6 +2,12 @@
 
 2023 年度汇编，方案正文印刷页 199–202。本页附上原书 PDF 第 211–217 页，其中含本专业紧随正文的各版修读建议。逐行数据覆盖可可靠对应课号和名称的原表记录。[方案原页](original-pages.pdf) · [完整原版](https://jwc.fudan.edu.cn/_upload/article/files/83/6c/8a3c080c4f8991024f4b59ad4f1b/64d23c13-0465-4619-bd18-9e491594f850.pdf#page=211) · [逐行数据与来源](record.json)
 
+## 课程导读
+
+想了解政治、经济与哲学的课程安排，可以在原表中找到《比较政治制度》（`POLI130005`）、《国际经济学》（`ECON130019`）、《古希腊哲学》（`PHIL130171`）。 [原书 PDF 第 211 页](original-pages.pdf#page=1) · [原书 PDF 第 212 页](original-pages.pdf#page=2)
+
+图中把《比较政治制度》（`POLI130005`）和《当代中国政治制度》（`SOSC120019`）列作内容联系。均涉及政治制度，可对照制度安排与研究对象。 [原书 PDF 第 212 页](original-pages.pdf#page=2)
+
 ~~~mermaid
 flowchart LR
   xSOSC120004["微观经济学"] -->|知识准备建议|xECON130011["产业经济学"]
